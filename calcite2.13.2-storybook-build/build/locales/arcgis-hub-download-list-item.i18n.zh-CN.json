@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "要素集合",
+    "fgdb": "文件地理数据库",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Shapefile",
+    "sqlite": "SQLite 地理数据库"
+  },
+  "buttonText": {
+    "download": "下载",
+    "pending": "待处理",
+    "processing": "正在处理",
+    "converting": "正在转换",
+    "completed": "下载完成",
+    "failed": "下载失败"
+  },
+  "errors": {
+    "errorHeading": "错误"
+  },
+  "cacheStatusAccordion": {
+    "heading": "查找所需内容?",
+    "content": "可能存在更新的版本。",
+    "button": "请求新文件"
+  },
+  "generateNewModal": {
+    "heading": "是否确定?",
+    "content": "这可能需要一些时间。 请保持此浏览器选项卡处于活动状态，直到下载完成为止。",
+    "confirmButton": "是",
+    "cancelButton": "取消"
+  }
+}

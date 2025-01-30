@@ -1,0 +1,41 @@
+{
+  "managePrivacyButton": "管理隱私權",
+  "consentNotice": {
+    "allTracking": "此網站由 ArcGIS Hub 建立，使用匿名追蹤以增進效能，並依據 Esri 的隱私權聲明來分析網站使用情況。 其他第三方追蹤系統可能會監控您對網站的使用情況。",
+    "anonymousTracking": "此網站由 ArcGIS Hub 建立，使用匿名追蹤以增進效能，並依據 Esri 的隱私權聲明來分析網站使用情況。",
+    "noTracking": "此網站是使用 ArcGIS Hub 建立的，僅使用應用程式正常運行所需的 cookie，並且無法在我們的系統中關閉。",
+    "thirdPartyTracking": "此網站是使用 ArcGIS Hub 建立的，僅使用應用程式正常運行所需的 cookie，並且無法在我們的系統中關閉。 其他第三方追蹤系統可能會監控您對網站的使用情況。"
+  },
+  "consent": {
+    "esriPrivacyLink": "Esri 隱私權中心",
+    "customerConsentLink": "更多資訊"
+  },
+  "eueiNotice": {
+    "title": "不會追蹤 {orgName} 成員",
+    "message": "已針對 {orgName} 停用 Esri 使用者體驗改進 (EUEI) 計畫。 不會追蹤與您的訪問相關的活動；您不能接受匿名使用統計資料或第三方追蹤。",
+    "link": "深入瞭解 (EUEI) 計畫。"
+  },
+  "notice": {
+    "heading": "隱私權設定",
+    "acceptAllButton": "接受所有 Cookie",
+    "acceptNecessaryButton": "僅接受必要 Cookie",
+    "confirmButton": "確認",
+    "reviewSettingsButton": "檢閱設定"
+  },
+  "settings": {
+    "heading": "隱私權設定",
+    "confirmButton": "確認"
+  },
+  "anonymous": {
+    "heading": "匿名使用情況統計資料",
+    "helpText": "這些 cookie 使我們能夠監控應用程式效能，例如流量來源、頁面瀏覽量和互動。 它們幫助我們瞭解哪些內容有效，以及訪客如何在應用程式中移動。 收集的所有資訊都是匿名的 (不儲存個人識別資訊)。 如果您不允許這些 cookie，我們將不知道您曾經造訪過我們的應用程式或與我們的應用程式互動。"
+  },
+  "necessary": {
+    "heading": "絕對必要的 Cookie",
+    "helpText": "這些 cookie 是應用程式正常運作所必需，且無法在我們的系統中關閉。 它們是為了回應您從事的服務相關請求的操作所設定的，例如登入您的帳號。 您可以將瀏覽器設定為封鎖或提醒您有關這些 cookie，但應用程式的某些部分可能會受到影響。 收集的所有資訊都是匿名的 (不儲存個人識別資訊)。"
+  },
+  "thirdParty": {
+    "heading": "第三方追蹤",
+    "helpText": "這些 cookie 可能由本網站上配置的第三方追蹤提供者設定。 他們可能會在您訪問期間收集有關您的定位或行銷資訊。 收集的資訊可能用於本應用程式以外的用途。 如果您不允許這些 cookie，配置的第三方追蹤提供者將不會收到有關您造訪的任何資訊。"
+  }
+}

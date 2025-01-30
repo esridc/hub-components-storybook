@@ -1,0 +1,43 @@
+{
+  "header": "Discussions",
+  "myContent": "My Events",
+  "editableContent": "Editable Content",
+  "addContentButtonText":"Create Event",
+  "type": "Type",
+  "sharedUpdate": "Shared Update Group",
+  "viewOnly": "View Only Group",
+  "owner": "Owner",
+  "updated": "Updated",
+  "tags": "Tags",
+  "dateCreated": "Created",
+  "dateUpdated": "Modified",
+  "actionLinks": {
+    "view": "View",
+    "edit": "Edit",
+    "ariaEdit": "Edit: {title}",
+    "ariaView": "View: {title}"
+  },
+   "facets": {
+      "content": {
+        "label": "Events",
+        "myContent": "Events I own",
+        "editableContent": "Events I can edit",
+        "all": "All Events"
+      },
+      "access": {
+        "label": "From"
+      },
+      "type": {
+        "label": "Types"
+      },
+      "tags": {
+        "label": "Tags"
+      },
+      "categories": {
+        "label": "Categories"
+      },
+      "modified": {
+        "label": "Modified"
+      }
+    }
+}

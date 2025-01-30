@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "Kohdekokoelma",
+    "fgdb": "File geodatabase",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Shapefile",
+    "sqlite": "SQLite Geodatabase"
+  },
+  "buttonText": {
+    "download": "Lataa",
+    "pending": "Odotetaan",
+    "processing": "Käsitellään",
+    "converting": "Muunnetaan",
+    "completed": "Lataus valmis",
+    "failed": "Lataus epäonnistui"
+  },
+  "errors": {
+    "errorHeading": "Virhe"
+  },
+  "cacheStatusAccordion": {
+    "heading": "Löysitkö etsimäsi?",
+    "content": "Saatavilla voi olla uudempi versio.",
+    "button": "Pyydä uutta tiedostoa"
+  },
+  "generateNewModal": {
+    "heading": "Oletko varma?",
+    "content": "Tämä voi kestää hetken. Pidä tämä selainvälilehti aktiivisena, kunnes lataus on valmis.",
+    "confirmButton": "Kyllä",
+    "cancelButton": "Peruuta"
+  }
+}

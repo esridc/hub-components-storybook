@@ -1,0 +1,66 @@
+{
+  "followers": "Sledující",
+  "tabs": {
+    "followers": "Sledující",
+    "settings": "Nastavení"
+  },
+  "addFollowers": {
+    "label": "Přidat sledující"
+  },
+  "emptyState": {
+    "message": "Web nemá skupinu sledujících",
+    "action": "Vytvořit skupinu sledujících"
+  },
+  "createFollowersGroup": {
+    "formDescription": "Vytvořit skupinu, která usnadní sdílení obsahu a komunikaci",
+    "defaultSummary": "Tato skupina sledujících umožní členům snadno sdílet obsah a vzájemně komunikovat."
+  },
+  "restrictedAccessState": {
+    "message": "Nemáte přístup k zobrazení skupiny sledujících.",
+    "action": "Žádost o přístup"
+  },
+  "stats": {
+    "total": {
+      "title": "Celkem",
+      "trailingText": "Sledující"
+    },
+    "new": {
+      "title": "Nový",
+      "trailingText": "Posledních 30 dní"
+    }
+  },
+  "addMembers": {
+    "button": "Přidat členy",
+    "modal": {
+      "title": "Přidat členy",
+      "org": "Moje organizace",
+      "community": "Moje komunita",
+      "partner": "Moji partneři",
+      "world": "Svět"
+    },
+    "notifications": {
+      "invited": "Pozvánka odeslána. Aby se mohli uživatelé připojit, musí ji přijmout.",
+      "added": "Uživatelé byli přidáni",
+      "notInvited": "Někteří uživatelé nemají oprávnění potřebná k připojení ke skupině nebo dosáhli maximálního počtu skupin (512)."
+    }
+  },
+  "removeUsers": {
+    "button": "Odebrat",
+    "success": "Členové úspěšně odebraní z {groupName}.",
+    "error": "Jednoho nebo více uživatelů nebylo možné ze skupiny odebrat."
+  },
+  "changeRole": {
+    "button": "Změna role",
+    "member": "Člen",
+    "memberHelperText": "Můžete přidávat a zobrazovat obsah ve skupině.",
+    "tooltipText": "Zrušte výběr sebe a/nebo vlastníka skupiny",
+    "tooltipLabel": "Vyloučení odpovědnosti role",
+    "admin": "Správce",
+    "adminHelperText": "Může přidat/odebrat obsah a pozvat/odebrat osoby (kromě vlastníka).",
+    "success": "Vybraní členové se stali členy skupiny {role}.",
+    "error": "U jednoho nebo více členů nebylo možné změnit roli."
+  },
+  "notice": {
+    "label": "Chyba formuláře"
+  }
+}

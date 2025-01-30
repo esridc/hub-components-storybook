@@ -1,0 +1,43 @@
+{
+  "header": "Diskusijas",
+  "myContent": "Mani pasākumi",
+  "editableContent": "Rediģējams saturs",
+  "addContentButtonText": "Izveidot pasākumu",
+  "type": "Veids",
+  "sharedUpdate": "Koplietotā atjauninājumu grupa",
+  "viewOnly": "Tikai skatīšanās grupa",
+  "owner": "Īpašnieks",
+  "updated": "Atjaunināts",
+  "tags": "Atslēgvārdi",
+  "dateCreated": "Izveidots",
+  "dateUpdated": "Mainīts",
+  "actionLinks": {
+    "view": "Skatīt",
+    "edit": "Rediģēt",
+    "ariaEdit": "Rediģēt: {title}",
+    "ariaView": "Skatīt: {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Pasākumi",
+      "myContent": "Man piederošie pasākumi",
+      "editableContent": "Pasākumi, ko es varu rediģēt",
+      "all": "Visi pasākumi"
+    },
+    "access": {
+      "label": "No"
+    },
+    "type": {
+      "label": "Veidi"
+    },
+    "tags": {
+      "label": "Atslēgvārdi"
+    },
+    "categories": {
+      "label": "Kategorijas"
+    },
+    "modified": {
+      "label": "Mainīts"
+    }
+  }
+}

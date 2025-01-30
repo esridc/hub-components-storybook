@@ -1,0 +1,87 @@
+{
+  "initiatives": "Iniciatīvas",
+  "description": "Saistiet ar iniciatīvām, lai veicinātu ilgtermiņa vai liela mēroga centienus. Projekta līdzstrādnieki var pārvaldīt apstiprinātās saistības un neizpildītos saistību pieprasījumus. Šī projekta skatā parādīsies iniciatīvas ar apstiprinātām saistībām. ",
+  "shared": {
+    "error": {
+      "title": "Radās problēma",
+      "message": "Mēs nevarējām pabeigt uzdevumu. Lūdzu, mēģiniet vēlreiz."
+    },
+    "facets": {
+      "access": {
+        "label": "Koplietošana"
+      },
+      "status": {
+        "label": "Statuss",
+        "notStarted": "Nav sākts",
+        "inProgress": "Notiek izpilde",
+        "onHold": "Aizturēts",
+        "complete": "Pabeigts"
+      },
+      "tags": {
+        "label": "Atslēgvārdi"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "{currentConfirmedAndOutgoingRequests} / {maxCurrentAndOutgoingRequestsAllowed} apstiprinātie + izejošie pieprasījumi",
+      "tooltip": "Lai nosūtītu pieprasījumus, pārtrauciet esošās saistības un/vai izejošos pieprasījumus"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "Atrast iniciatīvas",
+    "sendRequest": "Sūtīt pieprasījumu",
+    "success": {
+      "title": "Izdevās",
+      "message": "Nosūtītie saistības pieprasījumi: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "Pārbaudīt saistības",
+      "message": "Kāda izvēle vai dažas izvēles jau ir pieprasījušas saistību. Nosūtīti jauni saistības pieprasījumi: {count}"
+    },
+    "catalog": {
+      "myContent": "Mans saturs",
+      "favorites": "Izlase",
+      "organization": "Mana organizācija",
+      "partners": "Mani partneri",
+      "community": "Mana kopiena"
+    },
+    "collection": {
+      "initiatives": "Iniciatīvas"
+    }
+  },
+  "acceptAssociation": {
+    "label": "Pieņemt",
+    "limitReachedTooltip": "Lai akceptētu, pārtrauciet esošās saistības un/vai izejošos pieprasījumus",
+    "success": {
+      "title": "Izdevās",
+      "message": "Saistība ar {requestor} ir pieņemta"
+    }
+  },
+  "cancelRequest": {
+    "label": "Atcelt pieprasījumu",
+    "success": {
+      "title": "Izdevās",
+      "message": "Saistības pieprasījums atcelts"
+    }
+  },
+  "breakAssociation": {
+    "label": "Atvienot",
+    "success": {
+      "title": "Saistība pārtraukta",
+      "message": "Esam atvienojuši šo vienību no tās iepriekšējās saistības. Tomēr mēs nevaram atcelt lēmumu no otras puses, tāpēc jūs to joprojām varat redzēt ienākošajos pieprasījumos."
+    }
+  },
+  "associationsGallery": {
+    "sources": "Stāvoklis",
+    "catalog": {
+      "associated": "Saistīts",
+      "requesting": "Ienākošie pieprasījumi",
+      "pending": "Izejošie pieprasījumi"
+    },
+    "collection": {
+      "initiatives": "Iniciatīvas"
+    }
+  },
+  "notice": {
+    "label": "Veidlapas brīdinājums"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "targetEntity": {
+    "label": "원본",
+    "enum": {
+      "item": "항목",
+      "event": "이벤트",
+      "group": "그룹"
+    }
+  }
+}

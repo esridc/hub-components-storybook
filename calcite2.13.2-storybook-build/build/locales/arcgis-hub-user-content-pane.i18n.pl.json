@@ -1,0 +1,43 @@
+{
+  "content": "Zasoby",
+  "myContent": "Moje zasoby",
+  "editableContent": "Edytowalne zasoby",
+  "addContentButtonText": "Utwórz nowy",
+  "type": "Typ",
+  "sharedUpdate": "Grupa udostępnionych aktualizacji",
+  "viewOnly": "Grupa tylko wyświetlania",
+  "owner": "Właściciel",
+  "updated": "Zaktualizowane",
+  "tags": "Znaczniki",
+  "dateCreated": "Utworzony",
+  "dateUpdated": "Zmodyfikowany",
+  "actionLinks": {
+    "view": "Wyświetl",
+    "edit": "Edytuj",
+    "ariaEdit": "Edytuj {title}",
+    "ariaView": "Wyświetl {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Zasoby",
+      "myContent": "Zasoby należące do mnie",
+      "editableContent": "Zasoby, które mogę edytować",
+      "all": "Wszystkie zasoby"
+    },
+    "access": {
+      "label": "Z"
+    },
+    "type": {
+      "label": "Typy"
+    },
+    "tags": {
+      "label": "Znaczniki"
+    },
+    "categories": {
+      "label": "Kategorie"
+    },
+    "modified": {
+      "label": "Zmodyfikowany"
+    }
+  }
+}

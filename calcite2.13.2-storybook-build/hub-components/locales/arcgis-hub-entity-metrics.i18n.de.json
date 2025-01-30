@@ -1,0 +1,75 @@
+{
+  "addMetric": "Kennwert hinzufügen",
+  "title": "Kennwerte",
+  "featured": "Ausgewählt",
+  "metricDescription": "Ein messbarer Wert zur Verfolgung des Projektfortschritts, dessen Basis statische (z. B. historische) oder dynamische Daten (z. B. Echtzeitdaten) sind.",
+  "metricCount": {
+    "label": "{currentCount}/{totalCountAllowed} Kennwerte",
+    "tooltip": "Zum Hinzufügen von Kennwerten einige der festgelegten Kennwerte löschen."
+  },
+  "visible": {
+    "title": "Sichtbar",
+    "noMetrics": "Dieser Abschnitt enthält keine Kennwerte."
+  },
+  "hidden": {
+    "title": "Ausgeblendet",
+    "description": "Diese Kennwerte werden nur Personen angezeigt, die Zugriff auf diesen Workspace haben.",
+    "noMetrics": "Dieser Abschnitt enthält keine Kennwerte."
+  },
+  "project": {
+    "featured": {
+      "description": "Es können 4 ausgewählte Kennwerte vorhanden sein. Diese werden in der Übersicht des Live-Projekts angezeigt."
+    },
+    "visible": {
+      "description": "Sichtbare Kennwerte werden unter der Registerkarte \"Kennwerte\" des Live-Projekts angezeigt."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Die Kennwerte entsprechen der Freigabeebene des Projekts. Ausgeblendete Kennwerte sind möglicherweise weiterhin per API-Aufruf verfügbar.",
+        "metricsDockLink": "Informationen zum Einrichten von Kennwerten"
+      }
+    }
+  },
+  "initiative": {
+    "featured": {
+      "description": "Es können 4 ausgewählte Kennwerte vorhanden sein. Diese werden in der Übersicht der Live-Initiative angezeigt."
+    },
+    "visible": {
+      "description": "Sichtbare Kennwerte werden unter der Registerkarte \"Kennwerte\" des Live-Projekts angezeigt."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Die Kennwerte entsprechen der Freigabeebene der Initiative. Ausgeblendete Kennwerte sind möglicherweise weiterhin per API-Aufruf verfügbar.",
+        "metricsDockLink": "Informationen zum Einrichten von Kennwerten"
+      }
+    }
+  },
+  "metricNumber": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4"
+  },
+  "actions": {
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "featured": "Feature",
+    "removeFeatured": "Auswahl entfernen",
+    "show": "In \"Sichtbar\" verschieben",
+    "hide": "In \"Ausgeblendet\" verschieben"
+  },
+  "editor": {
+    "heading": "Neuer Kennwert",
+    "description": "Kennwerte werden standardmäßig automatisch ausgeblendet, damit sie für die Mitglieder Ihres Workspace sichtbar sind."
+  },
+  "deleteMetricModal": {
+    "heading": "Kennwert löschen",
+    "content": "Möchten Sie Folgendes wirklich löschen?",
+    "cancel": "Abbrechen",
+    "delete": "Löschen"
+  },
+  "sidePanel": {
+    "definitions": "Definitionen",
+    "preview": "Vorschau"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "about": "Despre",
+  "metrics": "Unități metrice",
+  "featuredContent": "Conținut promovat",
+  "details": "Detalii",
+  "exploreMetrics": "Explorare valori",
+  "status": {
+    "label": {
+      "default": "Stare",
+      "project": "Stare proiect",
+      "initiative": "Stare inițiativă"
+    },
+    "notStarted": "Neînceput",
+    "inProgress": "În curs",
+    "onHold": "În așteptare",
+    "complete": "Finalizat"
+  }
+}

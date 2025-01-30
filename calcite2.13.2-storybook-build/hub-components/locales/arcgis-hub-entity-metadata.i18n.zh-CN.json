@@ -1,0 +1,239 @@
+{
+  "owner": {
+    "description": "所有者"
+  },
+  "updatedDate": {
+    "description": "更新日期",
+    "descriptionWithFrequency": "更新日期：{updatedDateFormatted}"
+  },
+  "createdDate": {
+    "description": "创建日期"
+  },
+  "joinedDate": {
+    "description": "加入日期"
+  },
+  "access": {
+    "label": {
+      "public": "公共",
+      "org": "组织",
+      "private": "所有者",
+      "shared": "以私有方式共享"
+    },
+    "description": {
+      "public": {
+        "site": "任何人都可以查看此站点",
+        "project": "所有人都可以查看此工程",
+        "initiative": "任何人都可以查看此倡议",
+        "discussion": "任何人都可以查看此讨论",
+        "default": "任何人均可查看此内容",
+        "event": "任何人均可查看此活动"
+      },
+      "org": {
+        "site": "您组织中的任何人都可以查看此站点",
+        "project": "您组织中的任何人都可以查看此工程",
+        "initiative": "您组织中的任何人都可以查看此倡议",
+        "discussion": "您组织中的任何人都可以查看此讨论",
+        "default": "您组织中的任何人都可以查看此内容",
+        "event": "您组织中的任何人都可以查看此活动"
+      },
+      "private": {
+        "site": "仅限您个人可查看此站点",
+        "project": "仅限您个人可查看此工程",
+        "initiative": "仅限您个人可查看此倡议",
+        "discussion": "只有您可以查看此讨论",
+        "default": "仅限您个人可查看此内容",
+        "event": "仅限您个人可查看此活动"
+      },
+      "shared": {
+        "site": "所选组可以查看此站点",
+        "project": "所选组可以查看此工程",
+        "initiative": "所选组可以查看此倡议",
+        "discussion": "所选群组可以查看此讨论",
+        "default": "所选组可以查看此内容",
+        "event": "所选组可以查看此活动"
+      }
+    }
+  },
+  "type": {
+    "fallback": {
+      "content": "内容",
+      "discussion": "说明",
+      "event": "活动",
+      "group": "群组",
+      "initiative": "倡议",
+      "org": "组织",
+      "page": "页面",
+      "project": "工程",
+      "site": "站点",
+      "survey": "调查",
+      "initiativeTemplate": "模板",
+      "user": "用户"
+    },
+    "appbuilderExtension": "GIS 工具",
+    "appbuilderWidgetPackage": "GIS 工具",
+    "application": "已注册的应用程序",
+    "arcgisProMap": "GIS 工具",
+    "cadDrawing": "GIS 工具",
+    "cityEngineWebScene": "3D 应用程序",
+    "codeAttachment": "GIS 工具",
+    "colorSet": "GIS 工具",
+    "content": "内容",
+    "contentCategorySet": "GIS",
+    "csv": "数据集",
+    "csvCollection": "数据文件",
+    "dashboard": "仪表盘",
+    "desktopApplication": "GIS 工具",
+    "document": "文档",
+    "documentLink": "Web 链接",
+    "excaliburImageryProject": "GIS 工具",
+    "explorerMap": "GIS 工具",
+    "exportPackage": "GIS 工具",
+    "featureCollection": "数据集",
+    "featureCollectionTemplate": "GIS 工具",
+    "featureLayer": "数据集",
+    "featureService": "地图",
+    "fileGeodatabase": "数据文件",
+    "form": "调查",
+    "geocodingService": "开发者 API",
+    "geodataService": "开发者 API",
+    "geojson": "内容",
+    "geometryService": "开发者 API",
+    "geopackage": "数据文件",
+    "geoprocessingService": "开发者 API",
+    "globeLayer": "数据文件",
+    "globeService": "开发者 API",
+    "hubInitiative": "倡议",
+    "hubInitiativeTemplate": "模板",
+    "hubPage": "页面",
+    "hubProject": "工程",
+    "hubSiteApplication": "站点",
+    "image": "图像",
+    "imageService": "影像数据集",
+    "insightsModel": "GIS 工具",
+    "insightsPage": "分析",
+    "insightsTheme": "GIS 工具",
+    "insightsWorkbook": "分析工作簿",
+    "iWorkKeynote": "演示",
+    "iWorkNumbers": "电子表格",
+    "iWorkPages": "文档",
+    "kml": "数据集",
+    "kmlCollection": "数据文件",
+    "layer": "数据文件",
+    "layerPackage": "数据文件",
+    "locatorPackage": "GIS 工具",
+    "mapArea": "GIS 工具",
+    "mapDocument": "GIS 工具",
+    "mapImageLayer": "地图",
+    "mapPackage": "数据文件",
+    "mapService": "地图",
+    "microsoftExcel": "电子表格",
+    "microsoftPowerpoint": "演示",
+    "microsoftVizio": "Microsoft Visio",
+    "microsoftWord": "文档",
+    "mission": "GIS 工具",
+    "mobileApplication": "应用程序",
+    "mobileMapPackage": "数据文件",
+    "native application template": "开发者工具",
+    "nativeApplication": "应用程序",
+    "nativeApplicationInstaller": "开发者工具",
+    "networkAnalysisService": "开发者 API",
+    "notebook": "分析",
+    "orientedImageryCatalog": "影像数据集",
+    "orthoMappingProject": "GIS 工具",
+    "orthoMappingTemplate": "GIS 工具",
+    "pdf": "文档",
+    "quickcaptureProject": "移动调查",
+    "rasterLayer": "地图",
+    "realTimeAnalytic": "开发者 API",
+    "relationalDatabaseConnection": "开发者 API",
+    "reportTemplate": "GIS 工具",
+    "sceneLayer": "3D 数据集",
+    "sceneService": "3D 数据集",
+    "serviceDefinition": "数据文件",
+    "shapefile": "数据集",
+    "solution": "解决方案",
+    "sqliteGeodatabase": "数据文件",
+    "statisticalDataCollection": "数据文件",
+    "storymap": "StoryMap",
+    "symbolSet": "数据文件",
+    "table": "数据集",
+    "team": "团队",
+    "urbanModel": "Urban 模型",
+    "vectorTileService": "地图",
+    "visioDocument": "文档",
+    "webExperience": "应用程序",
+    "webMap": "地图",
+    "webMappingApplication": "应用程序",
+    "webScene": "3D 地图",
+    "wfs": "地图",
+    "wms": "地图",
+    "wmts": "地图",
+    "workflowManagerService": "开发者 API",
+    "workforceProject": "任务流管理器"
+  },
+  "location": {
+    "description": "位置"
+  },
+  "members": {
+    "noMember": "无成员",
+    "oneMember": "成员：1",
+    "members": "成员：{count}",
+    "description": {
+      "value": "查看所有群组成员"
+    }
+  },
+  "tooltip": {
+    "label": "元数据项工具提示"
+  },
+  "relevantArea": {
+    "title": "相关区域"
+  },
+  "license": {
+    "tooltip": "定义如何使用此内容",
+    "set": {
+      "title": "{license} 许可",
+      "customTitle": "自定义许可",
+      "description": {
+        "value": "查看许可详细信息"
+      }
+    },
+    "unset": {
+      "title": "未提供许可",
+      "description": {
+        "value": "请求要使用的权限"
+      }
+    }
+  },
+  "size": {
+    "description": {
+      "value": "文档文件大小"
+    }
+  },
+  "recordCount": {
+    "title": "记录：{count}",
+    "description": {
+      "value": "查看数据表"
+    }
+  },
+  "metadataModified": {
+    "description": {
+      "defaultValue": "信息已更新",
+      "dynamicValue": "信息已更新：{lastUpdated}"
+    }
+  },
+  "updateFrequency": {
+    "continual": "持续",
+    "daily": "每天",
+    "weekly": "每周",
+    "fortnightly": "每两周",
+    "monthly": "每月",
+    "quarterly": "每季度",
+    "biannually": "每半年",
+    "annually": "每年",
+    "as-needed": "按需",
+    "irregular": "不定期",
+    "not-planned": "未计划",
+    "unknown": "未知",
+    "semimonthly": "每月两次"
+  }
+}

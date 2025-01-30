@@ -1,0 +1,35 @@
+{
+  "overview": "Overzicht",
+  "resources": "Hulpbronnen Hub",
+  "cards": {
+    "items": "Aantal items",
+    "groups": "Aantal groepen"
+  },
+  "hubContent": {
+    "heading": "Onlangs aangepaste Hub-items",
+    "link": "Alle content weergeven"
+  },
+  "content": {
+    "heading": "Recent gewijzigde content",
+    "stat": "Aantal items",
+    "link": "Alle content weergeven"
+  },
+  "groups": {
+    "heading": "Recent gewijzigde groepen",
+    "stat": "Aantal groepen",
+    "link": "Alle groepen weergeven"
+  },
+  "contentCount": "Content",
+  "addContent": "Nieuwe maken",
+  "facets": {
+    "access": {
+      "label": "Van"
+    },
+    "type": {
+      "label": "Types"
+    },
+    "modified": {
+      "label": "Gewijzigd"
+    }
+  }
+}

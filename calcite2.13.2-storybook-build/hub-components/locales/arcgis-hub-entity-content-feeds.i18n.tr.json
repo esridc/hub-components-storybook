@@ -1,0 +1,81 @@
+{
+  "tabTitle": "Akış yapılandırma",
+  "learn": "Hub akışları hakkında daha fazla bilgi edinin",
+  "loadingLabel": "Yükleniyor",
+  "enableFeedsToggle": {
+    "label": "Akışları etkinleştir",
+    "privateNotice": "Akışları etkinleştirmek için öncelikle Hub sitenizi \"Herkese Açık\" olarak ayarlamanız gerekir.",
+    "emptyPublicCatalog": {
+      "message": "Akışları etkinleştirmek için öncelikle kataloğunuza herkese açık içerik eklemelisiniz.",
+      "button": "Kataloğu Görüntüle"
+    },
+    "grouplessCatalog": {
+      "message": "Akışları etkinleştirmek için önce kataloğunuzu yapılandırmanız gerekir.",
+      "button": "Kataloğu Yapılandır"
+    }
+  },
+  "gettingStartedNotice": {
+    "title": "Başlarken",
+    "exampleMessage": "Değişmez (\"DEĞER\") veya bir şablon (\"{{TEMPLATE_VALUE}}\") değeri kullanarak JSON düzenleyicideki bir anahtar veya değeri vurgulayın veya güncelleyin.",
+    "previewMessage": "Değişikliklerinizi ön izlemek için \"ön izleme\" geçişini kullanın. Ek bilgiler için <catalogFederationLink>katalog federasyonu yardım belgelerini</catalogFederationLink> okuyun."
+  },
+  "aboutFeedsNotice": {
+    "message": "Hub akışları ile herkese açık verilerinizi kolayca erişilebilir ve yeniden kullanılabilir hale getirin.",
+    "link": "Hub akışları hakkında daha fazla bilgi edinin"
+  },
+  "feedsEditorSection": {
+    "title": "Akışlar",
+    "formatSelectLabel": "Bir akış türü seç",
+    "uneditableAttributesIntro": "Aşağıdaki özniteliklerin düzenlenemeyeceğini unutmayın:",
+    "edit": "Düzenle",
+    "preview": "Ön izleme",
+    "selectContentNotice": "Önizlenecek içeriği seçin.",
+    "invalidJsonEditorWarning": "Geçersiz JSON. Lütfen kaydetmeden önce hataları düzeltin.",
+    "invalidJsonPreviewWarning": "Geçersiz JSON önizlenemiyor; lütfen hataları düzeltin.",
+    "errorPreviewingWarning": "Bir hata oluştu. Lütfen bağlantınızı kontrol ederek tekrar deneyin. Sorun devam ederse lütfen Hub Desteğini kullanarak bir hata işlem kaydı açın."
+  },
+  "toolsSection": {
+    "title": "Araçlar",
+    "verification": "Doğrulama",
+    "previewSampleData": {
+      "label": "Örnek verileri önizle",
+      "pickerFacets": {
+        "type": "Tür",
+        "tags": "Etiket",
+        "categories": "Kategori",
+        "sharing": "Paylaşım",
+        "dateUpdated": "Güncellenme Tarihi"
+      }
+    },
+    "copyableInputLabel": "Akış erişim URL adresi"
+  },
+  "dcat-us": {
+    "1.1": {
+      "title": "DCAT-US 1.1",
+      "description": "DCAT, kuruluşların veri dağıtımını standartlaştırmasına olanak verir ve insanların federal kaynaklar boyunca ayrıştırmasına yardımcı olur. Varsayılan yapılandırma olan Project Open Data tarafından oluşturulan <dcatUsSchemaLink>DCAT şeması</dcatUsSchemaLink>'nı kullanabilir veya belirli alanları/öznitelikleri kendiniz yapılandırabilirsiniz. Site yöneticileri ayrıca ek DCAT yapılandırmaları ekleyebilir ve <catalogFederationLink>DCAT ve diğer harici kataloglarla verileri federe etmek</catalogFederationLink> ile ilgili dokümantasyonu okumak isteyebilir.",
+      "uneditableAttributes": "@type, landingPage, webService ve contactPoint['@type'].",
+      "verificationLabel": "Sitenizin DCAT URL'sini <dcatUsVerificationLink>Project Open Data Doğrulayıcısı</dcatUsVerificationLink>'na yapıştırarak DCAT akışınızı doğrulayabilirsiniz."
+    }
+  },
+  "dcat-ap": {
+    "2.1.1": {
+      "title": "DCAT-AP 2.1.1",
+      "description": "Avrupa Komisyonu tarafından oluşturulmuş olan DCAT-AP, Avrupa veri kataloglarındaki standart meta veri değişim formatıdır. ArcGIS Hub, içeriğinizin meta verilerinin ayrıntılarını düzenlediğinizde veya kataloğunuza yeni halka açık içerik eklediğinizde sitenizin DCAT-AP akışını otomatik olarak oluşturur ve günceller. Akış, ArcGIS Online içinde tutulan meta verileri kullandığı için ayrı bir DCAT-AP meta verisini manuel olarak oluşturmaya gerek yoktur.<lineBreak></lineBreak><lineBreak></lineBreak>Bu editoru kullanarak ArcGIS Hub’ın varsayılan <dcatApSchemaLink>DCAT-AP şeması</dcatApSchemaLink> yapılandırmasını koruyabilir veya bazı alanları/öznitelikleri kendiniz yapılandırabilirsiniz. Ayrıca DCAT-AP alanları/öznitelikleri ekleyebilirsiniz. Daha fazla bilgi için ArcGIS Hub'ın <catalogFederationLink>DCAT ve başka harici kataloglarla verileri federe etme</catalogFederationLink> hakkındaki dokümantasyonuna başvurun.",
+      "uneditableAttributes": "@type, @id, dcat:contactPoint['@id'], dcat:contactPoint['@type'], dct:publisher, dcat:theme, dct:accessRights, dcat:keyword, dct:provenance, dct:issued ve dct:language",
+      "verificationLabel": "DCAT akışınızı, sitenizin DCAT URL'sini <dcatApVerificationLink>Avrupa Komisyonu Birlikte Çalışabilirlik Test Yatağı</dcatApVerificationLink>'na yapıştırarak doğrulayabilirsiniz."
+    }
+  },
+  "rss": {
+    "2.0": {
+      "title": "RSS 2.0",
+      "description": "<rssAboutLink>RSS 2</rssAboutLink> bir web içeriği birliği biçimidir ve <xmlSpecLink>XML 1.0 teknik özelliği</xmlSpecLink> ile uyumludur. Bu düzenleyiciyi kullanarak ArcGIS Hub'ın varsayılan yapılandırmasını tutabilir veya belirli alanları/öznitelikleri kendiniz yapılandırabilirsiniz. Daha fazla bilgi için ArcGIS Hub'ın <catalogFederationLink>DCAT ve başka harici kataloglarla verileri federe etme</catalogFederationLink> hakkındaki dokümantasyonuna başvurun.",
+      "verificationLabel": "Sitenin RSS URL'sini W3 <rssVerificationLink>Akış Doğrulayıcısına</rssVerificationLink> geçirerek RSS akışını doğrulayabilirsiniz."
+    }
+  },
+  "saveButton": "Kaydet",
+  "alertMessages": {
+    "success": "Düzenlemeler başarıyla kaydedildi",
+    "error": "Düzenlemeler kaydedilirken hata oluştu"
+  },
+  "formAlert": "Biçim uyarısı"
+}

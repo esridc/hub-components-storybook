@@ -1,0 +1,13 @@
+{
+  "selectItem": "Выбрать ресурсы",
+  "selectGroup": "Выбрать группу",
+  "selectEvent": "Выбрать событие",
+  "remove": "удалить",
+  "launch": "Открыть",
+  "updatedDate": "Обновлено {updatedDate}",
+  "memberCount": {
+    "noMember": "Нет участников",
+    "oneMember": "1 участник",
+    "members": "{count} участников"
+  }
+}

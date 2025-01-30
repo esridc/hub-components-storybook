@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Nebyly nalezeny žádné výsledky."
+    },
+    "error": {
+      "message": "Omlouváme se, ale při vyhledávání došlo k chybě."
+    }
+  },
+  "access": "Přístup",
+  "actionsHeader": "Akce",
+  "caption": "Tabulka entity Hub",
+  "family": "Rodina",
+  "type": "Typ",
+  "tags": "Klíčová slova",
+  "owner": "Vlastník",
+  "dateCreated": "Vytvořeno",
+  "dateUpdated": "Změněno",
+  "description": "Popis",
+  "dateAndTime": "Datum a čas",
+  "location": "Umístění",
+  "attendanceType": "Typ účasti",
+  "inPerson": "Osobně",
+  "online": "Online",
+  "hybrid": "Hybridní",
+  "categories": "Kategorie",
+  "content": "Obsah",
+  "name": "Název",
+  "start": "Začátek",
+  "end": "Konec",
+  "sharedUpdate": "Sdílená aktualizace",
+  "managers": "Manažeři",
+  "username": "Uživatelské jméno",
+  "no": "Ne",
+  "yes": "Ano",
+  "title": "Nadpis",
+  "thumbnail": "Miniatura",
+  "types": {
+    "app": "Aplikace",
+    "content": "Obsah",
+    "dataset": "Datová sada",
+    "discussion": "Diskuzní fórum",
+    "document": "Dokument",
+    "event": "Událost",
+    "feedback": "Zpětná vazba",
+    "initiative": "Iniciativa",
+    "image": "Obrázek",
+    "map": "Mapa",
+    "other": "Jiné",
+    "people": "Lidé",
+    "site": "Web",
+    "team": "Skupina",
+    "template": "Šablona",
+    "project": "Projekt"
+  }
+}

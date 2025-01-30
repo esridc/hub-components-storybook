@@ -1,0 +1,15 @@
+{
+  "timeoutError": {
+    "message": "La connessione al server è scaduta e non è stato possibile visualizzare la statistica.",
+    "title": "Il server è scaduto"
+  },
+  "genericError": {
+    "message": "Impossibile visualizzare le statistiche.",
+    "title": "Si è verificato un errore"
+  },
+  "loading": "Caricamento statistica",
+  "source": "Origine:",
+  "dismiss": "Abbandona",
+  "moreInfo": "Maggiori informazioni",
+  "openInfo": "Apri ulteriori informazioni"
+}

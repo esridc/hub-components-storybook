@@ -1,0 +1,82 @@
+{
+  "title": "Deltagelse",
+  "subtitle": "Indstil diskussionsforummets synlighed (hvem kan se det), rul ned for at indstille, hvem der kan redigere tavleoplysninger, og indstil derefter deltagelse og moderering med kanaler.",
+  "channelTitle": "Kanal for deltagelse er indstillet",
+  "channelDescription": "Denne kanal styrer, hvem der kan tilføje, se og moderere opslag på denne diskussionstavle.",
+  "addChannelsTitle": "Indstil kanal",
+  "addChannelsDescription": "Kanaler styrer, hvem der kan tilføje opslag til tavlen. De kan være åbne for grupper, en organisation eller offentligheden og kan anvendes på mange diskussioner. Kanaler styrer også, hvem der kan moderere. Indstil blokerede ord til automatisk moderering i en kanal",
+  "privateChannelTitle": "Privat kanal er indstillet",
+  "privateChannelDescription": "Du kan ikke se den private kanal, der er tilknyttet denne diskussionstavle. Du kan fjerne kanalen og vælge en eksisterende kanal eller oprette en kanal.",
+  "removeChannelConfirmationMessage": "Diskussionstavlen viser ikke længere opslag. Du kan tilføje en kanal, hvis denne kanal fjernes.",
+  "headingChannelEdit": "Du redigerer en kanal.",
+  "headingChannelView": "Du viser en kanal",
+  "headingChannelCreate": "Du opretter en kanal",
+  "buttons": {
+    "browse": "Gennemse kanaler",
+    "new": "Ny kanal",
+    "removeChannel": "Fjern kanal",
+    "cancel": "Annuller"
+  },
+  "alerts": {
+    "label": "Formularadvarsel",
+    "set": {
+      "title": "Gennemført. Kanalen er blevet indstillet."
+    },
+    "removed": {
+      "title": "Kanal blev fjernet",
+      "message": "Vælg eller opret en kanal i forbindelse med deltagelse."
+    },
+    "error": {
+      "title": "Mislykkedes. Kanalen blev ikke indstillet."
+    }
+  },
+  "galleryPickerTitle": "Vælg en kanal",
+  "channelsLabel": "Kanaler",
+  "accessLabel": "Adgang",
+  "optionPublicLabel": "Offentlig",
+  "optionOrganizationLabel": "Organisation",
+  "optionPrivateLabel": "Privat",
+  "viewChannel": "Vis kanal",
+  "editChannel": "Rediger kanal",
+  "save": "Gem",
+  "removeChannel": "Fjern kanal",
+  "groupPicker": {
+    "facet": {
+      "label": "Fra",
+      "myGroups": "Mine grupper",
+      "myOrganization": "Min organisation",
+      "myCommunity": "Mit fællesskab"
+    }
+  },
+  "editGroupButtonText": "Tilføj redigeringsgrupper",
+  "viewGroupButtonText": "Tilføj visningsgrupper",
+  "viewGroups": {
+    "header": "Hvem kan få vist tavlen?",
+    "description": "Personer, der kan få vist tavlen (men ikke skrive opslag på den); opslag indstilles af kanalerne nedenfor."
+  },
+  "editGroups": {
+    "header": "Hvem kan redigere?",
+    "description": "Gruppemedlemmer kan redigere tavleoplysninger i arbejdsområdet."
+  },
+  "aboutChannelsNotice": {
+    "title": "Introduktion af kanaler",
+    "message": "Kanaler er ikke grupper, men kan indeholde dem. De bestemmer, hvem der kan lave opslag og moderere.",
+    "action": "Mere om kanaler"
+  },
+  "nonPrivateChannelNotice": {
+    "title": "Kan ikke redigere kanal",
+    "message": "Kun denne kanals moderatorer kan redigere den. Kontakt kanalejeren eller organisationsadministratoren for at tilføje, hvis det er påkrævet. Du kan også fjerne denne kanal, tilføje en eksisterende (som du er moderator for) eller oprette en ny."
+  },
+  "privateChannelNotice": {
+    "title": "Kan ikke redigere kanal",
+    "message": "Kun denne kanals moderatorer kan redigere den. Kontakt kanalejeren for at tilføje, hvis det er påkrævet. Du kan også fjerne denne kanal, tilføje en eksisterende (som du er moderator for) eller oprette en ny."
+  },
+  "participate": {
+    "header": "Hvem kan deltage, og hvem kan moderere?"
+  },
+  "org": "Organisation",
+  "private": "Privat",
+  "public": "Offentlig",
+  "unnamed": "Ikke-navngivet kanal",
+  "groupNotFound": "Gruppe ikke fundet"
+}

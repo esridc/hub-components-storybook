@@ -1,0 +1,35 @@
+{
+  "overview": "Pārskats",
+  "resources": "Hub resursi",
+  "cards": {
+    "items": "Vienību skaits",
+    "groups": "Grupu skaits"
+  },
+  "hubContent": {
+    "heading": "Nesen modificētās Hub vienības",
+    "link": "Skatīt visu saturu"
+  },
+  "content": {
+    "heading": "Nesen modificētais saturs",
+    "stat": "Vienību skaits",
+    "link": "Skatīt visu saturu"
+  },
+  "groups": {
+    "heading": "Nesen modificētās grupas",
+    "stat": "Grupu skaits",
+    "link": "Skatīt visas grupas"
+  },
+  "contentCount": "Saturs",
+  "addContent": "Izveidot jaunu",
+  "facets": {
+    "access": {
+      "label": "No"
+    },
+    "type": {
+      "label": "Veidi"
+    },
+    "modified": {
+      "label": "Mainīts"
+    }
+  }
+}

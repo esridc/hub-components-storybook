@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+  <title>Hub Components: Simple Gallery</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .nav {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+    }
+  </style>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+  <link rel="stylesheet" href="../calcite-web.min.css">
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <script type="module" src="../../calcite/calcite.esm.js"></script>
+</head>
+
+<body>
+  <harness-header page-title="Gallery: Groups"></harness-header>
+
+  <div class="grid-container padding-leader-4">
+    <p>This example gallery will search groups in auth'd users org.</p>
+
+      <arcgis-hub-gallery
+        include="memberCount|contentCount"
+        layout='list'
+        limit='10'
+        show-thumbnail
+        show-search
+        show-sort
+        show-chips
+        show-facets
+        show-more-results-btn
+        show-layout-switcher
+        show-back-to-top-btn>
+
+      </arcgis-hub-gallery>
+
+
+  </div>
+  <script>
+
+    document.addEventListener('arcgisHubGalleryAction', (evt) => {
+      console.log(`galleryAction: ${evt.detail.action} for ${evt.detail.model.id}`);
+    })
+
+    function applyParams() {
+      const paramString = document.getElementById('qs').value;
+      const parts = paramString.split("&");
+      const params = parts.reduce((acc, entry) => {
+        if (entry) {
+          const [key, val] = entry.split("=");
+          if (val !== "null") {
+            acc[key] = val;
+          }
+        }
+        return acc;
+      }, {});
+
+      setProp("state", params);
+    }
+
+
+    const params = {};
+
+    document.addEventListener('arcgisHubContentGalleryStateChange', (evt) => {
+      showParams(evt.detail);
+    });
+
+    function showParams(params) {
+      // serialize
+      let qs = "";
+      for (key in params) {
+        if (params[key]) {
+          qs = `${qs}&${key}=${params[key]}`
+        }
+
+      }
+      const el = document.getElementById('params');
+      el.innerText = `State as params: ${qs}`;
+    }
+
+
+    // Set a property on the element
+    function setProp(key, value) {
+      const el = document.querySelector("arcgis-hub-gallery");
+      el[key] = value;
+    }
+
+          document.addEventListener('arcgisAppIdentitySignedIn', (evt) => {
+            const context = evt.detail;
+            const query = getQuery(context.currentUser.orgId);
+            setProp("query", query);
+          });
+
+          function getQuery(orgId) {
+            return {
+      targetEntity: "group",
+            filters: [{ predicates: [{ orgid: orgId }] }]
+          }
+    }
+
+
+
+    const facetObjects = [
+        {
+          label: "Viewable By",
+          key: "access",
+          display: "multi-select",
+          operation: "OR",
+          options: [
+            {
+              label: "Everyone (public)",
+              key: "public",
+              selected: true,
+              predicates: [{
+
+                access: "public",
+              }],
+            },
+            {
+              label: "Organization",
+              key: "organization",
+              selected: false,
+              predicates: [{
+
+                access: "org",
+              },]
+            },
+            {
+              label: "Group Members",
+              key: "members",
+              selected: false,
+              predicates: [{
+
+                access: "org",
+              }],
+            },
+            {
+              label: "Me",
+              key: "mine",
+              selected: false,
+              predicates: [{
+
+                access: "private",
+              }],
+            }
+          ],
+        },
+
+        {
+          label: "Types",
+          key: "types",
+          display: "multi-select",
+          pageSize: 4,
+          operation: "AND",
+          options: [
+            {
+              label: "Shared Update",
+              key: "sharedUpdate",
+              selected: false,
+              predicates: [
+                {
+                  capabilities: "updateitemcontrol"
+                }
+              ]
+            },
+            {
+              label: "Open Data",
+              key: "opendata",
+              selected: false,
+              predicates: [{
+                isopendata: true
+              }]
+            }
+          ]
+        }
+      ]
+      const facets = ['group-type', 'group-role', 'group-access'];
+
+                              // setProp("query", query);
+    setProp("facets", facets);
+
+    setProp('layoutOptions', [ 'grid', 'list', 'compact', 'table' ]);
+  </script>
+</body>
+
+</html>

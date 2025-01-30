@@ -1,0 +1,165 @@
+{
+  "advancedConfig": {
+    "label": "תצורה מתקדמת",
+    "serverTimeout": {
+      "label": "זמן קצוב לשרת (שניות)",
+      "helperText": "שימושי עבור שירותים גדולים שעבורם עשוי להידרש זמן ארוך יותר לתגובה.",
+      "errors": {
+        "type": "הזן את תצורת הזמן הקצוב של השרת.",
+        "minimum": "ערך הזמן הקצוב של השרת חייב להיות לפחות 5.",
+        "maximum": "ערך הזמן הקצוב של השרת לא יכול לחרוג מ-95."
+      }
+    }
+  },
+  "appearance": {
+    "corners": {
+      "label": "פינות",
+      "enum": {
+        "round": {
+          "label": "עגול"
+        },
+        "square": {
+          "label": "מרובע"
+        }
+      }
+    },
+    "dropShadow": {
+      "label": "צל",
+      "enum": {
+        "heavy": {
+          "label": "כבד"
+        },
+        "low": {
+          "label": "נמוך"
+        },
+        "medium": {
+          "label": "בינוני"
+        },
+        "none": {
+          "label": "לא התחיל"
+        }
+      }
+    },
+    "layout": {
+      "label": "סגנון כרטיס",
+      "enum": {
+        "informational": {
+          "label": "אינפורמטיבי"
+        },
+        "simple": {
+          "label": "פשוט"
+        }
+      }
+    },
+    "popoverText": {
+      "label": "תוכן מודאלי"
+    },
+    "publisherText": {
+      "label": "מפרסם מקור"
+    },
+    "styleSpecificSettings": {
+      "label": "הגדרות סגנון",
+      "helperInfoText": "בחירה בלחצן המידע תפתח מודאל שמכיל מידע נוסף.",
+      "helperVizText": "הכרטיס הפשוט תומך בהוספת צלמית כרכיב חזותי, שיכול לשקף שינויים בנתונים."
+    },
+    "sectionTitle": "מראה",
+    "textAlign": "יישור",
+    "visualInterest": {
+      "label": "רכיב חזותי",
+      "enum": {
+        "icon": {
+          "label": "סמל"
+        },
+        "none": {
+          "label": "ללא"
+        }
+      }
+    },
+    "icon": {
+      "label": "סמל",
+      "caretUp": {
+        "label": "הגדל"
+      },
+      "caretDown": {
+        "label": "הקטן"
+      },
+      "caretDouble": {
+        "label": "ללא שינוי"
+      }
+    },
+    "valueColor": "צבע (סטטיסטיקה)"
+  },
+  "details": {
+    "allowDynamicLink": "הצג קישור מקור",
+    "link": {
+      "sectionTitle": "קישור",
+      "sourceLink": "URL קישור",
+      "sourceTitle": "טקסט קישור"
+    },
+    "sectionTitle": "פרטים",
+    "subtitle": "כותרת משנה",
+    "title": "כותרת",
+    "trailingText": {
+      "label": "טקסט עוקב",
+      "helperText": "הזן הקשר או הסבר נוסף (שיופיע מתחת לערך המדידה)."
+    }
+  },
+  "errors": {
+    "sourceLink": {
+      "required": "דרוש קישור להצגת מקור.",
+      "formatError": "פורמט כתובת ה-URL שגוי"
+    }
+  },
+  "formatting": {
+    "sectionTitle": "עיצוב",
+    "unit": {
+      "label": "יחידות תצוגה",
+      "helperText": "הזן את יחידת המדידה עבור הערך שלך."
+    },
+    "unitPosition": {
+      "label": "מיקום",
+      "helperText": "בחר היכן תופיע יחידת המידה (כגון 'ק\"מ', 'ליברות') ביחס לערך המדידה.",
+      "enum": {
+        "after": {
+          "label": "אחרי"
+        },
+        "before": {
+          "label": "לפני"
+        },
+        "below": {
+          "label": "מתחת"
+        }
+      }
+    }
+  },
+  "sharing": {
+    "sectionTitle": "שיתוף",
+    "showShareIcon": "אפשר שיתוף",
+    "showShareIconHelperText": "אפשר למשתמשים להעתיק קישור ישיר לכרטיס זה בדף זה.",
+    "shareableByValue": "אפשר הטבעות",
+    "shareableOnHover": {
+      "label": "הצג בעת ריחוף",
+      "helperText": {
+        "label": "לחצן שיתוף מוצג רק בעת ריחוף. אם כבוי, הלחצן גלוי תמיד."
+      }
+    }
+  },
+  "statistic": {
+    "dataSource": "מקור נתונים",
+    "displayValue": "ערך תצוגה",
+    "sectionTitle": "ערך",
+    "type": {
+      "label": "סוג",
+      "enum": {
+        "dynamic": {
+          "label": "דינמי",
+          "description": "בחר סט נתונים (שירות ישויות) קיים לסיכום."
+        },
+        "static": {
+          "label": "סטטי",
+          "description": "הזן באופן ידני ערך שתרצה להדגיש בפריסה שלך."
+        }
+      }
+    }
+  }
+}

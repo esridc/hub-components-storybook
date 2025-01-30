@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "编辑群组",
+        "viewGroups": "查看群组"
+      },
+      "facet": {
+        "label": "自",
+        "myGroups": "我的群组",
+        "myOrganization": "我的组织",
+        "myCommunity": "我的社区"
+      }
+    }
+  },
+  "property": {
+    "label": "参数",
+    "requiredError": "参数为必需项"
+  },
+  "operator": {
+    "label": "条件",
+    "requiredError": "条件为必需项"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "类型"
+    },
+    "group": {
+      "default": "群组"
+    },
+    "occurrence": {
+      "default": "事件"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "任何项",
+      "group": "与任何项共享"
+    },
+    "isAll": {
+      "default": "所有项",
+      "group": "与所有项共享"
+    },
+    "isExactly": {
+      "default": "精确匹配",
+      "occurrence": "等于"
+    },
+    "isNot": {
+      "default": "不等于",
+      "type": "不是",
+      "group": "未与任何项共享"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "群组",
+      "requiredError": "群组为必需项"
+    },
+    "type": {
+      "label": "类型",
+      "requiredError": "类型为必需项",
+      "app": {
+        "label": "应用程序"
+      },
+      "content": {
+        "label": "内容"
+      },
+      "dataset": {
+        "label": "数据集"
+      },
+      "discussion": {
+        "label": "讨论"
+      },
+      "document": {
+        "label": "文档"
+      },
+      "event": {
+        "label": "活动"
+      },
+      "feedback": {
+        "label": "反馈"
+      },
+      "initiative": {
+        "label": "倡议"
+      },
+      "map": {
+        "label": "地图"
+      },
+      "project": {
+        "label": "工程"
+      },
+      "site": {
+        "label": "站点"
+      },
+      "template": {
+        "label": "模板"
+      }
+    },
+    "occurrence": {
+      "label": "事件",
+      "requiredError": "事件为必需项",
+      "upcoming": "将来",
+      "past": "过去",
+      "inProgress": "进行中"
+    }
+  }
+}

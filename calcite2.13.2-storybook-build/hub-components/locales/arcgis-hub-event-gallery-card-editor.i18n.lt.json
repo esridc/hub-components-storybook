@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "Kategorijos",
+        "noCategoriesNotice": {
+          "body": "Ši organizacija dar neturi jokių kategorijų.",
+          "link": "Nustatyti kategorijas"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "Turinys",
+      "selectionMode": {
+        "dynamic": {
+          "label": "Dinaminis"
+        },
+        "manual": {
+          "label": "Rankinis"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "Organizacija"
+        },
+        "collection": {
+          "sites": "Svetainės",
+          "projects": "Projektai",
+          "initiatives": "Iniciatyvos"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "Organizacija"
+        },
+        "collection": {
+          "events": "Renginiai"
+        }
+      },
+      "access": {
+        "label": "Bendrinimas",
+        "private": {
+          "label": "Privati",
+          "description": "Filtruokite pagal turinį, prieinamą tik jums ir turintiems grupės prieigą."
+        },
+        "org": {
+          "label": "Organizacija",
+          "description": "Filtruokite pagal turinį, prieinamą tik jūsų organizacijos nariams."
+        },
+        "public": {
+          "label": "Vieša",
+          "description": "Filtruokite pagal turinį, prieinamą visiems."
+        }
+      },
+      "tags": {
+        "label": "Žymos"
+      },
+      "cardsShown": {
+        "label": "Parodytos kortelės"
+      }
+    },
+    "appearance": {
+      "label": "Išvaizda",
+      "titleHeading": {
+        "label": "Antraštės pavadinimas",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "Pagal WCAG G141 integruotos antraštės pagerina prieinamumą."
+      },
+      "corners": {
+        "label": "Kampai",
+        "square": {
+          "label": "Statūs"
+        },
+        "round": {
+          "label": "Apvalinti"
+        }
+      },
+      "shadow": {
+        "label": "Šešėlis",
+        "none": {
+          "label": "Išjungta"
+        },
+        "low": {
+          "label": "Neryškus"
+        },
+        "medium": {
+          "label": "Vidutinis"
+        },
+        "heavy": {
+          "label": "Labai ryškus"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "Rodyti papildomą informaciją"
+      },
+      "layout": {
+        "label": "Maketas",
+        "list": {
+          "label": "Sąrašas"
+        },
+        "map": {
+          "label": "Žemėlapis"
+        },
+        "calendar": {
+          "label": "Kalendorius"
+        }
+      }
+    },
+    "options": {
+      "label": "Parinktys",
+      "openIn": {
+        "label": "Atidaryta naudojant",
+        "same": {
+          "label": "Tas pats skirtukas"
+        },
+        "new": {
+          "label": "Naujas skirtukas"
+        },
+        "notice": {
+          "title": "Patarimas dėl prieigos.",
+          "body": "Pagal WCAG 2.0 G200 metodą nerekomenduojama atverti nuorodų naujuose skirtukuose ar languose.",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "Sužinokite daugiau apie WCAG 2.0 G200"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "Bendrinimas",
+      "public": {
+        "label": "Vieša"
+      },
+      "private": {
+        "label": "Privati"
+      },
+      "organization": {
+        "label": "Organizacija"
+      }
+    },
+    "from": {
+      "label": "Nuo",
+      "myOrganization": {
+        "label": "Mano organizacija"
+      },
+      "myContent": {
+        "label": "Mano turinys"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "Renginiai",
+      "collections": {
+        "event": {
+          "label": "Renginiai"
+        }
+      }
+    },
+    "item": {
+      "label": "Turinys",
+      "collections": {
+        "item": {
+          "label": "Turinys"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "controls": {
+    "addContent": "Tambahkan konten",
+    "back": "Kembali",
+    "cancel": "Batalkan",
+    "close": "Selesai",
+    "create": "Buat dan tambahkan grup",
+    "next": "Selanjutnya"
+  },
+  "createHelpState": {
+    "discussion": {
+      "heading": "Diskusi",
+      "message": "Buat forum diskusi baru dengan memasukkan judul yang menggambarkan topiknya."
+    },
+    "event": {
+      "heading": "Peristiwa",
+      "message": "Selenggarakan aktivitas yang tertata, secara tatap muka atau virtual."
+    },
+    "group": {
+      "heading": "Grup",
+      "message": "Siapkan grup untuk berkolaborasi pada konten terfokus."
+    },
+    "initiative": {
+      "heading": "Inisiatif",
+      "message": "Inisiatif mengatur dan merangkum kemajuan menuju suatu tujuan."
+    },
+    "page": {
+      "heading": "Halaman",
+      "message": "Halaman merupakan tempat untuk berbagi informasi dan berinteraksi dengan pemirsa Anda."
+    },
+    "project": {
+      "heading": "Proyek",
+      "message": "Soroti pekerjaan yang memiliki tujuan dan jangka waktu yang jelas."
+    },
+    "site": {
+      "heading": "Situs",
+      "message": "Buat halaman web untuk mengatur dan berbagi informasi."
+    }
+  },
+  "selection": {
+    "unlimited": "Terpilih: {count}",
+    "limited": "Terpilih: {count} / {limit}"
+  },
+  "steps": {
+    "createContent": "Tambahkan informasi dasar",
+    "selectContent": "Pilih konten",
+    "selectGroups": "Pilih grup",
+    "confirmation": "Konfirmasi",
+    "notImplemented": "Belum diterapkan"
+  },
+  "working": {
+    "heading": "Menambahkan konten yang dipilih.",
+    "loadingLabel": "Menambahkan konten."
+  },
+  "failure": {
+    "heading": "Konten tidak ditambahkan",
+    "message": "Ada kesalahan saat menambahkan konten yang dipilih, harap coba lagi.",
+    "action": "Coba lagi"
+  },
+  "notImplemented": {
+    "heading": "Alur kerja ini belum diterapkan."
+  },
+  "contentGallery": {
+    "facets": {
+      "access": {
+        "label": "Dari"
+      },
+      "type": {
+        "label": "Jenis"
+      },
+      "tags": {
+        "label": "Tag"
+      },
+      "categories": {
+        "label": "Kategori"
+      },
+      "modified": {
+        "label": "Diubah"
+      }
+    }
+  },
+  "groupsGallery": {
+    "facets": {
+      "access": {
+        "label": "Dapat dilihat oleh",
+        "options": {
+          "org": "Organisasi",
+          "public": "Semua orang (publik)",
+          "private": "Saya"
+        }
+      },
+      "from": {
+        "label": "Dari",
+        "options": {
+          "myCommunity": "Komunitas Saya",
+          "myGroups": "Grup Saya",
+          "myOrganization": "Organisasi Saya",
+          "world": "Dunia"
+        }
+      },
+      "type": {
+        "label": "Jenis",
+        "options": {
+          "sharedUpdate": "Pembaruan Bersama",
+          "opendata": "Open Data"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "addMetric": "Adăugare unitate metrică",
+  "title": "Unități metrice",
+  "featured": "Promovate",
+  "metricDescription": "O valoare măsurabilă utilizată pentru a urmări progresul proiectelor pe baza datelor statice (de ex. istorice) sau dinamice (de ex. în timp real).",
+  "metricCount": {
+    "label": "{currentCount}/{totalCountAllowed} parametri",
+    "tooltip": "Pentru a adăuga parametri, ștergeți o parte din setările existente"
+  },
+  "visible": {
+    "title": "Vizibile",
+    "noMetrics": "Nu există unități metrice în această secțiune."
+  },
+  "hidden": {
+    "title": "Ascunse",
+    "description": "Aceste unități metrice se afișează numai pentru cei cu acces la acest spațiu de lucru.",
+    "noMetrics": "Nu există unități metrice în această secțiune."
+  },
+  "project": {
+    "featured": {
+      "description": "Puteți avea 4 indicatori promovați. Aceștia se afișează în Prezentarea generală a proiectului dvs. live."
+    },
+    "visible": {
+      "description": "Indicatorii vizibili sunt afișați în fila Indicatori a proiectului dvs. live."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Valorile vor corespunde cu nivelul de partajare al proiectului. Valorile ascunse pot fi încă disponibile prin apel API.",
+        "metricsDockLink": "Aflați despre configurarea elementelor metrice"
+      }
+    }
+  },
+  "initiative": {
+    "featured": {
+      "description": "Puteți avea 4 indicatori promovați. Aceștia se afișează în Prezentarea generală a inițiativei dvs. live."
+    },
+    "visible": {
+      "description": "Indicatorii vizibili sunt afișați în fila Indicatori a proiectului dvs. live."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Valorile vor corespunde cu nivelul de partajare al inițiativei. Valorile ascunse pot fi încă disponibile prin apel API.",
+        "metricsDockLink": "Aflați despre configurarea elementelor metrice"
+      }
+    }
+  },
+  "metricNumber": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4"
+  },
+  "actions": {
+    "delete": "Ștergere",
+    "edit": "Editare",
+    "featured": "Obiect spațial",
+    "removeFeatured": "Eliminare promovate",
+    "show": "Deplasare în vizibile",
+    "hide": "Deplasare în ascunse"
+  },
+  "editor": {
+    "heading": "Unitate nouă",
+    "description": "Implicit, unitățile vor fi ascunse automat astfel încât membrii spațiului dvs. de lucru să nu le poată vedea."
+  },
+  "deleteMetricModal": {
+    "heading": "Ștergere unitate de măsură",
+    "content": "Sigur doriți să ștergeți:",
+    "cancel": "Anulare",
+    "delete": "Ștergere"
+  },
+  "sidePanel": {
+    "definitions": "Definiții",
+    "preview": "Previzualizare"
+  }
+}

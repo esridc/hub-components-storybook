@@ -1,0 +1,15 @@
+{
+  "timeoutError": {
+    "message": "Pripojenie k serveru vypršalo a nebolo možné zobraziť štatistiku.",
+    "title": "Časový limit servera vypršal"
+  },
+  "genericError": {
+    "message": "Štatistiku nie je možné zobraziť.",
+    "title": "Niečo sa pokazilo"
+  },
+  "loading": "Načítavanie štatistiky",
+  "source": "Zdroj:",
+  "dismiss": "Odmietnuť",
+  "moreInfo": "Viac informácií",
+  "openInfo": "Otvoriť viac informácií"
+}

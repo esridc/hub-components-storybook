@@ -1,0 +1,178 @@
+{
+  "projectsTitle": "פרויקטים",
+  "description": "קשור עם פרויקטים תורם למעקב אחר ההתקדמות לאורך זמן או מרחב ממוקדים. קבוצת הקישור של היוזמה מנהלת קישורים מאושרים ובקשות שיוך בהמתנה.",
+  "subDescription": "פרויקטים עם קישורים מאושרים יופיעו בתצוגה של יוזמה זו.",
+  "project": "פרויקט",
+  "initiative": "יוזמה",
+  "helpStates": {
+    "noAccess": {
+      "heading": "אין גישה",
+      "message": "אין לך גישה להצגת קבוצת השיוך."
+    },
+    "missingGroup": {
+      "heading": "קבוצת שיוך חסרה",
+      "message": {
+        "overview": "קבוצת השיוך תקבע אילו פרויקטים יקושרו וידווחו ליוזמה.",
+        "members": "החברים בקבוצה זו יוכלו לשלוח או לאשר בקשות קישור."
+      },
+      "action": "צור קבוצה",
+      "formLabel": "קבוצת שיוך חדשה",
+      "description": "צור קבוצת שיוך לניהול חיבורים"
+    },
+    "requestsWaiting": {
+      "heading": "קבוצת שיוך חסרה",
+      "message": {
+        "overview": "קבוצת השיוך תקבע אילו פרויקטים יקושרו וידווחו ליוזמה.",
+        "members": "החברים בקבוצה זו יוכלו לשלוח או לאשר בקשות קישור.",
+        "requests": "בקשות פרויקט בהמתנה: {count}"
+      },
+      "action": "צור קבוצה",
+      "formLabel": "קבוצת שיוך חדשה",
+      "description": "צור קבוצת שיוך לניהול חיבורים"
+    }
+  },
+  "shared": {
+    "project": "פרויקט",
+    "associationGroup": "קבוצת שיוך",
+    "error": {
+      "title": "משהו השתבש",
+      "message": "ייתכן שחסרה לך גישה מספקת לשליחה או לניהול של שיוך עם {type} זה/ו."
+    },
+    "facets": {
+      "access": {
+        "label": "שיתוף"
+      },
+      "status": {
+        "label": "סטטוס",
+        "notStarted": "לא התחיל",
+        "inProgress": "בביצוע",
+        "onHold": "בהמתנה",
+        "complete": "הושלם"
+      },
+      "tags": {
+        "label": "תגים"
+      }
+    },
+    "tabs": {
+      "projects": "פרויקטים",
+      "members": "חברים",
+      "settings": "הגדרות"
+    },
+    "disabledActionTooltip": "רק מנהלי קבוצה יכולים לנהל את השיוך עם {type} זה/ו."
+  },
+  "createAssociationGroup": {
+    "defaultSummary": "נהל את הפריטים המשויכים ל-{name} {type} באמצעות קבוצת שיוך."
+  },
+  "members": {
+    "facets": {
+      "role": {
+        "label": "תפקיד",
+        "all": "כולם",
+        "manager": "מנהל",
+        "member": "חבר"
+      },
+      "dateJoined": {
+        "label": "תאריך הצטרפות"
+      }
+    },
+    "addMembers": {
+      "button": "הוסף חברים",
+      "modal": {
+        "title": "הוסף חברים",
+        "org": "הארגון שלי",
+        "community": "הקהילה שלי",
+        "partner": "השותפים שלי",
+        "world": "עולם"
+      },
+      "notifications": {
+        "invited": "הזמנה נשלחה. על המשתמשים לקבל כדי להצטרף",
+        "added": "משתמש/ים נוסף/ו",
+        "notInvited": "ייתכן שלחלק מהמשתמשים אין את ההרשאות הדרושות כדי להצטרף לקבוצה או שהקבוצה הגיעה לגבול המקסימלי (512)"
+      }
+    },
+    "removeUsers": {
+      "button": "הסר",
+      "success": "חברים הוסרו בהצלחה מ-{groupName}.",
+      "error": "לא ניתן להסיר מהקבוצה משתמש אחד או יותר."
+    },
+    "changeRole": {
+      "button": "שנה תפקיד",
+      "member": "חבר",
+      "memberHelperText": "יכול להוסיף ולראות תוכן בתוך הקבוצה.",
+      "tooltipText": "בטל את הבחירה בך ו/או בבעלים של הקבוצה",
+      "tooltipLabel": "כתב ויתור של תפקיד",
+      "admin": "מנהל",
+      "adminHelperText": "יכול להוסיף/להסיר תוכן ולהזמין/להסיר אנשים (למעט עבור הבעלים).",
+      "success": "החברים שנבחרו הפכו לקבוצה {role}.",
+      "error": "לא ניתן לשנות תפקיד עבור חבר אחד או יותר."
+    },
+    "stats": {
+      "total": {
+        "title": "סה\"כ",
+        "trailingText": "חברים"
+      },
+      "new": {
+        "title": "חדש",
+        "trailingText": "30 הימים האחרונים"
+      }
+    }
+  },
+  "projects": {
+    "requestAssociation": {
+      "findProjects": "מצא פרויקטים",
+      "sendRequest": "שלח בקשה",
+      "success": {
+        "title": "הצלחה",
+        "message": "בקשות שיוך נשלחו: {count}"
+      },
+      "alreadyRequesting": {
+        "title": "בדוק שיוכים",
+        "message": "חלק מהפריטים שנבחרו כבר ביקשו שיוך. בקשות שיוך חדשות נשלחו: {count}"
+      },
+      "catalog": {
+        "myContent": "התוכן שלי",
+        "favorites": "מועדפים",
+        "organization": "ארגון",
+        "world": "עולם (ציבורי)"
+      },
+      "collection": {
+        "projects": "פרויקטים"
+      }
+    },
+    "acceptAssociation": {
+      "label": "קבל",
+      "success": {
+        "title": "הצלחה",
+        "message": "שיוך התקבל עם {requestor}"
+      }
+    },
+    "cancelRequest": {
+      "label": "בטל בקשה",
+      "success": {
+        "title": "הצלחה",
+        "message": "בקשת השיוך בוטלה"
+      }
+    },
+    "breakAssociation": {
+      "label": "התנתק",
+      "success": {
+        "title": "שיוך נותק",
+        "message": "ניתקנו פריט זה מהשיוך הקודם שלו. עם זאת, אין ביכולתנו לבטל את ההחלטה בצד השני, לפיכך ייתכן שעדיין תראה אותו בבקשות נכנסות."
+      }
+    },
+    "associationsGallery": {
+      "sources": "מצב",
+      "catalog": {
+        "associated": "משויך",
+        "requesting": "בקשות נכנסות",
+        "pending": "בקשות יוצאות"
+      },
+      "collection": {
+        "projects": "פרויקטים"
+      }
+    }
+  },
+  "notice": {
+    "label": "התראת צורה"
+  }
+}

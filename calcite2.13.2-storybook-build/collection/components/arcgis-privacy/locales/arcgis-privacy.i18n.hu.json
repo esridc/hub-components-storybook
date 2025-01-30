@@ -1,0 +1,41 @@
+{
+  "managePrivacyButton": "Adatvédelem kezelése",
+  "consentNotice": {
+    "allTracking": "A webhely létrehozása az ArcGIS Hub szolgáltatással történt; a webhely névtelen nyomon követést használ – összhangban az Esri adatvédelmi nyilatkozatával – a teljesítmény javítása és a felhasználással kapcsolatos adatok vizsgálata érdekében. További harmadik felek nyomkövető rendszerei figyelhetik a webhely Ön általi használatát.",
+    "anonymousTracking": "A webhely létrehozása az ArcGIS Hub szolgáltatással történt; a webhely névtelen nyomon követést használ – összhangban az Esri adatvédelmi nyilatkozatával – a teljesítmény javítása és a felhasználással kapcsolatos adatok vizsgálata érdekében.",
+    "noTracking": "Ez az oldal az ArcGIS Hub segítségével készült, és csak olyan cookie-kat használ, amelyek az alkalmazás működéséhez szükségesek, és amelyek nem kapcsolhatók ki a rendszereinkben.",
+    "thirdPartyTracking": "Ez az oldal az ArcGIS Hub segítségével készült, és csak olyan cookie-kat használ, amelyek az alkalmazás működéséhez szükségesek, és amelyek nem kapcsolhatók ki a rendszereinkben. További harmadik felek nyomkövető rendszerei figyelhetik a webhely Ön általi használatát."
+  },
+  "consent": {
+    "esriPrivacyLink": "Esri adatvédelmi központ",
+    "customerConsentLink": "További információ"
+  },
+  "eueiNotice": {
+    "title": "{orgName} tag nem lesz nyomon követve",
+    "message": "Az Esri User Experience Improvement (EUEI) program letiltásra került a következőhöz: {orgName}. Az Ön látogatásával kapcsolatos tevékenység nem lesz nyomon követve, nem fogadhatja el az anonim használati statisztikákat vagy a harmadik fél általi nyomon követést.",
+    "link": "Ismerje meg az EUEI programot."
+  },
+  "notice": {
+    "heading": "Adatvédelmi beállítások",
+    "acceptAllButton": "Összes cookie elfogadása",
+    "acceptNecessaryButton": "Csak az elengedhetetlenül szükséges cookie-k elfogadása",
+    "confirmButton": "Megerősít",
+    "reviewSettingsButton": "Beállítások áttekintése"
+  },
+  "settings": {
+    "heading": "Adatvédelmi beállítások",
+    "confirmButton": "Megerősít"
+  },
+  "anonymous": {
+    "heading": "Névtelen használati statisztikák",
+    "helpText": "Ezek a cookie-k lehetővé teszik, hogy nyomon kövessük az alkalmazás teljesítményét, például a forgalom forrásait, az oldalmegtekintéseket és az interakciókat. Segítségükkel megtudhatjuk, hogy mely tartalom hatékony, és hogyan mozognak a látogatók az alkalmazáson belül. Minden összegyűjtött információ anonim (nem tárolunk személyazonosításra alkalmas adatokat). Ha nem engedélyezi ezeket a cookie-kat, nem fogjuk tudni, hogy Ön meglátogatta-e az alkalmazásunkat, vagy azzal kapcsolatba lépett-e."
+  },
+  "necessary": {
+    "heading": "Elengedhetetlenül szükséges cookie-k",
+    "helpText": "Ezek a cookie-k szükségesek az alkalmazás működéséhez, és a rendszereinkben nem kapcsolhatók ki. Ezek az Ön által végzett olyan műveletekre válaszul kerülnek beállításra, amelyek szolgáltatások használatával járnak. Ilyen például a fiókjába való bejelentkezés. Beállíthatja böngészőjét úgy, hogy blokkolja vagy figyelmeztesse Önt ezekre a cookie-kra, de ez az alkalmazás egyes részeire is hatással lehet. Minden összegyűjtött információ anonim (nem tárolunk személyazonosításra alkalmas adatokat)."
+  },
+  "thirdParty": {
+    "heading": "Harmadik fél általi nyomon követés",
+    "helpText": "Ezeket a cookie-kat harmadik fél nyomkövető szolgáltatók állíthatják be ezen a webhelyen. A látogatás során célzási vagy marketing célú információkat gyűjthetnek Önről. Az összegyűjtött információk az alkalmazáson kívüli célokra is felhasználhatók. Ha nem engedélyezi ezeket a cookie-kat, a konfigurált harmadik fél nyomkövető szolgáltatók nem fognak semmilyen információt kapni az Ön látogatásáról."
+  }
+}

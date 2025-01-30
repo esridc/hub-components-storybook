@@ -1,0 +1,5 @@
+arcgis-configuration-editor {
+  border-left: 3px solid;
+  border-left-color: var(--calcite-color-border-3);
+  padding-left: 1rem;
+}

@@ -1,0 +1,15 @@
+{
+  "timeoutError": {
+    "message": "サーバー接続がタイムアウトし、統計を表示できませんでした。",
+    "title": "サーバーがタイムアウトしました"
+  },
+  "genericError": {
+    "message": "統計は表示できません。",
+    "title": "問題が発生しました"
+  },
+  "loading": "統計を読み込んでいます",
+  "source": "ソース:",
+  "dismiss": "終了",
+  "moreInfo": "詳細情報",
+  "openInfo": "詳細情報を開く"
+}

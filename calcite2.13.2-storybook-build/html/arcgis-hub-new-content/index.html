@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-new-content</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+<script async src="https://ga.jspm.io/npm:es-module-shims@1.6.2/dist/es-module-shims.js"></script>
+<script type="importmap">
+  {
+    "imports": {
+      "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+    }
+  }
+</script>
+
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet" href="../calcite-web.min.css">
+</head>
+
+<body>
+  <harness-header page-title="New Content Harness"></harness-header>
+  <div class="grid-container padding-leader-4">
+
+    <!-- NEW CONTENT - SINGLE ENTITY BUTTON -->
+    <div class="column-6">
+      <h2>Single Entity Buttons</h2>
+      <arcgis-hub-new-content
+        button-appearance="outline-fill"
+        class="trailer-1"
+        id="arcgis-hub-new-project-entity"></arcgis-hub-new-content>
+      <arcgis-hub-new-content
+        button-appearance="outline-fill"
+        class="trailer-1"
+        id="arcgis-hub-new-initiative-entity"></arcgis-hub-new-content>
+      <arcgis-hub-new-content
+        button-appearance="outline-fill"
+        class="trailer-1"
+        id="arcgis-hub-new-followers-group-entity"></arcgis-hub-new-content>
+      <arcgis-hub-new-content
+        button-appearance="outline-fill"
+        class="trailer-1"
+        id="arcgis-hub-new-event-entity"></arcgis-hub-new-content>
+    </div>
+
+    <!-- NEW CONTENT - SINGLE ENTITY DROPDOWN -->
+    <div class="column-6">
+      <h2>Single Dropdown</h2>
+      <arcgis-hub-new-content
+        id="arcgis-hub-new-content-entity-as-dropdown"
+        render-as-dropdown
+        button-appearance="transparent"
+        button-color="blue">
+      </arcgis-hub-new-content>
+    </div>
+
+    <!-- NEW CONTENT - MULTIPLE ENTITIES -->
+    <div class="column-6">
+      <h2>Multiple Entities</h2>
+      <arcgis-hub-new-content button-appearance="outline" id="arcgis-hub-new-content-multiple-entities">
+      </arcgis-hub-new-content>
+    </div>
+
+    <!-- NEW CONTENT - MOBILE -->
+    <div class="column-6">
+      <h2>Mobile</h2>
+      <arcgis-hub-new-content button-appearance="outline" id="arcgis-hub-new-content-mobile">
+      </arcgis-hub-new-content>
+    </div>
+  </div>
+
+  <script>
+    function setProp(id, key, value) {
+      const el = document.querySelector(`#${id}`);
+      el[key] = value;
+    }
+
+    // COMPONENT(S) SETUP
+    const mockEntityConfigs = [
+      {
+        key: 'app',
+        href: 'https://google.com'
+      },
+      {
+        key: 'content',
+        href: 'https://google.com'
+      },
+      { key: 'project' },
+      { key: 'initiative' },
+      { key: 'discussion' },
+      { key: 'site' },
+      { key: 'page' },
+      {
+        key: 'feedback',
+        href: 'https://google.com'
+      },
+      {
+        key: 'event',
+        href: 'https://google.com'
+      },
+      {
+        key: 'group',
+        label: "Create followers' group",
+        description: "Set up a group to facilitate sharing content and communication",
+        editorType: "hub:group:create:followers"
+      },
+      {
+        key: 'group',
+        label: "Create view group",
+        description: "Set up a group to facilitate sharing content and communication",
+        editorType: "hub:group:create:view"
+      },
+      {
+        key: 'group',
+        label: "Create edit group",
+        description: "Set up a group to facilitate sharing content and communication",
+        editorType: "hub:group:create:edit"
+      },
+      { key: 'event' },
+    ];
+    const mockResourceLinks = [
+      {
+        key: 'template',
+        label: 'Template Gallery',
+        href: 'https://google.com'
+      }
+    ];
+
+    const components = [
+      {
+        id: 'arcgis-hub-new-project-entity',
+        entityConfigs: [ mockEntityConfigs[2] ]
+      },
+      {
+        id: 'arcgis-hub-new-initiative-entity',
+        entityConfigs: [ mockEntityConfigs[3] ]
+      },
+      {
+        id: 'arcgis-hub-new-followers-group-entity',
+        entityConfigs: [ mockEntityConfigs[7] ]
+      },
+      {
+        id: 'arcgis-hub-new-event-entity',
+        entityConfigs: [ mockEntityConfigs[8] ]
+      },
+      {
+        id: 'arcgis-hub-new-content-entity-as-dropdown',
+        entityConfigs: [ mockEntityConfigs[2] ]
+      },
+      {
+        id: 'arcgis-hub-new-content-multiple-entities',
+        entityConfigs: mockEntityConfigs,
+        resourceLinks: mockResourceLinks
+      },
+      {
+        id: 'arcgis-hub-new-content-mobile',
+        entityConfigs: mockEntityConfigs,
+        resourceLinks: mockResourceLinks,
+        isMobile: true
+      }
+    ]
+
+    const mockEditorContext = {
+      collaborationGroupId: "d5d3d7be88cb47718a44e396e26e155b",
+      contentGroupId: "1e83fb3f9d7c4bd095bc0cfb6e5f2eb5"
+    }
+
+    let harnessIds = [];
+    components.forEach(component => {
+      harnessIds.push(component.id);
+      const { id, entityConfigs, resourceLinks, isMobile } = component;
+
+      setProp(id, 'entityConfigs', entityConfigs);
+      setProp(id, 'resourceLinks', resourceLinks);
+      setProp(id, 'isMobile', isMobile);
+      setProp(id, 'editorContext', mockEditorContext)
+    });
+
+    // EVENT LISTENERS (logged to console for development purposes)
+    document.addEventListener('arcgisHubEntityEditorChange', evt => {
+      console.info('arcgisHubEntityEditorChange:', evt.detail);
+    })
+  </script>
+</body>
+
+</html>

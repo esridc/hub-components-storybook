@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Neboli nájdené žiadne výsledky."
+    },
+    "error": {
+      "message": "Je nám ľúto, ale pri vyhľadávaní došlo k chybe."
+    }
+  },
+  "type": "Typ",
+  "tags": "Štítky",
+  "owner": "Vlastník",
+  "dateCreated": "Vytvorené",
+  "dateUpdated": "Modifikované",
+  "categories": "Kategórie",
+  "dateAndTime": "Dátum a čas",
+  "allDay": "{date} (celý deň)",
+  "allDayRange": "{from} - {to} (celý deň)",
+  "location": "Lokalita",
+  "attendanceType": "Typ dochádzky",
+  "inPerson": "Osobne",
+  "online": "Online",
+  "hybrid": "Hybridne"
+}

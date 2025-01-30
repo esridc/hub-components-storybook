@@ -1,0 +1,10 @@
+{
+  "targetEntity": {
+    "label": "Sumber",
+    "enum": {
+      "item": "Item",
+      "event": "Peristiwa",
+      "group": "Grup"
+    }
+  }
+}

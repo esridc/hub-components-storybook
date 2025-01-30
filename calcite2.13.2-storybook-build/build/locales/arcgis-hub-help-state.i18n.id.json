@@ -1,0 +1,26 @@
+{
+  "unauthenticated": {
+    "heading": "Silakan masuk.",
+    "message": "Situs ini memerlukan kredensial untuk mengakses.",
+    "actionText": "Masuk"
+  },
+  "not-found": {
+    "heading": "Halaman tidak ditemukan",
+    "message": "Halaman ini mungkin telah dipindahkan atau dihapus. Coba cari dari beranda",
+    "actionText": "Buka Beranda"
+  },
+  "unsupported-device": {
+    "heading": "Ukuran layar tidak didukung",
+    "message": "Ruang kerja belum tersedia di ukuran layar yang lebih kecil; gunakan perangkat dengan layar yang lebih besar.",
+    "actionText": "Kembali"
+  },
+  "access-denied": {
+    "heading": "Akses Ditolak",
+    "message": "Anda tidak memiliki izin untuk mengakses sumber daya ini.",
+    "actionText": "Buka Beranda"
+  },
+  "loading": {
+    "heading": "Memuat...",
+    "loadingLabel": "Memuat"
+  }
+}

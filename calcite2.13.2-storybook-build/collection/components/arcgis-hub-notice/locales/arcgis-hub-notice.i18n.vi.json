@@ -1,0 +1,150 @@
+{
+  "modal": {
+    "dismiss": "Không hiện lại thông báo này",
+    "close": "Đóng"
+  },
+  "notice": {
+    "n001": {
+      "title": "Thông báo Kiểm tra",
+      "message": "Đây là nội dung của thông báo kiểm tra",
+      "actions": [
+        {
+          "text": "Đọc blog"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-1": {
+      "title": "Chuyển sang trải nghiệm tải xuống cập nhật",
+      "message": "Để có thêm các định dạng cũng như cải thiện tốc độ và hiệu suất, hãy bật \"trích xuất\" trên dịch vụ của mục này."
+    },
+    "20240220-hosted-downloads-2": {
+      "title": "Các cải tiến cho nội dung tải xuống đã sẵn sàng!",
+      "message": "Cải tiến nội dung tải xuống trên trang Hub của bạn bao gồm hỗ trợ cho nội dung tải xuống được lưu trữ, giao diện đã cập nhật cho thẻ tải xuống và thanh tiến trình mới cho nội dung tải xuống.",
+      "actions": [
+        {
+          "text": "Tìm hiểu thêm"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-3": {
+      "title": "Nội dung tải xuống được lưu trữ đã sẵn sàng!",
+      "message": "Nội dung tải xuống được lưu trữ giúp cải thiện hiệu suất khi tải xuống nội dung. Để bật nội dung tải xuống được lưu trữ, bạn phải bật Chức năng Trích xuất bên dưới.",
+      "actions": [
+        {
+          "text": "Tìm hiểu thêm"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-basic": {
+      "title": "Về không gian làm việc",
+      "message": "<p><strong>Thêm nội dung vào danh mục Trang thông qua nhóm</strong><br>Danh mục tìm kiếm Trang đã luôn được các nhóm hỗ trợ, cũng như không gian làm việc sẽ giúp bạn dễ dàng quản lý các nhóm này hơn. Hiện tại, hãy thêm nội dung vào các nhóm riêng lẻ đã được kết nối với trang của bạn để các nhóm này xuất hiện trong danh mục trang. Bạn sẽ sớm có thể thêm nội dung trực tiếp vào danh mục.</p><p><strong>Chuyển từ Đội sang Nhóm</strong><br>Giờ đây, bạn có thể sử dụng bất kỳ Nhóm ArcGIS Online nào để cộng tác trên các trang web, trang, nội dung và dự án trong Hub. Tất cả các \"Đội\" đã được liên kết trước đó như \"Đội Cốt lõi\" của trang web sẽ vẫn xuất hiện trong bảng Người cộng tác tại không gian làm việc của Trang web.</p><p><strong>Tạm dừng thông báo email theo Đội</strong><br>Gửi thông báo email và email mời/xóa đến người theo dõi và thành viên đội hiện không được hỗ trợ.</p><strong><p>Ngừng sử dụng trình thiết kế trang web Survey123 đã nhúng</strong><br>Chúng tôi đã nhúng trình thiết kế Survey 123 để giúp bạn hoàn thành nhiều nội dung hơn trong Hub. Tuy nhiên, ý kiến phản hồi của khách hàng cho thấy họ ưu tiên thiết kế và quản lý khảo sát trong Survey123, như các ứng dụng khác. Do đó, chúng tôi sẽ ngừng hỗ trợ trình thiết kế Survey 123 đã nhúng trong ArcGIS Hub để điều chỉnh cho phù hợp hơn với quy trình làm việc mong muốn của bạn.</p>",
+      "actions": [
+        {
+          "text": "Tìm hiểu thêm"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-premium": {
+      "title": "Về không gian làm việc",
+      "message": "<p><strong>Thêm nội dung vào danh mục Trang thông qua nhóm</strong><br>Danh mục tìm kiếm Trang đã luôn được các nhóm hỗ trợ, cũng như không gian làm việc sẽ giúp bạn dễ dàng quản lý các nhóm này hơn. Hiện tại, hãy thêm nội dung vào các nhóm riêng lẻ đã được kết nối với trang của bạn để các nhóm này xuất hiện trong danh mục trang. Bạn sẽ sớm có thể thêm nội dung trực tiếp vào danh mục.</p><p><strong>Chuyển từ Đội Hỗ trợ sang Nhóm</strong><br>Giờ đây, bạn có thể sử dụng bất kỳ Nhóm ArcGIS Online nào để cộng tác trên các trang web, trang, nội dung và dự án trong Hub. Tất cả Đội Hỗ trợ được liên kết trước đó vẫn sẽ xuất hiện trong bảng Người cộng tác trên không gian làm việc của Trang web. Để được tiếp tục hỗ trợ, hãy thêm đội ngũ Hỗ trợ đó làm Nhóm có thể Xem và Nhóm có thể Chỉnh sửa.</p><p><strong>Tạm dừng thông báo email theo Đội</strong><br>Gửi thông báo email và email mời/xóa đến người theo dõi và thành viên đội hiện không được hỗ trợ.</p><p><strong>Ngừng sử dụng trình thiết kế trang web Survey123 đã nhúng</strong><br>Chúng tôi đã nhúng trình thiết kế Survey 123 để giúp bạn hoàn thành nhiều nội dung hơn trong Hub. Tuy nhiên, ý kiến phản hồi của khách hàng cho thấy họ ưu tiên thiết kế và quản lý khảo sát trong Survey123, như các ứng dụng khác. Do đó, chúng tôi sẽ ngừng hỗ trợ trình thiết kế Survey 123 đã nhúng trong ArcGIS Hub để điều chỉnh cho phù hợp hơn với quy trình làm việc mong muốn của bạn.</p><p><strong>Những sự kiện chưa khả dụng trong không gian làm việc</strong><br>Những sự kiện đang được chuyển đổi và sẽ sớm khả dụng trong không gian làm việc. Hiện tại, nếu bạn đăng ký tham gia không gian làm việc, bạn sẽ mất khả năng tạo sự kiện mới, quản lý và tìm kiếm các sự kiện hiện có. Tuy nhiên, bạn vẫn có thể hủy đăng ký tham gia bất cứ lúc nào nếu muốn quản lý các sự kiện đã được tạo trước đây.</p>",
+      "actions": [
+        {
+          "text": "Tìm hiểu thêm"
+        }
+      ]
+    },
+    "202404-workspaceannouncement": {
+      "title": "Giới thiệu không gian làm việc",
+      "message": "Không gian làm việc là cách mới để chỉnh sửa và quản lý các mục trong Hub, thay thế điều hướng chung trong chế độ xem chỉnh sửa (không phải chế độ xem trực tiếp). Ở giai đoạn này, bạn có thể \"đăng ký tham gia\" (bất cứ lúc nào) để sử dụng không gian làm việc và các đối tượng liên kết cho các mục và nhóm. Sự kiện sẽ được cung cấp trong giai đoạn sau. Để dùng thử không gian làm việc ngay, hãy chọn \"Đi đến thiết lập\".",
+      "actions": [
+        {
+          "text": "Đi đến thiết lập"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing": {
+      "title": "Giới thiệu lại - Sáng kiến ​​​​Hub",
+      "message": "Sáng kiến ArcGIS Hub đã thay đổi vào ngày 2 tháng 7 năm 2024. Các sáng kiến ​​được tạo trước đây bây giờ là các trang web độc lập — có bố cục, nội dung, URL và đối tượng cao cấp (như người theo dõi và sự kiện) giống như trước đây. Để thử các sáng kiến ​​mới được làm mới, bạn phải kích hoạt không gian làm việc.",
+      "actions": [
+        {
+          "text": "Tìm hiểu về sáng kiến",
+          "ariaLabel": "Tìm hiểu về các sáng kiến, Mở trong tab mới"
+        },
+        {
+          "text": "Đi đến thiết lập"
+        }
+      ]
+    },
+    "20240517-initiatives-manage": {
+      "title": "Quản lý sáng kiến ​​cũ",
+      "message": "Sáng kiến ArcGIS Hub đã thay đổi vào ngày 2 tháng 7 năm 2024. Các sáng kiến ​​được tạo trước đây bây giờ là các trang web độc lập — có bố cục, nội dung, URL và đối tượng cao cấp (như người theo dõi và sự kiện) giống như trước đây. Bạn có thể xóa mọi sáng kiến ​​cũ một cách an toàn.",
+      "actions": [
+        {
+          "text": "Tìm hiểu về sáng kiến",
+          "ariaLabel": "Tìm hiểu về các sáng kiến, Mở trong tab mới"
+        },
+        {
+          "text": "Xem sáng kiến cũ",
+          "ariaLabel": "Xem các sáng kiến cũ, Mở trong tab mới"
+        }
+      ]
+    },
+    "20240517-initiatives-manage-no-priv": {
+      "title": "Quản lý sáng kiến ​​cũ",
+      "message": "Sáng kiến ArcGIS Hub đã thay đổi vào ngày 2 tháng 7 năm 2024. Các sáng kiến ​​được tạo trước đây bây giờ là các trang web độc lập — có bố cục, nội dung, URL và đối tượng cao cấp (như người theo dõi và sự kiện) giống như trước đây. Bạn có thể xóa mọi sáng kiến ​​cũ một cách an toàn.",
+      "actions": [
+        {
+          "text": "Tìm hiểu về sáng kiến",
+          "ariaLabel": "Tìm hiểu về các sáng kiến, Mở trong tab mới"
+        },
+        {
+          "text": "Xem sáng kiến cũ",
+          "ariaLabel": "Xem các sáng kiến cũ, Mở trong tab mới"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing-site": {
+      "title": "Giới thiệu lại - Sáng kiến ​​​​Hub",
+      "message": "Thế hệ Sáng kiến ​​Hub mới hiện đã có sẵn trong không gian làm việc. Các sáng kiến ​​có chế độ xem riêng, dễ thiết lập và có thể giúp điều chỉnh các Dự án Hub có chung mục tiêu dài hạn. Sáng kiến ​​có thể được tạo riêng và có thể được chia sẻ với một hoặc nhiều trang web. Trang web có thể có một hoặc nhiều sáng kiến.",
+      "actions": [
+        {
+          "text": "Tìm hiểu thêm",
+          "ariaLabel": "Tìm hiểu thêm, Mở trong tab mới"
+        }
+      ]
+    },
+    "20240710-slow-service-warning": {
+      "title": "Gián đoạn dịch vụ",
+      "message": "Giao tiếp với dịch vụ mất nhiều thời gian hơn dự kiến. Điều này có thể ảnh hưởng đến quyền truy cập của bạn vào nội dung tải xuống và chức năng bản đồ."
+    },
+    "20240710-unreachable-service-error": {
+      "title": "Dịch vụ không khả dụng",
+      "message": "Chúng tôi không liên hệ được với dịch vụ máy chủ. Nội dung tải xuống và chức năng bản đồ hiện không khả dụng cho mục này."
+    },
+    "20240807-auth-required-status": {
+      "title": "Trạng thái dịch vụ không xác định",
+      "message": "Chúng tôi không thể truy cập dịch vụ bảo mật vì dịch vụ yêu cầu cấp phép bổ sung. Nội dung tải xuống và chức năng bản đồ hiện không khả dụng cho mục."
+    },
+    "20240805-private-downloads-unavailable-ago-error": {
+      "title": "Tải xuống không khả dụng",
+      "message": "Để tải xuống nội dung, bạn phải kích hoạt chức năng Xuất Dữ liệu trên ArcGIS Online. Vui lòng liên hệ chủ sở hữu mục để bật thiết lập này."
+    },
+    "20240805-private-downloads-unavailable-enterprise-error": {
+      "title": "Tải xuống không khả dụng",
+      "message": "Để tải xuống nội dung, bạn phải bật thiết lập Xuất Dữ liệu trên ArcGIS Enterprise. Vui lòng liên hệ chủ sở hữu mục để bật thiết lập này."
+    },
+    "20240819-download-formats-disabled": {
+      "title": "Tải xuống đã bị tắt",
+      "message": "Để tải xuống nội dung cho mục này, vui lòng liên hệ với chủ sở hữu mục."
+    },
+    "20241104-about-feeds-notice": {
+      "message": "Cho phép sử dụng lại và dễ dàng truy cập vào dữ liệu mở công khai của bạn bằng nguồn cấp dữ liệu Hub.",
+      "actions": [
+        {
+          "text": "Tìm hiểu về nguồn cấp dữ liệu Hub",
+          "ariaLabel": "Tìm hiểu về nguồn cấp dữ liệu Hub, Mở trong tab mới"
+        }
+      ]
+    }
+  }
+}

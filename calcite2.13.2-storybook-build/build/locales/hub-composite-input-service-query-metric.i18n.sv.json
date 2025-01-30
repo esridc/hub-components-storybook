@@ -1,0 +1,35 @@
+{
+  "dynamicStat": {
+    "facets": {
+      "sharing": "Delning",
+      "myself": "Mig själv",
+      "myOrganization": "Min organisation",
+      "public": "Världen (Offentlig)"
+    },
+    "catalog": {
+      "myContent": "Mitt innehåll",
+      "favorites": "Favoriter",
+      "organization": "Min organisation",
+      "world": "Världen (Offentlig)"
+    }
+  },
+  "expression": {
+    "label": "Attributfilter"
+  },
+  "field": {
+    "label": "Attribut"
+  },
+  "layer": "Lager/tabell",
+  "statistic": {
+    "label": "Aggregering",
+    "aggregations": {
+      "count": "Antal",
+      "min": "Minimum",
+      "max": "Maximum",
+      "sum": "Summa",
+      "avg": "Genomsnitt",
+      "stddev": "Standardavvikelse",
+      "var": "Varians"
+    }
+  }
+}

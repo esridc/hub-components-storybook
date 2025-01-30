@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "Dodaj pierwsze działanie",
+  "addSecondAction": "Dodaj drugie działanie",
+  "addLink": "Dodaj łącze",
+  "addSection": "Dodaj sekcję",
+  "deleteNotice": {
+    "title": "Nie można usunąć",
+    "message": "Sekcja nie jest pusta. Przenieś wszystkie łącza poza tę sekcję, zanim spróbujesz ją usunąć."
+  },
+  "linkEditor": {
+    "save": "Zapisz",
+    "delete": "Usuń",
+    "cancel": "Anuluj",
+    "preview": "Łącze do podglądu",
+    "title": {
+      "button1": "Pierwsze działanie",
+      "button2": "Drugie działanie",
+      "block": "Łącze do działania"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "Łącze do istniejących zasobów"
+        },
+        "external": {
+          "label": "Łącze do zewnętrznego źródła"
+        }
+      },
+      "label": {
+        "label": "Etykieta",
+        "helperText": {
+          "button": "Ten tekst pojawi się na przycisku.",
+          "block": "Ten element zostanie wyświetlony na bloku przy użyciu pogrubionej czcionki."
+        },
+        "requiredError": "Etykieta jest polem wymaganym."
+      },
+      "description": {
+        "label": "Opis",
+        "helperText": "To są informacje dodatkowe."
+      },
+      "href": {
+        "label": "Łącze",
+        "requiredError": "Łącze jest polem wymaganym.",
+        "formatError": "Adres URL jest nieprawidłowo sformatowany."
+      },
+      "contentId": {
+        "label": "Łącze do zasobów",
+        "requiredError": "Łącze do zasobów jest polem wymaganym."
+      },
+      "section": {
+        "label": "Przejdź do sekcji",
+        "placeholder": {
+          "noSections": "Nie skonfigurowano żadnych sekcji",
+          "notSet": "Nie w sekcji"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "Sekcja",
+    "helperText": "Sekcje mogą być używane do zagnieżdżania łączy pod elementem menu. Sekcje nie działają jako łącza.",
+    "section": {
+      "label": {
+        "label": "Etykieta",
+        "requiredError": "Etykieta jest polem wymaganym."
+      },
+      "description": {
+        "label": "Opis"
+      }
+    }
+  }
+}

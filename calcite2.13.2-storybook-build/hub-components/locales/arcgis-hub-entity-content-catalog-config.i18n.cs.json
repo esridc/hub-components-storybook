@@ -1,0 +1,46 @@
+{
+  "title": "Konfigurace katalogu",
+  "helperText": "Definujte a nakonfigurujte katalog",
+  "sections": {
+    "groups": {
+      "title": "Skupiny",
+      "helperText": "Níže uvedené skupiny zahrnují obsah ve vašem katalogu vyhledávání. Výběrem skupiny zobrazíte nastavení, obsah a další.",
+      "createGroup": "Vytvořit novou skupinu"
+    },
+    "feeds": {
+      "title": "Konfigurace zdroje",
+      "helperText": "Zajistěte, aby vaše veřejná otevřená data byla snadno dostupná a opakovaně použitelná pomocí zdrojů Hub.",
+      "learn": "Získat informace o zdrojích Hub",
+      "toggle": "Aktivovat zdroje ",
+      "configure": "Konfigurovat zdroje",
+      "notice": "Chcete-li aktivovat zdroje, musíte nejprve v Nastavení své weby Hubu nastavit na „Veřejné“."
+    }
+  },
+  "groupPickerFacet": {
+    "label": "Z",
+    "editGroups": "Skupiny pro editaci",
+    "viewGroups": "Skupina pro prohlížení",
+    "myGroups": "Moje skupiny",
+    "myOrganization": "Moje organizace",
+    "myCommunity": "Moje komunita",
+    "public": "Veřejné"
+  },
+  "formAlert": "Chyba formuláře",
+  "configSaveAlert": {
+    "success": "Úpravy byly úspěšně uloženy",
+    "failure": "Chyba při ukládání úprav"
+  },
+  "reharvestCatalogButton": "Kontrola chyb",
+  "reharvestWarningModal": {
+    "title": "Kontrola chyb",
+    "body1": "Varování: Tato možnost se obvykle používá pouze v situacích, kdy stránka vyhledávání narazí na problém s chybějícími výsledky nebo metadaty. Tato možnost zkontroluje všechny položky ve všech skupinách a zjistí, zda byly přidány či odebrány nebo došlo ke změně metadat.",
+    "body2": "Spuštění tohoto procesu obnoví veřejný index vyhledávání tohoto katalogu a může trvat několik minut. Tím se zvýší zatížení všech instancí ArcGIS Serveru.",
+    "primaryButton": "Pokračovat",
+    "secondaryButton": "Storno"
+  },
+  "reharvestCatalogAlert": {
+    "success": "Probíhá kontrola chyb. Zkontrolujte to prosím později.",
+    "inProgress": "Kontrola již probíhá. Vraťte se prosím později.",
+    "failure": "Omlouváme se, došlo k provozní chybě. Zkuste to prosím později."
+  }
+}

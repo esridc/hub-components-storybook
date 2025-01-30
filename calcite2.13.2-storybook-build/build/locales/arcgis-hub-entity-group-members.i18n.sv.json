@@ -1,0 +1,59 @@
+{
+  "title": "Medlemmar",
+  "facets": {
+    "role": {
+      "label": "Roll",
+      "all": "Alla",
+      "manager": "Ledare",
+      "member": "Medlem"
+    },
+    "dateJoined": {
+      "label": "Anslutningsdatum"
+    }
+  },
+  "stats": {
+    "total": {
+      "title": "Summa",
+      "trailingText": "Gruppmedlemmar"
+    },
+    "new": {
+      "title": "Ny",
+      "trailingText": "Senaste 30 dagarna"
+    }
+  },
+  "addMembers": {
+    "button": "Lägg till medlemmar",
+    "disabledTooltip": "Du är inte behörig att lägga till användare i den här gruppen.",
+    "modal": {
+      "title": "Lägg till medlemmar",
+      "org": "Min organisation",
+      "community": "Min community",
+      "partner": "Mina partners",
+      "world": "Världen"
+    },
+    "notifications": {
+      "invited": "Inbjudan har skickats. Användare måste acceptera att gå med",
+      "added": "Användare har lagts till",
+      "notInvited": "Vissa medlemmar kanske inte har de behörigheter som krävs för att gå med i gruppen eller så har de gått med i maximalt antal grupper (512)"
+    }
+  },
+  "removeUsers": {
+    "button": "Ta bort",
+    "success": "Medlemmar har tagits bort från {groupName}.",
+    "error": "En eller flera användare kunde inte tas bort från gruppen."
+  },
+  "changeRole": {
+    "tooltipText": "Avmarkera dig själv och/eller gruppägaren",
+    "tooltipLabel": "Rollfriskrivning",
+    "button": "Ändra roll",
+    "member": "Medlem",
+    "memberHelperText": "Kan lägga till och se innehåll inom gruppen.",
+    "admin": "Ledare",
+    "adminHelperText": "Kan lägga till/ta bort innehåll och bjuda in/ta bort personer (utom ägaren).",
+    "success": "Valda medlemmar blev grupp{role}.",
+    "error": "Rollen kunde inte ändras för en eller flera medlemmar."
+  },
+  "notice": {
+    "label": "Formulärvarning"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "Szerkesztés",
+    "fields": {
+      "label": {
+        "label": "Felirat",
+        "requiredMessage": "Felirat szükséges",
+        "maxLengthMessage": "A felirat nem lehet hosszabb {maxLength} karakternél"
+      }
+    },
+    "apply": "Alkalmaz"
+  },
+  "showItem": "A következő listaelem megjelenítése: {itemLabel}",
+  "hideItem": "A következő listaelem elrejtése: {itemLabel}",
+  "editItem": "A következő listaelem szerkesztése: {itemLabel}"
+}

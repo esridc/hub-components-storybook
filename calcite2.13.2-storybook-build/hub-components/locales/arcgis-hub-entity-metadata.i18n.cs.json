@@ -1,0 +1,239 @@
+{
+  "owner": {
+    "description": "Vlastník"
+  },
+  "updatedDate": {
+    "description": "Datum aktualizace",
+    "descriptionWithFrequency": "Datum aktualizace: {updatedDateFormatted}"
+  },
+  "createdDate": {
+    "description": "Datum vytvoření"
+  },
+  "joinedDate": {
+    "description": "Datum připojení"
+  },
+  "access": {
+    "label": {
+      "public": "Veřejné",
+      "org": "Organizace",
+      "private": "Vlastník",
+      "shared": "Sdíleno soukromě"
+    },
+    "description": {
+      "public": {
+        "site": "Tuto stránku uvidí všichni",
+        "project": "Tento projekt uvidí všichni",
+        "initiative": "Tuto iniciativu uvidí všichni",
+        "discussion": "Tuto diskuzi uvidí všichni",
+        "default": "Tento obsah uvidí všichni",
+        "event": "Tuto událost uvidí všichni"
+      },
+      "org": {
+        "site": "Tuto stránku uvidí všichni ve vaší organizaci",
+        "project": "Tento projekt uvidí všichni ve vaší organizaci",
+        "initiative": "Tuto iniciativu uvidí všichni ve vaší organizaci",
+        "discussion": "Tuto diskuzi uvidí všichni ve vaší organizaci",
+        "default": "Tento obsah uvidí všichni ve vaší organizaci",
+        "event": "Tuto událost uvidí všichni ve vaší organizaci"
+      },
+      "private": {
+        "site": "Tuto stránku uvidíte pouze vy",
+        "project": "Tento projekt uvidíte pouze vy",
+        "initiative": "Tuto iniciativu uvidíte poze vy",
+        "discussion": "Tuto diskuzi uvidíte pouze vy",
+        "default": "Tento obsah uvidíte poze vy",
+        "event": "Tuto událost uvidíte pouze vy"
+      },
+      "shared": {
+        "site": "Tuto stránku uvidí vybrané skupiny",
+        "project": "Tento projekt uvidí vybrané skupiny",
+        "initiative": "Tuto iniciativu uvidí vybrané skupiny",
+        "discussion": "Tuto diskuzi uvidí vybrané skupiny",
+        "default": "Tento obsah uvidí vybrané skupiny",
+        "event": "Tuto událost uvidí vybrané skupiny"
+      }
+    }
+  },
+  "type": {
+    "fallback": {
+      "content": "Obsah",
+      "discussion": "Diskuze",
+      "event": "Událost",
+      "group": "Skupina",
+      "initiative": "Iniciativa",
+      "org": "Organizace",
+      "page": "Stránka",
+      "project": "Projekt",
+      "site": "Web",
+      "survey": "Zaměření",
+      "initiativeTemplate": "Šablona",
+      "user": "Uživatel"
+    },
+    "appbuilderExtension": "Nástroj GIS",
+    "appbuilderWidgetPackage": "Nástroj GIS",
+    "application": "Registrovaná aplikace",
+    "arcgisProMap": "Nástroj GIS",
+    "cadDrawing": "Nástroj GIS",
+    "cityEngineWebScene": "3D aplikace",
+    "codeAttachment": "Nástroj GIS",
+    "colorSet": "Nástroj GIS",
+    "content": "Obsah",
+    "contentCategorySet": "GIS",
+    "csv": "Datová sada",
+    "csvCollection": "Datový soubor",
+    "dashboard": "Řídicí panel",
+    "desktopApplication": "Nástroj GIS",
+    "document": "Dokument",
+    "documentLink": "Odkaz na stránku",
+    "excaliburImageryProject": "Nástroj GIS",
+    "explorerMap": "Nástroj GIS",
+    "exportPackage": "Nástroj GIS",
+    "featureCollection": "Datová sada",
+    "featureCollectionTemplate": "Nástroj GIS",
+    "featureLayer": "Datová sada",
+    "featureService": "Mapa",
+    "fileGeodatabase": "Datový soubor",
+    "form": "Zaměření",
+    "geocodingService": "API pro vývojáře",
+    "geodataService": "API pro vývojáře",
+    "geojson": "Obsah",
+    "geometryService": "API pro vývojáře",
+    "geopackage": "Datový soubor",
+    "geoprocessingService": "API pro vývojáře",
+    "globeLayer": "Datový soubor",
+    "globeService": "API pro vývojáře",
+    "hubInitiative": "Iniciativa",
+    "hubInitiativeTemplate": "Šablona",
+    "hubPage": "Stránka",
+    "hubProject": "Projekt",
+    "hubSiteApplication": "Web",
+    "image": "Obrázek",
+    "imageService": "Datová sada obrazových dat",
+    "insightsModel": "Nástroj GIS",
+    "insightsPage": "Analýza",
+    "insightsTheme": "Nástroj GIS",
+    "insightsWorkbook": "Sešit analýzy",
+    "iWorkKeynote": "Prezentace",
+    "iWorkNumbers": "Tabulka",
+    "iWorkPages": "Dokument",
+    "kml": "Datová sada",
+    "kmlCollection": "Datový soubor",
+    "layer": "Datový soubor",
+    "layerPackage": "Datový soubor",
+    "locatorPackage": "Nástroj GIS",
+    "mapArea": "Nástroj GIS",
+    "mapDocument": "Nástroj GIS",
+    "mapImageLayer": "Mapa",
+    "mapPackage": "Datový soubor",
+    "mapService": "Mapa",
+    "microsoftExcel": "Tabulka",
+    "microsoftPowerpoint": "Prezentace",
+    "microsoftVizio": "Microsoft Visio",
+    "microsoftWord": "Dokument",
+    "mission": "Nástroj GIS",
+    "mobileApplication": "Aplikace",
+    "mobileMapPackage": "Datový soubor",
+    "native application template": "Nástroj pro vývojáře",
+    "nativeApplication": "Aplikace",
+    "nativeApplicationInstaller": "Nástroj pro vývojáře",
+    "networkAnalysisService": "API pro vývojáře",
+    "notebook": "Analýza",
+    "orientedImageryCatalog": "Datová sada obrazových dat",
+    "orthoMappingProject": "Nástroj GIS",
+    "orthoMappingTemplate": "Nástroj GIS",
+    "pdf": "Dokument",
+    "quickcaptureProject": "Mobilní průzkum",
+    "rasterLayer": "Mapa",
+    "realTimeAnalytic": "API pro vývojáře",
+    "relationalDatabaseConnection": "API pro vývojáře",
+    "reportTemplate": "Nástroj GIS",
+    "sceneLayer": "3D datová sada",
+    "sceneService": "3D datová sada",
+    "serviceDefinition": "Datový soubor",
+    "shapefile": "Datová sada",
+    "solution": "Řešení",
+    "sqliteGeodatabase": "Datový soubor",
+    "statisticalDataCollection": "Datový soubor",
+    "storymap": "Mapa s příběhem",
+    "symbolSet": "Datový soubor",
+    "table": "Datová sada",
+    "team": "Tým",
+    "urbanModel": "Model Urban",
+    "vectorTileService": "Mapa",
+    "visioDocument": "Dokument",
+    "webExperience": "Aplikace",
+    "webMap": "Mapa",
+    "webMappingApplication": "Aplikace",
+    "webScene": "3D mapa",
+    "wfs": "Mapa",
+    "wms": "Mapa",
+    "wmts": "Mapa",
+    "workflowManagerService": "API pro vývojáře",
+    "workforceProject": "Správce toku úloh"
+  },
+  "location": {
+    "description": "Umístění"
+  },
+  "members": {
+    "noMember": "Žádní členové",
+    "oneMember": "Členové: 1",
+    "members": "Členové: {count}",
+    "description": {
+      "value": "Zobrazit všechny členy skupiny"
+    }
+  },
+  "tooltip": {
+    "label": "Plovoucí popisek položky metadat"
+  },
+  "relevantArea": {
+    "title": "Relevantní plocha"
+  },
+  "license": {
+    "tooltip": "Definuje způsob použití tohoto obsahu",
+    "set": {
+      "title": "Licence {license}",
+      "customTitle": "Vlastní licence",
+      "description": {
+        "value": "Zobrazit podrobnosti licence"
+      }
+    },
+    "unset": {
+      "title": "Neuvedena žádná licence",
+      "description": {
+        "value": "Požádat o oprávnění k použití"
+      }
+    }
+  },
+  "size": {
+    "description": {
+      "value": "Velikost souboru dokumentu"
+    }
+  },
+  "recordCount": {
+    "title": "Záznamy: {count}",
+    "description": {
+      "value": "Zobrazit tabulku dat"
+    }
+  },
+  "metadataModified": {
+    "description": {
+      "defaultValue": "informace aktualizovány",
+      "dynamicValue": "Informace aktualizovány: {lastUpdated}"
+    }
+  },
+  "updateFrequency": {
+    "continual": "Kontinuálně",
+    "daily": "Denně",
+    "weekly": "Týdně",
+    "fortnightly": "Čtrnáctidenně",
+    "monthly": "Měsíčně",
+    "quarterly": "Čtvrtletně",
+    "biannually": "Pololetně",
+    "annually": "Ročně",
+    "as-needed": "Podle potřeby",
+    "irregular": "Nepravidelně",
+    "not-planned": "Neplánovaně",
+    "unknown": "Neznámé",
+    "semimonthly": "Dvakrát měsíčně"
+  }
+}

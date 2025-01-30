@@ -1,0 +1,18 @@
+{
+  "about": "نبذة عن",
+  "metrics": "مقاييس",
+  "featuredContent": "محتوى مميز",
+  "details": "التفاصيل",
+  "exploreMetrics": "استكشاف المقاييس",
+  "status": {
+    "label": {
+      "default": "الحالة",
+      "project": "حالة المشروع",
+      "initiative": "حالة المبادرة"
+    },
+    "notStarted": "لم يبدأ",
+    "inProgress": "قيد التقدّم",
+    "onHold": "متوقف مؤقتًا",
+    "complete": "اكتمل"
+  }
+}

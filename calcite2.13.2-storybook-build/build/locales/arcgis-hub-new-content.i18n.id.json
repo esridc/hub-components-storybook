@@ -1,0 +1,57 @@
+{
+  "new": "Baru",
+  "project": {
+    "label": "Proyek",
+    "description": "Sorot kerja yang memiliki tujuan dan jangka waktu yang jelas",
+    "createLabel": "Buat Proyek",
+    "newLabel": "Proyek Baru"
+  },
+  "initiative": {
+    "label": "Inisiatif",
+    "description": "Inisiatif mengatur dan merangkum kemajuan menuju suatu tujuan",
+    "createLabel": "Buat Inisiatif",
+    "newLabel": "Inisiatif Baru"
+  },
+  "discussion": {
+    "label": "Papan diskusi",
+    "description": "Buat forum diskusi baru dengan memasukkan judul yang menggambarkan topiknya.",
+    "createLabel": "Buat Papan diskusi",
+    "newLabel": "Papan diskusi baru"
+  },
+  "site": {
+    "label": "Situs",
+    "description": "Buat halaman web untuk mengatur dan berbagi informasi",
+    "createLabel": "Buat Situs",
+    "newLabel": "Situs Baru"
+  },
+  "event": {
+    "label": "Peristiwa",
+    "description": "Selenggarakan aktivitas yang tertata, secara langsung atau virtual",
+    "createLabel": "Buat Peristiwa",
+    "newLabel": "Peristiwa Baru"
+  },
+  "content": {
+    "label": "Konten",
+    "description": "Tambahkan data, dokumen, gambar, dan tautan eksternal ke situs Anda",
+    "createLabel": "Buat Konten",
+    "newLabel": "Konten Baru"
+  },
+  "feedback": {
+    "label": "Umpan balik",
+    "description": "Kumpulkan informasi terfokus dengan alat seperti survei dan polling",
+    "createLabel": "Buat Umpan Balik",
+    "newLabel": "Umpan Balik Baru"
+  },
+  "app": {
+    "label": "Aplikasi",
+    "description": "Bangun pengalaman, ceritakan kisah, atau visualisasikan data Anda",
+    "createLabel": "Buat Aplikasi",
+    "newLabel": "Aplikasi Baru"
+  },
+  "group": {
+    "label": "Grup",
+    "description": "Siapkan grup untuk berkolaborasi pada konten terfokus",
+    "createLabel": "Buat Grup",
+    "newLabel": "Grup Baru"
+  }
+}

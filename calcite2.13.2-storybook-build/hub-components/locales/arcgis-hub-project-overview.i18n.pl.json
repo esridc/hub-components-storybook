@@ -1,0 +1,19 @@
+{
+  "overview": "Przegląd",
+  "telemetry": {
+    "pageViews": "Widoki strony",
+    "last30days": "Ostatnie 30 dni",
+    "lastUpdated": "Ostatnio zaktualizowano {hoursElapsed} godz. temu",
+    "checkTomorrow": "Sprawdź ponownie jutro"
+  },
+  "learnAbout": "Dowiedz się więcej na temat projektów Centrum",
+  "status": {
+    "notStarted": "Nie rozpoczęto",
+    "inProgress": "W toku",
+    "onHold": "Wstrzymane",
+    "complete": "Gotowe"
+  },
+  "editDetails": "Edytuj szczegóły",
+  "noPurposeSet": "Nie ustalono celu",
+  "noLocationSet": "Nie ustawiono lokalizacji"
+}

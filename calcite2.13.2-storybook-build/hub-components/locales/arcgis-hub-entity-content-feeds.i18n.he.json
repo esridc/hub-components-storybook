@@ -1,0 +1,81 @@
+{
+  "tabTitle": "הגדרת הזנות",
+  "learn": "למד אודות הזנות Hub",
+  "loadingLabel": "טוען",
+  "enableFeedsToggle": {
+    "label": "אפשר הזנות",
+    "privateNotice": "כדי לאפשר הזנות, עליך להגדיר תחילה את אתר Hub שלך ל\"ציבורי\".",
+    "emptyPublicCatalog": {
+      "message": "כדי לאפשר הזנות, עליך להוסיף תחילה תוכן ציבורי לקטלוג שלך.",
+      "button": "הצג קטלוג"
+    },
+    "grouplessCatalog": {
+      "message": "כדי לאפשר הזנות, עליך להגדיר תחילה את הקטלוג שלך.",
+      "button": "הגדר קטלוג"
+    }
+  },
+  "gettingStartedNotice": {
+    "title": "תחילת העבודה",
+    "exampleMessage": "הדגש ועדכן מפתח או ערך בעורך JSON באמצעות ערך ליטרלי (\"VALUE\") או ערך תבנית (\"{{TEMPLATE_VALUE}}\").",
+    "previewMessage": "השתמש באפשרות 'תצוגה מקדימה' כדי לראות תצוגה מקדימה של השינויים שלך. למידע נוסף, קרא את <catalogFederationLink>תיעוד העזרה לאיגוד קטלוג</catalogFederationLink>."
+  },
+  "aboutFeedsNotice": {
+    "message": "הפוך את הנתונים הפתוחים ציבורית לנגישים בקלות ולניתנים לשימוש חוזר עם הזנות Hub.",
+    "link": "למד אודות הזנות Hub"
+  },
+  "feedsEditorSection": {
+    "title": "הזנות",
+    "formatSelectLabel": "בחר סוג הזנה",
+    "uneditableAttributesIntro": "שים לב שלא ניתן לערוך את המאפיינים הבאים:",
+    "edit": "עריכה",
+    "preview": "תצוגה מקדימה",
+    "selectContentNotice": "בחר תוכן לתצוגה מקדימה.",
+    "invalidJsonEditorWarning": "JSON לא חוקי. תקן שגיאות לפני שמירה.",
+    "invalidJsonPreviewWarning": "לא ניתן להציג בתצוגה מקדימה JSON לא חוקי, יש לתקן את השגיאות.",
+    "errorPreviewingWarning": "אירעה שגיאה. בדוק את החיבור שלך ונסה שוב. אם הבעיה נמשכת, תעד באג בתמיכת Hub."
+  },
+  "toolsSection": {
+    "title": "כלים",
+    "verification": "אימות",
+    "previewSampleData": {
+      "label": "תצוגה מקדימה של נתונים לדוגמה",
+      "pickerFacets": {
+        "type": "סוג",
+        "tags": "תג",
+        "categories": "קטגוריה",
+        "sharing": "שיתוף",
+        "dateUpdated": "תאריך עדכון"
+      }
+    },
+    "copyableInputLabel": "כתובת URL של גישה להזנה"
+  },
+  "dcat-us": {
+    "1.1": {
+      "title": "DCAT-US 1.1",
+      "description": "DCAT מאפשר לארגונים לתקנן תרומת נתונים ועוזר לאנשים לפרק מחרוזות ממקורות פדרליים. באפשרותך להשתמש <dcatUsSchemaLink>בסכימת DCAT</dcatUsSchemaLink> שנוצרה על ידי Project Open Data, שהיא תצורת ברירת המחדל או להגדיר שדות/מאפיינים מסוימים בעצמך. מנהלי אתרים יכולים גם כן להוסיף תצורות DCAT נוספות ולקרוא את התיעוד שלנו על <catalogFederationLink>איחוד נתונים עם DCAT וקטלוגים חיצוניים אחרים.</catalogFederationLink>",
+      "uneditableAttributes": "@type, landingPage, webService and contactPoint['@type'].",
+      "verificationLabel": "תוכל לאמת את הזנת DCAT שלך על ידי הדבקת כתובת ה-URL של DCAT האתר שלך <dcatUsVerificationLink>בכלי האימות בפרויקט ה-Open Data</dcatUsVerificationLink>."
+    }
+  },
+  "dcat-ap": {
+    "2.1.1": {
+      "title": "DCAT-AP 2.1.1",
+      "description": "DCAT-AP, שנוסד על ידי European Commission, הוא פורמט החלפת מטא-דאטה סטנדרטי בין קטלוגים של נתונים באירופה. ArcGIS Hub יוצר ומעדכן אוטומטית את הזנת DCAT-AP של אתרך כאשר אתה עורך את פרטי המטא-דאטה של התוכן או מוסיף תוכן ציבורי חדש לקטלוג שלך. בגלל שההזנה משתמשת במטה-דאטה שמתוחזק ב-ArcGIS Online, אין צורך ליצור ידנית מטה-דאטה DCAT-AP נפרד.<lineBreak></lineBreak><lineBreak></lineBreak>בעזרת עורך זה, באפשרותך להשאיר את תצורת ברירת המחדל של ArcGIS Hub עבור <dcatApSchemaLink>סכימת DCAT-AP</dcatApSchemaLink>, או להגדיר שדות/מאפיינים מסוימים בעצמך. באפשרותך גם להוסיף שדות/מאפיינים של DCAT-AP. לפרטים נוספים, עיין בתיעוד של ArcGIS Hub על <catalogFederationLink>איחוד נתונים עם DCAT ועם קטלוגים חיצוניים אחרים</catalogFederationLink>.",
+      "uneditableAttributes": "@type, @id, dcat:contactPoint['@id'], dcat:contactPoint['@type'], dct:publisher, dcat:theme, dct:accessRights, dcat:keyword, dct:provenance, dct:issued, and dct:language",
+      "verificationLabel": "תוכל לאמת את הזנת DCAT שלך על ידי הדבקת כתובת ה-URL של DCAT האתר שלך <dcatApVerificationLink>בסביבה לבדיקת interoperability של הנציבות האירופית</dcatApVerificationLink>."
+    }
+  },
+  "rss": {
+    "2.0": {
+      "title": "RSS 2.0",
+      "description": "</rssAboutLink>RSS 2<rssAboutLink> הוא פורמט סינדיקציה של תוכן אינטרנט ותואם <xmlSpecLink>למפרטי XML 1.0</xmlSpecLink>. שימוש בעורך זה מאפשר לך להשאיר את תצורת ברירת המחדל של ArcGIS Hub או להגדיר שדות/מאפיינים מסוימים בעצמך. לפרטים נוספים, עיין בתיעוד של ArcGIS Hub על <catalogFederationLink>איחוד נתונים עם DCAT וקטלוגים חיצוניים אחרים</catalogFederationLink>.",
+      "verificationLabel": "באפשרותך לאמת את ה-RSS feed שלך על ידי הזנת כתובת URL של RSS האתר שלך ב-W3 <rssVerificationLink>Feed Validator</rssVerificationLink>."
+    }
+  },
+  "saveButton": "שמור",
+  "alertMessages": {
+    "success": "השינויים נשמרו בהצלחה",
+    "error": "שגיאה בשמירת שינויים"
+  },
+  "formAlert": "התראת צורה"
+}

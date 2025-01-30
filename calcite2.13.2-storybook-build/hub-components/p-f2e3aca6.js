@@ -1,0 +1,1 @@
+const e=async e=>({type:"Layout",elements:[{type:"Section",labelKey:"shared.sections.mapSettings.label",elements:[{type:"Control",scope:"/properties/view/properties/mapSettings",labelKey:`${e}.fields.mapSettings.label`,options:{type:"Control",control:"hub-composite-input-map-settings",visibleSettings:["gallery"],showPreview:!0}}]}]});export{e as buildUiSchema}

@@ -1,0 +1,18 @@
+{
+  "about": "Info",
+  "metrics": "Kennwerte",
+  "featuredContent": "Ausgewählte Inhalte",
+  "details": "Details",
+  "exploreMetrics": "Kennwerte erkunden",
+  "status": {
+    "label": {
+      "default": "Status",
+      "project": "Projektstatus",
+      "initiative": "Status der Initiative"
+    },
+    "notStarted": "Nicht gestartet",
+    "inProgress": "In Bearbeitung",
+    "onHold": "Zurückgestellt",
+    "complete": "Abgeschlossen"
+  }
+}

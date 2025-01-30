@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "הוסף פעולה ראשונה",
+  "addSecondAction": "הוסף פעולה שנייה",
+  "addLink": "הוסף קישור",
+  "addSection": "הוסף קטע",
+  "deleteNotice": {
+    "title": "לא ניתן למחוק",
+    "message": "הקטע אינו ריק. העבר את כל הקישורים אל מחוץ לקטע לפני שתנסה למחוק אותו."
+  },
+  "linkEditor": {
+    "save": "שמור",
+    "delete": "מחיקה",
+    "cancel": "ביטול",
+    "preview": "קישור לתצוגה מקדימה",
+    "title": {
+      "button1": "פעולה ראשונה",
+      "button2": "פעולה שנייה",
+      "block": "קישור לפעולה"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "קישור לתוכן קיים"
+        },
+        "external": {
+          "label": "קישור למקור חיצוני"
+        }
+      },
+      "label": {
+        "label": "תווית",
+        "helperText": {
+          "button": "הטקסט הזה יופיע על הלחצן.",
+          "block": "יופיע על הבלוק בצורה מודגשת."
+        },
+        "requiredError": "תווית היא שדה חובה."
+      },
+      "description": {
+        "label": "תיאור",
+        "helperText": "זהו מידע משני."
+      },
+      "href": {
+        "label": "קישור",
+        "requiredError": "קישור הוא שדה חובה.",
+        "formatError": "פורמט כתובת ה-URL שגוי."
+      },
+      "contentId": {
+        "label": "קישור תוכן",
+        "requiredError": "קישור לתוכן הוא שדה חובה."
+      },
+      "section": {
+        "label": "הזז לקטע",
+        "placeholder": {
+          "noSections": "אף קטע לא הוגדר",
+          "notSet": "לא בקטע"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "קטע",
+    "helperText": "אפשר להשתמש בקטעים כדי למקם קישורים מתחת לפריט בתפריט. קטעים לא פועלים בתור קישור.",
+    "section": {
+      "label": {
+        "label": "תווית",
+        "requiredError": "תווית היא שדה חובה."
+      },
+      "description": {
+        "label": "תיאור"
+      }
+    }
+  }
+}

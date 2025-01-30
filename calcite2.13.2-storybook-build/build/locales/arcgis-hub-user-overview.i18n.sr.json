@@ -1,0 +1,35 @@
+{
+  "overview": "Pregled",
+  "resources": "Resursi Hub-a",
+  "cards": {
+    "items": "Broj stavki",
+    "groups": "Broj grupa"
+  },
+  "hubContent": {
+    "heading": "Nedavno modifikovane stavke Hub-a",
+    "link": "Pregledajte sav sadržaj"
+  },
+  "content": {
+    "heading": "Nedavno modifikovan sadržaj",
+    "stat": "Broj stavki",
+    "link": "Pregledajte sav sadržaj"
+  },
+  "groups": {
+    "heading": "Nedavno modifikovane grupe",
+    "stat": "Broj grupa",
+    "link": "Pregledajte sve grupe"
+  },
+  "contentCount": "Sadržaj",
+  "addContent": "Kreiraj novo",
+  "facets": {
+    "access": {
+      "label": "Od"
+    },
+    "type": {
+      "label": "Tipovi"
+    },
+    "modified": {
+      "label": "Izmenjeno"
+    }
+  }
+}

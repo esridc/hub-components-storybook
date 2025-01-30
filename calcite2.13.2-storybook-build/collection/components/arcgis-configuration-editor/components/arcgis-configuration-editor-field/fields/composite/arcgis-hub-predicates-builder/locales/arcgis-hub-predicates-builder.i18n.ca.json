@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "Edita els grups",
+        "viewGroups": "Mostra els grups"
+      },
+      "facet": {
+        "label": "Des de",
+        "myGroups": "Els meus grups",
+        "myOrganization": "La meva organització",
+        "myCommunity": "La meva comunitat"
+      }
+    }
+  },
+  "property": {
+    "label": "Paràmetre",
+    "requiredError": "El paràmetre és obligatori"
+  },
+  "operator": {
+    "label": "Criteris",
+    "requiredError": "Els criteris són obligatoris"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "Tipus"
+    },
+    "group": {
+      "default": "Grups"
+    },
+    "occurrence": {
+      "default": "Ocurrència"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "És qualsevol de",
+      "group": "S'ha compartit amb qualsevol de"
+    },
+    "isAll": {
+      "default": "És tots de",
+      "group": "S'ha compartit amb tots de"
+    },
+    "isExactly": {
+      "default": "És exactament",
+      "occurrence": "És"
+    },
+    "isNot": {
+      "default": "No és",
+      "type": "No és cap de",
+      "group": "No s'ha compartit amb cap de"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "Grups",
+      "requiredError": "Els grups són obligatoris"
+    },
+    "type": {
+      "label": "Tipus",
+      "requiredError": "Els tipus són obligatoris",
+      "app": {
+        "label": "Aplicacions"
+      },
+      "content": {
+        "label": "Contingut"
+      },
+      "dataset": {
+        "label": "Datasets"
+      },
+      "discussion": {
+        "label": "Debats"
+      },
+      "document": {
+        "label": "Documents"
+      },
+      "event": {
+        "label": "Esdeveniments"
+      },
+      "feedback": {
+        "label": "Comentaris"
+      },
+      "initiative": {
+        "label": "Iniciatives"
+      },
+      "map": {
+        "label": "Mapes"
+      },
+      "project": {
+        "label": "Projectes"
+      },
+      "site": {
+        "label": "Llocs"
+      },
+      "template": {
+        "label": "Plantilles"
+      }
+    },
+    "occurrence": {
+      "label": "Ocurrència",
+      "requiredError": "L'ocurrència és obligatòria",
+      "upcoming": "Propers",
+      "past": "Passats",
+      "inProgress": "En curs"
+    }
+  }
+}

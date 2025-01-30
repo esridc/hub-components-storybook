@@ -1,0 +1,150 @@
+{
+  "modal": {
+    "dismiss": "Nie pokazuj tego ponownie",
+    "close": "Zamknij"
+  },
+  "notice": {
+    "n001": {
+      "title": "Uwaga dotycząca testu",
+      "message": "To jest treść uwagi dotyczącej testu",
+      "actions": [
+        {
+          "text": "Czytaj blog"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-1": {
+      "title": "Przełącz się na zaktualizowane środowisko pobierania",
+      "message": "Aby skorzystać z dodatkowych formatów oraz ulepszonej prędkości i wydajności, włącz opcję „Wyodrębnij” w usłudze tego elementu."
+    },
+    "20240220-hosted-downloads-2": {
+      "title": "Udoskonalenia pobierania są już dostępne!",
+      "message": "Udoskonalenia pobierania w witrynach Centrum obejmują obsługę hostowanych plików do pobrania, zaktualizowany wygląd i charakter kart pobierania oraz nowy pasek postępu pobierania.",
+      "actions": [
+        {
+          "text": "Dowiedz się więcej"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-3": {
+      "title": "Hostowane pliki do pobrania są już dostępne!",
+      "message": "Hostowane pliki do pobrania pomagają zwiększyć wydajność podczas pobierania zasobów. Aby włączyć hostowane pliki do pobrania, pamiętaj o zezwoleniu na Funkcje wyodrębniania poniżej.",
+      "actions": [
+        {
+          "text": "Dowiedz się więcej"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-basic": {
+      "title": "Informacje o przestrzeniach roboczych",
+      "message": "<p><strong>Dodawanie zasobów do katalogów witryn za pomocą grup</strong><br>Katalogi wyszukiwania witryn zawsze były obsługiwane przez grupy, a przestrzenie robocze ułatwiają zarządzanie tymi grupami. Na razie dodawaj zasoby do poszczególnych grup połączonych z witryną, aby pojawiły się one w katalogu witryn. Wkrótce będzie można bezpośrednio dodawać zasoby do swojego katalogu.</p><p><strong>Przejście z zespołów do grup</strong><br>Teraz można używać dowolnej grupy ArcGIS Online do kooperacji przy witrynach, stronach, zasobach i projektach w Centrum ArcGIS Hub. Wszystkie wcześniej połączone zespoły, takie jak zespół podstawowy witryny, będą nadal wyświetlane w panelu Współpracownicy w przestrzeni roboczej Witryna.</p><p><strong>Wysyłanie wiadomości e-mail oparte na zespole tymczasowo wstrzymane</strong><br>Wysyłanie wiadomości e-mail oraz wiadomości e-mail z zaproszeniami i dotyczących usunięcia do członków zespołu i obserwujących nie jest obecnie obsługiwane.</p><p><strong>Wycofanie wbudowanego kreatora witryn internetowych aplikacji Survey123</strong><br>Wbudowaliśmy kreator aplikacji Survey123, aby pomóc Ci zrobić więcej w Centrum ArcGIS Hub. Jednak opinie klientów wskazywały na preferencje dotyczące projektowania ankiet i zarządzania nimi w aplikacji Survey123, podobnie jak w przypadku innych aplikacji. W związku z tym wycofujemy wsparcie dla wbudowanego kreatora w aplikacji Survey123 w Centrum ArcGIS Hub, aby lepiej dostosować się do oczekiwanej procedury wykonywania zadań.</p>",
+      "actions": [
+        {
+          "text": "Dowiedz się więcej"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-premium": {
+      "title": "Informacje o przestrzeniach roboczych",
+      "message": "<p><strong>Dodawanie zasobów do katalogów witryn za pomocą grup</strong><br>Katalogi wyszukiwania witryn zawsze były obsługiwane przez grupy, a przestrzenie robocze ułatwiają zarządzanie tymi grupami. Na razie dodawaj zasoby do poszczególnych grup połączonych z witryną, aby pojawiły się one w katalogu witryn. Wkrótce będzie można bezpośrednio dodawać zasoby do swojego katalogu.</p><p><strong>Przejście z zespołów pomocniczych do grup</strong><br>Teraz można używać dowolnej grupy ArcGIS Online do kooperacji przy witrynach, stronach, zasobach i projektach w Centrum ArcGIS Hub. Wszystkie wcześniej połączone zespoły pomocnicze będą nadal widoczne w panelu Współpracownicy w przestrzeni roboczej Witryna. Aby zapewnić ciągłość, dodaj te zespoły pomocnicze jako grupy, które mogą wyświetlać i grupy, które mogą edytować.</p><p><strong>Wysyłanie wiadomości e-mail oparte na zespole tymczasowo wstrzymane</strong><br>Wysyłanie wiadomości e-mail oraz wiadomości e-mail z zaproszeniami i dotyczących usunięcia do członków zespołu i obserwujących nie jest obecnie obsługiwane.</p><p><strong>Wycofanie wbudowanego kreatora witryn internetowych aplikacji Survey123</strong><br>Wbudowaliśmy kreator aplikacji Survey123, aby pomóc Ci zrobić więcej w witrynie Hub. Jednak opinie klientów wskazywały na preferencje dotyczące projektowania ankiet i zarządzania nimi w aplikacji Survey123, podobnie jak w przypadku innych aplikacji. W związku z tym wycofujemy wsparcie dla wbudowanego kreatora w aplikacji Survey123 w Centrum ArcGIS Hub, aby lepiej dostosować się do oczekiwanej procedury wykonywania zadań.</p><p><strong>Wydarzenia nie są jeszcze dostępne w przestrzeniach roboczych</strong><br>Obecnie ma miejsce transformacja wydarzeń i wkrótce powinny być dostępne w przestrzeniach roboczych. Obecnie, jeśli zdecydujesz się na używanie przestrzeni roboczych, stracisz możliwość tworzenia nowych wydarzeń, zarządzania nimi i wyszukiwania istniejących. Jeśli jednak chcesz zarządzać wcześniej utworzonymi wydarzeniami, możesz zrezygnować z ich używania w dowolnym momencie.</p>",
+      "actions": [
+        {
+          "text": "Dowiedz się więcej"
+        }
+      ]
+    },
+    "202404-workspaceannouncement": {
+      "title": "Wprowadzenie do przestrzeni roboczych",
+      "message": "Przestrzenie robocze to nowy sposób edycji elementów i zarządzania nimi w Centrum, który zastępuje nawigację globalną w widoku edycji (nie w widoku na żywo). Na tym etapie możesz zdecydować się (w dowolnym momencie) na używanie przestrzeni roboczych i powiązanych z nimi obiektów na potrzeby elementów i grup. Wydarzenia będą dostępne w późniejszej fazie. Aby już teraz wypróbować przestrzenie robocze, wybierz opcję „Przejdź do ustawień”.",
+      "actions": [
+        {
+          "text": "Przejdź do ustawień"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing": {
+      "title": "Zmieniamy inicjatywy Hub",
+      "message": "Inicjatywy ArcGIS Hub zmieniły się 2 lipca 2024 r. Utworzone wcześniej inicjatywy są teraz samodzielnymi witrynami – z identycznymi kompozycjami, zasobami, adresami URL i funkcjami premium (takimi jak obserwujący i wydarzenia) jak wcześniej. Aby wypróbować nowe, odświeżone inicjatywy, musisz włączyć przestrzenie robocze.",
+      "actions": [
+        {
+          "text": "Dowiedz się więcej o inicjatywach",
+          "ariaLabel": "Informacje o inicjatywach (otwiera się na nowej karcie)"
+        },
+        {
+          "text": "Przejdź do ustawień"
+        }
+      ]
+    },
+    "20240517-initiatives-manage": {
+      "title": "Zarządzaj starymi inicjatywami",
+      "message": "Inicjatywy ArcGIS Hub zmieniły się 2 lipca 2024 r. Utworzone wcześniej inicjatywy są teraz samodzielnymi witrynami – z identycznymi kompozycjami, zasobami, adresami URL i funkcjami premium (takimi jak obserwujący i wydarzenia) jak wcześniej. Można bezpiecznie usunąć wszystkie stare inicjatywy.",
+      "actions": [
+        {
+          "text": "Dowiedz się więcej o inicjatywach",
+          "ariaLabel": "Informacje o inicjatywach (otwiera się na nowej karcie)"
+        },
+        {
+          "text": "Wyświetl stare inicjatywy",
+          "ariaLabel": "Wyświetl starsze inicjatywy (otwiera się na nowej karcie)"
+        }
+      ]
+    },
+    "20240517-initiatives-manage-no-priv": {
+      "title": "Zarządzaj starymi inicjatywami",
+      "message": "Inicjatywy ArcGIS Hub zmieniły się 2 lipca 2024 r. Utworzone wcześniej inicjatywy są teraz samodzielnymi witrynami – z identycznymi kompozycjami, zasobami, adresami URL i funkcjami premium (takimi jak obserwujący i wydarzenia) jak wcześniej. Można bezpiecznie usunąć wszystkie stare inicjatywy.",
+      "actions": [
+        {
+          "text": "Dowiedz się więcej o inicjatywach",
+          "ariaLabel": "Informacje o inicjatywach (otwiera się na nowej karcie)"
+        },
+        {
+          "text": "Wyświetl stare inicjatywy",
+          "ariaLabel": "Wyświetl starsze inicjatywy (otwiera się na nowej karcie)"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing-site": {
+      "title": "Zmieniamy inicjatywy Hub",
+      "message": "W przestrzeniach roboczych jest teraz dostępna nowa funkcja generowania inicjatyw Centrum ArcGIS Hub. Inicjatywy mają własny, łatwy do skonfigurowania widok. Ułatwia on zarządzanie projektami Centrum ArcGIS Hub, które dzielą z inicjatywą długoterminowe cele. Inicjatywy można tworzyć niezależnie i udostępniać je w jednej lub kilku witrynach. Witryny mogą zawierać jedną lub większą liczbę inicjatyw.",
+      "actions": [
+        {
+          "text": "Dowiedz się więcej",
+          "ariaLabel": "Więcej informacji (otwiera się na nowej karcie)"
+        }
+      ]
+    },
+    "20240710-slow-service-warning": {
+      "title": "Przerwa w działaniu usługi",
+      "message": "Komunikacja z usługą trwa dłużej, niż oczekiwano. Może mieć to wpływ na dostęp do plików do pobrania oraz ograniczyć funkcje mapy."
+    },
+    "20240710-unreachable-service-error": {
+      "title": "Usługa niedostępna",
+      "message": "Nie można skontaktować się z usługą hosta. Pliki do pobrania i funkcje mapy są obecnie niedostępne dla tego elementu."
+    },
+    "20240807-auth-required-status": {
+      "title": "Status usługi nieznany",
+      "message": "Nie możemy uzyskać dostępu do bezpiecznej usługi, ponieważ wymaga ona dodatkowej autoryzacji. Pliki do pobrania i funkcje mapy są obecnie niedostępne dla tego elementu."
+    },
+    "20240805-private-downloads-unavailable-ago-error": {
+      "title": "Pliki do pobrania są niedostępne",
+      "message": "Aby pobrać zasoby, należy włączyć ustawienie Eksportuj dane w usłudze ArcGIS Online. Skontaktuj się z właścicielem elementu, aby włączyć to ustawienie."
+    },
+    "20240805-private-downloads-unavailable-enterprise-error": {
+      "title": "Pliki do pobrania są niedostępne",
+      "message": "Aby pobrać zasoby, należy włączyć ustawienie Eksportuj dane w oprogramowaniu ArcGIS Enterprise. Skontaktuj się z właścicielem elementu, aby włączyć to ustawienie."
+    },
+    "20240819-download-formats-disabled": {
+      "title": "Pobieranie zostało wyłączone",
+      "message": "Aby pobrać zasoby dla tego elementu, skontaktuj się z jego właścicielem."
+    },
+    "20241104-about-feeds-notice": {
+      "message": "Zapewnij łatwy dostęp do otwartych danych publicznych i możliwość ich ponownego wykorzystania dzięki kanałom Centrum.",
+      "actions": [
+        {
+          "text": "Dowiedz się więcej na temat kanałów Centrum",
+          "ariaLabel": "Informacje o kanałach Centrum (otwiera się na nowej karcie)"
+        }
+      ]
+    }
+  }
+}

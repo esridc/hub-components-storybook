@@ -1,0 +1,40 @@
+{
+  "popover": {
+    "access": {
+      "org": "Shared to organization",
+      "private": "Shared to owner",
+      "public": "Shared to public",
+      "shared": "Shared to owner and groups"
+    },
+    "editLayout": "Edit layout",
+    "lastUpdated": "Last updated {updated}",
+    "viewSite": "View site"
+  },
+  "cloneLayoutLabel": "Clone layout",
+  "deleteDraftLabel": "Delete draft",
+  "deletePageLabel": "Delete page",
+  "deleteSiteLabel": "Delete site",
+  "editInAgoLabel": "Edit in ArcGIS Online",
+  "managePage": "Manage page",
+  "manageSite": "Manage site",
+  "manageTemplate": "Manage template",
+  "manageUser": "Workspace",
+  "moreOptionsLabel": "More options",
+  "publishLabel": {
+    "site": "Publish layout",
+    "page": "Publish layout",
+    "survey": "Publish"
+  },
+  "saveAsTemplateLabel": "Save as template",
+  "saveLabel": {
+    "site": "Save layout",
+    "page": "Save layout",
+    "survey": "Save",
+    "template": "Save"
+  },
+  "sharingLabel": "Open sharing panel",
+  "editS123Label": "Edit in Survey123",
+  "viewLabel": "View",
+  "viewPublishedLabel": "View published",
+  "viewUnpublishedLabel": "View draft"
+}

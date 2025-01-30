@@ -1,0 +1,35 @@
+{
+  "success": "Muokkaukset on tallennettu",
+  "error": "Virhe muokkausten tallennuksessa",
+  "formAlert": "Lomakevaroitus",
+  "projects": {
+    "header": "Projektit",
+    "list": "Projektiluettelo",
+    "config": "Määritys",
+    "notConfigured": "Projektit-ominaisuutta ei ole määritetty. Käytä Määritys-välilehteä."
+  },
+  "content": {
+    "header": "Sisältö",
+    "list": "Sisältöluettelo",
+    "config": "Määritys",
+    "notConfigured": "Sisältö-ominaisuutta ei ole määritetty. Käytä Määritys-välilehteä."
+  },
+  "initiatives": {
+    "header": "Aloitteet",
+    "list": "Aloiteluettelo",
+    "config": "Määritys",
+    "notConfigured": "Aloitteet-ominaisuutta ei ole määritetty. Käytä Määritys-välilehteä."
+  },
+  "events": {
+    "header": "Tapahtumat",
+    "list": "Tapahtumaluettelo",
+    "config": "Määritys",
+    "notConfigured": "Tapahtumat-ominaisuutta ei ole määritetty. Käytä Määritys-välilehteä."
+  },
+  "pages": {
+    "header": "Sivut",
+    "list": "Sivuluettelo",
+    "config": "Määritys",
+    "notConfigured": "Sivut-ominaisuutta ei ole määritetty. Käytä Määritys-välilehteä."
+  }
+}

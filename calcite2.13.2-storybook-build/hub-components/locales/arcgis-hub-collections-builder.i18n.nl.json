@@ -1,0 +1,15 @@
+{
+  "newCollection": "Nieuwe verzameling",
+  "block": {
+    "heading": {
+      "untitled": "Verzameling zonder titel"
+    },
+    "actions": {
+      "delete": "Verzameling verwijderen: {label}"
+    }
+  },
+  "name": {
+    "label": "Naam",
+    "requiredError": "Naam verzameling is vereist"
+  }
+}

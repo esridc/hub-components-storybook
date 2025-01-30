@@ -1,0 +1,75 @@
+{
+  "addMetric": "Afegeix una mètrica",
+  "title": "Mètriques",
+  "featured": "Destacats",
+  "metricDescription": "Valor mesurable utilitzat per fer un seguiment del progrés del projecte en funció de dades estàtiques (com ara històriques) o dinàmiques (com ara en temps real).",
+  "metricCount": {
+    "label": "{currentCount}/{totalCountAllowed} mètriques",
+    "tooltip": "Per afegir mètriques, elimineu-ne alguna del conjunt existent"
+  },
+  "visible": {
+    "title": "Visible",
+    "noMetrics": "No hi ha cap mètrica en aquesta secció."
+  },
+  "hidden": {
+    "title": "Amagada",
+    "description": "Aquestes mètriques només es mostren a les persones amb accés a aquest espai de treball.",
+    "noMetrics": "No hi ha cap mètrica en aquesta secció."
+  },
+  "project": {
+    "featured": {
+      "description": "Podeu tenir 4 mètriques destacades. Aquestes mètriques mostren una descripció general del projecte publicat."
+    },
+    "visible": {
+      "description": "Les mètriques visibles es mostren a la pestanya Mètriques del projecte publicat."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Les mètriques s'ajustaran al nivell d'ús compartit del projecte. Les mètriques ocultes poden seguir estant disponibles mitjançant una trucada a l'API.",
+        "metricsDockLink": "Informació sobre la configuració de les mètriques"
+      }
+    }
+  },
+  "initiative": {
+    "featured": {
+      "description": "Podeu tenir 4 mètriques destacades. Aquestes mètriques mostren una descripció general de la iniciativa publicada."
+    },
+    "visible": {
+      "description": "Les mètriques visibles es mostren a la pestanya Mètriques del projecte publicat."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Les mètriques s'ajustaran al nivell d'ús compartit de la iniciativa. Les mètriques ocultes poden seguir estant disponibles mitjançant una trucada a l'API.",
+        "metricsDockLink": "Informació sobre la configuració de les mètriques"
+      }
+    }
+  },
+  "metricNumber": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4"
+  },
+  "actions": {
+    "delete": "Suprimeix",
+    "edit": "Edita",
+    "featured": "Entitat",
+    "removeFeatured": "Elimina destacat",
+    "show": "Mou a visible",
+    "hide": "Mou a amagat"
+  },
+  "editor": {
+    "heading": "Mètrica nova",
+    "description": "Per defecte, les mètriques estaran amagades automàticament perquè els membres de l'espai de treball les puguin veure."
+  },
+  "deleteMetricModal": {
+    "heading": "Suprimeix la mètrica",
+    "content": "Segur que voleu suprimir:",
+    "cancel": "Cancel·la",
+    "delete": "Suprimeix"
+  },
+  "sidePanel": {
+    "definitions": "Definicions",
+    "preview": "Visualització prèvia"
+  }
+}

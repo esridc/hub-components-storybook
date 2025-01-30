@@ -1,0 +1,53 @@
+{
+  "settings": "Settings",
+  "formDisabledTooltip": "You do not have access to make changes to this {type}.",
+  "delete": {
+    "project": "Delete this project",
+    "initiative": "Delete this initiative",
+    "site": "Delete this site",
+    "discussion": "Delete this discussion",
+    "content": "Delete this content",
+    "page": "Delete this page",
+    "group": "Delete this group",
+    "initiativeTemplate": "Delete this initiative template",
+    "template": "Delete this template",
+    "survey": "Delete this survey",
+    "desc": {
+      "project": "Deleting this project cannot be undone.",
+      "initiative": "Deleting this initiative cannot be undone.",
+      "site": "Deleting this site cannot be undone.",
+      "discussion": "Deleting this discussion cannot be undone.",
+      "content": "Deleting this content cannot be undone.",
+      "page": "Deleting this page cannot be undone.",
+      "group": "Deleting this group cannot be undone.",
+      "initiativeTemplate": "Deleting this initiative template cannot be undone.",
+      "template": "Deleting this template cannot be undone.",
+      "survey": "Deleting this survey cannot be undone."
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "project": "Delete project",
+      "initiative": "Delete initiative",
+      "site": "Delete site",
+      "discussion": "Delete discussion",
+      "content": "Delete content",
+      "page": "Delete page",
+      "group": "Delete group",
+      "initiativeTemplate": "Delete initiative template",
+      "template": "Delete template",
+      "survey": "Delete survey"
+    },
+    "content": "Are you sure you want to delete:",
+    "delete": "Delete",
+    "cancel": "Cancel"
+  },
+  "sidePanel": {
+    "content": {
+      "extractNotice": {
+        "title": "\"Extract\" capability changes the service settings.",
+        "message": "Other items that reference the service will be impacted. For more details see <docLink>Export Data from Hosted Feature Layers</docLink>"
+      }
+    }
+  }
+}

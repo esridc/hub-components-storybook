@@ -1,0 +1,29 @@
+.hub-entity-metrics-coming-soon__block-header {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.hub-entity-metrics-coming-soon__block-header > h2 {
+  margin: 0px;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 2rem;
+}
+
+.hub-entity-metrics-coming-soon__main {
+  display: flex;
+  flex-direction: row;
+}
+
+arcgis-hub-workspace-pane {
+  --arcgis-hub-workspace-pane-main-flex-basis: 40%;
+}
+
+.hub-entity-metrics-coming-soon__side img {
+  width: 100%
+}
+
+

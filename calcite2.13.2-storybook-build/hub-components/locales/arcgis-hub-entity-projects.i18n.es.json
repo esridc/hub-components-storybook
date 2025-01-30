@@ -1,0 +1,178 @@
+{
+  "projectsTitle": "Proyectos",
+  "description": "Asóciese con proyectos contribuyentes para seguir el desarrollo a lo largo del tiempo o el espacio concentrado. El grupo de asociación de la iniciativa gestiona las asociaciones confirmadas y las solicitudes de asociación destacadas.",
+  "subDescription": "Los proyectos con asociaciones confirmadas aparecerán en la vista de esta iniciativa.",
+  "project": "proyecto",
+  "initiative": "iniciativa",
+  "helpStates": {
+    "noAccess": {
+      "heading": "Sin acceso",
+      "message": "No tiene acceso para ver el grupo de asociaciones."
+    },
+    "missingGroup": {
+      "heading": "Grupo de asociación faltante",
+      "message": {
+        "overview": "El grupo de asociación revisará los proyectos que se vincularán con la iniciativa e informarán a esta.",
+        "members": "Los miembros de este grupo podrán enviar o aprobar solicitudes de asociación."
+      },
+      "action": "Crear grupo",
+      "formLabel": "Nuevo grupo de asociación",
+      "description": "Crear un grupo de asociación para administrar conexiones"
+    },
+    "requestsWaiting": {
+      "heading": "Grupo de asociación faltante",
+      "message": {
+        "overview": "El grupo de asociación revisará los proyectos que se vincularán con la iniciativa e informarán a esta.",
+        "members": "Los miembros de este grupo podrán enviar o aprobar solicitudes de asociación.",
+        "requests": "Solicitudes de proyectos en espera: {count}"
+      },
+      "action": "Crear grupo",
+      "formLabel": "Nuevo grupo de asociación",
+      "description": "Crear un grupo de asociación para administrar conexiones"
+    }
+  },
+  "shared": {
+    "project": "proyecto",
+    "associationGroup": "grupo de asociación",
+    "error": {
+      "title": "Se ha producido un error",
+      "message": "Es posible que no tenga acceso suficiente para enviar o gestionar una asociación con este {type}."
+    },
+    "facets": {
+      "access": {
+        "label": "Uso compartido"
+      },
+      "status": {
+        "label": "Estado",
+        "notStarted": "No iniciado",
+        "inProgress": "En curso",
+        "onHold": "En espera",
+        "complete": "Completado"
+      },
+      "tags": {
+        "label": "Etiquetas"
+      }
+    },
+    "tabs": {
+      "projects": "Proyectos",
+      "members": "Miembros",
+      "settings": "Ajustes"
+    },
+    "disabledActionTooltip": "Los administradores de grupos son los únicos que pueden gestionar la asociación con este {type}."
+  },
+  "createAssociationGroup": {
+    "defaultSummary": "Administre los elementos asociados con el {name}{type} mediante un grupo de asociación."
+  },
+  "members": {
+    "facets": {
+      "role": {
+        "label": "Rol",
+        "all": "Todo",
+        "manager": "Administrador",
+        "member": "Miembro"
+      },
+      "dateJoined": {
+        "label": "Fecha de unión"
+      }
+    },
+    "addMembers": {
+      "button": "Agregar miembros",
+      "modal": {
+        "title": "Agregar miembros",
+        "org": "Mi organización",
+        "community": "Mi comunidad",
+        "partner": "Mis socios",
+        "world": "Mundo"
+      },
+      "notifications": {
+        "invited": "Invitación enviada. Los usuarios deben aceptar unirse",
+        "added": "Usuario(s) agregado(s)",
+        "notInvited": "Algunos usuarios pueden carecer de los privilegios necesarios para unirse al grupo o pueden estar en un límite máximo de grupo (512)"
+      }
+    },
+    "removeUsers": {
+      "button": "Quitar",
+      "success": "Los miembros se han eliminado satisfactoriamente de {groupName}.",
+      "error": "No se ha podido eliminar a uno o a varios usuarios del grupo."
+    },
+    "changeRole": {
+      "button": "Cambiar rol",
+      "member": "Miembro",
+      "memberHelperText": "Puede agregar y ver contenido dentro del grupo.",
+      "tooltipText": "Anular selección de uno mismo y/o de propietario del grupo",
+      "tooltipLabel": "Descargo de responsabilidad de rol",
+      "admin": "Administrador",
+      "adminHelperText": "Puede agregar/quitar contenido e invitar/quitar personas (excepto el propietario).",
+      "success": "Los miembros seleccionados se convirtieron en el grupo {role}.",
+      "error": "No se ha podido cambiar el rol de uno o varios miembros."
+    },
+    "stats": {
+      "total": {
+        "title": "Total",
+        "trailingText": "Miembros"
+      },
+      "new": {
+        "title": "Nuevo",
+        "trailingText": "Últimos 30 días"
+      }
+    }
+  },
+  "projects": {
+    "requestAssociation": {
+      "findProjects": "Buscar proyectos",
+      "sendRequest": "Enviar solicitud",
+      "success": {
+        "title": "Correcto",
+        "message": "Solicitudes de asociación enviadas: {count}"
+      },
+      "alreadyRequesting": {
+        "title": "Comprobar asociaciones",
+        "message": "Una o más selecciones ya han solicitado la asociación. Nuevas solicitudes de asociación enviadas: {count}"
+      },
+      "catalog": {
+        "myContent": "Mi contenido",
+        "favorites": "Favoritos",
+        "organization": "Organización",
+        "world": "Todos (público)"
+      },
+      "collection": {
+        "projects": "Proyectos"
+      }
+    },
+    "acceptAssociation": {
+      "label": "Aceptar",
+      "success": {
+        "title": "Correcto",
+        "message": "Asociación aceptada con {requestor}"
+      }
+    },
+    "cancelRequest": {
+      "label": "Cancelar solicitud",
+      "success": {
+        "title": "Correcto",
+        "message": "Solicitud de asociación cancelada"
+      }
+    },
+    "breakAssociation": {
+      "label": "Desconectar",
+      "success": {
+        "title": "Asociación interrumpida",
+        "message": "Hemos desconectado este elemento de su asociación anterior. Sin embargo, no podemos revertir la decisión desde el otro lado, por lo que es posible que siga viéndolo en las solicitudes entrantes."
+      }
+    },
+    "associationsGallery": {
+      "sources": "Estado",
+      "catalog": {
+        "associated": "Asociado",
+        "requesting": "Solicitudes entrantes",
+        "pending": "Solicitudes salientes"
+      },
+      "collection": {
+        "projects": "Proyectos"
+      }
+    }
+  },
+  "notice": {
+    "label": "Alerta de formulario"
+  }
+}

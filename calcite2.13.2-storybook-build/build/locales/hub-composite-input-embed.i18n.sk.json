@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "Môj obsah",
+    "livingAtlas": "Living Atlas",
+    "organization": "Moja organizácia",
+    "world": "Svet (Verejné)"
+  },
+  "collection": {
+    "appsAndMaps": "Aplikácie a mapy",
+    "feedback": "Spätná väzba"
+  },
+  "facets": {
+    "type": "Typ",
+    "tags": "Štítky",
+    "categories": "Kategórie",
+    "modified": "Modifikované"
+  },
+  "pickerTitle": "Vybrať obsah",
+  "height": "Výška (px)",
+  "isScrollable": "Skrolovateľné",
+  "errors": {
+    "heightMinimum": "Hodnota musí byť kladné číslo.",
+    "heightMaximum": "Hodnota musí byť menšia alebo rovná 2 000 px.",
+    "urlError": "Musí byť platná URL adresa."
+  },
+  "success": {
+    "urlSuccess": "URL adresa bola úspešne načítaná."
+  },
+  "shouldApplyBreakpoints": {
+    "label": "Namiesto toho použite nastavenia podľa bodov prerušenia zariadenia"
+  },
+  "viewportAll": {
+    "label": "Predvolené",
+    "description": "Nastavenia boli použité pre všetky veľkosti obrazovky"
+  },
+  "viewportMobile": {
+    "label": "Mobil",
+    "description": "Nastavenia použité na obrazovky so šírkou 360 pixelov a viac"
+  },
+  "viewportTablet": {
+    "label": "Tablet",
+    "description": "Nastavenia použité na obrazovky so šírkou 560 pixelov a viac"
+  },
+  "viewportDesktop": {
+    "label": "Desktop",
+    "description": "Nastavenia použité na obrazovky so šírkou 980 pixelov a viac"
+  },
+  "sourceLabel": "Vybrať typ vloženia",
+  "contentLabel": "Obsah ArcGIS",
+  "externalLabel": "Externá URL adresa",
+  "contentDescription": "Vyberte z odkazov na existujúce mapy, scény, aplikácie, prieskumy a dokumenty, ktoré máte k dispozícii.",
+  "externalDescription": "Zadajte URL adresu na vloženie. Upozorňujeme, že niektoré domény nedovoľujú vkladanie a nemusia sa zobraziť podľa očakávania."
+}

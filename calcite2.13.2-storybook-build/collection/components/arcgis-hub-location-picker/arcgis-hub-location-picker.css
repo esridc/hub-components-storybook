@@ -1,0 +1,107 @@
+:host {
+  display: block;
+}
+
+@media (min-width: 640px) {
+
+  .row {
+    display: flex;
+  }
+
+  .row {
+    flex-direction: row-reverse;
+  }
+}
+
+arcgis-hub-map {
+  /*
+    if we add more drawing tools the toolbar may extend beyond the map
+    so we may want to base this height on number of tools
+  */
+  position: relative;
+  margin-bottom: 1rem;
+  height: 430px;
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+
+  arcgis-hub-map {
+    margin-bottom: 0px;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+arcgis-hub-map .arcgis-location-picker-map-overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #0000004d;
+  color: var(--calcite-color-text-inverse);
+}
+.arcgis-location-picker-none-message {
+  text-align: center;
+}
+
+.draw-popover {
+  width: max-content;
+}
+
+.draw-popover > p {
+  margin: 0px;
+  padding: 0.75rem;
+}
+
+.location-picker__sidepanel {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--calcite-color-foreground-3);
+  padding: 1rem;
+}
+
+@media (min-width: 640px) {
+
+  .location-picker__sidepanel {
+    max-width: 20rem;
+  }
+}
+
+calcite-list {
+  width: 100%;
+  background-color: var(--calcite-color-foreground-3);
+  color: var(--calcite-color-text-3);
+}
+
+@media (min-width: 640px) {
+
+  calcite-list {
+    max-width: 20rem;
+  }
+}
+
+calcite-notice {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+
+  calcite-notice {
+    max-width: 20rem;
+  }
+}
+
+/* prevent the current location draw action's tooltip from displaying when the related popover is open */
+calcite-popover[open] + calcite-tooltip {
+  display: none;
+}

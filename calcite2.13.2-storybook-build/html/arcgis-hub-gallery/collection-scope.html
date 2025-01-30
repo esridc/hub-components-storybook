@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+  <title>Hub Components: Simple Gallery</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .nav {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+    }
+  </style>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+  <link rel="stylesheet" href="../calcite-web.min.css">
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <script type="module" src="../../calcite/calcite.esm.js"></script>
+</head>
+
+<body>
+  <div class="grid-container padding-leader-2">
+    <div class="column-20 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-hub-gallery: items</h2>
+    </div>
+    <div class="column-20">
+      <calcite-button onClick="signIn()">Sign In</calcite-button>
+      <calcite-button onClick="signOut()">Sign Out</calcite-button>
+      <div id="userinfo"></div>
+      <!-- <span id="params"></span>
+      <calcite-input clearable id="qs">
+        <calcite-button slot="action" onClick="applyParams()">Apply</calcite-button>
+      </calcite-input> -->
+      <calcite-radio-group>
+        <calcite-radio-group-item value="arcgis" checked>Portal API</calcite-radio-group-item>
+        <calcite-radio-group-item value="arcgis-hub">Hub API</calcite-radio-group-item>
+      </calcite-radio-group>
+
+      <br>
+
+      <arcgis-hub-gallery term='hub' layout='grid' limit='9' api-url="https://devext.arcgis.com" api-type="arcgis"
+        show-thumbnail show-search show-sort show-chips show-more-results-btn>
+
+      </arcgis-hub-gallery>
+
+      <arcgis-app-identity client-id="zhGPGlPQaq11eIQC" redirect-uri="http://localhost:3333/html/redirect.html"
+        portal="https://devext.arcgis.com">
+      </arcgis-app-identity>
+    </div>
+
+
+  </div>
+  <script>
+
+    // APPIds
+    // DEVEXT: zhGPGlPQaq11eIQC / 906e855bb18b4cf49031482c0c117f09
+    // QAEXT:  u3KZUyh6wbCQtuCj / ???
+
+    document.addEventListener('calciteRadioGroupChange', (evt) => {
+      console.log(`Changing API to ${evt.detail}`);
+      const apiType = evt.detail;
+      setProp('apiType', apiType);
+      // if (apiType === "arcgis") {
+      //   setProp('apiType', "https://devext.arcgis.com");
+      // } else {
+      //   setProp('apiUrl', "https://hubdev.arcgis.com/api/items/beta/search");
+      // }
+
+    });
+    document.addEventListener('arcgisHubGalleryAction', (evt) => {
+      console.log(`galleryAction: ${evt.detail.action} for ${evt.detail.model.id}`);
+    })
+    function applyParams() {
+      const paramString = document.getElementById('qs').value;
+      const parts = paramString.split("&");
+      const params = parts.reduce((acc, entry) => {
+        if (entry) {
+          const [key, val] = entry.split("=");
+          if (val !== "null") {
+            acc[key] = val;
+          }
+        }
+        return acc;
+      }, {});
+
+      setProp("state", params);
+    }
+    // These would be raised from some user profile type control
+    function signIn() {
+      const evt = new CustomEvent('arcgisAppIdentityStartSignIn')
+      document.dispatchEvent(evt);
+    }
+    function signOut() {
+      const evt = new CustomEvent('arcgisAppIdentityStartSignOut')
+      document.dispatchEvent(evt);
+    }
+
+    // These listeners could be in any component that wants a session
+    document.addEventListener('arcgisAppIdentitySignedIn', (evt) => {
+
+      setProp('context', evt.detail);
+      showUserInfo(evt.detail.session);
+    });
+
+    document.addEventListener('arcgisAppIdentitySignedOut', (evt) => {
+
+      setProp('context', evt.detail);
+      showUserInfo(evt.detail.session);
+    });
+
+    const params = {};
+
+    document.addEventListener('arcgisHubContentGalleryStateChange', (evt) => {
+      showParams(evt.detail);
+    });
+
+    function showParams(params) {
+      // serialize
+      let qs = "";
+      for (key in params) {
+        if (params[key]) {
+          qs = `${qs}&${key}=${params[key]}`
+        }
+
+      }
+      const el = document.getElementById('params');
+      el.innerText = `State as params: ${qs}`;
+    }
+
+    // Simple function to so something when auth changes
+    function showUserInfo(session) {
+      const el = document.getElementById('userinfo');
+      if (session) {
+        el.innerText = `User ${session.username} authenticated`;
+      } else {
+        el.innerText = 'No user authenticated';
+      }
+    }
+
+
+    // Set a property on the element
+    function setProp(key, value) {
+      const el = document.querySelector("arcgis-hub-gallery");
+      el[key] = value;
+    }
+
+    const query = {
+      targetEntity: "item",
+      filters: [
+        {
+          operation: "OR",
+          predicates: [
+            {
+              type: ["Web Mapping Application", "Application", "Insights", "Web Experience"],
+            },
+            {
+              type: "Web Mapping Experience",
+              typekeywords: "EXB Experience"
+            }
+          ]
+        },
+        {
+            operation: "OR",
+          predicates: [
+            {
+              type: { not: ["Insights Theme", "Insights Model"] },
+            },
+          ]
+        },
+        {
+          operation: "OR",
+          predicates: [
+            {
+              typekeywords: { not: ["hubSite", "Story Map"] }
+            }
+          ]
+        }
+      ]
+    }
+
+    setProp("query", query);
+  </script>
+</body>
+
+</html>

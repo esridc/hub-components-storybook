@@ -1,0 +1,1 @@
+const e=e=>({labelKey:`${e}.fields.slug.label`,scope:"/properties/_slug",type:"Control",options:{control:"hub-field-input-input",helperText:{labelKey:`${e}.fields.slug.helperText`},messages:[{type:"ERROR",keyword:"pattern",icon:!0,labelKey:`${e}.fields.slug.patternError`},{type:"ERROR",keyword:"isUniqueSlug",icon:!0,labelKey:`${e}.fields.slug.isUniqueError`}]}});export{e as g}

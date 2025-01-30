@@ -1,0 +1,1 @@
+var n,a,e,o;!function(n){n.start="start",n.center="center",n.end="end"}(n||(n={})),function(n){n.square="square",n.round="round"}(a||(a={})),function(n){n.none="none",n.low="low",n.medium="medium",n.heavy="heavy"}(e||(e={})),function(n){n.h1="h1",n.h2="h2",n.h3="h3",n.h4="h4",n.h5="h5",n.h6="h6"}(o||(o={}));export{n as A,o as C,e as D,a}

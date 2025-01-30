@@ -1,0 +1,239 @@
+{
+  "owner": {
+    "description": "בעלים"
+  },
+  "updatedDate": {
+    "description": "עדכן תאריך",
+    "descriptionWithFrequency": "תאריך עדכון: {updatedDateFormatted}"
+  },
+  "createdDate": {
+    "description": "תאריך יצירה"
+  },
+  "joinedDate": {
+    "description": "תאריך הצטרפות"
+  },
+  "access": {
+    "label": {
+      "public": "ציבורי",
+      "org": "ארגון",
+      "private": "בעלים",
+      "shared": "משותף באופן פרטי"
+    },
+    "description": {
+      "public": {
+        "site": "כל אחד יכול לראות אתר זה",
+        "project": "כולם יכולים לראות פרויקט זה",
+        "initiative": "כל אחד יכול לראות יוזמה זו",
+        "discussion": "כל אחד יכול לראות דיון זה",
+        "default": "כל אחד יכול לראות תוכן זה",
+        "event": "כל אחד יכול לראות אירוע זה"
+      },
+      "org": {
+        "site": "כל אחד בארגון שלך יכול לראות אתר זה",
+        "project": "כל אחד בארגון שלך יכול לראות פרויקט זה",
+        "initiative": "כל אחד בארגון שלך יכול לראות יוזמה זו",
+        "discussion": "כל אחד בארגון שלך יכול לראות דיון זה",
+        "default": "כל אחד בארגון שלך יכול לראות תוכן זה",
+        "event": "כל אדם בארגונך יכול לראות אירוע זה"
+      },
+      "private": {
+        "site": "רק אתה יכול לראות אתר זה",
+        "project": "רק אתה יכול לראות פרויק זה",
+        "initiative": "רק אתה יכול לראות יוזמה זו",
+        "discussion": "רק אתה יכול לראות דיון זה",
+        "default": "רק אתה יכול לראות תוכן זה",
+        "event": "רק אתה יכול לראות אירוע זה"
+      },
+      "shared": {
+        "site": "קבוצות נבחרות יכולות לראות אתר זה",
+        "project": "קבוצות נבחרות יכולות לראות פרויקט זה",
+        "initiative": "קבוצות נבחרות יכולות לראות יוזמה זו",
+        "discussion": "קבוצות נבחרות יכולות לראות דיון זה",
+        "default": "קבוצות נבחרות יכולות לראות תוכן זה",
+        "event": "קבוצות נבחרות יכולות לראות אירוע זה"
+      }
+    }
+  },
+  "type": {
+    "fallback": {
+      "content": "תוכן",
+      "discussion": "דיון",
+      "event": "אירוע",
+      "group": "קבוצה",
+      "initiative": "יוזמה",
+      "org": "ארגון",
+      "page": "עמוד",
+      "project": "פרויקט",
+      "site": "אתר",
+      "survey": "סקר",
+      "initiativeTemplate": "תבנית",
+      "user": "משתמש"
+    },
+    "appbuilderExtension": "כלי GIS",
+    "appbuilderWidgetPackage": "כלי GIS",
+    "application": "יישום רשום",
+    "arcgisProMap": "כלי GIS",
+    "cadDrawing": "כלי GIS",
+    "cityEngineWebScene": "יישום 3D",
+    "codeAttachment": "כלי GIS",
+    "colorSet": "כלי GIS",
+    "content": "תוכן",
+    "contentCategorySet": "GIS",
+    "csv": "סט נתונים",
+    "csvCollection": "קובץ נתונים",
+    "dashboard": "לוח בקרה",
+    "desktopApplication": "כלי GIS",
+    "document": "מסמך",
+    "documentLink": "קישור אינטרנט",
+    "excaliburImageryProject": "כלי GIS",
+    "explorerMap": "כלי GIS",
+    "exportPackage": "כלי GIS",
+    "featureCollection": "סט נתונים",
+    "featureCollectionTemplate": "כלי GIS",
+    "featureLayer": "סט נתונים",
+    "featureService": "מפה",
+    "fileGeodatabase": "קובץ נתונים",
+    "form": "סקר",
+    "geocodingService": "API למפתחים",
+    "geodataService": "API למפתחים",
+    "geojson": "תוכן",
+    "geometryService": "API למפתחים",
+    "geopackage": "קובץ נתונים",
+    "geoprocessingService": "API למפתחים",
+    "globeLayer": "קובץ נתונים",
+    "globeService": "API למפתחים",
+    "hubInitiative": "יוזמה",
+    "hubInitiativeTemplate": "תבנית",
+    "hubPage": "עמוד",
+    "hubProject": "פרויקט",
+    "hubSiteApplication": "אתר",
+    "image": "תמונה",
+    "imageService": "ערכת נתוני תמונות",
+    "insightsModel": "כלי GIS",
+    "insightsPage": "ניתוח",
+    "insightsTheme": "כלי GIS",
+    "insightsWorkbook": "חוברת עבודה של ניתוח",
+    "iWorkKeynote": "מצגת",
+    "iWorkNumbers": "גיליון נתונים",
+    "iWorkPages": "מסמך",
+    "kml": "סט נתונים",
+    "kmlCollection": "קובץ נתונים",
+    "layer": "קובץ נתונים",
+    "layerPackage": "קובץ נתונים",
+    "locatorPackage": "כלי GIS",
+    "mapArea": "כלי GIS",
+    "mapDocument": "כלי GIS",
+    "mapImageLayer": "מפה",
+    "mapPackage": "קובץ נתונים",
+    "mapService": "מפה",
+    "microsoftExcel": "גיליון נתונים",
+    "microsoftPowerpoint": "מצגת",
+    "microsoftVizio": "Microsoft Visio",
+    "microsoftWord": "מסמך",
+    "mission": "כלי GIS",
+    "mobileApplication": "יישום",
+    "mobileMapPackage": "קובץ נתונים",
+    "native application template": "כלי למפתחים",
+    "nativeApplication": "יישום",
+    "nativeApplicationInstaller": "כלי למפתחים",
+    "networkAnalysisService": "API למפתחים",
+    "notebook": "ניתוח",
+    "orientedImageryCatalog": "ערכת נתוני תמונות",
+    "orthoMappingProject": "כלי GIS",
+    "orthoMappingTemplate": "כלי GIS",
+    "pdf": "מסמך",
+    "quickcaptureProject": "סקר נייד",
+    "rasterLayer": "מפה",
+    "realTimeAnalytic": "API למפתחים",
+    "relationalDatabaseConnection": "API למפתחים",
+    "reportTemplate": "כלי GIS",
+    "sceneLayer": "ערכת נתונים 3D",
+    "sceneService": "ערכת נתונים 3D",
+    "serviceDefinition": "קובץ נתונים",
+    "shapefile": "סט נתונים",
+    "solution": "פתרון",
+    "sqliteGeodatabase": "קובץ נתונים",
+    "statisticalDataCollection": "קובץ נתונים",
+    "storymap": "StoryMap",
+    "symbolSet": "קובץ נתונים",
+    "table": "סט נתונים",
+    "team": "צוות",
+    "urbanModel": "מודל עירוני",
+    "vectorTileService": "מפה",
+    "visioDocument": "מסמך",
+    "webExperience": "יישום",
+    "webMap": "מפה",
+    "webMappingApplication": "יישום",
+    "webScene": "מפת תלת-ממד",
+    "wfs": "מפה",
+    "wms": "מפה",
+    "wmts": "מפה",
+    "workflowManagerService": "API למפתחים",
+    "workforceProject": "מנהל זרימת משימה"
+  },
+  "location": {
+    "description": "מיקום"
+  },
+  "members": {
+    "noMember": "אין חברים",
+    "oneMember": "חברים: 1",
+    "members": "חברים: {count}",
+    "description": {
+      "value": "הצג את כל חברי הקבוצה"
+    }
+  },
+  "tooltip": {
+    "label": "תיאור כלי של פריט מטה-דאטה"
+  },
+  "relevantArea": {
+    "title": "אזור רלוונטי"
+  },
+  "license": {
+    "tooltip": "מגדיר כיצד ניתן להשתמש בתוכן זה",
+    "set": {
+      "title": "רישיון {license}",
+      "customTitle": "רישיון מותאם אישית",
+      "description": {
+        "value": "הצג את פרטי הרישיון"
+      }
+    },
+    "unset": {
+      "title": "לא סופק רישיון",
+      "description": {
+        "value": "בקש הרשאה להשתמש"
+      }
+    }
+  },
+  "size": {
+    "description": {
+      "value": "גודל קובץ מסמך"
+    }
+  },
+  "recordCount": {
+    "title": "רשומות: {count}",
+    "description": {
+      "value": "הצג טבלת נתונים"
+    }
+  },
+  "metadataModified": {
+    "description": {
+      "defaultValue": "פרטים עודכנו",
+      "dynamicValue": "פרטים עודכנו: {lastUpdated}"
+    }
+  },
+  "updateFrequency": {
+    "continual": "המשכי",
+    "daily": "יומי",
+    "weekly": "שבועי",
+    "fortnightly": "דו שבועי",
+    "monthly": "חודשי",
+    "quarterly": "רבעוני",
+    "biannually": "פעמים בשנה",
+    "annually": "שנתי",
+    "as-needed": "לפי הצורך",
+    "irregular": "לא סדיר",
+    "not-planned": "לא מתוכנן",
+    "unknown": "לא ידוע",
+    "semimonthly": "חצי-חודשי"
+  }
+}

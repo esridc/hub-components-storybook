@@ -1,0 +1,35 @@
+{
+  "success": "De bewerkingen zijn opgeslagen",
+  "error": "Er is een fout opgetreden bij het opslaan van bewerkingen",
+  "formAlert": "Formulierwaarschuwing",
+  "projects": {
+    "header": "Projecten",
+    "list": "Projectenlijst",
+    "config": "Configuratie",
+    "notConfigured": "Projectenmogelijkheid is niet geconfigureerd. Gebruik het tabblad Configuratie."
+  },
+  "content": {
+    "header": "Content",
+    "list": "Contentlijst",
+    "config": "Configuratie",
+    "notConfigured": "Contentmogelijkheid is niet geconfigureerd. Gebruik het tabblad Configuratie."
+  },
+  "initiatives": {
+    "header": "Initiatieven",
+    "list": "Initiatievenlijst",
+    "config": "Configuratie",
+    "notConfigured": "Initiatievenmogelijkheid is niet geconfigureerd. Gebruik het tabblad Configuratie."
+  },
+  "events": {
+    "header": "Evenementen",
+    "list": "Evenementenlijst",
+    "config": "Configuratie",
+    "notConfigured": "Evenementenmogelijkheid is niet geconfigureerd. Gebruik het tabblad Configuratie."
+  },
+  "pages": {
+    "header": "Pagina's",
+    "list": "Paginalijst",
+    "config": "Configuratie",
+    "notConfigured": "Paginamogelijkheid is niet geconfigureerd. Gebruik het tabblad Configuratie."
+  }
+}

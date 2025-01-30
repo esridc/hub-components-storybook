@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "Nội dung của tôi",
+    "livingAtlas": "Tập bản đồ Sinh sống",
+    "organization": "Tổ chức của tôi",
+    "world": "Thế giới (Công khai)"
+  },
+  "collection": {
+    "appsAndMaps": "Ứng dụng và Bản đồ",
+    "feedback": "Ý kiến phản hồi"
+  },
+  "facets": {
+    "type": "Loại",
+    "tags": "Thẻ",
+    "categories": "Danh mục",
+    "modified": "Đã chỉnh sửa"
+  },
+  "pickerTitle": "Chọn nội dung",
+  "height": "Chiều cao (px)",
+  "isScrollable": "Có thể cuộn",
+  "errors": {
+    "heightMinimum": "Giá trị phải là một số dương.",
+    "heightMaximum": "Giá trị phải nhỏ hơn hoặc bằng 2000px.",
+    "urlError": "Phải là một URL hợp lệ."
+  },
+  "success": {
+    "urlSuccess": "Đã tải URL thành công."
+  },
+  "shouldApplyBreakpoints": {
+    "label": "Áp dụng thiết lập theo điểm dừng thiết bị thay thế"
+  },
+  "viewportAll": {
+    "label": "Mặc định",
+    "description": "Áp dụng thiết lập cho tất cả kích thước màn hình"
+  },
+  "viewportMobile": {
+    "label": "Di động",
+    "description": "Áp dụng thiết lập cho màn hình có độ rộng từ 360px trở lên"
+  },
+  "viewportTablet": {
+    "label": "Máy tính bảng",
+    "description": "Áp dụng thiết lập cho màn hình có độ rộng từ 560px trở lên"
+  },
+  "viewportDesktop": {
+    "label": "Máy tính",
+    "description": "Áp dụng thiết lập cho màn hình có độ rộng từ 980px trở lên"
+  },
+  "sourceLabel": "Chọn loại nhúng",
+  "contentLabel": "Nội dung ArcGIS",
+  "externalLabel": "URL bên ngoài",
+  "contentDescription": "Chọn từ các bản đồ, scene, ứng dụng, khảo sát và liên kết tài liệu hiện có và khả dụng đối với bạn.",
+  "externalDescription": "Nhập URL cần nhúng. Vui lòng lưu ý rằng một số miền không cho phép nhúng và có thể không hiển thị như mong muốn."
+}

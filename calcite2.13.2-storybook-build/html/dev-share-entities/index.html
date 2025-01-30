@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dev-share-entities</title>
+
+  <!-- link to calcite components CSS  -->
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+
+  <!-- NOTE: calcite web CSS is only used for grid layout of this page -->
+  <!-- see: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+  <link rel="stylesheet" href="../calcite-web.min.css">
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+
+  <!-- load calcite components -->
+  <script type="module" src="../../calcite/calcite.esm.js"></script>
+
+  <!-- load hub components -->
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+</head>
+
+<body>
+  <harness-header page-title=dev-share-entities></harness-header>
+  <div class="grid-container padding-leader-4">
+    <!-- docs about grid container: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+
+    <div class="column-24">
+      <dev-share-entities id="dev-share-entities-harness">
+      </dev-share-entities>
+    </div>
+  </div>
+
+  <script>
+    const groupInfos = [
+      {type: "view", id:"249d1aa645d74ea7905f412634933943"},
+      {type: "sharededit admin", id:"e1f453209c044889819156be293ef326"},
+      {type: "sharededit member", id:"09582d88c0e54a4aa608482e9706a32a"}
+    ];
+    const infos = [
+      {id:"2ec6802e5f3443e7a8321a886c48c83c", desc: "webmap owned by paige"},
+      {id:"9f1d57071bf346f2affeb8cd05c71a38", desc: "webmap owned by paige"},
+      {id:"e6ef9b711b6d47678dcacdae372efd83", desc: "image owned by paige"},
+      {id:"df6013dee8b74080801c80c6895f64a0", desc: "pdf owned by paige"},
+      {id:"5706d0f9dc4d49b3a3851735b5098ebf", desc: "project not owned by paige"}
+    ]
+    const ids = infos.map(info => info.id);
+    groups = [groupInfos.map(info => info.id)[0]]
+    setProp("groups", groups.join(","));
+    setProp("ids", ids.join(","));
+    // set a property on the element
+    function setProp(key, value) {
+      const el = document.querySelector("#dev-share-entities-harness");
+      el[key] = value;
+    }
+  </script>
+</body>
+
+</html>

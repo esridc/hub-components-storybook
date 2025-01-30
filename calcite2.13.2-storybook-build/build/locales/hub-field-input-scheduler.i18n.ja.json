@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "Hub による自動処理",
+      "actionText": "自動のオプション情報"
+    },
+    "daily": {
+      "defaultLabel": "毎日",
+      "defaultExpandedHelperText": "選択したタイム ゾーンの選択した時間に毎日更新。",
+      "actionText": "毎日のオプション情報"
+    },
+    "weekly": {
+      "defaultLabel": "毎週",
+      "defaultExpandedHelperText": "選択したタイム ゾーンの次の曜日および時間に毎週更新。",
+      "actionText": "毎週のオプション情報"
+    },
+    "monthly": {
+      "defaultLabel": "毎月",
+      "defaultExpandedHelperText": "選択したタイム ゾーンの次の日付および時間に毎月更新。",
+      "actionText": "毎月のオプション情報"
+    },
+    "yearly": {
+      "defaultLabel": "毎年",
+      "defaultExpandedHelperText": "選択したタイム ゾーンの次の月、日付、時間に毎年更新。",
+      "actionText": "毎年のオプション情報"
+    },
+    "manual": {
+      "defaultLabel": "手動",
+      "defaultExpandedHelperText": "このアイテムの検索インデックスとキャッシュされたダウンロード ファイルを手動で更新する場合に、このオプションを使用します。",
+      "actionText": "手動のオプション情報"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "時刻",
+      "inputMessage": "時刻は最も近い時間に丸められます。",
+      "error": "時間を選択してください。"
+    },
+    "day": {
+      "helperText": "曜日",
+      "daysOfTheWeek": {
+        "sunday": "日曜日",
+        "monday": "月曜日",
+        "tuesday": "火曜日",
+        "wednesday": "水曜日",
+        "thursday": "木曜日",
+        "friday": "金曜日",
+        "saturday": "土曜日"
+      },
+      "selectLabel": "曜日ピッカー",
+      "error": "曜日を選択してください。"
+    },
+    "date": {
+      "helperText": "日付",
+      "inputNumberPlaceholder": "日付の選択",
+      "inputMessage": "1 ～ 28 の日付の値を入力してください。",
+      "error": "日付は、1 ～ 28 の間である必要があります。"
+    },
+    "month": {
+      "helperText": "月",
+      "selectLabel": "月ピッカー",
+      "monthsOfTheYear": {
+        "january": "1 月",
+        "february": "2 月",
+        "march": "3 月",
+        "april": "4 月",
+        "may": "5 月",
+        "june": "6 月",
+        "july": "7 月",
+        "august": "8 月",
+        "september": "9 月",
+        "october": "10 月",
+        "november": "11 月",
+        "december": "12 月"
+      },
+      "error": "月を選択してください。"
+    },
+    "timezone": {
+      "helperText": "タイムゾーン",
+      "error": "タイムゾーンを選択してください。"
+    }
+  },
+  "fieldHeader": "頻度"
+}

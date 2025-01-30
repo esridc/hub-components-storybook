@@ -1,0 +1,65 @@
+{
+  "catalog": "Catàleg",
+  "catalog-content": "Contingut",
+  "catalog-events": "Esdeveniments",
+  "shared": {
+    "publish": {
+      "label": "Desa",
+      "success": {
+        "title": "Les edicions del catàleg s'han publicat correctament a la visualització en directe"
+      },
+      "error": {
+        "title": "S'ha produït un error en desar els canvis"
+      }
+    }
+  },
+  "emptyState": {
+    "message": "No s'ha definit cap catàleg",
+    "action": "Crea un catàleg"
+  },
+  "actionBar": {
+    "details": "Configuració del catàleg",
+    "appearance": "Aparença del catàleg",
+    "tooltip": {
+      "appearanceDisabled": "No hi ha cap catàleg configurat actualment. Configureu un catàleg per ajustar la configuració de l'aparença.",
+      "configuration": "Configuració",
+      "appearance": "Aparença"
+    }
+  },
+  "detailsPanel": {
+    "heading": "Configuració del catàleg",
+    "close": "Tanca la configuració del catàleg",
+    "catalogBuilder": {
+      "helperText": "El catàleg permet als visitants cercar i visualitzar contingut. Els resultats que es mostren es basen en la configuració que hàgiu definit per a les consultes."
+    },
+    "querySizeNotice": {
+      "warning": {
+        "title": "S'està arribant al límit del catàleg",
+        "catalogSourceMessage": {
+          "item": "La configuració de la font de l'element està arribant a la mida màxima.",
+          "event": "La configuració de la font de l'esdeveniment està arribant a la mida màxima."
+        },
+        "collectionSourceMessage": {
+          "item": "La combinació de la configuració de la font de l'element i la col·lecció \"{collectionName}\" està arribant a la mida màxima.",
+          "event": "La combinació de la configuració de la font de l'esdeveniment i la col·lecció \"{collectionName}\" està arribant a la mida màxima."
+        }
+      },
+      "danger": {
+        "title": "S'ha superat el límit del catàleg",
+        "catalogSourceMessage": {
+          "item": "La configuració de la font de l'element ha superat la mida màxima. Reduïu el nombre de filtres o d'opcions de filtres de la font de l'element per publicar.",
+          "event": "La configuració de la font de l'esdeveniment ha superat la mida màxima. Reduïu el nombre de filtres o d'opcions de filtres de la font de l'esdeveniment per publicar."
+        },
+        "collectionSourceMessage": {
+          "item": "La combinació de la configuració de la font de l'element i la col·lecció \"{collectionName}\" ha superat la mida màxima. Reduïu el nombre de filtres o d'opcions de filtres de la font de l'element o la col·lecció \"{collectionName}\" per publicar.",
+          "event": "La combinació de la configuració de la font de l'esdeveniment i la col·lecció \"{collectionName}\" ha superat la mida màxima. Reduïu el nombre de filtres o d'opcions de filtres de la font de l'esdeveniment o la col·lecció \"{collectionName}\" per publicar."
+        }
+      }
+    }
+  },
+  "appearancePanel": {
+    "heading": "Aparença del catàleg",
+    "close": "Tanca l'aparença del catàleg",
+    "description": "El catàleg permet als visitants cercar i visualitzar contingut. Aquí podeu actualitzar l'aspecte del catàleg per defecte i els filtres que voleu que es mostrin."
+  }
+}

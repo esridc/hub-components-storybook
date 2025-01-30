@@ -1,0 +1,29 @@
+{
+  "header": "Evenemang",
+  "myContent": "Mina evenemang",
+  "editableContent": "Redigerbart innehåll",
+  "addEventButtonText": "Skapa evenemang",
+  "type": "Typ",
+  "sharedUpdate": "Delad uppdateringsgrupp",
+  "viewOnly": "Skrivskyddad grupp",
+  "owner": "Skapad av",
+  "starts": "På",
+  "from": "Från",
+  "until": "Till och med",
+  "updated": "Uppdaterad",
+  "tags": "Taggar",
+  "dateCreated": "Skapad",
+  "dateUpdated": "Ändrad",
+  "actionLinks": {
+    "view": "Visa",
+    "edit": "Redigera",
+    "ariaEdit": "Redigera: {title}",
+    "ariaView": "Visa: {title}"
+  },
+  "access": {
+    "label": "Åtkomst",
+    "PRIVATE": "Privat",
+    "ORG": "Organisation",
+    "PUBLIC": "Offentlig"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "advancedConfig": {
+    "label": "Napredna konfiguracija",
+    "serverTimeout": {
+      "label": "Časovna omejitev strežnika (sekunde)",
+      "helperText": "Uporabno za večje storitve, ki lahko za odgovor potrebujejo več časa.",
+      "errors": {
+        "type": "Vnesite konfiguracijo časovne omejitve strežnika.",
+        "minimum": "Vrednost časovne omejitve strežnika mora biti vsaj 5.",
+        "maximum": "Vrednost časovne omejitve strežnika mora biti največ 95."
+      }
+    }
+  },
+  "appearance": {
+    "corners": {
+      "label": "Koti",
+      "enum": {
+        "round": {
+          "label": "Okroglo"
+        },
+        "square": {
+          "label": "Pravokotno"
+        }
+      }
+    },
+    "dropShadow": {
+      "label": "Zasenči",
+      "enum": {
+        "heavy": {
+          "label": "Močna"
+        },
+        "low": {
+          "label": "Nizko"
+        },
+        "medium": {
+          "label": "Srednje"
+        },
+        "none": {
+          "label": "Ni začeto"
+        }
+      }
+    },
+    "layout": {
+      "label": "Slog kartice",
+      "enum": {
+        "informational": {
+          "label": "Informativno"
+        },
+        "simple": {
+          "label": "Enostavno"
+        }
+      }
+    },
+    "popoverText": {
+      "label": "Modalna vsebina"
+    },
+    "publisherText": {
+      "label": "Izvorni izdajatelj"
+    },
+    "styleSpecificSettings": {
+      "label": "Nastavitve sloga",
+      "helperInfoText": "Če izberete gumb za informacije, se odpre modalno okno, ki vsebuje več informacij.",
+      "helperVizText": "Preprosta kartica podpira dodajanje ikone kot vizualnega elementa, ki se lahko uporablja za odraz sprememb v podatkih."
+    },
+    "sectionTitle": "Videz",
+    "textAlign": "Poravnava",
+    "visualInterest": {
+      "label": "Vizualni element",
+      "enum": {
+        "icon": {
+          "label": "Ikona"
+        },
+        "none": {
+          "label": "Brez"
+        }
+      }
+    },
+    "icon": {
+      "label": "Ikona",
+      "caretUp": {
+        "label": "Povečaj"
+      },
+      "caretDown": {
+        "label": "Zmanjšaj"
+      },
+      "caretDouble": {
+        "label": "Ni spremembe"
+      }
+    },
+    "valueColor": "Barva (statistika)"
+  },
+  "details": {
+    "allowDynamicLink": "Prikaz povezave vira",
+    "link": {
+      "sectionTitle": "Povezava",
+      "sourceLink": "URL povezave",
+      "sourceTitle": "Besedilo povezave"
+    },
+    "sectionTitle": "Podrobnosti",
+    "subtitle": "Podnaslov",
+    "title": "Naslov",
+    "trailingText": {
+      "label": "Zaključno besedilo",
+      "helperText": "Vnesite kakršen koli dodaten kontekst ali razlago (ki se pojavi pod metrično vrednostjo)."
+    }
+  },
+  "errors": {
+    "sourceLink": {
+      "required": "Povezava, ki je potrebna za prikaz vira.",
+      "formatError": "Oblikovanje URL-ja je nepravilno"
+    }
+  },
+  "formatting": {
+    "sectionTitle": "Oblikovanje",
+    "unit": {
+      "label": "Prikaži enote",
+      "helperText": "Vnesite mersko enoto za vašo vrednost."
+    },
+    "unitPosition": {
+      "label": "Postavitev",
+      "helperText": "Izberite, kje se pojavi merska enota (npr. \"km\", \"lbs\") glede na metrično vrednost.",
+      "enum": {
+        "after": {
+          "label": "Po"
+        },
+        "before": {
+          "label": "Pred"
+        },
+        "below": {
+          "label": "Spodaj"
+        }
+      }
+    }
+  },
+  "sharing": {
+    "sectionTitle": "Deljenje",
+    "showShareIcon": "Omogoči deljenje",
+    "showShareIconHelperText": "Uporabnikom dovoli kopiranje neposredne povezave do te kartice na tej strani.",
+    "shareableByValue": "Omogoči vdelave",
+    "shareableOnHover": {
+      "label": "Prikaži, ko se nanj pomakneš z miško",
+      "helperText": {
+        "label": "Gumb za deljenje se prikaže samo, ko se nanj pomaknete z miškinim kazalcem. Če je izklopljeno, je gumb vedno viden."
+      }
+    }
+  },
+  "statistic": {
+    "dataSource": "Vir podatkov",
+    "displayValue": "Prikaži vrednost",
+    "sectionTitle": "Vrednost",
+    "type": {
+      "label": "Tip",
+      "enum": {
+        "dynamic": {
+          "label": "Dinamično",
+          "description": "Izberite obstoječi sklop podatkov (geoobjektna storitev) za povzetek."
+        },
+        "static": {
+          "label": "Statično",
+          "description": "Ročno vnesite vrednost za označitev v vaši postavitvi."
+        }
+      }
+    }
+  }
+}

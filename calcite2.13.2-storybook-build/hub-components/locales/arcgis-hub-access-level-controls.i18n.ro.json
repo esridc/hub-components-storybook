@@ -1,0 +1,16 @@
+{
+  "heading": "Nivel de Partajare",
+  "public": "Public",
+  "publicInfo": "Toată lumea poate vedea acest {itemType}",
+  "organization": "Organizaţie",
+  "organizationInfo": "Toți membrii și grupurile cu un cont la {orgName} pot vedea acest {itemType}",
+  "owner": "Proprietar",
+  "ownerInfo": "Proprietarul și grupurile cu acces pot vedea acest {itemType}",
+  "discussion": {
+    "publicInfo": "Oricine poate vizualiza acest panou de discuții",
+    "organization": "Organizația mea",
+    "organizationInfo": "Toți membrii cu un cont în {orgName} pot vizualiza acest panou de discuții",
+    "owner": "Privat",
+    "ownerInfo": "Proprietarul și grupurile selectate pot vizualiza acest panou de discuții"
+  }
+}

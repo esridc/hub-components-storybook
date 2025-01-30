@@ -1,0 +1,29 @@
+{
+  "additionalInfo": {
+    "label": "Paramètres d’affichage facultatifs",
+    "helperText": "Ajoutez votre propre description relative à la confidentialité, ainsi que des informations concernant votre politique de confidentialité."
+  },
+  "allowPrivacyConfig": {
+    "label": "Afficher la déclaration de confidentialité"
+  },
+  "blocking": {
+    "label": "Type de déclaration",
+    "optional": {
+      "label": "Consentement facultatif",
+      "description": "Les visiteurs peuvent utiliser le site sans avoir effectué un choix en matière de consentement relatif à la confidentialité. Le suivi commence immédiatement et n’est interrompu que s’il est refusé par le visiteur."
+    },
+    "required": {
+      "label": "Consentement obligatoire",
+      "description": "Le visiteur doit accepter ou refuser le suivi pour pouvoir utiliser le site. Le suivi commence uniquement s’il a été accepté par le visiteur."
+    }
+  },
+  "consentText": {
+    "label": "Description relative à la confidentialité",
+    "helperText": "S’affiche dans la déclaration de confidentialité pour le visiteur du site."
+  },
+  "policyURL": {
+    "label": "Lien vers la politique de confidentialité",
+    "helperText": "S’affiche en tant que lien \"Plus d’informations\" dans la déclaration de confidentialité.",
+    "error": "Doit être une URL valide à afficher."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "timeoutError": {
+    "message": "Er is een time-out opgetreden voor de serververbinding en de statistieken kunnen niet worden weergegeven.",
+    "title": "Time-out server"
+  },
+  "genericError": {
+    "message": "Statistieken kunnen niet worden weergegeven.",
+    "title": "Er is iets fout gegaan"
+  },
+  "loading": "Bezig met laden statistieken",
+  "source": "Bron:",
+  "dismiss": "Negeren",
+  "moreInfo": "Meer informatie",
+  "openInfo": "Meer informatie openen"
+}

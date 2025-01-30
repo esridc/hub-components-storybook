@@ -1,0 +1,43 @@
+{
+  "header": "Razprave",
+  "myContent": "Moji dogodki",
+  "editableContent": "Vsebina, ki jo je mogoče urejati",
+  "addContentButtonText": "Ustvari dogodek",
+  "type": "Tip",
+  "sharedUpdate": "Skupina za posodabljanje v skupni rabi",
+  "viewOnly": "Skupina samo za ogled",
+  "owner": "Lastnik",
+  "updated": "Posodobljeno",
+  "tags": "Oznake",
+  "dateCreated": "Ustvarjeno",
+  "dateUpdated": "Spremenjeno",
+  "actionLinks": {
+    "view": "Ogled",
+    "edit": "Uredi",
+    "ariaEdit": "Uredi: {title}",
+    "ariaView": "Ogled: {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Dogodki",
+      "myContent": "Dogodki v moji lasti",
+      "editableContent": "Dogodki, ki jih lahko urejam",
+      "all": "Vsi dogodki"
+    },
+    "access": {
+      "label": "Od"
+    },
+    "type": {
+      "label": "Tipi"
+    },
+    "tags": {
+      "label": "Oznake"
+    },
+    "categories": {
+      "label": "Kategorije"
+    },
+    "modified": {
+      "label": "Spremenjeno"
+    }
+  }
+}

@@ -1,0 +1,117 @@
+:host {
+  display: block;
+  --calcite-label-margin-bottom: 0;
+}
+
+h3 {
+  margin: 30px 0;
+  font-size: var(--calcite-font-size-2);
+  line-height: 1.5rem;
+  font-weight: var(--calcite-font-weight-bold);
+  color: var(--calcite-color-text-1);
+}
+
+h4 {
+  margin: 0px;
+  font-size: var(--calcite-font-size-1);
+  line-height: 1.5rem;
+  font-weight: var(--calcite-font-weight-medium);
+  color: var(--calcite-color-text-1);
+}
+
+h5 {
+  margin: 0px;
+  font-size: var(--calcite-font-size-0);
+  line-height: 1.25rem;
+  font-weight: var(--calcite-font-weight-normal);
+  color: var(--calcite-color-text-1);
+}
+
+.feeds-tab-title-row {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.feeds-help-column {
+  width: 49%;
+}
+
+.horizontal-rule {
+  border-top: .5px solid var(--calcite-color-border-1);
+}
+
+.feeds-editor-row {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  padding-top: 1rem;
+}
+
+.feeds-editor-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.preview-toggle-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.preview-toggle-container > calcite-label {
+  margin-bottom: 0.5rem;
+}
+
+.feeds-code-editor {
+  height: 24rem;
+  border: 1px solid var(--calcite-color-border-input);
+}
+
+.feeds-code-editor[has-error] {
+  border: 2px solid var(--calcite-color-status-danger);
+}
+
+.invalid-json-editor-warning {
+  margin-top: 0.5rem;
+}
+
+.preview-main-container {
+  height: 24rem;
+  overflow: scroll;
+  border: 1px solid var(--calcite-color-border-input);
+  background-color: var(--calcite-color-background);
+}
+
+.formatted-preview {
+  margin: 0px;
+  text-wrap: nowrap;
+}
+
+.preview-notice {
+  margin: 1rem;
+}
+
+.feeds-tools-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.preview-picker-form {
+  margin-bottom: -0.5rem;
+}
+
+/* copied over from hub-section-basic */
+section {
+  margin-bottom: 2rem;
+  border-radius: 0.25rem;
+  padding: 1.25rem;
+  --tw-shadow: 0 1px 6px -1px rgba(0, 0, 0, 0.16), 0 1px 2px -1px rgba(0, 0, 0, 0.08);
+  --tw-shadow-colored: 0 1px 6px -1px var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  background: white;
+}
+

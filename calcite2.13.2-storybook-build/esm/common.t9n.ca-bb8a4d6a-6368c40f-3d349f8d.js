@@ -1,0 +1,4 @@
+const e={mean:"Mitjana",median:"Mediana",sum:"Suma",discretePercentile:"Percentil discret",minimum:"Mínim",maximum:"Màxim",variance:"Variància",count:"Recompte",aggregation:"${ statistics } de ${ fieldName }",noAggregation:"Sense agregació"},a="Gràfic",i="Recompte de sèries",t="Eix X",s="No disponible",n={start:"Ajusta al primer punt de dades",end:"Ajusta a l'últim punt de dades"};var r={statistics:e,defaultTitle:a,countSeries:i,xAxis:t,notAvailable:s,timeAggregationTypes:n};
+
+export default r;
+export { i as countSeries, a as defaultTitle, s as notAvailable, e as statistics, n as timeAggregationTypes, t as xAxis };

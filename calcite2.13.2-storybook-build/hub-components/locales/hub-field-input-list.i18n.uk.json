@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "Редагувати",
+    "fields": {
+      "label": {
+        "label": "Напис",
+        "requiredMessage": "Потрібно зазначити напис",
+        "maxLengthMessage": "Напис не має перевищувати {maxLength} симв."
+      }
+    },
+    "apply": "Застосувати"
+  },
+  "showItem": "Показати такий елемент списку: {itemLabel}",
+  "hideItem": "Приховати такий елемент списку: {itemLabel}",
+  "editItem": "Змінити такий елемент списку: {itemLabel}"
+}

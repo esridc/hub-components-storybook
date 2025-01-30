@@ -1,0 +1,1 @@
+import{i as r}from"./p-2319143e.js";import{i}from"./p-0d9eb7ed.js";function o(i){return r(i.url)&&!!i.serverExtractCapability}function t(r){return i(r.url)&&"public"===r.access&&r.serverQueryCapability}export{o as a,t as c}

@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Rezultatų nerasta."
+    },
+    "error": {
+      "message": "Apgailestaujame, bet ieškant įvyko klaida."
+    }
+  },
+  "access": "Prieiga",
+  "actionsHeader": "Veiksmai",
+  "caption": "Hub subjekto lentelė",
+  "family": "Grupė",
+  "type": "Tipas",
+  "tags": "Žymos",
+  "owner": "Savininkas",
+  "dateCreated": "Sukurta",
+  "dateUpdated": "Pakeistas",
+  "description": "Aprašas",
+  "dateAndTime": "Data ir laikas",
+  "location": "Vieta",
+  "attendanceType": "Dalyvavimo tipas",
+  "inPerson": "Asmeniškai",
+  "online": "Internetu",
+  "hybrid": "Hibridinis",
+  "categories": "Kategorijos",
+  "content": "Turinys",
+  "name": "Pavadinimas",
+  "start": "Pradžia",
+  "end": "Pabaiga",
+  "sharedUpdate": "Bendrinamas naujinimas",
+  "managers": "Valdytojai",
+  "username": "Naudotojo vardas",
+  "no": "Ne",
+  "yes": "Taip",
+  "title": "Pavadinimas",
+  "thumbnail": "Miniatiūra",
+  "types": {
+    "app": "Programėlė",
+    "content": "Turinys",
+    "dataset": "Duomenų rinkinys",
+    "discussion": "Diskusijų lenta",
+    "document": "Dokumentas",
+    "event": "Renginys",
+    "feedback": "Atsiliepimai",
+    "initiative": "Iniciatyva",
+    "image": "Paveikslėlis",
+    "map": "Žemėlapis",
+    "other": "Kita",
+    "people": "Žmonės",
+    "site": "Svetainė",
+    "team": "Grupė",
+    "template": "Šablonas",
+    "project": "Projektas"
+  }
+}

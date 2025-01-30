@@ -1,0 +1,29 @@
+{
+  "header": "Eventos",
+  "myContent": "Mis eventos",
+  "editableContent": "Contenido editable",
+  "addEventButtonText": "Crear evento",
+  "type": "Tipo",
+  "sharedUpdate": "Grupo de actualización compartido",
+  "viewOnly": "Ver solo grupo",
+  "owner": "Creado por",
+  "starts": "Activado",
+  "from": "De",
+  "until": "Hasta",
+  "updated": "Actualizada",
+  "tags": "Etiquetas",
+  "dateCreated": "Creada",
+  "dateUpdated": "Modificado",
+  "actionLinks": {
+    "view": "Ver",
+    "edit": "Editar",
+    "ariaEdit": "Editar: {title}",
+    "ariaView": "Ver: {title}"
+  },
+  "access": {
+    "label": "Acceso",
+    "PRIVATE": "Privado",
+    "ORG": "Organización",
+    "PUBLIC": "Público"
+  }
+}

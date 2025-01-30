@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Nie znaleziono wyników."
+    },
+    "error": {
+      "message": "Wystąpił błąd podczas wyszukiwania."
+    }
+  },
+  "type": "Typ",
+  "tags": "Znaczniki",
+  "owner": "Właściciel",
+  "dateCreated": "Utworzony",
+  "dateUpdated": "Zmodyfikowany",
+  "categories": "Kategorie",
+  "dateAndTime": "Data i godzina",
+  "allDay": "{date} (cały dzień)",
+  "allDayRange": "{from} – {to} (cały dzień)",
+  "location": "Lokalizacja",
+  "attendanceType": "Typ obecności",
+  "inPerson": "Osobiście",
+  "online": "Online",
+  "hybrid": "Hybrydowa"
+}

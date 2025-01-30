@@ -1,0 +1,15 @@
+{
+  "newCollection": "Ny samling",
+  "block": {
+    "heading": {
+      "untitled": "Samling uten tittel"
+    },
+    "actions": {
+      "delete": "Slette samling: {label}"
+    }
+  },
+  "name": {
+    "label": "Navn",
+    "requiredError": "Navnet på samlingen er påkrevd"
+  }
+}

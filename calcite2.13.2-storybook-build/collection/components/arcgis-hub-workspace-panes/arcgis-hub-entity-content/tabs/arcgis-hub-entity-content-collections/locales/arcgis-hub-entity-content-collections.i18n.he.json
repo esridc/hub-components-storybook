@@ -1,0 +1,33 @@
+{
+  "title": "אוספים",
+  "actions": {
+    "label": "אפשרויות",
+    "show": "הצג",
+    "hide": "הסתר",
+    "rename": "שנה שם"
+  },
+  "formAlert": "התראת צורה",
+  "alertMessages": {
+    "success": "השינויים נשמרו בהצלחה",
+    "error": "שגיאה בשמירת שינויים"
+  },
+  "collectionRenameModal": {
+    "title": "שנה שם אוסף",
+    "fieldLabel": "תווית אוסף",
+    "requiredMessage": "נדרשת תווית אוסף",
+    "apply": "החל",
+    "maxLengthMessage": "תווית אוסף לא יכולה להיות ארוכה מ-50 תווים"
+  },
+  "collections": {
+    "dataset": "נתונים",
+    "site": "Sites",
+    "document": "מסמכים",
+    "appAndMap": "Apps & Maps"
+  },
+  "saveButton": "שמור",
+  "sections": {
+    "collectionConfiguration": {
+      "title": "הגדרת אוסף"
+    }
+  }
+}

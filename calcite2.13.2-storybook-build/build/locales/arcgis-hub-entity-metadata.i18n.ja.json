@@ -1,0 +1,239 @@
+{
+  "owner": {
+    "description": "所有者"
+  },
+  "updatedDate": {
+    "description": "更新日",
+    "descriptionWithFrequency": "更新日: {updatedDateFormatted}"
+  },
+  "createdDate": {
+    "description": "作成日"
+  },
+  "joinedDate": {
+    "description": "加入日"
+  },
+  "access": {
+    "label": {
+      "public": "パブリック",
+      "org": "組織",
+      "private": "所有者",
+      "shared": "プライベートに共有"
+    },
+    "description": {
+      "public": {
+        "site": "誰でもこのサイトを表示できます",
+        "project": "このプロジェクトは誰でも表示できます",
+        "initiative": "誰でもこのイニシアティブを表示できます",
+        "discussion": "すべてのユーザーがこのディスカッションを表示できます",
+        "default": "誰でもこのコンテンツを表示できます",
+        "event": "誰でもこのイベントを表示できます"
+      },
+      "org": {
+        "site": "組織内のすべてのユーザーがこのサイトを表示できます",
+        "project": "組織内のすべてのユーザーがこのプロジェクトを表示できます",
+        "initiative": "組織内のすべてのユーザーがこのイニシアティブを表示できます",
+        "discussion": "組織内のすべてのユーザーがこのディスカッションを表示できます",
+        "default": "組織内のすべてのユーザーがこのコンテンツを表示できます",
+        "event": "組織内のすべてのユーザーがこのイベントを表示できます"
+      },
+      "private": {
+        "site": "このサイトを表示できるのはあなただけです",
+        "project": "このプロジェクトを表示できるのはあなただけです",
+        "initiative": "このイニシアティブを表示できるのはあなただけです",
+        "discussion": "このディスカッションを表示できるのはあなただけです",
+        "default": "このコンテンツを表示できるのはあなただけです",
+        "event": "このイベントを表示できるのはあなただけです"
+      },
+      "shared": {
+        "site": "選択したグループがこのサイトを表示できます",
+        "project": "選択したグループがこのプロジェクトを表示できます",
+        "initiative": "選択したグループがこのイニシアティブを表示できます",
+        "discussion": "選択したグループがこのディスカッションを表示できます",
+        "default": "選択したグループがこのコンテンツを表示できます",
+        "event": "選択したグループがこのイベントを表示できます"
+      }
+    }
+  },
+  "type": {
+    "fallback": {
+      "content": "コンテンツ",
+      "discussion": "ディスカッション",
+      "event": "イベント",
+      "group": "グループ",
+      "initiative": "イニシアティブ",
+      "org": "組織",
+      "page": "ページ",
+      "project": "プロジェクト",
+      "site": "サイト",
+      "survey": "調査",
+      "initiativeTemplate": "テンプレート",
+      "user": "ユーザー"
+    },
+    "appbuilderExtension": "GIS ツール",
+    "appbuilderWidgetPackage": "GIS ツール",
+    "application": "登録済みアプリ",
+    "arcgisProMap": "GIS ツール",
+    "cadDrawing": "GIS ツール",
+    "cityEngineWebScene": "3D アプリケーション",
+    "codeAttachment": "GIS ツール",
+    "colorSet": "GIS ツール",
+    "content": "コンテンツ",
+    "contentCategorySet": "GIS",
+    "csv": "データセット",
+    "csvCollection": "データ ファイル",
+    "dashboard": "ダッシュボード",
+    "desktopApplication": "GIS ツール",
+    "document": "ドキュメント",
+    "documentLink": "Web リンク",
+    "excaliburImageryProject": "GIS ツール",
+    "explorerMap": "GIS ツール",
+    "exportPackage": "GIS ツール",
+    "featureCollection": "データセット",
+    "featureCollectionTemplate": "GIS ツール",
+    "featureLayer": "データセット",
+    "featureService": "マップ",
+    "fileGeodatabase": "データ ファイル",
+    "form": "サーベイ",
+    "geocodingService": "開発者 API",
+    "geodataService": "開発者 API",
+    "geojson": "コンテンツ",
+    "geometryService": "開発者 API",
+    "geopackage": "データ ファイル",
+    "geoprocessingService": "開発者 API",
+    "globeLayer": "データ ファイル",
+    "globeService": "開発者 API",
+    "hubInitiative": "イニシアティブ",
+    "hubInitiativeTemplate": "テンプレート",
+    "hubPage": "ページ",
+    "hubProject": "プロジェクト",
+    "hubSiteApplication": "サイト",
+    "image": "画像",
+    "imageService": "画像データセット",
+    "insightsModel": "GIS ツール",
+    "insightsPage": "解析",
+    "insightsTheme": "GIS ツール",
+    "insightsWorkbook": "解析ワークブック",
+    "iWorkKeynote": "プレゼンテーション",
+    "iWorkNumbers": "スプレッドシート",
+    "iWorkPages": "ドキュメント",
+    "kml": "データセット",
+    "kmlCollection": "データ ファイル",
+    "layer": "データ ファイル",
+    "layerPackage": "データ ファイル",
+    "locatorPackage": "GIS ツール",
+    "mapArea": "GIS ツール",
+    "mapDocument": "GIS ツール",
+    "mapImageLayer": "マップ",
+    "mapPackage": "データ ファイル",
+    "mapService": "マップ",
+    "microsoftExcel": "スプレッドシート",
+    "microsoftPowerpoint": "プレゼンテーション",
+    "microsoftVizio": "Microsoft Visio",
+    "microsoftWord": "ドキュメント",
+    "mission": "GIS ツール",
+    "mobileApplication": "アプリケーション",
+    "mobileMapPackage": "データ ファイル",
+    "native application template": "開発者ツール",
+    "nativeApplication": "アプリケーション",
+    "nativeApplicationInstaller": "開発者ツール",
+    "networkAnalysisService": "開発者 API",
+    "notebook": "解析",
+    "orientedImageryCatalog": "画像データセット",
+    "orthoMappingProject": "GIS ツール",
+    "orthoMappingTemplate": "GIS ツール",
+    "pdf": "ドキュメント",
+    "quickcaptureProject": "モバイル調査",
+    "rasterLayer": "マップ",
+    "realTimeAnalytic": "開発者 API",
+    "relationalDatabaseConnection": "開発者 API",
+    "reportTemplate": "GIS ツール",
+    "sceneLayer": "3D データセット",
+    "sceneService": "3D データセット",
+    "serviceDefinition": "データ ファイル",
+    "shapefile": "データセット",
+    "solution": "ソリューション",
+    "sqliteGeodatabase": "データ ファイル",
+    "statisticalDataCollection": "データ ファイル",
+    "storymap": "ストーリーマップ",
+    "symbolSet": "データ ファイル",
+    "table": "データセット",
+    "team": "チーム",
+    "urbanModel": "Urban Model",
+    "vectorTileService": "マップ",
+    "visioDocument": "ドキュメント",
+    "webExperience": "アプリケーション",
+    "webMap": "マップ",
+    "webMappingApplication": "アプリケーション",
+    "webScene": "3D マップ",
+    "wfs": "マップ",
+    "wms": "マップ",
+    "wmts": "マップ",
+    "workflowManagerService": "開発者 API",
+    "workforceProject": "Taskflow Manager"
+  },
+  "location": {
+    "description": "位置"
+  },
+  "members": {
+    "noMember": "メンバーがいません",
+    "oneMember": "メンバー: 1",
+    "members": "メンバー: {count}",
+    "description": {
+      "value": "すべてのグループ メンバーを表示"
+    }
+  },
+  "tooltip": {
+    "label": "メタデータ アイテムのツールチップ"
+  },
+  "relevantArea": {
+    "title": "関連エリア"
+  },
+  "license": {
+    "tooltip": "このコンテンツの使い方を定義",
+    "set": {
+      "title": "{license} ライセンス",
+      "customTitle": "カスタム ライセンス",
+      "description": {
+        "value": "ライセンスの詳細の表示"
+      }
+    },
+    "unset": {
+      "title": "ライセンスが指定されていません",
+      "description": {
+        "value": "使用権限をリクエスト"
+      }
+    }
+  },
+  "size": {
+    "description": {
+      "value": "ドキュメントのファイル サイズ"
+    }
+  },
+  "recordCount": {
+    "title": "レコード: {count}",
+    "description": {
+      "value": "データ テーブルの表示"
+    }
+  },
+  "metadataModified": {
+    "description": {
+      "defaultValue": "情報が更新されました",
+      "dynamicValue": "更新された情報: {lastUpdated}"
+    }
+  },
+  "updateFrequency": {
+    "continual": "継続",
+    "daily": "毎日",
+    "weekly": "毎週",
+    "fortnightly": "隔週",
+    "monthly": "毎月",
+    "quarterly": "四半期",
+    "biannually": "年 2 回",
+    "annually": "毎年",
+    "as-needed": "必要に応じて",
+    "irregular": "不規則",
+    "not-planned": "計画なし",
+    "unknown": "不明",
+    "semimonthly": "半月ごと"
+  }
+}

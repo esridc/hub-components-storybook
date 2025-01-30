@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "Rediģēt grupas",
+        "viewGroups": "Skatīt grupas"
+      },
+      "facet": {
+        "label": "No",
+        "myGroups": "Manas grupas",
+        "myOrganization": "Mana organizācija",
+        "myCommunity": "Mana kopiena"
+      }
+    }
+  },
+  "property": {
+    "label": "Parametrs",
+    "requiredError": "Ir nepieciešams parametrs"
+  },
+  "operator": {
+    "label": "Kritēriji",
+    "requiredError": "Ir nepieciešams kritērijs"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "Veids"
+    },
+    "group": {
+      "default": "Grupas"
+    },
+    "occurrence": {
+      "default": "Gadījums"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "Ir jebkurš no",
+      "group": "Ir koplietots ar jebkuru no"
+    },
+    "isAll": {
+      "default": "Ir viss no",
+      "group": "Ir koplietots ar visiem no"
+    },
+    "isExactly": {
+      "default": "Ir tieši",
+      "occurrence": "Ir"
+    },
+    "isNot": {
+      "default": "Nav",
+      "type": "Nav neviens no",
+      "group": "Nav koplietots ar nevienu no"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "Grupas",
+      "requiredError": "Ir nepieciešamas grupas"
+    },
+    "type": {
+      "label": "Veidi",
+      "requiredError": "Ir nepieciešami veidi",
+      "app": {
+        "label": "Lietotnes"
+      },
+      "content": {
+        "label": "Saturs"
+      },
+      "dataset": {
+        "label": "Datu kopas"
+      },
+      "discussion": {
+        "label": "Diskusijas"
+      },
+      "document": {
+        "label": "Dokumenti"
+      },
+      "event": {
+        "label": "Pasākumi"
+      },
+      "feedback": {
+        "label": "Atsauksmes"
+      },
+      "initiative": {
+        "label": "Iniciatīvas"
+      },
+      "map": {
+        "label": "Kartes"
+      },
+      "project": {
+        "label": "Projekti"
+      },
+      "site": {
+        "label": "Vietnes"
+      },
+      "template": {
+        "label": "Veidnes"
+      }
+    },
+    "occurrence": {
+      "label": "Gadījums",
+      "requiredError": "Ir nepieciešama sastopamība",
+      "upcoming": "Gaidāms",
+      "past": "Pagājušais",
+      "inProgress": "Notiek izpilde"
+    }
+  }
+}

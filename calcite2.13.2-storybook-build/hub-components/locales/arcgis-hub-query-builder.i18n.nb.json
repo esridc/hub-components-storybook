@@ -1,0 +1,10 @@
+{
+  "targetEntity": {
+    "label": "Kilde",
+    "enum": {
+      "item": "Elementer",
+      "event": "Arrangementer",
+      "group": "Grupper"
+    }
+  }
+}

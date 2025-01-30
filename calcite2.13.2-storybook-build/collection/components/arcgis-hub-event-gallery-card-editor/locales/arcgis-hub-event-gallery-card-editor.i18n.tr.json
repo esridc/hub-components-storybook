@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "Kategoriler",
+        "noCategoriesNotice": {
+          "body": "Bu kuruluşun henüz herhangi bir kategorisi yok.",
+          "link": "Kategorileri ayarla"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "İçerik",
+      "selectionMode": {
+        "dynamic": {
+          "label": "Dinamik"
+        },
+        "manual": {
+          "label": "Manuel"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "Kuruluş"
+        },
+        "collection": {
+          "sites": "Sites",
+          "projects": "Projeler",
+          "initiatives": "İnisiyatifler"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "Kuruluş"
+        },
+        "collection": {
+          "events": "Etkinlikler"
+        }
+      },
+      "access": {
+        "label": "Paylaşım",
+        "private": {
+          "label": "Özel",
+          "description": "İçeriğe göre filtreleme sadece siz ve grup erişimine sahip olanlar tarafından kullanılabilir."
+        },
+        "org": {
+          "label": "Kuruluş",
+          "description": "İçeriğe göre filtreleme sadece kuruluşunuzun üyeleri tarafından kullanılabilir."
+        },
+        "public": {
+          "label": "Genel",
+          "description": "İçeriğe göre filtreleme herkes tarafından kullanılabilir."
+        }
+      },
+      "tags": {
+        "label": "Etiketler"
+      },
+      "cardsShown": {
+        "label": "Gösterilen Kartlar"
+      }
+    },
+    "appearance": {
+      "label": "Görünüm",
+      "titleHeading": {
+        "label": "Başlık Üst Bilgisi",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "WCAG G141'de iç içe geçmiş üst bilgiler erişebilirliği iyileştirir."
+      },
+      "corners": {
+        "label": "Köşeler",
+        "square": {
+          "label": "Kare"
+        },
+        "round": {
+          "label": "Yuvarlak"
+        }
+      },
+      "shadow": {
+        "label": "Gölge",
+        "none": {
+          "label": "Kapatıldı"
+        },
+        "low": {
+          "label": "Düşük"
+        },
+        "medium": {
+          "label": "Orta"
+        },
+        "heavy": {
+          "label": "Ağır"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "Ek bilgi göster"
+      },
+      "layout": {
+        "label": "Çıktı Düzeni",
+        "list": {
+          "label": "Liste"
+        },
+        "map": {
+          "label": "Harita"
+        },
+        "calendar": {
+          "label": "Takvim"
+        }
+      }
+    },
+    "options": {
+      "label": "Seçenekler",
+      "openIn": {
+        "label": "Şurada aç...",
+        "same": {
+          "label": "Aynı sekme"
+        },
+        "new": {
+          "label": "Yeni sekme"
+        },
+        "notice": {
+          "title": "Erişilebilirlik İpucu:",
+          "body": "WCAG 2.0 G200 tekniğine göre bağlantıların yeni sekmeler veya pencerelerde açılması tavsiye edilmez.",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "WCAG 2.0 G200 hakkında daha fazla bilgi"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "Paylaşım",
+      "public": {
+        "label": "Genel"
+      },
+      "private": {
+        "label": "Özel"
+      },
+      "organization": {
+        "label": "Kuruluş"
+      }
+    },
+    "from": {
+      "label": "Kaynak",
+      "myOrganization": {
+        "label": "Kuruluşum"
+      },
+      "myContent": {
+        "label": "İçeriğim"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "Etkinlikler",
+      "collections": {
+        "event": {
+          "label": "Etkinlikler"
+        }
+      }
+    },
+    "item": {
+      "label": "İçerik",
+      "collections": {
+        "item": {
+          "label": "İçerik"
+        }
+      }
+    }
+  }
+}

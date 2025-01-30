@@ -1,0 +1,43 @@
+{
+  "content": "Sisältö",
+  "myContent": "Oma sisältö",
+  "editableContent": "Muokattava sisältö",
+  "addContentButtonText": "Luo uusi",
+  "type": "Tyyppi",
+  "sharedUpdate": "Jaettu päivitys -ryhmä",
+  "viewOnly": "Vain tarkastelu -ryhmä",
+  "owner": "Omistaja",
+  "updated": "Päivitetty",
+  "tags": "Tunnisteet",
+  "dateCreated": "Luotu",
+  "dateUpdated": "Muokattu",
+  "actionLinks": {
+    "view": "Näytä",
+    "edit": "Muokkaa",
+    "ariaEdit": "Muokkaa kohdetta {title}",
+    "ariaView": "Näytä {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Sisältö",
+      "myContent": "Sisältö, jonka omistan",
+      "editableContent": "Sisältöä, jota voin muokata",
+      "all": "Kaikki sisältö"
+    },
+    "access": {
+      "label": "Kohteesta"
+    },
+    "type": {
+      "label": "Tyypit"
+    },
+    "tags": {
+      "label": "Tunnisteet"
+    },
+    "categories": {
+      "label": "Luokat"
+    },
+    "modified": {
+      "label": "Muokattu"
+    }
+  }
+}

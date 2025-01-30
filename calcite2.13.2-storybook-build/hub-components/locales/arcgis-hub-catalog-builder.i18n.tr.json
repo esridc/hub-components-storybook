@@ -1,0 +1,24 @@
+{
+  "shared": {
+    "targetEntities": {
+      "item": "Ögeler",
+      "event": "Etkinlikler"
+    }
+  },
+  "targetEntityBlock": {
+    "configured": "Yapılandırıldı",
+    "notConfigured": "Yapılandırılmadı"
+  },
+  "targetEntityFlow": {
+    "back": "Yapılandırmayı kapat: {targetEntity}",
+    "description": "Yapılandır: {targetEntity}",
+    "source": {
+      "heading": "Kaynak",
+      "description": "Kaynaklar içeriğin kapsamını tanımlar. Parametreleri dahil ederek veya çıkararak sonuçları değiştirin.<br/><br/>* zorunlu bir alanı belirtir"
+    },
+    "collections": {
+      "heading": "Koleksiyonlar",
+      "description": "Kolay gezinme ve keşif için içeriği ayrı alt kümeler halinde düzenleyin.<br/><br/>* zorunlu bir alanı belirtir"
+    }
+  }
+}

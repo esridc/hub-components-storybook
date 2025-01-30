@@ -1,0 +1,53 @@
+{
+  "settings": "Iestatījumi",
+  "formDisabledTooltip": "Jums nav piekļuves, kas ļautu veikt izmaiņas šajā {type}.",
+  "delete": {
+    "project": "Dzēst šo projektu",
+    "initiative": "Dzēst šo iniciatīvu",
+    "site": "Dzēst šo vietni",
+    "discussion": "Dzēst šo diskusiju",
+    "content": "Dzēst šo saturu",
+    "page": "Dzēst šo lapu",
+    "group": "Dzēst šo grupu",
+    "initiativeTemplate": "Dzēst šo iniciatīvas veidni",
+    "template": "Dzēst šo veidni",
+    "survey": "Dzēst šo anketu",
+    "desc": {
+      "project": "Šī projekta dzēšanu nevar atsaukt.",
+      "initiative": "Šīs iniciatīvas dzēšanu nevar atsaukt.",
+      "site": "Šī vietnes dzēšanu nevar atsaukt.",
+      "discussion": "Šīs diskusijas dzēšanu nevar atsaukt.",
+      "content": "Šī satura dzēšanu nevar atsaukt.",
+      "page": "Šīs lapas dzēšanu nevar atsaukt.",
+      "group": "Šīs grupas dzēšanu nevar atsaukt.",
+      "initiativeTemplate": "Šīs iniciatīvas veidnes dzēšanu nevar atsaukt.",
+      "template": "Šīs veidnes dzēšanu nevar atsaukt.",
+      "survey": "Šī apsekojuma dzēšanu nevar atsaukt."
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "project": "Dzēst projektu",
+      "initiative": "Dzēst iniciatīvu",
+      "site": "Dzēst vietni",
+      "discussion": "Dzēst diskusiju",
+      "content": "Dzēst saturu",
+      "page": "Dzēst lapu",
+      "group": "Dzēst grupu",
+      "initiativeTemplate": "Dzēst iniciatīvas veidni",
+      "template": "Dzēst veidni",
+      "survey": "Dzēst anketu"
+    },
+    "content": "Vai tiešām vēlaties dzēst:",
+    "delete": "Dzēst",
+    "cancel": "Atcelt"
+  },
+  "sidePanel": {
+    "content": {
+      "extractNotice": {
+        "title": "''Izvilkšanas'' spēja maina servisa iestatījumus.",
+        "message": "Tiks ietekmētas citas vienības, kas atsaucas uz servisu. Plašāku informāciju skatiet sadaļā <docLink>Datu eksportēšana no viesotiem elementu slāņiem</docLink>"
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "initiatives": "Sáng kiến",
+  "description": "Liên kết với sáng kiến để đóng góp vào nỗ lực dài hạn hoặc quy mô lớn. Cộng tác viên dự án có thể quản lý liên kết đã xác nhận và yêu cầu liên kết chưa được xử lý. Sáng kiến ​​có liên kết đã xác nhận sẽ xuất hiện trong chế độ xem của dự án này. ",
+  "shared": {
+    "error": {
+      "title": "Đã xảy ra sự cố",
+      "message": "Chúng tôi không thể hoàn thành tác vụ. Vui lòng thử lại."
+    },
+    "facets": {
+      "access": {
+        "label": "Chia sẻ"
+      },
+      "status": {
+        "label": "Trạng thái",
+        "notStarted": "Chưa bắt đầu",
+        "inProgress": "Đang xử lý",
+        "onHold": "Đang bị tạm ngưng",
+        "complete": "Hoàn tất"
+      },
+      "tags": {
+        "label": "Thẻ"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "{currentConfirmedAndOutgoingRequests} / {maxCurrentAndOutgoingRequestsAllowed} đã xác nhận + yêu cầu gửi đi",
+      "tooltip": "Để gửi yêu cầu, hãy ngắt kết nối các liên kết hiện có và/hoặc các yêu cầu gửi đi"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "Tìm sáng kiến",
+    "sendRequest": "Gửi yêu cầu",
+    "success": {
+      "title": "Thành công",
+      "message": "Đã gửi yêu cầu liên kết: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "Kiểm tra liên kết",
+      "message": "Một số lựa chọn đã yêu cầu liên kết. Đã gửi yêu cầu liên kết mới: {count}"
+    },
+    "catalog": {
+      "myContent": "Nội dung của tôi",
+      "favorites": "Yêu thích",
+      "organization": "Tổ chức của tôi",
+      "partners": "Đối tác của tôi",
+      "community": "Cộng đồng của tôi"
+    },
+    "collection": {
+      "initiatives": "Sáng kiến"
+    }
+  },
+  "acceptAssociation": {
+    "label": "Chấp nhận",
+    "limitReachedTooltip": "Để chấp nhận, hãy ngắt kết nối các liên kết hiện có và/hoặc các yêu cầu gửi đi",
+    "success": {
+      "title": "Thành công",
+      "message": "Đã chấp nhận liên kết với {requestor}"
+    }
+  },
+  "cancelRequest": {
+    "label": "Hủy yêu cầu",
+    "success": {
+      "title": "Thành công",
+      "message": "Đã hủy yêu cầu liên kết"
+    }
+  },
+  "breakAssociation": {
+    "label": "Ngắt kết nối",
+    "success": {
+      "title": "Liên kết bị hủy",
+      "message": "Chúng tôi đã ngắt kết nối mục này khỏi liên kết trước đó. Tuy nhiên, chúng tôi không thể đảo ngược quyết định phía bên kia đưa ra, vì vậy bạn vẫn có thể thấy mục này trong yêu cầu đến."
+    }
+  },
+  "associationsGallery": {
+    "sources": "Trạng thái",
+    "catalog": {
+      "associated": "Đã liên kết",
+      "requesting": "Yêu cầu đến",
+      "pending": "Yêu cầu đi"
+    },
+    "collection": {
+      "initiatives": "Sáng kiến"
+    }
+  },
+  "notice": {
+    "label": "Cảnh báo biểu mẫu"
+  }
+}

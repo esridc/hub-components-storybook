@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Nie znaleziono wyników."
+    },
+    "error": {
+      "message": "Wystąpił błąd podczas wyszukiwania."
+    }
+  },
+  "access": "Dostęp",
+  "actionsHeader": "Działania",
+  "caption": "Tabela obiektów Centrum",
+  "family": "Rodzina",
+  "type": "Typ",
+  "tags": "Znaczniki",
+  "owner": "Właściciel",
+  "dateCreated": "Utworzony",
+  "dateUpdated": "Zmodyfikowany",
+  "description": "Opis",
+  "dateAndTime": "Data i godzina",
+  "location": "Lokalizacja",
+  "attendanceType": "Typ obecności",
+  "inPerson": "Osobiście",
+  "online": "Online",
+  "hybrid": "Hybrydowa",
+  "categories": "Kategorie",
+  "content": "Zasoby",
+  "name": "Nazwa",
+  "start": "Początek",
+  "end": "Koniec",
+  "sharedUpdate": "Aktualizacja elementów udostępnionych",
+  "managers": "Menedżerowie",
+  "username": "Nazwa użytkownika",
+  "no": "Nie",
+  "yes": "Tak",
+  "title": "Tytuł",
+  "thumbnail": "Miniatura",
+  "types": {
+    "app": "Aplikacja",
+    "content": "Zasoby",
+    "dataset": "Zestaw danych",
+    "discussion": "Forum dyskusyjne",
+    "document": "Dokument",
+    "event": "Wydarzenie",
+    "feedback": "Opinia",
+    "initiative": "Inicjatywa",
+    "image": "Obraz",
+    "map": "Mapa",
+    "other": "Inne",
+    "people": "Ludność",
+    "site": "Witryna",
+    "team": "Grupa",
+    "template": "Szablon",
+    "project": "Projekt"
+  }
+}

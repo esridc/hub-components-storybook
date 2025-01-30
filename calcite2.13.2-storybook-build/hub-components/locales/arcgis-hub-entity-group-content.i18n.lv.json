@@ -1,0 +1,69 @@
+{
+  "title": "Saturs",
+  "facets": {
+    "type": "Veids",
+    "tags": "Atslēgas vārds",
+    "categories": "Kategorija",
+    "sharing": "Koplietošana",
+    "dateUpdated": "Atjaunināšanas datums",
+    "map": {
+      "label": "Novietojums",
+      "tooltip": "Lietot kartes pārklājumu kā novietojuma filtru"
+    }
+  },
+  "shareContent": {
+    "buttonText": "Pievienot saturu",
+    "disabledTooltip": "Jums nav piekļuves, kas ļautu pievienot saturu šai grupai.",
+    "catalog": {
+      "myContent": "Mans saturs",
+      "favorites": "Izlase",
+      "organization": "Mana organizācija",
+      "world": "Pasaule (publisks)"
+    },
+    "facets": {
+      "type": "Veids",
+      "sharing": "Koplietošana"
+    },
+    "collection": {
+      "appsAndMaps": "Lietotnes un kartes",
+      "dataset": "Dati",
+      "documents": "Dokumenti",
+      "feedback": "Atsauksmes",
+      "sites": "Vietnes",
+      "projects": "Projekti",
+      "projectsAndInitiatives": "Projekti un iniciatīvas"
+    },
+    "modal": {
+      "title": "Pievienot saturu"
+    },
+    "unsharedModal": {
+      "title": "Vienības nav pievienotas",
+      "notice": {
+        "icon": "izsaukuma-zīme-trīsstūris",
+        "type": "briesmas",
+        "title": "Darbība nav pabeigta",
+        "message": "Dažas vienības nevarēja pievienot. Iemesls var būt neatbilstoši koplietošanas līmeņi saturā vai tas, ka vienības īpašnieks nav grupas dalībnieks.",
+        "linkText": "Lasīt vairāk par koplietošanu"
+      }
+    },
+    "itemSharedSuccessAlert": "Vienība(-as) veiksmīgi ielādētas"
+  },
+  "close": "Aizvērt",
+  "newTab": "atveras jaunā cilnē",
+  "unshareContent": {
+    "remove": "Noņemt",
+    "success": "Saturs sekmīgi noņemts no {groupName}.",
+    "unsharedModal": {
+      "title": "Vienības nav noņemtas",
+      "notice": {
+        "icon": "izsaukuma-zīme-trīsstūris",
+        "type": "briesmas",
+        "title": "Darbība nav pabeigta",
+        "message": "Dažas vienības nevarēja noņemt."
+      }
+    }
+  },
+  "notice": {
+    "label": "Veidlapas brīdinājums"
+  }
+}

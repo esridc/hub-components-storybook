@@ -1,0 +1,33 @@
+{
+  "groups": "المجموعات",
+  "addContentButtonText": "إنشاء جديد",
+  "role": "الدور",
+  "owner": "المالك",
+  "updated": "تم التحديث",
+  "type": "النوع",
+  "sharedUpdate": "مجموعة التحديث المشتركة",
+  "viewOnly": "عرض المجموعة فقط",
+  "actionLinks": {
+    "view": "عرض",
+    "edit": "تحرير",
+    "ariaEdit": "تحرير {title}",
+    "ariaView": "عرض {title}"
+  },
+  "facets": {
+    "access": {
+      "label": "قابل للعرض بواسطة",
+      "options": {
+        "public": "كل شخص (عام)",
+        "org": "المؤسسة",
+        "private": "أنا"
+      }
+    },
+    "type": {
+      "label": "أنواع",
+      "options": {
+        "sharedUpdate": "التحديث المشترك",
+        "opendata": "Open Data"
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "moreResults": "Flere resultater",
+  "search": "Søg",
+  "filter": "Filtre",
+  "viewResults": "Vis resultater ({numResults})",
+  "resultsCount": "1 - {pageTotal} af {searchTotal}",
+  "backToTop": "Tilbage til toppen",
+  "facets": {
+    "access": {
+      "label": "Deling",
+      "private": "Mig",
+      "shared": "Ejer og grupper",
+      "org": "Organisation",
+      "public": "Offentlig"
+    },
+    "license": {
+      "label": "Licens",
+      "tooltip": "Kun offentligt indhold",
+      "custom": "Brugerdefineret",
+      "none": "Ingen"
+    },
+    "type": {
+      "label": "Type"
+    },
+    "tags": {
+      "label": "Nøgleord"
+    },
+    "dateUpdated": {
+      "label": "Dato for opdatering"
+    },
+    "source": {
+      "label": "Kilde",
+      "tooltip": "Offentligt indhold fra forskellige organisationer"
+    },
+    "categories": {
+      "label": "Kategorier"
+    },
+    "location": {
+      "label": "Position",
+      "tooltip": "Anvend kortudstrækningen som et positionsfilter"
+    },
+    "event": {
+      "from": {
+        "label": "Ejerskab",
+        "myContent": "Mig",
+        "myOrganization": "Min organisation",
+        "world": "Alle"
+      },
+      "access": {
+        "label": "Adgang",
+        "private": "Privat",
+        "org": "Organisation",
+        "public": "Offentlig"
+      },
+      "startDate": {
+        "label": "Begivenhedsdato"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "Type",
+        "all": "Alle",
+        "view": "Vis",
+        "edit": "Rediger"
+      },
+      "role": {
+        "label": "Rolle",
+        "all": "Alle",
+        "member": "Medlem",
+        "manager": "Administrator",
+        "owner": "Ejer"
+      },
+      "sharing": {
+        "label": "Synlighed",
+        "private": "Privat",
+        "public": "Offentlig"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "Vis liste",
+    "grid": "Vis gitter",
+    "map": "Vis kort",
+    "compact": "Vis kompakt",
+    "calendar": "Vis kalender",
+    "table": "Vis tabel"
+  },
+  "galleryActionsLabel": "Yderligere handlinger",
+  "selected": "Valgt: {count}",
+  "popoverActionButtonLabel": "flere handlinger"
+}

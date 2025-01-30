@@ -1,0 +1,20 @@
+{
+  "dashboard": "Dashbord",
+  "activityLogSection": {
+    "title": "Aktivitetslogg",
+    "table": {
+      "downloadAction": "Last ned",
+      "downloadAllAction": "Last ned alle",
+      "downloadActionTooltip": "Laster ned de valgte aktivitetene",
+      "caption": "Siste feil, tabell",
+      "columnHeaders": {
+        "datetime": "Dato",
+        "layer": "Lag",
+        "message": "Melding"
+      },
+      "noRecentErrors": "Ingen nylige feil",
+      "expandText": "Vis mer",
+      "collapseText": "Vis mindre"
+    }
+  }
+}

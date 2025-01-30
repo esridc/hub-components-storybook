@@ -1,0 +1,38 @@
+:host {
+  display: block;
+}
+
+.metadata-list-header {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.entity-metadata-list {
+  list-style: none;
+  padding: 0;
+}
+
+.metadata-item {
+  margin-top: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.metadata-item-text-column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.metadata-item-title {
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 600;
+}
+
+.metadata-item-description {
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 400;
+}

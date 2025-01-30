@@ -1,0 +1,1 @@
+var L;!function(L){L[L.EXTRA_SMALL=576]="EXTRA_SMALL",L[L.SMALL=768]="SMALL",L[L.MEDIUM=992]="MEDIUM",L[L.LARGE=1200]="LARGE"}(L||(L={}));export{L as S}

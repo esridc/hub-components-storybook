@@ -1,0 +1,20 @@
+{
+  "dashboard": "Tableau de bord",
+  "activityLogSection": {
+    "title": "Journal d’activité",
+    "table": {
+      "downloadAction": "Télécharger",
+      "downloadAllAction": "Télécharger tout",
+      "downloadActionTooltip": "Télécharger les activités sélectionnées",
+      "caption": "Tableau des erreurs récentes",
+      "columnHeaders": {
+        "datetime": "Date",
+        "layer": "Couche",
+        "message": "Message"
+      },
+      "noRecentErrors": "Aucune erreur récente",
+      "expandText": "Afficher plus",
+      "collapseText": "Afficher moins"
+    }
+  }
+}

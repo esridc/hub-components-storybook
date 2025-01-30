@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "Meu conteúdo",
+    "livingAtlas": "Living Atlas",
+    "organization": "Minha organização",
+    "world": "Mundo (Público)"
+  },
+  "collection": {
+    "appsAndMaps": "Aplicativos e Mapas",
+    "feedback": "Comentário"
+  },
+  "facets": {
+    "type": "Tipo",
+    "tags": "Tags",
+    "categories": "Categorias",
+    "modified": "Modificado"
+  },
+  "pickerTitle": "Selecione o conteúdo",
+  "height": "Altura (px)",
+  "isScrollable": "Rolável",
+  "errors": {
+    "heightMinimum": "O valor deve ser um número positivo.",
+    "heightMaximum": "O valor deve ser menor ou igual a 2000px.",
+    "urlError": "Deve ser uma URL válida."
+  },
+  "success": {
+    "urlSuccess": "URL carregada com sucesso."
+  },
+  "shouldApplyBreakpoints": {
+    "label": "Aplicar configurações por pontos de interrupção do dispositivo"
+  },
+  "viewportAll": {
+    "label": "Padrão",
+    "description": "Configurações aplicadas a todos os tamanhos de tela"
+  },
+  "viewportMobile": {
+    "label": "Mobile",
+    "description": "Configurações aplicadas a telas com 360px de largura ou mais"
+  },
+  "viewportTablet": {
+    "label": "Tablet",
+    "description": "Configurações aplicadas a telas com 560px de largura ou mais"
+  },
+  "viewportDesktop": {
+    "label": "Desktop",
+    "description": "Configurações aplicadas a telas com 980px de largura ou mais"
+  },
+  "sourceLabel": "Selecionar tipo embutido",
+  "contentLabel": "Conteúdo do ArcGIS",
+  "externalLabel": "URL Externa",
+  "contentDescription": "Selecione entre mapas, cenas, aplicativos, pesquisas e links de documentos existentes disponíveis para você.",
+  "externalDescription": "Insira uma URL a ser incorporada. Note que alguns domínios não permitem incorporação e podem não ser exibidos como esperado."
+}

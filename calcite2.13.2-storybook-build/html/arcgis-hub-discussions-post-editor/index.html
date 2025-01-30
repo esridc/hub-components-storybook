@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Hub Components: Discussions Post Editor</title>
+
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      calcite-notice {
+        margin-top: 4rem;
+      }
+
+      .editors {
+        background-color: gray;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 0.5rem;
+        row-gap: 0.5rem;
+        padding: 0.5rem;
+        height: calc(100vh - 1rem);
+        margin-top: 4rem;
+      }
+
+      .editor {
+        background-color: #fff;
+        position: relative;
+        height: calc(100% - 1rem);
+        overflow: auto;
+        padding: 0.5rem;
+      }
+
+      .editor h5 {
+        font-size: 16px;
+        margin: 0;
+        padding: 5px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 401;
+        background-color: #eee;
+        border: solid 1px #666;
+        border-radius: 0 0 0 5px;
+        opacity: 0.5;
+      }
+    </style>
+    <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+        }
+      }
+    </script>
+    <script type="module" src="../../build/hub-components.esm.js"></script>
+    <script nomodule src="../../build/hub-components.js"></script>
+    <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+    <link rel="stylesheet" href="../calcite-web.min.css" />
+  </head>
+  <body>
+    <script src="https://unpkg.com/@esri/arcgis-rest-request@3.4.3/dist/umd/request.umd.min.js"></script>
+    <script src="https://unpkg.com/@esri/arcgis-rest-auth@3.4.3/dist/umd/auth.umd.min.js"></script>
+    <arcgis-app-identity client-id="EF9uxuFlOrgf7WpI" redirect-uri="http://localhost:3333/html/redirect.html" portal="https://qaext.arcgis.com"> </arcgis-app-identity>
+    <harness-header page-title="Discussion Post Editor"></harness-header>
+    <calcite-notice open kind="info" scale="s" width="full" icon>
+      <div slot="message">This component requires authentication to render. Please auth as juliana_pa on QA.</div>
+    </calcite-notice>
+    <script>
+      function createEditors() {
+        const editorCfgs = [
+          {
+            title: 'Create Parent Post: discussion',
+            discussion: 'hub://content/1c36f0f21ba34a7aa1f5d48f7313cf6b',
+          },
+          {
+            title: 'Create Parent Post: discussion, channelId',
+            discussion: 'hub://content/1c36f0f21ba34a7aa1f5d48f7313cf6b',
+            channelId: '6cee5a84d3f74f94a1928fce7e2dd8ff',
+          },
+          {
+            title: 'Create Parent Post: discussion, channelGroupIds, channelAccess',
+            discussion: 'hub://content/1c36f0f21ba34a7aa1f5d48f7313cf6b',
+            channelGroupIds: ['6cee5a84d3f74f94a1928fce7e2dd8ff'],
+            channelAccess: 'private',
+          },
+          {
+            title: 'Edit Parent Post: postId',
+            postId: '2eea207882bf47b1968db06493e44563',
+          },
+          {
+            title: 'Create Reply: parentId',
+            parentId: '2eea207882bf47b1968db06493e44563',
+          },
+          {
+            title: 'Edit Reply: postId',
+            postId: '565c26609cb04baba22d9f76948a5156',
+          },
+        ];
+        let container = document.querySelector('.editors');
+        if (!container) {
+          container = document.createElement('div');
+          container.className = 'editors';
+          editorCfgs.forEach(({ discussion, title, postId, parentId, channelId, channelAccess, channelGroupIds }) => {
+            const discussionDiv = document.createElement('div');
+            discussionDiv.className = 'editor';
+            const header = document.createElement('h5');
+            header.innerText = title;
+            const arcgisDiscussion = document.createElement('arcgis-hub-discussions-post-editor');
+            Object.assign(arcgisDiscussion, {
+              discussion,
+              postId,
+              parentId,
+              channelId,
+              channelAccess,
+              channelGroupIds,
+              isHub: false,
+            });
+            discussionDiv.appendChild(header);
+            discussionDiv.appendChild(arcgisDiscussion);
+            container.appendChild(discussionDiv);
+          });
+          document.body.appendChild(container);
+          document.body.addEventListener('hubTelemetry', function (evt) {
+            console.log('hubTelemetry:', evt.detail);
+          });
+        }
+      }
+
+      createEditors();
+    </script>
+  </body>
+</html>

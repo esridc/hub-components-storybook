@@ -1,0 +1,87 @@
+{
+  "initiatives": "Initiativer",
+  "description": "Tilknyt til initiativer for at bidrage til langsigtede målsætninger eller målsætninger i stor målestok. Projektsamarbejdspartnere kan administrere bekræftede tilknytninger og udestående tilknytningsanmodninger. Initiativer med bekræftede tilknytninger vises i dette projekts visning. ",
+  "shared": {
+    "error": {
+      "title": "Der gik noget galt",
+      "message": "Vi kunne ikke afslutte opgaven. Prøv igen."
+    },
+    "facets": {
+      "access": {
+        "label": "Deling"
+      },
+      "status": {
+        "label": "Status",
+        "notStarted": "Ikke startet",
+        "inProgress": "I gang",
+        "onHold": "På pause",
+        "complete": "Afsluttet"
+      },
+      "tags": {
+        "label": "Nøgleord"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "{currentConfirmedAndOutgoingRequests}/{maxCurrentAndOutgoingRequestsAllowed} bekræftet + udgående anmodninger",
+      "tooltip": "Hvis du vil sende anmodninger, skal du afbryde eksisterende tilknytninger og/eller udgående anmodninger"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "Find initiativer",
+    "sendRequest": "Send anmodning",
+    "success": {
+      "title": "Gennemført",
+      "message": "Tilknytningsanmodninger sendt: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "Kontrollér tilknytninger",
+      "message": "Visse valg har allerede anmodet om tilknytning. Nye tilknytningsanmodninger sendt: {count}"
+    },
+    "catalog": {
+      "myContent": "Mit indhold",
+      "favorites": "Favoritter",
+      "organization": "Min organisation",
+      "partners": "Mine partnere",
+      "community": "Mit fællesskab"
+    },
+    "collection": {
+      "initiatives": "Initiativer"
+    }
+  },
+  "acceptAssociation": {
+    "label": "Accepter",
+    "limitReachedTooltip": "Hvis du vil acceptere, skal du afbryde eksisterende tilknytninger og/eller udgående anmodninger",
+    "success": {
+      "title": "Gennemført",
+      "message": "Tilknytning til {requestor} accepteret"
+    }
+  },
+  "cancelRequest": {
+    "label": "Annuller anmodning",
+    "success": {
+      "title": "Gennemført",
+      "message": "Anmodning om tilknytning er blevet annulleret"
+    }
+  },
+  "breakAssociation": {
+    "label": "Frakobl",
+    "success": {
+      "title": "Tilknytning frakoblet",
+      "message": "Vi har frakoblet forbindelsen mellem dette element og dets tidligere tilknytning. Vi kan dog ikke omgøre beslutningen fra den anden side, så du kan stadig se det i indgående anmodninger."
+    }
+  },
+  "associationsGallery": {
+    "sources": "Tilstand",
+    "catalog": {
+      "associated": "Tilknyttet",
+      "requesting": "Indgående anmodninger",
+      "pending": "Udgående anmodninger"
+    },
+    "collection": {
+      "initiatives": "Initiativer"
+    }
+  },
+  "notice": {
+    "label": "Formularadvarsel"
+  }
+}

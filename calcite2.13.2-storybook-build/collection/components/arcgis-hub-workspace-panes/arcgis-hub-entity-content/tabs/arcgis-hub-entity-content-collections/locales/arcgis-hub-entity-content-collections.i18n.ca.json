@@ -1,0 +1,33 @@
+{
+  "title": "Col·leccions",
+  "actions": {
+    "label": "Opcions",
+    "show": "Mostra",
+    "hide": "Amaga",
+    "rename": "Canvia el nom"
+  },
+  "formAlert": "Alerta del formulari",
+  "alertMessages": {
+    "success": "Els canvis s'han desat correctament",
+    "error": "S'ha produït un error en desar els canvis"
+  },
+  "collectionRenameModal": {
+    "title": "Canvia el nom de la col·lecció",
+    "fieldLabel": "Etiqueta de la col·lecció",
+    "requiredMessage": "Cal una etiqueta de la col·lecció",
+    "apply": "Aplica",
+    "maxLengthMessage": "L'etiqueta de la col·lecció no pot tenir més de 50 caràcters"
+  },
+  "collections": {
+    "dataset": "Dades",
+    "site": "Llocs",
+    "document": "Documents",
+    "appAndMap": "Aplicacions i mapes"
+  },
+  "saveButton": "Desa",
+  "sections": {
+    "collectionConfiguration": {
+      "title": "Configuració de la col·lecció"
+    }
+  }
+}

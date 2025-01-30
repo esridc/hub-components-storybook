@@ -1,0 +1,33 @@
+{
+  "groups": "Mis grupos",
+  "addContentButtonText": "Crear nuevo",
+  "role": "Rol",
+  "owner": "Propietario",
+  "updated": "Actualizada",
+  "type": "Tipo",
+  "sharedUpdate": "Grupo de actualización compartido",
+  "viewOnly": "Ver solo grupo",
+  "actionLinks": {
+    "view": "Ver",
+    "edit": "Editar",
+    "ariaEdit": "Editar {title}",
+    "ariaView": "Ver {title}"
+  },
+  "facets": {
+    "access": {
+      "label": "Visible para",
+      "options": {
+        "public": "Todos (público)",
+        "org": "Organización",
+        "private": "Yo"
+      }
+    },
+    "type": {
+      "label": "Tipos",
+      "options": {
+        "sharedUpdate": "Actualización compartida",
+        "opendata": "Open Data"
+      }
+    }
+  }
+}

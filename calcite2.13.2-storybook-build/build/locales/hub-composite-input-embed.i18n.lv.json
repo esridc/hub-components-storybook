@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "Mans saturs",
+    "livingAtlas": "Living Atlas",
+    "organization": "Mana organizācija",
+    "world": "Pasaule (publisks)"
+  },
+  "collection": {
+    "appsAndMaps": "Lietotnes un kartes",
+    "feedback": "Atsauksmes"
+  },
+  "facets": {
+    "type": "Veids",
+    "tags": "Atslēgvārdi",
+    "categories": "Kategorijas",
+    "modified": "Mainīts"
+  },
+  "pickerTitle": "Izvēlēties saturu",
+  "height": "Augstums (px)",
+  "isScrollable": "Ritināms",
+  "errors": {
+    "heightMinimum": "Vērtībai ir jābūt pozitīvam skaitlim.",
+    "heightMaximum": "Vērtībai jābūt mazākai vai vienādai ar 2000 px.",
+    "urlError": "Ir jābūt derīgam vietrādim URL."
+  },
+  "success": {
+    "urlSuccess": "Vietrādis URL veiksmīgi ielādēts."
+  },
+  "shouldApplyBreakpoints": {
+    "label": "Tā vietā piemērot iestatījumus pēc ierīces robežpunktiem"
+  },
+  "viewportAll": {
+    "label": "Noklusējums",
+    "description": "Iestatījumi piemēroti visiem ekrānu izmēriem"
+  },
+  "viewportMobile": {
+    "label": "Mobilā lietotne",
+    "description": "Iestatījumi piemēroti ekrāniem, kuri ir 360 px plati un vairāk"
+  },
+  "viewportTablet": {
+    "label": "Planšetdators",
+    "description": "Iestatījumi piemēroti ekrāniem, kuri ir 560 px plati un vairāk"
+  },
+  "viewportDesktop": {
+    "label": "Darbvirsma",
+    "description": "Iestatījumi piemēroti ekrāniem, kuri ir 980 px plati un vairāk"
+  },
+  "sourceLabel": "Izvēlēties iegulšanas veidu",
+  "contentLabel": "ArcGIS saturs",
+  "externalLabel": "Ārējs vietrādis URL",
+  "contentDescription": "Izvēlieties no jums pieejamajām kartēm, scēnām, lietojumprogrammām, apsekojumiem un dokumentu saitēm.",
+  "externalDescription": "Ievadīt iegulstamo vietrādi URL Lūdzu, ņemiet vērā, ka daži domēni nepieļauj iegulšanu un var netikt attēloti tā, kā sagaidīts."
+}

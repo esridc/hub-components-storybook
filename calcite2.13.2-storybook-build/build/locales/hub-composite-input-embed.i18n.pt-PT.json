@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "O meu conteúdo",
+    "livingAtlas": "Living Atlas",
+    "organization": "A minha organização",
+    "world": "Mundo (Público)"
+  },
+  "collection": {
+    "appsAndMaps": "Aplicações e mapas",
+    "feedback": "Feedback"
+  },
+  "facets": {
+    "type": "Tipo",
+    "tags": "Palavras-chave",
+    "categories": "Categorias",
+    "modified": "Modificado"
+  },
+  "pickerTitle": "Selecionar conteúdo",
+  "height": "Altura (px)",
+  "isScrollable": "Deslocável",
+  "errors": {
+    "heightMinimum": "O valor tem de ser um número positivo.",
+    "heightMaximum": "O valor tem de ser menor ou igual a 2000 px.",
+    "urlError": "Tem de ser um URL válido."
+  },
+  "success": {
+    "urlSuccess": "URL carregado com sucesso."
+  },
+  "shouldApplyBreakpoints": {
+    "label": "Aplicar definições por pontos de interrupção do dispositivo"
+  },
+  "viewportAll": {
+    "label": "Predefinição",
+    "description": "Definições aplicadas a todos os tamanhos de ecrã"
+  },
+  "viewportMobile": {
+    "label": "Móvel",
+    "description": "Definições aplicadas a ecrãs com 360 px de largura e superiores"
+  },
+  "viewportTablet": {
+    "label": "Tablet",
+    "description": "Definições aplicadas a ecrãs com 560 px de largura e superiores"
+  },
+  "viewportDesktop": {
+    "label": "Desktop",
+    "description": "Definições aplicadas a ecrãs com 980 px de largura e superiores"
+  },
+  "sourceLabel": "Selecionar tipo de incorporação",
+  "contentLabel": "Conteúdo ArcGIS",
+  "externalLabel": "URL externo",
+  "contentDescription": "Selecione a partir de mapas, cenas, aplicações, inquéritos e ligações de documentos existentes à sua disposição.",
+  "externalDescription": "Introduza um URL a ser incorporado. Tenha em atenção que alguns domínios não permitem a incorporação e podem não ser apresentados como esperado."
+}

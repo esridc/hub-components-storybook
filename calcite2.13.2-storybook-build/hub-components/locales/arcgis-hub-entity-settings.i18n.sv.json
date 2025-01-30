@@ -1,0 +1,53 @@
+{
+  "settings": "Inställningar",
+  "formDisabledTooltip": "Du är inte behörig att göra ändringar av denna {type}.",
+  "delete": {
+    "project": "Ta bort det här projektet",
+    "initiative": "Ta bort det här initiativet",
+    "site": "Ta bort den här webbplatsen",
+    "discussion": "Ta bort den här diskussionen",
+    "content": "Ta bort det här innehållet",
+    "page": "Ta bort den här sidan",
+    "group": "Ta bort den här gruppen",
+    "initiativeTemplate": "Ta bort den här initiativmallen",
+    "template": "Ta bort den här mallen",
+    "survey": "Ta bort undersökningen",
+    "desc": {
+      "project": "Borttagning av det här projektet kan inte ångras.",
+      "initiative": "Borttagning av det här initiativet kan inte ångras.",
+      "site": "Borttagning av den här webbplatsen kan inte ångras.",
+      "discussion": "Borttagning av den här diskussionen kan inte ångras.",
+      "content": "Borttagning av det här innehållet kan inte ångras.",
+      "page": "Borttagning av den här sidan kan inte ångras.",
+      "group": "Borttagning av den här gruppen kan inte ångras.",
+      "initiativeTemplate": "Borttagning av den här initiativmallen kan inte ångras.",
+      "template": "Borttagning av den här mallen kan inte ångras.",
+      "survey": "Borttagning av den här undersökningen kan inte ångras."
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "project": "Radera projekt",
+      "initiative": "Ta bort initiativ",
+      "site": "Ta bort webbplats",
+      "discussion": "Ta bort diskussion",
+      "content": "Ta bort innehåll",
+      "page": "Ta bort sidan",
+      "group": "Ta bort grupp",
+      "initiativeTemplate": "Ta bort initiativmall",
+      "template": "Ta bort mall",
+      "survey": "Ta bort undersökning"
+    },
+    "content": "Vill du ta bort:",
+    "delete": "Ta bort",
+    "cancel": "Avbryt"
+  },
+  "sidePanel": {
+    "content": {
+      "extractNotice": {
+        "title": "Funktionen \"Extrahera\" ändrar serviceinställningarna.",
+        "message": "Andra objekt som refererar tjänsten påverkas. För mer information, se <docLink>Exportera data från driftat geoobjektlager</docLink>"
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "new": "Neu",
+  "project": {
+    "label": "Projekt",
+    "description": "Arbeitsaufträge mit klaren Zielvorgaben und festem Zeitrahmen präsentieren",
+    "createLabel": "Projekt erstellen",
+    "newLabel": "Neues Projekt"
+  },
+  "initiative": {
+    "label": "Initiative",
+    "description": "Initiativen ermöglichen das Organisieren und Zusammenfassen von Fortschritten in Hinblick auf ein Ziel",
+    "createLabel": "Initiative erstellen",
+    "newLabel": "Neue Initiative"
+  },
+  "discussion": {
+    "label": "Diskussionsrunde",
+    "description": "Erstellen Sie eine neue Diskussionsrunde, indem Sie einen Titel eingeben, der das Thema angibt.",
+    "createLabel": "Diskussionsrunde erstellen",
+    "newLabel": "Neue Diskussionsrunde"
+  },
+  "site": {
+    "label": "Site",
+    "description": "Eine Website erstellen, um Informationen zu organisieren und freizugeben",
+    "createLabel": "Site erstellen",
+    "newLabel": "Neue Site"
+  },
+  "event": {
+    "label": "Event",
+    "description": "Eine Präsenz- oder Onlineveranstaltung ausrichten",
+    "createLabel": "Event erstellen",
+    "newLabel": "Neues Event"
+  },
+  "content": {
+    "label": "Inhalt",
+    "description": "Daten, Dokumente, Bilder und externe Links zur Site hinzufügen",
+    "createLabel": "Inhalt erstellen",
+    "newLabel": "Neuer Inhalt"
+  },
+  "feedback": {
+    "label": "Feedback",
+    "description": "Informationen mit Werkzeugen wie Surveys und Umfragen zielgerichtet erfassen",
+    "createLabel": "Feedback erstellen",
+    "newLabel": "Neues Feedback"
+  },
+  "app": {
+    "label": "App",
+    "description": "Eine Experience erstellen, Informationen vermitteln oder Daten visualisieren",
+    "createLabel": "App erstellen",
+    "newLabel": "Neue App"
+  },
+  "group": {
+    "label": "Gruppe",
+    "description": "Eine Gruppe einrichten, um basierend auf themenspezifischen Inhalten zusammenzuarbeiten",
+    "createLabel": "Gruppe erstellen",
+    "newLabel": "Neue Gruppe"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "new": "Uus",
+  "project": {
+    "label": "Projekt",
+    "description": "Saate esile tõsta tööd, millel on selged eesmärgid ja ajakavad",
+    "createLabel": "Loo projekt",
+    "newLabel": "Uus projekt"
+  },
+  "initiative": {
+    "label": "Algatus",
+    "description": "Algatused korraldavad ja võtavad kokku eesmärgi suunas tehtud edusammud",
+    "createLabel": "Loo algatus",
+    "newLabel": "Uus algatus"
+  },
+  "discussion": {
+    "label": "Arutelutahvel",
+    "description": "Uue arutelutahvli loomiseks sisestage teemat tutvustav pealkiri.",
+    "createLabel": "Loo arutelutahvel",
+    "newLabel": "Uus arutelutahvel"
+  },
+  "site": {
+    "label": "Sait",
+    "description": "Saate teabe korraldamiseks ja jagamiseks luua veebilehe",
+    "createLabel": "Loo sait",
+    "newLabel": "Uus sait"
+  },
+  "event": {
+    "label": "Sündmus",
+    "description": "Saate läbi viia korraldatud tegevusi, kas isiklikult või virtuaalselt",
+    "createLabel": "Loo sündmus",
+    "newLabel": "Uus sündmus"
+  },
+  "content": {
+    "label": "Sisu",
+    "description": "Saate oma saidile lisada andmeid, dokumente, pilte ja väliseid linke",
+    "createLabel": "Loo sisu",
+    "newLabel": "Uus sisu"
+  },
+  "feedback": {
+    "label": "Tagasiside",
+    "description": "Saate tööriistade abil, nagu uuringud ja küsitlused, koguda keskendatud teavet",
+    "createLabel": "Loo tagasiside",
+    "newLabel": "Uus tagasiside"
+  },
+  "app": {
+    "label": "Rakendus",
+    "description": "Saate koostada lahenduse, jutustada lugu või visualiseerida oma andmeid",
+    "createLabel": "Loo rakendus",
+    "newLabel": "Uus rakendus"
+  },
+  "group": {
+    "label": "Grupp",
+    "description": "Saate panna kokku grupi, et teha keskendatud sisu kallal koostööd",
+    "createLabel": "Loo grupp",
+    "newLabel": "Uus grupp"
+  }
+}

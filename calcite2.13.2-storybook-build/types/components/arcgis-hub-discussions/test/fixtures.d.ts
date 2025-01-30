@@ -1,0 +1,16 @@
+import { IPost, IChannel } from '@esri/hub-discussions';
+import { IGroup, IUser, IPortal } from '@esri/arcgis-rest-portal';
+import { IActiveMapDiscussionDetails } from '../utils/discussions';
+import { Geometry, Feature } from 'geojson';
+import { IArcGISContext } from '@esri/hub-common';
+export declare const GROUP: IGroup;
+export declare const USER: IUser;
+export declare const CHANNEL: IChannel;
+export declare const POST: IPost;
+export declare const REPLY: IPost;
+export declare const CONTEXT: IArcGISContext;
+export declare const GEOMETRY: Geometry;
+export declare const FEATURE: Feature;
+export declare const ACTIVE_MAP_DISCUSSION: IActiveMapDiscussionDetails;
+export declare const LOCATION_ID = "012345";
+export declare const ORGANIZATION: IPortal;

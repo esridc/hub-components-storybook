@@ -1,0 +1,91 @@
+{
+  "moreResults": "Más resultados",
+  "search": "Buscar",
+  "filter": "Filtros",
+  "viewResults": "Ver los resultados ({numResults})",
+  "resultsCount": "1 - {pageTotal} de {searchTotal}",
+  "backToTop": "Volver al principio",
+  "facets": {
+    "access": {
+      "label": "Uso compartido",
+      "private": "Yo",
+      "shared": "Propietario y grupos",
+      "org": "Organización",
+      "public": "Público"
+    },
+    "license": {
+      "label": "Licencia",
+      "tooltip": "Solamente en contenido público",
+      "custom": "Personalizado",
+      "none": "Ninguno"
+    },
+    "type": {
+      "label": "Tipo"
+    },
+    "tags": {
+      "label": "Etiquetas"
+    },
+    "dateUpdated": {
+      "label": "Fecha de actualización"
+    },
+    "source": {
+      "label": "Fuente",
+      "tooltip": "Contenido público de diferentes organizaciones"
+    },
+    "categories": {
+      "label": "Categorías"
+    },
+    "location": {
+      "label": "Ubicación",
+      "tooltip": "Aplicar la extensión del mapa como filtro de ubicación"
+    },
+    "event": {
+      "from": {
+        "label": "Propiedad",
+        "myContent": "Yo",
+        "myOrganization": "Mi organización",
+        "world": "Cualquiera"
+      },
+      "access": {
+        "label": "Acceso",
+        "private": "Privado",
+        "org": "Organización",
+        "public": "Público"
+      },
+      "startDate": {
+        "label": "Fecha de evento"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "Tipo",
+        "all": "Todo",
+        "view": "Ver",
+        "edit": "Editar"
+      },
+      "role": {
+        "label": "Rol",
+        "all": "Todo",
+        "member": "Miembro",
+        "manager": "Administrador",
+        "owner": "Propietario"
+      },
+      "sharing": {
+        "label": "Visibilidad",
+        "private": "Privado",
+        "public": "Público"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "Mostrar lista",
+    "grid": "Visualizar cuadrícula",
+    "map": "Mostrar mapa",
+    "compact": "Visualización compacta",
+    "calendar": "Mostrar calendario",
+    "table": "Mostrar tabla"
+  },
+  "galleryActionsLabel": "Acciones adicionales",
+  "selected": "Seleccionados: {count}",
+  "popoverActionButtonLabel": "más acciones"
+}

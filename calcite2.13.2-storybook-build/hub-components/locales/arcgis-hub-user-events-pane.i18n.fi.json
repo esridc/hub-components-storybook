@@ -1,0 +1,29 @@
+{
+  "header": "Tapahtumat",
+  "myContent": "Omat tapahtumat",
+  "editableContent": "Muokattava sisältö",
+  "addEventButtonText": "Luo tapahtuma",
+  "type": "Tyyppi",
+  "sharedUpdate": "Jaettu päivitys -ryhmä",
+  "viewOnly": "Vain tarkastelu -ryhmä",
+  "owner": "Tekijä",
+  "starts": "Käytössä",
+  "from": "Kohteesta",
+  "until": "Kohteeseen",
+  "updated": "Päivitetty",
+  "tags": "Tunnisteet",
+  "dateCreated": "Luotu",
+  "dateUpdated": "Muokattu",
+  "actionLinks": {
+    "view": "Näytä",
+    "edit": "Muokkaa",
+    "ariaEdit": "Muokkaa: {title}",
+    "ariaView": "Näytä: {title}"
+  },
+  "access": {
+    "label": "Käyttö",
+    "PRIVATE": "Yksityinen",
+    "ORG": "Organisaatio",
+    "PUBLIC": "Julkinen"
+  }
+}

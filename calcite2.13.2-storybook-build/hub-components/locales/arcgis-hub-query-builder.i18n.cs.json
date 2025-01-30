@@ -1,0 +1,10 @@
+{
+  "targetEntity": {
+    "label": "Zdroj",
+    "enum": {
+      "item": "Položky",
+      "event": "Události",
+      "group": "Skupiny"
+    }
+  }
+}

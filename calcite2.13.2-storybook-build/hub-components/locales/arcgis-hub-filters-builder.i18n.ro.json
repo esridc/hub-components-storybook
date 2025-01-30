@@ -1,0 +1,15 @@
+{
+  "newFilter": "Filtru nou",
+  "block": {
+    "heading": {
+      "untitled": "Filtru nou",
+      "default": "Filtru {filterNum}: {parameter}",
+      "group": "Filtrare {filterNum}: grupuri",
+      "type": "Filtrare {filterNum}: tipuri",
+      "occurrence": "Filtrare {filterNum}: apariție"
+    },
+    "actions": {
+      "delete": "Ștergere filtru: {label}"
+    }
+  }
+}

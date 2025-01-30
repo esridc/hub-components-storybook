@@ -1,0 +1,35 @@
+{
+  "overview": "Prezentare generală",
+  "resources": "Resurse Hub",
+  "cards": {
+    "items": "Număr de elemente",
+    "groups": "Număr de grupuri"
+  },
+  "hubContent": {
+    "heading": "Elemente Hub modificate recent",
+    "link": "Vizualizare întreg conținutul"
+  },
+  "content": {
+    "heading": "Conținut modificat recent",
+    "stat": "Număr de elemente",
+    "link": "Vizualizare întreg conținutul"
+  },
+  "groups": {
+    "heading": "Grupuri modificate recent",
+    "stat": "Număr de grupuri",
+    "link": "Vizualizare toate grupurile"
+  },
+  "contentCount": "Conținut",
+  "addContent": "Creați nou",
+  "facets": {
+    "access": {
+      "label": "De la"
+    },
+    "type": {
+      "label": "Tipuri"
+    },
+    "modified": {
+      "label": "Modificat"
+    }
+  }
+}

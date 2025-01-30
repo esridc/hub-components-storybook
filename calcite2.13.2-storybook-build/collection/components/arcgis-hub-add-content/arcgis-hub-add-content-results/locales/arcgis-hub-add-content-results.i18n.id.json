@@ -1,0 +1,54 @@
+{
+  "existing": {
+    "successHeading": "Konten berhasil ditambahkan.",
+    "failureHeading": "Tidak dapat menambahkan konten ke grup yang dipilih.",
+    "successfulAccordionHeading": "Konten ditambahkan ke grup yang dipilih.",
+    "unsuccessfulAccordionHeading": "Konten tidak ditambahkan ke grup yang dipilih"
+  },
+  "create": {
+    "event": {
+      "successWithoutGroupHeading": "Acara berhasil dibuat.",
+      "successWithGroupHeading": "Acara berhasil dibuat dan ditambahkan ke {group}.",
+      "successMessage": "Sekarang Anda bisa melihat Acara, mengelolanya untuk mengedit informasi, atau mengklik 'selesai' untuk kembali ke tampilan tersebut.",
+      "failureHeading": "Tidak dapat menambahkan Acara ke grup yang dipilih."
+    },
+    "discussion": {
+      "successWithoutGroupHeading": "Papan Diskusi berhasil dibuat",
+      "successWithGroupHeading": "Papan Diskusi berhasil dibuat dan ditambahkan ke {group}.",
+      "successMessage": "Sekarang Anda bisa melihat Papan Diskusi, mengelolanya untuk mengedit informasi, atau mengklik 'selesai' untuk kembali ke tampilan tersebut.",
+      "failureHeading": "Tidak dapat menambahkan Papan Diskusi ke grup yang dipilih."
+    },
+    "group": {
+      "successWithoutGroupHeading": "Grup berhasil dibuat.",
+      "successMessage": "Sekarang Anda bisa melihat Grup, mengelolanya untuk mengedit informasi, atau mengklik 'selesai' untuk kembali ke tampilan tersebut.",
+      "failureHeading": "Tidak dapat membuat grup."
+    },
+    "initiative": {
+      "successWithoutGroupHeading": "Inisiatif berhasil dibuat.",
+      "successWithGroupHeading": "Inisiatif berhasil dibuat dan ditambahkan ke {group}.",
+      "successMessage": "Sekarang Anda bisa melihat Inisiatif, mengelolanya untuk mengedit informasi, atau mengklik 'selesai' untuk kembali ke tampilan tersebut.",
+      "failureHeading": "Tidak dapat menambahkan Inisiatif ke grup yang dipilih."
+    },
+    "page": {
+      "successWithoutGroupHeading": "Halaman berhasil dibuat.",
+      "successWithGroupHeading": "Halaman berhasil dibuat dan ditambahkan ke {group}.",
+      "successMessage": "Sekarang Anda bisa melihat Halaman, mengelolanya untuk mengedit informasi, atau mengklik 'selesai' untuk kembali ke tampilan tersebut.",
+      "failureHeading": "Tidak dapat menambahkan Halaman ke grup yang dipilih."
+    },
+    "project": {
+      "successWithoutGroupHeading": "Proyek berhasil dibuat.",
+      "successWithGroupHeading": "Proyek berhasil dibuat dan ditambahkan ke {group}.",
+      "successMessage": "Sekarang Anda bisa melihat Proyek, mengelolanya untuk mengedit informasi, atau mengklik 'selesai' untuk kembali ke tampilan tersebut.",
+      "failureHeading": "Tidak dapat menambahkan Proyek ke grup yang dipilih."
+    },
+    "site": {
+      "successWithoutGroupHeading": "Situs berhasil dibuat.",
+      "successWithGroupHeading": "Situs berhasil dibuat dan ditambahkan ke {group}.",
+      "successMessage": "Sekarang Anda bisa melihat Situs, mengelolanya untuk mengedit informasi, atau mengklik 'selesai' untuk kembali ke tampilan tersebut.",
+      "failureHeading": "Tidak dapat menambahkan Situs ke grup yang dipilih."
+    }
+  },
+  "editLayout": "Edit tata letak",
+  "manageEntity": "Kelola",
+  "viewEntity": "Lihat"
+}

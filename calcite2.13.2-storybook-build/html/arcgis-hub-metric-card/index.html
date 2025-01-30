@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-metric-card</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+  <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet"
+    href="../calcite-web.min.css">
+</head>
+
+<body>
+  <div class="grid-container padding-leader-2">
+    <!-- docs about grid container: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+    <div class="column-24 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-hub-metric-card</h2>
+    </div>
+
+    <calcite-button onclick="signIn()">Sign in</calcite-button>
+    <calcite-button onclick="signOut()">Sign out</calcite-button>
+
+    <div id="userinfo"></div></br></br>
+
+
+    <div class="column-24">
+      <arcgis-hub-metric-card id="dynamic-metrics-card" metric-id="c123456" />
+    </div>
+    <div class="column-24">
+      <arcgis-hub-metric-card id="static-metrics-card" metric-id="c67890" />
+    </div>
+  </div>
+
+
+
+  <arcgis-app-identity client-id="EF9uxuFlOrgf7WpI" redirect-uri="http://localhost:3333/html/redirect.html"
+    portal="https://qaext.arcgis.com">
+  </arcgis-app-identity>
+
+  <script>
+    // set a property on the element
+    function setProp(key, value) {
+      const el = document.querySelector("arcgis-hub-metric-card-harness");
+      el[key] = value;
+    };
+
+
+    // auth logic
+    function signIn() {
+      const evt = new CustomEvent('arcgisAppIdentityStartSignIn')
+      document.dispatchEvent(evt);
+    };
+
+    function signOut() {
+      const evt = new CustomEvent('arcgisAppIdentityStartSignOut')
+      document.dispatchEvent(evt);
+    };
+
+    function showUserInfo(session) {
+      const el = document.getElementById('userinfo');
+      if (session) {
+        el.innerText = `User ${session.username} authenticated`;
+      } else {
+        el.innerText = 'No user authenticated';
+      }
+    };
+
+    const dynamicMetricsCard = document.querySelector('#dynamic-metrics-card');
+    const staticMetricsCard = document.querySelector('#static-metrics-card');
+
+    const dynamicMetric = {
+      id: "c123456",
+      name: "Coastline",
+      units: "%",
+      source: {
+        type: "service-query",
+        serviceUrl:
+          "https://servicesqa.arcgis.com/T5cZDlfUaBpDnk6P/arcgis/rest/services/2019_US_coastline/FeatureServer",
+        layerId: 0,
+        field: "FID",
+        statistic: "count",
+      },
+      entityInfo: {
+        id: "00c",
+        name: "Some Project Name",
+        type: "Hub Project",
+      },
+    };
+
+    const staticMetric = {
+      id: "c67890",
+      name: "Budget",
+      units: "$",
+      source: {
+        type: 'static-value',
+        value: "200,000"
+      },
+      entityInfo: {
+        id: "00c",
+        name: "Some project name",
+        type: "Hub Project"
+      }
+    }
+
+    const cardConfig = {
+      cardTitle: "This is the title",
+      displayType: 'stat-card',
+      shareable: true,
+      shareableByValue: false,
+      trailingText: "this is the trailing text...",
+      sourceLink: "link",
+      sourceTitle: "title",
+      corners: "round",
+      valueColor: "#366078"
+    }
+
+    const dynamicCardConfig = {
+      ...cardConfig,
+      metricId: "c123456",
+      type: "dynamic"
+    }
+
+    const staticCardConfig = {
+      ...cardConfig,
+      metricId: "c67890",
+      type: "static"
+    }
+
+    document.addEventListener('arcgisAppIdentitySignedIn', (evt) => {
+      // staticMetricsCard.context = evt.detail;
+      showUserInfo(evt.detail.session);
+    });
+
+    document.addEventListener('arcgisAppIdentitySignedOut', (evt) => {
+      // staticMetricsCard.context = evt.detail;
+      showUserInfo(evt.detail.session);
+    });
+
+    dynamicMetricsCard.metric = dynamicMetric;
+    dynamicMetricsCard.cardConfig = dynamicCardConfig;
+
+    staticMetricsCard.metric = staticMetric;
+    staticMetricsCard.cardConfig = staticCardConfig;
+
+  </script>
+</body>
+
+</html>

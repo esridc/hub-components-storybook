@@ -1,0 +1,57 @@
+{
+  "new": "Yeni",
+  "project": {
+    "label": "Proje",
+    "description": "Net hedefleri ve zaman dilimlerine sahip çalışmayı vurgulayın",
+    "createLabel": "Proje Oluştur",
+    "newLabel": "Yeni Proje"
+  },
+  "initiative": {
+    "label": "İnisiyatif",
+    "description": "İnisiyatifler bir hedefe yönelik ilerlemeyi düzenler ve özetler",
+    "createLabel": "İnisiyatif Oluştur",
+    "newLabel": "Yeni İnisiyatif"
+  },
+  "discussion": {
+    "label": "Tartışma panosu",
+    "description": "Konuyu belirten bir başlık girerek yeni bir tartışma panosu oluşturun.",
+    "createLabel": "Tartışma panosu oluştur",
+    "newLabel": "Yeni Tartışma panosu"
+  },
+  "site": {
+    "label": "Site",
+    "description": "Bilgileri düzenlemek ve paylaşmak için bir web sayfası oluşturun",
+    "createLabel": "Site Oluştur",
+    "newLabel": "Yeni Site"
+  },
+  "event": {
+    "label": "Etkinlik",
+    "description": "Şahsen veya sanal olarak bir etkinliğe ev sahipliği yapın",
+    "createLabel": "Etkinlik Oluştur",
+    "newLabel": "Yeni Etkinlik"
+  },
+  "content": {
+    "label": "İçerik",
+    "description": "Sitenize veriler, belgeler, görüntüler ve harici bağlantılar ekleyin",
+    "createLabel": "İçerik Oluştur",
+    "newLabel": "Yeni İçerik"
+  },
+  "feedback": {
+    "label": "Geri bildirim",
+    "description": "Anketler ve araştırmalar gibi araçlarla odaklı bilgiler toplayın",
+    "createLabel": "Geri Bildirim Oluştur",
+    "newLabel": "Yeni Geri Bildirim"
+  },
+  "app": {
+    "label": "Uygulama",
+    "description": "Bir deneyim oluşturun, bir hikaye anlatın veya verilerinizi görselleştirin",
+    "createLabel": "Uygulama Oluştur",
+    "newLabel": "Yeni Uygulama"
+  },
+  "group": {
+    "label": "Grup",
+    "description": "Odaklı içerik üzerinde birlikte çalışmak amacıyla bir grup kurun",
+    "createLabel": "Grup Oluştur",
+    "newLabel": "Yeni Grup"
+  }
+}

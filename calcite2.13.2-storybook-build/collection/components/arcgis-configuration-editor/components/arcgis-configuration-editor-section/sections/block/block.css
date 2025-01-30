@@ -1,0 +1,27 @@
+calcite-block {
+  --calcite-block-padding: .75rem
+}
+
+/* we overwrite this custom variable to change the size of
+block section headers depending on the section's scale
+TODO: add styling for "m" and "s" scales */
+.section-block--l {
+  /* we overwrite this custom variable to increase the */
+  /* size of block section headers. */
+  --calcite-font-size--1: 18px;
+}
+
+/* We safeguard against fields rendered within a block
+section from inheriting the overwritten section header
+font size by explicitly re-setting this custom variable
+for all slotted content within a calcite-block */
+calcite-block ::slotted(*) {
+  --calcite-font-size--1: 14px;
+}
+
+/* adjust the helper text margins */
+calcite-block::slotted(.section__content) > .helper-text {
+  margin-top: -1.5rem;
+  margin-bottom: 1.5rem}
+calcite-block::slotted(.helper-text--left) > .helper-text, calcite-block::slotted(.helper-text--right) > .helper-text {
+  margin-top: 0px}

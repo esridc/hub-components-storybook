@@ -1,0 +1,91 @@
+{
+  "moreResults": "Více výsledků",
+  "search": "Hledat",
+  "filter": "Filtry",
+  "viewResults": "Zobrazit výsledky ({numResults})",
+  "resultsCount": "1 - {pageTotal} z {searchTotal}",
+  "backToTop": "Zpět na začátek",
+  "facets": {
+    "access": {
+      "label": "Sdílení",
+      "private": "Moje",
+      "shared": "Majitel a skupiny",
+      "org": "Organizace",
+      "public": "Veřejné"
+    },
+    "license": {
+      "label": "Licence",
+      "tooltip": "Pouze veřejný obsah",
+      "custom": "Vlastní",
+      "none": "Žádný"
+    },
+    "type": {
+      "label": "Typ"
+    },
+    "tags": {
+      "label": "Klíčová slova"
+    },
+    "dateUpdated": {
+      "label": "Datum změny"
+    },
+    "source": {
+      "label": "Zdroj",
+      "tooltip": "Veřejný obsah různých organizací"
+    },
+    "categories": {
+      "label": "Kategorie"
+    },
+    "location": {
+      "label": "Umístění",
+      "tooltip": "Použít rozsah mapy jako filtr polohy"
+    },
+    "event": {
+      "from": {
+        "label": "Vlastnictví",
+        "myContent": "Já",
+        "myOrganization": "Moje organizace",
+        "world": "Kdokoliv"
+      },
+      "access": {
+        "label": "Přístup",
+        "private": "Soukromé",
+        "org": "Organizace",
+        "public": "Veřejné"
+      },
+      "startDate": {
+        "label": "Datum události"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "Typ",
+        "all": "Vše",
+        "view": "Zobrazit",
+        "edit": "Upravit"
+      },
+      "role": {
+        "label": "Role",
+        "all": "Vše",
+        "member": "Člen",
+        "manager": "Manažer",
+        "owner": "Vlastník"
+      },
+      "sharing": {
+        "label": "Viditelnost",
+        "private": "Soukromé",
+        "public": "Veřejné"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "Zobrazit seznam",
+    "grid": "Zobrazit mřížku",
+    "map": "Zobrazit mapu",
+    "compact": "Zobrazit kompaktně",
+    "calendar": "Zobrazit kalendář",
+    "table": "Zobrazit tabulku"
+  },
+  "galleryActionsLabel": "Další akce",
+  "selected": "Vybráno: {count}",
+  "popoverActionButtonLabel": "další akce"
+}

@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "Daftar",
+    "registered": "Terdaftar",
+    "join": "Bergabunglah secara online",
+    "in-person": "Secara langsung",
+    "online": "Online",
+    "inPersonFull": "Tatap muka (penuh)",
+    "onlineFull": "Online (penuh)",
+    "close": "Tutup"
+  },
+  "tooltip": {
+    "isCanceled": "Acara dibatalkan",
+    "eventHasEnded": "Event berakhir",
+    "eventFull": "Acara penuh",
+    "inPerson": "Terdaftar untuk acara tatap muka",
+    "online": "Terdaftar untuk acara online",
+    "unavailable": "Tersedia satu jam sebelum waktu mulai acara"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "Berhasil membatalkan pendaftaran acara online",
+    "onlineRegistrationConfirmed": "Berhasil mendaftar untuk acara online",
+    "onlineRegistrationError": "Terjadi kesalahan tak terduga saat mendaftar acara online",
+    "onlineRegistrationCanceledError": "Kesalahan tak terduga saat membatalkan pendaftaran acara online",
+    "onlineRegistrationAtCapacity": "Anda mencoba mendaftar ke acara online yang penuh",
+    "inPersonRegistrationCanceled": "Berhasil membatalkan pendaftaran untuk acara tatap muka",
+    "inPersonRegistrationCanceledError": "Kesalahan tak terduga saat membatalkan pendaftaran untuk acara tatap muka",
+    "inPersonRegistrationConfirmed": "Berhasil mendaftar untuk acara tatap muka",
+    "inPersonRegistrationError": "Terjadi kesalahan tak terduga saat mendaftar untuk acara tatap muka",
+    "inPersonRegistrationAtCapacity": "Anda mencoba mendaftar ke acara tatap muka yang penuh"
+  }
+}

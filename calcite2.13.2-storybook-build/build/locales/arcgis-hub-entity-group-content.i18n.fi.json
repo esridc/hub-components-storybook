@@ -1,0 +1,69 @@
+{
+  "title": "Sisältö",
+  "facets": {
+    "type": "Tyyppi",
+    "tags": "Tunniste",
+    "categories": "Luokka",
+    "sharing": "Jakaminen",
+    "dateUpdated": "Päivitetty viimeksi",
+    "map": {
+      "label": "Sijainti",
+      "tooltip": "Käytä kartan laajuutta sijainnin suodattimena"
+    }
+  },
+  "shareContent": {
+    "buttonText": "Lisää sisältöä",
+    "disabledTooltip": "Sinulla ei ole oikeuksia lisätä sisältöä tähän ryhmään.",
+    "catalog": {
+      "myContent": "Oma sisältö",
+      "favorites": "Suosikit",
+      "organization": "Organisaationi",
+      "world": "Kaikille (julkinen)"
+    },
+    "facets": {
+      "type": "Tyyppi",
+      "sharing": "Jakaminen"
+    },
+    "collection": {
+      "appsAndMaps": "Sovellukset ja kartat",
+      "dataset": "Aineisto",
+      "documents": "Dokumentit",
+      "feedback": "Palaute",
+      "sites": "Sivustot",
+      "projects": "Projektit",
+      "projectsAndInitiatives": "Projektit ja aloitteet"
+    },
+    "modal": {
+      "title": "Lisää sisältöä"
+    },
+    "unsharedModal": {
+      "title": "Kohteita ei lisätty",
+      "notice": {
+        "icon": "huutomerkki kolmion sisällä",
+        "type": "vaara",
+        "title": "Toiminto keskeneräinen",
+        "message": "Osaa kohteista ei voitu lisätä. Tämä voi johtua siitä, että jakotasot ovat ristiriitaisia sisällössä tai kohteen omistaja ei ole ryhmän jäsen.",
+        "linkText": "Lue lisää jakamisesta"
+      }
+    },
+    "itemSharedSuccessAlert": "Kohteiden jako onnistui"
+  },
+  "close": "Sulje",
+  "newTab": "avautuu uudelle välilehdelle",
+  "unshareContent": {
+    "remove": "Poista",
+    "success": "Sisällön poisto ryhmästä {groupName} onnistui.",
+    "unsharedModal": {
+      "title": "Kohteet, joita ei poistettu",
+      "notice": {
+        "icon": "huutomerkki kolmion sisällä",
+        "type": "vaara",
+        "title": "Toiminto keskeneräinen",
+        "message": "Joitakin kohteita ei voitu poistaa."
+      }
+    }
+  },
+  "notice": {
+    "label": "Lomakevaroitus"
+  }
+}

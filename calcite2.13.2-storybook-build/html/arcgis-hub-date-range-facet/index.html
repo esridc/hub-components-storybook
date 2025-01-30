@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-date-range-facet</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet" href="../calcite-web.min.css">
+</head>
+
+<body>
+  <div class="grid-container padding-leader-2">
+    <div class="column-20 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-hub-date-range-facet</h2>
+    </div>
+
+    <div class="column-9">
+      <arcgis-hub-date-range-facet id="arcgis-hub-date-range-facet-harness">
+      </arcgis-hub-date-range-facet>
+    </div>
+
+    <br>
+
+    <div class="column-9">
+      <arcgis-hub-date-range-facet id="arcgis-hub-date-range-facet-harness-with-error">
+      </arcgis-hub-date-range-facet>
+    </div>
+  </div>
+
+  <script>
+    // set a property on the element
+    function setProp(key, value, id) {
+      const el = document.querySelector(id);
+      el[key] = value;
+    }
+
+    const sampleFacet = {
+      display: 'date-range',
+      label: 'test',
+      key: 'test',
+      field: 'modified',
+      max: new Date()
+    };
+    setProp("facet", sampleFacet, "#arcgis-hub-date-range-facet-harness");
+
+    const sampleFacetWithError = {
+      display: 'date-range',
+      label: 'test',
+      key: 'test',
+      field: 'modified',
+      value: {
+        from: "12/12/2012"
+      },
+      max: new Date()
+    };
+    setProp("facet", sampleFacetWithError, "#arcgis-hub-date-range-facet-harness-with-error");
+  </script>
+</body>
+
+</html>

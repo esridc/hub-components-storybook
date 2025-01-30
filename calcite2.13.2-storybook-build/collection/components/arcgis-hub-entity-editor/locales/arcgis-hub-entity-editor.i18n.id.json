@@ -1,0 +1,1346 @@
+{
+  "success": "Berhasil menyimpan editan",
+  "error": "Terjadi kesalahan saat menyimpan perubahan",
+  "formAlert": "Peringatan formulir",
+  "create": "Buat",
+  "shared": {
+    "notices": {
+      "metrics": {
+        "preview": {
+          "label": "Pratinjau metrik Anda.",
+          "message": "Perubahan yang dibuat di sini akan ditampilkan dalam pratinjau metrik."
+        }
+      }
+    },
+    "sections": {
+      "metrics": {
+        "basic": {
+          "label": "Informasi Dasar"
+        },
+        "source": {
+          "label": "Nilai"
+        },
+        "formatting": {
+          "label": "Pemformatan"
+        },
+        "sharing": {
+          "label": "Berbagi"
+        }
+      },
+      "mapSettings": {
+        "label": "Pengaturan peta"
+      }
+    },
+    "errors": {
+      "urlFormat": "Pemformatan URL salah"
+    },
+    "fields": {
+      "name": {
+        "maxLengthError": "Nama tidak boleh melebihi 250 karakter"
+      },
+      "title": {
+        "maxLengthError": "Judul tidak boleh melebihi 250 karakter"
+      },
+      "summary": {
+        "maxLengthError": "Ringkasan tidak boleh melebihi 2048 karakter"
+      },
+      "purpose": {
+        "maxLengthError": "Tujuan tidak boleh melebihi 2048 karakter"
+      },
+      "_thumbnail": {
+        "label": "Thumbnail",
+        "sizeDescription": "Ukuran maksimal adalah 10MB. Dimensi yang disarankan: 760 x 505 atau lebih besar",
+        "defaultThumbnailNotice": "Unggah thumbnail Anda sendiri untuk menggantikan thumbnail default."
+      },
+      "location": {
+        "none": "Tidak ada lokasi",
+        "org": "Jangkauan organisasi",
+        "custom": "Lokasi kustom",
+        "customDescription": "Gambar satu atau beberapa lokasi",
+        "itemExtent": "Jangkauan Item Saat Ini"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Jenis",
+          "sharing": "Membagikan"
+        },
+        "catalog": {
+          "myContent": "Konten saya",
+          "favorites": "Favorit",
+          "organization": "Organisasi",
+          "world": "Dunia (Publik)"
+        },
+        "collection": {
+          "appsAndMaps": "Aplikasi & Peta",
+          "dataset": "Data",
+          "documents": "Dokumen",
+          "feedback": "Umpan balik",
+          "sites": "Situs",
+          "projects": "Proyek"
+        }
+      },
+      "metrics": {
+        "allowDynamicLink": {
+          "label": "Tampilkan tautan sumber"
+        },
+        "cardTitle": {
+          "label": "Judul",
+          "message": {
+            "required": "Bagian ini diperlukan."
+          }
+        },
+        "dynamicMetric": {
+          "label": "Sumber data"
+        },
+        "value": {
+          "label": "Nilai",
+          "message": {
+            "required": "Bagian ini diperlukan."
+          }
+        },
+        "unit": {
+          "label": "Unit",
+          "helperText": "Gunakan untuk mengatur nilai awalan atau akhiran, seperti %, +, $, atau lainnya. Biarkan kosong untuk tidak menampilkan apa pun."
+        },
+        "unitPosition": {
+          "label": "Posisi unit",
+          "helperText": "Pilih tempat munculnya satuan pengukuran (misalnya, 'km', 'lbs') dalam kaitannya dengan nilai metrik.",
+          "enum": {
+            "after": {
+              "label": "Setelah nilai"
+            },
+            "before": {
+              "label": "Sebelum nilai"
+            },
+            "below": {
+              "label": "Di bawah nilai"
+            }
+          }
+        },
+        "showShareIcon": {
+          "label": "Aktifkan berbagi",
+          "helperText": {
+            "label": "Izinkan pengguna menyalin tautan langsung ke metrik ini."
+          }
+        },
+        "shareableOnHover": {
+          "label": "Tampilkan saat mengarahkan kursor",
+          "helperText": {
+            "label": "Tombol Bagikan hanya ditampilkan saat mengarahkan kursor. Jika dimatikan, tombol selalu terlihat."
+          }
+        },
+        "sourceLink": {
+          "label": "Tautkan URL",
+          "message": {
+            "required": "Tautan diperlukan untuk menampilkan sumber."
+          }
+        },
+        "sourceTitle": {
+          "label": "Tautkan teks"
+        },
+        "trailingText": {
+          "label": "Teks Tambahan",
+          "helperText": "Masukkan konteks atau penjelasan tambahan (akan muncul di bawah nilai metrik)."
+        },
+        "type": {
+          "label": "Jenis",
+          "enum": {
+            "dynamic": {
+              "label": "Dinamis",
+              "description": "Pilih kumpulan data yang ada (feature service) untuk dirangkum."
+            },
+            "static": {
+              "label": "Statis",
+              "description": "Masukkan nilai secara manual untuk disorot dalam tata letak Anda."
+            }
+          }
+        },
+        "valueType": {
+          "label": "Jenis nilai",
+          "helperText": "Pilih jenis nilai yang ingin Anda tampilkan.",
+          "enum": {
+            "string": {
+              "label": "Teks",
+              "description": "Kata atau frasa apa pun. Tidak dimaksudkan untuk perhitungan numerik. (mis. \"Jalan Utama\")"
+            },
+            "number": {
+              "label": "Angka",
+              "description": "Nilai numerik. Dapat digunakan untuk penghitungan. (mis. 123)"
+            },
+            "date": {
+              "label": "Tanggal",
+              "description": "Nilai tanggal kalender. Tidak dimaksudkan untuk perhitungan numerik. (mis. \"1/1/2018\")"
+            }
+          }
+        }
+      },
+      "categories": {
+        "label": "Kategori",
+        "noCategoriesNotice": {
+          "body": "Organisasi ini belum memiliki kategori apa pun.",
+          "link": "Siapkan kategori"
+        }
+      },
+      "download": {
+        "format": {
+          "bip": "BIP",
+          "bmp": "BMP",
+          "bsq": "BSQ",
+          "gif": "GIF",
+          "jpg": "JPG",
+          "jpgPng": "JPG_PNG",
+          "lerc": "LERC",
+          "png": "PNG",
+          "png8": "PNG8",
+          "png24": "PNG24",
+          "png32": "PNG32",
+          "tiff": "TIFF",
+          "csv": "CSV",
+          "excel": "Excel",
+          "featureCollection": "Koleksi Fitur",
+          "filegdb": "File Geodatabase",
+          "geojson": "GeoJSON",
+          "geoPackage": "GeoPackage",
+          "json": "JSON",
+          "kml": "KML",
+          "shapefile": "Shapefile",
+          "sqlite": "Geodatabase SQLite"
+        },
+        "additionalResource": "{resourceName} (distribusi metadata)",
+        "dataSourceResource": "Sumber data (distribusi metadata)",
+        "noTitleResource": "Tautan (tidak berjudul, distribusi metadata)"
+      }
+    }
+  },
+  "project": {
+    "sections": {
+      "details": {
+        "label": "Detail"
+      },
+      "basicInfo": {
+        "label": "Informasi Dasar"
+      },
+      "location": {
+        "label": "Lokasi",
+        "helperText": "Tunjukkan area geografis tempat proyek ini akan berlangsung (untuk ditampilkan di tata letak proyek)."
+      },
+      "status": {
+        "label": "Status"
+      },
+      "sharing": {
+        "label": "Membagikan"
+      },
+      "timeline": {
+        "label": "Garis Waktu"
+      },
+      "searchDiscoverability": {
+        "label": "Pencarian dan kemampuan untuk ditemukan"
+      },
+      "featuredContent": {
+        "label": "Konten unggulan",
+        "helperText": "Soroti dokumen, aplikasi, dan data tertentu yang terkait dengan proyek Anda. Anda dapat menampilkan hingga 4 item."
+      },
+      "callToAction": {
+        "label": "Tautan tindakan",
+        "helperText": "Ini akan ditampilkan sebagai tombol yang menonjol di bagian atas proyek Anda. Gunakan ini untuk mengarahkan pemirsa Anda ke suatu situs, survei, peta, dll."
+      },
+      "embeds": {
+        "label": "Sematan unggulan",
+        "helperText": "Pilih web map, web scene, atau aplikasi yang akan disorot pada proyek Anda."
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Nama proyek",
+        "requiredError": "Nama proyek adalah bidang yang wajib diisi",
+        "maxLengthError": "Nama proyek tidak boleh melebihi 250 karakter",
+        "entityTitleValidatorError": "Nama proyek tidak boleh menyertakan karakter emoji, <, >, atau ="
+      },
+      "description": {
+        "label": "Keterangan",
+        "helperText": "Tentukan bagaimana proyek Anda akan mencapai tujuannya. Pertimbangkan untuk menyertakan informasi latar belakang yang relevan dan perubahan yang diharapkan sebagai hasil proyek."
+      },
+      "summary": {
+        "label": "Tujuan",
+        "helperText": "Ringkas secara singkat tujuan proyek Anda."
+      },
+      "access": {
+        "itemType": "Proyek"
+      },
+      "groups": {
+        "label": "Bagikan dengan...",
+        "viewGroup": "(Lihat grup)",
+        "editGroup": "(Edit grup)"
+      },
+      "_thumbnail": {
+        "helperText": "Atur thumbnail untuk mewakili proyek ini di ArcGIS Online serta di pencarian dan galeri."
+      },
+      "featuredImage": {
+        "label": "Gambar unggulan",
+        "helperText": "Pilih gambar untuk mewakili pekerjaan Anda pada tata letak proyek.",
+        "sizeDescription": "Ukuran file maks adalah 10mb. Dimensi yang direkomendasikan: 718 x 478 atau lebih besar",
+        "altText": {
+          "label": "Teks alt",
+          "helperText": "Berikan deskripsi singkat tentang gambar Anda untuk mereka yang menggunakan pembaca layar. Biarkan kosong untuk menunjukkan bahwa gambar bersifat dekoratif."
+        }
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Slug adalah versi nama proyek ramah URL. Slug dibuat otomatis berdasarkan nama proyek, tetapi Anda bisa menyesuaikannya.",
+        "patternError": "Kesalahan: Slug harus berupa karakter alfanumerik huruf kecil yang dipisahkan oleh tanda hubung.",
+        "isUniqueError": "Slug ini sudah digunakan. Harap pilih yang lain."
+      },
+      "tags": {
+        "label": "Label",
+        "helperText": "Tag digunakan dalam katalog pencarian untuk membantu orang lain menemukan proyek ini. Tambahkan teks dan pilih enter untuk membuat tag baru."
+      },
+      "categories": {
+        "helperText": "Kategori digunakan dalam katalog pencarian untuk membantu orang lain menemukan proyek ini. Persyaratan tersebut ditetapkan oleh organisasi Anda."
+      },
+      "status": {
+        "label": "Status proyek",
+        "enum": {
+          "notStarted": {
+            "label": "Belum dimulai"
+          },
+          "inProgress": {
+            "label": "Dalam proses"
+          },
+          "onHold": {
+            "label": "Ditahan"
+          },
+          "complete": {
+            "label": "Selesai"
+          }
+        }
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Jenis",
+          "sharing": "Membagikan"
+        }
+      },
+      "callToAction": {
+        "facets": {
+          "type": "Jenis",
+          "sharing": "Berbagi"
+        }
+      },
+      "mapSettings": {
+        "label": "Konfigurasikan bagaimana peta ditampilkan di proyek"
+      }
+    }
+  },
+  "initiative": {
+    "sections": {
+      "details": {
+        "label": "Detail"
+      },
+      "basicInfo": {
+        "label": "Informasi Dasar"
+      },
+      "location": {
+        "label": "Lokasi",
+        "helperText": "Tunjukkan area geografis tempat inisiatif ini akan berlangsung (untuk ditampilkan di tata letak inisiatif)."
+      },
+      "sharing": {
+        "label": "Membagikan"
+      },
+      "featuredContent": {
+        "label": "Konten unggulan",
+        "helperText": "Soroti dokumen, aplikasi, dan data tertentu yang terkait dengan proyek Anda. Anda dapat menampilkan hingga 4 item."
+      },
+      "status": {
+        "label": "Status"
+      },
+      "hero": {
+        "label": "Hero"
+      },
+      "searchDiscoverability": {
+        "label": "Pencarian dan kemampuan untuk ditemukan"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Nama inisiatif",
+        "requiredError": "Nama inisiatif adalah kolom yang wajib diisi",
+        "maxLengthError": "Nama awal tidak boleh melebihi 250 karakter",
+        "entityTitleValidatorError": "Nama inisiatif tidak boleh menyertakan karakter emoji, <, >, atau ="
+      },
+      "summary": {
+        "label": "Tujuan",
+        "helperText": "Merangkum secara singkat tujuan inisiatif Anda."
+      },
+      "access": {
+        "itemType": "Inisiatif"
+      },
+      "description": {
+        "label": "Keterangan",
+        "helperText": "Tentukan bagaimana inisiatif Anda akan mencapai tujuannya. Pertimbangkan untuk menyertakan informasi latar belakang yang relevan dan perubahan yang diharapkan sebagai hasil inisiatif."
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Slug adalah versi nama inisiatif yang ramah URL. Slug dibuat otomatis berdasarkan nama inisiatif, tetapi Anda bisa menyesuaikannya.",
+        "patternError": "Kesalahan: Slug harus berupa karakter alfanumerik huruf kecil yang dipisahkan tanda hubung.",
+        "isUniqueError": "Slug ini sudah digunakan. Harap pilih yang lain."
+      },
+      "tags": {
+        "label": "Label",
+        "helperText": "Tag digunakan dalam katalog pencarian untuk membantu orang lain menemukan inisiatif ini. Tambahkan teks dan pilih enter untuk membuat tag baru."
+      },
+      "categories": {
+        "helperText": "Kategori digunakan dalam katalog pencarian untuk membantu orang lain menemukan inisiatif ini. Persyaratan tersebut ditetapkan oleh organisasi Anda."
+      },
+      "_thumbnail": {
+        "helperText": "Pilih gambar untuk mewakili inisiatif ini di ArcGIS Online serta di pencarian dan galeri."
+      },
+      "groups": {
+        "label": "Bagikan dengan...",
+        "viewGroup": "(Lihat grup)",
+        "editGroup": "(Edit grup)"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Jenis",
+          "sharing": "Berbagi"
+        }
+      },
+      "status": {
+        "label": "Status inisiatif",
+        "enum": {
+          "notStarted": {
+            "label": "Belum dimulai"
+          },
+          "inProgress": {
+            "label": "Dalam proses"
+          },
+          "onHold": {
+            "label": "Ditahan"
+          },
+          "complete": {
+            "label": "Selesai"
+          }
+        }
+      },
+      "hero": {
+        "label": "Hero",
+        "helperText": "Hero ditampilkan di atas judul inisiatif Anda dan dapat menampilkan peta atau gambar.",
+        "map": {
+          "label": "Peta",
+          "description": "Gunakan peta untuk menampilkan area target inisiatif menggunakan lokasi inisiatif atau proyek terkait."
+        },
+        "image": {
+          "label": "Citra",
+          "description": "Visual yang menarik dapat membantu orang-orang memahami atau mengambil tindakan untuk mencapai tujuan Anda."
+        }
+      },
+      "featuredImage": {
+        "label": "Citra",
+        "helperText": "Untuk hero Anda, gunakan gambar lanskap. Aplikasi ini akan mengubah ukuran secara proporsional dari titik fokus pusat untuk disesuaikan dengan beragam ukuran layar. Untuk layar besar, tinggi maks yang disarankan adalah 475px.",
+        "sizeDescription": "Ukuran file maks adalah 10 MB.",
+        "altText": {
+          "label": "Teks alt",
+          "helperText": "Berikan deskripsi singkat tentang gambar Anda untuk mereka yang menggunakan pembaca layar. Biarkan kosong untuk menunjukkan bahwa gambar bersifat dekoratif."
+        }
+      },
+      "groupAccess": {
+        "label": "Tetapkan visibilitas",
+        "helperText": "Kontrol siapa saja yang dapat melihat asosiasi yang dibuat dari inisiatif ini",
+        "private": {
+          "label": "Pribadi",
+          "description": "Pemilik dan grup inisiatif yang memiliki akses dapat melihat grup"
+        },
+        "org": {
+          "label": "Organisasi",
+          "description": "Semua anggota yang memiliki akun organisasi dan grup inisiatif yang memiliki akses dapat melihat grup"
+        },
+        "public": {
+          "label": "Publik",
+          "description": "Semua orang dapat melihat grup"
+        }
+      },
+      "membershipAccess": {
+        "label": "Siapa yang dapat bergabung dalam grup ini?",
+        "org": "Anggota organisasi saya saja",
+        "collab": "Kolaborasi mitra dan anggota organisasi saya saja",
+        "any": "Semua anggota organisasi (default yang disarankan)"
+      },
+      "includeInCatalog": {
+        "label": "Sertakan dalam katalog",
+        "helperText": "Jika diaktifkan, seluruh item yang dikaitkan akan muncul bersama konten lain dalam katalog pencarian inisiatif."
+      },
+      "mapSettings": {
+        "label": "Konfigurasikan bagaimana peta ditampilkan di inisiatif"
+      }
+    }
+  },
+  "discussion": {
+    "sections": {
+      "details": {
+        "label": "Detail"
+      },
+      "basicInfo": {
+        "label": "Informasi Dasar"
+      },
+      "location": {
+        "label": "Lokasi",
+        "helperText": "Tambahkan area geografis untuk mengatur batasan diskusi dan tingkat zoom peta default agar diskusi lebih terfokus."
+      },
+      "settings": {
+        "label": "Diskusi"
+      },
+      "searchDiscoverability": {
+        "label": "Pencarian dan kemampuan untuk ditemukan"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Gelar",
+        "requiredError": "Nama forum diskusi diperlukan.",
+        "entityTitleValidatorError": "Nama diskusi tidak boleh menyertakan karakter emoji, <, >, atau ="
+      },
+      "prompt": {
+        "label": "Perintah",
+        "helperText": "Menjelaskan secara singkat apa yang harus dikirimkan oleh peserta di forum diskusi ini.",
+        "requiredError": "Perintah adalah kolom yang wajib diisi",
+        "maxLengthError": "Prompt tidak boleh melebihi 150 karakter"
+      },
+      "description": {
+        "label": "Keterangan",
+        "helperText": "Berikan konteks tambahan yang dapat membantu saat mencari forum ini."
+      },
+      "_thumbnail": {
+        "helperText": "Pilih gambar untuk mewakili diskusi Anda."
+      },
+      "summary": {
+        "label": "Ringkasan",
+        "helperText": "Menjelaskan secara singkat tujuan dari Forum Diskusi ini yang berguna saat membagikan tautan kepada orang lain."
+      },
+      "featuredImage": {
+        "label": "Gambar unggulan",
+        "sizeDescription": "Ukuran maksimalnya adalah 10mb, JPEG, JPG, atau PNG",
+        "altText": {
+          "label": "Teks alt",
+          "helperText": "Berikan deskripsi singkat tentang gambar Anda untuk mereka yang menggunakan pembaca layar. Biarkan kosong untuk menunjukkan bahwa gambar bersifat dekoratif."
+        },
+        "name": {
+          "label": "Nama gambar"
+        }
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Slug adalah versi nama diskusi yang ramah URL. Slug dibuat otomatis berdasarkan nama diskusi, tetapi Anda bisa menyesuaikannya.",
+        "patternError": "Kesalahan: Slug harus berupa karakter alfanumerik huruf kecil yang dipisahkan tanda hubung.",
+        "isUniqueError": "Slug ini sudah digunakan. Harap pilih yang lain."
+      },
+      "tags": {
+        "label": "Label"
+      },
+      "categories": {
+        "helperText": "Kategori digunakan dalam katalog pencarian untuk membantu orang lain menemukan diskusi ini. Persyaratan tersebut ditetapkan oleh organisasi Anda."
+      },
+      "discussable": {
+        "label": "Diskusi diizinkan?",
+        "enabled": {
+          "label": "Ya, diskusi diizinkan",
+          "description": "Peserta dapat menambahkan postingan, balasan, dan reaksi ke papan diskusi ini."
+        },
+        "disabled": {
+          "label": "Tidak, diskusi diblokir",
+          "description": "Menghapus kemampuan untuk menambahkan postingan, balasan, dan reaksi baru. Tidak menghapus partisipasi sebelumnya."
+        }
+      },
+      "mapSettings": {
+        "label": "Konfigurasi bagaimana peta ditampilkan di papan diskusi"
+      }
+    }
+  },
+  "site": {
+    "sections": {
+      "defaultRequiredHelperText": "*menunjukkan kolom yang harus diisi",
+      "basicInfo": {
+        "label": "Informasi Dasar"
+      },
+      "location": {
+        "label": "Lokasi",
+        "helperText": "Menunjukkan area geografis yang terkait dengan situs ini."
+      },
+      "discussions": {
+        "label": "Diskusi"
+      },
+      "privacy": {
+        "label": "Konfigurasi privasi"
+      },
+      "siteUrl": {
+        "label": "URL Situs"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Nama situs",
+        "requiredError": "Nama situs adalah bidang wajib",
+        "maxLengthError": "Nama situs tidak boleh melebihi 250 karakter",
+        "siteEntityTitleValidatorError": "Nama situs tidak boleh menyertakan karakter emoji, atau kode unik"
+      },
+      "_thumbnail": {
+        "helperText": "Atur thumbnail untuk mewakili situs ini di ArcGIS Online serta di pencarian dan galeri."
+      },
+      "description": {
+        "label": "Keterangan",
+        "helperText": "Deskripsi situs."
+      },
+      "summary": {
+        "label": "Ringkasan",
+        "helperText": "Merangkum situs secara singkat."
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Slug adalah versi nama situs yang ramah URL. Slug dibuat otomatis berdasarkan nama situs, tetapi Anda bisa menyesuaikannya.",
+        "patternError": "Kesalahan: Slug harus berupa karakter alfanumerik huruf kecil yang dipisahkan oleh tanda hubung.",
+        "isUniqueError": "Slug ini sudah digunakan. Harap pilih yang lain."
+      },
+      "tags": {
+        "label": "Label",
+        "helperText": "Tag digunakan dalam katalog pencarian untuk membantu orang lain menemukan situs ini. Tambahkan teks dan pilih enter untuk membuat tag baru."
+      },
+      "categories": {
+        "helperText": "Kategori digunakan dalam katalog pencarian untuk membantu orang lain menemukan situs ini. Persyaratan tersebut ditetapkan oleh organisasi Anda."
+      },
+      "discussable": {
+        "label": "Tampilkan antarmuka diskusi untuk pengguna yang masuk di situs aktif (diaktifkan secara default)",
+        "enabled": {
+          "label": "Ya, diskusi diizinkan",
+          "description": "Tampilkan antarmuka diskusi"
+        },
+        "disabled": {
+          "label": "Tidak, diskusi diblokir",
+          "description": "Sembunyikan antarmuka diskusi"
+        }
+      },
+      "followers": {
+        "groupAccess": {
+          "label": "Tetapkan visibilitas",
+          "helperText": "Kontrol siapa yang dapat melihat tombol ikuti. Pengaturan ini berlaku untuk tombol ikuti tindakan dalam halaman yang mengikuti dan tombol ikuti apa pun yang tertempel langsung pada tata letak.",
+          "private": {
+            "label": "Pribadi",
+            "description": "Pemilik situs dan grup yang memiliki akses dapat melihat tombol ikuti"
+          },
+          "org": {
+            "label": "Organisasi",
+            "description": "Semua anggota yang memiliki akun organisasi situs dan grup yang memiliki akses dapat melihat tombol ikuti"
+          },
+          "public": {
+            "label": "Publik",
+            "description": "Semua orang dapat melihat tombol ikuti"
+          }
+        },
+        "showFollowAction": {
+          "label": "Tindakan mengikuti",
+          "helperText": "Tambahkan tombol ikuti ke menu tindakan dalam halaman, yang tetap terlihat saat pengguna menggulir tata letak."
+        },
+        "discussable": {
+          "label": "Apakah grup ini dapat berpartisipasi dalam diskusi?",
+          "enabled": {
+            "label": "Ya, diskusi diizinkan",
+            "description": "Anggota grup dapat melihat dan berpartisipasi di dalam saluran diskusi yang aksesnya dimiliki grup tersebut."
+          },
+          "disabled": {
+            "label": "Tidak, diskusi diblokir",
+            "description": "Anggota grup tidak dapat melihat atau berpartisipasi di dalam saluran diskusi yang aksesnya dimiliki grup tersebut."
+          }
+        }
+      },
+      "siteUrl": {
+        "isUniqueError": "Kesalahan: Situs yang menggunakan URL ini sudah ada."
+      }
+    }
+  },
+  "page": {
+    "sections": {
+      "basicInfo": {
+        "label": "Informasi Dasar"
+      },
+      "location": {
+        "label": "Lokasi",
+        "helperText": "Menunjukkan area geografis yang terkait dengan halaman ini."
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Nama halaman",
+        "requiredError": "Nama halaman adalah bidang wajib",
+        "maxLengthError": "Nama halaman tidak boleh melebihi 250 karakter",
+        "entityTitleValidatorError": "Nama halaman tidak boleh menyertakan karakter emoji, <, >, atau ="
+      },
+      "description": {
+        "label": "Keterangan",
+        "helperText": "Deskripsi halaman."
+      },
+      "summary": {
+        "label": "Ringkasan",
+        "helperText": "Ringkas halaman secara singkat."
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Slug adalah versi nama halaman yang ramah URL. Slug dibuat otomatis berdasarkan nama halaman, tetapi Anda bisa menyesuaikannya.",
+        "patternError": "Kesalahan: Slug harus berupa karakter alfanumerik huruf kecil yang dipisahkan tanda hubung.",
+        "isUniqueError": "Slug ini sudah digunakan. Harap pilih yang lain."
+      },
+      "tags": {
+        "label": "Label",
+        "helperText": "Tag digunakan dalam katalog pencarian untuk membantu orang lain menemukan halaman ini. Tambahkan teks dan pilih enter untuk membuat tag baru."
+      },
+      "_thumbnail": {
+        "helperText": "Atur thumbnail untuk mewakili halaman ini di ArcGIS Online serta di pencarian dan galeri."
+      },
+      "categories": {
+        "helperText": "Kategori digunakan dalam katalog pencarian untuk membantu orang lain menemukan halaman ini. Persyaratan tersebut ditetapkan oleh organisasi Anda."
+      }
+    }
+  },
+  "content": {
+    "fields": {
+      "title": {
+        "label": "Gelar",
+        "hint": "Judul yang ringkas akan meningkatkan kemampuan untuk ditemukan di seluruh konten Anda.",
+        "requiredError": "Judul adalah bidang yang wajib diisi",
+        "entityTitleValidatorError": "Nama tidak boleh menyertakan karakter emoji, <, >, atau ="
+      },
+      "summary": {
+        "label": "Ringkasan",
+        "hint": "Rangkum konten Anda dengan singkat. TIPS: Tingkatkan SEO dengan menggunakan kata kunci yang berbeda dari \"Judul\" atau \"Tag\" Anda."
+      },
+      "description": {
+        "label": "Keterangan",
+        "hint": "Tambahkan rincian tambahan yang menjelaskan konten Anda. Targetkan ke level pembacaan tingkat ke-7 hingga ke-9 untuk menjangkau audiens yang lebih luas. <a href='https://www.webfx.com/tools/read-able/' target='_blank'>Gunakan alat analisis keterbacaan gratis untuk menguji teks Anda</a>."
+      },
+      "tags": {
+        "label": "Label",
+        "hint": "Tag digunakan dalam katalog pencarian untuk membantu orang lain menemukan konten ini. Tambahkan teks dan pilih enter untuk membuat tag baru."
+      },
+      "categories": {
+        "helperText": "Kategori digunakan dalam katalog pencarian untuk membantu orang lain menemukan konten ini. Persyaratan tersebut ditetapkan oleh organisasi Anda."
+      },
+      "_thumbnail": {
+        "helperText": "Atur thumbnail untuk mewakili item ini di ArcGIS Online serta di pencarian dan galeri."
+      },
+      "license": {
+        "label": "Ketentuan Penggunaan",
+        "helperText": "Lebih sedikit pembatasan mendorong lebih banyak penggunaan kembali."
+      },
+      "discussable": {
+        "label": "Diskusi diizinkan?",
+        "enabled": {
+          "label": "Ya, diskusi diizinkan",
+          "description": "Peserta dapat menambahkan postingan, balasan, dan reaksi terhadap item ini."
+        },
+        "disabled": {
+          "label": "Tidak, diskusi diblokir",
+          "description": "Menghapus kemampuan untuk menambahkan postingan, balasan, dan reaksi baru. Tidak menghapus partisipasi sebelumnya."
+        }
+      },
+      "serverExtractCapability": {
+        "label": "Sistem unduhan",
+        "exportDataSetting": {
+          "label": "Pengaturan data ekspor (disarankan)",
+          "description": "Aktifkan format unduhan tambahan dan kinerja pengunduhan yang ditingkatkan."
+        },
+        "defaultDownloadsSystem": {
+          "label": "Sistem unduhan default",
+          "description": "Mungkin menawarkan lebih sedikit format, kecepatan pengunduhan lebih lambat, dan keandalan lebih rendah."
+        },
+        "noFormatConfigurationNotice": {
+          "title": "Konfigurasi format tidak tersedia",
+          "body": "Konfigurasi format mengharuskan pengaturan data ekspor diaktifkan."
+        }
+      },
+      "downloadFormats": {
+        "label": "Format",
+        "helperText": "Pilih format yang akan diizinkan diakses oleh pengguna, dan urutan tampilannya. (Harap diingat bahwa Anda harus memilih setidaknya satu format)",
+        "downloadsUnavailableNotice": {
+          "title": "Unduhan tidak tersedia",
+          "body": "Untuk mengunduh konten, pengaturan Ekspor Data harus diaktifkan di ArcGIS Online. Hubungi pemilik item untuk mengaktifkan pengaturan ini."
+        }
+      },
+      "schedule": {
+        "manual": {
+          "helperActionText": "Gunakan opsi ini jika Anda ingin secara manual memperbarui indeks pencarian dan cache file unduhan untuk item ini."
+        },
+        "forceUpdateButton": {
+          "label": "Perbarui Paksa",
+          "description": "Pilih opsi ini, lalu pilih \"Simpan\" untuk secara manual memperbarui indeks pencarian dan cache file unduhan untuk item ini secara manual jika berlaku."
+        },
+        "unavailableNotice": {
+          "title": "Pembaruan terjadwal tidak tersedia",
+          "body": "Jadikan konten ini \"Publik\" untuk mengaktifkan pembaruan terjadwal."
+        }
+      }
+    },
+    "sections": {
+      "basic": {
+        "title": "Informasi Dasar",
+        "message": "Informasi ini digunakan untuk mengisi hasil pencarian, kartu galeri, dan ditampilkan dalam tampilan detail."
+      },
+      "about": {
+        "title": "Tentang Konten",
+        "message": "Dua baris pertama dari deskripsi Anda adalah apa yang akan ditampilkan dalam hasil pencarian, tetapi deskripsi lengkap akan ditampilkan pada tampilan konten terfokus."
+      },
+      "image": {
+        "title": "Gambar Unggulan",
+        "message": "Memiliki gambar atau gambar mini unggulan itu penting saat Anda memamerkan konten Anda di galeri kami, atau pada tampilan yang menyoroti gambar seperti inisiatif, acara, dan survei. Ukuran yang disarankan adalah 760x505. Jika gambar Anda terlihat kabur pada rute langsung, harap pertimbangkan mengganti gambar mini dengan gambar yang lebih besar."
+      },
+      "location": {
+        "label": "Lokasi",
+        "helperText": "Tunjukkan area geografis tempat konten ini akan berlangsung (untuk ditampilkan di tata letak konten)."
+      },
+      "discussions": {
+        "label": "Diskusi"
+      },
+      "downloads": {
+        "label": "Unduhan",
+        "helperText": "Konfigurasikan format unduhan, jadwal pembaruan file cache, dan banyak lagi. Untuk lebih jelasnya lihat <calcite-link href=\"https://doc.arcgis.com/en/hub/content/data-download-settings.htm\" target=\"_blank\" icon-end=\"launch\">dokumentasi unduhan.</calcite-link>"
+      },
+      "schedule": {
+        "label": "Pembaruan terjadwal",
+        "helperText": "Hub akan secara otomatis mencoba menentukan waktu terbaik untuk memperbarui konten (secara default). Namun, Anda dapat menentukan frekuensi pembaruan untuk konten, metadata, dan cache file unduhan (jika berlaku)."
+      }
+    },
+    "stringField": {
+      "charCounter": "{count} karakter tersisa"
+    },
+    "imageThumbnail": {
+      "label": "Gambar Thumbnail",
+      "upload": "Unggah Gambar",
+      "done": "Selesai",
+      "editThumbnail": "Edit Gambar Mini",
+      "browse": "Telusuri Gambar",
+      "remove": "Hapus Gambar",
+      "edit": "Edit Gambar",
+      "defaultHeading": "Tambah Gambar Thumbnail",
+      "dropHeading": "Lepaskan untuk Mengunggah",
+      "errorHeading": "Coba Gambar yang Lain",
+      "subheading": "Ukuran Maks adalah {size}, {types}",
+      "zoomOut": "perkecil",
+      "zoomIn": "perbesar",
+      "drag": "Tarik untuk Memosisikan Ulang",
+      "urlPlaceholder": "Jenis yang didukung: {types}",
+      "browseForImage": "Telusuri Gambar",
+      "aria": {
+        "container": "Area gambar",
+        "crop": "Area potong",
+        "handle": {
+          "top": "Ubah ukuran atas",
+          "right": "Ubah ukuran kanan",
+          "left": "Ubah ukuran kiri",
+          "bottom": "Ubah ukuran bawah"
+        }
+      }
+    }
+  },
+  "group": {
+    "sections": {
+      "details": {
+        "label": "Detail"
+      },
+      "basicInfo": {
+        "label": "Informasi Dasar"
+      },
+      "capabilities": {
+        "label": "Kapabilitas"
+      },
+      "membershipAccess": {
+        "label": "Keanggotaan grup"
+      },
+      "discussions": {
+        "label": "Diskusi"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Judul",
+        "requiredError": "Judul grup adalah kolom yang harus diisi",
+        "maxLengthError": "Judul grup tidak boleh lebih dari 250 karakter",
+        "entityTitleValidatorError": "Nama grup tidak boleh menyertakan karakter emoji, <, >, atau ="
+      },
+      "summary": {
+        "label": "Ringkasan",
+        "maxLengthError": "Ringkasan tidak boleh melebihi 250 karakter"
+      },
+      "description": {
+        "label": "Deskripsi"
+      },
+      "access": {
+        "label": "Siapa yang dapat melihat grup ini?",
+        "private": {
+          "label": "Pribadi",
+          "description": "Hanya anggota grup yang dapat melihat grup."
+        },
+        "org": {
+          "label": "Organisasi",
+          "description": "Hanya anggota organisasi yang dapat melihat grup."
+        },
+        "public": {
+          "label": "Semua orang (publik)",
+          "description": "Semua orang dapat melihat grup."
+        }
+      },
+      "isSharedUpdate": {
+        "label": "Pembaruan bersama",
+        "helperText": "Item dalam grup ini akan dapat diedit oleh semua anggota grup ini. Keanggotaan terbatas pada organisasi Anda dan organisasi kolaborasi Anda."
+      },
+      "isAdmin": {
+        "label": "Grup administratif",
+        "helperText": "Anggota tidak dapat keluar dari grup ini. Hanya pengelola atau pemilik grup yang dapat menghapus anggota dari grup ini. Keanggotaan terbatas pada organisasi Anda."
+      },
+      "isOpenData": {
+        "label": "Open data",
+        "helperText": "Izinkan grup ini untuk diakses di situs Open Data.",
+        "constError": "Grup yang tidak bersifat publik tidak dapat menjadi data terbuka."
+      },
+      "_thumbnail": {
+        "label": "Thumbnail",
+        "helperText": "Pilih gambar untuk mewakili grup Anda di profil grup.",
+        "sizeDescription": "Ukuran maksimal adalah 10mb. Ukuran yang disarankan: 400 x 400 atau lebih besar"
+      },
+      "membershipAccess": {
+        "label": "Siapa yang dapat berada di grup ini?",
+        "org": {
+          "description": "Anggota organisasi saya saja",
+          "label": "Anggota organisasi"
+        },
+        "collab": {
+          "description": "Kolaborasi mitra dan anggota organisasi saya saja",
+          "label": "Kolaborator saja"
+        },
+        "any": {
+          "description": "Anggota organisasi mana pun",
+          "label": "Siapa Pun"
+        },
+        "createFollowers": {
+          "any": "Semua anggota organisasi (default yang disarankan)"
+        },
+        "createAssociation": {
+          "any": "Semua anggota organisasi (default yang disarankan)"
+        },
+        "constError": "Keanggotaan grup admin terbatas pada anggota organisasi Anda.",
+        "patternError": "Pembaruan keanggotaan grup bersama terbatas pada organisasi Anda atau anggota kolaborasi yang bermitra."
+      },
+      "contributeContent": {
+        "label": "Siapa yang dapat memberi kontribusi konten?",
+        "members": {
+          "label": "Anggota",
+          "description": "Semua anggota grup"
+        },
+        "admins": {
+          "label": "Administrator",
+          "description": "Pemilik dan pengelola grup"
+        },
+        "createFollowers": {
+          "admins": "Pemilik dan pengelola grup (default yang disarankan)"
+        },
+        "createAssociation": {
+          "admins": "Pemilik dan pengelola grup (default yang disarankan)"
+        }
+      },
+      "join": {
+        "label": "Bagaimana cara orang-orang bergabung dalam grup ini",
+        "invite": {
+          "label": "Undangan",
+          "description": "Berdasarkan undangan saja"
+        },
+        "request": {
+          "label": "Permintaan",
+          "description": "Melalui permintaan"
+        },
+        "auto": {
+          "label": "Diri mereka sendiri",
+          "description": "Dengan menambahkan diri secara mandiri"
+        },
+        "constError": "Grup privat harus berdasarkan undangan saja.",
+        "patternError": "Grup pembaruan bersama atau admin harus berdasarkan undangan atau permintaan."
+      },
+      "hiddenMembers": {
+        "label": "Siapa yang dapat melihat daftar lengkap anggota pada tab Anggota grup?",
+        "members": {
+          "label": "Anggota",
+          "description": "Semua anggota grup"
+        },
+        "admins": {
+          "label": "Administrator",
+          "description": "Pemilik dan pengelola grup"
+        }
+      },
+      "discussable": {
+        "label": "Apakah grup ini dapat berpartisipasi dalam diskusi?",
+        "enabled": {
+          "label": "Ya, diskusi diizinkan",
+          "description": "Anggota grup dapat melihat dan berpartisipasi di dalam saluran diskusi yang aksesnya dimiliki grup tersebut."
+        },
+        "disabled": {
+          "label": "Tidak, diskusi diblokir",
+          "description": "Anggota grup tidak dapat melihat atau berpartisipasi di dalam saluran diskusi yang aksesnya dimiliki grup tersebut."
+        }
+      }
+    }
+  },
+  "initiativeTemplate": {
+    "sections": {
+      "basicInfo": {
+        "label": "Informasi Dasar"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Nama",
+        "requiredError": "Nama template inisiatif adalah bidang yang wajib diisi",
+        "entityTitleValidatorError": "Nama template inisiatif tidak boleh menyertakan karakter emoji, <, >, atau ="
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Slug adalah versi nama template inisiatif yang ramah URL. Slug dibuat otomatis berdasarkan nama template inisiatif, tetapi Anda bisa menyesuaikannya.",
+        "patternError": "Kesalahan: Slug harus berupa karakter alfanumerik huruf kecil yang dipisahkan tanda hubung.",
+        "isUniqueError": "Slug ini sudah digunakan. Harap pilih yang lain."
+      },
+      "previewUrl": {
+        "label": "Pratinjau tautan",
+        "helperText": "Pratinjau tautan akan diterapkan pada judul dan berguna jika Anda berencana membagikan template secara publik. Tautan harus dimulai dengan \"https://\"",
+        "formatError": "Pemformatan URL salah"
+      },
+      "summary": {
+        "label": "Ringkasan",
+        "helperText": "Tulis deskripsi singkat tentang template ini agar muncul di galeri template (direkomendasikan maksimal 90 karakter)."
+      },
+      "description": {
+        "label": "Deskripsi",
+        "helperText": "Sertakan informasi tentang bagaimana template ini harus digunakan. Pertimbangkan untuk menyertakan instruksi aktivasi untuk orang lain."
+      },
+      "_thumbnail": {
+        "label": "Thumbnail",
+        "helperText": "Atur thumbnail untuk mewakili template ini di ArcGIS Online serta pencarian dan galeri.",
+        "sizeDescription": "Ukuran maksimal adalah 10mb. Ukuran yang disarankan: 750 x 505 atau lebih besar"
+      },
+      "recommendedTemplates": {
+        "label": "Template yang direkomendasikan",
+        "catalog": {
+          "myContent": "Konten saya",
+          "favorites": "Favorit",
+          "organization": "Organisasi saya",
+          "world": "Dunia (Publik)"
+        },
+        "facets": {
+          "sharing": "Berbagi"
+        },
+        "pickerTitle": "Pilih template"
+      }
+    }
+  },
+  "template": {
+    "sections": {
+      "basicInfo": {
+        "label": "Informasi Dasar"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Nama template",
+        "requiredError": "Nama template adalah bidang yang wajib diisi",
+        "maxLengthError": "Nama template tidak boleh melebihi 250 karakter",
+        "entityTitleValidatorError": "Nama template tidak boleh menyertakan karakter emoji, <, >, atau ="
+      },
+      "previewUrl": {
+        "label": "Pratinjau tautan",
+        "helperText": "Pratinjau tautan akan diterapkan pada judul dan berguna jika Anda berencana membagikan template secara publik. Tautan harus dimulai dengan \"https://\"",
+        "formatError": "Pemformatan URL salah"
+      },
+      "description": {
+        "label": "Deskripsi",
+        "helperText": "Sertakan informasi tentang bagaimana template ini harus digunakan. Pertimbangkan untuk menyertakan instruksi aktivasi untuk orang lain."
+      },
+      "summary": {
+        "label": "Ringkasan",
+        "helperText": "Tulis deskripsi singkat tentang template ini agar muncul di galeri template (direkomendasikan maksimal 90 karakter)."
+      },
+      "_thumbnail": {
+        "helperText": "Pilih gambar untuk mewakili template Anda di galeri."
+      }
+    }
+  },
+  "survey": {
+    "sections": {
+      "basicInfo": {
+        "label": "Informasi Dasar"
+      },
+      "searchDiscoverability": {
+        "label": "Pencarian dan kemampuan untuk ditemukan"
+      },
+      "settings": {
+        "label": "Tampilan peta"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Nama survei",
+        "requiredError": "Kolom Nama survei wajib diisi",
+        "maxLengthError": "Nama survei tidak boleh melebihi 250 karakter",
+        "entityTitleValidatorError": "Nama survei tidak boleh menyertakan karakter emoji, <, >, atau ="
+      },
+      "description": {
+        "label": "Deskripsi",
+        "helperText": "Deskripsi survei."
+      },
+      "summary": {
+        "label": "Ringkasan",
+        "helperText": "Ringkas survei secara singkat."
+      },
+      "_thumbnail": {
+        "helperText": "Atur thumbnail untuk mewakili survei ini di ArcGIS Online serta di pencarian dan galeri."
+      },
+      "tags": {
+        "label": "Tag",
+        "helperText": "Tag digunakan dalam katalog pencarian untuk membantu orang lain menemukan situs ini. Tambahkan teks dan pilih enter untuk membuat tag baru."
+      },
+      "categories": {
+        "helperText": "Kategori digunakan dalam katalog pencarian untuk membantu orang lain menemukan survei ini. Persyaratan tersebut ditetapkan oleh organisasi Anda."
+      },
+      "displayMap": {
+        "label": "Bagaimana seharusnya survei Anda ditampilkan saat dibuka di ArcGIS Hub?",
+        "enabled": {
+          "label": "Fokus peta",
+          "description": "Pengalaman peta imersif, pertanyaan peta ditampilkan terlebih dahulu."
+        },
+        "disabled": {
+          "label": "Tampilan standar",
+          "description": "Peta ditampilkan sejajar dengan pertanyaan lainnya."
+        },
+        "notice": {
+          "title": "Memerlukan pertanyaan peta",
+          "message": "Terbitkan survei Anda dengan pertanyaan peta di Survey123 untuk mengonfigurasi tampilan peta di ArcGIS Hub."
+        }
+      }
+    }
+  },
+  "event": {
+    "fields": {
+      "name": {
+        "label": "Judul",
+        "requiredError": "Judul wajib diisi",
+        "entityTitleValidatorError": "Nama acara tidak boleh menyertakan karakter emoji, <, >, atau ="
+      },
+      "startDate": {
+        "label": "Tanggal mulai",
+        "requiredError": "Tanggal mulai wajib diisi",
+        "minDateError": "Tanggal mulai tidak bisa sebelum hari ini"
+      },
+      "endDate": {
+        "label": "Tanggal berakhir",
+        "requiredError": "Tanggal berakhir wajib diisi",
+        "minDateError": "Tanggal berakhir tidak boleh sebelum tanggal mulai"
+      },
+      "date": {
+        "label": "Tanggal",
+        "requiredError": "Tanggal wajib diisi",
+        "minDateError": "Tanggal tidak bisa sebelum hari ini"
+      },
+      "startTime": {
+        "label": "Waktu mulai",
+        "requiredError": "Waktu mulai wajib diisi"
+      },
+      "endTime": {
+        "label": "Waktu berakhir",
+        "requiredError": "Waktu berakhir wajib diisi",
+        "minTimeError": "Waktu berakhir harus setelah waktu mulai"
+      },
+      "allDay": {
+        "label": "Sepanjang hari"
+      },
+      "timeZone": {
+        "label": "Zona waktu",
+        "requiredError": "Zona waktu adalah kolom yang wajib diisi"
+      },
+      "attendanceType": {
+        "label": "Di mana",
+        "inPerson": {
+          "label": "Secara langsung"
+        },
+        "online": {
+          "label": "Online"
+        },
+        "both": {
+          "label": "Keduanya"
+        }
+      },
+      "onlineUrl": {
+        "label": "Tautan untuk mengikuti peristiwa online",
+        "requiredError": "URL wajib diisi untuk peristiwa online atau hybrid",
+        "linkHrefFormatError": "Pemformatan URL salah"
+      },
+      "description": {
+        "label": "Deskripsi",
+        "helperText": "Tambahkan informasi tambahan untuk pendaftar, seperti jenis acara, tujuan, agenda, hal-hal yang perlu dibawa, transportasi, dll.",
+        "requiredError": "Deskripsi wajib diisi"
+      },
+      "inPersonCapacity": {
+        "label": "Kapasitas maksimum individu",
+        "requiredError": "Kapasitas individu maksimum wajib diisi",
+        "minimumError": "Kapasitas individu maksimum harus lebih besar dari 0"
+      },
+      "inPersonCapacityType": {
+        "label": "Kapasitas pendaftaran individu",
+        "unlimited": {
+          "label": "Tidak terbatas"
+        },
+        "fixed": {
+          "label": "Tetap"
+        }
+      },
+      "location": {
+        "label": "Tunjukkan area geografis tempat acara ini akan berlangsung (untuk ditampilkan di tata letak acara)."
+      },
+      "onlineCapacityType": {
+        "label": "Kapasitas pendaftaran online",
+        "unlimited": {
+          "label": "Tidak terbatas"
+        },
+        "fixed": {
+          "label": "Tetap"
+        }
+      },
+      "onlineCapacity": {
+        "label": "Kapasitas online maksimum",
+        "requiredError": "Kapasitas online maksimum wajib diisi",
+        "minimumError": "Kapasitas online maksimum harus lebih besar dari 0"
+      },
+      "onlineDetails": {
+        "label": "Detail peristiwa online",
+        "helperText": "Tambahkan informasi tambahan untuk pendaftar, seperti kode sandi, informasi nomor dial-in, dan lainnya."
+      },
+      "categories": {
+        "helperText": "Kategori digunakan dalam katalog pencarian untuk membantu orang lain menemukan peristiwa ini. Persyaratan tersebut ditetapkan oleh organisasi Anda."
+      },
+      "tags": {
+        "label": "Tag",
+        "helperText": "Tag digunakan dalam katalog pencarian untuk membantu orang lain menemukan peristiwa ini. Tambahkan teks dan pilih enter untuk membuat tag baru."
+      },
+      "summary": {
+        "label": "Ringkasan",
+        "helperText": "Jelaskan tujuan peristiwa ini dengan singkat yang bisa membantu saat membagikan tautan ke orang lain."
+      },
+      "allowRegistration": {
+        "label": "Izinkan pendaftaran",
+        "helperText": "Wajib memiliki akun untuk mendaftar atau diundang untuk hadir.",
+        "enabled": {
+          "label": "Tombol pendaftaran diaktifkan",
+          "description": "Semua anggota yang dapat melihat acara dapat mendaftar."
+        },
+        "disabled": {
+          "label": "Tombol pendaftaran dinonaktifkan",
+          "description": "Pendaftaran hanya untuk undangan atau tidak lagi dilacak."
+        }
+      },
+      "notifyAttendees": {
+        "label": "Kirim notifikasi otomatis",
+        "helperText": "Pelanggan acara dapat menerima notifikasi email otomatis yang berisi pengingat atau perubahan. Orang yang mendaftar untuk hadir akan berlangganan secara otomatis.",
+        "enabled": {
+          "label": "Notifikasi diaktifkan",
+          "description": "Tombol langganan ditampilkan di acara."
+        },
+        "disabled": {
+          "label": "Notifikasi dinonaktifkan",
+          "description": "Tombol langganan disembunyikan dari acara."
+        }
+      },
+      "referencedContent": {
+        "label": "Konten terhubung",
+        "helperText": {
+          "label": "Hubungkan satu proyek, inisiatif, atau situs terkait acara ini."
+        },
+        "facets": {
+          "from": {
+            "label": "Dari",
+            "myContent": {
+              "label": "Konten saya"
+            },
+            "myOrganization": {
+              "label": "Organisasi saya"
+            }
+          },
+          "access": {
+            "label": "Akses"
+          }
+        },
+        "catalog": {
+          "organization": "Organisasi"
+        },
+        "collection": {
+          "sites": "Situs",
+          "initiatives": "Prakarsa",
+          "projects": "Proyek"
+        }
+      }
+    },
+    "sections": {
+      "referencedContent": {
+        "label": "Konten terhubung"
+      },
+      "eventInfo": {
+        "label": "Info peristiwa"
+      },
+      "dateTime": {
+        "label": "Waktu & tanggal"
+      },
+      "location": {
+        "label": "Lokasi"
+      },
+      "discoverability": {
+        "label": "Pencarian dan kemampuan untuk ditemukan"
+      }
+    }
+  },
+  "user": {
+    "sections": {
+      "userSettings": "Preferensi pengguna",
+      "orgSettings": {
+        "label": "Pengaturan organisasi",
+        "signinSettings": {
+          "label": "Opsi masuk",
+          "helperText": "Sesuaikan informasi yang akan dilihat pengguna jika mereka memilih untuk mendaftar akun Komunitas di Hub Anda."
+        },
+        "siteDefaults": {
+          "label": "Tampilan situs default"
+        }
+      }
+    },
+    "fields": {
+      "enableTermsAndConditions": {
+        "label": "Memerlukan ketentuan penggunaan khusus pada formulir pendaftaran"
+      },
+      "termsAndConditions": {
+        "label": "Ketentuan penggunaan"
+      },
+      "enableSignupText": {
+        "label": "Konfigurasi pesan selamat datang mendaftar khusus"
+      },
+      "workspacePreview": {
+        "label": "Aktifkan pratinjau ruang kerja",
+        "helperText": "Ruang kerja tersedia untuk pratinjau tetapi masih dalam pengembangan seiring kami memperluas fungsionalitas. Anda dapat menonaktifkan ruang kerja kapan saja selama periode pratinjau. Mengaktifkan ruang kerja hanya akan berdampak pada akun pengguna ini."
+      },
+      "infoBanner": {
+        "label": "Banner informasi",
+        "helperText": "Tampilkan banner informasi organisasi karyawan Anda, jika dikonfigurasi, di seluruh situs dan halaman. Ini adalah pengaturan global dan tidak dapat diaktifkan/dinonaktifkan untuk situs tertentu.",
+        "helperTextWhenDisabled": "Anda saat ini tidak memiliki banner informasi yang dikonfigurasi. Klik tautan di bawah ini untuk diarahkan ke ArcGIS Online tempat Anda dapat mengonfigurasi banner informasi.",
+        "goToBannerConfig": "Konfigurasi banner informasi di ArcGIS Online"
+      }
+    },
+    "notice": {
+      "title": "Manajemen organisasi",
+      "message": "Sebagian besar pengaturan organisasi staf dan komunitas (khusus Hub Premium) kini dikelola di organisasi beranda ArcGIS.",
+      "communityMessage": "Sebagian besar pengaturan organisasi staf dan komunitas (khusus Hub Premium) kini dikelola di organisasi beranda ArcGIS. <br /> <br /> Organisasi komunitas Anda adalah",
+      "staffMessage": "Sebagian besar pengaturan organisasi staf dan komunitas (khusus Hub Premium) kini dikelola di organisasi beranda ArcGIS. <br /> <br /> Organisasi staf Anda adalah",
+      "actions": {
+        "goToOrg": "Buka pengaturan organisasi",
+        "goToCommunityOrg": "Bukan organisasi komunitas",
+        "goToStaffOrg": "Buka organisasi staf"
+      }
+    }
+  }
+}

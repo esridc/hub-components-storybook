@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "Đã tự động hóa theo Hub",
+      "actionText": "Thông tin tùy chọn tự động"
+    },
+    "daily": {
+      "defaultLabel": "Hàng ngày",
+      "defaultExpandedHelperText": "Mỗi ngày vào giờ đã chọn trong múi giờ đã chọn.",
+      "actionText": "Thông tin tùy chọn hàng ngày"
+    },
+    "weekly": {
+      "defaultLabel": "Hàng tuần",
+      "defaultExpandedHelperText": "Mỗi tuần vào ngày và giờ sau đây trong múi giờ đã chọn.",
+      "actionText": "Thông tin tùy chọn hàng tuần"
+    },
+    "monthly": {
+      "defaultLabel": "Hàng tháng",
+      "defaultExpandedHelperText": "Mỗi tháng vào ngày và giờ sau đây trong múi giờ đã chọn.",
+      "actionText": "Thông tin tùy chọn hàng tháng"
+    },
+    "yearly": {
+      "defaultLabel": "Hàng năm",
+      "defaultExpandedHelperText": "Mỗi năm vào tháng, ngày và giờ sau đây trong múi giờ đã chọn.",
+      "actionText": "Thông tin tùy chọn hàng năm"
+    },
+    "manual": {
+      "defaultLabel": "Thủ công",
+      "defaultExpandedHelperText": "Sử dụng tùy chọn này nếu bạn muốn cập nhật thủ công chỉ mục tìm kiếm và các tệp tải xuống đã lưu vào bộ nhớ cache cho mục này.",
+      "actionText": "Thông tin tùy chọn thủ công"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "Thời gian trong ngày",
+      "inputMessage": "Thời gian sẽ được làm tròn đến giờ gần nhất.",
+      "error": "Vui lòng chọn một giờ."
+    },
+    "day": {
+      "helperText": "Ngày trong tuần",
+      "daysOfTheWeek": {
+        "sunday": "Chủ Nhật",
+        "monday": "Thứ Hai",
+        "tuesday": "Thứ Ba",
+        "wednesday": "Thứ Tư",
+        "thursday": "Thứ Năm",
+        "friday": "Thứ Sáu",
+        "saturday": "Thứ Bảy"
+      },
+      "selectLabel": "Trình chọn ngày trong tuần",
+      "error": "Vui lòng chọn một ngày trong tuần."
+    },
+    "date": {
+      "helperText": "Ngày trong tháng",
+      "inputNumberPlaceholder": "Chọn một ngày trong tháng",
+      "inputMessage": "Nhập giá trị từ 1 đến 28 cho ngày trong tháng.",
+      "error": "Ngày trong tháng phải nằm trong khoảng 1 đến 28."
+    },
+    "month": {
+      "helperText": "Tháng trong năm",
+      "selectLabel": "Trình chọn tháng trong năm",
+      "monthsOfTheYear": {
+        "january": "Tháng 1",
+        "february": "Tháng 2",
+        "march": "Tháng 3",
+        "april": "Tháng 4",
+        "may": "Tháng 5",
+        "june": "Tháng 6",
+        "july": "Tháng 7",
+        "august": "Tháng 8",
+        "september": "Tháng 9",
+        "october": "Tháng 10",
+        "november": "Tháng 11",
+        "december": "Tháng 12"
+      },
+      "error": "Vui lòng chọn một tháng."
+    },
+    "timezone": {
+      "helperText": "Múi giờ",
+      "error": "Vui lòng chọn múi giờ."
+    }
+  },
+  "fieldHeader": "Tần suất"
+}

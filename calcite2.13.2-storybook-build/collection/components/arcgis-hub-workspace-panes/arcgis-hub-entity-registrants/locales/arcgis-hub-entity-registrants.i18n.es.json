@@ -1,0 +1,46 @@
+{
+  "registrants": "Solicitantes de registro",
+  "invite": "Invitar",
+  "tabs": {
+    "registrants": "Solicitantes de registro",
+    "settings": "Ajustes"
+  },
+  "emptyNotice": {
+    "title": "Ningún solicitante de registro",
+    "desc": "Los eventos siempre son más divertidos si hay público. Invite a personas o comparta su evento para animar a la gente a que asista.",
+    "link": "Invitar solicitantes de registro"
+  },
+  "facets": {
+    "role": {
+      "header": "Rol",
+      "owner": "Propietario",
+      "organizer": "Organizador",
+      "attendee": "Solicitante de registro"
+    },
+    "status": {
+      "header": "Estado",
+      "pending": "Pendiente",
+      "accepted": "Aceptado",
+      "declined": "Rechazado",
+      "blocked": "Bloqueado"
+    },
+    "location": {
+      "header": "Ubicación",
+      "online": "En línea",
+      "in_person": "Presencial"
+    },
+    "updatedDate": "Nueva fecha"
+  },
+  "delete": {
+    "attendee": "Eliminar solicitante de registro"
+  },
+  "notice": {
+    "label": "Alerta de formulario"
+  },
+  "success": {
+    "delete": "Los solicitantes de registro se han eliminado correctamente de {eventName}."
+  },
+  "error": {
+    "delete": "No se ha podido eliminar del evento a uno o varios solicitantes de registro."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "dashboard": "Töölaud",
+  "activityLogSection": {
+    "title": "Tegevuslogi",
+    "table": {
+      "downloadAction": "Allalaadimine",
+      "downloadAllAction": "Laadi kõik alla",
+      "downloadActionTooltip": "Laadi valitud tegevused alla",
+      "caption": "Viimatiste tõrgete tabel",
+      "columnHeaders": {
+        "datetime": "Kuupäev",
+        "layer": "Kiht",
+        "message": "Sõnum"
+      },
+      "noRecentErrors": "Viimatisi tõrkeid pole",
+      "expandText": "Kuva rohkem",
+      "collapseText": "Kuva vähem"
+    }
+  }
+}

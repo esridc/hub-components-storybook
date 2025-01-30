@@ -1,0 +1,85 @@
+{
+  "collaborators": "Saradnici",
+  "editGroupButtonText": "Dodaj uređene grupe",
+  "viewGroupButtonText": "Dodaj grupe za prikaz",
+  "groupPicker": {
+    "title": "Izaberite grupe",
+    "facet": {
+      "label": "Od",
+      "editGroups": "Uredi grupe",
+      "viewGroups": "Prikaz grupe",
+      "myGroups": "Moje grupe",
+      "myOrganization": "Moja organizacija",
+      "myCommunity": "Moja zajednica"
+    }
+  },
+  "addNewPeopleNotice": {
+    "title": "Dodaj nove ljude",
+    "message": "Ako je potrebno da dodate ljude, možete da ih pozovete da se priključe zajednici ili možete da <orgOverviewLink>kontaktirate svog administratora</orgOverviewLink>."
+  },
+  "editGroupsTitle": "Grupe koje mogu da urede",
+  "viewGroupsTitle": "Grupe koje mogu da pregledaju",
+  "project": {
+    "description": "Izaberite koje grupe korisnika mogu da pregledaju i urede ovaj projekat.",
+    "editGroupsDescription": "Ljudi u ovim grupama imaće mogućnost da urede sadržaj projekta.",
+    "viewGroupsDescription": "Ljudi u ovim grupama imaće mogućnost da pretražuju i pregledaju projekat, ako nije podeljen za javnost.",
+    "errorMessage": "Došlo je do greške prilikom ažuriranja saradnika za vaš projekat."
+  },
+  "content": {
+    "description": "Izaberite koje grupe korisnika mogu da pregledaju i urede ovaj sadržaj.",
+    "editGroupsDescription": "Ljudi u ovim grupama imaće mogućnost da urede sadržaj informacija.",
+    "viewGroupsDescription": "Ljudi u ovim grupama imaće mogućnost da pretražuju i pregledaju sadržaj, ako nije podeljen za javnost.",
+    "errorMessage": "Došlo je do greške prilikom ažuriranja saradnika za vaš sadržaj."
+  },
+  "discussion": {
+    "description": "Odaberite koje grupe korisnika mogu da vide tablu za diskusiju i koje mogu da uređuju informacije na tabli.",
+    "editGroupsDescription": "Članovi ovih grupa mogu da uređuju tablu za diskusiju.",
+    "viewGroupsDescription": "Članovi ovih grupa mogu da pretražuju i gledaju tablu za diskusiju (ukoliko nije podeljena sa javnošću).",
+    "errorMessage": "Došlo je do greške prilikom ažuriranja saradnika za Vašu diskusiju."
+  },
+  "site": {
+    "description": "Izaberite koje grupe korisnika mogu da pregledaju i urede ovaj sajt.",
+    "editGroupsDescription": "Ljudi u ovim grupama imaće mogućnost da urede informacije sajta.",
+    "viewGroupsDescription": "Ljudi u ovim grupama imaće mogućnost da pretražuju i pregledaju sajt, ako nije podeljen za javnost.",
+    "errorMessage": "Došlo je do greške prilikom ažuriranja saradnika za vaš sajt."
+  },
+  "template": {
+    "description": "Izaberite koje grupe korisnika mogu da pregledaju i urede ovaj šablon.",
+    "editGroupsDescription": "Ljudi u ovim grupama imaće mogućnost da urede informacije šablona.",
+    "viewGroupsDescription": "Ljudi u ovim grupama imaće mogućnost da pretražuju i pregledaju šablon, ako nije podeljen za javnost.",
+    "errorMessage": "Došlo je do greške prilikom ažuriranja saradnika za vaš šablon."
+  },
+  "survey": {
+    "description": "Izaberite koje grupe korisnika mogu da pregledaju i uređuju ovu anketu.",
+    "editGroupsDescription": "Ljudi u ovim grupama moći će da uređuju informacije o anketi.",
+    "viewGroupsDescription": "Ljudi u ovim grupama moći će da pretražuju i pregledaju anketu, ako nije podeljena za javnost.",
+    "errorMessage": "Došlo je do greške prilikom ažuriranja saradnika za vašu anketu."
+  },
+  "event": {
+    "description": "Izaberite koje grupe korisnika mogu da pregledaju i uređuju ovaj događaj.",
+    "editGroupsDescription": "Ljudi u ovim grupama imaće mogućnost da uređuju informacije o događaju.",
+    "viewGroupsDescription": "Ljudi u ovim grupama imaće mogućnost da pretražuju i pregledaju događaj, ako nije podeljen za javnost.",
+    "errorMessage": "Došlo je do greške prilikom ažuriranja saradnika za vaš događaj."
+  },
+  "newTab": "otvori profil u novoj kartici",
+  "supportingTeams": "Timovi za podršku",
+  "supportingTeamsDesc": "Ovi timovi za podršku su prethodno povezani sa vašim sajtom. Možete nastaviti da ih koristite za deljenje sadržaja sa saradnicima.",
+  "supportTeamsRemove": "Uklonite tim",
+  "supportingTeamsRemoveError": "Greška pri uklanjanju tima. Obratite se administratoru.",
+  "supportingTeamsRemoveSuccess": "Uspešno je uklonjen tim.",
+  "view": {
+    "button": "Napravi grupu za pregled",
+    "formLabel": "Nova grupa za pregled",
+    "description": "Podesite grupu da biste olakšali deljenje sadržaja i komunikaciju. Članovi grupe će moći da vide bilo koji sadržaj koji se deli sa grupom."
+  },
+  "edit": {
+    "button": "Napravi grupu za uređivanje",
+    "formLabel": "Nova grupa za uređivanje",
+    "description": "Podesite grupu da biste olakšali deljenje sadržaja i komunikaciju. Članovi grupe će moći da vide i uređuju bilo koji sadržaj koji se deli sa grupom."
+  },
+  "groupCreateDisabledButtonTooltip": "Nemate mogućnost da napravite grupu. Možda ste već u maksimalno dozvoljenom broju grupa ili nemate dovoljno privilegija za pravljenje grupe.",
+  "groupCreateError": "Došlo je do greške pri pravljenju grupe.",
+  "notice": {
+    "label": "Formiraj upozorenje"
+  }
+}

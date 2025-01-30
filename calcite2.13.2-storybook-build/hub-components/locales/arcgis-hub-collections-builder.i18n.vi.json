@@ -1,0 +1,15 @@
+{
+  "newCollection": "Bộ sưu tập mới",
+  "block": {
+    "heading": {
+      "untitled": "Bộ sưu tập không tên"
+    },
+    "actions": {
+      "delete": "Xóa bộ sưu tập: {label}"
+    }
+  },
+  "name": {
+    "label": "Tên",
+    "requiredError": "Tên bộ sưu tập là bắt buộc"
+  }
+}

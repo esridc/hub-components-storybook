@@ -1,0 +1,49 @@
+{
+  "settings": "Setări",
+  "advanced": "Avansat",
+  "delete": {
+    "event": "Ștergeți acest eveniment",
+    "desc": "Ștergerea acestui eveniment nu poate fi revocată. Înregistratorii existenți vor fi notificați (dacă notificările automate sunt activate pentru eveniment).",
+    "deleteButton": "Ștergere eveniment"
+  },
+  "cancel": {
+    "header": "Anulați acest eveniment",
+    "desc": "Dacă este anulat, acest eveniment va rămâne vizibil cu stare anulată. Înregistrarea se va opri și înregistratorii existenți vor fi notificați (dacă notificările automate sunt activate pentru eveniment).",
+    "event": "Anulare eveniment",
+    "notice": {
+      "success": {
+        "title": "Eveniment anulat",
+        "message": "Înregistratorii existenți vor fi notificați dacă notificările automate sunt activate."
+      },
+      "error": {
+        "title": "Nu s-a putut anula evenimentul",
+        "message": "Încercați din nou"
+      }
+    }
+  },
+  "enable": {
+    "event": "Reactivare eveniment",
+    "desc": "Eveniment anulat (vizibil cu o stare anulată).",
+    "notice": {
+      "success": {
+        "title": "Eveniment reactivat",
+        "message": "Înregistratorii existenți vor fi notificați dacă notificările automate sunt activate."
+      },
+      "error": {
+        "title": "Nu s-a putut reactiva evenimentul",
+        "message": "Încercați din nou"
+      }
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "event": "Ștergere eveniment"
+    },
+    "content": "Sigur doriți să ștergeți:",
+    "delete": "Ștergere eveniment",
+    "cancel": "Anulare eveniment"
+  },
+  "notice": {
+    "label": "Alertă formular"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "dynamicStat": {
+    "facets": {
+      "sharing": "Deljenje",
+      "myself": "Jaz",
+      "myOrganization": "Moja organizacija",
+      "public": "Svet (javno)"
+    },
+    "catalog": {
+      "myContent": "Moja vsebina",
+      "favorites": "Priljubljene",
+      "organization": "Moja organizacija",
+      "world": "Svet (javno)"
+    }
+  },
+  "expression": {
+    "label": "Filtri atributov"
+  },
+  "field": {
+    "label": "Atribut"
+  },
+  "layer": "Sloj/tabela",
+  "statistic": {
+    "label": "Agregacija",
+    "aggregations": {
+      "count": "Število",
+      "min": "Minimum",
+      "max": "Maksimum",
+      "sum": "Vsota",
+      "avg": "Povprečje",
+      "stddev": "Standardni odklon",
+      "var": "Varianca"
+    }
+  }
+}

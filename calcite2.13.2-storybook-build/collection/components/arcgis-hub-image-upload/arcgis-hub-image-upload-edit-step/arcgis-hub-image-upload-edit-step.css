@@ -1,0 +1,89 @@
+:host {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  min-height: 20.625rem;
+}
+
+.edit-step__loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.edit-step__crop-thumb-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.edit-step__crop-thumb-container--hidden {
+  visibility: hidden;
+}
+
+.edit-step__translucent-container {
+  position: absolute;
+  top: 0px;
+  overflow: hidden;
+  left: 50%;
+  cursor: all-scroll;
+  transform: translate(-50%);
+}
+
+.edit-step__translucent-container:after {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  content: "";
+  opacity: 0.9;
+  border: 1.875rem solid white;
+}
+
+.edit-step__transparent-container {
+  position: absolute;
+  box-sizing: border-box;
+  overflow-x: visible;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  background-color: var(--calcite-color-foreground-3);
+    border: 1px solid var(--calcite-color-border-1);
+  margin-right: -50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.edit-step__preview-image {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin: 0px;
+  transform-origin: 50% 50%;
+}
+
+.edit-step__preview-image--loading {
+  visibility: hidden;
+}
+
+.edit-step__transparent-container:focus .edit-step__preview-image {
+  box-shadow: 0px 0px 6px 4px var(--calcite-color-brand);
+}
+
+.edit-step__zoom-control--hidden {
+  visibility: hidden;
+}
+
+.edit-step__zoom-control-label {
+  display: flex;
+  height: 2rem;
+}
+
+.edit-step__zoom-control-label-spacer {
+  flex: 1 1 0%;
+}

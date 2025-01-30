@@ -1,0 +1,66 @@
+{
+  "followers": "Urmăritori",
+  "tabs": {
+    "followers": "Urmăritori",
+    "settings": "Setări"
+  },
+  "addFollowers": {
+    "label": "Adăugare urmăritori"
+  },
+  "emptyState": {
+    "message": "Site-ul nu are un grup de urmăritori",
+    "action": "Creare grup de urmăritori"
+  },
+  "createFollowersGroup": {
+    "formDescription": "Configurați un grup pentru a facilita partajarea conținutului și comunicarea",
+    "defaultSummary": "Acest grup de urmăritori permite membrilor să partajeze mai ușor conținut și să comunice unii cu alții"
+  },
+  "restrictedAccessState": {
+    "message": "Nu aveți acces pentru a vizualiza grupul de urmăritori.",
+    "action": "Solicitare acces"
+  },
+  "stats": {
+    "total": {
+      "title": "Total",
+      "trailingText": "Urmăritori"
+    },
+    "new": {
+      "title": "Nou",
+      "trailingText": "Ultimele 30 de zile"
+    }
+  },
+  "addMembers": {
+    "button": "Adăugare membri",
+    "modal": {
+      "title": "Adăugare membri",
+      "org": "Organizația mea",
+      "community": "Comunitatea mea",
+      "partner": "Partenerii mei",
+      "world": "Glob"
+    },
+    "notifications": {
+      "invited": "Invitație trimisă. Utilizatorii trebuie să accepte să se alăture",
+      "added": "Utilizatori adăugați",
+      "notInvited": "Unii utilizatori pot să nu aibă privilegiile necesare pentru a intra în grup sau pot fi la o limită maximă de grup (512)"
+    }
+  },
+  "removeUsers": {
+    "button": "Eliminare",
+    "success": "Membrii eliminați cu succes din {groupName}.",
+    "error": "Unul sau mai mulți utilizatori nu au putut fi eliminați din grup."
+  },
+  "changeRole": {
+    "button": "Schimbare rol",
+    "member": "Membru",
+    "memberHelperText": "Poate adăuga și vedea conținutul din grup.",
+    "tooltipText": "Deselectați-vă pe dvs. și/sau proprietarul grupului",
+    "tooltipLabel": "Precizări legale rol",
+    "admin": "Manager",
+    "adminHelperText": "Poate adăuga/elimina conținut și invita/elimina persoane (cu excepția proprietarului).",
+    "success": "Membrii selectați au devenit grup {role}.",
+    "error": "Rolul nu a putut fi schimbat pentru unul sau mai mulți membri."
+  },
+  "notice": {
+    "label": "Alertă formular"
+  }
+}

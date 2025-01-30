@@ -1,0 +1,23 @@
+{
+  "overview": "Oversikt",
+  "telemetry": {
+    "pageViews": "Sidevisninger",
+    "last30days": "Siste 30 dager",
+    "lastUpdated": "Sist oppdatert for {hoursElapsed} timer siden",
+    "checkTomorrow": "Kom tilbake i morgen"
+  },
+  "learnAbout": "Lær om Hub-initiativer",
+  "feedbackNotice": {
+    "message": "Liker du Hub-initiativene? Vi vil gjerne høre hvordan du vil bruke dem.",
+    "link": "Send tilbakemelding"
+  },
+  "status": {
+    "notStarted": "Ikke startet",
+    "inProgress": "Pågår",
+    "onHold": "På vent",
+    "complete": "Fullført"
+  },
+  "editDetails": "Redigere detaljer",
+  "noPurposeSet": "Ingen formål angitt",
+  "noLocationSet": "Ingen lokasjon angitt"
+}

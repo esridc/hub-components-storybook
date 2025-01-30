@@ -1,0 +1,1 @@
+import{E as t,g as e}from"./p-22ce4349.js";import{g as n}from"./p-00e65534.js";function o(t,e){const o=t.split("-");return n(Object.assign({eventId:o[o.length-1],data:{include:"associations"}},e)).then((t=>r(t))).catch((()=>{throw new Error("Failed to fetch event.")}))}async function r(n){return new t(e()).storeToEntity(n,{})}export{r as c,o as f}

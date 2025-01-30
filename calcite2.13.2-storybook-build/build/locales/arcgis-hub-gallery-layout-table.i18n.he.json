@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "לא נמצאו תוצאות."
+    },
+    "error": {
+      "message": "לצערנו החיפוש נתקל בשגיאה."
+    }
+  },
+  "access": "גישה",
+  "actionsHeader": "פעולות",
+  "caption": "טבלת של ישות Hub",
+  "family": "משפחה",
+  "type": "סוג",
+  "tags": "תגיות",
+  "owner": "בעלים",
+  "dateCreated": "נוצר",
+  "dateUpdated": "שונה",
+  "description": "תיאור",
+  "dateAndTime": "תאריך ושעה",
+  "location": "מיקום",
+  "attendanceType": "סוג השתתפות",
+  "inPerson": "פנים אל פנים",
+  "online": "מקוון",
+  "hybrid": "היברידי",
+  "categories": "קטגוריות",
+  "content": "תוכן",
+  "name": "שם",
+  "start": "התחלה",
+  "end": "סוף",
+  "sharedUpdate": "עדכון משותף",
+  "managers": "מנהלים",
+  "username": "שם משתמש",
+  "no": "לא",
+  "yes": "כן",
+  "title": "כותרת",
+  "thumbnail": "תמונה ממוזערת",
+  "types": {
+    "app": "יישום",
+    "content": "תוכן",
+    "dataset": "סט נתונים",
+    "discussion": "לוח דיונים",
+    "document": "מסמך",
+    "event": "אירוע",
+    "feedback": "משוב",
+    "initiative": "יוזמה",
+    "image": "תמונה",
+    "map": "מפה",
+    "other": "אחר",
+    "people": "אנשים",
+    "site": "אתר",
+    "team": "קבוצה",
+    "template": "תבנית",
+    "project": "פרויקט"
+  }
+}

@@ -1,0 +1,1346 @@
+{
+  "success": "A módosítások mentése sikerült",
+  "error": "Nem sikerült a módosítások mentése",
+  "formAlert": "Űrlappal kapcsolatos figyelmeztetés",
+  "create": "Létrehozás",
+  "shared": {
+    "notices": {
+      "metrics": {
+        "preview": {
+          "label": "Mutató előnézete",
+          "message": "Az itt végrehajtott módosítások a mutató előnézetben jelennek meg."
+        }
+      }
+    },
+    "sections": {
+      "metrics": {
+        "basic": {
+          "label": "Alapinformáció"
+        },
+        "source": {
+          "label": "Érték"
+        },
+        "formatting": {
+          "label": "Formázás"
+        },
+        "sharing": {
+          "label": "Megosztás"
+        }
+      },
+      "mapSettings": {
+        "label": "Térképbeállítások"
+      }
+    },
+    "errors": {
+      "urlFormat": "Az URL formátuma helytelen"
+    },
+    "fields": {
+      "name": {
+        "maxLengthError": "A név legfeljebb 250 karakter hosszú lehet"
+      },
+      "title": {
+        "maxLengthError": "A cím legfeljebb 250 karakter hosszú lehet"
+      },
+      "summary": {
+        "maxLengthError": "Az összefoglalás legfeljebb 2048 karakter hosszú lehet"
+      },
+      "purpose": {
+        "maxLengthError": "A cél legfeljebb 250 karakter hosszú lehet"
+      },
+      "_thumbnail": {
+        "label": "Bélyegkép",
+        "sizeDescription": "A maximális méret legfeljebb 10 MB lehet. Ajánlott méret: legalább 760 × 505",
+        "defaultThumbnailNotice": "Töltse fel saját bélyegképét az alapértelmezett helyett."
+      },
+      "location": {
+        "none": "Nincs hely",
+        "org": "Szervezet kiterjedése",
+        "custom": "Egyéni hely",
+        "customDescription": "Rajzoljon egy vagy több helyet",
+        "itemExtent": "Elem aktuális kiterjedése"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Típus",
+          "sharing": "Megosztás"
+        },
+        "catalog": {
+          "myContent": "Saját tartalom",
+          "favorites": "Kedvencek",
+          "organization": "Szervezet",
+          "world": "Világ (Nyilvános)"
+        },
+        "collection": {
+          "appsAndMaps": "Alkalmazások és térképek",
+          "dataset": "Adatok",
+          "documents": "Dokumentumok",
+          "feedback": "Visszajelzés",
+          "sites": "Webhelyek",
+          "projects": "Projektek"
+        }
+      },
+      "metrics": {
+        "allowDynamicLink": {
+          "label": "Forráshivatkozás megjelenítése"
+        },
+        "cardTitle": {
+          "label": "Cím",
+          "message": {
+            "required": "Ez a mező kötelező."
+          }
+        },
+        "dynamicMetric": {
+          "label": "Adatforrás"
+        },
+        "value": {
+          "label": "Érték",
+          "message": {
+            "required": "Ez a mező kötelező."
+          }
+        },
+        "unit": {
+          "label": "Mértékegységek",
+          "helperText": "Egy előtag vagy utótag értéket állíthat be, például %, +, $ vagy egyéb. Ha semmit sem szeretne megjeleníteni, akkor hagyja üresen."
+        },
+        "unitPosition": {
+          "label": "Mértékegység helyzete",
+          "helperText": "Válassza ki, hogy a mértékegység (pl. „km”, „lbs”) hol jelenjen meg a mérőszámértékhez képest.",
+          "enum": {
+            "after": {
+              "label": "Az érték után"
+            },
+            "before": {
+              "label": "Az érték előtt"
+            },
+            "below": {
+              "label": "Az érték alatt"
+            }
+          }
+        },
+        "showShareIcon": {
+          "label": "Megosztás engedélyezése",
+          "helperText": {
+            "label": "Lehetővé teszi a felhasználók számára, hogy egy közvetlen hivatkozást másoljanak erre a metrikára."
+          }
+        },
+        "shareableOnHover": {
+          "label": "Megjelenítés rámutatáskor",
+          "helperText": {
+            "label": "A Megosztás gomb csak akkor jelenik meg, ha az egérrel rámutat. Ha ki van kapcsolva, a gomb mindig látható."
+          }
+        },
+        "sourceLink": {
+          "label": "Hivatkozás URL-címe",
+          "message": {
+            "required": "A forrás megjelenítéséhez szükséges link."
+          }
+        },
+        "sourceTitle": {
+          "label": "Hivatkozás szövege"
+        },
+        "trailingText": {
+          "label": "Befejező szöveg",
+          "helperText": "Adjon meg bármilyen további kontextust vagy magyarázatot (a mérőszámérték alatt való megjelenéshez)."
+        },
+        "type": {
+          "label": "Típus",
+          "enum": {
+            "dynamic": {
+              "label": "Dinamikus",
+              "description": "Válassza ki az összefoglalni kívánt meglévő adathalmazt (vektoros szolgáltatást)."
+            },
+            "static": {
+              "label": "Statikus",
+              "description": "Adja meg manuálisan az elrendezésben kiemelni kívánt értéket."
+            }
+          }
+        },
+        "valueType": {
+          "label": "Az érték típusa",
+          "helperText": "Válassza ki a megjeleníteni kívánt érték típusát.",
+          "enum": {
+            "string": {
+              "label": "Szöveg",
+              "description": "Bármilyen szó vagy kifejezés. Nem numerikus számításokhoz való használatra szánták. (pl. „Main Street”)"
+            },
+            "number": {
+              "label": "Szám",
+              "description": "Numerikus érték. Számításokhoz használható. (pl. 123)"
+            },
+            "date": {
+              "label": "Dátum",
+              "description": "Naptári dátumérték. Nem numerikus számításokhoz való használatra szánták. (pl.: „2018. 1. 1.”)"
+            }
+          }
+        }
+      },
+      "categories": {
+        "label": "Kategóriák",
+        "noCategoriesNotice": {
+          "body": "Ez a szervezet még nem rendelkezik kategóriákkal.",
+          "link": "Kategóriák beállítása"
+        }
+      },
+      "download": {
+        "format": {
+          "bip": "BIP",
+          "bmp": "BMP",
+          "bsq": "BSQ",
+          "gif": "GIF",
+          "jpg": "JPG",
+          "jpgPng": "JPG_PNG",
+          "lerc": "LERC",
+          "png": "PNG",
+          "png8": "PNG8",
+          "png24": "PNG24",
+          "png32": "PNG32",
+          "tiff": "TIFF",
+          "csv": "CSV",
+          "excel": "Excel",
+          "featureCollection": "Vektoros gyűjtemény",
+          "filegdb": "file geodatabase",
+          "geojson": "GeoJSON",
+          "geoPackage": "GeoPackage",
+          "json": "JSON",
+          "kml": "KML",
+          "shapefile": "Shapefile",
+          "sqlite": "SQLite geoadatbázis"
+        },
+        "additionalResource": "{resourceName} (metaadat-eloszlás)",
+        "dataSourceResource": "Adatforrás (metaadat-eloszlás)",
+        "noTitleResource": "Hivatkozás (nincs cím, metaadat-eloszlás)"
+      }
+    }
+  },
+  "project": {
+    "sections": {
+      "details": {
+        "label": "Részletek"
+      },
+      "basicInfo": {
+        "label": "Alapinformáció"
+      },
+      "location": {
+        "label": "Helyszín",
+        "helperText": "Mutassa meg azt a földrajzi területet, ahol a projekt megvalósul (a projekt térképi kimenetén)."
+      },
+      "status": {
+        "label": "Állapot"
+      },
+      "sharing": {
+        "label": "Megosztás"
+      },
+      "timeline": {
+        "label": "Idővonal"
+      },
+      "searchDiscoverability": {
+        "label": "Keresés és felfedezhetőség"
+      },
+      "featuredContent": {
+        "label": "Kiemelt tartalom",
+        "helperText": "Kiemelheti a projektjéhez kapcsolódó konkrét dokumentumokat, alkalmazásokat és adatokat. Legfeljebb 4 elemet mutathat be."
+      },
+      "callToAction": {
+        "label": "Műveleti hivatkozások",
+        "helperText": "Ez egy feltűnő gombként jelenik meg a projekt tetején. Használja ezt a közönség webhelyre, felmérésre, térképre stb. küldéséhez."
+      },
+      "embeds": {
+        "label": "Kiemelt beágyazás",
+        "helperText": "Válasszon ki egy webtérképet, webjelenetet vagy alkalmazást, amelyet kiemel a projektben."
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Projektnév",
+        "requiredError": "A projektnév mező kitöltése kötelező",
+        "maxLengthError": "A projekt neve legfeljebb 250 karakter lehet",
+        "entityTitleValidatorError": "A projekt neve nem tartalmazhat hangulatjeleket, <, > vagy = karaktereket"
+      },
+      "description": {
+        "label": "Leírás",
+        "helperText": "Adja meg, hogy a projekt hogyan fogja elérni a célkitűzéseit. Fontolja meg a vonatkozó háttérinformációk és a projekt eredményeként várható változások feltüntetését."
+      },
+      "summary": {
+        "label": "Cél",
+        "helperText": "Röviden összegezze a projekt célkitűzéseit."
+      },
+      "access": {
+        "itemType": "Projekt"
+      },
+      "groups": {
+        "label": "Megosztás a következővel:",
+        "viewGroup": "(Csoport megtekintése)",
+        "editGroup": "(Csoport szerkesztése)"
+      },
+      "_thumbnail": {
+        "helperText": "Állítson be egy miniatűr képet, amely ezt a projektet az ArcGIS Online-ban, a keresésben és a galériákban ábrázolja."
+      },
+      "featuredImage": {
+        "label": "Kiemelt kép",
+        "helperText": "Válasszon ki egy képet, amely a projekttervben a munkáját ábrázolja.",
+        "sizeDescription": "A fájl mérete legfeljebb 10 MB lehet. Javasolt méretek: 718 x 478 vagy nagyobb",
+        "altText": {
+          "label": "Összes szöveg",
+          "helperText": "Adjon rövid leírást a képhez a képernyőolvasót használók számára. Hagyja üresen, ha a kép dekorációs jellegű."
+        }
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "A slug a projekt nevének URL-barát változata. Automatikusan létrejön a projekt neve alapján, de testre is szabhatja.",
+        "patternError": "Hiba: A slug-nak kisbetűs alfanumerikus karakterekből kell állnia, kötőjelekkel elválasztva.",
+        "isUniqueError": "Ez a slug már használatban van. Kérjük, válasszon egy másikat."
+      },
+      "tags": {
+        "label": "Címkék",
+        "helperText": "A címkéket a keresőkatalógusokban használják, hogy segítsenek másoknak megtalálni ezt a projektet. Adjon hozzá szöveget, és nyomja le az Enter gombot az új címkék létrehozásához."
+      },
+      "categories": {
+        "helperText": "A kategóriákat a keresőkatalógusokban használják, hogy segítsenek másoknak megtalálni ezt a projektet. Ezeket a szervezete állítja be."
+      },
+      "status": {
+        "label": "Projektállapot",
+        "enum": {
+          "notStarted": {
+            "label": "Nem kezdődött el"
+          },
+          "inProgress": {
+            "label": "Folyamatban"
+          },
+          "onHold": {
+            "label": "Várakozik"
+          },
+          "complete": {
+            "label": "Befejeződött"
+          }
+        }
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Típus",
+          "sharing": "Megosztás"
+        }
+      },
+      "callToAction": {
+        "facets": {
+          "type": "Típus",
+          "sharing": "Megosztás"
+        }
+      },
+      "mapSettings": {
+        "label": "Annak konfigurálása, hogy a térkép hogyan jelenítse meg a projektet"
+      }
+    }
+  },
+  "initiative": {
+    "sections": {
+      "details": {
+        "label": "Részletek"
+      },
+      "basicInfo": {
+        "label": "Alapinformáció"
+      },
+      "location": {
+        "label": "Helyszín",
+        "helperText": "Mutassa meg azt a földrajzi területet, ahol a kezdeményezés megvalósul (a kezdeményezés térképi kimenetén)."
+      },
+      "sharing": {
+        "label": "Megosztás"
+      },
+      "featuredContent": {
+        "label": "Kiemelt tartalom",
+        "helperText": "Kiemelheti a projektjéhez kapcsolódó konkrét dokumentumokat, alkalmazásokat és adatokat. Legfeljebb 4 elemet mutathat be."
+      },
+      "status": {
+        "label": "Állapot"
+      },
+      "hero": {
+        "label": "Hero"
+      },
+      "searchDiscoverability": {
+        "label": "Keresés és felfedezhetőség"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Kezdeményezés neve",
+        "requiredError": "A kezdeményezés neve mező kitöltése kötelező.",
+        "maxLengthError": "A kezdeményezés neve legfeljebb 250 karakter lehet",
+        "entityTitleValidatorError": "A kezdeményezés neve nem tartalmazhat hangulatjeleket, <, > vagy = karaktereket"
+      },
+      "summary": {
+        "label": "Cél",
+        "helperText": "Röviden összegezze a kezdeményezés célkitűzéseit."
+      },
+      "access": {
+        "itemType": "Kezdeményezés"
+      },
+      "description": {
+        "label": "Leírás",
+        "helperText": "Adja meg, hogy a kezdeményezés hogyan fogja elérni a célkitűzéseit. Fontolja meg a vonatkozó háttérinformációk és a kezdeményezés eredményeként várható változások feltüntetését."
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "A slug a kezdeményezés nevének URL-barát változata. Automatikusan létrejön a kezdeményezés neve alapján, de testre is szabhatja.",
+        "patternError": "Hiba: A slug-nak kisbetűs alfanumerikus karakterekből kell állnia, kötőjelekkel elválasztva.",
+        "isUniqueError": "Ez a slug már használatban van. Kérjük, válasszon egy másikat."
+      },
+      "tags": {
+        "label": "Címkék",
+        "helperText": "A címkéket a keresőkatalógusokban használják, hogy segítsenek másoknak megtalálni ezt a kezdeményezést. Adjon hozzá szöveget, és nyomja le az Enter gombot az új címkék létrehozásához."
+      },
+      "categories": {
+        "helperText": "A kategóriákat a keresőkatalógusokban használják, hogy segítsenek másoknak megtalálni ezt a kezdeményezést. Ezeket a szervezete állítja be."
+      },
+      "_thumbnail": {
+        "helperText": "Állítson be egy miniatűr képet, amely ezt a kezdeményezést az ArcGIS Online-ban, a keresésben és a galériákban ábrázolja."
+      },
+      "groups": {
+        "label": "Megosztás a következővel:",
+        "viewGroup": "(Csoport megtekintése)",
+        "editGroup": "(Csoport szerkesztése)"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Típus",
+          "sharing": "Megosztás"
+        }
+      },
+      "status": {
+        "label": "Kezdeményezés állapota",
+        "enum": {
+          "notStarted": {
+            "label": "Nem kezdődött el"
+          },
+          "inProgress": {
+            "label": "Folyamatban"
+          },
+          "onHold": {
+            "label": "Várakozik"
+          },
+          "complete": {
+            "label": "Befejeződött"
+          }
+        }
+      },
+      "hero": {
+        "label": "Hero",
+        "helperText": "A hero a kezdeményezés címe felett jelenik meg, és tartalmazhat térképet vagy képet.",
+        "map": {
+          "label": "Térkép",
+          "description": "A kezdeményezés célterületének megjelenítéséhez használjon térképet, felhasználva a kezdeményezés helyét vagy a kapcsolódó projekteket."
+        },
+        "image": {
+          "label": "Kép",
+          "description": "Egy meggyőző képi anyag segíthet abban, hogy az emberek kapcsoldóni tudjanak az Ön céljához, és hogy lépéseket tegyenek annak érdekében."
+        }
+      },
+      "featuredImage": {
+        "label": "Kép",
+        "helperText": "A hero esetében használjon fekvő képet. Az alkalmazás arányosan átméretezi a képet egy központi fókuszponthoz viszonítva, hogy az alkalmazkodjon a különböző méretű képernyőkhöz. Nagy képernyőkön a legnagyobb magasság 475 pixel lesz.",
+        "sizeDescription": "A fájl mérete legfeljebb 10 MB lehet.",
+        "altText": {
+          "label": "Összes szöveg",
+          "helperText": "Adjon rövid leírást a képhez a képernyőolvasót használók számára. Hagyja üresen, ha a kép dekorációs jellegű."
+        }
+      },
+      "groupAccess": {
+        "label": "Láthatóság beállítása",
+        "helperText": "Szabályozható, hogy ki láthatja az e kezdeményezésből származó társításokat",
+        "private": {
+          "label": "Magánjellegű",
+          "description": "A csoportot a kezdeményezés tulajdonosa mellett a hozzáféréssel rendelkező csoportok láthatják"
+        },
+        "org": {
+          "label": "Szervezet",
+          "description": "A csoportot a kezdeményezéshez tartozó szervezetnél fiókkal rendelkező tagok és a hozzáféréssel rendelkező csoportok láthatják"
+        },
+        "public": {
+          "label": "Nyilvános",
+          "description": "A csoport mindenki számára látható"
+        }
+      },
+      "membershipAccess": {
+        "label": "Ki tartozhat ehhez a csoporthoz?",
+        "org": "Csak a saját szervezetem tagjai",
+        "collab": "Csak a partneri együttműködés és a saját szervezetem tagjai",
+        "any": "Bármelyik szervezet tagja (javasolt alapértelmezett)"
+      },
+      "includeInCatalog": {
+        "label": "Felvétel a katalógusba",
+        "helperText": "Ha engedélyezve van, az összes társított elem más tartalmak mellett jelenik meg a kezdeményezés keresési katalógusában."
+      },
+      "mapSettings": {
+        "label": "Annak konfigurálása, hogy a térkép hogyan jelenítse meg a kezdeményezést"
+      }
+    }
+  },
+  "discussion": {
+    "sections": {
+      "details": {
+        "label": "Részletek"
+      },
+      "basicInfo": {
+        "label": "Alapinformáció"
+      },
+      "location": {
+        "label": "Helyszín",
+        "helperText": "Adjon hozzá egy földrajzi területet a beszélhetés határainak és a térkép alapértelmezett nagyítási szintjének beállításához a beszélgetés fókuszáltabbá tétele érdekében."
+      },
+      "settings": {
+        "label": "Beszélgetések"
+      },
+      "searchDiscoverability": {
+        "label": "Keresés és felfedezhetőség"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Beosztás",
+        "requiredError": "A vitafórum nevét meg kell adni.",
+        "entityTitleValidatorError": "A beszélgetés neve nem tartalmazhat hangulatjeleket, <, > vagy = karaktereket"
+      },
+      "prompt": {
+        "label": "Emlékeztető",
+        "helperText": "Röviden írja le, hogy a résztvevők mit küldjenek be ezen a vitafórumon.",
+        "requiredError": "Az Emlékeztető mezőt ki kell tölteni",
+        "maxLengthError": "A prompt hossz nem haladhatja meg a 150 karaktert"
+      },
+      "description": {
+        "label": "Leírás",
+        "helperText": "Adjon meg több kontextust, ami hasznos lehet a fórum keresésekor."
+      },
+      "_thumbnail": {
+        "helperText": "Válasszon ki egy képet, amely a vitafórumot képviseli."
+      },
+      "summary": {
+        "label": "Összefoglalás",
+        "helperText": "Röviden írja le a vitafórum célját, ami hasznos lehet, amikor megosztja a linket másokkal."
+      },
+      "featuredImage": {
+        "label": "Kiemelt kép",
+        "sizeDescription": "Maximális méret 10 MB, JPEG, JPG vagy PNG",
+        "altText": {
+          "label": "Összes szöveg",
+          "helperText": "Adjon rövid leírást a képhez a képernyőolvasót használók számára. Hagyja üresen, ha a kép dekorációs jellegű."
+        },
+        "name": {
+          "label": "Kép neve"
+        }
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "A slug a beszélgetés nevének URL-barát változata. Automatikusan létrejön a beszélgetés neve alapján, de testre is szabhatja.",
+        "patternError": "Hiba: A slug-nak kisbetűs alfanumerikus karakterekből kell állnia, kötőjelekkel elválasztva.",
+        "isUniqueError": "Ez a slug már használatban van. Kérjük, válasszon egy másikat."
+      },
+      "tags": {
+        "label": "Címkék"
+      },
+      "categories": {
+        "helperText": "A kategóriák a keresőkatalógusokban használatosak: segítenek másoknak megtalálni ezt a beszélgetést. Ezeket a szervezete állítja be."
+      },
+      "discussable": {
+        "label": "Engedélyezett a beszélgetés?",
+        "enabled": {
+          "label": "Igen, a beszélgetés megengedett",
+          "description": "A résztvevők bejegyzéseket, válaszokat és reakciókat fűzhetnek ehhez a vitafórumhoz."
+        },
+        "disabled": {
+          "label": "Nem, a beszélgetés le van tiltva",
+          "description": "Eltávolítja az új bejegyzések, válaszok és reakciók hozzáadásának lehetőségét. Nem törli az előző részvételt."
+        }
+      },
+      "mapSettings": {
+        "label": "Konfigurálja, hogy hogyan jelenjen meg a térkép a megbeszélés lapon"
+      }
+    }
+  },
+  "site": {
+    "sections": {
+      "defaultRequiredHelperText": "*kötelező mezőt jelöl",
+      "basicInfo": {
+        "label": "Alapinformáció"
+      },
+      "location": {
+        "label": "Helyszín",
+        "helperText": "Mutassa meg azt a földrajzi területet, amelyre ez a webhely vonatkozik."
+      },
+      "discussions": {
+        "label": "Beszélgetések"
+      },
+      "privacy": {
+        "label": "Szabályzat konfigurálása"
+      },
+      "siteUrl": {
+        "label": "Webhely URL-címe"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Webhely neve",
+        "requiredError": "A Webhely neve mező kitöltése kötelező",
+        "maxLengthError": "A weboldal neve legfeljebb 250 karakter lehet",
+        "siteEntityTitleValidatorError": "A webhely neve nem tartalmazhat hangulatjeleket vagy unicode karaktereket"
+      },
+      "_thumbnail": {
+        "helperText": "Állítson be egy miniatűr képet, amely ezt a webhelyet az ArcGIS Online-ban, a keresésben és a galériákban ábrázolja."
+      },
+      "description": {
+        "label": "Leírás",
+        "helperText": "A webhely leírása."
+      },
+      "summary": {
+        "label": "Összefoglalás",
+        "helperText": "Foglalja össze röviden a webhely tartalmát."
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "A slug a webhely nevének URL-barát változata. Automatikusan létrejön a webhely neve alapján, de testre is szabhatja.",
+        "patternError": "Hiba: A slug-nak kisbetűs alfanumerikus karakterekből kell állnia, kötőjelekkel elválasztva.",
+        "isUniqueError": "Ez a slug már használatban van. Kérjük, válasszon egy másikat."
+      },
+      "tags": {
+        "label": "Címkék",
+        "helperText": "A címkék a keresőkatalógusokban használatosak: segítenek másoknak megtalálni ezt a webhelyet. Adjon hozzá szöveget, és nyomja le az Enter gombot az új címkék létrehozásához."
+      },
+      "categories": {
+        "helperText": "A kategóriák a keresőkatalógusokban használatosak: segítenek másoknak megtalálni ezt a webhelyet. Ezeket a szervezete állítja be."
+      },
+      "discussable": {
+        "label": "Beszélgetések felületének megjelenítése a bejelentkezett felhasználók számára az élő oldalakon (alapértelmezés szerint be van kapcsolva).",
+        "enabled": {
+          "label": "Igen, a beszélgetés megengedett",
+          "description": "Beszélgetések felületének megjelenítése"
+        },
+        "disabled": {
+          "label": "Nem, a beszélgetés le van tiltva",
+          "description": "Beszélgetések felületének elrejtése"
+        }
+      },
+      "followers": {
+        "groupAccess": {
+          "label": "Láthatóság beállítása",
+          "helperText": "Szabályozhatja, hogy ki láthatja a követés gombokat. Ez a beállítás mind a lapon belüli követés gombra, mind a közvetlenül az elrendezésbe ágyazott követés gombra vonatkozik.",
+          "private": {
+            "label": "Magánjellegű",
+            "description": "A követés gombokat a webhely tulajdonosa mellett a hozzáféréssel rendelkező csoportok láthatják"
+          },
+          "org": {
+            "label": "Szervezet",
+            "description": "A követés gombokat az oldalhoz tartozó szervezetnél fiókkal rendelkező tagok és a hozzáféréssel rendelkező csoportok láthatják"
+          },
+          "public": {
+            "label": "Nyilvános",
+            "description": "Mindenki láthatja a követés gombokat"
+          }
+        },
+        "showFollowAction": {
+          "label": "Követés művelet",
+          "helperText": "Adjon hozzá egy követés gombot a lapon belüli műveletek menüjéhez, amely akkor is látható marad, amikor a felhasználók görgetik az elrendezést."
+        },
+        "discussable": {
+          "label": "Részt vehet ez a csoport a beszélgetésekben?",
+          "enabled": {
+            "label": "Igen, a beszélgetés megengedett",
+            "description": "A csoporttagok megtekinthetik azokat a beszélgetéscsatornákat (és részt is vehetnek bennük), amelyekhez a csoportnak hozzáférése van."
+          },
+          "disabled": {
+            "label": "Nem, a beszélgetés le van tiltva",
+            "description": "A csoporttagok nem tekinthetik meg azokat a beszélgetésket, amelyekhez a csoportnak hozzáférése van, és nem vehetnek részt bennük."
+          }
+        }
+      },
+      "siteUrl": {
+        "isUniqueError": "Hiba: Már létezik olyan webhely, amely ezt az URL-címet használja."
+      }
+    }
+  },
+  "page": {
+    "sections": {
+      "basicInfo": {
+        "label": "Alapinformáció"
+      },
+      "location": {
+        "label": "Helyszín",
+        "helperText": "Mutassa meg azt a földrajzi területet, amelyre ez az oldal vonatkozik."
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Oldal neve",
+        "requiredError": "Az Oldal neve mező kitöltése kötelező",
+        "maxLengthError": "Az oldal neve legfeljebb 250 karakter lehet",
+        "entityTitleValidatorError": "Az oldal neve nem tartalmazhat hangulatjeleket, <, > vagy = karaktereket"
+      },
+      "description": {
+        "label": "Leírás",
+        "helperText": "Az oldal leírása."
+      },
+      "summary": {
+        "label": "Összefoglalás",
+        "helperText": "Foglalja össze röviden az oldal tartalmát"
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "A slug az oldal nevének URL-barát változata. Automatikusan létrejön az oldal neve alapján, de testre is szabhatja.",
+        "patternError": "Hiba: A slug-nak kisbetűs alfanumerikus karakterekből kell állnia, kötőjelekkel elválasztva.",
+        "isUniqueError": "Ez a slug már használatban van. Kérjük, válasszon egy másikat."
+      },
+      "tags": {
+        "label": "Címkék",
+        "helperText": "A címkék a keresőkatalógusokban használatosak: segítenek másoknak megtalálni ezt az oldalt. Adjon hozzá szöveget, és nyomja le az Enter gombot az új címkék létrehozásához."
+      },
+      "_thumbnail": {
+        "helperText": "Állítson be egy miniatűr képet, amely ezt az oldalt az ArcGIS Online-ban, a keresésben és a galériákban ábrázolja."
+      },
+      "categories": {
+        "helperText": "A kategóriák a keresőkatalógusokban használatosak: segítenek másoknak megtalálni ezt az oldalt. Ezeket a szervezete állítja be."
+      }
+    }
+  },
+  "content": {
+    "fields": {
+      "title": {
+        "label": "Beosztás",
+        "hint": "A tömör címek használata növeli a tartalom megtalálásának esélyét.",
+        "requiredError": "A cím mező kitöltése kötelező",
+        "entityTitleValidatorError": "A név nem tartalmazhat hangulatjeleket, <, > vagy = karaktereket"
+      },
+      "summary": {
+        "label": "Összefoglalás",
+        "hint": "Foglalja össze röviden a tartalmat. TIPP: Fejlessze a SEO-t a „Cím”-től vagy „Címke”-től eltérő kulcsszavak használatával."
+      },
+      "description": {
+        "label": "Leírás",
+        "hint": "A tartalom magyarázatához adjon hozzá további részleteket. Cél a 7-9. osztályos olvasási szint elérése, hogy széles közönséghez eljusson. <a href='https://www.webfx.com/tools/read-able/' target='_blank'>A szöveg teszteléséhez használjon ingyenes olvashatósági elemzőeszközt</a>."
+      },
+      "tags": {
+        "label": "Címkék",
+        "hint": "A címkék a keresőkatalógusokban használatosak: segítenek másoknak megtalálni ezt a tartalmat. Adjon hozzá szöveget, és nyomja le az Enter gombot az új címkék létrehozásához."
+      },
+      "categories": {
+        "helperText": "A kategóriák a keresőkatalógusokban használatosak: segítenek másoknak megtalálni ezt a tartalmat. Ezeket a szervezete állítja be."
+      },
+      "_thumbnail": {
+        "helperText": "Állítson be egy miniatűr képet, amely ezt az elemet az ArcGIS Online-ban, a keresésben és a galériákban ábrázolja."
+      },
+      "license": {
+        "label": "Használati feltételek",
+        "helperText": "A kevesebb korlátozások több újrafelhasználást tesznek lehetővé."
+      },
+      "discussable": {
+        "label": "Van lehetőség beszélgetésre?",
+        "enabled": {
+          "label": "Igen, a beszélgetés megengedett",
+          "description": "A résztvevők bejegyzéseket, válaszokat és reakciókat fűzhetnek ehhez az elemhez."
+        },
+        "disabled": {
+          "label": "Nem, a beszélgetés le van titva",
+          "description": "Eltávolítja az új bejegyzések, válaszok és reakciók hozzáadásának lehetőségét. Nem törli a korábbi részvételt."
+        }
+      },
+      "serverExtractCapability": {
+        "label": "Letöltési rendszer",
+        "exportDataSetting": {
+          "label": "Adatbeállítások exportálása (ajánlott)",
+          "description": "További letöltési formátumok engedélyezése és nagyobb letöltési teljesítmény."
+        },
+        "defaultDownloadsSystem": {
+          "label": "Alapértelmezett letöltési rendszer",
+          "description": "Kevesebb formátumot, lassabb letöltési sebességet és kisebb megbízhatóságot kínálhat."
+        },
+        "noFormatConfigurationNotice": {
+          "title": "A formátum konfigurációja nem érhető el",
+          "body": "A formátum konfigurációjához engedélyezni kell az adatbeállítások exportálása lehetőséget."
+        }
+      },
+      "downloadFormats": {
+        "label": "Formátumok",
+        "helperText": "Válassza ki, hogy a felhasználók mely formátumokhoz férhessenek hozzá, és a formátumok milyen sorrendben jelenjenek meg. (Legalább egy formátumot ki kell választania)",
+        "downloadsUnavailableNotice": {
+          "title": "A Letöltések nem érhetők el",
+          "body": "A tartalom letöltéséhez az ArcGIS Online-ban engedélyezni kell az Adatok exportálása beállítást. A beállítás engedélyezéséhez lépjen kapcsolatba az elem tulajdonossal."
+        }
+      },
+      "schedule": {
+        "manual": {
+          "helperActionText": "Használja ezt a lehetőséget, ha manuálisan szeretné frissíteni a keresési indexet és a gyorsítótárazott letöltési fájlokat ehhez az elemhez."
+        },
+        "forceUpdateButton": {
+          "label": "Kényszerített frissítés",
+          "description": "Válassza ezt a lehetőséget, majd a „Mentés” lehetőséget a keresési index és a gyorsítótárazott letöltési fájlok manuális frissítéséhez az adott elemhez."
+        },
+        "unavailableNotice": {
+          "title": "Ütemezett frissítések nem állnak rendelkezésre",
+          "body": "Az ütemezett frissítések engedélyezéséhez tegye ezt a tartalmat „Nyilvánossá”."
+        }
+      }
+    },
+    "sections": {
+      "basic": {
+        "title": "Alapinformáció",
+        "message": "Ez az információ a keresési eredmények és a galériakártyák kitöltésére lesz felhasználva, és a részletes nézetben fog megjelenni."
+      },
+      "about": {
+        "title": "A tartalomról",
+        "message": "A leírás első két sora jelenik meg a találatok között, de a tartalmak célzott megtekintésekor a teljes leírás látható lesz."
+      },
+      "image": {
+        "title": "Kiemelt kép",
+        "message": "Fontos, hogy egy jó kiemelt képpel vagy bélyegképpel rendelkezzen, amikor a galériáinkban mutatja be a tartalmát, illetve a képeket kiemelő nézetekben, például a kezdeményezésekben, eseményekben és felmérésekben. Az ajánlott méret 760 × 505. Ha a kép homályosan jelenik meg az élő útvonalakon, akkor próbálja meg kicserélni a bélyegképet egy nagyobb képre."
+      },
+      "location": {
+        "label": "Helyszín",
+        "helperText": "Mutassa meg azt a földrajzi területet, ahol a tartalom megvalósul (a tartalom térképi kimenetén)."
+      },
+      "discussions": {
+        "label": "Beszélgetések"
+      },
+      "downloads": {
+        "label": "Fájlletöltések",
+        "helperText": "A letöltési formátumok, a gyorsítótárazott fájlok frissítési ütemezése és egyebek konfigurálása. További részletekért lásd a <calcite-link href=\"https://doc.arcgis.com/en/hub/content/data-download-settings.htm\" target=\"_blank\" icon-end=\"launch\">letöltési dokumentációt.</calcite-link>"
+      },
+      "schedule": {
+        "label": "Ütemezett frissítések",
+        "helperText": "A Hub automatikusan megpróbálja meghatározni a tartalom frissítésének legjobb időpontját (alapértelmezés szerint). A tartalom, a metaadatok és a gyorsítótárazott letöltési fájlok (ha vannak ilyen) frissítési gyakoriságát azonban beállíthatja."
+      }
+    },
+    "stringField": {
+      "charCounter": "{count} karakter van hátra"
+    },
+    "imageThumbnail": {
+      "label": "Bélyegkép",
+      "upload": "Kép feltöltése",
+      "done": "Kész",
+      "editThumbnail": "Bélyegkép szerkesztése",
+      "browse": "Kép keresése",
+      "remove": "Kép eltávolítása",
+      "edit": "Kép szerkesztése",
+      "defaultHeading": "Bélyegkép hozzáadása",
+      "dropHeading": "A feltöltéshez húzza ide egérrel",
+      "errorHeading": "Próbáljon meg egy másik képet",
+      "subheading": "Max. méret {size}, {types}",
+      "zoomOut": "kicsinyítés",
+      "zoomIn": "nagyítás",
+      "drag": "Húzza arrébb az áthelyezéshez",
+      "urlPlaceholder": "Támogatott típusok: {types}",
+      "browseForImage": "Kép keresése",
+      "aria": {
+        "container": "Kép területe",
+        "crop": "Kivágott terület",
+        "handle": {
+          "top": "Átméretezés felfelé",
+          "right": "Átméretezés jobbra",
+          "left": "Átméretezés balra",
+          "bottom": "Átméretezés lefelé"
+        }
+      }
+    }
+  },
+  "group": {
+    "sections": {
+      "details": {
+        "label": "Részletek"
+      },
+      "basicInfo": {
+        "label": "Alapinformáció"
+      },
+      "capabilities": {
+        "label": "Funkciók"
+      },
+      "membershipAccess": {
+        "label": "Csoporttagság"
+      },
+      "discussions": {
+        "label": "Beszélgetések"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Cím",
+        "requiredError": "A csoport címe kötelezően kitöltendő mező",
+        "maxLengthError": "A csoport címe legfeljebb 250 karakter lehet",
+        "entityTitleValidatorError": "A csoport neve nem tartalmazhat hangulatjeleket, <, > vagy = karaktereket"
+      },
+      "summary": {
+        "label": "Összefoglalás",
+        "maxLengthError": "Az összefoglalás legfeljebb 250 karakter hosszú lehet"
+      },
+      "description": {
+        "label": "Leírás"
+      },
+      "access": {
+        "label": "Ki láthatja ezt a csoportot?",
+        "private": {
+          "label": "Magánjellegű",
+          "description": "Csak a csoporttagok tekinthetik meg ezt a csoportot."
+        },
+        "org": {
+          "label": "Szervezet",
+          "description": "Csak a szervezet tagjai tekinthetik meg a csoportot."
+        },
+        "public": {
+          "label": "Mindenki (nyilvános)",
+          "description": "Mindenki megtekintheti a csoportot."
+        }
+      },
+      "isSharedUpdate": {
+        "label": "Megosztott frissítés",
+        "helperText": "A csoport elemeit a csoport valamennyi tagja szerkesztheti. A tagság az Ön szervezetére és az Ön együttműködő szervezetire korlátozódik."
+      },
+      "isAdmin": {
+        "label": "Adminisztrátori csoport",
+        "helperText": "A tagok nem léphetnek ki ebből a csoportból. Csak a csoportfelelős vagy a csoporttulajdonos távolíthat el tagokat a csoportból. A tagság az Ön szervezetére korlátozódik."
+      },
+      "isOpenData": {
+        "label": "Open Data",
+        "helperText": "Csoporthozzáférés engedélyezése az Open Data-oldalakon.",
+        "constError": "A nem nyilvános csoportok nem lehetnek Open Data állapotúak."
+      },
+      "_thumbnail": {
+        "label": "Bélyegkép",
+        "helperText": "Válasszon ki egy képet, amely a csoport profiljában a csoportját képviseli.",
+        "sizeDescription": "A maximális méret legfeljebb 10 MB lehet. Ajánlott méret: 400 x 400 vagy nagyobb"
+      },
+      "membershipAccess": {
+        "label": "Ki tartozhat ehhez a csoporthoz?",
+        "org": {
+          "description": "Csak a saját szervezetem tagjai",
+          "label": "Szervezet tagjai"
+        },
+        "collab": {
+          "description": "Csak a partneri együttműködés és a saját szervezetem tagjai",
+          "label": "Csak közreműködők"
+        },
+        "any": {
+          "description": "Bármelyik szervezet tagja",
+          "label": "Bárki"
+        },
+        "createFollowers": {
+          "any": "Bármelyik szervezet tagja (javasolt alapértelmezett)"
+        },
+        "createAssociation": {
+          "any": "Bármelyik szervezet tagja (javasolt alapértelmezett)"
+        },
+        "constError": "Az adminisztrátori csoporttagság a szervezet tagjaira korlátozódik.",
+        "patternError": "A megosztott frissített csoport tagság az Ön szervezetére vagy az együttműködő partner tagokra korlátozódik."
+      },
+      "contributeContent": {
+        "label": "Ki lehet tartalmi közreműködő?",
+        "members": {
+          "label": "Tagok",
+          "description": "Összes csoporttag"
+        },
+        "admins": {
+          "label": "Adminisztrátorok",
+          "description": "Csoporttulajdonos és felelősök"
+        },
+        "createFollowers": {
+          "admins": "Csoporttulajdonos és -vezetők (javasolt alapértelmezett)"
+        },
+        "createAssociation": {
+          "admins": "Csoporttulajdonos és -vezetők (javasolt alapértelmezett)"
+        }
+      },
+      "join": {
+        "label": "Hogyan csatlakozhatnak az egyes személyek ehhez a csoporthoz?",
+        "invite": {
+          "label": "Meghívás",
+          "description": "Csak meghívással"
+        },
+        "request": {
+          "label": "Kérés",
+          "description": "Kéréssel"
+        },
+        "auto": {
+          "label": "Saját maguk",
+          "description": "Saját magukat hozzáadva"
+        },
+        "constError": "A privát csoportokhoz csak meghívásos alapon lehet csatlakozni.",
+        "patternError": "Az adminisztrátori vagy megosztott frissítési csoportokhoz csak meghívással vagy kéréssel lehet csatlakozni."
+      },
+      "hiddenMembers": {
+        "label": "Ki láthatja a tagok teljes listáját a csoport Tagok lapján?",
+        "members": {
+          "label": "Tagok",
+          "description": "Összes csoporttag"
+        },
+        "admins": {
+          "label": "Adminisztrátorok",
+          "description": "Csoporttulajdonos és felelősök"
+        }
+      },
+      "discussable": {
+        "label": "Részt vehet ez a csoport a beszélgetésekben?",
+        "enabled": {
+          "label": "Igen, a beszélgetés megengedett",
+          "description": "A csoporttagok megtekinthetik azokat a beszélgetéscsatornákat (és részt is vehetnek bennük), amelyekhez a csoportnak hozzáférése van."
+        },
+        "disabled": {
+          "label": "Nem, a beszélgetés le van tiltva",
+          "description": "A csoporttagok nem tekinthetik meg azokat a beszélgetésket, amelyekhez a csoportnak hozzáférése van, és nem vehetnek részt bennük."
+        }
+      }
+    }
+  },
+  "initiativeTemplate": {
+    "sections": {
+      "basicInfo": {
+        "label": "Alapinformáció"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Név",
+        "requiredError": "A Kezdeményezési sablon neve mező kitöltése kötelező.",
+        "entityTitleValidatorError": "A kezdeményezés-sablon neve nem tartalmazhat hangulatjeleket, <, > vagy = karaktereket"
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "A slug a kezdeményezés-sablon nevének URL-barát változata. Automatikusan létrejön a kezdeményezés-sablon neve alapján, de testre is szabhatja.",
+        "patternError": "Hiba: A slug-nak kisbetűs alfanumerikus karakterekből kell állnia, kötőjelekkel elválasztva.",
+        "isUniqueError": "Ez a slug már használatban van. Kérjük, válasszon egy másikat."
+      },
+      "previewUrl": {
+        "label": "Előnézeti hivatkozás",
+        "helperText": "A címhez egy előnézeti hivatkozás kerül, ami hasznos, ha a sablont nyilvánosan szeretné megosztani. A hivatkozásoknak a „https://” karakterlánccal kell kezdődniük.",
+        "formatError": "Az URL formátuma helytelen"
+      },
+      "summary": {
+        "label": "Összefoglalás",
+        "helperText": "Írjon rövid leírást (amelynek ajánlott terjedelme legfeljebb 90 karakter) erről a sablonról, amely majd a sablongalériában jelenik meg."
+      },
+      "description": {
+        "label": "Leírás",
+        "helperText": "Tartalmazza a sablon használatára vonatkozó információkat. Vegye fontolóra, hogy mások számára is belefoglal aktiválási utasításokat."
+      },
+      "_thumbnail": {
+        "label": "Bélyegkép",
+        "helperText": "Állítson be egy bélyegképet, amely ezt a sablont az ArcGIS Online-ban, a keresésben és a galériákban ábrázolja.",
+        "sizeDescription": "A maximális méret legfeljebb 10 MB lehet. Ajánlott méret: legalább 750 × 505"
+      },
+      "recommendedTemplates": {
+        "label": "Ajánlott sablonok",
+        "catalog": {
+          "myContent": "Saját tartalom",
+          "favorites": "Kedvencek",
+          "organization": "Saját szervezet",
+          "world": "Világ (nyilvános)"
+        },
+        "facets": {
+          "sharing": "Megosztás"
+        },
+        "pickerTitle": "Sablonok választása"
+      }
+    }
+  },
+  "template": {
+    "sections": {
+      "basicInfo": {
+        "label": "Alapinformáció"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Sablon neve",
+        "requiredError": "A Sablon neve mező kitöltése kötelező",
+        "maxLengthError": "A sablon neve legfeljebb 250 karakter lehet",
+        "entityTitleValidatorError": "A sablon neve nem tartalmazhat hangulatjeleket, <, > vagy = karaktereket"
+      },
+      "previewUrl": {
+        "label": "Előnézeti hivatkozás",
+        "helperText": "A címhez egy előnézeti hivatkozás kerül, ami hasznos, ha a sablont nyilvánosan szeretné megosztani. A hivatkozásoknak a „https://” karakterlánccal kell kezdődniük.",
+        "formatError": "Az URL formátuma helytelen"
+      },
+      "description": {
+        "label": "Leírás",
+        "helperText": "Tartalmazza a sablon használatára vonatkozó információkat. Vegye fontolóra, hogy mások számára is belefoglal aktiválási utasításokat."
+      },
+      "summary": {
+        "label": "Összefoglalás",
+        "helperText": "Írjon rövid leírást (amelynek ajánlott terjedelme legfeljebb 90 karakter) erről a sablonról, amely majd a sablongalériában jelenik meg."
+      },
+      "_thumbnail": {
+        "helperText": "Válasszon ki egy képet a sablon galériákban való megjelenítéséhez."
+      }
+    }
+  },
+  "survey": {
+    "sections": {
+      "basicInfo": {
+        "label": "Alapinformáció"
+      },
+      "searchDiscoverability": {
+        "label": "Keresés és felfedezhetőség"
+      },
+      "settings": {
+        "label": "Térkép-megjelenítés"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Felmérés neve",
+        "requiredError": "A felmérés neve mező kitöltése kötelező",
+        "maxLengthError": "A felmérés neve legfeljebb 250 karakter lehet",
+        "entityTitleValidatorError": "A felmérés neve nem tartalmazhat hangulatjeleket, <, > vagy = karaktereket"
+      },
+      "description": {
+        "label": "Leírás",
+        "helperText": "A felmérés leírása."
+      },
+      "summary": {
+        "label": "Összefoglalás",
+        "helperText": "Foglalja össze röviden a felmérés tartalmát."
+      },
+      "_thumbnail": {
+        "helperText": "Állítson be egy bélyegképet, amely ezt a felmérést az ArcGIS Online-ban, a keresésben és a galériákban ábrázolja."
+      },
+      "tags": {
+        "label": "Címkék",
+        "helperText": "A címkék a keresőkatalógusokban használatosak: segítenek másoknak megtalálni ezt a felmérést. Adjon hozzá szöveget, és nyomja le az Enter gombot az új címkék létrehozásához."
+      },
+      "categories": {
+        "helperText": "A kategóriák a keresőkatalógusokban használatosak: segítenek másoknak megtalálni ezt a felmérést. Ezeket a szervezete állítja be."
+      },
+      "displayMap": {
+        "label": "Milyen legyen a felmérés megjelenése amikor azt az ArcGIS Hubban megnyitják?",
+        "enabled": {
+          "label": "Térképfókuszú",
+          "description": "Magával ragadó térképélmény, a térképkérdések elsőként jelennek meg."
+        },
+        "disabled": {
+          "label": "Normál megjelenítés",
+          "description": "A térkép a többi kérdéssel együtt jelenik meg."
+        },
+        "notice": {
+          "title": "Térképes kérdést igényel",
+          "message": "Tegye közzé felmérését térképes kérdéssel a Survey123-ban, hogy a térképmegjelenítést konfigurálhassa az ArcGIS Hubban."
+        }
+      }
+    }
+  },
+  "event": {
+    "fields": {
+      "name": {
+        "label": "Cím",
+        "requiredError": "A Cím mező kitöltése kötelező",
+        "entityTitleValidatorError": "Az esemény neve nem tartalmazhat hangulatjeleket, <, > vagy = karaktereket"
+      },
+      "startDate": {
+        "label": "Kezdődátum",
+        "requiredError": "A kezdődátum megadása kötelező",
+        "minDateError": "A kezdődátum nem lehet a mai napnál korábbi"
+      },
+      "endDate": {
+        "label": "Záródátum",
+        "requiredError": "A Záródátum mező kitöltése kötelező",
+        "minDateError": "A záródátum nem lehet korábbi a kezdődátumnál"
+      },
+      "date": {
+        "label": "Dátum",
+        "requiredError": "A Dátum mező kitöltése kötelező",
+        "minDateError": "A dátum nem lehet a mai napnál korábbi."
+      },
+      "startTime": {
+        "label": "Kezdő időpont",
+        "requiredError": "A kezdő időpont megadása kötelező"
+      },
+      "endTime": {
+        "label": "Záró időpont",
+        "requiredError": "A Záró időpont mező kitöltése kötelező",
+        "minTimeError": "A záró időpont nem lehet korábban, mint a kezdő időpont."
+      },
+      "allDay": {
+        "label": "Egész nap"
+      },
+      "timeZone": {
+        "label": "Időzóna",
+        "requiredError": "Az időzóna megadása kötelező"
+      },
+      "attendanceType": {
+        "label": "Ahol",
+        "inPerson": {
+          "label": "Személyes megjelenésű"
+        },
+        "online": {
+          "label": "Online"
+        },
+        "both": {
+          "label": "Mindkettő"
+        }
+      },
+      "onlineUrl": {
+        "label": "Az online eseményhez való csatlakozásra szolgáló hivatkozás",
+        "requiredError": "Online vagy hibrid események esetén az URL-cím megadása kötelező",
+        "linkHrefFormatError": "Az URL formátuma helytelen"
+      },
+      "description": {
+        "label": "Leírás",
+        "helperText": "A regisztrálóknak szóló további információkat adhat meg például az esemény típusáról, céljáról, napirendjéről, a hoznivalókról, a közlekedésről stb.",
+        "requiredError": "A Leírás mező kitöltése kötelező"
+      },
+      "inPersonCapacity": {
+        "label": "Maximális személyes részvételi kapacitás",
+        "requiredError": "A Maximális személyes részvételi kapacitást kötelező megadni",
+        "minimumError": "A Maximális személyes részvételi kapacitás értékének 0-nál nagyobbnak kell lennie"
+      },
+      "inPersonCapacityType": {
+        "label": "Személyes részvételi regisztrációs kapacitás",
+        "unlimited": {
+          "label": "Korlátlan"
+        },
+        "fixed": {
+          "label": "Rögzített"
+        }
+      },
+      "location": {
+        "label": "Mutassa meg azt a földrajzi területet, ahol az esemény megvalósul (az esemény térképi kimenetén)."
+      },
+      "onlineCapacityType": {
+        "label": "Online regisztrációs kapacitás",
+        "unlimited": {
+          "label": "Korlátlan"
+        },
+        "fixed": {
+          "label": "Rögzített"
+        }
+      },
+      "onlineCapacity": {
+        "label": "Maximális online kapacitás",
+        "requiredError": "A Maximális online kapacitás mező kitöltése kötelező",
+        "minimumError": "A Maximális online kapacitás értéke 0-nál nagyobb kell legyen"
+      },
+      "onlineDetails": {
+        "label": "Online esemény részletei",
+        "helperText": "A regisztrálóknak szóló további információkat adhat meg, például jelszót, betárcsázási információkat és egyebeket."
+      },
+      "categories": {
+        "helperText": "A kategóriák a keresőkatalógusokban használatosak: segítenek másoknak megtalálni ezt az eseményt. Ezeket a szervezete állítja be."
+      },
+      "tags": {
+        "label": "Címkék",
+        "helperText": "A címkék a keresőkatalógusokban használatosak: segítenek másoknak megtalálni ezt az eseményt. Adjon hozzá szöveget, és nyomja le az Enter gombot az új címkék létrehozásához."
+      },
+      "summary": {
+        "label": "Összefoglalás",
+        "helperText": "Ismertesse röviden az esemény célját – ez hasznos lehet, amikor megosztja a hivatkozást másokkal."
+      },
+      "allowRegistration": {
+        "label": "Regisztráció engedélyezése",
+        "helperText": "A regisztrációhoz vagy a meghíváshoz fiók szükséges.",
+        "enabled": {
+          "label": "Regisztráció gomb engedélyezve",
+          "description": "Bármely tag, aki megtekintheti az eseményt, regisztrálhat."
+        },
+        "disabled": {
+          "label": "Regisztráció gomb letiltva",
+          "description": "A regisztráció csak meghívásos vagy nem követhető nyomon."
+        }
+      },
+      "notifyAttendees": {
+        "label": "Automatikus értesítések küldése",
+        "helperText": "Az eseményre feliratkozók automatikus e-mail-értesítéseket kaphatnak emlékeztetőkről vagy változásokról. Aki regisztrál az eseményre, az automatikusan feliratkozik.",
+        "enabled": {
+          "label": "Értesítések engedélyezve",
+          "description": "A Feliratkozás gomb látható az eseményhez."
+        },
+        "disabled": {
+          "label": "Értesítések letiltva",
+          "description": "A Feliratkozás gomb el van rejtve az eseményhez."
+        }
+      },
+      "referencedContent": {
+        "label": "Csatlakoztatott tartalom",
+        "helperText": {
+          "label": "Csatlakoztasson egy projektet, kezdeményezést vagy webhelyet ehhez az eseményhez."
+        },
+        "facets": {
+          "from": {
+            "label": "Ettől:",
+            "myContent": {
+              "label": "Saját tartalom"
+            },
+            "myOrganization": {
+              "label": "Saját szervezet"
+            }
+          },
+          "access": {
+            "label": "Hozzáférés"
+          }
+        },
+        "catalog": {
+          "organization": "Szervezet"
+        },
+        "collection": {
+          "sites": "Sites",
+          "initiatives": "Kezdeményezések",
+          "projects": "Projektek"
+        }
+      }
+    },
+    "sections": {
+      "referencedContent": {
+        "label": "Csatlakoztatott tartalom"
+      },
+      "eventInfo": {
+        "label": "Eseményinformáció"
+      },
+      "dateTime": {
+        "label": "Dátum is időpont"
+      },
+      "location": {
+        "label": "Helyszín"
+      },
+      "discoverability": {
+        "label": "Keresés és felfedezhetőség"
+      }
+    }
+  },
+  "user": {
+    "sections": {
+      "userSettings": "Felhasználó beállításai",
+      "orgSettings": {
+        "label": "Szervezet beállításai",
+        "signinSettings": {
+          "label": "Bejelentkezési beállítások",
+          "helperText": "Szabja testre azokat az információkat, amelyeket a felhasználók látni fognak, ha úgy döntenek, hogy regisztrálnak egy közösségi fiókot a Hub-on."
+        },
+        "siteDefaults": {
+          "label": "Webhely alapértelmezett megjelenítései"
+        }
+      }
+    },
+    "fields": {
+      "enableTermsAndConditions": {
+        "label": "Egyéni használati feltételek megkövetelése a regisztrációs űrlapon"
+      },
+      "termsAndConditions": {
+        "label": "Használati feltételek"
+      },
+      "enableSignupText": {
+        "label": "Egyéni regisztrációs üdvözlő üzenet konfigurálása"
+      },
+      "workspacePreview": {
+        "label": "Munkaterület előnézetének engedélyezése",
+        "helperText": "A munkaterületek előnézetben elérhetők, de még fejlesztés alatt állnak a funkciók bővítése miatt. Az előnézeti időszak alatt bármikor letilthatja a munkaterületeket. A munkaterületek engedélyezése csak ezt a felhasználói fiókot érinti."
+      },
+      "infoBanner": {
+        "label": "Információs szalag",
+        "helperText": "A munkavállalói szervezet információs szalagjának megjelenítése az összes webhelyen és oldalon (ha konfigurálva van). Ez egy globális beállítás, és nem kapcsolható be/ki egy adott webhelyen.",
+        "helperTextWhenDisabled": "Jelenleg nem rendelkezik konfigurált információs szalaggal. Kérjük, kattintson az alábbi hivatkozásra, hogy átirányítsák az ArcGIS Online oldalra, ahol konfigurálhatja az információs szalagot.",
+        "goToBannerConfig": "Információs szalag konfigurálása az ArcGIS Online-ban"
+      }
+    },
+    "notice": {
+      "title": "Szervezeti irányítás",
+      "message": "A legtöbb személyzeti és közösségi (csak Hub Premium) szervezeti beállítást mostantól az ArcGIS otthoni szervezet kezeli.",
+      "communityMessage": "A legtöbb személyzeti és közösségi (csak Hub Premium) szervezeti beállítást mostantól az ArcGIS otthoni szervezet kezeli. <br /> <br /> Az Ön közösségi szervezete a következő:",
+      "staffMessage": "A legtöbb személyzeti és közösségi (csak Hub Premium) szervezeti beállítást mostantól az ArcGIS otthoni szervezet kezeli. <br /> <br /> Az Ön személyzeti szervezete a következő:",
+      "actions": {
+        "goToOrg": "Ugrás a szervezet beállításaihoz",
+        "goToCommunityOrg": "Ugrás a közösségi szervezet beállításaihoz",
+        "goToStaffOrg": "Ugrás a személyzeti szervezethez"
+      }
+    }
+  }
+}

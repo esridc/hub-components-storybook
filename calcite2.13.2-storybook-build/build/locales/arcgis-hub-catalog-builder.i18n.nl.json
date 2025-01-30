@@ -1,0 +1,24 @@
+{
+  "shared": {
+    "targetEntities": {
+      "item": "Items",
+      "event": "Evenementen"
+    }
+  },
+  "targetEntityBlock": {
+    "configured": "Geconfigureerd",
+    "notConfigured": "Niet geconfigureerd"
+  },
+  "targetEntityFlow": {
+    "back": "Configuratie sluiten: {targetEntity}",
+    "description": "Configureren: {targetEntity}",
+    "source": {
+      "heading": "Bron",
+      "description": "Bronnen definiëren de reikwijdte van de content. Pas resultaten aan door parameters op te nemen of uit te sluiten.<br/><br/>*geeft een vereist veld aan"
+    },
+    "collections": {
+      "heading": "Verzamelingen",
+      "description": "Organiseer content in afzonderlijke subsets voor makkelijker browsen en verkennen.<br/><br/>*geeft een vereist veld aan"
+    }
+  }
+}

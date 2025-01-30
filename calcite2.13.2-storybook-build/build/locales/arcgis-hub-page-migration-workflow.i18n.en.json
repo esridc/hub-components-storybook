@@ -1,0 +1,46 @@
+{
+  "heading": "Page information",
+  "form": {
+    "title": {
+      "label": "Page name",
+      "requiredError": "Name is required",
+      "entityTitleValidatorError": "Page name cannot include emojis, <, >, or = characters"
+    },
+    "slug": {
+      "label": "Slug",
+      "helperText": "The slug is the URL-friendly version of the page name. It is automatically generated based on the page name, but you can customize it.",
+      "patternError": "Error: Slug must be lowercase alphanumeric characters separated by hyphens.",
+      "isUniqueError": "This slug is already in use. Please choose another.",
+      "requiredError": "Slug is required"
+    }
+  },
+  "controls": {
+    "back": "Back",
+    "cancel": "Cancel",
+    "close": "Done",
+    "migrate": "Migrate page",
+    "next": "Next"
+  },
+  "selection": {
+    "unlimited": "{count} selected",
+    "limited": "{count} / {limit} selected"
+  },
+  "steps": {
+    "specifyInfo": "Add basic information",
+    "selectGroups": "Select group",
+    "confirmation": "Confirmation"
+  },
+  "working": {
+    "heading": "Migrating page.",
+    "loadingLabel": "Migrating page"
+  },
+  "success": {
+    "heading": "Page migrated",
+    "message": "The page has been successfully migrated."
+  },
+  "failure": {
+    "heading": "Page not migrated",
+    "message": "Something went wrong when migrating the page, please try again.",
+    "action": "Try again"
+  }
+}

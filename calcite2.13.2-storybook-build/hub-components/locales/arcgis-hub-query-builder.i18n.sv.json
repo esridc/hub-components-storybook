@@ -1,0 +1,10 @@
+{
+  "targetEntity": {
+    "label": "Källa",
+    "enum": {
+      "item": "Objekt",
+      "event": "Evenemang",
+      "group": "Grupper"
+    }
+  }
+}

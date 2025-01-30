@@ -1,0 +1,15 @@
+{
+  "newCollection": "Uus kogu",
+  "block": {
+    "heading": {
+      "untitled": "Pealkirjata kogu"
+    },
+    "actions": {
+      "delete": "Kustuta kogu: {label}"
+    }
+  },
+  "name": {
+    "label": "Nimi",
+    "requiredError": "Kogu nimi on nõutav"
+  }
+}

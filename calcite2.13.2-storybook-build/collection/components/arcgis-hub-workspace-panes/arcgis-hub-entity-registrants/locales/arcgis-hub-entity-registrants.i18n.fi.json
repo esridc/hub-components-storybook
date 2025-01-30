@@ -1,0 +1,46 @@
+{
+  "registrants": "Ilmoittautuneet",
+  "invite": "Kutsu",
+  "tabs": {
+    "registrants": "Ilmoittautuneet",
+    "settings": "Asetukset"
+  },
+  "emptyNotice": {
+    "title": "Ei ilmoittautuneita",
+    "desc": "Tapahtumat ovat aina mukavampia, kun yleisöä on mukana. Kannusta ihmisiä osallistumaan kutsumalla ihmisiä tai jakamalla tapahtuma.",
+    "link": "Kutsu ilmoittautuneita henkilöitä"
+  },
+  "facets": {
+    "role": {
+      "header": "Rooli",
+      "owner": "Omistaja",
+      "organizer": "Järjestäjä",
+      "attendee": "Ilmoittautunut henkilö"
+    },
+    "status": {
+      "header": "Tila",
+      "pending": "Odotetaan",
+      "accepted": "Hyväksytty",
+      "declined": "Hylätty",
+      "blocked": "Estetty"
+    },
+    "location": {
+      "header": "Sijainti",
+      "online": "Verkko",
+      "in_person": "Kasvotusten"
+    },
+    "updatedDate": "Päivitä päivämäärä"
+  },
+  "delete": {
+    "attendee": "Poista ilmoittautunut henkilö"
+  },
+  "notice": {
+    "label": "Lomakevaroitus"
+  },
+  "success": {
+    "delete": "Ilmoittautuneiden poistaminen kohteesta {eventName} onnistui."
+  },
+  "error": {
+    "delete": "Vähintään yhtä ilmoittautunutta ei voitu poistaa tapahtumasta."
+  }
+}

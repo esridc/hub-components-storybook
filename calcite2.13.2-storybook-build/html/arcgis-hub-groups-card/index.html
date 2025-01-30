@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-groups-card</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+  <link rel="stylesheet" href="../calcite-web.min.css">
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <script type="module" src="../../calcite/calcite.esm.js"></script>
+</head>
+
+<body>
+  <div class="grid-container padding-leader-2">
+    <div class="column-20 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-hub-groups-card</h2>
+    </div>
+
+    <div class="column-20">
+      <arcgis-hub-groups-card>
+      </arcgis-hub-groups-card>
+    </div>
+  </div>
+
+  <script>
+      setProp('groups', [
+        "6dc06587ef9a4569b2574e92665e515d",
+        "489e982ea160416bb62a8247175ad9c0",
+        "d3ad991e7c9447bf81c3ef4fac5f6696",
+        "6eba62e38f094906974b0b87956b7a31",
+        "ee2a1b12c6b24c2ea0f39ec5023508ba",
+        "95c59d84749742b7ad1e135c6e685009",
+        "ec224dd0c2294755a0e232d784eb1172",
+        "72c19e0ed89641ac83045a4597a6c9dc",
+
+        ]);
+    // set a property on the element
+    function setProp(key, value) {
+      const el = document.querySelector("arcgis-hub-groups-card");
+      el[key] = value;
+    }
+  </script>
+</body>
+
+</html>

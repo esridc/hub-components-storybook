@@ -1,0 +1,24 @@
+{
+  "shared": {
+    "targetEntities": {
+      "item": "פריטים",
+      "event": "אירועים"
+    }
+  },
+  "targetEntityBlock": {
+    "configured": "מוגדר",
+    "notConfigured": "לא מוגדר"
+  },
+  "targetEntityFlow": {
+    "back": "סגור הגדרה: {targetEntity}",
+    "description": "הגדר: {targetEntity}",
+    "source": {
+      "heading": "מקור",
+      "description": "מקורות מגדירים את הטווח של תוכן. שנה את התוצאות על ידי הכללה או החרגה של פרמטרים.<br/><br/>*מציין שדה חובה"
+    },
+    "collections": {
+      "heading": "אוספים",
+      "description": "ארגן תוכן בסטים משנה נבדלים לעיון ולגילוי בקלות.<br/><br/>*מציין שדה חובה"
+    }
+  }
+}

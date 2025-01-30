@@ -1,0 +1,96 @@
+{
+  "unnamedChannel": "未指定的通道",
+  "name": {
+    "label": "名稱",
+    "placeholder": "{prefix} 通道"
+  },
+  "save": "儲存",
+  "basicInfo": {
+    "label": "基本資訊"
+  },
+  "access": {
+    "private": {
+      "label": "私有",
+      "description": "選定群組可參與。 群組成員和擁有者是自動指派的版主。"
+    },
+    "organization": {
+      "label": "我的組織",
+      "description": "擁有 {orgName} 帳號的所有成員都可以參與。 組織管理員和通道擁有者是自動指派的版主。 通道擁有者還可以按一下底下的「新增參與者群組」來新增他們所屬的群組。",
+      "disabledTooltip": "只有組織管理員可以建立組織通道。"
+    },
+    "public": {
+      "label": "公共",
+      "description": "所有登入的成員都可參與。 組織管理員和通道擁有者是自動指派的版主。 通道擁有者還可以按一下底下的「新增參與者群組」來新增他們所屬的群組。",
+      "disabledTooltip": "只有組織管理員可以建立公開通道。"
+    },
+    "allowAsAnonymous": {
+      "label": "允許匿名 (僅限登入的參與者)",
+      "description": "擁有匿名貼文帳號之使用者的頭像、名稱和使用者名稱將無法使用。"
+    },
+    "confirmation": {
+      "header": "是否確定？",
+      "message": "儲存這些變更將移除您對此通道的編輯存取權。 只有組織管理員可以編輯公用或組織通道。",
+      "secondary": "取消",
+      "primary": "確認"
+    }
+  },
+  "participants": {
+    "label": "參與者",
+    "helperText": "可以發佈、回覆並對討論作出反應的人。",
+    "none": "未設定參與者",
+    "add": "新增參與者群組"
+  },
+  "groupPicker": {
+    "title": "選擇群組",
+    "facet": {
+      "label": "從",
+      "myGroups": "我的群組",
+      "myOrganization": "我的組織",
+      "myCommunity": "我的社群"
+    }
+  },
+  "blockWords": {
+    "label": "已封鎖單字",
+    "helperText": "逗號分隔清單。 將自動隱藏包含它們的貼文和回覆。"
+  },
+  "manage": {
+    "label": "版主",
+    "helperText": "版主的自動指派是基於參與者的選擇。 對於新增至通道的任何其他群組，群組擁有者和管理員都會被指派為版主。 版主可以隱藏和顯示貼文、新增封鎖的單字及編輯通道設定。"
+  },
+  "manager": "管理員",
+  "admin": "管理員",
+  "viewProfile": "檢視設定檔",
+  "alerts": {
+    "error": "儲存通道時出錯",
+    "success": "已成功儲存通道",
+    "label": "表格警示"
+  },
+  "validations": {
+    "minChannelGroups": "私人通道需要至少一個參與者群組。",
+    "channelNameRequired": "通道名稱為必填項",
+    "allowAsAnonymous": "僅公開通道支援匿名發佈。",
+    "blockWords": "最多輸入 20 個封鎖的單字/片語 (項目以逗號分隔，不得重複或空白項目)。"
+  },
+  "notices": {
+    "edit": "編輯內容將影響使用此通道的所有地方",
+    "duplicate": {
+      "create": {
+        "error": {
+          "title": "未建立通道",
+          "message": "已存在具有這些存取選擇的通道。 使用現有通道或修改選擇。"
+        }
+      },
+      "update": {
+        "error": {
+          "title": "通道未更新",
+          "message": "已存在具有這些存取選擇的通道，因此我們無法儲存這些更新。"
+        }
+      },
+      "action": "使用現有通道"
+    },
+    "inaccessibleGroups": {
+      "title": "不可用的群組: {count}",
+      "message": "除非您是成員，否則您無法檢視或管理不可用的群組。"
+    }
+  }
+}

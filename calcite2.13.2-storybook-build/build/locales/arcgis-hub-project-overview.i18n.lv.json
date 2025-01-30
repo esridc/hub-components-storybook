@@ -1,0 +1,19 @@
+{
+  "overview": "Pārskats",
+  "telemetry": {
+    "pageViews": "Lapas skatījumi",
+    "last30days": "Pēdējās 30 dienas",
+    "lastUpdated": "Pēdējo reizi atjaunināts pirms {hoursElapsed} stundām",
+    "checkTomorrow": "Pārbaudīt rīt vēlreiz"
+  },
+  "learnAbout": "Uzzināt par Hub projektiem",
+  "status": {
+    "notStarted": "Nav sākts",
+    "inProgress": "Notiek izpilde",
+    "onHold": "Atlikts",
+    "complete": "Pabeigts"
+  },
+  "editDetails": "Rediģēt detalizētu informāciju",
+  "noPurposeSet": "Nav iestatīts mērķis",
+  "noLocationSet": "Nav iestatīts novietojums"
+}

@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "Εγγραφή",
+    "registered": "Καταχωρημένο",
+    "join": "Εγγραφείτε online",
+    "in-person": "Δια ζώσης",
+    "online": "Online",
+    "inPersonFull": "Δια ζώσης (πλήρες)",
+    "onlineFull": "Online (πλήρες)",
+    "close": "Κλείσιμο"
+  },
+  "tooltip": {
+    "isCanceled": "Το συμβάν ακυρώθηκε",
+    "eventHasEnded": "Το συμβάν τελείωσε",
+    "eventFull": "Συμβάν πλήρες",
+    "inPerson": "Καταχωρημένος για δια ζώσης συμβάν",
+    "online": "Καταχωρημένος για online συμβάν",
+    "unavailable": "Διαθέσιμο μία ώρα πριν από την ώρα έναρξης του συμβάντος"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "Επιτυχής ακύρωση εγγραφής για online συμβάν",
+    "onlineRegistrationConfirmed": "Επιτυχής εγγραφή για online συμβάν",
+    "onlineRegistrationError": "Εμφανίστηκε απροσδόκητο σφάλμα κατά την εγγραφή για online συμβάν",
+    "onlineRegistrationCanceledError": "Εμφανίστηκε απροσδόκητο σφάλμα κατά την ακύρωση εγγραφής για online συμβάν",
+    "onlineRegistrationAtCapacity": "Προσπαθείτε να εγγραφείτε σε online συμβάν που είναι πλήρες",
+    "inPersonRegistrationCanceled": "Επιτυχής ακύρωση εγγραφής για δια ζώσης συμβάν",
+    "inPersonRegistrationCanceledError": "Εμφανίστηκε απροσδόκητο σφάλμα κατά την ακύρωση εγγραφής για δια ζώσης συμβάν",
+    "inPersonRegistrationConfirmed": "Επιτυχής εγγραφή για δια ζώσης συμβάν",
+    "inPersonRegistrationError": "Εμφανίστηκε απροσδόκητο σφάλμα κατά την εγγραφή για δια ζώσης συμβάν",
+    "inPersonRegistrationAtCapacity": "Προσπαθείτε να εγγραφείτε σε δια ζώσης συμβάν που είναι πλήρες"
+  }
+}

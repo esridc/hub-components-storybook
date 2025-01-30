@@ -1,0 +1,13 @@
+{
+  "csv": "CSV",
+  "shapefile": "Shapefile",
+  "sqlite": "Geopodatkovna baza SQLite",
+  "geoPackage": "GeoPackage",
+  "filegdb": "File Geodatabase",
+  "featureCollection": "Zbirka geoobjektov",
+  "geojson": "GeoJSON",
+  "excel": "Excel",
+  "json": "JSON",
+  "createReplicaErrorMessage": "Ustvarite replike notranja napaka. Poskusite znova v roku ene ure ali se obrnite na upravitelja vsebin.",
+  "errorHeader": "Prenosa ni bili mogoče dokončati. Poskusite znova."
+}

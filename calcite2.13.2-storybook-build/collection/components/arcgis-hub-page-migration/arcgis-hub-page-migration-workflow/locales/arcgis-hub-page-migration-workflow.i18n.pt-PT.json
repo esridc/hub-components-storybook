@@ -1,0 +1,46 @@
+{
+  "heading": "Informações da página",
+  "form": {
+    "title": {
+      "label": "Nome da página",
+      "requiredError": "O nome é obrigatório",
+      "entityTitleValidatorError": "O nome da página não pode incluir emojis, caracteres <, > ou ="
+    },
+    "slug": {
+      "label": "Campo dinâmico (slug)",
+      "helperText": "O slug é a versão compatível com URL do nome da página. É gerado automaticamente com base no nome da página, mas pode ser personalizado.",
+      "patternError": "Erro: o campo dinâmico tem de ter caracteres alfanuméricos minúsculos separados por hífenes.",
+      "isUniqueError": "Este campo dinâmico já está a ser utilizado. Escolha outro.",
+      "requiredError": "O campo dinâmico (slug) é obrigatório"
+    }
+  },
+  "controls": {
+    "back": "Voltar",
+    "cancel": "Cancelar",
+    "close": "Concluído",
+    "migrate": "Migrar página",
+    "next": "Seguinte"
+  },
+  "selection": {
+    "unlimited": "{count} selecionado(s)",
+    "limited": "{count}/{limit} selecionado(s)"
+  },
+  "steps": {
+    "specifyInfo": "Adicionar informações básicas",
+    "selectGroups": "Selecionar grupo",
+    "confirmation": "Confirmação"
+  },
+  "working": {
+    "heading": "A migrar a página.",
+    "loadingLabel": "A migrar a página"
+  },
+  "success": {
+    "heading": "Página migrada",
+    "message": "A página foi migrada com sucesso."
+  },
+  "failure": {
+    "heading": "Página não migrada",
+    "message": "Algo correu mal ao migrar a página, tente novamente.",
+    "action": "Tentar novamente"
+  }
+}

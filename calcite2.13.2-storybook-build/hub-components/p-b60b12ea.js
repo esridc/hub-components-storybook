@@ -1,0 +1,1 @@
+function t(t,n){const e=t[n];return(null==e?void 0:e.length)?{targetEntity:n,filters:[{operation:"OR",predicates:[{id:e}]}]}:null}export{t as b}

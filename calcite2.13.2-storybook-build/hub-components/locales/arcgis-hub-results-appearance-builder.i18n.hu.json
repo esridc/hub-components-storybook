@@ -1,0 +1,118 @@
+{
+  "layout": {
+    "title": "Kimenet",
+    "helperText": "Ez beállítja, hogy az eredmények hogyan nézzenek ki, amikor a látogatók először férnek hozzá a katalógusához. A látogatók továbbra is módosíthatják a megjelenítési módot.",
+    "enum": {
+      "list": {
+        "label": "Lista",
+        "description": "Használja metaadatok megjelenítésére, és akkor, amikor a látogatók valószínűleg célzott kereséseket végeznek."
+      },
+      "grid": {
+        "label": "Rácsháló",
+        "description": "Használja kiváló minőségű bélyegképekkel rendelkező eredmények esetén, és amikor a látogatók valószínűleg böngészni fognak."
+      },
+      "table": {
+        "label": "Táblázat",
+        "description": "Használja az eredmények strukturált formában, rendezhető oszlopokkal történő bemutatásához, ideális akkor, ha a látogatók sok elemet és azoknak sok attribútumát szeretnék megtekinteni és összehasonlítani."
+      },
+      "map": {
+        "label": "Térkép",
+        "description": "Használja fizikai helyekhez kapcsolódó eredményekhez, és akkor, amikor a látogatók valószínűleg vizsgálati területeket fedeznek fel."
+      },
+      "compact": {
+        "label": "Kompakt",
+        "description": "Használja a látható eredmények számának egy kisebb helyen történő maximalizálására, amely ideális a gyors böngészéshez vagy a mobileszközökön történő megtekintéshez."
+      }
+    }
+  },
+  "cards": {
+    "title": "Kártyák",
+    "cardTitleTag": {
+      "label": "Címsor",
+      "helperText": "Ez a megközelíthetőségi beágyazott mozgási irányok szerkezetének javítására használható. Nem módosítja a betűméretet.",
+      "enum": {
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        }
+      }
+    },
+    "showThumbnail": {
+      "label": "Bélyegkép megjelenítése",
+      "enum": {
+        "show": {
+          "label": "Mindig",
+          "description": "A bélyegképek mindig megjelennek az eredménykártyákon, függetlenül az eredmények elrendezésétől."
+        },
+        "hide": {
+          "label": "Ne jelenítse meg a bélyegképeket.",
+          "description": "A bélyegképek semmilyen típusú eredménykártyán nem jelennek meg. Akkor használja ezt a lehetőséget, ha rossz minőségű bélyegképekkel rendelkezik, vagy ha azt szeretné, hogy az emberek gyorsabban beolvashassák a listaeredményeket az asztalon és a mobilon."
+        },
+        "grid": {
+          "label": "Csak rácshálóban",
+          "description": "A bélyegképek csak a rácshálókártyákon jelennek meg. A listakártyákon a kép helyett egy extra metaadat-oszlop jelenik meg."
+        }
+      }
+    },
+    "corners": {
+      "label": "Sarkok",
+      "enum": {
+        "square": {
+          "label": "Négyzet"
+        },
+        "round": {
+          "label": "Kerekített"
+        }
+      }
+    },
+    "shadow": {
+      "label": "Árnyékhatás",
+      "enum": {
+        "heavy": {
+          "label": "Nehéz"
+        },
+        "low": {
+          "label": "Alacsony"
+        },
+        "medium": {
+          "label": "Közepes"
+        },
+        "none": {
+          "label": "Egyik sem"
+        }
+      }
+    },
+    "showLinkButton": {
+      "label": "Gombok hozzáadása",
+      "helperText": "Ha a gombok ki vannak kapcsolva, akkor csak a kártya címe lesz hivatkozás."
+    },
+    "linkButtonStyle": {
+      "label": "Stílus",
+      "enum": {
+        "outline-filled": {
+          "label": "Kitöltött"
+        },
+        "outline": {
+          "label": "Körvonal"
+        }
+      }
+    },
+    "linkButtonText": {
+      "label": "Szöveg"
+    }
+  }
+}

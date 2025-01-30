@@ -1,0 +1,1 @@
+function n(n){return n.key.startsWith("additionalResource::")}function r(n){return parseInt(n.key.split("::")[1],10)}export{r as g,n as i}

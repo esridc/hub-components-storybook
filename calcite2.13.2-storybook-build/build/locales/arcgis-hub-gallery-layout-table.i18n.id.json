@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Tidak ada hasil yang ditemukan."
+    },
+    "error": {
+      "message": "Kami mohon maaf karena pencarian mengalami kesalahan."
+    }
+  },
+  "access": "Akses",
+  "actionsHeader": "Tindakan",
+  "caption": "Tabel entitas Hub",
+  "family": "Rangkaian",
+  "type": "Jenis",
+  "tags": "Tag",
+  "owner": "Pemilik",
+  "dateCreated": "Dibuat",
+  "dateUpdated": "Diubah",
+  "description": "Deskripsi",
+  "dateAndTime": "Waktu & tanggal",
+  "location": "Lokasi",
+  "attendanceType": "Jenis kehadiran",
+  "inPerson": "Secara langsung",
+  "online": "Online",
+  "hybrid": "Hibrid",
+  "categories": "Kategori",
+  "content": "Konten",
+  "name": "Nama",
+  "start": "Mulai",
+  "end": "Selesai",
+  "sharedUpdate": "Pembaruan bersama",
+  "managers": "Manajer",
+  "username": "Nama Pengguna",
+  "no": "Tidak",
+  "yes": "Iya",
+  "title": "Judul",
+  "thumbnail": "Thumbnail",
+  "types": {
+    "app": "Aplikasi",
+    "content": "Konten",
+    "dataset": "Set data",
+    "discussion": "Papan Diskusi",
+    "document": "Dokumen",
+    "event": "Peristiwa",
+    "feedback": "Umpan balik",
+    "initiative": "Inisiatif",
+    "image": "Citra",
+    "map": "Peta",
+    "other": "Lainnya",
+    "people": "Orang",
+    "site": "Situs",
+    "team": "Grup",
+    "template": "Template",
+    "project": "Proyek"
+  }
+}

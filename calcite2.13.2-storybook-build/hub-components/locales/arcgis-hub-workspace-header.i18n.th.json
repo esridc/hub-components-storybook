@@ -1,0 +1,47 @@
+{
+  "communityOrg": "องค์กรชุมชน",
+  "editLayout": "แก้ไขโครงร่าง",
+  "orgWorkspace": "เปิดพื้นที่ทำงานหน้าหลัก",
+  "editS123": "แก้ไขใน Survey123",
+  "editAdvancedJson": "แก้ไข JSON ขั้นสูง",
+  "view": {
+    "project": "ดูโปรเจกต์",
+    "site": "ดูไซต์",
+    "initiative": "ดูการริเริ่ม",
+    "discussion": "ดูกระดาน",
+    "content": "ดูเนื้อหา",
+    "page": "ดูหน้า",
+    "group": "ดูกลุ่ม",
+    "initiativeTemplate": "ดูเทมเพลตการริเริ่ม",
+    "template": "ดูเทมเพลต",
+    "survey": "ดูการสำรวจ",
+    "event": "ดูงานอีเวนท์"
+  },
+  "access": {
+    "share": "แชร์",
+    "sharingLevel": "ระดับการแชร์",
+    "groupSharing": "การแชร์กลุ่ม",
+    "tooltip": {
+      "public": "ระดับการแชร์: สาธารณะ",
+      "org": "ระดับการแชร์: องค์กร",
+      "private": "ระดับการแชร์: ส่วนบุคคล",
+      "shared": "ระดับการแชร์: แชร์แบบส่วนบุคคล"
+    },
+    "save": "บันทึก",
+    "cancel": "ยกเลิก",
+    "alert": {
+      "success": "บันทึกการแก้ไขเรียบร้อยแล้ว",
+      "error": "ข้อผิดพลาดขณะบันทึกการแก้ไข",
+      "label": "แจ้งเตือนฟอร์ม"
+    }
+  },
+  "popoverActions": {
+    "label": "การดำเนินงานเพิ่มเติม",
+    "openInEnterprise": "เปิดใน ArcGIS Enterprise",
+    "openInOnline": "เปิดใน ArcGIS Online"
+  },
+  "homeLink": {
+    "text": "หน้าหลัก"
+  },
+  "createContent": "สร้าง"
+}

@@ -1,0 +1,43 @@
+{
+  "header": "Дискусии",
+  "myContent": "Моите събития",
+  "editableContent": "Редактируемо съдържание",
+  "addContentButtonText": "Създаване на събитие",
+  "type": "Тип",
+  "sharedUpdate": "Споделена група за актуализация",
+  "viewOnly": "Преглед само на група",
+  "owner": "Собственик",
+  "updated": "Актуализирано",
+  "tags": "Тагове",
+  "dateCreated": "Създадено",
+  "dateUpdated": "Променени",
+  "actionLinks": {
+    "view": "Изглед",
+    "edit": "Редактиране",
+    "ariaEdit": "Редактиране: {title}",
+    "ariaView": "Изглед: {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Събития",
+      "myContent": "Събития, които притежавам",
+      "editableContent": "Събития, които мога да редактирам",
+      "all": "Всички събития"
+    },
+    "access": {
+      "label": "От"
+    },
+    "type": {
+      "label": "Типове"
+    },
+    "tags": {
+      "label": "Тагове"
+    },
+    "categories": {
+      "label": "Категории"
+    },
+    "modified": {
+      "label": "Променени"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "addContent": "Inhalt hinzufügen",
+  "addContentType": {
+    "event": "Event erstellen",
+    "discussion": "Diskussion erstellen",
+    "group": "Gruppe erstellen",
+    "initiative": "Initiative erstellen",
+    "project": "Projekt erstellen",
+    "page": "Seite erstellen",
+    "site:": "Site erstellen"
+  },
+  "tooltip": {
+    "label": "Deaktiviert",
+    "noCatalog": "Fügen Sie dem Katalog Gruppen hinzu, um Inhalt hinzuzufügen.",
+    "noPermission": "Sie verfügen nicht über die Berechtigung, dem Katalog Inhalt hinzufügen.",
+    "no-permission": "Sie verfügen nicht über die Berechtigung, dem Katalog Inhalt hinzufügen.",
+    "not-in-groups": "Sie sind kein Mitglied von Gruppen, die den Katalog definieren.",
+    "too-many-groups": "Sie haben die maximale Anzahl an Gruppen erreicht und können keine weitere erstellen."
+  },
+  "existing": {
+    "description": "In {onlineOrEnterprise} bereits vorhandenen Inhalt hinzufügen",
+    "modalTitle": "Vorhandenen Inhalt auswählen",
+    "title": "Vorhandenen Inhalt auswählen"
+  },
+  "create": {
+    "app": {
+      "description": "Eine Experience erstellen, Informationen vermitteln oder Daten visualisieren",
+      "modalTitle": "App erstellen",
+      "title": "App"
+    },
+    "event": {
+      "description": "Präsenz- oder Onlineveranstaltungen ausrichten",
+      "modalTitle": "Event erstellen",
+      "title": "Veranstaltungen"
+    },
+    "content": {
+      "description": "Daten, Dokumente, Bilder und externe Links zur Site hinzufügen",
+      "modalTitle": "Inhalt erstellen",
+      "title": "Inhalt"
+    },
+    "discussion": {
+      "description": "Ideen und Feedback sammeln",
+      "modalTitle": "Diskussionsrunde erstellen",
+      "title": "Diskussionsrunde"
+    },
+    "group": {
+      "description": "Personen zum Freigeben von Inhalten und für Diskussionen organisieren",
+      "modalTitle": "Gruppe erstellen",
+      "title": "Gruppe"
+    },
+    "initiative": {
+      "description": "Strategische Maßnahmen mit definierten Zielen zum Organisieren von Projekten hervorheben",
+      "modalTitle": "Initiative erstellen",
+      "title": "Initiative"
+    },
+    "page": {
+      "description": "Informationen in einem strukturierten Layout präsentieren",
+      "modalTitle": "Seite erstellen",
+      "title": "Seite"
+    },
+    "project": {
+      "description": "Arbeitsaufträge mit klaren Zielvorgaben und festem Zeitrahmen präsentieren",
+      "modalTitle": "Projekt erstellen",
+      "title": "Projekt"
+    },
+    "site": {
+      "description": "Eine Website mit Branding erstellen, um eine Verbindung mit der Community herzustellen",
+      "modalTitle": "Site erstellen",
+      "title": "Site"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "overview": "Přehled",
+  "telemetry": {
+    "pageViews": "Zobrazení stránek",
+    "last30days": "Posledních 30 dní",
+    "lastUpdated": "Naposledy aktualizováno před {hoursElapsed} hodinami",
+    "checkTomorrow": "Zkuste to znovu zítra"
+  },
+  "learnAbout": "Získat informace o projektech Hub",
+  "status": {
+    "notStarted": "Nespuštěno",
+    "inProgress": "Probíhá",
+    "onHold": "Pozdrženo",
+    "complete": "Dokončeno"
+  },
+  "editDetails": "Upravit údaje",
+  "noPurposeSet": "Není nastaven žádný účel",
+  "noLocationSet": "Nebyla nastavena žádná poloha"
+}

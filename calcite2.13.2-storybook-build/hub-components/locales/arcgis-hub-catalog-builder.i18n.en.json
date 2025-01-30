@@ -1,0 +1,23 @@
+{
+  "shared": {
+    "targetEntities": {
+      "item": "Items",
+      "event": "Events"
+    }
+  },
+  "source": {
+    "heading": "Filters",
+    "description": "Your catalog is powered by groups and additional filters. <br/><br/>*indicates required field"
+  },
+  "collections": {
+    "section": { "heading": "Collections" },
+    "heading": "Collection",
+    "description": "Organize content into distinct subsets for easier browsing and discovery.<br/><br/>*indicates required field",
+    "editLabel": "Edit collection",
+    "addLabel": "New collection"
+  },
+  "appearance": {
+    "heading": "Appearance",
+    "helperText": "Your catalog allows visitors to search and view results. Update how the default catalog should look."
+  }
+}

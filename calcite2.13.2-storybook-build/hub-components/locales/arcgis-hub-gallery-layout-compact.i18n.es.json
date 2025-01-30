@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "No se encontraron resultados."
+    },
+    "error": {
+      "message": "Lo sentimos pero la búsqueda ha detectado un error."
+    }
+  },
+  "type": "Tipo",
+  "tags": "Etiquetas",
+  "owner": "Propietario",
+  "dateCreated": "Creada",
+  "dateUpdated": "Modificado",
+  "categories": "Categorías",
+  "dateAndTime": "Fecha y hora",
+  "allDay": "{date} (todo el día)",
+  "allDayRange": "{from} - {to} (todo el día)",
+  "location": "Ubicación",
+  "attendanceType": "Tipo de asistencia",
+  "inPerson": "Presencial",
+  "online": "En línea",
+  "hybrid": "Híbrido"
+}

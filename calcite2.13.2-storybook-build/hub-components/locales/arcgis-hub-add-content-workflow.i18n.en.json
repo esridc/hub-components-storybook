@@ -1,0 +1,111 @@
+{
+  "controls": {
+    "addContent": "Add content",
+    "back": "Back",
+    "cancel": "Cancel",
+    "close": "Done",
+    "create": "Create and add to group",
+    "next": "Next",
+    "browseTemplates": "Browse templates"
+  },
+  "createHelpState": {
+    "discussion": {
+      "heading": "Discussion",
+      "message": "Create a new discussion board by entering a title that indicates the topic."
+    },
+    "event": {
+      "heading": "Event",
+      "message": "Host an organized activity, in-person or virtually."
+    },
+    "group": {
+      "heading": "Group",
+      "message": "Set up a group to collaborate on focused content."
+    },
+    "initiative": {
+      "heading": "Initiative",
+      "message": "Initiatives organize and summarize progress towards a goal."
+    },
+    "page": {
+      "heading": "Page",
+      "message": "A page is a place to share information and engage with your audience."
+    },
+    "project": {
+      "heading": "Project",
+      "message": "Highlight work that has clear objectives and timeframes."
+    },
+    "site": {
+      "heading": "Site",
+      "message": "Create a webpage to organize and share information."
+    }
+  },
+  "selection": {
+    "unlimited": "Selected: {count}",
+    "limited": "Selected: {count} / {limit}"
+  },
+  "steps": {
+    "createContent": "Add basic information",
+    "selectContent": "Select content",
+    "selectGroups": "Select group",
+    "confirmation": "Confirmation",
+    "notImplemented": "Not implemented"
+  },
+  "working": {
+    "heading": "Adding selected content.",
+    "loadingLabel": "Adding content."
+  },
+  "failure": {
+    "heading": "Content not added",
+    "message": "Something went wrong when adding the selected content, please try again.",
+    "action": "Try again"
+  },
+  "notImplemented": {
+    "heading": "This workflow is not yet implemented."
+  },
+  "contentGallery": {
+    "facets": {
+      "access": {
+        "label": "From"
+      },
+      "type": {
+        "label": "Types"
+      },
+      "tags": {
+        "label": "Tags"
+      },
+      "categories": {
+        "label": "Categories"
+      },
+      "modified": {
+        "label": "Modified"
+      }
+    }
+  },
+  "groupsGallery": {
+    "facets": {
+      "access": {
+        "label": "Viewable by",
+        "options": {
+          "org": "Organization",
+          "public": "Everyone (public)",
+          "private": "Me"
+        }
+      },
+      "from": {
+        "label": "From",
+        "options": {
+          "myCommunity": "My Community",
+          "myGroups": "My Groups",
+          "myOrganization": "My Organization",
+          "world": "World"
+        }
+      },
+      "type": {
+        "label": "Types",
+        "options": {
+          "sharedUpdate": "Shared Update",
+          "opendata": "Open Data"
+        }
+      }
+    }
+  }
+}

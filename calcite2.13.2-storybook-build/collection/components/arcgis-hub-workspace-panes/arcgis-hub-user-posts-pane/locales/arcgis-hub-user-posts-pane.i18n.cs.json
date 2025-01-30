@@ -1,0 +1,43 @@
+{
+  "header": "Diskuze",
+  "myContent": "Moje události",
+  "editableContent": "Editovatelný obsah",
+  "addContentButtonText": "Vytvořit událost",
+  "type": "Typ",
+  "sharedUpdate": "Skupina se sdílenými aktualizacemi",
+  "viewOnly": "Skupina pouze pro prohlížení",
+  "owner": "Vlastník",
+  "updated": "Aktualizováno",
+  "tags": "Klíčová slova",
+  "dateCreated": "Vytvořeno",
+  "dateUpdated": "Změněno",
+  "actionLinks": {
+    "view": "Zobrazit",
+    "edit": "Upravit",
+    "ariaEdit": "Upravit: {title}",
+    "ariaView": "Zobrazit: {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Události",
+      "myContent": "Události, které vlastním",
+      "editableContent": "Události, které mohu upravovat",
+      "all": "Všechny události"
+    },
+    "access": {
+      "label": "Od"
+    },
+    "type": {
+      "label": "Typy"
+    },
+    "tags": {
+      "label": "Klíčová slova"
+    },
+    "categories": {
+      "label": "Kategorie"
+    },
+    "modified": {
+      "label": "Změněno"
+    }
+  }
+}

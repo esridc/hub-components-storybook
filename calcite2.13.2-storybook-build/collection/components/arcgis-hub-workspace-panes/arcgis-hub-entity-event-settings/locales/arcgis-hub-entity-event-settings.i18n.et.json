@@ -1,0 +1,49 @@
+{
+  "settings": "Seaded",
+  "advanced": "Täpsemad",
+  "delete": {
+    "event": "Kustuta see sündmus",
+    "desc": "Selle sündmuse kustutamist ei saa tühistada. Registreerunuid teavitatakse (kui automaatne teavitamine on ürituse jaoks lubatud).",
+    "deleteButton": "Kustuta sündmus"
+  },
+  "cancel": {
+    "header": "Tühista see sündmus",
+    "desc": "Kui sündmus tühistatakse, jääb sündmus nähtavaks tühistatud olekuga. Registreerimine peatatakse ja registreerunuid teavitatakse (kui automaatne teavitamine on ürituse jaoks sisse lülitatud).",
+    "event": "Tühista sündmus",
+    "notice": {
+      "success": {
+        "title": "Sündmus on tühistatud",
+        "message": "Registreerunuid teavitatakse, kui automaatsed teavitused on lubatud."
+      },
+      "error": {
+        "title": "Sündmust ei saanud tühistada",
+        "message": "Proovige uuesti"
+      }
+    }
+  },
+  "enable": {
+    "event": "Luba uuesti sündmus",
+    "desc": "Sündmus on tühistatud (nähtav tühistatud olekuga).",
+    "notice": {
+      "success": {
+        "title": "Sündmus uuesti aktiveeritud",
+        "message": "Registreerunuid teavitatakse, kui automaatsed teavitused on lubatud."
+      },
+      "error": {
+        "title": "Sündmust ei saanud uuesti aktiveerida",
+        "message": "Proovige uuesti"
+      }
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "event": "Kustuta sündmus"
+    },
+    "content": "Kas soovite kindlasti kustutada:",
+    "delete": "Kustuta sündmus",
+    "cancel": "Tühista sündmus"
+  },
+  "notice": {
+    "label": "Vormi hoiatus"
+  }
+}

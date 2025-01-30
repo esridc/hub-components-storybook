@@ -1,0 +1,65 @@
+{
+  "catalog": "Catálogo",
+  "catalog-content": "Contenido",
+  "catalog-events": "Eventos",
+  "shared": {
+    "publish": {
+      "label": "Guardar",
+      "success": {
+        "title": "Publicadas con éxito las ediciones del catálogo en la vista en directo"
+      },
+      "error": {
+        "title": "Error al guardar ediciones"
+      }
+    }
+  },
+  "emptyState": {
+    "message": "No se ha definido el catálogo",
+    "action": "Crear un catálogo"
+  },
+  "actionBar": {
+    "details": "Configuración del catálogo",
+    "appearance": "Apariencia del catálogo",
+    "tooltip": {
+      "appearanceDisabled": "No hay ningún catálogo configurado. Configure un catálogo para ajustar la apariencia.",
+      "configuration": "Configuración",
+      "appearance": "Apariencia"
+    }
+  },
+  "detailsPanel": {
+    "heading": "Configuración del catálogo",
+    "close": "Cerrar la configuración del catálogo",
+    "catalogBuilder": {
+      "helperText": "Su catálogo permite a los visitantes buscar y visualizar contenidos. Los resultados mostrados se basan en la configuración de la consulta."
+    },
+    "querySizeNotice": {
+      "warning": {
+        "title": "Se está acercando al límite del catálogo",
+        "catalogSourceMessage": {
+          "item": "La configuración de la fuente de elementos se está acercando al límite de tamaño.",
+          "event": "La configuración de la fuente de eventos se está acercando al límite de tamaño."
+        },
+        "collectionSourceMessage": {
+          "item": "La combinación de la fuente de elementos y la configuración de la colección \"{collectionName}\" se está acercando al límite de tamaño.",
+          "event": "La combinación de la fuente de eventos y la configuración de la colección \"{collectionName}\" se está acercando al límite de tamaño."
+        }
+      },
+      "danger": {
+        "title": "Límite de catálogo rebasado",
+        "catalogSourceMessage": {
+          "item": "La configuración de la fuente de elementos ha superado el límite de tamaño. Reduzca el número de filtros y/u opciones de filtro en su fuente de elementos a publicar.",
+          "event": "La configuración de la fuente de eventos ha superado el límite de tamaño. Reduzca el número de filtros y/u opciones de filtro en su fuente de eventos a publicar."
+        },
+        "collectionSourceMessage": {
+          "item": "La combinación de la fuente de elementos y la configuración de la colección \"{collectionName}\" ha superado el límite de tamaño. Reduzca el número de filtros y/u opciones de filtro en su fuente de elementos y/o colección \"{collectionName}\" a publicar.",
+          "event": "La combinación de la fuente de eventos y la configuración de la colección \"{collectionName}\" ha superado el límite de tamaño. Reduzca el número de filtros y/u opciones de filtro en su fuente de eventos y/o colección \"{collectionName}\" a publicar."
+        }
+      }
+    }
+  },
+  "appearancePanel": {
+    "heading": "Apariencia del catálogo",
+    "close": "Cerrar la apariencia del catálogo",
+    "description": "Su catálogo permite a los visitantes buscar y visualizar contenidos. Aquí puede actualizar la apariencia predeterminada del catálogo y los filtros que desea que se muestren."
+  }
+}

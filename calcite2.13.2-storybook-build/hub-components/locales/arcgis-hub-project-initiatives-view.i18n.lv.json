@@ -1,0 +1,19 @@
+{
+  "facets": {
+    "location": {
+      "label": "Novietojums",
+      "tooltip": "Lietot kartes pārklājumu kā novietojuma filtru"
+    },
+    "status": "Statuss",
+    "tags": "Atslēgvārdi",
+    "categories": "Kategorijas",
+    "dateUpdated": "Atjaunināšanas datums"
+  },
+  "status": {
+    "label": "Projekta statuss",
+    "notStarted": "Nav sākts",
+    "inProgress": "Notiek izpilde",
+    "onHold": "Aizturēts",
+    "complete": "Pabeigts"
+  }
+}

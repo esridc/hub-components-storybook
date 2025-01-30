@@ -1,0 +1,35 @@
+:host {
+  display: block;
+}
+
+:host:focus-visible {
+  outline: none;
+}
+
+arcgis-configuration-editor-field {
+  display: block;
+}
+
+arcgis-configuration-editor-field:not(:last-child) {
+  margin-bottom: 0.25rem;
+}
+
+arcgis-hub-notice {
+  margin-bottom: 2rem;
+}
+
+/* Stepper item styling
+ * --------------------
+ * NOTE: all other section styles should be added
+ * directly to the section's stylesheet. These are
+ * only added here because of how the calcite-stepper-item
+ * component works - it must be rendered directly in the
+ * arcgis-configuration-editor rather than through the
+ * arcgis-configuration-editor-section */
+calcite-stepper-item .helper-text {
+  margin-top: -1.5rem;
+  margin-bottom: 1.5rem;
+}
+calcite-stepper-item .helper-text--left > .helper-text, calcite-stepper-item .helper-text--right > .helper-text {
+  margin-top: 0px;
+}

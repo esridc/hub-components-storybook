@@ -1,0 +1,35 @@
+{
+  "overview": "Přehled",
+  "resources": "Zdroje Hubu",
+  "cards": {
+    "items": "Počet položek",
+    "groups": "Počet skupin"
+  },
+  "hubContent": {
+    "heading": "Nedávno upravené položky Hub",
+    "link": "Zobrazit veškerý obsah"
+  },
+  "content": {
+    "heading": "Nedávno upravený obsah",
+    "stat": "Počet položek",
+    "link": "Zobrazit veškerý obsah"
+  },
+  "groups": {
+    "heading": "Nedávno upravené skupiny",
+    "stat": "Počet skupin",
+    "link": "Zobrazit všechny skupiny"
+  },
+  "contentCount": "Obsah",
+  "addContent": "Vytvořit nový",
+  "facets": {
+    "access": {
+      "label": "Od"
+    },
+    "type": {
+      "label": "Typy"
+    },
+    "modified": {
+      "label": "Změněno"
+    }
+  }
+}

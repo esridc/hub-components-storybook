@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "Mitt innhold",
+    "livingAtlas": "Living Atlas",
+    "organization": "Min organisasjon",
+    "world": "Verden (offentlig)"
+  },
+  "collection": {
+    "appsAndMaps": "Apper og kart",
+    "feedback": "Tilbakemelding"
+  },
+  "facets": {
+    "type": "Type",
+    "tags": "Merker",
+    "categories": "Kategorier",
+    "modified": "Endret"
+  },
+  "pickerTitle": "Velg innhold",
+  "height": "Høyde (piksler)",
+  "isScrollable": "Kan rulles",
+  "errors": {
+    "heightMinimum": "Verdien må være et positivt tall.",
+    "heightMaximum": "Verdien må være lavere enn eller lik 2000 piksler.",
+    "urlError": "Må være en gyldig URL."
+  },
+  "success": {
+    "urlSuccess": "URL-en ble lastet inn."
+  },
+  "shouldApplyBreakpoints": {
+    "label": "Bruk innstillinger etter enhetens bruddpunkter i stedet"
+  },
+  "viewportAll": {
+    "label": "Standard",
+    "description": "Innstillingene brukes på alle skjermstørrelser"
+  },
+  "viewportMobile": {
+    "label": "Mobil",
+    "description": "Innstillingene brukes på skjermer som er 360 piksler brede og høyere"
+  },
+  "viewportTablet": {
+    "label": "Nettbrett",
+    "description": "Innstillingene brukes på skjermer som er 560 piksler brede og høyere"
+  },
+  "viewportDesktop": {
+    "label": "Skrivebord",
+    "description": "Innstillingene brukes på skjermer som er 980 piksler brede og høyere"
+  },
+  "sourceLabel": "Velg innbyggingstype",
+  "contentLabel": "ArcGIS-innhold",
+  "externalLabel": "Ekstern URL",
+  "contentDescription": "Velg blant eksterne kart, scener, applikasjoner, undersøkelser og dokumentkoblinger som er tilgjengelige for deg.",
+  "externalDescription": "Skriv inn en URL som skal bygges inn. Merk at enkelte domener ikke tillater innbygging, og kanskje ikke vises som ventet."
+}

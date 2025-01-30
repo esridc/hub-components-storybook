@@ -1,0 +1,165 @@
+{
+  "advancedConfig": {
+    "label": "Täpsem konfiguratsioon",
+    "serverTimeout": {
+      "label": "Serveri ajalõpp (sekundites)",
+      "helperText": "Kasulik suuremate teenuste jaoks, mis vajavad vastamiseks rohkem aega.",
+      "errors": {
+        "type": "Sisestage serveri ajalõpu konfiguratsioon.",
+        "minimum": "Serveri ajalõpu väärtus peab olema vähemalt 5.",
+        "maximum": "Serveri ajalõpu väärtus peab olema kuni 95."
+      }
+    }
+  },
+  "appearance": {
+    "corners": {
+      "label": "Nurgad",
+      "enum": {
+        "round": {
+          "label": "Ümar"
+        },
+        "square": {
+          "label": "Ruut"
+        }
+      }
+    },
+    "dropShadow": {
+      "label": "Varjuefekt",
+      "enum": {
+        "heavy": {
+          "label": "Raske"
+        },
+        "low": {
+          "label": "Madal"
+        },
+        "medium": {
+          "label": "Keskmine"
+        },
+        "none": {
+          "label": "Pole alustatud"
+        }
+      }
+    },
+    "layout": {
+      "label": "Kaardi laad",
+      "enum": {
+        "informational": {
+          "label": "Informatiivne"
+        },
+        "simple": {
+          "label": "Lihtne"
+        }
+      }
+    },
+    "popoverText": {
+      "label": "Modaalne sisu"
+    },
+    "publisherText": {
+      "label": "Allika avaldaja"
+    },
+    "styleSpecificSettings": {
+      "label": "Laadi seaded",
+      "helperInfoText": "Teabenupu valimine avab modaali, mis sisaldab lisateavet.",
+      "helperVizText": "Lihtne kaart toetab visuaalse elemendina ikooni lisamist, mida saab kasutada andmete muutuste kajastamiseks."
+    },
+    "sectionTitle": "Väljanägemine",
+    "textAlign": "Joondus",
+    "visualInterest": {
+      "label": "Visuaalne element",
+      "enum": {
+        "icon": {
+          "label": "Ikoon"
+        },
+        "none": {
+          "label": "Puudub"
+        }
+      }
+    },
+    "icon": {
+      "label": "Ikoon",
+      "caretUp": {
+        "label": "Suurenda"
+      },
+      "caretDown": {
+        "label": "Vähenda"
+      },
+      "caretDouble": {
+        "label": "Muudatusi ei ole"
+      }
+    },
+    "valueColor": "Värv (statistika)"
+  },
+  "details": {
+    "allowDynamicLink": "Kuva allika link",
+    "link": {
+      "sectionTitle": "Link",
+      "sourceLink": "Lingi URL",
+      "sourceTitle": "Lingi tekst"
+    },
+    "sectionTitle": "Üksikasjad",
+    "subtitle": "Alapealkiri",
+    "title": "Pealkiri",
+    "trailingText": {
+      "label": "Tagumine tekst",
+      "helperText": "Sisestage täiendav kontekst või selgitus (kuvatakse mõõdiku väärtuse all)."
+    }
+  },
+  "errors": {
+    "sourceLink": {
+      "required": "Link on allika kuvamiseks nõutav.",
+      "formatError": "URL-i vormindus on vale"
+    }
+  },
+  "formatting": {
+    "sectionTitle": "Vormindus",
+    "unit": {
+      "label": "Kuvatavad ühikud",
+      "helperText": "Sisestage oma väärtuse mõõtühik."
+    },
+    "unitPosition": {
+      "label": "Paigutus",
+      "helperText": "Valige, kus mõõtühik (nt km, nael) mõõdiku väärtuse suhtes kuvatakse.",
+      "enum": {
+        "after": {
+          "label": "Pärast"
+        },
+        "before": {
+          "label": "Enne"
+        },
+        "below": {
+          "label": "All"
+        }
+      }
+    }
+  },
+  "sharing": {
+    "sectionTitle": "Jagamine",
+    "showShareIcon": "Luba jagamine",
+    "showShareIconHelperText": "Lubage kasutajatel kopeerida sellel lehel oleva kaardi link.",
+    "shareableByValue": "Luba manused",
+    "shareableOnHover": {
+      "label": "Kuvatakse kursori üleviimisel",
+      "helperText": {
+        "label": "Jagamisnupp kuvatakse ainult kursori üleviimisel. Väljalülitamise korral on nupp alati nähtav."
+      }
+    }
+  },
+  "statistic": {
+    "dataSource": "Andmeallikas",
+    "displayValue": "Kuva väärtus",
+    "sectionTitle": "Väärtus",
+    "type": {
+      "label": "Tüüp",
+      "enum": {
+        "dynamic": {
+          "label": "Dünaamiline",
+          "description": "Valige summeerimiseks olemasolev andmestik (objektiteenus)."
+        },
+        "static": {
+          "label": "Staatiline",
+          "description": "Sisestage oma paigutuse esiletõstmiseks väärtus."
+        }
+      }
+    }
+  }
+}

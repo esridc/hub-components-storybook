@@ -1,0 +1,87 @@
+{
+  "initiatives": "Iniciativas",
+  "description": "Asóciese con iniciativas para contribuir a los esfuerzos a largo plazo o a gran escala. Los colaboradores del proyecto pueden gestionar asociaciones confirmadas y las solicitudes de asociación destacadas. Las iniciativas con asociaciones confirmadas aparecerán en la vista de este proyecto. ",
+  "shared": {
+    "error": {
+      "title": "Se ha producido un error",
+      "message": "No hemos podido completar la tarea. Inténtelo de nuevo."
+    },
+    "facets": {
+      "access": {
+        "label": "Uso compartido"
+      },
+      "status": {
+        "label": "Estado",
+        "notStarted": "No iniciado",
+        "inProgress": "En curso",
+        "onHold": "En espera",
+        "complete": "Completado"
+      },
+      "tags": {
+        "label": "Etiquetas"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "{currentConfirmedAndOutgoingRequests} / {maxCurrentAndOutgoingRequestsAllowed} confirmado + solicitudes salientes",
+      "tooltip": "Para enviar solicitudes, desconecte las asociaciones existentes y/o las solicitudes salientes"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "Buscar iniciativas",
+    "sendRequest": "Enviar solicitud",
+    "success": {
+      "title": "Correcto",
+      "message": "Solicitudes de asociación enviadas: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "Comprobar asociaciones",
+      "message": "Una o más selecciones ya han solicitado la asociación. Nuevas solicitudes de asociación enviadas: {count}"
+    },
+    "catalog": {
+      "myContent": "Mi contenido",
+      "favorites": "Favoritos",
+      "organization": "Mi organización",
+      "partners": "Mis socios",
+      "community": "Mi comunidad"
+    },
+    "collection": {
+      "initiatives": "Iniciativas"
+    }
+  },
+  "acceptAssociation": {
+    "label": "Aceptar",
+    "limitReachedTooltip": "Para aceptar, desconecte las asociaciones existentes y/o las solicitudes salientes",
+    "success": {
+      "title": "Correcto",
+      "message": "Asociación aceptada con {requestor}"
+    }
+  },
+  "cancelRequest": {
+    "label": "Cancelar solicitud",
+    "success": {
+      "title": "Correcto",
+      "message": "Solicitud de asociación cancelada"
+    }
+  },
+  "breakAssociation": {
+    "label": "Desconectar",
+    "success": {
+      "title": "Asociación interrumpida",
+      "message": "Hemos desconectado este elemento de su asociación anterior. Sin embargo, no podemos revertir la decisión desde el otro lado, por lo que es posible que siga viéndolo en las solicitudes entrantes."
+    }
+  },
+  "associationsGallery": {
+    "sources": "Estado",
+    "catalog": {
+      "associated": "Asociado",
+      "requesting": "Solicitudes entrantes",
+      "pending": "Solicitudes salientes"
+    },
+    "collection": {
+      "initiatives": "Iniciativas"
+    }
+  },
+  "notice": {
+    "label": "Alerta de formulario"
+  }
+}

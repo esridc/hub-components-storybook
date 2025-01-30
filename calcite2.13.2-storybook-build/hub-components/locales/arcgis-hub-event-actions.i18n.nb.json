@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "Registrer",
+    "registered": "Registrert",
+    "join": "Bli med online",
+    "in-person": "Personlig",
+    "online": "Online",
+    "inPersonFull": "Personlig (full)",
+    "onlineFull": "Online (full)",
+    "close": "Lukk"
+  },
+  "tooltip": {
+    "isCanceled": "Hendelsen er avlyst",
+    "eventHasEnded": "Hendelse avsluttet",
+    "eventFull": "Hendelsen er full",
+    "inPerson": "Registrert for hendelse med personlig oppmøte",
+    "online": "Registrert for online-hendelse",
+    "unavailable": "Tilgjengelig én time før hendelsens starttid"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "Registreringen for online-hendelsen ble kansellert",
+    "onlineRegistrationConfirmed": "Du har registrert deg for online-hendelsen",
+    "onlineRegistrationError": "Det oppstod en uventet feil ved registrering av online-hendelsen",
+    "onlineRegistrationCanceledError": "Det oppstod en uventet feil ved kansellering av online-hendelsen",
+    "onlineRegistrationAtCapacity": "Du prøver å registere deg for en onlinehendelse som er full",
+    "inPersonRegistrationCanceled": "Registreringen for personlig oppmøte ved hendelsen ble kansellert",
+    "inPersonRegistrationCanceledError": "Det oppstod en uventet feil ved kansellering av hendelsen med personlig oppmøte",
+    "inPersonRegistrationConfirmed": "Du har registrert deg for hendelsen med personlig oppmøte",
+    "inPersonRegistrationError": "Det oppstod en uventet feil ved registrering av hendelsen med personlig oppmøte",
+    "inPersonRegistrationAtCapacity": "Du prøver å registrere deg for en hendelse med personlig oppmøte som er full"
+  }
+}

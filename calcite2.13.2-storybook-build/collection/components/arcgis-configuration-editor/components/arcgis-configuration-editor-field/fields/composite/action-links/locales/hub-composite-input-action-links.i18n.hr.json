@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "Dodaj prvu radnju",
+  "addSecondAction": "Dodaj drugu radnju",
+  "addLink": "Dodaj poveznicu",
+  "addSection": "Dodaj dio",
+  "deleteNotice": {
+    "title": "Nije moguće brisanje",
+    "message": "Dio nije prazan. Premjestite sve poveznice izvan dijela prije pokušaja brisanja."
+  },
+  "linkEditor": {
+    "save": "Spremi",
+    "delete": "Izbriši",
+    "cancel": "Odustani",
+    "preview": "Poveznica za pretpregled",
+    "title": {
+      "button1": "Prva radnja",
+      "button2": "Druga radnja",
+      "block": "Poveznica na radnju"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "Poveznica na postojeći sadržaj"
+        },
+        "external": {
+          "label": "Poveznica na vanjski izvor"
+        }
+      },
+      "label": {
+        "label": "Oznaka",
+        "helperText": {
+          "button": "Ovaj tekst će se prikazati na gumbu.",
+          "block": "To će se prikazati na bloku podebljanim slovima."
+        },
+        "requiredError": "Oznaka je obvezno polje."
+      },
+      "description": {
+        "label": "Opis",
+        "helperText": "To je sekundarna informacija."
+      },
+      "href": {
+        "label": "Poveznica",
+        "requiredError": "Poveznica je obvezno polje.",
+        "formatError": "Oblikovanje URL-a nije ispravno."
+      },
+      "contentId": {
+        "label": "Poveznica do sadržaja",
+        "requiredError": "Poveznica do sadržaja je obvezno polje."
+      },
+      "section": {
+        "label": "Premjesti u dio",
+        "placeholder": {
+          "noSections": "Nema konfiguriranih dijelova",
+          "notSet": "Nije u dijelu"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "Dio",
+    "helperText": "Dijelovi se mogu upotrebljavati za umetanje poveznica pod stavku izbornika. Dijelovi ne vrše ulogu poveznice.",
+    "section": {
+      "label": {
+        "label": "Oznaka",
+        "requiredError": "Oznaka je obvezno polje."
+      },
+      "description": {
+        "label": "Opis"
+      }
+    }
+  }
+}

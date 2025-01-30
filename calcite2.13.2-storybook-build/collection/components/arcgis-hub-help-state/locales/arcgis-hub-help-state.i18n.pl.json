@@ -1,0 +1,26 @@
+{
+  "unauthenticated": {
+    "heading": "Zaloguj się.",
+    "message": "Dostęp do tej witryny wymaga poświadczeń.",
+    "actionText": "Zaloguj się"
+  },
+  "not-found": {
+    "heading": "Nie znaleziono strony",
+    "message": "Ta strona mogła zostać przeniesiona lub usunięta. Spróbuj znaleźć ją na stronie głównej.",
+    "actionText": "Przejdź na stronę główną"
+  },
+  "unsupported-device": {
+    "heading": "Nieobsługiwany rozmiar ekranu",
+    "message": "Przestrzenie robocze nie są jeszcze dostępne na mniejszych ekranach. Użyj urządzenia z szerszym ekranem.",
+    "actionText": "Wstecz"
+  },
+  "access-denied": {
+    "heading": "Odmowa dostępu",
+    "message": "Nie masz uprawnień dostępu do tego zasobu.",
+    "actionText": "Przejdź na stronę główną"
+  },
+  "loading": {
+    "heading": "Wczytywanie…",
+    "loadingLabel": "Wczytywanie"
+  }
+}

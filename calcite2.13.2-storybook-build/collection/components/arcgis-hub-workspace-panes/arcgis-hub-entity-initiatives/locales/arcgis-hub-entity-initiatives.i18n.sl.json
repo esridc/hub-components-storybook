@@ -1,0 +1,87 @@
+{
+  "initiatives": "Pobude",
+  "description": "Povežite s pobudami, da prispevate k dolgoročnim ali obsežnim prizadevanjem. Sodelavci projekta lahko upravljajo potrjene povezave ali nerešene zahteve za povezavo. Pobude s potrjenimi povezavami se bodo pojavile na pogledu tega projekta. ",
+  "shared": {
+    "error": {
+      "title": "Nekaj je šlo narobe",
+      "message": "Opravila nismo mogli zaključiti. Poskusite znova."
+    },
+    "facets": {
+      "access": {
+        "label": "Deljenje"
+      },
+      "status": {
+        "label": "Stanje",
+        "notStarted": "Ni zagnano",
+        "inProgress": "V teku",
+        "onHold": "Zadržano",
+        "complete": "Dokončano"
+      },
+      "tags": {
+        "label": "Oznake"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "Potrjene + poslane zahteve: {currentConfirmedAndOutgoingRequests}/{maxCurrentAndOutgoingRequestsAllowed}",
+      "tooltip": "Za pošiljanje zahtev prekinite obstoječe povezave in/ali poslane zahteve"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "Poišči iniciative",
+    "sendRequest": "Pošlji zahtevo",
+    "success": {
+      "title": "Uspešno",
+      "message": "Poslane zahteve za povezavo: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "Preveri povezave",
+      "message": "Nekatere selekcije so že zaprosile za povezavo. Nove poslane zahteve za povezavo: {count}"
+    },
+    "catalog": {
+      "myContent": "Moja vsebina",
+      "favorites": "Priljubljene",
+      "organization": "Moja organizacija",
+      "partners": "Moji partnerji",
+      "community": "Moja zainteresirana javnost"
+    },
+    "collection": {
+      "initiatives": "Pobude"
+    }
+  },
+  "acceptAssociation": {
+    "label": "Sprejmi",
+    "limitReachedTooltip": "Za sprejem prekinite obstoječe povezave in/ali poslane zahteve",
+    "success": {
+      "title": "Uspešno",
+      "message": "Povezava je sprejeta s/z {requestor}"
+    }
+  },
+  "cancelRequest": {
+    "label": "Prekliči zahtevo",
+    "success": {
+      "title": "Uspešno",
+      "message": "Zahteva za povezavo je preklicana"
+    }
+  },
+  "breakAssociation": {
+    "label": "Prekini povezavo",
+    "success": {
+      "title": "Povezava je prekinjena",
+      "message": "Prekinili smo povezavo tega elementa s prejšnjo povezavo. Vendar odločitve z druge strani ne moremo razveljaviti, zato jo boste morda še vedno videli v prejetih zahtevah."
+    }
+  },
+  "associationsGallery": {
+    "sources": "Stanje",
+    "catalog": {
+      "associated": "Povezano",
+      "requesting": "Prejete zahteve",
+      "pending": "Poslane zahteve"
+    },
+    "collection": {
+      "initiatives": "Pobude"
+    }
+  },
+  "notice": {
+    "label": "Opozorilo obrazca"
+  }
+}

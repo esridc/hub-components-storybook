@@ -1,0 +1,33 @@
+{
+  "title": "Kokoelmat",
+  "actions": {
+    "label": "Vaihtoehdot",
+    "show": "Näytä",
+    "hide": "Piilota",
+    "rename": "Nimeä uudelleen"
+  },
+  "formAlert": "Lomakevaroitus",
+  "alertMessages": {
+    "success": "Muokkaukset on tallennettu",
+    "error": "Virhe muokkausten tallennuksessa"
+  },
+  "collectionRenameModal": {
+    "title": "Nimeä kokoelma uudelleen",
+    "fieldLabel": "Kokoelman tunnusteksti",
+    "requiredMessage": "Kokoelman tunnusteksti on pakollinen",
+    "apply": "Käytä",
+    "maxLengthMessage": "Kokoelman tunnustekstissä saa olla enintään 50 merkkiä"
+  },
+  "collections": {
+    "dataset": "Aineisto",
+    "site": "Sivustot",
+    "document": "Dokumentit",
+    "appAndMap": "Sovellukset ja kartat"
+  },
+  "saveButton": "Tallenna",
+  "sections": {
+    "collectionConfiguration": {
+      "title": "Kokoelman määritys"
+    }
+  }
+}

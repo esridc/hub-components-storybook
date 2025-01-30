@@ -1,0 +1,87 @@
+{
+  "initiatives": "İnisiyatifler",
+  "description": "Uzun vadeli veya büyük ölçekli çalışmalara katkıda bulunmak için inisiyatiflerle ilişkilendirin. Proje katılımcıları, onaylanmış ilişkilendirmeleri ve bekleyen ilişkilendirme taleplerini yönetebilir. Onaylanmış ilişkiler içeren inisiyatifler bu projenin görünümünde görünecektir. ",
+  "shared": {
+    "error": {
+      "title": "Bir şey ters gitti",
+      "message": "Görevi tamamlayamadık. Lütfen yeniden deneyin."
+    },
+    "facets": {
+      "access": {
+        "label": "Paylaşım"
+      },
+      "status": {
+        "label": "Durum",
+        "notStarted": "Başlatılmadı",
+        "inProgress": "Devam ediyor",
+        "onHold": "Beklemede",
+        "complete": "Tamamlandı"
+      },
+      "tags": {
+        "label": "Etiketler"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "{currentConfirmedAndOutgoingRequests} / {maxCurrentAndOutgoingRequestsAllowed} onaylanmış + giden talep",
+      "tooltip": "Talepleri göndermek için mevcut ilişkilerin ve/veya giden taleplerin bağlantısını kesin"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "İnisiyatifler bul",
+    "sendRequest": "Talep gönder",
+    "success": {
+      "title": "Başarılı",
+      "message": "İlişki talepleri gönderildi: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "İlişkilere göz at",
+      "message": "Bazı seçimler zaten ilişki talep etmiştir. Yeni ilişki talepleri gönderildi: {count}"
+    },
+    "catalog": {
+      "myContent": "İçeriğim",
+      "favorites": "Sık kullanılanlar",
+      "organization": "Kuruluşum",
+      "partners": "İş ortaklarım",
+      "community": "Topluluğum"
+    },
+    "collection": {
+      "initiatives": "İnisiyatifler"
+    }
+  },
+  "acceptAssociation": {
+    "label": "Kabul et",
+    "limitReachedTooltip": "Kabul etmek için mevcut ilişkilerin ve/veya giden taleplerin bağlantısını kesin",
+    "success": {
+      "title": "Başarılı",
+      "message": "{requestor} ile ilişki kabul edildi"
+    }
+  },
+  "cancelRequest": {
+    "label": "Talebi iptal et",
+    "success": {
+      "title": "Başarılı",
+      "message": "İlişki talebi iptal edildi"
+    }
+  },
+  "breakAssociation": {
+    "label": "Bağlantıyı kes",
+    "success": {
+      "title": "İlişki koptu",
+      "message": "Bu ögenin önceki ilişkisi ile bağlantısını kopardık. Bununla birlikte kararı karşı taraftan geri alamadığımız için gelen taleplerde görmeye devam edebilirsiniz."
+    }
+  },
+  "associationsGallery": {
+    "sources": "Durum",
+    "catalog": {
+      "associated": "İlişkili",
+      "requesting": "Gelen talepler",
+      "pending": "Gönderilen talepler"
+    },
+    "collection": {
+      "initiatives": "İnisiyatifler"
+    }
+  },
+  "notice": {
+    "label": "Biçim uyarısı"
+  }
+}

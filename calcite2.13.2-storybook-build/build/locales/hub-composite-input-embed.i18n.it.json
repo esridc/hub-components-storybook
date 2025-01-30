@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "I miei contenuti",
+    "livingAtlas": "Atlante attivo",
+    "organization": "La mia organizzazione",
+    "world": "Mondo (pubblico)"
+  },
+  "collection": {
+    "appsAndMaps": "App e mappe",
+    "feedback": "Feedback"
+  },
+  "facets": {
+    "type": "Tipo",
+    "tags": "Tag",
+    "categories": "Categorie",
+    "modified": "Modificato"
+  },
+  "pickerTitle": "Seleziona contenuto",
+  "height": "Altezza (px)",
+  "isScrollable": "Scorrevole",
+  "errors": {
+    "heightMinimum": "Il valore deve essere un numero positivo.",
+    "heightMaximum": "Il valore deve essere inferiore o uguale a 2000px.",
+    "urlError": "Deve essere un URL valido."
+  },
+  "success": {
+    "urlSuccess": "URL caricato con successo."
+  },
+  "shouldApplyBreakpoints": {
+    "label": "Applica invece le impostazioni tramite i punti d'interruzione del dispositivo"
+  },
+  "viewportAll": {
+    "label": "Predefinito",
+    "description": "Impostazioni applicate a tutte le dimensioni dello schermo"
+  },
+  "viewportMobile": {
+    "label": "Mobile",
+    "description": "Impostazioni applicate a schermi larghi 360px e oltre"
+  },
+  "viewportTablet": {
+    "label": "Tablet",
+    "description": "Impostazioni applicate a schermi larghi 560px e oltre"
+  },
+  "viewportDesktop": {
+    "label": "Desktop",
+    "description": "Impostazioni applicate a schermi larghi 980px e oltre"
+  },
+  "sourceLabel": "Seleziona tipo di incorporazione",
+  "contentLabel": "Contenuto di ArcGIS",
+  "externalLabel": "URL esterno",
+  "contentDescription": "Seleziona da mappe, scene, applicazioni, rilevamenti esistenti e da link dei documenti disponibili per l'utente corrente.",
+  "externalDescription": "Immettere un URL da incorporare. Si noti che alcuni domini non consentono l'incorporazione e la visualizzazione potrebbe essere diversa da quanto atteso."
+}

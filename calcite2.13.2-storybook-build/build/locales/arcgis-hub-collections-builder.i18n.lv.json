@@ -1,0 +1,15 @@
+{
+  "newCollection": "Jauna kolekcija",
+  "block": {
+    "heading": {
+      "untitled": "Kolekcija bez nosaukuma"
+    },
+    "actions": {
+      "delete": "Dzēst kolekciju: {label}"
+    }
+  },
+  "name": {
+    "label": "Nosaukums",
+    "requiredError": "Nepieciešams kolekcijas nosaukums"
+  }
+}

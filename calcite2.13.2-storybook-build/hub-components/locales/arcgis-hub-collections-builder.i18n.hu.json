@@ -1,0 +1,15 @@
+{
+  "newCollection": "Új gyűjtemény",
+  "block": {
+    "heading": {
+      "untitled": "Cím nélküli gyűjtemény"
+    },
+    "actions": {
+      "delete": "Gyűjtemény törlése: {label}"
+    }
+  },
+  "name": {
+    "label": "Név",
+    "requiredError": "A gyűjtemény nevét meg kell adni"
+  }
+}

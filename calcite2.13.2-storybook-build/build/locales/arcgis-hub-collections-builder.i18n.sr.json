@@ -1,0 +1,15 @@
+{
+  "newCollection": "Nova kolekcija",
+  "block": {
+    "heading": {
+      "untitled": "Kolekcija bez naslova"
+    },
+    "actions": {
+      "delete": "Izbriši kolekciju: {label}"
+    }
+  },
+  "name": {
+    "label": "Naziv",
+    "requiredError": "Naziv kolekcije je obavezan"
+  }
+}

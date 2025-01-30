@@ -1,0 +1,24 @@
+{
+  "shared": {
+    "targetEntities": {
+      "item": "Elementi",
+      "event": "Eventi"
+    }
+  },
+  "targetEntityBlock": {
+    "configured": "Configurato",
+    "notConfigured": "Non configurato"
+  },
+  "targetEntityFlow": {
+    "back": "Chiudi configura: {targetEntity}",
+    "description": "Configura: {targetEntity}",
+    "source": {
+      "heading": "Origine",
+      "description": "Le origini definiscono l'ambito dei contenuti. Modificare i risultati includendo o escludendo i parametri.<br/><br/>*indica un campo obbligatorio"
+    },
+    "collections": {
+      "heading": "Raccolte",
+      "description": "Organizzare i contenuti in sottoinsiemi distinti per consultarli e cercarli più facilmente.<br/><br/>*indica un campo obbligatorio"
+    }
+  }
+}

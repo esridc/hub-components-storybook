@@ -1,0 +1,16 @@
+{
+  "all": "Vše",
+  "source": "Zdroj",
+  "targetEntity": {
+    "item": "Položky",
+    "group": "Skupiny",
+    "user": "Uživatelé",
+    "portalUser": "Uživatelé portálu",
+    "communityUser": "Komunitní uživatelé",
+    "groupMember": "Členové skupiny",
+    "event": "Události",
+    "channel": "Kanály",
+    "discussionPost": "Příspěvky",
+    "eventAttendee": "Účastníci události"
+  }
+}

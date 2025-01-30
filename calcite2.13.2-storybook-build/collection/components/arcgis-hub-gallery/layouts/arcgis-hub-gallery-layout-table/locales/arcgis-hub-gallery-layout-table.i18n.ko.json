@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "결과를 찾을 수 없습니다."
+    },
+    "error": {
+      "message": "죄송합니다. 검색 중에 오류가 발생했습니다."
+    }
+  },
+  "access": "접근",
+  "actionsHeader": "작업",
+  "caption": "허브 엔티티 테이블",
+  "family": "가족",
+  "type": "유형",
+  "tags": "태그",
+  "owner": "소유자",
+  "dateCreated": "생성",
+  "dateUpdated": "수정",
+  "description": "설명",
+  "dateAndTime": "날짜 및 시간",
+  "location": "위치",
+  "attendanceType": "참석 유형",
+  "inPerson": "대면",
+  "online": "온라인",
+  "hybrid": "하이브리드",
+  "categories": "범주",
+  "content": "콘텐츠",
+  "name": "이름",
+  "start": "시작",
+  "end": "종료",
+  "sharedUpdate": "공유 업데이트",
+  "managers": "관리자",
+  "username": "사용자 이름",
+  "no": "아니요",
+  "yes": "예",
+  "title": "제목",
+  "thumbnail": "썸네일",
+  "types": {
+    "app": "응용프로그램",
+    "content": "콘텐츠",
+    "dataset": "데이터셋",
+    "discussion": "토론 보드",
+    "document": "문서",
+    "event": "이벤트",
+    "feedback": "피드백",
+    "initiative": "이니셔티브",
+    "image": "이미지",
+    "map": "맵",
+    "other": "기타",
+    "people": "사람",
+    "site": "사이트",
+    "team": "그룹",
+    "template": "템플릿",
+    "project": "프로젝트"
+  }
+}

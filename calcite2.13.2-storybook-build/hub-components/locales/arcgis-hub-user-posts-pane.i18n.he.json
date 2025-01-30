@@ -1,0 +1,43 @@
+{
+  "header": "דיונים",
+  "myContent": "האירועים שלי",
+  "editableContent": "תוכן ניתן לעריכה",
+  "addContentButtonText": "צור אירוע",
+  "type": "סוג",
+  "sharedUpdate": "קבוצת עדכון משותף",
+  "viewOnly": "קבוצת תצוגה בלבד",
+  "owner": "בעלים",
+  "updated": "עודכן",
+  "tags": "תגיות",
+  "dateCreated": "נוצר",
+  "dateUpdated": "שונה",
+  "actionLinks": {
+    "view": "הצג",
+    "edit": "עריכה",
+    "ariaEdit": "עריכה: {title}",
+    "ariaView": "תצוגה: {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "אירועים",
+      "myContent": "אירועים בבעלותי",
+      "editableContent": "אירועים שביכולתי לערוך",
+      "all": "כל האירועים"
+    },
+    "access": {
+      "label": "מ-"
+    },
+    "type": {
+      "label": "סוגים"
+    },
+    "tags": {
+      "label": "תגיות"
+    },
+    "categories": {
+      "label": "קטגוריות"
+    },
+    "modified": {
+      "label": "שונה"
+    }
+  }
+}

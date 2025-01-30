@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "İlk eylemi ekle",
+  "addSecondAction": "İkinci eylemi ekle",
+  "addLink": "Bağlantı ekle",
+  "addSection": "Bölüm ekle",
+  "deleteNotice": {
+    "title": "Silinemiyor",
+    "message": "Bölüm boş değil. Lütfen silmeye çalışmadan önce tüm bağlantıları bölümün dışına taşıyın."
+  },
+  "linkEditor": {
+    "save": "Kaydet",
+    "delete": "Sil",
+    "cancel": "İptal",
+    "preview": "Ön izleme bağlantısı",
+    "title": {
+      "button1": "İlk eylem",
+      "button2": "İkinci eylem",
+      "block": "Eylem bağlantısı"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "Mevcut içerik bağlantısı"
+        },
+        "external": {
+          "label": "Harici kaynak bağlantısı"
+        }
+      },
+      "label": {
+        "label": "Etiket",
+        "helperText": {
+          "button": "Bu metin düğme üzerinde görünecektir.",
+          "block": "Bu, öbek üzerinde koyu renkte görünecektir."
+        },
+        "requiredError": "Etiket gerekli bir alandır."
+      },
+      "description": {
+        "label": "Açıklama",
+        "helperText": "Bu ikincil bilgidir."
+      },
+      "href": {
+        "label": "Bağlantı",
+        "requiredError": "Bağlantı gerekli bir alandır.",
+        "formatError": "URL biçimlendirmesi yanlış."
+      },
+      "contentId": {
+        "label": "İçerik bağlantısı",
+        "requiredError": "İçerik bağlantısı gerekli bir alandır."
+      },
+      "section": {
+        "label": "Bölüme taşı",
+        "placeholder": {
+          "noSections": "Herhangi bir bölüm yapılandırılmadı",
+          "notSet": "Bölüm içinde değil"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "Bölüm",
+    "helperText": "Bölümler, bağlantıları bir menü ögesinin altına yerleştirmek için kullanılabilir. Bölümler bağlantılar gibi işlev görmez.",
+    "section": {
+      "label": {
+        "label": "Etiket",
+        "requiredError": "Etiket gerekli bir alandır."
+      },
+      "description": {
+        "label": "Açıklama"
+      }
+    }
+  }
+}

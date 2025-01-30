@@ -1,0 +1,41 @@
+{
+  "notice": {
+    "outdatedItem": {
+      "title": "Zamenite svoju inicijativu",
+      "message": "Ova kartica upućuje na zastarelu stavku. Izaberite drugu stavku koju će korisnici pratiti."
+    },
+    "missingFollowersGroup": {
+      "title": "Nedostaje grupa pratilaca",
+      "message": "Ovoj stavci nedostaje grupa pratilaca. Selektujte drugu stavku."
+    },
+    "noGroupAccess": {
+      "title": "Upozorenje unapred",
+      "message": "Nemate pristup za grupu pratilaca."
+    }
+  },
+  "selectContent": {
+    "title": "Sadržaj za praćenje",
+    "facets": {
+      "sharing": "Deljenje",
+      "catalog": {
+        "myContent": "Moj sadržaj",
+        "organization": "Moja organizacija"
+      }
+    }
+  },
+  "callToAction": {
+    "title": "Poziv na akciju",
+    "helperText": "Poziv na akciju se pojavljuje iznad dugmeta za praćenje.",
+    "alignment": "Poravnanje"
+  },
+  "followButton": {
+    "title": "Dugme za praćenje",
+    "helperText": "Ovo dugme će omogućiti članovima da prate ili prestanu da prate vaš sadržaj. Tekst se može podesiti za oba stanja dugmeta.",
+    "buttonText": "Tekst dugmeta za davanje saglasnosti",
+    "unfollowButtonText": "Tekst dugmeta za odbijanje saglasnosti",
+    "alignment": "Poravnanje",
+    "buttonStyle": "Stil dugmeta",
+    "solid": "Jednobojna pozadina",
+    "outline": "Kontura"
+  }
+}

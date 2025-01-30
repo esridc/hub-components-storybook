@@ -1,0 +1,12 @@
+{
+  "members": {
+    "noMember": "구성원 없음",
+    "oneMember": "구성원 1명",
+    "members": "구성원 {count}명"
+  },
+  "managers": {
+    "noMember": "관리자 없음",
+    "oneMember": "관리자 1명",
+    "members": "관리자 {count}명"
+  }
+}

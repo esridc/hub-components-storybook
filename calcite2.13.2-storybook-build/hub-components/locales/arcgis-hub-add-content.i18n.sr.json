@@ -1,0 +1,72 @@
+{
+  "addContent": "Dodaj sadržaj",
+  "addContentType": {
+    "event": "Kreiraj događaj",
+    "discussion": "Kreiraj diskusiju",
+    "group": "Napravi grupu",
+    "initiative": "Kreiraj inicijativu",
+    "project": "Kreiraj projekat",
+    "page": "Kreiraj stranicu",
+    "site:": "Kreiraj sajt"
+  },
+  "tooltip": {
+    "label": "Onemogućeno",
+    "noCatalog": "Dodaj grupe u katalog za dodavanje sadržaja.",
+    "noPermission": "Nemate dozvolu za dodavanje sadržaja u katalog.",
+    "no-permission": "Nemate dozvolu za dodavanje sadržaja u katalog.",
+    "not-in-groups": "Niste član nijedne grupe koja definiše katalog.",
+    "too-many-groups": "Imate maksimalni broj grupa i ne možete da kreirate više."
+  },
+  "existing": {
+    "description": "Dodaj sadržaj koji je već u {onlineOrEnterprise}",
+    "modalTitle": "Izaberi postojeći sadržaj",
+    "title": "Izaberi postojeći sadržaj"
+  },
+  "create": {
+    "app": {
+      "description": "Kreirajte iskustvo, ispričajte priču ili vizuelizujte svoje podatke",
+      "modalTitle": "Kreiraj aplikaciju",
+      "title": "Aplikacija"
+    },
+    "event": {
+      "description": "Budite domaćin organizovanih aktivnost, lično ili virtuelno",
+      "modalTitle": "Kreiraj događaj",
+      "title": "Događaj"
+    },
+    "content": {
+      "description": "Dodajte podatke, dokumente, slike i spoljne veze na svoj sajt",
+      "modalTitle": "Kreirajte sadržaj",
+      "title": "Sadržaj"
+    },
+    "discussion": {
+      "description": "Prikupite ideje i povratne informacije",
+      "modalTitle": "Kreiraj tablu za diskusiju",
+      "title": "Tabla za diskusiju"
+    },
+    "group": {
+      "description": "Organizujte ljude za deljenje sadržaja i diskusije",
+      "modalTitle": "Napravi grupu",
+      "title": "Grupa"
+    },
+    "initiative": {
+      "description": "Istaknite strateške napore sa definisanim ciljevima koji organizuju projekte",
+      "modalTitle": "Kreiraj inicijativu",
+      "title": "Inicijativa"
+    },
+    "page": {
+      "description": "Predstavite informacije u strukturisanom rasporedu",
+      "modalTitle": "Kreiraj stranicu",
+      "title": "Stranica"
+    },
+    "project": {
+      "description": "Prikažite posao sa jasnim ciljevima i vremenskim okvirima",
+      "modalTitle": "Kreiraj projekat",
+      "title": "Projekat"
+    },
+    "site": {
+      "description": "Kreirajte brendirani veb sajt da ostvarite interakcije sa svojom zajednicom",
+      "modalTitle": "Kreiraj sajt",
+      "title": "Sajt"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "Chỉnh sửa",
+    "fields": {
+      "label": {
+        "label": "Nhãn",
+        "requiredMessage": "Cần có nhãn",
+        "maxLengthMessage": "Nhãn không được vượt quá {maxLength} ký tự"
+      }
+    },
+    "apply": "Áp dụng"
+  },
+  "showItem": "Hiển thị mục danh sách sau: {itemLabel}",
+  "hideItem": "Ẩn mục danh sách sau: {itemLabel}",
+  "editItem": "Chỉnh sửa mục danh sách sau: {itemLabel}"
+}

@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "Groepen bewerken",
+        "viewGroups": "Groepen weergeven"
+      },
+      "facet": {
+        "label": "Van",
+        "myGroups": "Mijn groepen",
+        "myOrganization": "Mijn organisatie",
+        "myCommunity": "Mijn community"
+      }
+    }
+  },
+  "property": {
+    "label": "Parameter",
+    "requiredError": "Parameter is vereist"
+  },
+  "operator": {
+    "label": "Criteria",
+    "requiredError": "Criteria is vereist"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "Type"
+    },
+    "group": {
+      "default": "Groepen"
+    },
+    "occurrence": {
+      "default": "Reservering"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "Is een van",
+      "group": "Wordt gedeeld met een van"
+    },
+    "isAll": {
+      "default": "Is het totaal van",
+      "group": "Wordt gedeeld met alle"
+    },
+    "isExactly": {
+      "default": "Is exact",
+      "occurrence": "Is"
+    },
+    "isNot": {
+      "default": "Is niet",
+      "type": "Is geen van",
+      "group": "Wordt gedeeld met geen van"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "Groepen",
+      "requiredError": "Groepen zijn vereist"
+    },
+    "type": {
+      "label": "Types",
+      "requiredError": "Types zijn vereist",
+      "app": {
+        "label": "Apps"
+      },
+      "content": {
+        "label": "Content"
+      },
+      "dataset": {
+        "label": "Datasets"
+      },
+      "discussion": {
+        "label": "Discussies"
+      },
+      "document": {
+        "label": "Documenten"
+      },
+      "event": {
+        "label": "Evenementen"
+      },
+      "feedback": {
+        "label": "Feedback"
+      },
+      "initiative": {
+        "label": "Initiatieven"
+      },
+      "map": {
+        "label": "Kaarten"
+      },
+      "project": {
+        "label": "Projecten"
+      },
+      "site": {
+        "label": "Sites"
+      },
+      "template": {
+        "label": "Sjablonen"
+      }
+    },
+    "occurrence": {
+      "label": "Reservering",
+      "requiredError": "Reservering is vereist",
+      "upcoming": "Toekomstig",
+      "past": "Verleden",
+      "inProgress": "In uitvoering"
+    }
+  }
+}

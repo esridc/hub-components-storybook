@@ -1,0 +1,19 @@
+:host {
+  display: block;
+}
+
+.btn-align-center {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-align-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.btn-align-end {
+  display: flex;
+  justify-content: flex-end;
+}
+

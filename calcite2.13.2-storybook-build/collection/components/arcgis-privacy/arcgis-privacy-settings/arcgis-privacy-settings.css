@@ -1,0 +1,8 @@
+:host {
+  margin-top: 1.5rem;
+  display: block;
+}
+
+calcite-switch {
+  margin-inline-end: 0.5rem;
+}

@@ -1,0 +1,239 @@
+{
+  "owner": {
+    "description": "Владелец"
+  },
+  "updatedDate": {
+    "description": "Дата обновления",
+    "descriptionWithFrequency": "Дата обновления: {updatedDateFormatted}"
+  },
+  "createdDate": {
+    "description": "Дата создания"
+  },
+  "joinedDate": {
+    "description": "Дата присоединения"
+  },
+  "access": {
+    "label": {
+      "public": "Для всех",
+      "org": "Организация",
+      "private": "Владелец",
+      "shared": "Опубликовано для персонального доступа"
+    },
+    "description": {
+      "public": {
+        "site": "Любой может видеть этот сайт",
+        "project": "Этот проект могут видеть все",
+        "initiative": "Любой может видеть эту инициативу",
+        "discussion": "Любой может видеть это обсуждение",
+        "default": "Любой может видеть эти ресурсы",
+        "event": "Любой может видеть это событие"
+      },
+      "org": {
+        "site": "Любой в вашей организации может видеть этот сайт",
+        "project": "Любой в вашей организации может видеть этот проект",
+        "initiative": "Любой в вашей организации может видеть эту инициативу",
+        "discussion": "Любой в вашей организации может видеть это обсуждение",
+        "default": "Любой в вашей организации может видеть эти ресурсы",
+        "event": "Любой в вашей организации может видеть это событие"
+      },
+      "private": {
+        "site": "Только вы можете видеть этот сайт",
+        "project": "Только вы можете видеть этот проект",
+        "initiative": "Только вы можете видеть эту инициативу",
+        "discussion": "Только вы можете видеть это обсуждение",
+        "default": "Только вы можете видеть эти ресурсы",
+        "event": "Только вы можете видеть это событие"
+      },
+      "shared": {
+        "site": "Выбранные группы могут видеть этот сайт",
+        "project": "Выбранные группы могут видеть этот проект",
+        "initiative": "Выбранные группы могут видеть эту инициативу",
+        "discussion": "Выбранные группы могут видеть это обсуждение",
+        "default": "Выбранные группы могут видеть эти ресурсы",
+        "event": "Выбранные группы могут видеть это событие"
+      }
+    }
+  },
+  "type": {
+    "fallback": {
+      "content": "Ресурсы",
+      "discussion": "Обсуждение",
+      "event": "Событие",
+      "group": "Группа",
+      "initiative": "Инициатива",
+      "org": "Организация",
+      "page": "Страница",
+      "project": "Проект",
+      "site": "Сайт",
+      "survey": "Сбор данных",
+      "initiativeTemplate": "Шаблон",
+      "user": "Пользователь"
+    },
+    "appbuilderExtension": "ГИС-инструмент",
+    "appbuilderWidgetPackage": "ГИС-инструмент",
+    "application": "Зарегистрированное приложение",
+    "arcgisProMap": "ГИС-инструмент",
+    "cadDrawing": "ГИС-инструмент",
+    "cityEngineWebScene": "3D-приложение",
+    "codeAttachment": "ГИС-инструмент",
+    "colorSet": "ГИС-инструмент",
+    "content": "Ресурсы",
+    "contentCategorySet": "ГИС",
+    "csv": "Набор данных",
+    "csvCollection": "Файл данных",
+    "dashboard": "Операционная панель",
+    "desktopApplication": "ГИС-инструмент",
+    "document": "Документ",
+    "documentLink": "Веб-ссылка",
+    "excaliburImageryProject": "ГИС-инструмент",
+    "explorerMap": "ГИС-инструмент",
+    "exportPackage": "ГИС-инструмент",
+    "featureCollection": "Набор данных",
+    "featureCollectionTemplate": "ГИС-инструмент",
+    "featureLayer": "Набор данных",
+    "featureService": "Карта",
+    "fileGeodatabase": "Файл данных",
+    "form": "Сбор данных",
+    "geocodingService": "API разработчика",
+    "geodataService": "API разработчика",
+    "geojson": "Ресурсы",
+    "geometryService": "API разработчика",
+    "geopackage": "Файл данных",
+    "geoprocessingService": "API разработчика",
+    "globeLayer": "Файл данных",
+    "globeService": "API разработчика",
+    "hubInitiative": "Инициатива",
+    "hubInitiativeTemplate": "Шаблон",
+    "hubPage": "Страница",
+    "hubProject": "Проект",
+    "hubSiteApplication": "Сайт",
+    "image": "Изображение",
+    "imageService": "Набор данных изображений",
+    "insightsModel": "ГИС-инструмент",
+    "insightsPage": "Анализ",
+    "insightsTheme": "ГИС-инструмент",
+    "insightsWorkbook": "Рабочая книга анализа",
+    "iWorkKeynote": "Презентация",
+    "iWorkNumbers": "Электронная таблица",
+    "iWorkPages": "Документ",
+    "kml": "Набор данных",
+    "kmlCollection": "Файл данных",
+    "layer": "Файл данных",
+    "layerPackage": "Файл данных",
+    "locatorPackage": "ГИС-инструмент",
+    "mapArea": "ГИС-инструмент",
+    "mapDocument": "ГИС-инструмент",
+    "mapImageLayer": "Карта",
+    "mapPackage": "Файл данных",
+    "mapService": "Карта",
+    "microsoftExcel": "Электронная таблица",
+    "microsoftPowerpoint": "Презентация",
+    "microsoftVizio": "Документ Microsoft Visio",
+    "microsoftWord": "Документ",
+    "mission": "ГИС-инструмент",
+    "mobileApplication": "Приложение",
+    "mobileMapPackage": "Файл данных",
+    "native application template": "Инструмент разработчика",
+    "nativeApplication": "Приложение",
+    "nativeApplicationInstaller": "Инструмент разработчика",
+    "networkAnalysisService": "API разработчика",
+    "notebook": "Анализ",
+    "orientedImageryCatalog": "Набор данных изображений",
+    "orthoMappingProject": "ГИС-инструмент",
+    "orthoMappingTemplate": "ГИС-инструмент",
+    "pdf": "Документ",
+    "quickcaptureProject": "Мобильный опрос",
+    "rasterLayer": "Карта",
+    "realTimeAnalytic": "API разработчика",
+    "relationalDatabaseConnection": "API разработчика",
+    "reportTemplate": "ГИС-инструмент",
+    "sceneLayer": "Набор данных в 3D",
+    "sceneService": "Набор данных в 3D",
+    "serviceDefinition": "Файл данных",
+    "shapefile": "Набор данных",
+    "solution": "Решение",
+    "sqliteGeodatabase": "Файл данных",
+    "statisticalDataCollection": "Файл данных",
+    "storymap": "StoryMap",
+    "symbolSet": "Файл данных",
+    "table": "Набор данных",
+    "team": "Команда",
+    "urbanModel": "Модель Urban",
+    "vectorTileService": "Карта",
+    "visioDocument": "Документ",
+    "webExperience": "Приложение",
+    "webMap": "Карта",
+    "webMappingApplication": "Приложение",
+    "webScene": "3D-карта",
+    "wfs": "Карта",
+    "wms": "Карта",
+    "wmts": "Карта",
+    "workflowManagerService": "API разработчика",
+    "workforceProject": "Taskflow Manager"
+  },
+  "location": {
+    "description": "Местоположение"
+  },
+  "members": {
+    "noMember": "Нет участников",
+    "oneMember": "Участники: 1",
+    "members": "Участники: {count}",
+    "description": {
+      "value": "Просмотреть всех участников группы"
+    }
+  },
+  "tooltip": {
+    "label": "Метаданные элемента подсказка инструмента"
+  },
+  "relevantArea": {
+    "title": "Соответствующая область"
+  },
+  "license": {
+    "tooltip": "Определяет, как эти ресурсы могут быть использованы",
+    "set": {
+      "title": "{license} лицензия",
+      "customTitle": "Пользовательская лицензия",
+      "description": {
+        "value": "Посмотреть данные о лицензии"
+      }
+    },
+    "unset": {
+      "title": "Лицензия не предоставлена",
+      "description": {
+        "value": "Запросить права на использование"
+      }
+    }
+  },
+  "size": {
+    "description": {
+      "value": "Размер файла документа"
+    }
+  },
+  "recordCount": {
+    "title": "Записи: {count}",
+    "description": {
+      "value": "Просмотр таблицы данных"
+    }
+  },
+  "metadataModified": {
+    "description": {
+      "defaultValue": "Обновление информации",
+      "dynamicValue": "Обновление информации: {lastUpdated}"
+    }
+  },
+  "updateFrequency": {
+    "continual": "Непрерывно",
+    "daily": "Ежедневно",
+    "weekly": "Каждую неделю",
+    "fortnightly": "Раз в две недели",
+    "monthly": "Ежемесячно",
+    "quarterly": "Ежеквартально",
+    "biannually": "Дважды в год",
+    "annually": "Ежегодно",
+    "as-needed": "По потребности",
+    "irregular": "Нерегулярно",
+    "not-planned": "Незапланированно",
+    "unknown": "Неизвестно",
+    "semimonthly": "Дважды в месяц"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "tabTitle": "Konfiguracja kanałów",
+  "learn": "Dowiedz się więcej na temat kanałów Centrum",
+  "loadingLabel": "Wczytywanie",
+  "enableFeedsToggle": {
+    "label": "Włącz źródła danych",
+    "privateNotice": "Aby włączyć źródła danych, należy najpierw ustawić witrynę Centrum jako „Publiczną”.",
+    "emptyPublicCatalog": {
+      "message": "Aby włączyć źródła danych, należy najpierw dodać zasoby publiczne do katalogu.",
+      "button": "Wyświetl katalog"
+    },
+    "grouplessCatalog": {
+      "message": "Aby włączyć źródła danych, należy najpierw skonfigurować katalog.",
+      "button": "Skonfiguruj katalog"
+    }
+  },
+  "gettingStartedNotice": {
+    "title": "Wprowadzenie",
+    "exampleMessage": "Wyróżnij i zaktualizuj klucz lub wartość w edytorze JSON, używając literału („VALUE”) lub wartości szablonu („{{TEMPLATE_VALUE}}”).",
+    "previewMessage": "Użyj przełącznika \"preview\", aby wyświetlić podgląd zmian. Dodatkowe informacje można znaleźć w <catalogFederationLink>dokumentacji pomocy federowania katalogu</catalogFederationLink>."
+  },
+  "aboutFeedsNotice": {
+    "message": "Zapewnij łatwy dostęp do otwartych danych publicznych i możliwość ich ponownego wykorzystania dzięki kanałom Centrum.",
+    "link": "Dowiedz się więcej na temat kanałów Centrum"
+  },
+  "feedsEditorSection": {
+    "title": "Kanały",
+    "formatSelectLabel": "Wybierz typ kanału",
+    "uneditableAttributesIntro": "Należy pamiętać, że następujących atrybutów nie można edytować:",
+    "edit": "Edytuj",
+    "preview": "Podgląd",
+    "selectContentNotice": "Wybierz zasoby do wyświetlenia w podglądzie.",
+    "invalidJsonEditorWarning": "Nieprawidłowy kod JSON. Zanim zapiszesz, popraw błędy.",
+    "invalidJsonPreviewWarning": "Nie można wyświetlić podglądu nieprawidłowego kodu JSON. Popraw błędy.",
+    "errorPreviewingWarning": "Wystąpił błąd. Sprawdź połączenie i spróbuj ponownie. Jeśli problem nie ustąpi, zarejestruj błąd w dziale wsparcia Centrum."
+  },
+  "toolsSection": {
+    "title": "Narzędzia",
+    "verification": "Weryfikacja",
+    "previewSampleData": {
+      "label": "Wyświetl podgląd przykładowych danych",
+      "pickerFacets": {
+        "type": "Typ",
+        "tags": "Znacznik",
+        "categories": "Kategoria",
+        "sharing": "Udostępnianie",
+        "dateUpdated": "Data aktualizacji"
+      }
+    },
+    "copyableInputLabel": "Adres URL dostępu do kanału"
+  },
+  "dcat-us": {
+    "1.1": {
+      "title": "DCAT-US 1.1",
+      "description": "DCAT pozwala instytucjom na standaryzację udostępniania danych i pomaga użytkownikom przeszukiwać źródła federalne. Można użyć <dcatUsSchemaLink>schematu DCAT</dcatUsSchemaLink> utworzonego w projekcie Open Data, który jest konfiguracją domyślną. Można także samodzielnie skonfigurować określone pola/atrybuty. Administratorzy witryny mogą także dodać inne konfiguracje DCAT, zapoznając się z naszą dokumentacją dotyczącą <catalogFederationLink>federowania danych z DCAT i innymi zewnętrznymi katalogami.</catalogFederationLink>",
+      "uneditableAttributes": "@type, landingPage, webService i contactPoint['@type'].",
+      "verificationLabel": "Aby sprawdzić źródło danych DCAT, wklej adres URL DCAT swojej witryny w polu <dcatUsVerificationLink>Weryfikator danych projektu Open Data</dcatUsVerificationLink>."
+    }
+  },
+  "dcat-ap": {
+    "2.1.1": {
+      "title": "DCAT-AP 2.1.1",
+      "description": "Przyjęty przez Komisję Europejską standardowy format wymiany metadanych DCAT-AP jest używany we wszystkich europejskich katalogach danych. Aplikacja ArcGIS Hub automatycznie tworzy i aktualizuje źródło danych DCAT-AP witryny, gdy edytujesz szczegóły metadanych zasobów lub dodajesz do katalogu nowe zasoby publiczne. Ponieważ źródło danych używa metadanych przechowywanych w usłudze ArcGIS Online, nie trzeba ręcznie tworzyć osobnych metadanych DCAT-AP.<lineBreak></lineBreak><lineBreak></lineBreak>Używając tego edytora, można zachować w aplikacji ArcGIS Hub domyślną konfigurację <dcatApSchemaLink>schematu DCAT-AP</dcatApSchemaLink> lub samodzielnie skonfigurować określone pola/atrybuty. Można także dodać pola/atrybuty DCAT-AP. Dodatkowe informacje można znaleźć w dokumentacji aplikacji ArcGIS Hub dotyczącej <catalogFederationLink>federowania danych z DCAT i innymi katalogami zewnętrznymi</catalogFederationLink>.",
+      "uneditableAttributes": "@type, @id, dcat:contactPoint['@id'], dcat:contactPoint['@type'], dct:publisher, dcat:theme, dct:accessRights, dcat:keyword, dct:provenance, dct:issued i dct:language.",
+      "verificationLabel": "Możesz zweryfikować swoje źródło danych DCAT, wklejając adres URL DCAT ze swojej witryny na stronie <dcatApVerificationLink>European Commission Interoperability Test Bed</dcatApVerificationLink>."
+    }
+  },
+  "rss": {
+    "2.0": {
+      "title": "RSS 2.0",
+      "description": "<rssAboutLink>RSS 2</rssAboutLink> to format syndykowania zasobów internetowych zgodny ze <xmlSpecLink>specyfikacją XML 1.0</xmlSpecLink>. Używając tego edytora, można zachować domyślną konfigurację Centrum ArcGIS Hub lub samodzielnie skonfigurować określone pola i atrybuty. Dodatkowe informacje można znaleźć w dokumentacji aplikacji ArcGIS Hub dotyczącej <catalogFederationLink>federowania danych z DCAT i innymi katalogami zewnętrznymi.</catalogFederationLink>",
+      "verificationLabel": "Aby sprawdzić źródło danych RSS, wklej adres URL RSS swojej witryny w polu <rssVerificationLink>Weryfikator źródła</rssVerificationLink> W3."
+    }
+  },
+  "saveButton": "Zapisz",
+  "alertMessages": {
+    "success": "Pomyślnie zapisano zmiany",
+    "error": "Błąd podczas zapisywania zmian"
+  },
+  "formAlert": "Alert dotyczący formularza"
+}

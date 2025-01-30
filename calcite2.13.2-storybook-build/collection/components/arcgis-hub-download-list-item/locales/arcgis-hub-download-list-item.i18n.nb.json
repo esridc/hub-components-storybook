@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "Geoobjektsamling",
+    "fgdb": "Filgeodatabase",
+    "geojson": "GeoJSON",
+    "geoPackage": "Geopakke",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Shapefil",
+    "sqlite": "SQLite-geodatabase"
+  },
+  "buttonText": {
+    "download": "Last ned",
+    "pending": "Venter",
+    "processing": "Behandler",
+    "converting": "Konverterer",
+    "completed": "Nedlasting fullført",
+    "failed": "Nedlastingen mislyktes"
+  },
+  "errors": {
+    "errorHeading": "Feil"
+  },
+  "cacheStatusAccordion": {
+    "heading": "Fant du det du trenger?",
+    "content": "En nyere versjon er kanskje tilgjengelig.",
+    "button": "Be om en ny fil"
+  },
+  "generateNewModal": {
+    "heading": "Er du sikker?",
+    "content": "Det kan ta litt tid. Hold denne nettleserfanen aktiv til nedlastingen er fullført.",
+    "confirmButton": "Ja",
+    "cancelButton": "Avbryt"
+  }
+}

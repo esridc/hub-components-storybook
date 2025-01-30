@@ -1,0 +1,49 @@
+{
+  "settings": "设置",
+  "advanced": "高级",
+  "delete": {
+    "event": "删除此活动",
+    "desc": "删除此活动无法撤消。 现有注册者将收到通知(如果已启用活动自动通知)。",
+    "deleteButton": "删除活动"
+  },
+  "cancel": {
+    "header": "取消此活动",
+    "desc": "取消后，活动将仍然可见，并显示已取消状态。 注册将停止，并通知现有注册者(如果已启用活动自动通知)。",
+    "event": "取消活动",
+    "notice": {
+      "success": {
+        "title": "活动已取消",
+        "message": "如果已启用自动通知，将通知现有注册者。"
+      },
+      "error": {
+        "title": "无法取消活动",
+        "message": "请重试"
+      }
+    }
+  },
+  "enable": {
+    "event": "重新启用事件",
+    "desc": "活动已取消(显示为已取消状态)。",
+    "notice": {
+      "success": {
+        "title": "活动已重新启用",
+        "message": "如果已启用自动通知，将通知现有注册者。"
+      },
+      "error": {
+        "title": "无法重新启用活动",
+        "message": "请重试"
+      }
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "event": "删除事件"
+    },
+    "content": "是否确定要删除：",
+    "delete": "删除活动",
+    "cancel": "取消活动"
+  },
+  "notice": {
+    "label": "表单警告"
+  }
+}

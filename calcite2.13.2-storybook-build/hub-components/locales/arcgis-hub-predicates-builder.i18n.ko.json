@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "그룹 편집",
+        "viewGroups": "그룹 보기"
+      },
+      "facet": {
+        "label": "소속",
+        "myGroups": "내 그룹",
+        "myOrganization": "내 기관",
+        "myCommunity": "내 커뮤니티"
+      }
+    }
+  },
+  "property": {
+    "label": "매개변수",
+    "requiredError": "매개변수는 필수 입력 항목임"
+  },
+  "operator": {
+    "label": "기준",
+    "requiredError": "기준은 필수 입력 항목임"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "유형"
+    },
+    "group": {
+      "default": "그룹"
+    },
+    "occurrence": {
+      "default": "항목"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "다음 중 일부",
+      "group": "다음 중 일부와 공유됨"
+    },
+    "isAll": {
+      "default": "다음 중 모두",
+      "group": "다음 중 모두와 공유됨"
+    },
+    "isExactly": {
+      "default": "정확히",
+      "occurrence": "다음과 같음"
+    },
+    "isNot": {
+      "default": "다음과 같지 않음",
+      "type": "없음",
+      "group": "공유되지 않음"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "그룹",
+      "requiredError": "그룹은 필수 입력 항목임"
+    },
+    "type": {
+      "label": "유형",
+      "requiredError": "유형은 필수 입력 항목임",
+      "app": {
+        "label": "앱"
+      },
+      "content": {
+        "label": "콘텐츠"
+      },
+      "dataset": {
+        "label": "데이터셋"
+      },
+      "discussion": {
+        "label": "토론"
+      },
+      "document": {
+        "label": "문서"
+      },
+      "event": {
+        "label": "이벤트"
+      },
+      "feedback": {
+        "label": "피드백"
+      },
+      "initiative": {
+        "label": "이니셔티브"
+      },
+      "map": {
+        "label": "맵"
+      },
+      "project": {
+        "label": "프로젝트"
+      },
+      "site": {
+        "label": "사이트"
+      },
+      "template": {
+        "label": "템플릿"
+      }
+    },
+    "occurrence": {
+      "label": "항목",
+      "requiredError": "항목은 필수 입력 항목임",
+      "upcoming": "예정",
+      "past": "과거",
+      "inProgress": "진행 중"
+    }
+  }
+}

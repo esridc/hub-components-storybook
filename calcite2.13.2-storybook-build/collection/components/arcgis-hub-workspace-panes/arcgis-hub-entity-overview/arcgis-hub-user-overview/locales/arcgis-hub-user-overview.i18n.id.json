@@ -1,0 +1,35 @@
+{
+  "overview": "Gambaran umum",
+  "resources": "Sumber daya hub",
+  "cards": {
+    "items": "Jumlah item",
+    "groups": "Jumlah grup"
+  },
+  "hubContent": {
+    "heading": "Item Hub yang baru diubah",
+    "link": "Lihat semua konten"
+  },
+  "content": {
+    "heading": "Konten yang baru diubah",
+    "stat": "Jumlah item",
+    "link": "Lihat semua konten"
+  },
+  "groups": {
+    "heading": "Grup yang baru diubah",
+    "stat": "Jumlah grup",
+    "link": "Lihat semua grup"
+  },
+  "contentCount": "Konten",
+  "addContent": "Buat baru",
+  "facets": {
+    "access": {
+      "label": "Dari"
+    },
+    "type": {
+      "label": "Jenis"
+    },
+    "modified": {
+      "label": "Diubah"
+    }
+  }
+}

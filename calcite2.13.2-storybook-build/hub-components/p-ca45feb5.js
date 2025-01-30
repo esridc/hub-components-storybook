@@ -1,0 +1,1 @@
+function o(o){if("undefined"!=typeof Blob)return new Blob([JSON.stringify(o)],{type:"application/json"});throw new Error("objectToJsonBlob is not currently supported on Node")}export{o}

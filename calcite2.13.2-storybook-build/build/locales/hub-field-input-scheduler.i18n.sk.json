@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "Automatizované pomocou Hub",
+      "actionText": "Informácie o automatickej možnosti"
+    },
+    "daily": {
+      "defaultLabel": "Denne",
+      "defaultExpandedHelperText": "Každý deň vo vybranú hodinu vo vybranom časovom pásme.",
+      "actionText": "Informácie o dennej možnosti"
+    },
+    "weekly": {
+      "defaultLabel": "Týždenne",
+      "defaultExpandedHelperText": "Každý týždeň v nasledujúci deň a hodinu vo vybranom časovom pásme.",
+      "actionText": "Informácie o týždennej možnosti"
+    },
+    "monthly": {
+      "defaultLabel": "Mesačne",
+      "defaultExpandedHelperText": "Každý mesiac v nasledujúci deň a hodinu vo vybranom časovom pásme.",
+      "actionText": "Informácie o mesačnej možnosti"
+    },
+    "yearly": {
+      "defaultLabel": "Ročne",
+      "defaultExpandedHelperText": "Každý rok v nasledujúci mesiac, deň a hodinu vo vybranom časovom pásme.",
+      "actionText": "Informácie o ročnej možnosti"
+    },
+    "manual": {
+      "defaultLabel": "Manuálne",
+      "defaultExpandedHelperText": "Túto možnosť použite, ak chcete manuálne aktualizovať index vyhľadávania a súbory na stiahnutie vo vyrovnávacej pamäti pre túto položku.",
+      "actionText": "Informácie o manuálnej možnosti"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "Čas v rámci dňa",
+      "inputMessage": "Čas sa zaokrúhli na najbližšiu hodinu.",
+      "error": "Vyberte hodinu."
+    },
+    "day": {
+      "helperText": "Deň v týždni",
+      "daysOfTheWeek": {
+        "sunday": "Nedeľa",
+        "monday": "Pondelok",
+        "tuesday": "Utorok",
+        "wednesday": "Streda",
+        "thursday": "Štvrtok",
+        "friday": "Piatok",
+        "saturday": "Sobota"
+      },
+      "selectLabel": "Výber dňa v týždni",
+      "error": "Vyberte deň v týždni."
+    },
+    "date": {
+      "helperText": "Deň v mesiaci",
+      "inputNumberPlaceholder": "Vyberte deň v mesiaci",
+      "inputMessage": "Pre deň v mesiaci zadajte hodnotu od 1 do 28.",
+      "error": "Deň v mesiaci musí byť v rozmedzí medzi 1 a 28."
+    },
+    "month": {
+      "helperText": "Mesiac v roku",
+      "selectLabel": "Výber mesiaca v roku",
+      "monthsOfTheYear": {
+        "january": "Január",
+        "february": "Február",
+        "march": "Marec",
+        "april": "Apríl",
+        "may": "Máj",
+        "june": "Jún",
+        "july": "Júl",
+        "august": "August",
+        "september": "September",
+        "october": "Október",
+        "november": "November",
+        "december": "December"
+      },
+      "error": "Vyberte mesiac v roku."
+    },
+    "timezone": {
+      "helperText": "Časové pásmo",
+      "error": "Vyberte časové pásmo."
+    }
+  },
+  "fieldHeader": "Frekvencia"
+}

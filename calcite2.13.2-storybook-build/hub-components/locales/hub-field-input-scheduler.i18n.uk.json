@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "Автоматизовано Hub",
+      "actionText": "Інформація про опцію «автоматично»"
+    },
+    "daily": {
+      "defaultLabel": "Щодня",
+      "defaultExpandedHelperText": "Кожного дня у вибрану годину у вибраному часовому поясі.",
+      "actionText": "Інформація про опцію «щоденно»"
+    },
+    "weekly": {
+      "defaultLabel": "Щотижня",
+      "defaultExpandedHelperText": "Кожного тижня у такий день і годину у вибраному часовому поясі.",
+      "actionText": "Інформація про опцію «щотижня»"
+    },
+    "monthly": {
+      "defaultLabel": "Щомісяця",
+      "defaultExpandedHelperText": "Кожного місяця у такий день і годину у вибраному часовому поясі",
+      "actionText": "Інформація про опцію «щомісяця»"
+    },
+    "yearly": {
+      "defaultLabel": "Щороку",
+      "defaultExpandedHelperText": "Кожного року в такий місяць, день і годину у вибраному часовому поясі.",
+      "actionText": "Інформація про опцію «щороку»"
+    },
+    "manual": {
+      "defaultLabel": "Вручну",
+      "defaultExpandedHelperText": "Використовуйте цю опцію, якщо ви хочете вручну оновити пошуковий індекс і кешовані файли завантаження для цього елемента.",
+      "actionText": "Інформація про опцію «вручну»"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "Час дня",
+      "inputMessage": "Час буде округлено до найближчої години.",
+      "error": "Виберіть годину."
+    },
+    "day": {
+      "helperText": "День тижня",
+      "daysOfTheWeek": {
+        "sunday": "Неділя",
+        "monday": "Понеділок",
+        "tuesday": "Вівторок",
+        "wednesday": "Середа",
+        "thursday": "Четвер",
+        "friday": "П’ятниця",
+        "saturday": "Субота"
+      },
+      "selectLabel": "Вибір дня тижня",
+      "error": "Виберіть день тижня."
+    },
+    "date": {
+      "helperText": "День місяця",
+      "inputNumberPlaceholder": "Вибір дня місяця",
+      "inputMessage": "Ввести значення від 1 до 28 для дня місяця.",
+      "error": "День місяця має бути між 1 і 28."
+    },
+    "month": {
+      "helperText": "Місяць року",
+      "selectLabel": "Вибір місяця року",
+      "monthsOfTheYear": {
+        "january": "Січень",
+        "february": "Лютий",
+        "march": "Березень",
+        "april": "Квітень",
+        "may": "Травень",
+        "june": "Червень",
+        "july": "Липень",
+        "august": "Серпень",
+        "september": "Вересень",
+        "october": "Жовтень",
+        "november": "Листопад",
+        "december": "Грудень"
+      },
+      "error": "Виберіть місяць."
+    },
+    "timezone": {
+      "helperText": "Часовий пояс",
+      "error": "Виберіть часовий пояс."
+    }
+  },
+  "fieldHeader": "Частота"
+}

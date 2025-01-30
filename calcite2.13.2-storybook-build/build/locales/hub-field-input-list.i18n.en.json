@@ -1,0 +1,17 @@
+{
+  "itemEditModal": {
+    "title": "Edit",
+    "fields": {
+      "label": {
+        "label": "Label",
+        "requiredMessage": "Label required",
+        "maxLengthMessage": "Label must not exceed {maxLength} characters"
+      }
+    },
+    "apply": "Apply"
+  },
+  "showItem": "Show following list item: {itemLabel}",
+  "hideItem": "Hide following list item: {itemLabel}",
+  "editItem": "Edit following list item: {itemLabel}",
+  "addItem": "Add new"
+}

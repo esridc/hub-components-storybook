@@ -1,0 +1,16 @@
+.collections__add:not(:last-child) {
+
+    margin-bottom: 1rem
+}
+
+:host {
+
+    position: relative
+}
+
+.collections-builder-appearance-settings {
+
+    position: absolute;
+
+    bottom: 0px
+}

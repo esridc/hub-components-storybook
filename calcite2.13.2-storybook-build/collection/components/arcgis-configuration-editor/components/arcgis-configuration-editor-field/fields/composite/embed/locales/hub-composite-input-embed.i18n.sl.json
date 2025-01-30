@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "Moja vsebina",
+    "livingAtlas": "Living Atlas",
+    "organization": "Moja organizacija",
+    "world": "Svet (javno)"
+  },
+  "collection": {
+    "appsAndMaps": "Aplikacije in karte",
+    "feedback": "Povratne informacije"
+  },
+  "facets": {
+    "type": "Tip",
+    "tags": "Oznake",
+    "categories": "Kategorije",
+    "modified": "Spremenjeno"
+  },
+  "pickerTitle": "Izberi vsebino",
+  "height": "Višina (slikovne pike)",
+  "isScrollable": "Drsno premikanje",
+  "errors": {
+    "heightMinimum": "Vrednost mora biti pozitivno število.",
+    "heightMaximum": "Vrednost mora biti manjša ali enaka 2000 slikovnih pik.",
+    "urlError": "Mora biti veljaven URL."
+  },
+  "success": {
+    "urlSuccess": "URL uspešno naložen."
+  },
+  "shouldApplyBreakpoints": {
+    "label": "Namesto tega uporabite nastavitve glede na prelomne točke naprave"
+  },
+  "viewportAll": {
+    "label": "Privzeto",
+    "description": "Nastavitve veljajo za vse velikosti zaslona"
+  },
+  "viewportMobile": {
+    "label": "Mobilno",
+    "description": "Nastavitve, uporabljene za zaslone širine 360 slikovnih pik in več"
+  },
+  "viewportTablet": {
+    "label": "Tablični računalnik",
+    "description": "Nastavitve, uporabljene za zaslone širine 560 slikovnih pik in več"
+  },
+  "viewportDesktop": {
+    "label": "Namizje",
+    "description": "Nastavitve, uporabljene za zaslone širine 980 slikovnih pik in več"
+  },
+  "sourceLabel": "Izberi tip vdelave",
+  "contentLabel": "Vsebina ArcGIS",
+  "externalLabel": "Zunanji URL",
+  "contentDescription": "Izbirajte med obstoječimi kartami, prizori, aplikacijami, anketami in povezavami dokumentov, ki so vam na voljo.",
+  "externalDescription": "Vnesite URL, ki ga želite vdelati. Upoštevajte, da nekatere domene ne dovoljujejo vdelave in morda ne bodo prikazane po pričakovanjih."
+}

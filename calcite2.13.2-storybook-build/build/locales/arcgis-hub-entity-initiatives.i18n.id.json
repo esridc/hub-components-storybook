@@ -1,0 +1,87 @@
+{
+  "initiatives": "Prakarsa",
+  "description": "Kaitkan dengan inisiatif untuk berkontribusi terhadap upaya jangka panjang atau skala besar. Kolaborator proyek bisa mengelola permintaan asosiasi yang dikonfirmasi dan asosiasi yang tertunda. Inisiatif dengan asosiasi yang dikonfirmasi akan muncul di tampilan proyek. ",
+  "shared": {
+    "error": {
+      "title": "Ada masalah",
+      "message": "Kami tidak dapat menyelesaikan tugas. Silakan coba lagi."
+    },
+    "facets": {
+      "access": {
+        "label": "Berbagi"
+      },
+      "status": {
+        "label": "Status",
+        "notStarted": "Belum dimulai",
+        "inProgress": "Dalam proses",
+        "onHold": "Ditahan",
+        "complete": "Selesai"
+      },
+      "tags": {
+        "label": "Tag"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "{currentConfirmedAndOutgoingRequests} / {maxCurrentAndOutgoingRequestsAllowed} dikonfirmasi + permintaan keluar",
+      "tooltip": "Untuk mengirim permintaan, putuskan hubungan dengan asosiasi yang ada dan/atau permintaan keluar"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "Temukan inisiatif",
+    "sendRequest": "Kirim permintaan",
+    "success": {
+      "title": "Berhasil",
+      "message": "Permintaan asosiasi terkirim: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "Periksa asosiasi",
+      "message": "Beberapa pilihan telah meminta asosiasi. Permintaan asosiasi baru terkirim: {count}"
+    },
+    "catalog": {
+      "myContent": "Konten saya",
+      "favorites": "Favorit",
+      "organization": "Organisasi saya",
+      "partners": "Mitra saya",
+      "community": "Komunitas saya"
+    },
+    "collection": {
+      "initiatives": "Prakarsa"
+    }
+  },
+  "acceptAssociation": {
+    "label": "Terima",
+    "limitReachedTooltip": "Untuk menerima, putuskan hubungan dengan asosiasi yang ada dan/atau permintaan keluar",
+    "success": {
+      "title": "Berhasil",
+      "message": "Asosiasi diterima dengan {requestor}"
+    }
+  },
+  "cancelRequest": {
+    "label": "Batalkan permintaan",
+    "success": {
+      "title": "Berhasil",
+      "message": "Permintaan asosiasi dibatalkan"
+    }
+  },
+  "breakAssociation": {
+    "label": "Putuskan koneksi",
+    "success": {
+      "title": "Asosiasi terputus",
+      "message": "Kami telah memutus koneksi item ini dari asosiasi sebelumnya. Namun, kami tidak dapat membatalkan keputusan dari pihak lain, sehingga Anda masih bisa melihatnya di permintaan yang masuk."
+    }
+  },
+  "associationsGallery": {
+    "sources": "Status",
+    "catalog": {
+      "associated": "Terkait",
+      "requesting": "Permintaan masuk",
+      "pending": "Permintaan keluar"
+    },
+    "collection": {
+      "initiatives": "Prakarsa"
+    }
+  },
+  "notice": {
+    "label": "Peringatan formulir"
+  }
+}

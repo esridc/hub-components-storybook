@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>arcgis hub image upload</title>
+
+    <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet" href="../calcite-web.min.css">
+    <style>
+      html,
+      body {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+      #arcgisImageUpload {
+        width: 650px;
+        margin-left: 50px;
+      }
+      #saveImg {
+        margin-left: 50px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div><calcite-button id="openBtn">Open Image Upload modal</calcite-button></div>
+    <div id="arcgisImageUpload"></div>
+    <div>
+      <img id="saveImg" />
+    </div>
+    <script>
+      let imageUploadEl;
+
+      function createImageUploadModal() {
+        imageUploadEl = document.createElement("arcgis-hub-image-upload");
+        imageUploadEl.inline = true;
+        imageUploadEl.modalTitle = "Upload thumbnail";
+        imageUploadEl.sizeDescription = "For best results, the image should be 300 x 300 pixels.";
+
+        imageUploadEl.addEventListener("arcgisImageUploadCancel", (evt) => {
+          console.log("cancel event");
+          imageUploadEl.active = "false";
+        });
+        imageUploadEl.addEventListener("arcgisImageUploadSave", (evt) => {
+          console.log("save event");
+          console.log(evt.detail);
+          document.getElementById("saveImg").src = evt.detail.base64;
+          imageUploadEl.active = "false";
+        });
+        imageUploadEl.addEventListener("arcgisImageUploadError", (evt) => {
+          console.log(evt.detail);
+        });
+        document.getElementById("arcgisImageUpload").appendChild(imageUploadEl);
+      }
+
+      createImageUploadModal();
+
+      document.getElementById("openBtn").addEventListener("click", () => {
+        imageUploadEl.active = "true";
+        imageUploadEl.inline = true;
+      });
+    </script>
+  </body>
+</html>

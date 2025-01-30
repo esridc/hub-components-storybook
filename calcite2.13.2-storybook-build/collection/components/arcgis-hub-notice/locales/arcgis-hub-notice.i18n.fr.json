@@ -1,0 +1,150 @@
+{
+  "modal": {
+    "dismiss": "Ne plus afficher",
+    "close": "Fermer"
+  },
+  "notice": {
+    "n001": {
+      "title": "Notification de test",
+      "message": "Corps de la notification de test",
+      "actions": [
+        {
+          "text": "Lire le billet de blog"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-1": {
+      "title": "Passer à l’expérience de téléchargement repensée",
+      "message": "Pour utiliser d’autres formats et bénéficier d’améliorations en termes de vitesse et de performances, activez la fonctionnalité \"Extraire\" sur le service de cet élément."
+    },
+    "20240220-hosted-downloads-2": {
+      "title": "Amélioration des téléchargements",
+      "message": "Les améliorations apportées aux téléchargements sur les sites Hub comprennent la prise en charge des téléchargements hébergés, une apparence repensée des fiches de téléchargement et une nouvelle barre de progression pour les téléchargements.",
+      "actions": [
+        {
+          "text": "En savoir plus"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-3": {
+      "title": "Ajout des téléchargements hébergés",
+      "message": "Les téléchargements hébergés participent à l’amélioration des performances lors du téléchargement de contenu. Pour activer les téléchargements hébergés, veillez à autoriser les fonctionnalités d’extraction ci-dessous.",
+      "actions": [
+        {
+          "text": "En savoir plus"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-basic": {
+      "title": "À propos des espaces de travail",
+      "message": "<p><strong>Ajout de contenu aux catalogues d’un site à l’aide de groupes</strong><br>Les catalogues de recherche des sites ont toujours été alimentés par des groupes, et les espaces de travail facilitent la gestion de ces groupes. Actuellement, pour que des contenus soient proposés dans le catalogue d’un site, ceux-ci doivent être ajoutés à des groupes individuels connectés au site. Bientôt, vous aurez la possibilité d’ajouter des contenus directement dans le catalogue.</p><p><strong>Passage des équipes aux groupes</strong><br>Vous pouvez désormais utiliser n’importe quel groupe ArcGIS Online pour collaborer sur des sites, des pages, des contenus et des projets dans Hub. Toutes les \"équipes\" précédemment liées, comme l’\"équipe principale\" du site, continueront à apparaître dans le volet Collaborateurs de l’espace de travail du site.</p><p><strong>Suspension temporaire de la messagerie électronique des équipes</strong><br>L’envoi par e-mail de messages et d’invitations/de notifications de désabonnement aux membres d’une équipe et aux abonnés n’est actuellement pas pris en charge.</p><p><strong>Obsolescence du concepteur Web Survey123 intégré</strong><br>Le concepteur Web Survey123 avait été intégré à Hub pour vous aider à accomplir plus de tâches dans l’application. Toutefois, les commentaires des utilisateurs ont exprimé une préférence pour la conception et la gestion des enquêtes dans l’application Survey123, comme pour les autres applications. La prise en charge du concepteur Web Survey123 intégré dans ArcGIS Hub a donc été rendue obsolète pour une meilleure prise en compte des souhaits des utilisateurs.</p>",
+      "actions": [
+        {
+          "text": "En savoir plus"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-premium": {
+      "title": "À propos des espaces de travail",
+      "message": "<p><strong>Ajout de contenu aux catalogues d’un site à l’aide de groupes</strong><br>Les catalogues de recherche des sites ont toujours été alimentés par des groupes, et les espaces de travail facilitent la gestion de ces groupes. Actuellement, pour que des contenus soient proposés dans le catalogue d’un site, ceux-ci doivent être ajoutés à des groupes individuels connectés au site. Bientôt, vous aurez la possibilité d’ajouter des contenus directement dans le catalogue.</p><p><strong>Passage des équipes secondaires aux groupes</strong><br>Vous pouvez désormais utiliser n’importe quel groupe ArcGIS Online pour collaborer sur des sites, des pages, des contenus et des projets dans Hub. Toutes les équipes secondaires précédemment liées continueront à apparaître dans le volet Collaborateurs de l’espace de travail du site. Pour éviter tout problème, ajoutez ces équipes secondaires en tant que groupes dotés de capacités de consultation et groupes dotés de capacités de modification.</p><p><strong>Suspension temporaire de la messagerie électronique des équipes</strong><br>L’envoi par e-mail de messages et d’invitations/de notifications de désabonnement aux membres d’une équipe et aux abonnés n’est actuellement pas pris en charge.</p><p><strong>Obsolescence du concepteur Web Survey123 intégré</strong><br>Le concepteur Web Survey123 avait été intégré à Hub pour vous aider à accomplir plus de tâches dans l’application. Toutefois, les commentaires des utilisateurs ont exprimé une préférence pour la conception et la gestion des enquêtes dans l’application Survey123, comme pour les autres applications. La prise en charge du concepteur Web Survey123 intégré dans ArcGIS Hub a donc été rendue obsolète pour une meilleure prise en compte des souhaits des utilisateurs.</p><p><strong>Disponibilité à venir des événements dans les espaces de travail</strong><br>Les événements sont en pleine mutation et devraient être disponibles prochainement dans les espaces de travail. Pour l’instant, si vous choisissez d’utiliser les espaces de travail, vous ne serez pas en mesure de créer de nouveaux événements, ni de gérer ou de rechercher des événements existants. Toutefois, si vous souhaitez gérer des événements créés précédemment, vous pouvez cesser d’utiliser les espaces de travail à tout moment.</p>",
+      "actions": [
+        {
+          "text": "En savoir plus"
+        }
+      ]
+    },
+    "202404-workspaceannouncement": {
+      "title": "Présentation des espaces de travail",
+      "message": "Les espaces de travail constituent la nouvelle façon de modifier et gérer les éléments dans Hub. Ils remplacent la navigation globale dans la vue de mise à jour (pas dans la vue dynamique). Pendant la phase de transition actuelle, vous pouvez choisir (à tout moment) d’utiliser les espaces de travail et les fonctionnalités associées pour les éléments et les groupes. Les événements seront disponibles lors d’une phase ultérieure. Pour essayer les espaces de travail dès maintenant, sélectionnez \"Accéder aux paramètres\".",
+      "actions": [
+        {
+          "text": "Accéder aux paramètres"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing": {
+      "title": "Nouvelle présentation – Initiatives Hub",
+      "message": "Les initiatives ArcGIS Hub ont évolué le 2 juillet 2024. Les initiatives créées précédemment sont désormais des sites autonomes, avec les mêmes mises en page, contenus, URL et fonctionnalités Premium (abonnés et événements, par exemple) qu’avant. Pour essayer les nouvelles initiatives repensées, vous devez activer les espaces de travail.",
+      "actions": [
+        {
+          "text": "En savoir plus sur les initiatives",
+          "ariaLabel": "En savoir plus sur les initiatives (s’ouvre dans un nouvel onglet)"
+        },
+        {
+          "text": "Accéder aux paramètres"
+        }
+      ]
+    },
+    "20240517-initiatives-manage": {
+      "title": "Gérer les anciennes initiatives",
+      "message": "Les initiatives ArcGIS Hub ont évolué le 2 juillet 2024. Les initiatives créées précédemment sont désormais des sites autonomes, avec les mêmes mises en page, contenus, URL et fonctionnalités Premium (abonnés et événements, par exemple) qu’avant. Vous pouvez sans risque supprimer les anciennes initiatives.",
+      "actions": [
+        {
+          "text": "En savoir plus sur les initiatives",
+          "ariaLabel": "En savoir plus sur les initiatives (s’ouvre dans un nouvel onglet)"
+        },
+        {
+          "text": "Afficher les anciennes initiatives",
+          "ariaLabel": "Afficher les anciennes initiatives (s’ouvre dans un nouvel onglet)"
+        }
+      ]
+    },
+    "20240517-initiatives-manage-no-priv": {
+      "title": "Gérer les anciennes initiatives",
+      "message": "Les initiatives ArcGIS Hub ont évolué le 2 juillet 2024. Les initiatives créées précédemment sont désormais des sites autonomes, avec les mêmes mises en page, contenus, URL et fonctionnalités Premium (abonnés et événements, par exemple) qu’avant. Vous pouvez sans risque supprimer les anciennes initiatives.",
+      "actions": [
+        {
+          "text": "En savoir plus sur les initiatives",
+          "ariaLabel": "En savoir plus sur les initiatives (s’ouvre dans un nouvel onglet)"
+        },
+        {
+          "text": "Afficher les anciennes initiatives",
+          "ariaLabel": "Afficher les anciennes initiatives (s’ouvre dans un nouvel onglet)"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing-site": {
+      "title": "Nouvelle présentation – Initiatives Hub",
+      "message": "La nouvelle génération d’initiatives Hub est désormais disponible dans les espaces de travail. Disposant de leur propre vue facile à configurer, les initiatives permettent de rapprocher les projets Hub qui partagent les mêmes objectifs à long terme. Les initiatives peuvent être créées de façon indépendante et partagées avec un ou plusieurs sites. Les sites peuvent comporter une ou plusieurs initiatives.",
+      "actions": [
+        {
+          "text": "En savoir plus",
+          "ariaLabel": "En savoir plus (s’ouvre dans un nouvel onglet)"
+        }
+      ]
+    },
+    "20240710-slow-service-warning": {
+      "title": "Interruption de service",
+      "message": "La communication avec le service prend plus de temps que prévu. L’accès aux téléchargements et aux fonctions cartographiques peut en être impacté."
+    },
+    "20240710-unreachable-service-error": {
+      "title": "Service indisponible",
+      "message": "Le service hôte est injoignable. Les téléchargements et les fonctions cartographiques sont actuellement indisponibles pour cet élément."
+    },
+    "20240807-auth-required-status": {
+      "title": "Statut du service inconnu",
+      "message": "Impossible d’accéder au service sécurisé car une autorisation supplémentaire est requise. Les téléchargements et les fonctions cartographiques sont actuellement indisponibles pour l’élément."
+    },
+    "20240805-private-downloads-unavailable-ago-error": {
+      "title": "Les téléchargements ne sont pas disponibles",
+      "message": "Pour pouvoir télécharger du contenu, le paramètre Exporter des données doit être activé dans ArcGIS Online. Contactez le propriétaire de l’élément pour qu’il active ce paramètre."
+    },
+    "20240805-private-downloads-unavailable-enterprise-error": {
+      "title": "Les téléchargements ne sont pas disponibles",
+      "message": "Pour pouvoir télécharger du contenu, le paramètre Exporter des données doit être activé dans ArcGIS Enterprise. Contactez le propriétaire de l’élément pour qu’il active ce paramètre."
+    },
+    "20240819-download-formats-disabled": {
+      "title": "Les téléchargements ont été désactivés",
+      "message": "Contactez le propriétaire de l’élément si vous souhaitez télécharger du contenu."
+    },
+    "20241104-about-feeds-notice": {
+      "message": "Rendez vos données Open Data publiques facilement accessibles et réutilisables grâce aux flux Hub.",
+      "actions": [
+        {
+          "text": "En savoir plus sur les flux Hub",
+          "ariaLabel": "En savoir plus sur les flux Hub (s’ouvre dans un nouvel onglet)"
+        }
+      ]
+    }
+  }
+}

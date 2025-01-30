@@ -1,0 +1,102 @@
+:host {
+  display: block;
+}
+
+:host([data-count="0"]) {
+  display: none;
+}
+
+.overflow {
+  padding-left: 1rem;
+}
+
+calcite-icon {
+  padding: 1rem;
+}
+
+arcgis-skeleton-loader:first-of-type {
+  margin-top: 0px;
+}
+
+arcgis-skeleton-loader {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: grid;
+  column-gap: 1rem;
+  grid-template-columns: 1.75rem auto;
+}
+
+arcgis-skeleton-loader:last-of-type {
+  margin-bottom: 0px;
+}
+
+@keyframes shimmer {
+
+  0% {
+    background-size: 200% 100%;
+    background-position: 100% 0;
+  }
+
+  100% {
+    background-size: 200% 100%;
+    background-position: -100% 0;
+  }
+}
+
+arcgis-skeleton-loader > div:nth-of-type(1), arcgis-skeleton-loader > div:nth-of-type(2) > div {
+  animation: shimmer 2s cubic-bezier(0.4, 0, 0.2, 0.8) infinite;
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 100%);
+  background-color: var(--calcite-color-foreground-3);
+}
+
+arcgis-skeleton-loader > div:nth-of-type(1) {
+  height: 1.75rem;
+  width: 1.75rem;
+  border-radius: 9999px;
+}
+
+arcgis-skeleton-loader > div:nth-of-type(2) {
+  display: grid;
+  align-items: center;
+  row-gap: 0.5rem;
+}
+
+arcgis-skeleton-loader > div:nth-of-type(2) > div:nth-of-type(1) {
+  height: 0.75rem;
+  border-radius: 0.375rem;
+}
+
+arcgis-skeleton-loader > div:nth-of-type(2) > div:nth-of-type(2) {
+  height: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.discussions-post-geography-edit-icon, .discussions-post-geography-delete-icon {
+  padding: 0px;
+}
+
+.discussions-post-geography-edit:active .discussions-post-geography-edit-icon {
+  --tw-text-opacity: 1;
+  color: rgb(21 21 21 / var(--tw-text-opacity));
+}
+
+.discussions-post-geography-edit[active] .discussions-post-geography-edit-icon {
+  --tw-text-opacity: 1;
+  color: rgb(21 21 21 / var(--tw-text-opacity));
+}
+
+.discussions-post-geography-delete:active .discussions-post-geography-delete-icon {
+  --tw-text-opacity: 1;
+  color: rgb(21 21 21 / var(--tw-text-opacity));
+}
+
+calcite-list[disabled] {
+  opacity: 100%;
+}
+
+calcite-list-item {
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+

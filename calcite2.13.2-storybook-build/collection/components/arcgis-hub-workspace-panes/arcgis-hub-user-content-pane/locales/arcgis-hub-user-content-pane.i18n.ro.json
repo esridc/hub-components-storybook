@@ -1,0 +1,43 @@
+{
+  "content": "Conținut",
+  "myContent": "Resursele mele",
+  "editableContent": "Conținut editabil",
+  "addContentButtonText": "Creați nou",
+  "type": "Tip",
+  "sharedUpdate": "Grup cu actualizare partajată",
+  "viewOnly": "Grup numai vizualizare",
+  "owner": "Proprietar",
+  "updated": "Actualizat",
+  "tags": "Etichete",
+  "dateCreated": "Creat",
+  "dateUpdated": "Modificat",
+  "actionLinks": {
+    "view": "Vizualizați",
+    "edit": "Editare",
+    "ariaEdit": "Editare {title}",
+    "ariaView": "Vizualizare {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Conținut",
+      "myContent": "Conținut pe care îl dețin",
+      "editableContent": "Conținut pe care îl pot edita",
+      "all": "Întregul conținut"
+    },
+    "access": {
+      "label": "De la"
+    },
+    "type": {
+      "label": "Tipuri"
+    },
+    "tags": {
+      "label": "Etichete"
+    },
+    "categories": {
+      "label": "Categorii"
+    },
+    "modified": {
+      "label": "Modificat"
+    }
+  }
+}

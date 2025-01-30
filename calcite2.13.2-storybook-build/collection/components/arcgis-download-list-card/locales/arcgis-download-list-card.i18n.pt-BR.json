@@ -1,0 +1,13 @@
+{
+  "csv": "CSV",
+  "shapefile": "Shapefile",
+  "sqlite": "Geodatabase SQLite",
+  "geoPackage": "Pacote Geográfico",
+  "filegdb": "Arquivo Geodatabase",
+  "featureCollection": "Coleção de Feição",
+  "geojson": "GeoJSON",
+  "excel": "Excel",
+  "json": "JSON",
+  "createReplicaErrorMessage": "Cria erro interno da réplica. Tente novamente em uma hora ou entre em contato com o gerente de conteúdo.",
+  "errorHeader": "Não foi possível concluir o download. Tente novamente."
+}

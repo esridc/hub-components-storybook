@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Ingen resultater fundet."
+    },
+    "error": {
+      "message": "Der opstod desværre en fejl under søgningen."
+    }
+  },
+  "access": "Adgang",
+  "actionsHeader": "Handlinger",
+  "caption": "Hub-enhedstabel",
+  "family": "Familie",
+  "type": "Type",
+  "tags": "Nøgleord",
+  "owner": "Ejer",
+  "dateCreated": "Oprettet",
+  "dateUpdated": "Ændret",
+  "description": "Beskrivelse",
+  "dateAndTime": "Dato og klokkeslæt",
+  "location": "Position",
+  "attendanceType": "Deltagelsestype",
+  "inPerson": "Personlig deltagelse",
+  "online": "Online",
+  "hybrid": "Hybrid",
+  "categories": "Kategorier",
+  "content": "Indhold",
+  "name": "Navn",
+  "start": "Start",
+  "end": "Slut",
+  "sharedUpdate": "Delt opdatering",
+  "managers": "Administrator",
+  "username": "Brugernavn",
+  "no": "Nej",
+  "yes": "Ja",
+  "title": "Titel",
+  "thumbnail": "Miniature",
+  "types": {
+    "app": "Applikation",
+    "content": "Indhold",
+    "dataset": "Datasæt",
+    "discussion": "Diskussionstavle",
+    "document": "Dokument",
+    "event": "Begivenhed",
+    "feedback": "Feedback",
+    "initiative": "Initiativ",
+    "image": "Billede",
+    "map": "Kort",
+    "other": "Andet",
+    "people": "Personer",
+    "site": "Websted",
+    "team": "Gruppe",
+    "template": "Skabelon",
+    "project": "Projekt"
+  }
+}

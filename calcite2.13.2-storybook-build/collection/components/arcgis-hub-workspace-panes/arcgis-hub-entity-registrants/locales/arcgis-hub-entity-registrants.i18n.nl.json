@@ -1,0 +1,46 @@
+{
+  "registrants": "Geregistreerde personen",
+  "invite": "Uitnodigen",
+  "tabs": {
+    "registrants": "Geregistreerde personen",
+    "settings": "Instellingen"
+  },
+  "emptyNotice": {
+    "title": "Geen geregistreerde personen",
+    "desc": "Evenementen zijn altijd leuker met een publiek. Nodig mensen uit of deel uw evenement om mensen te stimuleren deel te nemen.",
+    "link": "Geregistreerde personen uitnodigen"
+  },
+  "facets": {
+    "role": {
+      "header": "Rol",
+      "owner": "Eigenaar",
+      "organizer": "Organisator",
+      "attendee": "Geregistreerde persoon"
+    },
+    "status": {
+      "header": "Status",
+      "pending": "In behandeling",
+      "accepted": "Geaccepteerd",
+      "declined": "Geweigerd",
+      "blocked": "Geblokkeerd"
+    },
+    "location": {
+      "header": "Locatie",
+      "online": "Online",
+      "in_person": "Fysiek"
+    },
+    "updatedDate": "Bijgewerkte datum"
+  },
+  "delete": {
+    "attendee": "Geregistreerde persoon verwijderen"
+  },
+  "notice": {
+    "label": "Formulierwaarschuwing"
+  },
+  "success": {
+    "delete": "Geregistreerde persoon is verwijderd uit {eventName}."
+  },
+  "error": {
+    "delete": "Kan een of meer geregistreerde personen niet uit het evenement verwijderen."
+  }
+}

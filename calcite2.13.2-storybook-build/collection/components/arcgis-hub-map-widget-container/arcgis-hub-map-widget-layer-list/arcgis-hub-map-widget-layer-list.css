@@ -1,0 +1,130 @@
+:host {
+  display: block;
+}
+
+calcite-panel {
+  height: inherit;
+}
+
+calcite-panel div {
+  background-color: var(--calcite-ui-foreground-1);
+}
+
+.esri-layer-list__service, .esri-layer-list__service > .esri-widget__heading {
+  color: var(--calcite-ui-text-1);
+}
+
+.hub-widget-layer-list {
+  min-width: none !important;
+  max-width: none !important;
+  padding: 0px;
+}
+
+calcite-panel[closed] {
+  display: none;
+}
+
+@media only screen and (min-width: 640px) {
+
+  .hub-widget-layer-list.top {
+    position: absolute;
+  }
+
+  .hub-widget-layer-list.top {
+    width: 25rem;
+  }
+
+  .hub-widget-layer-list.top {
+    padding: 0px;
+  }
+
+  .hub-widget-layer-list.top {
+    max-height: calc(var(--panel-height) - 2rem);
+  }
+
+  .hub-widget-layer-list.bottom {
+    position: absolute;
+  }
+
+  .hub-widget-layer-list.bottom {
+    width: 25rem;
+  }
+
+  .hub-widget-layer-list.bottom {
+    padding: 0px;
+  }
+
+  .hub-widget-layer-list.bottom {
+    bottom: calc(var(--bottom-offset) - 2rem);
+    max-height: calc(var(--panel-height) - 1rem);
+  }
+
+  .hub-widget-layer-list.right {
+    right: 100%;
+  }
+
+  .hub-widget-layer-list.right {
+    margin-right: 1rem;
+  }
+
+  .hub-widget-layer-list.left {
+    left: 100%;
+  }
+
+  .hub-widget-layer-list.left {
+    margin-left: 1rem;
+  }
+
+  .hub-widget-layer-list.bottom.left {
+    margin-left: 0.5rem;
+  }
+
+  .hub-widget-layer-list.bottom.right {
+    margin-right: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .hub-widget-layer-list.top {
+    position: absolute;
+  }
+  .hub-widget-layer-list.top {
+    z-index: 50;
+  }
+  .hub-widget-layer-list.top {
+    padding: 0px;
+  }
+  .hub-widget-layer-list.top {
+    top: calc(var(--panel-height) - var(--panel-height-mobile) + var(--top-offset) - 1rem);
+    width: calc(var(--view-width) + 1px);
+    display: var(--mobile-display);
+    height: var(--panel-height-mobile);
+  }
+
+  .hub-widget-layer-list.bottom {
+    position: absolute;
+  }
+
+  .hub-widget-layer-list.bottom {
+    z-index: 50;
+  }
+
+  .hub-widget-layer-list.bottom {
+    padding: 0px;
+  }
+
+  .hub-widget-layer-list.bottom {
+    bottom: calc(var(--panel-height-mobile) - var(--panel-height) - var(--bottom-offset) - 1rem);
+    width: calc(var(--view-width) + 1px);
+    display: var(--mobile-display);
+    height: var(--panel-height-mobile);
+  }
+
+  .hub-widget-layer-list.right {
+    right: -1rem;
+  }
+
+  .hub-widget-layer-list.left {
+    left: -1rem;
+  }
+}

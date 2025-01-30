@@ -1,0 +1,16 @@
+{
+  "heading": "Niveau de partage",
+  "public": "Public",
+  "publicInfo": "Tout le monde peut voir ce/cette {itemType}",
+  "organization": "Organisation",
+  "organizationInfo": "Tous les membres dotés d’un compte sur {orgName} et les groupes peuvent voir ce/cette {itemType}",
+  "owner": "Propriétaire",
+  "ownerInfo": "Le propriétaire et les groupes avec accès peuvent voir ce/cette {itemType}",
+  "discussion": {
+    "publicInfo": "Tout le monde peut voir ce forum de discussion",
+    "organization": "Mon organisation",
+    "organizationInfo": "Tous les membres dotés d’un compte sur {orgName} peuvent voir ce forum de discussion",
+    "owner": "Privé",
+    "ownerInfo": "Le propriétaire et les groupes sélectionnés peuvent voir ce forum de discussion"
+  }
+}

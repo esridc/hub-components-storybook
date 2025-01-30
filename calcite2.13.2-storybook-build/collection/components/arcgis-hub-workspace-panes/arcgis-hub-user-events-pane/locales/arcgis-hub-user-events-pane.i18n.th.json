@@ -1,0 +1,29 @@
+{
+  "header": "เหตุการณ์",
+  "myContent": "งานอีเวนท์ของฉัน",
+  "editableContent": "เนื้อหาที่แก้ไขได้",
+  "addEventButtonText": "สร้างเหตุการณ์",
+  "type": "ประเภท",
+  "sharedUpdate": "กลุ่มการอัปเดตที่แชร์",
+  "viewOnly": "กลุ่มแบบดูอย่างเดียว",
+  "owner": "สร้างขึ้นโดย",
+  "starts": "เปิด",
+  "from": "จาก",
+  "until": "จนถึง",
+  "updated": "อัปเดตแล้ว",
+  "tags": "แท็ก",
+  "dateCreated": "สร้าง",
+  "dateUpdated": "แก้ไขแล้ว",
+  "actionLinks": {
+    "view": "ดู",
+    "edit": "แก้ไข",
+    "ariaEdit": "แก้ไข: {title}",
+    "ariaView": "มุมมอง: {title}"
+  },
+  "access": {
+    "label": "การเข้าถึง",
+    "PRIVATE": "ส่วนบุคคล",
+    "ORG": "องค์กร",
+    "PUBLIC": "สาธารณะ"
+  }
+}

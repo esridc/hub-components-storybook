@@ -1,0 +1,43 @@
+{
+  "content": "Sisu",
+  "myContent": "Minu sisu",
+  "editableContent": "Redigeeritav sisu",
+  "addContentButtonText": "Loo uus",
+  "type": "Tüüp",
+  "sharedUpdate": "Jagatud uuenduste grupp",
+  "viewOnly": "Ainult vaataja õigustega grupp",
+  "owner": "Omanik",
+  "updated": "Uuendatud",
+  "tags": "Märksõnad",
+  "dateCreated": "Loodud",
+  "dateUpdated": "Muudetud",
+  "actionLinks": {
+    "view": "Kuva",
+    "edit": "Muuda",
+    "ariaEdit": "Redigeeri {title}",
+    "ariaView": "Kuva {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Sisu",
+      "myContent": "Mulle kuuluv sisu",
+      "editableContent": "Sisu, mida ma saan redigeerida",
+      "all": "Kogu sisu"
+    },
+    "access": {
+      "label": "Jaotisest"
+    },
+    "type": {
+      "label": "Tüübid"
+    },
+    "tags": {
+      "label": "Märksõnad"
+    },
+    "categories": {
+      "label": "Kategooriad"
+    },
+    "modified": {
+      "label": "Muudetud"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "newCollection": "New collection",
+  "heading": {
+    "untitled": "Untitled collection"
+  },
+  "actions": {
+    "delete": "Delete collection: {label}",
+    "deleteCollection": "Delete collection",
+    "deleteButton": "Delete",
+    "cancelButton": "Cancel",
+    "deleteConfirmation": "Are you sure you want to delete this collection?"
+  },
+  "name": {
+    "label": "Name",
+    "requiredError": "Collection name is required"
+  },
+  "appearance": {
+    "heading": "Collection settings",
+    "description": "Change how the collection is sorted and filtered",
+    "flowTitle": "Appearance: {label}"
+  }
+}

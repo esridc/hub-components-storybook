@@ -1,0 +1,82 @@
+{
+  "title": "참여",
+  "subtitle": "토론 보드 표시 여부(볼 수 있는 사용자)를 설정하고 아래로 스크롤하여 보드 정보를 편집할 수 있는 사용자를 설정한 후 채널 참여 및 중재를 설정합니다.",
+  "channelTitle": "참여 채널이 설정됨",
+  "channelDescription": "이 채널에서는 해당 토론 보드에서 게시물을 추가하고, 보고, 관리할 수 있는 사용자를 제어합니다.",
+  "addChannelsTitle": "채널 설정",
+  "addChannelsDescription": "채널에서는 보드에 게시물을 추가할 수 있는 사용자를 제어합니다. 채널은 그룹, 기관 또는 모든 사용자에게 공개될 수 있으며, 많은 토론에 적용될 수 있습니다. 채널에서는 중재할 수 있는 사용자도 제어합니다. 채널 내에서 자동 중재를 위해 차단된 단어를 설정합니다.",
+  "privateChannelTitle": "비공개 채널이 설정됨",
+  "privateChannelDescription": "해당 토론 보드에 할당된 비공개 채널을 볼 수 없습니다. 채널을 제거하고 기존 채널을 선택하거나 채널을 생성할 수 있습니다.",
+  "removeChannelConfirmationMessage": "해당 토론 보드에는 더 이상 게시물이 표시되지 않습니다. 해당 채널이 제거되는 경우 채널을 추가할 수 있습니다.",
+  "headingChannelEdit": "채널을 편집 중입니다",
+  "headingChannelView": "채널을 보는 중입니다",
+  "headingChannelCreate": "채널을 생성 중입니다",
+  "buttons": {
+    "browse": "채널 찾아보기",
+    "new": "새 채널",
+    "removeChannel": "채널 제거",
+    "cancel": "취소"
+  },
+  "alerts": {
+    "label": "양식 알림",
+    "set": {
+      "title": "성공했습니다. 채널이 설정되었습니다."
+    },
+    "removed": {
+      "title": "채널이 제거됨",
+      "message": "참여할 채널을 선택하거나 생성합니다."
+    },
+    "error": {
+      "title": "실패했습니다. 채널이 설정되지 않았습니다."
+    }
+  },
+  "galleryPickerTitle": "채널 선택",
+  "channelsLabel": "채널",
+  "accessLabel": "접근",
+  "optionPublicLabel": "공개",
+  "optionOrganizationLabel": "기관",
+  "optionPrivateLabel": "비공개",
+  "viewChannel": "채널 보기",
+  "editChannel": "채널 편집",
+  "save": "저장",
+  "removeChannel": "채널 제거",
+  "groupPicker": {
+    "facet": {
+      "label": "소속",
+      "myGroups": "내 그룹",
+      "myOrganization": "내 기관",
+      "myCommunity": "내 커뮤니티"
+    }
+  },
+  "editGroupButtonText": "편집 그룹 추가",
+  "viewGroupButtonText": "보기 그룹 추가",
+  "viewGroups": {
+    "header": "볼 수 있는 사용자",
+    "description": "보드를 볼 수는 있는 사용자(포스팅 할 수 없음)입니다. 게시는 아래 채널에서 설정됩니다."
+  },
+  "editGroups": {
+    "header": "편집할 수 있는 사용자",
+    "description": "그룹 구성원이 작업 영역에서 보드 정보를 편집할 수 있습니다."
+  },
+  "aboutChannelsNotice": {
+    "title": "채널 소개",
+    "message": "채널은 그룹이 아니지만 그룹을 포함할 수 있습니다. 채널에서는 게시 및 중재할 수 있는 사용자를 결정합니다.",
+    "action": "채널에 대한 추가 정보"
+  },
+  "nonPrivateChannelNotice": {
+    "title": "채널을 편집할 수 없음",
+    "message": "이 채널의 중재자만 편집할 수 있습니다. 필요한 경우 추가하려면 채널 소유자 또는 기관 관리자에게 문의하세요. 이 채널을 제거하고, 기존 채널(사용자가 중재자인 채널)을 추가하거나 새 채널을 생성할 수도 있습니다."
+  },
+  "privateChannelNotice": {
+    "title": "채널을 편집할 수 없음",
+    "message": "이 채널의 중재자만 편집할 수 있습니다. 필요한 경우 추가하려면 채널 소유자에게 문의하세요. 이 채널을 제거하고, 기존 채널(사용자가 중재자인 채널)을 추가하거나 새 채널을 생성할 수도 있습니다."
+  },
+  "participate": {
+    "header": "참여할 수 있는 사용자 및 중재할 수 있는 사용자"
+  },
+  "org": "기관",
+  "private": "비공개",
+  "public": "공개",
+  "unnamed": "이름이 정의되지 않은 채널",
+  "groupNotFound": "그룹을 찾을 수 없음"
+}

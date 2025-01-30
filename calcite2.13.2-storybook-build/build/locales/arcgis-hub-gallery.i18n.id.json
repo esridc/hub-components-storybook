@@ -1,0 +1,91 @@
+{
+  "moreResults": "Hasil lainnya",
+  "search": "Cari",
+  "filter": "Filter",
+  "viewResults": "Lihat hasil ({numResults})",
+  "resultsCount": "1 - {pageTotal} dari {searchTotal}",
+  "backToTop": "Kembali ke atas",
+  "facets": {
+    "access": {
+      "label": "Berbagi",
+      "private": "Diri Sendiri",
+      "shared": "Pemilik & grup",
+      "org": "Organisasi",
+      "public": "Publik"
+    },
+    "license": {
+      "label": "Lisensi",
+      "tooltip": "Hanya di konten publik",
+      "custom": "Khusus",
+      "none": "Tidak Ada"
+    },
+    "type": {
+      "label": "Jenis"
+    },
+    "tags": {
+      "label": "Tag"
+    },
+    "dateUpdated": {
+      "label": "Tanggal diperbarui"
+    },
+    "source": {
+      "label": "Sumber",
+      "tooltip": "Konten publik dari berbagai organisasi"
+    },
+    "categories": {
+      "label": "Kategori"
+    },
+    "location": {
+      "label": "Lokasi",
+      "tooltip": "Terapkan luas peta sebagai filter lokasi"
+    },
+    "event": {
+      "from": {
+        "label": "Kepemilikan",
+        "myContent": "Saya",
+        "myOrganization": "Organisasi Saya",
+        "world": "Siapa Pun"
+      },
+      "access": {
+        "label": "Akses",
+        "private": "Pribadi",
+        "org": "Organisasi",
+        "public": "Publik"
+      },
+      "startDate": {
+        "label": "Tanggal Acara"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "Jenis",
+        "all": "Semua",
+        "view": "Lihat",
+        "edit": "Edit"
+      },
+      "role": {
+        "label": "Peran",
+        "all": "Semua",
+        "member": "Anggota",
+        "manager": "Pengelola",
+        "owner": "Pemilik"
+      },
+      "sharing": {
+        "label": "Visibilitas",
+        "private": "Pribadi",
+        "public": "Publik"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "Tampilkan daftar",
+    "grid": "Tampilkan kisi",
+    "map": "Tampilkan peta",
+    "compact": "Tampilkan ringkas",
+    "calendar": "Tampilkan kalender",
+    "table": "Tampilkan tabel"
+  },
+  "galleryActionsLabel": "Tindakan tambahan",
+  "selected": "Terpilih: {count}",
+  "popoverActionButtonLabel": "tindakan lainnya"
+}

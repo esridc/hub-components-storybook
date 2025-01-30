@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Keine Ergebnisse gefunden."
+    },
+    "error": {
+      "message": "Beim Durchführen der Suche ist ein Fehler aufgetreten."
+    }
+  },
+  "access": "Zugriff",
+  "actionsHeader": "Aktionen",
+  "caption": "Hub-Entitätstabelle",
+  "family": "Familie",
+  "type": "Typ",
+  "tags": "Tags",
+  "owner": "Besitzer",
+  "dateCreated": "Erstellt",
+  "dateUpdated": "Geändert",
+  "description": "Beschreibung",
+  "dateAndTime": "Datum und Uhrzeit",
+  "location": "Ort",
+  "attendanceType": "Art der Teilnahme",
+  "inPerson": "Präsenz",
+  "online": "Online",
+  "hybrid": "Hybrid",
+  "categories": "Kategorien",
+  "content": "Inhalt",
+  "name": "Name",
+  "start": "Start",
+  "end": "Ende",
+  "sharedUpdate": "Freigegeben für Aktualisierung",
+  "managers": "Manager",
+  "username": "Benutzername",
+  "no": "Nein",
+  "yes": "Ja",
+  "title": "Titel",
+  "thumbnail": "Miniaturansicht",
+  "types": {
+    "app": "Anwendung",
+    "content": "Inhalt",
+    "dataset": "Dataset",
+    "discussion": "Diskussionsrunde",
+    "document": "Dokument",
+    "event": "Veranstaltungen",
+    "feedback": "Feedback",
+    "initiative": "Initiative",
+    "image": "Bild",
+    "map": "Karte",
+    "other": "Andere",
+    "people": "Personen",
+    "site": "Site",
+    "team": "Gruppe",
+    "template": "Vorlage",
+    "project": "Projekt"
+  }
+}

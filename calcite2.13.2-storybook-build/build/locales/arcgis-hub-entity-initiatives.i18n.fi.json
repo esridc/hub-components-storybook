@@ -1,0 +1,87 @@
+{
+  "initiatives": "Aloitteet",
+  "description": "Liitä aloitteisiin, jotta voit osallistua pitkän aikavälin hankkeisiin tai laajamittaisiin hankkeisiin. Projektin yhteiskäyttäjät voivat hallinnoida vahvistettuja liitoksia ja odottavia liitospyyntöjä. Aloitteet, joihin liittyy vahvistettuja liitoksia, näkyvät tässä projektin näkymässä. ",
+  "shared": {
+    "error": {
+      "title": "Tapahtui virhe",
+      "message": "Tehtävää ei voi suorittaa loppuun. Yritä uudelleen."
+    },
+    "facets": {
+      "access": {
+        "label": "Jakaminen"
+      },
+      "status": {
+        "label": "Tila",
+        "notStarted": "Ei aloitettu",
+        "inProgress": "Meneillään",
+        "onHold": "Pidossa",
+        "complete": "Valmis"
+      },
+      "tags": {
+        "label": "Tunnisteet"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "{currentConfirmedAndOutgoingRequests}/{maxCurrentAndOutgoingRequestsAllowed} vahvistettu + lähtevää pyyntöä",
+      "tooltip": "Jotta voit lähettää pyyntöjä, katkaise nykyiset liitokset tai lähtevät pyynnöt"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "Etsi aloitteita",
+    "sendRequest": "Lähetä pyyntö",
+    "success": {
+      "title": "Onnistui",
+      "message": "Liitospyyntöjä lähetetty: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "Tarkista liitokset",
+      "message": "Joillain valinnoilla on jo pyydetty liitos. Uusia liitospyyntöjä lähetetty: {count}"
+    },
+    "catalog": {
+      "myContent": "Oma sisältö",
+      "favorites": "Suosikit",
+      "organization": "Oma organisaatio",
+      "partners": "Omat kumppanit",
+      "community": "Oma yhteisö"
+    },
+    "collection": {
+      "initiatives": "Aloitteet"
+    }
+  },
+  "acceptAssociation": {
+    "label": "Hyväksy",
+    "limitReachedTooltip": "Jotta voit hyväksyä, katkaise nykyiset liitokset tai lähtevät pyynnöt",
+    "success": {
+      "title": "Onnistui",
+      "message": "Liitos on hyväksytty kohteeseen {requestor}"
+    }
+  },
+  "cancelRequest": {
+    "label": "Peruuta pyyntö",
+    "success": {
+      "title": "Onnistui",
+      "message": "Liitospyyntö on peruutettu"
+    }
+  },
+  "breakAssociation": {
+    "label": "Katkaise",
+    "success": {
+      "title": "Liitos katkaistu",
+      "message": "Tämä kohteen yhteys sen aiempaan liitokseen on katkaistu. Emme voi kuitenkaan muuttaa toisen puolen päätöstä, joten näet sen mahdollisesti edelleen saapuvissa pyynnöissä."
+    }
+  },
+  "associationsGallery": {
+    "sources": "Tila",
+    "catalog": {
+      "associated": "Liitetty",
+      "requesting": "Saapuvat pyynnöt",
+      "pending": "Lähtevät pyynnöt"
+    },
+    "collection": {
+      "initiatives": "Aloitteet"
+    }
+  },
+  "notice": {
+    "label": "Lomakevaroitus"
+  }
+}

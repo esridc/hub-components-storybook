@@ -1,0 +1,10 @@
+import { IFeatureServiceDefinition, IField, ILayerDefinition } from "@esri/arcgis-rest-feature-layer";
+import { ArcGISContext, HubEntity } from "@esri/hub-common";
+export declare const MOCK_SERVICE_URL = "https://servicesqa.arcgis.com/T5cZDlfUaBpDnk6P/arcgis/rest/services/2019_US_coastline/FeatureServer";
+export declare const MOCK_SERVICE_LAYER_URL = "https://servicesqa.arcgis.com/T5cZDlfUaBpDnk6P/arcgis/rest/services/2019_US_coastline/FeatureServer/0";
+export declare const MOCK_ENTITY: HubEntity;
+export declare const MOCK_STRING_FIELD: IField;
+export declare const MOCK_LAYER: ILayerDefinition;
+export declare const MOCK_SERVICE: IFeatureServiceDefinition;
+export declare const FIELDS: IField[];
+export declare const PORTAL_CONTEXT: ArcGISContext;

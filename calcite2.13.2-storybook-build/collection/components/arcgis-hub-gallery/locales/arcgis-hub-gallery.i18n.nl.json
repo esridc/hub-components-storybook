@@ -1,0 +1,91 @@
+{
+  "moreResults": "Meer resultaten",
+  "search": "Zoeken",
+  "filter": "Filters",
+  "viewResults": "Resultaten weergeven ({numResults})",
+  "resultsCount": "1 - {pageTotal} van {searchTotal}",
+  "backToTop": "Terug naar boven",
+  "facets": {
+    "access": {
+      "label": "Delen",
+      "private": "Ikzelf",
+      "shared": "Eigenaar & groepen",
+      "org": "Organisatie",
+      "public": "Openbaar"
+    },
+    "license": {
+      "label": "Licentie",
+      "tooltip": "Alleen voor openbare content",
+      "custom": "Aangepast",
+      "none": "Geen"
+    },
+    "type": {
+      "label": "Type"
+    },
+    "tags": {
+      "label": "Tags"
+    },
+    "dateUpdated": {
+      "label": "Datum bijgewerkt"
+    },
+    "source": {
+      "label": "Bron",
+      "tooltip": "Openbare content van andere organisaties"
+    },
+    "categories": {
+      "label": "Categorieën"
+    },
+    "location": {
+      "label": "Locatie",
+      "tooltip": "Kaartextent als locatiefilter toepassen"
+    },
+    "event": {
+      "from": {
+        "label": "Eigendom",
+        "myContent": "Mijzelf",
+        "myOrganization": "Mijn organisatie",
+        "world": "Iedereen"
+      },
+      "access": {
+        "label": "Toegang",
+        "private": "Privé",
+        "org": "Organisatie",
+        "public": "Openbaar"
+      },
+      "startDate": {
+        "label": "Datum evenement"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "Type",
+        "all": "Alle",
+        "view": "Weergeven",
+        "edit": "Bewerken"
+      },
+      "role": {
+        "label": "Rol",
+        "all": "Alle",
+        "member": "Lid",
+        "manager": "Manager",
+        "owner": "Eigenaar"
+      },
+      "sharing": {
+        "label": "Zichtbaarheid",
+        "private": "Privé",
+        "public": "Openbaar"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "Lijst weergeven",
+    "grid": "Raster weergeven",
+    "map": "Kaart weergeven",
+    "compact": "Compact weergeven",
+    "calendar": "Kalender weergeven",
+    "table": "Tabel weergeven"
+  },
+  "galleryActionsLabel": "Extra handelingen",
+  "selected": "Geselecteerd: {count}",
+  "popoverActionButtonLabel": "meer acties"
+}

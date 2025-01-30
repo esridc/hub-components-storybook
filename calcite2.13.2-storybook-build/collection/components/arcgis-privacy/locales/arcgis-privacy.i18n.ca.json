@@ -1,0 +1,41 @@
+{
+  "managePrivacyButton": "Administra la privadesa",
+  "consentNotice": {
+    "allTracking": "Aquest lloc es va crear amb l'ArcGIS Hub i fa servir el seguiment anònim per millorar el rendiment i analitzar l'ús del lloc d'acord amb la declaració de privadesa d'Esri. Altres sistemes de seguiment externs poden supervisar l'ús que feu del lloc.",
+    "anonymousTracking": "Aquest lloc es va crear amb l'ArcGIS Hub i fa servir el seguiment anònim per millorar el rendiment i analitzar l'ús del lloc d'acord amb la declaració de privadesa d'Esri.",
+    "noTracking": "Aquest lloc s'ha creat amb l'ArcGIS Hub i només fa servir galetes que són necessàries perquè l'aplicació funcioni i no es poden desactivar als nostres sistemes.",
+    "thirdPartyTracking": "Aquest lloc s'ha creat amb l'ArcGIS Hub i només fa servir galetes que són necessàries perquè l'aplicació funcioni i no es poden desactivar als nostres sistemes. Altres sistemes de seguiment externs poden supervisar l'ús que feu del lloc."
+  },
+  "consent": {
+    "esriPrivacyLink": "Centre de privadesa d'Esri",
+    "customerConsentLink": "Més informació"
+  },
+  "eueiNotice": {
+    "title": "No es farà el seguiment de {orgName} membres",
+    "message": "S'ha inhabilitat el programa de millora de l'experiència de l'usuari d'Esri (EUEI) per a {orgName}. No es farà un seguiment de l'activitat relacionada amb la vostra visita; no podeu acceptar estadístiques d'ús anònimes ni seguiment de tercers.",
+    "link": "Obteniu informació sobre el programa EUEI."
+  },
+  "notice": {
+    "heading": "Configuració de privadesa",
+    "acceptAllButton": "Accepteu totes les galetes",
+    "acceptNecessaryButton": "Accepteu només les galetes necessàries",
+    "confirmButton": "Confirma",
+    "reviewSettingsButton": "Reviseu la configuració"
+  },
+  "settings": {
+    "heading": "Configuració de privadesa",
+    "confirmButton": "Confirma"
+  },
+  "anonymous": {
+    "heading": "Estadístiques d'ús anònimes",
+    "helpText": "Aquestes galetes ens permeten monitorar el rendiment de l'aplicació, com ara les fonts de trànsit, les visualitzacions de pàgina i les interaccions. Ens ajuden a saber el contingut que és efectiu i com es mouen els visitants per l'aplicació. Tota la informació que es recull és anònima (no s'emmagatzema informació d'identificació personal). Si no permeteu aquestes galetes, no sabrem que heu visitat la nostra aplicació o hi heu interaccionat."
+  },
+  "necessary": {
+    "heading": "Galetes estrictament necessàries",
+    "helpText": "Aquestes galetes són necessàries perquè l'aplicació funcioni i no es poden desactivar als nostres sistemes. Es defineixen en resposta a accions que dueu a terme que impliquen la sol·licitud de serveis, com ara iniciar la sessió al vostre compte. Podeu configurar el navegador perquè us avisi sobre les galetes o les bloquegi, però això pot afectar algunes parts de l'aplicació. Tota la informació que es recull és anònima (no s'emmagatzema informació d'identificació personal)."
+  },
+  "thirdParty": {
+    "heading": "Seguiment de tercers",
+    "helpText": "És possible que proveïdors de seguiment externs configurats en aquest lloc hagin definit aquestes galetes. Poden recollir informació de focalització o de màrqueting sobre l'usuari durant la seva visita. La informació recollida es pot fer servir amb finalitats alienes a l'aplicació. Si no permeteu aquestes galetes, els proveïdors de seguiment externs configurats no rebran cap informació sobre la vostra visita."
+  }
+}

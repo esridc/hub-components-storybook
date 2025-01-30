@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "Коллекция объектов",
+    "fgdb": "Файловая база геоданных",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Шейп-файл",
+    "sqlite": "База геоданных SQLite"
+  },
+  "buttonText": {
+    "download": "Загрузка",
+    "pending": "Ожидание",
+    "processing": "Обработка",
+    "converting": "Преобразование",
+    "completed": "Загрузка завершена",
+    "failed": "Загрузка не удалась"
+  },
+  "errors": {
+    "errorHeading": "Ошибка"
+  },
+  "cacheStatusAccordion": {
+    "heading": "Нашли то, что вам было нужно?",
+    "content": "Возможно, доступна более поздняя версия.",
+    "button": "Запросить новый файл"
+  },
+  "generateNewModal": {
+    "heading": "Вы уверены?",
+    "content": "Это может занять некоторое время. Оставляйте эту вкладку браузера активной до завершения загрузки.",
+    "confirmButton": "Да",
+    "cancelButton": "Отмена"
+  }
+}

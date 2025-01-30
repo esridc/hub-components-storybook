@@ -1,0 +1,15 @@
+{
+  "newFilter": "Нов филтър",
+  "block": {
+    "heading": {
+      "untitled": "Нов филтър",
+      "default": "Филтър {filterNum}: {parameter}",
+      "group": "Филтър {filterNum}: групи",
+      "type": "Филтър {filterNum}: типове",
+      "occurrence": "Филтър {filterNum}: появяване"
+    },
+    "actions": {
+      "delete": "Изтриване на филтър: {label}"
+    }
+  }
+}

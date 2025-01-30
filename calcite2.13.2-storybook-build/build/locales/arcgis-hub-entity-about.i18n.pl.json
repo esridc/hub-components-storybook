@@ -1,0 +1,18 @@
+{
+  "about": "Informacje",
+  "metrics": "Mierniki",
+  "featuredContent": "Polecane zasoby",
+  "details": "Szczegóły",
+  "exploreMetrics": "Przeglądaj mierniki",
+  "status": {
+    "label": {
+      "default": "Status",
+      "project": "Status projektu",
+      "initiative": "Status inicjatywy"
+    },
+    "notStarted": "Nierozpoczęty",
+    "inProgress": "W toku",
+    "onHold": "Wstrzymany",
+    "complete": "Ukończony"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "controls": {
+    "addContent": "הוסף תוכן",
+    "back": "חזור",
+    "cancel": "ביטול",
+    "close": "בוצע",
+    "create": "צור והוסף לקבוצה",
+    "next": "הבא"
+  },
+  "createHelpState": {
+    "discussion": {
+      "heading": "דיון",
+      "message": "צור לוח דיונים חדש על ידי הזנת כותרת שמציינת את הנושא."
+    },
+    "event": {
+      "heading": "אירוע",
+      "message": "ארח פעילות מאורגנת, פנים אל פנים או באופן וירטואלי."
+    },
+    "group": {
+      "heading": "קבוצה",
+      "message": "צור קבוצה כדי לשתף פעולה בתוכן ממוקד."
+    },
+    "initiative": {
+      "heading": "יוזמה",
+      "message": "יוזמות מאפשרות לארגן ולסכם התקדמות להשגת יעד."
+    },
+    "page": {
+      "heading": "עמוד",
+      "message": "דף הוא מקום לשתף מידע ולאינטראקציה עם הקהל שלך."
+    },
+    "project": {
+      "heading": "פרויקט",
+      "message": "הדגש עבודה שיש לה יעדים ברורים ומסגרות זמן ברורות."
+    },
+    "site": {
+      "heading": "אתר",
+      "message": "צור דף אינטרנט לצורך ארגון ושיתוף מידע."
+    }
+  },
+  "selection": {
+    "unlimited": "נבחר: {count}",
+    "limited": "נבחר: {count} / {limit}"
+  },
+  "steps": {
+    "createContent": "הוסף מידע בסיסי",
+    "selectContent": "בחר תוכן",
+    "selectGroups": "בחר קבוצה",
+    "confirmation": "אישור",
+    "notImplemented": "לא יושם"
+  },
+  "working": {
+    "heading": "מוסיף את התוכן שנבחר.",
+    "loadingLabel": "מוסיף תוכן."
+  },
+  "failure": {
+    "heading": "התוכן לא נוסף.",
+    "message": "משהו השתבש בעת הוספת התוכן שנבחר, נסה שוב.",
+    "action": "נסה שוב"
+  },
+  "notImplemented": {
+    "heading": "תהליך העבודה הזה טרם יושם."
+  },
+  "contentGallery": {
+    "facets": {
+      "access": {
+        "label": "מ-"
+      },
+      "type": {
+        "label": "סוגים"
+      },
+      "tags": {
+        "label": "תגים"
+      },
+      "categories": {
+        "label": "קטגוריות"
+      },
+      "modified": {
+        "label": "שונה"
+      }
+    }
+  },
+  "groupsGallery": {
+    "facets": {
+      "access": {
+        "label": "יכולים לראות:",
+        "options": {
+          "org": "ארגון",
+          "public": "כולם (ציבורי)",
+          "private": "אני"
+        }
+      },
+      "from": {
+        "label": "מ-",
+        "options": {
+          "myCommunity": "הקהילה שלי",
+          "myGroups": "הקבוצות שלי",
+          "myOrganization": "הארגון שלי",
+          "world": "עולם"
+        }
+      },
+      "type": {
+        "label": "סוגים",
+        "options": {
+          "sharedUpdate": "עדכון משותף",
+          "opendata": "Open Data"
+        }
+      }
+    }
+  }
+}

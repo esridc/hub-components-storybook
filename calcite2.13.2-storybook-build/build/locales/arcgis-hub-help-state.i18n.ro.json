@@ -1,0 +1,26 @@
+{
+  "unauthenticated": {
+    "heading": "Conectați-vă.",
+    "message": "Acest site necesită date de autentificare pentru acces.",
+    "actionText": "Conectare"
+  },
+  "not-found": {
+    "heading": "Pagină negăsită",
+    "message": "Este posibil ca această pagină să fi fost mutată sau ștearsă. Încercați să căutați din pagina principală",
+    "actionText": "Accesați pagina principală"
+  },
+  "unsupported-device": {
+    "heading": "Dimensiune ecran neacceptată",
+    "message": "Spațiile de lucru nu sunt încă disponibile pe dimensiunile de ecran mai mici; utilizați un dispozitiv cu un ecran mai lat.",
+    "actionText": "Revenire"
+  },
+  "access-denied": {
+    "heading": "Acces refuzat",
+    "message": "Nu aveți permisiunea de a accesa această resursă.",
+    "actionText": "Accesați pagina principală"
+  },
+  "loading": {
+    "heading": "Se încarcă...",
+    "loadingLabel": "Se încarcă"
+  }
+}

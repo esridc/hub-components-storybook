@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-feeds-list</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+  <link rel="stylesheet" href="../calcite-web.min.css">
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <script type="module" src="../../calcite/calcite.esm.js"></script>
+</head>
+
+<body>
+  <div class="grid-container padding-leader-2">
+    <div class="column-20 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-hub-feeds-list</h2>
+    </div>
+
+    <div class="column-20">
+      <arcgis-hub-feeds-list id="arcgis-hub-feeds-list-harness">
+      </arcgis-hub-feeds-list>
+    </div>
+  </div>
+
+  <script>
+    // set a property on the element
+    function setProp(key, value) {
+      const el = document.querySelector("arcgis-hub-feeds-list-harness");
+      el[key] = value;
+    }
+  </script>
+</body>
+
+</html>

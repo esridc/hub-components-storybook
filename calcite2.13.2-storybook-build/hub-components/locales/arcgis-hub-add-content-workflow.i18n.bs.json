@@ -1,0 +1,110 @@
+{
+  "controls": {
+    "addContent": "Dodaj sadržaj",
+    "back": "Natrag",
+    "cancel": "Odustani",
+    "close": "Gotovo",
+    "create": "Kreiraj i dodaj u grupu",
+    "next": "Sljedeće"
+  },
+  "createHelpState": {
+    "discussion": {
+      "heading": "Rasprava",
+      "message": "Stvorite novu ploču za raspravu unosom naslova koji označava temu."
+    },
+    "event": {
+      "heading": "Događaj",
+      "message": "Budite domaćin organizirane aktivnosti, osobno ili virtualno"
+    },
+    "group": {
+      "heading": "Grupa",
+      "message": "Kreirajte grupu za suradnju na fokusiranom sadržaju"
+    },
+    "initiative": {
+      "heading": "Inicijativa",
+      "message": "Inicijative organiziraju i daju sažetak napretka prema cilju."
+    },
+    "page": {
+      "heading": "Stranica",
+      "message": "Stranica je mjesto za dijeljenje informacija i komuniciranja sa svojom publikom."
+    },
+    "project": {
+      "heading": "Projekt",
+      "message": "Istaknite posao koji ima jasne ciljeve i vremenske okvire."
+    },
+    "site": {
+      "heading": "Web-mjesto",
+      "message": "Izradite internetsku stranicu za organiziranje i dijeljenje informacija."
+    }
+  },
+  "selection": {
+    "unlimited": "Odabrano: {count}",
+    "limited": "Odabrano: {count} / {limit}"
+  },
+  "steps": {
+    "createContent": "Dodaj osnovne informacije",
+    "selectContent": "Odaberi sadržaj",
+    "selectGroups": "Odaberi grupu",
+    "confirmation": "Potvrda",
+    "notImplemented": "Nije implementirano"
+  },
+  "working": {
+    "heading": "Dodavanje odabranog sadržaja.",
+    "loadingLabel": "Dodavanje sadržaja."
+  },
+  "failure": {
+    "heading": "Sadržaj nije dodan",
+    "message": "Nešto nije u redu prilikom dodavanja odabranog sadržaja, pokušajte ponovno.",
+    "action": "Pokušajte ponovno"
+  },
+  "notImplemented": {
+    "heading": "Ovaj tijek rada još nije implementiran."
+  },
+  "contentGallery": {
+    "facets": {
+      "access": {
+        "label": "Šalje"
+      },
+      "type": {
+        "label": "Vrste"
+      },
+      "tags": {
+        "label": "Oznake"
+      },
+      "categories": {
+        "label": "Kategorije"
+      },
+      "modified": {
+        "label": "Izmijenjeno"
+      }
+    }
+  },
+  "groupsGallery": {
+    "facets": {
+      "access": {
+        "label": "Mogu vidjeti",
+        "options": {
+          "org": "Organizacija",
+          "public": "Svi (javno)",
+          "private": "Ja"
+        }
+      },
+      "from": {
+        "label": "Šalje",
+        "options": {
+          "myCommunity": "Moja zajednica",
+          "myGroups": "Moje grupe",
+          "myOrganization": "Moja organizacija",
+          "world": "Svijet"
+        }
+      },
+      "type": {
+        "label": "Vrste",
+        "options": {
+          "sharedUpdate": "Dijeljeno ažuriranje",
+          "opendata": "Open Data"
+        }
+      }
+    }
+  }
+}

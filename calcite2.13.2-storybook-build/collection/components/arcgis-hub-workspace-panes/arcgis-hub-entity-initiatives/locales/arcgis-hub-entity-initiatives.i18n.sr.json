@@ -1,0 +1,87 @@
+{
+  "initiatives": "Inicijative",
+  "description": "Povežite se sa inicijativama kako biste doprineli dugoročnim ili velikim naporima. Saradnici na projektu mogu da upravljaju potvrđenim pridruživanjima i nerešenim zahtevima za pridruživanje. Inicijative sa potvrđenim pridruživanjima će se pojaviti u prikazu ovog projekta. ",
+  "shared": {
+    "error": {
+      "title": "Nešto nije u redu",
+      "message": "Nismo uspeli da izvršimo zadatak. Pokušajte ponovo."
+    },
+    "facets": {
+      "access": {
+        "label": "Deljenje"
+      },
+      "status": {
+        "label": "Status",
+        "notStarted": "Nije započeto",
+        "inProgress": "U toku",
+        "onHold": "Na čekanju",
+        "complete": "Završi"
+      },
+      "tags": {
+        "label": "Oznake"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "{currentConfirmedAndOutgoingRequests} / {maxCurrentAndOutgoingRequestsAllowed} potvrđeno + odlazni zahtevi",
+      "tooltip": "Da biste poslali zahteve, isključite postojeća povezivanja i/ili odlazne zahteve"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "Pronađi inicijative",
+    "sendRequest": "Pošalji zahtev",
+    "success": {
+      "title": "Uspešno",
+      "message": "Poslati su zahtevi za pridruživanje: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "Proveri pridruživanja",
+      "message": "Neki izbori su već zatražili pridruživanje. Poslati su novi zahtevi za pridruživanje: {count}"
+    },
+    "catalog": {
+      "myContent": "Moj sadržaj",
+      "favorites": "Omiljeni sadržaj",
+      "organization": "Moja organizacija",
+      "partners": "Moji partneri",
+      "community": "Moja zajednica"
+    },
+    "collection": {
+      "initiatives": "Inicijative"
+    }
+  },
+  "acceptAssociation": {
+    "label": "Prihvati",
+    "limitReachedTooltip": "Da biste prihvatili, isključite postojeća povezivanja i/ili odlazne zahteve",
+    "success": {
+      "title": "Uspešno",
+      "message": "Pridruživanje je prihvaćeno sa {requestor}"
+    }
+  },
+  "cancelRequest": {
+    "label": "Otkaži zahtev",
+    "success": {
+      "title": "Uspešno",
+      "message": "Zahtev za pridruživanje je otkazan"
+    }
+  },
+  "breakAssociation": {
+    "label": "Prekini vezu",
+    "success": {
+      "title": "Pridruživanje je prekinuto",
+      "message": "Isključili smo ovu stavku iz prethodnog pridruživanja. Međutim, ne možemo da poništimo odluku sa druge strane, tako da ćete je možda i dalje videti u pristiglim zahtevima."
+    }
+  },
+  "associationsGallery": {
+    "sources": "Stanje",
+    "catalog": {
+      "associated": "Povezano",
+      "requesting": "Dolazni zahtevi",
+      "pending": "Odlazni zahtevi"
+    },
+    "collection": {
+      "initiatives": "Inicijative"
+    }
+  },
+  "notice": {
+    "label": "Formiraj upozorenje"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "all": "Sve",
+  "source": "Izvor",
+  "targetEntity": {
+    "item": "Stavke",
+    "group": "Grupe",
+    "user": "Korisnici",
+    "portalUser": "Korisnici portala",
+    "communityUser": "Korisnici u zajednici",
+    "groupMember": "Članovi grupe",
+    "event": "Događaji",
+    "channel": "Kanali",
+    "discussionPost": "Objave",
+    "eventAttendee": "Lica registrovana za događaj"
+  }
+}

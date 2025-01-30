@@ -1,0 +1,19 @@
+{
+  "facets": {
+    "location": {
+      "label": "Konum",
+      "tooltip": "Harita yayılımını bir konum filtresi olarak uygula"
+    },
+    "status": "Durum",
+    "tags": "Etiketler",
+    "categories": "Kategoriler",
+    "dateUpdated": "Güncellenme tarihi"
+  },
+  "status": {
+    "label": "Proje durumu",
+    "notStarted": "Başlatılmadı",
+    "inProgress": "Devam ediyor",
+    "onHold": "Beklemede",
+    "complete": "Tamamlandı"
+  }
+}

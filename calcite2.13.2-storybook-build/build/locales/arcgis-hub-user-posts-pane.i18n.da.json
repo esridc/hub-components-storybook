@@ -1,0 +1,43 @@
+{
+  "header": "Diskussioner",
+  "myContent": "Mine begivenheder",
+  "editableContent": "Redigerbart indhold",
+  "addContentButtonText": "Opret begivenhed",
+  "type": "Type",
+  "sharedUpdate": "Delt opdateringsgruppe",
+  "viewOnly": "Vis kun gruppe",
+  "owner": "Ejer",
+  "updated": "Opdateret",
+  "tags": "Nøgleord",
+  "dateCreated": "Oprettet",
+  "dateUpdated": "Ændret",
+  "actionLinks": {
+    "view": "Vis",
+    "edit": "Rediger",
+    "ariaEdit": "Redigér: {title}",
+    "ariaView": "Vis: {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Begivenheder",
+      "myContent": "Begivenheder, jeg ejer",
+      "editableContent": "Begivenheder, jeg kan redigere",
+      "all": "Alle begivenheder"
+    },
+    "access": {
+      "label": "Fra"
+    },
+    "type": {
+      "label": "Typer"
+    },
+    "tags": {
+      "label": "Nøgleord"
+    },
+    "categories": {
+      "label": "Kategorier"
+    },
+    "modified": {
+      "label": "Ændret"
+    }
+  }
+}

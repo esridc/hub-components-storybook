@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Hub Components: Channel Editor</title>
+
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 4rem;
+      }
+    </style>
+    <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+        }
+      }
+    </script>
+    <script type="module" src="../../build/hub-components.esm.js"></script>
+    <script nomodule src="../../build/hub-components.js"></script>
+    <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+    <link rel="stylesheet" href="../calcite-web.min.css" />
+  </head>
+  <body>
+    <script src="https://unpkg.com/@esri/arcgis-rest-request@3.4.3/dist/umd/request.umd.min.js"></script>
+    <script src="https://unpkg.com/@esri/arcgis-rest-auth@3.4.3/dist/umd/auth.umd.min.js"></script>
+    <harness-header page-title="Channel Editor"></harness-header>
+    <calcite-notice open kind="info" scale="s" width="full" icon>
+      <div slot="message">This component requires authentication to render. Please auth as juliana_pa on QA.</div>
+    </calcite-notice>
+    <arcgis-hub-channel-editor
+      channel-id='26bff894-1fb1-4145-99ef-145297c00a68'
+      name-prefix='My Entity Name'
+    ></arcgis-hub-channel-editor>
+  </body>
+</html>

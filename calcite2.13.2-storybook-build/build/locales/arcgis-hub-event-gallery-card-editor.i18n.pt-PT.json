@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "Categorias",
+        "noCategoriesNotice": {
+          "body": "Esta organização ainda não tem nenhuma categoria.",
+          "link": "Configurar categorias"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "Conteúdo",
+      "selectionMode": {
+        "dynamic": {
+          "label": "Dinâmico"
+        },
+        "manual": {
+          "label": "Manual"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "Organização"
+        },
+        "collection": {
+          "sites": "Sites",
+          "projects": "Projetos",
+          "initiatives": "Iniciativas"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "Organização"
+        },
+        "collection": {
+          "events": "Eventos"
+        }
+      },
+      "access": {
+        "label": "Partilha",
+        "private": {
+          "label": "Privado",
+          "description": "Filtre por conteúdo disponível apenas para si e para as pessoas com acesso ao grupo."
+        },
+        "org": {
+          "label": "Organização",
+          "description": "Filtrar por conteúdo disponível apenas para membros da sua organização."
+        },
+        "public": {
+          "label": "Público",
+          "description": "Filtrar por conteúdo disponível para todos."
+        }
+      },
+      "tags": {
+        "label": "Palavras-chave"
+      },
+      "cardsShown": {
+        "label": "Cartões apresentados"
+      }
+    },
+    "appearance": {
+      "label": "Aspeto",
+      "titleHeading": {
+        "label": "Título do Cabeçalho",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "De acordo com o WCAG G141, os cabeçalhos aninhados melhoram a acessibilidade."
+      },
+      "corners": {
+        "label": "Cantos",
+        "square": {
+          "label": "Quadrado"
+        },
+        "round": {
+          "label": "Arredondado"
+        }
+      },
+      "shadow": {
+        "label": "Sombreado",
+        "none": {
+          "label": "Desativado"
+        },
+        "low": {
+          "label": "Baixo"
+        },
+        "medium": {
+          "label": "Médio"
+        },
+        "heavy": {
+          "label": "Carregado"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "Mostrar informações adicionais"
+      },
+      "layout": {
+        "label": "Layout",
+        "list": {
+          "label": "Lista"
+        },
+        "map": {
+          "label": "Mapa"
+        },
+        "calendar": {
+          "label": "Calendário"
+        }
+      }
+    },
+    "options": {
+      "label": "Opções",
+      "openIn": {
+        "label": "Abrir no…",
+        "same": {
+          "label": "Mesmo separador"
+        },
+        "new": {
+          "label": "Novo separador"
+        },
+        "notice": {
+          "title": "Dica de acessibilidade:",
+          "body": "De acordo com a técnica G200 WCAG 2.0, não se recomenda abrir ligações em novos separadores ou janelas.",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "Ler mais sobre WCAG 2.0 G200"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "Partilha",
+      "public": {
+        "label": "Público"
+      },
+      "private": {
+        "label": "Privado"
+      },
+      "organization": {
+        "label": "Organização"
+      }
+    },
+    "from": {
+      "label": "De",
+      "myOrganization": {
+        "label": "A Minha Organização"
+      },
+      "myContent": {
+        "label": "O meu conteúdo"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "Eventos",
+      "collections": {
+        "event": {
+          "label": "Eventos"
+        }
+      }
+    },
+    "item": {
+      "label": "Conteúdo",
+      "collections": {
+        "item": {
+          "label": "Conteúdo"
+        }
+      }
+    }
+  }
+}

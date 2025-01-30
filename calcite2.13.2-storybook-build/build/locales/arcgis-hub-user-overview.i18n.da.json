@@ -1,0 +1,35 @@
+{
+  "overview": "Oversigt",
+  "resources": "Hub-ressourcer",
+  "cards": {
+    "items": "Antal elementer",
+    "groups": "Antal grupper"
+  },
+  "hubContent": {
+    "heading": "Hub-elementer, der er ændret for nyligt",
+    "link": "Vis alt indhold"
+  },
+  "content": {
+    "heading": "Indhold redigeret for nyligt",
+    "stat": "Antal elementer",
+    "link": "Vis alt indhold"
+  },
+  "groups": {
+    "heading": "Grupper redigeret for nyligt",
+    "stat": "Antal grupper",
+    "link": "Vis alle grupper"
+  },
+  "contentCount": "Indhold",
+  "addContent": "Opret ny(t)",
+  "facets": {
+    "access": {
+      "label": "Fra"
+    },
+    "type": {
+      "label": "Typer"
+    },
+    "modified": {
+      "label": "Ændret"
+    }
+  }
+}

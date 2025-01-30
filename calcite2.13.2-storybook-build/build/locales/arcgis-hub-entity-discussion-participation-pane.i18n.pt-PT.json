@@ -1,0 +1,82 @@
+{
+  "title": "Participação",
+  "subtitle": "Defina a visibilidade do fórum de discussão (quem pode ver), desloque-se para baixo para definir quem pode editar as informações do fórum e, em seguida, defina a participação e moderação com canais.",
+  "channelTitle": "O canal de participação está definido",
+  "channelDescription": "Este canal controla quem pode adicionar, visualizar e moderar publicações neste fórum de discussão.",
+  "addChannelsTitle": "Definir canal",
+  "addChannelsDescription": "Os canais controlam quem pode adicionar mensagens ao fórum. Podem ser abertos a grupos, a uma organização ou ao público e podem ser aplicados a muitas discussões. Os canais também controlam quem pode moderar. Defina palavras bloqueadas para moderação automática num canal.",
+  "privateChannelTitle": "O canal privado está definido",
+  "privateChannelDescription": "Não é possível ver o canal privado atribuído a este fórum de discussão. Pode remover o canal e selecionar um canal existente ou criar um canal.",
+  "removeChannelConfirmationMessage": "Este fórum de discussão deixará de apresentar publicações. Pode adicionar um canal se este canal for removido.",
+  "headingChannelEdit": "Está a editar um canal",
+  "headingChannelView": "Está a ver um canal",
+  "headingChannelCreate": "Está a criar um canal",
+  "buttons": {
+    "browse": "Procurar canais",
+    "new": "Novo canal",
+    "removeChannel": "Remover canal",
+    "cancel": "Cancelar"
+  },
+  "alerts": {
+    "label": "Alerta de formulário",
+    "set": {
+      "title": "Sucesso. O canal foi definido."
+    },
+    "removed": {
+      "title": "Canal removido",
+      "message": "Selecione ou crie um canal de participação."
+    },
+    "error": {
+      "title": "Falhou. O canal não foi definido."
+    }
+  },
+  "galleryPickerTitle": "Selecionar um canal",
+  "channelsLabel": "Canais",
+  "accessLabel": "Acesso",
+  "optionPublicLabel": "Público",
+  "optionOrganizationLabel": "Organização",
+  "optionPrivateLabel": "Privado",
+  "viewChannel": "Ver canal",
+  "editChannel": "Editar canal",
+  "save": "Guardar",
+  "removeChannel": "Remover canal",
+  "groupPicker": {
+    "facet": {
+      "label": "De",
+      "myGroups": "Os meus grupos",
+      "myOrganization": "A minha organização",
+      "myCommunity": "A minha comunidade"
+    }
+  },
+  "editGroupButtonText": "Adicionar grupos de edição",
+  "viewGroupButtonText": "Adicionar grupos de visualização",
+  "viewGroups": {
+    "header": "Quem pode ver",
+    "description": "Pessoas que podem ver (mas não publicar) o fórum; a publicação é definida pelos canais abaixo."
+  },
+  "editGroups": {
+    "header": "Quem pode editar",
+    "description": "Os membros do grupo podem editar as informações do fórum no workspace."
+  },
+  "aboutChannelsNotice": {
+    "title": "Introdução aos canais",
+    "message": "Os canais não são grupos, mas podem contê-los. Determinam quem pode publicar e moderar.",
+    "action": "Mais informações sobre canais"
+  },
+  "nonPrivateChannelNotice": {
+    "title": "Não pode editar o canal",
+    "message": "Apenas os moderadores deste canal podem editá-lo. Contacte o proprietário do canal ou o administrador da organização para adicionar, se necessário. Também pode remover este canal, adicionar um canal existente (do qual é moderador) ou criar um novo canal."
+  },
+  "privateChannelNotice": {
+    "title": "Não pode editar o canal",
+    "message": "Apenas os moderadores deste canal podem editá-lo. Contacte o proprietário do canal para adicionar, se necessário. Também pode remover este canal, adicionar um canal existente (do qual é moderador) ou criar um novo canal."
+  },
+  "participate": {
+    "header": "Quem pode participar e moderar"
+  },
+  "org": "Organização",
+  "private": "Privado",
+  "public": "Público",
+  "unnamed": "Canal sem nome",
+  "groupNotFound": "Grupo não encontrado"
+}

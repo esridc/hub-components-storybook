@@ -1,0 +1,54 @@
+{
+  "existing": {
+    "successHeading": "Đã thêm nội dung thành công.",
+    "failureHeading": "Không thể thêm nội dung vào nhóm đã chọn.",
+    "successfulAccordionHeading": "Đã thêm nội dung vào nhóm đã chọn.",
+    "unsuccessfulAccordionHeading": "Nội dung chưa được thêm vào nhóm đã chọn"
+  },
+  "create": {
+    "event": {
+      "successWithoutGroupHeading": "Đã tạo Sự kiện thành công.",
+      "successWithGroupHeading": "Sự kiện được tạo thành công và thêm vào {group}.",
+      "successMessage": "Hiện bạn có thể xem Sự kiện, quản lý sự kiện để chỉnh sửa thông tin hoặc nhấp 'hoàn tất' để quay lại chế độ xem.",
+      "failureHeading": "Không thể thêm Sự kiện vào nhóm đã chọn."
+    },
+    "discussion": {
+      "successWithoutGroupHeading": "Đã tạo Bảng Thảo luận thành công.",
+      "successWithGroupHeading": "Bảng Thảo luận được tạo thành công và thêm vào {group}.",
+      "successMessage": "Hiện bạn có thể xem Bảng Thảo luận, quản lý bảng để chỉnh sửa thông tin hoặc nhấp 'hoàn tất' để quay lại chế độ xem.",
+      "failureHeading": "Không thể thêm Bảng Thảo luận vào nhóm đã chọn."
+    },
+    "group": {
+      "successWithoutGroupHeading": "Đã tạo Nhóm thành công.",
+      "successMessage": "Hiện bạn có thể xem Nhóm, quản lý nhóm để chỉnh sửa thông tin hoặc nhấp 'hoàn tất' để quay lại chế độ xem.",
+      "failureHeading": "Không thể tạo nhóm."
+    },
+    "initiative": {
+      "successWithoutGroupHeading": "Đã tạo Sáng kiến thành công.",
+      "successWithGroupHeading": "Sáng kiến được tạo thành công và thêm vào {group}.",
+      "successMessage": "Hiện bạn có thể xem Sáng kiến, quản lý sáng kiến để chỉnh sửa thông tin hoặc nhấp 'hoàn tất' để quay lại chế độ xem.",
+      "failureHeading": "Không thể thêm Sáng kiến vào nhóm đã chọn."
+    },
+    "page": {
+      "successWithoutGroupHeading": "Đã tạo Trang thành công.",
+      "successWithGroupHeading": "Trang được tạo thành công và thêm vào {group}.",
+      "successMessage": "Hiện bạn có thể xem Trang, quản lý trang để chỉnh sửa thông tin hoặc nhấp 'hoàn tất' để quay lại chế độ xem.",
+      "failureHeading": "Không thể thêm Trang vào nhóm đã chọn."
+    },
+    "project": {
+      "successWithoutGroupHeading": "Đã tạo Dự án thành công.",
+      "successWithGroupHeading": "Dự án được tạo thành công và thêm vào {group}.",
+      "successMessage": "Hiện bạn có thể xem Dự án, quản lý dự án để chỉnh sửa thông tin hoặc nhấp 'hoàn tất' để quay lại chế độ xem.",
+      "failureHeading": "Không thể thêm Dự án vào nhóm đã chọn."
+    },
+    "site": {
+      "successWithoutGroupHeading": "Đã tạo Site thành công.",
+      "successWithGroupHeading": "Site được tạo thành công và thêm vào {group}.",
+      "successMessage": "Hiện bạn có thể xem Site, quản lý site để chỉnh sửa thông tin hoặc nhấp 'hoàn tất' để quay lại chế độ xem.",
+      "failureHeading": "Không thể thêm Site vào nhóm đã chọn."
+    }
+  },
+  "editLayout": "Chỉnh sửa bố cục",
+  "manageEntity": "Quản lý",
+  "viewEntity": "Xem"
+}

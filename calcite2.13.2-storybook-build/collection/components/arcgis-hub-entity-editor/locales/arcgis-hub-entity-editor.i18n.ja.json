@@ -1,0 +1,1346 @@
+{
+  "success": "編集内容が正常に保存されました",
+  "error": "編集内容の保存中にエラーが発生しました",
+  "formAlert": "フォームの通知",
+  "create": "作成",
+  "shared": {
+    "notices": {
+      "metrics": {
+        "preview": {
+          "label": "指標をプレビュー",
+          "message": "ここで行った変更は、指標のプレビューに表示されます。"
+        }
+      }
+    },
+    "sections": {
+      "metrics": {
+        "basic": {
+          "label": "基本情報"
+        },
+        "source": {
+          "label": "値"
+        },
+        "formatting": {
+          "label": "書式設定"
+        },
+        "sharing": {
+          "label": "共有"
+        }
+      },
+      "mapSettings": {
+        "label": "マップ設定"
+      }
+    },
+    "errors": {
+      "urlFormat": "URL の形式が不正です"
+    },
+    "fields": {
+      "name": {
+        "maxLengthError": "名前は 250 文字以下である必要があります"
+      },
+      "title": {
+        "maxLengthError": "タイトルは 250 文字以下である必要があります"
+      },
+      "summary": {
+        "maxLengthError": "サマリーは 2048 文字以下である必要があります"
+      },
+      "purpose": {
+        "maxLengthError": "目的は 2048 文字以下である必要があります"
+      },
+      "_thumbnail": {
+        "label": "サムネイル",
+        "sizeDescription": "最大サイズは 10 MB です。 推奨サイズ: 760 x 505 以上",
+        "defaultThumbnailNotice": "デフォルトを置き換える独自のサムネイルをアップロードします。"
+      },
+      "location": {
+        "none": "位置なし",
+        "org": "組織の範囲",
+        "custom": "カスタム位置",
+        "customDescription": "1 つ以上の位置を描画",
+        "itemExtent": "アイテムの現在の範囲"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "タイプ",
+          "sharing": "共有"
+        },
+        "catalog": {
+          "myContent": "マイ コンテンツ",
+          "favorites": "お気に入り",
+          "organization": "組織",
+          "world": "世界 (パブリック)"
+        },
+        "collection": {
+          "appsAndMaps": "アプリおよびマップ",
+          "dataset": "データ",
+          "documents": "ドキュメント",
+          "feedback": "フィードバック",
+          "sites": "サイト",
+          "projects": "プロジェクト"
+        }
+      },
+      "metrics": {
+        "allowDynamicLink": {
+          "label": "ソース リンクの表示"
+        },
+        "cardTitle": {
+          "label": "タイトル",
+          "message": {
+            "required": "このフィールドは必須です。"
+          }
+        },
+        "dynamicMetric": {
+          "label": "データ ソース"
+        },
+        "value": {
+          "label": "値",
+          "message": {
+            "required": "このフィールドは必須です。"
+          }
+        },
+        "unit": {
+          "label": "単位",
+          "helperText": "%、+、$ など、接頭辞または接尾辞の値を設定するために使用します。 空白のままにすると、何も表示されません。"
+        },
+        "unitPosition": {
+          "label": "単位の位置",
+          "helperText": "指標値に関連して、計測単位 (例: km、lbs) を表示する場所を選択します。",
+          "enum": {
+            "after": {
+              "label": "値の後"
+            },
+            "before": {
+              "label": "値の前"
+            },
+            "below": {
+              "label": "値の下"
+            }
+          }
+        },
+        "showShareIcon": {
+          "label": "共有の有効化",
+          "helperText": {
+            "label": "ユーザーがこの指標への直接リンクをコピーできるようにします。"
+          }
+        },
+        "shareableOnHover": {
+          "label": "ホバー時に表示",
+          "helperText": {
+            "label": "共有ボタンはホバー時にのみ表示されます。 オフにすると、ボタンが常に表示されます。"
+          }
+        },
+        "sourceLink": {
+          "label": "リンク URL",
+          "message": {
+            "required": "ソースを表示するにはリンクが必要です。"
+          }
+        },
+        "sourceTitle": {
+          "label": "リンク テキスト"
+        },
+        "trailingText": {
+          "label": "末尾のテキスト",
+          "helperText": "追加のコンテキストまたは説明を入力します (指標値の下に表示されます)。"
+        },
+        "type": {
+          "label": "タイプ",
+          "enum": {
+            "dynamic": {
+              "label": "動的",
+              "description": "集計する既存のデータセット (フィーチャ サービス) を選択します。"
+            },
+            "static": {
+              "label": "静的",
+              "description": "レイアウトでハイライト表示する値を手入力します。"
+            }
+          }
+        },
+        "valueType": {
+          "label": "値のタイプ",
+          "helperText": "表示する値のタイプを選択します。",
+          "enum": {
+            "string": {
+              "label": "テキスト",
+              "description": "任意の単語または語句です。 数値計算に使用できません。 (例: 大通り)"
+            },
+            "number": {
+              "label": "数値",
+              "description": "数値です。 計算に使用できます。 (例: 123)"
+            },
+            "date": {
+              "label": "日付",
+              "description": "カレンダー日付の値。 数値計算に使用できません。 (例: \"2018/1/1\")"
+            }
+          }
+        }
+      },
+      "categories": {
+        "label": "カテゴリ",
+        "noCategoriesNotice": {
+          "body": "この組織にはカテゴリがまだ存在しません。",
+          "link": "カテゴリの設定"
+        }
+      },
+      "download": {
+        "format": {
+          "bip": "BIP",
+          "bmp": "BMP",
+          "bsq": "BSQ",
+          "gif": "GIF",
+          "jpg": "JPG",
+          "jpgPng": "JPG_PNG",
+          "lerc": "LERC",
+          "png": "PNG",
+          "png8": "PNG8",
+          "png24": "PNG24",
+          "png32": "PNG32",
+          "tiff": "TIFF",
+          "csv": "CSV",
+          "excel": "Excel",
+          "featureCollection": "フィーチャ コレクション",
+          "filegdb": "ファイル ジオデータベース",
+          "geojson": "GeoJSON",
+          "geoPackage": "GeoPackage",
+          "json": "JSON",
+          "kml": "KML",
+          "shapefile": "シェープファイル",
+          "sqlite": "SQLite ジオデータベース"
+        },
+        "additionalResource": "{resourceName} (メタデータの配布)",
+        "dataSourceResource": "データソース (メタデータの配布)",
+        "noTitleResource": "リンク (タイトルなし、メタデータの配布)"
+      }
+    }
+  },
+  "project": {
+    "sections": {
+      "details": {
+        "label": "詳細"
+      },
+      "basicInfo": {
+        "label": "基本情報"
+      },
+      "location": {
+        "label": "位置",
+        "helperText": "プロジェクトが実施される地理的エリアを表示します (プロジェクト レイアウトに表示)。"
+      },
+      "status": {
+        "label": "ステータス"
+      },
+      "sharing": {
+        "label": "共有"
+      },
+      "timeline": {
+        "label": "タイムライン"
+      },
+      "searchDiscoverability": {
+        "label": "検索と見つけやすさ"
+      },
+      "featuredContent": {
+        "label": "注目のコンテンツ",
+        "helperText": "プロジェクトに関連付けられた特定のドキュメント、アプリ、データをハイライト表示します。 最大で 4 個のアイテムを注目のコンテンツとして掲載できます。"
+      },
+      "callToAction": {
+        "label": "アクション リンク",
+        "helperText": "プロジェクトの最上部に目立つようボタンとして表示されます。 対象ユーザーをサイト、調査、マップなどへと誘導するために使用します。"
+      },
+      "embeds": {
+        "label": "注目の埋め込み",
+        "helperText": "プロジェクト上でハイライト表示する Web マップ、Web シーン、アプリケーションを選択します。"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "プロジェクト名",
+        "requiredError": "プロジェクト名は必須フィールドです",
+        "maxLengthError": "プロジェクト名は 250 文字以下である必要があります",
+        "entityTitleValidatorError": "プロジェクト名には、絵文字、<、>、= を含めることはできません"
+      },
+      "description": {
+        "label": "説明",
+        "helperText": "プロジェクトがその目的をどのように達成するかを指定します。 関連する背景情報とプロジェクトの結果として想定される変更を含めることを検討してください。"
+      },
+      "summary": {
+        "label": "目的",
+        "helperText": "プロジェクトの目的を簡潔にまとめます。"
+      },
+      "access": {
+        "itemType": "プロジェクト"
+      },
+      "groups": {
+        "label": "共有先...",
+        "viewGroup": "(グループの表示)",
+        "editGroup": "(グループの編集)"
+      },
+      "_thumbnail": {
+        "helperText": "ArcGIS Online および検索とギャラリーでこのプロジェクトを表すサムネイルを設定します。"
+      },
+      "featuredImage": {
+        "label": "注目の画像",
+        "helperText": "プロジェクト レイアウトでプロジェクトを表す画像を選択します。",
+        "sizeDescription": "最大ファイル サイズは 10 MB です。 推奨寸法: 718 x 478 以上",
+        "altText": {
+          "label": "代替テキスト",
+          "helperText": "スクリーン リーダーを使用しているユーザー向けに、画像の簡単な説明を入力します。 空白のままにして、画像が装飾であることを示します。"
+        }
+      },
+      "slug": {
+        "label": "スラッグ",
+        "helperText": "スラッグは URL に適したプロジェクト名のバージョンです。 プロジェクト名に基づいて自動的に生成されますが、カスタマイズできるのは自分だけです。",
+        "patternError": "エラー: スラッグは、ハイフンで区切られた小文字の英数字である必要があります。",
+        "isUniqueError": "このスラッグはすでに使用されています。 別のスラッグを選択してください。"
+      },
+      "tags": {
+        "label": "タグ",
+        "helperText": "他のユーザーがこのプロジェクトを検索しやすくなるよう、検索カタログでタグが使用されます。 テキストを追加し、Enter キーを選択して新しいタグを作成します。"
+      },
+      "categories": {
+        "helperText": "他のユーザーがこのプロジェクトを検索しやすくなるよう、検索カタログでカテゴリが使用されます。 これらは組織で設定されます。"
+      },
+      "status": {
+        "label": "プロジェクト ステータス",
+        "enum": {
+          "notStarted": {
+            "label": "開始前"
+          },
+          "inProgress": {
+            "label": "進行中"
+          },
+          "onHold": {
+            "label": "保留中"
+          },
+          "complete": {
+            "label": "完了"
+          }
+        }
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "タイプ",
+          "sharing": "共有"
+        }
+      },
+      "callToAction": {
+        "facets": {
+          "type": "タイプ",
+          "sharing": "共有"
+        }
+      },
+      "mapSettings": {
+        "label": "プロジェクトのマップ表示方法を構成します"
+      }
+    }
+  },
+  "initiative": {
+    "sections": {
+      "details": {
+        "label": "詳細"
+      },
+      "basicInfo": {
+        "label": "基本情報"
+      },
+      "location": {
+        "label": "位置",
+        "helperText": "このイニシアティブが実施される地理的エリアを表示します (イニシアティブ レイアウトに表示)。"
+      },
+      "sharing": {
+        "label": "共有"
+      },
+      "featuredContent": {
+        "label": "注目のコンテンツ",
+        "helperText": "プロジェクトに関連付けられた特定のドキュメント、アプリ、データをハイライト表示します。 最大で 4 個のアイテムを注目のコンテンツとして掲載できます。"
+      },
+      "status": {
+        "label": "ステータス"
+      },
+      "hero": {
+        "label": "ヒーロー"
+      },
+      "searchDiscoverability": {
+        "label": "検索と見つけやすさ"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "イニシアティブ名",
+        "requiredError": "イニシアティブ名は必須フィールドです",
+        "maxLengthError": "イニシアティブ名は 250 文字以下である必要があります",
+        "entityTitleValidatorError": "イニシアティブ名には、絵文字、<、>、= を含めることはできません"
+      },
+      "summary": {
+        "label": "目的",
+        "helperText": "イニシアティブの目的を簡潔にまとめます。"
+      },
+      "access": {
+        "itemType": "イニシアティブ"
+      },
+      "description": {
+        "label": "説明",
+        "helperText": "イニシアティブによって目的がどのように達成できるかを指定します。 関連する背景情報と、イニシアティブの結果として期待する変更内容を含めるようにしてください。"
+      },
+      "slug": {
+        "label": "スラッグ",
+        "helperText": "スラッグは URL に適したイニシアティブ名のバージョンです。 イニシアティブ名に基づいて自動的に生成されますが、カスタマイズできるのは自分だけです。",
+        "patternError": "エラー: スラッグは、ハイフンで区切られた小文字の英数字である必要があります。",
+        "isUniqueError": "このスラッグはすでに使用されています。 別のスラッグを選択してください。"
+      },
+      "tags": {
+        "label": "タグ",
+        "helperText": "他のユーザーがこのイニシアティブを検索しやすくなるよう、検索カタログでタグが使用されます。 テキストを追加し、Enter キーを選択して新しいタグを作成します。"
+      },
+      "categories": {
+        "helperText": "他のユーザーがこのイニシアティブを検索しやすくなるよう、検索カタログでカテゴリが使用されます。 これらは組織で設定されます。"
+      },
+      "_thumbnail": {
+        "helperText": "ArcGIS Online のほか、検索とギャラリーでこのイニシアティブを表すサムネイルを設定します。"
+      },
+      "groups": {
+        "label": "共有先...",
+        "viewGroup": "(グループの表示)",
+        "editGroup": "(グループの編集)"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "タイプ",
+          "sharing": "共有"
+        }
+      },
+      "status": {
+        "label": "イニシアティブのステータス",
+        "enum": {
+          "notStarted": {
+            "label": "開始前"
+          },
+          "inProgress": {
+            "label": "処理中"
+          },
+          "onHold": {
+            "label": "保留中"
+          },
+          "complete": {
+            "label": "完了"
+          }
+        }
+      },
+      "hero": {
+        "label": "ヒーロー",
+        "helperText": "ヒーローはイニシアティブのタイトルの上に表示されるもので、マップまたは画像を表示できます。",
+        "map": {
+          "label": "マップ",
+          "description": "マップにイニシアティブの位置や関連プロジェクトを表示してイニシアティブのターゲット エリアを表示します。"
+        },
+        "image": {
+          "label": "画像",
+          "description": "説得力のある画像を使うことで、ユーザーが目標に共感したり、行動を起こしたりするよう促すことができます。"
+        }
+      },
+      "featuredImage": {
+        "label": "画像",
+        "helperText": "ヒーローには、横向きの画像を使用してください。 アプリは、中央の焦点から比率を維持したまま画像サイズを変更し、さまざまな画面サイズに調整します。 大画面では、最大の高さは 475px になります。",
+        "sizeDescription": "最大ファイル サイズは 10 MB です。",
+        "altText": {
+          "label": "代替テキスト",
+          "helperText": "スクリーン リーダーを使用しているユーザー向けに、画像の簡単な説明を入力します。 空白のままにして、画像が装飾であることを示します。"
+        }
+      },
+      "groupAccess": {
+        "label": "表示設定",
+        "helperText": "このイニシアティブから作成された関連付けを表示できるユーザーを制御します",
+        "private": {
+          "label": "非公開",
+          "description": "イニシアティブの所有者とアクセス権のあるグループにグループが表示されます"
+        },
+        "org": {
+          "label": "組織",
+          "description": "イニシアティブの組織のアカウントを持つすべてのメンバーとアクセス権のあるグループにグループが表示されます"
+        },
+        "public": {
+          "label": "パブリック",
+          "description": "すべての人がグループを表示できます"
+        }
+      },
+      "membershipAccess": {
+        "label": "グループに参加できる人",
+        "org": "組織のメンバーのみ",
+        "collab": "パートナー コラボレーションおよび組織のメンバーのみ",
+        "any": "任意の組織のメンバー (推奨のデフォルト)"
+      },
+      "includeInCatalog": {
+        "label": "カタログに含める",
+        "helperText": "有効にすると、関連付けられたすべてのアイテムが、イニシアティブの検索カタログに他のコンテンツと一緒に表示されます。"
+      },
+      "mapSettings": {
+        "label": "イニシアティブのマップ表示方法を構成します"
+      }
+    }
+  },
+  "discussion": {
+    "sections": {
+      "details": {
+        "label": "詳細"
+      },
+      "basicInfo": {
+        "label": "基本情報"
+      },
+      "location": {
+        "label": "位置",
+        "helperText": "ディスカッションを絞るために、地理的エリアを追加してディスカッションの境界とマップのデフォルトのズーム レベルを設定します。"
+      },
+      "settings": {
+        "label": "ディスカッション"
+      },
+      "searchDiscoverability": {
+        "label": "検索と見つけやすさ"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "タイトル",
+        "requiredError": "ディスカッション ボード名は必須です。",
+        "entityTitleValidatorError": "ディスカッション名には、絵文字、<、>、= を含めることはできません"
+      },
+      "prompt": {
+        "label": "プロンプト",
+        "helperText": "このディスカッション ボードで参加者に送信してほしい内容について簡単に説明します。",
+        "requiredError": "プロンプトは必須フィールドです",
+        "maxLengthError": "プロンプトは 150 文字以下である必要があります"
+      },
+      "description": {
+        "label": "説明",
+        "helperText": "このボードを検索するときに役立つ詳細なコンテキスト情報を入力します。"
+      },
+      "_thumbnail": {
+        "helperText": "ディスカッションを表す画像を選択します。"
+      },
+      "summary": {
+        "label": "サマリー",
+        "helperText": "このリンクを他のユーザーと共有するときに役立つこのディスカッション ボードの目的について簡単に説明します。"
+      },
+      "featuredImage": {
+        "label": "注目の画像",
+        "sizeDescription": "最大サイズは 10 MB です。JPEG、JPG、PNG",
+        "altText": {
+          "label": "代替テキスト",
+          "helperText": "スクリーン リーダーを使用しているユーザー向けに、画像の簡単な説明を入力します。 空白のままにして、画像が装飾であることを示します。"
+        },
+        "name": {
+          "label": "画像名"
+        }
+      },
+      "slug": {
+        "label": "スラッグ",
+        "helperText": "スラッグは URL に適したディスカッション名のバージョンです。 ディスカッション名に基づいて自動的に生成されますが、カスタマイズできるのは自分だけです。",
+        "patternError": "エラー: スラッグは、ハイフンで区切られた小文字の英数字である必要があります。",
+        "isUniqueError": "このスラッグはすでに使用されています。 別のスラッグを選択してください。"
+      },
+      "tags": {
+        "label": "タグ"
+      },
+      "categories": {
+        "helperText": "カテゴリは、他のユーザーがこのディスカッションを検索しやすくなるように、検索カタログで使用されるものです。 これらは組織で設定されます。"
+      },
+      "discussable": {
+        "label": "ディスカッションは許可されていますか？",
+        "enabled": {
+          "label": "はい、ディスカッションは許可されています",
+          "description": "参加者は、このディスカッション ボードに投稿、返信、反応を追加できます。"
+        },
+        "disabled": {
+          "label": "いいえ、ディスカッションはブロックされています",
+          "description": "新規投稿、返信、反応を追加できなくなります。 以前の参加は削除されません。"
+        }
+      },
+      "mapSettings": {
+        "label": "ディスカッション ボードのマップ表示方法を構成します"
+      }
+    }
+  },
+  "site": {
+    "sections": {
+      "defaultRequiredHelperText": "*必須フィールドを示します",
+      "basicInfo": {
+        "label": "基本情報"
+      },
+      "location": {
+        "label": "位置",
+        "helperText": "このサイトに関連する地理的なエリアを表示します。"
+      },
+      "discussions": {
+        "label": "ディスカッション"
+      },
+      "privacy": {
+        "label": "プライバシー構成"
+      },
+      "siteUrl": {
+        "label": "サイトの URL"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "サイト名",
+        "requiredError": "サイト名は必須フィールドです",
+        "maxLengthError": "サイト名は 250 文字以下である必要があります",
+        "siteEntityTitleValidatorError": "サイト名には、絵文字や Unicode 文字を含めることはできません"
+      },
+      "_thumbnail": {
+        "helperText": "ArcGIS Online のほか、検索とギャラリーでこのサイトを表すサムネイルを設定します。"
+      },
+      "description": {
+        "label": "説明",
+        "helperText": "サイト説明。"
+      },
+      "summary": {
+        "label": "サマリー",
+        "helperText": "サイトを簡潔にまとめます。"
+      },
+      "slug": {
+        "label": "スラッグ",
+        "helperText": "スラッグは URL に適したサイト名のバージョンです。 サイト名に基づいて自動的に生成されますが、カスタマイズできるのは自分だけです。",
+        "patternError": "エラー: スラッグは、ハイフンで区切られた小文字の英数字である必要があります。",
+        "isUniqueError": "このスラッグはすでに使用されています。 別のスラッグを選択してください。"
+      },
+      "tags": {
+        "label": "タグ",
+        "helperText": "他のユーザーがこのサイトを検索しやすくなるよう、検索カタログでタグが使用されます。 テキストを追加し、Enter キーを選択して新しいタグを作成します。"
+      },
+      "categories": {
+        "helperText": "他のユーザーがこのサイトを検索しやすくなるよう、検索カタログでカテゴリが使用されます。 これらは組織で設定されます。"
+      },
+      "discussable": {
+        "label": "ライブ サイトでサインインしているユーザーのディスカッション インターフェイスを表示 (デフォルトで有効)",
+        "enabled": {
+          "label": "はい、ディスカッションは許可されています",
+          "description": "ディスカッション インターフェイスを表示"
+        },
+        "disabled": {
+          "label": "いいえ、ディスカッションはブロックされています",
+          "description": "ディスカッション インターフェイスを非表示"
+        }
+      },
+      "followers": {
+        "groupAccess": {
+          "label": "表示設定",
+          "helperText": "フォロー ボタンを表示できるユーザーを制御します。 この設定は、ページ内にフローティング表示されているフォロー ボタンと、レイアウトに直接埋め込まれたフォロー ボタンの両方に適用されます。",
+          "private": {
+            "label": "非公開",
+            "description": "サイトの所有者とアクセス権のあるグループにフォロー ボタンが表示されます"
+          },
+          "org": {
+            "label": "組織",
+            "description": "サイトの組織のアカウントを持つすべてのメンバーとアクセス権のあるグループにフォロー ボタンが表示されます"
+          },
+          "public": {
+            "label": "パブリック",
+            "description": "すべての人にフォロー ボタンが表示されます"
+          }
+        },
+        "showFollowAction": {
+          "label": "フォロー アクション",
+          "helperText": "ページ内アクション メニューにフォロー ボタンを追加すると、ユーザーがレイアウトをスクロールする間、ボタンが表示されたままになります。"
+        },
+        "discussable": {
+          "label": "このグループはディスカッションに参加できますか？",
+          "enabled": {
+            "label": "はい、ディスカッションは許可されています",
+            "description": "グループ メンバーは、グループがアクセス権を持つディスカッション チャンネルを表示したり、そのチャンネルに参加したりできます。"
+          },
+          "disabled": {
+            "label": "いいえ、ディスカッションはブロックされています",
+            "description": "グループ メンバーは、グループがアクセス権を持つディスカッション チャンネルを表示することも、そのチャンネルに参加することもできません。"
+          }
+        }
+      },
+      "siteUrl": {
+        "isUniqueError": "エラー: この URL を使用しているサイトはすでに存在します。"
+      }
+    }
+  },
+  "page": {
+    "sections": {
+      "basicInfo": {
+        "label": "基本情報"
+      },
+      "location": {
+        "label": "位置",
+        "helperText": "このページに関連する地理的なエリアを表示します。"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "ページ名",
+        "requiredError": "ページ名は必須フィールドです",
+        "maxLengthError": "ページ名は 250 文字以下である必要があります",
+        "entityTitleValidatorError": "ページ名には、絵文字、<、>、= を含めることはできません"
+      },
+      "description": {
+        "label": "説明",
+        "helperText": "このページの説明。"
+      },
+      "summary": {
+        "label": "サマリー",
+        "helperText": "ページを簡潔にまとめます。"
+      },
+      "slug": {
+        "label": "スラッグ",
+        "helperText": "スラッグは URL に適したページ名のバージョンです。 ページ名に基づいて自動的に生成されますが、カスタマイズできるのは自分だけです。",
+        "patternError": "エラー: スラッグは、ハイフンで区切られた小文字の英数字である必要があります。",
+        "isUniqueError": "このスラッグはすでに使用されています。 別のスラッグを選択してください。"
+      },
+      "tags": {
+        "label": "タグ",
+        "helperText": "他のユーザーがこのページを検索しやすくなるよう、検索カタログでタグが使用されます。 テキストを追加し、Enter キーを選択して新しいタグを作成します。"
+      },
+      "_thumbnail": {
+        "helperText": "ArcGIS Online のほか、検索とギャラリーでこのページを表すサムネイルを設定します。"
+      },
+      "categories": {
+        "helperText": "他のユーザーがこのページを検索しやすくなるよう、検索カタログでカテゴリが使用されます。 これらは組織で設定されます。"
+      }
+    }
+  },
+  "content": {
+    "fields": {
+      "title": {
+        "label": "タイトル",
+        "hint": "簡潔なタイトルは、コンテンツ全体を検索しやすくします。",
+        "requiredError": "タイトルは必須フィールドです",
+        "entityTitleValidatorError": "名前には、絵文字、<、>、= を含めることはできません"
+      },
+      "summary": {
+        "label": "サマリー",
+        "hint": "コンテンツを簡潔にまとめます。 ヒント: SEO を改善するには、「タイトル」や「タグ」とは異なるキーワードを使用します。"
+      },
+      "description": {
+        "label": "説明",
+        "hint": "コンテンツについて説明しているその他の詳細を追加します。 幅広い利用者に向けてグレード 7 ～ 9 の読解レベルを目指します。 <a href='https://www.webfx.com/tools/read-able/' target='_blank'>無料のリーダビリティ解析ツールを使用してテキストをテストします</a>。"
+      },
+      "tags": {
+        "label": "タグ",
+        "hint": "他のユーザーがこのコンテンツを検索しやすくなるように、検索カタログでタグが使用されます。 テキストを追加し、Enter キーを選択して新しいタグを作成します。"
+      },
+      "categories": {
+        "helperText": "他のユーザーがこのコンテンツを検索しやすくなるように、検索カタログでカテゴリが使用されます。 これらは組織で設定されます。"
+      },
+      "_thumbnail": {
+        "helperText": "ArcGIS Online および検索とギャラリーでこのアイテムを表すサムネイルを設定します。"
+      },
+      "license": {
+        "label": "利用規約",
+        "helperText": "制限が少ないほど、再利用が促進されます。"
+      },
+      "discussable": {
+        "label": "ディスカッションは許可されていますか？",
+        "enabled": {
+          "label": "はい、ディスカッションは許可されています",
+          "description": "参加者は、このアイテムに投稿、返信、反応を追加できます。"
+        },
+        "disabled": {
+          "label": "いいえ、ディスカッションはブロックされています",
+          "description": "新規投稿、返信、反応を追加できなくなります。 以前の参加は削除されません。"
+        }
+      },
+      "serverExtractCapability": {
+        "label": "ダウンロード システム",
+        "exportDataSetting": {
+          "label": "データのエクスポート設定 (推奨)",
+          "description": "その他のダウンロード形式と強化されたダウンロード パフォーマンスを有効にします。"
+        },
+        "defaultDownloadsSystem": {
+          "label": "デフォルトのダウンロード システム",
+          "description": "形式の減少、ダウンロード速度の低下、信頼性の低下を招く恐れがあります。"
+        },
+        "noFormatConfigurationNotice": {
+          "title": "形式設定は利用できません",
+          "body": "形式設定では、データのエクスポート設定を有効にする必要があります。"
+        }
+      },
+      "downloadFormats": {
+        "label": "形式",
+        "helperText": "ユーザーがアクセスを許可する形式、および表示する順序を選択します。 (少なくとも 1 つの形式を選択する必要があります)",
+        "downloadsUnavailableNotice": {
+          "title": "ダウンロードは使用できません",
+          "body": "コンテンツをダウンロードするには、ArcGIS Online でデータのエクスポート設定を有効にする必要があります。 アイテムの所有者に連絡して、この設定を有効にしてください。"
+        }
+      },
+      "schedule": {
+        "manual": {
+          "helperActionText": "このアイテムの検索インデックスとキャッシュされたダウンロード ファイルを手動で更新する場合に、このオプションを使用します。"
+        },
+        "forceUpdateButton": {
+          "label": "更新の適用",
+          "description": "このオプションを選択し、[保存] を選択して、必要に応じて、このアイテムの検索インデックスとキャッシュされたダウンロード ファイルを手動で更新します。"
+        },
+        "unavailableNotice": {
+          "title": "スケジュール更新は利用できません",
+          "body": "スケジュール更新を有効化するには、このコンテンツを [パブリック] にします。"
+        }
+      }
+    },
+    "sections": {
+      "basic": {
+        "title": "基本情報",
+        "message": "この情報は、検索結果やギャラリー カードの設定に使用され、詳細ビューに表示されます。"
+      },
+      "about": {
+        "title": "コンテンツについて",
+        "message": "検索結果には説明の最初の 2 行が表示されますが、コンテンツのフォーカス表示で説明全体が表示されます。"
+      },
+      "image": {
+        "title": "注目の画像",
+        "message": "ギャラリー内や、イニシアティブ、イベント、調査などの画像を強調表示するビューでコンテンツを表示するとき、適切な注目の画像またはサムネイルを用意することは重要です。 推奨サイズは 760 x 505 です。 画像がライブ ルートで不鮮明に表示される場合は、サムネイルを大きな画像に置き換えることを検討してください。"
+      },
+      "location": {
+        "label": "位置",
+        "helperText": "このコンテンツが実行 (コンテンツ レイアウトに表示) される地理的エリアを表示します。"
+      },
+      "discussions": {
+        "label": "ディスカッション"
+      },
+      "downloads": {
+        "label": "ダウンロード",
+        "helperText": "ダウンロード形式、キャッシュされたファイルの更新スケジュールなどを構成します。 詳細については、<calcite-link href=\"https://doc.arcgis.com/en/hub/content/data-download-settings.htm\" target=\"_blank\" icon-end=\"launch\">ダウンロードのドキュメント</calcite-link>をご参照ください。"
+      },
+      "schedule": {
+        "label": "スケジュール更新",
+        "helperText": "ハブは、コンテンツを更新する最適なタイミングを自動的に判断しようとします (デフォルト)。 ただし、コンテンツ、メタデータ、キャッシュされたダウンロード ファイル (該当する場合) の更新頻度を設定することもできます。"
+      }
+    },
+    "stringField": {
+      "charCounter": "残り {count} 文字"
+    },
+    "imageThumbnail": {
+      "label": "サムネイル画像",
+      "upload": "画像のアップロード",
+      "done": "終了",
+      "editThumbnail": "サムネイルの編集",
+      "browse": "イメージの参照",
+      "remove": "画像の削除",
+      "edit": "画像の編集",
+      "defaultHeading": "サムネイル画像の追加",
+      "dropHeading": "ドロップしてアップロード",
+      "errorHeading": "別の画像をお試しください",
+      "subheading": "最大サイズは {size}、{types}",
+      "zoomOut": "縮小",
+      "zoomIn": "拡大",
+      "drag": "ドラッグして再配置",
+      "urlPlaceholder": "サポートされているタイプ: {types}",
+      "browseForImage": "画像の参照",
+      "aria": {
+        "container": "画像領域",
+        "crop": "トリミング領域",
+        "handle": {
+          "top": "上側のサイズ変更",
+          "right": "右側のサイズ変更",
+          "left": "左側のサイズ変更",
+          "bottom": "下側のサイズ変更"
+        }
+      }
+    }
+  },
+  "group": {
+    "sections": {
+      "details": {
+        "label": "詳細"
+      },
+      "basicInfo": {
+        "label": "基本情報"
+      },
+      "capabilities": {
+        "label": "機能"
+      },
+      "membershipAccess": {
+        "label": "グループのメンバーシップ"
+      },
+      "discussions": {
+        "label": "ディスカッション"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "タイトル",
+        "requiredError": "グループのタイトルは必須フィールドです",
+        "maxLengthError": "グループのタイトルは 250 文字以下である必要があります",
+        "entityTitleValidatorError": "グループ名には、絵文字、<、>、= を含めることはできません"
+      },
+      "summary": {
+        "label": "サマリー",
+        "maxLengthError": "サマリーは 250 文字以下である必要があります"
+      },
+      "description": {
+        "label": "説明"
+      },
+      "access": {
+        "label": "このグループを表示できる人",
+        "private": {
+          "label": "非公開",
+          "description": "グループ メンバーだけがグループを表示できます。"
+        },
+        "org": {
+          "label": "組織",
+          "description": "組織メンバーだけがグループを表示できます。"
+        },
+        "public": {
+          "label": "すべての人 (パブリック)",
+          "description": "すべての人がグループを表示できます。"
+        }
+      },
+      "isSharedUpdate": {
+        "label": "共有の更新",
+        "helperText": "このグループのすべてのメンバーが、このグループのアイテムを編集できます。 メンバーシップは、自組織および自分のコラボレーション組織に限定されます。"
+      },
+      "isAdmin": {
+        "label": "管理グループ",
+        "helperText": "メンバーはこのグループを脱退できません。 このグループからメンバーを削除できるのは、グループの管理者または所有者のみです。 メンバーシップは、自組織に限定されます。"
+      },
+      "isOpenData": {
+        "label": "オープンデータ",
+        "helperText": "オープンデータ サイトでこのグループにアクセスすることを許可します。",
+        "constError": "パブリックでないグループはオープンデータにすることはできません。"
+      },
+      "_thumbnail": {
+        "label": "サムネイル",
+        "helperText": "グループ プロファイルでグループを表す画像を選択します。",
+        "sizeDescription": "最大サイズは 10 MB です。 推奨サイズ: 400 x 400 以上"
+      },
+      "membershipAccess": {
+        "label": "グループに参加できる人",
+        "org": {
+          "description": "組織のメンバーのみ",
+          "label": "組織のメンバー"
+        },
+        "collab": {
+          "description": "パートナー コラボレーションおよび組織のメンバーのみ",
+          "label": "共同作業者のみ"
+        },
+        "any": {
+          "description": "任意の組織のメンバー",
+          "label": "すべてのユーザー"
+        },
+        "createFollowers": {
+          "any": "任意の組織のメンバー (推奨のデフォルト)"
+        },
+        "createAssociation": {
+          "any": "任意の組織のメンバー (推奨のデフォルト)"
+        },
+        "constError": "管理者グループ メンバーシップは、自組織のメンバーに限定されます。",
+        "patternError": "共有の更新グループのメンバーシップは、自組織またはパートナー コラボレーションのメンバーに限定されます。"
+      },
+      "contributeContent": {
+        "label": "コンテンツを提供できるユーザー",
+        "members": {
+          "label": "メンバー",
+          "description": "すべてのグループ メンバー"
+        },
+        "admins": {
+          "label": "管理者",
+          "description": "グループの所有者と管理者"
+        },
+        "createFollowers": {
+          "admins": "グループの所有者と管理者 (推奨のデフォルト)"
+        },
+        "createAssociation": {
+          "admins": "グループの所有者と管理者 (推奨のデフォルト)"
+        }
+      },
+      "join": {
+        "label": "グループへの参加方法",
+        "invite": {
+          "label": "招待",
+          "description": "招待のみ"
+        },
+        "request": {
+          "label": "リクエスト",
+          "description": "リクエスト"
+        },
+        "auto": {
+          "label": "自分",
+          "description": "自分で追加"
+        },
+        "constError": "プライベート グループへの参加方法は招待のみである必要があります。",
+        "patternError": "管理者グループまたは共有の更新グループへの参加方法は、招待またはリクエストである必要があります。"
+      },
+      "hiddenMembers": {
+        "label": "グループのメンバー タブでメンバー全員のリストを表示できるユーザー",
+        "members": {
+          "label": "メンバー",
+          "description": "すべてのグループ メンバー"
+        },
+        "admins": {
+          "label": "管理者",
+          "description": "グループの所有者と管理者"
+        }
+      },
+      "discussable": {
+        "label": "このグループはディスカッションに参加できますか？",
+        "enabled": {
+          "label": "はい、ディスカッションは許可されています",
+          "description": "グループ メンバーは、グループがアクセス権を持つディスカッション チャンネルを表示したり、そのチャンネルに参加したりできます。"
+        },
+        "disabled": {
+          "label": "いいえ、ディスカッションはブロックされています",
+          "description": "グループ メンバーは、グループがアクセス権を持つディスカッション チャンネルを表示することも、そのチャンネルに参加することもできません。"
+        }
+      }
+    }
+  },
+  "initiativeTemplate": {
+    "sections": {
+      "basicInfo": {
+        "label": "基本情報"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "名前",
+        "requiredError": "イニシアティブ テンプレート名は必須フィールドです",
+        "entityTitleValidatorError": "イニシアティブ テンプレート名には、絵文字、<、>、= を含めることはできません"
+      },
+      "slug": {
+        "label": "スラッグ",
+        "helperText": "スラッグは URL に適したイニシアティブ テンプレート名のバージョンです。 イニシアティブ テンプレート名に基づいて自動的に生成されますが、カスタマイズできるのは自分だけです。",
+        "patternError": "エラー: スラッグは、ハイフンで区切られた小文字の英数字である必要があります。",
+        "isUniqueError": "このスラッグはすでに使用されています。 別のスラッグを選択してください。"
+      },
+      "previewUrl": {
+        "label": "プレビュー リンク",
+        "helperText": "プレビュー リンクは、タイトルに適用されるもので、テンプレートをパブリックに共有する場合に便利です。 リンクは「https://」で始まる必要があります",
+        "formatError": "URL の形式が不正です"
+      },
+      "summary": {
+        "label": "サマリー",
+        "helperText": "テンプレート ギャラリーに表示されるこのテンプレートの簡単な説明を記入します (90 文字以下を推奨)。"
+      },
+      "description": {
+        "label": "説明",
+        "helperText": "このテンプレートの使用方法に関する情報を含めます。 他のユーザーのために有効化手順を含めることを検討してください。"
+      },
+      "_thumbnail": {
+        "label": "サムネイル",
+        "helperText": "ArcGIS Online および検索とギャラリーでこのテンプレートを表すサムネイルを設定します。",
+        "sizeDescription": "最大サイズは 10 MB です。 推奨サイズ: 750 x 505 以上"
+      },
+      "recommendedTemplates": {
+        "label": "推奨テンプレート",
+        "catalog": {
+          "myContent": "マイ コンテンツ",
+          "favorites": "お気に入り",
+          "organization": "組織",
+          "world": "世界 (パブリック)"
+        },
+        "facets": {
+          "sharing": "共有"
+        },
+        "pickerTitle": "テンプレートの選択"
+      }
+    }
+  },
+  "template": {
+    "sections": {
+      "basicInfo": {
+        "label": "基本情報"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "テンプレート名",
+        "requiredError": "テンプレート名は必須フィールドです",
+        "maxLengthError": "テンプレート名は 250 文字以下である必要があります",
+        "entityTitleValidatorError": "テンプレート名には、絵文字、<、>、= を含めることはできません"
+      },
+      "previewUrl": {
+        "label": "プレビュー リンク",
+        "helperText": "プレビュー リンクは、タイトルに適用されるもので、テンプレートをパブリックに共有する場合に便利です。 リンクは「https://」で始まる必要があります",
+        "formatError": "URL の形式が不正です"
+      },
+      "description": {
+        "label": "説明",
+        "helperText": "このテンプレートの使用方法に関する情報を含めます。 他のユーザーのために有効化手順を含めることを検討してください。"
+      },
+      "summary": {
+        "label": "サマリー",
+        "helperText": "テンプレート ギャラリーに表示されるこのテンプレートの簡単な説明を記入します (90 文字以下を推奨します)。"
+      },
+      "_thumbnail": {
+        "helperText": "ギャラリーで表示するテンプレートの画像を選択します。"
+      }
+    }
+  },
+  "survey": {
+    "sections": {
+      "basicInfo": {
+        "label": "基本情報"
+      },
+      "searchDiscoverability": {
+        "label": "検索と見つけやすさ"
+      },
+      "settings": {
+        "label": "マップ表示"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "調査名",
+        "requiredError": "調査名は必須フィールドです",
+        "maxLengthError": "調査名は 250 文字以下にします",
+        "entityTitleValidatorError": "調査名には、絵文字、<、>、= を含めることはできません"
+      },
+      "description": {
+        "label": "説明",
+        "helperText": "調査の説明。"
+      },
+      "summary": {
+        "label": "サマリー",
+        "helperText": "調査を簡潔にまとめます。"
+      },
+      "_thumbnail": {
+        "helperText": "調査を ArcGIS Online、検索、ギャラリーで表示する際のサムネイルを設定します。"
+      },
+      "tags": {
+        "label": "タグ",
+        "helperText": "他のユーザーがこの調査を検索しやすくなるよう、検索カタログでタグが使用されます。 テキストを追加し、Enter キーを選択して新しいタグを作成します。"
+      },
+      "categories": {
+        "helperText": "カテゴリは、他のユーザーが調査を検索しやすくなるように、検索カタログで使用されるものです。 これらは組織で設定されます。"
+      },
+      "displayMap": {
+        "label": "ArcGIS Hub で開いたときの調査の表示方法",
+        "enabled": {
+          "label": "マップにフォーカス",
+          "description": "没入感のあるマップを体験してもらうため、マップの質問が最初に表示されます。"
+        },
+        "disabled": {
+          "label": "標準表示",
+          "description": "マップは他の質問とともにインライン表示されます。"
+        },
+        "notice": {
+          "title": "マップの質問が必要",
+          "message": "Survey123 で調査 (マップの質問を含む) を公開して、ArcGIS Hub でマップ表示を構成します。"
+        }
+      }
+    }
+  },
+  "event": {
+    "fields": {
+      "name": {
+        "label": "タイトル",
+        "requiredError": "タイトルは必須フィールドです",
+        "entityTitleValidatorError": "イベント名には、絵文字、<、>、= を含めることはできません"
+      },
+      "startDate": {
+        "label": "開始日",
+        "requiredError": "開始日は必須フィールドです",
+        "minDateError": "開始日を今日より前の日付にすることはできません"
+      },
+      "endDate": {
+        "label": "終了日",
+        "requiredError": "終了日は必須フィールドです",
+        "minDateError": "終了日は開始日より前の日付にすることはできません"
+      },
+      "date": {
+        "label": "日付",
+        "requiredError": "日付は必須フィールドです",
+        "minDateError": "今日より前の日付にすることはできません"
+      },
+      "startTime": {
+        "label": "開始時間",
+        "requiredError": "開始時間は必須フィールドです"
+      },
+      "endTime": {
+        "label": "終了時間",
+        "requiredError": "終了時間は必須フィールドです",
+        "minTimeError": "終了時間は開始時間より後の時間にする必要があります"
+      },
+      "allDay": {
+        "label": "終日"
+      },
+      "timeZone": {
+        "label": "タイム ゾーン",
+        "requiredError": "タイム ゾーンは必須フィールドです"
+      },
+      "attendanceType": {
+        "label": "場所",
+        "inPerson": {
+          "label": "対面"
+        },
+        "online": {
+          "label": "オンライン"
+        },
+        "both": {
+          "label": "両方"
+        }
+      },
+      "onlineUrl": {
+        "label": "オンライン イベントの参加リンク",
+        "requiredError": "オンラインまたはハイブリッド イベントには URL が必須です。",
+        "linkHrefFormatError": "URL の形式が不正です"
+      },
+      "description": {
+        "label": "説明",
+        "helperText": "イベント タイプ、目的、議題、持ち物、交通手段など、登録者向けのその他の情報を追加します。",
+        "requiredError": "説明は必須フィールドです"
+      },
+      "inPersonCapacity": {
+        "label": "最大収容人数",
+        "requiredError": "最大収容人数は必須です",
+        "minimumError": "最大収容人数は 0 より大きい必要があります"
+      },
+      "inPersonCapacityType": {
+        "label": "登録収容人数",
+        "unlimited": {
+          "label": "制限なし"
+        },
+        "fixed": {
+          "label": "固定"
+        }
+      },
+      "location": {
+        "label": "このイベントが実行 (イベント レイアウトに表示) される地理的エリアを表示します。"
+      },
+      "onlineCapacityType": {
+        "label": "オンライン登録人数",
+        "unlimited": {
+          "label": "制限なし"
+        },
+        "fixed": {
+          "label": "固定"
+        }
+      },
+      "onlineCapacity": {
+        "label": "最大オンライン人数",
+        "requiredError": "最大オンライン人数は必須フィールドです",
+        "minimumError": "最大オンライン人数は 0 より大きい必要があります"
+      },
+      "onlineDetails": {
+        "label": "オンライン イベントの詳細",
+        "helperText": "パスコード、ダイヤルイン情報など、登録者のための情報を追加します。"
+      },
+      "categories": {
+        "helperText": "カテゴリは、他のユーザーがこのイベントを検索しやすくなるように、検索カタログで使用されるものです。 これらは組織で設定されます。"
+      },
+      "tags": {
+        "label": "タグ",
+        "helperText": "他のユーザーがイベントを検索しやすくなるように、検索カタログでタグを使用します。 テキストを追加し、Enter キーを選択して新しいタグを作成します。"
+      },
+      "summary": {
+        "label": "サマリー",
+        "helperText": "リンクを他のユーザーと共有するためにイベントの目的を簡単に説明します。"
+      },
+      "allowRegistration": {
+        "label": "登録の許可",
+        "helperText": "参加の登録または招待を受けるには、アカウントが必要です。",
+        "enabled": {
+          "label": "登録ボタンが有効になっています",
+          "description": "イベントを表示できるすべてのメンバーが登録できます。"
+        },
+        "disabled": {
+          "label": "登録ボタンが無効になっています",
+          "description": "登録が招待制であるか、追跡されていません。"
+        }
+      },
+      "notifyAttendees": {
+        "label": "自動通知の送信",
+        "helperText": "イベント登録者は、リマインダーまたは変更に関する自動電子メール通知を受信できます。 参加登録をしたユーザーは自動的に登録されます。",
+        "enabled": {
+          "label": "通知が有効になっています",
+          "description": "イベントの登録ボタンが表示されます。"
+        },
+        "disabled": {
+          "label": "通知が無効になっています",
+          "description": "イベントの登録ボタンが非表示になります。"
+        }
+      },
+      "referencedContent": {
+        "label": "接続済みコンテンツ",
+        "helperText": {
+          "label": "このイベントに関連する 1 つのプロジェクト、イニシアティブ、サイトを接続します。"
+        },
+        "facets": {
+          "from": {
+            "label": "取得元",
+            "myContent": {
+              "label": "マイ コンテンツ"
+            },
+            "myOrganization": {
+              "label": "組織"
+            }
+          },
+          "access": {
+            "label": "アクセス"
+          }
+        },
+        "catalog": {
+          "organization": "組織"
+        },
+        "collection": {
+          "sites": "サイト",
+          "initiatives": "イニシアティブ",
+          "projects": "プロジェクト"
+        }
+      }
+    },
+    "sections": {
+      "referencedContent": {
+        "label": "接続済みコンテンツ"
+      },
+      "eventInfo": {
+        "label": "イベント情報"
+      },
+      "dateTime": {
+        "label": "日時"
+      },
+      "location": {
+        "label": "位置"
+      },
+      "discoverability": {
+        "label": "検索と見つけやすさ"
+      }
+    }
+  },
+  "user": {
+    "sections": {
+      "userSettings": "ユーザー基本設定",
+      "orgSettings": {
+        "label": "組織の設定",
+        "signinSettings": {
+          "label": "サイン イン オプション",
+          "helperText": "ユーザーが Hub のコミュニティ アカウントにサイン アップする場合に表示される情報をカスタマイズします。"
+        },
+        "siteDefaults": {
+          "label": "サイト表示のデフォルト"
+        }
+      }
+    },
+    "fields": {
+      "enableTermsAndConditions": {
+        "label": "サイン アップ フォーム上にカスタム利用規約が必要です"
+      },
+      "termsAndConditions": {
+        "label": "利用規約"
+      },
+      "enableSignupText": {
+        "label": "カスタム サイン アップのようこそメッセージを構成します"
+      },
+      "workspacePreview": {
+        "label": "ワークスペースのプレビューを有効化",
+        "helperText": "現在、ワークスペースは機能拡張のため開発段階ですが、プレビューは可能です。 プレビュー期間中にいつでもワークスペースを無効化できます。 ワークスペースを有効化すると、ユーザー アカウントにのみ影響があります。"
+      },
+      "infoBanner": {
+        "label": "情報バナー",
+        "helperText": "従業員組織の情報バナーをすべてのサイトとページで表示します (構成されている場合)。 これはグローバル設定で、特定のサイトに対して有効/無効にすることはできません。",
+        "helperTextWhenDisabled": "現在、構成済みの情報バナーはありません。 以下のリンクをクリックすると、情報バナーを構成できる ArcGIS Online にリダイレクトされます",
+        "goToBannerConfig": "ArcGIS Online で情報バナーを構成します"
+      }
+    },
+    "notice": {
+      "title": "組織管理",
+      "message": "ほとんどのスタッフとコミュニティ (Hub Premium) 組織の設定は、ArcGIS ホーム組織で管理されるようになりました。",
+      "communityMessage": "ほとんどのスタッフとコミュニティ (Hub Premium) 組織の設定は、ArcGIS ホーム組織で管理されるようになりました。 <br /><br />コミュニティ組織",
+      "staffMessage": "ほとんどのスタッフとコミュニティ (Hub Premium) 組織の設定は、ArcGIS ホーム組織で管理されるようになりました。 <br /><br />スタッフ組織",
+      "actions": {
+        "goToOrg": "組織の設定に移動",
+        "goToCommunityOrg": "コミュニティ組織に移動",
+        "goToStaffOrg": "スタッフ組織に移動"
+      }
+    }
+  }
+}

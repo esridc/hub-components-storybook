@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "อัตโนมัติโดย Hub",
+      "actionText": "ข้อมูลตัวเลือกอัตโนมัติ"
+    },
+    "daily": {
+      "defaultLabel": "รายวัน",
+      "defaultExpandedHelperText": "แต่ละวันตามชั่วโมงที่เลือกในโซนเวลาที่เลือก",
+      "actionText": "ข้อมูลตัวเลือกรายวัน"
+    },
+    "weekly": {
+      "defaultLabel": "รายสัปดาห์",
+      "defaultExpandedHelperText": "แต่ละสัปดาห์ในวันและชั่วโมงต่อไปนี้ในโซนเวลาที่เลือก",
+      "actionText": "ข้อมูลตัวเลือกรายสัปดาห์"
+    },
+    "monthly": {
+      "defaultLabel": "รายเดือน",
+      "defaultExpandedHelperText": "แต่ละเดือนในวันและชั่วโมงต่อไปนี้ในโซนเวลาที่เลือก",
+      "actionText": "ข้อมูลตัวเลือกรายเดือน"
+    },
+    "yearly": {
+      "defaultLabel": "รายปี",
+      "defaultExpandedHelperText": "แต่ละชั่วโมงในเดือน วันและชั่วโมงต่อไปนี้ในโซนเวลาที่เลือก",
+      "actionText": "ข้อมูลตัวเลือกรายปี"
+    },
+    "manual": {
+      "defaultLabel": "ด้วยตัวเอง",
+      "defaultExpandedHelperText": "ใช้ตัวเลือกนี้หากคุณต้องการอัปเดตดัชนีการค้นหาและไฟล์การดาวน์โหลดที่แคชไว้สำหรับรายการนี้ด้วยตัวเอง",
+      "actionText": "ข้อมูลตัวเลือกด้วยตัวเอง"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "เวลาของวัน",
+      "inputMessage": "เวลาจะถูกปัดเศษเป็นชั่วโมงที่ใกล้ที่สุด",
+      "error": "โปรดเลือกชั่วโมง"
+    },
+    "day": {
+      "helperText": "วันของสัปดาห์",
+      "daysOfTheWeek": {
+        "sunday": "วันอาทิตย์",
+        "monday": "วันจันทร์",
+        "tuesday": "วันอังคาร",
+        "wednesday": "วันพุธ",
+        "thursday": "วันพฤหัสบดี",
+        "friday": "วันศุกร์",
+        "saturday": "วันเสาร์"
+      },
+      "selectLabel": "ตัวเลือกวันของสัปดาห์",
+      "error": "โปรดเลือกวันของสัปดาห์"
+    },
+    "date": {
+      "helperText": "วันของเดือน",
+      "inputNumberPlaceholder": "เลือกวันของเดือน",
+      "inputMessage": "ป้อนค่าจาก 1 ถึง 28 สำหรับวันของเดือน",
+      "error": "วันของเดือนต้องอยู่ระหว่าง 1 ถึง 28"
+    },
+    "month": {
+      "helperText": "เดือนของปี",
+      "selectLabel": "ตัวเลือกเดือนของปี",
+      "monthsOfTheYear": {
+        "january": "มกราคม",
+        "february": "กุมภาพันธ์",
+        "march": "มีนาคม",
+        "april": "เมษายน",
+        "may": "พฤษภาคม",
+        "june": "มิถุนายน",
+        "july": "กรกฎาคม",
+        "august": "สิงหาคม",
+        "september": "กันยายน",
+        "october": "ตุลาคม",
+        "november": "พฤศจิกายน",
+        "december": "ธันวาคม"
+      },
+      "error": "โปรดเลือกเดือน"
+    },
+    "timezone": {
+      "helperText": "โซนเวลา",
+      "error": "โปรดเลือกโซนเวลา"
+    }
+  },
+  "fieldHeader": "ความถี่"
+}

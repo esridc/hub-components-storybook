@@ -1,0 +1,81 @@
+{
+  "tabTitle": "Configuració dels canals de continguts",
+  "learn": "Obteniu informació sobre els canals de continguts del Hub",
+  "loadingLabel": "S'està carregant",
+  "enableFeedsToggle": {
+    "label": "Habilita els canals de continguts",
+    "privateNotice": "Per habilitar els canals de continguts, primer heu de configurar el vostre lloc del Hub com a \"Públic\".",
+    "emptyPublicCatalog": {
+      "message": "Per habilitar els canals de continguts, primer heu d'afegir contingut públic al catàleg.",
+      "button": "Mostra el catàleg"
+    },
+    "grouplessCatalog": {
+      "message": "Per habilitar els canals de continguts, primer heu de configurar el catàleg.",
+      "button": "Configura el catàleg"
+    }
+  },
+  "gettingStartedNotice": {
+    "title": "Introducció",
+    "exampleMessage": "Ressalteu i actualitzeu una clau o un valor a l'editor de JSON mitjançant un valor literal (\"VALUE\") o de plantilla (\"{{TEMPLATE_VALUE}}\").",
+    "previewMessage": "Feu servir el botó de commutació \"visualització prèvia\" per obtenir una visualització prèvia dels canvis. Per obtenir més informació, consulteu la <catalogFederationLink>documentació d'ajuda sobre la federació de catàlegs</catalogFederationLink>."
+  },
+  "aboutFeedsNotice": {
+    "message": "Faciliteu l'accés i la reutilització de les vostres dades públiques obertes amb els canals de continguts del Hub.",
+    "link": "Obteniu informació sobre els canals de continguts del Hub"
+  },
+  "feedsEditorSection": {
+    "title": "Canals de continguts",
+    "formatSelectLabel": "Seleccioneu un tipus de canal de continguts",
+    "uneditableAttributesIntro": "Tingueu en compte que no es poden editar els atributs següents:",
+    "edit": "Edita",
+    "preview": "Visualització prèvia",
+    "selectContentNotice": "Seleccioneu el contingut del qual voleu obtenir una visualització prèvia.",
+    "invalidJsonEditorWarning": "El JSON no és vàlid. Corregiu els errors abans de desar.",
+    "invalidJsonPreviewWarning": "No es pot obtenir una visualització prèvia d'un JSON no vàlid; corregiu els errors.",
+    "errorPreviewingWarning": "S'ha produït un error. Comproveu la connexió i torneu-ho a provar. Si el problema no se soluciona, registreu un error amb l'assistència tècnica del Hub."
+  },
+  "toolsSection": {
+    "title": "Eines",
+    "verification": "Verificació",
+    "previewSampleData": {
+      "label": "Visualització prèvia de les dades de mostra",
+      "pickerFacets": {
+        "type": "Tipus",
+        "tags": "Etiqueta",
+        "categories": "Categoria",
+        "sharing": "Ús compartit",
+        "dateUpdated": "Data d'actualització"
+      }
+    },
+    "copyableInputLabel": "URL d'accés al canal de continguts"
+  },
+  "dcat-us": {
+    "1.1": {
+      "title": "DCAT-US 1.1",
+      "description": "El DCAT permet que les organitzacions estandarditzin les contribucions de dades i ajuda els usuaris a analitzar fonts federals. Podeu fer servir l'<dcatUsSchemaLink>esquema de DCAT</dcatUsSchemaLink> establert pel Project Open Data, que és la configuració per defecte, o podeu configurar alguns camps o atributs. Els administradors dels llocs també poden afegir configuracions de DCAT addicionals i per això els recomanem que llegeixin la documentació sobre la <catalogFederationLink>federació de dades amb DCAT i altres catàlegs externs</catalogFederationLink>.",
+      "uneditableAttributes": "@type, landingPage, webService i contactPoint['@type'].",
+      "verificationLabel": "Per comprovar la vostra font DCAT, podeu enganxar l'URL de DCAT del vostre lloc al <dcatUsVerificationLink>validador del Project Open Data</dcatUsVerificationLink>."
+    }
+  },
+  "dcat-ap": {
+    "2.1.1": {
+      "title": "DCAT-AP 2.1.1",
+      "description": "El DCAT-AP, establert per la Comissió Europea, és el format d'intercanvi de metadades estàndard als catàlegs de dades d'Europa. L'ArcGIS Hub crea i actualitza automàticament el canal de continguts de DCAT-AP del vostre lloc quan editeu els detalls de les metadades del vostre contingut o quan afegiu contingut públic nou al vostre catàleg. Com que el canal de continguts fa servir metadades mantingudes a l'ArcGIS Online, no cal crear manualment unes altres metadades de DCAT-AP.<lineBreak></lineBreak><lineBreak></lineBreak>Amb aquest editor, podeu mantenir la configuració per defecte de l'ArcGIS Hub de l'<dcatApSchemaLink>esquema de DCAT-AP</dcatApSchemaLink> o bé configurar alguns camps o atributs. També podeu afegir camps o atributs de DCAT-AP. Per obtenir més informació, consulteu la documentació de l'ArcGIS Hub sobre com podeu <catalogFederationLink>federar dades amb DCAT i altres catàlegs externs</catalogFederationLink>.",
+      "uneditableAttributes": "@type, @id, dcat:contactPoint['@id'], dcat:contactPoint['@type'], dct:publisher, dcat:theme, dct:accessRights, dcat:keyword, dct:provenance, dct:issued i dct:language",
+      "verificationLabel": "Per comprovar la vostra font DCAT, podeu enganxar l'URL de DCAT del vostre lloc al <dcatApVerificationLink>banc de proves d'interoperabilitat de la Comissió Europea</dcatApVerificationLink>."
+    }
+  },
+  "rss": {
+    "2.0": {
+      "title": "RSS 2.0",
+      "description": "<rssAboutLink>RSS 2</rssAboutLink> és un format de redifusió de contingut web i s'ajusta a l'<xmlSpecLink>especificació XML 1.0</xmlSpecLink>. Amb aquest editor, podeu mantenir la configuració per defecte de l'ArcGIS Hub o podeu configurar alguns camps o atributs. Per obtenir més informació, consulteu la documentació de l'ArcGIS Hub sobre com podeu <catalogFederationLink>federar dades amb DCAT i altres catàlegs externs</catalogFederationLink>.",
+      "verificationLabel": "Per comprovar la vostra font RSS, podeu passar l'URL de l'RSS del vostre lloc pel <rssVerificationLink>validador de canals de continguts</rssVerificationLink> del W3."
+    }
+  },
+  "saveButton": "Desa",
+  "alertMessages": {
+    "success": "Els canvis s'han desat correctament",
+    "error": "S'ha produït un error en desar els canvis"
+  },
+  "formAlert": "Alerta del formulari"
+}

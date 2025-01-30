@@ -1,0 +1,41 @@
+{
+  "notice": {
+    "outdatedItem": {
+      "title": "Pakeiskite savo iniciatyvą",
+      "message": "Šioje kortelėje nurodomas pasenęs elementas. Pasirinkite kitą elementą, kurį naudotojai galės sekti."
+    },
+    "missingFollowersGroup": {
+      "title": "Trūksta sekėjų grupės",
+      "message": "Šiam elementui trūksta stebėtojų grupės. Pasirinkite kitą elementą."
+    },
+    "noGroupAccess": {
+      "title": "Priminimas",
+      "message": "Neturite prieigos prie stebėtojų grupės."
+    }
+  },
+  "selectContent": {
+    "title": "Stebėtinas turinys",
+    "facets": {
+      "sharing": "Bendrinimas",
+      "catalog": {
+        "myContent": "Mano turinys",
+        "organization": "Mano organizacija"
+      }
+    }
+  },
+  "callToAction": {
+    "title": "Raginimas imtis veiksmų",
+    "helperText": "Raginimas imtis veiksmų rodomas virš stebėjimo mygtuko.",
+    "alignment": "Lygiuotė"
+  },
+  "followButton": {
+    "title": "Sekimo mygtukas",
+    "helperText": "Šis mygtukas leis nariams stebėti jūsų turinį arba jo nebestebėti. Tekstą galima nustatyti abiem mygtukų būsenoms.",
+    "buttonText": "Sutikimo mygtuko tekstas",
+    "unfollowButtonText": "Atsisakymo mygtuko tekstas",
+    "alignment": "Lygiuotė",
+    "buttonStyle": "Mygtuko stilius",
+    "solid": "Vientisas fonas",
+    "outline": "Kontūras"
+  }
+}

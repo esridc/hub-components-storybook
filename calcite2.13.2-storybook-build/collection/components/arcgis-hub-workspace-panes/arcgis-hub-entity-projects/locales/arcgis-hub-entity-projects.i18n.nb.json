@@ -1,0 +1,178 @@
+{
+  "projectsTitle": "Prosjekter",
+  "description": "Tilknytt samarbeidende prosjekter for å spore fremdriften over fokusert tid eller rom. Initiativets samarbeidsgruppe kan administrere bekreftede tilknytninger og utestående tilknytningsforespørsler.",
+  "subDescription": "Prosjekter med bekreftede tilknytningre vises på dette initiativets visning.",
+  "project": "prosjekt",
+  "initiative": "initiativ",
+  "helpStates": {
+    "noAccess": {
+      "heading": "Ingen tilgang",
+      "message": "Du har ikke tilgang til å vise forbindelsesgruppen."
+    },
+    "missingGroup": {
+      "heading": "Manglende forbindelsesgruppe",
+      "message": {
+        "overview": "Tilknytningsgruppen har oppsyn med hvilke prosjekter som skal kobles og rapporteres til initiativet.",
+        "members": "Medlemmer i denne gruppen kan sende eller godkjenne tilknytningsforespørsler."
+      },
+      "action": "Opprett gruppe",
+      "formLabel": "Ny forbindelsesgruppe",
+      "description": "Opprett en forbindelsesgruppe for å administrere forbindelser"
+    },
+    "requestsWaiting": {
+      "heading": "Manglende forbindelsesgruppe",
+      "message": {
+        "overview": "Tilknytningsgruppen har oppsyn med hvilke prosjekter som skal kobles og rapporteres til initiativet.",
+        "members": "Medlemmer i denne gruppen kan sende eller godkjenne tilknytningsforespørsler.",
+        "requests": "Prosjektforespørsler som venter: {count}"
+      },
+      "action": "Opprett gruppe",
+      "formLabel": "Ny forbindelsesgruppe",
+      "description": "Opprett en forbindelsesgruppe for å administrere forbindelser"
+    }
+  },
+  "shared": {
+    "project": "prosjekt",
+    "associationGroup": "forbindelsesgruppe",
+    "error": {
+      "title": "Noe gikk galt",
+      "message": "Du mangler kanskje tilstrekkelig tilgang til å sende eller administrere en tilknytning til denne {type}."
+    },
+    "facets": {
+      "access": {
+        "label": "Deling"
+      },
+      "status": {
+        "label": "Status",
+        "notStarted": "Ikke startet",
+        "inProgress": "Pågår",
+        "onHold": "På vent",
+        "complete": "Fullført"
+      },
+      "tags": {
+        "label": "Merker"
+      }
+    },
+    "tabs": {
+      "projects": "Prosjekter",
+      "members": "Medlemmer",
+      "settings": "Innstillinger"
+    },
+    "disabledActionTooltip": "Bare gruppeledere kan administrere tilknytningen til denne {type}."
+  },
+  "createAssociationGroup": {
+    "defaultSummary": "Administrer elementene som er tilknyttet med {name} {type} ved å bruke en forbindelsesgruppe."
+  },
+  "members": {
+    "facets": {
+      "role": {
+        "label": "Rolle",
+        "all": "Alle",
+        "manager": "Administrator",
+        "member": "Medlem"
+      },
+      "dateJoined": {
+        "label": "Dato for innmelding"
+      }
+    },
+    "addMembers": {
+      "button": "Legg til medlemmer",
+      "modal": {
+        "title": "Legg til medlemmer",
+        "org": "Min organisasjon",
+        "community": "Mitt fellesskap",
+        "partner": "Mine partnere",
+        "world": "Verden"
+      },
+      "notifications": {
+        "invited": "Invitasjon sendt. Brukere må godta for å bli med",
+        "added": "Bruker(e) lagt til",
+        "notInvited": "Enkelte brukere har kanskje ikke nødvendige rettigheter for å bli med i gruppen eller maksimumsgrensen kan være nådd (512)"
+      }
+    },
+    "removeUsers": {
+      "button": "Fjern",
+      "success": "Medlemmene ble fjernet fra {groupName}.",
+      "error": "Én eller flere brukere kan ikke fjernes fra gruppen."
+    },
+    "changeRole": {
+      "button": "Endre rolle",
+      "member": "Medlem",
+      "memberHelperText": "Kan legge til og vise innhold innenfor gruppen.",
+      "tooltipText": "Opphev valget av deg selv og/eller gruppeeieren",
+      "tooltipLabel": "Ansvarsfraskrivelse for rolle",
+      "admin": "Administrator",
+      "adminHelperText": "Kan legge til / fjerne innhold og invitere/fjerne personer (unntatt eieren).",
+      "success": "Valgte medlemmer ble {role} for gruppe.",
+      "error": "Rollen kunne ikke endres for ett eller flere medlemmer."
+    },
+    "stats": {
+      "total": {
+        "title": "Totalt",
+        "trailingText": "Medlemmer"
+      },
+      "new": {
+        "title": "Ny",
+        "trailingText": "Siste 30 dager"
+      }
+    }
+  },
+  "projects": {
+    "requestAssociation": {
+      "findProjects": "Finn prosjekter",
+      "sendRequest": "Send forespørsel",
+      "success": {
+        "title": "Vellykket",
+        "message": "Forbindelsesforespørsler sendt: {count}"
+      },
+      "alreadyRequesting": {
+        "title": "Kontroller forbindelser",
+        "message": "Noen utvalg har allerede bedt om forbindelse. Nye forbindelsesforespørsler sendt: {count}"
+      },
+      "catalog": {
+        "myContent": "Mitt innhold",
+        "favorites": "Favoritter",
+        "organization": "Organisasjon",
+        "world": "Verden (offentlig)"
+      },
+      "collection": {
+        "projects": "Prosjekter"
+      }
+    },
+    "acceptAssociation": {
+      "label": "Godta",
+      "success": {
+        "title": "Vellykket",
+        "message": "Forbindelse godtatt med {requestor}"
+      }
+    },
+    "cancelRequest": {
+      "label": "Avbryt forespørsel",
+      "success": {
+        "title": "Vellykket",
+        "message": "Forespørsel om forbindelse avbrutt"
+      }
+    },
+    "breakAssociation": {
+      "label": "Koble fra",
+      "success": {
+        "title": "Forbindelse brutt",
+        "message": "Vi har koblet dette elementet fra dets tidligere forbindelse. Vi kan imidlertid ikke reversere beslutningen fra den andre siden, så det kan hende at du fortsatt ser den i innkommende forespørslser."
+      }
+    },
+    "associationsGallery": {
+      "sources": "Tilstand",
+      "catalog": {
+        "associated": "Forbundet",
+        "requesting": "Innkommende forespørsler",
+        "pending": "Utgående forespørslser"
+      },
+      "collection": {
+        "projects": "Prosjekter"
+      }
+    }
+  },
+  "notice": {
+    "label": "Skjemavarsel"
+  }
+}

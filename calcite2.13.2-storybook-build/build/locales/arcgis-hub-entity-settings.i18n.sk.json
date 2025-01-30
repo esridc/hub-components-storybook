@@ -1,0 +1,53 @@
+{
+  "settings": "Nastavenia",
+  "formDisabledTooltip": "Na vykonávanie zmien v {type} nemáte prístup.",
+  "delete": {
+    "project": "Odstrániť tento projekt",
+    "initiative": "Odstrániť túto iniciatívu",
+    "site": "Odstrániť lokalitu",
+    "discussion": "Odstrániť túto diskusiu",
+    "content": "Odstrániť tento obsah",
+    "page": "Odstrániť túto stránku",
+    "group": "Odstrániť túto skupinu",
+    "initiativeTemplate": "Odstrániť túto šablónu iniciatívy",
+    "template": "Odstrániť túto šablónu",
+    "survey": "Odstrániť tento prieskum",
+    "desc": {
+      "project": "Odstránenie tohto projektu nie je možné vrátiť späť.",
+      "initiative": "Odstránenie tejto iniciatívy nie je možné vrátiť späť.",
+      "site": "Odstránenie tejto lokality nie je možné vrátiť späť.",
+      "discussion": "Odstránenie tejto diskusie nie je možné vrátiť späť.",
+      "content": "Odstránenie tohto obsahu nie je možné vrátiť späť.",
+      "page": "Odstránenie tejto stránky nie je možné vrátiť späť.",
+      "group": "Odstránenie tejto skupiny nie je možné vrátiť späť.",
+      "initiativeTemplate": "Odstránenie tejto šablóny iniciatívy nie je možné vrátiť späť.",
+      "template": "Odstránenie tejto šablóny nie je možné vrátiť späť.",
+      "survey": "Odstránenie tohto prieskumu nie je možné vrátiť späť."
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "project": "Vymazať projekt",
+      "initiative": "Vymazať iniciatívu",
+      "site": "Vymazať lokalitu",
+      "discussion": "Vymazať diskusiu",
+      "content": "Vymazať obsah",
+      "page": "Odstrániť stránku",
+      "group": "Odstrániť skupinu",
+      "initiativeTemplate": "Odstrániť šablónu iniciatívy",
+      "template": "Odstrániť šablónu",
+      "survey": "Vymazať prieskum"
+    },
+    "content": "Ste si istý, že chcete vymazať:",
+    "delete": "Zmazať",
+    "cancel": "Zrušiť"
+  },
+  "sidePanel": {
+    "content": {
+      "extractNotice": {
+        "title": "Možnosť \"Extrahovať\" mení nastavenia služby.",
+        "message": "Ovplyvnené budú aj ďalšie položky, ktoré odkazujú na túto službu. Pre viac podrobností si pozrite <docLink>Export dát z hostovaných prvkových vrstiev</docLink>"
+      }
+    }
+  }
+}

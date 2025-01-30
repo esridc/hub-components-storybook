@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "Collection d’entités",
+    "fgdb": "Géodatabase fichier",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Shapefile",
+    "sqlite": "Géodatabase SQLite"
+  },
+  "buttonText": {
+    "download": "Télécharger",
+    "pending": "En attente",
+    "processing": "Traitement",
+    "converting": "Conversion",
+    "completed": "Téléchargement terminé",
+    "failed": "Échec du téléchargement"
+  },
+  "errors": {
+    "errorHeading": "Erreur"
+  },
+  "cacheStatusAccordion": {
+    "heading": "Avez-vous trouvé ce que vous cherchiez ?",
+    "content": "Une version plus récente est peut-être disponible.",
+    "button": "Demander le nouveau fichier"
+  },
+  "generateNewModal": {
+    "heading": "Êtes-vous sûr ?",
+    "content": "Cette opération peut prendre un certain temps. Gardez cet onglet du navigateur actif jusqu’à la fin du téléchargement.",
+    "confirmButton": "Oui",
+    "cancelButton": "Annuler"
+  }
+}

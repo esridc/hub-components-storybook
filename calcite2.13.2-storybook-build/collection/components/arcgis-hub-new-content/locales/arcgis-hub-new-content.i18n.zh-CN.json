@@ -1,0 +1,57 @@
+{
+  "new": "新建",
+  "project": {
+    "label": "工程",
+    "description": "突出具有明确目标和时间表的工作",
+    "createLabel": "创建工程",
+    "newLabel": "新建工程"
+  },
+  "initiative": {
+    "label": "倡议",
+    "description": "倡议用于组织和汇总实现目标的进展",
+    "createLabel": "创建倡议",
+    "newLabel": "新建倡议"
+  },
+  "discussion": {
+    "label": "讨论板",
+    "description": "通过输入指示主题的标题来创建一个新的讨论板。",
+    "createLabel": "创建讨论板",
+    "newLabel": "新建讨论板"
+  },
+  "site": {
+    "label": "站点",
+    "description": "创建网页以组织和共享信息",
+    "createLabel": "创建站点",
+    "newLabel": "新建站点"
+  },
+  "event": {
+    "label": "活动",
+    "description": "举办现场或虚拟形式的组织活动",
+    "createLabel": "创建活动",
+    "newLabel": "新建活动"
+  },
+  "content": {
+    "label": "内容",
+    "description": "将数据、文档、图像和外部链接添加到站点",
+    "createLabel": "创建内容",
+    "newLabel": "新建内容"
+  },
+  "feedback": {
+    "label": "反馈",
+    "description": "使用诸如调查和民意调查等工具采集重点信息",
+    "createLabel": "创建反馈",
+    "newLabel": "新建反馈"
+  },
+  "app": {
+    "label": "应用程序",
+    "description": "构建体验、讲述故事或可视化数据",
+    "createLabel": "创建应用程序",
+    "newLabel": "新建应用程序"
+  },
+  "group": {
+    "label": "群组",
+    "description": "建立群组以针对重点内容进行协作",
+    "createLabel": "创建群组",
+    "newLabel": "新建群组"
+  }
+}

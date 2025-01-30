@@ -1,0 +1,12 @@
+{
+  "members": {
+    "noMember": "Cap membre",
+    "oneMember": "1 membre",
+    "members": "{count} membres"
+  },
+  "managers": {
+    "noMember": "Cap administrador",
+    "oneMember": "1 administrador",
+    "members": "{count} administradors"
+  }
+}

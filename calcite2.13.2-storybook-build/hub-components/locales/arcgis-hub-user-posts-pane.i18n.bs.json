@@ -1,0 +1,43 @@
+{
+  "header": "Rasprave",
+  "myContent": "Moji događaji",
+  "editableContent": "Sadržaj koji se može uređivati",
+  "addContentButtonText": "Stvori događaj",
+  "type": "Vrsta",
+  "sharedUpdate": "Grupa za dijeljeno ažuriranje",
+  "viewOnly": "Prikaži samo grupu",
+  "owner": "Vlasnik",
+  "updated": "Ažurirano",
+  "tags": "Oznake",
+  "dateCreated": "Stvoreno",
+  "dateUpdated": "Izmijenjeno",
+  "actionLinks": {
+    "view": "Prikaži",
+    "edit": "Uredi",
+    "ariaEdit": "Uredi: {title}",
+    "ariaView": "Prikaz: {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Događaji",
+      "myContent": "Događaji u mom vlasništvu",
+      "editableContent": "Događaji koje mogu urediti",
+      "all": "Svi događaji"
+    },
+    "access": {
+      "label": "Šalje"
+    },
+    "type": {
+      "label": "Vrste"
+    },
+    "tags": {
+      "label": "Oznake"
+    },
+    "categories": {
+      "label": "Kategorije"
+    },
+    "modified": {
+      "label": "Izmijenjeno"
+    }
+  }
+}

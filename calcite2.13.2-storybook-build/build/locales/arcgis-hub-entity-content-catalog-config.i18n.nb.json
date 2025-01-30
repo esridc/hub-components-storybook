@@ -1,0 +1,46 @@
+{
+  "title": "Katalogkonfigurasjon",
+  "helperText": "Definer og konfigurer katalogen",
+  "sections": {
+    "groups": {
+      "title": "Grupper",
+      "helperText": "Gruppene nedenfor inneholder innholdet i søkekatalogen din. Velg en gruppe for å se innstillinger, innhold med mer.",
+      "createGroup": "Opprett ny gruppe"
+    },
+    "feeds": {
+      "title": "Feedkonfigurasjon",
+      "helperText": "Bruk Hub-feeder for enkel tilgang til og gjenbruk av dine offentlige åpne data.",
+      "learn": "Lær om Hub-feeder",
+      "toggle": "Aktiver feeder ",
+      "configure": "Konfigurer feeder",
+      "notice": "For å aktivere feeder må du først velge \"Offentlig\" for Hub-områdene dine i innstillingene"
+    }
+  },
+  "groupPickerFacet": {
+    "label": "Fra",
+    "editGroups": "Rediger grupper",
+    "viewGroups": "Vis gruppe",
+    "myGroups": "Mine grupper",
+    "myOrganization": "Min organisasjon",
+    "myCommunity": "Mitt fellesskap",
+    "public": "Offentlig"
+  },
+  "formAlert": "Skjemavarsel",
+  "configSaveAlert": {
+    "success": "Redigeringene ble lagret",
+    "failure": "Feil under lagring av redigeringer"
+  },
+  "reharvestCatalogButton": "Se etter feil",
+  "reharvestWarningModal": {
+    "title": "Se etter feil",
+    "body1": "Advarsel: Dette alternativet brukes vanligvis bare i situasjoner der søkesiden støter på problemer med manglende resultater eller metadata. Dette alternativet kontrollerer alle elementer i alle katalogens grupper for å sjekk om noe er lagt til eller fjernet og om metadata er endret.",
+    "body2": "Denne prosessen bygger den offentlige søkeindeksen for denne katalogen på nytt og kan ta flere minutter. Dette øker belastningen på eventuelle ArcGIS Server-forekomster.",
+    "primaryButton": "Fortsett",
+    "secondaryButton": "Avbryt"
+  },
+  "reharvestCatalogAlert": {
+    "success": "Ser etter feil. Prøv på nytt senere.",
+    "inProgress": "Kontroll er allerede i gang. Kom tilbake senere.",
+    "failure": "Det oppsto en driftsfeil. Prøv på nytt senere."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "groups": "내 그룹",
+  "addContentButtonText": "새로 생성",
+  "role": "역할",
+  "owner": "소유자",
+  "updated": "업데이트됨",
+  "type": "유형",
+  "sharedUpdate": "공유 업데이트 그룹",
+  "viewOnly": "그룹만 보기",
+  "actionLinks": {
+    "view": "보기",
+    "edit": "편집",
+    "ariaEdit": "{title} 편집",
+    "ariaView": "{title} 보기"
+  },
+  "facets": {
+    "access": {
+      "label": "볼 수 있는 사람",
+      "options": {
+        "public": "모든 사람(공개)",
+        "org": "기관",
+        "private": "본인"
+      }
+    },
+    "type": {
+      "label": "유형",
+      "options": {
+        "sharedUpdate": "공유 업데이트",
+        "opendata": "오픈데이터"
+      }
+    }
+  }
+}

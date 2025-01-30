@@ -1,0 +1,24 @@
+{
+  "shared": {
+    "targetEntities": {
+      "item": "Mục",
+      "event": "Sự kiện"
+    }
+  },
+  "targetEntityBlock": {
+    "configured": "Đã cấu hình",
+    "notConfigured": "Chưa được cấu hình"
+  },
+  "targetEntityFlow": {
+    "back": "Đóng cấu hình: {targetEntity}",
+    "description": "Cấu hình: {targetEntity}",
+    "source": {
+      "heading": "Nguồn",
+      "description": "Nguồn xác định phạm vi của nội dung. Sửa đổi kết quả theo thông số bao gồm hoặc loại trừ.<br/><br/>*biểu thị trường bắt buộc"
+    },
+    "collections": {
+      "heading": "Bộ sưu tập",
+      "description": "Sắp xếp nội dung vào các tập hợp con riêng biệt để duyệt tìm và khám phá dễ dàng hơn.<br/><br/>*biểu thị trường bắt buộc"
+    }
+  }
+}

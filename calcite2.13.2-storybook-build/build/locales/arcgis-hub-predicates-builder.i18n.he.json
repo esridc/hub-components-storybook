@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "ערוך קבוצות",
+        "viewGroups": "הצג קבוצות"
+      },
+      "facet": {
+        "label": "מ-",
+        "myGroups": "הקבוצות שלי",
+        "myOrganization": "הארגון שלי",
+        "myCommunity": "הקהילה שלי"
+      }
+    }
+  },
+  "property": {
+    "label": "פרמטר",
+    "requiredError": "פרמטר נדרש"
+  },
+  "operator": {
+    "label": "קריטריונים",
+    "requiredError": "קריטריונים נדרשים"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "סוג"
+    },
+    "group": {
+      "default": "קבוצות"
+    },
+    "occurrence": {
+      "default": "התרחשות"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "כל אחד מ-",
+      "group": "משותף עם כל אחד מ-"
+    },
+    "isAll": {
+      "default": "כולל את כל ה-",
+      "group": "משותף עם כל ה-"
+    },
+    "isExactly": {
+      "default": "הוא בדיוק",
+      "occurrence": "הוא"
+    },
+    "isNot": {
+      "default": "אינו",
+      "type": "אינו אף אחד מ-",
+      "group": "משותף עם אף אחד מ-"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "קבוצות",
+      "requiredError": "קבוצות נדרשות"
+    },
+    "type": {
+      "label": "סוגים",
+      "requiredError": "סוגים נדרשים",
+      "app": {
+        "label": "יישומים"
+      },
+      "content": {
+        "label": "תוכן"
+      },
+      "dataset": {
+        "label": "סטים של נתונים"
+      },
+      "discussion": {
+        "label": "דיונים"
+      },
+      "document": {
+        "label": "מסמכים"
+      },
+      "event": {
+        "label": "אירועים"
+      },
+      "feedback": {
+        "label": "משוב"
+      },
+      "initiative": {
+        "label": "יוזמות"
+      },
+      "map": {
+        "label": "מפות"
+      },
+      "project": {
+        "label": "פרויקטים"
+      },
+      "site": {
+        "label": "Sites"
+      },
+      "template": {
+        "label": "תבניות"
+      }
+    },
+    "occurrence": {
+      "label": "התרחשות",
+      "requiredError": "התרחשות נדרשת",
+      "upcoming": "צפוי בקרוב",
+      "past": "עבר",
+      "inProgress": "בתהליך"
+    }
+  }
+}

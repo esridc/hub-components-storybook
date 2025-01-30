@@ -1,0 +1,74 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    /* this is annoying and there is probably a better way to fix it
+    but we can't have overflow: hidden or the button outlines are cut off
+    and for some reason width 100% doesn't quite work so...  */
+    width: calc(100% - 2px);
+}
+
+.sc-arcgis-hub-add-content-workflow-scroll-container {
+  /* TODO: we might have to be smarter about this */
+  height: 65vh;
+  overflow-y: auto;
+  padding-inline: 4px;
+}
+
+arcgis-hub-entity-editor {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+arcgis-configuration-editor-field calcite-label > span:first-child {
+  font-weight: bold;
+}
+
+arcgis-hub-help-state,
+arcgis-hub-add-content-results {
+  min-height: 60vh;
+}
+
+arcgis-hub-help-state.create-help-state {
+  min-height: unset;
+}
+
+arcgis-hub-help-state.danger {
+  --calcite-ui-icon-color: var(--calcite-color-status-danger);
+}
+
+arcgis-hub-help-state.warning {
+  --calcite-ui-icon-color: var(--calcite-color-status-warning);
+}
+
+.sc-arcgis-hub-add-content-workflow.browse-templates-button {
+    display: flex;
+    justify-self: center;
+}
+
+.sc-arcgis-hub-add-content-workflow-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    border-width: 0px;
+    border-top-width: 1px;
+    border-style: solid;
+    border-color: var(--calcite-color-border-1);
+  padding-block-start: var(--calcite-panel-content-space);
+}
+
+.sc-arcgis-hub-add-content-workflow-footer-start, .sc-arcgis-hub-add-content-workflow-footer-end {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.sc-arcgis-hub-add-content-workflow-selection-count {
+    display: flex;
+    align-items: center;
+    border-radius: 0.25rem;
+    padding: 0.75rem;
+  background-color: var(--calcite-color-foreground-1);
+  --calcite-label-margin-bottom: 0;
+  border: solid 1px var(--calcite-color-text-1);
+}

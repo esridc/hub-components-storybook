@@ -1,0 +1,165 @@
+{
+  "advancedConfig": {
+    "label": "Haladó konfiguráció",
+    "serverTimeout": {
+      "label": "Kiszolgáló időtúllépése (másodperc)",
+      "helperText": "Olyan nagyobb szolgáltatások esetén hasznos, amelyeknek több időbe telhet a válaszadás.",
+      "errors": {
+        "type": "Kérjük, adja meg a szerver időkorlátjának konfigurációját.",
+        "minimum": "A szerver időkorlátértékének legalább 5-nek kell lennie.",
+        "maximum": "A szerver időkorlátértéke legfeljebb 95 lehet."
+      }
+    }
+  },
+  "appearance": {
+    "corners": {
+      "label": "Sarkok",
+      "enum": {
+        "round": {
+          "label": "Kerek"
+        },
+        "square": {
+          "label": "Négyzet"
+        }
+      }
+    },
+    "dropShadow": {
+      "label": "Árnyékhatás",
+      "enum": {
+        "heavy": {
+          "label": "Nehéz"
+        },
+        "low": {
+          "label": "Alacsony"
+        },
+        "medium": {
+          "label": "Közepes"
+        },
+        "none": {
+          "label": "Nem kezdődött el"
+        }
+      }
+    },
+    "layout": {
+      "label": "Kártyastílus",
+      "enum": {
+        "informational": {
+          "label": "Tájékoztató"
+        },
+        "simple": {
+          "label": "Egyszerű"
+        }
+      }
+    },
+    "popoverText": {
+      "label": "Modális tartalom"
+    },
+    "publisherText": {
+      "label": "Forrás közzétevő"
+    },
+    "styleSpecificSettings": {
+      "label": "Stílus beállítások",
+      "helperInfoText": "Az információs gomb kiválasztásával megnyílik egy mód, amely további információkat tartalmaz.",
+      "helperVizText": "Az egyszerű kártya támogatja egy ikon hozzáadását vizuális elemként, amely felhasználható az adatok változásainak megjelenítésére."
+    },
+    "sectionTitle": "Megjelenés",
+    "textAlign": "Igazítás",
+    "visualInterest": {
+      "label": "Vizuális elem",
+      "enum": {
+        "icon": {
+          "label": "Ikon"
+        },
+        "none": {
+          "label": "Egyik sem"
+        }
+      }
+    },
+    "icon": {
+      "label": "Ikon",
+      "caretUp": {
+        "label": "Növelés"
+      },
+      "caretDown": {
+        "label": "Csökkentés"
+      },
+      "caretDouble": {
+        "label": "Nincs módosítás"
+      }
+    },
+    "valueColor": "Szín (statikus)"
+  },
+  "details": {
+    "allowDynamicLink": "Forráshivatkozás megjelenítése",
+    "link": {
+      "sectionTitle": "Hivatkozás",
+      "sourceLink": "Hivatkozás URL-címe",
+      "sourceTitle": "Hivatkozás szövege"
+    },
+    "sectionTitle": "Részletek",
+    "subtitle": "Alcím",
+    "title": "Beosztás",
+    "trailingText": {
+      "label": "Befejező szöveg",
+      "helperText": "Adjon meg bármilyen további kontextust vagy magyarázatot (a mérőszámérték alatt való megjelenéshez)."
+    }
+  },
+  "errors": {
+    "sourceLink": {
+      "required": "A forrás megjelenítéséhez szükséges link.",
+      "formatError": "Az URL formátuma helytelen"
+    }
+  },
+  "formatting": {
+    "sectionTitle": "Formázás",
+    "unit": {
+      "label": "Megjelenítési mértékegységek",
+      "helperText": "Írja be az értékhez tartozó mértékegységet."
+    },
+    "unitPosition": {
+      "label": "Elhelyezés",
+      "helperText": "Válassza ki, hogy a mértékegység (pl. „km”, „lbs”) hol jelenjen meg a mérőszámértékhez képest.",
+      "enum": {
+        "after": {
+          "label": "Után"
+        },
+        "before": {
+          "label": "Előtt"
+        },
+        "below": {
+          "label": "Alatta"
+        }
+      }
+    }
+  },
+  "sharing": {
+    "sectionTitle": "Megosztás",
+    "showShareIcon": "Megosztás engedélyezése",
+    "showShareIconHelperText": "Lehetővé teszi a felhasználók számára, hogy egy közvetlen hivatkozást másoljanak erre a kártyára ezen az oldalon.",
+    "shareableByValue": "Beágyazások engedélyezése",
+    "shareableOnHover": {
+      "label": "Megjelenítés rámutatáskor",
+      "helperText": {
+        "label": "A Megosztás gomb csak akkor jelenik meg, ha az egérrel rámutat. Ha ki van kapcsolva, a gomb mindig látható."
+      }
+    }
+  },
+  "statistic": {
+    "dataSource": "Adatforrás",
+    "displayValue": "Megjelenített érték",
+    "sectionTitle": "Érték",
+    "type": {
+      "label": "Típus",
+      "enum": {
+        "dynamic": {
+          "label": "Dinamikus",
+          "description": "Válassza ki az összefoglalni kívánt meglévő adathalmazt (vektoros szolgáltatást)."
+        },
+        "static": {
+          "label": "Statikus",
+          "description": "Adja meg manuálisan az elrendezésben kiemelni kívánt értéket."
+        }
+      }
+    }
+  }
+}

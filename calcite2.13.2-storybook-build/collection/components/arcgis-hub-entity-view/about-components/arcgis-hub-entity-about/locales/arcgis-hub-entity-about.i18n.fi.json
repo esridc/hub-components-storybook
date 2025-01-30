@@ -1,0 +1,18 @@
+{
+  "about": "Tietoja",
+  "metrics": "Mittatiedot",
+  "featuredContent": "Esittelyssä oleva sisältö",
+  "details": "Yksityiskohdat",
+  "exploreMetrics": "Tutki mittatietoja",
+  "status": {
+    "label": {
+      "default": "Tila",
+      "project": "Projektin tila",
+      "initiative": "Aloitteen tila"
+    },
+    "notStarted": "Ei aloitettu",
+    "inProgress": "Meneillään",
+    "onHold": "Pidossa",
+    "complete": "Valmis"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "addContent": "Add content",
+  "addContentType": {
+    "event": "Create event",
+    "discussion": "Create discussion",
+    "group": "Create group",
+    "initiative": "Create initiative",
+    "project": "Create project",
+    "page": "Create page",
+    "site:": "Create site"
+  },
+  "tooltip": {
+    "label": "Disabled",
+    "noCatalog": "Add groups to catalog to add content.",
+    "noPermission": "You do not have permission to add content to the catalog.",
+    "no-permission": "You do not have permission to add content to the catalog.",
+    "not-in-groups": "You are not a member of any groups that define the catalog.",
+    "too-many-groups": "You have the maximum number of groups and can not create more."
+  },
+  "existing": {
+    "description": "Add content that is already in {onlineOrEnterprise}",
+    "modalTitle": "Select existing content",
+    "title": "Select existing content"
+  },
+  "create": {
+    "app": {
+      "description": "Create an experience, tell a story, or visualize your data",
+      "modalTitle": "Create app",
+      "title": "App"
+    },
+    "event": {
+      "description": "Host organized activities, in-person or virtually",
+      "modalTitle": "Create event",
+      "title": "Event"
+    },
+    "content": {
+      "description": "Add data, documents, images, and external links to your site",
+      "modalTitle": "Create content",
+      "title": "Content"
+    },
+    "discussion": {
+      "description": "Gather ideas and feedback",
+      "modalTitle": "Create discussion board",
+      "title": "Discussion Board"
+    },
+    "group": {
+      "description": "Organize people for content sharing and discussions",
+      "modalTitle": "Create group",
+      "title": "Group"
+    },
+    "initiative": {
+      "description": "Highlight strategic efforts with defined goals that organize projects",
+      "modalTitle": "Create initiative",
+      "title": "Initiative"
+    },
+    "page": {
+      "description": "Present information in a structured layout",
+      "modalTitle": "Create page",
+      "title": "Page"
+    },
+    "project": {
+      "description": "Showcase work with clear objectives and timeframes",
+      "modalTitle": "Create project",
+      "title": "Project"
+    },
+    "site": {
+      "description": "Create a branded website to engage with your community",
+      "modalTitle": "Create site",
+      "title": "Site"
+    }
+  }
+}

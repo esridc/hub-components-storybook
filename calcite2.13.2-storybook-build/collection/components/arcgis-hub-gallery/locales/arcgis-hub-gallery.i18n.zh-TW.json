@@ -1,0 +1,91 @@
+{
+  "moreResults": "更多結果",
+  "search": "搜尋",
+  "filter": "篩選器",
+  "viewResults": "檢視結果 ({numResults})",
+  "resultsCount": "1 - {pageTotal}/{searchTotal}",
+  "backToTop": "返回頂部",
+  "facets": {
+    "access": {
+      "label": "正在分享",
+      "private": "我自己",
+      "shared": "擁有者和群組",
+      "org": "組織",
+      "public": "公共"
+    },
+    "license": {
+      "label": "授權",
+      "tooltip": "僅在公開內容",
+      "custom": "自訂",
+      "none": "無"
+    },
+    "type": {
+      "label": "類型"
+    },
+    "tags": {
+      "label": "標記"
+    },
+    "dateUpdated": {
+      "label": "更新日期"
+    },
+    "source": {
+      "label": "來源",
+      "tooltip": "來自不同組織的公開內容"
+    },
+    "categories": {
+      "label": "類別"
+    },
+    "location": {
+      "label": "位置",
+      "tooltip": "將地圖範圍套用為位置篩選器"
+    },
+    "event": {
+      "from": {
+        "label": "擁有權",
+        "myContent": "我",
+        "myOrganization": "我的組織",
+        "world": "任何人"
+      },
+      "access": {
+        "label": "存取",
+        "private": "私有",
+        "org": "組織",
+        "public": "公共"
+      },
+      "startDate": {
+        "label": "事件日期"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "類型",
+        "all": "全部",
+        "view": "檢視",
+        "edit": "編輯"
+      },
+      "role": {
+        "label": "角色",
+        "all": "全部",
+        "member": "成員",
+        "manager": "管理員",
+        "owner": "擁有者"
+      },
+      "sharing": {
+        "label": "可見性",
+        "private": "私有",
+        "public": "公共"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "顯示清單",
+    "grid": "顯示網格",
+    "map": "顯示地圖",
+    "compact": "顯示精簡",
+    "calendar": "顯示行事曆",
+    "table": "顯示表格"
+  },
+  "galleryActionsLabel": "其他動作",
+  "selected": "已選擇: {count}",
+  "popoverActionButtonLabel": "更多動作"
+}

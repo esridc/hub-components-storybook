@@ -1,0 +1,75 @@
+{
+  "addMetric": "지표 추가",
+  "title": "지표",
+  "featured": "추천",
+  "metricDescription": "정적(예시: 히스토리 기반) 또는 동적(예시: 실시간) 데이터를 기반으로 프로젝트 진행 상황을 추적하는 데 사용되는 측정 값입니다.",
+  "metricCount": {
+    "label": "{currentCount}/{totalCountAllowed}개 지표",
+    "tooltip": "지표를 추가하려면 기존 세트 중 일부를 삭제하세요."
+  },
+  "visible": {
+    "title": "표시",
+    "noMetrics": "이 섹션에는 지표가 없습니다."
+  },
+  "hidden": {
+    "title": "숨김",
+    "description": "이러한 지표는 이 작업 영역에 대한 접근 권한이 있는 사용자에게만 표시됩니다.",
+    "noMetrics": "이 섹션에는 지표가 없습니다."
+  },
+  "project": {
+    "featured": {
+      "description": "4개의 추천 지표를 포함할 수 있습니다. 이는 실시간 프로젝트의 오버뷰에 표시됩니다."
+    },
+    "visible": {
+      "description": "표시되는 지표는 실시간 프로젝트의 지표 탭 아래에 표시됩니다."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "지표가 프로젝트의 공유 레벨과 일치합니다. 숨겨진 지표는 API 호출을 통해 계속 사용할 수 있습니다.",
+        "metricsDockLink": "지표 설정 알아보기"
+      }
+    }
+  },
+  "initiative": {
+    "featured": {
+      "description": "4개의 추천 지표를 포함할 수 있습니다. 이는 실시간 이니셔티브의 오버뷰에 표시됩니다."
+    },
+    "visible": {
+      "description": "표시되는 지표는 실시간 프로젝트의 지표 탭 아래에 표시됩니다."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "지표가 이니셔티브의 공유 수준과 일치합니다. 숨겨진 지표는 API 호출을 통해 계속 사용할 수 있습니다.",
+        "metricsDockLink": "지표 설정 알아보기"
+      }
+    }
+  },
+  "metricNumber": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4"
+  },
+  "actions": {
+    "delete": "삭제",
+    "edit": "편집",
+    "featured": "특징",
+    "removeFeatured": "추천 항목 제거",
+    "show": "표시되는 항목으로 이동",
+    "hide": "숨겨진 항목으로 이동"
+  },
+  "editor": {
+    "heading": "새 지표",
+    "description": "기본 설정에 따라 지표는 작업 영역의 구성원이 볼 수 있도록 자동으로 숨겨집니다."
+  },
+  "deleteMetricModal": {
+    "heading": "지표 삭제",
+    "content": "삭제하시겠습니까?",
+    "cancel": "취소",
+    "delete": "삭제"
+  },
+  "sidePanel": {
+    "definitions": "정의",
+    "preview": "미리 보기"
+  }
+}

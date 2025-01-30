@@ -1,0 +1,29 @@
+:host {
+  display: block;
+  border-radius: 0.25rem;
+  padding: 1.25rem;
+  --tw-shadow: 0 1px 6px -1px rgba(0, 0, 0, 0.16), 0 1px 2px -1px rgba(0, 0, 0, 0.08);
+  --tw-shadow-colored: 0 1px 6px -1px var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  background: white;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 1.5rem;
+  font-size: var(--calcite-font-size-1);
+  line-height: 1.5rem;
+  font-weight: var(--calcite-font-weight-medium);
+  color: var(--calcite-color-text-1);
+}
+
+
+.container {
+  margin-bottom: 1rem;
+  display:flex;
+  outline: 1px solid #ccc;
+  padding: 8px;
+  justify-content: space-between;
+  align-items: baseline;
+}
+

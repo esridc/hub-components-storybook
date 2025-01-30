@@ -1,0 +1,150 @@
+{
+  "modal": {
+    "dismiss": "Do not show this again",
+    "close": "Close"
+  },
+  "notice": {
+    "n001": {
+      "title": "Test Notice",
+      "message": "This is the body of the test notice",
+      "actions": [
+        {
+          "text": "Read the blog"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-1": {
+      "title": "Switch to the updated download experience",
+      "message": "For additional formats and speed and performance improvements, enable \"extract\" on this item's service."
+    },
+    "20240220-hosted-downloads-2": {
+      "title": "Download enhancements are here!",
+      "message": "Enhancements to downloads on your Hub sites include support for hosted downloads, an updated look & feel for download cards, and a new progress bar for downloads.",
+      "actions": [
+        {
+          "text": "Learn more"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-3": {
+      "title": "Hosted downloads are here!",
+      "message": "Hosted downloads help improve performance when downloading content. To enable hosted downloads, be sure to allow Extract Capabilities below.",
+      "actions": [
+        {
+          "text": "Learn more"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-basic": {
+      "title": "About workspaces",
+      "message": "<p><strong>Add content to Site catalogs using groups</strong><br>Site search catalogs have always been powered by groups, and workspaces make it easier to manage those groups. For now, add content to individual groups connected to your site to have them appear in the site catalog. Soon, you will be able to add content to your catalog directly.</p><p><strong>Transitioning from Teams to Groups</strong><br>You can now use any ArcGIS Online Group to collaborate on sites, pages, content, and projects in Hub. All previously linked \"Teams\", such as the site's \"Core Team\", will still appear in the Collaborators pane of Site workspace.</p><p><strong>Team-based email messaging temporarily paused</strong><br>Sending email messages and invitation/removal emails to team members and followers is not currently supported.</p><p><strong>Deprecation of embedded Survey123 website designer</strong><br>We embedded the Survey123 designer to help you get more done in Hub. However, customer feedback indicated a preference for survey design and management in Survey123, just like other applications. Thus, we are deprecating support for the embedded Survey123 designer in ArcGIS Hub to better align with your desired workflow.</p>",
+      "actions": [
+        {
+          "text": "Learn more"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-premium": {
+      "title": "About workspaces",
+      "message": "<p><strong>Add content to Site catalogs using groups</strong><br>Site search catalogs have always been powered by groups, and workspaces make it easier to manage those groups. For now, add content to individual groups connected to your site to have them appear in the site catalog. Soon, you will be able to add content to your catalog directly.</p><p><strong>Transitioning from Supporting Teams to Groups</strong><br>You can now use any ArcGIS Online Group to collaborate on sites, pages, content, and projects in Hub. All previously linked Supporting Teams will still appear in the Collaborators pane of Site workspace. For continued support, add those Supporting teams as Groups that can View and Groups that can Edit.</p><p><strong>Team-based email messaging temporarily paused</strong><br>Sending email messages and invitation/removal emails to team members and followers is not currently supported.</p><p><strong>Deprecation of embedded Survey123 website designer</strong><br>We embedded the Survey123 designer to help you get more done in Hub. However, customer feedback indicated a preference for survey design and management in Survey123, just like other applications. Thus, we are deprecating support for the embedded Survey123 designer in ArcGIS Hub to better align with your desired workflow.</p><p><strong>Events not yet available in workspaces</strong><br>Events are going through a transformation and should be available soon within workspaces. For now, if you opt-in to workspaces, you will lose the ability to create new events, manage and search existing events. However, if you would like to manage previously created events, you can opt-out at any time.</p>",
+      "actions": [
+        {
+          "text": "Learn more"
+        }
+      ]
+    },
+    "202404-workspaceannouncement": {
+      "title": "Introducing workspaces",
+      "message": "Workspaces are the new way to edit and manage items in Hub, replacing the global navigation in edit view (not live view). In this phase, you can \"opt in\" (at any time) to use workspaces and associated features for items and groups. Events will be available in a later phase. To try out workspaces now, select \"Go to settings.\"",
+      "actions": [
+        {
+          "text": "Go to settings"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing": {
+      "title": "Re-Introducing — Hub Initiatives",
+      "message": "ArcGIS Hub Initiatives changed on July 2, 2024. Previously created initiatives are now standalone sites — with the same layouts, content, URLs, and premium features (like followers and events) as before. To try out new refreshed initiatives, you must enable workspaces.",
+      "actions": [
+        {
+          "text": "Learn about initiatives",
+          "ariaLabel": "Learn about initiatives, Opens in new tab"
+        },
+        {
+          "text": "Go to settings"
+        }
+      ]
+    },
+    "20240517-initiatives-manage": {
+      "title": "Manage old initiatives",
+      "message": "ArcGIS Hub Initiatives changed on July 2, 2024. Previously created initiatives are now standalone sites — with the same layouts, content, URLs, and premium features (like followers and events) as before. You may safely delete any old initiatives(s).",
+      "actions": [
+        {
+          "text": "Learn about initiatives",
+          "ariaLabel": "Learn about initiatives, Opens in new tab"
+        },
+        {
+          "text": "View old initiatives",
+          "ariaLabel": "View old initiatives, Opens in new tab"
+        }
+      ]
+    },
+    "20240517-initiatives-manage-no-priv": {
+      "title": "Manage old initiatives",
+      "message": "ArcGIS Hub Initiatives changed on July 2, 2024. Previously created initiatives are now standalone sites — with the same layouts, content, URLs, and premium features (like followers and events) as before. You may safely delete any old initiatives(s).",
+      "actions": [
+        {
+          "text": "Learn about initiatives",
+          "ariaLabel": "Learn about initiatives, Opens in new tab"
+        },
+        {
+          "text": "View old initiatives",
+          "ariaLabel": "View old initiatives, Opens in new tab"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing-site": {
+      "title": "Re-Introducing — Hub Initiatives",
+      "message": "The new generation of Hub Initiatives is now available in workspaces. Initiatives have their own, easy to set-up view and can help align Hub Projects that share long-term goals. Initiatives can be created independently, and they can be shared with one or more sites. Sites can feature one or more initiatives.",
+      "actions": [
+        {
+          "text": "Learn more",
+          "ariaLabel": "Learn more, Opens in new tab"
+        }
+      ]
+    },
+    "20240710-slow-service-warning": {
+      "title": "Service interruption",
+      "message": "Communication with the service is taking longer than expected. This may affect your access to downloads and map functionality."
+    },
+    "20240710-unreachable-service-error": {
+      "title": "Service unavailable",
+      "message": "We are unable to contact the host service. Downloads and map functionality are currently unavailable for this item."
+    },
+    "20240807-auth-required-status": {
+      "title": "Service status unknown",
+      "message": "We are unable to access the secure service as it requires additional authorization. Downloads and map functionality are currently unavailable for the item."
+    },
+    "20240805-private-downloads-unavailable-ago-error": {
+      "title": "Downloads are unavailable",
+      "message": "To download content, the Export Data setting must be enabled on ArcGIS Online. Please contact the item owner to enable this setting."
+    },
+    "20240805-private-downloads-unavailable-enterprise-error": {
+      "title": "Downloads are unavailable",
+      "message": "To download content, the Export Data setting must be enabled on ArcGIS Enterprise. Please contact the item owner to enable this setting."
+    },
+    "20240819-download-formats-disabled": {
+      "title": "Downloads have been disabled",
+      "message": "To download content for this item, please contact the item owner."
+    },
+    "20241104-about-feeds-notice": {
+      "message": "Make your public open data easily accessible and reusable with Hub feeds.",
+      "actions": [
+        {
+          "text": "Learn about Hub feeds",
+          "ariaLabel": "Learn about Hub feeds, Opens in new tab"
+        }
+      ]
+    }
+  }
+}

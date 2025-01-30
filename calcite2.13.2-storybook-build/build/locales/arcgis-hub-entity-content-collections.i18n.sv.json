@@ -1,0 +1,33 @@
+{
+  "title": "Samlingar",
+  "actions": {
+    "label": "Alternativ",
+    "show": "Visa",
+    "hide": "Dölj",
+    "rename": "Byt namn"
+  },
+  "formAlert": "Formulärvarning",
+  "alertMessages": {
+    "success": "Ändringarna har sparats",
+    "error": "Fel när ändringarna sparades"
+  },
+  "collectionRenameModal": {
+    "title": "Byt namn på samling",
+    "fieldLabel": "Etikett för samling",
+    "requiredMessage": "Etikett för samling krävs",
+    "apply": "Verkställ",
+    "maxLengthMessage": "Etikett för samling får inte vara längre än 50 tecken"
+  },
+  "collections": {
+    "dataset": "Data",
+    "site": "Webbplatser",
+    "document": "Dokument",
+    "appAndMap": "Appar och kartor"
+  },
+  "saveButton": "Spara",
+  "sections": {
+    "collectionConfiguration": {
+      "title": "Samlingskonfiguration"
+    }
+  }
+}

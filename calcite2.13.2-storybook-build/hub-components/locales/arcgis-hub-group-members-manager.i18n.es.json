@@ -1,0 +1,59 @@
+{
+  "title": "Miembros",
+  "facets": {
+    "role": {
+      "label": "Rol",
+      "all": "Todo",
+      "manager": "Administrador",
+      "member": "Miembro"
+    },
+    "dateJoined": {
+      "label": "Fecha de unión"
+    }
+  },
+  "stats": {
+    "total": {
+      "title": "Total",
+      "trailingText": "Miembros del grupo"
+    },
+    "new": {
+      "title": "Nuevo",
+      "trailingText": "Últimos 30 días"
+    }
+  },
+  "addMembers": {
+    "button": "Agregar miembros",
+    "disabledTooltip": "No tiene acceso para agregar usuarios a este grupo.",
+    "modal": {
+      "title": "Agregar miembros",
+      "org": "Mi organización",
+      "community": "Mi comunidad",
+      "partner": "Mis socios",
+      "world": "Mundo"
+    },
+    "notifications": {
+      "invited": "Invitación enviada. Los usuarios deben aceptar unirse",
+      "added": "Usuario(s) agregado(s)",
+      "notInvited": "Algunos usuarios pueden carecer de los privilegios necesarios para unirse al grupo o pueden estar en un límite máximo de grupo (512)"
+    }
+  },
+  "removeUsers": {
+    "button": "Quitar",
+    "success": "Los miembros se han eliminado satisfactoriamente de {groupName}.",
+    "error": "No se ha podido eliminar a uno o a varios usuarios del grupo."
+  },
+  "changeRole": {
+    "tooltipText": "Anular selección de uno mismo y/o de propietario del grupo",
+    "tooltipLabel": "Descargo de responsabilidad de rol",
+    "button": "Cambiar rol",
+    "member": "Miembro",
+    "memberHelperText": "Puede agregar y ver contenido dentro del grupo.",
+    "admin": "Administrador",
+    "adminHelperText": "Puede agregar/quitar contenido e invitar/quitar personas (excepto el propietario).",
+    "success": "Los miembros seleccionados se convirtieron en el grupo {role}.",
+    "error": "No se ha podido cambiar el rol de uno o varios miembros."
+  },
+  "notice": {
+    "label": "Alerta de formulario"
+  }
+}

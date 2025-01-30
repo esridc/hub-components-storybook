@@ -1,0 +1,109 @@
+:host {
+
+    display: block
+}
+
+.consent-message-info {
+
+    font-size: var(--calcite-font-size--2);
+
+    line-height: 1rem
+}
+
+.provider-subtext {
+
+    padding: 0.625rem;
+
+    padding-top: 0px;
+
+    font-size: var(--calcite-font-size--2);
+
+    line-height: 1rem
+}
+
+.provider {
+
+    margin-top: 0.625rem;
+
+    margin-bottom: 0.625rem;
+
+    border-width: 2px;
+
+    border-style: solid;
+
+    border-color: var(--calcite-color-border-3);
+
+    padding: 0.625rem
+}
+
+.provider header {
+
+    margin-top: 0.625rem;
+
+    margin-bottom: 0.625rem;
+
+    font-weight: var(--calcite-font-weight-bold)
+}
+
+.provider-header {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between
+}
+
+.provider-header__right-container {
+
+    display: flex;
+
+    width: 33.333333%;
+
+    align-items: center;
+
+    justify-content: flex-end
+}
+
+.no-show {
+
+    display: none
+}
+
+.provider .internal-form {
+
+    margin-top: 0.625rem;
+
+    margin-right: 0.625rem;
+
+    margin-left: 0.625rem
+}
+
+.form-input calcite-input, .form-input calcite-input-message {
+
+    margin-left: 0.5rem
+}
+
+#tracking-server-ssl-input {
+
+    margin-bottom: 0.5rem
+}
+
+:host([ui="flat"]) .provider {
+
+    border-width: 0px;
+
+    padding: 0px
+}
+
+:host([ui="flat"]) .provider .internal-form {
+
+    margin-left: 0px;
+
+    margin-right: 0px
+}
+
+:host([ui="flat"]) .form-input calcite-input, :host([ui="flat"]) .form-input calcite-input-message {
+
+    margin-left: 0px
+}

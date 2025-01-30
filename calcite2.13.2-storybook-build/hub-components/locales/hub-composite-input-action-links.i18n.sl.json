@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "Dodaj prvo dejanje",
+  "addSecondAction": "Dodaj drugo dejanje",
+  "addLink": "Dodaj povezavo",
+  "addSection": "Dodaj razdelek",
+  "deleteNotice": {
+    "title": "Ni mogoče izbrisati",
+    "message": "Razdelek ni prazen. Pred poskusom brisanja premaknite vse povezave izven razdelka."
+  },
+  "linkEditor": {
+    "save": "Shrani",
+    "delete": "Izbriši",
+    "cancel": "Prekliči",
+    "preview": "Povezava do predogleda",
+    "title": {
+      "button1": "Prvo dejanje",
+      "button2": "Drugo dejanje",
+      "block": "Povezava do dejanja"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "Povezava do obstoječe vsebine"
+        },
+        "external": {
+          "label": "Povezava do zunanjega vira"
+        }
+      },
+      "label": {
+        "label": "Napis",
+        "helperText": {
+          "button": "Besedilo se bo pojavilo na gumbu.",
+          "block": "To se bo na bloku pojavilo v krepki pisavi."
+        },
+        "requiredError": "Napis je obvezno polje."
+      },
+      "description": {
+        "label": "Opis",
+        "helperText": "To je sekundarna informacija."
+      },
+      "href": {
+        "label": "Povezava",
+        "requiredError": "Povezava je obvezno polje.",
+        "formatError": "Oblikovanje URL-ja je nepravilno."
+      },
+      "contentId": {
+        "label": "Povezava do vsebine",
+        "requiredError": "Povezava do vsebine je obvezno polje."
+      },
+      "section": {
+        "label": "Premakni na razdelek",
+        "placeholder": {
+          "noSections": "Noben razdelek ni bil konfiguriran",
+          "notSet": "Ni v razdelku"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "Razdelek",
+    "helperText": "Razdelke je mogoče uporabiti za vstavljanje povezav pod elementom menija. Razdelki ne delujejo kot povezava.",
+    "section": {
+      "label": {
+        "label": "Napis",
+        "requiredError": "Napis je obvezno polje."
+      },
+      "description": {
+        "label": "Opis"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "heading": "Paylaşım Seviyesi",
+  "public": "Genel",
+  "publicInfo": "Herkes bu {itemType}'i görebilir",
+  "organization": "Kuruluş",
+  "organizationInfo": "{orgName} hesabına sahip tüm üyeler ve gruplar bu {itemType}'i görebilir",
+  "owner": "Sahip",
+  "ownerInfo": "Erişimi olan sahipler ve gruplar bu {itemType}'i görebilir",
+  "discussion": {
+    "publicInfo": "Bu tartışma panosunu herkes görebilir",
+    "organization": "Kuruluşum",
+    "organizationInfo": "{orgName} hesabı olan tüm üyeler bu tartışma panosunu görüntüleyebilir",
+    "owner": "Özel",
+    "ownerInfo": "Sahibi ve seçili gruplar bu tartışma panosunu görüntüleyebilir"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "about": "Apie",
+  "metrics": "Metrika",
+  "featuredContent": "Rekomenduojamas turinys",
+  "details": "Išsamiau",
+  "exploreMetrics": "Naršyti metrikas",
+  "status": {
+    "label": {
+      "default": "Būsena",
+      "project": "Projekto būsena",
+      "initiative": "Iniciatyvos būsena"
+    },
+    "notStarted": "Nepradėta",
+    "inProgress": "Vykdoma",
+    "onHold": "Sulaikyta",
+    "complete": "Baigta"
+  }
+}

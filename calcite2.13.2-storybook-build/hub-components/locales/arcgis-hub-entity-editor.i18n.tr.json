@@ -1,0 +1,1346 @@
+{
+  "success": "Düzenlemeler başarıyla kaydedildi",
+  "error": "Düzenlemeler kaydedilirken hata oluştu",
+  "formAlert": "Biçim uyarısı",
+  "create": "Oluştur",
+  "shared": {
+    "notices": {
+      "metrics": {
+        "preview": {
+          "label": "Metriğinizi önizleyin",
+          "message": "Burada yapılan değişiklikler metrik önizlemesinde gösterilecektir."
+        }
+      }
+    },
+    "sections": {
+      "metrics": {
+        "basic": {
+          "label": "Temel Bilgiler"
+        },
+        "source": {
+          "label": "Değer"
+        },
+        "formatting": {
+          "label": "Biçimlendiriliyor"
+        },
+        "sharing": {
+          "label": "Paylaşım"
+        }
+      },
+      "mapSettings": {
+        "label": "Harita ayarları"
+      }
+    },
+    "errors": {
+      "urlFormat": "URL biçimlendirmesi yanlış"
+    },
+    "fields": {
+      "name": {
+        "maxLengthError": "Ad, 250 karakteri aşmamalıdır"
+      },
+      "title": {
+        "maxLengthError": "Başlık, 250 karakteri aşmamalıdır"
+      },
+      "summary": {
+        "maxLengthError": "Özet, 2048 karakteri aşmamalıdır"
+      },
+      "purpose": {
+        "maxLengthError": "Amaç, 2048 karakteri aşmamalıdır"
+      },
+      "_thumbnail": {
+        "label": "Küçük resim",
+        "sizeDescription": "Maksimum boyut 10mb'dir. Tavsiye edilen boyutlar: 760 x 505 veya daha büyük",
+        "defaultThumbnailNotice": "Varsayılanla değiştirmek için kendi küçük resminizi yükleyin."
+      },
+      "location": {
+        "none": "Konum yok",
+        "org": "Kuruluşun yayılımı",
+        "custom": "Özel konum",
+        "customDescription": "Bir veya daha fazla konum çiz",
+        "itemExtent": "Ögenin Mevcut Yayılımı"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Tür",
+          "sharing": "Paylaşım"
+        },
+        "catalog": {
+          "myContent": "İçeriğim",
+          "favorites": "Sık Kullanılanlar",
+          "organization": "Kuruluş",
+          "world": "Dünya (Genel)"
+        },
+        "collection": {
+          "appsAndMaps": "Uygulamalar ve Haritalar",
+          "dataset": "Veri",
+          "documents": "Belgeler",
+          "feedback": "Geri bildirim",
+          "sites": "Siteler",
+          "projects": "Projeler"
+        }
+      },
+      "metrics": {
+        "allowDynamicLink": {
+          "label": "Kaynak bağlantısını görüntüle"
+        },
+        "cardTitle": {
+          "label": "Başlık",
+          "message": {
+            "required": "Bu alan gereklidir."
+          }
+        },
+        "dynamicMetric": {
+          "label": "Veri kaynağı"
+        },
+        "value": {
+          "label": "Değer",
+          "message": {
+            "required": "Bu alan gereklidir."
+          }
+        },
+        "unit": {
+          "label": "Birimler",
+          "helperText": "%, +, $ veya bir başka önek veya sonek değeri ayarlamak için kullanın. Hiçbir şey göstermemek için boş bırakın."
+        },
+        "unitPosition": {
+          "label": "Birim konumu",
+          "helperText": "Ölçüm biriminin (örn., 'km', 'lbs') metrik değere göre nerede görüntüleneceğini seçin.",
+          "enum": {
+            "after": {
+              "label": "Değerden sonra"
+            },
+            "before": {
+              "label": "Değerden önce"
+            },
+            "below": {
+              "label": "Değerin altında"
+            }
+          }
+        },
+        "showShareIcon": {
+          "label": "Paylaşımı etkinleştir",
+          "helperText": {
+            "label": "Kullanıcıların bu metriğe bir doğrudan bağlantı kopyalamasına izin verin."
+          }
+        },
+        "shareableOnHover": {
+          "label": "Üzerine gelindiğinde göster",
+          "helperText": {
+            "label": "Paylaş düğmesi yalnızca üzerine gelindiğinde gösterilir. Kapatılırsa, düğme her zaman görünür kalır."
+          }
+        },
+        "sourceLink": {
+          "label": "Bağlantı URL'si",
+          "message": {
+            "required": "Kaynağı görüntülemek için gerekli bağlantı."
+          }
+        },
+        "sourceTitle": {
+          "label": "Bağlantı metni"
+        },
+        "trailingText": {
+          "label": "Sondaki Metin",
+          "helperText": "Her türlü ek bağlamı veya açıklamayı girin (metrik değer altında görüntülenecek)."
+        },
+        "type": {
+          "label": "Tür",
+          "enum": {
+            "dynamic": {
+              "label": "Dinamik",
+              "description": "Özetlemek için mevcut bir veri kümesi (detay servisi) seçin."
+            },
+            "static": {
+              "label": "Statik",
+              "description": "Çıktı düzeninizde vurgulanacak değeri manuel olarak girin."
+            }
+          }
+        },
+        "valueType": {
+          "label": "Değer türü",
+          "helperText": "Görüntülemek istediğiniz değer türünü seçin.",
+          "enum": {
+            "string": {
+              "label": "Metin",
+              "description": "Herhangi bir sözcük veya ifade. Sayısal hesaplamalar için kullanılması amaçlanmamıştır. (örn. \"Ana Cadde\")"
+            },
+            "number": {
+              "label": "Sayı",
+              "description": "Sayısal bir değer. Hesaplamalar için kullanılabilir. (örn. 123)"
+            },
+            "date": {
+              "label": "Tarih",
+              "description": "Bir takvim tarihi değeri. Sayısal hesaplamalar için kullanılması amaçlanmamıştır. (örn. \"1/1/2018\")"
+            }
+          }
+        }
+      },
+      "categories": {
+        "label": "Kategoriler",
+        "noCategoriesNotice": {
+          "body": "Bu kuruluşun henüz herhangi bir kategorisi yok.",
+          "link": "Kategorileri ayarla"
+        }
+      },
+      "download": {
+        "format": {
+          "bip": "BIP",
+          "bmp": "BMP",
+          "bsq": "BSQ",
+          "gif": "GIF",
+          "jpg": "JPG",
+          "jpgPng": "JPG_PNG",
+          "lerc": "LERC",
+          "png": "PNG",
+          "png8": "PNG8",
+          "png24": "PNG24",
+          "png32": "PNG32",
+          "tiff": "TIFF",
+          "csv": "CSV",
+          "excel": "Excel",
+          "featureCollection": "Detay Toplama",
+          "filegdb": "Dosya Tabanlı Coğrafi Veri Tabanı",
+          "geojson": "GeoJSON",
+          "geoPackage": "GeoPackage",
+          "json": "JSON",
+          "kml": "KML",
+          "shapefile": "Shapefile",
+          "sqlite": "SQLite Coğrafi Veri Tabanı"
+        },
+        "additionalResource": "{resourceName} (meta veri dağıtımı)",
+        "dataSourceResource": "Veri kaynağı (meta veri dağıtımı)",
+        "noTitleResource": "Bağlantı (başlıksız, meta veri dağıtımı)"
+      }
+    }
+  },
+  "project": {
+    "sections": {
+      "details": {
+        "label": "Ayrıntılar"
+      },
+      "basicInfo": {
+        "label": "Temel Bilgiler"
+      },
+      "location": {
+        "label": "Konum",
+        "helperText": "Bu projenin yer alacağı coğrafi alanı gösterin (proje düzeninde görünmesi için)."
+      },
+      "status": {
+        "label": "Durum"
+      },
+      "sharing": {
+        "label": "Paylaşım"
+      },
+      "timeline": {
+        "label": "Zaman çizgisi"
+      },
+      "searchDiscoverability": {
+        "label": "Arama ve keşfedilebilirlik"
+      },
+      "featuredContent": {
+        "label": "Öne çıkan içerik",
+        "helperText": "Projenizle ilgili belirli belgeleri, uygulamaları ve verileri vurgulayın. En fazla 4 ögeyi öne çıkarabilirsiniz."
+      },
+      "callToAction": {
+        "label": "İşlem bağlantıları",
+        "helperText": "Bu, projenizin üst kısmında öne çıkan bir buton olarak görüntülenecektir. Hedef kitlenizi bir site, anket, haritaya vs. yönlendirmek için bunu kullanın."
+      },
+      "embeds": {
+        "label": "Öne çıkan yerleştirme",
+        "helperText": "Projenizde vurgulamak için bir web haritası, web sahnesi veya uygulama seçin."
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Proje adı",
+        "requiredError": "Proje adı zorunlu bir alandır",
+        "maxLengthError": "Proje adı, 250 karakteri aşmamalıdır",
+        "entityTitleValidatorError": "Proje adı, emojiler, <, > veya = karakterlerini içeremez"
+      },
+      "description": {
+        "label": "Açıklama",
+        "helperText": "Projenizin hedeflerine nasıl ulaşacağını belirtin. İlgili arka plan bilgilerini ve projenin sonucu olarak beklenen değişiklikleri dahil etmeyi düşünün."
+      },
+      "summary": {
+        "label": "Amaç",
+        "helperText": "Projenizin hedeflerini kısaca özetleyin."
+      },
+      "access": {
+        "itemType": "Proje"
+      },
+      "groups": {
+        "label": "Şununla paylaş...",
+        "viewGroup": "(Grubu görüntüle)",
+        "editGroup": "(Grubu düzenle)"
+      },
+      "_thumbnail": {
+        "helperText": "Bu projeyi ArcGIS Online ve ayrıca arama ve galerilerde temsil etmek için bir küçük resim belirleyin."
+      },
+      "featuredImage": {
+        "label": "Öne çıkan görüntü",
+        "helperText": "Çalışmanızı proje çıktı düzeninde temsil edecek bir görüntü seçin.",
+        "sizeDescription": "Maksimum dosya boyutu 10mb'dir. Tavsiye edilen boyutlar: 718 x 478 veya daha büyük",
+        "altText": {
+          "label": "Alternatif metin",
+          "helperText": "Ekran okuyucu kullananlar için görüntünüze kısa bir açıklama sağlayın. Görüntünün dekoratif olduğunu belirtmek için boş bırakın."
+        }
+      },
+      "slug": {
+        "label": "Jeton",
+        "helperText": "Jeton, proje adının URL dostu versiyonudur. Otomatik olarak proje adına dayanarak oluşturulur, ancak bunu özelleştirebilirsiniz.",
+        "patternError": "Hata: Jeton, tirelerle ayrılmış küçük harfli alfabetik-sayısal karakterler olmalıdır.",
+        "isUniqueError": "Bu jeton zaten kullanımda. Lütfen başka bir tane seçin."
+      },
+      "tags": {
+        "label": "Etiketler",
+        "helperText": "Etiketler arama kataloglarında, başkalarının bu projeyi bulmasına yardımcı olmak için kullanılır. Metin ekleyin ve enter tuşuna basarak yeni etiketler oluşturun."
+      },
+      "categories": {
+        "helperText": "Kategoriler arama kataloglarında, başkalarının bu projeyi bulmasına yardımcı olmak için kullanılır. Bunlar, kuruluşunuz tarafından ayarlanır."
+      },
+      "status": {
+        "label": "Proje durumu",
+        "enum": {
+          "notStarted": {
+            "label": "Başlatılmadı"
+          },
+          "inProgress": {
+            "label": "Devam ediyor"
+          },
+          "onHold": {
+            "label": "Beklemede"
+          },
+          "complete": {
+            "label": "Tamamla"
+          }
+        }
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Tür",
+          "sharing": "Paylaşım"
+        }
+      },
+      "callToAction": {
+        "facets": {
+          "type": "Tür",
+          "sharing": "Paylaşım"
+        }
+      },
+      "mapSettings": {
+        "label": "Haritanın projede nasıl görüntüleneceğini yapılandırın"
+      }
+    }
+  },
+  "initiative": {
+    "sections": {
+      "details": {
+        "label": "Ayrıntılar"
+      },
+      "basicInfo": {
+        "label": "Temel Bilgiler"
+      },
+      "location": {
+        "label": "Konum",
+        "helperText": "Bu inisiyatifin yer alacağı coğrafi alanı gösterin (inisiyatifin çıktı düzeninde görünmesi için)."
+      },
+      "sharing": {
+        "label": "Paylaşım"
+      },
+      "featuredContent": {
+        "label": "Öne çıkan içerik",
+        "helperText": "Projenizle ilgili belirli belgeleri, uygulamaları ve verileri vurgulayın. En fazla 4 öğeyi öne çıkarabilirsiniz."
+      },
+      "status": {
+        "label": "Durum"
+      },
+      "hero": {
+        "label": "Hero"
+      },
+      "searchDiscoverability": {
+        "label": "Arama ve keşfedilebilirlik"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "İnisiyatif adı",
+        "requiredError": "İnisiyatif adı zorunlu bir alandır.",
+        "maxLengthError": "Girişim adı, 250 karakteri aşmamalıdır",
+        "entityTitleValidatorError": "İnisiyatif adı, emojiler, <, > veya = karakterlerini içeremez"
+      },
+      "summary": {
+        "label": "Amaç",
+        "helperText": "İnisiyatifinizin hedeflerini kısaca özetleyin."
+      },
+      "access": {
+        "itemType": "İnisiyatif"
+      },
+      "description": {
+        "label": "Açıklama",
+        "helperText": "İnisiyatifinizin hedeflerine nasıl ulaşacağını belirtin. İlgili arka plan bilgilerini ve inisiyatifin sonucu olarak beklenen değişiklikleri dahil etmeyi düşünün."
+      },
+      "slug": {
+        "label": "Jeton",
+        "helperText": "Jeton, inisiyatif adının URL dostu versiyonudur. Otomatik olarak inisiyatif adına dayanarak oluşturulur, ancak bunu özelleştirebilirsiniz.",
+        "patternError": "Hata: Jeton, tirelerle ayrılmış küçük harfli alfabetik-sayısal karakterler olmalıdır.",
+        "isUniqueError": "Bu jeton zaten kullanımda. Lütfen başka bir tane seçin."
+      },
+      "tags": {
+        "label": "Etiketler",
+        "helperText": "Etiketler, arama kataloglarında başkalarının bu inisiyatifi bulmasına yardımcı olmak için kullanılır. Metin ekleyin ve enter tuşuna basarak yeni etiketler oluşturun."
+      },
+      "categories": {
+        "helperText": "Kategoriler, arama kataloglarında başkalarının bu inisiyatifi bulmasına yardımcı olmak için kullanılır. Bunlar, kuruluşunuz tarafından ayarlanır."
+      },
+      "_thumbnail": {
+        "helperText": "Bu girişimi ArcGIS Online ve ayrıca arama ve galerilerde temsil etmek için bir küçük resim belirleyin."
+      },
+      "groups": {
+        "label": "Şununla paylaş...",
+        "viewGroup": "(Grubu görüntüle)",
+        "editGroup": "(Grubu düzenle)"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Tür",
+          "sharing": "Paylaşım"
+        }
+      },
+      "status": {
+        "label": "İnisiyatif durumu",
+        "enum": {
+          "notStarted": {
+            "label": "Başlatılmadı"
+          },
+          "inProgress": {
+            "label": "Devam ediyor"
+          },
+          "onHold": {
+            "label": "Beklemede"
+          },
+          "complete": {
+            "label": "Tamamlandı"
+          }
+        }
+      },
+      "hero": {
+        "label": "Hero",
+        "helperText": "Hero, inisiyatifinizin başlığının üstünde görüntülenir ve bir harita veya görüntü içerebilir.",
+        "map": {
+          "label": "Harita",
+          "description": "Konumunu veya ilişkili projeleri kullanarak girişimin hedef alanını göstermek için bir harita kullanın."
+        },
+        "image": {
+          "label": "Görüntü",
+          "description": "Etkileyici bir görsel, insanların hedefinizle ilişki kurmasına veya hedefinize yönelik olarak harekete geçmesine yardımcı olabilir."
+        }
+      },
+      "featuredImage": {
+        "label": "Görüntü",
+        "helperText": "Hero için bir manzara görüntüsü kullanın. Uygulama, farklı ekran boyutlarına uyum sağlamak için görüntüyü orantılı olarak merkezi bir odak noktasından yeniden boyutlandıracaktır. Büyük ekranlarda maks. yükseklik 475px olacaktır.",
+        "sizeDescription": "Maksimum dosya boyutu 10 MB'dir.",
+        "altText": {
+          "label": "Alternatif metin",
+          "helperText": "Ekran okuyucu kullananlar için görüntünüze kısa bir açıklama sağlayın. Görüntünün dekoratif olduğunu belirtmek için boş bırakın."
+        }
+      },
+      "groupAccess": {
+        "label": "Görünürlüğü ayarla",
+        "helperText": "Bu inisiyatiften yapılan ilişkilendirmeleri kimlerin görebileceğini kontrol edin",
+        "private": {
+          "label": "Özel",
+          "description": "İnisiyatif sahibi ve erişimi olan gruplar grubu görebilir"
+        },
+        "org": {
+          "label": "Kuruluş",
+          "description": "İnisiyatif kuruluşunda hesabı olan tüm üyeler ve erişimi olan gruplar grubu görebilir"
+        },
+        "public": {
+          "label": "Genel",
+          "description": "Herkes grubu görebilir"
+        }
+      },
+      "membershipAccess": {
+        "label": "Kimler bu grupta olabilir?",
+        "org": "Sadece kuruluşumun üyeleri",
+        "collab": "Sadece ortak iş birliği ve kuruluşumun üyeleri",
+        "any": "Herhangi bir kuruluşun üyeleri (önerilen varsayılan)"
+      },
+      "includeInCatalog": {
+        "label": "Kataloga dahil et",
+        "helperText": "Etkinleştirilirse tüm ilişkili ögeler, inisiyatifin arama katalogundaki diğer içerikler yanında görüntülenecektir."
+      },
+      "mapSettings": {
+        "label": "Haritanın inisiyatifte nasıl görüntüleneceğini yapılandırın"
+      }
+    }
+  },
+  "discussion": {
+    "sections": {
+      "details": {
+        "label": "Ayrıntılar"
+      },
+      "basicInfo": {
+        "label": "Temel Bilgiler"
+      },
+      "location": {
+        "label": "Konum",
+        "helperText": "Daha odaklı bir tartışma için tartışma sınırını ve haritanın varsayılan yakınlaştırma düzeyini ayarlamak üzere bir coğrafi alan ekleyin."
+      },
+      "settings": {
+        "label": "Tartışmalar"
+      },
+      "searchDiscoverability": {
+        "label": "Arama ve keşfedilebilirlik"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Başlık",
+        "requiredError": "Tartışma panosu adı gereklidir.",
+        "entityTitleValidatorError": "Tartışma adı, emojiler, <, > veya = karakterlerini içeremez"
+      },
+      "prompt": {
+        "label": "İstem",
+        "helperText": "Katılımcıların bu tartışma panosuna ne göndermelerini istediğinizi kısaca açıklayın.",
+        "requiredError": "İstem gerekli bir alandır",
+        "maxLengthError": "İstem 150 karakteri aşmamalıdır"
+      },
+      "description": {
+        "label": "Açıklama",
+        "helperText": "Bu panoyu ararken yardımcı olabilecek daha fazla bağlam sağlayın."
+      },
+      "_thumbnail": {
+        "helperText": "Tartışmanızı temsil edecek bir görüntü seçin."
+      },
+      "summary": {
+        "label": "Özet",
+        "helperText": "Bağlantıyı başkalarıyla paylaşırken kullanışlı olan bu Tartışma Panosunun amacını kısaca açıklayın."
+      },
+      "featuredImage": {
+        "label": "Öne çıkan görüntü",
+        "sizeDescription": "Maksimum boyut: 10mb, JPEG, JPG veya PNG",
+        "altText": {
+          "label": "Alternatif metin",
+          "helperText": "Ekran okuyucu kullananlar için görüntünüze kısa bir açıklama sağlayın. Görüntünün dekoratif olduğunu belirtmek için boş bırakın."
+        },
+        "name": {
+          "label": "Görüntü adı"
+        }
+      },
+      "slug": {
+        "label": "Jeton",
+        "helperText": "Jeton, tartışma adının URL dostu versiyonudur. Otomatik olarak tartışma adına dayanarak oluşturulur, ancak bunu özelleştirebilirsiniz.",
+        "patternError": "Hata: Jeton, tirelerle ayrılmış küçük harfli alfabetik-sayısal karakterler olmalıdır.",
+        "isUniqueError": "Bu jeton zaten kullanımda. Lütfen başka bir tane seçin."
+      },
+      "tags": {
+        "label": "Etiketler"
+      },
+      "categories": {
+        "helperText": "Kategoriler arama kataloglarında, başkalarının bu tartışmayı bulmasına yardımcı olmak için kullanılır. Bunlar, kuruluşunuz tarafından ayarlanır."
+      },
+      "discussable": {
+        "label": "Tartışmaya izin veriliyor mu?",
+        "enabled": {
+          "label": "Evet, tartışmaya izin veriliyor",
+          "description": "Katılımcılar bu tartışma panosuna gönderiler, yanıtlar ve tepkiler ekleyebilir."
+        },
+        "disabled": {
+          "label": "Hayır, tartışma engellendi",
+          "description": "Yeni gönderiler, yanıtlar ve tepkiler ekleme becerisini kaldırır. Önceki katılımı silmez."
+        }
+      },
+      "mapSettings": {
+        "label": "Haritanın tartışma panosunda nasıl görüntüleneceğini yapılandırın"
+      }
+    }
+  },
+  "site": {
+    "sections": {
+      "defaultRequiredHelperText": "*gerekli alanı gösterir",
+      "basicInfo": {
+        "label": "Temel Bilgiler"
+      },
+      "location": {
+        "label": "Konum",
+        "helperText": "Bu sitenin ait olduğu coğrafi alanı gösterin."
+      },
+      "discussions": {
+        "label": "Tartışmalar"
+      },
+      "privacy": {
+        "label": "Gizlilik yapılandırması"
+      },
+      "siteUrl": {
+        "label": "Site URL'si"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Site adı",
+        "requiredError": "Site adı gerekli bir alandır",
+        "maxLengthError": "Site adı, 250 karakteri aşmamalıdır",
+        "siteEntityTitleValidatorError": "Site adı, emojiler veya unicode karakterlerini içeremez"
+      },
+      "_thumbnail": {
+        "helperText": "Bu siteyi ArcGIS Online ve ayrıca arama ve galerilerde temsil etmek için bir küçük resim belirleyin."
+      },
+      "description": {
+        "label": "Açıklama",
+        "helperText": "Sitenin açıklaması."
+      },
+      "summary": {
+        "label": "Özet",
+        "helperText": "Siteyi kısaca özetleyin."
+      },
+      "slug": {
+        "label": "Jeton",
+        "helperText": "Jeton, site adının URL dostu versiyonudur. Otomatik olarak site adına dayanarak oluşturulur, ancak bunu özelleştirebilirsiniz.",
+        "patternError": "Hata: Jeton, tirelerle ayrılmış küçük harfli alfabetik-sayısal karakterler olmalıdır.",
+        "isUniqueError": "Bu jeton zaten kullanımda. Lütfen başka bir tane seçin."
+      },
+      "tags": {
+        "label": "Etiketler",
+        "helperText": "Etiketler arama kataloglarında, başkalarının bu siteyi bulmasına yardımcı olmak için kullanılır. Metin ekleyin ve enter tuşuna basarak yeni etiketler oluşturun."
+      },
+      "categories": {
+        "helperText": "Kategoriler arama kataloglarında, başkalarının bu siteyi bulmasına yardımcı olmak için kullanılır. Bunlar, kuruluşunuz tarafından ayarlanır."
+      },
+      "discussable": {
+        "label": "Sadece (varsayılan olarak açık olan) canlı sitelerde oturum açan kullanıcılar için tartışmaları göster",
+        "enabled": {
+          "label": "Evet, tartışmaya izin veriliyor",
+          "description": "Tartışmalar arayüzünü göster"
+        },
+        "disabled": {
+          "label": "Hayır, tartışma engellendi",
+          "description": "Tartışmalar arayüzünü gizle"
+        }
+      },
+      "followers": {
+        "groupAccess": {
+          "label": "Görünürlüğü ayarla",
+          "helperText": "Takip düğmelerini kimin görebildiğini kontrol edin. Bu ayar hem akan sayfa içi eylem takip düğmesi hem de doğrudan düzene gömülü herhangi bir takip düğmesi için geçerlidir.",
+          "private": {
+            "label": "Özel",
+            "description": "Site sahibi ve erişimi olan gruplar takip düğmelerini görebilir"
+          },
+          "org": {
+            "label": "Kuruluş",
+            "description": "Sitenin kuruluşunda hesabı olan tüm üyeler ve erişimi olan gruplar takip düğmelerini görebilir"
+          },
+          "public": {
+            "label": "Genel",
+            "description": "Takip düğmelerini herkes görebilir"
+          }
+        },
+        "showFollowAction": {
+          "label": "Eylemi takip et",
+          "helperText": "Sayfa içi eylemler menüsüne, kullanıcılar düzen içinde gezindikçe görünür kalan bir takip düğmesi ekleyin."
+        },
+        "discussable": {
+          "label": "Bu grup tartışmalara katılabilir mi?",
+          "enabled": {
+            "label": "Evet, tartışmaya izin veriliyor",
+            "description": "Grup üyeleri, grubun erişimi olan tartışma kanallarını görüntüleyebilir ve bu kanallara katılabilir."
+          },
+          "disabled": {
+            "label": "Hayır, tartışma engellendi",
+            "description": "Grup üyeleri, grubun erişimi olan tartışma kanallarını görüntüleyemez veya bu kanallara katılamaz."
+          }
+        }
+      },
+      "siteUrl": {
+        "isUniqueError": "Hata: Bu URL adresini kullanan bir site zaten var."
+      }
+    }
+  },
+  "page": {
+    "sections": {
+      "basicInfo": {
+        "label": "Temel Bilgiler"
+      },
+      "location": {
+        "label": "Konum",
+        "helperText": "Bu sayfanın ait olduğu coğrafi alanı gösterin."
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Sayfa adı",
+        "requiredError": "Sayfa adı zorunlu bir alandır",
+        "maxLengthError": "Sayfa adı, 250 karakteri aşmamalıdır",
+        "entityTitleValidatorError": "Sayfa adı, emojiler, <, > veya = karakterlerini içeremez"
+      },
+      "description": {
+        "label": "Açıklama",
+        "helperText": "Sayfanın açıklaması."
+      },
+      "summary": {
+        "label": "Özet",
+        "helperText": "Sayfayı kısaca özetleyin."
+      },
+      "slug": {
+        "label": "Jeton",
+        "helperText": "Jeton, sayfa adının URL dostu versiyonudur. Otomatik olarak sayfa adına dayanarak oluşturulur, ancak bunu özelleştirebilirsiniz.",
+        "patternError": "Hata: Jeton, tirelerle ayrılmış küçük harfli alfabetik-sayısal karakterler olmalıdır.",
+        "isUniqueError": "Bu jeton zaten kullanımda. Lütfen başka bir tane seçin."
+      },
+      "tags": {
+        "label": "Etiketler",
+        "helperText": "Etiketler arama kataloglarında, başkalarının bu sayfayı bulmasına yardımcı olmak için kullanılır. Metin ekleyin ve enter tuşuna basarak yeni etiketler oluşturun."
+      },
+      "_thumbnail": {
+        "helperText": "Bu sayfayı ArcGIS Online ve ayrıca arama ve galerilerde temsil etmek için bir küçük resim belirleyin."
+      },
+      "categories": {
+        "helperText": "Kategoriler arama kataloglarında, başkalarının bu sayfayı bulmasına yardımcı olmak için kullanılır. Bunlar, kuruluşunuz tarafından ayarlanır."
+      }
+    }
+  },
+  "content": {
+    "fields": {
+      "title": {
+        "label": "Başlık",
+        "hint": "Kısa başlıklar, içeriğiniz çapında keşfedilebilirliği artıracaktır.",
+        "requiredError": "Başlık gerekli bir alandır",
+        "entityTitleValidatorError": "Ad, emojiler, <, > veya = karakterlerini içeremez"
+      },
+      "summary": {
+        "label": "Özet",
+        "hint": "İçeriğinizi özetleyin. İPUCU: \"Başlık\" veya \"Etiketler\"inizden farklı olan anahtar sözcükler kullanarak SEO'yu geliştirin."
+      },
+      "description": {
+        "label": "Açıklama",
+        "hint": "İçeriğinizi açıklayan ek ayrıntılar ekleyin. Geniş bir kitleye ulaşmak için 7.-9. sınıf okuma seviyesi hedeflenmiştir. <a href='https://www.webfx.com/tools/read-able/' target='_blank'>Metninizi test etmek için serbest okunabilirlik analiz aracınızı kullanın</a>."
+      },
+      "tags": {
+        "label": "Etiketler",
+        "hint": "Etiketler, başkalarının arama kataloglarında bu içeriği bulmasına yardımcı olmak için kullanılır. Metin ekleyin ve enter tuşuna basarak yeni etiketler oluşturun."
+      },
+      "categories": {
+        "helperText": "Kategoriler, başkalarının arama kataloglarında bu içeriği bulmasına yardımcı olmak için kullanılır. Bunlar, kuruluşunuz tarafından ayarlanır."
+      },
+      "_thumbnail": {
+        "helperText": "Bu ögeyi ArcGIS Online ve ayrıca arama ve galerilerde temsil etmek için bir küçük resim belirleyin."
+      },
+      "license": {
+        "label": "Kullanım Koşulları",
+        "helperText": "Daha az kısıtlama yeniden kullanımı teşvik eder."
+      },
+      "discussable": {
+        "label": "Tartışmaya izin veriliyor mu?",
+        "enabled": {
+          "label": "Evet, tartışmaya izin veriliyor",
+          "description": "Katılımcılar bu ögeye gönderiler, yanıtlar ve tepkiler ekleyebilir."
+        },
+        "disabled": {
+          "label": "Hayır, tartışma engellendi",
+          "description": "Yeni gönderiler, yanıtlar ve tepkiler ekleme becerisini kaldırır. Önceki katılımı silmez."
+        }
+      },
+      "serverExtractCapability": {
+        "label": "İndirme sistemi",
+        "exportDataSetting": {
+          "label": "Verileri dışa aktarma ayarı (önerilir)",
+          "description": "Ek indirme biçimlerini ve artırılmış indirme performansını etkinleştirin."
+        },
+        "defaultDownloadsSystem": {
+          "label": "Varsayılan indirme sistemi",
+          "description": "Daha az biçim, daha düşük indirme hızı ve daha az güvenilirlik sunabilir."
+        },
+        "noFormatConfigurationNotice": {
+          "title": "Biçim yapılandırması kullanılabilir değil",
+          "body": "Biçim yapılandırması, veri dışa aktarma ayarının etkinleştirilmesini gerektirir."
+        }
+      },
+      "downloadFormats": {
+        "label": "Biçimler",
+        "helperText": "Kullanıcıların erişmesine izin verilecek biçimleri ve bunların görüntülenme sırasını seçin. (En az bir biçim seçmeniz gerektiğini unutmayın)",
+        "downloadsUnavailableNotice": {
+          "title": "İndirmeler kullanılamaz",
+          "body": "İçeriği indirmek için Veriyi Dışarı Aktar ayarı ArcGIS Online üzerinde etkinleştirilmiş olmalıdır. Bu ayarı etkinleştirmek için lütfen öge sahibiyle iletişime geçin."
+        }
+      },
+      "schedule": {
+        "manual": {
+          "helperActionText": "Bu öge için arama dizinini ve önbelleğe alınmış indirme dosyalarını manuel olarak güncellemek istiyorsanız bu seçeneği kullanın."
+        },
+        "forceUpdateButton": {
+          "label": "Güncellemeyi Zorla",
+          "description": "Bu seçeneği belirtin ve ardından “Kaydet”i seçerek bu öge için arama dizinini ve önbelleğe alınmış indirme dosyalarını uygun şekilde manuel olarak güncelleyin."
+        },
+        "unavailableNotice": {
+          "title": "Zamanlanmış güncellemeler mevcut değil",
+          "body": "Zamanlanmış güncellemeleri etkinleştirmek için bu içeriği \"Genel\" yapın."
+        }
+      }
+    },
+    "sections": {
+      "basic": {
+        "title": "Temel Bilgiler",
+        "message": "Bu bilgiler arama sonuçlarını ve galeri kartlarını doldurmak için kullanılır ve ayrıntılar görünümünde görüntülenir."
+      },
+      "about": {
+        "title": "İçerik Hakkında",
+        "message": "Açıklamanızın ilk iki satırı arama sonuçlarında görüntülenir, açıklamanın tamamı ise odaklanmış içerik görünümlerinde gösterilir."
+      },
+      "image": {
+        "title": "Öne Çıkan Görüntü",
+        "message": "İçeriğinizi galerilerimizde sergilerken ya da inisiyatifler, etkinlikler ve anketler gibi görselleri öne çıkaran görünümlerde özellikli iyi bir görüntü veya küçük resim kullanmak önemlidir. Önerilen boyut 760x505’tir. Görüntünüz canlı rotalarda bulanıklaşıyorsa, küçük resmi daha büyük bir resimle değiştirmelisiniz."
+      },
+      "location": {
+        "label": "Konum",
+        "helperText": "Bu içeriğin yer alacağı coğrafi alanı gösterin (içerik düzeninde görünmesi için)."
+      },
+      "discussions": {
+        "label": "Tartışmalar"
+      },
+      "downloads": {
+        "label": "İndirmeler",
+        "helperText": "İndirme biçimlerini, önbelleğe alınmış dosya güncelleme zamanlamasını ve daha fazlasını yapılandırın. Daha fazla bilgi için bkz. <calcite-link href=\"https://doc.arcgis.com/en/hub/content/data-download-settings.htm\" target=\"_blank\" icon-end=\"launch\">indirme belgeleri</calcite-link>."
+      },
+      "schedule": {
+        "label": "Zamanlanmış güncellemeler",
+        "helperText": "Hub, içeriği güncellemek için en uygun zamanı otomatik olarak belirlemeye çalışacaktır (varsayılan olarak). Bununla birlikte içerik, meta veriler ve önbelleğe alınmış indirme dosyaları (varsa) için bir güncelleme sıklığı ayarlayabilirsiniz."
+      }
+    },
+    "stringField": {
+      "charCounter": "{count} karakter kaldı"
+    },
+    "imageThumbnail": {
+      "label": "Küçük Görüntü",
+      "upload": "Görüntü Yükle",
+      "done": "Tamam",
+      "editThumbnail": "Küçük Resmi Düzenle",
+      "browse": "Görüntüye Gözat",
+      "remove": "Görüntüyü Kaldır",
+      "edit": "Görüntü Düzenle",
+      "defaultHeading": "Küçük Resim Ekle",
+      "dropHeading": "Yüklemek için Sürükle",
+      "errorHeading": "Farklı bir Görüntü Dene",
+      "subheading": "Maksimum Boyut: {size}, {types}",
+      "zoomOut": "uzaklaştır",
+      "zoomIn": "yakınlaştır",
+      "drag": "Yeniden Konumlandırmak için Sürükle",
+      "urlPlaceholder": "Desteklenen türler: {types}",
+      "browseForImage": "Görüntüye Gözat",
+      "aria": {
+        "container": "Görüntü alanı",
+        "crop": "Kırpma alanı",
+        "handle": {
+          "top": "Üstten yeniden boyutlandır",
+          "right": "Sağdan yeniden boyutlandır",
+          "left": "Soldan yeniden boyutlandır",
+          "bottom": "Alttan yeniden boyutlandır"
+        }
+      }
+    }
+  },
+  "group": {
+    "sections": {
+      "details": {
+        "label": "Ayrıntılar"
+      },
+      "basicInfo": {
+        "label": "Temel Bilgiler"
+      },
+      "capabilities": {
+        "label": "Yetenekler"
+      },
+      "membershipAccess": {
+        "label": "Grup üyeliği"
+      },
+      "discussions": {
+        "label": "Tartışmalar"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Başlık",
+        "requiredError": "Grup başlığı gerekli bir alandır",
+        "maxLengthError": "Grup başlığı, 250 karakteri aşmamalıdır",
+        "entityTitleValidatorError": "Grup adı, emojiler, <, > veya = karakterlerini içeremez"
+      },
+      "summary": {
+        "label": "Özet",
+        "maxLengthError": "Özet 250 karakteri aşmamalıdır"
+      },
+      "description": {
+        "label": "Açıklama"
+      },
+      "access": {
+        "label": "Bu grubu kim görüntüleyebilir?",
+        "private": {
+          "label": "Özel",
+          "description": "Grubu sadece grup üyeleri görüntüleyebilir."
+        },
+        "org": {
+          "label": "Kuruluş",
+          "description": "Grubu sadece kuruluş üyeleri görüntüleyebilir."
+        },
+        "public": {
+          "label": "Herkes (genel)",
+          "description": "Herkes grubu görüntüleyebilir."
+        }
+      },
+      "isSharedUpdate": {
+        "label": "Paylaşılan güncelleme",
+        "helperText": "Bu gruptaki ögeler, bu grubun tüm üyeleri tarafından düzenlenebilir olacak. Üyelik, kuruluşunuzla ve iş birliği yaptığınız kuruluşlarla sınırlıdır."
+      },
+      "isAdmin": {
+        "label": "Yönetici grubu",
+        "helperText": "Üyeler bu gruptan ayrılamaz. Yalnızca grup yöneticileri veya sahibi bu gruptan üye çıkarabilir. Üyelik, kuruluşunuzla sınırlıdır."
+      },
+      "isOpenData": {
+        "label": "Açık veri",
+        "helperText": "Open Data sitelerinde bu gruba erişilmesine izin ver.",
+        "constError": "Halka açık olmayan gruplar açık veri olamaz."
+      },
+      "_thumbnail": {
+        "label": "Küçük Resim",
+        "helperText": "Grup profilinde grubunuzu temsil edecek bir görüntü seçin.",
+        "sizeDescription": "Maksimum boyut 10mb'dir. Tavsiye edilen boyut: 400 x 400 veya daha büyük"
+      },
+      "membershipAccess": {
+        "label": "Kimler bu grupta olabilir?",
+        "org": {
+          "description": "Sadece kuruluşumun üyeleri",
+          "label": "Kuruluş üyeleri"
+        },
+        "collab": {
+          "description": "Sadece ortak iş birliği ve kuruluşumun üyeleri",
+          "label": "Sadece birlikte çalışanlar"
+        },
+        "any": {
+          "description": "Herhangi bir kuruluşun üyeleri",
+          "label": "Herkes"
+        },
+        "createFollowers": {
+          "any": "Herhangi bir kuruluşun üyeleri (önerilen varsayılan)"
+        },
+        "createAssociation": {
+          "any": "Herhangi bir kuruluşun üyeleri (önerilen varsayılan)"
+        },
+        "constError": "Yönetici grubu üyeliği, kuruluşunuzun üyeleriyle sınırlıdır.",
+        "patternError": "Paylaşımlı güncelleme grubu üyeliği, kuruluşunuz veya iş birliği yaptığınız üyelerle sınırlıdır."
+      },
+      "contributeContent": {
+        "label": "Kimler içeriğe katkıda bulunabilir?",
+        "members": {
+          "label": "Üyeler",
+          "description": "Tüm grup üyeleri"
+        },
+        "admins": {
+          "label": "Yöneticiler",
+          "description": "Grup sahibi ve yöneticileri"
+        },
+        "createFollowers": {
+          "admins": "Grup sahibi ve yöneticileri (önerilen varsayılan)"
+        },
+        "createAssociation": {
+          "admins": "Grup sahibi ve yöneticileri (önerilen varsayılan)"
+        }
+      },
+      "join": {
+        "label": "İnsanlar bu gruba nasıl katılabilir",
+        "invite": {
+          "label": "Davetiye",
+          "description": "Sadece davet yoluyla"
+        },
+        "request": {
+          "label": "Talep",
+          "description": "Talep üzerine"
+        },
+        "auto": {
+          "label": "Kendileri",
+          "description": "Kendilerini ekleyerek"
+        },
+        "constError": "Özel gruplara katılım sadece davetiyeyledir.",
+        "patternError": "Yönetici veya paylaşılan güncelleme grupları davetiye veya taleple olmalıdır."
+      },
+      "hiddenMembers": {
+        "label": "Grubun Üyeler sekmesinde tam üye listesini kimler görebilir?",
+        "members": {
+          "label": "Üyeler",
+          "description": "Tüm grup üyeleri"
+        },
+        "admins": {
+          "label": "Yöneticiler",
+          "description": "Grup sahibi ve yöneticileri"
+        }
+      },
+      "discussable": {
+        "label": "Bu grup tartışmalara katılabilir mi?",
+        "enabled": {
+          "label": "Evet, tartışmaya izin veriliyor",
+          "description": "Grup üyeleri, grubun erişimi olan tartışma kanallarını görüntüleyebilir ve bu kanallara katılabilir."
+        },
+        "disabled": {
+          "label": "Hayır, tartışma engellendi",
+          "description": "Grup üyeleri, grubun erişimi olan tartışma kanallarını görüntüleyemez veya bu kanallara katılamaz."
+        }
+      }
+    }
+  },
+  "initiativeTemplate": {
+    "sections": {
+      "basicInfo": {
+        "label": "Temel Bilgiler"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Adı",
+        "requiredError": "İnisiyatif şablonu adı zorunlu bir alandır",
+        "entityTitleValidatorError": "İnisiyatif şablonu adı, emojiler, <, > veya = karakterlerini içeremez"
+      },
+      "slug": {
+        "label": "Jeton",
+        "helperText": "Jeton, inisiyatif şablonu adının URL dostu versiyonudur. Otomatik olarak inisiyatif şablonu adına dayanarak oluşturulur, ancak bunu özelleştirebilirsiniz.",
+        "patternError": "Hata: Jeton, tirelerle ayrılmış küçük harfli alfabetik-sayısal karakterler olmalıdır.",
+        "isUniqueError": "Bu jeton zaten kullanımda. Lütfen başka bir tane seçin."
+      },
+      "previewUrl": {
+        "label": "Ön izleme bağlantısı",
+        "helperText": "Başlığa uygulanan ön izleme bağlantısı, şablonu herkese açık olarak paylaşmayı planlıyorsanız kullanışlıdır. Bağlantılar \"https://\" ile başlamalıdır",
+        "formatError": "URL biçimlendirmesi yanlış"
+      },
+      "summary": {
+        "label": "Özet",
+        "helperText": "Şablon galerisinde görünmesi için bu şablonun kısa bir açıklamasını yazın (90 karakter veya daha az olması tavsiye edilir)."
+      },
+      "description": {
+        "label": "Açıklama",
+        "helperText": "Bu şablonun nasıl kullanılması gerektiği hakkında bilgi ekleyin. Diğerleri için aktivasyon talimatları eklemeyi düşünün."
+      },
+      "_thumbnail": {
+        "label": "Küçük resim",
+        "helperText": "Bu şablonu ArcGIS Online ve ayrıca arama ve galerilerde temsil etmek için bir küçük resim belirleyin.",
+        "sizeDescription": "Maksimum boyut 10mb'dir. Tavsiye edilen boyut: 750 x 505 veya daha büyük"
+      },
+      "recommendedTemplates": {
+        "label": "Tavsiye edilen şablonlar",
+        "catalog": {
+          "myContent": "İçeriğim",
+          "favorites": "Sık kullanılanlar",
+          "organization": "Kuruluşum",
+          "world": "Dünya (Genel)"
+        },
+        "facets": {
+          "sharing": "Paylaşım"
+        },
+        "pickerTitle": "Şablon seç"
+      }
+    }
+  },
+  "template": {
+    "sections": {
+      "basicInfo": {
+        "label": "Temel Bilgiler"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Şablon adı",
+        "requiredError": "Şablon adı zorunlu bir alandır",
+        "maxLengthError": "Şablon adı, 250 karakteri aşmamalıdır",
+        "entityTitleValidatorError": "Şablon adı, emojiler, <, > veya = karakterlerini içeremez"
+      },
+      "previewUrl": {
+        "label": "Ön izleme bağlantısı",
+        "helperText": "Başlığa uygulanan ön izleme bağlantısı, şablonu herkese açık olarak paylaşmayı planlıyorsanız kullanışlıdır. Bağlantılar \"https://\" ile başlamalıdır",
+        "formatError": "URL biçimlendirmesi yanlış"
+      },
+      "description": {
+        "label": "Açıklama",
+        "helperText": "Bu şablonun nasıl kullanılması gerektiği hakkında bilgi ekleyin. Diğerleri için aktivasyon talimatları eklemeyi düşünün."
+      },
+      "summary": {
+        "label": "Özet",
+        "helperText": "Şablon galerisinde görünmesi için bu şablonun kısa bir açıklamasını yazın (90 karakter veya daha az olması tavsiye edilir)."
+      },
+      "_thumbnail": {
+        "helperText": "Şablonunuzu galerilerde temsil etmesi için bir görüntü seçin."
+      }
+    }
+  },
+  "survey": {
+    "sections": {
+      "basicInfo": {
+        "label": "Temel Bilgiler"
+      },
+      "searchDiscoverability": {
+        "label": "Arama ve keşfedilebilirlik"
+      },
+      "settings": {
+        "label": "Harita gösterimi"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Anket adı",
+        "requiredError": "Anket adı gerekli bir alandır",
+        "maxLengthError": "Anket adı, 250 karakteri aşmamalıdır",
+        "entityTitleValidatorError": "Anket adı, emojiler, <, > veya = karakterlerini içeremez"
+      },
+      "description": {
+        "label": "Açıklama",
+        "helperText": "Anketin açıklaması."
+      },
+      "summary": {
+        "label": "Özet",
+        "helperText": "Anketi kısaca özetleyin."
+      },
+      "_thumbnail": {
+        "helperText": "Bu anketi ArcGIS Online ve ayrıca arama ve galerilerde temsil etmek için bir küçük resim belirleyin."
+      },
+      "tags": {
+        "label": "Etiketler",
+        "helperText": "Etiketler arama kataloglarında, başkalarının bu anketi bulmasına yardımcı olmak için kullanılır. Metin ekleyin ve enter tuşuna basarak yeni etiketler oluşturun."
+      },
+      "categories": {
+        "helperText": "Kategoriler arama kataloglarında, başkalarının bu anketi bulmasına yardımcı olmak için kullanılır. Bunlar, kuruluşunuz tarafından ayarlanır."
+      },
+      "displayMap": {
+        "label": "ArcGIS Hub'da açıldığında anketiniz nasıl görüntülenmelidir?",
+        "enabled": {
+          "label": "Harita odaklı",
+          "description": "Kapsayıcı harita deneyimi, harita sorusu önce görüntülenir."
+        },
+        "disabled": {
+          "label": "Standart görünüm",
+          "description": "Harita, diğer sorularla uyumlu olarak görüntülenir."
+        },
+        "notice": {
+          "title": "Harita sorusu gerektirir",
+          "message": "ArcGIS Hub'da harita gösterimini yapılandırmak için anketinizi Survey123'te bir harita sorusu ile yayınlayın."
+        }
+      }
+    }
+  },
+  "event": {
+    "fields": {
+      "name": {
+        "label": "Başlık",
+        "requiredError": "Başlık zorunlu alandır",
+        "entityTitleValidatorError": "Etkinlik adı, emojiler, <, > veya = karakterlerini içeremez"
+      },
+      "startDate": {
+        "label": "Başlangıç tarihi",
+        "requiredError": "Başlangıç tarihi zorunlu alandır",
+        "minDateError": "Başlangıç tarihi bugünden önce olamaz"
+      },
+      "endDate": {
+        "label": "Bitiş tarihi",
+        "requiredError": "Bitiş tarihi zorunlu alandır",
+        "minDateError": "Bitiş tarihi başlangıç tarihinden önce olamaz"
+      },
+      "date": {
+        "label": "Tarih",
+        "requiredError": "Tarih zorunlu alandır",
+        "minDateError": "Tarih bugünden önce olamaz"
+      },
+      "startTime": {
+        "label": "Başlangıç zamanı",
+        "requiredError": "Başlangıç zamanı zorunlu alandır"
+      },
+      "endTime": {
+        "label": "Bitiş zamanı",
+        "requiredError": "Bitiş zamanı zorunlu alandır",
+        "minTimeError": "Bitiş zamanı başlangıç zamanından sonra olmalıdır."
+      },
+      "allDay": {
+        "label": "Tüm gün"
+      },
+      "timeZone": {
+        "label": "Saat dilimi",
+        "requiredError": "Saat dilimi zorunlu alandır"
+      },
+      "attendanceType": {
+        "label": "Nerede",
+        "inPerson": {
+          "label": "Yüz yüze"
+        },
+        "online": {
+          "label": "Çevrim içi"
+        },
+        "both": {
+          "label": "Her iki seçenek"
+        }
+      },
+      "onlineUrl": {
+        "label": "Çevrim içi etkinliğe katılma bağlantısı",
+        "requiredError": "Çevrim içi veya karma etkinlikler için URL gereklidir",
+        "linkHrefFormatError": "URL biçimlendirmesi yanlış"
+      },
+      "description": {
+        "label": "Açıklama",
+        "helperText": "Katılımcılar için etkinlik türü, amacı, gündemi, ne getirileceği, ulaşım vb. gibi ekstra bilgiler ekleyin.",
+        "requiredError": "Açıklama zorunlu alandır"
+      },
+      "inPersonCapacity": {
+        "label": "Maksimum yüz yüze kapasite",
+        "requiredError": "Maksimum yüz yüze kapasite gerekli",
+        "minimumError": "Maksimum yüz yüze kapasite 0'dan büyük olmalıdır"
+      },
+      "inPersonCapacityType": {
+        "label": "Yüz yüze kayıt kapasitesi",
+        "unlimited": {
+          "label": "Sınırsız"
+        },
+        "fixed": {
+          "label": "Sabit"
+        }
+      },
+      "location": {
+        "label": "Bu etkinliğin yer alacağı coğrafi alanı gösterin (etkinlik çıktı düzeninde görünmesi için)."
+      },
+      "onlineCapacityType": {
+        "label": "Çevrim içi kayıt kapasitesi",
+        "unlimited": {
+          "label": "Sınırsız"
+        },
+        "fixed": {
+          "label": "Sabit"
+        }
+      },
+      "onlineCapacity": {
+        "label": "Maksimum çevrim içi kapasite",
+        "requiredError": "Maksimum çevrim içi kapasite zorunlu alandır",
+        "minimumError": "Maksimum çevrim içi kapasite 0'dan büyük olmalıdır"
+      },
+      "onlineDetails": {
+        "label": "Çevrim içi etkinlik ayrıntıları",
+        "helperText": "Katılımcılar için parola, telefonla arama bilgileri ve daha fazlası gibi ekstra bilgiler ekleyin."
+      },
+      "categories": {
+        "helperText": "Kategoriler, başkalarının arama kataloglarında bu etkinliği bulmasına yardımcı olmak için kullanılır. Bunlar, kuruluşunuz tarafından ayarlanır."
+      },
+      "tags": {
+        "label": "Etiketler",
+        "helperText": "Etiketler, başkalarının arama kataloglarında bu etkinliği bulmasına yardımcı olmak için kullanılır. Metin ekleyin ve enter tuşuna basarak yeni etiketler oluşturun."
+      },
+      "summary": {
+        "label": "Özet",
+        "helperText": "Bağlantıyı başkalarıyla paylaşırken etkinliğin amacını kısaca açıklayın, faydalı olacaktır."
+      },
+      "allowRegistration": {
+        "label": "Kayda izin ver",
+        "helperText": "Kaydolmak veya katılmaya davet edilmek için bir hesap gereklidir.",
+        "enabled": {
+          "label": "Kayıt düğmesi etkin",
+          "description": "Etkinliği görüntüleyebilen her üye kayıt yaptırabilir."
+        },
+        "disabled": {
+          "label": "Kayıt düğmesi devre dışı",
+          "description": "Kayıt sadece davet üzerine yapılır, takip edilmez."
+        }
+      },
+      "notifyAttendees": {
+        "label": "Otomatik bildirimler gönder",
+        "helperText": "Etkinlik aboneleri, hatırlatmalar veya değişiklikler için otomatik e-posta bildirimleri alabilirler. Katılmak için kayıt yaptıran kişiler otomatik olarak abone olurlar.",
+        "enabled": {
+          "label": "Bildirimler etkinleştirildi",
+          "description": "Etkinlik için Abone Ol düğmesi görünür olur."
+        },
+        "disabled": {
+          "label": "Bildirimler devre dışı bırakıldı",
+          "description": "Etkinlik için Abone Ol düğmesi gizlenir."
+        }
+      },
+      "referencedContent": {
+        "label": "Bağlantılı içerik",
+        "helperText": {
+          "label": "Bu etkinlikle ilgili bir proje, girişim veya siteyi bağlayın."
+        },
+        "facets": {
+          "from": {
+            "label": "Kaynak",
+            "myContent": {
+              "label": "İçeriğim"
+            },
+            "myOrganization": {
+              "label": "Kuruluşum"
+            }
+          },
+          "access": {
+            "label": "Erişim"
+          }
+        },
+        "catalog": {
+          "organization": "Kuruluş"
+        },
+        "collection": {
+          "sites": "Sites",
+          "initiatives": "İnisiyatifler",
+          "projects": "Projeler"
+        }
+      }
+    },
+    "sections": {
+      "referencedContent": {
+        "label": "Bağlantılı içerik"
+      },
+      "eventInfo": {
+        "label": "Etkinlik bilgileri"
+      },
+      "dateTime": {
+        "label": "Tarih ve zaman"
+      },
+      "location": {
+        "label": "Konum"
+      },
+      "discoverability": {
+        "label": "Arama ve keşfedilebilirlik"
+      }
+    }
+  },
+  "user": {
+    "sections": {
+      "userSettings": "Kullanıcı tercihleri",
+      "orgSettings": {
+        "label": "Kuruluş ayarları",
+        "signinSettings": {
+          "label": "Oturum açma seçenekleri",
+          "helperText": "Hub'ınızda bir Topluluk hesabına kaydolmayı seçmeleri durumunda kullanıcıların göreceği bilgileri özelleştirin."
+        },
+        "siteDefaults": {
+          "label": "Site görüntüleme varsayılanları"
+        }
+      }
+    },
+    "fields": {
+      "enableTermsAndConditions": {
+        "label": "Oturum açma formunda özel kullanım koşullarını zorunlu tutun"
+      },
+      "termsAndConditions": {
+        "label": "Kullanım koşulları"
+      },
+      "enableSignupText": {
+        "label": "Özel Bir Oturum Açma Karşılama Mesajı yapılandırın"
+      },
+      "workspacePreview": {
+        "label": "Çalışma alanı ön izlemesini etkinleştir",
+        "helperText": "Çalışma alanları ön izleme için kullanılabilir, ancak işlevleri genişlettiğimiz için hâlâ geliştirme aşamasındadır. Ön izleme dönemi boyunca istediğiniz zaman çalışma alanlarını devre dışı bırakabilirsiniz. Çalışma alanlarının etkinleştirilmesi sadece bu kullanıcı hesabını etkileyecektir."
+      },
+      "infoBanner": {
+        "label": "Bilgi başlığı",
+        "helperText": "Yapılandırılmışsa çalışan kuruluşunun bilgi başlığını tüm sitelerde ve sayfalarda görüntüleyin. Bu genel bir ayardır ve belirli bir site için kapatılamaz/açılamaz.",
+        "helperTextWhenDisabled": "Şu anda yapılandırılmış bir bilgi başlığınız yok. Bilgi başlığınızı yapılandırabileceğiniz ArcGIS Online'a yönlendirilmek için lütfen aşağıdaki bağlantıya tıklayın",
+        "goToBannerConfig": "ArcGIS Online'da bilgi başlığını yapılandırın"
+      }
+    },
+    "notice": {
+      "title": "Kuruluş yönetimi",
+      "message": "Personel ve topluluk (sadece Hub Premium) kuruluş ayarları artık ArcGIS ev kuruluşunda yönetilmektedir.",
+      "communityMessage": "Personel ve topluluk (sadece Hub Premium) kuruluş ayarları artık ArcGIS ev kuruluşunda yönetilmektedir. <br /> <br /> Topluluk kuruluşunuz",
+      "staffMessage": "Personel ve topluluk (sadece Hub Premium) kuruluş ayarları artık ArcGIS ev kuruluşunda yönetilmektedir. <br /> <br /> Personel kuruluşunu",
+      "actions": {
+        "goToOrg": "Kuruluş ayarlarına git",
+        "goToCommunityOrg": "Topluluk kuruluşuna git",
+        "goToStaffOrg": "Personel kuruluşuna git"
+      }
+    }
+  }
+}

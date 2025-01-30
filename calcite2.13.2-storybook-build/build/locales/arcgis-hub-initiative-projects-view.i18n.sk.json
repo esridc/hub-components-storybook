@@ -1,0 +1,19 @@
+{
+  "facets": {
+    "location": {
+      "label": "Lokalita",
+      "tooltip": "Použiť rozsah mapy ako filter lokalít"
+    },
+    "status": "Stav",
+    "tags": "Štítky",
+    "categories": "Kategórie",
+    "dateUpdated": "Dátum aktualizácie"
+  },
+  "status": {
+    "label": "Stav iniciatívy",
+    "notStarted": "Nezačal sa",
+    "inProgress": "V procese",
+    "onHold": "Podržaný",
+    "complete": "Dokončený"
+  }
+}

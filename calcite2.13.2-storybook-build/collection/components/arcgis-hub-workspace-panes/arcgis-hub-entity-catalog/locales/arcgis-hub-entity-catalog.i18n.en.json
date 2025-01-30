@@ -1,0 +1,57 @@
+{
+  "catalog": "Catalog",
+  "catalog-content": "Content",
+  "catalog-events": "Events",
+  "shared": {
+    "publish": {
+      "label": "Save changes",
+      "success": {
+        "title": "Successfully published catalog edits to the live view"
+      },
+      "error": {
+        "title": "Error saving edits"
+      }
+    }
+  },
+  "emptyState": {
+    "message": "No catalog defined",
+    "action": "Build a catalog"
+  },
+  "configureCatalog": "Configure catalog",
+  "detailsPanel": {
+    "heading": "Catalog configuration",
+    "close": "Close catalog configuration",
+    "catalogBuilder": {
+      "helperText": "Your catalog allows visitors to search and view content. Results displayed are based on your query configuration."
+    },
+    "querySizeNotice": {
+      "warning": {
+        "title": "Approaching catalog limit",
+        "catalogSourceMessage": {
+          "item": "Your item source configuration is approaching the size limit.",
+          "event": "Your event source configuration is approaching the size limit."
+        },
+        "collectionSourceMessage": {
+          "item": "The combination of your item source & \"{collectionName}\" collection configuration is approaching the size limit.",
+          "event": "The combination of your event source & \"{collectionName}\" collection configuration is approaching the size limit."
+        }
+      },
+      "danger": {
+        "title": "Catalog limit exceeded",
+        "catalogSourceMessage": {
+          "item": "Your item source configuration has exceeded the size limit. Reduce the number of filters and/or filter options in your item source to publish.",
+          "event": "Your event source configuration has exceeded the size limit. Reduce the number of filters and/or filter options in your event source to publish."
+        },
+        "collectionSourceMessage": {
+          "item": "The combination of your item source & \"{collectionName}\" collection configuration has exceeded the size limit. Reduce the number of filters and/or filter options in your item source and/or \"{collectionName}\" collection to publish.",
+          "event": "The combination of your event source & \"{collectionName}\" collection configuration has exceeded the size limit. Reduce the number of filters and/or filter options in your event source and/or \"{collectionName}\" collection to publish."
+        }
+      }
+    }
+  },
+  "appearancePanel": {
+    "heading": "Catalog appearance",
+    "close": "Close catalog appearance",
+    "description": "Your catalog allows visitors to search and view content. Here you can update how the default catalog should look and what filters you want displayed."
+  }
+}

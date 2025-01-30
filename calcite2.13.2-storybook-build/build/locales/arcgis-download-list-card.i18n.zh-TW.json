@@ -1,0 +1,13 @@
+{
+  "csv": "CSV",
+  "shapefile": "Shapefile",
+  "sqlite": "SQLite 地理資料庫",
+  "geoPackage": "GeoPackage",
+  "filegdb": "檔案地理資料庫",
+  "featureCollection": "圖徵採集",
+  "geojson": "GeoJSON",
+  "excel": "Excel",
+  "json": "JSON",
+  "createReplicaErrorMessage": "建立複本內部錯誤。 請在一小時後重試或聯絡內容管理員。",
+  "errorHeader": "無法完成下載。 請再試一次。"
+}

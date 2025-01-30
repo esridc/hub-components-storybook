@@ -1,0 +1,57 @@
+{
+  "new": "Nový",
+  "project": {
+    "label": "Projekt",
+    "description": "Zdůrazněte práci, která má jasné cíle a časový rámec",
+    "createLabel": "Vytvořit projekt",
+    "newLabel": "Nový projekt"
+  },
+  "initiative": {
+    "label": "Iniciativa",
+    "description": "Iniciativy umožňují organizovat a shrnout pokrok při dosahování cíle.",
+    "createLabel": "Vytvořit iniciativu",
+    "newLabel": "Nová iniciativa"
+  },
+  "discussion": {
+    "label": "Diskuzní fórum",
+    "description": "Vytvořte nové diskuzní fórum zadáním názvu, který označuje téma.",
+    "createLabel": "Vytvořit diskuzní fórum",
+    "newLabel": "Nové diskuzní fórum"
+  },
+  "site": {
+    "label": "Web",
+    "description": "Vytvořte webovou stránku pro uspořádání a sdílení informací",
+    "createLabel": "Vytvořit web",
+    "newLabel": "Nový web"
+  },
+  "event": {
+    "label": "Událost",
+    "description": "Uspořádejte akci, setkejte se osobně nebo virtuálně",
+    "createLabel": "Vytvořit událost",
+    "newLabel": "Nová událost"
+  },
+  "content": {
+    "label": "Obsah",
+    "description": "Přidejte na svůj web data, dokumenty, obrázky a externí odkazy",
+    "createLabel": "Vytvořit obsah",
+    "newLabel": "Nový obsah"
+  },
+  "feedback": {
+    "label": "Zpětná vazba",
+    "description": "Sbírejte důležité informace pomocí nástrojů, jako jsou průzkumy a ankety",
+    "createLabel": "Vytvořit zpětnou vazbu",
+    "newLabel": "Nová zpětná vazba"
+  },
+  "app": {
+    "label": "Aplikace",
+    "description": "Vytvořte aplikaci, vyprávějte příběh nebo vizualizujte data",
+    "createLabel": "Vytvořit aplikaci",
+    "newLabel": "Nová aplikace"
+  },
+  "group": {
+    "label": "Skupina",
+    "description": "Vytvořte skupinu, která bude spolupracovat na konkrétním obsahu",
+    "createLabel": "Vytvořit skupinu",
+    "newLabel": "Nová skupina"
+  }
+}

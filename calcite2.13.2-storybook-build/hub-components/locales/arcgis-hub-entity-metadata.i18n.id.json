@@ -1,0 +1,239 @@
+{
+  "owner": {
+    "description": "Pemilik"
+  },
+  "updatedDate": {
+    "description": "Tanggal terbaru",
+    "descriptionWithFrequency": "Tanggal diperbarui: {updatedDateFormatted}"
+  },
+  "createdDate": {
+    "description": "Tanggal dibuat"
+  },
+  "joinedDate": {
+    "description": "Tanggal bergabung"
+  },
+  "access": {
+    "label": {
+      "public": "Publik",
+      "org": "Organisasi",
+      "private": "Pemilik",
+      "shared": "Dibagikan secara pribadi"
+    },
+    "description": {
+      "public": {
+        "site": "Siapa saja dapat melihat situs ini",
+        "project": "Semua orang dapat melihat proyek ini",
+        "initiative": "Siapa saja dapat melihat inisiatif ini",
+        "discussion": "Siapa pun dapat melihat diskusi ini",
+        "default": "Siapa saja dapat melihat konten ini",
+        "event": "Siapa saja dapat melihat acara ini"
+      },
+      "org": {
+        "site": "Siapa pun di organisasi Anda dapat melihat situs ini",
+        "project": "Semua orang di organisasi Anda dapat melihat proyek ini",
+        "initiative": "Siapa saja di organisasi Anda dapat melihat inisiatif ini",
+        "discussion": "Siapa pun di organisasi Anda dapat melihat diskusi ini",
+        "default": "Siapa saja di organisasi Anda dapat melihat konten ini",
+        "event": "Semua orang di organisasi Anda dapat melihat acara ini"
+      },
+      "private": {
+        "site": "Hanya Anda yang dapat melihat situs ini",
+        "project": "Hanya Anda yang dapat melihat proyek ini",
+        "initiative": "Hanya Anda yang dapat melihat inisitatif ini",
+        "discussion": "Hanya Anda yang dapat melihat diskusi ini",
+        "default": "Hanya Anda yang dapat melihat konten ini",
+        "event": "Hanya Anda yang dapat melihat acara ini"
+      },
+      "shared": {
+        "site": "Grup yang dipilih dapat melihat situs ini",
+        "project": "Grup yang dipilih dapat melihat proyek ini",
+        "initiative": "Grup yang dipilih dapat melihat inisiatif ini",
+        "discussion": "Grup yang dipilih dapat melihat diskusi ini",
+        "default": "Grup yang dipilih dapat melihat konten ini",
+        "event": "Grup yang dipilih dapat melihat acara ini"
+      }
+    }
+  },
+  "type": {
+    "fallback": {
+      "content": "Konten",
+      "discussion": "Diskusi",
+      "event": "Peristiwa",
+      "group": "Grup",
+      "initiative": "Inisiatif",
+      "org": "Organisasi",
+      "page": "Halaman",
+      "project": "Proyek",
+      "site": "Situs",
+      "survey": "Survei",
+      "initiativeTemplate": "Template",
+      "user": "Pengguna"
+    },
+    "appbuilderExtension": "Alat GIS",
+    "appbuilderWidgetPackage": "Alat GIS",
+    "application": "Aplikasi Terdaftar",
+    "arcgisProMap": "Alat GIS",
+    "cadDrawing": "Alat GIS",
+    "cityEngineWebScene": "Aplikasi 3D",
+    "codeAttachment": "Alat GIS",
+    "colorSet": "Alat GIS",
+    "content": "Konten",
+    "contentCategorySet": "GIS",
+    "csv": "Set data",
+    "csvCollection": "File Data",
+    "dashboard": "Dasbor",
+    "desktopApplication": "Alat GIS",
+    "document": "Dokumen",
+    "documentLink": "Tautan Web",
+    "excaliburImageryProject": "Alat GIS",
+    "explorerMap": "Alat GIS",
+    "exportPackage": "Alat GIS",
+    "featureCollection": "Set data",
+    "featureCollectionTemplate": "Alat GIS",
+    "featureLayer": "Set data",
+    "featureService": "Peta",
+    "fileGeodatabase": "File Data",
+    "form": "Survei",
+    "geocodingService": "API Developer",
+    "geodataService": "API Developer",
+    "geojson": "Konten",
+    "geometryService": "API Developer",
+    "geopackage": "File Data",
+    "geoprocessingService": "API Developer",
+    "globeLayer": "File Data",
+    "globeService": "API Developer",
+    "hubInitiative": "Inisiatif",
+    "hubInitiativeTemplate": "Template",
+    "hubPage": "Halaman",
+    "hubProject": "Proyek",
+    "hubSiteApplication": "Situs",
+    "image": "Citra",
+    "imageService": "Set Data Citra",
+    "insightsModel": "Alat GIS",
+    "insightsPage": "Analisis",
+    "insightsTheme": "Alat GIS",
+    "insightsWorkbook": "Buku Kerja Analisis",
+    "iWorkKeynote": "Presentasi",
+    "iWorkNumbers": "Spreadsheet",
+    "iWorkPages": "Dokumen",
+    "kml": "Set data",
+    "kmlCollection": "File Data",
+    "layer": "File Data",
+    "layerPackage": "File Data",
+    "locatorPackage": "Alat GIS",
+    "mapArea": "Alat GIS",
+    "mapDocument": "Alat GIS",
+    "mapImageLayer": "Peta",
+    "mapPackage": "File Data",
+    "mapService": "Peta",
+    "microsoftExcel": "Spreadsheet",
+    "microsoftPowerpoint": "Presentasi",
+    "microsoftVizio": "Microsoft Visio",
+    "microsoftWord": "Dokumen",
+    "mission": "Alat GIS",
+    "mobileApplication": "Aplikasi",
+    "mobileMapPackage": "File Data",
+    "native application template": "Alat Developer",
+    "nativeApplication": "Aplikasi",
+    "nativeApplicationInstaller": "Alat Developer",
+    "networkAnalysisService": "API Developer",
+    "notebook": "Analisis",
+    "orientedImageryCatalog": "Set Data Citra",
+    "orthoMappingProject": "Alat GIS",
+    "orthoMappingTemplate": "Alat GIS",
+    "pdf": "Dokumen",
+    "quickcaptureProject": "Survei Seluler",
+    "rasterLayer": "Peta",
+    "realTimeAnalytic": "API Developer",
+    "relationalDatabaseConnection": "API Developer",
+    "reportTemplate": "Alat GIS",
+    "sceneLayer": "Set Data 3D",
+    "sceneService": "Set Data 3D",
+    "serviceDefinition": "File Data",
+    "shapefile": "Set data",
+    "solution": "Solusi",
+    "sqliteGeodatabase": "File Data",
+    "statisticalDataCollection": "File Data",
+    "storymap": "StoryMap",
+    "symbolSet": "File Data",
+    "table": "Set data",
+    "team": "Tim",
+    "urbanModel": "Model Perkotaan",
+    "vectorTileService": "Peta",
+    "visioDocument": "Dokumen",
+    "webExperience": "Aplikasi",
+    "webMap": "Peta",
+    "webMappingApplication": "Aplikasi",
+    "webScene": "Peta 3D",
+    "wfs": "Peta",
+    "wms": "Peta",
+    "wmts": "Peta",
+    "workflowManagerService": "API Developer",
+    "workforceProject": "Pengelola Alur Tugas"
+  },
+  "location": {
+    "description": "Lokasi"
+  },
+  "members": {
+    "noMember": "Tidak ada anggota",
+    "oneMember": "Anggota: 1",
+    "members": "Anggota: {count}",
+    "description": {
+      "value": "Lihat semua anggota grup"
+    }
+  },
+  "tooltip": {
+    "label": "Tooltip item metadata"
+  },
+  "relevantArea": {
+    "title": "Area terkait"
+  },
+  "license": {
+    "tooltip": "Menentukan cara konten ini digunakan",
+    "set": {
+      "title": "Lisensi {license}",
+      "customTitle": "Lisensi khusus",
+      "description": {
+        "value": "Tampilkan detail lisensi"
+      }
+    },
+    "unset": {
+      "title": "Tidak ada lisensi yang diberikan",
+      "description": {
+        "value": "Minta izin untuk menggunakan"
+      }
+    }
+  },
+  "size": {
+    "description": {
+      "value": "Ukuran file dokumen"
+    }
+  },
+  "recordCount": {
+    "title": "Catatan: {count}",
+    "description": {
+      "value": "Lihat tabel data"
+    }
+  },
+  "metadataModified": {
+    "description": {
+      "defaultValue": "Info diperbarui",
+      "dynamicValue": "Info diperbarui: {lastUpdated}"
+    }
+  },
+  "updateFrequency": {
+    "continual": "Berkesinambungan",
+    "daily": "Harian",
+    "weekly": "Mingguan",
+    "fortnightly": "Per dua minggu",
+    "monthly": "Bulanan",
+    "quarterly": "Triwulanan",
+    "biannually": "Per dua tahun",
+    "annually": "Tahunan",
+    "as-needed": "Apabila Diperlukan",
+    "irregular": "Tidak beraturan",
+    "not-planned": "Tidak Direncanakan",
+    "unknown": "Tidak Diketahui",
+    "semimonthly": "Setengah bulanan"
+  }
+}

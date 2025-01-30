@@ -1,0 +1,33 @@
+{
+  "groups": "Grup Saya",
+  "addContentButtonText": "Buat baru",
+  "role": "Peran",
+  "owner": "Pemilik",
+  "updated": "Diperbarui",
+  "type": "Jenis",
+  "sharedUpdate": "Grup Pembaruan Bersama",
+  "viewOnly": "Lihat Grup Saja",
+  "actionLinks": {
+    "view": "Lihat",
+    "edit": "Edit",
+    "ariaEdit": "Edit {title}",
+    "ariaView": "Lihat {title}"
+  },
+  "facets": {
+    "access": {
+      "label": "Dapat dilihat oleh",
+      "options": {
+        "public": "Semua orang (publik)",
+        "org": "Organisasi",
+        "private": "Saya"
+      }
+    },
+    "type": {
+      "label": "Jenis",
+      "options": {
+        "sharedUpdate": "Pembaruan Bersama",
+        "opendata": "Open Data"
+      }
+    }
+  }
+}

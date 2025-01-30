@@ -1,0 +1,75 @@
+{
+  "addMetric": "Tilføj måling",
+  "title": "Målinger",
+  "featured": "Udvalgte",
+  "metricDescription": "Der bruges en målbar værdi til at spore projektets fremskridt, baseret enten på statiske (f.eks. historiske) eller dynamiske (f.eks. realtid) data.",
+  "metricCount": {
+    "label": "{currentCount}/{totalCountAllowed} målinger",
+    "tooltip": "Hvis du vil tilføje målinger, skal du slette nogle fra det eksisterende sæt"
+  },
+  "visible": {
+    "title": "Synlig",
+    "noMetrics": "Der er ingen målinger i denne sektion."
+  },
+  "hidden": {
+    "title": "Skjult",
+    "description": "Disse målinger vises kun for dem, der har adgang til dette arbejdsområde.",
+    "noMetrics": "Der er ingen målinger i denne sektion."
+  },
+  "project": {
+    "featured": {
+      "description": "Du kan have 4 udvalgte målinger. De vises på oversigten over dit live projekt."
+    },
+    "visible": {
+      "description": "Synlige målinger vises under fanen Målinger for dit live projekt."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Målinger vil matche projektets delingsniveau. Skjulte målinger vil muligvis stadig være tilgængelige via API-kald.",
+        "metricsDockLink": "Få mere at vide om konfiguration af måletal"
+      }
+    }
+  },
+  "initiative": {
+    "featured": {
+      "description": "Du kan have 4 udvalgte målinger. De vises på oversigten over dit live initiativ."
+    },
+    "visible": {
+      "description": "Synlige målinger vises under fanen Målinger for dit live projekt."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Målinger vil matche initiativets delingsniveau. Skjulte målinger vil muligvis stadig være tilgængelige via API-kald.",
+        "metricsDockLink": "Få mere at vide om konfiguration af måletal"
+      }
+    }
+  },
+  "metricNumber": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4"
+  },
+  "actions": {
+    "delete": "Slet",
+    "edit": "Rediger",
+    "featured": "Objekt",
+    "removeFeatured": "Fjern udvalgte",
+    "show": "Flyt til synlig",
+    "hide": "Flyt til skjult"
+  },
+  "editor": {
+    "heading": "Ny måling",
+    "description": "Målinger er som standard skjult, så medlemmer af dit arbejdsområde kan se dem."
+  },
+  "deleteMetricModal": {
+    "heading": "Slet måling",
+    "content": "Er du sikker på, at du vil slette:",
+    "cancel": "Annuller",
+    "delete": "Slet"
+  },
+  "sidePanel": {
+    "definitions": "Definitioner",
+    "preview": "Eksempel"
+  }
+}

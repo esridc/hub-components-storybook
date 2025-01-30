@@ -1,0 +1,41 @@
+import { EventEmitter, VNode } from "../../../../../stencil-public-runtime";
+import { ComponentIntl } from "../../../../../utils/stencil-intl";
+import { IFacet } from "../../../../../utils/types/IFacet";
+import { IWorkspaceEntityChange } from "../../../../../utils/workspace/types";
+import { IGroupsChangedEvent } from "../../../../arcgis-hub-group-list-manager/types";
+import { HubEntityWithCatalog } from "../../types";
+import { IWithContext } from '../../../../../utils/state';
+export declare class ArcgisHubEntityContentCatalogConfig implements IWithContext {
+  element: HTMLArcgisHubEntityContentCatalogConfigElement;
+  entity: HubEntityWithCatalog;
+  intl: ComponentIntl;
+  operationAlert: HTMLCalciteAlertElement;
+  _context: import("@esri/hub-common").IArcGISContext;
+  showReharvestWarningModal: boolean;
+  isReharvestRequestLoading: boolean;
+  arcgisHubWorkspaceEntityChange: EventEmitter<IWorkspaceEntityChange>;
+  hubTelemetry: EventEmitter<any>;
+  constructor();
+  componentWillLoad(): Promise<void>;
+  disconnectContext: () => void;
+  connectedCallback(): void;
+  disconnectedCallback(): void;
+  get pickerFacets(): IFacet[];
+  get isCatalogConfigured(): boolean;
+  get showReharvestUi(): boolean;
+  handleCatalogGroupsChanged(event: CustomEvent<IGroupsChangedEvent>): Promise<void>;
+  handleFeedsEnabledToggle(): Promise<void>;
+  openReharvestWarningModal(): void;
+  closeReharvestWarningModal(): void;
+  createGroupButtonClicked(): void;
+  handleReharvestCatalogConfirmed(): Promise<void>;
+  triggerOperationAlert(options: {
+    kind: string;
+    title: string;
+  }): Promise<void>;
+  clearOperationAlert(): void;
+  renderHeaderRow(): VNode;
+  renderReharvestWarningModal(): VNode;
+  renderGroupsSection(): VNode;
+  render(): any;
+}

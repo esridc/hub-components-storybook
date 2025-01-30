@@ -1,0 +1,19 @@
+{
+  "facets": {
+    "location": {
+      "label": "Lokasjon",
+      "tooltip": "Bruk kartutstrekningen som lokasjonsfilter"
+    },
+    "status": "Status",
+    "tags": "Merker",
+    "categories": "Kategorier",
+    "dateUpdated": "Oppdateringsdato"
+  },
+  "status": {
+    "label": "Prosjektstatus",
+    "notStarted": "Ikke startet",
+    "inProgress": "Pågår",
+    "onHold": "På vent",
+    "complete": "Fullført"
+  }
+}

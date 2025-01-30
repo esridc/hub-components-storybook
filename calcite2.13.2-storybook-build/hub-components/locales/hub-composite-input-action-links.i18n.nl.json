@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "Eerste actie toevoegen",
+  "addSecondAction": "Tweede actie toevoegen",
+  "addLink": "Link toevoegen",
+  "addSection": "Sectie toevoegen",
+  "deleteNotice": {
+    "title": "Kan niet verwijderen",
+    "message": "Sectie is niet leeg. Plaats alle links buiten de sectie voordat u probeert de sectie te verwijderen."
+  },
+  "linkEditor": {
+    "save": "Opslaan",
+    "delete": "Verwijderen",
+    "cancel": "Annuleren",
+    "preview": "Voorbeeldlink",
+    "title": {
+      "button1": "Eerste actie",
+      "button2": "Tweede actie",
+      "block": "Actielink"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "Link naar bestaande content"
+        },
+        "external": {
+          "label": "Link naar een externe bron"
+        }
+      },
+      "label": {
+        "label": "Label",
+        "helperText": {
+          "button": "Deze tekst wordt op de knop weergegeven.",
+          "block": "Dit wordt vet weergegeven op het blok."
+        },
+        "requiredError": "Label is een vereist veld."
+      },
+      "description": {
+        "label": "Beschrijving",
+        "helperText": "Dit is secundaire informatie."
+      },
+      "href": {
+        "label": "Link",
+        "requiredError": "Link is een vereist veld.",
+        "formatError": "URL-indeling is onjuist."
+      },
+      "contentId": {
+        "label": "Contentlink",
+        "requiredError": "Contentlink is een vereist veld."
+      },
+      "section": {
+        "label": "Naar sectie verplaatsen",
+        "placeholder": {
+          "noSections": "Er zijn geen secties geconfigureerd",
+          "notSet": "Niet in sectie"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "Sectie",
+    "helperText": "U kunt secties gebruiken om links onder een menu-item te nesten. Secties gedragen zich niet hetzelfde als links.",
+    "section": {
+      "label": {
+        "label": "Label",
+        "requiredError": "Label is een vereist veld."
+      },
+      "description": {
+        "label": "Beschrijving"
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "첫 번째 작업 추가",
+  "addSecondAction": "두 번째 작업 추가",
+  "addLink": "링크 추가",
+  "addSection": "섹션 추가",
+  "deleteNotice": {
+    "title": "삭제할 수 없음",
+    "message": "섹션이 비어 있지 않습니다. 삭제를 시도하기 전에 모든 링크를 섹션 밖으로 이동하세요."
+  },
+  "linkEditor": {
+    "save": "저장",
+    "delete": "삭제",
+    "cancel": "취소",
+    "preview": "미리 보기 링크",
+    "title": {
+      "button1": "첫 번째 작업",
+      "button2": "두 번째 작업",
+      "block": "작업 링크"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "기존 콘텐츠에 대한 링크"
+        },
+        "external": {
+          "label": "외부 출처에 대한 링크"
+        }
+      },
+      "label": {
+        "label": "레이블",
+        "helperText": {
+          "button": "이 텍스트는 버튼에 표시됩니다.",
+          "block": "블록에 굵게 표시됩니다."
+        },
+        "requiredError": "레이블은 필수 필드입니다."
+      },
+      "description": {
+        "label": "설명",
+        "helperText": "보조 설명입니다."
+      },
+      "href": {
+        "label": "링크",
+        "requiredError": "링크는 필수 필드입니다.",
+        "formatError": "URL 형식이 잘못되었습니다."
+      },
+      "contentId": {
+        "label": "콘텐츠 링크",
+        "requiredError": "콘텐츠 링크는 필수 필드입니다."
+      },
+      "section": {
+        "label": "섹션으로 이동",
+        "placeholder": {
+          "noSections": "구성된 섹션 없음",
+          "notSet": "섹션에 없음"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "섹션",
+    "helperText": "섹션은 메뉴 항목 아래에 링크를 중첩하는 데 사용할 수 있습니다. 섹션은 링크로 다르게 작동합니다.",
+    "section": {
+      "label": {
+        "label": "레이블",
+        "requiredError": "레이블은 필수 필드입니다."
+      },
+      "description": {
+        "label": "설명"
+      }
+    }
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "owner": {
+    "description": "Vlasnik"
+  },
+  "updatedDate": {
+    "description": "Ažuriran datum",
+    "descriptionWithFrequency": "Ažurirani datum: {updatedDateFormatted}"
+  },
+  "createdDate": {
+    "description": "Datum kreiranja"
+  },
+  "joinedDate": {
+    "description": "Datum pridruživanja"
+  },
+  "access": {
+    "label": {
+      "public": "Javno",
+      "org": "Organizacija",
+      "private": "Vlasnik",
+      "shared": "Podijeljeno privatno"
+    },
+    "description": {
+      "public": {
+        "site": "Svatko može vidjeti ovo web-mjesto",
+        "project": "Svi mogu vidjeti ovaj projekt",
+        "initiative": "Svatko može vidjeti ovu inicijativu",
+        "discussion": "Svatko može vidjeti ovu raspravu",
+        "default": "Svatko može vidjeti ovaj sadržaj",
+        "event": "Svatko može vidjeti ovaj događaj"
+      },
+      "org": {
+        "site": "Svatko u vašoj organizaciji može vidjeti ovo web-mjesto",
+        "project": "Svi u vašoj organizaciji mogu vidjeti ovaj projekt",
+        "initiative": "Svatko u vašoj organizaciji može vidjeti ovu inicijativu",
+        "discussion": "Svatko u vašoj organizaciji može vidjeti ovu raspravu",
+        "default": "Svatko u vašoj organizaciji može vidjeti ovaj sadržaj",
+        "event": "Svatko u vašoj organizaciji može vidjeti ovaj događaj"
+      },
+      "private": {
+        "site": "Samo vi možete vidjeti ovo web-mjesto",
+        "project": "Samo vi možete vidjeti ovaj projekt",
+        "initiative": "Samo vi možete vidjeti ovu inicijativu",
+        "discussion": "Samo vi možete vidjeti ovu raspravu",
+        "default": "Samo vi možete vidjeti ovaj sadržaj",
+        "event": "Samo vi možete vidjeti ovaj događaj"
+      },
+      "shared": {
+        "site": "Odabrane grupe mogu vidjeti ovo web-mjesto",
+        "project": "Odabrane grupe mogu vidjeti ovaj projekt",
+        "initiative": "Odabrane grupe mogu vidjeti ovu inicijativu",
+        "discussion": "Odabrane grupe mogu vidjeti ovu raspravu",
+        "default": "Odabrane grupe mogu vidjeti ovaj sadržaj",
+        "event": "Odabrane grupe mogu vidjeti ovaj događaj"
+      }
+    }
+  },
+  "type": {
+    "fallback": {
+      "content": "Sadržaj",
+      "discussion": "Rasprava",
+      "event": "Događaj",
+      "group": "Grupa",
+      "initiative": "Inicijativa",
+      "org": "Organizacija",
+      "page": "Stranica",
+      "project": "Projekt",
+      "site": "Web-mjesto",
+      "survey": "Anketiranje",
+      "initiativeTemplate": "Predložak",
+      "user": "Korisnik"
+    },
+    "appbuilderExtension": "GIS alat",
+    "appbuilderWidgetPackage": "GIS alat",
+    "application": "Registrirana aplikacija",
+    "arcgisProMap": "GIS alat",
+    "cadDrawing": "GIS alat",
+    "cityEngineWebScene": "3D aplikacija",
+    "codeAttachment": "GIS alat",
+    "colorSet": "GIS alat",
+    "content": "Sadržaj",
+    "contentCategorySet": "GIS",
+    "csv": "Skup podataka",
+    "csvCollection": "Podatkovna datoteka",
+    "dashboard": "Nadzorna ploča",
+    "desktopApplication": "GIS alat",
+    "document": "Dokument",
+    "documentLink": "Web poveznica",
+    "excaliburImageryProject": "GIS alat",
+    "explorerMap": "GIS alat",
+    "exportPackage": "GIS alat",
+    "featureCollection": "Skup podataka",
+    "featureCollectionTemplate": "GIS alat",
+    "featureLayer": "Skup podataka",
+    "featureService": "Karta",
+    "fileGeodatabase": "Podatkovna datoteka",
+    "form": "Anketiranje",
+    "geocodingService": "API razvojnog programera",
+    "geodataService": "API razvojnog programera",
+    "geojson": "Sadržaj",
+    "geometryService": "API razvojnog programera",
+    "geopackage": "Podatkovna datoteka",
+    "geoprocessingService": "API razvojnog programera",
+    "globeLayer": "Podatkovna datoteka",
+    "globeService": "API razvojnog programera",
+    "hubInitiative": "Inicijativa",
+    "hubInitiativeTemplate": "Predložak",
+    "hubPage": "Stranica",
+    "hubProject": "Projekt",
+    "hubSiteApplication": "Web-mjesto",
+    "image": "Slika",
+    "imageService": "Skup podataka snimke",
+    "insightsModel": "GIS alat",
+    "insightsPage": "Analiza",
+    "insightsTheme": "GIS alat",
+    "insightsWorkbook": "Radna knjiga analize",
+    "iWorkKeynote": "Prezentacija",
+    "iWorkNumbers": "Proračunska tablica",
+    "iWorkPages": "Dokument",
+    "kml": "Skup podataka",
+    "kmlCollection": "Podatkovna datoteka",
+    "layer": "Podatkovna datoteka",
+    "layerPackage": "Podatkovna datoteka",
+    "locatorPackage": "GIS alat",
+    "mapArea": "GIS alat",
+    "mapDocument": "GIS alat",
+    "mapImageLayer": "Karta",
+    "mapPackage": "Podatkovna datoteka",
+    "mapService": "Karta",
+    "microsoftExcel": "Proračunska tablica",
+    "microsoftPowerpoint": "Prezentacija",
+    "microsoftVizio": "Microsoft Visio",
+    "microsoftWord": "Dokument",
+    "mission": "GIS alat",
+    "mobileApplication": "Aplikacija",
+    "mobileMapPackage": "Podatkovna datoteka",
+    "native application template": "Alat za razvojne programere",
+    "nativeApplication": "Aplikacija",
+    "nativeApplicationInstaller": "Alat za razvojne programere",
+    "networkAnalysisService": "API razvojnog programera",
+    "notebook": "Analiza",
+    "orientedImageryCatalog": "Skup podataka snimke",
+    "orthoMappingProject": "GIS alat",
+    "orthoMappingTemplate": "GIS alat",
+    "pdf": "Dokument",
+    "quickcaptureProject": "Mobilna anketa",
+    "rasterLayer": "Karta",
+    "realTimeAnalytic": "API razvojnog programera",
+    "relationalDatabaseConnection": "API razvojnog programera",
+    "reportTemplate": "GIS alat",
+    "sceneLayer": "3D skup podataka",
+    "sceneService": "3D skup podataka",
+    "serviceDefinition": "Podatkovna datoteka",
+    "shapefile": "Skup podataka",
+    "solution": "Rješenje",
+    "sqliteGeodatabase": "Podatkovna datoteka",
+    "statisticalDataCollection": "Podatkovna datoteka",
+    "storymap": "StoryMap",
+    "symbolSet": "Podatkovna datoteka",
+    "table": "Skup podataka",
+    "team": "Tim",
+    "urbanModel": "Urbani model",
+    "vectorTileService": "Karta",
+    "visioDocument": "Dokument",
+    "webExperience": "Aplikacija",
+    "webMap": "Karta",
+    "webMappingApplication": "Aplikacija",
+    "webScene": "3D karta",
+    "wfs": "Karta",
+    "wms": "Karta",
+    "wmts": "Karta",
+    "workflowManagerService": "API razvojnog programera",
+    "workforceProject": "Taskflow Manager"
+  },
+  "location": {
+    "description": "Lokacija"
+  },
+  "members": {
+    "noMember": "Nema članova",
+    "oneMember": "Članovi: 1",
+    "members": "Članovi: {count}",
+    "description": {
+      "value": "Prikaži sve članove grupe"
+    }
+  },
+  "tooltip": {
+    "label": "Opis elemenata stavke metapodataka"
+  },
+  "relevantArea": {
+    "title": "Relevantno područje"
+  },
+  "license": {
+    "tooltip": "Definira kako se ovaj sadržaj može koristiti",
+    "set": {
+      "title": "{license} licencija",
+      "customTitle": "Prilagođena licencija",
+      "description": {
+        "value": "Pogledajte detalje o licenci"
+      }
+    },
+    "unset": {
+      "title": "Nema dane licencije",
+      "description": {
+        "value": "Zatražite dopuštenje za upotrebu"
+      }
+    }
+  },
+  "size": {
+    "description": {
+      "value": "Veličina datoteke dokumenta"
+    }
+  },
+  "recordCount": {
+    "title": "Zapisi: {count}",
+    "description": {
+      "value": "Prikaži tablicu podataka"
+    }
+  },
+  "metadataModified": {
+    "description": {
+      "defaultValue": "Ažurirane informacije",
+      "dynamicValue": "Ažurirane informacije: {lastUpdated}"
+    }
+  },
+  "updateFrequency": {
+    "continual": "Neprekidno",
+    "daily": "Dnevno",
+    "weekly": "Tjedno",
+    "fortnightly": "Četrnaestodnevno",
+    "monthly": "Mjesečno",
+    "quarterly": "Tromjesečno",
+    "biannually": "Dvogodišnje",
+    "annually": "Godišnje",
+    "as-needed": "Prema potrebi",
+    "irregular": "Neredovito",
+    "not-planned": "Nije planirano",
+    "unknown": "Nepoznato",
+    "semimonthly": "Polumjesečno"
+  }
+}

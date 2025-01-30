@@ -1,0 +1,47 @@
+{
+  "communityOrg": "Organizație comunitate",
+  "editLayout": "Editare structură",
+  "orgWorkspace": "Deschidere spațiu de lucru acasă",
+  "editS123": "Editare în Survey123",
+  "editAdvancedJson": "Editare avansată JSON",
+  "view": {
+    "project": "Vizualizare proiect",
+    "site": "Vizualizare site",
+    "initiative": "Vizualizare inițiativă",
+    "discussion": "Vizualizare panou",
+    "content": "Vizualizare conținut",
+    "page": "Vizualizare pagină",
+    "group": "Vizualizare grup",
+    "initiativeTemplate": "Vizualizare șablon inițiativă",
+    "template": "Vizualizare șablon",
+    "survey": "Vizualizare chestionar",
+    "event": "Vizualizare eveniment"
+  },
+  "access": {
+    "share": "Partajare",
+    "sharingLevel": "Nivel de partajare",
+    "groupSharing": "Partajare cu un grup",
+    "tooltip": {
+      "public": "Nivel de partajare: public",
+      "org": "Nivel de partajare: organizație",
+      "private": "Nivel de partajare: privat",
+      "shared": "Nivel de partajare: partajat privat"
+    },
+    "save": "Salvare",
+    "cancel": "Anulare",
+    "alert": {
+      "success": "Editările au fost salvate cu succes",
+      "error": "Eroare la salvarea editărilor",
+      "label": "Alertă formular"
+    }
+  },
+  "popoverActions": {
+    "label": "Mai multe acțiuni",
+    "openInEnterprise": "Deschideți în ArcGIS Enterprise",
+    "openInOnline": "Deschideți în ArcGIS Online"
+  },
+  "homeLink": {
+    "text": "Pagina principală"
+  },
+  "createContent": "Creare"
+}

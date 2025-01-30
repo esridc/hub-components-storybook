@@ -1,0 +1,33 @@
+{
+  "groups": "Moje grupe",
+  "addContentButtonText": "Kreiraj novo",
+  "role": "Uloga",
+  "owner": "Vlasnik",
+  "updated": "Ažurirano",
+  "type": "Vrsta",
+  "sharedUpdate": "Grupa za dijeljeno ažuriranje",
+  "viewOnly": "Prikaži samo grupu",
+  "actionLinks": {
+    "view": "Prikaži",
+    "edit": "Uredi",
+    "ariaEdit": "Uredi {title}",
+    "ariaView": "Prikaži {title}"
+  },
+  "facets": {
+    "access": {
+      "label": "Mogu vidjeti",
+      "options": {
+        "public": "Svi (javno)",
+        "org": "Organizacija",
+        "private": "Ja"
+      }
+    },
+    "type": {
+      "label": "Vrste",
+      "options": {
+        "sharedUpdate": "Dijeljeno ažuriranje",
+        "opendata": "Open Data"
+      }
+    }
+  }
+}

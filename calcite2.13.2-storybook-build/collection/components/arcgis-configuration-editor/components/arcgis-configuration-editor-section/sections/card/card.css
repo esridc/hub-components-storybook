@@ -1,0 +1,35 @@
+:host {
+  display: block;
+}
+
+/* apply bottom margin to all cards except the last */
+:host:not(.configuration-editor__last-child) {
+  margin-bottom: 0.75rem;
+}
+
+/* apply card header styling */
+div[slot="title"] {
+  border-bottom: 1px solid var(--calcite-color-border-3);
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  margin-top: -0.75rem;
+  margin-bottom: -0.25rem;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+}
+
+/* Apply card header styling based on the section's scale
+TODO: add styling for "m" and "s" scales */
+.section-card--l div[slot="title"] h3 {
+  margin: 0.75rem;
+  font-size: var(--calcite-font-size-1);
+  line-height: 1.5rem;
+  font-weight: var(--calcite-font-weight-medium);
+}
+
+/* adjust the helper text margins */
+calcite-card::slotted(.section__content) > .helper-text {
+  margin-top: 0px;
+  margin-bottom: 1.5rem;
+}

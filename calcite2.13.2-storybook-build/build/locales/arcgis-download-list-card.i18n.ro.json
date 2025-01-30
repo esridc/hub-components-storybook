@@ -1,0 +1,13 @@
+{
+  "csv": "CSV",
+  "shapefile": "Shapefile",
+  "sqlite": "Bază date geo SQLite",
+  "geoPackage": "GeoPackage",
+  "filegdb": "FGDB",
+  "featureCollection": "Colecţie obiecte spaţiale",
+  "geojson": "GeoJSON",
+  "excel": "Excel",
+  "json": "JSON",
+  "createReplicaErrorMessage": "Creați eroarea internă replică. Încercați din nou peste o oră sau contactați managerul de conținut.",
+  "errorHeader": "Descărcarea nu a putut fi finalizată. Încercați din nou."
+}

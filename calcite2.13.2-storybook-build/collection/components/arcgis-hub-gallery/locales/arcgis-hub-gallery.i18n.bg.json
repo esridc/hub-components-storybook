@@ -1,0 +1,91 @@
+{
+  "moreResults": "Повече резултати",
+  "search": "Търсене",
+  "filter": "Филтри",
+  "viewResults": "Преглед на резултати ({numResults})",
+  "resultsCount": "1 - {pageTotal} от {searchTotal}",
+  "backToTop": "Връщане в началото",
+  "facets": {
+    "access": {
+      "label": "Споделяне",
+      "private": "Себе си",
+      "shared": "Собственик и групи",
+      "org": "Организация",
+      "public": "Публични"
+    },
+    "license": {
+      "label": "Лиценз",
+      "tooltip": "Само на публично съдържание",
+      "custom": "Персонализиран",
+      "none": "Няма"
+    },
+    "type": {
+      "label": "Тип"
+    },
+    "tags": {
+      "label": "Тагове"
+    },
+    "dateUpdated": {
+      "label": "Дата на актуализация"
+    },
+    "source": {
+      "label": "Източник",
+      "tooltip": "Публично съдържание от различни организации"
+    },
+    "categories": {
+      "label": "Категории"
+    },
+    "location": {
+      "label": "Местоположение",
+      "tooltip": "Приложете обхвата на картата като филтър за местоположение"
+    },
+    "event": {
+      "from": {
+        "label": "Собственост",
+        "myContent": "Аз",
+        "myOrganization": "Моята организация",
+        "world": "Всеки"
+      },
+      "access": {
+        "label": "Достъп",
+        "private": "Частни",
+        "org": "Организация",
+        "public": "Публични"
+      },
+      "startDate": {
+        "label": "Дата на събитие"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "Тип",
+        "all": "Всички",
+        "view": "Изглед",
+        "edit": "Редактиране"
+      },
+      "role": {
+        "label": "Роля",
+        "all": "Всички",
+        "member": "Член",
+        "manager": "Мениджър",
+        "owner": "Собственик"
+      },
+      "sharing": {
+        "label": "Видимост",
+        "private": "Частни",
+        "public": "Публични"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "Показване на списък",
+    "grid": "Показване на мрежа",
+    "map": "Показване на карта",
+    "compact": "Компактно показване",
+    "calendar": "Показване на календар",
+    "table": "Показване на таблица"
+  },
+  "galleryActionsLabel": "Допълнителни действия",
+  "selected": "Избран: {count}",
+  "popoverActionButtonLabel": "повече действия"
+}

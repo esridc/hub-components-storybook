@@ -1,0 +1,10 @@
+/**
+* Regular Expression snippets to validate Google Analytics tracking code
+* see http://code.google.com/apis/analytics/docs/concepts/gaConceptsAccounts.html#webProperty
+*
+* @author  Faisalman <movedpixel@gmail.com>
+* @license http://www.opensource.org/licenses/mit-license.php
+* @link    http://gist.github.com/faisalman
+* @param   measurementId     string to be validated
+* @return  Boolean
+*/

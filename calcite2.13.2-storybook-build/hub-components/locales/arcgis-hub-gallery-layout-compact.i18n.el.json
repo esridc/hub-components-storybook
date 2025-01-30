@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Δεν βρέθηκαν αποτελέσματα."
+    },
+    "error": {
+      "message": "Λυπούμαστε, αλλά παρουσιάστηκε σφάλμα κατά την αναζήτηση."
+    }
+  },
+  "type": "Τύπος",
+  "tags": "Ετικέτες",
+  "owner": "Κάτοχος",
+  "dateCreated": "Δημιουργημένο",
+  "dateUpdated": "Τροποποιήθηκε",
+  "categories": "Κατηγορίες",
+  "dateAndTime": "Ημερομηνία και ώρα",
+  "allDay": "{date} (όλη την ημέρα)",
+  "allDayRange": "{from} - {to} (όλη την ημέρα)",
+  "location": "Τοποθεσία",
+  "attendanceType": "Τύπος παρακολούθησης",
+  "inPerson": "Δια ζώσης",
+  "online": "Online",
+  "hybrid": "Υβριδική"
+}

@@ -1,0 +1,29 @@
+{
+  "header": "活动",
+  "myContent": "我的活动",
+  "editableContent": "可编辑内容",
+  "addEventButtonText": "创建活动",
+  "type": "类型",
+  "sharedUpdate": "共享更新群组",
+  "viewOnly": "仅查看群组",
+  "owner": "创建者",
+  "starts": "开始",
+  "from": "自",
+  "until": "至",
+  "updated": "已更新",
+  "tags": "标签",
+  "dateCreated": "创建日期",
+  "dateUpdated": "修改日期",
+  "actionLinks": {
+    "view": "查看",
+    "edit": "编辑",
+    "ariaEdit": "编辑：{title}",
+    "ariaView": "查看：{title}"
+  },
+  "access": {
+    "label": "访问",
+    "PRIVATE": "私有",
+    "ORG": "组织",
+    "PUBLIC": "公共"
+  }
+}

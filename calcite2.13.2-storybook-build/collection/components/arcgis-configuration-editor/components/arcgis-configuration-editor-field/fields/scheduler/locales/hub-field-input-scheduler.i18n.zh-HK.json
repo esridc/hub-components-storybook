@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "由 Hub 自動化",
+      "actionText": "自動選項資訊"
+    },
+    "daily": {
+      "defaultLabel": "每天",
+      "defaultExpandedHelperText": "所選時區每天的選定小時。",
+      "actionText": "每天選項資訊"
+    },
+    "weekly": {
+      "defaultLabel": "每週",
+      "defaultExpandedHelperText": "所選時區每週的下一天和下一個小時。",
+      "actionText": "每週選項資訊"
+    },
+    "monthly": {
+      "defaultLabel": "每月",
+      "defaultExpandedHelperText": "所選時區每月的下一天和下一個小時",
+      "actionText": "每月選項資訊"
+    },
+    "yearly": {
+      "defaultLabel": "每年",
+      "defaultExpandedHelperText": "所選時區每年的下個月、下一天和下一個小時。",
+      "actionText": "每年選項資訊"
+    },
+    "manual": {
+      "defaultLabel": "手動",
+      "defaultExpandedHelperText": "若要手動更新此項目的搜尋索引和快取的下載檔案，請使用此選項。",
+      "actionText": "手動選項資訊"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "一日時間",
+      "inputMessage": "時間將四捨五入到最接近的小時。",
+      "error": "請選擇一小時。"
+    },
+    "day": {
+      "helperText": "星期幾",
+      "daysOfTheWeek": {
+        "sunday": "星期日",
+        "monday": "星期一",
+        "tuesday": "星期二",
+        "wednesday": "星期三",
+        "thursday": "星期四",
+        "friday": "星期五",
+        "saturday": "星期六"
+      },
+      "selectLabel": "星期幾選取器",
+      "error": "請選擇星期幾。"
+    },
+    "date": {
+      "helperText": "月份日期",
+      "inputNumberPlaceholder": "選擇月份日期",
+      "inputMessage": "輸入 1 到 28 之間的值作為月份日期。",
+      "error": "月份日期必須介於 1 到 28 之間。"
+    },
+    "month": {
+      "helperText": "年中月份",
+      "selectLabel": "年中月份選取器",
+      "monthsOfTheYear": {
+        "january": "1 月",
+        "february": "2 月",
+        "march": "3 月",
+        "april": "4 月",
+        "may": "5 月",
+        "june": "6 月",
+        "july": "7 月",
+        "august": "8 月",
+        "september": "9 月",
+        "october": "10 月",
+        "november": "11 月",
+        "december": "12 月"
+      },
+      "error": "請選擇月份。"
+    },
+    "timezone": {
+      "helperText": "Timezone",
+      "error": "請選擇時區。"
+    }
+  },
+  "fieldHeader": "頻率"
+}

@@ -1,0 +1,118 @@
+{
+  "layout": {
+    "title": "Mise en page",
+    "helperText": "Ce paramètre configure l’apparence des résultats lorsque les utilisateurs accèdent pour la première fois au catalogue. Les utilisateurs ont toujours la possibilité de modifier eux-mêmes la méthode d’affichage par la suite.",
+    "enum": {
+      "list": {
+        "label": "Liste",
+        "description": "Utilisez cette option pour mettre en valeur les métadonnées et s’il est probable que les utilisateurs souhaitent effectuer des recherches ciblées."
+      },
+      "grid": {
+        "label": "Grille",
+        "description": "Utilisez cette option pour les résultats qui comportent des miniatures de qualité élevée et s’il est probable que les utilisateurs souhaitent parcourir les résultats."
+      },
+      "table": {
+        "label": "Table",
+        "description": "Utilisez cette option pour présenter les résultats dans un format structuré avec des colonnes pouvant être triées. Elle convient parfaitement s’il est probable que les utilisateurs souhaitent afficher et comparer de nombreux éléments ainsi que les attributs correspondants."
+      },
+      "map": {
+        "label": "Carte",
+        "description": "Utilisez cette option pour les résultats associés à des lieux physiques et s’il est probable que les utilisateurs souhaitent explorer les zones d’intérêt."
+      },
+      "compact": {
+        "label": "Compacte",
+        "description": "Utilisez cette option afin d’optimiser le nombre de résultats visibles dans un espace restreint. Elle convient parfaitement pour une consultation rapide des résultats ou pour l’affichage de ces derniers sur les appareils mobiles."
+      }
+    }
+  },
+  "cards": {
+    "title": "Fiches",
+    "cardTitleTag": {
+      "label": "Titre",
+      "helperText": "Cette option permet d’optimiser la structure des niveaux de titre afin d’améliorer l’accessibilité. Elle ne modifie pas la taille de police.",
+      "enum": {
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        }
+      }
+    },
+    "showThumbnail": {
+      "label": "Afficher la miniature",
+      "enum": {
+        "show": {
+          "label": "Toujours",
+          "description": "Les images miniatures s’affichent toujours sur les fiches de résultat, quelle que soit la mise en page de ces dernières."
+        },
+        "hide": {
+          "label": "Ne pas afficher les miniatures",
+          "description": "Les images miniatures ne s’affichent sur aucun type de fiche de résultat. Utilisez cette option si les miniatures sont de faible qualité ou si vous souhaitez que les utilisateurs puissent parcourir les résultats sous forme de liste plus rapidement dans les versions bureautiques et mobiles."
+        },
+        "grid": {
+          "label": "Uniquement sur les fiches de type Grille",
+          "description": "Les images miniatures s’affichent uniquement sur les fiches de type Grille. Les fiches de type Liste présentent une colonne supplémentaire avec des métadonnées au lieu d’une image."
+        }
+      }
+    },
+    "corners": {
+      "label": "Angles",
+      "enum": {
+        "square": {
+          "label": "Carrés"
+        },
+        "round": {
+          "label": "Arrondis"
+        }
+      }
+    },
+    "shadow": {
+      "label": "Ombre portée",
+      "enum": {
+        "heavy": {
+          "label": "Dense"
+        },
+        "low": {
+          "label": "Faible"
+        },
+        "medium": {
+          "label": "Moyenne"
+        },
+        "none": {
+          "label": "Aucune"
+        }
+      }
+    },
+    "showLinkButton": {
+      "label": "Inclure des boutons",
+      "helperText": "Si les boutons sont désactivés, seul le titre de la fiche constitue un lien."
+    },
+    "linkButtonStyle": {
+      "label": "Style",
+      "enum": {
+        "outline-filled": {
+          "label": "Plein"
+        },
+        "outline": {
+          "label": "Contour"
+        }
+      }
+    },
+    "linkButtonText": {
+      "label": "Texte"
+    }
+  }
+}

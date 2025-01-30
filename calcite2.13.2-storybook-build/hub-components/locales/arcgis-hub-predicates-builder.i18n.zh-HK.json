@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "編輯群組",
+        "viewGroups": "檢視群組"
+      },
+      "facet": {
+        "label": "從",
+        "myGroups": "我的群組",
+        "myOrganization": "我的組織",
+        "myCommunity": "我的社群"
+      }
+    }
+  },
+  "property": {
+    "label": "參數",
+    "requiredError": "需要參數"
+  },
+  "operator": {
+    "label": "準則",
+    "requiredError": "需要條件"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "類型"
+    },
+    "group": {
+      "default": "群組"
+    },
+    "occurrence": {
+      "default": "事件"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "是任何",
+      "group": "與任何人分享"
+    },
+    "isAll": {
+      "default": "是全部",
+      "group": "與所有人分享"
+    },
+    "isExactly": {
+      "default": "恰好為",
+      "occurrence": "等於"
+    },
+    "isNot": {
+      "default": "不是",
+      "type": "是無",
+      "group": "不與人分享"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "群組",
+      "requiredError": "需要群組"
+    },
+    "type": {
+      "label": "類型",
+      "requiredError": "需要類型",
+      "app": {
+        "label": "應用程式"
+      },
+      "content": {
+        "label": "內容"
+      },
+      "dataset": {
+        "label": "資料集"
+      },
+      "discussion": {
+        "label": "討論"
+      },
+      "document": {
+        "label": "文件"
+      },
+      "event": {
+        "label": "事件"
+      },
+      "feedback": {
+        "label": "回饋意見"
+      },
+      "initiative": {
+        "label": "新措施"
+      },
+      "map": {
+        "label": "地圖"
+      },
+      "project": {
+        "label": "專案"
+      },
+      "site": {
+        "label": "網站"
+      },
+      "template": {
+        "label": "範本"
+      }
+    },
+    "occurrence": {
+      "label": "事件",
+      "requiredError": "需要事件",
+      "upcoming": "即將來到的",
+      "past": "過去",
+      "inProgress": "進行中"
+    }
+  }
+}

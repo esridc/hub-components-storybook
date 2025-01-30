@@ -1,0 +1,47 @@
+{
+  "communityOrg": "Közösségi szervezet",
+  "editLayout": "Elrendezés szerkesztése",
+  "orgWorkspace": "Otthoni munkaterület megnyitása",
+  "editS123": "Szerkesztés a Survey123-alkalmazásban",
+  "editAdvancedJson": "Speciális JSON-fájl szerkesztése",
+  "view": {
+    "project": "Projekt megtekintése",
+    "site": "Webhely megtekintése",
+    "initiative": "Kezdeményezés megtekintése",
+    "discussion": "Vitafórum megtekintése",
+    "content": "Tartalom megtekintése",
+    "page": "Oldal megtekintése",
+    "group": "Csoport megtekintése",
+    "initiativeTemplate": "Kezdeményezési sablon megtekintése",
+    "template": "Sablon megtekintése",
+    "survey": "Felmérés megtekintése",
+    "event": "Esemény megtekintése"
+  },
+  "access": {
+    "share": "Megosztás",
+    "sharingLevel": "Megosztási szint",
+    "groupSharing": "Csoportmegosztás",
+    "tooltip": {
+      "public": "Megosztási szint: Nyilvános",
+      "org": "Megosztási szint: Szervezet",
+      "private": "Megosztási szint: Magánjellegű",
+      "shared": "Megosztási szint: Magánjellegűként megosztva"
+    },
+    "save": "Mentés",
+    "cancel": "Mégse",
+    "alert": {
+      "success": "A módosítások mentése sikerült",
+      "error": "Hiba történt a módosítások mentése során",
+      "label": "Űrlappal kapcsolatos figyelmeztetés"
+    }
+  },
+  "popoverActions": {
+    "label": "További műveletek",
+    "openInEnterprise": "Megnyitás az ArcGIS Enterprise rendszerében",
+    "openInOnline": "Megnyitás az ArcGIS Online alkalmazásban"
+  },
+  "homeLink": {
+    "text": "Kiindulás"
+  },
+  "createContent": "Létrehozás"
+}

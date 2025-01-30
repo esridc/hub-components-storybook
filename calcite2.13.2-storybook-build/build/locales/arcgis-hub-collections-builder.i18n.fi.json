@@ -1,0 +1,15 @@
+{
+  "newCollection": "Uusi kokoelma",
+  "block": {
+    "heading": {
+      "untitled": "Nimetön kokoelma"
+    },
+    "actions": {
+      "delete": "Poista kokoelma: {label}"
+    }
+  },
+  "name": {
+    "label": "Nimi",
+    "requiredError": "Kokoelman nimi on pakollinen"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "collaborators": "Līdzdalībnieki",
+  "editGroupButtonText": "Pievienot rediģēšanas grupas",
+  "viewGroupButtonText": "Pievienot skata grupas",
+  "groupPicker": {
+    "title": "Izvēlēties grupas",
+    "facet": {
+      "label": "No",
+      "editGroups": "Rediģēt grupas",
+      "viewGroups": "Skatīt grupu",
+      "myGroups": "Manas grupas",
+      "myOrganization": "Mana organizācija",
+      "myCommunity": "Mana kopiena"
+    }
+  },
+  "addNewPeopleNotice": {
+    "title": "Pievienot jaunas personas",
+    "message": "Ja ir nepieciešams pievienot personas, varat uzaicināt tās pievienoties kopienai vai <orgOverviewLink>sazināties ar administratoru</orgOverviewLink>."
+  },
+  "editGroupsTitle": "Grupas, kuras var rediģēt",
+  "viewGroupsTitle": "Grupas, kuras var skatīt",
+  "project": {
+    "description": "Izvēlieties, kuras lietotāju grupas var skatīt un rediģēt šo projektu.",
+    "editGroupsDescription": "Šo grupu dalībnieki varēs rediģēt projekta informāciju.",
+    "viewGroupsDescription": "Šo grupu dalībnieki varēs meklēt un skatīt projektu, ja tas netiks publiski koplietots.",
+    "errorMessage": "Atjauninot projekta līdzstrādniekus, radās kļūda."
+  },
+  "content": {
+    "description": "Izvēlieties, kuras lietotāju grupas var skatīt un rediģēt šo saturu.",
+    "editGroupsDescription": "Šo grupu dalībnieki varēs rediģēt satura informāciju.",
+    "viewGroupsDescription": "Šo grupu dalībnieki varēs meklēt un skatīt saturu, ja tas netiks publiski koplietots.",
+    "errorMessage": "Atjauninot satura līdzstrādniekus, radās kļūda."
+  },
+  "discussion": {
+    "description": "Izvēlieties, kuras lietotāju grupas var skatīt diskusiju paneli un kuras var rediģēt paneļa informāciju.",
+    "editGroupsDescription": "Šo grupu dalībnieki var rediģēt diskusiju paneļa informāciju.",
+    "viewGroupsDescription": "Šo grupu dalībnieki var meklēt un skatīt diskusiju paneli (ja tas netiek koplietots ar sabiedrību).",
+    "errorMessage": "Atjauninot diskusijas līdzstrādniekus, radās kļūda."
+  },
+  "site": {
+    "description": "Izvēlieties, kuras lietotāju grupas var skatīt un rediģēt šo vietni.",
+    "editGroupsDescription": "Šo grupu dalībnieki varēs rediģēt vietnes informāciju.",
+    "viewGroupsDescription": "Šo grupu dalībnieki varēs meklēt un skatīt vietni, ja tas netiks publiski koplietots.",
+    "errorMessage": "Atjauninot vietnes līdzstrādniekus, radās kļūda."
+  },
+  "template": {
+    "description": "Izvēlieties, kuras lietotāju grupas var skatīt un rediģēt šo veidni.",
+    "editGroupsDescription": "Šo grupu dalībnieki varēs rediģēt veidnes informāciju.",
+    "viewGroupsDescription": "Šo grupu dalībnieki varēs meklēt un skatīt veidni, ja tā netiks publiski koplietota.",
+    "errorMessage": "Atjauninot veidnes līdzstrādniekus, radās kļūda."
+  },
+  "survey": {
+    "description": "Izvēlieties, kuras lietotāju grupas var skatīt un rediģēt šo anketu.",
+    "editGroupsDescription": "Šo grupu dalībnieki varēs rediģēt anketas informāciju.",
+    "viewGroupsDescription": "Šo grupu dalībnieki varēs meklēt un skatīt anketu, ja tā netiks publiski koplietota.",
+    "errorMessage": "Atjauninot anketas līdzstrādniekus, radās kļūda."
+  },
+  "event": {
+    "description": "Izvēlieties, kuras lietotāju grupas var skatīt un rediģēt šo pasākumu.",
+    "editGroupsDescription": "Šo grupu dalībnieki varēs rediģēt pasākuma informāciju.",
+    "viewGroupsDescription": "Šo grupu dalībnieki varēs meklēt un skatīt pasākumu, ja tas netiks publiski koplietots.",
+    "errorMessage": "Atjauninot pasākuma līdzstrādniekus, radās kļūda."
+  },
+  "newTab": "atvērt profilu jaunā cilnē",
+  "supportingTeams": "Atbalsta darba grupas",
+  "supportingTeamsDesc": "Šīs atbalsta grupas iepriekš bija saistītas ar jūsu vietni. Varat turpināt tās izmantot, lai koplietotu saturu ar sadarbības partneriem.",
+  "supportTeamsRemove": "Noņemt darba grupu",
+  "supportingTeamsRemoveError": "Atvienojot darba grupu, radās kļūda. Sazināties ar administratoru.",
+  "supportingTeamsRemoveSuccess": "Darba grupa ir sekmīgi atvienota.",
+  "view": {
+    "button": "Izveidot skatīšanas grupu",
+    "formLabel": "Jauna skatīšanas grupa",
+    "description": "Izveidojiet grupu, lai atvieglotu satura koplietošanu un saziņu. Grupas dalībnieki varēs skatīt jebkuru ar grupu koplietotu saturu."
+  },
+  "edit": {
+    "button": "Izveidot rediģēšanas grupu",
+    "formLabel": "Jauna rediģēšanas grupa",
+    "description": "Izveidojiet grupu, lai atvieglotu satura koplietošanu un saziņu. Grupas dalībnieki varēs skatīt un rediģēt jebkādu ar grupu koplietotu saturu."
+  },
+  "groupCreateDisabledButtonTooltip": "Jūs nevarat izveidot grupu. Iespējams, jums jau ir maksimālais grupu skaits vai trūkst pietiekamu privilēģiju, lai izveidotu grupu.",
+  "groupCreateError": "Veidojot grupu, radās kļūda.",
+  "notice": {
+    "label": "Veidlapas brīdinājums"
+  }
+}

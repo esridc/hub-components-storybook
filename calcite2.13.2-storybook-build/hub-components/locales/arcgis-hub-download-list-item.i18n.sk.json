@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "Kolekcia prvkov",
+    "fgdb": "Súborová geodatabáza",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Shapefile",
+    "sqlite": "Geodatabáza SQLite"
+  },
+  "buttonText": {
+    "download": "Stiahnuť",
+    "pending": "Čakajúce",
+    "processing": "Spracováva sa",
+    "converting": "Konvertuje sa",
+    "completed": "Sťahovanie dokončené",
+    "failed": "Sťahovanie zlyhalo"
+  },
+  "errors": {
+    "errorHeading": "Chyba"
+  },
+  "cacheStatusAccordion": {
+    "heading": "Našli ste to, čo hľadáte?",
+    "content": "K dispozícii môže byť novšia verzia.",
+    "button": "Požiadať o nový súbor"
+  },
+  "generateNewModal": {
+    "heading": "Ste si istí?",
+    "content": "Toto môže nejaký čas trvať. Túto kartu prehliadača ponechajte zapnutú, pokým nebude dokončené sťahovanie.",
+    "confirmButton": "Áno",
+    "cancelButton": "Zrušiť"
+  }
+}

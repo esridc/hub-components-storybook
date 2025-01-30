@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "تحرير المجموعات",
+        "viewGroups": "عرض المجموعات"
+      },
+      "facet": {
+        "label": "مِن",
+        "myGroups": "مجموعاتي",
+        "myOrganization": "مؤسستي",
+        "myCommunity": "مجتمعي"
+      }
+    }
+  },
+  "property": {
+    "label": "المعلمة",
+    "requiredError": "المعلمة مطلوبة"
+  },
+  "operator": {
+    "label": "المعيار",
+    "requiredError": "المعايير مطلوبة"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "النوع"
+    },
+    "group": {
+      "default": "المجموعات"
+    },
+    "occurrence": {
+      "default": "حدث"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "يكون أي من",
+      "group": "يتم مشاركته مع أي من"
+    },
+    "isAll": {
+      "default": "هو كل من",
+      "group": "يتم مشاركته مع كلِ من"
+    },
+    "isExactly": {
+      "default": "هو بالضبط",
+      "occurrence": "هو"
+    },
+    "isNot": {
+      "default": "ليس",
+      "type": "يكون لا شيء من",
+      "group": "يتم مشاركته مع لا شيء من"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "المجموعات",
+      "requiredError": "المجموعات مطلوبة"
+    },
+    "type": {
+      "label": "أنواع",
+      "requiredError": "الأنواع مطلوبة",
+      "app": {
+        "label": "تطبيقات"
+      },
+      "content": {
+        "label": "المحتوى"
+      },
+      "dataset": {
+        "label": "مجموعات البيانات"
+      },
+      "discussion": {
+        "label": "مناقشات"
+      },
+      "document": {
+        "label": "المستندات"
+      },
+      "event": {
+        "label": "الأحداث"
+      },
+      "feedback": {
+        "label": "التعليقات"
+      },
+      "initiative": {
+        "label": "المبادرات"
+      },
+      "map": {
+        "label": "خرائط"
+      },
+      "project": {
+        "label": "المشروعات"
+      },
+      "site": {
+        "label": "المواقع"
+      },
+      "template": {
+        "label": "القوالب"
+      }
+    },
+    "occurrence": {
+      "label": "حدث",
+      "requiredError": "تكرار الحدوث مطلوب",
+      "upcoming": "القادمة",
+      "past": "الماضي",
+      "inProgress": "قيد التقدم"
+    }
+  }
+}

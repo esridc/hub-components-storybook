@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "Categories",
+        "noCategoriesNotice": {
+          "body": "Aquesta organització encara no té cap categoria.",
+          "link": "Configura les categories"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "Contingut",
+      "selectionMode": {
+        "dynamic": {
+          "label": "Dinàmic"
+        },
+        "manual": {
+          "label": "Manual"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "Organització"
+        },
+        "collection": {
+          "sites": "Llocs",
+          "projects": "Projectes",
+          "initiatives": "Iniciatives"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "Organització"
+        },
+        "collection": {
+          "events": "Esdeveniments"
+        }
+      },
+      "access": {
+        "label": "Ús compartit",
+        "private": {
+          "label": "Privat",
+          "description": "Filtra pel contingut disponible només per al vostre usuari i per als usuaris amb accés al grup."
+        },
+        "org": {
+          "label": "Organització",
+          "description": "Filtra pel contingut disponible només per als membres de l'organització."
+        },
+        "public": {
+          "label": "Públic",
+          "description": "Filtra pel contingut disponible per a tothom."
+        }
+      },
+      "tags": {
+        "label": "Etiquetes"
+      },
+      "cardsShown": {
+        "label": "Targetes que es mostren"
+      }
+    },
+    "appearance": {
+      "label": "Aparença",
+      "titleHeading": {
+        "label": "Capçalera de títol",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "D'acord amb la WCAG G141, les capçaleres niades milloren l'accessibilitat."
+      },
+      "corners": {
+        "label": "Cantonades",
+        "square": {
+          "label": "Quadrat"
+        },
+        "round": {
+          "label": "Arrodonit"
+        }
+      },
+      "shadow": {
+        "label": "Ombra",
+        "none": {
+          "label": "Desactivat"
+        },
+        "low": {
+          "label": "Baixa"
+        },
+        "medium": {
+          "label": "Mitjana"
+        },
+        "heavy": {
+          "label": "Intens"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "Mostra informació addicional"
+      },
+      "layout": {
+        "label": "Disseny",
+        "list": {
+          "label": "Llista"
+        },
+        "map": {
+          "label": "Mapa"
+        },
+        "calendar": {
+          "label": "Calendari"
+        }
+      }
+    },
+    "options": {
+      "label": "Opcions",
+      "openIn": {
+        "label": "Obre a…",
+        "same": {
+          "label": "La mateixa pestanya"
+        },
+        "new": {
+          "label": "Pestanya nova"
+        },
+        "notice": {
+          "title": "Suggeriment d'accessibilitat:",
+          "body": "D'acord amb la tècnica G200 de WCAG 2.0, no es recomana obrir enllaços en pestanyes o finestres noves.",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "Més informació sobre les WCAG 2.0 G200"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "Ús compartit",
+      "public": {
+        "label": "Públic"
+      },
+      "private": {
+        "label": "Privat"
+      },
+      "organization": {
+        "label": "Organització"
+      }
+    },
+    "from": {
+      "label": "Des de",
+      "myOrganization": {
+        "label": "La meva organització"
+      },
+      "myContent": {
+        "label": "El meu contingut"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "Esdeveniments",
+      "collections": {
+        "event": {
+          "label": "Esdeveniments"
+        }
+      }
+    },
+    "item": {
+      "label": "Contingut",
+      "collections": {
+        "item": {
+          "label": "Contingut"
+        }
+      }
+    }
+  }
+}

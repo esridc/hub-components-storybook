@@ -1,0 +1,43 @@
+{
+  "header": "Diskusijos",
+  "myContent": "Mano įvykiai",
+  "editableContent": "Redaguojamas turinys",
+  "addContentButtonText": "Kurti renginį",
+  "type": "Tipas",
+  "sharedUpdate": "Bendrinamų naujinimų grupė",
+  "viewOnly": "Tik peržiūros grupė",
+  "owner": "Savininkas",
+  "updated": "Atnaujinta",
+  "tags": "Žymos",
+  "dateCreated": "Sukurta",
+  "dateUpdated": "Pakeistas",
+  "actionLinks": {
+    "view": "Peržiūra",
+    "edit": "Redaguoti",
+    "ariaEdit": "Redaguoti: {title}",
+    "ariaView": "Peržiūrėti: {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Renginiai",
+      "myContent": "Man priklausantys įvykiai",
+      "editableContent": "Įvykiai, kuriuos galiu redaguoti",
+      "all": "Visi įvykiai"
+    },
+    "access": {
+      "label": "Nuo"
+    },
+    "type": {
+      "label": "Tipai"
+    },
+    "tags": {
+      "label": "Žymos"
+    },
+    "categories": {
+      "label": "Kategorijos"
+    },
+    "modified": {
+      "label": "Pakeistas"
+    }
+  }
+}

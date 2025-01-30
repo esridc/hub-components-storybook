@@ -1,0 +1,19 @@
+{
+  "overview": "Genel Bakış",
+  "telemetry": {
+    "pageViews": "Sayfa görüntüleme sayısı",
+    "last30days": "Son 30 gün",
+    "lastUpdated": "Son güncelleme {hoursElapsed} saat önce",
+    "checkTomorrow": "Yarın tekrar kontrol edin"
+  },
+  "learnAbout": "Hub projeleri hakkında daha fazla bilgi edin",
+  "status": {
+    "notStarted": "Başlatılmadı",
+    "inProgress": "Devam ediyor",
+    "onHold": "Beklemede",
+    "complete": "Tamamla"
+  },
+  "editDetails": "Ayrıntıları düzenle",
+  "noPurposeSet": "Amaç belirlenmedi",
+  "noLocationSet": "Konum ayarlanmadı"
+}

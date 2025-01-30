@@ -1,0 +1,19 @@
+{
+  "facets": {
+    "location": {
+      "label": "Helyszín",
+      "tooltip": "Alkalmazza a térképkiterjedést helyszűrőként"
+    },
+    "status": "Állapot",
+    "tags": "Címkék",
+    "categories": "Kategóriák",
+    "dateUpdated": "Frissítés dátuma"
+  },
+  "status": {
+    "label": "Projekt állapota",
+    "notStarted": "Nem kezdődött el",
+    "inProgress": "Folyamatban",
+    "onHold": "Várakozik",
+    "complete": "Befejeződött"
+  }
+}

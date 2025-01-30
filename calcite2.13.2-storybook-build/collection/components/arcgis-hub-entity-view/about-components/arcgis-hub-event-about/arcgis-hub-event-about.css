@@ -1,0 +1,23 @@
+:host {
+  margin-top: 1rem;
+  display: flex;
+  gap: 4rem;
+}
+
+/* BODY AREA (MAIN + SIDE BAR) LAYOUT */
+.entity-about-body {
+
+}
+.entity-about-main {
+  flex: 2;
+}
+.entity-about-side-bar {
+  flex: 1;
+}
+.entity-about-main > div:not(:last-child), .entity-about-side-bar > div:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+
+calcite-notice {
+  margin-bottom: 1rem;
+}

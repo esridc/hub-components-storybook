@@ -1,0 +1,15 @@
+{
+  "newCollection": "Нова колекція",
+  "block": {
+    "heading": {
+      "untitled": "Колекція без назви"
+    },
+    "actions": {
+      "delete": "Видалити колекцію: {label}"
+    }
+  },
+  "name": {
+    "label": "Назва",
+    "requiredError": "Потрібна назва колекції"
+  }
+}

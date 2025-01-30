@@ -1,0 +1,72 @@
+{
+  "addContent": "Thêm nội dung",
+  "addContentType": {
+    "event": "Tạo sự kiện",
+    "discussion": "Tạo thảo luận",
+    "group": "Tạo nhóm",
+    "initiative": "Tạo sáng kiến",
+    "project": "Tạo dự án",
+    "page": "Tạo trang",
+    "site:": "Tạo trang web"
+  },
+  "tooltip": {
+    "label": "Đã tắt",
+    "noCatalog": "Thêm nhóm vào danh mục để thêm nội dung.",
+    "noPermission": "Bạn không có quyền thêm nội dung vào danh mục.",
+    "no-permission": "Bạn không có quyền thêm nội dung vào danh mục.",
+    "not-in-groups": "Bạn không phải là thành viên của bất kỳ nhóm nào xác định danh mục.",
+    "too-many-groups": "Bạn đã đạt đến số lượng nhóm tối đa và không thể tạo thêm."
+  },
+  "existing": {
+    "description": "Thêm nội dung đã có trong {onlineOrEnterprise}",
+    "modalTitle": "Chọn nội dung hiện có",
+    "title": "Chọn nội dung hiện có"
+  },
+  "create": {
+    "app": {
+      "description": "Tạo trải nghiệm, kể câu chuyện hoặc trực quan hóa dữ liệu của bạn",
+      "modalTitle": "Tạo ứng dụng",
+      "title": "Ứng dụng"
+    },
+    "event": {
+      "description": "Tổ chức các hoạt động được sắp xếp, trực tiếp hoặc qua mạng",
+      "modalTitle": "Tạo sự kiện",
+      "title": "Sự kiện"
+    },
+    "content": {
+      "description": "Thêm dữ liệu, tài liệu, hình ảnh và các liên kết bên ngoài vào trang web của bạn",
+      "modalTitle": "Tạo nội dung",
+      "title": "Nội dung"
+    },
+    "discussion": {
+      "description": "Thu thập ý tưởng và ý kiến phản hồi",
+      "modalTitle": "Tạo bảng thảo luận",
+      "title": "Bảng Thảo luận"
+    },
+    "group": {
+      "description": "Sắp xếp mọi người để chia sẻ nội dung và thảo luận",
+      "modalTitle": "Tạo nhóm",
+      "title": "Nhóm"
+    },
+    "initiative": {
+      "description": "Đánh dấu những nỗ lực có chiến lược với mục tiêu xác định để tổ chức dự án",
+      "modalTitle": "Tạo sáng kiến",
+      "title": "Sáng kiến"
+    },
+    "page": {
+      "description": "Trình bày thông tin theo bố cục có cấu trúc",
+      "modalTitle": "Tạo trang",
+      "title": "Trang"
+    },
+    "project": {
+      "description": "Hiển thị công việc với các mục tiêu và khung thời gian rõ ràng",
+      "modalTitle": "Tạo dự án",
+      "title": "Dự án"
+    },
+    "site": {
+      "description": "Tạo trang web mang thương hiệu để tương tác với cộng đồng của bạn",
+      "modalTitle": "Tạo trang web",
+      "title": "Site"
+    }
+  }
+}

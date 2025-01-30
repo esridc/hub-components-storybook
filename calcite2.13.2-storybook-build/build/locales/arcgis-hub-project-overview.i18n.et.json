@@ -1,0 +1,19 @@
+{
+  "overview": "Ülevaade",
+  "telemetry": {
+    "pageViews": "Lehe vaatamised",
+    "last30days": "Viimased 30 päeva",
+    "lastUpdated": "Viimati uuendatud {hoursElapsed} tundi tagasi",
+    "checkTomorrow": "Vaadake homme uuesti"
+  },
+  "learnAbout": "Teave Hubi projektide kohta",
+  "status": {
+    "notStarted": "Pole alustatud",
+    "inProgress": "Pooleli",
+    "onHold": "Ootel",
+    "complete": "Lõpetatud"
+  },
+  "editDetails": "Muuda üksikasju",
+  "noPurposeSet": "Eesmärki pole määratud",
+  "noLocationSet": "Asukohta pole määratud"
+}

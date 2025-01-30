@@ -1,0 +1,23 @@
+{
+  "overview": "Огляд",
+  "telemetry": {
+    "pageViews": "Перегляди сторінок",
+    "last30days": "Останні 30 днів",
+    "lastUpdated": "Востаннє оновлено {hoursElapsed} год тому",
+    "checkTomorrow": "Повертайтеся завтра"
+  },
+  "learnAbout": "Докладніше про ініціативи Hub",
+  "feedbackNotice": {
+    "message": "Як вам ініціативи Hub? Ми хочемо дізнатися, як ви можете це використовувати.",
+    "link": "Надіслати відгук"
+  },
+  "status": {
+    "notStarted": "Не запущено",
+    "inProgress": "Виконується",
+    "onHold": "Уточнюється",
+    "complete": "Завершено"
+  },
+  "editDetails": "Редагувати відомості",
+  "noPurposeSet": "Мета не встановлена",
+  "noLocationSet": "Місце розташування не задано"
+}

@@ -1,0 +1,1 @@
+import{H as e}from"./p-ef64c2be.js";import"./p-efdf7053.js";import"./p-1898c878.js";const p=["hub:page:edit","hub:page:create"],t=Object.assign(Object.assign({},e),{properties:Object.assign({},e.properties)});export{p as PageEditorTypes,t as PageSchema}

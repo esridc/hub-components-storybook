@@ -1,0 +1,75 @@
+{
+  "addMetric": "Adicionar métrica",
+  "title": "Métricas",
+  "featured": "Destaque",
+  "metricDescription": "Um valor mensurável usado para rastrear o progresso do projeto, com base em dados estáticos (por exemplo, históricos) ou dinâmicos (por exemplo, em tempo real).",
+  "metricCount": {
+    "label": "{currentCount} / {totalCountAllowed} métricas",
+    "tooltip": "Para adicionar métricas, exclua parte do conjunto existente"
+  },
+  "visible": {
+    "title": "Visível",
+    "noMetrics": "Não há métrica nesta seção."
+  },
+  "hidden": {
+    "title": "Oculto",
+    "description": "Essas métricas são exibidas apenas para aqueles com acesso a esta área de trabalho.",
+    "noMetrics": "Não há métrica nesta seção."
+  },
+  "project": {
+    "featured": {
+      "description": "Você pode ter 4 métricas em destaque. Elas são exibidas na Visão Geral do seu projeto ao vivo."
+    },
+    "visible": {
+      "description": "Métricas visíveis são exibidas na aba Métricas do seu projeto ativo."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "As métricas corresponderão ao nível de compartilhamento do projeto. Métricas ocultas ainda podem estar disponíveis por chamada de API.",
+        "metricsDockLink": "Saiba mais sobre como configurar métricas"
+      }
+    }
+  },
+  "initiative": {
+    "featured": {
+      "description": "Você pode ter 4 métricas em destaque. Elas são exibidas na Visão Geral da sua iniciativa ativa."
+    },
+    "visible": {
+      "description": "Métricas visíveis são exibidas na aba Métricas do seu projeto ativo."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "As métricas corresponderão ao nível de compartilhamento da iniciativa. Métricas ocultas ainda podem estar disponíveis por chamada de API.",
+        "metricsDockLink": "Saiba mais sobre como configurar métricas"
+      }
+    }
+  },
+  "metricNumber": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4"
+  },
+  "actions": {
+    "delete": "Excluir",
+    "edit": "Editar",
+    "featured": "Feição",
+    "removeFeatured": "Remover destaque",
+    "show": "Mover para visível",
+    "hide": "Mover para oculto"
+  },
+  "editor": {
+    "heading": "Nova métrica",
+    "description": "Por padrão, as métricas serão ocultadas automaticamente para que os membros da sua área de trabalho possam vê-las."
+  },
+  "deleteMetricModal": {
+    "heading": "Excluir métrica",
+    "content": "Tem certeza que deseja excluir:",
+    "cancel": "Cancelar",
+    "delete": "Excluir"
+  },
+  "sidePanel": {
+    "definitions": "Definições",
+    "preview": "Visualizar"
+  }
+}

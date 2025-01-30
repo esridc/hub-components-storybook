@@ -1,0 +1,96 @@
+{
+  "unnamedChannel": "Neimenovani kanal",
+  "name": {
+    "label": "Naziv",
+    "placeholder": "{prefix} kanal"
+  },
+  "save": "Spremi",
+  "basicInfo": {
+    "label": "Osnovne informacije"
+  },
+  "access": {
+    "private": {
+      "label": "Privatno",
+      "description": "Odabrane grupe mogu sudjelovati. Upravitelji i vlasnici grupe automatski su dodijeljeni kao moderatori."
+    },
+    "organization": {
+      "label": "Moja organizacija",
+      "description": "Svi članovi s računom za {orgName} mogu sudjelovati. Administratori organizacije i vlasnik kanala su automatski dodijeljeni moderatori. Vlasnici kanala mogu dodatno dodati grupe čiji su članovi klikom na 'Dodaj grupu sudionika' ispod.",
+      "disabledTooltip": "Samo administratori organizacije mogu stvarati organizacijske kanale."
+    },
+    "public": {
+      "label": "Javno",
+      "description": "Svi prijavljeni članovi mogu sudjelovati. Administratori organizacije i vlasnik kanala su automatski dodijeljeni moderatori. Vlasnici kanala mogu dodatno dodati grupe čiji su članovi klikom na 'Dodaj grupu sudionika' ispod.",
+      "disabledTooltip": "Samo administratori organizacije mogu stvarati javne kanale."
+    },
+    "allowAsAnonymous": {
+      "label": "Omogućite anonimno (samo prijavljeni sudionici)",
+      "description": "Avatar, ime i korisničko ime osoba s računima koji anonimno objavljuju neće biti dostupni."
+    },
+    "confirmation": {
+      "header": "Jeste li sigurni?",
+      "message": "Spremanjem ovih promjena uklonit ćete svoj pristup uređivanju ovog kanala. Samo administratori organizacije mogu uređivati javne ili organizacijske kanale.",
+      "secondary": "Odustani",
+      "primary": "Potvrdi"
+    }
+  },
+  "participants": {
+    "label": "Sudionici",
+    "helperText": "Osobe koje mogu objavljivati, odgovarati i reagirati na raspravu.",
+    "none": "Nema postavljenih sudionika",
+    "add": "Dodaj grupu sudionika"
+  },
+  "groupPicker": {
+    "title": "Odaberi grupe",
+    "facet": {
+      "label": "Šalje",
+      "myGroups": "Moje grupe",
+      "myOrganization": "Moja organizacija",
+      "myCommunity": "Moja zajednica"
+    }
+  },
+  "blockWords": {
+    "label": "Blokirane riječi",
+    "helperText": "Popis odvojen zarezom. Objave i odgovori koji ih sadrže bit će automatski skriveni."
+  },
+  "manage": {
+    "label": "Moderatori",
+    "helperText": "Automatsko dodjeljivanje moderatora temelji se na odabiru sudionika. Za sve dodatne grupe dodane na kanal, vlasnici i upravitelji grupe dodijeljeni su kao moderatori. Moderatori mogu sakriti i prikazati objave, dodati blokirane riječi i urediti postavke kanala."
+  },
+  "manager": "Upravitelj",
+  "admin": "Administrator",
+  "viewProfile": "Prikaži profil",
+  "alerts": {
+    "error": "Pogreška pri spremanju kanala",
+    "success": "Kanal je uspješno spremljen",
+    "label": "Stvori upozorenje"
+  },
+  "validations": {
+    "minChannelGroups": "Privatni kanali zahtijevaju najmanje jednu grupu sudionika.",
+    "channelNameRequired": "Potreban je naziv kanala.",
+    "allowAsAnonymous": "Anonimno objavljivanje podržavaju samo javni kanali.",
+    "blockWords": "Unesite najviše 20 blokiranih riječi/fraza (unosi odvojeni zarezom, bez duplikata i praznih unosa)."
+  },
+  "notices": {
+    "edit": "Uređivanja će utjecati svugdje gdje se ovaj kanal koristi",
+    "duplicate": {
+      "create": {
+        "error": {
+          "title": "Knala nije stvoren",
+          "message": "Kanal s ovim odabirima pristupa već postoji. Koristite postojeći kanal ili promijenite odabire."
+        }
+      },
+      "update": {
+        "error": {
+          "title": "Kanal nije ažuriran",
+          "message": "Kanal s ovim odabirima pristupa već postoji pa ne možemo spremiti ova ažuriranja."
+        }
+      },
+      "action": "Upotrijebi postojeći kanal"
+    },
+    "inaccessibleGroups": {
+      "title": "Nedostupne grupe: {count}",
+      "message": "Ne možete pregledavati ili upravljati nedostupnim grupama osim ako niste član."
+    }
+  }
+}

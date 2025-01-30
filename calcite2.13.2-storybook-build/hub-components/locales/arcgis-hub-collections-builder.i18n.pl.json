@@ -1,0 +1,15 @@
+{
+  "newCollection": "Nowy zbiór",
+  "block": {
+    "heading": {
+      "untitled": "Zbiór bez nazwy"
+    },
+    "actions": {
+      "delete": "Usuń zbiór: {label}"
+    }
+  },
+  "name": {
+    "label": "Nazwa",
+    "requiredError": "Nazwa zbioru jest wymagana"
+  }
+}

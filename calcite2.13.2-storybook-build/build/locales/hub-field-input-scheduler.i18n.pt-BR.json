@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "Automatizado pelo Hub",
+      "actionText": "Informações de opções automáticas"
+    },
+    "daily": {
+      "defaultLabel": "Diariamente",
+      "defaultExpandedHelperText": "Todo dia, na hora e no fuso horário selecionados.",
+      "actionText": "Informações sobre opções diárias"
+    },
+    "weekly": {
+      "defaultLabel": "Semanalmente",
+      "defaultExpandedHelperText": "Toda semana, no dia, na hora e no fuso horário selecionados.",
+      "actionText": "Informações sobre opções semanais"
+    },
+    "monthly": {
+      "defaultLabel": "Mensalmente",
+      "defaultExpandedHelperText": "Todo mês, no dia, na hora e no fuso horário selecionados.",
+      "actionText": "Informações de opções mensais"
+    },
+    "yearly": {
+      "defaultLabel": "Anualmente",
+      "defaultExpandedHelperText": "Todo ano, no mês, no dia, na hora e no fuso horário selecionados.",
+      "actionText": "Informações de opções anuais"
+    },
+    "manual": {
+      "defaultLabel": "Manual",
+      "defaultExpandedHelperText": "Use esta opção se desejar atualizar manualmente o índice de pesquisa e os arquivos de download em cache para este item.",
+      "actionText": "Informações sobre opções manuais"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "Hora do dia",
+      "inputMessage": "O tempo será arredondado para a hora mais próxima.",
+      "error": "Selecione uma hora."
+    },
+    "day": {
+      "helperText": "Dia da semana",
+      "daysOfTheWeek": {
+        "sunday": "Domingo",
+        "monday": "Segunda-feira",
+        "tuesday": "Terça-feira",
+        "wednesday": "Quarta-feira",
+        "thursday": "Quinta-feira",
+        "friday": "Sexta-feira",
+        "saturday": "Sábado"
+      },
+      "selectLabel": "Selecionador de dia da semana",
+      "error": "Selecione um dia da semana."
+    },
+    "date": {
+      "helperText": "Dia do mês",
+      "inputNumberPlaceholder": "Selecione um dia do mês",
+      "inputMessage": "Insira um valor de 1 a 28 para o dia do mês.",
+      "error": "O dia do mês deve estar entre 1 e 28."
+    },
+    "month": {
+      "helperText": "Mês do ano",
+      "selectLabel": "Selecionador de mês do ano",
+      "monthsOfTheYear": {
+        "january": "Janeiro",
+        "february": "Fevereiro",
+        "march": "Março",
+        "april": "Abril",
+        "may": "Maio",
+        "june": "Junho",
+        "july": "Julho",
+        "august": "Agosto",
+        "september": "Setembro",
+        "october": "Outubro",
+        "november": "Novembro",
+        "december": "Dezembro"
+      },
+      "error": "Selecione um mês."
+    },
+    "timezone": {
+      "helperText": "Fuso horário",
+      "error": "Selecione um fuso horário."
+    }
+  },
+  "fieldHeader": "Frequência"
+}

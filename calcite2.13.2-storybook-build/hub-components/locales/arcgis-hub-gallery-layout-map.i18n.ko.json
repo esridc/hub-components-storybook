@@ -1,0 +1,23 @@
+{
+  "popupButtonText": {
+    "app": "앱으로 이동",
+    "content": "콘텐츠로 이동",
+    "dataset": "데이터셋으로 이동",
+    "discussion": "토론으로 이동",
+    "document": "문서로 이동",
+    "event": "이벤트로 이동",
+    "feedback": "피드백으로 이동",
+    "project": "프로젝트로 이동",
+    "initiative": "이니셔티브로 이동",
+    "site": "사이트로 이동",
+    "initiativeTemplate": "이니셔티브 템플릿으로 이동",
+    "page": "페이지로 이동",
+    "group": "그룹으로 이동",
+    "template": "템플릿으로 이동",
+    "survey": "설문조사로 이동",
+    "image": "이미지로 이동",
+    "map": "맵으로 이동",
+    "people": "사람으로 이동"
+  },
+  "mapFilterCheckboxLabel": "맵이 이동할 때 필터링"
+}

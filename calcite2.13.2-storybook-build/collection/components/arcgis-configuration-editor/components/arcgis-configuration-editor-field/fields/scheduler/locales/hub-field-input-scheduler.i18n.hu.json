@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "Hub által automatizált",
+      "actionText": "Automatikus opcióra vonatkozó információ"
+    },
+    "daily": {
+      "defaultLabel": "Napi",
+      "defaultExpandedHelperText": "Mindennap a kiválasztott órában a kiválasztott időzónában.",
+      "actionText": "Napi opcióra vonatkozó információ"
+    },
+    "weekly": {
+      "defaultLabel": "Heti",
+      "defaultExpandedHelperText": "Minden héten a következő napon és órában a kiválasztott időzónában.",
+      "actionText": "Heti opcióra vonatkozó információ"
+    },
+    "monthly": {
+      "defaultLabel": "Havi",
+      "defaultExpandedHelperText": "Minden hónapban a következő napon és órában a kiválasztott időzónában",
+      "actionText": "Havi opcióra vonatkozó információ"
+    },
+    "yearly": {
+      "defaultLabel": "Évi",
+      "defaultExpandedHelperText": "Minden évben a következő hónapban, napon és órában a kiválasztott időzónában.",
+      "actionText": "Évi opcióra vonatkozó információ"
+    },
+    "manual": {
+      "defaultLabel": "Kézi",
+      "defaultExpandedHelperText": "Használja ezt a lehetőséget, ha manuálisan szeretné frissíteni a keresési indexet és a gyorsítótárazott letöltési fájlokat ehhez az elemhez.",
+      "actionText": "Kézi opcióra vonatkozó információ"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "Napszak",
+      "inputMessage": "Az időpont a legközelebbi órára lesz kerekítve.",
+      "error": "Kérjük, válasszon egy órát."
+    },
+    "day": {
+      "helperText": "Hét napja",
+      "daysOfTheWeek": {
+        "sunday": "vasárnap",
+        "monday": "hétfő",
+        "tuesday": "kedd",
+        "wednesday": "szerda",
+        "thursday": "csütörtök",
+        "friday": "péntek",
+        "saturday": "szombat"
+      },
+      "selectLabel": "Hét napjának kijelölésére szolgáló választó",
+      "error": "Válassza ki a hét egy napját."
+    },
+    "date": {
+      "helperText": "Hónap napja",
+      "inputNumberPlaceholder": "Válassza ki a hónap egy napját",
+      "inputMessage": "Adjon meg egy 1 és 28 közötti értéket a hónap napjához.",
+      "error": "A hónap napjai számának 1 és 28 között kell lennie."
+    },
+    "month": {
+      "helperText": "Év hónapja",
+      "selectLabel": "Év hónapjának napjának kijelölésére szolgáló választó",
+      "monthsOfTheYear": {
+        "january": "Január",
+        "february": "Február",
+        "march": "Március",
+        "april": "Április",
+        "may": "Május",
+        "june": "Június",
+        "july": "Július",
+        "august": "Augusztus",
+        "september": "Szeptember",
+        "october": "Október",
+        "november": "November",
+        "december": "December"
+      },
+      "error": "Kérjük, válasszon egy hónapot."
+    },
+    "timezone": {
+      "helperText": "Időzóna",
+      "error": "Kérjük, válassza ki az időzónát."
+    }
+  },
+  "fieldHeader": "Gyakoriság"
+}

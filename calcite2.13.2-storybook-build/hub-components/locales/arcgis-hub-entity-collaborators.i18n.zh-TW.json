@@ -1,0 +1,85 @@
+{
+  "collaborators": "協同作業者",
+  "editGroupButtonText": "新增編輯群組",
+  "viewGroupButtonText": "新增檢視群組",
+  "groupPicker": {
+    "title": "選擇群組",
+    "facet": {
+      "label": "從",
+      "editGroups": "編輯群組",
+      "viewGroups": "檢視群組",
+      "myGroups": "我的群組",
+      "myOrganization": "我的組織",
+      "myCommunity": "我的社群"
+    }
+  },
+  "addNewPeopleNotice": {
+    "title": "新增人員",
+    "message": "如果您需要新增人員，您可以邀請他們加入社群，也可以<orgOverviewLink>聯絡您的管理員</orgOverviewLink>。"
+  },
+  "editGroupsTitle": "可編輯的群組",
+  "viewGroupsTitle": "可檢視的群組",
+  "project": {
+    "description": "選擇哪些使用者群組可以檢視和編輯此專案。",
+    "editGroupsDescription": "這些群組中的人員將能夠編輯專案資訊。",
+    "viewGroupsDescription": "如果未與公眾分享專案，則這些群組中的人員將能夠搜尋和檢視專案。",
+    "errorMessage": "更新您專案的協作者時出錯。"
+  },
+  "content": {
+    "description": "選擇哪些使用者群組可以檢視和編輯此內容。",
+    "editGroupsDescription": "這些群組中的人員將能夠編輯內容資訊。",
+    "viewGroupsDescription": "如果未與公眾分享內容，則這些群組中的人員將能夠搜尋和檢視內容。",
+    "errorMessage": "更新您的內容的協同作業者時出錯。"
+  },
+  "discussion": {
+    "description": "選擇哪些使用者群組可以檢視討論板，以及哪些使用者群組可以編輯討論板資訊。",
+    "editGroupsDescription": "這些群組的成員可以編輯討論板資訊。",
+    "viewGroupsDescription": "這些群組的成員可以搜尋和檢視討論板 (如果不與公眾分享)。",
+    "errorMessage": "更新您的討論的協同作業者時出錯。"
+  },
+  "site": {
+    "description": "選擇哪些使用者群組可以檢視和編輯此網站。",
+    "editGroupsDescription": "這些群組中的人員將能夠編輯網站資訊。",
+    "viewGroupsDescription": "如果未與公眾分享網站，則這些群組中的人員將能夠搜尋和檢視網站。",
+    "errorMessage": "更新您的網站的協同作業者時出錯。"
+  },
+  "template": {
+    "description": "選擇哪些使用者群組可以檢視和編輯此樣板。",
+    "editGroupsDescription": "這些群組中的人員將能夠編輯樣板資訊。",
+    "viewGroupsDescription": "如果未與公眾分享樣板，則這些群組中的人員將能夠搜尋和檢視樣板。",
+    "errorMessage": "更新您的樣板的協同作業者時出錯。"
+  },
+  "survey": {
+    "description": "選擇哪些使用者群組可以檢視和編輯此調查。",
+    "editGroupsDescription": "這些群組中的人員將能夠編輯調查資訊。",
+    "viewGroupsDescription": "如果未與公眾分享網站，則這些群組中的人員將能夠搜尋和檢視調查。",
+    "errorMessage": "更新您的調查的協同作業者時出錯。"
+  },
+  "event": {
+    "description": "選擇哪些使用者群組可以檢視和編輯此事件。",
+    "editGroupsDescription": "這些群組中的人員將能夠編輯事件資訊。",
+    "viewGroupsDescription": "如果未與公眾分享事件，這些群組中的人員將能夠搜尋和檢視事件。",
+    "errorMessage": "更新您的事件協同作業者時出錯。"
+  },
+  "newTab": "在新頁籤中開啟設定檔",
+  "supportingTeams": "支援團隊",
+  "supportingTeamsDesc": "這些支援團隊之前已連結到您的網站。 您可以繼續使用它們與協同作業者分享內容。",
+  "supportTeamsRemove": "移除團隊",
+  "supportingTeamsRemoveError": "取消連結團隊時出錯。 聯絡管理員。",
+  "supportingTeamsRemoveSuccess": "已成功取消連結團隊。",
+  "view": {
+    "button": "建立檢視群組",
+    "formLabel": "新建檢視群組",
+    "description": "設定群組，促進內容分享與通訊。 群組成員將能夠檢視與群組分享的任何內容。"
+  },
+  "edit": {
+    "button": "建立編輯群組",
+    "formLabel": "新建編輯群組",
+    "description": "設定群組，促進內容分享與通訊。 群組成員將能夠檢視和編輯與群組分享的任何內容。"
+  },
+  "groupCreateDisabledButtonTooltip": "您無法建立群組。 您的群組可能已達最大數量，或缺少足夠的權限來建立群組。",
+  "groupCreateError": "建立群組時出錯。",
+  "notice": {
+    "label": "表格警示"
+  }
+}

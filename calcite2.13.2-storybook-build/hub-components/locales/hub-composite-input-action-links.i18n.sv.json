@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "Lägg till första åtgärd",
+  "addSecondAction": "Lägg till andra åtgärd",
+  "addLink": "Lägg till länk",
+  "addSection": "Lägg till avsnitt",
+  "deleteNotice": {
+    "title": "Det går inte att ta bort",
+    "message": "Avsnittet är inte tomt. Ta bort alla länkar utanför avsnittet innan du försöker att ta bort."
+  },
+  "linkEditor": {
+    "save": "Spara",
+    "delete": "Ta bort",
+    "cancel": "Avbryt",
+    "preview": "Förhandsgranskningslänk",
+    "title": {
+      "button1": "Första åtgärd",
+      "button2": "Andra åtgärd",
+      "block": "Åtgärdslänk"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "Länk till befintligt innehåll"
+        },
+        "external": {
+          "label": "Länk till en extern källa"
+        }
+      },
+      "label": {
+        "label": "Etikett",
+        "helperText": {
+          "button": "Den här texten visas på knappen.",
+          "block": "Det här visas på blocket i fetstil."
+        },
+        "requiredError": "Etikett är ett obligatoriskt fält."
+      },
+      "description": {
+        "label": "Beskrivning",
+        "helperText": "Det här är sekundär information."
+      },
+      "href": {
+        "label": "Länk",
+        "requiredError": "Länk är ett obligatoriskt fält.",
+        "formatError": "URL-formateringen är felaktig."
+      },
+      "contentId": {
+        "label": "Innehållslänk",
+        "requiredError": "Länken Innehåll är ett obligatoriskt fält."
+      },
+      "section": {
+        "label": "Flytta till avsnitt",
+        "placeholder": {
+          "noSections": "Inga avsnitt har konfigurerats",
+          "notSet": "Inte i avsnitt"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "Sektion",
+    "helperText": "Avsnitt kan användas för att kapsla länkar under ett menykommando. Avsnitt fungerar inte som en länk.",
+    "section": {
+      "label": {
+        "label": "Etikett",
+        "requiredError": "Etikett är ett obligatoriskt fält."
+      },
+      "description": {
+        "label": "Beskrivning"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "managePrivacyButton": "Administrer beskyttelse af personlige oplysninger",
+  "consentNotice": {
+    "allTracking": "Dette websted er oprettet med ArcGIS Hub og benytter anonym sporing for at forbedre ydelsen og analysere brugen af webstedet i overensstemmelse med Esris Erklæring om beskyttelse af personlige oplysninger. Yderligere sporingssystemer fra tredjeparter overvåger muligvis din brug af webstedet.",
+    "anonymousTracking": "Dette websted er oprettet med ArcGIS Hub og benytter anonym sporing for at forbedre ydelsen og analysere brugen af webstedet i overensstemmelse med Esris Erklæring om beskyttelse af personlige oplysninger.",
+    "noTracking": "Dette websted er oprettet med ArcGIS Hub og bruger kun cookies, der er nødvendige, for at applikationen kan fungere, og som ikke kan slås fra i vores systemer.",
+    "thirdPartyTracking": "Dette websted er oprettet med ArcGIS Hub og bruger kun cookies, der er nødvendige, for at applikationen kan fungere, og som ikke kan slås fra i vores systemer. Yderligere sporingssystemer fra tredjeparter overvåger muligvis din brug af webstedet."
+  },
+  "consent": {
+    "esriPrivacyLink": "Center for Esris beskyttelse af personlige oplysninger",
+    "customerConsentLink": "Flere oplysninger"
+  },
+  "eueiNotice": {
+    "title": "{orgName} medlemmer vil ikke blive sporet",
+    "message": "Esri User Experience Improvement-programmet (EUEI) er blevet deaktiveret for {orgName}. Aktivitet relateret til dit besøg vil ikke blive sporet. Du kan ikke acceptere anonym brugsstatistik eller tredjepartssporing.",
+    "link": "Få mere at vide om EUEI-programmet."
+  },
+  "notice": {
+    "heading": "Indstillinger for beskyttelse af personlige oplysninger",
+    "acceptAllButton": "Accepter alle cookies",
+    "acceptNecessaryButton": "Accepter kun nødvendige cookies",
+    "confirmButton": "Bekræft",
+    "reviewSettingsButton": "Gennemgå indstillinger"
+  },
+  "settings": {
+    "heading": "Indstillinger for beskyttelse af personlige oplysninger",
+    "confirmButton": "Bekræft"
+  },
+  "anonymous": {
+    "heading": "Anonym brugsstatistik",
+    "helpText": "Med disse cookies kan vi overvåge applikationens ydeevne, f.eks. trafikkilder, sidevisninger og interaktioner. De hjælper os med at vide, hvilket indhold der er effektivt, og hvordan de besøgende bevæger sig rundt i applikationen. Alle de indsamlede oplysninger er anonyme (oplysninger, der kan identificere personer, gemmes ikke). Hvis du ikke tillader disse cookies, ved vi ikke, at du har besøgt eller interageret med vores applikation."
+  },
+  "necessary": {
+    "heading": "Strengt nødvendige cookies",
+    "helpText": "Disse cookies er nødvendige, for at applikationen fungerer, og der må ikke slukkes for dem i vores system. De er angivet som reaktion på dine handlinger, der indebærer en anmodning om tjenester, f.eks. at logge ind på din konto. Du kan indstille din browser til at blokere eller advare dig om disse cookies, men dele af applikationen kan være påvirket. Alle de indsamlede oplysninger er anonyme (oplysninger, der kan identificere personer, gemmes ikke)."
+  },
+  "thirdParty": {
+    "heading": "Tredjepartssporing",
+    "helpText": "Disse cookies kan være angivet af udbydere af tredjepartssporing, der er konfigureret på dette websted. De kan indsamle målrettede oplysninger eller markedsføringsinformation om dig under dit besøg. Indsamlede oplysninger kan muligvis blive brugt til formål uden for denne applikation. Hvis du ikke tillader disse cookies, modtager udbydere af tredjepartssporing ikke oplysninger om dit besøg."
+  }
+}

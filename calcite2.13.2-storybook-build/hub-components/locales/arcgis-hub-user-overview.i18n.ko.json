@@ -1,0 +1,35 @@
+{
+  "overview": "오버뷰",
+  "resources": "허브 리소스",
+  "cards": {
+    "items": "항목 수",
+    "groups": "그룹 수"
+  },
+  "hubContent": {
+    "heading": "최근에 수정된 허브 항목",
+    "link": "모든 콘텐츠 보기"
+  },
+  "content": {
+    "heading": "최근에 수정된 콘텐츠",
+    "stat": "항목 수",
+    "link": "모든 콘텐츠 보기"
+  },
+  "groups": {
+    "heading": "최근에 수정된 그룹",
+    "stat": "그룹 수",
+    "link": "모든 그룹 보기"
+  },
+  "contentCount": "콘텐츠",
+  "addContent": "새로 생성",
+  "facets": {
+    "access": {
+      "label": "소속"
+    },
+    "type": {
+      "label": "유형"
+    },
+    "modified": {
+      "label": "수정"
+    }
+  }
+}

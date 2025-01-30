@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-add-content</title>
+
+  <!-- link to calcite components CSS  -->
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+
+  <!-- NOTE: calcite web CSS is only used for grid layout of this page -->
+  <!-- see: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+  <link rel="stylesheet" href="../calcite-web.min.css">
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <!-- <script async src="https://ga.jspm.io/npm:es-module-shims@1.6.2/dist/es-module-shims.js"></script> -->
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+
+  <!-- load calcite components -->
+  <script type="module" src="../../calcite/calcite.esm.js"></script>
+
+  <!-- load hub components -->
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+</head>
+
+<body>
+  <harness-header page-title=arcgis-hub-add-content></harness-header>
+  <div class="grid-container padding-leader-4">
+    <p>This example assumes paige_pa is the user</p>
+    <!-- docs about grid container: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+
+
+    <div class="column-12 trailer-2">
+      <h2>Workspace header use-case:</h2>
+      <p>No query or catalog provided, group selection not allowed</p>
+      <arcgis-hub-add-content  />
+    </div>
+    <div class="column-12 trailer-2">
+      <h2>Usage</h2>
+      <pre><code>&lt;arcgis-hub-add-content /&gt;</code></pre>
+    </div>
+
+
+    <div class="column-12 trailer-2">
+      <h2>Workspace header use-case:</h2>
+      <p>No query or catalog provided, group selection allowed</p>
+      <arcgis-hub-add-content allow-group-selection ></arcgis-hub-add-content>
+    </div>
+    <div class="column-12 trailer-2">
+      <h2>Usage</h2>
+      <pre><code>&lt;arcgis-hub-add-content allow-group-selection /&gt;</code></pre>
+    </div>
+
+
+    <div class="column-12 trailer-2">
+      <h2>Query based Configuration</h2>
+      <p>Options controlled by an IQuery</p>
+      <arcgis-hub-add-content id="galleryExample"/></arcgis-hub-add-content>
+      <p>In this case, there is only one group in the query, so we don't show the Group selection step.
+        If there were more than one, the user would be forced to choose a group.</p>
+    </div>
+     <div class="column-12 trailer-2">
+      <h2>IQuery</h2>
+      <p>This is how Add Content works in the Gallery</p>
+      <pre><code>&lt;arcgis-hub-add-content query={query} /&gt;</code></pre>
+      <pre><code id="galleryExampleJson"></code></pre>
+    </div>
+
+
+    <div class="column-12 trailer-2">
+      <h2>WorkflowConfig based Configuration</h2>
+      <arcgis-hub-add-content id="groupExample"/></arcgis-hub-add-content>
+    </div>
+    <div class="column-12 trailer-2">
+      <h2>Example Workflow Config</h2>
+      <p>This can be used to create specific entities, but targetEntities can not be mixed.</p>
+      <pre><code>&lt;arcgis-hub-add-content config={config} /&gt;</code></pre>
+      <pre><code id="groupExampleJson"></code></pre>
+    </div>
+
+
+    <div class="column-12 trailer-2">
+      <h2>Site header use-case:</h2>
+      <h3>Pass in the catalog</h3>
+      <ul>
+        <li>Choose from groups in the catalog</li>
+        <li>Checks permissions for standard Hub entity create</li>
+        <li>"Add Existing" is not configured</li>
+      </ul>
+      <arcgis-hub-add-content allow-group-selection id="siteHeader"/></arcgis-hub-add-content>
+    </div>
+    <div class="column-12 trailer-2">
+      <h2>Example Catalog Config</h2>
+      <p>This can be used to create specific entities, but targetEntities can not be mixed.</p>
+      <pre><code>&lt;arcgis-hub-add-content catalog={catalog} /&gt;</code></pre>
+      <pre><code id="siteHeaderJson"></code></pre>
+    </div>
+
+    <div class="column-12 trailer-2">
+      <h2>Site header use-case:</h2>
+      <h3>No Catalog Defined</h3>
+
+      <arcgis-hub-add-content allow-group-selection id="siteHeaderNull"/></arcgis-hub-add-content>
+    </div>
+    <div class="column-12 trailer-2">
+      <h2>Example Catalog Config</h2>
+      <p>This occurs when the Site has not defined a catalog.</p>
+      <pre><code>&lt;arcgis-hub-add-content catalog={catalog} /&gt;</code></pre>
+      <pre><code>catalog = null;</code></pre>
+    </div>
+
+  </div>
+
+  <script>
+    // set a property on the element
+    function setProp(which, key, value) {
+      const el = document.getElementById(which);
+      el[key] = value;
+    }
+
+    function setContent(which, content) {
+      const el = document.getElementById(which);
+      el.innerHTML = JSON.stringify(content, null, 2);
+    }
+
+    const galleryQuery = {
+      targetEntity: "item",
+      filters: [{predicates:[{
+        group: "4f795ef243da4649a0ebd436e071c88b",
+        type: "Hub Initiative"
+      }]}]
+    };
+
+
+    const siteHeaderCatalog = {
+      schemaVersion: 1,
+      scopes: {
+        item: {
+          targetEntity: "item",
+          filters: [{predicates:[{ group: "027eda811dde4e8984e73e477b8943f6" }]}]
+        },
+        event: {
+          targetEntity: "event",
+          filters: [{predicates:[{ group: "0008a64a72654f6487f67efd9d66711d" }]}]
+        },
+      }
+    }
+
+
+    const groupConfig = {
+      create: {
+        workflow: 'create',
+        targetEntity: 'group',
+        types: ['Group']
+      }
+    }
+    setProp('galleryExample', 'query', galleryQuery);
+    setContent('galleryExampleJson',  galleryQuery);
+    setProp('groupExample', 'config', groupConfig);
+    setContent('groupExampleJson', groupConfig);
+
+    setProp('siteHeader', 'catalog', siteHeaderCatalog);
+    setContent('siteHeaderJson', siteHeaderCatalog);
+
+  </script>
+</body>
+
+</html>

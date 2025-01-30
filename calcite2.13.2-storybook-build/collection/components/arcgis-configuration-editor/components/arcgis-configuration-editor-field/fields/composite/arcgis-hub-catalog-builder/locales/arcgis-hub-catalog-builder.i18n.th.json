@@ -1,0 +1,24 @@
+{
+  "shared": {
+    "targetEntities": {
+      "item": "รายการ",
+      "event": "เหตุการณ์"
+    }
+  },
+  "targetEntityBlock": {
+    "configured": "กำหนดค่าแล้ว",
+    "notConfigured": "ยังไม่ได้กำหนดค่า"
+  },
+  "targetEntityFlow": {
+    "back": "ปิดการกำหนดค่า: {targetEntity}",
+    "description": "กำหนดค่า: {targetEntity}",
+    "source": {
+      "heading": "ต้นทาง",
+      "description": "แหล่งที่มากำหนดขอบเขตของเนื้อหา แก้ไขผลลัพธ์โดยการเพิ่มหรือตัดพารามิเตอร์<br/><br/>*ระบุว่าเป็นฟิลด์ที่จำเป็น"
+    },
+    "collections": {
+      "heading": "คอลเลกชัน",
+      "description": "จัดระเบียบเนื้อหาเป็นชุดย่อยแยกจากกัน เพื่อให้สามารถเรียกดูและสำรวจได้ง่ายขึ้น<br/><br/>*ระบุว่าเป็นฟิลด์ที่จำเป็น"
+    }
+  }
+}

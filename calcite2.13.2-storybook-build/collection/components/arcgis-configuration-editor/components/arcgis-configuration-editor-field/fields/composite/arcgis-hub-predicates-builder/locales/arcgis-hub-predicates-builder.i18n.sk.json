@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "Editovať skupiny",
+        "viewGroups": "Zobraziť skupiny"
+      },
+      "facet": {
+        "label": "Z",
+        "myGroups": "Moje skupiny",
+        "myOrganization": "Moja organizácia",
+        "myCommunity": "Moja komunita"
+      }
+    }
+  },
+  "property": {
+    "label": "Parameter",
+    "requiredError": "Parameter je vyžadovaný"
+  },
+  "operator": {
+    "label": "Kritéria",
+    "requiredError": "Požadované kritériá"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "Typ"
+    },
+    "group": {
+      "default": "Skupiny"
+    },
+    "occurrence": {
+      "default": "Udalosť"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "Je akékoľvek",
+      "group": "Je zdieľané s niekým z"
+    },
+    "isAll": {
+      "default": "Je všetko",
+      "group": "Je zdieľané so všetkými"
+    },
+    "isExactly": {
+      "default": "Je presne",
+      "occurrence": "Je"
+    },
+    "isNot": {
+      "default": "Nie je",
+      "type": "nie je žiadne z",
+      "group": "nie je zdieľané s nikým z"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "Skupiny",
+      "requiredError": "Skupiny sú vyžadované"
+    },
+    "type": {
+      "label": "Typy",
+      "requiredError": "Typy sú vyžadované",
+      "app": {
+        "label": "Aplikácie"
+      },
+      "content": {
+        "label": "Obsah"
+      },
+      "dataset": {
+        "label": "Datasety"
+      },
+      "discussion": {
+        "label": "Diskusie"
+      },
+      "document": {
+        "label": "Dokumenty"
+      },
+      "event": {
+        "label": "Udalosti"
+      },
+      "feedback": {
+        "label": "Spätná väzba"
+      },
+      "initiative": {
+        "label": "Iniciatívy"
+      },
+      "map": {
+        "label": "Mapy"
+      },
+      "project": {
+        "label": "Projekty"
+      },
+      "site": {
+        "label": "Lokality"
+      },
+      "template": {
+        "label": "Šablóny"
+      }
+    },
+    "occurrence": {
+      "label": "Udalosť",
+      "requiredError": "Výskyt je vyžadovaný",
+      "upcoming": "Nadchádzajúce",
+      "past": "Minulé",
+      "inProgress": "Prebieha"
+    }
+  }
+}

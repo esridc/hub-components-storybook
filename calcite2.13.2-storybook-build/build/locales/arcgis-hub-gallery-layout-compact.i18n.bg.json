@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Няма намерени резултати."
+    },
+    "error": {
+      "message": "Съжаляваме, но в търсенето възникна грешка."
+    }
+  },
+  "type": "Тип",
+  "tags": "Тагове",
+  "owner": "Собственик",
+  "dateCreated": "Създадено",
+  "dateUpdated": "Променени",
+  "categories": "Категории",
+  "dateAndTime": "Дата и час",
+  "allDay": "{date} (цял ден)",
+  "allDayRange": "{from} - {to} (цял ден)",
+  "location": "Местоположение",
+  "attendanceType": "Вид присъствие",
+  "inPerson": "Лично",
+  "online": "Онлайн",
+  "hybrid": "Хибридно"
+}

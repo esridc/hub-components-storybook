@@ -1,0 +1,1 @@
+import{h as a}from"./p-df5fbfcb.js";const e=({t:e,state:s,actionKey:i,headingKey:t,messageKey:n,icon:o,kind:c,className:d,loadingLabel:g})=>a("arcgis-hub-help-state",{actionText:i?e(i):"",class:d,heading:e(t),icon:o,isMain:!1,kind:c,loadingLabel:g&&e(g),message:n?e(n):"",state:s});export{e as H}

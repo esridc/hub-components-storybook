@@ -1,0 +1,35 @@
+{
+  "success": "已成功儲存編輯內容",
+  "error": "儲存編輯內容時發生錯誤",
+  "formAlert": "表格警示",
+  "projects": {
+    "header": "專案",
+    "list": "專案清單",
+    "config": "配置",
+    "notConfigured": "未配置專案功能。 請使用「配置」頁籤。"
+  },
+  "content": {
+    "header": "內容",
+    "list": "內容清單",
+    "config": "配置",
+    "notConfigured": "未配置內容功能。 請使用「配置」頁籤。"
+  },
+  "initiatives": {
+    "header": "新措施",
+    "list": "倡議清單",
+    "config": "配置",
+    "notConfigured": "未配置倡議功能。 請使用「配置」頁籤。"
+  },
+  "events": {
+    "header": "事件",
+    "list": "事件清單",
+    "config": "配置",
+    "notConfigured": "未配置事件功能。 請使用「配置」頁籤。"
+  },
+  "pages": {
+    "header": "頁面",
+    "list": "頁面清單",
+    "config": "配置",
+    "notConfigured": "未配置頁面功能。 請使用「配置」頁籤。"
+  }
+}

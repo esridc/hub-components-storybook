@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: var(--calcite-color-text-1);
+  list-style: none;
+}
+
+:host {
+  display: block;
+  overflow: hidden;
+  border-radius: 1rem;
+  padding: 0px;
+}
+
+.hub-timeline__header {
+  padding-bottom: 3.5rem;
+}
+
+h1, label {
+  font-weight: var(--calcite-font-weight-normal);
+}
+
+h1 {
+  font-size: var(--calcite-font-size-3);
+  line-height: 2rem;
+}
+
+label {
+  font-size: var(--calcite-font-size-0);
+  line-height: 1.25rem;
+  font-weight: var(--calcite-font-weight-light);
+}
+
+ol {
+  background-color: var(--calcite-color-foreground-1);
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+li {
+  border-left: 1px dashed #cccccc;
+  position: relative;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+li:last-child {
+  border: 0px;
+  padding-bottom: 0px;
+}
+
+li calcite-icon {
+  left: -13px;
+  position: absolute;
+  top: 0.25rem;
+  background-color: var(--calcite-color-foreground-1);
+}
+
+.stage {
+  border: 1px rgba(204, 204, 204, 0.2) solid;
+  top: -12px;
+  position: relative;
+  margin-left: 1.25rem;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  --tw-shadow: 0 4px 8px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -1px rgba(0, 0, 0, 0.04);
+  --tw-shadow-colored: 0 4px 8px -1px var(--tw-shadow-color), 0 2px 4px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.stage calcite-link {
+  margin-top: 0.5rem;
+  display: block;
+}
+
+.stage h3 {
+  font-size: var(--calcite-font-size-1);
+  line-height: 1.5rem;
+  font-weight: var(--calcite-font-weight-medium);
+}
+
+.stage span {
+  margin-top: 0.25rem;
+  font-size: var(--calcite-font-size--1);
+  line-height: 1rem;
+  font-weight: var(--calcite-font-weight-light);
+  color: var(--calcite-color-text-3);
+}
+
+p {
+  margin-top: 1rem;
+  font-size: var(--calcite-font-size-0);
+  line-height: 1.25rem;
+  font-weight: var(--calcite-font-weight-normal);
+}
+
+.empty-state {
+  height: 20rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center}
+
+.empty-state calcite-icon {
+  height: 60%;
+  width: 60%
+}
+
+.collapse-expand-btn {
+  margin-left: 20px;
+}

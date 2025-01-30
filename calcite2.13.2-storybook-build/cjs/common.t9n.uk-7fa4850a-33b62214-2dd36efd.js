@@ -1,0 +1,11 @@
+'use strict';
+
+const e={mean:"Середнє",median:"Медіанне",sum:"Сума",discretePercentile:"Дискретний процентиль",minimum:"Мінімум",maximum:"Максимум",variance:"Дисперсія",count:"Лічильник",aggregation:"${ statistics } з ${ fieldName }",noAggregation:"Немає агрегування"},t="Діаграма",a="Кількість серій",i="Вісь X",s="Недоступно",n={start:"Прив'язка до першої точки даних",end:"Прив'язка до останньої точки даних"};var g={statistics:e,defaultTitle:t,countSeries:a,xAxis:i,notAvailable:s,timeAggregationTypes:n};
+
+exports.countSeries = a;
+exports.default = g;
+exports.defaultTitle = t;
+exports.notAvailable = s;
+exports.statistics = e;
+exports.timeAggregationTypes = n;
+exports.xAxis = i;

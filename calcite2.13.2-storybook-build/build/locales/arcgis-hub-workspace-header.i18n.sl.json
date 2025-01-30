@@ -1,0 +1,47 @@
+{
+  "communityOrg": "Organizacija zainteresirane javnosti",
+  "editLayout": "Uredi postavitev",
+  "orgWorkspace": "Odpri domači delovni prostor",
+  "editS123": "Uredi v Survey123",
+  "editAdvancedJson": "Uredi napredni JSON",
+  "view": {
+    "project": "Ogled projekta",
+    "site": "Ogled spletnega mesta",
+    "initiative": "Ogled iniciative",
+    "discussion": "Ogled foruma",
+    "content": "Ogled vsebine",
+    "page": "Ogled strani",
+    "group": "Ogled skupine",
+    "initiativeTemplate": "Ogled predloge iniciative",
+    "template": "Ogled predloge",
+    "survey": "Oglej si obrazec",
+    "event": "Ogled dogodka"
+  },
+  "access": {
+    "share": "Deli",
+    "sharingLevel": "Stopnja deljenja",
+    "groupSharing": "Skupna raba v skupini",
+    "tooltip": {
+      "public": "Nivo deljenja: javnost",
+      "org": "Nivo deljenja: organizacija",
+      "private": "Nivo deljenja: zasebno",
+      "shared": "Nivo deljenja: zasebno deljeno"
+    },
+    "save": "Shrani",
+    "cancel": "Prekliči",
+    "alert": {
+      "success": "Uspešno shranjena urejanja",
+      "error": "Napaka pri shranjevanju sprememb",
+      "label": "Opozorilo obrazca"
+    }
+  },
+  "popoverActions": {
+    "label": "Več dejanj",
+    "openInEnterprise": "Odpri v ArcGIS Enterprise",
+    "openInOnline": "Odpri v ArcGIS Online"
+  },
+  "homeLink": {
+    "text": "Domov"
+  },
+  "createContent": "Ustvari"
+}

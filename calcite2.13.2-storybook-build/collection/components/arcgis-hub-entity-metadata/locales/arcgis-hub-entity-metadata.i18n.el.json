@@ -1,0 +1,239 @@
+{
+  "owner": {
+    "description": "Κάτοχος"
+  },
+  "updatedDate": {
+    "description": "Ενημερωμένη ημερομηνία",
+    "descriptionWithFrequency": "Ενημερωμένη ημερομηνία: {updatedDateFormatted}"
+  },
+  "createdDate": {
+    "description": "Ημερομηνία δημιουργίας"
+  },
+  "joinedDate": {
+    "description": "Ημερομηνία δήλωσης συμμετοχής"
+  },
+  "access": {
+    "label": {
+      "public": "Δημόσιο περιεχόμενο",
+      "org": "Οργανισμός",
+      "private": "Κάτοχος",
+      "shared": "Ιδιωτική κοινοποίηση"
+    },
+    "description": {
+      "public": {
+        "site": "Αυτόν τον ιστότοπο μπορούν να τον δουν όλοι",
+        "project": "Οποιοσδήποτε μπορεί να δει αυτό το έργο",
+        "initiative": "Αυτήν την πρωτοβουλία μπορούν να τη δουν όλοι",
+        "discussion": "Όλοι μπορούν να δουν αυτή τη συζήτηση",
+        "default": "Αυτό το περιεχόμενο μπορούν να το δουν όλοι",
+        "event": "Αυτό το συμβάν μπορούν να το δουν όλοι"
+      },
+      "org": {
+        "site": "Αυτός ο ιστότοπος είναι ορατός σε όλα τα άτομα του οργανισμού σας",
+        "project": "Αυτό το έργο είναι ορατό σε όλα τα άτομα του οργανισμού σας",
+        "initiative": "Αυτή η πρωτοβουλία είναι ορατή σε όλα τα άτομα του οργανισμού σας",
+        "discussion": "Αυτή η συζήτηση είναι ορατή σε όλα τα άτομα του οργανισμού σας",
+        "default": "Αυτό το περιεχόμενο είναι ορατό σε όλα τα άτομα του οργανισμού σας",
+        "event": "Αυτό το περιεχόμενο είναι ορατό σε όλα τα άτομα του συμβάντος σας"
+      },
+      "private": {
+        "site": "Μόνο εσείς μπορείτε να δείτε αυτόν τον ιστότοπο",
+        "project": "Μόνο εσείς μπορείτε να δείτε αυτό το έργο",
+        "initiative": "Μόνο εσείς μπορείτε να δείτε αυτή την πρωτοβουλία",
+        "discussion": "Μόνο εσείς μπορείτε να δείτε αυτή τη συζήτηση",
+        "default": "Μόνο εσείς μπορείτε να δείτε αυτό το περιεχόμενο",
+        "event": "Μόνο εσείς μπορείτε να δείτε αυτό το συμβάν"
+      },
+      "shared": {
+        "site": "Αυτός ο ιστότοπος είναι ορατός σε επιλεγμένες ομάδες",
+        "project": "Αυτό το έργο είναι ορατό σε επιλεγμένες ομάδες",
+        "initiative": "Αυτή η πρωτοβουλία είναι ορατή σε επιλεγμένες ομάδες",
+        "discussion": "Αυτή η συζήτηση είναι ορατή σε επιλεγμένες ομάδες",
+        "default": "Αυτό το περιεχόμενο είναι ορατό σε επιλεγμένες ομάδες",
+        "event": "Αυτό το συμβάν είναι ορατό σε επιλεγμένες ομάδες"
+      }
+    }
+  },
+  "type": {
+    "fallback": {
+      "content": "Περιεχόμενο",
+      "discussion": "Συζήτηση",
+      "event": "Συμβάν",
+      "group": "Ομάδα",
+      "initiative": "Πρωτοβουλία",
+      "org": "Οργανισμός",
+      "page": "Σελίδα",
+      "project": "Έργο",
+      "site": "Ιστότοπος",
+      "survey": "Έρευνα",
+      "initiativeTemplate": "Πρότυπο",
+      "user": "Χρήστης"
+    },
+    "appbuilderExtension": "Εργαλείο GIS",
+    "appbuilderWidgetPackage": "Εργαλείο GIS",
+    "application": "Καταχωρημένη εφαρμογή",
+    "arcgisProMap": "Εργαλείο GIS",
+    "cadDrawing": "Εργαλείο GIS",
+    "cityEngineWebScene": "Εφαρμογή 3D",
+    "codeAttachment": "Εργαλείο GIS",
+    "colorSet": "Εργαλείο GIS",
+    "content": "Περιεχόμενο",
+    "contentCategorySet": "GIS",
+    "csv": "Σύνολο δεδομένων",
+    "csvCollection": "Αρχείο δεδομένων",
+    "dashboard": "Πίνακας εργαλείων",
+    "desktopApplication": "Εργαλείο GIS",
+    "document": "Έγγραφο",
+    "documentLink": "Διαδικτυακός Σύνδεσμος",
+    "excaliburImageryProject": "Εργαλείο GIS",
+    "explorerMap": "Εργαλείο GIS",
+    "exportPackage": "Εργαλείο GIS",
+    "featureCollection": "Σύνολο δεδομένων",
+    "featureCollectionTemplate": "Εργαλείο GIS",
+    "featureLayer": "Σύνολο δεδομένων",
+    "featureService": "Χάρτης",
+    "fileGeodatabase": "Αρχείο δεδομένων",
+    "form": "Έρευνα",
+    "geocodingService": "API προγραμματισμού",
+    "geodataService": "API προγραμματισμού",
+    "geojson": "Περιεχόμενο",
+    "geometryService": "API προγραμματισμού",
+    "geopackage": "Αρχείο δεδομένων",
+    "geoprocessingService": "API προγραμματισμού",
+    "globeLayer": "Αρχείο δεδομένων",
+    "globeService": "API προγραμματισμού",
+    "hubInitiative": "Πρωτοβουλία",
+    "hubInitiativeTemplate": "Πρότυπο",
+    "hubPage": "Σελίδα",
+    "hubProject": "Έργο",
+    "hubSiteApplication": "Ιστότοπος",
+    "image": "Εικόνα",
+    "imageService": "Σύνολο δεδομένων δορυφορικών εικόνων",
+    "insightsModel": "Εργαλείο GIS",
+    "insightsPage": "Ανάλυση",
+    "insightsTheme": "Εργαλείο GIS",
+    "insightsWorkbook": "Workbook ανάλυσης",
+    "iWorkKeynote": "Παρουσίαση",
+    "iWorkNumbers": "Υπολογιστικό φύλλο",
+    "iWorkPages": "Έγγραφο",
+    "kml": "Σύνολο δεδομένων",
+    "kmlCollection": "Αρχείο δεδομένων",
+    "layer": "Αρχείο δεδομένων",
+    "layerPackage": "Αρχείο δεδομένων",
+    "locatorPackage": "Εργαλείο GIS",
+    "mapArea": "Εργαλείο GIS",
+    "mapDocument": "Εργαλείο GIS",
+    "mapImageLayer": "Χάρτης",
+    "mapPackage": "Αρχείο δεδομένων",
+    "mapService": "Χάρτης",
+    "microsoftExcel": "Υπολογιστικό φύλλο",
+    "microsoftPowerpoint": "Παρουσίαση",
+    "microsoftVizio": "Microsoft Visio",
+    "microsoftWord": "Έγγραφο",
+    "mission": "Εργαλείο GIS",
+    "mobileApplication": "Eφαρμογή",
+    "mobileMapPackage": "Αρχείο δεδομένων",
+    "native application template": "Εργαλείο προγραμματισμού",
+    "nativeApplication": "Eφαρμογή",
+    "nativeApplicationInstaller": "Εργαλείο προγραμματισμού",
+    "networkAnalysisService": "API προγραμματισμού",
+    "notebook": "Ανάλυση",
+    "orientedImageryCatalog": "Σύνολο δεδομένων δορυφορικών εικόνων",
+    "orthoMappingProject": "Εργαλείο GIS",
+    "orthoMappingTemplate": "Εργαλείο GIS",
+    "pdf": "Έγγραφο",
+    "quickcaptureProject": "Έρευνα σε φορητή συσκευή",
+    "rasterLayer": "Χάρτης",
+    "realTimeAnalytic": "API προγραμματισμού",
+    "relationalDatabaseConnection": "API προγραμματισμού",
+    "reportTemplate": "Εργαλείο GIS",
+    "sceneLayer": "Σύνολο δεδομένων 3D",
+    "sceneService": "Σύνολο δεδομένων 3D",
+    "serviceDefinition": "Αρχείο δεδομένων",
+    "shapefile": "Σύνολο δεδομένων",
+    "solution": "Λύση",
+    "sqliteGeodatabase": "Αρχείο δεδομένων",
+    "statisticalDataCollection": "Αρχείο δεδομένων",
+    "storymap": "StoryMap",
+    "symbolSet": "Αρχείο δεδομένων",
+    "table": "Σύνολο δεδομένων",
+    "team": "Ομάδα",
+    "urbanModel": "Μοντέλο Urban",
+    "vectorTileService": "Χάρτης",
+    "visioDocument": "Έγγραφο",
+    "webExperience": "Eφαρμογή",
+    "webMap": "Χάρτης",
+    "webMappingApplication": "Eφαρμογή",
+    "webScene": "Χάρτης 3D",
+    "wfs": "Χάρτης",
+    "wms": "Χάρτης",
+    "wmts": "Χάρτης",
+    "workflowManagerService": "API προγραμματισμού",
+    "workforceProject": "Διαχειριστής ροών εργασίας"
+  },
+  "location": {
+    "description": "Τοποθεσία"
+  },
+  "members": {
+    "noMember": "Κανένα μέλος",
+    "oneMember": "Μέλη: 1",
+    "members": "Μέλη: {count}",
+    "description": {
+      "value": "Προβολή όλων των μελών της ομάδας"
+    }
+  },
+  "tooltip": {
+    "label": "Συμβουλή εργαλείου αντικειμένου μεταδεδομένων"
+  },
+  "relevantArea": {
+    "title": "Σχετική περιοχή"
+  },
+  "license": {
+    "tooltip": "Ορίζει το πώς το περιεχόμενο μπορεί να χρησιμοποιηθεί",
+    "set": {
+      "title": "{license} άδεια χρήσης",
+      "customTitle": "Προσαρμοσμένη άδεια χρήσης",
+      "description": {
+        "value": "Προβολή λεπτομερειών άδειας χρήσης"
+      }
+    },
+    "unset": {
+      "title": "Δεν έχει δοθεί άδεια χρήσης",
+      "description": {
+        "value": "Αίτημα για δικαιώματα χρήσης"
+      }
+    }
+  },
+  "size": {
+    "description": {
+      "value": "Μέγεθος αρχείου εγγράφου"
+    }
+  },
+  "recordCount": {
+    "title": "Εγγραφές: {count}",
+    "description": {
+      "value": "Προβολή πίνακα δεδομένων"
+    }
+  },
+  "metadataModified": {
+    "description": {
+      "defaultValue": "Οι πληροφορίες ενημερώθηκαν",
+      "dynamicValue": "Οι πληροφορίες ενημερώθηκαν: {lastUpdated}"
+    }
+  },
+  "updateFrequency": {
+    "continual": "Συνεχώς",
+    "daily": "Καθημερινά",
+    "weekly": "Εβδομαδιαία",
+    "fortnightly": "Ανά δύο βδομάδες",
+    "monthly": "Μηνιαία",
+    "quarterly": "Ανά τρίμηνο",
+    "biannually": "Ανά εξάμηνο",
+    "annually": "Ετησίως",
+    "as-needed": "Όταν χρειάζεται",
+    "irregular": "Ακανόνιστο",
+    "not-planned": "Μη προγραμματισμένο",
+    "unknown": "Άγνωστο",
+    "semimonthly": "Ανά δεκαπενθήμερο"
+  }
+}

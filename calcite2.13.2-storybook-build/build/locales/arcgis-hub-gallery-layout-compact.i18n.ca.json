@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "No s'ha trobat cap resultat."
+    },
+    "error": {
+      "message": "S'ha produït un error en la cerca."
+    }
+  },
+  "type": "Tipus",
+  "tags": "Etiquetes",
+  "owner": "Propietari",
+  "dateCreated": "Creat",
+  "dateUpdated": "Data de modificació",
+  "categories": "Categories",
+  "dateAndTime": "Data i hora",
+  "allDay": "{date} (tot el dia)",
+  "allDayRange": "{from}-{to} (tot el dia)",
+  "location": "Ubicació",
+  "attendanceType": "Tipus d'assistència",
+  "inPerson": "Presencial",
+  "online": "En línia",
+  "hybrid": "Híbrid"
+}

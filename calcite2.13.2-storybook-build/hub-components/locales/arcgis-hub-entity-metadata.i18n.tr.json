@@ -1,0 +1,239 @@
+{
+  "owner": {
+    "description": "Sahip"
+  },
+  "updatedDate": {
+    "description": "Güncellenme tarihi",
+    "descriptionWithFrequency": "Güncelleme tarihi: {updatedDateFormatted}"
+  },
+  "createdDate": {
+    "description": "Oluşturulma tarihi"
+  },
+  "joinedDate": {
+    "description": "Katılım tarihi"
+  },
+  "access": {
+    "label": {
+      "public": "Genel",
+      "org": "Kuruluş",
+      "private": "Sahip",
+      "shared": "Özel olarak paylaşılmış"
+    },
+    "description": {
+      "public": {
+        "site": "Bu siteyi herkes görebilir",
+        "project": "Bu projeyi herkes görebilir",
+        "initiative": "Bu inisiyatifi herkes görebilir",
+        "discussion": "Bu tartışmayı herkes görebilir",
+        "default": "Bu içeriği herkes görebilir",
+        "event": "Bu etkinliği herkes görebilir"
+      },
+      "org": {
+        "site": "Bu siteyi kuruluşunuzdaki herkes görebilir",
+        "project": "Bu projeyi kuruluşunuzdaki herkes görebilir",
+        "initiative": "Bu inisiyatifi kuruluşunuzdaki herkes görebilir",
+        "discussion": "Bu tartışmayı kuruluşunuzdaki herkes görebilir",
+        "default": "Bu içeriği kuruluşunuzdaki herkes görebilir",
+        "event": "Bu etkinliği kuruluşunuzdaki herkes görebilir"
+      },
+      "private": {
+        "site": "Bu siteyi yalnızca siz görebilirsiniz",
+        "project": "Bu projeyi sadece siz görebilirsiniz",
+        "initiative": "Bu inisiyatifi sadece siz görebilirsiniz",
+        "discussion": "Bu tartışmayı yalnızca siz görebilirsiniz",
+        "default": "Bu içeriği sadece siz görebilirsiniz",
+        "event": "Bu etkinliği sadece siz görebilirsiniz"
+      },
+      "shared": {
+        "site": "Bu siteyi seçili gruplar görebilir",
+        "project": "Bu projeyi seçili gruplar görebilir",
+        "initiative": "Bu inisiyatifi seçili gruplar görebilir",
+        "discussion": "Bu tartışmayı seçili gruplar görebilir",
+        "default": "Bu içeriği seçili gruplar görebilir",
+        "event": "Bu etkinliği seçili gruplar görebilir"
+      }
+    }
+  },
+  "type": {
+    "fallback": {
+      "content": "İçerik",
+      "discussion": "Tartışma",
+      "event": "Etkinlik",
+      "group": "Grup",
+      "initiative": "İnisiyatif",
+      "org": "Kuruluş",
+      "page": "Sayfa",
+      "project": "Proje",
+      "site": "Site",
+      "survey": "Anket",
+      "initiativeTemplate": "Şablon",
+      "user": "Kullanıcı"
+    },
+    "appbuilderExtension": "CBS Aracı",
+    "appbuilderWidgetPackage": "CBS Aracı",
+    "application": "Kayıtlı Uygulama",
+    "arcgisProMap": "CBS Aracı",
+    "cadDrawing": "CBS Aracı",
+    "cityEngineWebScene": "3B Uygulama",
+    "codeAttachment": "CBS Aracı",
+    "colorSet": "CBS Aracı",
+    "content": "İçerik",
+    "contentCategorySet": "CBS",
+    "csv": "Veri kümesi",
+    "csvCollection": "Veri Dosyası",
+    "dashboard": "Gösterge Paneli",
+    "desktopApplication": "CBS Aracı",
+    "document": "Belge",
+    "documentLink": "Web Bağlantısı",
+    "excaliburImageryProject": "CBS Aracı",
+    "explorerMap": "CBS Aracı",
+    "exportPackage": "CBS Aracı",
+    "featureCollection": "Veri kümesi",
+    "featureCollectionTemplate": "CBS Aracı",
+    "featureLayer": "Veri kümesi",
+    "featureService": "Harita",
+    "fileGeodatabase": "Veri Dosyası",
+    "form": "Anket",
+    "geocodingService": "Geliştirici API",
+    "geodataService": "Geliştirici API",
+    "geojson": "İçerik",
+    "geometryService": "Geliştirici API",
+    "geopackage": "Veri Dosyası",
+    "geoprocessingService": "Geliştirici API",
+    "globeLayer": "Veri Dosyası",
+    "globeService": "Geliştirici API",
+    "hubInitiative": "İnisiyatif",
+    "hubInitiativeTemplate": "Şablon",
+    "hubPage": "Sayfa",
+    "hubProject": "Proje",
+    "hubSiteApplication": "Site",
+    "image": "Görüntü",
+    "imageService": "Görüntü Veri Kümesi",
+    "insightsModel": "CBS Aracı",
+    "insightsPage": "Analiz",
+    "insightsTheme": "CBS Aracı",
+    "insightsWorkbook": "Analiz Çalışma Kitabı",
+    "iWorkKeynote": "Sunum",
+    "iWorkNumbers": "Elektronik Tablo",
+    "iWorkPages": "Belge",
+    "kml": "Veri kümesi",
+    "kmlCollection": "Veri Dosyası",
+    "layer": "Veri Dosyası",
+    "layerPackage": "Veri Dosyası",
+    "locatorPackage": "CBS Aracı",
+    "mapArea": "CBS Aracı",
+    "mapDocument": "CBS Aracı",
+    "mapImageLayer": "Harita",
+    "mapPackage": "Veri Dosyası",
+    "mapService": "Harita",
+    "microsoftExcel": "Elektronik Tablo",
+    "microsoftPowerpoint": "Sunum",
+    "microsoftVizio": "Microsoft Visio",
+    "microsoftWord": "Belge",
+    "mission": "CBS Aracı",
+    "mobileApplication": "Uygulama",
+    "mobileMapPackage": "Veri Dosyası",
+    "native application template": "Geliştirici Aracı",
+    "nativeApplication": "Uygulama",
+    "nativeApplicationInstaller": "Geliştirici Aracı",
+    "networkAnalysisService": "Geliştirici API",
+    "notebook": "Analiz",
+    "orientedImageryCatalog": "Görüntü Veri Kümesi",
+    "orthoMappingProject": "CBS Aracı",
+    "orthoMappingTemplate": "CBS Aracı",
+    "pdf": "Belge",
+    "quickcaptureProject": "Mobil Anket",
+    "rasterLayer": "Harita",
+    "realTimeAnalytic": "Geliştirici API",
+    "relationalDatabaseConnection": "Geliştirici API",
+    "reportTemplate": "CBS Aracı",
+    "sceneLayer": "3B Veri Kümesi",
+    "sceneService": "3B Veri Kümesi",
+    "serviceDefinition": "Veri Dosyası",
+    "shapefile": "Veri kümesi",
+    "solution": "Çözüm",
+    "sqliteGeodatabase": "Veri Dosyası",
+    "statisticalDataCollection": "Veri Dosyası",
+    "storymap": "StoryMap",
+    "symbolSet": "Veri Dosyası",
+    "table": "Veri kümesi",
+    "team": "Ekip",
+    "urbanModel": "Urban Modeli",
+    "vectorTileService": "Harita",
+    "visioDocument": "Belge",
+    "webExperience": "Uygulama",
+    "webMap": "Harita",
+    "webMappingApplication": "Uygulama",
+    "webScene": "3B Harita",
+    "wfs": "Harita",
+    "wms": "Harita",
+    "wmts": "Harita",
+    "workflowManagerService": "Geliştirici API",
+    "workforceProject": "İş Akışı Yöneticisi"
+  },
+  "location": {
+    "description": "Konum"
+  },
+  "members": {
+    "noMember": "Üye yok",
+    "oneMember": "Üyeler: 1",
+    "members": "Üyeler: {count}",
+    "description": {
+      "value": "Tüm grup üyelerini görüntüle"
+    }
+  },
+  "tooltip": {
+    "label": "Meta veri öge araç ipucu"
+  },
+  "relevantArea": {
+    "title": "İlgili alan"
+  },
+  "license": {
+    "tooltip": "Bu içeriğin nasıl kullanılabileceğini tanımlar",
+    "set": {
+      "title": "{license} lisansı",
+      "customTitle": "Özel lisans",
+      "description": {
+        "value": "Lisans ayrıntılarını görüntüle"
+      }
+    },
+    "unset": {
+      "title": "Lisans sağlanmadı",
+      "description": {
+        "value": "Kullanım izni iste"
+      }
+    }
+  },
+  "size": {
+    "description": {
+      "value": "Belge dosyası boyutu"
+    }
+  },
+  "recordCount": {
+    "title": "Kayıtlar: {count}",
+    "description": {
+      "value": "Veri tablosunu görüntüle"
+    }
+  },
+  "metadataModified": {
+    "description": {
+      "defaultValue": "Bilgiler güncellendi",
+      "dynamicValue": "Bilgiler güncellendi: {lastUpdated}"
+    }
+  },
+  "updateFrequency": {
+    "continual": "Sürekli",
+    "daily": "Günlük",
+    "weekly": "Haftalık",
+    "fortnightly": "İki haftada bir",
+    "monthly": "Aylık",
+    "quarterly": "Üç ayda bir",
+    "biannually": "İki yılda bir",
+    "annually": "Yılda bir",
+    "as-needed": "Gerektiğinde",
+    "irregular": "Düzensiz",
+    "not-planned": "Planlı Değil",
+    "unknown": "Bilinmeyen",
+    "semimonthly": "Ayda iki kez"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "settings": "Thiết lập",
+  "advanced": "Nâng cao",
+  "delete": {
+    "event": "Xóa sự kiện này",
+    "desc": "Thao tác xóa sự kiện này không thể hoàn tác. Những người đăng ký hiện có sẽ được thông báo (nếu chức năng thông báo tự động được bật cho sự kiện).",
+    "deleteButton": "Xóa sự kiện"
+  },
+  "cancel": {
+    "header": "Hủy sự kiện này",
+    "desc": "Nếu bị hủy, sự kiện vẫn sẽ hiển thị với trạng thái đã hủy. Đăng ký sẽ dừng lại và những người đăng ký hiện có sẽ được thông báo (nếu chức năng thông báo tự động được bật cho sự kiện).",
+    "event": "Hủy sự kiện",
+    "notice": {
+      "success": {
+        "title": "Sự kiện đã bị hủy",
+        "message": "Những người đăng ký hiện có sẽ được thông báo nếu chức năng thông báo tự động được bật."
+      },
+      "error": {
+        "title": "Không thể hủy sự kiện",
+        "message": "Vui lòng thử lại"
+      }
+    }
+  },
+  "enable": {
+    "event": "Kích hoạt lại sự kiện",
+    "desc": "Sự kiện đã bị hủy (hiển thị với trạng thái đã hủy).",
+    "notice": {
+      "success": {
+        "title": "Sự kiện đã được kích hoạt lại",
+        "message": "Những người đăng ký hiện có sẽ được thông báo nếu chức năng thông báo tự động được bật."
+      },
+      "error": {
+        "title": "Không thể kích hoạt lại sự kiện",
+        "message": "Vui lòng thử lại"
+      }
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "event": "Xóa sự kiện"
+    },
+    "content": "Bạn có chắc chắn muốn xóa không:",
+    "delete": "Xóa sự kiện",
+    "cancel": "Hủy sự kiện"
+  },
+  "notice": {
+    "label": "Cảnh báo biểu mẫu"
+  }
+}

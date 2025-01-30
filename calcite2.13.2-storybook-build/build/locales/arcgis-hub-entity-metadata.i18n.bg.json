@@ -1,0 +1,239 @@
+{
+  "owner": {
+    "description": "Собственик"
+  },
+  "updatedDate": {
+    "description": "Актуализирана дата",
+    "descriptionWithFrequency": "Актуализирана дата: {updatedDateFormatted}"
+  },
+  "createdDate": {
+    "description": "Дата на създаване"
+  },
+  "joinedDate": {
+    "description": "Дата на присъединяване"
+  },
+  "access": {
+    "label": {
+      "public": "Публични",
+      "org": "Организация",
+      "private": "Собственик",
+      "shared": "Лично споделени"
+    },
+    "description": {
+      "public": {
+        "site": "Всеки може да види този сайт",
+        "project": "Всеки може да вижда този проект",
+        "initiative": "Всеки може да види тази инициатива",
+        "discussion": "Всеки може да види тази дискусия",
+        "default": "Всеки може да види това съдържание",
+        "event": "Всеки може да види това събитие"
+      },
+      "org": {
+        "site": "Всеки във Вашата организация може да види този сайт",
+        "project": "Всеки от Вашата организация може да вижда този проект",
+        "initiative": "Всеки във Вашата организация може да види тази инициатива",
+        "discussion": "Всеки във Вашата организация може да види тази дискусия",
+        "default": "Всеки във Вашата организация може да види това съдържание",
+        "event": "Всеки във вашата организация може да види това събитие"
+      },
+      "private": {
+        "site": "Само Вие можете да видите този сайт",
+        "project": "Само Вие можете да виждате този проект",
+        "initiative": "Само Вие можете да видите тази инициатива",
+        "discussion": "Само Вие можете да видите тази дискусия",
+        "default": "Само Вие може да видите това съдържание",
+        "event": "Само вие можете да видите това събитие"
+      },
+      "shared": {
+        "site": "Избрани групи могат да виждат този сайт",
+        "project": "Избрани групи могат да виждат този проект",
+        "initiative": "Избрани групи могат да виждат тази инициатива",
+        "discussion": "Избрани групи могат да виждат тази дискусия",
+        "default": "Избрани групи могат да виждат това съдържание",
+        "event": "Избрани групи могат да виждат това събитие"
+      }
+    }
+  },
+  "type": {
+    "fallback": {
+      "content": "Съдържание",
+      "discussion": "Дискусия",
+      "event": "Събитие",
+      "group": "Група",
+      "initiative": "Инициатива",
+      "org": "Организация",
+      "page": "Страница",
+      "project": "Проект",
+      "site": "Сайт",
+      "survey": "Проучване",
+      "initiativeTemplate": "Шаблон",
+      "user": "Потребител"
+    },
+    "appbuilderExtension": "ГИС инструмент",
+    "appbuilderWidgetPackage": "ГИС инструмент",
+    "application": "Регистрирано приложение",
+    "arcgisProMap": "ГИС инструмент",
+    "cadDrawing": "ГИС инструмент",
+    "cityEngineWebScene": "3D приложение",
+    "codeAttachment": "ГИС инструмент",
+    "colorSet": "ГИС инструмент",
+    "content": "Съдържание",
+    "contentCategorySet": "ГИС",
+    "csv": "Набор от данни",
+    "csvCollection": "Файл с данни",
+    "dashboard": "Табло за управление",
+    "desktopApplication": "ГИС инструмент",
+    "document": "Документ",
+    "documentLink": "Уеб връзка",
+    "excaliburImageryProject": "ГИС инструмент",
+    "explorerMap": "ГИС инструмент",
+    "exportPackage": "ГИС инструмент",
+    "featureCollection": "Набор от данни",
+    "featureCollectionTemplate": "ГИС инструмент",
+    "featureLayer": "Набор от данни",
+    "featureService": "Карта",
+    "fileGeodatabase": "Файл с данни",
+    "form": "Проучване",
+    "geocodingService": "API на разработчик",
+    "geodataService": "API на разработчик",
+    "geojson": "Съдържание",
+    "geometryService": "API на разработчик",
+    "geopackage": "Файл с данни",
+    "geoprocessingService": "API на разработчик",
+    "globeLayer": "Файл с данни",
+    "globeService": "API на разработчик",
+    "hubInitiative": "Инициатива",
+    "hubInitiativeTemplate": "Шаблон",
+    "hubPage": "Страница",
+    "hubProject": "Проект",
+    "hubSiteApplication": "Сайт",
+    "image": "Изображение",
+    "imageService": "Набор от данни с изображения",
+    "insightsModel": "ГИС инструмент",
+    "insightsPage": "Анализи",
+    "insightsTheme": "ГИС инструмент",
+    "insightsWorkbook": "Работна книга за анализ",
+    "iWorkKeynote": "Презентация",
+    "iWorkNumbers": "Електронна таблица",
+    "iWorkPages": "Документ",
+    "kml": "Набор от данни",
+    "kmlCollection": "Файл с данни",
+    "layer": "Файл с данни",
+    "layerPackage": "Файл с данни",
+    "locatorPackage": "ГИС инструмент",
+    "mapArea": "ГИС инструмент",
+    "mapDocument": "ГИС инструмент",
+    "mapImageLayer": "Карта",
+    "mapPackage": "Файл с данни",
+    "mapService": "Карта",
+    "microsoftExcel": "Електронна таблица",
+    "microsoftPowerpoint": "Презентация",
+    "microsoftVizio": "Microsoft Visio",
+    "microsoftWord": "Документ",
+    "mission": "ГИС инструмент",
+    "mobileApplication": "Приложение",
+    "mobileMapPackage": "Файл с данни",
+    "native application template": "Инструмент на разработчик",
+    "nativeApplication": "Приложение",
+    "nativeApplicationInstaller": "Инструмент на разработчик",
+    "networkAnalysisService": "API на разработчик",
+    "notebook": "Анализи",
+    "orientedImageryCatalog": "Набор от данни на изображения",
+    "orthoMappingProject": "ГИС инструмент",
+    "orthoMappingTemplate": "ГИС инструмент",
+    "pdf": "Документ",
+    "quickcaptureProject": "Мобилно проучване",
+    "rasterLayer": "Карта",
+    "realTimeAnalytic": "API на разработчик",
+    "relationalDatabaseConnection": "API на разработчик",
+    "reportTemplate": "ГИС инструмент",
+    "sceneLayer": "3D набор от данни",
+    "sceneService": "3D набор от данни",
+    "serviceDefinition": "Файл с данни",
+    "shapefile": "Набор от данни",
+    "solution": "Решение",
+    "sqliteGeodatabase": "Файл с данни",
+    "statisticalDataCollection": "Файл с данни",
+    "storymap": "Карта - история",
+    "symbolSet": "Файл с данни",
+    "table": "Набор от данни",
+    "team": "Екип",
+    "urbanModel": "Модел на градска зона",
+    "vectorTileService": "Карта",
+    "visioDocument": "Документ",
+    "webExperience": "Приложение",
+    "webMap": "Карта",
+    "webMappingApplication": "Приложение",
+    "webScene": "3D карта",
+    "wfs": "Карта",
+    "wms": "Карта",
+    "wmts": "Карта",
+    "workflowManagerService": "API на разработчик",
+    "workforceProject": "Мениджър на потока на задачите"
+  },
+  "location": {
+    "description": "Местоположение"
+  },
+  "members": {
+    "noMember": "Няма членове",
+    "oneMember": "Членове: 1",
+    "members": "Членове: {count}",
+    "description": {
+      "value": "Преглед на всички членове на групата"
+    }
+  },
+  "tooltip": {
+    "label": "Метаданни за елемента tooltip"
+  },
+  "relevantArea": {
+    "title": "Свързана област"
+  },
+  "license": {
+    "tooltip": "Определя как може да се използва това съдържание",
+    "set": {
+      "title": "{license} лиценз",
+      "customTitle": "Потребителски лиценз",
+      "description": {
+        "value": "Преглед на лицензионни данни"
+      }
+    },
+    "unset": {
+      "title": "Не е предоставен лиценз",
+      "description": {
+        "value": "Заявка за разрешение за използване"
+      }
+    }
+  },
+  "size": {
+    "description": {
+      "value": "Размер на файла на документ"
+    }
+  },
+  "recordCount": {
+    "title": "Записи: {count}",
+    "description": {
+      "value": "Преглед на таблица с данни"
+    }
+  },
+  "metadataModified": {
+    "description": {
+      "defaultValue": "Обновяване на информация",
+      "dynamicValue": "Обновяване на информация: {lastUpdated}"
+    }
+  },
+  "updateFrequency": {
+    "continual": "Непрекъснато",
+    "daily": "Ежедневно",
+    "weekly": "Седмично",
+    "fortnightly": "На всеки две седмици",
+    "monthly": "Месечно",
+    "quarterly": "На три месеца",
+    "biannually": "На две години",
+    "annually": "Ежегодно",
+    "as-needed": "Когато е необходимо",
+    "irregular": "Нередовно",
+    "not-planned": "Непланирано",
+    "unknown": "Неизвестно",
+    "semimonthly": "Полу-месечно"
+  }
+}

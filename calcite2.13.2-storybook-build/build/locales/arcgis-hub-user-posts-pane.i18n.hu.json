@@ -1,0 +1,43 @@
+{
+  "header": "Beszélgetések",
+  "myContent": "Saját események",
+  "editableContent": "Szerkeszthető tartalom",
+  "addContentButtonText": "Esemény létrehozása",
+  "type": "Típus",
+  "sharedUpdate": "Megosztott frissítési csoport",
+  "viewOnly": "Csak megtekinthető csoport",
+  "owner": "Tulajdonos",
+  "updated": "Frissítve",
+  "tags": "Címkék",
+  "dateCreated": "Létrehozva",
+  "dateUpdated": "Módosítva",
+  "actionLinks": {
+    "view": "Megtekintés",
+    "edit": "Szerkesztés",
+    "ariaEdit": "Szerkesztés: {title}",
+    "ariaView": "Nézet: {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Események",
+      "myContent": "Az általam birtokolt események",
+      "editableContent": "Az általam szerkeszthető események",
+      "all": "Minden esemény"
+    },
+    "access": {
+      "label": "Ettől:"
+    },
+    "type": {
+      "label": "Típusok"
+    },
+    "tags": {
+      "label": "Címkék"
+    },
+    "categories": {
+      "label": "Kategóriák"
+    },
+    "modified": {
+      "label": "Módosítva"
+    }
+  }
+}

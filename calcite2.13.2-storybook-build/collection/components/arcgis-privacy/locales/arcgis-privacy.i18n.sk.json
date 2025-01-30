@@ -1,0 +1,41 @@
+{
+  "managePrivacyButton": "Spravovať ochranu osobných údajov",
+  "consentNotice": {
+    "allTracking": "Táto stránka bola vytvorená pomocou ArcGIS Hub a používa anonymné sledovanie na zlepšenie výkonu a analýzu používania stránky v súlade s vyhlásením spoločnosti Esri o ochrane osobných údajov. Ďalšie sledovacie systémy tretích strán môžu monitorovať vaše používanie stránky.",
+    "anonymousTracking": "Táto stránka bola vytvorená pomocou ArcGIS Hub a používa anonymné sledovanie na zlepšenie výkonu a analýzu používania stránky v súlade s vyhlásením spoločnosti Esri o ochrane osobných údajov.",
+    "noTracking": "Táto stránka bola vytvorená pomocou ArcGIS Hub a používa iba súbory cookies, ktoré sú potrebné na fungovanie aplikácie a ktoré sa v našich systémoch nedajú vypnúť.",
+    "thirdPartyTracking": "Táto stránka bola vytvorená pomocou ArcGIS Hub a používa iba súbory cookies, ktoré sú potrebné na fungovanie aplikácie a ktoré sa v našich systémoch nedajú vypnúť. Ďalšie sledovacie systémy tretích strán môžu monitorovať vaše používanie stránky."
+  },
+  "consent": {
+    "esriPrivacyLink": "Centrum ochrany osobných údajov Esri",
+    "customerConsentLink": "Viac informácií"
+  },
+  "eueiNotice": {
+    "title": "{orgName} členovia nebudú sledovaní",
+    "message": "Program Esri User Experience Improvement (EUEI) bol vypnutý pre {orgName}. Aktivita súvisiaca s vašou návštevou nebude sledovaná; nemôžete akceptovať anonymné štatistiky používania alebo sledovanie tretími stranami.",
+    "link": "Viac informácií o programe (EUEI)."
+  },
+  "notice": {
+    "heading": "Nastavenia ochrany osobných údajov",
+    "acceptAllButton": "Prijať všetky súbory cookies",
+    "acceptNecessaryButton": "Prijať len nevyhnutné súbory cookies",
+    "confirmButton": "Potvrdiť",
+    "reviewSettingsButton": "Preskúmať nastavenia"
+  },
+  "settings": {
+    "heading": "Nastavenia ochrany osobných údajov",
+    "confirmButton": "Potvrdiť"
+  },
+  "anonymous": {
+    "heading": "Anonymné štatistiky používania",
+    "helpText": "Tieto súbory cookie nám umožňujú monitorovať výkon aplikácie, napríklad zdroje návštevnosti, zobrazenia stránok a interakcie. Pomáhajú nám zistiť, ktorý obsah je účinný a ako sa návštevníci pohybujú v aplikácii. Všetky zhromaždené informácie sú anonymné (neukladajú sa žiadne osobné údaje). Ak tieto súbory cookie nepovolíte, nebudeme vedieť, že ste navštívili našu aplikáciu alebo ste s ňou komunikovali."
+  },
+  "necessary": {
+    "heading": "Nevyhnutne potrebné súbory cookie",
+    "helpText": "Tieto súbory cookie sú potrebné na fungovanie aplikácie a v našich systémoch ich nemožno vypnúť. Nastavujú sa v reakcii na vaše akcie, ktoré zahŕňajú žiadosť o služby, napríklad prihlásenie do vášho účtu. Prehliadač môžete nastaviť tak, aby tieto súbory cookie blokoval alebo vás na ne upozorňoval, ale môže to mať vplyv na niektoré časti aplikácie. Všetky zhromaždené informácie sú anonymné (neukladajú sa žiadne osobné údaje)."
+  },
+  "thirdParty": {
+    "heading": "Sledovanie tretích strán",
+    "helpText": "Tieto súbory cookie môžu nastaviť poskytovatelia sledovania tretích strán nakonfigurovaní na tejto stránke. Počas vašej návštevy môžu o vás zhromažďovať cielené alebo marketingové informácie. Zozbierané informácie sa môžu použiť na účely mimo tejto aplikácie. Ak tieto súbory cookie nepovolíte, nakonfigurovaní poskytovatelia sledovania tretích strán nedostanú žiadne informácie o vašej návšteve."
+  }
+}

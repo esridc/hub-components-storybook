@@ -1,0 +1,1 @@
+import{H as e}from"./p-ef64c2be.js";import"./p-efdf7053.js";import"./p-1898c878.js";const t=["hub:template:edit"],p=Object.assign(Object.assign({},e),{properties:Object.assign(Object.assign({},e.properties),{previewUrl:{type:"string",if:{minLength:1},then:{format:"url"}}})});export{t as TemplateEditorTypes,p as TemplateSchema}

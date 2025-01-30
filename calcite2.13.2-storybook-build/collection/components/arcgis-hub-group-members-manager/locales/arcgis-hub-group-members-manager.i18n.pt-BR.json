@@ -1,0 +1,59 @@
+{
+  "title": "Membros",
+  "facets": {
+    "role": {
+      "label": "Papel",
+      "all": "Todos",
+      "manager": "Gerente",
+      "member": "Membro"
+    },
+    "dateJoined": {
+      "label": "Data de participação"
+    }
+  },
+  "stats": {
+    "total": {
+      "title": "Total",
+      "trailingText": "Membros do grupo"
+    },
+    "new": {
+      "title": "Novo",
+      "trailingText": "Últimos 30 dias"
+    }
+  },
+  "addMembers": {
+    "button": "Adicionar membros",
+    "disabledTooltip": "Você não tem acesso para adicionar usuários a este grupo.",
+    "modal": {
+      "title": "Adicionar membros",
+      "org": "Minha organização",
+      "community": "Minha comunidade",
+      "partner": "Meus parceiros",
+      "world": "Mundial"
+    },
+    "notifications": {
+      "invited": "Convite enviado. Os usuários devem aceitar participar",
+      "added": "Usuário adicionado",
+      "notInvited": "Alguns usuários podem não ter os privilégios necessários para participar do grupo ou podem estar no limite máximo do grupo (512)"
+    }
+  },
+  "removeUsers": {
+    "button": "Remover",
+    "success": "Membros removidos com sucesso do {groupName}.",
+    "error": "Não foi possível remover um ou mais usuários do grupo."
+  },
+  "changeRole": {
+    "tooltipText": "Desmarque você mesmo e/ou proprietário do grupo",
+    "tooltipLabel": "Isenção de responsabilidade do papel",
+    "button": "Alterar papel",
+    "member": "Membro",
+    "memberHelperText": "Pode adicionar e ver conteúdo dentro do grupo.",
+    "admin": "Gerente",
+    "adminHelperText": "Pode adicionar/remover conteúdo e convidar/remover pessoas (exceto para o proprietário).",
+    "success": "Os membros selecionados tornaram-se grupo {role}.",
+    "error": "O papel não pôde ser alterado para um ou mais membros."
+  },
+  "notice": {
+    "label": "Alerta de formulário"
+  }
+}

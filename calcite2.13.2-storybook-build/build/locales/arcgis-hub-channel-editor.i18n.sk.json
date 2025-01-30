@@ -1,0 +1,96 @@
+{
+  "unnamedChannel": "Nepomenovaný kanál",
+  "name": {
+    "label": "Názov",
+    "placeholder": "{prefix} kanál"
+  },
+  "save": "Uložiť",
+  "basicInfo": {
+    "label": "Základné informácie"
+  },
+  "access": {
+    "private": {
+      "label": "Súkromné",
+      "description": "Zapojiť sa môžu vybrané skupiny. Správcom a vlastníkom skupín sú automaticky priradení moderátori."
+    },
+    "organization": {
+      "label": "Moja organizácia",
+      "description": "Všetci používatelia s účtom na {orgName} sa môžu zapojiť. Administrátorom a majiteľom kanálov sú automaticky priradení moderátori. Vlastníci kanálov môžu dodatočne pridať skupiny, ktorých sú členmi, kliknutím na \"Pridať skupinu účastníkov\" nižšie.",
+      "disabledTooltip": "Kanály organizácie môžu vytvárať iba správcovia organizácie."
+    },
+    "public": {
+      "label": "Verejné",
+      "description": "Zúčastniť sa môžu všetci prihlásení členovia. Administrátorom a majiteľom kanálov sú automaticky priradení moderátori. Vlastníci kanálov môžu dodatočne pridať skupiny, ktorých sú členmi, kliknutím na \"Pridať skupinu účastníkov\" nižšie.",
+      "disabledTooltip": "Verejné kanály môžu vytvárať iba správcovia organizácie."
+    },
+    "allowAsAnonymous": {
+      "label": "Umožniť anonymitu (len prihlásení účastníci)",
+      "description": "Avatar, meno a používateľské meno ľudí s účtami, ktorí prispievajú anonymne, nebudú k dispozícii."
+    },
+    "confirmation": {
+      "header": "Ste si istí?",
+      "message": "Uložením týchto zmien sa zruší váš prístup k editácii tohto kanála. Verejné kanály alebo kanály organizácie môžu editovať iba správcovia organizácie.",
+      "secondary": "Zrušiť",
+      "primary": "Potvrdiť"
+    }
+  },
+  "participants": {
+    "label": "Účastníci",
+    "helperText": "Ľudia, ktorí môžu pridávať, odpovedať a reagovať na diskusiu.",
+    "none": "Žiadny súbor účastníkov",
+    "add": "Pridať skupinu účastníkov"
+  },
+  "groupPicker": {
+    "title": "Vybrať skupiny",
+    "facet": {
+      "label": "Od",
+      "myGroups": "Moje skupiny",
+      "myOrganization": "Moja organizácia",
+      "myCommunity": "Moja komunita"
+    }
+  },
+  "blockWords": {
+    "label": "Zablokované slová",
+    "helperText": "Zoznam oddeľovaný čiarkami. Príspevky a odpovede, ktoré ich obsahujú, budú automaticky skryté."
+  },
+  "manage": {
+    "label": "Moderátori",
+    "helperText": "Automatické prideľovanie moderátorov je založené na výbere účastníkov. Pre všetky ďalšie skupiny pridané do kanála sú vlastníkom a správcom skupín priradení moderátori. Moderátori môžu skrývať a zobrazovať príspevky, pridávať blokované slová a editovať nastavenia kanálov."
+  },
+  "manager": "Správca",
+  "admin": "Admin",
+  "viewProfile": "Zobraziť profil",
+  "alerts": {
+    "error": "Chyba pri ukladaní kanálu",
+    "success": "Úspešne uložený kanál",
+    "label": "Upozornenie na formulár"
+  },
+  "validations": {
+    "minChannelGroups": "Súkromné kanály vyžadujú aspoň jednu skupinu účastníkov.",
+    "channelNameRequired": "Vyžaduje sa názov kanálu",
+    "allowAsAnonymous": "Anonymné prispievanie je podporované len verejnými kanálmi.",
+    "blockWords": "Zadajte maximálne 20 blokovaných slov/výrazov (položky oddelené čiarkou, žiadne duplicity ani prázdne položky)."
+  },
+  "notices": {
+    "edit": "Úpravy sa prejavia všade, kde sa tento kanál používa",
+    "duplicate": {
+      "create": {
+        "error": {
+          "title": "Kanál nebol vytvorený",
+          "message": "Kanál s týmito možnosťami prístupu už existuje. Použiť existujúci kanál alebo upraviť výber."
+        }
+      },
+      "update": {
+        "error": {
+          "title": "Kanál nebol aktualizovaný",
+          "message": "Kanál s týmito možnosťami prístupu už existuje, takže tieto aktualizácie nemôžeme uložiť."
+        }
+      },
+      "action": "Použiť existujúci kanál"
+    },
+    "inaccessibleGroups": {
+      "title": "Nedostupné skupiny: {count}",
+      "message": "Nedostupné skupiny nemôžete zobraziť ani spravovať, ak nie ste ich členom."
+    }
+  }
+}

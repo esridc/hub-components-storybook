@@ -1,0 +1,65 @@
+{
+  "catalog": "Catalogue",
+  "catalog-content": "Contenu",
+  "catalog-events": "Événements",
+  "shared": {
+    "publish": {
+      "label": "Enregistrer",
+      "success": {
+        "title": "Les modifications apportées au catalogue ont été publiées dans la vue dynamique"
+      },
+      "error": {
+        "title": "Erreur lors de l’enregistrement des modifications"
+      }
+    }
+  },
+  "emptyState": {
+    "message": "Aucun catalogue défini",
+    "action": "Créer un catalogue"
+  },
+  "actionBar": {
+    "details": "Configuration du catalogue",
+    "appearance": "Apparence du catalogue",
+    "tooltip": {
+      "appearanceDisabled": "Aucun catalogue n’est actuellement configuré. Configurez un catalogue pour ajuster les paramètres d’apparence.",
+      "configuration": "Configuration",
+      "appearance": "Apparence"
+    }
+  },
+  "detailsPanel": {
+    "heading": "Configuration du catalogue",
+    "close": "Fermer la configuration du catalogue",
+    "catalogBuilder": {
+      "helperText": "Le catalogue donne aux utilisateurs la possibilité de parcourir et d’afficher votre contenu. Les résultats affichés dépendent de la configuration d’interrogation du catalogue."
+    },
+    "querySizeNotice": {
+      "warning": {
+        "title": "Limite de taille du catalogue presque atteinte",
+        "catalogSourceMessage": {
+          "item": "La configuration de la source d’éléments est proche de la limite de taille du catalogue.",
+          "event": "La configuration de la source d’événements est proche de la limite de taille du catalogue."
+        },
+        "collectionSourceMessage": {
+          "item": "La combinaison des configurations de la source d’éléments et de la collection \"{collectionName}\" est proche de la limite de taille du catalogue.",
+          "event": "La combinaison des configurations de la source d’événements et de la collection \"{collectionName}\" est proche de la limite de taille du catalogue."
+        }
+      },
+      "danger": {
+        "title": "Limite de taille du catalogue dépassée",
+        "catalogSourceMessage": {
+          "item": "La configuration de la source d’éléments dépasse la limite de taille du catalogue. Réduisez le nombre de filtres et/ou d’options de filtrage dans la source d’éléments pour procéder à la publication.",
+          "event": "La configuration de la source d’événements dépasse la limite de taille du catalogue. Réduisez le nombre de filtres et/ou d’options de filtrage dans la source d’événements pour procéder à la publication."
+        },
+        "collectionSourceMessage": {
+          "item": "La combinaison des configurations de la source d’éléments et de la collection \"{collectionName}\" dépasse la limite de taille du catalogue. Réduisez le nombre de filtres et/ou d’options de filtrage dans la source d’éléments et/ou la collection \"{collectionName}\" pour procéder à la publication.",
+          "event": "La combinaison des configurations de la source d’événements et de la collection \"{collectionName}\" dépasse la limite de taille du catalogue. Réduisez le nombre de filtres et/ou d’options de filtrage dans la source d’événements et/ou la collection \"{collectionName}\" pour procéder à la publication."
+        }
+      }
+    }
+  },
+  "appearancePanel": {
+    "heading": "Apparence du catalogue",
+    "close": "Fermer les paramètres d’apparence du catalogue",
+    "description": "Le catalogue donne aux utilisateurs la possibilité de parcourir et d’afficher votre contenu. Ici, vous pouvez modifier l’apparence du catalogue par défaut et configurer les filtres à afficher."
+  }
+}

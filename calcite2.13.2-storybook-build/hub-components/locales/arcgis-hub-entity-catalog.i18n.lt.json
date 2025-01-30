@@ -1,0 +1,65 @@
+{
+  "catalog": "Katalogas",
+  "catalog-content": "Turinys",
+  "catalog-events": "Renginiai",
+  "shared": {
+    "publish": {
+      "label": "Įrašyti",
+      "success": {
+        "title": "Sėkmingai paskelbti katalogo pakeitimai tiesioginėje peržiūroje"
+      },
+      "error": {
+        "title": "Klaida išsaugant pakeitimus"
+      }
+    }
+  },
+  "emptyState": {
+    "message": "Katalogas neapibrėžtas",
+    "action": "Kurti katalogą"
+  },
+  "actionBar": {
+    "details": "Katalogo konfigūracija",
+    "appearance": "Katalogo išvaizda",
+    "tooltip": {
+      "appearanceDisabled": "Šiuo metu nesukonfigūruotas joks katalogas. Sukonfigūruokite katalogą, kad pakoreguotumėte išvaizdos nustatymus.",
+      "configuration": "Konfigūracija",
+      "appearance": "Išvaizda"
+    }
+  },
+  "detailsPanel": {
+    "heading": "Katalogo konfigūracija",
+    "close": "Uždaryti katalogo konfigūraciją",
+    "catalogBuilder": {
+      "helperText": "Jūsų kataloge lankytojai gali ieškoti ir peržiūrėti turinį. Rezultatai rodomi pagal užklausos konfigūraciją."
+    },
+    "querySizeNotice": {
+      "warning": {
+        "title": "Netrukus bus pasiektas katalogo limitas",
+        "catalogSourceMessage": {
+          "item": "Netrukus bus pasiektas jūsų elemento šaltinio konfigūracijos dydžio limitas.",
+          "event": "Netrukus bus pasiektas jūsų įvykio šaltinio konfigūracijos dydžio limitas."
+        },
+        "collectionSourceMessage": {
+          "item": "Netrukus bus pasiektas jūsų elemento šaltinio ir rinkinio „{collectionName}“ derinio konfigūracijos dydžio limitas.",
+          "event": "Netrukus bus pasiektas jūsų įvykio šaltinio ir rinkinio „{collectionName}“ derinio konfigūracijos dydžio limitas."
+        }
+      },
+      "danger": {
+        "title": "Viršytas katalogo limitas",
+        "catalogSourceMessage": {
+          "item": "Jūsų elemento šaltinio konfigūracija viršijo dydžio limitą. Sumažinkite filtrų ir (arba) filtrų parinkčių skaičių jūsų elemento šaltinyje, kuris bus publikuojamas.",
+          "event": "Jūsų įvykio šaltinio konfigūracija viršijo dydžio limitą. Sumažinkite filtrų ir (arba) filtrų parinkčių skaičių jūsų įvykio šaltinyje, kuris bus publikuojamas."
+        },
+        "collectionSourceMessage": {
+          "item": "Jūsų elemento šaltinio ir rinkinio „{collectionName}“ derinio konfigūracija viršijo dydžio limitą. Sumažinkite filtrų ir (arba) filtrų parinkčių skaičių jūsų elemento šaltinyje ir (arba) rinkinyje „{collectionName}“, kurie bus publikuojami.",
+          "event": "Jūsų įvykio šaltinio ir rinkinio „{collectionName}“ derinio konfigūracija viršijo dydžio limitą. Sumažinkite filtrų ir (arba) filtrų parinkčių skaičių jūsų įvykio šaltinyje ir (arba) rinkinyje „{collectionName}“, kurie bus publikuojami."
+        }
+      }
+    }
+  },
+  "appearancePanel": {
+    "heading": "Katalogo išvaizda",
+    "close": "Uždaryti katalogo išvaizdą",
+    "description": "Jūsų kataloge lankytojai gali ieškoti ir peržiūrėti turinį. Čia galite atnaujinti tai, kaip turėtų atrodyti numatytasis katalogas ir kokie filtrai turėtų būti rodomi."
+  }
+}

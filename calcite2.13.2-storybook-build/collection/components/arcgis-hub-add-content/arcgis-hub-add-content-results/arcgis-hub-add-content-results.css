@@ -1,0 +1,34 @@
+:host {
+  display: block;
+}
+
+calcite-accordion-item.success {
+  /* render the icon in the accordion item in the success state with the success color */
+  --calcite-accordion-item-icon-color: var(--calcite-color-status-success);
+}
+
+calcite-accordion-item.fail {
+  /* render the icon in the accordion item in the fail state with the warning color */
+  --calcite-accordion-item-icon-color: var(--calcite-color-status-warning);
+}
+
+arcgis-hub-gallery {
+  text-align: start;
+}
+
+[slot="actions"] {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  width: 100%;
+}
+
+arcgis-hub-entity-card {
+  text-align: start;
+  width: 50%;
+}
+
+calcite-accordion {
+  width: 60%;
+}

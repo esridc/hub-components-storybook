@@ -1,0 +1,413 @@
+/* POST EDITOR STYLES */
+arcgis-hub-discussions-post-editor:not([parent-id]) {
+  display: block;
+  border-radius: 0.25rem;
+  background-color: var(--calcite-color-foreground-1);
+  padding: 0.75rem;
+  --tw-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.12);
+  --tw-shadow-colored: 0 2px 8px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
+.hub-discussions-post-editor-header {
+  margin-bottom: 1.5rem;
+  display: grid;
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+  align-items: center;
+  column-gap: 0.75rem;
+  grid-template-columns: 44px auto 44px
+}
+
+.hub-discussions-post-editor-header__title {
+  margin: 0px;
+  text-align: center;
+  font-size: var(--calcite-font-size-1);
+  line-height: 1.5rem;
+  font-weight: var(--calcite-font-weight-bold);
+  color: var(--calcite-color-text-1)
+}
+
+.hub-discussions-post-editor-header__popover {
+  padding: 1rem;
+  margin-top: revert;
+  margin-bottom: revert
+}
+
+.hub-discussions-post-editor-recent__header {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-size: var(--calcite-font-size--1);
+  line-height: 1rem;
+  font-weight: var(--calcite-font-weight-bold);
+  color: var(--calcite-color-text-1)
+}
+
+.hub-discussions-post-editor-groups__action {
+  margin-top: 0.75rem
+}
+
+.hub-discussions-post-editor-recent__list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  list-style-type: none;
+  padding: 0px
+}
+
+.hub-discussions-post-editor-recent__item {
+  margin-bottom: 0.75rem;
+  margin-top: 0px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  column-gap: 0.75rem;
+  grid-template-columns: 44px auto 44px
+}
+
+.hub-discussions-post-editor-recent__item:last-child {
+  margin-bottom: 0px
+}
+
+.hub-discussions-post-editor-recent__avatar {
+  grid-row: span 2 / span 2
+}
+
+.hub-discussions-post-editor-recent__title {
+  font-weight: var(--calcite-font-weight-bold);
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1
+}
+
+.hub-discussions-post-editor-recent__last-activity {
+  font-size: var(--calcite-font-size--1);
+  line-height: 1rem;
+  font-style: normal;
+  color: var(--calcite-color-text-2)
+}
+
+.hub-discussions-post-editor-recent__action {
+  grid-row: span 2 / span 2
+}
+
+.hub-discussions-post-editor-post-actions, .hub-discussions-post-editor-geometry-actions {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end
+}
+
+.hub-discussions-post-editor-post-actions > calcite-action {
+  margin-right: auto
+}
+
+.hub-discussions-post-editor-geometry-actions__feature, .hub-discussions-post-editor-geometry-actions__related, .hub-discussions-post-editor-post-actions__primary, .hub-discussions-post-editor-post-actions__secondary {
+  margin-left: 0.75rem
+}
+
+arcgis-hub-discussions-post-editor.rtl .hub-discussions-post-editor-geometry-actions__feature, arcgis-hub-discussions-post-editor.rtl .hub-discussions-post-editor-geometry-actions__related, arcgis-hub-discussions-post-editor.rtl .hub-discussions-post-editor-post-actions__primary, arcgis-hub-discussions-post-editor.rtl .hub-discussions-post-editor-post-actions__secondary {
+  margin-left: 0px;
+  margin-right: 0.75rem
+}
+
+.hub-discussions-post-editor__title {
+  margin: 0px;
+  margin-top: 1rem;
+  height: auto;
+  width: 100%;
+  resize: none;
+  border-style: none;
+  background-color: var(--calcite-color-foreground-1);
+  padding: 0px;
+  font-size: var(--calcite-font-size-1);
+  line-height: 1.5rem;
+  font-weight: var(--calcite-font-weight-bold);
+  color: var(--calcite-color-text-1);
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
+.hub-discussions-post-editor__title:focus {
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  outline: 2px solid transparent;
+  outline-offset: 2px
+}
+
+.hub-discussions-post-editor__title::placeholder {
+  color: var(--calcite-color-text-3);
+  opacity: 1
+}
+
+.hub-discussions-post-editor__body {
+  margin-top: 0.5rem
+}
+
+.hub-discussions-post-editor__body[scale=m] .ck.ck-editor__editable {
+  border-style: none;
+  background-color: var(--calcite-color-foreground-1);
+  padding: 0px;
+  font-size: var(--calcite-font-size-0);
+  line-height: 1.25rem;
+  color: var(--calcite-color-text-1);
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  min-height: 6rem
+}
+
+.hub-discussions-post-editor__body .ck.ck-editor__editable.ck-focused:not(.ck-editor__nested-editable) {
+  border-style: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px
+}
+
+.hub-discussions-post-editor__body[scale=m] .ck.ck-editor__editable .ck-placeholder:before {
+  color: var(--calcite-color-text-3)
+}
+
+.hub-discussions-post-editor__body .ck.ck-editor__editable_inline > :first-child {
+  margin-top: 0px
+}
+
+.hub-discussions-post-editor__body .ck.ck-editor__editable_inline > :last-child {
+  margin-bottom: 0px
+}
+
+.hub-discussions-post-editor__message {
+  margin-top: 0.5rem
+}
+
+.hub-discussions-post-editor__empty, .hub-discussions-post-editor__load-error {
+  margin-top: 1rem
+}
+
+.hub-discussions-post-editor__crud-error, .hub-discussions-post-editor__not-discussable-notice {
+  margin-top: 1rem
+}
+
+.hub-discussions-post-editor-cancel-confirm__header {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0.5rem;
+  margin-bottom: 0px;
+  display: block;
+  font-size: var(--calcite-font-size-1);
+  line-height: 1.5rem;
+  font-weight: var(--calcite-font-weight-bold)
+}
+
+.hub-discussions-post-editor-cancel-confirm__message {
+  margin-top: 0.5rem;
+  margin-bottom: 0px
+}
+
+.hub-discussions-post-editor-cancel-confirm__footer {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 0.75rem
+}
+
+.hub-discussions-post-editor-recent__skeleton {
+  margin-bottom: 0.75rem;
+  margin-top: 0px
+}
+
+.hub-discussions-post-editor-recent__skeleton arcgis-skeleton-loader {
+  display: flex
+}
+
+@keyframes shimmer {
+  0% {
+    background-size: 200% 100%;
+    background-position: 100% 0
+  }
+  100% {
+    background-size: 200% 100%;
+    background-position: -100% 0
+  }
+}
+
+.hub-discussions-post-editor-recent__skeleton arcgis-skeleton-loader > div:nth-of-type(1), .hub-discussions-post-editor-recent__skeleton arcgis-skeleton-loader > div:nth-of-type(2) div {
+  animation: shimmer 2s cubic-bezier(0.4, 0, 0.2, 0.8) infinite;
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 100%);
+  background-color: var(--calcite-color-foreground-3)
+}
+
+.hub-discussions-post-editor-recent__skeleton arcgis-skeleton-loader > div:nth-of-type(1) {
+  height: 2.75rem;
+  width: 2.75rem;
+  border-radius: 50%
+}
+
+.hub-discussions-post-editor-recent__skeleton arcgis-skeleton-loader > div:nth-of-type(2) {
+  margin-left: 1rem;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center
+}
+
+.hub-discussions-post-editor-recent__skeleton arcgis-skeleton-loader > div:nth-of-type(2) div:nth-of-type(1) {
+  margin-bottom: 0.5rem;
+  height: 0.75rem;
+  border-radius: 0.375rem
+}
+
+.hub-discussions-post-editor-recent__skeleton arcgis-skeleton-loader > div:nth-of-type(2) div:nth-of-type(2) {
+  height: 0.5rem;
+  border-radius: 0.25rem
+}
+
+.location-popover > div.popover, .popover {
+  max-width: 20rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem
+}
+
+.add-location-post:active .add-location-icon {
+  --tw-text-opacity: 1;
+  color: rgb(21 21 21 / var(--tw-text-opacity))
+}
+
+.add-location-post[active] .add-location-icon {
+  --tw-text-opacity: 1;
+  color: rgb(21 21 21 / var(--tw-text-opacity))
+}
+
+/* REPLY EDITOR STYLES */
+arcgis-hub-discussions-post-editor[parent-id] {
+  display: block
+}
+
+.hub-discussions-reply-editor__form {
+  border-radius: 0.25rem;
+  background-color: var(--calcite-color-foreground-1);
+  padding: 0.75rem;
+  --tw-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.12);
+  --tw-shadow-colored: 0 2px 8px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
+.hub-discussions-reply-editor-user-details {
+  margin: 0px;
+  display: grid;
+  align-items: center;
+  column-gap: 0.75rem;
+  grid-template-columns: 32px auto
+}
+
+.hub-discussions-reply-editor-user-details__name {
+  font-size: var(--calcite-font-size-0);
+  line-height: 1.25rem;
+  font-weight: var(--calcite-font-weight-bold);
+  font-style: normal
+}
+
+.hub-discussions-reply-editor__notice, .hub-discussions-reply-editor__not-discussable-notice {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 1rem
+}
+
+.hub-discussions-post-editor-cancel-confirm {
+  display: block
+}
+
+.hub-discussions-post-editor-cancel-confirm__button {
+  margin: 0px
+}
+
+.hub-discussions-reply-editor__body {
+  margin-top: 0.75rem
+}
+
+.hub-discussions-reply-editor__body[scale=m] .ck.ck-editor__editable {
+  border-style: none;
+  background-color: var(--calcite-color-foreground-1);
+  padding: 0px;
+  font-size: var(--calcite-font-size-0);
+  line-height: 1.25rem;
+  color: var(--calcite-color-text-1);
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  min-height: 6rem
+}
+
+.hub-discussions-reply-editor__body .ck.ck-editor__editable.ck-focused:not(.ck-editor__nested-editable) {
+  border-style: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px
+}
+
+.hub-discussions-reply-editor__body[scale=m] .ck.ck-editor__editable .ck-placeholder:before {
+  color: var(--calcite-color-text-3)
+}
+
+.hub-discussions-reply-editor__body .ck.ck-editor__editable_inline > :first-child {
+  margin-top: 0px
+}
+
+.hub-discussions-reply-editor__body .ck.ck-editor__editable_inline > :last-child {
+  margin-bottom: 0px
+}
+
+.hub-discussions-reply-editor__message {
+  margin-top: 0.5rem
+}
+
+.hub-discussions-reply-editor__location-popover > div.hub-discussions-reply-editor__location-popover__content, .hub-discussions-reply-editor__location-popover__content {
+  max-width: 20rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem
+}
+
+.add-location-post:active .add-location-icon {
+  --tw-text-opacity: 1;
+  color: rgb(21 21 21 / var(--tw-text-opacity))
+}
+
+.add-location-post[active] .add-location-icon {
+  --tw-text-opacity: 1;
+  color: rgb(21 21 21 / var(--tw-text-opacity))
+}
+
+arcgis-hub-discussions-post-editor > form > header {
+  padding-top: 0.25rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  font-size: var(--calcite-font-size-1);
+  line-height: 1.5rem;
+  font-weight: var(--calcite-font-weight-bold);
+  text-transform: capitalize;
+  color: var(--calcite-color-text-1)
+}
+
+.anon-toggle {
+  margin-bottom: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 0.75rem;
+  background-color: var(--calcite-color-background);
+  padding: 1rem
+}
+
+.anon-toggle p:first-of-type {
+  margin: 0px;
+  color: var(--calcite-color-text-1)
+}
+
+.anon-toggle p:nth-of-type(2) {
+  margin: 0px;
+  flex-basis: 100%;
+  font-size: var(--calcite-font-size--2);
+  line-height: 1rem;
+  color: var(--calcite-color-text-2)
+}

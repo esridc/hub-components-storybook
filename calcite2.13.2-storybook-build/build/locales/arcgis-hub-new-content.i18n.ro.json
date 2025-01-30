@@ -1,0 +1,57 @@
+{
+  "new": "Nou",
+  "project": {
+    "label": "Proiect",
+    "description": "Evidențiați lucrările care au obiective și termene clare",
+    "createLabel": "Creare proiect",
+    "newLabel": "Proiect nou"
+  },
+  "initiative": {
+    "label": "Inițiativă",
+    "description": "Inițiativele organizează și rezumă progresul spre un obiectiv",
+    "createLabel": "Creare inițiativă",
+    "newLabel": "Inițiativă nouă"
+  },
+  "discussion": {
+    "label": "Panou de discuții",
+    "description": "Creați un nou panou de discuții prin introducerea titlului care indică subiectul.",
+    "createLabel": "Creare panou de discuții",
+    "newLabel": "Panou de discuții nou"
+  },
+  "site": {
+    "label": "Site",
+    "description": "Creați o pagină web pentru a organiza și partaja informațiile",
+    "createLabel": "Creare site",
+    "newLabel": "Site nou"
+  },
+  "event": {
+    "label": "Eveniment",
+    "description": "Găzduiți o activitate organizată, în format fizic sau virtual",
+    "createLabel": "Creare eveniment",
+    "newLabel": "Eveniment nou"
+  },
+  "content": {
+    "label": "Conținut",
+    "description": "Adăugați date, documente, imagini și linkuri externe pe site-ul dvs.",
+    "createLabel": "Creare conținut",
+    "newLabel": "Conținut nou"
+  },
+  "feedback": {
+    "label": "Feedback",
+    "description": "Colectați informații focalizate cu instrumente cum sunt chestionarele și sondajele",
+    "createLabel": "Creare feedback",
+    "newLabel": "Feedback nou"
+  },
+  "app": {
+    "label": "Aplicație",
+    "description": "Construiți o experiență, spuneți o poveste sau vizualizați-vă datele",
+    "createLabel": "Creare aplicație",
+    "newLabel": "Aplicație nouă"
+  },
+  "group": {
+    "label": "Grup",
+    "description": "Configurați un grup pentru a colabora pe conținut focalizat",
+    "createLabel": "Creare grup",
+    "newLabel": "Grup nou"
+  }
+}

@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-catalog</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet"
+    href="../calcite-web.min.css">
+  <style>
+    textarea {
+      height: 800px;
+      font-size: 0.8rem;
+      font-family: monospace;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="grid-container padding-leader-2">
+    <div class="column-20 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-hub-catalog</h2>
+    </div>
+
+    <div class="column-20">
+      <calcite-button onClick="signIn()">Sign In</calcite-button>
+      <calcite-button onClick="signOut()">Sign Out</calcite-button>
+      <div id="userinfo"></div>
+
+
+      <h2>BROLLYWOOD Site Catalog</h2>
+      <p>Dynamically Loaded from https://brollywood.hikes.dev/api/search/v1/catalog</p>
+      <arcgis-app-identity
+        client-id="EF9uxuFlOrgf7WpI"
+        redirect-uri="http://localhost:3333/html/redirect.html"
+        portal="https://qaext.arcgis.com">
+              <arcgis-hub-catalog id="arcgis-hub-catalog-harness" layout="grid">
+              </arcgis-hub-catalog>
+      </arcgis-app-identity>
+    </div>
+
+  <script>
+    function signIn() {
+        const evt = new CustomEvent('arcgisAppIdentityStartSignIn')
+        document.dispatchEvent(evt);
+      }
+      function signOut() {
+        const evt = new CustomEvent('arcgisAppIdentityStartSignOut')
+        document.dispatchEvent(evt);
+      }
+
+      // These listeners could be in any component that wants a session
+      document.addEventListener('arcgisAppIdentitySignedIn', (evt) => {
+        setProp('context', evt.detail);
+        // update userInfo
+        showUserInfo(evt.detail.session);
+      });
+
+      document.addEventListener('arcgisAppIdentitySignedOut', (evt) => {
+        // update userInfo
+        setProp('context', evt.detail);
+        showUserInfo(evt.detail.session);
+      });
+
+      // Simple function to so something when auth changes
+      function showUserInfo(session) {
+        const el = document.getElementById('userinfo');
+        if (session) {
+          el.innerText = `User ${session.username} authenticated`;
+        } else {
+          el.innerText = 'No user authenticated';
+        }
+      }
+
+
+    // set a property on the element
+    function setProp(key, value) {
+      const el = document.getElementById("arcgis-hub-catalog-harness");
+      el[key] = value;
+    }
+
+    const catalogs = [
+      {
+        schemaVersion: 1,
+        title: 'Esri',
+        scopes: {
+          item: {
+            targetEntity: "item",
+            filters: [
+              {
+                predicates: [
+                  {
+                    owner: "esri"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        collections: [
+          {
+            label: "Applications",
+            key: "applications",
+            targetEntity: "item",
+            include: [],
+            scope: {
+              targetEntity: "item",
+              filters: [
+                {
+                  operation: "OR",
+                  predicates: [
+                    {
+                      type: {
+                        any: ["Web Mapping Application", "Application", "Insights", "Web Experience"],
+                        not: ["Insights Theme", "Insights Model"]
+                      },
+                      typekeywords: {
+                        not: ["hubSite", "Story Map"]
+                      }
+                    },
+                    {
+                      type: "Web Mapping Experience",
+                      typekeywords: "EXB Experience"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            label: "Documents",
+            key: "docs",
+            targetEntity: "item",
+            include: [],
+            scope: {
+              targetEntity: "item",
+              filters: [{ predicates: [{ type: "$document" }] }]
+            }
+          },
+          {
+            label: "Maps",
+            key: "maps",
+            targetEntity: "item",
+            include: [],
+            scope: {
+              targetEntity: "item",
+              filters: [{ predicates: [{ type: "$webmap" }] }]
+            }
+          },
+        ]
+      },
+      {
+        schemaVersion: 1,
+        title: 'Living Atlas',
+        scopes: {
+          item: {
+            targetEntity: "item",
+            filters: [
+              {
+                predicates: [
+                  {
+                    owner: "esri_livingatlas"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        collections: [
+          {
+            label: "Applications",
+            key: "applications",
+            targetEntity: "item",
+            include: [],
+            scope: {
+              targetEntity: "item",
+              filters: [
+                {
+                  operation: "OR",
+                  predicates: [
+                    {
+                      type: {
+                        any: ["Web Mapping Application", "Application", "Insights", "Web Experience"],
+                        not: ["Insights Theme", "Insights Model"]
+                      },
+                      typekeywords: {
+                        not: ["hubSite", "Story Map"]
+                      }
+                    },
+                    {
+                      type: "Web Mapping Experience",
+                      typekeywords: "EXB Experience"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            label: "Documents",
+            key: "docs",
+            targetEntity: "item",
+            include: [],
+            scope: {
+              targetEntity: "item",
+              filters: [{ predicates: [{ type: "$document" }] }]
+            }
+          },
+          {
+            label: "Maps",
+            key: "maps",
+            targetEntity: "item",
+            include: [],
+            scope: {
+              targetEntity: "item",
+              filters: [{ predicates: [{ type: "$webmap" }] }]
+            }
+          },
+        ]
+      },
+      {
+        schemaVersion: 1,
+        title: 'World (Public)',
+        scopes: {
+          item: {
+            targetEntity: "item",
+            filters: [
+              {
+                predicates: [
+                  {
+                    access: "public"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        collections: [
+          {
+            label: "Applications",
+            key: "applications",
+            targetEntity: "item",
+            include: [],
+            scope: {
+              targetEntity: "item",
+              filters: [
+                {
+                  operation: "OR",
+                  predicates: [
+                    {
+                      type: {
+                        any: ["Web Mapping Application", "Application", "Insights", "Web Experience"],
+                        not: ["Insights Theme", "Insights Model"]
+                      },
+                      typekeywords: {
+                        not: ["hubSite", "Story Map"]
+                      }
+                    },
+                    {
+                      type: "Web Mapping Experience",
+                      typekeywords: "EXB Experience"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            label: "Documents",
+            key: "docs",
+            targetEntity: "item",
+            include: [],
+            scope: {
+              targetEntity: "item",
+              filters: [{ predicates: [{ type: "$document" }] }]
+            }
+          },
+          {
+            label: "Maps",
+            key: "maps",
+            targetEntity: "item",
+            include: [],
+            scope: {
+              targetEntity: "item",
+              filters: [{ predicates: [{ type: "$webmap" }] }]
+            }
+          },
+        ]
+      },
+      {
+        schemaVersion: 1,
+        title: 'No Collection',
+        scopes: {
+          item: {
+            targetEntity: "item",
+            filters: [
+              {
+                predicates: []
+              }
+            ]
+          }
+        },
+        collections: []
+      }
+    ];
+
+    const facets = [
+      {
+        label: "Access",
+        key: "access",
+        display: "multi-select",
+        operation: "OR",
+        options: [
+          {
+            label: "Public",
+            key: "public",
+            selected: false,
+            predicates: [{
+              access: "public",
+            }],
+          },
+          {
+            label: "Shared",
+            key: "shared",
+            selected: false,
+            predicates: [{
+              access: "shared",
+            },]
+          },
+          {
+            label: "Org",
+            key: "org",
+            selected: false,
+            predicates: [{
+              access: "org",
+            }],
+          },
+          {
+            label: "Mine",
+            key: "mine",
+            selected: false,
+            predicates: [{
+              owner: "dbouwman_dc",
+            }],
+          }
+        ],
+      },
+      {
+        label: "Types",
+        key: "types",
+        display: "multi-select",
+        pageSize: 4,
+        operation: "OR",
+        options: [
+          {
+            label: "Projects",
+            key: "projects",
+            selected: false,
+            predicates: [
+              {
+                type: "Hub Project"
+              }
+            ]
+          },
+          {
+            label: "Web Maps",
+            key: "webmaps",
+            selected: false,
+            predicates: [{
+              type: "Web Map"
+            }]
+          },
+          {
+            label: "Sites",
+            key: "sites",
+            selected: false,
+            predicates: [{
+              type: "Hub Site Application"
+            }]
+          },
+          {
+            label: "Services",
+            key: "services",
+            selected: false,
+            predicates: [{
+              type: ["Feature Service", "Map Service"]
+            }]
+          },
+          {
+            label: "Apps",
+            key: "apps",
+            selected: false,
+            predicates: [{
+              type: {
+                any: [
+                  "Code Sample",
+                  "Web Mapping Application",
+                  "Mobile Application",
+                  "Application",
+                  "Desktop Application Template",
+                  "Desktop Application",
+                  "Operation View",
+                  "Dashboard",
+                  "Operations Dashboard Extension",
+                  "Workforce Project",
+                  "Insights Workbook",
+                  "Insights Page",
+                  "Insights Model",
+                  "Hub Page",
+                  "Hub Initiative",
+                  "Hub Site Application",
+                  "StoryMap",
+                  "Web Experience",
+                  "Web Experience Template",
+                  "Form",
+                ],
+                not: [
+                  "Code Attachment",
+                  "Featured Items",
+                  "Symbol Set",
+                  "Color Set",
+                  "Windows Viewer Add In",
+                  "Windows Viewer Configuration",
+                  "Map Area",
+                  "Indoors Map Configuration",
+                ],
+              },
+              typekeywords: {
+                not: ["MapAreaPackage", "SMX"],
+              },
+            }]
+          },
+          {
+            label: "Story Maps",
+            key: "storymaps",
+            selected: false,
+            operation: "OR",
+            predicates: [
+              {
+                type: "StoryMap",
+              },
+              {
+                type: "Web Mapping Application",
+                typekeywords: "Story Map",
+              }
+            ]
+          },
+          {
+            label: "Dashboards",
+            key: "dashboards",
+            selected: false,
+            predicates: [{
+              type: "Dashboard",
+              typekeywords: {
+                any: ["Dashboard"],
+                not: ["ArcGIS Operation View", "Add In", "Extension"],
+              },
+            }]
+          },
+          {
+            label: "Document",
+            key: "documents",
+            selected: false,
+            predicates: [{
+              typekeywords: {
+                any: ["Document"],
+                not: ["MapAreaPackage", "SMX"],
+              },
+              type: {
+                any: [
+                  "Image",
+                  "Layout",
+                  "Desktop Style",
+                  "Project Template",
+                  "Report Template",
+                  "Pro Report",
+                  "Statistical Data Collection",
+                  "360 VR Experience",
+                  "netCDF",
+                  "PDF",
+                  "CSV",
+                  "Administrative Report",
+                  "Raster function template",
+                ],
+                not: [
+                  "Image Service",
+                  "Explorer Document",
+                  "Explorer Map",
+                  "Globe Document",
+                  "Scene Document",
+                  "Code Attachment",
+                  "Featured Items",
+                  "Symbol Set",
+                  "ColorSet",
+                  "Windows Viewer Add In",
+                  "Windows Viewer Configuration",
+                  "Map Area",
+                  "Indoors Map Configuration",
+                ],
+              },
+            }]
+          },
+        ]
+      }
+    ];
+
+      loadCatalog();
+
+    async function loadCatalog () {
+          // On boot...
+      return fetch("https://brollywood.hikes.dev/api/search/v1/catalog")
+      .then((response) => response.json())
+      .then((catalog) => {
+        // API does not return structures that exactly match the actual catalog structure
+        if (!catalog.schemaVersion){
+          catalog.schemaVersion = 1
+        }
+        // Scopes need a `targetEntity` property
+        Object.keys(catalog.scopes).forEach((key) => {
+          catalog.scopes[key].targetEntity = key;
+        });
+
+        catalog.collections = catalog.collections.map(col => {
+          // Collections need a `targetEntity` property
+          col.targetEntity = "item";
+          // title and id are actually label and key
+          col.label = col.title;
+          col.key = col.id;
+          // Collections need a `scope` property that is an IQuery
+          col.scope = {filters: col.filters, targetEntity: "item"}
+          // include must be defined
+          // THIS IS A BUG IN HUB.JS OR THE COMPONENT
+          col.include = [];
+          return col;
+        })
+        setProp('catalogs', [catalog]);
+        setProp('facets', facets);
+        setProp('showSearch', true);
+      })
+    }
+
+
+
+
+
+  </script>
+</body>
+
+</html>

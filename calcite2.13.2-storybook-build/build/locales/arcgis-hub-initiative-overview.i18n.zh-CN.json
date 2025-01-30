@@ -1,0 +1,23 @@
+{
+  "overview": "概览",
+  "telemetry": {
+    "pageViews": "页面浏览量",
+    "last30days": "最近 30 天",
+    "lastUpdated": "最近更新于 {hoursElapsed} 小时前",
+    "checkTomorrow": "请明天再查看"
+  },
+  "learnAbout": "了解有关 Hub 倡议的信息",
+  "feedbackNotice": {
+    "message": "您如何看待 Hub 倡议? 我们希望了解您如何使用它。",
+    "link": "提交反馈"
+  },
+  "status": {
+    "notStarted": "未启动",
+    "inProgress": "正在进行中",
+    "onHold": "暂停",
+    "complete": "完成"
+  },
+  "editDetails": "编辑详细信息",
+  "noPurposeSet": "未设置任何用途",
+  "noLocationSet": "未设置任何位置"
+}

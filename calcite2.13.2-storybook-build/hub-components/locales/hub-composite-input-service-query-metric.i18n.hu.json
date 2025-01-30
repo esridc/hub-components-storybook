@@ -1,0 +1,35 @@
+{
+  "dynamicStat": {
+    "facets": {
+      "sharing": "Megosztás",
+      "myself": "Saját magam",
+      "myOrganization": "Saját szervezet",
+      "public": "Világ (Nyilvános)"
+    },
+    "catalog": {
+      "myContent": "Saját Tartalom",
+      "favorites": "Kedvencek",
+      "organization": "Saját szervezet",
+      "world": "Világ (Nyilvános)"
+    }
+  },
+  "expression": {
+    "label": "Attribútum szűrők"
+  },
+  "field": {
+    "label": "Attribútum"
+  },
+  "layer": "Réteg / tábla",
+  "statistic": {
+    "label": "Összevonás",
+    "aggregations": {
+      "count": "Darabszám",
+      "min": "Minimum",
+      "max": "Maximum",
+      "sum": "Összeg",
+      "avg": "Közepes",
+      "stddev": "Szórás",
+      "var": "Varianca"
+    }
+  }
+}

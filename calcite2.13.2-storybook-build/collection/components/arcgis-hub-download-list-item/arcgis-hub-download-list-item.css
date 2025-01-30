@@ -1,0 +1,61 @@
+:host {
+  display: block;
+}
+
+.download-option-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  border-width: 1px;
+  border-style: solid;
+  padding: 1rem;
+}
+
+.download-option-card-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.download-option-card-title {
+  font-size: var(--calcite-font-size-2);
+  line-height: 1.5rem;
+  font-weight: var(--calcite-font-weight-medium);
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.download-button-text {
+  font-size: var(--calcite-font-size-1);
+  line-height: 1.5rem;
+}
+
+.error-accordion-item {
+  margin-top: 0.75rem;
+}
+
+.error-accordion-item-heading {
+  --calcite-ui-icon-color: var(--calcite-color-status-danger);
+}
+
+.error-accordion-item-content {
+  margin-bottom: 0px;
+}
+
+.cache-accordion-item {
+  margin-top: 0.75rem;
+}
+
+.cache-accordion-item-heading {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  font-weight: var(--calcite-font-weight-bold);
+}
+
+.cache-accordion-item-content {
+  margin-bottom: 0.5rem;
+}
+

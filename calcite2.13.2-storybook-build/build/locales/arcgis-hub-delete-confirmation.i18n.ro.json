@@ -1,0 +1,50 @@
+{
+  "section": "Ștergere",
+  "protection": "Împiedicați ștergerea accidentală a acestui {type}.",
+  "protectionTooltip": "Balon explicativ privind protecția",
+  "protectionDisabledTooltip": "Doar proprietarii sau administratorii organizației pot modifica protecția.",
+  "deleteDisabledNoAccessTooltip": "Doar proprietarii și administratorii de organizații pot șterge.",
+  "deleteDisabledNoAccessTooltipGroup": "Doar proprietarii, managerii și administratorii de organizații pot șterge.",
+  "deleteDisabledProtectedTooltip": "Nu puteți șterge în timp ce protecția la ștergere este activată.",
+  "deleteButton": "Ștergere",
+  "protect": {
+    "successTitle": "Protecție la ștergere adăugată",
+    "success": "Nu puteți șterge în timp ce protecția la ștergere este activată.",
+    "successLabel": "Alertă de protecție la ștergere adăugată.",
+    "errorTitle": "Nu se poate adăuga protecția la ștergere",
+    "error": "S-a produs o eroare la adăugarea protecției la ștergere.",
+    "errorLabel": "Alertă de protecție la ștergere eșuată."
+  },
+  "unprotect": {
+    "successTitle": "Protecție la ștergere eliminată",
+    "success": "Puteți șterge în timp ce protecția la ștergere este dezactivată.",
+    "successLabel": "Alertă de protecție la ștergere eliminată.",
+    "errorTitle": "Nu se poate elimina protecția la ștergere",
+    "error": "S-a produs o eroare la eliminarea protecției la ștergere.",
+    "errorLabel": "Alertă de eliminare protecție la ștergere eșuată."
+  },
+  "delete": {
+    "successTitle": "Ștergere reușită",
+    "success": "Se redirecționează către spațiul dvs. de lucru de acasă",
+    "successLabel": "Alertă de ștergere reușită.",
+    "errorTitle": "Ștergere eșuată",
+    "error": "Ceva nu a funcționat cum trebuie, încercați din nou.",
+    "errorLabel": "Alertă de ștergere eșuată."
+  },
+  "permanentDelete": {
+    "successTitle": "Ștergere definitivă reușită",
+    "success": "Se redirecționează către spațiul dvs. de lucru de acasă",
+    "successLabel": "Alertă de ștergere reușită.",
+    "errorTitle": "Ștergere eșuată",
+    "error": "Ceva nu a funcționat cum trebuie, încercați din nou.",
+    "errorLabel": "Alertă de ștergere eșuată."
+  },
+  "deleteModal": {
+    "header": "Ștergere",
+    "deleteContent": "Nu puteți anula o ștergere definitivă. Sigur doriți să continuați?",
+    "recycleContent": "Conținutul șters va fi trimis la coșul de gunoi. Veți avea 14 zile pentru a-l recupera.",
+    "delete": "Ștergere",
+    "permanentlyDelete": "Ștergere definitivă",
+    "cancel": "Anulare"
+  }
+}

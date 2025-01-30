@@ -1,0 +1,23 @@
+{
+  "overview": "Översikt",
+  "telemetry": {
+    "pageViews": "Sidvisningar",
+    "last30days": "Senaste 30 dagarna",
+    "lastUpdated": "Senast uppdaterad för {hoursElapsed} timmar sedan",
+    "checkTomorrow": "Kom tillbaka i morgon"
+  },
+  "learnAbout": "Läs mer om Hub-initiativ",
+  "feedbackNotice": {
+    "message": "Vad tycker du om Hub-initiativ? Vi vill höra hur du tänkt använda det.",
+    "link": "Skicka feedback"
+  },
+  "status": {
+    "notStarted": "Inte startad",
+    "inProgress": "Pågår",
+    "onHold": "Väntande",
+    "complete": "Fullständig"
+  },
+  "editDetails": "Redigera information",
+  "noPurposeSet": "Inget syfte har angivits",
+  "noLocationSet": "Ingen plats har angivits"
+}

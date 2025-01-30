@@ -1,0 +1,26 @@
+{
+  "unauthenticated": {
+    "heading": "Accedere.",
+    "message": "Questo sito richiede credenziali per accedere.",
+    "actionText": "Accedi"
+  },
+  "not-found": {
+    "heading": "Pagina non trovata",
+    "message": "La pagina potrebbe essere stata spostata o eliminata. Provare a cercarla dalla homepage",
+    "actionText": "Vai alla homepage"
+  },
+  "unsupported-device": {
+    "heading": "Dimensioni dello schermo non supportate",
+    "message": "Gli spazi di lavoro non sono ancora disponibili su schermi di dimensioni ridotte; utilizza un dispositivo con uno schermo più ampio.",
+    "actionText": "Indietro"
+  },
+  "access-denied": {
+    "heading": "Accesso negato",
+    "message": "Non hai l'autorizzazione per accedere a questa risorsa.",
+    "actionText": "Vai alla homepage"
+  },
+  "loading": {
+    "heading": "Caricamento in corso...",
+    "loadingLabel": "Caricamento"
+  }
+}

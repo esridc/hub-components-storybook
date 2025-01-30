@@ -1,0 +1,24 @@
+{
+  "shared": {
+    "targetEntities": {
+      "item": "Elemek",
+      "event": "Események"
+    }
+  },
+  "targetEntityBlock": {
+    "configured": "Konfigurálva",
+    "notConfigured": "Nincs konfigurálva"
+  },
+  "targetEntityFlow": {
+    "back": "Konfigurálás bezárása: {targetEntity}",
+    "description": "Konfigurálás: {targetEntity}",
+    "source": {
+      "heading": "Forrás",
+      "description": "A források meghatározzák a tartalom terjedelmét. Módosítsa az eredményeket a paraméterek hozzáadásával vagy kizárásával.<br/><br/>*a kötelezően kitöltendő mezőt jelöli"
+    },
+    "collections": {
+      "heading": "Gyűjtemények",
+      "description": "A tartalom külön részhalmazokba rendezése a könnyebb böngészés és felfedezés érdekében.<br/><br/>*a kötelezően kitöltendő mezőt jelöli"
+    }
+  }
+}

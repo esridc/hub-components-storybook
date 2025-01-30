@@ -1,0 +1,72 @@
+{
+  "addContent": "Content toevoegen",
+  "addContentType": {
+    "event": "Evenement maken",
+    "discussion": "Discussie maken",
+    "group": "Groep maken",
+    "initiative": "Initiatief maken",
+    "project": "Project maken",
+    "page": "Pagina maken",
+    "site:": "Site maken"
+  },
+  "tooltip": {
+    "label": "Uitgeschakeld",
+    "noCatalog": "Voeg groepen aan de catalogus toe om content toe te voegen.",
+    "noPermission": "U bent niet gemachtigd om content aan de catalogus toe te voegen.",
+    "no-permission": "U bent niet gemachtigd om content aan de catalogus toe te voegen.",
+    "not-in-groups": "U bent geen lid van een van de groepen die de catalogus definiëren.",
+    "too-many-groups": "U hebt al het maximumaantal groepen en u mag er niet nog meer maken."
+  },
+  "existing": {
+    "description": "Content toevoegen die al in {onlineOrEnterprise} aanwezig is",
+    "modalTitle": "Bestaande content selecteren",
+    "title": "Bestaande content selecteren"
+  },
+  "create": {
+    "app": {
+      "description": "Maak een ervaring, vertel een verhaal of visualiseer uw gegevens",
+      "modalTitle": "App maken",
+      "title": "App"
+    },
+    "event": {
+      "description": "Organiseer georganiseerde activiteiten, in persoon of virtueel",
+      "modalTitle": "Evenement maken",
+      "title": "Evenement"
+    },
+    "content": {
+      "description": "Voeg gegevens, documenten, afbeeldingen en externe links toe aan uw site",
+      "modalTitle": "Maak content",
+      "title": "Content"
+    },
+    "discussion": {
+      "description": "Verzamel ideeën en feedback",
+      "modalTitle": "Discussiebord maken",
+      "title": "Discussiebord"
+    },
+    "group": {
+      "description": "Organiseer mensen voor het delen van content en voor discussies",
+      "modalTitle": "Groep maken",
+      "title": "Groep"
+    },
+    "initiative": {
+      "description": "Accentueer strategische inspanningen met gedefinieerde doelen voor het organiseren van projecten",
+      "modalTitle": "Initiatief maken",
+      "title": "Initiatief"
+    },
+    "page": {
+      "description": "Presenteer informatie in een gestructureerde lay-out",
+      "modalTitle": "Pagina maken",
+      "title": "Pagina"
+    },
+    "project": {
+      "description": "Laat werk zien met duidelijke doelen en tijdsframes",
+      "modalTitle": "Project maken",
+      "title": "Project"
+    },
+    "site": {
+      "description": "Maak een website met branding om met uw gemeenschap te communiceren",
+      "modalTitle": "Site maken",
+      "title": "Site"
+    }
+  }
+}

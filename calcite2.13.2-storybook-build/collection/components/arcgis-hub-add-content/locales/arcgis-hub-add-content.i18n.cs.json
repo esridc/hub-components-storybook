@@ -1,0 +1,72 @@
+{
+  "addContent": "Přidat obsah",
+  "addContentType": {
+    "event": "Vytvořit událost",
+    "discussion": "Vytvořit diskuzi",
+    "group": "Vytvořit skupinu",
+    "initiative": "Vytvořit iniciativu",
+    "project": "Vytvořit projekt",
+    "page": "Vytvořit stránku",
+    "site:": "Vytvořit web"
+  },
+  "tooltip": {
+    "label": "Nepovoleno",
+    "noCatalog": "Chcete-li přidat obsah, přidejte do katalogu skupiny.",
+    "noPermission": "K přidávání obsahu do katalogu nemáte oprávnění.",
+    "no-permission": "K přidávání obsahu do katalogu nemáte oprávnění.",
+    "not-in-groups": "Nejste členem žádné skupiny, která definuje katalog.",
+    "too-many-groups": "Dosáhli jste maximálního počtu skupin a nemůžete vytvářet další."
+  },
+  "existing": {
+    "description": "Přidat obsah, který je již v {onlineOrEnterprise}",
+    "modalTitle": "Vybrat stávající obsah",
+    "title": "Vybrat stávající obsah"
+  },
+  "create": {
+    "app": {
+      "description": "Vytvořte aplikaci, vyprávějte příběh nebo vizualizujte data",
+      "modalTitle": "Vytvořit aplikaci",
+      "title": "Aplikace"
+    },
+    "event": {
+      "description": "Organizujte akce, osobně nebo virtuálně",
+      "modalTitle": "Vytvořit událost",
+      "title": "Událost"
+    },
+    "content": {
+      "description": "Přidejte na svůj web data, dokumenty, obrázky a externí odkazy",
+      "modalTitle": "Vytvořit obsah",
+      "title": "Obsah"
+    },
+    "discussion": {
+      "description": "Shromažďujte nápady a zpětnou vazbu",
+      "modalTitle": "Vytvořit diskuzní fórum",
+      "title": "Diskuzní fórum"
+    },
+    "group": {
+      "description": "Zorganizujte sdílení obsahu a diskuzí",
+      "modalTitle": "Vytvořit skupinu",
+      "title": "Skupina"
+    },
+    "initiative": {
+      "description": "Zdůrazněte strategické úsilí s definovanými cíli k organizaci projektů",
+      "modalTitle": "Vytvořit iniciativu",
+      "title": "Iniciativa"
+    },
+    "page": {
+      "description": "Prezentujte informace ve strukturovaném rozvržení",
+      "modalTitle": "Vytvořit stránku",
+      "title": "Stránka"
+    },
+    "project": {
+      "description": "Předveďte práci s jasnými cíli a časovými rámci",
+      "modalTitle": "Vytvořit projekt",
+      "title": "Projekt"
+    },
+    "site": {
+      "description": "Vytvořte webové stránky s brandingem, abyste zapojili svou komunitu",
+      "modalTitle": "Vytvořit web",
+      "title": "Web"
+    }
+  }
+}

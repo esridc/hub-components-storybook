@@ -1,0 +1,110 @@
+{
+  "controls": {
+    "addContent": "Pievienot saturu",
+    "back": "Atpakaļ",
+    "cancel": "Atcelt",
+    "close": "Pabeigts",
+    "create": "Izveidot un pievienot grupai",
+    "next": "Tālāk"
+  },
+  "createHelpState": {
+    "discussion": {
+      "heading": "Diskusija",
+      "message": "Izveidot jaunu diskusiju paneli, ievadot virsrakstu, kas norāda tēmu."
+    },
+    "event": {
+      "heading": "Pasākums",
+      "message": "Rīkot organizētu aktivitāti klātienē vai virtuāli"
+    },
+    "group": {
+      "heading": "Grupa",
+      "message": "Izveidot grupu, lai kopīgi strādātu ar fokusētu saturu."
+    },
+    "initiative": {
+      "heading": "Iniciatīva",
+      "message": "Iniciatīvas organizē un apkopo virzību uz mērķi."
+    },
+    "page": {
+      "heading": "Lapa",
+      "message": "Lapa ir vieta, kur koplietot informāciju un sadarboties ar jūsu auditoriju."
+    },
+    "project": {
+      "heading": "Projekts",
+      "message": "Akcentēt darbu, kam ir skaidri mērķi un termiņi."
+    },
+    "site": {
+      "heading": "Vietne",
+      "message": "Izveidot tīmekļa lapu, lai organizētu un koplietotu informāciju."
+    }
+  },
+  "selection": {
+    "unlimited": "Atlasīts: {count}",
+    "limited": "Izvēlētais: {count} / {limit}"
+  },
+  "steps": {
+    "createContent": "Pievienot pamatinformāciju",
+    "selectContent": "Izvēlēties saturu",
+    "selectGroups": "Izvēlēties grupu",
+    "confirmation": "Apstiprinājums",
+    "notImplemented": "Nav ieviests"
+  },
+  "working": {
+    "heading": "Pievieno atlasīto saturu.",
+    "loadingLabel": "Pievieno saturu."
+  },
+  "failure": {
+    "heading": "Saturs nav pievienots",
+    "message": "Pievienojot atlasīto saturu, radās kļūme. Lūdzu, mēģiniet vēlreiz.",
+    "action": "Mēģiniet vēlreiz"
+  },
+  "notImplemented": {
+    "heading": "Šī darbplūsma vēl nav ieviesta."
+  },
+  "contentGallery": {
+    "facets": {
+      "access": {
+        "label": "No"
+      },
+      "type": {
+        "label": "Veidi"
+      },
+      "tags": {
+        "label": "Atslēgvārdi"
+      },
+      "categories": {
+        "label": "Kategorijas"
+      },
+      "modified": {
+        "label": "Mainīts"
+      }
+    }
+  },
+  "groupsGallery": {
+    "facets": {
+      "access": {
+        "label": "Var skatīt",
+        "options": {
+          "org": "Organizācija",
+          "public": "Ikviens (publiski)",
+          "private": "Es"
+        }
+      },
+      "from": {
+        "label": "No",
+        "options": {
+          "myCommunity": "Mana kopiena",
+          "myGroups": "Manas grupas",
+          "myOrganization": "Mana organizācija",
+          "world": "Pasaule"
+        }
+      },
+      "type": {
+        "label": "Veidi",
+        "options": {
+          "sharedUpdate": "Koplietots atjauninājums",
+          "opendata": "Open Data"
+        }
+      }
+    }
+  }
+}

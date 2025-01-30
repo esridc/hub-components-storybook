@@ -1,0 +1,29 @@
+{
+  "header": "Etkinlikler",
+  "myContent": "Etkinliklerim",
+  "editableContent": "Düzenlenebilir İçerik",
+  "addEventButtonText": "Etkinlik Oluştur",
+  "type": "Tür",
+  "sharedUpdate": "Paylaşılan Güncelleme Grubu",
+  "viewOnly": "Sadece Grubu Görüntüle",
+  "owner": "Oluşturan",
+  "starts": "Açık",
+  "from": "Kaynak",
+  "until": "Şu tarihe kadar",
+  "updated": "Güncellendi",
+  "tags": "Etiketler",
+  "dateCreated": "Oluşturulma",
+  "dateUpdated": "Değiştirilme Tarihi",
+  "actionLinks": {
+    "view": "Görüntüle",
+    "edit": "Düzenle",
+    "ariaEdit": "Düzenle: {title}",
+    "ariaView": "Görüntüle: {title}"
+  },
+  "access": {
+    "label": "Erişim",
+    "PRIVATE": "Özel",
+    "ORG": "Kuruluş",
+    "PUBLIC": "Genel"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "about": "אודות",
+  "metrics": "מדדים",
+  "featuredContent": "תוכן מוצג",
+  "details": "פרטים",
+  "exploreMetrics": "חקירת מדדים",
+  "status": {
+    "label": {
+      "default": "סטטוס",
+      "project": "סטטוס פרויקט",
+      "initiative": "סטטוס יוזמה"
+    },
+    "notStarted": "לא התחיל",
+    "inProgress": "בביצוע",
+    "onHold": "בהמתנה",
+    "complete": "הושלם"
+  }
+}

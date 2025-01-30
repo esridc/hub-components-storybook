@@ -1,0 +1,21 @@
+div {
+
+    font-size: var(--calcite-font-size--1);
+
+    line-height: 1rem
+}
+
+calcite-notice {
+
+    margin-bottom: 0.5rem
+}
+
+calcite-loader {
+
+    margin-right: 0.5rem
+}
+
+calcite-loader[active] {
+
+    display: inline-block
+}

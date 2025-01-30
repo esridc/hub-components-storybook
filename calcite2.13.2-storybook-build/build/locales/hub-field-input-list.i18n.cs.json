@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "Upravit",
+    "fields": {
+      "label": {
+        "label": "Popisek",
+        "requiredMessage": "Popisek je povinný",
+        "maxLengthMessage": "Popisek nesmí překročit {maxLength} znaků"
+      }
+    },
+    "apply": "Použít"
+  },
+  "showItem": "Zobrazit následující položku seznamu: {itemLabel}",
+  "hideItem": "Skrýt následující položku seznamu: {itemLabel}",
+  "editItem": "Upravit následující položku seznamu: {itemLabel}"
+}

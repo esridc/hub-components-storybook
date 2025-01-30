@@ -1,0 +1,13 @@
+{
+  "csv": "CSV",
+  "shapefile": "Шейп-файл",
+  "sqlite": "База геоданих SQLite",
+  "geoPackage": "Геопакет",
+  "filegdb": "Файлова база геоданих",
+  "featureCollection": "Колекція об’єктів",
+  "geojson": "GeoJSON",
+  "excel": "Excel",
+  "json": "JSON",
+  "createReplicaErrorMessage": "Внутрішня помилка створення репліки. Спробуйте знову за годину або зверніться до адміністратора вмісту.",
+  "errorHeader": "Не вдалося завершити завантаження. Спробуйте знову."
+}

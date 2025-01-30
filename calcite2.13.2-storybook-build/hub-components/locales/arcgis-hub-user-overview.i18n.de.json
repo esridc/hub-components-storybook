@@ -1,0 +1,35 @@
+{
+  "overview": "Überblick",
+  "resources": "Hub-Ressourcen",
+  "cards": {
+    "items": "Anzahl der Elemente",
+    "groups": "Anzahl der Gruppen"
+  },
+  "hubContent": {
+    "heading": "Zuletzt geänderte Hub-Elemente",
+    "link": "Gesamten Inhalt anzeigen"
+  },
+  "content": {
+    "heading": "Zuletzt geänderte Inhalte",
+    "stat": "Anzahl der Elemente",
+    "link": "Gesamten Inhalt anzeigen"
+  },
+  "groups": {
+    "heading": "Zuletzt geänderte Gruppen",
+    "stat": "Anzahl der Gruppen",
+    "link": "Alle Gruppen anzeigen"
+  },
+  "contentCount": "Inhalt",
+  "addContent": "Neue erstellen",
+  "facets": {
+    "access": {
+      "label": "Aus"
+    },
+    "type": {
+      "label": "Typen"
+    },
+    "modified": {
+      "label": "Geändert"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unauthenticated": {
+    "heading": "Lūdzu, pierakstieties.",
+    "message": "Lai piekļūtu šai vietnei, nepieciešami akreditācijas dati.",
+    "actionText": "Pierakstīties"
+  },
+  "not-found": {
+    "heading": "Lapa nav atrasta",
+    "message": "Šī lapa, iespējams, ir pārvietota vai izdzēsta. Mēģiniet to meklēt sākumlapā",
+    "actionText": "Doties uz sākumlapu"
+  },
+  "unsupported-device": {
+    "heading": "Neatbalstīts ekrāna izmērs",
+    "message": "Darbvietas vēl nav pieejamas mazākos ekrāna izmēros; lūdzu, izmantojiet ierīci ar platāku ekrānu.",
+    "actionText": "Doties atpakaļ"
+  },
+  "access-denied": {
+    "heading": "Piekļuve liegta",
+    "message": "Jums nav atļaujas piekļūt šim resursam.",
+    "actionText": "Doties uz sākumlapu"
+  },
+  "loading": {
+    "heading": "Ielādē...",
+    "loadingLabel": "Ielādē"
+  }
+}

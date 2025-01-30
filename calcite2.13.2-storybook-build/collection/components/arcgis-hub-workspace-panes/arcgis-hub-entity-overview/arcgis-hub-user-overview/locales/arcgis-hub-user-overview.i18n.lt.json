@@ -1,0 +1,35 @@
+{
+  "overview": "Apžvalga",
+  "resources": "Hub ištekliai",
+  "cards": {
+    "items": "Elementų skaičius",
+    "groups": "Grupių skaičius"
+  },
+  "hubContent": {
+    "heading": "Neseniai pakeisti Hub elementai",
+    "link": "Peržiūrėti visą turinį"
+  },
+  "content": {
+    "heading": "Neseniai pakeistas turinys",
+    "stat": "Elementų skaičius",
+    "link": "Peržiūrėti visą turinį"
+  },
+  "groups": {
+    "heading": "Neseniai pakeistos grupės",
+    "stat": "Grupių skaičius",
+    "link": "Peržiūrėti visas grupes"
+  },
+  "contentCount": "Turinys",
+  "addContent": "Sukurti naują",
+  "facets": {
+    "access": {
+      "label": "Nuo"
+    },
+    "type": {
+      "label": "Tipai"
+    },
+    "modified": {
+      "label": "Pakeistas"
+    }
+  }
+}

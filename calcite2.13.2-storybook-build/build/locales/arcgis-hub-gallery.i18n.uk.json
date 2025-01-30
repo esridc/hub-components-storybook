@@ -1,0 +1,91 @@
+{
+  "moreResults": "Більше результатів",
+  "search": "Пошук",
+  "filter": "Фільтри",
+  "viewResults": "Переглянути результати ({numResults})",
+  "resultsCount": "1 - {pageTotal} з {searchTotal}",
+  "backToTop": "Повернутися до початку сторінки",
+  "facets": {
+    "access": {
+      "label": "Спільне використання",
+      "private": "Я",
+      "shared": "Власник і групи",
+      "org": "Організація",
+      "public": "Публічний"
+    },
+    "license": {
+      "label": "Ліцензія",
+      "tooltip": "Тільки у загальнодоступному вмісті",
+      "custom": "Задається користувачем",
+      "none": "Немає"
+    },
+    "type": {
+      "label": "Тип"
+    },
+    "tags": {
+      "label": "Теги"
+    },
+    "dateUpdated": {
+      "label": "Дата оновлення"
+    },
+    "source": {
+      "label": "Джерело",
+      "tooltip": "Публічний вміст від різних організацій"
+    },
+    "categories": {
+      "label": "Категорії"
+    },
+    "location": {
+      "label": "Місце розташування",
+      "tooltip": "Застосувати екстент карти як фільтр місця розташування"
+    },
+    "event": {
+      "from": {
+        "label": "Належність",
+        "myContent": "Я",
+        "myOrganization": "Моя організація",
+        "world": "Будь-хто"
+      },
+      "access": {
+        "label": "Доступ",
+        "private": "Приватний",
+        "org": "Організація",
+        "public": "Публічний"
+      },
+      "startDate": {
+        "label": "Дата події"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "Тип",
+        "all": "Усі",
+        "view": "Перегляд",
+        "edit": "Редагувати"
+      },
+      "role": {
+        "label": "Роль",
+        "all": "Усі",
+        "member": "Учасник",
+        "manager": "Диспетчер",
+        "owner": "Власник"
+      },
+      "sharing": {
+        "label": "Видимість",
+        "private": "Приватний",
+        "public": "Публічний"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "Відображати список",
+    "grid": "Відображати сітку",
+    "map": "Відобразити карту",
+    "compact": "Відображати компактний вид",
+    "calendar": "Відображати календар",
+    "table": "Відображати таблицю"
+  },
+  "galleryActionsLabel": "Додаткові дії",
+  "selected": "Вибрано: {count}",
+  "popoverActionButtonLabel": "додаткові дії"
+}

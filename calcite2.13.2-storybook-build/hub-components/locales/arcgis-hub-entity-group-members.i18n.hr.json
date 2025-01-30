@@ -1,0 +1,59 @@
+{
+  "title": "Članovi",
+  "facets": {
+    "role": {
+      "label": "Uloga",
+      "all": "Svi",
+      "manager": "Upravitelj",
+      "member": "Član"
+    },
+    "dateJoined": {
+      "label": "Datum pridruživanja"
+    }
+  },
+  "stats": {
+    "total": {
+      "title": "Ukupno",
+      "trailingText": "Članovi grupe"
+    },
+    "new": {
+      "title": "Novo",
+      "trailingText": "Posljednjih 30 dana"
+    }
+  },
+  "addMembers": {
+    "button": "Dodaj članove",
+    "disabledTooltip": "Nemate pristup za dodavanje korisnika u ovu grupu.",
+    "modal": {
+      "title": "Dodaj članove",
+      "org": "Moja organizacija",
+      "community": "Moja zajednica",
+      "partner": "Moji partneri",
+      "world": "Svijet"
+    },
+    "notifications": {
+      "invited": "Pozivnica je poslana. Korisnici moraju prihvatiti da bi se pridružili",
+      "added": "Korisnik/ci dodan/i",
+      "notInvited": "Neki korisnici možda nemaju privilegije potrebne za pridruživanje grupi ili je grupa možda dosegla maksimalno ograničenje (512)"
+    }
+  },
+  "removeUsers": {
+    "button": "Ukloni",
+    "success": "Članovi su uspješno uklonjeni iz {groupName}.",
+    "error": "Jednog ili više korisnika nije bilo moguće ukloniti iz grupe."
+  },
+  "changeRole": {
+    "tooltipText": "Odznačite sebe i/ili vlasnika grupe",
+    "tooltipLabel": "Izjava o odricanju odgovornosti za ulogu",
+    "button": "Promijenite ulogu",
+    "member": "Član",
+    "memberHelperText": "Može dodavati i vidjeti sadržaj unutar grupe.",
+    "admin": "Upravitelj",
+    "adminHelperText": "Može dodati/ukloniti sadržaj i pozvati/ukloniti osobe (osim vlasnika).",
+    "success": "Odabrani članovi postali su grupa {role}.",
+    "error": "Nije moguće promijeniti ulogu za jednog ili više članova."
+  },
+  "notice": {
+    "label": "Stvori upozorenje"
+  }
+}

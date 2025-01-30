@@ -1,0 +1,54 @@
+{
+  "existing": {
+    "successHeading": "콘텐츠를 성공적으로 추가했습니다.",
+    "failureHeading": "선택한 그룹에 콘텐츠를 추가할 수 없습니다.",
+    "successfulAccordionHeading": "선택한 그룹에 콘텐츠를 추가했습니다.",
+    "unsuccessfulAccordionHeading": "선택한 그룹에 콘텐츠를 추가하지 않았습니다."
+  },
+  "create": {
+    "event": {
+      "successWithoutGroupHeading": "이벤트를 성공적으로 생성했습니다.",
+      "successWithGroupHeading": "이벤트를 성공적으로 생성하여 {group}에 추가했습니다.",
+      "successMessage": "이제 이벤트를 보거나, 관리하여 정보를 편집하거나, '완료'를 클릭하여 뷰로 돌아갈 수 있습니다.",
+      "failureHeading": "선택한 그룹에 이벤트를 추가할 수 없습니다."
+    },
+    "discussion": {
+      "successWithoutGroupHeading": "토론 보드를 성공적으로 생성했습니다.",
+      "successWithGroupHeading": "토론 보드를 성공적으로 생성하여 {group}에 추가했습니다.",
+      "successMessage": "이제 토론 보드를 보거나, 관리하여 정보를 편집하거나, '완료'를 클릭하여 뷰로 돌아갈 수 있습니다.",
+      "failureHeading": "선택한 그룹에 토론 보드를 추가할 수 없습니다."
+    },
+    "group": {
+      "successWithoutGroupHeading": "그룹을 성공적으로 생성했습니다.",
+      "successMessage": "이제 그룹을 보거나, 관리하여 정보를 편집하거나, '완료'를 클릭하여 뷰로 돌아갈 수 있습니다.",
+      "failureHeading": "그룹을 생성할 수 없습니다."
+    },
+    "initiative": {
+      "successWithoutGroupHeading": "이니셔티브를 성공적으로 생성했습니다.",
+      "successWithGroupHeading": "이니셔티브를 성공적으로 생성하여 {group}에 추가했습니다.",
+      "successMessage": "이제 이니셔티브를 보거나, 관리하여 정보를 편집하거나, '완료'를 클릭하여 뷰로 돌아갈 수 있습니다.",
+      "failureHeading": "선택한 그룹에 이니셔티브를 추가할 수 없습니다."
+    },
+    "page": {
+      "successWithoutGroupHeading": "페이지를 성공적으로 생성했습니다.",
+      "successWithGroupHeading": "페이지를 성공적으로 생성하여 {group}에 추가했습니다.",
+      "successMessage": "이제 페이지를 보거나, 관리하여 정보를 편집하거나, '완료'를 클릭하여 뷰로 돌아갈 수 있습니다.",
+      "failureHeading": "선택한 그룹에 페이지를 추가할 수 없습니다."
+    },
+    "project": {
+      "successWithoutGroupHeading": "프로젝트를 성공적으로 생성했습니다.",
+      "successWithGroupHeading": "프로젝트를 성공적으로 생성하여 {group}에 추가했습니다.",
+      "successMessage": "이제 프로젝트를 보거나, 관리하여 정보를 편집하거나, '완료'를 클릭하여 뷰로 돌아갈 수 있습니다.",
+      "failureHeading": "선택한 그룹에 프로젝트를 추가할 수 없습니다."
+    },
+    "site": {
+      "successWithoutGroupHeading": "사이트를 성공적으로 생성했습니다.",
+      "successWithGroupHeading": "사이트를 성공적으로 생성하여 {group}에 추가했습니다.",
+      "successMessage": "이제 사이트를 보거나, 관리하여 정보를 편집하거나, '완료'를 클릭하여 뷰로 돌아갈 수 있습니다.",
+      "failureHeading": "선택한 그룹에 사이트를 추가할 수 없습니다."
+    }
+  },
+  "editLayout": "레이아웃 편집",
+  "manageEntity": "관리",
+  "viewEntity": "보기"
+}

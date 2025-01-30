@@ -1,0 +1,91 @@
+{
+  "moreResults": "Altri risultati",
+  "search": "Cerca",
+  "filter": "Filtri",
+  "viewResults": "Visualizzare risultati ({numResults})",
+  "resultsCount": "1 - {pageTotal} di {searchTotal}",
+  "backToTop": "Torna all'inizio",
+  "facets": {
+    "access": {
+      "label": "Condivisione",
+      "private": "Me stesso",
+      "shared": "Proprietario e gruppi",
+      "org": "Organizzazione",
+      "public": "Pubblico"
+    },
+    "license": {
+      "label": "Licenza",
+      "tooltip": "Solo nel contenuto pubblico",
+      "custom": "Personalizzata",
+      "none": "Nessuno"
+    },
+    "type": {
+      "label": "Tipo"
+    },
+    "tags": {
+      "label": "Tag"
+    },
+    "dateUpdated": {
+      "label": "Data aggiornamento"
+    },
+    "source": {
+      "label": "Origine",
+      "tooltip": "Contenuto pubblico di diverse organizzazioni"
+    },
+    "categories": {
+      "label": "Categorie"
+    },
+    "location": {
+      "label": "Posizione",
+      "tooltip": "Applica estensione mappa come filtro posizione"
+    },
+    "event": {
+      "from": {
+        "label": "Proprietà",
+        "myContent": "Me",
+        "myOrganization": "La mia organizzazione",
+        "world": "Chiunque"
+      },
+      "access": {
+        "label": "Accesso",
+        "private": "Privato",
+        "org": "Organizzazione",
+        "public": "Pubblico"
+      },
+      "startDate": {
+        "label": "Data evento"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "Tipo",
+        "all": "Tutti",
+        "view": "Visualizza",
+        "edit": "Modifica"
+      },
+      "role": {
+        "label": "Ruolo",
+        "all": "Tutti",
+        "member": "Membro",
+        "manager": "Gestore",
+        "owner": "Proprietario"
+      },
+      "sharing": {
+        "label": "Visibilità",
+        "private": "Privato",
+        "public": "Pubblico"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "Visualizza elenco",
+    "grid": "Visualizza griglia",
+    "map": "Mappa visualizzazione",
+    "compact": "Visualizzazione compatta",
+    "calendar": "Visualizzazione calendario",
+    "table": "Visualizzazione tabella"
+  },
+  "galleryActionsLabel": "Azioni aggiuntivi",
+  "selected": "Selezionato: {count}",
+  "popoverActionButtonLabel": "altre azioni"
+}

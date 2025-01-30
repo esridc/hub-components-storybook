@@ -1,0 +1,46 @@
+:host {
+
+    display: block
+}
+
+calcite-sortable-list {
+
+    margin-bottom: 1.5rem
+}
+
+.stage-editor {
+
+    margin-left: 1rem
+}
+
+calcite-combobox {
+
+    margin-bottom: 0.5rem
+}
+
+.collapse-toggle-heading {
+
+    display: flex;
+
+    gap: 0.25rem
+}
+
+.steps-heading {
+
+    padding-top: 0.75rem;
+
+    padding-bottom: 1rem;
+
+    font-size: var(--calcite-font-size-0);
+
+    line-height: 1.25rem;
+
+    font-weight: var(--calcite-font-weight-medium);
+
+    color: var(--calcite-color-text-1)
+}
+
+.add-step-btn {
+
+    margin-bottom: 1.5rem
+}

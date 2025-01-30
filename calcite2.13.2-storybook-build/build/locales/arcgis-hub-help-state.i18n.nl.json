@@ -1,0 +1,26 @@
+{
+  "unauthenticated": {
+    "heading": "Meld u aan.",
+    "message": "U moet u aanmelden voor toegang tot deze site.",
+    "actionText": "Aanmelden"
+  },
+  "not-found": {
+    "heading": "Kan pagina niet vinden",
+    "message": "Deze pagina is mogelijk verplaatst of verwijderd. Probeer ernaar te zoeken vanaf de homepage",
+    "actionText": "Ga naar homepage"
+  },
+  "unsupported-device": {
+    "heading": "Niet-ondersteunde schermgrootte",
+    "message": "Werkruimtes zijn nog niet beschikbaar voor kleinere schermgroottes; gebruik een apparaat met een breder scherm.",
+    "actionText": "Ga terug"
+  },
+  "access-denied": {
+    "heading": "Geen toegang",
+    "message": "U bent niet gemachtigd voor toegang tot deze hulpbron.",
+    "actionText": "Ga naar Homepage"
+  },
+  "loading": {
+    "heading": "Bezig met laden...",
+    "loadingLabel": "Laden"
+  }
+}

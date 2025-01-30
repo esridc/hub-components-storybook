@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "Регистър",
+    "registered": "Регистрирано",
+    "join": "Включете се онлайн",
+    "in-person": "Лично",
+    "online": "Онлайн",
+    "inPersonFull": "Лично (пълно)",
+    "onlineFull": "Онлайн (пълно)",
+    "close": "Затваряне"
+  },
+  "tooltip": {
+    "isCanceled": "Събитието е отменено",
+    "eventHasEnded": "Събитието е приключило",
+    "eventFull": "Събитие със запълнен капацитет",
+    "inPerson": "Регистрирахте се за лично събитие",
+    "online": "Регистрирахте се за онлайн събитие",
+    "unavailable": "Наличен час преди началото на събитието"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "Успешно сте отказали регистрацията за онлайн събитието",
+    "onlineRegistrationConfirmed": "Успещно се регистрирахте за онлайн събитие",
+    "onlineRegistrationError": "Възникна неочаквана грешка при регистрирането за онлайн събитието",
+    "onlineRegistrationCanceledError": "Възникна неочаквана грешка при отказа от регистрация за онлайн събитието",
+    "onlineRegistrationAtCapacity": "Опитвате се да се регистрирате за онлайн събитие, което е пълно",
+    "inPersonRegistrationCanceled": "Успешно сте отказали регистрацията за лично събитие",
+    "inPersonRegistrationCanceledError": "Възникна неочаквана грешка при отказа от регистрация за лично събитие",
+    "inPersonRegistrationConfirmed": "Успещно се регистрирахте за лично събитие",
+    "inPersonRegistrationError": "Възникна неочаквана грешка при регистрирането за лично събитие",
+    "inPersonRegistrationAtCapacity": "Опитвате се да се регистрирате за лично събитие, което е със запълнен капацитет"
+  }
+}

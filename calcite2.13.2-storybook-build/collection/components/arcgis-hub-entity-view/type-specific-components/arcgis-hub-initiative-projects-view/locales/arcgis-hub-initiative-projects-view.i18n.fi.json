@@ -1,0 +1,19 @@
+{
+  "facets": {
+    "location": {
+      "label": "Sijainti",
+      "tooltip": "Käytä kartan laajuutta sijainnin suodattimena"
+    },
+    "status": "Tila",
+    "tags": "Tunnisteet",
+    "categories": "Luokat",
+    "dateUpdated": "Päivitetty viimeksi"
+  },
+  "status": {
+    "label": "Aloitteen tila",
+    "notStarted": "Ei aloitettu",
+    "inProgress": "Meneillään",
+    "onHold": "Pidossa",
+    "complete": "Valmis"
+  }
+}

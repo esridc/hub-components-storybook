@@ -1,0 +1,11 @@
+{
+  "actions": {
+    "register": "Ilmoittaudu"
+  },
+  "tooltip": {
+    "register": {
+      "isCancelled": "Tapahtuma peruttu",
+      "eventHasEnded": "Tapahtuma päättynyt"
+    }
+  }
+}

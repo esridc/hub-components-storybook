@@ -1,0 +1,20 @@
+{
+  "dashboard": "Dashboard",
+  "activityLogSection": {
+    "title": "Activiteitenlogboek",
+    "table": {
+      "downloadAction": "Downloaden",
+      "downloadAllAction": "Alles downloaden",
+      "downloadActionTooltip": "Geselecteerde activiteiten downloaden",
+      "caption": "Tabel recente fouten",
+      "columnHeaders": {
+        "datetime": "Datum",
+        "layer": "Laag",
+        "message": "Bericht"
+      },
+      "noRecentErrors": "Geen recente fouten",
+      "expandText": "Meer weergeven",
+      "collapseText": "Minder weergeven"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+:host {
+
+    display: block;
+
+    height: 100%
+}
+
+.group-members-manager {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 2rem
+}
+
+.entity-group-members__stats {
+
+    display: flex;
+
+    width: 100%;
+
+    gap: 1rem
+}
+
+.entity-group-members__stats arcgis-stat-card {
+
+    width: 50%
+}
+
+arcgis-ref-tooltip {
+
+    width: -moz-fit-content;
+
+    width: fit-content
+}

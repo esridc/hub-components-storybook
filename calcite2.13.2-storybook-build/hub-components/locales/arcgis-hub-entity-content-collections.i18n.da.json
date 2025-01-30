@@ -1,0 +1,33 @@
+{
+  "title": "Samlinger",
+  "actions": {
+    "label": "Indstillinger",
+    "show": "Vis",
+    "hide": "Skjul",
+    "rename": "Omdøb"
+  },
+  "formAlert": "Formularadvarsel",
+  "alertMessages": {
+    "success": "Redigeringer er blevet gemt",
+    "error": "Fejl under lagring af redigeringer"
+  },
+  "collectionRenameModal": {
+    "title": "Omdøb samling",
+    "fieldLabel": "Etiket til samling",
+    "requiredMessage": "Der kræves en etiket til samling",
+    "apply": "Anvend",
+    "maxLengthMessage": "Samlingsetiket må ikke overstige 50 tegn"
+  },
+  "collections": {
+    "dataset": "Data",
+    "site": "Websteder",
+    "document": "Dokumenter",
+    "appAndMap": "Apps og kort"
+  },
+  "saveButton": "Gem",
+  "sections": {
+    "collectionConfiguration": {
+      "title": "Konfiguration af samling"
+    }
+  }
+}

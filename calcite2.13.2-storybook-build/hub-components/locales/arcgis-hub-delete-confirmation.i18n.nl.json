@@ -1,0 +1,50 @@
+{
+  "section": "Verwijderen",
+  "protection": "Voorkom dat u deze/dit {type} per ongeluk verwijderd.",
+  "protectionTooltip": "Beschermingstooltip",
+  "protectionDisabledTooltip": "Bescherming kan alleen worden gewijzigd door eigenaren of door beheerders van organisaties.",
+  "deleteDisabledNoAccessTooltip": "Verwijderen is alleen mogelijk voor eigenaars of beheerders van de organisatie.",
+  "deleteDisabledNoAccessTooltipGroup": "Verwijderen is alleen mogelijk voor eigenaars, managers of beheerders van de organisatie.",
+  "deleteDisabledProtectedTooltip": "Verwijdering is onmogelijk zolang bescherming tegen verwijdering ingeschakeld is.",
+  "deleteButton": "Verwijderen",
+  "protect": {
+    "successTitle": "Bescherming tegen verwijdering is toegevoegd",
+    "success": "Verwijdering is onmogelijk zolang bescherming tegen verwijdering ingeschakeld is.",
+    "successLabel": "Waarschuwing dat bescherming tegen verwijdering is toegevoegd.",
+    "errorTitle": "Kan bescherming tegen verwijdering niet toevoegen",
+    "error": "Er is een fout opgetreden bij het toevoegen van bescherming tegen verwijdering.",
+    "errorLabel": "Waarschuwing dat de bescherming tegen verwijdering is mislukt."
+  },
+  "unprotect": {
+    "successTitle": "Bescherming tegen verwijdering is verwijderd",
+    "success": "Verwijdering is mogelijk als bescherming tegen verwijdering niet ingeschakeld is.",
+    "successLabel": "Waarschuwing dat bescherming tegen verwijdering is verwijderd.",
+    "errorTitle": "Kan bescherming tegen verwijdering niet verwijderen",
+    "error": "Er is een fout opgetreden tijdens het verwijderen van bescherming tegen verwijdering.",
+    "errorLabel": "Waarschuwing dat het verwijderen van bescherming tegen verwijdering is mislukt."
+  },
+  "delete": {
+    "successTitle": "Verwijderen is voltooid",
+    "success": "U wordt doorgestuurd naar uw startwerkruimte",
+    "successLabel": "Waarschuwing verwijderen voltooid",
+    "errorTitle": "Kan niet verwijderen",
+    "error": "Er is iets fout gegaan, probeer het opnieuw.",
+    "errorLabel": "Waarschuwing verwijderen mislukt."
+  },
+  "permanentDelete": {
+    "successTitle": "Permanente verwijdering is voltooid",
+    "success": "U wordt doorgestuurd naar uw startwerkruimte",
+    "successLabel": "Waarschuwing verwijderen voltooid",
+    "errorTitle": "Kan niet verwijderen",
+    "error": "Er is iets fout gegaan, probeer het opnieuw.",
+    "errorLabel": "Waarschuwing verwijderen mislukt."
+  },
+  "deleteModal": {
+    "header": "Verwijderen",
+    "deleteContent": "Permanente verwijderingen kunnen niet ongedaan worden gemaakt. Weet u zeker dat u wilt doorgaan?",
+    "recycleContent": "Verwijderde content wordt naar de prullenbak gestuurd. U hebt 14 dagen om items in de prullenbak te herstellen.",
+    "delete": "Verwijderen",
+    "permanentlyDelete": "Permanent verwijderen",
+    "cancel": "Annuleren"
+  }
+}

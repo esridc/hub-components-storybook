@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "Înregistrare",
+    "registered": "Înregistrat",
+    "join": "Alăturați-vă online",
+    "in-person": "În persoană",
+    "online": "Online",
+    "inPersonFull": "În persoană (complet)",
+    "onlineFull": "Online (complet)",
+    "close": "Închidere"
+  },
+  "tooltip": {
+    "isCanceled": "Eveniment anulat",
+    "eventHasEnded": "Eveniment încheiat",
+    "eventFull": "Eveniment complet",
+    "inPerson": "Înregistrat pentru evenimentul în persoană",
+    "online": "Înregistrat pentru evenimentul online",
+    "unavailable": "Disponibil cu o oră înainte de ora de început a evenimentului"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "Ați anulat cu succes înregistrarea pentru evenimentul online",
+    "onlineRegistrationConfirmed": "V-ați înregistrat cu succes pentru evenimentul online",
+    "onlineRegistrationError": "S-a produs o eroare neașteptată la înregistrarea pentru evenimentul online",
+    "onlineRegistrationCanceledError": "S-a produs o eroare neașteptată la anularea înregistrării pentru evenimentul online",
+    "onlineRegistrationAtCapacity": "Încercați să vă înregistrați pentru un eveniment online care este complet ocupat",
+    "inPersonRegistrationCanceled": "Ați anulat cu succes înregistrarea pentru evenimentul în persoană",
+    "inPersonRegistrationCanceledError": "S-a produs o eroare neașteptată la anularea înregistrării pentru evenimentul în persoană",
+    "inPersonRegistrationConfirmed": "V-ați înregistrat cu succes pentru evenimentul în persoană",
+    "inPersonRegistrationError": "S-a produs o eroare neașteptată la înregistrarea pentru evenimentul în persoană",
+    "inPersonRegistrationAtCapacity": "Încercați ă vă înregistrați pentru un eveniment cu prezență care este complet ocupat"
+  }
+}

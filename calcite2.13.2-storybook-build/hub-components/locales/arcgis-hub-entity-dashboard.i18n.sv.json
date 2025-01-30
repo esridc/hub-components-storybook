@@ -1,0 +1,20 @@
+{
+  "dashboard": "Dashboard",
+  "activityLogSection": {
+    "title": "Aktivitetslogg",
+    "table": {
+      "downloadAction": "Hämta",
+      "downloadAllAction": "Hämta alla",
+      "downloadActionTooltip": "Hämta valda aktiviteter",
+      "caption": "Tabell med de senaste felen",
+      "columnHeaders": {
+        "datetime": "Datum",
+        "layer": "Lager",
+        "message": "Meddelande"
+      },
+      "noRecentErrors": "Inga nya fel",
+      "expandText": "Visa mer",
+      "collapseText": "Visa mindre"
+    }
+  }
+}

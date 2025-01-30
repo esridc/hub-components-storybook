@@ -1,0 +1,14 @@
+:host {
+  display: block;
+}
+
+arcgis-hub-gallery {
+  text-align: center;
+  --calcite-color-text-link: var(--calcite-color-text-2);
+  /* we've had a lot of churn on theming since upgrading calcite-components (when the css custom props changed)
+  at some point we had what i believe was a regression that caused us to lose the border color on the card
+  i recently fixed that
+  but according to brolly, customers prefer no border so... */
+  --calcite-card-border-color: none;
+  --calcite-color-border-3: none;
+}

@@ -1,0 +1,33 @@
+{
+  "title": "컬렉션",
+  "actions": {
+    "label": "옵션",
+    "show": "표시",
+    "hide": "숨기기",
+    "rename": "이름 바꾸기"
+  },
+  "formAlert": "양식 알림",
+  "alertMessages": {
+    "success": "편집 내용이 저장됨",
+    "error": "편집 내용을 저장하는 중 오류 발생"
+  },
+  "collectionRenameModal": {
+    "title": "컬렉션 이름 바꾸기",
+    "fieldLabel": "컬렉션 레이블",
+    "requiredMessage": "컬렉션 레이블은 필수 입력 항목입니다.",
+    "apply": "적용",
+    "maxLengthMessage": "컬렉션 레이블은 50자를 초과할 수 없음"
+  },
+  "collections": {
+    "dataset": "데이터",
+    "site": "사이트",
+    "document": "문서",
+    "appAndMap": "앱 및 맵"
+  },
+  "saveButton": "저장",
+  "sections": {
+    "collectionConfiguration": {
+      "title": "컬렉션 구성"
+    }
+  }
+}

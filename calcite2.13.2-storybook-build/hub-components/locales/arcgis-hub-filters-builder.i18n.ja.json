@@ -1,0 +1,15 @@
+{
+  "newFilter": "新しいフィルター",
+  "block": {
+    "heading": {
+      "untitled": "新しいフィルター",
+      "default": "フィルター {filterNum}: {parameter}",
+      "group": "フィルター {filterNum}: グループ",
+      "type": "フィルター {filterNum}: タイプ",
+      "occurrence": "フィルター {filterNum}: 発生回数"
+    },
+    "actions": {
+      "delete": "フィルターの削除: {label}"
+    }
+  }
+}

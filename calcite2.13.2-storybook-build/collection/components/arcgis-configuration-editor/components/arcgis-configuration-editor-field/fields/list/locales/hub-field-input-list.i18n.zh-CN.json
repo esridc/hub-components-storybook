@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "编辑",
+    "fields": {
+      "label": {
+        "label": "标注",
+        "requiredMessage": "标注(必填)",
+        "maxLengthMessage": "标注不得超过 {maxLength} 个字符"
+      }
+    },
+    "apply": "应用"
+  },
+  "showItem": "显示以下列表项目：{itemLabel}",
+  "hideItem": "隐藏以下列表项目：{itemLabel}",
+  "editItem": "编辑以下列表项目：{itemLabel}"
+}

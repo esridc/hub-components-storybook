@@ -1,0 +1,35 @@
+{
+  "success": "Berhasil menyimpan editan",
+  "error": "Terjadi kesalahan saat menyimpan hasil perubahan",
+  "formAlert": "Peringatan formulir",
+  "projects": {
+    "header": "Proyek",
+    "list": "Daftar Proyek",
+    "config": "Konfigurasi",
+    "notConfigured": "Kemampuan proyek belum dikonfigurasi. Harap gunakan tab Konfigurasi."
+  },
+  "content": {
+    "header": "Konten",
+    "list": "Daftar Konten",
+    "config": "Konfigurasi",
+    "notConfigured": "Kemampuan konten belum dikonfigurasi. Harap gunakan tab Konfigurasi."
+  },
+  "initiatives": {
+    "header": "Prakarsa",
+    "list": "Daftar Prakarsa",
+    "config": "Konfigurasi",
+    "notConfigured": "Kemampuan prakarsa belum dikonfigurasi. Harap gunakan tab Konfigurasi."
+  },
+  "events": {
+    "header": "Peristiwa",
+    "list": "Daftar Acara",
+    "config": "Konfigurasi",
+    "notConfigured": "Kemampuan acara belum dikonfigurasi. Harap gunakan tab Konfigurasi."
+  },
+  "pages": {
+    "header": "Halaman",
+    "list": "Daftar Halaman",
+    "config": "Konfigurasi",
+    "notConfigured": "Kemampuan halaman belum dikonfigurasi. Harap gunakan tab Konfigurasi."
+  }
+}

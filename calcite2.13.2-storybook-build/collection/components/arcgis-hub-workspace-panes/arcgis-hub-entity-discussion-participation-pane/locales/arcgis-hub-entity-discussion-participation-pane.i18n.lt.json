@@ -1,0 +1,82 @@
+{
+  "title": "Dalyvavimas",
+  "subtitle": "Nustatykite diskusijų lentos matomumą (kas gali peržiūrėti), slinkite žemyn, kad nustatytumėte, kas gali redaguoti lentos informaciją, tada nustatykite kanalų dalyvavimą ir moderavimą.",
+  "channelTitle": "Dalyvavimo kanalas nustatytas",
+  "channelDescription": "Šis kanalas valdo, kas gali pridėti, peržiūrėti ir moderuoti įrašus šioje diskusijų lentoje.",
+  "addChannelsTitle": "Nustatyti kanalą",
+  "addChannelsDescription": "Kanalais valdoma, kas gali pridėti įrašų lentoje. Jie gali būti pasiekiami grupėms, organizacijai ar visuomenei ir gali būti taikomi daugeliui diskusijų. Kanalais taip pat valdoma, kas gali moderuoti. Nustatyti blokuojamus žodžius automatiniam kanalo moderavimui.",
+  "privateChannelTitle": "Privatus kanalas nustatytas",
+  "privateChannelDescription": "Negalite matyti privataus kanalo, priskirto šiai diskusijų lentai. Galite pašalinti ir pasirinkti esamą arba kurti naują kanalą.",
+  "removeChannelConfirmationMessage": "Šioje diskusijų lentoje nebebus rodomi įrašai. Galėsite pridėti kanalą, jei šis kanalas bus pašalintas.",
+  "headingChannelEdit": "Redaguojate kanalą",
+  "headingChannelView": "Peržiūrite kanalą",
+  "headingChannelCreate": "Kuriate kanalą",
+  "buttons": {
+    "browse": "Naršyti kanalus",
+    "new": "Naujas kanalas",
+    "removeChannel": "Šalinti kanalą",
+    "cancel": "Atšaukti"
+  },
+  "alerts": {
+    "label": "Formos įspėjimas",
+    "set": {
+      "title": "Pavyko. Kanalas nustatytas."
+    },
+    "removed": {
+      "title": "Kanalas pašalintas",
+      "message": "Pasirinkite arba sukurkite dalyvavimo kanalą."
+    },
+    "error": {
+      "title": "Nepavyko. Kanalas nenustatytas."
+    }
+  },
+  "galleryPickerTitle": "Pasirinkite kanalą",
+  "channelsLabel": "Kanalai",
+  "accessLabel": "Prieiga",
+  "optionPublicLabel": "Vieša",
+  "optionOrganizationLabel": "Organizacija",
+  "optionPrivateLabel": "Privati",
+  "viewChannel": "Peržiūrėti kanalą",
+  "editChannel": "Redaguoti kanalą",
+  "save": "Įrašyti",
+  "removeChannel": "Šalinti kanalą",
+  "groupPicker": {
+    "facet": {
+      "label": "Nuo",
+      "myGroups": "Mano grupės",
+      "myOrganization": "Mano organizacija",
+      "myCommunity": "Mano bendruomenė"
+    }
+  },
+  "editGroupButtonText": "Pridėti redagavimo grupes",
+  "viewGroupButtonText": "Pridėti peržiūros grupes",
+  "viewGroups": {
+    "header": "Kas gali peržiūrėti",
+    "description": "Žmonės, kurie gali peržiūrėti lentą (bet joje nepublikuoti); publikavimas nustatomas toliau nurodytais kanalais."
+  },
+  "editGroups": {
+    "header": "Kas gali redaguoti",
+    "description": "Grupės nariai gali redaguoti lentos informaciją darbo srityje."
+  },
+  "aboutChannelsNotice": {
+    "title": "Susipažinkite su kanalais",
+    "message": "Kanalai nėra grupės, bet juose jų gali būti. Jais nustatoma, kas gali publikuoti ir moderuoti.",
+    "action": "Daugiau apie kanalus"
+  },
+  "nonPrivateChannelNotice": {
+    "title": "Negalima redaguoti kanalo",
+    "message": "Kanalą redaguoti gali tik jo moderatoriai. Jei reikia, norėdami pridėti susisiekite su kanalo savininku arba organizacijos administratoriumi. Taip pat galite pašalinti šį kanalą, pridėti esamą kanalą (kurio moderatorius esate) arba sukurti naują."
+  },
+  "privateChannelNotice": {
+    "title": "Negalima redaguoti kanalo",
+    "message": "Kanalą redaguoti gali tik jo moderatoriai. Jei reikia, norėdami pridėti susisiekite su kanalo savininku. Taip pat galite pašalinti šį kanalą, pridėti esamą kanalą (kurio moderatorius esate) arba sukurti naują."
+  },
+  "participate": {
+    "header": "Kas gali dalyvauti ir kas gali moderuoti"
+  },
+  "org": "Organizacija",
+  "private": "Privati",
+  "public": "Vieša",
+  "unnamed": "Kanalas be pavadinimo",
+  "groupNotFound": "Grupė nerasta"
+}

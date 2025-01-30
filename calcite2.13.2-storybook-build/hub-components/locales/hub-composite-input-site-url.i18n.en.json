@@ -1,0 +1,7 @@
+{
+  "baseDomain": "Base domain",
+  "subdomain": "Subdomain",
+  "subdomainFormatError": "Error: Site URL may only contain (lower case) letters, numbers, and dashes. It cannot start or end with a dash. Unicode characters are not allowed.",
+  "subdomainRequiredError": "Subdomain is a required field",
+  "urlPreview": "URL preview"
+}

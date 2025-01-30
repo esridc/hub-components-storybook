@@ -1,0 +1,16 @@
+:host([type='textarea']) .copy-button {
+  flex-shrink: 1;
+  align-self: flex-end;
+  min-width: 7rem
+}
+
+:host([type='textarea']) calcite-label {
+  display: flex;
+  flex-direction: column;
+  min-width: -moz-fit-content;
+  min-width: fit-content
+}
+
+.copy-button {
+  height: 2rem
+}

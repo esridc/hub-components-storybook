@@ -1,0 +1,35 @@
+{
+  "overview": "Yleiskuvaus",
+  "resources": "Hub-resurssit",
+  "cards": {
+    "items": "Kohteiden määrä",
+    "groups": "Ryhmien määrä"
+  },
+  "hubContent": {
+    "heading": "Äskettäin muokatut Hub-kohteet",
+    "link": "Näytä kaikki sisältö"
+  },
+  "content": {
+    "heading": "Äskettäin muokattu sisältö",
+    "stat": "Kohteiden määrä",
+    "link": "Näytä kaikki sisältö"
+  },
+  "groups": {
+    "heading": "Äskettäin muokatut ryhmät",
+    "stat": "Ryhmien määrä",
+    "link": "Näytä kaikki ryhmät"
+  },
+  "contentCount": "Sisältö",
+  "addContent": "Luo uusi",
+  "facets": {
+    "access": {
+      "label": "Kohteesta"
+    },
+    "type": {
+      "label": "Tyypit"
+    },
+    "modified": {
+      "label": "Muokattu"
+    }
+  }
+}

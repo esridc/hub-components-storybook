@@ -1,0 +1,47 @@
+{
+  "communityOrg": "Organizace komunity",
+  "editLayout": "Upravit rozvržení",
+  "orgWorkspace": "Otevřít domácí pracovní oblast",
+  "editS123": "Upravit v Survey123",
+  "editAdvancedJson": "Upravit pokročilý JSON",
+  "view": {
+    "project": "Zobrazit projekt",
+    "site": "Zobrazit web",
+    "initiative": "Zobrazit iniciativu",
+    "discussion": "Zobrazit fórum",
+    "content": "Zobrazit obsah",
+    "page": "Zobrazit stránku",
+    "group": "Skupina pro prohlížení",
+    "initiativeTemplate": "Zobrazit šablonu iniciativy",
+    "template": "Zobrazit šablonu",
+    "survey": "Zobrazit průzkum",
+    "event": "Zobrazit událost"
+  },
+  "access": {
+    "share": "Sdílet",
+    "sharingLevel": "Úroveň sdílení",
+    "groupSharing": "Skupinové sdílení",
+    "tooltip": {
+      "public": "Úroveň sdílení: Veřejně",
+      "org": "Úroveň sdílení: Organizace",
+      "private": "Úroveň sdílení: Soukromě",
+      "shared": "Úroveň sdílení: Sdíleno soukromě"
+    },
+    "save": "Uložit",
+    "cancel": "Storno",
+    "alert": {
+      "success": "Úpravy byly úspěšně uloženy",
+      "error": "Chyba při ukládání úprav",
+      "label": "Chyba formuláře"
+    }
+  },
+  "popoverActions": {
+    "label": "Další akce",
+    "openInEnterprise": "Otevřít v ArcGIS Enterprise",
+    "openInOnline": "Otevřít v ArcGIS Online"
+  },
+  "homeLink": {
+    "text": "Domů"
+  },
+  "createContent": "Vytvořit"
+}

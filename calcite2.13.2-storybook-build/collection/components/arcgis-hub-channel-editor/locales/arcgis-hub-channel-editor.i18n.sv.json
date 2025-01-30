@@ -1,0 +1,96 @@
+{
+  "unnamedChannel": "Namnlös kanal",
+  "name": {
+    "label": "Namn",
+    "placeholder": "{prefix} kanal"
+  },
+  "save": "Spara",
+  "basicInfo": {
+    "label": "Grundläggande information"
+  },
+  "access": {
+    "private": {
+      "label": "Privat",
+      "description": "Valda grupper kan delta. Gruppens ledare och ägare är automatiskt tilldelade moderatorer."
+    },
+    "organization": {
+      "label": "Min organisation",
+      "description": "Alla medlemmar med ett konto för {orgName} kan delta. Organisationsadministratörer och kanalägare är automatiskt tilldelade moderatorer. Kanalägare kan dessutom lägga till grupper som de är medlemmar i genom att klicka på 'Lägg till deltagargrupp' nedan.",
+      "disabledTooltip": "Endast organisationsadministratörer kan skapa organisationskanaler."
+    },
+    "public": {
+      "label": "Offentlig",
+      "description": "Alla inloggade medlemmar kan delta. Organisationsadministratörer och kanalägare är automatiskt tilldelade moderatorer. Kanalägare kan dessutom lägga till grupper som de är medlemmar i genom att klicka på 'Lägg till deltagargrupp' nedan.",
+      "disabledTooltip": "Endast organisationsadministratörer kan skapa offentliga kanaler."
+    },
+    "allowAsAnonymous": {
+      "label": "Tillåt anonymt (endast inloggade deltagare)",
+      "description": "Avatar, namn och användarnamn för personer med konton som gör anonyma inlägg kommer inte att vara tillgängliga."
+    },
+    "confirmation": {
+      "header": "Är du säker?",
+      "message": "Om du sparar dessa ändringar tas din redigeringsåtkomst till den här kanalen bort. Endast organisationsadministratörer kan redigera offentliga kanaler eller organisationskanaler.",
+      "secondary": "Avbryt",
+      "primary": "Bekräfta"
+    }
+  },
+  "participants": {
+    "label": "Deltagare",
+    "helperText": "Personer som kan göra inlägg, svara och reagera på diskussionen.",
+    "none": "Inga deltagare har angivits",
+    "add": "Lägg till deltagargrupp"
+  },
+  "groupPicker": {
+    "title": "Välj grupper",
+    "facet": {
+      "label": "Från",
+      "myGroups": "Mina grupper",
+      "myOrganization": "Min organisation",
+      "myCommunity": "Min community"
+    }
+  },
+  "blockWords": {
+    "label": "Blockerade ord",
+    "helperText": "Kommaseparerad lista. Inlägg och svar som innehåller dem döljs automatiskt."
+  },
+  "manage": {
+    "label": "Moderatorer",
+    "helperText": "Automatisk tilldelning av moderatorer baseras på deltagarurval. Gruppens ägare och ledare är tilldelade moderatorer för eventuella ytterligare grupper som läggs till i kanalen. Moderatorer kan dölja och visa inlägg, lägga till blockerade ord och redigera kanalinställningar."
+  },
+  "manager": "Ledare",
+  "admin": "Admin",
+  "viewProfile": "Visa profil",
+  "alerts": {
+    "error": "Fel när kanalen sparades",
+    "success": "Kanalen har sparats",
+    "label": "Formulärvarning"
+  },
+  "validations": {
+    "minChannelGroups": "Privata kanaler kräver minst en deltagargrupp.",
+    "channelNameRequired": "Kanalnamn är obligatoriskt",
+    "allowAsAnonymous": "Anonyma inlägg stöds endast av offentliga kanaler.",
+    "blockWords": "Ange maximalt 20 blockerade ord/fraser (poster avgränsade med komma, inga dubbletter eller tomma poster)."
+  },
+  "notices": {
+    "edit": "Redigeringar påverkar allt där den här kanalen används",
+    "duplicate": {
+      "create": {
+        "error": {
+          "title": "Kanal har inte skapats",
+          "message": "En kanal med dessa åtkomstval finns redan. Använd befintlig kanal eller ändra valen."
+        }
+      },
+      "update": {
+        "error": {
+          "title": "Kanalen har inte uppdaterats",
+          "message": "Det finns redan en kanal med dessa åtkomstval, så vi kan inte spara dessa uppdateringar."
+        }
+      },
+      "action": "Använd befintlig kanal"
+    },
+    "inaccessibleGroups": {
+      "title": "Ej tillgängliga grupper: {count}",
+      "message": "Du kan inte visa eller hantera otillgängliga grupper om du inte är medlem."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "header": "이벤트",
+  "myContent": "내 이벤트",
+  "editableContent": "편집 가능한 콘텐츠",
+  "addEventButtonText": "이벤트 생성",
+  "type": "유형",
+  "sharedUpdate": "공유 업데이트 그룹",
+  "viewOnly": "그룹만 보기",
+  "owner": "생성자",
+  "starts": "켜기",
+  "from": "소속",
+  "until": "종료",
+  "updated": "업데이트됨",
+  "tags": "태그",
+  "dateCreated": "생성",
+  "dateUpdated": "수정",
+  "actionLinks": {
+    "view": "보기",
+    "edit": "편집",
+    "ariaEdit": "편집: {title}",
+    "ariaView": "보기: {title}"
+  },
+  "access": {
+    "label": "접근",
+    "PRIVATE": "비공개",
+    "ORG": "기관",
+    "PUBLIC": "공개"
+  }
+}

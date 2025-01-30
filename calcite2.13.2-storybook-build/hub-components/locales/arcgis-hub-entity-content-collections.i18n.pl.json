@@ -1,0 +1,33 @@
+{
+  "title": "Zbiory",
+  "actions": {
+    "label": "Opcje",
+    "show": "Pokaż",
+    "hide": "Ukryj",
+    "rename": "Zmień nazwę"
+  },
+  "formAlert": "Alert dotyczący formularza",
+  "alertMessages": {
+    "success": "Pomyślnie zapisano zmiany",
+    "error": "Błąd podczas zapisywania zmian"
+  },
+  "collectionRenameModal": {
+    "title": "Zmień nazwę zbioru",
+    "fieldLabel": "Etykieta zbioru",
+    "requiredMessage": "Etykieta zbioru jest wymagana",
+    "apply": "Zastosuj",
+    "maxLengthMessage": "Etykieta zbioru nie może mieć więcej niż 50 znaków"
+  },
+  "collections": {
+    "dataset": "Dane",
+    "site": "Witryny",
+    "document": "Dokumenty",
+    "appAndMap": "Aplikacje i mapy"
+  },
+  "saveButton": "Zapisz",
+  "sections": {
+    "collectionConfiguration": {
+      "title": "Konfiguracja zbioru"
+    }
+  }
+}

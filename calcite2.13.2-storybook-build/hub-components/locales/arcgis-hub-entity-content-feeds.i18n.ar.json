@@ -1,0 +1,81 @@
+{
+  "tabTitle": "تكوين الموجزات",
+  "learn": "تعرف على موجزات Hub",
+  "loadingLabel": "تحميل",
+  "enableFeedsToggle": {
+    "label": "تمكين الموجزات",
+    "privateNotice": "لتمكين الموجزات، يتعين عليك أولاً تعيين مواقع Hub الخاصة بك على \"عامة\".",
+    "emptyPublicCatalog": {
+      "message": "لتفعيل الموجزات، يتعين عليك أولاً إضافة محتوى عام إلى الكتالوج الخاص بك.",
+      "button": "عرض الكتالوج"
+    },
+    "grouplessCatalog": {
+      "message": "لتفعيل الموجزات، يجب عليك أولاً تكوين الكتالوج الخاص بك.",
+      "button": "تكوين الكتالوج"
+    }
+  },
+  "gettingStartedNotice": {
+    "title": "الشروع في العمل",
+    "exampleMessage": "قم بتمييز وتحديث مفتاح أو قيمة في محرر JSON باستخدام قيمة حرفية (\"VALUE\") أو قيمة قالب (\"{{TEMPLATE_VALUE}}\").",
+    "previewMessage": "استخدم زر التبديل \"معاينة\" لمعاينة تغييراتك. للحصول على معلومات إضافية، اقرأ <catalogFederationLink>وثائق تعليمات توحيد الكتالوج</catalogFederationLink>."
+  },
+  "aboutFeedsNotice": {
+    "message": "اجعل بياناتك المفتوحة العامة قابلة للوصول بسهولة وقابلة لإعادة الاستخدام باستخدام موجزات Hub.",
+    "link": "تعرف على موجزات Hub"
+  },
+  "feedsEditorSection": {
+    "title": "الموجز",
+    "formatSelectLabel": "تحديد نوع الموجز",
+    "uneditableAttributesIntro": "يرجى ملاحظة أن السمات التالية لا يمكن تعديلها:",
+    "edit": "تحرير",
+    "preview": "معاينة",
+    "selectContentNotice": "حدد المحتوى الذي تريد معاينته.",
+    "invalidJsonEditorWarning": "JSON غير صالح. يرجى تصحيح الأخطاء قبل الحفظ.",
+    "invalidJsonPreviewWarning": "لا يمكن معاينة ملف JSON غير صالح، يرجى تصحيح الأخطاء.",
+    "errorPreviewingWarning": "لقد حدث خطأ. يرجى التحقق من اتصالك ثم المحاولة مرة أخرى. إذا استمرت المشكلة، فيرجى تسجيل الخطأ لدى دعم Hub."
+  },
+  "toolsSection": {
+    "title": "أدوات",
+    "verification": "التحقق",
+    "previewSampleData": {
+      "label": "معاينة بيانات العينة",
+      "pickerFacets": {
+        "type": "النوع",
+        "tags": "العلامة",
+        "categories": "الفئة",
+        "sharing": "مشاركة",
+        "dateUpdated": "تاريخ التحديث"
+      }
+    },
+    "copyableInputLabel": "عنوان URL للوصول إلى الموجز"
+  },
+  "dcat-us": {
+    "1.1": {
+      "title": "DCAT-US 1.1",
+      "description": "يتيح DCAT للمؤسسات توحيد مساهمة البيانات ويساعد الناس على تحليل المصادر الموجدة. يمكنك استخدام <dcatUsSchemaLink>مخطط DCAT</dcatUsSchemaLink> المُنشأ من قبل البيانات المفتوحة للمشروع (Project Open Data)، وهو التكوين الافتراضي أو يمكنك تكوين حقول/سمات معينة بنفسك. قد يضيف مسؤولو الموقع أيضًا تكوينات DCAT إضافية وقد يرغبون في قراءة وثائقنا المتعلقة <catalogFederationLink>بتوحيد البيانات باستخدام DCAT والكتالوجات الخارجية الأخرى.</catalogFederationLink>",
+      "uneditableAttributes": "@type، landingPage، webService وcontactPoint['@type'].",
+      "verificationLabel": "يمكنك التحقق من موجز DCAT الخاص بك عن طريق لصق عنوان URL الخاص بـ DCAT للموقع في <dcatUsVerificationLink>أداة التحقق من صحة البيانات المفتوحة للمشروع</dcatUsVerificationLink>."
+    }
+  },
+  "dcat-ap": {
+    "2.1.1": {
+      "title": "DCAT-AP 2.1.1",
+      "description": "أنشأت المفوضية الأوروبية DCAT-AP، وهو تنسيق قياسي لتبادل بيانات التعريف عبر كتالوجات البيانات الأوروبية. ينشئ ArcGIS Hub موجز DCAT-AP لموقعك ويقوم بتحديثه تلقائيًا عندما تقوم بتحرير تفاصيل بيانات تعريف المحتوى أو إضافة محتوى عام جديد إلى الكتالوج. نظرًا إلى أن الموجز يستخدم بيانات التعريف المحفوظة في ArcGIS Online، فلا داعي لإنشاء بيانات تعريف منفصلة لـ DCAT-AP يدويًا.<lineBreak></lineBreak><lineBreak></lineBreak>وباستخدام هذا المحرر، يمكنك حفظ تكوين ArcGIS Hub الافتراضي <dcatApSchemaLink>لمخطط DCAT-AP</dcatApSchemaLink>، أو يمكنك تكوين حقول/بيانات جدولية معينة بنفسك. يمكنك أيضًا إضافة حقول/بيانات DCAT-AP الجدولية. لمزيد من التفاصيل، يرجى الاطلاع على وثائق ArcGIS Hub حول <catalogFederationLink>توحيد البيانات مع DCAT والكتالوجات الخارجية الأخرى</catalogFederationLink>.",
+      "uneditableAttributes": "@type، @id، dcat:contactPoint['@id']، dcat:contactPoint['@type']، dct:publisher، dcat:theme، dct:accessRights، dcat:keyword، dct:provenance، dct:issued وdct:language",
+      "verificationLabel": "يمكنك التحقق من موجز DCAT الخاص بك عن طريق لصق عنوان URL لـ DCAT الخاص بموقعك في <dcatApVerificationLink>قاعدة اختبار قابلية التشغيل البيني للمفوضية الأوروبية</dcatApVerificationLink>."
+    }
+  },
+  "rss": {
+    "2.0": {
+      "title": "RSS 2.0",
+      "description": "يُعد <rssAboutLink>RSS 2</rssAboutLink> تنسيق مشاركة محتوى الويب ويتوافق مع <xmlSpecLink>مواصفات XML 1.0</xmlSpecLink>. باستخدام هذا المحرر، يمكنك الاحتفاظ بتكوين ArcGIS Hub الافتراضي، أو يمكنك تكوين حقول/بيانات جدولية محددة بنفسك. لمزيد من التفاصيل، يرجى الاطلاع على وثائق ArcGIS Hub حول <catalogFederationLink>توحيد البيانات مع DCAT والكتالوجات الخارجية الأخرى.</catalogFederationLink>",
+      "verificationLabel": "يمكنك التحقق من موجز RSS الخاص بك عن طريق لصق عنوان URL الخاص بـ RSS للموقع في <rssVerificationLink>أداة التحقق من صحة الموجز</rssVerificationLink> W3."
+    }
+  },
+  "saveButton": "حفظ",
+  "alertMessages": {
+    "success": "تم حفظ التحريرات بنجاح",
+    "error": "حدث خطأ أثناء حفظ التحريرات"
+  },
+  "formAlert": "رسائل تنبيه النموذج"
+}

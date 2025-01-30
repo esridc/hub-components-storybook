@@ -1,0 +1,26 @@
+{
+  "unauthenticated": {
+    "heading": "Log ind.",
+    "message": "Adgang til dette websted kræver logonoplysninger.",
+    "actionText": "Log ind"
+  },
+  "not-found": {
+    "heading": "Side ikke fundet",
+    "message": "Denne side kan være flyttet eller slettet. Prøv at søge efter den fra hjemmesiden",
+    "actionText": "Gå til hjemmesiden"
+  },
+  "unsupported-device": {
+    "heading": "Ikke-understøttet skærmstørrelse",
+    "message": "Arbejdsområder er endnu ikke tilgængelige på mindre skærmstørrelser. Brug en enhed med en bredere skærm.",
+    "actionText": "Gå tilbage"
+  },
+  "access-denied": {
+    "heading": "Adgang nægtet",
+    "message": "Du har ikke adgang til denne ressource.",
+    "actionText": "Gå til hjemmesiden"
+  },
+  "loading": {
+    "heading": "Indlæser...",
+    "loadingLabel": "Indlæser"
+  }
+}

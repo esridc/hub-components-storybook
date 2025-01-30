@@ -1,0 +1,91 @@
+{
+  "moreResults": "Vairāk rezultātu",
+  "search": "Meklēšana",
+  "filter": "Filtri",
+  "viewResults": "Skatīt rezultātus ({numResults})",
+  "resultsCount": "1 - {pageTotal} no {searchTotal}",
+  "backToTop": "Atpakaļ uz sākumu",
+  "facets": {
+    "access": {
+      "label": "Koplietošana",
+      "private": "Sevi",
+      "shared": "Īpašnieks un grupas",
+      "org": "Organizācija",
+      "public": "Publisks"
+    },
+    "license": {
+      "label": "Licence",
+      "tooltip": "Tikai publiskajam saturam",
+      "custom": "Pielāgota",
+      "none": "Nav"
+    },
+    "type": {
+      "label": "Veids"
+    },
+    "tags": {
+      "label": "Atslēgvārdi"
+    },
+    "dateUpdated": {
+      "label": "Atjaunināšanas datums"
+    },
+    "source": {
+      "label": "Avots",
+      "tooltip": "Dažādu organizāciju publiskais saturs"
+    },
+    "categories": {
+      "label": "Kategorijas"
+    },
+    "location": {
+      "label": "Novietojums",
+      "tooltip": "Lietot kartes pārklājumu kā novietojuma filtru"
+    },
+    "event": {
+      "from": {
+        "label": "Īpašumtiesības",
+        "myContent": "Es",
+        "myOrganization": "Mana organizācija",
+        "world": "Ikviens"
+      },
+      "access": {
+        "label": "Piekļuve",
+        "private": "Privāts",
+        "org": "Organizācija",
+        "public": "Publisks"
+      },
+      "startDate": {
+        "label": "Pasākuma datums"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "Veids",
+        "all": "Viss",
+        "view": "Skatīt",
+        "edit": "Rediģēt"
+      },
+      "role": {
+        "label": "Loma",
+        "all": "Viss",
+        "member": "Dalībnieks",
+        "manager": "Pārvaldnieks",
+        "owner": "Īpašnieks"
+      },
+      "sharing": {
+        "label": "Redzamība",
+        "private": "Privāts",
+        "public": "Publisks"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "Rādīt sarakstu",
+    "grid": "Rādīt režģi",
+    "map": "Attēlot karti",
+    "compact": "Attēlot kompakti",
+    "calendar": "Attēlot kalendāru",
+    "table": "Attēlot tabulu"
+  },
+  "galleryActionsLabel": "Papildu darbības",
+  "selected": "Atlasīts: {count}",
+  "popoverActionButtonLabel": "vairāk darbību"
+}

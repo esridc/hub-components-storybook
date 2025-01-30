@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "圖徵採集",
+    "fgdb": "File Geodatabase",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Shapefile",
+    "sqlite": "SQLite 地理資料庫"
+  },
+  "buttonText": {
+    "download": "下載",
+    "pending": "待決定",
+    "processing": "正在處理",
+    "converting": "正在轉換",
+    "completed": "下載完成",
+    "failed": "下載失敗"
+  },
+  "errors": {
+    "errorHeading": "錯誤"
+  },
+  "cacheStatusAccordion": {
+    "heading": "找到您需要的東西了嗎?",
+    "content": "可能有更新的版本可用。",
+    "button": "請求新檔案"
+  },
+  "generateNewModal": {
+    "heading": "是否確定？",
+    "content": "此操作可能需要一些時間。 請保持此瀏覽器頁籤處於作用中狀態，直到下載完成。",
+    "confirmButton": "是",
+    "cancelButton": "取消"
+  }
+}

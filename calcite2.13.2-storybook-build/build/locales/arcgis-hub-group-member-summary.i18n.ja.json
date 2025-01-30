@@ -1,0 +1,12 @@
+{
+  "members": {
+    "noMember": "メンバーがいません",
+    "oneMember": "1 人のメンバー",
+    "members": "{count} 人のメンバー"
+  },
+  "managers": {
+    "noMember": "マネージャーがいません",
+    "oneMember": "1 人のマネージャー",
+    "members": "{count} 人のマネージャー"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "modal": {
+    "dismiss": "Tega ne kaži več",
+    "close": "Zapri"
+  },
+  "notice": {
+    "n001": {
+      "title": "Testno obvestilo",
+      "message": "To je telo testnega obvestila",
+      "actions": [
+        {
+          "text": "Preberite blog"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-1": {
+      "title": "Preklopi na posodobljeno izkušnjo prenosa",
+      "message": "Za dodatne formate, hitrost in izboljšave učinkovitosti omogočite možnost »Ekstrahiraj« v storitvi tega elementa."
+    },
+    "20240220-hosted-downloads-2": {
+      "title": "Izboljšave prenosov so tukaj!",
+      "message": "Izboljšave za prenose na vaših straneh Hub vključujejo podporo za gostujoče prenose, posodobljen videz in občutek za prenos kartic in novo vrstico napredka za prenose.",
+      "actions": [
+        {
+          "text": "Več"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-3": {
+      "title": "Gostujoči prenosi so tukaj!",
+      "message": "Gostujoči prenosi pomagajo izboljšati delovanje med prenosom vsebine. Za omogočanje gostujočih prenosov omogočite možnosti ekstrakcije spodaj.",
+      "actions": [
+        {
+          "text": "Več"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-basic": {
+      "title": "O delovnih prostorih",
+      "message": "<p><strong>Dodajte vsebino v kataloge strani z uporabo skupin</strong><br>Iskalni katalogi strani so bili vedno podprti s strani skupin, delovni prostori pa olajšujejo upravljanje teh skupin. Za zdaj dodajte vsebino posameznim skupinam, povezanim z vašo stranjo, da se pojavi v katalogu strani. Kmalu boste lahko neposredno dodajali vsebino v vaš katalog.</p><p><strong>Prehod iz ekip na skupine</strong><br>Zdaj lahko uporabljate katero koli skupino ArcGIS Online za sodelovanje na straneh, listih, vsebini in projektih v Hub. Vse predhodno povezane »ekipe«, kot so »jedrna ekipa« strani, se bodo še vedno pojavile na mestu »Sodelavci« delovnega prostora strani.</p><p><strong>Sporočanje po e-pošti na osnovi ekip bo začasno prekinjeno</strong><br>Pošiljanje e-pošte in vabil/odstranitev prek e-pošte članom ekipe ter sledilcem trenutno ni podprto.</p><p><strong>Amortizacija vdelanega oblikovalca spletne strani Survey123</strong><br>Vdelali smo oblikovalca Survey123, ki vam bo pomagal, da v Hub naredite več. Vendar pa povratne informacije strank kažejo željo po oblikovanju in upravljanju anket v Survey123, podobno kot pri drugih aplikacijah. Zato amortiziramo podporo za vdelanega oblikovalca Survey123 v ArcGIS Hub za boljšo usklajenost z vašim želenim potekom dela.</p>",
+      "actions": [
+        {
+          "text": "Več"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-premium": {
+      "title": "O delovnih prostorih",
+      "message": "<p><strong>Dodajte vsebino v kataloge strani z uporabo skupin</strong><br>Iskalni katalogi strani so bili vedno podprti s strani skupin, delovni prostori pa olajšujejo upravljanje teh skupin. Za zdaj dodajte vsebino posameznim skupinam, povezanim z vašo stranjo, da se pojavi v katalogu strani. Kmalu boste lahko neposredno dodajali vsebino v vaš katalog.</p><p><strong>Prehod iz podpornih ekip na skupine</strong><br>Zdaj lahko uporabljate katero koli skupino ArcGIS Online za sodelovanje na straneh, listih, vsebini in projektih v Hub. Vse predhodno povezane podporne ekipe bodo še naprej prikazane na mestu »Sodelavci« delovnega prostora strani. Za nadaljnjo podporo dodajte te podporne ekipe kot skupine, ki si lahko ogledujejo, in skupine, ki lahko urejajo.</p><p><strong>Sporočanje po e-pošti na osnovi ekip bo začasno prekinjeno</strong><br>Pošiljanje e-pošte in vabil/odstranitev prek e-pošte članom ekipe ter sledilcem trenutno ni podprto.</p><p><strong>Amortizacija vdelanega oblikovalca spletne strani Survey123</strong><br>Vdelali smo oblikovalca Survey123, ki vam bo pomagal, da v Hub naredite več. Vendar pa povratne informacije strank kažejo željo po oblikovanju in upravljanju anket v Survey123, podobno kot pri drugih aplikacijah. Zato amortiziramo podporo za vdelanega oblikovalca Survey123 v ArcGIS Hub za boljšo usklajenost z vašim želenim potekom dela.</p><p><strong>Dogodki še niso na voljo v delovnih prostorih</strong><br>Glede dogodkov potekajo spremembe in bi morali biti kmalu na voljo v delovnih prostorih. Za zdaj boste s privolitvijo v delovne prostore izgubili sposobnost ustvarjanja novih dogodkov, upravljanja in iskanja obstoječih dogodkov. Vendar pa lahko v primeru, da želite upravljati predhodno ustvarjene dogodke, kadar koli prekličete vašo privolitev.</p>",
+      "actions": [
+        {
+          "text": "Več"
+        }
+      ]
+    },
+    "202404-workspaceannouncement": {
+      "title": "Predstavljamo delovne prostore",
+      "message": "Delovni prostori so nov način urejanja in upravljanje elementov v Hub in zamenjujejo globalno navigacijo v pogledu urejanja (ne pogledu v živo). V tej fazi lahko »privolite« (kadar koli) v uporabo delovnih prostorov in povezanih geoobjektov za elemente in skupine. Dogodki bodo na voljo kasneje. Če želite delovne prostore preizkusiti zdaj, izberite možnost »Pojdi v nastavitve«.",
+      "actions": [
+        {
+          "text": "Pojdi v nastavitve"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing": {
+      "title": "Ponovno predstavljamo – Pobude Hub",
+      "message": "Pobude ArcGIS Hub so se spremenile 2. julija 2024. Prej ustvarjene pobude so zdaj samostojna mesta – z istimi postavitvami, vsebino, URL-ji in premium funkcijami (kot so sledilci in dogodki) kot prej. Za preizkus novih osveženih pobud morate omogočiti delovne prostore.",
+      "actions": [
+        {
+          "text": "Več o pobudah",
+          "ariaLabel": "Več o pobudah, odpre se v novem zavihku"
+        },
+        {
+          "text": "Pojdi v nastavitve"
+        }
+      ]
+    },
+    "20240517-initiatives-manage": {
+      "title": "Upravljaj stare pobude",
+      "message": "Pobude ArcGIS Hub so se spremenile 2. julija 2024. Prej ustvarjene pobude so zdaj samostojna mesta – z istimi postavitvami, vsebino, URL-ji in premium funkcijami (kot so sledilci in dogodki) kot prej. Vse stare pobude lahko brez skrbi varno izbrišete.",
+      "actions": [
+        {
+          "text": "Več o pobudah",
+          "ariaLabel": "Več o pobudah, odpre se v novem zavihku"
+        },
+        {
+          "text": "Ogled starih pobud",
+          "ariaLabel": "Ogled starejših pobud, odpre se v novem zavihku"
+        }
+      ]
+    },
+    "20240517-initiatives-manage-no-priv": {
+      "title": "Upravljaj stare pobude",
+      "message": "Pobude ArcGIS Hub so se spremenile 2. julija 2024. Prej ustvarjene pobude so zdaj samostojna mesta – z istimi postavitvami, vsebino, URL-ji in premium funkcijami (kot so sledilci in dogodki) kot prej. Vse stare pobude lahko brez skrbi varno izbrišete.",
+      "actions": [
+        {
+          "text": "Več o pobudah",
+          "ariaLabel": "Več o pobudah, odpre se v novem zavihku"
+        },
+        {
+          "text": "Ogled starih pobud",
+          "ariaLabel": "Ogled starejših pobud, odpre se v novem zavihku"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing-site": {
+      "title": "Ponovno predstavljamo – Pobude Hub",
+      "message": "Nova generacija pobud Hub je zdaj na voljo v delovnih prostorih. Pobude imajo lasten pogled, preprost za nastavljanje, in lahko pomagajo uskladiti projekte Hub z istimi dolgoročnimi cilji. Pobude je mogoče ustvariti neodvisno ter jih deliti z enim ali več mesti. Mesta lahko predstavljajo eno ali več pobud.",
+      "actions": [
+        {
+          "text": "Več",
+          "ariaLabel": "Več informacij, odpre se v novem zavihku"
+        }
+      ]
+    },
+    "20240710-slow-service-warning": {
+      "title": "Prekinitev storitve",
+      "message": "Komunikacija s storitvijo traja dlje, kot je pričakovano. To lahko vpliva na vaš dostop do prenosov in funkcije kart."
+    },
+    "20240710-unreachable-service-error": {
+      "title": "Storitev ni na voljo",
+      "message": "Ne moremo vzpostaviti stika z gostiteljsko službo. Prenosi in funkcije zemljevida za ta element trenutno niso na voljo."
+    },
+    "20240807-auth-required-status": {
+      "title": "Status storitve ni znan",
+      "message": "Ne moremo dostopati do varne storitve, ker zahteva dodatno avtorizacijo. Prenosi in funkcije karte za element trenutno niso na voljo."
+    },
+    "20240805-private-downloads-unavailable-ago-error": {
+      "title": "Prenosi niso na voljo",
+      "message": "Prenesena vsebina, nastavitev Izvozi podatke, mora biti v ArcGIS Online omogočena. Obrnite se na lastnika elementa, da omogočite to nastavitev."
+    },
+    "20240805-private-downloads-unavailable-enterprise-error": {
+      "title": "Prenosi niso na voljo",
+      "message": "Prenesena vsebina, nastavitev Izvozi podatke, mora biti v ArcGIS Enterprise omogočena. Obrnite se na lastnika elementa, da omogočite to nastavitev."
+    },
+    "20240819-download-formats-disabled": {
+      "title": "Prenosi so bili onemogočeni",
+      "message": "Za prenos vsebine za ta element se obrnite na lastnika elementa."
+    },
+    "20241104-about-feeds-notice": {
+      "message": "Poskrbite, da bodo vaši javno odprti podatki enostavno dostopni in ponovno uporabni z viri Hub.",
+      "actions": [
+        {
+          "text": "Izvedite več o virih Hub",
+          "ariaLabel": "Izvedite več o virih Hub, odpre se v novem zavihku"
+        }
+      ]
+    }
+  }
+}

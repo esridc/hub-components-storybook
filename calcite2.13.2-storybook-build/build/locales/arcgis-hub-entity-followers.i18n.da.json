@@ -1,0 +1,66 @@
+{
+  "followers": "Følgere",
+  "tabs": {
+    "followers": "Følgere",
+    "settings": "Indstillinger"
+  },
+  "addFollowers": {
+    "label": "Tilføj følgere"
+  },
+  "emptyState": {
+    "message": "Websted har ikke en følgergruppe",
+    "action": "Opret en følgergruppe"
+  },
+  "createFollowersGroup": {
+    "formDescription": "Opret en gruppe for at muliggøre deling af indhold og kommunikation.",
+    "defaultSummary": "Denne følgergruppe gør det nemmere for medlemmer at dele indhold og kommunikere med hinanden"
+  },
+  "restrictedAccessState": {
+    "message": "Du har ikke adgang til at se følgergruppen.",
+    "action": "Anmod om adgang"
+  },
+  "stats": {
+    "total": {
+      "title": "I alt",
+      "trailingText": "Følgere"
+    },
+    "new": {
+      "title": "Ny",
+      "trailingText": "Sidste 30 dage"
+    }
+  },
+  "addMembers": {
+    "button": "Tilføj medlemmer",
+    "modal": {
+      "title": "Tilføj medlemmer",
+      "org": "Min organisation",
+      "community": "Mit fællesskab",
+      "partner": "Mine partnere",
+      "world": "Verden"
+    },
+    "notifications": {
+      "invited": "Invitation afsendt. Brugere skal acceptere for at kunne deltage",
+      "added": "Bruger(e) tilføjet",
+      "notInvited": "Visse medlemmer har muligvis ikke de nødvendige rettigheder til at deltage i gruppen, eller gruppen har nået grænsen for deltagere (512)."
+    }
+  },
+  "removeUsers": {
+    "button": "Fjern",
+    "success": "Medlemmer blev fjernet fra {groupName}.",
+    "error": "En eller flere brugere kunne ikke fjernes fra gruppen."
+  },
+  "changeRole": {
+    "button": "Skift rolle",
+    "member": "Medlem",
+    "memberHelperText": "Kan tilføje og se indhold inden for gruppen.",
+    "tooltipText": "Fjern markeringen ud for dig selv og/eller gruppeejeren",
+    "tooltipLabel": "Rolle-ansvarsfraskrivelse",
+    "admin": "Administrator",
+    "adminHelperText": "Kan tilføje/fjerne indhold og invitere/fjerne personer (undtagen ejeren).",
+    "success": "Valgte medlemmer blev gruppe {role}.",
+    "error": "Rollen kunne ikke ændres for et eller flere medlemmer."
+  },
+  "notice": {
+    "label": "Formularadvarsel"
+  }
+}

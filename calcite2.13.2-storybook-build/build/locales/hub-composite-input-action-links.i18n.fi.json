@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "Lisää ensimmäinen toiminto",
+  "addSecondAction": "Lisää toinen toiminto",
+  "addLink": "Lisää linkki",
+  "addSection": "Lisää lohko",
+  "deleteNotice": {
+    "title": "Ei voi poistaa",
+    "message": "Lohko ei ole tyhjä. Poista kaikki lohkon ulkopuolella olevat linkit, ennen kuin yrität poistoa."
+  },
+  "linkEditor": {
+    "save": "Tallenna",
+    "delete": "Poista",
+    "cancel": "Peruuta",
+    "preview": "Esikatselun linkki",
+    "title": {
+      "button1": "Ensimmäinen toiminto",
+      "button2": "Toinen toiminto",
+      "block": "Toimintolinkki"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "Linkki aiemmin luotuun sisältöön"
+        },
+        "external": {
+          "label": "Linkki ulkoiseen lähteeseen"
+        }
+      },
+      "label": {
+        "label": "Tunnusteksti",
+        "helperText": {
+          "button": "Tämä teksti näkyy painikkeessa.",
+          "block": "Tämä näkyy lihavoituna lohkossa."
+        },
+        "requiredError": "Tunnusteksti on pakollinen kenttä."
+      },
+      "description": {
+        "label": "Kuvaus",
+        "helperText": "Tämä on toissijaista tietoa."
+      },
+      "href": {
+        "label": "Linkki",
+        "requiredError": "Linkki on pakollinen kenttä.",
+        "formatError": "URL-osoitteen muotoilu on virheellinen."
+      },
+      "contentId": {
+        "label": "Sisältölinkki",
+        "requiredError": "Sisältölinkki on pakollinen kenttä."
+      },
+      "section": {
+        "label": "Siirry lohkoon",
+        "placeholder": {
+          "noSections": "Lohkoja ei ole määritetty",
+          "notSet": "Ei lohkossa"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "Lohko",
+    "helperText": "Lohkoja voidaan käyttää linkkien säilyttämiseen valikkokohteessa. Lohkot eivät toimi linkkinä.",
+    "section": {
+      "label": {
+        "label": "Tunnusteksti",
+        "requiredError": "Tunnusteksti on pakollinen kenttä."
+      },
+      "description": {
+        "label": "Kuvaus"
+      }
+    }
+  }
+}

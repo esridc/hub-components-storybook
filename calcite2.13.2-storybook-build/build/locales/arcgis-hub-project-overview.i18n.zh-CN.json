@@ -1,0 +1,19 @@
+{
+  "overview": "概览",
+  "telemetry": {
+    "pageViews": "页面浏览量",
+    "last30days": "最近 30 天",
+    "lastUpdated": "最近更新于 {hoursElapsed} 小时前",
+    "checkTomorrow": "请明天再查看"
+  },
+  "learnAbout": "了解有关 Hub 工程的信息",
+  "status": {
+    "notStarted": "未开始",
+    "inProgress": "进行中",
+    "onHold": "保持",
+    "complete": "完成"
+  },
+  "editDetails": "编辑详细信息",
+  "noPurposeSet": "未设置用途",
+  "noLocationSet": "未设置位置"
+}

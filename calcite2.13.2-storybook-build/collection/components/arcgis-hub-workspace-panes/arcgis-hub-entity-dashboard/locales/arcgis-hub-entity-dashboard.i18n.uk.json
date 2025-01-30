@@ -1,0 +1,20 @@
+{
+  "dashboard": "Dashboard",
+  "activityLogSection": {
+    "title": "Журнал активності",
+    "table": {
+      "downloadAction": "Завантажити",
+      "downloadAllAction": "Завантажити всі",
+      "downloadActionTooltip": "Завантажити вибрані дії",
+      "caption": "Таблиця останніх помилок",
+      "columnHeaders": {
+        "datetime": "Дата",
+        "layer": "Шар",
+        "message": "Повідомлення"
+      },
+      "noRecentErrors": "Немає останніх помилок",
+      "expandText": "Переглянути більше",
+      "collapseText": "Переглянути менше"
+    }
+  }
+}

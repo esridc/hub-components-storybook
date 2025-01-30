@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "Redigera",
+    "fields": {
+      "label": {
+        "label": "Etikett",
+        "requiredMessage": "Etikett krävs",
+        "maxLengthMessage": "Etiketten får inte överskrida {maxLength} tecken"
+      }
+    },
+    "apply": "Verkställ"
+  },
+  "showItem": "Visa följande listobjekt: {itemLabel}",
+  "hideItem": "Dölj följande listobjekt: {itemLabel}",
+  "editItem": "Redigera följande listobjekt: {itemLabel}"
+}

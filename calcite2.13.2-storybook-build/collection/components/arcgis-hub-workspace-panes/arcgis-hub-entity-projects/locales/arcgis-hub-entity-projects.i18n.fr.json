@@ -1,0 +1,178 @@
+{
+  "projectsTitle": "Projets",
+  "description": "Définissez des associations à des projets participatifs pour effectuer le suivi de l’avancement sur une durée ou un espace en particulier. Le groupe des associations de l’initiative gère les associations confirmées et les demandes d’association en attente.",
+  "subDescription": "Les projets avec des associations confirmées apparaissent dans la vue de l’initiative.",
+  "project": "projet",
+  "initiative": "initiative",
+  "helpStates": {
+    "noAccess": {
+      "heading": "Aucun accès",
+      "message": "Vos autorisations d’accès ne vous permettent pas d’afficher le groupe d’association."
+    },
+    "missingGroup": {
+      "heading": "Groupe d’association manquant",
+      "message": {
+        "overview": "Le groupe d’associations supervise les projets qui sont liés à l’initiative et qui en dépendent.",
+        "members": "Les membres de ce groupe peuvent envoyer ou approuver des demandes d’association."
+      },
+      "action": "Créer un groupe",
+      "formLabel": "Nouveau groupe d’association",
+      "description": "Créer un groupe d’association pour gérer les connexions"
+    },
+    "requestsWaiting": {
+      "heading": "Groupe d’association manquant",
+      "message": {
+        "overview": "Le groupe d’associations supervise les projets qui sont liés à l’initiative et qui en dépendent.",
+        "members": "Les membres de ce groupe peuvent envoyer ou approuver des demandes d’association.",
+        "requests": "Demandes en attente : {count}"
+      },
+      "action": "Créer un groupe",
+      "formLabel": "Nouveau groupe d’association",
+      "description": "Créer un groupe d’association pour gérer les connexions"
+    }
+  },
+  "shared": {
+    "project": "projet",
+    "associationGroup": "groupe d’association",
+    "error": {
+      "title": "Un problème est survenu",
+      "message": "Vous ne disposez pas d’un accès suffisant pour envoyer une demande d’association ou gérer l’association avec ce(tte) {type}."
+    },
+    "facets": {
+      "access": {
+        "label": "Partage"
+      },
+      "status": {
+        "label": "Statut",
+        "notStarted": "Non commencée",
+        "inProgress": "En cours",
+        "onHold": "Suspendue",
+        "complete": "Terminée"
+      },
+      "tags": {
+        "label": "Balises"
+      }
+    },
+    "tabs": {
+      "projects": "Projets",
+      "members": "Membres",
+      "settings": "Paramètres"
+    },
+    "disabledActionTooltip": "Seuls les gestionnaires du groupe peuvent gérer l’association avec ce(tte) {type}."
+  },
+  "createAssociationGroup": {
+    "defaultSummary": "Gérez les éléments associés à ce(tte) {type} {name} à l’aide d’un groupe d’association."
+  },
+  "members": {
+    "facets": {
+      "role": {
+        "label": "Rôle",
+        "all": "Tous",
+        "manager": "Gestionnaire",
+        "member": "Membre"
+      },
+      "dateJoined": {
+        "label": "Date d’adhésion"
+      }
+    },
+    "addMembers": {
+      "button": "Ajouter des membres",
+      "modal": {
+        "title": "Ajouter des membres",
+        "org": "Mon organisation",
+        "community": "Ma communauté",
+        "partner": "Mes partenaires",
+        "world": "Monde"
+      },
+      "notifications": {
+        "invited": "Invitation envoyée. Les utilisateurs doivent accepter l’invitation pour rejoindre le groupe",
+        "added": "Utilisateur(s) ajouté(s)",
+        "notInvited": "Certains utilisateurs ne disposent peut-être pas des privilèges requis pour rejoindre le groupe ou la limite maximale pour le groupe (512) a peut-être déjà été atteinte"
+      }
+    },
+    "removeUsers": {
+      "button": "Supprimer",
+      "success": "Les membres ont été supprimés de {groupName}.",
+      "error": "Impossible de supprimer un ou plusieurs utilisateurs du groupe."
+    },
+    "changeRole": {
+      "button": "Modifier le rôle",
+      "member": "Membre",
+      "memberHelperText": "Peut ajouter du contenu au groupe et afficher le contenu du groupe.",
+      "tooltipText": "Désélectionner le propriétaire du groupe et/ou vous-même",
+      "tooltipLabel": "Exclusion de rôle",
+      "admin": "Gestionnaire",
+      "adminHelperText": "Peut ajouter/supprimer du contenu et inviter/supprimer des utilisateurs (à l’exception du propriétaire).",
+      "success": "Les membres sélectionnés possèdent désormais le rôle {role} au sein du groupe.",
+      "error": "Le rôle n’a pas pu être modifié pour un ou plusieurs membres."
+    },
+    "stats": {
+      "total": {
+        "title": "Total",
+        "trailingText": "Membres"
+      },
+      "new": {
+        "title": "Nouveau",
+        "trailingText": "30 derniers jours"
+      }
+    }
+  },
+  "projects": {
+    "requestAssociation": {
+      "findProjects": "Rechercher des projets",
+      "sendRequest": "Envoyer une demande",
+      "success": {
+        "title": "Réussite",
+        "message": "Demandes d’association envoyées : {count}"
+      },
+      "alreadyRequesting": {
+        "title": "Examiner les associations",
+        "message": "Une ou plusieurs sélections ont déjà entraîné une demande d’association. Nouvelles demandes d’association envoyées : {count}"
+      },
+      "catalog": {
+        "myContent": "Mes contenus",
+        "favorites": "Favoris",
+        "organization": "Organisation",
+        "world": "Monde (Public)"
+      },
+      "collection": {
+        "projects": "Projets"
+      }
+    },
+    "acceptAssociation": {
+      "label": "Accepter",
+      "success": {
+        "title": "Réussite",
+        "message": "L’association avec {requestor} a été acceptée"
+      }
+    },
+    "cancelRequest": {
+      "label": "Annuler la demande",
+      "success": {
+        "title": "Réussite",
+        "message": "La demande d’association a été annulée"
+      }
+    },
+    "breakAssociation": {
+      "label": "Dissocier",
+      "success": {
+        "title": "Association rompue",
+        "message": "Cet élément a été dissocié de sa précédente association. Toutefois, la décision de dissocier l’élément ne peut pas être annulée à l’autre extrémité de l’association. L’élément pourrait donc continuer à apparaître dans les demandes entrantes."
+      }
+    },
+    "associationsGallery": {
+      "sources": "Statut",
+      "catalog": {
+        "associated": "Associé(e)s",
+        "requesting": "Demandes entrantes",
+        "pending": "Demandes sortantes"
+      },
+      "collection": {
+        "projects": "Projets"
+      }
+    }
+  },
+  "notice": {
+    "label": "Alerte de formulaire"
+  }
+}

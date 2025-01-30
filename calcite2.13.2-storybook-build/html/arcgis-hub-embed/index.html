@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-embed</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet"
+    href="../calcite-web.min.css">
+</head>
+
+<body>
+  <div class="grid-container padding-leader-2">
+    <div class="column-20 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-hub-embed</h2>
+    </div>
+
+    <div class="column-20 leader-3 trailer-3">
+      <h3>Src examples</h3>
+      <h4>This embed has a valid src passed.</h4>
+      <arcgis-hub-embed src="https://www.youtube.com/embed/m80E1K75vDI" iframe-title="Youtube Video" fullscreen
+        geolocation autoplay camera clipboard-read clipboard-write display-capture microphone>
+      </arcgis-hub-embed>
+      <h4>This embed has no src passed; no iframe should appear.</h4>
+      <arcgis-hub-embed iframe-title="broken" height="1000"></arcgis-hub-embed>
+      <h4>This embed has an src passed, but it is broken; no iframe will render</h4>
+      <arcgis-hub-embed src="aaa" iframe-title="Youtube Video" height="1000">
+      </arcgis-hub-embed>
+      <h4>This embed has a broken src passed but it looks like a url; it will show a broken iframe.</h4>
+      <arcgis-hub-embed src="https://wwww.jordanissupercoolandfunwooyaya.com/embed" iframe-title="really broken">
+      </arcgis-hub-embed>
+    </div>
+
+    <div class="column-20 leader-3 trailer-3">
+      <h3>Allow list examples</h3>
+      <h4>This embed has no allow props passed.</h4>
+      <arcgis-hub-embed src="https://www.youtube.com/embed/m80E1K75vDI" iframe-title="Youtube Video">
+      </arcgis-hub-embed>
+      <h4>This embed has all allow props passed (try fullscreen!)</h4>
+      <arcgis-hub-embed src="https://www.youtube.com/embed/m80E1K75vDI" iframe-title="Youtube Video" fullscreen
+        geolocation autoplay camera clipboard-read clipboard-write display-capture microphone> </arcgis-hub-embed>
+      <h4>This embed has some allow props passed.</h4>
+      <arcgis-hub-embed src="https://www.youtube.com/embed/m80E1K75vDI" iframe-title="Youtube Video" fullscreen autoplay
+        camera clipboard-read display-capture>
+      </arcgis-hub-embed>
+    </div>
+
+    <div class="column-20 leader-3 trailer-3">
+      <h3>Height examples</h3>
+      <h4>This embed has a default height (150px)</h4>
+      <arcgis-hub-embed src="https://www.youtube.com/embed/m80E1K75vDI" iframe-title="Youtube Video">
+      </arcgis-hub-embed>
+      <h4>This embed has a height of 50px</h4>
+      <arcgis-hub-embed height="50" src="https://www.youtube.com/embed/m80E1K75vDI" iframe-title="Youtube Video">
+      </arcgis-hub-embed>
+      <h4>This embed has a height of 500px</h4>
+      <arcgis-hub-embed height="500" src="https://www.youtube.com/embed/m80E1K75vDI" iframe-title="youtube">
+      </arcgis-hub-embed>
+    </div>
+  </div>
+
+  <script>
+    // set a property on the element
+    function setProp(key, value) {
+      const el = document.querySelector("arcgis-hub-embed-harness");
+      el[key] = value;
+    }
+  </script>
+</body>
+
+</html>

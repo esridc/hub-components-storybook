@@ -1,0 +1,1 @@
+function n(n,t=1.5){if(n)return n.expand?n.expand(t):((n,t)=>{const r=.5*(1-t),u=Math.abs(n.xmax-n.xmin)*r,e=Math.abs(n.ymax-n.ymin)*r;if(n.xmin+=u,n.ymin+=e,n.xmax-=u,n.ymax-=e,null!=n.zmin&&null!=n.zmax){const t=(n.zmax-n.zmin)*r;n.zmin+=t,n.zmax-=t}return n})(n,t)}function t(n){return n?(n.xmax-n.xmin)*(n.ymax-n.ymin):0}export{n as e,t as g}

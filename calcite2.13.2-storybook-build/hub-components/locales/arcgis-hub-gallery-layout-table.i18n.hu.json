@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Nincs találat."
+    },
+    "error": {
+      "message": "Sajnáljuk, de a keresés hibába ütközött."
+    }
+  },
+  "access": "Hozzáférés",
+  "actionsHeader": "Műveletek",
+  "caption": "Elosztóközpont tábla",
+  "family": "Család",
+  "type": "Típus",
+  "tags": "Címkék",
+  "owner": "Tulajdonos",
+  "dateCreated": "Létrehozva",
+  "dateUpdated": "Módosítva",
+  "description": "Leírás",
+  "dateAndTime": "Dátum is időpont",
+  "location": "Helyszín",
+  "attendanceType": "Részvétel típusa",
+  "inPerson": "Személyes megjelenésű",
+  "online": "Online",
+  "hybrid": "Hibrid",
+  "categories": "Kategóriák",
+  "content": "Tartalom",
+  "name": "Név",
+  "start": "Kezdés",
+  "end": "Vége",
+  "sharedUpdate": "Megosztott frissítés",
+  "managers": "Kezelők",
+  "username": "Felhasználónév",
+  "no": "Nem",
+  "yes": "Igen",
+  "title": "Cím",
+  "thumbnail": "Bélyegkép",
+  "types": {
+    "app": "Alkalmazás",
+    "content": "Tartalom",
+    "dataset": "Adathalmaz",
+    "discussion": "Vitafórum",
+    "document": "Dokumentum",
+    "event": "Esemény",
+    "feedback": "Visszajelzés",
+    "initiative": "Kezdeményezés",
+    "image": "Kép",
+    "map": "Térkép",
+    "other": "Egyéb",
+    "people": "Emberek",
+    "site": "Webhely",
+    "team": "Csoport",
+    "template": "Sablon",
+    "project": "Projekt"
+  }
+}

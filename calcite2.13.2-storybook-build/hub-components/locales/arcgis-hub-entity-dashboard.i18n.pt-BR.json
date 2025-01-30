@@ -1,0 +1,20 @@
+{
+  "dashboard": "Painel de Controle",
+  "activityLogSection": {
+    "title": "Registro de atividade",
+    "table": {
+      "downloadAction": "Download",
+      "downloadAllAction": "Baixar tudo",
+      "downloadActionTooltip": "Baixar atividades selecionadas",
+      "caption": "Tabela de erros recentes",
+      "columnHeaders": {
+        "datetime": "Data",
+        "layer": "Camada",
+        "message": "Mensagem"
+      },
+      "noRecentErrors": "Nenhum erro recente",
+      "expandText": "Visualizar mais",
+      "collapseText": "Visualizar menos"
+    }
+  }
+}

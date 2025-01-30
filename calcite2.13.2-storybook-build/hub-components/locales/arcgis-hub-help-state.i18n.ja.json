@@ -1,0 +1,26 @@
+{
+  "unauthenticated": {
+    "heading": "サイン インしてください。",
+    "message": "このサイトにアクセスするには認証情報が必要です。",
+    "actionText": "サイン イン"
+  },
+  "not-found": {
+    "heading": "ページが見つかりません",
+    "message": "このページが移動または削除された可能性があります。 ホームページから検索してみてください",
+    "actionText": "ホームページに移動"
+  },
+  "unsupported-device": {
+    "heading": "サポートされていない画面サイズ",
+    "message": "ワークスペースは小画面サイズでは利用できません。大きい画面のデバイスを使用してください。",
+    "actionText": "戻る"
+  },
+  "access-denied": {
+    "heading": "アクセスが拒否されました",
+    "message": "このリソースにアクセスできる権限がありません。",
+    "actionText": "ホームページに移動"
+  },
+  "loading": {
+    "heading": "読み込んでいます...",
+    "loadingLabel": "読み込んでいます"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "heading": "Informacije strani",
+  "form": {
+    "title": {
+      "label": "Ime strani",
+      "requiredError": "Zahtevano je ime",
+      "entityTitleValidatorError": "Ime strani ne sme vključevati čustvenih simbolov in znakov <, >, ali =."
+    },
+    "slug": {
+      "label": "Identifikator",
+      "helperText": "Identifikator je za URL prijazna različica imena strani. Ustvari se samodejno na podlagi imena strani, vendar ga lahko prilagodite.",
+      "patternError": "Napaka: Identifikator mora vsebovati male črke in alfanumerične znake, ločene z vezaji.",
+      "isUniqueError": "Ta identifikator je že v uporabi. Izberite drugega.",
+      "requiredError": "Zahtevan je identifikator"
+    }
+  },
+  "controls": {
+    "back": "Nazaj",
+    "cancel": "Prekliči",
+    "close": "Končano",
+    "migrate": "Migriraj stran",
+    "next": "Naprej"
+  },
+  "selection": {
+    "unlimited": "Izbranih: {count}",
+    "limited": "{count}/{limit} izbrano"
+  },
+  "steps": {
+    "specifyInfo": "Dodaj osnovne informacije",
+    "selectGroups": "Izberi skupino",
+    "confirmation": "Potrditev"
+  },
+  "working": {
+    "heading": "Migracija strani.",
+    "loadingLabel": "Migracija strani"
+  },
+  "success": {
+    "heading": "Stran je migrirana",
+    "message": "Stran je bila uspešno migrirana."
+  },
+  "failure": {
+    "heading": "Stran ni migrirana",
+    "message": "Pri migraciji strani je šlo nekaj narobe. Poskusite znova.",
+    "action": "Poskusite znova"
+  }
+}

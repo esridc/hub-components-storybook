@@ -1,0 +1,75 @@
+{
+  "addMetric": "Legg til tallverdi",
+  "title": "Tallmateriale",
+  "featured": "Fremhevet",
+  "metricDescription": "En målbar verdi som brukes til å spore prosjektets fremdrift, basert på enten statiske (f.eks. historiske) eller dynamiske (f.eks. sanntids) data.",
+  "metricCount": {
+    "label": "{currentCount} / {totalCountAllowed} tallmateriale",
+    "tooltip": "Hvis du vil legge til tallmateriale, må du slette noe av det eksisterende settet"
+  },
+  "visible": {
+    "title": "Synlig",
+    "noMetrics": "Det er ingen tallverdier i denne delen."
+  },
+  "hidden": {
+    "title": "Skjult",
+    "description": "Disse tallverdiene vises bare for dem som har tilgang til dette arbeidsområdet.",
+    "noMetrics": "Det er ingen tallverdier i denne delen."
+  },
+  "project": {
+    "featured": {
+      "description": "Du har 4 fremhevede tallmaterialer. Disse vises under Oversikt for live-prosjektet ditt."
+    },
+    "visible": {
+      "description": "Synlig tallmateriale vises under fanen Tallmateriale for live-prosjektet ditt."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Tallmaterialet vil tilsvare prosjektets delingsnivå. Skjult tallmateriale kan fortsatt være tilgjengelig med et API-kall.",
+        "metricsDockLink": "Lær om å konfigurere tallmateriale"
+      }
+    }
+  },
+  "initiative": {
+    "featured": {
+      "description": "Du har 4 fremhevede tallmaterialer. Disse vises under Oversikt for live-initiativet ditt."
+    },
+    "visible": {
+      "description": "Synlig tallmateriale vises under fanen Tallmateriale for live-prosjektet ditt."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Tallmaterialet vil tilsvare initiativets delingsnivå. Skjult tallmateriale kan fortsatt være tilgjengelig med et API-kall.",
+        "metricsDockLink": "Lær om å konfigurere tallmateriale"
+      }
+    }
+  },
+  "metricNumber": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4"
+  },
+  "actions": {
+    "delete": "Slett",
+    "edit": "Rediger",
+    "featured": "Geoobjekt",
+    "removeFeatured": "Fjern fremhevet",
+    "show": "Flytt til synlig",
+    "hide": "Flytt til skjult"
+  },
+  "editor": {
+    "heading": "Ny tallverdi",
+    "description": "Tallverdier blir som standard skjult slik at medlemmer i arbedsområdet ditt ikke kan se dem."
+  },
+  "deleteMetricModal": {
+    "heading": "Slett tallverdi",
+    "content": "Er du sikker på at du vil slette:",
+    "cancel": "Avbryt",
+    "delete": "Slett"
+  },
+  "sidePanel": {
+    "definitions": "Definisjoner",
+    "preview": "Forhåndsvisning"
+  }
+}

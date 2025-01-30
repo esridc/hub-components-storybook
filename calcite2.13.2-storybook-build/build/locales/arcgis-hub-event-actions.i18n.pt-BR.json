@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "Registrar",
+    "registered": "Registrado",
+    "join": "Cadastre-se online",
+    "in-person": "Pessoalmente",
+    "online": "Online",
+    "inPersonFull": "Presencial (completo)",
+    "onlineFull": "Online (completo)",
+    "close": "Fechar"
+  },
+  "tooltip": {
+    "isCanceled": "Evento cancelado",
+    "eventHasEnded": "Evento encerrado",
+    "eventFull": "Evento completo",
+    "inPerson": "Inscrito para evento presencial",
+    "online": "Inscrito para evento online",
+    "unavailable": "Disponível uma hora antes do início do evento"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "Inscrição cancelada com sucesso para evento online",
+    "onlineRegistrationConfirmed": "Inscrito com sucesso no evento online",
+    "onlineRegistrationError": "Ocorreu um erro inesperado ao se registrar no evento online",
+    "onlineRegistrationCanceledError": "Erro inesperado ao cancelar inscrição para evento online",
+    "onlineRegistrationAtCapacity": "Você está tentando se inscrever para um evento online que está lotado",
+    "inPersonRegistrationCanceled": "Inscrição cancelada com sucesso para evento presencial",
+    "inPersonRegistrationCanceledError": "Erro inesperado ao cancelar a inscrição para evento presencial",
+    "inPersonRegistrationConfirmed": "Inscrito com sucesso para evento presencial",
+    "inPersonRegistrationError": "Ocorreu um erro inesperado ao se registrar para um evento presencial",
+    "inPersonRegistrationAtCapacity": "Você está tentando se inscrever para um evento presencial que está lotado"
+  }
+}

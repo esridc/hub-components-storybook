@@ -1,0 +1,150 @@
+{
+  "modal": {
+    "dismiss": "Jangan tampilkan lagi",
+    "close": "Tutup"
+  },
+  "notice": {
+    "n001": {
+      "title": "Pemberitahuan Pengujian",
+      "message": "Ini adalah isi dari pemberitahuan pengujian",
+      "actions": [
+        {
+          "text": "Baca blog"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-1": {
+      "title": "Beralih ke pengalaman pengunduhan yang diperbarui",
+      "message": "Untuk memperoleh format tambahan dan peningkatan kecepatan dan performa, aktifkan \"ekstrak\" pada layanan item ini."
+    },
+    "20240220-hosted-downloads-2": {
+      "title": "Peningkatan unduhan sudah hadir!",
+      "message": "Peningkatan untuk unduhan di situs Hub Anda mencakup dukungan untuk unduhan yang di-hosting, tampilan & suasana baru untuk kartu unduhan, dan bilah kemajuan unduhan baru.",
+      "actions": [
+        {
+          "text": "Pelajari selengkapnya"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-3": {
+      "title": "Unduhan yang di-hosting sudah hadir!",
+      "message": "Unduhan yang di-hosting membantu meningkatkan kinerja saat mengunduh konten. Untuk mengaktifkan unduhan yang di-hosting, jangan lupa mengizinkan Kapabilitas Ekstrak di bawah.",
+      "actions": [
+        {
+          "text": "Pelajari selengkapnya"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-basic": {
+      "title": "Tentang ruang kerja",
+      "message": "<p><strong>Tambahkan konten ke Katalog situs menggunakan grup</strong><br>Katalog pencarian situs selalu dilengkapi dengan grup, dan ruang kerja mempermudah dalam mengelola grup tersebut. Sekarang, tambahkan konten ke grup individual yang terhubung ke situs Anda agar bisa menampilkannya di katalog situs. Sebentar lagi, Anda akan dapat menambahkan konten ke katalog Anda secara langsung.</p><p><strong>Berpindah dari Tim ke Grup</strong><br>Anda sekarang dapat menggunakan Grup ArcGIS Online mana saja untuk berkolaborasi di situs, halaman, konten, dan proyek di Hub. Semua \"Tim\" yang sudah tertaut sebelumnya, seperti \"Tim Utama\" situs, masih akan muncul di panel Kolaborator ruang kerja Situs.</p><p><strong>Pengiriman pesan berbasis tim dijeda sementara</strong><br>Mengirimkan pesan email dan email undangan/penghapusan ke anggota tim dan pengikut saat ini tidak didukung.</p><p><strong>Penghentian perancang situs web Survey123 tersemat</strong><br>Kami menyematkan perancang Survey123 untuk membantu Anda melakukan lebih banyak hal di Hub. Namun, masukan pelanggan menunjukkan adanya preferensi untuk rancangan survei dan pengelolaan Survey123, sama seperti aplikasi lain. Karena itu, kami menghentikan dukungan untuk perancang Survey123 tersemat di ArcGIS Hub untuk menyejajarkan dengan alur kerja yang Anda inginkan dengan lebih baik.</p>",
+      "actions": [
+        {
+          "text": "Pelajari selengkapnya"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-premium": {
+      "title": "Tentang ruang kerja",
+      "message": "<p><strong>Tambahkan konten ke Katalog situs menggunakan grup</strong><br>Katalog pencarian situs selalu dilengkapi dengan grup, dan ruang kerja mempermudah dalam mengelola grup tersebut. Sekarang, tambahkan konten ke grup individual yang terhubung ke situs Anda agar bisa menampilkannya di katalog situs. Sebentar lagi, Anda akan dapat menambahkan konten ke katalog Anda secara langsung.</p><p><strong>Berpindah dari Tim Pendukung ke Grup</strong><br>Anda sekarang dapat menggunakan Grup ArcGIS Online mana saja untuk berkolaborasi di situs, halaman, konten, dan proyek di Hub. Semua Tim Pendukung yang sudah tertaut sebelumnya masih akan muncul di panel Kolaborator ruang kerja Situs. Untuk dukungan lanjutan, tambahkan tim Pendukung tersebut sebagai Grup yang dapat Melihat dan Grup yang dapat Mengedit.</p><p><strong>Pesan email berbasis tim untuk sementara dijeda</strong><br>Mengirim pesan email dan email undangan/penghapusan ke anggota tim dan pengikut saat ini tidak didukung.</p><p><strong>Penghentian perancang situs web Survey123 yang tertanam</strong><br>Kami menyematkan desainer Survey123 untuk membantu Anda menyelesaikan lebih banyak hal di Hub. Namun, masukan pelanggan menunjukkan adanya preferensi untuk rancangan survei dan pengelolaan Survey123, sama seperti aplikasi lain. Karena itu, kami menghentikan dukungan untuk perancang Survey123 tersemat di ArcGIS Hub untuk menyejajarkan dengan alur kerja yang Anda inginkan dengan lebih baik.</p><p><strong>Acara belum tersedia di ruang kerja</strong><br>Acara sedang dalam transformasi dan akan tersedia segera di ruang kerja. Sekarang, jika Anda ikut serta ke ruang kerja, Anda akan kehilangan kemampuan untuk membuat peristiwa baru, mengelola, dan mencari peristiwa yang ada. Namun, jika Anda ingin mengelola peristiwa yang dibuat sebelumnya, Anda dapat menolak kapan saja.</p>",
+      "actions": [
+        {
+          "text": "Pelajari selengkapnya"
+        }
+      ]
+    },
+    "202404-workspaceannouncement": {
+      "title": "Pendahuluan ruang kerja",
+      "message": "Ruang kerja adalah cara baru untuk mengedit dan mengelola item di Hub, menggantikan navigasi global di tampilan edit (bukan lihat langsung). Di fase ini, Anda dapat \"ikut serta\" (kapan saja) untuk menggunakan ruang kerja dan fitur terkait untuk item dan grup. Acara akan tersedia di fase selanjutnya. Untuk mencoba ruang kerja sekarang, pilih \"Buka pengaturan.\"",
+      "actions": [
+        {
+          "text": "Buka pengaturan"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing": {
+      "title": "Pengenalan Ulang — Hub Initiative",
+      "message": "Inisiatif ArcGIS Hub diubah pada 2 Juli 2024. Prakarsa yang dibuat sebelumnya kini menjadi situs yang berdiri sendiri, dengan tata letak, konten, URL, dan fitur premium serupa (seperti pengikut dan peristiwa) seperti sebelumnya. Untuk mencoba inisiatif terbaru, Anda harus mengaktifkan ruang kerja.",
+      "actions": [
+        {
+          "text": "Pelajari tentang prakarsa",
+          "ariaLabel": "Pelajari tentang inisiatif, Buka di tab baru"
+        },
+        {
+          "text": "Buka pengaturan"
+        }
+      ]
+    },
+    "20240517-initiatives-manage": {
+      "title": "Kelola inisiatif lama",
+      "message": "Inisiatif ArcGIS Hub diubah pada 2 Juli 2024. Prakarsa yang dibuat sebelumnya kini menjadi situs yang berdiri sendiri, dengan tata letak, konten, URL, dan fitur premium serupa (seperti pengikut dan peristiwa) seperti sebelumnya. Anda bisa menghapus inisiatif lama dengan aman.",
+      "actions": [
+        {
+          "text": "Pelajari tentang prakarsa",
+          "ariaLabel": "Pelajari tentang inisiatif, Buka di tab baru"
+        },
+        {
+          "text": "Lihat inisiatif lama",
+          "ariaLabel": "Lihat inisiatif lama, Buka di tab baru"
+        }
+      ]
+    },
+    "20240517-initiatives-manage-no-priv": {
+      "title": "Kelola inisiatif lama",
+      "message": "Inisiatif ArcGIS Hub diubah pada 2 Juli 2024. Prakarsa yang dibuat sebelumnya kini menjadi situs yang berdiri sendiri, dengan tata letak, konten, URL, dan fitur premium serupa (seperti pengikut dan peristiwa) seperti sebelumnya. Anda bisa menghapus inisiatif lama dengan aman.",
+      "actions": [
+        {
+          "text": "Pelajari tentang prakarsa",
+          "ariaLabel": "Pelajari tentang inisiatif, Buka di tab baru"
+        },
+        {
+          "text": "Lihat inisiatif lama",
+          "ariaLabel": "Lihat inisiatif lama, Buka di tab baru"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing-site": {
+      "title": "Pengenalan Ulang — Hub Initiative",
+      "message": "Generasi terbaru Hub Initiative kini tersedia di ruang kerja. Inisiatif memiliki tampilan yang mudah disiapkan dan bisa membantu menyelearaskan Proyek Hub yang berbagi tujuan jangka panjang. Inisiatif bisa dibuat secara mandiri, dan bisa dibagikan kepada pengguna yang memiliki satu atau beberapa situs. Situs bisa memiliki satu inisiatif atau lebih.",
+      "actions": [
+        {
+          "text": "Pelajari selengkapnya",
+          "ariaLabel": "Pelajari selengkapnya, Buka di tab baru"
+        }
+      ]
+    },
+    "20240710-slow-service-warning": {
+      "title": "Gangguan layanan",
+      "message": "Komunikasi dengan layanan ini memerlukan waktu lebih lama dari yang diperkirakan. Hal ini mungkin berdampak terhadap akses ke unduhan dan fungsionalitas peta Anda."
+    },
+    "20240710-unreachable-service-error": {
+      "title": "Layanan tidak tersedia",
+      "message": "Kami tidak dapat menghubungi layanan host. Unduhan dan fungsionalitas peta sedang tidak tersedia untuk item ini."
+    },
+    "20240807-auth-required-status": {
+      "title": "Status layanan tidak diketahui",
+      "message": "Kami tidak dapat mengakses layanan yang aman karena memerlukan otorisasi tambahan. Unduhan dan fungsionalitas peta saat ini tidak tersedia untuk item."
+    },
+    "20240805-private-downloads-unavailable-ago-error": {
+      "title": "Unduhan tidak tersedia",
+      "message": "Untuk mengunduh konten, pengaturan Ekspor Data harus diaktifkan di ArcGIS Online. Hubungi pemilik item untuk mengaktifkan pengaturan ini."
+    },
+    "20240805-private-downloads-unavailable-enterprise-error": {
+      "title": "Unduhan tidak tersedia",
+      "message": "Untuk mengunduh konten, pengaturan Ekspor Data harus diaktifkan di ArcGIS Enterprise. Hubungi pemilik item untuk mengaktifkan pengaturan ini."
+    },
+    "20240819-download-formats-disabled": {
+      "title": "Unduhan telah dinonaktifkan",
+      "message": "Untuk mengunduh konten untuk item ini, silakan hubungi pemilik item."
+    },
+    "20241104-about-feeds-notice": {
+      "message": "Jadikan open data publik Anda mudah diakses dan digunakan kembali dengan feed Hub.",
+      "actions": [
+        {
+          "text": "Pelajari tentang feed Hub",
+          "ariaLabel": "Pelajari tentang feed Hub, Buka di tab baru"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,61 @@
+:host {
+  display: block;
+}
+
+h3 {
+  margin: 30px 0;
+  font-size: var(--calcite-font-size-2);
+  line-height: 1.5rem;
+  font-weight: var(--calcite-font-weight-bold);
+  color: var(--calcite-color-text-1);
+}
+
+arcgis-hub-group-list-manager {
+  padding-bottom: 0.75rem;
+}
+
+.private-site-notice-container {
+  max-width: 20rem;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.reharvest-catalog-button {
+  align-self: center;
+  margin-inline-end: 0.25rem;
+}
+
+.reharvest-modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* copied over from hub-section-basic */
+section {
+  margin-bottom: 2rem;
+  border-radius: 0.25rem;
+  padding: 1.25rem;
+  --tw-shadow: 0 1px 6px -1px rgba(0, 0, 0, 0.16), 0 1px 2px -1px rgba(0, 0, 0, 0.08);
+  --tw-shadow-colored: 0 1px 6px -1px var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  background: white;
+}
+
+section h1,
+section h2,
+section h3,
+section h4,
+section h5,
+section h6 {
+  font-size: var(--calcite-font-size-1);
+  margin-top: 0px;
+  margin-bottom: 1.5rem;
+  font-weight: var(--calcite-font-weight-medium);
+  color: var(--calcite-color-text-1);
+}
+/* end of copied portion */

@@ -1,0 +1,46 @@
+{
+  "heading": "页面信息",
+  "form": {
+    "title": {
+      "label": "页面名称",
+      "requiredError": "名称为必填项",
+      "entityTitleValidatorError": "页面名称不能包含表情符号、<、> 或 = 字符"
+    },
+    "slug": {
+      "label": "Slug",
+      "helperText": "该 slug 是页面名称的 URL 友好版本。 将基于页面名称自动生成该 slug，但是可以对其进行自定义。",
+      "patternError": "错误：Slug 必须为由连字符分隔的小写字母数字字符。",
+      "isUniqueError": "此 slug 已在使用中。 请选择其他 slug。",
+      "requiredError": "Slug 为必填项"
+    }
+  },
+  "controls": {
+    "back": "返回",
+    "cancel": "取消",
+    "close": "完成",
+    "migrate": "迁移页面",
+    "next": "下一步"
+  },
+  "selection": {
+    "unlimited": "已选择 {count} 个",
+    "limited": "已选择 {count} 个(共 {limit} 个)"
+  },
+  "steps": {
+    "specifyInfo": "添加基本信息",
+    "selectGroups": "选择组",
+    "confirmation": "确认"
+  },
+  "working": {
+    "heading": "正在迁移页面。",
+    "loadingLabel": "正在迁移页面"
+  },
+  "success": {
+    "heading": "页面已迁移",
+    "message": "页面已成功迁移。"
+  },
+  "failure": {
+    "heading": "页面未迁移",
+    "message": "迁移页面时出现问题，请重试。",
+    "action": "请重试"
+  }
+}

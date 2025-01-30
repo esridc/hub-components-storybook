@@ -1,0 +1,46 @@
+{
+  "heading": "Puslapio informacija",
+  "form": {
+    "title": {
+      "label": "Puslapio pavadinimas",
+      "requiredError": "Pavadinimas yra būtinas",
+      "entityTitleValidatorError": "Puslapio pavadinime negali būti jausmaženklių, simbolių <, >, arba ="
+    },
+    "slug": {
+      "label": "Kintamųjų duomenų laukas",
+      "helperText": "Kintamųjų duomenų laukas – tai URL adresą atitinkanti puslapio pavadinimo versija. Jis sugeneruojamas automatiškai, remiantis puslapio pavadinimu, bet jį galite adaptuoti.",
+      "patternError": "Klaida: kintamųjų duomenų laukas turi būti sudarytas iš mažųjų raidinių ir skaitinių simbolių, atskirtų brūkšniais.",
+      "isUniqueError": "Šis kintamųjų duomenų laukas jau naudojamas. Pasirinkite kitą.",
+      "requiredError": "Nuoroda yra reikalinga"
+    }
+  },
+  "controls": {
+    "back": "Atgal",
+    "cancel": "Atšaukti",
+    "close": "Atlikta",
+    "migrate": "Perkelti puslapį",
+    "next": "Kitas"
+  },
+  "selection": {
+    "unlimited": "Pasirinkta: {count}",
+    "limited": "Pasirinkta {count} / {limit}"
+  },
+  "steps": {
+    "specifyInfo": "Pridėti pagrindinę informaciją",
+    "selectGroups": "Pasirinkite grupę",
+    "confirmation": "Patvirtinimas"
+  },
+  "working": {
+    "heading": "Puslapis perkeliamas.",
+    "loadingLabel": "Puslapis perkeliamas"
+  },
+  "success": {
+    "heading": "Puslapis perkeltas",
+    "message": "Puslapis sėkmingai perkeltas."
+  },
+  "failure": {
+    "heading": "Puslapis neperkeltas",
+    "message": "Perkeliant puslapį įvyko klaida. Bandykite dar kartą.",
+    "action": "Bandykite iš naujo"
+  }
+}

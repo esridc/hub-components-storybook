@@ -1,0 +1,9 @@
+.filters__add:not(:first-child) {
+
+    margin-top: 1rem
+}
+
+.filters__block:not(:first-child) {
+
+    margin-top: 1rem
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-page-migration</title>
+
+  <!-- link to calcite components CSS  -->
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+
+  <!-- NOTE: calcite web CSS is only used for grid layout of this page -->
+  <!-- see: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+  <link rel="stylesheet" href="../calcite-web.min.css">
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+
+  <!-- load calcite components -->
+  <script type="module" src="../../calcite/calcite.esm.js"></script>
+
+  <!-- load hub components -->
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+</head>
+
+<body>
+  <harness-header page-title=arcgis-hub-page-migration></harness-header>
+  <div class="grid-container padding-leader-4">
+    <!-- docs about grid container: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+
+    <div class="column-24">
+      <!-- identifier="a2110e39b1064ec2b025288a792c3cbd" -->
+      <harness-fetch
+        entity-prop="site"
+        identifier="4afcfdb9bb6541649146bdbb70755b1d"
+        type="site"
+        show-identifier-input="true"
+      >
+        <!-- 4f793e51ae2f4a83b649d3b005bc34e6 a cool page-->
+        <!-- 53574a266bb248a0a2b5101bb053111b embedded dashboards-->
+        <!-- c0f79cf2db184dd08aeb17e19b8eaccd jupe page migration test-->
+        <arcgis-hub-page-migration page-id="c0f79cf2db184dd08aeb17e19b8eaccd"></arcgis-hub-page-migration>
+      </harness-fetch>
+    </div>
+  </div>
+
+  <script>
+    document.querySelector('arcgis-hub-page-migration').addEventListener('arcgisHubPageMigrationWorkflowComplete', (e) => {
+      console.log('arcgisHubPageMigrationWorkflowComplete', e.detail);
+    });
+  </script>
+</body>
+
+</html>

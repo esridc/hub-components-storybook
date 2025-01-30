@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-input-color</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet" href="../calcite-web.min.css">
+</head>
+
+<body>
+  <div class="grid-container padding-leader-2">
+    <div class="column-24 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-hub-input-color</h2>
+    </div>
+
+    <div class="column-24 trailer-2">
+      <calcite-input value="water" class="focus-me"></calcite-input>
+      <calcite-button class="focus-it">click me</calcite-button>
+    </div>
+
+    <div class="column-6 trailer-2">
+      <calcite-label>
+        With no value
+        <arcgis-hub-input-color placeholder="select a color"></arcgis-hub-input-color>
+      </calcite-label>
+    </div>
+
+    <div class="column-6 trailer-2">
+      <calcite-label>
+        With color set and required
+        <arcgis-hub-input-color value="#24d4c4" required></arcgis-hub-input-color>
+      </calcite-label>
+    </div>
+
+    <div class="column-6 trailer-2">
+      <calcite-label>
+        With color set and not required
+        <arcgis-hub-input-color value="#24d4c4"></arcgis-hub-input-color>
+      </calcite-label>
+    </div>
+
+    <div class="column-6">
+      <calcite-label>
+        Disabled
+        <arcgis-hub-input-color value="#cc00ff" disabled></arcgis-hub-input-color>
+      </calcite-label>
+    </div>
+
+  </div>
+
+  <script>
+    const el = document.querySelectorAll("arcgis-hub-input-color");
+    function handleArcGisHubInputColorChange (evt) {
+      const { valid, value } = event.detail;
+      console.log(`arcgisHubInputColorChange - valid: ${valid}; value: ${value}`);
+    };
+    function handleCalciteEvent (evt) {
+      console.log(`got ${evt.type} event that should be swallowed...`);
+    }
+    el.forEach(el => {
+      el.addEventListener('arcgisHubInputColorChange', handleArcGisHubInputColorChange);
+      el.addEventListener('calciteColorPickerChange', handleCalciteEvent);
+      el.addEventListener('calciteInputInput', handleCalciteEvent);
+    });
+
+    document.querySelector('.focus-it').addEventListener('click', _ => {
+      document.querySelector('.focus-me').setFocus();
+    });
+  </script>
+</body>
+
+</html>

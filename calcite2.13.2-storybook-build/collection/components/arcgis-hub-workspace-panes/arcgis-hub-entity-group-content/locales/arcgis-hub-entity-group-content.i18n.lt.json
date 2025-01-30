@@ -1,0 +1,69 @@
+{
+  "title": "Turinys",
+  "facets": {
+    "type": "Tipas",
+    "tags": "Raktažodis",
+    "categories": "Kategorija",
+    "sharing": "Bendrinimas",
+    "dateUpdated": "Atnaujinimo data",
+    "map": {
+      "label": "Vieta",
+      "tooltip": "Taikyti žemėlapio aprėptį kaip vietos filtrą"
+    }
+  },
+  "shareContent": {
+    "buttonText": "Pridėti turinį",
+    "disabledTooltip": "Neturite prieigos pridėti turinį į šią grupę.",
+    "catalog": {
+      "myContent": "Mano turinys",
+      "favorites": "Mėgstamiausi",
+      "organization": "Mano organizacija",
+      "world": "Pasaulis (viešai)"
+    },
+    "facets": {
+      "type": "Tipas",
+      "sharing": "Bendrinimas"
+    },
+    "collection": {
+      "appsAndMaps": "Programėlės ir žemėlapiai",
+      "dataset": "Duomenys",
+      "documents": "Dokumentai",
+      "feedback": "Atsiliepimai",
+      "sites": "Svetainės",
+      "projects": "Projektai",
+      "projectsAndInitiatives": "Projektai ir iniciatyvos"
+    },
+    "modal": {
+      "title": "Pridėti turinį"
+    },
+    "unsharedModal": {
+      "title": "Nepridėti elementai",
+      "notice": {
+        "icon": "šauktuko trikampis",
+        "type": "pavojus",
+        "title": "Nebaigtas veiksmas",
+        "message": "Kai kurių elementų pridėti nepavyko. To priežastis gali būti nesutampantys turinio bendrinimo lygiai arba tai, kad elemento savininkas nėra grupės narys.",
+        "linkText": "Sužinokite daugiau apie bendrinimą"
+      }
+    },
+    "itemSharedSuccessAlert": "Sėkmingai bendrintas (-i) elementas (-ai)"
+  },
+  "close": "Uždaryti",
+  "newTab": "atidaromas naujame skirtuke",
+  "unshareContent": {
+    "remove": "Pašalinti",
+    "success": "Turinys sėkmingai pašalintas iš {groupName}.",
+    "unsharedModal": {
+      "title": "Elementai nepašalinti",
+      "notice": {
+        "icon": "šauktuko trikampis",
+        "type": "pavojus",
+        "title": "Nebaigtas veiksmas",
+        "message": "Kai kurių elementų nepavyko pašalinti."
+      }
+    }
+  },
+  "notice": {
+    "label": "Formos įspėjimas"
+  }
+}

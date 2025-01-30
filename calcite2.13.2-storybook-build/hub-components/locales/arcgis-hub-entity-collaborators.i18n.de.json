@@ -1,0 +1,85 @@
+{
+  "collaborators": "Beteiligte",
+  "editGroupButtonText": "Bearbeitungsgruppen hinzufügen",
+  "viewGroupButtonText": "Ansichtsgruppen hinzufügen",
+  "groupPicker": {
+    "title": "Gruppen auswählen",
+    "facet": {
+      "label": "Von",
+      "editGroups": "Gruppen bearbeiten",
+      "viewGroups": "Gruppe anzeigen",
+      "myGroups": "Eigene Gruppen",
+      "myOrganization": "Eigene Organisation",
+      "myCommunity": "Eigene Community"
+    }
+  },
+  "addNewPeopleNotice": {
+    "title": "Neue Personen hinzufügen",
+    "message": "Wenn Sie weitere Personen hinzufügen möchten, können Sie diese einladen, der Community beizutreten, oder <orgOverviewLink>Sie können sich an Ihren Administrator wenden</orgOverviewLink>."
+  },
+  "editGroupsTitle": "Gruppen mit der Möglichkeit zum Bearbeiten",
+  "viewGroupsTitle": "Gruppen mit der Möglichkeit zum Anzeigen",
+  "project": {
+    "description": "Legen Sie fest, welche Benutzergruppen dieses Projekt anzeigen und bearbeiten können.",
+    "editGroupsDescription": "Die Personen in diesen Gruppen können die Projektinformationen bearbeiten.",
+    "viewGroupsDescription": "Die Personen in diesen Gruppen können das Projekt durchsuchen und anzeigen, wenn es nicht für die Öffentlichkeit freigegeben ist.",
+    "errorMessage": "Beim Aktualisieren der Mitarbeitenden Ihres Projekts ist ein Fehler aufgetreten."
+  },
+  "content": {
+    "description": "Legen Sie fest, welche Benutzergruppen diese Inhalte anzeigen und bearbeiten können.",
+    "editGroupsDescription": "Die Personen in diesen Gruppen können die Informationen zu den Inhalten bearbeiten.",
+    "viewGroupsDescription": "Die Personen in diesen Gruppen können die Inhalte durchsuchen und anzeigen, wenn sie nicht für die Öffentlichkeit freigegeben sind.",
+    "errorMessage": "Beim Aktualisieren der Mitarbeitenden Ihres Inhalts ist ein Fehler aufgetreten."
+  },
+  "discussion": {
+    "description": "Legen Sie fest, welche Benutzergruppen die Diskussionsrunde anzeigen und welche die dazugehörigen Informationen bearbeiten können.",
+    "editGroupsDescription": "Die Mitglieder dieser Gruppen können die Informationen der Diskussionsrunde bearbeiten.",
+    "viewGroupsDescription": "Die Mitglieder dieser Gruppen können die Diskussionsrunde durchsuchen und anzeigen (sofern sie nicht für die Öffentlichkeit freigegeben ist).",
+    "errorMessage": "Beim Aktualisieren der Mitarbeitenden Ihrer Diskussion ist ein Fehler aufgetreten."
+  },
+  "site": {
+    "description": "Festlegen, welche Benutzergruppen diese Site anzeigen und bearbeiten können.",
+    "editGroupsDescription": "Die Personen in diesen Gruppen können die Informationen der Site bearbeiten.",
+    "viewGroupsDescription": "Die Personen in diesen Gruppen können die Site durchsuchen und anzeigen, auch wenn sie nicht für die Öffentlichkeit freigegeben ist.",
+    "errorMessage": "Beim Aktualisieren der Projektbeteiligten Ihrer Site ist ein Fehler aufgetreten."
+  },
+  "template": {
+    "description": "Festlegen, welche Benutzergruppen diese Vorlage anzeigen und bearbeiten können.",
+    "editGroupsDescription": "Die Personen in diesen Gruppen können die Informationen der Vorlage bearbeiten.",
+    "viewGroupsDescription": "Die Personen in diesen Gruppen können die Vorlage durchsuchen und anzeigen, wenn sie nicht für die Öffentlichkeit freigegeben ist.",
+    "errorMessage": "Beim Aktualisieren der Projektbeteiligten für Ihre Vorlage ist ein Fehler aufgetreten."
+  },
+  "survey": {
+    "description": "Legen Sie fest, welche Benutzergruppen diesen Survey anzeigen und bearbeiten können.",
+    "editGroupsDescription": "Die Personen in diesen Gruppen können die Survey-Informationen bearbeiten.",
+    "viewGroupsDescription": "Die Personen in diesen Gruppen können den Survey durchsuchen und anzeigen, auch wenn er nicht für die Öffentlichkeit freigegeben ist.",
+    "errorMessage": "Beim Aktualisieren der Projektbeteiligten Ihres Survey ist ein Fehler aufgetreten."
+  },
+  "event": {
+    "description": "Legen Sie fest, welche Benutzergruppen dieses Event anzeigen und bearbeiten können.",
+    "editGroupsDescription": "Die Personen in diesen Gruppen können die Event-Informationen bearbeiten.",
+    "viewGroupsDescription": "Die Personen in diesen Gruppen können das Event durchsuchen und anzeigen, wenn es nicht für die Öffentlichkeit freigegeben ist.",
+    "errorMessage": "Beim Aktualisieren der Beteiligten des Events ist ein Fehler aufgetreten."
+  },
+  "newTab": "Profil auf neuer Registerkarte öffnen",
+  "supportingTeams": "Unterstützungsteams",
+  "supportingTeamsDesc": "Diese Unterstützungsteams waren zuvor mit Ihrer Site verknüpft. Es ist weiterhin möglich, darüber Inhalte für Projektbeteiligte freizugeben.",
+  "supportTeamsRemove": "Team entfernen",
+  "supportingTeamsRemoveError": "Fehler beim Aufheben der Verknüpfung für Team. Wenden Sie sich an einen Administrator.",
+  "supportingTeamsRemoveSuccess": "Verknüpfung für Team wurde erfolgreich aufgehoben.",
+  "view": {
+    "button": "Anzeigegruppe erstellen",
+    "formLabel": "Neue Anzeigegruppe",
+    "description": "Richten Sie eine Gruppe ein, um das Freigeben von Inhalten und die Kommunikation zu erleichtern. Gruppenmitglieder können alle Inhalte, die für die Gruppe freigegeben werden, anzeigen."
+  },
+  "edit": {
+    "button": "Bearbeitungsgruppe erstellen",
+    "formLabel": "Neue Bearbeitungsgruppe",
+    "description": "Richten Sie eine Gruppe ein, um das Freigeben von Inhalten und die Kommunikation zu erleichtern. Gruppenmitglieder können alle Inhalte, die für die Gruppe freigegeben werden, anzeigen und bearbeiten."
+  },
+  "groupCreateDisabledButtonTooltip": "Sie können keine Gruppe erstellen. Sie gehören möglicherweise bereits der maximalen Anzahl an Gruppen an, oder Ihnen fehlen die erforderlichen Berechtigungen zum Erstellen einer Gruppe.",
+  "groupCreateError": "Beim Erstellen der Gruppe ist ein Fehler aufgetreten.",
+  "notice": {
+    "label": "Formularwarnung"
+  }
+}

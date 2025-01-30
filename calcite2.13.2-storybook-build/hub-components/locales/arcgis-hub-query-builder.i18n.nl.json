@@ -1,0 +1,10 @@
+{
+  "targetEntity": {
+    "label": "Bron",
+    "enum": {
+      "item": "Items",
+      "event": "Evenementen",
+      "group": "Groepen"
+    }
+  }
+}

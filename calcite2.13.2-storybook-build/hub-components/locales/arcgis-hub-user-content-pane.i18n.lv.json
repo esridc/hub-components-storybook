@@ -1,0 +1,43 @@
+{
+  "content": "Saturs",
+  "myContent": "Mans saturs",
+  "editableContent": "Rediģējams saturs",
+  "addContentButtonText": "Izveidot jaunu",
+  "type": "Veids",
+  "sharedUpdate": "Koplietotā atjauninājumu grupa",
+  "viewOnly": "Tikai skatāmā grupa",
+  "owner": "Īpašnieks",
+  "updated": "Atjaunināts",
+  "tags": "Atslēgvārdi",
+  "dateCreated": "Izveidots",
+  "dateUpdated": "Mainīts",
+  "actionLinks": {
+    "view": "Skatīt",
+    "edit": "Rediģēt",
+    "ariaEdit": "Rediģēt {title}",
+    "ariaView": "Skatīt {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Saturs",
+      "myContent": "Man piederošais saturs",
+      "editableContent": "Saturs, kuru es varu rediģēt",
+      "all": "Viss saturs"
+    },
+    "access": {
+      "label": "No"
+    },
+    "type": {
+      "label": "Veidi"
+    },
+    "tags": {
+      "label": "Atslēgvārdi"
+    },
+    "categories": {
+      "label": "Kategorijas"
+    },
+    "modified": {
+      "label": "Mainīts"
+    }
+  }
+}

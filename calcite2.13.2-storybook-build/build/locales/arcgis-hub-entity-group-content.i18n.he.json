@@ -1,0 +1,69 @@
+{
+  "title": "תוכן",
+  "facets": {
+    "type": "סוג",
+    "tags": "תגית",
+    "categories": "קטגוריה",
+    "sharing": "שיתוף",
+    "dateUpdated": "תאריך עדכון",
+    "map": {
+      "label": "מיקום",
+      "tooltip": "החל את תיחום הפה כמסנן מיקום"
+    }
+  },
+  "shareContent": {
+    "buttonText": "הוסף תוכן",
+    "disabledTooltip": "אין לך גישה להוסיף תוכן לקבוצה זו.",
+    "catalog": {
+      "myContent": "התוכן שלי",
+      "favorites": "מועדפים",
+      "organization": "הארגון שלי",
+      "world": "עולם (ציבורי)"
+    },
+    "facets": {
+      "type": "סוג",
+      "sharing": "שיתוף"
+    },
+    "collection": {
+      "appsAndMaps": "Apps & Maps",
+      "dataset": "נתונים",
+      "documents": "מסמכים",
+      "feedback": "משוב",
+      "sites": "Sites",
+      "projects": "פרויקטים",
+      "projectsAndInitiatives": "פרוקטים ויוזמות"
+    },
+    "modal": {
+      "title": "הוסף תוכן"
+    },
+    "unsharedModal": {
+      "title": "פריטים שלא נוספו",
+      "notice": {
+        "icon": "exclamation-mark-triangle",
+        "type": "סכנה",
+        "title": "הפעולה לא הושלמה",
+        "message": "לא ניתן להוסיף חלק מהפריטים. ייתכן שהסיבה לכך היא רמות שיתוף לא תואמות בתוך התוכן או בגלל שהבעלים של הפריט אינו חבר בקבוצה.",
+        "linkText": "מידע נוסף על שיתוף"
+      }
+    },
+    "itemSharedSuccessAlert": "הפריט/ים שותף/ו בהצלחה"
+  },
+  "close": "סגור",
+  "newTab": "נפתח בכרטיסייה חדשה",
+  "unshareContent": {
+    "remove": "הסר",
+    "success": "התוכן הוסר בהצלחה מ-{groupName}.",
+    "unsharedModal": {
+      "title": "הפריטים שלא הוסרו",
+      "notice": {
+        "icon": "exclamation-mark-triangle",
+        "type": "סכנה",
+        "title": "הפעולה לא הושלמה",
+        "message": "לא הצלחנו להסיר חלק מהפריטים."
+      }
+    }
+  },
+  "notice": {
+    "label": "התראת צורה"
+  }
+}

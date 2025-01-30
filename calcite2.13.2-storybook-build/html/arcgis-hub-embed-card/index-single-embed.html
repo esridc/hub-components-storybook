@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-embed-card</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+    .embedded-items-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin-bottom: 20px;
+    }
+
+    .item-header {
+      font-weight: 600;
+    }
+
+    calcite-notice {
+      margin-bottom: 24px;
+    }
+
+  </style>
+
+  <script async src="https://ga.jspm.io/npm:es-module-shims@1.6.2/dist/es-module-shims.js"></script>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+  <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet"
+    href="../calcite-web.min.css">
+</head>
+
+<!--
+  ##    ##  #######  ######## ########  ##
+  ###   ## ##     ##    ##    ##       ####
+  ####  ## ##     ##    ##    ##        ##
+  ## ## ## ##     ##    ##    ######
+  ##  #### ##     ##    ##    ##        ##
+  ##   ### ##     ##    ##    ##       ####
+  ##    ##  #######     ##    ########  ##
+
+  Make sure to run on Firefox, choose QA in the harness header, sign in as paige_pa
+
+  regular domain: http://localui.arcgis.com:3333
+  custom domain: http://localhost:3333
+ -->
+
+<body>
+  <harness-header page-title="Hub embed card"></harness-header>
+  <br/>
+  <br/>
+  <div class="grid-container padding-leader-2">
+    <div class="column-24 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-hub-embed-card</h2>
+    </div>
+    <div class="container column-24">
+      <calcite-notice open kind="info" scale="s" width="full" icon>
+        <div slot="message">This is to embed QA items, make sure to choose QA in the harness header and sign in as paige_pa</div>
+      </calcite-notice>
+      <div>
+        <h2 class="item-header">Embed card</h2>
+        <div class="embedded-items-section">
+          <div>
+            <arcgis-hub-embed-card id="arcgis-hub-embed-card-harness" shareable shareableOnHover/>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    const embed = {
+      viewportAll: {
+        kind: "map",
+        id: "c795a6ab3e234b9a932f405cefd5e96d"
+      }
+    };
+
+    // set a property on the element
+    function setProp(key, value) {
+      const el = document.querySelector("#arcgis-hub-embed-card-harness");
+      el[key] = value;
+    }
+    setProp('embed', embed);
+  </script>
+</body>
+
+</html>

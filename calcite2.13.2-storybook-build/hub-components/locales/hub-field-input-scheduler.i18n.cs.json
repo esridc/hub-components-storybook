@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "Automatizováno Hubem",
+      "actionText": "Informace o možnosti Automaticky"
+    },
+    "daily": {
+      "defaultLabel": "Denně",
+      "defaultExpandedHelperText": "Každý den ve vybranou hodinu ve vybraném časovém pásmu.",
+      "actionText": "Informace o možnosti Denně"
+    },
+    "weekly": {
+      "defaultLabel": "Týdně",
+      "defaultExpandedHelperText": "Každý týden v následující den a hodinu ve vybraném časovém pásmu.",
+      "actionText": "Informace o možnosti Týdně"
+    },
+    "monthly": {
+      "defaultLabel": "Měsíčně",
+      "defaultExpandedHelperText": "Každý měsíc v následující den a hodinu ve vybraném časovém pásmu.",
+      "actionText": "informace o možnosti Měsíčně"
+    },
+    "yearly": {
+      "defaultLabel": "Ročně",
+      "defaultExpandedHelperText": "Každý rok v následující měsíc, den a hodinu ve vybraném časovém pásmu.",
+      "actionText": "Informace o možnosti Ročně"
+    },
+    "manual": {
+      "defaultLabel": "Ručně",
+      "defaultExpandedHelperText": "Tuto možnost použijte, chcete-li ručně aktualizovat index vyhledávání a stažené soubory pro tuto položku v mezipaměti.",
+      "actionText": "Informace o možnosti Ručně"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "Denní doba",
+      "inputMessage": "Čas se zaokrouhlí na nejbližší hodinu.",
+      "error": "Vyberte hodinu."
+    },
+    "day": {
+      "helperText": "Den v týdnu",
+      "daysOfTheWeek": {
+        "sunday": "Neděle",
+        "monday": "Pondělí",
+        "tuesday": "Úterý",
+        "wednesday": "Středa",
+        "thursday": "Čtvrtek",
+        "friday": "Pátek",
+        "saturday": "Sobota"
+      },
+      "selectLabel": "Výběr dne v týdnu",
+      "error": "Vyberte den v týdnu."
+    },
+    "date": {
+      "helperText": "Den v měsíci",
+      "inputNumberPlaceholder": "Vyberte den v měsíci",
+      "inputMessage": "Zadejte hodnotu dne v měsíci od 1 do 28.",
+      "error": "Den v měsíci musí být mezi 1 a 28."
+    },
+    "month": {
+      "helperText": "Měsíc v roce",
+      "selectLabel": "Výběr měsíce v roce",
+      "monthsOfTheYear": {
+        "january": "Leden",
+        "february": "Únor",
+        "march": "Březen",
+        "april": "Duben",
+        "may": "Květen",
+        "june": "Červen",
+        "july": "Červenec",
+        "august": "Srpen",
+        "september": "Září",
+        "october": "Říjen",
+        "november": "Listopad",
+        "december": "Prosinec"
+      },
+      "error": "Vyberte měsíc."
+    },
+    "timezone": {
+      "helperText": "Časové pásmo",
+      "error": "Vyberte časové pásmo."
+    }
+  },
+  "fieldHeader": "Frekvence"
+}

@@ -1,0 +1,72 @@
+{
+  "addContent": "Aggiungi contenuto",
+  "addContentType": {
+    "event": "Crea evento",
+    "discussion": "Crea discussione",
+    "group": "Crea gruppo",
+    "initiative": "Crea iniziativa",
+    "project": "Crea progetto",
+    "page": "Crea pagina",
+    "site:": "Crea sito"
+  },
+  "tooltip": {
+    "label": "Disabilitato",
+    "noCatalog": "Aggiungi gruppi al catalogo per aggiungere contenuto.",
+    "noPermission": "Non hai il permesso di aggiungere contenuto al catalogo.",
+    "no-permission": "Non hai il permesso di aggiungere contenuto al catalogo.",
+    "not-in-groups": "Non sei membro di gruppi che definiscono il catalogo.",
+    "too-many-groups": "Possiedi il numero massimo di gruppi e non ne puoi creare altri."
+  },
+  "existing": {
+    "description": "Aggiungi contenuto già presente in {onlineOrEnterprise}",
+    "modalTitle": "Seleziona contenuto esistente",
+    "title": "Seleziona contenuto esistente"
+  },
+  "create": {
+    "app": {
+      "description": "Crea un'esperienza, racconta una storia o visualizza i dati",
+      "modalTitle": "Crea un'applicazione",
+      "title": "App"
+    },
+    "event": {
+      "description": "Ospita attività organizzate in presenza o virtualmente",
+      "modalTitle": "Crea evento",
+      "title": "Evento"
+    },
+    "content": {
+      "description": "Aggiungere dati, documenti, immagini e link esterni al sito",
+      "modalTitle": "Crea contenuto",
+      "title": "Contenuto"
+    },
+    "discussion": {
+      "description": "Raccogli idee e feedback",
+      "modalTitle": "Crea pannello di discussione",
+      "title": "Pannello di discussione"
+    },
+    "group": {
+      "description": "Organizza le persone per la condivisione di contenuti e le discussioni",
+      "modalTitle": "Crea gruppo",
+      "title": "Gruppo"
+    },
+    "initiative": {
+      "description": "Evidenzia le iniziative strategiche con obiettivi definiti per organizzare i progetti",
+      "modalTitle": "Crea iniziativa",
+      "title": "Iniziativa"
+    },
+    "page": {
+      "description": "Presenta le informazioni in un layout strutturato",
+      "modalTitle": "Crea pagina",
+      "title": "Pagina"
+    },
+    "project": {
+      "description": "Mostra il lavoro con obiettivi e tempi chiari",
+      "modalTitle": "Crea progetto",
+      "title": "Progetto"
+    },
+    "site": {
+      "description": "Crea un sito Web brandizzato per interagire con la community",
+      "modalTitle": "Crea sito",
+      "title": "Sito"
+    }
+  }
+}

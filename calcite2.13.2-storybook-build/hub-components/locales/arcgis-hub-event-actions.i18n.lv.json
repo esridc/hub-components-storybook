@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "Reģistrēties",
+    "registered": "Reģistrēts",
+    "join": "Pievienojieties tiešsaistē",
+    "in-person": "Klātiene",
+    "online": "Tiešsaiste",
+    "inPersonFull": "Klātiene (pilna laika)",
+    "onlineFull": "Tiešsaiste (pilna laika)",
+    "close": "Aizvērt"
+  },
+  "tooltip": {
+    "isCanceled": "Pasākums ir atcelts",
+    "eventHasEnded": "Notikums beidzies",
+    "eventFull": "Visas vietas pasākumā ir aizpildītas",
+    "inPerson": "Reģistrēts klātienes pasākumam",
+    "online": "Reģistrēts tiešsaistes pasākumam",
+    "unavailable": "Pieejams stundu pirms pasākuma sākuma laika"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "Jūs esat veiksmīgi atcēlis reģistrāciju tiešsaistes pasākumam.",
+    "onlineRegistrationConfirmed": "Jūs esat veiksmīgi reģistrējies tiešsaistes pasākumam.",
+    "onlineRegistrationError": "Reģistrējoties tiešsaistes pasākumam, radās neparedzēta kļūda.",
+    "onlineRegistrationCanceledError": "Atceļot reģistrāciju tiešsaistes pasākumam, radās neparedzēta kļūda.",
+    "onlineRegistrationAtCapacity": "Jūs mēģināt reģistrēties tiešsaistes pasākumam, kurā visas vietas ir aizņemtas.",
+    "inPersonRegistrationCanceled": "Jūs esat veiksmīgi atcēlis reģistrāciju klātienes pasākumam.",
+    "inPersonRegistrationCanceledError": "Atceļot reģistrāciju klātienes pasākumam, radās neparedzēta kļūda.",
+    "inPersonRegistrationConfirmed": "Jūs esat veiksmīgi reģistrējies klātienes pasākumam.",
+    "inPersonRegistrationError": "Reģistrējoties klātienes pasākumam, radās neparedzēta kļūda.",
+    "inPersonRegistrationAtCapacity": "Jūs mēģināt reģistrēties klātienes pasākumam, kurā visas vietas ir aizņemtas."
+  }
+}

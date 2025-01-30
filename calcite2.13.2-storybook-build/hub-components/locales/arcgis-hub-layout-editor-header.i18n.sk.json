@@ -1,0 +1,39 @@
+{
+  "popover": {
+    "access": {
+      "org": "Zdieľané s organizáciou",
+      "private": "Zdieľané s vlastníkom",
+      "public": "Zdieľané s verejnosťou",
+      "shared": "Zdieľané s vlastníkom a skupinami"
+    },
+    "editLayout": "Upraviť rozloženie",
+    "lastUpdated": "Naposledy aktualizované {updated}",
+    "viewSite": "Zobraziť lokalitu"
+  },
+  "cloneLayoutLabel": "Rozloženie klonu",
+  "deleteDraftLabel": "Vymazať koncept",
+  "deletePageLabel": "Odstrániť stránku",
+  "deleteSiteLabel": "Odstrániť lokalitu",
+  "editInAgoLabel": "Upraviť v ArcGIS Online",
+  "managePage": "Spravovať stránku",
+  "manageSite": "Spravovať lokalitu",
+  "manageTemplate": "Spravovať šablónu",
+  "moreOptionsLabel": "Viac možností",
+  "publishLabel": {
+    "site": "Uverejniť rozloženie",
+    "page": "Uverejniť rozloženie",
+    "survey": "Uverejniť"
+  },
+  "saveAsTemplateLabel": "Uložiť ako šablónu",
+  "saveLabel": {
+    "site": "Uložiť rozloženie",
+    "page": "Uložiť rozloženie",
+    "survey": "Uložiť",
+    "template": "Uložiť"
+  },
+  "sharingLabel": "Otvoriť panel zdieľania",
+  "editS123Label": "Upraviť v Survey123",
+  "viewLabel": "Zobraziť",
+  "viewPublishedLabel": "Zobraziť publikované",
+  "viewUnpublishedLabel": "Zobraziť návrh"
+}

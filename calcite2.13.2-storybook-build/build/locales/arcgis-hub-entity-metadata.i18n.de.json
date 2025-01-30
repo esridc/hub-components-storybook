@@ -1,0 +1,239 @@
+{
+  "owner": {
+    "description": "Besitzer"
+  },
+  "updatedDate": {
+    "description": "Aktualisierungsdatum",
+    "descriptionWithFrequency": "Aktualisierungsdatum: {updatedDateFormatted}"
+  },
+  "createdDate": {
+    "description": "Erstellungsdatum"
+  },
+  "joinedDate": {
+    "description": "Beitrittsdatum"
+  },
+  "access": {
+    "label": {
+      "public": "Öffentlich",
+      "org": "Organisation",
+      "private": "Besitzer",
+      "shared": "Privat freigegeben"
+    },
+    "description": {
+      "public": {
+        "site": "Site ist für alle Benutzer sichtbar",
+        "project": "Projekt ist für alle Benutzer sichtbar",
+        "initiative": "Initiative ist für alle Benutzer sichtbar",
+        "discussion": "Diskussion ist für alle Benutzer sichtbar",
+        "default": "Inhalt ist für alle Benutzer sichtbar",
+        "event": "Das Event ist für alle Benutzer sichtbar."
+      },
+      "org": {
+        "site": "Site ist für alle Mitglieder Ihrer Organisation sichtbar",
+        "project": "Projekt ist für alle Mitglieder Ihrer Organisation sichtbar",
+        "initiative": "Initiative ist für alle Mitglieder Ihrer Organisation sichtbar",
+        "discussion": "Diskussion ist für alle Mitglieder Ihrer Organisation sichtbar",
+        "default": "Inhalt ist für alle Mitglieder Ihrer Organisation sichtbar",
+        "event": "Das Event ist für alle Mitglieder Ihrer Organisation sichtbar."
+      },
+      "private": {
+        "site": "Site ist nur für Sie sichtbar",
+        "project": "Projekt ist nur für Sie sichtbar",
+        "initiative": "Initiative ist nur für Sie sichtbar",
+        "discussion": "Diskussion ist nur für Sie sichtbar",
+        "default": "Inhalt ist nur für Sie sichtbar",
+        "event": "Das Event ist nur für Sie sichtbar."
+      },
+      "shared": {
+        "site": "Site ist für ausgewählte Gruppen sichtbar",
+        "project": "Projekt ist für ausgewählte Gruppen sichtbar",
+        "initiative": "Initiative ist für ausgewählte Gruppen sichtbar",
+        "discussion": "Diskussion ist für ausgewählte Gruppen sichtbar",
+        "default": "Inhalt ist für ausgewählte Gruppen sichtbar",
+        "event": "Das Event ist für ausgewählte Gruppen sichtbar."
+      }
+    }
+  },
+  "type": {
+    "fallback": {
+      "content": "Inhalt",
+      "discussion": "Diskussion",
+      "event": "Event",
+      "group": "Gruppe",
+      "initiative": "Initiative",
+      "org": "Organisation",
+      "page": "Seite",
+      "project": "Projekt",
+      "site": "Site",
+      "survey": "Survey",
+      "initiativeTemplate": "Vorlage",
+      "user": "Benutzer"
+    },
+    "appbuilderExtension": "GIS-Werkzeug",
+    "appbuilderWidgetPackage": "GIS-Werkzeug",
+    "application": "Registrierte App",
+    "arcgisProMap": "GIS-Werkzeug",
+    "cadDrawing": "GIS-Werkzeug",
+    "cityEngineWebScene": "3D-Anwendung",
+    "codeAttachment": "GIS-Werkzeug",
+    "colorSet": "GIS-Werkzeug",
+    "content": "Inhalt",
+    "contentCategorySet": "GIS",
+    "csv": "Dataset",
+    "csvCollection": "Datendatei",
+    "dashboard": "Dashboard",
+    "desktopApplication": "GIS-Werkzeug",
+    "document": "Dokument",
+    "documentLink": "Weblink",
+    "excaliburImageryProject": "GIS-Werkzeug",
+    "explorerMap": "GIS-Werkzeug",
+    "exportPackage": "GIS-Werkzeug",
+    "featureCollection": "Dataset",
+    "featureCollectionTemplate": "GIS-Werkzeug",
+    "featureLayer": "Dataset",
+    "featureService": "Karte",
+    "fileGeodatabase": "Datendatei",
+    "form": "Einmessung",
+    "geocodingService": "Entwickler-API",
+    "geodataService": "Entwickler-API",
+    "geojson": "Inhalt",
+    "geometryService": "Entwickler-API",
+    "geopackage": "Datendatei",
+    "geoprocessingService": "Entwickler-API",
+    "globeLayer": "Datendatei",
+    "globeService": "Entwickler-API",
+    "hubInitiative": "Initiative",
+    "hubInitiativeTemplate": "Vorlage",
+    "hubPage": "Seite",
+    "hubProject": "Projekt",
+    "hubSiteApplication": "Site",
+    "image": "Bild",
+    "imageService": "Bilddaten-Dataset",
+    "insightsModel": "GIS-Werkzeug",
+    "insightsPage": "Analyse",
+    "insightsTheme": "GIS-Werkzeug",
+    "insightsWorkbook": "Analyse-Arbeitsmappe",
+    "iWorkKeynote": "Präsentation",
+    "iWorkNumbers": "Tabelle",
+    "iWorkPages": "Dokument",
+    "kml": "Dataset",
+    "kmlCollection": "Datendatei",
+    "layer": "Datendatei",
+    "layerPackage": "Datendatei",
+    "locatorPackage": "GIS-Werkzeug",
+    "mapArea": "GIS-Werkzeug",
+    "mapDocument": "GIS-Werkzeug",
+    "mapImageLayer": "Karte",
+    "mapPackage": "Datendatei",
+    "mapService": "Karte",
+    "microsoftExcel": "Tabelle",
+    "microsoftPowerpoint": "Präsentation",
+    "microsoftVizio": "Microsoft Visio",
+    "microsoftWord": "Dokument",
+    "mission": "GIS-Werkzeug",
+    "mobileApplication": "Anwendung",
+    "mobileMapPackage": "Datendatei",
+    "native application template": "Entwicklerwerkzeug",
+    "nativeApplication": "Anwendung",
+    "nativeApplicationInstaller": "Entwicklerwerkzeug",
+    "networkAnalysisService": "Entwickler-API",
+    "notebook": "Analyse",
+    "orientedImageryCatalog": "Bilddaten-Dataset",
+    "orthoMappingProject": "GIS-Werkzeug",
+    "orthoMappingTemplate": "GIS-Werkzeug",
+    "pdf": "Dokument",
+    "quickcaptureProject": "Mobiler Survey",
+    "rasterLayer": "Karte",
+    "realTimeAnalytic": "Entwickler-API",
+    "relationalDatabaseConnection": "Entwickler-API",
+    "reportTemplate": "GIS-Werkzeug",
+    "sceneLayer": "3D-Dataset",
+    "sceneService": "3D-Dataset",
+    "serviceDefinition": "Datendatei",
+    "shapefile": "Dataset",
+    "solution": "Lösung",
+    "sqliteGeodatabase": "Datendatei",
+    "statisticalDataCollection": "Datendatei",
+    "storymap": "StoryMap",
+    "symbolSet": "Datendatei",
+    "table": "Dataset",
+    "team": "Team",
+    "urbanModel": "Urban-Modell",
+    "vectorTileService": "Karte",
+    "visioDocument": "Dokument",
+    "webExperience": "Anwendung",
+    "webMap": "Karte",
+    "webMappingApplication": "Anwendung",
+    "webScene": "3D-Karte",
+    "wfs": "Karte",
+    "wms": "Karte",
+    "wmts": "Karte",
+    "workflowManagerService": "Entwickler-API",
+    "workforceProject": "Taskflow-Manager"
+  },
+  "location": {
+    "description": "Position"
+  },
+  "members": {
+    "noMember": "Keine Mitglieder",
+    "oneMember": "Mitglieder: 1",
+    "members": "Mitglieder: {count}",
+    "description": {
+      "value": "Alle Gruppenmitglieder anzeigen"
+    }
+  },
+  "tooltip": {
+    "label": "QuickInfo zu Element-Metadaten"
+  },
+  "relevantArea": {
+    "title": "Relevantes Gebiet"
+  },
+  "license": {
+    "tooltip": "Definiert, wie dieser Inhalt verwendet werden kann",
+    "set": {
+      "title": "{license}-Lizenz",
+      "customTitle": "Benutzerdefinierte Lizenz",
+      "description": {
+        "value": "Lizenzdetails anzeigen"
+      }
+    },
+    "unset": {
+      "title": "Keine Lizenz angegeben",
+      "description": {
+        "value": "Berechtigung zur Verwendung anfordern"
+      }
+    }
+  },
+  "size": {
+    "description": {
+      "value": "Dateigröße von Dokumenten"
+    }
+  },
+  "recordCount": {
+    "title": "Datensätze: {count}",
+    "description": {
+      "value": "Datentabelle anzeigen"
+    }
+  },
+  "metadataModified": {
+    "description": {
+      "defaultValue": "Informationen aktualisiert",
+      "dynamicValue": "Informationen aktualisiert: {lastUpdated}"
+    }
+  },
+  "updateFrequency": {
+    "continual": "Kontinuierlich",
+    "daily": "Täglich",
+    "weekly": "Wöchentlich",
+    "fortnightly": "Zweiwöchentlich",
+    "monthly": "Monatlich",
+    "quarterly": "Vierteljährlich",
+    "biannually": "Halbjährlich",
+    "annually": "Jährlich",
+    "as-needed": "Nach Bedarf",
+    "irregular": "Unregelmäßig",
+    "not-planned": "Nicht geplant",
+    "unknown": "Unbekannt",
+    "semimonthly": "Halbmonatlich"
+  }
+}

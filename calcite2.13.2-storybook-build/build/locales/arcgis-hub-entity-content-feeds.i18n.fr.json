@@ -1,0 +1,81 @@
+{
+  "tabTitle": "Configuration des flux",
+  "learn": "En savoir plus sur les flux Hub",
+  "loadingLabel": "Chargement",
+  "enableFeedsToggle": {
+    "label": "Activer les flux",
+    "privateNotice": "Pour activer les flux, vous devez d’abord paramétrer votre site Hub sur \"Public\".",
+    "emptyPublicCatalog": {
+      "message": "Pour activer les flux, vous devez d’abord ajouter du contenu public à votre catalogue.",
+      "button": "Afficher le catalogue"
+    },
+    "grouplessCatalog": {
+      "message": "Pour activer les flux, vous devez d’abord configurer votre catalogue.",
+      "button": "Configurer le catalogue"
+    }
+  },
+  "gettingStartedNotice": {
+    "title": "Prise en main",
+    "exampleMessage": "Surlignez et mettez à jour une clé ou une valeur dans l’éditeur JSON en utilisant un littéral (\"VALUE\") ou une valeur de modèle (\"{{TEMPLATE_VALUE}}\").",
+    "previewMessage": "Utilisez le bouton d’activation/de désactivation de l’aperçu pour prévisualiser vos modifications. Pour plus d’informations, lisez la <catalogFederationLink>documentation d’aide relative à la fédération de catalogues</catalogFederationLink>."
+  },
+  "aboutFeedsNotice": {
+    "message": "Rendez vos données Open Data publiques facilement accessibles et réutilisables grâce aux flux Hub.",
+    "link": "En savoir plus sur les flux Hub"
+  },
+  "feedsEditorSection": {
+    "title": "Flux",
+    "formatSelectLabel": "Sélectionner un type de flux",
+    "uneditableAttributesIntro": "Notez que les attributs suivants ne peuvent pas être modifiés :",
+    "edit": "Modifier",
+    "preview": "Aperçu",
+    "selectContentNotice": "Sélectionnez le contenu à prévisualiser.",
+    "invalidJsonEditorWarning": "JSON non valide. Corrigez les erreurs avant d’enregistrer.",
+    "invalidJsonPreviewWarning": "Impossible de prévisualiser un JSON non valide. Corrigez les erreurs.",
+    "errorPreviewingWarning": "Une erreur s’est produite. Vérifiez votre connexion et réessayez. Si le problème persiste, signalez un bogue auprès du support technique ArcGIS Hub."
+  },
+  "toolsSection": {
+    "title": "Outils",
+    "verification": "Vérification",
+    "previewSampleData": {
+      "label": "Prévisualiser les données d’exemple",
+      "pickerFacets": {
+        "type": "Type",
+        "tags": "Balise",
+        "categories": "Catégorie",
+        "sharing": "Partage",
+        "dateUpdated": "Date de mise à jour"
+      }
+    },
+    "copyableInputLabel": "URL d’accès au flux"
+  },
+  "dcat-us": {
+    "1.1": {
+      "title": "DCAT-US 1.1",
+      "description": "Le DCAT permet aux organisations de normaliser la contribution aux données et aide les utilisateurs à analyser les sources gouvernementales. Vous pouvez utiliser la <dcatUsSchemaLink>structure DCAT</dcatUsSchemaLink> établie par Project Open Data, qui est la configuration par défaut, ou configurer vous-même certains champs/attributs. Les administrateurs de site ont également la possibilité d’ajouter d’autres configurations DCAT et peuvent lire notre documentation sur la <catalogFederationLink>fédération de données avec DCAT et d’autres catalogues externes.</catalogFederationLink>",
+      "uneditableAttributes": "@type, landingPage, webService et contactPoint['@type'].",
+      "verificationLabel": "Vous pouvez vérifier votre flux DCAT en collant l’URL DCAT de votre site dans le <dcatUsVerificationLink>validateur de Project Open Data</dcatUsVerificationLink>."
+    }
+  },
+  "dcat-ap": {
+    "2.1.1": {
+      "title": "DCAT-AP 2.1.1",
+      "description": "Établi par la Commission européenne, le DCAT-AP est le format standard d’échange de métadonnées pour les catalogues de données européens. ArcGIS Hub crée et met à jour automatiquement le flux DCAT-AP de votre site lorsque vous modifiez les détails des métadonnées de votre contenu ou ajoutez un nouveau contenu public à votre catalogue. Comme le flux utilise des métadonnées gérées dans ArcGIS Online, il n’est pas nécessaire de créer manuellement des métadonnées DCAT-AP distinctes.<lineBreak></lineBreak><lineBreak></lineBreak>Cet éditeur vous permet de conserver la configuration par défaut d’ArcGIS Hub relative à la <dcatApSchemaLink>structure DCAT-AP</dcatApSchemaLink> ou de configurer vous-même certains champs/attributs. Vous pouvez également ajouter des champs/attributs DCAT-AP. Pour plus de détails, consultez la documentation d’ArcGIS Hub concernant la <catalogFederationLink>fédération de données avec DCAT et d’autres catalogues externes</catalogFederationLink>.",
+      "uneditableAttributes": "@type, @id, dcat:contactPoint['@id'], dcat:contactPoint['@type'], dct:publisher, dcat:theme, dct:accessRights, dcat:keyword, dct:provenance, dct:issued et dct:language",
+      "verificationLabel": "Vous pouvez vérifier votre flux DCAT en collant l’URL DCAT de votre site dans le <dcatApVerificationLink>banc d’essai en matière d’interopérabilité proposé par la Commission européenne</dcatApVerificationLink>."
+    }
+  },
+  "rss": {
+    "2.0": {
+      "title": "RSS 2.0",
+      "description": "<rssAboutLink>RSS 2</rssAboutLink> est un format de syndication de contenu Web conforme à la <xmlSpecLink>spécification XML 1.0</xmlSpecLink>. Avec cet éditeur, vous pouvez conserver la configuration par défaut d’ArcGIS Hub ou configurer vous-même certains champs/attributs. Pour plus de détails, consultez la documentation d’ArcGIS Hub concernant la <catalogFederationLink>fédération de données avec DCAT et d’autres catalogues externes.</catalogFederationLink>",
+      "verificationLabel": "Vous pouvez vérifier votre flux RSS en entrant l’URL du flux RSS de votre site dans le <rssVerificationLink>validateur de flux</rssVerificationLink> W3."
+    }
+  },
+  "saveButton": "Enregistrer",
+  "alertMessages": {
+    "success": "Les modifications ont été enregistrées",
+    "error": "Erreur lors de l’enregistrement des modifications"
+  },
+  "formAlert": "Alerte de formulaire"
+}

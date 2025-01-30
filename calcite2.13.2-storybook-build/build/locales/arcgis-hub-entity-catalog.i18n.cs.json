@@ -1,0 +1,65 @@
+{
+  "catalog": "Katalog",
+  "catalog-content": "Obsah",
+  "catalog-events": "Události",
+  "shared": {
+    "publish": {
+      "label": "Uložit",
+      "success": {
+        "title": "Úpravy katalogu byly úspěšně publikovány do živého zobrazení"
+      },
+      "error": {
+        "title": "Chyba při ukládání úprav"
+      }
+    }
+  },
+  "emptyState": {
+    "message": "Žádný definovaný katalog",
+    "action": "Sestavit katalog"
+  },
+  "actionBar": {
+    "details": "Konfigurace katalogu",
+    "appearance": "Vzhled katalogu",
+    "tooltip": {
+      "appearanceDisabled": "Aktuálně není nakonfigurovaný žádný katalog. Chcete-li upravit nastavení vzhledu, nakonfigurujte katalog.",
+      "configuration": "Konfigurace",
+      "appearance": "Vzhled"
+    }
+  },
+  "detailsPanel": {
+    "heading": "Konfigurace katalogu",
+    "close": "Zavřít konfiguraci katalogu",
+    "catalogBuilder": {
+      "helperText": "Váš katalog umožňuje návštěvníkům hledat a prohlížet obsah. Zobrazené výsledky jsou založeny na konfiguraci dotazu."
+    },
+    "querySizeNotice": {
+      "warning": {
+        "title": "Blížíte se limitu katalogu",
+        "catalogSourceMessage": {
+          "item": "Vaše konfigurace zdroje položek se blíží limitu velikosti.",
+          "event": "Vaše konfigurace zdroje událostí se blíží limitu velikosti."
+        },
+        "collectionSourceMessage": {
+          "item": "Kombinace vaší konfigurace zdroje položek a sbírky \"{collectionName}\" se blíží limitu velikosti.",
+          "event": "Kombinace vaší konfigurace zdroje událostí a sbírky \"{collectionName}\" se blíží limitu velikosti."
+        }
+      },
+      "danger": {
+        "title": "Překročen limit katalogu",
+        "catalogSourceMessage": {
+          "item": "Vaše konfigurace zdroje položek překročila limit velikosti. Snižte počet filtrů a/nebo možností filtru ve zdroji položek, abyste mohli publikovat.",
+          "event": "Vaše konfigurace zdroje událostí překročila limit velikosti. Snižte počet filtrů a/nebo možností filtru ve zdroji událostí, abyste mohli publikovat."
+        },
+        "collectionSourceMessage": {
+          "item": "Kombinace vaší konfigurace zdroje položek a sbírky \"{collectionName}\" překročila limit velikosti. Snižte počet filtrů a/nebo možností filtru ve zdroji položek a/nebo sbírce \"{collectionName}\", abyste mohli publikovat.",
+          "event": "Kombinace vaší konfigurace zdroje událostí a sbírky \"{collectionName}\" překročila limit velikosti. Snižte počet filtrů a/nebo možností filtru ve zdroji událostí a/nebo sbírce \"{collectionName}\", abyste mohli publikovat."
+        }
+      }
+    }
+  },
+  "appearancePanel": {
+    "heading": "Vzhled katalogu",
+    "close": "Zavřít vzhled katalogu",
+    "description": "Váš katalog umožňuje návštěvníkům hledat a prohlížet obsah. Zde můžete aktualizovat, jak má výchozí katalog vypadat a jaké filtry chcete zobrazit."
+  }
+}

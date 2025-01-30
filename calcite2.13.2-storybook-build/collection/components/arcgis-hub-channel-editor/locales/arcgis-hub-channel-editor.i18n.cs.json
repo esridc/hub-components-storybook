@@ -1,0 +1,96 @@
+{
+  "unnamedChannel": "Kanál bez názvu",
+  "name": {
+    "label": "Název",
+    "placeholder": "Kanál {prefix}"
+  },
+  "save": "Uložit",
+  "basicInfo": {
+    "label": "Základní informace"
+  },
+  "access": {
+    "private": {
+      "label": "Soukromé",
+      "description": "Zúčastnit se mohou vybrané skupiny. Správcům skupin a vlastníkům je automaticky přiřazena role moderátorů."
+    },
+    "organization": {
+      "label": "Moje organizace",
+      "description": "Zúčastnit se mohou všichni členové s účtem {orgName}. Administrátorům organizací a vlastníkovi kanálu je automaticky přiřazena role moderátorů. Vlastníci kanálů mohou navíc přidat skupiny, jejichž jsou členy, kliknutím na „Přidat skupinu účastníků“ níže.",
+      "disabledTooltip": "Kanály organizace mohou vytvářet pouze administrátoři organizace."
+    },
+    "public": {
+      "label": "Veřejné",
+      "description": "Zúčastnit se mohou všichni přihlášení členové. Administrátorům organizací a vlastníkovi kanálu je automaticky přiřazena role moderátorů. Vlastníci kanálů mohou navíc přidat skupiny, jejichž jsou členy, kliknutím na „Přidat skupinu účastníků“ níže.",
+      "disabledTooltip": "Veřejné kanály mohou vytvářet pouze administrátoři organizace."
+    },
+    "allowAsAnonymous": {
+      "label": "Povolit anonymitu (pouze přihlášení účastníci)",
+      "description": "Avatar, jméno a uživatelské jméno osob s anonymními účty nebudou k dispozici."
+    },
+    "confirmation": {
+      "header": "Jste si jisti?",
+      "message": "Uložením těchto změn zrušíte svůj přístup k úpravám tohoto kanálu. Veřejné kanály nebo kanály organizace mohou upravovat pouze správci organizace.",
+      "secondary": "Storno",
+      "primary": "Potvrdit"
+    }
+  },
+  "participants": {
+    "label": "Účastníci",
+    "helperText": "Lidé, kteří mohou psát příspěvky, odpovídat a reagovat na diskuzi.",
+    "none": "Účastníci nebyli nastaveni",
+    "add": "Přidat skupinu účastníků"
+  },
+  "groupPicker": {
+    "title": "Vybrat skupiny",
+    "facet": {
+      "label": "Z",
+      "myGroups": "Moje skupiny",
+      "myOrganization": "Moje organizace",
+      "myCommunity": "Moje komunita"
+    }
+  },
+  "blockWords": {
+    "label": "Blokovaná slova",
+    "helperText": "Seznam oddělený čárkami. Příspěvky a odpovědi, které je obsahují, budou automaticky skryty."
+  },
+  "manage": {
+    "label": "Moderátoři",
+    "helperText": "Automatické přiřazení role moderátora je založeno na výběru účastníků. Pro všechny další skupiny přidané do kanálu jsou jejich vlastníkům a správcům přiděleny role moderátorů. Moderátoři mohou skrývat a zobrazovat příspěvky, přidávat blokovaná slova a upravovat nastavení kanálu."
+  },
+  "manager": "Správce",
+  "admin": "Administrátor",
+  "viewProfile": "Zobrazit profil",
+  "alerts": {
+    "error": "Chyba při ukládání kanálu",
+    "success": "Kanál byl úspěšně uložen",
+    "label": "Chyba formuláře"
+  },
+  "validations": {
+    "minChannelGroups": "Soukromé kanály vyžadují alespoň jednu skupinu účastníků.",
+    "channelNameRequired": "Je vyžadován název kanálu",
+    "allowAsAnonymous": "Anonymní odesílání příspěvků je podporováno pouze ve veřejných kanálech.",
+    "blockWords": "Zadejte maximálně 20 blokovaných slov/frází (položky oddělené čárkou, žádné duplicity nebo prázdné položky)."
+  },
+  "notices": {
+    "edit": "Úpravy se projeví všude, kde se tento kanál používá.",
+    "duplicate": {
+      "create": {
+        "error": {
+          "title": "Kanál nebyl vytvořen",
+          "message": "Kanál s těmito volbami přístupu již existuje. Použijte stávající kanál nebo upravte výběr."
+        }
+      },
+      "update": {
+        "error": {
+          "title": "Kanál nebyl aktualizován",
+          "message": "Kanál s těmito volbami přístupu již existuje, takže tyto aktualizace nemůžeme uložit."
+        }
+      },
+      "action": "Použít stávající kanál"
+    },
+    "inaccessibleGroups": {
+      "title": "Nedostupné skupiny: {count}",
+      "message": "Pokud nejste členem, nemůžete zobrazit ani spravovat nedostupné skupiny."
+    }
+  }
+}

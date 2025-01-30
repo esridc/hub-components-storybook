@@ -1,0 +1,110 @@
+{
+  "controls": {
+    "addContent": "Lägg till innehåll",
+    "back": "Tillbaka",
+    "cancel": "Avbryt",
+    "close": "Klart",
+    "create": "Skapa och lägg till i grupp",
+    "next": "Nästa"
+  },
+  "createHelpState": {
+    "discussion": {
+      "heading": "Diskussion",
+      "message": "Skapa en ny diskussionstavla genom att ange en titel som visar på ämnet."
+    },
+    "event": {
+      "heading": "Evenemang",
+      "message": "Var värd för en organiserad aktivitet, personligen eller virtuellt."
+    },
+    "group": {
+      "heading": "Grupp",
+      "message": "Sätt ihop en grupp för att samarbeta om fokuserat innehåll."
+    },
+    "initiative": {
+      "heading": "Initiativ",
+      "message": "Initiativ organiserar och summerar förlopp mot ett mål."
+    },
+    "page": {
+      "heading": "Sida",
+      "message": "En sida är en plats för att dela information och engagera din publik."
+    },
+    "project": {
+      "heading": "Projekt",
+      "message": "Lyft fram arbete som har tydliga mål och tidsramar."
+    },
+    "site": {
+      "heading": "Webbplats",
+      "message": "Skapa en webbsida för att organisera och dela information."
+    }
+  },
+  "selection": {
+    "unlimited": "Valt: {count}",
+    "limited": "Valt: {count} / {limit}"
+  },
+  "steps": {
+    "createContent": "Lägg till grundläggande information",
+    "selectContent": "Välj innehåll",
+    "selectGroups": "Välj grupp",
+    "confirmation": "Bekräftelse",
+    "notImplemented": "Inte implementerad"
+  },
+  "working": {
+    "heading": "Lägger till valt innehåll.",
+    "loadingLabel": "Lägger till innehåll."
+  },
+  "failure": {
+    "heading": "Innehåll har inte lagts till",
+    "message": "Det uppstod ett fel när det valda innehållet lades till, försök igen.",
+    "action": "Försök igen"
+  },
+  "notImplemented": {
+    "heading": "Det här arbetsflödet har ännu inte implementerats."
+  },
+  "contentGallery": {
+    "facets": {
+      "access": {
+        "label": "Från"
+      },
+      "type": {
+        "label": "Typer"
+      },
+      "tags": {
+        "label": "Taggar"
+      },
+      "categories": {
+        "label": "Kategorier"
+      },
+      "modified": {
+        "label": "Ändrad"
+      }
+    }
+  },
+  "groupsGallery": {
+    "facets": {
+      "access": {
+        "label": "Kan visas av",
+        "options": {
+          "org": "Organisation",
+          "public": "Alla (offentlig)",
+          "private": "Mig"
+        }
+      },
+      "from": {
+        "label": "Från",
+        "options": {
+          "myCommunity": "Min community",
+          "myGroups": "Mina grupper",
+          "myOrganization": "Min organisation",
+          "world": "Världen"
+        }
+      },
+      "type": {
+        "label": "Typer",
+        "options": {
+          "sharedUpdate": "Delad uppdatering",
+          "opendata": "Open Data"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "content": "Sadržaj",
+  "myContent": "Moj sadržaj",
+  "editableContent": "Sadržaj koji se može uređivati",
+  "addContentButtonText": "Kreiraj novo",
+  "type": "Tip",
+  "sharedUpdate": "Grupa za deljeno ažuriranje",
+  "viewOnly": "Grupa samo za pregled",
+  "owner": "Vlasnik",
+  "updated": "Ažuriran",
+  "tags": "Oznake",
+  "dateCreated": "Kreirano",
+  "dateUpdated": "Izmenjeno",
+  "actionLinks": {
+    "view": "Prikaži",
+    "edit": "Izmeni",
+    "ariaEdit": "Uredite {title}",
+    "ariaView": "Pregledajte {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Sadržaj",
+      "myContent": "Sadržaj čiji sam vlasnik",
+      "editableContent": "Sadržaj koji mogu da uredim",
+      "all": "Sav sadržaj"
+    },
+    "access": {
+      "label": "Od"
+    },
+    "type": {
+      "label": "Tipovi"
+    },
+    "tags": {
+      "label": "Oznake"
+    },
+    "categories": {
+      "label": "Kategorije"
+    },
+    "modified": {
+      "label": "Izmenjeno"
+    }
+  }
+}

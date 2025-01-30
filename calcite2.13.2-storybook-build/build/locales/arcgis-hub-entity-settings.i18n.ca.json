@@ -1,0 +1,53 @@
+{
+  "settings": "Configuració",
+  "formDisabledTooltip": "No teniu accés per fer canvis en aquest element ({type}).",
+  "delete": {
+    "project": "Suprimeix aquest projecte",
+    "initiative": "Suprimeix aquesta iniciativa",
+    "site": "Suprimeix aquest lloc",
+    "discussion": "Suprimeix aquest debat",
+    "content": "Suprimeix aquest contingut",
+    "page": "Suprimeix aquesta pàgina",
+    "group": "Suprimeix aquest grup",
+    "initiativeTemplate": "Suprimeix aquesta plantilla d'iniciativa",
+    "template": "Suprimeix aquesta plantilla",
+    "survey": "Suprimeix aquesta enquesta",
+    "desc": {
+      "project": "La supressió d'aquest projecte no es pot desfer.",
+      "initiative": "La supressió d'aquesta iniciativa no es pot desfer.",
+      "site": "La supressió d'aquest lloc no es pot desfer.",
+      "discussion": "La supressió d'aquest debat no es pot desfer.",
+      "content": "La supressió d'aquest contingut no es pot desfer.",
+      "page": "La supressió d'aquesta pàgina no es pot desfer.",
+      "group": "La supressió d'aquest grup no es pot desfer.",
+      "initiativeTemplate": "La supressió d'aquesta plantilla d'iniciativa no es pot desfer.",
+      "template": "La supressió d'aquesta plantilla no es pot desfer.",
+      "survey": "La supressió d'aquesta enquesta no es pot desfer."
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "project": "Suprimeix el projecte",
+      "initiative": "Suprimeix la iniciativa",
+      "site": "Suprimeix el lloc",
+      "discussion": "Suprimeix el debat",
+      "content": "Suprimeix el contingut",
+      "page": "Suprimeix la pàgina",
+      "group": "Suprimeix el grup",
+      "initiativeTemplate": "Suprimeix la plantilla d'iniciativa",
+      "template": "Suprimeix la plantilla",
+      "survey": "Suprimeix l'enquesta"
+    },
+    "content": "Segur que voleu suprimir:",
+    "delete": "Suprimeix",
+    "cancel": "Cancel·la"
+  },
+  "sidePanel": {
+    "content": {
+      "extractNotice": {
+        "title": "La capacitat d'\"extracció\" canvia la configuració del servei.",
+        "message": "També es veuran afectats els altres elements que facin referència al servei. Per obtenir més informació, consulteu la secció sobre com <docLink>exportar dades de capes d'entitats allotjades</docLink>"
+      }
+    }
+  }
+}

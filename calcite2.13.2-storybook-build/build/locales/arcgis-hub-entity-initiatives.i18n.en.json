@@ -1,0 +1,87 @@
+{
+  "initiatives": "Initiatives",
+  "description": "Associate with initiatives to contribute to long-term or large-scale efforts. Project collaborators can manage confirmed associations and outstanding association requests. Initiatives with confirmed associations will appear on this project's view. ",
+  "shared": {
+    "error": {
+      "title": "Something went wrong",
+      "message": "We were unable to complete the task. Please try again."
+    },
+    "facets": {
+      "access": {
+        "label": "Sharing"
+      },
+      "status": {
+        "label": "Status",
+        "notStarted": "Not started",
+        "inProgress": "In progress",
+        "onHold": "On hold",
+        "complete": "Complete"
+      },
+      "tags": {
+        "label": "Tags"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "{currentConfirmedAndOutgoingRequests} / {maxCurrentAndOutgoingRequestsAllowed} confirmed + outgoing requests",
+      "tooltip": "To send requests, disconnect existing associations and/or outgoing requests"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "Find initiatives",
+    "sendRequest": "Send request",
+    "success": {
+      "title": "Success",
+      "message": "Association requests sent: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "Check associations",
+      "message": "Some selection(s) have already requested association. New association requests sent: {count}"
+    },
+    "catalog": {
+      "myContent": "My content",
+      "favorites": "Favorites",
+      "organization": "My organization",
+      "partners": "My partners",
+      "community": "My community"
+    },
+    "collection": {
+      "initiatives": "Initiatives"
+    }
+  },
+  "acceptAssociation": {
+    "label": "Accept",
+    "limitReachedTooltip": "To accept, disconnect existing associations and/or outgoing requests",
+    "success": {
+      "title": "Success",
+      "message": "Association accepted with {requestor}"
+    }
+  },
+  "cancelRequest": {
+    "label": "Cancel request",
+    "success": {
+      "title": "Success",
+      "message": "Association request canceled"
+    }
+  },
+  "breakAssociation": {
+    "label": "Disconnect",
+    "success": {
+      "title": "Association broken",
+      "message": "We've disconnected this item from its previous association. However, we cannot reverse the decision from the other side, so you may still see it in incoming requests."
+    }
+  },
+  "associationsGallery": {
+    "sources": "State",
+    "catalog": {
+      "associated": "Associated",
+      "requesting": "Incoming requests",
+      "pending": "Outgoing requests"
+    },
+    "collection": {
+      "initiatives": "Initiatives"
+    }
+  },
+  "notice": {
+    "label": "Form alert"
+  }
+}

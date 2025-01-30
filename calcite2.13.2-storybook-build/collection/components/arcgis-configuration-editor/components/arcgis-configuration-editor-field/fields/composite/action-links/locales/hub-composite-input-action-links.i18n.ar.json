@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "إضافة الإجراء الأول",
+  "addSecondAction": "إضافة الإجراء الثاني",
+  "addLink": "إضافة رابط",
+  "addSection": "إضافة قسم",
+  "deleteNotice": {
+    "title": "يتعذر الحذف",
+    "message": "القسم ليس فارغًا. يرجى نقل جميع الروابط خارج القسم قبل محاولة الحذف."
+  },
+  "linkEditor": {
+    "save": "حفظ",
+    "delete": "حذف",
+    "cancel": "إلغاء الأمر",
+    "preview": "رابط المعاينة",
+    "title": {
+      "button1": "الإجراء الأول",
+      "button2": "الإجراء الثاني",
+      "block": "رابط الإجراء"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "ربط بالمحتوى الحالي"
+        },
+        "external": {
+          "label": "ربط بمصدر خارجي"
+        }
+      },
+      "label": {
+        "label": "التسمية",
+        "helperText": {
+          "button": "سيظهر هذا النص على الزر.",
+          "block": "سيظهر هذا على الكتلة بالخط العريض."
+        },
+        "requiredError": "التسمية حقل مطلوب."
+      },
+      "description": {
+        "label": "الوصف",
+        "helperText": "هذه معلومات ثانوية."
+      },
+      "href": {
+        "label": "الرابط",
+        "requiredError": "الرابط حقل مطلوب.",
+        "formatError": "تنسيق عنوان URL غير صحيح."
+      },
+      "contentId": {
+        "label": "رابط المحتوى",
+        "requiredError": "رابط المحتوى حقل مطلوب."
+      },
+      "section": {
+        "label": "انتقال إلى القسم",
+        "placeholder": {
+          "noSections": "لم يتم تكوين أية أقسام",
+          "notSet": "ليس في القسم"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "قسم",
+    "helperText": "يمكن استخدام الأقسام لدمج الروابط ضمن عنصر القائمة. الأقسام لا تعمل كرابط.",
+    "section": {
+      "label": {
+        "label": "التسمية",
+        "requiredError": "التسمية حقل مطلوب."
+      },
+      "description": {
+        "label": "الوصف"
+      }
+    }
+  }
+}

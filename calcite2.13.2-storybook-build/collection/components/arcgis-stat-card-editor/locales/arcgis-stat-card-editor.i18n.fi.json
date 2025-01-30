@@ -1,0 +1,165 @@
+{
+  "advancedConfig": {
+    "label": "Edistynyt kokoonpano",
+    "serverTimeout": {
+      "label": "Palvelimen aikakatkaisu (sekunteina)",
+      "helperText": "Hyödyllinen suurille palveluille, jotka saattavat vastata hitaammin.",
+      "errors": {
+        "type": "Anna palvelimen aikakatkaisun määritys.",
+        "minimum": "Palvelimen aikakatkaisuarvon on oltava vähintään 5.",
+        "maximum": "Palvelimen aikakatkaisuarvon on oltava enintään 95."
+      }
+    }
+  },
+  "appearance": {
+    "corners": {
+      "label": "Kulmat",
+      "enum": {
+        "round": {
+          "label": "Pyöristys"
+        },
+        "square": {
+          "label": "Neliö"
+        }
+      }
+    },
+    "dropShadow": {
+      "label": "Varjo",
+      "enum": {
+        "heavy": {
+          "label": "Suuri"
+        },
+        "low": {
+          "label": "Pieni"
+        },
+        "medium": {
+          "label": "Keskisuuri"
+        },
+        "none": {
+          "label": "Ei aloitettu"
+        }
+      }
+    },
+    "layout": {
+      "label": "Kortin tyyli",
+      "enum": {
+        "informational": {
+          "label": "Tiedot"
+        },
+        "simple": {
+          "label": "Yksinkertainen"
+        }
+      }
+    },
+    "popoverText": {
+      "label": "Modaalin sisältö"
+    },
+    "publisherText": {
+      "label": "Lähteen julkaisija"
+    },
+    "styleSpecificSettings": {
+      "label": "Tyyliasetukset",
+      "helperInfoText": "Tietopainikkeen valitseminen avaa modaalin, joka sisältää lisätietoja.",
+      "helperVizText": "Yksinkertainen kortti tukee kuvakkeen lisäämistä visuaalisena elementtinä, jota voidaan käyttää muutosten kuvaamiseen aineistossa."
+    },
+    "sectionTitle": "Ulkoasu",
+    "textAlign": "Kohdistus",
+    "visualInterest": {
+      "label": "Visuaalinen elementti",
+      "enum": {
+        "icon": {
+          "label": "Kuvake"
+        },
+        "none": {
+          "label": "Ei mitään"
+        }
+      }
+    },
+    "icon": {
+      "label": "Kuvake",
+      "caretUp": {
+        "label": "Suurenna"
+      },
+      "caretDown": {
+        "label": "Pienennä"
+      },
+      "caretDouble": {
+        "label": "Ei muutosta"
+      }
+    },
+    "valueColor": "Väri (tilastotiedot)"
+  },
+  "details": {
+    "allowDynamicLink": "Näytä lähdelinkki",
+    "link": {
+      "sectionTitle": "Linkki",
+      "sourceLink": "Linkin URL-osoite",
+      "sourceTitle": "Linkkiteksti"
+    },
+    "sectionTitle": "Yksityiskohdat",
+    "subtitle": "Alaotsikko",
+    "title": "Otsikko",
+    "trailingText": {
+      "label": "Jäljessä oleva teksti",
+      "helperText": "Anna lisäkonteksti tai selitys (näkyy mittausarvon alapuolella)."
+    }
+  },
+  "errors": {
+    "sourceLink": {
+      "required": "Lähteen näyttämiseen tarvitaan linkki.",
+      "formatError": "URL-osoitteen muotoilu on virheellinen"
+    }
+  },
+  "formatting": {
+    "sectionTitle": "Muotoilu",
+    "unit": {
+      "label": "Näyttöyksiköt",
+      "helperText": "Lisää arvon mittayksikkö."
+    },
+    "unitPosition": {
+      "label": "Sijoittaminen",
+      "helperText": "Valitse, missä mittayksikkö (esim. km tai lbs) näkyy suhteessa mittausarvoon.",
+      "enum": {
+        "after": {
+          "label": "Jälkeen"
+        },
+        "before": {
+          "label": "Ennen"
+        },
+        "below": {
+          "label": "Alla"
+        }
+      }
+    }
+  },
+  "sharing": {
+    "sectionTitle": "Jakaminen",
+    "showShareIcon": "Ota jakaminen käyttöön",
+    "showShareIconHelperText": "Salli käyttäjien kopioida suora linkki tähän korttiin tällä sivulla.",
+    "shareableByValue": "Ota upotukset käyttöön",
+    "shareableOnHover": {
+      "label": "Näytä kohotekstinä",
+      "helperText": {
+        "label": "Jaa-painike näkyy vain kohotekstinä. Jos asetus poistetaan käytöstä, painike on aina näkyvissä."
+      }
+    }
+  },
+  "statistic": {
+    "dataSource": "Aineistolähde",
+    "displayValue": "Näytä arvo",
+    "sectionTitle": "Arvo",
+    "type": {
+      "label": "Tyyppi",
+      "enum": {
+        "dynamic": {
+          "label": "Dynaaminen",
+          "description": "Valitse aiemmin luotu aineistoryhmä (kohdepalvelu), jotta voit luoda yhteenvedon."
+        },
+        "static": {
+          "label": "Staattinen",
+          "description": "Lisää asettelussa korostettava arvo manuaalisesti."
+        }
+      }
+    }
+  }
+}

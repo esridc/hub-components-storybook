@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "登録",
+    "registered": "登録済み",
+    "join": "オンラインでの参加",
+    "in-person": "対面",
+    "online": "オンライン",
+    "inPersonFull": "対面 (満席)",
+    "onlineFull": "オンライン (満席)",
+    "close": "閉じる"
+  },
+  "tooltip": {
+    "isCanceled": "イベントがキャンセルされました",
+    "eventHasEnded": "イベントが終了しました",
+    "eventFull": "イベントが満席です",
+    "inPerson": "対面イベントに登録されました",
+    "online": "オンライン イベントに登録されました",
+    "unavailable": "イベント開始時刻の 1 時間前から利用できます"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "オンライン イベントへの登録が正常にキャンセルされました",
+    "onlineRegistrationConfirmed": "オンライン イベントに正常に登録されました",
+    "onlineRegistrationError": "オンライン イベントへの登録中に予期しないエラーが発生しました",
+    "onlineRegistrationCanceledError": "オンライン イベントへの登録のキャンセル中に予期しないエラーが発生しました",
+    "onlineRegistrationAtCapacity": "満席のオンライン イベントに登録しようとしています",
+    "inPersonRegistrationCanceled": "対面イベントへの登録が正常にキャンセルされました",
+    "inPersonRegistrationCanceledError": "対面イベントへの登録のキャンセル中に予期しないエラーが発生しました",
+    "inPersonRegistrationConfirmed": "対面イベントに正常に登録されました",
+    "inPersonRegistrationError": "対面イベントへの登録中に予期しないエラーが発生しました",
+    "inPersonRegistrationAtCapacity": "満席の対面イベントに登録しようとしています"
+  }
+}

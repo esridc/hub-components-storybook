@@ -1,0 +1,1 @@
+import{i as r}from"./p-8978e25f.js";function t(r,t){return i(r,(r=>r.id===t))}function i(t,n){return Array.isArray(t)?t.reduce(((t,o)=>{if(n(o))t=o;else if(r(o)){const r=i(o,n);r&&(t=r)}return t}),void 0):r(t)?n(t)?t:Object.keys(t).reduce(((o,e)=>{if(r(t[e])){const r=i(t[e],n);r&&(o=r)}return o}),void 0):void 0}export{t as a,i as d}

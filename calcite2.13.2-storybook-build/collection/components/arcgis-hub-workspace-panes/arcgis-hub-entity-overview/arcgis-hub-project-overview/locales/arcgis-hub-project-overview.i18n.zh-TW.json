@@ -1,0 +1,19 @@
+{
+  "overview": "概述",
+  "telemetry": {
+    "pageViews": "頁面視圖",
+    "last30days": "最近 30 天",
+    "lastUpdated": "前次更新為 {hoursElapsed} 小時前",
+    "checkTomorrow": "請明天回來檢查"
+  },
+  "learnAbout": "瞭解有關 Hub 專案的詳細資訊",
+  "status": {
+    "notStarted": "未啟動",
+    "inProgress": "進行中",
+    "onHold": "保留中",
+    "complete": "完成"
+  },
+  "editDetails": "編輯詳細資訊",
+  "noPurposeSet": "未設定用途",
+  "noLocationSet": "未設定位置"
+}

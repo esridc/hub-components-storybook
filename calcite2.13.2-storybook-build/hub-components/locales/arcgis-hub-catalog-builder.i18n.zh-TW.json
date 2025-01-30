@@ -1,0 +1,24 @@
+{
+  "shared": {
+    "targetEntities": {
+      "item": "項目",
+      "event": "事件"
+    }
+  },
+  "targetEntityBlock": {
+    "configured": "已配置",
+    "notConfigured": "未配置"
+  },
+  "targetEntityFlow": {
+    "back": "關閉配置: {targetEntity}",
+    "description": "配置: {targetEntity}",
+    "source": {
+      "heading": "來源",
+      "description": "來源定義了內容的範圍。 透過包含或排除參數來修改結果。<br/><br/>*表示必填欄位"
+    },
+    "collections": {
+      "heading": "集合",
+      "description": "將內容組織成不同的子集，以便於瀏覽和探索。<br/><br/>*表示必填欄位"
+    }
+  }
+}

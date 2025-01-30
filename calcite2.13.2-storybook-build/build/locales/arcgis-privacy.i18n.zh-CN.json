@@ -1,0 +1,41 @@
+{
+  "managePrivacyButton": "管理隐私",
+  "consentNotice": {
+    "allTracking": "该站点是使用 ArcGIS Hub 构建的，并根据 Esri 隐私声明使用匿名追踪来提高性能并分析站点使用情况。 其他第三方追踪系统可能会监控您对站点的使用情况。",
+    "anonymousTracking": "该站点是使用 ArcGIS Hub 构建的，并根据 Esri 隐私声明使用匿名追踪来提高性能并分析站点使用情况。",
+    "noTracking": "该站点使用 ArcGIS Hub 构建，仅使用应用程序正常运行所需的 Cookie，并且无法在我们的系统中将其关闭。",
+    "thirdPartyTracking": "该站点使用 ArcGIS Hub 构建，仅使用应用程序正常运行所需的 Cookie，并且无法在我们的系统中将其关闭。 其他第三方追踪系统可能会监控您对站点的使用情况。"
+  },
+  "consent": {
+    "esriPrivacyLink": "Esri 隐私中心",
+    "customerConsentLink": "更多信息"
+  },
+  "eueiNotice": {
+    "title": "将不会追踪 {orgName} 成员",
+    "message": "已针对 {orgName} 禁用 Esri 用户体验改进 (EUEI) 计划。 将不会追踪与您的访问相关的活动；您不能接受匿名使用情况统计或第三方追踪。",
+    "link": "了解有关 (EUEI) 计划的信息。"
+  },
+  "notice": {
+    "heading": "隐私设置",
+    "acceptAllButton": "接受所有 Cookie",
+    "acceptNecessaryButton": "仅接受必要的 Cookie",
+    "confirmButton": "确认",
+    "reviewSettingsButton": "查看设置"
+  },
+  "settings": {
+    "heading": "隐私设置",
+    "confirmButton": "确认"
+  },
+  "anonymous": {
+    "heading": "匿名使用情况统计数据",
+    "helpText": "借助这些 Cookie，我们能够监控应用程序性能，例如流量源、页面浏览量和交互。 它们帮助我们了解哪些内容有效以及访问者如何在应用程序中移动。 采集的所有信息均为匿名（不存储任何个人身份信息）。 如果您不允许使用这些 Cookie，我们将不知道您访问过我们的应用程序或者与我们的应用进行过交互。"
+  },
+  "necessary": {
+    "heading": "绝对必要的 Cookie",
+    "helpText": "这些 Cookie 是应用程序正常运行所必需的，并且无法在我们的系统中将其关闭。 设置 Cookie 是为了响应您所进行的涉及服务请求的操作，例如登录到您的帐户。 可以将浏览器设置为阻止或者提醒有关这些 Cookie，但应用程序的某些部分可能会受到影响。 采集的所有信息均为匿名（不存储任何个人身份信息）。"
+  },
+  "thirdParty": {
+    "heading": "第三方追踪",
+    "helpText": "这些 Cookie 可能由本站点上配置的第三方追踪提供商设置。 他们可能会在您访问期间采集有关您的目标定位或市场营销信息。 采集的信息可能用于此应用程序之外的目的。 如果您不允许使用这些 Cookie，则配置的第三方追踪提供商将不会收到有关您访问的任何信息。"
+  }
+}

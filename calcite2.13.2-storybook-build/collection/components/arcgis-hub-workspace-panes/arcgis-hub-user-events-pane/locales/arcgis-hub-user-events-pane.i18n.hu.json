@@ -1,0 +1,29 @@
+{
+  "header": "Események",
+  "myContent": "Saját események",
+  "editableContent": "Szerkeszthető tartalom",
+  "addEventButtonText": "Esemény létrehozása",
+  "type": "Típus",
+  "sharedUpdate": "Megosztott frissítési csoport",
+  "viewOnly": "Csak megtekinthető csoport",
+  "owner": "Létrehozta",
+  "starts": "Be",
+  "from": "Ettől:",
+  "until": "Eddig:",
+  "updated": "Frissítve",
+  "tags": "Címkék",
+  "dateCreated": "Létrehozva",
+  "dateUpdated": "Módosítva",
+  "actionLinks": {
+    "view": "Megtekintés",
+    "edit": "Szerkesztés",
+    "ariaEdit": "Szerkesztés: {title}",
+    "ariaView": "Nézet: {title}"
+  },
+  "access": {
+    "label": "Hozzáférés",
+    "PRIVATE": "Magánjellegű",
+    "ORG": "Szervezet",
+    "PUBLIC": "Nyilvános"
+  }
+}

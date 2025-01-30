@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "Kategóriák",
+        "noCategoriesNotice": {
+          "body": "Ez a szervezet még nem rendelkezik kategóriákkal.",
+          "link": "Kategóriák beállítása"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "Tartalom",
+      "selectionMode": {
+        "dynamic": {
+          "label": "Dinamikus"
+        },
+        "manual": {
+          "label": "Kézi"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "Szervezet"
+        },
+        "collection": {
+          "sites": "Sites",
+          "projects": "Projektek",
+          "initiatives": "Kezdeményezések"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "Szervezet"
+        },
+        "collection": {
+          "events": "Események"
+        }
+      },
+      "access": {
+        "label": "Megosztás",
+        "private": {
+          "label": "Magánjellegű",
+          "description": "Szűrés olyan tartalom alapján, amely csak az Ön és a csoportos hozzáféréssel rendelkezők számára érhető el."
+        },
+        "org": {
+          "label": "Szervezet",
+          "description": "Szűrés olyan tartalom alapján, amely csak a szervezet tagjai számára érhető el."
+        },
+        "public": {
+          "label": "Nyilvános",
+          "description": "Szűrés olyan tartalom alapján, amely mindenki számára elérhető."
+        }
+      },
+      "tags": {
+        "label": "Címkék"
+      },
+      "cardsShown": {
+        "label": "Megjelenített kártyák"
+      }
+    },
+    "appearance": {
+      "label": "Megjelenés",
+      "titleHeading": {
+        "label": "Címsor",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "A WCAG G141 szerint az egymásba ágyazott címsorok javítják a hozzáférhetőséget."
+      },
+      "corners": {
+        "label": "Sarkok",
+        "square": {
+          "label": "Négyszöges"
+        },
+        "round": {
+          "label": "Kerekített"
+        }
+      },
+      "shadow": {
+        "label": "Árnyék",
+        "none": {
+          "label": "Ki van kapcsolva"
+        },
+        "low": {
+          "label": "Alacsony"
+        },
+        "medium": {
+          "label": "Közepes"
+        },
+        "heavy": {
+          "label": "Nehéz"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "További információ megjelenítése"
+      },
+      "layout": {
+        "label": "Kimenet",
+        "list": {
+          "label": "Lista"
+        },
+        "map": {
+          "label": "Térkép"
+        },
+        "calendar": {
+          "label": "Naptár"
+        }
+      }
+    },
+    "options": {
+      "label": "Beállítási lehetőségek",
+      "openIn": {
+        "label": "Megnyitás ezzel...",
+        "same": {
+          "label": "Azonos fül"
+        },
+        "new": {
+          "label": "Új lap"
+        },
+        "notice": {
+          "title": "Tipp kisegítő lehetőségekkel kapcsolatban:",
+          "body": "A WCAG 2.0 G200 technika miatt miatt nem javasolt a hivatkozások új lapon vagy ablakon való megnyitása.",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "További részletek a WCAG 2.0 G200-ról"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "Megosztás",
+      "public": {
+        "label": "Nyilvános"
+      },
+      "private": {
+        "label": "Magánjellegű"
+      },
+      "organization": {
+        "label": "Szervezet"
+      }
+    },
+    "from": {
+      "label": "Ettől:",
+      "myOrganization": {
+        "label": "Saját szervezet"
+      },
+      "myContent": {
+        "label": "Saját tartalom"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "Események",
+      "collections": {
+        "event": {
+          "label": "Események"
+        }
+      }
+    },
+    "item": {
+      "label": "Tartalom",
+      "collections": {
+        "item": {
+          "label": "Tartalom"
+        }
+      }
+    }
+  }
+}

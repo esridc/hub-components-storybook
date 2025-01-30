@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "Редагувати групи",
+        "viewGroups": "Перегляд груп"
+      },
+      "facet": {
+        "label": "Від",
+        "myGroups": "Мої групи",
+        "myOrganization": "Моя організація",
+        "myCommunity": "Моя спільнота"
+      }
+    }
+  },
+  "property": {
+    "label": "Параметр",
+    "requiredError": "Потрібен параметр"
+  },
+  "operator": {
+    "label": "Критерії",
+    "requiredError": "Потрібен критерій"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "Тип"
+    },
+    "group": {
+      "default": "Групи"
+    },
+    "occurrence": {
+      "default": "Повторення"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "Будь-які з",
+      "group": "У спільному доступі для будь-яких з"
+    },
+    "isAll": {
+      "default": "Усі з",
+      "group": "У спільному доступі для усіх з"
+    },
+    "isExactly": {
+      "default": "Точно",
+      "occurrence": "Становить"
+    },
+    "isNot": {
+      "default": "Не становить",
+      "type": "Жодні з",
+      "group": "У спільному доступі ні для кого з"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "Групи",
+      "requiredError": "Потрібні групи"
+    },
+    "type": {
+      "label": "Типи",
+      "requiredError": "Потрібні типи",
+      "app": {
+        "label": "Додатки"
+      },
+      "content": {
+        "label": "Вміст"
+      },
+      "dataset": {
+        "label": "Набори даних"
+      },
+      "discussion": {
+        "label": "Обговорення"
+      },
+      "document": {
+        "label": "Документи"
+      },
+      "event": {
+        "label": "Події"
+      },
+      "feedback": {
+        "label": "Відгук"
+      },
+      "initiative": {
+        "label": "Ініціативи"
+      },
+      "map": {
+        "label": "Карти"
+      },
+      "project": {
+        "label": "Проєкти"
+      },
+      "site": {
+        "label": "Сайти"
+      },
+      "template": {
+        "label": "Шаблони"
+      }
+    },
+    "occurrence": {
+      "label": "Повторення",
+      "requiredError": "Потрібне повторення",
+      "upcoming": "Майбутнє",
+      "past": "Після",
+      "inProgress": "Виконується"
+    }
+  }
+}

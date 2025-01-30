@@ -1,0 +1,53 @@
+{
+  "settings": "設定",
+  "formDisabledTooltip": "您沒有存取權，無法對此 {type} 進行變更。",
+  "delete": {
+    "project": "刪除此專案",
+    "initiative": "刪除此倡議",
+    "site": "刪除此網站",
+    "discussion": "刪除此討論",
+    "content": "刪除此內容",
+    "page": "刪除此頁面",
+    "group": "刪除此群組",
+    "initiativeTemplate": "刪除此倡議樣板",
+    "template": "刪除此樣板",
+    "survey": "刪除此調查",
+    "desc": {
+      "project": "刪除此專案無法還原。",
+      "initiative": "刪除此倡議無法還原。",
+      "site": "刪除此網站無法還原。",
+      "discussion": "刪除此討論無法還原。",
+      "content": "刪除此內容無法還原。",
+      "page": "刪除此頁面無法還原。",
+      "group": "刪除此群組無法還原。",
+      "initiativeTemplate": "刪除此倡議樣板無法還原。",
+      "template": "刪除此樣板無法還原。",
+      "survey": "刪除此調查無法還原。"
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "project": "刪除專案",
+      "initiative": "刪除倡議",
+      "site": "刪除站點",
+      "discussion": "刪除討論",
+      "content": "刪除內容",
+      "page": "刪除頁面",
+      "group": "刪除群組",
+      "initiativeTemplate": "刪除倡議樣板",
+      "template": "刪除樣板",
+      "survey": "刪除調查"
+    },
+    "content": "是否確定要刪除:",
+    "delete": "刪除",
+    "cancel": "取消"
+  },
+  "sidePanel": {
+    "content": {
+      "extractNotice": {
+        "title": "「擷取」功能可變更服務設定。",
+        "message": "參考該服務的其他項目將受影響。 有關詳細資訊，請參閱<docLink>從託管圖徵圖層匯出資料</docLink>"
+      }
+    }
+  }
+}

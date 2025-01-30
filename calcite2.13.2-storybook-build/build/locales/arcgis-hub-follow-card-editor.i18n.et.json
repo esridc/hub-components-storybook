@@ -1,0 +1,41 @@
+{
+  "notice": {
+    "outdatedItem": {
+      "title": "Asendage oma algatus",
+      "message": "See kaart viitab aegunud üksusele. Valige kasutajatele jälgimiseks muu üksus."
+    },
+    "missingFollowersGroup": {
+      "title": "Jälgijate grupp puudub",
+      "message": "Sellel üksusel puudub jälgijate grupp. Valige mõni muu üksus."
+    },
+    "noGroupAccess": {
+      "title": "Tähelepanu",
+      "message": "Teil puudub juurdepääs jälgijate grupile."
+    }
+  },
+  "selectContent": {
+    "title": "Jälgitav sisu",
+    "facets": {
+      "sharing": "Jagamine",
+      "catalog": {
+        "myContent": "Minu sisu",
+        "organization": "Minu organisatsioon"
+      }
+    }
+  },
+  "callToAction": {
+    "title": "Üleskutse tegevusele",
+    "helperText": "Tegevuskutse ilmub jälgimisnupu kohal.",
+    "alignment": "Joondus"
+  },
+  "followButton": {
+    "title": "Nupp Jälgi",
+    "helperText": "Selle nupu abil saavad liikmed teie sisu jälgida või jälgimisest loobuda. Nupu mõlema oleku jaoks saab määrata teksti.",
+    "buttonText": "Lubamisnupu tekst",
+    "unfollowButtonText": "Loobumisnupu tekst",
+    "alignment": "Joondus",
+    "buttonStyle": "Nupu laad",
+    "solid": "Ühtlane taust",
+    "outline": "Piirjoon"
+  }
+}

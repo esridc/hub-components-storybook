@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "找不到任何結果。"
+    },
+    "error": {
+      "message": "很抱歉，搜尋遇到錯誤。"
+    }
+  },
+  "access": "存取",
+  "actionsHeader": "動作",
+  "caption": "Hub 實體表",
+  "family": "家庭",
+  "type": "類型",
+  "tags": "標記",
+  "owner": "擁有者",
+  "dateCreated": "建立日期",
+  "dateUpdated": "已修改",
+  "description": "描述",
+  "dateAndTime": "日期與時間",
+  "location": "位置",
+  "attendanceType": "出席類型",
+  "inPerson": "親自",
+  "online": "線上",
+  "hybrid": "混合",
+  "categories": "類別",
+  "content": "內容",
+  "name": "名稱",
+  "start": "開始",
+  "end": "結束",
+  "sharedUpdate": "分享的更新",
+  "managers": "管理員",
+  "username": "使用者名稱",
+  "no": "否",
+  "yes": "是",
+  "title": "標題",
+  "thumbnail": "縮圖",
+  "types": {
+    "app": "應用程式",
+    "content": "內容",
+    "dataset": "資料集",
+    "discussion": "討論板",
+    "document": "檔案",
+    "event": "事件",
+    "feedback": "回饋意見",
+    "initiative": "倡議",
+    "image": "圖像",
+    "map": "地圖",
+    "other": "其他",
+    "people": "人口",
+    "site": "網站",
+    "team": "群組",
+    "template": "範本",
+    "project": "專案"
+  }
+}

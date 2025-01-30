@@ -1,0 +1,43 @@
+{
+  "content": "เนื้อหา",
+  "myContent": "เนื้อหาของฉัน",
+  "editableContent": "เนื้อหาที่แก้ไขได้",
+  "addContentButtonText": "สร้างใหม่",
+  "type": "ประเภท",
+  "sharedUpdate": "กลุ่มการอัปเดตที่แชร์",
+  "viewOnly": "กลุ่มแบบดูอย่างเดียว",
+  "owner": "เจ้าของ",
+  "updated": "อัปเดตแล้ว",
+  "tags": "แท็ก",
+  "dateCreated": "สร้าง",
+  "dateUpdated": "แก้ไขแล้ว",
+  "actionLinks": {
+    "view": "ดู",
+    "edit": "แก้ไข",
+    "ariaEdit": "แก้ไข {title}",
+    "ariaView": "ดู {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "เนื้อหา",
+      "myContent": "เนื้อหาที่ฉันเป็นเจ้าของ",
+      "editableContent": "เนื้อหาที่ฉันสามารถแก้ไขได้",
+      "all": "เนื้อหาทั้งหมด"
+    },
+    "access": {
+      "label": "จาก"
+    },
+    "type": {
+      "label": "ประเภท"
+    },
+    "tags": {
+      "label": "แท็ก"
+    },
+    "categories": {
+      "label": "หมวดหมู่"
+    },
+    "modified": {
+      "label": "แก้ไขแล้ว"
+    }
+  }
+}

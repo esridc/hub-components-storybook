@@ -1,0 +1,35 @@
+{
+  "success": "Uspešno shranjena urejanja",
+  "error": "Napaka pri shranjevanju sprememb",
+  "formAlert": "Opozorilo obrazca",
+  "projects": {
+    "header": "Projekti",
+    "list": "Seznam projektov",
+    "config": "Konfiguracija",
+    "notConfigured": "Možnost projektov ni konfigurirana. Uporabite zavihek Konfiguracija."
+  },
+  "content": {
+    "header": "Vsebina",
+    "list": "Seznam vsebine",
+    "config": "Konfiguracija",
+    "notConfigured": "Možnost vsebine ni konfigurirana. Uporabite zavihek Konfiguracija."
+  },
+  "initiatives": {
+    "header": "Pobude",
+    "list": "Seznam pobud",
+    "config": "Konfiguracija",
+    "notConfigured": "Možnost pobud ni konfigurirana. Uporabite zavihek Konfiguracija."
+  },
+  "events": {
+    "header": "Dogodki",
+    "list": "Seznam dogodkov",
+    "config": "Konfiguracija",
+    "notConfigured": "Možnost dogodkov ni konfigurirana. Uporabite zavihek Konfiguracija."
+  },
+  "pages": {
+    "header": "Strani",
+    "list": "Seznam strani",
+    "config": "Konfiguracija",
+    "notConfigured": "Možnost strani ni konfigurirana. Uporabite zavihek Konfiguracija."
+  }
+}

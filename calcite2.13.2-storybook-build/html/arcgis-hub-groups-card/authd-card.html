@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Hub Components: Groups card</title>
+
+    <style>
+      .header {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .nav {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+      }
+    </style>
+    <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+    <link rel="stylesheet" href="../../calcite/calcite.css" />
+    <link rel="stylesheet" href="../../build/hub-components.css" />
+    <link rel="stylesheet" href="../calcite-web.min.css" />
+
+    <script type="importmap">
+      {
+        "imports": {
+          "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+        }
+      }
+    </script>
+    <script type="module" src="../../build/hub-components.esm.js"></script>
+    <script nomodule src="../../build/hub-components.js"></script>
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  </head>
+
+  <body>
+    <div class="grid-container padding-leader-2">
+      <div class="column-20 trailer-2 header">
+        <calcite-button scale="l" href="/">Home</calcite-button>
+        <h2>arcgis-hub-groups-card: Auth</h2>
+      </div>
+      <div class="column-20">
+        <calcite-button onClick="signIn()">Sign In</calcite-button>
+        <calcite-button onClick="signOut()">Sign Out</calcite-button>
+        <div id="userinfo"></div>
+        <arcgis-hub-groups-card card-title="bob" title-align="right"></arcgis-hub-groups-card>
+        <arcgis-app-identity client-id="EF9uxuFlOrgf7WpI" redirect-uri="http://localhost:3333/html/redirect.html" portal="https://qaext.arcgis.com"> </arcgis-app-identity>
+      </div>
+    </div>
+    <script>
+      // These would be raised from some user profile type control
+      function signIn() {
+        const evt = new CustomEvent('arcgisAppIdentityStartSignIn');
+        document.dispatchEvent(evt);
+      }
+      function signOut() {
+        const evt = new CustomEvent('arcgisAppIdentityStartSignOut');
+        document.dispatchEvent(evt);
+      }
+
+      // These listeners could be in any component that wants a session
+      document.addEventListener('arcgisAppIdentitySignedIn', evt => {
+        console.info(`Assigning context to component`);
+        const session = evt.detail.session;
+        setProp('context', evt.detail);
+        // update userInfo
+        showUserInfo(session);
+      });
+
+      document.addEventListener('arcgisAppIdentitySignedOut', evt => {
+        // update context
+        setProp('context', evt.detail);
+        showUserInfo();
+      });
+
+      // Simple function to so something when auth changes
+      function showUserInfo(session) {
+        const el = document.getElementById('userinfo');
+        if (session) {
+          el.innerText = `User ${session.username} authenticated`;
+        } else {
+          el.innerText = 'No user authenticated';
+        }
+      }
+
+      // Set a property on the element
+      function setProp(key, value) {
+        const el = document.querySelector('arcgis-hub-groups-card');
+        el[key] = value;
+      }
+
+      setProp('site', 'https://hubqa.arcgis.com');
+
+      setProp('groups', [
+        '4f077dce642e48aca0caa2ffa9290b05',
+        '9b7f9f69183847e6b25d5eed17f75ae2',
+        'e0c22d029d6342578935fd537c464780',
+        '5582509bbd9d4a159e970f64d87ddf6d',
+        '5774731d9ece4ddfa4812393efdf4999',
+        '4ca9848225ad41d6a045a3798d4768b5',
+        'bc6d764b588244bf947c5bd85387ab01',
+        '5e72f9239b0847aab98d350808ae64f1',
+        '099aa5603ac14ac7b7169367b733f4a9',
+        '64fdad51f47741d3aa935023eef8090f',
+        '4c9bbd5b26674cd59497a01502881c0b',
+      ]);
+
+      setProp('showEmptyState', false);
+    </script>
+  </body>
+</html>

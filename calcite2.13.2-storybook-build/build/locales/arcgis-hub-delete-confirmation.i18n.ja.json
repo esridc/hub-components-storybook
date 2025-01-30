@@ -1,0 +1,50 @@
+{
+  "section": "削除",
+  "protection": "この {type} が誤って削除されないようにします。",
+  "protectionTooltip": "防止機能のツールチップ",
+  "protectionDisabledTooltip": "所有者または組織管理者のみが防止機能を変更できます。",
+  "deleteDisabledNoAccessTooltip": "削除できるのは、所有者または組織の管理者のみです。",
+  "deleteDisabledNoAccessTooltipGroup": "削除できるのは、所有者、管理者、組織の管理者のみです。",
+  "deleteDisabledProtectedTooltip": "削除防止機能が有効化されている間は削除できません。",
+  "deleteButton": "削除",
+  "protect": {
+    "successTitle": "削除の防止が追加されました",
+    "success": "削除防止機能が有効化されている間は削除できません。",
+    "successLabel": "削除防止機能が追加されたことを通知します。",
+    "errorTitle": "削除の防止を追加できませんでした",
+    "error": "削除防止機能の追加中にエラーが発生しました。",
+    "errorLabel": "削除防止機能が失敗したことを通知します。"
+  },
+  "unprotect": {
+    "successTitle": "削除の防止が削除されました",
+    "success": "削除防止機能が無効化されている間は削除できます。",
+    "successLabel": "削除防止機能が解除されたことを通知します。",
+    "errorTitle": "削除の防止を削除できませんでした",
+    "error": "削除防止機能の解除中にエラーが発生しました。",
+    "errorLabel": "削除防止機能の解除が失敗したことを通知します。"
+  },
+  "delete": {
+    "successTitle": "削除に成功しました",
+    "success": "ホーム ワークスペースにリダイレクトしています",
+    "successLabel": "削除に成功したことを通知します。",
+    "errorTitle": "削除できませんでした",
+    "error": "問題が発生しました。もう一度やり直してください。",
+    "errorLabel": "削除に失敗したことを通知します。"
+  },
+  "permanentDelete": {
+    "successTitle": "完全削除に成功しました",
+    "success": "ホーム ワークスペースにリダイレクトしています",
+    "successLabel": "削除に成功したことを通知します。",
+    "errorTitle": "削除できませんでした",
+    "error": "問題が発生しました。もう一度やり直してください。",
+    "errorLabel": "削除に失敗したことを通知します。"
+  },
+  "deleteModal": {
+    "header": "削除",
+    "deleteContent": "完全に削除すると、元に戻すことはできません。 続行しますか？",
+    "recycleContent": "削除されたコンテンツはゴミ箱に送られます。 14 日間は復元可能です。",
+    "delete": "削除",
+    "permanentlyDelete": "完全に削除",
+    "cancel": "キャンセル"
+  }
+}

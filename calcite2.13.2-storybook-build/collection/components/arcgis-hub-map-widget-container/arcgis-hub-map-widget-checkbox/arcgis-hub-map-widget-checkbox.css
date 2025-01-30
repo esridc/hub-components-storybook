@@ -1,0 +1,9 @@
+:host {
+  display: block;
+  padding: .5rem;
+  cursor: pointer;
+}
+
+.checkbox-label {
+  --calcite-label-margin-bottom: 0;
+}

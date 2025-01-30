@@ -1,0 +1,91 @@
+{
+  "moreResults": "Viac výsledkov",
+  "search": "Vyhľadať",
+  "filter": "Filtre",
+  "viewResults": "Zobraziť výsledky ({numResults})",
+  "resultsCount": "1 - {pageTotal} z {searchTotal}",
+  "backToTop": "Späť hore",
+  "facets": {
+    "access": {
+      "label": "Zdieľanie",
+      "private": "Ja",
+      "shared": "Majiteľ a skupiny",
+      "org": "Organizácia",
+      "public": "Verejné"
+    },
+    "license": {
+      "label": "Licencia",
+      "tooltip": "Iba na verejný obsah",
+      "custom": "Vlastné",
+      "none": "Žiadne"
+    },
+    "type": {
+      "label": "Typ"
+    },
+    "tags": {
+      "label": "Štítky"
+    },
+    "dateUpdated": {
+      "label": "Dátum aktualizácie"
+    },
+    "source": {
+      "label": "Zdroj",
+      "tooltip": "Verejný obsah z rôznych organizácií"
+    },
+    "categories": {
+      "label": "Kategórie"
+    },
+    "location": {
+      "label": "Lokalita",
+      "tooltip": "Použiť rozsah mapy ako filter lokalít"
+    },
+    "event": {
+      "from": {
+        "label": "Vlastníctvo",
+        "myContent": "Ja",
+        "myOrganization": "Moja organizácia",
+        "world": "Ktokoľvek"
+      },
+      "access": {
+        "label": "Prístup",
+        "private": "Súkromné",
+        "org": "Organizácia",
+        "public": "Verejné"
+      },
+      "startDate": {
+        "label": "Dátum udalosti"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "Typ",
+        "all": "Všetko",
+        "view": "Zobraziť",
+        "edit": "Editovať"
+      },
+      "role": {
+        "label": "Rola",
+        "all": "Všetko",
+        "member": "Člen",
+        "manager": "Správca",
+        "owner": "Vlastník"
+      },
+      "sharing": {
+        "label": "Viditeľnosť",
+        "private": "Súkromné",
+        "public": "Verejné"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "Zobraziť zoznam",
+    "grid": "Zobraziť mriežku",
+    "map": "Zobraziť mapu",
+    "compact": "Zobraziť kompaktne",
+    "calendar": "Zobraziť kalendár",
+    "table": "Zobraziť tabuľku"
+  },
+  "galleryActionsLabel": "Dodatočné akcie",
+  "selected": "Vybrané: {count}",
+  "popoverActionButtonLabel": "viac akcií"
+}

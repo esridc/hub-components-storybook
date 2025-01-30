@@ -1,0 +1,1 @@
+import{H as e}from"./p-ef64c2be.js";import"./p-efdf7053.js";import"./p-1898c878.js";const t=["hub:survey:edit","hub:survey:settings"],p=Object.assign(Object.assign({},e),{properties:Object.assign({displayMap:{type:"boolean",enum:[!0,!1],default:!1},hasMapQuestion:{type:"boolean",enum:[!0,!1],default:!1}},e.properties)});export{t as SurveyEditorTypes,p as SurveySchema}

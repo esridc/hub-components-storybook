@@ -1,0 +1,33 @@
+{
+  "title": "Gyűjtemények",
+  "actions": {
+    "label": "Beállítási lehetőségek",
+    "show": "Megjelenítés",
+    "hide": "Elrejtés",
+    "rename": "Átnevezés"
+  },
+  "formAlert": "Űrlap figyelmeztetés",
+  "alertMessages": {
+    "success": "A módosítások mentése sikerült",
+    "error": "Nem sikerült a módosítások mentése"
+  },
+  "collectionRenameModal": {
+    "title": "Gyűjtemény átnevezése",
+    "fieldLabel": "Gyűjtemény felirata",
+    "requiredMessage": "A gyűjtemény feliratát meg kell adni",
+    "apply": "Alkalmaz",
+    "maxLengthMessage": "A gyűjtemény felirata nem haladhatja meg az 50 karaktert."
+  },
+  "collections": {
+    "dataset": "Adatok",
+    "site": "Sites",
+    "document": "Dokumentumok",
+    "appAndMap": "Alkalmazások és térképek"
+  },
+  "saveButton": "Mentés",
+  "sections": {
+    "collectionConfiguration": {
+      "title": "Gyűjtemény konfiguráció"
+    }
+  }
+}

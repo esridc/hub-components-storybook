@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "Automatisé par Hub",
+      "actionText": "Informations sur l’option Par défaut"
+    },
+    "daily": {
+      "defaultLabel": "Tous les jours",
+      "defaultExpandedHelperText": "Chaque jour, à l’heure sélectionnée, dans le fuseau horaire sélectionné.",
+      "actionText": "Informations sur l’option Tous les jours"
+    },
+    "weekly": {
+      "defaultLabel": "Toutes les semaines",
+      "defaultExpandedHelperText": "Chaque semaine, à l’heure et au jour sélectionnés, dans le fuseau horaire sélectionné.",
+      "actionText": "Informations sur l’option Toutes les semaines"
+    },
+    "monthly": {
+      "defaultLabel": "Tous les mois",
+      "defaultExpandedHelperText": "Chaque mois, à l’heure et au jour sélectionnés, dans le fuseau horaire sélectionné.",
+      "actionText": "Informations sur l’option Tous les mois"
+    },
+    "yearly": {
+      "defaultLabel": "Tous les ans",
+      "defaultExpandedHelperText": "Chaque année, à l’heure, au jour et au mois sélectionnés, dans le fuseau horaire sélectionné.",
+      "actionText": "Informations sur l’option Tous les ans"
+    },
+    "manual": {
+      "defaultLabel": "Manuelle",
+      "defaultExpandedHelperText": "Utilisez cette option pour mettre à jour manuellement l’index de recherche et les fichiers de téléchargement mis en cache pour cet élément.",
+      "actionText": "Informations sur l’option Manuelle"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "Heure du jour",
+      "inputMessage": "L’heure est arrondie à l’heure la plus proche.",
+      "error": "Sélectionnez une heure."
+    },
+    "day": {
+      "helperText": "Jour de la semaine",
+      "daysOfTheWeek": {
+        "sunday": "Dimanche",
+        "monday": "Lundi",
+        "tuesday": "Mardi",
+        "wednesday": "Mercredi",
+        "thursday": "Jeudi",
+        "friday": "Vendredi",
+        "saturday": "Samedi"
+      },
+      "selectLabel": "Sélecteur de jour de la semaine",
+      "error": "Sélectionnez un jour de la semaine."
+    },
+    "date": {
+      "helperText": "Jour du mois",
+      "inputNumberPlaceholder": "Sélectionner un jour du mois",
+      "inputMessage": "Saisissez une valeur comprise entre 1 et 28 pour le jour du mois.",
+      "error": "Le jour du mois doit être compris entre 1 et 28."
+    },
+    "month": {
+      "helperText": "Mois de l’année",
+      "selectLabel": "Sélecteur de mois de l’année",
+      "monthsOfTheYear": {
+        "january": "Janvier",
+        "february": "Février",
+        "march": "Mars",
+        "april": "Avril",
+        "may": "Mai",
+        "june": "Juin",
+        "july": "Juillet",
+        "august": "Août",
+        "september": "Septembre",
+        "october": "Octobre",
+        "november": "Novembre",
+        "december": "Décembre"
+      },
+      "error": "Sélectionnez un mois."
+    },
+    "timezone": {
+      "helperText": "Fuseau horaire",
+      "error": "Sélectionnez un fuseau horaire."
+    }
+  },
+  "fieldHeader": "Fréquence"
+}

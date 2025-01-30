@@ -1,0 +1,57 @@
+{
+  "new": "Uusi",
+  "project": {
+    "label": "Projekti",
+    "description": "Korosta työ, johon liittyy selkeitä tavoitteita ja aikavälejä",
+    "createLabel": "Luo projekti",
+    "newLabel": "Uusi projekti"
+  },
+  "initiative": {
+    "label": "Aloite",
+    "description": "Aloitteiden avulla organisoidaan edistymistä tavoitteita kohti ja tehdään yhteevetoja edistymisestä",
+    "createLabel": "Luo aloite",
+    "newLabel": "Uusi aloite"
+  },
+  "discussion": {
+    "label": "Keskustelupalsta",
+    "description": "Luo uusi keskustelupalsta antamalla aihetta kuvaava nimi.",
+    "createLabel": "Luo keskustelupalsta",
+    "newLabel": "Uusi keskustelupalsta"
+  },
+  "site": {
+    "label": "Sivusto",
+    "description": "Järjestä ja jaa sisältöä luomalla verkkosivu",
+    "createLabel": "Luo sivusto",
+    "newLabel": "Uusi sivusto"
+  },
+  "event": {
+    "label": "Tapahtuma",
+    "description": "Isännöi järjestettyä tapahtumaa henkilökohtaisesti tai virtuaalisesti",
+    "createLabel": "Luo tapahtuma",
+    "newLabel": "Uusi tapahtuma"
+  },
+  "content": {
+    "label": "Sisältö",
+    "description": "Lisää aineistoa, asikirjoja, kuvia ja ulkoisia linkkejä sivustollesi",
+    "createLabel": "Luo sisältöä",
+    "newLabel": "Uusi sisältö"
+  },
+  "feedback": {
+    "label": "Palaute",
+    "description": "Kerää kohdistettuja tietoja työkalujen, kuten kyselyjen, avulla",
+    "createLabel": "Luo palaute",
+    "newLabel": "Uusi palaute"
+  },
+  "app": {
+    "label": "Sovellus",
+    "description": "Luo kokemus, kerro tarina tai visualisoi aineistoa",
+    "createLabel": "Luo sovellus",
+    "newLabel": "Uusi sovellus"
+  },
+  "group": {
+    "label": "Ryhmä",
+    "description": "Luo ryhmä ja tee yhteistyötä kohdistetun sisällön parissa",
+    "createLabel": "Luo ryhmä",
+    "newLabel": "Uusi ryhmä"
+  }
+}

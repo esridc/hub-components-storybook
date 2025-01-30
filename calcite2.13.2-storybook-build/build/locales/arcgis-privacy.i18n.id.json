@@ -1,0 +1,41 @@
+{
+  "managePrivacyButton": "Kelola Privasi",
+  "consentNotice": {
+    "allTracking": "Situs ini dibuat dengan ArcGIS Hub dan menggunakan pelacakan anonim untuk meningkatkan kinerja dan menganalisis penggunaan situs sesuai dengan Pernyataan Privasi Esri. Sistem pelacakan pihak ketiga tambahan dapat memantau penggunaan situs Anda.",
+    "anonymousTracking": "Situs ini dibuat dengan ArcGIS Hub dan menggunakan pelacakan anonim untuk meningkatkan kinerja dan menganalisis penggunaan situs sesuai dengan Pernyataan Privasi Esri.",
+    "noTracking": "Situs ini dibuat dengan ArcGIS Hub dan hanya menggunakan cookie yang diperlukan agar aplikasi berfungsi dan tidak dapat dimatikan di sistem kami.",
+    "thirdPartyTracking": "Situs ini dibuat dengan ArcGIS Hub dan hanya menggunakan cookie yang diperlukan agar aplikasi berfungsi dan tidak dapat dimatikan di sistem kami. Sistem pelacakan pihak ketiga tambahan dapat memantau penggunaan situs Anda."
+  },
+  "consent": {
+    "esriPrivacyLink": "Pusat privasi Esri",
+    "customerConsentLink": "Informasi selengkapnya"
+  },
+  "eueiNotice": {
+    "title": "{orgName} anggota tidak akan dilacak",
+    "message": "Program Peningkatan Pengalaman Pengguna Esri (EUEI) program telah dinonaktifkan untuk {orgName}. Aktivitas yang berkaitan dengan kunjungan Anda tidak akan dilacak; Anda tidak dapat menerima statistik penggunaan anonim atau pelacakan pihak ketiga.",
+    "link": "Pelajari tentang program (EUEI)."
+  },
+  "notice": {
+    "heading": "Pengaturan privasi",
+    "acceptAllButton": "Terima semua cookie",
+    "acceptNecessaryButton": "Terima cookie yang diperlukan saja",
+    "confirmButton": "Konfirmasi",
+    "reviewSettingsButton": "Pengaturan tinjauan"
+  },
+  "settings": {
+    "heading": "Pengaturan privasi",
+    "confirmButton": "Konfirmasi"
+  },
+  "anonymous": {
+    "heading": "Statistik penggunaan anonim",
+    "helpText": "Cookie ini memungkinkan kami memantau kinerja aplikasi, seperti sumber lalu lintas, tampilan halaman, dan interaksi. Cookie ini membantu kami mengetahui konten mana yang efektif dan bagaimana pengunjung menjelajahi aplikasi. Semua informasi yang dikumpulkan bersifat anonim (tidak ada informasi identifikasi pribadi yang disimpan). Jika Anda tidak mengizinkan cookie ini, kami tidak akan tahu Anda mengunjungi atau berinteraksi dengan aplikasi kami."
+  },
+  "necessary": {
+    "heading": "Cookie yang sangat diperlukan",
+    "helpText": "Cookie ini diperlukan agar aplikasi dapat berfungsi dan tidak dapat dimatikan di sistem kami. Cookie diatur sebagai respons terhadap tindakan yang Anda lakukan yang melibatkan permintaan layanan, seperti masuk ke akun Anda. Anda dapat mengatur browser Anda untuk memblokir atau memperingatkan Anda tentang cookie ini, tetapi beberapa bagian aplikasi mungkin terpengaruh. Semua informasi yang dikumpulkan bersifat anonim (tidak ada informasi identifikasi pribadi yang disimpan)."
+  },
+  "thirdParty": {
+    "heading": "Pelacakan pihak ketiga",
+    "helpText": "Cookie ini mungkin diatur oleh penyedia pelacakan pihak ketiga yang dikonfigurasi di situs ini. Cookie mungkin mengumpulkan informasi penargetan atau marketing tentang Anda selama kunjungan Anda. Informasi yang dikumpulkan mungkin digunakan untuk tujuan di luar aplikasi ini. Jika Anda tidak mengizinkan cookie ini, penyedia pelacakan pihak ketiga yang dikonfigurasi tidak akan menerima informasi apa pun tentang kunjungan Anda."
+  }
+}

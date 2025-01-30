@@ -1,0 +1,315 @@
+:host {
+  display: inline-block;
+}
+
+:host > div > calcite-button {
+  margin-right: 0.125rem;
+  border-width: 2px;
+  border-style: solid;
+  border-color: transparent;
+  padding: 0.125rem;
+}
+
+:host > div > calcite-button:last-of-type {
+  margin-right: 0px;
+}
+
+.submitted_reactions_list calcite-button {
+  border-width: 2px;
+  border-style: solid;
+  border-color: transparent;
+  padding: 0.125rem;
+}
+
+.submitted_reactions_list calcite-button span {
+  margin-left: 0.25rem;
+}
+
+calcite-button[aria-checked="true"],
+calcite-button[data-reaction="add"][aria-expanded="true"] {
+  border-color: var(--calcite-color-brand);
+}
+
+:host(.rtl) calcite-button[data-reaction="add"] {
+  transform: scaleX(-1);
+}
+
+calcite-button[aria-checked="true"] span {
+  font-weight: var(--calcite-font-weight-bold);
+}
+
+:host > div {
+  display: flex;
+}
+
+.submitted_reactions_list {
+  margin: 0px;
+  display: inline-flex;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.submitted_reactions_list li {
+  margin-right: 0.125rem;
+}
+
+.user_reactions_popover {
+  width: 20rem;
+}
+
+.user_reactions_list {
+  margin: 0px;
+  display: grid;
+  max-height: 407px;
+  list-style-type: none;
+  grid-auto-flow: row;
+  row-gap: 0.75rem;
+  overflow: auto;
+  padding: 0.75rem;
+}
+
+/* user reaction, non-skeleton state */
+.user_reaction_item {
+  display: grid;
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  column-gap: 0.75rem;
+  row-gap: 0.125rem;
+  background-color: var(--calcite-color-foreground-1);
+  grid-template-columns: 2.75rem auto;
+}
+
+.user_reaction_item:has(div:nth-of-type(3)) {
+  grid-template-columns: 2.75rem auto minmax(0, 16px);
+}
+
+.user_reaction_item calcite-avatar {
+  grid-row: span 2 / span 2;
+  height: 2.75rem;
+  width: 2.75rem;
+}
+
+.user_reaction_item div:nth-of-type(1) {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  font-size: var(--calcite-font-size-0);
+  line-height: 1.25rem;
+  font-weight: var(--calcite-font-weight-bold);
+  text-transform: capitalize;
+  color: var(--calcite-color-text-1);
+}
+
+.user_reaction_item div:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+  font-size: var(--calcite-font-size--1);
+  line-height: 1rem;
+  color: var(--calcite-color-text-2);
+}
+
+.user_reaction_item:has(div:nth-of-type(3)) div:nth-of-type(2) {
+  grid-row: span 2 / span 2;
+  justify-content: flex-end;
+}
+
+.user_reaction_item div:nth-of-type(2):before {
+  content: '@';
+}
+
+.user_reaction_item:has(div:nth-of-type(3)) div:nth-of-type(2):before {
+  content: '';
+}
+
+.user_reaction_item div:nth-of-type(3) {
+  display: flex;
+  align-items: center;
+  font-size: var(--calcite-font-size--1);
+  line-height: 1rem;
+  color: var(--calcite-color-text-2);
+}
+
+.user_reaction_item div:nth-of-type(3):before {
+  content: '@';
+}
+
+/* user reaction, skeleton state */
+arcgis-skeleton-loader {
+  display: grid;
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  column-gap: 0.75rem;
+  row-gap: 0.125rem;
+  grid-template-columns: 2.75rem auto;
+}
+
+arcgis-skeleton-loader:has(div:nth-of-type(4)) {
+  grid-template-columns: 2.75rem auto minmax(0, 16px);
+}
+
+@keyframes shimmer {
+
+  0% {
+    background-size: 200% 100%;
+    background-position: 100% 0;
+  }
+
+  100% {
+    background-size: 200% 100%;
+    background-position: -100% 0;
+  }
+}
+
+arcgis-skeleton-loader > div:nth-of-type(1) {
+  animation: shimmer 2s cubic-bezier(0.4, 0, 0.2, 0.8) infinite;
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 100%);
+  background-color: var(--calcite-color-foreground-3);
+  grid-row: span 2 / span 2;
+  height: 2.75rem;
+  width: 2.75rem;
+  border-radius: 50%;
+}
+
+arcgis-skeleton-loader > div:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+}
+
+@keyframes shimmer {
+
+  0% {
+    background-size: 200% 100%;
+    background-position: 100% 0;
+  }
+
+  100% {
+    background-size: 200% 100%;
+    background-position: -100% 0;
+  }
+}
+
+arcgis-skeleton-loader > div:nth-of-type(2) div {
+  animation: shimmer 2s cubic-bezier(0.4, 0, 0.2, 0.8) infinite;
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 100%);
+  background-color: var(--calcite-color-foreground-3);
+  display: flex;
+  flex-grow: 1;
+  border-radius: 0.375rem;
+  font-size: var(--calcite-font-size-0);
+  line-height: 1.25rem;
+}
+
+arcgis-skeleton-loader > div:nth-of-type(3) {
+  display: flex;
+  align-items: center;
+}
+
+@keyframes shimmer {
+
+  0% {
+    background-size: 200% 100%;
+    background-position: 100% 0;
+  }
+
+  100% {
+    background-size: 200% 100%;
+    background-position: -100% 0;
+  }
+}
+
+arcgis-skeleton-loader > div:nth-of-type(3) div {
+  animation: shimmer 2s cubic-bezier(0.4, 0, 0.2, 0.8) infinite;
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 100%);
+  background-color: var(--calcite-color-foreground-3);
+  display: flex;
+  flex-grow: 1;
+  border-radius: 0.375rem;
+  font-size: var(--calcite-font-size--1);
+  line-height: 1rem;
+}
+
+arcgis-skeleton-loader:has(div:nth-of-type(4)) > div:nth-of-type(3) {
+  grid-row: span 2 / span 2;
+  display: flex;
+  align-items: center;
+}
+
+@keyframes shimmer {
+
+  0% {
+    background-size: 200% 100%;
+    background-position: 100% 0;
+  }
+
+  100% {
+    background-size: 200% 100%;
+    background-position: -100% 0;
+  }
+}
+
+arcgis-skeleton-loader::has(div:nth-of-type(4)) > div:nth-of-type(3) div {
+  animation: shimmer 2s cubic-bezier(0.4, 0, 0.2, 0.8) infinite;
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 100%);
+  background-color: var(--calcite-color-foreground-3);
+  display: flex;
+  height: 1rem;
+  flex-grow: 1;
+  border-radius: 0.5rem;
+  font-size: var(--calcite-font-size--1);
+  line-height: 1rem;
+}
+
+@keyframes shimmer {
+
+  0% {
+    background-size: 200% 100%;
+    background-position: 100% 0;
+  }
+
+  100% {
+    background-size: 200% 100%;
+    background-position: -100% 0;
+  }
+}
+
+arcgis-skeleton-loader > div:nth-of-type(4) div {
+  animation: shimmer 2s cubic-bezier(0.4, 0, 0.2, 0.8) infinite;
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 100%);
+  background-color: var(--calcite-color-foreground-3);
+  display: flex;
+  flex-grow: 1;
+  border-radius: 0.375rem;
+  font-size: var(--calcite-font-size--1);
+  line-height: 1rem;
+}
+
+.default_reactions {
+  display: flex;
+  flex-direction: row;
+  padding: 0.75rem;
+}
+
+.default_reactions ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0.5rem;
+  display: inline-flex;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.default_reactions li {
+  margin-right: 0.5rem;
+}
+
+.default_reactions li:last-of-type {
+  margin-right: 0px;
+}
+
+.all_reactions_list {
+  margin: 0px;
+  display: grid;
+  list-style-type: none;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.5rem;
+  padding: 0.75rem;
+}

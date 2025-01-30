@@ -1,0 +1,53 @@
+{
+  "settings": "Thiết lập",
+  "formDisabledTooltip": "Bạn không có quyền truy cập để thay đổi {type} này.",
+  "delete": {
+    "project": "Xóa dự án này",
+    "initiative": "Xóa sáng kiến này",
+    "site": "Xóa site này",
+    "discussion": "Xóa thảo luận này",
+    "content": "Xóa nội dung này",
+    "page": "Xóa trang này",
+    "group": "Xóa nhóm này",
+    "initiativeTemplate": "Xóa biểu mẫu sáng kiến này",
+    "template": "Xóa biểu mẫu này",
+    "survey": "Xóa khảo sát này",
+    "desc": {
+      "project": "Thao tác xóa dự án này không thể hoàn tác.",
+      "initiative": "Thao tác xóa sáng kiến này không thể hoàn tác.",
+      "site": "Thao tác xóa site này không thể hoàn tác.",
+      "discussion": "Thao tác xóa thảo luận này không thể hoàn tác.",
+      "content": "Thao tác xóa nội dung này không thể hoàn tác.",
+      "page": "Thao tác xóa trang này không thể hoàn tác.",
+      "group": "Thao tác xóa nhóm này không thể hoàn tác.",
+      "initiativeTemplate": "Thao tác xóa biểu mẫu sáng kiến này không thể hoàn tác.",
+      "template": "Thao tác xóa biểu mẫu này không thể hoàn tác.",
+      "survey": "Thao tác xóa khảo sát này không thể hoàn tác."
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "project": "Xóa dự án",
+      "initiative": "Xóa sáng kiến",
+      "site": "Xóa trang",
+      "discussion": "Xoá thảo luận",
+      "content": "Xoá nội dung",
+      "page": "Xóa trang",
+      "group": "Xóa nhóm",
+      "initiativeTemplate": "Xóa biểu mẫu sáng kiến",
+      "template": "Xóa biểu mẫu",
+      "survey": "Xóa khảo sát"
+    },
+    "content": "Bạn có chắc chắn muốn xóa không:",
+    "delete": "Xóa",
+    "cancel": "Hủy"
+  },
+  "sidePanel": {
+    "content": {
+      "extractNotice": {
+        "title": "Chức năng \"Trích xuất\" thay đổi các cài đặt dịch vụ.",
+        "message": "Các mục khác tham chiếu đến dịch vụ sẽ bị ảnh hưởng. Để biết thêm thông tin chi tiết, hãy xem mục <docLink>Xuất Dữ liệu từ các Lớp Đối tượng được Lưu trữ</docLink>"
+      }
+    }
+  }
+}

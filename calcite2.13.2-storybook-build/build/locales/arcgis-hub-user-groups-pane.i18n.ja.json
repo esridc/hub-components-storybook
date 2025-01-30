@@ -1,0 +1,33 @@
+{
+  "groups": "マイ グループ",
+  "addContentButtonText": "新しく作成",
+  "role": "ロール",
+  "owner": "所有者",
+  "updated": "更新",
+  "type": "タイプ",
+  "sharedUpdate": "共有の更新グループ",
+  "viewOnly": "表示専用グループ",
+  "actionLinks": {
+    "view": "表示",
+    "edit": "編集",
+    "ariaEdit": "{title} の編集",
+    "ariaView": "{title} の表示"
+  },
+  "facets": {
+    "access": {
+      "label": "閲覧できるユーザー",
+      "options": {
+        "public": "すべての人 (パブリック)",
+        "org": "組織",
+        "private": "自分"
+      }
+    },
+    "type": {
+      "label": "タイプ",
+      "options": {
+        "sharedUpdate": "共有の更新",
+        "opendata": "オープンデータ"
+      }
+    }
+  }
+}

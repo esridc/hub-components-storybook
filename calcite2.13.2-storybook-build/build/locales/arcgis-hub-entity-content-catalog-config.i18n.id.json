@@ -1,0 +1,46 @@
+{
+  "title": "Konfigurasi Katalog",
+  "helperText": "Tentukan dan konfigurasikan katalog",
+  "sections": {
+    "groups": {
+      "title": "Grup",
+      "helperText": "Grup di bawah berisi konten dalam katalog pencarian Anda. Pilih grup untuk melihat pengaturan, konten, dan lainnya.",
+      "createGroup": "Buat Grup Baru"
+    },
+    "feeds": {
+      "title": "Konfigurasi Feed",
+      "helperText": "Jadikan open data publik Anda mudah diakses dan digunakan kembali dengan feed Hub.",
+      "learn": "Pelajari tentang feed Hub",
+      "toggle": "Aktifkan Feed ",
+      "configure": "Konfigurasikan Umpan",
+      "notice": "Untuk mengaktifkan feed, Anda harus terlebih dahulu mengatur situs Hub Anda ke \"Publik\" di Pengaturan Anda"
+    }
+  },
+  "groupPickerFacet": {
+    "label": "Dari",
+    "editGroups": "Edit grup",
+    "viewGroups": "Lihat grup",
+    "myGroups": "Grup saya",
+    "myOrganization": "Organisasi saya",
+    "myCommunity": "Komunitas saya",
+    "public": "Publik"
+  },
+  "formAlert": "Peringatan formulir",
+  "configSaveAlert": {
+    "success": "Berhasil menyimpan editan",
+    "failure": "Terjadi kesalahan saat menyimpan hasil perubahan"
+  },
+  "reharvestCatalogButton": "Periksa kesalahan",
+  "reharvestWarningModal": {
+    "title": "Periksa kesalahan",
+    "body1": "Peringatan: Opsi ini umumnya hanya digunakan dalam situasi ketika halaman pencarian Anda mengalami masalah dengan hasil atau metadata yang hilang. Opsi ini akan memeriksa semua item dalam semua grup katalog untuk penambahan, perubahan metadata, atau penghapusan.",
+    "body2": "Menjalankan proses ini akan membangun kembali indeks pencarian publik katalog ini dan mungkin memerlukan waktu beberapa menit. Ini akan menambah muatan pada instans ArcGIS Server.",
+    "primaryButton": "Lanjutkan",
+    "secondaryButton": "Batalkan"
+  },
+  "reharvestCatalogAlert": {
+    "success": "Memeriksa kesalahan. Harap periksa kembali nanti.",
+    "inProgress": "Pemeriksaan sedang berlangsung. Kembalilah nanti.",
+    "failure": "Maaf, terjadi kesalahan operasional. Harap coba lagi nanti."
+  }
+}

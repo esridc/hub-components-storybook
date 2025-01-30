@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "Συλλογή στοιχείων",
+    "fgdb": "File Geodatabase",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Shapefile",
+    "sqlite": "SQLite Geodatabase"
+  },
+  "buttonText": {
+    "download": "Λήψη",
+    "pending": "Σε εκκρεμότητα",
+    "processing": "Επεξεργασία",
+    "converting": "Μετατροπή",
+    "completed": "Η λήψη ολοκληρώθηκε",
+    "failed": "Η λήψη απέτυχε"
+  },
+  "errors": {
+    "errorHeading": "Σφάλμα"
+  },
+  "cacheStatusAccordion": {
+    "heading": "Βρήκατε αυτό που χρειαζόσασταν;",
+    "content": "Ενδέχεται να υπάρχει διαθέσιμη μια πιο πρόσφατη έκδοση.",
+    "button": "Αίτημα για νέο αρχείο"
+  },
+  "generateNewModal": {
+    "heading": "Σίγουρα;",
+    "content": "Ενδέχεται να διαρκέσει λίγη ώρα. Διατηρήστε ενεργή αυτή την καρτέλα του προγράμματος περιήγησης μέχρι να ολοκληρωθεί η λήψη.",
+    "confirmButton": "Ναι",
+    "cancelButton": "Ακύρωση"
+  }
+}

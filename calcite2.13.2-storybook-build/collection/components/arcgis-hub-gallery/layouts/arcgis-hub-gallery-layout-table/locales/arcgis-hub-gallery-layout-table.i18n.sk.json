@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Neboli nájdené žiadne výsledky."
+    },
+    "error": {
+      "message": "Je nám ľúto, ale pri vyhľadávaní sa vyskytla chyba."
+    }
+  },
+  "access": "Prístup",
+  "actionsHeader": "Akcie",
+  "caption": "Tabuľka entity Hub",
+  "family": "Trieda",
+  "type": "Typ",
+  "tags": "Štítky",
+  "owner": "Vlastník",
+  "dateCreated": "Vytvorené",
+  "dateUpdated": "Modifikované",
+  "description": "Popis",
+  "dateAndTime": "Dátum a čas",
+  "location": "Lokalita",
+  "attendanceType": "Typ dochádzky",
+  "inPerson": "Osobne",
+  "online": "Online",
+  "hybrid": "Hybridne",
+  "categories": "Kategórie",
+  "content": "Obsah",
+  "name": "Názov",
+  "start": "Začiatok",
+  "end": "Koniec",
+  "sharedUpdate": "Zdieľaná aktualizácia",
+  "managers": "Manažéri",
+  "username": "Používateľské meno",
+  "no": "Nie",
+  "yes": "Áno",
+  "title": "Názov",
+  "thumbnail": "Miniatúra",
+  "types": {
+    "app": "Aplikácia",
+    "content": "Obsah",
+    "dataset": "Dataset",
+    "discussion": "Diskusné fórum",
+    "document": "Dokument",
+    "event": "Udalosť",
+    "feedback": "Spätná väzba",
+    "initiative": "Iniciatíva",
+    "image": "Snímka",
+    "map": "Mapa",
+    "other": "Iné",
+    "people": "Ľudia",
+    "site": "Stránka",
+    "team": "Skupina",
+    "template": "Šablóna",
+    "project": "Projekt"
+  }
+}

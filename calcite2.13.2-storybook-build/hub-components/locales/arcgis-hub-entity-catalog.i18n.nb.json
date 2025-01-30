@@ -1,0 +1,65 @@
+{
+  "catalog": "Katalog",
+  "catalog-content": "Innhold",
+  "catalog-events": "Arrangementer",
+  "shared": {
+    "publish": {
+      "label": "Lagre",
+      "success": {
+        "title": "Publiserte redigeringene av kataogen til live visning"
+      },
+      "error": {
+        "title": "Feil under lagring av redigeringer"
+      }
+    }
+  },
+  "emptyState": {
+    "message": "Ingen katalog definert",
+    "action": "Bygg en katalog"
+  },
+  "actionBar": {
+    "details": "Katalogkonfigurasjon",
+    "appearance": "Katalogutseende",
+    "tooltip": {
+      "appearanceDisabled": "Det er for tiden ikke konfigurert noen kataloger. Konfigurer en katalog for å justere innstillingene for utseende.",
+      "configuration": "Konfigurasjon",
+      "appearance": "Utseende"
+    }
+  },
+  "detailsPanel": {
+    "heading": "Katalogkonfigurasjon",
+    "close": "Lukk katalogkonfigurasjon",
+    "catalogBuilder": {
+      "helperText": "Katalogen din lar besøkende søke og vise innhold. Resultatene som vises, er basert på hvordan spørringen er konfigurert."
+    },
+    "querySizeNotice": {
+      "warning": {
+        "title": "Kataloggrensen nærmer seg",
+        "catalogSourceMessage": {
+          "item": "Konfigurasjonen av elementets kilde nærmer seg størrelsesgrensen.",
+          "event": "Konfigurasjonen av arrangementets kilde nærmer seg størrelsesgrensen."
+        },
+        "collectionSourceMessage": {
+          "item": "Kombinasjonen av konfigurasjonen av elementkilden og samlingen \"{collectionName}\" nærmer seg størrelsesgrensen.",
+          "event": "Kombinasjonen av konfigurasjonen av arrangementets kilde og samlingen \"{collectionName}\" nærmer seg størrelsesgrensen."
+        }
+      },
+      "danger": {
+        "title": "Kataloggrensen er overskredet",
+        "catalogSourceMessage": {
+          "item": "Konfigurasjonen av elementets kilde har overskredet størrelsesgrensen. Reduser antallet filtere og/eller filteralternativer i elementets kilde som skal publiseres.",
+          "event": "Konfigurasjonen av arrangementets kilde har overskredet størrelsesgrensen. Reduser antallet filtere og/eller filteralternativer i arrangementets kilde som skal publiseres."
+        },
+        "collectionSourceMessage": {
+          "item": "Kombinasjonen av konfigurasjonen av elementkilden og samlingen \"{collectionName}\" har overskredet størrelsesgrensen. Reduser antallet filtere og/eller filteralternativer i elementets kilde og/eller samlingen \"{collectionName}\" som skal publiseres.",
+          "event": "Kombinasjonen av konfigurasjonen av arrangementets kilde og samlingen \"{collectionName}\" har overskredet størrelsesgrensen. Reduser antallet filtere og/eller filteralternativer i arrangementets kilde og/eller samlingen \"{collectionName}\" som skal publiseres."
+        }
+      }
+    }
+  },
+  "appearancePanel": {
+    "heading": "Katalogutseende",
+    "close": "Lukk katalogutseende",
+    "description": "Katalogen din lar besøkende søke og vise innhold. Her kan du oppdatere hvordan standardkatalogen skal se ut og hvilke filtre du ønsker at skal vises."
+  }
+}

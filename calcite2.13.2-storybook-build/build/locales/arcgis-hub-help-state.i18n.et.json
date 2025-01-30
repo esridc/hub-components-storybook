@@ -1,0 +1,26 @@
+{
+  "unauthenticated": {
+    "heading": "Logige sisse.",
+    "message": "See sait nõuab juurdepääsuks sisselogimisandmeid.",
+    "actionText": "Logi sisse"
+  },
+  "not-found": {
+    "heading": "Lehte ei leitud",
+    "message": "See leht võib olla teisaldatud või kustutatud. Püüdke seda otsida avalehelt",
+    "actionText": "Mine avalehele"
+  },
+  "unsupported-device": {
+    "heading": "Toetuseta ekraanisuurus",
+    "message": "Tööruumid pole veel väiksema suurusega ekraanidel saadaval; kasutage suurema ekraaniga seadet.",
+    "actionText": "Mine tagasi"
+  },
+  "access-denied": {
+    "heading": "Juurdepääs keelatud",
+    "message": "Teil puudub sellele ressursile juurdepääsu õigus.",
+    "actionText": "Mine avalehele"
+  },
+  "loading": {
+    "heading": "Laadimine...",
+    "loadingLabel": "Laadimine"
+  }
+}

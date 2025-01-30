@@ -1,0 +1,59 @@
+{
+  "title": "Membri",
+  "facets": {
+    "role": {
+      "label": "Rol",
+      "all": "Totul",
+      "manager": "Manager",
+      "member": "Membru"
+    },
+    "dateJoined": {
+      "label": "Data înscrierii"
+    }
+  },
+  "stats": {
+    "total": {
+      "title": "Total",
+      "trailingText": "Membrii grupului"
+    },
+    "new": {
+      "title": "Nou",
+      "trailingText": "Ultimele 30 de zile"
+    }
+  },
+  "addMembers": {
+    "button": "Adăugare membri",
+    "disabledTooltip": "Nu aveți acces pentru a adăuga utilizatori la acest grup.",
+    "modal": {
+      "title": "Adăugare membri",
+      "org": "Organizația mea",
+      "community": "Comunitatea mea",
+      "partner": "Partenerii mei",
+      "world": "Glob"
+    },
+    "notifications": {
+      "invited": "Invitație trimisă. Utilizatorii trebuie să accepte să se alăture",
+      "added": "Utilizatori adăugați",
+      "notInvited": "Unii utilizatori pot să nu aibă privilegiile necesare pentru a intra în grup sau pot fi la o limită maximă de grup (512)"
+    }
+  },
+  "removeUsers": {
+    "button": "Eliminare",
+    "success": "Membrii eliminați cu succes din {groupName}.",
+    "error": "Unul sau mai mulți utilizatori nu au putut fi eliminați din grup."
+  },
+  "changeRole": {
+    "tooltipText": "Deselectați-vă pe dvs. și/sau proprietarul grupului",
+    "tooltipLabel": "Precizări legale rol",
+    "button": "Schimbare rol",
+    "member": "Membru",
+    "memberHelperText": "Poate adăuga și vedea conținutul din grup.",
+    "admin": "Manager",
+    "adminHelperText": "Poate adăuga/elimina conținut și invita/elimina persoane (cu excepția proprietarului).",
+    "success": "Membrii selectați au devenit grup {role}.",
+    "error": "Rolul nu a putut fi schimbat pentru unul sau mai mulți membri."
+  },
+  "notice": {
+    "label": "Alertă formular"
+  }
+}

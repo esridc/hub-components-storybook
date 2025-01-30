@@ -1,0 +1,27 @@
+:host {
+  display: block;
+}
+
+/* Match font variables in arcgis-hub-facet-options */
+calcite-tree-item {
+  --calcite-font-size--1: 16px; /* consider switching this to rem */
+  --calcite-color-text-3: var(--calcite-color-text-1);
+  padding-top: 0.5rem;
+}
+
+.option-label {
+  /*
+    Doesn't work on Opera for Android, but is the only way we can break
+    long category names while NOT breaking the option count (e.g. `(5)`)
+  */
+  overflow-wrap: anywhere;
+  -webkit-hyphens: auto;
+          hyphens: auto;
+}
+
+.more-or-less-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 0.5rem;
+}

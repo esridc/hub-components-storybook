@@ -1,0 +1,57 @@
+{
+  "new": "Ny",
+  "project": {
+    "label": "Projekt",
+    "description": "Fremhæv arbejde med klare mål og tidsrammer",
+    "createLabel": "Opret projekt",
+    "newLabel": "Nyt projekt"
+  },
+  "initiative": {
+    "label": "Initiativ",
+    "description": "Initiativer organiserer og summerer statussen i forhold til et mål",
+    "createLabel": "Opret initiativ",
+    "newLabel": "Nyt initiativ"
+  },
+  "discussion": {
+    "label": "Diskussionstavle",
+    "description": "Opret en ny diskussionstavle ved at angive en titel, der angiver emnet.",
+    "createLabel": "Opret diskussionstavle",
+    "newLabel": "Ny diskussionstavle"
+  },
+  "site": {
+    "label": "Websted",
+    "description": "Opret en webside til at organisere og dele information",
+    "createLabel": "Opret websted",
+    "newLabel": "Nyt websted"
+  },
+  "event": {
+    "label": "Begivenhed",
+    "description": "Host en organiseret aktivitet, med personlig deltagelse eller virtuelt",
+    "createLabel": "Opret begivenhed",
+    "newLabel": "Ny begivenhed"
+  },
+  "content": {
+    "label": "Indhold",
+    "description": "Føj data, dokumenter, billeder og eksterne links til dit websted",
+    "createLabel": "Opret indhold",
+    "newLabel": "Nyt indhold"
+  },
+  "feedback": {
+    "label": "Feedback",
+    "description": "Indsaml fokuserede oplysninger med værktøjer som f.eks. undersøgelser og meningsmålinger",
+    "createLabel": "Opret feedback",
+    "newLabel": "Ny feedback"
+  },
+  "app": {
+    "label": "App",
+    "description": "Skab en oplevelse, fortæl en historie, visualiser dine data",
+    "createLabel": "Opret app",
+    "newLabel": "Ny app"
+  },
+  "group": {
+    "label": "Gruppe",
+    "description": "Opret en gruppe til at samarbejde om fokuseret indhold",
+    "createLabel": "Opret gruppe",
+    "newLabel": "Ny gruppe"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "tabTitle": "Konfiguration av feeds",
+  "learn": "Läs mer om Hub-feeds",
+  "loadingLabel": "Läser in",
+  "enableFeedsToggle": {
+    "label": "Aktivera feeds",
+    "privateNotice": "Om du vill aktivera feeds måste du först ange din Hubb-webbplats till \"Offentlig\".",
+    "emptyPublicCatalog": {
+      "message": "Om du vill aktivera feeds måste du först lägga till offentligt innehåll i din katalog.",
+      "button": "Visa katalog"
+    },
+    "grouplessCatalog": {
+      "message": "Om du vill aktivera feeds måste du först konfigurera din katalog.",
+      "button": "Konfigurera katalog"
+    }
+  },
+  "gettingStartedNotice": {
+    "title": "Komma igång",
+    "exampleMessage": "Markera och uppdatera en nyckel eller ett värde i JSON-redigeraren med en literal (\"VÄRDE\") eller ett mallvärde (\"{{TEMPLATE_VALUE}}\").",
+    "previewMessage": "Använd växlingsknappen \"förhandsgranska\" för att förhandsgranska dina ändringar. Läs <catalogFederationLink>hjälpdokumentationen för katalogfederation</catalogFederationLink> om du vill ha mer information."
+  },
+  "aboutFeedsNotice": {
+    "message": "Gör dina offentliga öppna data lättillgängliga och återanvändbara med Hub-feeds.",
+    "link": "Läs mer om Hub-feeds"
+  },
+  "feedsEditorSection": {
+    "title": "Feeds",
+    "formatSelectLabel": "Välj en feed-typ",
+    "uneditableAttributesIntro": "Observera att följande attribut inte kan redigeras:",
+    "edit": "Redigera",
+    "preview": "Förhandsgranska",
+    "selectContentNotice": "Välj innehåll att förhandsgranska.",
+    "invalidJsonEditorWarning": "Ogiltig JSON. Korrigera fel innan du sparar.",
+    "invalidJsonPreviewWarning": "Det går inte att förhandsgranska ogiltig JSON, korrigera fel.",
+    "errorPreviewingWarning": "Ett fel har inträffat. Kontrollera anslutningen och försök igen. Om problemet kvarstår kan du logga ett fel med Hub-support."
+  },
+  "toolsSection": {
+    "title": "Verktyg",
+    "verification": "Verifiering",
+    "previewSampleData": {
+      "label": "Förhandsgranska exempeldata",
+      "pickerFacets": {
+        "type": "Typ",
+        "tags": "Tagg",
+        "categories": "Kategori",
+        "sharing": "Delning",
+        "dateUpdated": "Uppdaterad den"
+      }
+    },
+    "copyableInputLabel": "URL för feed-åtkomst"
+  },
+  "dcat-us": {
+    "1.1": {
+      "title": "DCAT-US 1.1",
+      "description": "DCAT gör det möjligt för organisationer att standardisera dataöverföring och hjälper personer att analysera federala källor. Du kan använda <dcatUsSchemaLink>DCAT-schemat</dcatUsSchemaLink> som etablerats av Project Open Data, vilket är standardkonfigurationen, eller så kan du konfigurera vissa fält/attribut själv. Webbplatsadministratörer kan också lägga till ytterligare DCAT-konfigurationer och kanske vill läsa vår dokumentation om att <catalogFederationLink>federera data med DCAT och andra externa kataloger.</catalogFederationLink>",
+      "uneditableAttributes": "@type, landingPage, webService och contactPoint['@type'].",
+      "verificationLabel": "Du kan verifiera ditt DCAT-flöde genom att klistra in din webbplats DCAT-URL i <dcatUsVerificationLink>Project Open Datas validerare</dcatUsVerificationLink>."
+    }
+  },
+  "dcat-ap": {
+    "2.1.1": {
+      "title": "DCAT-AP 2.1.1",
+      "description": "DCAT-AP har etablerats av Europeiska kommissionen och är utbytesformatet för standardmetadata i europeiska datakataloger. ArcGIS Hub skapar och uppdaterar din webbplats DCAT-AP-feed när du redigerar information om ditt innehålls metadata eller lägger till nytt publikt innehåll i din katalog. Eftersom feeden använder metadata som underhålls i ArcGIS Online behöver du inte skapa separata DCAT-AP-metadata manuellt.<lineBreak></lineBreak><lineBreak></lineBreak>När du använder denna redigerare kan du behålla ArcGIS Hubs standardkonfiguration av <dcatApSchemaLink>DCAT-AP-schema</dcatApSchemaLink>, eller så kan du konfigurera vissa fält/attribut själv. Du kan även lägga till DCAT-AP-fält/-attribut. Mer information finns i ArcGIS Hubs dokumentation om <catalogFederationLink>federera data med DCAT och andra externa kataloger.</catalogFederationLink>.",
+      "uneditableAttributes": "@type, @id, dcat:contactPoint['@id'], dcat:contactPoint['@type'], dct:publisher, dcat:theme, dct:accessRights, dcat:keyword, dct:provenance, dct:issued och dct:language.",
+      "verificationLabel": "Du kan verifiera ditt DCAT-flöde genom att klistra in webbplatsens DCAT URL i <dcatApVerificationLink>Europeiska kommissionens testbädd för driftskompatibilitet</dcatApVerificationLink>."
+    }
+  },
+  "rss": {
+    "2.0": {
+      "title": "RSS 2.0",
+      "description": "<rssAboutLink>RSS 2</rssAboutLink> är ett syndikeringsformat för webbinnehåll och följer <xmlSpecLink>XML 1.0-specifikationen</xmlSpecLink>. Med denna redigerare kan du behålla ArcGIS Hubs standardkonfiguration, eller så kan du konfigurera vissa fält/attribut själv. Mer information finns i ArcGIS Hubs dokumentation om <catalogFederationLink>federera data med DCAT och andra externa kataloger.</catalogFederationLink>",
+      "verificationLabel": "Du kan verifiera ditt RSS-flöde genom att klistra in din webbplats RSS-URL i W3:s <rssVerificationLink>Flödesvaliderare</rssVerificationLink>."
+    }
+  },
+  "saveButton": "Spara",
+  "alertMessages": {
+    "success": "Ändringarna har sparats",
+    "error": "Fel när ändringarna sparades"
+  },
+  "formAlert": "Formulärvarning"
+}

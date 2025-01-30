@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "Modifica gruppi",
+        "viewGroups": "Visualizza gruppi"
+      },
+      "facet": {
+        "label": "Da",
+        "myGroups": "I miei gruppi",
+        "myOrganization": "La mia organizzazione",
+        "myCommunity": "La mia community"
+      }
+    }
+  },
+  "property": {
+    "label": "Parametro",
+    "requiredError": "Parametro è obbligatorio"
+  },
+  "operator": {
+    "label": "Criteri",
+    "requiredError": "Criteri sono obbligatori"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "Tipo"
+    },
+    "group": {
+      "default": "Gruppi"
+    },
+    "occurrence": {
+      "default": "Occorrenza"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "È uno di",
+      "group": "È condiviso con uno di"
+    },
+    "isAll": {
+      "default": "È tutto di",
+      "group": "È condiviso con tutto di"
+    },
+    "isExactly": {
+      "default": "È esattamente",
+      "occurrence": "Is"
+    },
+    "isNot": {
+      "default": "Non è",
+      "type": "È nessuno di",
+      "group": "È condiviso con nessuno di"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "Gruppi",
+      "requiredError": "Gruppi è obbligatorio"
+    },
+    "type": {
+      "label": "Tipi",
+      "requiredError": "Tipi sono obbligatori",
+      "app": {
+        "label": "App"
+      },
+      "content": {
+        "label": "Contenuto"
+      },
+      "dataset": {
+        "label": "Dataset"
+      },
+      "discussion": {
+        "label": "Discussioni"
+      },
+      "document": {
+        "label": "Documenti"
+      },
+      "event": {
+        "label": "Eventi"
+      },
+      "feedback": {
+        "label": "Feedback"
+      },
+      "initiative": {
+        "label": "Iniziative"
+      },
+      "map": {
+        "label": "Mappe"
+      },
+      "project": {
+        "label": "Progetti"
+      },
+      "site": {
+        "label": "Sites"
+      },
+      "template": {
+        "label": "Modelli"
+      }
+    },
+    "occurrence": {
+      "label": "Occorrenza",
+      "requiredError": "Occorrenza è obbligatorio",
+      "upcoming": "Prossimo",
+      "past": "Passato",
+      "inProgress": "In-corso"
+    }
+  }
+}

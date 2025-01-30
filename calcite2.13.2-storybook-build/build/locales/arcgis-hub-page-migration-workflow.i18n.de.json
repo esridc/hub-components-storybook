@@ -1,0 +1,46 @@
+{
+  "heading": "Seiteninformationen",
+  "form": {
+    "title": {
+      "label": "Seitenname",
+      "requiredError": "Name ist erforderlich",
+      "entityTitleValidatorError": "Der Seitenname darf Emojis und die Zeichen <, > oder = nicht enthalten."
+    },
+    "slug": {
+      "label": "Slug",
+      "helperText": "Der Slug ist die URL-freundliche Version des Seitennamens. Er wird automatisch basierend auf dem Seitennamen generiert, kann jedoch angepasst werden.",
+      "patternError": "Fehler: Der Slug muss aus durch Bindestriche getrennten alphanumerischen Kleinbuchstaben bestehen.",
+      "isUniqueError": "Dieser Slug wird bereits verwendet. Wählen Sie einen anderen Slug aus.",
+      "requiredError": "Slug ist erforderlich"
+    }
+  },
+  "controls": {
+    "back": "Zurück",
+    "cancel": "Abbrechen",
+    "close": "Fertig",
+    "migrate": "Seite migrieren",
+    "next": "Weiter"
+  },
+  "selection": {
+    "unlimited": "{count} ausgewählt",
+    "limited": "{count}/{limit} ausgewählt"
+  },
+  "steps": {
+    "specifyInfo": "Grundlegende Informationen hinzufügen",
+    "selectGroups": "Gruppe auswählen",
+    "confirmation": "Bestätigung"
+  },
+  "working": {
+    "heading": "Seite wird migriert.",
+    "loadingLabel": "Seite wird migriert"
+  },
+  "success": {
+    "heading": "Seite wurde migriert",
+    "message": "Die Seite wurde erfolgreich migriert."
+  },
+  "failure": {
+    "heading": "Seite wurde nicht migriert",
+    "message": "Bei der Migration der Seite ist ein Fehler aufgetreten. Versuchen Sie es erneut.",
+    "action": "Erneut versuchen"
+  }
+}

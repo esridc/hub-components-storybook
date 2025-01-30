@@ -1,0 +1,108 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "Edit groups",
+        "viewGroups": "View groups"
+      },
+      "facet": {
+        "label": "From",
+        "myGroups": "My groups",
+        "myOrganization": "My organization",
+        "myCommunity": "My community"
+      }
+    }
+  },
+  "property": {
+    "label": "Parameter",
+    "requiredError": "Parameter is required"
+  },
+  "operator": {
+    "label": "Criteria",
+    "requiredError": "Criteria is required"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "Type"
+    },
+    "group": {
+      "default": "Groups"
+    },
+    "occurrence": {
+      "default": "Occurrence"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "Is any of",
+      "group": "Is shared with any of"
+    },
+    "isAll": {
+      "default": "Is all of",
+      "group": "Is shared with all of"
+    },
+    "isExactly": {
+      "default": "Is exactly",
+      "occurrence": "Is"
+    },
+    "isNot": {
+      "default": "Is not",
+      "type": "Is none of",
+      "group": "Is shared with none of"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "Groups",
+      "requiredError": "Groups are required"
+    },
+    "type": {
+      "label": "Types",
+      "requiredError": "Types are required",
+      "app": {
+        "label": "Apps"
+      },
+      "content": {
+        "label": "Content"
+      },
+      "dataset": {
+        "label": "Datasets"
+      },
+      "discussion": {
+        "label": "Discussions"
+      },
+      "document": {
+        "label": "Documents"
+      },
+      "event": {
+        "label": "Events"
+      },
+      "feedback": {
+        "label": "Feedback"
+      },
+      "initiative": {
+        "label": "Initiatives"
+      },
+      "map": {
+        "label": "Maps"
+      },
+      "project": {
+        "label": "Projects"
+      },
+      "site": {
+        "label": "Sites"
+      },
+      "template": {
+        "label": "Templates"
+      }
+
+    },
+    "occurrence": {
+      "label": "Occurrence",
+      "requiredError": "Occurrence is required",
+      "upcoming": "Upcoming",
+      "past": "Past",
+      "inProgress": "In-progress"
+    }
+  }
+}

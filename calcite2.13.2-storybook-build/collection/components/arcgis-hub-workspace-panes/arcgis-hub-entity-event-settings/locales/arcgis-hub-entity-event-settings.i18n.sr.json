@@ -1,0 +1,49 @@
+{
+  "settings": "Postavke",
+  "advanced": "Napredna",
+  "delete": {
+    "event": "Izbriši ovaj događaj",
+    "desc": "Brizanje ovog događaja se ne može opozvati. Postojeća lica koja se registruju će biti obaveštena (ako su za događaj omogućena automatska obaveštenja).",
+    "deleteButton": "Izbrišite događaj"
+  },
+  "cancel": {
+    "header": "Otkaži ovaj događaj",
+    "desc": "Ako se odkaže, događaj će ostati vidljiv sa otkazanim statusom. Registracija će biti zaustavljena i postojeća lica koja se registruju će o tome biti obaveštena (ako su za događaj omogućena automatska obaveštenja).",
+    "event": "Otkaži događaj",
+    "notice": {
+      "success": {
+        "title": "Događaj je otkazan",
+        "message": "Postojeća lica koja se registruju će biti obaveštena ako su omogućena automatska obaveštenja."
+      },
+      "error": {
+        "title": "Nije moguće otkazati događaj",
+        "message": "Pokušajte ponovo"
+      }
+    }
+  },
+  "enable": {
+    "event": "Omogući ponovo događaj",
+    "desc": "Događaj je otkazan (vidljiv je sa otkazanim statusom).",
+    "notice": {
+      "success": {
+        "title": "Događaj je ponovo omogućen",
+        "message": "Postojeća lica koja se registruju će biti obaveštena ako su omogućena automatska obaveštenja."
+      },
+      "error": {
+        "title": "Nije moguće ponovo omogućiti događaj",
+        "message": "Pokušajte ponovo"
+      }
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "event": "Izbrišite događaj"
+    },
+    "content": "Da li ste sigurni da želite da izbrišete:",
+    "delete": "Izbrišite događaj",
+    "cancel": "Otkaži događaj"
+  },
+  "notice": {
+    "label": "Formiraj upozorenje"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "編集",
+    "fields": {
+      "label": {
+        "label": "ラベル",
+        "requiredMessage": "ラベルが必要です",
+        "maxLengthMessage": "ラベルは {maxLength} 文字以下である必要があります"
+      }
+    },
+    "apply": "適用"
+  },
+  "showItem": "次のリスト アイテムを表示: {itemLabel}",
+  "hideItem": "次のリスト アイテムを非表示: {itemLabel}",
+  "editItem": "次のリスト アイテムを編集: {itemLabel}"
+}

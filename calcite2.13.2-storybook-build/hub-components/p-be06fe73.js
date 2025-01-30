@@ -1,0 +1,1 @@
+function n(t,o=[]){for(const r in t){const $=t[r];"string"==typeof $?$.startsWith("#")&&o.push($):n(t[r],o)}return o}function t(n){let t=n;if(/^#(?:[0-9a-fA-F]{3})$/.test(n)){const[o,r,$]=n.substring(1).split("");t=`#${o}${o}${r}${r}${$}${$}`}return t}export{t as c,n as g}

@@ -1,0 +1,46 @@
+{
+  "registrants": "Registranti",
+  "invite": "Povabi",
+  "tabs": {
+    "registrants": "Registranti",
+    "settings": "Nastavitve"
+  },
+  "emptyNotice": {
+    "title": "Ni registrantov",
+    "desc": "Občinstvo zagotavlja več zabave na dogodkih. Povabite ljudi ali delite svoj dogodek, da jih spodbudite k udeležbi.",
+    "link": "Povabi registrante"
+  },
+  "facets": {
+    "role": {
+      "header": "Vloga",
+      "owner": "Lastnik",
+      "organizer": "Organizator",
+      "attendee": "Registrant"
+    },
+    "status": {
+      "header": "Stanje",
+      "pending": "Na čakanju",
+      "accepted": "Sprejeto",
+      "declined": "Zavrnjeno",
+      "blocked": "Blokirano"
+    },
+    "location": {
+      "header": "Lokacija",
+      "online": "Spletno",
+      "in_person": "Osebno"
+    },
+    "updatedDate": "Posodobljen datum"
+  },
+  "delete": {
+    "attendee": "Odstrani registranta"
+  },
+  "notice": {
+    "label": "Opozorilo obrazca"
+  },
+  "success": {
+    "delete": "Registranti so uspešno odstranjeni iz {eventName}."
+  },
+  "error": {
+    "delete": "Enega ali več registrantov ni bilo mogoče odstraniti iz dogodka."
+  }
+}

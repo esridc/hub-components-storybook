@@ -1,0 +1,33 @@
+{
+  "title": "Collections",
+  "actions": {
+    "label": "Options",
+    "show": "Afficher",
+    "hide": "Masquer",
+    "rename": "Renommer"
+  },
+  "formAlert": "Alerte de formulaire",
+  "alertMessages": {
+    "success": "Modifications enregistrées",
+    "error": "Erreur lors de l’enregistrement des modifications"
+  },
+  "collectionRenameModal": {
+    "title": "Renommer la collection",
+    "fieldLabel": "Étiquette de la collection",
+    "requiredMessage": "L’étiquette de la collection est requise",
+    "apply": "Appliquer",
+    "maxLengthMessage": "L’étiquette de la collection ne doit pas comporter plus de 50 caractères"
+  },
+  "collections": {
+    "dataset": "Données",
+    "site": "Sites",
+    "document": "Documents",
+    "appAndMap": "Applications et cartes"
+  },
+  "saveButton": "Enregistrer",
+  "sections": {
+    "collectionConfiguration": {
+      "title": "Configuration de la collection"
+    }
+  }
+}

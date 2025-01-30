@@ -1,0 +1,53 @@
+{
+  "settings": "Definições",
+  "formDisabledTooltip": "Não tem acesso para efetuar alterações a este(a) {type}.",
+  "delete": {
+    "project": "Eliminar este projeto",
+    "initiative": "Eliminar esta iniciativa",
+    "site": "Eliminar este site",
+    "discussion": "Eliminar esta discussão",
+    "content": "Eliminar este conteúdo",
+    "page": "Eliminar esta página",
+    "group": "Eliminar este grupo",
+    "initiativeTemplate": "Eliminar este modelo de iniciativa",
+    "template": "Eliminar este modelo",
+    "survey": "Eliminar este inquérito",
+    "desc": {
+      "project": "A eliminação deste projeto é irreversível.",
+      "initiative": "A eliminação desta iniciativa é irreversível.",
+      "site": "A eliminação deste site é irreversível.",
+      "discussion": "A eliminação desta discussão é irreversível.",
+      "content": "A eliminação deste conteúdo é irreversível.",
+      "page": "A eliminação desta página é irreversível.",
+      "group": "A eliminação deste grupo é irreversível.",
+      "initiativeTemplate": "A eliminação deste modelo de iniciativa é irreversível.",
+      "template": "A eliminação deste modelo é irreversível.",
+      "survey": "A eliminação deste inquérito é irreversível."
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "project": "Eliminar projeto",
+      "initiative": "Eliminar iniciativa",
+      "site": "Eliminar site",
+      "discussion": "Eliminar discussão",
+      "content": "Eliminar conteúdo",
+      "page": "Eliminar página",
+      "group": "Eliminar grupo",
+      "initiativeTemplate": "Eliminar modelo de iniciativa",
+      "template": "Eliminar modelo",
+      "survey": "Eliminar inquérito"
+    },
+    "content": "Tem a certeza de que pretende eliminar:",
+    "delete": "Eliminar",
+    "cancel": "Cancelar"
+  },
+  "sidePanel": {
+    "content": {
+      "extractNotice": {
+        "title": "A capacidade de \"extração\" altera as definições do serviço.",
+        "message": "Outros itens que fazem referência ao serviço serão afetados. Para obter mais detalhes, consulte <docLink>Exportar Dados de Camadas de Elementos Alojadas</docLink>"
+      }
+    }
+  }
+}

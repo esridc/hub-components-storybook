@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "Detay Toplama",
+    "fgdb": "Dosya Tabanlı Coğrafi Veri Tabanı",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Shapefile",
+    "sqlite": "SQLite Coğrafi Veri Tabanı"
+  },
+  "buttonText": {
+    "download": "İndir",
+    "pending": "Beklemede",
+    "processing": "İşleniyor",
+    "converting": "Dönüştürülüyor",
+    "completed": "İndirme tamamlandı",
+    "failed": "İndirme başarısız oldu"
+  },
+  "errors": {
+    "errorHeading": "Hata"
+  },
+  "cacheStatusAccordion": {
+    "heading": "Aradığınızı buldunuz mu?",
+    "content": "Daha yakın tarihli bir versiyon mevcut olabilir.",
+    "button": "Yeni dosya talep et"
+  },
+  "generateNewModal": {
+    "heading": "Emin misiniz?",
+    "content": "Bu işlem biraz uzun sürebilir. İndirme tamamlanana kadar lütfen bu tarayıcı sekmesini aktif tutun.",
+    "confirmButton": "Evet",
+    "cancelButton": "İptal"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "content": "Obsah",
+  "myContent": "Môj obsah",
+  "editableContent": "Editovateľný obsah",
+  "addContentButtonText": "Vytvoriť nové",
+  "type": "Typ",
+  "sharedUpdate": "Skupina zdieľanej aktualizácie",
+  "viewOnly": "Zobraziť iba skupinu",
+  "owner": "Vlastník",
+  "updated": "Aktualizované",
+  "tags": "Štítky",
+  "dateCreated": "Vytvorené",
+  "dateUpdated": "Modifikované",
+  "actionLinks": {
+    "view": "Zobraziť",
+    "edit": "Editovať",
+    "ariaEdit": "Editovať {title}",
+    "ariaView": "Zobraziť {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Obsah",
+      "myContent": "Obsah, ktorý vlastním",
+      "editableContent": "Obsah, ktorý môžem editovať",
+      "all": "Celý obsah"
+    },
+    "access": {
+      "label": "Z"
+    },
+    "type": {
+      "label": "Typy"
+    },
+    "tags": {
+      "label": "Štítky"
+    },
+    "categories": {
+      "label": "Kategórie"
+    },
+    "modified": {
+      "label": "Modifikované"
+    }
+  }
+}

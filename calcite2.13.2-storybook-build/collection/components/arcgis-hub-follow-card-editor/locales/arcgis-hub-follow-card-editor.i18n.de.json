@@ -1,0 +1,41 @@
+{
+  "notice": {
+    "outdatedItem": {
+      "title": "Initiative ersetzen",
+      "message": "Diese Kachel verweist auf ein veraltetes Element. Wählen Sie ein anderes Element aus, dem Benutzer folgen können."
+    },
+    "missingFollowersGroup": {
+      "title": "Fehlende Follower-Gruppe",
+      "message": "Für dieses Element fehlt eine Follower-Gruppe. Wählen Sie ein anderes Element aus."
+    },
+    "noGroupAccess": {
+      "title": "Hinweis",
+      "message": "Sie haben keinen Zugriff auf die Follower-Gruppe."
+    }
+  },
+  "selectContent": {
+    "title": "Inhalt, dem gefolgt werden kann",
+    "facets": {
+      "sharing": "Freigeben",
+      "catalog": {
+        "myContent": "Eigene Inhalte",
+        "organization": "Eigene Organisation"
+      }
+    }
+  },
+  "callToAction": {
+    "title": "Call To Action",
+    "helperText": "Der Call To Action wird oberhalb der Schaltfläche \"Folgen\" angezeigt.",
+    "alignment": "Ausrichtung"
+  },
+  "followButton": {
+    "title": "Schaltfläche \"Folgen\"",
+    "helperText": "Über diese Schaltfläche ist es Mitgliedern möglich, Inhalten zu folgen oder nicht mehr zu folgen. Für beide Schaltflächenzustände kann Text festgelegt werden.",
+    "buttonText": "Text für Schaltfläche \"Folgen\"",
+    "unfollowButtonText": "Text für Schaltfläche \"Nicht mehr folgen\"",
+    "alignment": "Ausrichtung",
+    "buttonStyle": "Schaltflächen-Style",
+    "solid": "Einfarbiger Hintergrund",
+    "outline": "Umrisslinie"
+  }
+}

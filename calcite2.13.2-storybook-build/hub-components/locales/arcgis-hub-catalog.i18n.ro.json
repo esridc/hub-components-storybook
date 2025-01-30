@@ -1,0 +1,16 @@
+{
+  "all": "Totul",
+  "source": "Sursă",
+  "targetEntity": {
+    "item": "Elemente",
+    "group": "Grupuri",
+    "user": "Utilizatori",
+    "portalUser": "Utilizatori portal",
+    "communityUser": "Utilizatori comunitate",
+    "groupMember": "Membrii grupului",
+    "event": "Evenimente",
+    "channel": "Canale",
+    "discussionPost": "Postări",
+    "eventAttendee": "Înregistratori catalog"
+  }
+}

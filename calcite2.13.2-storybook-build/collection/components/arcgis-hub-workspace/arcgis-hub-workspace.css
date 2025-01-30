@@ -1,0 +1,34 @@
+:host {
+  position: relative;
+  display: block;
+  height: 100vh;
+}
+
+.workspace__navigation {
+  border-right: 1px solid var(--calcite-color-border-1);
+}
+
+.workspace__pane {
+  height: 100%;
+  background-color: var(--calcite-color-background);
+}
+
+
+.skip-nav {
+    position: absolute;
+    top: -60px;
+    left: 64px;
+    z-index: -1;
+    background-color: #fff;
+    padding: 15px 10px;
+    box-shadow: 0 0 2px 2px #333;
+    opacity: 0;
+    transition: top 0.5s ease;
+}
+
+.skip-nav:focus{
+    opacity: 1.0;
+    top: 64px;
+    z-index: 1036;
+}
+

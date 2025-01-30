@@ -1,0 +1,53 @@
+{
+  "settings": "Postavke",
+  "formDisabledTooltip": "Nemate pristup za mijenjane ovog {type}.",
+  "delete": {
+    "project": "Izbriši ovaj projekt",
+    "initiative": "Obriši ovu inicijativu",
+    "site": "Obriši ove internetske stranice",
+    "discussion": "Obriši ovu raspravu",
+    "content": "Obriši ovaj sadržaj",
+    "page": "Obriši ovu stranicu",
+    "group": "Obriši ovu grupu",
+    "initiativeTemplate": "Obriši ovaj predložak inicijative",
+    "template": "Obriši ovaj predložak",
+    "survey": "Izbriši ovu anketu",
+    "desc": {
+      "project": "Brisanje ovog projekta ne može se poništiti.",
+      "initiative": "Brisanje ove inicijative ne može se poništiti.",
+      "site": "Brisanje ove internetske stranice ne može se poništiti.",
+      "discussion": "Brisanje ove rasprave ne može se poništiti.",
+      "content": "Brisanje ovog sadržaja ne može se poništiti.",
+      "page": "Brisanje ove stranice ne može se poništiti.",
+      "group": "Brisanje ove grupe ne može se poništiti.",
+      "initiativeTemplate": "Brisanje ovog predloška inicijative ne može se poništiti.",
+      "template": "Brisanje ovog predloška ne može se poništiti.",
+      "survey": "Brisanje ovog upitnika ne može se poništiti."
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "project": "Izbriši projekt",
+      "initiative": "Izbriši inicijativu",
+      "site": "Izbriši web-mjesto",
+      "discussion": "Izbriši raspravu",
+      "content": "Izbriši sadržaj",
+      "page": "Izbriši stranicu",
+      "group": "Izbriši grupu",
+      "initiativeTemplate": "Izbriši predložak inicijative",
+      "template": "Izbriši predložak",
+      "survey": "Izbriši anketu"
+    },
+    "content": "Jeste li sigurni da želite izbrisati:",
+    "delete": "Izbriši",
+    "cancel": "Odustani"
+  },
+  "sidePanel": {
+    "content": {
+      "extractNotice": {
+        "title": "Mogućnost „izdvajanja” mijenja postavke usluge.",
+        "message": "To će utjecati na druge stavke koje referenciraju uslugu. Za više pojedinosti pogledajte <docLink>Izvoz podataka iz hostiranih slojeva geoobjekta</docLink>"
+      }
+    }
+  }
+}

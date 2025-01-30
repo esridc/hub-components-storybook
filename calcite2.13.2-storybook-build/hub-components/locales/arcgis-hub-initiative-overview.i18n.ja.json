@@ -1,0 +1,23 @@
+{
+  "overview": "概要",
+  "telemetry": {
+    "pageViews": "ページ ビュー",
+    "last30days": "過去 30 日間",
+    "lastUpdated": "最終更新: {hoursElapsed} 時間前",
+    "checkTomorrow": "明日確認してください"
+  },
+  "learnAbout": "Hub イニシアティブの詳細",
+  "feedbackNotice": {
+    "message": "Hub イニシアティブについてご意見をお聞かせください。 当社では、使用方法に関するご意見をお待ちしています。",
+    "link": "フィードバックの送信"
+  },
+  "status": {
+    "notStarted": "開始前",
+    "inProgress": "処理中",
+    "onHold": "保留中",
+    "complete": "完了"
+  },
+  "editDetails": "詳細の編集",
+  "noPurposeSet": "目的が設定されていません",
+  "noLocationSet": "位置が設定されていません"
+}

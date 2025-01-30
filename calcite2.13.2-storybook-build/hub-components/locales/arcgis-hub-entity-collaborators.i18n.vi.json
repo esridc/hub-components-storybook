@@ -1,0 +1,85 @@
+{
+  "collaborators": "Người hợp tác",
+  "editGroupButtonText": "Thêm các nhóm chỉnh sửa",
+  "viewGroupButtonText": "Thêm các nhóm xem",
+  "groupPicker": {
+    "title": "Chọn nhóm",
+    "facet": {
+      "label": "Từ",
+      "editGroups": "Chỉnh sửa nhóm",
+      "viewGroups": "Xem nhóm",
+      "myGroups": "Nhóm của tôi",
+      "myOrganization": "Tổ chức của tôi",
+      "myCommunity": "Cộng đồng của tôi"
+    }
+  },
+  "addNewPeopleNotice": {
+    "title": "Thêm thành viên mới",
+    "message": "Để thêm thành viên, bạn có thể mời họ tham gia cộng đồng hoặc bạn có thể <orgOverviewLink>liên hệ với quản trị viên</orgOverviewLink>."
+  },
+  "editGroupsTitle": "Nhóm có thể chỉnh sửa",
+  "viewGroupsTitle": "Nhóm có thể xem",
+  "project": {
+    "description": "Chọn nhóm người dùng có thể xem và chỉnh sửa dự án này.",
+    "editGroupsDescription": "Thành viên trong các nhóm này sẽ có thể chỉnh sửa thông tin dự án.",
+    "viewGroupsDescription": "Thành viên trong các nhóm này sẽ có thể tìm kiếm và xem dự án, nếu dự án này không được chia sẻ công khai.",
+    "errorMessage": "Đã xảy ra lỗi khi cập nhật người hợp tác trong dự án của bạn."
+  },
+  "content": {
+    "description": "Chọn nhóm người dùng có thể xem và chỉnh sửa nội dung này.",
+    "editGroupsDescription": "Thành viên trong các nhóm này sẽ có thể chỉnh sửa thông tin nội dung.",
+    "viewGroupsDescription": "Thành viên trong các nhóm này sẽ có thể tìm kiếm và xem nội dung, nếu nội dung này không được chia sẻ công khai.",
+    "errorMessage": "Đã xảy ra lỗi khi cập nhật người hợp tác nội dung của bạn."
+  },
+  "discussion": {
+    "description": "Chọn nhóm người dùng được xem bảng thảo luận và nhóm được chỉnh sửa thông tin bảng.",
+    "editGroupsDescription": "Thành viên trong các nhóm này có thể chỉnh sửa thông tin trên bảng thảo luận.",
+    "viewGroupsDescription": "Thành viên trong các nhóm này có thể tìm kiếm và xem bảng thảo luận (nếu không được chia sẻ công khai).",
+    "errorMessage": "Đã xảy ra lỗi khi cập nhật người hợp tác thảo luận của bạn."
+  },
+  "site": {
+    "description": "Chọn nhóm người dùng có thể xem và chỉnh sửa trang này.",
+    "editGroupsDescription": "Thành viên trong các nhóm này sẽ có thể chỉnh sửa thông tin trang.",
+    "viewGroupsDescription": "Thành viên trong các nhóm này sẽ có thể tìm kiếm và xem trang nếu trang này không được chia sẻ công khai.",
+    "errorMessage": "Đã xảy ra lỗi khi cập nhật người hợp tác trang của bạn."
+  },
+  "template": {
+    "description": "Chọn nhóm người dùng có thể xem và chỉnh sửa biểu mẫu này.",
+    "editGroupsDescription": "Thành viên trong các nhóm này sẽ có thể chỉnh sửa thông tin biểu mẫu.",
+    "viewGroupsDescription": "Thành viên trong các nhóm này sẽ có thể tìm kiếm và xem biểu mẫu nếu biểu mẫu này không được chia sẻ công khai.",
+    "errorMessage": "Đã xảy ra lỗi khi cập nhật người hợp tác biểu mẫu của bạn."
+  },
+  "survey": {
+    "description": "Chọn nhóm người dùng có thể xem và chỉnh sửa khảo sát này.",
+    "editGroupsDescription": "Thành viên trong các nhóm này sẽ có thể chỉnh sửa thông tin khảo sát.",
+    "viewGroupsDescription": "Thành viên trong các nhóm này sẽ có thể tìm kiếm và xem khảo sát, nếu khảo sát này không được chia sẻ công khai.",
+    "errorMessage": "Đã xảy ra lỗi khi cập nhật người hợp tác trong khảo sát của bạn."
+  },
+  "event": {
+    "description": "Chọn nhóm người dùng có thể xem và chỉnh sửa sự kiện này.",
+    "editGroupsDescription": "Thành viên trong các nhóm này sẽ có thể chỉnh sửa thông tin sự kiện.",
+    "viewGroupsDescription": "Thành viên trong các nhóm này sẽ có thể tìm kiếm và xem sự kiện nếu sự kiện này không được chia sẻ công khai.",
+    "errorMessage": "Đã xảy ra lỗi khi cập nhật người cộng tác sự kiện của bạn."
+  },
+  "newTab": "mở hồ sơ trong tab mới",
+  "supportingTeams": "Nhóm hỗ trợ",
+  "supportingTeamsDesc": "Trước kia các nhóm hỗ trợ này đã được liên kết với trang của bạn. Bạn có thể tiếp tục sử dụng các nhóm này để chia sẻ nội dung với người hợp tác.",
+  "supportTeamsRemove": "Xóa nhóm",
+  "supportingTeamsRemoveError": "Lỗi khi bỏ liên kết nhóm. Liên hệ quản trị viên.",
+  "supportingTeamsRemoveSuccess": "Đã bỏ liên kết nhóm thành công.",
+  "view": {
+    "button": "Tạo nhóm xem",
+    "formLabel": "Nhóm Xem Mới",
+    "description": "Thiết lập một nhóm để tiện chia sẻ nội dung và liên lạc. Thành viên nhóm sẽ có thể xem mọi nội dung được chia sẻ với nhóm."
+  },
+  "edit": {
+    "button": "Tạo nhóm chỉnh sửa",
+    "formLabel": "Nhóm Chỉnh sửa Mới",
+    "description": "Thiết lập một nhóm để tiện chia sẻ nội dung và liên lạc. Thành viên nhóm sẽ có thể xem và chỉnh sửa mọi nội dung được chia sẻ với nhóm."
+  },
+  "groupCreateDisabledButtonTooltip": "Bạn không thể tạo nhóm. Bạn có thể đã đạt số lượng nhóm tối đa hoặc không đủ quyền để tạo nhóm.",
+  "groupCreateError": "Đã xảy ra lỗi khi tạo nhóm.",
+  "notice": {
+    "label": "Cảnh báo biểu mẫu"
+  }
+}

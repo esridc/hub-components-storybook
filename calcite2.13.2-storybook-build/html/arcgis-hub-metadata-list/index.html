@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-metadata-list</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet" href="../calcite-web.min.css">
+</head>
+
+<body onload="configureComponents()">
+  <div class="grid-container padding-leader-2">
+    <div class="column-20 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-hub-metadata-list</h2>
+    </div>
+
+    <div class="column-20">
+      <arcgis-hub-metadata-list
+        id="metadata-dc-trees"
+        entity-id="f6c3c04113944f23a7993f2e603abaf2"
+        metadata=""
+
+      >
+      </arcgis-hub-metadata-list>
+
+      <arcgis-hub-metadata-list
+        id="metadata-foia"
+        entity-id="1a0d07705bba46dc99e8b3d5172db8e1"
+        metadata=""
+      >
+      </arcgis-hub-metadata-list>
+
+    </div>
+  </div>
+
+  <script>
+    // set a property on the element
+    function setProp(elementId, key, value) {
+      const el = document.querySelector(elementId);
+      console.log("setProp", {elementId, key, value, el} )
+
+      if(!!el)
+        el[key] = value;
+    }
+    function configureComponents() {
+      setProp('#metadata-foia', 'metadata',
+        [{
+          label: "Title",
+          element: "title",
+          format: "string"
+        },{
+          label: "Type",
+          element: "family",
+          format: "string"
+        },{
+          label: "Category",
+          element: "categories",
+          format: "array"
+        }]
+      )
+      setProp('#metadata-dc-trees', 'metadata',
+          [
+          {
+            label: "Title",
+            element: "title",
+            format: "string"
+          },{
+            label: "Type",
+            element: "family",
+            format: "string"
+          },{
+          label: "Category",
+          element: "categories",
+          format: "array"
+          },{
+            label: "Summary",
+            element: "summary",
+            format: "string"
+          },{
+            label: "Created Date",
+            element: "created",
+            format: "datetime"
+          },{
+            label: "Source",
+            element: "metadata.metadata.mdContact.rpOrgName",
+            format: "string"
+          },{
+            label: "Number of Features",
+            element: "recordCount",
+            format: "string"
+          },
+        ])
+    }
+  </script>
+</body>
+
+</html>

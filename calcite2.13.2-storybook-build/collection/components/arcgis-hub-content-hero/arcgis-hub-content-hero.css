@@ -1,0 +1,118 @@
+:host {
+  display: flex;
+}
+
+:host(.vertical) {
+  display: block;
+}
+
+/**
+* HERO MEDIA
+*/
+.hero-media {
+  display: flex;
+  align-items: center;
+}
+
+arcgis-hub-map {
+  height: 300px;
+  aspect-ratio: 200 / 133;
+  width: 100%;
+}
+
+.hero-thumbnail {
+  height: 300px;
+  width: auto;
+  object-fit: contain;
+  object-position: left}
+
+:host(.vertical) .hero-thumbnail {
+  height: auto;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-media {
+    margin-right: 1.5rem;
+  }
+}
+
+/**
+* HERO CONTENT
+*/
+.hero-content {
+  display: grid;
+  flex-grow: 1;
+  padding-top: 0.75rem;
+  padding-bottom: 1rem;
+
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: 
+    "header header"
+    "main main"
+    "footer-start footer-end";
+}
+
+:host(.no-media) .hero-content {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+:host(.vertical) .hero-content {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  :host(.vertical) .hero-content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/**
+* HERO HEADER
+*/
+.hero-header {
+  grid-area: header;
+}
+
+.hero-header h1 {
+  font-size: var(--calcite-font-size-4);
+  line-height: 2.5rem;
+  font-weight: var(--calcite-font-weight-medium);
+}
+
+:host(.vertical) .hero-header {
+  padding-top: 1.5rem;
+}
+
+/**
+* HERO MAIN
+*/
+.hero-main {
+  grid-area: main;
+  padding-bottom: 1.5rem;
+}
+
+/**
+* HERO FOOTER
+*/
+.hero-footer-start {
+  grid-area: footer-start;
+}
+
+.hero-footer-start ::slotted(calcite-button) {
+  margin-right: 0.5rem;
+}
+
+.hero-footer-end {
+  grid-area: footer-end;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-footer-end ::slotted(calcite-button) {
+  margin-left: 0.5rem;
+}

@@ -1,0 +1,1 @@
+import{g as t}from"./p-796574a4.js";import{g as r}from"./p-6830c12d.js";import{a as o}from"./p-9421b3f1.js";function a(a,s){const p=t(s,"portal")||t(s,"authentication.portal")||"www.arcgis.com",c=`${r(p)}/sharing/rest`;return o(a,Object.assign(Object.assign({},s),{portal:c}))}export{a as f}

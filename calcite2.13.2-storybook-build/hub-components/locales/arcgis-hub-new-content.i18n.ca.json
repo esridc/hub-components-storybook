@@ -1,0 +1,57 @@
+{
+  "new": "Nou",
+  "project": {
+    "label": "Projecte",
+    "description": "Destaqueu feina que tingui objectius i terminis definits",
+    "createLabel": "Crea un projecte",
+    "newLabel": "Projecte nou"
+  },
+  "initiative": {
+    "label": "Iniciativa",
+    "description": "Les iniciatives organitzen i resumeixen el progrés en l'assoliment d'un objectiu",
+    "createLabel": "Crea una iniciativa",
+    "newLabel": "Iniciativa nova"
+  },
+  "discussion": {
+    "label": "Tauler de debat",
+    "description": "Creeu un tauler de debat nou introduint un títol que n'indiqui el tema.",
+    "createLabel": "Crea un tauler de debat",
+    "newLabel": "Tauler de debat nou"
+  },
+  "site": {
+    "label": "Lloc",
+    "description": "Creeu una pàgina web per organitzar i compartir informació",
+    "createLabel": "Crea un lloc",
+    "newLabel": "Lloc nou"
+  },
+  "event": {
+    "label": "Esdeveniment",
+    "description": "Organitzeu una activitat, en persona o virtualment",
+    "createLabel": "Crea un esdeveniment",
+    "newLabel": "Esdeveniment nou"
+  },
+  "content": {
+    "label": "Contingut",
+    "description": "Afegiu dades, documents, imatges i enllaços externs al vostre lloc",
+    "createLabel": "Crea contingut",
+    "newLabel": "Contingut nou"
+  },
+  "feedback": {
+    "label": "Comentaris",
+    "description": "Recolliu informació específica amb eines com ara enquestes i sondejos",
+    "createLabel": "Crea comentaris",
+    "newLabel": "Comentaris nous"
+  },
+  "app": {
+    "label": "Aplicació",
+    "description": "Creeu una experiència, expliqueu una història o visualitzeu les vostres dades",
+    "createLabel": "Crea una aplicació",
+    "newLabel": "Aplicació nova"
+  },
+  "group": {
+    "label": "Grup",
+    "description": "Configureu un grup per col·laborar en contingut específic",
+    "createLabel": "Crea un grup",
+    "newLabel": "Grup nou"
+  }
+}

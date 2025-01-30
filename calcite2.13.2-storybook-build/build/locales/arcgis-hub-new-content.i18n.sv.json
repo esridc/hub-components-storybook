@@ -1,0 +1,57 @@
+{
+  "new": "Ny",
+  "project": {
+    "label": "Projekt",
+    "description": "Lyft fram arbete som har tydliga mål och tidsramar",
+    "createLabel": "Skapa projekt",
+    "newLabel": "Nytt projekt"
+  },
+  "initiative": {
+    "label": "Initiativ",
+    "description": "Initiativ organiserar och summerar förlopp mot ett mål",
+    "createLabel": "Skapa initiativ",
+    "newLabel": "Nytt initiativ"
+  },
+  "discussion": {
+    "label": "Diskussionstavla",
+    "description": "Skapa en ny diskussionstavla genom att ange en titel som visar på ämnet.",
+    "createLabel": "Skapa diskussionstavla",
+    "newLabel": "Ny diskussionstavla"
+  },
+  "site": {
+    "label": "Webbplats",
+    "description": "Skapa en webbsida för att organisera och dela information",
+    "createLabel": "Skapa webbplats",
+    "newLabel": "Ny webbplats"
+  },
+  "event": {
+    "label": "Händelse",
+    "description": "Var värd för en organiserad aktivitet, personligen eller virtuellt",
+    "createLabel": "Skapa händelse",
+    "newLabel": "Ny händelse"
+  },
+  "content": {
+    "label": "Innehåll",
+    "description": "Lägg till data, dokument, bilder och externa länkar till webbplatsen",
+    "createLabel": "Skapa innehåll",
+    "newLabel": "Nytt innehåll"
+  },
+  "feedback": {
+    "label": "Feedback",
+    "description": "Samla in fokuserad information med verktyg som undersökningar och omröstningar",
+    "createLabel": "Skapa feedback",
+    "newLabel": "Ny feedback"
+  },
+  "app": {
+    "label": "App",
+    "description": "Skapa en upplevelse, berätta en historia eller visualisera dina data",
+    "createLabel": "Skapa app",
+    "newLabel": "Ny app"
+  },
+  "group": {
+    "label": "Grupp",
+    "description": "Sätt ihop en grupp för att samarbeta om fokuserat innehåll",
+    "createLabel": "Skapa grupp",
+    "newLabel": "Ny grupp"
+  }
+}

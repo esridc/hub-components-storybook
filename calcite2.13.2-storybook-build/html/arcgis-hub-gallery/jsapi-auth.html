@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no" />
+  <title>ArcGIS API for JavaScript Tutorials: Authenticate with an ArcGIS identity</title>
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+  <link rel="stylesheet" href="../calcite-web.min.css">
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <script type="module" src="../../calcite/calcite.esm.js"></script>
+
+  <script type="module">
+    import { UserSession } from 'https://cdn.skypack.dev/@esri/arcgis-rest-auth';
+    import {ArcGISContextManager, cloneObject} from 'https://cdn.skypack.dev/@esri/hub-common';
+    import Portal from "https://js.arcgis.com/4.23/@arcgis/core/portal/Portal.js";
+    import OAuthInfo from "https://js.arcgis.com/4.23/@arcgis/core/identity/OAuthInfo.js";
+    import IdentityManager from "https://js.arcgis.com/4.23/@arcgis/core/identity/IdentityManager.js";
+
+    const PORTAL_URL = "https://qaext.arcgis.com";
+
+    // create context manager when app boots
+    const ctxMgr = await ArcGISContextManager.create({
+      portalUrl: PORTAL_URL
+    });
+
+    // Create Identity Manager when app boots
+    const info = new OAuthInfo({
+      appId: "u3KZUyh6wbCQtuCj",
+      portalUrl: PORTAL_URL,
+      popup: false,
+    });
+
+    IdentityManager.registerOAuthInfos([info]);
+
+    IdentityManager
+      .checkSignInStatus(info.portalUrl + "/sharing")
+      .then(() => {
+        handleSignedIn();
+      })
+      .catch(() => {
+        handleSignedOut();
+
+      });
+
+    document.getElementById("sign-in").addEventListener("click", function () {
+      IdentityManager.getCredential(info.portalUrl + "/sharing");
+    });
+
+    document.getElementById("sign-out").addEventListener("click", function () {
+      IdentityManager.destroyCredentials();
+      window.location.reload();
+    });
+
+    function handleSignedIn() {
+      const portal = new Portal({url: PORTAL_URL});
+      portal.load().then(() => {
+        document.getElementById("userinfo").innerText = `Authenticated as ${portal.user.username}`;
+        return IdentityManager.getCredential(PORTAL_URL);
+      })
+      .then((credential) => {
+        const session = UserSession.fromCredential(credential.toJSON(), {});
+        return ctxMgr.setAuthentication(session);
+      })
+      .then(() => {
+        // Set context on component
+        console.info(`Setting context on component`);
+        setProp('context', ctxMgr.context);
+
+      })
+    }
+
+    function handleSignedOut() {
+      document.getElementById("userinfo").innerText = 'Signed Out'
+      ctxMgr.clearAuthentication();
+      // Set context on component
+      setProp('context', ctxMgr.context);
+    }
+
+    // Set a property on the element
+    function setProp(key, value) {
+      const el = document.querySelector("arcgis-hub-gallery");
+      el[key] = value;
+    }
+
+
+    const query = {
+      targetEntity: "item",
+      filters: [
+        // Change the predicates here to experiment with changing the gallery scope
+        // {
+        //   // predicates: [{type: "Hub Project"}]
+        //   predicates: [{orgid: "6yFNtz2GHg0wHfGr"}]
+        // }
+      ]
+    }
+
+  const facets = [
+    {
+      label: "Access",
+      key: "access",
+      display: "multi-select",
+      operation: "OR",
+      options: [
+        {
+          label: "Public",
+          key: "public",
+          selected: true,
+          predicates: [{
+            access: "public",
+          }],
+        },
+        {
+          label: "Shared",
+          key: "shared",
+          selected: false,
+          predicates: [{
+
+            access: "shared",
+          },]
+        },
+        {
+          label: "Org",
+          key: "org",
+          selected: false,
+          predicates: [{
+            access: "org",
+          }],
+        },
+        {
+          label: "Mine",
+          key: "mine",
+          selected: false,
+          predicates: [{
+            owner: "dbouwman_dc",
+          }],
+        }
+      ],
+    },
+
+    {
+      label: "Types",
+      key: "types",
+      display: "multi-select",
+      pageSize: 4,
+      operation: "OR",
+      options: [
+        {
+          label: "Projects",
+          key: "projects",
+          selected: true,
+          predicates: [
+            {
+
+              type: "Hub Project"
+            }
+          ]
+        },
+        {
+          label: "Web Maps",
+          key: "webmaps",
+          selected: false,
+          predicates: [{
+
+            type: "Web Map"
+          }]
+        },
+        {
+          label: "Sites",
+          key: "sites",
+          selected: true,
+          predicates: [{
+
+            type: "Hub Site Application"
+          }]
+        },
+        {
+          label: "Services",
+          key: "services",
+          selected: false,
+          predicates: [{
+
+            type: ["Feature Service", "Map Service"]
+          }]
+        },
+        {
+          label: "Apps",
+          key: "apps",
+          selected: false,
+          predicates: [{
+
+            type: {
+              any: [
+                "Code Sample",
+                "Web Mapping Application",
+                "Mobile Application",
+                "Application",
+                "Desktop Application Template",
+                "Desktop Application",
+                "Operation View",
+                "Dashboard",
+                "Operations Dashboard Extension",
+                "Workforce Project",
+                "Insights Workbook",
+                "Insights Page",
+                "Insights Model",
+                "Hub Page",
+                "Hub Initiative",
+                "Hub Site Application",
+                "StoryMap",
+                "Web Experience",
+                "Web Experience Template",
+                "Form",
+              ],
+              not: [
+                "Code Attachment",
+                "Featured Items",
+                "Symbol Set",
+                "Color Set",
+                "Windows Viewer Add In",
+                "Windows Viewer Configuration",
+                "Map Area",
+                "Indoors Map Configuration",
+              ],
+            },
+            typekeywords: {
+              not: ["MapAreaPackage", "SMX"],
+            },
+          }]
+        },
+        {
+          label: "Story Maps",
+          key: "storymaps",
+          selected: false,
+          operation: "OR",
+          predicates: [
+            {
+
+              type: "StoryMap",
+            },
+            {
+              type: "Web Mapping Application",
+              typekeywords: "Story Map",
+            }
+          ]
+        },
+        {
+          label: "Dashboards",
+          key: "dashboards",
+          selected: false,
+          predicates: [{
+
+            type: "Dashboard",
+            typekeywords: {
+              any: ["Dashboard"],
+              not: ["ArcGIS Operation View", "Add In", "Extension"],
+            },
+          }]
+        },
+        {
+          label: "Document",
+          key: "documents",
+          selected: false,
+          predicates: [{
+
+            typekeywords: {
+              any: ["Document"],
+              not: ["MapAreaPackage", "SMX"],
+            },
+            type: {
+              any: [
+                "Image",
+                "Layout",
+                "Desktop Style",
+                "Project Template",
+                "Report Template",
+                "Pro Report",
+                "Statistical Data Collection",
+                "360 VR Experience",
+                "netCDF",
+                "PDF",
+                "CSV",
+                "Administrative Report",
+                "Raster function template",
+              ],
+              not: [
+                "Image Service",
+                "Explorer Document",
+                "Explorer Map",
+                "Globe Document",
+                "Scene Document",
+                "Code Attachment",
+                "Featured Items",
+                "Symbol Set",
+                "ColorSet",
+                "Windows Viewer Add In",
+                "Windows Viewer Configuration",
+                "Map Area",
+                "Indoors Map Configuration",
+              ],
+            },
+          }]
+        },
+
+      ]
+    },
+    {
+      label: "Tags",
+      key: "tags",
+      field: "tags",
+      aggLimit: 15,
+      operation: "AND",
+      display: "multi-select",
+      options: []
+    }
+  ]
+
+  setProp("query", query);
+  setProp("facets", facets);
+
+  </script>
+</head>
+
+<body>
+<div class="grid-container padding-leader-2">
+  <div class="column-20 trailer-2 header">
+    <calcite-button scale="l" href="/">Home</calcite-button>
+    <h2>JSAPI Example</h2>
+  </div>
+
+  <div class="column-20">
+    <calcite-button id="sign-in">Sign In</calcite-button>
+    <calcite-button id="sign-out">Sign Out</calcite-button>
+    <div id="userinfo"></div>
+    <arcgis-hub-gallery term='hub' layout='grid' limit='9' api-type="arcgis"
+      show-thumbnail show-search show-sort show-chips show-facets show-more-results-btn enable-telemetry>
+
+    </arcgis-hub-gallery>
+
+
+  </div>
+
+
+</body>
+
+</html>

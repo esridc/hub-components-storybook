@@ -1,0 +1,54 @@
+{
+  "existing": {
+    "successHeading": "Sisällön lisäys onnistui.",
+    "failureHeading": "Sisältöä ei voi lisätä valittuun ryhmään.",
+    "successfulAccordionHeading": "Sisältö lisätty valittuun ryhmään.",
+    "unsuccessfulAccordionHeading": "Sisältöä ei lisätty valittuun ryhmään"
+  },
+  "create": {
+    "event": {
+      "successWithoutGroupHeading": "Tapahtuman luonti onnistui.",
+      "successWithGroupHeading": "Tapahtuman luonti onnistui, ja se lisättiin ryhmään {group}.",
+      "successMessage": "Voit nyt katsoa tapahtumaa, hallita sitä muokkaamalla tietoja tai palata näkymään napsauttamalla Valmis.",
+      "failureHeading": "Tapahtumaa ei voi lisätä valittuun ryhmään."
+    },
+    "discussion": {
+      "successWithoutGroupHeading": "Keskustelupalstan luonti onnistui.",
+      "successWithGroupHeading": "Keskustelupalstan luonti onnistui, ja se lisättiin ryhmään {group}.",
+      "successMessage": "Voit nyt katsoa keskustelupalstaa, hallita sitä muokkaamalla tietoja tai palata näkymään napsauttamalla Valmis.",
+      "failureHeading": "Keskustelupalstaa ei voi lisätä valittuun ryhmään."
+    },
+    "group": {
+      "successWithoutGroupHeading": "Ryhmän luonti onnistui.",
+      "successMessage": "Voit nyt katsoa ryhmää, hallita sitä muokkaamalla tietoja tai palata näkymään napsauttamalla Valmis.",
+      "failureHeading": "Ryhmää ei voi luoda."
+    },
+    "initiative": {
+      "successWithoutGroupHeading": "Aloitteen luonti onnistui.",
+      "successWithGroupHeading": "Aloitteen luonti onnistui, ja se lisättiin ryhmään {group}.",
+      "successMessage": "Voit nyt katsoa aloitetta, hallita sitä muokkaamalla tietoja tai palata näkymään napsauttamalla Valmis.",
+      "failureHeading": "Aloitetta ei voi lisätä valittuun ryhmään."
+    },
+    "page": {
+      "successWithoutGroupHeading": "Sivun luonti onnistui.",
+      "successWithGroupHeading": "Sivun luonti onnistui, ja se lisättiin ryhmään {group}.",
+      "successMessage": "Voit nyt katsoa sivua, hallita sitä muokkaamalla tietoja tai palata näkymään napsauttamalla Valmis.",
+      "failureHeading": "Sivua ei voi lisätä valittuun ryhmään."
+    },
+    "project": {
+      "successWithoutGroupHeading": "Projektin luonti onnistui.",
+      "successWithGroupHeading": "Projektin luonti onnistui, ja se lisättiin ryhmään {group}.",
+      "successMessage": "Voit nyt katsoa projektia, hallita sitä muokkaamalla tietoja tai palata näkymään napsauttamalla Valmis.",
+      "failureHeading": "Projektia ei voi lisätä valittuun ryhmään."
+    },
+    "site": {
+      "successWithoutGroupHeading": "Sivuston luonti onnistui.",
+      "successWithGroupHeading": "Sivuston luonti onnistui, ja se lisättiin ryhmään {group}.",
+      "successMessage": "Voit nyt katsoa sivustoa, hallita sitä muokkaamalla tietoja tai palata näkymään napsauttamalla Valmis.",
+      "failureHeading": "Sivustoa ei voi lisätä valittuun ryhmään."
+    }
+  },
+  "editLayout": "Muokkaa asettelua",
+  "manageEntity": "Hallitse",
+  "viewEntity": "Näytä"
+}

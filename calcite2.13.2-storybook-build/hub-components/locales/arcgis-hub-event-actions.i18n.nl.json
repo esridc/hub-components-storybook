@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "Registreren",
+    "registered": "Geregistreerd",
+    "join": "Online deelnemen",
+    "in-person": "Fysiek",
+    "online": "Online",
+    "inPersonFull": "Fysiek (vol)",
+    "onlineFull": "Online (vol)",
+    "close": "Sluiten"
+  },
+  "tooltip": {
+    "isCanceled": "Evenement is geannuleerd",
+    "eventHasEnded": "Evenement is afgelopen",
+    "eventFull": "Evenement is vol",
+    "inPerson": "Geregistreerd voor fysiek evenement",
+    "online": "Geregistreerd voor online evenement",
+    "unavailable": "Beschikbaar één uur voor aanvang evenement"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "Registratie voor online evenement is geannuleerd",
+    "onlineRegistrationConfirmed": "Registratie voor online evenement is voltooid",
+    "onlineRegistrationError": "Er is een onverwachte fout opgetreden bij het registreren voor het online evenement",
+    "onlineRegistrationCanceledError": "Er is een onverwachte fout opgetreden bij het annuleren van de registratie voor het online evenement",
+    "onlineRegistrationAtCapacity": "U probeert zich te registreren voor een online evenement dat al vol is",
+    "inPersonRegistrationCanceled": "Registratie voor fysiek evenement is geannuleerd",
+    "inPersonRegistrationCanceledError": "Er is een onverwachte fout opgetreden bij het annuleren van de registratie voor fysiek evenement",
+    "inPersonRegistrationConfirmed": "Registratie voor fysiek evenement is voltooid",
+    "inPersonRegistrationError": "Er is een onverwachte fout opgetreden bij het registreren voor fysiek evenement",
+    "inPersonRegistrationAtCapacity": "U probeert zich te registreren voor een fysiek evenement dat al vol is"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "Minu sisu",
+    "livingAtlas": "Elukoha atlas",
+    "organization": "Minu organisatsioon",
+    "world": "Maailm (avalik)"
+  },
+  "collection": {
+    "appsAndMaps": "Rakendused ja kaardid",
+    "feedback": "Tagasiside"
+  },
+  "facets": {
+    "type": "Tüüp",
+    "tags": "Märksõnad",
+    "categories": "Kategooriad",
+    "modified": "Muudetud"
+  },
+  "pickerTitle": "Vali sisu",
+  "height": "Kõrgus (px)",
+  "isScrollable": "Keritav",
+  "errors": {
+    "heightMinimum": "Väärtus peab olema positiivne number.",
+    "heightMaximum": "Väärtus olema väiksem kui 2000 px või sellega võrdne.",
+    "urlError": "URL peab olema kehtiv."
+  },
+  "success": {
+    "urlSuccess": "URL laaditi edukalt."
+  },
+  "shouldApplyBreakpoints": {
+    "label": "Rakendage sätteid hoopis seadme katkepunktide järgi"
+  },
+  "viewportAll": {
+    "label": "Vaikeväärtus",
+    "description": "Kõigile ekraanisuurustele kohaldatavad sätted"
+  },
+  "viewportMobile": {
+    "label": "Mobiiliversioon",
+    "description": "Sätted, mida kohaldatakse ekraanidele laiusega 360 px ja rohkem"
+  },
+  "viewportTablet": {
+    "label": "Tahvelarvuti",
+    "description": "Sätted, mida kohaldatakse ekraanidele laiusega 560 px ja rohkem"
+  },
+  "viewportDesktop": {
+    "label": "Töölaud",
+    "description": "Sätted, mida kohaldatakse ekraanidele laiusega 980 px ja rohkem"
+  },
+  "sourceLabel": "Valige manustamise tüüp",
+  "contentLabel": "ArcGIS-i sisu",
+  "externalLabel": "Väline URL",
+  "contentDescription": "Valige olemasolevate kaartide, stseenide, rakenduste, uuringute ja dokumendilinkide hulgast.",
+  "externalDescription": "Sisestage manustatav URL. Võtke arvesse, et mõned domeenid ei luba manustamist ja neid ei pruugita kuvada ootuspäraselt."
+}

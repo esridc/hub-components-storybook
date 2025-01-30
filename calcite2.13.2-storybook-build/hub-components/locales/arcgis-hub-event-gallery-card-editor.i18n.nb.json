@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "Kategorier",
+        "noCategoriesNotice": {
+          "body": "Denne organisasjonen har ingen kategorier ennå.",
+          "link": "Kofigurer kategorier"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "Innhold",
+      "selectionMode": {
+        "dynamic": {
+          "label": "Dynamisk"
+        },
+        "manual": {
+          "label": "Manuell"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "Organisasjon"
+        },
+        "collection": {
+          "sites": "Nettsteder",
+          "projects": "Prosjekter",
+          "initiatives": "Initiativer"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "Organisasjon"
+        },
+        "collection": {
+          "events": "Arrangementer"
+        }
+      },
+      "access": {
+        "label": "Deling",
+        "private": {
+          "label": "Privat",
+          "description": "Filtrer etter innhold er tilgjengelig bare for deg og de med gruppetilgang."
+        },
+        "org": {
+          "label": "Organisasjon",
+          "description": "Filtrering etter innhold er tilgjengelig bare for medlemmer i organisasjonen din."
+        },
+        "public": {
+          "label": "Offentlig",
+          "description": "Filtrering etter innhold er tilgjengelig for alle."
+        }
+      },
+      "tags": {
+        "label": "Merker"
+      },
+      "cardsShown": {
+        "label": "Kort som vises"
+      }
+    },
+    "appearance": {
+      "label": "Utseende",
+      "titleHeading": {
+        "label": "Titteloverskrift",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "Ifølge WCAG G141 gir nestede overskrifter bedre tilgjengelighet."
+      },
+      "corners": {
+        "label": "Hjørner",
+        "square": {
+          "label": "Firkantet"
+        },
+        "round": {
+          "label": "Avrundet"
+        }
+      },
+      "shadow": {
+        "label": "Skygge",
+        "none": {
+          "label": "Slått av"
+        },
+        "low": {
+          "label": "Lav"
+        },
+        "medium": {
+          "label": "Middels"
+        },
+        "heavy": {
+          "label": "Tung"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "Vis mer informasjon"
+      },
+      "layout": {
+        "label": "Oppsett",
+        "list": {
+          "label": "Liste"
+        },
+        "map": {
+          "label": "Kart"
+        },
+        "calendar": {
+          "label": "Kalender"
+        }
+      }
+    },
+    "options": {
+      "label": "Alternativer",
+      "openIn": {
+        "label": "Åpne i…",
+        "same": {
+          "label": "Samme fane"
+        },
+        "new": {
+          "label": "Ny fane"
+        },
+        "notice": {
+          "title": "Tips om tilgjengelighet:",
+          "body": "Ifølge WCAG 2.0 G200-teknikken er det ikke anbefalt å åpne koblinger i nye faner eller vinduer.",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "Les mer om WCAG 2.0 G200"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "Deling",
+      "public": {
+        "label": "Offentlig"
+      },
+      "private": {
+        "label": "Privat"
+      },
+      "organization": {
+        "label": "Organisasjon"
+      }
+    },
+    "from": {
+      "label": "Fra",
+      "myOrganization": {
+        "label": "Min organisasjon"
+      },
+      "myContent": {
+        "label": "Mitt innhold"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "Arrangementer",
+      "collections": {
+        "event": {
+          "label": "Arrangementer"
+        }
+      }
+    },
+    "item": {
+      "label": "Innhold",
+      "collections": {
+        "item": {
+          "label": "Innhold"
+        }
+      }
+    }
+  }
+}

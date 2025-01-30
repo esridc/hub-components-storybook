@@ -1,0 +1,43 @@
+{
+  "content": "תוכן",
+  "myContent": "התוכן שלי",
+  "editableContent": "תוכן ניתן לעריכה",
+  "addContentButtonText": "צור חדש",
+  "type": "סוג",
+  "sharedUpdate": "קבוצת עדכון משותף",
+  "viewOnly": "קבוצת תצוגה בלבד",
+  "owner": "בעלים",
+  "updated": "עודכן",
+  "tags": "תגיות",
+  "dateCreated": "נוצר",
+  "dateUpdated": "שונה",
+  "actionLinks": {
+    "view": "הצג",
+    "edit": "עריכה",
+    "ariaEdit": "ערוך את {title}",
+    "ariaView": "הצג את {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "תוכן",
+      "myContent": "תוכן בבעלותי",
+      "editableContent": "תוכן שביכולתי לערוך",
+      "all": "כל התוכן"
+    },
+    "access": {
+      "label": "מ-"
+    },
+    "type": {
+      "label": "סוגים"
+    },
+    "tags": {
+      "label": "תגיות"
+    },
+    "categories": {
+      "label": "קטגוריות"
+    },
+    "modified": {
+      "label": "שונה"
+    }
+  }
+}

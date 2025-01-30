@@ -1,0 +1,35 @@
+{
+    "dynamicStat": {
+        "facets": {
+            "sharing": "Sharing",
+            "myself": "Myself",
+            "myOrganization": "My Organization",
+            "public": "World (Public)"
+        },
+        "catalog": {
+            "myContent": "My Content",
+            "favorites": "Favorites",
+            "organization": "My Organization",
+            "world": "World (Public)"
+        }
+    },
+    "expression": {
+        "label": "Attribute filters"
+    },
+    "field": {
+        "label": "Attribute"
+    },
+    "layer": "Layer / table",
+    "statistic": {
+        "label": "Aggregation",
+        "aggregations": {
+          "count" : "Count",
+          "min" : "Minimum",
+          "max" : "Maximum",
+          "sum" : "Sum",
+          "avg" : "Average",
+          "stddev" : "Standard Deviation",
+          "var" : "Variance"
+        }
+    }
+}

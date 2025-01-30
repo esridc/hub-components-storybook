@@ -1,0 +1,110 @@
+{
+  "controls": {
+    "addContent": "コンテンツの追加",
+    "back": "戻る",
+    "cancel": "キャンセル",
+    "close": "終了",
+    "create": "作成してグループに追加",
+    "next": "次へ"
+  },
+  "createHelpState": {
+    "discussion": {
+      "heading": "ディスカッション",
+      "message": "新しいディスカッション ボードを作成するには、そのトピックを示すタイトルを入力します。"
+    },
+    "event": {
+      "heading": "イベント",
+      "message": "組織的な活動を対面またはオンラインで主催します。"
+    },
+    "group": {
+      "heading": "グループ",
+      "message": "焦点を絞ったコンテンツに共同で取り組むグループを設定します。"
+    },
+    "initiative": {
+      "heading": "イニシアティブ",
+      "message": "イニシアティブでは目標に向けて進捗状況の整理と集計ができます。"
+    },
+    "page": {
+      "heading": "ページ",
+      "message": "ページは、利用者と情報を共有して交流するための場所です。"
+    },
+    "project": {
+      "heading": "プロジェクト",
+      "message": "明確な目標とタイムフレームを持つ作業をハイライト表示します。"
+    },
+    "site": {
+      "heading": "サイト",
+      "message": "情報を整理および共有するために Web ページを作成します。"
+    }
+  },
+  "selection": {
+    "unlimited": "選択済み: {count}",
+    "limited": "選択済み: {count} / {limit}"
+  },
+  "steps": {
+    "createContent": "基本情報の追加",
+    "selectContent": "コンテンツの選択",
+    "selectGroups": "グループの選択",
+    "confirmation": "確認",
+    "notImplemented": "実装されていません"
+  },
+  "working": {
+    "heading": "選択したコンテンツを追加しています。",
+    "loadingLabel": "コンテンツを追加しています。"
+  },
+  "failure": {
+    "heading": "コンテンツが追加されませんでした",
+    "message": "選択したコンテンツを追加する際に問題が発生しました。もう一度やり直してください。",
+    "action": "再試行"
+  },
+  "notImplemented": {
+    "heading": "このワークフローは、まだ実装されていません。"
+  },
+  "contentGallery": {
+    "facets": {
+      "access": {
+        "label": "取得元"
+      },
+      "type": {
+        "label": "タイプ"
+      },
+      "tags": {
+        "label": "タグ"
+      },
+      "categories": {
+        "label": "カテゴリ"
+      },
+      "modified": {
+        "label": "更新"
+      }
+    }
+  },
+  "groupsGallery": {
+    "facets": {
+      "access": {
+        "label": "閲覧できるユーザー",
+        "options": {
+          "org": "組織",
+          "public": "すべての人 (パブリック)",
+          "private": "自分"
+        }
+      },
+      "from": {
+        "label": "取得元",
+        "options": {
+          "myCommunity": "コミュニティ",
+          "myGroups": "マイ グループ",
+          "myOrganization": "組織",
+          "world": "世界"
+        }
+      },
+      "type": {
+        "label": "タイプ",
+        "options": {
+          "sharedUpdate": "共有の更新",
+          "opendata": "オープンデータ"
+        }
+      }
+    }
+  }
+}

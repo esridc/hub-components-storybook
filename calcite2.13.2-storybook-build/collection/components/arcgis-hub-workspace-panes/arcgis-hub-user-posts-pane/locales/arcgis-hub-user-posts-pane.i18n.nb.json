@@ -1,0 +1,43 @@
+{
+  "header": "Diskusjoner",
+  "myContent": "Mine arrangementer",
+  "editableContent": "Redigerbart innhold",
+  "addContentButtonText": "Opprett hendelse",
+  "type": "Type",
+  "sharedUpdate": "Delt oppdatering-gruppe",
+  "viewOnly": "Vis bare gruppe",
+  "owner": "Eier",
+  "updated": "Oppdatert",
+  "tags": "Merker",
+  "dateCreated": "Opprettet",
+  "dateUpdated": "Endret",
+  "actionLinks": {
+    "view": "Vis",
+    "edit": "Rediger",
+    "ariaEdit": "Rediger: {title}",
+    "ariaView": "Vis: {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Arrangementer",
+      "myContent": "Arrangementer jeg eier",
+      "editableContent": "Arrangementer jeg kan redigere",
+      "all": "Alle arrangementer"
+    },
+    "access": {
+      "label": "Fra"
+    },
+    "type": {
+      "label": "Typer"
+    },
+    "tags": {
+      "label": "Merker"
+    },
+    "categories": {
+      "label": "Kategorier"
+    },
+    "modified": {
+      "label": "Endret"
+    }
+  }
+}

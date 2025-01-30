@@ -1,0 +1,18 @@
+import { IPost, IChannel } from '@esri/hub-discussions';
+import { IGroup, IPortal, IUser } from '@esri/arcgis-rest-portal';
+import { Feature, Geometry } from 'geojson';
+import { IPostRelatedFeatureDetails } from '../../../utils/discussions';
+import { IArcGISContext, IHubContent } from '@esri/hub-common';
+export declare const GROUP: IGroup;
+export declare const GROUPS: IGroup[];
+export declare const CHANNEL: IChannel;
+export declare const POST: IPost;
+export declare const REPLY: IPost;
+export declare const ENTITY: IHubContent;
+export declare const USER: IUser;
+export declare const CREATOR: IUser;
+export declare const ORGANIZATION: IPortal;
+export declare const CONTEXT: IArcGISContext;
+export declare const GEOMETRY: Geometry;
+export declare const FEATURE: Feature;
+export declare const RELATED_FEATURE: IPostRelatedFeatureDetails;

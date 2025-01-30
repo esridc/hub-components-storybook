@@ -1,0 +1,43 @@
+{
+  "header": "Diskusije",
+  "myContent": "Moji događaji",
+  "editableContent": "Sadržaj koji se može uređivati",
+  "addContentButtonText": "Upravljajte događajem",
+  "type": "Tip",
+  "sharedUpdate": "Grupa za deljeno ažuriranje",
+  "viewOnly": "Grupa samo za pregled",
+  "owner": "Vlasnik",
+  "updated": "Ažuriran",
+  "tags": "Oznake",
+  "dateCreated": "Kreirano",
+  "dateUpdated": "Izmenjeno",
+  "actionLinks": {
+    "view": "Prikaži",
+    "edit": "Izmeni",
+    "ariaEdit": "Uredi: {title}",
+    "ariaView": "Prikaži: {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Događaji",
+      "myContent": "Događaji čiji sam vlasnik",
+      "editableContent": "Događaji koje mogu da uredim",
+      "all": "Svi događaji"
+    },
+    "access": {
+      "label": "Od"
+    },
+    "type": {
+      "label": "Tipovi"
+    },
+    "tags": {
+      "label": "Oznake"
+    },
+    "categories": {
+      "label": "Kategorije"
+    },
+    "modified": {
+      "label": "Izmenjeno"
+    }
+  }
+}

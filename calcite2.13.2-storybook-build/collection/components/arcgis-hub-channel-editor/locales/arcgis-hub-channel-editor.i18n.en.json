@@ -1,0 +1,96 @@
+{
+  "unnamedChannel": "Unnamed channel",
+  "name": {
+    "label": "Name",
+    "placeholder": "{prefix} channel"
+  },
+  "save": "Save",
+  "basicInfo": {
+    "label": "Basic information"
+  },
+  "access": {
+    "private": {
+      "label": "Private",
+      "description": "Selected groups can participate. Group managers and owners are auto-assigned moderators."
+    },
+    "organization": {
+      "label": "My Organization",
+      "description": "All members with an account to {orgName} can participate. Org admins and channel owner are auto-assigned moderators. Channel owners can additionally add groups they are a member of by clicking on 'Add participant group' below.",
+      "disabledTooltip": "Only organization administrators can create organization channels."
+    },
+    "public": {
+      "label": "Public",
+      "description": "All signed in members can participate. Org admins and channel owner are auto-assigned moderators. Channel owners can additionally add groups they are a member of by clicking on 'Add participant group' below.",
+      "disabledTooltip": "Only organization administrators can create public channels."
+    },
+    "allowAsAnonymous": {
+      "label": "Allow anonymous (signed-in participants only)",
+      "description": "The avatar, name, and username of people with accounts who post anonymously will not be available."
+    },
+    "confirmation": {
+      "header": "Are you sure?",
+      "message": "Saving these changes will remove your edit access to this channel. Only organization adminstrators can edit public or organization channels.",
+      "secondary": "Cancel",
+      "primary": "Confirm"
+    }
+  },
+  "participants": {
+    "label": "Participants",
+    "helperText": "The people who can post, reply, and react to the discussion.",
+    "none": "No participants set",
+    "add": "Add participant group"
+  },
+  "groupPicker": {
+    "title": "Select groups",
+    "facet": {
+      "label": "From",
+      "myGroups": "My groups",
+      "myOrganization": "My organization",
+      "myCommunity": "My community"
+    }
+  },
+  "blockWords": {
+    "label": "Blocked words",
+    "helperText": "Comma separated list. Posts and replies that contain them will be hidden automatically."
+  },
+  "manage": {
+    "label": "Moderators",
+    "helperText": "Auto assignment of moderators is based on participant selection. For any additional groups added to the channel, group owners and managers are assigned moderators. Moderators can hide and show posts, add blocked words, and edit channel settings."
+  },
+  "manager": "Manager",
+  "admin": "Admin",
+  "viewProfile": "View profile",
+  "alerts": {
+    "error": "Error saving channel",
+    "success": "Successfully saved channel",
+    "label": "Form alert"
+  },
+  "validations": {
+    "minChannelGroups": "Private channels require at least one participant group.",
+    "channelNameRequired": "Channel name is required",
+    "allowAsAnonymous": "Anonymous posting is only supported by public channels.",
+    "blockWords": "Enter a maximum of 20 blocked words/phrases (entries separated by comma, no duplicates or blank entries)."
+  },
+  "notices": {
+    "edit": "Edits will affect everywhere this channel is used",
+    "duplicate": {
+      "create": {
+        "error": {
+          "title": "Channel was not created",
+          "message": "A channel with these access selections already exists. Use the existing channel or modify the selections."
+        }
+      },
+      "update": {
+        "error": {
+          "title": "Channel was not updated",
+          "message": "A channel with these access selections already exists so we can not save these updates."
+        }
+      },
+      "action": "Use existing channel"
+    },
+    "inaccessibleGroups": {
+      "title": "Unavailable groups: {count}",
+      "message": "You cannot view or manage unavailable groups unless you are a member."
+    }
+  }
+}

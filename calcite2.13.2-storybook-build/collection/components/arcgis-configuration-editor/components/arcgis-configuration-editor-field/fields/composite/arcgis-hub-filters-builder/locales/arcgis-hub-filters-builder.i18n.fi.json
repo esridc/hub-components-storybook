@@ -1,0 +1,15 @@
+{
+  "newFilter": "Uusi suodatin",
+  "block": {
+    "heading": {
+      "untitled": "Uusi suodatin",
+      "default": "Suodatin {filterNum}: {parameter}",
+      "group": "Suodatin {filterNum}: ryhmät",
+      "type": "Suodatin {filterNum}: tyypit",
+      "occurrence": "Suodatin {filterNum}: esiintymä"
+    },
+    "actions": {
+      "delete": "Poista suodatin: {label}"
+    }
+  }
+}

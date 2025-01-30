@@ -1,0 +1,26 @@
+{
+  "title": "Catalogo",
+  "facets": {
+    "type": "Tipo",
+    "tags": "Tag",
+    "categories": "Categoria",
+    "sharing": "Condivisione",
+    "dateUpdated": "Data aggiornamento",
+    "map": {
+      "label": "Posizione",
+      "tooltip": "Applica l'estensione mappa come filtro posizione"
+    }
+  },
+  "collections": {
+    "all": "Tutte",
+    "dataset": "Dati",
+    "site": "Siti",
+    "document": "Documenti",
+    "appAndMap": "App e mappe"
+  },
+  "noCollections": {
+    "title": "Catalogo",
+    "message": "Attualmente il catalogo è vuoto.",
+    "button": "Configura catalogo"
+  }
+}

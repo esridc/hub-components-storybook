@@ -1,0 +1,53 @@
+{
+  "settings": "Asetukset",
+  "formDisabledTooltip": "Sinulla ei ole oikeuksia tehdä muutoksia tähän kohteeseen {type}.",
+  "delete": {
+    "project": "Poista tämä projekti",
+    "initiative": "Poista tämä aloite",
+    "site": "Poista tämä sivusto",
+    "discussion": "Poista tämä keskustelu",
+    "content": "Poista tämä sisältö",
+    "page": "Poista tämä sivu",
+    "group": "Poista tämä ryhmä",
+    "initiativeTemplate": "Poista tämä aloitemalli",
+    "template": "Poista tämä malli",
+    "survey": "Poista tämä tutkimus",
+    "desc": {
+      "project": "Tämän projektin poistamista ei voi kumota.",
+      "initiative": "Tämän aloitteen poistamista ei voi kumota.",
+      "site": "Tämän sivuston poistamista ei voi kumota.",
+      "discussion": "Tämän keskustelun poistamista ei voi kumota.",
+      "content": "Tämän sisällön poistamista ei voi kumota.",
+      "page": "Tämän sivun poistamista ei voi kumota.",
+      "group": "Tämän ryhmän poistamista ei voi kumota.",
+      "initiativeTemplate": "Tämän aloitemallin poistamista ei voi kumota.",
+      "template": "Tämän mallin poistamista ei voi kumota.",
+      "survey": "Tämän kyselyn poistamista ei voi kumota."
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "project": "Poista projekti",
+      "initiative": "Poista aloite",
+      "site": "Poista sivusto",
+      "discussion": "Poista keskustelu",
+      "content": "Poista sisältö",
+      "page": "Poista sivu",
+      "group": "Poista ryhmä",
+      "initiativeTemplate": "Poista aloitemalli",
+      "template": "Poista malli",
+      "survey": "Poista kysely"
+    },
+    "content": "Haluatko varmasti poistaa kohteen:",
+    "delete": "Poista",
+    "cancel": "Peruuta"
+  },
+  "sidePanel": {
+    "content": {
+      "extractNotice": {
+        "title": "Poimintaominaisuus muuttaa palvelun asetuksia.",
+        "message": "Tällä on vaikutusta muihin palveluun viittaaviin kohteisiin. Lisätietoja on kohdassa <docLink>Tuo tietoja isännöidyistä kohdekarttatasoista</docLink>"
+      }
+    }
+  }
+}

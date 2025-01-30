@@ -1,0 +1,46 @@
+{
+  "heading": "Informații despre pagină",
+  "form": {
+    "title": {
+      "label": "Denumirea paginii",
+      "requiredError": "Numele este necesar",
+      "entityTitleValidatorError": "Numele paginii nu poate include emoji-uri, caractere <, >, sau ="
+    },
+    "slug": {
+      "label": "Melc",
+      "helperText": "Melc este versiunea prietenoasă pentru URL a numelui paginii. Este generat automat pe baza numelui paginii, dar îl puteți personaliza.",
+      "patternError": "Eroare: Melcul trebuie să aibă caractere alfanumerice minuscule separate de cratime.",
+      "isUniqueError": "Acest melc este deja utilizat. Alegeți altul.",
+      "requiredError": "Melcul este necesar"
+    }
+  },
+  "controls": {
+    "back": "Înapoi",
+    "cancel": "Anulare",
+    "close": "Gata",
+    "migrate": "Migrare pagină",
+    "next": "Următorul"
+  },
+  "selection": {
+    "unlimited": "{count} selectate",
+    "limited": "{count}/{limit} selectate"
+  },
+  "steps": {
+    "specifyInfo": "Adăugați informații de bază",
+    "selectGroups": "Selectare grup",
+    "confirmation": "Confirmare"
+  },
+  "working": {
+    "heading": "Se migrează pagina.",
+    "loadingLabel": "Se migrează pagina"
+  },
+  "success": {
+    "heading": "Pagină migrată",
+    "message": "Pagina a fost migrată cu succes."
+  },
+  "failure": {
+    "heading": "Pagina nemigrată",
+    "message": "Ceva nu a funcționat cum trebuie la migrarea paginii, vă rugăm să încercați din nou.",
+    "action": "Încercați din nou"
+  }
+}

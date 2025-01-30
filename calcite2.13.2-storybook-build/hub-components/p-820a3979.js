@@ -1,0 +1,1 @@
+function t(){return function(t,e,c){const{value:n}=c,i=`_${e}Called`;Object.defineProperty(t,i,{writable:!0,value:!1});const r=`_${e}Cache`;return Object.defineProperty(t,r,{writable:!0}),Object.assign(Object.assign({},c),{value:function(...t){return this[i]||(this[i]=!0,this[r]=n.apply(this,t)),this[r]}})}}export{t as c}

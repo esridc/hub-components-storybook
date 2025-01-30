@@ -1,0 +1,15 @@
+{
+  "newCollection": "Νέα συλλογή",
+  "block": {
+    "heading": {
+      "untitled": "Συλλογή χωρίς τίτλο"
+    },
+    "actions": {
+      "delete": "Διαγραφή συλλογής: {label}"
+    }
+  },
+  "name": {
+    "label": "Όνομα",
+    "requiredError": "Το όνομα συλλογής απαιτείται"
+  }
+}

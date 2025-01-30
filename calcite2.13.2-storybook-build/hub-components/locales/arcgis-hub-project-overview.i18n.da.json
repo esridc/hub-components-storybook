@@ -1,0 +1,19 @@
+{
+  "overview": "Oversigt",
+  "telemetry": {
+    "pageViews": "Sidevisninger",
+    "last30days": "Sidste 30 dage",
+    "lastUpdated": "Opdateret for {hoursElapsed} timer siden",
+    "checkTomorrow": "Tjek igen i morgen"
+  },
+  "learnAbout": "Få mere at vide om Hub-projekter",
+  "status": {
+    "notStarted": "Ikke startet",
+    "inProgress": "I gang",
+    "onHold": "På pause",
+    "complete": "Afsluttet"
+  },
+  "editDetails": "Redigér oplysninger",
+  "noPurposeSet": "Der er ikke angivet noget formål",
+  "noLocationSet": "Ingen placering angivet"
+}

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Hub Components: Callback Function</title>
+
+    <style>
+      .header {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .nav {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+      }
+
+      .editor {
+        height: 20rem;
+      }
+
+    </style>
+    <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+
+    <script async src="https://ga.jspm.io/npm:es-module-shims@1.6.2/dist/es-module-shims.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "@arcgis/core/": "https://js.arcgis.com/4.25/@arcgis/core/"
+        }
+      }
+    </script>
+
+    <script type="module" src="../../build/hub-components.esm.js"></script>
+    <script nomodule src="../../build/hub-components.js"></script>
+    <link rel="stylesheet" href="../../calcite/calcite.css" />
+    <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+    <link rel="stylesheet" href="../calcite-web.min.css" />
+  </head>
+
+  <body>
+    <harness-header page-title="Gallery: Callbacks"></harness-header>
+    <div class="grid-container padding-leader-4">
+
+      <div class="column-10">
+        <h4>Card Callbacks</h4>
+        <p>
+          A callback function can be passed into the gallery, and it be called for each result, passing in the IHubCardViewModel,
+          Context and Search Result
+          and must return an updated IHubCardViewModel. This allows Gallery instances to customize the card display beyond the standard outputs.
+        </p>
+        <h3>Includes and Enrichments</h3>
+        <p>We can ask the search system to include additional information, which it then available
+          for use in the callback function. The format is <code>enrichment{.deep.path} AS propertyName</code>
+        </p>
+        <ul>
+          <li><strong>Item:</strong> metadata, groupIds, ownerUser, org</li>
+          <li><strong>Server:</strong> server, layers</li>
+        </ul>
+        <calcite-label>
+        Includes:
+          <calcite-inline-editable controls="true" >
+            <calcite-input value="server.layers AS layerInfo" placeholder="Includes">
+            </calcite-input>
+          </calcite-inline-editable>
+        </calcite-label>
+      </div>
+      <div class="column-10">
+        <h4>Callback Function:</h4>
+        <calcite-combobox id="callback-selection" placeholder="Select callback" clear-disabled overlay-positioning="fixed" selection-mode="single">
+          <calcite-combobox-item value="simple" text-label="Upcase Title"></calcite-combobox-item>
+          <calcite-combobox-item value="badges" text-label="Owner Edit with Badge"></calcite-combobox-item>
+          <calcite-combobox-item value="location" text-label="Location Check"></calcite-combobox-item>
+          <calcite-combobox-item value="layerCount" text-label="Layer Count"></calcite-combobox-item>
+          <calcite-combobox-item value="edit" text-label="Can Edit with Badge"></calcite-combobox-item>
+          <calcite-combobox-item value="groupAdmin" text-label="In Group User is Admin of"></calcite-combobox-item>
+      </calcite-combobox>
+        <textarea id="callback" class="editor" ></textarea>
+        <calcite-button id="btnApply">Apply</calcite-button>
+
+      </div>
+
+      <div class="column-20">
+        <br />
+        <arcgis-hub-gallery
+          layout="list"
+          limit="9"
+          link-target="siteRelative"
+          show-thumbnail
+          show-search
+          show-sort
+          show-chips
+          show-facets
+          show-more-results-btn
+          show-results-count
+          show-back-to-top-btn
+          enable-telemetry
+          show-layout-switcher
+
+        >
+        </arcgis-hub-gallery>
+
+        <arcgis-app-identity client-id="EF9uxuFlOrgf7WpI" redirect-uri="http://localhost:3333/html/redirect.html" portal="https://qaext.arcgis.com"> </arcgis-app-identity>
+      </div>
+    </div>
+    <script>
+
+      const simpleCallback = (model, layout, context, result) => {
+        // Upper case title
+        model.title = model.title.toUpperCase();
+        return model;
+      }
+
+      const isGroupAdminCallback = (model, layout, context, result) => {
+        // required groupIds include
+        if (result.groupIds && context.isAuthenticated) {
+          const adminGroupIds = context.currentUser.groups.filter(g => g.userMembership.memberType === "admin").map(g => g.id);
+          const adminGroupId = result.groupIds.find(g => adminGroupIds.includes(g));
+          if (adminGroupId) {
+            model.badges.push(badge = {
+              label: "Group Admin",
+              icon: "user",
+              color: "green"
+            });
+            model.actionLinks.push({
+              action: "manage-group",
+              label: "Manage Group",
+              icon: "wrench",
+              showLabel:true
+            });
+            model.additionalInfo = (model.additionalInfo || []).slice(0,2);
+          }
+          model.adminGroupId = adminGroupId;
+        }
+        return model;
+      }
+
+      const ownerEditCallback = (model, layout, context, result) => {
+        // Add owner badge
+        if (context.isAuthenticated) {
+          if (result.owner === context.currentUser.username) {
+            model.badges.push(badge = {
+              label: "Owner",
+              icon: "user",
+              color: "green"
+            });
+            model.actionLinks.push({
+              action: "edit",
+              label: "Edit",
+              icon: "pencil",
+              showLabel:true
+            });
+            model.additionalInfo = (model.additionalInfo || []).slice(0,2);
+          }
+        }
+        return model;
+      }
+      const canEditCallback = (model, layout, context, result) => {
+        // Needs item.itemControl include
+        if (context.isAuthenticated) {
+          if (["owner", "admin"].includes(result.itemControl)) {
+            model.badges.push(badge = {
+              label: "Editor",
+              icon: "user",
+              color: "green"
+            });
+            model.actionLinks.push({
+              action: "edit",
+              label: "Edit",
+              icon: "pencil",
+              showLabel:true
+            });
+            model.additionalInfo = (model.additionalInfo || []).slice(0,2);
+          }
+        }
+        return model;
+      }
+
+      const locationCallback = (model, layout, context, result) => {
+        let canEdit = false;
+        if (context.isAuthenticated) {
+          if (result.owner === context.currentUser.username) {
+            canEdit = true;
+          }
+        }
+
+        if (result.rawResult?.properties?.location) {
+          model.badges.push({
+              showLabel: false,
+              icon: "pins",
+              color: "green"
+            });
+        } else if(canEdit) {
+          model.actionLinks.push({
+            action: "set-location",
+            label: "Set Location",
+            icon: "cursor-plus",
+            showLabel:true
+          });
+          model.additionalInfo = (model.additionalInfo || []).slice(0,2);
+        }
+        return model;
+      }
+
+      const layerCountCallback = (model, layout, context, result) => {
+        // Needs server.layers AS layerInfo include
+        if (result.layerInfo) {
+          const info = {
+            value: result.layerInfo.length,
+            label: "Layers",
+          };
+          model.additionalInfo = [info, ...model.additionalInfo];
+        }
+        return model;
+      }
+
+      const showFunction = (fn) => {
+        const editor = document.querySelector('.editor');
+        editor.textContent = fn.toString();
+      }
+
+      showFunction(simpleCallback);
+
+      document.addEventListener('calciteInlineEditableEditConfirm', evt => {
+        setProp('include', evt.target.children[0].value)
+      })
+
+
+      document.addEventListener('calciteRadioGroupChange', evt => {
+        console.log(`Changing API to ${evt.detail}`);
+        const apiType = evt.detail;
+        setProp('apiType', apiType);
+      });
+      document.addEventListener('click', evt => {
+        if (evt.target.id === 'btnApply') {
+          const cbString = document.querySelector('.editor').value;
+          eval(`var fn = ${cbString}`);
+          try {
+            // console.clear();
+            // console.log(`--------- CALLBACK FUNCTION IN HTML ---------`)
+            // console.log(fn.toString());
+            // console.log(`--------- ----------------- ---------`)
+            setProp('callback', fn);
+          } catch(ex) {
+            console.error(ex);
+          }
+        }
+
+      });
+      document.addEventListener('arcgisHubGalleryAction', evt => {
+        console.log(`galleryAction: ${evt.detail.action} for ${evt.detail.model.id}`);
+      });
+      document.addEventListener('arcgisHubCardAction', (evt) => {
+        console.log(`cardAction: ${evt.detail.action}`);
+        console.dir(evt.detail);
+        alert(`cardAction: ${evt.detail.action} for ${evt.detail.model.type} ${evt.detail.model.id}`);
+      })
+      document.addEventListener('hubTelemetry', evt => {
+        console.log(`telemetry`, evt.detail);
+      });
+
+      // These would be raised from some user profile type control
+      function signIn() {
+        const evt = new CustomEvent('arcgisAppIdentityStartSignIn');
+        document.dispatchEvent(evt);
+      }
+      function signOut() {
+        const evt = new CustomEvent('arcgisAppIdentityStartSignOut');
+        document.dispatchEvent(evt);
+      }
+
+      // These listeners could be in any component that wants a session
+      document.addEventListener('arcgisAppIdentitySignedIn', evt => {
+        setProp('context', evt.detail);
+        showUserInfo(evt.detail.session);
+      });
+
+      document.addEventListener('arcgisAppIdentitySignedOut', evt => {
+        setProp('context', evt.detail);
+        showUserInfo(evt.detail.session);
+      });
+
+      document.addEventListener('arcgisHubContentGalleryStateChange', evt => {
+        showParams(evt.detail);
+      });
+
+       document.addEventListener('calciteComboboxChange', evt => {
+        if (evt.target.id === "callback-selection") {
+          let fnName = evt.target.value;
+          switch(fnName) {
+            case "simple":
+              showFunction(simpleCallback);
+              break;
+            case "badges":
+              showFunction(ownerEditCallback);
+              break;
+            case "location":
+              showFunction(locationCallback);
+              break;
+            case "layerCount":
+              showFunction(layerCountCallback);
+              break;
+            case "edit":
+              showFunction(canEditCallback);
+              break;
+            case "groupAdmin":
+              showFunction(isGroupAdminCallback);
+              break;
+          }
+        }
+
+      });
+
+      function showParams(params) {
+        // serialize
+        let qs = '';
+        for (key in params) {
+          if (params[key]) {
+            qs = `${qs}&${key}=${params[key]}`;
+          }
+        }
+        const el = document.getElementById('params');
+        el.innerText = `State as params: ${qs}`;
+      }
+
+      // Simple function to so something when auth changes
+      function showUserInfo(session) {
+        const el = document.getElementById('userinfo');
+        if (session) {
+          el.innerText = `User ${session.username} authenticated`;
+        } else {
+          el.innerText = 'No user authenticated';
+        }
+      }
+
+      // Set a property on the element
+      function setProp(key, value) {
+        const el = document.querySelector('arcgis-hub-gallery');
+        el[key] = value;
+      }
+
+      const query = {
+        targetEntity: 'item',
+        // Change this well known collection key to experment with different collection bases
+        collection: 'all',
+        filters: [
+        ],
+      };
+
+
+      const facets = [
+
+        {
+          display: 'multi-select',
+          label: 'Type',
+          key: 'type',
+          field: 'type',
+          operation: 'OR',
+          options: [],
+          aggLimit: 100,
+        },
+
+      ];
+
+      setProp('query', query);
+      setProp('facets', facets);
+      setProp('callback', defaultCallback);
+
+
+    </script>
+  </body>
+</html>

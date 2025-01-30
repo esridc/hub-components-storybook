@@ -1,0 +1,72 @@
+{
+  "addContent": "Dodaj sadržaj",
+  "addContentType": {
+    "event": "Stvori događaj",
+    "discussion": "Stvori raspravu",
+    "group": "Stvori grupu",
+    "initiative": "Stvori inicijativu",
+    "project": "Stvori projekt",
+    "page": "Stvori stranicu",
+    "site:": "Stvori lokaciju"
+  },
+  "tooltip": {
+    "label": "Onemogućeno",
+    "noCatalog": "Dodajte grupe u katalog za dodavanje sadržaja.",
+    "noPermission": "Nemate dopuštenje za dodavanje sadržaja u katalog.",
+    "no-permission": "Nemate dopuštenje za dodavanje sadržaja u katalog.",
+    "not-in-groups": "Niste član nijedne grupe koja definira katalog.",
+    "too-many-groups": "Imate maksimalan broj grupa i ne možete stvoriti više."
+  },
+  "existing": {
+    "description": "Dodajte sadržaj koji je već u {onlineOrEnterprise}",
+    "modalTitle": "Odaberi postojeći sadržaj",
+    "title": "Odaberi postojeći sadržaj"
+  },
+  "create": {
+    "app": {
+      "description": "Stvorite iskustvo, ispričajte priču ili vizualizirajte svoje podatke",
+      "modalTitle": "Stvori app",
+      "title": "Aplikacija"
+    },
+    "event": {
+      "description": "Budite domaćin organizirane aktivnosti, osobno ili virtualno",
+      "modalTitle": "Stvori događaj",
+      "title": "Događaj"
+    },
+    "content": {
+      "description": "Dodajte podatke, dokumente, slike i vanjske poveznice svojoj web-stranici",
+      "modalTitle": "Kreirajte sadržaj",
+      "title": "Sadržaj"
+    },
+    "discussion": {
+      "description": "Prikupite ideje i povratne informacije",
+      "modalTitle": "Stvori ploču za raspravu",
+      "title": "Ploča za raspravu"
+    },
+    "group": {
+      "description": "Organizirajte ljude kako bi dijelili sadržaj i raspravljali",
+      "modalTitle": "Stvori grupu",
+      "title": "Grupa"
+    },
+    "initiative": {
+      "description": "Istaknite strateške napore s definiranim ciljevima koji organiziraju projekte",
+      "modalTitle": "Stvori inicijativu",
+      "title": "Inicijativa"
+    },
+    "page": {
+      "description": "Predstavite informacije u strukturiranom izgledu",
+      "modalTitle": "Stvori stranicu",
+      "title": "Stranica"
+    },
+    "project": {
+      "description": "Prikažite rad s jasnim ciljevima i vremenskim okvirima",
+      "modalTitle": "Stvori projekt",
+      "title": "Projekt"
+    },
+    "site": {
+      "description": "Izradite brendiranu internetsku stranicu za interakciju sa svojom zajednicom",
+      "modalTitle": "Stvori lokaciju",
+      "title": "Web-mjesto"
+    }
+  }
+}

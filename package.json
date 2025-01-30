@@ -1,0 +1,17 @@
+{
+  "name": "hub-components-storybook",
+  "version": "1.0.0",
+  "description": "A (hopefully) temporary storage location for the hub-components storybook build using Calcite v2.13.2",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx http-server calcite2.13.2-storybook-build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@storybook/cli": "^8.5.2"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

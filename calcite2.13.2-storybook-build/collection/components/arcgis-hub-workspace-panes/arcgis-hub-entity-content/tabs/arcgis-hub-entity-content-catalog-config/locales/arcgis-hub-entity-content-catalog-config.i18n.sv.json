@@ -1,0 +1,46 @@
+{
+  "title": "Katalogkonfiguration",
+  "helperText": "Definiera och konfigurera katalogen",
+  "sections": {
+    "groups": {
+      "title": "Grupper",
+      "helperText": "Grupper nedan innehåller innehållet i din sökkatalog. Välj en grupp för att visa inställningar, innehåll och annat.",
+      "createGroup": "Skapa ny grupp"
+    },
+    "feeds": {
+      "title": "Feed-konfiguration",
+      "helperText": "Gör dina offentliga öppna data lättillgängliga och återanvändbara med Hub-feeds.",
+      "learn": "Läs mer om Hub-feeds",
+      "toggle": "Aktivera feeds ",
+      "configure": "Konfigurera feeds",
+      "notice": "Om du vill aktivera feeds måste du först ange dina Hubb-webbplatser till \"Offentliga\" i inställningar"
+    }
+  },
+  "groupPickerFacet": {
+    "label": "Från",
+    "editGroups": "Redigera grupper",
+    "viewGroups": "Visa grupp",
+    "myGroups": "Mina grupper",
+    "myOrganization": "Min organisation",
+    "myCommunity": "Min community",
+    "public": "Offentlig"
+  },
+  "formAlert": "Formulärvarning",
+  "configSaveAlert": {
+    "success": "Ändringarna har sparats",
+    "failure": "Fel när ändringarna sparades"
+  },
+  "reharvestCatalogButton": "Kontrollera om det finns fel",
+  "reharvestWarningModal": {
+    "title": "Kontrollera om det finns fel",
+    "body1": "Varning: Det här alternativet används oftast bara i situationer när din söksida påträffar problem med saknade resultat eller metadata. Det här alternativet kontrollerar alla objekt i alla kataloggrupperna för att se om det finns tillägg, metadataändringar eller borttagningar.",
+    "body2": "Om du kör den här processen återskapas det offentliga sökindexet för den här katalogen och det kan ta flera minuter. Detta kommer att öka belastningen på alla ArcGIS Server-instanser.",
+    "primaryButton": "Fortsätt",
+    "secondaryButton": "Avbryt"
+  },
+  "reharvestCatalogAlert": {
+    "success": "Kontrollerar om det finns fel. Kom tillbaka senare.",
+    "inProgress": "Kontrollen pågår redan. Kom tillbaka senare.",
+    "failure": "Ett oväntat fel har uppstått. Försök igen senare."
+  }
+}

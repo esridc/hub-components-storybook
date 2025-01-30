@@ -1,0 +1,47 @@
+{
+  "communityOrg": "Komunitná organizácia",
+  "editLayout": "Editovať rozloženie",
+  "orgWorkspace": "Otvoriť domáci pracovný priestor",
+  "editS123": "Upraviť v Survey123",
+  "editAdvancedJson": "Editovať pokročilý JSON",
+  "view": {
+    "project": "Zobraziť projekt",
+    "site": "Zobraziť lokalitu",
+    "initiative": "Zobraziť iniciatívu",
+    "discussion": "Zobraziť fórum",
+    "content": "Zobraziť obsah",
+    "page": "Zobraziť stránku",
+    "group": "Zobraziť skupinu",
+    "initiativeTemplate": "Zobraziť iniciatívnu šablónu",
+    "template": "Zobraziť šablónu",
+    "survey": "Zobraziť prieskum",
+    "event": "Zobraziť udalosť"
+  },
+  "access": {
+    "share": "Zdieľať",
+    "sharingLevel": "Úroveň zdieľania",
+    "groupSharing": "Skupinové zdieľanie",
+    "tooltip": {
+      "public": "Úroveň zdieľania: Verejné",
+      "org": "Úroveň zdieľania: Organizácia",
+      "private": "Úroveň zdieľania: Súkromné",
+      "shared": "Úroveň zdieľania: Súkromne zdieľané"
+    },
+    "save": "Uložiť",
+    "cancel": "Zrušiť",
+    "alert": {
+      "success": "Editácie úspešne uložené",
+      "error": "Chyba pri ukladaní editácií",
+      "label": "Upozornenie na formulár"
+    }
+  },
+  "popoverActions": {
+    "label": "Ďalšie akcie",
+    "openInEnterprise": "Otvoriť v ArcGIS Enterprise",
+    "openInOnline": "Otvoriť v ArcGIS Online"
+  },
+  "homeLink": {
+    "text": "Domov"
+  },
+  "createContent": "Vytvoriť"
+}

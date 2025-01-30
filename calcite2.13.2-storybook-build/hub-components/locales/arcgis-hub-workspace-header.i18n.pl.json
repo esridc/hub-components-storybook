@@ -1,0 +1,47 @@
+{
+  "communityOrg": "Instytucja społeczności",
+  "editLayout": "Edytuj kompozycję",
+  "orgWorkspace": "Otwórz główną przestrzeń roboczą",
+  "editS123": "Edytuj w aplikacji Survey123",
+  "editAdvancedJson": "Edytuj zaawansowany kod JSON",
+  "view": {
+    "project": "Wyświetl projekt",
+    "site": "Wyświetl witrynę",
+    "initiative": "Wyświetl inicjatywę",
+    "discussion": "Wyświetl forum",
+    "content": "Wyświetlanie zasobu",
+    "page": "Wyświetl stronę",
+    "group": "Wyświetl grupę",
+    "initiativeTemplate": "Wyświetl szablon inicjatywy",
+    "template": "Wyświetl szablon",
+    "survey": "Wyświetl ankietę",
+    "event": "Wyświetl wydarzenie"
+  },
+  "access": {
+    "share": "Udostępnij",
+    "sharingLevel": "Poziom udostępniania",
+    "groupSharing": "Udostępnianie grupie",
+    "tooltip": {
+      "public": "Poziom udostępniania: Publiczna",
+      "org": "Poziom udostępniania: Instytucja",
+      "private": "Poziom udostępniania: Prywatna",
+      "shared": "Poziom udostępniania: Udostępniana prywatnie"
+    },
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "alert": {
+      "success": "Pomyślnie zapisano zmiany",
+      "error": "Błąd podczas zapisywania zmian",
+      "label": "Alert dotyczący formularza"
+    }
+  },
+  "popoverActions": {
+    "label": "Więcej działań",
+    "openInEnterprise": "Otwórz w oprogramowaniu ArcGIS Enterprise",
+    "openInOnline": "Otwórz w ArcGIS Online"
+  },
+  "homeLink": {
+    "text": "Home"
+  },
+  "createContent": "Utwórz"
+}

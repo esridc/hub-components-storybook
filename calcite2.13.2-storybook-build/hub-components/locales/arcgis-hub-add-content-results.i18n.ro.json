@@ -1,0 +1,54 @@
+{
+  "existing": {
+    "successHeading": "Conținut adăugat cu succes.",
+    "failureHeading": "Nu se poate adăuga conținut la grupul selectat.",
+    "successfulAccordionHeading": "Conținut adăugat cu succes la grupul selectat.",
+    "unsuccessfulAccordionHeading": "Conținut neadăugat la grupul selectat."
+  },
+  "create": {
+    "event": {
+      "successWithoutGroupHeading": "Eveniment creat cu succes.",
+      "successWithGroupHeading": "Eveniment creat cu succes și adăugat la {group}.",
+      "successMessage": "Acum puteți vizualiza Evenimentul, îl puteți gestiona pentru a edita informațiile sau face clic pe „efectuat” pentru a reveni la vizualizare.",
+      "failureHeading": "Nu se poate adăuga Evenimentul la grupul selectat."
+    },
+    "discussion": {
+      "successWithoutGroupHeading": "Panou de discuții creat cu succes.",
+      "successWithGroupHeading": "Panou de discuții creat cu succes și adăugat la {group}.",
+      "successMessage": "Acum puteți vizualiza Panoul de discuții, în puteți gestiona pentru a edita informațiile sau face clic pe „efectuat” pentru a reveni la vizualizare.",
+      "failureHeading": "Nu se poate adăuga Panoul de discuții la grupul selectat."
+    },
+    "group": {
+      "successWithoutGroupHeading": "Grup creat cu succes.",
+      "successMessage": "Acum puteți vizualiza Grupul, îl puteți gestiona pentru a edita informațiile sau face clic pe „efectuat” pentru a reveni la vizualizare.",
+      "failureHeading": "Imposibil de creat grupul."
+    },
+    "initiative": {
+      "successWithoutGroupHeading": "Inițiativa a fost creată cu succes.",
+      "successWithGroupHeading": "Inițiativa a fost creată cu succes și adăugată la {group}.",
+      "successMessage": "Acum puteți vizualiza Inițiativa, o puteți gestiona pentru a edita informațiile sau face clic pe „efectuat” pentru a reveni la vizualizare.",
+      "failureHeading": "Nu se poate adăuga inițiativa la grupul selectat."
+    },
+    "page": {
+      "successWithoutGroupHeading": "Pagină creată cu succes.",
+      "successWithGroupHeading": "Pagină creată cu succes și adăugată la {group}.",
+      "successMessage": "Acum puteți vizualiza Pagina, o puteți gestiona pentru a edita informațiile sau face clic pe „efectuat” pentru a reveni la vizualizare.",
+      "failureHeading": "Nu se poate adăuga Pagina la grupul selectat."
+    },
+    "project": {
+      "successWithoutGroupHeading": "Proiect creat cu succes.",
+      "successWithGroupHeading": "Proiect creat cu succes și adăugat la {group}.",
+      "successMessage": "Acum puteți vizualiza Proiectul, îl puteți gestiona pentru a edita informațiile sau face clic pe „efectuat” pentru a reveni la vizualizare.",
+      "failureHeading": "Nu se poate adăuga proiectul la grupul selectat."
+    },
+    "site": {
+      "successWithoutGroupHeading": "Site creat cu succes.",
+      "successWithGroupHeading": "Site creat cu succes și adăugat la {group}.",
+      "successMessage": "Acum puteți vizualiza Site-ul, o puteți gestiona pentru a edita informațiile sau face clic pe „efectuat” pentru a reveni la vizualizare.",
+      "failureHeading": "Nu se poate adăuga Site-ul la grupul selectat."
+    }
+  },
+  "editLayout": "Editare structură",
+  "manageEntity": "Gestionare",
+  "viewEntity": "Vizualizați"
+}

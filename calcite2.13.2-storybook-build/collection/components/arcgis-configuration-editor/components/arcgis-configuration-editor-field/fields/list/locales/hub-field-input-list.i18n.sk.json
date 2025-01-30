@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "Editovať",
+    "fields": {
+      "label": {
+        "label": "Popis",
+        "requiredMessage": "Vyžaduje sa popis",
+        "maxLengthMessage": "Popis nesmie prekročiť {maxLength} znakov"
+      }
+    },
+    "apply": "Použiť"
+  },
+  "showItem": "Zobraziť nasledujúcu položku zoznamu: {itemLabel}",
+  "hideItem": "Skryť nasledujúcu položku zoznamu: {itemLabel}",
+  "editItem": "Upraviť nasledujúcu položku zoznamu: {itemLabel}"
+}

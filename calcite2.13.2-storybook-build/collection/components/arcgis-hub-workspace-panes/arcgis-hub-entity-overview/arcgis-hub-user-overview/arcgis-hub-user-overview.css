@@ -1,0 +1,19 @@
+:host {
+  display: block;
+  height: 100%;
+}
+
+div {
+  flex-direction: column;
+}
+
+div.section-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+arcgis-stat-card {
+  height: auto;
+}

@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Nema pronađenih rezultata."
+    },
+    "error": {
+      "message": "Žao nam je ali pretraga je naišla na pogrešku."
+    }
+  },
+  "access": "Pristup",
+  "actionsHeader": "Radnje",
+  "caption": "Tablica čvorišta subjekta",
+  "family": "Obitelj",
+  "type": "Vrsta",
+  "tags": "Oznake",
+  "owner": "Vlasnik",
+  "dateCreated": "Stvoreno",
+  "dateUpdated": "Izmijenjeno",
+  "description": "Opis",
+  "dateAndTime": "Datum i vrijeme",
+  "location": "Lokacija",
+  "attendanceType": "Vrsta pohađanja",
+  "inPerson": "Osobno",
+  "online": "Na mreži",
+  "hybrid": "Kombinirano",
+  "categories": "Kategorije",
+  "content": "Sadržaj",
+  "name": "Naziv",
+  "start": "Početak",
+  "end": "Kraj",
+  "sharedUpdate": "Dijeljeno ažuriranje",
+  "managers": "Voditelji",
+  "username": "Korisničko ime",
+  "no": "Ne",
+  "yes": "Da",
+  "title": "Naziv",
+  "thumbnail": "Sličica",
+  "types": {
+    "app": "Aplikacija",
+    "content": "Sadržaj",
+    "dataset": "Skup podataka",
+    "discussion": "Ploča za raspravu",
+    "document": "Dokument",
+    "event": "Događaj",
+    "feedback": "Povratne informacije",
+    "initiative": "Inicijativa",
+    "image": "Slika",
+    "map": "Karta",
+    "other": "Ostalo",
+    "people": "Ljudi",
+    "site": "Web-mjesto",
+    "team": "Grupa",
+    "template": "Predložak",
+    "project": "Projekt"
+  }
+}

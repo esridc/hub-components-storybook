@@ -1,0 +1,250 @@
+:host {
+  display: block;
+  height: 100%;
+  border-color: transparent;
+  --calcite-border-radius-base: var(--cornerBorderRadius, "0");
+  --calcite-loader-padding: .5rem;
+}
+
+calcite-card {
+  height: 100%;
+}
+
+:host(:not([border])) {
+  --calcite-color-border-3: transparent;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-upper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-lower {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  margin: 0px;
+  font-weight: var(--calcite-font-weight-bold);
+  line-height: 1.375;
+  color: var(--calcite-color-text-1);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
+
+calcite-card.stat-card-background {
+  position: relative;
+}
+
+.subtitle {
+  margin: 0px;
+  font-weight: var(--calcite-font-weight-normal);
+  line-height: 1.375;
+  color: var(--calcite-color-text-2);
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer ::slotted([slot="footer"]) {
+  width: 100%;
+}
+
+.value-container {
+  display: flex;
+  font-weight: var(--calcite-font-weight-bold);
+  color: var(--valueColor, var(--calcite-color-text-1));
+}
+
+.value-container-with-error {
+  display: flex;
+  font-weight: var(--calcite-font-weight-bold);
+  color: var(--calcite-color-text-1);
+}
+
+/* For an error, we want the regular text and not the value color from a stat */
+.value-container calcite-notice {
+  color: var(--calcite-color-text-1);
+}
+
+.trailing-text {
+  margin: 0px;
+  font-size: var(--calcite-font-size-0);
+  font-weight: var(--calcite-font-weight-normal);
+  line-height: 1.375;
+  color: var(--calcite-color-text-2);
+}
+
+.source-link {
+  display: none;
+}
+
+.source-link.static, .source-link.dynamic {
+  margin-top: 0.125rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
+
+.source-link-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.source-link-container span {
+  margin-right: 0.25rem;
+  font-size: var(--calcite-font-size-0);
+  line-height: 1.25rem;
+}
+
+calcite-link {
+  /* bottom padding is necessary to prevent the link underline from being cut off */
+  padding-bottom: 0.125rem;
+  font-size: var(--calcite-font-size-0);
+  line-height: 1.25rem;
+  overflow-wrap: anywhere;
+}
+
+calcite-card {
+  height: 100%;
+}
+
+/* unit position */
+:host([unit-position="below"]) .value-container {
+  flex-direction: column;
+}
+
+:host([unit-position="below"]) .unit {
+  font-weight: var(--calcite-font-weight-bold);
+  color: var(--calcite-color-text-1);
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+:host([unit-position="before"]) .unit {
+  margin-right: 0.25rem;
+}
+
+:host([unit-position="after"]) .unit {
+  margin-left: 0.25rem;
+}
+
+/* alignment */
+:host([text-align="center"]) .header-upper, :host([text-align="center"]) .header-lower, :host([text-align="center"]) .value-container, :host([text-align="center"]) .footer {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+:host([text-align="center"]) .header-upper {
+  flex-direction: column-reverse;
+}
+
+:host([text-align="end"]) .header-upper, :host([text-align="end"]) .header-lower {
+  justify-content: flex-end;
+}
+
+
+:host([text-align="end"]) .value-container, :host([text-align="end"]) .footer {
+  align-items: flex-end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+:host([text-align="center"]) .subtitle {
+  text-align: center;
+}
+
+:host([text-align="end"]) .subtitle {
+  text-align: end;
+}
+
+/**
+* Scale sizing
+*/
+/**   LARGE   */
+:host([scale="l"]) .title {
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+}
+
+:host([scale="l"]) .subtitle {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+:host([scale="l"]) .value-container, :host([scale="l"]) .value-container-with-error {
+  font-size: 3.5rem;
+  line-height: 4rem;
+}
+
+:host([scale="l"][unit-position="below"]) .unit {
+  font-size: 1.125rem;
+}
+
+@media only screen and (max-width: 560px) {
+  :host([scale="l"]) .title {
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+  }
+  :host([scale="l"]) .value-container {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+}
+
+/**   MEDIUM   */
+:host([scale="m"]) .title {
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+}
+
+:host([scale="m"]) .subtitle {
+  font-size: 1rem;
+  line-height: 1.375rem;
+}
+
+:host([scale="m"]) .value-container, :host([scale="m"]) .value-container-with-error {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+/**   SMALL   */
+:host([scale="s"]) .title {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+:host([scale="s"]) .subtitle {
+  font-size: 1rem;
+  line-height: 1.375rem;
+}
+
+:host([scale="s"]) .value-container, :host([scale="s"]) .value-container-with-error {
+  font-size: 1.625rem;
+  line-height: 2rem;
+}
+
+:host([shadow="low"]) calcite-card {
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.05);
+}

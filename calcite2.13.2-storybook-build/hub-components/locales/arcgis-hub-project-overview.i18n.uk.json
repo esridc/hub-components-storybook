@@ -1,0 +1,19 @@
+{
+  "overview": "Огляд",
+  "telemetry": {
+    "pageViews": "Перегляди сторінок",
+    "last30days": "Останні 30 днів",
+    "lastUpdated": "Востаннє оновлено {hoursElapsed} години тому",
+    "checkTomorrow": "Повертайтеся завтра"
+  },
+  "learnAbout": "Докладніше про Hub Projects",
+  "status": {
+    "notStarted": "Не запущено",
+    "inProgress": "Виконується...",
+    "onHold": "Уточнюється",
+    "complete": "Виконати"
+  },
+  "editDetails": "Редагувати відомості",
+  "noPurposeSet": "Мета не встановлена",
+  "noLocationSet": "Місце розташування не задане"
+}

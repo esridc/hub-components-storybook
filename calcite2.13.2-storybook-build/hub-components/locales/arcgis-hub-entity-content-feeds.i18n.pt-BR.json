@@ -1,0 +1,81 @@
+{
+  "tabTitle": "Configuração de feeds",
+  "learn": "Saiba mais sobre feeds do Hub.",
+  "loadingLabel": "Carregando",
+  "enableFeedsToggle": {
+    "label": "Habilitar feeds",
+    "privateNotice": "Para habilitar feeds, você precisa primeiro definir seu site Hub como \"Público\".",
+    "emptyPublicCatalog": {
+      "message": "Para habilitar feeds, você precisa primeiro adicionar conteúdo público ao seu catálogo.",
+      "button": "Visulizar Catálogo"
+    },
+    "grouplessCatalog": {
+      "message": "Para habilitar feeds, você precisa primeiro configurar seu catálogo.",
+      "button": "Configurar Catálogo"
+    }
+  },
+  "gettingStartedNotice": {
+    "title": "Guia de Introdução",
+    "exampleMessage": "Realce e atualize uma chave ou valor no editor de JSON usando um valor literal (\"VALUE\") ou um modelo (\"{{TEMPLATE_VALUE}}\").",
+    "previewMessage": "Utilize o botão \"visualizar\" para visualizar suas alterações. Para informações adicionais, leia a <catalogFederationLink>documentação de ajuda da federação de catálogo</catalogFederationLink>."
+  },
+  "aboutFeedsNotice": {
+    "message": "Torne seus dados públicos abertos facilmente acessíveis e reutilizáveis com feeds do Hub.",
+    "link": "Saiba mais sobre feeds do Hub."
+  },
+  "feedsEditorSection": {
+    "title": "Ficheiros",
+    "formatSelectLabel": "Selecione um tipo de feed",
+    "uneditableAttributesIntro": "Observe que os seguintes atributos não podem ser editados:",
+    "edit": "Editar",
+    "preview": "Visualizar",
+    "selectContentNotice": "Selecione o conteúdo para visualizar.",
+    "invalidJsonEditorWarning": "JSON inválido. Corrija os erros antes de salvar.",
+    "invalidJsonPreviewWarning": "Não é possível visualizar JSON inválido. Corrija os erros.",
+    "errorPreviewingWarning": "Ocorreu um erro. Verifique sua conexão e tente novamente. Se o problema persistir, registre um erro no Suporte do Hub."
+  },
+  "toolsSection": {
+    "title": "Ferramentas",
+    "verification": "Verificação",
+    "previewSampleData": {
+      "label": "Visualizar dados de amostra",
+      "pickerFacets": {
+        "type": "Tipo",
+        "tags": "Tag",
+        "categories": "Categoria",
+        "sharing": "Compartilhamento",
+        "dateUpdated": "Data atualizada"
+      }
+    },
+    "copyableInputLabel": "URL de acesso ao feed"
+  },
+  "dcat-us": {
+    "1.1": {
+      "title": "DCAT-US 1.1",
+      "description": "DCAT permite que as organizações padronizem a contribuição de dados e ajude as pessoas a analisar através de origens federais. Você pode usar o <dcatUsSchemaLink>esquema DCAT</dcatUsSchemaLink> estabelecido por Project Open Data, que é a configuração padrão, ou você mesmo pode configurar certos campos/atributos. Os administradores do site também podem adicionar configurações DCAT adicionais e podem querer ler nossa documentação sobre a <catalogFederationLink>federação de dados com DCAT e outros catálogos externos.</catalogFederationLink>",
+      "uneditableAttributes": "@type, landingPage, webService and contactPoint['@type'].",
+      "verificationLabel": "Você pode verificar seu feed DCAT colando a URL de DCAT do seu site no <dcatUsVerificationLink>Validador de Dados Abertos do Projeto</dcatUsVerificationLink>."
+    }
+  },
+  "dcat-ap": {
+    "2.1.1": {
+      "title": "DCAT-AP 2.1.1",
+      "description": "Estabelecido pela Comissão Europeia, DCAT-AP é o formato de intercâmbio de metadados padrão em catálogos de dados Europeus. O ArcGIS Hub cria e atualiza automaticamente o feed DCAT-AP do seu site quando você edita os detalhes dos metadados do seu conteúdo ou adiciona um novo conteúdo público ao seu catálogo. Como o feed usa metadados mantidos no ArcGIS Online, não há necessidade de criar manualmente metadados DCAT-AP separados.<lineBreak></lineBreak><lineBreak></lineBreak> Usando este editor, você pode manter a configuração padrão do ArcGIS Hub do <dcatApSchemaLink>esquema DCAT-AP</dcatApSchemaLink> ou pode configurar certos campos/atributos você mesmo. Você também pode adicionar campos/atributos de DCAT-AP. Para obter mais detalhes, consulte a documentação do ArcGIS Hub sobre a <catalogFederationLink>federação de dados com DCAT e outros catálogos externos</catalogFederationLink>.",
+      "uneditableAttributes": "@type, @id, dcat:contactPoint['@id'], dcat:contactPoint['@type'], dct:publisher, dcat:theme, dct:accessRights, dcat:keyword, dct:provenance, dct:issued, and dct:language",
+      "verificationLabel": "Você pode verificar seu feed DCAT colando a URL de DCAT do seu site no <dcatApVerificationLink>Banco de Teste de Interoperabilidade da Comissão Europeia</dcatApVerificationLink>."
+    }
+  },
+  "rss": {
+    "2.0": {
+      "title": "RSS 2.0",
+      "description": "<rssAboutLink>RSS 2</rssAboutLink> é um formato de distribuição de conteúdo da web e está em conformidade com a <xmlSpecLink>especificação XML 1.0</xmlSpecLink>. Com a utilização deste editor, você pode manter a configuração padrão do ArcGIS Hub, ou você mesmo pode configurar certos campos/atributos. Para obter mais detalhes, consulte a documentação do ArcGIS Hub sobre a <catalogFederationLink>federação de dados com DCAT e outros catálogos externos.</catalogFederationLink>",
+      "verificationLabel": "Você pode verificar seu feed RSS passando a URL RSS do seu site para o W3 <rssVerificationLink>Feed Validator</rssVerificationLink>."
+    }
+  },
+  "saveButton": "Salvar",
+  "alertMessages": {
+    "success": "Edições salvas com sucesso",
+    "error": "Erro ao salvar edições"
+  },
+  "formAlert": "Alerta de formulário"
+}

@@ -1,0 +1,85 @@
+{
+  "collaborators": "Collaboratori",
+  "editGroupButtonText": "Aggiungi gruppi di modifica",
+  "viewGroupButtonText": "Aggiungi gruppi di visualizzazione",
+  "groupPicker": {
+    "title": "Seleziona gruppi",
+    "facet": {
+      "label": "Da",
+      "editGroups": "Modifica gruppi",
+      "viewGroups": "Visualizza gruppo",
+      "myGroups": "I miei gruppi",
+      "myOrganization": "La mia organizzazione",
+      "myCommunity": "La mia community"
+    }
+  },
+  "addNewPeopleNotice": {
+    "title": "Aggiungi nuove persone",
+    "message": "Se devi aggiungere delle persone, puoi invitarle a unirsi alla comunità oppure puoi <orgOverviewLink>contattare il tuo amministratore</orgOverviewLink>."
+  },
+  "editGroupsTitle": "Gruppi che possono modificare",
+  "viewGroupsTitle": "Gruppi che possono visualizzare",
+  "project": {
+    "description": "Scegli quali gruppi di utenti possono visualizzare e modificare questo progetto.",
+    "editGroupsDescription": "Le persone che fanno parte di questi gruppi potranno modificare le informazioni sul progetto.",
+    "viewGroupsDescription": "Le persone che fanno parte di questi gruppi potranno cercare e visualizzare il progetto, se non è condiviso al pubblico.",
+    "errorMessage": "Si è verificato un errore nell'aggiornamento dei collaboratori del tuo progetto."
+  },
+  "content": {
+    "description": "Scegli quali gruppi di utenti possono visualizzare e modificare questo contenuto.",
+    "editGroupsDescription": "Le persone che fanno parte di questi gruppi potranno modificare le informazioni sul contenuto.",
+    "viewGroupsDescription": "Le persone che fanno parte di questi gruppi potranno cercare e visualizzare il contenuto, se non è condiviso al pubblico.",
+    "errorMessage": "Si è verificato un errore nell'aggiornamento dei collaboratori del tuo contenuto."
+  },
+  "discussion": {
+    "description": "Scegliere i gruppi di utenti che possono visualizzare il pannello di discussione e modificarne le informazioni.",
+    "editGroupsDescription": "I membri di questi gruppi possono modificare le informazioni del pannello.",
+    "viewGroupsDescription": "I membri di questi gruppi possono cercare e visualizzare il pannello di discussione (se non condiviso con il pubblico).",
+    "errorMessage": "Si è verificato un errore nell'aggiornamento dei collaboratori della tua discussione."
+  },
+  "site": {
+    "description": "Scegliere quali gruppi di utenti possono visualizzare e modificare questo sito.",
+    "editGroupsDescription": "Le persone che fanno parte di questi gruppi potranno modificare le informazioni sul sito.",
+    "viewGroupsDescription": "Le persone che fanno parte di questi gruppi potranno cercare e visualizzare il sito, se non è condiviso al pubblico.",
+    "errorMessage": "Si è verificato un errore nell'aggiornamento dei collaboratori del sito."
+  },
+  "template": {
+    "description": "Scegliere quali gruppi di utenti possono visualizzare e modificare questo modello.",
+    "editGroupsDescription": "Le persone che fanno parte di questi gruppi potranno modificare le informazioni sul modello.",
+    "viewGroupsDescription": "Le persone che fanno parte di questi gruppi potranno cercare e visualizzare il modello, se non è condiviso con il pubblico.",
+    "errorMessage": "Si è verificato un errore nell'aggiornamento dei collaboratori del modello."
+  },
+  "survey": {
+    "description": "Scegliere quali gruppi di utenti possono visualizzare e modificare questo rilevamento.",
+    "editGroupsDescription": "Le persone che fanno parte di questi gruppi potranno modificare le informazioni sul rilevamento.",
+    "viewGroupsDescription": "Le persone che fanno parte di questi gruppi potranno cercare e visualizzare il rilevamento, se non è condiviso con il pubblico.",
+    "errorMessage": "Si è verificato un errore nell'aggiornamento dei collaboratori del rilevamento."
+  },
+  "event": {
+    "description": "Scegli quali gruppi di utenti possono visualizzare e modificare questo evento.",
+    "editGroupsDescription": "Le persone che fanno parte di questi gruppi potranno modificare le informazioni dell'evento.",
+    "viewGroupsDescription": "Le persone che fanno parte di questi gruppi potranno cercare e visualizzare l'evento, se non è condiviso pubblicamente.",
+    "errorMessage": "Si è verificato un errore durante l'aggiornamento dei collaboratori dell'evento."
+  },
+  "newTab": "apri il profilo in una nuova scheda",
+  "supportingTeams": "Team di supporto",
+  "supportingTeamsDesc": "Questi team di supporto erano precedentemente collegati al sito. È possibile continuare a utilizzarli per condividere i contenuti con i collaboratori.",
+  "supportTeamsRemove": "Rimuovi team",
+  "supportingTeamsRemoveError": "Errore durante la rimozione del collegamento team. Contattare un amministratore.",
+  "supportingTeamsRemoveSuccess": "Team scollegato correttamente.",
+  "view": {
+    "button": "Crea Visualizza gruppo",
+    "formLabel": "Nuovo Visualizza gruppo",
+    "description": "Imposta un gruppo per facilitare la condivisione del contenuto e la comunicazione. I membri del gruppo potranno visualizzare qualsiasi contenuto condiviso con il gruppo."
+  },
+  "edit": {
+    "button": "Crea Modifica gruppo",
+    "formLabel": "Nuovo Modifica gruppo",
+    "description": "Imposta un gruppo per facilitare la condivisione del contenuto e la comunicazione. I membri del gruppo potranno visualizzare e modificare qualsiasi contenuto condiviso con il gruppo."
+  },
+  "groupCreateDisabledButtonTooltip": "Impossibile creare un gruppo. È possibile che tu appartenga già al numero massimo di gruppi o che tu non disponga dei privilegi sufficienti per creare un gruppo.",
+  "groupCreateError": "Si è verificato un errore durante la creazione del gruppo.",
+  "notice": {
+    "label": "Avviso modulo"
+  }
+}

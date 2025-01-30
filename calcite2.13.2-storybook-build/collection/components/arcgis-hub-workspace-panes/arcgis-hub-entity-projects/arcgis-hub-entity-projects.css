@@ -1,0 +1,38 @@
+:host {
+  display: block;
+  height: 100%;
+}
+
+arcgis-hub-workspace-pane {
+  --arcgis-configuration-form-footer-max-width: 800px;
+  --arcgis-configuration-form-footer-scalable-padding: 0.5rem;
+}
+
+calcite-tabs {
+  width: 100%;
+  gap: 0px;
+}
+
+calcite-tabs calcite-tab.content-tab-container {
+  overflow: visible;
+}
+
+calcite-tab {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.entity-projects__tab {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 0.5rem;
+}
+
+.entity-projects__description {
+  line-height: 1.375rem;
+}
+
+.entity-projects__help-state-message {
+  width: 33.333333%;
+}

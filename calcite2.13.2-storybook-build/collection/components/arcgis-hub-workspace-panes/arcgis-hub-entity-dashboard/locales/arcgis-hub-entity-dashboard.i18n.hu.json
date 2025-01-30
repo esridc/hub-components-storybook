@@ -1,0 +1,20 @@
+{
+  "dashboard": "Dashboard",
+  "activityLogSection": {
+    "title": "Tevékenységnapló",
+    "table": {
+      "downloadAction": "Letöltés",
+      "downloadAllAction": "Összes letöltése",
+      "downloadActionTooltip": "A kiválasztott tevékenységek letöltése",
+      "caption": "Legutóbbi hibák táblázata",
+      "columnHeaders": {
+        "datetime": "Dátum",
+        "layer": "Réteg",
+        "message": "Üzenet"
+      },
+      "noRecentErrors": "Nincsenek legutóbbi hibák",
+      "expandText": "Továbbiak megtekintése",
+      "collapseText": "Kevesebb megtekintése"
+    }
+  }
+}

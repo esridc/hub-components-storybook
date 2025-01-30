@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "Legg til første handling",
+  "addSecondAction": "Legg til andre handling",
+  "addLink": "Legg til kobling",
+  "addSection": "Legg til del",
+  "deleteNotice": {
+    "title": "Kan ikke slette",
+    "message": "Delen er ikke tom. Flytt alle koblinger utenfor delen før du prøver å slette."
+  },
+  "linkEditor": {
+    "save": "Lagre",
+    "delete": "Slett",
+    "cancel": "Avbryt",
+    "preview": "Forhåndsvisningskobling",
+    "title": {
+      "button1": "Første handling",
+      "button2": "Andre handling",
+      "block": "Handlingskobling"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "Koble til eksisterende innhold"
+        },
+        "external": {
+          "label": "Koble til en ekstern kilde"
+        }
+      },
+      "label": {
+        "label": "Etikett",
+        "helperText": {
+          "button": "Denne teksten vil vises på knappen.",
+          "block": "Dette vil vises på blokken som er uthevet."
+        },
+        "requiredError": "Etikett er et obligatorisk felt."
+      },
+      "description": {
+        "label": "Beskrivelse",
+        "helperText": "Dette er sekundærinformasjon."
+      },
+      "href": {
+        "label": "Kobling",
+        "requiredError": "Kobling er et obligatorisk felt.",
+        "formatError": "URL-formatet er feil."
+      },
+      "contentId": {
+        "label": "Innholdskobling",
+        "requiredError": "Innholdskobling er et obligatorisk felt."
+      },
+      "section": {
+        "label": "Flytt til del",
+        "placeholder": {
+          "noSections": "Ingen deler er blitt konfigurert.",
+          "notSet": "Ikke i delen"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "Seksjon",
+    "helperText": "Seksjoner kan brukes til å nøste koblinger inn under et menyelement. Seksjoner fungerer ikke som en kobling.",
+    "section": {
+      "label": {
+        "label": "Etikett",
+        "requiredError": "Etikett er et obligatorisk felt."
+      },
+      "description": {
+        "label": "Beskrivelse"
+      }
+    }
+  }
+}

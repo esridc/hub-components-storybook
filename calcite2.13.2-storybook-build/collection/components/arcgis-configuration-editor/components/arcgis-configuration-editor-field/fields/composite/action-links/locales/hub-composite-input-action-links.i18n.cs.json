@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "Přidat první akci",
+  "addSecondAction": "Přidat druhou akci",
+  "addLink": "Přidat odkaz",
+  "addSection": "Přidat sekci",
+  "deleteNotice": {
+    "title": "Nelze odstranit",
+    "message": "Sekce není prázdná. Před pokusem o odstranění přesuňte všechny odkazy mimo sekci."
+  },
+  "linkEditor": {
+    "save": "Uložit",
+    "delete": "Smazat",
+    "cancel": "Storno",
+    "preview": "Odkaz na náhled",
+    "title": {
+      "button1": "První akce",
+      "button2": "Druhá akce",
+      "block": "Odkaz na akci"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "Odkaz na stávající obsah"
+        },
+        "external": {
+          "label": "Odkaz na externí zdroj"
+        }
+      },
+      "label": {
+        "label": "Popisek",
+        "helperText": {
+          "button": "Tento text se zobrazí na tlačítku.",
+          "block": "Toto se zobrazí na bloku tučným písmem."
+        },
+        "requiredError": "Popisek je povinné pole."
+      },
+      "description": {
+        "label": "Popis",
+        "helperText": "Toto je sekundární informace."
+      },
+      "href": {
+        "label": "Odkaz",
+        "requiredError": "Odkaz je povinné pole.",
+        "formatError": "Formátování adresy URL je nesprávné"
+      },
+      "contentId": {
+        "label": "Odkaz na obsah",
+        "requiredError": "Odkaz na obsah je povinné pole."
+      },
+      "section": {
+        "label": "Přesunout do sekce",
+        "placeholder": {
+          "noSections": "Nebyly nakonfigurovány žádné sekce",
+          "notSet": "Není v sekci"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "Sekce",
+    "helperText": "Sekce lze použít k vnoření odkazů pod položku nabídky. Sekce nefungují jako odkaz.",
+    "section": {
+      "label": {
+        "label": "Popisek",
+        "requiredError": "Popisek je povinné pole."
+      },
+      "description": {
+        "label": "Popis"
+      }
+    }
+  }
+}

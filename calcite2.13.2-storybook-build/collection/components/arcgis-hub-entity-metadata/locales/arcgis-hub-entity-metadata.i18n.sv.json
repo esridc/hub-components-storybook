@@ -1,0 +1,239 @@
+{
+  "owner": {
+    "description": "Ägare"
+  },
+  "updatedDate": {
+    "description": "Uppdaterat datum",
+    "descriptionWithFrequency": "Uppdaterat datum: {updatedDateFormatted}"
+  },
+  "createdDate": {
+    "description": "Skapad datum"
+  },
+  "joinedDate": {
+    "description": "Gick med datum"
+  },
+  "access": {
+    "label": {
+      "public": "Offentlig",
+      "org": "Organisation",
+      "private": "Ägare",
+      "shared": "Privat delad"
+    },
+    "description": {
+      "public": {
+        "site": "Alla kan se den här webbplatsen",
+        "project": "Alla kan se det här projektet",
+        "initiative": "Alla kan se det här initiativet",
+        "discussion": "Alla kan se den här diskussionen",
+        "default": "Alla kan se det här innehållet",
+        "event": "Alla kan se det här evenemanget"
+      },
+      "org": {
+        "site": "Alla i din organisation kan se den här webbplatsen",
+        "project": "Alla i din organisationen kan se det här projektet",
+        "initiative": "Alla i din organisation kan se det här initiativet",
+        "discussion": "Alla i din organisation kan se den här diskussionen",
+        "default": "Alla i din organisation kan se det här innehållet",
+        "event": "Alla i din organisation kan se det här evenemanget"
+      },
+      "private": {
+        "site": "Bara du kan se den här webbplatsen",
+        "project": "Endast du kan se det här projektet",
+        "initiative": "Bara du kan se det här initiativet",
+        "discussion": "Bara du kan se denna diskussion",
+        "default": "Bara du kan se det här innehållet",
+        "event": "Bara du kan se det här evenemanget"
+      },
+      "shared": {
+        "site": "Valda grupper kan se den här webbplatsen",
+        "project": "Valda grupper kan se det här projektet",
+        "initiative": "Valda grupper kan se det här initiativet",
+        "discussion": "Valda grupper kan se den här diskussionen",
+        "default": "Valda grupper kan se det här innehållet",
+        "event": "Valda grupper kan se det här evenemanget"
+      }
+    }
+  },
+  "type": {
+    "fallback": {
+      "content": "Innehåll",
+      "discussion": "Diskussion",
+      "event": "Evenemang",
+      "group": "Grupp",
+      "initiative": "Initiativ",
+      "org": "Organisation",
+      "page": "Sida",
+      "project": "Projekt",
+      "site": "Webbplats",
+      "survey": "Undersökning",
+      "initiativeTemplate": "Mall",
+      "user": "Användare"
+    },
+    "appbuilderExtension": "GIS-verktyg",
+    "appbuilderWidgetPackage": "GIS-verktyg",
+    "application": "Registrerad app",
+    "arcgisProMap": "GIS-verktyg",
+    "cadDrawing": "GIS-verktyg",
+    "cityEngineWebScene": "3D-applikation",
+    "codeAttachment": "GIS-verktyg",
+    "colorSet": "GIS-verktyg",
+    "content": "Innehåll",
+    "contentCategorySet": "GIS",
+    "csv": "Dataset",
+    "csvCollection": "Datafil",
+    "dashboard": "Dashboard",
+    "desktopApplication": "GIS-verktyg",
+    "document": "Dokument",
+    "documentLink": "Webblänk",
+    "excaliburImageryProject": "GIS-verktyg",
+    "explorerMap": "GIS-verktyg",
+    "exportPackage": "GIS-verktyg",
+    "featureCollection": "Dataset",
+    "featureCollectionTemplate": "GIS-verktyg",
+    "featureLayer": "Dataset",
+    "featureService": "Karta",
+    "fileGeodatabase": "Datafil",
+    "form": "Undersökning",
+    "geocodingService": "Utvecklar-API",
+    "geodataService": "Utvecklar-API",
+    "geojson": "Innehåll",
+    "geometryService": "Utvecklar-API",
+    "geopackage": "Datafil",
+    "geoprocessingService": "Utvecklar-API",
+    "globeLayer": "Datafil",
+    "globeService": "Utvecklar-API",
+    "hubInitiative": "Initiativ",
+    "hubInitiativeTemplate": "Mall",
+    "hubPage": "Sida",
+    "hubProject": "Projekt",
+    "hubSiteApplication": "Webbplats",
+    "image": "Bild",
+    "imageService": "Bilddataset",
+    "insightsModel": "GIS-verktyg",
+    "insightsPage": "Analys",
+    "insightsTheme": "GIS-verktyg",
+    "insightsWorkbook": "Analysarbetsbok",
+    "iWorkKeynote": "Presentation",
+    "iWorkNumbers": "Kalkylblad",
+    "iWorkPages": "Dokument",
+    "kml": "Dataset",
+    "kmlCollection": "Datafil",
+    "layer": "Datafil",
+    "layerPackage": "Datafil",
+    "locatorPackage": "GIS-verktyg",
+    "mapArea": "GIS-verktyg",
+    "mapDocument": "GIS-verktyg",
+    "mapImageLayer": "Karta",
+    "mapPackage": "Datafil",
+    "mapService": "Karta",
+    "microsoftExcel": "Kalkylblad",
+    "microsoftPowerpoint": "Presentation",
+    "microsoftVizio": "Microsoft Visio",
+    "microsoftWord": "Dokument",
+    "mission": "GIS-verktyg",
+    "mobileApplication": "Applikation",
+    "mobileMapPackage": "Datafil",
+    "native application template": "Utvecklarverktyg",
+    "nativeApplication": "Applikation",
+    "nativeApplicationInstaller": "Utvecklarverktyg",
+    "networkAnalysisService": "Utvecklar-API",
+    "notebook": "Analys",
+    "orientedImageryCatalog": "Bilddataset",
+    "orthoMappingProject": "GIS-verktyg",
+    "orthoMappingTemplate": "GIS-verktyg",
+    "pdf": "Dokument",
+    "quickcaptureProject": "Mobil undersökning",
+    "rasterLayer": "Karta",
+    "realTimeAnalytic": "Utvecklar-API",
+    "relationalDatabaseConnection": "Utvecklar-API",
+    "reportTemplate": "GIS-verktyg",
+    "sceneLayer": "3D-dataset",
+    "sceneService": "3D-dataset",
+    "serviceDefinition": "Datafil",
+    "shapefile": "Dataset",
+    "solution": "Lösning",
+    "sqliteGeodatabase": "Datafil",
+    "statisticalDataCollection": "Datafil",
+    "storymap": "StoryMap",
+    "symbolSet": "Datafil",
+    "table": "Dataset",
+    "team": "Team",
+    "urbanModel": "Urban-modell",
+    "vectorTileService": "Karta",
+    "visioDocument": "Dokument",
+    "webExperience": "Applikation",
+    "webMap": "Karta",
+    "webMappingApplication": "Applikation",
+    "webScene": "3D-karta",
+    "wfs": "Karta",
+    "wms": "Karta",
+    "wmts": "Karta",
+    "workflowManagerService": "Utvecklar-API",
+    "workforceProject": "Uppgiftsflödeshanteraren"
+  },
+  "location": {
+    "description": "Plats"
+  },
+  "members": {
+    "noMember": "Inga medlemmar",
+    "oneMember": "Medlemmar: 1",
+    "members": "Medlemmar: {count}",
+    "description": {
+      "value": "Visa alla gruppmedlemmar"
+    }
+  },
+  "tooltip": {
+    "label": "Verktygstips för metadataobjekt"
+  },
+  "relevantArea": {
+    "title": "Relevant område"
+  },
+  "license": {
+    "tooltip": "Definierar hur det här innehållet kan användas",
+    "set": {
+      "title": "{license} licens",
+      "customTitle": "Anpassad licens",
+      "description": {
+        "value": "Visa licensuppgifter"
+      }
+    },
+    "unset": {
+      "title": "Ingen licens har tillhandahållits",
+      "description": {
+        "value": "Begär behörighet för användning"
+      }
+    }
+  },
+  "size": {
+    "description": {
+      "value": "Dokumentfilstorlek"
+    }
+  },
+  "recordCount": {
+    "title": "Poster: {count}",
+    "description": {
+      "value": "Visa datatabell"
+    }
+  },
+  "metadataModified": {
+    "description": {
+      "defaultValue": "Informationen har uppdaterats",
+      "dynamicValue": "Uppdaterad information: {lastUpdated}"
+    }
+  },
+  "updateFrequency": {
+    "continual": "Kontinuerligt",
+    "daily": "Dagligen",
+    "weekly": "Veckovis",
+    "fortnightly": "Varannan vecka",
+    "monthly": "Månadsvis",
+    "quarterly": "Kvartalsvis",
+    "biannually": "Vartannat år",
+    "annually": "Årligen",
+    "as-needed": "Efter behov",
+    "irregular": "Oregelbunden",
+    "not-planned": "Ej planerat",
+    "unknown": "Okänt",
+    "semimonthly": "Halvmånadsvis"
+  }
+}

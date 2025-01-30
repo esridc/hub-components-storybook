@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "แก้ไขกลุ่ม",
+        "viewGroups": "ดูกลุ่ม"
+      },
+      "facet": {
+        "label": "จาก",
+        "myGroups": "กลุ่มของฉัน",
+        "myOrganization": "องค์กรของฉัน",
+        "myCommunity": "ชุมชนของฉัน"
+      }
+    }
+  },
+  "property": {
+    "label": "พารามิเตอร์",
+    "requiredError": "จำเป็นต้องระบุพารามิเตอร์"
+  },
+  "operator": {
+    "label": "เกณฑ์",
+    "requiredError": "จำเป็นต้องระบุเกณฑ์"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "ประเภท"
+    },
+    "group": {
+      "default": "กลุ่ม"
+    },
+    "occurrence": {
+      "default": "การเกิดขึ้น"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "เป็นใดๆ",
+      "group": "แชร์กับใดๆ"
+    },
+    "isAll": {
+      "default": "เป็นทั้งหมดของ",
+      "group": "แชร์กับทั้งหมดของ"
+    },
+    "isExactly": {
+      "default": "ตรงกันทั้งหมด",
+      "occurrence": "เป็น"
+    },
+    "isNot": {
+      "default": "ไม่",
+      "type": "ไม่ใช่ทั้งหมดของ",
+      "group": "แชร์กับที่ไม่ใช่ทั้งหมดของ"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "กลุ่ม",
+      "requiredError": "จำเป็นต้องระบุกลุ่ม"
+    },
+    "type": {
+      "label": "ประเภท",
+      "requiredError": "ต้องระบุประเภท",
+      "app": {
+        "label": "แอป"
+      },
+      "content": {
+        "label": "เนื้อหา"
+      },
+      "dataset": {
+        "label": "ชุดข้อมูล"
+      },
+      "discussion": {
+        "label": "การสนทนา"
+      },
+      "document": {
+        "label": "เอกสาร"
+      },
+      "event": {
+        "label": "เหตุการณ์"
+      },
+      "feedback": {
+        "label": "คำติชม"
+      },
+      "initiative": {
+        "label": "การริเริ่ม"
+      },
+      "map": {
+        "label": "แผนที่"
+      },
+      "project": {
+        "label": "โปรเจกต์"
+      },
+      "site": {
+        "label": "ไซต์"
+      },
+      "template": {
+        "label": "เท็มเพลต"
+      }
+    },
+    "occurrence": {
+      "label": "การเกิดขึ้น",
+      "requiredError": "จำเป็นต้องระบุการเกิดขึ้น",
+      "upcoming": "กำลังจะเกิดขึ้น",
+      "past": "ที่ผ่านมา",
+      "inProgress": "อยู่ระหว่างดำเนินการ"
+    }
+  }
+}

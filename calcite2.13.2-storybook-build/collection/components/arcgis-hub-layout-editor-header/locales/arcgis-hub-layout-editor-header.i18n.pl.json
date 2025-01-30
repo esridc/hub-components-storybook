@@ -1,0 +1,39 @@
+{
+  "popover": {
+    "access": {
+      "org": "Udostępnione instytucji",
+      "private": "Udostępnione właścicielowi",
+      "public": "Udostępnione publicznie",
+      "shared": "Udostępnione właścicielowi i grupom"
+    },
+    "editLayout": "Edytuj kompozycję",
+    "lastUpdated": "Ostatnia aktualizacja: {updated}",
+    "viewSite": "Wyświetl witrynę"
+  },
+  "cloneLayoutLabel": "Klonuj kompozycję",
+  "deleteDraftLabel": "Usuń wersję roboczą",
+  "deletePageLabel": "Usuń stronę",
+  "deleteSiteLabel": "Usuń witrynę",
+  "editInAgoLabel": "Edytuj w usłudze ArcGIS Online",
+  "managePage": "Zarządzaj stroną",
+  "manageSite": "Zarządzaj witryną",
+  "manageTemplate": "Zarządzaj szablonem",
+  "moreOptionsLabel": "Więcej opcji",
+  "publishLabel": {
+    "site": "Opublikuj kompozycję",
+    "page": "Opublikuj kompozycję",
+    "survey": "Publikuj"
+  },
+  "saveAsTemplateLabel": "Zapisz jako szablon",
+  "saveLabel": {
+    "site": "Zapisz kompozycję",
+    "page": "Zapisz kompozycję",
+    "survey": "Zapisz",
+    "template": "Zapisz"
+  },
+  "sharingLabel": "Otwórz panel udostępniania",
+  "editS123Label": "Edytuj w aplikacji Survey123",
+  "viewLabel": "Wyświetl",
+  "viewPublishedLabel": "Wyświetl opublikowane",
+  "viewUnpublishedLabel": "Wyświetl robocze"
+}

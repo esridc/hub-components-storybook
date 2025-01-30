@@ -1,0 +1,150 @@
+{
+  "modal": {
+    "dismiss": "Non mostrare più",
+    "close": "Chiudi"
+  },
+  "notice": {
+    "n001": {
+      "title": "Avviso di test",
+      "message": "Questo è il corpo di un avviso di test",
+      "actions": [
+        {
+          "text": "Leggi il blog"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-1": {
+      "title": "Passa all'esperienza di download aggiornata",
+      "message": "Per ulteriori formati e i miglioramenti di velocità e prestazioni, abilita \"estrai\" nel servizio di questo elemento."
+    },
+    "20240220-hosted-downloads-2": {
+      "title": "Sono disponibili miglioramenti dei download.",
+      "message": "I miglioramenti dei download nei siti Hub includono il supporto dei download ospitati, un aspetto aggiornato per le schede di download e una nuova barra di avanzamento per i download.",
+      "actions": [
+        {
+          "text": "Ulteriori informazioni"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-3": {
+      "title": "Sono disponibili i download ospitati.",
+      "message": "I download ospitati migliorano le prestazioni quando si scaricano contenuti. Per consentire i download ospitati, consenti l'opzione Estrai funzionalità di seguito.",
+      "actions": [
+        {
+          "text": "Ulteriori informazioni"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-basic": {
+      "title": "Informazioni sui workspace",
+      "message": "<p><strong>Aggiungi contenuti ai cataloghi del sito tramite i gruppi</strong> <br>I cataloghi di ricerca del sito sono sempre stati basati sui gruppi e i workspace facilitano la gestione dei gruppi. Per ora, aggiungi i contenuti ai singoli gruppi connessi al tuo sito affinché appaiano nel catalogo del sito. Presto sarà possibile aggiungere i contenti direttamente al catalogo.</p><p><strong>Transizione da team a gruppi </strong><br>Ora è possibile utilizzare qualsiasi gruppo ArcGIS Online per collaborare su siti, pagine, contenuti e progetti in Hub. Tutti i \"Team\" precedentemente collegati, ad esempio il \"Team principale\" del sito, appariranno nel riquadro Collaboratori del workspace del sito.</p><p><strong>La messaggistica e-mail basata su team è temporaneamente sospesa</strong><br>L'invio di messaggi e-mail e di e-mail di invito/rimozione a membri del team e follower non è attualmente supportato.</p><p><strong>Ritiro del designer del sito Web Survey123 incorporato</strong><br>Il designer Survey123 è stato incorporato per aiutare gli utenti a utilizzare al meglio Hub. Il feedback dei clienti, tuttavia, indicava una preferenza per la progettazione e la gestione dei rilevamenti in Survey123, come con altre applicazioni. Per questo motivo, il supporto per il designer Survey123 in ArcGIS Hub sarà disattivato per un migliore allineamento al tuo flusso di lavoro desiderato.</p>",
+      "actions": [
+        {
+          "text": "Ulteriori informazioni"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-premium": {
+      "title": "Informazioni sui workspace",
+      "message": "<p><strong>Aggiungi contenuti ai cataloghi del sito tramite i gruppi</strong> <br>I cataloghi di ricerca del sito sono sempre stati basati sui gruppi e i workspace facilitano la gestione dei gruppi. Per ora, aggiungi i contenuti ai singoli gruppi connessi al tuo sito affinché appaiano nel catalogo del sito. Presto sarà possibile aggiungere i contenti direttamente al catalogo.</p><p><strong>Transizione da team di supporto a gruppi </strong><br>Ora è possibile utilizzare qualsiasi gruppo ArcGIS Online per collaborare su siti, pagine, contenuti e progetti in Hub. Tutti i team di supporto precedentemente collegati appariranno nel riquadro Collaboratori del workspace del sito. Per continuare a ricevere supporto, aggiungi i team di supporto come Gruppi che possono visualizzare e Gruppi che possono modificare.</p><p><strong>La messaggistica e-mail basata su team è temporaneamente sospesa</strong><br>L'invio di messaggi e-mail e di e-mail di invito/rimozione a membri del team e follower non è attualmente supportato.</p><p><strong>Ritiro del designer del sito Web Survey123 incorporato</strong><br>Il designer Survey123 è stato incorporato per aiutare gli utenti a utilizzare al meglio Hub. Il feedback dei clienti, tuttavia, indicava una preferenza per la progettazione e la gestione dei rilevamenti in Survey123, come con altre applicazioni. Per questo motivo, il supporto per il designer Survey123 in ArcGIS Hub sarà disattivato per un migliore allineamento al tuo flusso di lavoro desiderato.</p><p><strong>Eventi non ancora disponibili nei workspace</strong><br>Gli eventi sono in fase di trasformazione e saranno presto disponibili nei workspace. Per ora, se si accettano i workspace, si perde la possibilità di creare nuovi eventi, gestire e cercare gli eventi esistenti. Se desideri gestire gli eventi precedentemente creati, puoi rifiutare i workspace in qualsiasi momento.</p>",
+      "actions": [
+        {
+          "text": "Ulteriori informazioni"
+        }
+      ]
+    },
+    "202404-workspaceannouncement": {
+      "title": "Presentazione dei workspace",
+      "message": "I workspace sono un nuovo modo di modificare e gestire gli elementi in Hub, sostituendo la navigazione globale nella vista di modifica (non nella vista in tempo reale). In questa fase è possibile \"accettare\" (in qualsiasi momento) l'uso dei workspace e delle funzioni associate per gli elementi e i gruppi. Gli eventi saranno disponibili in una fase successiva. Per provare i subito i workspace, seleziona \"Vai alle impostazioni\".",
+      "actions": [
+        {
+          "text": "Vai alle impostazioni"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing": {
+      "title": "Reintroduzione - Iniziative Hub",
+      "message": "Le iniziative di ArcGIS Hub sono cambiate il 2 luglio 2024. Le iniziative create in precedenza ora sono siti autonomi con gli stessi layout, contenuti, URL e funzioni premium (come follower ed eventi) di prima. Per provare le nuove iniziative, è necessario abilitare i workspace.",
+      "actions": [
+        {
+          "text": "Ulteriori informazioni sulle iniziative",
+          "ariaLabel": "Informazioni sulle iniziative, si apre in una nuova scheda"
+        },
+        {
+          "text": "Vai alle impostazioni"
+        }
+      ]
+    },
+    "20240517-initiatives-manage": {
+      "title": "Gestire le iniziative precedenti",
+      "message": "Le iniziative di ArcGIS Hub sono cambiate il 2 luglio 2024. Le iniziative create in precedenza ora sono siti autonomi con gli stessi layout, contenuti, URL e funzioni premium (come follower ed eventi) di prima. È possibile eliminare in sicurezza tutte le iniziative precedenti.",
+      "actions": [
+        {
+          "text": "Ulteriori informazioni sulle iniziative",
+          "ariaLabel": "Informazioni sulle iniziative, si apre in una nuova scheda"
+        },
+        {
+          "text": "Visualizza le iniziative precedenti",
+          "ariaLabel": "Visualizza vecchie iniziative, si apre in una nuova scheda"
+        }
+      ]
+    },
+    "20240517-initiatives-manage-no-priv": {
+      "title": "Gestire le iniziative precedenti",
+      "message": "Le iniziative di ArcGIS Hub sono cambiate il 2 luglio 2024. Le iniziative create in precedenza ora sono siti autonomi con gli stessi layout, contenuti, URL e funzioni premium (come follower ed eventi) di prima. È possibile eliminare in sicurezza tutte le iniziative precedenti.",
+      "actions": [
+        {
+          "text": "Ulteriori informazioni sulle iniziative",
+          "ariaLabel": "Informazioni sulle iniziative, si apre in una nuova scheda"
+        },
+        {
+          "text": "Visualizza le iniziative precedenti",
+          "ariaLabel": "Visualizza vecchie iniziative, si apre in una nuova scheda"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing-site": {
+      "title": "Reintroduzione - Iniziative Hub",
+      "message": "La nuova generazione delle iniziative Hub è ora disponibile nei workspace. Le iniziative dispongono della propria vista facile da configurare e possono aiutare ad allineare i progetti Hub che condividono obiettivi a lungo termine. Le iniziative possono essere create in modo indipendente e condivise con uno o più siti. I siti possono disporre di una o più iniziative.",
+      "actions": [
+        {
+          "text": "Ulteriori informazioni",
+          "ariaLabel": "Informazioni, si apre in una nuova scheda"
+        }
+      ]
+    },
+    "20240710-slow-service-warning": {
+      "title": "Interruzione del servizio",
+      "message": "La comunicazione con il servizio sta richiedendo più tempo del previsto. Ciò potrebbe influire sull'accesso a download e funzionalità della mappa."
+    },
+    "20240710-unreachable-service-error": {
+      "title": "Servizio non disponibile",
+      "message": "Impossibile contattare il servizio host. I download e la funzionalità della mappa non sono al momento disponibili per questo elemento."
+    },
+    "20240807-auth-required-status": {
+      "title": "Stato servizio sconosciuto",
+      "message": "Non siamo in grado di accedere al servizio sicuro perché è richiesta ulteriore autorizzazione. I download e la funzionalità della mappa non sono al momento disponibili per l'elemento."
+    },
+    "20240805-private-downloads-unavailable-ago-error": {
+      "title": "I download non sono disponibili",
+      "message": "Per scaricare il contenuto, l'impostazione Esporta dati deve essere abilitata su ArcGIS Online. Contatta il proprietario dell'articolo per abilitare questa impostazione."
+    },
+    "20240805-private-downloads-unavailable-enterprise-error": {
+      "title": "I download non sono disponibili",
+      "message": "Per scaricare il contenuto, l'impostazione Esporta dati deve essere abilitata su ArcGIS Enterprise. Contatta il proprietario dell'articolo per abilitare questa impostazione."
+    },
+    "20240819-download-formats-disabled": {
+      "title": "I download sono stati disattivati.",
+      "message": "Per scaricare il contenuto per questo elemento, contattare il proprietario dell'elemento."
+    },
+    "20241104-about-feeds-notice": {
+      "message": "Rendi i tuoi open data pubblici facilmente accessibili e riutilizzabili con i feed di Hub.",
+      "actions": [
+        {
+          "text": "Informazioni sui feed di Hub",
+          "ariaLabel": "Informazioni sui feed di hub, si apre in una nuova scheda"
+        }
+      ]
+    }
+  }
+}

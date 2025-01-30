@@ -1,0 +1,39 @@
+{
+  "popover": {
+    "access": {
+      "org": "Partajat cu organizația",
+      "private": "Partajat cu proprietarul",
+      "public": "Partajat cu publicul",
+      "shared": "Partajat cu proprietarul și grupurile"
+    },
+    "editLayout": "Editare structură",
+    "lastUpdated": "Ultima actualizare {updated}",
+    "viewSite": "Vizualizare site"
+  },
+  "cloneLayoutLabel": "Strat tematic clonă",
+  "deleteDraftLabel": "Ștergeți schița",
+  "deletePageLabel": "Ștergere pagină",
+  "deleteSiteLabel": "Ștergere site",
+  "editInAgoLabel": "Editare în ArcGIS Online",
+  "managePage": "Administrare pagină",
+  "manageSite": "Administrare site",
+  "manageTemplate": "Administrare șablon",
+  "moreOptionsLabel": "Mai multe opțiuni",
+  "publishLabel": {
+    "site": "Publicare structură",
+    "page": "Publicare structură",
+    "survey": "Publicare"
+  },
+  "saveAsTemplateLabel": "Salvare ca șablon",
+  "saveLabel": {
+    "site": "Salvare structură",
+    "page": "Salvare structură",
+    "survey": "Salvare",
+    "template": "Salvare"
+  },
+  "sharingLabel": "Deschidere panou de partajare",
+  "editS123Label": "Editare în Survey123",
+  "viewLabel": "Vizualizare",
+  "viewPublishedLabel": "Vizualizare versiune publicată",
+  "viewUnpublishedLabel": "Vizualizare schiță"
+}

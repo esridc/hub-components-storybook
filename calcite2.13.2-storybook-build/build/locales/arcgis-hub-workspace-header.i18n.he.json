@@ -1,0 +1,47 @@
+{
+  "communityOrg": "ארגון קהילה",
+  "editLayout": "ערוך פריסה",
+  "orgWorkspace": "פתח שטח עבודה בית",
+  "editS123": "ערוך ב-Survey123",
+  "editAdvancedJson": "עריכת JSON מתקדם",
+  "view": {
+    "project": "הצג פרויקט",
+    "site": "הצג אתר",
+    "initiative": "הצג יוזמה",
+    "discussion": "הצג לוח",
+    "content": "הצג תוכן",
+    "page": "הצג דף",
+    "group": "הצג קבוצה",
+    "initiativeTemplate": "הצג תבנית יוזמה",
+    "template": "הצג תבנית",
+    "survey": "הצג סקר",
+    "event": "הצג אירוע"
+  },
+  "access": {
+    "share": "שתף",
+    "sharingLevel": "רמת שיתוף",
+    "groupSharing": "שיתוף קבוצות",
+    "tooltip": {
+      "public": "רמת שיתוף: ציבורי",
+      "org": "רמת שיתוף: ארגון",
+      "private": "רמת שיתוף: פרטי",
+      "shared": "רמת שיתוף: משותף באופן פרטי"
+    },
+    "save": "שמור",
+    "cancel": "ביטול",
+    "alert": {
+      "success": "השינויים נשמרו בהצלחה",
+      "error": "שגיאה בשמירת שינויים",
+      "label": "התראת צורה"
+    }
+  },
+  "popoverActions": {
+    "label": "פעולות נוספות",
+    "openInEnterprise": "פתח ב-ArcGIS Enterprise",
+    "openInOnline": "פתח ב-ArcGIS Online"
+  },
+  "homeLink": {
+    "text": "דף הבית"
+  },
+  "createContent": "יצירה"
+}

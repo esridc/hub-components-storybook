@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "Kategorier",
+        "noCategoriesNotice": {
+          "body": "Den här organisationen har ännu inga kategorier.",
+          "link": "Ställ in kategorier"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "Innehåll",
+      "selectionMode": {
+        "dynamic": {
+          "label": "Dynamisk"
+        },
+        "manual": {
+          "label": "Manuell"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "Organisation"
+        },
+        "collection": {
+          "sites": "Webbplatser",
+          "projects": "Projekt",
+          "initiatives": "Initiativ"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "Organisation"
+        },
+        "collection": {
+          "events": "Evenemang"
+        }
+      },
+      "access": {
+        "label": "Delning",
+        "private": {
+          "label": "Privat",
+          "description": "Filtrera efter innehåll är endast tillgängligt för dig och de med gruppåtkomst."
+        },
+        "org": {
+          "label": "Organisation",
+          "description": "Filtrera efter innehåll är endast tillgängligt för medlemmar i din organisation."
+        },
+        "public": {
+          "label": "Offentlig",
+          "description": "Filtrera efter innehåll är tillgängligt för alla."
+        }
+      },
+      "tags": {
+        "label": "Taggar"
+      },
+      "cardsShown": {
+        "label": "Visade kort"
+      }
+    },
+    "appearance": {
+      "label": "Utseende",
+      "titleHeading": {
+        "label": "Titelrubrik",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "Enligt WCAG G141 förbättrar kapslade rubriker tillgängligheten."
+      },
+      "corners": {
+        "label": "Hörn",
+        "square": {
+          "label": "Fyrkantig"
+        },
+        "round": {
+          "label": "Rundad"
+        }
+      },
+      "shadow": {
+        "label": "Skugga",
+        "none": {
+          "label": "Inaktiverat"
+        },
+        "low": {
+          "label": "Låg"
+        },
+        "medium": {
+          "label": "Medium"
+        },
+        "heavy": {
+          "label": "Tung"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "Visa ytterligare info"
+      },
+      "layout": {
+        "label": "Layout",
+        "list": {
+          "label": "Lista"
+        },
+        "map": {
+          "label": "Karta"
+        },
+        "calendar": {
+          "label": "Kalender"
+        }
+      }
+    },
+    "options": {
+      "label": "Alternativ",
+      "openIn": {
+        "label": "Öppna i...",
+        "same": {
+          "label": "Samma flik"
+        },
+        "new": {
+          "label": "Ny flik"
+        },
+        "notice": {
+          "title": "Tillgänglighetstips:",
+          "body": "Enligt WCAG 2.0 G200-tekniken är det inte rekommenderat att öppna länkar i nya flikar eller fönster.",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "Läs mer om WCAG 2.0 G200"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "Delning",
+      "public": {
+        "label": "Offentlig"
+      },
+      "private": {
+        "label": "Privat"
+      },
+      "organization": {
+        "label": "Organisation"
+      }
+    },
+    "from": {
+      "label": "Från",
+      "myOrganization": {
+        "label": "Min organisation"
+      },
+      "myContent": {
+        "label": "Mitt innehåll"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "Evenemang",
+      "collections": {
+        "event": {
+          "label": "Evenemang"
+        }
+      }
+    },
+    "item": {
+      "label": "Innehåll",
+      "collections": {
+        "item": {
+          "label": "Innehåll"
+        }
+      }
+    }
+  }
+}

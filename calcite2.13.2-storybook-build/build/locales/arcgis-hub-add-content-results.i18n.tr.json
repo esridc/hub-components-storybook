@@ -1,0 +1,54 @@
+{
+  "existing": {
+    "successHeading": "İçerik başarıyla eklendi.",
+    "failureHeading": "Seçili gruba içerik eklenemiyor.",
+    "successfulAccordionHeading": "İçerik seçili gruba eklendi.",
+    "unsuccessfulAccordionHeading": "İçerik seçili gruba eklenmedi."
+  },
+  "create": {
+    "event": {
+      "successWithoutGroupHeading": "Etkinlik başarıyla oluşturuldu.",
+      "successWithGroupHeading": "Etkinlik başarıyla oluşturuldu ve {group}'a eklendi.",
+      "successMessage": "Artık Etkinliği görüntüleyebilir, bilgileri düzenlemek için yönetebilir veya görünüme geri dönmek için 'tamamlandı' seçeneğine tıklayabilirsiniz.",
+      "failureHeading": "Etkinlik seçili gruba eklenemiyor."
+    },
+    "discussion": {
+      "successWithoutGroupHeading": "Tartışma Panosu başarıyla oluşturuldu.",
+      "successWithGroupHeading": "Tartışma Panosu başarıyla oluşturuldu ve {group}'a eklendi.",
+      "successMessage": "Artık Tartışma Panosunu görüntüleyebilir, bilgileri düzenlemek için panoyu yönetebilir veya görünüme geri dönmek için 'tamamlandı' seçeneğine tıklayabilirsiniz.",
+      "failureHeading": "Tartışma Panosu seçili gruba eklenemiyor."
+    },
+    "group": {
+      "successWithoutGroupHeading": "Grup başarıyla oluşturuldu.",
+      "successMessage": "Artık Grubu görüntüleyebilir, bilgileri düzenlemek için yönetebilir veya görünüme geri dönmek için 'tamamlandı' seçeneğine tıklayabilirsiniz.",
+      "failureHeading": "Grup oluşturulamadı."
+    },
+    "initiative": {
+      "successWithoutGroupHeading": "İnisiyatif başarıyla oluşturuldu.",
+      "successWithGroupHeading": "İnisiyatif başarıyla oluşturuldu ve {group}'a eklendi.",
+      "successMessage": "Artık İnisiyatifi görüntüleyebilir, bilgileri düzenlemek için yönetebilir veya görünüme geri dönmek için 'tamamlandı' seçeneğine tıklayabilirsiniz.",
+      "failureHeading": "İnisiyatif seçili gruba eklenemiyor."
+    },
+    "page": {
+      "successWithoutGroupHeading": "Sayfa başarıyla oluşturuldu.",
+      "successWithGroupHeading": "Sayfa başarıyla oluşturuldu ve {group}'a eklendi.",
+      "successMessage": "Artık Sayfayı görüntüleyebilir, bilgileri düzenlemek için yönetebilir veya görünüme geri dönmek için 'tamamlandı' seçeneğine tıklayabilirsiniz.",
+      "failureHeading": "Sayfa seçili gruba eklenemiyor."
+    },
+    "project": {
+      "successWithoutGroupHeading": "Proje başarılı bir şekilde oluşturuldu.",
+      "successWithGroupHeading": "Proje başarılı bir şekilde oluşturuldu ve {group}'a eklendi.",
+      "successMessage": "Artık Projeyi görüntüleyebilir, bilgileri düzenlemek için yönetebilir veya görünüme geri dönmek için 'tamamlandı' seçeneğine tıklayabilirsiniz.",
+      "failureHeading": "Proje seçili gruba eklenemiyor."
+    },
+    "site": {
+      "successWithoutGroupHeading": "Site başarıyla oluşturuldu.",
+      "successWithGroupHeading": "Site başarılı bir şekilde oluşturuldu ve {group}'a eklendi.",
+      "successMessage": "Artık Siteyi görüntüleyebilir, bilgileri düzenlemek için yönetebilir veya görünüme geri dönmek için 'tamamlandı' seçeneğine tıklayabilirsiniz.",
+      "failureHeading": "Site seçili gruba eklenemiyor."
+    }
+  },
+  "editLayout": "Düzeni düzenle",
+  "manageEntity": "Yönet",
+  "viewEntity": "Görüntüle"
+}

@@ -1,0 +1,11 @@
+{
+  "actions": {
+    "register": "登録"
+  },
+  "tooltip": {
+    "register": {
+      "isCancelled": "イベントがキャンセルされました",
+      "eventHasEnded": "イベントが終了しました"
+    }
+  }
+}

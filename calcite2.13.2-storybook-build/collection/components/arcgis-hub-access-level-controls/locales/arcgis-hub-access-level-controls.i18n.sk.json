@@ -1,0 +1,16 @@
+{
+  "heading": "Úroveň zdieľania",
+  "public": "Verejné",
+  "publicInfo": "Viditeľné pre každého {itemType}",
+  "organization": "Organizácia",
+  "organizationInfo": "Viditeľné pre všetkých členov účtom do {orgName} a skupín {itemType}",
+  "owner": "Vlastník",
+  "ownerInfo": "Viditeľné pre vlastníka a skupiny s prístupom {itemType}",
+  "discussion": {
+    "publicInfo": "Toto diskusné fórum si môže pozrieť ktokoľvek.",
+    "organization": "Moja organizácia",
+    "organizationInfo": "Všetci používatelia s účtom na {orgName} si môžu pozrieť toto diskusné fórum.",
+    "owner": "Súkromné",
+    "ownerInfo": "Majiteľ a vybrané skupiny si môžu pozrieť toto diskusné fórum."
+  }
+}

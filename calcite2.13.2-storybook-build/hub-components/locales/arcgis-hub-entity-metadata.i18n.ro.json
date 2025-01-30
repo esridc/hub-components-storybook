@@ -1,0 +1,239 @@
+{
+  "owner": {
+    "description": "Proprietar"
+  },
+  "updatedDate": {
+    "description": "Data actualizării",
+    "descriptionWithFrequency": "Data actualizării: {updatedDateFormatted}"
+  },
+  "createdDate": {
+    "description": "Data creării"
+  },
+  "joinedDate": {
+    "description": "Data înscrierii"
+  },
+  "access": {
+    "label": {
+      "public": "Public",
+      "org": "Organizaţie",
+      "private": "Proprietar",
+      "shared": "Partajat privat"
+    },
+    "description": {
+      "public": {
+        "site": "Oricine poate vedea acest site",
+        "project": "Oricine poate vedea acest proiect",
+        "initiative": "Oricine poate vedea această inițiativă",
+        "discussion": "Oricine poate vedea această discuție",
+        "default": "Oricine poate vedea acest conținut",
+        "event": "Oricine poate vedea acest eveniment"
+      },
+      "org": {
+        "site": "Oricine din organizația dvs. poate vedea acest site",
+        "project": "Oricine din organizația dvs. poate vedea acest proiect",
+        "initiative": "Oricine din organizația dvs. poate vedea această inițiativă",
+        "discussion": "Oricine din organizația dvs. poate vedea această discuție",
+        "default": "Oricine din organizația dvs. poate vedea acest conținut",
+        "event": "Oricine din organizația dvs. poate vedea acest eveniment"
+      },
+      "private": {
+        "site": "Numai dvs. puteți vedea acest site",
+        "project": "Doar dvs. puteți vedea acest proiect",
+        "initiative": "Numai dvs. puteți vedea această inițiativă",
+        "discussion": "Numai dvs. puteți vedea această discuție",
+        "default": "Doar dvs. puteți vedea acest conținut",
+        "event": "Doar dvs. puteți vedea acest eveniment"
+      },
+      "shared": {
+        "site": "Doar anumite grupuri pot vedea acest site",
+        "project": "Doar anumite grupuri pot vedea acest proiect",
+        "initiative": "Doar anumite grupuri pot vedea această inițiativă",
+        "discussion": "Anumite grupuri pot vedea această discuție",
+        "default": "Doar anumite grupuri pot vedea acest conținut",
+        "event": "Doar anumite grupuri pot vedea acest eveniment"
+      }
+    }
+  },
+  "type": {
+    "fallback": {
+      "content": "Conținut",
+      "discussion": "Discuție",
+      "event": "Eveniment",
+      "group": "Grup",
+      "initiative": "Inițiativă",
+      "org": "Organizație",
+      "page": "Pagina",
+      "project": "Proiect",
+      "site": "Site",
+      "survey": "Sondaje",
+      "initiativeTemplate": "Şablon",
+      "user": "Utilizator"
+    },
+    "appbuilderExtension": "Instrument GIS",
+    "appbuilderWidgetPackage": "Instrument GIS",
+    "application": "Aplicaţie înregistrată",
+    "arcgisProMap": "Instrument GIS",
+    "cadDrawing": "Instrument GIS",
+    "cityEngineWebScene": "Aplicație 3D",
+    "codeAttachment": "Instrument GIS",
+    "colorSet": "Instrument GIS",
+    "content": "Conținut",
+    "contentCategorySet": "GIS",
+    "csv": "Set de date",
+    "csvCollection": "Fișier de date",
+    "dashboard": "Tablou de control",
+    "desktopApplication": "Instrument GIS",
+    "document": "Document",
+    "documentLink": "Link web",
+    "excaliburImageryProject": "Instrument GIS",
+    "explorerMap": "Instrument GIS",
+    "exportPackage": "Instrument GIS",
+    "featureCollection": "Set de date",
+    "featureCollectionTemplate": "Instrument GIS",
+    "featureLayer": "Set de date",
+    "featureService": "Hartă",
+    "fileGeodatabase": "Fișier de date",
+    "form": "Sondaje",
+    "geocodingService": "Dezvoltator API",
+    "geodataService": "Dezvoltator API",
+    "geojson": "Conținut",
+    "geometryService": "Dezvoltator API",
+    "geopackage": "Fișier de date",
+    "geoprocessingService": "Dezvoltator API",
+    "globeLayer": "Fișier de date",
+    "globeService": "Dezvoltator API",
+    "hubInitiative": "Inițiativă",
+    "hubInitiativeTemplate": "Şablon",
+    "hubPage": "Pagina",
+    "hubProject": "Proiect",
+    "hubSiteApplication": "Site",
+    "image": "Imagine",
+    "imageService": "Imagini set de date",
+    "insightsModel": "Instrument GIS",
+    "insightsPage": "Analiză",
+    "insightsTheme": "Instrument GIS",
+    "insightsWorkbook": "Foaie de lucru analiză",
+    "iWorkKeynote": "Prezentare",
+    "iWorkNumbers": "Foaie de calcul",
+    "iWorkPages": "Document",
+    "kml": "Set de date",
+    "kmlCollection": "Fișier de date",
+    "layer": "Fișier de date",
+    "layerPackage": "Fișier de date",
+    "locatorPackage": "Instrument GIS",
+    "mapArea": "Instrument GIS",
+    "mapDocument": "Instrument GIS",
+    "mapImageLayer": "Hartă",
+    "mapPackage": "Fișier de date",
+    "mapService": "Hartă",
+    "microsoftExcel": "Foaie de calcul",
+    "microsoftPowerpoint": "Prezentare",
+    "microsoftVizio": "Microsoft Visio",
+    "microsoftWord": "Document",
+    "mission": "Instrument GIS",
+    "mobileApplication": "Aplicaţie",
+    "mobileMapPackage": "Fișier de date",
+    "native application template": "Instrument dezvoltator",
+    "nativeApplication": "Aplicaţie",
+    "nativeApplicationInstaller": "Instrument dezvoltator",
+    "networkAnalysisService": "Dezvoltator API",
+    "notebook": "Analiză",
+    "orientedImageryCatalog": "Imagini set de date",
+    "orthoMappingProject": "Instrument GIS",
+    "orthoMappingTemplate": "Instrument GIS",
+    "pdf": "Document",
+    "quickcaptureProject": "Chestionar mobil",
+    "rasterLayer": "Hartă",
+    "realTimeAnalytic": "Dezvoltator API",
+    "relationalDatabaseConnection": "Dezvoltator API",
+    "reportTemplate": "Instrument GIS",
+    "sceneLayer": "Set de date 3D",
+    "sceneService": "Set de date 3D",
+    "serviceDefinition": "Fișier de date",
+    "shapefile": "Set de date",
+    "solution": "Soluţie",
+    "sqliteGeodatabase": "Fișier de date",
+    "statisticalDataCollection": "Fișier de date",
+    "storymap": "StoryMap",
+    "symbolSet": "Fișier de date",
+    "table": "Set de date",
+    "team": "Echipă",
+    "urbanModel": "Urban Model",
+    "vectorTileService": "Hartă",
+    "visioDocument": "Document",
+    "webExperience": "Aplicaţie",
+    "webMap": "Hartă",
+    "webMappingApplication": "Aplicaţie",
+    "webScene": "Hartă 3D",
+    "wfs": "Hartă",
+    "wms": "Hartă",
+    "wmts": "Hartă",
+    "workflowManagerService": "Dezvoltator API",
+    "workforceProject": "Manager flux de sarcini"
+  },
+  "location": {
+    "description": "Locație"
+  },
+  "members": {
+    "noMember": "Fără membri",
+    "oneMember": "Membri: 1",
+    "members": "Membri: {count}",
+    "description": {
+      "value": "Vizualizați toți membrii grupului"
+    }
+  },
+  "tooltip": {
+    "label": "Sugestie instrument pentru elemente de medatate"
+  },
+  "relevantArea": {
+    "title": "Zona relevantă"
+  },
+  "license": {
+    "tooltip": "Definește modul în care poate fi folosit acest conținut",
+    "set": {
+      "title": "Licență {license}",
+      "customTitle": "Licenţă particularizată",
+      "description": {
+        "value": "Vizualizarea detaliilor despre licență"
+      }
+    },
+    "unset": {
+      "title": "Nu sunt furnizate licențe",
+      "description": {
+        "value": "Solicitați permisiunea de utilizare"
+      }
+    }
+  },
+  "size": {
+    "description": {
+      "value": "Dimensiunea fișierului document"
+    }
+  },
+  "recordCount": {
+    "title": "Înregistrări: {count}",
+    "description": {
+      "value": "Vizualizare tabel cu date"
+    }
+  },
+  "metadataModified": {
+    "description": {
+      "defaultValue": "Informații actualizate",
+      "dynamicValue": "Informații actualizate: {lastUpdated}"
+    }
+  },
+  "updateFrequency": {
+    "continual": "Continuu",
+    "daily": "Zilnic",
+    "weekly": "Săptămânal",
+    "fortnightly": "Bilunar",
+    "monthly": "Lunar",
+    "quarterly": "Trimestrial",
+    "biannually": "Semestrial",
+    "annually": "Anual",
+    "as-needed": "În funcție de necesități",
+    "irregular": "Sporadic",
+    "not-planned": "Neplanificat",
+    "unknown": "Necunoscut",
+    "semimonthly": "Bilunar"
+  }
+}

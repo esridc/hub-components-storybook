@@ -1,0 +1,34 @@
+import { IHubCollection, IHubLocation, IHubSearchOptions, IHubSearchResult, IQuery } from "@esri/hub-common";
+import { IFacet } from "../../../utils/types/IFacet";
+export declare const COLLECTION: IHubCollection;
+export declare const COLLECTION_2: IHubCollection;
+export declare const EMPTY_COLLECTION: IHubCollection;
+export declare const EMPTY_QUERY: IQuery;
+export declare const QUERY: IQuery;
+export declare const REQUEST_OPTIONS: {
+  authentication: any;
+  hubApiUrl: string;
+  isPortal: boolean;
+  portal: string;
+  portalSelf: any;
+};
+export declare const SEARCH_OPTIONS: IHubSearchOptions;
+export declare const FACETS: IFacet[];
+export declare const AGG_SEARCH_OPTIONS_1: IHubSearchOptions;
+export declare const AGG_SEARCH_OPTIONS_2: IHubSearchOptions;
+/** Gallery Card fixtures */
+export declare const COLLECTION_MANUAL: IHubCollection;
+export declare const COLLECTION_CATALOGS: IHubCollection;
+export declare const COLLECTION_CATEGORIES: IHubCollection;
+export declare const COLLECTION_TYPES: IHubCollection;
+export declare const COLLECTION_ACCESS: IHubCollection;
+export declare const COLLECTION_ACCESS_PRIVATE: IHubCollection;
+export declare const COLLECTION_GROUPS: IHubCollection;
+export declare const COLLECTION_TAGS: IHubCollection;
+export declare const COLLECTION_CATEGORIES_TAGS: IHubCollection;
+export declare const AGG_SEARCH_OPTIONS_GCARD: IHubSearchOptions;
+export declare const AGG_SEARCH_OPTIONS_POPULARITY: IHubSearchOptions;
+export declare const AGG_SEARCH_OPTIONS_CREATED: IHubSearchOptions;
+export declare const AGG_SEARCH_OPTIONS_UPDATED: IHubSearchOptions;
+export declare const LOCATION: IHubLocation;
+export declare const ITEM_SEARCH_RESULTS: IHubSearchResult[];

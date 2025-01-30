@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "Uredi",
+    "fields": {
+      "label": {
+        "label": "Napis",
+        "requiredMessage": "Zahtevan napis",
+        "maxLengthMessage": "Napis ne sme presegati {maxLength} znakov"
+      }
+    },
+    "apply": "Uporabi"
+  },
+  "showItem": "Pokaži naslednji element seznama: {itemLabel}",
+  "hideItem": "Skrij naslednji element seznama: {itemLabel}",
+  "editItem": "Uredi naslednji element seznama: {itemLabel}"
+}

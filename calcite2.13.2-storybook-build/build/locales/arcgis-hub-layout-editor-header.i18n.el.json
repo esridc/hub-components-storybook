@@ -1,0 +1,39 @@
+{
+  "popover": {
+    "access": {
+      "org": "Κοινοποιημένα στον οργανισμό",
+      "private": "Κοινοποιημένα στον κάτοχο",
+      "public": "Κοινοποιημένα σε όλους",
+      "shared": "Κοινοποιημένα στον κάτοχο και τις ομάδες"
+    },
+    "editLayout": "Επεξεργασία διάταξης",
+    "lastUpdated": "Τελευταία ενημέρωση {updated}",
+    "viewSite": "Προβολή ιστοτόπου"
+  },
+  "cloneLayoutLabel": "Διάταξη κλώνου",
+  "deleteDraftLabel": "Διαγραφή προσχεδίου",
+  "deletePageLabel": "Διαγραφή σελίδας",
+  "deleteSiteLabel": "Διαγραφή ιστοτόπου",
+  "editInAgoLabel": "Επεξεργασία στο ArcGIS Online",
+  "managePage": "Διαχείριση σελίδας",
+  "manageSite": "Διαχείριση ιστοτόπου",
+  "manageTemplate": "Διαχείριση προτύπου",
+  "moreOptionsLabel": "Περισσότερες επιλογές",
+  "publishLabel": {
+    "site": "Δημοσίευση διάταξης",
+    "page": "Δημοσίευση διάταξης",
+    "survey": "Δημοσίευση"
+  },
+  "saveAsTemplateLabel": "Αποθήκευση ως πρότυπο",
+  "saveLabel": {
+    "site": "Αποθήκευση διάταξης",
+    "page": "Αποθήκευση διάταξης",
+    "survey": "Αποθήκευση",
+    "template": "Αποθήκευση"
+  },
+  "sharingLabel": "Άνοιγμα πλαισίου κοινοποίησης",
+  "editS123Label": "Επεξεργασία στο Survey123",
+  "viewLabel": "Προβολή",
+  "viewPublishedLabel": "Προβολή δημοσιευμένων",
+  "viewUnpublishedLabel": "Προβολή προσχεδίου"
+}

@@ -1,0 +1,75 @@
+{
+  "addMetric": "Dodaj miernik",
+  "title": "Mierniki",
+  "featured": "Polecane",
+  "metricDescription": "Wymierna wartość używana do śledzenia postępów projektu, oparta na danych statycznych (np. historycznych) lub dynamicznych (np. danych czasu rzeczywistego).",
+  "metricCount": {
+    "label": "Liczba mierników: {currentCount}/{totalCountAllowed}",
+    "tooltip": "Aby dodać mierniki, usuń jakieś z istniejącego zestawu"
+  },
+  "visible": {
+    "title": "Widoczne",
+    "noMetrics": "W tej sekcji nie ma żadnych mierników."
+  },
+  "hidden": {
+    "title": "Ukryte",
+    "description": "Te mierniki są widoczne tylko dla osób, które mają dostęp do tej przestrzeni roboczej.",
+    "noMetrics": "W tej sekcji nie ma żadnych mierników."
+  },
+  "project": {
+    "featured": {
+      "description": "Możesz mieć 4 wyróżnione mierniki. Są one wyświetlane na stronie z informacjami ogólnymi dotyczącymi Twojego aktywnego projektu."
+    },
+    "visible": {
+      "description": "Widoczne mierniki są wyświetlane na karcie Mierniki Twojego aktywnego projektu."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Mierniki będą odpowiadać poziomowi udostępniania projektu. Ukryte mierniki mogą być nadal dostępne poprzez wywołanie API.",
+        "metricsDockLink": "Dowiedz się więcej o ustawieniu mierników"
+      }
+    }
+  },
+  "initiative": {
+    "featured": {
+      "description": "Możesz mieć 4 wyróżnione mierniki. Są one wyświetlane na stronie z informacjami ogólnymi dotyczącymi Twojej aktywnej inicjatywy."
+    },
+    "visible": {
+      "description": "Widoczne mierniki są wyświetlane na karcie Mierniki Twojego aktywnego projektu."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Mierniki będą odpowiadać poziomowi udostępniania inicjatywy. Ukryte mierniki mogą być nadal dostępne poprzez wywołanie API.",
+        "metricsDockLink": "Dowiedz się więcej o ustawieniu mierników"
+      }
+    }
+  },
+  "metricNumber": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4"
+  },
+  "actions": {
+    "delete": "Usuń",
+    "edit": "Edytuj",
+    "featured": "Funkcja",
+    "removeFeatured": "Usuń polecane",
+    "show": "Przenieś do widocznych",
+    "hide": "Przenieś do ukrytych"
+  },
+  "editor": {
+    "heading": "Nowy miernik",
+    "description": "Domyślnie mierniki będą automatycznie ukrywane, aby członkowie przestrzeni roboczej mogli je zobaczyć."
+  },
+  "deleteMetricModal": {
+    "heading": "Usuń miernik",
+    "content": "Czy na pewno chcesz usunąć:",
+    "cancel": "Anuluj",
+    "delete": "Usuń"
+  },
+  "sidePanel": {
+    "definitions": "Definicje",
+    "preview": "Podgląd"
+  }
+}

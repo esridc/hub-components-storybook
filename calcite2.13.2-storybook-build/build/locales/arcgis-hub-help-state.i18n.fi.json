@@ -1,0 +1,26 @@
+{
+  "unauthenticated": {
+    "heading": "Kirjaudu sisään.",
+    "message": "Tämän sivuston käyttö edellyttää tunnistetietoja.",
+    "actionText": "Kirjaudu sisään"
+  },
+  "not-found": {
+    "heading": "Sivua ei löydy",
+    "message": "Tämä sivu on ehkä poistettu tai siirretty. Kokeile etsiä sitä aloitussivulta",
+    "actionText": "Siirry aloitussivulle"
+  },
+  "unsupported-device": {
+    "heading": "Näytön koko, jota ei tueta",
+    "message": "Työtilat eivät ole vielä käytettävissä pienikokoisissa näytöissä. Käytä laitetta, jossa on suurempi näyttö.",
+    "actionText": "Palaa"
+  },
+  "access-denied": {
+    "heading": "Käyttö estetty",
+    "message": "Sinulla ei ole tämän resurssin käyttöoikeuksia.",
+    "actionText": "Siirry aloitussivulle"
+  },
+  "loading": {
+    "heading": "Ladataan...",
+    "loadingLabel": "Ladataan"
+  }
+}

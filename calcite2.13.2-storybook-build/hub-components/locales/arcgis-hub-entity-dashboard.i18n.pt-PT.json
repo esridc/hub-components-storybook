@@ -1,0 +1,20 @@
+{
+  "dashboard": "Painel de Controlo",
+  "activityLogSection": {
+    "title": "Registo de atividade",
+    "table": {
+      "downloadAction": "Transferir",
+      "downloadAllAction": "Transferir tudo",
+      "downloadActionTooltip": "Transferir atividades selecionadas",
+      "caption": "Tabela de erros recentes",
+      "columnHeaders": {
+        "datetime": "Data",
+        "layer": "Camada",
+        "message": "Mensagem"
+      },
+      "noRecentErrors": "Sem erros recentes",
+      "expandText": "Ver mais",
+      "collapseText": "Ver menos"
+    }
+  }
+}

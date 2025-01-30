@@ -1,0 +1,54 @@
+{
+  "existing": {
+    "successHeading": "Sadržaj je uspješno dodan.",
+    "failureHeading": "Nije moguće dodati sadržaj odabranoj grupi.",
+    "successfulAccordionHeading": "Sadržaj je dodan u odabranu grupu.",
+    "unsuccessfulAccordionHeading": "Sadržaj nije dodan u odabranu grupu"
+  },
+  "create": {
+    "event": {
+      "successWithoutGroupHeading": "Događaj je uspješno kreiran.",
+      "successWithGroupHeading": "Događaj je uspješno kreiran i dodan je {group}.",
+      "successMessage": "Sada možete vidjeti događaj, upravljati njime i urediti informacije ili kliknite 'gotovo' za povratak na prikaz.",
+      "failureHeading": "Nije moguće dodati događaj u odabranu grupu."
+    },
+    "discussion": {
+      "successWithoutGroupHeading": "Uspješno je kreirana ploča za raspravu.",
+      "successWithGroupHeading": "Uspješno je kreirana ploča za raspravu i dodana je {group}.",
+      "successMessage": "Sada možete pregledavati ploču za raspravu, upravljati njome za uređivanje informacija ili kliknuti 'gotovo' za povratak na prikaz.",
+      "failureHeading": "Nije moguće dodati ploču za raspravu u odabranu grupu."
+    },
+    "group": {
+      "successWithoutGroupHeading": "Grupa je uspješno kreirana.",
+      "successMessage": "Sada možete vidjeti grupu, upravljati njome i urediti informacije ili kliknite 'gotovo' za povratak na prikaz.",
+      "failureHeading": "Nije moguće kreirati grupu."
+    },
+    "initiative": {
+      "successWithoutGroupHeading": "Inicijativa je uspješno kreirana.",
+      "successWithGroupHeading": "Inicijativa je uspješno kreirana i dodana je {group}.",
+      "successMessage": "Sada možete vidjeti inicijativu, upravljati njome i urediti informacije ili kliknite 'gotovo' za povratak na prikaz.",
+      "failureHeading": "Nije moguće dodati inicijativu u odabranu grupu."
+    },
+    "page": {
+      "successWithoutGroupHeading": "Stranica je uspješno kreirana.",
+      "successWithGroupHeading": "Stranica je uspješno kreirana i dodana je {group}.",
+      "successMessage": "Sada možete vidjeti stranicu, upravljati njome i urediti informacije ili kliknite 'gotovo' za povratak na prikaz.",
+      "failureHeading": "Nije moguće dodati stranicu u odabranu grupu."
+    },
+    "project": {
+      "successWithoutGroupHeading": "Projekt je uspješno kreiran.",
+      "successWithGroupHeading": "Projekt je uspješno kreiran i dodan je {group}.",
+      "successMessage": "Sada možete vidjeti projekt, upravljati njime i urediti informacije ili kliknite 'gotovo' za povratak na prikaz.",
+      "failureHeading": "Nije moguće dodati projekt u odabranu grupu."
+    },
+    "site": {
+      "successWithoutGroupHeading": "Internetska stranica je uspješno kreirana.",
+      "successWithGroupHeading": "Internetska stranica je uspješno kreirana i dodana je{group}.",
+      "successMessage": "Sada možete vidjeti internetsku stranicu, upravljati njome i urediti informacije ili kliknite 'gotovo' za povratak na prikaz.",
+      "failureHeading": "Nije moguće dodati internetsku stranicu u odabranu grupu."
+    }
+  },
+  "editLayout": "Uredi izgled",
+  "manageEntity": "Upravljaj",
+  "viewEntity": "Prikaži"
+}

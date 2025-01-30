@@ -1,0 +1,14 @@
+import { HubEntity, IHubCatalog } from "@esri/hub-common";
+export declare const VALID_ITEM_SCOPE: IHubCatalog;
+export declare const VALID_ITEM_SCOPE_WITH_DISPLAY_CONFIG: IHubCatalog;
+export declare const VALID_EVENT_SCOPE: IHubCatalog;
+export declare const INVALID_ITEM_SCOPE: IHubCatalog;
+export declare const INVALID_EVENT_SCOPE: IHubCatalog;
+export declare const VALID_ITEM_COLLECTION: IHubCatalog;
+export declare const VALID_EVENT_COLLECTION: IHubCatalog;
+export declare const INVALID_ITEM_COLLECTION_NO_COLLECTION_LABEL: IHubCatalog;
+export declare const INVALID_ITEM_COLLECTION_INCOMPLETE_FILTER: IHubCatalog;
+export declare const VALID_ITEM_AND_EVENT_SCOPE: IHubCatalog;
+export declare const VALID_ITEM_AND_EVENT_COLLECTIONS: IHubCatalog;
+export declare const VALID_ITEM_AND_EVENT_SCOPE_AND_COLLECTIONS: IHubCatalog;
+export declare const ENTITY: HubEntity;

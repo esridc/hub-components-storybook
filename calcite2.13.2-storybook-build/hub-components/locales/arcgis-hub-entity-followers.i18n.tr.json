@@ -1,0 +1,66 @@
+{
+  "followers": "Takipçiler",
+  "tabs": {
+    "followers": "Takipçiler",
+    "settings": "Ayarlar"
+  },
+  "addFollowers": {
+    "label": "Takipçi ekle"
+  },
+  "emptyState": {
+    "message": "Sitede bir takipçi grubu yok",
+    "action": "Takipçi grubu oluştur"
+  },
+  "createFollowersGroup": {
+    "formDescription": "İçerik paylaşımını ve iletişimi kolaylaştırmak için bir grup kurun",
+    "defaultSummary": "Bu takipçi grubu, üyelerin daha kolay içerik paylaşmasına ve birbirleriyle iletişim kurmasına olanak tanır"
+  },
+  "restrictedAccessState": {
+    "message": "Takipçi grubunu görüntülemek için erişiminiz yok.",
+    "action": "Erişim talep et"
+  },
+  "stats": {
+    "total": {
+      "title": "Toplam",
+      "trailingText": "Takipçiler"
+    },
+    "new": {
+      "title": "Yeni",
+      "trailingText": "Son 30 gün"
+    }
+  },
+  "addMembers": {
+    "button": "Üye ekle",
+    "modal": {
+      "title": "Üye ekle",
+      "org": "Kuruluşum",
+      "community": "Topluluğum",
+      "partner": "İş ortaklarım",
+      "world": "Dünya"
+    },
+    "notifications": {
+      "invited": "Davet gönderildi. Kullanıcılar katılmayı kabul etmelidir",
+      "added": "Kullanıcı/kullanıcılar eklendi",
+      "notInvited": "Bazı kullanıcılar gruba katılmak için gereken ayrıcalıklara sahip olmayabilir veya grup maksimum sınırında (512) olabilir"
+    }
+  },
+  "removeUsers": {
+    "button": "Kaldır",
+    "success": "Üyeler {groupName} grubundan başarıyla kaldırıldı.",
+    "error": "Bir veya daha fazla kullanıcı gruptan kaldırılamadı."
+  },
+  "changeRole": {
+    "button": "Rolü değiştir",
+    "member": "Üye",
+    "memberHelperText": "Grup içinde içerik ekleyebilir ve içeriği görebilir.",
+    "tooltipText": "Kendinizin ve/veya grup sahibinin seçimini kaldırın",
+    "tooltipLabel": "Rol yasal uyarısı",
+    "admin": "Yönetici",
+    "adminHelperText": "İçerik ekleyebilir/kaldırabilir ve kişi davet edebilir/kaldırabilir (sahibi hariç).",
+    "success": "Seçili üyeler {role} grubu oldu.",
+    "error": "Bir veya daha fazla üye için rol değiştirilemedi."
+  },
+  "notice": {
+    "label": "Biçim uyarısı"
+  }
+}

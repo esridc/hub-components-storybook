@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "Registrera",
+    "registered": "Registrerad",
+    "join": "Delta online",
+    "in-person": "Personligen",
+    "online": "Online",
+    "inPersonFull": "Personligen (fullständigt)",
+    "onlineFull": "Online (fullständigt)",
+    "close": "Stäng"
+  },
+  "tooltip": {
+    "isCanceled": "Evenemang har annullerats",
+    "eventHasEnded": "Händelsen har avslutats",
+    "eventFull": "Evenemang fullt",
+    "inPerson": "Registrering för personligt evenemang har genomförts",
+    "online": "Registrering för onlineevenemang har genomförts",
+    "unavailable": "Tillgängligt en timme före evenemangets starttid"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "Registreringen för onlineevenemanget har avbrutits",
+    "onlineRegistrationConfirmed": "Registreringen för onlineevenemanget har genomförts",
+    "onlineRegistrationError": "Oväntat fel uppstod vid registrering för onlineevenemang",
+    "onlineRegistrationCanceledError": "Oväntat fel när registrering för onlineevenemang avbröts",
+    "onlineRegistrationAtCapacity": "Du försöker registrera dig för ett onlineevenemang som är fullt",
+    "inPersonRegistrationCanceled": "Registrering för personligt evenemang har avbrutits",
+    "inPersonRegistrationCanceledError": "Oväntat fel när registrering för personligt onlineevenemang avbröts",
+    "inPersonRegistrationConfirmed": "Registrering för personligt evenemang har genomförts",
+    "inPersonRegistrationError": "Oväntat fel uppstod vid registrering för personligt evenemang",
+    "inPersonRegistrationAtCapacity": "Du försöker registrera dig för ett personligt evenemang som är fullt"
+  }
+}

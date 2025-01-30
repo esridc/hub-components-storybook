@@ -1,0 +1,29 @@
+{
+  "additionalInfo": {
+    "label": "Izborne postavke prikaza",
+    "helperText": "Dodajte svoj opis privatnosti i informacije o pravilima."
+  },
+  "allowPrivacyConfig": {
+    "label": "Prikaz obavijesti o privatnosti"
+  },
+  "blocking": {
+    "label": "Stil obavijesti",
+    "optional": {
+      "label": "Pristanak nije obavezan",
+      "description": "Gledatelj može koristiti web-mjesto bez odabira pristanka na privatnost; praćenje počinje odmah dok ga gledatelj ne odbije."
+    },
+    "required": {
+      "label": "Zahtijeva pristanak",
+      "description": "Gledatelj mora prihvatiti ili odbiti praćenje za korištenje web-mjesta; praćenje ne počinje osim ako ga gledatelj ne prihvati."
+    }
+  },
+  "consentText": {
+    "label": "Opis privatnosti",
+    "helperText": "Prikazuje se u obavijesti o privatnosti gledatelju web-mjesta."
+  },
+  "policyURL": {
+    "label": "Poveznica na pravila",
+    "helperText": "Prikazuje se kao poveznica „Više informacija” u obavijesti o privatnosti.",
+    "error": "URL mora biti važeći da bi se prikazao."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "dashboard": "ダッシュボード",
+  "activityLogSection": {
+    "title": "アクティビティ ログ",
+    "table": {
+      "downloadAction": "ダウンロード",
+      "downloadAllAction": "すべてダウンロード",
+      "downloadActionTooltip": "選択したアクティビティのダウンロード",
+      "caption": "最近のエラー テーブル",
+      "columnHeaders": {
+        "datetime": "日付",
+        "layer": "レイヤー",
+        "message": "メッセージ"
+      },
+      "noRecentErrors": "最近のエラーがありません",
+      "expandText": "表示数を増やす",
+      "collapseText": "表示数を減らす"
+    }
+  }
+}

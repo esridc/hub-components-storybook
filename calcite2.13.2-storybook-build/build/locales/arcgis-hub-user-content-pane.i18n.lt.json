@@ -1,0 +1,43 @@
+{
+  "content": "Turinys",
+  "myContent": "Mano turinys",
+  "editableContent": "Redaguojamas turinys",
+  "addContentButtonText": "Sukurti naują",
+  "type": "Tipas",
+  "sharedUpdate": "Bendrinamų naujinimų grupė",
+  "viewOnly": "Tik peržiūros grupė",
+  "owner": "Savininkas",
+  "updated": "Atnaujinta",
+  "tags": "Žymos",
+  "dateCreated": "Sukurta",
+  "dateUpdated": "Pakeistas",
+  "actionLinks": {
+    "view": "Peržiūra",
+    "edit": "Redaguoti",
+    "ariaEdit": "Redaguoti {title}",
+    "ariaView": "Peržiūrėti {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Turinys",
+      "myContent": "Man priklausantis turinys",
+      "editableContent": "Turinys, kurį galiu redaguoti",
+      "all": "Visas turinys"
+    },
+    "access": {
+      "label": "Nuo"
+    },
+    "type": {
+      "label": "Tipai"
+    },
+    "tags": {
+      "label": "Žymos"
+    },
+    "categories": {
+      "label": "Kategorijos"
+    },
+    "modified": {
+      "label": "Pakeistas"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "catalog": "目錄",
+  "catalog-content": "內容",
+  "catalog-events": "事件",
+  "shared": {
+    "publish": {
+      "label": "儲存",
+      "success": {
+        "title": "已成功將目錄編輯發佈到即時視圖"
+      },
+      "error": {
+        "title": "儲存編輯內容時發生錯誤"
+      }
+    }
+  },
+  "emptyState": {
+    "message": "未定義目錄",
+    "action": "建立目錄"
+  },
+  "actionBar": {
+    "details": "目錄配置",
+    "appearance": "目錄外觀",
+    "tooltip": {
+      "appearanceDisabled": "目前未配置目錄。 請配置目錄以調整外觀設定。",
+      "configuration": "配置",
+      "appearance": "外觀"
+    }
+  },
+  "detailsPanel": {
+    "heading": "目錄配置",
+    "close": "關閉目錄配置",
+    "catalogBuilder": {
+      "helperText": "您的目錄允許訪客搜尋和檢視內容。 顯示的結果是基於您的查詢配置。"
+    },
+    "querySizeNotice": {
+      "warning": {
+        "title": "正在接近目錄限制",
+        "catalogSourceMessage": {
+          "item": "您的項目來源配置正在接近大小限制。",
+          "event": "您的事件來源配置正在接近大小限制。"
+        },
+        "collectionSourceMessage": {
+          "item": "您的項目來源與 \"{collectionName}\" 集合配置的組合正在接近大小限制。",
+          "event": "您的事件來源與 \"{collectionName}\" 集合配置的組合正在接近大小限制。"
+        }
+      },
+      "danger": {
+        "title": "已超過目錄限制",
+        "catalogSourceMessage": {
+          "item": "您的項目來源配置已超過大小限制。 減少要發佈的項目來源中的篩選器和/或篩選器選項的數量。",
+          "event": "您的事件來源配置已超過大小限制。 減少要發佈的事件來源中的篩選器和/或篩選器選項的數量。"
+        },
+        "collectionSourceMessage": {
+          "item": "您的項目來源與 \"{collectionName}\" 集合配置的組合已超過大小限制。 減少要發佈的項目來源和/或 \"{collectionName}\" 集合中的篩選器和/或篩選器選項的數量。",
+          "event": "您的事件來源與 \"{collectionName}\" 集合配置的組合已超過大小限制。 減少要發佈的事件來源和/或 \"{collectionName}\" 集合中的篩選器和/或篩選器選項的數量。"
+        }
+      }
+    }
+  },
+  "appearancePanel": {
+    "heading": "目錄外觀",
+    "close": "關閉目錄外觀",
+    "description": "您的目錄允許訪客搜尋和檢視內容。 您可以在此處更新預設目錄的外觀，以及您想要顯示的篩選器。"
+  }
+}

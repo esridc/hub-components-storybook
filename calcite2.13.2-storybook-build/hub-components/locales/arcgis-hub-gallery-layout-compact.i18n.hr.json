@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Nema pronađenih rezultata."
+    },
+    "error": {
+      "message": "Žao nam je ali pretraga je naišla na pogrešku."
+    }
+  },
+  "type": "Vrsta",
+  "tags": "Oznake",
+  "owner": "Vlasnik",
+  "dateCreated": "Stvoreno",
+  "dateUpdated": "Izmijenjeno",
+  "categories": "Kategorije",
+  "dateAndTime": "Datum i vrijeme",
+  "allDay": "{date} (cijeli dan)",
+  "allDayRange": "{from} - {to} (cijeli dan)",
+  "location": "Lokacija",
+  "attendanceType": "Vrsta pohađanja",
+  "inPerson": "Osobno",
+  "online": "Na mreži",
+  "hybrid": "Kombinirano"
+}

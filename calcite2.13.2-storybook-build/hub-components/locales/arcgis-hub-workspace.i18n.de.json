@@ -1,0 +1,8 @@
+{
+  "skipNav": "Navigation überspringen",
+  "pageTitle": {
+    "default": "{entityName} | Workspace",
+    "group": "{groupName} | Gruppen-Workspace",
+    "user": "Eigener Workspace | {orgName}"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "newFilter": "新建过滤器",
+  "block": {
+    "heading": {
+      "untitled": "新建过滤器",
+      "default": "过滤器 {filterNum}：{parameter}",
+      "group": "过滤器 {filterNum}：群组",
+      "type": "过滤器 {filterNum}：类型",
+      "occurrence": "过滤器 {filterNum}：事件"
+    },
+    "actions": {
+      "delete": "删除过滤器：{label}"
+    }
+  }
+}

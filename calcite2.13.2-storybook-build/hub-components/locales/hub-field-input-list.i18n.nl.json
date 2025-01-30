@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "Bewerken",
+    "fields": {
+      "label": {
+        "label": "Label",
+        "requiredMessage": "Label vereist",
+        "maxLengthMessage": "Label mag niet langer zijn dan {maxLength} tekens"
+      }
+    },
+    "apply": "Toepassen"
+  },
+  "showItem": "Volgend lijstitem weergeven: {itemLabel}",
+  "hideItem": "Volgend lijstitem verbergen: {itemLabel}",
+  "editItem": "Volgend lijstitem bewerken: {itemLabel}"
+}

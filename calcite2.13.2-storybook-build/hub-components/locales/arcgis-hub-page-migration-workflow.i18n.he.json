@@ -1,0 +1,46 @@
+{
+  "heading": "פרטי דף",
+  "form": {
+    "title": {
+      "label": "שם דף",
+      "requiredError": "נדרש שם",
+      "entityTitleValidatorError": "שם דף לא יכול לכלול אימוג'ים או את התווים הבאים: < > ="
+    },
+    "slug": {
+      "label": "שם מקוצר",
+      "helperText": "השם המקוצר הוא גרסה תואמת-URL של שם הדף. הוא נוצר אוטומטית על בסיס שם הדף, אך ניתן לערוך אותו.",
+      "patternError": "שגיאה: שם מקוצר יכול לכלול רק תווים באותיות קטנות וספרות מופרדים במקפים.",
+      "isUniqueError": "שם מקוצר זה כבר נמצא בשימוש. בחר שם מקוצר אחר.",
+      "requiredError": "נדרש שם מקוצר"
+    }
+  },
+  "controls": {
+    "back": "חזור",
+    "cancel": "ביטול",
+    "close": "בוצע",
+    "migrate": "העבר דף",
+    "next": "הבא"
+  },
+  "selection": {
+    "unlimited": "{count} נבחרו",
+    "limited": "{count} / {limit} נבחרו"
+  },
+  "steps": {
+    "specifyInfo": "הוסף מידע בסיסי",
+    "selectGroups": "בחר קבוצה",
+    "confirmation": "אישור"
+  },
+  "working": {
+    "heading": "מעביר דף.",
+    "loadingLabel": "מעביר דף"
+  },
+  "success": {
+    "heading": "הדף הועבר",
+    "message": "הדף הועבר בהצלחה."
+  },
+  "failure": {
+    "heading": "הדף לא הועבר",
+    "message": "משהו השתבש בעת העברת הדף, נסה שוב.",
+    "action": "נסה שוב"
+  }
+}

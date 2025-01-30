@@ -1,0 +1,29 @@
+{
+  "additionalInfo": {
+    "label": "選用顯示設定",
+    "helperText": "新增您自己的隱私權說明和原則資訊。"
+  },
+  "allowPrivacyConfig": {
+    "label": "顯示隱私權通知"
+  },
+  "blocking": {
+    "label": "通知類型",
+    "optional": {
+      "label": "同意選用",
+      "description": "檢視者無需選擇隱私權同意即可使用網站；將立即開始追蹤，直到被檢視者拒絕。"
+    },
+    "required": {
+      "label": "需要同意",
+      "description": "檢視者必須接受或拒絕追蹤才能使用網站；除非檢視者接受，否則不會開始追蹤。"
+    }
+  },
+  "consentText": {
+    "label": "隱私權描述",
+    "helperText": "在向網站檢視者提供的隱私權通知中顯示。"
+  },
+  "policyURL": {
+    "label": "隱私權連結",
+    "helperText": "在隱私權通知中顯示為「更多資訊」連結。",
+    "error": "必須是要顯示的有效 URL。"
+  }
+}

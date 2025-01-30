@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "עריכה",
+    "fields": {
+      "label": {
+        "label": "תווית",
+        "requiredMessage": "נדרשת תווית",
+        "maxLengthMessage": "תווית לא יכולה לחרוג מעל {maxLength} תווים"
+      }
+    },
+    "apply": "החל"
+  },
+  "showItem": "הצג את הפריט הבא ברשימה: {itemLabel}",
+  "hideItem": "הסתר את הפריט הבא ברשימה: {itemLabel}",
+  "editItem": "ערוך את הפריט הבא ברשימה: {itemLabel}"
+}

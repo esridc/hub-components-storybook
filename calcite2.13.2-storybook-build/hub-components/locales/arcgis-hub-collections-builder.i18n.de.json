@@ -1,0 +1,15 @@
+{
+  "newCollection": "Neue Sammlung",
+  "block": {
+    "heading": {
+      "untitled": "Unbenannte Sammlung"
+    },
+    "actions": {
+      "delete": "Sammlung löschen: {label}"
+    }
+  },
+  "name": {
+    "label": "Name",
+    "requiredError": "Name der Sammlung ist erforderlich."
+  }
+}

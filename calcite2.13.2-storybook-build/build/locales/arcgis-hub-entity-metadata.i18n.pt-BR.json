@@ -1,0 +1,239 @@
+{
+  "owner": {
+    "description": "Proprietário"
+  },
+  "updatedDate": {
+    "description": "Data atualizada",
+    "descriptionWithFrequency": "Data atualizada: {updatedDateFormatted}"
+  },
+  "createdDate": {
+    "description": "Data de criação"
+  },
+  "joinedDate": {
+    "description": "Data de participação"
+  },
+  "access": {
+    "label": {
+      "public": "Público",
+      "org": "Organização",
+      "private": "Proprietário",
+      "shared": "Reservadamente compartilhado"
+    },
+    "description": {
+      "public": {
+        "site": "Qualquer pessoa pode ver este site",
+        "project": "Qualquer pessoa pode visualizar este projeto",
+        "initiative": "Qualquer pessoa pode ver esta iniciativa",
+        "discussion": "Qualquer pessoa pode ver esta discussão",
+        "default": "Qualquer pessoa pode ver este conteúdo",
+        "event": "Qualquer pessoa pode ver este evento"
+      },
+      "org": {
+        "site": "Qualquer pessoa em sua organização pode ver este site",
+        "project": "Qualquer pessoa em sua organização pode visualizar este projeto",
+        "initiative": "Qualquer pessoa em sua organização pode ver esta iniciativa",
+        "discussion": "Qualquer pessoa em sua organização pode ver esta discussão",
+        "default": "Qualquer pessoa em sua organização pode ver este conteúdo",
+        "event": "Qualquer pessoa na sua organização pode ver este evento"
+      },
+      "private": {
+        "site": "Somente você pode visualizar este site",
+        "project": "Somente você pode visualizar este projeto",
+        "initiative": "Somente você pode ver esta iniciativa",
+        "discussion": "Só você pode ver esta discussão",
+        "default": "Somente você pode ver este conteúdo",
+        "event": "Somente você pode ver este evento"
+      },
+      "shared": {
+        "site": "Grupos selecionados podem ver este site",
+        "project": "Grupos selecionados podem ver este projeto",
+        "initiative": "Grupos selecionados podem ver esta iniciativa",
+        "discussion": "Grupos selecionados podem ver esta discussão",
+        "default": "Grupos selecionados podem ver este conteúdo",
+        "event": "Grupos selecionados podem ver este evento"
+      }
+    }
+  },
+  "type": {
+    "fallback": {
+      "content": "Conteúdo",
+      "discussion": "Discussão",
+      "event": "Evento",
+      "group": "Grupo",
+      "initiative": "Iniciativa",
+      "org": "Organização",
+      "page": "Página",
+      "project": "Projeto",
+      "site": "Site",
+      "survey": "Pesquisa",
+      "initiativeTemplate": "Modelo",
+      "user": "Usuário"
+    },
+    "appbuilderExtension": "Ferramenta GIS",
+    "appbuilderWidgetPackage": "Ferramenta GIS",
+    "application": "Aplicativo registrado",
+    "arcgisProMap": "Ferramenta GIS",
+    "cadDrawing": "Ferramenta GIS",
+    "cityEngineWebScene": "Aplicativo 3D",
+    "codeAttachment": "Ferramenta GIS",
+    "colorSet": "Ferramenta GIS",
+    "content": "Conteúdo",
+    "contentCategorySet": "GIS",
+    "csv": "Conjunto de Dados",
+    "csvCollection": "Arquivo de Dados",
+    "dashboard": "Painel",
+    "desktopApplication": "Ferramenta GIS",
+    "document": "Documento",
+    "documentLink": "Link da Web",
+    "excaliburImageryProject": "Ferramenta GIS",
+    "explorerMap": "Ferramenta GIS",
+    "exportPackage": "Ferramenta GIS",
+    "featureCollection": "Conjunto de Dados",
+    "featureCollectionTemplate": "Ferramenta GIS",
+    "featureLayer": "Conjunto de Dados",
+    "featureService": "Mapa",
+    "fileGeodatabase": "Arquivo de Dados",
+    "form": "Pesquisa",
+    "geocodingService": "API do Desenvolvedor",
+    "geodataService": "API do Desenvolvedor",
+    "geojson": "Conteúdo",
+    "geometryService": "API do Desenvolvedor",
+    "geopackage": "Arquivo de Dados",
+    "geoprocessingService": "API do Desenvolvedor",
+    "globeLayer": "Arquivo de Dados",
+    "globeService": "API do Desenvolvedor",
+    "hubInitiative": "Iniciativa",
+    "hubInitiativeTemplate": "Modelo",
+    "hubPage": "Página",
+    "hubProject": "Projeto",
+    "hubSiteApplication": "Site",
+    "image": "Imagem",
+    "imageService": "Conjunto de Dados de Imagens",
+    "insightsModel": "Ferramenta GIS",
+    "insightsPage": "Análise",
+    "insightsTheme": "Ferramenta GIS",
+    "insightsWorkbook": "Livro de Tarefas de Análise",
+    "iWorkKeynote": "Apresentação",
+    "iWorkNumbers": "Planilha",
+    "iWorkPages": "Documento",
+    "kml": "Conjunto de Dados",
+    "kmlCollection": "Arquivo de Dados",
+    "layer": "Arquivo de Dados",
+    "layerPackage": "Arquivo de Dados",
+    "locatorPackage": "Ferramenta GIS",
+    "mapArea": "Ferramenta GIS",
+    "mapDocument": "Ferramenta GIS",
+    "mapImageLayer": "Mapa",
+    "mapPackage": "Arquivo de Dados",
+    "mapService": "Mapa",
+    "microsoftExcel": "Planilha",
+    "microsoftPowerpoint": "Apresentação",
+    "microsoftVizio": "Microsoft Visio",
+    "microsoftWord": "Documento",
+    "mission": "Ferramenta GIS",
+    "mobileApplication": "Aplicativo",
+    "mobileMapPackage": "Arquivo de Dados",
+    "native application template": "Ferramenta de Desenvolvedor",
+    "nativeApplication": "Aplicativo",
+    "nativeApplicationInstaller": "Ferramenta de Desenvolvedor",
+    "networkAnalysisService": "API do Desenvolvedor",
+    "notebook": "Análise",
+    "orientedImageryCatalog": "Conjunto de Dados de Imagens",
+    "orthoMappingProject": "Ferramenta GIS",
+    "orthoMappingTemplate": "Ferramenta GIS",
+    "pdf": "Documento",
+    "quickcaptureProject": "Pesquisa Móvel",
+    "rasterLayer": "Mapa",
+    "realTimeAnalytic": "API do Desenvolvedor",
+    "relationalDatabaseConnection": "API do Desenvolvedor",
+    "reportTemplate": "Ferramenta GIS",
+    "sceneLayer": "Conjunto de Dados 3D",
+    "sceneService": "Conjunto de Dados 3D",
+    "serviceDefinition": "Arquivo de Dados",
+    "shapefile": "Conjunto de Dados",
+    "solution": "Solução",
+    "sqliteGeodatabase": "Arquivo de Dados",
+    "statisticalDataCollection": "Arquivo de Dados",
+    "storymap": "StoryMap",
+    "symbolSet": "Arquivo de Dados",
+    "table": "Conjunto de Dados",
+    "team": "Equipe",
+    "urbanModel": "Modelo Urbano",
+    "vectorTileService": "Mapa",
+    "visioDocument": "Documento",
+    "webExperience": "Aplicativo",
+    "webMap": "Mapa",
+    "webMappingApplication": "Aplicativo",
+    "webScene": "Mapa em 3D",
+    "wfs": "Mapa",
+    "wms": "Mapa",
+    "wmts": "Mapa",
+    "workflowManagerService": "API do Desenvolvedor",
+    "workforceProject": "Gerenciador de Fluxo de Tarefas"
+  },
+  "location": {
+    "description": "Localização"
+  },
+  "members": {
+    "noMember": "Nenhum membro",
+    "oneMember": "Membros: 1",
+    "members": "Membros: {count}",
+    "description": {
+      "value": "Ver todos os membros do grupo"
+    }
+  },
+  "tooltip": {
+    "label": "Dica de ferramenta do item de metadados"
+  },
+  "relevantArea": {
+    "title": "Área relevante"
+  },
+  "license": {
+    "tooltip": "Define como este conteúdo pode ser usado",
+    "set": {
+      "title": "Licença {license}",
+      "customTitle": "Licença personalizada",
+      "description": {
+        "value": "Visualizar detalhes da licença"
+      }
+    },
+    "unset": {
+      "title": "Nenhuma licença fornecida",
+      "description": {
+        "value": "Solicite permissão para usar"
+      }
+    }
+  },
+  "size": {
+    "description": {
+      "value": "Tamanho do arquivo do documento"
+    }
+  },
+  "recordCount": {
+    "title": "Registros: {count}",
+    "description": {
+      "value": "Visualizar tabela de dados"
+    }
+  },
+  "metadataModified": {
+    "description": {
+      "defaultValue": "Informações atualizadas",
+      "dynamicValue": "Informações atualizadas: {lastUpdated}"
+    }
+  },
+  "updateFrequency": {
+    "continual": "Contínuo",
+    "daily": "Diariamente",
+    "weekly": "Semanalmente",
+    "fortnightly": "Quinzenal",
+    "monthly": "Mensalmente",
+    "quarterly": "Trimestral",
+    "biannually": "Semestral",
+    "annually": "Anualmente",
+    "as-needed": "Conforme Necessário",
+    "irregular": "Irregular",
+    "not-planned": "Não Planejado",
+    "unknown": "Desconhecido",
+    "semimonthly": "Semestralmente"
+  }
+}

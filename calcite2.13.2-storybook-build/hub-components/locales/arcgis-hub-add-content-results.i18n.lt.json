@@ -1,0 +1,54 @@
+{
+  "existing": {
+    "successHeading": "Turinys pridėtas sėkmingai.",
+    "failureHeading": "Nepavyko pridėti turinio į pasirinktą grupę.",
+    "successfulAccordionHeading": "Turinys pridėtas į pasirinktą grupę.",
+    "unsuccessfulAccordionHeading": "Turinys nepridėtas į pasirinktą grupę."
+  },
+  "create": {
+    "event": {
+      "successWithoutGroupHeading": "Įvykis sėkmingai sukurtas.",
+      "successWithGroupHeading": "Įvykis sėkmingai sukurtas ir pridėtas prie {group}.",
+      "successMessage": "Dabar galite peržiūrėti įvykį, tvarkyti jį, kad galėtumėte redaguoti informaciją, arba paspausti „Atlikta“, kad grįžtumėte į peržiūrą.",
+      "failureHeading": "Nepavyko pridėti įvykio prie pasirinktos grupės."
+    },
+    "discussion": {
+      "successWithoutGroupHeading": "Diskusijų lenta sėkmingai sukurta.",
+      "successWithGroupHeading": "Diskusijų lenta sėkmingai sukurta ir pridėta prie {group}.",
+      "successMessage": "Dabar galite peržiūrėti Diskusijų lentą, tvarkyti ją, kad galėtumėte redaguoti informaciją, arba paspausti „Atlikta“, kad grįžtumėte į peržiūrą.",
+      "failureHeading": "Nepavyko pridėti Diskusijų lentos prie pasirinktos grupės."
+    },
+    "group": {
+      "successWithoutGroupHeading": "Grupė sukurta sėkmingai",
+      "successMessage": "Dabar galite peržiūrėti grupę, tvarkyti ją, kad galėtumėte redaguoti informaciją, arba paspausti „Atlikta“, kad grįžtumėte į peržiūrą.",
+      "failureHeading": "Nepavyko sukurti grupės."
+    },
+    "initiative": {
+      "successWithoutGroupHeading": "Iniciatyva sėkmingai sukurta.",
+      "successWithGroupHeading": "Iniciatyva sėkmingai sukurta ir pridėta prie {group}.",
+      "successMessage": "Dabar galite peržiūrėti iniciatyvą, tvarkyti ją, kad galėtumėte redaguoti informaciją, arba paspausti „Atlikta“, kad grįžtumėte į peržiūrą.",
+      "failureHeading": "Nepavyko pridėti iniciatyvos prie pasirinktos grupės."
+    },
+    "page": {
+      "successWithoutGroupHeading": "Puslapis sėkmingai sukurtas.",
+      "successWithGroupHeading": "Puslapis sėkmingai sukurtas ir pridėtas prie {group}.",
+      "successMessage": "Dabar galite peržiūrėti puslapį, tvarkyti jį, kad galėtumėte redaguoti informaciją, arba paspausti „Atlikta“, kad grįžtumėte į peržiūrą.",
+      "failureHeading": "Nepavyko pridėti puslapio prie pasirinktos grupės."
+    },
+    "project": {
+      "successWithoutGroupHeading": "Projektas sėkmingai sukurtas.",
+      "successWithGroupHeading": "Projektas sėkmingai sukurtas ir pridėtas prie {group}.",
+      "successMessage": "Dabar galite peržiūrėti projektą, tvarkyti jį, kad galėtumėte redaguoti informaciją, arba paspausti „Atlikta“, kad grįžtumėte į peržiūrą.",
+      "failureHeading": "Nepavyko pridėti projekto prie pasirinktos grupės."
+    },
+    "site": {
+      "successWithoutGroupHeading": "Svetainė sėkmingai sukurta.",
+      "successWithGroupHeading": "Svetainė sėkmingai sukurta ir pridėta prie {group}.",
+      "successMessage": "Dabar galite peržiūrėti svetainę, tvarkyti ją, kad galėtumėte redaguoti informaciją, arba paspausti „Atlikta“, kad grįžtumėte į peržiūrą.",
+      "failureHeading": "Nepavyko pridėti svetainės prie pasirinktos grupės."
+    }
+  },
+  "editLayout": "Redaguoti maketą",
+  "manageEntity": "Tvarkyti",
+  "viewEntity": "Peržiūra"
+}

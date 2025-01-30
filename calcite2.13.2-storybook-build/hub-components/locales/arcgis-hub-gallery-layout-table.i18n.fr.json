@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Aucun résultat trouvé."
+    },
+    "error": {
+      "message": "Malheureusement, une erreur s’est produite lors de la recherche."
+    }
+  },
+  "access": "Accès",
+  "actionsHeader": "Actions",
+  "caption": "Table d’entités Hub",
+  "family": "Famille",
+  "type": "Type",
+  "tags": "Balises",
+  "owner": "Propriétaire",
+  "dateCreated": "Création",
+  "dateUpdated": "Modification",
+  "description": "Description",
+  "dateAndTime": "Date et heure",
+  "location": "Localisation",
+  "attendanceType": "Type de participation",
+  "inPerson": "En présentiel",
+  "online": "En ligne",
+  "hybrid": "Hybride",
+  "categories": "Catégories",
+  "content": "Contenu",
+  "name": "Nom",
+  "start": "Début",
+  "end": "Fin",
+  "sharedUpdate": "Mise à jour partagée",
+  "managers": "Gestionnaires",
+  "username": "Nom d’utilisateur",
+  "no": "Non",
+  "yes": "Oui",
+  "title": "Titre",
+  "thumbnail": "Miniature",
+  "types": {
+    "app": "Application",
+    "content": "Contenu",
+    "dataset": "Jeu de données",
+    "discussion": "Forum de discussion",
+    "document": "Document",
+    "event": "Événement",
+    "feedback": "Commentaire",
+    "initiative": "Initiative",
+    "image": "Image",
+    "map": "Carte",
+    "other": "Autre",
+    "people": "Personne",
+    "site": "Site",
+    "team": "Groupe",
+    "template": "Modèle",
+    "project": "Projet"
+  }
+}

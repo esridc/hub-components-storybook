@@ -1,0 +1,39 @@
+{
+  "popover": {
+    "access": {
+      "org": "Sdíleno s organizací",
+      "private": "Sdíleno s vlastníkem",
+      "public": "Sdíleno s veřejností",
+      "shared": "Sdíleno s vlastníkem a skupinami"
+    },
+    "editLayout": "Upravit rozvržení",
+    "lastUpdated": "Poslední aktualizace {updated}",
+    "viewSite": "Zobrazit web"
+  },
+  "cloneLayoutLabel": "Klonovat rozvržení",
+  "deleteDraftLabel": "Smazat koncept",
+  "deletePageLabel": "Smazat stránku",
+  "deleteSiteLabel": "Odstranit web",
+  "editInAgoLabel": "Upravit v ArcGIS Online",
+  "managePage": "Spravovat stránku",
+  "manageSite": "Spravovat web",
+  "manageTemplate": "Spravovat šablonu",
+  "moreOptionsLabel": "Více možností",
+  "publishLabel": {
+    "site": "Publikovat rozvržení",
+    "page": "Publikovat rozvržení",
+    "survey": "Publikovat"
+  },
+  "saveAsTemplateLabel": "Uložit jako šablonu",
+  "saveLabel": {
+    "site": "Uložit rozvržení",
+    "page": "Uložit rozvržení",
+    "survey": "Uložit",
+    "template": "Uložit"
+  },
+  "sharingLabel": "Otevřít panel sdílení",
+  "editS123Label": "Upravit v Survey123",
+  "viewLabel": "Zobrazit",
+  "viewPublishedLabel": "Zobrazit publikované",
+  "viewUnpublishedLabel": "Zobrazit koncept"
+}

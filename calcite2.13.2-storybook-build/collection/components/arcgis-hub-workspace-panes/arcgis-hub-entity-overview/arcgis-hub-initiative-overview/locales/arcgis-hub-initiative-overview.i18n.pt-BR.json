@@ -1,0 +1,23 @@
+{
+  "overview": "Visão geral",
+  "telemetry": {
+    "pageViews": "Visualizações de página",
+    "last30days": "Últimos 30 dias",
+    "lastUpdated": "Atualizado pela última vez {hoursElapsed} horas atrás",
+    "checkTomorrow": "Verifique novamente amanhã"
+  },
+  "learnAbout": "Saiba mais sobre as iniciativas do Hub",
+  "feedbackNotice": {
+    "message": "O que você acha das iniciativas do Hub? Queremos saber como você pode usá-lo.",
+    "link": "Enviar comentários"
+  },
+  "status": {
+    "notStarted": "Não foi iniciado",
+    "inProgress": "Em andamento",
+    "onHold": "Em espera",
+    "complete": "Concluído"
+  },
+  "editDetails": "Editar detalhes",
+  "noPurposeSet": "Sem propósito definido",
+  "noLocationSet": "Nenhum local definido"
+}

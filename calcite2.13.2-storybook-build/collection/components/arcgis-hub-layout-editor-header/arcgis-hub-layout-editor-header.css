@@ -1,0 +1,69 @@
+:host {
+  display: block;
+}
+
+calcite-navigation {
+  --calcite-navigation-background: var(--calcite-color-foreground-2);
+    --foreground-1: var(--calcite-color-foreground-1);
+}
+
+calcite-menu-item {
+  --calcite-color-foreground-1: var(--calcite-navigation-background);
+    --calcite-color-foreground-2: var(--foreground-1);
+}
+
+calcite-popover {
+  background-color: var(--calcite-color-foreground-2);
+}
+
+calcite-popover p {
+  margin: 0px;
+  display: flex;
+  max-width: 20rem;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.75rem;
+}
+
+calcite-popover .site-title {
+  font-size: var(--calcite-font-size-0);
+  line-height: 1.25rem;
+  font-weight: var(--calcite-font-weight-bold);
+}
+
+calcite-popover .site-title, calcite-popover .edit-site-btn {
+  margin-bottom: 0.25rem;
+}
+
+calcite-popover p > div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.non-interactive {
+  pointer-events: none;
+}
+
+.controls-container {
+  display: none;
+  gap: 1rem;
+  margin-inline-end: 1rem;
+}
+
+[slot="content-center"] {
+  display: none;
+}
+
+[slot="user"] {
+  display: flex;
+  align-items: center;
+  margin-inline-end: 1rem;
+}
+
+@media (min-width: 768px) {
+  [slot="content-center"],
+  .controls-container {
+    display: flex;
+  }
+}

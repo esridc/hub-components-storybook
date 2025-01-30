@@ -1,0 +1,81 @@
+{
+  "tabTitle": "Configuratie feeds",
+  "learn": "Meer over Hub-feeds",
+  "loadingLabel": "Bezig met laden",
+  "enableFeedsToggle": {
+    "label": "Feeds inschakelen",
+    "privateNotice": "Als u feeds wilt inschakelen, moet u eerst uw Hub-site op \"Openbaar\" instellen.",
+    "emptyPublicCatalog": {
+      "message": "Als u feeds wilt inschakelen, moet u eerst openbare content aan uw catalogus toevoegen.",
+      "button": "Catalogus weergeven"
+    },
+    "grouplessCatalog": {
+      "message": "Als u feeds wilt inschakelen, moet u eerst uw catalogus configureren.",
+      "button": "Catalogus configureren"
+    }
+  },
+  "gettingStartedNotice": {
+    "title": "Aan de slag",
+    "exampleMessage": "Markeer en update een sleutel of waarde in de JSON-editor met een letterlijke waarde (\"VALUE\") of een sjabloonwaarde (\"{{TEMPLATE_VALUE}}\").",
+    "previewMessage": "Gebruik de schakelaar \"voorbeeldweergave\" om een voorbeeld van uw wijzigingen weer te geven. Lees de <catalogFederationLink>Help-documentatie voor catalogussamenvatting</catalogFederationLink> voor meer informatie."
+  },
+  "aboutFeedsNotice": {
+    "message": "Maak uw openbare gegevens makkelijk toegankelijk en herbruikbaar met Hub-feeds.",
+    "link": "Meer over Hub-feeds"
+  },
+  "feedsEditorSection": {
+    "title": "Feeds",
+    "formatSelectLabel": "Selecteer een type feed",
+    "uneditableAttributesIntro": "Houd in de gaten dat u de volgende attributen niet kunt bewerken:",
+    "edit": "Bewerken",
+    "preview": "Voorbeeld",
+    "selectContentNotice": "Selecteer content voor voorbeeldweergave.",
+    "invalidJsonEditorWarning": "Ongeldige JSON. Corrigeer eventuele fouten voordat u opslaat.",
+    "invalidJsonPreviewWarning": "Kan geen voorbeeld weergeven van ongeldige JSON, corrigeer fouten.",
+    "errorPreviewingWarning": "Er is een fout opgetreden. Controleer uw verbinding en probeer het opnieuw. Rapporteer een bug bij Hub Support als het probleem blijft aanhouden."
+  },
+  "toolsSection": {
+    "title": "Tools",
+    "verification": "Verificatie",
+    "previewSampleData": {
+      "label": "Voorbeeld monstergegevens weergeven",
+      "pickerFacets": {
+        "type": "Type",
+        "tags": "Tag",
+        "categories": "Categorie",
+        "sharing": "Delen",
+        "dateUpdated": "Datum bijgewerkt"
+      }
+    },
+    "copyableInputLabel": "URL toegang feed"
+  },
+  "dcat-us": {
+    "1.1": {
+      "title": "DCAT-US 1.1",
+      "description": "DCAT stelt organisaties in staat om de bijdrage van gegevens te standaardiseren en helpt mensen om door federale bronnen te parseren. U kunt het <dcatUsSchemaLink>DCAT-schema</dcatUsSchemaLink> gebruiken dat is opgesteld door Project Open Data, wat de standaardconfiguratie is, of u kunt zelf bepaalde velden/attributen configureren. Sitebeheerders kunnen ook extra DCAT-configuraties toevoegen en kunnen onze documentatie over het <catalogFederationLink>samenvoegen van gegevens met DCAT en andere externe catalogi lezen.</catalogFederationLink>",
+      "uneditableAttributes": "@type, landingPage, webService en contactPoint['@type'].",
+      "verificationLabel": "U kunt uw DCAT-feed verifiëren door de DCAT-URL van uw site in de <dcatUsVerificationLink>Project Open Data Validator</dcatUsVerificationLink> te plakken."
+    }
+  },
+  "dcat-ap": {
+    "2.1.1": {
+      "title": "DCAT-AP 2.1.1",
+      "description": "DCAT-AP, opgesteld door de Europese Commissie, is de standaardindeling voor het uitwisselen van metadata voor Europese gegevenscatalogi. ArcGIS Hub zorgt voor het automatisch maken en updaten van de DCAT-AP-feed van uw site wanneer u de details van de metadata van uw inhoud bewerkt of nieuwe openbare inhoud aan uw catalogus toevoegt. Aangezien de feed metadata gebruikt die in ArcGIS Online worden onderhouden, is het niet nodig handmatig afzonderlijke DCAT-AP-metadata te maken.<lineBreak></lineBreak><lineBreak></lineBreak>U kunt met behulp van deze editor ArcGIS Hub’s standaardconfiguratie voor <dcatApSchemaLink>DCAT-AP-schema</dcatApSchemaLink> aanhouden of u kunt bepaalde velden / attributen zelf configureren. U kunt ook DCAT-AP-velden/-attributen toevoegen. Raadpleeg voor meer informatie de documentatie van ArcGIS Hub over <catalogFederationLink>het bundelen van gegevens met DCAT en andere externe catalogi</catalogFederationLink>.",
+      "uneditableAttributes": "@type, @id, dcat:contactPoint['@id'], dcat:contactPoint['@type'], dct:publisher, dcat:theme, dct:accessRights, dcat:keyword, dct:provenance, dct:issued en dct:language",
+      "verificationLabel": "U kunt uw DCAT-feed verifiëren door de DCAT-URL van uw site in de <dcatApVerificationLink>testbank voor interoperabiliteit van de Europese Commissie te plakken</dcatApVerificationLink>."
+    }
+  },
+  "rss": {
+    "2.0": {
+      "title": "RSS 2.0",
+      "description": "<rssAboutLink>RSS 2</rssAboutLink> is een syndicatie-indeling voor webcontent en voldoet aan de <xmlSpecLink>XML 1.0-specificatie</xmlSpecLink>. Met deze editor kunt u de standaardconfiguratie van ArcGIS Hub aanhouden, of u kunt zelf bepaalde velden/attributen configureren. Raadpleeg voor meer informatie de documentatie van ArcGIS Hub <catalogFederationLink> over het verenigen met DCAT en andere externe catalogi.</catalogFederationLink>",
+      "verificationLabel": "U kunt uw RSS-feed controleren door de RSS-URL van uw site door te geven aan de W3 <rssVerificationLink>Feed Validator</rssVerificationLink>."
+    }
+  },
+  "saveButton": "Opslaan",
+  "alertMessages": {
+    "success": "De bewerkingen zijn opgeslagen",
+    "error": "Er is een fout opgetreden bij het opslaan van bewerkingen"
+  },
+  "formAlert": "Formulierwaarschuwing"
+}

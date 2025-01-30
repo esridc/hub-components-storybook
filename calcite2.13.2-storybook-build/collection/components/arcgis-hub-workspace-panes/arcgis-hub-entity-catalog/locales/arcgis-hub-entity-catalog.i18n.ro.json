@@ -1,0 +1,65 @@
+{
+  "catalog": "Catalog",
+  "catalog-content": "Conținut",
+  "catalog-events": "Evenimente",
+  "shared": {
+    "publish": {
+      "label": "Salvare",
+      "success": {
+        "title": "S-au publicat cu succes editările catalogului la vizualizarea live"
+      },
+      "error": {
+        "title": "Eroare la salvarea editărilor"
+      }
+    }
+  },
+  "emptyState": {
+    "message": "Niciun catalog definit",
+    "action": "Construiți un catalog"
+  },
+  "actionBar": {
+    "details": "Configurație catalog",
+    "appearance": "Aspect catalog",
+    "tooltip": {
+      "appearanceDisabled": "Momentan nu este configurat niciun catalog. Configurați un catalog pentru a ajuta setările de aspect.",
+      "configuration": "Configurație",
+      "appearance": "Aspect"
+    }
+  },
+  "detailsPanel": {
+    "heading": "Configurație catalog",
+    "close": "Închideți configurația catalogului",
+    "catalogBuilder": {
+      "helperText": "Catalogul dvs. le permite vizitatorilor să caute și să vizualizeze conținut. Rezultatele afișat se bazează pe configurația interogării dvs."
+    },
+    "querySizeNotice": {
+      "warning": {
+        "title": "Apropierea de limita catalogului",
+        "catalogSourceMessage": {
+          "item": "Configurația sursei elementului dvs. se apropie de limita de dimensiune.",
+          "event": "Configurația sursei evenimentului dvs. se apropie de limita de dimensiune."
+        },
+        "collectionSourceMessage": {
+          "item": "Combinația sursei elementului și a configurației colecției „{collectionName}” se apropie de limita de dimensiune.",
+          "event": "Combinația sursei evenimentului dvs. și a configurației colecției „{collectionName}” se apropie de limita de dimensiune."
+        }
+      },
+      "danger": {
+        "title": "Limită catalog depășită",
+        "catalogSourceMessage": {
+          "item": "Configurația sursă a elementului a depășit limita de dimensiune. Reduceți numărul de filtre și/sau opțiuni de filtre din sursa elementului de publicat.",
+          "event": "Configurația sursei evenimentului a depășit limita dimensiunii. Reduceți numărul de filtre și/sau opțiuni de filtre din sursa evenimentului de publicat."
+        },
+        "collectionSourceMessage": {
+          "item": "Combinația sursei elementului și configurația colecției „{collectionName}” a depășit limita dimensiunii. Reduceți numărul de filtre și/sau opțiunile de filtrare din sursa elementului dvs. și/sau colecția „{collectionName}” de publicat.",
+          "event": "Combinația sursei evenimentului și configurația colecției „{collectionName}” a depășit limita dimensiunii. Reduceți numărul de filtre și/sau opțiunile de filtrare din sursa evenimentului dvs. și/sau colecția „{collectionName}” de publicat."
+        }
+      }
+    }
+  },
+  "appearancePanel": {
+    "heading": "Aspect catalog",
+    "close": "Închideți aspectul catalogului",
+    "description": "Catalogul dvs. le permite vizitatorilor să caute și să vizualizeze conținut. Aici puteți actualiza modul în care catalogul implicit ar trebui să arate și ce filtre doriți să fie afișate."
+  }
+}

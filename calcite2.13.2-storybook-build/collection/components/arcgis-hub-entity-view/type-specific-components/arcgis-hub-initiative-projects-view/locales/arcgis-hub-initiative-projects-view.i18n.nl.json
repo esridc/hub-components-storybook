@@ -1,0 +1,19 @@
+{
+  "facets": {
+    "location": {
+      "label": "Locatie",
+      "tooltip": "Kaartextent als locatiefilter toepassen"
+    },
+    "status": "Status",
+    "tags": "Tags",
+    "categories": "Categorieën",
+    "dateUpdated": "Datum bijgewerkt"
+  },
+  "status": {
+    "label": "Status initiatief",
+    "notStarted": "Niet gestart",
+    "inProgress": "Lopend",
+    "onHold": "Tijdelijk stopgezet",
+    "complete": "Voltooid"
+  }
+}

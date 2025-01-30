@@ -1,0 +1,46 @@
+{
+  "heading": "페이지 정보",
+  "form": {
+    "title": {
+      "label": "페이지 이름",
+      "requiredError": "이름은 필수 입력 항목입니다.",
+      "entityTitleValidatorError": "페이지 이름에는 이모지, <, > 또는 = 문자를 포함할 수 없습니다."
+    },
+    "slug": {
+      "label": "슬러그",
+      "helperText": "슬러그는 페이지 이름의 URL 친화적인 버전입니다. 페이지 이름을 기반으로 자동 생성되지만 사용자 정의할 수도 있습니다.",
+      "patternError": "오류: 슬러그는 하이픈으로 구분된 소문자 영숫자여야 합니다.",
+      "isUniqueError": "이 슬러그는 이미 사용 중입니다. 다른 슬러그를 선택하세요.",
+      "requiredError": "슬러그는 필수 입력 항목입니다."
+    }
+  },
+  "controls": {
+    "back": "돌아가기",
+    "cancel": "취소",
+    "close": "완료",
+    "migrate": "페이지 마이그레이션",
+    "next": "다음"
+  },
+  "selection": {
+    "unlimited": "{count}개 선택함",
+    "limited": "{count} / {limit}개 선택함"
+  },
+  "steps": {
+    "specifyInfo": "기본 정보 추가",
+    "selectGroups": "그룹 선택",
+    "confirmation": "확인"
+  },
+  "working": {
+    "heading": "페이지를 마이그레이션하는 중입니다.",
+    "loadingLabel": "페이지 마이그레이션 중"
+  },
+  "success": {
+    "heading": "페이지가 마이그레이션됨",
+    "message": "페이지를 성공적으로 마이그레이션했습니다."
+  },
+  "failure": {
+    "heading": "페이지가 마이그레이션되지 않음",
+    "message": "페이지를 마이그레이션하는 동안 문제가 발생했습니다. 다시 시도하세요.",
+    "action": "다시 시도"
+  }
+}

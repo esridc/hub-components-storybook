@@ -1,0 +1,93 @@
+{
+  "resultsSection": "Results section",
+  "moreResults": "More results",
+  "search": "Search",
+  "filter": "Filters",
+  "viewResults": "View results ({numResults})",
+  "resultsCount": "1 - {pageTotal} of {searchTotal}",
+  "backToTop": "Back to top",
+  "facets": {
+    "access": {
+      "label": "Sharing",
+      "private": "Myself",
+      "shared": "Owner & groups",
+      "org": "Organization",
+      "public": "Public"
+    },
+    "license": {
+      "label": "License",
+      "tooltip": "Only on public content",
+      "custom": "Custom",
+      "none": "None"
+    },
+    "type": {
+      "label": "Type"
+    },
+    "tags": {
+      "label": "Tags"
+    },
+    "dateUpdated": {
+      "label": "Date updated"
+    },
+    "source": {
+      "label": "Source",
+      "tooltip": "Public content from different organizations"
+    },
+    "categories": {
+      "label": "Categories"
+    },
+    "location": {
+      "label": "Location",
+      "tooltip": "Apply the map extent as a location filter"
+    },
+    "event": {
+      "from": {
+        "label": "Ownership",
+        "myContent": "Me",
+        "myOrganization": "My Organization",
+        "world": "Anyone"
+      },
+      "access": {
+        "label": "Access",
+        "private": "Private",
+        "org": "Organization",
+        "public": "Public"
+      },
+      "startDate": {
+        "label": "Event Date"
+      }
+
+    },
+    "group": {
+      "type": {
+        "label": "Type",
+        "all": "All",
+        "view": "View",
+        "edit": "Edit"
+      },
+      "role": {
+        "label": "Role",
+        "all": "All",
+        "member": "Member",
+        "manager": "Manager",
+        "owner": "Owner"
+      },
+      "sharing": {
+        "label": "Visibility",
+        "private": "Private",
+        "public": "Public"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "Display list",
+    "grid": "Display grid",
+    "map": "Display map",
+    "compact": "Display compact",
+    "calendar": "Display calendar",
+    "table": "Display table"
+  },
+  "galleryActionsLabel": "Additional actions",
+  "selected": "Selected: {count}",
+  "popoverActionButtonLabel": "more actions"
+}

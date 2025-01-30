@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "Editare",
+    "fields": {
+      "label": {
+        "label": "Etichetă",
+        "requiredMessage": "Etichetă necesară",
+        "maxLengthMessage": "Eticheta nu trebuie să depășească {maxLength} caractere"
+      }
+    },
+    "apply": "Aplicare"
+  },
+  "showItem": "Afișați următorul element din listă: {itemLabel}",
+  "hideItem": "Ascundeți următorul element din listă: {itemLabel}",
+  "editItem": "Editați următorul element din listă: {itemLabel}"
+}

@@ -1,0 +1,266 @@
+:host {
+  display: block;
+  background-color: var(--calcite-color-background);
+  font-size: var(--calcite-font-size--1);
+  line-height: 1rem;
+}
+
+/* common layouts */
+.map-integrator-container {
+  height: var(--max-discussion-board-height, 100%);
+}
+
+.map-container {
+  position: relative;
+  height: 100%;
+}
+
+arcgis-hub-map {
+  height: 100%;
+}
+
+/* desktop grid/list layouts */
+:host(:not([is-mobile]):not([layout="map"])) .hero-and-content-container {
+  display: grid;
+  column-gap: 3.5rem;
+  padding: 1rem;
+  grid-template-columns: minmax(20.5rem, 25rem) minmax(20rem, 53.5rem);
+  grid-template-rows: 1fr;
+}
+
+:host(:not([is-mobile])[layout="map"]) .hero-and-content-container:has(arcgis-hub-discussions-thread) {
+  padding: 0px;
+}
+
+:host(:not([is-mobile]):not([layout="map"])) .map-integrator-container {
+  position: absolute;
+  width: 0.125rem;
+  top: -9999999999999999999999px;
+  left: -9999999999999999999999px;
+}
+
+/* desktop map layout */
+:host(:not([is-mobile])[layout="map"]) .board-container {
+  display: grid;
+  grid-template-columns: minmax(20.5rem, 25rem) 1fr;
+}
+
+:host(:not([is-mobile])[layout="map"]) .hero-and-content-container {
+  position: relative;
+  box-sizing: border-box;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 1rem;
+  height: var(--max-discussion-board-height, auto);
+}
+
+:host(:not([is-mobile])[layout="map"]) .hero-and-content-container:has(arcgis-hub-discussions-thread) .discussions_hero {
+  padding: 1rem;
+}
+
+/* mobile grid/list layouts */
+:host([is-mobile]:not([layout="map"])) .map-integrator-container {
+  position: absolute;
+  width: 0.125rem;
+  top: -9999999999999999999999px;
+  left: -9999999999999999999999px;
+}
+
+:host([is-mobile]:not([layout="map"])) .hero-and-content-container {
+  position: relative;
+  box-sizing: border-box;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 1rem;
+  height: var(--max-discussion-board-height, auto);
+}
+
+:host([is-mobile]:not([layout="map"])) .hero-and-content-container:has(arcgis-hub-discussions-thread) {
+  padding: 0px;
+}
+
+:host([is-mobile][parent-id]:not([layout="map"])) .hero-and-content-container {
+  background-color: var(--calcite-color-foreground-1);
+  padding: 0px;
+}
+
+:host([is-mobile][parent-id]:not([layout="map"])) .discussions_hero {
+  display: none;
+}
+
+:host([is-mobile]:not([layout="map"])) .discussions_content {
+  padding-bottom: 1.5rem;
+}
+
+/* mobile map layout */
+:host([is-mobile][layout="map"]) .hero-and-content-container {
+  display: none;
+}
+
+:host([is-mobile][layout="map"]) .map-integrator-container {
+  position: relative;
+}
+
+/* toggle button */
+.toggle-container-outer {
+  position: sticky;
+  bottom: 1rem;
+  z-index: 100000;
+}
+
+.toggle-container-inner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.toggle-container-inner calcite-fab {
+  position: absolute;
+  bottom: 1rem;
+}
+
+/* hero container */
+.discussions_hero {
+  margin-bottom: 2rem;
+  overflow-wrap: break-word;
+}
+
+/* board hero into section */
+.discussions_intro {
+  display: grid;
+  row-gap: 1rem;
+}
+
+:host(:not([is-mobile])) .discussions_intro {
+  grid-template-columns: minmax(20.5rem, 25rem);
+}
+
+/* channel warning */
+.discussions_channel_warning {
+  font-size: var(--calcite-font-size--1);
+  line-height: 1rem;
+}
+
+/* channel status section */
+.discussions_channel_status {
+  display: grid;
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  row-gap: 0.25rem;
+  column-gap: 0.25rem;
+  font-size: var(--calcite-font-size--1);
+  line-height: 1rem;
+  grid-template-columns: auto 32px;
+}
+
+/* channel status info */
+.discussions_channel_status__info {
+  grid-row-start: 2;
+  display: flex;
+  flex-wrap: nowrap;
+  font-size: var(--calcite-font-size--1);
+  line-height: 1rem;
+}
+
+/* channel status */
+.discussions_channel_status__status {
+  font-weight: var(--calcite-font-weight-medium);
+  text-transform: uppercase;
+  color: var(--calcite-color-text-2);
+}
+
+/* channel name */
+.discussions_channel_status__name {
+  word-break: break-all;
+  color: var(--calcite-color-text-2);
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.discussions_channel_status_options {
+  grid-row: span 2 / span 2;
+  align-self: center;
+  justify-self: end;
+}
+
+/* bullet container */
+.discussions_channel_status__info > span {
+  display: flex;
+  width: 1rem;
+  justify-content: center;
+}
+
+/* entity details */
+.discussions_entity_details {
+  display: grid;
+  row-gap: 0.5rem;
+}
+
+:host(:not([is-mobile])) .discussions_entity_details {
+  grid-template-columns: minmax(20.5rem, 25rem);
+}
+
+/* entity title */
+.discussions_entity_details > header {
+  font-size: var(--calcite-font-size-3);
+  line-height: 2rem;
+  font-weight: var(--calcite-font-weight-bold);
+  color: var(--calcite-color-text-1);
+}
+
+/* entity description */
+.discussions_entity_details > div {
+  font-size: var(--calcite-font-size-0);
+  line-height: 1.25rem;
+  color: var(--calcite-color-text-1);
+}
+
+/* mobile overrides for entity title */
+:host([is-mobile]) .discussions_entity_details > header {
+  font-size: var(--calcite-font-size-0);
+  line-height: 1.25rem;
+}
+
+/* post editor styles */
+arcgis-hub-discussions-post-editor {
+  margin-bottom: 2rem;
+}
+
+/* post list styles */
+arcgis-hub-discussions-post-list {
+  --arcgis-hub-layout-list-min-column-width: 20rem;
+  --arcgis-hub-layout-list-gap: 1rem;
+  --arcgis-hub-layout-list-actions-gap: .25rem;
+  --arcgis-hub-layout-list-actions-margin: 1rem;
+  background-color: var(--calcite-color-background);
+}
+
+calcite-panel [slot="header-actions-start"] {
+  border-width: 0px;
+  border-style: solid;
+  border-color: var(--calcite-color-border-3);
+  border-inline-end-width: 1px;
+}
+
+/* notice styles */
+calcite-notice {
+  margin-bottom: 1rem;
+}
+
+/* about view */
+arcgis-hub-discussions-view {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+:host([is-mobile]) arcgis-hub-discussions-view {
+  padding: 1rem;
+}
+
+/* Hiding draw tools for now */
+#draw-tools-container {
+  display: none;
+}

@@ -1,0 +1,82 @@
+{
+  "title": "Deltagande",
+  "subtitle": "Ange synlighet för diskussionstavlan (vem som kan visa), skrolla ner för att ange vem som kan redigera information om diskussionstavlan och ange sedan deltagande och moderering med kanaler.",
+  "channelTitle": "Deltagandekanal har angetts",
+  "channelDescription": "Den här kanalen styr vem som kan lägga till, visa och moderera inlägg på den här diskussionstavlan.",
+  "addChannelsTitle": "Ange kanal",
+  "addChannelsDescription": "Kanaler styr vem som kan lägga till inlägg på diskussionstavlan. De kan vara öppna för grupper, en organisation eller allmänheten och kan användas för många diskussioner. Kanaler kan även styra vem som kan moderera. Ange blockerade ord för automatisk moderering inom en kanal.",
+  "privateChannelTitle": "Privat kanal har angetts",
+  "privateChannelDescription": "Du kan inte visa den privata kanalen som är tilldelad till den här diskussionstavlan. Du kan ta bort kanalen och välja en befintlig kanal eller skapa en kanal.",
+  "removeChannelConfirmationMessage": "Den här diskussionstavlan kommer inte längre att visa inlägg. Du kan lägga till en kanal om den här kanalen har tagits bort.",
+  "headingChannelEdit": "Du redigerar en kanal",
+  "headingChannelView": "Du visar en kanal",
+  "headingChannelCreate": "Du skapar en kanal",
+  "buttons": {
+    "browse": "Bläddra bland kanaler",
+    "new": "Ny kanal",
+    "removeChannel": "Ta bort kanal",
+    "cancel": "Avbryt"
+  },
+  "alerts": {
+    "label": "Formulärvarning",
+    "set": {
+      "title": "Lyckades. Kanalen har angetts."
+    },
+    "removed": {
+      "title": "Kanalen har tagits bort.",
+      "message": "Välj eller skapa en kanal för deltagande."
+    },
+    "error": {
+      "title": "Misslyckades. Kanalen har inte angetts."
+    }
+  },
+  "galleryPickerTitle": "Välj en kanal",
+  "channelsLabel": "Kanaler",
+  "accessLabel": "Åtkomst",
+  "optionPublicLabel": "Offentlig",
+  "optionOrganizationLabel": "Organisation",
+  "optionPrivateLabel": "Privat",
+  "viewChannel": "Visa kanal",
+  "editChannel": "Redigera kanal",
+  "save": "Spara",
+  "removeChannel": "Ta bort kanal",
+  "groupPicker": {
+    "facet": {
+      "label": "Från",
+      "myGroups": "Mina grupper",
+      "myOrganization": "Min organisation",
+      "myCommunity": "Min community"
+    }
+  },
+  "editGroupButtonText": "Lägg till redigeringsgrupper",
+  "viewGroupButtonText": "Lägg till visningsgrupper",
+  "viewGroups": {
+    "header": "Vem kan visa",
+    "description": "Personer som kan visa (men inte göra inlägg till) diskussionstavlan; inlägg anges av kanaler nedan."
+  },
+  "editGroups": {
+    "header": "Vem kan redigera",
+    "description": "Gruppmedlemmar kan redigera information om diskussionstavlan i arbetskatalogen."
+  },
+  "aboutChannelsNotice": {
+    "title": "Introduktion till kanaler",
+    "message": "Kanaler är inte grupper, men kan innehålla dem. De bestämmer vem som kan göra inlägg och moderera.",
+    "action": "Mer om kanaler"
+  },
+  "nonPrivateChannelNotice": {
+    "title": "Det går inte att redigera kanalen",
+    "message": "Endast moderatorer för den här kanalen kan redigera den. Kontakta kanalägaren eller organisationsadministratören för att lägga till vid behov. Du kan även ta bort den här kanalen, lägga till en befintlig (som du är moderator för) eller lägga till en ny."
+  },
+  "privateChannelNotice": {
+    "title": "Det går inte att redigera kanalen",
+    "message": "Endast moderatorer för den här kanalen kan redigera den. Kontakta kanalägaren för att lägga till vid behov. Du kan även ta bort den här kanalen, lägga till en befintlig (som du är moderator för) eller lägga till en ny."
+  },
+  "participate": {
+    "header": "Vem kan delta och vem kan moderera"
+  },
+  "org": "Organisation",
+  "private": "Privat",
+  "public": "Offentlig",
+  "unnamed": "Namnlös kanal",
+  "groupNotFound": "Det gick inte att hitta gruppen"
+}

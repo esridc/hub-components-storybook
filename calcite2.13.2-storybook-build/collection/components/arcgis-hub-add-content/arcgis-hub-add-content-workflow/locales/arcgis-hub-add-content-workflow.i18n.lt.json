@@ -1,0 +1,110 @@
+{
+  "controls": {
+    "addContent": "Pridėti turinį",
+    "back": "Atgal",
+    "cancel": "Atšaukti",
+    "close": "Atlikta",
+    "create": "Sukurti ir pridėti prie grupės",
+    "next": "Kitas"
+  },
+  "createHelpState": {
+    "discussion": {
+      "heading": "Diskusija",
+      "message": "Sukurkite naują diskusijų lentą įvesdami temą nurodantį pavadinimą."
+    },
+    "event": {
+      "heading": "Renginys",
+      "message": "Organizuokite renginius asmeniškai arba virtualiai."
+    },
+    "group": {
+      "heading": "Grupė",
+      "message": "Sukurkite grupę, kurioje galėsite bendradarbiauti kurdami tikslinį turinį."
+    },
+    "initiative": {
+      "heading": "Iniciatyva",
+      "message": "Iniciatyvomis organizuojama veikla ir apibendrinama pažanga link tikslo."
+    },
+    "page": {
+      "heading": "Puslapis",
+      "message": "Puslapis –tai vieta, kurioje dalijamasi informacija ir bendraujama su auditorija."
+    },
+    "project": {
+      "heading": "Projektas",
+      "message": "Akcentuokite užduotis su aiškiais tikslais ir terminais."
+    },
+    "site": {
+      "heading": "Svetainė",
+      "message": "Sukurkite tinklalapį, kad galėtumėte tvarkyti ir bendrinti informaciją."
+    }
+  },
+  "selection": {
+    "unlimited": "Pasirinkta: {count}",
+    "limited": "Pasirinkta: {count} / {limit}"
+  },
+  "steps": {
+    "createContent": "Pridėti pagrindinę informaciją",
+    "selectContent": "Pasirinkite turinį",
+    "selectGroups": "Pasirinkite grupę",
+    "confirmation": "Patvirtinimas",
+    "notImplemented": "Neįdiegta"
+  },
+  "working": {
+    "heading": "Pridedamas pasirinktas turinys.",
+    "loadingLabel": "Pridedamas turinys."
+  },
+  "failure": {
+    "heading": "Turinys nepridėtas",
+    "message": "Pridedant pasirinktą turinį įvyko klaida; bandykite dar kartą.",
+    "action": "Bandykite iš naujo"
+  },
+  "notImplemented": {
+    "heading": "Ši darbo eiga dar neįdiegta."
+  },
+  "contentGallery": {
+    "facets": {
+      "access": {
+        "label": "Nuo"
+      },
+      "type": {
+        "label": "Tipai"
+      },
+      "tags": {
+        "label": "Žymos"
+      },
+      "categories": {
+        "label": "Kategorijos"
+      },
+      "modified": {
+        "label": "Pakeistas"
+      }
+    }
+  },
+  "groupsGallery": {
+    "facets": {
+      "access": {
+        "label": "Gali peržiūrėti",
+        "options": {
+          "org": "Organizacija",
+          "public": "Visi (vieša)",
+          "private": "Aš"
+        }
+      },
+      "from": {
+        "label": "Nuo",
+        "options": {
+          "myCommunity": "Mano bendruomenė",
+          "myGroups": "Mano grupės",
+          "myOrganization": "Mano organizacija",
+          "world": "Pasaulis"
+        }
+      },
+      "type": {
+        "label": "Tipai",
+        "options": {
+          "sharedUpdate": "Bendrinamas naujinimas",
+          "opendata": "Atvirieji duomenys"
+        }
+      }
+    }
+  }
+}

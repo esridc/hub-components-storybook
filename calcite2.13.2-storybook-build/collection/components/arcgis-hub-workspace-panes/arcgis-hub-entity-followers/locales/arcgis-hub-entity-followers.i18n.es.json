@@ -1,0 +1,66 @@
+{
+  "followers": "Seguidores",
+  "tabs": {
+    "followers": "Seguidores",
+    "settings": "Ajustes"
+  },
+  "addFollowers": {
+    "label": "Agregar seguidores"
+  },
+  "emptyState": {
+    "message": "El sitio carece de un grupo de seguidores",
+    "action": "Crear grupo de seguidores"
+  },
+  "createFollowersGroup": {
+    "formDescription": "Configurar un grupo para facilitar el uso compartido del contenido y la comunicación",
+    "defaultSummary": "Este grupo de seguidores permite que los miembros compartan contenido y se comuniquen con otros con más facilidad"
+  },
+  "restrictedAccessState": {
+    "message": "No tiene acceso para ver el grupo de seguidores.",
+    "action": "Solicitar acceso"
+  },
+  "stats": {
+    "total": {
+      "title": "Total",
+      "trailingText": "Seguidores"
+    },
+    "new": {
+      "title": "Nuevo",
+      "trailingText": "Últimos 30 días"
+    }
+  },
+  "addMembers": {
+    "button": "Agregar miembros",
+    "modal": {
+      "title": "Agregar miembros",
+      "org": "Mi organización",
+      "community": "Mi comunidad",
+      "partner": "Mis socios",
+      "world": "Mundo"
+    },
+    "notifications": {
+      "invited": "Invitación enviada. Los usuarios deben aceptar unirse",
+      "added": "Usuario(s) agregado(s)",
+      "notInvited": "Algunos usuarios pueden carecer de los privilegios necesarios para unirse al grupo o pueden estar en un límite máximo de grupo (512)"
+    }
+  },
+  "removeUsers": {
+    "button": "Quitar",
+    "success": "Los miembros se han eliminado satisfactoriamente de {groupName}.",
+    "error": "No se ha podido eliminar a uno o a varios usuarios del grupo."
+  },
+  "changeRole": {
+    "button": "Cambiar rol",
+    "member": "Miembro",
+    "memberHelperText": "Puede agregar y ver contenido dentro del grupo.",
+    "tooltipText": "Anular selección de uno mismo y/o de propietario del grupo",
+    "tooltipLabel": "Descargo de responsabilidad de rol",
+    "admin": "Administrador",
+    "adminHelperText": "Puede agregar/quitar contenido e invitar/quitar personas (excepto el propietario).",
+    "success": "Los miembros seleccionados se convirtieron en el grupo {role}.",
+    "error": "No se ha podido cambiar el rol de uno o varios miembros."
+  },
+  "notice": {
+    "label": "Alerta de formulario"
+  }
+}

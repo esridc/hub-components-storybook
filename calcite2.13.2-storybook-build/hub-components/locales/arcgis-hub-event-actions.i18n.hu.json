@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "Regisztráljon",
+    "registered": "Regisztrált",
+    "join": "Csatlakozás online",
+    "in-person": "Személyes megjelenésű",
+    "online": "Online",
+    "inPersonFull": "Személyes megjelenésű (teljes)",
+    "onlineFull": "Online (teljes)",
+    "close": "Bezárás"
+  },
+  "tooltip": {
+    "isCanceled": "Esemény törölve",
+    "eventHasEnded": "Befejeződött esemény",
+    "eventFull": "Esemény betelt",
+    "inPerson": "Regisztrált a személyes megjelenésű eseményre",
+    "online": "Regisztrált az online eseményre",
+    "unavailable": "Elérhető egy órával az esemény kezdete előtt"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "Sikeresen törölte az online eseményre való regisztrációt",
+    "onlineRegistrationConfirmed": "Sikeresen regisztrált az online eseményre",
+    "onlineRegistrationError": "Váratlan hiba történt az online eseményre való regisztráció során",
+    "onlineRegistrationCanceledError": "Váratlan hiba történt az online esemény regisztrációjának törlésekor",
+    "onlineRegistrationAtCapacity": "Ön egy betelt online eseményre próbál meg regisztrálni",
+    "inPersonRegistrationCanceled": "Sikeresen törölte a személyes megjelenésű eseményre való regisztrációt",
+    "inPersonRegistrationCanceledError": "Váratlan hiba történt a személyes megjelenésű esemény regisztrációjának törlésekor",
+    "inPersonRegistrationConfirmed": "Sikeresen regisztrált a személyes megjelenésű eseményre",
+    "inPersonRegistrationError": "Váratlan hiba történt a személyes megjelenésű eseményre való regisztráció során",
+    "inPersonRegistrationAtCapacity": "Ön egy betelt személyes megjelenésű eseményre próbál meg regisztrálni"
+  }
+}

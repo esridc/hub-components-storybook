@@ -1,0 +1,178 @@
+{
+  "projectsTitle": "Projekty",
+  "description": "Proveďte přiřazení k přispívajícím projektům, aby bylo možné sledovat průběh v rámci specifikovaného času nebo prostoru. Skupina přiřazení iniciativy spravuje potvrzená přiřazení a nevyřízené žádosti o přiřazení.",
+  "subDescription": "Projekty s potvrzenými přiřazeními se zobrazí v tomto zobrazení iniciativy.",
+  "project": "projekt",
+  "initiative": "iniciativa",
+  "helpStates": {
+    "noAccess": {
+      "heading": "Nemáte přístup",
+      "message": "Nemáte přístup k zobrazení skupiny vazeb."
+    },
+    "missingGroup": {
+      "heading": "Chybí skupina vazeb",
+      "message": {
+        "overview": "Skupina přiřazení bude kontrolovat, které projekty se propojí s iniciativou a budou jí podřízené.",
+        "members": "Členové této skupiny budou moci posílat nebo schvalovat žádosti o přiřazení."
+      },
+      "action": "Vytvořit skupinu",
+      "formLabel": "Nová skupina vazeb",
+      "description": "Vytvořit skupinu vazeb pro správu připojení"
+    },
+    "requestsWaiting": {
+      "heading": "Chybí skupina vazeb",
+      "message": {
+        "overview": "Skupina přiřazení bude kontrolovat, které projekty se propojí s iniciativou a budou jí podřízené.",
+        "members": "Členové této skupiny budou moci posílat nebo schvalovat žádosti o přiřazení.",
+        "requests": "Čekající žádosti projektů: {count}"
+      },
+      "action": "Vytvořit skupinu",
+      "formLabel": "Nová skupina vazeb",
+      "description": "Vytvořit skupinu vazeb pro správu připojení"
+    }
+  },
+  "shared": {
+    "project": "projekt",
+    "associationGroup": "skupina přiřazení",
+    "error": {
+      "title": "Něco se pokazilo",
+      "message": "Možná nemáte dostatečný přístup k odeslání nebo správě přiřazení k této položce {type}."
+    },
+    "facets": {
+      "access": {
+        "label": "Sdílení"
+      },
+      "status": {
+        "label": "Stav",
+        "notStarted": "Nezahájeno",
+        "inProgress": "Probíhá",
+        "onHold": "Pozastaveno",
+        "complete": "Dokončeno"
+      },
+      "tags": {
+        "label": "Klíčová slova"
+      }
+    },
+    "tabs": {
+      "projects": "Projekty",
+      "members": "Členové",
+      "settings": "Nastavení"
+    },
+    "disabledActionTooltip": "Spravovat přiřazení k této položce {type} mohou pouze správci skupiny."
+  },
+  "createAssociationGroup": {
+    "defaultSummary": "Spravujte položky spojené s {name} {type} pomocí skupiny vazeb."
+  },
+  "members": {
+    "facets": {
+      "role": {
+        "label": "Role",
+        "all": "Vše",
+        "manager": "Manažer",
+        "member": "Člen"
+      },
+      "dateJoined": {
+        "label": "Datum připojení"
+      }
+    },
+    "addMembers": {
+      "button": "Přidat členy",
+      "modal": {
+        "title": "Přidat členy",
+        "org": "Moje organizace",
+        "community": "Moje komunita",
+        "partner": "Moji partneři",
+        "world": "Svět"
+      },
+      "notifications": {
+        "invited": "Pozvánka odeslána. Aby se mohli uživatelé připojit, musí ji přijmout.",
+        "added": "Uživatelé byli přidáni",
+        "notInvited": "Někteří uživatelé nemají oprávnění potřebná k připojení ke skupině nebo dosáhli maximálního počtu skupin (512)."
+      }
+    },
+    "removeUsers": {
+      "button": "Odebrat",
+      "success": "Členové úspěšně odebráni z {groupName}.",
+      "error": "Jednoho nebo více uživatelů nebylo možné ze skupiny odebrat."
+    },
+    "changeRole": {
+      "button": "Změna role",
+      "member": "Člen",
+      "memberHelperText": "Může přidávat a zobrazovat obsah ve skupině.",
+      "tooltipText": "Zrušte výběr sebe a/nebo vlastníka skupiny",
+      "tooltipLabel": "Vyloučení odpovědnosti role",
+      "admin": "Manažer",
+      "adminHelperText": "Může přidávat/odebírat obsah a zvát/odebírat osoby (kromě vlastníka).",
+      "success": "Vybraní členové mají roli {role} ve skupině.",
+      "error": "U jednoho nebo více členů nebylo možné změnit roli."
+    },
+    "stats": {
+      "total": {
+        "title": "Celkem",
+        "trailingText": "Členové"
+      },
+      "new": {
+        "title": "Nový",
+        "trailingText": "Posledních 30 dní"
+      }
+    }
+  },
+  "projects": {
+    "requestAssociation": {
+      "findProjects": "Najít projekty",
+      "sendRequest": "Odeslat žádost",
+      "success": {
+        "title": "Úspěch",
+        "message": "Odeslané žádosti o přiřazení: {count}"
+      },
+      "alreadyRequesting": {
+        "title": "Zkontrolovat přiřazení",
+        "message": "Některé výběry již požádaly o přiřazení. Nově odeslané žádosti o přiřazení: {count}"
+      },
+      "catalog": {
+        "myContent": "Můj obsah",
+        "favorites": "Oblíbené",
+        "organization": "Organizace",
+        "world": "Svět (veřejné)"
+      },
+      "collection": {
+        "projects": "Projekty"
+      }
+    },
+    "acceptAssociation": {
+      "label": "Přijmout",
+      "success": {
+        "title": "Úspěch",
+        "message": "Přiřazení přijato s {requestor}"
+      }
+    },
+    "cancelRequest": {
+      "label": "Zrušit žádost",
+      "success": {
+        "title": "Úspěch",
+        "message": "Žádost o přiřazení byla zrušena"
+      }
+    },
+    "breakAssociation": {
+      "label": "Odpojit",
+      "success": {
+        "title": "Přiřazení porušeno",
+        "message": "Odpojili jsme tuto položku od jejího předchozího přiřazení. Rozhodnutí druhé strany však nemůžeme zvrátit, takže se může stále objevovat v příchozích žádostech."
+      }
+    },
+    "associationsGallery": {
+      "sources": "Stav",
+      "catalog": {
+        "associated": "Přiřazeno",
+        "requesting": "Příchozí žádosti",
+        "pending": "Odchozí žádosti"
+      },
+      "collection": {
+        "projects": "Projekty"
+      }
+    }
+  },
+  "notice": {
+    "label": "Chyba formuláře"
+  }
+}

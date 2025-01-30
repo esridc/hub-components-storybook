@@ -1,0 +1,26 @@
+{
+  "unauthenticated": {
+    "heading": "Connectez-vous.",
+    "message": "Des identifiants de connexion sont nécessaires pour accéder à ce site.",
+    "actionText": "Se connecter"
+  },
+  "not-found": {
+    "heading": "Page introuvable",
+    "message": "Cette page a peut-être été déplacée ou supprimée. Essayez de la rechercher depuis la page d’accueil",
+    "actionText": "Accéder à la page d’accueil"
+  },
+  "unsupported-device": {
+    "heading": "Taille d’écran non prise en charge",
+    "message": "Les espaces de travail ne sont pas encore disponibles sur les écrans de petite taille. Utilisez un appareil doté d’un plus grand écran.",
+    "actionText": "Retour"
+  },
+  "access-denied": {
+    "heading": "Accès refusé",
+    "message": "Vous ne disposez pas des autorisations requises pour accéder à cette ressource.",
+    "actionText": "Accéder à la page d’accueil"
+  },
+  "loading": {
+    "heading": "Chargement...",
+    "loadingLabel": "Chargement"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "settings": "Setări",
+  "formDisabledTooltip": "Nu aveți acces pentru a face schimbări la acest {type}.",
+  "delete": {
+    "project": "Ștergeți acest proiect",
+    "initiative": "Ștergeți această inițiativă",
+    "site": "Ștergeți acest site",
+    "discussion": "Ștergeți această discuție",
+    "content": "Ștergeți acest conținut",
+    "page": "Ștergeți această pagină",
+    "group": "Ștergeți acest grup",
+    "initiativeTemplate": "Ștergeți acest șablon de inițiativă",
+    "template": "Ștergeți acest șablon",
+    "survey": "Ștergeți acest chestionar",
+    "desc": {
+      "project": "Ștergerea acestui proiect nu poate fi revocată.",
+      "initiative": "Ștergerea acestei inițiative nu poate fi revocată.",
+      "site": "Ștergerea acestui site nu poate fi revocată.",
+      "discussion": "Ștergerea acestei discuții nu poate fi revocată.",
+      "content": "Ștergerea acestui conținut nu poate fi revocată.",
+      "page": "Ștergerea acestei pagini nu poate fi revocată.",
+      "group": "Ștergerea acestui grup nu poate fi revocată.",
+      "initiativeTemplate": "Ștergerea acestui șablon de inițiativă nu poate fi revocată.",
+      "template": "Ștergerea acestui șablon nu poate fi revocată.",
+      "survey": "Ștergerea acestui chestionar nu poate fi revocată."
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "project": "Ștergere proiect",
+      "initiative": "Ștergere inițiativă",
+      "site": "Ștergere site",
+      "discussion": "Ștergere discuție",
+      "content": "Ștergere conținut",
+      "page": "Ștergere pagină",
+      "group": "Ștergere grup",
+      "initiativeTemplate": "Ștergere șablon inițiativă",
+      "template": "Ștergere șablon",
+      "survey": "Ștergere chestionar"
+    },
+    "content": "Sigur doriți să ștergeți:",
+    "delete": "Ștergere",
+    "cancel": "Anulare"
+  },
+  "sidePanel": {
+    "content": {
+      "extractNotice": {
+        "title": "Capacitatea de „extragere” modifică setările serviciului.",
+        "message": "Alte elemente care se referă la serviciu vor fi influențate. Pentru mai multe detalii, consultați <docLink>Exportarea datelor din Straturile tematice ale obiectelor spațiale găzduite</docLink>"
+      }
+    }
+  }
+}

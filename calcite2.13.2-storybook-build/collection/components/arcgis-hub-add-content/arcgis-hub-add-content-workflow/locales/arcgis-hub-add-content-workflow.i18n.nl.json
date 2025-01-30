@@ -1,0 +1,110 @@
+{
+  "controls": {
+    "addContent": "Content toevoegen",
+    "back": "Terug",
+    "cancel": "Annuleren",
+    "close": "Gereed",
+    "create": "Maken en aan groep toevoegen",
+    "next": "Volgende"
+  },
+  "createHelpState": {
+    "discussion": {
+      "heading": "Discussie",
+      "message": "Maak een nieuw discussiebord door een titel in te voeren die het onderwerp aangeeft."
+    },
+    "event": {
+      "heading": "Evenement",
+      "message": "Handel als gastheer/gastvrouw voor een georganiseerde activiteit, in persoon of virtueel."
+    },
+    "group": {
+      "heading": "Groep",
+      "message": "Maak een groep voor samenwerking aan gefocuste content."
+    },
+    "initiative": {
+      "heading": "Initiatief",
+      "message": "Initiatieven dragen zorg voor het organiseren en samenvatten van voortgang bij het bereiken van een doel."
+    },
+    "page": {
+      "heading": "Pagina",
+      "message": "Een pagina is een plaats voor het delen van informatie en het aanspreken van uw publiek."
+    },
+    "project": {
+      "heading": "Project",
+      "message": "Accentueer werk dat duidelijke doelstellingen en tijdschema's heeft."
+    },
+    "site": {
+      "heading": "Site",
+      "message": "Maak een website voor het organiseren en delen van informatie."
+    }
+  },
+  "selection": {
+    "unlimited": "Geselecteerd: {count}",
+    "limited": "Geselecteerd: {count} / {limit}"
+  },
+  "steps": {
+    "createContent": "Basisinformatie toevoegen",
+    "selectContent": "Content selecteren",
+    "selectGroups": "Groep selecteren",
+    "confirmation": "Bevestiging",
+    "notImplemented": "Niet geïmplementeerd"
+  },
+  "working": {
+    "heading": "Bezig met toevoegen van geselecteerde content",
+    "loadingLabel": "Bezig met toevoegen content."
+  },
+  "failure": {
+    "heading": "Content is niet toegevoegd",
+    "message": "Er is iets fout gegaan bij het toevoegen van de geselecteerde content, probeer het opnieuw.",
+    "action": "Opnieuw proberen"
+  },
+  "notImplemented": {
+    "heading": "Deze workflow is nog niet geïmplementeerd."
+  },
+  "contentGallery": {
+    "facets": {
+      "access": {
+        "label": "Van"
+      },
+      "type": {
+        "label": "Types"
+      },
+      "tags": {
+        "label": "Tags"
+      },
+      "categories": {
+        "label": "Categorieën"
+      },
+      "modified": {
+        "label": "Gewijzigd"
+      }
+    }
+  },
+  "groupsGallery": {
+    "facets": {
+      "access": {
+        "label": "Zichtbaar voor",
+        "options": {
+          "org": "Organisatie",
+          "public": "Iedereen (openbaar)",
+          "private": "Mijzelf"
+        }
+      },
+      "from": {
+        "label": "Van",
+        "options": {
+          "myCommunity": "Mijn Community",
+          "myGroups": "Mijn groepen",
+          "myOrganization": "Mijn organisatie",
+          "world": "Wereld"
+        }
+      },
+      "type": {
+        "label": "Types",
+        "options": {
+          "sharedUpdate": "Gedeelde update",
+          "opendata": "Open data"
+        }
+      }
+    }
+  }
+}

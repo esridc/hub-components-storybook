@@ -1,0 +1,46 @@
+{
+  "heading": "معلومات الصفحة",
+  "form": {
+    "title": {
+      "label": "اسم الصفحة",
+      "requiredError": "يتطلب وجود الاسم",
+      "entityTitleValidatorError": "لا يمكن أن يتضمن اسم الصفحة رموزًا تعبيرية أو أحرف < أو > أو ="
+    },
+    "slug": {
+      "label": "حقل Slug",
+      "helperText": "حقل Slug هو الإصدار الصالح لعنوان URL من اسم الصفحة. يتم إنشاؤه تلقائيًا بناءً على اسم الصفحة، ولكن يمكنك تخصيصه.",
+      "patternError": "خطأ: يجب أن يتكون Slug من أحرف أبجدية رقمية صغيرة مفصولة بواصلات.",
+      "isUniqueError": "حقل Slug هذا قيد الاستخدام بالفعل. الرجاء اختيار حقل آخر.",
+      "requiredError": "الـ Slug مطلوب"
+    }
+  },
+  "controls": {
+    "back": "السابق",
+    "cancel": "إلغاء الأمر",
+    "close": "تم",
+    "migrate": "ترحيل الصفحة",
+    "next": "التالي"
+  },
+  "selection": {
+    "unlimited": "تم تحديد {count}",
+    "limited": "تم تحديد {count} / {limit}"
+  },
+  "steps": {
+    "specifyInfo": "إضافة المعلومات الأساسية",
+    "selectGroups": "تحديد مجموعة",
+    "confirmation": "تأكيد"
+  },
+  "working": {
+    "heading": "صفحة الترحيل.",
+    "loadingLabel": "صفحة الترحيل"
+  },
+  "success": {
+    "heading": "تم ترحيل الصفحة",
+    "message": "لقد تم ترحيل الصفحة بنجاح."
+  },
+  "failure": {
+    "heading": "لم يتم ترحيل الصفحة",
+    "message": "حدث خطأ أثناء ترحيل الصفحة، يرجى المحاولة مرة أخرى.",
+    "action": "إعادة المحاولة"
+  }
+}

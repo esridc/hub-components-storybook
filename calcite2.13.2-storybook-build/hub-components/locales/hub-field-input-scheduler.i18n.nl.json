@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "Geautomatiseerd door Hub",
+      "actionText": "Info optie Automatisch"
+    },
+    "daily": {
+      "defaultLabel": "Dagelijks",
+      "defaultExpandedHelperText": "Elke dag op de geselecteerde tijd in de geselecteerde tijdzone.",
+      "actionText": "Info optie Dagelijks"
+    },
+    "weekly": {
+      "defaultLabel": "Wekelijks",
+      "defaultExpandedHelperText": "Elke week op de volgende dag en tijd in de geselecteerde tijdzone.",
+      "actionText": "Info optie Wekelijks"
+    },
+    "monthly": {
+      "defaultLabel": "Maandelijks",
+      "defaultExpandedHelperText": "Elke maand op de volgende dag en tijd in de geselecteerde tijdzone",
+      "actionText": "Info optie Maandelijks"
+    },
+    "yearly": {
+      "defaultLabel": "Jaarlijks",
+      "defaultExpandedHelperText": "Elk jaar in de volgende maand en op de volgende dag en tijd in de geselecteerde tijdzone.",
+      "actionText": "Info optie Jaarlijks"
+    },
+    "manual": {
+      "defaultLabel": "Handmatig",
+      "defaultExpandedHelperText": "Gebruik deze optie als u de zoekindex en de in de cache opgeslagen downloadbestanden voor dit item handmatig wilt bijwerken.",
+      "actionText": "Info optie Handmatig"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "Tijd van de dag",
+      "inputMessage": "Tijd wordt afgerond naar het dichtstbijzijnde uur.",
+      "error": "Selecteer een tijdstip (uur)."
+    },
+    "day": {
+      "helperText": "Dag van de week",
+      "daysOfTheWeek": {
+        "sunday": "Zondag",
+        "monday": "Maandag",
+        "tuesday": "Dinsdag",
+        "wednesday": "Woensdag",
+        "thursday": "Donderdag",
+        "friday": "Vrijdag",
+        "saturday": "Zaterdag"
+      },
+      "selectLabel": "Kiezer dag van de week",
+      "error": "Selecteer een dag van de week."
+    },
+    "date": {
+      "helperText": "Dag van de maand",
+      "inputNumberPlaceholder": "Selecteer een dag van de maand",
+      "inputMessage": "Voer een waarde tussen 1 en 28 in voor dag van de maand.",
+      "error": "Dag van de maand moet tussen 1 en 28 liggen."
+    },
+    "month": {
+      "helperText": "Maand van het jaar",
+      "selectLabel": "Kiezer maand van het jaar",
+      "monthsOfTheYear": {
+        "january": "Januari",
+        "february": "Februari",
+        "march": "Maart",
+        "april": "April",
+        "may": "Mei",
+        "june": "Juni",
+        "july": "Juli",
+        "august": "Augustus",
+        "september": "September",
+        "october": "Oktober",
+        "november": "November",
+        "december": "December"
+      },
+      "error": "Selecteer een maand."
+    },
+    "timezone": {
+      "helperText": "Tijdzone",
+      "error": "Selecteer een tijdzone."
+    }
+  },
+  "fieldHeader": "Frequentie"
+}

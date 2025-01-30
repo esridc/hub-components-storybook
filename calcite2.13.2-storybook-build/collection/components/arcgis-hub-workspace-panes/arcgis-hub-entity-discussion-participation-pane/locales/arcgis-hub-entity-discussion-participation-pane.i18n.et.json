@@ -1,0 +1,82 @@
+{
+  "title": "Osalemine",
+  "subtitle": "Määrake arutelutahvli nähtavus (kes võib seda vaadata), kerige alla, et määrata, kes võib tahvli teavet muuta, ja seejärel määrake kanalite abil osalemine ja modereerimine.",
+  "channelTitle": "Osalemiskanal on seadistatud",
+  "channelDescription": "See kanal kontrollib, kes saab lisada, vaadata ja modereerida postitusi sellel arutelutahvlil.",
+  "addChannelsTitle": "Kanali seadistamine",
+  "addChannelsDescription": "Kanalid kontrollivad, kes saavad tahvlile postitusi lisada. Need võivad olla avatud gruppidele, organisatsioonile või üldsusele ning neid saab rakendada paljude arutelude puhul. Kanalid kontrollivad ka seda, kes saab modereerida. Määrake blokeeritud sõnad kanalis automaatse modereerimise jaoks.",
+  "privateChannelTitle": "Privaatkanal on seatud",
+  "privateChannelDescription": "Te ei saa näha sellele arutelufoorumile määratud privaatset kanalit. Saate kanali eemaldada ja valida olemasoleva kanali või luua uue kanali.",
+  "removeChannelConfirmationMessage": "Arutelufoorum ei näita enam postitusi. Saate lisada kanali, kui see kanal on eemaldatud.",
+  "headingChannelEdit": "Olete muutmas kanalit",
+  "headingChannelView": "Olete vaatamas kanalit",
+  "headingChannelCreate": "Olete loomas kanalit",
+  "buttons": {
+    "browse": "Sirvi kanaleid",
+    "new": "Uus kanal",
+    "removeChannel": "Eemalda kanal",
+    "cancel": "Loobu"
+  },
+  "alerts": {
+    "label": "Vormi hoiatus",
+    "set": {
+      "title": "Õnnestus. Kanal on seatud."
+    },
+    "removed": {
+      "title": "Kanal on eemaldatud",
+      "message": "Osalemiseks valige või looge kanal."
+    },
+    "error": {
+      "title": "Nurjus. Kanalit ei seatud."
+    }
+  },
+  "galleryPickerTitle": "Vali kanal",
+  "channelsLabel": "Kanalid",
+  "accessLabel": "Juurdepääs",
+  "optionPublicLabel": "Avalik",
+  "optionOrganizationLabel": "Organisatsioon",
+  "optionPrivateLabel": "Privaatne",
+  "viewChannel": "Kuva kanal",
+  "editChannel": "Muuda kanalit",
+  "save": "Salvesta",
+  "removeChannel": "Eemalda kanal",
+  "groupPicker": {
+    "facet": {
+      "label": "Asukohast",
+      "myGroups": "Minu grupid",
+      "myOrganization": "Minu organisatsioon",
+      "myCommunity": "Minu kogukond"
+    }
+  },
+  "editGroupButtonText": "Lisa muutmisgrupid",
+  "viewGroupButtonText": "Lisa vaatamisgrupid",
+  "viewGroups": {
+    "header": "Kes tohivad vaadata?",
+    "description": "Isikud, kes saavad tahvlit vaadata (kuid mitte sinna postitada); postitamine on määratud allpool olevate kanalite kaupa."
+  },
+  "editGroups": {
+    "header": "Kes tohivad muuta?",
+    "description": "Grupi liikmed saavad tahvli teavet töökeskkonnas muuta."
+  },
+  "aboutChannelsNotice": {
+    "title": "Tutvustame kanaleid",
+    "message": "Kanalid ei ole grupid, kuid võivad neid sisaldada. Nad määravad, kes tohib postitada ja modereerida.",
+    "action": "Lisateave kanalite kohta"
+  },
+  "nonPrivateChannelNotice": {
+    "title": "Kanalit ei saa muuta",
+    "message": "Seda tohivad muuta vaid selle kanali moderaatorid. Vajaduse korral pöörduge kanali omaniku või organisatsiooni administraatori poole. Samuti saate selle kanali eemaldada, lisada olemasoleva kanali (mille moderaatoriks olete) või luua uue kanali."
+  },
+  "privateChannelNotice": {
+    "title": "Kanalit ei saa muuta",
+    "message": "Seda tohivad muuta vaid selle kanali moderaatorid. Vajaduse korral pöörduge lisamiseks kanali omaniku poole. Samuti saate selle kanali eemaldada, lisada olemasoleva kanali (mille moderaatoriks olete) või luua uue kanali."
+  },
+  "participate": {
+    "header": "Kes saab osaleda ja kes tohib modereerida?"
+  },
+  "org": "Organisatsioon",
+  "private": "Privaatne",
+  "public": "Avalik",
+  "unnamed": "Nimetu kanal",
+  "groupNotFound": "Gruppi ei leitud"
+}

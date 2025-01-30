@@ -1,0 +1,29 @@
+{
+  "additionalInfo": {
+    "label": "Izvēles attēlojuma iestatījumi",
+    "helperText": "Pievienojiet savu konfidencialitātes aprakstu un politikas informāciju."
+  },
+  "allowPrivacyConfig": {
+    "label": "Parādīt paziņojumu par konfidencialitāti"
+  },
+  "blocking": {
+    "label": "Paziņojuma veids",
+    "optional": {
+      "label": "Piekrišana nav obligāta",
+      "description": "Skatītājs var izmantot vietni, neatzīmējot piekrišanu konfidencialitātei; izsekošana tiek sākta nekavējoties, līdz skatītājs to noraida."
+    },
+    "required": {
+      "label": "Pieprasīt piekrišanu",
+      "description": "Lai izmantotu vietni, skatītājam ir jāakceptē vai jānoraida izsekošana; izsekošana netiek sākta, ja vien to nav akceptējis skatītājs."
+    }
+  },
+  "consentText": {
+    "label": "Konfidencialitātes apraksts",
+    "helperText": "Tiek rādīts vietnes skatītājam paziņojumā par konfidencialitāti."
+  },
+  "policyURL": {
+    "label": "Politikas saite",
+    "helperText": "Paziņojumā par konfidencialitāti tiek parādīta kā saite \"Vairāk informācijas\".",
+    "error": "Lai attēlotu, jābūt derīgam vietrādim URL."
+  }
+}

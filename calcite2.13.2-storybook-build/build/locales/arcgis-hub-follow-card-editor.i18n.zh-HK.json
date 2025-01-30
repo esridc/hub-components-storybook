@@ -1,0 +1,41 @@
+{
+  "notice": {
+    "outdatedItem": {
+      "title": "取代您的倡議",
+      "message": "此卡參考過時的項目。 選擇另一個項目供使用者關注。"
+    },
+    "missingFollowersGroup": {
+      "title": "遺失追隨者群組",
+      "message": "此項目缺少追隨者群組。 請選擇其他項目。"
+    },
+    "noGroupAccess": {
+      "title": "注意",
+      "message": "您沒有追隨者群組的存取權。"
+    }
+  },
+  "selectContent": {
+    "title": "要追隨的內容",
+    "facets": {
+      "sharing": "正在分享",
+      "catalog": {
+        "myContent": "我的內容",
+        "organization": "我的組織"
+      }
+    }
+  },
+  "callToAction": {
+    "title": "號召性用語",
+    "helperText": "號召性用語出現在關注按鈕上方。",
+    "alignment": "對齊"
+  },
+  "followButton": {
+    "title": "關注按鈕",
+    "helperText": "此按鈕將允許成員關注或取消關注您的內容。 可以為兩種按鈕狀態設定文字。",
+    "buttonText": "選擇參加按鈕文字",
+    "unfollowButtonText": "選擇退出按鈕文字",
+    "alignment": "對齊",
+    "buttonStyle": "按鈕樣式",
+    "solid": "單色背景",
+    "outline": "清單"
+  }
+}

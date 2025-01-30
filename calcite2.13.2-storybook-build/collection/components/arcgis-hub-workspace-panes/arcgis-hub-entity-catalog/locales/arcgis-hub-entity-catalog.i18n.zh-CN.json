@@ -1,0 +1,65 @@
+{
+  "catalog": "目录",
+  "catalog-content": "内容",
+  "catalog-events": "活动",
+  "shared": {
+    "publish": {
+      "label": "保存",
+      "success": {
+        "title": "已成功将目录编辑内容发布到实时视图"
+      },
+      "error": {
+        "title": "保存编辑内容时出错"
+      }
+    }
+  },
+  "emptyState": {
+    "message": "未定义目录",
+    "action": "构建目录"
+  },
+  "actionBar": {
+    "details": "目录配置",
+    "appearance": "目录外观",
+    "tooltip": {
+      "appearanceDisabled": "目前未配置任何目录。 请配置目录以调整外观设置。",
+      "configuration": "配置",
+      "appearance": "外观"
+    }
+  },
+  "detailsPanel": {
+    "heading": "目录配置",
+    "close": "关闭目录配置",
+    "catalogBuilder": {
+      "helperText": "借助目录，访客可以搜索并查看内容。 显示的结果将基于查询配置。"
+    },
+    "querySizeNotice": {
+      "warning": {
+        "title": "接近目录限制",
+        "catalogSourceMessage": {
+          "item": "您的项目源配置接近大小限制。",
+          "event": "您的活动源配置接近大小限制。"
+        },
+        "collectionSourceMessage": {
+          "item": "您的项目源和“{collectionName}”集合配置的组合接近大小限制。",
+          "event": "您的活动源和“{collectionName}”集合配置的组合接近大小限制。"
+        }
+      },
+      "danger": {
+        "title": "超出目录限制",
+        "catalogSourceMessage": {
+          "item": "您的项目源配置已超出大小限制。 请减小要发布的项目源中的过滤器和/或过滤器选项的数量。",
+          "event": "您的活动源配置已超出大小限制。 请减小要发布的活动源中的过滤器和/或过滤器选项的数量。"
+        },
+        "collectionSourceMessage": {
+          "item": "您的项目源和“{collectionName}”集合配置的组合已超出大小限制。 请减小要发布的项目源和/或“{collectionName}”集合中的过滤器和/或过滤器选项的数量。",
+          "event": "您的活动源和“{collectionName}”集合配置的组合已超出大小限制。 请减小要发布的活动源和/或“{collectionName}”集合中的过滤器和/或过滤器选项的数量。"
+        }
+      }
+    }
+  },
+  "appearancePanel": {
+    "heading": "目录外观",
+    "close": "关闭目录外观",
+    "description": "借助目录，访客可以搜索并查看内容。 可以在此处更新默认目录的外观以及要显示的过滤器。"
+  }
+}

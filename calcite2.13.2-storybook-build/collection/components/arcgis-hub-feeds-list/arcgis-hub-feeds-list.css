@@ -1,0 +1,19 @@
+:host {
+  display: block;
+}
+.list-description {
+  margin-bottom: 1.5rem;
+}
+
+.feed-container {
+  margin-bottom: 0.75rem;
+  display: grid;
+  align-items: flex-end;
+  grid-template-columns: 1fr min-content;
+}
+
+.feed-container calcite-button {
+  margin-left: 0.75rem;
+  margin-bottom: 0.75rem;
+  height: 2rem;
+}

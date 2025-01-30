@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-entity-settings</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet" href="../calcite-web.min.css">
+</head>
+
+<body>
+  <harness-header page-title="arcgis-hub-enity-settings"></harness-header>
+  <div class="grid-container padding-leader-4">
+    <!-- docs about grid container: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+
+    <div class="column-24">
+      <h3>Unprotected Project, as Owner</h3>
+      <arcgis-hub-entity-settings id="proj-o">
+      </arcgis-hub-entity-settings>
+      <h3>Unprotected Project, as Owner, with Recycle</h3>
+      <arcgis-hub-entity-settings id="proj-o-r">
+      </arcgis-hub-entity-settings>
+      <h3>Protected Group, as Owner</h3>
+      <arcgis-hub-entity-settings id="p-group-o">
+      </arcgis-hub-entity-settings>
+      <h3>Unprotected Group, as Owner</h3>
+       <arcgis-hub-entity-settings id="group-o">
+      </arcgis-hub-entity-settings>
+      <h3>Project: Access Denied</h3>
+      <arcgis-hub-entity-settings id="proj-ad">
+      </arcgis-hub-entity-settings>
+      <h3>Group: Access Denied</h3>
+      <arcgis-hub-entity-settings id="group-ad">
+      </arcgis-hub-entity-settings>
+    </div>
+  </div>
+
+  <script>
+
+    const config = [
+      {
+        control: "proj-o",
+        entity: {
+          type: "Hub Project",
+          protected: false,
+          id: "fake-id-success",
+          canDelete: true,
+          canEdit: true,
+        }
+      },
+      {
+        control: "proj-o-r",
+        entity: {
+          type: "Hub Project",
+          protected: false,
+          id: "fake-id-success",
+          canDelete: true,
+          canEdit: true,
+          canRecycle: true
+        }
+      },
+       {
+        control: "p-group-o",
+        entity: {
+          type: "Group",
+          protected: true,
+          id: "fake-id-success",
+          canDelete: true,
+          canEdit: true,
+        }
+      },
+      {
+        control: "group-o",
+        entity: {
+          type: "Group",
+          protected: false,
+          id: "fake-id-success",
+          canDelete: true,
+          canEdit: true,
+        }
+      },
+      {
+        control: "group-ad",
+        entity: {
+          type: "Group",
+          protected: false,
+          id: "fake-id-success",
+          canDelete: false,
+          canEdit: false,
+        }
+      },
+      {
+        control: "proj-ad",
+        entity: {
+          type: "Hub Project",
+          protected: false,
+          id: "fake-id-success",
+          canDelete: false,
+          canEdit: false,
+        }
+      },
+    ];
+
+
+    config.forEach((c) => {
+      const control = document.querySelector(`#${c.control}`);
+      if (control) {
+        control.entity = c.entity;
+      }
+    });
+    // set a property on the element
+    function setProp(key, value) {
+      const el = document.querySelector("arcgis-hub-entity-settings-harness");
+      el[key] = value;
+    }
+  </script>
+</body>
+
+</html>

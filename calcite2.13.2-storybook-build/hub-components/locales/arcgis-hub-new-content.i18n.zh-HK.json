@@ -1,0 +1,57 @@
+{
+  "new": "新建",
+  "project": {
+    "label": "專案",
+    "description": "突出具有明確目標和時間表的工作",
+    "createLabel": "建立專案",
+    "newLabel": "新建專案"
+  },
+  "initiative": {
+    "label": "倡議",
+    "description": "倡議可組織並摘要實現目標的進展",
+    "createLabel": "建立倡議",
+    "newLabel": "新建倡議"
+  },
+  "discussion": {
+    "label": "討論板",
+    "description": "藉由輸入指示主題的標題來建立新的討論板。",
+    "createLabel": "建立討論板",
+    "newLabel": "新建討論板"
+  },
+  "site": {
+    "label": "網站",
+    "description": "建立網頁以組織和分享資訊",
+    "createLabel": "建立網站",
+    "newLabel": "新建網站"
+  },
+  "event": {
+    "label": "事件",
+    "description": "親自或以虛擬方式舉辦有組織的活動",
+    "createLabel": "建立事件",
+    "newLabel": "新建事件"
+  },
+  "content": {
+    "label": "內容",
+    "description": "將資料、文件、圖像和外部連結新增到您的網站",
+    "createLabel": "建立內容",
+    "newLabel": "新增內容"
+  },
+  "feedback": {
+    "label": "回饋意見",
+    "description": "使用問卷和民意調查等工具收集重點資訊",
+    "createLabel": "建立回饋意見",
+    "newLabel": "新建回饋意見"
+  },
+  "app": {
+    "label": "應用程式",
+    "description": "建立體驗、講故事或視覺化您的資料",
+    "createLabel": "建立應用程式",
+    "newLabel": "新增應用程式"
+  },
+  "group": {
+    "label": "群組",
+    "description": "建立一個群組來協同處理重點內容",
+    "createLabel": "建立群組",
+    "newLabel": "新建群組"
+  }
+}

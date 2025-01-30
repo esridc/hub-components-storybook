@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "No results found."
+    },
+    "error": {
+      "message": "We are sorry but search ran into an error."
+    }
+  },
+  "type": "Type",
+  "tags": "Tags",
+  "owner": "Owner",
+  "dateCreated": "Created",
+  "dateUpdated": "Modified",
+  "categories": "Categories",
+  "dateAndTime": "Date & time",
+  "allDay": "{date} (all day)",
+  "allDayRange": "{from} - {to} (all day)",
+  "location": "Location",
+  "attendanceType": "Attendance type",
+  "inPerson": "In-person",
+  "online": "Online",
+  "hybrid": "Hybrid"
+}

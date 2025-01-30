@@ -1,0 +1,54 @@
+{
+  "existing": {
+    "successHeading": "已成功添加内容。",
+    "failureHeading": "无法将内容添加到所选群组。",
+    "successfulAccordionHeading": "内容已添加到所选群组。",
+    "unsuccessfulAccordionHeading": "内容未添加到所选群组。"
+  },
+  "create": {
+    "event": {
+      "successWithoutGroupHeading": "已成功创建活动。",
+      "successWithGroupHeading": "已成功创建活动并将其添加至 {group}。",
+      "successMessage": "您现在可以查看活动、对其进行管理以编辑信息，或者单击“完成”以返回视图。",
+      "failureHeading": "无法将活动添加至所选群组。"
+    },
+    "discussion": {
+      "successWithoutGroupHeading": "已成功创建讨论板。",
+      "successWithGroupHeading": "已成功创建讨论板并将其添加至 {group}。",
+      "successMessage": "您现在可以查看讨论板、对其进行管理以编辑信息，或者单击“完成”以返回视图。",
+      "failureHeading": "无法将讨论板添加至所选群组。"
+    },
+    "group": {
+      "successWithoutGroupHeading": "已成功创建群组。",
+      "successMessage": "您现在可以查看群组、对其进行管理以编辑信息，或者单击“完成”以返回视图。",
+      "failureHeading": "无法创建群组。"
+    },
+    "initiative": {
+      "successWithoutGroupHeading": "已成功创建倡议。",
+      "successWithGroupHeading": "已成功创建倡议并将其添加至 {group}。",
+      "successMessage": "您现在可以查看倡议、对其进行管理以编辑信息，或者单击“完成”以返回视图。",
+      "failureHeading": "无法将倡议添加至所选群组。"
+    },
+    "page": {
+      "successWithoutGroupHeading": "已成功创建页面。",
+      "successWithGroupHeading": "已成功创建页面并将其添加至 {group}。",
+      "successMessage": "您现在可以查看页面、对其进行管理以编辑信息，或者单击“完成”以返回视图。",
+      "failureHeading": "无法将页面添加至所选群组。"
+    },
+    "project": {
+      "successWithoutGroupHeading": "已成功创建工程。",
+      "successWithGroupHeading": "已成功创建工程并将其添加至 {group}。",
+      "successMessage": "您现在可以查看工程、对其进行管理以编辑信息，或者单击“完成”以返回视图。",
+      "failureHeading": "无法将工程添加到所选群组。"
+    },
+    "site": {
+      "successWithoutGroupHeading": "已成功创建站点。",
+      "successWithGroupHeading": "已成功创建站点并将其添加至 {group}。",
+      "successMessage": "您现在可以查看站点、对其进行管理以编辑信息，或者单击“完成”以返回视图。",
+      "failureHeading": "无法将站点添加至所选群组。"
+    }
+  },
+  "editLayout": "编辑布局",
+  "manageEntity": "管理",
+  "viewEntity": "查看"
+}

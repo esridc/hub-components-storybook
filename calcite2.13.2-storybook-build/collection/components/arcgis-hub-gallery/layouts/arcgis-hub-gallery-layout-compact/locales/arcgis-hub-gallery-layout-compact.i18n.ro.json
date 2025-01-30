@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Nu a fost găsit niciun rezultat."
+    },
+    "error": {
+      "message": "Ne pare rău, dar am întâmpinat o eroare."
+    }
+  },
+  "type": "Tip",
+  "tags": "Etichete",
+  "owner": "Proprietar",
+  "dateCreated": "Creat",
+  "dateUpdated": "Modificat",
+  "categories": "Categorii",
+  "dateAndTime": "Data și ora",
+  "allDay": "{date} (toată ziua)",
+  "allDayRange": "{from} - {to} (toată ziua)",
+  "location": "Locație",
+  "attendanceType": "Tip de participare",
+  "inPerson": "În persoană",
+  "online": "Online",
+  "hybrid": "Hibrid"
+}

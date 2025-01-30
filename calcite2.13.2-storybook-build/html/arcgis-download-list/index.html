@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-download-list</title>
+
+  <!-- link to calcite components CSS  -->
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+
+  <!-- NOTE: calcite web CSS is only used for grid layout of this page -->
+  <!-- see: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+  <link rel="stylesheet" href="../calcite-web.min.css" />
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+    .content-placeholder {
+      margin-top: .5rem;
+      display: grid;
+      height: 300px;
+      background-color:grey;
+      color: white;
+      align-items: center;
+      justify-items: center;
+    }
+  </style>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+
+  <!-- load calcite components -->
+  <script type="module" src="../../calcite/calcite.esm.js"></script>
+
+  <!-- load hub components -->
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+</head>
+
+<body>
+  <harness-header page-title=arcgis-download-list></harness-header>
+  <div class="grid-container padding-leader-4">
+    <!-- docs about grid container: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+    <calcite-notice open kind="danger" scale="l" width="half" icon>
+      <div slot="title">DEPRECATED</div>
+      <div slot="message">Use "arcgis-hub-download-list" instead. This component will be removed once the new component is fully tested and ready for production.</div>
+    </calcite-notice>
+    <div style="width:30%;">
+      <arcgis-download-list
+        id="arcgis-download-list-harness"
+        server="https://services2.arcgis.com/zNjnZafDYCAJAbN0/arcgis/rest/services/Street_ROW_Trees/FeatureServer"
+        layers="0"
+      />
+    </div>
+  </div>
+
+  <script>
+    // set a property on the element
+    function setProp(key, value) {
+      const el = document.querySelector("#arcgis-download-list-harness");
+      el[key] = value;
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+{
+  "all": "Kõik",
+  "source": "Allikas",
+  "targetEntity": {
+    "item": "Sisuüksused",
+    "group": "Grupid",
+    "user": "Kasutajad",
+    "portalUser": "Portaali kasutajad",
+    "communityUser": "Kogukonna kasutajad",
+    "groupMember": "Grupi liikmed",
+    "event": "Sündmused",
+    "channel": "Kanalid",
+    "discussionPost": "Postitused",
+    "eventAttendee": "Sündmusele registreerujad"
+  }
+}

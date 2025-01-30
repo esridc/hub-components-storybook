@@ -1,0 +1,18 @@
+{
+  "about": "Tentang",
+  "metrics": "Metrik",
+  "featuredContent": "Konten unggulan",
+  "details": "Detail",
+  "exploreMetrics": "Jelajahi metrik",
+  "status": {
+    "label": {
+      "default": "Status",
+      "project": "Status proyek",
+      "initiative": "Status inisiatif"
+    },
+    "notStarted": "Belum dimulai",
+    "inProgress": "Dalam proses",
+    "onHold": "Ditahan",
+    "complete": "Selesai"
+  }
+}

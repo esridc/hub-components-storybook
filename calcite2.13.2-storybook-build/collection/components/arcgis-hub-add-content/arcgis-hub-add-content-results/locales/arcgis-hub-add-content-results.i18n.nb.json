@@ -1,0 +1,54 @@
+{
+  "existing": {
+    "successHeading": "Innholdet ble lagt til.",
+    "failureHeading": "Kan ikke legge til innhold i den valgte gruppen.",
+    "successfulAccordionHeading": "Innholdet ble lagt til den valgte gruppen.",
+    "unsuccessfulAccordionHeading": "Innholdet ble ikke lagt til i den valgte gruppen."
+  },
+  "create": {
+    "event": {
+      "successWithoutGroupHeading": "Arrangementet ble opprettet.",
+      "successWithGroupHeading": "Arrangementet ble opprettet og lagt til i {group}.",
+      "successMessage": "Du kan nå vise arrangementet, administrere det for å redigere informasjon eller klikke på \"ferdig\" for å gå tilbake til visningen.",
+      "failureHeading": "Kan ikke legge til arrangementet i den valgte gruppen."
+    },
+    "discussion": {
+      "successWithoutGroupHeading": "Diskusjonstavlen ble opprettet.",
+      "successWithGroupHeading": "Diskusjonstavlen ble opprettet og lagt til i {group}.",
+      "successMessage": "Du kan nå vise diskusjonstavlen, administrere den for å redigere informasjon eller klikke på \"ferdig\" for å gå tilbake til visningen.",
+      "failureHeading": "Kan ikke legge til diskusjonstavlen i den valgte gruppen."
+    },
+    "group": {
+      "successWithoutGroupHeading": "Gruppen ble opprettet.",
+      "successMessage": "Du kan nå vise gruppen, administrere den for å redigere informasjon eller klikke på \"ferdig\" for å gå tilbake til visningen.",
+      "failureHeading": "Kan ikke opprette gruppen."
+    },
+    "initiative": {
+      "successWithoutGroupHeading": "Initiativet ble opprettet.",
+      "successWithGroupHeading": "Initiativet ble opprettet og lagt til i {group}.",
+      "successMessage": "Du kan nå vise initiativet, administrere det for å redigere informasjon eller klikke på \"ferdig\" for å gå tilbake til visningen.",
+      "failureHeading": "Kan ikke legge til initiativet i den valgte gruppen."
+    },
+    "page": {
+      "successWithoutGroupHeading": "Siden ble opprettet.",
+      "successWithGroupHeading": "Siden ble opprettet og lagt til i {group}.",
+      "successMessage": "Du kan nå vise siden, administrere den for å redigere informasjon eller klikke på \"ferdig\" for å gå tilbake til visningen.",
+      "failureHeading": "Kan ikke legge til siden i den valgte gruppen."
+    },
+    "project": {
+      "successWithoutGroupHeading": "Prosjektet ble opprettet.",
+      "successWithGroupHeading": "Prosjektet ble opprettet og lagt til i {group}.",
+      "successMessage": "Du kan nå vise prosjektet, administrere det for å redigere informasjon eller klikke på \"ferdig\" for å gå tilbake til visningen.",
+      "failureHeading": "Kan ikke legge til prosjektet i den valgte gruppen."
+    },
+    "site": {
+      "successWithoutGroupHeading": "Nettstedet ble opprettet.",
+      "successWithGroupHeading": "Nettstedet ble opprettet og lagt til i {group}.",
+      "successMessage": "Du kan nå vise nettstedet, administrere det for å redigere informasjon eller klikke på \"ferdig\" for å gå tilbake til visningen.",
+      "failureHeading": "Kan ikke legge til nettstedet i den valgte gruppen."
+    }
+  },
+  "editLayout": "Rediger layout",
+  "manageEntity": "Administrer",
+  "viewEntity": "Vis"
+}

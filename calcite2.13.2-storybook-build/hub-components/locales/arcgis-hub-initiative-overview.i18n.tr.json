@@ -1,0 +1,23 @@
+{
+  "overview": "Genel Bakış",
+  "telemetry": {
+    "pageViews": "Sayfa görüntüleme sayısı",
+    "last30days": "Son 30 gün",
+    "lastUpdated": "Son güncelleme {hoursElapsed} saat önce",
+    "checkTomorrow": "Yarın tekrar kontrol edin"
+  },
+  "learnAbout": "Hub inisiyatifleri hakkında daha fazla bilgi edinin",
+  "feedbackNotice": {
+    "message": "Hub inisiyatifleri hakkında ne düşünüyorsunuz? Nasıl kullanmayı düşündüğünüzü öğrenmek isteriz.",
+    "link": "Geri bildirim gönder"
+  },
+  "status": {
+    "notStarted": "Başlatılmadı",
+    "inProgress": "Devam ediyor",
+    "onHold": "Beklemede",
+    "complete": "Tamamlandı"
+  },
+  "editDetails": "Ayrıntıları düzenle",
+  "noPurposeSet": "Amaç belirlenmedi",
+  "noLocationSet": "Konum ayarlanmadı"
+}

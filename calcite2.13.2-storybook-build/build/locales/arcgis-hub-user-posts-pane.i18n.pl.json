@@ -1,0 +1,43 @@
+{
+  "header": "Dyskusje",
+  "myContent": "Moje wydarzenia",
+  "editableContent": "Edytowalne zasoby",
+  "addContentButtonText": "Utwórz wydarzenie",
+  "type": "Typ",
+  "sharedUpdate": "Grupa udostępnionych aktualizacji",
+  "viewOnly": "Grupa tylko wyświetlania",
+  "owner": "Właściciel",
+  "updated": "Zaktualizowane",
+  "tags": "Znaczniki",
+  "dateCreated": "Utworzony",
+  "dateUpdated": "Zmodyfikowany",
+  "actionLinks": {
+    "view": "Wyświetl",
+    "edit": "Edytuj",
+    "ariaEdit": "Edytuj: {title}",
+    "ariaView": "Wyświetl: {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Wydarzenia",
+      "myContent": "Wydarzenia należące do mnie",
+      "editableContent": "Wydarzenia, które mogę edytować",
+      "all": "Wszystkie wydarzenia"
+    },
+    "access": {
+      "label": "Z"
+    },
+    "type": {
+      "label": "Typy"
+    },
+    "tags": {
+      "label": "Znaczniki"
+    },
+    "categories": {
+      "label": "Kategorie"
+    },
+    "modified": {
+      "label": "Zmodyfikowany"
+    }
+  }
+}

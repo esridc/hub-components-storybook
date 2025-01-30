@@ -1,0 +1,1 @@
+import{T as c}from"./p-07093ec0.js";const e=e=>{let r;switch(e){case c.notStarted:r="circle";break;case c.inProgress:r="star-circle";break;case c.skipped:r="x-circle-f";break;case c.onHold:r="minus-circle";break;case c.complete:r="check-circle-f"}return r};export{e as g}

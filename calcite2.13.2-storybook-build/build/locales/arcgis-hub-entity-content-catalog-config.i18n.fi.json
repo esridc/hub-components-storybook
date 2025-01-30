@@ -1,0 +1,46 @@
+{
+  "title": "Luettelon määritys",
+  "helperText": "Määritä ja konfiguroi luettelo",
+  "sections": {
+    "groups": {
+      "title": "Ryhmät",
+      "helperText": "Alla olevat ryhmät sisältävät hakuluettelossasi olevan sisällön. Valitse ryhmä, jotta voit katsoa esimerkiksi asetuksia ja sisältöä.",
+      "createGroup": "Luo uusi ryhmä"
+    },
+    "feeds": {
+      "title": "Syötteen määritys",
+      "helperText": "Hub-syötteillä julkista Open Data -aineistoa on helppo käsitellä ja käyttää uudelleen.",
+      "learn": "Lisätietoja Hub-syötteistä",
+      "toggle": "Ota syötteet käyttöön ",
+      "configure": "Määritä syötteet",
+      "notice": "Jos haluat ottaa syötteet käyttöön, määritä asetuksista Hub-sivustojen asetukseksi Julkinen"
+    }
+  },
+  "groupPickerFacet": {
+    "label": "Lähtien",
+    "editGroups": "Muokkaa ryhmiä",
+    "viewGroups": "Näytä ryhmä",
+    "myGroups": "Omat ryhmät",
+    "myOrganization": "Organisaationi",
+    "myCommunity": "Oma yhteisö",
+    "public": "Julkinen"
+  },
+  "formAlert": "Lomakevaroitus",
+  "configSaveAlert": {
+    "success": "Muokkaukset on tallennettu",
+    "failure": "Virhe muokkausten tallennuksessa"
+  },
+  "reharvestCatalogButton": "Tarkista virheiden varalta",
+  "reharvestWarningModal": {
+    "title": "Tarkista virheiden varalta",
+    "body1": "Varoitus: tätä asetusta käytetään yleensä vain tilanteissa, joissa hakusivulla on ongelmia puuttuvien tulosten tai metatiedon vuoksi. Tällä asetuksella tarkistetaan kaikki kohteet kaikissa luettelon ryhmissä lisäyksiä, metatiedon muutoksia tai poistoja varten.",
+    "body2": "Tämän prosessin suorittaminen muodostaa tämän luettelon julkisen hakuindeksin uudelleen, ja se voi kestää useita minuutteja. Tämä lisää kuormaa kaikissa ArcGIS Server -esiintymissä.",
+    "primaryButton": "Jatka",
+    "secondaryButton": "Peruuta"
+  },
+  "reharvestCatalogAlert": {
+    "success": "Tarkistetaan virheiden varalta. Tarkista myöhemmin uudelleen.",
+    "inProgress": "Tarkistus on jo meneillään. Palaa myöhemmin uudelleen.",
+    "failure": "Tapahtui toiminnallinen virhe. Yritä myöhemmin uudelleen."
+  }
+}

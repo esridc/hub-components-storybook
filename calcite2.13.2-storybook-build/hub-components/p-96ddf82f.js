@@ -1,0 +1,1 @@
+function n(n,r=[]){return r.map((r=>r[n]))}export{n as m}

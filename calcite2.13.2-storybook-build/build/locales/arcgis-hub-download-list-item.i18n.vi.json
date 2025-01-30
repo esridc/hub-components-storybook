@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "Bộ sưu tập Đối tượng",
+    "fgdb": "File Geodatabase",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Shapefile",
+    "sqlite": "SQLite Geodatabase"
+  },
+  "buttonText": {
+    "download": "Tải xuống",
+    "pending": "Chờ xử lý",
+    "processing": "Đang xử lý",
+    "converting": "Đang chuyển đổi",
+    "completed": "Tải xuống hoàn tất",
+    "failed": "Tải xuống thất bại"
+  },
+  "errors": {
+    "errorHeading": "Lỗi"
+  },
+  "cacheStatusAccordion": {
+    "heading": "Bạn tìm nội dung mình cần?",
+    "content": "Có thể có một phiên bản mới hơn.",
+    "button": "Yêu cầu tệp mới"
+  },
+  "generateNewModal": {
+    "heading": "Bạn có chắc không?",
+    "content": "Việc này có thể mất vài phút. Vui lòng giữ tab trình duyệt này hoạt động cho đến khi tải xuống hoàn tất.",
+    "confirmButton": "Có",
+    "cancelButton": "Hủy"
+  }
+}

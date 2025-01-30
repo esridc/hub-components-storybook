@@ -1,0 +1,118 @@
+{
+  "layout": {
+    "title": "Kompozycja",
+    "helperText": "Umożliwia konfigurację wyglądu wyników, gdy odwiedzający po raz pierwszy trafią do Twojego katalogu. Odwiedzający nadal będą mieli możliwość samodzielnej zmiany metody wyświetlania.",
+    "enum": {
+      "list": {
+        "label": "Lista",
+        "description": "Używaj do prezentacji metadanych i gdy odwiedzający prawdopodobnie dokonują ukierunkowanych wyszukiwań."
+      },
+      "grid": {
+        "label": "Siatka",
+        "description": "Używaj do wyników, które mają wysokiej jakości miniatury i kiedy odwiedzający prawdopodobnie będą je przeglądać."
+      },
+      "table": {
+        "label": "Tabela",
+        "description": "Używaj do prezentowania wyników w ustrukturyzowanym formacie z sortowalnymi kolumnami. Idealnie nadaje się, gdy odwiedzający mogą chcieć przeglądać i porównywać wiele elementów i ich atrybutów."
+      },
+      "map": {
+        "label": "Mapa",
+        "description": "Używaj do wyników, które są powiązane z fizycznymi lokalizacjami i gdy odwiedzający prawdopodobnie badają interesujące ich obszary."
+      },
+      "compact": {
+        "label": "Kompaktowa",
+        "description": "Używaj do zmaksymalizowania liczby widocznych wyników na mniejszym obszarze. Idealnie nadaje się do szybkiego przeglądania lub wyświetlania na urządzeniach przenośnych."
+      }
+    }
+  },
+  "cards": {
+    "title": "Karty",
+    "cardTitleTag": {
+      "label": "Nagłówek",
+      "helperText": "Można to wykorzystać do poprawy struktury zagnieżdżonych nagłówków pod kątem dostępności. Nie spowoduje to zmiany rozmiaru czcionki.",
+      "enum": {
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        }
+      }
+    },
+    "showThumbnail": {
+      "label": "Pokaż miniaturę",
+      "enum": {
+        "show": {
+          "label": "Zawsze",
+          "description": "Obrazy miniatur będą zawsze wyświetlane na kartach wyników, niezależnie od kompozycji wyników."
+        },
+        "hide": {
+          "label": "Nie pokazuj miniatur",
+          "description": "Obrazy miniatur nie będą wyświetlane na żadnym typie karty wyników. Użyj tej opcji, jeśli masz słabej jakości miniatury lub jeśli chcesz, aby ludzie mogli szybciej skanować wyniki w postaci list na komputerach i urządzeniach przenośnych."
+        },
+        "grid": {
+          "label": "Tylko w siatce",
+          "description": "Obrazy miniatur będą wyświetlane tylko na kartach siatki. Karty z listami będą wyświetlać dodatkową kolumnę metadanych zamiast obrazu."
+        }
+      }
+    },
+    "corners": {
+      "label": "Narożniki",
+      "enum": {
+        "square": {
+          "label": "Kwadratowe"
+        },
+        "round": {
+          "label": "Zaokrąglone"
+        }
+      }
+    },
+    "shadow": {
+      "label": "Rzuć cień",
+      "enum": {
+        "heavy": {
+          "label": "Duże"
+        },
+        "low": {
+          "label": "Niskie"
+        },
+        "medium": {
+          "label": "Średnie"
+        },
+        "none": {
+          "label": "Brak"
+        }
+      }
+    },
+    "showLinkButton": {
+      "label": "Uwzględnij przyciski",
+      "helperText": "Jeśli przyciski są wyłączone, tylko tytuł karty będzie łączem."
+    },
+    "linkButtonStyle": {
+      "label": "Styl",
+      "enum": {
+        "outline-filled": {
+          "label": "Wypełnione"
+        },
+        "outline": {
+          "label": "Obrys"
+        }
+      }
+    },
+    "linkButtonText": {
+      "label": "Tekst"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+:host {
+
+    display: block
+}
+
+calcite-tooltip-manager {
+
+    display: inline
+}
+
+calcite-tooltip[aria-hidden="true"] {
+
+    pointer-events: none
+}

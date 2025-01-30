@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "Categorii",
+        "noCategoriesNotice": {
+          "body": "Această organizație nu are nicio categorie încă.",
+          "link": "Configurarea categoriilor"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "Conținut",
+      "selectionMode": {
+        "dynamic": {
+          "label": "Dinamic"
+        },
+        "manual": {
+          "label": "Manual"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "Organizație"
+        },
+        "collection": {
+          "sites": "Site-uri",
+          "projects": "Proiecte",
+          "initiatives": "Inițiative"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "Organizație"
+        },
+        "collection": {
+          "events": "Evenimente"
+        }
+      },
+      "access": {
+        "label": "Partajare",
+        "private": {
+          "label": "Privat",
+          "description": "Filtrarea după conținut este disponibilă doar pentru dvs. și cei cu acces la grup."
+        },
+        "org": {
+          "label": "Organizație",
+          "description": "Filtrarea după conținut este disponibilă doar pentru membrii organizației dvs."
+        },
+        "public": {
+          "label": "Public",
+          "description": "Filtrarea după conținut este disponibilă pentru toată lumea."
+        }
+      },
+      "tags": {
+        "label": "Etichete"
+      },
+      "cardsShown": {
+        "label": "Carduri afișate"
+      }
+    },
+    "appearance": {
+      "label": "Aspect",
+      "titleHeading": {
+        "label": "Titlu antet",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "Conform WCAG G141, antetele imbricate îmbunătățesc accesibilitatea."
+      },
+      "corners": {
+        "label": "Colțuri",
+        "square": {
+          "label": "Pătrată"
+        },
+        "round": {
+          "label": "Rotunjită"
+        }
+      },
+      "shadow": {
+        "label": "Umbră",
+        "none": {
+          "label": "Dezactivat"
+        },
+        "low": {
+          "label": "Redus"
+        },
+        "medium": {
+          "label": "Mediu"
+        },
+        "heavy": {
+          "label": "Mare"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "Afișați informații suplimentare"
+      },
+      "layout": {
+        "label": "Configuraţie",
+        "list": {
+          "label": "Listare"
+        },
+        "map": {
+          "label": "Hartă"
+        },
+        "calendar": {
+          "label": "Calendar"
+        }
+      }
+    },
+    "options": {
+      "label": "Opțiuni",
+      "openIn": {
+        "label": "Se deschide în...",
+        "same": {
+          "label": "Aceeași filă"
+        },
+        "new": {
+          "label": "Filă nouă"
+        },
+        "notice": {
+          "title": "Sugestie privind accesibilitatea:",
+          "body": "Conform tehnicii pentru WCAG 2.0 G200, nu este recomandată deschiderea legăturilor în file sau ferestre noi.",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "Citiți mai multe despre WCAG 2.0 G200"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "Partajare",
+      "public": {
+        "label": "Public"
+      },
+      "private": {
+        "label": "Privat"
+      },
+      "organization": {
+        "label": "Organizație"
+      }
+    },
+    "from": {
+      "label": "De la",
+      "myOrganization": {
+        "label": "Organizația mea"
+      },
+      "myContent": {
+        "label": "Resursele mele"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "Evenimente",
+      "collections": {
+        "event": {
+          "label": "Evenimente"
+        }
+      }
+    },
+    "item": {
+      "label": "Conținut",
+      "collections": {
+        "item": {
+          "label": "Conținut"
+        }
+      }
+    }
+  }
+}

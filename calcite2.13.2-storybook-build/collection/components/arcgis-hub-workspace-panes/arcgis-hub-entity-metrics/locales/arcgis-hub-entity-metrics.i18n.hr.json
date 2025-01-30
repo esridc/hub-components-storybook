@@ -1,0 +1,75 @@
+{
+  "addMetric": "Dodaj metriku",
+  "title": "Metrike",
+  "featured": "Istaknuto",
+  "metricDescription": "Mjerljiva vrijednost koja se koristi za praćenje napretka projekta, na temelju statičkih (npr. povijesnih) ili dinamičkih (npr. podataka u stvarnom vremenu) podataka.",
+  "metricCount": {
+    "label": "{currentCount} / {totalCountAllowed} metrika",
+    "tooltip": "Da biste dodali metrike, izbrišite dio postojećeg skupa"
+  },
+  "visible": {
+    "title": "Vidljivo",
+    "noMetrics": "Nema metrika u ovom dijelu."
+  },
+  "hidden": {
+    "title": "Skriveno",
+    "description": "Ove se metrike prikazuju samo onima koji imaju pristup ovom radnom prostoru.",
+    "noMetrics": "Nema metrika u ovom dijelu."
+  },
+  "project": {
+    "featured": {
+      "description": "Možete imati 4 sadržane metrike. One se prikazuju na pregledu uživo vašeg projekta."
+    },
+    "visible": {
+      "description": "Vidljive metrike prikazane su uživo pod karticom \"Metrike\" vašeg projekta."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Metrika će odgovarati razini dijeljenja projekta. Skrivena metrika još uvijek može biti dostupna API pozivom.",
+        "metricsDockLink": "Saznajte više o podešavanju metrike"
+      }
+    }
+  },
+  "initiative": {
+    "featured": {
+      "description": "Možete imati 4 sadržane metrike. One se prikazuju na pregledu uživo vaše inicijative."
+    },
+    "visible": {
+      "description": "Vidljive metrike prikazane su uživo pod karticom \"Metrike\" vašeg projekta."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Metrika će odgovarati razini dijeljenja inicijative. Skrivena metrika još uvijek može biti dostupna API pozivom.",
+        "metricsDockLink": "Saznajte više o podešavanju metrike"
+      }
+    }
+  },
+  "metricNumber": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4"
+  },
+  "actions": {
+    "delete": "Izbriši",
+    "edit": "Uredi",
+    "featured": "Geoobjekt",
+    "removeFeatured": "Ukloni istaknuto",
+    "show": "Premjesti u vidljivo",
+    "hide": "Premjesti u skriveno"
+  },
+  "editor": {
+    "heading": "Nova metrika",
+    "description": "Prema zadanim postavkama, metrike će automatski biti skrivene kako bi ih članovi vašeg radnog prostora mogli vidjeti."
+  },
+  "deleteMetricModal": {
+    "heading": "Izbriši metriku",
+    "content": "Jeste li sigurni da želite izbrisati:",
+    "cancel": "Odustani",
+    "delete": "Izbriši"
+  },
+  "sidePanel": {
+    "definitions": "Definicije",
+    "preview": "Pretpregled"
+  }
+}

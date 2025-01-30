@@ -1,0 +1,27 @@
+:host {
+  display: block;
+  height: 100%;
+}
+
+/* the arcgis-hub-workspace-pane automatically applies this styling,
+ * however, we have to add it here directly since this component is
+ * scoped: true (for the configuration editor) and certain styles are
+ * seeping in from the light DOM
+ */
+[slot='title'] {
+  margin: 0px;
+  font-size: var(--calcite-font-size-3);
+  line-height: 2rem;
+  font-weight: var(--calcite-font-weight-bold);
+  color: var(--calcite-color-text-1);
+}
+
+arcgis-hub-workspace-pane {
+  --arcgis-hub-workspace-pane-max-width: var(--arcgis-hub-workspace-pane-max-width-value, 55rem);
+  --arcgis-configuration-form-footer-max-width: 800px;
+  --arcgis-configuration-form-footer-scalable-padding: 0.5rem;
+}
+
+arcgis-hub-entity-editor {
+  width: 100%;
+}

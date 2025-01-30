@@ -1,0 +1,49 @@
+{
+  "settings": "Nastavenia",
+  "advanced": "Pokročilé",
+  "delete": {
+    "event": "Odstrániť túto udalosť",
+    "desc": "Odstránenie tejto udalosti nie je možné vrátiť späť. Existujúce registrácie budú notifikované (ak sú pre túto udalosť povolené automatické notifikácie).",
+    "deleteButton": "Odstrániť udalosť"
+  },
+  "cancel": {
+    "header": "Zrušiť túto udalosť",
+    "desc": "Ak sa udalosť zruší, zostane viditeľná so zrušeným stavom. Registrácia sa zastaví a existujúce registrácie budú notifikované (ak sú pre túto udalosť povolené automatické notifikácie).",
+    "event": "Zrušiť udalosť",
+    "notice": {
+      "success": {
+        "title": "Udalosť zrušená",
+        "message": "Existujúce registrácie budú notifikované, ak sú povolené automatické notifikácie."
+      },
+      "error": {
+        "title": "Udalosť nie je možné zrušiť",
+        "message": "Skúste to prosím znova"
+      }
+    }
+  },
+  "enable": {
+    "event": "Znovu povoliť udalosť",
+    "desc": "Udalosť je zrušená (viditeľná so zrušeným stavom).",
+    "notice": {
+      "success": {
+        "title": "Udalosť je znova povolená",
+        "message": "Existujúce registrácie budú notifikované, ak sú povolené automatické notifikácie."
+      },
+      "error": {
+        "title": "Udalosť nebolo možné znova povoliť",
+        "message": "Skúste to prosím znova"
+      }
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "event": "Odstrániť udalosť"
+    },
+    "content": "Ste si istý, že chcete odstrániť:",
+    "delete": "Odstrániť udalosť",
+    "cancel": "Zrušiť udalosť"
+  },
+  "notice": {
+    "label": "Upozornenie na formulár"
+  }
+}

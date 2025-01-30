@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Fant ingen resultater."
+    },
+    "error": {
+      "message": "Det oppstod et problem med søket."
+    }
+  },
+  "type": "Type",
+  "tags": "Merker",
+  "owner": "Eier",
+  "dateCreated": "Opprettet",
+  "dateUpdated": "Endret",
+  "categories": "Kategorier",
+  "dateAndTime": "Dato og klokkeslett",
+  "allDay": "{date} (hele dagen)",
+  "allDayRange": "{from} – {to} (hele dagen)",
+  "location": "Lokasjon",
+  "attendanceType": "Deltakelsestype",
+  "inPerson": "Personlig",
+  "online": "Online",
+  "hybrid": "Hybrid"
+}

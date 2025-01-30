@@ -1,0 +1,75 @@
+{
+  "addMetric": "Metrik ekle",
+  "title": "Metrikler",
+  "featured": "Gösterilen",
+  "metricDescription": "Ya statik (örn., tarihsel) ya da dinamik (örn., gerçek zamanlı) verilere dayanarak proje ilerlemesini izlemek için kullanılan ölçülebilir bir değer.",
+  "metricCount": {
+    "label": "{currentCount} / {totalCountAllowed} ölçüt",
+    "tooltip": "Ölçüt eklemek için mevcut setin bir kısmını silin"
+  },
+  "visible": {
+    "title": "Görünür",
+    "noMetrics": "Bu bölümde herhangi bir metrik yok."
+  },
+  "hidden": {
+    "title": "Gizli",
+    "description": "Bu metrikler yalnızca bu çalışma alanına erişimi olanlara gösterilir.",
+    "noMetrics": "Bu bölümde herhangi bir metrik yok."
+  },
+  "project": {
+    "featured": {
+      "description": "4 öne çıkan metriğiniz olabilir. Bunlar canlı projenizin Genel Bakış bölümünde görüntülenir."
+    },
+    "visible": {
+      "description": "Görünür metrikler, canlı projenizin Metrikler sekmesinde görüntülenir."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Metrikler projenin paylaşım seviyesi ile eşleşecektir. Gizli metrikler API çağrısı ile kullanılmaya devam edilebilir.",
+        "metricsDockLink": "Metrikleri ayarlamak hakkında bilgi alın"
+      }
+    }
+  },
+  "initiative": {
+    "featured": {
+      "description": "4 öne çıkan metriğiniz olabilir. Bunlar canlı inisiyatifinizin Genel Bakış bölümünde görüntülenir."
+    },
+    "visible": {
+      "description": "Görünür metrikler, canlı projenizin Metrikler sekmesinde görüntülenir."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Metrikler girişimin paylaşım seviyesi ile eşleşecektir. Gizli metrikler API çağrısı ile kullanılmaya devam edilebilir.",
+        "metricsDockLink": "Metrikleri ayarlamak hakkında bilgi alın"
+      }
+    }
+  },
+  "metricNumber": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4"
+  },
+  "actions": {
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "featured": "Detay",
+    "removeFeatured": "Öne çıkanları kaldır",
+    "show": "Görünüre taşı",
+    "hide": "Gizliye taşı"
+  },
+  "editor": {
+    "heading": "Yeni metrik",
+    "description": "Varsayılan olarak metrikler, çalışma alanınızın üyelerinin görebileceği şekilde otomatik olarak gizlenir."
+  },
+  "deleteMetricModal": {
+    "heading": "Metriği sil",
+    "content": "Şunu silmek istediğinizden emin misiniz:",
+    "cancel": "İptal",
+    "delete": "Sil"
+  },
+  "sidePanel": {
+    "definitions": "Tanımlar",
+    "preview": "Ön izleme"
+  }
+}

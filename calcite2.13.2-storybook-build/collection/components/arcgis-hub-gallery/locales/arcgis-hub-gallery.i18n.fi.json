@@ -1,0 +1,91 @@
+{
+  "moreResults": "Lisää tuloksia",
+  "search": "Hae",
+  "filter": "Suodattimet",
+  "viewResults": "Näytä tulokset ({numResults})",
+  "resultsCount": "1– {pageTotal}/{searchTotal}",
+  "backToTop": "Alkuun",
+  "facets": {
+    "access": {
+      "label": "Jakaminen",
+      "private": "Itse",
+      "shared": "Omistaja ja ryhmät",
+      "org": "Organisaatio",
+      "public": "Julkinen"
+    },
+    "license": {
+      "label": "Lisenssi",
+      "tooltip": "Vain julkisessa sisällössä",
+      "custom": "Mukautettu",
+      "none": "Ei mitään"
+    },
+    "type": {
+      "label": "Tyyppi"
+    },
+    "tags": {
+      "label": "Tunnisteet"
+    },
+    "dateUpdated": {
+      "label": "Päivitetty viimeksi"
+    },
+    "source": {
+      "label": "Lähde",
+      "tooltip": "Eri organisaatioiden julkinen sisältö"
+    },
+    "categories": {
+      "label": "Luokat"
+    },
+    "location": {
+      "label": "Sijainti",
+      "tooltip": "Käytä kartan laajuutta sijainnin suodattimena"
+    },
+    "event": {
+      "from": {
+        "label": "Omistajuus",
+        "myContent": "Minä",
+        "myOrganization": "Oma organisaatio",
+        "world": "Kuka tahansa"
+      },
+      "access": {
+        "label": "Käyttö",
+        "private": "Yksityinen",
+        "org": "Organisaatio",
+        "public": "Julkinen"
+      },
+      "startDate": {
+        "label": "Tapahtuman päivämäärä"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "Tyyppi",
+        "all": "Kaikki",
+        "view": "Näytä",
+        "edit": "Muokkaa"
+      },
+      "role": {
+        "label": "Rooli",
+        "all": "Kaikki",
+        "member": "Jäsen",
+        "manager": "Hallinnoija",
+        "owner": "Omistaja"
+      },
+      "sharing": {
+        "label": "Näkyvyys",
+        "private": "Yksityinen",
+        "public": "Julkinen"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "Näytä luettelo",
+    "grid": "Näytä ruudukko",
+    "map": "Näytä kartta",
+    "compact": "Näytä kompakti",
+    "calendar": "Näytä kalenteri",
+    "table": "Näytä taulu"
+  },
+  "galleryActionsLabel": "Lisätoiminnot",
+  "selected": "Valittu: {count}",
+  "popoverActionButtonLabel": "lisää toimintoja"
+}

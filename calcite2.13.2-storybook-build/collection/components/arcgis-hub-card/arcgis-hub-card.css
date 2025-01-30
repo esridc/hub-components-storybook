@@ -1,0 +1,301 @@
+:host {
+  display: block;
+  height: 100%;
+}
+
+:host([corners="round"]) calcite-card {
+  /* this is needed to make rounded corners work with calcite-card */
+  --calcite-card-corner-radius: 10px;
+  /* this is needed to make drop shadows work with rounded corners */
+  border-radius: var(--calcite-card-corner-radius);
+}
+
+:host([shadow="low"]) calcite-card {
+  --tw-shadow: 0 4px 8px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -1px rgba(0, 0, 0, 0.04);
+  --tw-shadow-colored: 0 4px 8px -1px var(--tw-shadow-color), 0 2px 4px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+:host([shadow="medium"]) calcite-card {
+  --tw-shadow: 0 6px 20px -4px rgba(0, 0, 0, 0.1), 0 4px 12px -2px rgba(0, 0, 0, 0.08);
+  --tw-shadow-colored: 0 6px 20px -4px var(--tw-shadow-color), 0 4px 12px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+:host([shadow="heavy"]) calcite-card {
+  --tw-shadow: 0 12px 32px -2px rgba(0, 0, 0, 0.1), 0 4px 20px 0 rgba(0, 0, 0, 0.08);
+  --tw-shadow-colored: 0 12px 32px -2px var(--tw-shadow-color), 0 4px 20px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--hub-heading-family, inherit);
+}
+
+[slot="title"] {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.content-type {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-weight: var(--calcite-font-weight-bold);
+}
+
+.title > * {
+  width: 100%;
+  font-size: var(--calcite-font-size-2);
+  line-height: 1.5rem;
+  font-weight: var(--calcite-font-weight-medium);
+  overflow-wrap: anywhere;
+}
+
+.title a {
+  color: var(--calcite-color-text-link);
+  /* if --hub-text-decoration is not set, links will be underlined
+  in od-ui, it will be set to "underline" if the "underline links" site setting is true and "none" otherwise
+  but this can be overridden by setting the value in css on any element */
+  -webkit-text-decoration-line: var(--hub-text-decoration, underline);
+          text-decoration-line: var(--hub-text-decoration, underline);
+}
+:host([clickable]) .title a::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: auto;
+  content: "";
+  background-color: rgba(0,0,0,0);
+}
+
+.owner {
+  margin-top: 0.5rem;
+  font-size: var(--calcite-font-size-0);
+  line-height: 1.25rem;
+  font-weight: var(--calcite-font-weight-medium);
+}
+
+.snippet {
+  margin-left: 0px;
+  margin-right: 0px;
+  font-size: var(--calcite-font-size-0);
+  line-height: 1.25rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  height: 2.5rem;
+  padding-bottom: 0.14rem; /* Prevents the following letter from being cut off on last line: g, j, p, q, y */
+  overflow-wrap: anywhere;
+  color: var(--hub-gallery-body-text, var(--calcite-color-text-1));
+}
+
+dl[slot='footer-start'] {
+  margin: 0px;
+  display: grid;
+  width: 100%;
+  gap: 0.25rem;
+  font-size: var(--calcite-font-size--1);
+  /*g's can be cut off if line height isn't normalized*/
+  line-height: normal;
+  /* up to 2 columns accounting for gap */
+  grid-template-columns: repeat(auto-fill, minmax(max(200px, (100% - (2 - 1) * 0.25rem) / 2), 1fr));
+}
+
+calcite-popover dl > div, dl[slot='footer-start'] > div {
+  display: flex;
+  gap: 0.25rem;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+calcite-popover dt::after,
+dl[slot='footer-start'] dt::after {
+  content: ':';
+}
+
+calcite-popover dd, dl[slot='footer-start'] dd {
+  margin: 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: var(--calcite-font-weight-bold);
+}
+
+.chips {
+  margin-left: auto;
+  display: flex;
+  gap: 0.25rem;
+}
+
+.popover-container {
+  position: relative;
+}
+
+/*
+  these classes are here to support legacy calcite-chip.color
+  I'm just guessing on the actual colors they used to have
+  see: https://github.com/Esri/calcite-components/blob/v1.0.0-beta.98/src/components/chip/interfaces.ts
+*/
+.chips calcite-chip.chip-color-blue {
+  color: var(--calcite-color-foreground-1);
+    background-color: var(--calcite-color-brand);
+}
+
+.chips calcite-chip.chip-color-red {
+  color: var(--calcite-color-foreground-1);
+    background-color: var(--calcite-color-status-danger);
+}
+
+.chips calcite-chip.chip-color-yellow {
+  color: var(--calcite-color-foreground-1);
+    background-color: var(--calcite-color-status-warning);
+}
+
+.chips calcite-chip.chip-color-green {
+  color: var(--calcite-color-foreground-1);
+    background-color: var(--calcite-color-status-success);
+}
+
+.chips calcite-chip.chip-color-gray {
+  color: var(--calcite-color-text-1);
+    background-color: var(--calcite-color-border-3);
+}
+
+calcite-popover .popover-content {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.25rem;
+  padding: 0.5rem;
+  width: max-content;
+  max-width: 14.5rem; /* Prevent popup content from overflowing a grid card */
+}
+
+calcite-popover .popover-content:lang(el) {
+  font-size: var(--calcite-font-size--3);
+}
+
+calcite-popover dl {
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+#popover-toggle {
+  vertical-align: middle;
+}
+
+*[slot="thumbnail"] {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.avatar-container, .icon-container {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  color: var(--calcite-color-brand);
+}
+
+.avatar-container calcite-avatar {
+  height: 6rem;
+  width: 6rem;
+}
+
+.icon-container calcite-icon {
+  height: 4rem;
+  width: 4rem;
+}
+
+:host([selectable]) [slot="title"] {
+  /* i would call this a bug in calcite-card - the selection checkbox is absolutely positioned over the right side of the title slot */
+  margin-right: 1.5rem;
+}
+
+/* card layout styles */
+
+:host([layout='card']) calcite-card {
+  height: 100%;
+  width: 100%;
+}
+
+:host([layout='card']) .avatar-container, :host([layout='card']) .icon-container {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+:host([layout='card']) .title {
+  height: 3rem;
+}
+
+:host([layout='card']) .title > * {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+:host([layout='card']) .owner {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  height: 2.5rem;
+}
+
+:host([layout="card"]) [slot="footer-end"] {
+  width: 100%;
+}
+
+:host([layout="card"]) calcite-card {
+  height: 100%;
+}
+
+/* row layout styles */
+
+:host([layout='row']) .title > * {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+@media only screen and (min-width: 769px) {
+  :host([layout='row']) .title > * {
+    display: inline;
+  }
+  :host([layout='row']) .title > * {
+    overflow: visible;
+  }
+  :host([layout='row']) .title > * {
+    -webkit-line-clamp: unset;
+  }
+}
+
+:host([layout='row']) .owner {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+:host([layout="row"]) .snippet {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+:host([layout="row"]) [slot="footer-end"] {
+  margin-left: auto;
+}

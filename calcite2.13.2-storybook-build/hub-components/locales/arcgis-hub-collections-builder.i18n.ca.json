@@ -1,0 +1,15 @@
+{
+  "newCollection": "Col·lecció nova",
+  "block": {
+    "heading": {
+      "untitled": "Col·lecció sense títol"
+    },
+    "actions": {
+      "delete": "Suprimeix la col·lecció: {label}"
+    }
+  },
+  "name": {
+    "label": "Nom",
+    "requiredError": "El nom de la col·lecció és obligatori"
+  }
+}

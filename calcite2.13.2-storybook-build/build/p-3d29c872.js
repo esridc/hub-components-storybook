@@ -1,0 +1,1 @@
+import{g as t}from"./p-796574a4.js";import{a as o}from"./p-c20bc7b4.js";function e(e){const c={id:e.id,name:e.name,type:e.type};return(e.metrics||[]).map((n=>{n.entityInfo=Object.assign({},c);const r=n.source;if("item-query"===r.type&&r.collectionKey){const c=t(e.catalog,`collections[findBy(key,'${r.collectionKey}')].scope`);c&&(r.scope=o(c))}return n.source=r,n}))}export{e as g}

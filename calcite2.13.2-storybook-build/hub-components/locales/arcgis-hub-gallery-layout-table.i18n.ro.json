@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Nu a fost găsit niciun rezultat."
+    },
+    "error": {
+      "message": "Ne pare rău, dar am întâmpinat o eroare."
+    }
+  },
+  "access": "Acces",
+  "actionsHeader": "Acțiuni",
+  "caption": "Tabel de entități hub",
+  "family": "Familie",
+  "type": "Tip",
+  "tags": "Etichete",
+  "owner": "Proprietar",
+  "dateCreated": "Creat",
+  "dateUpdated": "Modificat",
+  "description": "Descriere",
+  "dateAndTime": "Data și ora",
+  "location": "Locație",
+  "attendanceType": "Tip de participare",
+  "inPerson": "În persoană",
+  "online": "Online",
+  "hybrid": "Hibrid",
+  "categories": "Categorii",
+  "content": "Conținut",
+  "name": "Nume",
+  "start": "Început",
+  "end": "Sfârșit",
+  "sharedUpdate": "Actualizare partajată",
+  "managers": "Administratori",
+  "username": "Nume de utilizator",
+  "no": "Nu",
+  "yes": "Da",
+  "title": "Titlu",
+  "thumbnail": "Miniatură",
+  "types": {
+    "app": "Aplicaţie",
+    "content": "Conținut",
+    "dataset": "Set de date",
+    "discussion": "Panou de discuții",
+    "document": "Document",
+    "event": "Eveniment",
+    "feedback": "Feedback",
+    "initiative": "Inițiativă",
+    "image": "Imagine",
+    "map": "Hartă",
+    "other": "Altele",
+    "people": "Persoane",
+    "site": "Site",
+    "team": "Grup",
+    "template": "Şablon",
+    "project": "Proiect"
+  }
+}

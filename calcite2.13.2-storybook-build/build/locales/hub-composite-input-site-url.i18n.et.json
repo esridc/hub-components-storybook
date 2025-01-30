@@ -1,0 +1,6 @@
+{
+  "baseDomain": "Põhidomeen",
+  "subdomain": "Alamdomeen",
+  "subdomainFormatError": "Viga: saidi URL võib sisaldada ainult (väikseid) tähti, numbreid ja kriipsu. See ei tohi alata ega lõppeda kriipsuga. Unicode-tähemärgid ei ole lubatud.",
+  "urlPreview": "URL-i eelvaade"
+}

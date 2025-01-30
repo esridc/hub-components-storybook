@@ -1,0 +1,24 @@
+{
+  "shared": {
+    "targetEntities": {
+      "item": "アイテム",
+      "event": "イベント"
+    }
+  },
+  "targetEntityBlock": {
+    "configured": "構成済み",
+    "notConfigured": "未構成"
+  },
+  "targetEntityFlow": {
+    "back": "構成を閉じる: {targetEntity}",
+    "description": "構成: {targetEntity}",
+    "source": {
+      "heading": "ソース",
+      "description": "ソースはコンテンツの範囲を定義します。 パラメーターを含めるか除外することによって結果を変更します。<br/><br/>* は必須フィールドを示します"
+    },
+    "collections": {
+      "heading": "コレクション",
+      "description": "コンテンツを個々のサブセットに整理し、閲覧と検索を容易にします。<br/><br/>* は必須フィールドを示します"
+    }
+  }
+}

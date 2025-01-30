@@ -1,0 +1,20 @@
+{
+  "dashboard": "Dashboard",
+  "activityLogSection": {
+    "title": "Registro attività",
+    "table": {
+      "downloadAction": "Download",
+      "downloadAllAction": "Scarica tutto",
+      "downloadActionTooltip": "Scarica le attività selezionate",
+      "caption": "Tabella degli errori recenti",
+      "columnHeaders": {
+        "datetime": "Data",
+        "layer": "Layer",
+        "message": "Messaggio"
+      },
+      "noRecentErrors": "Nessun errore recente",
+      "expandText": "Visualizza altro",
+      "collapseText": "Visualizza meno"
+    }
+  }
+}

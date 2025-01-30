@@ -1,0 +1,178 @@
+{
+  "projectsTitle": "工程",
+  "description": "可与参与工程关联，追踪特定时间和空间的进度。 倡议的关联群组可管理已确认的关联和未完成的关联请求。",
+  "subDescription": "包含已确认关联的工程将显示在此倡议视图上。",
+  "project": "工程",
+  "initiative": "倡议",
+  "helpStates": {
+    "noAccess": {
+      "heading": "禁止访问",
+      "message": "您无权查看关联群组。"
+    },
+    "missingGroup": {
+      "heading": "缺失关联群组",
+      "message": {
+        "overview": "关联群组将监督哪些工程将链接至倡议并向其报告。",
+        "members": "此群组的成员将能够发送或批准关联请求。"
+      },
+      "action": "创建群组",
+      "formLabel": "新建关联群组",
+      "description": "创建关联群组以管理连接"
+    },
+    "requestsWaiting": {
+      "heading": "缺失关联群组",
+      "message": {
+        "overview": "关联群组将监督哪些工程将链接至倡议并向其报告。",
+        "members": "此群组的成员将能够发送或批准关联请求。",
+        "requests": "工程请求正在等待：{count}"
+      },
+      "action": "创建群组",
+      "formLabel": "新建关联群组",
+      "description": "创建关联群组以管理连接"
+    }
+  },
+  "shared": {
+    "project": "工程",
+    "associationGroup": "关联群组",
+    "error": {
+      "title": "发生错误",
+      "message": "您可能缺少足够的访问权限来发送或管理与 {type} 相关的关联。"
+    },
+    "facets": {
+      "access": {
+        "label": "共享"
+      },
+      "status": {
+        "label": "状态",
+        "notStarted": "未启动",
+        "inProgress": "正在进行中",
+        "onHold": "暂停",
+        "complete": "完成"
+      },
+      "tags": {
+        "label": "标签"
+      }
+    },
+    "tabs": {
+      "projects": "工程",
+      "members": "成员",
+      "settings": "设置"
+    },
+    "disabledActionTooltip": "只有群组管理员可以管理与 {type} 的关联"
+  },
+  "createAssociationGroup": {
+    "defaultSummary": "可以使用关联群组来管理与 {name} {type} 关联的项目。"
+  },
+  "members": {
+    "facets": {
+      "role": {
+        "label": "角色",
+        "all": "全部",
+        "manager": "管理员",
+        "member": "成员"
+      },
+      "dateJoined": {
+        "label": "加入日期"
+      }
+    },
+    "addMembers": {
+      "button": "添加成员",
+      "modal": {
+        "title": "添加成员",
+        "org": "我的组织",
+        "community": "我的社区",
+        "partner": "我的合作伙伴",
+        "world": "世界"
+      },
+      "notifications": {
+        "invited": "已发送邀请。 用户必须接受，才能加入",
+        "added": "已添加用户",
+        "notInvited": "某些用户可能没有加入该群组所需的权限，或者可能已达到群组最大限制(512)"
+      }
+    },
+    "removeUsers": {
+      "button": "移除",
+      "success": "已成功从 {groupName} 中移除成员。",
+      "error": "无法从群组中移除一位或多位用户。"
+    },
+    "changeRole": {
+      "button": "更改角色",
+      "member": "成员",
+      "memberHelperText": "可以添加并查看群组内的内容。",
+      "tooltipText": "请取消选择您自己和/或群组所有者",
+      "tooltipLabel": "角色免责声明",
+      "admin": "管理员",
+      "adminHelperText": "可以添加/移除内容以及邀请/移除人员(所有者除外)。",
+      "success": "所选成员已成为群组 {role}。",
+      "error": "无法更改一位或多位成员的角色。"
+    },
+    "stats": {
+      "total": {
+        "title": "总数",
+        "trailingText": "成员"
+      },
+      "new": {
+        "title": "新建",
+        "trailingText": "最近 30 天"
+      }
+    }
+  },
+  "projects": {
+    "requestAssociation": {
+      "findProjects": "查找工程",
+      "sendRequest": "发送请求",
+      "success": {
+        "title": "成功",
+        "message": "已发送关联请求：{count}"
+      },
+      "alreadyRequesting": {
+        "title": "检查关联",
+        "message": "一些选择内容已请求关联。 已发送新的关联请求：{count}"
+      },
+      "catalog": {
+        "myContent": "我的内容",
+        "favorites": "收藏夹",
+        "organization": "组织",
+        "world": "世界(公众)"
+      },
+      "collection": {
+        "projects": "工程"
+      }
+    },
+    "acceptAssociation": {
+      "label": "接受",
+      "success": {
+        "title": "成功",
+        "message": "已接受与 {requestor} 的关联"
+      }
+    },
+    "cancelRequest": {
+      "label": "取消请求",
+      "success": {
+        "title": "成功",
+        "message": "关联请求已取消"
+      }
+    },
+    "breakAssociation": {
+      "label": "断开连接",
+      "success": {
+        "title": "关联已断开",
+        "message": "我们已将此项目与其之前的关联断开连接。 但是，我们无法从对方逆转决定，因此您仍可能在传入请求中看到此项目。"
+      }
+    },
+    "associationsGallery": {
+      "sources": "状态",
+      "catalog": {
+        "associated": "已关联",
+        "requesting": "传入请求",
+        "pending": "传出请求"
+      },
+      "collection": {
+        "projects": "工程"
+      }
+    }
+  },
+  "notice": {
+    "label": "表单警告"
+  }
+}

@@ -1,0 +1,1 @@
+const o=o=>{var r;return(null===(r=o.links)||void 0===r?void 0:r.thumbnail)||o.thumbnailUrl};export{o as g}

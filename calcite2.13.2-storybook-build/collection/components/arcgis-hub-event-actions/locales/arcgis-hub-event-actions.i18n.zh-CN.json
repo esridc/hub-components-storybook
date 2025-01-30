@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "注册",
+    "registered": "已注册",
+    "join": "在线加入",
+    "in-person": "现场",
+    "online": "在线",
+    "inPersonFull": "现场(已满)",
+    "onlineFull": "在线(已满)",
+    "close": "关闭"
+  },
+  "tooltip": {
+    "isCanceled": "活动已取消",
+    "eventHasEnded": "活动已结束",
+    "eventFull": "活动已满",
+    "inPerson": "已注册现场活动",
+    "online": "已注册在线活动",
+    "unavailable": "活动开始前一小时可用"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "已成功取消在线活动的注册",
+    "onlineRegistrationConfirmed": "已成功注册在线活动",
+    "onlineRegistrationError": "注册在线活动时发生意外错误",
+    "onlineRegistrationCanceledError": "取消在线活动注册时发生意外错误",
+    "onlineRegistrationAtCapacity": "您正在尝试注册一个已满的在线活动",
+    "inPersonRegistrationCanceled": "已成功取消现场活动的注册",
+    "inPersonRegistrationCanceledError": "取消现场活动注册时发生意外错误",
+    "inPersonRegistrationConfirmed": "已成功注册现场活动",
+    "inPersonRegistrationError": "注册现场活动时发生意外错误",
+    "inPersonRegistrationAtCapacity": "您正在尝试注册一个已满的线下活动"
+  }
+}

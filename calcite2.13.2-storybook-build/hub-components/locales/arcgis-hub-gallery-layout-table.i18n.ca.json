@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "No s'ha trobat cap resultat."
+    },
+    "error": {
+      "message": "S'ha produït un error en la cerca."
+    }
+  },
+  "access": "Accés",
+  "actionsHeader": "Accions",
+  "caption": "Taula d'entitats del Hub",
+  "family": "Família",
+  "type": "Tipus",
+  "tags": "Etiquetes",
+  "owner": "Propietari",
+  "dateCreated": "Creat",
+  "dateUpdated": "Data de modificació",
+  "description": "Descripció",
+  "dateAndTime": "Data i hora",
+  "location": "Ubicació",
+  "attendanceType": "Tipus d'assistència",
+  "inPerson": "Presencial",
+  "online": "En línia",
+  "hybrid": "Híbrid",
+  "categories": "Categories",
+  "content": "Contingut",
+  "name": "Nom",
+  "start": "Inici",
+  "end": "Final",
+  "sharedUpdate": "Actualització compartida",
+  "managers": "Administradors",
+  "username": "Nom d'usuari",
+  "no": "No",
+  "yes": "Sí",
+  "title": "Títol",
+  "thumbnail": "Miniatura",
+  "types": {
+    "app": "Aplicació",
+    "content": "Contingut",
+    "dataset": "Dataset",
+    "discussion": "Tauler de debat",
+    "document": "Document",
+    "event": "Esdeveniment",
+    "feedback": "Comentaris",
+    "initiative": "Iniciativa",
+    "image": "Imatge",
+    "map": "Mapa",
+    "other": "Altres",
+    "people": "Gent",
+    "site": "Lloc",
+    "team": "Grup",
+    "template": "Plantilla",
+    "project": "Projecte"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "title": "Obsah",
+  "facets": {
+    "type": "Typ",
+    "tags": "Štítok",
+    "categories": "Kategória",
+    "sharing": "Zdieľanie",
+    "dateUpdated": "Dátum aktualizácie",
+    "map": {
+      "label": "Poloha",
+      "tooltip": "Použite rozsah mapy ako filter polohy"
+    }
+  },
+  "shareContent": {
+    "buttonText": "Pridať obsah",
+    "disabledTooltip": "Nemáte povolenie na pridávanie obsahu do tejto skupiny.",
+    "catalog": {
+      "myContent": "Môj obsah",
+      "favorites": "Obľúbené",
+      "organization": "Moja organizácia",
+      "world": "Svet (Verejné)"
+    },
+    "facets": {
+      "type": "Typ",
+      "sharing": "Zdieľanie"
+    },
+    "collection": {
+      "appsAndMaps": "Aplikácie a Mapy",
+      "dataset": "Dáta",
+      "documents": "Dokumenty",
+      "feedback": "Spätná väzba",
+      "sites": "Sites",
+      "projects": "Projekty",
+      "projectsAndInitiatives": "Projekty a iniciatívy"
+    },
+    "modal": {
+      "title": "Pridať obsah"
+    },
+    "unsharedModal": {
+      "title": "Položky neboli pridané",
+      "notice": {
+        "icon": "trojuholník s výkričníkom",
+        "type": "nebezpečenstvo",
+        "title": "Neúplná akcia",
+        "message": "Niektoré položky nebolo možné pridať. Môže to byť spôsobené nezhodnými úrovňami zdieľania v rámci obsahu alebo tým, že vlastník položky nie je členom skupiny.",
+        "linkText": "Prečítajte si viac o zdieľaní"
+      }
+    },
+    "itemSharedSuccessAlert": "Úspešne zdieľaná(-é) položka(-y)"
+  },
+  "close": "Zatvoriť",
+  "newTab": "otvorí sa na novej karte",
+  "unshareContent": {
+    "remove": "Odstrániť",
+    "success": "Obsah úspešne odstránený z {groupName}.",
+    "unsharedModal": {
+      "title": "Položky neboli odstránené",
+      "notice": {
+        "icon": "trojuholník s výkričníkom",
+        "type": "nebezpečenstvo",
+        "title": "Neúplná akcia",
+        "message": "Niektoré položky nebolo možné odstrániť."
+      }
+    }
+  },
+  "notice": {
+    "label": "Upozornenie na formulár"
+  }
+}

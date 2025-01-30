@@ -1,0 +1,10 @@
+{
+  "targetEntity": {
+    "label": "Kaynak",
+    "enum": {
+      "item": "Ögeler",
+      "event": "Etkinlikler",
+      "group": "Gruplar"
+    }
+  }
+}

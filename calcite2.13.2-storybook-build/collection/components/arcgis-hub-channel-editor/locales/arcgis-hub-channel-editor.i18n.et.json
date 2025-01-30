@@ -1,0 +1,96 @@
+{
+  "unnamedChannel": "Nimetu kanal",
+  "name": {
+    "label": "Nimi",
+    "placeholder": "{prefix} kanal"
+  },
+  "save": "Salvesta",
+  "basicInfo": {
+    "label": "Põhiteave"
+  },
+  "access": {
+    "private": {
+      "label": "Privaatne",
+      "description": "Valitud grupid saavad osaleda. Grupi haldurid ja omanikud on automaatselt määratud moderaatorid."
+    },
+    "organization": {
+      "label": "Minu organisatsioon",
+      "description": "Kõik {orgName} kontot omavad liikmed saavad osaleda. Organisatsiooni administraatorid ja kanali omanik on automaatselt määratud moderaatorid. Kanalite omanikud saavad lisaks lisada gruppe, mille liikmed nad on, klõpsates allpool olevat nuppu \"Lisa osalejate grupp\".",
+      "disabledTooltip": "Organisatsiooni kanaleid saavad luua ainult organisatsiooni administraatorid."
+    },
+    "public": {
+      "label": "Avalik",
+      "description": "Kõik sisseloginud liikmed saavad osaleda. Organisatsiooni administraatorid ja kanali omanik on automaatselt määratud moderaatorid. Kanalite omanikud saavad lisaks lisada gruppe, mille liikmed nad on, klõpsates allpool olevat nuppu \"Lisa osalejate grupp\".",
+      "disabledTooltip": "Avalikke kanaleid saavad luua ainult organisatsiooni administraatorid."
+    },
+    "allowAsAnonymous": {
+      "label": "Luba anonüümne osalemine (ainult sisseloginud osalejad)",
+      "description": "Kontot omavate anonüümselt postitavate inimeste avatar, nimi ja kasutajanimi ei ole kättesaadavad."
+    },
+    "confirmation": {
+      "header": "Kas olete kindel?",
+      "message": "Muudatuste salvestamise korral eemaldatakse teie õigus seda kanalit muuta. Avalikke või organisatsiooni kanaleid saavad muuta ainult organisatsiooni administraatorid.",
+      "secondary": "Tühista",
+      "primary": "Kinnita"
+    }
+  },
+  "participants": {
+    "label": "Osalejad",
+    "helperText": "Inimesed, kes saavad arutelu postitada, sellele vastata ja sellele reageerida.",
+    "none": "Osalejaid ei ole määratud",
+    "add": "Lisa osalejate grupp"
+  },
+  "groupPicker": {
+    "title": "Valige grupid",
+    "facet": {
+      "label": "Lähtekoht",
+      "myGroups": "Minu grupid",
+      "myOrganization": "Minu organisatsioon",
+      "myCommunity": "Minu kogukond"
+    }
+  },
+  "blockWords": {
+    "label": "Blokeeritud sõnad",
+    "helperText": "Komaeraldusega loend Neid sisaldavad postitused ja vastused peidetakse automaatselt."
+  },
+  "manage": {
+    "label": "Moderaatorid",
+    "helperText": "Moderaatorite automaatne määramine põhineb osalejate valikul. Kõikidel kanalile lisatud lisarühmadel on grupi omanikud ja haldurid määratud moderaatorid. Moderaatorid saavad varjata ja näidata postitusi, lisada blokeeritud sõnu ja muuta kanali seadeid."
+  },
+  "manager": "Haldur",
+  "admin": "Haldus",
+  "viewProfile": "Kuva profiil",
+  "alerts": {
+    "error": "Tõrge kanali salvestamisel",
+    "success": "Kanal edukalt salvestatud",
+    "label": "Vormi hoiatus"
+  },
+  "validations": {
+    "minChannelGroups": "Privaatkanalid vajavad vähemalt üht osalejate gruppi.",
+    "channelNameRequired": "Kanali nimi on nõutav",
+    "allowAsAnonymous": "Anonüümset postitamist toetavad ainult avalikud kanalid.",
+    "blockWords": "Sisestage maksimaalselt 20 blokeeritud sõna/fraasi (kirjed eraldatakse komaga, ei tohi olla dubleeringuid ega tühje kirjeid)."
+  },
+  "notices": {
+    "edit": "Redigeerimine puudutab kõiki selle kanali kasutuskohti",
+    "duplicate": {
+      "create": {
+        "error": {
+          "title": "Kanalit ei loodud",
+          "message": "Nende juurdepääsuvalikutega kanal on juba olemas. Kasutage olemasolevat kanalit või muutke valikuid."
+        }
+      },
+      "update": {
+        "error": {
+          "title": "Kanalit ei uuendatud",
+          "message": "Nende juurdepääsuvalikutega kanal on juba olemas ja me ei saa neid uuendusi salvestada."
+        }
+      },
+      "action": "Kasuta olemasolevat kanalit"
+    },
+    "inaccessibleGroups": {
+      "title": "Mittekasutatavad grupid: {count}",
+      "message": "Saate vaadata või hallata mittekasutatavaid gruppe, vaid juhul, kui olete liige."
+    }
+  }
+}

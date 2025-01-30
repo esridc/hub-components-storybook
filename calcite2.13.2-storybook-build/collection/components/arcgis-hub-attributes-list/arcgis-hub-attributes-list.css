@@ -1,0 +1,48 @@
+:host {
+  display: block;
+  container-type: inline-size
+}
+
+.header {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between
+}
+
+@container (width < 500px) {
+  .header {
+    flex-direction: column
+  }
+}
+
+.header header {
+  font-size: var(--calcite-font-size-1);
+  line-height: 1.5rem;
+  font-weight: var(--calcite-font-weight-bold)
+}
+
+calcite-label {
+  margin-top: 0.25rem;
+  display: block
+}
+
+calcite-label:first-child {
+  margin-top: 0.75rem
+}
+
+calcite-label span {
+  font-weight: var(--calcite-font-weight-bold)
+}
+
+calcite-label div {
+  line-height: 1.375
+}
+
+calcite-tabs {
+  margin-top: 0.25rem
+}
+
+calcite-accordion + calcite-link {
+  margin-top: 0.5rem;
+  display: inline-block
+}

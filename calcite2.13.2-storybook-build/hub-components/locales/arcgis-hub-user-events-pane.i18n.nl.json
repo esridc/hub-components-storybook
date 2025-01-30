@@ -1,0 +1,29 @@
+{
+  "header": "Evenementen",
+  "myContent": "Mijn evenementen",
+  "editableContent": "Bewerkbare content",
+  "addEventButtonText": "Evenement maken",
+  "type": "Type",
+  "sharedUpdate": "Gedeelde update-groep",
+  "viewOnly": "Alleen-lezen-groep",
+  "owner": "Gemaakt door",
+  "starts": "Aan",
+  "from": "Van",
+  "until": "Tot",
+  "updated": "Bijgewerkt",
+  "tags": "Tags",
+  "dateCreated": "Gemaakt",
+  "dateUpdated": "Gewijzigd",
+  "actionLinks": {
+    "view": "Weergeven",
+    "edit": "Bewerken",
+    "ariaEdit": "Bewerken: {title}",
+    "ariaView": "Weergeven: {title}"
+  },
+  "access": {
+    "label": "Toegang",
+    "PRIVATE": "Privé",
+    "ORG": "Organisatie",
+    "PUBLIC": "Openbaar"
+  }
+}

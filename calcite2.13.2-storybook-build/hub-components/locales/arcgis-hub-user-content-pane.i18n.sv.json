@@ -1,0 +1,43 @@
+{
+  "content": "Innehåll",
+  "myContent": "Mitt innehåll",
+  "editableContent": "Redigerbart innehåll",
+  "addContentButtonText": "Skapa ny",
+  "type": "Typ",
+  "sharedUpdate": "Delad uppdateringsgrupp",
+  "viewOnly": "Skrivskyddad grupp",
+  "owner": "Ägare",
+  "updated": "Uppdaterad",
+  "tags": "Taggar",
+  "dateCreated": "Skapad",
+  "dateUpdated": "Ändrad",
+  "actionLinks": {
+    "view": "Visa",
+    "edit": "Redigera",
+    "ariaEdit": "Redigera {title}",
+    "ariaView": "Visa {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Innehåll",
+      "myContent": "Innehåll jag äger",
+      "editableContent": "Innehåll jag kan redigera",
+      "all": "Allt innehåll"
+    },
+    "access": {
+      "label": "Från"
+    },
+    "type": {
+      "label": "Typer"
+    },
+    "tags": {
+      "label": "Taggar"
+    },
+    "categories": {
+      "label": "Kategorier"
+    },
+    "modified": {
+      "label": "Ändrad"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "newFilter": "ตัวกรองใหม่",
+  "block": {
+    "heading": {
+      "untitled": "ตัวกรองใหม่",
+      "default": "ตัวกรอง {filterNum}: {parameter}",
+      "group": "ตัวกรอง {filterNum}: กลุ่ม",
+      "type": "ตัวกรอง {filterNum}: ประเภท",
+      "occurrence": "ตัวกรอง {filterNum}: เกิดขึ้น"
+    },
+    "actions": {
+      "delete": "ลบตัวกรอง: {label}"
+    }
+  }
+}

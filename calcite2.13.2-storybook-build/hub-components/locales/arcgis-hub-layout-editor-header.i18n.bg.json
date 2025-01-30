@@ -1,0 +1,39 @@
+{
+  "popover": {
+    "access": {
+      "org": "Споделено с организация",
+      "private": "Споделено със собственика",
+      "public": "Споделено публично",
+      "shared": "Споделено със собственик и групи"
+    },
+    "editLayout": "Редактиране на оформление",
+    "lastUpdated": "Последно обновено {updated}",
+    "viewSite": "Преглед на сайт"
+  },
+  "cloneLayoutLabel": "Клониране на оформление",
+  "deleteDraftLabel": "Изтриване на чернова",
+  "deletePageLabel": "Изтриване на страница",
+  "deleteSiteLabel": "Изтриване на сайт",
+  "editInAgoLabel": "Редактиране в ArcGIS Online",
+  "managePage": "Управление на страница",
+  "manageSite": "Управление на сайт",
+  "manageTemplate": "Управление на шаблон",
+  "moreOptionsLabel": "Още опции",
+  "publishLabel": {
+    "site": "Оформление за публикуване",
+    "page": "Оформление за публикуване",
+    "survey": "Публикуване"
+  },
+  "saveAsTemplateLabel": "Запазване като шаблон",
+  "saveLabel": {
+    "site": "Запазване на оформлението",
+    "page": "Запазване на оформлението",
+    "survey": "Запазване",
+    "template": "Запазване"
+  },
+  "sharingLabel": "Отваряне на панел за споделяне",
+  "editS123Label": "Редактиране в Survey123",
+  "viewLabel": "Изглед",
+  "viewPublishedLabel": "Преглед на публикувани",
+  "viewUnpublishedLabel": "Преглед на чернова"
+}

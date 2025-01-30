@@ -1,0 +1,15 @@
+{
+  "newCollection": "Nová sbírka",
+  "block": {
+    "heading": {
+      "untitled": "Sbírka bez názvu"
+    },
+    "actions": {
+      "delete": "Odstranit sbírku: {label}"
+    }
+  },
+  "name": {
+    "label": "Název",
+    "requiredError": "Název sbírky je povinný"
+  }
+}

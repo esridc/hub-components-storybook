@@ -1,0 +1,15 @@
+{
+  "newCollection": "새 컬렉션",
+  "block": {
+    "heading": {
+      "untitled": "제목 없는 컬렉션"
+    },
+    "actions": {
+      "delete": "컬렉션 삭제: {label}"
+    }
+  },
+  "name": {
+    "label": "이름",
+    "requiredError": "컬렉션 이름은 필수 입력 항목입니다."
+  }
+}

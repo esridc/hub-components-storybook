@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>arcgis-hub-chart</title>
+
+    <!-- TODO: are these fonts needed? -->
+    <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+
+    <!-- link to calcite components CSS  -->
+    <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+
+    <!-- NOTE: calcite web CSS is only used for grid layout of this page -->
+    <!-- see: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+    <link rel="stylesheet" href="../calcite-web.min.css" />
+
+    <style>
+      .header {
+        display: flex;
+        justify-content: space-between;
+      }
+      .column-8 {
+        margin-bottom: 2em;
+      }
+    </style>
+
+    <!-- configure components to fetch the ArcGIS Maps SDK from the CDN -->
+    <!-- NOTE: you will need to add this to any story that uses arcgis-hub-chart -->
+    <script async src="https://ga.jspm.io/npm:es-module-shims@1.6.2/dist/es-module-shims.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+        }
+      }
+    </script>
+
+    <!-- load calcite components -->
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+
+    <!-- load chart components -->
+    <!-- NOTE: you will need to add this to any story that uses arcgis-hub-chart -->
+    <link rel="stylesheet" href="../../arcgis-charts-components/arcgis-charts-components.css" />
+    <script type="module" src="../../arcgis-charts-components/arcgis-charts-components.esm.js"></script>
+
+    <!-- load hub components -->
+    <script type="module" src="../../build/hub-components.esm.js"></script>
+    <script nomodule src="../../build/hub-components.js"></script>
+  </head>
+
+  <body>
+    <div class="grid-container padding-leader-2">
+      <!-- docs about grid container: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+      <div class="column-24 trailer-2 header">
+        <calcite-button scale="l" href="/">Home</calcite-button>
+        <h2>arcgis-hub-chart</h2>
+      </div>
+
+      <div class="column-8">
+        <arcgis-hub-chart
+          chart-title="Views" />
+      </div>
+      <div class="column-8">
+        <arcgis-hub-chart
+          chart-title="Sessions" />
+      </div>
+      <div class="column-8">
+        <arcgis-hub-chart
+        chart-title="Time on Site" />
+      </div>
+      <div class="column-24">
+        <arcgis-hub-chart
+          chart-title="Details"
+          style="height: 400px" />
+      </div>
+    </div>
+
+    <script>
+      // set a property on the element
+      function setProp(title, key, value) {
+        const el = document.querySelector(`[chart-title="${title}"]`);
+        el[key] = value;
+      }
+
+      // fetch chart definition
+      async function fetchDefinition (key) {
+        const response = await fetch(`./telemetry_${key}.json`)
+        return response.json()
+      }
+
+      (async function () {
+        // fetch and set chart definitions
+        setProp('Views', 'definition', await fetchDefinition('views'));
+        setProp('Sessions', 'definition', await fetchDefinition('sessions'));
+        setProp('Time on Site', 'definition', await fetchDefinition('duration'));
+        setProp('Details', 'definition', await fetchDefinition('views_bar'));
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "shared": {
+    "targetEntities": {
+      "item": "Elemente",
+      "event": "Evenimente"
+    }
+  },
+  "targetEntityBlock": {
+    "configured": "Configurat",
+    "notConfigured": "Neconfigurat"
+  },
+  "targetEntityFlow": {
+    "back": "Închideți configurația: {targetEntity}",
+    "description": "Configurați: {targetEntity}",
+    "source": {
+      "heading": "Sursă",
+      "description": "Sursele definesc scopul conținutului. Modificați rezultatele prin includerea sau excluderea parametrilor.<br/><br/>*indică un câmp obligatoriu"
+    },
+    "collections": {
+      "heading": "Colecții",
+      "description": "Organizați conținutul în subseturi distincte pentru răsfoirea mai ușoară și descoperire.<br/><br/>*indică un câmp obligatoriu"
+    }
+  }
+}

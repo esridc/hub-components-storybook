@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "結果が見つかりません。"
+    },
+    "error": {
+      "message": "申し訳ありませんが、検索中にエラーが発生しました。"
+    }
+  },
+  "access": "アクセス",
+  "actionsHeader": "アクション",
+  "caption": "Hub エンティティ テーブル",
+  "family": "ファミリー",
+  "type": "タイプ",
+  "tags": "タグ",
+  "owner": "所有者",
+  "dateCreated": "作成日",
+  "dateUpdated": "更新",
+  "description": "説明",
+  "dateAndTime": "日時",
+  "location": "位置",
+  "attendanceType": "参加者タイプ",
+  "inPerson": "対面",
+  "online": "オンライン",
+  "hybrid": "ハイブリッド",
+  "categories": "カテゴリ",
+  "content": "コンテンツ",
+  "name": "名前",
+  "start": "開始",
+  "end": "終了",
+  "sharedUpdate": "共有の更新",
+  "managers": "マネージャー",
+  "username": "ユーザー名",
+  "no": "いいえ",
+  "yes": "はい",
+  "title": "タイトル",
+  "thumbnail": "サムネイル",
+  "types": {
+    "app": "アプリケーション",
+    "content": "コンテンツ",
+    "dataset": "データセット",
+    "discussion": "ディスカッション ボード",
+    "document": "ドキュメント",
+    "event": "イベント",
+    "feedback": "フィードバック",
+    "initiative": "イニシアティブ",
+    "image": "画像",
+    "map": "マップ",
+    "other": "その他",
+    "people": "人物",
+    "site": "サイト",
+    "team": "グループ",
+    "template": "テンプレート",
+    "project": "プロジェクト"
+  }
+}

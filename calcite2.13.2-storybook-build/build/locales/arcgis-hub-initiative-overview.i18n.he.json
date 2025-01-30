@@ -1,0 +1,23 @@
+{
+  "overview": "תמונה כללית",
+  "telemetry": {
+    "pageViews": "צפיות בדף",
+    "last30days": "30 הימים האחרונים",
+    "lastUpdated": "עודכן לאחרונה לפני {hoursElapsed} שעות",
+    "checkTomorrow": "בקר שוב מחר"
+  },
+  "learnAbout": "למד אודות יוזמות של Hub",
+  "feedbackNotice": {
+    "message": "מה דעתך על יוזמות Hub? נשמח לשמוע כיצד ייתכן ותעשה בכך שימוש.",
+    "link": "שלח משוב"
+  },
+  "status": {
+    "notStarted": "לא התחיל",
+    "inProgress": "בביצוע",
+    "onHold": "בהמתנה",
+    "complete": "הושלם"
+  },
+  "editDetails": "ערוך פרטים",
+  "noPurposeSet": "לא הוגדרה מטרה",
+  "noLocationSet": "לא הוגדר מיקום"
+}

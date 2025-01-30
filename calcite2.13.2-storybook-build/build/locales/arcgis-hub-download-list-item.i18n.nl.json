@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "Objectverzameling",
+    "fgdb": "File Geodatabase",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Shapefile",
+    "sqlite": "SQLite-geodatabase"
+  },
+  "buttonText": {
+    "download": "Downloaden",
+    "pending": "In behandeling",
+    "processing": "Bezig met verwerken",
+    "converting": "Bezig met omzetten",
+    "completed": "Downloaden is voltooid",
+    "failed": "Downloaden is mislukt"
+  },
+  "errors": {
+    "errorHeading": "Fout"
+  },
+  "cacheStatusAccordion": {
+    "heading": "Hebt u gevonden wat u nodig hebt?",
+    "content": "Er is mogelijk een nieuwere versie beschikbaar.",
+    "button": "Nieuw bestand aanvragen"
+  },
+  "generateNewModal": {
+    "heading": "Weet u het zeker?",
+    "content": "Dit kan even duren. Houd dit browsertabblad actief tot de download voltooid is.",
+    "confirmButton": "Ja",
+    "cancelButton": "Annuleren"
+  }
+}

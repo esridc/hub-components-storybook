@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Aucun résultat trouvé."
+    },
+    "error": {
+      "message": "Malheureusement, une erreur s’est produite lors de la recherche."
+    }
+  },
+  "type": "Type",
+  "tags": "Balises",
+  "owner": "Propriétaire",
+  "dateCreated": "Création",
+  "dateUpdated": "Modification",
+  "categories": "Catégories",
+  "dateAndTime": "Date et heure",
+  "allDay": "{date} (toute la journée)",
+  "allDayRange": "Du {from} au {to} (toute la journée)",
+  "location": "Localisation",
+  "attendanceType": "Type de participation",
+  "inPerson": "En présentiel",
+  "online": "En ligne",
+  "hybrid": "Hybride"
+}

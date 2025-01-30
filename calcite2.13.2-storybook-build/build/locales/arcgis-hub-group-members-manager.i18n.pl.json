@@ -1,0 +1,59 @@
+{
+  "title": "Członkowie",
+  "facets": {
+    "role": {
+      "label": "Rola",
+      "all": "Wszyscy",
+      "manager": "Menedżer",
+      "member": "Członek"
+    },
+    "dateJoined": {
+      "label": "Data dołączenia"
+    }
+  },
+  "stats": {
+    "total": {
+      "title": "Razem",
+      "trailingText": "Członkowie grupy"
+    },
+    "new": {
+      "title": "Nowi",
+      "trailingText": "Ostatnie 30 dni"
+    }
+  },
+  "addMembers": {
+    "button": "Dodaj członków",
+    "disabledTooltip": "Nie masz uprawnień do dodawania użytkowników do tej grupy.",
+    "modal": {
+      "title": "Dodaj członków",
+      "org": "Moja instytucja",
+      "community": "Moja społeczność",
+      "partner": "Moi partnerzy",
+      "world": "Świat"
+    },
+    "notifications": {
+      "invited": "Wysłano zaproszenie. Użytkownicy muszą zaakceptować zaproszenie",
+      "added": "Dodano użytkowników",
+      "notInvited": "Niektórzy użytkownicy mogą nie mieć uprawnień wymaganych do dołączenia do tej grupy lub mógł zostać osiągnięty maksymalny limit wielkości grupy (512)."
+    }
+  },
+  "removeUsers": {
+    "button": "Usuń",
+    "success": "Pomyślnie usunięto członków z grupy {groupName}.",
+    "error": "Nie udało się usunąć z grupy co najmniej jednego użytkownika."
+  },
+  "changeRole": {
+    "tooltipText": "Anuluj wybór siebie i/lub właściciela grupy",
+    "tooltipLabel": "Zastrzeżenie dotyczące roli",
+    "button": "Zmień rolę",
+    "member": "Członek",
+    "memberHelperText": "Może dodawać i wyświetlać zasoby w obrębie grupy.",
+    "admin": "Menedżer",
+    "adminHelperText": "Może dodawać/usuwać zasoby oraz zapraszać/usuwać osoby (z wyjątkiem właściciela).",
+    "success": "Wybrani członkowie pełnią w grupie rolę: {role}.",
+    "error": "Nie można zmienić roli co najmniej jednego członka."
+  },
+  "notice": {
+    "label": "Alert dotyczący formularza"
+  }
+}

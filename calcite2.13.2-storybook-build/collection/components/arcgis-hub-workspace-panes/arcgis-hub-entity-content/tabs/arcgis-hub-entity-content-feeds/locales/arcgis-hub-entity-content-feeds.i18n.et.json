@@ -1,0 +1,81 @@
+{
+  "tabTitle": "Voogude konfigureerimine",
+  "learn": "Teave Hubi voogude kohta",
+  "loadingLabel": "Laadimine",
+  "enableFeedsToggle": {
+    "label": "Luba vood",
+    "privateNotice": "Voogude lubamiseks peate kõigepealt seadma oma Hubi saidi olekuks „Avalik“.",
+    "emptyPublicCatalog": {
+      "message": "Voogude lubamiseks peate kõigepealt lisama oma kataloogi avaliku sisu.",
+      "button": "Kuva kataloog"
+    },
+    "grouplessCatalog": {
+      "message": "Voogude lubamiseks peate kõigepealt oma kataloogi konfigureerima.",
+      "button": "Konfigureerige kataloog"
+    }
+  },
+  "gettingStartedNotice": {
+    "title": "Alustamine",
+    "exampleMessage": "Võtme või väärtuse esile tõstmiseks ja uuendamiseks saate kasutada JSON-i redaktoris literaali („VALUE“) või malli („{{TEMPLATE_VALUE}}“) väärtust.",
+    "previewMessage": "Selleks et kuvada muudatuste eelvaade, kasutage nuppu „Eelvaade“. Lisateavet leiate <catalogFederationLink>kataloogi liidendamise abidokumentatsioonist</catalogFederationLink>."
+  },
+  "aboutFeedsNotice": {
+    "message": "Muutke oma avalikud avatud andmed Hubi voogude abil hõlpsasti juurdepääsetavaks ja korduskasutatavaks.",
+    "link": "Teave Hubi voogude kohta"
+  },
+  "feedsEditorSection": {
+    "title": "Vood",
+    "formatSelectLabel": "Valige voo tüüp...",
+    "uneditableAttributesIntro": "Pange tähele, et järgmisi atribuute ei saa muuta:",
+    "edit": "Muuda",
+    "preview": "Eelvaade",
+    "selectContentNotice": "Valige eelvaate kuvamiseks sisu.",
+    "invalidJsonEditorWarning": "Vigane JSON. Parandage vead enne salvestamist.",
+    "invalidJsonPreviewWarning": "Vigase JSONi eelvaade ei ole võimalik, palun parandage vead.",
+    "errorPreviewingWarning": "Esines tõrge. Kontrollige ühendust ja proovige uuesti. Kui probleem püsib, logige Hubi toes programmiviga."
+  },
+  "toolsSection": {
+    "title": "Töövahendid",
+    "verification": "Kinnitamine",
+    "previewSampleData": {
+      "label": "Näiteandmete eelvaade",
+      "pickerFacets": {
+        "type": "Tüüp",
+        "tags": "Märksõna",
+        "categories": "Kategooria",
+        "sharing": "Jagamine",
+        "dateUpdated": "Uuendamise kuupäev"
+      }
+    },
+    "copyableInputLabel": "Voo juurdepääsu URL"
+  },
+  "dcat-us": {
+    "1.1": {
+      "title": "DCAT-US 1.1",
+      "description": "DCAT võimaldab organisatsioonidel standardida andmete jaotust ning aitab inimestel sõeluda riigi ressursse. Saate kasutada projekti avatud andmete põhjal loodud <dcatUsSchemaLink>DCAT-i skeemi</dcatUsSchemaLink>, mis on vaikekonfiguratsioon, või konfigureerida teatud väljad/atribuudid ise. Saidiadministraatorid saavad lisada ka muid DCAT-i konfiguratsioone ja võiksid lugeda meie dokumentatsiooni <catalogFederationLink>andmete ühendamise kohta DCAT-i ja muude väliste kataloogidega.</catalogFederationLink>",
+      "uneditableAttributes": "@type, landingPage, webService ja contactPoint['@type'].",
+      "verificationLabel": "Saate kontrollida oma DCAT-voogu, kleepides saidi DCAT URL-i jaotisse <dcatUsVerificationLink>Projekti Open Data validaator</dcatUsVerificationLink>."
+    }
+  },
+  "dcat-ap": {
+    "2.1.1": {
+      "title": "DCAT-AP 2.1.1",
+      "description": "Euroopa Komisjoni loodud DCAT-AP on standardne metaandmete vahetusvorming Euroopa andmekataloogides. ArcGIS Hub loob ja värskendab automaatselt teie saidi DCAT-AP voogu, kui redigeerite oma sisu metaandmete üksikasju või lisate oma kataloogi uut avalikku sisu. Kuna voog kasutab ArcGIS Online’is hoitavaid metaandmeid, ei ole vaja eraldi DCAT-AP metaandmeid käsitsi luua.<lineBreak></lineBreak><lineBreak></lineBreak>Selle redaktori abil saate säilitada ArcGIS Hubi <dcatApSchemaLink>DCAT-AP skeemi</dcatApSchemaLink> vaikekonfiguratsiooni või ise konfigureerida teatud välju/atribuute. Võite ka lisada DCAT-AP välju/atribuute. Lisateabe saamiseks vaadake ArcGIS Hubi dokumentatsiooni <catalogFederationLink>andmete ühendamise kohta DCAT-i ja muude väliste kataloogidega</catalogFederationLink>.",
+      "uneditableAttributes": "@type, @id, dcat:contactPoint['@id'], dcat:contactPoint['@type'], dct:publisher, dcat:theme, dct:accessRights, dcat:keyword, dct:provenance, dct:issued ja dct:language",
+      "verificationLabel": "Saate kontrollida oma DCAT-voogu, kleepides saidi DCAT URL-i jaotisse<dcatApVerificationLink>Euroopa Komisjoni koostalitlusvõime katsesüsteem</dcatApVerificationLink>."
+    }
+  },
+  "rss": {
+    "2.0": {
+      "title": "RSS 2.0",
+      "description": "<rssAboutLink>RSS 2</rssAboutLink> on veebisisu kogumise vorming, mis vastab <xmlSpecLink>XML 1.0 tehnilistele andmetele</xmlSpecLink>. Selle redaktori abil saate säilitada ArcGIS Hubi vaikekonfiguratsiooni või konfigureerida teatud väljad/atribuudid ise. Lisateabe saamiseks vaadake ArcGIS Hubi dokumentatsiooni <catalogFederationLink>andmete ühendamise kohta DCAT-i ja muude väliste kataloogidega</catalogFederationLink>.",
+      "verificationLabel": "Saate kinnitada oma RSS-kanali, kui edastate oma saidi RSS-i URL-i W3 <rssVerificationLink>voovalidaatorisse</rssVerificationLink>."
+    }
+  },
+  "saveButton": "Salvesta",
+  "alertMessages": {
+    "success": "Muudatused on salvestatud",
+    "error": "Tõrge muudatuste salvestamisel"
+  },
+  "formAlert": "Vormi hoiatus"
+}

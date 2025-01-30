@@ -1,0 +1,91 @@
+{
+  "moreResults": "תוצאות נוספות",
+  "search": "חיפוש",
+  "filter": "מסננים",
+  "viewResults": "הצג תוצאות ({numResults})",
+  "resultsCount": "1 - {pageTotal} מתוך {searchTotal}",
+  "backToTop": "חזרה למעלה",
+  "facets": {
+    "access": {
+      "label": "שיתוף",
+      "private": "אני",
+      "shared": "בעלים וקבוצות",
+      "org": "ארגון",
+      "public": "ציבורי"
+    },
+    "license": {
+      "label": "רישיון",
+      "tooltip": "בתוכן ציבורי בלבד",
+      "custom": "מותאם אישית",
+      "none": "ללא"
+    },
+    "type": {
+      "label": "סוג"
+    },
+    "tags": {
+      "label": "תגיות"
+    },
+    "dateUpdated": {
+      "label": "תאריך עדכון"
+    },
+    "source": {
+      "label": "מקור",
+      "tooltip": "תוכן ציבורי מארגונים שונים"
+    },
+    "categories": {
+      "label": "קטגוריות"
+    },
+    "location": {
+      "label": "מיקום",
+      "tooltip": "החל את תיחום המפה כפילטר מיקום"
+    },
+    "event": {
+      "from": {
+        "label": "בעלות",
+        "myContent": "אני",
+        "myOrganization": "הארגון שלי",
+        "world": "כל אחד"
+      },
+      "access": {
+        "label": "גישה",
+        "private": "פרטי",
+        "org": "ארגון",
+        "public": "ציבורי"
+      },
+      "startDate": {
+        "label": "תאריך אירוע"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "סוג",
+        "all": "כולם",
+        "view": "הצג",
+        "edit": "עריכה"
+      },
+      "role": {
+        "label": "תפקיד",
+        "all": "כולם",
+        "member": "חבר",
+        "manager": "מנהל",
+        "owner": "בעלים"
+      },
+      "sharing": {
+        "label": "נראות",
+        "private": "פרטי",
+        "public": "ציבורי"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "הצג רשימה",
+    "grid": "הצג גריד",
+    "map": "מפת תצוגה",
+    "compact": "תצוגה דחוסה",
+    "calendar": "תצוגת לוח שנה",
+    "table": "תצוגת טבלה"
+  },
+  "galleryActionsLabel": "פעולות נוספות",
+  "selected": "נבחר: {count}",
+  "popoverActionButtonLabel": "פעולות נוספות"
+}

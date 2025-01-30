@@ -1,0 +1,150 @@
+{
+  "modal": {
+    "dismiss": "Ne jelenjen meg ismét",
+    "close": "Bezárás"
+  },
+  "notice": {
+    "n001": {
+      "title": "Teszttel kapcsolatos megjegyzés",
+      "message": "Ez a teszttel kapcsolatos megjegyzés szövegtörzse",
+      "actions": [
+        {
+          "text": "Blog olvasása"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-1": {
+      "title": "Váltás a frissített letöltési élményre",
+      "message": "További formátumok, valamint a sebesség- és teljesítményjavulás érdekében engedélyezze ezen elem szolgáltatásán a „kinyerés” lehetőséget."
+    },
+    "20240220-hosted-downloads-2": {
+      "title": "Megérkeztek a letölthető fejlesztések!",
+      "message": "A Hub-webhelyek letölthető tartalmait érintő fejlesztések közé tartozik a központilag tárolt letölthető tartalmak támogatása, a letölthető tartalmak kártyáinak frissített megjelenése és felülete, valamint a letöltések új előrehaladást jelző sávja.",
+      "actions": [
+        {
+          "text": "További információ"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-3": {
+      "title": "Megérkeztek a központilag tárolt letölthető tartalmak!",
+      "message": "A központilag tárolt letölthető tartalmak javítják a teljesítményt tartalom letöltésekor. A központilag tárolt letölthető tartalmak engedélyezéséhez feltétlenül engedélyezze alább a Képességek kinyerése funkciót.",
+      "actions": [
+        {
+          "text": "További információ"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-basic": {
+      "title": "A munkaterületekről",
+      "message": "<p><strong>Tartalom hozzáadása a webhelykatalógusokhoz csoportok használatával</strong><br>A webhelykereső katalógusokat mindig is csoportok működtették, a munkaterületek pedig megkönnyítik a csoportok kezelését. Egyelőre adjon hozzá tartalmat a webhelyhez kapcsolódó egyes csoportokhoz, hogy azok megjelenjenek a webhelykatalógusban. Hamarosan képes lesz arra, hogy közvetlenül adjon hozzá tartalmat a katalógusához.</p><p><strong>Átállás a csapatokról a csoportokra</strong><br>Mostantól bármelyik ArcGIS Online-csoportot használhatja a Hubban található webhelyeken, oldalakon, tartalmakon és projekteken való együttműködésre. Valamennyi korábban összekapcsolt „csapat” – így például a webhely „alapcsapatja\" is – továbbra is megjelenik a webhely munkaterületének Közreműködők paneljén.</p><p><strong>A csapatalapú e-mailes üzenetküldés átmenetileg szünetel</strong><br>A csapattagoknak és követőknek küldött e-mail-üzenetek és meghívó/eltávolító e-mailek küldése jelenleg nem támogatott.</p><p><strong>A beágyazott Survey123 webhelytervező megszüntetése</strong><br>Beágyaztuk a Survey 123 tervezőt, hogy segítségével hatékonyabb lehessen a Hubban. Az ügyfelek visszajelzései ugyanakkor azt mutatták, hogy más alkalmazásokhoz hasonlóan a Survey123-ban is szívesebben terveznek és kezelnek felméréseket. Ezért az ArcGIS Hubba beágyazott Survey 123 tervező támogatását megszüntetjük, hogy jobban igazodjunk az Önök által kívánt munkafolyamathoz.</p>",
+      "actions": [
+        {
+          "text": "További információ"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-premium": {
+      "title": "A munkaterületekről",
+      "message": "<p><strong>Tartalom hozzáadása a webhelykatalógusokhoz csoportok használatával</strong><br>A webhelykereső katalógusokat mindig is csoportok működtették, a munkaterületek pedig megkönnyítik a csoportok kezelését. Egyelőre adjon hozzá tartalmat a webhelyhez kapcsolódó egyes csoportokhoz, hogy azok megjelenjenek a webhelykatalógusban. Hamarosan képes lesz arra, hogy közvetlenül adjon hozzá tartalmat a katalógusához.</p><p><strong>Átállás a csapatok támogatásáról a csoportokra</strong><br>Mostantól bármelyik ArcGIS Online-csoportot használhatja a Hubban található webhelyeken, oldalakon, tartalmakon és projekteken való együttműködésre. Valamennyi korábban összekapcsolt támogató csapat továbbra is megjelenik a Webhely munkaterületének Közreműködők paneljén. A folyamatos támogatás érdekében adja hozzá ezeket a támogató csapatokat a Megtekintésre jogosult csoportokhoz és a Szerkesztésre jogosult csoportokhoz.</p><p><strong>A csapatalapú e-mailes üzenetküldés átmenetileg szünetel</strong><br>A csapattagoknak és követőknek küldött e-mail-üzenetek és meghívó/eltávolító e-mailek küldése jelenleg nem támogatott.</p><p><strong>A beágyazott Survey123 webhelytervező megszüntetése</strong><br>Beágyaztuk a Survey 123 tervezőt, hogy segítségével hatékonyabb lehessen a Hubban. Az ügyfelek visszajelzései ugyanakkor azt mutatták, hogy más alkalmazásokhoz hasonlóan a Survey123-ban is szívesebben terveznek és kezelnek felméréseket. Ezért az ArcGIS Hubba beágyazott Survey 123 tervező támogatását megszüntetjük, hogy jobban igazodjunk az Önök által kívánt munkafolyamathoz.</p><p><strong>Az események egyelőre nem állnak rendelkezésre a munkaterületeken</strong><br>Az események átalakulnak, és hamarosan a munkaterületeken belül válnak hozzáférhetővé. Egyelőre, ha a munkaterületeket választja, elveszíti az új események létrehozásának, valamint a meglévő események kezelésének és keresésének lehetőségét. Ha azonban szeretné kezelni a korábban létrehozott eseményeket, bármikor kinyilváníthatja, hogy nem kívánja a munkaterületeket használni.</p>",
+      "actions": [
+        {
+          "text": "További információ"
+        }
+      ]
+    },
+    "202404-workspaceannouncement": {
+      "title": "A munkaterületek bemutatása",
+      "message": "A munkaterületek az elemek szerkesztésének és kezelésének új módja a Hubban – a globális navigáció helyett a szerkesztési nézetben (nem élő nézetben). Ebben a szakaszban (bármikor) kinyilváníthatja szándékát a munkaterületek és a kapcsolódó funkciók használatára az elemekkel és csoportokkal kapcsolatban. Az események egy későbbi időpontban válnak elérhetővé. Ha szeretné most kipróbálni a munkaterületeket, válassza az „Ugrás a beállításokhoz” lehetőséget.",
+      "actions": [
+        {
+          "text": "Ugrás a beállításokhoz"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing": {
+      "title": "A Hub-kezdeményezések újbóli bevezetése",
+      "message": "Az ArcGIS Hub-kezdeményezések megváltoztak 2024. július 2-án. A korábban létrehozott kezdeményezések most önálló webhelyek — ugyanazokat az elrendezéseket, tartalmakat, URL-eket és prémium funkciókat (pl. követők és események) tartalmazzák, mint korábban. A megújult kezdeményezések kipróbálásához engedélyeznie kell a munkaterületeket.",
+      "actions": [
+        {
+          "text": "Ismerje meg a kezdeményezéseket",
+          "ariaLabel": "Információ a kezdeményezésekről (új lapon nyílik meg)"
+        },
+        {
+          "text": "Ugrás a beállításokhoz"
+        }
+      ]
+    },
+    "20240517-initiatives-manage": {
+      "title": "Régi kezdeményezések kezelése",
+      "message": "Az ArcGIS Hub-kezdeményezések megváltoztak 2024. július 2-án. A korábban létrehozott kezdeményezések most önálló webhelyek — ugyanazokat az elrendezéseket, tartalmakat, URL-eket és prémium funkciókat (pl. követők és események) tartalmazzák, mint korábban. Biztonságosan törölheti bármelyik régi kezdeményezést.",
+      "actions": [
+        {
+          "text": "Ismerje meg a kezdeményezéseket",
+          "ariaLabel": "Információ a kezdeményezésekről (új lapon nyílik meg)"
+        },
+        {
+          "text": "Régi kezdeményezések megtekintése",
+          "ariaLabel": "Korábbi kezdeményezések megtekintése (új lapon nyílik meg)"
+        }
+      ]
+    },
+    "20240517-initiatives-manage-no-priv": {
+      "title": "Régi kezdeményezések kezelése",
+      "message": "Az ArcGIS Hub-kezdeményezések megváltoztak 2024. július 2-án. A korábban létrehozott kezdeményezések most önálló webhelyek — ugyanazokat az elrendezéseket, tartalmakat, URL-eket és prémium funkciókat (pl. követők és események) tartalmazzák, mint korábban. Biztonságosan törölheti bármelyik régi kezdeményezést.",
+      "actions": [
+        {
+          "text": "Ismerje meg a kezdeményezéseket",
+          "ariaLabel": "Információ a kezdeményezésekről (új lapon nyílik meg)"
+        },
+        {
+          "text": "Régi kezdeményezések megtekintése",
+          "ariaLabel": "Korábbi kezdeményezések megtekintése (új lapon nyílik meg)"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing-site": {
+      "title": "A Hub-kezdeményezések újbóli bevezetése",
+      "message": "A Hub-kezdeményezések új generációja már elérhető a munkaterületeken. A kezdeményezések saját, könnyen létrehozható nézettel rendelkeznek, és segíthetnek az azonos hosszú távú célokkal rendelkező Hub-projektek összehangolásában. A kezdeményezések önállóan hozhatók létre, és megoszthatók akár több webhellyel is. A webhelyeken akár több kezdeményezés is szerepelhet.",
+      "actions": [
+        {
+          "text": "További információ",
+          "ariaLabel": "További információ (új lapon nyílik meg)"
+        }
+      ]
+    },
+    "20240710-slow-service-warning": {
+      "title": "Szolgáltatás kimaradása",
+      "message": "A szolgáltatással folytatott kommunikáció a vártnál több időt vesz igénybe. Ez befolyásolhatja a letöltésekhez és a térképfunkciókhoz való hozzáférést."
+    },
+    "20240710-unreachable-service-error": {
+      "title": "A szolgáltatás nem érhető el",
+      "message": "Nem tudtuk felvenni a kapcsolatot a gazdagép szolgáltatással. A letöltések és a térképfunkciók jelenleg nem érhetők el ehhez az elemhez."
+    },
+    "20240807-auth-required-status": {
+      "title": "A szolgáltatás státusza ismeretlen",
+      "message": "A biztonságos szolgáltatáshoz nem tudunk hozzáférni, mert további autorizációt igényel. A letöltések és a térképfunkciók jelenleg nem érhetők el ehhez az elemhez."
+    },
+    "20240805-private-downloads-unavailable-ago-error": {
+      "title": "A Letöltések nem érhetők el",
+      "message": "A tartalom letöltéséhez az ArcGIS Online-ban engedélyezni kell az Adatok exportálása beállítást. A beállítás engedélyezéséhez lépjen kapcsolatba az elem tulajdonossal."
+    },
+    "20240805-private-downloads-unavailable-enterprise-error": {
+      "title": "A Letöltések nem érhetők el",
+      "message": "A tartalom letöltéséhez az ArcGIS Enterprise-ban engedélyezni kell az Adatok exportálása beállítást. A beállítás engedélyezéséhez lépjen kapcsolatba az elem tulajdonossal."
+    },
+    "20240819-download-formats-disabled": {
+      "title": "A letöltések le vannak tiltva",
+      "message": "Az elem tartalmának letöltéséhez lépjen kapcsolatba az elem tulajdonosával."
+    },
+    "20241104-about-feeds-notice": {
+      "message": "Könnyen hozzáférhetővé és újrafelhasználhatóvá teheti nyilvános, nyílt adatait a Hub adatcsatornák segítségével.",
+      "actions": [
+        {
+          "text": "Ismerje meg a Hub adatcsatornákat",
+          "ariaLabel": "Tudjon meg többet a Hub-hírcsatornákról, új lapon nyílik meg"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "all": "すべて",
+  "source": "ソース",
+  "targetEntity": {
+    "item": "アイテム",
+    "group": "グループ",
+    "user": "ユーザー",
+    "portalUser": "ポータル ユーザー",
+    "communityUser": "コミュニティ ユーザー",
+    "groupMember": "グループ メンバー",
+    "event": "イベント",
+    "channel": "チャンネル",
+    "discussionPost": "投稿",
+    "eventAttendee": "イベント登録者"
+  }
+}

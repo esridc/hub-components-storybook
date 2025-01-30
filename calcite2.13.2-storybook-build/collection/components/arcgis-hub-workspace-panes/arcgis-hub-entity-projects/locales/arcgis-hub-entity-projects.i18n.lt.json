@@ -1,0 +1,178 @@
+{
+  "projectsTitle": "Projektai",
+  "description": "Susiekite su papildančiais projektais, kad galėtumėte stebėti pažangą nurodytu laiku ar nurodytoje erdvėje. Iniciatyvos susiejimų grupė valdo patvirtintus susiejimus ir laukiančias susiejimų užklausas.",
+  "subDescription": "Projektai su patvirtintais susiejimais bus rodomi šiame iniciatyvos rodinyje.",
+  "project": "projektas",
+  "initiative": "iniciatyva",
+  "helpStates": {
+    "noAccess": {
+      "heading": "Nėra prieigos",
+      "message": "Neturite prieigos peržiūrėti susietą grupę."
+    },
+    "missingGroup": {
+      "heading": "Trūksta susietos grupės",
+      "message": {
+        "overview": "Susiejimų grupė prižiūrės, kurie projektai bus susieti, ir atsiskaitys iniciatyvai.",
+        "members": "Šios grupės nariai galės siųsti arba patvirtinti susiejimo užklausas."
+      },
+      "action": "Kurti grupę",
+      "formLabel": "Nauja susieta grupė",
+      "description": "Kurti susietą grupę, kad valdytumėte ryšius"
+    },
+    "requestsWaiting": {
+      "heading": "Trūksta susietos grupės",
+      "message": {
+        "overview": "Susiejimų grupė prižiūrės, kurie projektai bus susieti, ir atsiskaitys iniciatyvai.",
+        "members": "Šios grupės nariai galės siųsti arba patvirtinti susiejimo užklausas.",
+        "requests": "Laukiančios projekto užklausos: {count}"
+      },
+      "action": "Kurti grupę",
+      "formLabel": "Nauja susieta grupė",
+      "description": "Kurti susietą grupę, kad valdytumėte ryšius"
+    }
+  },
+  "shared": {
+    "project": "projektas",
+    "associationGroup": "susieta grupė",
+    "error": {
+      "title": "Įvyko klaida",
+      "message": "Galite neturėti tinkamų prieigos teisių, kad galėtumėte siųsti arba valdyti susiejimą su šiuo {type}."
+    },
+    "facets": {
+      "access": {
+        "label": "Bendrinimas"
+      },
+      "status": {
+        "label": "Būsena",
+        "notStarted": "Nepradėta",
+        "inProgress": "Vykdoma",
+        "onHold": "Sulaikyta",
+        "complete": "Baigta"
+      },
+      "tags": {
+        "label": "Žymos"
+      }
+    },
+    "tabs": {
+      "projects": "Projektai",
+      "members": "Nariai",
+      "settings": "Nustatymai"
+    },
+    "disabledActionTooltip": "Tik grupių valdytojai gali valdyti susiejimą su šiuo {type}."
+  },
+  "createAssociationGroup": {
+    "defaultSummary": "Tvarkykite elementus, susietus su {name} {type} naudodami susietą grupę."
+  },
+  "members": {
+    "facets": {
+      "role": {
+        "label": "Vaidmuo",
+        "all": "Visi",
+        "manager": "Valdytojas",
+        "member": "Narys"
+      },
+      "dateJoined": {
+        "label": "Prisijungimo data"
+      }
+    },
+    "addMembers": {
+      "button": "Įtraukti narius",
+      "modal": {
+        "title": "Įtraukti narius",
+        "org": "Mano organizacija",
+        "community": "Mano bendruomenė",
+        "partner": "Mano partneriai",
+        "world": "Pasaulis"
+      },
+      "notifications": {
+        "invited": "Pakvietimas išsiųstas. Naudotojai turi sutikti prisijungti",
+        "added": "Naudotojas (-ai) prijungtas (-i)",
+        "notInvited": "Kai kurie naudotojai gali neturėti teisių, reikalingų prisijungti prie grupės, arba jiems gali būti taikomas didžiausias grupės limitas (512)"
+      }
+    },
+    "removeUsers": {
+      "button": "Pašalinti",
+      "success": "Nariai sėkmingai pašalinti iš {groupName}.",
+      "error": "Vieno ar daugiau naudotojų nepavyko pašalinti iš grupės."
+    },
+    "changeRole": {
+      "button": "Pakeisti vaidmenį",
+      "member": "Narys",
+      "memberHelperText": "Gali pridėti ir matyti grupės turinį.",
+      "tooltipText": "Atšaukite save ir (arba) grupės savininką",
+      "tooltipLabel": "Rolės atsakomybės atsisakymas",
+      "admin": "Valdytojas",
+      "adminHelperText": "Gali pridėti / pašalinti turinį ir pakviesti / pašalinti žmones (išskyrus savininką).",
+      "success": "Pasirinkti nariai tapo grupės {role}.",
+      "error": "Vienam ar daugiau narių nepavyko pakeisti vaidmens."
+    },
+    "stats": {
+      "total": {
+        "title": "Iš viso",
+        "trailingText": "Nariai"
+      },
+      "new": {
+        "title": "Naujas",
+        "trailingText": "Pastarųjų 30 dienų"
+      }
+    }
+  },
+  "projects": {
+    "requestAssociation": {
+      "findProjects": "Rasti projektus",
+      "sendRequest": "Siųsti užklausą",
+      "success": {
+        "title": "Pavyko",
+        "message": "Išsiųsta susiejimo užklausų: {count}"
+      },
+      "alreadyRequesting": {
+        "title": "Tikrinti susiejimus",
+        "message": "Kai kuriems pasirinktiems elementams jau pateiktos susiejimo užklausos. Išsiųsta naujų susiejimo užklausų: {count}"
+      },
+      "catalog": {
+        "myContent": "Mano turinys",
+        "favorites": "Mėgstamiausi",
+        "organization": "Organizacija",
+        "world": "Pasaulis (viešai)"
+      },
+      "collection": {
+        "projects": "Projektai"
+      }
+    },
+    "acceptAssociation": {
+      "label": "Priimti",
+      "success": {
+        "title": "Pavyko",
+        "message": "Susiejimas su {requestor} priimtas"
+      }
+    },
+    "cancelRequest": {
+      "label": "Atšaukti užklausą",
+      "success": {
+        "title": "Pavyko",
+        "message": "Susiejimo užklausa atšaukta"
+      }
+    },
+    "breakAssociation": {
+      "label": "Atjungti",
+      "success": {
+        "title": "Susiejimas nutrauktas",
+        "message": "Atjungėme šį elementą nuo jo ankstesnio susiejimo. Tačiau negalime atšaukti sprendimo iš kitos pusės, todėl galite jį vis dar matyti prie gaunamų užklausų."
+      }
+    },
+    "associationsGallery": {
+      "sources": "Būsena",
+      "catalog": {
+        "associated": "Susieta",
+        "requesting": "Gaunamos užklausos",
+        "pending": "Siunčiamos užklausos"
+      },
+      "collection": {
+        "projects": "Projektai"
+      }
+    }
+  },
+  "notice": {
+    "label": "Formos įspėjimas"
+  }
+}

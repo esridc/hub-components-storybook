@@ -1,0 +1,82 @@
+{
+  "title": "参与",
+  "subtitle": "设置讨论板可见性（可以查看的人员），向下滚动以设置可以编辑讨论板信息的人员，然后设置频道的参与和审核。",
+  "channelTitle": "设置了参与渠道",
+  "channelDescription": "此渠道用于控制可在此讨论板上添加、查看和审核帖子的人员。",
+  "addChannelsTitle": "设置频道",
+  "addChannelsDescription": "频道用于控制可以向讨论板添加帖子的人员。 其可以向群组、组织或公众开放，并且可以应用于许多讨论。 频道还用于控制可以进行审核的人员。 设置频道内用于自动审核的屏蔽词。",
+  "privateChannelTitle": "已设置私有频道",
+  "privateChannelDescription": "您无法看到分配给此讨论板的私有频道。 您可以移除该频道，然后选择现有频道或者创建频道。",
+  "removeChannelConfirmationMessage": "此讨论板将不再显示帖子。 如果此频道已移除，则可以添加频道。",
+  "headingChannelEdit": "您正在编辑频道",
+  "headingChannelView": "您正在查看频道",
+  "headingChannelCreate": "您正在创建频道",
+  "buttons": {
+    "browse": "浏览频道",
+    "new": "新建渠道",
+    "removeChannel": "移除频道",
+    "cancel": "取消"
+  },
+  "alerts": {
+    "label": "表单警告",
+    "set": {
+      "title": "成功。 已设置渠道。"
+    },
+    "removed": {
+      "title": "已移除渠道",
+      "message": "请选择或创建参与渠道。"
+    },
+    "error": {
+      "title": "已失败。 未设置渠道。"
+    }
+  },
+  "galleryPickerTitle": "选择渠道",
+  "channelsLabel": "渠道",
+  "accessLabel": "访问",
+  "optionPublicLabel": "公共",
+  "optionOrganizationLabel": "组织",
+  "optionPrivateLabel": "私有",
+  "viewChannel": "查看渠道",
+  "editChannel": "编辑渠道",
+  "save": "保存",
+  "removeChannel": "移除渠道",
+  "groupPicker": {
+    "facet": {
+      "label": "自",
+      "myGroups": "我的群组",
+      "myOrganization": "我的组织",
+      "myCommunity": "我的社区"
+    }
+  },
+  "editGroupButtonText": "添加编辑群组",
+  "viewGroupButtonText": "添加查看群组",
+  "viewGroups": {
+    "header": "可以查看的人员",
+    "description": "可以查看（但无法发帖）的人员；发帖由以下频道设置。"
+  },
+  "editGroups": {
+    "header": "可以进行编辑的人员",
+    "description": "群组成员可以在工作空间中编辑讨论板信息。"
+  },
+  "aboutChannelsNotice": {
+    "title": "频道简介",
+    "message": "频道不是群组，但可以包含群组。 频道用于确定可以发帖和进行审核的人员。",
+    "action": "有关频道的详细信息"
+  },
+  "nonPrivateChannelNotice": {
+    "title": "无法编辑频道",
+    "message": "仅此频道的审阅人才能对其进行编辑。 如果需要，请联系频道所有者或组织管理员添加。 您还可以移除此频道、添加现有频道（您是该频道的审阅人），或者创建一个新频道。"
+  },
+  "privateChannelNotice": {
+    "title": "无法编辑频道",
+    "message": "仅此频道的审阅人才能对其进行编辑。 如果需要，请联系频道所有者进行添加。 您还可以移除此频道、添加现有频道（您是该频道的审阅人），或者创建一个新频道。"
+  },
+  "participate": {
+    "header": "可以参与的人员以及可以进行审核的人员"
+  },
+  "org": "组织",
+  "private": "私有",
+  "public": "公共",
+  "unnamed": "未命名通道",
+  "groupNotFound": "未找到群组"
+}

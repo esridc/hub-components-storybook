@@ -1,0 +1,96 @@
+{
+  "unnamedChannel": "Nimetön kanava",
+  "name": {
+    "label": "Nimi",
+    "placeholder": "{prefix}-kanava"
+  },
+  "save": "Tallenna",
+  "basicInfo": {
+    "label": "Perustiedot"
+  },
+  "access": {
+    "private": {
+      "label": "Yksityinen",
+      "description": "Valitut ryhmät voivat osallistua. Ryhmän hallinnoijat ja omistajat ovat automaattisesti määritettyjä valvojia."
+    },
+    "organization": {
+      "label": "Organisaationi",
+      "description": "Kaikki jäsenet, joilla on organisaation {orgName} tili, voivat osallistua. Organisaation pääkäyttäjät ja kanavan omistajat ovat automaattisesti määritettyjä valvojia. Kanavan omistajat voivat myös lisätä ryhmiä, joiden jäseniä he ovat, napsauttamalla alta ”Lisää osallistujaryhmä”.",
+      "disabledTooltip": "Vain organisaation pääkäyttäjät voivat luoda organisaatiokanavia."
+    },
+    "public": {
+      "label": "Julkinen",
+      "description": "Kaikki sisäänkirjautuneet jäsenet voivat osallistua. Organisaation pääkäyttäjät ja kanavan omistajat ovat automaattisesti määritettyjä valvojia. Kanavan omistajat voivat myös lisätä ryhmiä, joiden jäseniä he ovat, napsauttamalla alta ”Lisää osallistujaryhmä”.",
+      "disabledTooltip": "Vain organisaation pääkäyttäjät voivat luoda julkisia kanavia."
+    },
+    "allowAsAnonymous": {
+      "label": "Salli anonyymit (vain sisäänkirjautuneet käyttäjät)",
+      "description": "Anonyymisti julkaisevien tilien käyttäjien avatar, nimi ja käyttäjänimi eivät ole käytettävissä."
+    },
+    "confirmation": {
+      "header": "Oletko varma?",
+      "message": "Näiden muutosten tallentaminen poistaa muokkausoikeutesi tähän kanavaan. Vain organisaation pääkäyttäjät voivat muokata julkisia tai organisaation kanavia.",
+      "secondary": "Peruuta",
+      "primary": "Vahvista"
+    }
+  },
+  "participants": {
+    "label": "Osallistujat",
+    "helperText": "Henkilöt, jotka voivat julkaista keskusteluja ja vastata ja reagoida niihin.",
+    "none": "Osallistujia ei ole määritetty",
+    "add": "Lisää osallistujaryhmä"
+  },
+  "groupPicker": {
+    "title": "Valitse ryhmät",
+    "facet": {
+      "label": "Lähtien",
+      "myGroups": "Omat ryhmät",
+      "myOrganization": "Organisaationi",
+      "myCommunity": "Oma yhteisö"
+    }
+  },
+  "blockWords": {
+    "label": "Estetyt sanat",
+    "helperText": "Pilkuin eroteltu luettelo. Niitä sisältävät julkaisut ja vastaukset piilotetaan automaattisesti."
+  },
+  "manage": {
+    "label": "Valvojat",
+    "helperText": "Valvojien automaattinen määritys perustuu osallistujien valintaan. Ryhmän omistajat ja hallinnoijat ovat muiden kanavaan lisättyjen ryhmien määritettyjä valvojia. Valvojat voivat piilottaa ja näyttää julkaisuja, lisätä estettyjä sanoja ja muokata kanavan asetuksia."
+  },
+  "manager": "Hallinnoija",
+  "admin": "Pääkäyttäjä",
+  "viewProfile": "Näytä profiili",
+  "alerts": {
+    "error": "Virhe kanavan tallennuksessa",
+    "success": "Kanavan tallennus onnistui",
+    "label": "Lomakevaroitus"
+  },
+  "validations": {
+    "minChannelGroups": "Yksityisiin kanaviin tarvitaan vähintään yksi osallistujaryhmä.",
+    "channelNameRequired": "Kanavan nimi on pakollinen",
+    "allowAsAnonymous": "Vain julkiset kanavat tukevat anonyymia julkaisua.",
+    "blockWords": "Anna enintään 20 estettyä sanaa/fraasia (pilkulla erotellut merkinnät, ei kaksinkertaisia tai tyhjiä merkintöjä)."
+  },
+  "notices": {
+    "edit": "Muokkaukset koskevat kaikkia tämän kanavan käyttökohteita",
+    "duplicate": {
+      "create": {
+        "error": {
+          "title": "Kanavaa ei luotu",
+          "message": "Kanava, jolla on nämä käyttöoikeusvalinnat, on jo olemassa. Käytä olemassa olevaa kanavaa tai muokkaa valintoja."
+        }
+      },
+      "update": {
+        "error": {
+          "title": "Kanavaa ei päivitetty",
+          "message": "Kanava, jolla on nämä käyttöoikeusvalinnat, on jo olemassa. Näitä päivityksiä ei voi tallentaa."
+        }
+      },
+      "action": "Käytä olemassa olevaa kanavaa"
+    },
+    "inaccessibleGroups": {
+      "title": "Ryhmät, jotka eivät ole käytettävissä: {count}",
+      "message": "Et voi näyttää tai hallita ryhmiä, jotka eivät ole käytettävissä, ellet ole jäsen."
+    }
+  }
+}

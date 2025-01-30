@@ -1,0 +1,46 @@
+{
+  "title": "Configuració de catàlegs",
+  "helperText": "Definiu i configureu el catàleg",
+  "sections": {
+    "groups": {
+      "title": "Grups",
+      "helperText": "Els grups següents inclouen el contingut del catàleg de cerca. Seleccioneu un grup per veure'n la configuració, el contingut i més.",
+      "createGroup": "Crea un grup nou"
+    },
+    "feeds": {
+      "title": "Configuració de canals de contingut",
+      "helperText": "Faciliteu l'accés i la reutilització de les vostres dades públiques obertes amb els canals de contingut de Hub.",
+      "learn": "Obteniu informació sobre els canals de contingut del Hub",
+      "toggle": "Activa els canals de contingut ",
+      "configure": "Configura els canals de continguts",
+      "notice": "Per activar els canals de contingut, primer heu de configurar els vostres llocs Hub com a \"Públics\" a la Configuració"
+    }
+  },
+  "groupPickerFacet": {
+    "label": "Des de",
+    "editGroups": "Edita els grups",
+    "viewGroups": "Mostra el grup",
+    "myGroups": "Els meus grups",
+    "myOrganization": "La meva organització",
+    "myCommunity": "La meva comunitat",
+    "public": "Públic"
+  },
+  "formAlert": "Alerta del formulari",
+  "configSaveAlert": {
+    "success": "Els canvis s'han desat correctament",
+    "failure": "S'ha produït un error en desar els canvis"
+  },
+  "reharvestCatalogButton": "Comprova si hi ha errors",
+  "reharvestWarningModal": {
+    "title": "Comprova si hi ha errors",
+    "body1": "Avís: aquesta opció se sol utilitzar només en situacions en què la vostra pàgina de cerca té problemes de manca de resultats o de metadades. Aquesta opció comprovarà tots els elements de tots els grups del catàleg per detectar addicions, canvis a les metadades o eliminacions.",
+    "body2": "L'execució d'aquest procés torna a crear l'índex de cerca públic d'aquest catàleg i pot tardar uns quants minuts. Això suposarà un augment de la càrrega a qualsevol instància de l'ArcGIS Server.",
+    "primaryButton": "Continua",
+    "secondaryButton": "Cancel·la"
+  },
+  "reharvestCatalogAlert": {
+    "success": "S'està comprovant si hi ha errors. Torneu-ho a comprovar més tard.",
+    "inProgress": "La comprovació ja està en curs. Torneu més tard.",
+    "failure": "S'ha produït un error operatiu. Torneu-ho a provar més tard."
+  }
+}

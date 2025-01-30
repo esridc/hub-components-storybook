@@ -1,0 +1,50 @@
+{
+  "section": "Odstrániť",
+  "protection": "Zabráňte nechcenému odstráneniu {type}.",
+  "protectionTooltip": "Ochranný tooltip",
+  "protectionDisabledTooltip": "Iba vlastníci alebo správcovia organizácie môžu zmeniť ochranu.",
+  "deleteDisabledNoAccessTooltip": "Odstraňovať môžu len vlastníci alebo správcovia organizácie.",
+  "deleteDisabledNoAccessTooltipGroup": "Mazať môžu len vlastníci, manažéri alebo správcovia organizácie.",
+  "deleteDisabledProtectedTooltip": "Ak je zapnutá ochrana pred odstránením, nemôžete vykonať odstránenie.",
+  "deleteButton": "Odstrániť",
+  "protect": {
+    "successTitle": "Pridaná ochrana pred vymazaním",
+    "success": "Ak je zapnutá ochrana pred odstránením, nemôžete vykonať odstránenie.",
+    "successLabel": "Upozornenie na pridanie ochrany pred odstránením.",
+    "errorTitle": "Nemožno pridať ochranu pred vymazaním",
+    "error": "Pri pridávaní ochrany pred odstránením sa vyskytol problém.",
+    "errorLabel": "Upozornenie na zlyhanie ochrany pred odstránením."
+  },
+  "unprotect": {
+    "successTitle": "Odstránená ochrana pred vymazaním",
+    "success": "Ak je vypnutá ochrana pred odstránením, môžete vykonať odstránenie.",
+    "successLabel": "Upozornenie na odstránenie ochrany pred odstránením.",
+    "errorTitle": "Nemožno odstrániť ochranu pred vymazaním",
+    "error": "Pri odstraňovaní ochrany pred odstránením sa vyskytol problém.",
+    "errorLabel": "Upozornenie na zlyhanie odstránenia ochrany pred odstránením."
+  },
+  "delete": {
+    "successTitle": "Odstránenie úspešné",
+    "success": "Presmerovanie do vašej pracovnej oblasti",
+    "successLabel": "Upozornenie na úspešné odstránenie.",
+    "errorTitle": "Vymazávanie zlyhalo",
+    "error": "Niečo sa pokazilo, skúste to znova.",
+    "errorLabel": "Upozornenie na neúspešné odstránenie."
+  },
+  "permanentDelete": {
+    "successTitle": "Trvalé odstránenie úspešné",
+    "success": "Presmerovanie do vašej pracovnej oblasti",
+    "successLabel": "Upozornenie na úspešné odstránenie.",
+    "errorTitle": "Vymazávanie zlyhalo",
+    "error": "Niečo sa pokazilo, skúste to znova.",
+    "errorLabel": "Upozornenie na neúspešné odstránenie."
+  },
+  "deleteModal": {
+    "header": "Odstrániť",
+    "deleteContent": "Trvalé odstránenie nemožno vrátiť späť. Ste si istí, že chcete pokračovať?",
+    "recycleContent": "Odstránený obsah sa odošle do koša. Budete mať 14 dní na obnovenie.",
+    "delete": "Odstrániť",
+    "permanentlyDelete": "Natrvalo vymazať",
+    "cancel": "Zrušiť"
+  }
+}

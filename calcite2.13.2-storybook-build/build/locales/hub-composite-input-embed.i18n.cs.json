@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "Můj obsah",
+    "livingAtlas": "Living Atlas",
+    "organization": "Moje organizace",
+    "world": "Svět (veřejné)"
+  },
+  "collection": {
+    "appsAndMaps": "Aplikace a mapy",
+    "feedback": "Zpětná vazba"
+  },
+  "facets": {
+    "type": "Typ",
+    "tags": "Klíčová slova",
+    "categories": "Kategorie",
+    "modified": "Změněno"
+  },
+  "pickerTitle": "Vybrat obsah",
+  "height": "Výška (px)",
+  "isScrollable": "Lze posouvat",
+  "errors": {
+    "heightMinimum": "Hodnota musí být kladné číslo.",
+    "heightMaximum": "Hodnota musí být menší nebo se rovnat 2000 px.",
+    "urlError": "Musí se jednat o platnou adresu URL."
+  },
+  "success": {
+    "urlSuccess": "Adresa URL byla úspěšně načtena."
+  },
+  "shouldApplyBreakpoints": {
+    "label": "Použít nastavení podle breakpointů zařízení"
+  },
+  "viewportAll": {
+    "label": "Výchozí",
+    "description": "Nastavení použito u všech velikostí obrazovky"
+  },
+  "viewportMobile": {
+    "label": "Mobilní",
+    "description": "Nastavení použito u obrazovek s minimální šířkou 360 px"
+  },
+  "viewportTablet": {
+    "label": "Tablet",
+    "description": "Nastavení použito u obrazovek s minimální šířkou 560 px"
+  },
+  "viewportDesktop": {
+    "label": "Desktop",
+    "description": "Nastavení použito u obrazovek s minimální šířkou 980 px"
+  },
+  "sourceLabel": "Vybrat typ vložení",
+  "contentLabel": "Obsah ArcGIS",
+  "externalLabel": "Externí adresa URL",
+  "contentDescription": "Vyberte si z existujících map, scén, aplikací, průzkumů a odkazů na dokumenty, které máte k dispozici.",
+  "externalDescription": "Zadejte adresu URL vloženého obsahu. Upozorňujeme, že některé domény neumožňují vkládání a nemusí se zobrazit podle očekávání."
+}

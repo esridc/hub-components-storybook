@@ -1,0 +1,39 @@
+{
+  "popover": {
+    "access": {
+      "org": "Koplietots organizācijā",
+      "private": "Koplietots ar īpašnieku",
+      "public": "Koplietots publiski",
+      "shared": "Koplietots ar īpašnieku un grupām"
+    },
+    "editLayout": "Rediģēt izkārtojumu",
+    "lastUpdated": "Pēdējoreiz atjaunināts {updated}",
+    "viewSite": "Skatīt vietni"
+  },
+  "cloneLayoutLabel": "Klonēt izkārtojumu",
+  "deleteDraftLabel": "Dzēst melnrakstu",
+  "deletePageLabel": "Dzēst lapu",
+  "deleteSiteLabel": "Dzēst vietni",
+  "editInAgoLabel": "Rediģēt ArcGIS Online",
+  "managePage": "Pārvaldīt lapu",
+  "manageSite": "Pārvaldīt vietni",
+  "manageTemplate": "Pārvaldīt veidni",
+  "moreOptionsLabel": "Vairāk opciju",
+  "publishLabel": {
+    "site": "Publicēt izkārtojumu",
+    "page": "Publicēt izkārtojumu",
+    "survey": "Publicēt"
+  },
+  "saveAsTemplateLabel": "Saglabāt kā veidni",
+  "saveLabel": {
+    "site": "Saglabāt izkārtojumu",
+    "page": "Saglabāt izkārtojumu",
+    "survey": "Saglabāt",
+    "template": "Saglabāt"
+  },
+  "sharingLabel": "Atvērt koplietošanas paneli",
+  "editS123Label": "Rediģēt, izmantojot Survey123",
+  "viewLabel": "Skatīt",
+  "viewPublishedLabel": "Skatīt publicēto",
+  "viewUnpublishedLabel": "Skatīt melnrakstu"
+}

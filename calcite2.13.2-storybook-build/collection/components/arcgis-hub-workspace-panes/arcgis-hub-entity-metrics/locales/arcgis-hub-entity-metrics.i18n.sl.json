@@ -1,0 +1,75 @@
+{
+  "addMetric": "Dodaj metriko",
+  "title": "Metrika",
+  "featured": "Izpostavljeno",
+  "metricDescription": "Merljiva vrednost, ki se uporablja za sledenje napredku projekta na podlagi statičnih (npr. zgodovinskih) ali dinamičnih (npr. v realnem času) podatkov.",
+  "metricCount": {
+    "label": "Metrike: {currentCount}/{totalCountAllowed}",
+    "tooltip": "Za dodajanje metrik izbrišite del obstoječega niza"
+  },
+  "visible": {
+    "title": "Vidno",
+    "noMetrics": "V tem razdelku ni metrike."
+  },
+  "hidden": {
+    "title": "Skrito",
+    "description": "Ta metrika prikazuje samo tiste z dostopom do tega delovnega prostora.",
+    "noMetrics": "V tem razdelku ni metrike."
+  },
+  "project": {
+    "featured": {
+      "description": "Imate lahko 4 izpostavljene metrike. Te so prikazane v Pregledu vašega projekta v živo."
+    },
+    "visible": {
+      "description": "Vidne metrike so prikazane pod zavihkom Metrike vašega projekta v živo."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Metrika bo ustrezala ravni skupne rabe projekta. Skrita metrika je morda še vedno na voljo s klicem API.",
+        "metricsDockLink": "Več o nastavitvi metrik"
+      }
+    }
+  },
+  "initiative": {
+    "featured": {
+      "description": "Imate lahko 4 izpostavljene metrike. Te so prikazane v Pregledu vaše iniciative v živo."
+    },
+    "visible": {
+      "description": "Vidne metrike so prikazane pod zavihkom Metrike vašega projekta v živo."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Metrika bo ustrezala ravni skupne rabe pobude. Skrita metrika je morda še vedno na voljo s klicem API.",
+        "metricsDockLink": "Več o nastavitvi metrik"
+      }
+    }
+  },
+  "metricNumber": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4"
+  },
+  "actions": {
+    "delete": "Izbriši",
+    "edit": "Uredi",
+    "featured": "Geoobjekt",
+    "removeFeatured": "Odstrani izpostavljeno",
+    "show": "Premakni v vidno",
+    "hide": "Premakni v skrito"
+  },
+  "editor": {
+    "heading": "Nova metrika",
+    "description": "Metrika bo privzeto skrita, da si jo lahko ogledajo člani vašega delovnega prostora."
+  },
+  "deleteMetricModal": {
+    "heading": "Izbriši metriko",
+    "content": "Ste prepričani, da želite izbrisati:",
+    "cancel": "Prekliči",
+    "delete": "Izbriši"
+  },
+  "sidePanel": {
+    "definitions": "Definicije",
+    "preview": "Predogled"
+  }
+}

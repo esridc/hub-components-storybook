@@ -1,0 +1,35 @@
+{
+  "success": "已成功保存编辑内容",
+  "error": "保存编辑内容时出错",
+  "formAlert": "表单警告",
+  "projects": {
+    "header": "工程",
+    "list": "工程列表",
+    "config": "配置",
+    "notConfigured": "工程功能未配置。 请使用“配置”选项卡。"
+  },
+  "content": {
+    "header": "内容",
+    "list": "内容列表",
+    "config": "配置",
+    "notConfigured": "内容功能未配置。 请使用“配置”选项卡。"
+  },
+  "initiatives": {
+    "header": "倡议",
+    "list": "倡议列表",
+    "config": "配置",
+    "notConfigured": "倡议功能未配置。 请使用“配置”选项卡。"
+  },
+  "events": {
+    "header": "活动",
+    "list": "活动列表",
+    "config": "配置",
+    "notConfigured": "活动功能未配置。 请使用“配置”选项卡。"
+  },
+  "pages": {
+    "header": "页面",
+    "list": "页面列表",
+    "config": "配置",
+    "notConfigured": "页面功能未配置。 请使用“配置”选项卡。"
+  }
+}

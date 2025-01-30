@@ -1,0 +1,46 @@
+{
+  "title": "Configurazione catalogo",
+  "helperText": "Definisci e configura il catalogo",
+  "sections": {
+    "groups": {
+      "title": "Gruppi",
+      "helperText": "I seguenti gruppi contengono il contenuto nel catalogo di ricerca. Seleziona un gruppo per visualizzare impostazioni, contenuti e altro.",
+      "createGroup": "Crea nuovo gruppo"
+    },
+    "feeds": {
+      "title": "Configurazione del feed",
+      "helperText": "Rendi i tuoi open data pubblici facilmente accessibili e riutilizzabili con i feed di Hub.",
+      "learn": "Informazioni sui feed di Hub",
+      "toggle": "Abilita i feed ",
+      "configure": "Configurare i feed",
+      "notice": "Per abilitare i feed è necessario impostare prima i siti di Hub su \"Pubblico\" nelle impostazioni"
+    }
+  },
+  "groupPickerFacet": {
+    "label": "Da",
+    "editGroups": "Modifica gruppi",
+    "viewGroups": "Visualizza gruppo",
+    "myGroups": "I miei gruppi",
+    "myOrganization": "La mia organizzazione",
+    "myCommunity": "La mia community",
+    "public": "Pubblico"
+  },
+  "formAlert": "Avviso modulo",
+  "configSaveAlert": {
+    "success": "Modifiche salvate correttamente",
+    "failure": "Errore durante il salvataggio delle modifiche"
+  },
+  "reharvestCatalogButton": "Verifica la presenza di errori",
+  "reharvestWarningModal": {
+    "title": "Verifica la presenza di errori",
+    "body1": "Attenzione: questa opzione è generalmente utilizzata solo nelle situazioni in cui la pagina di ricerca riscontra problemi con metadati o risultati mancanti. Questa opzione verificherà la presenza di per eventuali aggiunte, modifiche dei metadati o rimozioni in tutti gli elementi di tutti i gruppi del catalogo.",
+    "body2": "L'esecuzione di questo processo rigenera l'indice pubblico di ricerca di questo catalogo e potrebbe richiedere alcuni minuti. Ciò aumenterà il carico su tutte le istanze di ArcGIS Server.",
+    "primaryButton": "Continua",
+    "secondaryButton": "Annulla"
+  },
+  "reharvestCatalogAlert": {
+    "success": "Verifica degli errori. Riprovare più tardi.",
+    "inProgress": "La verifica è già in corso. Tornare più tardi.",
+    "failure": "Si è verificato un errore operativo. Riprovare più tardi."
+  }
+}

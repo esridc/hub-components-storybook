@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Não foram encontrados resultados."
+    },
+    "error": {
+      "message": "Lamentamos, mas a pesquisa deparou-se com um erro."
+    }
+  },
+  "access": "Acesso",
+  "actionsHeader": "Ações",
+  "caption": "Tabela de entidades Hub",
+  "family": "Família",
+  "type": "Tipo",
+  "tags": "Palavras-chave",
+  "owner": "Proprietário",
+  "dateCreated": "Criado",
+  "dateUpdated": "Modificado",
+  "description": "Descrição",
+  "dateAndTime": "Data e hora",
+  "location": "Localização",
+  "attendanceType": "Tipo de participação",
+  "inPerson": "Presencial",
+  "online": "Online",
+  "hybrid": "Híbrido",
+  "categories": "Categorias",
+  "content": "Conteúdos",
+  "name": "Nome",
+  "start": "Início",
+  "end": "Fim",
+  "sharedUpdate": "Atualização partilhada",
+  "managers": "Gestores",
+  "username": "Nome de utilizador",
+  "no": "Não",
+  "yes": "Sim",
+  "title": "Título",
+  "thumbnail": "Miniatura",
+  "types": {
+    "app": "Aplicação",
+    "content": "Conteúdos",
+    "dataset": "Conjunto de Dados",
+    "discussion": "Fórum de Discussão",
+    "document": "Documento",
+    "event": "Evento",
+    "feedback": "Feedback",
+    "initiative": "Iniciativa",
+    "image": "Imagem",
+    "map": "Mapa",
+    "other": "Outro",
+    "people": "Pessoas",
+    "site": "Site",
+    "team": "Grupo",
+    "template": "Modelo",
+    "project": "Projeto"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Fant ingen resultater."
+    },
+    "error": {
+      "message": "Det oppstod et problem med søket."
+    }
+  },
+  "access": "Tilgang",
+  "actionsHeader": "Handlinger",
+  "caption": "Hub-enhetstabell",
+  "family": "Serie",
+  "type": "Type",
+  "tags": "Merker",
+  "owner": "Eier",
+  "dateCreated": "Opprettet",
+  "dateUpdated": "Endret",
+  "description": "Beskrivelse",
+  "dateAndTime": "Dato og klokkeslett",
+  "location": "Lokasjon",
+  "attendanceType": "Deltakelsestype",
+  "inPerson": "Personlig",
+  "online": "Online",
+  "hybrid": "Hybrid",
+  "categories": "Kategorier",
+  "content": "Innhold",
+  "name": "Navn",
+  "start": "Start",
+  "end": "Avslutt",
+  "sharedUpdate": "Delt oppdatering",
+  "managers": "Administratorer",
+  "username": "Brukernavn",
+  "no": "Nei",
+  "yes": "Ja",
+  "title": "Tittel",
+  "thumbnail": "Miniatyrbilde",
+  "types": {
+    "app": "Applikasjon",
+    "content": "Innhold",
+    "dataset": "Datasett",
+    "discussion": "Diskusjonstavle",
+    "document": "Dokument",
+    "event": "Hendelse",
+    "feedback": "Tilbakemelding",
+    "initiative": "Initiativ",
+    "image": "Bilde",
+    "map": "Kart",
+    "other": "Annet",
+    "people": "Folk",
+    "site": "Område",
+    "team": "Gruppe",
+    "template": "Mal",
+    "project": "Prosjekt"
+  }
+}

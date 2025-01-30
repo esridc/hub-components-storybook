@@ -1,0 +1,54 @@
+{
+  "existing": {
+    "successHeading": "Content is toegevoegd.",
+    "failureHeading": "Kan content niet aan geselecteerde groep toevoegen.",
+    "successfulAccordionHeading": "Content is aan geselecteerde groep toegevoegd.",
+    "unsuccessfulAccordionHeading": "Content is niet aan geselecteerde groep toegevoegd"
+  },
+  "create": {
+    "event": {
+      "successWithoutGroupHeading": "Evenement is gemaakt.",
+      "successWithGroupHeading": "Evenement is gemaakt en is toegevoegd aan {group}.",
+      "successMessage": "U kunt het Evenement nu weergeven, u kunt het beheren om informatie te bewerken of u kunt op 'gereed' klikken om terug te keren naar de weergave.",
+      "failureHeading": "Kan Evenement niet aan geselecteerde groep toevoegen."
+    },
+    "discussion": {
+      "successWithoutGroupHeading": "Discussiebord is gemaakt",
+      "successWithGroupHeading": "Discussiebord is gemaakt en is toegevoegd aan {group}.",
+      "successMessage": "U kunt het Discussiebord nu weergeven, u kunt het beheren om informatie te bewerken of u kunt op 'gereed' klikken om terug te keren naar de weergave.",
+      "failureHeading": "Kan Discussiebord niet aan de geselecteerde groep toevoegen."
+    },
+    "group": {
+      "successWithoutGroupHeading": "Groep is gemaakt.",
+      "successMessage": "U kunt de Groep nu weergeven, u kunt het beheren om informatie te bewerken of u kunt op 'gereed' klikken om terug te keren naar de weergave.",
+      "failureHeading": "Kan groep niet maken."
+    },
+    "initiative": {
+      "successWithoutGroupHeading": "Initiatief is gemaakt.",
+      "successWithGroupHeading": "Initiatief is gemaakt en is toegevoegd aan {group}.",
+      "successMessage": "U kunt het Initiatief nu weergeven, u kunt het beheren om informatie te bewerken of u kunt op 'gereed' klikken om terug te keren naar de weergave.",
+      "failureHeading": "Kan Initiatief niet aan geselecteerde groep toevoegen."
+    },
+    "page": {
+      "successWithoutGroupHeading": "Pagina is gemaakt.",
+      "successWithGroupHeading": "Pagina is gemaakt en is toegevoegd aan {group}.",
+      "successMessage": "U kunt de Pagina nu weergeven, u kunt hem beheren om informatie te bewerken of u kunt op 'gereed' klikken om terug te keren naar de weergave.",
+      "failureHeading": "Kan Pagina niet aan geselecteerde groep toevoegen."
+    },
+    "project": {
+      "successWithoutGroupHeading": "Project is gemaakt.",
+      "successWithGroupHeading": "Project is gemaakt en is toegevoegd aan {group}.",
+      "successMessage": "U kunt het Project nu weergeven, u kunt het beheren om informatie te bewerken of u kunt op 'gereed' klikken om terug te keren naar de weergave.",
+      "failureHeading": "Kan Project niet aan geselecteerde groep toevoegen."
+    },
+    "site": {
+      "successWithoutGroupHeading": "Site is gemaakt.",
+      "successWithGroupHeading": "Site is gemaakt en is toegevoegd aan {group}.",
+      "successMessage": "U kunt de Site nu weergeven, u kunt hem beheren om informatie te bewerken of u kunt op 'gereed' klikken om terug te keren naar de weergave.",
+      "failureHeading": "Kan Site niet aan geselecteerde groep toevoegen."
+    }
+  },
+  "editLayout": "Lay-out bewerken",
+  "manageEntity": "Beheren",
+  "viewEntity": "Weergeven"
+}

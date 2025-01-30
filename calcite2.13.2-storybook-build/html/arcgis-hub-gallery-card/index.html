@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+  <title>Hub Components: Simple Gallery</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .nav {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+    }
+  </style>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+  <link rel="stylesheet" href="../calcite-web.min.css">
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <script type="module" src="../../calcite/calcite.esm.js"></script>
+</head>
+
+<body>
+  <div class="grid-container padding-leader-2">
+    <div class="column-24 trailer-2 header">
+
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-hub-content-gallery</h2>
+
+    </div>
+    <!-- <div class="column-24">
+      <h3>syracuse pages:</h3>
+      <arcgis-hub-gallery-card mode="manual" orgid="bdPqSfflsdgFRVVM"
+        ids="7caf874f1f2849a3a33e616d00cec4d3,11add73ce3944a5e8301d3b2c20638af,3ca3e5f1867c4539a110569e6701887e,ad605e8044594a3d8b16aeca05798dbc">
+      </arcgis-hub-gallery-card>
+    </div> -->
+
+    <div class="column-24">
+      <h3>tempe last modified:</h3>
+      <arcgis-hub-gallery-card access="public" orgid="lQySeXwbBg53XWDi"
+        link-button-style="primary" limit="8" link-button-background-color="green"
+        link-button-background-hover-color="fuchsia" link-button-text-color="yellow" show-link-button sort="modified"
+        types="application,dashboard,dataset,site,page,storyMap,feedback">
+      </arcgis-hub-gallery-card>
+    </div>
+
+    <div class="column-24">
+      <h3>tempe most viewed:</h3>
+      <arcgis-hub-gallery-card access="public" groups="b8c557148ffb4980b19126a84d589f38" orgid="lQySeXwbBg53XWDi"
+        link-button-style="primary" limit="8" show-link-button sort="numviews"
+        types="application,dashboard,site,dataset,storyMap,feedback">
+      </arcgis-hub-gallery-card>
+    </div>
+
+    <div class="column-24">
+      <h3>syracuse recently updated:</h3>
+      <arcgis-hub-gallery-card access="public,private" groups="af5799e7f6d84c5a944b053a47e18121"
+        ids="d1f47c7b85e44cb08f82ff9d208b4efc" orgid="bdPqSfflsdgFRVVM"
+        link-button-text="Show it to me, bro!" link-button-style="primary" limit="12" show-link-button sort="modified"
+        types="dataset">
+      </arcgis-hub-gallery-card>
+    </div>
+
+    <div class="column-24">
+      <h3>syracuse most popular:</h3>
+      <arcgis-hub-gallery-card access="public" groups="af5799e7f6d84c5a944b053a47e18121" ids="" orgid="bdPqSfflsdgFRVVM"
+        link-button-text="Show it to me, bro!" link-button-style="primary" limit="4" show-link-button sort="numviews"
+        types="application,webmap,dataset,storyMap,dashboard,document">
+      </arcgis-hub-gallery-card>
+    </div>
+
+    <div class="column-24">
+      <h3>dynamic: applications</h3>
+      <button id="corners-btn">corners</button>
+      <button id="limit-btn">limit</button>
+      <button id="image-btn">image type</button>
+      <arcgis-hub-gallery-card id="corners-card" card-title-tag="h2" catalogs="6f817c6a597f43ca8ff74ec22fe64cbf"
+        shadow="heavy" orgid="Xj56SBi2udA78cC9"
+        link-button-text="Show it to me, bro!" link-button-style="primary" limit="4" show-link-button sort="numviews"
+        types="application">
+      </arcgis-hub-gallery-card>
+    </div>
+
+    <div class="column-24 padding-leader-2">
+      <h3>manual</h3>
+      <arcgis-hub-gallery-card corners="round"
+        ids="f060278f57b24163bd51fef3aa2e81ea,58de591989fa47989c03ecada1dcb061,dea94424ab3b4116a093d0e2750cecec,0b98cda2a0b14c66b6f25b6d4d09a941"
+        mode="manual" sort-by-ids orgid="Xj56SBi2udA78cC9" sort="numviews" show-link-button>
+      </arcgis-hub-gallery-card>
+    </div>
+
+    <div class="column-24 padding-leader-2">
+      <h3>dynamic: public documents</h3>
+      <arcgis-hub-gallery-card access="public" catalogs="6f817c6a597f43ca8ff74ec22fe64cbf" orgid="Xj56SBi2udA78cC9"
+        limit="4" sort="modified" types="document">
+      </arcgis-hub-gallery-card>
+    </div>
+
+    <div class="column-24 padding-leader-2">
+      <h3>dynamic: public datasets in specific groups</h3>
+      <arcgis-hub-gallery-card access="public" catalogs="6f817c6a597f43ca8ff74ec22fe64cbf" categories=""
+        groups="9672e587d4ab477f85d963cfa02f65c6" orgid="Xj56SBi2udA78cC9"
+        limit="4" sort="title" tags=""
+        types="dataset" headings="h4" image-type="thumbnails" corners="round" shadow="medium" include-button
+        button-text="Explore" button-type="primary" new-tab>
+      </arcgis-hub-gallery-card>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('corners-btn').addEventListener('click', _ => {
+      const card = document.getElementById('corners-card');
+      const cornerStyle = (card.corners === 'round') ? 'square' : 'round';
+      // card.layoutCardConfig = {
+      //   display: { cornerStyle }
+      // }
+      card.corners = cornerStyle;
+    });
+    document.getElementById('limit-btn').addEventListener('click', _ => {
+      const card = document.getElementById('corners-card');
+      const num = card.limit + 1;
+      // card.layoutCardConfig = {
+      //   query: { num }
+      // }
+      card.limit = num;
+    });
+    document.getElementById('image-btn').addEventListener('click', _ => {
+      const card = document.getElementById('corners-card');
+      const imageType = card.imageType === 'Thumbnails' ? 'Icons' : 'Thumbnails';
+      card.imageType = imageType;
+    });
+  </script>
+</body>
+
+</html>

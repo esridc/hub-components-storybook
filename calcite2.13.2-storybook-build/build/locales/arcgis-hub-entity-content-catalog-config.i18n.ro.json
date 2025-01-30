@@ -1,0 +1,46 @@
+{
+  "title": "Configurație catalog",
+  "helperText": "Definiți și configurați catalogul",
+  "sections": {
+    "groups": {
+      "title": "Grupuri",
+      "helperText": "Grupurile de mai jos conțin conținutul in catalogul dvs. de căutare. Selectați un grup pentru a-i vedea setările, conținutul și multe altele.",
+      "createGroup": "Creare grup nou"
+    },
+    "feeds": {
+      "title": "Configurație flux",
+      "helperText": "Faceți datele dvs. deschise public accesibil ușor și reutilizabile cu fluxurile Hub.",
+      "learn": "Aflați despre fluxurile Hub",
+      "toggle": "Activați fluxuri ",
+      "configure": "Configurați alimentările",
+      "notice": "Pentru a activa fluxuri, trebuie să setați mai întâi site-urile Hub la „Publice” în Setări"
+    }
+  },
+  "groupPickerFacet": {
+    "label": "De la",
+    "editGroups": "Editare grupuri",
+    "viewGroups": "Vizualizare grup",
+    "myGroups": "Grupurile mele",
+    "myOrganization": "Organizaţia mea",
+    "myCommunity": "Comunitatea mea",
+    "public": "Public"
+  },
+  "formAlert": "Alertă formular",
+  "configSaveAlert": {
+    "success": "Editările au fost salvate cu succes",
+    "failure": "Eroare la salvarea editărilor"
+  },
+  "reharvestCatalogButton": "Verificare erori",
+  "reharvestWarningModal": {
+    "title": "Verificare erori",
+    "body1": "Avertizare: Această opțiune este în general utilizată numai dacă pagina dvs. de căutare are probleme cauzate de rezultate sau metadate lipsă. Această opțiune verifică adăugări, modificări de date sau eliminări din toate elementele din toate grupurile catalogului.",
+    "body2": "Desfășurarea acestui proces reconstruiește indexul de căutare publică al acestui catalog și poate dura mai multe minute. Acest lucru va crește sarcina asupra oricăror instanțe ArcGIS Server.",
+    "primaryButton": "Continuare",
+    "secondaryButton": "Anulare"
+  },
+  "reharvestCatalogAlert": {
+    "success": "Se verifică erorile. Vă rugăm să reveniți mai târziu.",
+    "inProgress": "Verificarea este deja în curs. Reveniți mai târziu.",
+    "failure": "Ne pare rău, a apărut o eroare internă. Încercați din nou mai târziu."
+  }
+}

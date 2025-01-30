@@ -1,0 +1,18 @@
+{
+  "about": "정보",
+  "metrics": "지표",
+  "featuredContent": "추천 콘텐츠",
+  "details": "세부정보",
+  "exploreMetrics": "지표 탐색",
+  "status": {
+    "label": {
+      "default": "상태",
+      "project": "프로젝트 상태",
+      "initiative": "이니셔티브 상태"
+    },
+    "notStarted": "시작되지 않음",
+    "inProgress": "진행 중",
+    "onHold": "보류 중",
+    "complete": "완료"
+  }
+}

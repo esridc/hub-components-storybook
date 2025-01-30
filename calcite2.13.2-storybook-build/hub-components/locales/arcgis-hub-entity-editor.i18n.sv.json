@@ -1,0 +1,1346 @@
+{
+  "success": "Ändringarna har sparats",
+  "error": "Fel när ändringarna sparades",
+  "formAlert": "Formulärvarning",
+  "create": "Skapa",
+  "shared": {
+    "notices": {
+      "metrics": {
+        "preview": {
+          "label": "Förhandsgranska dina mätvärden",
+          "message": "Ändringar som görs här visas i förhandsgranskningen av mätvärden."
+        }
+      }
+    },
+    "sections": {
+      "metrics": {
+        "basic": {
+          "label": "Grundläggande information"
+        },
+        "source": {
+          "label": "Värde"
+        },
+        "formatting": {
+          "label": "Formatering"
+        },
+        "sharing": {
+          "label": "Delning"
+        }
+      },
+      "mapSettings": {
+        "label": "Kartinställningar"
+      }
+    },
+    "errors": {
+      "urlFormat": "URL-formateringen är felaktig"
+    },
+    "fields": {
+      "name": {
+        "maxLengthError": "Namnet får inte vara längre än 250 tecken"
+      },
+      "title": {
+        "maxLengthError": "Titeln får inte vara längre än 250 tecken"
+      },
+      "summary": {
+        "maxLengthError": "Sammanfattningen får inte vara längre än 2048 tecken"
+      },
+      "purpose": {
+        "maxLengthError": "Syftet får inte vara längre än 2048 tecken"
+      },
+      "_thumbnail": {
+        "label": "Miniatyrbild",
+        "sizeDescription": "Maximal storlek är 10 MB. Rekommenderat format: 760 x 505 eller större",
+        "defaultThumbnailNotice": "Ladda upp din egen miniatyrbild som ska ersätta standard."
+      },
+      "location": {
+        "none": "Ingen plats",
+        "org": "Organisationens utbredning",
+        "custom": "Anpassad plats",
+        "customDescription": "Rita en eller flera platser",
+        "itemExtent": "Objektets aktuella utbredning"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Typ",
+          "sharing": "Delning"
+        },
+        "catalog": {
+          "myContent": "Mitt innehåll",
+          "favorites": "Favoriter",
+          "organization": "Organisation",
+          "world": "Världen (Offentlig)"
+        },
+        "collection": {
+          "appsAndMaps": "Appar och kartor",
+          "dataset": "Data",
+          "documents": "Dokument",
+          "feedback": "Synpunkter",
+          "sites": "Webbplatser",
+          "projects": "Projekt"
+        }
+      },
+      "metrics": {
+        "allowDynamicLink": {
+          "label": "Visa länk till källa"
+        },
+        "cardTitle": {
+          "label": "Titel",
+          "message": {
+            "required": "Det här fältet är obligatoriskt."
+          }
+        },
+        "dynamicMetric": {
+          "label": "Datakälla"
+        },
+        "value": {
+          "label": "Värde",
+          "message": {
+            "required": "Det här fältet är obligatoriskt."
+          }
+        },
+        "unit": {
+          "label": "Enheter",
+          "helperText": "Använd för att ange ett prefix eller postfix-värde som %, +, $ eller annat. Lämna tomt om inget ska visas."
+        },
+        "unitPosition": {
+          "label": "Enhetsposition",
+          "helperText": "Välj var mätenheten (t.ex. 'km', 'lbs') ska visas i relation till det metriska värdet.",
+          "enum": {
+            "after": {
+              "label": "Efter värde"
+            },
+            "before": {
+              "label": "Före värde"
+            },
+            "below": {
+              "label": "Under värde"
+            }
+          }
+        },
+        "showShareIcon": {
+          "label": "Aktivera delning",
+          "helperText": {
+            "label": "Tillåt användare att kopiera en direktlänk till det här mätetalet."
+          }
+        },
+        "shareableOnHover": {
+          "label": "Visa vid hovring",
+          "helperText": {
+            "label": "Knappen Dela visas endast vid hovring. Om knappen är inaktiverad är den alltid synlig."
+          }
+        },
+        "sourceLink": {
+          "label": "Länk-URL",
+          "message": {
+            "required": "Länk krävs för att visa källa."
+          }
+        },
+        "sourceTitle": {
+          "label": "Länktext"
+        },
+        "trailingText": {
+          "label": "Följande text",
+          "helperText": "Ange valfri ytterligare kontext eller förklaring (visas under det metriska värdet)."
+        },
+        "type": {
+          "label": "Typ",
+          "enum": {
+            "dynamic": {
+              "label": "Dynamisk",
+              "description": "Välj ett befintligt dataset (geoobjekttjänst) att sammanfatta."
+            },
+            "static": {
+              "label": "Statisk",
+              "description": "Ange manuellt ett värde att markera i din layout."
+            }
+          }
+        },
+        "valueType": {
+          "label": "Typ av värde",
+          "helperText": "Välj den typ av värde som du vill visa.",
+          "enum": {
+            "string": {
+              "label": "Text",
+              "description": "Valfritt ord eller fras. Inte avsett att användas för numeriska beräkningar. (ex. \"huvudgata\")"
+            },
+            "number": {
+              "label": "Nummer",
+              "description": "Ett numeriskt värde. Kan användas för beräkningar. (ex. 123)"
+            },
+            "date": {
+              "label": "Datum",
+              "description": "Ett kalenderdatumvärde. Inte avsett att användas för numeriska beräkningar. (t.ex. \"2018-01-01\")"
+            }
+          }
+        }
+      },
+      "categories": {
+        "label": "Kategorier",
+        "noCategoriesNotice": {
+          "body": "Den här organisationen har ännu inga kategorier.",
+          "link": "Ställ in kategorier"
+        }
+      },
+      "download": {
+        "format": {
+          "bip": "BIP",
+          "bmp": "BMP",
+          "bsq": "BSQ",
+          "gif": "GIF",
+          "jpg": "JPG",
+          "jpgPng": "JPG_PNG",
+          "lerc": "LERC",
+          "png": "PNG",
+          "png8": "PNG8",
+          "png24": "PNG24",
+          "png32": "PNG32",
+          "tiff": "TIFF",
+          "csv": "CSV",
+          "excel": "Excel",
+          "featureCollection": "Samling av geoobjekt",
+          "filegdb": "Filbaserad geodatabas",
+          "geojson": "GeoJSON",
+          "geoPackage": "GeoPackage",
+          "json": "JSON",
+          "kml": "KML",
+          "shapefile": "Shapefil",
+          "sqlite": "SQLite-geodatabas"
+        },
+        "additionalResource": "{resourceName} (metadatafördelning)",
+        "dataSourceResource": "Datakälla (metadatafördelning)",
+        "noTitleResource": "Länk (ingen titel, metadatafördelning)"
+      }
+    }
+  },
+  "project": {
+    "sections": {
+      "details": {
+        "label": "Information"
+      },
+      "basicInfo": {
+        "label": "Grundläggande information"
+      },
+      "location": {
+        "label": "Plats",
+        "helperText": "Visa det geografiska område där det här projektet kommer att äga rum (ska visas på projektlayouten)."
+      },
+      "status": {
+        "label": "Status"
+      },
+      "sharing": {
+        "label": "Delning"
+      },
+      "timeline": {
+        "label": "Tidslinje"
+      },
+      "searchDiscoverability": {
+        "label": "Sökning och upptäckbarhet"
+      },
+      "featuredContent": {
+        "label": "Innehåll som visas",
+        "helperText": "Markera specifika dokument, appar och data relaterat till ditt projekt. Du kan ha med upp till fyra objekt."
+      },
+      "callToAction": {
+        "label": "Åtgärdslänkar",
+        "helperText": "Detta visas som en framhävd knapp längst upp i ditt projekt. Använd denna för att din publik ska kunna gå till en webbplats, undersökning, karta, etc."
+      },
+      "embeds": {
+        "label": "Aktuell inbäddning",
+        "helperText": "Välj en webbkarta, webbscen eller applikation som ska markeras i ditt projekt."
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Projektnamn",
+        "requiredError": "Projektnamn är ett obligatoriskt fält",
+        "maxLengthError": "Projektnamnet får inte vara längre än 250 tecken",
+        "entityTitleValidatorError": "Projektnamnet får inte innehålla emojis eller tecknen <, >, ="
+      },
+      "description": {
+        "label": "Beskrivning",
+        "helperText": "Ange hur ditt projekt ska nå målen. Överväg att inkludera relevant bakgrundsinformation och förväntade förändringar till följd av projektet."
+      },
+      "summary": {
+        "label": "Syfte",
+        "helperText": "Summera kort målen för ditt projekt."
+      },
+      "access": {
+        "itemType": "Projekt"
+      },
+      "groups": {
+        "label": "Dela med...",
+        "viewGroup": "(Visa grupp)",
+        "editGroup": "(Redigera grupp)"
+      },
+      "_thumbnail": {
+        "helperText": "Ange en miniatyrbild som ska representera det här projektet i ArcGIS Online samt i sökningar och gallerier."
+      },
+      "featuredImage": {
+        "label": "Bild i fokus",
+        "helperText": "Välj en bild som ska representera ditt arbete på projektlayouten.",
+        "sizeDescription": "Maximal filstorlek är 10 MB. Rekommenderat format: 718 x 478 eller större",
+        "altText": {
+          "label": "Alt. text",
+          "helperText": "Ge en kort beskrivning av din bild för dem som använder skärmläsare. Lämna tomt för att ange att bilden är dekorativ."
+        }
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Slug är en URL-vänlig version av projektnamnet. Den skapas automatiskt baserat på objektnamnet, men du kan anpassa den.",
+        "patternError": "Fel: Slug måste vara små alfanumeriska tecken avgränsade med bindestreck.",
+        "isUniqueError": "Denna slug används redan. Välj en annan."
+      },
+      "tags": {
+        "label": "Taggar",
+        "helperText": "Taggar används i sökkataloger för att göra det lättare för andra att hitta det här projektet. Lägg till text och tryck på Enter för att skapa nya taggar."
+      },
+      "categories": {
+        "helperText": "Kategorierna används i sökkataloger för att göra det lättare för andra att hitta det här projektet. De ställs in av din organisation."
+      },
+      "status": {
+        "label": "Projektstatus",
+        "enum": {
+          "notStarted": {
+            "label": "Inte startad"
+          },
+          "inProgress": {
+            "label": "Pågår"
+          },
+          "onHold": {
+            "label": "Väntande"
+          },
+          "complete": {
+            "label": "Fullständig"
+          }
+        }
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Typ",
+          "sharing": "Delning"
+        }
+      },
+      "callToAction": {
+        "facets": {
+          "type": "Typ",
+          "sharing": "Delning"
+        }
+      },
+      "mapSettings": {
+        "label": "Konfigurera hur kartan visas på projektet"
+      }
+    }
+  },
+  "initiative": {
+    "sections": {
+      "details": {
+        "label": "Information"
+      },
+      "basicInfo": {
+        "label": "Grundläggande information"
+      },
+      "location": {
+        "label": "Plats",
+        "helperText": "Visa det geografiska område där det här initiativet kommer att äga rum (ska visas på initiativlayouten)."
+      },
+      "sharing": {
+        "label": "Delning"
+      },
+      "featuredContent": {
+        "label": "Aktuellt innehåll",
+        "helperText": "Markera specifika dokument, appar och data relaterat till ditt projekt. Du kan ha med upp till fyra objekt."
+      },
+      "status": {
+        "label": "Status"
+      },
+      "hero": {
+        "label": "Fokus"
+      },
+      "searchDiscoverability": {
+        "label": "Sökning och upptäckbarhet"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Initiativets namn",
+        "requiredError": "Initiativnamn är ett obligatoriskt fält",
+        "maxLengthError": "Initiativets namn får inte vara längre än 250 tecken",
+        "entityTitleValidatorError": "Initiativnamnet får inte innehålla emojis eller tecknen <, >, ="
+      },
+      "summary": {
+        "label": "Syfte",
+        "helperText": "Summera kort målen för ditt initiativ."
+      },
+      "access": {
+        "itemType": "Initiativ"
+      },
+      "description": {
+        "label": "Beskrivning",
+        "helperText": "Ange hur ditt initiativ ska nå målen. Överväg att inkludera relevant bakgrundsinformation och förväntade förändringar till följd av initiativet."
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Slug är en URL-vänlig version av initiativnamnet. Den skapas automatiskt baserat på initiativnamnet, men du kan anpassa den.",
+        "patternError": "Fel: Slug måste vara små alfanumeriska tecken avgränsade med bindestreck.",
+        "isUniqueError": "Denna slug används redan. Välj en annan."
+      },
+      "tags": {
+        "label": "Taggar",
+        "helperText": "Taggar används i sökkataloger för att göra det lättare för andra att hitta det här initiativet. Lägg till text och tryck på Enter för att skapa nya taggar."
+      },
+      "categories": {
+        "helperText": "Kategorierna används i sökkataloger för att göra det lättare för andra att hitta det här initiativet. De ställs in av din organisation."
+      },
+      "_thumbnail": {
+        "helperText": "Ange en miniatyrbild som ska representera det här initiativet i ArcGIS Online samt i sökningar och gallerier."
+      },
+      "groups": {
+        "label": "Dela med...",
+        "viewGroup": "(Visa grupp)",
+        "editGroup": "(Redigera grupp)"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Typ",
+          "sharing": "Delning"
+        }
+      },
+      "status": {
+        "label": "Initiativets status",
+        "enum": {
+          "notStarted": {
+            "label": "Inte startad"
+          },
+          "inProgress": {
+            "label": "Pågår"
+          },
+          "onHold": {
+            "label": "Väntande"
+          },
+          "complete": {
+            "label": "Fullständig"
+          }
+        }
+      },
+      "hero": {
+        "label": "Fokus",
+        "helperText": "Fokus visas över ditt initiativs titel och kan innehålla en karta eller bild.",
+        "map": {
+          "label": "Karta",
+          "description": "Använd en karta för att visa initiativets målområde med initiativets plats eller associerade projekt."
+        },
+        "image": {
+          "label": "Bild",
+          "description": "En fängslande bild kan hjälpa personer att relatera eller vidta åtgärder mot dina mål."
+        }
+      },
+      "featuredImage": {
+        "label": "Bild",
+        "helperText": "Använd en liggande bild för ditt fokus. Appen kommer att proportionellt ändra storlek på bilden från en central fokuspunkt för att justera för olika skärmstorlekar. Maxhöjden kommer att vara 475 px på stora skärmar.",
+        "sizeDescription": "Maximal filstorlek är 10 MB.",
+        "altText": {
+          "label": "Alt. text",
+          "helperText": "Ge en kort beskrivning av din bild för dem som använder skärmläsare. Lämna tomt för att ange att bilden är dekorativ."
+        }
+      },
+      "groupAccess": {
+        "label": "Ange synlighet",
+        "helperText": "Styr vem som kan se associationer som gjorts från det här initiativet",
+        "private": {
+          "label": "Privat",
+          "description": "Initiativets ägare och grupper med åtkomst kan se gruppen"
+        },
+        "org": {
+          "label": "Organisation",
+          "description": "Alla medlemmar med ett konto för initiativets organisation och grupper med åtkomst kan se gruppen"
+        },
+        "public": {
+          "label": "Offentlig",
+          "description": "Alla kan se gruppen"
+        }
+      },
+      "membershipAccess": {
+        "label": "Vem kan vara med i denna grupp?",
+        "org": "Endast medlemmar i min organisation",
+        "collab": "Endast medlemmar i partnersamarbete och min organisation",
+        "any": "Medlemmar i alla organisationer (föreslagen standard)"
+      },
+      "includeInCatalog": {
+        "label": "Inkludera i katalog",
+        "helperText": "Om aktiverat visas alla associerade objekt tillsammans med annat innehåll i initiativets sökkatalog."
+      },
+      "mapSettings": {
+        "label": "Konfigurera hur kartan visas på initiativet"
+      }
+    }
+  },
+  "discussion": {
+    "sections": {
+      "details": {
+        "label": "Information"
+      },
+      "basicInfo": {
+        "label": "Grundläggande information"
+      },
+      "location": {
+        "label": "Plats",
+        "helperText": "För att få en mer fokuserad diskussion ska du lägga till ett geografiskt område för att ange diskussionsgränsen och standardzoomnivån för kartan."
+      },
+      "settings": {
+        "label": "Diskussioner"
+      },
+      "searchDiscoverability": {
+        "label": "Sökning och upptäckbarhet"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Titel",
+        "requiredError": "Namn på diskussionstavlan är obligatoriskt.",
+        "entityTitleValidatorError": "Diskussionsnamnet får inte innehålla emojis eller tecknen <, >, ="
+      },
+      "prompt": {
+        "label": "Prompt",
+        "helperText": "Beskriv kort vad du vill att deltagarna ska skicka in till den här diskussionstavlan.",
+        "requiredError": "Prompt är ett obligatoriskt fält",
+        "maxLengthError": "Prompt får inte vara längre än 150 tecken"
+      },
+      "description": {
+        "label": "Beskrivning",
+        "helperText": "Ange mer kontext som kan vara användbar vid sökning efter den här panelen."
+      },
+      "_thumbnail": {
+        "helperText": "Välj en bild som ska representera din diskussion."
+      },
+      "summary": {
+        "label": "Sammanfattning",
+        "helperText": "Beskriv kort syftet med den här diskussionstavlan, vilket är användbart när länken delas med andra."
+      },
+      "featuredImage": {
+        "label": "Bild i fokus",
+        "sizeDescription": "Maximal storlek är 10 MB, JPEG, JPG eller PNG",
+        "altText": {
+          "label": "Alt. text",
+          "helperText": "Ge en kort beskrivning av din bild för dem som använder skärmläsare. Lämna tomt för att ange att bilden är dekorativ."
+        },
+        "name": {
+          "label": "Bildnamn"
+        }
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Slug är en URL-vänlig version av diskussionsnamnet. Den skapas automatiskt baserat på diskussionsnamnet, men du kan anpassa den.",
+        "patternError": "Fel: Slug måste vara små alfanumeriska tecken avgränsade med bindestreck.",
+        "isUniqueError": "Denna slug används redan. Välj en annan."
+      },
+      "tags": {
+        "label": "Taggar"
+      },
+      "categories": {
+        "helperText": "Kategorierna används i sökkataloger för att göra det lättare för andra att hitta den här diskussionen. De ställs in av din organisation."
+      },
+      "discussable": {
+        "label": "Diskussion tillåtet?",
+        "enabled": {
+          "label": "Ja, diskussion är tillåtet",
+          "description": "Deltagarna kan lägga till poster, svar och reaktioner i den här diskussionstavlan."
+        },
+        "disabled": {
+          "label": "Nej, diskussion är blockerat",
+          "description": "Tar bort möjligheten att lägga till nya poster, svar och reaktioner. Det tar inte bort tidigare deltagande."
+        }
+      },
+      "mapSettings": {
+        "label": "Konfigurera hur kartan visas på diskussionstavlan"
+      }
+    }
+  },
+  "site": {
+    "sections": {
+      "defaultRequiredHelperText": "*visar att ett fält är obligatoriskt",
+      "basicInfo": {
+        "label": "Grundläggande information"
+      },
+      "location": {
+        "label": "Plats",
+        "helperText": "Visa det geografiska område som webbplatsen gäller."
+      },
+      "discussions": {
+        "label": "Diskussioner"
+      },
+      "privacy": {
+        "label": "Integritetskonfiguration"
+      },
+      "siteUrl": {
+        "label": "Webbplats-URL"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Webbplatsnamn",
+        "requiredError": "Webbplatsnamn är ett obligatoriskt fält",
+        "maxLengthError": "Webbplatsnamnet får inte vara längre än 250 tecken",
+        "siteEntityTitleValidatorError": "Webbplatsnamnet får inte innehålla emojis eller unicode-tecken"
+      },
+      "_thumbnail": {
+        "helperText": "Ange en miniatyrbild som ska representera den här webbplatsen i ArcGIS Online samt i sökningar och gallerier."
+      },
+      "description": {
+        "label": "Beskrivning",
+        "helperText": "Webbplatsens beskrivning."
+      },
+      "summary": {
+        "label": "Sammanfattning",
+        "helperText": "Summera kort webbplatsen."
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Slug är en URL-vänlig version av webbplatsnamnet. Den skapas automatiskt baserat på webbplatsnamnet, men du kan anpassa den.",
+        "patternError": "Fel: Slug måste vara små alfanumeriska tecken avgränsade med bindestreck.",
+        "isUniqueError": "Denna slug används redan. Välj en annan."
+      },
+      "tags": {
+        "label": "Taggar",
+        "helperText": "Taggar används i sökkataloger för att göra det lättare för andra att hitta den här webbplatsen. Lägg till text och tryck på Enter för att skapa nya taggar."
+      },
+      "categories": {
+        "helperText": "Kategorierna används i sökkataloger för att göra det lättare för andra att hitta den här webbplatsen. De ställs in av din organisation."
+      },
+      "discussable": {
+        "label": "Visa diskussionsgränssnitt för inloggade användare på live-webbplatser (aktiverat som standard)",
+        "enabled": {
+          "label": "Ja, diskussion är tillåtet",
+          "description": "Visa diskussionsgränssnitt"
+        },
+        "disabled": {
+          "label": "Nej, diskussion är blockerat",
+          "description": "Dölj diskussionsgränssnitt"
+        }
+      },
+      "followers": {
+        "groupAccess": {
+          "label": "Ange synlighet",
+          "helperText": "Styr vem som kan se följknappar. Den här inställningen gäller för både den flytande följknappen för åtgärd på sidan och eventuella följknappar som är inbäddade direkt i layouten.",
+          "private": {
+            "label": "Privat",
+            "description": "Webbplatsägaren och grupper med åtkomst kan se följknapparna"
+          },
+          "org": {
+            "label": "Organisation",
+            "description": "Alla medlemmar med ett konto för webbplatsens organisation och grupper med åtkomst kan se följknapparna"
+          },
+          "public": {
+            "label": "Offentlig",
+            "description": "Alla kan se följknapparna"
+          }
+        },
+        "showFollowAction": {
+          "label": "Följ-åtgärd",
+          "helperText": "Lägg till en följknapp i menyn för åtgärder på sidan, som förblir synlig när användare bläddrar igenom layouten."
+        },
+        "discussable": {
+          "label": "Kan den här gruppen delta i diskussioner?",
+          "enabled": {
+            "label": "Ja, diskussion är tillåtet",
+            "description": "Gruppmedlemmar kan visa och delta i diskussionskanaler som gruppen har åtkomst till."
+          },
+          "disabled": {
+            "label": "Nej, diskussion är blockerat",
+            "description": "Gruppmedlemmar kan inte visa eller delta i diskussionskanaler som gruppen har åtkomst till."
+          }
+        }
+      },
+      "siteUrl": {
+        "isUniqueError": "Fel: Det finns redan en webbplats som använder denna URL."
+      }
+    }
+  },
+  "page": {
+    "sections": {
+      "basicInfo": {
+        "label": "Grundläggande information"
+      },
+      "location": {
+        "label": "Plats",
+        "helperText": "Visa det geografiska område som sidan gäller."
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Sidnamn",
+        "requiredError": "Sidnamn är ett obligatoriskt fält",
+        "maxLengthError": "Sidnamnet får inte vara längre än 250 tecken",
+        "entityTitleValidatorError": "Sidnamnet får inte innehålla emojis eller tecknen <, >, ="
+      },
+      "description": {
+        "label": "Beskrivning",
+        "helperText": "Beskrivning av sidan"
+      },
+      "summary": {
+        "label": "Sammanfattning",
+        "helperText": "Summera kort sidan."
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Slug är en URL-vänlig version av sidnamnet. Den skapas automatiskt baserat på sidnamnet, men du kan anpassa den.",
+        "patternError": "Fel: Slug måste vara små alfanumeriska tecken avgränsade med bindestreck.",
+        "isUniqueError": "Denna slug används redan. Välj en annan."
+      },
+      "tags": {
+        "label": "Taggar",
+        "helperText": "Taggar används i sökkataloger för att göra det lättare för andra att hitta den här sidan. Lägg till text och tryck på Enter för att skapa nya taggar."
+      },
+      "_thumbnail": {
+        "helperText": "Ange en miniatyrbild som ska representera den här sidan i ArcGIS Online samt i sökningar och gallerier."
+      },
+      "categories": {
+        "helperText": "Kategorierna används i sökkataloger för att göra det lättare för andra att hitta den här sidan. De ställs in av din organisation."
+      }
+    }
+  },
+  "content": {
+    "fields": {
+      "title": {
+        "label": "Titel",
+        "hint": "Konkreta titlar gör att saker upptäcks lättare i ditt innehåll.",
+        "requiredError": "Titel är ett obligatoriskt fält",
+        "entityTitleValidatorError": "Namnet får inte innehålla emojis eller tecknen <, >, ="
+      },
+      "summary": {
+        "label": "Sammanfattning",
+        "hint": "Summera kort ditt innehåll. Tips! Förbättra SEO genom att använda nyckelord som avviker från \"titel\" eller \"taggar\"."
+      },
+      "description": {
+        "label": "Beskrivning",
+        "hint": "Lägg till ytterligare information som förklarar ditt innehåll. Sikta på en läsbarhet för 7:e-9:e klass om du vill nå en bredare publik. <a href='https://www.webfx.com/tools/read-able/' target='_blank'>Använd ett kostnadsfritt analysverktyg för att testa din text</a>."
+      },
+      "tags": {
+        "label": "Taggar",
+        "hint": "Taggar används i sökkataloger för att göra det lättare för andra att hitta det här innehållet. Lägg till text och tryck på Enter för att skapa nya taggar."
+      },
+      "categories": {
+        "helperText": "Kategorierna används i sökkataloger för att göra det lättare för andra att hitta det här innehållet. De ställs in av din organisation."
+      },
+      "_thumbnail": {
+        "helperText": "Ange en miniatyrbild som ska representera det här objektet i ArcGIS Online samt i sökningar och gallerier."
+      },
+      "license": {
+        "label": "Användarvillkor",
+        "helperText": "Färre restriktioner leder till mer återanvändning."
+      },
+      "discussable": {
+        "label": "Diskussion tillåtet?",
+        "enabled": {
+          "label": "Ja, diskussion är tillåtet",
+          "description": "Deltagarna kan lägga till inlägg, svar och reaktioner på det här ämnet."
+        },
+        "disabled": {
+          "label": "Nej, diskussion är blockerat",
+          "description": "Tar bort möjligheten att lägga till nya inlägg, svar och reaktioner. Det tar inte bort tidigare deltagande."
+        }
+      },
+      "serverExtractCapability": {
+        "label": "Hämtningssystem",
+        "exportDataSetting": {
+          "label": "Inställningen Exportera data (rekommenderas)",
+          "description": "Aktivera ytterligare hämtningsformat och ökad hämtningsprestanda."
+        },
+        "defaultDownloadsSystem": {
+          "label": "Standardhämtningssystem",
+          "description": "Kanske erbjuder färre format, långsammare hämtningshastigheter och mindre tillförlitlighet."
+        },
+        "noFormatConfigurationNotice": {
+          "title": "Formatkonfiguration inte tillgänglig",
+          "body": "Formatkonfiguration kräver inställningen Exportera data för att kunna aktiveras."
+        }
+      },
+      "downloadFormats": {
+        "label": "Format",
+        "helperText": "Välj vilka format som användarna ska tillåtas att komma åt, och i vilken ordning de ska visas. (Observera att du måste välja minst ett format)",
+        "downloadsUnavailableNotice": {
+          "title": "Hämtningsbara filer är inte tillgängliga",
+          "body": "Inställningen Exportera data måste vara aktiverad på ArcGIS Online för att hämta innehåll. Kontakta objektets ägare för att aktivera den här inställningen."
+        }
+      },
+      "schedule": {
+        "manual": {
+          "helperActionText": "Använd det här alternativet om du vill uppdatera sökindex och cachade hämtningsfiler manuellt för det här objektet."
+        },
+        "forceUpdateButton": {
+          "label": "Framtvinga uppdatering",
+          "description": "Välj det här alternativet och välj sedan \"Spara\" för att manuellt uppdatera sökindex och cachade hämtningsfiler för det här objektet i förekommande fall."
+        },
+        "unavailableNotice": {
+          "title": "Schemalagda uppdateringar inte tillgängliga",
+          "body": "Gör det här innehållet \"offentligt\" för att aktivera schemalagda uppdateringar."
+        }
+      }
+    },
+    "sections": {
+      "basic": {
+        "title": "Grundläggande information",
+        "message": "Den här informationen används för att fylla i sökresultat och gallerikort. Dessutom visas den i informationsvyn."
+      },
+      "about": {
+        "title": "Om innehåll",
+        "message": "De två första raderna i din beskrivning visas i sökresultat, men hela beskrivningen visas i fokuserade innehållsvyer."
+      },
+      "image": {
+        "title": "Bild i fokus",
+        "message": "Det är viktigt att ha en bra bild eller miniatyrbild i fokus när du visar upp ditt innehåll i våra gallerier eller i vyer som initiativ, evenemang och undersökningar där bilder lyfts fram. Rekommenderad storlek är 760 x 505. Överväg att ersätta miniatyrbilden med en större bild om den ser suddig ut när den visas live."
+      },
+      "location": {
+        "label": "Plats",
+        "helperText": "Visa det geografiska område där det här innehållet kommer att äga rum (ska visas på innehållslayouten)."
+      },
+      "discussions": {
+        "label": "Diskussioner"
+      },
+      "downloads": {
+        "label": "Hämtningsbara filer",
+        "helperText": "Konfigurera hämtningsformat, schema för uppdatering av cachelagrade filer och mer. Se <calcite-link href=\"https://doc.arcgis.com/en/hub/content/data-download-settings.htm\" target=\"_blank\" icon-end=\"launch\">hämtningsdokumentation</calcite-link> för mer information."
+      },
+      "schedule": {
+        "label": "Schemalagda uppdateringar",
+        "helperText": "Hub kommer automatiskt att försöka bestämma bästa tiden för att uppdatera innehåll (som standard). Men du kan ange en uppdateringsfrekvens för innehåll, metadata och cachade hämtningsfiler (vid behov)."
+      }
+    },
+    "stringField": {
+      "charCounter": "{count} tecken kvar"
+    },
+    "imageThumbnail": {
+      "label": "Miniatyrbild",
+      "upload": "Överför bild",
+      "done": "Klart",
+      "editThumbnail": "Redigera miniatyrbild",
+      "browse": "Bläddra efter bild",
+      "remove": "Ta bort bild",
+      "edit": "Redigera bild",
+      "defaultHeading": "Lägg till miniatyrbild",
+      "dropHeading": "Släpp för att överföra",
+      "errorHeading": "Försök med en annan bild",
+      "subheading": "Maximal storlek är {size}, {types}",
+      "zoomOut": "zooma ut",
+      "zoomIn": "zooma in",
+      "drag": "Dra för att ändra position",
+      "urlPlaceholder": "Typer som stöds: {types}",
+      "browseForImage": "Bläddra efter bild",
+      "aria": {
+        "container": "Bildområde",
+        "crop": "Beskärningsområde",
+        "handle": {
+          "top": "Ändra storlek överkant",
+          "right": "Ändra storlek höger",
+          "left": "Ändra storlek vänster",
+          "bottom": "Ändra storlek nederkant"
+        }
+      }
+    }
+  },
+  "group": {
+    "sections": {
+      "details": {
+        "label": "Information"
+      },
+      "basicInfo": {
+        "label": "Grundläggande information"
+      },
+      "capabilities": {
+        "label": "Funktioner"
+      },
+      "membershipAccess": {
+        "label": "Gruppmedlemskap"
+      },
+      "discussions": {
+        "label": "Diskussioner"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Titel",
+        "requiredError": "Grupptitel är ett obligatoriskt fält",
+        "maxLengthError": "Grupptiteln får inte vara längre än 250 tecken",
+        "entityTitleValidatorError": "Gruppnamnet får inte innehålla emojis eller tecknen <, >, ="
+      },
+      "summary": {
+        "label": "Sammanfattning",
+        "maxLengthError": "Sammanfattningen får inte vara längre än 250 tecken"
+      },
+      "description": {
+        "label": "Beskrivning"
+      },
+      "access": {
+        "label": "Vem kan visa denna grupp?",
+        "private": {
+          "label": "Privat",
+          "description": "Endast gruppmedlemmar kan visa gruppen."
+        },
+        "org": {
+          "label": "Organisation",
+          "description": "Endast organisationsmedlemmar kan visa gruppen."
+        },
+        "public": {
+          "label": "Alla (offentlig)",
+          "description": "Alla kan visa gruppen."
+        }
+      },
+      "isSharedUpdate": {
+        "label": "Delad uppdatering",
+        "helperText": "Objekt i den här gruppen kan redigeras av alla medlemmar i gruppen. Medlemskapet begränsas till din organisation och samarbetsorganisationer."
+      },
+      "isAdmin": {
+        "label": "Administrativ grupp",
+        "helperText": "Medlemmar kan inte lämna den här gruppen. Endast gruppledare eller gruppägare kan ta bort användare från den här gruppen. Medlemskapet begränsas till din organisation."
+      },
+      "isOpenData": {
+        "label": "Open Data",
+        "helperText": "Tillåt att det går att komma åt gruppen i Open Data-webbplatser.",
+        "constError": "Grupper som inte är offentliga kan inte vara Open Data-grupper."
+      },
+      "_thumbnail": {
+        "label": "Miniatyrbild",
+        "helperText": "Välj en bild som ska representera din grupp i grupprofilen.",
+        "sizeDescription": "Maximal storlek är 10 MB. Rekommenderad storlek: 400 x 400 eller större"
+      },
+      "membershipAccess": {
+        "label": "Vem kan vara med i denna grupp?",
+        "org": {
+          "description": "Endast medlemmar i min organisation",
+          "label": "Organisationsmedlemmar"
+        },
+        "collab": {
+          "description": "Endast medlemmar i partnersamarbete och min organisation",
+          "label": "Endast samarbetspartner"
+        },
+        "any": {
+          "description": "Medlemmar i alla organisationer",
+          "label": "Alla"
+        },
+        "createFollowers": {
+          "any": "Medlemmar i alla organisationer (föreslagen standard)"
+        },
+        "createAssociation": {
+          "any": "Medlemmar i alla organisationer (föreslagen standard)"
+        },
+        "constError": "Administratörsgruppmedlemskap är begränsat till medlemmar i din organisation.",
+        "patternError": "Delad uppdatering av gruppmedlemskap är begränsat till din organisation eller medlemmar i partnersamarbete."
+      },
+      "contributeContent": {
+        "label": "Vem kan bidra med innehåll?",
+        "members": {
+          "label": "Medlemmar",
+          "description": "Alla gruppmedlemmar"
+        },
+        "admins": {
+          "label": "Administratörer",
+          "description": "Gruppens ägare och ledare"
+        },
+        "createFollowers": {
+          "admins": "Gruppens ägare och ledare (föreslagen standard)"
+        },
+        "createAssociation": {
+          "admins": "Gruppens ägare och ledare (föreslagen standard)"
+        }
+      },
+      "join": {
+        "label": "Hur kan man gå med i den här gruppen?",
+        "invite": {
+          "label": "Inbjudan",
+          "description": "Endast efter inbjudan"
+        },
+        "request": {
+          "label": "Begäran",
+          "description": "Efter begäran"
+        },
+        "auto": {
+          "label": "Sig själva",
+          "description": "Genom att lägga till sig själva"
+        },
+        "constError": "Privata grupper måste vara endast för inbjudna.",
+        "patternError": "Administratörsgrupper eller delade uppdateringsgrupper måste vara efter inbjudan eller efter begäran."
+      },
+      "hiddenMembers": {
+        "label": "Vem kan se den fullständiga listan över medlemmar på fliken Medlemmar för gruppen?",
+        "members": {
+          "label": "Medlemmar",
+          "description": "Alla gruppmedlemmar"
+        },
+        "admins": {
+          "label": "Administratörer",
+          "description": "Gruppens ägare och ledare"
+        }
+      },
+      "discussable": {
+        "label": "Kan den här gruppen delta i diskussioner?",
+        "enabled": {
+          "label": "Ja, diskussion är tillåtet",
+          "description": "Gruppmedlemmar kan visa och delta i diskussionskanaler som gruppen har åtkomst till."
+        },
+        "disabled": {
+          "label": "Nej, diskussion är blockerat",
+          "description": "Gruppmedlemmar kan inte visa eller delta i diskussionskanaler som gruppen har åtkomst till."
+        }
+      }
+    }
+  },
+  "initiativeTemplate": {
+    "sections": {
+      "basicInfo": {
+        "label": "Grundläggande information"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Namn",
+        "requiredError": "Initiativmallnamn är ett obligatoriskt fält",
+        "entityTitleValidatorError": "Initiativmallnamnet får inte innehålla emojis eller tecknen <, >, ="
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Slug är en URL-vänlig version av initiativmallnamnet. Den skapas automatiskt baserat på initiativmallnamnet, men du kan anpassa den.",
+        "patternError": "Fel: slug måste vara små alfanumeriska tecken avgränsade med bindestreck.",
+        "isUniqueError": "Denna slug används redan. Välj en annan."
+      },
+      "previewUrl": {
+        "label": "Förhandsgranska länk",
+        "helperText": "En förhandsgranskningslänk tillämpas på titeln och är användbar om du planerar att dela mallen offentligt. Länkar ska börja med \"https://\"",
+        "formatError": "URL-formateringen är felaktig"
+      },
+      "summary": {
+        "label": "Sammanfattning",
+        "helperText": "Skriv en kort beskrivning av den här mallen som ska visas i mallgalleriet (rekommenderas vara högst 90 tecken lång)."
+      },
+      "description": {
+        "label": "Beskrivning",
+        "helperText": "Inkludera information om hur den här mallen ska användas. Överväg att inkludera instruktioner för andra."
+      },
+      "_thumbnail": {
+        "label": "Miniatyrbild",
+        "helperText": "Ange en miniatyrbild som ska representera den här mallen i ArcGIS Online samt i sökningar och gallerier.",
+        "sizeDescription": "Maximal storlek är 10 MB. Rekommenderad storlek: 750 x 505 eller större"
+      },
+      "recommendedTemplates": {
+        "label": "Rekommenderade mallar",
+        "catalog": {
+          "myContent": "Mitt innehåll",
+          "favorites": "Favoriter",
+          "organization": "Min organisation",
+          "world": "Världen (Offentlig)"
+        },
+        "facets": {
+          "sharing": "Delning"
+        },
+        "pickerTitle": "Välj mallar"
+      }
+    }
+  },
+  "template": {
+    "sections": {
+      "basicInfo": {
+        "label": "Grundläggande information"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Mallnamn",
+        "requiredError": "Mallnamn är ett obligatoriskt fält",
+        "maxLengthError": "Mallnamnet får inte vara längre än 250 tecken",
+        "entityTitleValidatorError": "Mallnamnet får inte innehålla emojis eller tecknen <, >, ="
+      },
+      "previewUrl": {
+        "label": "Förhandsgranskningslänk",
+        "helperText": "En förhandsgranskningslänk tillämpas på titeln och är användbar om du planerar att dela mallen offentligt. Länkar ska börja med \"https://\"",
+        "formatError": "URL-formateringen är felaktig"
+      },
+      "description": {
+        "label": "Beskrivning",
+        "helperText": "Inkludera information om hur den här mallen ska användas. Överväg att inkludera instruktioner för andra."
+      },
+      "summary": {
+        "label": "Sammanfattning",
+        "helperText": "Skriv en kort beskrivning av den här mallen som ska visas i mallgalleriet (rekommenderas vara högst 90 tecken lång)."
+      },
+      "_thumbnail": {
+        "helperText": "Välj en bild som ska representera din mall i gallerier."
+      }
+    }
+  },
+  "survey": {
+    "sections": {
+      "basicInfo": {
+        "label": "Grundläggande information"
+      },
+      "searchDiscoverability": {
+        "label": "Sökning och upptäckbarhet"
+      },
+      "settings": {
+        "label": "Kartvisning"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Namn på undersökning",
+        "requiredError": "Namn på undersökning är ett obligatoriskt fält",
+        "maxLengthError": "Undersökningsnamnet får inte vara längre än 250 tecken",
+        "entityTitleValidatorError": "Undersökningsnamnet får inte innehålla emojis eller tecknen <, >, ="
+      },
+      "description": {
+        "label": "Beskrivning",
+        "helperText": "Beskrivningen av undersökningen."
+      },
+      "summary": {
+        "label": "Sammanfattning",
+        "helperText": "Summera kort undersökningen."
+      },
+      "_thumbnail": {
+        "helperText": "Ange en miniatyrbild som ska representera den här undersökningen i ArcGIS Online samt i sökningar och gallerier."
+      },
+      "tags": {
+        "label": "Taggar",
+        "helperText": "Taggar används i sökkataloger för att göra det lättare för andra att hitta den här undersökningen. Lägg till text och tryck på Enter för att skapa nya taggar."
+      },
+      "categories": {
+        "helperText": "Kategorierna används i sökkataloger för att göra det lättare för andra att hitta den här undersökningen. De ställs in av din organisation."
+      },
+      "displayMap": {
+        "label": "Hur ska undersökningen visas när den öppnas i ArcGIS Hub?",
+        "enabled": {
+          "label": "Kartfokuserad",
+          "description": "Fördjupande kartupplevelse, kartfrågan visas först."
+        },
+        "disabled": {
+          "label": "Standardvisning",
+          "description": "Kartan visas i linje med resten av frågorna."
+        },
+        "notice": {
+          "title": "Kräver kartfråga",
+          "message": "Publicera undersökningen med en kartfråga i Survey123 för att konfigurera kartvisningen i ArcGIS Hub."
+        }
+      }
+    }
+  },
+  "event": {
+    "fields": {
+      "name": {
+        "label": "Titel",
+        "requiredError": "Titel är ett obligatoriskt fält",
+        "entityTitleValidatorError": "Evenemangsnamnet får inte innehålla emojis eller tecknen <, >, ="
+      },
+      "startDate": {
+        "label": "Startdatum",
+        "requiredError": "Startdatum är ett obligatoriskt fält",
+        "minDateError": "Startdatum kan inte vara före idag"
+      },
+      "endDate": {
+        "label": "Slutdatum",
+        "requiredError": "Slutdatum är ett obligatoriskt fält",
+        "minDateError": "Slutdatum får inte vara före startdatum"
+      },
+      "date": {
+        "label": "Datum",
+        "requiredError": "Datum är ett obligatoriskt fält",
+        "minDateError": "Datum kan inte vara före idag"
+      },
+      "startTime": {
+        "label": "Starttid",
+        "requiredError": "Starttid är ett obligatoriskt fält"
+      },
+      "endTime": {
+        "label": "Sluttid",
+        "requiredError": "Sluttid är ett obligatoriskt fält",
+        "minTimeError": "Sluttid måste vara efter starttid"
+      },
+      "allDay": {
+        "label": "Hela dagen"
+      },
+      "timeZone": {
+        "label": "Tidszon",
+        "requiredError": "Tidszon är ett obligatoriskt fält"
+      },
+      "attendanceType": {
+        "label": "Var",
+        "inPerson": {
+          "label": "Personligen"
+        },
+        "online": {
+          "label": "Online"
+        },
+        "both": {
+          "label": "Båda"
+        }
+      },
+      "onlineUrl": {
+        "label": "Länk för att delta i onlineevenemang",
+        "requiredError": "URL krävs för online- eller hybridevenemang",
+        "linkHrefFormatError": "URL-formateringen är felaktig"
+      },
+      "description": {
+        "label": "Beskrivning",
+        "helperText": "Lägg till extra information för registranter, som typ av evenemang, syfte, agenda, vad man ska ta med sig, transport, etc.",
+        "requiredError": "Beskrivning är ett obligatoriskt fält"
+      },
+      "inPersonCapacity": {
+        "label": "Maximal individuell kapacitet",
+        "requiredError": "Maximal individuell kapacitet krävs",
+        "minimumError": "Maximal individuell kapacitet måste vara större än 0"
+      },
+      "inPersonCapacityType": {
+        "label": "Individuell registreringskapacitet",
+        "unlimited": {
+          "label": "Obegränsad"
+        },
+        "fixed": {
+          "label": "Fast"
+        }
+      },
+      "location": {
+        "label": "Visa det geografiska område där det här evenemanget kommer att äga rum (ska visas på evenemangslayouten)."
+      },
+      "onlineCapacityType": {
+        "label": "Onlineregistreringskapacitet",
+        "unlimited": {
+          "label": "Obegränsad"
+        },
+        "fixed": {
+          "label": "Fast"
+        }
+      },
+      "onlineCapacity": {
+        "label": "Maximal onlinekapacitet",
+        "requiredError": "Maximal onlinekapacitet krävs",
+        "minimumError": "Maximal onlinekapacitet måste vara större än 0"
+      },
+      "onlineDetails": {
+        "label": "Information om onlineevenemang",
+        "helperText": "Lägg till extra information för registranter, som lösenord, inringningsinformation och mer."
+      },
+      "categories": {
+        "helperText": "Kategorierna används i sökkataloger för att göra det lättare för andra att hitta det här evenemanget. De ställs in av din organisation."
+      },
+      "tags": {
+        "label": "Taggar",
+        "helperText": "Taggar används i sökkataloger för att göra det lättare för andra att hitta det här evenemanget. Lägg till text och tryck på Enter för att skapa nya taggar."
+      },
+      "summary": {
+        "label": "Sammanfattning",
+        "helperText": "Beskriv kort syftet med det här evenemanget, vilket är användbart när länken delas med andra."
+      },
+      "allowRegistration": {
+        "label": "Tillåt registrering",
+        "helperText": "Ett konto krävs för att registrera sig eller få en inbjudan om att delta.",
+        "enabled": {
+          "label": "Registreringsknappen aktiverad",
+          "description": "Alla medlemmar som kan visa evenemanget kan registrera sig."
+        },
+        "disabled": {
+          "label": "Registreringsknappen inaktiverad",
+          "description": "Registrering är endast för inbjudna eller spåras inte."
+        }
+      },
+      "notifyAttendees": {
+        "label": "Skicka automatiska aviseringar",
+        "helperText": "Evenemangsabonnenter kan få automatiska e-postmeddelanden för påminnelser eller ändringar. Personer som registrerar sitt deltagande blir automatiskt abonnenter.",
+        "enabled": {
+          "label": "Aviseringar aktiverade",
+          "description": "Knappen Abonnera är synlig för evenemanget."
+        },
+        "disabled": {
+          "label": "Aviseringar inaktiverade",
+          "description": "Knappen Abonnera är dold för evenemanget."
+        }
+      },
+      "referencedContent": {
+        "label": "Kopplat innehåll",
+        "helperText": {
+          "label": "Koppla ett projekt, initiativ eller en webbplats relaterat till den här händelsen."
+        },
+        "facets": {
+          "from": {
+            "label": "Från",
+            "myContent": {
+              "label": "Mitt innehåll"
+            },
+            "myOrganization": {
+              "label": "Min organisation"
+            }
+          },
+          "access": {
+            "label": "Åtkomst"
+          }
+        },
+        "catalog": {
+          "organization": "Organisation"
+        },
+        "collection": {
+          "sites": "Webbplatser",
+          "initiatives": "Initiativ",
+          "projects": "Projekt"
+        }
+      }
+    },
+    "sections": {
+      "referencedContent": {
+        "label": "Kopplat innehåll"
+      },
+      "eventInfo": {
+        "label": "Evenemangsinfo"
+      },
+      "dateTime": {
+        "label": "Datum och tid"
+      },
+      "location": {
+        "label": "Plats"
+      },
+      "discoverability": {
+        "label": "Sökning och upptäckbarhet"
+      }
+    }
+  },
+  "user": {
+    "sections": {
+      "userSettings": "Användarinställningar",
+      "orgSettings": {
+        "label": "Organisationsinställningar",
+        "signinSettings": {
+          "label": "Inloggningsalternativ",
+          "helperText": "Anpassa informationen som användare ser om de väljer att registrera sig för ett communitykonto i din Hub."
+        },
+        "siteDefaults": {
+          "label": "Standardinställningar för webbplatsvisning"
+        }
+      }
+    },
+    "fields": {
+      "enableTermsAndConditions": {
+        "label": "Kräver anpassade användningsvillkor på registreringsformuläret"
+      },
+      "termsAndConditions": {
+        "label": "Användarvillkor"
+      },
+      "enableSignupText": {
+        "label": "Konfigurera ett anpassat välkomstmeddelande för registrering"
+      },
+      "workspacePreview": {
+        "label": "Aktivera förhandsgranskning av arbetskatalog",
+        "helperText": "Arbetskataloger är tillgängliga för förhandsgranskning men håller fortfarande på att utvecklas när vi utökar funktionaliteten. Du kan inaktivera arbetskataloger när som helst under förhandsgranskningsperioden. Om du aktiverar arbetskataloger påverkas bara det här användarkontot."
+      },
+      "infoBanner": {
+        "label": "Informationsbanner",
+        "helperText": "Visa din arbetstagarorganisations informationsbanner, om den är konfigurerad, på alla webbplatser och sidor. Det här är en global inställning och den kan inte aktiveras/inaktiveras för en specifik webbplats.",
+        "helperTextWhenDisabled": "Du har för närvarande ingen konfigurerad informationsbanner. Klicka på länken nedan för att omdirigeras till ArcGIS Online där du kan konfigurera din informationsbanner",
+        "goToBannerConfig": "Konfigurera informationsbanner i ArcGIS Online"
+      }
+    },
+    "notice": {
+      "title": "Organisationshantering",
+      "message": "De flesta personal- och communityorganisationsinställningar (endast Hub Premium) hanteras nu i ArcGIS hemorganisation.",
+      "communityMessage": "De flesta personal- och communityorganisationsinställningar (endast Hub Premium) hanteras nu i ArcGIS hemorganisation. <br /> <br /> Din communityorganisation är",
+      "staffMessage": "De flesta personal- och communityorganisationsinställningar (endast Hub Premium) hanteras nu i ArcGIS hemorganisation. <br /> <br /> Din personalorganisation är",
+      "actions": {
+        "goToOrg": "Gå till organisationsinställningar",
+        "goToCommunityOrg": "Gå till communityorganisation",
+        "goToStaffOrg": "Gå till personalorganisation"
+      }
+    }
+  }
+}

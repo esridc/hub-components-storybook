@@ -1,0 +1,82 @@
+{
+  "title": "Katılım",
+  "subtitle": "Tartışma panosu görünürlüğünü (kimlerin görüntüleyebileceğini) ayarlayın, aşağı kaydırarak pano bilgilerini kimlerin düzenleyebileceğini ayarlayın ve ardından kanallarla katılımı ve moderasyonu ayarlayın.",
+  "channelTitle": "Katılım kanalı ayarlandı",
+  "channelDescription": "Bu kanal, bu tartışma panosuna kimlerin gönderi ekleyebileceğini, görüntüleyebileceğini ve denetleyebileceğini kontrol eder.",
+  "addChannelsTitle": "Kanalı ayarla",
+  "addChannelsDescription": "Kanallar, panoya kimlerin gönderi ekleyebileceğini kontrol eder. Gruplara, bir kuruluşa veya herkese açık olabilir ve birçok tartışmaya uygulanabilir. Kanallar ayrıca kimin moderatörlük yapabileceğini de kontrol eder. Bir kanal içinde otomatik moderasyon için engellenen sözcükleri ayarlayın.",
+  "privateChannelTitle": "Özel kanal ayarlandı",
+  "privateChannelDescription": "Bu tartışma panosuna atanmış özel kanalı göremezsiniz. Kanalı kaldırabilir ve mevcut bir kanal seçebilir veya bir kanal oluşturabilirsiniz.",
+  "removeChannelConfirmationMessage": "Bu tartışma panosu artık gönderileri görüntülemeyecek. Bu kanal kaldırılırsa bir kanal ekleyebilirsiniz.",
+  "headingChannelEdit": "Bir kanalı düzenliyorsunuz",
+  "headingChannelView": "Bir kanalı görüntülüyorsunuz",
+  "headingChannelCreate": "Bir kanal oluşturuyorsunuz",
+  "buttons": {
+    "browse": "Kanallara gözat",
+    "new": "Yeni kanal",
+    "removeChannel": "Kanalı kaldır",
+    "cancel": "İptal"
+  },
+  "alerts": {
+    "label": "Biçim uyarısı",
+    "set": {
+      "title": "Başarılı. Kanal ayarlandı."
+    },
+    "removed": {
+      "title": "Kanal kaldırıldı",
+      "message": "Katılım için bir kanal seçin veya oluşturun."
+    },
+    "error": {
+      "title": "Başarısız. Kanal ayarlanmamış."
+    }
+  },
+  "galleryPickerTitle": "Bir kanal seç",
+  "channelsLabel": "Kanallar",
+  "accessLabel": "Erişim",
+  "optionPublicLabel": "Genel",
+  "optionOrganizationLabel": "Kuruluş",
+  "optionPrivateLabel": "Özel",
+  "viewChannel": "Kanalı görüntüle",
+  "editChannel": "Kanalı düzenle",
+  "save": "Kaydet",
+  "removeChannel": "Kanalı kaldır",
+  "groupPicker": {
+    "facet": {
+      "label": "Kaynak",
+      "myGroups": "Gruplarım",
+      "myOrganization": "Kuruluşum",
+      "myCommunity": "Topluluğum"
+    }
+  },
+  "editGroupButtonText": "Düzenleme grupları ekle",
+  "viewGroupButtonText": "Görüntüleme grupları ekle",
+  "viewGroups": {
+    "header": "Kim görüntüleyebilir",
+    "description": "Panoyu görüntüleyebilen (ancak gönderi gönderemeyen) kişiler; gönderi aşağıdaki kanallar tarafından ayarlanır."
+  },
+  "editGroups": {
+    "header": "Kim düzenleyebilir",
+    "description": "Grup üyeleri çalışma alanındaki pano bilgilerini düzenleyebilir."
+  },
+  "aboutChannelsNotice": {
+    "title": "Kanalların tanıtılması",
+    "message": "Kanallar grup değildir ancak gruplar içerebilir. Kimin gönderi gönderebileceğini ve moderatörlük yapabileceğini belirler.",
+    "action": "Kanallar hakkında daha fazlası"
+  },
+  "nonPrivateChannelNotice": {
+    "title": "Kanalı düzenleyemez",
+    "message": "Bu kanalı yalnızca kanalın moderetörleri düzenleyebilir. Gerekirse, eklemek için kanal sahibi veya kuruluş yöneticisi ile iletişime geçin. Ayrıca bu kanalı kaldırabilir, mevcut bir kanalı ekleyebilir (moderatörü olduğunuz) veya yeni bir kanal oluşturabilirsiniz."
+  },
+  "privateChannelNotice": {
+    "title": "Kanalı düzenleyemez",
+    "message": "Bu kanalı yalnızca kanalın moderetörleri düzenleyebilir. Gerekirse, eklemek için kanal sahibi ile iletişime geçin. Ayrıca bu kanalı kaldırabilir, mevcut bir kanalı ekleyebilir (moderatörü olduğunuz) veya yeni bir kanal oluşturabilirsiniz."
+  },
+  "participate": {
+    "header": "Kim katılabilir ve kim moderatörlük yapabilir"
+  },
+  "org": "Kuruluş",
+  "private": "Özel",
+  "public": "Genel",
+  "unnamed": "Adlandırılmamış kanal",
+  "groupNotFound": "Grup bulunamadı"
+}

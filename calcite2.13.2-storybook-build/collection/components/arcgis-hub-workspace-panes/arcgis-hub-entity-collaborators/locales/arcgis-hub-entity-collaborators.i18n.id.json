@@ -1,0 +1,85 @@
+{
+  "collaborators": "Kolaborator",
+  "editGroupButtonText": "Tambahkan edit grup",
+  "viewGroupButtonText": "Tambahkan lihat grup",
+  "groupPicker": {
+    "title": "Pilih grup",
+    "facet": {
+      "label": "Dari",
+      "editGroups": "Edit grup",
+      "viewGroups": "Lihat grup",
+      "myGroups": "Grup saya",
+      "myOrganization": "Organisasi saya",
+      "myCommunity": "Komunitas saya"
+    }
+  },
+  "addNewPeopleNotice": {
+    "title": "Tambahkan orang baru",
+    "message": "Jika perlu menambahkan orang, Anda dapat mengundang mereka untuk bergabung dengan komunitas atau <orgOverviewLink>menghubungi administrator Anda</orgOverviewLink>."
+  },
+  "editGroupsTitle": "Grup yang dapat diedit",
+  "viewGroupsTitle": "Grup yang dapat dilihat",
+  "project": {
+    "description": "Pilih grup pengguna mana yang dapat melihat dan mengedit proyek ini.",
+    "editGroupsDescription": "Orang-orang dalam grup ini akan dapat mengedit informasi proyek.",
+    "viewGroupsDescription": "Orang-orang di grup ini akan dapat mencari dan melihat proyek, jika tidak dibagikan ke publik.",
+    "errorMessage": "Terjadi kesalahan saat memperbarui kolaborator proyek Anda."
+  },
+  "content": {
+    "description": "Pilih grup pengguna mana yang dapat melihat dan mengedit konten ini.",
+    "editGroupsDescription": "Orang-orang dalam grup ini akan dapat mengedit informasi konten.",
+    "viewGroupsDescription": "Orang-orang di grup ini akan dapat mencari dan melihat konten, jika tidak dibagikan ke publik.",
+    "errorMessage": "Terjadi kesalahan saat memperbarui kolaborator konten Anda."
+  },
+  "discussion": {
+    "description": "Pilih kelompok pengguna mana yang dapat melihat papan diskusi dan mana yang dapat mengedit informasi papan.",
+    "editGroupsDescription": "Anggota grup ini dapat mengedit informasi papan diskusi.",
+    "viewGroupsDescription": "Anggota grup ini dapat mencari dan melihat papan diskusi (jika papan tidak dibagikan kepada publik).",
+    "errorMessage": "Terjadi kesalahan saat memperbarui kolaborator diskusi Anda."
+  },
+  "site": {
+    "description": "Pilih kelompok pengguna mana yang dapat melihat dan mengedit situs ini.",
+    "editGroupsDescription": "Orang-orang di grup ini akan dapat mengedit informasi situs.",
+    "viewGroupsDescription": "Orang-orang dalam grup ini akan dapat mencari dan melihat situs tersebut, jika situs tersebut tidak dibagikan kepada publik.",
+    "errorMessage": "Terjadi kesalahan saat memperbarui kolaborator situs Anda."
+  },
+  "template": {
+    "description": "Pilih grup pengguna mana yang dapat melihat dan mengedit template ini.",
+    "editGroupsDescription": "Orang-orang di grup ini akan dapat mengedit informasi template.",
+    "viewGroupsDescription": "Orang-orang di grup ini akan dapat mencari dan melihat template tersebut, jika template tersebut tidak dibagikan kepada publik.",
+    "errorMessage": "Terjadi kesalahan saat memperbarui kolaborator template Anda."
+  },
+  "survey": {
+    "description": "Pilih grup pengguna yang bisa melihat dan mengedit survei ini.",
+    "editGroupsDescription": "Orang-orang di grup ini akan dapat mengedit informasi survei.",
+    "viewGroupsDescription": "Orang-orang di grup ini akan dapat mencari dan melihat survei, jika tidak dibagikan kepada publik.",
+    "errorMessage": "Terjadi kesalahan saat memperbarui kolaborator survei Anda."
+  },
+  "event": {
+    "description": "Pilih grup pengguna mana yang dapat melihat dan mengedit peristiwa ini.",
+    "editGroupsDescription": "Orang-orang dalam grup ini akan dapat mengedit informasi peristiwa.",
+    "viewGroupsDescription": "Orang-orang di grup ini akan dapat mencari dan melihat peristiwa, jika tidak dibagikan kepada publik.",
+    "errorMessage": "Terjadi kesalahan saat memperbarui kolaborator peristiwa Anda."
+  },
+  "newTab": "buka profil di tab baru",
+  "supportingTeams": "Tim pendukung",
+  "supportingTeamsDesc": "Tim pendukung ini sebelumnya ditautkan ke situs Anda. Anda dapat terus menggunakannya untuk berbagi konten dengan kolaborator.",
+  "supportTeamsRemove": "Hapus tim",
+  "supportingTeamsRemoveError": "Terjadi kesalahan saat membatalkan tautan tim. Hubungi administrator.",
+  "supportingTeamsRemoveSuccess": "Tim berhasil memutuskan tautannya.",
+  "view": {
+    "button": "Buat lihat grup",
+    "formLabel": "Lihat Grup Baru",
+    "description": "Siapkan grup untuk memfasilitasi berbagi konten dan komunikasi. Anggota grup akan dapat melihat konten apa pun yang dibagikan kepada grup."
+  },
+  "edit": {
+    "button": "Buat edit grup",
+    "formLabel": "Edit Grup Baru",
+    "description": "Siapkan grup untuk memfasilitasi berbagi konten dan komunikasi. Anggota grup akan dapat melihat dan mengedit konten apa pun yang dibagikan kepada grup."
+  },
+  "groupCreateDisabledButtonTooltip": "Anda tidak dapat membuat grup. Anda mungkin sudah mencapai jumlah grup maksimal atau tidak memiliki hak istimewa yang memadai untuk membuat grup.",
+  "groupCreateError": "Terjadi masalah saat membuat grup.",
+  "notice": {
+    "label": "Peringatan formulir"
+  }
+}

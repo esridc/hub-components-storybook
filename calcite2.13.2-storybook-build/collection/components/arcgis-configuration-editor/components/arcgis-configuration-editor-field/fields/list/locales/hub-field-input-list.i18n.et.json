@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "Muuda",
+    "fields": {
+      "label": {
+        "label": "Märgis",
+        "requiredMessage": "Märgis on nõutav",
+        "maxLengthMessage": "Märgis ei tohi olla pikem kui {maxLength} tähemärki"
+      }
+    },
+    "apply": "Esitage taotlus"
+  },
+  "showItem": "Kuva järgmine loendiüksus: {itemLabel}",
+  "hideItem": "Peida järgmine loendiüksus: {itemLabel}",
+  "editItem": "Redigeeri järgmist loendiüksust: {itemLabel}"
+}

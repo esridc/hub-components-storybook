@@ -1,0 +1,29 @@
+{
+  "additionalInfo": {
+    "label": "Optional display settings",
+    "helperText": "Add your own privacy description and policy information."
+  },
+  "allowPrivacyConfig": {
+    "label": "Display privacy notice"
+  },
+  "blocking": {
+    "label": "Notice type",
+    "optional": {
+      "label": "Consent optional",
+      "description": "Viewer can use site without selecting a privacy consent; tracking starts immediately until rejected by viewer."
+    },
+    "required": {
+      "label": "Require consent",
+      "description": "Viewer must accept or reject tracking to use site; tracking does not start unless accepted by viewer."
+    }
+  },
+  "consentText": {
+    "label": "Privacy description",
+    "helperText": "Displayed in privacy notice to site viewer."
+  },
+  "policyURL": {
+    "label": "Policy link",
+    "helperText": "Displayed as a \"More information\" link in privacy notice.",
+    "error": "Must be a valid URL to be displayed."
+  }
+}

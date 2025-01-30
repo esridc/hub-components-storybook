@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "Колекція об’єктів",
+    "fgdb": "Файлова база геоданих",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Шейп-файл",
+    "sqlite": "База геоданих SQLite"
+  },
+  "buttonText": {
+    "download": "Завантажити",
+    "pending": "Очікується",
+    "processing": "Виконується обробка",
+    "converting": "Перетворення",
+    "completed": "Завантаження завершено",
+    "failed": "Не вдалося виконати завантаження"
+  },
+  "errors": {
+    "errorHeading": "Помилка"
+  },
+  "cacheStatusAccordion": {
+    "heading": "Знайшли, що шукали?",
+    "content": "Може бути доступна новіша версія.",
+    "button": "Подати запит на новий файл"
+  },
+  "generateNewModal": {
+    "heading": "Ви впевнені?",
+    "content": "Це може зайняти деякий час. Не закривайте цю вкладку у браузері до завершення завантаження.",
+    "confirmButton": "Так",
+    "cancelButton": "Скасувати"
+  }
+}

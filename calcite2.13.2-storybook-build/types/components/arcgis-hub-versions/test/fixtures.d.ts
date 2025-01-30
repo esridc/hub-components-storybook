@@ -1,0 +1,20 @@
+import { IGroup, IUser } from "@esri/arcgis-rest-portal";
+import { ArcGISContext, IVersionMetadata } from "@esri/hub-common";
+export declare const SEARCH_RESULTS: IVersionMetadata[];
+export declare const GROUP: IGroup;
+export declare const USER: IUser;
+export declare const CONTEXT: ArcGISContext;
+export declare const ITEM: {
+  id: string;
+  owner: string;
+  created: number;
+  modified: number;
+  name: string;
+  title: string;
+  type: string;
+  typeKeywords: string[];
+  tags: string[];
+  access: string;
+  size: number;
+  numViews: number;
+};

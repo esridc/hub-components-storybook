@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "Konten saya",
+    "livingAtlas": "Living Atlas",
+    "organization": "Organisasi saya",
+    "world": "Dunia (Publik)"
+  },
+  "collection": {
+    "appsAndMaps": "Aplikasi dan Peta",
+    "feedback": "Umpan balik"
+  },
+  "facets": {
+    "type": "Jenis",
+    "tags": "Tag",
+    "categories": "Kategori",
+    "modified": "Diubah"
+  },
+  "pickerTitle": "Pilih konten",
+  "height": "Tinggi (px)",
+  "isScrollable": "Dapat digulir",
+  "errors": {
+    "heightMinimum": "Nilai harus berupa angka positif.",
+    "heightMaximum": "Nilai harus lebih kecil dari atau sama dengan 2000px.",
+    "urlError": "Harus berupa URL valid."
+  },
+  "success": {
+    "urlSuccess": "URL berhasil dimuat."
+  },
+  "shouldApplyBreakpoints": {
+    "label": "Terapkan pengaturan berdasarkan titik henti perangkat"
+  },
+  "viewportAll": {
+    "label": "Default",
+    "description": "Pengaturan diterapkan pada semua ukuran layar"
+  },
+  "viewportMobile": {
+    "label": "Seluler",
+    "description": "Pengaturan diterapkan pada layar dengan lebar 360px ke atas"
+  },
+  "viewportTablet": {
+    "label": "Tablet",
+    "description": "Pengaturan diterapkan pada layar dengan lebar 560px ke atas"
+  },
+  "viewportDesktop": {
+    "label": "Desktop",
+    "description": "Pengaturan diterapkan pada layar dengan lebar 980px ke atas"
+  },
+  "sourceLabel": "Pilih jenis tersemat",
+  "contentLabel": "Konten ArcGIS",
+  "externalLabel": "URL Eksternal",
+  "contentDescription": "Pilih dari peta, tempat kejadian, aplikasi, survei, dan tautan dokumen yang sudah ada dan tersedia untuk Anda.",
+  "externalDescription": "Masukkan URL untuk disematkan. Perlu diperhatikan bahwa sejumlah domain tidak mengizinkan penyematan dan mungkin tidak ditampilkan sesuai harapan."
+}

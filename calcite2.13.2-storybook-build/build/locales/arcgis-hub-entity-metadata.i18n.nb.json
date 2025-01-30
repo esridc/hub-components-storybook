@@ -1,0 +1,239 @@
+{
+  "owner": {
+    "description": "Eier"
+  },
+  "updatedDate": {
+    "description": "Oppdatert dato",
+    "descriptionWithFrequency": "Oppdatert dato: {updatedDateFormatted}"
+  },
+  "createdDate": {
+    "description": "Opprettet dato"
+  },
+  "joinedDate": {
+    "description": "Registreringsdato"
+  },
+  "access": {
+    "label": {
+      "public": "Felles",
+      "org": "Organisasjon",
+      "private": "Eier",
+      "shared": "Delt privat"
+    },
+    "description": {
+      "public": {
+        "site": "Alle kan se dette området",
+        "project": "Alle kan se dette prosjektet",
+        "initiative": "Alle kan se dette initiativet",
+        "discussion": "Alle kan se denne diskusjonen",
+        "default": "Alle kan se dette innholdet",
+        "event": "Alle kan se dette arrangementet"
+      },
+      "org": {
+        "site": "Alle i organisasjonen kan se dette området",
+        "project": "Alle i organisasjonen kan se dette prosjektet",
+        "initiative": "Alle i organisasjonen kan se dette initiativet",
+        "discussion": "Alle i organisasjonen kan se denne diskusjonen",
+        "default": "Alle i organisasjonen kan se dette innholdet",
+        "event": "Alle i organisasjonen kan se dette arrangementet"
+      },
+      "private": {
+        "site": "Bare du kan se dette området",
+        "project": "Bare du kan se dette prosjektet",
+        "initiative": "Bare du kan se dette initiativet",
+        "discussion": "Bare du kan se denne diskusjonen",
+        "default": "Bare du kan se dette innholdet",
+        "event": "Bare du kan se dette arrangementet"
+      },
+      "shared": {
+        "site": "Utvalgte grupper kan se dette området",
+        "project": "Utvalgte grupper kan se dette prosjektet",
+        "initiative": "Utvalgte grupper kan se dette initiativet",
+        "discussion": "Utvalgte grupper kan se denne diskusjonen",
+        "default": "Utvalgte grupper kan se dette innholdet",
+        "event": "Utvalgte grupper kan se dette arrangementet"
+      }
+    }
+  },
+  "type": {
+    "fallback": {
+      "content": "Innhold",
+      "discussion": "Diskusjon",
+      "event": "Hendelse",
+      "group": "Gruppe",
+      "initiative": "Initiativ",
+      "org": "Organisasjon",
+      "page": "Side",
+      "project": "Prosjekt",
+      "site": "Område",
+      "survey": "Inspeksjon",
+      "initiativeTemplate": "Mal",
+      "user": "Bruker"
+    },
+    "appbuilderExtension": "GIS-verktøy",
+    "appbuilderWidgetPackage": "GIS-verktøy",
+    "application": "Registrert app",
+    "arcgisProMap": "GIS-verktøy",
+    "cadDrawing": "GIS-verktøy",
+    "cityEngineWebScene": "3D-applikasjon",
+    "codeAttachment": "GIS-verktøy",
+    "colorSet": "GIS-verktøy",
+    "content": "Innhold",
+    "contentCategorySet": "GIS",
+    "csv": "Datasett",
+    "csvCollection": "Datafil",
+    "dashboard": "Dashbord",
+    "desktopApplication": "GIS-verktøy",
+    "document": "Dokument",
+    "documentLink": "Nettkobling",
+    "excaliburImageryProject": "GIS-verktøy",
+    "explorerMap": "GIS-verktøy",
+    "exportPackage": "GIS-verktøy",
+    "featureCollection": "Datasett",
+    "featureCollectionTemplate": "GIS-verktøy",
+    "featureLayer": "Datasett",
+    "featureService": "Kart",
+    "fileGeodatabase": "Datafil",
+    "form": "Inspeksjon",
+    "geocodingService": "API for utviklere",
+    "geodataService": "API for utviklere",
+    "geojson": "Innhold",
+    "geometryService": "API for utviklere",
+    "geopackage": "Datafil",
+    "geoprocessingService": "API for utviklere",
+    "globeLayer": "Datafil",
+    "globeService": "API for utviklere",
+    "hubInitiative": "Initiativ",
+    "hubInitiativeTemplate": "Mal",
+    "hubPage": "Side",
+    "hubProject": "Prosjekt",
+    "hubSiteApplication": "Område",
+    "image": "Bilde",
+    "imageService": "Datasett for bilder",
+    "insightsModel": "GIS-verktøy",
+    "insightsPage": "Analyse",
+    "insightsTheme": "GIS-verktøy",
+    "insightsWorkbook": "Analysearbeidsbok",
+    "iWorkKeynote": "Presentasjon",
+    "iWorkNumbers": "Regneark",
+    "iWorkPages": "Dokument",
+    "kml": "Datasett",
+    "kmlCollection": "Datafil",
+    "layer": "Datafil",
+    "layerPackage": "Datafil",
+    "locatorPackage": "GIS-verktøy",
+    "mapArea": "GIS-verktøy",
+    "mapDocument": "GIS-verktøy",
+    "mapImageLayer": "Kart",
+    "mapPackage": "Datafil",
+    "mapService": "Kart",
+    "microsoftExcel": "Regneark",
+    "microsoftPowerpoint": "Presentasjon",
+    "microsoftVizio": "Microsoft Visio",
+    "microsoftWord": "Dokument",
+    "mission": "GIS-verktøy",
+    "mobileApplication": "Applikasjon",
+    "mobileMapPackage": "Datafil",
+    "native application template": "Utviklerverktøy",
+    "nativeApplication": "Applikasjon",
+    "nativeApplicationInstaller": "Utviklerverktøy",
+    "networkAnalysisService": "API for utviklere",
+    "notebook": "Analyse",
+    "orientedImageryCatalog": "Datasett for bilder",
+    "orthoMappingProject": "GIS-verktøy",
+    "orthoMappingTemplate": "GIS-verktøy",
+    "pdf": "Dokument",
+    "quickcaptureProject": "Mobilundersøkelse",
+    "rasterLayer": "Kart",
+    "realTimeAnalytic": "API for utviklere",
+    "relationalDatabaseConnection": "API for utviklere",
+    "reportTemplate": "GIS-verktøy",
+    "sceneLayer": "3D-datasett",
+    "sceneService": "3D-datasett",
+    "serviceDefinition": "Datafil",
+    "shapefile": "Datasett",
+    "solution": "Løsning",
+    "sqliteGeodatabase": "Datafil",
+    "statisticalDataCollection": "Datafil",
+    "storymap": "StoryMap",
+    "symbolSet": "Datafil",
+    "table": "Datasett",
+    "team": "Team",
+    "urbanModel": "Urban-modell",
+    "vectorTileService": "Kart",
+    "visioDocument": "Dokument",
+    "webExperience": "Applikasjon",
+    "webMap": "Kart",
+    "webMappingApplication": "Applikasjon",
+    "webScene": "3D-kart",
+    "wfs": "Kart",
+    "wms": "Kart",
+    "wmts": "Kart",
+    "workflowManagerService": "API for utviklere",
+    "workforceProject": "Oppgaveflytadministrator"
+  },
+  "location": {
+    "description": "Lokasjon"
+  },
+  "members": {
+    "noMember": "Ingen medlemmer",
+    "oneMember": "Medlemmer: 1",
+    "members": "Medlemmer: {count}",
+    "description": {
+      "value": "Vis alle gruppemedlemmer"
+    }
+  },
+  "tooltip": {
+    "label": "Metadata for elementverktøytips"
+  },
+  "relevantArea": {
+    "title": "Relevant område"
+  },
+  "license": {
+    "tooltip": "Definerer hvordan dette innholdet kan brukes",
+    "set": {
+      "title": "{license} lisens",
+      "customTitle": "Tilpasset lisens",
+      "description": {
+        "value": "Vis lisensdetaljer"
+      }
+    },
+    "unset": {
+      "title": "Ingen lisens er gitt",
+      "description": {
+        "value": "Be om tillatelse til å bruke"
+      }
+    }
+  },
+  "size": {
+    "description": {
+      "value": "Dokumentets filstørrelse"
+    }
+  },
+  "recordCount": {
+    "title": "Poster: {count}",
+    "description": {
+      "value": "Vis datatabell"
+    }
+  },
+  "metadataModified": {
+    "description": {
+      "defaultValue": "Info oppdatert",
+      "dynamicValue": "Info oppdatert: {lastUpdated}"
+    }
+  },
+  "updateFrequency": {
+    "continual": "Kontinuerlig",
+    "daily": "Daglig",
+    "weekly": "Ukentlig",
+    "fortnightly": "Hver fjortende dag",
+    "monthly": "Månedlig",
+    "quarterly": "Kvartalsvis",
+    "biannually": "To ganger i året",
+    "annually": "Årlig",
+    "as-needed": "Etter behov",
+    "irregular": "Uregelmessig",
+    "not-planned": "Ingen planlagt",
+    "unknown": "Ukjent",
+    "semimonthly": "To ganger i måneden"
+  }
+}

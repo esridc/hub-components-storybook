@@ -1,0 +1,81 @@
+{
+  "tabTitle": "フィードの構成",
+  "learn": "Hub フィードの詳細",
+  "loadingLabel": "読み込んでいます",
+  "enableFeedsToggle": {
+    "label": "フィードの有効化",
+    "privateNotice": "フィードを有効化するには、まず、Hub サイトを「パブリック」に設定する必要があります。",
+    "emptyPublicCatalog": {
+      "message": "フィードを有効化するには、まず、カタログにパブリック コンテンツを追加する必要があります。",
+      "button": "カタログの表示"
+    },
+    "grouplessCatalog": {
+      "message": "フィードを有効化するには、まず、カタログを構成する必要があります。",
+      "button": "カタログの構成"
+    }
+  },
+  "gettingStartedNotice": {
+    "title": "はじめに",
+    "exampleMessage": "リテラル (\"VALUE\") またはテンプレート (\"{{TEMPLATE_VALUE}}\") の値を使用して、JSON エディターでキーか値を強調表示して更新します。",
+    "previewMessage": "変更をプレビューするには [プレビュー] トグルを使用します。 追加情報については、「<catalogFederationLink>カタログ フェデレーションのヘルプ ドキュメント</catalogFederationLink>」をご参照ください。"
+  },
+  "aboutFeedsNotice": {
+    "message": "Hub フィードにより、パブリック オープンデータに簡単にアクセスして再利用できるようにします。",
+    "link": "Hub フィードの詳細"
+  },
+  "feedsEditorSection": {
+    "title": "フィード",
+    "formatSelectLabel": "フィードのタイプを選択",
+    "uneditableAttributesIntro": "次の属性は編集できません。",
+    "edit": "編集",
+    "preview": "プレビュー",
+    "selectContentNotice": "プレビューするコンテンツを選択します。",
+    "invalidJsonEditorWarning": "無効な JSON です。 保存する前にエラーを修正してください。",
+    "invalidJsonPreviewWarning": "無効な JSON をプレビューできません。エラーを修正してください。",
+    "errorPreviewingWarning": "エラーが発生しました。 接続を確認して、もう一度やり直してください。 問題が引き続き発生する場合は、Hub サポートに不具合を報告してください。"
+  },
+  "toolsSection": {
+    "title": "ツール",
+    "verification": "確認",
+    "previewSampleData": {
+      "label": "サンプル データのプレビュー",
+      "pickerFacets": {
+        "type": "タイプ",
+        "tags": "タグ",
+        "categories": "カテゴリ",
+        "sharing": "共有",
+        "dateUpdated": "更新日"
+      }
+    },
+    "copyableInputLabel": "フィード アクセス URL"
+  },
+  "dcat-us": {
+    "1.1": {
+      "title": "DCAT-US 1.1",
+      "description": "DCAT は、組織によるデータ提供を標準化し、連邦政府の情報源の解析を支援します。 Project Open Data で規定された <dcatUsSchemaLink>DCAT スキーマ</dcatUsSchemaLink>を使用できます。これは、デフォルトの構成を使用するか、特定のフィールド/属性を自分で構成することができます。 サイト管理者は、DCAT 構成を追加し、<catalogFederationLink>DCAT および他の外部カタログとのデータのフェデレーション</catalogFederationLink>に関するドキュメントを参照することもできます。",
+      "uneditableAttributes": "@type, landingPage、webService、contactPoint['@type']",
+      "verificationLabel": "<dcatUsVerificationLink>Project Open Data の Validator</dcatUsVerificationLink> にサイトの DCAT URL を貼り付けることで、DCAT フィードを確認できます。"
+    }
+  },
+  "dcat-ap": {
+    "2.1.1": {
+      "title": "DCAT-AP 2.1.1",
+      "description": "欧州委員会によって規定された DCAT-AP は、ヨーロッパのデータ カタログにおける標準のメタデータ交換形式です。 ArcGIS Hub は、ユーザーがコンテンツのメタデータの詳細を編集したり、新しいパブリック コンテンツをカタログに追加したりした場合、サイトの DCAT-AP フィードを自動的に作成および更新します。 このフィードは ArcGIS Online で管理されているメタデータを使用するため、別の DCAT-AP メタデータを手動で作成する必要はありません。<lineBreak></lineBreak><lineBreak></lineBreak>このエディターを使用すると、<dcatApSchemaLink>DCAT-AP スキーマ</dcatApSchemaLink>の ArcGIS Hub のデフォルトの構成を維持するか、特定のフィールド/属性を自分で構成することができます。 DCAT-AP のフィールド/属性を追加することもできます。 詳細については、<catalogFederationLink>DCAT および他の外部カタログとのデータのフェデレーション</catalogFederationLink>に関する ArcGIS Hub のドキュメントをご参照ください。",
+      "uneditableAttributes": "@type、@id、dcat:contactPoint['@id']、dcat:contactPoint['@type']、dct:publisher、dcat:theme、dct:accessRights、dcat:keyword、dct:provenance、dct:issued、dct:language",
+      "verificationLabel": "サイトの DCAT URL を <dcatApVerificationLink>European Commission Interoperability Test Bed</dcatApVerificationLink> に貼り付けることで、DCAT フィードを確認できます。"
+    }
+  },
+  "rss": {
+    "2.0": {
+      "title": "RSS 2.0",
+      "description": "<rssAboutLink>RSS 2</rssAboutLink> は Web コンテンツ シンジケーション形式で、<xmlSpecLink>XML 1.0 仕様</xmlSpecLink>に準拠します。 このエディターを使用すると、ArcGIS Hub のデフォルトの構成を維持するか、特定のフィールド/属性を自分で構成することができます。 詳細については、<catalogFederationLink>DCAT および他の外部カタログとのデータのフェデレーション</catalogFederationLink>に関する ArcGIS Hub のドキュメントをご参照ください。",
+      "verificationLabel": "W3 の <rssVerificationLink>Feed Validator</rssVerificationLink> にサイトの RSS URL を渡すことで、RSS フィードを確認できます。"
+    }
+  },
+  "saveButton": "保存",
+  "alertMessages": {
+    "success": "編集内容が正常に保存されました",
+    "error": "編集内容の保存中にエラーが発生しました"
+  },
+  "formAlert": "フォームの通知"
+}

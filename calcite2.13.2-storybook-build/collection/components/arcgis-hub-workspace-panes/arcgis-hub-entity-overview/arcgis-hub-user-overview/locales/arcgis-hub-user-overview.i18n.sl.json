@@ -1,0 +1,35 @@
+{
+  "overview": "Pregled",
+  "resources": "Viri za Hub",
+  "cards": {
+    "items": "Število elementov",
+    "groups": "Število skupin"
+  },
+  "hubContent": {
+    "heading": "Nedavno spremenjeni elementi Hub",
+    "link": "Ogled celotne vsebine"
+  },
+  "content": {
+    "heading": "Nedavno spremenjena vsebina",
+    "stat": "Število elementov",
+    "link": "Ogled celotne vsebine"
+  },
+  "groups": {
+    "heading": "Nedavno spremenjene skupine",
+    "stat": "Število skupin",
+    "link": "Ogled vseh skupin"
+  },
+  "contentCount": "Vsebina",
+  "addContent": "Ustvari novo",
+  "facets": {
+    "access": {
+      "label": "Od"
+    },
+    "type": {
+      "label": "Tipi"
+    },
+    "modified": {
+      "label": "Spremenjeno"
+    }
+  }
+}

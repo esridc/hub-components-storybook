@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-nonmodal</title>
+
+  <!-- link to calcite components CSS  -->
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+
+  <!-- NOTE: calcite web CSS is only used for grid layout of this page -->
+  <!-- see: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+  <link rel="stylesheet" href="../calcite-web.min.css" />
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+
+  <!-- load calcite components -->
+  <script type="module" src="../../calcite/calcite.esm.js"></script>
+
+  <!-- load hub components -->
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+</head>
+
+<body>
+  <harness-header page-title=arcgis-hub-nonmodal></harness-header>
+  <div class="grid-container padding-leader-4">
+    <!-- docs about grid container: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+
+    <div class="column-24">
+      <arcgis-hub-nonmodal open>
+        <h1 slot="header">This is the header slot</h1>
+        <div slot="content">This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. This is the content slot, it could be really long. </div>
+        <calcite-button slot="back">Back slot</calcite-button>
+        <calcite-button slot="secondary">Secondary slot</calcite-button>
+        <calcite-button slot="primary">Primary slot</calcite-button>
+      </arcgis-hub-nonmodal>
+    </div>
+  </div>
+
+</body>
+
+</html>

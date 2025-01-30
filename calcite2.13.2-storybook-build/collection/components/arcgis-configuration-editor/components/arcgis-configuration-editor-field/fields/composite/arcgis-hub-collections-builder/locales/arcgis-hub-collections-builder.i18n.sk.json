@@ -1,0 +1,15 @@
+{
+  "newCollection": "Nová kolekcia",
+  "block": {
+    "heading": {
+      "untitled": "Kolekcia bez názvu"
+    },
+    "actions": {
+      "delete": "Odstrániť kolekciu: {label}"
+    }
+  },
+  "name": {
+    "label": "Názov",
+    "requiredError": "Vyžaduje sa názov kolekcie"
+  }
+}

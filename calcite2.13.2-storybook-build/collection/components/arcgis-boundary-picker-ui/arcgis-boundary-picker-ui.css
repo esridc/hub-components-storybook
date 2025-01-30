@@ -1,0 +1,57 @@
+:host {
+  display: block;
+}
+@media (min-width: 640px) {
+  .row {
+    display: flex;
+  }
+  .row {
+    flex-direction: row-reverse;
+  }
+}
+arcgis-hub-map {
+  height: 300px;
+  position: relative;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+@media (min-width: 640px) {
+  arcgis-hub-map {
+    margin-bottom: 0px;
+  }
+}
+arcgis-hub-map .arcgis-boundary-map-overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #0000004d;
+  color: var(--calcite-color-text-inverse);
+}
+.arcgis-boundary-none-message {
+  text-align: center;
+}
+calcite-list {
+  width: 100%;
+  background-color: var(--calcite-color-foreground-3);
+  padding: 1rem;
+  color: var(--calcite-color-text-3);
+}
+@media (min-width: 640px) {
+  calcite-list {
+    max-width: 20rem;
+  }
+}
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+.buttons calcite-button {
+  margin-left: 0.5rem;
+}

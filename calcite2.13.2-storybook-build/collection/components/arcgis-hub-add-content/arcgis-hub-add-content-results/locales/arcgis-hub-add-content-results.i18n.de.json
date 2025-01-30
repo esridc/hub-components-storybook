@@ -1,0 +1,54 @@
+{
+  "existing": {
+    "successHeading": "Inhalt erfolgreich hinzugefügt.",
+    "failureHeading": "Inhalt kann der ausgewählten Gruppe nicht hinzugefügt werden.",
+    "successfulAccordionHeading": "Inhalt wurde der ausgewählten Gruppe hinzugefügt.",
+    "unsuccessfulAccordionHeading": "Inhalt wurde der ausgewählten Gruppe nicht hinzugefügt."
+  },
+  "create": {
+    "event": {
+      "successWithoutGroupHeading": "Event erfolgreich erstellt.",
+      "successWithGroupHeading": "Das Event wurde erfolgreich erstellt und \"{group}\" hinzugefügt.",
+      "successMessage": "Sie können das Event nun anzeigen, zum Bearbeiten von Informationen verwalten oder auf \"Fertig\" klicken, um zur Ansicht zurückzukehren.",
+      "failureHeading": "Event kann der ausgewählten Gruppe nicht hinzugefügt werden."
+    },
+    "discussion": {
+      "successWithoutGroupHeading": "Diskussionsrunde erfolgreich erstellt.",
+      "successWithGroupHeading": "Die Diskussionsrunde wurde erfolgreich erstellt und \"{group}\" hinzugefügt.",
+      "successMessage": "Sie können die Diskussionsrunde nun anzeigen, zum Bearbeiten von Informationen verwalten oder auf \"Fertig\" klicken, um zur Ansicht zurückzukehren.",
+      "failureHeading": "Diskussionsrunde kann der ausgewählten Gruppe nicht hinzugefügt werden."
+    },
+    "group": {
+      "successWithoutGroupHeading": "Gruppe erfolgreich erstellt.",
+      "successMessage": "Sie können die Gruppe nun anzeigen, zum Bearbeiten von Informationen verwalten oder auf \"Fertig\" klicken, um zur Ansicht zurückzukehren.",
+      "failureHeading": "Gruppe kann nicht erstellt werden."
+    },
+    "initiative": {
+      "successWithoutGroupHeading": "Initiative erfolgreich erstellt.",
+      "successWithGroupHeading": "Die Initiative wurde erfolgreich erstellt und \"{group}\" hinzugefügt.",
+      "successMessage": "Sie können die Initiative nun anzeigen, zum Bearbeiten von Informationen verwalten oder auf \"Fertig\" klicken, um zur Ansicht zurückzukehren.",
+      "failureHeading": "Initiative kann der ausgewählten Gruppe nicht hinzugefügt werden."
+    },
+    "page": {
+      "successWithoutGroupHeading": "Seite erfolgreich erstellt.",
+      "successWithGroupHeading": "Die Seite wurde erfolgreich erstellt und \"{group}\" hinzugefügt.",
+      "successMessage": "Sie können die Seite nun anzeigen, zum Bearbeiten von Informationen verwalten oder auf \"Fertig\" klicken, um zur Ansicht zurückzukehren.",
+      "failureHeading": "Seite kann der ausgewählten Gruppe nicht hinzugefügt werden."
+    },
+    "project": {
+      "successWithoutGroupHeading": "Projekt erfolgreich erstellt.",
+      "successWithGroupHeading": "Das Projekt wurde erfolgreich erstellt und \"{group}\" hinzugefügt.",
+      "successMessage": "Sie können das Projekt nun anzeigen, zum Bearbeiten von Informationen verwalten oder auf \"Fertig\" klicken, um zur Ansicht zurückzukehren.",
+      "failureHeading": "Projekt kann der ausgewählten Gruppe nicht hinzugefügt werden."
+    },
+    "site": {
+      "successWithoutGroupHeading": "Site erfolgreich erstellt.",
+      "successWithGroupHeading": "Die Site wurde erfolgreich erstellt und \"{group}\" hinzugefügt.",
+      "successMessage": "Sie können die Site nun anzeigen, zum Bearbeiten von Informationen verwalten oder auf \"Fertig\" klicken, um zur Ansicht zurückzukehren.",
+      "failureHeading": "Site kann der ausgewählten Gruppe nicht hinzugefügt werden."
+    }
+  },
+  "editLayout": "Layout bearbeiten",
+  "manageEntity": "Verwalten",
+  "viewEntity": "Anzeigen"
+}

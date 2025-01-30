@@ -1,0 +1,16 @@
+{
+  "heading": "Koplietošanas līmenis",
+  "public": "Publiski",
+  "publicInfo": "Ikviens var redzēt šo {itemType}",
+  "organization": "Organizācija",
+  "organizationInfo": "Šo {itemType} redz visi dalībnieki un grupas, kam ir {orgName} konts",
+  "owner": "Īpašnieks",
+  "ownerInfo": "Šo {itemType} varēs redzēt īpašnieks un grupas ar piekļuves tiesībām",
+  "discussion": {
+    "publicInfo": "Ikviens var skatīt šo diskusijas paneli",
+    "organization": "Mana organizācija",
+    "organizationInfo": "Visi dalībnieki, kuru konts ir {orgName}, var skatīt šo diskusiju paneli",
+    "owner": "Privāts",
+    "ownerInfo": "Īpašnieks un atlasītās grupas var skatīt šo diskusiju paneli"
+  }
+}

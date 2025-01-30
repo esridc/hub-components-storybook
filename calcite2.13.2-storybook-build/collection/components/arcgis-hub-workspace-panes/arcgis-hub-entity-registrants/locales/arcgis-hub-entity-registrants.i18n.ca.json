@@ -1,0 +1,46 @@
+{
+  "registrants": "Persones inscrites",
+  "invite": "Convida",
+  "tabs": {
+    "registrants": "Persones inscrites",
+    "settings": "Configuració"
+  },
+  "emptyNotice": {
+    "title": "No hi ha cap persona inscrita",
+    "desc": "Els esdeveniments sempre són més divertits amb públic. Convideu gent o compartiu l'esdeveniment per animar altres persones a assistir-hi.",
+    "link": "Convida persones inscrites"
+  },
+  "facets": {
+    "role": {
+      "header": "Rol",
+      "owner": "Propietari",
+      "organizer": "Organitzador",
+      "attendee": "Persona inscrita"
+    },
+    "status": {
+      "header": "Estat",
+      "pending": "Pendent",
+      "accepted": "S'ha acceptat",
+      "declined": "S'ha rebutjat",
+      "blocked": "S'ha bloquejat"
+    },
+    "location": {
+      "header": "Ubicació",
+      "online": "En línia",
+      "in_person": "Presencial"
+    },
+    "updatedDate": "Data d'actualització"
+  },
+  "delete": {
+    "attendee": "Elimina la persona inscrita"
+  },
+  "notice": {
+    "label": "Alerta del formulari"
+  },
+  "success": {
+    "delete": "Les persones inscrites s'han eliminat correctament de l'esdeveniment {eventName}."
+  },
+  "error": {
+    "delete": "Una o diverses persones inscrites no s'han pogut eliminar de l'esdeveniment."
+  }
+}

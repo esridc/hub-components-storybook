@@ -1,0 +1,38 @@
+{
+  "title": "Catalog Configuration",
+  "helperText": "Define and configure the catalog",
+  "sections": {
+    "groups": {
+      "title": "Groups",
+      "helperText": "Groups below contain the content in your search catalog. Select a group to view settings, content, and more.",
+      "createGroup": "Create New Group"
+    }
+  },
+  "groupPickerFacet": {
+    "label": "From",
+    "editGroups": "Edit groups",
+    "viewGroups": "View group",
+    "myGroups": "My groups",
+    "myOrganization": "My organization",
+    "myCommunity": "My community",
+    "public": "Public"
+  },
+  "formAlert": "Form alert",
+  "configSaveAlert": {
+    "success": "Successfully saved edits",
+    "failure": "Error saving edits"
+  },
+  "reharvestCatalogButton": "Check for errors",
+  "reharvestWarningModal": {
+    "title": "Check for errors",
+    "body1": "Warning: This option is generally only used in situations when your search page is encountering issues with missing results or metadata. This option will check all items in all of the catalog's groups for additions, metadata changes, or removals.",
+    "body2": "Running this process rebuilds the public search index of this catalog and may take several minutes. This will increase load on any ArcGIS Server instances.",
+    "primaryButton": "Continue",
+    "secondaryButton": "Cancel"
+  },
+  "reharvestCatalogAlert": {
+    "success": "Checking for errors. Please check back later.",
+    "inProgress": "Check is already in progress. Please come back later.",
+    "failure": "Sorry, there was an operational error. Please try agin later."
+  }
+}

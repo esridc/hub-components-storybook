@@ -1,0 +1,10 @@
+{
+  "targetEntity": {
+    "label": "Source",
+    "enum": {
+      "item": "Items",
+      "event": "Events",
+      "group": "Groups"
+    }
+  }
+}

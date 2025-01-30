@@ -1,0 +1,49 @@
+{
+  "settings": "Innstillinger",
+  "advanced": "Avansert",
+  "delete": {
+    "event": "Slett denne hendelsen",
+    "desc": "Hvis hendelsen slettes, kan det ikke angres. De som allerede har registrert seg, blir varslet (hvis automatiske varsler er aktivert for hendelsen).",
+    "deleteButton": "Slett arrangement"
+  },
+  "cancel": {
+    "header": "Avlys denne hendelsen",
+    "desc": "Hvis hendelsen avlyses, forblir den synlig med status avlyst. Registrering stanser og de som allerede har registrert seg, blir varslet (hvis automatiske varsler er aktivert for hendelsen).",
+    "event": "Avbryt arrangement",
+    "notice": {
+      "success": {
+        "title": "Hendelse avlyst",
+        "message": "De som allerede har registrert seg, blir varslet hvis automatiske varsler er aktivert."
+      },
+      "error": {
+        "title": "Kunne ikke avlyse hendelsen",
+        "message": "Prøv på nytt"
+      }
+    }
+  },
+  "enable": {
+    "event": "Aktiver arrangement på nytt",
+    "desc": "Hendelsen er avlyst (synlig med status avlyst).",
+    "notice": {
+      "success": {
+        "title": "Hendelsen er aktivert på nytt",
+        "message": "De som allerede har registrert seg, blir varslet hvis automatiske varsler er aktivert."
+      },
+      "error": {
+        "title": "Kunne ikke aktivere hendelsen på nytt",
+        "message": "Prøv på nytt"
+      }
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "event": "Slett arrangement"
+    },
+    "content": "Er du sikker på at du vil slette:",
+    "delete": "Slett arrangement",
+    "cancel": "Avbryt arrangement"
+  },
+  "notice": {
+    "label": "Skjemavarsel"
+  }
+}

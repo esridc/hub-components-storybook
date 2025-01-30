@@ -1,0 +1,87 @@
+{
+  "initiatives": "יוזמות",
+  "description": "קישור ליוזמות כדי לתרום למאמצים בטווח הארוך או בקנה מידה גדול. משתפי פעולה בפרויקט יכולים לנהל קישורים מאושרים ובקשות קישור בהמתנה. יוזמות עם קישורים מאושרים יופיעו בתצוגה של פרויקט זה. ",
+  "shared": {
+    "error": {
+      "title": "משהו השתבש",
+      "message": "אין לנו אפשרות להשלים את המשימה. נסה שוב."
+    },
+    "facets": {
+      "access": {
+        "label": "שיתוף"
+      },
+      "status": {
+        "label": "סטטוס",
+        "notStarted": "לא התחיל",
+        "inProgress": "בביצוע",
+        "onHold": "בהמתנה",
+        "complete": "הושלם"
+      },
+      "tags": {
+        "label": "תגים"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "{currentConfirmedAndOutgoingRequests} / {maxCurrentAndOutgoingRequestsAllowed} אושר + בקשות יוצאות",
+      "tooltip": "כדי לשלוח בקשות, נתק שיוכים קיימים ו/או בקשות יוצאות"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "מצא יוזמות",
+    "sendRequest": "שלח בקשה",
+    "success": {
+      "title": "הצלחה",
+      "message": "בקשות שיוך נשלחו: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "בדוק שיוכים",
+      "message": "חלק מהפריטים שנבחרו כבר ביקשו שיוך. בקשות שיוך חדשות נשלחו: {count}"
+    },
+    "catalog": {
+      "myContent": "התוכן שלי",
+      "favorites": "מועדפים",
+      "organization": "הארגון שלי",
+      "partners": "השותפים שלי",
+      "community": "הקהילה שלי"
+    },
+    "collection": {
+      "initiatives": "יוזמות"
+    }
+  },
+  "acceptAssociation": {
+    "label": "קבל",
+    "limitReachedTooltip": "כדי לקבל, נתק שיוכים קיימים ו/או בקשות יוצאות",
+    "success": {
+      "title": "הצלחה",
+      "message": "שיוך התקבל עם {requestor}"
+    }
+  },
+  "cancelRequest": {
+    "label": "בטל בקשה",
+    "success": {
+      "title": "הצלחה",
+      "message": "בקשת השיוך בוטלה"
+    }
+  },
+  "breakAssociation": {
+    "label": "התנתק",
+    "success": {
+      "title": "שיוך נותק",
+      "message": "ניתקנו פריט זה מהשיוך הקודם שלו. עם זאת, אין ביכולתנו לבטל את ההחלטה בצד השני, לפיכך ייתכן שעדיין תראה אותו בבקשות נכנסות."
+    }
+  },
+  "associationsGallery": {
+    "sources": "מצב",
+    "catalog": {
+      "associated": "משויך",
+      "requesting": "בקשות נכנסות",
+      "pending": "בקשות יוצאות"
+    },
+    "collection": {
+      "initiatives": "יוזמות"
+    }
+  },
+  "notice": {
+    "label": "התראת צורה"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "overview": "Überblick",
+  "telemetry": {
+    "pageViews": "Seitenaufrufe",
+    "last30days": "Letzte 30 Tage",
+    "lastUpdated": "Vor {hoursElapsed} Stunden zuletzt aktualisiert",
+    "checkTomorrow": "Versuchen Sie es morgen erneut."
+  },
+  "learnAbout": "Informationen zu Hub-Initiativen",
+  "feedbackNotice": {
+    "message": "Wie gefallen Ihnen Hub-Initiativen? Wir würden gerne von Ihnen erfahren, wie Sie sie einsetzen würden.",
+    "link": "Feedback senden"
+  },
+  "status": {
+    "notStarted": "Nicht gestartet",
+    "inProgress": "In Bearbeitung",
+    "onHold": "Zurückgestellt",
+    "complete": "Abgeschlossen"
+  },
+  "editDetails": "Details bearbeiten",
+  "noPurposeSet": "Kein Zweck festgelegt",
+  "noLocationSet": "Keine Position festgelegt"
+}

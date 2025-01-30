@@ -1,0 +1,29 @@
+{
+  "header": "イベント",
+  "myContent": "マイ イベント",
+  "editableContent": "編集可能なコンテンツ",
+  "addEventButtonText": "イベントの作成",
+  "type": "タイプ",
+  "sharedUpdate": "共有の更新グループ",
+  "viewOnly": "表示専用グループ",
+  "owner": "作成者",
+  "starts": "オン",
+  "from": "取得元",
+  "until": "期限",
+  "updated": "更新",
+  "tags": "タグ",
+  "dateCreated": "作成日",
+  "dateUpdated": "更新",
+  "actionLinks": {
+    "view": "表示",
+    "edit": "編集",
+    "ariaEdit": "編集: {title}",
+    "ariaView": "表示: {title}"
+  },
+  "access": {
+    "label": "アクセス",
+    "PRIVATE": "非公開",
+    "ORG": "組織",
+    "PUBLIC": "パブリック"
+  }
+}

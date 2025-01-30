@@ -1,0 +1,50 @@
+{
+  "section": "删除",
+  "protection": "防止误删此 {type}。",
+  "protectionTooltip": "保护工具提示",
+  "protectionDisabledTooltip": "只有所有者或组织管理员才能更改保护。",
+  "deleteDisabledNoAccessTooltip": "只有所有者或组织管理员才能删除。",
+  "deleteDisabledNoAccessTooltipGroup": "只有所有者、管理员或组织管理员才能删除。",
+  "deleteDisabledProtectedTooltip": "启用删除保护时无法删除。",
+  "deleteButton": "删除",
+  "protect": {
+    "successTitle": "已添加删除保护",
+    "success": "启用删除保护时无法删除。",
+    "successLabel": "删除保护已添加警告。",
+    "errorTitle": "无法添加删除保护",
+    "error": "添加删除保护时出错。",
+    "errorLabel": "删除保护失败警告。"
+  },
+  "unprotect": {
+    "successTitle": "已移除删除保护",
+    "success": "禁用删除保护时可删除。",
+    "successLabel": "删除保护已移除警告。",
+    "errorTitle": "无法移除删除保护",
+    "error": "移除删除保护时出错。",
+    "errorLabel": "删除保护移除失败警告。"
+  },
+  "delete": {
+    "successTitle": "删除成功",
+    "success": "重定向到主工作空间",
+    "successLabel": "删除成功通知。",
+    "errorTitle": "删除失败",
+    "error": "出现一些问题，请重试。",
+    "errorLabel": "删除失败警告。"
+  },
+  "permanentDelete": {
+    "successTitle": "永久删除成功",
+    "success": "重定向到主工作空间",
+    "successLabel": "删除成功通知。",
+    "errorTitle": "删除失败",
+    "error": "出现一些问题，请重试。",
+    "errorLabel": "删除失败警告。"
+  },
+  "deleteModal": {
+    "header": "删除",
+    "deleteContent": "永久删除无法撤销。 是否确认要继续?",
+    "recycleContent": "删除的内容将被移至回收站。 您可以在 14 天之内恢复。",
+    "delete": "删除",
+    "permanentlyDelete": "永久删除",
+    "cancel": "取消"
+  }
+}

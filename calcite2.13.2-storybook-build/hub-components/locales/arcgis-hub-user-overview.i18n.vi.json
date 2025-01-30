@@ -1,0 +1,35 @@
+{
+  "overview": "Tổng quan",
+  "resources": "Tài nguyên Hub",
+  "cards": {
+    "items": "Số lượng mục",
+    "groups": "Số lượng nhóm"
+  },
+  "hubContent": {
+    "heading": "Mục Hub sửa đổi gần đây",
+    "link": "Xem tất cả các nội dung"
+  },
+  "content": {
+    "heading": "Nội dung sửa đổi gần đây",
+    "stat": "Số lượng mục",
+    "link": "Xem tất cả các nội dung"
+  },
+  "groups": {
+    "heading": "Nhóm được sửa đổi gần đây",
+    "stat": "Số lượng nhóm",
+    "link": "Xem tất cả các nhóm"
+  },
+  "contentCount": "Nội dung",
+  "addContent": "Tạo mới",
+  "facets": {
+    "access": {
+      "label": "Từ"
+    },
+    "type": {
+      "label": "Loại"
+    },
+    "modified": {
+      "label": "Đã chỉnh sửa"
+    }
+  }
+}

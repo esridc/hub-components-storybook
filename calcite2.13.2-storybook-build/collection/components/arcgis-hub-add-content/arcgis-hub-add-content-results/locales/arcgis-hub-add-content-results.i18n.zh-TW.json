@@ -1,0 +1,54 @@
+{
+  "existing": {
+    "successHeading": "已成功新增內容。",
+    "failureHeading": "無法將內容新增至選擇的群組。",
+    "successfulAccordionHeading": "已將內容新增至選擇的群組。",
+    "unsuccessfulAccordionHeading": "未將內容新增至選擇的群組"
+  },
+  "create": {
+    "event": {
+      "successWithoutGroupHeading": "已成功建立事件。",
+      "successWithGroupHeading": "事件建立成功並新增至 {group}。",
+      "successMessage": "您現在可以檢視事件、管理它以編輯資訊，或按一下「完成」返回視圖。",
+      "failureHeading": "無法將事件新增至選擇的群組。"
+    },
+    "discussion": {
+      "successWithoutGroupHeading": "已成功建立討論板。",
+      "successWithGroupHeading": "討論板建立成功並新增至 {group}。",
+      "successMessage": "您現在可以檢視討論板、管理它以編輯資訊，或按一下「完成」返回視圖。",
+      "failureHeading": "無法將討論板新增至選擇的群組。"
+    },
+    "group": {
+      "successWithoutGroupHeading": "已成功建立群組。",
+      "successMessage": "您現在可以檢視群組、管理它以編輯資訊，或按一下「完成」返回視圖。",
+      "failureHeading": "無法建立群組。"
+    },
+    "initiative": {
+      "successWithoutGroupHeading": "已成功建立倡議。",
+      "successWithGroupHeading": "倡議建立成功並新增至 {group}。",
+      "successMessage": "您現在可以檢視倡議、管理它以編輯資訊，或按一下「完成」返回視圖。",
+      "failureHeading": "無法將倡議新增至選擇的群組。"
+    },
+    "page": {
+      "successWithoutGroupHeading": "已成功建立頁面。",
+      "successWithGroupHeading": "頁面建立成功並新增至 {group}。",
+      "successMessage": "您現在可以檢視頁面、管理它以編輯資訊，或按一下「完成」返回視圖。",
+      "failureHeading": "無法將頁面新增至選擇的群組。"
+    },
+    "project": {
+      "successWithoutGroupHeading": "已成功建立專案。",
+      "successWithGroupHeading": "專案建立成功並新增至 {group}。",
+      "successMessage": "您現在可以檢視專案、管理它以編輯資訊，或按一下「完成」返回視圖。",
+      "failureHeading": "無法將專案新增至選擇的群組。"
+    },
+    "site": {
+      "successWithoutGroupHeading": "已成功建立網站。",
+      "successWithGroupHeading": "網站建立成功並新增至 {group}。",
+      "successMessage": "您現在可以檢視網站、管理它以編輯資訊，或按一下「完成」返回視圖。",
+      "failureHeading": "無法將網站新增至選擇的群組。"
+    }
+  },
+  "editLayout": "編輯版面配置",
+  "manageEntity": "管理",
+  "viewEntity": "檢視"
+}

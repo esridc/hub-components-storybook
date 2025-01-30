@@ -1,0 +1,82 @@
+{
+  "title": "Részvétel",
+  "subtitle": "Állítsa be a vitafórum láthatóságát (ki láthatja), görgessen lefelé, hogy beállítsa, ki szerkesztheti a fórum információit, majd állítsa be a részvételt és a csatornák moderálását.",
+  "channelTitle": "Részvételi csatorna beállítva",
+  "channelDescription": "Ez a csatorna szabályozza, hogy ki adhat hozzá, láthat és moderálhat hozzászólásokat ebben a vitafórumban.",
+  "addChannelsTitle": "Csatorna beállítása",
+  "addChannelsDescription": "A csatornák szabályozzák, hogy ki adhat hozzá bejegyzéseket a fórumhoz. Erre lehetősége lehet csoportoknak, szervezeteknek vagy a nyilvánosságnak is, és a szabályok számos vitafórumra alkalmazhatók. A csatornák szabályozzák azt is, hogy ki moderálhat. Tiltott szavak beállítása automatikus moderáláshoz egy csatornán belül.",
+  "privateChannelTitle": "Magánjellegű csatorna beállítva",
+  "privateChannelDescription": "Nem láthatja az ehhez a vitafórumhoz rendelt magánjellegű csatornát. Eltávolíthatja a csatornát, és kiválaszthat egy meglévő csatornát, vagy létrehozhat egyet.",
+  "removeChannelConfirmationMessage": "Ez a vitafórum többé nem jeleníti meg a bejegyzéseket. Akkor adhat hozzá egy csatornát, ha ez a csatorna eltávolításra került.",
+  "headingChannelEdit": "Ön egy csatornát szerkeszt",
+  "headingChannelView": "Ön egy csatornát tekint meg",
+  "headingChannelCreate": "Ön egy csatornát hoz létre",
+  "buttons": {
+    "browse": "Csatornák tallózása",
+    "new": "Új csatorna",
+    "removeChannel": "Csatorna eltávolítása",
+    "cancel": "Mégse"
+  },
+  "alerts": {
+    "label": "Űrlappal kapcsolatos figyelmeztetés",
+    "set": {
+      "title": "Sikerült. A csatorna be lett állítva."
+    },
+    "removed": {
+      "title": "A csatorna eltávolítva",
+      "message": "A részvételhez válasszon vagy hozzon létre egy csatornát."
+    },
+    "error": {
+      "title": "Sikertelen. A csatorna nem lett beállítva."
+    }
+  },
+  "galleryPickerTitle": "Válasszon csatornát",
+  "channelsLabel": "Csatornák",
+  "accessLabel": "Hozzáférés",
+  "optionPublicLabel": "Nyilvános",
+  "optionOrganizationLabel": "Szervezet",
+  "optionPrivateLabel": "Magánjellegű",
+  "viewChannel": "Csatorna megtekintése",
+  "editChannel": "Csatorna szerkesztése",
+  "save": "Mentés",
+  "removeChannel": "Csatorna eltávolítása",
+  "groupPicker": {
+    "facet": {
+      "label": "Ettől:",
+      "myGroups": "Saját csoportok",
+      "myOrganization": "Saját szervezet",
+      "myCommunity": "Saját közösség"
+    }
+  },
+  "editGroupButtonText": "Csoportok szerkesztésének hozzáadása",
+  "viewGroupButtonText": "Csoportok megtekintésének hozzáadása",
+  "viewGroups": {
+    "header": "Ki láthatja",
+    "description": "Azok a személyek, akik megtekinthetik a fórumot (de nem írhatnak be); a bejegyzési jogosultságot az alábbi csatornák határozzák meg."
+  },
+  "editGroups": {
+    "header": "Ki szerkesztheti",
+    "description": "A csoporttagok szerkeszthetik a fórum adatait a munkaterületen."
+  },
+  "aboutChannelsNotice": {
+    "title": "A csatornák bemutatása",
+    "message": "A csatornák nem csoportok, de tartalmazhatnak csoportokat. Ezek határozzák meg, hogy ki tehet közzé és ki moderálhat.",
+    "action": "További információ a csatornákról"
+  },
+  "nonPrivateChannelNotice": {
+    "title": "A csatorna nem szerkeszthető",
+    "message": "Csak a csatorna moderátorai szerkeszthetik. A hozzáadáshoz, ha szükséges, lépjen kapcsolatba a csatorna tulajdonosával vagy a szervezeti adminisztrátorral. Ezt a csatornát el is távolíthatja, hozzáadhat egy meglévő csatornát (amelynek Ön a moderátora), vagy létrehozhat egy újat."
+  },
+  "privateChannelNotice": {
+    "title": "A csatorna nem szerkeszthető",
+    "message": "Csak a csatorna moderátorai szerkeszthetik. A hozzáadáshoz, ha szükséges, lépjen kapcsolatba a csatorna tulajdonosával. Ezt a csatornát el is távolíthatja, hozzáadhat egy meglévő csatornát (amelynek Ön a moderátora), vagy létrehozhat egy újat."
+  },
+  "participate": {
+    "header": "Ki vehet részt és ki moderálhat"
+  },
+  "org": "Szervezet",
+  "private": "Magánjellegű",
+  "public": "Nyilvános",
+  "unnamed": "Név nélküli csatorna",
+  "groupNotFound": "A csoport nem található"
+}

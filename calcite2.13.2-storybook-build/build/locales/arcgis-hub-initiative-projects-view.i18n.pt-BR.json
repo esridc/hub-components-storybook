@@ -1,0 +1,19 @@
+{
+  "facets": {
+    "location": {
+      "label": "Localização",
+      "tooltip": "Aplicar a extensão do mapa como um filtro de localização"
+    },
+    "status": "Status",
+    "tags": "Tags",
+    "categories": "Categorias",
+    "dateUpdated": "Data atualizada"
+  },
+  "status": {
+    "label": "Status da iniciativa",
+    "notStarted": "Não foi iniciado",
+    "inProgress": "Em andamento",
+    "onHold": "Em espera",
+    "complete": "Concluído"
+  }
+}

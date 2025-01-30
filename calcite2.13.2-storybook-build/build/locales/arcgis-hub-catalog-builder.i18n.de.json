@@ -1,0 +1,24 @@
+{
+  "shared": {
+    "targetEntities": {
+      "item": "Elemente",
+      "event": "Events"
+    }
+  },
+  "targetEntityBlock": {
+    "configured": "Konfiguriert",
+    "notConfigured": "Nicht konfiguriert"
+  },
+  "targetEntityFlow": {
+    "back": "Konfigurieren schließen: {targetEntity}",
+    "description": "Konfigurieren: {targetEntity}",
+    "source": {
+      "heading": "Quelle",
+      "description": "Quellen definieren den Geltungsbereich von Inhalten. Ändern Sie Ergebnisse durch den Einbezug oder Ausschluss von Parametern.<br/><br/>* kennzeichnet ein erforderliches Feld."
+    },
+    "collections": {
+      "heading": "Sammlungen",
+      "description": "Organisieren Sie Inhalte zum einfacheren Suchen und Erkunden in eindeutigen Teilmengen.<br/><br/>* kennzeichnet ein erforderliches Feld."
+    }
+  }
+}

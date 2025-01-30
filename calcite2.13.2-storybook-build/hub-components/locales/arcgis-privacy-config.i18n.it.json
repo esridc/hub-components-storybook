@@ -1,0 +1,29 @@
+{
+  "additionalInfo": {
+    "label": "Impostazioni opzionali di visualizzazione",
+    "helperText": "Aggiungi la tua descrizione della privacy e le informazioni sulla politica."
+  },
+  "allowPrivacyConfig": {
+    "label": "Visualizza l'informativa sulla privacy"
+  },
+  "blocking": {
+    "label": "Tipo di avviso",
+    "optional": {
+      "label": "Consenso opzionale",
+      "description": "Il visualizzatore può utilizzare il sito senza selezionare il consenso alla privacy; il tracciamento inizia immediatamente fino a quando non viene rifiutato dall'utente."
+    },
+    "required": {
+      "label": "Richiedi consenso",
+      "description": "Il visualizzatore deve accettare o rifiutare il tracciamento per utilizzare il sito; il tracciamento non si avvia se non viene accettato dal visualizzatore."
+    }
+  },
+  "consentText": {
+    "label": "Descrizione della privacy",
+    "helperText": "Visualizzato nell'informativa sulla privacy al visualizzatore del sito."
+  },
+  "policyURL": {
+    "label": "Link alla politica",
+    "helperText": "Visualizzato come link \"Ulteriori informazioni\" nell'informativa sulla privacy.",
+    "error": "Per essere visualizzato deve essere un URL valido."
+  }
+}

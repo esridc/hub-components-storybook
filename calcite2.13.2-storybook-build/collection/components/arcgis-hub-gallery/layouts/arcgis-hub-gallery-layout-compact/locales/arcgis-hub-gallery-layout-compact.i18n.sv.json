@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Inga resultat hittades."
+    },
+    "error": {
+      "message": "Vi beklagar, men ett fel uppstod under sökningen."
+    }
+  },
+  "type": "Typ",
+  "tags": "Taggar",
+  "owner": "Ägare",
+  "dateCreated": "Skapad",
+  "dateUpdated": "Ändrad",
+  "categories": "Kategorier",
+  "dateAndTime": "Datum och tid",
+  "allDay": "{date} (hela dagen)",
+  "allDayRange": "{from} - {to} (hela dagen)",
+  "location": "Plats",
+  "attendanceType": "Närvarotyp",
+  "inPerson": "Personligen",
+  "online": "Online",
+  "hybrid": "Hybrid"
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-help-state</title>
+
+  <!-- link to calcite components CSS  -->
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+
+  <!-- NOTE: calcite web CSS is only used for grid layout of this page -->
+  <!-- see: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+  <link rel="stylesheet" href="../calcite-web.min.css" />
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+
+  <!-- load calcite components -->
+  <script type="module" src="../../calcite/calcite.esm.js"></script>
+
+  <!-- load hub components -->
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+</head>
+
+<body>
+  <harness-header page-title=arcgis-hub-help-state></harness-header>
+  <div class="grid-container padding-leader-4">
+    <!-- docs about grid container: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+
+    <div class="column-24 trailer-2 header">
+      <h2>Help State Examples</h2>
+    </div>
+
+    <div class="column-24 trailer-2">
+      <h4>state:"unauthenticated"</h4>
+      <arcgis-hub-help-state class="column-8" scale="s" state="unauthenticated"></arcgis-hub-help-state>
+      <arcgis-hub-help-state class="column-8" state="unauthenticated"></arcgis-hub-help-state>
+      <arcgis-hub-help-state class="column-8" scale="l" state="unauthenticated"></arcgis-hub-help-state>
+    </div>
+
+    <div class="column-24 trailer-2">
+      <h4>state:"not-found"</h4>
+      <arcgis-hub-help-state class="column-8" scale="s" state="not-found"></arcgis-hub-help-state>
+      <arcgis-hub-help-state class="column-8" state="not-found"></arcgis-hub-help-state>
+      <arcgis-hub-help-state class="column-8" scale="l" state="not-found"></arcgis-hub-help-state>
+    </div>
+
+    <div class="column-24 trailer-2">
+      <h4>state:"unsupported-device"</h4>
+      <arcgis-hub-help-state class="column-8" scale="s" state="unsupported-device"></arcgis-hub-help-state>
+      <arcgis-hub-help-state class="column-8" state="unsupported-device"></arcgis-hub-help-state>
+      <arcgis-hub-help-state class="column-8" scale="l" state="unsupported-device"></arcgis-hub-help-state>
+    </div>
+
+    <div class="column-24 trailer-2">
+      <h4>state:"access-denied"</h4>
+      <arcgis-hub-help-state class="column-8" scale="s" state="access-denied"></arcgis-hub-help-state>
+      <arcgis-hub-help-state class="column-8" state="access-denied"></arcgis-hub-help-state>
+      <arcgis-hub-help-state class="column-8" scale="l" state="access-denied"></arcgis-hub-help-state>
+    </div>
+  </div>
+
+  <script>
+    // set a property on the element
+    function setProp(key, value) {
+      const el = document.querySelector("#arcgis-hub-help-state-harness");
+      el[key] = value;
+    }
+  </script>
+</body>
+
+</html>

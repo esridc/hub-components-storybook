@@ -1,0 +1,24 @@
+:host {
+  display: block;
+}
+
+:host div {
+  margin: 0px;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: var(--lines);
+}
+
+::slotted(*) {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+:host calcite-link {
+  margin: 0px;
+  margin-top: 0.25rem;
+  display: inline-block;
+}

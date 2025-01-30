@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "Modifica",
+    "fields": {
+      "label": {
+        "label": "Etichetta",
+        "requiredMessage": "Etichetta obbligatoria",
+        "maxLengthMessage": "L'etichetta non deve superare i {maxLength} caratteri"
+      }
+    },
+    "apply": "Applica"
+  },
+  "showItem": "Mostra il seguente elemento dell'elenco: {itemLabel}",
+  "hideItem": "Nascondi il seguente elemento dell'elenco: {itemLabel}",
+  "editItem": "Modifica il seguente elemento dell'elenco: {itemLabel}"
+}

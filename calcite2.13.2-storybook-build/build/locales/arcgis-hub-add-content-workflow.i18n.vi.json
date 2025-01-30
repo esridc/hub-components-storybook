@@ -1,0 +1,110 @@
+{
+  "controls": {
+    "addContent": "Thêm nội dung",
+    "back": "Quay lại",
+    "cancel": "Hủy",
+    "close": "Hoàn tất",
+    "create": "Tạo và thêm vào nhóm",
+    "next": "Tiếp"
+  },
+  "createHelpState": {
+    "discussion": {
+      "heading": "Thảo luận",
+      "message": "Tạo bảng thảo luận mới bằng cách nhập tiêu đề cho biết chủ đề."
+    },
+    "event": {
+      "heading": "Sự kiện",
+      "message": "Tổ chức một hoạt động được sắp xếp, trực tiếp hoặc qua mạng."
+    },
+    "group": {
+      "heading": "Nhóm",
+      "message": "Thiết lập nhóm để cộng tác trên nội dung trọng điểm."
+    },
+    "initiative": {
+      "heading": "Sáng kiến",
+      "message": "Các sáng kiến sẽ sắp xếp và tóm tắt tiến độ đạt được mục tiêu."
+    },
+    "page": {
+      "heading": "Trang",
+      "message": "Trang là nơi chia sẻ thông tin và tương tác với đối tượng người xem."
+    },
+    "project": {
+      "heading": "Dự án",
+      "message": "Đánh dấu công việc có mục tiêu và khung thời gian rõ ràng."
+    },
+    "site": {
+      "heading": "Site",
+      "message": "Tạo trang web để sắp xếp và chia sẻ thông tin."
+    }
+  },
+  "selection": {
+    "unlimited": "Đã chọn: {count}",
+    "limited": "Đã chọn: {count} / {limit}"
+  },
+  "steps": {
+    "createContent": "Thêm thông tin cơ bản",
+    "selectContent": "Chọn nội dung",
+    "selectGroups": "Chọn nhóm",
+    "confirmation": "Xác nhận",
+    "notImplemented": "Chưa được thực hiện"
+  },
+  "working": {
+    "heading": "Đang thêm nội dung đã chọn.",
+    "loadingLabel": "Đang thêm nội dung."
+  },
+  "failure": {
+    "heading": "Nội dung chưa được thêm",
+    "message": "Đã xảy ra lỗi trong khi thêm nội dung đã chọn, vui lòng thử lại.",
+    "action": "Thử lại"
+  },
+  "notImplemented": {
+    "heading": "Quy trình này vẫn chưa được thực hiện."
+  },
+  "contentGallery": {
+    "facets": {
+      "access": {
+        "label": "Từ"
+      },
+      "type": {
+        "label": "Loại"
+      },
+      "tags": {
+        "label": "Thẻ"
+      },
+      "categories": {
+        "label": "Danh mục"
+      },
+      "modified": {
+        "label": "Đã chỉnh sửa"
+      }
+    }
+  },
+  "groupsGallery": {
+    "facets": {
+      "access": {
+        "label": "Có thể xem bởi",
+        "options": {
+          "org": "Tổ chức",
+          "public": "Mọi người (công khai)",
+          "private": "Tôi"
+        }
+      },
+      "from": {
+        "label": "Từ",
+        "options": {
+          "myCommunity": "Cộng đồng của tôi",
+          "myGroups": "Nhóm của tôi",
+          "myOrganization": "Tổ chức của tôi",
+          "world": "Thế giới"
+        }
+      },
+      "type": {
+        "label": "Loại",
+        "options": {
+          "sharedUpdate": "Thông tin cập nhật được chia sẻ",
+          "opendata": "Dữ liệu Mở"
+        }
+      }
+    }
+  }
+}

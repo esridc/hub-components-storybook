@@ -1,0 +1,118 @@
+{
+  "layout": {
+    "title": "Layout",
+    "helperText": "Consente di configurare come appariranno i risultati quando i visitatori accedono per la prima volta al catalogo. I visitatori avranno ancora la possibilità di cambiare autonomamente il metodo di visualizzazione.",
+    "enum": {
+      "list": {
+        "label": "Elenco",
+        "description": "Ideale per presentare i metadati e quando è probabile che i visitatori eseguono ricerche mirate."
+      },
+      "grid": {
+        "label": "Griglia",
+        "description": "Ideale per risultati con thumbnail di alta qualità e quando è probabile che i visitatori esplorino i risultati."
+      },
+      "table": {
+        "label": "Tabella",
+        "description": "Consente di presentare i risultati in formato strutturato con colonne ordinabili, ideale quando i visitatori desiderano visualizzare e confrontare elementi e relativi attributi."
+      },
+      "map": {
+        "label": "Mappa",
+        "description": "Ideale per risultati collegati a posizioni fisiche e quando è probabile che i visitatori esplorino aree di interesse."
+      },
+      "compact": {
+        "label": "Compatta",
+        "description": "Consente di massimizzare il numero di risultati visibili in uno spazio più piccolo, ideale per l'esplorazione rapida o la visualizzazione su dispositivi mobili."
+      }
+    }
+  },
+  "cards": {
+    "title": "Schede",
+    "cardTitleTag": {
+      "label": "Intestazione",
+      "helperText": "Utilizzabile per migliorare la struttura dei titoli nidificati per l'accessibilità. La dimensione del carattere resta invariata.",
+      "enum": {
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        }
+      }
+    },
+    "showThumbnail": {
+      "label": "Mostra thumbnail",
+      "enum": {
+        "show": {
+          "label": "Sempre",
+          "description": "Le immagini thumbnail saranno sempre mostrate nelle schede di risultati, a prescindere dal layout dei risultati."
+        },
+        "hide": {
+          "label": "Non mostrare thumbnail",
+          "description": "Le immagini thumbnail non saranno mostrate su alcun tipo di scheda di risultati. Usare questa opzione se la qualità delle thumbnail è scadente oppure se si desidera consentire la scansione più veloce dei risultati dell'elenco su desktop e dispositivi mobili."
+        },
+        "grid": {
+          "label": "Solo in griglia",
+          "description": "Le immagini thumbnail saranno mostrate solo su schede griglia. Le schede elenco mostreranno una colonna di metadati aggiuntiva a posto di un'immagine."
+        }
+      }
+    },
+    "corners": {
+      "label": "Angoli",
+      "enum": {
+        "square": {
+          "label": "Quadrati"
+        },
+        "round": {
+          "label": "Arrotondato"
+        }
+      }
+    },
+    "shadow": {
+      "label": "Ombra esterna",
+      "enum": {
+        "heavy": {
+          "label": "Alto"
+        },
+        "low": {
+          "label": "Basso"
+        },
+        "medium": {
+          "label": "Media"
+        },
+        "none": {
+          "label": "Nessuno"
+        }
+      }
+    },
+    "showLinkButton": {
+      "label": "Includi pulsanti",
+      "helperText": "Se i pulsanti sono disattivati, solo il titolo della scheda sarà un collegamento."
+    },
+    "linkButtonStyle": {
+      "label": "Stile",
+      "enum": {
+        "outline-filled": {
+          "label": "Pieno"
+        },
+        "outline": {
+          "label": "Contorno"
+        }
+      }
+    },
+    "linkButtonText": {
+      "label": "Testo"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "피처 컬렉션",
+    "fgdb": "파일 지오데이터베이스",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "쉐이프파일",
+    "sqlite": "SQLite 지오데이터베이스"
+  },
+  "buttonText": {
+    "download": "다운로드",
+    "pending": "대기 중",
+    "processing": "처리 중",
+    "converting": "변환 중",
+    "completed": "다운로드 완료",
+    "failed": "다운로드 실패"
+  },
+  "errors": {
+    "errorHeading": "오류"
+  },
+  "cacheStatusAccordion": {
+    "heading": "필요한 항목을 찾으시겠습니까?",
+    "content": "최신 버전을 사용할 수 있습니다.",
+    "button": "새 파일 요청"
+  },
+  "generateNewModal": {
+    "heading": "계속하시겠습니까?",
+    "content": "시간이 다소 소요될 수도 있습니다. 다운로드가 완료될 때까지 이 브라우저 탭을 활성 상태로 유지하세요.",
+    "confirmButton": "예",
+    "cancelButton": "취소"
+  }
+}

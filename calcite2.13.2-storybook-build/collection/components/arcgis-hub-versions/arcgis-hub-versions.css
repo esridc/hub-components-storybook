@@ -1,0 +1,46 @@
+:host {
+  display: block;
+}
+
+arcgis-skeleton-loader {
+  margin: 1.25rem;
+  margin-bottom: 0
+}
+
+.version-title {
+  margin-block: 0.25rem;
+  font-size: 1rem;
+  color: var(--calcite-color-brand);
+}
+
+calcite-list-item {
+  border-inline-start: 4px solid transparent;
+
+}
+
+calcite-list-item[selected] {
+  border-inline-start-color: var(--calcite-color-brand);
+}
+
+calcite-list-item[selected] .version-title:before {
+  content: "≫ ";
+  color: black;
+}
+
+calcite-list-item[selected] .version-title calcite-link {
+  color: transparent;
+  --calcite-color-text-link: black;
+  --calcite-link-blue-underline: transparent;
+  text-decoration: none;
+}
+
+
+.badges-container {
+  min-height: 1.5rem;
+  display: flex;
+  gap: 0.25rem;
+}
+
+.viewing-badge {
+  --calcite-color-foreground-2: var(--calcite-color-foreground-current);
+}

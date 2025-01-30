@@ -1,0 +1,91 @@
+{
+  "moreResults": "更多结果",
+  "search": "搜索",
+  "filter": "过滤器",
+  "viewResults": "查看结果({numResults})",
+  "resultsCount": "1 - {pageTotal} 页，共 {searchTotal} 页",
+  "backToTop": "返回顶部",
+  "facets": {
+    "access": {
+      "label": "共享",
+      "private": "我自己",
+      "shared": "所有者和群组",
+      "org": "组织",
+      "public": "公共"
+    },
+    "license": {
+      "label": "许可",
+      "tooltip": "仅针对公共内容",
+      "custom": "自定义",
+      "none": "无"
+    },
+    "type": {
+      "label": "类型"
+    },
+    "tags": {
+      "label": "标签"
+    },
+    "dateUpdated": {
+      "label": "更新日期"
+    },
+    "source": {
+      "label": "源",
+      "tooltip": "来自不同组织的公共内容"
+    },
+    "categories": {
+      "label": "类别"
+    },
+    "location": {
+      "label": "位置",
+      "tooltip": "应用地图范围作为位置过滤器"
+    },
+    "event": {
+      "from": {
+        "label": "所有权",
+        "myContent": "我",
+        "myOrganization": "我的组织",
+        "world": "任何人"
+      },
+      "access": {
+        "label": "访问",
+        "private": "私有",
+        "org": "组织",
+        "public": "公共"
+      },
+      "startDate": {
+        "label": "活动日期"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "类型",
+        "all": "全部",
+        "view": "查看",
+        "edit": "编辑"
+      },
+      "role": {
+        "label": "角色",
+        "all": "全部",
+        "member": "成员",
+        "manager": "管理员",
+        "owner": "所有者"
+      },
+      "sharing": {
+        "label": "可见性",
+        "private": "私有",
+        "public": "公共"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "显示列表",
+    "grid": "显示格网",
+    "map": "显示地图",
+    "compact": "显示紧凑",
+    "calendar": "显示日历",
+    "table": "显示表"
+  },
+  "galleryActionsLabel": "其他操作",
+  "selected": "已选择：{count}",
+  "popoverActionButtonLabel": "更多操作"
+}

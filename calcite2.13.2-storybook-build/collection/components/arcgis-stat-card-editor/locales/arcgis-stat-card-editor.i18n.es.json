@@ -1,0 +1,165 @@
+{
+  "advancedConfig": {
+    "label": "Configuración avanzada",
+    "serverTimeout": {
+      "label": "Tiempo de espera del servidor (segundos)",
+      "helperText": "Útil para servicios más grandes que pueden tardar más en responder.",
+      "errors": {
+        "type": "Introduzca una configuración de tiempo de espera del servidor.",
+        "minimum": "El valor de tiempo de espera del servidor debe ser al menos 5.",
+        "maximum": "El valor de tiempo de espera del servidor debe ser 95 como máximo."
+      }
+    }
+  },
+  "appearance": {
+    "corners": {
+      "label": "Esquinas",
+      "enum": {
+        "round": {
+          "label": "Redondo"
+        },
+        "square": {
+          "label": "Cuadrado"
+        }
+      }
+    },
+    "dropShadow": {
+      "label": "Sombreado",
+      "enum": {
+        "heavy": {
+          "label": "Denso"
+        },
+        "low": {
+          "label": "Bajo"
+        },
+        "medium": {
+          "label": "Medio"
+        },
+        "none": {
+          "label": "No iniciado"
+        }
+      }
+    },
+    "layout": {
+      "label": "Estilo de tarjeta",
+      "enum": {
+        "informational": {
+          "label": "Informativo"
+        },
+        "simple": {
+          "label": "Simple"
+        }
+      }
+    },
+    "popoverText": {
+      "label": "Contenido modal"
+    },
+    "publisherText": {
+      "label": "Publicador original"
+    },
+    "styleSpecificSettings": {
+      "label": "Configuración de estilo",
+      "helperInfoText": "Al seleccionar el botón de información se abrirá un elemento modal que contiene más información.",
+      "helperVizText": "Esta tarjeta simple permite agregar un icono como elemento visual, que puede utilizarse para reflejar cambios en los datos."
+    },
+    "sectionTitle": "Apariencia",
+    "textAlign": "Alineamiento",
+    "visualInterest": {
+      "label": "Elemento visual",
+      "enum": {
+        "icon": {
+          "label": "Icono"
+        },
+        "none": {
+          "label": "Ninguno"
+        }
+      }
+    },
+    "icon": {
+      "label": "Icono",
+      "caretUp": {
+        "label": "Aumentar"
+      },
+      "caretDown": {
+        "label": "Disminuir"
+      },
+      "caretDouble": {
+        "label": "Sin cambios"
+      }
+    },
+    "valueColor": "Color (estadística)"
+  },
+  "details": {
+    "allowDynamicLink": "Mostrar vínculo de origen",
+    "link": {
+      "sectionTitle": "Vínculo",
+      "sourceLink": "Vincular dirección URL",
+      "sourceTitle": "Texto de vínculo"
+    },
+    "sectionTitle": "Detalles",
+    "subtitle": "Subtítulo",
+    "title": "Título",
+    "trailingText": {
+      "label": "Texto final",
+      "helperText": "Introduzca cualquier contexto o explicación adicional (para que aparezca debajo del valor de métrica)."
+    }
+  },
+  "errors": {
+    "sourceLink": {
+      "required": "El vínculo es necesario para mostrar el origen.",
+      "formatError": "El formato URL es incorrecto"
+    }
+  },
+  "formatting": {
+    "sectionTitle": "Formato",
+    "unit": {
+      "label": "Unidades de visualización",
+      "helperText": "Introduzca la unidad de medida de su valor."
+    },
+    "unitPosition": {
+      "label": "Ubicación",
+      "helperText": "Seleccione la posición de la unidad de medida (e.g., 'km', 'lbs') con respecto al valor de la métrica.",
+      "enum": {
+        "after": {
+          "label": "Después"
+        },
+        "before": {
+          "label": "Antes"
+        },
+        "below": {
+          "label": "Debajo"
+        }
+      }
+    }
+  },
+  "sharing": {
+    "sectionTitle": "Uso compartido",
+    "showShareIcon": "Habilitar uso compartido",
+    "showShareIconHelperText": "Permite que los usuarios copien un vínculo directo a esta tarjeta en esta página.",
+    "shareableByValue": "Habilitar integraciones",
+    "shareableOnHover": {
+      "label": "Mostrar al pasar por encima el ratón",
+      "helperText": {
+        "label": "El botón Compartir solo aparece al pasar por encima el ratón. Si se desactiva, el botón siempre está visible."
+      }
+    }
+  },
+  "statistic": {
+    "dataSource": "Fuente de datos",
+    "displayValue": "Valor de visualización",
+    "sectionTitle": "Valor",
+    "type": {
+      "label": "Tipo",
+      "enum": {
+        "dynamic": {
+          "label": "Dinámico",
+          "description": "Seleccione un dataset existente (servicio de entidades) para resumir."
+        },
+        "static": {
+          "label": "Estático",
+          "description": "Introduzca manualmente un valor para resaltar en su diseño."
+        }
+      }
+    }
+  }
+}

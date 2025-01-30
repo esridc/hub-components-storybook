@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "Kategorien",
+        "noCategoriesNotice": {
+          "body": "In dieser Organisation sind noch keine Kategorien vorhanden.",
+          "link": "Kategorien einrichten"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "Inhalt",
+      "selectionMode": {
+        "dynamic": {
+          "label": "Dynamisch"
+        },
+        "manual": {
+          "label": "Manuell"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "Organisation"
+        },
+        "collection": {
+          "sites": "Sites",
+          "projects": "Projekte",
+          "initiatives": "Initiativen"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "Organisation"
+        },
+        "collection": {
+          "events": "Events"
+        }
+      },
+      "access": {
+        "label": "Freigeben",
+        "private": {
+          "label": "Privat",
+          "description": "Das Filtern nach Inhalt ist nur für Sie und Benutzer mit Gruppenzugriff verfügbar."
+        },
+        "org": {
+          "label": "Organisation",
+          "description": "Das Filtern nach Inhalt ist nur für Mitglieder Ihrer Organisation verfügbar."
+        },
+        "public": {
+          "label": "Öffentlich",
+          "description": "Das Filtern nach Inhalt ist für alle Benutzer verfügbar."
+        }
+      },
+      "tags": {
+        "label": "Tags"
+      },
+      "cardsShown": {
+        "label": "Angezeigte Kacheln"
+      }
+    },
+    "appearance": {
+      "label": "Aussehen",
+      "titleHeading": {
+        "label": "Titelüberschrift",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "Gemäß WCAG G141 geschachtelte Überschriften tragen zu einer verbesserten Barrierefreiheit bei."
+      },
+      "corners": {
+        "label": "Ecken",
+        "square": {
+          "label": "Eckig"
+        },
+        "round": {
+          "label": "Gerundet"
+        }
+      },
+      "shadow": {
+        "label": "Schatten",
+        "none": {
+          "label": "Deaktiviert"
+        },
+        "low": {
+          "label": "Niedrig"
+        },
+        "medium": {
+          "label": "Mittel"
+        },
+        "heavy": {
+          "label": "Stark"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "Zusätzliche Informationen anzeigen"
+      },
+      "layout": {
+        "label": "Layout",
+        "list": {
+          "label": "Liste"
+        },
+        "map": {
+          "label": "Karte"
+        },
+        "calendar": {
+          "label": "Kalender"
+        }
+      }
+    },
+    "options": {
+      "label": "Optionen",
+      "openIn": {
+        "label": "Öffnen in...",
+        "same": {
+          "label": "Gleiche Registerkarte"
+        },
+        "new": {
+          "label": "Neue Registerkarte"
+        },
+        "notice": {
+          "title": "Hinweis zur Barrierefreiheit:",
+          "body": "Gemäß der Technik G200 der WCAG-2.0-Richtlinien wird das Öffnen von Links in neuen Registerkarten oder Fenstern nicht empfohlen.",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "Weitere Informationen zu WCAG 2.0 G200"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "Freigeben",
+      "public": {
+        "label": "Öffentlich"
+      },
+      "private": {
+        "label": "Privat"
+      },
+      "organization": {
+        "label": "Organisation"
+      }
+    },
+    "from": {
+      "label": "Aus",
+      "myOrganization": {
+        "label": "Eigene Organisation"
+      },
+      "myContent": {
+        "label": "Eigene Inhalte"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "Events",
+      "collections": {
+        "event": {
+          "label": "Events"
+        }
+      }
+    },
+    "item": {
+      "label": "Inhalt",
+      "collections": {
+        "item": {
+          "label": "Inhalt"
+        }
+      }
+    }
+  }
+}

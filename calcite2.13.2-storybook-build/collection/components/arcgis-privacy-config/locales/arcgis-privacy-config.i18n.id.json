@@ -1,0 +1,29 @@
+{
+  "additionalInfo": {
+    "label": "Pengaturan tampilan opsional",
+    "helperText": "Tambahkan deskripsi privasi dan informasi kebijakan Anda sendiri."
+  },
+  "allowPrivacyConfig": {
+    "label": "Pemberitahuan privasi tampilan"
+  },
+  "blocking": {
+    "label": "Jenis pemberitahuan",
+    "optional": {
+      "label": "Persetujuan opsional",
+      "description": "Pemirsa dapat menggunakan situs tanpa memilih persetujuan privasi; pelacakan dimulai segera hingga ditolak oleh pemirsa."
+    },
+    "required": {
+      "label": "Memerlukan persetujuan",
+      "description": "Pemirsa harus menerima atau menolak pelacakan untuk menggunakan situs; pelacakan tidak dimulai kecuali diterima oleh pemirsa."
+    }
+  },
+  "consentText": {
+    "label": "Deskripsi privasi",
+    "helperText": "Ditampilkan di pemberitahuan privasi kepada pemirsa situs."
+  },
+  "policyURL": {
+    "label": "Tautan kebijakan",
+    "helperText": "Ditampilkan sebagai tautan \"Informasi selengkapnya\" di pemberitahuan privasi.",
+    "error": "Harus berupa URL valid agar dapat ditampilkan."
+  }
+}

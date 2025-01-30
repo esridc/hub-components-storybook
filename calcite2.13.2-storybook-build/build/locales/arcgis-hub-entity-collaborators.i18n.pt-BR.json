@@ -1,0 +1,85 @@
+{
+  "collaborators": "Colaboradores",
+  "editGroupButtonText": "Adicionar grupos de adição",
+  "viewGroupButtonText": "Adicionar grupos de visualização",
+  "groupPicker": {
+    "title": "Selecionar grupos",
+    "facet": {
+      "label": "De",
+      "editGroups": "Editar grupos",
+      "viewGroups": "Visualizar grupo",
+      "myGroups": "Meus grupos",
+      "myOrganization": "Minha organização",
+      "myCommunity": "Minha comunidade"
+    }
+  },
+  "addNewPeopleNotice": {
+    "title": "Adicionar novas pessoas",
+    "message": "Caso seja necessário adicionar pessoas, você poderá convidá-las para participar da comunidade ou <orgOverviewLink>entrar em contato com o administrador</orgOverviewLink>."
+  },
+  "editGroupsTitle": "Grupos que podem editar",
+  "viewGroupsTitle": "Grupos que podem visualizar",
+  "project": {
+    "description": "Escolha quais grupos de usuários podem visualizar e editar esse projeto.",
+    "editGroupsDescription": "As pessoas nesses grupos poderão editar as informações do projeto.",
+    "viewGroupsDescription": "As pessoas desses grupos poderão pesquisar e visualizar o projeto, caso ele não seja compartilhado com o público.",
+    "errorMessage": "Ocorreu um erro ao atualizar os colaboradores do seu projeto."
+  },
+  "content": {
+    "description": "Escolha quais grupos de usuários podem visualizar e editar esse conteúdo.",
+    "editGroupsDescription": "As pessoas nesses grupos poderão editar as informações do conteúdo.",
+    "viewGroupsDescription": "As pessoas desses grupos poderão pesquisar e visualizar o conteúdo, caso ele não seja compartilhado com o público.",
+    "errorMessage": "Ocorreu um erro ao atualizar os colaboradores do seu conteúdo."
+  },
+  "discussion": {
+    "description": "Escolha quais grupos de usuários podem visualizar o quadro de discussão e quais podem editar as informações do quadro.",
+    "editGroupsDescription": "Os membros desses grupos podem editar as informações do fórum de discussão.",
+    "viewGroupsDescription": "Os membros desses grupos podem pesquisar e visualizar o quadro de discussão (se não for compartilhado com o público).",
+    "errorMessage": "Ocorreu um erro ao atualizar os colaboradores da sua discussão."
+  },
+  "site": {
+    "description": "Escolha quais grupos de usuários podem visualizar e editar este site.",
+    "editGroupsDescription": "As pessoas nesses grupos poderão editar as informações do site.",
+    "viewGroupsDescription": "As pessoas desses grupos poderão pesquisar e visualizar o site, caso ele não seja compartilhado com o público.",
+    "errorMessage": "Ocorreu um erro ao atualizar os colaboradores do seu site."
+  },
+  "template": {
+    "description": "Escolha quais grupos de usuários podem visualizar e editar este modelo.",
+    "editGroupsDescription": "As pessoas nesses grupos poderão editar as informações do modelo.",
+    "viewGroupsDescription": "As pessoas desses grupos poderão pesquisar e visualizar o modelo, caso ele não seja compartilhado com o público.",
+    "errorMessage": "Ocorreu um erro ao atualizar os colaboradores do seu modelo."
+  },
+  "survey": {
+    "description": "Escolha quais grupos de usuários podem visualizar e editar esta pesquisa.",
+    "editGroupsDescription": "As pessoas nesses grupos poderão editar as informações da pesquisa.",
+    "viewGroupsDescription": "As pessoas desses grupos poderão pesquisar e visualizar a pesquisa, caso ele não seja compartilhado com o público.",
+    "errorMessage": "Ocorreu um erro ao atualizar os colaboradores da sua pesquisa."
+  },
+  "event": {
+    "description": "Escolha quais grupos de usuários podem visualizar e editar esse evento.",
+    "editGroupsDescription": "As pessoas nesses grupos poderão editar as informações do evento.",
+    "viewGroupsDescription": "As pessoas desses grupos poderão pesquisar e visualizar o evento, caso ele não seja compartilhado com o público.",
+    "errorMessage": "Ocorreu um erro ao atualizar os colaboradores do seu evento."
+  },
+  "newTab": "abrir perfil em nova guia",
+  "supportingTeams": "Equipes de suporte",
+  "supportingTeamsDesc": "Essas equipes de suporte estavam anteriormente vinculadas ao seu site. Você pode continuar a usá-las para compartilhar conteúdo com colaboradores.",
+  "supportTeamsRemove": "Remover equipe",
+  "supportingTeamsRemoveError": "Erro ao desvincular equipe. Entre em contato com um administrador.",
+  "supportingTeamsRemoveSuccess": "Equipe desvinculada com sucesso.",
+  "view": {
+    "button": "Criar grupo de visualização",
+    "formLabel": "Novo grupo de visualização",
+    "description": "Crie um grupo para facilitar o compartilhamento e a comunicação de conteúdo. Os membros do grupo poderão visualizar qualquer conteúdo compartilhado com o grupo."
+  },
+  "edit": {
+    "button": "Criar grupo de edição",
+    "formLabel": "Novo grupo de edição",
+    "description": "Crie um grupo para facilitar o compartilhamento e a comunicação de conteúdo. Os membros do grupo poderão visualizar e editar qualquer conteúdo compartilhado com o grupo."
+  },
+  "groupCreateDisabledButtonTooltip": "Você não consegue criar um grupo. Talvez você já esteja no número máximo de grupos ou não tenha privilégios suficientes para criar um grupo.",
+  "groupCreateError": "Ocorreu um erro ao criar o grupo.",
+  "notice": {
+    "label": "Alerta de formulário"
+  }
+}

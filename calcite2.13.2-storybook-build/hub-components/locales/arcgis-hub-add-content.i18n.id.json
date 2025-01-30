@@ -1,0 +1,72 @@
+{
+  "addContent": "Tambahkan konten",
+  "addContentType": {
+    "event": "Buat peristiwa",
+    "discussion": "Buat diskusi",
+    "group": "Buat grup",
+    "initiative": "Buat inisiatif",
+    "project": "Buat proyek",
+    "page": "Buat halaman",
+    "site:": "Buat situs"
+  },
+  "tooltip": {
+    "label": "Dinonaktifkan",
+    "noCatalog": "Tambahkan grup ke katalog untuk menambahkan konten.",
+    "noPermission": "Anda tidak memiliki izin untuk menambahkan konten ke katalog.",
+    "no-permission": "Anda tidak memiliki izin untuk menambahkan konten ke katalog.",
+    "not-in-groups": "Anda bukan anggota grup mana pun yang menentukan katalog.",
+    "too-many-groups": "Anda melampaui jumlah maksimum grup dan tidak dapat membuat grup lagi."
+  },
+  "existing": {
+    "description": "Tambahkan konten yang sudah ada di {onlineOrEnterprise}",
+    "modalTitle": "Pilih konten yang ada",
+    "title": "Pilih konten yang ada"
+  },
+  "create": {
+    "app": {
+      "description": "Ciptakan pengalaman, ceritakan kisah, atau visualisasikan data Anda",
+      "modalTitle": "Buat aplikasi",
+      "title": "Aplikasi"
+    },
+    "event": {
+      "description": "Selenggarakan aktivitas, secara tatap muka atau virtual",
+      "modalTitle": "Buat peristiwa",
+      "title": "Peristiwa"
+    },
+    "content": {
+      "description": "Tambahkan data, dokumen, gambar, dan tautan eksternal ke situs Anda",
+      "modalTitle": "Buat konten",
+      "title": "Konten"
+    },
+    "discussion": {
+      "description": "Kumpulkan ide dan masukan",
+      "modalTitle": "Buat papan diskusi",
+      "title": "Papan Diskusi"
+    },
+    "group": {
+      "description": "Atur orang-orang untuk berbagi konten dan diskusi",
+      "modalTitle": "Buat grup",
+      "title": "Grup"
+    },
+    "initiative": {
+      "description": "Sorot upaya strategis dengan tujuan yang ditentukan yang mengatur proyek",
+      "modalTitle": "Buat inisiatif",
+      "title": "Inisiatif"
+    },
+    "page": {
+      "description": "Sajikan informasi dalam tata letak terstruktur",
+      "modalTitle": "Buat halaman",
+      "title": "Halaman"
+    },
+    "project": {
+      "description": "Pamerkan karya dengan tujuan dan jangka waktu yang jelas",
+      "modalTitle": "Buat proyek",
+      "title": "Proyek"
+    },
+    "site": {
+      "description": "Buat situs web bermerek untuk berinteraksi dengan komunitas Anda",
+      "modalTitle": "Buat situs",
+      "title": "Situs"
+    }
+  }
+}

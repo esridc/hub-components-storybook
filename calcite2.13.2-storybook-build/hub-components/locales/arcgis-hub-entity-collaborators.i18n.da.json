@@ -1,0 +1,85 @@
+{
+  "collaborators": "Samarbejdspartnere",
+  "editGroupButtonText": "Tilføj redigeringsgrupper",
+  "viewGroupButtonText": "Tilføj visningsgrupper",
+  "groupPicker": {
+    "title": "Vælg grupper",
+    "facet": {
+      "label": "Fra",
+      "editGroups": "Rediger grupper",
+      "viewGroups": "Vis gruppe",
+      "myGroups": "Mine grupper",
+      "myOrganization": "Min organisation",
+      "myCommunity": "Mit fællesskab"
+    }
+  },
+  "addNewPeopleNotice": {
+    "title": "Tilføj nye personer",
+    "message": "Hvis du har brug for at tilføje personer, kan du invitere dem til deltage i fællesskabet, eller du kan <orgOverviewLink>kontakte din administrator</orgOverviewLink>."
+  },
+  "editGroupsTitle": "Grupper, der kan redigere",
+  "viewGroupsTitle": "Grupper, der kan vise",
+  "project": {
+    "description": "Vælg, hvilke grupper af brugere der kan vise og redigere dette projekt.",
+    "editGroupsDescription": "Personerne i disse grupper kan redigere projektoplysninger.",
+    "viewGroupsDescription": "Personerne i disse grupper vil kunne søge efter og vise projektet, hvis det ikke er delt med offentligheden.",
+    "errorMessage": "Der opstod en fejl under opdatering af samarbejdspartnere for dit projekt."
+  },
+  "content": {
+    "description": "Vælg, hvilke grupper af brugere der kan vise og redigere dette indhold.",
+    "editGroupsDescription": "Personerne i disse grupper vil kunne redigere indholdsoplysninger.",
+    "viewGroupsDescription": "Personerne i disse grupper vil kunne søge efter og vise indholdet, hvis det ikke er delt med offentligheden.",
+    "errorMessage": "Der opstod en fejl under opdatering af samarbejdspartnerne for dit indhold."
+  },
+  "discussion": {
+    "description": "Vælg, hvilke grupper af brugere der kan se diskussionstavlen, og hvilke der kan redigere tavleoplysninger.",
+    "editGroupsDescription": "Medlemmer af disse grupper kan redigere diskussionstavleoplysninger.",
+    "viewGroupsDescription": "Medlemmer af disse grupper kan søge efter og se diskussionstavlen (hvis den ikke er delt med offentligheden).",
+    "errorMessage": "Der opstod en fejl under opdatering af samarbejdspartnerne for din diskussion."
+  },
+  "site": {
+    "description": "Vælg, hvilke grupper af brugere der kan vise og redigere dette websted.",
+    "editGroupsDescription": "Personerne i disse grupper vil kunne redigere oplysninger på webstedet.",
+    "viewGroupsDescription": "Personerne i disse grupper vil kunne søge i og vise webstedet, hvis det ikke er delt med offentligheden.",
+    "errorMessage": "Der opstod en fejl under opdatering af samarbejdspartnerne for dit websted."
+  },
+  "template": {
+    "description": "Vælg, hvilke grupper af brugere der kan få vist og redigere denne skabelon.",
+    "editGroupsDescription": "Personerne i disse grupper vil kunne redigere oplysninger i skabelonen.",
+    "viewGroupsDescription": "Personerne i disse grupper vil kunne søge i og få vist skabelonen, hvis den ikke er delt med offentligheden.",
+    "errorMessage": "Der opstod en fejl under opdatering af samarbejdspartnerne for din skabelon."
+  },
+  "survey": {
+    "description": "Vælg, hvilke grupper af brugere der kan vise og redigere denne undersøgelse.",
+    "editGroupsDescription": "Personerne i disse grupper vil kunne redigere oplysninger i undersøgelsen.",
+    "viewGroupsDescription": "Personerne i disse grupper vil kunne søge i og vise undersøgelsen, hvis den ikke er delt med offentligheden.",
+    "errorMessage": "Der opstod en fejl under opdatering af samarbejdspartnerne for din undersøgelse."
+  },
+  "event": {
+    "description": "Vælg, hvilke grupper af brugere der kan få vist og redigere denne begivenhed.",
+    "editGroupsDescription": "Personerne i disse grupper vil kunne redigere oplysninger om begivenheden.",
+    "viewGroupsDescription": "Personerne i disse grupper vil kunne søge efter og få vist begivenheden, hvis den ikke er delt med offentligheden.",
+    "errorMessage": "Der opstod en fejl under opdatering af samarbejdspartnerne for din begivenhed."
+  },
+  "newTab": "åbn profil på ny fane",
+  "supportingTeams": "Supportteams",
+  "supportingTeamsDesc": "Disse supportteams var tidligere knyttet til dit websted. Du kan fortsat bruge dem til at dele indhold med samarbejdspartnere.",
+  "supportTeamsRemove": "Fjern team",
+  "supportingTeamsRemoveError": "Fejl ved fjernelse af link til team. Kontakt en administrator.",
+  "supportingTeamsRemoveSuccess": "Link til team blev fjernet.",
+  "view": {
+    "button": "Opret visningsgruppe",
+    "formLabel": "Ny visningsgruppe",
+    "description": "Opret en gruppe for at muliggøre deling af indhold og kommunikation. Gruppemedlemmer kan vise alt indhold, der deles med gruppen."
+  },
+  "edit": {
+    "button": "Opret redigeringsgruppe",
+    "formLabel": "Ny redigeringsgruppe",
+    "description": "Opret en gruppe for at muliggøre deling af indhold og kommunikation. Gruppemedlemmer kan vise og redigere alt indhold, der deles med gruppen."
+  },
+  "groupCreateDisabledButtonTooltip": "Du kan ikke oprette en gruppe. Du er muligvis allerede i det maksimale antal grupper, eller også har du ikke de nødvendige rettigheder til at oprette en gruppe.",
+  "groupCreateError": "Der opstod en fejl under oprettelse af gruppen.",
+  "notice": {
+    "label": "Formularadvarsel"
+  }
+}

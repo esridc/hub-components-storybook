@@ -1,0 +1,47 @@
+{
+  "communityOrg": "Community-organisasjon",
+  "editLayout": "Rediger layout",
+  "orgWorkspace": "Åpne hjemmearbeidsområde",
+  "editS123": "Rediger i Survey123",
+  "editAdvancedJson": "Rediger avansert JSON",
+  "view": {
+    "project": "Vis prosjekt",
+    "site": "Vis side",
+    "initiative": "Vis initiativ",
+    "discussion": "Vis tavle",
+    "content": "Vis innhold",
+    "page": "Vis side",
+    "group": "Vis gruppe",
+    "initiativeTemplate": "Vis initiativmal",
+    "template": "Vis mal",
+    "survey": "Vis undersøkelse",
+    "event": "Vis hendelse"
+  },
+  "access": {
+    "share": "Del",
+    "sharingLevel": "Delingsnivå",
+    "groupSharing": "Gruppedeling",
+    "tooltip": {
+      "public": "Delingsnivå: Offentlig",
+      "org": "Delingsnivå: Organisasjon",
+      "private": "Delingsnivå: Privat",
+      "shared": "Delingsnivå: Delt privat"
+    },
+    "save": "Lagre",
+    "cancel": "Avbryt",
+    "alert": {
+      "success": "Redigeringene ble lagret",
+      "error": "Feil under lagring av redigeringer",
+      "label": "Skjemavarsel"
+    }
+  },
+  "popoverActions": {
+    "label": "Flere handlinger",
+    "openInEnterprise": "Åpne i ArcGIS Enterprise",
+    "openInOnline": "Åpne i ArcGIS Online"
+  },
+  "homeLink": {
+    "text": "Hjem"
+  },
+  "createContent": "Opprett"
+}

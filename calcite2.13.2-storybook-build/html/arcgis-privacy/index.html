@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-privacy</title>
+
+  <!-- link to calcite components CSS  -->
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+
+  <!-- NOTE: calcite web CSS is only used for grid layout of this page -->
+  <!-- see: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+  <link rel="stylesheet" href="../calcite-web.min.css" />
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+
+  <!-- load calcite components -->
+  <script type="module" src="../../calcite/calcite.esm.js"></script>
+
+  <!-- load hub components -->
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+</head>
+
+<body>
+  <harness-header page-title=arcgis-privacy></harness-header>
+  <div class="grid-container padding-leader-4">
+    <!-- docs about grid container: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+
+    <div class="column-4 pre-10 post-10 leader-6 trailer-2">
+      <arcgis-privacy
+        anon-tracking-configured
+        third-party-tracking-configured
+      ></arcgis-privacy>
+    </div>
+
+  </div>
+
+  <script>
+    // set a property on the element
+    function setProp(key, value) {
+      const el = document.querySelector('arcgis-privacy');
+      el[key] = value;
+    }
+
+    setProp('config', {
+      allowPrivacyConfig: true,
+      blocking: false,
+      disclaimer: [{ text: 'This is a disclaimer.\n\nIt has new lines!\n', url: 'https://esri.com' }],
+      policyURL: '/some/page',
+    });
+
+    setProp('userSettings', {
+      accepted: false,
+      performance: false,
+      targeting: true,
+      functional: true,
+      id: 'abc123',
+      timestamp: 1234567890
+    });
+
+    setProp('orgInfo', {
+      eueiEnabled: false,
+      name: 'My Org',
+    });
+
+    document.querySelector('arcgis-privacy').addEventListener('hubUserPrivacySettingsChanged', (e) => {
+      console.log('user-settings', e.detail);
+    });
+
+    document.querySelector('arcgis-privacy').addEventListener('hubTelemetry', ({detail}) => {
+      console.log('telemetry', detail);
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+{
+  "timeoutError": {
+    "message": "伺服器連接逾時，無法顯示統計資料。",
+    "title": "伺服器逾時"
+  },
+  "genericError": {
+    "message": "無法顯示統計資料。",
+    "title": "發生錯誤"
+  },
+  "loading": "正在載入統計資料",
+  "source": "來源:",
+  "dismiss": "清除",
+  "moreInfo": "更多資訊",
+  "openInfo": "開啟更多資訊"
+}

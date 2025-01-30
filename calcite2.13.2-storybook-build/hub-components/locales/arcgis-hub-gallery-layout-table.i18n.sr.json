@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Nema pronađenih rezultata."
+    },
+    "error": {
+      "message": "Žao nam je, ali pretraga je naišla na grešku."
+    }
+  },
+  "access": "Pristupite",
+  "actionsHeader": "Radnje",
+  "caption": "Tabela entiteta Hub-a",
+  "family": "Porodica",
+  "type": "Tip",
+  "tags": "Oznake",
+  "owner": "Vlasnik",
+  "dateCreated": "Kreirano",
+  "dateUpdated": "Izmenjeno",
+  "description": "Opis",
+  "dateAndTime": "Datum i vreme",
+  "location": "Lokacija",
+  "attendanceType": "Tip prisustvovanja",
+  "inPerson": "Lično",
+  "online": "Na mreži",
+  "hybrid": "Hibridno",
+  "categories": "Kategorije",
+  "content": "Sadržaj",
+  "name": "Naziv",
+  "start": "Početak",
+  "end": "Kraj",
+  "sharedUpdate": "Deljeno ažuriranje",
+  "managers": "Upravljači",
+  "username": "Korisničko ime",
+  "no": "Ne",
+  "yes": "Da",
+  "title": "Naslov",
+  "thumbnail": "Sličica",
+  "types": {
+    "app": "Aplikacija",
+    "content": "Sadržaj",
+    "dataset": "Skup podataka",
+    "discussion": "Tabla za diskusiju",
+    "document": "Dokument",
+    "event": "Događaj",
+    "feedback": "Povratne informacije",
+    "initiative": "Inicijativa",
+    "image": "Snimak",
+    "map": "Mapa",
+    "other": "Ostalo",
+    "people": "Osobe",
+    "site": "Sajt",
+    "team": "Grupa",
+    "template": "Šablon",
+    "project": "Projekat"
+  }
+}

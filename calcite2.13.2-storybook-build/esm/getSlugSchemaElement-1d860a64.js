@@ -1,0 +1,29 @@
+const getSlugSchemaElement = (i18nScope) => {
+    return {
+        labelKey: `${i18nScope}.fields.slug.label`,
+        scope: "/properties/_slug",
+        type: "Control",
+        options: {
+            control: "hub-field-input-input",
+            helperText: {
+                labelKey: `${i18nScope}.fields.slug.helperText`,
+            },
+            messages: [
+                {
+                    type: "ERROR",
+                    keyword: "pattern",
+                    icon: true,
+                    labelKey: `${i18nScope}.fields.slug.patternError`,
+                },
+                {
+                    type: "ERROR",
+                    keyword: "isUniqueSlug",
+                    icon: true,
+                    labelKey: `${i18nScope}.fields.slug.isUniqueError`,
+                },
+            ],
+        },
+    };
+};
+
+export { getSlugSchemaElement as g };

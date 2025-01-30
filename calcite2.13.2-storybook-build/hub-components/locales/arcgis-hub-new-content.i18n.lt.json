@@ -1,0 +1,57 @@
+{
+  "new": "Nauja",
+  "project": {
+    "label": "Projektas",
+    "description": "Akcentuokite užduotis su aiškiais tikslais ir terminais",
+    "createLabel": "Kurti projektą",
+    "newLabel": "Naujas projektas"
+  },
+  "initiative": {
+    "label": "Iniciatyva",
+    "description": "Iniciatyvomis organizuojama veikla ir apibendrinama pažanga link tikslo",
+    "createLabel": "Kurti iniciatyvą",
+    "newLabel": "Nauja iniciatyva"
+  },
+  "discussion": {
+    "label": "Diskusijų lenta",
+    "description": "Sukurkite naują diskusijų lentą įvesdami temą nurodantį pavadinimą.",
+    "createLabel": "Kurti diskusijų lentą",
+    "newLabel": "Nauja diskusijų lenta"
+  },
+  "site": {
+    "label": "Svetainė",
+    "description": "Sukurkite tinklalapį, kad galėtumėte tvarkyti ir bendrinti informaciją",
+    "createLabel": "Kurti svetainę",
+    "newLabel": "Nauja svetainė"
+  },
+  "event": {
+    "label": "Renginys",
+    "description": "Organizuokite renginius asmeniškai arba virtualiai",
+    "createLabel": "Kurti renginį",
+    "newLabel": "Naujas renginys"
+  },
+  "content": {
+    "label": "Turinys",
+    "description": "Į savo svetainę įtraukite duomenų, dokumentų, vaizdų ir išorinių nuorodų",
+    "createLabel": "Kurti turinį",
+    "newLabel": "Naujas turinys"
+  },
+  "feedback": {
+    "label": "Atsiliepimai",
+    "description": "Surinkite tikslią informaciją naudodami tokias priemones kaip apklausos ir balsavimai",
+    "createLabel": "Kurti atsiliepimą",
+    "newLabel": "Naujas atsiliepimas"
+  },
+  "app": {
+    "label": "Programelė",
+    "description": "Kurkite patirtį, papasakokite istoriją arba vizualizuokite savo duomenis",
+    "createLabel": "Kurti programėlę",
+    "newLabel": "Nauja programėlė"
+  },
+  "group": {
+    "label": "Grupė",
+    "description": "Sukurkite grupę, kurioje galėsite bendradarbiauti kurdami tikslinį turinį",
+    "createLabel": "Kurti grupę",
+    "newLabel": "Nauja grupė"
+  }
+}

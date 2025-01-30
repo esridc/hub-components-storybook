@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "Registreeri",
+    "registered": "Registreeritud",
+    "join": "Liituge veebis",
+    "in-person": "Isiklikult",
+    "online": "Veebis",
+    "inPersonFull": "Isiklikult (täies mahus)",
+    "onlineFull": "Veebis (täies mahus)",
+    "close": "Sule"
+  },
+  "tooltip": {
+    "isCanceled": "Sündmus on tühistatud",
+    "eventHasEnded": "Sündmus on lõppenud",
+    "eventFull": "Kohad on täis",
+    "inPerson": "Isiklikule sündmusele registreerunud",
+    "online": "Veebisündmusele registreerunud",
+    "unavailable": "Saadaval tund enne ürituse algust"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "Veebisündmusele registreerimine edukalt tühistatud",
+    "onlineRegistrationConfirmed": "Veebisündmusele edukalt registreerunud",
+    "onlineRegistrationError": "Veebisündmusele registreerumisel tekkis ootamatu viga",
+    "onlineRegistrationCanceledError": "Ootamatu viga veebisündmusele registreerimise tühistamisel",
+    "onlineRegistrationAtCapacity": "Püüate registreeruda veebipõhisele üritusele, mille kohad on täis",
+    "inPersonRegistrationCanceled": "Edukalt tühistatud registreerimine isiklikule üritusele",
+    "inPersonRegistrationCanceledError": "Ootamatu viga isiklikule sündmusele registreerimise tühistamisel",
+    "inPersonRegistrationConfirmed": "Isiklikule sündmusele edukalt registreerunud",
+    "inPersonRegistrationError": "Isiklikule sündmusele registreerumisel tekkis ootamatu viga",
+    "inPersonRegistrationAtCapacity": "Püüate registreeruda isiklikult toimuvale üritusele, mille kohad on täis"
+  }
+}

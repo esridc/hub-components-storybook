@@ -1,0 +1,178 @@
+{
+  "projectsTitle": "Projecten",
+  "description": "Maak koppelingen met bijdragende projecten om voortgang te volgen over een gerichte tijdsperiode of ruimte. De koppelingsgroep van het initiatief beheert bevestigde koppelingen en openstaande koppelingsaanvragen.",
+  "subDescription": "Projecten met bevestigde koppelingen worden in de weergave van dit initiatief weergegeven.",
+  "project": "project",
+  "initiative": "initiatief",
+  "helpStates": {
+    "noAccess": {
+      "heading": "Geen toegang",
+      "message": "U bent niet gemachtigd om de koppelingsgroep weer te geven."
+    },
+    "missingGroup": {
+      "heading": "Koppelingsgroep ontbreekt",
+      "message": {
+        "overview": "De koppelingsgroep bepaalt welke projecten zullen worden gekoppeld en brengt verslag uit aan het initiatief.",
+        "members": "Leden van deze groep kunnen koppelingsaanvragen verzenden of goedkeuren."
+      },
+      "action": "Groep maken",
+      "formLabel": "Nieuwe koppelingsgroep",
+      "description": "Maak een koppelingsgroep om koppelingen te beheren"
+    },
+    "requestsWaiting": {
+      "heading": "Koppelingsgroep ontbreekt",
+      "message": {
+        "overview": "De koppelingsgroep bepaalt welke projecten zullen worden gekoppeld en brengt verslag uit aan het initiatief.",
+        "members": "Leden van deze groep kunnen koppelingsaanvragen verzenden of goedkeuren.",
+        "requests": "Wachtende projectaanvragen: {count}"
+      },
+      "action": "Groep maken",
+      "formLabel": "Nieuwe koppelingsgroep",
+      "description": "Maak een koppelingsgroep om koppelingen te beheren"
+    }
+  },
+  "shared": {
+    "project": "project",
+    "associationGroup": "koppelingsgroep",
+    "error": {
+      "title": "Er is iets fout gegaan",
+      "message": "U beschikt mogelijk niet over de juiste machtigingen voor het verzenden of beheren van een koppeling met dit {type}."
+    },
+    "facets": {
+      "access": {
+        "label": "Delen"
+      },
+      "status": {
+        "label": "Status",
+        "notStarted": "Niet gestart",
+        "inProgress": "Lopend",
+        "onHold": "Tijdelijk stopgezet",
+        "complete": "Voltooid"
+      },
+      "tags": {
+        "label": "Tags"
+      }
+    },
+    "tabs": {
+      "projects": "Projecten",
+      "members": "Leden",
+      "settings": "Instellingen"
+    },
+    "disabledActionTooltip": "De enigen die de koppeling met dit {type} kunnen beheren, zijn groepsbeheerders."
+  },
+  "createAssociationGroup": {
+    "defaultSummary": "Beheer de items die met de {name} {type} zijn gekoppeld via een koppelingsgroep."
+  },
+  "members": {
+    "facets": {
+      "role": {
+        "label": "Rol",
+        "all": "Alle",
+        "manager": "Manager",
+        "member": "Lid"
+      },
+      "dateJoined": {
+        "label": "Deelnemer sinds"
+      }
+    },
+    "addMembers": {
+      "button": "Leden toevoegen",
+      "modal": {
+        "title": "Leden toevoegen",
+        "org": "Mijn organisatie",
+        "community": "Mijn community",
+        "partner": "Mijn partners",
+        "world": "Wereld"
+      },
+      "notifications": {
+        "invited": "Uitnodiging is verzonden. Gebruikers moeten accepteren om deel te nemen",
+        "added": "Toegevoegde gebruiker(s)",
+        "notInvited": "Sommige gebruikers beschikken mogelijk niet over de machtigingen die nodig zijn om aan de groep deel te nemen of hebben de maximumlimiet voor groepen (512) bereikt."
+      }
+    },
+    "removeUsers": {
+      "button": "Verwijderen",
+      "success": "Leden zijn verwijderd uit {groupName}.",
+      "error": "Kan een of meer gebruikers niet uit de groep verwijderen."
+    },
+    "changeRole": {
+      "button": "Rol wijzigen",
+      "member": "Lid",
+      "memberHelperText": "Kan binnen de groep content weergeven en toevoegen.",
+      "tooltipText": "De selectie van uzelf en/of de groepseigenaar opheffen",
+      "tooltipLabel": "Disclaimer rol",
+      "admin": "Manager",
+      "adminHelperText": "Kan content toevoegen/verwijderen en kan mensen uitnodigen/verwijderen (met uitzondering van de eigenaar).",
+      "success": "Geselecteerde leden werden {role} in de groep.",
+      "error": "Kan rol niet wijzigen voor een of meer leden."
+    },
+    "stats": {
+      "total": {
+        "title": "Totaal",
+        "trailingText": "Leden"
+      },
+      "new": {
+        "title": "Nieuw",
+        "trailingText": "Laatste 30 dagen"
+      }
+    }
+  },
+  "projects": {
+    "requestAssociation": {
+      "findProjects": "Projecten zoeken",
+      "sendRequest": "Aanvraag verzenden",
+      "success": {
+        "title": "Succes",
+        "message": "Verzonden koppelingsaanvragen: {count}"
+      },
+      "alreadyRequesting": {
+        "title": "Koppelingen controleren",
+        "message": "Een of meer selectie(s) hebben al een koppeling aangevraagd. Verzonden nieuwe koppelingsaanvragen: {count}"
+      },
+      "catalog": {
+        "myContent": "Mijn content",
+        "favorites": "Favorieten",
+        "organization": "Organisatie",
+        "world": "Wereld (openbaar)"
+      },
+      "collection": {
+        "projects": "Projecten"
+      }
+    },
+    "acceptAssociation": {
+      "label": "Accepteren",
+      "success": {
+        "title": "Succes",
+        "message": "Koppeling met {requestor} is geaccepteerd"
+      }
+    },
+    "cancelRequest": {
+      "label": "Aanvraag annuleren",
+      "success": {
+        "title": "Succes",
+        "message": "Koppelingsaanvraag is geannuleerd"
+      }
+    },
+    "breakAssociation": {
+      "label": "Loskoppelen",
+      "success": {
+        "title": "Koppeling is beëindigd",
+        "message": "We hebben de verbinding tussen dit item en de eerdere koppeling verbroken. We kunnen het besluit van de andere zijde echter niet terugdraaien, dus het is mogelijk dat u het in inkomende aanvragen blijft zien."
+      }
+    },
+    "associationsGallery": {
+      "sources": "Status",
+      "catalog": {
+        "associated": "Gekoppeld",
+        "requesting": "Inkomende aanvragen",
+        "pending": "Uitgaande aanvragen"
+      },
+      "collection": {
+        "projects": "Projecten"
+      }
+    }
+  },
+  "notice": {
+    "label": "Formulierwaarschuwing"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "overview": "Przegląd",
+  "resources": "Zasoby centrum",
+  "cards": {
+    "items": "Liczba elementów",
+    "groups": "Liczba grup"
+  },
+  "hubContent": {
+    "heading": "Ostatnio zmodyfikowane elementy Centrum",
+    "link": "Wyświetl wszystkie zasoby"
+  },
+  "content": {
+    "heading": "Ostatnio zmodyfikowane zasoby",
+    "stat": "Liczba elementów",
+    "link": "Wyświetl wszystkie zasoby"
+  },
+  "groups": {
+    "heading": "Ostatnio zmodyfikowane grupy",
+    "stat": "Liczba grup",
+    "link": "Wyświetl wszystkie grupy"
+  },
+  "contentCount": "Zasoby",
+  "addContent": "Utwórz nowy",
+  "facets": {
+    "access": {
+      "label": "Z"
+    },
+    "type": {
+      "label": "Typy"
+    },
+    "modified": {
+      "label": "Zmodyfikowany"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "グループの編集",
+        "viewGroups": "グループの表示"
+      },
+      "facet": {
+        "label": "取得元",
+        "myGroups": "グループ",
+        "myOrganization": "組織",
+        "myCommunity": "コミュニティ"
+      }
+    }
+  },
+  "property": {
+    "label": "パラメーター",
+    "requiredError": "パラメーターが必要です"
+  },
+  "operator": {
+    "label": "条件",
+    "requiredError": "条件が必要です"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "タイプ"
+    },
+    "group": {
+      "default": "グループ"
+    },
+    "occurrence": {
+      "default": "発生回数"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "次のいずれかである",
+      "group": "次のいずれかと共有"
+    },
+    "isAll": {
+      "default": "次のすべてである",
+      "group": "次のすべてと共有"
+    },
+    "isExactly": {
+      "default": "次の値と完全に一致",
+      "occurrence": "に等しい"
+    },
+    "isNot": {
+      "default": "ではない",
+      "type": "次のいずれでもない",
+      "group": "次のいずれかとも共有しない"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "グループ",
+      "requiredError": "グループが必要です"
+    },
+    "type": {
+      "label": "タイプ",
+      "requiredError": "タイプが必要です",
+      "app": {
+        "label": "アプリ"
+      },
+      "content": {
+        "label": "コンテンツ"
+      },
+      "dataset": {
+        "label": "データセット"
+      },
+      "discussion": {
+        "label": "ディスカッション"
+      },
+      "document": {
+        "label": "ドキュメント"
+      },
+      "event": {
+        "label": "イベント"
+      },
+      "feedback": {
+        "label": "フィードバック"
+      },
+      "initiative": {
+        "label": "イニシアティブ"
+      },
+      "map": {
+        "label": "マップ"
+      },
+      "project": {
+        "label": "プロジェクト"
+      },
+      "site": {
+        "label": "サイト"
+      },
+      "template": {
+        "label": "テンプレート"
+      }
+    },
+    "occurrence": {
+      "label": "発生回数",
+      "requiredError": "発生回数が必要です",
+      "upcoming": "予定",
+      "past": "過去",
+      "inProgress": "進行中"
+    }
+  }
+}

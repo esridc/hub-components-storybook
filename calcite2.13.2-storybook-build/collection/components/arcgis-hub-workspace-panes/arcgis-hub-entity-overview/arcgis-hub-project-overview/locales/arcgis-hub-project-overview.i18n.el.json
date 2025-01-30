@@ -1,0 +1,19 @@
+{
+  "overview": "Επισκόπηση",
+  "telemetry": {
+    "pageViews": "Προβολές σελίδας",
+    "last30days": "Τελευταίες 30 ημέρες",
+    "lastUpdated": "Τελευταία ενημέρωση πριν από {hoursElapsed} ώρες",
+    "checkTomorrow": "Επισκεφτείτε ξανά αύριο"
+  },
+  "learnAbout": "Μάθετε περισσότερα για τα έργα Hub",
+  "status": {
+    "notStarted": "Δεν εκκινήθηκε",
+    "inProgress": "Σε εξέλιξη",
+    "onHold": "Σε αναμονή",
+    "complete": "Ολοκληρωμένο"
+  },
+  "editDetails": "Επεξεργασία λεπτομερειών",
+  "noPurposeSet": "Δεν ορίστηκε σκοπός",
+  "noLocationSet": "Δεν ορίστηκε τοποθεσία"
+}

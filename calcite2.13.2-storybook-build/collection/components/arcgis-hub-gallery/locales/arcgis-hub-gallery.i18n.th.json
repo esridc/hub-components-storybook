@@ -1,0 +1,91 @@
+{
+  "moreResults": "ผลลัพธ์เพิ่มเติม",
+  "search": "ค้นหา",
+  "filter": "ตัวกรองข้อมูล",
+  "viewResults": "ดูผลลัพธ์ ({numResults})",
+  "resultsCount": "1 - {pageTotal} จาก {searchTotal}",
+  "backToTop": "กลับไปด้านบน",
+  "facets": {
+    "access": {
+      "label": "การแชร์",
+      "private": "ตัวฉัน",
+      "shared": "เจ้าของและกลุ่ม",
+      "org": "องค์กร",
+      "public": "สาธารณะ"
+    },
+    "license": {
+      "label": "การให้ลิขสิทธิ์",
+      "tooltip": "เฉพาะบนเนื้อหาสาธารณะ",
+      "custom": "แก้ไขเอง",
+      "none": "ไม่มีเลย"
+    },
+    "type": {
+      "label": "ประเภท"
+    },
+    "tags": {
+      "label": "แท็ก"
+    },
+    "dateUpdated": {
+      "label": "วันที่อัพเดต"
+    },
+    "source": {
+      "label": "ต้นทาง",
+      "tooltip": "เผยแพร่เนื้อหาจากองค์กรที่แตกต่างกัน"
+    },
+    "categories": {
+      "label": "หมวดหมู่"
+    },
+    "location": {
+      "label": "ตำแหน่ง",
+      "tooltip": "ใช้ขอบเขตแผนที่เป็นตัวกรองตำแหน่ง"
+    },
+    "event": {
+      "from": {
+        "label": "ความเป็นเจ้าของ",
+        "myContent": "ฉัน",
+        "myOrganization": "องค์กรของฉัน",
+        "world": "ทุกคน"
+      },
+      "access": {
+        "label": "การเข้าถึง",
+        "private": "ส่วนบุคคล",
+        "org": "องค์กร",
+        "public": "สาธารณะ"
+      },
+      "startDate": {
+        "label": "วันที่งานอีเวนท์"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "ประเภท",
+        "all": "ทั้งหมด",
+        "view": "ดู",
+        "edit": "แก้ไข"
+      },
+      "role": {
+        "label": "บทบาท",
+        "all": "ทั้งหมด",
+        "member": "สมาชิก",
+        "manager": "ผู้จัดการ",
+        "owner": "เจ้าของ"
+      },
+      "sharing": {
+        "label": "มองเห็นได้",
+        "private": "ส่วนบุคคล",
+        "public": "สาธารณะ"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "รายการการแสดงผล",
+    "grid": "กริดการแสดงผล",
+    "map": "แสดงแผนที่",
+    "compact": "แสดงแบบย่อ",
+    "calendar": "แสดงปฏิทิน",
+    "table": "แสดงตาราง"
+  },
+  "galleryActionsLabel": "การดำเนินการเพิ่มเติม",
+  "selected": "ที่เลือก: {count}",
+  "popoverActionButtonLabel": "การดำเนินการเพิ่มเติม"
+}

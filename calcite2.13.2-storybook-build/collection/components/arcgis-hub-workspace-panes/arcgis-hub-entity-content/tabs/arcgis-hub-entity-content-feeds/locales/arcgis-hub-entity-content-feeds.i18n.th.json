@@ -1,0 +1,81 @@
+{
+  "tabTitle": "การกำหนดค่าฟีด",
+  "learn": "ศึกษาข้อมูลเกี่ยวกับฟีด Hub",
+  "loadingLabel": "กำลังโหลด",
+  "enableFeedsToggle": {
+    "label": "เปิดใช้งานฟีด",
+    "privateNotice": "หากต้องการเปิดใช้งานฟีด คุณจะต้องตั้งค่าไซต์ Hub ของคุณเป็น \"สาธารณะ\" ก่อน",
+    "emptyPublicCatalog": {
+      "message": "หากต้องการเปิดใช้งานฟีด คุณจะต้องเพิ่มเนื้อหาสาธารณะลงในแคตตาล็อกของคุณก่อน",
+      "button": "ดูแคตตาล็อก"
+    },
+    "grouplessCatalog": {
+      "message": "หากต้องการเปิดใช้งานฟีด คุณจะต้องกำหนดค่าแคตตาล็อกของคุณก่อน",
+      "button": "กำหนดค่าแคตตาล็อก"
+    }
+  },
+  "gettingStartedNotice": {
+    "title": "เริ่มต้นทำงาน",
+    "exampleMessage": "ไฮไลท์และอัปเดตคีย์หรือค่าใน JSON Editor โดยใช้ค่าสัญพจน์ (\"VALUE\") หรือเทมเพลต (\"{{TEMPLATE_VALUE}}\") ได้",
+    "previewMessage": "ใช้การสลับ \"แสดงตัวอย่าง\" เพื่อแสดงตัวอย่างการเปลี่ยนแปลงของคุณ หากต้องการทราบข้อมูลเพิ่มเติม ให้อ่าน <catalogFederationLink>เอกสารวิธีใช้งานการติดต่อแคตตาล็อกกับภายนอก</catalogFederationLink>"
+  },
+  "aboutFeedsNotice": {
+    "message": "ช่วยให้ผู้อื่นสามารถเข้าถึง Open Data สาธารณะของคุณได้อย่างสะดวก และนำมาใช้ซ้ำกับฟีด Hub ได้",
+    "link": "ศึกษาข้อมูลเกี่ยวกับฟีด Hub"
+  },
+  "feedsEditorSection": {
+    "title": "ฟีด",
+    "formatSelectLabel": "เลือกประเภทฟีด",
+    "uneditableAttributesIntro": "โปรดทราบว่าจะไม่สามารถแก้ไขแอตทริบิวต์ต่อไปนี้ได้:",
+    "edit": "แก้ไข",
+    "preview": "แสดงตัวอย่าง",
+    "selectContentNotice": "เลือกเนื้อหาที่จะแสดงตัวอย่าง",
+    "invalidJsonEditorWarning": "JSON ใช้งานไม่ได้ โปรดแก้ไขข้อผิดพลาดก่อนบันทึก",
+    "invalidJsonPreviewWarning": "ไม่สามารถแสดงตัวอย่าง JSON ที่ใช้งานไม่ได้ โปรดแก้ไขข้อผิดพลาด",
+    "errorPreviewingWarning": "เกิดข้อผิดพลาดขึ้น กรุณาตรวจสอบการเชื่อมต่อของคุณและลองอีกครั้ง หากยังคงประสบปัญหา โปรดบันทึกบั๊กโดยใช้ Hub Support"
+  },
+  "toolsSection": {
+    "title": "เครื่องมือ",
+    "verification": "การตรวจสอบ",
+    "previewSampleData": {
+      "label": "แสดงตัวอย่างข้อมูลตัวอย่าง",
+      "pickerFacets": {
+        "type": "ประเภท",
+        "tags": "แท็ก",
+        "categories": "หมวดหมู่",
+        "sharing": "การแชร์",
+        "dateUpdated": "วันที่อัพเดต"
+      }
+    },
+    "copyableInputLabel": "URL การเข้าถึงฟีด"
+  },
+  "dcat-us": {
+    "1.1": {
+      "title": "DCAT-US 1.1",
+      "description": "DCAT จะช่วยให้องค์กรสามารถสร้างมาตรฐานในการส่งข้อมูล และช่วยเหลือในการแยกวิเคราะห์ผ่านเฟเดอรัลซอร์สได้ คุณสามารถใช้ <dcatUsSchemaLink>สคีมา DCAT</dcatUsSchemaLink> ที่สร้างโดย Project Open Data ซึ่งเป็นการกำหนดค่าเริ่มต้น หรือคุณสามารถกำหนดค่าฟิลด์/แอตทริบิวต์บางอย่างได้ด้วยตนเอง ผู้ดูแลไซต์อาจเพิ่มการกำหนดค่า DCAT เพิ่มเติม และอาจต้องการอ่านเอกสารของเราเกี่ยวกับ <catalogFederationLink>การรวมข้อมูลกับ DCAT และแคตตาล็อกภายนอกอื่น ๆ</catalogFederationLink>",
+      "uneditableAttributes": "@type, landingPage, webService และ contactPoint['@type']",
+      "verificationLabel": "คุณสามารถตรวจสอบความถูกต้องฟีด DCAT ได้ โดยการวาง DCAT URL ของไซต์ของคุณลงใน <dcatUsVerificationLink>โปรแกรมตรวจสอบความถูกต้องของ Project Open Data</dcatUsVerificationLink>"
+    }
+  },
+  "dcat-ap": {
+    "2.1.1": {
+      "title": "DCAT-AP 2.1.1",
+      "description": "DCAT-AP นั้นถูกกำหนดขึ้นโดยคณะกรรมาธิการยุโรป โดยเป็นรูปแบบการแลกเปลี่ยนเมตาดาต้ามาตรฐานที่ใช้ระหว่างแคตตาล็อกข้อมูลยุโรป ArcGIS Hub จะสร้างและอัปเดตฟีด DCAT-AP ของไซต์ของคุณโดยอัตโนมัติ ในขณะที่คุณแก้ไขเมตาดาต้าของเนื้อหาของคุณ หรือเพิ่มเนื้อหาสาธารณะแบบใหม่ลงในแคตตาล็อกของคุณ เนื่องจากฟีดจะใช้เมตาดาต้าที่ได้รับการจัดการภายใน ArcGIS Online จึงไม่จำเป็นต้องสร้างเมตาดาต้า DCAT-AP แยกต่างหากด้วยตัวเอง<lineBreak></lineBreak><lineBreak></lineBreak>เมื่อใช้ Editor นี้ คุณจะสามารถคงการกำหนดค่าเริ่มต้นของ <dcatApSchemaLink>สคีมา DCAT-AP</dcatApSchemaLink> ของ ArcGIS Hub เอาไว้ได้ หรือคุณสามารถกำหนดค่าบางฟิลด์/แอตทริบิวต์ด้วยตัวเองได้ และคุณยังสามารถเพิ่มฟิลด์/แอตทริบิวต์ DCAT-AP ได้อีกด้วย สามารถตรวจสอบรายละเอียดเพิ่มเติมได้ที่เอกสารของ ArcGIS Hub ในหัวข้อ <catalogFederationLink>การเชื่อมต่อข้อมูลกับภายนอกด้วย DCAT และแคตตาล็อกภายนอกอื่นๆ </catalogFederationLink>",
+      "uneditableAttributes": "@type, @id, dcat:contactPoint['@id'], dcat:contactPoint['@type'], dct:publisher, dcat:theme, dct:accessRights, dcat:keyword, dct:provenance, dct:issued, และ dct:language",
+      "verificationLabel": "คุณสามารถยืนยันฟีด DCAT ของคุณได้ โดยการวาง DCAT URL ของไซต์ของคุณลงใน <dcatApVerificationLink>ระบบจำลองความสามารถในการทำงานร่วมกันของคณะกรรมาธิการยุโรป</dcatApVerificationLink>"
+    }
+  },
+  "rss": {
+    "2.0": {
+      "title": "RSS 2.0",
+      "description": "<rssAboutLink>RSS 2</rssAboutLink> คือรูปแบบการรวบรวมเนื้อหาเว็บ และเป็นไปตาม <xmlSpecLink>ข้อกำหนด XML 1.0</xmlSpecLink> เมื่อใช้ Editor นี้ คุณจะสามารถคงการกำหนดค่าเริ่มต้นของ ArcGIS Hub เอาไว้ได้ หรือคุณสามารถกำหนดค่าบางฟิลด์/แอตทริบิวต์ได้ด้วยตัวคุณเอง สามารถตรวจสอบรายละเอียดเพิ่มเติมได้ที่เอกสารของ ArcGIS Hub ในหัวข้อ <catalogFederationLink> การเชื่อมต่อข้อมูลกับภายนอกด้วย DCAT และแคตตาล็อกภายนอกอื่นๆ </catalogFederationLink>",
+      "verificationLabel": "คุณสามารถตรวจสอบฟีด RSS ของคุณได้ โดยการส่ง RSS URL ของเว็บไซต์ของคุณผ่านเข้าไปใน W3 <rssVerificationLink>Feed Validator</rssVerificationLink>"
+    }
+  },
+  "saveButton": "บันทึก",
+  "alertMessages": {
+    "success": "บันทึกการแก้ไขเรียบร้อยแล้ว",
+    "error": "ข้อผิดพลาดขณะบันทึกการแก้ไข"
+  },
+  "formAlert": "แจ้งเตือนฟอร์ม"
+}

@@ -1,0 +1,41 @@
+{
+  "managePrivacyButton": "Gestisci la privacy",
+  "consentNotice": {
+    "allTracking": "Questo sito è stato creato con ArcGIS Hub e utilizza il tracciamento anonimo per migliorare le prestazioni e analizzare l'utilizzo del sito in conformità con l'Informativa sulla Privacy di Esri. Sistemi di tracciamento aggiuntivi di terze parti potrebbero monitorare l'utilizzo del sito da parte dell'utente.",
+    "anonymousTracking": "Questo sito è stato creato con ArcGIS Hub e utilizza il tracciamento anonimo per migliorare le prestazioni e analizzare l'utilizzo del sito in conformità con l'Informativa sulla Privacy di Esri.",
+    "noTracking": "Questo sito è stato creato con ArcGIS Hub e utilizza solo cookie necessari per il funzionamento dell'applicazione che non possono essere disattivati nei nostri sistemi.",
+    "thirdPartyTracking": "Questo sito è stato creato con ArcGIS Hub e utilizza solo cookie necessari per il funzionamento dell'applicazione che non possono essere disattivati nei nostri sistemi. Sistemi di tracciamento aggiuntivi di terze parti potrebbero monitorare l'utilizzo del sito da parte dell'utente."
+  },
+  "consent": {
+    "esriPrivacyLink": "Centro per la privacy di Esri",
+    "customerConsentLink": "Maggiori informazioni"
+  },
+  "eueiNotice": {
+    "title": "{orgName} membri non saranno tracciati",
+    "message": "Il programma EUEI (Esri User Experience Improvement) è stato disabilitato per {orgName}. L'attività correlata alla visita dell'utente non sarà tracciata. Non è possibile accettare statistiche di utilizzo anonime o tracciamento di terze parti.",
+    "link": "Informazioni sul programma (EUEI)."
+  },
+  "notice": {
+    "heading": "Impostazioni della privacy",
+    "acceptAllButton": "Accetta tutti i cookie",
+    "acceptNecessaryButton": "Accetta solo i cookie necessari",
+    "confirmButton": "Conferma",
+    "reviewSettingsButton": "Esamina le impostazioni"
+  },
+  "settings": {
+    "heading": "Impostazioni della privacy",
+    "confirmButton": "Conferma"
+  },
+  "anonymous": {
+    "heading": "Statistiche anonime di utilizzo",
+    "helpText": "Questi cookie ci consentono di monitorare le prestazioni dell'applicazione, come le fonti di traffico, le visualizzazioni pagina e le interazioni. Consentono di sapere quali contenuti sono efficaci e come i visitatori si muovono all'interno dell'applicazione. Tutte le informazioni raccolte sono anonime (non vengono memorizzate informazioni personali). Se l'utente non accetta questi cookie, non sapremo che ha visitato o interagito con la nostra applicazione."
+  },
+  "necessary": {
+    "heading": "Cookie strettamente necessari",
+    "helpText": "Questi cookie sono necessari per il funzionamento dell'applicazione e non possono essere disattivati nei nostri sistemi. Vengono impostati in risposta alle azioni compiute dall'utente che comportano una richiesta di servizi, come l'accesso al proprio account. L'utente può impostare il proprio browser in modo da bloccare o mostrare un avviso relativo a questi cookie, ma alcune parti dell'applicazione potrebbero esserne influenzate. Tutte le informazioni raccolte sono anonime (non vengono memorizzate informazioni personali)."
+  },
+  "thirdParty": {
+    "heading": "Tracciamento di terza parte",
+    "helpText": "Questi cookie possono essere impostati da fornitori di tracciamento di terze parti configurati su questo sito. Possono raccogliere informazioni di targeting o di marketing relative all'utente durante la sua visita. Le informazioni raccolte possono essere utilizzate per scopi diversi da questa applicazione. Se l'utente non consente questi cookie, i fornitori di tracking configurati di terze parti non riceveranno alcuna informazione sulla sua visita."
+  }
+}

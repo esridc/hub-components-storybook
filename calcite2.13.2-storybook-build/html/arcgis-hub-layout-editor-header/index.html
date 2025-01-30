@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-layout-editor-header</title>
+
+  <!-- link to calcite components CSS  -->
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+
+  <!-- NOTE: calcite web CSS is only used for grid layout of this page -->
+  <!-- see: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+  <link rel="stylesheet" href="../calcite-web.min.css" />
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+
+  <!-- load calcite components -->
+  <script type="module" src="../../calcite/calcite.esm.js"></script>
+
+  <!-- load hub components -->
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+</head>
+
+<body>
+  <harness-header page-title=arcgis-hub-layout-editor-header></harness-header>
+  <div class="grid-container padding-leader-4">
+    <!-- docs about grid container: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+
+    <div class="column-24 trailer-5">
+      <h3>Site</h3>
+      <arcgis-hub-layout-editor-header id="site-header" show-clone show-delete is-dirty></arcgis-hub-layout-editor-header>
+    </div>
+
+    <div class="column-24 trailer-5">
+      <h3>Page at site</h3>
+      <arcgis-hub-layout-editor-header id="page-header"></arcgis-hub-layout-editor-header>
+    </div>
+
+    <div class="column-24 trailer-5">
+      <h3>Page at org</h3>
+      <arcgis-hub-layout-editor-header id="page-at-org-header"></arcgis-hub-layout-editor-header>
+    </div>
+
+    <div class="column-24">
+      <h3>Alpha Org Initiative Templates</h3>
+      <arcgis-hub-layout-editor-header id="alpha-org-initiative-templates-header"></arcgis-hub-layout-editor-header>
+    </div>
+  </div>
+
+  <script type="module">
+    import { fetchSite, fetchPage } from 'https://cdn.skypack.dev/@esri/hub-common';
+
+    function setProp(id, key, value) {
+      const el = document.querySelector(`#${id}`);
+      el[key] = value;
+    }
+
+    const requestOpts = { portal: 'https://qaext.arcgis.com/sharing/rest'};
+    const site = await fetchSite('4afcfdb9bb6541649146bdbb70755b1d', requestOpts);
+    const page = await fetchPage('f073e570a7414b7fb443cd856b4596cf', requestOpts);
+    const user = {
+      type: 'User',
+      id: 'self'
+    };
+    setProp('site-header', 'entity', site);
+
+    setProp('page-header', 'entity', page);
+    setProp('page-header', 'site', site);
+
+    setProp('page-at-org-header', 'entity', page);
+    setProp('alpha-org-initiative-templates-header', 'entity', user);
+
+    document.addEventListener('hubTelemetry', evt => console.table(evt.detail));
+    document.addEventListener('arcgisHubUserProfileSignout', _ => {
+      const evt = new CustomEvent('arcgisAppIdentityStartSignOut');
+      document.dispatchEvent(evt);
+    });
+  </script>
+</body>
+
+</html>

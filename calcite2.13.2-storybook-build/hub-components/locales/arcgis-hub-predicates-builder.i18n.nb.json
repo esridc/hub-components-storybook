@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "Rediger grupper",
+        "viewGroups": "Vis grupper"
+      },
+      "facet": {
+        "label": "Fra",
+        "myGroups": "Mine grupper",
+        "myOrganization": "Min organisasjon",
+        "myCommunity": "Mitt fellesskap"
+      }
+    }
+  },
+  "property": {
+    "label": "Parameter",
+    "requiredError": "Parameteret er påkrevd"
+  },
+  "operator": {
+    "label": "Vilkår",
+    "requiredError": "Vilkår kreves"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "Type"
+    },
+    "group": {
+      "default": "Grupper"
+    },
+    "occurrence": {
+      "default": "Forekomst"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "Er en av",
+      "group": "Deles med en av"
+    },
+    "isAll": {
+      "default": "Er alle",
+      "group": "Blir delt med alle"
+    },
+    "isExactly": {
+      "default": "Er nøyaktig",
+      "occurrence": "Er"
+    },
+    "isNot": {
+      "default": "Er ikke",
+      "type": "Er ingen av",
+      "group": "Deles med ingen av"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "Grupper",
+      "requiredError": "Grupper er påkrevd"
+    },
+    "type": {
+      "label": "Typer",
+      "requiredError": "Typer er påkrevd",
+      "app": {
+        "label": "Apper/programmer"
+      },
+      "content": {
+        "label": "Innhold"
+      },
+      "dataset": {
+        "label": "Datasett"
+      },
+      "discussion": {
+        "label": "Diskusjoner"
+      },
+      "document": {
+        "label": "Dokumenter"
+      },
+      "event": {
+        "label": "Arrangementer"
+      },
+      "feedback": {
+        "label": "Tilbakemelding"
+      },
+      "initiative": {
+        "label": "Initiativer"
+      },
+      "map": {
+        "label": "Kart"
+      },
+      "project": {
+        "label": "Prosjekter"
+      },
+      "site": {
+        "label": "Nettsteder"
+      },
+      "template": {
+        "label": "Maler"
+      }
+    },
+    "occurrence": {
+      "label": "Forekomst",
+      "requiredError": "Forekomst er påkrevd",
+      "upcoming": "Kommende",
+      "past": "Foregående",
+      "inProgress": "Pågår"
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "advancedConfig": {
+    "label": "Konfigurasi lanjutan",
+    "serverTimeout": {
+      "label": "Waktu Server Habis (detik)",
+      "helperText": "Berguna untuk layanan lebih besar yang mungkin memerlukan waktu lebih lama untuk merespons.",
+      "errors": {
+        "type": "Masukkan konfigurasi batas waktu server.",
+        "minimum": "Nilai batas waktu server minimal harus 5.",
+        "maximum": "Nilai batas waktu server maksimal harus 95."
+      }
+    }
+  },
+  "appearance": {
+    "corners": {
+      "label": "Sudut",
+      "enum": {
+        "round": {
+          "label": "Bulat"
+        },
+        "square": {
+          "label": "Kotak"
+        }
+      }
+    },
+    "dropShadow": {
+      "label": "Bayangan Jatuh",
+      "enum": {
+        "heavy": {
+          "label": "Berat"
+        },
+        "low": {
+          "label": "Rendah"
+        },
+        "medium": {
+          "label": "Medium"
+        },
+        "none": {
+          "label": "Belum Dimulai"
+        }
+      }
+    },
+    "layout": {
+      "label": "Gaya kartu",
+      "enum": {
+        "informational": {
+          "label": "Informasi"
+        },
+        "simple": {
+          "label": "Sederhana"
+        }
+      }
+    },
+    "popoverText": {
+      "label": "Konten modal"
+    },
+    "publisherText": {
+      "label": "Penerbit sumber"
+    },
+    "styleSpecificSettings": {
+      "label": "Pengaturan gaya",
+      "helperInfoText": "Modal yang berisi informasi selengkapnya akan terbuka jika tombol informasi dipilih.",
+      "helperVizText": "Kartu sederhana mendukung penambahan ikon sebagai elemen visual yang dapat digunakan untuk menggambarkan perubahan data."
+    },
+    "sectionTitle": "Penampilan",
+    "textAlign": "Penyejajaran",
+    "visualInterest": {
+      "label": "Elemen visual",
+      "enum": {
+        "icon": {
+          "label": "Ikon"
+        },
+        "none": {
+          "label": "Tidak Ada"
+        }
+      }
+    },
+    "icon": {
+      "label": "Ikon",
+      "caretUp": {
+        "label": "Naikkan"
+      },
+      "caretDown": {
+        "label": "Turunkan"
+      },
+      "caretDouble": {
+        "label": "Tidak ada perubahan"
+      }
+    },
+    "valueColor": "Warna (Statistik)"
+  },
+  "details": {
+    "allowDynamicLink": "Tampilkan tautan sumber",
+    "link": {
+      "sectionTitle": "Tautkan",
+      "sourceLink": "Tautkan URL",
+      "sourceTitle": "Tautkan teks"
+    },
+    "sectionTitle": "Detail",
+    "subtitle": "Subjudul",
+    "title": "Gelar",
+    "trailingText": {
+      "label": "Teks mendahului",
+      "helperText": "Masukkan konteks atau penjelasan tambahan (akan muncul di bawah nilai metrik)."
+    }
+  },
+  "errors": {
+    "sourceLink": {
+      "required": "Tautan diperlukan untuk menampilkan sumber.",
+      "formatError": "Pemformatan URL salah"
+    }
+  },
+  "formatting": {
+    "sectionTitle": "Pemformatan",
+    "unit": {
+      "label": "Unit tampilan",
+      "helperText": "Masukkan unit pengukuran untuk nilai Anda."
+    },
+    "unitPosition": {
+      "label": "Penempatan",
+      "helperText": "Pilih tempat munculnya satuan pengukuran (misalnya, 'km', 'lbs') dalam kaitannya dengan nilai metrik.",
+      "enum": {
+        "after": {
+          "label": "Setelah"
+        },
+        "before": {
+          "label": "Sebelum"
+        },
+        "below": {
+          "label": "Bawah"
+        }
+      }
+    }
+  },
+  "sharing": {
+    "sectionTitle": "Membagikan",
+    "showShareIcon": "Aktifkan berbagi",
+    "showShareIconHelperText": "Izinkan pengguna menyalin tautan langsung ke kartu ini di halaman ini.",
+    "shareableByValue": "Aktifkan Penyematan",
+    "shareableOnHover": {
+      "label": "Tampilkan saat mengarahkan kursor",
+      "helperText": {
+        "label": "Tombol Bagikan hanya ditampilkan saat mengarahkan kursor. Jika dimatikan, tombol selalu terlihat."
+      }
+    }
+  },
+  "statistic": {
+    "dataSource": "Sumber data",
+    "displayValue": "Nilai tampilan",
+    "sectionTitle": "Nilai",
+    "type": {
+      "label": "Jenis",
+      "enum": {
+        "dynamic": {
+          "label": "Dinamis",
+          "description": "Pilih kumpulan data yang ada (feature service) untuk dirangkum."
+        },
+        "static": {
+          "label": "Statis",
+          "description": "Masukkan nilai secara manual untuk disorot dalam tata letak Anda."
+        }
+      }
+    }
+  }
+}

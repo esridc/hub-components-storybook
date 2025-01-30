@@ -1,0 +1,47 @@
+{
+  "communityOrg": "Community-Organisation",
+  "editLayout": "Layout bearbeiten",
+  "orgWorkspace": "Home-Workspace öffnen",
+  "editS123": "In Survey123 bearbeiten",
+  "editAdvancedJson": "Erweiterten JSON-Code bearbeiten",
+  "view": {
+    "project": "Projekt anzeigen",
+    "site": "Site anzeigen",
+    "initiative": "Initiative anzeigen",
+    "discussion": "Diskussionsrunde anzeigen",
+    "content": "Inhalt anzeigen",
+    "page": "Seite anzeigen",
+    "group": "Gruppe anzeigen",
+    "initiativeTemplate": "Initiativenvorlage anzeigen",
+    "template": "Vorlage anzeigen",
+    "survey": "Survey anzeigen",
+    "event": "Event anzeigen"
+  },
+  "access": {
+    "share": "Freigeben",
+    "sharingLevel": "Freigabeebene",
+    "groupSharing": "Gruppenfreigabe",
+    "tooltip": {
+      "public": "Freigabeebene: Öffentlich",
+      "org": "Freigabeebene: Organisation",
+      "private": "Freigabeebene: Privat",
+      "shared": "Freigabeebene: Privat freigegeben"
+    },
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "alert": {
+      "success": "Änderungen erfolgreich gespeichert",
+      "error": "Fehler beim Speichern der Änderungen",
+      "label": "Formularwarnung"
+    }
+  },
+  "popoverActions": {
+    "label": "Weitere Aktionen",
+    "openInEnterprise": "In ArcGIS Enterprise öffnen",
+    "openInOnline": "In ArcGIS Online öffnen"
+  },
+  "homeLink": {
+    "text": "Startseite"
+  },
+  "createContent": "Erstellen"
+}

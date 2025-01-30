@@ -1,0 +1,82 @@
+{
+  "title": "Participation",
+  "subtitle": "Set discussion board visibility (who can view), scroll down to set who can edit board information, and then set participation and moderation with channels.",
+  "channelTitle": "Participation channel is set",
+  "channelDescription": "This channel controls who can add, view, and moderate posts on this discussion board.",
+  "addChannelsTitle": "Set channel",
+  "addChannelsDescription": "Channels control who can add posts to the board. They can be open to groups, an organization, or the public, and can be applied to many discussions. Channels also control who can moderate. Set blocked words for auto-moderation within a channel.",
+  "privateChannelTitle": "Private channel is set",
+  "privateChannelDescription": "You cannot see the private channel assigned to this discussion board. You can remove the channel and select an existing channel or create a channel.",
+  "removeChannelConfirmationMessage": "This discussion board will no longer display posts. You can add a channel if this channel is removed.",
+  "headingChannelEdit": "You are editing a channel",
+  "headingChannelView": "You are viewing a channel",
+  "headingChannelCreate": "You are creating a channel",
+  "buttons": {
+    "browse": "Browse channels",
+    "new": "New channel",
+    "removeChannel": "Remove channel",
+    "cancel": "Cancel"
+  },
+  "alerts": {
+    "label": "Form alert",
+    "set": {
+      "title": "Success. The channel is set."
+    },
+    "removed": {
+      "title": "Channel removed",
+      "message": "Choose or create a channel for participation."
+    },
+    "error": {
+      "title": "Failed. The channel was not set."
+    }
+  },
+  "galleryPickerTitle": "Select a channel",
+  "channelsLabel": "Channels",
+  "accessLabel": "Access",
+  "optionPublicLabel": "Public",
+  "optionOrganizationLabel": "Organization",
+  "optionPrivateLabel": "Private",
+  "viewChannel": "View channel",
+  "editChannel": "Edit channel",
+  "save": "Save",
+  "removeChannel": "Remove channel",
+  "groupPicker": {
+    "facet": {
+      "label": "From",
+      "myGroups": "My groups",
+      "myOrganization": "My organization",
+      "myCommunity": "My community"
+    }
+  },
+  "editGroupButtonText": "Add edit groups",
+  "viewGroupButtonText": "Add view groups",
+  "viewGroups": {
+    "header": "Who can view",
+    "description": "People who can view (but not post to) the board; posting is set by channels below."
+  },
+  "editGroups": {
+    "header": "Who can edit",
+    "description": "Group members can edit board information in the workspace."
+  },
+  "aboutChannelsNotice": {
+    "title": "Introducing channels",
+    "message": "Channels are not groups, but can contain them. They determine who can post and moderate.",
+    "action": "More about channels"
+  },
+  "nonPrivateChannelNotice": {
+    "title": "Cannot edit channel",
+    "message": "Only moderators of this channel can edit it. Contact channel owner or org admin to add, if required. You can also remove this channel, add an existing one (of which you are a moderator), or create a new one."
+  },
+  "privateChannelNotice": {
+    "title": "Cannot edit channel",
+    "message": "Only moderators of this channel can edit it. Contact channel owner to add, if required. You can also remove this channel, add an existing one (of which you are a moderator), or create a new one."
+  },
+  "participate": {
+    "header": "Who can participate and who can moderate"
+  },
+  "org": "Organization",
+  "private": "Private",
+  "public": "Public",
+  "unnamed": "Unnamed channel",
+  "groupNotFound": "Group not found"
+}

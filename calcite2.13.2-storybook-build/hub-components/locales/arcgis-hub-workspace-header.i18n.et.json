@@ -1,0 +1,47 @@
+{
+  "communityOrg": "Kogukonna organisatsioon",
+  "editLayout": "Muuda paigutust",
+  "orgWorkspace": "Ava kodune tööruum",
+  "editS123": "Redigeeri Survey123 keskkonnas",
+  "editAdvancedJson": "Redigeeri täpsemat JSON-i",
+  "view": {
+    "project": "Kuva projekt",
+    "site": "Kuva sait",
+    "initiative": "Kuva algatus",
+    "discussion": "Kuva tahvel",
+    "content": "Kuva sisu",
+    "page": "Kuva leht",
+    "group": "Kuva grupp",
+    "initiativeTemplate": "Kuva algatuse mall",
+    "template": "Kuva mall",
+    "survey": "Kuva küsitlus",
+    "event": "Kuva sündmus"
+  },
+  "access": {
+    "share": "Jaga",
+    "sharingLevel": "Jagamise tase",
+    "groupSharing": "Grupi ühiskasutus",
+    "tooltip": {
+      "public": "Jagamise tase: avalik",
+      "org": "Jagamise tase: organisatsioon",
+      "private": "Jagamise tase: privaatne",
+      "shared": "Jagamise tase: privaatselt jagatud"
+    },
+    "save": "Salvesta",
+    "cancel": "Loobu",
+    "alert": {
+      "success": "Muudatused on salvestatud",
+      "error": "Tõrge muudatuste salvestamisel",
+      "label": "Vormi hoiatus"
+    }
+  },
+  "popoverActions": {
+    "label": "Veel tegevusi",
+    "openInEnterprise": "Ava ArcGIS Enterprise'is",
+    "openInOnline": "Ava ArcGIS Online'is"
+  },
+  "homeLink": {
+    "text": "Avakuva"
+  },
+  "createContent": "Loo"
+}

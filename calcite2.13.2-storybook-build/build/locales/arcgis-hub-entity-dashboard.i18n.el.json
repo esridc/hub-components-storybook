@@ -1,0 +1,20 @@
+{
+  "dashboard": "Dashboard",
+  "activityLogSection": {
+    "title": "Αρχείο καταγραφής δραστηριότητας",
+    "table": {
+      "downloadAction": "Λήψη",
+      "downloadAllAction": "Λήψη όλων",
+      "downloadActionTooltip": "Λήψη επιλεγμένων δραστηριοτήτων",
+      "caption": "Πίνακας πρόσφατων σφαλμάτων",
+      "columnHeaders": {
+        "datetime": "Ημερομηνία",
+        "layer": "Θεματικό επίπεδο",
+        "message": "Μήνυμα"
+      },
+      "noRecentErrors": "Δεν υπάρχουν πρόσφατα σφάλματα",
+      "expandText": "Προβολή περισσότερων",
+      "collapseText": "Προβολή λιγότερων"
+    }
+  }
+}

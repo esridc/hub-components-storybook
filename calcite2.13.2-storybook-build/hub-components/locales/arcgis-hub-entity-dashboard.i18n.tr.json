@@ -1,0 +1,20 @@
+{
+  "dashboard": "Gösterge Paneli",
+  "activityLogSection": {
+    "title": "Etkinlik İşlem Kaydı",
+    "table": {
+      "downloadAction": "İndir",
+      "downloadAllAction": "Tümünü İndir",
+      "downloadActionTooltip": "Seçili etkinlikleri indir",
+      "caption": "Son Hatalar Tablosu",
+      "columnHeaders": {
+        "datetime": "Tarih",
+        "layer": "Katman",
+        "message": "Mesaj"
+      },
+      "noRecentErrors": "Son hata yok",
+      "expandText": "Daha fazlasını görüntüle",
+      "collapseText": "Daha azını görüntüle"
+    }
+  }
+}

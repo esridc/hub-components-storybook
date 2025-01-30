@@ -1,0 +1,91 @@
+{
+  "moreResults": "더 많은 결과",
+  "search": "검색",
+  "filter": "필터",
+  "viewResults": "결과 보기({numResults}개)",
+  "resultsCount": "1 - {pageTotal}/{searchTotal}",
+  "backToTop": "맨 위로 이동",
+  "facets": {
+    "access": {
+      "label": "공유",
+      "private": "본인",
+      "shared": "소유자 및 그룹",
+      "org": "기관",
+      "public": "공개"
+    },
+    "license": {
+      "label": "라이선스",
+      "tooltip": "공개 콘텐츠 전용",
+      "custom": "사용자 설정",
+      "none": "없음"
+    },
+    "type": {
+      "label": "유형"
+    },
+    "tags": {
+      "label": "태그"
+    },
+    "dateUpdated": {
+      "label": "업데이트일"
+    },
+    "source": {
+      "label": "원본",
+      "tooltip": "다른 기관의 공개 콘텐츠"
+    },
+    "categories": {
+      "label": "범주"
+    },
+    "location": {
+      "label": "위치",
+      "tooltip": "맵 범위를 위치 필터로 적용"
+    },
+    "event": {
+      "from": {
+        "label": "소유권",
+        "myContent": "본인",
+        "myOrganization": "내 기관",
+        "world": "모든 사람"
+      },
+      "access": {
+        "label": "접근",
+        "private": "비공개",
+        "org": "기관",
+        "public": "공개"
+      },
+      "startDate": {
+        "label": "이벤트 날짜"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "유형",
+        "all": "모두",
+        "view": "보기",
+        "edit": "편집"
+      },
+      "role": {
+        "label": "역할",
+        "all": "모두",
+        "member": "구성원",
+        "manager": "관리자",
+        "owner": "소유자"
+      },
+      "sharing": {
+        "label": "가시성",
+        "private": "비공개",
+        "public": "공개"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "목록 표시",
+    "grid": "그리드 표시",
+    "map": "맵 표시",
+    "compact": "압축 표시",
+    "calendar": "캘린더 표시",
+    "table": "테이블 표시"
+  },
+  "galleryActionsLabel": "추가 작업",
+  "selected": "선택함: {count}",
+  "popoverActionButtonLabel": "작업 더 보기"
+}

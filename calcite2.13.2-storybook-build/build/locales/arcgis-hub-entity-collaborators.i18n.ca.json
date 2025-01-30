@@ -1,0 +1,85 @@
+{
+  "collaborators": "Col·laboradors",
+  "editGroupButtonText": "Afegeix grups d'edició",
+  "viewGroupButtonText": "Afegeix grups de visualització",
+  "groupPicker": {
+    "title": "Seleccioneu grups",
+    "facet": {
+      "label": "Des de",
+      "editGroups": "Edita els grups",
+      "viewGroups": "Mostra el grup",
+      "myGroups": "Els meus grups",
+      "myOrganization": "La meva organització",
+      "myCommunity": "La meva comunitat"
+    }
+  },
+  "addNewPeopleNotice": {
+    "title": "Afegeix persones noves",
+    "message": "Si heu d'afegir persones, podeu convidar-les a unir-se a la comunitat o <orgOverviewLink>posar-vos en contacte amb el vostre administrador</orgOverviewLink>."
+  },
+  "editGroupsTitle": "Grups que poden editar",
+  "viewGroupsTitle": "Grups que poden visualitzar",
+  "project": {
+    "description": "Trieu quins grups d'usuaris poden visualitzar i editar aquest projecte.",
+    "editGroupsDescription": "Les persones d'aquests grups podran editar la informació del projecte.",
+    "viewGroupsDescription": "Les persones d'aquests grups podran cercar i visualitzar el projecte, si no s'ha compartit amb el públic.",
+    "errorMessage": "S'ha produït un error en actualitzar els col·laboradors del vostre projecte."
+  },
+  "content": {
+    "description": "Trieu quins grups d'usuaris poden visualitzar i editar aquest contingut",
+    "editGroupsDescription": "Les persones d'aquests grups podran editar la informació del contingut.",
+    "viewGroupsDescription": "Les persones d'aquests grups podran cercar i visualitzar el contingut, si no s'ha compartit amb el públic.",
+    "errorMessage": "S'ha produït un error en actualitzar els col·laboradors del vostre contingut."
+  },
+  "discussion": {
+    "description": "Trieu els grups d'usuaris que poden veure el tauler de debat i que en poden editar la informació.",
+    "editGroupsDescription": "Els membres d'aquests grups poden editar la informació del tauler de debat.",
+    "viewGroupsDescription": "Els membres d'aquests grups poden cercar i veure el tauler de debat (si no es comparteix públicament).",
+    "errorMessage": "S'ha produït un error en actualitzar els col·laboradors del vostre debat."
+  },
+  "site": {
+    "description": "Trieu quins grups d'usuaris poden visualitzar i editar aquest lloc.",
+    "editGroupsDescription": "Les persones d'aquests grups podran editar la informació del lloc.",
+    "viewGroupsDescription": "Les persones d'aquests grups podran cercar i visualitzar el lloc, si no s'ha compartit amb el públic.",
+    "errorMessage": "S'ha produït un error en actualitzar els col·laboradors del vostre lloc."
+  },
+  "template": {
+    "description": "Trieu quins grups d'usuaris poden visualitzar i editar aquesta plantilla.",
+    "editGroupsDescription": "Les persones d'aquests grups podran editar la informació de la plantilla.",
+    "viewGroupsDescription": "Les persones d'aquests grups podran cercar i visualitzar la plantilla si no s'ha compartit amb el públic.",
+    "errorMessage": "S'ha produït un error en actualitzar els col·laboradors de la vostra plantilla."
+  },
+  "survey": {
+    "description": "Trieu quins grups d'usuaris poden visualitzar i editar aquesta enquesta.",
+    "editGroupsDescription": "Les persones d'aquests grups podran editar la informació de l'enquesta.",
+    "viewGroupsDescription": "Les persones d'aquests grups podran cercar i visualitzar l'enquesta, si no s'ha compartit amb el públic.",
+    "errorMessage": "S'ha produït un error en actualitzar els col·laboradors de l'enquesta."
+  },
+  "event": {
+    "description": "Trieu quins grups d'usuaris poden visualitzar i editar aquest esdeveniment.",
+    "editGroupsDescription": "Les persones d'aquests grups podran editar la informació de l'esdeveniment.",
+    "viewGroupsDescription": "Les persones d'aquests grups podran cercar i visualitzar l'esdeveniment, si no s'ha compartit amb el públic.",
+    "errorMessage": "S'ha produït un error en actualitzar els col·laboradors de l'esdeveniment."
+  },
+  "newTab": "obre el perfil en una pestanya nova",
+  "supportingTeams": "Equips de suport",
+  "supportingTeamsDesc": "Aquests equips de suport anteriorment estaven enllaçats al vostre lloc. Els podeu continuar fent servir per compartir contingut amb els col·laboradors.",
+  "supportTeamsRemove": "Elimina l'equip",
+  "supportingTeamsRemoveError": "S'ha produït un error en desenllaçar l'equip. Poseu-vos en contacte amb un administrador.",
+  "supportingTeamsRemoveSuccess": "L'equip s'ha desenllaçat correctament.",
+  "view": {
+    "button": "Crea un grup de visualització",
+    "formLabel": "Grup de visualització nou",
+    "description": "Configureu un grup per facilitar l'ús compartit de contingut i la comunicació. Els membres del grup podran veure tot el contingut que s'hi comparteixi."
+  },
+  "edit": {
+    "button": "Crea un grup d'edició",
+    "formLabel": "Grup d'edició nou",
+    "description": "Configureu un grup per facilitar l'ús compartit de contingut i la comunicació. Els membres del grup podran veure i editar tot el contingut que s'hi comparteixi."
+  },
+  "groupCreateDisabledButtonTooltip": "No podeu crear un grup. És possible que estigueu en el nombre màxim de grups permesos o que no tingueu els privilegis necessaris per crear un grup.",
+  "groupCreateError": "S'ha produït un error en crear el grup.",
+  "notice": {
+    "label": "Alerta del formulari"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "dashboard": "Informācijas panelis",
+  "activityLogSection": {
+    "title": "Darbību žurnāls",
+    "table": {
+      "downloadAction": "Lejupielāde",
+      "downloadAllAction": "Lejupielādēt visu",
+      "downloadActionTooltip": "Lejupielādēt atlasītās aktivitātes",
+      "caption": "Neseno kļūdu tabula",
+      "columnHeaders": {
+        "datetime": "Datums",
+        "layer": "Slānis",
+        "message": "Ziņojums"
+      },
+      "noRecentErrors": "Nav nesenu kļūdu",
+      "expandText": "Skatīt vairāk",
+      "collapseText": "Skatīt mazāk"
+    }
+  }
+}

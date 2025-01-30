@@ -1,0 +1,15 @@
+{
+  "timeoutError": {
+    "message": "Veza sa serverom je istekla i podaci ne mogu da se prikažu.",
+    "title": "Isteklo je vreme servera"
+  },
+  "genericError": {
+    "message": "Podaci ne mogu biti prikazani.",
+    "title": "Nešto nije u redu"
+  },
+  "loading": "Učitavanje statistike",
+  "source": "Izvor:",
+  "dismiss": "Odbaci",
+  "moreInfo": "Više informacija",
+  "openInfo": "Otvori više informacija"
+}

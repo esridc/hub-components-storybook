@@ -1,0 +1,178 @@
+{
+  "projectsTitle": "Projekti",
+  "description": "Udružite se s projektima koji doprinose kako biste pratili napredak tijekom fokusiranog vremena ili prostora. Grupa udruženja inicijative upravlja potvrđenim udruženjima i neriješenim zahtjevima za udruženje.",
+  "subDescription": "Projekti s potvrđenim udruženjima pojavit će se na prikazu ove inicijative.",
+  "project": "projekt",
+  "initiative": "Inicijativa",
+  "helpStates": {
+    "noAccess": {
+      "heading": "Nema pristupa",
+      "message": "Nemate pristup za pregled grupe udruženja."
+    },
+    "missingGroup": {
+      "heading": "Nedostaje grupa udruženja",
+      "message": {
+        "overview": "Grupa udruženja će nadgledati koji će se projekti povezati i izvještavati o inicijativi.",
+        "members": "Članovi ove grupe moći će slati ili odobriti zahtjeve za udruženje."
+      },
+      "action": "Stvori grupu",
+      "formLabel": "Nova grupa udruženja",
+      "description": "Stvorite grupu udruženja za upravljanje vezama"
+    },
+    "requestsWaiting": {
+      "heading": "Nedostaje grupa udruženja",
+      "message": {
+        "overview": "Grupa udruženja će nadgledati koji će se projekti povezati i izvještavati o inicijativi.",
+        "members": "Članovi ove grupe moći će slati ili odobriti zahtjeve za udruženje.",
+        "requests": "Projektni zahtjevi na čekanju: {count}"
+      },
+      "action": "Stvori grupu",
+      "formLabel": "Nova grupa udruženja",
+      "description": "Stvorite grupu udruženja za upravljanje vezama"
+    }
+  },
+  "shared": {
+    "project": "projekt",
+    "associationGroup": "grupa udruženja",
+    "error": {
+      "title": "Nešto je pošlo po zlu",
+      "message": "Ako {type} ima udruženje, možda nemate dovoljnu razinu pristupa za slanje ili upravljanje udruženjem."
+    },
+    "facets": {
+      "access": {
+        "label": "Dijeljenje"
+      },
+      "status": {
+        "label": "Status",
+        "notStarted": "Nije započeto",
+        "inProgress": "U tijeku",
+        "onHold": "Na čekanju",
+        "complete": "Završeno"
+      },
+      "tags": {
+        "label": "Oznake"
+      }
+    },
+    "tabs": {
+      "projects": "Projekti",
+      "members": "Članovi",
+      "settings": "Postavke"
+    },
+    "disabledActionTooltip": "{type} može imati udruženje kojim mogu upravljati samo upravitelji grupe."
+  },
+  "createAssociationGroup": {
+    "defaultSummary": "Upravljajte stavkama povezanim s {name} {type} pomoću grupe udruženja."
+  },
+  "members": {
+    "facets": {
+      "role": {
+        "label": "Uloga",
+        "all": "Sve",
+        "manager": "Upravitelj",
+        "member": "Član"
+      },
+      "dateJoined": {
+        "label": "Datum pridruživanja"
+      }
+    },
+    "addMembers": {
+      "button": "Dodaj članove",
+      "modal": {
+        "title": "Dodaj članove",
+        "org": "Moja organizacija",
+        "community": "Moja zajednica",
+        "partner": "Moji partneri",
+        "world": "Svijet"
+      },
+      "notifications": {
+        "invited": "Pozivnica je poslana. Korisnici moraju prihvatiti da bi se pridružili",
+        "added": "Korisnik/ci dodan/i",
+        "notInvited": "Neki korisnici možda nemaju privilegije potrebne za pridruživanje grupi ili je grupa možda dosegla maksimalno ograničenje (512)"
+      }
+    },
+    "removeUsers": {
+      "button": "Ukloni",
+      "success": "Članovi su uspješno uklonjeni iz {groupName}.",
+      "error": "Jednog ili više korisnika nije bilo moguće ukloniti iz grupe."
+    },
+    "changeRole": {
+      "button": "Promijenite ulogu",
+      "member": "Član",
+      "memberHelperText": "Može dodavati i vidjeti sadržaj unutar grupe.",
+      "tooltipText": "Odznačite sebe i/ili vlasnika grupe",
+      "tooltipLabel": "Izjava o odricanju odgovornosti za ulogu",
+      "admin": "Upravitelj",
+      "adminHelperText": "Može dodati/ukloniti sadržaj i pozvati/ukloniti osobe (osim vlasnika).",
+      "success": "Odabrani članovi postali su grupa {role}.",
+      "error": "Nije moguće promijeniti ulogu za jednog ili više članova."
+    },
+    "stats": {
+      "total": {
+        "title": "Ukupno",
+        "trailingText": "Članovi"
+      },
+      "new": {
+        "title": "Novo",
+        "trailingText": "Posljednjih 30 dana"
+      }
+    }
+  },
+  "projects": {
+    "requestAssociation": {
+      "findProjects": "Pronađi projekte",
+      "sendRequest": "Pošalji zahtjev",
+      "success": {
+        "title": "Uspjeh",
+        "message": "Poslan zahtjev za udruženjem: {count}"
+      },
+      "alreadyRequesting": {
+        "title": "Provjeri udruženja",
+        "message": "Neki odabiri već su zatražili udruženje. Poslan novi zahtjev za udruženjem: {count}"
+      },
+      "catalog": {
+        "myContent": "Moj sadržaj",
+        "favorites": "Favoriti",
+        "organization": "Organizacija",
+        "world": "Svijet (javno)"
+      },
+      "collection": {
+        "projects": "Projekti"
+      }
+    },
+    "acceptAssociation": {
+      "label": "Prihvati",
+      "success": {
+        "title": "Uspjeh",
+        "message": "Prihvaćeno udruženje s {requestor}"
+      }
+    },
+    "cancelRequest": {
+      "label": "Otkaži zahtjev",
+      "success": {
+        "title": "Uspjeh",
+        "message": "Zahtjev za udruženjem otkazan"
+      }
+    },
+    "breakAssociation": {
+      "label": "Odspoji",
+      "success": {
+        "title": "Udruženje prekinuto",
+        "message": "Isključili smo ovu stavku iz prethodnog udruženja. Međutim, ne možemo poništiti odluku s druge strane, tako da je i dalje možete vidjeti u dolaznim zahtjevima."
+      }
+    },
+    "associationsGallery": {
+      "sources": "Stanje",
+      "catalog": {
+        "associated": "Udruženo",
+        "requesting": "Dolazni zahtjevi",
+        "pending": "Odlazni zahtjevi"
+      },
+      "collection": {
+        "projects": "Projekti"
+      }
+    }
+  },
+  "notice": {
+    "label": "Stvori upozorenje"
+  }
+}

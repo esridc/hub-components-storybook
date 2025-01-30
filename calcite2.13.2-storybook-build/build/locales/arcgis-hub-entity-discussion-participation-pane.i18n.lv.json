@@ -1,0 +1,82 @@
+{
+  "title": "Līdzdalība",
+  "subtitle": "Iestatiet diskusiju paneļa redzamību (kas var skatīt), ritiniet uz leju, lai iestatītu, kas var rediģēt paneļa informāciju, un pēc tam iestatiet dalību un regulēšanu ar kanāliem.",
+  "channelTitle": "Līdzdalības kanāls ir iestatīts",
+  "channelDescription": "Šis kanāls kontrolē, kas var pievienot, skatīt un moderēt ierakstus šajā diskusiju panelī.",
+  "addChannelsTitle": "Iestatīt kanālu",
+  "addChannelsDescription": "Kanāli nosaka, kurš var pievienot panelim ziņas. Tie var būt atvērti grupām, organizācijai vai sabiedrībai, un tos var lietot daudzās diskusijās. Kanāli arī nosaka, kurš var moderēt. Iestatiet bloķētus vārdus automātiskai regulēšanai kanālā.",
+  "privateChannelTitle": "Privātais kanāls ir iestatīts",
+  "privateChannelDescription": "Jūs nevarat redzēt šim diskusiju panelim piešķirto privāto kanālu. Kanālu varat noņemt un izvēlēties esošu kanālu vai izveidot jaunu.",
+  "removeChannelConfirmationMessage": "Šajā diskusiju panelī vairs netiks rādītas ziņas. Kanālu var pievienot, ja šis kanāls ir noņemts.",
+  "headingChannelEdit": "Jūs rediģējat kanālu",
+  "headingChannelView": "Jūs skatāt kanālu",
+  "headingChannelCreate": "Jūs izveidojat kanālu",
+  "buttons": {
+    "browse": "Pārlūkot kanālus",
+    "new": "Jauns kanāls",
+    "removeChannel": "Noņemt kanālu",
+    "cancel": "Atcelt"
+  },
+  "alerts": {
+    "label": "Veidlapas brīdinājums",
+    "set": {
+      "title": "Izdevās. Kanāls ir iestatīts."
+    },
+    "removed": {
+      "title": "Kanāls noņemts",
+      "message": "Izvēlieties vai izveidojiet dalības kanālu."
+    },
+    "error": {
+      "title": "Neizdevās. Kanāls netika iestatīts."
+    }
+  },
+  "galleryPickerTitle": "Izvēlieties kanālu",
+  "channelsLabel": "Kanāli",
+  "accessLabel": "Piekļuve",
+  "optionPublicLabel": "Publisks",
+  "optionOrganizationLabel": "Organizācija",
+  "optionPrivateLabel": "Privāts",
+  "viewChannel": "Skatīt kanālu",
+  "editChannel": "Rediģēt kanālu",
+  "save": "Saglabāt",
+  "removeChannel": "Noņemt kanālu",
+  "groupPicker": {
+    "facet": {
+      "label": "No",
+      "myGroups": "Manas grupas",
+      "myOrganization": "Mana organizācija",
+      "myCommunity": "Mana kopiena"
+    }
+  },
+  "editGroupButtonText": "Pievienot rediģēšanas grupas",
+  "viewGroupButtonText": "Pievienot skatīšanas grupas",
+  "viewGroups": {
+    "header": "Kas var skatīt",
+    "description": "Personas, kas var skatīt paneli (bet ne publicēt tajā ziņas); ziņu izlikšanu iestata zemāk norādītie kanāli."
+  },
+  "editGroups": {
+    "header": "Kurš var rediģēt",
+    "description": "Grupas dalībnieki darbvietā var rediģēt paneļa informāciju."
+  },
+  "aboutChannelsNotice": {
+    "title": "Kanālu ieviešana",
+    "message": "Kanāli nav grupas, taču var tās iekļaut. Tie nosaka, kas var publicēt ziņas un moderēt.",
+    "action": "Plašāka informācija par kanāliem"
+  },
+  "nonPrivateChannelNotice": {
+    "title": "Kanālu nevar rediģēt",
+    "message": "To var rediģēt tikai šī kanāla moderatori. Ja nepieciešams, sazinieties ar kanāla īpašnieku vai organizācijas administratoru, lai pievienotu. Varat arī noņemt šo kanālu, pievienot esošo (kura moderators esat) vai izveidot jaunu."
+  },
+  "privateChannelNotice": {
+    "title": "Kanālu nevar rediģēt",
+    "message": "To var rediģēt tikai šī kanāla moderatori. Ja nepieciešams, sazinieties ar kanāla īpašnieku, lai to pievienotu. Varat arī noņemt šo kanālu, pievienot esošo (kura moderators esat) vai izveidot jaunu."
+  },
+  "participate": {
+    "header": "Kas var piedalīties un kas var moderēt"
+  },
+  "org": "Organizācija",
+  "private": "Privāts",
+  "public": "Publisks",
+  "unnamed": "Kanāls bez nosaukuma",
+  "groupNotFound": "Grupa nav atrasta"
+}

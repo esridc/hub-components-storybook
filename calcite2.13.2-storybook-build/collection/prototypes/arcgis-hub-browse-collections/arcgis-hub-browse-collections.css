@@ -1,0 +1,11 @@
+:host {
+  display: block;
+}
+section {
+  margin-top: 1rem;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

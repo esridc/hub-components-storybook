@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "Kategorie",
+        "noCategoriesNotice": {
+          "body": "Tato organizace ještě nemá žádné kategorie.",
+          "link": "Nastavit kategorie"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "Obsah",
+      "selectionMode": {
+        "dynamic": {
+          "label": "Dynamický"
+        },
+        "manual": {
+          "label": "Ručně"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "Organizace"
+        },
+        "collection": {
+          "sites": "Weby",
+          "projects": "Projekty",
+          "initiatives": "Iniciativy"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "Organizace"
+        },
+        "collection": {
+          "events": "Události"
+        }
+      },
+      "access": {
+        "label": "Sdílení",
+        "private": {
+          "label": "Soukromé",
+          "description": "Filtrování podle obsahu je k dispozici pouze vám a uživatelům se skupinovým přístupem."
+        },
+        "org": {
+          "label": "Organizace",
+          "description": "Filtrování podle obsahu je k dispozici pouze členům vaší organizace."
+        },
+        "public": {
+          "label": "Veřejné",
+          "description": "Filtrování podle obsahu je k dispozici všem uživatelům."
+        }
+      },
+      "tags": {
+        "label": "Klíčová slova"
+      },
+      "cardsShown": {
+        "label": "Zobrazené karty"
+      }
+    },
+    "appearance": {
+      "label": "Vzhled",
+      "titleHeading": {
+        "label": "Nadpis názvu",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "Dle WCAG G141 zlepšují vnořené nadpisy přístupnost."
+      },
+      "corners": {
+        "label": "Rohy",
+        "square": {
+          "label": "Hranaté"
+        },
+        "round": {
+          "label": "Zaoblené"
+        }
+      },
+      "shadow": {
+        "label": "Stín",
+        "none": {
+          "label": "Vypnuto"
+        },
+        "low": {
+          "label": "Slabý"
+        },
+        "medium": {
+          "label": "Střední"
+        },
+        "heavy": {
+          "label": "Silný"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "Zobrazit další informace"
+      },
+      "layout": {
+        "label": "Rozvržení",
+        "list": {
+          "label": "Seznam"
+        },
+        "map": {
+          "label": "Mapa"
+        },
+        "calendar": {
+          "label": "Kalendář"
+        }
+      }
+    },
+    "options": {
+      "label": "Možnosti",
+      "openIn": {
+        "label": "Otevřít v...",
+        "same": {
+          "label": "Stejná karta"
+        },
+        "new": {
+          "label": "Nová karta"
+        },
+        "notice": {
+          "title": "Tip pro přístupnost:",
+          "body": "Dle techniky G200 pro WCAG 2.0 se otevírání odkazů na nových kartách či v nových oknech nedoporučuje.",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "Další informace o WCAG 2.0 G200"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "Sdílení",
+      "public": {
+        "label": "Veřejné"
+      },
+      "private": {
+        "label": "Soukromé"
+      },
+      "organization": {
+        "label": "Organizace"
+      }
+    },
+    "from": {
+      "label": "Od",
+      "myOrganization": {
+        "label": "Moje organizace"
+      },
+      "myContent": {
+        "label": "Můj obsah"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "Události",
+      "collections": {
+        "event": {
+          "label": "Události"
+        }
+      }
+    },
+    "item": {
+      "label": "Obsah",
+      "collections": {
+        "item": {
+          "label": "Obsah"
+        }
+      }
+    }
+  }
+}

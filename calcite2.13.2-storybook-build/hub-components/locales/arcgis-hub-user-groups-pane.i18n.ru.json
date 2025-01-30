@@ -1,0 +1,33 @@
+{
+  "groups": "Мои группы",
+  "addContentButtonText": "Создать новую",
+  "role": "Роль",
+  "owner": "Владелец",
+  "updated": "Обновлено",
+  "type": "Тип",
+  "sharedUpdate": "Общая группа обновления",
+  "viewOnly": "Группа только для просмотра",
+  "actionLinks": {
+    "view": "Просмотр",
+    "edit": "Изменить",
+    "ariaEdit": "Редактировать {title}",
+    "ariaView": "Просмотреть {title}"
+  },
+  "facets": {
+    "access": {
+      "label": "Видимость",
+      "options": {
+        "public": "Для всех (общедоступный)",
+        "org": "Организация",
+        "private": "Для меня"
+      }
+    },
+    "type": {
+      "label": "Типы",
+      "options": {
+        "sharedUpdate": "Общедоступное обновление",
+        "opendata": "Открытые данные"
+      }
+    }
+  }
+}

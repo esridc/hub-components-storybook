@@ -1,0 +1,43 @@
+{
+  "content": "Content",
+  "myContent": "My Content",
+  "editableContent": "Editable Content",
+  "addContentButtonText":"Create new",
+  "type": "Type",
+  "sharedUpdate": "Shared Update Group",
+  "viewOnly": "View Only Group",
+  "owner": "Owner",
+  "updated": "Updated",
+  "tags": "Tags",
+  "dateCreated": "Created",
+  "dateUpdated": "Modified",
+  "actionLinks": {
+    "view": "View",
+    "edit": "Edit",
+    "ariaEdit": "Edit {title}",
+    "ariaView": "View {title}"
+  },
+   "facets": {
+      "content": {
+        "label": "Content",
+        "myContent": "Content I own",
+        "editableContent": "Content I can edit",
+        "all": "All Content"
+      },
+      "access": {
+        "label": "From"
+      },
+      "type": {
+        "label": "Types"
+      },
+      "tags": {
+        "label": "Tags"
+      },
+      "categories": {
+        "label": "Categories"
+      },
+      "modified": {
+        "label": "Modified"
+      }
+    }
+}

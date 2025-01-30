@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "Επεξεργασία",
+    "fields": {
+      "label": {
+        "label": "Ετικέτα",
+        "requiredMessage": "Απαιτείται ετικέτα",
+        "maxLengthMessage": "Η ετικέτα δεν πρέπει να υπερβαίνει τους {maxLength} χαρακτήρες"
+      }
+    },
+    "apply": "Εφαρμογή"
+  },
+  "showItem": "Εμφάνιση στοιχείου ακόλουθης λίστας: {itemLabel}",
+  "hideItem": "Απόκρυψη στοιχείου ακόλουθης λίστας: {itemLabel}",
+  "editItem": "Επεξεργασία στοιχείου ακόλουθης λίστας: {itemLabel}"
+}

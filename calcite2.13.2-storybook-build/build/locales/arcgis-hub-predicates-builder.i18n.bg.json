@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "Редактиране на групи",
+        "viewGroups": "Преглед на групи"
+      },
+      "facet": {
+        "label": "От",
+        "myGroups": "Моите групи",
+        "myOrganization": "Моята организация",
+        "myCommunity": "Моята общност"
+      }
+    }
+  },
+  "property": {
+    "label": "Параметър",
+    "requiredError": "Изисква се параметър"
+  },
+  "operator": {
+    "label": "Критерии",
+    "requiredError": "Изисква се критерий"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "Тип"
+    },
+    "group": {
+      "default": "Групи"
+    },
+    "occurrence": {
+      "default": "Появяване"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "е някой от",
+      "group": "е споделен с някой от"
+    },
+    "isAll": {
+      "default": "е от всички",
+      "group": "е споделен с висички от"
+    },
+    "isExactly": {
+      "default": "е точно",
+      "occurrence": "Е"
+    },
+    "isNot": {
+      "default": "Не е",
+      "type": "не е никой от",
+      "group": "не е споделен с никой от"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "Групи",
+      "requiredError": "Изискват се групи"
+    },
+    "type": {
+      "label": "Типове",
+      "requiredError": "Изискват се типове",
+      "app": {
+        "label": "Приложения"
+      },
+      "content": {
+        "label": "Съдържание"
+      },
+      "dataset": {
+        "label": "Набори от данни"
+      },
+      "discussion": {
+        "label": "Дискусии"
+      },
+      "document": {
+        "label": "Документи"
+      },
+      "event": {
+        "label": "Събития"
+      },
+      "feedback": {
+        "label": "Обратна връзка"
+      },
+      "initiative": {
+        "label": "Инициативи"
+      },
+      "map": {
+        "label": "Карти"
+      },
+      "project": {
+        "label": "Проекти"
+      },
+      "site": {
+        "label": "Сайтове"
+      },
+      "template": {
+        "label": "Шаблони"
+      }
+    },
+    "occurrence": {
+      "label": "Появяване",
+      "requiredError": "Изисква се появяване",
+      "upcoming": "Предстоящи",
+      "past": "Минали",
+      "inProgress": "В процес на изпълнение"
+    }
+  }
+}

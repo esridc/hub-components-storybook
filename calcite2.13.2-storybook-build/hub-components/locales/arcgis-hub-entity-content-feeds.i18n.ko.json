@@ -1,0 +1,81 @@
+{
+  "tabTitle": "피드 구성",
+  "learn": "허브 피드에 대해 알아보기",
+  "loadingLabel": "불러오는 중",
+  "enableFeedsToggle": {
+    "label": "피드 활성화",
+    "privateNotice": "피드를 활성화하려면 먼저 허브 사이트를 \"공개\"로 설정해야 합니다.",
+    "emptyPublicCatalog": {
+      "message": "피드를 활성화하려면 먼저 카탈로그에 공개 콘텐츠를 추가해야 합니다.",
+      "button": "카탈로그 보기"
+    },
+    "grouplessCatalog": {
+      "message": "피드를 활성화하려면 먼저 카탈로그를 구성해야 합니다.",
+      "button": "카탈로그 구성"
+    }
+  },
+  "gettingStartedNotice": {
+    "title": "시작하기",
+    "exampleMessage": "리터럴(\"VALUE\") 또는 템플릿(\"{{TEMPLATE_VALUE}}\") 값을 사용하여 JSON 편집기에서 키 또는 값을 강조하고 업데이트합니다.",
+    "previewMessage": "\"미리 보기\" 토글을 사용하여 변경 사항을 미리 볼 수 있습니다. 자세한 내용은 <catalogFederationLink>카탈로그 페더레이션 도움말 문서</catalogFederationLink>를 참고하세요."
+  },
+  "aboutFeedsNotice": {
+    "message": "허브 피드를 통해 공개 오픈데이터를 쉽게 접근하고 재사용할 수 있게 만드세요.",
+    "link": "허브 피드에 대해 알아보기"
+  },
+  "feedsEditorSection": {
+    "title": "피드",
+    "formatSelectLabel": "피드 유형 선택",
+    "uneditableAttributesIntro": "다음 속성은 편집할 수 없습니다.",
+    "edit": "편집",
+    "preview": "미리 보기",
+    "selectContentNotice": "미리 볼 콘텐츠를 선택합니다.",
+    "invalidJsonEditorWarning": "유효하지 않은 JSON입니다. 저장하기 전에 오류를 수정하세요.",
+    "invalidJsonPreviewWarning": "유효하지 않은 JSON은 미리 볼 수 없습니다. 오류를 수정하세요.",
+    "errorPreviewingWarning": "오류가 발생했습니다. 연결을 확인하고 다시 시도하세요. 문제가 계속되면 허브 지원을 통해 버그를 기록하세요."
+  },
+  "toolsSection": {
+    "title": "도구",
+    "verification": "검증",
+    "previewSampleData": {
+      "label": "샘플 데이터 미리 보기",
+      "pickerFacets": {
+        "type": "유형",
+        "tags": "태그",
+        "categories": "범주",
+        "sharing": "공유",
+        "dateUpdated": "업데이트일"
+      }
+    },
+    "copyableInputLabel": "피드 접근 URL"
+  },
+  "dcat-us": {
+    "1.1": {
+      "title": "DCAT-US 1.1",
+      "description": "DCAT를 사용하면 기관이 데이터 제공을 표준화할 수 있어 사용자가 페더레이션 원본을 손쉽게 분석할 수 있습니다. 프로젝트 오픈데이터에서 설정한 기본 구성인 <dcatUsSchemaLink>DCAT 스키마</dcatUsSchemaLink>를 사용하거나 특정 필드/속성을 직접 구성할 수 있습니다. 사이트 관리자는 또한 DCAT 구성을 더 추가할 수 있으며 <catalogFederationLink>DCAT 및 기타 외부 카탈로그와 데이터 페더레이션</catalogFederationLink>에 관한 문서를 읽을 수도 있습니다.",
+      "uneditableAttributes": "@type, landingPage, webService, contactPoint['@type'].",
+      "verificationLabel": "<dcatUsVerificationLink>프로젝트 오픈데이터 유효성 검사</dcatUsVerificationLink>에 사이트의 DCAT URL을 붙여넣어 DCAT 피드를 확인할 수 있습니다."
+    }
+  },
+  "dcat-ap": {
+    "2.1.1": {
+      "title": "DCAT-AP 2.1.1",
+      "description": "유럽연합 집행위원회에서 제정한 DCAT-AP는 유럽 데이터 카탈로그 전체에 적용되는 표준 메타데이터 교환 형식입니다. ArcGIS Hub는 사용자가 콘텐츠 메타데이터의 세부 정보를 편집하거나 카탈로그에 새 공개 콘텐츠를 추가할 때 자동으로 사이트의 DCAT-AP 피드를 생성하고 업데이트합니다. 해당 피드는 ArcGIS Online에서 유지관리되는 메타데이터를 사용하므로 개별 DCAT-AP 메타데이터를 수동으로 생성할 필요가 없습니다.<lineBreak></lineBreak><lineBreak></lineBreak>이 편집기를 사용하면 ArcGIS Hub의 기본 <dcatApSchemaLink>DCAT-AP 스키마</dcatApSchemaLink> 구성을 유지하거나 특정 필드/속성을 직접 구성할 수 있습니다. DCAT-AP 필드/속성을 추가할 수도 있습니다. 자세한 내용은 <catalogFederationLink>DCAT 및 기타 외부 카탈로그와 데이터 페더레이션</catalogFederationLink>에 관한 ArcGIS Hub의 문서를 참고하세요.",
+      "uneditableAttributes": "@type, @id, dcat:contactPoint['@id'], dcat:contactPoint['@type'], dct:publisher, dcat:theme, dct:accessRights, dcat:keyword, dct:provenance, dct:issued, dct:language",
+      "verificationLabel": "사이트의 DCAT URL을 <dcatApVerificationLink>유럽연합 집행위원회 상호 운용성 테스트 베드</dcatApVerificationLink>에 붙여넣어 DCAT 피드를 확인할 수 있습니다."
+    }
+  },
+  "rss": {
+    "2.0": {
+      "title": "RSS 2.0",
+      "description": "<rssAboutLink>RSS 2</rssAboutLink>는 웹 콘텐츠 신디케이션 형식이며 <xmlSpecLink>XML 1.0 사양</xmlSpecLink>을 따릅니다. 이 편집기를 사용하면 ArcGIS Hub의 기본 구성을 유지하거나 특정 필드/속성을 직접 구성할 수 있습니다. 자세한 내용은 <catalogFederationLink>DCAT 및 기타 외부 카탈로그와 데이터 페더레이션</catalogFederationLink>에 관한 ArcGIS Hub의 문서를 참고하세요.",
+      "verificationLabel": "사이트의 RSS URL을 W3 <rssVerificationLink>피드 유효성 검사기</rssVerificationLink>에 전달하여 RSS 피드를 검증할 수 있습니다."
+    }
+  },
+  "saveButton": "저장",
+  "alertMessages": {
+    "success": "편집 내용이 저장됨",
+    "error": "편집 내용을 저장하는 동안 오류 발생"
+  },
+  "formAlert": "양식 알림"
+}

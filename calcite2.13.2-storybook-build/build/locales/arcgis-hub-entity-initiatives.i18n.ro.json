@@ -1,0 +1,87 @@
+{
+  "initiatives": "Inițiative",
+  "description": "Asociați cu inițiative pentru a contribui la eforturile pe termen lung sau la scară mare. Colaboratorii proiectului pot gestiona asociațiile confirmate și solicitările de asociere în așteptare. Inițiativele cu asocieri confirmate vor apărea în vizualizarea proiectului. ",
+  "shared": {
+    "error": {
+      "title": "Ceva nu a mers bine",
+      "message": "Nu am reușit să finalizăm această sarcină. Încercați din nou."
+    },
+    "facets": {
+      "access": {
+        "label": "Partajare"
+      },
+      "status": {
+        "label": "Stare",
+        "notStarted": "Neînceput",
+        "inProgress": "În curs",
+        "onHold": "În așteptare",
+        "complete": "Finalizat"
+      },
+      "tags": {
+        "label": "Etichete"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "{currentConfirmedAndOutgoingRequests}/{maxCurrentAndOutgoingRequestsAllowed} confirmate + solicitări soluționate",
+      "tooltip": "Pentru a trimite solicitări, deconectați asociațiile existente și/sau solicitările soluționate"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "Găsiți inițiative",
+    "sendRequest": "Trimitere solicitare",
+    "success": {
+      "title": "Succes",
+      "message": "Solicitări de asociere trimise: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "Verificare asocieri",
+      "message": "Unele selecții au solicitat deja asocierea. Noi solicitări de asociere trimise: {count}"
+    },
+    "catalog": {
+      "myContent": "Resursele mele",
+      "favorites": "Preferințe",
+      "organization": "Organizația mea",
+      "partners": "Partenerii mei",
+      "community": "Comunitatea mea"
+    },
+    "collection": {
+      "initiatives": "Inițiative"
+    }
+  },
+  "acceptAssociation": {
+    "label": "Acceptare",
+    "limitReachedTooltip": "Pentru a accepta, deconecta asociațiile existente și/sau solicitările soluționate",
+    "success": {
+      "title": "Succes",
+      "message": "Asociere acceptată cu {requestor}"
+    }
+  },
+  "cancelRequest": {
+    "label": "Anulare solicitare",
+    "success": {
+      "title": "Succes",
+      "message": "Solicitare de asociere anulată"
+    }
+  },
+  "breakAssociation": {
+    "label": "Deconectare",
+    "success": {
+      "title": "Asociere întreruptă",
+      "message": "Am deconectat acest element de la asocierea sa anterioară. Cu toate acestea, nu putem inversa decizia din cealaltă parte, așadar puteți vedea încă solicitările primite."
+    }
+  },
+  "associationsGallery": {
+    "sources": "Stare",
+    "catalog": {
+      "associated": "Asociată",
+      "requesting": "Solicitări primite",
+      "pending": "Solicitări soluționate"
+    },
+    "collection": {
+      "initiatives": "Inițiative"
+    }
+  },
+  "notice": {
+    "label": "Alertă formular"
+  }
+}

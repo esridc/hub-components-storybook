@@ -1,0 +1,33 @@
+{
+  "title": "Verzamelingen",
+  "actions": {
+    "label": "Opties",
+    "show": "Weergeven",
+    "hide": "Verbergen",
+    "rename": "Hernoemen"
+  },
+  "formAlert": "Formulierwaarschuwing",
+  "alertMessages": {
+    "success": "De bewerkingen zijn opgeslagen",
+    "error": "Er is een fout opgetreden bij het opslaan van bewerkingen"
+  },
+  "collectionRenameModal": {
+    "title": "Collectie hernoemen",
+    "fieldLabel": "Collectielabel",
+    "requiredMessage": "Collectielabel vereist",
+    "apply": "Toepassen",
+    "maxLengthMessage": "Label verzameling mag niet langer zijn dan 50 tekens"
+  },
+  "collections": {
+    "dataset": "Gegevens",
+    "site": "Sites",
+    "document": "Documenten",
+    "appAndMap": "Apps en kaarten"
+  },
+  "saveButton": "Opslaan",
+  "sections": {
+    "collectionConfiguration": {
+      "title": "Configuratie verzameling"
+    }
+  }
+}

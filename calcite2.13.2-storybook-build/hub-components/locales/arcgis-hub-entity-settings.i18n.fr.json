@@ -1,0 +1,53 @@
+{
+  "settings": "Paramètres",
+  "formDisabledTooltip": "Vous n’êtes pas autorisé à apporter des modifications à cet élément {type}.",
+  "delete": {
+    "project": "Supprimer ce projet",
+    "initiative": "Supprimer cette initiative",
+    "site": "Supprimer ce site",
+    "discussion": "Supprimer cette discussion",
+    "content": "Supprimer ce contenu",
+    "page": "Supprimer cette page",
+    "group": "Supprimer ce groupe",
+    "initiativeTemplate": "Supprimer ce modèle d’initiative",
+    "template": "Supprimer ce modèle",
+    "survey": "Supprimer cette enquête",
+    "desc": {
+      "project": "La suppression de ce projet ne peut pas être annulée.",
+      "initiative": "La suppression de cette initiative ne peut pas être annulée.",
+      "site": "La suppression de ce site ne peut pas être annulée.",
+      "discussion": "La suppression de cette discussion ne peut pas être annulée.",
+      "content": "La suppression de ce contenu ne peut pas être annulée.",
+      "page": "La suppression de cette page ne peut pas être annulée.",
+      "group": "La suppression de ce groupe ne peut pas être annulée.",
+      "initiativeTemplate": "La suppression de ce modèle d’initiative ne peut pas être annulée.",
+      "template": "La suppression de ce modèle ne peut pas être annulée.",
+      "survey": "La suppression de cette enquête ne peut pas être annulée."
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "project": "Supprimer le projet",
+      "initiative": "Supprimer l’initiative",
+      "site": "Supprimer le site",
+      "discussion": "Supprimer la discussion",
+      "content": "Supprimer le contenu",
+      "page": "Supprimer la page",
+      "group": "Supprimer le groupe",
+      "initiativeTemplate": "Supprimer le modèle d’initiative",
+      "template": "Supprimer le modèle",
+      "survey": "Supprimer l’enquête"
+    },
+    "content": "Voulez-vous vraiment supprimer :",
+    "delete": "Supprimer",
+    "cancel": "Annuler"
+  },
+  "sidePanel": {
+    "content": {
+      "extractNotice": {
+        "title": "La fonctionnalité \"Extraire\" modifie les paramètres du service.",
+        "message": "Les autres éléments qui référencent le service sont également impactés. Pour plus de détails, consultez la rubrique <docLink>Exporter des données à partir de couches d’entités hébergées</docLink>"
+      }
+    }
+  }
+}

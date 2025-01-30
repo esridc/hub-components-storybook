@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "Mit indhold",
+    "livingAtlas": "Living Atlas",
+    "organization": "Min organisation",
+    "world": "Verden (offentligt)"
+  },
+  "collection": {
+    "appsAndMaps": "Apps og kort",
+    "feedback": "Feedback"
+  },
+  "facets": {
+    "type": "Type",
+    "tags": "Nøgleord",
+    "categories": "Kategorier",
+    "modified": "Ændret"
+  },
+  "pickerTitle": "Vælg indhold",
+  "height": "Højde (px)",
+  "isScrollable": "Rulbar",
+  "errors": {
+    "heightMinimum": "Værdi skal være et positivt tal.",
+    "heightMaximum": "Værdi skal være mindre end eller lig med 2000 px.",
+    "urlError": "Skal være en gyldig URL."
+  },
+  "success": {
+    "urlSuccess": "URL er indlæst."
+  },
+  "shouldApplyBreakpoints": {
+    "label": "Anvend i stedet indstillinger efter enhedsbrudpunkter"
+  },
+  "viewportAll": {
+    "label": "Standard",
+    "description": "Indstillinger anvendt på alle skærmstørrelser"
+  },
+  "viewportMobile": {
+    "label": "Mobil",
+    "description": "Indstillinger anvendt på skærme, der er 360 px eller mere i bredden"
+  },
+  "viewportTablet": {
+    "label": "Tablet",
+    "description": "Indstillinger anvendt på skærme, der er 560 px eller mere i bredden"
+  },
+  "viewportDesktop": {
+    "label": "Pc",
+    "description": "Indstillinger anvendt på skærme, der er 980 px eller mere i bredden"
+  },
+  "sourceLabel": "Vælg indlejringstype",
+  "contentLabel": "ArcGIS-indhold",
+  "externalLabel": "Ekstern URL",
+  "contentDescription": "Vælg mellem eksisterende kort, scener, applikationer, undersøgelser og dokumentlinks, der er tilgængelige for dig.",
+  "externalDescription": "Angiv en URL, der skal indlejres. Bemærk, at visse domæner ikke tillader indlejring og muligvis ikke vises som forventet."
+}

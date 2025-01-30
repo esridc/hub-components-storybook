@@ -1,0 +1,13 @@
+{
+  "csv": "CSV",
+  "shapefile": "Shapefil",
+  "sqlite": "SQLite-geodatabase",
+  "geoPackage": "Geopakke",
+  "filegdb": "Filfeaturesdatabase",
+  "featureCollection": "Featuresamling",
+  "geojson": "GeoJSON",
+  "excel": "Excel",
+  "json": "JSON",
+  "createReplicaErrorMessage": "Opprett replika av intern feil. Prøv igjen om en time eller ta kontakt med innholdsadministratoren.",
+  "errorHeader": "Nedlastingen ble ikke fullført. Prøv på nytt."
+}

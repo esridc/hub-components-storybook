@@ -1,0 +1,76 @@
+{
+  "addMetric": "Add metric",
+  "title": "Metrics",
+  "featured": "Featured",
+  "optionsLabel": "{name} Options",
+  "metricDescription": "A measurable value used to track project progress, based on either static (e.g., historical) or dynamic (e.g., real-time) data.",
+  "metricCount": {
+    "label": "{currentCount} / {totalCountAllowed} metrics",
+    "tooltip": "To add metrics, delete some of the existing set"
+  },
+  "visible": {
+    "title": "Visible",
+    "noMetrics": "No metrics are in this section."
+  },
+  "hidden": {
+    "title": "Hidden",
+    "description": "These metrics only show to those with access to this workspace.",
+    "noMetrics": "No metrics are in this section."
+  },
+  "project": {
+    "featured": {
+      "description": "You can have 4 featured metrics. These display on the Overview of your live project."
+    },
+    "visible": {
+      "description": "Visible metrics are displayed under the Metrics tab of your live project."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Metrics will match the sharing level of the project. Hidden metrics may still be available by API call.",
+        "metricsDockLink": "Learn about setting up metrics"
+      }
+    }
+  },
+  "initiative": {
+    "featured": {
+      "description": "You can have 4 featured metrics. These display on the Overview of your live initiative."
+    },
+    "visible": {
+      "description": "Visible metrics are displayed under the Metrics tab of your live project."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Metrics will match the sharing level of the initiative. Hidden metrics may still be available by API call.",
+        "metricsDockLink": "Learn about setting up metrics"
+      }
+    }
+  },
+  "metricNumber": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4"
+  },
+  "actions": {
+    "delete": "Delete",
+    "edit": "Edit",
+    "featured": "Feature",
+    "removeFeatured": "Remove featured",
+    "show": "Move to visible",
+    "hide": "Move to hidden"
+  },
+  "editor": {
+    "heading": "New metric",
+    "description": "By default, metrics will automatically be hidden so that members of your workspace can see them."
+  },
+  "deleteMetricModal": {
+    "heading": "Delete metric",
+    "content": "Are you sure you want to delete:",
+    "cancel": "Cancel",
+    "delete": "Delete"
+  },
+  "sidePanel": {
+    "definitions": "Definitions",
+    "preview": "Preview"
+  }
+}

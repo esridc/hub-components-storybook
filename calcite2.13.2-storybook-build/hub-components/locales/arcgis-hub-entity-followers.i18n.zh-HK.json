@@ -1,0 +1,66 @@
+{
+  "followers": "追隨者",
+  "tabs": {
+    "followers": "追隨者",
+    "settings": "設定"
+  },
+  "addFollowers": {
+    "label": "新增追隨者"
+  },
+  "emptyState": {
+    "message": "網站沒有追隨者群組",
+    "action": "建立追隨者群組"
+  },
+  "createFollowersGroup": {
+    "formDescription": "設定群組，促進內容分享與通訊",
+    "defaultSummary": "此追隨者群組能讓成員更輕鬆地分享內容並相互溝通"
+  },
+  "restrictedAccessState": {
+    "message": "您沒有追隨者群組的檢視存取權。",
+    "action": "請求存取權"
+  },
+  "stats": {
+    "total": {
+      "title": "總計",
+      "trailingText": "追隨者"
+    },
+    "new": {
+      "title": "新建",
+      "trailingText": "最近 30 天"
+    }
+  },
+  "addMembers": {
+    "button": "新增成員",
+    "modal": {
+      "title": "新增成員",
+      "org": "我的組織",
+      "community": "我的社群",
+      "partner": "我的合作夥伴",
+      "world": "世界"
+    },
+    "notifications": {
+      "invited": "已傳送邀請。 使用者必須接受才能加入",
+      "added": "已新增使用者",
+      "notInvited": "某些使用者可能沒有加入群組所需的權限，或可能達到群組最大限制 (512)"
+    }
+  },
+  "removeUsers": {
+    "button": "移除",
+    "success": "已成功從 {groupName} 移除成員。",
+    "error": "無法從群組移除一或多個使用者。"
+  },
+  "changeRole": {
+    "button": "變更角色",
+    "member": "成員",
+    "memberHelperText": "可新增和查看群組中的內容。",
+    "tooltipText": "取消選擇您自己和/或群組擁有者",
+    "tooltipLabel": "角色免責聲明",
+    "admin": "管理員",
+    "adminHelperText": "可新增/移除內容和邀請/移除人員 (擁有者除外)。",
+    "success": "選擇的成員成為群組 {role}。",
+    "error": "無法變更一或多名成員的角色。"
+  },
+  "notice": {
+    "label": "表格警示"
+  }
+}

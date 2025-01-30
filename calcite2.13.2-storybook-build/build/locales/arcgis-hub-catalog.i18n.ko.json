@@ -1,0 +1,16 @@
+{
+  "all": "All",
+  "source": "원본",
+  "targetEntity": {
+    "item": "항목",
+    "group": "그룹",
+    "user": "사용자",
+    "portalUser": "포털 사용자",
+    "communityUser": "커뮤니티 사용자",
+    "groupMember": "그룹 구성원",
+    "event": "이벤트",
+    "channel": "채널",
+    "discussionPost": "게시물",
+    "eventAttendee": "이벤트 등록자"
+  }
+}

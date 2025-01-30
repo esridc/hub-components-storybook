@@ -1,0 +1,29 @@
+{
+  "header": "Events",
+  "myContent": "My Events",
+  "editableContent": "Editable Content",
+  "addEventButtonText":"Create Event",
+  "type": "Type",
+  "sharedUpdate": "Shared Update Group",
+  "viewOnly": "View Only Group",
+  "owner": "Created by",
+  "starts": "On",
+  "from": "From",
+  "until": "Until",
+  "updated": "Updated",
+  "tags": "Tags",
+  "dateCreated": "Created",
+  "dateUpdated": "Modified",
+  "actionLinks": {
+    "view": "View",
+    "edit": "Edit",
+    "ariaEdit": "Edit: {title}",
+    "ariaView": "View: {title}"
+  },
+  "access": {
+    "label": "Access",
+    "PRIVATE": "Private",
+    "ORG": "Organization",
+    "PUBLIC": "Public"
+  }
+}

@@ -1,0 +1,22 @@
+:host {
+  display: block;
+}
+
+arcgis-hub-map { 
+  height: 18.5rem;
+  width: 100%
+}
+
+arcgis-hub-map .esri-ui-top-left {
+  margin-top: -.375rem;
+  margin-left: -.375rem;
+}
+
+arcgis-hub-map .esri-ui-bottom-left {
+  margin-left: -.375rem;
+}
+
+.result-count {
+  font-weight: var(--calcite-font-weight-medium);
+  padding: .375rem;
+}

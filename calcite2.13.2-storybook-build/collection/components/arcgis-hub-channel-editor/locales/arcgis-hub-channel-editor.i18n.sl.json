@@ -1,0 +1,96 @@
+{
+  "unnamedChannel": "Neimenovani kanal",
+  "name": {
+    "label": "Ime",
+    "placeholder": "Kanal {prefix}"
+  },
+  "save": "Shrani",
+  "basicInfo": {
+    "label": "Osnovne informacije"
+  },
+  "access": {
+    "private": {
+      "label": "Zasebno",
+      "description": "Sodelujejo lahko izbrane skupine. Upravitelji skupine in lastniki so samodejno dodeljeni moderatorji."
+    },
+    "organization": {
+      "label": "Moja organizacija",
+      "description": "Sodelujejo lahko vsi člani z računom za {orgName}. Administratorji organizacije in lastnik kanala so samodejno dodeljeni moderatorji. Lastniki kanala lahko poleg tega dodajo skupine, katerih člani so, tako, da spodaj kliknejo »Dodaj skupino udeležencev«.",
+      "disabledTooltip": "Kanale organizacije lahko ustvarijo samo administratorji organizacije."
+    },
+    "public": {
+      "label": "Javno",
+      "description": "Sodelujejo lahko vsi prijavljeni člani. Administratorji organizacije in lastnik kanala so samodejno dodeljeni moderatorji. Lastniki kanala lahko poleg tega dodajo skupine, katerih člani so, tako, da spodaj kliknejo »Dodaj skupino udeležencev«.",
+      "disabledTooltip": "Javne kanale lahko ustvarijo samo administratorji organizacije."
+    },
+    "allowAsAnonymous": {
+      "label": "Omogoči anonimnost (samo prijavljeni udeleženci)",
+      "description": "Avatar, ime in uporabniško ime oseb z računi, ki objavlajo anonimno, ne bodo na voljo."
+    },
+    "confirmation": {
+      "header": "Ste prepričani?",
+      "message": "Če shranite te spremembe, boste izgubili dostop za urejanje tega kanala. Kanale organizacije ali javne kanale lahko urejajo samo administratorji organizacije.",
+      "secondary": "Prekliči",
+      "primary": "Potrdi"
+    }
+  },
+  "participants": {
+    "label": "Udeleženci",
+    "helperText": "Osebe, ki lahko objavljajo, odgovarjajo in se odzivajo na razpravo.",
+    "none": "Ni določenih udeležencev",
+    "add": "Dodaj skupino udeležencev"
+  },
+  "groupPicker": {
+    "title": "Izberi skupine",
+    "facet": {
+      "label": "Od",
+      "myGroups": "Moje skupine",
+      "myOrganization": "Moja organizacija",
+      "myCommunity": "Moja zainteresirana javnost"
+    }
+  },
+  "blockWords": {
+    "label": "Blokirane besede",
+    "helperText": "Seznam, ločen z vejico. Objave in odgovori, ki jih vsebujejo, bod samodejno skriti."
+  },
+  "manage": {
+    "label": "Moderatorji",
+    "helperText": "Samodejna dodelitev moderatorjev temelji na izbiri udeležencev. Za morebitne dodatne skupine, ki so dodane v kanal, se lastnikom in upraviteljem skupine dodeli status moderatorjev. Moderatorji lahko skrijejo in prikažejo objave, dodajo blokirane besede in uredijo nastavitve kanala."
+  },
+  "manager": "Upravitelj",
+  "admin": "Administrator",
+  "viewProfile": "Ogled profila",
+  "alerts": {
+    "error": "Napaka pri shranjevanju kanala",
+    "success": "Kanal je bil uspešno shranjen",
+    "label": "Opozorilo obrazca"
+  },
+  "validations": {
+    "minChannelGroups": "Zasebni kanali zahtevajo vsak eno skupino udeležencev.",
+    "channelNameRequired": "Zahtevano je ime kanala",
+    "allowAsAnonymous": "Anonimno objavljanje podpirajo samo javni kanali.",
+    "blockWords": "Vnesite največ 20 blokiranih besed/besednih zvez (vnosi ločeni z vejico, brez dvojnikov ali praznih vnosov)."
+  },
+  "notices": {
+    "edit": "Urejanja bodo veljala vsepovsod, kjer je ta kanal uporabljen",
+    "duplicate": {
+      "create": {
+        "error": {
+          "title": "Kanal ni bil ustvarjen",
+          "message": "Kanal s temi izbirami dostopa že obstaja. Uporabite obstoječ kanal ali prilagodite izbire."
+        }
+      },
+      "update": {
+        "error": {
+          "title": "Kanal ni bil posodobljen",
+          "message": "Kanal s temi izbirami dostopa že obstaja, zato teh posodobitev ne moremo shraniti."
+        }
+      },
+      "action": "Uporabi obstoječ kanal"
+    },
+    "inaccessibleGroups": {
+      "title": "Nerazpoložljive skupine: {count}",
+      "message": "Nerazpoložljivih skupin si ne morete ogledati ali jih upravljati, če niste član."
+    }
+  }
+}

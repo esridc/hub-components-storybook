@@ -1,0 +1,41 @@
+{
+  "notice": {
+    "outdatedItem": {
+      "title": "イニシアティブの置換",
+      "message": "このカードは古いアイテムを参照しています。 ユーザーがフォローする別のアイテムを選択してください。"
+    },
+    "missingFollowersGroup": {
+      "title": "フォロワー グループがありません",
+      "message": "このアイテムにはフォロワー グループがありません。 別のアイテムを選択してください。"
+    },
+    "noGroupAccess": {
+      "title": "予告",
+      "message": "フォロワー グループへのアクセス権がありません。"
+    }
+  },
+  "selectContent": {
+    "title": "フォローするコンテンツ",
+    "facets": {
+      "sharing": "共有",
+      "catalog": {
+        "myContent": "マイ コンテンツ",
+        "organization": "組織"
+      }
+    }
+  },
+  "callToAction": {
+    "title": "アクションアイテム",
+    "helperText": "アクションアイテムはフォロー ボタンの上に表示されます。",
+    "alignment": "配置"
+  },
+  "followButton": {
+    "title": "フォロー ボタン",
+    "helperText": "このボタンにより、メンバーはコンテンツをフォローまたはフォロー解除できます。 両方のボタンの状態に対してテキストを設定できます。",
+    "buttonText": "利用ボタンのテキスト",
+    "unfollowButtonText": "利用解除ボタンのテキスト",
+    "alignment": "配置",
+    "buttonStyle": "ボタンのスタイル",
+    "solid": "塗りつぶしの背景",
+    "outline": "アウトライン"
+  }
+}

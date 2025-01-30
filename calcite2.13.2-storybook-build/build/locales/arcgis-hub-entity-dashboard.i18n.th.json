@@ -1,0 +1,20 @@
+{
+  "dashboard": "เดชบอร์ด",
+  "activityLogSection": {
+    "title": "บันทึกเหตุการณ์กิจกรรม",
+    "table": {
+      "downloadAction": "ดาวน์โหลด",
+      "downloadAllAction": "ดาวน์โหลดทั้งหมด",
+      "downloadActionTooltip": "ดาวน์โหลดกิจกรรมที่เลือก",
+      "caption": "ตารางข้อผิดพลาดล่าสุด",
+      "columnHeaders": {
+        "datetime": "วันที่",
+        "layer": "ชั้นข้อมูล",
+        "message": "ข้อความ"
+      },
+      "noRecentErrors": "ไม่มีข้อผิดพลาดล่าสุด",
+      "expandText": "ดูเพิ่มเติม",
+      "collapseText": "ดูน้อยลง"
+    }
+  }
+}

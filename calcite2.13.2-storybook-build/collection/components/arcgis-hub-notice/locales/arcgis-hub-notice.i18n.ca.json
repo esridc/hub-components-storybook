@@ -1,0 +1,150 @@
+{
+  "modal": {
+    "dismiss": "No ho tornis a mostrar",
+    "close": "Tanca"
+  },
+  "notice": {
+    "n001": {
+      "title": "Avís de prova",
+      "message": "Aquest és el cos de l'avís de prova",
+      "actions": [
+        {
+          "text": "Llegiu el blog"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-1": {
+      "title": "Canvia a l'experiència de baixada actualitzada",
+      "message": "Per accedir a més formats i a millores de la velocitat i el rendiment, habiliteu l'extracció al servei d'aquest element."
+    },
+    "20240220-hosted-downloads-2": {
+      "title": "Les millores de baixades ja estan disponibles!",
+      "message": "Les millores de baixades als llocs del Hub inclouen compatibilitat amb baixades allotjades, un aspecte-i-sensació actualitzat per a les targetes de baixades i una nova barra de progrés per a les baixades.",
+      "actions": [
+        {
+          "text": "Més informació"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-3": {
+      "title": "Les baixades allotjades ja estan disponibles!",
+      "message": "Les baixades allotjades ajuden a millorar el rendiment de les baixades de contingut. Per habilitar les baixades allotjades, permeteu les funcions d'extracció a continuació.",
+      "actions": [
+        {
+          "text": "Més informació"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-basic": {
+      "title": "Sobre els espais de treball",
+      "message": "<p><strong>Afegiu contingut als catàlegs del lloc mitjançant grups</strong><br>Els catàlegs de cerca del lloc sempre s'han basat en els grups, i els espais de treball permeten gestionar aquests grups més fàcilment. Ara per ara, afegiu contingut a grups individuals connectats al vostre lloc perquè es mostrin al catàleg del lloc. Aviat, podreu afegir contingut al catàleg directament.</p><p><strong>Transició d'equips a grups</strong><br>Ara podeu fer servir qualsevol grup de l'ArcGIS Online per col·laborar en llocs, pàgines, contingut i projectes del Hub. Tots els equips enllaçats anteriorment, com ara l'equip principal del lloc, es continuaran mostrant a la subfinestra Col·laboradors de l'espai de treball del lloc.</p><p><strong>Aturada temporal dels missatges de correu electrònic basats en equips</strong><br>En aquests moments no s'admet l'enviament de missatges de correu electrònic ni d'invitacions o eliminacions per correu electrònic als membres de l'equip i els seguidors.</p><p><strong>Obsolescència del dissenyador incrustat de llocs web del Survey123</strong><br>Vam incrustar el dissenyador del Survey123 per ajudar-vos a millorar la productivitat al Hub. Tanmateix, els comentaris dels clients van indicar una preferència pel disseny i la gestió d'enquestes al Survey123, igual que en altres aplicacions. Per aquest motiu, el dissenyador incrustat del Survey123 deixarà d'estar disponible a l'ArcGIS Hub per adaptar-nos millor al flux de treball que preferiu.</p>",
+      "actions": [
+        {
+          "text": "Més informació"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-premium": {
+      "title": "Sobre els espais de treball",
+      "message": "<p><strong>Afegiu contingut als catàlegs del lloc mitjançant grups</strong><br>Els catàlegs de cerca del lloc sempre s'han basat en els grups, i els espais de treball permeten gestionar aquests grups més fàcilment. Ara per ara, afegiu contingut a grups individuals connectats al vostre lloc perquè es mostrin al catàleg del lloc. Aviat, podreu afegir contingut al catàleg directament.</p><p><strong>Transició d'equips de suport a grups</strong><br>Ara podeu fer servir qualsevol grup de l'ArcGIS Online per col·laborar en llocs, pàgines, contingut i projectes del Hub. Tots els equips de suport enllaçats anteriorment es continuaran mostrant a la subfinestra Col·laboradors de l'espai de treball del lloc. Per mantenir la compatibilitat, afegiu aquests equips de suport com a grups que poden visualitzar i grups que poden editar.</p><p><strong>Aturada temporal dels missatges de correu electrònic basats en equips</strong><br>En aquests moments no s'admet l'enviament de missatges de correu electrònic ni d'invitacions o eliminacions per correu electrònic als membres de l'equip i els seguidors.</p><p><strong>Obsolescència del dissenyador incrustat de llocs web del Survey123</strong><br>Vam incrustar el dissenyador del Survey123 per ajudar-vos a millorar la productivitat al Hub. Tanmateix, els comentaris dels clients van indicar una preferència pel disseny i la gestió d'enquestes al Survey123, igual que en altres aplicacions. Per aquest motiu, el dissenyador incrustat del Survey123 deixarà d'estar disponible a l'ArcGIS Hub per adaptar-nos millor al flux de treball que preferiu.</p><p><strong>Esdeveniments encara no disponibles als espais de treball</strong><br>Els esdeveniments estan en procés de transformació i aviat estaran disponibles als espais de treball. De moment, si activeu els espais de treball, perdreu la capacitat de crear esdeveniments nous i d'administrar i cercar els existents. Tot i això, si voleu administrar els esdeveniments creats anteriorment, podeu desactivar els espais de treball en qualsevol moment.</p>",
+      "actions": [
+        {
+          "text": "Més informació"
+        }
+      ]
+    },
+    "202404-workspaceannouncement": {
+      "title": "Introducció als espais de treball",
+      "message": "Els espais de treball són la nova manera d'editar i administrar els elements al Hub, en substitució de la navegació global a la visualització d'edició (no la visualització en directe). En aquesta fase, podeu activar (en qualsevol moment) l'ús dels espais de treball i les característiques associades per als elements i els grups. Els esdeveniments estaran disponibles en una fase posterior. Per provar els espais de treball, seleccioneu \"Ves a la configuració\".",
+      "actions": [
+        {
+          "text": "Ves a la configuració"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing": {
+      "title": "Reintroducció de les iniciatives del Hub",
+      "message": "Les iniciatives de l'ArcGIS Hub van canviar el 2 de juliol del 2024. Les iniciatives creades anteriorment ara són llocs independents, amb els mateixos dissenys, contingut, URL i característiques prèmium (com ara seguidors i esdeveniments) que abans. Per provar les noves iniciatives actualitzades, heu d'habilitar els espais de treball.",
+      "actions": [
+        {
+          "text": "Obteniu informació sobre les iniciatives",
+          "ariaLabel": "Obteniu informació sobre les iniciatives, s'obre en una pestanya nova"
+        },
+        {
+          "text": "Ves a la configuració"
+        }
+      ]
+    },
+    "20240517-initiatives-manage": {
+      "title": "Administra les iniciatives antigues",
+      "message": "Les iniciatives de l'ArcGIS Hub van canviar el 2 de juliol del 2024. Les iniciatives creades anteriorment ara són llocs independents, amb els mateixos dissenys, contingut, URL i característiques prèmium (com ara seguidors i esdeveniments) que abans. Podeu suprimir amb seguretat les iniciatives antigues.",
+      "actions": [
+        {
+          "text": "Obteniu informació sobre les iniciatives",
+          "ariaLabel": "Obteniu informació sobre les iniciatives, s'obre en una pestanya nova"
+        },
+        {
+          "text": "Mostra les iniciatives antigues",
+          "ariaLabel": "Mostra les iniciatives antigues, s'obre en una pestanya nova"
+        }
+      ]
+    },
+    "20240517-initiatives-manage-no-priv": {
+      "title": "Administra les iniciatives antigues",
+      "message": "Les iniciatives de l'ArcGIS Hub van canviar el 2 de juliol del 2024. Les iniciatives creades anteriorment ara són llocs independents, amb els mateixos dissenys, contingut, URL i característiques prèmium (com ara seguidors i esdeveniments) que abans. Podeu suprimir amb seguretat les iniciatives antigues.",
+      "actions": [
+        {
+          "text": "Obteniu informació sobre les iniciatives",
+          "ariaLabel": "Obteniu informació sobre les iniciatives, s'obre en una pestanya nova"
+        },
+        {
+          "text": "Mostra les iniciatives antigues",
+          "ariaLabel": "Mostra les iniciatives antigues, s'obre en una pestanya nova"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing-site": {
+      "title": "Reintroducció de les iniciatives del Hub",
+      "message": "La nova generació d'iniciatives del Hub ja està disponible als espais de treball. Les iniciatives tenen la seva pròpia visualització fàcil de configurar i poden ajudar a alinear projectes del Hub amb els mateixos objectius a llarg termini. Les iniciatives es poden crear de manera independent i es poden compartir amb un o diversos llocs. Els llocs poden incloure una o diverses iniciatives.",
+      "actions": [
+        {
+          "text": "Més informació",
+          "ariaLabel": "Més informació, s'obre en una pestanya nova"
+        }
+      ]
+    },
+    "20240710-slow-service-warning": {
+      "title": "Interrupció del servei",
+      "message": "La comunicació amb el servei està tardant més del previst. Això pot afectar l'accés a les baixades i la funcionalitat del mapa."
+    },
+    "20240710-unreachable-service-error": {
+      "title": "Servei no disponible",
+      "message": "No es pot establir contacte amb el servei d'amfitrió. Les baixades i la funcionalitat del mapa no estan disponibles en aquests moments per a aquest element."
+    },
+    "20240807-auth-required-status": {
+      "title": "Estat del servei desconegut",
+      "message": "No podem accedir al servei segur perquè requereix autorització addicional. Les baixades i la funcionalitat del mapa no estan disponibles en aquests moments per a l'element."
+    },
+    "20240805-private-downloads-unavailable-ago-error": {
+      "title": "Les baixades no estan disponibles",
+      "message": "Per baixar contingut, l'opció Exporta les dades ha d'estar habilitada a l'ArcGIS Online. Poseu-vos en contacte amb el propietari de l'element per habilitar aquesta opció."
+    },
+    "20240805-private-downloads-unavailable-enterprise-error": {
+      "title": "Les baixades no estan disponibles",
+      "message": "Per baixar contingut, l'opció Exporta les dades ha d'estar habilitada a l'ArcGIS Enterprise. Poseu-vos en contacte amb el propietari de l'element per habilitar aquesta opció."
+    },
+    "20240819-download-formats-disabled": {
+      "title": "S'han inhabilitat les baixades",
+      "message": "Per baixar contingut per a aquest element, poseu-vos en contacte amb el seu propietari."
+    },
+    "20241104-about-feeds-notice": {
+      "message": "Faciliteu l'accés i la reutilització de les vostres dades públiques obertes amb els canals de continguts del Hub.",
+      "actions": [
+        {
+          "text": "Obteniu informació sobre els canals de continguts del Hub",
+          "ariaLabel": "Obteniu informació sobre els canals de continguts del Hub, s'obre en una pestanya nova"
+        }
+      ]
+    }
+  }
+}

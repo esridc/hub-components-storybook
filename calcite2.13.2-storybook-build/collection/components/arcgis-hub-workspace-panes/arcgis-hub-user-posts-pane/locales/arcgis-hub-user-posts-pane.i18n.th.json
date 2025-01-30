@@ -1,0 +1,43 @@
+{
+  "header": "การสนทนา",
+  "myContent": "งานอีเวนท์ของฉัน",
+  "editableContent": "เนื้อหาที่แก้ไขได้",
+  "addContentButtonText": "สร้างเหตุการณ์",
+  "type": "ประเภท",
+  "sharedUpdate": "กลุ่มการอัปเดตที่แชร์",
+  "viewOnly": "กลุ่มแบบดูอย่างเดียว",
+  "owner": "เจ้าของ",
+  "updated": "อัปเดตแล้ว",
+  "tags": "แท็ก",
+  "dateCreated": "สร้าง",
+  "dateUpdated": "แก้ไขแล้ว",
+  "actionLinks": {
+    "view": "ดู",
+    "edit": "แก้ไข",
+    "ariaEdit": "แก้ไข: {title}",
+    "ariaView": "มุมมอง: {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "เหตุการณ์",
+      "myContent": "งานอีเวนท์ที่ฉันเป็นเจ้าของ",
+      "editableContent": "งานอีเวนท์ที่ฉันแก้ไขได้",
+      "all": "งานอีเวนท์ทั้งหมด"
+    },
+    "access": {
+      "label": "จาก"
+    },
+    "type": {
+      "label": "ประเภท"
+    },
+    "tags": {
+      "label": "แท็ก"
+    },
+    "categories": {
+      "label": "หมวดหมู่"
+    },
+    "modified": {
+      "label": "แก้ไขแล้ว"
+    }
+  }
+}

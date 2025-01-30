@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "My content",
+    "livingAtlas": "Living Atlas",
+    "organization": "My organization",
+    "world": "World (Public)"
+  },
+  "collection": {
+    "appsAndMaps": "Apps and Maps",
+    "feedback": "Feedback"
+  },
+  "facets": {
+    "type": "Type",
+    "tags": "Tags",
+    "categories": "Categories",
+    "modified":  "Modified"
+  },
+  "pickerTitle": "Select content",
+  "height": "Height (px)",
+  "isScrollable": "Scrollable",
+  "errors": {
+    "heightMinimum": "Value must be a positive number.",
+    "heightMaximum": "Value must be less than or equal to 2000px.",
+    "urlError": "Must be a valid URL."
+  },
+  "success": {
+    "urlSuccess": "URL successfully loaded."
+  },
+  "shouldApplyBreakpoints": {
+    "label": "Apply settings by device breakpoints instead"
+  },
+  "viewportAll": {
+    "label": "Default",
+    "description": "Settings applied to all screen sizes"
+  },
+  "viewportMobile": {
+    "label": "Mobile",
+    "description": "Settings applied to screens 360px wide and above"
+  },
+  "viewportTablet": {
+    "label": "Tablet",
+    "description": "Settings applied to screens 560px wide and above"
+  },
+  "viewportDesktop": {
+    "label": "Desktop",
+    "description": "Settings applied to screens 980px wide and above"
+  },
+  "sourceLabel": "Select embed type",
+  "contentLabel": "ArcGIS content",
+  "externalLabel": "External URL",
+  "contentDescription": "Select from existing maps, scenes, applications, surveys, and document links available to you.",
+  "externalDescription": "Enter a URL to be embedded. Please note that some domains do not allow embedding and may not display as expected."
+}

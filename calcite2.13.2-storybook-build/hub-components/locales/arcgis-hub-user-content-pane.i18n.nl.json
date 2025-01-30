@@ -1,0 +1,43 @@
+{
+  "content": "Content",
+  "myContent": "Mijn content",
+  "editableContent": "Bewerkbare content",
+  "addContentButtonText": "Nieuwe maken",
+  "type": "Type",
+  "sharedUpdate": "Gedeelde update-groep",
+  "viewOnly": "Alleen-lezen-groep",
+  "owner": "Eigenaar",
+  "updated": "Bijgewerkt",
+  "tags": "Tags",
+  "dateCreated": "Gemaakt",
+  "dateUpdated": "Gewijzigd",
+  "actionLinks": {
+    "view": "Weergeven",
+    "edit": "Bewerken",
+    "ariaEdit": "{title} bewerken",
+    "ariaView": "{title} weergeven"
+  },
+  "facets": {
+    "content": {
+      "label": "Content",
+      "myContent": "Content die mijn eigendom is",
+      "editableContent": "Content die ik kan bewerken",
+      "all": "Alle content"
+    },
+    "access": {
+      "label": "Van"
+    },
+    "type": {
+      "label": "Types"
+    },
+    "tags": {
+      "label": "Tags"
+    },
+    "categories": {
+      "label": "Categorieën"
+    },
+    "modified": {
+      "label": "Gewijzigd"
+    }
+  }
+}

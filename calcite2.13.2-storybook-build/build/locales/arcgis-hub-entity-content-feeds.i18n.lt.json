@@ -1,0 +1,81 @@
+{
+  "tabTitle": "Informacijos santraukų konfigūracija",
+  "learn": "Sužinokite daugiau apie Hub informacijos santraukas",
+  "loadingLabel": "Kraunama",
+  "enableFeedsToggle": {
+    "label": "Įjungti informacijos santraukas",
+    "privateNotice": "Norėdami įjungti informacijos santraukas, pirmiausia turite nustatyti Hub svetaines kaip „viešas“",
+    "emptyPublicCatalog": {
+      "message": "Norėdami įjungti informacijos santraukas, pirmiausia turite kataloge pridėti viešo turinio.",
+      "button": "Peržiūrėti katalogą"
+    },
+    "grouplessCatalog": {
+      "message": "Norėdami įjungti informacijos santraukas, pirmiausia turite sukonfigūruoti katalogą.",
+      "button": "Katalogo konfigūravimas"
+    }
+  },
+  "gettingStartedNotice": {
+    "title": "Darbo pradžia",
+    "exampleMessage": "Paryškinkite ir atnaujinkite raktą arba reikšmę JSON rengyklėje, naudodami tikslią („VALUE“) arba šablono („{{TEMPLATE_VALUE}}“) reikšmę.",
+    "previewMessage": "Norėdami peržiūrėti pakeitimus, naudokite „peržiūros“ jungiklį. Daugiau informacijos rasite <catalogFederationLink>katalogų federacijos pagalbos dokumentacijoje</catalogFederationLink>."
+  },
+  "aboutFeedsNotice": {
+    "message": "Su Hub informacijos santraukomis jūsų vieši atviri duomenys bus lengvai prieinami ir panaudojami.",
+    "link": "Sužinokite daugiau apie Hub informacijos santraukas"
+  },
+  "feedsEditorSection": {
+    "title": "Srautai",
+    "formatSelectLabel": "Pasirinkite informacijos santraukos tipą",
+    "uneditableAttributesIntro": "Atkreipkite dėmesį, kad toliau nurodytų atributų redaguoti negalima:",
+    "edit": "Redaguoti",
+    "preview": "Peržiūra",
+    "selectContentNotice": "Pasirinkite turinį, kurį norite peržiūrėti.",
+    "invalidJsonEditorWarning": "Netinkamas JSON. Prieš įrašydami, ištaisykite klaidas.",
+    "invalidJsonPreviewWarning": "Neįmanoma peržiūrėti netinkamo JSON, ištaisykite klaidas.",
+    "errorPreviewingWarning": "Įvyko klaida. Patikrinkite ryšį ir bandykite dar kartą. Jei problema išlieka, užregistruokite klaidą kreipdamiesi į Hub pagalbos tarnybą."
+  },
+  "toolsSection": {
+    "title": "Įrankiai",
+    "verification": "Tikrinimas",
+    "previewSampleData": {
+      "label": "Peržiūrėti duomenų pavyzdį",
+      "pickerFacets": {
+        "type": "Tipas",
+        "tags": "Raktažodis",
+        "categories": "Kategorija",
+        "sharing": "Bendrinimas",
+        "dateUpdated": "Atnaujinimo data"
+      }
+    },
+    "copyableInputLabel": "Prieigos prie sklaidos kanalo URL"
+  },
+  "dcat-us": {
+    "1.1": {
+      "title": "DCAT-US 1.1",
+      "description": "DCAT leidžia organizacijoms standartizuoti pateikiamus duomenis ir padeda žmonėms analizuoti federalinius šaltinius. Galite naudoti Atvirųjų duomenų projekto nustatytą <dcatUsSchemaLink>DCAT schemą</dcatUsSchemaLink>, kuri yra numatytoji konfigūracija, arba galite patys sukonfigūruoti konkrečius laukus ir (arba) atributus. Svetainės administratoriai taip pat gali įtraukti papildomų DCAT konfigūracijų. Galbūt norėsite perskaityti mūsų dokumentaciją apie <catalogFederationLink>duomenų federavimą su DCAT ir kitais išoriniais katalogais.</catalogFederationLink>",
+      "uneditableAttributes": "@type, landingPage, webService ir contactPoint['@type'].",
+      "verificationLabel": "Galite patikrinti savo DCAT informacijos santrauką įklijuodami savo svetainės DCAT URL į <dcatUsVerificationLink>Projekto atvirųjų duomenų tikrinimo priemonę</dcatUsVerificationLink>."
+    }
+  },
+  "dcat-ap": {
+    "2.1.1": {
+      "title": "DCAT-AP 2.1.1",
+      "description": "DCAT-AP yra Europos Komisijos sukurtas standartinis metaduomenų keitimosi formatas Europos duomenų kataloguose. ArcGIS Hub automatiškai sukuria ir atnaujina jūsų svetainės DCAT-AP informacijos santrauką, kai redaguojate turinio metaduomenų informaciją arba įtraukiate naują viešą turinį į katalogą. Kadangi informacijos santraukoje naudojami ArcGIS Online įvesti metaduomenys, nebereikia rankiniu būdu kurti atskirų DCAT-AP metaduomenų.<lineBreak></lineBreak><lineBreak></lineBreak>Naudodami šią rengyklę, galite naudoti numatytąją ArcGIS Hub <dcatApSchemaLink>DCAT-AP schemos</dcatApSchemaLink> konfigūraciją arba galite patys konfigūruoti tam tikrus laukus ar atributus. Taip pat galite pridėti DCAT-AP laukus ar atributus. Daugiau informacijos rasite ArcGIS Hub dokumentacijoje apie <catalogFederationLink>duomenų įtraukimą į DCAT ir kitus išorinius katalogus</catalogFederationLink>.",
+      "uneditableAttributes": "@type, @id, dcat:contactPoint['@id'], dcat:contactPoint['@type'], dct:publisher, dcat:theme, dct:accessRights, dcat:keyword, dct:provenance, dct:issued ir dct:language",
+      "verificationLabel": "Galite patikrinti savo DCAT informacijos santrauką įklijuodami savo svetainės DCAT URL į <dcatApVerificationLink>Europos komisijos sąveikos testavimo programinę įrangą</dcatApVerificationLink>."
+    }
+  },
+  "rss": {
+    "2.0": {
+      "title": "RSS 2.0",
+      "description": "<rssAboutLink>RSS 2</rssAboutLink> yra internetinio turinio sindikavimo formatas ir atitinka <xmlSpecLink>XML 1.0 specifikaciją</xmlSpecLink>. Naudodami šį redaktorių, galite išlaikyti numatytąją ArcGIS Hub konfigūraciją arba tam tikrus laukus ar atributus galite sukonfigūruoti patys. Daugiau informacijos rasite ArcGIS Hub dokumentacijoje <catalogFederationLink>apie duomenų įtraukimą į DCAT ir kitus išorinius katalogus.</catalogFederationLink>",
+      "verificationLabel": "Savo RSS srautą galite patikrinti perduodami savo svetainės RSS URL į W3 informacijos <rssVerificationLink>srauto tikrintuvą</rssVerificationLink>."
+    }
+  },
+  "saveButton": "Įrašyti",
+  "alertMessages": {
+    "success": "Pakeitimai įrašyti sėkmingai",
+    "error": "Klaida išsaugant pakeitimus"
+  },
+  "formAlert": "Formos įspėjimas"
+}

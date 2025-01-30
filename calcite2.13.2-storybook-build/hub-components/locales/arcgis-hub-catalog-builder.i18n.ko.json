@@ -1,0 +1,24 @@
+{
+  "shared": {
+    "targetEntities": {
+      "item": "항목",
+      "event": "이벤트"
+    }
+  },
+  "targetEntityBlock": {
+    "configured": "구성됨",
+    "notConfigured": "구성되지 않음"
+  },
+  "targetEntityFlow": {
+    "back": "구성 닫기: {targetEntity}",
+    "description": "구성: {targetEntity}",
+    "source": {
+      "heading": "원본",
+      "description": "원본이 콘텐츠의 범위를 정의합니다. 매개변수를 포함하거나 제외하여 결과를 수정합니다.<br/><br/>*은 필수 입력 필드를 나타냅니다."
+    },
+    "collections": {
+      "heading": "컬렉션",
+      "description": "콘텐츠를 별도의 서브셋으로 구성하여 더 쉽게 둘러보고 검색합니다.<br/><br/>*은(는) 필수 입력 필드를 나타냅니다."
+    }
+  }
+}

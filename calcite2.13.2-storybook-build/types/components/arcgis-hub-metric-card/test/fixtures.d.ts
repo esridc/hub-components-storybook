@@ -1,0 +1,34 @@
+import { IMetric, ArcGISContext } from "@esri/hub-common";
+import { IUser } from '@esri/arcgis-rest-portal';
+export declare const STATIC_METRIC: IMetric;
+export declare const INCORRECT_STATIC_METRIC: IMetric;
+export declare const SERVICE_METRIC: IMetric;
+export declare const SERVICE_CARD_CONFIG: {
+  cardTitle: string;
+  shareable: boolean;
+  shareableByValue: boolean;
+  trailingText: string;
+  type: string;
+  sourceLink: string;
+  sourceTitle: string;
+  corners: string;
+  valueColor: string;
+  metricId: string;
+  displayType: string;
+};
+export declare const INCORRECT_SERVICE_METRIC: IMetric;
+export declare const CARD_CONFIG: {
+  cardTitle: string;
+  shareable: boolean;
+  shareableByValue: boolean;
+  trailingText: string;
+  type: string;
+  sourceLink: string;
+  sourceTitle: string;
+  corners: string;
+  valueColor: string;
+  metricId: string;
+  displayType: string;
+};
+export declare const USER: IUser;
+export declare const CONTEXT: ArcGISContext;

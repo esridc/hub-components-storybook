@@ -1,0 +1,16 @@
+import { IGroup, IUser } from '@esri/arcgis-rest-portal';
+import { IChannel, IPost } from '@esri/hub-discussions';
+import { IArcGISContext } from '@esri/hub-common';
+import { Feature, Geometry } from 'geojson';
+export declare const GEOMETRY_POINT: Geometry;
+export declare const GEOMETRY_LINE: Geometry;
+export declare const GEOMETRY_POLYGON: Geometry;
+export declare const FEATURE_POINT: Feature;
+export declare const FEATURE_LINE: Feature;
+export declare const FEATURE_AREA: Feature;
+export declare const FEATURES: Feature[];
+export declare const GROUPS: IGroup[];
+export declare const CHANNEL: IChannel;
+export declare const POST: IPost;
+export declare const CREATOR: IUser;
+export declare const CONTEXT: IArcGISContext;

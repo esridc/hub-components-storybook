@@ -1,0 +1,43 @@
+{
+  "content": "Konten",
+  "myContent": "Konten Saya",
+  "editableContent": "Konten yang Dapat Diedit",
+  "addContentButtonText": "Buat baru",
+  "type": "Jenis",
+  "sharedUpdate": "Grup Pembaruan Bersama",
+  "viewOnly": "Lihat Grup Saja",
+  "owner": "Pemilik",
+  "updated": "Diperbarui",
+  "tags": "Tag",
+  "dateCreated": "Dibuat",
+  "dateUpdated": "Diubah",
+  "actionLinks": {
+    "view": "Lihat",
+    "edit": "Edit",
+    "ariaEdit": "Edit {title}",
+    "ariaView": "Lihat {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Konten",
+      "myContent": "Konten yang saya miliki",
+      "editableContent": "Konten yang dapat saya edit",
+      "all": "Semua Konten"
+    },
+    "access": {
+      "label": "Dari"
+    },
+    "type": {
+      "label": "Jenis"
+    },
+    "tags": {
+      "label": "Tag"
+    },
+    "categories": {
+      "label": "Kategori"
+    },
+    "modified": {
+      "label": "Diubah"
+    }
+  }
+}

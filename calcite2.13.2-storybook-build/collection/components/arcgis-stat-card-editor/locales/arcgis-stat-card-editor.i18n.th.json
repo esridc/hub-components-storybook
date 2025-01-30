@@ -1,0 +1,165 @@
+{
+  "advancedConfig": {
+    "label": "การกำหนดค่าขั้นสูง",
+    "serverTimeout": {
+      "label": "เซิร์ฟเวอร์หมดเวลาแล้ว (วินาที)",
+      "helperText": "จะมีประโยชน์สำหรับบริการขนาดใหญ่ ซึ่งอาจต้องใช้เวลาเพิ่มเติมในการตอบสนอง",
+      "errors": {
+        "type": "โปรดป้อนการกำหนดค่าการหมดเวลาเซิร์ฟเวอร์",
+        "minimum": "ค่าการหมดเวลาเซิร์ฟเวอร์ต้องอยู่ที่อย่างน้อย 5",
+        "maximum": "ค่าการหมดเวลาเซิร์ฟเวอร์ต้องอยู่ที่อย่างน้อย 95"
+      }
+    }
+  },
+  "appearance": {
+    "corners": {
+      "label": "มุม",
+      "enum": {
+        "round": {
+          "label": "รอบ ๆ"
+        },
+        "square": {
+          "label": "สี่เหลี่ยม"
+        }
+      }
+    },
+    "dropShadow": {
+      "label": "เพิ่มเงา",
+      "enum": {
+        "heavy": {
+          "label": "หนัก"
+        },
+        "low": {
+          "label": "ต่ำ"
+        },
+        "medium": {
+          "label": "กลาง"
+        },
+        "none": {
+          "label": "ยังไม่ได้เริ่ม"
+        }
+      }
+    },
+    "layout": {
+      "label": "สไตล์การ์ด",
+      "enum": {
+        "informational": {
+          "label": "ข้อมูล"
+        },
+        "simple": {
+          "label": "ธรรมดา"
+        }
+      }
+    },
+    "popoverText": {
+      "label": "หัวข้อโมดัล"
+    },
+    "publisherText": {
+      "label": "ผู้เผยแพร่ต้นทาง"
+    },
+    "styleSpecificSettings": {
+      "label": "การตั้งค่าสไตล์",
+      "helperInfoText": "การเลือกปุ่มข้อมูล จะเปิดโมดัลซึ่งจะมีข้อมูลเพิ่มเติม",
+      "helperVizText": "การ์ดแบบง่ายจะรองรับการเพิ่มไอคอนในรูปแบบองค์ประกอบภาพ ซึ่งสามารถใช้ในการแสดงการเปลี่ยนแปลงในข้อมูลได้"
+    },
+    "sectionTitle": "รูปลักษณ์",
+    "textAlign": "การจัดแนว",
+    "visualInterest": {
+      "label": "องค์ประกอบภาพ",
+      "enum": {
+        "icon": {
+          "label": "ไอคอน"
+        },
+        "none": {
+          "label": "ไม่มีเลย"
+        }
+      }
+    },
+    "icon": {
+      "label": "ไอคอน",
+      "caretUp": {
+        "label": "เพิ่ม"
+      },
+      "caretDown": {
+        "label": "ลด"
+      },
+      "caretDouble": {
+        "label": "ไม่มีการเปลี่ยนแปลง"
+      }
+    },
+    "valueColor": "สี (สถิติ)"
+  },
+  "details": {
+    "allowDynamicLink": "แสดงลิงก์ต้นทาง",
+    "link": {
+      "sectionTitle": "ลิงก์",
+      "sourceLink": "URL ลิงก์",
+      "sourceTitle": "ลิงก์ข้อความ"
+    },
+    "sectionTitle": "รายละเอียด",
+    "subtitle": "คำบรรยาย",
+    "title": "คำนำหน้า",
+    "trailingText": {
+      "label": "ข้อความต่อท้าย",
+      "helperText": "ป้อนบริบทหรือคำอธิบายเพิ่มเติม (ซึ่งจะปรากฎอยู่ใต้ค่าเมตริก)"
+    }
+  },
+  "errors": {
+    "sourceLink": {
+      "required": "จำเป็นต้องใช้ลิงก์เพื่อแสดงต้นทาง",
+      "formatError": "การจัดรูปแบบ URL ไม่ถูกต้อง"
+    }
+  },
+  "formatting": {
+    "sectionTitle": "กำลังจัดทำรูปแบบ",
+    "unit": {
+      "label": "หน่วยการแสดงผล",
+      "helperText": "ป้อนหน่วยวัดสำหรับค่าของคุณ"
+    },
+    "unitPosition": {
+      "label": "ตำแหน่ง",
+      "helperText": "เลือกตำแหน่งที่จะแสดงหน่วยวัด (เช่น 'km', 'lbs') โดยพิจารณาตามค่าเมตริก",
+      "enum": {
+        "after": {
+          "label": "หลัง"
+        },
+        "before": {
+          "label": "ก่อน"
+        },
+        "below": {
+          "label": "ต่ำกว่า"
+        }
+      }
+    }
+  },
+  "sharing": {
+    "sectionTitle": "การแชร์",
+    "showShareIcon": "เปิดใช้งานการแชร์",
+    "showShareIconHelperText": "อนุญาตให้ผู้ใช้คัดลอกลิงก์ตรงไปยังการ์ดนี้ในหน้านี้",
+    "shareableByValue": "เปิดใช้งานการฝังเนื้อหา",
+    "shareableOnHover": {
+      "label": "แสดงเมื่อชี้",
+      "helperText": {
+        "label": "จะแสดงปุ่มแชร์เฉพาะเมื่อชี้ เมื่อปิดไว้ ระบบจะแสดงปุ่มเสมอ"
+      }
+    }
+  },
+  "statistic": {
+    "dataSource": "แหล่งข้อมูล",
+    "displayValue": "ค่าการแสดงผล",
+    "sectionTitle": "ค่า",
+    "type": {
+      "label": "ประเภท",
+      "enum": {
+        "dynamic": {
+          "label": "ไดนามิก",
+          "description": "เลือกชุดข้อมูลที่มีอยู่ (ฟีเจอร์เซอร์วิส) เพื่อสรุป"
+        },
+        "static": {
+          "label": "สแตติก",
+          "description": "ป้อนค่าด้วยตัวเองเพื่อไฮไลท์โครงร่างของคุณ"
+        }
+      }
+    }
+  }
+}

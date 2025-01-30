@@ -1,0 +1,19 @@
+{
+  "overview": "오버뷰",
+  "telemetry": {
+    "pageViews": "페이지 조회수",
+    "last30days": "지난 30일",
+    "lastUpdated": "{hoursElapsed}시간 전에 마지막으로 업데이트됨",
+    "checkTomorrow": "내일 다시 확인하세요."
+  },
+  "learnAbout": "허브 프로젝트에 대해 알아보기",
+  "status": {
+    "notStarted": "시작되지 않음",
+    "inProgress": "진행 중",
+    "onHold": "대기 중",
+    "complete": "완료"
+  },
+  "editDetails": "세부정보 편집",
+  "noPurposeSet": "목적이 설정되어 있지 않음",
+  "noLocationSet": "위치가 설정되어 있지 않음"
+}

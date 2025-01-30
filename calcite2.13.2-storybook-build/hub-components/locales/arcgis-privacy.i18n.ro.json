@@ -1,0 +1,41 @@
+{
+  "managePrivacyButton": "Administrare confidențialitate",
+  "consentNotice": {
+    "allTracking": "Acest site a fost realizat cu ArcGIS Hub și folosește urmărirea anonimizată pentru a îmbunătăți performanțele și a analiza utilizarea site-ului conform Declarației de confidențialitate Esri. Sistemele de urmărire ale terților pot monitoriza utilizarea site-ului de către dvs.",
+    "anonymousTracking": "Acest site a fost realizat cu ArcGIS Hub și folosește urmărirea anonimizată pentru a îmbunătăți performanțele și a analiza utilizarea site-ului conform Declarației de confidențialitate Esri.",
+    "noTracking": "Acest site a fost realizat cu ArcGIS Hub și utilizează numai module cookie care sunt necesare pentru aplicarea funcției și nu pot fi dezactivate din sistemele noastre.",
+    "thirdPartyTracking": "Acest site a fost realizat cu ArcGIS Hub și utilizează numai module cookie care sunt necesare pentru aplicarea funcției și nu pot fi dezactivate din sistemele noastre. Sistemele de urmărire ale terților pot monitoriza utilizarea site-ului de către dvs."
+  },
+  "consent": {
+    "esriPrivacyLink": "Centru de confidențialitate Esri",
+    "customerConsentLink": "Informații suplimentare"
+  },
+  "eueiNotice": {
+    "title": "{orgName} membri nu vor fi urmăriți",
+    "message": "Programul de îmbunătățire a experienței utilizatorului Esri (EUEI) a fost dezactivat pentru {orgName}. Activitatea legată de vizita dvs. nu va fi urmărită; nu puteți accepta statistici de utilizare anonime sau urmărirea terțelor părți.",
+    "link": "Aflați despre programul (EUEI)."
+  },
+  "notice": {
+    "heading": "Setări de confidențialitate",
+    "acceptAllButton": "Acceptarea tuturor modulelor cookie",
+    "acceptNecessaryButton": "Acceptarea doar a modulelor cookie necesare",
+    "confirmButton": "Confirmare",
+    "reviewSettingsButton": "Revizuire setări"
+  },
+  "settings": {
+    "heading": "Setări de confidențialitate",
+    "confirmButton": "Confirmare"
+  },
+  "anonymous": {
+    "heading": "Statistici utilizare anonimă",
+    "helpText": "Aceste module cookie ne permit să monitorizăm performanța aplicației, cum ar fi sursele de trafic, vizualizările paginilor și interacțiunile. Ne ajută să știm ce conținut este eficient și cum se descurcă vizitatorii în aplicație. Toate informațiile colectate sunt anonime (nu se stochează informații care vă identifică personal). Dacă nu permiteți aceste module cookie, nu vom ști că ați vizitat sau ați interacționat cu aplicația noastră."
+  },
+  "necessary": {
+    "heading": "Module cookie strict necesare",
+    "helpText": "Aceste module cookie sunt necesare pentru ca aplicația să funcționeze și nu pot fi dezactivate în sistemele noastre. Ele sunt setate ca răspuns la acțiunile efectuate de dvs. care implică o solicitare de servicii, cum ar fi autentificarea în contul dvs. Vă puteți seta browserul să blocheze sau să vă alerteze în legătură cu aceste module cookie, dar unele părți ale aplicației pot fi afectate. Toate informațiile colectate sunt anonime (nu se stochează informații care vă identifică personal)."
+  },
+  "thirdParty": {
+    "heading": "Urmărire terță parte",
+    "helpText": "Aceste module cookie pot fi setate de către terțe părți care urmăresc furnizorii configurați pe acest site. Aceștia pot colecta informații de vizare sau de marketing despre dvs. în timpul vizitei. Informațiile colectate pot fi utilizate în scopuri care nu au legătură cu aplicația. Dacă nu permiteți aceste module cookie, furnizorii de urmărire terți configurați nu vor primi nicio informație despre vizita dvs."
+  }
+}

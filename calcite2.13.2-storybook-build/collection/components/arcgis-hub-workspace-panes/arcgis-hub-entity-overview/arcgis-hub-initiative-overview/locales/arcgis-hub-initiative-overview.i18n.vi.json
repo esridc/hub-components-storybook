@@ -1,0 +1,23 @@
+{
+  "overview": "Tổng quan",
+  "telemetry": {
+    "pageViews": "Số lượt xem trang",
+    "last30days": "30 ngày trước",
+    "lastUpdated": "Cập nhật lần cuối {hoursElapsed} giờ trước",
+    "checkTomorrow": "Kiểm tra lại vào ngày mai"
+  },
+  "learnAbout": "Tìm hiểu về sáng kiến Hub",
+  "feedbackNotice": {
+    "message": "Bạn thích các sáng kiến Hub ở mức độ nào? Chúng tôi muốn lắng nghe cách bạn sử dụng.",
+    "link": "Gửi phản hồi"
+  },
+  "status": {
+    "notStarted": "Chưa bắt đầu",
+    "inProgress": "Đang xử lý",
+    "onHold": "Đang bị tạm ngưng",
+    "complete": "Hoàn tất"
+  },
+  "editDetails": "Chỉnh sửa thông tin chi tiết",
+  "noPurposeSet": "Không có mục đích nào được thiết lập",
+  "noLocationSet": "Không có vị trí nào được thiết lập"
+}

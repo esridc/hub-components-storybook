@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Kan geen resultaten vinden."
+    },
+    "error": {
+      "message": "Onze excuses, maar er is een fout opgetreden tijdens het zoeken."
+    }
+  },
+  "access": "Toegang",
+  "actionsHeader": "Acties",
+  "caption": "Entiteitstabel Hub",
+  "family": "Familie",
+  "type": "Type",
+  "tags": "Tags",
+  "owner": "Eigenaar",
+  "dateCreated": "Gemaakt",
+  "dateUpdated": "Gewijzigd",
+  "description": "Beschrijving",
+  "dateAndTime": "Datum en tijd",
+  "location": "Locatie",
+  "attendanceType": "Type deelname",
+  "inPerson": "Fysiek",
+  "online": "Online",
+  "hybrid": "Hybride",
+  "categories": "Categorieën",
+  "content": "Content",
+  "name": "Naam",
+  "start": "Start",
+  "end": "Einde",
+  "sharedUpdate": "Gedeelde update",
+  "managers": "Managers",
+  "username": "Gebruikersnaam",
+  "no": "Nee",
+  "yes": "Ja",
+  "title": "Titel",
+  "thumbnail": "Thumbnail",
+  "types": {
+    "app": "Applicatie",
+    "content": "Content",
+    "dataset": "Dataset",
+    "discussion": "Discussiebord",
+    "document": "Document",
+    "event": "Evenement",
+    "feedback": "Feedback",
+    "initiative": "Initiatief",
+    "image": "Afbeelding",
+    "map": "Kaart",
+    "other": "Overige",
+    "people": "Personen",
+    "site": "Site",
+    "team": "Groep",
+    "template": "Sjabloon",
+    "project": "Project"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "S’inscrire",
+    "registered": "Inscrit",
+    "join": "Participer en ligne",
+    "in-person": "En présentiel",
+    "online": "En ligne",
+    "inPersonFull": "En présentiel (complet)",
+    "onlineFull": "En ligne (complet)",
+    "close": "Fermer"
+  },
+  "tooltip": {
+    "isCanceled": "Événement annulé",
+    "eventHasEnded": "Événement terminé",
+    "eventFull": "Événement complet",
+    "inPerson": "Inscrit à l’événement en présentiel",
+    "online": "Inscrit à l’événement en ligne",
+    "unavailable": "Disponible une heure avant le début de l’événement"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "L’inscription à l’événement en ligne a été annulée",
+    "onlineRegistrationConfirmed": "L’inscription à l’événement en ligne a été enregistrée",
+    "onlineRegistrationError": "Une erreur inattendue s’est produite lors de l’inscription à l’événement en ligne",
+    "onlineRegistrationCanceledError": "Une erreur inattendue s’est produite lors de l’annulation de l’inscription à l’événement en ligne",
+    "onlineRegistrationAtCapacity": "Vous tentez de vous inscrire à un événement en ligne qui affiche complet",
+    "inPersonRegistrationCanceled": "L’inscription à l’événement en présentiel a été annulée",
+    "inPersonRegistrationCanceledError": "Une erreur inattendue s’est produite lors de l’annulation de l’inscription à l’événement en présentiel",
+    "inPersonRegistrationConfirmed": "L’inscription à l’événement en présentiel a été enregistrée",
+    "inPersonRegistrationError": "Une erreur inattendue s’est produite lors de l’inscription à l’événement en présentiel",
+    "inPersonRegistrationAtCapacity": "Vous tentez de vous inscrire à un événement en présentiel qui affiche complet"
+  }
+}

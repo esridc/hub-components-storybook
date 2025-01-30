@@ -1,0 +1,46 @@
+{
+  "heading": "Informacje o stronie",
+  "form": {
+    "title": {
+      "label": "Nazwa strony",
+      "requiredError": "Nazwa jest wymagana",
+      "entityTitleValidatorError": "Nazwa strony nie może zawierać znaków emoji ani <, > i ="
+    },
+    "slug": {
+      "label": "Slug",
+      "helperText": "Slug (lub identyfikator tekstowy) to czytelna dla użytkowników część adresu URL określająca nazwę strony. Jest generowany automatycznie na podstawie nazwy strony, ale można go dostosować.",
+      "patternError": "Błąd: slug musi zawierać małe litery rozdzielone łącznikami.",
+      "isUniqueError": "Ten slug jest już używany. Wybierz inny.",
+      "requiredError": "Slug jest wymagany"
+    }
+  },
+  "controls": {
+    "back": "Wstecz",
+    "cancel": "Anuluj",
+    "close": "Wykonano",
+    "migrate": "Migruj stronę",
+    "next": "Dalej"
+  },
+  "selection": {
+    "unlimited": "Wybrano: {count}",
+    "limited": "Wybrano {count} z {limit}"
+  },
+  "steps": {
+    "specifyInfo": "Dodaj podstawowe informacje",
+    "selectGroups": "Wybierz grupę",
+    "confirmation": "Potwierdzenie"
+  },
+  "working": {
+    "heading": "Migracja strony.",
+    "loadingLabel": "Migracja strony"
+  },
+  "success": {
+    "heading": "Strona została zmigrowana",
+    "message": "Strona została pomyślnie zmigrowana."
+  },
+  "failure": {
+    "heading": "Strona nie została zmigrowana",
+    "message": "Coś poszło nie tak podczas migracji strony, spróbuj ponownie.",
+    "action": "Spróbuj ponownie"
+  }
+}

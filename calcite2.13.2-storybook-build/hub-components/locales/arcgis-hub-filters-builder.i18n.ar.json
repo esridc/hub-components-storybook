@@ -1,0 +1,15 @@
+{
+  "newFilter": "عامل تصفية جديد",
+  "block": {
+    "heading": {
+      "untitled": "عامل تصفية جديد",
+      "default": "تصفية {filterNum}: {parameter}",
+      "group": "تصفية {filterNum}: المجموعات",
+      "type": "تصفية {filterNum}: الأنواع",
+      "occurrence": "تصفية {filterNum}: تكرار الحدوث"
+    },
+    "actions": {
+      "delete": "حذف عامل التصفية: {label}"
+    }
+  }
+}

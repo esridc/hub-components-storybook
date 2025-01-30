@@ -1,0 +1,13 @@
+{
+  "csv": "CSV",
+  "shapefile": "Shapefile",
+  "sqlite": "SQLite Geodatabase",
+  "geoPackage": "GeoPackage",
+  "filegdb": "File Geodatabase",
+  "featureCollection": "Bộ sưu tập Đối tượng",
+  "geojson": "GeoJSON",
+  "excel": "Excel",
+  "json": "JSON",
+  "createReplicaErrorMessage": "Tạo bản sao lỗi nội bộ. Vui lòng thử lại sau một giờ hoặc liên hệ với người quản lý nội dung.",
+  "errorHeader": "Không thể hoàn tất tải xuống. Vui lòng thử lại."
+}

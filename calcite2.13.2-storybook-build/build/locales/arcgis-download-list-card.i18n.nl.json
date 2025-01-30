@@ -1,0 +1,13 @@
+{
+  "csv": "CSV",
+  "shapefile": "Shapefile",
+  "sqlite": "SQLite Geodatabase",
+  "geoPackage": "GeoPackage",
+  "filegdb": "File Geodatabase",
+  "featureCollection": "Functieverzameling",
+  "geojson": "GeoJSON",
+  "excel": "Excel",
+  "json": "JSON",
+  "createReplicaErrorMessage": "Interne fout bij maken replica. Probeer het over een uur opnieuw of neem contact op met de contentbeheerder.",
+  "errorHeader": "Kan downloaden niet voltooien. Probeer het opnieuw."
+}

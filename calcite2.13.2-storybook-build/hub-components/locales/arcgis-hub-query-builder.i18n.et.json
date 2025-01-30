@@ -1,0 +1,10 @@
+{
+  "targetEntity": {
+    "label": "Allikas",
+    "enum": {
+      "item": "Sisuüksused",
+      "event": "Sündmused",
+      "group": "Grupid"
+    }
+  }
+}

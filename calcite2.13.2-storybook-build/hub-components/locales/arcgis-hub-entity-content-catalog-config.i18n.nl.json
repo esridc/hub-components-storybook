@@ -1,0 +1,46 @@
+{
+  "title": "Configuratie catalogus",
+  "helperText": "De catalogus definiëren en configureren",
+  "sections": {
+    "groups": {
+      "title": "Groepen",
+      "helperText": "De onderstaande groepen bevatten de content in uw zoekcatalogus. Selecteer een groep als u instellingen, content en meer wilt weergeven.",
+      "createGroup": "Nieuwe groep maken"
+    },
+    "feeds": {
+      "title": "Configuratie feed",
+      "helperText": "Maak uw openbare gegevens makkelijk toegankelijk en herbruikbaar met Hub-feeds.",
+      "learn": "Meer over Hub-feeds",
+      "toggle": "Feeds inschakelen ",
+      "configure": "Feeds configureren",
+      "notice": "Als u feeds wilt inschakelen, moet u eerst uw Hub-sites op \"Openbaar\" instellen in uw instellingen."
+    }
+  },
+  "groupPickerFacet": {
+    "label": "Van",
+    "editGroups": "Groepen bewerken",
+    "viewGroups": "Groep weergeven",
+    "myGroups": "Mijn groepen",
+    "myOrganization": "Mijn organisatie",
+    "myCommunity": "Mijn community",
+    "public": "Openbaar"
+  },
+  "formAlert": "Formulierwaarschuwing",
+  "configSaveAlert": {
+    "success": "De bewerkingen zijn opgeslagen",
+    "failure": "Er is een fout opgetreden bij het opslaan van bewerkingen"
+  },
+  "reharvestCatalogButton": "Op fouten controleren",
+  "reharvestWarningModal": {
+    "title": "Op fouten controleren",
+    "body1": "Waarschuwing: deze optie wordt meestal alleen gebruikt in situaties waarin uw zoekpagina problemen ondervindt in verband met ontbrekende resultaten of metadata. Met deze optie controleert u alle items in alle catalogusgroepen op toevoegingen, wijzigingen in de metadata of verwijderingen.",
+    "body2": "Als dit proces wordt uitgevoerd, wordt de openbare zoekindex van deze catalogus opnieuw samengesteld; dit kan enkele minuten duren. Hierdoor wordt de belasting voor aanwezige ArcGIS Server-exemplaren vergroot.",
+    "primaryButton": "Doorgaan",
+    "secondaryButton": "Annuleren"
+  },
+  "reharvestCatalogAlert": {
+    "success": "Bezig met foutcontrole. Probeer het later opnieuw.",
+    "inProgress": "Controle wordt al uitgevoerd. Probeer het later opnieuw.",
+    "failure": "Er is een operationele fout opgetreden. Probeer het later opnieuw"
+  }
+}

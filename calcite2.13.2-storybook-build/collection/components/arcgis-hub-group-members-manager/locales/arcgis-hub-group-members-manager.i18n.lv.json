@@ -1,0 +1,59 @@
+{
+  "title": "Dalībnieki",
+  "facets": {
+    "role": {
+      "label": "Loma",
+      "all": "Viss",
+      "manager": "Pārvaldnieks",
+      "member": "Dalībnieks"
+    },
+    "dateJoined": {
+      "label": "Pievienošanās datums"
+    }
+  },
+  "stats": {
+    "total": {
+      "title": "Kopskaits",
+      "trailingText": "Grupas dalībnieki"
+    },
+    "new": {
+      "title": "Jauns",
+      "trailingText": "Pēdējās 30 dienas"
+    }
+  },
+  "addMembers": {
+    "button": "Pievienot dalībniekus",
+    "disabledTooltip": "Jums nav piekļuves, kas ļautu pievienot lietotājus šai grupai.",
+    "modal": {
+      "title": "Pievienot dalībniekus",
+      "org": "Mana organizācija",
+      "community": "Mana kopiena",
+      "partner": "Mani partneri",
+      "world": "Pasaule"
+    },
+    "notifications": {
+      "invited": "Uzaicinājums nosūtīts. Lai pievienotos, lietotājiem ir jāpiekrīt",
+      "added": "Lietotājs(-i) pievienots(-i)",
+      "notInvited": "Dažiem lietotājiem, iespējams, nav privilēģiju, kas nepieciešamas, lai pievienotos grupai, vai arī sasniegts grupas maksimālais ierobežojums (512)"
+    }
+  },
+  "removeUsers": {
+    "button": "Noņemt",
+    "success": "Dalībnieki sekmīgi noņemti no {groupName}.",
+    "error": "Vienu vai vairākus lietotājus nevarēja noņemt no grupas."
+  },
+  "changeRole": {
+    "tooltipText": "Noņemiet no saraksta sevi un/vai grupas īpašnieku.",
+    "tooltipLabel": "Lomas atruna",
+    "button": "Mainīt lomu",
+    "member": "Dalībnieks",
+    "memberHelperText": "Var pievienot un skatīt saturu grupā.",
+    "admin": "Pārvaldnieks",
+    "adminHelperText": "Var pievienot/noņemt saturu un uzaicināt/noņemt personas (izņemot īpašnieku).",
+    "success": "Atlasītie dalībnieki kļuva par grupu {role}.",
+    "error": "Vienam vai vairākiem dalībniekiem lomu nevarēja mainīt."
+  },
+  "notice": {
+    "label": "Veidlapas brīdinājums"
+  }
+}

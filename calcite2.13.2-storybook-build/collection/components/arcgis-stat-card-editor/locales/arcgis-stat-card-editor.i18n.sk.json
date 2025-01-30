@@ -1,0 +1,165 @@
+{
+  "advancedConfig": {
+    "label": "Pokročilá konfigurácia",
+    "serverTimeout": {
+      "label": "Časový limit servera (sekundy)",
+      "helperText": "Užitočné pre väčšie služby, ktoré môžu potrebovať viac času na odpoveď.",
+      "errors": {
+        "type": "Zadajte, prosím, konfiguráciu časového limitu servera.",
+        "minimum": "Hodnota časového limitu servera musí byť aspoň 5.",
+        "maximum": "Hodnota časového limitu servera musí byť najviac 95."
+      }
+    }
+  },
+  "appearance": {
+    "corners": {
+      "label": "Rohy",
+      "enum": {
+        "round": {
+          "label": "Zaoblené"
+        },
+        "square": {
+          "label": "Pravoúhle"
+        }
+      }
+    },
+    "dropShadow": {
+      "label": "Vrhaný tieň",
+      "enum": {
+        "heavy": {
+          "label": "Silné"
+        },
+        "low": {
+          "label": "Nízke"
+        },
+        "medium": {
+          "label": "Stredné"
+        },
+        "none": {
+          "label": "Nezačaté"
+        }
+      }
+    },
+    "layout": {
+      "label": "Štýl karty",
+      "enum": {
+        "informational": {
+          "label": "Informačná správa"
+        },
+        "simple": {
+          "label": "Jednoduché"
+        }
+      }
+    },
+    "popoverText": {
+      "label": "Modálny obsah"
+    },
+    "publisherText": {
+      "label": "Vydavateľ zdroja"
+    },
+    "styleSpecificSettings": {
+      "label": "Nastavenia štýlu",
+      "helperInfoText": "Stlačením tlačidla Informácie sa otvorí modálny obsah, ktorý obsahuje viac informácií",
+      "helperVizText": "Táto jednoduchá karta podporuje pridanie ikony ako vizuálneho prvku, ktorý sa môže použiť na vyjadrenie zmien v dátach."
+    },
+    "sectionTitle": "Vzhľad",
+    "textAlign": "Zarovnanie",
+    "visualInterest": {
+      "label": "Vizuálny prvok",
+      "enum": {
+        "icon": {
+          "label": "Ikona"
+        },
+        "none": {
+          "label": "Žiadne"
+        }
+      }
+    },
+    "icon": {
+      "label": "Ikona",
+      "caretUp": {
+        "label": "Zvýšiť"
+      },
+      "caretDown": {
+        "label": "Znížiť"
+      },
+      "caretDouble": {
+        "label": "Bez zmeny"
+      }
+    },
+    "valueColor": "Farba (štatistika)"
+  },
+  "details": {
+    "allowDynamicLink": "Zobraziť odkaz na zdroj",
+    "link": {
+      "sectionTitle": "Odkaz",
+      "sourceLink": "URL odkazu",
+      "sourceTitle": "Text odkazu"
+    },
+    "sectionTitle": "Podrobnosti",
+    "subtitle": "Podtitul",
+    "title": "Názov",
+    "trailingText": {
+      "label": "Ukončovací text",
+      "helperText": "Zadajte akýkoľvek ďalší kontext alebo vysvetlenie (aby sa zobrazilo pod metrickou hodnotou)."
+    }
+  },
+  "errors": {
+    "sourceLink": {
+      "required": "Na zobrazenie zdroja je potrebný odkaz.",
+      "formatError": "Formátovanie adresy URL je nesprávne"
+    }
+  },
+  "formatting": {
+    "sectionTitle": "Formátovanie",
+    "unit": {
+      "label": "Jednotky zobrazenia",
+      "helperText": "Zadajte mernú jednotku pre vašu hodnotu."
+    },
+    "unitPosition": {
+      "label": "Rozmiestnenie",
+      "helperText": "Vyberte, kde sa jednotka merania (napr. \"'km\", \"lbs\") zobrazí vo vzťahu k metrickej hodnote.",
+      "enum": {
+        "after": {
+          "label": "Po"
+        },
+        "before": {
+          "label": "Pred"
+        },
+        "below": {
+          "label": "Pod"
+        }
+      }
+    }
+  },
+  "sharing": {
+    "sectionTitle": "Zdieľanie",
+    "showShareIcon": "Povoliť zdieľanie",
+    "showShareIconHelperText": "Umožniť používateľom skopírovať priamy odkaz na túto kartu na tejto stránke.",
+    "shareableByValue": "Povoliť vložené prvky",
+    "shareableOnHover": {
+      "label": "Zobraziť po umiestnení kurzoru myši",
+      "helperText": {
+        "label": "Tlačidlo zdieľať sa zobrazí až po presunutí kurzoru myši. Ak je vypnuté, tlačidlo je vždy viditeľné."
+      }
+    }
+  },
+  "statistic": {
+    "dataSource": "Dátový zdroj",
+    "displayValue": "Zobrazovaná hodnota",
+    "sectionTitle": "Hodnota",
+    "type": {
+      "label": "Typ",
+      "enum": {
+        "dynamic": {
+          "label": "Dynamické",
+          "description": "Vyberte existujúci dataset (prvkovú službu), ktorú chcete sumarizovať."
+        },
+        "static": {
+          "label": "Statické",
+          "description": "Ručne zadajte hodnotu, ktorú chcete v rozložení zvýrazniť."
+        }
+      }
+    }
+  }
+}

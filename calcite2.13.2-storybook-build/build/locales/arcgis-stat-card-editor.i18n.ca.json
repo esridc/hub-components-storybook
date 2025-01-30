@@ -1,0 +1,165 @@
+{
+  "advancedConfig": {
+    "label": "Configuració avançada",
+    "serverTimeout": {
+      "label": "Temps d'espera del servidor (segons)",
+      "helperText": "Útil per a serveis grans que poden tardar més temps a respondre.",
+      "errors": {
+        "type": "Introduïu una configuració de temps d'espera del servidor.",
+        "minimum": "El valor de temps d'espera del servidor ha de ser d'almenys 5.",
+        "maximum": "El valor de temps d'espera del servidor ha de ser de com a màxim 95."
+      }
+    }
+  },
+  "appearance": {
+    "corners": {
+      "label": "Cantonades",
+      "enum": {
+        "round": {
+          "label": "Rodó"
+        },
+        "square": {
+          "label": "Quadrat"
+        }
+      }
+    },
+    "dropShadow": {
+      "label": "Ombreig",
+      "enum": {
+        "heavy": {
+          "label": "Intens"
+        },
+        "low": {
+          "label": "Baixa"
+        },
+        "medium": {
+          "label": "Mitjana"
+        },
+        "none": {
+          "label": "No iniciat"
+        }
+      }
+    },
+    "layout": {
+      "label": "Estil de la targeta",
+      "enum": {
+        "informational": {
+          "label": "Informativa"
+        },
+        "simple": {
+          "label": "Simple"
+        }
+      }
+    },
+    "popoverText": {
+      "label": "Contingut modal"
+    },
+    "publisherText": {
+      "label": "Editor de la font"
+    },
+    "styleSpecificSettings": {
+      "label": "Configuració de l'estil",
+      "helperInfoText": "En seleccionar el botó d'informació, s'obrirà un modal que conté més informació.",
+      "helperVizText": "La targeta senzilla permet afegir una icona com a element visual, que es pot fer servir per reflectir els canvis en les dades."
+    },
+    "sectionTitle": "Aparença",
+    "textAlign": "Alineació",
+    "visualInterest": {
+      "label": "Element visual",
+      "enum": {
+        "icon": {
+          "label": "Icona"
+        },
+        "none": {
+          "label": "Cap"
+        }
+      }
+    },
+    "icon": {
+      "label": "Icona",
+      "caretUp": {
+        "label": "Incrementa"
+      },
+      "caretDown": {
+        "label": "Disminueix"
+      },
+      "caretDouble": {
+        "label": "Sense canvis"
+      }
+    },
+    "valueColor": "Color (estadística)"
+  },
+  "details": {
+    "allowDynamicLink": "Mostra l’enllaç de la font",
+    "link": {
+      "sectionTitle": "Enllaç",
+      "sourceLink": "URL de l'enllaç",
+      "sourceTitle": "Text de l'enllaç"
+    },
+    "sectionTitle": "Detalls",
+    "subtitle": "Subtítol",
+    "title": "Títol",
+    "trailingText": {
+      "label": "Text final",
+      "helperText": "Introduïu, si cal, context addicional o una explicació (es mostrarà al lloc corresponent al valor mètric)."
+    }
+  },
+  "errors": {
+    "sourceLink": {
+      "required": "Cal un enllaç a la font de visualització.",
+      "formatError": "El format de l'URL no és correcte"
+    }
+  },
+  "formatting": {
+    "sectionTitle": "Format",
+    "unit": {
+      "label": "Unitats de visualització",
+      "helperText": "Introduïu la unitat de mesura del valor."
+    },
+    "unitPosition": {
+      "label": "Col·locació",
+      "helperText": "Seleccioneu on es mostrarà la unitat de mesura (com ara \"km\" o \"kg\") en relació amb el valor mètric.",
+      "enum": {
+        "after": {
+          "label": "Després"
+        },
+        "before": {
+          "label": "Abans"
+        },
+        "below": {
+          "label": "A sota"
+        }
+      }
+    }
+  },
+  "sharing": {
+    "sectionTitle": "Ús compartit",
+    "showShareIcon": "Habilita l'ús compartit",
+    "showShareIconHelperText": "Permeteu que els usuaris copiïn un enllaç directe a aquesta targeta en aquesta pàgina.",
+    "shareableByValue": "Habilita les incrustacions",
+    "shareableOnHover": {
+      "label": "Mostra en passar el cursor pel damunt",
+      "helperText": {
+        "label": "El botó Comparteix només es mostra en passar el cursor pel damunt. Si es desactiva, el botó sempre serà visible."
+      }
+    }
+  },
+  "statistic": {
+    "dataSource": "Font de dades",
+    "displayValue": "Valor de visualització",
+    "sectionTitle": "Valor",
+    "type": {
+      "label": "Tipus",
+      "enum": {
+        "dynamic": {
+          "label": "Dinàmic",
+          "description": "Seleccioneu un dataset existent (servei d'entitats) per resumir-lo."
+        },
+        "static": {
+          "label": "Estàtic",
+          "description": "Introduïu manualment un valor per ressaltar-lo al disseny."
+        }
+      }
+    }
+  }
+}

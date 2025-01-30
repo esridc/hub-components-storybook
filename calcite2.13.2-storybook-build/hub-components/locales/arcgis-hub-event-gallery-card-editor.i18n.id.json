@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "Kategori",
+        "noCategoriesNotice": {
+          "body": "Organisasi ini belum memiliki kategori apa pun.",
+          "link": "Siapkan kategori"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "Konten",
+      "selectionMode": {
+        "dynamic": {
+          "label": "Dinamis"
+        },
+        "manual": {
+          "label": "Manual"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "Organisasi"
+        },
+        "collection": {
+          "sites": "Situs",
+          "projects": "Proyek",
+          "initiatives": "Prakarsa"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "Organisasi"
+        },
+        "collection": {
+          "events": "Peristiwa"
+        }
+      },
+      "access": {
+        "label": "Berbagi",
+        "private": {
+          "label": "Pribadi",
+          "description": "Filter berdasarkan konten yang hanya tersedia untuk Anda dan orang yang memiliki akses grup."
+        },
+        "org": {
+          "label": "Organisasi",
+          "description": "Filter berdasarkan konten yang hanya tersedia untuk anggota organisasi Anda."
+        },
+        "public": {
+          "label": "Publik",
+          "description": "Filter berdasarkan konten yang tersedia untuk semua orang."
+        }
+      },
+      "tags": {
+        "label": "Tag"
+      },
+      "cardsShown": {
+        "label": "Kartu Ditampilkan"
+      }
+    },
+    "appearance": {
+      "label": "Penampilan",
+      "titleHeading": {
+        "label": "Heading Judul",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "Sesuai WCAG G141 heading bertumpuk meningkatkan aksesibilitas."
+      },
+      "corners": {
+        "label": "Sudut",
+        "square": {
+          "label": "Persegi"
+        },
+        "round": {
+          "label": "Bulat"
+        }
+      },
+      "shadow": {
+        "label": "Bayangan",
+        "none": {
+          "label": "Dimatikan"
+        },
+        "low": {
+          "label": "Rendah"
+        },
+        "medium": {
+          "label": "Medium"
+        },
+        "heavy": {
+          "label": "Berat"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "Tampilkan info tambahan"
+      },
+      "layout": {
+        "label": "Tata Letak",
+        "list": {
+          "label": "Daftar"
+        },
+        "map": {
+          "label": "Peta"
+        },
+        "calendar": {
+          "label": "Kalender"
+        }
+      }
+    },
+    "options": {
+      "label": "Opsi",
+      "openIn": {
+        "label": "Buka di...",
+        "same": {
+          "label": "Tab yang sama"
+        },
+        "new": {
+          "label": "Tab baru"
+        },
+        "notice": {
+          "title": "Kiat Aksesibilitas:",
+          "body": "Sesuai WCAG 2.0 teknik G200, membuka tautan di tab atau jendela baru tidak disarankan.",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "Baca selengkapnya tentang WCAG 2.0 G200"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "Berbagi",
+      "public": {
+        "label": "Publik"
+      },
+      "private": {
+        "label": "Pribadi"
+      },
+      "organization": {
+        "label": "Organisasi"
+      }
+    },
+    "from": {
+      "label": "Dari",
+      "myOrganization": {
+        "label": "Organisasi Saya"
+      },
+      "myContent": {
+        "label": "Konten Saya"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "Peristiwa",
+      "collections": {
+        "event": {
+          "label": "Peristiwa"
+        }
+      }
+    },
+    "item": {
+      "label": "Konten",
+      "collections": {
+        "item": {
+          "label": "Konten"
+        }
+      }
+    }
+  }
+}

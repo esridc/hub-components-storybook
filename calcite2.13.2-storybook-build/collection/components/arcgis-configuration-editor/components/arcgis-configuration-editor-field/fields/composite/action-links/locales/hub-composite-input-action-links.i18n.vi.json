@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "Thêm thao tác đầu tiên",
+  "addSecondAction": "Thêm thao tác thứ hai",
+  "addLink": "Thêm liên kết",
+  "addSection": "Thêm phần",
+  "deleteNotice": {
+    "title": "Không thể xóa",
+    "message": "Phần này không trống. Vui lòng di chuyển tất cả liên kết ra ngoài phần trước khi cố gắng xóa."
+  },
+  "linkEditor": {
+    "save": "Lưu",
+    "delete": "Xóa",
+    "cancel": "Hủy",
+    "preview": "Liên kết xem trước",
+    "title": {
+      "button1": "Thao tác đầu tiên",
+      "button2": "Thao tác thứ hai",
+      "block": "Liên kết thao tác"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "Liên kết đến nội dung hiện có"
+        },
+        "external": {
+          "label": "Liên kết đến nguồn bên ngoài"
+        }
+      },
+      "label": {
+        "label": "Nhãn",
+        "helperText": {
+          "button": "Văn bản này sẽ xuất hiện trên nút.",
+          "block": "Nội dung này sẽ xuất hiện trên khối in đậm."
+        },
+        "requiredError": "Nhãn là trường bắt buộc."
+      },
+      "description": {
+        "label": "Thông tin mô tả",
+        "helperText": "Đây là thông tin phụ."
+      },
+      "href": {
+        "label": "Liên kết",
+        "requiredError": "Liên kết là trường bắt buộc.",
+        "formatError": "Định dạng URL không chính xác."
+      },
+      "contentId": {
+        "label": "Liên kết nội dung",
+        "requiredError": "Liên kết nội dung là trường bắt buộc."
+      },
+      "section": {
+        "label": "Di chuyển sang phần",
+        "placeholder": {
+          "noSections": "Không có phần nào được cấu hình",
+          "notSet": "Không có trong phần"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "Phần",
+    "helperText": "Có thể dùng các phần để lồng liên kết trong mục menu. Các phần không hoạt động như liên kết.",
+    "section": {
+      "label": {
+        "label": "Nhãn",
+        "requiredError": "Nhãn là trường bắt buộc."
+      },
+      "description": {
+        "label": "Thông tin mô tả"
+      }
+    }
+  }
+}

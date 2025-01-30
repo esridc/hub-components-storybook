@@ -1,0 +1,33 @@
+{
+  "title": "Colecciones",
+  "actions": {
+    "label": "Opciones",
+    "show": "Mostrar",
+    "hide": "Ocultar",
+    "rename": "Cambiar el nombre"
+  },
+  "formAlert": "Alerta de formulario",
+  "alertMessages": {
+    "success": "Ediciones guardadas correctamente",
+    "error": "Error al guardar ediciones"
+  },
+  "collectionRenameModal": {
+    "title": "Cambiar nombre de colección",
+    "fieldLabel": "Etiqueta de colección",
+    "requiredMessage": "Etiqueta de colección obligatoria",
+    "apply": "Aplicar",
+    "maxLengthMessage": "La etiqueta de colección no debe superar los 50 caracteres"
+  },
+  "collections": {
+    "dataset": "Datos",
+    "site": "Sitios",
+    "document": "Documentos",
+    "appAndMap": "Aplicaciones y mapas"
+  },
+  "saveButton": "Guardar",
+  "sections": {
+    "collectionConfiguration": {
+      "title": "Configuración de la colección"
+    }
+  }
+}

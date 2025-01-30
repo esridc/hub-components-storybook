@@ -1,0 +1,1346 @@
+{
+  "success": "Editările au fost salvate cu succes",
+  "error": "Eroare la salvarea editărilor",
+  "formAlert": "Alertă formular",
+  "create": "Creare",
+  "shared": {
+    "notices": {
+      "metrics": {
+        "preview": {
+          "label": "Previzualizați indicatorul",
+          "message": "Modificările făcute aici se vor afișa în previzualizarea indicatorilor."
+        }
+      }
+    },
+    "sections": {
+      "metrics": {
+        "basic": {
+          "label": "Informații de bază"
+        },
+        "source": {
+          "label": "Valoare"
+        },
+        "formatting": {
+          "label": "Formatare"
+        },
+        "sharing": {
+          "label": "Partajare"
+        }
+      },
+      "mapSettings": {
+        "label": "Setări hartă"
+      }
+    },
+    "errors": {
+      "urlFormat": "Formatul URL-ului este incorect"
+    },
+    "fields": {
+      "name": {
+        "maxLengthError": "Numele nu trebuie să depășească 250 de caractere"
+      },
+      "title": {
+        "maxLengthError": "Titlul nu trebuie să depășească 250 de caractere"
+      },
+      "summary": {
+        "maxLengthError": "Rezumatul nu trebuie să depășească 2048 de caractere"
+      },
+      "purpose": {
+        "maxLengthError": "Scopul nu trebuie să depășească 2048 de caractere"
+      },
+      "_thumbnail": {
+        "label": "Miniatură",
+        "sizeDescription": "Dimensiunea maximă este 10 MB. Dimensiuni recomandate: 760 x 505 sau mai mari",
+        "defaultThumbnailNotice": "Încărcați propria miniatură pentru a o înlocui pe cea implicită."
+      },
+      "location": {
+        "none": "Nicio locație",
+        "org": "Extindere organizație",
+        "custom": "Locație particularizată",
+        "customDescription": "Trasați una sau mai multe locații",
+        "itemExtent": "Extindere curentă element"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Tip",
+          "sharing": "Partajare"
+        },
+        "catalog": {
+          "myContent": "Resursele mele",
+          "favorites": "Preferinţe",
+          "organization": "Organizaţie",
+          "world": "Internațional (public)"
+        },
+        "collection": {
+          "appsAndMaps": "Aplicații și hărți",
+          "dataset": "Date",
+          "documents": "Documente",
+          "feedback": "Feedback",
+          "sites": "Site-uri",
+          "projects": "Proiecte"
+        }
+      },
+      "metrics": {
+        "allowDynamicLink": {
+          "label": "Afișare link sursă"
+        },
+        "cardTitle": {
+          "label": "Titlu",
+          "message": {
+            "required": "Acest câmp este obligatoriu."
+          }
+        },
+        "dynamicMetric": {
+          "label": "Sursă de date"
+        },
+        "value": {
+          "label": "Valoare",
+          "message": {
+            "required": "Acest câmp este obligatoriu."
+          }
+        },
+        "unit": {
+          "label": "Unități",
+          "helperText": "Utilizați pentru a seta o valoare prefix sau postfix, cum ar fi %, +, $ sau altele. Lăsați gol pentru a nu afișa nimic."
+        },
+        "unitPosition": {
+          "label": "Poziție unitate",
+          "helperText": "Selectați unde apare unitatea de măsură (de ex. „km”, „lbs”) prin raportare la valoarea metrică.",
+          "enum": {
+            "after": {
+              "label": "Valoare după"
+            },
+            "before": {
+              "label": "Valoare înainte"
+            },
+            "below": {
+              "label": "Valoare sub"
+            }
+          }
+        },
+        "showShareIcon": {
+          "label": "Activare partajare",
+          "helperText": {
+            "label": "Permiteți utilizatorilor să copieze un link direct la această valoare."
+          }
+        },
+        "shareableOnHover": {
+          "label": "Afișare la glisare cu mouse-ul",
+          "helperText": {
+            "label": "Butonul partajare se afișează numai la glisarea cu mouse-ul. Dacă este dezactivat, butonul este întotdeauna vizibil."
+          }
+        },
+        "sourceLink": {
+          "label": "Link pentru URL",
+          "message": {
+            "required": "Link necesar pentru a afișa sursa."
+          }
+        },
+        "sourceTitle": {
+          "label": "Link pentru text"
+        },
+        "trailingText": {
+          "label": "Text sfârșit",
+          "helperText": "Introduceți orice context sau explicație suplimentară (care să apară sub valoarea metrică)."
+        },
+        "type": {
+          "label": "Tip",
+          "enum": {
+            "dynamic": {
+              "label": "Dinamic",
+              "description": "Selectați un set de date existent (serviciu de obiect spațial) pentru rezumare."
+            },
+            "static": {
+              "label": "Static",
+              "description": "Introduceți manual o valoare pentru a o evidenția în structura dvs."
+            }
+          }
+        },
+        "valueType": {
+          "label": "Tipul valorii",
+          "helperText": "Selectați tipul de valoare pe care doriți să o afișați.",
+          "enum": {
+            "string": {
+              "label": "Text",
+              "description": "Orice cuvânt sau frază. Nu este menită pentru utilizarea în calcule numerice. (de ex. „Strada Principală”)"
+            },
+            "number": {
+              "label": "Număr",
+              "description": "O valoare numerică. Poate fi utilizată pentru calcule. (de ex. 123)"
+            },
+            "date": {
+              "label": "Dată",
+              "description": "O valoare a datei calendaristice. Nu este menită pentru utilizarea în calcule numerice. (de ex. „1.1.2018”)"
+            }
+          }
+        }
+      },
+      "categories": {
+        "label": "Categorii",
+        "noCategoriesNotice": {
+          "body": "Această organizație nu are nicio categorie încă.",
+          "link": "Configurarea categoriilor"
+        }
+      },
+      "download": {
+        "format": {
+          "bip": "BIP",
+          "bmp": "BMP",
+          "bsq": "BSQ",
+          "gif": "GIF",
+          "jpg": "JPG",
+          "jpgPng": "JPG_PNG",
+          "lerc": "LERC",
+          "png": "PNG",
+          "png8": "PNG8",
+          "png24": "PNG24",
+          "png32": "PNG32",
+          "tiff": "TIFF",
+          "csv": "CSV",
+          "excel": "Excel",
+          "featureCollection": "Colecție obiecte spațiale",
+          "filegdb": "File Geodatabase",
+          "geojson": "GeoJSON",
+          "geoPackage": "GeoPackage",
+          "json": "JSON",
+          "kml": "KML",
+          "shapefile": "Shapefile",
+          "sqlite": "Bază date geo SQLite"
+        },
+        "additionalResource": "{resourceName} (distribuirea metadatelor)",
+        "dataSourceResource": "Sursa datelor (distribuirea metadatelor)",
+        "noTitleResource": "Link (fără titlu, distribuirea metadatelor)"
+      }
+    }
+  },
+  "project": {
+    "sections": {
+      "details": {
+        "label": "Detalii"
+      },
+      "basicInfo": {
+        "label": "Informații de bază"
+      },
+      "location": {
+        "label": "Locaţie",
+        "helperText": "Afișați zona geografică în care va avea loc acest proiect (pentru a apărea în structura proiectului)."
+      },
+      "status": {
+        "label": "Stare"
+      },
+      "sharing": {
+        "label": "Partajare"
+      },
+      "timeline": {
+        "label": "Cronologie"
+      },
+      "searchDiscoverability": {
+        "label": "Căutare și posibilitate de descoperire"
+      },
+      "featuredContent": {
+        "label": "Conținut promovat",
+        "helperText": "Evidențiați documente specifice, aplicații și date legate de proiectul dvs. Puteți prezenta până la 4 elemente."
+      },
+      "callToAction": {
+        "label": "Linkuri de acțiune",
+        "helperText": "Aceasta va afișa un buton proeminent în partea de sus a proiectului dvs. Utilizați pentru a vă trimite audiența spre un site, chestionar, hartă etc."
+      },
+      "embeds": {
+        "label": "Obiect spațial încorporat",
+        "helperText": "Selectați o hartă web, o scenă web sau o aplicație pentru a o evidenția în proiectul dvs."
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Nume proiect",
+        "requiredError": "Numele proiectului este un câmp obligatoriu.",
+        "maxLengthError": "Numele proiectului nu trebuie să depășească 250 de caractere",
+        "entityTitleValidatorError": "Numele proiectului nu poate include emoji-uri, caractere <, >, sau ="
+      },
+      "description": {
+        "label": "Descriere",
+        "helperText": "Specificați cum își va realiza proiectul dvs. obiectivele. Analizați posibilitatea de includere a informațiilor de context relevante și modificările așteptate4 ca urmare a proiectului."
+      },
+      "summary": {
+        "label": "Scop",
+        "helperText": "Rezumați pe scurt obiectivele proiectului dvs."
+      },
+      "access": {
+        "itemType": "Proiect"
+      },
+      "groups": {
+        "label": "Partajați cu...",
+        "viewGroup": "(Grup vizualizare)",
+        "editGroup": "(Grup editare)"
+      },
+      "_thumbnail": {
+        "helperText": "Setați o miniatură pentru a reprezenta acest proiect în ArcGIS Online și pentru căutări și galerii."
+      },
+      "featuredImage": {
+        "label": "Imagine prezentată",
+        "helperText": "Selectați o imagine pentru a reprezenta munca dvs. la structura proiectului.",
+        "sizeDescription": "Dimensiunea max. a fișierului este 10 mb. Dimensiuni recomandate: 718 x 478 sau mai mari",
+        "altText": {
+          "label": "Text alternativ",
+          "helperText": "Furnizați o scurtă descriere a imaginii dvs. pentru cei care utilizează cititoarele de ecran. Lăsați gol pentru a indica faptul că imaginea este decorativă."
+        }
+      },
+      "slug": {
+        "label": "Melc",
+        "helperText": "Melc este versiunea prietenoasă pentru URL a numelui proiectului. Este generat automat pe baza numelui proiectului, dar îl puteți personaliza.",
+        "patternError": "Eroare: Melcul trebuie să aibă caractere alfanumerice minuscule separate de cratime.",
+        "isUniqueError": "Acest melc este deja utilizat. Alegeți altul."
+      },
+      "tags": {
+        "label": "Etichete",
+        "helperText": "Etichetele sunt utilizate în cataloagele de căutare pentru a-i ajuta pe alții să găsească acest proiect. Adăugați text și selectați enter pentru a crea etichete noi."
+      },
+      "categories": {
+        "helperText": "Categoriile sunt utilizate în cataloagele de căutare pentru a-i ajuta pe alții să găsească acest proiect. Acestea sunt setate de organizația dvs."
+      },
+      "status": {
+        "label": "Stare proiect",
+        "enum": {
+          "notStarted": {
+            "label": "Nepornit"
+          },
+          "inProgress": {
+            "label": "În progres"
+          },
+          "onHold": {
+            "label": "În așteptare"
+          },
+          "complete": {
+            "label": "Finalizată"
+          }
+        }
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Tip",
+          "sharing": "Partajare"
+        }
+      },
+      "callToAction": {
+        "facets": {
+          "type": "Tip",
+          "sharing": "Partajare"
+        }
+      },
+      "mapSettings": {
+        "label": "Configurați modul în care se afișează harta în proiect"
+      }
+    }
+  },
+  "initiative": {
+    "sections": {
+      "details": {
+        "label": "Detalii"
+      },
+      "basicInfo": {
+        "label": "Informații de bază"
+      },
+      "location": {
+        "label": "Locaţie",
+        "helperText": "Afișați zona geografică în care va avea loc această inițiativă (pentru a apărea în structura inițiativei)."
+      },
+      "sharing": {
+        "label": "Partajare"
+      },
+      "featuredContent": {
+        "label": "Conținut promovat",
+        "helperText": "Evidențiați documente specifice, aplicații și date legate de proiectul dvs. Puteți prezenta până la 4 elemente."
+      },
+      "status": {
+        "label": "Stare"
+      },
+      "hero": {
+        "label": "Erou"
+      },
+      "searchDiscoverability": {
+        "label": "Căutare și posibilitate de descoperire"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Nume inițiativă",
+        "requiredError": "Numele inițiativei este un câmp obligatoriu",
+        "maxLengthError": "Numele inițiativei nu trebuie să depășească 250 de caractere",
+        "entityTitleValidatorError": "Numele inițiativei nu poate include emojiuri, caractere <, >, sau ="
+      },
+      "summary": {
+        "label": "Scop",
+        "helperText": "Rezumați pe scurt obiectivele inițiativei dvs."
+      },
+      "access": {
+        "itemType": "Iniţiativă"
+      },
+      "description": {
+        "label": "Descriere",
+        "helperText": "Specificați cum își va realiza inițiativa dvs. obiectivele. Analizați posibilitatea de includere a informațiilor de context relevante și modificările așteptate ca urmare a inițiativei."
+      },
+      "slug": {
+        "label": "Melc",
+        "helperText": "Melc este versiunea prietenoasă pentru URL a numelui inițiativei. Este generat automat pe baza numelui inițiativei, dar îl puteți personaliza.",
+        "patternError": "Eroare: Melcul trebuie să aibă caractere alfanumerice minuscule separate de cratime.",
+        "isUniqueError": "Acest melc este deja utilizat. Alegeți altul."
+      },
+      "tags": {
+        "label": "Etichete",
+        "helperText": "Sunt utilizate etichete în cataloagele de căutare pentru a-i ajuta pe ceilalți să găsească această inițiativă. Adăugați text și selectați enter pentru a crea etichete noi."
+      },
+      "categories": {
+        "helperText": "Sunt utilizate categorii în cataloagele de căutare pentru a-i ajuta pe ceilalți să găsească această inițiativă. Acestea sunt setate de organizația dvs."
+      },
+      "_thumbnail": {
+        "helperText": "Setați o miniatură pentru a reprezenta această inițiativă în ArcGIS Online și pentru căutări și galerii."
+      },
+      "groups": {
+        "label": "Partajați cu...",
+        "viewGroup": "(Grup vizualizare)",
+        "editGroup": "(Grup editare)"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Tip",
+          "sharing": "Partajare"
+        }
+      },
+      "status": {
+        "label": "Stare inițiativă",
+        "enum": {
+          "notStarted": {
+            "label": "Neînceput"
+          },
+          "inProgress": {
+            "label": "În curs"
+          },
+          "onHold": {
+            "label": "În așteptare"
+          },
+          "complete": {
+            "label": "Finalizat"
+          }
+        }
+      },
+      "hero": {
+        "label": "Erou",
+        "helperText": "Eroul se afișează deasupra titlului inițiativei dvs. și poate conține o hartă sau o imagine.",
+        "map": {
+          "label": "Hartă",
+          "description": "Folosiți o hartă pentru a afișa zona țintă a inițiativei folosind locația sau proiectele asociate inițiativei."
+        },
+        "image": {
+          "label": "Imagine",
+          "description": "O imagine convingătoare poate ajuta oamenii să rezoneze sau să acționeze pentru obiectivul dvs."
+        }
+      },
+      "featuredImage": {
+        "label": "Imagine",
+        "helperText": "Pentru eroul dvs., folosiți o imagine în format peisaj. Aplicația va redimensiona proporțional imaginea dintr-un punct de focalizare central pentru a fi ajustată pentru diferite dimensiuni de ecran. Pe ecrane mari, înălțimea maximă va fi de 475 px.",
+        "sizeDescription": "Dimensiunea maximă a fișierului este de 10 MB.",
+        "altText": {
+          "label": "Text alternativ",
+          "helperText": "Furnizați o scurtă descriere a imaginii dvs. pentru cei care utilizează cititoarele de ecran. Lăsați gol pentru a indica faptul că imaginea este decorativă."
+        }
+      },
+      "groupAccess": {
+        "label": "Setare vizibilitate",
+        "helperText": "Controlați cine poate vedea asocierile făcute din această inițiativă",
+        "private": {
+          "label": "Privat",
+          "description": "Proprietarul inițiativei și grupurile cu acces pot vedea grupul"
+        },
+        "org": {
+          "label": "Organizație",
+          "description": "Toți membrii cu un cont în organizația inițiativei și grupurile cu acces pot vedea grupul"
+        },
+        "public": {
+          "label": "Public",
+          "description": "Toată lumea poate vedea grupul"
+        }
+      },
+      "membershipAccess": {
+        "label": "Cine poate fi în acest grup?",
+        "org": "Doar membrii organizației mele",
+        "collab": "Doar membrii colaborărilor partenere și ai organizației mele",
+        "any": "Oricare dintre membrii organizației (sugerat implicit)"
+      },
+      "includeInCatalog": {
+        "label": "Includeți în catalog",
+        "helperText": "Dacă este activat, toate elementele asociate vor apărea împreună cu alt conținut în catalogul de căutare al inițiativei."
+      },
+      "mapSettings": {
+        "label": "Configurați modul în care harta afișează inițiativa"
+      }
+    }
+  },
+  "discussion": {
+    "sections": {
+      "details": {
+        "label": "Detalii"
+      },
+      "basicInfo": {
+        "label": "Informații de bază"
+      },
+      "location": {
+        "label": "Locaţie",
+        "helperText": "Adăugați o zonă geografică pentru a seta limitele discuției și nivelul de transfocare implicită a hărții, pentru o discuție mai focalizată."
+      },
+      "settings": {
+        "label": "Discuții"
+      },
+      "searchDiscoverability": {
+        "label": "Căutare și posibilitate de descoperire"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Titlu",
+        "requiredError": "Numele panoului de discuții este obligatoriu.",
+        "entityTitleValidatorError": "Numele discuției nu poate include emojiuri, caractere <, > sau ="
+      },
+      "prompt": {
+        "label": "Mesaj",
+        "helperText": "Descrieți pe scurt ce doriți să trimită participanții pe acest panou de discuții.",
+        "requiredError": "Mesajul este un câmp obligatoriu",
+        "maxLengthError": "Mesajul nu trebuie să depășească 150 de caractere"
+      },
+      "description": {
+        "label": "Descriere",
+        "helperText": "Furnizați mai mult context care ar putea fi util când căutați acest panou."
+      },
+      "_thumbnail": {
+        "helperText": "Selectați o imagine pentru a reprezenta discuția dvs."
+      },
+      "summary": {
+        "label": "Rezumat",
+        "helperText": "Descrieți pe scurt scopul panoului de discuții, ceea ce este util când partajați linkul cu alte persoane."
+      },
+      "featuredImage": {
+        "label": "Imagine prezentată",
+        "sizeDescription": "Dimensiunea maximă este 10 MB, JPEG, JPG sau PNG",
+        "altText": {
+          "label": "Text alternativ",
+          "helperText": "Furnizați o scurtă descriere a imaginii dvs. pentru cei care utilizează cititoarele de ecran. Lăsați gol pentru a indica faptul că imaginea este decorativă."
+        },
+        "name": {
+          "label": "Denumire imagine"
+        }
+      },
+      "slug": {
+        "label": "Melc",
+        "helperText": "Melc este versiunea prietenoasă pentru URL a numelui discuției. Este generat automat pe baza numelui discuției, dar îl puteți personaliza.",
+        "patternError": "Eroare: Melcul trebuie să aibă caractere alfanumerice minuscule separate de cratime.",
+        "isUniqueError": "Acest melc este deja utilizat. Alegeți altul."
+      },
+      "tags": {
+        "label": "Etichete"
+      },
+      "categories": {
+        "helperText": "Categoriile sunt utilizate în cataloagele de căutare pentru a-i ajuta pe alții să găsească această discuție. Acestea sunt setate de organizația dvs."
+      },
+      "discussable": {
+        "label": "Discuție permisă?",
+        "enabled": {
+          "label": "Da, discuția este permisă",
+          "description": "Participanții pot adăuga postări, răspunsuri .și reacții la acest panou de discuții."
+        },
+        "disabled": {
+          "label": "Nu, discuția este blocată",
+          "description": "Elimină posibilitatea de a adăuga postări noi, răspunsuri și reacții. Nu șterge participarea anterioară."
+        }
+      },
+      "mapSettings": {
+        "label": "Configurați modul în care harta este afișată pe panoul de discuții"
+      }
+    }
+  },
+  "site": {
+    "sections": {
+      "defaultRequiredHelperText": "*indică un câmp obligatoriu",
+      "basicInfo": {
+        "label": "Informații de bază"
+      },
+      "location": {
+        "label": "Locaţie",
+        "helperText": "Afișați zona geografică de care aparține acest site."
+      },
+      "discussions": {
+        "label": "Discuții"
+      },
+      "privacy": {
+        "label": "Configurare de confidențialitate"
+      },
+      "siteUrl": {
+        "label": "URL site"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Denumirea site-ului",
+        "requiredError": "Denumirea site-ului este un câmp obligatoriu",
+        "maxLengthError": "Numele site-ului nu trebuie să depășească 250 de caractere",
+        "siteEntityTitleValidatorError": "Numele site-ului nu poate include emojiuri sau caractere unicode"
+      },
+      "_thumbnail": {
+        "helperText": "Setați o miniatură pentru a reprezenta acest site în ArcGIS Online și pentru căutare și galerii."
+      },
+      "description": {
+        "label": "Descriere",
+        "helperText": "Descrierea site-ului."
+      },
+      "summary": {
+        "label": "Rezumat",
+        "helperText": "Rezumați pe scurt site-ul."
+      },
+      "slug": {
+        "label": "Melc",
+        "helperText": "Melc este versiunea prietenoasă pentru URL a numelui site-ului. Este generat automat pe baza numelui site-ului, dar îl puteți personaliza.",
+        "patternError": "Eroare: Melcul trebuie să aibă caractere alfanumerice minuscule separate de cratime.",
+        "isUniqueError": "Acest melc este deja utilizat. Alegeți altul."
+      },
+      "tags": {
+        "label": "Etichete",
+        "helperText": "Etichetele sunt utilizate în cataloagele de căutare pentru a-i ajuta pe alții să găsească acest site. Adăugați text și selectați enter pentru a crea etichete noi."
+      },
+      "categories": {
+        "helperText": "Categoriile sunt utilizate în cataloagele de căutare pentru a-i ajuta pe alții să găsească acest site. Acestea sunt setate de organizația dvs."
+      },
+      "discussable": {
+        "label": "Afișează interfața de discuții pentru utilizatorii autentificați pe site-urile live (activată implicit).",
+        "enabled": {
+          "label": "Da, discuția este permisă",
+          "description": "Afișare interfață de discuții"
+        },
+        "disabled": {
+          "label": "Nu, discuția este blocată",
+          "description": "Ascundere interfață de discuții"
+        }
+      },
+      "followers": {
+        "groupAccess": {
+          "label": "Setare vizibilitate",
+          "helperText": "Controlați cine poate vedea următoarele butoane. Această setare se aplică atât pentru butonul flotant de urmărire a acțiunilor în pagină, cât și pentru orice buton de urmărire inclus direct pe stratul tematic.",
+          "private": {
+            "label": "Privat",
+            "description": "Proprietarul site-ului și grupurile cu acces pot vedea butoanele de urmărire"
+          },
+          "org": {
+            "label": "Organizație",
+            "description": "Toți membrii unui cont la organizația site-ului și grupurile cu acces pot vedea butoanele de urmărire"
+          },
+          "public": {
+            "label": "Public",
+            "description": "Toată lumea poate vedea butoanele de urmărire"
+          }
+        },
+        "showFollowAction": {
+          "label": "Acțiune de urmărire",
+          "helperText": "Adăugați un buton de urmărire în meniul de acțiuni în pagină, care rămâne vizibil atunci când utilizatorii derulează stratul tematic."
+        },
+        "discussable": {
+          "label": "Acest grup poate participa la discuții?",
+          "enabled": {
+            "label": "Da, discuția este permisă",
+            "description": "Membrii grupului pot vizualiza și participa la canalele de discuții la care acest grup are acces."
+          },
+          "disabled": {
+            "label": "Nu, discuția este blocată",
+            "description": "Membrii grupului nu pot vizualiza sau participa la canalele de discuție la care acest grup are acces."
+          }
+        }
+      },
+      "siteUrl": {
+        "isUniqueError": "Eroare: un site care utilizează acest URL există deja."
+      }
+    }
+  },
+  "page": {
+    "sections": {
+      "basicInfo": {
+        "label": "Informații de bază"
+      },
+      "location": {
+        "label": "Locaţie",
+        "helperText": "Afișați zona geografică de care aparține această pagină."
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Denumirea paginii",
+        "requiredError": "Denumirea paginii este un câmp obligatoriu",
+        "maxLengthError": "Numele paginii nu trebuie să depășească 250 de caractere",
+        "entityTitleValidatorError": "Numele paginii nu poate include emoji-uri, caractere <, >, sau ="
+      },
+      "description": {
+        "label": "Descriere",
+        "helperText": "Descrierea paginii."
+      },
+      "summary": {
+        "label": "Rezumat",
+        "helperText": "Rezumați pe scurt pagina."
+      },
+      "slug": {
+        "label": "Melc",
+        "helperText": "Melc este versiunea prietenoasă pentru URL a numelui paginii. Este generat automat pe baza numelui paginii, dar îl puteți personaliza.",
+        "patternError": "Eroare: Melcul trebuie să aibă caractere alfanumerice minuscule separate de cratime.",
+        "isUniqueError": "Acest melc este deja utilizat. Alegeți altul."
+      },
+      "tags": {
+        "label": "Etichete",
+        "helperText": "Etichetele sunt utilizate în cataloagele de căutare pentru a-i ajuta pe alții să găsească această pagină. Adăugați text și selectați enter pentru a crea etichete noi."
+      },
+      "_thumbnail": {
+        "helperText": "Setați o miniatură pentru a reprezenta această pagină în ArcGIS Online și pentru căutare și galerii."
+      },
+      "categories": {
+        "helperText": "Categoriile sunt utilizate în cataloagele de căutare pentru a-i ajuta pe alții să găsească această pagină. Acestea sunt setate de organizația dvs."
+      }
+    }
+  },
+  "content": {
+    "fields": {
+      "title": {
+        "label": "Titlu",
+        "hint": "Titlurile concise vor spori capacitatea de a fi descoperite în tot conținutul.",
+        "requiredError": "Titlul este un câmp obligatoriu",
+        "entityTitleValidatorError": "Numele nu poate include emoji-uri, caractere <, >, sau ="
+      },
+      "summary": {
+        "label": "Rezumat",
+        "hint": "Rezumați pe scurt conținutul. SUGESTIE: Îmbunătățiți SEO folosind cuvinte cheie care diferă de „Titlu” și „Etichete”."
+      },
+      "description": {
+        "label": "Descriere",
+        "hint": "Adăugați detalii suplimentare care să explice conținutul. Căutați un nivel de citire de clasa a 7-a - a 9-a pentru a avea un public mai mare. <a href='https://www.webfx.com/tools/read-able/' target='_blank'>Folosiți un instrument de analiză gratuită a lizibilității pentru a vă testa textul</a>."
+      },
+      "tags": {
+        "label": "Etichete",
+        "hint": "Etichetele sunt utilizate în cataloagele de căutare pentru a-i ajuta pe alții să găsească acest conținut. Adăugați text și selectați enter pentru a crea etichete noi."
+      },
+      "categories": {
+        "helperText": "Categoriile sunt utilizate în cataloagele de căutare pentru a-i ajuta pe alții să găsească acest conținut. Acestea sunt setate de organizația dvs."
+      },
+      "_thumbnail": {
+        "helperText": "Setați o miniatură pentru a reprezenta acest element în ArcGIS Online și pentru căutări și galerii."
+      },
+      "license": {
+        "label": "Termeni de utilizare",
+        "helperText": "Mai puține restricții promovează mai multe reutilizări."
+      },
+      "discussable": {
+        "label": "Discuție permisă?",
+        "enabled": {
+          "label": "Da, discuția este permisă",
+          "description": "Participanții pot adăuga postări, răspunsuri și reacții la acest element."
+        },
+        "disabled": {
+          "label": "Nu, discuția este blocată",
+          "description": "Elimină posibilitatea de a adăuga postări noi, răspunsuri și reacții. Nu șterge participarea anterioară."
+        }
+      },
+      "serverExtractCapability": {
+        "label": "Descărcare sistem",
+        "exportDataSetting": {
+          "label": "Setarea exportului de date (recomandată)",
+          "description": "Activați formate de descărcare suplimentare și performanță de descărcare crescută."
+        },
+        "defaultDownloadsSystem": {
+          "label": "Descărcare sistem implicită",
+          "description": "Poate oferi mai puține formatări, viteze de descărcare mai mici și lizibilitate mai redusă."
+        },
+        "noFormatConfigurationNotice": {
+          "title": "Configurație de format indisponibilă",
+          "body": "Configurarea formatului necesită ca setarea de export al datelor să fie activată."
+        }
+      },
+      "downloadFormats": {
+        "label": "Formate",
+        "helperText": "Selectați ce formate să permiteți utilizatorilor să acceseze și ordinea în care sunt afișate. (Rețineți că trebuie să selectați cel puțin un format)",
+        "downloadsUnavailableNotice": {
+          "title": "Descărcările nu sunt disponibile",
+          "body": "Pentru a descărca conținut, setarea Export Data trebuie să fie activată în ArcGIS Online. Vă rugăm să contactați titularul elementului pentru a activa această setare."
+        }
+      },
+      "schedule": {
+        "manual": {
+          "helperActionText": "Utilizați această opțiune dacă doriți să actualizați manual indexul de căutare și fișierele salvate în cache pentru acest element."
+        },
+        "forceUpdateButton": {
+          "label": "Forțare actualizare",
+          "description": "Selectați această opțiune și apoi selectați „Salvare” pentru a actualiza manual indexul de căutare și fișierele descărcate în cache pentru acest element, după cum este cazul."
+        },
+        "unavailableNotice": {
+          "title": "Actualizări programate indisponibile",
+          "body": "Faceți acest conținut „Public” pentru a activa actualizările programate."
+        }
+      }
+    },
+    "sections": {
+      "basic": {
+        "title": "Informații de bază",
+        "message": "Aceste informații sunt folosite pentru popularea rezultatelor de căutare, a cartelelor de galerie și sunt afișate pe imaginea cu detalii."
+      },
+      "about": {
+        "title": "Despre conținut",
+        "message": "Primele două rânduri ale descrierii dvs. sunt ceea ce apare în rezultatele de căutare, dar întreaga descriere va fi prezentată pe imaginile cu conținut concentrat."
+      },
+      "image": {
+        "title": "Imagine prezentată",
+        "message": "Este important să aveți o imagine sau o miniatură atunci când vă prezentați conținutul în galeriile noastre sau pe vizualizări care accentuează imagini cum ar fi inițiativele, evenimentele și chestionarele. Dimensiunea recomandată este de 760x505. Dacă imaginea dvs. este neclară pe trasee în direct, luați în considerare înlocuirea miniaturii cu o imagine mai mare."
+      },
+      "location": {
+        "label": "Locaţie",
+        "helperText": "Afișați zona geografică în care va avea loc acest conținut (pentru a apărea în structura conținutului)."
+      },
+      "discussions": {
+        "label": "Discuții"
+      },
+      "downloads": {
+        "label": "Descărcări",
+        "helperText": "Configurați formate de descărcare, programați actualizarea fișierelor din memoria cache și multe alte. Pentru mai multe detalii, consultați <calcite-link href=\"https://doc.arcgis.com/en/hub/content/data-download-settings.htm\" target=\"_blank\" icon-end=\"launch\">descărcarea documentației.</calcite-link>"
+      },
+      "schedule": {
+        "label": "Actualizări programate",
+        "helperText": "Hub va încerca automat să stabilească cea mai bună oră pentru actualizarea conținutului (implicit). Cu toate acestea, puteți seta o frecvență de actualizare pentru conținut, metadate și fișiere descărcate în cache (dacă este cazul)."
+      }
+    },
+    "stringField": {
+      "charCounter": "{count} caractere rămase"
+    },
+    "imageThumbnail": {
+      "label": "Imagine miniatură",
+      "upload": "Încărcare imagine",
+      "done": "Gata",
+      "editThumbnail": "Editare miniatură",
+      "browse": "Parcurgere după imagine",
+      "remove": "Eliminare imagine",
+      "edit": "Editare imagine",
+      "defaultHeading": "Adăugați o imagine în miniatură",
+      "dropHeading": "Fixați pentru a încărca",
+      "errorHeading": "Încercați o altă imagine",
+      "subheading": "Dimensiunea max est {size}, {types}",
+      "zoomOut": "micşorare",
+      "zoomIn": "mărire",
+      "drag": "Glisați pentru a repoziționa",
+      "urlPlaceholder": "Tipuri acceptate: {types}",
+      "browseForImage": "Răsfoire după imagine",
+      "aria": {
+        "container": "Suprafața imaginii",
+        "crop": "Suprafața decupajului",
+        "handle": {
+          "top": "Redimensionare sus",
+          "right": "Redimensionare dreapta",
+          "left": "Redimensionare stânga",
+          "bottom": "Redimensionare jos"
+        }
+      }
+    }
+  },
+  "group": {
+    "sections": {
+      "details": {
+        "label": "Detalii"
+      },
+      "basicInfo": {
+        "label": "Informații de bază"
+      },
+      "capabilities": {
+        "label": "Capacități"
+      },
+      "membershipAccess": {
+        "label": "Calitatea de membru al grupului"
+      },
+      "discussions": {
+        "label": "Discuții"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Titlu",
+        "requiredError": "Titlul grupului este un câmp obligatoriu",
+        "maxLengthError": "Titlul grupului nu trebuie să depășească 250 de caractere",
+        "entityTitleValidatorError": "Numele grupului nu poate include emoji-uri, caractere <, >, sau ="
+      },
+      "summary": {
+        "label": "Rezumat",
+        "maxLengthError": "Rezumatul nu trebuie să depășească 250 de caractere"
+      },
+      "description": {
+        "label": "Descriere"
+      },
+      "access": {
+        "label": "Cine poate vedea acest grup?",
+        "private": {
+          "label": "Privat",
+          "description": "Doar membrii grupului pot vedea grupul."
+        },
+        "org": {
+          "label": "Organizație",
+          "description": "Doar membrii organizației pot vedea grupul."
+        },
+        "public": {
+          "label": "Toată lumea (public)",
+          "description": "Toată lumea poate vedea grupul."
+        }
+      },
+      "isSharedUpdate": {
+        "label": "Actualizare partajată",
+        "helperText": "Articolele din acest grup vor fi editabile de către toți membrii acestui grup. Calitatea de membru este limitată la organizația dvs. și la organizațiile dvs. colaboratoare."
+      },
+      "isAdmin": {
+        "label": "Grupul administrativ",
+        "helperText": "Membrii nu pot părăsi acest grup. Doar managerii grupului sau titularul grupului pot elimina membri din acest grup. Calitatea de membru este limitată la organizația dvs."
+      },
+      "isOpenData": {
+        "label": "Deschidere date",
+        "helperText": "Permiteți accesarea acestui grup în site-uri Open Data.",
+        "constError": "Grupurile care nu sunt publice nu pot deschide datele."
+      },
+      "_thumbnail": {
+        "label": "Miniatură",
+        "helperText": "Selectați o imagine pentru a reprezenta grupul dvs. în profilul grupului.",
+        "sizeDescription": "Dimensiunea max. este 10 mb. Dimensiune recomandată: 400 x 400 sau mai mare"
+      },
+      "membershipAccess": {
+        "label": "Cine poate fi în acest grup?",
+        "org": {
+          "description": "Doar membrii organizației mele",
+          "label": "Membrii organizației"
+        },
+        "collab": {
+          "description": "Doar membrii colaborărilor partenere și ai organizației mele",
+          "label": "Numai colaboratori"
+        },
+        "any": {
+          "description": "Membrii oricărei organizații",
+          "label": "Oricine"
+        },
+        "createFollowers": {
+          "any": "Oricare dintre membrii organizației (sugerat implicit)"
+        },
+        "createAssociation": {
+          "any": "Oricare dintre membrii organizației (sugerat implicit)"
+        },
+        "constError": "Calitatea de membru al grupurilor de administratori este limitată la membrii organizației dvs.",
+        "patternError": "Apartenența la grup actualizată partajată este limitată la organizația dvs. sau la membrii de colaborare parteneri."
+      },
+      "contributeContent": {
+        "label": "Cine poate contribui cu conţinut?",
+        "members": {
+          "label": "Membri",
+          "description": "Toți membrii grupului"
+        },
+        "admins": {
+          "label": "Administratorii",
+          "description": "Titularul şi managerii grupului"
+        },
+        "createFollowers": {
+          "admins": "Proprietarul grupului și managerii (sugerat implicit)"
+        },
+        "createAssociation": {
+          "admins": "Proprietarul grupului și managerii (sugerat implicit)"
+        }
+      },
+      "join": {
+        "label": "Cum pot adera oamenii la acest grup",
+        "invite": {
+          "label": "Invitație",
+          "description": "Numai cu invitație"
+        },
+        "request": {
+          "label": "Solicitare",
+          "description": "Cu solicitare"
+        },
+        "auto": {
+          "label": "Ei înșiși",
+          "description": "Adăugându-se singuri"
+        },
+        "constError": "Se poate adera la grupurile private doar pe bază de invitație.",
+        "patternError": "Aderarea la grupurile de administratori sau cu actualizare partajată trebuie să se facă numai pe bază de invitație sau cerere."
+      },
+      "hiddenMembers": {
+        "label": "Cine poate vedea lista completă a membrilor din fila de Membri ai grupului?",
+        "members": {
+          "label": "Membri",
+          "description": "Toți membrii grupului"
+        },
+        "admins": {
+          "label": "Administratorii",
+          "description": "Titularul şi managerii grupului"
+        }
+      },
+      "discussable": {
+        "label": "Acest grup poate participa la discuții?",
+        "enabled": {
+          "label": "Da, discuția este permisă",
+          "description": "Membrii grupului pot vizualiza și participa la canalele de discuții la care acest grup are acces."
+        },
+        "disabled": {
+          "label": "Nu, discuția este blocată",
+          "description": "Membrii grupului nu pot vizualiza sau participa la canalele de discuție la care acest grup are acces."
+        }
+      }
+    }
+  },
+  "initiativeTemplate": {
+    "sections": {
+      "basicInfo": {
+        "label": "Informații de bază"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Nume",
+        "requiredError": "Numele inițiativei de șablon este un câmp obligatoriu",
+        "entityTitleValidatorError": "Șablonul numelui inițiativei nu poate include emojiuri, caractere <, >, sau ="
+      },
+      "slug": {
+        "label": "Melc",
+        "helperText": "Melc este versiunea prietenoasă pentru URL a șablonului numelui inițiativei. Este generat automat pe baza șablonului numelui inițiativei, dar îl puteți personaliza.",
+        "patternError": "Eroare: Melcul trebuie să aibă caractere alfanumerice minuscule separate de cratime.",
+        "isUniqueError": "Acest melc este deja utilizat. Alegeți altul."
+      },
+      "previewUrl": {
+        "label": "Previzualizare link",
+        "helperText": "Un link de previzualizare va fi aplicat la titlu și este util dacă intenționați să partajați public șablonul. Linkul trebuie să înceapă cu „https://”",
+        "formatError": "Formatul URL-ului este incorect"
+      },
+      "summary": {
+        "label": "Rezumat",
+        "helperText": "Scrieți o scurtă descriere a acestui șablon, care să apară în galeria de șabloane (se recomandă să fie cel mult 90 de caractere)."
+      },
+      "description": {
+        "label": "Descriere",
+        "helperText": "Include informații despre cum ar trebui să fie utilizat acest șablon. Aveți în vedere includerea instrucțiunilor de activare pentru altele."
+      },
+      "_thumbnail": {
+        "label": "Miniatură",
+        "helperText": "Setați o miniatură pentru a reprezenta acest șablon în ArcGIS Online și pentru căutări și galerii.",
+        "sizeDescription": "Dimensiunea maximă este 10 MB. Dimensiune recomandată: 750 x 505 sau mai mare"
+      },
+      "recommendedTemplates": {
+        "label": "Șabloane recomandate",
+        "catalog": {
+          "myContent": "Resursele mele",
+          "favorites": "Preferințe",
+          "organization": "Organizația mea",
+          "world": "Internațional (public)"
+        },
+        "facets": {
+          "sharing": "Partajare"
+        },
+        "pickerTitle": "Selectare șabloane"
+      }
+    }
+  },
+  "template": {
+    "sections": {
+      "basicInfo": {
+        "label": "Informații de bază"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Denumire șablon",
+        "requiredError": "Numele șablonului este un câmp obligatoriu",
+        "maxLengthError": "Numele șablonului nu trebuie să depășească 250 de caractere",
+        "entityTitleValidatorError": "Numele șablonului nu poate include emojiuri, caractere <, >, sau ="
+      },
+      "previewUrl": {
+        "label": "Previzualizare link",
+        "helperText": "Un link de previzualizare va fi aplicat la titlu și este util dacă intenționați să partajați public șablonul. Linkul trebuie să înceapă cu „https://”",
+        "formatError": "Formatul URL-ului este incorect"
+      },
+      "description": {
+        "label": "Descriere",
+        "helperText": "Include informații despre cum ar trebui să fie utilizat acest șablon. Aveți în vedere includerea instrucțiunilor de activare pentru altele."
+      },
+      "summary": {
+        "label": "Rezumat",
+        "helperText": "Scrieți o scurtă descriere a acestui șablon, care să apară în galeria de șabloane (se recomandă să fie cel mult 90 de caractere)."
+      },
+      "_thumbnail": {
+        "helperText": "Selectați o imagine pentru a reprezenta șablonul în galerii."
+      }
+    }
+  },
+  "survey": {
+    "sections": {
+      "basicInfo": {
+        "label": "Informații de bază"
+      },
+      "searchDiscoverability": {
+        "label": "Căutare și posibilitate de descoperire"
+      },
+      "settings": {
+        "label": "Afișare hartă"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Denumire chestionar",
+        "requiredError": "Denumirea chestionarului este un câmp obligatoriu",
+        "maxLengthError": "Numele chestionarului nu trebuie să depășească 250 de caractere",
+        "entityTitleValidatorError": "Numele chestionarului nu poate include emoji-uri, caractere <, >, sau ="
+      },
+      "description": {
+        "label": "Descriere",
+        "helperText": "Descrierea chestionarului."
+      },
+      "summary": {
+        "label": "Rezumat",
+        "helperText": "Rezumați pe scurt chestionarul."
+      },
+      "_thumbnail": {
+        "helperText": "Setați o miniatură pentru a reprezenta acest chestionar în ArcGIS Online și pentru căutări și galerii."
+      },
+      "tags": {
+        "label": "Etichete",
+        "helperText": "Etichetele sunt utilizate în cataloagele de căutare pentru a-i ajuta pe alții să găsească acest chestionar. Adăugați text și selectați enter pentru a crea etichete noi."
+      },
+      "categories": {
+        "helperText": "Categoriile sunt utilizate în cataloagele de căutare pentru a-i ajuta pe alții să găsească acest chestionar. Acestea sunt setate de organizația dvs."
+      },
+      "displayMap": {
+        "label": "Cum ar trebui să se afișeze chestionarul dvs. când este deschis în ArcGIS Hub?",
+        "enabled": {
+          "label": "Focalizarea pe hartă",
+          "description": "Experiență de hartă imersivă, întrebarea privind harta este afișată prima."
+        },
+        "disabled": {
+          "label": "Afișare standard",
+          "description": "Harta este afișată în rând cu celelalte întrebări."
+        },
+        "notice": {
+          "title": "Necesită o întrebare despre hartă",
+          "message": "Publicați chestionarul cu o întrebare despre hartă în Survey123 pentru a configura afișarea hărții în ArcGIS Hub."
+        }
+      }
+    }
+  },
+  "event": {
+    "fields": {
+      "name": {
+        "label": "Titlu",
+        "requiredError": "Titlul este un câmp obligatoriu",
+        "entityTitleValidatorError": "Numele evenimentului nu poate include emojiuri, caractere <, >, sau ="
+      },
+      "startDate": {
+        "label": "Data începerii",
+        "requiredError": "Data începerii este un câmp obligatoriu",
+        "minDateError": "Data începerii nu poate fi înainte de data de astăzi"
+      },
+      "endDate": {
+        "label": "Data încheierii",
+        "requiredError": "Data încheierii este un câmp obligatoriu",
+        "minDateError": "Data încheierii nu poate fi înainte de data începerii"
+      },
+      "date": {
+        "label": "Dată",
+        "requiredError": "Data este un câmp obligatoriu",
+        "minDateError": "Data nu poate fi înainte de astăzi"
+      },
+      "startTime": {
+        "label": "Oră începerii",
+        "requiredError": "Ora începerii este un câmp obligatoriu"
+      },
+      "endTime": {
+        "label": "Ora încheierii",
+        "requiredError": "Ora încheierii este un câmp obligatoriu",
+        "minTimeError": "Ora încheierii trebuie să fie după ora începerii"
+      },
+      "allDay": {
+        "label": "Toată ziua"
+      },
+      "timeZone": {
+        "label": "Fus orar",
+        "requiredError": "Fusul orar este un câmp obligatoriu"
+      },
+      "attendanceType": {
+        "label": "Unde",
+        "inPerson": {
+          "label": "În persoană"
+        },
+        "online": {
+          "label": "Online"
+        },
+        "both": {
+          "label": "Ambele"
+        }
+      },
+      "onlineUrl": {
+        "label": "Link pentru alăturarea la un eveniment online",
+        "requiredError": "URL-ul este necesar pentru evenimente online sau hibride",
+        "linkHrefFormatError": "Formatul URL-ului este incorect"
+      },
+      "description": {
+        "label": "Descriere",
+        "helperText": "Adăugați informații suplimentare pentru înregistratori, cum ar fi tipul evenimentelor, scopul, agenda, ce trebuie adus, transportul etc.",
+        "requiredError": "Descrierea este un câmp obligatoriu"
+      },
+      "inPersonCapacity": {
+        "label": "Capacitate maximă cu prezență fizică",
+        "requiredError": "Capacitatea maximă cu prezența fizică este obligatorie",
+        "minimumError": "Capacitatea maximă cu prezența fizică trebuie să fie mai mare ca 0"
+      },
+      "inPersonCapacityType": {
+        "label": "Capacitate de înregistrare cu prezență fizică",
+        "unlimited": {
+          "label": "Nelimitată"
+        },
+        "fixed": {
+          "label": "Fixă"
+        }
+      },
+      "location": {
+        "label": "Afișați zona geografică în care va avea loc acest eveniment (pentru a apărea în structura evenimentului)."
+      },
+      "onlineCapacityType": {
+        "label": "Capacitate de înregistrare online",
+        "unlimited": {
+          "label": "Nelimitată"
+        },
+        "fixed": {
+          "label": "Fixă"
+        }
+      },
+      "onlineCapacity": {
+        "label": "Capacitatea online maximă",
+        "requiredError": "Capacitatea online maximă este obligatorie",
+        "minimumError": "Capacitatea online maximă trebuie să fie mai mare de 0"
+      },
+      "onlineDetails": {
+        "label": "Detalii eveniment online",
+        "helperText": "Adăugați informații suplimentare pentru înregistratori, cum ar fi codul de acces, informațiile de apelare și multe altele."
+      },
+      "categories": {
+        "helperText": "Categoriile sunt utilizate în cataloagele de căutare pentru a-i ajuta pe alții să găsească acest eveniment. Acestea sunt setate de organizația dvs."
+      },
+      "tags": {
+        "label": "Etichete",
+        "helperText": "Etichetele sunt utilizate în cataloagele de căutare pentru a-i ajuta pe alții să găsească evenimentul. Adăugați text și selectați enter pentru a crea etichete noi."
+      },
+      "summary": {
+        "label": "Rezumat",
+        "helperText": "Descrieți pe scurt scopul evenimentului, lucru util când partajați linkul cu alții."
+      },
+      "allowRegistration": {
+        "label": "Permiteți înregistrarea",
+        "helperText": "Un cont trebuie să se înregistreze sau să fie invitat să participe.",
+        "enabled": {
+          "label": "Butonul de înregistrare este activat",
+          "description": "Orice membru care poate vizualiza evenimentul se poate înregistra."
+        },
+        "disabled": {
+          "label": "Butonul de înregistrare este dezactivat",
+          "description": "Înregistrarea se face doar pe bază de invitație sau nu este urmărită."
+        }
+      },
+      "notifyAttendees": {
+        "label": "Trimitere notificări automate",
+        "helperText": "Abonații la evenimente pot primi notificări automate pe e-mail pentru mementouri sau modificări. Persoanele care se înregistrează pentru participare sunt abonate automat.",
+        "enabled": {
+          "label": "Notificări activate",
+          "description": "Butonul Abonare este vizibil pentru eveniment."
+        },
+        "disabled": {
+          "label": "Notificări dezactivate",
+          "description": "Butonul Abonare este ascuns pentru eveniment."
+        }
+      },
+      "referencedContent": {
+        "label": "Conținut conectat",
+        "helperText": {
+          "label": "Conectați un proiect, o inițiativă sau un site asociat la acest eveniment."
+        },
+        "facets": {
+          "from": {
+            "label": "De la",
+            "myContent": {
+              "label": "Resursele mele"
+            },
+            "myOrganization": {
+              "label": "Organizația mea"
+            }
+          },
+          "access": {
+            "label": "Acces"
+          }
+        },
+        "catalog": {
+          "organization": "Organizație"
+        },
+        "collection": {
+          "sites": "Site-uri",
+          "initiatives": "Inițiative",
+          "projects": "Proiecte"
+        }
+      }
+    },
+    "sections": {
+      "referencedContent": {
+        "label": "Conținut conectat"
+      },
+      "eventInfo": {
+        "label": "Informații despre eveniment"
+      },
+      "dateTime": {
+        "label": "Data și ora"
+      },
+      "location": {
+        "label": "Locație"
+      },
+      "discoverability": {
+        "label": "Căutare și posibilitate de descoperire"
+      }
+    }
+  },
+  "user": {
+    "sections": {
+      "userSettings": "Preferințe utilizator",
+      "orgSettings": {
+        "label": "Setări organizație",
+        "signinSettings": {
+          "label": "Opţiuni de autentificare",
+          "helperText": "Particularizați informațiile pe care utilizatorii l vor vedea dacă aleg să se înscrie pentru un cont de Comunitate în Hub-ul dvs."
+        },
+        "siteDefaults": {
+          "label": "Valori implicite de afișare a site-ului"
+        }
+      }
+    },
+    "fields": {
+      "enableTermsAndConditions": {
+        "label": "Impuneți condiții de utilizare particularizate în formularul de înscriere"
+      },
+      "termsAndConditions": {
+        "label": "Condiții de utilizare"
+      },
+      "enableSignupText": {
+        "label": "Configurați un mesaj de bun venit particularizat la înscriere"
+      },
+      "workspacePreview": {
+        "label": "Activați previzualizarea spațiului de lucru",
+        "helperText": "Spațiile de lucru sunt disponibile pentru previzualizare, dar sunt încă în dezvoltare pe măsură ce extindem funcționalitatea. Puteți dezactiva spațiile de lucru oricând în timpul perioadei de previzualizare. Activarea spațiilor de lucru va afecta doar contul acestui utilizator."
+      },
+      "infoBanner": {
+        "label": "Banner informativ",
+        "helperText": "Afișați bannerul cu informații al organizației angajaților, dacă este configurat, în toate site-urile și paginile. Aceasta este o setare globală și nu poate fi activată/dezactivată pentru un anumit site.",
+        "helperTextWhenDisabled": "Momentan nu aveți un banner de informații configurat. Faceți clic pe linkul de mai jos pentru a fi redirecționat către ArcGIS Online, unde puteți configura bannerul de informații",
+        "goToBannerConfig": "Configurați bannerul de informații în ArcGIS Online"
+      }
+    },
+    "notice": {
+      "title": "Gestionarea organizației",
+      "message": "Majoritatea setărilor organizației personalului și comunității (numai pentru Hub Premium) sunt acum gestionate în organizația principală ArcGIS.",
+      "communityMessage": "Majoritatea setărilor organizației personalului și comunității (numai pentru Hub Premium) sunt acum gestionate în organizația principală ArcGIS. <br /><br /> Organizația comunității dvs. este",
+      "staffMessage": "Majoritatea setărilor organizației personalului și comunității (numai pentru Hub Premium) sunt acum gestionate în organizația principală ArcGIS. <br /> <br /> Organizația personalului dvs. este",
+      "actions": {
+        "goToOrg": "Accesați setările organizației",
+        "goToCommunityOrg": "Accesați organizația comunității",
+        "goToStaffOrg": "Accesați organizația personalului"
+      }
+    }
+  }
+}

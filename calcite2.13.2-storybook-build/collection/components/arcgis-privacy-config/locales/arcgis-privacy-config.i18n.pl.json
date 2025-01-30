@@ -1,0 +1,29 @@
+{
+  "additionalInfo": {
+    "label": "Opcjonalne ustawienia wyświetlania",
+    "helperText": "Dodaj własny opis dotyczący prywatności i informacje o obowiązujących zasadach."
+  },
+  "allowPrivacyConfig": {
+    "label": "Wyświetl uwagę na temat prywatności"
+  },
+  "blocking": {
+    "label": "Typ uwagi",
+    "optional": {
+      "label": "Zgoda opcjonalna",
+      "description": "Przeglądający mogą używać witryny bez wyrażania zgody na zasady dotyczące prywatności. Śledzenie rozpoczyna się natychmiast i działa do momentu odrzucenia przez przeglądającego."
+    },
+    "required": {
+      "label": "Wymaganie zgody",
+      "description": "Przeglądający muszą zaakceptować lub odrzucić funkcje śledzenia, aby korzystać z witryny. Śledzenie rozpoczyna się tylko w przypadku zaakceptowania przez przeglądającego."
+    }
+  },
+  "consentText": {
+    "label": "Opis dotyczący prywatności",
+    "helperText": "Te informacje są wyświetlane przeglądającym witrynę w uwadze na temat prywatności."
+  },
+  "policyURL": {
+    "label": "Łącze do zasad",
+    "helperText": "Jest wyświetlane jako łącze „Więcej informacji” w uwadze na temat prywatności.",
+    "error": "Musi to być prawidłowy adres URL. W przeciwnym razie łącze nie zostanie wyświetlone."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "timeoutError": {
+    "message": "A ligação ao servidor foi interrompida e não foi possível apresentar a estatística.",
+    "title": "O tempo limite do servidor expirou"
+  },
+  "genericError": {
+    "message": "A Estatística não pode ser exibida",
+    "title": "Algo correu mal"
+  },
+  "loading": "A carregar estatística",
+  "source": "Fonte:",
+  "dismiss": "dispensar",
+  "moreInfo": "Mais informações",
+  "openInfo": "Abrir Mais Informações"
+}

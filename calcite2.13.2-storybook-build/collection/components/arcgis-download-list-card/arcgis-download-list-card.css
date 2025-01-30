@@ -1,0 +1,31 @@
+:host {
+  position: relative;
+  display: block;
+}
+
+.error-header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.error-header-icon {
+  --calcite-ui-icon-color: var(--calcite-color-status-danger);
+}
+
+.error-header {
+  font-weight: var(--calcite-font-weight-bold);
+}
+
+.error-accordion-item {
+  margin-top: 0.75rem;
+}
+
+.error-accordion-item-heading {
+  --calcite-ui-icon-color: var(--calcite-color-status-danger);
+}
+
+.error-accordion-item-content {
+  margin-bottom: 0px;
+}

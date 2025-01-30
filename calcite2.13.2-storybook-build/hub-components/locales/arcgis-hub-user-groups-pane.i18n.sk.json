@@ -1,0 +1,33 @@
+{
+  "groups": "Moje skupiny",
+  "addContentButtonText": "Vytvoriť nové",
+  "role": "Rola",
+  "owner": "Vlastník",
+  "updated": "Aktualizované",
+  "type": "Typ",
+  "sharedUpdate": "Skupina zdieľanej aktualizácie",
+  "viewOnly": "Zobraziť iba skupinu",
+  "actionLinks": {
+    "view": "Zobraziť",
+    "edit": "Editovať",
+    "ariaEdit": "Editovať {title}",
+    "ariaView": "Zobraziť {title}"
+  },
+  "facets": {
+    "access": {
+      "label": "Viditeľné pre",
+      "options": {
+        "public": "Všetci (verejnosť)",
+        "org": "Organizácia",
+        "private": "Ja"
+      }
+    },
+    "type": {
+      "label": "Typy",
+      "options": {
+        "sharedUpdate": "Zdieľaná aktualizácia",
+        "opendata": "Open Data"
+      }
+    }
+  }
+}

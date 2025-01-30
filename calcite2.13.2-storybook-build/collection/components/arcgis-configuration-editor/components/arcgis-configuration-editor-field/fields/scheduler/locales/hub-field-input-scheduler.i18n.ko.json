@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "허브에 의해 자동화됨",
+      "actionText": "자동 옵션 정보"
+    },
+    "daily": {
+      "defaultLabel": "매일",
+      "defaultExpandedHelperText": "선택한 표준 시간대에서 매일 선택한 시간에",
+      "actionText": "매일 옵션 정보"
+    },
+    "weekly": {
+      "defaultLabel": "매주",
+      "defaultExpandedHelperText": "선택한 표준 시간대에서 매주 다음 일 및 시간에",
+      "actionText": "매주 옵션 정보"
+    },
+    "monthly": {
+      "defaultLabel": "매월",
+      "defaultExpandedHelperText": "선택한 표준 시간대에서 매월 다음 일 및 시간에",
+      "actionText": "매월 옵션 정보"
+    },
+    "yearly": {
+      "defaultLabel": "매년",
+      "defaultExpandedHelperText": "선택한 표준 시간대에서 매년 다음 월, 일 및 시간에",
+      "actionText": "매년 옵션 정보"
+    },
+    "manual": {
+      "defaultLabel": "수동",
+      "defaultExpandedHelperText": "이 항목에 대한 검색 색인 및 캐시된 다운로드 파일을 수동으로 업데이트하려면 이 옵션을 사용합니다.",
+      "actionText": "수동 옵션 정보"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "시간",
+      "inputMessage": "시간은 가장 가까운 시간으로 반올림됩니다.",
+      "error": "시간을 선택하세요."
+    },
+    "day": {
+      "helperText": "요일",
+      "daysOfTheWeek": {
+        "sunday": "일요일",
+        "monday": "월요일",
+        "tuesday": "화요일",
+        "wednesday": "수요일",
+        "thursday": "목요일",
+        "friday": "금요일",
+        "saturday": "토요일"
+      },
+      "selectLabel": "요일 선택기",
+      "error": "요일을 선택하세요."
+    },
+    "date": {
+      "helperText": "일",
+      "inputNumberPlaceholder": "일 선택",
+      "inputMessage": "일에는 1~28의 값을 입력합니다.",
+      "error": "일은 1에서 28 사이여야 합니다."
+    },
+    "month": {
+      "helperText": "월",
+      "selectLabel": "월 선택기",
+      "monthsOfTheYear": {
+        "january": "1월",
+        "february": "2월",
+        "march": "3월",
+        "april": "4월",
+        "may": "5월",
+        "june": "6월",
+        "july": "7월",
+        "august": "8월",
+        "september": "9월",
+        "october": "10월",
+        "november": "11월",
+        "december": "12월"
+      },
+      "error": "월을 선택하세요."
+    },
+    "timezone": {
+      "helperText": "표준 시간대",
+      "error": "표준 시간대를 선택하세요."
+    }
+  },
+  "fieldHeader": "빈도"
+}

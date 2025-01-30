@@ -1,0 +1,1 @@
+import{g as r}from"./p-377e1b5e.js";import{d as t}from"./p-b765609c.js";import{r as n}from"./p-1674cf16.js";function e(e){return t(e).then((function(t){var o=r(e)+"/content/users/"+t+"/items/"+e.id+"/protect";return n(o,e)}))}function o(e){return t(e).then((function(t){var o=r(e)+"/content/users/"+t+"/items/"+e.id+"/unprotect";return n(o,e)}))}export{e as p,o as u}

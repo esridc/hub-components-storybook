@@ -1,0 +1,178 @@
+{
+  "projectsTitle": "Progetti",
+  "description": "Associa a progetti che contribuiscono per monitorare in modo mirato i progressi nel tempo o nello spazio. Il gruppo di associazione dell'iniziativa gestisce le associazioni confermate e le richieste di associazione in sospeso.",
+  "subDescription": "I progetti con associazioni confermate compariranno nella vista di questa iniziativa.",
+  "project": "progetto",
+  "initiative": "iniziativa",
+  "helpStates": {
+    "noAccess": {
+      "heading": "Nessun accesso",
+      "message": "Non hai accesso alla visualizzazione del gruppo di associazione."
+    },
+    "missingGroup": {
+      "heading": "Gruppo di associazione mancante",
+      "message": {
+        "overview": "Il gruppo di associazione supervisionerà quali progetti si collegheranno e risponderanno all'iniziativa.",
+        "members": "I membri di questo gruppo saranno in grado di inviare o approvare richieste di associazione."
+      },
+      "action": "Crea gruppo",
+      "formLabel": "Nuovo gruppo di associazione",
+      "description": "Crea un gruppo di associazione per gestire le connessioni"
+    },
+    "requestsWaiting": {
+      "heading": "Gruppo di associazione mancante",
+      "message": {
+        "overview": "Il gruppo di associazione supervisionerà quali progetti si collegheranno e risponderanno all'iniziativa.",
+        "members": "I membri di questo gruppo saranno in grado di inviare o approvare richieste di associazione.",
+        "requests": "Richieste di progetto in attesa: {count}"
+      },
+      "action": "Crea gruppo",
+      "formLabel": "Nuovo gruppo di associazione",
+      "description": "Crea un gruppo di associazione per gestire le connessioni"
+    }
+  },
+  "shared": {
+    "project": "progetto",
+    "associationGroup": "gruppo di associazione",
+    "error": {
+      "title": "Si è verificato un errore",
+      "message": "Potresti non disporre dell'accesso sufficiente per inviare o gestire un'associazione con questo {type}."
+    },
+    "facets": {
+      "access": {
+        "label": "Condivisione"
+      },
+      "status": {
+        "label": "Stato",
+        "notStarted": "Non iniziato",
+        "inProgress": "In corso",
+        "onHold": "In attesa",
+        "complete": "Completo"
+      },
+      "tags": {
+        "label": "Tag"
+      }
+    },
+    "tabs": {
+      "projects": "Progetti",
+      "members": "Membri",
+      "settings": "Impostazioni"
+    },
+    "disabledActionTooltip": "Solo i responsabili possono gestire l'associazione con questo {type}."
+  },
+  "createAssociationGroup": {
+    "defaultSummary": "Gestisci gli elementi associati a {name} {type} utilizzando un gruppo di associazione."
+  },
+  "members": {
+    "facets": {
+      "role": {
+        "label": "Ruolo",
+        "all": "Tutti",
+        "manager": "Gestore",
+        "member": "Membro"
+      },
+      "dateJoined": {
+        "label": "Data di iscrizione"
+      }
+    },
+    "addMembers": {
+      "button": "Aggiungi membri",
+      "modal": {
+        "title": "Aggiungi membri",
+        "org": "La mia organizzazione",
+        "community": "La mia community",
+        "partner": "I miei partner",
+        "world": "Mondo"
+      },
+      "notifications": {
+        "invited": "Invito inviato. Gli utenti devono accettarlo per partecipare",
+        "added": "Utenti aggiunti",
+        "notInvited": "Alcuni utenti potrebbero non disporre dei privilegi necessari per partecipare al gruppo o potrebbero aver raggiunto il limite massimo di gruppi (512)"
+      }
+    },
+    "removeUsers": {
+      "button": "Rimuovi",
+      "success": "Membri rimossi correttamente da {groupName}.",
+      "error": "Impossibile rimuovere uno o più utenti dal gruppo."
+    },
+    "changeRole": {
+      "button": "Modifica ruolo",
+      "member": "Membro",
+      "memberHelperText": "Può aggiungere e visualizzare contenuti all'interno del gruppo.",
+      "tooltipText": "Deselezionare se stessi e/o il proprietario del gruppo",
+      "tooltipLabel": "Esclusione di responsabilità dal ruolo",
+      "admin": "Gestore",
+      "adminHelperText": "Può aggiungere/rimuovere contenuti e invitare/rimuovere persone (tranne il proprietario).",
+      "success": "I membri selezionati sono diventati gruppo {role}.",
+      "error": "Impossibile modificare il ruolo di uno o più membri."
+    },
+    "stats": {
+      "total": {
+        "title": "Totale",
+        "trailingText": "Membri"
+      },
+      "new": {
+        "title": "Nuovo",
+        "trailingText": "Ultimi 30 giorni"
+      }
+    }
+  },
+  "projects": {
+    "requestAssociation": {
+      "findProjects": "Trova progetti",
+      "sendRequest": "Invia richiesta",
+      "success": {
+        "title": "Operazione riuscita",
+        "message": "Richieste di associazione inviate: {count}"
+      },
+      "alreadyRequesting": {
+        "title": "Verifica associazioni",
+        "message": "Alcune selezioni hanno già una richiesta di associazione. Nuove richieste di associazione inviate: {count}"
+      },
+      "catalog": {
+        "myContent": "I miei contenuti",
+        "favorites": "Preferiti",
+        "organization": "Organizzazione",
+        "world": "Mondo (pubblico)"
+      },
+      "collection": {
+        "projects": "Progetti"
+      }
+    },
+    "acceptAssociation": {
+      "label": "Accetta",
+      "success": {
+        "title": "Operazione riuscita",
+        "message": "Associazione accettata con {requestor}"
+      }
+    },
+    "cancelRequest": {
+      "label": "Annulla richiesta",
+      "success": {
+        "title": "Operazione riuscita",
+        "message": "Richiesta di associazione annullata"
+      }
+    },
+    "breakAssociation": {
+      "label": "Disconnetti",
+      "success": {
+        "title": "Associazione interrotta",
+        "message": "L'elemento è stato disconnesso dalla sua associazione precedente. Tuttavia non è possibile modificare la decisione dalla parte opposta, quindi è possibile che sia ancora visibile nelle richieste in entrata."
+      }
+    },
+    "associationsGallery": {
+      "sources": "Stato",
+      "catalog": {
+        "associated": "Associato",
+        "requesting": "Richieste in entrata",
+        "pending": "Richieste in uscita"
+      },
+      "collection": {
+        "projects": "Progetti"
+      }
+    }
+  },
+  "notice": {
+    "label": "Avviso modulo"
+  }
+}

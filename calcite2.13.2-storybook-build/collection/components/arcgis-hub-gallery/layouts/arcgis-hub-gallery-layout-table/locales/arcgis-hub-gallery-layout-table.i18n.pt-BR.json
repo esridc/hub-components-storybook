@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Nenhum resultado encontrado."
+    },
+    "error": {
+      "message": "Lamentamos, mas ocorreu um erro na pesquisa."
+    }
+  },
+  "access": "Acessar",
+  "actionsHeader": "Ações",
+  "caption": "Tabela de entidade do hub",
+  "family": "Família",
+  "type": "Tipo",
+  "tags": "Tags",
+  "owner": "Proprietário",
+  "dateCreated": "Criado",
+  "dateUpdated": "Modificado",
+  "description": "Descrição",
+  "dateAndTime": "Data e hora",
+  "location": "Localização",
+  "attendanceType": "Tipo de atendimento",
+  "inPerson": "Pessoalmente",
+  "online": "Online",
+  "hybrid": "Híbrido",
+  "categories": "Categorias",
+  "content": "Conteúdo",
+  "name": "Nome",
+  "start": "Início",
+  "end": "Fim",
+  "sharedUpdate": "Atualização compartilhada",
+  "managers": "Gerentes",
+  "username": "Nome de Usuário",
+  "no": "Não",
+  "yes": "Sim",
+  "title": "Título",
+  "thumbnail": "Miniatura",
+  "types": {
+    "app": "Aplicativo",
+    "content": "Conteúdo",
+    "dataset": "Conjunto de Dados",
+    "discussion": "Fórum de discussão",
+    "document": "Documento",
+    "event": "Evento",
+    "feedback": "Comentário",
+    "initiative": "Iniciativa",
+    "image": "Imagem",
+    "map": "Mapa",
+    "other": "Outro",
+    "people": "Pessoas",
+    "site": "Site",
+    "team": "Grupo",
+    "template": "Modelo",
+    "project": "Projeto"
+  }
+}

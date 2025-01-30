@@ -1,0 +1,33 @@
+{
+  "title": "مجموعات",
+  "actions": {
+    "label": "خيارات",
+    "show": "إظهار",
+    "hide": "إخفاء",
+    "rename": "إعادة تسمية"
+  },
+  "formAlert": "رسائل تنبيه النموذج",
+  "alertMessages": {
+    "success": "تم حفظ التحريرات بنجاح",
+    "error": "حدث خطأ أثناء حفظ التحريرات"
+  },
+  "collectionRenameModal": {
+    "title": "إعادة تسمية المجموعة",
+    "fieldLabel": "تسمية المجموعة",
+    "requiredMessage": "تسمية المجموعة مطلوبة",
+    "apply": "تطبيق",
+    "maxLengthMessage": "يجب ألا تتجاوز تسمية المجموعة 50 حرفًا"
+  },
+  "collections": {
+    "dataset": "البيانات",
+    "site": "المواقع",
+    "document": "المستندات",
+    "appAndMap": "التطبيقات والخرائط"
+  },
+  "saveButton": "حفظ",
+  "sections": {
+    "collectionConfiguration": {
+      "title": "تكوين المجموعة"
+    }
+  }
+}

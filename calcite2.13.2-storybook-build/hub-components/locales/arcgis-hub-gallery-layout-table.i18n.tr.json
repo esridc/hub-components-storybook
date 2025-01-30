@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Herhangi bir sonuç bulunamadı."
+    },
+    "error": {
+      "message": "Üzgünüz, aramada bir hata oluştu."
+    }
+  },
+  "access": "Erişim",
+  "actionsHeader": "Eylemler",
+  "caption": "Hub varlık tablosu",
+  "family": "Aile",
+  "type": "Tür",
+  "tags": "Etiketler",
+  "owner": "Sahip",
+  "dateCreated": "Oluşturulma",
+  "dateUpdated": "Değiştirilme Tarihi",
+  "description": "Açıklama",
+  "dateAndTime": "Tarih ve zaman",
+  "location": "Konum",
+  "attendanceType": "Katılım türü",
+  "inPerson": "Yüz yüze",
+  "online": "Çevrim içi",
+  "hybrid": "Hibrit",
+  "categories": "Kategoriler",
+  "content": "İçerik",
+  "name": "Adı",
+  "start": "Başlangıç",
+  "end": "Bitiş",
+  "sharedUpdate": "Paylaşılan güncelleme",
+  "managers": "Yöneticiler",
+  "username": "Kullanıcı adı",
+  "no": "Hayır",
+  "yes": "Evet",
+  "title": "Başlık",
+  "thumbnail": "Küçük resim",
+  "types": {
+    "app": "Uygulama",
+    "content": "İçerik",
+    "dataset": "Veri kümesi",
+    "discussion": "Tartışma Panosu",
+    "document": "Belge",
+    "event": "Etkinlik",
+    "feedback": "Geri bildirim",
+    "initiative": "İnisiyatif",
+    "image": "Görüntü",
+    "map": "Harita",
+    "other": "Diğer",
+    "people": "İnsanlar",
+    "site": "Site",
+    "team": "Grup",
+    "template": "Şablon",
+    "project": "Proje"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "heading": "Sideoplysninger",
+  "form": {
+    "title": {
+      "label": "Sidenavn",
+      "requiredError": "Navnet er obligatorisk",
+      "entityTitleValidatorError": "Sidenavn må ikke indeholde emojier eller tegnene <, >, eller ="
+    },
+    "slug": {
+      "label": "Slug",
+      "helperText": "Slugget er den brugervenlige version af URL for sidenavnet. Det genereres automatisk baseret på sidenavnet, men du kan tilpasse det.",
+      "patternError": "Fejl: Slug skal være alfanumeriske tegn med små bogstaver adskilt af bindestreger.",
+      "isUniqueError": "Denne slug er allerede i brug. Vælg en anden.",
+      "requiredError": "Slug er obligatorisk"
+    }
+  },
+  "controls": {
+    "back": "Tilbage",
+    "cancel": "Annuller",
+    "close": "Udført",
+    "migrate": "Migrer side",
+    "next": "Næste"
+  },
+  "selection": {
+    "unlimited": "{count} valgt",
+    "limited": "{count} / {limit} valgt"
+  },
+  "steps": {
+    "specifyInfo": "Tilføj grundlæggende oplysninger",
+    "selectGroups": "Vælg gruppe",
+    "confirmation": "Bekræftelse"
+  },
+  "working": {
+    "heading": "Migrerer side.",
+    "loadingLabel": "Migrerer side"
+  },
+  "success": {
+    "heading": "Side er migreret",
+    "message": "Siden er allerede blevet migreret."
+  },
+  "failure": {
+    "heading": "Side er ikke migreret",
+    "message": "Der gik noget galt under migrering af siden, prøv igen.",
+    "action": "Prøv igen"
+  }
+}

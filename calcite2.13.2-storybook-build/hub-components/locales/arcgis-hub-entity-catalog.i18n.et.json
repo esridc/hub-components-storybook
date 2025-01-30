@@ -1,0 +1,65 @@
+{
+  "catalog": "Kataloog",
+  "catalog-content": "Sisu",
+  "catalog-events": "Sündmused",
+  "shared": {
+    "publish": {
+      "label": "Salvesta",
+      "success": {
+        "title": "Edukalt avaldatud kataloogi redaktsioonid reaalajas kuval"
+      },
+      "error": {
+        "title": "Tõrge muudatuste salvestamisel"
+      }
+    }
+  },
+  "emptyState": {
+    "message": "Kataloogi ei ole määratletud",
+    "action": "Koosta kataloog"
+  },
+  "actionBar": {
+    "details": "Kataloogi konfiguratsioon",
+    "appearance": "Kataloogi välimus",
+    "tooltip": {
+      "appearanceDisabled": "Praegu ei ole ühtki kataloogi konfigureeritud. Konfigureerige kataloog, et kohandada välimuse seadeid.",
+      "configuration": "Konfiguratsioon",
+      "appearance": "Välimus"
+    }
+  },
+  "detailsPanel": {
+    "heading": "Kataloogi konfiguratsioon",
+    "close": "Sulge kataloogi konfiguratsioon",
+    "catalogBuilder": {
+      "helperText": "Teie kataloog võimaldab külastajatel otsida ja vaadata sisu. Kuvatud tulemused põhinevad teie päringu konfiguratsioonil."
+    },
+    "querySizeNotice": {
+      "warning": {
+        "title": "Kataloogi limiit on täis saamas",
+        "catalogSourceMessage": {
+          "item": "Teie üksuse allika konfiguratsiooni suuruse piirang on täis saamas.",
+          "event": "Teie sündmuse allika konfiguratsiooni suuruse piirang on täis saamas."
+        },
+        "collectionSourceMessage": {
+          "item": "Teie üksuse allika ja „{collectionName}“ kogu konfiguratsiooni kombinatsiooni suuruse piirang on täis saamas.",
+          "event": "Teie sündmuse allika ja „{collectionName}“ kogu konfiguratsiooni kombinatsiooni suuruse piirang on täis saamas."
+        }
+      },
+      "danger": {
+        "title": "Kataloogi limiit on ületatud",
+        "catalogSourceMessage": {
+          "item": "Teie üksuse allika konfiguratsioon on ületanud suuruse piirangu. Avaldamiseks vähendage filtrite ja/või filtreerimisvalikute arvu oma üksuse allikas.",
+          "event": "Teie sündmuse allika konfiguratsioon on ületanud suuruse piirangu. Avaldamiseks vähendage filtrite ja/või filtreerimisvalikute arvu sündmuse allikas."
+        },
+        "collectionSourceMessage": {
+          "item": "Teie üksuse allikas ja „{collectionName}“ kogu konfiguratsiooni kombinatsioon on ületanud suuruse piirangu. Avaldamiseks vähendage filtrite ja/või filtreerimisvalikute arvu oma üksuse allikas ja/või „{collectionName}“ kogus.",
+          "event": "Teie sündmuse allika ja „{collectionName}“ kogu konfiguratsiooni kombinatsioon on ületanud suuruse piirangu. Avaldamiseks vähendage filtrite ja/või filtreerimisvalikute arvu oma sündmuste allikas ja/või „{collectionName}“ kogus."
+        }
+      }
+    }
+  },
+  "appearancePanel": {
+    "heading": "Kataloogi välimus",
+    "close": "Sulge kataloogi välimus",
+    "description": "Teie kataloog võimaldab külastajatel otsida ja vaadata sisu. Siin saate uuendada vaikimisi kataloogi välimust ja filtreid, mida soovite kuvada."
+  }
+}

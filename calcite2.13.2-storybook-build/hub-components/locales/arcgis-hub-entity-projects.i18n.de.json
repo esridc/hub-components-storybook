@@ -1,0 +1,178 @@
+{
+  "projectsTitle": "Projekte",
+  "description": "Stellen Sie eine Verknüpfung mit beteiligten Projekten her, um Fortschritte mit einem zeitlichen oder räumlichen Fokus zu verfolgen. Die Verknüpfungsgruppe der Initiative verwaltet bestätigte Verknüpfungen und ausstehende Verknüpfungsanforderungen.",
+  "subDescription": "Projekte mit bestätigten Verknüpfungen werden in der Ansicht dieser Initiative angezeigt.",
+  "project": "Projekt",
+  "initiative": "Initiative",
+  "helpStates": {
+    "noAccess": {
+      "heading": "Kein Zugriff",
+      "message": "Sie haben keinen Zugriff auf die Anzeige der Verknüpfungsgruppe."
+    },
+    "missingGroup": {
+      "heading": "Verknüpfungsgruppe fehlt",
+      "message": {
+        "overview": "Die Verknüpfungsgruppe hat die Aufsicht darüber, welche Projekte sich mit der Initiative verknüpfen und an diese berichten.",
+        "members": "Die Mitglieder dieser Gruppe können Verknüpfungsanforderungen senden und genehmigen."
+      },
+      "action": "Gruppe erstellen",
+      "formLabel": "Neue Verknüpfungsgruppe",
+      "description": "Erstellen Sie eine Verknüpfungsgruppe, um Verbindungen zu verwalten."
+    },
+    "requestsWaiting": {
+      "heading": "Verknüpfungsgruppe fehlt",
+      "message": {
+        "overview": "Die Verknüpfungsgruppe hat die Aufsicht darüber, welche Projekte sich mit der Initiative verknüpfen und an diese berichten.",
+        "members": "Die Mitglieder dieser Gruppe können Verknüpfungsanforderungen senden und genehmigen.",
+        "requests": "Wartende Projektanforderungen: {count}"
+      },
+      "action": "Gruppe erstellen",
+      "formLabel": "Neue Verknüpfungsgruppe",
+      "description": "Erstellen Sie eine Verknüpfungsgruppe, um Verbindungen zu verwalten."
+    }
+  },
+  "shared": {
+    "project": "Projekt",
+    "associationGroup": "Verknüpfungsgruppe",
+    "error": {
+      "title": "Ein Fehler ist aufgetreten.",
+      "message": "Möglicherweise haben Sie keinen ausreichenden Zugriff, um eine Verknüpfung mit diesem {type} zu senden oder zu verwalten."
+    },
+    "facets": {
+      "access": {
+        "label": "Freigeben"
+      },
+      "status": {
+        "label": "Status",
+        "notStarted": "Nicht gestartet",
+        "inProgress": "In Bearbeitung",
+        "onHold": "Zurückgestellt",
+        "complete": "Abgeschlossen"
+      },
+      "tags": {
+        "label": "Tags"
+      }
+    },
+    "tabs": {
+      "projects": "Projekte",
+      "members": "Mitglieder",
+      "settings": "Einstellungen"
+    },
+    "disabledActionTooltip": "Nur Gruppenmanager können die Verknüpfung mit diesem {type} verwalten."
+  },
+  "createAssociationGroup": {
+    "defaultSummary": "Verwalten Sie die mit {name} {type} verknüpften Elemente über eine Verknüpfungsgruppe."
+  },
+  "members": {
+    "facets": {
+      "role": {
+        "label": "Rolle",
+        "all": "Alle",
+        "manager": "Manager",
+        "member": "Mitglied"
+      },
+      "dateJoined": {
+        "label": "Beitrittsdatum"
+      }
+    },
+    "addMembers": {
+      "button": "Mitglieder hinzufügen",
+      "modal": {
+        "title": "Mitglieder hinzufügen",
+        "org": "Eigene Organisation",
+        "community": "Eigene Community",
+        "partner": "Eigene Partner",
+        "world": "Welt"
+      },
+      "notifications": {
+        "invited": "Einladung gesendet. Zum Beitritt müssen Benutzer die Einladung annehmen.",
+        "added": "Benutzer hinzugefügt",
+        "notInvited": "Einige Benutzer verfügen nicht über die erforderlichen Berechtigungen, um der Gruppe beizutreten, oder möglicherweise wurde das maximal zulässige Limit für Gruppen erreicht (512)."
+      }
+    },
+    "removeUsers": {
+      "button": "Entfernen",
+      "success": "Mitglieder erfolgreich aus {groupName} entfernt.",
+      "error": "Mindestens ein Benutzer konnte nicht aus der Gruppe entfernt werden."
+    },
+    "changeRole": {
+      "button": "Rolle ändern",
+      "member": "Mitglied",
+      "memberHelperText": "Kann Inhalt in der Gruppe hinzufügen und anzeigen.",
+      "tooltipText": "Auswahl der eigenen Person und/oder des Gruppenbesitzers aufheben",
+      "tooltipLabel": "Haftungsausschluss für Rolle",
+      "admin": "Manager",
+      "adminHelperText": "Kann Inhalt hinzufügen/entfernen und Personen einladen/entfernen (ausgenommen vom Besitzer).",
+      "success": "Die ausgewählten Mitglieder wurden der Gruppe \"{role}\" zugewiesen.",
+      "error": "Die Rolle konnte für mindestens ein Mitglied nicht geändert werden."
+    },
+    "stats": {
+      "total": {
+        "title": "Gesamt",
+        "trailingText": "Mitglieder"
+      },
+      "new": {
+        "title": "Neu",
+        "trailingText": "Letzte 30 Tage"
+      }
+    }
+  },
+  "projects": {
+    "requestAssociation": {
+      "findProjects": "Projekte suchen",
+      "sendRequest": "Anforderung senden",
+      "success": {
+        "title": "Erfolgreich",
+        "message": "Verknüpfungsanforderungen gesendet: {count}"
+      },
+      "alreadyRequesting": {
+        "title": "Verknüpfungen überprüfen",
+        "message": "Für eine oder mehrere Auswahlen wurde bereits eine Verknüpfung angefordert. Neue Verknüpfungsanforderungen gesendet: {count}"
+      },
+      "catalog": {
+        "myContent": "Eigene Inhalte",
+        "favorites": "Favoriten",
+        "organization": "Organisation",
+        "world": "Welt (öffentlich)"
+      },
+      "collection": {
+        "projects": "Projekte"
+      }
+    },
+    "acceptAssociation": {
+      "label": "Annehmen",
+      "success": {
+        "title": "Erfolgreich",
+        "message": "Verknüpfung angenommen für {requestor}"
+      }
+    },
+    "cancelRequest": {
+      "label": "Anforderung abbrechen",
+      "success": {
+        "title": "Erfolgreich",
+        "message": "Verknüpfungsanforderung abgebrochen"
+      }
+    },
+    "breakAssociation": {
+      "label": "Verbindung trennen",
+      "success": {
+        "title": "Verknüpfung defekt",
+        "message": "Die Verbindung zwischen diesem Element und seiner vorherigen Verknüpfung wurde getrennt. Wir können die Entscheidung der anderen Seite jedoch nicht revidieren. Daher wird sie in den eingehenden Anforderungen möglicherweise weiterhin aufgeführt."
+      }
+    },
+    "associationsGallery": {
+      "sources": "Status",
+      "catalog": {
+        "associated": "Verknüpft",
+        "requesting": "Eingehende Anforderungen",
+        "pending": "Ausgehende Anforderungen"
+      },
+      "collection": {
+        "projects": "Projekte"
+      }
+    }
+  },
+  "notice": {
+    "label": "Formularwarnung"
+  }
+}

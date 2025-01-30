@@ -1,0 +1,18 @@
+{
+  "about": "Om",
+  "metrics": "Målinger",
+  "featuredContent": "Udvalgt indhold",
+  "details": "Oplysninger",
+  "exploreMetrics": "Udforsk målinger",
+  "status": {
+    "label": {
+      "default": "Status",
+      "project": "Projektstatus",
+      "initiative": "Initiativstatus"
+    },
+    "notStarted": "Ikke startet",
+    "inProgress": "I gang",
+    "onHold": "På pause",
+    "complete": "Afsluttet"
+  }
+}

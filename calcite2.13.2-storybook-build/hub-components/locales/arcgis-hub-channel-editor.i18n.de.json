@@ -1,0 +1,96 @@
+{
+  "unnamedChannel": "Unbenannter Kanal",
+  "name": {
+    "label": "Name",
+    "placeholder": "{prefix}-Kanal"
+  },
+  "save": "Speichern",
+  "basicInfo": {
+    "label": "Grundlegende Informationen"
+  },
+  "access": {
+    "private": {
+      "label": "Privat",
+      "description": "Ausgewählte Gruppen können teilnehmen. Gruppenmanager und -besitzer werden automatisch als Moderatoren zugewiesen."
+    },
+    "organization": {
+      "label": "Eigene Organisation",
+      "description": "Alle Mitglieder mit einem {orgName}-Konto können teilnehmen. Organisationsadministratoren und der Kanalbesitzer werden automatisch als Moderatoren zugewiesen. Kanalbesitzer haben zudem die Möglichkeit, Gruppen, in denen sie Mitglied sind, hinzuzufügen, indem sie unten auf die Schaltfläche \"Teilnehmergruppe hinzufügen\" klicken.",
+      "disabledTooltip": "Nur Administratoren von Organisationen können Organisationskanäle erstellen."
+    },
+    "public": {
+      "label": "Öffentlich",
+      "description": "Alle angemeldeten Mitglieder können teilnehmen. Organisationsadministratoren und der Kanalbesitzer werden automatisch als Moderatoren zugewiesen. Kanalbesitzer haben zudem die Möglichkeit, Gruppen, in denen sie Mitglied sind, hinzuzufügen, indem sie unten auf die Schaltfläche \"Teilnehmergruppe hinzufügen\" klicken.",
+      "disabledTooltip": "Nur Administratoren von Organisationen können öffentliche Kanäle erstellen."
+    },
+    "allowAsAnonymous": {
+      "label": "Anonyme Teilnahme zulassen (nur angemeldete Teilnehmer)",
+      "description": "Der Avatar, der Name und der Benutzername von Personen mit Konten, die anonym posten, sind nicht verfügbar."
+    },
+    "confirmation": {
+      "header": "Sind Sie sicher?",
+      "message": "Durch das Speichern dieser Änderungen verlieren Sie den Bearbeitungszugriff für diesen Kanal. Nur Administratoren von Organisationen können öffentliche Kanäle oder Organisationskanäle bearbeiten.",
+      "secondary": "Abbrechen",
+      "primary": "Bestätigen"
+    }
+  },
+  "participants": {
+    "label": "Teilnehmer",
+    "helperText": "Die Personen, die Beiträge schreiben, antworten und auf die Diskussion reagieren können.",
+    "none": "Keine Teilnehmer festgelegt",
+    "add": "Teilnehmergruppe hinzufügen"
+  },
+  "groupPicker": {
+    "title": "Gruppen auswählen",
+    "facet": {
+      "label": "Von",
+      "myGroups": "Eigene Gruppen",
+      "myOrganization": "Eigene Organisation",
+      "myCommunity": "Eigene Community"
+    }
+  },
+  "blockWords": {
+    "label": "Gesperrte Wörter",
+    "helperText": "Kommagetrennte Liste. Beiträge und Antworten, die solche enthalten, werden automatisch ausgeblendet."
+  },
+  "manage": {
+    "label": "Moderatoren",
+    "helperText": "Die automatische Zuweisung von Moderatoren basiert auf der Teilnehmerauswahl. Werden dem Kanal weitere Gruppen hinzugefügt, werden Gruppenbesitzer und -manager als Moderatoren zugewiesen. Moderatoren können Beiträge aus- und einblenden, gesperrte Wörter hinzufügen und die Kanaleinstellungen bearbeiten."
+  },
+  "manager": "Manager",
+  "admin": "Admin",
+  "viewProfile": "Profil anzeigen",
+  "alerts": {
+    "error": "Fehler beim Speichern des Kanals",
+    "success": "Kanal erfolgreich gespeichert",
+    "label": "Formularwarnung"
+  },
+  "validations": {
+    "minChannelGroups": "Für private Kanäle ist mindestens eine Teilnehmergruppe erforderlich.",
+    "channelNameRequired": "Kanalname ist erforderlich.",
+    "allowAsAnonymous": "Das anonyme Verfassen von Beiträgen wird nur in öffentlichen Kanälen unterstützt.",
+    "blockWords": "Geben Sie maximal 20 gesperrte Wörter/Ausdrücke ein (Einträge sind durch Kommas zu trennen, Doppelungen und leere Einträge sind unzulässig)."
+  },
+  "notices": {
+    "edit": "Die Änderungen werden überall dort wirksam, wo dieser Kanal verwendet wird.",
+    "duplicate": {
+      "create": {
+        "error": {
+          "title": "Kanal wurde nicht erstellt",
+          "message": "Ein Kanal mit dieser Zugriffsauswahl ist bereits vorhanden. Verwenden Sie den vorhandenen Kanal, oder ändern Sie die Auswahl."
+        }
+      },
+      "update": {
+        "error": {
+          "title": "Kanal wurde nicht aktualisiert",
+          "message": "Ein Kanal mit dieser Zugriffsauswahl ist bereits vorhanden, sodass diese Aktualisierungen nicht gespeichert werden können."
+        }
+      },
+      "action": "Vorhandenen Kanal verwenden"
+    },
+    "inaccessibleGroups": {
+      "title": "Nicht verfügbare Gruppen: {count}",
+      "message": "Sie können nicht verfügbare Gruppen nur anzeigen oder verwalten, wenn Sie Mitglied sind."
+    }
+  }
+}

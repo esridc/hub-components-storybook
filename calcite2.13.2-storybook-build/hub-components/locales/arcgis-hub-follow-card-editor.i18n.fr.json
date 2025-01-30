@@ -1,0 +1,41 @@
+{
+  "notice": {
+    "outdatedItem": {
+      "title": "Remplacer l’initiative",
+      "message": "Cette fiche fait référence à un élément obsolète. Sélectionnez un autre élément que les utilisateurs pourront suivre."
+    },
+    "missingFollowersGroup": {
+      "title": "Groupe d’abonnés manquant",
+      "message": "Il manque un groupe d’abonnés à cet élément. Sélectionnez un autre élément."
+    },
+    "noGroupAccess": {
+      "title": "Avertissement",
+      "message": "Vous n’avez pas accès au groupe d’abonnés."
+    }
+  },
+  "selectContent": {
+    "title": "Contenu à suivre",
+    "facets": {
+      "sharing": "Partage",
+      "catalog": {
+        "myContent": "Mes contenus",
+        "organization": "Mon organisation"
+      }
+    }
+  },
+  "callToAction": {
+    "title": "Appel à l’action",
+    "helperText": "L’appel à l’action s’affiche au-dessus du bouton Suivre.",
+    "alignment": "Alignement"
+  },
+  "followButton": {
+    "title": "Bouton de suivi",
+    "helperText": "Ce bouton permet aux membres de suivre ou de ne plus suivre le contenu. Un texte peut être défini pour les deux états du bouton.",
+    "buttonText": "Texte du bouton d’abonnement",
+    "unfollowButtonText": "Texte du bouton de désabonnement",
+    "alignment": "Alignement",
+    "buttonStyle": "Style du bouton",
+    "solid": "Arrière-plan uni",
+    "outline": "Contour"
+  }
+}

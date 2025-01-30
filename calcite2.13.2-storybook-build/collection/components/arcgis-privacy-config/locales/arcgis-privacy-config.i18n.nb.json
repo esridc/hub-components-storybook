@@ -1,0 +1,29 @@
+{
+  "additionalInfo": {
+    "label": "Valgfrie visningsinnstillinger",
+    "helperText": "Legg til din egen personvernbeskrivelse og personverninformasjon."
+  },
+  "allowPrivacyConfig": {
+    "label": "Vis personvernmelding"
+  },
+  "blocking": {
+    "label": "Meldingstype",
+    "optional": {
+      "label": "Valgfritt samtykke",
+      "description": "Brukeren kan bruke området uten å velge personvernsamtykke. Sporingen starter umiddelbart til den avslås av bruker."
+    },
+    "required": {
+      "label": "Krever samtykke",
+      "description": "Brukeren må godta eller avslå sporing for å bruke området. Sporing startes ikke med mindre brukeren godtar sporing."
+    }
+  },
+  "consentText": {
+    "label": "Personvernbeskrivelse",
+    "helperText": "Vises i personvernmelding til områdebrukeren."
+  },
+  "policyURL": {
+    "label": "Personvernlenke",
+    "helperText": "Vises som en Mer informasjon-lenke i personvernmeldingen.",
+    "error": "Må være en gyldig URL for å vises."
+  }
+}

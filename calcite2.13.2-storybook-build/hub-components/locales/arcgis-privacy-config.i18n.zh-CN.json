@@ -1,0 +1,29 @@
+{
+  "additionalInfo": {
+    "label": "可选显示设置",
+    "helperText": "添加您自己的隐私说明和策略信息。"
+  },
+  "allowPrivacyConfig": {
+    "label": "显示隐私声明"
+  },
+  "blocking": {
+    "label": "通知类型",
+    "optional": {
+      "label": "同意（可选）",
+      "description": "查看者无需选择隐私同意即可使用站点；追踪将立即开始，直到被查看者拒绝为止。"
+    },
+    "required": {
+      "label": "需要同意",
+      "description": "查看者必须接受或拒绝追踪，才能使用站点；除非查看者接受，否则追踪将不会开始。"
+    }
+  },
+  "consentText": {
+    "label": "隐私说明",
+    "helperText": "显示在向站点查看者提供的隐私声明中。"
+  },
+  "policyURL": {
+    "label": "策略链接",
+    "helperText": "在隐私声明中显示为“更多信息”链接。",
+    "error": "必须为要显示的有效 URL。"
+  }
+}

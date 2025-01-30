@@ -1,0 +1,1 @@
+import{g as o}from"./p-796574a4.js";import{N as a}from"./p-a46db48e.js";var t;function r(t){let r=[];const n=o(t,"catalog.scopes.item"),s=n&&a(n);if(s){const{group:o}=s;r=Array.isArray(o)?o:[o]}return r}!function(o){o.CATALOG="Catalog",o.CATALOG_CONFIG="Catalog Configuration",o.COLLECTIONS="Collections",o.FEEDS="Feeds Configuration"}(t||(t={}));export{t as C,r as g}

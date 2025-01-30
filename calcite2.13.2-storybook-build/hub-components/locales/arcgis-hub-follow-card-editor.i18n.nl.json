@@ -1,0 +1,41 @@
+{
+  "notice": {
+    "outdatedItem": {
+      "title": "Uw initiatief vervangen",
+      "message": "Deze kaart verwijst naar een verouderd item. Selecteer een ander item dat gebruikers kunnen volgen."
+    },
+    "missingFollowersGroup": {
+      "title": "Volgersgroep ontbreekt",
+      "message": "Er is geen volgersgroep voor dit item Selecteer een ander item."
+    },
+    "noGroupAccess": {
+      "title": "Attentie",
+      "message": "U hebt geen toegang tot de volgersgroep."
+    }
+  },
+  "selectContent": {
+    "title": "Te volgen content",
+    "facets": {
+      "sharing": "Delen",
+      "catalog": {
+        "myContent": "Mijn content",
+        "organization": "Mijn organisatie"
+      }
+    }
+  },
+  "callToAction": {
+    "title": "Oproep",
+    "helperText": "De oproep wordt boven de volgknop weergegeven.",
+    "alignment": "Uitlijning"
+  },
+  "followButton": {
+    "title": "Volgknop",
+    "helperText": "Deelnemers kunnen deze knop gebruiken om uw content te volgen of het volgen hiervan te stoppen. Er kan tekst worden toegevoegd voor de twee knopstanden.",
+    "buttonText": "Tekst aanmeldknop",
+    "unfollowButtonText": "Tekst afmeldknop",
+    "alignment": "Uitlijning",
+    "buttonStyle": "Knopstijl",
+    "solid": "Effen achtergrond",
+    "outline": "Omtrek"
+  }
+}

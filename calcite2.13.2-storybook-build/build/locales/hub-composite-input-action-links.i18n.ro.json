@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "Adăugați prima acțiune",
+  "addSecondAction": "Adăugați a doua acțiune",
+  "addLink": "Adăugare link",
+  "addSection": "Adăugare secțiune",
+  "deleteNotice": {
+    "title": "Nu se poate șterge",
+    "message": "Secțiunea nu este goală. Mutați toate linkurile în afara acestei secțiuni înainte de a încerca să ștergeți."
+  },
+  "linkEditor": {
+    "save": "Salvare",
+    "delete": "Ștergere",
+    "cancel": "Anulare",
+    "preview": "Previzualizare link",
+    "title": {
+      "button1": "Prima acțiune",
+      "button2": "A doua acțiune",
+      "block": "Link acțiune"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "Link la conținutul existent"
+        },
+        "external": {
+          "label": "Link la o sursă externă"
+        }
+      },
+      "label": {
+        "label": "Etichetă",
+        "helperText": {
+          "button": "Acest text va apărea pe buton.",
+          "block": "Acesta va apărea în bloc în aldin."
+        },
+        "requiredError": "Eticheta este un câmp obligatoriu."
+      },
+      "description": {
+        "label": "Descriere",
+        "helperText": "Acestea sunt informații secundare."
+      },
+      "href": {
+        "label": "Link",
+        "requiredError": "Linkul este un câmp obligatoriu.",
+        "formatError": "Formatul URL-ului este incorect."
+      },
+      "contentId": {
+        "label": "Link conținut",
+        "requiredError": "Linkul de conținut este un câmp obligatoriu."
+      },
+      "section": {
+        "label": "Deplasare la secțiune",
+        "placeholder": {
+          "noSections": "Nu au fost configurate secțiuni",
+          "notSet": "Nu este în secțiune"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "Secțiune",
+    "helperText": "Secțiunile pot fi utilizate pentru a găzduit linkuri într-un element de meniu. Secțiunile nu se comportă ca un link.",
+    "section": {
+      "label": {
+        "label": "Etichetă",
+        "requiredError": "Eticheta este un câmp obligatoriu."
+      },
+      "description": {
+        "label": "Descriere"
+      }
+    }
+  }
+}

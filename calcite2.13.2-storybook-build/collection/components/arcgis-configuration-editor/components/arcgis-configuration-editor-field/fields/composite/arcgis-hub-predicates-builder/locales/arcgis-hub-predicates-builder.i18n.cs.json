@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "Skupiny pro editaci",
+        "viewGroups": "Zobrazit skupiny"
+      },
+      "facet": {
+        "label": "Od",
+        "myGroups": "Moje skupiny",
+        "myOrganization": "Moje organizace",
+        "myCommunity": "Moje komunita"
+      }
+    }
+  },
+  "property": {
+    "label": "Parametr",
+    "requiredError": "Parametr je povinný"
+  },
+  "operator": {
+    "label": "Kritéria",
+    "requiredError": "Kritéria jsou povinná"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "Typ"
+    },
+    "group": {
+      "default": "Skupiny"
+    },
+    "occurrence": {
+      "default": "Výskyt"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "Je kdokoli z",
+      "group": "Je sdíleno s kýmkoli z"
+    },
+    "isAll": {
+      "default": "Zahrnuje",
+      "group": "Je sdíleno s každým z"
+    },
+    "isExactly": {
+      "default": "Je přesně",
+      "occurrence": "Je"
+    },
+    "isNot": {
+      "default": "Není",
+      "type": "Není žádný z",
+      "group": "Není sdíleno s žádným z"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "Skupiny",
+      "requiredError": "Skupiny jsou povinné"
+    },
+    "type": {
+      "label": "Typy",
+      "requiredError": "Typy jsou povinné",
+      "app": {
+        "label": "Aplikace"
+      },
+      "content": {
+        "label": "Obsah"
+      },
+      "dataset": {
+        "label": "Datové sady"
+      },
+      "discussion": {
+        "label": "Diskuze"
+      },
+      "document": {
+        "label": "Dokumenty"
+      },
+      "event": {
+        "label": "Události"
+      },
+      "feedback": {
+        "label": "Zpětná vazba"
+      },
+      "initiative": {
+        "label": "Iniciativy"
+      },
+      "map": {
+        "label": "Mapy"
+      },
+      "project": {
+        "label": "Projekty"
+      },
+      "site": {
+        "label": "Weby"
+      },
+      "template": {
+        "label": "Šablony"
+      }
+    },
+    "occurrence": {
+      "label": "Výskyt",
+      "requiredError": "Výskyt je povinný",
+      "upcoming": "Nadcházející",
+      "past": "V minulosti",
+      "inProgress": "Probíhá"
+    }
+  }
+}

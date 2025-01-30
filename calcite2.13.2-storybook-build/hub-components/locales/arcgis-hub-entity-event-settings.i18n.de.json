@@ -1,0 +1,49 @@
+{
+  "settings": "Einstellungen",
+  "advanced": "Erweitert",
+  "delete": {
+    "event": "Dieses Event löschen",
+    "desc": "Das Löschen dieses Events kann nicht rückgängig gemacht werden. Bereits registrierte Teilnehmer werden benachrichtigt (sofern automatische Benachrichtigungen für das Event aktiviert sind).",
+    "deleteButton": "Event löschen"
+  },
+  "cancel": {
+    "header": "Dieses Event absagen",
+    "desc": "Ein abgesagtes Event bleibt mit dem Status \"Abgesagt\" weiterhin sichtbar. Die Registrierung wird gestoppt, und bereits registrierte Teilnehmer werden benachrichtigt (sofern automatische Benachrichtigungen für das Event aktiviert sind).",
+    "event": "Event abbrechen",
+    "notice": {
+      "success": {
+        "title": "Event abgesagt",
+        "message": "Bereits registrierte Teilnehmer werden benachrichtigt, sofern automatische Benachrichtigungen aktiviert sind."
+      },
+      "error": {
+        "title": "Event konnte nicht abgesagt werden.",
+        "message": "Versuchen Sie es erneut."
+      }
+    }
+  },
+  "enable": {
+    "event": "Event erneut aktivieren",
+    "desc": "Event abgesagt (mit dem Status \"Abgesagt\" sichtbar).",
+    "notice": {
+      "success": {
+        "title": "Event erneut aktiviert",
+        "message": "Bereits registrierte Teilnehmer werden benachrichtigt, sofern automatische Benachrichtigungen aktiviert sind."
+      },
+      "error": {
+        "title": "Event konnte nicht erneut aktiviert werden.",
+        "message": "Versuchen Sie es erneut."
+      }
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "event": "Event löschen"
+    },
+    "content": "Möchten Sie Folgendes wirklich löschen?",
+    "delete": "Event löschen",
+    "cancel": "Event abbrechen"
+  },
+  "notice": {
+    "label": "Formularwarnung"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "layout": {
+    "title": "Priprema za štampu",
+    "helperText": "Ovim se konfiguriše kako će rezultati izgledati kada posetioci prvi put stignu u vaš katalog. Posetioci će još uvek imati mogućnost da sami promene metod prikaza.",
+    "enum": {
+      "list": {
+        "label": "Lista",
+        "description": "Upotrebite za prikazivanje metapodataka kada je verovatno da će posetioci obavljati ciljane pretrage."
+      },
+      "grid": {
+        "label": "Mreža",
+        "description": "Upotrebite za rezultate koji imaju sličice visokog kvaliteta i kada je verovatno da će posetioci obavljati pretraživanje."
+      },
+      "table": {
+        "label": "Tabela",
+        "description": "Upotrebite za prezentaciju rezultata u strukturisanom formatu sa kolonama koje se mogu sortirati, što je idealno kada posetioci možda žele da pregledaju i uporede mnogo stavki i njihovih atributa."
+      },
+      "map": {
+        "label": "Mapa",
+        "description": "Upotrebite za rezultate koji su povezani sa fizičkim lokacijama i kada je verovatno da će posetioci istraživati oblasti interesovanja."
+      },
+      "compact": {
+        "label": "Kompaktno",
+        "description": "Upotrebite za povećavanje broja vidljivih rezultata u manjem prostoru, što je idealno za brzo pretraživanje ili pregledavanje na mobilnim uređajima."
+      }
+    }
+  },
+  "cards": {
+    "title": "Kartice",
+    "cardTitleTag": {
+      "label": "Zaglavlje",
+      "helperText": "Ovo može da se koristi za poboljšavanje strukture ugrađenih naslova radi pristupačnosti. To neće promeniti veličinu fonta.",
+      "enum": {
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        }
+      }
+    },
+    "showThumbnail": {
+      "label": "Prikaži sličicu",
+      "enum": {
+        "show": {
+          "label": "Uvek",
+          "description": "Sličice će uvek biti prikazane na karticama rezultata, bez obzira na raspored rezultata."
+        },
+        "hide": {
+          "label": "Ne prikazuj sličice",
+          "description": "Sličice neće biti prikazane na bilo kojem tipu kartice rezultata. Upotrebite ovu opciju ako imate sličice lošeg kvaliteta ili ako želite da omogućite ljudima da brže skeniraju rezultate liste na desktop računarima i mobilnim uređajima."
+        },
+        "grid": {
+          "label": "Samo u mreži",
+          "description": "Sličice će biti prikazane samo na karticama mreže. Kartice lista će prikazivati dodatnu kolonu metapodataka umesto slike."
+        }
+      }
+    },
+    "corners": {
+      "label": "Ivice",
+      "enum": {
+        "square": {
+          "label": "Kvadrat"
+        },
+        "round": {
+          "label": "Zaokruženo"
+        }
+      }
+    },
+    "shadow": {
+      "label": "Efekat senke",
+      "enum": {
+        "heavy": {
+          "label": "Teško"
+        },
+        "low": {
+          "label": "Nisko"
+        },
+        "medium": {
+          "label": "Srednje"
+        },
+        "none": {
+          "label": "Ništa"
+        }
+      }
+    },
+    "showLinkButton": {
+      "label": "Uvrstite dugmad",
+      "helperText": "Ako su dugmad isključena, link će da bude samo naslov kartice."
+    },
+    "linkButtonStyle": {
+      "label": "Stil",
+      "enum": {
+        "outline-filled": {
+          "label": "Ispunjeno"
+        },
+        "outline": {
+          "label": "Kontura"
+        }
+      }
+    },
+    "linkButtonText": {
+      "label": "Tekst"
+    }
+  }
+}

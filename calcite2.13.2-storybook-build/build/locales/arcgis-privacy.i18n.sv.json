@@ -1,0 +1,41 @@
+{
+  "managePrivacyButton": "Hantera integritet",
+  "consentNotice": {
+    "allTracking": "Denna webbplats byggdes med ArcGIS Hub och använder anonym spårning för att förbättra prestanda och analysera webbplatsanvändning i enlighet med Esris integritetsmeddelande. Ytterligare tredjeparts spårningssystem kan övervaka din användning av webbplatsen.",
+    "anonymousTracking": "Denna webbplats byggdes med ArcGIS Hub och använder anonym spårning för att förbättra prestanda och analysera webbplatsanvändning i enlighet med Esris integritetsmeddelande.",
+    "noTracking": "Denna webbplats byggdes med ArcGIS Hub och använder endast cookies som är nödvändiga för att applikationen ska fungera och kan inte stängas av i våra system.",
+    "thirdPartyTracking": "Denna webbplats byggdes med ArcGIS Hub och använder endast cookies som är nödvändiga för att applikationen ska fungera och kan inte stängas av i våra system. Ytterligare tredjeparts spårningssystem kan övervaka din användning av webbplatsen."
+  },
+  "consent": {
+    "esriPrivacyLink": "Esri integritetscenter",
+    "customerConsentLink": "Mer information"
+  },
+  "eueiNotice": {
+    "title": "{orgName} medlemmar spåras inte",
+    "message": "Esri User Experience Improvement-programmet (EUEI) har inaktiverats för {orgName}. Aktivitet relaterad till ditt besök spåras inte. Du kan inte acceptera anonym användningsstatistik eller tredjepartsspårning.",
+    "link": "Läs mer om EUEI-programmet."
+  },
+  "notice": {
+    "heading": "Integritetsinställningar",
+    "acceptAllButton": "Acceptera alla cookies",
+    "acceptNecessaryButton": "Acceptera bara absolut nödvändiga cookies",
+    "confirmButton": "Bekräfta",
+    "reviewSettingsButton": "Granska inställningar"
+  },
+  "settings": {
+    "heading": "Integritetsinställningar",
+    "confirmButton": "Bekräfta"
+  },
+  "anonymous": {
+    "heading": "Anonym användningsstatistik",
+    "helpText": "Dessa cookies tillåter oss att övervaka applikationsprestanda, som trafikkällor, sidvisningar och interaktioner. De hjälper oss att veta vilket innehåll som är effektivt och hur besökare navigerar i applikationen. All information som samlas in är anonym (ingen personligt identifierbar information lagras). Om du inte tillåter dessa cookies kommer vi inte att veta att du har besökt eller interagerat med vår applikation."
+  },
+  "necessary": {
+    "heading": "Absolut nödvändiga cookies",
+    "helpText": "Dessa cookies är nödvändiga för att applikationen ska fungera och kan inte stängas av i våra system. De installeras i samband med åtgärder som görs av dig som inbegriper en begäran om tjänster, som inloggning på ditt konto. Du kan ställa in din webbläsare så att den blockerar eller varnar dig om dessa cookies, men vissa delar av applikationen kan påverkas. All information som samlas in är anonym (ingen personligt identifierbar information lagras)."
+  },
+  "thirdParty": {
+    "heading": "Tredjepartsspårning",
+    "helpText": "Dessa cookies kan ställas in av tredjeparts spårningsleverantörer som är konfigurerade på den här webbplatsen. De kan samla in riktad information eller marknadsföringsinformation om dig under ditt besök. Informationen som samlas in kan användas för ändamål utanför den här applikationen. Om du inte tillåter dessa cookies kommer tredje parts spårningsleverantörer inte att få någon information om ditt besök."
+  }
+}

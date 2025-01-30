@@ -1,0 +1,239 @@
+{
+  "owner": {
+    "description": "Owner"
+  },
+  "updatedDate": {
+    "description": "Updated date",
+    "descriptionWithFrequency": "Updated date: {updatedDateFormatted}"
+  },
+  "createdDate": {
+    "description": "Created date"
+  },
+  "joinedDate": {
+    "description": "Joined date"
+  },
+  "access": {
+    "label": {
+      "public": "Public",
+      "org": "Organization",
+      "private": "Owner",
+      "shared": "Privately shared"
+    },
+    "description": {
+      "public": {
+        "site": "Anyone can see this site",
+        "project": "Anyone can see this project",
+        "initiative": "Anyone can see this initiative",
+        "discussion": "Anyone can see this discussion",
+        "default": "Anyone can see this content",
+        "event": "Anyone can see this event"
+      },
+      "org": {
+        "site": "Anyone in your organization can see this site",
+        "project": "Anyone in your organization can see this project",
+        "initiative": "Anyone in your organization can see this initiative",
+        "discussion": "Anyone in your organization can see this discussion",
+        "default": "Anyone in your organization can see this content",
+        "event": "Anyone in your organization can see this event"
+      },
+      "private": {
+        "site": "Only you can see this site",
+        "project": "Only you can see this project",
+        "initiative": "Only you can see this initiative",
+        "discussion": "Only you can see this discussion",
+        "default": "Only you can see this content",
+        "event": "Only you can see this event"
+      },
+      "shared": {
+        "site": "Selected groups can see this site",
+        "project": "Selected groups can see this project",
+        "initiative": "Selected groups can see this initiative",
+        "discussion": "Selected groups can see this discussion",
+        "default": "Selected groups can see this content",
+        "event": "Selected groups can see this event"
+      }
+    }
+  },
+  "type": {
+    "fallback": {
+      "content": "Content",
+      "discussion": "Discussion",
+      "event": "Event",
+      "group": "Group",
+      "initiative": "Initiative",
+      "org": "Organization",
+      "page": "Page",
+      "project": "Project",
+      "site": "Site",
+      "survey": "Survey",
+      "initiativeTemplate": "Template",
+      "user": "User"
+    },
+    "appbuilderExtension": "GIS Tool",
+    "appbuilderWidgetPackage": "GIS Tool",
+    "application": "Registered App",
+    "arcgisProMap": "GIS Tool",
+    "cadDrawing": "GIS Tool",
+    "cityEngineWebScene": "3D Application",
+    "codeAttachment": "GIS Tool",
+    "colorSet": "GIS Tool",
+    "content": "Content",
+    "contentCategorySet": "GIS",
+    "csv": "Dataset",
+    "csvCollection": "Data File",
+    "dashboard": "Dashboard",
+    "desktopApplication": "GIS Tool",
+    "document": "Document",
+    "documentLink": "Web Link",
+    "excaliburImageryProject": "GIS Tool",
+    "explorerMap": "GIS Tool",
+    "exportPackage": "GIS Tool",
+    "featureCollection": "Dataset",
+    "featureCollectionTemplate": "GIS Tool",
+    "featureLayer": "Dataset",
+    "featureService": "Map",
+    "fileGeodatabase": "Data File",
+    "form": "Survey",
+    "geocodingService": "Developer API",
+    "geodataService": "Developer API",
+    "geojson": "Content",
+    "geometryService": "Developer API",
+    "geopackage": "Data File",
+    "geoprocessingService": "Developer API",
+    "globeLayer": "Data File",
+    "globeService": "Developer API",
+    "hubInitiative": "Initiative",
+    "hubInitiativeTemplate": "Template",
+    "hubPage": "Page",
+    "hubProject": "Project",
+    "hubSiteApplication": "Site",
+    "image": "Image",
+    "imageService": "Imagery Dataset",
+    "insightsModel": "GIS Tool",
+    "insightsPage": "Analysis",
+    "insightsTheme": "GIS Tool",
+    "insightsWorkbook": "Analysis Workbook",
+    "iWorkKeynote": "Presentation",
+    "iWorkNumbers": "Spreadsheet",
+    "iWorkPages": "Document",
+    "kml": "Dataset",
+    "kmlCollection": "Data File",
+    "layer": "Data File",
+    "layerPackage": "Data File",
+    "locatorPackage": "GIS Tool",
+    "mapArea": "GIS Tool",
+    "mapDocument": "GIS Tool",
+    "mapImageLayer": "Map",
+    "mapPackage": "Data File",
+    "mapService": "Map",
+    "microsoftExcel": "Spreadsheet",
+    "microsoftPowerpoint": "Presentation",
+    "microsoftVizio": "Microsoft Visio",
+    "microsoftWord": "Document",
+    "mission": "GIS Tool",
+    "mobileApplication": "Application",
+    "mobileMapPackage": "Data File",
+    "native application template": "Developer Tool",
+    "nativeApplication": "Application",
+    "nativeApplicationInstaller": "Developer Tool",
+    "networkAnalysisService": "Developer API",
+    "notebook": "Analysis",
+    "orientedImageryCatalog": "Imagery Dataset",
+    "orthoMappingProject": "GIS Tool",
+    "orthoMappingTemplate": "GIS Tool",
+    "pdf": "Document",
+    "quickcaptureProject": "Mobile Survey",
+    "rasterLayer": "Map",
+    "realTimeAnalytic": "Developer API",
+    "relationalDatabaseConnection": "Developer API",
+    "reportTemplate": "GIS Tool",
+    "sceneLayer": "3D Dataset",
+    "sceneService": "3D Dataset",
+    "serviceDefinition": "Data File",
+    "shapefile": "Dataset",
+    "solution": "Solution",
+    "sqliteGeodatabase": "Data File",
+    "statisticalDataCollection": "Data File",
+    "storymap": "StoryMap",
+    "symbolSet": "Data File",
+    "table": "Dataset",
+    "team": "Team",
+    "urbanModel": "Urban Model",
+    "vectorTileService": "Map",
+    "visioDocument": "Document",
+    "webExperience": "Application",
+    "webMap": "Map",
+    "webMappingApplication": "Application",
+    "webScene": "3D Map",
+    "wfs": "Map",
+    "wms": "Map",
+    "wmts": "Map",
+    "workflowManagerService": "Developer API",
+    "workforceProject": "Taskflow Manager"
+  },
+  "location": {
+    "description": "Location"
+  },
+  "members": {
+    "noMember": "No members",
+    "oneMember": "Members: 1",
+    "members": "Members: {count}",
+    "description": {
+      "value": "View all group members"
+    }
+  },
+  "tooltip": {
+    "label": "Metadata item tooltip"
+  },
+  "relevantArea": {
+    "title": "Relevant area"
+  },
+  "license": {
+    "tooltip": "Defines how this content can be used",
+    "set": {
+      "title": "{license} license",
+      "customTitle": "Custom license",
+      "description": {
+        "value": "View license details"
+      }
+    },
+    "unset": {
+      "title": "No license provided",
+      "description": {
+        "value": "Request permission to use"
+      }
+    }
+  },
+  "size": {
+    "description": {
+      "value": "Document file size"
+    }
+  },
+  "recordCount": {
+    "title": "Records: {count}",
+    "description": {
+      "value": "View data table"
+    }
+  },
+  "metadataModified": {
+    "description": {
+      "defaultValue": "Info updated",
+      "dynamicValue": "Info updated: {lastUpdated}"
+    }
+  },
+  "updateFrequency": {
+    "continual": "Continual",
+    "daily": "Daily",
+    "weekly": "Weekly",
+    "fortnightly": "Fortnightly",
+    "monthly": "Monthly",
+    "quarterly": "Quarterly",
+    "biannually": "Biannually",
+    "annually": "Annually",
+    "as-needed": "As Needed",
+    "irregular": "Irregular",
+    "not-planned": "Not Planned",
+    "unknown": "Unknown",
+    "semimonthly": "Semimonthly"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "timeoutError": {
+    "message": "Đã hết thời gian kết nối máy chủ và không thể hiển thị thống kê.",
+    "title": "Thời gian chờ máy chủ"
+  },
+  "genericError": {
+    "message": "Không thể hiển thị thống kê.",
+    "title": "Đã xảy ra sự cố"
+  },
+  "loading": "Đang tải thống kê",
+  "source": "Nguồn:",
+  "dismiss": "Bỏ qua",
+  "moreInfo": "Thông tin khác",
+  "openInfo": "Mở thêm thông tin"
+}

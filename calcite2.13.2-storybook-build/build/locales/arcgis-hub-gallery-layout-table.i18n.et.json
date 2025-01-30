@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Tulemusi ei leitud."
+    },
+    "error": {
+      "message": "Otsingul ilmnes kahjuks tõrge."
+    }
+  },
+  "access": "Juurdepääs",
+  "actionsHeader": "Toimingud",
+  "caption": "Hubi olemi tabel",
+  "family": "Pere",
+  "type": "Tüüp",
+  "tags": "Märksõnad",
+  "owner": "Omanik",
+  "dateCreated": "Loodud",
+  "dateUpdated": "Muudetud",
+  "description": "Kirjeldus",
+  "dateAndTime": "Kuupäev ja kellaaeg",
+  "location": "Asukoht",
+  "attendanceType": "Osaluse liik",
+  "inPerson": "Isiklikult",
+  "online": "Veebis",
+  "hybrid": "Hübriid",
+  "categories": "Kategooriad",
+  "content": "Sisu",
+  "name": "Nimi",
+  "start": "Algus",
+  "end": "Lõpp",
+  "sharedUpdate": "Jagatud uuendus",
+  "managers": "Haldurid",
+  "username": "Kasutajanimi",
+  "no": "Ei",
+  "yes": "Jah",
+  "title": "Pealkiri",
+  "thumbnail": "Pisipilt",
+  "types": {
+    "app": "Rakendus",
+    "content": "Sisu",
+    "dataset": "Andmestik",
+    "discussion": "Arutelutahvel",
+    "document": "Dokument",
+    "event": "Sündmus",
+    "feedback": "Tagasiside",
+    "initiative": "Algatus",
+    "image": "Pilt",
+    "map": "Kaart",
+    "other": "Muu",
+    "people": "Inimesed",
+    "site": "Sait",
+    "team": "Grupp",
+    "template": "Mall",
+    "project": "Projekt"
+  }
+}

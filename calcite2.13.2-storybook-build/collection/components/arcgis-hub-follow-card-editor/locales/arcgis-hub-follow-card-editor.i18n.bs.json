@@ -1,0 +1,41 @@
+{
+  "notice": {
+    "outdatedItem": {
+      "title": "Zamijenite inicijativu",
+      "message": "Ova kartica upućuje na zastarjelu stavku. Odaberite drugu stavku koju će korisnici pratiti."
+    },
+    "missingFollowersGroup": {
+      "title": "Nedostaje grupa pratitelja",
+      "message": "Ovoj stavci nedostaje grupa pratitelja. Odaberite drugu stavku."
+    },
+    "noGroupAccess": {
+      "title": "Pazite",
+      "message": "Nemate pristup grupi pratitelja."
+    }
+  },
+  "selectContent": {
+    "title": "Sadržaj za pratiti",
+    "facets": {
+      "sharing": "Dijeljenje",
+      "catalog": {
+        "myContent": "Moj sadržaj",
+        "organization": "Moja organizacija"
+      }
+    }
+  },
+  "callToAction": {
+    "title": "Poziv na djelovanje",
+    "helperText": "Poziv na radnju pojavljuje se iznad gumba za praćenje.",
+    "alignment": "Poravnanje"
+  },
+  "followButton": {
+    "title": "Gumb za praćenje",
+    "helperText": "Ovaj gumb omogućit će članovima da prate ili prestanu pratiti vaš sadržaj. Tekst se može postaviti za oba stanja gumba.",
+    "buttonText": "Tekst gumba za uključivanje",
+    "unfollowButtonText": "Tekst gumba za isključivanje",
+    "alignment": "Poravnanje",
+    "buttonStyle": "Stil gumba",
+    "solid": "Jednobojna pozadina",
+    "outline": "Obris"
+  }
+}

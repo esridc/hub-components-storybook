@@ -1,0 +1,47 @@
+{
+  "communityOrg": "Communityorganisation",
+  "editLayout": "Redigera layout",
+  "orgWorkspace": "Öppna hemarbetskatalog",
+  "editS123": "Redigera i Survey123",
+  "editAdvancedJson": "Redigera avancerad JSON",
+  "view": {
+    "project": "Visa projekt",
+    "site": "Visa webbplats",
+    "initiative": "Visa initiativ",
+    "discussion": "Visa diskussionstavla",
+    "content": "Visa innehåll",
+    "page": "Visa sida",
+    "group": "Visa grupp",
+    "initiativeTemplate": "Visa initiativmall",
+    "template": "Visa mall",
+    "survey": "Visa undersökning",
+    "event": "Visa evenemang"
+  },
+  "access": {
+    "share": "Dela",
+    "sharingLevel": "Delningsnivå",
+    "groupSharing": "Gruppdelning",
+    "tooltip": {
+      "public": "Delningsnivå: Offentlig",
+      "org": "Delningsnivå: Organisation",
+      "private": "Delningsnivå: Privat",
+      "shared": "Delningsnivå: Privat delad"
+    },
+    "save": "Spara",
+    "cancel": "Avbryt",
+    "alert": {
+      "success": "Ändringarna har sparats",
+      "error": "Fel när ändringarna sparades",
+      "label": "Formulärvarning"
+    }
+  },
+  "popoverActions": {
+    "label": "Fler åtgärder",
+    "openInEnterprise": "Öppna i ArcGIS Enterprise",
+    "openInOnline": "Öppna i ArcGIS Online"
+  },
+  "homeLink": {
+    "text": "Hem"
+  },
+  "createContent": "Skapa"
+}

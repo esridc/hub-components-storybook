@@ -1,0 +1,178 @@
+{
+  "projectsTitle": "Projetos",
+  "description": "Associe-se a projetos contribuintes para acompanhar o progresso ao longo do tempo ou espaço específico. O grupo associativo da iniciativa gere as associações confirmadas e os pedidos de associação pendentes.",
+  "subDescription": "Os projetos com associações confirmadas aparecerão na visualização desta iniciativa.",
+  "project": "projeto",
+  "initiative": "Iniciativa",
+  "helpStates": {
+    "noAccess": {
+      "heading": "Sem acesso",
+      "message": "Você não tem acesso para visualizar o grupo de associação."
+    },
+    "missingGroup": {
+      "heading": "Grupo de associação ausente",
+      "message": {
+        "overview": "O grupo de associação supervisionará quais projetos serão vinculados e reportados à iniciativa.",
+        "members": "Os membros deste grupo poderão enviar ou aprovar solicitações de associação."
+      },
+      "action": "Criar grupo",
+      "formLabel": "Novo grupo de associação",
+      "description": "Crie um grupo de associação para gerenciar conexões"
+    },
+    "requestsWaiting": {
+      "heading": "Grupo de associação ausente",
+      "message": {
+        "overview": "O grupo de associação supervisionará quais projetos serão vinculados e reportados à iniciativa.",
+        "members": "Os membros deste grupo poderão enviar ou aprovar solicitações de associação.",
+        "requests": "Solicitações de projeto aguardando: {count}"
+      },
+      "action": "Criar grupo",
+      "formLabel": "Novo grupo de associação",
+      "description": "Crie um grupo de associação para gerenciar conexões"
+    }
+  },
+  "shared": {
+    "project": "projeto",
+    "associationGroup": "grupo de associação",
+    "error": {
+      "title": "Aconteceu algo errado",
+      "message": "Talvez você não tenha acesso suficiente para enviar ou gerenciar uma associação com este {type}."
+    },
+    "facets": {
+      "access": {
+        "label": "Compartilhamento"
+      },
+      "status": {
+        "label": "Status",
+        "notStarted": "Não foi iniciado",
+        "inProgress": "Em andamento",
+        "onHold": "Em espera",
+        "complete": "Concluído"
+      },
+      "tags": {
+        "label": "Tags"
+      }
+    },
+    "tabs": {
+      "projects": "Projetos",
+      "members": "Membros",
+      "settings": "Configurações"
+    },
+    "disabledActionTooltip": "Somente gerentes de grupo podem gerenciar a associação com este {type}."
+  },
+  "createAssociationGroup": {
+    "defaultSummary": "Gerencie os itens associados ao {name} {type} usando um grupo de associação."
+  },
+  "members": {
+    "facets": {
+      "role": {
+        "label": "Papel",
+        "all": "Todos",
+        "manager": "Gerente",
+        "member": "Membro"
+      },
+      "dateJoined": {
+        "label": "Data de participação"
+      }
+    },
+    "addMembers": {
+      "button": "Adicionar membros",
+      "modal": {
+        "title": "Adicionar membros",
+        "org": "Minha organização",
+        "community": "Minha comunidade",
+        "partner": "Meus parceiros",
+        "world": "Mundial"
+      },
+      "notifications": {
+        "invited": "Convite enviado. Os usuários devem aceitar participar",
+        "added": "Usuário adicionado",
+        "notInvited": "Alguns usuários podem não ter os privilégios necessários para participar do grupo ou podem estar no limite máximo do grupo (512)"
+      }
+    },
+    "removeUsers": {
+      "button": "Remover",
+      "success": "Membros removidos com sucesso do {groupName}.",
+      "error": "Não foi possível remover um ou mais usuários do grupo."
+    },
+    "changeRole": {
+      "button": "Alterar papel",
+      "member": "Membro",
+      "memberHelperText": "Pode adicionar e ver conteúdo dentro do grupo.",
+      "tooltipText": "Desmarque você mesmo e/ou proprietário do grupo",
+      "tooltipLabel": "Isenção de responsabilidade do papel",
+      "admin": "Gerente",
+      "adminHelperText": "Pode adicionar/remover conteúdo e convidar/remover pessoas (exceto para o proprietário).",
+      "success": "Os membros selecionados tornaram-se grupo {role}.",
+      "error": "O papel não pôde ser alterado para um ou mais membros."
+    },
+    "stats": {
+      "total": {
+        "title": "Total",
+        "trailingText": "Membros"
+      },
+      "new": {
+        "title": "Novo",
+        "trailingText": "Últimos 30 dias"
+      }
+    }
+  },
+  "projects": {
+    "requestAssociation": {
+      "findProjects": "Localizar projetos",
+      "sendRequest": "Enviar pedido",
+      "success": {
+        "title": "Concluído",
+        "message": "Pedidos de associação enviados: {count}"
+      },
+      "alreadyRequesting": {
+        "title": "Verificar associações",
+        "message": "Algumas seleções já solicitaram associação. Novos pedidos de associação enviados: {count}"
+      },
+      "catalog": {
+        "myContent": "Meu conteúdo",
+        "favorites": "Favoritos",
+        "organization": "Organização",
+        "world": "Mundo (Público)"
+      },
+      "collection": {
+        "projects": "Projetos"
+      }
+    },
+    "acceptAssociation": {
+      "label": "Aceitar",
+      "success": {
+        "title": "Concluído",
+        "message": "Associação aceita com {requestor}"
+      }
+    },
+    "cancelRequest": {
+      "label": "Cancelar pedido",
+      "success": {
+        "title": "Concluído",
+        "message": "Pedido de associação cancelado"
+      }
+    },
+    "breakAssociation": {
+      "label": "Desconectar",
+      "success": {
+        "title": "Associação quebrada",
+        "message": "Desconectamos este item de sua associação anterior. No entanto, não podemos reverter a decisão do outro lado, portanto você ainda poderá vê-la nas solicitações recebidas."
+      }
+    },
+    "associationsGallery": {
+      "sources": "Estado",
+      "catalog": {
+        "associated": "Associado",
+        "requesting": "Solicitações recebidas",
+        "pending": "Solicitações de saída"
+      },
+      "collection": {
+        "projects": "Projetos"
+      }
+    }
+  },
+  "notice": {
+    "label": "Alerta de formulário"
+  }
+}

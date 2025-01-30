@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "Gruppen bearbeiten",
+        "viewGroups": "Gruppen anzeigen"
+      },
+      "facet": {
+        "label": "Aus",
+        "myGroups": "Eigene Gruppen",
+        "myOrganization": "Eigene Organisation",
+        "myCommunity": "Eigene Community"
+      }
+    }
+  },
+  "property": {
+    "label": "Parameter",
+    "requiredError": "\"Parameter\" ist erforderlich."
+  },
+  "operator": {
+    "label": "Kriterien",
+    "requiredError": "\"Kriterien\" ist erforderlich."
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "Typ"
+    },
+    "group": {
+      "default": "Gruppen"
+    },
+    "occurrence": {
+      "default": "Termin"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "Ist einer von",
+      "group": "Ist freigegeben für einen von"
+    },
+    "isAll": {
+      "default": "Ist alle der folgenden",
+      "group": "Ist freigegeben für alle der folgenden"
+    },
+    "isExactly": {
+      "default": "Ist genau",
+      "occurrence": "Ist"
+    },
+    "isNot": {
+      "default": "Ist nicht",
+      "type": "Ist keiner von",
+      "group": "Ist freigegeben für keinen von"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "Gruppen",
+      "requiredError": "\"Gruppen\" ist erforderlich."
+    },
+    "type": {
+      "label": "Typen",
+      "requiredError": "\"Typen\" ist erforderlich.",
+      "app": {
+        "label": "Apps"
+      },
+      "content": {
+        "label": "Inhalt"
+      },
+      "dataset": {
+        "label": "Datasets"
+      },
+      "discussion": {
+        "label": "Diskussionen"
+      },
+      "document": {
+        "label": "Dokumente"
+      },
+      "event": {
+        "label": "Events"
+      },
+      "feedback": {
+        "label": "Feedback"
+      },
+      "initiative": {
+        "label": "Initiativen"
+      },
+      "map": {
+        "label": "Karten"
+      },
+      "project": {
+        "label": "Projekte"
+      },
+      "site": {
+        "label": "Sites"
+      },
+      "template": {
+        "label": "Vorlagen"
+      }
+    },
+    "occurrence": {
+      "label": "Termin",
+      "requiredError": "\"Termin\" ist erforderlich.",
+      "upcoming": "Anstehend",
+      "past": "Vergangen",
+      "inProgress": "Laufend"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workspace Header Harness</title>
+
+    <style>
+      .header {
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+
+    <script async src="https://ga.jspm.io/npm:es-module-shims@1.6.2/dist/es-module-shims.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+        }
+      }
+    </script>
+    <script type="module" src="../../build/hub-components.esm.js"></script>
+    <script nomodule src="../../build/hub-components.js"></script>
+    <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+    <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+    <link rel="stylesheet" href="../calcite-web.min.css">
+  </head>
+
+  <body>
+    <harness-header page-title="Workspace Dirty State Modal Harness"></harness-header>
+    <div class="grid-container padding-leader-4">
+
+      <!-- WORKSPACE HARNESS NAVIGATION -->
+      <div class="column-24 trailer-2">
+        <calcite-dropdown id="harness-dropdown">
+          <calcite-button appearance="outline" icon-end="caret-down" slot="trigger">Select a Workspace
+            Harness</calcite-button>
+          <calcite-dropdown-group group-title="Entity Workspaces">
+            <calcite-dropdown-item href="./entity-workspace-harness.html?type=project">Project Workspace</calcite-dropdown-item>
+            <calcite-dropdown-item href="./entity-workspace-harness.html?type=site">Site Workspace</calcite-dropdown-item>
+            <calcite-dropdown-item href="./entity-workspace-harness.html?type=initiative">Initiative Workspace</calcite-dropdown-item>
+            <calcite-dropdown-item href="./entity-workspace-harness.html?type=discussion">Discussion Workspace</calcite-dropdown-item>
+            <calcite-dropdown-item href="./entity-workspace-harness.html?type=content">Content Workspace</calcite-dropdown-item>
+            <calcite-dropdown-item href="./entity-workspace-harness.html?type=group">Group Workspace</calcite-dropdown-item>
+            <calcite-dropdown-item href="./entity-workspace-harness.html?type=page">Page Workspace</calcite-dropdown-item>
+          </calcite-dropdown-group>
+          <calcite-dropdown-group group-title="Sub-components">
+            <calcite-dropdown-item href="./workspace-header.html">Workspace Header</calcite-dropdown-item>
+            <calcite-dropdown-item href="./workspace-panel.html">Workspace Pane</calcite-dropdown-item>
+            <calcite-dropdown-item href="./workspace-navigation.html">Workspace Navigation</calcite-dropdown-item>
+            <calcite-dropdown-item href="./workspace-navigation-slotted.html">Workspace Navigation - Slotted</calcite-dropdown-item>
+            <calcite-dropdown-item href="./workspace-link.html">Workspace Link</calcite-dropdown-item>
+            <calcite-dropdown-item selected href="./workspace-dirty-state-modal.html">Workspace Dirty State Modal</calcite-dropdown-item>
+          </calcite-dropdown-group>
+        </calcite-dropdown>
+      </div>
+
+      <!-- OPEN MODAL BUTTON -->
+      <div class="column-24 trailer-1">
+        <calcite-button
+          class="column-3 padding-right-2"
+          onclick="onOpenModal()">
+          Open Modal
+        </calcite-button>
+      </div>
+
+      <div class="column-12">
+        <p>Note: for the purposes of this harness, we've provided an "href" prop which will navigate the user to the provided URL if they choose to proceed (click "OK"). Alternatively, when this is used in the context of a workspace, you can provide a supported workspace "panel" as a prop, and if the user chooses to proceed, they will be redirected to the appropriate panel using relative navigation</p>
+      </div>
+
+      <!-- WORKSPACE DIRTY STATE MODAL -->
+      <div class="column-24">
+          <arcgis-hub-workspace-dirty-state-modal
+            id="arcgis-hub-workspace-harness"
+            is-open
+            href="https://google.com">
+      </div>
+
+    <script>
+      function setProp(key, value) {
+        const el = document.querySelector("#arcgis-hub-workspace-harness");
+        el[key] = value;
+      }
+
+      function onOpenModal() {
+        setProp('isOpen', true);
+      }
+
+      // LISTEN FOR CLOSE EVENT - CONSUMING APP WOULD NORMALLY DO THIS
+      document.addEventListener("arcgisHubWorkspaceDirtyStateModalClosed", evt => {
+        setProp('isOpen', false);
+      });
+
+    </script>
+  </body>
+</html>

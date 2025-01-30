@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "범주",
+        "noCategoriesNotice": {
+          "body": "이 기관에 아직 범주가 없습니다.",
+          "link": "범주 설정"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "콘텐츠",
+      "selectionMode": {
+        "dynamic": {
+          "label": "동적"
+        },
+        "manual": {
+          "label": "수동"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "기관"
+        },
+        "collection": {
+          "sites": "사이트",
+          "projects": "프로젝트",
+          "initiatives": "이니셔티브"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "기관"
+        },
+        "collection": {
+          "events": "이벤트"
+        }
+      },
+      "access": {
+        "label": "공유",
+        "private": {
+          "label": "비공개",
+          "description": "본인 및 그룹 접근 권한이 있는 사용자에게만 제공되는 콘텐츠로 필터링합니다."
+        },
+        "org": {
+          "label": "기관",
+          "description": "내 기관의 구성원에게만 제공되는 콘텐츠로 필터링합니다."
+        },
+        "public": {
+          "label": "공개",
+          "description": "모든 사용자에게 제공되는 콘텐츠로 필터링합니다."
+        }
+      },
+      "tags": {
+        "label": "태그"
+      },
+      "cardsShown": {
+        "label": "표시된 카드"
+      }
+    },
+    "appearance": {
+      "label": "모양",
+      "titleHeading": {
+        "label": "제목 머리글",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "WCAG G141에 따라 중첩 머리글은 접근성을 높입니다."
+      },
+      "corners": {
+        "label": "코너",
+        "square": {
+          "label": "각진 모양"
+        },
+        "round": {
+          "label": "둥근 모양"
+        }
+      },
+      "shadow": {
+        "label": "그림자",
+        "none": {
+          "label": "꺼짐"
+        },
+        "low": {
+          "label": "낮음"
+        },
+        "medium": {
+          "label": "보통"
+        },
+        "heavy": {
+          "label": "강하게"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "추가 정보 표시"
+      },
+      "layout": {
+        "label": "레이아웃",
+        "list": {
+          "label": "목록"
+        },
+        "map": {
+          "label": "맵"
+        },
+        "calendar": {
+          "label": "캘린더"
+        }
+      }
+    },
+    "options": {
+      "label": "옵션",
+      "openIn": {
+        "label": "다음 위치에서 열기...",
+        "same": {
+          "label": "동일한 탭"
+        },
+        "new": {
+          "label": "새 탭"
+        },
+        "notice": {
+          "title": "접근성 팁:",
+          "body": "WCAG 2.0 G200 기술에 따라 새 탭이나 창에서 링크 열기는 권장되지 않습니다.",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "WCAG 2.0 G200에 대해 자세히 알아보기"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "공유",
+      "public": {
+        "label": "공개"
+      },
+      "private": {
+        "label": "비공개"
+      },
+      "organization": {
+        "label": "기관"
+      }
+    },
+    "from": {
+      "label": "소속",
+      "myOrganization": {
+        "label": "내 기관"
+      },
+      "myContent": {
+        "label": "내 콘텐츠"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "이벤트",
+      "collections": {
+        "event": {
+          "label": "이벤트"
+        }
+      }
+    },
+    "item": {
+      "label": "콘텐츠",
+      "collections": {
+        "item": {
+          "label": "콘텐츠"
+        }
+      }
+    }
+  }
+}

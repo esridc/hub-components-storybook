@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "Registra",
+    "registered": "S'ha completat el registre",
+    "join": "Uniu-vos-hi en línia",
+    "in-person": "Presencial",
+    "online": "En línia",
+    "inPersonFull": "Presencial (ple)",
+    "onlineFull": "En línia (ple)",
+    "close": "Tanca"
+  },
+  "tooltip": {
+    "isCanceled": "L'esdeveniment s'ha cancel·lat",
+    "eventHasEnded": "L'esdeveniment ha finalitzat",
+    "eventFull": "Esdeveniment ple",
+    "inPerson": "S'ha completat el registre a l'esdeveniment presencial",
+    "online": "S'ha completat el registre a l'esdeveniment en línia",
+    "unavailable": "Disponible una hora abans que comenci l'esdeveniment"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "S'ha cancel·lat correctament el registre a l'esdeveniment en línia",
+    "onlineRegistrationConfirmed": "S'ha completat correctament el registre a l'esdeveniment en línia",
+    "onlineRegistrationError": "S'ha produït un error inesperat durant el registre a l'esdeveniment en línia",
+    "onlineRegistrationCanceledError": "S'ha produït un error inesperat en cancel·lar el registre a l'esdeveniment en línia",
+    "onlineRegistrationAtCapacity": "Esteu intentant registrar-vos a un esdeveniment en línia que és ple",
+    "inPersonRegistrationCanceled": "S'ha cancel·lat correctament el registre a l'esdeveniment presencial",
+    "inPersonRegistrationCanceledError": "S'ha produït un error inesperat en cancel·lar el registre a l'esdeveniment presencial",
+    "inPersonRegistrationConfirmed": "S'ha completat correctament el registre a l'esdeveniment presencial",
+    "inPersonRegistrationError": "S'ha produït un error inesperat durant el registre a l'esdeveniment presencial",
+    "inPersonRegistrationAtCapacity": "Esteu intentant registrar-vos a un esdeveniment presencial que és ple"
+  }
+}

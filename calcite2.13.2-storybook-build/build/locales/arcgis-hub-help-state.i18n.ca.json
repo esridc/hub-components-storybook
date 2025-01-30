@@ -1,0 +1,26 @@
+{
+  "unauthenticated": {
+    "heading": "Inicieu la sessió.",
+    "message": "Aquest lloc requereix credencials per accedir-hi.",
+    "actionText": "Inicia la sessió"
+  },
+  "not-found": {
+    "heading": "No s'ha trobat la pàgina",
+    "message": "Pot ser que aquesta pàgina s'hagi mogut o suprimit. Proveu de cercar-la des de la pàgina d'inici",
+    "actionText": "Ves a la pàgina d'inici"
+  },
+  "unsupported-device": {
+    "heading": "Mida de la pantalla no compatible",
+    "message": "Els espais de treball encara no estan disponibles en pantalles petites. Feu servir un dispositiu amb una pantalla més gran.",
+    "actionText": "Enrere"
+  },
+  "access-denied": {
+    "heading": "S'ha denegat l'accés",
+    "message": "No teniu permís per accedir a aquest recurs.",
+    "actionText": "Ves a la pàgina d'inici"
+  },
+  "loading": {
+    "heading": "S'està carregant...",
+    "loadingLabel": "S'està carregant"
+  }
+}

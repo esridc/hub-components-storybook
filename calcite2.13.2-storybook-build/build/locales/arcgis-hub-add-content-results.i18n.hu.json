@@ -1,0 +1,54 @@
+{
+  "existing": {
+    "successHeading": "A tartalom hozzáadása sikeresen megtörtént.",
+    "failureHeading": "Nem sikerült hozzáadni a tartalmat a kiválasztott csoporthoz.",
+    "successfulAccordionHeading": "A tartalom hozzáadása a kiválasztott csoporthoz sikeresen megtörtént.",
+    "unsuccessfulAccordionHeading": "A tartalom hozzáadása a kiválasztott csoporthoz nem történt meg"
+  },
+  "create": {
+    "event": {
+      "successWithoutGroupHeading": "Esemény sikeresen létrehozva.",
+      "successWithGroupHeading": "Esemény sikeresen létrehozva és hozzáadva ehhez: {group}.",
+      "successMessage": "Megtekintheti az eseményt, szerkesztheti az információkat, vagy a „kész” gombra kattintva visszatérhet a nézethez.",
+      "failureHeading": "Nem sikerült hozzáadni az eseményt a kiválasztott csoporthoz."
+    },
+    "discussion": {
+      "successWithoutGroupHeading": "Vitafórum sikeresen létrehozva.",
+      "successWithGroupHeading": "Vitafórum sikeresen létrehozva és hozzáadva a következőhöz: {group}",
+      "successMessage": "Megtekintheti a vitafórumot, szerkesztheti az információkat, vagy a „kész” gombra kattintva visszatérhet a nézethez.",
+      "failureHeading": "Nem lehet hozzáadni a vitafórumot a kiválasztott csoporthoz."
+    },
+    "group": {
+      "successWithoutGroupHeading": "Csoport sikeresen létrehozva.",
+      "successMessage": "Megtekintheti a csoportot, szerkesztheti az információkat, vagy a „kész” gombra kattintva visszatérhet a nézethez.",
+      "failureHeading": "Nem lehet létrehozni csoportot."
+    },
+    "initiative": {
+      "successWithoutGroupHeading": "Kezdeményezés sikeresen létrehozva.",
+      "successWithGroupHeading": "Kezdeményezés sikeresen létrehozva és hozzáadva ehhez: {group}.",
+      "successMessage": "Megtekintheti a kezdeményezést, szerkesztheti az információkat, vagy a „kész” gombra kattintva visszatérhet a nézethez.",
+      "failureHeading": "Nem sikerült hozzáadni a kezdeményezést a kiválasztott csoporthoz."
+    },
+    "page": {
+      "successWithoutGroupHeading": "Oldal sikeresen létrehozva.",
+      "successWithGroupHeading": "Oldal sikeresen létrehozva és hozzáadva ehhez: {group}.",
+      "successMessage": "Megtekintheti az oldalt, szerkesztheti az információkat, vagy a „kész” gombra kattintva visszatérhet a nézethez.",
+      "failureHeading": "Nem sikerült hozzáadni az oldalt a kiválasztott csoporthoz."
+    },
+    "project": {
+      "successWithoutGroupHeading": "Projekt sikeresen létrehozva.",
+      "successWithGroupHeading": "Projekt sikeresen létrehozva és hozzáadva ehhez: {group}.",
+      "successMessage": "Megtekintheti a projektet, szerkesztheti az információkat, vagy a „kész” gombra kattintva visszatérhet a nézethez.",
+      "failureHeading": "Nem sikerült hozzáadni a projektet a kiválasztott csoporthoz."
+    },
+    "site": {
+      "successWithoutGroupHeading": "Webhely sikeresen létrehozva.",
+      "successWithGroupHeading": "Webhely sikeresen létrehozva és hozzáadva ehhez: {group}.",
+      "successMessage": "Megtekintheti a webhelyet, szerkesztheti az információkat, vagy a „kész” gombra kattintva visszatérhet a nézethez.",
+      "failureHeading": "Nem sikerült hozzáadni a webhelyet a kiválasztott csoporthoz."
+    }
+  },
+  "editLayout": "Elrendezés szerkesztése",
+  "manageEntity": "Kezelés",
+  "viewEntity": "Megtekintés"
+}

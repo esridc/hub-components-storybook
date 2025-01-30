@@ -1,0 +1,33 @@
+import { EventEmitter } from '../../../stencil-public-runtime';
+import { ComponentIntl } from '../../../utils/stencil-intl';
+import { HubEntity, HubEntityType } from '@esri/hub-common';
+import { ITableRow } from '../../functional/interfaces';
+import { PredefinedDateOption } from '../../arcgis-hub-date-range-picker/utils';
+export declare class ArcgisHubEntityDashboard {
+  intl: ComponentIntl;
+  element: HTMLElement;
+  entity: HubEntity;
+  isMobile: boolean;
+  errorTableRows: ITableRow[];
+  from: Date;
+  to: Date;
+  selectedErrorRows: ITableRow[];
+  hubTelemetry: EventEmitter<Record<string, any>>;
+  constructor();
+  private get _context();
+  componentWillLoad(): Promise<void>;
+  get entityType(): HubEntityType;
+  get hostname(): string;
+  get contentId(): string;
+  get hubAnalyticsEnabled(): boolean;
+  get showSubscriptions(): boolean;
+  get shouldRenderErrorTable(): boolean;
+  get shouldRenderDownloadButton(): boolean;
+  get shouldRenderErrorTablePagination(): boolean;
+  get rowsToDownload(): ITableRow[];
+  updateErrorTableRows(event: CustomEvent<string | PredefinedDateOption>): Promise<void>;
+  fetchErrorTableRows(): Promise<ITableRow[]>;
+  handleSelectedErrorsChange(e: CustomEvent<any>): void;
+  downloadErrors(): void;
+  render(): any;
+}

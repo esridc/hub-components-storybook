@@ -1,0 +1,49 @@
+{
+  "settings": "Nastavení",
+  "advanced": "Pokročilé",
+  "delete": {
+    "event": "Odstranit tuto událost",
+    "desc": "Odstranění této události nelze vzít zpět. Stávající účastníci dostanou upozornění (jsou-li pro tuto událost povolena automatická oznámení).",
+    "deleteButton": "Odstranit událost"
+  },
+  "cancel": {
+    "header": "Zrušit tuto událost",
+    "desc": "Zrušíte-li událost, zůstane viditelná se stavem Zrušeno. Registrace se pozastaví a stávající účastníci dostanou upozornění (jsou-li pro tuto událost povolena automatická oznámení).",
+    "event": "Zrušit událost",
+    "notice": {
+      "success": {
+        "title": "Událost byla zrušena",
+        "message": "Jsou-li povolena automatická oznámení, dostanou stávající účastníci upozornění."
+      },
+      "error": {
+        "title": "Událost se nepodařilo zrušit",
+        "message": "Zkuste to prosím znovu"
+      }
+    }
+  },
+  "enable": {
+    "event": "Znovu povolit událost",
+    "desc": "Událost byla zrušena (zobrazuje se se stavem Zrušeno).",
+    "notice": {
+      "success": {
+        "title": "Událost byla znovu povolena",
+        "message": "Jsou-li povolena automatická oznámení, dostanou stávající účastníci upozornění."
+      },
+      "error": {
+        "title": "Událost se nepodařilo znovu povolit",
+        "message": "Zkuste to prosím znovu"
+      }
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "event": "Odstranit událost"
+    },
+    "content": "Opravdu chcete smazat:",
+    "delete": "Odstranit událost",
+    "cancel": "Zrušit událost"
+  },
+  "notice": {
+    "label": "Chyba formuláře"
+  }
+}

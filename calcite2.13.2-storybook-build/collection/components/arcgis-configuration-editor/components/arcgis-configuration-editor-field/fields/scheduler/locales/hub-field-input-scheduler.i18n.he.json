@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "אוטומציה על ידי Hub",
+      "actionText": "מידע אופציונלי אוטומטי"
+    },
+    "daily": {
+      "defaultLabel": "יומי",
+      "defaultExpandedHelperText": "כל יום בשעה שנבחרה באזור הזמן שנבחר.",
+      "actionText": "מידע אופציונלי יומי"
+    },
+    "weekly": {
+      "defaultLabel": "שבועי",
+      "defaultExpandedHelperText": "כל שבוע ביום ובשעה הבאים באזור הזמן שנבחר.",
+      "actionText": "מידע אופציונלי שבועי"
+    },
+    "monthly": {
+      "defaultLabel": "חודשי",
+      "defaultExpandedHelperText": "כל חודש ביום ובשעה הבאים באזור הזמן שנבחר.",
+      "actionText": "מידע אופציונלי חודשי"
+    },
+    "yearly": {
+      "defaultLabel": "שנתי",
+      "defaultExpandedHelperText": "כל שנה בחודש, ביום ובשעה הבאים באזור הזמן שנבחר.",
+      "actionText": "מידע אופציונלי שנתי"
+    },
+    "manual": {
+      "defaultLabel": "ידני",
+      "defaultExpandedHelperText": "השתמש באפשרות זו אם ברצונך לעדכן ידנית את אינדקס החיפוש והקבצים שהורדו ואוחסנו במטמון עבור פריט זה.",
+      "actionText": "מידע אופציונלי ידני"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "שעה ביום",
+      "inputMessage": "הזמן המדויק יעוגל לשעה הקרובה ביותר.",
+      "error": "בחר שעה."
+    },
+    "day": {
+      "helperText": "יום בשבוע",
+      "daysOfTheWeek": {
+        "sunday": "ראשון",
+        "monday": "שני",
+        "tuesday": "שלישי",
+        "wednesday": "רביעי",
+        "thursday": "חמישי",
+        "friday": "שישי",
+        "saturday": "שבת"
+      },
+      "selectLabel": "בורר יום בשבוע",
+      "error": "בחר יום בשבוע."
+    },
+    "date": {
+      "helperText": "יום בחודש",
+      "inputNumberPlaceholder": "בחר יום בחודש",
+      "inputMessage": "הזן ערך בין 1 ל-28 עבור היום בחודש.",
+      "error": "היום בחודש חייב להיות בין 1 ל-28."
+    },
+    "month": {
+      "helperText": "חודש בשנה",
+      "selectLabel": "בורר חודש בשנה",
+      "monthsOfTheYear": {
+        "january": "ינואר",
+        "february": "פברואר",
+        "march": "מרץ",
+        "april": "אפריל",
+        "may": "מאי",
+        "june": "יוני",
+        "july": "יולי",
+        "august": "אוגוסט",
+        "september": "ספטמבר",
+        "october": "אוקטובר",
+        "november": "נובמבר",
+        "december": "דצמבר"
+      },
+      "error": "בחר חודש."
+    },
+    "timezone": {
+      "helperText": "אזור זמן",
+      "error": "בחר אזור זמן."
+    }
+  },
+  "fieldHeader": "תדירות"
+}

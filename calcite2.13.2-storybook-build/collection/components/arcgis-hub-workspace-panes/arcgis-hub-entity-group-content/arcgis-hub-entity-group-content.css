@@ -1,0 +1,13 @@
+:host {
+  display: block;
+  height: 100%;
+}
+
+calcite-button {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+calcite-modal {
+  --calcite-modal-height: 80vh;
+}

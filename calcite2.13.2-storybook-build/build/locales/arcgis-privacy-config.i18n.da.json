@@ -1,0 +1,29 @@
+{
+  "additionalInfo": {
+    "label": "Valgfrie visningsindstillinger",
+    "helperText": "Tilføj din egen beskrivelse af beskyttelse af personlige oplysninger og oplysninger om politikken."
+  },
+  "allowPrivacyConfig": {
+    "label": "Vis meddelelse om beskyttelse af personlige oplysninger"
+  },
+  "blocking": {
+    "label": "Meddelelsestype",
+    "optional": {
+      "label": "Samtykke valgfrit",
+      "description": "Brugeren kan bruge webstedet uden at vælge samtykke om beskyttelse af personlige oplysninger; sporing starter umiddelbart, indtil det afvises af brugeren."
+    },
+    "required": {
+      "label": "Kræver samtykke",
+      "description": "Brugeren skal acceptere eller afvise sporing for at bruge webstedet; sporing starter ikke, medmindre det accepteres af brugeren."
+    }
+  },
+  "consentText": {
+    "label": "Beskrivelse af beskyttelse af personlige oplysninger",
+    "helperText": "Vises i meddelelse om beskyttelse af personlige oplysninger til brugeren af webstedet."
+  },
+  "policyURL": {
+    "label": "Link til politik",
+    "helperText": "Vises som et link til \"Flere oplysninger\" i meddelelsen om beskyttelse af personlige oplysninger.",
+    "error": "Skal være en gyldig URL for at blive vist."
+  }
+}

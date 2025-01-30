@@ -1,0 +1,49 @@
+{
+  "settings": "Configurações",
+  "advanced": "Avançado",
+  "delete": {
+    "event": "Excluir este evento",
+    "desc": "A exclusão deste evento não pode ser desfeita. Os inscritos existentes serão notificados (se as notificações automáticas estiverem habilitadas para o evento).",
+    "deleteButton": "Excluir evento"
+  },
+  "cancel": {
+    "header": "Cancelar este evento",
+    "desc": "Se cancelado, o evento permanecerá visível com o status de cancelado. As inscrições serão interrompidas e os inscritos existentes serão notificados (se as notificações automáticas estiverem habilitadas para o evento).",
+    "event": "Cancelar evento",
+    "notice": {
+      "success": {
+        "title": "Evento cancelado",
+        "message": "Os inscritos existentes serão notificados se as notificações automáticas estiverem habilitadas."
+      },
+      "error": {
+        "title": "Não foi possível cancelar o evento",
+        "message": "Tente novamente"
+      }
+    }
+  },
+  "enable": {
+    "event": "Reabilitar evento",
+    "desc": "Evento cancelado (visível com status de cancelado).",
+    "notice": {
+      "success": {
+        "title": "Evento habilitado novamente",
+        "message": "Os inscritos existentes serão notificados se as notificações automáticas estiverem habilitadas."
+      },
+      "error": {
+        "title": "Não foi possível habilitar o evento novamente",
+        "message": "Tente novamente"
+      }
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "event": "Excluir evento"
+    },
+    "content": "Tem certeza que deseja excluir:",
+    "delete": "Excluir evento",
+    "cancel": "Cancelar evento"
+  },
+  "notice": {
+    "label": "Alerta de formulário"
+  }
+}

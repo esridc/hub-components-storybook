@@ -1,0 +1,33 @@
+{
+  "groups": "Mina grupper",
+  "addContentButtonText": "Skapa ny",
+  "role": "Roll",
+  "owner": "Ägare",
+  "updated": "Uppdaterad",
+  "type": "Typ",
+  "sharedUpdate": "Delad uppdateringsgrupp",
+  "viewOnly": "Skrivskyddad grupp",
+  "actionLinks": {
+    "view": "Visa",
+    "edit": "Redigera",
+    "ariaEdit": "Redigera {title}",
+    "ariaView": "Visa {title}"
+  },
+  "facets": {
+    "access": {
+      "label": "Kan visas av",
+      "options": {
+        "public": "Alla (offentlig)",
+        "org": "Organisation",
+        "private": "Mig"
+      }
+    },
+    "type": {
+      "label": "Typer",
+      "options": {
+        "sharedUpdate": "Delad uppdatering",
+        "opendata": "Open Data"
+      }
+    }
+  }
+}

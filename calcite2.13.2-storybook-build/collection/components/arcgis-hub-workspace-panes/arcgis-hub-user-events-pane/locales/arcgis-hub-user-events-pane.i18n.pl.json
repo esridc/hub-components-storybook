@@ -1,0 +1,29 @@
+{
+  "header": "Wydarzenia",
+  "myContent": "Moje wydarzenia",
+  "editableContent": "Edytowalne zasoby",
+  "addEventButtonText": "Utwórz wydarzenie",
+  "type": "Typ",
+  "sharedUpdate": "Grupa udostępnionych aktualizacji",
+  "viewOnly": "Grupa tylko wyświetlania",
+  "owner": "Utworzone przez",
+  "starts": "Wł.",
+  "from": "Z",
+  "until": "Do",
+  "updated": "Zaktualizowane",
+  "tags": "Znaczniki",
+  "dateCreated": "Utworzony",
+  "dateUpdated": "Zmodyfikowany",
+  "actionLinks": {
+    "view": "Wyświetl",
+    "edit": "Edytuj",
+    "ariaEdit": "Edytuj: {title}",
+    "ariaView": "Wyświetl: {title}"
+  },
+  "access": {
+    "label": "Dostęp",
+    "PRIVATE": "Prywatne",
+    "ORG": "Instytucja",
+    "PUBLIC": "Publiczne"
+  }
+}

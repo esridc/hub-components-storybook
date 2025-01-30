@@ -1,0 +1,15 @@
+{
+  "newCollection": "Нова колекция",
+  "block": {
+    "heading": {
+      "untitled": "Колекция без заглавие"
+    },
+    "actions": {
+      "delete": "Изтриване на колекция: {label}"
+    }
+  },
+  "name": {
+    "label": "Име",
+    "requiredError": "Изисква се име на колекцията"
+  }
+}

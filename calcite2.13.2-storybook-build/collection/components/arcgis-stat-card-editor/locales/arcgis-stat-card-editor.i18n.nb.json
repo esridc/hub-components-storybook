@@ -1,0 +1,165 @@
+{
+  "advancedConfig": {
+    "label": "Avansert konfigurasjon",
+    "serverTimeout": {
+      "label": "Tidsavbrudd for server (sekunder)",
+      "helperText": "Nyttig for større tjenester som kan trenge mer tid på å svare.",
+      "errors": {
+        "type": "Angi en konfigurasjon for servertidsavbrudd.",
+        "minimum": "Verdien for servertidsavbrudd må være på minst 5.",
+        "maximum": "Verdien for servertidsavbrudd kan være på maks 95."
+      }
+    }
+  },
+  "appearance": {
+    "corners": {
+      "label": "Hjørner",
+      "enum": {
+        "round": {
+          "label": "Rund"
+        },
+        "square": {
+          "label": "Firkantet"
+        }
+      }
+    },
+    "dropShadow": {
+      "label": "Skygge på undersiden",
+      "enum": {
+        "heavy": {
+          "label": "Tung"
+        },
+        "low": {
+          "label": "Lav"
+        },
+        "medium": {
+          "label": "Middels"
+        },
+        "none": {
+          "label": "Ikke startet"
+        }
+      }
+    },
+    "layout": {
+      "label": "Kortstil",
+      "enum": {
+        "informational": {
+          "label": "Informativ"
+        },
+        "simple": {
+          "label": "Enkel"
+        }
+      }
+    },
+    "popoverText": {
+      "label": "Modalt innhold"
+    },
+    "publisherText": {
+      "label": "Kildepubliserer"
+    },
+    "styleSpecificSettings": {
+      "label": "Stilinnstillinger",
+      "helperInfoText": "Hvis informasjonsknappen velges, åpnes det en modal som inneholder mer informasjon.",
+      "helperVizText": "Det enkle kortet støtter at du legger til et ikon som et visuelt element, som kan brukes til å vise endringer i data."
+    },
+    "sectionTitle": "Utseende",
+    "textAlign": "Justering",
+    "visualInterest": {
+      "label": "Visuelt element",
+      "enum": {
+        "icon": {
+          "label": "Ikon"
+        },
+        "none": {
+          "label": "Ingen"
+        }
+      }
+    },
+    "icon": {
+      "label": "Ikon",
+      "caretUp": {
+        "label": "Øke"
+      },
+      "caretDown": {
+        "label": "Redusere"
+      },
+      "caretDouble": {
+        "label": "Ingen endring"
+      }
+    },
+    "valueColor": "Farge (statistikk)"
+  },
+  "details": {
+    "allowDynamicLink": "Vis kildekobling",
+    "link": {
+      "sectionTitle": "Kobling",
+      "sourceLink": "Lenke-URL",
+      "sourceTitle": "Tekst for kobling"
+    },
+    "sectionTitle": "Detaljer",
+    "subtitle": "Undertittel",
+    "title": "Tittel",
+    "trailingText": {
+      "label": "Etterfølgende tekst",
+      "helperText": "Angi tilleggskontekst eller en forklaring (som skal vises under den metriske verdien)."
+    }
+  },
+  "errors": {
+    "sourceLink": {
+      "required": "Det kreves en kobling for å vise kilden.",
+      "formatError": "URL-formatet er feil"
+    }
+  },
+  "formatting": {
+    "sectionTitle": "Formatering",
+    "unit": {
+      "label": "Visningsenheter",
+      "helperText": "Angi måleenheten for verdien din."
+    },
+    "unitPosition": {
+      "label": "Plassering",
+      "helperText": "Velg hvor måleenheten (f.eks. \"km\", \"lbs\") vises i forhold til den metriske verdien,",
+      "enum": {
+        "after": {
+          "label": "Etter"
+        },
+        "before": {
+          "label": "Før"
+        },
+        "below": {
+          "label": "Under"
+        }
+      }
+    }
+  },
+  "sharing": {
+    "sectionTitle": "Elementdeling",
+    "showShareIcon": "Aktiver deling",
+    "showShareIconHelperText": "Tillat brukere å kopiere en direkte kobling til dette kortet på denne siden.",
+    "shareableByValue": "Aktiver innebygging",
+    "shareableOnHover": {
+      "label": "Vis når du holder markøren over",
+      "helperText": {
+        "label": "Delingsknappen vises bare når du holder markøren over. Hvis funksjonen er slått av, er knappen alltid synlig."
+      }
+    }
+  },
+  "statistic": {
+    "dataSource": "Datakilde",
+    "displayValue": "Visningsverdi",
+    "sectionTitle": "Verdi",
+    "type": {
+      "label": "Type",
+      "enum": {
+        "dynamic": {
+          "label": "Dynamisk",
+          "description": "Velg et eksisterende datasett (geoobjekttjeneste) å summere."
+        },
+        "static": {
+          "label": "Statisk",
+          "description": "Angi en verdi som skal utheves manuelt i layouten din."
+        }
+      }
+    }
+  }
+}

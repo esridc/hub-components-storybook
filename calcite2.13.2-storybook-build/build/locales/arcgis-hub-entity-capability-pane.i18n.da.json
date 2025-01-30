@@ -1,0 +1,35 @@
+{
+  "success": "Redigeringer er blevet gemt",
+  "error": "Fejl under lagring af redigeringer",
+  "formAlert": "Formularadvarsel",
+  "projects": {
+    "header": "Projekter",
+    "list": "Projektliste",
+    "config": "Konfiguration",
+    "notConfigured": "Projektfunktionen er ikke konfigureret. Brug fanen Konfiguration."
+  },
+  "content": {
+    "header": "Indhold",
+    "list": "Indholdsliste",
+    "config": "Konfiguration",
+    "notConfigured": "Indholdsfunktionen er ikke konfigureret. Brug fanen Konfiguration."
+  },
+  "initiatives": {
+    "header": "Initiativer",
+    "list": "Initiativliste",
+    "config": "Konfiguration",
+    "notConfigured": "Initiativfunktionen er ikke konfigureret. Brug fanen Konfiguration."
+  },
+  "events": {
+    "header": "Begivenheder",
+    "list": "Begivenhedsliste",
+    "config": "Konfiguration",
+    "notConfigured": "Begivenhedsfunktionen er ikke konfigureret. Brug fanen Konfiguration."
+  },
+  "pages": {
+    "header": "Sider",
+    "list": "Sideliste",
+    "config": "Konfiguration",
+    "notConfigured": "Sidefunktionen er ikke konfigureret. Brug fanen Konfiguration."
+  }
+}

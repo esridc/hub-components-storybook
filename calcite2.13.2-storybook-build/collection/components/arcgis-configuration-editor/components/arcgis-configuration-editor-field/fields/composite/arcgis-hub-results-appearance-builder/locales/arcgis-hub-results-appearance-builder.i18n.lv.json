@@ -1,0 +1,118 @@
+{
+  "layout": {
+    "title": "Izkārtojums",
+    "helperText": "Tas konfigurē to, kā rezultāti izskatīsies, kad apmeklētāji pirmo reizi parādīsies Jūsu katalogā. Apmeklētājiem joprojām būs iespēja pašiem mainīt attēlošanas metodi.",
+    "enum": {
+      "list": {
+        "label": "Saraksts",
+        "description": "Izmantojiet, lai parādītu metadatus un tad, kad apmeklētāji, visticamāk, veiks mērķtiecīgu meklēšanu."
+      },
+      "grid": {
+        "label": "Režģis",
+        "description": "Izmantojiet tiem rezultātiem, kam ir augstas kvalitātes sīktēli, un tad, kad apmeklētāji, visticamāk, pārlūkos."
+      },
+      "table": {
+        "label": "Tabula",
+        "description": "Izmantojiet rezultātu prezentēšanai strukturētā formātā ar kārtojamām kolonnām, kas ir ideāli piemērots, kad apmeklētāji varētu vēlēties skatīt un salīdzināt daudzas vienības un to atribūtus."
+      },
+      "map": {
+        "label": "Karte",
+        "description": "Izmantojiet rezultātiem, kas ir saistīti ar fiziskām atrašanās vietām, un kad apmeklētāji, iespējams, izpētīs interesējošās teritorijas."
+      },
+      "compact": {
+        "label": "Kompakts",
+        "description": "Izmantojiet, lai maksimāli palielinātu redzamo rezultātu skaitu mazākā telpā, kas ir ideāli piemērota ātrai pārlūkošanai vai skatīšanai mobilajās ierīcēs."
+      }
+    }
+  },
+  "cards": {
+    "title": "Kartītes",
+    "cardTitleTag": {
+      "label": "Kurss",
+      "helperText": "To var izmantot, lai uzlabotu ligzdoto virsrakstu struktūru pieejamībai. Tas nemainīs fonta izmēru.",
+      "enum": {
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        }
+      }
+    },
+    "showThumbnail": {
+      "label": "Rādīt sīktēlu",
+      "enum": {
+        "show": {
+          "label": "Vienmēr",
+          "description": "Sīktēlu attēli vienmēr tiks rādīti rezultātu kartēs, neatkarīgi no rezultātu izkārtojuma."
+        },
+        "hide": {
+          "label": "Nreādīt sīktēlus",
+          "description": "Sīktēli netiks parādīti nevienā rezutātu kartes veidā. Izmantojiet šo opciju, ja jums ir zemas kvalitātes sīktēli, vai arī, ja vēlaties, lai cilvēki varētu ātrāk skenēt saraksta rezltātus datorā un mobilajās ierīcēs."
+        },
+        "grid": {
+          "label": "Tikai režģī",
+          "description": "Sīktēli tiks parādīti tikai režģa kartēs. Sarakstu kartes attēla vietā tiks parādīta metadatu papildu kolonna."
+        }
+      }
+    },
+    "corners": {
+      "label": "Stūri",
+      "enum": {
+        "square": {
+          "label": "Kvadrāts"
+        },
+        "round": {
+          "label": "Apaļš"
+        }
+      }
+    },
+    "shadow": {
+      "label": "Krītoša ēna",
+      "enum": {
+        "heavy": {
+          "label": "Biezs"
+        },
+        "low": {
+          "label": "Zems"
+        },
+        "medium": {
+          "label": "Vidējs"
+        },
+        "none": {
+          "label": "Nav"
+        }
+      }
+    },
+    "showLinkButton": {
+      "label": "Ietver pogas",
+      "helperText": "Ja pogas ir izslēgtas, tad tikai kartes nosaukums būs saite."
+    },
+    "linkButtonStyle": {
+      "label": "Stils",
+      "enum": {
+        "outline-filled": {
+          "label": "Aizpildīts"
+        },
+        "outline": {
+          "label": "Kontūra"
+        }
+      }
+    },
+    "linkButtonText": {
+      "label": "Teksts"
+    }
+  }
+}

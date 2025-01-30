@@ -1,0 +1,46 @@
+{
+  "registrants": "註冊者",
+  "invite": "邀請",
+  "tabs": {
+    "registrants": "註冊者",
+    "settings": "設定"
+  },
+  "emptyNotice": {
+    "title": "無註冊者",
+    "desc": "有觀眾參與的事件總是比較有趣。 邀請人員或分享您的事件以鼓勵人員參加。",
+    "link": "邀請註冊者"
+  },
+  "facets": {
+    "role": {
+      "header": "角色",
+      "owner": "擁有者",
+      "organizer": "主辦單位",
+      "attendee": "註冊者"
+    },
+    "status": {
+      "header": "狀態",
+      "pending": "待決定",
+      "accepted": "已接受",
+      "declined": "已拒絕",
+      "blocked": "已封鎖"
+    },
+    "location": {
+      "header": "位置",
+      "online": "線上",
+      "in_person": "親自"
+    },
+    "updatedDate": "更新日期"
+  },
+  "delete": {
+    "attendee": "移除註冊者"
+  },
+  "notice": {
+    "label": "表格警示"
+  },
+  "success": {
+    "delete": "已成功從 {eventName} 移除註冊者。"
+  },
+  "error": {
+    "delete": "無法從事件移除一或多名註冊者。"
+  }
+}

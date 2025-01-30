@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "Edytuj grupy",
+        "viewGroups": "Wyświetl grupy"
+      },
+      "facet": {
+        "label": "Z",
+        "myGroups": "Moje grupy",
+        "myOrganization": "Moja instytucja",
+        "myCommunity": "Moja społeczność"
+      }
+    }
+  },
+  "property": {
+    "label": "Parametr",
+    "requiredError": "Parametr jest wymagany"
+  },
+  "operator": {
+    "label": "Kryteria",
+    "requiredError": "Kryteria są wymagane"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "Typ"
+    },
+    "group": {
+      "default": "Grupy"
+    },
+    "occurrence": {
+      "default": "Wystąpienie"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "Jest dowolnym z",
+      "group": "Jest udostępniane dowolnym z"
+    },
+    "isAll": {
+      "default": "Jest wszystkim z",
+      "group": "Jest udostępniane wszystkim z"
+    },
+    "isExactly": {
+      "default": "Jest dokładnie",
+      "occurrence": "Jest"
+    },
+    "isNot": {
+      "default": "Nie jest",
+      "type": "Jest żadnym z",
+      "group": "Jest udostępniane żadnym z"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "Grupy",
+      "requiredError": "Grupy są wymagane"
+    },
+    "type": {
+      "label": "Typy",
+      "requiredError": "Typy są wymagane",
+      "app": {
+        "label": "Aplikacje"
+      },
+      "content": {
+        "label": "Zasoby"
+      },
+      "dataset": {
+        "label": "Zestawy danych"
+      },
+      "discussion": {
+        "label": "Dyskusje"
+      },
+      "document": {
+        "label": "Dokumenty"
+      },
+      "event": {
+        "label": "Wydarzenia"
+      },
+      "feedback": {
+        "label": "Opinia"
+      },
+      "initiative": {
+        "label": "Inicjatywy"
+      },
+      "map": {
+        "label": "Mapy"
+      },
+      "project": {
+        "label": "Projekty"
+      },
+      "site": {
+        "label": "Witryny"
+      },
+      "template": {
+        "label": "Szablony"
+      }
+    },
+    "occurrence": {
+      "label": "Wystąpienie",
+      "requiredError": "Wystąpienie jest wymagane",
+      "upcoming": "Nadchodzące",
+      "past": "Przeszłe",
+      "inProgress": "W toku"
+    }
+  }
+}

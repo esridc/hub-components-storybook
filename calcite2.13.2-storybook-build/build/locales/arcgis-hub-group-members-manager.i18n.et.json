@@ -1,0 +1,59 @@
+{
+  "title": "Liikmed",
+  "facets": {
+    "role": {
+      "label": "Roll",
+      "all": "Kõik",
+      "manager": "Haldur",
+      "member": "Liige"
+    },
+    "dateJoined": {
+      "label": "Liitumise kuupäev"
+    }
+  },
+  "stats": {
+    "total": {
+      "title": "Kokku",
+      "trailingText": "Grupi liikmed"
+    },
+    "new": {
+      "title": "Uus",
+      "trailingText": "Viimased 30 päeva"
+    }
+  },
+  "addMembers": {
+    "button": "Lisa liikmed",
+    "disabledTooltip": "Teil ei ole juurdepääsu sellele grupile kasutajate lisamiseks.",
+    "modal": {
+      "title": "Lisa liikmed",
+      "org": "Minu organisatsioon",
+      "community": "Minu kogukond",
+      "partner": "Minu partnerid",
+      "world": "Maailm"
+    },
+    "notifications": {
+      "invited": "Kutse saadetud. Liitumiseks peavad kasutajad andma nõusoleku",
+      "added": "Lisati kasutaja(d)",
+      "notInvited": "Mõnedel kasutajatel ei pruugi olla grupiga liitumiseks vajalikke õigusi või nad on juba suurimas lubatud arvus gruppides (512)."
+    }
+  },
+  "removeUsers": {
+    "button": "Eemalda",
+    "success": "Liikmed on grupist {groupName} eemaldatud.",
+    "error": "Üht või mitut kasutajat ei saanud grupist eemaldada."
+  },
+  "changeRole": {
+    "tooltipText": "Tühistage enda ja/või grupi omaniku valik",
+    "tooltipLabel": "Rolli vastutuse välistamine",
+    "button": "Rolli muutmine",
+    "member": "Liige",
+    "memberHelperText": "Saab lisada ja näha sisu grupi piires.",
+    "admin": "Haldur",
+    "adminHelperText": "Saab lisada/eemaldada sisu ja kutsuda/eemaldada inimesi (peale omaniku).",
+    "success": "Valitud liikmed muutuvad grupiks {role}.",
+    "error": "Ühe või mitme liikme rolli ei saanud muuta."
+  },
+  "notice": {
+    "label": "Vormi hoiatus"
+  }
+}

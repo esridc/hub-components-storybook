@@ -1,0 +1,23 @@
+{
+  "overview": "Apžvalga",
+  "telemetry": {
+    "pageViews": "Puslapio peržiūros",
+    "last30days": "Pastarųjų 30 dienų",
+    "lastUpdated": "Paskutinį kartą atnaujinta prieš {hoursElapsed} val.",
+    "checkTomorrow": "Patikrinkite dar kartą rytoj"
+  },
+  "learnAbout": "Sužinokite daugiau apie Hub iniciatyvas",
+  "feedbackNotice": {
+    "message": "Kaip jums patinka Hub iniciatyvos? Norime sužinoti, kaip jomis naudojatės.",
+    "link": "Pateikti atsiliepimą"
+  },
+  "status": {
+    "notStarted": "Nepradėta",
+    "inProgress": "Vykdoma",
+    "onHold": "Sulaikyta",
+    "complete": "Baigta"
+  },
+  "editDetails": "Redaguoti informaciją",
+  "noPurposeSet": "Paskirtis nenustatyta",
+  "noLocationSet": "Vieta nenustatyta"
+}

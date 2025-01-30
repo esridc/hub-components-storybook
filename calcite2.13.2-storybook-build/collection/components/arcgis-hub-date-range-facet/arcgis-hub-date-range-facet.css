@@ -1,0 +1,15 @@
+:host {
+  display: block;
+}
+
+calcite-input-date-picker {
+  --calcite-color-text-1: #151515;
+    --calcite-color-brand: var(--calcite-color-text-1);
+    --calcite-color-foreground-current: var(--calcite-color-foreground-3);
+    --calcite-color-foreground-1: #fff;
+    --calcite-color-foreground-2: #f3f3f3;
+    --calcite-color-foreground-3: #eaeaea;
+    --calcite-color-text-3: #6a6a6a;
+    --calcite-color-border-input: #757575;
+    --calcite-color-border-2: #4a4a4a;
+}

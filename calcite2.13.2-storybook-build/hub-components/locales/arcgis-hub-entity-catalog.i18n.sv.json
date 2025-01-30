@@ -1,0 +1,65 @@
+{
+  "catalog": "Katalog",
+  "catalog-content": "Innehåll",
+  "catalog-events": "Evenemang",
+  "shared": {
+    "publish": {
+      "label": "Spara",
+      "success": {
+        "title": "Katalogredigeringar av livevyn har publicerats"
+      },
+      "error": {
+        "title": "Fel när ändringarna sparades"
+      }
+    }
+  },
+  "emptyState": {
+    "message": "Ingen katalog har definierats",
+    "action": "Skapa en katalog"
+  },
+  "actionBar": {
+    "details": "Katalogkonfiguration",
+    "appearance": "Katalogutseende",
+    "tooltip": {
+      "appearanceDisabled": "Ingen katalog är konfigurerad för tillfället. Konfigurera en katalog för att anpassa utseendeinställningar.",
+      "configuration": "Konfiguration",
+      "appearance": "Utseende"
+    }
+  },
+  "detailsPanel": {
+    "heading": "Katalogkonfiguration",
+    "close": "Stäng katalogkonfiguration",
+    "catalogBuilder": {
+      "helperText": "Din katalog tillåter besökare att söka efter och visa innehåll. Resultaten som visas baseras på din frågekonfiguration."
+    },
+    "querySizeNotice": {
+      "warning": {
+        "title": "Kataloggränsen närmar sig",
+        "catalogSourceMessage": {
+          "item": "Konfigurationen av objektkällan närmar sig storleksgränsen.",
+          "event": "Konfigurationen av evenemangskällan närmar sig storleksgränsen."
+        },
+        "collectionSourceMessage": {
+          "item": "Kombinationen av din objektkälla och konfigurationen av samlingen \"{collectionName}\" närmar sig storleksgränsen.",
+          "event": "Kombinationen av din evenemangskälla och konfigurationen av samlingen \"{collectionName}\" närmar sig storleksgränsen."
+        }
+      },
+      "danger": {
+        "title": "Kataloggränsen överskreds",
+        "catalogSourceMessage": {
+          "item": "Konfigurationen av objektkällan har överskridit storleksgränsen. Minska antalet filter och/eller filteralternativ i din objektkälla för att publicera.",
+          "event": "Konfigurationen av evenemangskällan har överskridit storleksgränsen. Minska antalet filter och/eller filteralternativ i din evenemangskälla för att publicera."
+        },
+        "collectionSourceMessage": {
+          "item": "Kombinationen av din objektkälla och konfigurationen av samlingen \"{collectionName}\" har överskridit storleksgränsen. Minska antalet filter och/eller filteralternativ i din objektkälla och/eller \"{collectionName}\"-samling för att publicera.",
+          "event": "Kombinationen av din evenemangskälla och konfigurationen av samlingen \"{collectionName}\" har överskridit storleksgränsen. Minska antalet filter och/eller filteralternativ i din evenemangskälla och/eller \"{collectionName}\"-samling för att publicera."
+        }
+      }
+    }
+  },
+  "appearancePanel": {
+    "heading": "Katalogutseende",
+    "close": "Stäng katalogutseende",
+    "description": "Din katalog tillåter besökare att söka efter och visa innehåll. Här kan du uppdatera hur standardkatalogen ska se ut och vilka filter du vill visa."
+  }
+}

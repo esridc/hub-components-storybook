@@ -1,0 +1,41 @@
+{
+  "managePrivacyButton": "Upravljaj zasebnost",
+  "consentNotice": {
+    "allTracking": "To mesto je bilo ustvarjeno z ArcGIS Hub in uporablja anonimno sledenje za izboljšanje učinkovitosti in analiziranje uporabe strani v skladu z Izjavo o zasebnosti podjetja Esri. Vašo uporabo spletnega mesta lahko spremljajo dodatni sistemi za slednje drugih ponudnikov.",
+    "anonymousTracking": "To mesto je bilo ustvarjeno z ArcGIS Hub in uporablja anonimno sledenje za izboljšanje učinkovitosti in analiziranje uporabe strani v skladu z Izjavo o zasebnosti podjetja Esri.",
+    "noTracking": "To spletno mesto je bilo ustvarjeno z ArcGIS Hub in uporablja piškotke, ki so potrebni za delovanje aplikacije in jih ni mogoče izklopiti v naših sistemih.",
+    "thirdPartyTracking": "To spletno mesto je bilo ustvarjeno z ArcGIS Hub in uporablja piškotke, ki so potrebni za delovanje aplikacije in jih ni mogoče izklopiti v naših sistemih. Vašo uporabo spletnega mesta lahko spremljajo dodatni sistemi za slednje drugih ponudnikov."
+  },
+  "consent": {
+    "esriPrivacyLink": "Esrijevo središče za zasebnost",
+    "customerConsentLink": "Več informacij"
+  },
+  "eueiNotice": {
+    "title": "Toliko članom ne bomo sledili: {orgName}",
+    "message": "Program za izboljšanje uporabniške izkušnje podjetja ESRI (EUEI) je bil onemogočen za: {orgName}. Dejavnosti, povezani z vašim obiskom, ne bomo sledili; ne morete sprejeti anonimnih statističnih podatkov o uporabi ali sledenja tretjih oseb.",
+    "link": "Več o programu (EUEI)."
+  },
+  "notice": {
+    "heading": "Nastavitve glede zasebnosti",
+    "acceptAllButton": "Sprejmi vse piškotke",
+    "acceptNecessaryButton": "Sprejmi samo nujno potrebne piškotke",
+    "confirmButton": "Potrdi",
+    "reviewSettingsButton": "Preglej nastavitve"
+  },
+  "settings": {
+    "heading": "Nastavitve glede zasebnosti",
+    "confirmButton": "Potrdi"
+  },
+  "anonymous": {
+    "heading": "Anonimni statistični podatki o uporabi",
+    "helpText": "Ti piškotki nam omogočajo spremljanje delovanja aplikacij, kot so viri prometa, pregledi strani in interakcije. Pomagajo nam ugotoviti, katera vsebina je učinkovita in kako se obiskovalci premikajo po aplikaciji. Vse zbrane informacije so anonimne (ne shranjujejo se nobeni osebni podatki). Če ne dovolite teh piškotkov, ne bomo vedeli, da ste obiskali ali bili v interakciji z našo aplikacijo."
+  },
+  "necessary": {
+    "heading": "Nujno potrebni piškotki",
+    "helpText": "Ti piškotki so potrebni za delovanje aplikacije in jih ni mogoče izklopiti v naših sistemih. Nastavljeni so kot odziv na vaša dejanja, ki vključujejo zahtevo po storitvah, kot je prijava v vaš račun. Brskalnik lahko nastavite tako, da te piškotke blokira ali vas opozori na te piškotke, vendar lahko to vpliva na nekatere dele aplikacije. Vse zbrane informacije so anonimne (ne shranjujejo se nobeni osebni podatki)."
+  },
+  "thirdParty": {
+    "heading": "Sledenje tretjih oseb",
+    "helpText": "Te piškotke lahko nastavijo ponudniki sledenja tretjih oseb, ki so konfigurirani na tej spletni strani. Med vašim obiskom lahko o vas zbirajo informacije za namene ciljanja ali trženja. Zbrani podatki bodo morda uporabljeni za namene zunaj te aplikacije. Če ne dovolite teh piškotkov, konfigurirani ponudniki sledenja tretjih oseb ne bodo prejeli nobenih informacij o vašem obisku."
+  }
+}

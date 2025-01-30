@@ -1,0 +1,91 @@
+{
+  "moreResults": "Больше результатов",
+  "search": "Поиск",
+  "filter": "Фильтры",
+  "viewResults": "Просмотр результатов ({numResults})",
+  "resultsCount": "1 - {pageTotal} из {searchTotal}",
+  "backToTop": "Наверх",
+  "facets": {
+    "access": {
+      "label": "Общий доступ",
+      "private": "Для себя",
+      "shared": "Владелец и группы",
+      "org": "Организация",
+      "public": "Для всех"
+    },
+    "license": {
+      "label": "Лицензия",
+      "tooltip": "Только на публичные ресурсы",
+      "custom": "Пользовательский",
+      "none": "Нет"
+    },
+    "type": {
+      "label": "Тип"
+    },
+    "tags": {
+      "label": "Теги"
+    },
+    "dateUpdated": {
+      "label": "Дата обновления"
+    },
+    "source": {
+      "label": "Источник",
+      "tooltip": "Общедоступные ресурсы от различных организаций"
+    },
+    "categories": {
+      "label": "Категории"
+    },
+    "location": {
+      "label": "Местоположение",
+      "tooltip": "Применить экстент карты как фильтр местоположения"
+    },
+    "event": {
+      "from": {
+        "label": "Владение",
+        "myContent": "Для меня",
+        "myOrganization": "Моя организация",
+        "world": "Любой"
+      },
+      "access": {
+        "label": "Доступ",
+        "private": "Частный",
+        "org": "Организация",
+        "public": "Общедоступный"
+      },
+      "startDate": {
+        "label": "Дата события"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "Тип",
+        "all": "Все",
+        "view": "Просмотр",
+        "edit": "Изменить"
+      },
+      "role": {
+        "label": "Роль",
+        "all": "Все",
+        "member": "Участник",
+        "manager": "Менеджер",
+        "owner": "Владелец"
+      },
+      "sharing": {
+        "label": "Видимость",
+        "private": "Частный",
+        "public": "Общедоступный"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "Показать список",
+    "grid": "Показать сетку",
+    "map": "Показать карту",
+    "compact": "Отобразить в сжатом виде",
+    "calendar": "Отобразить календарь",
+    "table": "Отобразить таблицу"
+  },
+  "galleryActionsLabel": "Дополнительные действия",
+  "selected": "Выбрано: {count}",
+  "popoverActionButtonLabel": "больше действий"
+}

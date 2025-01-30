@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "No se encontraron resultados."
+    },
+    "error": {
+      "message": "Lo sentimos pero la búsqueda ha detectado un error."
+    }
+  },
+  "access": "Acceso",
+  "actionsHeader": "Acciones",
+  "caption": "Tabla de entidad de hub",
+  "family": "Familia",
+  "type": "Tipo",
+  "tags": "Etiquetas",
+  "owner": "Propietario",
+  "dateCreated": "Creada",
+  "dateUpdated": "Modificado",
+  "description": "Descripción",
+  "dateAndTime": "Fecha y hora",
+  "location": "Ubicación",
+  "attendanceType": "Tipo de asistencia",
+  "inPerson": "Presencial",
+  "online": "En línea",
+  "hybrid": "Híbrido",
+  "categories": "Categorías",
+  "content": "Contenido",
+  "name": "Nombre",
+  "start": "Comenzar",
+  "end": "Finalizar",
+  "sharedUpdate": "Actualización compartida",
+  "managers": "Administradores",
+  "username": "Nombre de usuario",
+  "no": "No",
+  "yes": "Sí",
+  "title": "Título",
+  "thumbnail": "Vista en miniatura",
+  "types": {
+    "app": "Aplicación",
+    "content": "Contenido",
+    "dataset": "Dataset",
+    "discussion": "Panel de discusión",
+    "document": "Documento",
+    "event": "Evento",
+    "feedback": "Comentarios",
+    "initiative": "Iniciativa",
+    "image": "Imagen",
+    "map": "Mapa",
+    "other": "Otro",
+    "people": "Gente",
+    "site": "Sitio",
+    "team": "Grupo",
+    "template": "Plantilla",
+    "project": "Proyecto"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "shared": {
+    "targetEntities": {
+      "item": "العناصر",
+      "event": "الأحداث"
+    }
+  },
+  "targetEntityBlock": {
+    "configured": "تم التكوين",
+    "notConfigured": "لم يتم التكوين"
+  },
+  "targetEntityFlow": {
+    "back": "إغلاق التكوين: {targetEntity}",
+    "description": "تكوين: {targetEntity}",
+    "source": {
+      "heading": "المصدر",
+      "description": "المصادر تحدد نطاق المحتوى. قم بتعديل النتائج عن طريق تضمين أو استبعاد المعلمات.<br/><br/>*تشير إلى الحقل المطلوب"
+    },
+    "collections": {
+      "heading": "مجموعات",
+      "description": "قم بتنظيم المحتوى إلى مجموعات فرعية مميزة لتسهيل التصفح والاكتشاف. <br/><br/>*تشير إلى الحقل المطلوب"
+    }
+  }
+}

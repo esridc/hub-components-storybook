@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "محتواي",
+    "livingAtlas": "الأطلس المباشر",
+    "organization": "مؤسستي",
+    "world": "العالم (عام)"
+  },
+  "collection": {
+    "appsAndMaps": "التطبيقات والخرائط",
+    "feedback": "التعليقات"
+  },
+  "facets": {
+    "type": "النوع",
+    "tags": "العلامات",
+    "categories": "الفئات",
+    "modified": "تعديل"
+  },
+  "pickerTitle": "تحديد محتوى",
+  "height": "الارتفاع (بالبكسل)",
+  "isScrollable": "قابل للتمرير",
+  "errors": {
+    "heightMinimum": "يجب أن تكون القيمة عددًا موجبًا.",
+    "heightMaximum": "يجب أن تكون القيمة أقل من أو تساوي 2000 بكسل.",
+    "urlError": "يجب أن يكون عنوان URL صالحًا."
+  },
+  "success": {
+    "urlSuccess": "تم تحميل عنوان URL بنجاح."
+  },
+  "shouldApplyBreakpoints": {
+    "label": "تطبيق الإعدادات حسب نقاط توقف الأجهزة بدلاً من ذلك"
+  },
+  "viewportAll": {
+    "label": "الافتراضي",
+    "description": "الإعدادات المطبقة على جميع أحجام الشاشة"
+  },
+  "viewportMobile": {
+    "label": "متنقل",
+    "description": "الإعدادات المطبقة على الشاشات التي يبلغ عرضها 360 بكسل أو أكثر"
+  },
+  "viewportTablet": {
+    "label": "جهاز لوحي",
+    "description": "الإعدادات المطبقة على الشاشات التي يبلغ عرضها 560 بكسل أو أكثر"
+  },
+  "viewportDesktop": {
+    "label": "سطح المكتب",
+    "description": "الإعدادات المطبقة على الشاشات التي يبلغ عرضها 980 بكسل أو أكثر"
+  },
+  "sourceLabel": "تحديد نوع التضمين",
+  "contentLabel": "محتوى ArcGIS",
+  "externalLabel": "عنوان URL خارجي",
+  "contentDescription": "حدد من بين الروابط الحالية للخرائط والمشاهد والتطبيقات والاستطلاعات والمستندات المتاحة لك.",
+  "externalDescription": "أدخل عنوان URL المراد تضمينه. يرجى العلم بأن بعض المجالات لا تتيح التضمين، وقد لا تعرض كما هو متوقع."
+}

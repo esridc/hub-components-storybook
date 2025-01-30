@@ -1,0 +1,8 @@
+:host {
+  display: block;
+}
+
+.esri-view {
+  height: inherit;
+  width: inherit;
+}

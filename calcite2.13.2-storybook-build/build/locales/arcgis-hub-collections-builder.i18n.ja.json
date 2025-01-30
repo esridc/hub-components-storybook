@@ -1,0 +1,15 @@
+{
+  "newCollection": "新しいコレクション",
+  "block": {
+    "heading": {
+      "untitled": "無題のコレクション"
+    },
+    "actions": {
+      "delete": "コレクションの削除: {label}"
+    }
+  },
+  "name": {
+    "label": "名前",
+    "requiredError": "コレクション名が必要です"
+  }
+}

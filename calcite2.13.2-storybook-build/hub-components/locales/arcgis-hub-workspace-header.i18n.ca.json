@@ -1,0 +1,47 @@
+{
+  "communityOrg": "Organització de la comunitat",
+  "editLayout": "Edita el disseny",
+  "orgWorkspace": "Obre l'espai de treball de l'inici",
+  "editS123": "Edita al Survey123",
+  "editAdvancedJson": "Edició avançada JSON",
+  "view": {
+    "project": "Mostra el projecte",
+    "site": "Mostra el lloc",
+    "initiative": "Mostra la iniciativa",
+    "discussion": "Visualitza el tauler",
+    "content": "Mostra el contingut",
+    "page": "Mostra la pàgina",
+    "group": "Mostra el grup",
+    "initiativeTemplate": "Visualitza la plantilla d'iniciativa",
+    "template": "Visualitza la plantilla",
+    "survey": "Mostra l'enquesta",
+    "event": "Mostra l'esdeveniment"
+  },
+  "access": {
+    "share": "Comparteix",
+    "sharingLevel": "Nivell d'ús compartit",
+    "groupSharing": "Ús compartit del grup",
+    "tooltip": {
+      "public": "Nivell d'ús compartit: públic",
+      "org": "Nivell d'ús compartit: organització",
+      "private": "Nivell d'ús compartit: privat",
+      "shared": "Nivell d'ús compartit: compartit de manera privada"
+    },
+    "save": "Desa",
+    "cancel": "Cancel·la",
+    "alert": {
+      "success": "Els canvis s'han desat correctament",
+      "error": "S'ha produït un error en desar els canvis",
+      "label": "Alerta del formulari"
+    }
+  },
+  "popoverActions": {
+    "label": "Més accions",
+    "openInEnterprise": "Obre-ho a l'ArcGIS Enterprise",
+    "openInOnline": "Obre-ho a l'ArcGIS Online"
+  },
+  "homeLink": {
+    "text": "Inici"
+  },
+  "createContent": "Crea"
+}

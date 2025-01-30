@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "Oma sisältö",
+    "livingAtlas": "Living Atlas",
+    "organization": "Oma organisaatio",
+    "world": "Kaikille (julkinen)"
+  },
+  "collection": {
+    "appsAndMaps": "Sovellukset ja kartat",
+    "feedback": "Palaute"
+  },
+  "facets": {
+    "type": "Tyyppi",
+    "tags": "Tunnisteet",
+    "categories": "Luokat",
+    "modified": "Muokattu"
+  },
+  "pickerTitle": "Valitse sisältö",
+  "height": "Korkeus (px)",
+  "isScrollable": "Vieritettävä",
+  "errors": {
+    "heightMinimum": "Arvon on oltava positiivinen luku.",
+    "heightMaximum": "Arvon on oltava pienempi tai yhtä suuri kuin 2 000 pikseliä.",
+    "urlError": "On oltava kelvollinen URL-osoite."
+  },
+  "success": {
+    "urlSuccess": "URL-osoitteen lataus onnistui."
+  },
+  "shouldApplyBreakpoints": {
+    "label": "Käytä sen sijasta asetuksia laitteen pysäytyspisteiden mukaan"
+  },
+  "viewportAll": {
+    "label": "Oletus",
+    "description": "Asetukset otettu käyttöön näytön kaikissa kokovaihtoehdoissa"
+  },
+  "viewportMobile": {
+    "label": "Mobiili",
+    "description": "Asetukset otettu käyttöön näytöissä, joiden leveys on 360 pikseliä tai enemmän"
+  },
+  "viewportTablet": {
+    "label": "Tabletti",
+    "description": "Asetukset otettu käyttöön näytöissä, joiden leveys on 560 pikseliä tai enemmän"
+  },
+  "viewportDesktop": {
+    "label": "Työpöytä",
+    "description": "Asetukset otettu käyttöön näytöissä, joiden leveys on 980 pikseliä tai enemmän"
+  },
+  "sourceLabel": "Valitse upotustyyppi",
+  "contentLabel": "ArcGIS-sisältö",
+  "externalLabel": "Ulkoinen URL-osoite",
+  "contentDescription": "Valitse aiemmin luoduista kartoista, maisemista, sovelluksista, kyselyistä ja asiakirjalinkeistä, jotka ovat käytettävissäsi.",
+  "externalDescription": "Anna upotettava URL-osoite. Huomaa, että jotkin toimialueet eivät salli upottamista eivätkä ne ehkä näy odotetulla tavalla."
+}

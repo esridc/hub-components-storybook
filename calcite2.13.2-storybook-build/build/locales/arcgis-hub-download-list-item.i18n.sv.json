@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "Samling av geoobjekt",
+    "fgdb": "Filbaserad geodatabas",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Shapefil",
+    "sqlite": "SQLite-geodatabas"
+  },
+  "buttonText": {
+    "download": "Hämta",
+    "pending": "Väntande",
+    "processing": "Bearbetar",
+    "converting": "Konverterar",
+    "completed": "Hämtningen är klar",
+    "failed": "Det gick inte att hämta"
+  },
+  "errors": {
+    "errorHeading": "Fel"
+  },
+  "cacheStatusAccordion": {
+    "heading": "Hittade du det du behöver?",
+    "content": "En nyare version kan vara tillgänglig.",
+    "button": "Begär en ny fil"
+  },
+  "generateNewModal": {
+    "heading": "Är du säker?",
+    "content": "Det kan ta ett tag. Behåll den här webbläsarfliken aktiv tills hämtningen är klar.",
+    "confirmButton": "Ja",
+    "cancelButton": "Avbryt"
+  }
+}

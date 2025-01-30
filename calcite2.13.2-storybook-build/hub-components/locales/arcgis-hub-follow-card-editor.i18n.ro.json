@@ -1,0 +1,41 @@
+{
+  "notice": {
+    "outdatedItem": {
+      "title": "Înlocuirea inițiativei dvs.",
+      "message": "Acest card se referă la un eveniment expirat. Selectați un alt eveniment pe care utilizatorii să-l urmărească."
+    },
+    "missingFollowersGroup": {
+      "title": "Grup de urmăritori lipsă",
+      "message": "Acestui element îi lipsește un grup de urmăritori. Selectați un alt element."
+    },
+    "noGroupAccess": {
+      "title": "Perspectivă",
+      "message": "Nu aveți acces la grupul de urmăritori."
+    }
+  },
+  "selectContent": {
+    "title": "Conținut de urmărit",
+    "facets": {
+      "sharing": "Partajare",
+      "catalog": {
+        "myContent": "Resursele mele",
+        "organization": "Organizația mea"
+      }
+    }
+  },
+  "callToAction": {
+    "title": "Îndemn",
+    "helperText": "Îndemnul apare deasupra butonului de urmărire.",
+    "alignment": "Aliniere"
+  },
+  "followButton": {
+    "title": "Buton Urmărire",
+    "helperText": "Acest buton le va permite membrilor să urmărească sau să anuleze urmărirea conținutului. Se poate seta text pentru ambele stări ale butonului.",
+    "buttonText": "Text buton participare",
+    "unfollowButtonText": "Text buton refuz",
+    "alignment": "Aliniere",
+    "buttonStyle": "Stil buton",
+    "solid": "Fundal plin",
+    "outline": "Contur"
+  }
+}

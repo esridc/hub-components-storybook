@@ -1,0 +1,24 @@
+{
+  "shared": {
+    "targetEntities": {
+      "item": "Kohteet",
+      "event": "Tapahtumat"
+    }
+  },
+  "targetEntityBlock": {
+    "configured": "Määritetty",
+    "notConfigured": "Ei määritetty"
+  },
+  "targetEntityFlow": {
+    "back": "Sulje määritys: {targetEntity}",
+    "description": "Määritä: {targetEntity}",
+    "source": {
+      "heading": "Lähde",
+      "description": "Lähteet määrittävät sisällön laajuuden. Muokkaa tuloksia lisäämällä tai jättämällä pois parametreja.<br/><br/>* tarkoittaa pakollista kenttää"
+    },
+    "collections": {
+      "heading": "Kokoelmat",
+      "description": "Järjestä sisältö eri osajoukkoihin helpompaa selausta ja etsimistä varten.<br/><br/>* tarkoittaa pakollista kenttää"
+    }
+  }
+}

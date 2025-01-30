@@ -1,0 +1,16 @@
+:host {
+  display: block;
+  border: thin solid #DDD;
+  margin: 0.5rem 0;  
+}
+tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+th, td {
+    padding: 0.8rem 1rem;
+}
+
+tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}

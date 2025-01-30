@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "Redigera grupper",
+        "viewGroups": "Visa grupper"
+      },
+      "facet": {
+        "label": "Från",
+        "myGroups": "Mina grupper",
+        "myOrganization": "Min organisation",
+        "myCommunity": "Min community"
+      }
+    }
+  },
+  "property": {
+    "label": "Parameter",
+    "requiredError": "Parameter krävs"
+  },
+  "operator": {
+    "label": "Kriterier",
+    "requiredError": "Kriterier krävs"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "Typ"
+    },
+    "group": {
+      "default": "Grupper"
+    },
+    "occurrence": {
+      "default": "Förekomst"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "Är något av",
+      "group": "Delas med någon av"
+    },
+    "isAll": {
+      "default": "Är allt av",
+      "group": "Delas med alla"
+    },
+    "isExactly": {
+      "default": "Är exakt",
+      "occurrence": "Är"
+    },
+    "isNot": {
+      "default": "Är inte",
+      "type": "Är ingen av",
+      "group": "Delas med ingen av"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "Grupper",
+      "requiredError": "Grupper krävs"
+    },
+    "type": {
+      "label": "Typer",
+      "requiredError": "Typer krävs",
+      "app": {
+        "label": "Appar"
+      },
+      "content": {
+        "label": "Innehåll"
+      },
+      "dataset": {
+        "label": "Dataset"
+      },
+      "discussion": {
+        "label": "Diskussioner"
+      },
+      "document": {
+        "label": "Dokument"
+      },
+      "event": {
+        "label": "Evenemang"
+      },
+      "feedback": {
+        "label": "Feedback"
+      },
+      "initiative": {
+        "label": "Initiativ"
+      },
+      "map": {
+        "label": "Kartor"
+      },
+      "project": {
+        "label": "Projekt"
+      },
+      "site": {
+        "label": "Webbplatser"
+      },
+      "template": {
+        "label": "Mallar"
+      }
+    },
+    "occurrence": {
+      "label": "Förekomst",
+      "requiredError": "Förekomst krävs",
+      "upcoming": "Kommande",
+      "past": "Tidigare",
+      "inProgress": "Pågår"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "success": "Editările au fost salvate cu succes",
+  "error": "Eroare la salvarea editărilor",
+  "formAlert": "Alertă formular",
+  "projects": {
+    "header": "Proiecte",
+    "list": "Lista de proiecte",
+    "config": "Configurație",
+    "notConfigured": "Capacitatea Proiecte nu este configurată. Utilizați fila Configurație."
+  },
+  "content": {
+    "header": "Conținut",
+    "list": "Listă de conținut",
+    "config": "Configurație",
+    "notConfigured": "Capacitatea de conținut nu este configurată. Utilizați fila Configurație."
+  },
+  "initiatives": {
+    "header": "Inițiative",
+    "list": "Listă de inițiative",
+    "config": "Configurație",
+    "notConfigured": "Capacitatea Inițiative nu este configurată. Utilizați fila Configurație."
+  },
+  "events": {
+    "header": "Evenimente",
+    "list": "Listă de evenimente",
+    "config": "Configurație",
+    "notConfigured": "Capacitatea Evenimente nu este configurată. Utilizați fila Configurație."
+  },
+  "pages": {
+    "header": "Pagini",
+    "list": "Lista de pagini",
+    "config": "Configurație",
+    "notConfigured": "Capacitatea Pagini nu este configurată. Utilizați fila Configurație."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unauthenticated": {
+    "heading": "אנא התחבר.",
+    "message": "דרושה הרשאה כדי להתחבר לאתר זה.",
+    "actionText": "התחבר"
+  },
+  "not-found": {
+    "heading": "הדף לא נמצא",
+    "message": "ייתכן שדף זה הועבר או נמחק. נסה לחפש אותו מדף הבית",
+    "actionText": "עבור לדף הבית"
+  },
+  "unsupported-device": {
+    "heading": "גודל מסך לא נתמך",
+    "message": "שטחי עבודה לא זמינים עדיין במסכים קטנים יותר; השתמש במכשיר עם מסך רחב יותר.",
+    "actionText": "חזור"
+  },
+  "access-denied": {
+    "heading": "הגישה נדחתה",
+    "message": "אין לך הרשאה לגשת למשאב זה.",
+    "actionText": "עבור לדף הבית"
+  },
+  "loading": {
+    "heading": "טוען...",
+    "loadingLabel": "טוען"
+  }
+}

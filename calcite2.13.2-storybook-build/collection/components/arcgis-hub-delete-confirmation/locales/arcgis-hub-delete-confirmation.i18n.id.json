@@ -1,0 +1,50 @@
+{
+  "section": "Hapus",
+  "protection": "Cegah agar tidak menghapus {type} ini secara tidak sengaja.",
+  "protectionTooltip": "Tooltip perlindungan",
+  "protectionDisabledTooltip": "Hanya pemilik atau administrator organisasi yang dapat mengubah perlindungan.",
+  "deleteDisabledNoAccessTooltip": "Hanya pemilik atau administrator organisasi yang dapat menghapus.",
+  "deleteDisabledNoAccessTooltipGroup": "Hanya pemilik, manajer, atau administrator organisasi yang dapat menghapus.",
+  "deleteDisabledProtectedTooltip": "Tidak dapat menghapus jika perlindungan penghapusan aktif.",
+  "deleteButton": "Hapus",
+  "protect": {
+    "successTitle": "Perlindungan dari penghapusan ditambahkan",
+    "success": "Tidak dapat menghapus jika perlindungan penghapusan aktif.",
+    "successLabel": "Peringatan penambahan perlindungan dari penghapusan.",
+    "errorTitle": "Tidak dapat menambah perlindungan dari penghapusan",
+    "error": "Terjadi kesalahan saat menambahkan perlindungan dari penghapusan.",
+    "errorLabel": "Peringatan perlindungan dari penghapusan gagal."
+  },
+  "unprotect": {
+    "successTitle": "Hapus perlindungan yang dihilangkan",
+    "success": "Tidak dapat dihapus saat perlindungan penghapusan dinonaktifkan.",
+    "successLabel": "Peringatan perlindungan dari penghapusan dihilangkan.",
+    "errorTitle": "Tidak dapat menghilangkan perlindungan dari penghapusan",
+    "error": "Terjadi kesalahan saat menghapus perlindungan dari penghapusan.",
+    "errorLabel": "Peringatan gagal menghilangkan perlindungan dari penghapusan."
+  },
+  "delete": {
+    "successTitle": "Berhasil dihapus",
+    "success": "Mengarahkan ke ruang kerja beranda Anda",
+    "successLabel": "Peringatan penghapusan berhasil.",
+    "errorTitle": "Gagal menghapus",
+    "error": "Terjadi kesalahan, harap coba lagi.",
+    "errorLabel": "Peringatan penghapusan gagal."
+  },
+  "permanentDelete": {
+    "successTitle": "Berhasil dihapus permanen",
+    "success": "Mengarahkan ke ruang kerja beranda Anda",
+    "successLabel": "Peringatan penghapusan berhasil.",
+    "errorTitle": "Gagal menghapus",
+    "error": "Terjadi kesalahan, harap coba lagi.",
+    "errorLabel": "Peringatan penghapusan gagal."
+  },
+  "deleteModal": {
+    "header": "Hapus",
+    "deleteContent": "Tidak dapat membatalkan penghapusan permanen. Apakah Anda yakin ingin melanjutkan?",
+    "recycleContent": "Konten yang dihapus akan dikirim ke tempat sampah. Anda memiliki 14 hari untuk memulihkannya.",
+    "delete": "Hapus",
+    "permanentlyDelete": "Hapus secara Permanen",
+    "cancel": "Batalkan"
+  }
+}

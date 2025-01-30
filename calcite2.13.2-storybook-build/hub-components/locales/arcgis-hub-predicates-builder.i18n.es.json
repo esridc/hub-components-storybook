@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "Editar grupos",
+        "viewGroups": "Ver grupos"
+      },
+      "facet": {
+        "label": "De",
+        "myGroups": "Mis grupos",
+        "myOrganization": "Mi organización",
+        "myCommunity": "Mi comunidad"
+      }
+    }
+  },
+  "property": {
+    "label": "Parámetro",
+    "requiredError": "El parámetro es obligatorio"
+  },
+  "operator": {
+    "label": "Criterios",
+    "requiredError": "Los criterios son obligatorios"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "Tipo"
+    },
+    "group": {
+      "default": "Grupos"
+    },
+    "occurrence": {
+      "default": "Ocurrencia"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "Es cualquiera de",
+      "group": "Se comparte con cualquiera de"
+    },
+    "isAll": {
+      "default": "Todos los de",
+      "group": "Se comparte con todos los de"
+    },
+    "isExactly": {
+      "default": "Es exactamente",
+      "occurrence": "Es"
+    },
+    "isNot": {
+      "default": "No es",
+      "type": "No es ninguno de",
+      "group": "No se comparte con ninguno de"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "Grupos",
+      "requiredError": "Los grupos son obligatorios"
+    },
+    "type": {
+      "label": "Tipos",
+      "requiredError": "Los tipos son obligatorios",
+      "app": {
+        "label": "Aplicaciones"
+      },
+      "content": {
+        "label": "Contenido"
+      },
+      "dataset": {
+        "label": "Datasets"
+      },
+      "discussion": {
+        "label": "Debates"
+      },
+      "document": {
+        "label": "Documentos"
+      },
+      "event": {
+        "label": "Eventos"
+      },
+      "feedback": {
+        "label": "Comentarios"
+      },
+      "initiative": {
+        "label": "Iniciativas"
+      },
+      "map": {
+        "label": "Mapas"
+      },
+      "project": {
+        "label": "Proyectos"
+      },
+      "site": {
+        "label": "Sitios"
+      },
+      "template": {
+        "label": "Plantillas"
+      }
+    },
+    "occurrence": {
+      "label": "Ocurrencia",
+      "requiredError": "La ocurrencia es obligatoria",
+      "upcoming": "Próximos",
+      "past": "Pasado",
+      "inProgress": "En curso"
+    }
+  }
+}

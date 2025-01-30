@@ -1,0 +1,53 @@
+{
+  "settings": "Configurações",
+  "formDisabledTooltip": "Você não tem acesso para fazer alterações neste{type}.",
+  "delete": {
+    "project": "Excluir este projeto",
+    "initiative": "Excluir esta iniciativa",
+    "site": "Excluir este site",
+    "discussion": "Excluir esta discussão",
+    "content": "Excluir este conteúdo",
+    "page": "Excluir esta página",
+    "group": "Excluir este grupo",
+    "initiativeTemplate": "Excluir este modelo de iniciativa",
+    "template": "Excluir este modelo",
+    "survey": "Excluir esta pesquisa",
+    "desc": {
+      "project": "A exclusão deste projeto não pode ser desfeita.",
+      "initiative": "A exclusão desta iniciativa não pode ser desfeita.",
+      "site": "A exclusão deste site não pode ser desfeita.",
+      "discussion": "A exclusão desta discussão não pode ser desfeita.",
+      "content": "A exclusão deste conteúdo não pode ser desfeita.",
+      "page": "A exclusão desta página não pode ser desfeita.",
+      "group": "A exclusão deste grupo não pode ser desfeita.",
+      "initiativeTemplate": "A exclusão deste modelo de iniciativa não pode ser desfeita.",
+      "template": "A exclusão deste modelo não pode ser desfeita.",
+      "survey": "A exclusão desta pesquisa não pode ser desfeita."
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "project": "Excluir projeto",
+      "initiative": "Excluir iniciativa",
+      "site": "Excluir local",
+      "discussion": "Excluir discussão",
+      "content": "Excluir conteúdo",
+      "page": "Excluir página",
+      "group": "Excluir grupo",
+      "initiativeTemplate": "Excluir modelo de iniciativa",
+      "template": "Excluir modelo",
+      "survey": "Excluir pesquisa"
+    },
+    "content": "Tem certeza que deseja excluir:",
+    "delete": "Excluir",
+    "cancel": "Cancelar"
+  },
+  "sidePanel": {
+    "content": {
+      "extractNotice": {
+        "title": "O recurso \"Extrair\" altera as configurações do serviço.",
+        "message": "Outros itens que fazem referência ao serviço serão impactados. Para mais detalhes, consulte <docLink>Exportar Dados das Camadas de Feição Hospedadas</docLink>."
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "マイ コンテンツ",
+    "livingAtlas": "Living Atlas",
+    "organization": "組織",
+    "world": "世界 (パブリック)"
+  },
+  "collection": {
+    "appsAndMaps": "アプリおよびマップ",
+    "feedback": "フィードバック"
+  },
+  "facets": {
+    "type": "タイプ",
+    "tags": "タグ",
+    "categories": "カテゴリ",
+    "modified": "更新"
+  },
+  "pickerTitle": "コンテンツの選択",
+  "height": "高さ (px)",
+  "isScrollable": "スクロール可能",
+  "errors": {
+    "heightMinimum": "値は正の数でなければなりません。",
+    "heightMaximum": "値は 2000 ピクセル以下である必要があります。",
+    "urlError": "有効な URL である必要があります。"
+  },
+  "success": {
+    "urlSuccess": "URL が正常に読み込まれました。"
+  },
+  "shouldApplyBreakpoints": {
+    "label": "代わりに、デバイスのブレークポイントで設定を適用します。"
+  },
+  "viewportAll": {
+    "label": "デフォルト",
+    "description": "すべての画面サイズに適用される設定"
+  },
+  "viewportMobile": {
+    "label": "モバイル",
+    "description": "幅 360 ピクセル以上の画面に適用される設定"
+  },
+  "viewportTablet": {
+    "label": "タブレット",
+    "description": "幅 560 ピクセル以上の画面に適用される設定"
+  },
+  "viewportDesktop": {
+    "label": "デスクトップ",
+    "description": "幅 980 ピクセル以上の画面に適用される設定"
+  },
+  "sourceLabel": "埋め込みタイプの選択",
+  "contentLabel": "ArcGIS コンテンツ",
+  "externalLabel": "外部 URL",
+  "contentDescription": "利用可能な既存のマップ、シーン、アプリケーション、調査、ドキュメント リンクから選択します。",
+  "externalDescription": "埋め込み URL を入力します。 一部のドメインでは埋め込みが許可されていないため、期待どおりに表示されない場合がありますのでご注意ください。"
+}

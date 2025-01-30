@@ -1,0 +1,203 @@
+:host {
+  display: block;
+}
+
+address {
+  display: grid;
+  align-items: center;
+  row-gap: 0.25rem;
+  font-style: normal;
+}
+
+address:has(.metadata) {
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  align-items: flex-start;
+}
+
+address:has(.metadata.inline) {
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+  align-items: center;
+  grid-template-columns: repeat(2, max-content);
+}
+
+address:has(calcite-avatar[scale="s"]) {
+  grid-template-columns: 32px auto;
+}
+
+address:has(.metadata.inline):has(calcite-avatar[scale="s"]) {
+  grid-template-columns: 32px max-content max-content;
+}
+
+address:has(calcite-avatar[scale="m"]) {
+  grid-template-columns: 40px auto;
+}
+
+address:has(.metadata.inline):has(calcite-avatar[scale="m"]) {
+  grid-template-columns: 40px max-content max-content;
+}
+
+address:has(calcite-avatar[scale="m"]):has(calcite-avatar + calcite-avatar) {
+  grid-template-columns: 50px auto;
+}
+
+address:has(.metadata.inline):has(calcite-avatar[scale="m"]):has(calcite-avatar + calcite-avatar) {
+  grid-template-columns: 50px max-content max-content;
+}
+
+address:has(calcite-avatar[scale="l"]) {
+  grid-template-columns: 52px auto;
+}
+
+address:has(.metadata.inline):has(calcite-avatar[scale="l"]) {
+  grid-template-columns: 52px max-content max-content;
+}
+
+address:has(calcite-avatar[scale="l"]):has(calcite-avatar + calcite-avatar) {
+  grid-template-columns: 62px auto;
+}
+
+address:has(.metadata.inline):has(calcite-avatar[scale="l"]):has(calcite-avatar + calcite-avatar) {
+  grid-template-columns: 62px max-content max-content;
+}
+
+arcgis-hub-discussions-popover {
+  display: flex;
+}
+
+address:has(.metadata) arcgis-hub-discussions-popover {
+  grid-row: span 2 / span 2;
+}
+
+address:has(.metadata.inline) arcgis-hub-discussions-popover {
+  grid-row: span 1 / span 1;
+}
+
+button {
+  cursor: pointer;
+  border-style: none;
+  background-color: transparent;
+  padding: 0px;
+}
+
+header {
+  display: flex;
+  align-items: flex-end;
+  font-size: var(--calcite-font-size-0);
+  line-height: 1.25rem;
+  font-weight: var(--calcite-font-weight-bold);
+  text-transform: capitalize;
+  color: var(--calcite-color-text-1);
+}
+
+address:has(.metadata):not(:has(.inline)) header {
+  align-self: flex-end;
+}
+
+.avatars {
+  position: relative;
+  display: flex;
+}
+
+address:has(.metadata) .avatars {
+  grid-row: span 2 / span 2;
+}
+
+address:has(.metadata.inline) .avatars {
+  grid-row: span 1 / span 1;
+}
+
+.avatars:has(calcite-avatar[scale="s"]) {
+  height: 24px;
+}
+
+.avatars:has(calcite-avatar[scale="s"]):has(calcite-avatar + calcite-avatar) {
+  height: 30px;
+}
+
+.avatars:has(calcite-avatar[scale="m"]) {
+  height: 32px;
+}
+
+.avatars:has(calcite-avatar[scale="m"]):has(calcite-avatar + calcite-avatar) {
+  height: 42px;
+}
+
+.avatars:has(calcite-avatar[scale="l"]) {
+  height: 44px;
+}
+
+.avatars:has(calcite-avatar[scale="l"]):has(calcite-avatar + calcite-avatar) {
+  height: 54px;
+}
+
+.avatars calcite-avatar + calcite-avatar {
+  position: absolute;
+  z-index: 10;
+  border-radius: 9999px;
+  border: 3px solid var(--calcite-color-foreground-1);
+}
+
+.avatars calcite-avatar + calcite-avatar[scale="s"] {
+  top: 0.75rem;
+  left: 0.75rem;
+}
+
+.avatars calcite-avatar + calcite-avatar[scale="m"] {
+  top: 1rem;
+  left: 1rem;
+}
+
+.metadata {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  font-size: var(--calcite-font-size--1);
+  line-height: 1rem;
+}
+
+.post-creator-username {
+  font-style: normal;
+  color: var(--calcite-color-text-2);
+}
+
+.post-creator-username::before {
+  font-style: normal;
+  color: var(--calcite-color-text-2);
+  content: '@';
+}
+
+.channel-name {
+  max-height: 1rem;
+  word-break: break-all;
+  font-weight: var(--calcite-font-weight-medium);
+  font-style: normal;
+  color: var(--calcite-color-text-2);
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.metadata-separator {
+  display: flex;
+  width: 1rem;
+  justify-content: center;
+  font-size: var(--calcite-font-size--1);
+  line-height: 1rem;
+  color: var(--calcite-color-text-2);
+}
+
+.metadata arcgis-relative-date {
+  white-space: nowrap;
+}
+
+.access-icon {
+  margin-top: -0.125rem;
+}
+
+.replying-to calcite-icon {
+  position: relative;
+  top: 3px;
+  margin-right: 0.25rem;
+  transform: scaleY(-1);
+}

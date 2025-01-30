@@ -1,0 +1,126 @@
+:host {
+  display: block;
+  max-height: 100%;
+  overflow: auto;
+  background-color: var(--calcite-color-foreground-1);
+  /* --arcgis-hub-layout-list-min-column-width: 20rem; */
+  --arcgis-hub-layout-list-gap: 0rem;
+  /* --arcgis-hub-layout-list-actions-gap: .25rem; */
+  /* --arcgis-hub-layout-list-actions-margin: 1rem; */
+}
+
+/* Enables scrolling */
+calcite-panel {
+  height: max-content;
+}
+
+section {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  display: grid;
+  gap: 0.75rem;
+  border-radius: 0.25rem;
+  padding: 0.75rem;
+  --tw-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.12);
+  --tw-shadow-colored: 0 2px 8px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+header {
+  margin: 0px;
+  font-size: var(--calcite-font-size-1);
+  line-height: 1.5rem;
+  font-weight: var(--calcite-font-weight-bold);
+}
+
+p {
+  margin: 0px;
+  font-size: var(--calcite-font-size-0);
+  line-height: 1.375rem;
+}
+
+section calcite-button {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+calcite-button[icon-start="speech-bubble-plus"] {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: block;
+}
+
+arcgis-hub-discussions-private-notice, arcgis-hub-discussions-blocked-notice {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.empty arcgis-hub-discussions-private-notice, .empty arcgis-hub-discussions-blocked-notice {
+  margin: 0px;
+  margin-top: 0.25rem;
+}
+
+arcgis-hub-discussions-thread {
+  overflow: hidden;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+arcgis-hub-discussions-post-list {
+  background-color: var(--calcite-color-foreground-1);
+}
+
+arcgis-hub-discussions-post-list.location-list {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+[data-element="discussions-options-panel"] > div {
+  background-color: var(--calcite-color-foreground-1);
+  padding: 1rem;
+}
+
+[data-element="discussions-options-panel"] > div div {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 0.5rem;
+}
+
+[data-element="discussions-options-panel"] > div div + calcite-notice {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.discussions-options:active .discussions-options-icon {
+  --tw-text-opacity: 1;
+  color: rgb(21 21 21 / var(--tw-text-opacity));
+}
+
+.discussions-go-to:active .discussions-go-to-icon {
+  --tw-text-opacity: 1;
+  color: rgb(21 21 21 / var(--tw-text-opacity));
+}
+
+.discussions-back {
+  border-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-right-color: var(--calcite-color-border-3);
+}
+
+.discussions-back:active .discussions-back-icon {
+  --tw-text-opacity: 1;
+  color: rgb(21 21 21 / var(--tw-text-opacity));
+}
+
+arcgis-hub-discussions-post-editor[slot="list-before"] {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}

@@ -1,0 +1,46 @@
+{
+  "title": "Katalogkonfiguration",
+  "helperText": "Definer og konfigurer katalog",
+  "sections": {
+    "groups": {
+      "title": "Grupper",
+      "helperText": "Grupperne nedenfor indeholder dit søgekatalogs indhold. Vælg en gruppe for at få vist indstillinger, indhold osv.",
+      "createGroup": "Opret ny gruppe"
+    },
+    "feeds": {
+      "title": "Feed-konfiguration",
+      "helperText": "Gør dine offentlige Open Data nemt tilgængelige og genanvendelige med Hub-feeds.",
+      "learn": "Få mere at vide om Hub-feeds",
+      "toggle": "Aktivér feeds ",
+      "configure": "Konfigurér feeds",
+      "notice": "For at aktivere feeds skal du først angive dine Hub-websteder til \"Offentlige\" i dine indstillinger"
+    }
+  },
+  "groupPickerFacet": {
+    "label": "Fra",
+    "editGroups": "Rediger grupper",
+    "viewGroups": "Vis gruppe",
+    "myGroups": "Mine grupper",
+    "myOrganization": "Min organisation",
+    "myCommunity": "Mit fællesskab",
+    "public": "Offentlig"
+  },
+  "formAlert": "Formularadvarsel",
+  "configSaveAlert": {
+    "success": "Redigeringer er blevet gemt",
+    "failure": "Fejl under lagring af redigeringer"
+  },
+  "reharvestCatalogButton": "Kontroller for fejl",
+  "reharvestWarningModal": {
+    "title": "Kontroller for fejl",
+    "body1": "Advarsel: Denne valgmulighed bruges normalt kun i situationer, hvor din søgeside støder på problemer med manglende resultater eller metadata. Denne indstilling kontrollerer alle elementer i alle katalogets grupper for tilføjelser, metadataændringer eller fjernelser.",
+    "body2": "Kørsel af denne proces genopbygger det offentlige søgeindeks i dette katalog og kan tage flere minutter. Dette vil øge belastningen på alle ArcGIS Server-forekomster.",
+    "primaryButton": "Fortsæt",
+    "secondaryButton": "Annuller"
+  },
+  "reharvestCatalogAlert": {
+    "success": "Kontrollerer for fejl. Prøv igen senere.",
+    "inProgress": "Kontrol er allerede i gang. Prøv igen senere.",
+    "failure": "Beklager, der opstod en driftsmæssig fejl. Prøv igen senere."
+  }
+}

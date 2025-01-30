@@ -1,0 +1,33 @@
+{
+  "title": "Kolekcijas",
+  "actions": {
+    "label": "Opcijas",
+    "show": "Parādīt",
+    "hide": "Paslēpt",
+    "rename": "Pārdēvēt"
+  },
+  "formAlert": "Veidlapas brīdinājums",
+  "alertMessages": {
+    "success": "Veiksmīgi saglabāti labojumi",
+    "error": "Kļūda, saglabājot labojumus"
+  },
+  "collectionRenameModal": {
+    "title": "Pārdēvēt kolekciju",
+    "fieldLabel": "Kolekcijas apzīmējums",
+    "requiredMessage": "Kolekcijas apzīmējums jānorāda obligāti",
+    "apply": "Lietot",
+    "maxLengthMessage": "Kolekcijas apzīmējumā nedrīkst būt vairāk par 50 rakstzīmēm."
+  },
+  "collections": {
+    "dataset": "Dati",
+    "site": "Vietnes",
+    "document": "Dokumenti",
+    "appAndMap": "Lietotnes un kartes"
+  },
+  "saveButton": "Saglabāt",
+  "sections": {
+    "collectionConfiguration": {
+      "title": "Kolekcijas konfigurācija"
+    }
+  }
+}

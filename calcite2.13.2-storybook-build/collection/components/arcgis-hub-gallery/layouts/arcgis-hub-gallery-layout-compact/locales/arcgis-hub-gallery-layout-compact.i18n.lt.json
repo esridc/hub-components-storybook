@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Rezultatų nerasta."
+    },
+    "error": {
+      "message": "Apgailestaujame, bet ieškant įvyko klaida."
+    }
+  },
+  "type": "Tipas",
+  "tags": "Žymos",
+  "owner": "Savininkas",
+  "dateCreated": "Sukurta",
+  "dateUpdated": "Pakeistas",
+  "categories": "Kategorijos",
+  "dateAndTime": "Data ir laikas",
+  "allDay": "{date} (visa diena)",
+  "allDayRange": "{from}–{to} (visa diena)",
+  "location": "Vieta",
+  "attendanceType": "Dalyvavimo tipas",
+  "inPerson": "Asmeniškai",
+  "online": "Internetu",
+  "hybrid": "Hibridinis"
+}

@@ -1,0 +1,1 @@
+import{r as t,h as i,H as s}from"./p-df5fbfcb.js";const a=class{constructor(i){t(this,i),this.entity=void 0}render(){return i(s,null,i("arcgis-hub-entity-capability-pane",{capability:"projects",entity:this.entity}))}};export{a as arcgis_hub_projects_capability_pane}

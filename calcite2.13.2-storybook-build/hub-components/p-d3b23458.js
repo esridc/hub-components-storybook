@@ -1,0 +1,1 @@
+const t=(t,e="v")=>{if(!t)return t;const n=t.indexOf("?")>-1?"&":"?";return t+`${n}${e}=${(new Date).getTime()}`};export{t as c}

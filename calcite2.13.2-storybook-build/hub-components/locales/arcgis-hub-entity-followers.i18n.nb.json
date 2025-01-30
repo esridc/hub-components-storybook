@@ -1,0 +1,66 @@
+{
+  "followers": "Følgere",
+  "tabs": {
+    "followers": "Følgere",
+    "settings": "Innstillinger"
+  },
+  "addFollowers": {
+    "label": "Legg til følgere"
+  },
+  "emptyState": {
+    "message": "Området har ingen gruppe for følgere",
+    "action": "Opprett en gruppe for følgere"
+  },
+  "createFollowersGroup": {
+    "formDescription": "Lag en gruppe for å legge til rette for innholdsdeling og kommunikasjon",
+    "defaultSummary": "Denne gruppen for følgere lar medlemmer dele innhold og kommunisere med hverandre på en enklere måte."
+  },
+  "restrictedAccessState": {
+    "message": "Du har ikke tilgang til å vise gruppen med følgere.",
+    "action": "Be om tilgang"
+  },
+  "stats": {
+    "total": {
+      "title": "Saldo",
+      "trailingText": "Følgere"
+    },
+    "new": {
+      "title": "Ny",
+      "trailingText": "Siste 30 dager"
+    }
+  },
+  "addMembers": {
+    "button": "Legg til medlemmer",
+    "modal": {
+      "title": "Legg til medlemmer",
+      "org": "Min organisasjon",
+      "community": "Mitt fellesskap",
+      "partner": "Mine partnere",
+      "world": "Verden"
+    },
+    "notifications": {
+      "invited": "Invitasjon sendt. Brukere må godta for å bli med",
+      "added": "Bruker(e) lagt til",
+      "notInvited": "Enkelte brukere har kanskje ikke nødvendige rettigheter for å bli med i gruppen eller maksimumsgrensen kan være nådd (512)"
+    }
+  },
+  "removeUsers": {
+    "button": "Fjern",
+    "success": "Medlemmene ble fjernet fra {groupName}.",
+    "error": "Én eller flere brukere kan ikke fjernes fra gruppen."
+  },
+  "changeRole": {
+    "button": "Endre rolle",
+    "member": "Medlem",
+    "memberHelperText": "Kan legge til og vise innhold innenfor gruppen.",
+    "tooltipText": "Opphev valget av deg selv og/eller gruppeeieren",
+    "tooltipLabel": "Ansvarsfraskrivelse for rolle",
+    "admin": "Administrator",
+    "adminHelperText": "Kan legge til / fjerne innhold og invitere/fjerne personer (unntatt eieren).",
+    "success": "Valgte medlemmer ble {role} for gruppe.",
+    "error": "Rollen kunne ikke endres for ett eller flere medlemmer."
+  },
+  "notice": {
+    "label": "Skjemavarsel"
+  }
+}

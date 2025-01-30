@@ -1,0 +1,75 @@
+{
+  "addMetric": "Pievienot rādītāju",
+  "title": "Rādītāji",
+  "featured": "Saistītie",
+  "metricDescription": "Izmērāma vērtība, ko izmanto, lai izsekotu projekta norisei, pamatojoties uz statiskiem (piemēram, vēsturiskiem) vai dinamiskiem (piemēram, reāllaika) datiem.",
+  "metricCount": {
+    "label": "{currentCount} / {totalCountAllowed} rādītāji",
+    "tooltip": "Lai pievienotu rādītājus, izdzēsiet kādus no esošās rādītāju kopas"
+  },
+  "visible": {
+    "title": "Redzams",
+    "noMetrics": "Šajā sadaļā nav rādītāju."
+  },
+  "hidden": {
+    "title": "Paslēpts",
+    "description": "Šie rādītāji redzami tikai tiem, kam ir piekļuve šai darbvietai.",
+    "noMetrics": "Šajā sadaļā nav rādītāju."
+  },
+  "project": {
+    "featured": {
+      "description": "Jums var būt 4 piedāvātās metrikas. Tās tiek parādītas Jūsu tiešsaistes projekta pārskatā."
+    },
+    "visible": {
+      "description": "Redzamā metrika tiek rādīta Jūsu tiešsaistes projekta cilnē Metrika."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Rādītāji atbildīs projekta koplietošanas līmenim. Slēptie rādītāji joprojām var būt pieejami ar API izsaukumu.",
+        "metricsDockLink": "Uzzināt vairāk par metrikas iestatīšanu"
+      }
+    }
+  },
+  "initiative": {
+    "featured": {
+      "description": "Jums var būt 4 piedāvātās metrikas. Tie tiek parādīti Jūsu iniciatīvas pārskatā."
+    },
+    "visible": {
+      "description": "Redzamā metrika tiek rādīta Jūsu tiešsaistes projekta cilnē Metrika."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Rādītāji atbildīs iniciatīvas koplietošanas līmenim. Slēptie rādītāji joprojām var būt pieejami ar API izsaukumu.",
+        "metricsDockLink": "Uzzināt vairāk par metrikas iestatīšanu"
+      }
+    }
+  },
+  "metricNumber": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4"
+  },
+  "actions": {
+    "delete": "Dzēst",
+    "edit": "Rediģēt",
+    "featured": "Elements",
+    "removeFeatured": "Noņemt saistīto",
+    "show": "Pārvietot uz redzamo",
+    "hide": "Pārvietot uz paslēpto"
+  },
+  "editor": {
+    "heading": "Jauns rādītājs",
+    "description": "Pēc noklusējuma rādītāji tiks automātiski paslēpti, lai darbvietas dalībnieki varētu tos skatīt."
+  },
+  "deleteMetricModal": {
+    "heading": "Dzēst rādītāju",
+    "content": "Vai tiešām vēlaties dzēst:",
+    "cancel": "Atcelt",
+    "delete": "Dzēst"
+  },
+  "sidePanel": {
+    "definitions": "Definīcijas",
+    "preview": "Priekšskatījums"
+  }
+}

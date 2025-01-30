@@ -1,0 +1,49 @@
+{
+  "settings": "Ajustes",
+  "advanced": "Avanzado",
+  "delete": {
+    "event": "Eliminar este evento",
+    "desc": "La eliminación de este evento no se puede deshacer. Se notificará a los solicitantes de registro existentes si se han habilitado las notificaciones automáticas del evento.",
+    "deleteButton": "Eliminar evento"
+  },
+  "cancel": {
+    "header": "Cancelar este evento",
+    "desc": "Si se cancela, el evento seguirá estando visible con el estado de cancelado. El registro se detendrá y se notificará a los solicitantes de registro existentes (si se han habilitado las notificaciones automáticas del evento).",
+    "event": "Cancelar evento",
+    "notice": {
+      "success": {
+        "title": "Evento cancelado",
+        "message": "Se notificará a los solicitantes de registro existentes si se han habilitado las notificaciones automáticas del evento."
+      },
+      "error": {
+        "title": "No se pudo cancelar el evento",
+        "message": "Inténtelo de nuevo"
+      }
+    }
+  },
+  "enable": {
+    "event": "Rehabilitar evento",
+    "desc": "Evento cancelado (visible con estado de cancelado).",
+    "notice": {
+      "success": {
+        "title": "Evento rehabilitado",
+        "message": "Se notificará a los solicitantes de registro existentes si se han habilitado las notificaciones automáticas del evento."
+      },
+      "error": {
+        "title": "No se pudo rehabilitar el evento",
+        "message": "Inténtelo de nuevo"
+      }
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "event": "Eliminar evento"
+    },
+    "content": "Seguro que desea eliminar:",
+    "delete": "Eliminar evento",
+    "cancel": "Cancelar evento"
+  },
+  "notice": {
+    "label": "Alerta de formulario"
+  }
+}

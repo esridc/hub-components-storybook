@@ -1,0 +1,53 @@
+{
+  "settings": "Impostazioni",
+  "formDisabledTooltip": "Non si dispone dell'accesso per apportare modifiche a questo {type}.",
+  "delete": {
+    "project": "Elimina questo progetto",
+    "initiative": "Elimina questa iniziativa",
+    "site": "Elimina questo sito",
+    "discussion": "Elimina questa discussione",
+    "content": "Elimina questo contenuto",
+    "page": "Elimina questa pagina",
+    "group": "Elimina questo gruppo",
+    "initiativeTemplate": "Elimina questo modello di iniziativa",
+    "template": "Elimina questo modello",
+    "survey": "Elimina questo rilevamento",
+    "desc": {
+      "project": "L’eliminazione di questo progetto non può essere annullata.",
+      "initiative": "L’eliminazione di questa iniziativa non può essere annullata.",
+      "site": "L’eliminazione di questo sito non può essere annullata.",
+      "discussion": "L’eliminazione di questa discussione non può essere annullata.",
+      "content": "L’eliminazione di questo contenuto non può essere annullata.",
+      "page": "L’eliminazione di questa pagina non può essere annullata.",
+      "group": "L’eliminazione di questo gruppo non può essere annullata.",
+      "initiativeTemplate": "L’eliminazione di questo modello di iniziativa non può essere annullata.",
+      "template": "L’eliminazione di questo modello non può essere annullata.",
+      "survey": "L’eliminazione di questo rilevamento non può essere annullata."
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "project": "Elimina progetto",
+      "initiative": "Elimina iniziativa",
+      "site": "Elimina sito",
+      "discussion": "Elimina discussione",
+      "content": "Elimina contenuto",
+      "page": "Elimina pagina",
+      "group": "Eliminare gruppo",
+      "initiativeTemplate": "Elimina modello iniziativa",
+      "template": "Elimina modello",
+      "survey": "Elimina rilevamento"
+    },
+    "content": "Eliminare:",
+    "delete": "Elimina",
+    "cancel": "Annulla"
+  },
+  "sidePanel": {
+    "content": {
+      "extractNotice": {
+        "title": "La funzionalità \"Estrai\" modifica le impostazioni del servizio.",
+        "message": "Saranno influenzati gli altri elementi che fanno riferimento al servizio. Per maggiori dettagli consultare <docLink>Esportare Dati da Feature Layer Hosted</docLink>"
+      }
+    }
+  }
+}

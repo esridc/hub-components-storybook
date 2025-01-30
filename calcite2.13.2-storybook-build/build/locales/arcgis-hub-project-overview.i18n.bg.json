@@ -1,0 +1,19 @@
+{
+  "overview": "Общ преглед",
+  "telemetry": {
+    "pageViews": "Прегледи на страница",
+    "last30days": "Последните 30 дни",
+    "lastUpdated": "Последна актуализажия преди {hoursElapsed} часа",
+    "checkTomorrow": "Проверете отново утре"
+  },
+  "learnAbout": "Научете за Hub проекти",
+  "status": {
+    "notStarted": "Не е започнало",
+    "inProgress": "В процес на изпълнение",
+    "onHold": "Задържане",
+    "complete": "Завършен"
+  },
+  "editDetails": "Редактиране на подробна информация",
+  "noPurposeSet": "Не е зададена цел",
+  "noLocationSet": "Не е зададено местоположение"
+}

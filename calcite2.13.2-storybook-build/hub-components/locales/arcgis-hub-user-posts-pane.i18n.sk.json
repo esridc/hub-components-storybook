@@ -1,0 +1,43 @@
+{
+  "header": "Diskusie",
+  "myContent": "Moje udalosti",
+  "editableContent": "Editovateľný obsah",
+  "addContentButtonText": "Vytvoriť udalosť",
+  "type": "Typ",
+  "sharedUpdate": "Skupina zdieľanej aktualizácie",
+  "viewOnly": "Zobraziť iba skupinu",
+  "owner": "Vlastník",
+  "updated": "Aktualizované",
+  "tags": "Štítky",
+  "dateCreated": "Vytvorené",
+  "dateUpdated": "Modifikované",
+  "actionLinks": {
+    "view": "Zobraziť",
+    "edit": "Editovať",
+    "ariaEdit": "Editácia: {title}",
+    "ariaView": "Zobrazenie: {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Udalosti",
+      "myContent": "Udalosti, ktoré vlastním",
+      "editableContent": "Udalosti, ktoré môžem editovať",
+      "all": "Všetky udalosti"
+    },
+    "access": {
+      "label": "Z"
+    },
+    "type": {
+      "label": "Typy"
+    },
+    "tags": {
+      "label": "Štítky"
+    },
+    "categories": {
+      "label": "Kategórie"
+    },
+    "modified": {
+      "label": "Modifikované"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unauthenticated": {
+    "heading": "Melden Sie sich an.",
+    "message": "Für den Zugriff auf diese Site sind Anmeldeinformationen erforderlich.",
+    "actionText": "Anmelden"
+  },
+  "not-found": {
+    "heading": "Seite nicht gefunden",
+    "message": "Diese Seite wurde möglicherweise verschoben oder gelöscht. Versuchen Sie, die Seite über die Suchfunktion auf der Startseite zu finden.",
+    "actionText": "Zur Startseite"
+  },
+  "unsupported-device": {
+    "heading": "Nicht unterstützte Bildschirmgröße",
+    "message": "Workspaces sind auf kleineren Bildschirmgrößen noch nicht verfügbar; verwenden Sie ein Gerät mit breiterem Bildschirm.",
+    "actionText": "Zurück"
+  },
+  "access-denied": {
+    "heading": "Zugriff verweigert",
+    "message": "Sie sind nicht berechtigt, auf diese Ressource zuzugreifen.",
+    "actionText": "Zur Startseite"
+  },
+  "loading": {
+    "heading": "Wird geladen...",
+    "loadingLabel": "Wird geladen"
+  }
+}

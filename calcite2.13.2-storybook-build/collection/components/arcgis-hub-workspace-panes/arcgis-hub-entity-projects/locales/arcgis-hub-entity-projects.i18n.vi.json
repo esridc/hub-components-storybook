@@ -1,0 +1,178 @@
+{
+  "projectsTitle": "Dự án",
+  "description": "Liên kết với các dự án đóng góp để theo dõi tiến độ tập trung vào thời gian hoặc không gian. Nhóm liên kết của sáng kiến ​​quản lý liên kết đã xác nhận và yêu cầu liên kết chưa được xử lý.",
+  "subDescription": "Dự án ​​có liên kết đã xác nhận sẽ xuất hiện trong chế độ xem của sáng kiến này.",
+  "project": "dự án",
+  "initiative": "sáng kiến",
+  "helpStates": {
+    "noAccess": {
+      "heading": "Không có quyền truy cập",
+      "message": "Bạn không có quyền truy cập để xem nhóm liên kết."
+    },
+    "missingGroup": {
+      "heading": "Thiếu nhóm liên kết",
+      "message": {
+        "overview": "Nhóm liên kết sẽ giám sát xem dự án nào sẽ liên kết và báo cáo với sáng kiến.",
+        "members": "Các thành viên của nhóm này sẽ có thể gửi hoặc phê duyệt các yêu cầu liên kết."
+      },
+      "action": "Tạo nhóm",
+      "formLabel": "Nhóm liên kết mới",
+      "description": "Tạo nhóm liên kết để quản lý kết nối"
+    },
+    "requestsWaiting": {
+      "heading": "Thiếu nhóm liên kết",
+      "message": {
+        "overview": "Nhóm liên kết sẽ giám sát xem dự án nào sẽ liên kết và báo cáo với sáng kiến.",
+        "members": "Các thành viên của nhóm này sẽ có thể gửi hoặc phê duyệt các yêu cầu liên kết.",
+        "requests": "Yêu cầu dự án đang chờ: {count}"
+      },
+      "action": "Tạo nhóm",
+      "formLabel": "Nhóm liên kết mới",
+      "description": "Tạo nhóm liên kết để quản lý kết nối"
+    }
+  },
+  "shared": {
+    "project": "dự án",
+    "associationGroup": "nhóm liên kết",
+    "error": {
+      "title": "Đã xảy ra sự cố",
+      "message": "Có thể bạn không có đủ quyền truy cập để gửi hoặc quản lý liên kết với {type} này."
+    },
+    "facets": {
+      "access": {
+        "label": "Chia sẻ"
+      },
+      "status": {
+        "label": "Trạng thái",
+        "notStarted": "Chưa bắt đầu",
+        "inProgress": "Đang xử lý",
+        "onHold": "Đang bị tạm ngưng",
+        "complete": "Hoàn tất"
+      },
+      "tags": {
+        "label": "Thẻ"
+      }
+    },
+    "tabs": {
+      "projects": "Dự án",
+      "members": "Thành viên",
+      "settings": "Thiết lập"
+    },
+    "disabledActionTooltip": "Chỉ người quản lý nhóm mới có thể quản lý liên kết với {type} này."
+  },
+  "createAssociationGroup": {
+    "defaultSummary": "Quản lý các mục đã liên kết với {name} {type} bằng nhóm liên kết."
+  },
+  "members": {
+    "facets": {
+      "role": {
+        "label": "Vai trò",
+        "all": "Tất cả",
+        "manager": "Người quản lý",
+        "member": "Thành viên"
+      },
+      "dateJoined": {
+        "label": "Ngày gia nhập"
+      }
+    },
+    "addMembers": {
+      "button": "Thêm thành viên",
+      "modal": {
+        "title": "Thêm thành viên",
+        "org": "Tổ chức của tôi",
+        "community": "Cộng đồng của tôi",
+        "partner": "Đối tác của tôi",
+        "world": "Thế giới"
+      },
+      "notifications": {
+        "invited": "Đã gửi lời mời. Người dùng phải chấp nhận để tham gia",
+        "added": "Đã thêm người dùng",
+        "notInvited": "Một số người dùng có thể không có quyền cần thiết để tham gia nhóm hoặc nhóm có thể đã đạt giới hạn tối đa (512)"
+      }
+    },
+    "removeUsers": {
+      "button": "Xóa",
+      "success": "Đã xóa thành công thành viên ra khỏi {groupName}.",
+      "error": "Không thể xóa một hoặc nhiều người dùng ra khỏi nhóm."
+    },
+    "changeRole": {
+      "button": "Thay đổi vai trò",
+      "member": "Thành viên",
+      "memberHelperText": "Có thể thêm và xem nội dung trong nhóm.",
+      "tooltipText": "Bỏ chọn chính bạn và/hoặc chủ sở hữu nhóm",
+      "tooltipLabel": "Miễn trừ trách nhiệm vai trò",
+      "admin": "Người quản lý",
+      "adminHelperText": "Có thể thêm/xóa nội dung và mời/xóa người (ngoại trừ chủ sở hữu).",
+      "success": "Thành viên được chọn trở thành {role} nhóm.",
+      "error": "Không thể thay đổi vai trò của một hoặc nhiều thành viên."
+    },
+    "stats": {
+      "total": {
+        "title": "Tổng",
+        "trailingText": "Thành viên"
+      },
+      "new": {
+        "title": "Mới",
+        "trailingText": "30 ngày trước"
+      }
+    }
+  },
+  "projects": {
+    "requestAssociation": {
+      "findProjects": "Tìm dự án",
+      "sendRequest": "Gửi yêu cầu",
+      "success": {
+        "title": "Thành công",
+        "message": "Đã gửi yêu cầu liên kết: {count}"
+      },
+      "alreadyRequesting": {
+        "title": "Kiểm tra liên kết",
+        "message": "Một số lựa chọn đã yêu cầu liên kết. Đã gửi yêu cầu liên kết mới: {count}"
+      },
+      "catalog": {
+        "myContent": "Nội dung của tôi",
+        "favorites": "Yêu thích",
+        "organization": "Tổ chức",
+        "world": "Thế giới (Công khai)"
+      },
+      "collection": {
+        "projects": "Dự án"
+      }
+    },
+    "acceptAssociation": {
+      "label": "Chấp nhận",
+      "success": {
+        "title": "Thành công",
+        "message": "Đã chấp nhận liên kết với {requestor}"
+      }
+    },
+    "cancelRequest": {
+      "label": "Hủy yêu cầu",
+      "success": {
+        "title": "Thành công",
+        "message": "Đã hủy yêu cầu liên kết"
+      }
+    },
+    "breakAssociation": {
+      "label": "Ngắt kết nối",
+      "success": {
+        "title": "Liên kết bị hủy",
+        "message": "Chúng tôi đã ngắt kết nối mục này khỏi liên kết trước đó. Tuy nhiên, chúng tôi không thể đảo ngược quyết định phía bên kia đưa ra, vì vậy bạn vẫn có thể thấy mục này trong yêu cầu đến."
+      }
+    },
+    "associationsGallery": {
+      "sources": "Trạng thái",
+      "catalog": {
+        "associated": "Đã liên kết",
+        "requesting": "Yêu cầu đến",
+        "pending": "Yêu cầu đi"
+      },
+      "collection": {
+        "projects": "Dự án"
+      }
+    }
+  },
+  "notice": {
+    "label": "Cảnh báo biểu mẫu"
+  }
+}

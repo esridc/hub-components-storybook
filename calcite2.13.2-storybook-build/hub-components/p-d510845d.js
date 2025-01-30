@@ -1,0 +1,1 @@
+import{S as t}from"./p-7b4c431c.js";function n(n){const o=new t(null==n?void 0:n.filterOptions,null==n?void 0:n.extendDefaults);return function(t,n,c){const{get:e}=c;return Object.assign(Object.assign({},c),{get:function(){const t=e.call(this);return o.sanitize(t)}})}}export{n as S}

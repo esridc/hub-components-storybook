@@ -1,0 +1,87 @@
+{
+  "initiatives": "Iniciatives",
+  "description": "Establiu associacions amb iniciatives per col·laborar en tasques a llarg termini o a gran escala. Els col·laboradors del projecte poden administrar les associacions confirmades i les sol·licituds d'associació pendents. Les iniciatives amb associacions confirmades es mostraran a la visualització d'aquest projecte. ",
+  "shared": {
+    "error": {
+      "title": "Hi ha hagut algun problema",
+      "message": "No hem pogut completar la tasca. Torneu-ho a provar."
+    },
+    "facets": {
+      "access": {
+        "label": "Ús compartit"
+      },
+      "status": {
+        "label": "Estat",
+        "notStarted": "No s'ha iniciat",
+        "inProgress": "En curs",
+        "onHold": "En espera",
+        "complete": "Completat"
+      },
+      "tags": {
+        "label": "Etiquetes"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "{currentConfirmedAndOutgoingRequests}/{maxCurrentAndOutgoingRequestsAllowed} sol·licituds confirmades i de sortida",
+      "tooltip": "Per enviar sol·licituds, desconnecteu associacions o sol·licituds de sortida"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "Cerca iniciatives",
+    "sendRequest": "Envia la sol·licitud",
+    "success": {
+      "title": "Correcte",
+      "message": "Sol·licituds d'associació enviades: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "Comprova les associacions",
+      "message": "Algunes seleccions ja han sol·licitat l'associació. Noves sol·licituds d'associació enviades: {count}"
+    },
+    "catalog": {
+      "myContent": "El meu contingut",
+      "favorites": "Favorits",
+      "organization": "La meva organització",
+      "partners": "Els meus associats",
+      "community": "La meva comunitat"
+    },
+    "collection": {
+      "initiatives": "Iniciatives"
+    }
+  },
+  "acceptAssociation": {
+    "label": "Accepta",
+    "limitReachedTooltip": "Per acceptar, desconnecteu associacions o sol·licituds de sortida",
+    "success": {
+      "title": "Correcte",
+      "message": "Associació acceptada amb {requestor}"
+    }
+  },
+  "cancelRequest": {
+    "label": "Cancel·la la sol·licitud",
+    "success": {
+      "title": "Correcte",
+      "message": "Sol·licitud d'associació cancel·lada"
+    }
+  },
+  "breakAssociation": {
+    "label": "Desconnecta",
+    "success": {
+      "title": "Associació interrompuda",
+      "message": "Hem desconnectat aquest element de la seva associació anterior. Això no obstant, no podem anul·lar la decisió de l'altra part, per la qual cosa pot ser que encara la vegeu a les sol·licituds d'entrada."
+    }
+  },
+  "associationsGallery": {
+    "sources": "Estat",
+    "catalog": {
+      "associated": "Associada",
+      "requesting": "Sol·licituds d'entrada",
+      "pending": "Sol·licituds de sortida"
+    },
+    "collection": {
+      "initiatives": "Iniciatives"
+    }
+  },
+  "notice": {
+    "label": "Alerta del formulari"
+  }
+}

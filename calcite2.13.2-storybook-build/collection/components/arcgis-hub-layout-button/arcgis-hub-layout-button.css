@@ -1,0 +1,24 @@
+.popover-content {
+  margin: 0.75rem;
+}
+
+#toggle-button {
+  height: 100%;
+}
+
+/*
+  the 'neutral' option's icon color can become invisible for dark-themed sites,
+  so change to values that will be visible for both light and dark themes
+ */
+#toggle-button[kind="neutral"] {
+  --calcite-ui-icon-color:  #151515;
+}
+#toggle-button[kind="neutral"]:hover,
+#toggle-button[kind="neutral"]:focus {
+  --calcite-ui-icon-color:  var(--calcite-color-brand);
+}
+
+calcite-icon {
+  position: relative;
+  top: .10rem;
+}

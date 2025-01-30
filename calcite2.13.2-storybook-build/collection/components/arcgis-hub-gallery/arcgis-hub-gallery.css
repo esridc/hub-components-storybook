@@ -1,0 +1,251 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+
+  /* Set gallery-wide custom properties */
+  --hub-gallery-input-background: #fff;
+  --hub-gallery-input-text: #151515;
+
+  /*
+    The scale property on some calcite components doesn't give us the large font size
+    that we need in some parts of the gallery. However, we don't want to override variables
+    like --calcite-font-size-0 for the entire gallery, as we don't have a good idea of
+    how many areas would be adversely and unintentionally affected.
+
+    Areas that need a larger font size can consume this gallery-specific variable instead.
+    Issue: https://devtopia.esri.com/dc/hub/issues/4927
+  */
+  --hub-gallery-font-size-large: var(--calcite-font-size-1);
+
+  --hub-gallery-bulk-actions-bottom: 4rem;
+}
+
+:host(:not([show-results])) .gallery-main, :host(:not([show-results])) .gallery-list {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--hub-heading-family, inherit);
+}
+
+arcgis-hub-facet-list {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.gallery-main {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  column-gap: 2.5rem;
+}
+
+.gallery-list {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 1.25rem;
+    padding-bottom: 2px;/* this is a hack to make the bottom row of cards not get cut off */
+}
+
+/* enable only the table layout to have horizontal scrolling */
+:host([layout="table"]) .gallery-list {
+  overflow-x: scroll;
+}
+
+.gallery-list-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery-list-header {
+  /* @apply grid;
+  grid-template-areas: 'resultsCount sortAndLayout';
+  grid-template-columns: 1fr 1fr; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* wraps the results count at the top of the list */
+.results-count-container {
+  grid-area: resultsCount;
+}
+
+.list-header-controls-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  grid-area: sortAndLayout;
+}
+
+.bulk-actions {
+  /* the default is position: bottom (on the bulk actions config)
+     which actually means we make it float at the bottom of the _screen_ */
+  /* NOTE: if, as i suspect, we actually want this to float near the bottom of the _component_ (not the screen)
+  _but always remain on the screen_ i think we might need to use position: absolute along with some javascript
+  to dynamically set the bottom value i have a branch where this is mostly working */
+  position: fixed;
+  z-index: 10;
+}
+
+@keyframes in-down {
+
+  0% {
+    opacity: 0;
+    transform: translate3D(0, -10px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate3D(0, 0, 0);
+  }
+}
+
+.bulk-actions {
+  animation: in-down 300ms ease-in-out forwards;
+  align-self: center;
+  --tw-shadow: 0 6px 20px -4px rgba(0, 0, 0, 0.1), 0 4px 12px -2px rgba(0, 0, 0, 0.08);
+  --tw-shadow-colored: 0 6px 20px -4px var(--tw-shadow-color), 0 4px 12px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    bottom: var(--hub-gallery-bulk-actions-bottom);
+}
+
+.bulk-actions.sticky {
+  /* when position: top is passed in, we make it stick to the top of the list */
+  position: sticky;
+  top: 1rem;
+  bottom: auto;
+}
+
+.bulk-actions .selection-count {
+  display: flex;
+  align-self: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: var(--calcite-font-weight-medium);
+  color: var(--calcite-color-text-1);
+}
+
+.bulk-actions calcite-dropdown-item > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.bulk-actions calcite-dropdown-item > div div:first-child {
+  font-weight: var(--calcite-font-weight-medium);
+}
+
+.layout-option {
+  height: 100%;
+}
+
+.actions-popover-container {
+  margin-inline-start: 1rem;
+}
+
+.actions-popover-content {
+  padding: 0.5rem;
+}
+
+/* the results count at the bottom of the list */
+.gallery-list > .results-count {
+  margin-top: 1.25rem;
+}
+
+.no-results-action-container {
+  display: grid;
+  justify-content: center;
+}
+
+.search-bar {
+  margin-bottom: 0px;
+}
+
+.search-sort {
+  margin-bottom: 0px;
+}
+
+.results-count {
+  display: flex;
+  align-items: center;
+  font-size: var(--calcite-font-size-1);
+  line-height: 1.5rem;
+  font-weight: var(--calcite-font-weight-normal);
+
+  /* Needed to prevent visual regressions when swapping from h2 to p */
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+[slot="header"] {
+  font-size: var(--calcite-font-size-1);
+  line-height: 1.5rem;
+  font-weight: var(--calcite-font-weight-normal);
+}
+
+.loading-link-button {
+  position: relative;
+}
+
+.loading-link-button:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+@keyframes shimmer {
+
+  0% {
+    background-size: 200% 100%;
+    background-position: 100% 0;
+  }
+
+  100% {
+    background-size: 200% 100%;
+    background-position: -100% 0;
+  }
+}
+
+.loading-link-button:after {
+  animation: shimmer 2s cubic-bezier(0.4, 0, 0.2, 0.8) infinite;
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 100%);
+  background-color: var(--calcite-color-foreground-3);
+}
+
+.loading-link-button {
+  margin-top: 1rem;
+  height: 2rem;
+}
+
+/*
+  We need this span to be focusable so the next tab press will navigate the user
+  to the first result. However, we don't want this span messing up grid / flex flows,
+  so we set position: absolute to remove it
+*/
+.result-top {
+  position: absolute;
+}
+
+.layout-switcher-container {
+  display: flex;
+  align-items: center;
+}
+
+/*
+  We need this span to be focusable so the next tab press will navigate the user
+  to the first result of next page. However, we don't want this span messing up grid / flex flows,
+  so we set position: absolute to remove it
+*/
+.result-bottom {
+  position: absolute;
+}

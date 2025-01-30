@@ -1,0 +1,20 @@
+{
+  "dashboard": "المعلومات",
+  "activityLogSection": {
+    "title": "سجل النشاط",
+    "table": {
+      "downloadAction": "تنزيل",
+      "downloadAllAction": "تنزيل الكل",
+      "downloadActionTooltip": "تنزيل الأنشطة المحددة",
+      "caption": "جدول الأخطاء الأخيرة",
+      "columnHeaders": {
+        "datetime": "التاريخ",
+        "layer": "الطبقة",
+        "message": "الرسالة"
+      },
+      "noRecentErrors": "لا توجد أخطاء أخيرة",
+      "expandText": "عرض المزيد",
+      "collapseText": "عرض أقل"
+    }
+  }
+}

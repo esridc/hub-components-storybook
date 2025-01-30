@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "Adja hozzá az első műveletet",
+  "addSecondAction": "Adja hozzá a második műveletet",
+  "addLink": "Hivatkozás hozzáadása",
+  "addSection": "Szekció hozzáadása",
+  "deleteNotice": {
+    "title": "Nem sikerült törölni",
+    "message": "A szakasz nem üres. Kérjük, a törlés megkísérlése előtt helyezzen át minden hivatkozást a szakaszon kívülre."
+  },
+  "linkEditor": {
+    "save": "Mentés",
+    "delete": "Törlés",
+    "cancel": "Mégse",
+    "preview": "Előnézeti hivatkozás",
+    "title": {
+      "button1": "Első művelet",
+      "button2": "Második művelet",
+      "block": "Művelet hivatkozása"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "Meglévő tartalomra való hivatkozás"
+        },
+        "external": {
+          "label": "Külső forrásra mutató hivatkozás"
+        }
+      },
+      "label": {
+        "label": "Felirat",
+        "helperText": {
+          "button": "Ez a szöveg jelenik meg a gombon.",
+          "block": "Ez a blokkban félkövér betűvel jelenik meg."
+        },
+        "requiredError": "A felirat kötelező mező."
+      },
+      "description": {
+        "label": "Leírás",
+        "helperText": "Ez másodlagos információ."
+      },
+      "href": {
+        "label": "Hivatkozás",
+        "requiredError": "A hivatkozás kötelező mező.",
+        "formatError": "Az URL formátuma helytelen"
+      },
+      "contentId": {
+        "label": "Tartalomhivatkozás",
+        "requiredError": "A Tartalomhivatkozás kötelező mező."
+      },
+      "section": {
+        "label": "Áthelyezés a szakaszba",
+        "placeholder": {
+          "noSections": "Nincsenek konfigurált szakaszok",
+          "notSet": "Nincs a szakaszban"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "Szekció",
+    "helperText": "A szakaszok egy menüpont alatti hivatkozások beágyazására használhatók. A szakaszok nem működnek hivatkozásként.",
+    "section": {
+      "label": {
+        "label": "Felirat",
+        "requiredError": "A felirat kötelező mező."
+      },
+      "description": {
+        "label": "Leírás"
+      }
+    }
+  }
+}

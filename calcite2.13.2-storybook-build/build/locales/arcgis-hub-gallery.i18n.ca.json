@@ -1,0 +1,91 @@
+{
+  "moreResults": "Més resultats",
+  "search": "Cerca",
+  "filter": "Filtres",
+  "viewResults": "Mostra els resultats ({numResults})",
+  "resultsCount": "1 - {pageTotal} de {searchTotal}",
+  "backToTop": "Torna a dalt",
+  "facets": {
+    "access": {
+      "label": "Ús compartit",
+      "private": "Jo",
+      "shared": "Propietari i grups",
+      "org": "Organització",
+      "public": "Públic"
+    },
+    "license": {
+      "label": "Llicència",
+      "tooltip": "Només al contingut públic",
+      "custom": "Personalitzat",
+      "none": "Cap"
+    },
+    "type": {
+      "label": "Tipus"
+    },
+    "tags": {
+      "label": "Etiquetes"
+    },
+    "dateUpdated": {
+      "label": "Data d'actualització"
+    },
+    "source": {
+      "label": "Font",
+      "tooltip": "Contingut públic de diferents organitzacions"
+    },
+    "categories": {
+      "label": "Categories"
+    },
+    "location": {
+      "label": "Ubicació",
+      "tooltip": "Apliqueu l'extensió de mapa com a filtre d'ubicació"
+    },
+    "event": {
+      "from": {
+        "label": "Propietat",
+        "myContent": "Jo",
+        "myOrganization": "La meva organització",
+        "world": "Qualsevol usuari"
+      },
+      "access": {
+        "label": "Accés",
+        "private": "Privat",
+        "org": "Organització",
+        "public": "Públic"
+      },
+      "startDate": {
+        "label": "Data de l'esdeveniment"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "Tipus",
+        "all": "Tots",
+        "view": "Visualització",
+        "edit": "Edita"
+      },
+      "role": {
+        "label": "Rol",
+        "all": "Tots",
+        "member": "Membre",
+        "manager": "Administrador",
+        "owner": "Propietari"
+      },
+      "sharing": {
+        "label": "Visibilitat",
+        "private": "Privat",
+        "public": "Públic"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "Mostra la llista",
+    "grid": "Mostra la quadrícula",
+    "map": "Mostra el mapa",
+    "compact": "Mostra la visualització compacta",
+    "calendar": "Mostra el calendari",
+    "table": "Mostra la taula"
+  },
+  "galleryActionsLabel": "Accions addicionals",
+  "selected": "Seleccionades: {count}",
+  "popoverActionButtonLabel": "més accions"
+}

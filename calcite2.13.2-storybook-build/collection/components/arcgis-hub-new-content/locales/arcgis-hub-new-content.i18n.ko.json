@@ -1,0 +1,57 @@
+{
+  "new": "신규",
+  "project": {
+    "label": "프로젝트",
+    "description": "목표와 기간이 명확한 작업을 강조하세요",
+    "createLabel": "프로젝트 생성",
+    "newLabel": "새 프로젝트"
+  },
+  "initiative": {
+    "label": "이니셔티브",
+    "description": "이니셔티브를 통해 목표를 향한 진행 상황을 구성하고 요약하세요",
+    "createLabel": "이니셔티브 생성",
+    "newLabel": "새 이니셔티브"
+  },
+  "discussion": {
+    "label": "토론 보드",
+    "description": "주제를 나타내는 제목을 입력하여 새 토론 보드를 생성합니다.",
+    "createLabel": "토론 보드 생성",
+    "newLabel": "새 토론 보드"
+  },
+  "site": {
+    "label": "사이트",
+    "description": "웹페이지를 생성하여 정보를 구성하고 공유하세요",
+    "createLabel": "사이트 생성",
+    "newLabel": "새 사이트"
+  },
+  "event": {
+    "label": "이벤트",
+    "description": "구성된 활동을 직접 또는 가상으로 호스팅하세요",
+    "createLabel": "이벤트 생성",
+    "newLabel": "새 이벤트"
+  },
+  "content": {
+    "label": "콘텐츠",
+    "description": "데이터, 문서, 이미지, 외부 링크를 사이트에 추가하세요",
+    "createLabel": "콘텐츠 생성",
+    "newLabel": "새 콘텐츠"
+  },
+  "feedback": {
+    "label": "피드백",
+    "description": "현장조사 및 여론조사와 같은 도구로 중요 정보를 수집하세요",
+    "createLabel": "피드백 생성",
+    "newLabel": "새 피드백"
+  },
+  "app": {
+    "label": "앱",
+    "description": "환경을 구성하고 스토리를 전달하거나 데이터를 시각화하세요",
+    "createLabel": "앱 생성",
+    "newLabel": "새 앱"
+  },
+  "group": {
+    "label": "그룹",
+    "description": "그룹을 설정하여 핵심 콘텐츠에 대해 컬래버레이션하세요",
+    "createLabel": "그룹 생성",
+    "newLabel": "새 그룹"
+  }
+}

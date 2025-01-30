@@ -1,0 +1,54 @@
+{
+  "existing": {
+    "successHeading": "Indholdet er tilføjet.",
+    "failureHeading": "Kan ikke tilføje indhold til den valgte gruppe.",
+    "successfulAccordionHeading": "Indholdet er tilføjet til den valgte gruppe.",
+    "unsuccessfulAccordionHeading": "Indholdet er ikke tilføjet til den valgte gruppe."
+  },
+  "create": {
+    "event": {
+      "successWithoutGroupHeading": "Begivenhed er blevet oprettet.",
+      "successWithGroupHeading": "Begivenhed er blevet oprettet og føjet til {group}.",
+      "successMessage": "Du kan nu vise begivenheden, administrere den for at redigere oplysninger eller klikke på 'Udført' for at gå tilbage til visningen.",
+      "failureHeading": "Kan ikke føje begivenhed til den valgte gruppe."
+    },
+    "discussion": {
+      "successWithoutGroupHeading": "Diskussionstavle er oprettet.",
+      "successWithGroupHeading": "Diskussionstavle er oprettet og føjet til {group}.",
+      "successMessage": "Du kan nu vise diskussionstavlen, administrere den for at redigere oplysninger eller klikke på 'Udført' for at gå tilbage til visningen.",
+      "failureHeading": "Kan ikke føje diskussionstavle til den valgte gruppe."
+    },
+    "group": {
+      "successWithoutGroupHeading": "Gruppe er blevet oprettet.",
+      "successMessage": "Du kan nu vise gruppen, administrere den for at redigere oplysninger eller klikke på 'Udført' for at gå tilbage til visningen.",
+      "failureHeading": "Kan ikke oprette gruppe."
+    },
+    "initiative": {
+      "successWithoutGroupHeading": "Initiativ er blevet oprettet.",
+      "successWithGroupHeading": "Initiativ er blevet oprettet og føjet til {group}.",
+      "successMessage": "Du kan nu vise initiativet, administrere det for at redigere oplysninger eller klikke på 'Udført' for at gå tilbage til visningen.",
+      "failureHeading": "Kan ikke føje initiativ til den valgte gruppe."
+    },
+    "page": {
+      "successWithoutGroupHeading": "Side er blevet oprettet",
+      "successWithGroupHeading": "Side er blevet oprettet og føjet til {group}.",
+      "successMessage": "Du kan nu vise siden, administrere den for at redigere oplysninger eller klikke på 'Udført' for at gå tilbage til visningen.",
+      "failureHeading": "Kan ikke føje side til den valgte gruppe."
+    },
+    "project": {
+      "successWithoutGroupHeading": "Projekt er blevet oprettet.",
+      "successWithGroupHeading": "Projekt er blevet oprettet og føjet {group}.",
+      "successMessage": "Du kan nu vise projektet, administrere det for at redigere oplysninger eller klikke på 'Udført' for at gå tilbage til visningen.",
+      "failureHeading": "Kan ikke føje projekt til den valgte gruppe."
+    },
+    "site": {
+      "successWithoutGroupHeading": "Websted er oprettet",
+      "successWithGroupHeading": "Websted er oprettet og føjet til {group}.",
+      "successMessage": "Du kan nu vise webstedet, administrere det for at redigere oplysninger eller klikke på 'Udført' for at gå tilbage til visningen.",
+      "failureHeading": "Kan ikke føje websted til den valgte gruppe."
+    }
+  },
+  "editLayout": "Rediger layout",
+  "manageEntity": "Håndter",
+  "viewEntity": "Vis"
+}

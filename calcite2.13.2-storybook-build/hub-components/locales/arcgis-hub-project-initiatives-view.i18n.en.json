@@ -1,0 +1,19 @@
+{
+  "facets": {
+    "location": {
+      "label": "Location",
+      "tooltip": "Apply the map extent as a location filter"
+    },
+    "status": "Status",
+    "tags": "Tags",
+    "categories": "Categories",
+    "dateUpdated": "Date updated"
+  },
+  "status": {
+    "label": "Project status",
+    "notStarted": "Not started",
+    "inProgress": "In progress",
+    "onHold": "On hold",
+    "complete": "Complete"
+  }
+}

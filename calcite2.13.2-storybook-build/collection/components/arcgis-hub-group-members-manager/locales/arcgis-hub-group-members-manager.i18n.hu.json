@@ -1,0 +1,59 @@
+{
+  "title": "Tagok",
+  "facets": {
+    "role": {
+      "label": "Szerepkör",
+      "all": "Összes",
+      "manager": "Kezelő",
+      "member": "Tag"
+    },
+    "dateJoined": {
+      "label": "Csatlakozás dátuma"
+    }
+  },
+  "stats": {
+    "total": {
+      "title": "Összesen",
+      "trailingText": "Csoporttagok"
+    },
+    "new": {
+      "title": "Új",
+      "trailingText": "Az elmúlt 30 nap"
+    }
+  },
+  "addMembers": {
+    "button": "Tagok hozzáadása",
+    "disabledTooltip": "Önnek nincs hozzáférése ahhoz, hogy felhasználókat adjon hozzá ehhez a csoporthoz.",
+    "modal": {
+      "title": "Tagok hozzáadása",
+      "org": "Saját szervezet",
+      "community": "Saját közösség",
+      "partner": "Saját partnerek",
+      "world": "Világ"
+    },
+    "notifications": {
+      "invited": "Meghívó elküldve. A csatlakozáshoz a felhasználóknak el kell fogadniuk",
+      "added": "Felhasználó(k) hozzáadva",
+      "notInvited": "Előfordulhat, hogy egyes felhasználók nem rendelkeznek a csoporthoz való csatlakozáshoz szükséges jogosultságokkal, vagy a csoportlétszám elérte a felső korlátját (512)."
+    }
+  },
+  "removeUsers": {
+    "button": "Eltávolítás",
+    "success": "A tagokat sikeresen eltávolították innen: {groupName}.",
+    "error": "Egy vagy több felhasználót nem sikerült eltávolítani a csoportból."
+  },
+  "changeRole": {
+    "tooltipText": "Saját maga és/vagy a csoporttulajdonos kiválasztásának megszüntetése",
+    "tooltipLabel": "Szerepkörre vonatkozó jogi nyilatkozat",
+    "button": "Szerepkör megváltoztatása",
+    "member": "Tag",
+    "memberHelperText": "Hozzáadhatja és megtekintheti a tartalmat a csoporton belül.",
+    "admin": "Kezelő",
+    "adminHelperText": "Tartalmat adhat hozzá/távolíthat el, és embereket hívhat meg/távolíthat el (a tulajdonos kivételével).",
+    "success": "A kiválasztott tagok a(z) {role} csoportot alkotják.",
+    "error": "Egy vagy több tag szerepét nem lehetett megváltoztatni."
+  },
+  "notice": {
+    "label": "Űrlappal kapcsolatos figyelmeztetés"
+  }
+}

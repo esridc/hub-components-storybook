@@ -1,0 +1,65 @@
+{
+  "catalog": "Katalóg",
+  "catalog-content": "Obsah",
+  "catalog-events": "Udalosti",
+  "shared": {
+    "publish": {
+      "label": "Uložiť",
+      "success": {
+        "title": "Úpravy katalógu úspešne publikované v živom zobrazení"
+      },
+      "error": {
+        "title": "Chyba pri ukladaní editácií"
+      }
+    }
+  },
+  "emptyState": {
+    "message": "Žiadny katalóg nebol definovaný",
+    "action": "Zostaviť katalóg"
+  },
+  "actionBar": {
+    "details": "Konfigurácia katalógu",
+    "appearance": "Vzhľad katalógu",
+    "tooltip": {
+      "appearanceDisabled": "Momentálne nie je nakonfigurovaný žiadny katalóg. Ak chcete upraviť nastavenia vzhľadu, nakonfigurujte katalóg.",
+      "configuration": "Konfigurácia",
+      "appearance": "Vzhľad"
+    }
+  },
+  "detailsPanel": {
+    "heading": "Konfigurácia katalógu",
+    "close": "Zatvoriť konfiguráciu katalógu",
+    "catalogBuilder": {
+      "helperText": "Váš katalóg umožňuje návštevníkom vyhľadávať a zobrazovať obsah. Výsledky sú zobrazené na základe konfigurácie vášho dopytu."
+    },
+    "querySizeNotice": {
+      "warning": {
+        "title": "Blíži sa k limitu katalógu",
+        "catalogSourceMessage": {
+          "item": "Konfigurácia zdroja vašej položky sa blíži k limitu veľkosti.",
+          "event": "Konfigurácia zdroja vašej udalosti sa blíži k limitu veľkosti."
+        },
+        "collectionSourceMessage": {
+          "item": "Kombinácia zdroja vašej položky a konfigurácie kolekcie \"{collectionName}\" sa blíži k limitu veľkosti.",
+          "event": "Kombinácia zdroja vašej udalosti a konfigurácie kolekcie \"{collectionName}\" sa blíži k limitu veľkosti."
+        }
+      },
+      "danger": {
+        "title": "Prekročený limit katalógu",
+        "catalogSourceMessage": {
+          "item": "Konfigurácia zdroja vašej položky presiahla limit veľkosti. Znížte počet filtrov a/alebo možností filtrovania v zdroji vašej položky na publikovanie.",
+          "event": "Konfigurácia zdroja vašej udalosti presiahla limit veľkosti. Znížte počet filtrov a/alebo možností filtrovania v zdroji vašej udalosti na publikovanie."
+        },
+        "collectionSourceMessage": {
+          "item": "Kombinácia zdroja vašej položky a konfigurácia kolekcie \"{collectionName}\" presiahla limit veľkosti. Znížte počet filtrov a/alebo možností filtrovania v zdroji vašej položky a/alebo kolekcii \"{collectionName}\" na publikovanie.",
+          "event": "Kombinácia zdroja vašej udalosti a konfigurácia kolekcie \"{collectionName}\" presiahla limit veľkosti. Znížte počet filtrov a/alebo možností filtrovania v zdroji vašej udalosti a/alebo kolekcii \"{collectionName}\" na publikovanie."
+        }
+      }
+    }
+  },
+  "appearancePanel": {
+    "heading": "Vzhľad katalógu",
+    "close": "Zatvoriť vzhľad katalógu",
+    "description": "Váš katalóg umožňuje návštevníkom vyhľadávať a zobrazovať obsah. Tu môžete aktualizovať, ako by mal predvolený katalóg vyzerať, a ktoré filtre chcete zobrazovať."
+  }
+}

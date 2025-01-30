@@ -1,0 +1,17 @@
+/* add top margin to section content */
+calcite-accordion-item::slotted(.section__content) {
+  margin-top: 1.5rem;
+}
+
+/* adjust the helper text margins */
+calcite-accordion-item::slotted(.section__content) > .helper-text {
+  margin-top: -1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* apply disabled styling directly because the accordion
+item doesn't appear to support a disabled prop */
+calcite-accordion-item[disabled] {
+  opacity: var(--calcite-opacity-disabled);
+  pointer-events: none;
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Rinkiniai",
+  "actions": {
+    "label": "Parinktys",
+    "show": "Rodyti",
+    "hide": "Slėpti",
+    "rename": "Pervardinti"
+  },
+  "formAlert": "Formos pavojus",
+  "alertMessages": {
+    "success": "Pakeitimai įrašyti sėkmingai",
+    "error": "Klaida išsaugant pakeitimus"
+  },
+  "collectionRenameModal": {
+    "title": "Pervardyti rinkinį",
+    "fieldLabel": "Rinkinio žymė",
+    "requiredMessage": "Būtina rinkinio žymė",
+    "apply": "Taikyti",
+    "maxLengthMessage": "Kolekcijos užrašas negali būti ilgesnis kaip 50 ženklų"
+  },
+  "collections": {
+    "dataset": "Duomenys",
+    "site": "Svetainės",
+    "document": "Dokumentai",
+    "appAndMap": "Programėlės ir žemėlapiai"
+  },
+  "saveButton": "Įrašyti",
+  "sections": {
+    "collectionConfiguration": {
+      "title": "Rinkinio konfigūracija"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "settings": "Ayarlar",
+  "advanced": "Gelişmiş",
+  "delete": {
+    "event": "Bu etkinliği sil",
+    "desc": "Bu etkinliğin silinmesi geri alınamaz. Halihazırda kayıt yapmış olanlara bildirim gönderilecektir (etkinlik için otomatik bildirimler etkinleştirilmişse).",
+    "deleteButton": "Etkinliği sil"
+  },
+  "cancel": {
+    "header": "Bu etkinliği iptal et",
+    "desc": "İptal edilirse etkinlik, iptal edilmiş durumuyla görünür olacaktır. Kayıt duracak ve halihazırda kayıt yapmış olanlara bildirim gönderilecektir (etkinlik için otomatik bildirimler etkinleştirilmişse).",
+    "event": "Etkinliği iptal et",
+    "notice": {
+      "success": {
+        "title": "Etkinlik iptal edildi",
+        "message": "Etkinlik için otomatik bildirimler etkinleştirilmişse halihazırda kayıt yapmış olanlara bildirim gönderilecektir."
+      },
+      "error": {
+        "title": "Etkinlik iptal edilemedi",
+        "message": "Lütfen yeniden deneyin"
+      }
+    }
+  },
+  "enable": {
+    "event": "Etkinliği tekrar etkinleştir",
+    "desc": "Etkinlik iptal edildi (iptal edilmiş durumuyla görüntülenir).",
+    "notice": {
+      "success": {
+        "title": "Etkinlik yeniden etkinleştirildi",
+        "message": "Etkinlik için otomatik bildirimler etkinleştirilmişse halihazırda kayıt yapmış olanlara bildirim gönderilecektir."
+      },
+      "error": {
+        "title": "Etkinlik yeniden etkinleştirilemedi.",
+        "message": "Lütfen yeniden deneyin"
+      }
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "event": "Etkinliği sil"
+    },
+    "content": "Şunu silmek istediğinizden emin misiniz:",
+    "delete": "Etkinliği sil",
+    "cancel": "Etkinliği iptal et"
+  },
+  "notice": {
+    "label": "Biçim uyarısı"
+  }
+}

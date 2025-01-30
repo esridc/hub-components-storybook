@@ -1,0 +1,59 @@
+{
+  "title": "Medlemmer",
+  "facets": {
+    "role": {
+      "label": "Rolle",
+      "all": "Alle",
+      "manager": "Administrator",
+      "member": "Medlem"
+    },
+    "dateJoined": {
+      "label": "Dato for innmelding"
+    }
+  },
+  "stats": {
+    "total": {
+      "title": "Saldo",
+      "trailingText": "Gruppemedlemmer"
+    },
+    "new": {
+      "title": "Ny",
+      "trailingText": "Siste 30 dager"
+    }
+  },
+  "addMembers": {
+    "button": "Legg til medlemmer",
+    "disabledTooltip": "Du har ikke tilgang til å legge til brukere i denne gruppen.",
+    "modal": {
+      "title": "Legg til medlemmer",
+      "org": "Min organisasjon",
+      "community": "Mitt fellesskap",
+      "partner": "Mine partnere",
+      "world": "Verden"
+    },
+    "notifications": {
+      "invited": "Invitasjon sendt. Brukere må godta for å bli med",
+      "added": "Bruker(e) lagt til",
+      "notInvited": "Enkelte brukere har kanskje ikke nødvendige rettigheter for å bli med i gruppen eller maksimumsgrensen kan være nådd (512)"
+    }
+  },
+  "removeUsers": {
+    "button": "Fjern",
+    "success": "Medlemmene ble fjernet fra {groupName}.",
+    "error": "Én eller flere brukere kan ikke fjernes fra gruppen."
+  },
+  "changeRole": {
+    "tooltipText": "Opphev valget av deg selv og/eller gruppeeieren",
+    "tooltipLabel": "Ansvarsfraskrivelse for rolle",
+    "button": "Endre rolle",
+    "member": "Medlem",
+    "memberHelperText": "Kan legge til og vise innhold innenfor gruppen.",
+    "admin": "Administrator",
+    "adminHelperText": "Kan legge til / fjerne innhold og invitere/fjerne personer (unntatt eieren).",
+    "success": "Valgte medlemmer ble {role} for gruppe.",
+    "error": "Rollen kunne ikke endres for ett eller flere medlemmer."
+  },
+  "notice": {
+    "label": "Skjemavarsel"
+  }
+}

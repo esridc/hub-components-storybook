@@ -1,0 +1,39 @@
+{
+  "popover": {
+    "access": {
+      "org": "Kuruluşla paylaşıldı",
+      "private": "Sahibiyle paylaşıldı",
+      "public": "Herkesle paylaşıldı",
+      "shared": "Sahibi ve gruplarla paylaşıldı"
+    },
+    "editLayout": "Düzeni düzenle",
+    "lastUpdated": "Son güncelleme {updated}",
+    "viewSite": "Siteyi görüntüle"
+  },
+  "cloneLayoutLabel": "Düzeni klonla",
+  "deleteDraftLabel": "Taslağı sil",
+  "deletePageLabel": "Sayfayı sil",
+  "deleteSiteLabel": "Siteyi sil",
+  "editInAgoLabel": "ArcGIS Online içinde düzenle",
+  "managePage": "Sayfayı yönet",
+  "manageSite": "Siteyi yönet",
+  "manageTemplate": "Şablonu yönet",
+  "moreOptionsLabel": "Daha fazla seçenek",
+  "publishLabel": {
+    "site": "Çıktı düzenini yayınla",
+    "page": "Çıktı düzenini yayınla",
+    "survey": "Yayınla"
+  },
+  "saveAsTemplateLabel": "Şablon olarak kaydet",
+  "saveLabel": {
+    "site": "Çıktı düzenini kaydet",
+    "page": "Çıktı düzenini kaydet",
+    "survey": "Kaydet",
+    "template": "Kaydet"
+  },
+  "sharingLabel": "Paylaşım panelini aç",
+  "editS123Label": "Survey123'te düzenle",
+  "viewLabel": "Görüntüle",
+  "viewPublishedLabel": "Yayınlananları görüntüle",
+  "viewUnpublishedLabel": "Taslağı görüntüle"
+}

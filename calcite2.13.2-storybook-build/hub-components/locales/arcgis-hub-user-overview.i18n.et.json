@@ -1,0 +1,35 @@
+{
+  "overview": "Ülevaade",
+  "resources": "Hubi ressursid",
+  "cards": {
+    "items": "Üksuste arv",
+    "groups": "Gruppide arv"
+  },
+  "hubContent": {
+    "heading": "Hiljuti muudetud Hubi üksused",
+    "link": "Kuva kogu sisu"
+  },
+  "content": {
+    "heading": "Hiljuti muudetud sisu",
+    "stat": "Üksuste arv",
+    "link": "Kuva kogu sisu"
+  },
+  "groups": {
+    "heading": "Hiljuti muudetud grupid",
+    "stat": "Gruppide arv",
+    "link": "Kuva kõik grupid"
+  },
+  "contentCount": "Sisu",
+  "addContent": "Loo uus",
+  "facets": {
+    "access": {
+      "label": "Jaotisest"
+    },
+    "type": {
+      "label": "Tüübid"
+    },
+    "modified": {
+      "label": "Muudetud"
+    }
+  }
+}

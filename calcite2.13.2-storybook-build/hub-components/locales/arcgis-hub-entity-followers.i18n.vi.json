@@ -1,0 +1,66 @@
+{
+  "followers": "Người theo dõi",
+  "tabs": {
+    "followers": "Người theo dõi",
+    "settings": "Thiết lập"
+  },
+  "addFollowers": {
+    "label": "Thêm người theo dõi"
+  },
+  "emptyState": {
+    "message": "Trang web không có nhóm người theo dõi",
+    "action": "Tạo nhóm người theo dõi"
+  },
+  "createFollowersGroup": {
+    "formDescription": "Thiết lập một nhóm để tiện chia sẻ nội dung và liên lạc",
+    "defaultSummary": "Nhóm người theo dõi này cho phép các thành viên chia sẻ nội dung và liên lạc với nhau dễ dàng hơn"
+  },
+  "restrictedAccessState": {
+    "message": "Bạn không có quyền truy cập để xem nhóm người theo dõi.",
+    "action": "Yêu cầu quyền truy cập"
+  },
+  "stats": {
+    "total": {
+      "title": "Tổng",
+      "trailingText": "Người theo dõi"
+    },
+    "new": {
+      "title": "Mới",
+      "trailingText": "30 ngày trước"
+    }
+  },
+  "addMembers": {
+    "button": "Thêm thành viên",
+    "modal": {
+      "title": "Thêm thành viên",
+      "org": "Tổ chức của tôi",
+      "community": "Cộng đồng của tôi",
+      "partner": "Đối tác của tôi",
+      "world": "Thế giới"
+    },
+    "notifications": {
+      "invited": "Đã gửi lời mời. Người dùng phải chấp nhận để tham gia",
+      "added": "Đã thêm người dùng",
+      "notInvited": "Một số người dùng có thể không có quyền cần thiết để tham gia nhóm hoặc nhóm có thể đã đạt giới hạn tối đa (512)"
+    }
+  },
+  "removeUsers": {
+    "button": "Xóa",
+    "success": "Đã xóa thành công thành viên ra khỏi {groupName}.",
+    "error": "Không thể xóa một hoặc nhiều người dùng ra khỏi nhóm."
+  },
+  "changeRole": {
+    "button": "Thay đổi vai trò",
+    "member": "Thành viên",
+    "memberHelperText": "Có thể thêm và xem nội dung trong nhóm.",
+    "tooltipText": "Bỏ chọn chính bạn và/hoặc chủ sở hữu nhóm",
+    "tooltipLabel": "Miễn trừ trách nhiệm vai trò",
+    "admin": "Người quản lý",
+    "adminHelperText": "Có thể thêm/xóa nội dung và mời/xóa người (ngoại trừ chủ sở hữu).",
+    "success": "Thành viên được chọn trở thành {role} nhóm.",
+    "error": "Không thể thay đổi vai trò của một hoặc nhiều thành viên."
+  },
+  "notice": {
+    "label": "Cảnh báo biểu mẫu"
+  }
+}

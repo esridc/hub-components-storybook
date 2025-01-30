@@ -1,0 +1,12 @@
+:host {
+  display: flex;
+  cursor: pointer;
+}
+
+button[slot="trigger"] {
+  background-color: transparent;
+  border: transparent;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+}

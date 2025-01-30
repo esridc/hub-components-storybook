@@ -1,0 +1,55 @@
+/* NOTE: not sure we will lay this out like this long term but this is a good start */
+
+:host {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+section {
+  border: solid 1px lightgray;
+  border-radius: 5px;
+  flex: 1;
+}
+
+section h2 {
+  background-color: #f0f0f0;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0.25rem 0.5rem;
+  border-bottom: solid 1px lightgray;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+li {
+  padding: 0.5rem;
+  border-bottom: solid 1px lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li div:last-child {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.modifier-key {
+  border: solid 1px lightgray;
+  background-color: #f0f0f0;
+  border-radius: 3px;
+  padding-inline: 0.2rem;
+  display: inline-flex;
+  align-items: center;
+}

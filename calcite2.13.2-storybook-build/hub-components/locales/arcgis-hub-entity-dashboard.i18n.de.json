@@ -1,0 +1,20 @@
+{
+  "dashboard": "Dashboard",
+  "activityLogSection": {
+    "title": "Aktivitätsprotokoll",
+    "table": {
+      "downloadAction": "Herunterladen",
+      "downloadAllAction": "Alle herunterladen",
+      "downloadActionTooltip": "Ausgewählte Aktivitäten herunterladen",
+      "caption": "Tabelle \"Letzte Fehler\"",
+      "columnHeaders": {
+        "datetime": "Datum",
+        "layer": "Layer",
+        "message": "Nachricht"
+      },
+      "noRecentErrors": "Keine letzten Fehler",
+      "expandText": "Mehr anzeigen",
+      "collapseText": "Weniger anzeigen"
+    }
+  }
+}

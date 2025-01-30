@@ -1,0 +1,24 @@
+{
+  "shared": {
+    "targetEntities": {
+      "item": "Item",
+      "event": "Peristiwa"
+    }
+  },
+  "targetEntityBlock": {
+    "configured": "Dikonfigurasi",
+    "notConfigured": "Belum dikonfigurasi"
+  },
+  "targetEntityFlow": {
+    "back": "Tutup konfigurasi: {targetEntity}",
+    "description": "Konfigurasi: {targetEntity}",
+    "source": {
+      "heading": "Sumber",
+      "description": "Sumber menentukan cakupan konten Ubah hasil dengan menyertakan atau mengecualikan parameter.<br/><br/>*menunjukkan kolom wajib diisi"
+    },
+    "collections": {
+      "heading": "Koleksi",
+      "description": "Atur konten menjadi beberapa subset yang berbeda agar memudahkan penelusuran dan penemuan.<br/><br/>*menunjukkan kolom wajib diisi"
+    }
+  }
+}

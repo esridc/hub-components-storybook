@@ -1,0 +1,26 @@
+{
+  "unauthenticated": {
+    "heading": "Logga in.",
+    "message": "Den här webbplatsen kräver inloggningsuppgifter för åtkomst.",
+    "actionText": "Logga in"
+  },
+  "not-found": {
+    "heading": "Det gick inte att hitta sidan",
+    "message": "Den här sidan kan ha flyttats eller tagits bort. Prova att söka efter den från hemsidan",
+    "actionText": "Gå till hemsidan"
+  },
+  "unsupported-device": {
+    "heading": "Skärmstorleken stöds inte",
+    "message": "Arbetskataloger är ännu inte tillgängliga på mindre skärmstorlekar; använd en enhet med en bredare skärm.",
+    "actionText": "Gå tillbaka"
+  },
+  "access-denied": {
+    "heading": "Åtkomst nekad",
+    "message": "Du saknar behörighet för att få åtkomst till den här resursen.",
+    "actionText": "Gå till hemsidan"
+  },
+  "loading": {
+    "heading": "Läser in...",
+    "loadingLabel": "Läser in"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "header": "Debats",
+  "myContent": "Els meus esdeveniments",
+  "editableContent": "Contingut editable",
+  "addContentButtonText": "Crea un esdeveniment",
+  "type": "Tipus",
+  "sharedUpdate": "Grup d'actualització compartida",
+  "viewOnly": "Grup només de visualització",
+  "owner": "Propietari",
+  "updated": "Actualitzat",
+  "tags": "Etiquetes",
+  "dateCreated": "Creat",
+  "dateUpdated": "Data de modificació",
+  "actionLinks": {
+    "view": "Visualització",
+    "edit": "Edita",
+    "ariaEdit": "Edita: {title}",
+    "ariaView": "Mostra: {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Esdeveniments",
+      "myContent": "Esdeveniments de la meva propietat",
+      "editableContent": "Esdeveniments que puc editar",
+      "all": "Tots els esdeveniments"
+    },
+    "access": {
+      "label": "Des de"
+    },
+    "type": {
+      "label": "Tipus"
+    },
+    "tags": {
+      "label": "Etiquetes"
+    },
+    "categories": {
+      "label": "Categories"
+    },
+    "modified": {
+      "label": "Data de modificació"
+    }
+  }
+}

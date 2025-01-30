@@ -1,0 +1,65 @@
+{
+  "catalog": "Danh mục",
+  "catalog-content": "Nội dung",
+  "catalog-events": "Sự kiện",
+  "shared": {
+    "publish": {
+      "label": "Lưu",
+      "success": {
+        "title": "Đã xuất bản các chỉnh sửa danh mục lên chế độ xem trực tiếp thành công"
+      },
+      "error": {
+        "title": "Lỗi lưu các chỉnh sửa"
+      }
+    }
+  },
+  "emptyState": {
+    "message": "Không có danh mục nào được xác định",
+    "action": "Thiết lập danh mục"
+  },
+  "actionBar": {
+    "details": "Cấu hình danh mục",
+    "appearance": "Giao diện danh mục",
+    "tooltip": {
+      "appearanceDisabled": "Hiện không có danh mục nào được cấu hình. Vui lòng cấu hình danh mục để chỉnh sửa thiết lập giao diện.",
+      "configuration": "Cấu hình",
+      "appearance": "Giao diện"
+    }
+  },
+  "detailsPanel": {
+    "heading": "Cấu hình danh mục",
+    "close": "Đóng cấu hình danh mục",
+    "catalogBuilder": {
+      "helperText": "Danh mục của bạn cho phép khách truy cập tìm kiếm và xem nội dung. Kết quả được hiển thị dựa trên cấu hình truy vấn của bạn."
+    },
+    "querySizeNotice": {
+      "warning": {
+        "title": "Sắp đạt đến giới hạn danh mục",
+        "catalogSourceMessage": {
+          "item": "Cấu hình nguồn mục của bạn sắp đạt đến giới hạn kích thước.",
+          "event": "Cấu hình nguồn sự kiện của bạn sắp đạt đến giới hạn kích thước."
+        },
+        "collectionSourceMessage": {
+          "item": "Tổ hợp nguồn mục & cấu hình bộ sưu tập \"{collectionName}\" sắp đạt đến giới hạn kích thước.",
+          "event": "Tổ hợp nguồn sự kiện & cấu hình bộ sưu tập \"{collectionName}\" sắp đạt đến giới hạn kích thước."
+        }
+      },
+      "danger": {
+        "title": "Đã vượt quá giới hạn danh mục",
+        "catalogSourceMessage": {
+          "item": "Cấu hình nguồn mục của bạn đã vượt quá giới hạn kích thước. Giảm số lượng bộ lọc và/hoặc tùy chọn bộ lọc trong nguồn mục của bạn để xuất bản.",
+          "event": "Cấu hình nguồn sự kiện của bạn đã vượt quá giới hạn kích thước. Giảm số lượng bộ lọc và/hoặc tùy chọn bộ lọc trong nguồn sự kiện của bạn để xuất bản."
+        },
+        "collectionSourceMessage": {
+          "item": "Kết hợp nguồn mục của bạn & cấu hình bộ sưu tập \"{collectionName}\" đã vượt quá giới hạn kích thước. Giảm số lượng bộ lọc và/hoặc tùy chọn bộ lọc trong nguồn mục của bạn và/hoặc bộ sưu tập \"{collectionName}\" để xuất bản.",
+          "event": "Kết hợp nguồn sự kiện của bạn & cấu hình bộ sưu tập \"{collectionName}\" đã vượt quá giới hạn kích thước. Giảm số lượng bộ lọc và/hoặc tùy chọn bộ lọc trong nguồn sự kiện của bạn và/hoặc bộ sưu tập \"{collectionName}\" để xuất bản."
+        }
+      }
+    }
+  },
+  "appearancePanel": {
+    "heading": "Giao diện danh mục",
+    "close": "Đóng giao diện danh mục",
+    "description": "Danh mục của bạn cho phép khách truy cập tìm kiếm và xem nội dung. Tại đây, bạn có thể cập nhật giao diện danh mục mặc định và các bộ lọc bạn muốn hiển thị."
+  }
+}

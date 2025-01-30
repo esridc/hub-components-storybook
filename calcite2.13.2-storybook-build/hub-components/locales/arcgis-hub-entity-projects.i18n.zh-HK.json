@@ -1,0 +1,178 @@
+{
+  "projectsTitle": "專案",
+  "description": "與貢獻項目相關聯，以追蹤重點時間或空間內的進度。 倡議的關聯群組管理已確認的關聯和未完成的關聯請求。",
+  "subDescription": "已確認關聯的專案將出現在此倡議的視圖上。",
+  "project": "專案",
+  "initiative": "倡議",
+  "helpStates": {
+    "noAccess": {
+      "heading": "無存取",
+      "message": "您沒有關聯群組的檢視存取權。"
+    },
+    "missingGroup": {
+      "heading": "缺少關聯群組",
+      "message": {
+        "overview": "關聯群組將監督哪些專案將連結並向該倡議報告。",
+        "members": "此群組的成員將能夠傳送或批准關聯請求。"
+      },
+      "action": "建立群組",
+      "formLabel": "新建關聯群組",
+      "description": "建立關聯群組來管理連線"
+    },
+    "requestsWaiting": {
+      "heading": "缺少關聯群組",
+      "message": {
+        "overview": "關聯群組將監督哪些專案將連結並向該倡議報告。",
+        "members": "此群組的成員將能夠傳送或批准關聯請求。",
+        "requests": "專案請求等待中: {count}"
+      },
+      "action": "建立群組",
+      "formLabel": "新建關聯群組",
+      "description": "建立關聯群組來管理連線"
+    }
+  },
+  "shared": {
+    "project": "專案",
+    "associationGroup": "關聯群組",
+    "error": {
+      "title": "發生錯誤",
+      "message": "您可能缺少足夠的存取權來傳送或管理此 {type} 的關聯。"
+    },
+    "facets": {
+      "access": {
+        "label": "正在分享"
+      },
+      "status": {
+        "label": "狀態",
+        "notStarted": "未啟動",
+        "inProgress": "進行中",
+        "onHold": "保留中",
+        "complete": "完成"
+      },
+      "tags": {
+        "label": "標記"
+      }
+    },
+    "tabs": {
+      "projects": "專案",
+      "members": "成員",
+      "settings": "設定"
+    },
+    "disabledActionTooltip": "只有群組管理員才能管理此 {type} 的關聯。"
+  },
+  "createAssociationGroup": {
+    "defaultSummary": "使用關聯群組管理與 {name} {type} 關聯的項目。"
+  },
+  "members": {
+    "facets": {
+      "role": {
+        "label": "角色",
+        "all": "全部",
+        "manager": "管理員",
+        "member": "成員"
+      },
+      "dateJoined": {
+        "label": "加入日期"
+      }
+    },
+    "addMembers": {
+      "button": "新增成員",
+      "modal": {
+        "title": "新增成員",
+        "org": "我的組織",
+        "community": "我的社群",
+        "partner": "我的合作夥伴",
+        "world": "世界"
+      },
+      "notifications": {
+        "invited": "已傳送邀請。 使用者必須接受才能加入",
+        "added": "已新增使用者",
+        "notInvited": "某些使用者可能沒有加入群組所需的權限，或可能達到群組最大限制 (512)"
+      }
+    },
+    "removeUsers": {
+      "button": "移除",
+      "success": "已成功從 {groupName} 移除成員。",
+      "error": "無法從群組移除一或多個使用者。"
+    },
+    "changeRole": {
+      "button": "變更角色",
+      "member": "成員",
+      "memberHelperText": "可新增和查看群組中的內容。",
+      "tooltipText": "取消選擇您自己和/或群組擁有者",
+      "tooltipLabel": "角色免責聲明",
+      "admin": "管理員",
+      "adminHelperText": "可新增/移除內容和邀請/移除人員 (擁有者除外)。",
+      "success": "選擇的成員成為群組 {role}。",
+      "error": "無法變更一或多名成員的角色。"
+    },
+    "stats": {
+      "total": {
+        "title": "總計",
+        "trailingText": "成員"
+      },
+      "new": {
+        "title": "新建",
+        "trailingText": "最近 30 天"
+      }
+    }
+  },
+  "projects": {
+    "requestAssociation": {
+      "findProjects": "尋找專案",
+      "sendRequest": "傳送請求",
+      "success": {
+        "title": "成功",
+        "message": "已傳送關聯請求: {count}"
+      },
+      "alreadyRequesting": {
+        "title": "檢查關聯",
+        "message": "一些選擇已請求關聯。 已傳送新關聯請求: {count}"
+      },
+      "catalog": {
+        "myContent": "我的內容",
+        "favorites": "我的最愛",
+        "organization": "組織",
+        "world": "世界 (公眾)"
+      },
+      "collection": {
+        "projects": "專案"
+      }
+    },
+    "acceptAssociation": {
+      "label": "接受",
+      "success": {
+        "title": "成功",
+        "message": "已接收使用 {requestor} 的關聯"
+      }
+    },
+    "cancelRequest": {
+      "label": "取消請求",
+      "success": {
+        "title": "成功",
+        "message": "關閉請求已取消"
+      }
+    },
+    "breakAssociation": {
+      "label": "中斷連線",
+      "success": {
+        "title": "關聯已毀損",
+        "message": "我們已中斷連接此項目與先前的關聯。 但是，我們無法從另一方反轉決定，因此您仍可能在傳入請求中看到它。"
+      }
+    },
+    "associationsGallery": {
+      "sources": "狀態",
+      "catalog": {
+        "associated": "已關聯",
+        "requesting": "傳入請求",
+        "pending": "傳出請求"
+      },
+      "collection": {
+        "projects": "專案"
+      }
+    }
+  },
+  "notice": {
+    "label": "表格警示"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "title": "Uporabniki",
+  "facets": {
+    "role": {
+      "label": "Vloga",
+      "all": "Vse",
+      "manager": "Upravitelj",
+      "member": "Član"
+    },
+    "dateJoined": {
+      "label": "Datum pridružitve"
+    }
+  },
+  "stats": {
+    "total": {
+      "title": "Skupaj",
+      "trailingText": "Člani skupine"
+    },
+    "new": {
+      "title": "Novo",
+      "trailingText": "Zadnjih 30 dni"
+    }
+  },
+  "addMembers": {
+    "button": "Dodaj uporabnike",
+    "disabledTooltip": "Nimate dostopa za dodajanje uporabnikov v to skupino.",
+    "modal": {
+      "title": "Dodaj uporabnike",
+      "org": "Moja organizacija",
+      "community": "Moja zainteresirana javnost",
+      "partner": "Moji partnerji",
+      "world": "Svet"
+    },
+    "notifications": {
+      "invited": "Povabilo poslano. Uporabniki morajo sprejeti za pridružitev",
+      "added": "Uporabnik/-i dodan/-i",
+      "notInvited": "Nekateri uporabniki morda nimajo potrebnih pravic za pridružitev skupini oziroma lahko presegajo največje dovoljeno število skupine (512)"
+    }
+  },
+  "removeUsers": {
+    "button": "Odstrani",
+    "success": "Člani so uspešno odstranjeni iz {groupName}.",
+    "error": "Enega ali več uporabnikov ni bilo mogoče odstraniti iz skupine."
+  },
+  "changeRole": {
+    "tooltipText": "Prekličite izbor sebe in/ali lastnika skupine",
+    "tooltipLabel": "Omejitev odgovornosti za vlogo",
+    "button": "Spremeni vlogo",
+    "member": "Član",
+    "memberHelperText": "Lahko dodaja in vidi vsebino znotraj skupine.",
+    "admin": "Upravitelj",
+    "adminHelperText": "Lahko doda/odstrani vsebino in povabi/odstrani ljudi (razen lastnika).",
+    "success": "Izbrani člani so postali skupina {role}.",
+    "error": "Vloge ni mogoče spremeniti za enega ali več članov."
+  },
+  "notice": {
+    "label": "Opozorilo obrazca"
+  }
+}

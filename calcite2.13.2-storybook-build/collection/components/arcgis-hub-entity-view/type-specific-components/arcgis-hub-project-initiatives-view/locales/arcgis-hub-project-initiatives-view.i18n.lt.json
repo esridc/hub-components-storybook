@@ -1,0 +1,19 @@
+{
+  "facets": {
+    "location": {
+      "label": "Vieta",
+      "tooltip": "Taikyti žemėlapio aprėptį kaip vietos filtrą"
+    },
+    "status": "Būsena",
+    "tags": "Žymos",
+    "categories": "Kategorijos",
+    "dateUpdated": "Atnaujinimo data"
+  },
+  "status": {
+    "label": "Projekto būsena",
+    "notStarted": "Nepradėta",
+    "inProgress": "Vykdoma",
+    "onHold": "Sulaikyta",
+    "complete": "Baigta"
+  }
+}

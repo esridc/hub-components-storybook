@@ -1,0 +1,50 @@
+{
+  "section": "Eliminar",
+  "protection": "Evite que este {type} se elimine por error.",
+  "protectionTooltip": "Información sobre protección",
+  "protectionDisabledTooltip": "Solo los propietarios o administradores de la organización pueden cambiar la protección.",
+  "deleteDisabledNoAccessTooltip": "Solo los propietarios o administradores de la organización pueden eliminar.",
+  "deleteDisabledNoAccessTooltipGroup": "Solo los propietarios, administradores o administradores de la organización pueden eliminar.",
+  "deleteDisabledProtectedTooltip": "No puede eliminar mientras la protección contra eliminación está habilitada.",
+  "deleteButton": "Eliminar",
+  "protect": {
+    "successTitle": "Protección contra eliminación agregada",
+    "success": "No puede eliminar mientras la protección contra eliminación está habilitada.",
+    "successLabel": "Alerta de protección contra eliminación agregada.",
+    "errorTitle": "No se puede agregar la protección contra eliminación",
+    "error": "Se ha producido un error al agregar la protección contra eliminación.",
+    "errorLabel": "Alerta de error de protección contra eliminación."
+  },
+  "unprotect": {
+    "successTitle": "Protección contra eliminación eliminada",
+    "success": "Puede eliminar mientras la protección contra eliminación está deshabilitada.",
+    "successLabel": "Alerta de protección contra eliminación eliminada.",
+    "errorTitle": "No se puede eliminar la protección contra eliminación",
+    "error": "Se ha producido un error al eliminar la protección contra eliminación.",
+    "errorLabel": "Alerta de error al eliminar la protección contra eliminación."
+  },
+  "delete": {
+    "successTitle": "Eliminación correcta",
+    "success": "Redirigiendo a su espacio de trabajo inicial",
+    "successLabel": "Alerta de eliminación correcta.",
+    "errorTitle": "Error al eliminar",
+    "error": "Se ha producido un error; inténtelo de nuevo.",
+    "errorLabel": "Alerta de error de eliminación."
+  },
+  "permanentDelete": {
+    "successTitle": "Eliminación permanente correcta",
+    "success": "Redirigiendo a su espacio de trabajo inicial",
+    "successLabel": "Alerta de eliminación correcta.",
+    "errorTitle": "Error al eliminar",
+    "error": "Se ha producido un error; inténtelo de nuevo.",
+    "errorLabel": "Alerta de error de eliminación."
+  },
+  "deleteModal": {
+    "header": "Eliminar",
+    "deleteContent": "No puede deshacer una eliminación permanente. ¿Seguro que desea continuar?",
+    "recycleContent": "El contenido eliminado se enviará a la papelera de reciclaje. Tendrá 14 días para recuperarlo.",
+    "delete": "Eliminar",
+    "permanentlyDelete": "Eliminar de forma permanente",
+    "cancel": "Cancelar"
+  }
+}

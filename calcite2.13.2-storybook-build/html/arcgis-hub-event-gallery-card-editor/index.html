@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Entity-Specific Cards</title>
+
+    <script async src="https://ga.jspm.io/npm:es-module-shims@1.6.2/dist/es-module-shims.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+        }
+      }
+    </script>
+
+    <script type="module" src="../../build/hub-components.esm.js"></script>
+    <script nomodule src="../../build/hub-components.js"></script>
+    <link href="../../jsoneditor/jsoneditor.min.css" rel="stylesheet" type="text/css" />
+    <script src="../../jsoneditor/jsoneditor.min.js"></script>
+    <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+    <link rel="stylesheet" href="../../calcite/calcite.css" />
+    <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+    <link rel="stylesheet" href="../calcite-web.min.css" />
+    <style>
+      .side-panel {
+        width: 25rem;
+      }
+      calcite-notice {
+        margin: 0 0 2rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <harness-header page-title="Event Gallery Card Editor"></harness-header>
+    <div class="grid-container padding-leader-4">
+      <div class="column-24">
+        <calcite-notice open kind="info" scale="s" width="full" icon>
+          <div slot="message">This component requires authentication to render. Please auth as juliana_pa on QA.</div>
+        </calcite-notice>
+        <div class="side-panel"></div>
+      </div>
+    </div>
+
+    <script>
+      const values = {};
+      const site = { id: "bb5c755c71e34d9996c6fa27271fbeb1", tags: ['tag1', 'tag2'] };
+      const sidePanel = document.querySelector('.side-panel');
+      const editor = document.createElement('arcgis-hub-event-gallery-card-editor');
+      Object.assign(editor, { site, values });
+      sidePanel.appendChild(editor);
+    </script>
+  </body>
+</html>

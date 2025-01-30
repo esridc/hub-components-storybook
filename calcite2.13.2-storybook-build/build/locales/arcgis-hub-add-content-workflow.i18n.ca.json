@@ -1,0 +1,110 @@
+{
+  "controls": {
+    "addContent": "Afegeix contingut",
+    "back": "Enrere",
+    "cancel": "Cancel·la",
+    "close": "Fet",
+    "create": "Crea i afegeix al grup",
+    "next": "Següent"
+  },
+  "createHelpState": {
+    "discussion": {
+      "heading": "Debat",
+      "message": "Creeu un tauler de debat nou introduint un títol que n'indiqui el tema."
+    },
+    "event": {
+      "heading": "Esdeveniment",
+      "message": "Organitzeu una activitat, en persona o virtualment."
+    },
+    "group": {
+      "heading": "Grup",
+      "message": "Configureu un grup per col·laborar en contingut específic."
+    },
+    "initiative": {
+      "heading": "Iniciativa",
+      "message": "Les iniciatives organitzen i resumeixen el progrés en l'assoliment d'un objectiu."
+    },
+    "page": {
+      "heading": "Pàgina",
+      "message": "Una pàgina és un lloc per compartir informació i interaccionar amb el vostre públic."
+    },
+    "project": {
+      "heading": "Projecte",
+      "message": "Destaqueu feina que tingui objectius i terminis definits."
+    },
+    "site": {
+      "heading": "Lloc",
+      "message": "Creeu una pàgina web per organitzar i compartir informació."
+    }
+  },
+  "selection": {
+    "unlimited": "Seleccionades: {count}",
+    "limited": "Elements seleccionats: {count}/{limit}"
+  },
+  "steps": {
+    "createContent": "Afegeix informació bàsica",
+    "selectContent": "Seleccioneu contingut",
+    "selectGroups": "Seleccioneu un grup",
+    "confirmation": "Confirmació",
+    "notImplemented": "No s'ha implementat"
+  },
+  "working": {
+    "heading": "S'està afegint el contingut seleccionat.",
+    "loadingLabel": "S'està afegint el contingut."
+  },
+  "failure": {
+    "heading": "El contingut no s'ha afegit",
+    "message": "Hi ha hagut algun problema en afegir el contingut seleccionat. Torneu-ho a provar.",
+    "action": "Torna-ho a provar"
+  },
+  "notImplemented": {
+    "heading": "Aquest flux de treball encara no s'ha implementat."
+  },
+  "contentGallery": {
+    "facets": {
+      "access": {
+        "label": "Des de"
+      },
+      "type": {
+        "label": "Tipus"
+      },
+      "tags": {
+        "label": "Etiquetes"
+      },
+      "categories": {
+        "label": "Categories"
+      },
+      "modified": {
+        "label": "Data de modificació"
+      }
+    }
+  },
+  "groupsGallery": {
+    "facets": {
+      "access": {
+        "label": "Visible per a",
+        "options": {
+          "org": "Organització",
+          "public": "Tothom (públic)",
+          "private": "Mi"
+        }
+      },
+      "from": {
+        "label": "Des de",
+        "options": {
+          "myCommunity": "La meva comunitat",
+          "myGroups": "Els meus grups",
+          "myOrganization": "La meva organització",
+          "world": "Món"
+        }
+      },
+      "type": {
+        "label": "Tipus",
+        "options": {
+          "sharedUpdate": "Actualització compartida",
+          "opendata": "Dades obertes"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-embed-AGO-items</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .embedded-items-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin-bottom: 20px;
+    }
+
+    .item-header {
+      font-weight: 600;
+    }
+
+    harness-header {
+      margin-bottom: 36px;
+    }
+  </style>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet"
+    href="../calcite-web.min.css">
+</head>
+
+<!--
+  ##    ##  #######  ######## ########  ##
+  ###   ## ##     ##    ##    ##       ####
+  ####  ## ##     ##    ##    ##        ##
+  ## ## ## ##     ##    ##    ######
+  ##  #### ##     ##    ##    ##        ##
+  ##   ### ##     ##    ##    ##       ####
+  ##    ##  #######     ##    ########  ##
+
+  Make sure to run on Firefox
+  regular domain: http://localui.arcgis.com:3333
+  custom domain: http://localhost:3333
+  Sign in as paige_pa
+ -->
+
+<body>
+  <harness-header page-title="Hub app embed AGO items"></harness-header>
+  <div class="grid-container padding-leader-2">
+    <div class="column-24 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-hub-embed-AGO-items</h2>
+    </div>
+    <div class="container column-24">
+      <div>
+        <h2 class="item-header">ArcGIS StoryMaps</h2>
+        <div class="embedded-items-section">
+          <div>
+            <h3>Private StoryMaps</h3>
+            <strong>Private StoryMaps are not expected to load due to how the server side works</strong>
+            <arcgis-hub-embed
+              src="https://storymapsqa.arcgis.com/stories/8bd86d39fd8943ca98b180f862bb172d"
+              iframe-title=""
+              geolocation
+              height="500">
+            </arcgis-hub-embed>
+          </div>
+          <div>
+            <h3>Public StoryMaps</h3>
+            <arcgis-hub-embed
+              src="https://storymapsqa.arcgis.com/stories/0b4b9d4823d94b86b62e056dcf717e2e"
+              iframe-title=""
+              geolocation
+              height="500">
+            </arcgis-hub-embed>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2 class="item-header">ArcGIS Dashboards</h2>
+        <div class="embedded-items-section">
+          <div>
+            <h3>Private Dashboards</h3>
+            <strong>On QA, in Chrome, the Shield will be shown. Will load in FireFox.</strong>
+            <arcgis-hub-embed
+              src="https://qa-pre-a-hub.mapsqa.arcgis.com/apps/dashboards/47678e1077c047e796c0953280b4d2d8"
+              iframe-title=""
+              geolocation
+              height="500">
+            </arcgis-hub-embed>
+          </div>
+          <div>
+            <h3>Public Dashboards</h3>
+
+            <arcgis-hub-embed
+              src="https://qa-pre-a-hub.mapsqa.arcgis.com/apps/dashboards/7881aea7d6b34cbf86bb57c392055a62"
+              iframe-title=""
+              geolocation
+              height="500">
+            </arcgis-hub-embed>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2 class="item-header">ArcGIS Experience Builder</h2>
+        <div class="embedded-items-section">
+          <div>
+            <h3>Private Experience Builder</h3>
+            <arcgis-hub-embed
+              src="https://experienceqa.arcgis.com/experience/844abe7fca3d4fe59202c40020804ee5"
+              iframe-title=""
+              geolocation
+              height="500">
+            </arcgis-hub-embed>
+          </div>
+          <div>
+            <h3>Public Experience Builder</h3>
+            <arcgis-hub-embed
+              src="https://experienceqa.arcgis.com/experience/8e295309aa4749819f4a6e1faa1b77c2"
+              iframe-title=""
+              geolocation
+              height="500">
+            </arcgis-hub-embed>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2 class="item-header">ArcGIS Insights</h2>
+        <div class="embedded-items-section">
+          <div>
+            <h3>Private Insights</h3>
+            <arcgis-hub-embed
+              src="https://insightsqa.arcgis.com/?arcgis-auth-origin=https%3A%2F%2Fbri-guy-qa-pre-a-hub.opendataqa.arcgis.com&arcgis-auth-portal=https%3A%2F%2Fqa-pre-a-hub.mapsqa.arcgis.com%2Fsharing%2Frest#/embed/941fff13610e4c5f9c4ecc91fcee4df3"
+              iframe-title=""
+              geolocation
+              height="500">
+            </arcgis-hub-embed>
+          </div>
+          <div>
+            <h3>Public Insights</h3>
+            <arcgis-hub-embed
+              src="https://insightsqa.arcgis.com/?arcgis-auth-origin=https%3A%2F%2Fbri-guy-qa-pre-a-hub.opendataqa.arcgis.com&arcgis-auth-portal=https%3A%2F%2Fqa-pre-a-hub.mapsqa.arcgis.com%2Fsharing%2Frest#/embed/56e8ce53546140cd8d37938164230400"
+              iframe-title=""
+              geolocation
+              height="500">
+            </arcgis-hub-embed>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2 class="item-header">ArcGIS Survey123</h2>
+        <div class="embedded-items-section">
+          <div>
+            <h3>Private Survey123</h3>
+            <arcgis-hub-embed
+              src="https://survey123qa.arcgis.com/share/ef0e6fc0623e400db9f87a7766122511"
+              iframe-title=""
+              geolocation
+              height="500">
+            </arcgis-hub-embed>
+          </div>
+          <div>
+            <h3>Public Survey123</h3>
+            <arcgis-hub-embed
+              src="https://survey123qa.arcgis.com/share/22e751c08e78450e80c855f2f834e1b4"
+              iframe-title=""
+              geolocation
+              height="500">
+            </arcgis-hub-embed>
+          </div>
+        </div>
+      </div>
+      <div>
+        <!-- The URI we get from map viewer is https://qa-pre-a-hub.mapsqa.arcgis.com/apps/mapviewer/index.html?webmap=4b1f744cec2843b08635a1b6a3a0bb4e, however, when the user is authed, it will render the editor, to render the view, we need to replace mapviewer with webappviewer in the URI -->
+        <h2 class="item-header">ArcGIS Web Maps & Web Scenes</h2>
+        <p>Web Maps and Web Scenes need to be embedded via a Map or Scene component, not arcgis-hub-embed, which is basically a slightly smarter iframe</p>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <script>
+    // set a property on the element
+    function setProp(key, value) {
+      const el = document.querySelector("arcgis-hub-embed-AGO-items-harness");
+      el[key] = value;
+    }
+  </script>
+</body>
+
+</html>

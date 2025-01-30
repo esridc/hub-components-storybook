@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-group-member-summary</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet" href="../calcite-web.min.css">
+</head>
+
+<body>
+  <div class="grid-container padding-leader-2">
+    <div class="column-20 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-hub-group-member-summary</h2>
+    </div>
+
+    <div class="column-20">
+      <!--
+        NOTE: this currently requires the global context to point to QA
+        and that will only currently happen if the user has signed in to QA in another harness
+        TODO: either have the global script default to QA
+        and/or add sign in/out and identifier controls here
+      -->
+      <arcgis-hub-group-member-summary id="arcgis-hub-group-member-summary-harness" identifier="c6a05bafa1e84c30af4db7c6ebf70abb">
+      </arcgis-hub-group-member-summary>
+    </div>
+  </div>
+
+  <script>
+    // set a property on the element
+    function setProp(key, value) {
+      const el = document.querySelector("arcgis-hub-group-member-summary-harness");
+      el[key] = value;
+    }
+  </script>
+</body>
+
+</html>

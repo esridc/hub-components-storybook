@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-catalog</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet"
+    href="../calcite-web.min.css">
+    <style>
+      textarea {
+        height:800px;
+        font-size: 0.8rem;
+        font-family: monospace;
+      }
+    </style>
+</head>
+
+<body>
+  <div class="grid-container padding-leader-2">
+    <div class="column-20 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-hub-catalog</h2>
+    </div>
+
+    <div class="column-12">
+      <h3>Catalog Component</h3>
+      <arcgis-hub-catalog id="arcgis-hub-catalog-harness" show-search>
+      </arcgis-hub-catalog>
+    </div>
+    <div class="column-8">
+      <h3>Boundaries</h3>
+      <arcgis-hub-map
+        id="boundaryMap"
+        center="-77,38.8"
+        zoom="8"
+        style="width:100%;height:300px"
+        basemap="hybrid"></arcgis-hub-map>
+      <h3>Catalog Json</h3>
+      <textarea id="catalog" ></textarea>
+      <calcite-button onclick="applyCatalog()">Apply</calcite-button>
+      <calcite-button onclick="resetCatalog()">Reset</calcite-button>
+    </div>
+  </div>
+
+  <script>
+    // set a property on the element
+    function setProp(key, value) {
+      const el = document.getElementById("arcgis-hub-catalog-harness");
+      el[key] = value;
+    }
+
+
+    let catalog = {
+      // base filter applies to everything
+      filter: {
+        filterType: "content",
+        group: [
+          "d37febcec5094c719eb244d59d3ae08d",
+          "4c106214b9ba46aeb028a16134fa71cc",
+          "006f7f52404b4b4e85dea1e0938275f0",
+          "9f22ca286c814193bc0f87106df548fb",
+          "35d3981a82874e01b1c1df0aef7227c8",
+          "0fd6c262970c4442a66e57e3deb270d2",
+          "e5eae38d52fa46248918d57a91b511a0",
+          "73fa9cc1ce8e488b8c822c1c017887d6",
+          "685c2780f30644e3992194a454c2db50",
+          "586b466e82834506b1754a3b94bc5d3a",
+          "a7749d01300f4f87a8769d26a5df2181",
+          "489e982ea160416bb62a8247175ad9c0",
+          "5ff18aacf97f4008a277fa6c81cdb5df",
+          "ec224dd0c2294755a0e232d784eb1172",
+          "821474b35eb74c1b899f3b0f75e42ab8",
+          "b7d32c689e044f0997a1fbd5c9462249",
+          "fd8b3227eee74d509d93fa127b255fac",
+          "de7c93a55b084c8bb63140efe8475414",
+          "e4ea8f08ec834a53bd067676fc09274a",
+          "3cfdba546f1e40b0b430127c7cefd384",
+          "0204ece8c0344982a8923e43e93bbd13",
+          "499467eb06a546968283905708e7c05e",
+          "08cada661e7c41748df5a7042d3375d7",
+          "72c19e0ed89641ac83045a4597a6c9dc",
+          "6f754c5a004542bb9f1f8830258aa794",
+          "3d738aca3d274f6c8748256738e83f14",
+          "e24f6a47d94c493d99d6d99a8d77b3db",
+          "d3ad991e7c9447bf81c3ef4fac5f6696",
+          "696e1f4cb4f4464fa3ae72370f1d1eeb",
+          "95c59d84749742b7ad1e135c6e685009",
+          "0ef7f4b207e245b28b235a896be1c0f3",
+          "e60a958b3e8340b7ac3549ced5ec5157",
+          "42f1e95acd8845da8c7426a414aefb33",
+          "62be2f179f674941b393f1c9bc8ca73e",
+          "d9592387328c447c89fa07e8f4d5f2ff",
+          "e6c5e47b278342b9baf21632ea2f3b34",
+          "7e97b9f459934994a37300b2be196ba2",
+          "0d7907d5b2124e8681543aa61029430a",
+          "f3de8399eb0f493b84c8bbe076079ead",
+          "9f70eb9a4f2048b3920a476427467eea",
+          "ee2a1b12c6b24c2ea0f39ec5023508ba",
+          "38f272d281d348ddad8dbbcfed515e05",
+          "f397df808a7d48b59c7417f370413e6b",
+          "1886eed80b81426bb87336170ebfa2b1",
+          "3f8def9a54d948d4bee9a72c62a14d42",
+          "6eba62e38f094906974b0b87956b7a31",
+          "95b53f8cb48c418d8e8a2f5827c5944b",
+          "1202470439f14a199d8029a92fdb5dad"
+        ],
+        owner: "DCGISopendata"
+      },
+      collections: [
+        {
+          label: "All",
+          key: "all",
+          filter: {}
+        },
+        {
+          label: "Applications",
+          key: "applications",
+          filter: {
+            filterType: "content",
+            type: "$apps"
+          }
+        },
+        {
+          label: "Documents",
+          key:"documents",
+          filter: {
+            filterType: "content",
+            type: "$document"
+          }
+        },
+        {
+          label: "Layers",
+          key: "layers",
+          filter: {
+            filterType: "content",
+            type: ["Feature Layer"]
+          }
+        },
+        {
+          label: "Services",
+          key: "services",
+          filter: {
+            filterType: "content",
+            type: [ "Feature Service", "Map Service"]
+          }
+        },
+        {
+          label: "Maps",
+          key: "maps",
+          filter: {
+            filterType: "content",
+            type: {
+              any: ["Web Map"],
+              not: ["Web Mapping Application"]
+            }
+          }
+        },
+        {
+          label: "CSV",
+          key: "csv",
+          filter: {
+            filterType: "content",
+            type: ["CSV"]
+          }
+        }
+      ]
+    };
+
+    // On boot...
+    // Set default catalog on component
+    setProp('catalog', catalog);
+    // show catalog string in text area
+    document.getElementById("catalog").value = JSON.stringify(catalog, null, 2);
+    // add handler for search changed
+    document.addEventListener('arcgisHubContentGalleryContentChange', (evt) => {
+      console.log(`Got content ${evt.detail.length}`);
+      // iterate the content's gathering the boundary into an array of graphics
+      const geoms = evt.detail.reduce((acc, content) => {
+        if (content.boundary?.geometry) {
+          acc.push(content.boundary.geometry);
+        }
+        return acc;
+      }, []);
+
+      // const boundarySymbol = {
+      //   type: "simple-line",  // autocasts as SimpleLineSymbol()
+      //   color: [226, 119, 40],
+      //   width: 4
+      // }
+      // construct graphics
+
+      const graphics = geoms.map(g => {
+        return {
+          geometry: g,
+          symbol: {
+          type: "esriSFS",
+            style: "esriSFSSolid",
+              color: [
+                227,
+                139,
+                79,
+                40
+              ],
+                outline: {
+            type: "esriSLS",
+              style: "esriSLSSolid",
+                color: [
+                  255,
+                  255,
+                  255
+                ],
+                  width: 1
+          }
+        }
+        }
+      })
+      document.getElementById('boundaryMap').graphics = graphics;
+
+
+    })
+
+    function applyCatalog() {
+      let catalogString = document.getElementById("catalog").value;
+      let updatedcatalog;
+      try {
+        updatedcatalog = JSON.parse(catalogString);
+        if (updatedcatalog) {
+          setProp("catalog", updatedcatalog);
+        }
+      } catch(ex) {
+        alert('Error occured parsing catalog json. Please try again.')
+      }
+    }
+
+    function resetCatalog() {
+      setProp("catalog", catalog);
+    }
+
+  </script>
+</body>
+
+</html>

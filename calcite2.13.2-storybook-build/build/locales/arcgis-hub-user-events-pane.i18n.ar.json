@@ -1,0 +1,29 @@
+{
+  "header": "الأحداث",
+  "myContent": "أحداثي",
+  "editableContent": "محتوى قابل للتحرير",
+  "addEventButtonText": "إنشاء حدث",
+  "type": "النوع",
+  "sharedUpdate": "مجموعة التحديث المشتركة",
+  "viewOnly": "عرض المجموعة فقط",
+  "owner": "تم الإنشاء بواسطة",
+  "starts": "تشغيل",
+  "from": "مِن",
+  "until": "حتى",
+  "updated": "تم التحديث",
+  "tags": "العلامات",
+  "dateCreated": "تم الإنشاء",
+  "dateUpdated": "تعديل",
+  "actionLinks": {
+    "view": "عرض",
+    "edit": "تحرير",
+    "ariaEdit": "تحرير: {title}",
+    "ariaView": "عرض: {title}"
+  },
+  "access": {
+    "label": "وصول",
+    "PRIVATE": "خاص",
+    "ORG": "المؤسسة",
+    "PUBLIC": "عام"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "dashboard": "Dasbor",
+  "activityLogSection": {
+    "title": "Log Aktivitas",
+    "table": {
+      "downloadAction": "Unduhan",
+      "downloadAllAction": "Unduh Semua",
+      "downloadActionTooltip": "Unduh aktivitas yang dipilih",
+      "caption": "Tabel Kesalahan Terbaru",
+      "columnHeaders": {
+        "datetime": "Tanggal",
+        "layer": "Lapisan",
+        "message": "Pesan"
+      },
+      "noRecentErrors": "Tidak ada kesalahan terbaru",
+      "expandText": "Lihat lainnya",
+      "collapseText": "Lihat lebih sedikit"
+    }
+  }
+}

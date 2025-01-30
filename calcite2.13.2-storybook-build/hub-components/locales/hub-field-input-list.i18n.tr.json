@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "Düzenle",
+    "fields": {
+      "label": {
+        "label": "Etiket",
+        "requiredMessage": "Etiket gerekli",
+        "maxLengthMessage": "Etiket {maxLength} karakteri aşmamalıdır"
+      }
+    },
+    "apply": "Uygula"
+  },
+  "showItem": "Şu liste ögesini göster: {itemLabel}",
+  "hideItem": "Şu liste ögesini gizle: {itemLabel}",
+  "editItem": "Şu liste ögesini düzenle: {itemLabel}"
+}

@@ -1,0 +1,87 @@
+{
+  "initiatives": "Initiatieven",
+  "description": "Maak koppelingen met initiatieven om bij te dragen aan langetermijninspanningen of grootschalige inspanningen. Personen die aan projecten samenwerken, kunnen bevestigde koppelingen en openstaande koppelingsaanvragen beheren. Initiatieven met bevestigde koppelingen verschijnen in de weergave van dit project. ",
+  "shared": {
+    "error": {
+      "title": "Er is iets fout gegaan",
+      "message": "We kunnen de taak niet voltooien. Probeer het opnieuw."
+    },
+    "facets": {
+      "access": {
+        "label": "Delen"
+      },
+      "status": {
+        "label": "Status",
+        "notStarted": "Niet gestart",
+        "inProgress": "Lopend",
+        "onHold": "Tijdelijk stopgezet",
+        "complete": "Voltooid"
+      },
+      "tags": {
+        "label": "Tags"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "{currentConfirmedAndOutgoingRequests} / {maxCurrentAndOutgoingRequestsAllowed} bevestigde + uitgaande aanvragen",
+      "tooltip": "Als u aanvragen wilt verzenden, moet u bestaande koppelingen en/of uitgaande aanvragen ontkoppelen"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "Initiatieven zoeken",
+    "sendRequest": "Aanvraag verzenden",
+    "success": {
+      "title": "Succes",
+      "message": "Verzonden koppelingsaanvragen: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "Koppelingen controleren",
+      "message": "Een of meer selectie(s) hebben al een koppeling aangevraagd. Verzonden nieuwe koppelingsaanvragen: {count}"
+    },
+    "catalog": {
+      "myContent": "Mijn content",
+      "favorites": "Favorieten",
+      "organization": "Mijn organisatie",
+      "partners": "Mijn partners",
+      "community": "Mijn community"
+    },
+    "collection": {
+      "initiatives": "Initiatieven"
+    }
+  },
+  "acceptAssociation": {
+    "label": "Accepteren",
+    "limitReachedTooltip": "Als u wilt accepteren, moet u bestaande koppelingen en/of uitgaande aanvragen ontkoppelen",
+    "success": {
+      "title": "Succes",
+      "message": "Koppeling met {requestor} is geaccepteerd"
+    }
+  },
+  "cancelRequest": {
+    "label": "Aanvraag annuleren",
+    "success": {
+      "title": "Succes",
+      "message": "Koppelingsaanvraag is geannuleerd"
+    }
+  },
+  "breakAssociation": {
+    "label": "Loskoppelen",
+    "success": {
+      "title": "Koppeling is beëindigd",
+      "message": "We hebben de verbinding tussen dit item en de eerdere koppeling verbroken. We kunnen het besluit van de andere zijde echter niet terugdraaien, dus het is mogelijk dat u het in inkomende aanvragen blijft zien."
+    }
+  },
+  "associationsGallery": {
+    "sources": "Status",
+    "catalog": {
+      "associated": "Gekoppeld",
+      "requesting": "Inkomende aanvragen",
+      "pending": "Uitgaande aanvragen"
+    },
+    "collection": {
+      "initiatives": "Initiatieven"
+    }
+  },
+  "notice": {
+    "label": "Formulierwaarschuwing"
+  }
+}

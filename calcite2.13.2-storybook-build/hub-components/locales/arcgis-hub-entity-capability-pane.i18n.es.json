@@ -1,0 +1,35 @@
+{
+  "success": "Ediciones guardadas correctamente",
+  "error": "Error al guardar ediciones",
+  "formAlert": "Alerta de formulario",
+  "projects": {
+    "header": "Proyectos",
+    "list": "Lista de proyectos",
+    "config": "Configuración",
+    "notConfigured": "La función de proyectos no está configurada. Utilice la pestaña Configuración."
+  },
+  "content": {
+    "header": "Contenido",
+    "list": "Lista de contenido",
+    "config": "Configuración",
+    "notConfigured": "La función de contenido no está configurada. Utilice la pestaña Configuración."
+  },
+  "initiatives": {
+    "header": "Iniciativas",
+    "list": "Lista de iniciativas",
+    "config": "Configuración",
+    "notConfigured": "La función de iniciativas no está configurada. Utilice la pestaña Configuración."
+  },
+  "events": {
+    "header": "Eventos",
+    "list": "Lista de eventos",
+    "config": "Configuración",
+    "notConfigured": "La función de eventos no está configurada. Utilice la pestaña Configuración."
+  },
+  "pages": {
+    "header": "Páginas",
+    "list": "Lista de páginas",
+    "config": "Configuración",
+    "notConfigured": "La función de páginas no está configurada. Utilice la pestaña Configuración."
+  }
+}

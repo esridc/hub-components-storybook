@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Kan geen resultaten vinden."
+    },
+    "error": {
+      "message": "Onze excuses, maar er is een fout opgetreden tijdens het zoeken."
+    }
+  },
+  "type": "Type",
+  "tags": "Tags",
+  "owner": "Eigenaar",
+  "dateCreated": "Gemaakt",
+  "dateUpdated": "Gewijzigd",
+  "categories": "Categorieën",
+  "dateAndTime": "Datum en tijd",
+  "allDay": "{date} (hele dag)",
+  "allDayRange": "{from} - {to} (hele dag)",
+  "location": "Locatie",
+  "attendanceType": "Type deelname",
+  "inPerson": "Fysiek",
+  "online": "Online",
+  "hybrid": "Hybride"
+}

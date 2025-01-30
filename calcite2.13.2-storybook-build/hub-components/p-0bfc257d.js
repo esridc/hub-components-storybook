@@ -1,0 +1,1 @@
+const r=/\/[a-zA-Z]+server(\/|\/(\d+))?$/i;function e(e){return r.test(e)}export{e as i}

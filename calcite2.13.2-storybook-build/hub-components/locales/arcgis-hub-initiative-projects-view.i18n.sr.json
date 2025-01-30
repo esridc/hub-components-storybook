@@ -1,0 +1,19 @@
+{
+  "facets": {
+    "location": {
+      "label": "Lokacija",
+      "tooltip": "Primenite opseg mape kao filter za lokaciju"
+    },
+    "status": "Status",
+    "tags": "Oznake",
+    "categories": "Kategorije",
+    "dateUpdated": "Datum ažuriranja"
+  },
+  "status": {
+    "label": "Status inicijative",
+    "notStarted": "Nije započeto",
+    "inProgress": "U toku",
+    "onHold": "Na čekanju",
+    "complete": "Završi"
+  }
+}

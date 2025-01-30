@@ -1,0 +1,13 @@
+{
+  "csv": "CSV",
+  "shapefile": "Shapefile",
+  "sqlite": "SQLite Geodatabase",
+  "geoPackage": "GeoPackage",
+  "filegdb": "File Geodatabase",
+  "featureCollection": "אוסף ישויות",
+  "geojson": "GeoJSON",
+  "excel": "Excel",
+  "json": "JSON",
+  "createReplicaErrorMessage": "שגיאה פנימית של יצירת רפליקה נסה שוב בעוד שעה או פנה למנהל התוכן.",
+  "errorHeader": "לא ניתן להשלים את ההורדה. נסה שוב."
+}

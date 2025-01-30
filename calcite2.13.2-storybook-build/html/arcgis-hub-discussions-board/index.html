@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Hub Components: Discussions Board</title>
+    <style>
+      .container {
+        margin-top: 4rem;
+      }
+
+      arcgis-hub-discussions-map-preview, arcgis-hub-discussions {
+        margin-left: -21rem;
+        margin-top:  -0.5rem;
+      }
+
+      arcgis-hub-discussions-board {
+        --max-discussion-board-height: calc(100vh - 4rem);
+      }
+    </style>
+    <script type="importmap">
+      {
+        "imports": {
+          "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+    <script>
+      document.querySelector('html').setAttribute('lang', new URL(window.location.href).searchParams.get('lang') || 'en');
+    </script>
+    <script type="module" src="../../build/hub-components.esm.js"></script>
+    <script nomodule src="../../build/hub-components.js"></script>
+    <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+    <link rel="stylesheet" href="../calcite-web.min.css" />
+  </head>
+  <body>
+    <script src="https://unpkg.com/@esri/arcgis-rest-request@3.4.3/dist/umd/request.umd.min.js"></script>
+    <script src="https://unpkg.com/@esri/arcgis-rest-auth@3.4.3/dist/umd/auth.umd.min.js"></script>
+    <arcgis-app-identity client-id="EF9uxuFlOrgf7WpI" redirect-uri="http://localhost:3333/html/redirect.html" portal="https://qaext.arcgis.com"> </arcgis-app-identity>
+    <harness-header page-title="Discussion Board"></harness-header>
+    <div class="container">
+      <calcite-notice open kind="info" scale="s" width="full" icon>
+        <div slot="message">This component requires authentication to render. Please auth as juliana_pa on QA.</div>
+      </calcite-notice>
+    </div>
+
+    <script>
+      function createBoards() {
+        let container = document.querySelector('.container');
+        let discussionBoard = document.createElement('arcgis-hub-discussions-board');
+        const isMobile = getIsMobile();
+        const view = getViewParam('explore');
+        const layout = getLayoutParam(isMobile ? 'list' : 'map');
+        Object.assign(discussionBoard, {
+          entityId: '39ba5cf645d4481b852ff60cb010d6ef',
+          entityType: 'content',
+          layout,
+          view: 'explore',
+          isHub: false,
+          isMobile,
+        });
+        container.appendChild(discussionBoard);
+        discussionBoard.addEventListener('arcgisHubDiscussionsLayoutChanged', function (evt) {
+          evt.target.layout = evt.detail;
+          // updateQueryParams('layout', evt);
+        });
+        discussionBoard.addEventListener('arcgisHubDiscussionsViewChanged', function (evt) {
+          evt.target.view = evt.detail;
+          // updateQueryParams('view', evt);
+        });
+        document.body.addEventListener('hubTelemetry', function (evt) {
+          console.log('hubTelemetry:', evt.detail);
+        });
+        const observer = new ResizeObserver(() => {
+          discussionBoard.isMobile = getIsMobile();
+        });
+        observer.observe(document.body);
+      }
+
+      function updateQueryParams(paramName, evt) {
+        const url = new URL(window.location.href);
+        url.searchParams.set(paramName, evt.detail);
+      }
+
+      function getLayoutParam(defaultLayout = null) {
+        const url = new URL(window.location.href);
+        return url.searchParams.get('layout') || defaultLayout;
+      }
+
+      function getViewParam(defaultView = null) {
+        const url = new URL(window.location.href);
+        return url.searchParams.get('view') || defaultView;
+      }
+
+      function getIsMobile() {
+        return document.body.offsetWidth < 768;
+      }
+
+      createBoards();
+    </script>
+  </body>
+</html>

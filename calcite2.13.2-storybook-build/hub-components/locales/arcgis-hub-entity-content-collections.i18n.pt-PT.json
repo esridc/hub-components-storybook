@@ -1,0 +1,33 @@
+{
+  "title": "Coleções",
+  "actions": {
+    "label": "Opções",
+    "show": "Mostrar",
+    "hide": "Esconder",
+    "rename": "Mudar o nome"
+  },
+  "formAlert": "Alerta de formulário",
+  "alertMessages": {
+    "success": "Edições guardas com sucesso",
+    "error": "Erro ao guardar edições"
+  },
+  "collectionRenameModal": {
+    "title": "Renomear Coleção",
+    "fieldLabel": "Etiqueta de coleção",
+    "requiredMessage": "Etiqueta de coleção obrigatória",
+    "apply": "Aplicar",
+    "maxLengthMessage": "A etiqueta de coleção não pode exceder 50 caracteres"
+  },
+  "collections": {
+    "dataset": "Dados",
+    "site": "Sites",
+    "document": "Documentos",
+    "appAndMap": "Aplicações e Mapas"
+  },
+  "saveButton": "Guardar",
+  "sections": {
+    "collectionConfiguration": {
+      "title": "Configuração de coleção"
+    }
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "Категорії",
+        "noCategoriesNotice": {
+          "body": "У цієї організації ще немає жодних категорій.",
+          "link": "Налаштувати категорії"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "Вміст",
+      "selectionMode": {
+        "dynamic": {
+          "label": "Динамічний"
+        },
+        "manual": {
+          "label": "Вручну"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "Організація"
+        },
+        "collection": {
+          "sites": "Сайти",
+          "projects": "Проєкти",
+          "initiatives": "Ініціативи"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "Організація"
+        },
+        "collection": {
+          "events": "Події"
+        }
+      },
+      "access": {
+        "label": "Спільне використання",
+        "private": {
+          "label": "Приватний",
+          "description": "Фільтр за вмістом доступний для вас і осіб, які мають доступ до групи."
+        },
+        "org": {
+          "label": "Організація",
+          "description": "Фільтр за вмістом доступний тільки для учасників вашої організації."
+        },
+        "public": {
+          "label": "Публічний",
+          "description": "Фільтр за вмістом доступний всім."
+        }
+      },
+      "tags": {
+        "label": "Теги"
+      },
+      "cardsShown": {
+        "label": "Відображені картки"
+      }
+    },
+    "appearance": {
+      "label": "Вигляд",
+      "titleHeading": {
+        "label": "Заголовок назви",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "Згідно WCAG G141 вкладені заголовки покращують доступність."
+      },
+      "corners": {
+        "label": "Кути",
+        "square": {
+          "label": "В квадраті"
+        },
+        "round": {
+          "label": "В колі"
+        }
+      },
+      "shadow": {
+        "label": "Тінь",
+        "none": {
+          "label": "Вимкнено"
+        },
+        "low": {
+          "label": "Низький"
+        },
+        "medium": {
+          "label": "Середній"
+        },
+        "heavy": {
+          "label": "Великий"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "Показати додаткову інформацію"
+      },
+      "layout": {
+        "label": "Компонування",
+        "list": {
+          "label": "Перелік"
+        },
+        "map": {
+          "label": "Карта"
+        },
+        "calendar": {
+          "label": "Календар"
+        }
+      }
+    },
+    "options": {
+      "label": "Опції",
+      "openIn": {
+        "label": "Відкрити в...",
+        "same": {
+          "label": "Та ж сама вкладка"
+        },
+        "new": {
+          "label": "Нова вкладка"
+        },
+        "notice": {
+          "title": "Рекомендація з доступності:",
+          "body": "Згідно з WCAG 2.0 методика G200 відкривання посилань у нових вкладках або вікнах не рекомендується.",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "Дізнайтеся більше про WCAG 2.0 G200"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "Спільне використання",
+      "public": {
+        "label": "Публічний"
+      },
+      "private": {
+        "label": "Приватний"
+      },
+      "organization": {
+        "label": "Організація"
+      }
+    },
+    "from": {
+      "label": "Від",
+      "myOrganization": {
+        "label": "Моя організація"
+      },
+      "myContent": {
+        "label": "Мій вміст"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "Події",
+      "collections": {
+        "event": {
+          "label": "Події"
+        }
+      }
+    },
+    "item": {
+      "label": "Вміст",
+      "collections": {
+        "item": {
+          "label": "Вміст"
+        }
+      }
+    }
+  }
+}

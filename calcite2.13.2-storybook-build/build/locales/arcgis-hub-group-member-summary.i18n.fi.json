@@ -1,0 +1,12 @@
+{
+  "members": {
+    "noMember": "Ei jäseniä",
+    "oneMember": "1 jäsen",
+    "members": "{count} jäsentä"
+  },
+  "managers": {
+    "noMember": "Ei hallinnoijia",
+    "oneMember": "Yksi hallinnoija",
+    "members": "{count} hallinnoijaa"
+  }
+}

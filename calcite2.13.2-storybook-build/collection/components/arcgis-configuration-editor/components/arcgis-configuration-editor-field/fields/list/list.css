@@ -1,0 +1,7 @@
+calcite-list {
+  background-color: var(--calcite-color-foreground-1);
+}
+
+calcite-button {
+  margin-top: 1rem;
+}

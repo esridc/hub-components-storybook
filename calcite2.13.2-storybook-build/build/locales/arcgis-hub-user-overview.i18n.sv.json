@@ -1,0 +1,35 @@
+{
+  "overview": "Översikt",
+  "resources": "Hub-resurser",
+  "cards": {
+    "items": "Antal objekt",
+    "groups": "Antal grupper"
+  },
+  "hubContent": {
+    "heading": "Nyligen ändrade Hub-objekt",
+    "link": "Visa allt innehåll"
+  },
+  "content": {
+    "heading": "Nyligen ändrat innehåll",
+    "stat": "Antal objekt",
+    "link": "Visa allt innehåll"
+  },
+  "groups": {
+    "heading": "Nyligen ändrade grupper",
+    "stat": "Antal grupper",
+    "link": "Visa alla grupper"
+  },
+  "contentCount": "Innehåll",
+  "addContent": "Skapa ny",
+  "facets": {
+    "access": {
+      "label": "Från"
+    },
+    "type": {
+      "label": "Typer"
+    },
+    "modified": {
+      "label": "Ändrad"
+    }
+  }
+}

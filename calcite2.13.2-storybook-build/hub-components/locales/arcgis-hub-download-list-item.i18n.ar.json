@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "مجموعة المعالم",
+    "fgdb": "قاعدة بيانات جغرافية ملفية",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "ملف شكل",
+    "sqlite": "قاعدة بيانات SQLite الجغرافية"
+  },
+  "buttonText": {
+    "download": "تنزيل",
+    "pending": "مُعلق",
+    "processing": "جارٍ المعالجة",
+    "converting": "جارٍ التحويل",
+    "completed": "اكتمل التنزيل",
+    "failed": "فشل التنزيل"
+  },
+  "errors": {
+    "errorHeading": "خطأ"
+  },
+  "cacheStatusAccordion": {
+    "heading": "هل وجدت ما تحتاج إليه؟",
+    "content": "قد يتوفر إصدار أحدث.",
+    "button": "طلب ملف جديد"
+  },
+  "generateNewModal": {
+    "heading": "هل أنت متأكد؟",
+    "content": "قد يستغرق ذلك بعض الوقت. يرجى الحفاظ على علامة تبويب المتصفح نشطة حتى يكتمل عملية التنزيل.",
+    "confirmButton": "نعم",
+    "cancelButton": "إلغاء الأمر"
+  }
+}

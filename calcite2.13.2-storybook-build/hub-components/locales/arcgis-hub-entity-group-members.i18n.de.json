@@ -1,0 +1,59 @@
+{
+  "title": "Mitglieder",
+  "facets": {
+    "role": {
+      "label": "Rolle",
+      "all": "Alle",
+      "manager": "Manager",
+      "member": "Mitglied"
+    },
+    "dateJoined": {
+      "label": "Beitrittsdatum"
+    }
+  },
+  "stats": {
+    "total": {
+      "title": "Gesamt",
+      "trailingText": "Gruppenmitglieder"
+    },
+    "new": {
+      "title": "Neu",
+      "trailingText": "Letzte 30 Tage"
+    }
+  },
+  "addMembers": {
+    "button": "Mitglieder hinzufügen",
+    "disabledTooltip": "Sie haben keinen Zugriff zum Hinzufügen von Benutzern zu dieser Gruppe.",
+    "modal": {
+      "title": "Mitglieder hinzufügen",
+      "org": "Eigene Organisation",
+      "community": "Eigene Community",
+      "partner": "Eigene Partner",
+      "world": "Welt"
+    },
+    "notifications": {
+      "invited": "Einladung gesendet. Zum Beitritt müssen Benutzer die Einladung annehmen",
+      "added": "Benutzer hinzugefügt",
+      "notInvited": "Einige Benutzer verfügen nicht über die erforderlichen Berechtigungen, um der Gruppe beizutreten, oder möglicherweise wurde das maximal zulässige Limit für Gruppen erreicht (512)"
+    }
+  },
+  "removeUsers": {
+    "button": "Entfernen",
+    "success": "Mitglieder erfolgreich aus {groupName} entfernt.",
+    "error": "Mindestens ein Benutzer konnte nicht aus der Gruppe entfernt werden."
+  },
+  "changeRole": {
+    "tooltipText": "Auswahl der eigenen Person und/oder des Gruppenbesitzers aufheben",
+    "tooltipLabel": "Haftungsausschluss für Rolle",
+    "button": "Rolle ändern",
+    "member": "Mitglied",
+    "memberHelperText": "Kann Inhalt in der Gruppe hinzufügen und anzeigen.",
+    "admin": "Manager",
+    "adminHelperText": "Kann Inhalt hinzufügen/entfernen und Personen einladen/entfernen (ausgenommen vom Besitzer).",
+    "success": "Die ausgewählten Mitglieder wurden der Gruppe \"{role}\" zugewiesen.",
+    "error": "Die Rolle konnte für mindestens ein Mitglied nicht geändert werden."
+  },
+  "notice": {
+    "label": "Formularwarnung"
+  }
+}

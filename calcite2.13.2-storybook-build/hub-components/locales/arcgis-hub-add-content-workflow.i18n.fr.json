@@ -1,0 +1,110 @@
+{
+  "controls": {
+    "addContent": "Ajouter du contenu",
+    "back": "Retour",
+    "cancel": "Annuler",
+    "close": "Terminé",
+    "create": "Créer et ajouter au groupe",
+    "next": "Suivant"
+  },
+  "createHelpState": {
+    "discussion": {
+      "heading": "Discussion",
+      "message": "Créez un nouveau forum de discussion en saisissant un titre qui indique le sujet."
+    },
+    "event": {
+      "heading": "Événement",
+      "message": "Animez une activité planifiée, en personne ou virtuellement."
+    },
+    "group": {
+      "heading": "Groupe",
+      "message": "Configurez un groupe pour faciliter la collaboration sur un contenu ciblé."
+    },
+    "initiative": {
+      "heading": "Initiative",
+      "message": "Les initiatives contribuent à coordonner les efforts et suivre les progrès vers la réalisation d’un objectif."
+    },
+    "page": {
+      "heading": "Page",
+      "message": "Une page est un espace dédié au partage d’informations et à la communication avec le public ciblé."
+    },
+    "project": {
+      "heading": "Projet",
+      "message": "Mettez en avant des travaux aux objectifs clairs et au calendrier précis."
+    },
+    "site": {
+      "heading": "Site",
+      "message": "Créez une page Web pour organiser et partager des informations."
+    }
+  },
+  "selection": {
+    "unlimited": "Sélection : {count}",
+    "limited": "Sélection : {count}/{limit}"
+  },
+  "steps": {
+    "createContent": "Ajouter des informations de base",
+    "selectContent": "Sélectionner un contenu",
+    "selectGroups": "Sélectionner un groupe",
+    "confirmation": "Confirmation",
+    "notImplemented": "Non implémenté"
+  },
+  "working": {
+    "heading": "Ajout du contenu sélectionné.",
+    "loadingLabel": "Ajout du contenu."
+  },
+  "failure": {
+    "heading": "Contenu non ajouté",
+    "message": "Un problème est survenu lors de l’ajout du contenu sélectionné. Réessayez.",
+    "action": "Réessayer"
+  },
+  "notImplemented": {
+    "heading": "Ce processus n’a pas encore été implémenté."
+  },
+  "contentGallery": {
+    "facets": {
+      "access": {
+        "label": "Provenance"
+      },
+      "type": {
+        "label": "Types"
+      },
+      "tags": {
+        "label": "Balises"
+      },
+      "categories": {
+        "label": "Catégories"
+      },
+      "modified": {
+        "label": "Modification"
+      }
+    }
+  },
+  "groupsGallery": {
+    "facets": {
+      "access": {
+        "label": "Visible par",
+        "options": {
+          "org": "Organisation",
+          "public": "Tout le monde (public)",
+          "private": "Moi"
+        }
+      },
+      "from": {
+        "label": "Provenance",
+        "options": {
+          "myCommunity": "Ma communauté",
+          "myGroups": "Mes groupes",
+          "myOrganization": "Mon organisation",
+          "world": "Monde"
+        }
+      },
+      "type": {
+        "label": "Types",
+        "options": {
+          "sharedUpdate": "Mise à jour partagée",
+          "opendata": "Open Data"
+        }
+      }
+    }
+  }
+}

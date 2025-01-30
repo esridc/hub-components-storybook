@@ -1,0 +1,41 @@
+{
+  "managePrivacyButton": "Administrar privacidad",
+  "consentNotice": {
+    "allTracking": "Este sitio se creó con ArcGIS Hub y utiliza el rastreo anónimo para mejorar el rendimiento y analizar el uso del sitio de acuerdo con la Declaración de privacidad de Esri. Los sistemas de rastreo adicionales de terceros pueden monitorizar el uso del sitio.",
+    "anonymousTracking": "Este sitio se creó con ArcGIS Hub y utiliza el rastreo anónimo para mejorar el rendimiento y analizar el uso del sitio de acuerdo con la Declaración de privacidad de Esri.",
+    "noTracking": "Este sitio se creó con ArcGIS Hub y solo utiliza las cookies que son necesarias para el funcionamiento de la aplicación y no se permite su desactivación en nuestros sistemas.",
+    "thirdPartyTracking": "Este sitio se creó con ArcGIS Hub y solo utiliza las cookies que son necesarias para el funcionamiento de la aplicación y no se permite su desactivación en nuestros sistemas. Los sistemas de rastreo adicionales de terceros pueden monitorizar el uso del sitio."
+  },
+  "consent": {
+    "esriPrivacyLink": "Centro de confidencialidad de Esri",
+    "customerConsentLink": "Más información"
+  },
+  "eueiNotice": {
+    "title": "{orgName} miembros no se rastrearán",
+    "message": "El programa Mejora de la experiencia del usuario de Esri (EUEI) se ha deshabilitado para {orgName}. La actividad relacionada con su visita no se rastreará; no puede aceptar las estadísticas de uso anónimas o el rastreo de terceros.",
+    "link": "Obtenga más información sobre el programa (EUEI)."
+  },
+  "notice": {
+    "heading": "Configuración de privacidad",
+    "acceptAllButton": "Aceptar todas las cookies",
+    "acceptNecessaryButton": "Aceptar solo las cookies necesarias",
+    "confirmButton": "Confirmar",
+    "reviewSettingsButton": "Revisar configuración"
+  },
+  "settings": {
+    "heading": "Configuración de privacidad",
+    "confirmButton": "Confirmar"
+  },
+  "anonymous": {
+    "heading": "Estadísticas de uso anónimas",
+    "helpText": "Estas cookies nos permiten monitorizar el rendimiento de la aplicación en aspectos como el origen del tráfico, las páginas vistas y las interacciones. Nos ayudan a identificar qué contenidos son eficaces y cómo se mueven los visitantes por la aplicación. Toda la información recogida es anónima (no se almacena ninguna información personal identificable). Si no permite estas cookies, no sabremos que ha visitado nuestra aplicación o que ha interactuado con ella."
+  },
+  "necessary": {
+    "heading": "Cookies estrictamente necesarias",
+    "helpText": "Estas cookies son necesarias para el funcionamiento de la aplicación y no se permite su desactivación en nuestros sistemas. Se establecen en respuesta a acciones que usted realiza y que suponen una solicitud de servicios, como el inicio de sesión en su cuenta. Puede configurar su navegador para que bloquee o le avise de estas cookies, pero ciertas partes de la aplicación podrían verse afectadas. Toda la información recogida es anónima (no se almacena ninguna información personal identificable)."
+  },
+  "thirdParty": {
+    "heading": "Seguimiento de terceros",
+    "helpText": "Estas cookies pueden ser establecidas por proveedores de seguimiento de terceros configurados en este sitio. Pueden recoger información de segmentación o de marketing sobre usted durante su visita. La información recogida podrá utilizarse para fines ajenos a esta solicitud. Si no permite estas cookies, los proveedores de seguimiento de terceros configurados no recibirán ninguna información acerca de su visita."
+  }
+}

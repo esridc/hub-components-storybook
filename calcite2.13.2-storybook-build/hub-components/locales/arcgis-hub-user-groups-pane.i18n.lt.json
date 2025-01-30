@@ -1,0 +1,33 @@
+{
+  "groups": "Mano grupės",
+  "addContentButtonText": "Sukurti naują",
+  "role": "Vaidmuo",
+  "owner": "Savininkas",
+  "updated": "Atnaujinta",
+  "type": "Tipas",
+  "sharedUpdate": "Bendrinamų naujinimų grupė",
+  "viewOnly": "Tik peržiūros grupė",
+  "actionLinks": {
+    "view": "Peržiūra",
+    "edit": "Redaguoti",
+    "ariaEdit": "Redaguoti {title}",
+    "ariaView": "Peržiūrėti {title}"
+  },
+  "facets": {
+    "access": {
+      "label": "Gali peržiūrėti",
+      "options": {
+        "public": "Visi (vieša)",
+        "org": "Organizacija",
+        "private": "Aš"
+      }
+    },
+    "type": {
+      "label": "Tipai",
+      "options": {
+        "sharedUpdate": "Bendrinamas naujinimas",
+        "opendata": "Atvirieji duomenys"
+      }
+    }
+  }
+}

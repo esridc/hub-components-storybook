@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "Editar",
+    "fields": {
+      "label": {
+        "label": "Etiqueta",
+        "requiredMessage": "Etiqueta obrigatória",
+        "maxLengthMessage": "A etiqueta não pode exceder {maxLength} caracteres"
+      }
+    },
+    "apply": "Aplicar"
+  },
+  "showItem": "Mostrar o seguinte item de lista: {itemLabel}",
+  "hideItem": "Ocultar o seguinte item de lista: {itemLabel}",
+  "editItem": "Editar o seguinte item de lista: {itemLabel}"
+}

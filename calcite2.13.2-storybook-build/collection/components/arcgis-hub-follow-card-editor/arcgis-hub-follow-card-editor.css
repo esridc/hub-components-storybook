@@ -1,0 +1,11 @@
+:host {
+
+    display: block
+}
+
+calcite-notice {
+
+    margin-top: 1rem;
+
+    margin-bottom: 2rem
+}

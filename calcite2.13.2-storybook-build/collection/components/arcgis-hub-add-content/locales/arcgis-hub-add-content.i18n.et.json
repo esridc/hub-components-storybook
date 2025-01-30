@@ -1,0 +1,72 @@
+{
+  "addContent": "Lisa sisu",
+  "addContentType": {
+    "event": "Loo sündmus",
+    "discussion": "Loo arutelu",
+    "group": "Loo grupp",
+    "initiative": "Loo algatus",
+    "project": "Loo projekt",
+    "page": "Loo lehekülg",
+    "site:": "Loo sait"
+  },
+  "tooltip": {
+    "label": "Keelatud",
+    "noCatalog": "Sisu lisamiseks lisage grupid kataloogi.",
+    "noPermission": "Teil pole õigust lisada sisu kataloogi.",
+    "no-permission": "Teil pole õigust lisada sisu kataloogi.",
+    "not-in-groups": "Te ei ole ühegi kataloogi määrava grupi liige.",
+    "too-many-groups": "Te olete maksimaalse gruppide arvu saavutanud ja ei saa neid juurde luua."
+  },
+  "existing": {
+    "description": "Lisa sisu, mis on kohas {onlineOrEnterprise} juba olemas",
+    "modalTitle": "Vali olemasolev sisu",
+    "title": "Vali olemasolev sisu"
+  },
+  "create": {
+    "app": {
+      "description": "Looge kogemus, jutustage lugu või visualiseerige oma andmeid",
+      "modalTitle": "Loo rakendus",
+      "title": "Rakendus"
+    },
+    "event": {
+      "description": "Viige läbi korraldatud tegevusi, kas isiklikult või virtuaalselt",
+      "modalTitle": "Loo sündmus",
+      "title": "Sündmus"
+    },
+    "content": {
+      "description": "Lisage oma saidile andmeid, dokumente, pilte ja väliseid linke",
+      "modalTitle": "Loo sisu",
+      "title": "Sisu"
+    },
+    "discussion": {
+      "description": "Koguge ideid ja tagasisidet",
+      "modalTitle": "Loo arutelutahvel",
+      "title": "Arutelutahvel"
+    },
+    "group": {
+      "description": "Organiseerige inimesi sisu jagamiseks ja aruteludeks",
+      "modalTitle": "Loo grupp",
+      "title": "Grupp"
+    },
+    "initiative": {
+      "description": "Tõstke esile projektide korraldamiseks määratletud eesmärke ja strateegilisi jõupingutusi",
+      "modalTitle": "Loo algatus",
+      "title": "Algatus"
+    },
+    "page": {
+      "description": "Esitage teave struktureeritud kujul",
+      "modalTitle": "Loo lehekülg",
+      "title": "Leht"
+    },
+    "project": {
+      "description": "Esitlege tööd koos selgete eesmärkide ja ajakavaga",
+      "modalTitle": "Loo projekt",
+      "title": "Projekt"
+    },
+    "site": {
+      "description": "Looge kogukonnaga suhtlemiseks kaubamärgiga veebileht",
+      "modalTitle": "Loo sait",
+      "title": "Sait"
+    }
+  }
+}

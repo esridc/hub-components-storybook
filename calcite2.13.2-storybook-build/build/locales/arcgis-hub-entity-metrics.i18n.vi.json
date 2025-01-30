@@ -1,0 +1,75 @@
+{
+  "addMetric": "Thêm chỉ số hiệu quả",
+  "title": "Chỉ số hiệu quả",
+  "featured": "Nổi bật",
+  "metricDescription": "Giá trị có thể đo lường dùng để theo dõi tiến trình dự án dựa trên dữ liệu tĩnh (ví dụ: theo lịch sử) hoặc động (ví dụ: theo thời gian thực)",
+  "metricCount": {
+    "label": "{currentCount} / {totalCountAllowed} số liệu",
+    "tooltip": "Để thêm chỉ số, hãy xóa một vài chỉ số trong bộ chỉ số hiện có"
+  },
+  "visible": {
+    "title": "Hiển thị",
+    "noMetrics": "Không có chỉ số hiệu quả nào trong phần này."
+  },
+  "hidden": {
+    "title": "Ẩn",
+    "description": "Các chỉ số hiệu quả này chỉ hiển thị cho những người có quyền truy cập vào không gian làm việc này.",
+    "noMetrics": "Không có chỉ số hiệu quả nào trong phần này."
+  },
+  "project": {
+    "featured": {
+      "description": "Bạn có thể có 4 số liệu nổi bật. Các số liệu này hiển thị trên phần tổng quan dự án trực tiếp của bạn."
+    },
+    "visible": {
+      "description": "Các số liệu có thể nhìn thấy được hiển thị dưới tab Số liệu của dự án trực tiếp."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Số liệu sẽ khớp với mức độ chia sẻ của dự án. Số liệu ẩn vẫn có thể truy cập bằng lệnh gọi API",
+        "metricsDockLink": "Tìm hiểu về cách thiết lập các số liệu"
+      }
+    }
+  },
+  "initiative": {
+    "featured": {
+      "description": "Bạn có thể có 4 số liệu nổi bật. Các số liệu này hiển thị trên phần tổng quan sáng kiến trực tiếp của bạn."
+    },
+    "visible": {
+      "description": "Các số liệu có thể nhìn thấy được hiển thị dưới tab Số liệu của dự án trực tiếp."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Chỉ số sẽ khớp với mức độ chia sẻ của sáng kiến. Số liệu ẩn vẫn có thể truy cập bằng lệnh gọi API",
+        "metricsDockLink": "Tìm hiểu về cách thiết lập các số liệu"
+      }
+    }
+  },
+  "metricNumber": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4"
+  },
+  "actions": {
+    "delete": "Xóa",
+    "edit": "Chỉnh sửa",
+    "featured": "Đối tượng",
+    "removeFeatured": "Xóa mục nổi bật",
+    "show": "Chuyển sang hiển thị",
+    "hide": "Chuyển sang ẩn"
+  },
+  "editor": {
+    "heading": "Chỉ số hiệu quả mới",
+    "description": "Theo mặc định, chỉ số hiệu quả sẽ tự động ẩn để các thành viên trong không gian làm việc của bạn có thể xem được."
+  },
+  "deleteMetricModal": {
+    "heading": "Xóa chỉ số hiệu quả",
+    "content": "Bạn có chắc chắn muốn xóa không:",
+    "cancel": "Hủy",
+    "delete": "Xóa"
+  },
+  "sidePanel": {
+    "definitions": "Định nghĩa",
+    "preview": "Xem trước"
+  }
+}

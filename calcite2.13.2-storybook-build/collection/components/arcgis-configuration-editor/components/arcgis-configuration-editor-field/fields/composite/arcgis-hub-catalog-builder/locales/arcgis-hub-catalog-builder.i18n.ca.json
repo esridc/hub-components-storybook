@@ -1,0 +1,24 @@
+{
+  "shared": {
+    "targetEntities": {
+      "item": "Elements",
+      "event": "Esdeveniments"
+    }
+  },
+  "targetEntityBlock": {
+    "configured": "Configurat",
+    "notConfigured": "No configurat"
+  },
+  "targetEntityFlow": {
+    "back": "Tanca la configuració: {targetEntity}",
+    "description": "Configura: {targetEntity}",
+    "source": {
+      "heading": "Font",
+      "description": "Les fonts defineixen l'àmbit del contingut. Modifiqueu els resultats incloent o excloent paràmetres.<br/><br/>* Indica que el camp és obligatori"
+    },
+    "collections": {
+      "heading": "Col·leccions",
+      "description": "Organitzeu contingut en diversos subconjunts per facilitar la navegació i la descobribilitat.<br/><br/>* Indica que el camp és obligatori"
+    }
+  }
+}

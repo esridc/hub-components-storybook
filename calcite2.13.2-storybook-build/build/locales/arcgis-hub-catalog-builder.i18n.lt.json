@@ -1,0 +1,24 @@
+{
+  "shared": {
+    "targetEntities": {
+      "item": "Elementai",
+      "event": "Renginiai"
+    }
+  },
+  "targetEntityBlock": {
+    "configured": "Sukonfigūruota",
+    "notConfigured": "Nesukonfigūruota"
+  },
+  "targetEntityFlow": {
+    "back": "Uždaryti konfigūravimą: {targetEntity}",
+    "description": "Konfigūruoti: {targetEntity}",
+    "source": {
+      "heading": "Šaltinis",
+      "description": "Šaltiniai apibrėžia turinio apimtį. Pakeiskite rezultatus įtraukdami arba pašalindami parametrus.<br/><br/>* Nurodo būtiną lauką."
+    },
+    "collections": {
+      "heading": "Rinkiniai",
+      "description": "Suskirstykite turinį į atskirus poaibius, kad būtų lengviau naršyti ir aptikti.<br/><br/>* Nurodo būtiną lauką."
+    }
+  }
+}

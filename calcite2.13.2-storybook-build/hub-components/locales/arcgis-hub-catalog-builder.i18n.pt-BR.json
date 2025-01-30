@@ -1,0 +1,24 @@
+{
+  "shared": {
+    "targetEntities": {
+      "item": "Itens",
+      "event": "Eventos"
+    }
+  },
+  "targetEntityBlock": {
+    "configured": "Configurado",
+    "notConfigured": "Não configurado"
+  },
+  "targetEntityFlow": {
+    "back": "Fechar configuração: {targetEntity}",
+    "description": "Configurar: {targetEntity}",
+    "source": {
+      "heading": "Fonte",
+      "description": "As fontes definem o escopo do conteúdo. Modifique os resultados incluindo ou excluindo parâmetros.<br/><br/>*indica campo obrigatório"
+    },
+    "collections": {
+      "heading": "Coleções",
+      "description": "Organize o conteúdo em subconjuntos distintos para facilitar a navegação e a descoberta.<br/><br/>*indica campo obrigatório"
+    }
+  }
+}

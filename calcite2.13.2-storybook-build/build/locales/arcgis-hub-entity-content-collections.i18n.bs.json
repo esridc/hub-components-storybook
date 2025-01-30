@@ -1,0 +1,33 @@
+{
+  "title": "Zbirke",
+  "actions": {
+    "label": "Opcije",
+    "show": "Prikaži",
+    "hide": "Sakrij",
+    "rename": "Preimenuj"
+  },
+  "formAlert": "Stvori upozorenje",
+  "alertMessages": {
+    "success": "Uspješno spremljena uređivanja",
+    "error": "Pogreška pri spremanju uređivanja"
+  },
+  "collectionRenameModal": {
+    "title": "Promijeni naziv zbirke",
+    "fieldLabel": "Oznaka zbirke",
+    "requiredMessage": "Potrebna je oznaka zbirke",
+    "apply": "Primijeni",
+    "maxLengthMessage": "Oznaka zbirke ne smije sadržavati više od 50 znakova"
+  },
+  "collections": {
+    "dataset": "Podaci",
+    "site": "Web-mjesta",
+    "document": "Dokumenti",
+    "appAndMap": "Aplikacije i karte"
+  },
+  "saveButton": "Spremi",
+  "sections": {
+    "collectionConfiguration": {
+      "title": "Konfiguracija zbirke"
+    }
+  }
+}

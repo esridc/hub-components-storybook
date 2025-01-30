@@ -1,0 +1,1346 @@
+{
+  "success": "Đã lưu chỉnh sửa thành công",
+  "error": "Lỗi lưu chỉnh sửa",
+  "formAlert": "Cảnh báo biểu mẫu",
+  "create": "Tạo",
+  "shared": {
+    "notices": {
+      "metrics": {
+        "preview": {
+          "label": "Xem trước số liệu của bạn",
+          "message": "Các thay đổi được thực hiện tại đây sẽ hiển thị trong bản xem trước số liệu."
+        }
+      }
+    },
+    "sections": {
+      "metrics": {
+        "basic": {
+          "label": "Thông tin Cơ bản"
+        },
+        "source": {
+          "label": "Giá trị"
+        },
+        "formatting": {
+          "label": "Định dạng"
+        },
+        "sharing": {
+          "label": "Chia sẻ"
+        }
+      },
+      "mapSettings": {
+        "label": "Thiết lập bản đồ"
+      }
+    },
+    "errors": {
+      "urlFormat": "Định dạng URL không chính xác"
+    },
+    "fields": {
+      "name": {
+        "maxLengthError": "Tên không được vượt quá 250 ký tự"
+      },
+      "title": {
+        "maxLengthError": "Tiêu đề không được vượt quá 250 ký tự"
+      },
+      "summary": {
+        "maxLengthError": "Thông tin tóm tắt không được vượt quá 2048 ký tự"
+      },
+      "purpose": {
+        "maxLengthError": "Mục đích không được vượt quá 2048 ký tự"
+      },
+      "_thumbnail": {
+        "label": "Hình thu nhỏ",
+        "sizeDescription": "Kích cỡ tối đa là 10mb. Kích thước được khuyến nghị: 760 x 505 hoặc lớn hơn",
+        "defaultThumbnailNotice": "Tải lên hình thu nhỏ của riêng bạn để thay thế ảnh mặc định."
+      },
+      "location": {
+        "none": "Không có vị trí",
+        "org": "Phạm vi của tổ chức",
+        "custom": "Vị trí tùy biến",
+        "customDescription": "Vẽ một hoặc nhiều vị trí",
+        "itemExtent": "Phạm vi Hiện tại của Mục"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Loại",
+          "sharing": "Chia sẻ"
+        },
+        "catalog": {
+          "myContent": "Nội dung của tôi",
+          "favorites": "Yêu thích",
+          "organization": "Tổ chức",
+          "world": "Thế giới (Công khai)"
+        },
+        "collection": {
+          "appsAndMaps": "Ứng dụng & Bản đồ",
+          "dataset": "Dữ liệu",
+          "documents": "Tài liệu",
+          "feedback": "Ý kiến phản hồi",
+          "sites": "Sites",
+          "projects": "Dự án"
+        }
+      },
+      "metrics": {
+        "allowDynamicLink": {
+          "label": "Hiển thị liên kết nguồn"
+        },
+        "cardTitle": {
+          "label": "Tiêu đề",
+          "message": {
+            "required": "Trường này là bắt buộc"
+          }
+        },
+        "dynamicMetric": {
+          "label": "Nguồn dữ liệu"
+        },
+        "value": {
+          "label": "Giá trị",
+          "message": {
+            "required": "Trường này là bắt buộc"
+          }
+        },
+        "unit": {
+          "label": "Đơn vị",
+          "helperText": "Sử dụng để đặt giá trị tiền tố hoặc hậu tố, ví dụ %, +, $ hoặc đơn vị khác. Để trống để không hiển thị gì."
+        },
+        "unitPosition": {
+          "label": "Vị trí đơn vị",
+          "helperText": "Chọn vị trí hiển thị đơn vị đo lường (ví dụ: 'km', 'lbs') liên quan đến giá trị số liệu.",
+          "enum": {
+            "after": {
+              "label": "Sau giá trị"
+            },
+            "before": {
+              "label": "Trước giá trị"
+            },
+            "below": {
+              "label": "Dưới giá trị"
+            }
+          }
+        },
+        "showShareIcon": {
+          "label": "Cho phép chia sẻ",
+          "helperText": {
+            "label": "Cho phép người dùng sao chép liên kết trực tiếp vào chỉ số này."
+          }
+        },
+        "shareableOnHover": {
+          "label": "Hiển thị khi di chuột",
+          "helperText": {
+            "label": "Nút chia sẻ sẽ chỉ hiển thị khi di chuột. Nếu tắt, nút sẽ luôn hiển thị."
+          }
+        },
+        "sourceLink": {
+          "label": "URL liên kết",
+          "message": {
+            "required": "Liên kết bắt buộc để hiển thị nguồn."
+          }
+        },
+        "sourceTitle": {
+          "label": "Văn bản liên kết"
+        },
+        "trailingText": {
+          "label": "Văn bản cuối câu",
+          "helperText": "Nhập thêm bối cảnh hoặc giải thích (để hiển thị bên dưới giá trị số liệu)."
+        },
+        "type": {
+          "label": "Loại",
+          "enum": {
+            "dynamic": {
+              "label": "Động",
+              "description": "Chọn một bộ dữ liệu hiện có (dịch vụ đối tượng) để tóm tắt."
+            },
+            "static": {
+              "label": "Tĩnh",
+              "description": "Nhập thủ công một giá trị để đánh dấu trong bố cục."
+            }
+          }
+        },
+        "valueType": {
+          "label": "Loại giá trị",
+          "helperText": "Chọn loại giá trị bạn muốn hiển thị.",
+          "enum": {
+            "string": {
+              "label": "Văn bản",
+              "description": "Từ hoặc cụm từ bất kỳ. Không dùng cho biểu thức tính toán số. (ví dụ: \"Đường chính\")"
+            },
+            "number": {
+              "label": "Số",
+              "description": "Giá trị số. Có thể dùng cho biểu thức tính toán. (ví dụ: 123)"
+            },
+            "date": {
+              "label": "Ngày",
+              "description": "Giá trị ngày theo lịch. Không dùng cho biểu thức tính toán số. (ví dụ: \"1/1/2018\")"
+            }
+          }
+        }
+      },
+      "categories": {
+        "label": "Danh mục",
+        "noCategoriesNotice": {
+          "body": "Tổ chức này chưa có danh mục nào.",
+          "link": "Thiết lập danh mục"
+        }
+      },
+      "download": {
+        "format": {
+          "bip": "BIP",
+          "bmp": "BMP",
+          "bsq": "BSQ",
+          "gif": "GIF",
+          "jpg": "JPG",
+          "jpgPng": "JPG_PNG",
+          "lerc": "LERC",
+          "png": "PNG",
+          "png8": "PNG8",
+          "png24": "PNG24",
+          "png32": "PNG32",
+          "tiff": "TIFF",
+          "csv": "CSV",
+          "excel": "Excel",
+          "featureCollection": "Bộ sưu tập Đối tượng",
+          "filegdb": "File Geodatabase",
+          "geojson": "GeoJSON",
+          "geoPackage": "GeoPackage",
+          "json": "JSON",
+          "kml": "KML",
+          "shapefile": "Shapefile",
+          "sqlite": "SQLite Geodatabase"
+        },
+        "additionalResource": "{resourceName} (phân phối siêu dữ liệu)",
+        "dataSourceResource": "Nguồn dữ liệu (phân phối siêu dữ liệu)",
+        "noTitleResource": "Liên kết (không tiêu đề, phân phối siêu dữ liệu)"
+      }
+    }
+  },
+  "project": {
+    "sections": {
+      "details": {
+        "label": "Thông tin chi tiết"
+      },
+      "basicInfo": {
+        "label": "Thông tin Cơ bản"
+      },
+      "location": {
+        "label": "Vị trí",
+        "helperText": "Hiển thị khu vực địa lý sẽ diễn ra dự án này (để xuất hiện trên bố cục dự án)."
+      },
+      "status": {
+        "label": "Trạng thái"
+      },
+      "sharing": {
+        "label": "Chia sẻ"
+      },
+      "timeline": {
+        "label": "Dòng thời gian"
+      },
+      "searchDiscoverability": {
+        "label": "Khả năng khám phá & tìm kiếm"
+      },
+      "featuredContent": {
+        "label": "Nội dung nổi bật",
+        "helperText": "Tô sáng các tài liệu, ứng dụng và dữ liệu cụ thể liên quan đến dự án của bạn. Bạn có thể có tối đa 4 mục."
+      },
+      "callToAction": {
+        "label": "Liên kết thao tác",
+        "helperText": "Phần này sẽ hiển thị như một nút nổi bật ở đầu dự án. Sử dụng phần này để đưa khán giả đến một trang web, bản khảo sát, bản đồ, v.v."
+      },
+      "embeds": {
+        "label": "Nhúng nổi bật",
+        "helperText": "Chọn bản đồ web, web scene hoặc ứng dụng để làm nổi bật trên dự án của bạn."
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Tên dự án",
+        "requiredError": "Tên dự án là trường bắt buộc",
+        "maxLengthError": "Tên dự án không được vượt quá 250 ký tự",
+        "entityTitleValidatorError": "Tên dự án không thể bao gồm các biểu tượng cảm xúc và các ký tự <, > hoặc ="
+      },
+      "description": {
+        "label": "Thông tin mô tả",
+        "helperText": "Ghi rõ cách thức để dự án của bạn đạt được mục tiêu đề ra. Cân nhắc ghi cả thông tin căn bản có liên quan và những thay đổi dự kiến liên quan đến dự án."
+      },
+      "summary": {
+        "label": "Mục đích",
+        "helperText": "Tóm tắt ngắn gọn các mục tiêu trong dự án của bạn."
+      },
+      "access": {
+        "itemType": "Dự án"
+      },
+      "groups": {
+        "label": "Chia sẻ với...",
+        "viewGroup": "(Nhóm xem)",
+        "editGroup": "(Nhóm chỉnh sửa)"
+      },
+      "_thumbnail": {
+        "helperText": "Thiết lập hình ảnh đại diện để đại diện cho dự án này trong ArcGIS Online cũng như mục tìm kiếm và bộ sưu tập."
+      },
+      "featuredImage": {
+        "label": "Hình ảnh nổi bật",
+        "helperText": "Chọn hình ảnh để thể hiện công việc của bạn trên bố cục dự án.",
+        "sizeDescription": "Kích cỡ tệp tối đa là 10mb. Kích thước được khuyến nghị: 718 x 478 hoặc lớn hơn",
+        "altText": {
+          "label": "Văn bản thay thế",
+          "helperText": "Cung cấp thông tin mô tả ngắn về hình ảnh cho những người sử dụng phần mềm đọc màn hình. Để trống để cho biết hình ảnh chỉ mang mục đích trang trí."
+        }
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Slug là phiên bản tên dự án thân thiện với URL. Slug được tạo tự động dựa trên tên dự án nhưng bạn có thể tùy chỉnh.",
+        "patternError": "Lỗi: Slug phải là các ký tự chữ và số viết thường được phân tách bằng dấu gạch nối.",
+        "isUniqueError": "Slug này đã được sử dụng. Vui lòng chọn một slug khác."
+      },
+      "tags": {
+        "label": "Thẻ",
+        "helperText": "Thẻ được dùng trong danh mục tìm kiếm để giúp người khác tìm dự án này. Thêm văn bản và chọn nhập để tạo thẻ mới."
+      },
+      "categories": {
+        "helperText": "Thể loại được dùng trong danh mục tìm kiếm để giúp người khác tìm dự án này. Danh mục này sẽ do tổ chức của bạn thiết lập."
+      },
+      "status": {
+        "label": "Trạng thái dự án",
+        "enum": {
+          "notStarted": {
+            "label": "Chưa bắt đầu"
+          },
+          "inProgress": {
+            "label": "Đang tiến hành"
+          },
+          "onHold": {
+            "label": "Đang bị tạm ngưng"
+          },
+          "complete": {
+            "label": "Hoàn tất"
+          }
+        }
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Loại",
+          "sharing": "Chia sẻ"
+        }
+      },
+      "callToAction": {
+        "facets": {
+          "type": "Loại",
+          "sharing": "Chia sẻ"
+        }
+      },
+      "mapSettings": {
+        "label": "Cấu hình cách bản đồ hiển thị trên dự án"
+      }
+    }
+  },
+  "initiative": {
+    "sections": {
+      "details": {
+        "label": "Thông tin chi tiết"
+      },
+      "basicInfo": {
+        "label": "Thông tin Cơ bản"
+      },
+      "location": {
+        "label": "Vị trí",
+        "helperText": "Hiển thị khu vực địa lý sẽ diễn ra sáng kiến này (để xuất hiện trên bố cục sáng kiến)."
+      },
+      "sharing": {
+        "label": "Chia sẻ"
+      },
+      "featuredContent": {
+        "label": "Nội dung nổi bật",
+        "helperText": "Tô sáng các tài liệu, ứng dụng và dữ liệu cụ thể liên quan đến dự án của bạn. Bạn có thể đặt tối đa 4 mục làm nội dung nổi bật."
+      },
+      "status": {
+        "label": "Trạng thái"
+      },
+      "hero": {
+        "label": "Hình ảnh lớn"
+      },
+      "searchDiscoverability": {
+        "label": "Khả năng khám phá & tìm kiếm"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Tên sáng kiến",
+        "requiredError": "Tên sáng kiến là trường bắt buộc",
+        "maxLengthError": "Tên sáng kiến không được vượt quá 250 ký tự",
+        "entityTitleValidatorError": "Tên sáng kiến không thể bao gồm các biểu tượng cảm xúc và các ký tự <, > hoặc ="
+      },
+      "summary": {
+        "label": "Mục đích",
+        "helperText": "Tóm tắt ngắn gọn các mục tiêu trong sáng kiến của bạn."
+      },
+      "access": {
+        "itemType": "Sáng kiến"
+      },
+      "description": {
+        "label": "Thông tin mô tả",
+        "helperText": "Ghi rõ cách thức để sáng kiến của bạn đạt được mục tiêu đề ra. Cân nhắc ghi cả thông tin căn bản có liên quan và những thay đổi dự kiến liên quan đến sáng kiến."
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Slug là phiên bản tên sáng kiến thân thiện với URL. Slug được tạo tự động dựa trên tên sáng kiến nhưng bạn có thể tùy chỉnh.",
+        "patternError": "Lỗi: Slug phải là các ký tự chữ và số viết thường được phân tách bằng dấu gạch nối.",
+        "isUniqueError": "Slug này đã được sử dụng. Vui lòng chọn một slug khác."
+      },
+      "tags": {
+        "label": "Thẻ",
+        "helperText": "Thẻ được sử dụng trong danh mục tìm kiếm để giúp người khác tìm sáng kiến này. Thêm văn bản và chọn nhập để tạo thẻ mới."
+      },
+      "categories": {
+        "helperText": "Danh mục được sử dụng trong danh mục tìm kiếm để giúp người khác tìm sáng kiến này. Danh mục này sẽ do tổ chức của bạn thiết lập."
+      },
+      "_thumbnail": {
+        "helperText": "Thiết lập hình thu nhỏ đại diện cho sáng kiến này trong ArcGIS Online cũng như mục tìm kiếm và bộ sưu tập."
+      },
+      "groups": {
+        "label": "Chia sẻ với...",
+        "viewGroup": "(Nhóm xem)",
+        "editGroup": "(Nhóm chỉnh sửa)"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Loại",
+          "sharing": "Chia sẻ"
+        }
+      },
+      "status": {
+        "label": "Trạng thái sáng kiến",
+        "enum": {
+          "notStarted": {
+            "label": "Chưa bắt đầu"
+          },
+          "inProgress": {
+            "label": "Đang xử lý"
+          },
+          "onHold": {
+            "label": "Đang bị tạm ngưng"
+          },
+          "complete": {
+            "label": "Hoàn tất"
+          }
+        }
+      },
+      "hero": {
+        "label": "Hình ảnh lớn",
+        "helperText": "Hình ảnh lớn hiển thị bên trên tiêu đề sáng kiến của bạn và có thể làm nổi bật bản đồ hoặc hình ảnh.",
+        "map": {
+          "label": "Bản đồ",
+          "description": "Sử dụng bản đồ để hiển thị khu vực đích của sáng kiến ​​bằng cách sử dụng vị trí của sáng kiến ​​hoặc các dự án liên quan."
+        },
+        "image": {
+          "label": "Hình ảnh",
+          "description": "Hình ảnh hấp dẫn có thể giúp mọi người liên tưởng hoặc thực hiện hành động hướng tới mục tiêu của bạn."
+        }
+      },
+      "featuredImage": {
+        "label": "Hình ảnh",
+        "helperText": "Đối với hình ảnh lớn, hãy sử dụng hình ảnh ngang. Ứng dụng sẽ thay đổi kích thước hình ảnh theo tỷ lệ từ tiêu điểm trung tâm để điều chỉnh cho phù hợp với các kích thước màn hình khác nhau. Trên màn hình lớn, chiều cao tối đa sẽ là 475px.",
+        "sizeDescription": "Kích thước tệp tối đa là 10MB.",
+        "altText": {
+          "label": "Văn bản thay thế",
+          "helperText": "Cung cấp thông tin mô tả ngắn về hình ảnh cho những người sử dụng phần mềm đọc màn hình. Để trống để cho biết hình ảnh chỉ mang mục đích trang trí."
+        }
+      },
+      "groupAccess": {
+        "label": "Đặt khả năng hiển thị",
+        "helperText": "Kiểm soát đối tượng có thể xem liên kết được tạo dựa trên sáng kiến này",
+        "private": {
+          "label": "Riêng tư",
+          "description": "Chủ sở hữu sáng kiến và nhóm có quyền truy cập có thể thấy nhóm"
+        },
+        "org": {
+          "label": "Tổ chức",
+          "description": "Tất cả thành viên có tài khoản trong tổ chức của sáng kiến và nhóm có quyền truy cập có thể thấy nhóm"
+        },
+        "public": {
+          "label": "Công khai",
+          "description": "Mọi người có thể thấy nhóm"
+        }
+      },
+      "membershipAccess": {
+        "label": "Ai có thể tham gia nhóm này?",
+        "org": "Chỉ thành viên trong tổ chức của tôi",
+        "collab": "Chỉ nhóm cộng tác đối tác và thành viên trong tổ chức của tôi",
+        "any": "Thành viên của bất kỳ tổ chức nào (mặc định đề xuất)"
+      },
+      "includeInCatalog": {
+        "label": "Bao gồm trong danh mục",
+        "helperText": "Nếu bật, mọi mục đã liên kết sẽ xuất hiện cùng nội dung khác trong danh mục tìm kiếm của sáng kiến."
+      },
+      "mapSettings": {
+        "label": "Cấu hình cách bản đồ hiển thị trên sáng kiến"
+      }
+    }
+  },
+  "discussion": {
+    "sections": {
+      "details": {
+        "label": "Thông tin chi tiết"
+      },
+      "basicInfo": {
+        "label": "Thông tin Cơ bản"
+      },
+      "location": {
+        "label": "Vị trí",
+        "helperText": "Thêm khu vực địa lý để đặt ranh giới thảo luận và mức thu phóng mặc định của bản đồ để thảo luận tập trung hơn."
+      },
+      "settings": {
+        "label": "Thảo luận"
+      },
+      "searchDiscoverability": {
+        "label": "Khả năng khám phá & tìm kiếm"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Tiêu đề",
+        "requiredError": "Tên bảng thảo luận là bắt buộc.",
+        "entityTitleValidatorError": "Tên thảo luận không thể bao gồm các biểu tượng cảm xúc và các ký tự <, > hoặc ="
+      },
+      "prompt": {
+        "label": "Lời nhắc",
+        "helperText": "Mô tả ngắn gọn những gì bạn muốn người tham gia gửi trên bảng thảo luận này.",
+        "requiredError": "Lời nhắc là trường bắt buộc",
+        "maxLengthError": "Lời nhắc không được vượt quá 150 ký tự"
+      },
+      "description": {
+        "label": "Thông tin mô tả",
+        "helperText": "Việc cung cấp thêm bối cảnh có thể hữu ích khi tìm kiếm bảng này."
+      },
+      "_thumbnail": {
+        "helperText": "Chọn hình ảnh đại diện cho thảo luận của bạn."
+      },
+      "summary": {
+        "label": "Thông tin tóm tắt",
+        "helperText": "Việc mô tả ngắn gọn mục đích của Bảng Thảo luận này sẽ rất hữu ích khi chia sẻ liên kết với những người khác."
+      },
+      "featuredImage": {
+        "label": "Hình ảnh nổi bật",
+        "sizeDescription": "Kích thước tối đa là 10mb, JPEG, JPG hoặc PNG",
+        "altText": {
+          "label": "Văn bản thay thế",
+          "helperText": "Cung cấp thông tin mô tả ngắn về hình ảnh cho những người sử dụng phần mềm đọc màn hình. Để trống để cho biết hình ảnh chỉ mang mục đích trang trí."
+        },
+        "name": {
+          "label": "Tên hình ảnh"
+        }
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Slug là phiên bản tên thảo luận thân thiện với URL. Slug được tạo tự động dựa trên tên thảo luận nhưng bạn có thể tùy chỉnh.",
+        "patternError": "Lỗi: Slug phải là các ký tự chữ và số viết thường được phân tách bằng dấu gạch nối.",
+        "isUniqueError": "Slug này đã được sử dụng. Vui lòng chọn một slug khác."
+      },
+      "tags": {
+        "label": "Thẻ"
+      },
+      "categories": {
+        "helperText": "Danh mục được dùng trong danh mục tìm kiếm để giúp người khác tìm thảo luận này. Danh mục này sẽ do tổ chức của bạn thiết lập."
+      },
+      "discussable": {
+        "label": "Có được phép thảo luận không?",
+        "enabled": {
+          "label": "Có, được phép thảo luận",
+          "description": "Người tham gia có thể thêm bài đăng, trả lời và phản ứng vào bảng thảo luận này."
+        },
+        "disabled": {
+          "label": "Không, thảo luận bị chặn",
+          "description": "Xóa khả năng thêm bài đăng, trả lời và phản ứng mới. Không xoá lần tham gia trước."
+        }
+      },
+      "mapSettings": {
+        "label": "Cấu hình cách bản đồ hiển thị trên bảng thảo luận"
+      }
+    }
+  },
+  "site": {
+    "sections": {
+      "defaultRequiredHelperText": "*chỉ ra một trường bắt buộc",
+      "basicInfo": {
+        "label": "Thông tin Cơ bản"
+      },
+      "location": {
+        "label": "Vị trí",
+        "helperText": "Hiển thị khu vực địa lý của site này."
+      },
+      "discussions": {
+        "label": "Thảo luận"
+      },
+      "privacy": {
+        "label": "Cấu hình quyền riêng tư"
+      },
+      "siteUrl": {
+        "label": "URL Trang web"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Tên site",
+        "requiredError": "Tên site là trường bắt buộc.",
+        "maxLengthError": "Tên trang web không được vượt quá 250 ký tự",
+        "siteEntityTitleValidatorError": "Tên site không thể bao gồm các biểu tượng cảm xúc hoặc ký tự unicode."
+      },
+      "_thumbnail": {
+        "helperText": "Thiết lập hình thu nhỏ đại diện cho trang web này trong ArcGIS Online cũng như mục tìm kiếm và bộ sưu tập."
+      },
+      "description": {
+        "label": "Thông tin mô tả",
+        "helperText": "Mô tả của site."
+      },
+      "summary": {
+        "label": "Thông tin tóm tắt",
+        "helperText": "Tóm tắt ngắn gọn về site."
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Slug là phiên bản tên site thân thiện với URL. Slug được tạo tự động dựa trên tên site nhưng bạn có thể tùy chỉnh.",
+        "patternError": "Lỗi: Slug phải là các ký tự chữ và số viết thường được phân tách bằng dấu gạch nối.",
+        "isUniqueError": "Slug này đã được sử dụng. Vui lòng chọn một slug khác."
+      },
+      "tags": {
+        "label": "Từ khóa",
+        "helperText": "Từ khóa được dùng trong danh mục tìm kiếm để giúp người khác tìm thấy site này. Thêm văn bản và chọn nhập để tạo ra từ khóa mới."
+      },
+      "categories": {
+        "helperText": "Thể loại được dùng trong danh mục tìm kiếm để giúp người khác tìm site này. Danh mục này sẽ do tổ chức của bạn thiết lập."
+      },
+      "discussable": {
+        "label": "Hiển thị giao diện thảo luận cho người dùng đã đăng nhập trên các trang web trực tiếp (bật theo mặc định).",
+        "enabled": {
+          "label": "Có, được phép thảo luận",
+          "description": "Hiển thị giao diện thảo luận"
+        },
+        "disabled": {
+          "label": "Không, thảo luận bị chặn",
+          "description": "Ẩn giao diện thảo luận"
+        }
+      },
+      "followers": {
+        "groupAccess": {
+          "label": "Đặt khả năng hiển thị",
+          "helperText": "Kiểm soát những người có thể xem nút theo dõi. Cài đặt này áp dụng cho cả nút theo dõi cho hành động liền mạch trong trang và mọi nút theo dõi được nhúng trực tiếp trên bố cục.",
+          "private": {
+            "label": "Riêng tư",
+            "description": "Chủ sở hữu trang web và các nhóm có quyền truy cập có thể thấy nút theo dõi"
+          },
+          "org": {
+            "label": "Tổ chức",
+            "description": "Tất cả các thành viên có tài khoản với tổ chức của trang web và các nhóm có quyền truy cập đều có thể thấy nút theo dõi"
+          },
+          "public": {
+            "label": "Công khai",
+            "description": "Mọi người đều có thể thấy nút theo dõi"
+          }
+        },
+        "showFollowAction": {
+          "label": "Hành động theo dõi",
+          "helperText": "Thêm nút theo dõi vào menu hành động trong trang, nút này vẫn hiển thị khi người dùng cuộn qua bố cục."
+        },
+        "discussable": {
+          "label": "Nhóm này có thể tham gia vào thảo luận không?",
+          "enabled": {
+            "label": "Có, được phép thảo luận",
+            "description": "Thành viên nhóm có thể xem và tham gia vào các kênh thảo luận mà nhóm đó có quyền truy cập."
+          },
+          "disabled": {
+            "label": "Không, thảo luận bị chặn",
+            "description": "Thành viên nhóm không thể xem và tham gia vào các kênh thảo luận mà nhóm đó có quyền truy cập."
+          }
+        }
+      },
+      "siteUrl": {
+        "isUniqueError": "Lỗi: Trang web sử dụng URL này đã tồn tại."
+      }
+    }
+  },
+  "page": {
+    "sections": {
+      "basicInfo": {
+        "label": "Thông tin Cơ bản"
+      },
+      "location": {
+        "label": "Vị trí",
+        "helperText": "Hiển thị khu vực địa lý của trang này."
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Tên trang",
+        "requiredError": "Tên trang là trường bắt buộc",
+        "maxLengthError": "Tên trang không được vượt quá 250 ký tự",
+        "entityTitleValidatorError": "Tên trang không thể bao gồm các biểu tượng cảm xúc và các ký tự <, > hoặc ="
+      },
+      "description": {
+        "label": "Thông tin mô tả",
+        "helperText": "Mô tả của trang."
+      },
+      "summary": {
+        "label": "Thông tin tóm tắt",
+        "helperText": "Tóm tắt ngắn gọn trang."
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Slug là phiên bản tên trang thân thiện với URL. Slug được tạo tự động dựa trên tên trang nhưng bạn có thể tùy chỉnh.",
+        "patternError": "Lỗi: Slug phải là các ký tự chữ và số viết thường được phân tách bằng dấu gạch nối.",
+        "isUniqueError": "Slug này đã được sử dụng. Vui lòng chọn một slug khác."
+      },
+      "tags": {
+        "label": "Từ khóa",
+        "helperText": "Từ khóa được dùng trong danh mục tìm kiếm để giúp người khác tìm thấy trang này. Thêm văn bản và chọn nhập để tạo từ khóa mới."
+      },
+      "_thumbnail": {
+        "helperText": "Thiết lập hình thu nhỏ đại diện cho trang này trong ArcGIS Online cũng như mục tìm kiếm và bộ sưu tập."
+      },
+      "categories": {
+        "helperText": "Thể loại được dùng trong danh mục tìm kiếm để giúp người khác tìm trang này. Danh mục này sẽ do tổ chức của bạn thiết lập."
+      }
+    }
+  },
+  "content": {
+    "fields": {
+      "title": {
+        "label": "Tiêu đề",
+        "hint": "Tiêu đề ngắn gọn sẽ tăng khả năng khám phá nội dung của bạn.",
+        "requiredError": "Tiêu đề là trường bắt buộc",
+        "entityTitleValidatorError": "Tên không thể bao gồm các biểu tượng cảm xúc và các ký tự <, > hoặc ="
+      },
+      "summary": {
+        "label": "Thông tin tóm tắt",
+        "hint": "Tóm tắt ngắn gọn nội dung của bạn. MẸO: Cải thiện SEO bằng cách sử dụng các từ khóa khác với từ khóa \"Tiêu đề\" hay \"Từ khóa\" của bạn."
+      },
+      "description": {
+        "label": "Thông tin mô tả",
+        "hint": "Thêm thông tin chi tiết bổ sung giải thích nội dung của bạn. Nhắm mục tiêu cho trình độ đọc lớp 7-9 để tiếp cận được nhiều đối tượng. <a href='https://www.webfx.com/tools/read-able/' target='_blank'>Sử dụng công cụ phân tích khả năng đọc miễn phí để kiểm tra văn bản của bạn</a>."
+      },
+      "tags": {
+        "label": "Từ khóa",
+        "hint": "Thẻ được dùng trong danh mục tìm kiếm sẽ giúp người khác tìm thấy nội dung này. Thêm văn bản và chọn nhập để tạo ra từ khóa mới."
+      },
+      "categories": {
+        "helperText": "Danh mục được dùng trong danh mục tìm kiếm sẽ giúp người khác tìm thấy nội dung này. Danh mục này sẽ do tổ chức của bạn thiết lập."
+      },
+      "_thumbnail": {
+        "helperText": "Thiết lập hình ảnh để đại diện cho mục này trong ArcGIS Online cũng như mục tìm kiếm và bộ sưu tập."
+      },
+      "license": {
+        "label": "Điều khoản Sử dụng",
+        "helperText": "Ít hạn chế hơn sẽ khuyến khích sử dụng lại nhiều hơn."
+      },
+      "discussable": {
+        "label": "Có được phép thảo luận không?",
+        "enabled": {
+          "label": "Có, được phép thảo luận",
+          "description": "Người tham gia có thể thêm bài đăng, trả lời và phản ứng vào mục này."
+        },
+        "disabled": {
+          "label": "Không, thảo luận bị chặn",
+          "description": "Xóa khả năng thêm bài đăng, trả lời và phản ứng mới. Không xóa lần tham gia trước."
+        }
+      },
+      "serverExtractCapability": {
+        "label": "Hệ thống tải xuống",
+        "exportDataSetting": {
+          "label": "Thiết lập xuất dữ liệu (được khuyến nghị)",
+          "description": "Kích hoạt định dạng tải xuống bổ sung và hiệu suất tải xuống được tăng lên."
+        },
+        "defaultDownloadsSystem": {
+          "label": "Hệ thống tải xuống mặc định",
+          "description": "Có thể cung cấp ít định dạng hơn, tốc độ tải xuống chậm hơn và độ tin cậy kém hơn."
+        },
+        "noFormatConfigurationNotice": {
+          "title": "Cấu hình định dạng không khả dụng",
+          "body": "Cấu hình định dạng yêu cầu bật thiết lập xuất dữ liệu."
+        }
+      },
+      "downloadFormats": {
+        "label": "Định dạng",
+        "helperText": "Chọn loại định dạng cho phép người dùng truy cập và thứ tự hiển thị định dạng. (Lưu ý rằng bạn phải chọn ít nhất một định dạng)",
+        "downloadsUnavailableNotice": {
+          "title": "Tải xuống không khả dụng",
+          "body": "Để tải xuống nội dung, bạn phải kích hoạt chức năng Xuất Dữ liệu trên ArcGIS Online. Vui lòng liên hệ chủ sở hữu mục để bật thiết lập này."
+        }
+      },
+      "schedule": {
+        "manual": {
+          "helperActionText": "Sử dụng tùy chọn này nếu bạn muốn cập nhật thủ công chỉ mục tìm kiếm và các tệp tải xuống đã lưu vào bộ nhớ cache cho mục này."
+        },
+        "forceUpdateButton": {
+          "label": "Buộc Cập nhật",
+          "description": "Chọn tùy chọn này rồi chọn \"Lưu\" để cập nhật thủ công chỉ mục tìm kiếm và các tệp tải xuống đã lưu vào bộ nhớ cache cho mục này nếu có."
+        },
+        "unavailableNotice": {
+          "title": "Cập nhật theo lịch không có sẵn",
+          "body": "Đặt nội dung này \"Công khai\" để kích hoạt cập nhật theo lịch."
+        }
+      }
+    },
+    "sections": {
+      "basic": {
+        "title": "Thông tin Cơ bản",
+        "message": "Thông tin này được sử dụng để điền kết quả tìm kiếm, thẻ thư viện và được hiển thị trên giao diện chi tiết."
+      },
+      "about": {
+        "title": "Giới thiệu về Nội dung",
+        "message": "Hai dòng đầu tiên của mô tả là thông tin hiển thị trong kết quả tìm kiếm, nhưng toàn bộ thông tin mô tả sẽ được hiển thị trên các chế độ xem nội dung tập trung."
+      },
+      "image": {
+        "title": "Hình ảnh Nổi bật",
+        "message": "Việc sở hữu một hình ảnh hoặc hình đại diện nổi bật tốt có vai trò quan trọng khi bạn thể hiện nội dung của mình trong các bộ sưu tập của chúng tôi hoặc trên các chế độ xem làm nổi bật hình ảnh như sáng kiến, sự kiện và bảng khảo sát. Kích thước khuyến nghị là 760x505. Nếu hình ảnh của bạn hiển thị mờ trên giao diện trực tiếp, vui lòng xem xét thay thế hình đại diện bằng hình ảnh lớn hơn."
+      },
+      "location": {
+        "label": "Vị trí",
+        "helperText": "Hiển thị khu vực địa lý sẽ có nội dung này (để xuất hiện trên bố cục nội dung)."
+      },
+      "discussions": {
+        "label": "Thảo luận"
+      },
+      "downloads": {
+        "label": "Tải xuống",
+        "helperText": "Cấu hình định dạng tải xuống, lịch cập nhật tệp được lưu tạm, v.v. Để biết thêm thông tin chi tiết, hãy xem mục <calcite-link href=\"https://doc.arcgis.com/en/hub/content/data-download-settings.htm\" target=\"_blank\" icon-end=\"launch\">tải xuống tài liệu.</calcite-link>"
+      },
+      "schedule": {
+        "label": "Cập nhật theo lịch",
+        "helperText": "Hub sẽ tự động cố gắng xác định thời điểm tốt nhất để cập nhật nội dung (theo mặc định). Tuy nhiên, bạn có thể cài đặt tần suất cập nhật cho nội dung, siêu dữ liệu và tệp tải xuống đã lưu trong vào bộ nhớ cache (nếu có)."
+      }
+    },
+    "stringField": {
+      "charCounter": "Còn lại {count} ký tự"
+    },
+    "imageThumbnail": {
+      "label": "Hình ảnh đại diện",
+      "upload": "Tải ảnh lên",
+      "done": "Hoàn tất",
+      "editThumbnail": "Chỉnh sửa Hình ảnh đại diện",
+      "browse": "Duyệt tìm Hình ảnh",
+      "remove": "Xóa Hình ảnh",
+      "edit": "Chỉnh sửa Hình ảnh",
+      "defaultHeading": "Thêm Hình ảnh đại diện",
+      "dropHeading": "Thả để Tải lên",
+      "errorHeading": "Thử Ảnh Khác",
+      "subheading": "Kích thước Tối đa là {size}, {types}",
+      "zoomOut": "Thu nhỏ",
+      "zoomIn": "Phóng to",
+      "drag": "Kéo để định vị lại",
+      "urlPlaceholder": "Các loại được hỗ trợ: {types}",
+      "browseForImage": "Duyệt tìm Hình ảnh",
+      "aria": {
+        "container": "Khu vực hình ảnh",
+        "crop": "Khu vực cắt bỏ",
+        "handle": {
+          "top": "Thay đổi kích thước phía trên",
+          "right": "Thay đổi kích thước bên phải",
+          "left": "Thay đổi kích thước bên trái",
+          "bottom": "Thay đổi kích thước phía dưới"
+        }
+      }
+    }
+  },
+  "group": {
+    "sections": {
+      "details": {
+        "label": "Thông tin chi tiết"
+      },
+      "basicInfo": {
+        "label": "Thông tin Cơ bản"
+      },
+      "capabilities": {
+        "label": "Chức năng"
+      },
+      "membershipAccess": {
+        "label": "Tư cách thành viên nhóm"
+      },
+      "discussions": {
+        "label": "Thảo luận"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Tiêu đề",
+        "requiredError": "Tiêu đề nhóm là trường bắt buộc",
+        "maxLengthError": "Tiêu đề nhóm không được vượt quá 250 ký tự",
+        "entityTitleValidatorError": "Tên nhóm không thể bao gồm các biểu tượng cảm xúc và các ký tự <, > hoặc ="
+      },
+      "summary": {
+        "label": "Thông tin tóm tắt",
+        "maxLengthError": "Thông tin tóm tắt không được vượt quá 250 ký tự"
+      },
+      "description": {
+        "label": "Thông tin mô tả"
+      },
+      "access": {
+        "label": "Ai có thể xem nhóm này?",
+        "private": {
+          "label": "Riêng tư",
+          "description": "Chỉ các thành viên nhóm mới có thể xem nhóm."
+        },
+        "org": {
+          "label": "Tổ chức",
+          "description": "Chỉ các thành viên trong tổ chức mới có thể xem nhóm."
+        },
+        "public": {
+          "label": "Mọi người (công khai)",
+          "description": "Mọi người có thể xem nhóm."
+        }
+      },
+      "isSharedUpdate": {
+        "label": "Thông tin cập nhật được chia sẻ",
+        "helperText": "Tất cả thành viên trong nhóm này đều có thể sửa đổi các mục trong nhóm. Tư cách thành viên chỉ giới hạn trong tổ chức và các tổ chức cộng tác của bạn."
+      },
+      "isAdmin": {
+        "label": "Nhóm quản trị",
+        "helperText": "Thành viên không thể rời khỏi nhóm này. Chỉ quản lý hoặc chủ sở hữu nhóm mới có thể xóa thành viên khỏi nhóm này. Tư cách thành viên bị giới hạn trong tổ chức của bạn."
+      },
+      "isOpenData": {
+        "label": "Dữ liệu mở",
+        "helperText": "Cho phép truy cập nhóm này ở các trang web Dữ liệu Mở.",
+        "constError": "Nhóm không công khai không thể là dữ liệu mở."
+      },
+      "_thumbnail": {
+        "label": "Hình ảnh đại diện",
+        "helperText": "Chọn hình ảnh đại diện cho nhóm của bạn trên hồ sơ nhóm.",
+        "sizeDescription": "Kích cỡ tối đa là 10mb. Kích cỡ đề xuất: 400 x 400 hoặc lớn hơn"
+      },
+      "membershipAccess": {
+        "label": "Ai có thể tham gia nhóm này?",
+        "org": {
+          "description": "Chỉ thành viên trong tổ chức của tôi",
+          "label": "Thành viên trong tổ chức"
+        },
+        "collab": {
+          "description": "Chỉ nhóm cộng tác đối tác và thành viên trong tổ chức của tôi",
+          "label": "Chỉ người cộng tác"
+        },
+        "any": {
+          "description": "Thành viên của bất kỳ tổ chức nào",
+          "label": "Bất kỳ ai"
+        },
+        "createFollowers": {
+          "any": "Thành viên của bất kỳ tổ chức nào (mặc định đề xuất)"
+        },
+        "createAssociation": {
+          "any": "Thành viên của bất kỳ tổ chức nào (mặc định đề xuất)"
+        },
+        "constError": "Tư cách thành viên nhóm quản trị viên giới hạn các thành viên trong tổ chức của bạn.",
+        "patternError": "Tư cách thành viên nhóm cập nhật được chia sẻ chỉ giới hạn trong tổ chức bạn hoặc các thành viên từ nhóm cộng tác đối tác."
+      },
+      "contributeContent": {
+        "label": "Ai có thể đóng góp nội dung?",
+        "members": {
+          "label": "Thành viên",
+          "description": "Tất cả thành viên nhóm"
+        },
+        "admins": {
+          "label": "Quản trị viên",
+          "description": "Chủ sở hữu và các quản lý nhóm"
+        },
+        "createFollowers": {
+          "admins": "Chủ sở hữu và quản lý nhóm (mặc định đề xuất)"
+        },
+        "createAssociation": {
+          "admins": "Chủ sở hữu và quản lý nhóm (mặc định đề xuất)"
+        }
+      },
+      "join": {
+        "label": "Mọi người có thể tham gia nhóm này bằng cách nào",
+        "invite": {
+          "label": "Lời mời",
+          "description": "Chỉ bằng lời mời"
+        },
+        "request": {
+          "label": "Yêu cầu",
+          "description": "Bằng cách yêu cầu"
+        },
+        "auto": {
+          "label": "Bản thân",
+          "description": "Bằng cách tự thêm bản thân"
+        },
+        "constError": "Các nhóm riêng tư chỉ được tham gia theo lời mời.",
+        "patternError": "Nhóm quản trị viên hoặc nhóm cập nhật được chia sẻ phải tham gia theo lời mời hoặc bằng cách yêu cầu."
+      },
+      "hiddenMembers": {
+        "label": "Ai có thể xem danh sách thành viên đầy đủ trên tab Thành viên của nhóm?",
+        "members": {
+          "label": "Thành viên",
+          "description": "Tất cả thành viên nhóm"
+        },
+        "admins": {
+          "label": "Quản trị viên",
+          "description": "Chủ sở hữu và các quản lý nhóm"
+        }
+      },
+      "discussable": {
+        "label": "Nhóm này có thể tham gia vào thảo luận không?",
+        "enabled": {
+          "label": "Có, được phép thảo luận",
+          "description": "Thành viên nhóm có thể xem và tham gia vào các kênh thảo luận mà nhóm đó có quyền truy cập."
+        },
+        "disabled": {
+          "label": "Không, thảo luận bị chặn",
+          "description": "Thành viên nhóm không thể xem và tham gia vào các kênh thảo luận mà nhóm đó có quyền truy cập."
+        }
+      }
+    }
+  },
+  "initiativeTemplate": {
+    "sections": {
+      "basicInfo": {
+        "label": "Thông tin Cơ bản"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Tên",
+        "requiredError": "Tên biểu mẫu sáng kiến là trường bắt buộc",
+        "entityTitleValidatorError": "Tên biểu mẫu sáng kiến không thể bao gồm các biểu tượng cảm xúc và các ký tự <, > hoặc ="
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Slug là phiên bản tên biểu mẫu sáng kiến thân thiện với URL. Slug được tạo tự động dựa trên tên biểu mẫu sáng kiến nhưng bạn có thể tùy chỉnh.",
+        "patternError": "Lỗi: Slug phải là các ký tự chữ và số viết thường được phân tách bằng dấu gạch nối.",
+        "isUniqueError": "Slug này đã được sử dụng. Vui lòng chọn một slug khác."
+      },
+      "previewUrl": {
+        "label": "Liên kết xem trước",
+        "helperText": "Liên kết xem trước sẽ được áp dụng cho tiêu đề và rất hữu ích nếu bạn định chia sẻ biểu mẫu công khai. Liên kết nên bắt đầu bằng \"https://\"",
+        "formatError": "Định dạng URL không chính xác"
+      },
+      "summary": {
+        "label": "Thông tin tóm tắt",
+        "helperText": "Viết một mô tả ngắn về biểu mẫu này để hiển thị trong thư viện mẫu (nên dài 90 ký tự trở xuống)."
+      },
+      "description": {
+        "label": "Thông tin mô tả",
+        "helperText": "Bao gồm thông tin về cách sử dụng biểu mẫu này. Cân nhắc đưa vào hướng dẫn kích hoạt cho người khác."
+      },
+      "_thumbnail": {
+        "label": "Hình thu nhỏ",
+        "helperText": "Thiết lập hình ảnh đại diện để đại diện cho biểu mẫu này trong ArcGIS Online cũng như mục tìm kiếm và bộ sưu tập.",
+        "sizeDescription": "Kích cỡ tối đa là 10mb. Kích cỡ đề xuất: 750 x 505 hoặc lớn hơn"
+      },
+      "recommendedTemplates": {
+        "label": "Biểu mẫu được đề xuất",
+        "catalog": {
+          "myContent": "Nội dung của tôi",
+          "favorites": "Yêu thích",
+          "organization": "Tổ chức của tôi",
+          "world": "Thế giới (Công khai)"
+        },
+        "facets": {
+          "sharing": "Chia sẻ"
+        },
+        "pickerTitle": "Chọn mẫu"
+      }
+    }
+  },
+  "template": {
+    "sections": {
+      "basicInfo": {
+        "label": "Thông tin Cơ bản"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Tên biểu mẫu",
+        "requiredError": "Tên biểu mẫu là trường bắt buộc",
+        "maxLengthError": "Tên biểu mẫu không được vượt quá 250 ký tự",
+        "entityTitleValidatorError": "Tên biểu mẫu không thể bao gồm các biểu tượng cảm xúc và các ký tự <, > hoặc ="
+      },
+      "previewUrl": {
+        "label": "Liên kết xem trước",
+        "helperText": "Liên kết xem trước sẽ được áp dụng cho tiêu đề và rất hữu ích nếu bạn định chia sẻ biểu mẫu công khai. Liên kết nên bắt đầu bằng \"https://\"",
+        "formatError": "Định dạng URL không chính xác"
+      },
+      "description": {
+        "label": "Thông tin mô tả",
+        "helperText": "Bao gồm thông tin về cách sử dụng biểu mẫu này. Cân nhắc đưa vào hướng dẫn kích hoạt cho người khác."
+      },
+      "summary": {
+        "label": "Thông tin tóm tắt",
+        "helperText": "Viết một mô tả ngắn về biểu mẫu này để hiển thị trong thư viện mẫu (nên dài 90 ký tự trở xuống)."
+      },
+      "_thumbnail": {
+        "helperText": "Chọn hình ảnh đại diện cho biểu mẫu trong bộ sưu tập."
+      }
+    }
+  },
+  "survey": {
+    "sections": {
+      "basicInfo": {
+        "label": "Thông tin Cơ bản"
+      },
+      "searchDiscoverability": {
+        "label": "Khả năng khám phá & tìm kiếm"
+      },
+      "settings": {
+        "label": "Hiển thị bản đồ"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Tên khảo sát",
+        "requiredError": "Tên khảo sát là trường bắt buộc",
+        "maxLengthError": "Tên khảo sát không được vượt quá 250 ký tự",
+        "entityTitleValidatorError": "Tên khảo sát không thể bao gồm các biểu tượng cảm xúc và các ký tự <, > hoặc ="
+      },
+      "description": {
+        "label": "Thông tin mô tả",
+        "helperText": "Mô tả khảo sát."
+      },
+      "summary": {
+        "label": "Thông tin tóm tắt",
+        "helperText": "Tóm tắt ngắn gọn về khảo sát."
+      },
+      "_thumbnail": {
+        "helperText": "Thiết lập hình thu nhỏ để đại diện cho khảo sát này trong ArcGIS Online cũng như mục tìm kiếm và bộ sưu tập."
+      },
+      "tags": {
+        "label": "Thẻ",
+        "helperText": "Thẻ được dùng trong danh mục tìm kiếm giúp người khác tìm thấy khảo sát này. Thêm văn bản và chọn nhập để tạo ra thẻ mới."
+      },
+      "categories": {
+        "helperText": "Danh mục được dùng trong danh mục tìm kiếm để giúp người khác tìm khảo sát này. Danh mục này sẽ do tổ chức của bạn thiết lập."
+      },
+      "displayMap": {
+        "label": "Khảo sát của bạn nên hiển thị dưới dạng nào khi mở trong ArcGIS Hub?",
+        "enabled": {
+          "label": "Tập trung vào bản đồ",
+          "description": "Trải nghiệm bản đồ chân thực, câu hỏi bản đồ hiển thị đầu tiên."
+        },
+        "disabled": {
+          "label": "Dạng hiển thị tiêu chuẩn",
+          "description": "Bản đồ hiển thị cùng với phần còn lại của câu hỏi."
+        },
+        "notice": {
+          "title": "Yêu cầu câu hỏi bản đồ",
+          "message": "Xuất bản khảo sát với câu hỏi bản đồ trong Survey123 để định cấu hình dạng hiển thị bản đồ trong ArcGIS Hub."
+        }
+      }
+    }
+  },
+  "event": {
+    "fields": {
+      "name": {
+        "label": "Tiêu đề",
+        "requiredError": "Tiêu đề là trường bắt buộc",
+        "entityTitleValidatorError": "Tên sự kiện không thể bao gồm các biểu tượng cảm xúc và các ký tự <, > hoặc ="
+      },
+      "startDate": {
+        "label": "Ngày bắt đầu",
+        "requiredError": "Ngày bắt đầu là trường bắt buộc",
+        "minDateError": "Ngày bắt đầu không thể trước ngày hôm nay"
+      },
+      "endDate": {
+        "label": "Ngày kết thúc",
+        "requiredError": "Ngày kết thúc là trường bắt buộc",
+        "minDateError": "Ngày kết thúc không thể trước ngày bắt đầu"
+      },
+      "date": {
+        "label": "Ngày",
+        "requiredError": "Ngày là trường bắt buộc",
+        "minDateError": "Ngày không thể trước ngày hôm nay"
+      },
+      "startTime": {
+        "label": "Thời gian bắt đầu",
+        "requiredError": "Thời gian bắt đầu là trường bắt buộc"
+      },
+      "endTime": {
+        "label": "Thời gian kết thúc",
+        "requiredError": "Thời gian kết thúc là trường bắt buộc",
+        "minTimeError": "Thời gian kết thúc phải sau thời gian bắt đầu"
+      },
+      "allDay": {
+        "label": "Tất cả các ngày"
+      },
+      "timeZone": {
+        "label": "Múi giờ",
+        "requiredError": "Múi giờ là trường bắt buộc"
+      },
+      "attendanceType": {
+        "label": "Nơi",
+        "inPerson": {
+          "label": "Trực tiếp"
+        },
+        "online": {
+          "label": "Trực tuyến"
+        },
+        "both": {
+          "label": "Cả hai"
+        }
+      },
+      "onlineUrl": {
+        "label": "Liên kết tham gia sự kiện trực tuyến",
+        "requiredError": "Cần có URL cho sự kiện trực tuyến hoặc sự kiện kết hợp",
+        "linkHrefFormatError": "Định dạng URL không chính xác"
+      },
+      "description": {
+        "label": "Thông tin mô tả",
+        "helperText": "Bổ sung thêm thông tin như loại sự kiện, mục đích, chương trình, đồ vật cần mang theo, phương tiện di chuyển, v.v. cho người đăng ký.",
+        "requiredError": "Mô tả là trường bắt buộc"
+      },
+      "inPersonCapacity": {
+        "label": "Sức chứa tham gia trực tiếp tối đa",
+        "requiredError": "Sức chứa tham gia trực tiếp tối đa là mục bắt buộc",
+        "minimumError": "Sức chứa tham gia trực tiếp tối đa phải lớn hơn 0"
+      },
+      "inPersonCapacityType": {
+        "label": "Sức chứa đăng ký trực tiếp",
+        "unlimited": {
+          "label": "Không giới hạn"
+        },
+        "fixed": {
+          "label": "Cố định"
+        }
+      },
+      "location": {
+        "label": "Hiển thị khu vực địa lý sẽ diễn ra sự kiện này (để xuất hiện trên bố cục sự kiện)."
+      },
+      "onlineCapacityType": {
+        "label": "Sức chứa đăng ký trực tuyến",
+        "unlimited": {
+          "label": "Không giới hạn"
+        },
+        "fixed": {
+          "label": "Cố định"
+        }
+      },
+      "onlineCapacity": {
+        "label": "Sức chứa trực tuyến tối đa",
+        "requiredError": "Sức chứa trực tuyến tối đa là mục bắt buộc",
+        "minimumError": "Sức chứa trực tuyến tối đa phải lớn hơn 0"
+      },
+      "onlineDetails": {
+        "label": "Thông tin chi tiết về sự kiện trực tuyến",
+        "helperText": "Bổ sung thêm thông tin như mật mã, thông tin quay số, v.v. cho người đăng ký."
+      },
+      "categories": {
+        "helperText": "Danh mục được dùng trong danh mục tìm kiếm sẽ giúp người khác tìm thấy sự kiện này. Danh mục này sẽ do tổ chức của bạn thiết lập."
+      },
+      "tags": {
+        "label": "Thẻ",
+        "helperText": "Thẻ được dùng trong danh mục tìm kiếm sẽ giúp người khác tìm thấy sự kiện. Thêm văn bản và chọn nhập để tạo ra thẻ mới."
+      },
+      "summary": {
+        "label": "Thông tin tóm tắt",
+        "helperText": "Việc mô tả ngắn gọn mục đích của sự kiện này sẽ rất hữu ích khi chia sẻ liên kết với những người khác."
+      },
+      "allowRegistration": {
+        "label": "Cho phép đăng ký",
+        "helperText": "Cần có tài khoản để đăng ký hoặc được mời tham gia.",
+        "enabled": {
+          "label": "Đã kích hoạt nút đăng ký",
+          "description": "Bất kỳ thành viên nào có thể thấy sự kiện đều có thể đăng ký."
+        },
+        "disabled": {
+          "label": "Đã vô hiệu hóa nút đăng ký",
+          "description": "Đăng ký chỉ dành cho người được mời hoặc không được theo dõi."
+        }
+      },
+      "notifyAttendees": {
+        "label": "Gửi thông báo tự động",
+        "helperText": "Người đăng ký sự kiện có thể nhận được thông báo tự động qua e-mail để nhắc nhở hoặc thông báo thay đổi. Người đăng ký tham gia sẽ tự động được đăng ký.",
+        "enabled": {
+          "label": "Đã bật thông báo",
+          "description": "Nút đăng ký được hiển thị cho sự kiện này."
+        },
+        "disabled": {
+          "label": "Đã tắt thông báo",
+          "description": "Nút đăng ký bị ẩn cho sự kiện này."
+        }
+      },
+      "referencedContent": {
+        "label": "Nội dung đã kết nối",
+        "helperText": {
+          "label": "Kết nối một dự án, sáng kiến hoặc site liên quan đến sự kiện này."
+        },
+        "facets": {
+          "from": {
+            "label": "Từ",
+            "myContent": {
+              "label": "Nội dung của tôi"
+            },
+            "myOrganization": {
+              "label": "Tổ chức của tôi"
+            }
+          },
+          "access": {
+            "label": "Truy cập"
+          }
+        },
+        "catalog": {
+          "organization": "Tổ chức"
+        },
+        "collection": {
+          "sites": "Sites",
+          "initiatives": "Sáng kiến",
+          "projects": "Dự án"
+        }
+      }
+    },
+    "sections": {
+      "referencedContent": {
+        "label": "Nội dung đã kết nối"
+      },
+      "eventInfo": {
+        "label": "Thông tin sự kiện"
+      },
+      "dateTime": {
+        "label": "Ngày & giờ"
+      },
+      "location": {
+        "label": "Vị trí"
+      },
+      "discoverability": {
+        "label": "Khả năng khám phá & tìm kiếm"
+      }
+    }
+  },
+  "user": {
+    "sections": {
+      "userSettings": "Sở thích của người dùng",
+      "orgSettings": {
+        "label": "Thiết lập tổ chức",
+        "signinSettings": {
+          "label": "Các tùy chọn đăng nhập",
+          "helperText": "Tùy chỉnh thông tin mà người dùng sẽ thấy nếu họ chọn đăng ký tài khoản Cộng đồng trong Hub của bạn."
+        },
+        "siteDefaults": {
+          "label": "Trang web hiển thị mặc định"
+        }
+      }
+    },
+    "fields": {
+      "enableTermsAndConditions": {
+        "label": "Yêu cầu điều khoản sử dụng tùy chỉnh trên mẫu đăng ký"
+      },
+      "termsAndConditions": {
+        "label": "Điều khoản sử dụng"
+      },
+      "enableSignupText": {
+        "label": "Cấu hình thông báo chào mừng đăng ký tùy chỉnh"
+      },
+      "workspacePreview": {
+        "label": "Bật xem trước không gian làm việc",
+        "helperText": "Không gian làm việc vẫn đang được phát triển và chúng tôi đang mở rộng các chức năng, nhưng bạn có thể xem trước. Bạn có thể tắt không gian làm việc vào mọi lúc trong thời gian xem trước. Việc bật không gian làm việc sẽ chỉ ảnh hưởng đến tài khoản người dùng này."
+      },
+      "infoBanner": {
+        "label": "Biểu ngữ thông tin",
+        "helperText": "Hiển thị biểu ngữ thông tin tổ chức nhân viên của bạn, nếu đã được cấu hình trên tất cả các trang web và trang. Đây là thiết lập chung và không thể được bật/tắt cho một trang web cụ thể.",
+        "helperTextWhenDisabled": "Hiện bạn không có biểu ngữ thông tin được cấu hình. Vui lòng nhấp vào liên kết bên dưới để được chuyển hướng đến ArcGIS Online, tại đây, bạn có thể cấu hình biểu ngữ thông tin của mình",
+        "goToBannerConfig": "Cấu hình biểu ngữ thông tin trong ArcGIS Online"
+      }
+    },
+    "notice": {
+      "title": "Quản lý tổ chức",
+      "message": "Hầu hết thiết lập tổ chức nhân viên và cộng đồng (chỉ dành cho Hub Premium) hiện được quản lý trong tổ chức trang chủ ArcGIS.",
+      "communityMessage": "Hầu hết thiết lập tổ chức nhân viên và cộng đồng (chỉ dành cho Hub Premium) hiện được quản lý trong tổ chức trang chủ ArcGIS. <br /> <br /> Tổ chức cộng đồng của bạn là",
+      "staffMessage": "Hầu hết thiết lập tổ chức nhân viên và cộng đồng (chỉ dành cho Hub Premium) hiện được quản lý trong tổ chức trang chủ ArcGIS. <br /> <br /> Tổ chức nhân viên của bạn là",
+      "actions": {
+        "goToOrg": "Đi đến thiết lập tổ chức",
+        "goToCommunityOrg": "Đi đến tổ chức cộng đồng",
+        "goToStaffOrg": "Đi đến tổ chức nhân viên"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "additionalInfo": {
+    "label": "Valinnaiset näyttöasetukset",
+    "helperText": "Lisää oma tietosuojakuvaus ja omat käytäntötiedot."
+  },
+  "allowPrivacyConfig": {
+    "label": "Näytä tietosuojailmoitus"
+  },
+  "blocking": {
+    "label": "Ilmoituksen tyyppi",
+    "optional": {
+      "label": "Suostumus valinnainen",
+      "description": "Käyttäjä voi käyttää sivustoa tietosuojasuostumusta valitsematta. Seuranta alkaa heti ja kestää siihen asti, kun käyttäjä estää sen."
+    },
+    "required": {
+      "label": "Pyydä suostumus",
+      "description": "Käyttäjän on hyväksyttävä tai hylättävä seuranta, jotta hän voi käyttää sivustoa. Seuranta ei ala, ennen kuin käyttäjä on hyväksynyt sen."
+    }
+  },
+  "consentText": {
+    "label": "Tietosuojakuvaus",
+    "helperText": "Näkyy sivuston käyttäjän tietosuojailmoituksessa."
+  },
+  "policyURL": {
+    "label": "Käytännön linkki",
+    "helperText": "Näkyy Lisätietoja-linkkinä tietosuojailmoituksessa.",
+    "error": "On oltava kelvollinen URL-osoite, jotta se näkyy."
+  }
+}

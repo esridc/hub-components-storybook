@@ -1,0 +1,72 @@
+{
+  "addContent": "Legg til innhold",
+  "addContentType": {
+    "event": "Opprett hendelse",
+    "discussion": "Opprett diskusjon",
+    "group": "Opprett gruppe",
+    "initiative": "Opprett initiativ",
+    "project": "Opprett prosjekt",
+    "page": "Opprett side",
+    "site:": "Opprett område"
+  },
+  "tooltip": {
+    "label": "Deaktivert",
+    "noCatalog": "Legg til grupper til katalogen for å legge til innhold.",
+    "noPermission": "Du har ikke tillatelse til å legge til innhold i katalogen.",
+    "no-permission": "Du har ikke tillatelse til å legge til innhold i katalogen.",
+    "not-in-groups": "Du er ikke medlem av noen av gruppene som definerer katalogen.",
+    "too-many-groups": "Du har maksimalt antall grupper og kan ikke opprette flere."
+  },
+  "existing": {
+    "description": "Legg til innhold som allerede er i {onlineOrEnterprise}",
+    "modalTitle": "Velg eksisterende innhold",
+    "title": "Velg eksisterende innhold"
+  },
+  "create": {
+    "app": {
+      "description": "Skap en opplevelse, fortell en historie eller visualiser dataene dine",
+      "modalTitle": "Opprett app",
+      "title": "App"
+    },
+    "event": {
+      "description": "Vær vert for organiserte aktiviteter, personlig eller virtuelt",
+      "modalTitle": "Opprett hendelse",
+      "title": "Hendelse"
+    },
+    "content": {
+      "description": "Legg til data, dokumenter, bilder og eksterne koblinger til nettstedet ditt",
+      "modalTitle": "Opprett innhold",
+      "title": "Innhold"
+    },
+    "discussion": {
+      "description": "Samle ideer og tilbakemeldinger",
+      "modalTitle": "Opprett diskusjonstavle",
+      "title": "Diskusjonstavle"
+    },
+    "group": {
+      "description": "Organiser folk med tanke på innholdsdeling og diskusjoner",
+      "modalTitle": "Opprett gruppe",
+      "title": "Gruppe"
+    },
+    "initiative": {
+      "description": "Fremhev strategiske tiltak med definerte mål som organiserer prosjekter",
+      "modalTitle": "Opprett initiativ",
+      "title": "Initiativ"
+    },
+    "page": {
+      "description": "Presenter informasjon i en strukturert utforming",
+      "modalTitle": "Opprett side",
+      "title": "Side"
+    },
+    "project": {
+      "description": "Vis frem arbeid med tydelige mål og tidsrammer",
+      "modalTitle": "Opprett prosjekt",
+      "title": "Prosjekt"
+    },
+    "site": {
+      "description": "Opprett en merkevareutstyrt nettside for å engasjere et fellesskap",
+      "modalTitle": "Opprett område",
+      "title": "Område"
+    }
+  }
+}

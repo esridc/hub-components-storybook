@@ -1,0 +1,150 @@
+{
+  "modal": {
+    "dismiss": "Bunu bir daha gösterme",
+    "close": "Kapat"
+  },
+  "notice": {
+    "n001": {
+      "title": "Deneme Bildirimi",
+      "message": "Bu, deneme bildiriminin metnidir.",
+      "actions": [
+        {
+          "text": "Blogu okuyun"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-1": {
+      "title": "Güncellenmiş indirme deneyimine geçin",
+      "message": "Ek biçimler, hız ve performans iyileştirmeleri için bu ögenin servisinde \"ayıklama\" özelliğini etkinleştirin."
+    },
+    "20240220-hosted-downloads-2": {
+      "title": "Geliştirmeleri buradan indirin!",
+      "message": "Hub sitelerinizdeki indirme işlemlerine yönelik iyileştirmeler arasında, barındırılan indirmeler için destek, indirme kartları için güncellenmiş bir görünüm ve kullanım ve indirmeler için yeni bir ilerleme çubuğu yer alır.",
+      "actions": [
+        {
+          "text": "Daha fazla bilgi"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-3": {
+      "title": "Barındırılan indirmeler burada!",
+      "message": "Barındırılan indirmeler, içerik indirirken performansı artırmaya yardımcı olur. Barındırılan indirmeleri etkinleştirmek için, aşağıdaki Ayıklama Yeteneklerine izin verdiğinizden emin olun.",
+      "actions": [
+        {
+          "text": "Daha fazla bilgi"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-basic": {
+      "title": "Çalışma alanları hakkında",
+      "message": "<p><strong>Grupları kullanarak Site kataloglarına içerik ekleme</strong><br>Site içi arama katalogları her zaman gruplar tarafından yönetilir ve çalışma alanları bu grupların yönetimini kolaylaştırır. Site kataloglarında görünmeleri için şimdilik sitenize bağlı münferit gruplara içerik ekleyin. Yakında kataloğunuza doğrudan içerik ekleyebileceksiniz.</p><p><strong>Ekiplerden Gruplara Geçiş</strong><br>Artık Hub'daki siteler, sayfalar, içerik ve projeler üzerinde işbirliği yapmak için herhangi bir ArcGIS Online Grubunu kullanabilirsiniz. Sitenin \"Çekirdek Ekibi\" gibi önceden bağlanan tüm \"Ekipler\", Site çalışma alanının Ortak Çalışanlar bölmesinde görünmeye devam edecektir.</p><p><strong>Ekip tabanlı e-posta mesajlaşması geçici olarak duraklatıldı</strong><br>Ekip üyelerine ve takipçilere e-posta mesajları ve davet/kaldırma e-postaları göndermek şu anda desteklenmiyor.</p><p><strong>Gömülü Survey123 web sitesi tasarımcısının kullanımdan kaldırılması</strong><br>Hub'da daha fazlasını yapmanıza yardımcı olmak için Survey123 tasarımcısını yerleştirdik. Ancak, müşteri geri bildirimleri, diğer uygulamalarda olduğu gibi anket tasarım ve yönetiminin Survey123'te yapılmasını tercih ettiğini gösterdi. Bu nedenle, istediğiniz iş akışına daha iyi uyum sağlamak için ArcGIS Hub'daki yerleşik Survey123 tasarımcısına yönelik desteği kullanımdan kaldırıyoruz.</p>",
+      "actions": [
+        {
+          "text": "Daha fazla bilgi"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-premium": {
+      "title": "Çalışma alanları hakkında",
+      "message": "<p><strong>Grupları kullanarak Site kataloglarına içerik ekleme</strong><br>Site içi arama katalogları her zaman gruplar tarafından yönetilir ve çalışma alanları bu grupların yönetimini kolaylaştırır. Site kataloglarında görünmeleri için şimdilik sitenize bağlı münferit gruplara içerik ekleyin. Yakında kataloğunuza doğrudan içerik ekleyebileceksiniz.</p><p><strong>Destek Ekiplerinden Gruplara Geçiş</strong><br>Artık Hub'daki siteler, sayfalar, içerik ve projeler üzerinde işbirliği yapmak için herhangi bir ArcGIS Online Grubunu kullanabilirsiniz. Site çalışma alanının \"Ortak Çalışanlar\" panelinde önceden bağlantılı tüm Destek Ekipleri görünecektir. Sürekli destek için bu Destek ekiplerini Görüntüleyebilen Gruplar ve Düzenleyebilen Gruplar olarak ekleyin.</p><p><strong>Ekip tabanlı e-posta mesajlaşması geçici olarak duraklatıldı</strong><br>Ekip üyelerine ve takipçilere e-posta mesajları ve davet/kaldırma e-postaları göndermek şu anda desteklenmiyor.</p><p><strong>Gömülü Survey123 web sitesi tasarımcısının kullanımdan kaldırılması</strong><br>Hub'da daha fazlasını yapmanıza yardımcı olmak için Survey123 tasarımcısını yerleştirdik. Ancak, müşteri geri bildirimleri, diğer uygulamalarda olduğu gibi anket tasarım ve yönetiminin Survey123'te yapılmasını tercih ettiğini gösterdi. Bu nedenle, istediğiniz iş akışına daha iyi uyum sağlamak için ArcGIS Hub'daki yerleşik Survey123 tasarımcısına yönelik desteği kullanımdan kaldırıyoruz.</p><p><strong>Etkinlikler henüz çalışma alanlarında kullanılamıyor</strong><br>Etkinlikler dönüşüme uğruyor ve yakında çalışma alanlarında kullanıma sunulacak. Şimdilik çalışma alanlarına katılırsanız, yeni etkinlik oluşturma, var olan etkinlikleri yönetme ve arama yeteneğinizi kaybedersiniz. Ancak, daha önce oluşturduğunuz etkinlikleri yönetmek istiyorsanız, istediğiniz zaman çalışma alanlarından ayrılabilirsiniz.</p>",
+      "actions": [
+        {
+          "text": "Daha fazla bilgi"
+        }
+      ]
+    },
+    "202404-workspaceannouncement": {
+      "title": "Çalışma alanlarına giriş",
+      "message": "Hub'daki ögeleri düzenlemek ve yönetmenin yeni yolu çalışma alanlarıdır. Bu, düzenleme görünümünde (canlı görünümde değil) kullanılan küresel gezinmenin yerini alır. Bu aşamada, çalışma alanlarını ve ilgili öge ve grup detaylarını kullanmak için istediğiniz zaman \"kaydolabilirsiniz\". Etkinlikler daha sonraki bir zamanda kullanılabilir olacak. Çalışma alanlarını şimdi denemek için \"Ayarlara git\" ögesini seçin.",
+      "actions": [
+        {
+          "text": "Ayarlara git"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing": {
+      "title": "Yeniden Tanıtım — Hub İnisiyatifleri",
+      "message": "ArcGIS Hub İnisiyatifleri 2 Temmuz 2024 tarihinde değiştirildi. Önceden oluşturulmuş olan inisiyatifler artık bağımsız sitelerdir — aynı çıktı düzenlerine, içeriğe, URL'lere ve birinci sınıf özelliklere (takipçiler ve etkinlikler gibi) sahiptir. Yenilenen yeni inisiyatifleri denemek için çalışma alanlarını etkinleştirmeniz gerekir.",
+      "actions": [
+        {
+          "text": "İnisiyatifler hakkında daha fazla bilgi edinin",
+          "ariaLabel": "İnisiyatifler hakkında bilgi edinin, Yeni sekmede açılır"
+        },
+        {
+          "text": "Ayarlara git"
+        }
+      ]
+    },
+    "20240517-initiatives-manage": {
+      "title": "Eski inisiyatifleri yönet",
+      "message": "ArcGIS Hub İnisiyatifleri 2 Temmuz 2024 tarihinde değiştirildi. Önceden oluşturulmuş olan inisiyatifler artık bağımsız sitelerdir — aynı çıktı düzenlerine, içeriğe, URL'lere ve birinci sınıf özelliklere (takipçiler ve etkinlikler gibi) sahiptir. Varsa eski inisiyatifleri güvenli bir şekilde silebilirsiniz.",
+      "actions": [
+        {
+          "text": "İnisiyatifler hakkında daha fazla bilgi edinin",
+          "ariaLabel": "İnisiyatifler hakkında bilgi edinin, Yeni sekmede açılır"
+        },
+        {
+          "text": "Eski inisiyatifleri görüntüle",
+          "ariaLabel": "Eski inisiyatifleri görüntüleyin, Yeni sekmede açılır"
+        }
+      ]
+    },
+    "20240517-initiatives-manage-no-priv": {
+      "title": "Eski inisiyatifleri yönet",
+      "message": "ArcGIS Hub İnisiyatifleri 2 Temmuz 2024 tarihinde değiştirildi. Önceden oluşturulmuş olan inisiyatifler artık bağımsız sitelerdir — aynı çıktı düzenlerine, içeriğe, URL'lere ve birinci sınıf özelliklere (takipçiler ve etkinlikler gibi) sahiptir. Varsa eski inisiyatifleri güvenli bir şekilde silebilirsiniz.",
+      "actions": [
+        {
+          "text": "İnisiyatifler hakkında daha fazla bilgi edinin",
+          "ariaLabel": "İnisiyatifler hakkında bilgi edinin, Yeni sekmede açılır"
+        },
+        {
+          "text": "Eski inisiyatifleri görüntüle",
+          "ariaLabel": "Eski inisiyatifleri görüntüleyin, Yeni sekmede açılır"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing-site": {
+      "title": "Yeniden Tanıtım — Hub İnisiyatifleri",
+      "message": "Yeni nesil Hub İnisiyatifleri artık çalışma alanlarında kullanılabilir. İnisiyatiflerin kendilerine ait, kurulumu kolay bir görünümü vardır ve uzun vadeli hedefleri paylaşan Hub Projelerinin uyumlulaştırılmasına yardımcı olabilir. İnisiyatifler bağımsız olarak oluşturulabilir ve bir veya daha fazla site ile paylaşılabilir. Siteler bir veya daha fazla inisiyatif içerebilir.",
+      "actions": [
+        {
+          "text": "Daha fazla bilgi",
+          "ariaLabel": "Daha fazlasını öğrenin, Yeni sekmede açılır"
+        }
+      ]
+    },
+    "20240710-slow-service-warning": {
+      "title": "Servis kesintisi",
+      "message": "Servisle iletişim beklenenden uzun sürüyor. Bu, indirilen dosyalara ve harita işlevselliğine erişiminizi etkileyebilir."
+    },
+    "20240710-unreachable-service-error": {
+      "title": "Servis kullanılamıyor",
+      "message": "Ana servisle iletişim kuramadık. İndirilen dosyalar ve harita işlevselliği şu anda bu öge için kullanılamıyor."
+    },
+    "20240807-auth-required-status": {
+      "title": "Servis durumu bilinmiyor",
+      "message": "Ek yetkilendirme gerektirdiği için güvenli servise erişim sağlayamıyoruz. İndirilen dosyalar ve harita işlevselliği şu anda bu öge için kullanılamıyor."
+    },
+    "20240805-private-downloads-unavailable-ago-error": {
+      "title": "İndirmeler kullanılamaz",
+      "message": "İçeriği indirmek için Veriyi Dışarı Aktar ayarı ArcGIS Online üzerinde etkinleştirilmiş olmalıdır. Bu ayarı etkinleştirmek için lütfen öge sahibiyle iletişime geçin."
+    },
+    "20240805-private-downloads-unavailable-enterprise-error": {
+      "title": "İndirmeler kullanılamaz",
+      "message": "İçeriği indirmek için Veriyi Dışarı Aktar ayarı ArcGIS Enterprise üzerinde etkinleştirilmiş olmalıdır. Bu ayarı etkinleştirmek için lütfen öge sahibiyle iletişime geçin."
+    },
+    "20240819-download-formats-disabled": {
+      "title": "İndirmeler devre dışı bırakıldı",
+      "message": "Bu ögenin içeriğini indirmek için lütfen öge sahibiyle iletişime geçin."
+    },
+    "20241104-about-feeds-notice": {
+      "message": "Hub akışları ile herkese açık verilerinizi kolayca erişilebilir ve yeniden kullanılabilir hale getirin.",
+      "actions": [
+        {
+          "text": "Hub akışları hakkında daha fazla bilgi edinin",
+          "ariaLabel": "Hub akışları hakkında bilgi alın, Yeni sekmede açılır"
+        }
+      ]
+    }
+  }
+}

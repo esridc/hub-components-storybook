@@ -1,0 +1,16 @@
+{
+  "heading": "Razina dijeljenja:",
+  "public": "Javnost",
+  "publicInfo": "Svi mogu vidjeti ovo {itemType}",
+  "organization": "Organizacija",
+  "organizationInfo": "Svi članovi s računom do {orgName} i grupe mogu vidjeti ovo{itemType}",
+  "owner": "Vlasnik",
+  "ownerInfo": "Vlasnik i grupe s pristupom mogu vidjeti ovo {itemType}",
+  "discussion": {
+    "publicInfo": "Svatko može vidjeti ovu ploču za raspravu",
+    "organization": "Moja organizacija",
+    "organizationInfo": "Svi članovi s računom za {orgName} mogu vidjeti ovu ploču za raspravu",
+    "owner": "Privatno",
+    "ownerInfo": "Vlasnik i odabrane grupe mogu vidjeti ovu ploču za raspravu"
+  }
+}

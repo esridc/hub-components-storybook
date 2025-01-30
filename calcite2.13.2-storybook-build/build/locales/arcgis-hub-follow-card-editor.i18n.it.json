@@ -1,0 +1,41 @@
+{
+  "notice": {
+    "outdatedItem": {
+      "title": "Sostituisci la tua iniziativa",
+      "message": "Questa scheda fa riferimento a un elemento obsoleto. Seleziona un altro elemento che gli utenti possano seguire."
+    },
+    "missingFollowersGroup": {
+      "title": "Gruppo di follower mancante",
+      "message": "Questo elemento non ha un gruppo di follower. Selezionare un altro elemento."
+    },
+    "noGroupAccess": {
+      "title": "Avviso",
+      "message": "Non si dispone dell'accesso al gruppo di follower."
+    }
+  },
+  "selectContent": {
+    "title": "Contenuti da seguire",
+    "facets": {
+      "sharing": "Condivisione",
+      "catalog": {
+        "myContent": "I miei contenuti",
+        "organization": "La mia organizzazione"
+      }
+    }
+  },
+  "callToAction": {
+    "title": "Chiamata all'azione",
+    "helperText": "La chiamata all'azione compare sopra al pulsante Segui.",
+    "alignment": "Allineamento"
+  },
+  "followButton": {
+    "title": "Pulsante Segui",
+    "helperText": "Questo pulsante consente ai membri di seguire o smettere di seguire i tuoi contenuti. È possibile impostare il testo per entrambi gli stati del pulsante.",
+    "buttonText": "Testo pulsante di accettazione",
+    "unfollowButtonText": "Testo pulsante di rifiuto",
+    "alignment": "Allineamento",
+    "buttonStyle": "Stile pulsante",
+    "solid": "Sfondo pieno",
+    "outline": "Contorno"
+  }
+}

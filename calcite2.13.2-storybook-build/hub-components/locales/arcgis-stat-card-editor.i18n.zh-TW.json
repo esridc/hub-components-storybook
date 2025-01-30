@@ -1,0 +1,165 @@
+{
+  "advancedConfig": {
+    "label": "進階配置",
+    "serverTimeout": {
+      "label": "伺服器逾時(秒)",
+      "helperText": "對於可能需要更多時間回應的大型服務很有用。",
+      "errors": {
+        "type": "請輸入伺服器逾時配置。",
+        "minimum": "伺服器逾時值至少必須為 5。",
+        "maximum": "伺服器逾時值至多必須為 95。"
+      }
+    }
+  },
+  "appearance": {
+    "corners": {
+      "label": "拐角",
+      "enum": {
+        "round": {
+          "label": "圓化"
+        },
+        "square": {
+          "label": "正方形"
+        }
+      }
+    },
+    "dropShadow": {
+      "label": "陰影",
+      "enum": {
+        "heavy": {
+          "label": "重"
+        },
+        "low": {
+          "label": "低"
+        },
+        "medium": {
+          "label": "中"
+        },
+        "none": {
+          "label": "未啟動"
+        }
+      }
+    },
+    "layout": {
+      "label": "卡片樣式",
+      "enum": {
+        "informational": {
+          "label": "資訊"
+        },
+        "simple": {
+          "label": "簡易"
+        }
+      }
+    },
+    "popoverText": {
+      "label": "模態內容"
+    },
+    "publisherText": {
+      "label": "來源發佈者"
+    },
+    "styleSpecificSettings": {
+      "label": "樣式設定",
+      "helperInfoText": "選擇資訊按鈕將開啟一個包含更多資訊的模態。",
+      "helperVizText": "簡單卡片支援新增圖示作為視覺元素，可用於反映資料的變更。"
+    },
+    "sectionTitle": "外觀",
+    "textAlign": "對齊",
+    "visualInterest": {
+      "label": "視覺元素",
+      "enum": {
+        "icon": {
+          "label": "圖示"
+        },
+        "none": {
+          "label": "無"
+        }
+      }
+    },
+    "icon": {
+      "label": "圖示",
+      "caretUp": {
+        "label": "增加"
+      },
+      "caretDown": {
+        "label": "減少"
+      },
+      "caretDouble": {
+        "label": "無變更"
+      }
+    },
+    "valueColor": "顏色 (統計資料)"
+  },
+  "details": {
+    "allowDynamicLink": "顯示來源連結",
+    "link": {
+      "sectionTitle": "連結",
+      "sourceLink": "連結 URL",
+      "sourceTitle": "連結文字"
+    },
+    "sectionTitle": "詳細資訊",
+    "subtitle": "副標題",
+    "title": "標題",
+    "trailingText": {
+      "label": "尾端文字",
+      "helperText": "輸入任何其他上下文或說明 (顯示在指標值下方)。"
+    }
+  },
+  "errors": {
+    "sourceLink": {
+      "required": "顯示來源的必要連結。",
+      "formatError": "URL 格式不正確"
+    }
+  },
+  "formatting": {
+    "sectionTitle": "正在設定格式",
+    "unit": {
+      "label": "顯示單位",
+      "helperText": "輸入您的值的測量單位。"
+    },
+    "unitPosition": {
+      "label": "位置",
+      "helperText": "選擇測量單位 (例如「公里」、「磅」) 相對於指標值的顯示位置。",
+      "enum": {
+        "after": {
+          "label": "之後"
+        },
+        "before": {
+          "label": "之前"
+        },
+        "below": {
+          "label": "低於"
+        }
+      }
+    }
+  },
+  "sharing": {
+    "sectionTitle": "分享",
+    "showShareIcon": "啟用分享",
+    "showShareIconHelperText": "允許使用者在此頁面上複製此卡片的直接連結。",
+    "shareableByValue": "啟用嵌入內容",
+    "shareableOnHover": {
+      "label": "懸停時顯示",
+      "helperText": {
+        "label": "僅在懸停時顯示分享按鈕。 如果關閉，按鈕一律可見。"
+      }
+    }
+  },
+  "statistic": {
+    "dataSource": "資料來源",
+    "displayValue": "顯示值",
+    "sectionTitle": "值",
+    "type": {
+      "label": "類型",
+      "enum": {
+        "dynamic": {
+          "label": "動態",
+          "description": "選擇要摘要的現有資料集 (圖徵服務)。"
+        },
+        "static": {
+          "label": "靜態",
+          "description": "手動輸入要在版面配置中突顯的值。"
+        }
+      }
+    }
+  }
+}

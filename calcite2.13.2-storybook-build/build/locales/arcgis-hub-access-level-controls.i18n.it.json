@@ -1,0 +1,16 @@
+{
+  "heading": "Livello di condivisione",
+  "public": "Pubblico",
+  "publicInfo": "Tutti possono visualizzare questo {itemType}",
+  "organization": "Organizzazione",
+  "organizationInfo": "Tutti i membri con account {orgName} e i gruppi possono visualizzare questo {itemType}",
+  "owner": "Proprietario",
+  "ownerInfo": "Il proprietario e i gruppi con accesso possono visualizzare questo {itemType}",
+  "discussion": {
+    "publicInfo": "Chiunque può visualizzare questo pannello di discussione",
+    "organization": "La mia organizzazione",
+    "organizationInfo": "Tutti i membri con un account {orgName} possono visualizzare questo pannello di discussione",
+    "owner": "Privato",
+    "ownerInfo": "Il proprietario e i gruppi selezionati possono visualizzare questo pannello di discussione"
+  }
+}

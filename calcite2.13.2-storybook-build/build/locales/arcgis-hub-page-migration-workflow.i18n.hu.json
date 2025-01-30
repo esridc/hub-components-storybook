@@ -1,0 +1,46 @@
+{
+  "heading": "Oldal információ",
+  "form": {
+    "title": {
+      "label": "Oldal neve",
+      "requiredError": "A nevet kötelező megadni",
+      "entityTitleValidatorError": "Az oldal neve nem tartalmazhat hangulatjeleket, <, > vagy = karaktereket"
+    },
+    "slug": {
+      "label": "Slug",
+      "helperText": "A slug az oldal nevének URL-barát változata. Automatikusan létrejön az oldal neve alapján, de testre is szabhatja.",
+      "patternError": "Hiba: A slug-nak kisbetűs alfanumerikus karakterekből kell állnia, kötőjelekkel elválasztva.",
+      "isUniqueError": "Ez a slug már használatban van. Kérjük, válasszon egy másikat.",
+      "requiredError": "Slug szükséges"
+    }
+  },
+  "controls": {
+    "back": "Vissza",
+    "cancel": "Mégse",
+    "close": "Kész",
+    "migrate": "Oldal áttelepítése",
+    "next": "Tovább"
+  },
+  "selection": {
+    "unlimited": "{count} kijelölve",
+    "limited": "{limit}/{count} kiválasztva"
+  },
+  "steps": {
+    "specifyInfo": "Alapinformációk hozzáadása",
+    "selectGroups": "Csoport kiválasztása",
+    "confirmation": "Megerősítés"
+  },
+  "working": {
+    "heading": "Oldal áttelepítése.",
+    "loadingLabel": "Oldal áttelepítése"
+  },
+  "success": {
+    "heading": "Az oldal sikeresen áttelepítve",
+    "message": "Az oldal sikeres áttelepítése megtörtént."
+  },
+  "failure": {
+    "heading": "Az oldal nem lett áttelepítve",
+    "message": "Hiba történt az oldal áttelepítésekor, kérjük, próbálja meg újra.",
+    "action": "Újrapróbálkozás"
+  }
+}

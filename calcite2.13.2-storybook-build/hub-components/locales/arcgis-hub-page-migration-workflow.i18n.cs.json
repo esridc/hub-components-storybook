@@ -1,0 +1,46 @@
+{
+  "heading": "Informace o stránce",
+  "form": {
+    "title": {
+      "label": "Název stránky",
+      "requiredError": "Je vyžadován název",
+      "entityTitleValidatorError": "Název stránky nesmí obsahovat smajlíky ani znaky <, >, nebo ="
+    },
+    "slug": {
+      "label": "Slug",
+      "helperText": "Slug je verze názvu stránky vhodná pro adresu URL. Generuje se automaticky na základě názvu stránky, ale můžete si jej přizpůsobit.",
+      "patternError": "Chyba: Slug se může skládat pouze z malých alfanumerických znaků a spojovníků.",
+      "isUniqueError": "Tento slug se již používá. Vyberte jiný.",
+      "requiredError": "Je vyžadován slug"
+    }
+  },
+  "controls": {
+    "back": "Zpět",
+    "cancel": "Storno",
+    "close": "Hotovo",
+    "migrate": "Migrovat stránku",
+    "next": "Další"
+  },
+  "selection": {
+    "unlimited": "Vybráno {count}",
+    "limited": "Vybráno {count} / {limit}"
+  },
+  "steps": {
+    "specifyInfo": "Přidat základní informace",
+    "selectGroups": "Vybrat skupinu",
+    "confirmation": "Potvrzení"
+  },
+  "working": {
+    "heading": "Probíhá migrace stránky.",
+    "loadingLabel": "Probíhá migrace stránky"
+  },
+  "success": {
+    "heading": "Stránka byla migrována",
+    "message": "Stránka byla úspěšně migrována."
+  },
+  "failure": {
+    "heading": "Stránka nebyla migrována",
+    "message": "Při migraci stránky došlo k chybě. Zkuste to znovu.",
+    "action": "Zkusit znovu"
+  }
+}

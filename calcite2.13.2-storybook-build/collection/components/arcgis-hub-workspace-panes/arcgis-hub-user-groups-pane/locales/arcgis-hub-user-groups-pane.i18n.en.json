@@ -1,0 +1,33 @@
+{
+  "groups": "My Groups",
+  "addContentButtonText":"Create new",
+  "role": "Role",
+  "owner": "Owner",
+  "updated": "Updated",
+  "type": "Type",
+  "sharedUpdate": "Shared Update Group",
+  "viewOnly": "View Only Group",
+  "actionLinks": {
+    "view": "View",
+    "edit": "Edit",
+    "ariaEdit": "Edit {title}",
+    "ariaView": "View {title}"
+  },
+  "facets": {
+    "access": {
+      "label": "Viewable by",
+      "options": {
+        "public": "Everyone (public)",
+        "org": "Organization",
+        "private": "Me"
+      }
+    },
+    "type": {
+      "label": "Types",
+      "options": {
+        "sharedUpdate": "Shared Update",
+        "opendata": "Open Data"
+      }
+    }
+  }
+}

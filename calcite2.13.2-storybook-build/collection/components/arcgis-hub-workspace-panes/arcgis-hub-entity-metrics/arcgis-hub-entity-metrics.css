@@ -1,0 +1,154 @@
+.project-metrics__main:not(.project-metrics__main--edit) {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+arcgis-hub-workspace-pane {
+  --arcgis-configuration-form-footer-max-width: 800px;
+  --arcgis-configuration-form-footer-scalable-padding: 0.5rem;
+}
+
+.hub-entity-metrics__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.hub-entity-metrics__visible, .hub-entity-metrics__hidden {
+  padding-top: 1.5rem;
+}
+
+.hub-entity-metrics__content .hub-entity-metrics__section-title {
+  margin: 0px;
+  padding-bottom: 0.5rem;
+  font-size: var(--calcite-font-size-2);
+  line-height: 1.5rem;
+  font-weight: var(--calcite-font-weight-medium);
+  color: var(--light-ui-text-1);
+}
+
+.hub-entity-metrics__content .hub-entity-metrics__helper-text {
+  margin: 0px;
+  margin-bottom: 2rem;
+  font-size: var(--calcite-font-size-0);
+  line-height: 1.25rem;
+}
+
+.hub-entity-metrics__add-metric {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hub-entity-metrics__metrics-grid {
+  display: grid;
+  align-items: flex-end;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(max(14rem, calc((100% - 10rem) / 2)), 1fr));
+}
+
+.hub-entity-metrics__empty-featured-metric {
+  display: flex;
+  min-height: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--calcite-font-size-5);
+  line-height: 3rem;
+  font-weight: var(--calcite-font-weight-bold);
+
+  aspect-ratio: 1.4;
+  color: var(--calcite-color-border-input);
+  border: 2.75px dashed #b7b7b7;
+}
+
+.hub-entity-metrics__metrics-wrapper {
+  position: relative;
+  padding: 0.25rem;
+  aspect-ratio: 1.4;
+}
+
+.hub-entity-metrics__metrics-wrapper.featured-metric {
+  border: 3px solid var(--calcite-color-brand);
+}
+
+.hub-entity-metrics__metric-container {
+  display: flex;
+  height: 100%;
+  flex-direction: column-reverse;
+}
+
+calcite-dropdown {
+  align-self: flex-end;
+}
+
+calcite-dropdown:not([open]) calcite-dropdown-group {
+  display: none;
+}
+
+.hub-entity-metrics__no-metrics {
+  font-size: var(--calcite-font-size-0);
+  line-height: 1.25rem;
+  font-weight: var(--calcite-font-weight-medium);
+  --tw-text-opacity: 1;
+  color: rgb(21 21 21 / var(--tw-text-opacity));
+}
+
+p.hub-entity-metrics__metrics-featured-label {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  margin: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-bottom: 0.25rem;
+  padding-top: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: var(--calcite-font-size--1);
+  line-height: 1rem;
+  font-weight: var(--calcite-font-weight-medium);
+  color: var(--calcite-color-foreground-1);
+    background-color: var(--calcite-color-brand);
+}
+
+arcgis-hub-metric-card {
+  height: 100%;
+}
+
+calcite-modal p.modal-description {
+  font-size: var(--calcite-font-size-0);
+  line-height: 1.25rem;
+}
+
+calcite-modal p.modal-metric-name {
+  font-size: var(--calcite-font-size-0);
+  line-height: 1.25rem;
+  font-weight: var(--calcite-font-weight-bold);
+}
+
+/*
+If desired to only sticky when the preview tab is selected
+.metric-preview:has(calcite-tab-title.preview-tab-title[selected]) {
+but i don't think that's a great idea
+if preview is the active tab and you scroll down
+then switch to the definitions tab
+the tab container might suddenly jump out of the viewport because it is not sticky anymore
+Delete or use only after the Definitions tab is enhanced.
+*/
+
+.metric-preview {
+  position: sticky;
+  top: 1.25rem;
+  width: 100%;
+}
+
+.metric-preview arcgis-hub-metric-card {
+  height: -moz-fit-content;
+  height: fit-content;
+  min-height: 11.25rem;
+}
+
+calcite-tab {
+  overflow: visible;
+}

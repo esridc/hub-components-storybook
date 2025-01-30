@@ -1,0 +1,43 @@
+{
+  "content": "المحتوى",
+  "myContent": "المحتوى الخاص بي",
+  "editableContent": "محتوى قابل للتحرير",
+  "addContentButtonText": "إنشاء جديد",
+  "type": "النوع",
+  "sharedUpdate": "مجموعة التحديث المشتركة",
+  "viewOnly": "عرض المجموعة فقط",
+  "owner": "المالك",
+  "updated": "تم التحديث",
+  "tags": "العلامات",
+  "dateCreated": "تم الإنشاء",
+  "dateUpdated": "تعديل",
+  "actionLinks": {
+    "view": "عرض",
+    "edit": "تحرير",
+    "ariaEdit": "تحرير {title}",
+    "ariaView": "عرض {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "المحتوى",
+      "myContent": "المحتوى الذي أملكه",
+      "editableContent": "المحتوى الذي يمكنني تحريره",
+      "all": "كل المحتويات"
+    },
+    "access": {
+      "label": "مِن"
+    },
+    "type": {
+      "label": "أنواع"
+    },
+    "tags": {
+      "label": "العلامات"
+    },
+    "categories": {
+      "label": "الفئات"
+    },
+    "modified": {
+      "label": "تعديل"
+    }
+  }
+}

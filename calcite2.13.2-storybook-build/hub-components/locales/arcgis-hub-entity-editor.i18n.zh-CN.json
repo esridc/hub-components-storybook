@@ -1,0 +1,1346 @@
+{
+  "success": "成功保存编辑内容",
+  "error": "保存编辑内容时出错",
+  "formAlert": "表单警告",
+  "create": "创建",
+  "shared": {
+    "notices": {
+      "metrics": {
+        "preview": {
+          "label": "预览您的指标",
+          "message": "在此处进行的更改将显示在指标预览中。"
+        }
+      }
+    },
+    "sections": {
+      "metrics": {
+        "basic": {
+          "label": "基本信息"
+        },
+        "source": {
+          "label": "值"
+        },
+        "formatting": {
+          "label": "格式化"
+        },
+        "sharing": {
+          "label": "共享"
+        }
+      },
+      "mapSettings": {
+        "label": "地图设置"
+      }
+    },
+    "errors": {
+      "urlFormat": "URL 格式错误"
+    },
+    "fields": {
+      "name": {
+        "maxLengthError": "名称不得超过 250 个字符"
+      },
+      "title": {
+        "maxLengthError": "标题不得超过 250 个字符"
+      },
+      "summary": {
+        "maxLengthError": "摘要不得超过 2048 个字符"
+      },
+      "purpose": {
+        "maxLengthError": "用途不得超过 2048 个字符"
+      },
+      "_thumbnail": {
+        "label": "缩略图",
+        "sizeDescription": "最大大小为 10 MB。 建议尺寸：760 x 505 或更大",
+        "defaultThumbnailNotice": "请上传您自己的缩略图以替换默认缩略图。"
+      },
+      "location": {
+        "none": "无任何位置",
+        "org": "组织的范围",
+        "custom": "自定义位置",
+        "customDescription": "绘制一个或多个位置",
+        "itemExtent": "项目当前范围"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "类型",
+          "sharing": "共享"
+        },
+        "catalog": {
+          "myContent": "我的内容",
+          "favorites": "收藏夹",
+          "organization": "组织",
+          "world": "世界(公共)"
+        },
+        "collection": {
+          "appsAndMaps": "应用程序和地图",
+          "dataset": "数据",
+          "documents": "文档",
+          "feedback": "反馈",
+          "sites": "站点",
+          "projects": "工程"
+        }
+      },
+      "metrics": {
+        "allowDynamicLink": {
+          "label": "显示源链接"
+        },
+        "cardTitle": {
+          "label": "标题",
+          "message": {
+            "required": "此字段为必填字段。"
+          }
+        },
+        "dynamicMetric": {
+          "label": "数据源"
+        },
+        "value": {
+          "label": "值",
+          "message": {
+            "required": "此字段为必填字段。"
+          }
+        },
+        "unit": {
+          "label": "单位",
+          "helperText": "用于设置前缀或后缀值，例如 %、+、$ 或其他。 留空不显示任何内容。"
+        },
+        "unitPosition": {
+          "label": "单位位置",
+          "helperText": "选择测量单位(例如“km”、“lbs”)相对于指标值的显示位置。",
+          "enum": {
+            "after": {
+              "label": "值之后"
+            },
+            "before": {
+              "label": "值之前"
+            },
+            "below": {
+              "label": "值下方"
+            }
+          }
+        },
+        "showShareIcon": {
+          "label": "启用共享",
+          "helperText": {
+            "label": "允许用户复制指向此指标的直接链接。"
+          }
+        },
+        "shareableOnHover": {
+          "label": "悬停时显示",
+          "helperText": {
+            "label": "共享按钮仅在悬停时显示。 如果将其关闭，则按钮将始终可见。"
+          }
+        },
+        "sourceLink": {
+          "label": "链接 URL",
+          "message": {
+            "required": "显示源所需的链接。"
+          }
+        },
+        "sourceTitle": {
+          "label": "链接文本"
+        },
+        "trailingText": {
+          "label": "尾随文本",
+          "helperText": "输入任何附加上下文或解释(要显示在指标值下方)。"
+        },
+        "type": {
+          "label": "类型",
+          "enum": {
+            "dynamic": {
+              "label": "动态",
+              "description": "选择要汇总的现有数据集(要素服务)。"
+            },
+            "static": {
+              "label": "静态",
+              "description": "手动输入要在布局中突出显示的值。"
+            }
+          }
+        },
+        "valueType": {
+          "label": "值的类型",
+          "helperText": "选择要显示的值的类型。",
+          "enum": {
+            "string": {
+              "label": "文本",
+              "description": "任何单词或短语。 不适用于数值计算。 (例如，“主街”)"
+            },
+            "number": {
+              "label": "数字",
+              "description": "数值。 可以用于计算。 (例如，123)"
+            },
+            "date": {
+              "label": "日期",
+              "description": "日历日期值。 不适用于数值计算。 (例如“1/1/2018”)"
+            }
+          }
+        }
+      },
+      "categories": {
+        "label": "类别",
+        "noCategoriesNotice": {
+          "body": "该组织尚未设立任何类别。",
+          "link": "设置类别"
+        }
+      },
+      "download": {
+        "format": {
+          "bip": "BIP",
+          "bmp": "BMP",
+          "bsq": "BSQ",
+          "gif": "GIF",
+          "jpg": "JPG",
+          "jpgPng": "JPG_PNG",
+          "lerc": "LERC",
+          "png": "PNG",
+          "png8": "PNG8",
+          "png24": "PNG24",
+          "png32": "PNG32",
+          "tiff": "TIFF",
+          "csv": "CSV",
+          "excel": "Excel",
+          "featureCollection": "要素集合",
+          "filegdb": "文件地理数据库",
+          "geojson": "GeoJSON",
+          "geoPackage": "GeoPackage",
+          "json": "JSON",
+          "kml": "KML",
+          "shapefile": "Shapefile",
+          "sqlite": "SQLite 地理数据库"
+        },
+        "additionalResource": "{resourceName} (元数据分布)",
+        "dataSourceResource": "数据源(元数据分布)",
+        "noTitleResource": "链接(无标题，元数据分布)"
+      }
+    }
+  },
+  "project": {
+    "sections": {
+      "details": {
+        "label": "详细信息"
+      },
+      "basicInfo": {
+        "label": "基本信息"
+      },
+      "location": {
+        "label": "位置",
+        "helperText": "显示该工程将发生的地理区域(显示在工程布局上)。"
+      },
+      "status": {
+        "label": "状态"
+      },
+      "sharing": {
+        "label": "共享"
+      },
+      "timeline": {
+        "label": "时间轴"
+      },
+      "searchDiscoverability": {
+        "label": "搜索和可发现性"
+      },
+      "featuredContent": {
+        "label": "专题内容",
+        "helperText": "突出显示与您的工程相关的特定文档、应用程序和数据。 您最多可以选择 4 个项目。"
+      },
+      "callToAction": {
+        "label": "操作链接",
+        "helperText": "这将在工程顶部显示为一个突出的按钮。 可以使用其将您的受众引导至站点、调查、地图等。"
+      },
+      "embeds": {
+        "label": "精选嵌入",
+        "helperText": "选择要在工程上高亮显示的 web 地图、web 场景或应用程序。"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "工程名称",
+        "requiredError": "工程名称为必填字段",
+        "maxLengthError": "工程名称不得超过 250 个字符",
+        "entityTitleValidatorError": "工程名称不能包含表情符号、<、> 或 = 字符"
+      },
+      "description": {
+        "label": "描述",
+        "helperText": "指定您的工程将如何实现其目标。 考虑包括相关背景信息和工程预期的变化。"
+      },
+      "summary": {
+        "label": "用途",
+        "helperText": "简要总结工程目标。"
+      },
+      "access": {
+        "itemType": "工程"
+      },
+      "groups": {
+        "label": "共享对象",
+        "viewGroup": "(查看群组)",
+        "editGroup": "(编辑群组)"
+      },
+      "_thumbnail": {
+        "helperText": "设置一个缩略图以在 ArcGIS Online 以及搜索和图库中表示此工程。"
+      },
+      "featuredImage": {
+        "label": "精选图像",
+        "helperText": "请选择一个图像以表示您在工程布局上的工作。",
+        "sizeDescription": "最大文件大小为 10 Mb。 建议尺寸：718 x 478 或更大",
+        "altText": {
+          "label": "更改文本",
+          "helperText": "为使用屏幕阅读器的人员提供图像的简短描述。 留空表示装饰图像。"
+        }
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "该 slug 是工程名称的 URL 友好版本。 将基于工程名称自动生成该 slug，但是可以对其进行自定义。",
+        "patternError": "错误：Slug 必须为由连字符分隔的小写字母数字字符。",
+        "isUniqueError": "此 slug 已在使用中。 请选择其他 slug。"
+      },
+      "tags": {
+        "label": "标签",
+        "helperText": "标签可用于搜索目录以帮助其他人找到该工程。 添加文本并选择 Enter 键以创建新标签。"
+      },
+      "categories": {
+        "helperText": "类别可用于搜索目录以帮助其他人找到该工程。 它们由您的组织设置。"
+      },
+      "status": {
+        "label": "工程状态",
+        "enum": {
+          "notStarted": {
+            "label": "未开始"
+          },
+          "inProgress": {
+            "label": "进行中"
+          },
+          "onHold": {
+            "label": "保持"
+          },
+          "complete": {
+            "label": "完成"
+          }
+        }
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "类型",
+          "sharing": "共享"
+        }
+      },
+      "callToAction": {
+        "facets": {
+          "type": "类型",
+          "sharing": "共享"
+        }
+      },
+      "mapSettings": {
+        "label": "配置地图在工程上的显示方式"
+      }
+    }
+  },
+  "initiative": {
+    "sections": {
+      "details": {
+        "label": "详细信息"
+      },
+      "basicInfo": {
+        "label": "基本信息"
+      },
+      "location": {
+        "label": "位置",
+        "helperText": "显示该倡议将发生的地理区域(显示在倡议布局上)。"
+      },
+      "sharing": {
+        "label": "共享"
+      },
+      "featuredContent": {
+        "label": "专题内容",
+        "helperText": "突出显示与您的工程相关的特定文档、应用程序和数据。 您最多可以选择 4 个项目。"
+      },
+      "status": {
+        "label": "状态"
+      },
+      "hero": {
+        "label": "主页横幅"
+      },
+      "searchDiscoverability": {
+        "label": "搜索和可发现性"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "倡议名称",
+        "requiredError": "倡议名称为必填字段",
+        "maxLengthError": "倡议名称不得超过 250 个字符",
+        "entityTitleValidatorError": "倡议名称不能包含表情符号、<、> 或 = 字符"
+      },
+      "summary": {
+        "label": "用途",
+        "helperText": "简要总结倡议的目标。"
+      },
+      "access": {
+        "itemType": "倡议"
+      },
+      "description": {
+        "label": "描述",
+        "helperText": "指定您的倡议将如何实现其目标。 考虑包括相关背景信息和倡议预期的变化。"
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "该 slug 是倡议名称的 URL 友好版本。 将基于倡议名称自动生成该 slug，但是可以对其进行自定义。",
+        "patternError": "错误：Slug 必须为由连字符分隔的小写字母数字字符。",
+        "isUniqueError": "此 slug 已在使用中。 请选择其他 slug。"
+      },
+      "tags": {
+        "label": "标签",
+        "helperText": "将在搜索目录中使用标签以帮助其他人查找此倡议。 添加文本并选择 Enter 键以创建新标签。"
+      },
+      "categories": {
+        "helperText": "将在搜索目录中使用类别以帮助其他人查找此倡议。 它们由您的组织设置。"
+      },
+      "_thumbnail": {
+        "helperText": "设置一个缩略图以在 ArcGIS Online 以及搜索和图库中表示此倡议。"
+      },
+      "groups": {
+        "label": "共享对象",
+        "viewGroup": "(查看群组)",
+        "editGroup": "(编辑群组)"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "类型",
+          "sharing": "共享"
+        }
+      },
+      "status": {
+        "label": "倡议状态",
+        "enum": {
+          "notStarted": {
+            "label": "未启动"
+          },
+          "inProgress": {
+            "label": "正在进行中"
+          },
+          "onHold": {
+            "label": "暂停"
+          },
+          "complete": {
+            "label": "完成"
+          }
+        }
+      },
+      "hero": {
+        "label": "主页横幅",
+        "helperText": "主页横幅将显示在您的倡议标题上方，并且可以显示地图或图像。",
+        "map": {
+          "label": "地图",
+          "description": "使用地图，根据倡议的位置或关联的工程显示倡议的目标区域。"
+        },
+        "image": {
+          "label": "图像",
+          "description": "引人注目的视觉效果可以帮助人们建立联系或者采取行动以实现您的目标。"
+        }
+      },
+      "featuredImage": {
+        "label": "图像",
+        "helperText": "为主页横幅使用横向图像。 应用程序将从中心焦点按比例调整图像大小，以适应不同的屏幕尺寸。 在大屏幕上，最大高度为 475 px。",
+        "sizeDescription": "最大文件大小为 10 MB。",
+        "altText": {
+          "label": "更改文本",
+          "helperText": "为使用屏幕阅读器的人员提供图像的简短描述。 留空表示装饰图像。"
+        }
+      },
+      "groupAccess": {
+        "label": "设置可见性",
+        "helperText": "控制从此计划建立的关联的查看权限",
+        "private": {
+          "label": "私有",
+          "description": "倡议所有者和具有访问权限的群组，可以查看该组"
+        },
+        "org": {
+          "label": "组织",
+          "description": "倡议组织帐户的所有成员以及具有访问权限的群组，可以查看该组"
+        },
+        "public": {
+          "label": "公共",
+          "description": "所有人都可以查看该组"
+        }
+      },
+      "membershipAccess": {
+        "label": "谁可以查看此群组?",
+        "org": "仅限我组织的成员",
+        "collab": "仅限合作伙伴协作和我组织的成员",
+        "any": "任何组织的成员(建议默认值)"
+      },
+      "includeInCatalog": {
+        "label": "包含在目录中",
+        "helperText": "如果启用，所有关联的项目将与其他内容一起显示在计划的搜索目录中。"
+      },
+      "mapSettings": {
+        "label": "配置地图在倡议上的显示方式"
+      }
+    }
+  },
+  "discussion": {
+    "sections": {
+      "details": {
+        "label": "详细信息"
+      },
+      "basicInfo": {
+        "label": "基本信息"
+      },
+      "location": {
+        "label": "位置",
+        "helperText": "添加地理区域以设置讨论边界和地图的默认缩放级别，以便进行更加集中的讨论。"
+      },
+      "settings": {
+        "label": "讨论"
+      },
+      "searchDiscoverability": {
+        "label": "搜索和可发现性"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "标题",
+        "requiredError": "讨论板名称为必填项。",
+        "entityTitleValidatorError": "讨论名称不能包含表情符号、<、> 或 = 字符"
+      },
+      "prompt": {
+        "label": "提示",
+        "helperText": "简要描述您希望参与者在此讨论板上提交的内容。",
+        "requiredError": "提示为必填字段",
+        "maxLengthError": "提示不得超过 150 个字符"
+      },
+      "description": {
+        "label": "描述",
+        "helperText": "提供更多可能对搜索此板有帮助的上下文。"
+      },
+      "_thumbnail": {
+        "helperText": "选择一个图像以表示您的讨论。"
+      },
+      "summary": {
+        "label": "摘要",
+        "helperText": "简要描述此讨论板的用途，当与其他人共享链接时，该内容将非常有用。"
+      },
+      "featuredImage": {
+        "label": "精选图像",
+        "sizeDescription": "最大大小为 10 MB，格式为 JPEG、JPG 或 PNG",
+        "altText": {
+          "label": "更改文本",
+          "helperText": "为使用屏幕阅读器的人员提供图像的简短描述。 留空表示装饰图像。"
+        },
+        "name": {
+          "label": "图像名称"
+        }
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "该 slug 是讨论名称的 URL 友好版本。 将基于讨论名称自动生成该 slug，但是可以对其进行自定义。",
+        "patternError": "错误：Slug 必须为由连字符分隔的小写字母数字字符。",
+        "isUniqueError": "此 slug 已在使用中。 请选择其他 slug。"
+      },
+      "tags": {
+        "label": "标签"
+      },
+      "categories": {
+        "helperText": "类别可用于搜索目录，帮助其他人找到该讨论内容。 它们由您的组织设置。"
+      },
+      "discussable": {
+        "label": "是否允许允许讨论?",
+        "enabled": {
+          "label": "是，将允许讨论",
+          "description": "参与者可以在此讨论板中添加帖子、回复和反应。"
+        },
+        "disabled": {
+          "label": "否，将阻止讨论",
+          "description": "禁止添加新的帖子、回复和反应。 不会删除先前的参与。"
+        }
+      },
+      "mapSettings": {
+        "label": "配置地图在讨论板上的显示方式"
+      }
+    }
+  },
+  "site": {
+    "sections": {
+      "defaultRequiredHelperText": "*指示必填字段",
+      "basicInfo": {
+        "label": "基本信息"
+      },
+      "location": {
+        "label": "位置",
+        "helperText": "显示该站点所属的地理区域。"
+      },
+      "discussions": {
+        "label": "讨论"
+      },
+      "privacy": {
+        "label": "隐私配置"
+      },
+      "siteUrl": {
+        "label": "站点 URL"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "站点名称",
+        "requiredError": "站点名称为必填字段",
+        "maxLengthError": "站点名称不得超过 250 个字符",
+        "siteEntityTitleValidatorError": "站点名称不能包含表情符号或 Unicode 字符"
+      },
+      "_thumbnail": {
+        "helperText": "设置一个缩略图以在 ArcGIS Online 以及搜索和图库中表示此站点。"
+      },
+      "description": {
+        "label": "描述",
+        "helperText": "站点的描述。"
+      },
+      "summary": {
+        "label": "摘要",
+        "helperText": "简要总结站点。"
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "该 slug 是站点名称的 URL 友好版本。 将基于站点名称自动生成该 slug，但是可以对其进行自定义。",
+        "patternError": "错误：Slug 必须为由连字符分隔的小写字母数字字符。",
+        "isUniqueError": "此 slug 已在使用中。 请选择其他 slug。"
+      },
+      "tags": {
+        "label": "标签",
+        "helperText": "标签可用于搜索目录以帮助其他人找到该站点。 添加文本并选择 Enter 键以创建新标签。"
+      },
+      "categories": {
+        "helperText": "类别可用于搜索目录以帮助其他人找到该站点。 它们由您的组织设置。"
+      },
+      "discussable": {
+        "label": "在实时站点上为已登录用户显示讨论界面（默认处于打开状态）",
+        "enabled": {
+          "label": "是，将允许讨论",
+          "description": "显示讨论界面"
+        },
+        "disabled": {
+          "label": "否，将阻止讨论",
+          "description": "隐藏讨论界面"
+        }
+      },
+      "followers": {
+        "groupAccess": {
+          "label": "设置可见性",
+          "helperText": "控制可以看到关注按钮的用户。 此设置适用于流动页内操作关注按钮以及直接在布局中嵌入的任何关注按钮。",
+          "private": {
+            "label": "私有",
+            "description": "具有访问权限的站点所有者和群组可以看到关注按钮"
+          },
+          "org": {
+            "label": "组织",
+            "description": "具有站点组织帐户的所有成员以及具有访问权限的群组均可以看到关注按钮"
+          },
+          "public": {
+            "label": "公共",
+            "description": "所有人都可以看到关注按钮"
+          }
+        },
+        "showFollowAction": {
+          "label": "关注操作",
+          "helperText": "将关注按钮添加到页内操作菜单，该按钮在用户滚动浏览布局时一直可见。"
+        },
+        "discussable": {
+          "label": "此群组是否可以参与讨论?",
+          "enabled": {
+            "label": "是，将允许讨论",
+            "description": "群组成员可以查看和参与该群组有权访问的讨论渠道。"
+          },
+          "disabled": {
+            "label": "否，将阻止讨论",
+            "description": "群组成员无法查看或参与该群组有权访问的讨论渠道。"
+          }
+        }
+      },
+      "siteUrl": {
+        "isUniqueError": "错误：使用此 URL 的站点已存在。"
+      }
+    }
+  },
+  "page": {
+    "sections": {
+      "basicInfo": {
+        "label": "基本信息"
+      },
+      "location": {
+        "label": "位置",
+        "helperText": "显示该页面所属的地理区域。"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "页面名称",
+        "requiredError": "页面名称为必填字段",
+        "maxLengthError": "页面名称不得超过 250 个字符",
+        "entityTitleValidatorError": "页面名称不能包含表情符号、<、> 或 = 字符"
+      },
+      "description": {
+        "label": "描述",
+        "helperText": "页面的描述。"
+      },
+      "summary": {
+        "label": "摘要",
+        "helperText": "简要总结页面。"
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "该 slug 是页面名称的 URL 友好版本。 将基于页面名称自动生成该 slug，但是可以对其进行自定义。",
+        "patternError": "错误：Slug 必须为由连字符分隔的小写字母数字字符。",
+        "isUniqueError": "此 slug 已在使用中。 请选择其他 slug。"
+      },
+      "tags": {
+        "label": "标签",
+        "helperText": "标签可用于搜索目录以帮助其他人找到该页面。 添加文本并选择 Enter 键以创建新标签。"
+      },
+      "_thumbnail": {
+        "helperText": "设置一个缩略图以在 ArcGIS Online 以及搜索和图库中表示此页面。"
+      },
+      "categories": {
+        "helperText": "类别可用于搜索目录以帮助其他人找到该页面。 它们由您的组织设置。"
+      }
+    }
+  },
+  "content": {
+    "fields": {
+      "title": {
+        "label": "标题",
+        "hint": "简短标题可以使内容更容易被发现。",
+        "requiredError": "标题为必填字段",
+        "entityTitleValidatorError": "名称不能包含表情符号、<、> 或 = 字符"
+      },
+      "summary": {
+        "label": "摘要",
+        "hint": "简要总结您的内容。 提示：通过使用与“Title”或“Tags”不同的关键字来改善 SEO。"
+      },
+      "description": {
+        "label": "描述",
+        "hint": "添加附加详细信息来解释您的内容。 尽量使可读性达到 7-9 级，以吸引更广泛的受众。 <a href='https://www.webfx.com/tools/read-able/' target='_blank'>使用可读性分析工具来测试您的文本</a>。"
+      },
+      "tags": {
+        "label": "标签",
+        "hint": "标签可用于搜索目录以帮助其他人找到该内容。 添加文本并选择 Enter 键以创建新标签。"
+      },
+      "categories": {
+        "helperText": "类别可用于搜索目录以帮助其他人找到该内容。 它们由您的组织设置。"
+      },
+      "_thumbnail": {
+        "helperText": "设置一个缩略图以在 ArcGIS Online 以及搜索和图库中表示此项目。"
+      },
+      "license": {
+        "label": "使用条款",
+        "helperText": "限制越少，重用率越高。"
+      },
+      "discussable": {
+        "label": "是否允许讨论?",
+        "enabled": {
+          "label": "是，将允许讨论",
+          "description": "参与者可以向此项目添加帖子、回复和回应。"
+        },
+        "disabled": {
+          "label": "否，将阻止讨论",
+          "description": "移除添加新的帖子、回复和回应的功能。 不会删除之前的参与。"
+        }
+      },
+      "serverExtractCapability": {
+        "label": "下载系统",
+        "exportDataSetting": {
+          "label": "导出数据设置(推荐)",
+          "description": "启用其他下载格式并增强了下载性能。"
+        },
+        "defaultDownloadsSystem": {
+          "label": "默认下载系统",
+          "description": "可能提供较少的格式、较慢的下载速度和较低的可靠性。"
+        },
+        "noFormatConfigurationNotice": {
+          "title": "格式配置不可用",
+          "body": "格式配置需要启用导出数据设置。"
+        }
+      },
+      "downloadFormats": {
+        "label": "格式",
+        "helperText": "选择允许用户访问的格式及其显示顺序。 (请注意，您必须选择至少一个格式)",
+        "downloadsUnavailableNotice": {
+          "title": "下载不可用",
+          "body": "要下载内容，必须在 ArcGIS Online 上启用“导出数据”设置。 请与项目所有者联系以启用此设置。"
+        }
+      },
+      "schedule": {
+        "manual": {
+          "helperActionText": "如需手动更新此项目的搜索索引和缓存下载文件，请使用此选项。"
+        },
+        "forceUpdateButton": {
+          "label": "强制更新",
+          "description": "选择此选项，然后选择“保存”，手动更新此项目的搜索索引和缓存下载文件(如适用)。"
+        },
+        "unavailableNotice": {
+          "title": "计划更新不可用",
+          "body": "要启用计划更新，需将此内容设置为“公开”。"
+        }
+      }
+    },
+    "sections": {
+      "basic": {
+        "title": "基本信息",
+        "message": "此信息用于填充搜索结果和图库卡片，并将显示在详细信息视图中。"
+      },
+      "about": {
+        "title": "关于内容",
+        "message": "在搜索结果中将显示描述的前两行内容，但是完整描述将显示在具有针对性的内容视图中。"
+      },
+      "image": {
+        "title": "精选图像",
+        "message": "当您在我们的图库中或者在突出显示诸如倡议、活动和调查等图像的视图上展示您的内容时，拥有优质精选图像或缩略图将非常重要。 建议大小为 760x505。 如果您的图像在实时路径上显示模糊，请考虑将缩略图替换为较大的图像。"
+      },
+      "location": {
+        "label": "位置",
+        "helperText": "显示此内容将发生的地理区域(显示在内容布局上)。"
+      },
+      "discussions": {
+        "label": "讨论"
+      },
+      "downloads": {
+        "label": "下载",
+        "helperText": "配置下载格式、缓存文件更新计划等。 有关详细信息，请参阅<calcite-link href=\"https://doc.arcgis.com/en/hub/content/data-download-settings.htm\" target=\"_blank\" icon-end=\"launch\">下载文档</calcite-link>。"
+      },
+      "schedule": {
+        "label": "计划更新",
+        "helperText": "Hub 将自动尝试确定更新内容的最佳时间(默认设置)。 但您可以为内容、元数据和缓存下载文件(如适用)设置更新频率。"
+      }
+    },
+    "stringField": {
+      "charCounter": "{count} 剩余字符数"
+    },
+    "imageThumbnail": {
+      "label": "缩略图",
+      "upload": "上传图像",
+      "done": "完成",
+      "editThumbnail": "编辑缩略图",
+      "browse": "浏览图像",
+      "remove": "移除图像",
+      "edit": "编辑图像",
+      "defaultHeading": "添加缩略图",
+      "dropHeading": "放置以上传",
+      "errorHeading": "尝试其他图像",
+      "subheading": "最大大小为 {size}，{types}",
+      "zoomOut": "缩小",
+      "zoomIn": "放大",
+      "drag": "拖动以重新定位",
+      "urlPlaceholder": "支持的类型：{types}",
+      "browseForImage": "浏览图像",
+      "aria": {
+        "container": "图像区域",
+        "crop": "裁剪区域",
+        "handle": {
+          "top": "调整顶部大小",
+          "right": "调整右侧大小",
+          "left": "调整左侧大小",
+          "bottom": "调整底部大小"
+        }
+      }
+    }
+  },
+  "group": {
+    "sections": {
+      "details": {
+        "label": "详细信息"
+      },
+      "basicInfo": {
+        "label": "基本信息"
+      },
+      "capabilities": {
+        "label": "功能"
+      },
+      "membershipAccess": {
+        "label": "群组成员资格"
+      },
+      "discussions": {
+        "label": "讨论"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "标题",
+        "requiredError": "群组标题为必填字段",
+        "maxLengthError": "群组标题不得超过 250 个字符",
+        "entityTitleValidatorError": "群组名称不能包含表情符号、<、> 或 = 字符"
+      },
+      "summary": {
+        "label": "摘要",
+        "maxLengthError": "摘要不得超过 250 个字符"
+      },
+      "description": {
+        "label": "描述"
+      },
+      "access": {
+        "label": "谁可以查看此群组?",
+        "private": {
+          "label": "私有",
+          "description": "仅群组成员可以查看该群组。"
+        },
+        "org": {
+          "label": "组织",
+          "description": "仅组织成员可以查看该群组。"
+        },
+        "public": {
+          "label": "任何人(公共)",
+          "description": "任何人都可以查看该群组。"
+        }
+      },
+      "isSharedUpdate": {
+        "label": "共享的更新",
+        "helperText": "该组中的所有成员均可编辑其中的项目。 成员资格受限于您的组织和协作组织。"
+      },
+      "isAdmin": {
+        "label": "管理群组",
+        "helperText": "成员无法离开此群组。 仅群组管理员或所有者可以从此群组中移除成员。 成员资格仅限于您的组织。"
+      },
+      "isOpenData": {
+        "label": "开放数据",
+        "helperText": "允许在开放数据站点中访问此群组。",
+        "constError": "非公共群组不能为开放数据。"
+      },
+      "_thumbnail": {
+        "label": "缩略图",
+        "helperText": "选择一个图像代表您的群组，以在群组资料中展示。",
+        "sizeDescription": "最大大小为 10 Mb。 推荐尺寸：400 x 400 或更大"
+      },
+      "membershipAccess": {
+        "label": "谁可以加入此群组?",
+        "org": {
+          "description": "仅限我组织的成员",
+          "label": "组织成员"
+        },
+        "collab": {
+          "description": "仅限合作伙伴协作和我组织的成员",
+          "label": "仅限协作者"
+        },
+        "any": {
+          "description": "任何组织的成员",
+          "label": "任何人"
+        },
+        "createFollowers": {
+          "any": "任何组织的成员(建议默认值)"
+        },
+        "createAssociation": {
+          "any": "任何组织的成员(建议默认值)"
+        },
+        "constError": "管理群组成员资格仅限于您组织的成员。",
+        "patternError": "共享更新小组成员资格仅限于您的组织或协作成员。"
+      },
+      "contributeContent": {
+        "label": "谁可以贡献内容?",
+        "members": {
+          "label": "成员",
+          "description": "所有群组成员"
+        },
+        "admins": {
+          "label": "管理员",
+          "description": "群组所有者和管理员"
+        },
+        "createFollowers": {
+          "admins": "群组所有者和管理员（建议默认值）"
+        },
+        "createAssociation": {
+          "admins": "群组所有者和管理员(建议默认值)"
+        }
+      },
+      "join": {
+        "label": "人员如何加入此群组",
+        "invite": {
+          "label": "邀请",
+          "description": "仅通过邀请"
+        },
+        "request": {
+          "label": "请求",
+          "description": "通过请求"
+        },
+        "auto": {
+          "label": "自己",
+          "description": "通过添加自己"
+        },
+        "constError": "私有群组必须仅通过邀请。",
+        "patternError": "管理群组或共享更新群组必须通过邀请或申请。"
+      },
+      "hiddenMembers": {
+        "label": "谁可以查看群组“成员”选项卡上的完整成员列表?",
+        "members": {
+          "label": "成员",
+          "description": "所有群组成员"
+        },
+        "admins": {
+          "label": "管理员",
+          "description": "群组所有者和管理员"
+        }
+      },
+      "discussable": {
+        "label": "此群组是否可以参与讨论?",
+        "enabled": {
+          "label": "是，将允许讨论",
+          "description": "群组成员可以查看和参与该群组有权访问的讨论渠道。"
+        },
+        "disabled": {
+          "label": "否，将阻止讨论",
+          "description": "群组成员无法查看或参与该群组有权访问的讨论渠道。"
+        }
+      }
+    }
+  },
+  "initiativeTemplate": {
+    "sections": {
+      "basicInfo": {
+        "label": "基本信息"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "名称",
+        "requiredError": "倡议模板名称为必填字段",
+        "entityTitleValidatorError": "倡议模板名称不能包含表情符号、<、> 或 = 字符"
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "该 slug 是倡议模板名称的 URL 友好版本。 将基于倡议模板名称自动生成该 slug，但是可以对其进行自定义。",
+        "patternError": "错误：Slug 必须为由连字符分隔的小写字母数字字符。",
+        "isUniqueError": "此 slug 已在使用中。 请选择其他 slug。"
+      },
+      "previewUrl": {
+        "label": "预览链接",
+        "helperText": "预览链接将应用于标题，如果您打算公开共享该模板，则预览链接将非常有用。 链接应以 “https://” 开头",
+        "formatError": "URL 格式错误"
+      },
+      "summary": {
+        "label": "摘要",
+        "helperText": "编写此模板的简短描述以显示在模板库中（建议不超过 90 个字符）。"
+      },
+      "description": {
+        "label": "描述",
+        "helperText": "包含有关应如何使用此模板的信息。 请考虑为其他人提供激活说明。"
+      },
+      "_thumbnail": {
+        "label": "缩略图",
+        "helperText": "设置一个缩略图以在 ArcGIS Online 以及搜索和图库中表示此模板。",
+        "sizeDescription": "最大大小为 10 MB。 建议大小：750 x 505 或更大"
+      },
+      "recommendedTemplates": {
+        "label": "建议模板",
+        "catalog": {
+          "myContent": "我的内容",
+          "favorites": "收藏夹",
+          "organization": "我的组织",
+          "world": "世界（公众）"
+        },
+        "facets": {
+          "sharing": "共享"
+        },
+        "pickerTitle": "选择模板"
+      }
+    }
+  },
+  "template": {
+    "sections": {
+      "basicInfo": {
+        "label": "基本信息"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "模板名称",
+        "requiredError": "模板名称为必填字段",
+        "maxLengthError": "模板名称不得超过 250 个字符",
+        "entityTitleValidatorError": "模板名称不能包含表情符号、<、> 或 = 字符"
+      },
+      "previewUrl": {
+        "label": "预览链接",
+        "helperText": "预览链接将应用于标题，如果您打算公开共享该模板，则预览链接将非常有用。 链接应以 “https://” 开头",
+        "formatError": "URL 格式错误"
+      },
+      "description": {
+        "label": "描述",
+        "helperText": "包含有关应如何使用此模板的信息。 请考虑为其他人提供激活说明。"
+      },
+      "summary": {
+        "label": "摘要",
+        "helperText": "编写此模板的简短描述以显示在模板库中（建议不超过 90 个字符）。"
+      },
+      "_thumbnail": {
+        "helperText": "请选择一个图像以在图库中表示您的模板。"
+      }
+    }
+  },
+  "survey": {
+    "sections": {
+      "basicInfo": {
+        "label": "基本信息"
+      },
+      "searchDiscoverability": {
+        "label": "搜索和可发现性"
+      },
+      "settings": {
+        "label": "地图显示"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "调查名称",
+        "requiredError": "调查名称为必填字段",
+        "maxLengthError": "调查名称不得超过 250 个字符",
+        "entityTitleValidatorError": "调查名称不能包含表情符号、<、> 或 = 字符"
+      },
+      "description": {
+        "label": "描述",
+        "helperText": "调查的描述。"
+      },
+      "summary": {
+        "label": "摘要",
+        "helperText": "简要总结调查。"
+      },
+      "_thumbnail": {
+        "helperText": "设置一个缩略图，用于在 ArcGIS Online 及搜索和图库中表示此调查。"
+      },
+      "tags": {
+        "label": "标签",
+        "helperText": "标签用于在搜索目录中帮助其他人找到该调查。 添加文本并选择 Enter 键以创建新标签。"
+      },
+      "categories": {
+        "helperText": "类别可用于搜索目录，帮助其他人找到该调查。 它们由您的组织设置。"
+      },
+      "displayMap": {
+        "label": "在 ArcGIS Hub 中打开时您的调查应该如何显示?",
+        "enabled": {
+          "label": "以地图为中心",
+          "description": "沉浸式地图体验，地图问题优先显示。"
+        },
+        "disabled": {
+          "label": "标准显示",
+          "description": "地图与其他问题一同内联显示。"
+        },
+        "notice": {
+          "title": "需要地图问题",
+          "message": "要在 ArcGIS Hub 中配置地图显示，需在 Survey123 中发布带有地图问题的调查。"
+        }
+      }
+    }
+  },
+  "event": {
+    "fields": {
+      "name": {
+        "label": "标题",
+        "requiredError": "标题为必填字段",
+        "entityTitleValidatorError": "活动名称不能包含表情符号、<、> 或 = 字符"
+      },
+      "startDate": {
+        "label": "开始日期",
+        "requiredError": "开始日期为必填字段",
+        "minDateError": "开始日期不能早于今天"
+      },
+      "endDate": {
+        "label": "结束日期",
+        "requiredError": "结束日期为必填字段",
+        "minDateError": "结束日期不能早于开始日期"
+      },
+      "date": {
+        "label": "日期",
+        "requiredError": "日期为必填字段",
+        "minDateError": "日期不能早于今天。"
+      },
+      "startTime": {
+        "label": "开始时间",
+        "requiredError": "开始时间为必填字段"
+      },
+      "endTime": {
+        "label": "结束时间",
+        "requiredError": "结束时间为必填字段",
+        "minTimeError": "结束时间不能晚于开始时间。"
+      },
+      "allDay": {
+        "label": "全天"
+      },
+      "timeZone": {
+        "label": "时区",
+        "requiredError": "时区为必填字段"
+      },
+      "attendanceType": {
+        "label": "地点",
+        "inPerson": {
+          "label": "面对面"
+        },
+        "online": {
+          "label": "在线"
+        },
+        "both": {
+          "label": "两者"
+        }
+      },
+      "onlineUrl": {
+        "label": "链接以加入在线事件",
+        "requiredError": "在线活动或混合活动(结合线上和线下)都需要 URL",
+        "linkHrefFormatError": "URL 格式错误"
+      },
+      "description": {
+        "label": "描述",
+        "helperText": "为注册人添加额外信息，例如活动类型、目的、议程、携带物品、交通等。",
+        "requiredError": "描述为必填字段"
+      },
+      "inPersonCapacity": {
+        "label": "最多现场容纳人数",
+        "requiredError": "最多现场容纳人数是必填项",
+        "minimumError": "最多现场容纳人数必须大于 0"
+      },
+      "inPersonCapacityType": {
+        "label": "现场注册容纳人数",
+        "unlimited": {
+          "label": "无限制"
+        },
+        "fixed": {
+          "label": "固定"
+        }
+      },
+      "location": {
+        "label": "显示此活动将发生的地理区域(显示在活动布局上)。"
+      },
+      "onlineCapacityType": {
+        "label": "在线注册容纳人数",
+        "unlimited": {
+          "label": "无限制"
+        },
+        "fixed": {
+          "label": "固定"
+        }
+      },
+      "onlineCapacity": {
+        "label": "最大在线容量",
+        "requiredError": "最大在线容量为必填字段",
+        "minimumError": "最大在线容量必须大于 0"
+      },
+      "onlineDetails": {
+        "label": "在线事件详细信息",
+        "helperText": "为注册人添加额外信息，例如密码、拨入信息等。"
+      },
+      "categories": {
+        "helperText": "类别可用于搜索目录，帮助其他人找到该事件。 它们由您的组织设置。"
+      },
+      "tags": {
+        "label": "标签",
+        "helperText": "标签可用于搜索目录，帮助其他人找到该事件。 添加文本并选择 Enter 键以创建新标签。"
+      },
+      "summary": {
+        "label": "摘要",
+        "helperText": "简要描述此事件的用途，当与其他人共享链接时，该内容将非常有用。"
+      },
+      "allowRegistration": {
+        "label": "允许注册",
+        "helperText": "需要帐户才能注册或被邀请参加。",
+        "enabled": {
+          "label": "注册按钮已启用",
+          "description": "任何可以查看活动的成员都可以注册。"
+        },
+        "disabled": {
+          "label": "注册按钮已禁用",
+          "description": "注册仅限邀请或不被追踪。"
+        }
+      },
+      "notifyAttendees": {
+        "label": "发送自动通知",
+        "helperText": "活动订阅者可接收用于提醒或关于变更的自动电子邮件通知。 注册参加的人员会自动订阅。",
+        "enabled": {
+          "label": "通知已启用",
+          "description": "活动的“订阅”按钮可见。"
+        },
+        "disabled": {
+          "label": "通知已禁用",
+          "description": "活动的“订阅”按钮已隐藏。"
+        }
+      },
+      "referencedContent": {
+        "label": "已连接内容",
+        "helperText": {
+          "label": "连接与此活动有关的工程、倡议或地点。"
+        },
+        "facets": {
+          "from": {
+            "label": "自",
+            "myContent": {
+              "label": "我的内容"
+            },
+            "myOrganization": {
+              "label": "我的组织"
+            }
+          },
+          "access": {
+            "label": "访问"
+          }
+        },
+        "catalog": {
+          "organization": "组织"
+        },
+        "collection": {
+          "sites": "站点",
+          "initiatives": "倡议",
+          "projects": "工程"
+        }
+      }
+    },
+    "sections": {
+      "referencedContent": {
+        "label": "已连接内容"
+      },
+      "eventInfo": {
+        "label": "事件信息"
+      },
+      "dateTime": {
+        "label": "日期和时间"
+      },
+      "location": {
+        "label": "位置"
+      },
+      "discoverability": {
+        "label": "搜索和可发现性"
+      }
+    }
+  },
+  "user": {
+    "sections": {
+      "userSettings": "用户首选项",
+      "orgSettings": {
+        "label": "组织设置",
+        "signinSettings": {
+          "label": "登录选项",
+          "helperText": "自定义用户在 Hub 中选择注册社区帐户时将看到的信息。"
+        },
+        "siteDefaults": {
+          "label": "站点显示默认值"
+        }
+      }
+    },
+    "fields": {
+      "enableTermsAndConditions": {
+        "label": "注册表单上需要自定义使用条款"
+      },
+      "termsAndConditions": {
+        "label": "使用条款"
+      },
+      "enableSignupText": {
+        "label": "配置自定义注册欢迎消息"
+      },
+      "workspacePreview": {
+        "label": "启用工作空间预览",
+        "helperText": "工作空间可供预览，但随着我们扩展功能，工作空间仍在开发中。 您可以在预览期间随时禁用工作空间。 启用工作空间将仅影响此用户账户。"
+      },
+      "infoBanner": {
+        "label": "信息通栏",
+        "helperText": "在所有站点和页面上显示员工组织的信息通栏(如果已配置)。 此设置为全局设置，无法针对特定站点打开/关闭此设置。",
+        "helperTextWhenDisabled": "您目前尚未配置信息通栏。 请单击以下链接重定向到 ArcGIS Online，可以在其中配置信息通栏",
+        "goToBannerConfig": "在 ArcGIS Online 中配置信息通栏"
+      }
+    },
+    "notice": {
+      "title": "组织管理",
+      "message": "现在，大多数员工和社区(仅限 Hub Premium)组织设置在 ArcGIS 主页组织中进行管理。",
+      "communityMessage": "现在，大多数员工和社区(仅限 Hub Premium)组织设置在 ArcGIS 主页组织中进行管理。 <br /> <br /> 您的社区组织为",
+      "staffMessage": "现在，大多数员工和社区(仅限 Hub Premium)组织设置在 ArcGIS 主页组织中进行管理。 <br /> <br /> 您的员工组织为",
+      "actions": {
+        "goToOrg": "转至组织设置",
+        "goToCommunityOrg": "转至社区组织",
+        "goToStaffOrg": "转至员工组织"
+      }
+    }
+  }
+}

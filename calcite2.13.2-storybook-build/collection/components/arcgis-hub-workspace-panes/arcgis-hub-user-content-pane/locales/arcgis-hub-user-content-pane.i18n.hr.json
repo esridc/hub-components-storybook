@@ -1,0 +1,43 @@
+{
+  "content": "Sadržaj",
+  "myContent": "Moj sadržaj",
+  "editableContent": "Sadržaj koji se može uređivati",
+  "addContentButtonText": "Kreiraj novo",
+  "type": "Vrsta",
+  "sharedUpdate": "Grupa za dijeljeno ažuriranje",
+  "viewOnly": "Prikaži samo grupu",
+  "owner": "Vlasnik",
+  "updated": "Ažurirano",
+  "tags": "Oznake",
+  "dateCreated": "Stvoreno",
+  "dateUpdated": "Izmijenjeno",
+  "actionLinks": {
+    "view": "Prikaži",
+    "edit": "Uredi",
+    "ariaEdit": "Uredi {title}",
+    "ariaView": "Prikaži {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Sadržaj",
+      "myContent": "Sadržaj I vlastiti",
+      "editableContent": "Sadržaj I može se uređivati",
+      "all": "Sav sadržaj"
+    },
+    "access": {
+      "label": "Šalje"
+    },
+    "type": {
+      "label": "Vrste"
+    },
+    "tags": {
+      "label": "Oznake"
+    },
+    "categories": {
+      "label": "Kategorije"
+    },
+    "modified": {
+      "label": "Izmijenjeno"
+    }
+  }
+}

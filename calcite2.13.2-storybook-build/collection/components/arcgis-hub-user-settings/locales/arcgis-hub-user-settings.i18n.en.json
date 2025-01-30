@@ -1,0 +1,11 @@
+{
+  "configLabel": "User Preferences",
+  "workspaceLabel": "Enable workspaces preview",
+  "workspaceHelper": "Workspaces are available for preview but still in development as we expand functionality. You can disable workspaces at any time during the preview period. Enabling workspaces will only impact this user account.",
+  "viewWorkspace": "View workspace",
+  "aboutWorkspaces": "About workspaces",
+  "successTitle": "Preferences successfully updated.",
+  "successLabel": "Success alert",
+  "failTitle": "Preferences failed to update.",
+  "failLabel": "Failure alert"
+}

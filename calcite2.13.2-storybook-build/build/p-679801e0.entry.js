@@ -1,0 +1,1 @@
+import{r as t,h as i,H as s}from"./p-df5fbfcb.js";const a=class{constructor(i){t(this,i),this.entity=void 0}render(){return i(s,null,i("arcgis-hub-entity-capability-pane",{capability:"events",entity:this.entity}))}};export{a as arcgis_hub_events_capability_pane}

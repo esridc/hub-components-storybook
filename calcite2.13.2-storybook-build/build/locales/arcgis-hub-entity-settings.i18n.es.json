@@ -1,0 +1,53 @@
+{
+  "settings": "Ajustes",
+  "formDisabledTooltip": "No tiene acceso para hacer cambios en este {type}.",
+  "delete": {
+    "project": "Eliminar este proyecto",
+    "initiative": "Eliminar esta iniciativa",
+    "site": "Eliminar este sitio",
+    "discussion": "Eliminar este debate",
+    "content": "Eliminar este contenido",
+    "page": "Eliminar esta página",
+    "group": "Eliminar este grupo",
+    "initiativeTemplate": "Eliminar esta plantilla de iniciativa",
+    "template": "Eliminar esta plantilla",
+    "survey": "Eliminar esta encuesta",
+    "desc": {
+      "project": "La eliminación de este proyecto no se puede deshacer.",
+      "initiative": "La eliminación esta iniciativa no se puede deshacer.",
+      "site": "La eliminación de este sitio no se puede deshacer.",
+      "discussion": "La eliminación este debate no se puede deshacer.",
+      "content": "La eliminación este contenido no se puede deshacer.",
+      "page": "La eliminación esta página no se puede deshacer.",
+      "group": "La eliminación este grupo no se puede deshacer.",
+      "initiativeTemplate": "La eliminación esta plantilla de iniciativa no se puede deshacer.",
+      "template": "La eliminación esta plantilla no se puede deshacer.",
+      "survey": "La eliminación esta encuesta no se puede deshacer."
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "project": "Eliminar proyecto",
+      "initiative": "Eliminar iniciativa",
+      "site": "Eliminar sitio",
+      "discussion": "Eliminar debate",
+      "content": "Eliminar contenido",
+      "page": "Eliminar página",
+      "group": "Eliminar grupo",
+      "initiativeTemplate": "Eliminar plantilla de iniciativa",
+      "template": "Eliminar plantilla",
+      "survey": "Eliminar encuesta"
+    },
+    "content": "¿Seguro de que desea eliminar?",
+    "delete": "Eliminar",
+    "cancel": "Cancelar"
+  },
+  "sidePanel": {
+    "content": {
+      "extractNotice": {
+        "title": "La capacidad de \"extracción\" cambia la configuración del servicio.",
+        "message": "Esto afectará a los demás elementos que hagan referencia al servicio. Para obtener más detalles, consulte <docLink>Exportar datos de capas de entidades alojadas</docLink>"
+      }
+    }
+  }
+}

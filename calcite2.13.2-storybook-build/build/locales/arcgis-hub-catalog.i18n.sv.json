@@ -1,0 +1,16 @@
+{
+  "all": "Alla",
+  "source": "Källa",
+  "targetEntity": {
+    "item": "Objekt",
+    "group": "Grupper",
+    "user": "Användare",
+    "portalUser": "Portalanvändare",
+    "communityUser": "Communityanvändare",
+    "groupMember": "Gruppmedlemmar",
+    "event": "Evenemang",
+    "channel": "Kanaler",
+    "discussionPost": "Inlägg",
+    "eventAttendee": "Evenemangsregistranter"
+  }
+}

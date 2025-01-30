@@ -1,0 +1,75 @@
+{
+  "addMetric": "Mérőszám hozzáadása",
+  "title": "Mutatók",
+  "featured": "Kiemelt",
+  "metricDescription": "A projekt előrehaladásának nyomon követésére használt mérhető érték, amely statikus (pl. történeti) vagy dinamikus (pl. valós idejű) adatokon alapul.",
+  "metricCount": {
+    "label": "{currentCount} / {totalCountAllowed} mutató",
+    "tooltip": "Mutatók hozzáadásához törölje a meglévő készlet egy részét."
+  },
+  "visible": {
+    "title": "Látható",
+    "noMetrics": "Ebben a részben nincsenek mérőszámok."
+  },
+  "hidden": {
+    "title": "Rejtett",
+    "description": "Ezek a mérőszámok csak azok számára jelennek meg, akik hozzáféréssel rendelkeznek ehhez a munkaterülethez.",
+    "noMetrics": "Ebben a részben nincsenek mérőszámok."
+  },
+  "project": {
+    "featured": {
+      "description": "4 kiemelt mutatóval rendelkezhet. Ezek az élő projekt áttekintésében jelennek meg."
+    },
+    "visible": {
+      "description": "A látható mutatók az élő projekt Mutatók lapján jelennek meg."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "A mérőszámok megfelelnek a projekt megosztási szintjének. A rejtett mérőszámok API-hívással továbbra is elérhetők lehetnek.",
+        "metricsDockLink": "További információ a mérőszámok beállításáról"
+      }
+    }
+  },
+  "initiative": {
+    "featured": {
+      "description": "4 kiemelt mutatóval rendelkezhet. Ezek az élő kezdeményezés áttekintésében jelennek meg."
+    },
+    "visible": {
+      "description": "A látható mutatók az élő projekt Mutatók lapján jelennek meg."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "A mérőszámok megfelelnek a kezdeményezés megosztási szintjének. A rejtett mérőszámok API-hívással továbbra is elérhetők lehetnek.",
+        "metricsDockLink": "További információ a mérőszámok beállításáról"
+      }
+    }
+  },
+  "metricNumber": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4"
+  },
+  "actions": {
+    "delete": "Törlés",
+    "edit": "Szerkesztés",
+    "featured": "Vektoros elem",
+    "removeFeatured": "Eltávolítás a kiemeltek közül",
+    "show": "Láthatóvá tétel",
+    "hide": "Elrejtés"
+  },
+  "editor": {
+    "heading": "Új mérőszám",
+    "description": "Alapértelmezés szerint a mérőszámok automatikusan el lesznek rejtve, hogy a munkaterület tagjai láthassák őket."
+  },
+  "deleteMetricModal": {
+    "heading": "Mérőszám törlése",
+    "content": "Biztos, hogy törli:",
+    "cancel": "Mégse",
+    "delete": "Törlés"
+  },
+  "sidePanel": {
+    "definitions": "Definíciók",
+    "preview": "Előnézet"
+  }
+}

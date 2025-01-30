@@ -1,0 +1,51 @@
+{
+  "section": "Delete",
+  "protection":"Prevent accidentally deleting this {type}.",
+  "protectionTooltip": "Protection tooltip",
+  "protectionDisabledTooltip": "Only owners or organization administrators can change protection.",
+  "deleteDisabledNoAccessTooltip": "Only owners or organization administrators can delete.",
+  "deleteDisabledNoAccessTooltipGroup": "Only owners, managers, or organization administrators can delete.",
+  "deleteDisabledProtectedTooltip": "You cannot delete while delete protection is enabled.",
+  "deleteButton": "Delete",
+  "protect": {
+    "successTitle": "Delete protection added",
+    "success": "You cannot delete while delete protection is enabled.",
+    "successLabel": "Delete protection added alert.",
+    "errorTitle": "Unable to add delete protection",
+    "error": "An error occurred while adding delete protection.",
+    "errorLabel": "Delete protection failed alert."
+
+  },
+  "unprotect": {
+    "successTitle": "Delete protection removed",
+    "success": "You can delete while delete protection is disabled.",
+    "successLabel": "Delete protection removed alert.",
+    "errorTitle": "Unable to remove delete protection",
+    "error": "An error occurred while removing delete protection.",
+    "errorLabel": "Delete protection removal failed alert."
+  },
+  "delete": {
+    "successTitle": "Delete successful",
+    "success": "Redirecting to your home workspace",
+    "successLabel": "Delete successful alert.",
+    "errorTitle": "Delete failed",
+    "error": "Something went wrong, please try again.",
+    "errorLabel": "Delete failed alert."
+  },
+  "permanentDelete": {
+    "successTitle": "Permanent delete successful",
+    "success": "Redirecting to your home workspace",
+    "successLabel": "Delete successful alert.",
+    "errorTitle": "Delete failed",
+    "error": "Something went wrong, please try again.",
+    "errorLabel": "Delete failed alert."
+  },
+  "deleteModal": {
+    "header": "Delete",
+    "deleteContent": "You cannot undo a permanent delete. Are you sure you want to proceed?",
+    "recycleContent": "Deleted content will be sent to the recycle bin. You will have 14 days to recover it.",
+    "delete": "Delete",
+    "permanentlyDelete": "Permanently Delete",
+    "cancel": "Cancel"
+  }
+}

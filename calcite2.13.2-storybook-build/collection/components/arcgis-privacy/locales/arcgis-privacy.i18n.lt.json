@@ -1,0 +1,41 @@
+{
+  "managePrivacyButton": "Valdyti privatumą",
+  "consentNotice": {
+    "allTracking": "Ši svetainė buvo sukurta naudojant ArcGIS Hub ir naudoja anoniminį stebėjimą, kad pagerintų našumą ir analizuotų svetainės naudojimą pagal Esri privatumo pareiškimą. Papildomos trečiųjų šalių stebėjimo sistemos gali stebėti jūsų naudojimąsi svetaine.",
+    "anonymousTracking": "Ši svetainė buvo sukurta naudojant ArcGIS Hub ir naudoja anoniminį stebėjimą, kad pagerintų našumą ir analizuotų svetainės naudojimą pagal Esri privatumo pareiškimą.",
+    "noTracking": "Ši svetainė buvo sukurta naudojant ArcGIS Hub ir joje naudojami tik tie slapukai, kurie yra būtini programai veikti ir kurių negalima išjungti mūsų sistemose.",
+    "thirdPartyTracking": "Ši svetainė buvo sukurta naudojant ArcGIS Hub ir joje naudojami tik tie slapukai, kurie yra būtini programai veikti ir kurių negalima išjungti mūsų sistemose. Papildomos trečiųjų šalių stebėjimo sistemos gali stebėti jūsų naudojimąsi svetaine."
+  },
+  "consent": {
+    "esriPrivacyLink": "Esri privatumo centras",
+    "customerConsentLink": "Daugiau informacijos"
+  },
+  "eueiNotice": {
+    "title": "{orgName} nariai nebus sekami",
+    "message": "Esri naudotojų patirties tobulinimo (EUEI) programa {orgName} buvo išjungta. Su jūsų apsilankymu susijusi veikla nebus sekama. Negalite priimti anoniminės naudojimo statistikos ar trečiųjų šalių sekimo.",
+    "link": "Sužinokite daugiau apie EUEI programą."
+  },
+  "notice": {
+    "heading": "Privatumo nustatymai",
+    "acceptAllButton": "Priimti visus slapukus",
+    "acceptNecessaryButton": "Priimti tik būtinus slapukus",
+    "confirmButton": "Patvirtinti",
+    "reviewSettingsButton": "Peržiūrėti nustatymus"
+  },
+  "settings": {
+    "heading": "Privatumo nustatymai",
+    "confirmButton": "Patvirtinti"
+  },
+  "anonymous": {
+    "heading": "Anoniminė naudojimo statistika",
+    "helpText": "Šie slapukai mums leidžia stebėti programėlės našumą, pvz., srautų šaltinius, puslapių peržiūras ir sąveikas. Jie mums padeda išsiaiškinti, kuris turinys efektyvus ir kaip lankytojai naršo programėlę. Visa informacija renkama anonimiškai (nesaugomi jokie asmenį identifikuojantys duomenys). Jei neleisite naudoti šių slapukų, nežinosime, kad apsilankėte ir sąveikavote su mūsų programėle."
+  },
+  "necessary": {
+    "heading": "Griežtai būtini slapukai",
+    "helpText": "Šie slapukai būtini, kad programėlė veiktų, ir mūsų sistemose jų negalima išjungti. Jie nustatomi reaguojant į jūsų atliekamus veiksmus, susijusius su paslaugų užklausomis, pvz., prisijungimu prie paskyros. Galite nustatyti, kad naršyklė blokuotų šiuos slapukus arba apie juos praneštų, bet tai gali paveikti kai kuriuos programėlės aspektus. Visa informacija renkama anonimiškai (nesaugomi jokie asmenį identifikuojantys duomenys)."
+  },
+  "thirdParty": {
+    "heading": "Trečiųjų šalių sekimas",
+    "helpText": "Šiuos slapukus gali būti nustatę trečiųjų šalių sekimo paslaugų teikėjai, sukonfigūruoti šioje svetainėje. Jums apsilankius, jie gali rinkti su jumis susijusią taikymo arba rinkodaros informaciją. Surinkta informacija gali būti naudojama su šia programėle nesusijusiais tikslais. Jei neleisite naudoti šių slapukų, sukonfigūruoti trečiųjų šalių sekimo paslaugų teikėjai negaus jokios informacijos apie jūsų apsilankymą."
+  }
+}

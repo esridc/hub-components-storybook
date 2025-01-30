@@ -1,0 +1,66 @@
+{
+  "followers": "Follower",
+  "tabs": {
+    "followers": "Follower",
+    "settings": "Einstellungen"
+  },
+  "addFollowers": {
+    "label": "Follower hinzufügen"
+  },
+  "emptyState": {
+    "message": "Site hat keine Follower-Gruppe.",
+    "action": "Follower-Gruppe erstellen"
+  },
+  "createFollowersGroup": {
+    "formDescription": "Eine Gruppe einrichten, um das Freigeben von Inhalten und die Kommunikation zu erleichtern",
+    "defaultSummary": "Diese Follower-Gruppe erleichtert es den Mitgliedern, Inhalte freizugeben und miteinander zu kommunizieren."
+  },
+  "restrictedAccessState": {
+    "message": "Sie haben keinen Zugriff auf die Anzeige der Follower-Gruppe.",
+    "action": "Zugriff anfordern"
+  },
+  "stats": {
+    "total": {
+      "title": "Gesamt",
+      "trailingText": "Follower"
+    },
+    "new": {
+      "title": "Neu",
+      "trailingText": "Letzte 30 Tage"
+    }
+  },
+  "addMembers": {
+    "button": "Mitglieder hinzufügen",
+    "modal": {
+      "title": "Mitglieder hinzufügen",
+      "org": "Eigene Organisation",
+      "community": "Eigene Community",
+      "partner": "Eigene Partner",
+      "world": "Welt"
+    },
+    "notifications": {
+      "invited": "Einladung gesendet. Zum Beitritt müssen Benutzer die Einladung annehmen",
+      "added": "Benutzer hinzugefügt",
+      "notInvited": "Einige Benutzer verfügen nicht über die erforderlichen Berechtigungen, um der Gruppe beizutreten, oder möglicherweise wurde das maximal zulässige Limit für Gruppen erreicht (512)"
+    }
+  },
+  "removeUsers": {
+    "button": "Entfernen",
+    "success": "Mitglieder erfolgreich aus {groupName} entfernt.",
+    "error": "Mindestens ein Benutzer konnte nicht aus der Gruppe entfernt werden."
+  },
+  "changeRole": {
+    "button": "Rolle ändern",
+    "member": "Mitglied",
+    "memberHelperText": "Kann Inhalt in der Gruppe hinzufügen und anzeigen.",
+    "tooltipText": "Auswahl der eigenen Person und/oder des Gruppenbesitzers aufheben",
+    "tooltipLabel": "Haftungsausschluss für Rolle",
+    "admin": "Manager",
+    "adminHelperText": "Kann Inhalt hinzufügen/entfernen und Personen einladen/entfernen (ausgenommen vom Besitzer).",
+    "success": "Die ausgewählten Mitglieder wurden der Gruppe \"{role}\" zugewiesen.",
+    "error": "Die Rolle konnte für mindestens ein Mitglied nicht geändert werden."
+  },
+  "notice": {
+    "label": "Formularwarnung"
+  }
+}

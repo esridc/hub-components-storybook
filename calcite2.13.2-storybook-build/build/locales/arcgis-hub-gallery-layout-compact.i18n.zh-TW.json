@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "找不到任何結果。"
+    },
+    "error": {
+      "message": "很抱歉，搜尋遇到錯誤。"
+    }
+  },
+  "type": "類型",
+  "tags": "標記",
+  "owner": "擁有者",
+  "dateCreated": "建立日期",
+  "dateUpdated": "已修改",
+  "categories": "類別",
+  "dateAndTime": "日期與時間",
+  "allDay": "{date} (全天)",
+  "allDayRange": "{from} - {to} (全天)",
+  "location": "位置",
+  "attendanceType": "出席類型",
+  "inPerson": "親自",
+  "online": "線上",
+  "hybrid": "混合"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Collections",
+  "actions": {
+      "label": "Options",
+      "show": "Show",
+      "hide": "Hide",
+      "rename": "Rename"
+  },
+  "formAlert": "Form alert",
+  "alertMessages": {
+      "success": "Successfully saved edits",
+      "error": "Error saving edits"
+  },
+  "collectionRenameModal": {
+      "title": "Rename Collection",
+      "fieldLabel": "Collection label",
+      "requiredMessage": "Collection label required",
+      "apply": "Apply",
+      "maxLengthMessage": "Collection label must not exceed 50 characters"
+  },
+  "collections": {
+      "dataset": "Data",
+      "site": "Sites",
+      "document": "Documents",
+      "appAndMap": "Apps & Maps"
+  },
+  "saveButton": "Save",
+  "sections": {
+    "collectionConfiguration": {
+        "title": "Collection configuration"
+    }
+  }
+}

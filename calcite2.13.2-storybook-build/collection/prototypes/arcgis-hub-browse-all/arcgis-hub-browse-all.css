@@ -1,0 +1,66 @@
+:host {
+  display: block;
+}
+section {
+  margin-top: 1rem;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.explore > calcite-button {
+  padding: 0 0.5rem 0 0;
+}
+
+:host([layout="list"]) .card-container, :host([layout="grid"]) .card-container, :host([layout="map"]) .card-container, :host([layout="grid-filled"]) .card-container {
+  display: grid;
+  gap: 1.5rem;
+}
+
+/* basic grid layout - up to 4 columns, but flexible */
+:host([layout="grid"]) .card-container,
+:host([layout="map"]) .card-container {
+  /* up to 4 columns accounting for gap */
+  grid-template-columns: repeat(auto-fill, minmax(max(240px, (100% - (4 - 1) * 24px) / 4), 1fr));
+}
+
+/* filled grid layout - 4 columns but cards in last row will fill the whole row */
+/* implemented as a 12 column grid where cards span 3 columns by default (so, effectively, a 4 column grid) */
+:host([layout="grid-filled"]) .card-container {
+  grid-template-columns: repeat(12, 1fr);
+}
+
+:host([layout="grid-filled"]) .card-container > * {
+  /* the default is for a card to span 3 columns or one fourth of the width */
+  /* but we change it dynamically based on the width of the component */
+  grid-column: span calc(12 / var(--columns));
+}
+
+/* when it is a 4 column grid and there is one card in the last row */
+:host([layout="grid-filled"]) .card-container.cols-4 > *:nth-of-type(4n+1):last-of-type,
+/* when it is a 3 column grid and there is one card in the last row */
+:host([layout="grid-filled"]) .card-container.cols-3 > *:nth-of-type(3n+1):last-of-type,
+/* when it is a 2 column grid and there is one card in the last row */
+:host([layout="grid-filled"]) .card-container.cols-2 > *:nth-of-type(2n+1):last-of-type {
+  /* it should span 12 columns */
+  grid-column: span 12 / span 12;
+}
+
+/* when it is a 4 column grid and there are 2 cards in the last row */
+:host([layout="grid-filled"]) .card-container.cols-4 > *:nth-of-type(4n+1):nth-last-of-type(2),
+:host([layout="grid-filled"]) .card-container.cols-4 > *:nth-of-type(4n+2):last-of-type,
+/* when it is a 3 column grid and there are 2 cards in the last row */
+:host([layout="grid-filled"]) .card-container.cols-3 > *:nth-of-type(3n+1):nth-last-of-type(2),
+:host([layout="grid-filled"]) .card-container.cols-3 > *:nth-of-type(3n+2):last-of-type {
+  /* they should both span 6 columns */
+  grid-column: span 6 / span 6;
+}
+
+/* when it is a 4 column grid and there are 3 cards in the last row */
+:host([layout="grid-filled"]) .card-container.cols-4 > *:nth-of-type(4n+1):nth-last-of-type(3),
+:host([layout="grid-filled"]) .card-container.cols-4 > *:nth-of-type(4n+2):nth-last-of-type(2),
+:host([layout="grid-filled"]) .card-container.cols-4 > *:nth-of-type(4n+3):last-of-type {
+  /* they should span 4 columns */
+  grid-column: span 4 / span 4;
+}

@@ -1,0 +1,66 @@
+{
+  "followers": "Follower",
+  "tabs": {
+    "followers": "Follower",
+    "settings": "Impostazioni"
+  },
+  "addFollowers": {
+    "label": "Aggiungi follower"
+  },
+  "emptyState": {
+    "message": "Il sito non ha un gruppo di follower",
+    "action": "Crea gruppo di follower"
+  },
+  "createFollowersGroup": {
+    "formDescription": "Impostare un gruppo per facilitare la condivisione del contenuto e la comunicazione",
+    "defaultSummary": "Questo gruppo di follower consente ai membri di condividere il contenuto e comunicare tra loro più facilmente"
+  },
+  "restrictedAccessState": {
+    "message": "Non si dispone dell'accesso alla visualizzazione del gruppo di follower.",
+    "action": "Richiedi accesso"
+  },
+  "stats": {
+    "total": {
+      "title": "Totale",
+      "trailingText": "Follower"
+    },
+    "new": {
+      "title": "Nuovo",
+      "trailingText": "Ultimi 30 giorni"
+    }
+  },
+  "addMembers": {
+    "button": "Aggiungi membri",
+    "modal": {
+      "title": "Aggiungi membri",
+      "org": "La mia organizzazione",
+      "community": "La mia community",
+      "partner": "I miei partner",
+      "world": "Mondo"
+    },
+    "notifications": {
+      "invited": "Invito inviato. Gli utenti devono accettarlo per partecipare",
+      "added": "Utenti aggiunti",
+      "notInvited": "Alcuni utenti potrebbero non disporre dei privilegi necessari per partecipare al gruppo o potrebbero aver raggiunto il limite massimo di gruppi (512)"
+    }
+  },
+  "removeUsers": {
+    "button": "Rimuovi",
+    "success": "Membri rimossi correttamente da {groupName}.",
+    "error": "Impossibile rimuovere uno o più utenti dal gruppo."
+  },
+  "changeRole": {
+    "button": "Modifica ruolo",
+    "member": "Membro",
+    "memberHelperText": "Può aggiungere e visualizzare contenuti all'interno del gruppo.",
+    "tooltipText": "Deselezionare se stessi e/o il proprietario del gruppo",
+    "tooltipLabel": "Esclusione di responsabilità dal ruolo",
+    "admin": "Gestore",
+    "adminHelperText": "Può aggiungere/rimuovere contenuti e invitare/rimuovere persone (tranne il proprietario).",
+    "success": "I membri selezionati sono diventati gruppo {role}.",
+    "error": "Impossibile modificare il ruolo di uno o più membri."
+  },
+  "notice": {
+    "label": "Avviso modulo"
+  }
+}

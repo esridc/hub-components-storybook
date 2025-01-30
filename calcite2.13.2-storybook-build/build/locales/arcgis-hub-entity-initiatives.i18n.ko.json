@@ -1,0 +1,87 @@
+{
+  "initiatives": "이니셔티브",
+  "description": "이니셔티브와 연결하여 장기 또는 대규모 작업에 기여합니다. 프로젝트 협업 기관은 확인된 연결 및 미해결 연결 요청을 관리할 수 있습니다. 확인된 연결이 있는 이니셔티브는 이 프로젝트 뷰에 표시됩니다. ",
+  "shared": {
+    "error": {
+      "title": "오류가 발생했습니다.",
+      "message": "작업을 완료할 수 없습니다. 다시 시도하세요."
+    },
+    "facets": {
+      "access": {
+        "label": "공유"
+      },
+      "status": {
+        "label": "상태",
+        "notStarted": "시작되지 않음",
+        "inProgress": "진행 중",
+        "onHold": "보류 중",
+        "complete": "완료"
+      },
+      "tags": {
+        "label": "태그"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "{currentConfirmedAndOutgoingRequests}/{maxCurrentAndOutgoingRequestsAllowed}개 확인됨 + 발신 요청",
+      "tooltip": "요청을 보내려면 기존 연결 및/또는 발신 요청의 연결을 해제하세요."
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "이니셔티브 찾기",
+    "sendRequest": "요청 보내기",
+    "success": {
+      "title": "성공",
+      "message": "연결 요청이 전송됨: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "연결 확인",
+      "message": "일부 선택 항목은 이미 연결을 요청했습니다. 새 연결 요청이 전송됨: {count}"
+    },
+    "catalog": {
+      "myContent": "내 콘텐츠",
+      "favorites": "즐겨찾기",
+      "organization": "내 기관",
+      "partners": "내 파트너",
+      "community": "내 커뮤니티"
+    },
+    "collection": {
+      "initiatives": "이니셔티브"
+    }
+  },
+  "acceptAssociation": {
+    "label": "수락",
+    "limitReachedTooltip": "수락하려면 기존 연결 및/또는 발신 요청의 연결을 해제하세요.",
+    "success": {
+      "title": "성공",
+      "message": "{requestor}에 연결이 수락됨"
+    }
+  },
+  "cancelRequest": {
+    "label": "요청 취소",
+    "success": {
+      "title": "성공",
+      "message": "연결 요청이 취소됨"
+    }
+  },
+  "breakAssociation": {
+    "label": "연결 해제",
+    "success": {
+      "title": "연결이 끊어짐",
+      "message": "이전 연결에서 이 항목의 연결을 해제했습니다. 그러나 상대측의 결정을 되돌릴 수는 없으므로 수신 요청에 이 항목이 계속 표시될 수 있습니다."
+    }
+  },
+  "associationsGallery": {
+    "sources": "상태",
+    "catalog": {
+      "associated": "연결됨",
+      "requesting": "수신 요청",
+      "pending": "발신 요청"
+    },
+    "collection": {
+      "initiatives": "이니셔티브"
+    }
+  },
+  "notice": {
+    "label": "양식 알림"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "addMetric": "Lisa mõõdik",
+  "title": "Mõõdikud",
+  "featured": "Esiletõstetud",
+  "metricDescription": "Mõõdetav väärtus, mida kasutatakse projekti edenemise jälgimiseks kas staatiliste (nt ajalooliste) või dünaamiliste (nt reaalaja) andmete põhjal.",
+  "metricCount": {
+    "label": "{currentCount} / {totalCountAllowed} mõõdikut",
+    "tooltip": "Mõõdikute lisamiseks kustutage mõni olemasolev kogum"
+  },
+  "visible": {
+    "title": "Nähtav",
+    "noMetrics": "Selles jaotises pole mõõdikuid."
+  },
+  "hidden": {
+    "title": "Peidetud",
+    "description": "Need mõõdikud kuvatakse ainult neile, kellel on juurdepääs sellele tööruumile.",
+    "noMetrics": "Selles jaotises pole mõõdikuid."
+  },
+  "project": {
+    "featured": {
+      "description": "Saate valida 4 esiletoodud mõõdikut. Need kuvatakse teie reaalajas toimuva projekti Ülevaates."
+    },
+    "visible": {
+      "description": "Nähtavad mõõdikud kuvatakse teie reaalaja projektis vahekaardil Mõõdikud."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Mõõdikud vastavad projekti jagamistasemele. Peidetud mõõdikud võivad endiselt olla API kutse jaoks saadaval.",
+        "metricsDockLink": "Teave mõõdikute seadistamise kohta"
+      }
+    }
+  },
+  "initiative": {
+    "featured": {
+      "description": "Saate valida 4 esiletoodud mõõdikut. Need kuvatakse teie reaalajas toimuva algatuse Ülevaates."
+    },
+    "visible": {
+      "description": "Nähtavad mõõdikud kuvatakse teie reaalaja projektis vahekaardil Mõõdikud."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Mõõdikud vastavad algatuse jagamistasemele. Peidetud mõõdikud võivad endiselt olla API kutse jaoks saadaval.",
+        "metricsDockLink": "Teave mõõdikute seadistamise kohta"
+      }
+    }
+  },
+  "metricNumber": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4"
+  },
+  "actions": {
+    "delete": "Kustuta",
+    "edit": "Muuda",
+    "featured": "Objekt",
+    "removeFeatured": "Eemalda esiletõstetud",
+    "show": "Liiguta nähtavate hulka",
+    "hide": "Liiguta peidetute hulka"
+  },
+  "editor": {
+    "heading": "Uus mõõdik",
+    "description": "Vaikimisi on mõõdikud automaatselt peidetud, nii et teie tööruumi liikmed saavad neid näha."
+  },
+  "deleteMetricModal": {
+    "heading": "Kustuta mõõdik",
+    "content": "Kas soovite kindlasti kustutada:",
+    "cancel": "Loobu",
+    "delete": "Kustuta"
+  },
+  "sidePanel": {
+    "definitions": "Määratlused",
+    "preview": "Eelvaade"
+  }
+}

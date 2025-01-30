@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "Adicionar primeira ação",
+  "addSecondAction": "Adicionar segunda ação",
+  "addLink": "Adicionar ligação",
+  "addSection": "Adicionar secção",
+  "deleteNotice": {
+    "title": "Não é possível eliminar",
+    "message": "A secção não está vazia. Mova todas as ligações para fora da secção antes de tentar eliminar."
+  },
+  "linkEditor": {
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "cancel": "Cancelar",
+    "preview": "Ligação de pré-visualização",
+    "title": {
+      "button1": "Primeira ação",
+      "button2": "Segunda ação",
+      "block": "Ligação de ação"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "Ligação para conteúdo existente"
+        },
+        "external": {
+          "label": "Ligação para uma fonte externa"
+        }
+      },
+      "label": {
+        "label": "Etiqueta",
+        "helperText": {
+          "button": "Este texto será apresentado no botão.",
+          "block": "Será apresentado no bloco a negrito."
+        },
+        "requiredError": "A etiqueta é um campo obrigatório."
+      },
+      "description": {
+        "label": "Descrição",
+        "helperText": "Esta é uma informação secundária."
+      },
+      "href": {
+        "label": "Ligação",
+        "requiredError": "A ligação é um campo obrigatório.",
+        "formatError": "A formatação do URL está incorreta."
+      },
+      "contentId": {
+        "label": "Ligação de conteúdo",
+        "requiredError": "A ligação de conteúdo é um campo obrigatório."
+      },
+      "section": {
+        "label": "Mover para a secção",
+        "placeholder": {
+          "noSections": "Nenhuma secção foi configurada",
+          "notSet": "Não se encontra na secção"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "Secção",
+    "helperText": "As secções podem ser utilizadas para agrupar ligações num item de menu. As secções não funcionam como uma ligação.",
+    "section": {
+      "label": {
+        "label": "Etiqueta",
+        "requiredError": "A etiqueta é um campo obrigatório."
+      },
+      "description": {
+        "label": "Descrição"
+      }
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "controls": {
+    "addContent": "Tilføj indhold",
+    "back": "Tilbage",
+    "cancel": "Annuller",
+    "close": "Udført",
+    "create": "Opret og føj til gruppe",
+    "next": "Næste"
+  },
+  "createHelpState": {
+    "discussion": {
+      "heading": "Diskussion",
+      "message": "Opret en ny diskussionstavle ved at angive en titel, der angiver emnet."
+    },
+    "event": {
+      "heading": "Begivenhed",
+      "message": "Host en organiseret aktivitet, med personlig deltagelse eller virtuelt."
+    },
+    "group": {
+      "heading": "Gruppe",
+      "message": "Opret en gruppe til at samarbejde om fokuseret indhold."
+    },
+    "initiative": {
+      "heading": "Initiativ",
+      "message": "Initiativer organiserer og summerer statussen i forhold til et mål."
+    },
+    "page": {
+      "heading": "Side",
+      "message": "En side er et sted, hvor du kan dele oplysninger og interagere med dit publikum."
+    },
+    "project": {
+      "heading": "Projekt",
+      "message": "Fremhæv arbejde med klare mål og tidsrammer."
+    },
+    "site": {
+      "heading": "Websted",
+      "message": "Opret en webside til at organisere og dele oplysninger."
+    }
+  },
+  "selection": {
+    "unlimited": "Valgt: {count}",
+    "limited": "Valgt: {count}/{limit}"
+  },
+  "steps": {
+    "createContent": "Tilføj grundlæggende oplysninger",
+    "selectContent": "Vælg indhold",
+    "selectGroups": "Vælg gruppe",
+    "confirmation": "Bekræftelse",
+    "notImplemented": "Ikke implementeret"
+  },
+  "working": {
+    "heading": "Tilføjer det valgte indhold.",
+    "loadingLabel": "Tilføjer indhold."
+  },
+  "failure": {
+    "heading": "Indholdet er ikke tilføjet",
+    "message": "Der gik noget galt ved tilføjelsen af det valgte indhold, prøv venligst igen.",
+    "action": "Prøv igen"
+  },
+  "notImplemented": {
+    "heading": "Denne arbejdsgang er endnu ikke blevet implementeret."
+  },
+  "contentGallery": {
+    "facets": {
+      "access": {
+        "label": "Fra"
+      },
+      "type": {
+        "label": "Typer"
+      },
+      "tags": {
+        "label": "Nøgleord"
+      },
+      "categories": {
+        "label": "Kategorier"
+      },
+      "modified": {
+        "label": "Ændret"
+      }
+    }
+  },
+  "groupsGallery": {
+    "facets": {
+      "access": {
+        "label": "Kan ses af",
+        "options": {
+          "org": "Organisation",
+          "public": "Alle (offentlig)",
+          "private": "Mig"
+        }
+      },
+      "from": {
+        "label": "Fra",
+        "options": {
+          "myCommunity": "Mit fællesskab",
+          "myGroups": "Mine grupper",
+          "myOrganization": "Min organisation",
+          "world": "Verden"
+        }
+      },
+      "type": {
+        "label": "Typer",
+        "options": {
+          "sharedUpdate": "Delt opdatering",
+          "opendata": "Open Data"
+        }
+      }
+    }
+  }
+}

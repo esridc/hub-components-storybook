@@ -1,0 +1,43 @@
+arcgis-configuration-form {
+  --arcgis-configuration-form-footer-negative-margin: 0.75rem;
+  --arcgis-configuration-form-footer-bg-color: var(--calcite-color-background);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+arcgis-hub-notice {
+  margin: 0.5rem;
+}
+
+.catalog-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.configure-catalog-button {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+/**
+These style rules are used when we wormhole the
+collections builder into the calcite-flow element
+*/
+.collections-builder-editor {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+calcite-list {
+  background-color: var(--calcite-color-foreground-1);
+}
+
+arcgis-configuration-editor, arcgis-configuration-editor-field {
+  height: 100%;
+}
+
+.collections-builder-appearance-settings {
+  position: absolute;
+  bottom: 0px;
+}

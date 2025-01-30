@@ -1,0 +1,110 @@
+{
+  "controls": {
+    "addContent": "Dodaj zasoby",
+    "back": "Wstecz",
+    "cancel": "Anuluj",
+    "close": "Wykonano",
+    "create": "Utwórz i dodaj do grupy",
+    "next": "Dalej"
+  },
+  "createHelpState": {
+    "discussion": {
+      "heading": "Dyskusja",
+      "message": "Utwórz nowy panel dyskusyjny, wpisując tytuł wskazujący temat."
+    },
+    "event": {
+      "heading": "Wydarzenie",
+      "message": "Zorganizuj aktywność z udziałem osobistym lub wirtualnym."
+    },
+    "group": {
+      "heading": "Grupa",
+      "message": "Skonfiguruj grupę, której członkowie będą współpracować przy tworzeniu specjalistycznych zasobów."
+    },
+    "initiative": {
+      "heading": "Inicjatywa",
+      "message": "Inicjatywy służą do organizowania pracy i podsumowywania postępów w dążeniu do celu."
+    },
+    "page": {
+      "heading": "Strona",
+      "message": "Strona to miejsce, w którym możesz udostępniać informacje i wchodzić w interakcje z odbiorcami."
+    },
+    "project": {
+      "heading": "Projekt",
+      "message": "Wyróżniaj zadania o jasnych celach i ramach czasowych."
+    },
+    "site": {
+      "heading": "Witryna",
+      "message": "Utwórz witrynę, aby organizować i udostępniać informacje."
+    }
+  },
+  "selection": {
+    "unlimited": "Wybrane: {count}",
+    "limited": "Wybrane: {count} / {limit}"
+  },
+  "steps": {
+    "createContent": "Dodaj podstawowe informacje",
+    "selectContent": "Wybierz zasoby",
+    "selectGroups": "Wybierz grupę",
+    "confirmation": "Potwierdzenie",
+    "notImplemented": "Nie zaimplementowano"
+  },
+  "working": {
+    "heading": "Dodawanie wybranych zasobów.",
+    "loadingLabel": "Dodawanie zasobów."
+  },
+  "failure": {
+    "heading": "Nie dodano zasobów",
+    "message": "Coś poszło nie tak podczas dodawania wybranych zasobów. Spróbuj ponownie.",
+    "action": "Spróbuj ponownie"
+  },
+  "notImplemented": {
+    "heading": "Ta procedura wykonywania zadań nie została jeszcze zaimplementowana."
+  },
+  "contentGallery": {
+    "facets": {
+      "access": {
+        "label": "Z"
+      },
+      "type": {
+        "label": "Typy"
+      },
+      "tags": {
+        "label": "Znaczniki"
+      },
+      "categories": {
+        "label": "Kategorie"
+      },
+      "modified": {
+        "label": "Zmodyfikowany"
+      }
+    }
+  },
+  "groupsGallery": {
+    "facets": {
+      "access": {
+        "label": "Widoczne dla",
+        "options": {
+          "org": "Instytucja",
+          "public": "Wszyscy (publiczne)",
+          "private": "Mnie"
+        }
+      },
+      "from": {
+        "label": "Z",
+        "options": {
+          "myCommunity": "Moja społeczność",
+          "myGroups": "Moje grupy",
+          "myOrganization": "Moja instytucja",
+          "world": "Świat"
+        }
+      },
+      "type": {
+        "label": "Typy",
+        "options": {
+          "sharedUpdate": "Aktualizacja elementów udostępnionych",
+          "opendata": "Open Data"
+        }
+      }
+    }
+  }
+}

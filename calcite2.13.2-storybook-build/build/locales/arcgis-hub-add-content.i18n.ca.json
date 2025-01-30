@@ -1,0 +1,72 @@
+{
+  "addContent": "Afegeix contingut",
+  "addContentType": {
+    "event": "Crea un esdeveniment",
+    "discussion": "Crea un debat",
+    "group": "Crea un grup",
+    "initiative": "Crea una iniciativa",
+    "project": "Crea un projecte",
+    "page": "Crea una pàgina",
+    "site:": "Crea un lloc"
+  },
+  "tooltip": {
+    "label": "Inhabilitat",
+    "noCatalog": "Afegiu grups al catàleg per afegir contingut.",
+    "noPermission": "No teniu permisos per afegir contingut al catàleg.",
+    "no-permission": "No teniu permisos per afegir contingut al catàleg.",
+    "not-in-groups": "No sou membre de cap grup que defineixi el catàleg.",
+    "too-many-groups": "Teniu el nombre màxim de grups i no se'n poden crear més."
+  },
+  "existing": {
+    "description": "Afegiu contingut que ja és a l'{onlineOrEnterprise}",
+    "modalTitle": "Seleccioneu contingut existent",
+    "title": "Seleccioneu contingut existent"
+  },
+  "create": {
+    "app": {
+      "description": "Creeu una experiència, expliqueu una història o visualitzeu les vostres dades",
+      "modalTitle": "Crea una aplicació",
+      "title": "Aplicació"
+    },
+    "event": {
+      "description": "Organitzeu activitats, en persona o virtualment.",
+      "modalTitle": "Crea un esdeveniment",
+      "title": "Esdeveniment"
+    },
+    "content": {
+      "description": "Afegiu dades, documents, imatges i enllaços externs al vostre lloc",
+      "modalTitle": "Crea contingut",
+      "title": "Contingut"
+    },
+    "discussion": {
+      "description": "Recopileu idees i comentaris",
+      "modalTitle": "Crea un tauler de debat",
+      "title": "Tauler de debat"
+    },
+    "group": {
+      "description": "Organitzeu gent per compartir contingut i debatre",
+      "modalTitle": "Crea un grup",
+      "title": "Grup"
+    },
+    "initiative": {
+      "description": "Destaqueu tasques estratègiques amb objectius definits que organitzen els projectes",
+      "modalTitle": "Crea una iniciativa",
+      "title": "Iniciativa"
+    },
+    "page": {
+      "description": "Presenteu informació en un disseny estructurat",
+      "modalTitle": "Crea una pàgina",
+      "title": "Pàgina"
+    },
+    "project": {
+      "description": "Presenteu tasques amb objectius i terminis clars",
+      "modalTitle": "Crea un projecte",
+      "title": "Projecte"
+    },
+    "site": {
+      "description": "Creeu un lloc web personalitzat per interaccionar amb la vostra comunitat",
+      "modalTitle": "Crea un lloc",
+      "title": "Lloc"
+    }
+  }
+}

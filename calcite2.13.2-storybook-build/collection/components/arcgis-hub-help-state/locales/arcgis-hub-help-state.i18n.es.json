@@ -1,0 +1,26 @@
+{
+  "unauthenticated": {
+    "heading": "Inicie sesión.",
+    "message": "Este sitio requiere credenciales para acceder.",
+    "actionText": "Iniciar sesión"
+  },
+  "not-found": {
+    "heading": "No se encontró la página",
+    "message": "Es posible que esta página se haya movido o eliminado. Pruebe a buscarlo en la página de inicio",
+    "actionText": "Ir a página de inicio"
+  },
+  "unsupported-device": {
+    "heading": "Tamaño de pantalla incompatible",
+    "message": "Los espacios de trabajo todavía no están disponibles en tamaños de pantalla más pequeños; utilice un dispositivo con una pantalla más grande.",
+    "actionText": "Atrás"
+  },
+  "access-denied": {
+    "heading": "Acceso denegado",
+    "message": "No tiene permiso para acceder a este recurso.",
+    "actionText": "Ir a página de inicio"
+  },
+  "loading": {
+    "heading": "Cargando...",
+    "loadingLabel": "Cargando"
+  }
+}

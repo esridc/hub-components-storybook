@@ -1,0 +1,46 @@
+{
+  "registrants": "注册人",
+  "invite": "邀请",
+  "tabs": {
+    "registrants": "注册人",
+    "settings": "设置"
+  },
+  "emptyNotice": {
+    "title": "无人注册",
+    "desc": "有观众参与的活动总是更有趣。 邀请参与者，或分享您的活动来鼓励人们参与。",
+    "link": "邀请注册人"
+  },
+  "facets": {
+    "role": {
+      "header": "角色",
+      "owner": "所有者",
+      "organizer": "组织者",
+      "attendee": "注册人"
+    },
+    "status": {
+      "header": "状态",
+      "pending": "待处理",
+      "accepted": "已接受",
+      "declined": "已拒绝",
+      "blocked": "已阻止"
+    },
+    "location": {
+      "header": "位置",
+      "online": "在线",
+      "in_person": "现场"
+    },
+    "updatedDate": "更新日期"
+  },
+  "delete": {
+    "attendee": "移除注册人"
+  },
+  "notice": {
+    "label": "表单警告"
+  },
+  "success": {
+    "delete": "已成功从 {eventName} 中移除注册人。"
+  },
+  "error": {
+    "delete": "无法将一名或多名注册人从活动中移除。"
+  }
+}

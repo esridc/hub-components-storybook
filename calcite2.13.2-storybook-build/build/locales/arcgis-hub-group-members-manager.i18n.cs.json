@@ -1,0 +1,59 @@
+{
+  "title": "Členové",
+  "facets": {
+    "role": {
+      "label": "Role",
+      "all": "Vše",
+      "manager": "Manažer",
+      "member": "Člen"
+    },
+    "dateJoined": {
+      "label": "Datum připojení"
+    }
+  },
+  "stats": {
+    "total": {
+      "title": "Celkem",
+      "trailingText": "Členové skupiny"
+    },
+    "new": {
+      "title": "Nový",
+      "trailingText": "Posledních 30 dní"
+    }
+  },
+  "addMembers": {
+    "button": "Přidat členy",
+    "disabledTooltip": "Pro přidávání uživatelů do této skupiny nemáte oprávnění.",
+    "modal": {
+      "title": "Přidat členy",
+      "org": "Moje organizace",
+      "community": "Moje komunita",
+      "partner": "Moji partneři",
+      "world": "Svět"
+    },
+    "notifications": {
+      "invited": "Pozvánka odeslána. Aby se mohli uživatelé připojit, musí ji přijmout.",
+      "added": "Uživatelé byli přidáni",
+      "notInvited": "Někteří uživatelé nemají oprávnění potřebná k připojení ke skupině nebo dosáhli maximálního počtu skupin (512)."
+    }
+  },
+  "removeUsers": {
+    "button": "Odebrat",
+    "success": "Členové úspěšně odebráni z {groupName}.",
+    "error": "Jednoho nebo více uživatelů nebylo možné ze skupiny odebrat."
+  },
+  "changeRole": {
+    "tooltipText": "Zrušte výběr sebe a/nebo vlastníka skupiny",
+    "tooltipLabel": "Vyloučení odpovědnosti role",
+    "button": "Změna role",
+    "member": "Člen",
+    "memberHelperText": "Může přidávat a zobrazovat obsah ve skupině.",
+    "admin": "Manažer",
+    "adminHelperText": "Může přidávat/odebírat obsah a zvát/odebírat osoby (kromě vlastníka).",
+    "success": "Vybraní členové mají roli {role} ve skupině.",
+    "error": "U jednoho nebo více členů nebylo možné změnit roli."
+  },
+  "notice": {
+    "label": "Chyba formuláře"
+  }
+}

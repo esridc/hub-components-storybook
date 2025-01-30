@@ -1,0 +1,57 @@
+{
+  "new": "Nowy",
+  "project": {
+    "label": "Projekt",
+    "description": "Wyróżniaj zadania o jasnych celach i ramach czasowych",
+    "createLabel": "Utwórz projekt",
+    "newLabel": "Nowy projekt"
+  },
+  "initiative": {
+    "label": "Inicjatywa",
+    "description": "Inicjatywy służą do organizowania pracy i podsumowywania postępów w dążeniu do celu",
+    "createLabel": "Utwórz inicjatywę",
+    "newLabel": "Nowa inicjatywa"
+  },
+  "discussion": {
+    "label": "Forum dyskusyjne",
+    "description": "Utwórz nowy panel dyskusyjny, wpisując tytuł wskazujący temat.",
+    "createLabel": "Utwórz forum dyskusyjne",
+    "newLabel": "Nowe forum dyskusyjne"
+  },
+  "site": {
+    "label": "Witryna",
+    "description": "Utwórz witrynę, aby organizować i udostępniać informacje",
+    "createLabel": "Utwórz witrynę",
+    "newLabel": "Nowa witryna"
+  },
+  "event": {
+    "label": "Wydarzenie",
+    "description": "Zorganizuj aktywność z udziałem osobistym lub wirtualnym",
+    "createLabel": "Utwórz wydarzenie",
+    "newLabel": "Nowe wydarzenie"
+  },
+  "content": {
+    "label": "Zasoby",
+    "description": "Dodaj do witryny dane, dokumenty, obrazy lub łącza zewnętrzne",
+    "createLabel": "Utwórz zasoby",
+    "newLabel": "Nowe zasoby"
+  },
+  "feedback": {
+    "label": "Opinia",
+    "description": "Zbieraj specjalistyczne informacje, używając narzędzi takich jak ankiety i sondaże",
+    "createLabel": "Utwórz opinię",
+    "newLabel": "Nowa opinia"
+  },
+  "app": {
+    "label": "Aplikacja",
+    "description": "Utwórz środowisko, przedstaw narrację lub zwizualizuj dane",
+    "createLabel": "Utwórz aplikację",
+    "newLabel": "Nowa aplikacja"
+  },
+  "group": {
+    "label": "Grupa",
+    "description": "Skonfiguruj grupę, której członkowie będą współpracować przy tworzeniu specjalistycznych zasobów",
+    "createLabel": "Utwórz grupę",
+    "newLabel": "Nowa grupa"
+  }
+}

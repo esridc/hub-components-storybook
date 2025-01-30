@@ -1,0 +1,66 @@
+{
+  "followers": "Sekotāji",
+  "tabs": {
+    "followers": "Sekotāji",
+    "settings": "Iestatījumi"
+  },
+  "addFollowers": {
+    "label": "Pievienot sekotājus"
+  },
+  "emptyState": {
+    "message": "Vietnei nav sekotāju grupas",
+    "action": "Izveidot sekotāju grupu"
+  },
+  "createFollowersGroup": {
+    "formDescription": "Izveidojiet grupu, lai atvieglotu satura koplietošanu un saziņu",
+    "defaultSummary": "Šī sekotāju grupa ļauj dalībniekiem vieglāk koplietot saturu un sazināties savā starpā"
+  },
+  "restrictedAccessState": {
+    "message": "Jums nav piekļuves, lai skatītu sekotāju grupu.",
+    "action": "Pieprasīt piekļuvi"
+  },
+  "stats": {
+    "total": {
+      "title": "Kopā",
+      "trailingText": "Sekotāji"
+    },
+    "new": {
+      "title": "Jauns",
+      "trailingText": "Pēdējās 30 dienas"
+    }
+  },
+  "addMembers": {
+    "button": "Pievienot dalībniekus",
+    "modal": {
+      "title": "Pievienot dalībniekus",
+      "org": "Mana organizācija",
+      "community": "Mana kopiena",
+      "partner": "Mani partneri",
+      "world": "Pasaule"
+    },
+    "notifications": {
+      "invited": "Uzaicinājums nosūtīts. Lai pievienotos, lietotājiem ir jāpiekrīt",
+      "added": "Lietotājs(-i) pievienots(-i)",
+      "notInvited": "Dažiem lietotājiem, iespējams, nav privilēģiju, kas nepieciešamas, lai pievienotos grupai, vai arī sasniegts grupas maksimālais ierobežojums (512)"
+    }
+  },
+  "removeUsers": {
+    "button": "Noņemt",
+    "success": "Dalībnieki sekmīgi noņemti no {groupName}.",
+    "error": "Vienu vai vairākus lietotājus nevarēja noņemt no grupas."
+  },
+  "changeRole": {
+    "button": "Mainīt lomu",
+    "member": "Dalībnieks",
+    "memberHelperText": "Var pievienot un skatīt saturu grupā.",
+    "tooltipText": "Noņemiet no saraksta sevi un/vai grupas īpašnieku.",
+    "tooltipLabel": "Funkcijas atruna",
+    "admin": "Pārvaldnieks",
+    "adminHelperText": "Var pievienot/noņemt saturu un uzaicināt/noņemt personas (izņemot īpašnieku).",
+    "success": "Atlasītie dalībnieki kļuva par grupu {role}.",
+    "error": "Vienam vai vairākiem dalībniekiem lomu nevarēja mainīt."
+  },
+  "notice": {
+    "label": "Veidlapas brīdinājums"
+  }
+}

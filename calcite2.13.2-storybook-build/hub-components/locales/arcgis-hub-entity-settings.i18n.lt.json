@@ -1,0 +1,53 @@
+{
+  "settings": "Nuostatos",
+  "formDisabledTooltip": "Neturite prieigos keisti {type}.",
+  "delete": {
+    "project": "Ištrinti šį projektą",
+    "initiative": "Ištrinti šią iniciatyvą",
+    "site": "Ištrinti šią svetainę",
+    "discussion": "Ištrinti šią diskusiją",
+    "content": "Ištrinti šį turinį",
+    "page": "Ištrinti šį puslapį",
+    "group": "Ištrinti šią grupę",
+    "initiativeTemplate": "Ištrinti šį iniciatyvos šabloną",
+    "template": "Ištrinti šį šabloną",
+    "survey": "Ištrinti šią apklausą",
+    "desc": {
+      "project": "Šio projekto ištrinimo atšaukti negalima.",
+      "initiative": "Šios iniciatyvos ištrinimo atšaukti negalima.",
+      "site": "Šios svetainės ištrinimo atšaukti negalima.",
+      "discussion": "Šios diskusijos ištrinimo atšaukti negalima.",
+      "content": "Šio turinio ištrinimo atšaukti negalima.",
+      "page": "Šio puslapio ištrinimo atšaukti negalima.",
+      "group": "Šios grupės ištrinimo atšaukti negalima.",
+      "initiativeTemplate": "Šio iniciatyvos šablono ištrinimo atšaukti negalima.",
+      "template": "Šio šablono ištrinimo atšaukti negalima.",
+      "survey": "Šios apklausos ištrinimo atšaukti negalima."
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "project": "Ištrinti projektą",
+      "initiative": "Ištrinti iniciatyvą",
+      "site": "Ištrinti svetainę",
+      "discussion": "Ištrinti diskusiją",
+      "content": "Ištrinti turinį",
+      "page": "Naikinti puslapį",
+      "group": "Ištrinti grupę",
+      "initiativeTemplate": "Trinti iniciatyvos šabloną",
+      "template": "Ištrinti šabloną",
+      "survey": "Ištrinti apklausą"
+    },
+    "content": "Ar tikrai norite ištrinti:",
+    "delete": "Pašalinti",
+    "cancel": "Atšaukti"
+  },
+  "sidePanel": {
+    "content": {
+      "extractNotice": {
+        "title": "„Ištraukimo“ galimybė keičia paslaugos nustatymus.",
+        "message": "Tai turės įtakos kitiems elementams, kurie nurodo paslaugą. Norėdami gauti daugiau informacijos, žr. <docLink>Duomenų eksportavimas iš talpinamų funkcijų sluoksnių</docLink>"
+      }
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "advancedConfig": {
+    "label": "Configurações avançadas",
+    "serverTimeout": {
+      "label": "Tempo limite do servidor (segundos)",
+      "helperText": "Útil para serviços maiores que podem levar mais tempo para responder.",
+      "errors": {
+        "type": "Insira uma configuração de tempo limite do servidor.",
+        "minimum": "O valor de tempo limite do servidor deve ser pelo menos 5.",
+        "maximum": "O valor do tempo limite do servidor deve ser no máximo 95."
+      }
+    }
+  },
+  "appearance": {
+    "corners": {
+      "label": "Cantos",
+      "enum": {
+        "round": {
+          "label": "Arredondado"
+        },
+        "square": {
+          "label": "Quadrado"
+        }
+      }
+    },
+    "dropShadow": {
+      "label": "Sombra Projetada",
+      "enum": {
+        "heavy": {
+          "label": "Intenso"
+        },
+        "low": {
+          "label": "Baixo"
+        },
+        "medium": {
+          "label": "Médio"
+        },
+        "none": {
+          "label": "Não foi iniciado"
+        }
+      }
+    },
+    "layout": {
+      "label": "Estilo de cartão",
+      "enum": {
+        "informational": {
+          "label": "Informativo"
+        },
+        "simple": {
+          "label": "Simples"
+        }
+      }
+    },
+    "popoverText": {
+      "label": "Conteúdo modal"
+    },
+    "publisherText": {
+      "label": "Pulicador de origem"
+    },
+    "styleSpecificSettings": {
+      "label": "Configurações de estilo",
+      "helperInfoText": "Selecionar o botão de informações abrirá um modal que contém mais informações.",
+      "helperVizText": "O cartão simples permite adicionar um ícone como elemento visual, que pode ser usado para refletir alterações nos dados."
+    },
+    "sectionTitle": "Aparência",
+    "textAlign": "Alinhamento",
+    "visualInterest": {
+      "label": "Elemento visual",
+      "enum": {
+        "icon": {
+          "label": "Ícone"
+        },
+        "none": {
+          "label": "Nenhum"
+        }
+      }
+    },
+    "icon": {
+      "label": "Ícone",
+      "caretUp": {
+        "label": "Aumentar"
+      },
+      "caretDown": {
+        "label": "Diminuir"
+      },
+      "caretDouble": {
+        "label": "Sem alterações"
+      }
+    },
+    "valueColor": "Cor (Estatística)"
+  },
+  "details": {
+    "allowDynamicLink": "Exibir link da fonte",
+    "link": {
+      "sectionTitle": "Link",
+      "sourceLink": "URL de Link",
+      "sourceTitle": "Texto do vínculo"
+    },
+    "sectionTitle": "Detalhes",
+    "subtitle": "Subtítulo",
+    "title": "Título",
+    "trailingText": {
+      "label": "Texto final",
+      "helperText": "Insira qualquer contexto ou explicação adicional (para aparecer abaixo do valor da métrica)."
+    }
+  },
+  "errors": {
+    "sourceLink": {
+      "required": "Link necessário para exibir a fonte.",
+      "formatError": "A formatação da URL está incorreta"
+    }
+  },
+  "formatting": {
+    "sectionTitle": "Formatação",
+    "unit": {
+      "label": "Unidades de visualização",
+      "helperText": "Digite a unidade de medida para o seu valor."
+    },
+    "unitPosition": {
+      "label": "Disposição",
+      "helperText": "Selecione onde a unidade de medida (por exemplo, 'km', 'lbs') aparece em relação ao valor métrico.",
+      "enum": {
+        "after": {
+          "label": "Depois"
+        },
+        "before": {
+          "label": "Antes"
+        },
+        "below": {
+          "label": "Abaixo"
+        }
+      }
+    }
+  },
+  "sharing": {
+    "sectionTitle": "Compartilhamento",
+    "showShareIcon": "Habilitar compartilhamento",
+    "showShareIconHelperText": "Permitir que os usuários copiem um link direto para este cartão nesta página.",
+    "shareableByValue": "Habilitar Incorporações",
+    "shareableOnHover": {
+      "label": "Exibir ao pairar o mouse",
+      "helperText": {
+        "label": "O botão Compartilhar é exibido apenas ao pairar o mouse. Se desligado, o botão estará sempre visível."
+      }
+    }
+  },
+  "statistic": {
+    "dataSource": "Fonte de dados",
+    "displayValue": "Valor de exibição",
+    "sectionTitle": "Valor",
+    "type": {
+      "label": "Tipo",
+      "enum": {
+        "dynamic": {
+          "label": "Dinâmico",
+          "description": "Selecione um conjunto de dados existente (serviço da feição) para resumir."
+        },
+        "static": {
+          "label": "Estático",
+          "description": "Insira manualmente um valor para destacar em seu layout."
+        }
+      }
+    }
+  }
+}

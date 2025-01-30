@@ -1,0 +1,72 @@
+{
+  "addContent": "콘텐츠 추가",
+  "addContentType": {
+    "event": "이벤트 생성",
+    "discussion": "토론 생성",
+    "group": "그룹 생성",
+    "initiative": "이니셔티브 생성",
+    "project": "프로젝트 생성",
+    "page": "페이지 생성",
+    "site:": "사이트 생성"
+  },
+  "tooltip": {
+    "label": "비활성화됨",
+    "noCatalog": "카탈로그에 그룹을 추가하여 콘텐츠를 추가합니다.",
+    "noPermission": "카탈로그에 콘텐츠를 추가할 권한이 없습니다.",
+    "no-permission": "카탈로그에 콘텐츠를 추가할 권한이 없습니다.",
+    "not-in-groups": "카탈로그를 정의하는 그룹의 구성원이 아닙니다.",
+    "too-many-groups": "최대 그룹 수에 도달했으며 더 이상 생성할 수 없습니다."
+  },
+  "existing": {
+    "description": "이미 {onlineOrEnterprise}에 있는 콘텐츠 추가",
+    "modalTitle": "기존 콘텐츠 선택",
+    "title": "기존 콘텐츠 선택"
+  },
+  "create": {
+    "app": {
+      "description": "환경을 구성하고 스토리를 전달하거나 데이터를 시각화합니다.",
+      "modalTitle": "앱 생성",
+      "title": "앱"
+    },
+    "event": {
+      "description": "구성한 활동을 대면 또는 온라인으로 호스팅합니다.",
+      "modalTitle": "이벤트 생성",
+      "title": "이벤트"
+    },
+    "content": {
+      "description": "데이터, 문서, 이미지, 외부 링크를 사이트에 추가하세요",
+      "modalTitle": "콘텐츠 생성",
+      "title": "콘텐츠"
+    },
+    "discussion": {
+      "description": "아이디어와 피드백을 수집합니다.",
+      "modalTitle": "토론 보드 생성",
+      "title": "토론 보드"
+    },
+    "group": {
+      "description": "사용자를 조직하여 콘텐츠를 공유하고 토론합니다.",
+      "modalTitle": "그룹 생성",
+      "title": "그룹"
+    },
+    "initiative": {
+      "description": "프로젝트를 구성하는 뚜렷한 목표로 전략적 활동을 강조합니다.",
+      "modalTitle": "이니셔티브 생성",
+      "title": "이니셔티브"
+    },
+    "page": {
+      "description": "구조화된 레이아웃으로 정보를 제시합니다.",
+      "modalTitle": "페이지 생성",
+      "title": "페이지"
+    },
+    "project": {
+      "description": "명확한 목표와 기간으로 작업을 보여줍니다.",
+      "modalTitle": "프로젝트 생성",
+      "title": "프로젝트"
+    },
+    "site": {
+      "description": "커뮤니티와 교류할 브랜드 웹사이트를 만듭니다.",
+      "modalTitle": "사이트 생성",
+      "title": "사이트"
+    }
+  }
+}

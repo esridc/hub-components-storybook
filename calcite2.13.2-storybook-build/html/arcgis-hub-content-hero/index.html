@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-content-hero</title>
+
+  <style>
+    body {
+      background-color: rgba(200, 215, 240, 0.489) !important;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet" href="../calcite-web.min.css">
+</head>
+
+<body>
+  <div class="grid-container padding-leader-2">
+    <div class="column-20 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-hub-content-hero</h2>
+    </div>
+
+    <div class="column-20 trailer-2">
+      <h3>Hero with Map</h3>
+      <arcgis-hub-content-hero
+        id="arcgis-hub-content-hero-map"
+        basemap="streets-night-vector"
+        hero-title="Entity Title" >
+        <calcite-button round slot="footer-start">Follow Entity</calcite-button>
+      </arcgis-hub-content-hero>
+    </div>
+    <div class="column-20 trailer-2">
+      <h3>Hero with Thumbnail</h3>
+      <arcgis-hub-content-hero
+        id="arcgis-hub-content-hero-thumbnail"
+        thumbnail-url="https://devext.arcgis.com/sharing/rest/content/items/87767b99a5f94db484ef8852d844bf15/info/thumbnail/ago_downloaded.jpg?w=400"
+        hero-title="Entity Title" >
+        <calcite-button round slot="footer-start">Follow Entity</calcite-button>
+      </arcgis-hub-content-hero>
+    </div>
+    <div class="column-20 trailer-2">
+      <h3>Hero with Square Thumbnail</h3>
+      <arcgis-hub-content-hero
+        id="arcgis-hub-content-hero-square"
+        thumbnail-url="https://media.istockphoto.com/vectors/thumbnail-image-vector-graphic-vector-id1147544807?k=20&m=1147544807&s=170667a&w=0&h=dEG-F9qxz7pHUJzX2zm9Bz5oystHcRsUfgRwBJf-Op4="
+        hero-title="Document Content View" >
+        <calcite-button slot="footer-start">Download</calcite-button>
+        <calcite-avatar
+          slot="main"
+          scale="l"
+          full-name="Ron Swanson"/>
+      </arcgis-hub-content-hero>
+    </div>
+    <div class="column-20 trailer-2">
+      <h3>Hero with Custom Theme</h3>
+      <arcgis-hub-content-hero
+        id="arcgis-hub-content-hero-theme"
+        basemap="streets-night-vector"
+        hero-title="Entity Title" >
+        <calcite-button round slot="footer-start">Follow Entity</calcite-button>
+      </arcgis-hub-content-hero>
+    </div>
+    <div class="column-20 trailer-2">
+      <h3>Replicating existing Content Hero</h3>
+      <arcgis-hub-content-hero
+        id="arcgis-hub-content-hero-existing"
+        thumbnail-url="https://devext.arcgis.com/sharing/rest/content/items/87767b99a5f94db484ef8852d844bf15/info/thumbnail/ago_downloaded.jpg?w=400"
+        hero-title="Document Content View" >
+        <calcite-button appearance="transparent" slot="footer-start">start Button 1</calcite-button>
+        <calcite-button appearance="transparent" slot="footer-start">start Button 2</calcite-button>
+        <calcite-button slot="footer-end">Trailing Button</calcite-button>
+        <calcite-avatar
+          slot="main"
+          scale="l"
+          full-name="Ron Swanson"/>
+      </arcgis-hub-content-hero>
+    </div>
+    <div class="column-20 trailer-2">
+      <h3>Hero with No Media</h3>
+      <arcgis-hub-content-hero
+        id="arcgis-hub-content-hero-no-media"
+        hero-title="Entity Title" >
+        <calcite-button round slot="footer-start">Follow Entity</calcite-button>
+      </arcgis-hub-content-hero>
+    </div>
+    <div class="column-10 trailer-2">
+      <h3>Hero on Mobile</h3>
+      <arcgis-hub-content-hero
+        id="arcgis-hub-content-hero-mobile"
+        basemap="streets-night-vector"
+        hero-title="Entity Title" >
+        <calcite-button round slot="footer-start">Follow Entity</calcite-button>
+      </arcgis-hub-content-hero>
+    </div>
+  </div>
+  <script>
+    const mockExtent = {
+      spatialReference: { wkid: 4326 },
+      type: "extent",
+      xmax: -87.63493369784207,
+      xmin: -87.76985954012704,
+      ymax: 41.97823198570687,
+      ymin: 41.868390342648965
+    };
+
+    const mockGraphics = [{
+      geometry: mockExtent,
+      symbol: {
+        type: "esriSFS",
+        style: "solid",
+        color: [ 227, 139, 79, 100 ],
+        outline: {
+          type: "esriSLS",
+          style: "solid",
+          color: [ 255, 255, 255 ],
+          width: 1
+        }
+      }
+    }]
+
+    const mapIds = [ 'arcgis-hub-content-hero-map', 'arcgis-hub-content-hero-theme', 'arcgis-hub-content-hero-mobile' ];
+    mapIds.forEach(id => {
+      setProp(id, 'extent', mockExtent)
+      setProp(id, 'graphics', mockGraphics);
+    });
+
+    function setProp(id, key, value) {
+      const el = document.querySelector(`#${id}`) || {};
+      el[key] = value;
+    }
+  </script>
+
+  <style>
+    #arcgis-hub-content-hero-theme .hero-content {
+      background-color: rgb(251, 172, 43);
+      color: white;
+    }
+    #arcgis-hub-content-hero-theme calcite-button {
+      --calcite-color-text-1: white;
+      --calcite-color-brand: white;
+      --calcite-color-brand-hover: rgb(239, 230, 230);
+      --calcite-color-brand-press: white;
+      --calcite-color-text-inverse: rgb(37, 39, 77);
+    }
+  </style>
+</body>
+
+</html>

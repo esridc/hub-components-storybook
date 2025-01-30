@@ -1,0 +1,15 @@
+{
+  "newFilter": "Új szűrő",
+  "block": {
+    "heading": {
+      "untitled": "Új szűrő",
+      "default": "{filterNum} szűrő: {parameter}",
+      "group": "{filterNum} szűrő: csoportok",
+      "type": "{filterNum} szűrő: típusok",
+      "occurrence": "{filterNum} szűrő: előfordulás"
+    },
+    "actions": {
+      "delete": "Szűrő törlése: {label}"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+:host {
+  display: block;
+}
+
+.actions-container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+}
+
+/* the table cell has focus behavior that is sorta broken by placing html in it
+we fix it with pointer-events: none */
+calcite-table-cell > * {
+  pointer-events: none;
+}
+
+/* but that breaks interactive elements */
+calcite-table-cell:has(:is(calcite-link, calcite-action, calcite-button)) > * {
+  pointer-events: auto;
+}
+
+div:has(arcgis-hub-image),
+div:has(calcite-avatar) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div:has(arcgis-hub-group-member-summary) {
+  min-width: max-content;
+  --calcite-font-weight-medium: var(--calcite-font-weight-normal);
+}
+
+arcgis-hub-image {
+  width: 40px;
+}

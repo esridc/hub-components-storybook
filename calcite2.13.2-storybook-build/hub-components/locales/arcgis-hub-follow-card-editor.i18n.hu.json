@@ -1,0 +1,41 @@
+{
+  "notice": {
+    "outdatedItem": {
+      "title": "Cserélje ki kezdeményezését",
+      "message": "Ez a kártya elavult elemre hivatkozik. Válasszon a felhasználók által követhető másik elemet."
+    },
+    "missingFollowersGroup": {
+      "title": "Hiányzó követői csoport",
+      "message": "Az elemből hiányzik egy követői csoport. Válasszon másik elemet."
+    },
+    "noGroupAccess": {
+      "title": "Értesítés",
+      "message": "Nincs hozzáférése a követők csoportjához."
+    }
+  },
+  "selectContent": {
+    "title": "Követendő tartalom",
+    "facets": {
+      "sharing": "Megosztás",
+      "catalog": {
+        "myContent": "Saját tartalom",
+        "organization": "Saját szervezet"
+      }
+    }
+  },
+  "callToAction": {
+    "title": "Cselekvésre való felhívás",
+    "helperText": "A cselekvésre való felhívás a követés gomb felett jelenik meg.",
+    "alignment": "Igazítás"
+  },
+  "followButton": {
+    "title": "Követés gomb",
+    "helperText": "Ez a gomb lehetővé teszi a tagok számára, hogy kövessék az Ön tartalmát (vagy megszüntessék a tartalma követését). A gomb mindkét állapotához megadható szöveg.",
+    "buttonText": "Részvételi szándék kinyilvánítására szolgáló gomb szövege",
+    "unfollowButtonText": "Távolmaradási szándék kinyilvánítására szolgáló gomb szövege",
+    "alignment": "Igazítás",
+    "buttonStyle": "Gomb stílusa",
+    "solid": "Teli háttér",
+    "outline": "Körvonal"
+  }
+}

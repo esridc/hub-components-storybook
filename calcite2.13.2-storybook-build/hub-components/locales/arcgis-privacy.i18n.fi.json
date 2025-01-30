@@ -1,0 +1,41 @@
+{
+  "managePrivacyButton": "Hallitse tietosuojaa",
+  "consentNotice": {
+    "allTracking": "Tämä sivusto luotiin ArcGIS Hubin avulla, ja se käyttää anonyymia jäljitystä suorituskyvyn parantamiseksi ja sivuston käytön analysoimiseen Esrin tietosuojalausunnon mukaisesti. Muut kolmannen osapuolen jäljitysjärjestelmät voivat seurata sivuston käyttöä.",
+    "anonymousTracking": "Tämä sivusto luotiin ArcGIS Hubin avulla, ja se käyttää anonyymia jäljitystä suorituskyvyn parantamiseksi ja sivuston käytön analysoimiseen Esrin tietosuojalausunnon mukaisesti.",
+    "noTracking": "Tämä sivusto luotiin ArcGIS Hubin avulla, ja se käyttää vain evästeitä, joita tarvitaan sovelluksen toimintaan, eikä niitä voi laittaa pois päältä järjestelmissämme.",
+    "thirdPartyTracking": "Tämä sivusto luotiin ArcGIS Hubin avulla, ja se käyttää vain evästeitä, joita tarvitaan sovelluksen toimintaan, eikä niitä voi laittaa pois päältä järjestelmissämme. Muut kolmannen osapuolen jäljitysjärjestelmät voivat seurata sivuston käyttöä."
+  },
+  "consent": {
+    "esriPrivacyLink": "Esrin tietosuojakeskus",
+    "customerConsentLink": "Lisätietoja"
+  },
+  "eueiNotice": {
+    "title": "{orgName} jäsentä ei seurata",
+    "message": "Esrin käyttömukavuuden kehitysohjelma (EUEI) on poistettu käytöstä kohteelta {orgName}. Käyntiisi liittyvää toimintaa ei seurata. Et voi hyväksyä nimettömiä käyttötilastoja tai kolmannen osapuolen seurantaa.",
+    "link": "Lue lisää EUEI-ohjelmasta."
+  },
+  "notice": {
+    "heading": "Tietosuoja-asetukset",
+    "acceptAllButton": "Hyväksy kaikki evästeet",
+    "acceptNecessaryButton": "Hyväksy vain tarpeelliset evästeet",
+    "confirmButton": "Vahvista",
+    "reviewSettingsButton": "Tarkista asetukset"
+  },
+  "settings": {
+    "heading": "Tietosuoja-asetukset",
+    "confirmButton": "Vahvista"
+  },
+  "anonymous": {
+    "heading": "Anonyymin käytön tilastotietoja",
+    "helpText": "Näiden evästeiden avulla voimme seurata sovelluksen tehokkuutta, kuten liikenteen lähteitä, sivun katselukertoja ja interaktioita. Niiden avulla saamme tietoja siitä, mikä sisältö on tehokasta ja miten kävijät siirtyvät sovelluksessa. Kaikki tiedot kerätään nimettöminä (henkilötietoja ei tallenneta). Jos et salli näiden evästeiden käyttöä, emme tiedä, oletko käynyt sovelluksessa tai käyttänyt sitä."
+  },
+  "necessary": {
+    "heading": "Välttämättömät evästeet",
+    "helpText": "Näitä evästeitä tarvitaan, jotta sovellus toimii, eikä niitä voi laittaa pois päältä järjestelmissämme. Ne on otettu käyttöön vastauksena käyttäjien toimintaan, johon liittyy palvelupyyntöjä, kuten tilille kirjautuminen. Voit määrittää selaimen siten, että se estää tai ilmoittaa näistä evästeistä, mutta tällä voi olla vaikutusta sovelluksen toimintaan. Kaikki tiedot kerätään nimettöminä (henkilötietoja ei tallenneta)."
+  },
+  "thirdParty": {
+    "heading": "Kolmannen osapuolen jäljitys",
+    "helpText": "Nämä evästeet voivat olla tässä sivustossa määritettyjen kolmannen osapuolen seurantapalveluiden asettamia. Ne voivat kerätä kohdistus- tai markkinointitietoja sinusta käyntisi aikana. Tietoja voidaan käyttää tämän sovelluksen ulkopuolisiin tarkoituksiin. Jos et salli näitä evästeitä, määritetyt kolmannen osapuolen seurantapalvelut eivät saa tietoja käynnistäsi."
+  }
+}

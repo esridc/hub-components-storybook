@@ -1,0 +1,43 @@
+{
+  "content": "Nội dung",
+  "myContent": "Nội dung của tôi",
+  "editableContent": "Nội dung có thể Chỉnh sửa",
+  "addContentButtonText": "Tạo mới",
+  "type": "Loại",
+  "sharedUpdate": "Nhóm Cập nhật được Chia sẻ",
+  "viewOnly": "Nhóm Chỉ Xem",
+  "owner": "Chủ sở hữu",
+  "updated": "Đã cập nhật",
+  "tags": "Thẻ",
+  "dateCreated": "Đã tạo",
+  "dateUpdated": "Đã chỉnh sửa",
+  "actionLinks": {
+    "view": "Xem",
+    "edit": "Chỉnh sửa",
+    "ariaEdit": "Chỉnh sửa {title}",
+    "ariaView": "Xem {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Nội dung",
+      "myContent": "Nội dung Tôi sở hữu",
+      "editableContent": "Nội dung Tôi có thể chỉnh sửa",
+      "all": "Tất cả nội dung"
+    },
+    "access": {
+      "label": "Từ"
+    },
+    "type": {
+      "label": "Loại"
+    },
+    "tags": {
+      "label": "Thẻ"
+    },
+    "categories": {
+      "label": "Danh mục"
+    },
+    "modified": {
+      "label": "Đã chỉnh sửa"
+    }
+  }
+}

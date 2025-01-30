@@ -1,0 +1,49 @@
+{
+  "settings": "Impostazioni",
+  "advanced": "Avanzato",
+  "delete": {
+    "event": "Elimina questo evento",
+    "desc": "L’eliminazione di questo evento non può essere annullata. Gli iscritti esistenti riceveranno una notifica (se le notifiche automatiche sono abilitate per l'evento).",
+    "deleteButton": "Elimina evento"
+  },
+  "cancel": {
+    "header": "Annulla questo evento",
+    "desc": "Se annullato, l'evento resterà visibile con lo stato annullato. La registrazione si interromperà e gli iscritti esistenti riceveranno una notifica (se le notifiche automatiche sono abilitate per l'evento).",
+    "event": "Annulla evento",
+    "notice": {
+      "success": {
+        "title": "Evento annullato",
+        "message": "Gli iscritti esistenti riceveranno una notifica se le notifiche automatiche sono abilitate."
+      },
+      "error": {
+        "title": "Impossibile annullare l'evento",
+        "message": "Riprova"
+      }
+    }
+  },
+  "enable": {
+    "event": "Riabilita evento",
+    "desc": "Evento annullato (visibile con lo stato annullato)",
+    "notice": {
+      "success": {
+        "title": "Evento riabilitato",
+        "message": "Gli iscritti esistenti riceveranno una notifica se le notifiche automatiche sono abilitate."
+      },
+      "error": {
+        "title": "Impossibile riabilitare l'evento",
+        "message": "Riprova"
+      }
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "event": "Elimina evento"
+    },
+    "content": "Confermare l'eliminazione di:",
+    "delete": "Elimina evento",
+    "cancel": "Annulla evento"
+  },
+  "notice": {
+    "label": "Avviso modulo"
+  }
+}

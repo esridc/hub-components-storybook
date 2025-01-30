@@ -1,0 +1,39 @@
+/*
+  TODO: this definitely needs a thorough review
+*/
+:host {
+  display: block;
+  height: 100%;
+  width: 100%
+}
+
+arcgis-hub-map {
+  position: relative;
+  aspect-ratio: 1.5
+}
+
+arcgis-hub-gallery-layout-list {
+  margin-top: 1rem
+}
+
+arcgis-hub-map-widget-container > h2.results-count {
+  margin: 0.25rem
+}
+
+.map-popup-body > arcgis-multiline-ellipsis {
+  padding-bottom: 0.75rem
+}
+
+:host arcgis-hub-map {
+  display: block;
+  height: 100%;
+  width: 100%
+}
+
+.esri-popup__main-container .esri-popup__content {
+  overflow-x: visible
+}
+
+.esri-ui-inner-container .esri-popup .esri-popup__main-container {
+  max-height: 100%
+}

@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+  <title>Hub Components: Simple Gallery</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+  <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet" href="../calcite-web.min.css">
+</head>
+
+<body>
+  <harness-header page-title="arcgis-stat-card"></harness-header>
+  <div class="grid-container padding-leader-4">
+    <div class="column-24 trailer-4">
+      <h1>Stat card with stat card editor using metric card</h1>
+      <div>
+        <arcgis-stat-card-editor class="column-6" disabled="true"></arcgis-stat-card-editor>
+      </div>
+      <div>
+        <arcgis-hub-metric-card id="c123" class="column-6"></arcgis-hub-metric-card>
+      </div>
+    </div>
+    <div class="column-9">
+      <h1>Scales of stat card</h1>
+      <arcgis-stat-card value="100" unit="px" card-title="Large scale" trailing-text="large size" subtitle="sizing card" scale="l"></arcgis-stat-card>
+      <arcgis-stat-card value="100" unit="px" card-title="Medium scale" trailing-text="medium size" subtitle="sizing card" scale="m"></arcgis-stat-card>
+      <arcgis-stat-card value="100" unit="px" card-title="Small scale" trailing-text="small size" subtitle="sizing card" scale="s"></arcgis-stat-card>
+
+      <arcgis-stat-card unit-position="below" value="100" unit="px" card-title="Large scale" trailing-text="large size" subtitle="sizing card" scale="l"></arcgis-stat-card>
+      <arcgis-stat-card unit-position="below" value="100" unit="px" card-title="Medium scale" trailing-text="medium size" subtitle="sizing card" scale="m"></arcgis-stat-card>
+      <arcgis-stat-card unit-position="below" value="100" unit="px" card-title="Small scale" trailing-text="small size" subtitle="sizing card" scale="s"></arcgis-stat-card>
+
+      <arcgis-stat-card value="NaN" id="error-l" unit-position="below" unit="px" card-title="Large scale" trailing-text="large size" subtitle="sizing card" scale="l"></arcgis-stat-card>
+      <arcgis-stat-card value="NaN" id="error-m" unit-position="below" unit="px" card-title="Medium scale" trailing-text="medium size" subtitle="sizing card" scale="m"></arcgis-stat-card>
+      <arcgis-stat-card value="NaN" id="error-s" unit-position="below" unit="px" card-title="Small scale" trailing-text="small size" subtitle="sizing card" scale="s"></arcgis-stat-card>
+    </div>
+
+
+    <arcgis-app-identity client-id="EF9uxuFlOrgf7WpI" redirect-uri="http://localhost:3333/html/redirect.html"
+      portal="https://qaext.arcgis.com">
+    </arcgis-app-identity>
+
+
+  </div>
+  <script type="module">
+    let cardEditor;
+    let card;
+
+    const init = () => {
+      cardEditor = document.querySelector('arcgis-stat-card-editor');
+      card = document.querySelector('arcgis-hub-metric-card');
+
+      const values = {
+        value: "42",
+        name: "This is the title",
+        type: 'dynamic',
+        cardTitle: "This is the title",
+        displayType: 'stat-card',
+        shareable: true,
+        shareableByValue: false,
+        trailingText: "this is the trailing text..."
+      };
+
+      cardEditor.values = values;
+      cardEditor.themeColors = ['#f40afc', '#fcaf0a', '#0a8cfc', '#fc0a85']
+
+      updateMetricCardValues(values);
+      setErrorMessages();
+    }
+
+    init();
+
+    // Util to transform editor values into metric and cardConfig
+    // Note: the consuming UI is responsible for doing this
+    function updateMetricCardValues(newValues) {
+      const cardId = 'c123'; // gotten from project or from card settings from site layout
+      const site = { item: { id: 'siteId', title: 'Site title' } };
+      const { metric, cardConfig } = transformEditorValuesToMetricAndCardConfig(newValues, cardId, {});
+
+      card.cardConfig = cardConfig;
+      card.metric = metric;
+    }
+
+    // NOTE: this functionality is copied from "utils/metrics" for
+    // the purposes of making this harness work
+    function transformEditorValuesToMetricAndCardConfig(values, metricId, opts) {
+      const { value, dynamicMetric, ...config } = values;
+      const { layerId, field, statistic, serviceUrl, fieldType, sourceLink, sourceTitle, allowExpressionSet, expressionSet, legacyWhere } = dynamicMetric || {};
+      const { entityInfo, metricName } = opts;
+
+      // create source
+      const source = values?.type === 'dynamic'
+        ? {
+          type: 'service-query',
+          serviceUrl,
+          layerId: layerId,
+          field: field,
+          statistic: statistic,
+          where: legacyWhere ? legacyWhere : buildWhereClause(allowExpressionSet ? expressionSet : []),
+        }
+        : {
+          type: 'static-value',
+          value: value,
+        };
+
+      // create metric
+      const metric = {
+        source,
+        name: metricName || metricId,
+        entityInfo: entityInfo || { id: undefined, name: undefined, type: undefined}, // ensure entity info has id, name, type
+        id: metricId,
+      };
+
+      delete config.itemId;
+
+      // create card config
+      const cardConfig = {
+        ...config,
+        displayType: config.displayType || 'stat-card',
+        metricId,
+        fieldType,
+        statistic,
+        // if we are in dynamic mode and have a link, then we use that link
+        // otherwise we use manually input sourceLink on card config
+        sourceLink: values?.type === 'dynamic' && sourceLink ? sourceLink : config?.sourceLink,
+        sourceTitle: values?.type === 'dynamic' && sourceTitle ? sourceTitle : config?.sourceTitle,
+        allowLink: values?.type === 'dynamic' ? config.allowDynamicLink : config.allowLink,
+      };
+
+      return { metric, cardConfig };
+    }
+
+    // for use in the harness
+    function isNil (value) {
+        return value == null;
+      }
+
+    // NOTE: this functionality is copied from "utils/metrics" for
+    // the purposes of making this harness work
+     export function buildWhereClause(expressionSet = []) {
+      return expressionSet.map(expression => {
+        const { field, values, relationship } = expression;
+
+        const escape = value => value?.replace(/(['])/g, '$1$1'); // currently only handles single quotes
+
+        // if we don't have values or field, or if it is an "incomplete" expression, do not include
+        if (!values || !values.length || !field || !field?.name) {
+          return false;
+        }
+
+        let clause;
+
+        switch (field.type) {
+          case "esriFieldTypeString":
+            // used for migrating over the old "like" clauses
+            clause = relationship === "like" ?
+              `${field.name} like '%${values[0]}%'` :
+              `(${field.name} IN (${values.map(value => `'${escape(value)}'`).join(', ')}))`;
+            break;
+
+          case "esriFieldTypeDate":
+            // if we have just one value for either value box
+            if (!isNil(values[0])) {
+              clause = `${field.name} >= timestamp '${escape(values[0])} 00:00:00'`;
+            } else if (!isNil(values[1])) {
+              clause = `${field.name} <= timestamp '${escape(values[1])} 23:59:59'`;
+            }
+
+            // if we have both, rewrite clause
+            if (!isNil(values[0]) && !isNil(values[1])) {
+              clause = `${field.name} >= timestamp '${escape(values[0])} 00:00:00' AND ${field.name} <= timestamp '${escape(values[1])} 23:59:59'`;
+            }
+            break;
+
+          default:
+
+            // if we have just one value for each value box
+            if (!isNil(values[0])) {
+              clause = `(${field.name}) >= ${values[0]}`;
+            }
+            else if (!isNil(values[1])) {
+              clause = `(${field.name}) <= ${values[1]}`;
+            }
+
+            // if we have both, rewrite clause
+            if (!isNil(values[0]) && !isNil(values[1])) {
+              clause = `(${field.name}) >= ${values[0]} AND (${field.name}) <= ${values[1]}`;
+            }
+            break;
+        }
+
+        return clause;
+      })
+        .filter(Boolean)
+        .join(' AND ') || '1=1';
+    }
+
+    function setErrorMessages () {
+      const errorLarge = document.querySelector('#error-l');
+      const errorMedium = document.querySelector('#error-m');
+      const errorSmall = document.querySelector('#error-s');
+
+      errorLarge.errorMessage = { premadeType: "generic" };
+      errorMedium.errorMessage = { premadeType: "generic" };
+      errorSmall.errorMessage = { premadeType: "generic" };
+    }
+
+    // STAT CARD EDITOR EVENT LISTENERS (logged to console for development purposes)
+    cardEditor.addEventListener('arcgisStatCardEditorChange', evt => {
+      console.info('arcgisStatCardEditorChange', evt.detail);
+      if (evt.detail.valid) {
+        updateMetricCardValues(evt.detail.values);
+      }
+    });
+
+    cardEditor.addEventListener('arcgisConfigurationEditorChange', evt => {
+      console.log('arcgisConfigurationEditorChange', evt.detail);
+    });
+
+    // AUTH FUNCTIONALITY - needed for the certain fields
+    // TODO: this can go away when arcgis-stat-card-editor gets context from stencil store
+    document.addEventListener('arcgisAppIdentitySignedIn', (evt) => {
+      card.context = evt.detail;
+      cardEditor.context = evt.detail;
+    });
+    document.addEventListener('arcgisAppIdentitySignedOut', (evt) => {
+      card.context = evt.detail;
+      cardEditor.context = evt.detail;
+    });
+  </script>
+  <!--
+  <div class="grid-container padding-leader-2">
+    <div class="column-24">
+      <h2>Indicators for the Planet</h2>
+      <div class="gallery-container">
+
+        <arcgis-stat-card
+          href="https://experience.arcgis.com/experience/003f05cc447b46dc8818640c38b69b83/page/Environmental-Threats/?views=Air-Quality"
+          style="background-image: url('https://www.arcgis.com/sharing/rest/content/items/003f05cc447b46dc8818640c38b69b83/resources/images/widget_21/1593622428433.png')"
+          card-title="Air Quality" subtitle="Today" value="810" unit="locations with poor air quality"
+          trailing-text="Decreased 11.3% in 24 hours" class="card-background" unit-position="below" text-align="end"
+          value-color="#ffffff">
+          <div slot="footer">
+            Source: <a
+              href="https://experience.arcgis.com/experience/003f05cc447b46dc8818640c38b69b83/page/Environmental-Threats/?views=Air-Quality">OpenAQ</a>
+          </div>
+        </arcgis-stat-card>
+
+        <arcgis-stat-card
+          href="https://experience.arcgis.com/experience/003f05cc447b46dc8818640c38b69b83/page/Environmental-Threats/?views=Drought"
+          style="background-image: url('https://www.arcgis.com/sharing/rest/content/items/003f05cc447b46dc8818640c38b69b83/resources/images/widget_33/1593624516553.png')"
+          card-title="Drought" subtitle="This week" value="17.9%" unit="of agricultural areas"
+          trailing-text="Decreased -61,192 sq km in a week" class="card-background" unit-position="below"
+          text-align="end" value-color="#ffffff">
+          <div slot="footer">
+            Source: <a href="https://noaa.gov">NOAA</a>
+          </div>
+        </arcgis-stat-card>
+
+        <arcgis-stat-card
+          href="https://experience.arcgis.com/experience/003f05cc447b46dc8818640c38b69b83/page/Environmental-Threats/?views=wildfire"
+          style="background-image: url('https://www.arcgis.com/sharing/rest/content/items/003f05cc447b46dc8818640c38b69b83/resources/images/widget_50/1593625526968.png'); "
+          class="card-background" card-title="Wildfire" text-align="end" value-color="#ffffff" value="92,935"
+          unit-position="below" unit="thermal detections" subtitle="Today"
+          trailing-text="Decreased -2,648 fires in 24 hours">
+          <div slot="footer">
+            Source: <a href="https://noaa.gov">NOAA/NASA</a>
+          </div>
+        </arcgis-stat-card>
+
+        <arcgis-stat-card
+          href="https://experience.arcgis.com/experience/003f05cc447b46dc8818640c38b69b83/page/Environmental-Threats/?views=conservation"
+          style="background-image: url('https://www.arcgis.com/sharing/rest/content/items/003f05cc447b46dc8818640c38b69b83/resources/images/widget_70/1593626560572.png'); "
+          card-title="Conservation" subtitle="Today" value="64,121,875" unit="sq km"
+          trailing-text="land and ocean area protected" class="card-background" text-align="end" value-color="#ffffff"
+          unit-position="below">
+          <div slot="footer">
+            Source: <a href="https://noaa.gov">UNEP-WCMC & IUCN</a>
+          </div>
+        </arcgis-stat-card>
+
+        <arcgis-stat-card
+          href="https://experience.arcgis.com/experience/003f05cc447b46dc8818640c38b69b83/page/Environmental-Threats/?views=deforestation"
+          style="background-image: url('https://www.arcgis.com/sharing/rest/content/items/003f05cc447b46dc8818640c38b69b83/resources/images/widget_80/1593628282641.png'); "
+          card-title="Deforestation" subtitle="Last week" value="2,220" unit="sq km" trailing-text="forest area lost"
+          class="card-background" text-align="end" value-color="#ffffff" unit-position="below">
+          <div slot="footer">
+            Source: <a href="https://noaa.gov">Global Forest Watch</a>
+          </div>
+        </arcgis-stat-card>
+
+        <arcgis-stat-card
+          href="https://experience.arcgis.com/experience/003f05cc447b46dc8818640c38b69b83/page/Humans-at-Risk/?views=COVID-19"
+          style="background-image: url('https://www.arcgis.com/sharing/rest/content/items/003f05cc447b46dc8818640c38b69b83/resources/images/widget_90/1593628481535.png'); "
+          card-title="COVID-19 Cases" subtitle="Last 24 hours" value="271,601,381" unit="confirmed cases"
+          trailing-text="14 day trend is increasing" class="card-background" text-align="end" value-color="#ffffff"
+          unit-position="below">
+          <div slot="footer">
+            Source: <a href="https://noaa.gov">JHU/Esri</a>
+          </div>
+        </arcgis-stat-card>
+      </div>
+    </div>
+  </div> -->
+
+
+  </div>
+  <style>
+    .gallery-container {
+      display: grid;
+
+      grid-template-columns: repeat(auto-fill, minmax(max(300px, (100% - (4 - 1) * 0.5rem) / 4), 1fr));
+      gap: 0.5rem
+    }
+
+    .card-background {
+      --calcite-color-foreground-1: transparent;
+      --calcite-color-text-1: white;
+      --calcite-color-text-2: white;
+      --calcite-color-text-3: white;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .card-clickable {
+      cursor: pointer;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    .card-clickable:hover {
+      transform: scale(1.02);
+      z-index: 100;
+    }
+  </style>
+</body>
+
+</html>

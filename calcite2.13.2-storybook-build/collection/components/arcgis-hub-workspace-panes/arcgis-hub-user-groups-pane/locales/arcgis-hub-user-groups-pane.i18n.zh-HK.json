@@ -1,0 +1,33 @@
+{
+  "groups": "我的群組",
+  "addContentButtonText": "新建",
+  "role": "角色",
+  "owner": "擁有者",
+  "updated": "已更新",
+  "type": "類型",
+  "sharedUpdate": "分享的更新群組",
+  "viewOnly": "僅檢視群組",
+  "actionLinks": {
+    "view": "檢視",
+    "edit": "編輯",
+    "ariaEdit": "編輯 {title}",
+    "ariaView": "檢視 {title}"
+  },
+  "facets": {
+    "access": {
+      "label": "可檢視者",
+      "options": {
+        "public": "任何人 (公眾)",
+        "org": "組織",
+        "private": "我"
+      }
+    },
+    "type": {
+      "label": "類型",
+      "options": {
+        "sharedUpdate": "分享的更新",
+        "opendata": "Open Data"
+      }
+    }
+  }
+}

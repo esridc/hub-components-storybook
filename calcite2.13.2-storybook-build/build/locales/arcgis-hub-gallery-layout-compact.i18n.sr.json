@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Nema pronađenih rezultata."
+    },
+    "error": {
+      "message": "Žao nam je, ali pretraga je naišla na grešku."
+    }
+  },
+  "type": "Tip",
+  "tags": "Oznake",
+  "owner": "Vlasnik",
+  "dateCreated": "Kreirano",
+  "dateUpdated": "Izmenjeno",
+  "categories": "Kategorije",
+  "dateAndTime": "Datum i vreme",
+  "allDay": "{date} (ceo dan)",
+  "allDayRange": "{from} - {to} (ceo dan)",
+  "location": "Lokacija",
+  "attendanceType": "Tip prisustvovanja",
+  "inPerson": "Lično",
+  "online": "Na mreži",
+  "hybrid": "Hibridno"
+}

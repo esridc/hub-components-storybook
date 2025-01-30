@@ -1,0 +1,10 @@
+{
+  "successHeading": "Page migrated successfully.",
+  "failureHeading": "Failed to migrate page.",
+  "success": {
+    "accordionHeading": "The page was added to the following groups."
+  },
+  "fail": {
+    "accordionHeading": "The page was not added to the following groups."
+  }
+}

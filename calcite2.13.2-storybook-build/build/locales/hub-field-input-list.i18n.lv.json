@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "Rediģēt",
+    "fields": {
+      "label": {
+        "label": "Apzīmējums",
+        "requiredMessage": "Nepieciešams kartes teksts",
+        "maxLengthMessage": "Nedrīkst pārsniegt {maxLength} rakstzīmes"
+      }
+    },
+    "apply": "Lietot"
+  },
+  "showItem": "Parādīt šādu saraksta vienību: {itemLabel}",
+  "hideItem": "Paslēpt šādu saraksta vienību: {itemLabel}",
+  "editItem": "Rediģēt šādu saraksta vienību: {itemLabel}"
+}

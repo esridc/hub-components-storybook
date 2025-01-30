@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "Registriraj",
+    "registered": "Registrirano",
+    "join": "Pridruži se na spletu",
+    "in-person": "Osebno",
+    "online": "Spletno",
+    "inPersonFull": "Osebno (polno)",
+    "onlineFull": "Spletno (polno)",
+    "close": "Zapri"
+  },
+  "tooltip": {
+    "isCanceled": "Dogodek je preklican",
+    "eventHasEnded": "Dogodek je končan",
+    "eventFull": "Dogodek je poln",
+    "inPerson": "Registrirani za dogodek v živo",
+    "online": "Registrirani za spletni dogodek",
+    "unavailable": "Na voljo eno uro pred začetnim časom dogodka"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "Uspešno preklicana registracija za spletni dogodek",
+    "onlineRegistrationConfirmed": "Uspešno registrirani za spletni dogodek",
+    "onlineRegistrationError": "Prišlo je do nepričakovane napake pri registraciji za spletni dogodek",
+    "onlineRegistrationCanceledError": "Prišlo je do nepričakovane napake pri preklicu registracije za spletni dogodek",
+    "onlineRegistrationAtCapacity": "Poskušate se prijaviti na spletni dogodek, ki je poln",
+    "inPersonRegistrationCanceled": "Uspešno preklicana registracija za dogodek v živo",
+    "inPersonRegistrationCanceledError": "Prišlo je do nepričakovane napake pri preklicu registracije za dogodek v živo",
+    "inPersonRegistrationConfirmed": "Uspešno registrirani za dogodek v živo",
+    "inPersonRegistrationError": "Prišlo je do nepričakovane napake pri registraciji za dogodek v živo",
+    "inPersonRegistrationAtCapacity": "Poskušate se prijaviti na dogodek v živo, ki je poln"
+  }
+}

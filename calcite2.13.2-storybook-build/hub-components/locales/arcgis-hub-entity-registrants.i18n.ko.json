@@ -1,0 +1,46 @@
+{
+  "registrants": "등록자",
+  "invite": "초대",
+  "tabs": {
+    "registrants": "등록자",
+    "settings": "설정"
+  },
+  "emptyNotice": {
+    "title": "등록자 없음",
+    "desc": "이벤트는 항상 참석자와 함께해야 더 재미있습니다. 참석자를 초대하거나 이벤트를 공유하여 참석을 장려하세요.",
+    "link": "등록자 초대"
+  },
+  "facets": {
+    "role": {
+      "header": "역할",
+      "owner": "소유자",
+      "organizer": "주최자",
+      "attendee": "등록자"
+    },
+    "status": {
+      "header": "상태",
+      "pending": "대기 중",
+      "accepted": "허용됨",
+      "declined": "거절됨",
+      "blocked": "차단됨"
+    },
+    "location": {
+      "header": "위치",
+      "online": "온라인",
+      "in_person": "대면"
+    },
+    "updatedDate": "업데이트일"
+  },
+  "delete": {
+    "attendee": "등록자 제거"
+  },
+  "notice": {
+    "label": "양식 알림"
+  },
+  "success": {
+    "delete": "등록자를 {eventName}에서 성공적으로 제거했습니다."
+  },
+  "error": {
+    "delete": "한 명 이상의 등록자를 이벤트에서 제거할 수 없습니다."
+  }
+}

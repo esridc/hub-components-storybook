@@ -1,0 +1,47 @@
+{
+  "communityOrg": "社群組織",
+  "editLayout": "編輯版面配置",
+  "orgWorkspace": "開啟家庭工作空間",
+  "editS123": "在 Survey123 中編輯",
+  "editAdvancedJson": "編輯進階 JSON",
+  "view": {
+    "project": "檢視專案",
+    "site": "檢視網站",
+    "initiative": "檢視倡議",
+    "discussion": "檢視板",
+    "content": "檢視內容",
+    "page": "檢視頁面",
+    "group": "檢視群組",
+    "initiativeTemplate": "檢視倡議樣板",
+    "template": "檢視樣板",
+    "survey": "檢視調查",
+    "event": "檢視事件"
+  },
+  "access": {
+    "share": "分享",
+    "sharingLevel": "分享級別",
+    "groupSharing": "群組分享",
+    "tooltip": {
+      "public": "分享級別: 公開",
+      "org": "分享級別: 組織",
+      "private": "分享級別: 私人",
+      "shared": "分享級別: 私人分享"
+    },
+    "save": "儲存",
+    "cancel": "取消",
+    "alert": {
+      "success": "已成功儲存編輯內容",
+      "error": "儲存編輯內容時發生錯誤",
+      "label": "表格警示"
+    }
+  },
+  "popoverActions": {
+    "label": "更多動作",
+    "openInEnterprise": "在 ArcGIS Enterprise 中開啟",
+    "openInOnline": "在 ArcGIS Online 中開啟"
+  },
+  "homeLink": {
+    "text": "首頁"
+  },
+  "createContent": "建立"
+}

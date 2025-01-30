@@ -1,0 +1,29 @@
+:host {
+  left: 50%;
+  width: auto;
+  display: var(--display);
+  transform: translate(-50%, 0)
+}
+
+:host([aria-hidden="true"]) {
+  display: none
+}
+
+div {
+  border-bottom-right-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  background-color: var(--hub-map-outline);
+  font-weight: var(--calcite-font-weight-bold);
+  font-size: var(--calcite-font-size--1)
+}
+
+calcite-button {
+  margin-left: 1rem
+}

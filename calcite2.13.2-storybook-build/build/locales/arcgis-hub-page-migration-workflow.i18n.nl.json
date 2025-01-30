@@ -1,0 +1,46 @@
+{
+  "heading": "Informatie pagina",
+  "form": {
+    "title": {
+      "label": "Naam pagina",
+      "requiredError": "Naam is vereist",
+      "entityTitleValidatorError": "Naam pagina mag geen emojis of de tekens <, >, of = bevatten"
+    },
+    "slug": {
+      "label": "Slug",
+      "helperText": "De slug is de URL-vriendelijke versie van de naam van de pagina. Hij wordt automatisch gegenereerd op basis van de naam van de pagina, maar u kunt hem aanpassen.",
+      "patternError": "Fout: slug moet bestaan uit kleine letters en cijfers, gescheiden door koppeltekens.",
+      "isUniqueError": "Deze slug is al in gebruik. Kies een andere.",
+      "requiredError": "Slug is vereist"
+    }
+  },
+  "controls": {
+    "back": "Terug",
+    "cancel": "Annuleren",
+    "close": "Gereed",
+    "migrate": "Pagina migreren",
+    "next": "Volgende"
+  },
+  "selection": {
+    "unlimited": "{count} geselecteerd",
+    "limited": "{count} / {limit} geselecteerd"
+  },
+  "steps": {
+    "specifyInfo": "Basisinformatie toevoegen",
+    "selectGroups": "Groep selecteren",
+    "confirmation": "Bevestiging"
+  },
+  "working": {
+    "heading": "Bezig met migreren pagina.",
+    "loadingLabel": "Bezig met migreren pagina"
+  },
+  "success": {
+    "heading": "Pagina is gemigreerd",
+    "message": "De pagina is gemigreerd."
+  },
+  "failure": {
+    "heading": "Pagina is niet gemigreerd",
+    "message": "Er is iets foutgegaan bij het migreren van de pagina, probeer het opnieuw.",
+    "action": "Opnieuw proberen"
+  }
+}

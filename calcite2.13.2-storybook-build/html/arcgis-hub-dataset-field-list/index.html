@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-dataset-field-list</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet" href="../calcite-web.min.css">
+</head>
+
+<body>
+  <div class="grid-container padding-leader-2">
+    <div class="column-20 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-hub-dataset-field-list</h2>
+    </div>
+
+    <div class="column-20">
+    <h3>Sorted</h3>
+      <arcgis-hub-dataset-field-list
+        id="fields-dc-trees"
+        entity-id="f6c3c04113944f23a7993f2e603abaf2"
+        sort="name desc"
+      >
+      </arcgis-hub-dataset-field-list>
+
+      <h3>Not Sorted</h3>
+
+        <arcgis-hub-dataset-field-list
+        id="fields-dc-trees"
+        entity-id="f6c3c04113944f23a7993f2e603abaf2"
+        use-layers
+      >
+      </arcgis-hub-dataset-field-list>
+    </div>
+  </div>
+
+  <script>
+    // set a property on the element
+    function setProp(elementId, key, value) {
+      const el = document.querySelector(elementId);
+      el[key] = value;
+    }
+  </script>
+</body>
+
+</html>

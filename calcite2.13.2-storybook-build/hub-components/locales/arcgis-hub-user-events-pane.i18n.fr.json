@@ -1,0 +1,29 @@
+{
+  "header": "Événements",
+  "myContent": "Mes événements",
+  "editableContent": "Contenu modifiable",
+  "addEventButtonText": "Créer un événement",
+  "type": "Type",
+  "sharedUpdate": "Groupe de mise à jour partagée",
+  "viewOnly": "Groupe de consultation uniquement",
+  "owner": "Auteur",
+  "starts": "Le",
+  "from": "Du",
+  "until": "Au",
+  "updated": "Mise à jour",
+  "tags": "Balises",
+  "dateCreated": "Création",
+  "dateUpdated": "Modification",
+  "actionLinks": {
+    "view": "Afficher",
+    "edit": "Modifier",
+    "ariaEdit": "Modifier : {title}",
+    "ariaView": "Afficher : {title}"
+  },
+  "access": {
+    "label": "Accès",
+    "PRIVATE": "Privé",
+    "ORG": "Organisation",
+    "PUBLIC": "Public"
+  }
+}

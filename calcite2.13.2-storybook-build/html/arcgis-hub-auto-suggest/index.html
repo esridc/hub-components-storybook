@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-auto-suggest</title>
+
+  <!-- link to calcite components CSS  -->
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+
+  <!-- NOTE: calcite web CSS is only used for grid layout of this page -->
+  <!-- see: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+  <link rel="stylesheet" href="../calcite-web.min.css" />
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+    .content-placeholder {
+      margin-top: .5rem;
+      display: grid;
+      height: 300px;
+      background-color:grey;
+      color: white;
+      align-items: center;
+      justify-items: center;
+    }
+  </style>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+
+  <!-- load calcite components -->
+  <script type="module" src="../../calcite/calcite.esm.js"></script>
+
+  <!-- load hub components -->
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+</head>
+
+<body>
+  <harness-header page-title=arcgis-hub-auto-suggest></harness-header>
+  <div class="grid-container padding-leader-4">
+    <!-- docs about grid container: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+
+    <div style="width:50%;">
+      <arcgis-hub-auto-suggest
+        id="arcgis-hub-auto-suggest-harness"
+        match-recent
+        match-search
+      ></arcgis-hub-auto-suggest>
+      <div class="content-placeholder">
+        Placeholder for other Content
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // set a property on the element
+    function setProp(key, value) {
+      const el = document.querySelector("#arcgis-hub-auto-suggest-harness");
+      el[key] = value;
+    }
+
+    document.addEventListener("arcgisHubAutoSuggestMatchSelected", (e) => {
+      console.log("arcgisHubAutoSuggestMatchSelected", e.detail);
+    });
+
+    document.addEventListener("arcgisHubAutoSuggestInputChange", (e) => {
+      console.log("arcgisHubAutoSuggestInputChange", e.detail);
+    });
+
+    const searchQuery = {
+      targetEntity: 'item',
+      filters: [{
+        predicates: [{
+          group: [
+            "95cc82a857fb40038628eea0dfc0210f",
+            "28a62e584bf04d5e8ade7e23467b7457",
+            "1e82b21c126b479cafecd5a6149d3cd6",
+            "713735ba70304349ac43750c0ea352d1",
+            "b75e2e2e4bc4404980ca89858fdfc6d1",
+            "e9a6997a7eef45048ccd1fcf0530a297",
+            "4dd71956d3a744b89dfcdc1b45947a72",
+            "1e5803569b3f4f64bd30984c6eaf8433",
+            "471ba3a8b9d2466fb466cbe1f124ba3f",
+            "e79e2021e843428e9e0dab77eadbd507",
+            "25ff226de2ac46028f33f766a27bbfd0"
+          ]
+        }]
+      }]
+    }
+
+    setProp("query", searchQuery);
+  </script>
+</body>
+
+</html>

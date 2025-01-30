@@ -1,0 +1,72 @@
+{
+  "addContent": "Pridėti turinį",
+  "addContentType": {
+    "event": "Kurti įvykį",
+    "discussion": "Kurti diskusiją",
+    "group": "Kurti grupę",
+    "initiative": "Kurti iniciatyvą",
+    "project": "Kurti projektą",
+    "page": "Kurti puslapį",
+    "site:": "Kurti svetainę"
+  },
+  "tooltip": {
+    "label": "Išjungta",
+    "noCatalog": "Pridėkite grupių į katalogą, kad pridėtumėte turinį.",
+    "noPermission": "Neturite leidimo pridėti turinį į katalogą.",
+    "no-permission": "Neturite leidimo pridėti turinį į katalogą.",
+    "not-in-groups": "Nesate katalogą apibrėžiančių grupių narys.",
+    "too-many-groups": "Turite maksimalų grupių skaičių ir negalite sukurti daugiau."
+  },
+  "existing": {
+    "description": "Pridėkite turinį, kuris jau yra {onlineOrEnterprise}",
+    "modalTitle": "Pasirinkti esamą turinį",
+    "title": "Pasirinkti esamą turinį"
+  },
+  "create": {
+    "app": {
+      "description": "Kurkite patirtį, papasakokite istoriją arba vizualizuokite savo duomenis",
+      "modalTitle": "Kurti programėlę",
+      "title": "Programelė"
+    },
+    "event": {
+      "description": "Organizuokite renginius asmeniškai arba virtualiai",
+      "modalTitle": "Kurti įvykį",
+      "title": "Renginys"
+    },
+    "content": {
+      "description": "Į savo svetainę įtraukite duomenų, dokumentų, vaizdų ir išorinių nuorodų",
+      "modalTitle": "Kurti turinį",
+      "title": "Turinys"
+    },
+    "discussion": {
+      "description": "Gaukite idėjų ir atsiliepimų",
+      "modalTitle": "Kurti diskusijų lentą",
+      "title": "Diskusijų lenta"
+    },
+    "group": {
+      "description": "Suburkite žmones dalytis turiniu ir diskusijoms",
+      "modalTitle": "Kurti grupę",
+      "title": "Grupė"
+    },
+    "initiative": {
+      "description": "Atkreipkite dėmesį į strateginius veiksmus su nustatytais tikslais, pagal kuriuos organizuojami projektai",
+      "modalTitle": "Kurti iniciatyvą",
+      "title": "Iniciatyva"
+    },
+    "page": {
+      "description": "Pateikite informaciją naudodami struktūrizuotą maketą",
+      "modalTitle": "Kurti puslapį",
+      "title": "Puslapis"
+    },
+    "project": {
+      "description": "Demonstruokite darbą su aiškiais tikslais ir terminais",
+      "modalTitle": "Kurti projektą",
+      "title": "Projektas"
+    },
+    "site": {
+      "description": "Sukurkite firminę svetainę, kad palaikytumėte ryšį su savo bendruomene",
+      "modalTitle": "Kurti svetainę",
+      "title": "Svetainė"
+    }
+  }
+}

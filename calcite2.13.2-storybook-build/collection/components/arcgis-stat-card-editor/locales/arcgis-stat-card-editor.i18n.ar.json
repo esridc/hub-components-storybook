@@ -1,0 +1,165 @@
+{
+  "advancedConfig": {
+    "label": "التكوين المتقدم",
+    "serverTimeout": {
+      "label": "انتهت مهلة الخادم (ثوانٍ)",
+      "helperText": "يُعد مفيدًا للخدمات الأكبر التي قد تستغرق وقتًا أطول للاستجابة.",
+      "errors": {
+        "type": "يرجى إدخال تكوين مهلة الخادم.",
+        "minimum": "يجب أن تكون قيمة مهلة الخادم 5 على الأقل.",
+        "maximum": "يجب أن تكون قيمة مهلة الخادم 95 على الأكثر."
+      }
+    }
+  },
+  "appearance": {
+    "corners": {
+      "label": "الزوايا",
+      "enum": {
+        "round": {
+          "label": "دائري"
+        },
+        "square": {
+          "label": "مربع"
+        }
+      }
+    },
+    "dropShadow": {
+      "label": "إفلات الظل",
+      "enum": {
+        "heavy": {
+          "label": "ثقيل"
+        },
+        "low": {
+          "label": "منخفض"
+        },
+        "medium": {
+          "label": "متوسط"
+        },
+        "none": {
+          "label": "لم يبدأ"
+        }
+      }
+    },
+    "layout": {
+      "label": "نمط البطاقة",
+      "enum": {
+        "informational": {
+          "label": "معلوماتية"
+        },
+        "simple": {
+          "label": "بسيط"
+        }
+      }
+    },
+    "popoverText": {
+      "label": "المحتوى النموذجي"
+    },
+    "publisherText": {
+      "label": "الناشر المصدر"
+    },
+    "styleSpecificSettings": {
+      "label": "إعدادات النمط",
+      "helperInfoText": "سيؤدي تحديد زر المعلومات إلى فتح نافذة مشروطة تحتوي على مزيد من المعلومات.",
+      "helperVizText": "تدعم البطاقة البسيطة إضافة أيقونة كعنصر مرئي، ويمكن استخدامها لتعكس التغييرات في البيانات."
+    },
+    "sectionTitle": "المظهر",
+    "textAlign": "محاذاة",
+    "visualInterest": {
+      "label": "العنصر المرئي",
+      "enum": {
+        "icon": {
+          "label": "أيقونة"
+        },
+        "none": {
+          "label": "لا شيء"
+        }
+      }
+    },
+    "icon": {
+      "label": "أيقونة",
+      "caretUp": {
+        "label": "زيادة"
+      },
+      "caretDown": {
+        "label": "نقصان"
+      },
+      "caretDouble": {
+        "label": "بدون تغيير"
+      }
+    },
+    "valueColor": "اللون (إحصائي)"
+  },
+  "details": {
+    "allowDynamicLink": "عرض رابط المصدر",
+    "link": {
+      "sectionTitle": "ارتباط",
+      "sourceLink": "عنوان URL للارتباط",
+      "sourceTitle": "نص الرابط"
+    },
+    "sectionTitle": "التفاصيل",
+    "subtitle": "عنوان فرعي",
+    "title": "العنوان",
+    "trailingText": {
+      "label": "النص اللاحق",
+      "helperText": "أدخل أي سياق أو تفسير إضافي (ليظهر أسفل قيمة المقياس)."
+    }
+  },
+  "errors": {
+    "sourceLink": {
+      "required": "الرابط المطلوب لعرض المصدر.",
+      "formatError": "تنسيق عنوان URL غير صحيح"
+    }
+  },
+  "formatting": {
+    "sectionTitle": "تنسيق",
+    "unit": {
+      "label": "عرض الوحدات",
+      "helperText": "أدخل وحدة القياس لقيمتك."
+    },
+    "unitPosition": {
+      "label": "تعيين الموضع",
+      "helperText": "حدد المكان الذي تظهر فيه وحدة القياس (على سبيل المثال، \"كم\"، \"رطل\") بالنسبة للقيمة المترية.",
+      "enum": {
+        "after": {
+          "label": "بعد"
+        },
+        "before": {
+          "label": "قبل"
+        },
+        "below": {
+          "label": "أسفل"
+        }
+      }
+    }
+  },
+  "sharing": {
+    "sectionTitle": "مشاركة",
+    "showShareIcon": "تمكين المشاركة",
+    "showShareIconHelperText": "السماح للمستخدمين بنسخ رابط مباشر لهذه البطاقة في هذه الصفحة.",
+    "shareableByValue": "تمكين التضمينات",
+    "shareableOnHover": {
+      "label": "عرض عند التحويم",
+      "helperText": {
+        "label": "يظهر زر المشاركة عند التحويم فقط. في حالة إيقاف التشغيل، يكون الزر مرئيًا دائمًا."
+      }
+    }
+  },
+  "statistic": {
+    "dataSource": "مصدر البيانات",
+    "displayValue": "عرض القيمة",
+    "sectionTitle": "القيمة",
+    "type": {
+      "label": "نوع",
+      "enum": {
+        "dynamic": {
+          "label": "ديناميكي",
+          "description": "حدد مجموعة بيانات موجودة (خدمة المعالم) لتلخيصها."
+        },
+        "static": {
+          "label": "ثابت",
+          "description": "أدخل قيمة يدويًا لتمييزها في تخطيطك."
+        }
+      }
+    }
+  }
+}

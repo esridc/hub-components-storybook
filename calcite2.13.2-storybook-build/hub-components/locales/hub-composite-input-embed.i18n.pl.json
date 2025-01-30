@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "Moje zasoby",
+    "livingAtlas": "Living Atlas",
+    "organization": "Moja instytucja",
+    "world": "Świat (publiczne)"
+  },
+  "collection": {
+    "appsAndMaps": "Aplikacje i mapy",
+    "feedback": "Opinia"
+  },
+  "facets": {
+    "type": "Typ",
+    "tags": "Znaczniki",
+    "categories": "Kategorie",
+    "modified": "Zmodyfikowany"
+  },
+  "pickerTitle": "Wybierz zasoby",
+  "height": "Wysokość (piksele)",
+  "isScrollable": "Możliwość przewijania",
+  "errors": {
+    "heightMinimum": "Wartość musi być liczbą dodatnią.",
+    "heightMaximum": "Wartość musi być mniejsza lub równa 2000 pikseli.",
+    "urlError": "Musi to być prawidłowy adres URL."
+  },
+  "success": {
+    "urlSuccess": "Pomyślnie dodano adres URL."
+  },
+  "shouldApplyBreakpoints": {
+    "label": "W zamian zastosuj ustawienia według punktów przerwania urządzenia"
+  },
+  "viewportAll": {
+    "label": "Domyślne",
+    "description": "Ustawienia zastosowane do wszystkich rozmiarów ekranu"
+  },
+  "viewportMobile": {
+    "label": "Wersja mobilna",
+    "description": "Ustawienia zastosowane do ekranów o szerokości 360 pikseli i większej"
+  },
+  "viewportTablet": {
+    "label": "Tablet",
+    "description": "Ustawienia zastosowane do ekranów o szerokości 560 pikseli i większej"
+  },
+  "viewportDesktop": {
+    "label": "Komputer",
+    "description": "Ustawienia zastosowane do ekranów o szerokości 980 pikseli i większej"
+  },
+  "sourceLabel": "Wybierz typ osadzenia",
+  "contentLabel": "Zasoby ArcGIS",
+  "externalLabel": "Zewnętrzny adres URL",
+  "contentDescription": "Wybierz spośród dostępnych map, scen, aplikacji, ankiet i łączy do dokumentów.",
+  "externalDescription": "Wprowadź adres URL do osadzenia. Należy pamiętać, że niektóre domeny nie zezwalają na osadzanie i mogą nie wyświetlać się zgodnie z oczekiwaniami."
+}

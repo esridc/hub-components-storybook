@@ -1,0 +1,87 @@
+{
+  "initiatives": "Algatused",
+  "description": "Looge seos algatustega, et aidata kaasa pikaajalistele või laiaulatuslikele jõupingutustele. Projekti koostööpartnerid saavad hallata kinnitatud seoseid ja rahuldamata seosetaotlusi. Kinnitatud seostega algatused ilmuvad selle projekti vaates. ",
+  "shared": {
+    "error": {
+      "title": "Midagi läks valesti",
+      "message": "Me ei saanud toimingut teha. Proovige uuesti."
+    },
+    "facets": {
+      "access": {
+        "label": "Jagamine"
+      },
+      "status": {
+        "label": "Olek",
+        "notStarted": "Alustamata",
+        "inProgress": "Pooleli",
+        "onHold": "Ootel",
+        "complete": "Valmis"
+      },
+      "tags": {
+        "label": "Märksõnad"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "{currentConfirmedAndOutgoingRequests} / {maxCurrentAndOutgoingRequestsAllowed} kinnitatud + väljaminevat taotlust",
+      "tooltip": "Taotluste saatmiseks katkestage olemasolevad seosed ja/või väljaminevad taotlused"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "Otsi algatusi",
+    "sendRequest": "Saada taotlus",
+    "success": {
+      "title": "Õnnestus",
+      "message": "Saadetud seostamistaotlused: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "Kontrolli seoseid",
+      "message": "Mõnel valikul on juba taotletud seoseid. Uued saadetud seostamistaotlused: {count}"
+    },
+    "catalog": {
+      "myContent": "Minu sisu",
+      "favorites": "Lemmikud",
+      "organization": "Minu organisatsioon",
+      "partners": "Minu partnerid",
+      "community": "Minu kogukond"
+    },
+    "collection": {
+      "initiatives": "Algatused"
+    }
+  },
+  "acceptAssociation": {
+    "label": "Aktsepteeri",
+    "limitReachedTooltip": "Nõustumiseks katkestage olemasolevad seosed ja/või väljaminevad taotlused",
+    "success": {
+      "title": "Õnnestus",
+      "message": "Seostamine taotlejaga {requestor} on aktsepteeritud"
+    }
+  },
+  "cancelRequest": {
+    "label": "Tühista taotlus",
+    "success": {
+      "title": "Õnnestus",
+      "message": "Seostamistaotlus on tühistatud"
+    }
+  },
+  "breakAssociation": {
+    "label": "Katkesta ühendus",
+    "success": {
+      "title": "Seos on katkenud",
+      "message": "Oleme selle üksuse varasema seose katkestanud. Aga me ei saa tühistada teise poole otsust, nii et võite seda endiselt näha sissetulevate taotluste hulgas."
+    }
+  },
+  "associationsGallery": {
+    "sources": "Olek",
+    "catalog": {
+      "associated": "Seostatud",
+      "requesting": "Sissetulevad taotlused",
+      "pending": "Väljaminevad taotlused"
+    },
+    "collection": {
+      "initiatives": "Algatused"
+    }
+  },
+  "notice": {
+    "label": "Vormi hoiatus"
+  }
+}

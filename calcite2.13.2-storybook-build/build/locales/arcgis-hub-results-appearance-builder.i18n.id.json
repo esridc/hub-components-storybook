@@ -1,0 +1,118 @@
+{
+  "layout": {
+    "title": "Tata Letak",
+    "helperText": "Ini mengonfigurasi tampilan hasil saat pengunjung pertama kali tiba di katalog Anda. Pengunjung akan tetap memiliki opsi untuk mengubah metode tampilannya sendiri.",
+    "enum": {
+      "list": {
+        "label": "Daftar",
+        "description": "Gunakan untuk menampilkan metadata dan saat pengunjung kemungkinan melakukan pencarian yang ditargetkan."
+      },
+      "grid": {
+        "label": "Grid",
+        "description": "Gunakan untuk hasil yang memiliki thumbnail berkualitas tinggi dan saat pengunjung kemungkinan besar melakukan penelusuran."
+      },
+      "table": {
+        "label": "Tabel",
+        "description": "Gunakan untuk menyajikan hasil dalam format terstruktur dengan kolom yang dapat disortir, cocok saat pengunjung ingin melihat dan membandingkan banyak item dan atributnya."
+      },
+      "map": {
+        "label": "Peta",
+        "description": "Gunakan untuk hasil yang terkait dengan lokasi fisik dan saat pengunjung kemungkinan menjelajahi area yang diinginkan."
+      },
+      "compact": {
+        "label": "Ringkas",
+        "description": "Gunakan untuk memaksimalkan jumlah hasil yang terlihat di ruang yang lebih kecil, cocok untuk penelusuran cepat atau tampilan di perangkat seluler."
+      }
+    }
+  },
+  "cards": {
+    "title": "Kartu",
+    "cardTitleTag": {
+      "label": "Heading",
+      "helperText": "Ini dapat digunakan untuk memperbaiki struktur heading bertumpuk agar mudah diakses. Ini tidak akan mengubah ukuran font.",
+      "enum": {
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        }
+      }
+    },
+    "showThumbnail": {
+      "label": "Tampilkan thumbnail",
+      "enum": {
+        "show": {
+          "label": "Selalu",
+          "description": "Gambar thumbnail akan selalu ditampilkan pada kartu hasil, bagaimanapun tata letak hasilnya."
+        },
+        "hide": {
+          "label": "Jangan tampilkan thumbnail",
+          "description": "Gambar thumbnail tidak akan ditampilkan pada jenis kartu hasil apa pun. Gunakan opsi ini jika kualitas thumbnail Anda buruk atau jika Anda ingin orang dapat memindai hasil daftar lebih cepat di desktop dan seluler."
+        },
+        "grid": {
+          "label": "Hanya dalam grid",
+          "description": "Gambar thumbnail hanya akan ditampilkan dalam kartu grid. Kartu daftar akan menampilkan kolom metadata tambahan sebagai pengganti gambar."
+        }
+      }
+    },
+    "corners": {
+      "label": "Sudut",
+      "enum": {
+        "square": {
+          "label": "Kotak"
+        },
+        "round": {
+          "label": "Bulat"
+        }
+      }
+    },
+    "shadow": {
+      "label": "Bayangan jatuh",
+      "enum": {
+        "heavy": {
+          "label": "Berat"
+        },
+        "low": {
+          "label": "Rendah"
+        },
+        "medium": {
+          "label": "Medium"
+        },
+        "none": {
+          "label": "Tidak Ada"
+        }
+      }
+    },
+    "showLinkButton": {
+      "label": "Sertakan tombol",
+      "helperText": "Jika tombol mati, maka hanya judul kartu yang akan menjadi tautan."
+    },
+    "linkButtonStyle": {
+      "label": "Style",
+      "enum": {
+        "outline-filled": {
+          "label": "Diisi"
+        },
+        "outline": {
+          "label": "Kerangka"
+        }
+      }
+    },
+    "linkButtonText": {
+      "label": "Teks"
+    }
+  }
+}

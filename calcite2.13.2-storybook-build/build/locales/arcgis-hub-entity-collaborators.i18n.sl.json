@@ -1,0 +1,85 @@
+{
+  "collaborators": "Sodelavci",
+  "editGroupButtonText": "Dodaj skupine za urejanje",
+  "viewGroupButtonText": "Dodaj skupine za ogled",
+  "groupPicker": {
+    "title": "Izberi skupine",
+    "facet": {
+      "label": "Od",
+      "editGroups": "Skupine za urejanje",
+      "viewGroups": "Ogled skupine",
+      "myGroups": "Moje skupine",
+      "myOrganization": "Moja organizacija",
+      "myCommunity": "Moja zainteresirana javnost"
+    }
+  },
+  "addNewPeopleNotice": {
+    "title": "Dodajanje novih oseb",
+    "message": "Če želite dodati osebe, jih lahko povabite, naj se pridružijo zainteresirani javnosti ali pa se <orgOverviewLink>obrnete na svojega administratorja</orgOverviewLink>."
+  },
+  "editGroupsTitle": "Skupine, ki lahko urejajo",
+  "viewGroupsTitle": "Skupine, ki si lahko ogledajo",
+  "project": {
+    "description": "Izberite, katere skupine uporabnikov si lahko ogledajo in urejajo ta projekt.",
+    "editGroupsDescription": "Osebe v teh skupinah bodo lahko urejale informacije o projektu.",
+    "viewGroupsDescription": "Osebe v teh skupinah bodo lahko brskale po projektu in si ga ogledale, če ni na voljo za javnost.",
+    "errorMessage": "Pri posodabljanju sodelavcev vašega projekta je prišlo do napake."
+  },
+  "content": {
+    "description": "Izberite, katere skupine uporabnikov si lahko ogledajo in urejajo to vsebino.",
+    "editGroupsDescription": "Osebe v teh skupinah bodo lahko urejale informacije o vsebini.",
+    "viewGroupsDescription": "Osebe v teh skupinah bodo lahko brskale po vsebini in si jo ogledale, če ni na voljo za javnost.",
+    "errorMessage": "Pri posodobitvi sodelavcev za vašo vsebino je prišlo do napake."
+  },
+  "discussion": {
+    "description": "Izberite, katere skupine uporabnikov si lahko ogledajo forum za razprave in katere lahko urejajo podatke v forumu.",
+    "editGroupsDescription": "Člani teh skupin lahko urejajo podatke v forumu.",
+    "viewGroupsDescription": "Člani teh skupin bodo lahko brskali po forumu za razprave in si ga ogledali (če ni na voljo za javnost).",
+    "errorMessage": "Pri posodobitvi sodelavcev za vašo razpravo je prišlo do napake."
+  },
+  "site": {
+    "description": "Izberite, katere skupine uporabnikov si lahko ogledajo in urejajo to mesto.",
+    "editGroupsDescription": "Osebe v teh skupinah bodo lahko urejale informacije o mestu.",
+    "viewGroupsDescription": "Osebe v teh skupinah bodo lahko brskale po mestu in si jo ogledale, če ni na voljo za javnost.",
+    "errorMessage": "Pri posodobitvi sodelavcev za vaše mesto je prišlo do napake."
+  },
+  "template": {
+    "description": "Izberite, katere skupine uporabnikov si lahko ogledajo in urejajo to predlogo.",
+    "editGroupsDescription": "Osebe v teh skupinah bodo lahko urejale informacije o predlogi.",
+    "viewGroupsDescription": "Osebe v teh skupinah bodo lahko brskale po predlogi in si jo ogledale, če ni na voljo za javnost.",
+    "errorMessage": "Pri posodobitvi sodelavcev za vašo predlogo je prišlo do napake."
+  },
+  "survey": {
+    "description": "Izberite, katere skupine uporabnikov si lahko ogledajo in urejajo ta obrazec.",
+    "editGroupsDescription": "Osebe v teh skupinah bodo lahko urejale informacije o obrazcu.",
+    "viewGroupsDescription": "Osebe v teh skupinah bodo lahko brskale po obrazcu in si ga ogledale, če ni na voljo za javnost.",
+    "errorMessage": "Pri posodobitvi sodelavcev za vaš obrazec je prišlo do napake."
+  },
+  "event": {
+    "description": "Izberite, katere skupine uporabnikov si lahko ogledajo in urejajo ta dogodek.",
+    "editGroupsDescription": "Osebe v teh skupinah bodo lahko urejale informacije o dogodku.",
+    "viewGroupsDescription": "Osebe v teh skupinah bodo lahko brskale po dogodku in si ga ogledale, če ni na voljo za javnost.",
+    "errorMessage": "Pri posodobitvi sodelavcev za vaš dogodek je prišlo do napake."
+  },
+  "newTab": "odpri profil v novem zavihku",
+  "supportingTeams": "Podporne ekipe",
+  "supportingTeamsDesc": "Te podporne ekipe so bile v preteklosti povezane z vašim spletnim mestom. Še naprej jih lahko uporabljate za skupno rabo vsebine s sodelavci.",
+  "supportTeamsRemove": "Odstrani ekipo",
+  "supportingTeamsRemoveError": "Napaka pri odstranjevanju ekipe. Obrnite se na administratorja.",
+  "supportingTeamsRemoveSuccess": "Ekipa je bila uspešno odstranjena.",
+  "view": {
+    "button": "Ustvari skupino za ogled",
+    "formLabel": "Nova skupina za ogled",
+    "description": "Ustanovite skupino za lažjo izmenjavo vsebin in komunikacijo. Člani skupine si bodo lahko ogledali katero koli vsebino, ki je deljena s skupino."
+  },
+  "edit": {
+    "button": "Ustvari skupino za urejanje",
+    "formLabel": "Nova skupina za urejanje",
+    "description": "Ustanovite skupino za lažjo izmenjavo vsebin in komunikacijo. Člani skupine si bodo lahko ogledali in urejali katero koli vsebino, ki je deljena s skupino."
+  },
+  "groupCreateDisabledButtonTooltip": "Skupine ne morete ustvariti. Morda ste že v največjem številu skupin ali nimate ustreznih pravic za ustvarjanje skupine.",
+  "groupCreateError": "Pri ustvarjanju skupine je prišlo do napake.",
+  "notice": {
+    "label": "Opozorilo obrazca"
+  }
+}

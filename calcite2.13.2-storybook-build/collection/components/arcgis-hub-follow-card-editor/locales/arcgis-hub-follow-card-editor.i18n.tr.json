@@ -1,0 +1,41 @@
+{
+  "notice": {
+    "outdatedItem": {
+      "title": "İnisiyatifinizi değiştirin",
+      "message": "Bu kart güncelliğini yitirmiş bir ögeye gönderme yapıyor. Kullanıcıların takip etmesi için başka bir öge seçin."
+    },
+    "missingFollowersGroup": {
+      "title": "Takipçi grubu yok",
+      "message": "Bu ögede bir takipçi grubu yok. Lütfen başka bir öge seçin."
+    },
+    "noGroupAccess": {
+      "title": "Dikkat",
+      "message": "Takipçi grubuna erişiminiz yok."
+    }
+  },
+  "selectContent": {
+    "title": "Takip edilecek içerik",
+    "facets": {
+      "sharing": "Paylaşım",
+      "catalog": {
+        "myContent": "İçeriğim",
+        "organization": "Kuruluşum"
+      }
+    }
+  },
+  "callToAction": {
+    "title": "Harekete Geçirici Mesaj",
+    "helperText": "Harekete geçirici mesaj takip düğmesinin üstünde görünür.",
+    "alignment": "Hizalama"
+  },
+  "followButton": {
+    "title": "Takip et düğmesi",
+    "helperText": "Bu düğme üyelerin içeriğinizi takip etmesine veya takibi bırakmasına olanak tanır. Düğmenin her iki durumu için de metin ayarlanabilir.",
+    "buttonText": "Onayla düğmesi için metin",
+    "unfollowButtonText": "İptal Et düğmesi için metin",
+    "alignment": "Hizalama",
+    "buttonStyle": "Düğme biçimi",
+    "solid": "Düz renk arka plan",
+    "outline": "Çerçeve"
+  }
+}

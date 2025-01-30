@@ -1,0 +1,43 @@
+{
+  "content": "Tartalom",
+  "myContent": "Saját tartalom",
+  "editableContent": "Szerkeszthető tartalom",
+  "addContentButtonText": "Új létrehozása",
+  "type": "Típus",
+  "sharedUpdate": "Megosztott frissítési csoport",
+  "viewOnly": "Csak megtekinthető csoport",
+  "owner": "Tulajdonos",
+  "updated": "Frissítve",
+  "tags": "Címkék",
+  "dateCreated": "Létrehozva",
+  "dateUpdated": "Módosítva",
+  "actionLinks": {
+    "view": "Megtekintés",
+    "edit": "Szerkesztés",
+    "ariaEdit": "{title} szerkesztése",
+    "ariaView": "{title} megtekintése"
+  },
+  "facets": {
+    "content": {
+      "label": "Tartalom",
+      "myContent": "Általam birtokolt tartalom",
+      "editableContent": "Általam szerkeszthető tartalom",
+      "all": "Összes tartalom"
+    },
+    "access": {
+      "label": "Ettől:"
+    },
+    "type": {
+      "label": "Típusok"
+    },
+    "tags": {
+      "label": "Címkék"
+    },
+    "categories": {
+      "label": "Kategóriák"
+    },
+    "modified": {
+      "label": "Módosítva"
+    }
+  }
+}

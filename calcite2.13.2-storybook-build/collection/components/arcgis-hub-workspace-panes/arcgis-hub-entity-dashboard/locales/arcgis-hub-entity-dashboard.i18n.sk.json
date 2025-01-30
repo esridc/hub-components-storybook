@@ -1,0 +1,20 @@
+{
+  "dashboard": "Dashboard",
+  "activityLogSection": {
+    "title": "Záznam o činnosti",
+    "table": {
+      "downloadAction": "Stiahnuť",
+      "downloadAllAction": "Stiahnuť všetky",
+      "downloadActionTooltip": "Stiahnuť vybraté aktivity",
+      "caption": "Prehľad nedávnych chýb",
+      "columnHeaders": {
+        "datetime": "Dátum",
+        "layer": "Vrstva",
+        "message": "Správa"
+      },
+      "noRecentErrors": "Žiadne nedávne chyby",
+      "expandText": "Zobraziť viac",
+      "collapseText": "Zobraziť menej"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+function t(t){let n=(new Date).getTime();return Array(t).fill(0).reduce((function(t){const r=(n+16*Math.random())%16|0;return n=Math.floor(n/16),`${t}${r.toString(16)}`}),"")}export{t as g}

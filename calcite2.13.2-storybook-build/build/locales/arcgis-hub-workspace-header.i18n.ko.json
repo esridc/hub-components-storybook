@@ -1,0 +1,47 @@
+{
+  "communityOrg": "커뮤니티 기관",
+  "editLayout": "레이아웃 편집",
+  "orgWorkspace": "홈 작업 영역 열기",
+  "editS123": "Survey123에서 편집",
+  "editAdvancedJson": "advancced JSON 편집",
+  "view": {
+    "project": "프로젝트 보기",
+    "site": "사이트 보기",
+    "initiative": "이니셔티브 보기",
+    "discussion": "보드 보기",
+    "content": "콘텐츠 보기",
+    "page": "페이지 보기",
+    "group": "그룹 보기",
+    "initiativeTemplate": "이니셔티브 템플릿 보기",
+    "template": "템플릿 보기",
+    "survey": "현장조사 보기",
+    "event": "이벤트 보기"
+  },
+  "access": {
+    "share": "공유",
+    "sharingLevel": "공유 레벨",
+    "groupSharing": "그룹 공유",
+    "tooltip": {
+      "public": "공유 수준: 공개",
+      "org": "공유 수준: 기관",
+      "private": "공유 수준: 비공개",
+      "shared": "공유 수준: 비공개로 공유됨"
+    },
+    "save": "저장",
+    "cancel": "취소",
+    "alert": {
+      "success": "편집 내용이 저장됨",
+      "error": "편집 내용을 저장하는 동안 오류 발생",
+      "label": "양식 알림"
+    }
+  },
+  "popoverActions": {
+    "label": "추가 작업",
+    "openInEnterprise": "ArcGIS Enterprise에서 열기",
+    "openInOnline": "ArcGIS Online에서 열기"
+  },
+  "homeLink": {
+    "text": "홈"
+  },
+  "createContent": "생성"
+}

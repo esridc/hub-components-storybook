@@ -1,0 +1,40 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  margin-bottom: 5px;
+  font-size: var(--calcite-font-size-2);
+  line-height: 1.5rem;
+  font-weight: var(--calcite-font-weight-medium);
+  color: var(--calcite-color-text-2);
+}
+
+calcite-input {
+  width: 100%;
+}
+
+span {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--calcite-font-size-0);
+  line-height: 1.25rem;
+  font-weight: var(--calcite-font-weight-normal);
+  color: var(--calcite-color-text-2);
+}
+
+calcite-icon[class="error"] {
+  color: var(--calcite-color-status-danger);
+}
+
+calcite-icon[class="success"] {
+  color: var(--calcite-color-status-success);
+}
+
+calcite-icon {
+  margin-right: 0.625rem;
+}

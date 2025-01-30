@@ -1,0 +1,50 @@
+{
+  "section": "Xóa",
+  "protection": "Ngăn ngừa sự cố vô tình xóa {type} này.",
+  "protectionTooltip": "Chú giải công cụ bảo vệ",
+  "protectionDisabledTooltip": "Chỉ chủ sở hữu hoặc quản trị viên tổ chức mới có thể thay đổi bảo vệ.",
+  "deleteDisabledNoAccessTooltip": "Chỉ chủ sở hữu hoặc quản trị viên tổ chức mới có thể xóa.",
+  "deleteDisabledNoAccessTooltipGroup": "Chỉ chủ sở hữu, quản lý hoặc quản trị viên tổ chức mới có thể xóa.",
+  "deleteDisabledProtectedTooltip": "Bạn không thể xóa khi tính năng bảo vệ chống xóa đang bật.",
+  "deleteButton": "Xóa",
+  "protect": {
+    "successTitle": "Đã thêm bảo vệ chống xóa",
+    "success": "Bạn không thể xóa khi tính năng bảo vệ chống xóa đang bật.",
+    "successLabel": "Cảnh báo đã thêm bảo vệ chống xóa.",
+    "errorTitle": "Không thể thêm bảo vệ chống xóa",
+    "error": "Đã xảy ra lỗi khi thêm bảo vệ chống xóa.",
+    "errorLabel": "Cảnh báo bảo vệ chống xóa không thành công."
+  },
+  "unprotect": {
+    "successTitle": "Đã gỡ bỏ bảo vệ chống xóa",
+    "success": "Bạn có thể xóa khi tính năng bảo vệ chống xóa tắt.",
+    "successLabel": "Cảnh báo đã gỡ bỏ bảo vệ chống xóa.",
+    "errorTitle": "Không thể gỡ bỏ bảo vệ chống xóa",
+    "error": "Đã xảy ra lỗi khi gỡ bỏ bảo vệ chống xóa.",
+    "errorLabel": "Cảnh báo không thể gỡ bỏ bảo vệ chống xóa."
+  },
+  "delete": {
+    "successTitle": "Xóa thành công",
+    "success": "Chuyển hướng đến không gian làm việc chính của bạn",
+    "successLabel": "Cảnh báo xóa thành công.",
+    "errorTitle": "Không thể xóa",
+    "error": "Đã xảy ra lỗi, vui lòng thử lại.",
+    "errorLabel": "Cảnh báo không thể xóa."
+  },
+  "permanentDelete": {
+    "successTitle": "Xóa vĩnh viễn thành công",
+    "success": "Chuyển hướng đến không gian làm việc chính của bạn",
+    "successLabel": "Cảnh báo xóa thành công.",
+    "errorTitle": "Không thể xóa",
+    "error": "Đã xảy ra lỗi, vui lòng thử lại.",
+    "errorLabel": "Cảnh báo không thể xóa."
+  },
+  "deleteModal": {
+    "header": "Xóa",
+    "deleteContent": "Bạn không thể hoàn tác hành động xóa vĩnh viễn. Bạn có chắc chắn muốn tiếp tục không?",
+    "recycleContent": "Nội dung đã xóa sẽ được gửi vào thùng rác. Bạn sẽ có 14 ngày để khôi phục.",
+    "delete": "Xóa",
+    "permanentlyDelete": "Xóa Vĩnh viễn",
+    "cancel": "Hủy"
+  }
+}

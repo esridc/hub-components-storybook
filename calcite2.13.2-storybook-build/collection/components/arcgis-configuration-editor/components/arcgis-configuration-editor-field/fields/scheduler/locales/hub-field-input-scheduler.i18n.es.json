@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "Automatizado por el hub",
+      "actionText": "Información de opción automática"
+    },
+    "daily": {
+      "defaultLabel": "Diario",
+      "defaultExpandedHelperText": "Cada día a la hora seleccionada en la zona horaria elegida.",
+      "actionText": "Información de opción diaria"
+    },
+    "weekly": {
+      "defaultLabel": "Semanal",
+      "defaultExpandedHelperText": "Cada semana en el día y a la hora siguientes en la zona horaria elegida.",
+      "actionText": "Información de opción semanal"
+    },
+    "monthly": {
+      "defaultLabel": "Mensual",
+      "defaultExpandedHelperText": "Cada mes en el día y a la hora siguientes en la zona horaria elegida",
+      "actionText": "Información de opción mensual"
+    },
+    "yearly": {
+      "defaultLabel": "Anual",
+      "defaultExpandedHelperText": "Cada año en el mes, el día y a la hora siguientes en la zona horaria elegida.",
+      "actionText": "Información de opción anual"
+    },
+    "manual": {
+      "defaultLabel": "Manual",
+      "defaultExpandedHelperText": "Utilice esta opción si desea actualizar manualmente el índice de búsqueda y los archivos descargados en caché correspondientes a este elemento.",
+      "actionText": "Información de opción manual"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "Hora del día",
+      "inputMessage": "El tiempo se redondeará a la hora más cercana.",
+      "error": "Seleccione una hora."
+    },
+    "day": {
+      "helperText": "Día de la semana",
+      "daysOfTheWeek": {
+        "sunday": "Domingo",
+        "monday": "Lunes",
+        "tuesday": "Martes",
+        "wednesday": "Miércoles",
+        "thursday": "Jueves",
+        "friday": "Viernes",
+        "saturday": "Sábado"
+      },
+      "selectLabel": "Selector del día de la semana",
+      "error": "Seleccione un día de la semana."
+    },
+    "date": {
+      "helperText": "Día del mes",
+      "inputNumberPlaceholder": "Seleccione un día del mes",
+      "inputMessage": "Introduzca un valor de 1 a 28 para el día del mes.",
+      "error": "El día del mes debe estar comprendido entre el 1 y el 28."
+    },
+    "month": {
+      "helperText": "Mes del año",
+      "selectLabel": "Selector del mes del año",
+      "monthsOfTheYear": {
+        "january": "Enero",
+        "february": "Febrero",
+        "march": "Marzo",
+        "april": "Abril",
+        "may": "Mayo",
+        "june": "Junio",
+        "july": "Julio",
+        "august": "Agosto",
+        "september": "Septiembre",
+        "october": "Octubre",
+        "november": "Noviembre",
+        "december": "Diciembre"
+      },
+      "error": "Seleccione un mes."
+    },
+    "timezone": {
+      "helperText": "Zona horaria",
+      "error": "Seleccione una zona horaria."
+    }
+  },
+  "fieldHeader": "Frecuencia"
+}

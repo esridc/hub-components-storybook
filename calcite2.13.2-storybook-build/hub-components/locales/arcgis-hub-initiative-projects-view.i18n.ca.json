@@ -1,0 +1,19 @@
+{
+  "facets": {
+    "location": {
+      "label": "Ubicació",
+      "tooltip": "Apliqueu l'extensió de mapa com a filtre d'ubicació"
+    },
+    "status": "Estat",
+    "tags": "Etiquetes",
+    "categories": "Categories",
+    "dateUpdated": "Data d'actualització"
+  },
+  "status": {
+    "label": "Estat de la iniciativa",
+    "notStarted": "No s'ha iniciat",
+    "inProgress": "En curs",
+    "onHold": "En espera",
+    "complete": "Completat"
+  }
+}

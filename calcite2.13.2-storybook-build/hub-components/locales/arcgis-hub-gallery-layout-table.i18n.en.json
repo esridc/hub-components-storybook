@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "No results found."
+    },
+    "error": {
+      "message": "We are sorry but search ran into an error."
+    }
+  },
+  "access": "Access",
+  "actionsHeader": "Actions",
+  "caption": "Hub entity table",
+  "family": "Family",
+  "type": "Type",
+  "tags": "Tags",
+  "owner": "Owner",
+  "dateCreated": "Created",
+  "dateUpdated": "Modified",
+  "description": "Description",
+  "dateAndTime": "Date & time",
+  "location": "Location",
+  "attendanceType": "Attendance type",
+  "inPerson": "In-person",
+  "online": "Online",
+  "hybrid": "Hybrid",
+  "categories": "Categories",
+  "content": "Content",
+  "name": "Name",
+  "start": "Start",
+  "end": "End",
+  "sharedUpdate": "Shared update",
+  "managers": "Managers",
+  "username": "Username",
+  "no": "No",
+  "yes": "Yes",
+  "title": "Title",
+  "thumbnail": "Thumbnail",
+  "types": {
+    "app": "Application",
+    "content": "Content",
+    "dataset": "Dataset",
+    "discussion": "Discussion Board",
+    "document": "Document",
+    "event": "Event",
+    "feedback": "Feedback",
+    "initiative": "Initiative",
+    "image": "Image",
+    "map": "Map",
+    "other": "Other",
+    "people": "People",
+    "site": "Site",
+    "team": "Group",
+    "template": "Template",
+    "project": "Project"
+  }
+}

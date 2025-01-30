@@ -1,0 +1,46 @@
+{
+  "registrants": "Registranter",
+  "invite": "Inviter",
+  "tabs": {
+    "registrants": "Registranter",
+    "settings": "Innstillinger"
+  },
+  "emptyNotice": {
+    "title": "Ingen registranter",
+    "desc": "Arrangementer er alltid morsommere med et publikum. Inviter folk eller del arrangementet for å oppmuntre folk til å delta.",
+    "link": "Inviter registranter"
+  },
+  "facets": {
+    "role": {
+      "header": "Rolle",
+      "owner": "Eier",
+      "organizer": "Organisator",
+      "attendee": "Registrant"
+    },
+    "status": {
+      "header": "Status",
+      "pending": "Venter",
+      "accepted": "Akseptert",
+      "declined": "Avvist",
+      "blocked": "Blokkert"
+    },
+    "location": {
+      "header": "Lokasjon",
+      "online": "Online",
+      "in_person": "Personlig"
+    },
+    "updatedDate": "Oppdatert dato"
+  },
+  "delete": {
+    "attendee": "Fjern registrant"
+  },
+  "notice": {
+    "label": "Skjemavarsel"
+  },
+  "success": {
+    "delete": "Registrantene ble fjernet fra {eventName}."
+  },
+  "error": {
+    "delete": "Én eller flere registranter kunne ikke fjernes fra hendelsen."
+  }
+}

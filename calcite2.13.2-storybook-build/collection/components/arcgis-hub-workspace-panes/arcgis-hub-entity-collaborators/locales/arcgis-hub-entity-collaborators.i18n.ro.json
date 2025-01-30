@@ -1,0 +1,85 @@
+{
+  "collaborators": "Colaboratori",
+  "editGroupButtonText": "Adăugare grupuri editare",
+  "viewGroupButtonText": "Adăugare grupuri vizualizare",
+  "groupPicker": {
+    "title": "Selectare grupuri",
+    "facet": {
+      "label": "De la",
+      "editGroups": "Editare grupuri",
+      "viewGroups": "Vizualizare grup",
+      "myGroups": "Grupurile mele",
+      "myOrganization": "Organizaţia mea",
+      "myCommunity": "Comunitatea mea"
+    }
+  },
+  "addNewPeopleNotice": {
+    "title": "Adăugare persoane noi",
+    "message": "Dacă trebuie să adăugați persoane, le puteți invita să se alăture comunității sau puteți <orgOverviewLink>contacta administratorul</orgOverviewLink>."
+  },
+  "editGroupsTitle": "Grupuri care pot edita",
+  "viewGroupsTitle": "Grupuri care pot vizualiza",
+  "project": {
+    "description": "Alegeți ce grupuri de utilizatori pot vizualiza și edita acest proiect.",
+    "editGroupsDescription": "Persoanele din aceste grupuri vor putea edita informațiile din proiect.",
+    "viewGroupsDescription": "Persoanele din aceste grupuri vor putea căuta și vizualiza proiectul dacă nu este distribuit pentru public.",
+    "errorMessage": "A apărut o eroare la actualizarea colaboratorilor proiectului dvs."
+  },
+  "content": {
+    "description": "Alegeți ce grupuri de utilizatori pot vizualiza și edita acest conținut.",
+    "editGroupsDescription": "Persoanele din aceste grupuri vor putea edita informațiile din conținut.",
+    "viewGroupsDescription": "Persoanele din aceste grupuri vor putea căuta și vizualiza conținutul dacă nu este distribuit pentru public.",
+    "errorMessage": "A apărut o eroare la actualizarea colaboratorilor conținutului dvs."
+  },
+  "discussion": {
+    "description": "Alegeți ce grupuri de utilizatori pot vizualiza panoul de discuții și cine poate edita informațiile panoului.",
+    "editGroupsDescription": "Membrii acestor grupuri pot edita informațiile panoului de discuții.",
+    "viewGroupsDescription": "Membrii acestor grupuri pot căuta și vizualiza panoul de discuții (dacă nu este partajat cu publicul).",
+    "errorMessage": "A apărut o eroare la actualizarea colaboratorilor discuției dvs."
+  },
+  "site": {
+    "description": "Alegeți ce grupuri de utilizatori pot vizualiza și edita acest site.",
+    "editGroupsDescription": "Persoanele din aceste grupuri vor putea edita aceste informații despre site.",
+    "viewGroupsDescription": "Persoanele din aceste grupuri vor putea căuta și vizualiza site-ul dacă nu este distribuit pentru public.",
+    "errorMessage": "A apărut o eroare la actualizarea colaboratorilor site-ului dvs."
+  },
+  "template": {
+    "description": "Alegeți ce grupuri de utilizatori pot vizualiza și edita acest șablon.",
+    "editGroupsDescription": "Persoanele din aceste grupuri vor putea edita aceste informații despre șablon.",
+    "viewGroupsDescription": "Persoanele din aceste grupuri vor putea căuta și vizualiza șablonul dacă nu este distribuit pentru public.",
+    "errorMessage": "A apărut o eroare la actualizarea colaboratorilor șablonului dvs."
+  },
+  "survey": {
+    "description": "Alegeți ce grupuri de utilizatori pot vizualiza și edita acest chestionar.",
+    "editGroupsDescription": "Persoanele din aceste grupuri vor putea edita aceste informații despre chestionar.",
+    "viewGroupsDescription": "Persoanele din aceste grupuri vor putea căuta și vizualiza chestionarul dacă nu este distribuit pentru public.",
+    "errorMessage": "A apărut o eroare la actualizarea colaboratorilor chestionarului dvs."
+  },
+  "event": {
+    "description": "Alegeți ce grupuri de utilizatori pot vizualiza și edita acest eveniment.",
+    "editGroupsDescription": "Persoanele din aceste grupuri vor putea edita informațiile din eveniment.",
+    "viewGroupsDescription": "Persoanele din aceste grupuri vor putea căuta și vizualiza evenimentul dacă nu este distribuit pentru public.",
+    "errorMessage": "A apărut o eroare la actualizarea colaboratorilor evenimentului dvs."
+  },
+  "newTab": "deschidere profil în filă nouă",
+  "supportingTeams": "Echipe de asistență",
+  "supportingTeamsDesc": "Aceste echipe de asistență au fost asociate anterior la site-ul dvs. Puteți continua să le utilizați pentru a partaja conținutul cu colaboratorii.",
+  "supportTeamsRemove": "Eliminare echipă",
+  "supportingTeamsRemoveError": "Eroare la anularea asocierii echipei Contactați un administrator.",
+  "supportingTeamsRemoveSuccess": "Asociere echipă anulată cu succes.",
+  "view": {
+    "button": "Creare grup de vizualizare",
+    "formLabel": "Grup de vizualizare nou",
+    "description": "Configurați un grup pentru a facilita partajarea conținutului și comunicarea. Membrii grupului vor putea vizualiza orice conținut partajat cu grupul."
+  },
+  "edit": {
+    "button": "Creare grup de editare",
+    "formLabel": "Grup de editare nou",
+    "description": "Configurați un grup pentru a facilita partajarea conținutului și comunicarea. Membrii grupului vor putea vizualiza și edita orice conținut partajat cu grupul."
+  },
+  "groupCreateDisabledButtonTooltip": "Nu puteți crea un grup. Este posibil să fiți deja în numărul maxim de grupuri sau să vă lipsească suficiente privilegii pentru a crea un grup.",
+  "groupCreateError": "A apărut o eroare la crearea grupului.",
+  "notice": {
+    "label": "Alertă formular"
+  }
+}

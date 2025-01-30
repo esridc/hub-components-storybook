@@ -1,0 +1,6 @@
+{
+  "baseDomain": "Grunndomene",
+  "subdomain": "Underdomene",
+  "subdomainFormatError": "Feil: Område-URL kan bare inneholde (små) bokstaver, tall og bindestreker. Det kan ikke begynne med en bindestrek. Unicode-tegn er ikke tillatt.",
+  "urlPreview": "URL-forhåndsvisning"
+}

@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "Mano turinys",
+    "livingAtlas": "Gyvojo pasaulio atlasas",
+    "organization": "Mano organizacija",
+    "world": "Pasaulis (viešai)"
+  },
+  "collection": {
+    "appsAndMaps": "Programėlės ir žemėlapiai",
+    "feedback": "Atsiliepimai"
+  },
+  "facets": {
+    "type": "Tipas",
+    "tags": "Žymos",
+    "categories": "Kategorijos",
+    "modified": "Pakeistas"
+  },
+  "pickerTitle": "Pasirinkite turinį",
+  "height": "Aukštis (px)",
+  "isScrollable": "Slenkama",
+  "errors": {
+    "heightMinimum": "Reikšmė turi būti teigiamas skaičius.",
+    "heightMaximum": "Reikšmė turi būti lygi 2000px arba mažesnė.",
+    "urlError": "Turi būti tinkamas URL."
+  },
+  "success": {
+    "urlSuccess": "URL sėkmingai įkeltas."
+  },
+  "shouldApplyBreakpoints": {
+    "label": "Vietoje to taikyti nustatymus pagal įrenginio stabdos taškus"
+  },
+  "viewportAll": {
+    "label": "Numatytoji",
+    "description": "Nustatymai taikomi visiems ekranų dydžiams"
+  },
+  "viewportMobile": {
+    "label": "Mobilios",
+    "description": "Nustatymai taikomi 360px ir didesnio pločio ekranams"
+  },
+  "viewportTablet": {
+    "label": "Planšetinis kompiuteris",
+    "description": "Nustatymai taikomi 560px ir didesnio pločio ekranams"
+  },
+  "viewportDesktop": {
+    "label": "Darbalaukis",
+    "description": "Nustatymai taikomi 980px ir didesnio pločio ekranams"
+  },
+  "sourceLabel": "Pasirinkti įterpimo tipą",
+  "contentLabel": "ArcGIS turinys",
+  "externalLabel": "Išorinis URL",
+  "contentDescription": "Pasirinkite iš jums prieinamų esamų žemėlapių, scenų, aplikacijų, tyrimų ir dokumentų nuorodų.",
+  "externalDescription": "Įveskite norimą įterpti URL. Atkreipkite dėmesį, kad kai kurie domenai neleidžia įterpti elementų – tokiu atveju jie gali būti rodomi ne taip, kaip tikėtasi."
+}

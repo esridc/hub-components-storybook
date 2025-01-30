@@ -1,0 +1,13 @@
+{
+  "selectItem": "Tartalom kiválasztása",
+  "selectGroup": "Csoport kiválasztása",
+  "selectEvent": "Esemény kiválasztása",
+  "remove": "eltávolítás",
+  "launch": "Megnyitás",
+  "updatedDate": "{updatedDate} frissítve",
+  "memberCount": {
+    "noMember": "Nincsenek tagok",
+    "oneMember": "1 tag",
+    "members": "{count} tag"
+  }
+}

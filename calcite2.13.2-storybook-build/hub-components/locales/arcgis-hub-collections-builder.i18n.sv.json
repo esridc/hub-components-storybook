@@ -1,0 +1,15 @@
+{
+  "newCollection": "Ny samling",
+  "block": {
+    "heading": {
+      "untitled": "Namnlös samling"
+    },
+    "actions": {
+      "delete": "Ta bort samling: {label}"
+    }
+  },
+  "name": {
+    "label": "Namn",
+    "requiredError": "Namn på samling krävs"
+  }
+}

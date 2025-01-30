@@ -1,0 +1,96 @@
+{
+  "unnamedChannel": "Canal fără nume",
+  "name": {
+    "label": "Nume",
+    "placeholder": "{prefix} canal"
+  },
+  "save": "Salvare",
+  "basicInfo": {
+    "label": "Informații de bază"
+  },
+  "access": {
+    "private": {
+      "label": "Privat",
+      "description": "Grupurile selectate pot participa. Managerii de grup și proprietarii sunt moderatori auto-atribuiți."
+    },
+    "organization": {
+      "label": "Organizația mea",
+      "description": "Toți membrii cu un cont la {orgName} pot participa. Administratorii de organizații și proprietarul canalului sunt moderatori auto-atribuiți. Proprietarii de canal pot adăuga în plus grupurile în care sunt membrii făcând clic pe „Adăugare grup participant” mai jos.",
+      "disabledTooltip": "Numai administratorii organizației pot crea canale de organizație."
+    },
+    "public": {
+      "label": "Public",
+      "description": "Toți membrii conectați pot participa. Administratorii de organizații și proprietarul canalului sunt moderatori auto-atribuiți. Proprietarii de canal pot adăuga în plus grupurile în care sunt membrii făcând clic pe „Adăugare grup participant” mai jos.",
+      "disabledTooltip": "Numai administratorii organizației pot crea canale publice."
+    },
+    "allowAsAnonymous": {
+      "label": "Permitere anonim (numai pentru participanții conectați)",
+      "description": "Avatarul, numele și numele de utilizator al persoanelor cu conturi care postează anonim nu vor fi disponibile."
+    },
+    "confirmation": {
+      "header": "Sunteţi sigur?",
+      "message": "Salvarea acestor modificări va elimina accesul dvs. editat la acest canal. Numai administratorii organizației pot crea edita canale publice sau de organizație.",
+      "secondary": "Anulare",
+      "primary": "Confirmare"
+    }
+  },
+  "participants": {
+    "label": "Participanți",
+    "helperText": "Persoanele care pot posta, răspunde și reacționa la discuție.",
+    "none": "Niciun participant setat",
+    "add": "Adăugare grup de participanți"
+  },
+  "groupPicker": {
+    "title": "Selectare grupuri",
+    "facet": {
+      "label": "De la",
+      "myGroups": "Grupurile mele",
+      "myOrganization": "Organizaţia mea",
+      "myCommunity": "Comunitatea mea"
+    }
+  },
+  "blockWords": {
+    "label": "Cuvinte blocate",
+    "helperText": "Listă separată prin virgulă. Postările și răspunsurile care le conțin vor fi ascunse automat."
+  },
+  "manage": {
+    "label": "Moderatori",
+    "helperText": "Auto-atribuirea moderatorilor se bazează pe selecția participanților. Pentru orice grupuri suplimentare adăugate la canal, proprietarii grupului și managerii sunt moderatori atribuiți. Moderatorii pot ascunde și afișa postări, adăuga cuvinte blocate și edita setările canalului."
+  },
+  "manager": "Manager",
+  "admin": "Admin",
+  "viewProfile": "Vizualizare profil",
+  "alerts": {
+    "error": "Eroare la salvarea canalului",
+    "success": "Canal salvat cu succes",
+    "label": "Alertă formular"
+  },
+  "validations": {
+    "minChannelGroups": "Canalele private necesită cel puțin un grup de participanți.",
+    "channelNameRequired": "Numele canalului este obligatoriu",
+    "allowAsAnonymous": "Postarea anonimă este suportată doar de canalele publice.",
+    "blockWords": "Introduceți maximum 20 de cuvinte/fraze blocate (intrări separate de virgulă, fără duplicate sau intrări goale)."
+  },
+  "notices": {
+    "edit": "Editările vor afecta toate locurile în care este utilizat acest canal",
+    "duplicate": {
+      "create": {
+        "error": {
+          "title": "Canalul nu a fost creat",
+          "message": "Există deja un canal cu aceste selecții de acces. Utilizați canalul existent și modificați selecțiile."
+        }
+      },
+      "update": {
+        "error": {
+          "title": "Canalul nu a fost actualizat",
+          "message": "Un canal cu aceste selecții de acces există deja, așadar nu putem salva aceste actualizări."
+        }
+      },
+      "action": "Utilizați canalul existent"
+    },
+    "inaccessibleGroups": {
+      "title": "Grupuri indisponibile: {count}",
+      "message": "Nu puteți vizualiza sau gestiona grupuri indisponibile decât dacă sunteți membri."
+    }
+  }
+}

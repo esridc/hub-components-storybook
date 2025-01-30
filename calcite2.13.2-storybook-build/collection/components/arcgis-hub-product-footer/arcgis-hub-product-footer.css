@@ -1,0 +1,32 @@
+:host {
+  display: block;
+  height: 3rem;
+  width: 100%;
+  background-color: var(--calcite-color-foreground-3);
+}
+
+.product-footer__branding {
+  padding-top: 0.125rem;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: var(--calcite-font-size-0);
+  line-height: 1.375rem;
+  font-weight: var(--calcite-font-weight-medium);
+  color: var(--calcite-color-text-2);
+}
+
+/* apply our own theming to the calcite menu components */
+calcite-menu {
+  --calcite-color-foreground-1: var(--calcite-color-foreground-3);
+    --calcite-color-foreground-2: var(--calcite-color-foreground-3);
+    --calcite-color-text-1: var(--calcite-color-text-2);
+    border-top: 1px solid var(--calcite-color-border-1);
+    height: 100%;
+}
+
+calcite-menu-item {
+  --calcite-font-size-0: var(--calcite-font-size--0);
+}

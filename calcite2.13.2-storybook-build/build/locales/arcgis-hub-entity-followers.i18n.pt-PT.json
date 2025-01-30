@@ -1,0 +1,66 @@
+{
+  "followers": "Seguidores",
+  "tabs": {
+    "followers": "Seguidores",
+    "settings": "Definições"
+  },
+  "addFollowers": {
+    "label": "Adicionar seguidores"
+  },
+  "emptyState": {
+    "message": "O site não possui um grupo de seguidores",
+    "action": "Criar grupo de seguidores"
+  },
+  "createFollowersGroup": {
+    "formDescription": "Crie um grupo para facilitar a comunicação e partilha de conteúdo",
+    "defaultSummary": "Este grupo de seguidores permite que os membros partilhem conteúdo e comuniquem com mais facilidade."
+  },
+  "restrictedAccessState": {
+    "message": "Não tem acesso para visualizar o grupo de seguidores.",
+    "action": "Solicitar acesso"
+  },
+  "stats": {
+    "total": {
+      "title": "Total",
+      "trailingText": "Seguidores"
+    },
+    "new": {
+      "title": "Novo",
+      "trailingText": "Últimos 30 dias"
+    }
+  },
+  "addMembers": {
+    "button": "Adicionar membros",
+    "modal": {
+      "title": "Adicionar membros",
+      "org": "A minha organização",
+      "community": "A minha comunidade",
+      "partner": "Os meus parceiros",
+      "world": "Mundo"
+    },
+    "notifications": {
+      "invited": "Convite enviado. Os utilizadores têm de aceitar para aderir",
+      "added": "Utilizador(es) adicionado(s)",
+      "notInvited": "Alguns utilizadores podem não ter os privilégios necessários para aderir ao grupo ou podem estar no limite máximo do grupo (512)"
+    }
+  },
+  "removeUsers": {
+    "button": "Remover",
+    "success": "Membros removidos com sucesso de {groupName}.",
+    "error": "Não foi possível remover um ou mais utilizadores do grupo."
+  },
+  "changeRole": {
+    "button": "Alterar função",
+    "member": "Membro",
+    "memberHelperText": "Pode adicionar e ver conteúdo dentro do grupo.",
+    "tooltipText": "Desselecione-se a si próprio e/ou ao proprietário do grupo",
+    "tooltipLabel": "Declaração de isenção de responsabilidade de perfil",
+    "admin": "Gestor",
+    "adminHelperText": "Pode adicionar/remover conteúdo e convidar/remover pessoas (exceto o proprietário).",
+    "success": "Os membros selecionados tornaram-se no {role} do grupo.",
+    "error": "Não foi possível alterar a função de um ou mais membros."
+  },
+  "notice": {
+    "label": "Alerta de formulário"
+  }
+}

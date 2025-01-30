@@ -1,0 +1,41 @@
+{
+  "managePrivacyButton": "Gizliliği Yönet",
+  "consentNotice": {
+    "allTracking": "Bu site ArcGIS Hub ile oluşturuldu ve performansı artırmak ve site kullanımını Esri'nin Gizlilik Beyanı'na uygun olarak analiz etmek için anonim izleme kullanmaktadır. Ek üçüncü taraf izleme sistemleri siteyi kullanımınızı izleyebilir.",
+    "anonymousTracking": "Bu site ArcGIS Hub ile oluşturuldu ve performansı artırmak ve site kullanımını Esri'nin Gizlilik Beyanı'na uygun olarak analiz etmek için anonim izleme kullanmaktadır.",
+    "noTracking": "Bu site ArcGIS Hub ile oluşturulmuştur ve yalnızca uygulamanın çalışması için gerekli olan ve sistemlerimizde kapatılamayan çerezleri kullanır.",
+    "thirdPartyTracking": "Bu site ArcGIS Hub ile oluşturulmuştur ve yalnızca uygulamanın çalışması için gerekli olan ve sistemlerimizde kapatılamayan çerezleri kullanır. Ek üçüncü taraf izleme sistemleri siteyi kullanımınızı izleyebilir."
+  },
+  "consent": {
+    "esriPrivacyLink": "Esri gizlilik merkezi",
+    "customerConsentLink": "Daha fazla bilgi"
+  },
+  "eueiNotice": {
+    "title": "{orgName} üye izlenmeyecek",
+    "message": "Esri Kullanıcı Deneyimi İyileştirme (EUEI) programı {orgName} için devre dışı bırakıldı. Ziyaretinizle ilgili faaliyetler izlenmeyecektir; anonim kullanım istatistiklerini veya üçüncü şahıs takibini kabul edemezsiniz.",
+    "link": "Program (EUEI) hakkında daha fazla bilgi edinin."
+  },
+  "notice": {
+    "heading": "Gizlilik ayarları",
+    "acceptAllButton": "Tüm çerezleri kabul et",
+    "acceptNecessaryButton": "Sadece gerekli çerezleri kabul et",
+    "confirmButton": "Onayla",
+    "reviewSettingsButton": "Ayarları gözden geçir"
+  },
+  "settings": {
+    "heading": "Gizlilik ayarları",
+    "confirmButton": "Onayla"
+  },
+  "anonymous": {
+    "heading": "Anonim kullanım istatistikleri",
+    "helpText": "Bu çerezler, trafik kaynakları, sayfa görüntüleme sayısı ve etkileşimler gibi uygulama performansını izlememize olanak verir. Bunlar, hangi içeriklerin etkili olduğunu ve ziyaretçilerin uygulamada neler yaptığını öğrenmemize yardımcı olur. Toplanan tüm bilgiler anonimdir (kişisel olarak teşhis edilebilecek hiçbir bilgi depolanmaz). Bu çerezlere izin vermezseniz uygulamamızı ziyaret ettiğinizi veya uygulamamızla etkileşime geçtiğinizi bilmeyiz."
+  },
+  "necessary": {
+    "heading": "Kesinlikle gerekli çerezler",
+    "helpText": "Bu çerezler, uygulamanın çalışması için zorunludur ve sistemlerimizde kapatılamazlar. Hesabınızda oturum açmak gibi, servis talepleriyle ilgili yaptığınız eylemlere yanıt olarak ayarlanırlar. Tarayıcınızı bu çerezleri engellemesi veya çerezler konusunda size uyarması için ayarlayabilirsiniz, ancak uygulamanın bazı kısımları bundan etkilenebilir. Toplanan tüm bilgiler anonimdir (kişisel olarak teşhis edilebilecek hiçbir bilgi depolanmaz)."
+  },
+  "thirdParty": {
+    "heading": "Üçüncü şahıs izleme",
+    "helpText": "Bu çerezler, bu sitede yapılandırılmış üçüncü taraf takip sağlayıcıları tarafından ayarlanabilir. Bunlar ziyaretiniz sırasında sizin hakkınızda hedefleme veya pazarlama bilgileri toplayabilir. Toplanan bilgiler, bu uygulama dışındaki amaçlar için kullanılabilir. Bu çerezlere izin vermezseniz, yapılandırılmış üçüncü taraf takip sağlayıcıları ziyaretiniz hakkında hiçbir bilgi almayacaktır."
+  }
+}

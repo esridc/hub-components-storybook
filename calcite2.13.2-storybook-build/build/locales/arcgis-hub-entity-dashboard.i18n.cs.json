@@ -1,0 +1,20 @@
+{
+  "dashboard": "Řídicí panel",
+  "activityLogSection": {
+    "title": "Protokol aktivit",
+    "table": {
+      "downloadAction": "Stáhnout",
+      "downloadAllAction": "Stáhnout vše",
+      "downloadActionTooltip": "Stáhnout vybrané aktivity",
+      "caption": "Tabulka nedávných chyb",
+      "columnHeaders": {
+        "datetime": "Datum",
+        "layer": "Vrstva",
+        "message": "Zpráva"
+      },
+      "noRecentErrors": "Žádné nedávné chyby",
+      "expandText": "Zobrazit více",
+      "collapseText": "Zobrazit méně"
+    }
+  }
+}

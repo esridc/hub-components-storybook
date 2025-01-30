@@ -1,0 +1,118 @@
+{
+  "layout": {
+    "title": "Asettelu",
+    "helperText": "Tämä määrittää sen, miltä tulokset näyttävät, kun kävijät saapuvat luetteloosi. Kävijät voivat edelleen muuttaa näyttötapaa itse.",
+    "enum": {
+      "list": {
+        "label": "Luettelo",
+        "description": "Käytä metatietojen esittämiseen ja kun kävijät tekevät todennäköisesti kohdennettuja hakuja."
+      },
+      "grid": {
+        "label": "Ruudukko",
+        "description": "Käytä tuloksille, joihin liittyy laadukkaita pikkukuvia, ja kun kävijät todennäköisesti selaavat."
+      },
+      "table": {
+        "label": "Taulu",
+        "description": "Käytä tulosten esittämiseen jäsennellyssä muodossa lajiteltavissa sarakkeissa. Sopii hyvin tilanteisiin, kun kävijät haluavat katsoa ja verrata monia kohteita ja niiden määritteitä."
+      },
+      "map": {
+        "label": "Kartta",
+        "description": "Käytä tuloksille, jotka liittyvät fyysisiin sijainteihin, ja kun kävijät haluavat tutkia kiinnostusalueita."
+      },
+      "compact": {
+        "label": "Suppea",
+        "description": "Käytä, jos haluat maksimoida pienessä tilassa näytettävien tulosten määrän. Vaihtoehto sopii hyvin nopeaan selaukseen tai katsomiseen mobiililaitteissa."
+      }
+    }
+  },
+  "cards": {
+    "title": "Kortit",
+    "cardTitleTag": {
+      "label": "Otsikko",
+      "helperText": "Tätä voidaan käyttää sisäkkäisten otsikkorakenteiden parantamiseen helppokäyttöisyyden varmistamiseksi. Se ei muuta fonttikokoa.",
+      "enum": {
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        }
+      }
+    },
+    "showThumbnail": {
+      "label": "Näytä pikkukuva",
+      "enum": {
+        "show": {
+          "label": "Aina",
+          "description": "Pikkukuvat näkyvät aina luettelokorteissa riippumatta tulosten asettelusta."
+        },
+        "hide": {
+          "label": "Älä näytä pikkukuvia",
+          "description": "Pikkukuvat eivät näy minkään tyyppisissä tuloskorteissa. Käytä tätä vaihtoehtoa, jos pikkukuvat ovat huonolaatuisia tai jos haluat ihmisten voivan tutkia luettelotuloksia nopeammin pöytätietokoneessa tai mobiililaitteessa."
+        },
+        "grid": {
+          "label": "Vain ruudukossa",
+          "description": "Pikkukuvat näkyvät vain ruudukkokorteissa. Luettelokorteissa näkyy kuvan sijasta ylimääräinen metatietosarake."
+        }
+      }
+    },
+    "corners": {
+      "label": "Kulmat",
+      "enum": {
+        "square": {
+          "label": "Neliö"
+        },
+        "round": {
+          "label": "Pyöristetty"
+        }
+      }
+    },
+    "shadow": {
+      "label": "Taustavarjo",
+      "enum": {
+        "heavy": {
+          "label": "Suuri"
+        },
+        "low": {
+          "label": "Pieni"
+        },
+        "medium": {
+          "label": "Keskisuuri"
+        },
+        "none": {
+          "label": "Ei mitään"
+        }
+      }
+    },
+    "showLinkButton": {
+      "label": "Sisällytä painikkeet",
+      "helperText": "Jos painikkeet ovat pois päältä, vain kortin otsikko toimii linkkinä."
+    },
+    "linkButtonStyle": {
+      "label": "Tyyli",
+      "enum": {
+        "outline-filled": {
+          "label": "Täytetty"
+        },
+        "outline": {
+          "label": "Ääriviiva"
+        }
+      }
+    },
+    "linkButtonText": {
+      "label": "Teksti"
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "controls": {
+    "addContent": "İçerik ekle",
+    "back": "Geri",
+    "cancel": "İptal",
+    "close": "Bitti",
+    "create": "Oluştur ve gruba ekle",
+    "next": "İleri"
+  },
+  "createHelpState": {
+    "discussion": {
+      "heading": "Tartışma",
+      "message": "Konuyu belirten bir başlık girerek yeni bir tartışma panosu oluşturun."
+    },
+    "event": {
+      "heading": "Etkinlik",
+      "message": "Şahsen veya sanal olarak bir etkinliğe ev sahipliği yapın."
+    },
+    "group": {
+      "heading": "Grup",
+      "message": "Odaklı içerik üzerinde birlikte çalışmak amacıyla bir grup kurun."
+    },
+    "initiative": {
+      "heading": "İnisiyatif",
+      "message": "İnisiyatifler bir hedefe yönelik ilerlemeyi düzenler ve özetler."
+    },
+    "page": {
+      "heading": "Sayfa",
+      "message": "Bir sayfa, kitlenizle bilgi paylaşmak ve etkileşim kurmak için bir yerdir."
+    },
+    "project": {
+      "heading": "Proje",
+      "message": "Net hedefleri ve zaman dilimlerine sahip çalışmayı vurgulayın."
+    },
+    "site": {
+      "heading": "Site",
+      "message": "Bilgileri düzenlemek ve paylaşmak için bir web sayfası oluşturun."
+    }
+  },
+  "selection": {
+    "unlimited": "Seçilen: {count}",
+    "limited": "Seçilen: {count} / {limit}"
+  },
+  "steps": {
+    "createContent": "Temel bilgileri ekle",
+    "selectContent": "İçerik seç",
+    "selectGroups": "Grup seç",
+    "confirmation": "Onaylama",
+    "notImplemented": "Uygulanmadı"
+  },
+  "working": {
+    "heading": "Seçili içerik ekleniyor.",
+    "loadingLabel": "İçerik ekleniyor."
+  },
+  "failure": {
+    "heading": "İçerik eklenmedi",
+    "message": "Seçili içerik eklenirken bir hata oluştu, lütfen tekrar deneyin.",
+    "action": "Yeniden deneyin"
+  },
+  "notImplemented": {
+    "heading": "Bu iş akışı henüz uygulanmamıştır."
+  },
+  "contentGallery": {
+    "facets": {
+      "access": {
+        "label": "Kaynak"
+      },
+      "type": {
+        "label": "Türler"
+      },
+      "tags": {
+        "label": "Etiketler"
+      },
+      "categories": {
+        "label": "Kategoriler"
+      },
+      "modified": {
+        "label": "Değiştirilme Tarihi"
+      }
+    }
+  },
+  "groupsGallery": {
+    "facets": {
+      "access": {
+        "label": "Görüntüleyebilenler",
+        "options": {
+          "org": "Kuruluş",
+          "public": "Herkes (genel)",
+          "private": "Ben"
+        }
+      },
+      "from": {
+        "label": "Kaynak",
+        "options": {
+          "myCommunity": "Topluluğum",
+          "myGroups": "Gruplarım",
+          "myOrganization": "Kuruluşum",
+          "world": "Dünya"
+        }
+      },
+      "type": {
+        "label": "Türler",
+        "options": {
+          "sharedUpdate": "Paylaşılan Güncelleme",
+          "opendata": "Open Data"
+        }
+      }
+    }
+  }
+}

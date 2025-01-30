@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Результати не знайдено."
+    },
+    "error": {
+      "message": "На жаль, під час пошуку виникла помилка."
+    }
+  },
+  "type": "Тип",
+  "tags": "Теги",
+  "owner": "Власник",
+  "dateCreated": "Створено",
+  "dateUpdated": "Змінено",
+  "categories": "Категорії",
+  "dateAndTime": "Дата та час",
+  "allDay": "{date} (весь день)",
+  "allDayRange": "{from} - {to} (весь день)",
+  "location": "Місце розташування",
+  "attendanceType": "Тип відвідуваності",
+  "inPerson": "Особисто",
+  "online": "Онлайн",
+  "hybrid": "Гібридні"
+}

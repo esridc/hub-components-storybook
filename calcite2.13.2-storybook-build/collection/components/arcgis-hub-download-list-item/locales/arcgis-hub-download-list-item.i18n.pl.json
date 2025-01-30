@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "Zbiór obiektów",
+    "fgdb": "Geobaza plikowa",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Plik shape",
+    "sqlite": "Geobaza SQLite"
+  },
+  "buttonText": {
+    "download": "Pobierz",
+    "pending": "Oczekuje",
+    "processing": "Przetwarzanie",
+    "converting": "Konwertowanie",
+    "completed": "Pobieranie ukończone",
+    "failed": "Pobieranie nie powiodło się"
+  },
+  "errors": {
+    "errorHeading": "Błąd"
+  },
+  "cacheStatusAccordion": {
+    "heading": "Znaleźć to, czego potrzebujesz?",
+    "content": "Może być dostępna nowsza wersja.",
+    "button": "Wnioskuj o nowy plik"
+  },
+  "generateNewModal": {
+    "heading": "Czy na pewno?",
+    "content": "Może to zająć trochę czasu. Zachowaj tę kartę przeglądarki aktywną do zakończenia pobierania.",
+    "confirmButton": "Tak",
+    "cancelButton": "Anuluj"
+  }
+}

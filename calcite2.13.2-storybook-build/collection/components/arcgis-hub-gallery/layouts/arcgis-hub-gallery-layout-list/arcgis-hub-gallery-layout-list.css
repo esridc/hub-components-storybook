@@ -1,0 +1,101 @@
+:host {
+  display: block;
+  --columns: 4;
+
+  /*
+    The scale property on some calcite components doesn't give us the large font size
+    that we need in some parts of the gallery. However, we don't want to override variables
+    like --calcite-font-size-0 for the entire gallery, as we don't have a good idea of
+    how many areas would be adversely and unintentionally affected.
+
+    Areas that need a larger font size can consume this gallery-specific variable instead.
+    Issue: https://devtopia.esri.com/dc/hub/issues/4927
+  */
+  --hub-gallery-font-size-large: var(--calcite-font-size-1);
+
+  --hub-gallery-bulk-actions-bottom: 4rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--hub-heading-family, inherit);
+}
+
+/* grid layouts */
+:host([layout="list"]) .card-container, :host([layout="grid"]) .card-container, :host([layout="grid-filled"]) .card-container {
+  display: grid;
+  gap: 1.5rem;
+}
+
+/* list layout */
+:host([layout="list"]) .card-container {
+  list-style-type: none;
+
+  /* undo defaults for ul styling */
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+}
+
+/* basic grid layout - up to 4 columns, but flexible */
+:host([layout="grid"]) .card-container {
+  /* up to 4 columns accounting for gap */
+  grid-template-columns: repeat(auto-fill, minmax(max(240px, (100% - (4 - 1) * 24px) / 4), 1fr));
+}
+
+/* filled grid layout - 4 columns but cards in last row will fill the whole row */
+/* implemented as a 12 column grid where cards span 3 columns by default (so, effectively, a 4 column grid) */
+:host([layout="grid-filled"]) .card-container {
+  grid-template-columns: repeat(12, 1fr);
+}
+
+:host([layout="grid-filled"]) .card-container > * {
+  /* the default is for a card to span 3 columns or one fourth of the width */
+  /* but we change it dynamically based on the width of the component */
+  grid-column: span calc(12 / var(--columns));
+}
+
+/* when it is a 4 column grid and there is one card in the last row */
+:host([layout="grid-filled"]) .card-container.cols-4 > *:nth-of-type(4n+1):last-of-type,
+/* when it is a 3 column grid and there is one card in the last row */
+:host([layout="grid-filled"]) .card-container.cols-3 > *:nth-of-type(3n+1):last-of-type,
+/* when it is a 2 column grid and there is one card in the last row */
+:host([layout="grid-filled"]) .card-container.cols-2 > *:nth-of-type(2n+1):last-of-type {
+  /* it should span 12 columns */
+  grid-column: span 12 / span 12;
+}
+
+/* when it is a 4 column grid and there are 2 cards in the last row */
+:host([layout="grid-filled"]) .card-container.cols-4 > *:nth-of-type(4n+1):nth-last-of-type(2),
+:host([layout="grid-filled"]) .card-container.cols-4 > *:nth-of-type(4n+2):last-of-type,
+/* when it is a 3 column grid and there are 2 cards in the last row */
+:host([layout="grid-filled"]) .card-container.cols-3 > *:nth-of-type(3n+1):nth-last-of-type(2),
+:host([layout="grid-filled"]) .card-container.cols-3 > *:nth-of-type(3n+2):last-of-type {
+  /* they should both span 6 columns */
+  grid-column: span 6 / span 6;
+}
+
+/* when it is a 4 column grid and there are 3 cards in the last row */
+:host([layout="grid-filled"]) .card-container.cols-4 > *:nth-of-type(4n+1):nth-last-of-type(3),
+:host([layout="grid-filled"]) .card-container.cols-4 > *:nth-of-type(4n+2):nth-last-of-type(2),
+:host([layout="grid-filled"]) .card-container.cols-4 > *:nth-of-type(4n+3):last-of-type {
+  /* they should span 4 columns */
+  grid-column: span 4 / span 4;
+}
+
+/*
+  We need this span to be focusable so the next tab press will navigate the user
+  to the first result of next page. However, we don't want this span messing up grid / flex flows,
+  so we set position: absolute to remove it
+*/
+.previous-results-end {
+  position: absolute;
+}
+
+arcgis-hub-entity-card[data-map-selected] {
+  outline-style: solid;
+  outline-width: 2px;
+  outline-offset: 2px;
+  outline-color: var(--calcite-color-brand);
+}

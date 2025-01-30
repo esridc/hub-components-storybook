@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "編輯",
+    "fields": {
+      "label": {
+        "label": "標籤",
+        "requiredMessage": "需要標籤",
+        "maxLengthMessage": "標籤不得超過 {maxLength} 個字元"
+      }
+    },
+    "apply": "套用"
+  },
+  "showItem": "顯示下列清單項目: {itemLabel}",
+  "hideItem": "隱藏下列清單項目: {itemLabel}",
+  "editItem": "編輯下列清單項目: {itemLabel}"
+}

@@ -1,0 +1,41 @@
+{
+  "notice": {
+    "outdatedItem": {
+      "title": "Ganti inisiatif Anda",
+      "message": "Referensi kartu ini sudah kedaluwarsa. Pilih item lain yang bisa diikuti pengguna."
+    },
+    "missingFollowersGroup": {
+      "title": "Tidak ada grup pengikut",
+      "message": "Item ini tidak memiliki grup pengikut. Silakan pilih item lain."
+    },
+    "noGroupAccess": {
+      "title": "Peringatan",
+      "message": "Anda tidak memiliki akses ke grup pengikut."
+    }
+  },
+  "selectContent": {
+    "title": "Konten untuk diikuti",
+    "facets": {
+      "sharing": "Berbagi",
+      "catalog": {
+        "myContent": "Konten saya",
+        "organization": "Organisasi saya"
+      }
+    }
+  },
+  "callToAction": {
+    "title": "Ajakan Bertindak",
+    "helperText": "Ajakan bertindak muncul di atas tombol ikuti.",
+    "alignment": "Penyejajaran"
+  },
+  "followButton": {
+    "title": "Tombol ikuti",
+    "helperText": "Dengan tombol ini, anggota bisa mengikuti atau batal mengikuti konten Anda. Teks untuk kedua status tombol dapat diatur.",
+    "buttonText": "Tombol ikut serta",
+    "unfollowButtonText": "Tombol penolakan",
+    "alignment": "Penyejajaran",
+    "buttonStyle": "Gaya tombol",
+    "solid": "Latar belakang solid",
+    "outline": "Kerangka"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "controls": {
+    "addContent": "Přidat obsah",
+    "back": "Zpět",
+    "cancel": "Storno",
+    "close": "Hotovo",
+    "create": "Vytvořit a přidat do skupiny",
+    "next": "Další"
+  },
+  "createHelpState": {
+    "discussion": {
+      "heading": "Diskuze",
+      "message": "Vytvořte nové diskuzní fórum zadáním názvu, který označuje téma."
+    },
+    "event": {
+      "heading": "Událost",
+      "message": "Uspořádejte akci, setkejte se osobně nebo virtuálně."
+    },
+    "group": {
+      "heading": "Skupina",
+      "message": "Vytvořte skupinu, která bude spolupracovat na konkrétním obsahu."
+    },
+    "initiative": {
+      "heading": "Iniciativa",
+      "message": "Iniciativy umožňují organizovat a shrnout pokrok při dosahování cíle."
+    },
+    "page": {
+      "heading": "Stránka",
+      "message": "Stránka je místo pro sdílení informací a komunikaci s publikem."
+    },
+    "project": {
+      "heading": "Projekt",
+      "message": "Zdůrazněte práci, která má jasné cíle a časové rámce."
+    },
+    "site": {
+      "heading": "Web",
+      "message": "Vytvořte webovou stránku pro uspořádání a sdílení informací."
+    }
+  },
+  "selection": {
+    "unlimited": "Vybráno: {count}",
+    "limited": "Vybráno: {count}/{limit}"
+  },
+  "steps": {
+    "createContent": "Přidat základní informace",
+    "selectContent": "Vybrat obsah",
+    "selectGroups": "Vybrat skupinu",
+    "confirmation": "Potvrzení",
+    "notImplemented": "Není implementováno"
+  },
+  "working": {
+    "heading": "Přidávání vybraného obsahu.",
+    "loadingLabel": "Přidávání obsahu."
+  },
+  "failure": {
+    "heading": "Obsah nebyl přidán",
+    "message": "Při přidávání vybraného obsahu došlo k chybě. Zkuste to prosím znovu.",
+    "action": "Zkusit znovu"
+  },
+  "notImplemented": {
+    "heading": "Tento pracovní postup ještě nebyl implementován."
+  },
+  "contentGallery": {
+    "facets": {
+      "access": {
+        "label": "Od"
+      },
+      "type": {
+        "label": "Typy"
+      },
+      "tags": {
+        "label": "Klíčová slova"
+      },
+      "categories": {
+        "label": "Kategorie"
+      },
+      "modified": {
+        "label": "Změněno"
+      }
+    }
+  },
+  "groupsGallery": {
+    "facets": {
+      "access": {
+        "label": "Kdo si může zobrazit",
+        "options": {
+          "org": "Organizace",
+          "public": "Kdokoli (veřejnost)",
+          "private": "Já"
+        }
+      },
+      "from": {
+        "label": "Od",
+        "options": {
+          "myCommunity": "Moje komunita",
+          "myGroups": "Moje skupiny",
+          "myOrganization": "Moje organizace",
+          "world": "Svět"
+        }
+      },
+      "type": {
+        "label": "Typy",
+        "options": {
+          "sharedUpdate": "Sdílená aktualizace",
+          "opendata": "Open Data"
+        }
+      }
+    }
+  }
+}

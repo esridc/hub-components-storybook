@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "Kategorije",
+        "noCategoriesNotice": {
+          "body": "Ova organizacija još uvek nema nijednu kategoriju.",
+          "link": "Postavite kategorije"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "Sadržaj",
+      "selectionMode": {
+        "dynamic": {
+          "label": "Dinamički"
+        },
+        "manual": {
+          "label": "Ručno"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "Organizacija"
+        },
+        "collection": {
+          "sites": "Sajtovi",
+          "projects": "Projekti",
+          "initiatives": "Inicijative"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "Organizacija"
+        },
+        "collection": {
+          "events": "Događaji"
+        }
+      },
+      "access": {
+        "label": "Deljenje",
+        "private": {
+          "label": "Privatno",
+          "description": "Filtriranje prema sadržaju je dostupno samo vama i onima koji imaju pristup grupi."
+        },
+        "org": {
+          "label": "Organizacija",
+          "description": "Filtriranje prema sadržaju je dostupno samo članovima vaše organizacije."
+        },
+        "public": {
+          "label": "Javno",
+          "description": "Filtriranje prema sadržaju je dostupno svima."
+        }
+      },
+      "tags": {
+        "label": "Oznake"
+      },
+      "cardsShown": {
+        "label": "Prikazane kartice"
+      }
+    },
+    "appearance": {
+      "label": "Izgled",
+      "titleHeading": {
+        "label": "Pravac naslova",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "U skladu sa WCAG G141, ugrađeni naslovi poboljšavaju dostupnost."
+      },
+      "corners": {
+        "label": "Ivice",
+        "square": {
+          "label": "Kvadratno"
+        },
+        "round": {
+          "label": "Zaokruženo"
+        }
+      },
+      "shadow": {
+        "label": "Senka",
+        "none": {
+          "label": "Isključeno"
+        },
+        "low": {
+          "label": "Nisko"
+        },
+        "medium": {
+          "label": "Srednje"
+        },
+        "heavy": {
+          "label": "Teško"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "Prikaži dodatne informacije"
+      },
+      "layout": {
+        "label": "Priprema za štampu",
+        "list": {
+          "label": "Lista"
+        },
+        "map": {
+          "label": "Mapa"
+        },
+        "calendar": {
+          "label": "Kalendar"
+        }
+      }
+    },
+    "options": {
+      "label": "Opcije",
+      "openIn": {
+        "label": "Otvori u...",
+        "same": {
+          "label": "Ista kartica"
+        },
+        "new": {
+          "label": "Nova kartica"
+        },
+        "notice": {
+          "title": "Savet za pristupačnost:",
+          "body": "U skladu sa tehnikom WCAG 2.0 G200, otvaranje linkova u novim karticama ili prozorima se ne preporučuje.",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "Pročitajte više o WCAG 2.0 G200"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "Deljenje",
+      "public": {
+        "label": "Javno"
+      },
+      "private": {
+        "label": "Privatno"
+      },
+      "organization": {
+        "label": "Organizacija"
+      }
+    },
+    "from": {
+      "label": "Od",
+      "myOrganization": {
+        "label": "Moja organizacija"
+      },
+      "myContent": {
+        "label": "Moj sadržaj"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "Događaji",
+      "collections": {
+        "event": {
+          "label": "Događaji"
+        }
+      }
+    },
+    "item": {
+      "label": "Sadržaj",
+      "collections": {
+        "item": {
+          "label": "Sadržaj"
+        }
+      }
+    }
+  }
+}

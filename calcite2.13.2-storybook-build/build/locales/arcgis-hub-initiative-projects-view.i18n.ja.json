@@ -1,0 +1,19 @@
+{
+  "facets": {
+    "location": {
+      "label": "位置",
+      "tooltip": "マップ範囲を位置フィルターとして適用"
+    },
+    "status": "ステータス",
+    "tags": "タグ",
+    "categories": "カテゴリ",
+    "dateUpdated": "更新日"
+  },
+  "status": {
+    "label": "イニシアティブのステータス",
+    "notStarted": "開始前",
+    "inProgress": "進行中",
+    "onHold": "保留中",
+    "complete": "完了"
+  }
+}

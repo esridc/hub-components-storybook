@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "新增第一個動作",
+  "addSecondAction": "新增第二個動作",
+  "addLink": "新增連結",
+  "addSection": "新增部分",
+  "deleteNotice": {
+    "title": "無法刪除",
+    "message": "部分不為空。 在嘗試刪除之前，請將所有連結移至該部分之外。"
+  },
+  "linkEditor": {
+    "save": "儲存",
+    "delete": "刪除",
+    "cancel": "取消",
+    "preview": "預覽連結",
+    "title": {
+      "button1": "第一個動作",
+      "button2": "第二個動作",
+      "block": "動作連結"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "連結至現有內容"
+        },
+        "external": {
+          "label": "連結至外部來源"
+        }
+      },
+      "label": {
+        "label": "標籤",
+        "helperText": {
+          "button": "此文字將出現在按鈕上。",
+          "block": "這將以粗體顯示在區塊上。"
+        },
+        "requiredError": "標籤是必要欄位。"
+      },
+      "description": {
+        "label": "描述",
+        "helperText": "這是次要資訊。"
+      },
+      "href": {
+        "label": "連結",
+        "requiredError": "連結是必要欄位。",
+        "formatError": "URL 格式不正確。"
+      },
+      "contentId": {
+        "label": "內容連結",
+        "requiredError": "內容連結是必要欄位。"
+      },
+      "section": {
+        "label": "移至部分",
+        "placeholder": {
+          "noSections": "尚未配置任何部分",
+          "notSet": "不在部分中"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "區段",
+    "helperText": "部分可用於在功能表項目下巢狀連結。 部分不充當連結。",
+    "section": {
+      "label": {
+        "label": "標籤",
+        "requiredError": "標籤是必要欄位。"
+      },
+      "description": {
+        "label": "描述"
+      }
+    }
+  }
+}

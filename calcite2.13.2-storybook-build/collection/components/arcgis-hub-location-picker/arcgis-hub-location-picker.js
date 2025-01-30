@@ -1,0 +1,1049 @@
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+  var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+  if (typeof Reflect === "object" && typeof Reflect.decorate === "function")
+    r = Reflect.decorate(decorators, target, key, desc);
+  else
+    for (var i = decorators.length - 1; i >= 0; i--)
+      if (d = decorators[i])
+        r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+  return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+import { Host, h, Fragment } from '@stencil/core';
+import { bind } from '../../utils/context';
+import { bBoxToExtent, extentToBBox } from '@esri/hub-common';
+import CallWhen from '../../decorators/call-when';
+import GraphicsLayer from '@arcgis/core/layers/GraphicsLayer';
+import { SYMBOL_STATE, getMaxDeviation } from '../../components/arcgis-hub-discussions-map-integrator/utils/utils';
+import symbols, { defaultLayerThemeOptions } from '../../components/arcgis-hub-discussions-map-integrator/symbols';
+import { project } from '@arcgis/core/geometry/support/webMercatorUtils';
+import { getFirstHitGraphic } from "../../utils/arcgis";
+import Graphic from "@arcgis/core/Graphic";
+import intlManager from '../../utils/intl-manager';
+import Polygon from '@arcgis/core/geometry/Polygon';
+import SpatialReference from '@arcgis/core/geometry/SpatialReference';
+import Extent from '@arcgis/core/geometry/Extent';
+import { getExtentSymbol, getPointCount, getGeometryTypeDrawTool } from '../../utils/map';
+import { dictionary } from '@esri/telemetry-dictionary-hub';
+import { generalize } from "@arcgis/core/geometry/geometryEngine";
+import { buildLocationSchema, buildLocationUiSchema } from './schemas';
+import { interpolateTranslations } from '../../utils';
+// the amount we expand the initial extent of the map
+// for now we are hard-coding this, but it could be a prop
+// I'm trying to avoid having a bunch of pass through props to the map
+// and we may ultimately need to provide a slot for the map
+const EXPAND_FACTOR = 1.5;
+const MAP_TOOLS = ['point', 'polyline', 'polygon', 'rectangle'];
+export class ArcgisHubLocationPicker {
+  constructor() {
+    /**
+     * Callback handles that are created/destroyed when connected/disconnected
+     * from DOM
+     */
+    this.handles = [];
+    this._drawToolIcons = {
+      point: 'pin',
+      polyline: 'freehand',
+      polygon: 'freehand-area',
+      rectangle: 'rectangle-area',
+    };
+    this.handleLocationEditorChange = (evt) => {
+      evt.stopPropagation();
+      const { values } = evt.detail;
+      this._selected = Object.assign(Object.assign({}, this._selected), { location: Object.assign(Object.assign({}, this._selected.location), values) });
+      this.arcgisHubLocationPickerUpdate.emit(this._selected.location);
+    };
+    /**
+     * wrapper around the built-in intl.t function that
+     * encapsulates the translation strings from this
+     * component to pass into the configuration editor
+     */
+    this.translationFunc = (key, values, opts) => {
+      return this.intl.t(key, values, opts);
+    };
+    this.options = undefined;
+    this.extent = undefined;
+    this.mapTools = MAP_TOOLS;
+    this.theme = {};
+    this.resetDrawingToolsOnDisconnect = true;
+    this.maxVerticesCount = 60;
+    this.maxFeaturesCount = 10;
+    this.locationNameRequired = undefined;
+    this.noticeTitleElementAriaLevel = undefined;
+    this._selected = undefined;
+    this._view = undefined;
+    this._editingGraphic = undefined;
+    this._isEditing = false;
+    this._currentDrawTools = this.mapTools;
+    this._currentActiveDrawTool = undefined;
+    this.customLocationDrawActionRef = undefined;
+    bind(this, '_setMapDrawElement', 'handleViewPointerMoveOrDown', 'handleViewPointerLeave', 'editFeature', 'removeFeature', 'renderEditOptions', 'setActiveLocationDrawType', 'clearEditState', 'handleGeometrySelection');
+  }
+  /**
+   * Currently selected option type.
+   */
+  get _selectedType() {
+    var _a, _b;
+    return (_b = (_a = this._selected) === null || _a === void 0 ? void 0 : _a.location) === null || _b === void 0 ? void 0 : _b.type;
+  }
+  /**
+   * Should we show draw tools and allow the editing of features
+   * (currently only allows for custom option editing, but can be expanded)
+   */
+  get _shouldEditFeatures() {
+    return ['custom'].includes(this._selectedType);
+  }
+  /**
+   * What is the currently selected option
+   */
+  get _selectedOption() {
+    var _a;
+    return (_a = this.options) === null || _a === void 0 ? void 0 : _a.find(o => o.selected);
+  }
+  /**
+   * Should we show the extent for a specific option
+   */
+  get _showExtent() {
+    return ['item', 'org'].find(t => t === this._selectedType);
+  }
+  /**
+   * Returns the extent of the currently selected option converted into a graphic.
+   */
+  get _selectedExtentGraphic() {
+    var _a, _b, _c, _d;
+    return [{
+        symbol: getExtentSymbol(),
+        geometry: Object.assign({ type: 'extent', spatialReference: (_b = (_a = this._selected) === null || _a === void 0 ? void 0 : _a.location) === null || _b === void 0 ? void 0 : _b.spatialReference }, bBoxToExtent((_d = (_c = this._selected) === null || _c === void 0 ? void 0 : _c.location) === null || _d === void 0 ? void 0 : _d.extent))
+      }];
+  }
+  /**
+   * Returns the graphics for the arcgis-hub-map component.
+   * Currently only in use for if the selected option should only show the extent graphic
+   * 'custom' option has a graphics layer that is set on the mapEl.
+   */
+  get _selectedGraphics() {
+    if (this._showExtent) {
+      return this._selectedExtentGraphic;
+    }
+  }
+  get _schema() {
+    var _a, _b, _c;
+    return buildLocationSchema({
+      hasNoGeometries: this._selectedType === "none" || (this._shouldEditFeatures && !((_c = (_b = (_a = this._selected) === null || _a === void 0 ? void 0 : _a.location) === null || _b === void 0 ? void 0 : _b.geometries) === null || _c === void 0 ? void 0 : _c.length)),
+      locationNameRequired: this.locationNameRequired
+    });
+  }
+  get _uiSchema() {
+    var _a, _b, _c;
+    return interpolateTranslations(this.intl, buildLocationUiSchema({
+      hasNoGeometries: this._selectedType === "none" || (this._shouldEditFeatures && !((_c = (_b = (_a = this._selected) === null || _a === void 0 ? void 0 : _a.location) === null || _b === void 0 ? void 0 : _b.geometries) === null || _c === void 0 ? void 0 : _c.length)),
+    }));
+  }
+  /**
+   * Attach the draw tools element
+   */
+  _setMapDrawElement(el) {
+    this._mapDrawToolsEl = el;
+  }
+  /**
+  * Returns default theme mixed with any custom theme options
+  */
+  get themeWithDefaults() {
+    const { theme } = this;
+    const _themeWithDefaults = {};
+    ['extent', 'point', 'polyline', 'polygon'].forEach((type) => {
+      _themeWithDefaults[type] = Object.assign(Object.assign({}, defaultLayerThemeOptions[type]), theme[type]);
+    });
+    return _themeWithDefaults;
+  }
+  async componentWillLoad() {
+    // set up intl
+    this.intl = await intlManager.loadIntlForComponent(this.el);
+    // set the selected option
+    this.onOptionsUpdate();
+    // add watch handlers
+    this.addWatchHandles();
+  }
+  /**
+   * Connected callback lifecycle method, adds watch handle callbacks
+   */
+  connectedCallback() {
+    this.addWatchHandles();
+  }
+  /**
+   * Disconnect callback lifecycle method, removes watch handle callbacks
+   * for garbage collection
+   */
+  disconnectedCallback() {
+    this.removeWatchHandles();
+  }
+  /**
+   * Adds event listeners on view
+   */
+  addWatchHandles() {
+    const { _view, handles } = this;
+    if (_view) {
+      handles.push(this._view.on(['pointer-move', 'pointer-down'], this.handleViewPointerMoveOrDown));
+      handles.push(this._view.on('pointer-leave', this.handleViewPointerLeave));
+    }
+  }
+  /**
+   * Removes event listeners for garbage collection
+   */
+  removeWatchHandles() {
+    const { handles } = this;
+    handles.forEach((handle) => {
+      handle.remove();
+    });
+    this.handles = [];
+  }
+  /* Watch / Listeners begin */
+  handleViewChange(view, prevView) {
+    if (view && view !== prevView) {
+      this.removeWatchHandles();
+      this.addWatchHandles();
+    }
+  }
+  /**
+   * Watch for changes to the options prop
+   */
+  async onOptionsUpdate() {
+    var _a, _b;
+    // UPdate the selected option
+    this._selected = Object.assign({}, this._selectedOption);
+    // If we should be editing features then we need to initialize the graphics layer / any existing graphics
+    if (this._shouldEditFeatures) {
+      await this._initializeGraphicsLayer();
+      // If we have a selected org/item, then we want to update the extent to geometries
+      // this fires on the first load of the component
+    }
+    else if (this._showExtent && (!((_a = this._selected.location) === null || _a === void 0 ? void 0 : _a.geometries) || !((_b = this._selected.location) === null || _b === void 0 ? void 0 : _b.geometries.length))) {
+      this._updateSelectedLocationExtentToGeometry();
+      // emit out currently selected option
+      // We are only doing this in here because it's the only place in onOptionsUpdate
+      // where the location might change.
+      this._emitLocationWithFallback();
+    }
+  }
+  async handleMapViewReady(e) {
+    e.stopPropagation();
+    const { detail: { view } } = e;
+    await view.when();
+    //clear the default zoom controls
+    view.ui.components = [];
+    // Attach the view
+    this._view = view;
+    // If we should be editing features then we need to initialize the graphics layer / any existing graphics
+    if (this._shouldEditFeatures) {
+      await this._initializeGraphicsLayer();
+    }
+  }
+  /**
+   * Listen for when the calcite-list-item is selected
+   */
+  async handleListItemSelect(e) {
+    e.stopPropagation();
+    // Get the selection option
+    const value = e.target.value;
+    const selected = this.options[value];
+    // If the selected option is not the same as the previous selection
+    // (we need this due to calcite-list allowing you to reselect the same item)
+    if (selected.location.type !== this._selectedType) {
+      // If old selection was custom, we need to clean matters up.
+      if (this._shouldEditFeatures) {
+        // Clear the graphics layer
+        this._destroyLayers();
+        // Close any popovers (they will stick around otherwise)
+        this.arcgisHubMapPopoverClear.emit();
+        // clear out edit graphic just in case
+        this._mapDrawToolsEl.forceReset();
+        // reset drawing tools props
+        this._resetToolsAndEditState(true);
+      }
+      // Update the selected option
+      this._selected = Object.assign(Object.assign({}, selected), {
+        // NOTE: sources w/ .selected reflects initial selection state
+        selected: true
+      });
+      // If we've switched to custom/need to initialize the graphics layer
+      if (this._shouldEditFeatures) {
+        await this._initializeGraphicsLayer();
+      }
+      // If we've switched to an org or item, then also convert the extent to a geometry
+      if (this._showExtent) {
+        this._updateSelectedLocationExtentToGeometry();
+      }
+      this._emitLocationWithFallback();
+      // goes to the selected option's extent
+      if (this._selected.location.extent) {
+        let extent = new Extent(bBoxToExtent(this._selected.location.extent));
+        extent = extent.expand(1.5);
+        this._view.extent = extent;
+      }
+      this.hubTelemetry.emit(Object.assign(Object.assign({}, dictionary.category.interaction.action.select), { label: selected.label }));
+    }
+  }
+  /**
+   * LIsten for when the map draw tools emit a graphics change event
+   */
+  handleGraphicsChange(e) {
+    const { detail: { graphics, save, unsaved, canceled } } = e;
+    // Get the current graphics
+    const graphic = graphics.getItemAt(0);
+    const geometry = graphic.geometry.clone();
+    // should we only simplify polygons or lines?
+    graphic.geometry = geometry.type === 'extent'
+      ? geometry
+      : generalize(graphic.geometry.clone(), getMaxDeviation(this._view), false);
+    // If the graphic is 'unsaved' or 'save' (ie you've just added the graphic to the map
+    // or you've just confirmed an edit of the graphic)
+    if (unsaved || save) {
+      graphic.symbol = symbols[graphic.geometry.type](SYMBOL_STATE.DEFAULT, this.themeWithDefaults[graphic.geometry.type]);
+      this._addGraphic(graphic);
+    }
+    else if (canceled) {
+      // Cancelled fires when the user is trying to edit an existing graphic
+      // and has selected 'Cancel changes' in the popover
+      this._mapDrawToolsEl.forceReset();
+      // We need to re-add the current editing graphic to the graphics layer
+      this._addGraphicsToGraphicsLayer(this.geometryGraphicsLayer, [this._editingGraphic]);
+      this.arcgisHubMapPopoverClear.emit();
+      // Emit out the currently selected option
+      this.arcgisHubLocationPickerUpdate.emit(this._selected.location);
+      // reset tools and state
+      this._resetToolsAndEditState();
+    }
+  }
+  handleDrawToolSelection(e) {
+    e.preventDefault();
+    const tool = e.detail;
+    // When a tool is selected we want to enable editing to prevent
+    // the user from editing an existing feature while trying to draw a new one
+    // handleGraphicsChange will disable editing when the user is done drawing
+    this._isEditing = true;
+    if (tool) {
+      this._currentDrawTools = [tool];
+      this._currentActiveDrawTool = tool;
+    }
+  }
+  /**
+   * Catches the arcgisHubGeometryResultSelection event and creates a graphic dependent
+   * on geometry. Then updates draw tools with userSelection and adds graphic to graphic layer.
+   *
+   * @param e - CustomEvent<__esri.Geometry, Tool>
+   */
+  handleGeometrySelection(e) {
+    e.stopPropagation();
+    const { geometry, userSelection, locationName } = e.detail;
+    // sets symbol for determined geometry type
+    const symbol = symbols[geometry.type](SYMBOL_STATE.DEFAULT, this.themeWithDefaults[geometry.type]);
+    // creates graphic
+    const graphic = new Graphic({
+      geometry, symbol
+    });
+    // Sets the active and current draw tools based on user selection
+    this._currentDrawTools = [userSelection];
+    this._currentActiveDrawTool = userSelection;
+    // adds graphic to graphics layer and cleans surrounding properties
+    if (locationName) {
+      this._currentLocationName = locationName;
+    }
+    this._addGraphic(graphic);
+  }
+  /**
+   * Callback for view 'pointer-move' and 'pointer-down' events
+   * and checking for overlap of graphicsLayer && managing popover render
+   */
+  handleViewPointerMoveOrDown(e) {
+    const { _view, geometryGraphicsLayer } = this;
+    // We only want to do this if we're editing features
+    if (this._shouldEditFeatures) {
+      // Run a hit test on the map view
+      _view.hitTest(e, { include: geometryGraphicsLayer }).then((resp) => {
+        // If the hit test 'hits' a graphic...
+        const result = getFirstHitGraphic(resp.results);
+        if (result && !this._isEditing) {
+          // Set the current editing graphic
+          this._editingGraphic = result.graphic;
+          // Open the popover
+          this.arcgisHubMapPopoverOpen.emit({
+            source: 'location-picker-options',
+            geometry: result.graphic.geometry,
+            view: _view,
+            render: this.renderEditOptions
+          });
+        }
+      });
+    }
+  }
+  /**
+   * Callback for view 'pointer-leave' event
+   * and checking to see if we should clear popover.
+   */
+  handleViewPointerLeave(e) {
+    var _a;
+    e.stopPropagation();
+    // Are we over a popover?
+    if (((_a = e.native.relatedTarget) === null || _a === void 0 ? void 0 : _a.tagName) !== 'ARCGIS-HUB-MAP-POPOVER') {
+      // If we are not over a popover we have properly left the view
+      // (this will happen by leaving the map with the mouse, or by hovering over draw tools)
+      // meaning we should clear the popover.
+      this.arcgisHubMapPopoverClear.emit();
+    }
+  }
+  /**
+   * Handles the adding of graphics to the graphics layers specifically after you've just added the graphic to the map or
+   * you've just confirmed an edit of the graphic along with a reset and update of draw tools, and selected location.
+   * This method performs several tasks to ensure the drawing tools and graphics on the map are reset and updated properly
+   *
+   * @param graphic - The graphic to be processed and added to the graphics layer.
+   */
+  _addGraphic(graphic) {
+    var _a;
+    // Reset the drawing tools on the map-widget-draw container.
+    this._mapDrawToolsEl.forceReset();
+    // Add the graphic to the specified graphics layer.
+    this._addGraphicsToGraphicsLayer(this.geometryGraphicsLayer, [graphic]);
+    // Update the currently selected options location with the new graphic.
+    this._updateSelectedLocation();
+    // Check the current count of points in the selected location and emit an update if within the maximum vertices count.
+    if (getPointCount((_a = this._selected) === null || _a === void 0 ? void 0 : _a.location) <= this.maxVerticesCount) {
+      this.arcgisHubLocationPickerUpdate.emit(this._selected.location);
+    }
+    // Clear the current editing graphic and close the popover, then reset the draw tools.
+    this.arcgisHubMapPopoverClear.emit();
+    this._resetToolsAndEditState();
+    // We are no longer editing
+    this._isEditing = false;
+  }
+  _updateSelectedLocation() {
+    this._selected.location = Object.assign(Object.assign({}, this._selected.location), { geometries: this.geometryGraphicsLayer.graphics.clone().toArray().map(g => {
+        var _a, _b;
+        // If we have a specific spatial reference for the location, project the geometry
+        // Otherwise just return the geometry
+        const geometry = ((_a = this._selected.location) === null || _a === void 0 ? void 0 : _a.spatialReference)
+          ? project(g.geometry, (_b = this._selected.location) === null || _b === void 0 ? void 0 : _b.spatialReference)
+          : g.geometry;
+        return Object.assign(Object.assign({}, geometry.toJSON()), { type: geometry.type });
+      }), extent: this._getExtentForAllGraphics, name: this._currentLocationName });
+  }
+  get _getCurrentFeaturesCount() {
+    var _a, _b, _c;
+    return ((_c = (_b = (_a = this._selected) === null || _a === void 0 ? void 0 : _a.location) === null || _b === void 0 ? void 0 : _b.geometries) === null || _c === void 0 ? void 0 : _c.length) || 0;
+  }
+  _updateSelectedLocationExtentToGeometry() {
+    var _a, _b, _c, _d, _e;
+    const polygon = new Polygon({
+      spatialReference: new SpatialReference({ wkid: (_c = (_b = (_a = this._selected) === null || _a === void 0 ? void 0 : _a.location) === null || _b === void 0 ? void 0 : _b.spatialReference) === null || _c === void 0 ? void 0 : _c.wkid })
+    });
+    /**
+     * as we are working with a polygon and not an extent, we need to explicitly
+     * define the entire ring of the converted extent from (xmin, ymin) all the
+     * way back around to (xmin, ymin)
+     */
+    const { xmin, ymin, xmax, ymax } = bBoxToExtent((_e = (_d = this._selected) === null || _d === void 0 ? void 0 : _d.location) === null || _e === void 0 ? void 0 : _e.extent);
+    polygon.addRing([[xmin, ymin], [xmin, ymax], [xmax, ymax], [xmax, ymin], [xmin, ymin]]);
+    this._selected.location.geometries = [Object.assign(Object.assign({}, polygon.toJSON()), { type: 'polygon' })];
+  }
+  /* Watch / Listeners end */
+  /* Graphics Layer logic Starts */
+  /**
+   * Initialize the graphics layer, and if there are any geometries existing in the selected option
+   * add them to the graphics layer
+   */
+  async _initializeGraphicsLayer(setToolsOnInitialization = true) {
+    var _a, _b, _c, _d;
+    const { _view } = this;
+    if (_view) {
+      await _view.when();
+      // Clear out any existing layers (this is needed for after saving in the config editor, there's already a layer present and then
+      // onOptionsUpdate is called, which calls this method giving us a new layer. Thus we need to clear out existing layers just in case)
+      this._destroyLayers();
+      // Add the graphics layer
+      this.addGeometryGraphicsLayer();
+      // if there are graphics add them to the graphics layer
+      if ((_a = this._selected.location) === null || _a === void 0 ? void 0 : _a.geometries) {
+        this._addGraphicsToGraphicsLayer(this.geometryGraphicsLayer, this._selected.location.geometries.map(g => {
+          return new Graphic({
+            geometry: g,
+            symbol: symbols[g.type](SYMBOL_STATE.DEFAULT, this.themeWithDefaults[g.type])
+          });
+        }));
+        if (setToolsOnInitialization) {
+          // Set the tools to match the type of geom present
+          const tool = getGeometryTypeDrawTool((_d = (_c = (_b = this._selected) === null || _b === void 0 ? void 0 : _b.location) === null || _c === void 0 ? void 0 : _c.geometries[0]) === null || _d === void 0 ? void 0 : _d.type);
+          this._currentDrawTools = [tool];
+          this._currentActiveDrawTool = tool;
+        }
+      }
+    }
+  }
+  /**
+   * Add graphics layer that will hold the drawn geometries
+   */
+  addGeometryGraphicsLayer() {
+    // create new graphics layer
+    this.geometryGraphicsLayer = new GraphicsLayer({
+      graphics: [],
+      elevationInfo: {
+        mode: 'on-the-ground'
+      }
+    });
+    // add to map
+    this._view.map.add(this.geometryGraphicsLayer);
+  }
+  /**
+   * Adds graphics to a specified graphics layer
+   */
+  _addGraphicsToGraphicsLayer(layer, graphics) {
+    layer.addMany(graphics);
+  }
+  /**
+   * Remove layers from the map
+   */
+  _destroyLayers() {
+    [this.geometryGraphicsLayer].forEach((layer) => {
+      if (layer) {
+        layer.removeAll();
+        layer.destroy();
+      }
+    });
+  }
+  /**
+   *  Gets extent for all graphics in the graphics layer.
+   */
+  get _getExtentForAllGraphics() {
+    const { geometryGraphicsLayer } = this;
+    let extent;
+    // Iterate over all graphics in the graphics layer
+    geometryGraphicsLayer.graphics.forEach((graphic) => {
+      var _a, _b;
+      const projectedGeometry = project(graphic.geometry, (_b = (_a = this._selected) === null || _a === void 0 ? void 0 : _a.location) === null || _b === void 0 ? void 0 : _b.spatialReference);
+      let gextent = projectedGeometry.extent;
+      const calcForPoint = projectedGeometry.type === 'point'
+        && (!extent || !extent.contains(projectedGeometry));
+      if (calcForPoint) {
+        // If it's a point, we need to create an extent for it
+        gextent = this.pointToExtent(projectedGeometry);
+      }
+      // gextent can be undefined/null if we have a point that is 'contained' in the extent
+      // if we don't exclude that it will cause odd behavior
+      if (gextent) {
+        // Union the extent with the current extent
+        extent = !extent ? gextent : extent.union(gextent);
+      }
+    });
+    // Return the extent as a bbox
+    return extent ? extentToBBox(extent) : undefined;
+  }
+  /**
+   * Creates an extent from a point, used for determining zoom level
+   * @param geometry Esri JSAPI Point Geometry
+   * @param tolerance Number in Degrees to expand point extent
+   * @returns
+   */
+  pointToExtent(geometry, tolerance = 0.0025) {
+    const { x, y, spatialReference } = geometry;
+    const extent = new Extent({
+      xmin: x - tolerance,
+      ymin: y - tolerance,
+      xmax: x + tolerance,
+      ymax: y + tolerance,
+      spatialReference
+    });
+    return extent;
+  }
+  _resetToolsAndEditState(resetDrawTools = false) {
+    var _a, _b;
+    // no longer editing
+    this._isEditing = false;
+    // Reset the draw tools
+    this._mapDrawToolsEl.disableEditOptions = true;
+    this._mapDrawToolsEl.disablePrimaryOptions = true;
+    // Reset the editing graphic
+    this._editingGraphic = null;
+    // If geometry is empty, or resetDrawTools was passed in, reset the draw tools
+    if (!((_b = (_a = this._selected.location) === null || _a === void 0 ? void 0 : _a.geometries) === null || _b === void 0 ? void 0 : _b.length) || resetDrawTools) {
+      this._currentDrawTools = this.mapTools;
+      this._currentActiveDrawTool = undefined;
+    }
+  }
+  /**
+   * Edit a selected feature, we roll this ourselves as we are working with a graphics layer
+   */
+  editFeature() {
+    // We are editing.
+    this._isEditing = true;
+    // Hand down to the draw widget the geometry to edit
+    this._mapDrawToolsEl.geometry = this._editingGraphic.geometry;
+    // show draw widget popups
+    this._mapDrawToolsEl.disableEditOptions = false;
+    this._mapDrawToolsEl.disablePrimaryOptions = false;
+    // remove the graphic from the graphics layer
+    this.geometryGraphicsLayer.remove(this._editingGraphic);
+    // close popup
+    this.arcgisHubMapPopoverClear.emit();
+  }
+  /**
+   * Remove a selected feature, we roll this ourselves as we are working with a graphics layer
+   */
+  removeFeature() {
+    this._mapDrawToolsEl.forceReset();
+    // remove the graphic from the graphics layer
+    this.geometryGraphicsLayer.remove(this._editingGraphic);
+    this._currentLocationName = undefined;
+    // update the selected option
+    this._updateSelectedLocation();
+    // Emit out the currently selected option
+    this._emitLocationWithFallback();
+    // close popup
+    this.arcgisHubMapPopoverClear.emit();
+    // reset drawing tools props
+    this._resetToolsAndEditState();
+  }
+  _emitLocationWithFallback() {
+    var _a, _b, _c;
+    // If we have no geometries, we need to emit a 'none' location as a fallback.
+    const shouldEmitNoLocation = this._shouldEditFeatures && !((_c = (_b = (_a = this._selected) === null || _a === void 0 ? void 0 : _a.location) === null || _b === void 0 ? void 0 : _b.geometries) === null || _c === void 0 ? void 0 : _c.length);
+    this.arcgisHubLocationPickerUpdate.emit(shouldEmitNoLocation ? { type: 'none' } : this._selected.location);
+  }
+  /**
+   * Clear out all existing features, emit it out, and start over
+   */
+  async clearEditState() {
+    // Clear the graphics layer
+    this._destroyLayers();
+    // Close any popovers (they will stick around otherwise)
+    this.arcgisHubMapPopoverClear.emit();
+    // clear out edit graphic just in case
+    this._mapDrawToolsEl.forceReset();
+    // reset drawing tools props
+    this._resetToolsAndEditState(true);
+    // update selected option
+    this._selected.location = Object.assign(Object.assign({}, this._selected.location), { geometries: [] });
+    this._currentLocationName = undefined;
+    // Re-initialize the graphics layer
+    await this._initializeGraphicsLayer(false);
+    // emit the current location
+    this._emitLocationWithFallback();
+    // telemetry
+    this.hubTelemetry.emit(dictionary.category.interaction.action.remove.label.location.details.clearAll);
+  }
+  /* Graphics Layer logic ends */
+  /* Render methods start */
+  /**
+   * Render the edit popover
+   * Needs to be done at this level as we are working with a graphics layer
+   */
+  renderEditOptions() {
+    const textUpdate = this.intl.t('edit');
+    const textDelete = this.intl.t('delete');
+    return (h("calcite-action-pad", { "expand-disabled": true, layout: "horizontal" }, h("calcite-action", { icon: "pencil", onClick: this.editFeature, text: textUpdate }), h("calcite-action", { icon: "trash", onClick: this.removeFeature, text: textDelete })));
+  }
+  /**
+   * Render the popovers. Both this and the above render method are needed when working with
+   * a arcgis-hub-map-popover
+   */
+  renderPopovers() {
+    return (h("arcgis-wormhole", { styles: { position: 'absolute', top: 0, left: 0 } }, h("arcgis-hub-map-popover", { target: "location-picker-options", unthemed: true })));
+  }
+  renderNotice() {
+    var _a, _b, _c, _d, _e, _f;
+    if (this._shouldEditFeatures) {
+      const showNoPointsDrawnWarning = !((_c = (_b = (_a = this._selected) === null || _a === void 0 ? void 0 : _a.location) === null || _b === void 0 ? void 0 : _b.geometries) === null || _c === void 0 ? void 0 : _c.length);
+      const showMaxFeaturesExceededError = this._getCurrentFeaturesCount >= this.maxFeaturesCount;
+      const showMaxPointsExceededError = getPointCount((_d = this._selected) === null || _d === void 0 ? void 0 : _d.location) > this.maxVerticesCount;
+      const entityType = ((_e = this._selected) === null || _e === void 0 ? void 0 : _e.entityType) || 'content';
+      const showWarning = showNoPointsDrawnWarning || showMaxFeaturesExceededError || showMaxPointsExceededError;
+      return (h("div", { "aria-live": "polite", class: "notice-status-wrapper", role: "status" }, h("calcite-notice", { icon: showWarning ? "exclamation-mark-triangle" : 'information', kind: showWarning ? 'warning' : 'info', open: true }, h("div", { "aria-level": this.noticeTitleElementAriaLevel,
+        // If the element has an aria-level, set the role to heading
+        role: this.noticeTitleElementAriaLevel ? "heading" : null, slot: "title" }, showNoPointsDrawnWarning ?
+        this.intl.t('emptyLocation.title') :
+        // If show max features exceeded warning...
+        showMaxFeaturesExceededError ?
+          this.intl.t('maximumLocations.title') :
+          // If show max points exceeded warning...
+          showMaxPointsExceededError ?
+            this.intl.t('maximumPoints.title', { currentCount: getPointCount((_f = this._selected) === null || _f === void 0 ? void 0 : _f.location), maxLocations: this.maxVerticesCount }) :
+            this.intl.t('populatedLocation.title')), h("div", { slot: "message" }, showNoPointsDrawnWarning ?
+        this.intl.t('emptyLocation.message', { entityType: this.intl.t(`entityTypes.${entityType}`) }) :
+        // If show max features exceeded warning message...
+        showMaxFeaturesExceededError ?
+          this.intl.t('maximumLocations.message') :
+          // If show max points exceeded warning message...
+          showMaxPointsExceededError ?
+            this.intl.t('maximumPoints.message') :
+            // Otherwise show normal message
+            this.intl.t('populatedLocation.message', { maxLocations: this.maxFeaturesCount })))));
+    }
+  }
+  setActiveLocationDrawType(evt) {
+    const { target } = evt;
+    const geometryType = target.dataset.type;
+    const tool = getGeometryTypeDrawTool(geometryType);
+    this._mapDrawToolsEl.setActiveTool(tool);
+    this._currentDrawTools = [tool];
+    this._currentActiveDrawTool = tool;
+    this.locationTypePopoverElement.open = false;
+  }
+  get locationActionTypes() {
+    return this._currentDrawTools.map((tool) => {
+      const type = tool === 'rectangle'
+        ? 'extent'
+        : tool;
+      return { type, icon: this._drawToolIcons[tool] };
+    });
+  }
+  /**
+   * Render the custom end of line action which displays the draw tools as well.
+   */
+  renderCustomAction(option) {
+    var _a;
+    const { _currentActiveDrawTool, _isEditing, _drawToolIcons, _shouldEditFeatures, _getCurrentFeaturesCount, maxFeaturesCount, maxVerticesCount } = this;
+    if (((_a = option.location) === null || _a === void 0 ? void 0 : _a.type) === 'custom') {
+      return (h(Fragment, null, h("calcite-action", { class: {
+          'hide': !_shouldEditFeatures
+        }, icon: _currentActiveDrawTool ? _drawToolIcons[_currentActiveDrawTool] : "pencil-mark-plus", ref: (el) => { this.customLocationDrawActionRef = el; }, slot: "actions-end" }, h("calcite-popover", { autoClose: true, overlayPositioning: "fixed", ref: (locationTypePopoverElement) => { this.locationTypePopoverElement = locationTypePopoverElement; }, referenceElement: this.customLocationDrawActionRef }, this.locationActionTypes.map(({ type, icon }) => {
+        var _a;
+        return (h("calcite-action", { class: {
+            'hide': _getCurrentFeaturesCount >= maxFeaturesCount || getPointCount((_a = this._selected) === null || _a === void 0 ? void 0 : _a.location) > maxVerticesCount,
+          }, "data-type": type, disabled: _isEditing, icon: icon, key: type, onClick: this.setActiveLocationDrawType, text: this.intl.t(`drawLocationPopover.${type}`), textEnabled: true }));
+      }), h("calcite-action", { class: {
+          'hide': !_getCurrentFeaturesCount
+        }, "data-type": "reset", icon: "x-circle", key: "reset", onClick: this.clearEditState, text: this.intl.t('drawLocationPopover.clear'), textEnabled: true })), h("calcite-tooltip", { closeOnClick: true, label: this.intl.t('drawLocationPopover.tooltip'), overlayPositioning: "fixed", placement: "top", referenceElement: this.customLocationDrawActionRef }, h("span", null, this.intl.t('drawLocationPopover.tooltip'))))));
+    }
+  }
+  render() {
+    var _a;
+    const noneTypeSelected = this._selectedType === 'none';
+    const customTypeSelected = this._selectedType === 'custom';
+    return (h(Host, { "data-element": "location-picker", unthemed: true }, h("div", { class: "row" }, h("arcgis-hub-map", Object.assign({ basemap: "gray-vector", expand: EXPAND_FACTOR, extent: this.extent, graphics: this._selectedGraphics }, { inert: noneTypeSelected }), h("arcgis-hub-map-widget-container", { "expand-disabled": true, scale: "m", view: this._view, "view-position": "top-right" }, h("arcgis-hub-map-widget-search", { active: customTypeSelected && Boolean(this._view), onArcgisHubGeometryResultSelection: this.handleGeometrySelection, scale: "m", searchViewModelProperties: {
+        popupEnabled: false,
+        resultGraphicEnabled: !this._shouldEditFeatures
+      }, tools: this._shouldEditFeatures ? this._currentDrawTools : undefined, view: this._view })), h("arcgis-hub-map-widget-container", { "expand-disabled": true, view: this._view, "view-position": "top-right" }, h("arcgis-hub-map-widget-zoom", { view: this._view })), h("arcgis-hub-map-widget-container", { view: this._view, "view-position": "top-right" }, h("arcgis-hub-map-widget-draw", { class: {
+        // Hide the draw controls if we're not editing features or if we've exceeded the max number of features/points
+        'hide': !this._shouldEditFeatures || (getPointCount((_a = this._selected) === null || _a === void 0 ? void 0 : _a.location) > this.maxVerticesCount || this._getCurrentFeaturesCount >= this.maxFeaturesCount)
+      }, "disable-edit-options": true, "disable-primary-options": true, disabled: this._isEditing, "enable-map-tips": true, ref: this._setMapDrawElement, resetOnDisconnect: this.resetDrawingToolsOnDisconnect, tools: this._currentDrawTools, unthemed: true, view: this._view }), h("arcgis-hub-map-widget-generic", { class: {
+        'hide': !this._getCurrentFeaturesCount && !this._currentActiveDrawTool
+      }, "data-type": "reset", icon: "x-circle", onClick: this.clearEditState, text: this.intl.t('drawLocationPopover.clear') })), noneTypeSelected
+      ? (h("div", { class: "arcgis-location-picker-map-overlay" }, h("div", { class: "arcgis-location-picker-none-message" }, this.intl.t('noneMessage'))))
+      : null), h("div", { class: "location-picker__sidepanel" }, h("calcite-list", { "selection-mode": "single" }, this.options.map((option, idx) => {
+      var _a;
+      return h("calcite-list-item", { description: option.description, key: (_a = option.location) === null || _a === void 0 ? void 0 : _a.type, label: option.label, selected: option.selected, value: idx }, this.renderCustomAction(option));
+    })), h("arcgis-configuration-editor", { onArcgisConfigurationEditorChange: this.handleLocationEditorChange, schema: this._schema, t: this.translationFunc, uiSchema: this._uiSchema, values: this._selected.location }), this.renderNotice())), this.renderPopovers()));
+  }
+  static get is() { return "arcgis-hub-location-picker"; }
+  static get encapsulation() { return "scoped"; }
+  static get originalStyleUrls() {
+    return {
+      "$": ["arcgis-hub-location-picker.css"]
+    };
+  }
+  static get styleUrls() {
+    return {
+      "$": ["arcgis-hub-location-picker.css"]
+    };
+  }
+  static get assetsDirs() { return ["locales"]; }
+  static get properties() {
+    return {
+      "options": {
+        "type": "unknown",
+        "mutable": false,
+        "complexType": {
+          "original": "IHubLocationOption[]",
+          "resolved": "IHubLocationOption[]",
+          "references": {
+            "IHubLocationOption": {
+              "location": "import",
+              "path": "../../utils/types/IHubLocationOption"
+            }
+          }
+        },
+        "required": false,
+        "optional": false,
+        "docs": {
+          "tags": [],
+          "text": "Options array to populate the location picker"
+        }
+      },
+      "extent": {
+        "type": "unknown",
+        "mutable": false,
+        "complexType": {
+          "original": "IExtent",
+          "resolved": "IExtent",
+          "references": {
+            "IExtent": {
+              "location": "import",
+              "path": "@esri/arcgis-rest-feature-layer"
+            }
+          }
+        },
+        "required": false,
+        "optional": false,
+        "docs": {
+          "tags": [],
+          "text": "The initial extent of the map"
+        }
+      },
+      "mapTools": {
+        "type": "unknown",
+        "mutable": false,
+        "complexType": {
+          "original": "Tool[]",
+          "resolved": "Tool[]",
+          "references": {
+            "Tool": {
+              "location": "import",
+              "path": "../../components/arcgis-hub-map-widget-container/arcgis-hub-map-widget-draw/types"
+            }
+          }
+        },
+        "required": false,
+        "optional": false,
+        "docs": {
+          "tags": [],
+          "text": "Optional array of map draw tools"
+        },
+        "defaultValue": "MAP_TOOLS"
+      },
+      "theme": {
+        "type": "unknown",
+        "mutable": false,
+        "complexType": {
+          "original": "ISymbolOptions",
+          "resolved": "ISymbolOptions",
+          "references": {
+            "ISymbolOptions": {
+              "location": "import",
+              "path": "../../components/arcgis-hub-discussions-map-integrator/utils/utils"
+            }
+          }
+        },
+        "required": false,
+        "optional": false,
+        "docs": {
+          "tags": [],
+          "text": "Options to configure symbol styles to hosting app theme"
+        },
+        "defaultValue": "{}"
+      },
+      "resetDrawingToolsOnDisconnect": {
+        "type": "boolean",
+        "mutable": false,
+        "complexType": {
+          "original": "boolean",
+          "resolved": "boolean",
+          "references": {}
+        },
+        "required": false,
+        "optional": false,
+        "docs": {
+          "tags": [],
+          "text": "Should we reset the hub-map-widget-draw component's state\nwhen the component is disconnected from the DOM"
+        },
+        "attribute": "reset-drawing-tools-on-disconnect",
+        "reflect": false,
+        "defaultValue": "true"
+      },
+      "maxVerticesCount": {
+        "type": "number",
+        "mutable": false,
+        "complexType": {
+          "original": "number",
+          "resolved": "number",
+          "references": {}
+        },
+        "required": false,
+        "optional": false,
+        "docs": {
+          "tags": [],
+          "text": "The max count of vertices/points that can be drawn on the map"
+        },
+        "attribute": "max-vertices-count",
+        "reflect": false,
+        "defaultValue": "60"
+      },
+      "maxFeaturesCount": {
+        "type": "number",
+        "mutable": false,
+        "complexType": {
+          "original": "number",
+          "resolved": "number",
+          "references": {}
+        },
+        "required": false,
+        "optional": false,
+        "docs": {
+          "tags": [],
+          "text": "The max count of features that can be drawn on the map"
+        },
+        "attribute": "max-features-count",
+        "reflect": false,
+        "defaultValue": "10"
+      },
+      "locationNameRequired": {
+        "type": "boolean",
+        "mutable": false,
+        "complexType": {
+          "original": "boolean",
+          "resolved": "boolean",
+          "references": {}
+        },
+        "required": false,
+        "optional": false,
+        "docs": {
+          "tags": [],
+          "text": "Whether or not the location name is a required feature"
+        },
+        "attribute": "location-name-required",
+        "reflect": false
+      },
+      "noticeTitleElementAriaLevel": {
+        "type": "number",
+        "mutable": false,
+        "complexType": {
+          "original": "number",
+          "resolved": "number",
+          "references": {}
+        },
+        "required": false,
+        "optional": false,
+        "docs": {
+          "tags": [],
+          "text": "The aria level for the notice title element"
+        },
+        "attribute": "notice-title-element-aria-level",
+        "reflect": false
+      }
+    };
+  }
+  static get states() {
+    return {
+      "_selected": {},
+      "_view": {},
+      "_editingGraphic": {},
+      "_isEditing": {},
+      "_currentDrawTools": {},
+      "_currentActiveDrawTool": {},
+      "customLocationDrawActionRef": {}
+    };
+  }
+  static get events() {
+    return [{
+        "method": "arcgisHubLocationPickerUpdate",
+        "name": "arcgisHubLocationPickerUpdate",
+        "bubbles": true,
+        "cancelable": true,
+        "composed": true,
+        "docs": {
+          "tags": [],
+          "text": "Event emitted when the user selects an option, or when the map is drawn on."
+        },
+        "complexType": {
+          "original": "IHubLocation",
+          "resolved": "IHubLocation",
+          "references": {
+            "IHubLocation": {
+              "location": "import",
+              "path": "@esri/hub-common"
+            }
+          }
+        }
+      }, {
+        "method": "arcgisHubMapPopoverOpen",
+        "name": "arcgisHubMapPopoverOpen",
+        "bubbles": true,
+        "cancelable": true,
+        "composed": true,
+        "docs": {
+          "tags": [],
+          "text": "Event emitted and picked up by the arcgis-hub-map-popover component\nIt indicates that the edit/delete popover should be opened"
+        },
+        "complexType": {
+          "original": "PopoverEventDetails",
+          "resolved": "{ source?: string; geometry: Geometry; view: View; render: any; }",
+          "references": {
+            "PopoverEventDetails": {
+              "location": "import",
+              "path": "../../components/arcgis-hub-map-popover/types"
+            }
+          }
+        }
+      }, {
+        "method": "arcgisHubMapPopoverClear",
+        "name": "arcgisHubMapPopoverClear",
+        "bubbles": true,
+        "cancelable": true,
+        "composed": true,
+        "docs": {
+          "tags": [],
+          "text": "Event emitted and picked up by the arcgis-hub-map-popover component\nIt indicates that the edit/delete popover should be closed"
+        },
+        "complexType": {
+          "original": "null",
+          "resolved": "null",
+          "references": {}
+        }
+      }, {
+        "method": "hubTelemetry",
+        "name": "hubTelemetry",
+        "bubbles": true,
+        "cancelable": true,
+        "composed": true,
+        "docs": {
+          "tags": [],
+          "text": "Hub telemetry event emitted to track user interactions"
+        },
+        "complexType": {
+          "original": "Record<string, any>",
+          "resolved": "{ [x: string]: any; }",
+          "references": {
+            "Record": {
+              "location": "global"
+            }
+          }
+        }
+      }];
+  }
+  static get elementRef() { return "el"; }
+  static get watchers() {
+    return [{
+        "propName": "_view",
+        "methodName": "handleViewChange"
+      }, {
+        "propName": "options",
+        "methodName": "onOptionsUpdate"
+      }];
+  }
+  static get listeners() {
+    return [{
+        "name": "arcgisHubMapViewReady",
+        "method": "handleMapViewReady",
+        "target": undefined,
+        "capture": false,
+        "passive": false
+      }, {
+        "name": "calciteListItemSelect",
+        "method": "handleListItemSelect",
+        "target": undefined,
+        "capture": false,
+        "passive": false
+      }, {
+        "name": "arcgisHubMapDrawGraphicsChange",
+        "method": "handleGraphicsChange",
+        "target": undefined,
+        "capture": false,
+        "passive": false
+      }, {
+        "name": "arcgisHubDrawActiveToolChange",
+        "method": "handleDrawToolSelection",
+        "target": undefined,
+        "capture": false,
+        "passive": false
+      }];
+  }
+}
+__decorate([
+  CallWhen({ when() { return this._view; } })
+], ArcgisHubLocationPicker.prototype, "renderPopovers", null);

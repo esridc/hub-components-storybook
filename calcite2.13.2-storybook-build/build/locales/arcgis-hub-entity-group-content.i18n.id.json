@@ -1,0 +1,69 @@
+{
+  "title": "Konten",
+  "facets": {
+    "type": "Jenis",
+    "tags": "Tag",
+    "categories": "Kategori",
+    "sharing": "Membagikan",
+    "dateUpdated": "Tanggal diperbarui",
+    "map": {
+      "label": "Lokasi",
+      "tooltip": "Terapkan luas peta sebagai filter lokasi"
+    }
+  },
+  "shareContent": {
+    "buttonText": "Tambahkan konten",
+    "disabledTooltip": "Anda tidak memiliki akses untuk menambahkan konten ke grup ini.",
+    "catalog": {
+      "myContent": "Konten saya",
+      "favorites": "Favorit",
+      "organization": "Organisasi saya",
+      "world": "Dunia (Publik)"
+    },
+    "facets": {
+      "type": "Jenis",
+      "sharing": "Berbagi"
+    },
+    "collection": {
+      "appsAndMaps": "Aplikasi & Peta",
+      "dataset": "Data",
+      "documents": "Dokumen",
+      "feedback": "Umpan balik",
+      "sites": "Situs",
+      "projects": "Proyek",
+      "projectsAndInitiatives": "Proyek & Prakarsa"
+    },
+    "modal": {
+      "title": "Tambahkan konten"
+    },
+    "unsharedModal": {
+      "title": "Item tidak ditambahkan",
+      "notice": {
+        "icon": "tanda-seru-segitiga",
+        "type": "bahaya",
+        "title": "Tindakan tidak lengkap",
+        "message": "Beberapa item tidak dapat ditambahkan. Hal ini mungkin disebabkan oleh ketidaksesuaian tingkat pembagian dalam konten atau karena pemilik item bukan anggota grup.",
+        "linkText": "Baca selengkapnya tentang berbagi"
+      }
+    },
+    "itemSharedSuccessAlert": "Item yang berhasil dibagikan"
+  },
+  "close": "Tutup",
+  "newTab": "buka di tab baru",
+  "unshareContent": {
+    "remove": "Hapus",
+    "success": "Konten berhasil dihapus dari {groupName}.",
+    "unsharedModal": {
+      "title": "Item tidak dihapus",
+      "notice": {
+        "icon": "tanda-seru-segitiga",
+        "type": "bahaya",
+        "title": "Tindakan tidak lengkap",
+        "message": "Beberapa item tidak dapat dihapus."
+      }
+    }
+  },
+  "notice": {
+    "label": "Peringatan formulir"
+  }
+}

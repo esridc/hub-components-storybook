@@ -1,0 +1,118 @@
+{
+  "layout": {
+    "title": "版面配置",
+    "helperText": "此配置了訪客首次到達您的目錄時所看到的結果外觀。 訪客仍可選擇自行變更顯示方法。",
+    "enum": {
+      "list": {
+        "label": "列表",
+        "description": "使用於展示中繼資料，以及訪客可能進行有針對性的搜尋時。"
+      },
+      "grid": {
+        "label": "網格",
+        "description": "使用於具有高品質縮圖的結果，以及訪客可能正在瀏覽的情況。"
+      },
+      "table": {
+        "label": "表格",
+        "description": "使用於以具有可排序欄的結構化格式呈現結果，非常適合訪客可能想要檢視和比較許多項目及其屬性的情況。"
+      },
+      "map": {
+        "label": "地圖",
+        "description": "使用於與實體位置相關的結果，以及訪客可能正在探索感興趣區域時。"
+      },
+      "compact": {
+        "label": "精簡",
+        "description": "用於在較小的空間內最大化可見結果的數量，非常適合在行動裝置上快速瀏覽或檢視。"
+      }
+    }
+  },
+  "cards": {
+    "title": "卡片",
+    "cardTitleTag": {
+      "label": "標題",
+      "helperText": "這可用於改進存取能力的巢狀標題結構。 它不會變更字型大小。",
+      "enum": {
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        }
+      }
+    },
+    "showThumbnail": {
+      "label": "顯示縮圖",
+      "enum": {
+        "show": {
+          "label": "一律",
+          "description": "無論結果版面配置如何，縮圖影像將始終顯示在結果卡上。"
+        },
+        "hide": {
+          "label": "不顯示縮圖",
+          "description": "縮圖不會顯示在任何類型的結果卡上。 如果您的縮圖品質較差，或者您希望人們能夠在桌面和行動裝置上更快地掃描清單結果，請使用此選項。"
+        },
+        "grid": {
+          "label": "在格線中開啟",
+          "description": "縮圖僅顯示在網格卡上。 清單卡將顯示額外的中繼資料欄來取代圖像。"
+        }
+      }
+    },
+    "corners": {
+      "label": "拐角",
+      "enum": {
+        "square": {
+          "label": "正方形"
+        },
+        "round": {
+          "label": "圓角的"
+        }
+      }
+    },
+    "shadow": {
+      "label": "陰影",
+      "enum": {
+        "heavy": {
+          "label": "重"
+        },
+        "low": {
+          "label": "低"
+        },
+        "medium": {
+          "label": "中"
+        },
+        "none": {
+          "label": "無"
+        }
+      }
+    },
+    "showLinkButton": {
+      "label": "包含按鈕",
+      "helperText": "如果按鈕關閉，則只有卡片標題才是連結。"
+    },
+    "linkButtonStyle": {
+      "label": "樣式",
+      "enum": {
+        "outline-filled": {
+          "label": "已填充"
+        },
+        "outline": {
+          "label": "清單"
+        }
+      }
+    },
+    "linkButtonText": {
+      "label": "文字"
+    }
+  }
+}

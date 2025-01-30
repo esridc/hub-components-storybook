@@ -1,0 +1,67 @@
+:host {
+
+    display: block;
+
+    height: 100%
+}
+
+.content-tab-container {
+
+    overflow: hidden
+}
+
+/* the arcgis-hub-workspace-pane automatically applies this styling,
+ * however, we have to add it here directly since this component is
+ * scoped: true (for the configuration editor) and certain styles are
+ * seeping in from the light DOM
+ */
+[slot="title"] {
+
+    margin: 0px;
+
+    font-size: var(--calcite-font-size-3);
+
+    line-height: 2rem;
+
+    font-weight: var(--calcite-font-weight-bold);
+
+    color: var(--calcite-color-text-1)
+}
+
+calcite-tabs {
+
+    display: block;
+
+    width: 100%
+}
+
+calcite-tab {
+
+    padding: 0px;
+
+    padding-left: 0.25rem;
+
+    padding-right: 0.25rem
+}
+
+/*
+  For more questions regarding styling for the notice, see this Figma:
+  https://www.figma.com/design/sBZsIVfrIqi5zp0sDJcRhr/Discovery%3A-MVP-site-level-content-library-management-using-Hub-Workspaces?node-id=179-86140&t=T71QqC9I0T5sLPS3-0
+*/
+calcite-notice [slot="title"] {
+
+    font-size: var(--calcite-font-size-0);
+
+    line-height: 1.25rem
+}
+
+.footer-container {
+
+    display: flex;
+
+    height: 2rem;
+
+    align-items: center;
+
+    justify-content: flex-end
+}

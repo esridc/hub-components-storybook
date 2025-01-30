@@ -1,0 +1,165 @@
+{
+  "advancedConfig": {
+    "label": "詳細構成",
+    "serverTimeout": {
+      "label": "サーバー タイムアウト (秒)",
+      "helperText": "応答に時間のかかる可能性がある大規模なサービスに役立ちます。",
+      "errors": {
+        "type": "サーバーのタイムアウト設定を入力してください。",
+        "minimum": "サーバーのタイムアウト値は 5 以上にする必要があります。",
+        "maximum": "サーバーのタイムアウト値は 95 以下にする必要があります。"
+      }
+    }
+  },
+  "appearance": {
+    "corners": {
+      "label": "角",
+      "enum": {
+        "round": {
+          "label": "丸"
+        },
+        "square": {
+          "label": "四角"
+        }
+      }
+    },
+    "dropShadow": {
+      "label": "ドロップ シャドウ",
+      "enum": {
+        "heavy": {
+          "label": "高"
+        },
+        "low": {
+          "label": "低"
+        },
+        "medium": {
+          "label": "中"
+        },
+        "none": {
+          "label": "開始前"
+        }
+      }
+    },
+    "layout": {
+      "label": "カード スタイル",
+      "enum": {
+        "informational": {
+          "label": "情報"
+        },
+        "simple": {
+          "label": "単純化"
+        }
+      }
+    },
+    "popoverText": {
+      "label": "モーダル コンテンツ"
+    },
+    "publisherText": {
+      "label": "ソース公開者"
+    },
+    "styleSpecificSettings": {
+      "label": "スタイル設定",
+      "helperInfoText": "情報ボタンを選択すると、詳細情報を含むモーダルが開きます。",
+      "helperVizText": "このシンプルなカードでは、データの変更を反映するために使用できる視覚的エレメントとしてのアイコンの追加がサポートされています。"
+    },
+    "sectionTitle": "表示設定",
+    "textAlign": "調整",
+    "visualInterest": {
+      "label": "視覚的エレメント",
+      "enum": {
+        "icon": {
+          "label": "アイコン"
+        },
+        "none": {
+          "label": "なし"
+        }
+      }
+    },
+    "icon": {
+      "label": "アイコン",
+      "caretUp": {
+        "label": "増加"
+      },
+      "caretDown": {
+        "label": "減少"
+      },
+      "caretDouble": {
+        "label": "変更なし"
+      }
+    },
+    "valueColor": "色 (統計情報)"
+  },
+  "details": {
+    "allowDynamicLink": "ソース リンクの表示",
+    "link": {
+      "sectionTitle": "リンク",
+      "sourceLink": "リンクの URL",
+      "sourceTitle": "リンク テキスト"
+    },
+    "sectionTitle": "詳細",
+    "subtitle": "サブタイトル",
+    "title": "タイトル",
+    "trailingText": {
+      "label": "末尾のテキスト",
+      "helperText": "追加のコンテキストまたは説明を入力します (指標値の下に表示されます)。"
+    }
+  },
+  "errors": {
+    "sourceLink": {
+      "required": "ソースを表示するのにリンクが必要です。",
+      "formatError": "URL の形式が不正です"
+    }
+  },
+  "formatting": {
+    "sectionTitle": "書式設定",
+    "unit": {
+      "label": "表示単位",
+      "helperText": "値の計測単位を入力します。"
+    },
+    "unitPosition": {
+      "label": "配置",
+      "helperText": "指標値に関連して、計測単位 (例: km、lbs) を表示する場所を選択します。",
+      "enum": {
+        "after": {
+          "label": "後"
+        },
+        "before": {
+          "label": "前"
+        },
+        "below": {
+          "label": "下"
+        }
+      }
+    }
+  },
+  "sharing": {
+    "sectionTitle": "共有",
+    "showShareIcon": "共有の有効化",
+    "showShareIconHelperText": "このページでユーザーがカードの直接リンクをコピーできるようにします。",
+    "shareableByValue": "埋め込みの有効化",
+    "shareableOnHover": {
+      "label": "ホバー時に表示",
+      "helperText": {
+        "label": "共有ボタンはホバー時にのみ表示されます。 オフにすると、ボタンが常に表示されます。"
+      }
+    }
+  },
+  "statistic": {
+    "dataSource": "データ ソース",
+    "displayValue": "表示値",
+    "sectionTitle": "値",
+    "type": {
+      "label": "タイプ",
+      "enum": {
+        "dynamic": {
+          "label": "動的",
+          "description": "集計する既存のデータセット (フィーチャ サービス) を選択します。"
+        },
+        "static": {
+          "label": "静的",
+          "description": "レイアウトでハイライト表示する値を手動入力します。"
+        }
+      }
+    }
+  }
+}

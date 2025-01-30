@@ -1,0 +1,10 @@
+{
+  "targetEntity": {
+    "label": "Lähde",
+    "enum": {
+      "item": "Kohteet",
+      "event": "Tapahtumat",
+      "group": "Ryhmät"
+    }
+  }
+}

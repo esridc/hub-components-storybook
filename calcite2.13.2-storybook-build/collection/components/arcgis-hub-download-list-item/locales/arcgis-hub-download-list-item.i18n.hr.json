@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "Kolekcija geoobjekata",
+    "fgdb": "Geobaza podataka",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPaket",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Shapefile",
+    "sqlite": "Geobaza podataka SQLite"
+  },
+  "buttonText": {
+    "download": "Preuzmi",
+    "pending": "Na čekanju",
+    "processing": "Obrada",
+    "converting": "Pretvaranje",
+    "completed": "Dovršeno preuzimanje",
+    "failed": "Preuzimanje nije uspjelo"
+  },
+  "errors": {
+    "errorHeading": "Pogreška"
+  },
+  "cacheStatusAccordion": {
+    "heading": "Pronašli ste ono što trebate?",
+    "content": "Možda je dostupna novija verzija.",
+    "button": "Zatraži novu datoteku"
+  },
+  "generateNewModal": {
+    "heading": "Jeste li sigurni?",
+    "content": "To može potrajati neko vrijeme. Održite ovu karticu preglednika aktivnom dok preuzimanje ne završi.",
+    "confirmButton": "Da",
+    "cancelButton": "Odustani"
+  }
+}

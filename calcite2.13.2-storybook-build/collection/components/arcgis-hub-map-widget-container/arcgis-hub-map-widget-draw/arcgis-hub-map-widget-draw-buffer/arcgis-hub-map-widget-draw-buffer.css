@@ -1,0 +1,11 @@
+calcite-panel div {
+  display: grid;
+  gap: 0.25rem;
+  padding: 1rem;
+  background-color: var(--calcite-color-foreground-1);
+}
+
+calcite-panel[closed] {
+  /* this is a bandaid solution to get the panel to be hidden until calcite bug fixed */
+  display: none;
+}

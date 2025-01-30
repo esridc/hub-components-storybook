@@ -1,0 +1,33 @@
+{
+  "groups": "Мої групи",
+  "addContentButtonText": "Створити нове",
+  "role": "Роль",
+  "owner": "Власник",
+  "updated": "Оновлено",
+  "type": "Тип",
+  "sharedUpdate": "Спільне оновлення групи",
+  "viewOnly": "Група тільки для перегляду",
+  "actionLinks": {
+    "view": "Перегляд",
+    "edit": "Редагувати",
+    "ariaEdit": "Редагувати {title}",
+    "ariaView": "Переглянути {title}"
+  },
+  "facets": {
+    "access": {
+      "label": "Хто може переглядати",
+      "options": {
+        "public": "Усі (публічний)",
+        "org": "Організація",
+        "private": "Я"
+      }
+    },
+    "type": {
+      "label": "Типи",
+      "options": {
+        "sharedUpdate": "Спільне оновлення",
+        "opendata": "Відкриті дані"
+      }
+    }
+  }
+}

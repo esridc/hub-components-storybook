@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "Automatizat de Hub",
+      "actionText": "Informații despre opțiuni automate"
+    },
+    "daily": {
+      "defaultLabel": "Zilnic",
+      "defaultExpandedHelperText": "În fiecare zi la ora selectată în fusul orar selectat.",
+      "actionText": "Informații despre opțiuni zilnice"
+    },
+    "weekly": {
+      "defaultLabel": "Săptămânal",
+      "defaultExpandedHelperText": "În fiecare săptămână în ziua și ora următoare în fusul orar selectat.",
+      "actionText": "Informații despre opțiuni săptămânale"
+    },
+    "monthly": {
+      "defaultLabel": "Lunar",
+      "defaultExpandedHelperText": "În fiecare lună, în ziua și ora următoare în fusul orar selectat",
+      "actionText": "Informații despre opțiuni lunare"
+    },
+    "yearly": {
+      "defaultLabel": "Anual",
+      "defaultExpandedHelperText": "În fiecare ani, în luna, ziua și ora următoare în fusul orar selectat.",
+      "actionText": "Informații despre opțiuni anuale"
+    },
+    "manual": {
+      "defaultLabel": "Manual",
+      "defaultExpandedHelperText": "Utilizați această opțiune dacă doriți să actualizați manual indexul de căutare și fișierele salvate în cache pentru acest element.",
+      "actionText": "Informații despre opțiuni manuale"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "Ora",
+      "inputMessage": "Ora va fi rotunjită la cea mai apropiată oră.",
+      "error": "Selectați o oră."
+    },
+    "day": {
+      "helperText": "Ziua săptămânii",
+      "daysOfTheWeek": {
+        "sunday": "Duminică",
+        "monday": "Luni",
+        "tuesday": "Marți",
+        "wednesday": "Miercuri",
+        "thursday": "Joi",
+        "friday": "Vineri",
+        "saturday": "Sâmbătă"
+      },
+      "selectLabel": "Selector al zilei săptămânii",
+      "error": "Vă rugăm să selectați o zi a săptămânii."
+    },
+    "date": {
+      "helperText": "Ziua din lună",
+      "inputNumberPlaceholder": "Selectați o zi din lună",
+      "inputMessage": "Introduceți o valoare de la 1 la 28 pentru ziua din lună.",
+      "error": "Ziua din lună trebuie să fie între 1 și 28."
+    },
+    "month": {
+      "helperText": "Luna anului",
+      "selectLabel": "Selector al lunii anului",
+      "monthsOfTheYear": {
+        "january": "Ianuarie",
+        "february": "Februarie",
+        "march": "Martie",
+        "april": "Aprilie",
+        "may": "Mai",
+        "june": "Iunie",
+        "july": "Iulie",
+        "august": "August",
+        "september": "Septembrie",
+        "october": "Octombrie",
+        "november": "Noiembrie",
+        "december": "Decembrie"
+      },
+      "error": "Vă rugăm să selectați o lună."
+    },
+    "timezone": {
+      "helperText": "Fusul orar",
+      "error": "Vă rugăm să selectați un fus orar."
+    }
+  },
+  "fieldHeader": "Frecvență"
+}

@@ -1,0 +1,25 @@
+:host {
+
+    display: block
+}
+
+calcite-chip-group {
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: flex-start;
+
+    gap: 0.25rem
+}
+
+:host([data-count="0"]) {
+
+    display: none
+}
+
+.end {
+
+    margin-left: auto
+}

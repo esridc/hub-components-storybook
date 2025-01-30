@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "Registrovat",
+    "registered": "Registrováno",
+    "join": "Připojit se online",
+    "in-person": "Osobně",
+    "online": "Online",
+    "inPersonFull": "Osobně (plná)",
+    "onlineFull": "Online (plná)",
+    "close": "Zavřít"
+  },
+  "tooltip": {
+    "isCanceled": "Událost byla zrušena",
+    "eventHasEnded": "Událost byla ukončena",
+    "eventFull": "Událost je plná",
+    "inPerson": "Událost s osobní účastí zaregistrována",
+    "online": "Zaregistrovat online událost",
+    "unavailable": "Dostupná hodinu před časem zahájení"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "Registrace online události byla úspěšně zrušena",
+    "onlineRegistrationConfirmed": "Online událost byla úspěšně zaregistrována",
+    "onlineRegistrationError": "Při registraci online události došlo k neočekávané chybě",
+    "onlineRegistrationCanceledError": "Při rušení registrace online události došlo k neočekávané chybě",
+    "onlineRegistrationAtCapacity": "Pokoušíte se zaregistrovat na online událost, která je již plná",
+    "inPersonRegistrationCanceled": "Registrace osobní události byla úspěšně zrušena",
+    "inPersonRegistrationCanceledError": "Při rušení registrace osobní události došlo k neočekávané chybě",
+    "inPersonRegistrationConfirmed": "Osobní událost byla úspěšně zaregistrována",
+    "inPersonRegistrationError": "Při registraci osobní události došlo k neočekávané chybě",
+    "inPersonRegistrationAtCapacity": "Pokoušíte se zaregistrovat na osobní událost, která je již plná"
+  }
+}

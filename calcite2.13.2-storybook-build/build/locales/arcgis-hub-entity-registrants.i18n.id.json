@@ -1,0 +1,46 @@
+{
+  "registrants": "Pendaftar",
+  "invite": "Undang",
+  "tabs": {
+    "registrants": "Pendaftar",
+    "settings": "Pengaturan"
+  },
+  "emptyNotice": {
+    "title": "Tidak ada pendaftar",
+    "desc": "Acara selalu seru jika ada peserta. Undang orang atau bagikan acara untuk mendorong orang lain agar hadir.",
+    "link": "Undang pendaftar"
+  },
+  "facets": {
+    "role": {
+      "header": "Peran",
+      "owner": "Pemilik",
+      "organizer": "Penyelenggara",
+      "attendee": "Pendaftar"
+    },
+    "status": {
+      "header": "Status",
+      "pending": "Tertunda",
+      "accepted": "Diterima",
+      "declined": "Ditolak",
+      "blocked": "Diblokir"
+    },
+    "location": {
+      "header": "Lokasi",
+      "online": "Online",
+      "in_person": "Secara langsung"
+    },
+    "updatedDate": "Tanggal terbaru"
+  },
+  "delete": {
+    "attendee": "Hapus pendaftar"
+  },
+  "notice": {
+    "label": "Peringatan formulir"
+  },
+  "success": {
+    "delete": "Pendaftar berhasil dihapus dari {eventName}."
+  },
+  "error": {
+    "delete": "Satu pendaftar atau lebih tidak dapat dihapus dari acara."
+  }
+}

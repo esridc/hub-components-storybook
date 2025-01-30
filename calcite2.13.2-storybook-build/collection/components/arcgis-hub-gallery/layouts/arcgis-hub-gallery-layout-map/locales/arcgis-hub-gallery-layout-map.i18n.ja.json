@@ -1,0 +1,23 @@
+{
+  "popupButtonText": {
+    "app": "アプリに移動",
+    "content": "コンテンツに移動",
+    "dataset": "データセットに移動",
+    "discussion": "ディスカッションに移動",
+    "document": "ドキュメントに移動",
+    "event": "イベントに移動",
+    "feedback": "フィードバックに移動",
+    "project": "プロジェクトに移動",
+    "initiative": "イニシアティブに移動",
+    "site": "サイトに移動",
+    "initiativeTemplate": "イニシアティブ テンプレートに移動",
+    "page": "ページに移動",
+    "group": "グループに移動",
+    "template": "テンプレートに移動",
+    "survey": "調査に移動",
+    "image": "画像に移動",
+    "map": "マップに移動",
+    "people": "人に移動"
+  },
+  "mapFilterCheckboxLabel": "マップ移動時にフィルター"
+}

@@ -1,0 +1,15 @@
+{
+  "newFilter": "Νέο φίλτρο",
+  "block": {
+    "heading": {
+      "untitled": "Νέο φίλτρο",
+      "default": "Φίλτρο {filterNum}: {parameter}",
+      "group": "Φίλτρο {filterNum}: ομάδες",
+      "type": "Φίλτρο {filterNum}: τύποι",
+      "occurrence": "Φίλτρο {filterNum}: εμφάνιση"
+    },
+    "actions": {
+      "delete": "Διαγραφή φίλτρου: {label}"
+    }
+  }
+}

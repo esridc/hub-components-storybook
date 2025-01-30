@@ -1,0 +1,239 @@
+{
+  "owner": {
+    "description": "Właściciel"
+  },
+  "updatedDate": {
+    "description": "Zaktualizowana data",
+    "descriptionWithFrequency": "Data aktualizacji: {updatedDateFormatted}"
+  },
+  "createdDate": {
+    "description": "Data utworzenia"
+  },
+  "joinedDate": {
+    "description": "Data dołączenia"
+  },
+  "access": {
+    "label": {
+      "public": "Publiczny",
+      "org": "Instytucja",
+      "private": "Właściciel",
+      "shared": "Udostępnione prywatnie"
+    },
+    "description": {
+      "public": {
+        "site": "Wszyscy widzą tę witrynę",
+        "project": "Wszyscy mogą zobaczyć ten projekt",
+        "initiative": "Wszyscy widzą tę inicjatywę",
+        "discussion": "Wszyscy widzą tę dyskusję",
+        "default": "Wszyscy widzą te zasoby",
+        "event": "Wszyscy widzą to wydarzenie"
+      },
+      "org": {
+        "site": "Każdy użytkownik w instytucji widzi tę witrynę",
+        "project": "Każdy użytkownik w instytucji widzi ten projekt",
+        "initiative": "Każdy użytkownik w instytucji widzi tę inicjatywę",
+        "discussion": "Każdy użytkownik w instytucji widzi tę dyskusję",
+        "default": "Każdy użytkownik w instytucji widzi te zasoby",
+        "event": "Każdy użytkownik w instytucji widzi to wydarzenie"
+      },
+      "private": {
+        "site": "Tylko Ty widzisz tę witrynę",
+        "project": "Tylko Ty widzisz ten projekt",
+        "initiative": "Tylko Ty widzisz tę inicjatywę",
+        "discussion": "Tylko ty widzisz tę dyskusję",
+        "default": "Tylko Ty widzisz te zasoby",
+        "event": "Tylko Ty widzisz to wydarzenie"
+      },
+      "shared": {
+        "site": "Wybrane grupy widzą tę witrynę",
+        "project": "Wybrane grupy widzą ten projekt",
+        "initiative": "Wybrane grupy widzą tę inicjatywę",
+        "discussion": "Wybrane grupy widzą tę dyskusję",
+        "default": "Wybrane grupy widzą ten zasób",
+        "event": "Wybrane grupy widzą to wydarzenie"
+      }
+    }
+  },
+  "type": {
+    "fallback": {
+      "content": "Zasoby",
+      "discussion": "Dyskusja",
+      "event": "Wydarzenie",
+      "group": "Grupa",
+      "initiative": "Inicjatywa",
+      "org": "Instytucja",
+      "page": "Strona",
+      "project": "Projekt",
+      "site": "Witryna",
+      "survey": "Pomiar",
+      "initiativeTemplate": "Szablon",
+      "user": "Użytkownik"
+    },
+    "appbuilderExtension": "Narzędzie GIS",
+    "appbuilderWidgetPackage": "Narzędzie GIS",
+    "application": "Zarejestrowana aplikacja",
+    "arcgisProMap": "Narzędzie GIS",
+    "cadDrawing": "Narzędzie GIS",
+    "cityEngineWebScene": "Aplikacja 3D",
+    "codeAttachment": "Narzędzie GIS",
+    "colorSet": "Narzędzie GIS",
+    "content": "Zasoby",
+    "contentCategorySet": "GIS",
+    "csv": "Zestaw danych",
+    "csvCollection": "Plik danych",
+    "dashboard": "Panel",
+    "desktopApplication": "Narzędzie GIS",
+    "document": "Dokument",
+    "documentLink": "Łącze internetowe",
+    "excaliburImageryProject": "Narzędzie GIS",
+    "explorerMap": "Narzędzie GIS",
+    "exportPackage": "Narzędzie GIS",
+    "featureCollection": "Zestaw danych",
+    "featureCollectionTemplate": "Narzędzie GIS",
+    "featureLayer": "Zestaw danych",
+    "featureService": "Mapa",
+    "fileGeodatabase": "Plik danych",
+    "form": "Pomiar",
+    "geocodingService": "Programistyczny interfejs API",
+    "geodataService": "Programistyczny interfejs API",
+    "geojson": "Zasoby",
+    "geometryService": "Programistyczny interfejs API",
+    "geopackage": "Plik danych",
+    "geoprocessingService": "Programistyczny interfejs API",
+    "globeLayer": "Plik danych",
+    "globeService": "Programistyczny interfejs API",
+    "hubInitiative": "Inicjatywa",
+    "hubInitiativeTemplate": "Szablon",
+    "hubPage": "Strona",
+    "hubProject": "Projekt",
+    "hubSiteApplication": "Witryna",
+    "image": "Obraz",
+    "imageService": "Zestaw danych zobrazowań",
+    "insightsModel": "Narzędzie GIS",
+    "insightsPage": "Analizy",
+    "insightsTheme": "Narzędzie GIS",
+    "insightsWorkbook": "Skoroszyt analityczny",
+    "iWorkKeynote": "Prezentacja",
+    "iWorkNumbers": "Arkusz kalkulacyjny",
+    "iWorkPages": "Dokument",
+    "kml": "Zestaw danych",
+    "kmlCollection": "Plik danych",
+    "layer": "Plik danych",
+    "layerPackage": "Plik danych",
+    "locatorPackage": "Narzędzie GIS",
+    "mapArea": "Narzędzie GIS",
+    "mapDocument": "Narzędzie GIS",
+    "mapImageLayer": "Mapa",
+    "mapPackage": "Plik danych",
+    "mapService": "Mapa",
+    "microsoftExcel": "Arkusz kalkulacyjny",
+    "microsoftPowerpoint": "Prezentacja",
+    "microsoftVizio": "Microsoft Visio",
+    "microsoftWord": "Dokument",
+    "mission": "Narzędzie GIS",
+    "mobileApplication": "Aplikacja",
+    "mobileMapPackage": "Plik danych",
+    "native application template": "Narzędzie programistyczne",
+    "nativeApplication": "Aplikacja",
+    "nativeApplicationInstaller": "Narzędzie programistyczne",
+    "networkAnalysisService": "Programistyczny interfejs API",
+    "notebook": "Analizy",
+    "orientedImageryCatalog": "Zestaw danych zobrazowań",
+    "orthoMappingProject": "Narzędzie GIS",
+    "orthoMappingTemplate": "Narzędzie GIS",
+    "pdf": "Dokument",
+    "quickcaptureProject": "Ankieta mobilna",
+    "rasterLayer": "Mapa",
+    "realTimeAnalytic": "Programistyczny interfejs API",
+    "relationalDatabaseConnection": "Programistyczny interfejs API",
+    "reportTemplate": "Narzędzie GIS",
+    "sceneLayer": "Zestaw danych 3D",
+    "sceneService": "Zestaw danych 3D",
+    "serviceDefinition": "Plik danych",
+    "shapefile": "Zestaw danych",
+    "solution": "Rozwiązanie",
+    "sqliteGeodatabase": "Plik danych",
+    "statisticalDataCollection": "Plik danych",
+    "storymap": "StoryMap",
+    "symbolSet": "Plik danych",
+    "table": "Zestaw danych",
+    "team": "Zespół",
+    "urbanModel": "Model urbanistyczny",
+    "vectorTileService": "Mapa",
+    "visioDocument": "Dokument",
+    "webExperience": "Aplikacja",
+    "webMap": "Mapa",
+    "webMappingApplication": "Aplikacja",
+    "webScene": "Mapa 3D",
+    "wfs": "Mapa",
+    "wms": "Mapa",
+    "wmts": "Mapa",
+    "workflowManagerService": "Programistyczny interfejs API",
+    "workforceProject": "Menedżer przepływu zadań"
+  },
+  "location": {
+    "description": "Lokalizacja"
+  },
+  "members": {
+    "noMember": "Brak członków",
+    "oneMember": "Członkowie: 1",
+    "members": "Członkowie: {count}",
+    "description": {
+      "value": "Wyświetl wszystkich członków grupy"
+    }
+  },
+  "tooltip": {
+    "label": "Etykieta narzędzia elementu metadanych"
+  },
+  "relevantArea": {
+    "title": "Odpowiedni obszar"
+  },
+  "license": {
+    "tooltip": "Definiuje sposób użytkowania tych zasobów",
+    "set": {
+      "title": "Licencja {license}",
+      "customTitle": "Licencja niestandardowa",
+      "description": {
+        "value": "Wyświetl szczegóły licencji"
+      }
+    },
+    "unset": {
+      "title": "Nie podano licencji",
+      "description": {
+        "value": "Poproś o uprawnienia do używania"
+      }
+    }
+  },
+  "size": {
+    "description": {
+      "value": "Rozmiar pliku dokumentu"
+    }
+  },
+  "recordCount": {
+    "title": "Rekordy: {count}",
+    "description": {
+      "value": "Wyświetl tabelę danych"
+    }
+  },
+  "metadataModified": {
+    "description": {
+      "defaultValue": "Zaktualizowano informacje",
+      "dynamicValue": "Zaktualizowano informacje: {lastUpdated}"
+    }
+  },
+  "updateFrequency": {
+    "continual": "Stale",
+    "daily": "Codziennie",
+    "weekly": "Cotygodniowo",
+    "fortnightly": "Co dwa tygodnie",
+    "monthly": "Comiesięcznie",
+    "quarterly": "Co kwartał",
+    "biannually": "Co pół roku",
+    "annually": "Co rok",
+    "as-needed": "W razie potrzeby",
+    "irregular": "Nieregularnie",
+    "not-planned": "Nieplanowane",
+    "unknown": "Nieznane",
+    "semimonthly": "Co pół miesiąca"
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "Kategorije",
+        "noCategoriesNotice": {
+          "body": "Ta organizacija še nima kategorij.",
+          "link": "Nastavi kategorije"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "Vsebina",
+      "selectionMode": {
+        "dynamic": {
+          "label": "Dinamično"
+        },
+        "manual": {
+          "label": "Ročno"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "Organizacija"
+        },
+        "collection": {
+          "sites": "Spletna mesta",
+          "projects": "Projekti",
+          "initiatives": "Pobude"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "Organizacija"
+        },
+        "collection": {
+          "events": "Dogodki"
+        }
+      },
+      "access": {
+        "label": "Deljenje",
+        "private": {
+          "label": "Zasebno",
+          "description": "Filtrirajte po vsebini, ki je na voljo samo vam in osebam, ki imajo skupinski dostop."
+        },
+        "org": {
+          "label": "Organizacija",
+          "description": "Filtrirajte po vsebini, ki je na voljo samo uporabnikom vaše organizacije."
+        },
+        "public": {
+          "label": "Javno",
+          "description": "Filtrirajte po vsebini, ki je na voljo vsem."
+        }
+      },
+      "tags": {
+        "label": "Oznake"
+      },
+      "cardsShown": {
+        "label": "Prikazane kartice"
+      }
+    },
+    "appearance": {
+      "label": "Videz",
+      "titleHeading": {
+        "label": "Naslovna glava",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "Naslovi, gnezdeni po WCAG G141 izboljšajo dostopnost."
+      },
+      "corners": {
+        "label": "Koti",
+        "square": {
+          "label": "Kvadratna"
+        },
+        "round": {
+          "label": "Okrogla"
+        }
+      },
+      "shadow": {
+        "label": "Senca",
+        "none": {
+          "label": "Izklopljeno"
+        },
+        "low": {
+          "label": "Nizko"
+        },
+        "medium": {
+          "label": "Srednje"
+        },
+        "heavy": {
+          "label": "Močna"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "Pokaži dodatne informacije"
+      },
+      "layout": {
+        "label": "Postavitev",
+        "list": {
+          "label": "Seznam"
+        },
+        "map": {
+          "label": "Karta"
+        },
+        "calendar": {
+          "label": "Koledar"
+        }
+      }
+    },
+    "options": {
+      "label": "Možnosti",
+      "openIn": {
+        "label": "Odpri v ...",
+        "same": {
+          "label": "Isti zavihek"
+        },
+        "new": {
+          "label": "Nov zavihek"
+        },
+        "notice": {
+          "title": "Nasvet glede dostopnosti:",
+          "body": "V skladu s tehniko WCAG 2.0 G200 odpiranje povezav v novih zavihkih ali oknih ni priporočljivo.",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "Več o WCAG 2.0 G200"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "Deljenje",
+      "public": {
+        "label": "Javno"
+      },
+      "private": {
+        "label": "Zasebno"
+      },
+      "organization": {
+        "label": "Organizacija"
+      }
+    },
+    "from": {
+      "label": "Od",
+      "myOrganization": {
+        "label": "Moja organizacija"
+      },
+      "myContent": {
+        "label": "Moja vsebina"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "Dogodki",
+      "collections": {
+        "event": {
+          "label": "Dogodki"
+        }
+      }
+    },
+    "item": {
+      "label": "Vsebina",
+      "collections": {
+        "item": {
+          "label": "Vsebina"
+        }
+      }
+    }
+  }
+}

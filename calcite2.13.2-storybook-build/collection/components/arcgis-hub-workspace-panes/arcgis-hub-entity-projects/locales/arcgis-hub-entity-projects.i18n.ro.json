@@ -1,0 +1,178 @@
+{
+  "projectsTitle": "Proiecte",
+  "description": "Asociați cu proiecte contributoare pentru a urmări progresul pe perioada sau în spațiul focalizat. Grupul de asocieri ale inițiativei gestionează asocierile și solicitările de asociere în așteptare.",
+  "subDescription": "Proiectele cu asocieri confirmate vor apărea în vizualizarea acestei inițiative.",
+  "project": "proiect",
+  "initiative": "inițiativă",
+  "helpStates": {
+    "noAccess": {
+      "heading": "Fără acces",
+      "message": "Nu aveți acces pentru a vizualiza grupul de asociere."
+    },
+    "missingGroup": {
+      "heading": "Grup de asociere lipsă",
+      "message": {
+        "overview": "Grupul de asociere va supraveghea ce proiecte vor fi legate și vor raporta către inițiativă.",
+        "members": "Membrii acestui grup vor putea trimite sau aproba solicitări de asociere."
+      },
+      "action": "Creare grup",
+      "formLabel": "Grup de asociere nou",
+      "description": "Creați un grup de asociere pentru a gestiona conexiunile"
+    },
+    "requestsWaiting": {
+      "heading": "Grup de asociere lipsă",
+      "message": {
+        "overview": "Grupul de asociere va supraveghea ce proiecte vor fi legate și vor raporta către inițiativă.",
+        "members": "Membrii acestui grup vor putea trimite sau aproba solicitări de asociere.",
+        "requests": "Solicitările proiectului sunt în așteptare: {count}"
+      },
+      "action": "Creare grup",
+      "formLabel": "Grup de asociere nou",
+      "description": "Creați un grup de asociere pentru a gestiona conexiunile"
+    }
+  },
+  "shared": {
+    "project": "proiect",
+    "associationGroup": "grup de asociere",
+    "error": {
+      "title": "Ceva nu a mers bine",
+      "message": "Este posibil să nu aveți acces suficient pentru a trimite sau gestiona o asociere cu acest {type}."
+    },
+    "facets": {
+      "access": {
+        "label": "Partajare"
+      },
+      "status": {
+        "label": "Stare",
+        "notStarted": "Neînceput",
+        "inProgress": "În curs",
+        "onHold": "În așteptare",
+        "complete": "Finalizat"
+      },
+      "tags": {
+        "label": "Etichete"
+      }
+    },
+    "tabs": {
+      "projects": "Proiecte",
+      "members": "Membri",
+      "settings": "Setări"
+    },
+    "disabledActionTooltip": "Doar managerii de grup pot gestiona asocierea cu acest {type}."
+  },
+  "createAssociationGroup": {
+    "defaultSummary": "Gestionați elementele asociate cu {name} {type} folosind un grup de asociere."
+  },
+  "members": {
+    "facets": {
+      "role": {
+        "label": "Rol",
+        "all": "Totul",
+        "manager": "Manager",
+        "member": "Membru"
+      },
+      "dateJoined": {
+        "label": "Data înscrierii"
+      }
+    },
+    "addMembers": {
+      "button": "Adăugare membri",
+      "modal": {
+        "title": "Adăugare membri",
+        "org": "Organizația mea",
+        "community": "Comunitatea mea",
+        "partner": "Partenerii mei",
+        "world": "Glob"
+      },
+      "notifications": {
+        "invited": "Invitație trimisă. Utilizatorii trebuie să accepte să se alăture",
+        "added": "Utilizatori adăugați",
+        "notInvited": "Unii utilizatori pot să nu aibă privilegiile necesare pentru a intra în grup sau pot fi la o limită maximă de grup (512)"
+      }
+    },
+    "removeUsers": {
+      "button": "Eliminare",
+      "success": "Membrii eliminați cu succes din {groupName}.",
+      "error": "Unul sau mai mulți utilizatori nu au putut fi eliminați din grup."
+    },
+    "changeRole": {
+      "button": "Schimbare rol",
+      "member": "Membru",
+      "memberHelperText": "Poate adăuga și vedea conținutul din grup.",
+      "tooltipText": "Deselectați-vă pe dvs. și/sau proprietarul grupului",
+      "tooltipLabel": "Precizări legale rol",
+      "admin": "Manager",
+      "adminHelperText": "Poate adăuga/elimina conținut și invita/elimina persoane (cu excepția proprietarului).",
+      "success": "Membrii selectați au devenit grup {role}.",
+      "error": "Rolul nu a putut fi schimbat pentru unul sau mai mulți membri."
+    },
+    "stats": {
+      "total": {
+        "title": "Total",
+        "trailingText": "Membri"
+      },
+      "new": {
+        "title": "Nou",
+        "trailingText": "Ultimele 30 de zile"
+      }
+    }
+  },
+  "projects": {
+    "requestAssociation": {
+      "findProjects": "Găsiți proiecte",
+      "sendRequest": "Trimitere solicitare",
+      "success": {
+        "title": "Succes",
+        "message": "Solicitări de asociere trimise: {count}"
+      },
+      "alreadyRequesting": {
+        "title": "Verificare asocieri",
+        "message": "Unele selecții au solicitat deja asocierea. Noi solicitări de asociere trimise: {count}"
+      },
+      "catalog": {
+        "myContent": "Resursele mele",
+        "favorites": "Preferințe",
+        "organization": "Organizație",
+        "world": "Internațional (public)"
+      },
+      "collection": {
+        "projects": "Proiecte"
+      }
+    },
+    "acceptAssociation": {
+      "label": "Acceptare",
+      "success": {
+        "title": "Succes",
+        "message": "Asociere acceptată cu {requestor}"
+      }
+    },
+    "cancelRequest": {
+      "label": "Anulare solicitare",
+      "success": {
+        "title": "Succes",
+        "message": "Solicitare de asociere anulată"
+      }
+    },
+    "breakAssociation": {
+      "label": "Deconectare",
+      "success": {
+        "title": "Asociere întreruptă",
+        "message": "Am deconectat acest element de la asocierea sa anterioară. Cu toate acestea, nu putem inversa decizia din cealaltă parte, așadar puteți vedea încă solicitările primite."
+      }
+    },
+    "associationsGallery": {
+      "sources": "Stare",
+      "catalog": {
+        "associated": "Asociată",
+        "requesting": "Solicitări primite",
+        "pending": "Solicitări soluționate"
+      },
+      "collection": {
+        "projects": "Proiecte"
+      }
+    }
+  },
+  "notice": {
+    "label": "Alertă formular"
+  }
+}

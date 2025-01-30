@@ -1,0 +1,82 @@
+{
+  "title": "Partecipazione",
+  "subtitle": "Impostare la visibilità del pannello di discussione (chi può visualizzare), scorrere in basso per impostare chi può modificare le informazioni e poi impostare la partecipazione e la moderazione con i canali.",
+  "channelTitle": "Canale di partecipazione impostato",
+  "channelDescription": "Questo canale controlla chi può aggiungere, visualizzare e moderare post su questo pannello di discussione.",
+  "addChannelsTitle": "Impostare il canale",
+  "addChannelsDescription": "I canali controllano chi può aggiungere post al pannello. Possono essere aperti a gruppi, a un'organizzazione o al pubblico, e possono essere applicati a più discussioni. I canali controllano inoltre chi può moderare. Impostare le parole bloccate per l'auto-moderazione in un canale.",
+  "privateChannelTitle": "Il canale privato è impostato",
+  "privateChannelDescription": "Impossibile visualizzare il canale privato assegnato a questo forum di discussione. Puoi rimuovere il canale e selezionare un canale esistente o creare un canale.",
+  "removeChannelConfirmationMessage": "Questo pannello di discussione non visualizzerà più i post. Se questo canale viene rimosso è possibile aggiungere un canale.",
+  "headingChannelEdit": "Modifica di un canale in corso",
+  "headingChannelView": "Visualizzazione di un canale in corso",
+  "headingChannelCreate": "Creazione di un canale in corso",
+  "buttons": {
+    "browse": "Sfoglia i canali",
+    "new": "Nuovo canale",
+    "removeChannel": "Rimuovi canale",
+    "cancel": "Annulla"
+  },
+  "alerts": {
+    "label": "Avviso modulo",
+    "set": {
+      "title": "Operazione completata. Il canale è stato impostato."
+    },
+    "removed": {
+      "title": "Canale rimosso",
+      "message": "Scegliere o creare un canale per la partecipazione."
+    },
+    "error": {
+      "title": "Non riuscito. Il canale non è stato impostato."
+    }
+  },
+  "galleryPickerTitle": "Seleziona un canale",
+  "channelsLabel": "Canali",
+  "accessLabel": "Accesso",
+  "optionPublicLabel": "Pubblico",
+  "optionOrganizationLabel": "Organizzazione",
+  "optionPrivateLabel": "Privato",
+  "viewChannel": "Visualizza canale",
+  "editChannel": "Modifica canale",
+  "save": "Salva",
+  "removeChannel": "Rimuovi canale",
+  "groupPicker": {
+    "facet": {
+      "label": "Da",
+      "myGroups": "I miei gruppi",
+      "myOrganization": "La mia organizzazione",
+      "myCommunity": "La mia community"
+    }
+  },
+  "editGroupButtonText": "Aggiungi gruppi di modifica",
+  "viewGroupButtonText": "Aggiungi gruppi di visualizzazione",
+  "viewGroups": {
+    "header": "Chi può visualizzare",
+    "description": "Le persone che possono visualizzare (ma non pubblicare) il pannello; la pubblicazione è impostata secondo i seguenti canali."
+  },
+  "editGroups": {
+    "header": "Chi può modificare",
+    "description": "I membri del gruppo possono modificare le informazioni del pannello nel workspace."
+  },
+  "aboutChannelsNotice": {
+    "title": "Introduzione ai canali",
+    "message": "I canali non sono gruppi, ma possono contenerli. Determinano chi può pubblicare e moderare.",
+    "action": "Ulteriori informazioni sui canali"
+  },
+  "nonPrivateChannelNotice": {
+    "title": "Non è possibile modificare il canale",
+    "message": "Solo i moderatori di questo canale possono modificarlo. Contattare il proprietario o l'amministratore dell'organizzazione per aggiungere, se necessario. È anche possibile rimuovere questo canale, aggiungerne uno esistente (di cui si è moderatore) o crearne uno nuovo."
+  },
+  "privateChannelNotice": {
+    "title": "Non è possibile modificare il canale",
+    "message": "Solo i moderatori di questo canale possono modificarlo. Contattare il proprietario per aggiungere, se necessario. È anche possibile rimuovere questo canale, aggiungerne uno esistente (di cui si è moderatore) o crearne uno nuovo."
+  },
+  "participate": {
+    "header": "Chi può partecipare e chi può moderare"
+  },
+  "org": "Organizzazione",
+  "private": "Privato",
+  "public": "Pubblico",
+  "unnamed": "Canale senza nome",
+  "groupNotFound": "Gruppo non trovato"
+}

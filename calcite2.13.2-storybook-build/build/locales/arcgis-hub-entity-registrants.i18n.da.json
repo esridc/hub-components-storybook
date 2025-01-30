@@ -1,0 +1,46 @@
+{
+  "registrants": "Registrerede",
+  "invite": "Inviter",
+  "tabs": {
+    "registrants": "Registrerede",
+    "settings": "Indstillinger"
+  },
+  "emptyNotice": {
+    "title": "Ingen registrerede",
+    "desc": "Begivenheder er altid bedre med publikum. Inviter folk, eller del din begivenhed for at opfordre folk til at deltage.",
+    "link": "Inviter registrerede"
+  },
+  "facets": {
+    "role": {
+      "header": "Rolle",
+      "owner": "Ejer",
+      "organizer": "Arrangør",
+      "attendee": "Registrerede"
+    },
+    "status": {
+      "header": "Status",
+      "pending": "Afventer",
+      "accepted": "Accepteret",
+      "declined": "Afvist",
+      "blocked": "Blokeret"
+    },
+    "location": {
+      "header": "Position",
+      "online": "Online",
+      "in_person": "Personlig deltagelse"
+    },
+    "updatedDate": "Opdateret dato"
+  },
+  "delete": {
+    "attendee": "Fjern registrerede"
+  },
+  "notice": {
+    "label": "Formularadvarsel"
+  },
+  "success": {
+    "delete": "Registrerede er fjernet fra {eventName}."
+  },
+  "error": {
+    "delete": "En eller flere registrerede kunne ikke fjernes fra begivenheden."
+  }
+}

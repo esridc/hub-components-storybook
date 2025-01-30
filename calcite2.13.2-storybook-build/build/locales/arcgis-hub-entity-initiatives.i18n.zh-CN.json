@@ -1,0 +1,87 @@
+{
+  "initiatives": "倡议",
+  "description": "可与倡议关联，为长期或大规模工作做出贡献。 工程协作者可以管理已确认的关联和未完成的关联请求。 包含已确认关联的倡议将显示在此工程视图上。 ",
+  "shared": {
+    "error": {
+      "title": "发生错误",
+      "message": "我们无法完成该任务。 请重试。"
+    },
+    "facets": {
+      "access": {
+        "label": "共享"
+      },
+      "status": {
+        "label": "状态",
+        "notStarted": "未启动",
+        "inProgress": "正在进行中",
+        "onHold": "暂停",
+        "complete": "完成"
+      },
+      "tags": {
+        "label": "标签"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "{currentConfirmedAndOutgoingRequests} / {maxCurrentAndOutgoingRequestsAllowed} 已确认 + 传出请求",
+      "tooltip": "要发送请求，请断开现有关联和/或传出请求"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "查找倡议",
+    "sendRequest": "发送请求",
+    "success": {
+      "title": "成功",
+      "message": "已发送关联请求：{count}"
+    },
+    "alreadyRequesting": {
+      "title": "检查关联",
+      "message": "一些选择内容已请求关联。 已发送新的关联请求：{count}"
+    },
+    "catalog": {
+      "myContent": "我的内容",
+      "favorites": "收藏夹",
+      "organization": "我的组织",
+      "partners": "我的合作伙伴",
+      "community": "我的社区"
+    },
+    "collection": {
+      "initiatives": "倡议"
+    }
+  },
+  "acceptAssociation": {
+    "label": "接受",
+    "limitReachedTooltip": "要接受，请断开现有关联和/或传出请求",
+    "success": {
+      "title": "成功",
+      "message": "已接受与 {requestor} 的关联"
+    }
+  },
+  "cancelRequest": {
+    "label": "取消请求",
+    "success": {
+      "title": "成功",
+      "message": "关联请求已取消"
+    }
+  },
+  "breakAssociation": {
+    "label": "断开连接",
+    "success": {
+      "title": "关联已断开",
+      "message": "我们已将此项目与其之前的关联断开连接。 但是，我们无法从对方逆转决定，因此您仍可能在传入请求中看到此项目。"
+    }
+  },
+  "associationsGallery": {
+    "sources": "状态",
+    "catalog": {
+      "associated": "已关联",
+      "requesting": "传入请求",
+      "pending": "传出请求"
+    },
+    "collection": {
+      "initiatives": "倡议"
+    }
+  },
+  "notice": {
+    "label": "表单警告"
+  }
+}

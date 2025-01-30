@@ -1,0 +1,15 @@
+{
+  "newCollection": "مجموعة جديدة",
+  "block": {
+    "heading": {
+      "untitled": "مجموعة دون اسم"
+    },
+    "actions": {
+      "delete": "حذف المجموعة: {label}"
+    }
+  },
+  "name": {
+    "label": "الاسم",
+    "requiredError": "اسم المجموعة مطلوب"
+  }
+}

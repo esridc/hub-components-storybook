@@ -1,0 +1,81 @@
+{
+  "tabTitle": "源配置",
+  "learn": "了解有关 Hub 源的信息",
+  "loadingLabel": "正在加载",
+  "enableFeedsToggle": {
+    "label": "启用源",
+    "privateNotice": "要启用源，首先需要将您的 Hub 站点设置为“公开”。",
+    "emptyPublicCatalog": {
+      "message": "要启用源，首先需要将公共内容添加至您的目录。",
+      "button": "目录视图"
+    },
+    "grouplessCatalog": {
+      "message": "要启用源，首先需要配置您的目录。",
+      "button": "配置目录"
+    }
+  },
+  "gettingStartedNotice": {
+    "title": "入门",
+    "exampleMessage": "可以使用文字(\"VALUE\")或模板(\"{{TEMPLATE_VALUE}}\")值突出显示和更新 JSON 编辑器中的键或值。",
+    "previewMessage": "使用“预览”切换按钮来预览更改。 有关其他信息，请阅读<catalogFederationLink>目录联合帮助文档</catalogFederationLink>。"
+  },
+  "aboutFeedsNotice": {
+    "message": "通过 Hub 源，使您的公共开放数据易于访问和重复使用。",
+    "link": "了解有关 Hub 源的信息"
+  },
+  "feedsEditorSection": {
+    "title": "源",
+    "formatSelectLabel": "选择源类型",
+    "uneditableAttributesIntro": "请注意，无法对以下属性进行编辑：",
+    "edit": "编辑",
+    "preview": "预览",
+    "selectContentNotice": "选择要预览的内容。",
+    "invalidJsonEditorWarning": "JSON 无效。 请在保存之前更正错误。",
+    "invalidJsonPreviewWarning": "无法预览无效 JSON，请更正错误。",
+    "errorPreviewingWarning": "发生错误。 请检查您的连接，然后重试。 如果问题仍然存在，请向 Hub 支持记录漏洞。"
+  },
+  "toolsSection": {
+    "title": "工具",
+    "verification": "验证",
+    "previewSampleData": {
+      "label": "预览示例数据",
+      "pickerFacets": {
+        "type": "类型",
+        "tags": "标签",
+        "categories": "类别",
+        "sharing": "共享",
+        "dateUpdated": "更新日期"
+      }
+    },
+    "copyableInputLabel": "源访问 URL"
+  },
+  "dcat-us": {
+    "1.1": {
+      "title": "DCAT-US 1.1",
+      "description": "DCAT 允许组织标准化数据贡献并帮助用户通过联邦资源进行解析。 您可以使用 Project Open Data 建立的 <dcatUsSchemaLink>DCAT 方案</dcatUsSchemaLink>(默认配置)，或者自行配置某些字段/属性。 站点管理员可能还会添加其他 DCAT 配置，并且可能需要阅读有关<catalogFederationLink>与 DCAT 和其他外部目录联合数据</catalogFederationLink>的文档。",
+      "uneditableAttributes": "@type, landingPage, webService and contactPoint['@type'].",
+      "verificationLabel": "可以通过将站点的 DCAT URL 粘贴到 <dcatUsVerificationLink>Project Open Data 的验证器</dcatUsVerificationLink>来验证您的 DCAT 源。"
+    }
+  },
+  "dcat-ap": {
+    "2.1.1": {
+      "title": "DCAT-AP 2.1.1",
+      "description": "DCAT-AP 由欧盟委员会建立，是欧盟数据目录的标准元数据交换格式。 当编辑内容元数据的详细信息或者向目录添加新的公共内容时，ArcGIS Hub 将自动创建并更新站点的 DCAT-AP 源。 由于源将使用在 ArcGIS Online 中维护的元数据，因此无需手动创建单独的 DCAT-AP 元数据。<lineBreak></lineBreak><lineBreak></lineBreak>使用此编辑器，可以保留 ArcGIS Hub 的 <dcatApSchemaLink>DCAT-AP 模式</dcatApSchemaLink>默认配置，也可以自行配置某些字段/属性。 您还可以添加 DCAT-AP 字段/属性。 有关更多详细信息，请参阅 ArcGIS Hub 中有关<catalogFederationLink>将数据与 DCAT 和其他外部目录联合</catalogFederationLink>的文档。",
+      "uneditableAttributes": "@type, @id, dcat:contactPoint['@id'], dcat:contactPoint['@type'], dct:publisher, dcat:theme, dct:accessRights, dcat:keyword, dct:provenance, dct:issued, and dct:language",
+      "verificationLabel": "可以通过将站点的 DCAT URL 粘贴到<dcatApVerificationLink>欧盟委员会互操作性测试台</dcatApVerificationLink>来验证您的 DCAT 源。"
+    }
+  },
+  "rss": {
+    "2.0": {
+      "title": "RSS 2.0",
+      "description": "<rssAboutLink>RSS 2</rssAboutLink> 是一种 Web 内容联合格式，符合 <xmlSpecLink>XML 1.0 规范</xmlSpecLink>。 使用此编辑器，您可以保留 ArcGIS Hub 的默认配置，也可以自己配置某些字段/属性。 有关更多详细信息，请参阅 <catalogFederationLink>ArcGIS Hub 中有关将数据与 DCAT 和其他外部目录联合</catalogFederationLink>的文档。",
+      "verificationLabel": "您可以通过将站点的 RSS URL 传递到 W3 <rssVerificationLink>源验证器</rssVerificationLink>来验证 RSS 源。"
+    }
+  },
+  "saveButton": "保存",
+  "alertMessages": {
+    "success": "已成功保存编辑内容",
+    "error": "保存编辑内容时出错"
+  },
+  "formAlert": "表单警告"
+}

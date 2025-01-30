@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "Register",
+    "registered": "Registered",
+    "join": "Join online",
+    "in-person": "In-person",
+    "online": "Online",
+    "inPersonFull": "In-person (full)",
+    "onlineFull": "Online (full)",
+    "close": "Close"
+  },
+  "tooltip": {
+    "isCanceled": "Event canceled",
+    "eventHasEnded": "Event ended",
+    "eventFull": "Event full",
+    "inPerson": "Registered for in-person event",
+    "online": "Registered for online event",
+    "unavailable": "Available an hour before event start time"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "Successfully canceled registration for online event",
+    "onlineRegistrationConfirmed": "Successfully registered for online event",
+    "onlineRegistrationError": "Unexpected error occurred when registering for online event",
+    "onlineRegistrationCanceledError": "Unexpected error canceling registration for online event",
+    "onlineRegistrationAtCapacity": "You are attempting to register for an online event that is full",
+    "inPersonRegistrationCanceled": "Successfully canceled registration for in-person event",
+    "inPersonRegistrationCanceledError": "Unexpected error canceling registration for in-person event",
+    "inPersonRegistrationConfirmed": "Successfully registered for in-person event",
+    "inPersonRegistrationError": "Unexpected error occurred when registering for in-person event",
+    "inPersonRegistrationAtCapacity": "You are attempting to register for an in-person event that is full"
+  }
+}

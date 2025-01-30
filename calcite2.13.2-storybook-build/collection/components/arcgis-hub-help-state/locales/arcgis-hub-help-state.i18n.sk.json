@@ -1,0 +1,26 @@
+{
+  "unauthenticated": {
+    "heading": "Prihláste sa, prosím.",
+    "message": "Na prístup na túto stránku sú potrebné poverenia.",
+    "actionText": "Prihlásiť sa"
+  },
+  "not-found": {
+    "heading": "Stránka nebola nájdená",
+    "message": "Táto stránka mohla byť presunutá alebo odstránená. Skúste ju vyhľadať na domovskej stránke",
+    "actionText": "Prejsť na domovskú stránku"
+  },
+  "unsupported-device": {
+    "heading": "Nepodporovaná veľkosť obrazovky",
+    "message": "Pracovné priestory zatiaľ nie sú prístupné na menších obrazovkách. Použite zariadenie so širšou obrazovkou.",
+    "actionText": "Späť"
+  },
+  "access-denied": {
+    "heading": "Prístup zamietnutý",
+    "message": "Nemáte oprávnenie na prístup k tomuto zdroju.",
+    "actionText": "Prejsť na domovskú stránku"
+  },
+  "loading": {
+    "heading": "Načítavanie...",
+    "loadingLabel": "Načítava sa"
+  }
+}

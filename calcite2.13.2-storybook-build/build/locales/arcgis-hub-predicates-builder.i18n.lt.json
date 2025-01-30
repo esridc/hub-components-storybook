@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "Redaguoti grupes",
+        "viewGroups": "Peržiūrėti grupes"
+      },
+      "facet": {
+        "label": "Nuo",
+        "myGroups": "Mano grupės",
+        "myOrganization": "Mano organizacija",
+        "myCommunity": "Mano bendruomenė"
+      }
+    }
+  },
+  "property": {
+    "label": "Parametras",
+    "requiredError": "Reikalingas parametras"
+  },
+  "operator": {
+    "label": "Kriterijai",
+    "requiredError": "Reikalingas kriterijus"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "Tipas"
+    },
+    "group": {
+      "default": "Grupės"
+    },
+    "occurrence": {
+      "default": "Pasikartojimas"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "Yra bet kuris",
+      "group": "Yra bendrinamas su bet kuriuo"
+    },
+    "isAll": {
+      "default": "Yra visi",
+      "group": "Yra bendrinamas su visais"
+    },
+    "isExactly": {
+      "default": "Tiksliai atitinka",
+      "occurrence": "Yra"
+    },
+    "isNot": {
+      "default": "Yra ne",
+      "type": "Nėra nei vienas",
+      "group": "Nėra bendrinamas"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "Grupės",
+      "requiredError": "Reikalingos grupės"
+    },
+    "type": {
+      "label": "Tipai",
+      "requiredError": "Reikalingi tipai",
+      "app": {
+        "label": "Programėlės"
+      },
+      "content": {
+        "label": "Turinys"
+      },
+      "dataset": {
+        "label": "Duomenų rinkiniai"
+      },
+      "discussion": {
+        "label": "Diskusijos"
+      },
+      "document": {
+        "label": "Dokumentai"
+      },
+      "event": {
+        "label": "Renginiai"
+      },
+      "feedback": {
+        "label": "Atsiliepimai"
+      },
+      "initiative": {
+        "label": "Iniciatyvos"
+      },
+      "map": {
+        "label": "Žemėlapiai"
+      },
+      "project": {
+        "label": "Projektai"
+      },
+      "site": {
+        "label": "Svetainės"
+      },
+      "template": {
+        "label": "Šablonai"
+      }
+    },
+    "occurrence": {
+      "label": "Pasikartojimas",
+      "requiredError": "Reikalingas pasikartojimas",
+      "upcoming": "Artėjantys",
+      "past": "Praėję",
+      "inProgress": "Vykstantys"
+    }
+  }
+}

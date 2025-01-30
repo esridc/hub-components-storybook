@@ -1,0 +1,18 @@
+{
+  "about": "További információk",
+  "metrics": "Mutatók",
+  "featuredContent": "Kiemelt tartalom",
+  "details": "Részletek",
+  "exploreMetrics": "Mérőszámok felfedezése",
+  "status": {
+    "label": {
+      "default": "Állapot",
+      "project": "Projekt állapota",
+      "initiative": "Kezdeményezés állapota"
+    },
+    "notStarted": "Nem kezdődött el",
+    "inProgress": "Folyamatban",
+    "onHold": "Várakozik",
+    "complete": "Befejeződött"
+  }
+}

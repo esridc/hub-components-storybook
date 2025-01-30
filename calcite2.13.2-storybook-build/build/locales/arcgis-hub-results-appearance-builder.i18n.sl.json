@@ -1,0 +1,118 @@
+{
+  "layout": {
+    "title": "Postavitev",
+    "helperText": "To konfigurira, kako bodo videti rezultati, ko obiskovalci prvič pridejo v vaš katalog. Obiskovalci bodo še vedno imeli možnost, da sami spremenijo način prikaza.",
+    "enum": {
+      "list": {
+        "label": "Seznam",
+        "description": "Uporabite za predstavitev metapodatkov in ko bodo obiskovalci verjetno izvajali ciljna iskanja."
+      },
+      "grid": {
+        "label": "Mreža",
+        "description": "Uporabite za rezultate, ki imajo sličice visoke kakovosti, in ko bodo obiskovalci verjetno brskali."
+      },
+      "table": {
+        "label": "Tabela",
+        "description": "Uporabite za predstavitev rezultatov v strukturirani obliki s stolpci, ki jih je mogoče razvrstiti, kar je idealno, ko si bodo obiskovalci želeli ogledati in primerjati številne elemente in njihove atribute."
+      },
+      "map": {
+        "label": "Karta",
+        "description": "Uporabite za rezultate, ki so vezani na fizične lokacije in ko bodo obiskovalci verjetno raziskovali interesna območja."
+      },
+      "compact": {
+        "label": "Kompaktno",
+        "description": "Uporabite za povečanje števila vidnih rezultatov na manjšem prostoru, idealno za hitro brskanje ali ogled na mobilnih napravah."
+      }
+    }
+  },
+  "cards": {
+    "title": "Kartice",
+    "cardTitleTag": {
+      "label": "Glava",
+      "helperText": "To lahko uporabite za izboljšanje strukture ugnezdenih naslovov za dostopnost. Ne bo spremenilo velikosti pisave.",
+      "enum": {
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        }
+      }
+    },
+    "showThumbnail": {
+      "label": "Prikaži sličico",
+      "enum": {
+        "show": {
+          "label": "Vedno",
+          "description": "Sličice bodo vedno prikazane na karticah z rezultati, ne glede na postavitev rezultatov."
+        },
+        "hide": {
+          "label": "Ne prikaži sličice",
+          "description": "Sličice ne bodo prikazane na nobeni vrsti kartice z rezultati. To možnost uporabite, če imate sličice slabe kakovosti ali če želite, da lahko ljudje hitreje skenirajo rezultate seznama v namizju in mobilni napravi."
+        },
+        "grid": {
+          "label": "Samo v mreži",
+          "description": "Sličice bodo prikazane samo na mrežnih karticah. Na karticah s seznami bo namesto slike prikazan dodaten stolpec z metapodatki."
+        }
+      }
+    },
+    "corners": {
+      "label": "Koti",
+      "enum": {
+        "square": {
+          "label": "Pravokotno"
+        },
+        "round": {
+          "label": "Okrogla"
+        }
+      }
+    },
+    "shadow": {
+      "label": "Zasenči",
+      "enum": {
+        "heavy": {
+          "label": "Močna"
+        },
+        "low": {
+          "label": "Nizko"
+        },
+        "medium": {
+          "label": "Srednje"
+        },
+        "none": {
+          "label": "Brez"
+        }
+      }
+    },
+    "showLinkButton": {
+      "label": "Vklopi gumbe",
+      "helperText": "Če so gumbi izklopljeni, bo povezava le naslov kartice."
+    },
+    "linkButtonStyle": {
+      "label": "Slog",
+      "enum": {
+        "outline-filled": {
+          "label": "Zapolnjeno"
+        },
+        "outline": {
+          "label": "Obroba"
+        }
+      }
+    },
+    "linkButtonText": {
+      "label": "Besedilo"
+    }
+  }
+}

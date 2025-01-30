@@ -1,0 +1,18 @@
+{
+  "about": "About",
+  "metrics": "Metrics",
+  "featuredContent": "Featured content",
+  "details": "Details",
+  "exploreMetrics": "Explore metrics",
+  "status": {
+    "label": {
+      "default": "Status",
+      "project": "Project status",
+      "initiative": "Initiative status"
+    },
+    "notStarted": "Not started",
+    "inProgress": "In progress",
+    "onHold": "On hold",
+    "complete": "Complete"
+  }
+}

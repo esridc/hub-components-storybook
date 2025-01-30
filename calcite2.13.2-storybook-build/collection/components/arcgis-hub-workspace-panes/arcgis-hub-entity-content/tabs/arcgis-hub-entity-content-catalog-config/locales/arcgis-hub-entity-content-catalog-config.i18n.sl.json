@@ -1,0 +1,46 @@
+{
+  "title": "Konfiguracija kataloga",
+  "helperText": "Opredeli in konfiguriraj katalog",
+  "sections": {
+    "groups": {
+      "title": "Skupine",
+      "helperText": "Spodnje skupine vsebujejo vsebino vašega iskanja po katalogu. Izberite skupino za ogled nastavitev, vsebine in več.",
+      "createGroup": "Ustvari novo skupino"
+    },
+    "feeds": {
+      "title": "Konfiguracija vira",
+      "helperText": "Poskrbite, da bodo vaši javno odprti podatki enostavno dostopni in ponovno uporabni z viri Hub.",
+      "learn": "Izvedite več o virih Hub",
+      "toggle": "Omogoči vire ",
+      "configure": "Konfiguriraj vire",
+      "notice": "Če želite omogočiti vire, morate svoja spletna mesta Hub v nastavitvah najprej nastaviti na »Javno«"
+    }
+  },
+  "groupPickerFacet": {
+    "label": "Od",
+    "editGroups": "Skupine za urejanje",
+    "viewGroups": "Ogled skupine",
+    "myGroups": "Moje skupine",
+    "myOrganization": "Moja organizacija",
+    "myCommunity": "Moja zainteresirana javnost",
+    "public": "Javno"
+  },
+  "formAlert": "Opozorilo obrazca",
+  "configSaveAlert": {
+    "success": "Uspešno shranjena urejanja",
+    "failure": "Napaka pri shranjevanju sprememb"
+  },
+  "reharvestCatalogButton": "Preverite napake",
+  "reharvestWarningModal": {
+    "title": "Preverite napake",
+    "body1": "Opozorilo: Ta možnost se praviloma uporablja samo v situacijah, kjer ima vaša iskalna stran težave z manjkajočimi rezultati ali metapodatki. Ta možnost bo preverila vse elemente v vseh skupinah kataloga za dodatke, spremembe metapodatkov ali odstranitve.",
+    "body2": "Zagon tega procesa obnovi javni indeks iskanja v tem katalogu in lahko traja nekaj minut. To bo povečalo obremenitev vseh primerkov ArcGIS Server.",
+    "primaryButton": "Nadaljuj",
+    "secondaryButton": "Prekliči"
+  },
+  "reharvestCatalogAlert": {
+    "success": "Preverjanje napak. Poskusite znova pozneje.",
+    "inProgress": "Preverjanje je že v teku. Vrnite se kasneje.",
+    "failure": "Oprostite, prišlo je do operativne napake. Poskusite znova pozneje."
+  }
+}

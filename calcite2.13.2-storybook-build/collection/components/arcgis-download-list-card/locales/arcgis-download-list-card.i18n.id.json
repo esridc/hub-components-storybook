@@ -1,0 +1,13 @@
+{
+  "csv": "CSV",
+  "shapefile": "Shapefile",
+  "sqlite": "Geodatabase SQLite",
+  "geoPackage": "GeoPackage",
+  "filegdb": "File Geodatabase",
+  "featureCollection": "Koleksi Fitur",
+  "geojson": "GeoJSON",
+  "excel": "Excel",
+  "json": "JSON",
+  "createReplicaErrorMessage": "Buat replika kesalahan internal. Silakan coba lagi dalam satu jam atau hubungi pengelola konten.",
+  "errorHeader": "Unduhan tidak dapat diselesaikan. Silakan coba lagi."
+}

@@ -1,0 +1,46 @@
+{
+  "heading": "Lapas informācija",
+  "form": {
+    "title": {
+      "label": "Lapas nosaukums",
+      "requiredError": "Ir nepieciešams vārds",
+      "entityTitleValidatorError": "Lapas nosaukums nedrīkst ietvert emocijzīmes, <, >, vai = rakstzīmes"
+    },
+    "slug": {
+      "label": "Rinda",
+      "helperText": "Rinda ir lapas nosaukumam URL draudzīga versija. Tas tiek automātiski ģenerēts, pamatojoties uz lapas nosaukumu, taču Jūs varat to pielāgot.",
+      "patternError": "Kļūda: rindai ir jābūt rakstītai ar mazajām burtu un ciparu rakstzīmēm, kas ir atdalītas ar defisēm.",
+      "isUniqueError": "Rinda jau tiek lietota. Lūdzu, izvēlieties citu.",
+      "requiredError": "Ir nepieciešams fails"
+    }
+  },
+  "controls": {
+    "back": "Atpakaļ",
+    "cancel": "Atcelt",
+    "close": "Pabeigts",
+    "migrate": "Migrēt lapu",
+    "next": "Tālāk"
+  },
+  "selection": {
+    "unlimited": "Izvēlēti {count}",
+    "limited": "Atlasīts {count}/{limit}"
+  },
+  "steps": {
+    "specifyInfo": "Pievienot pamatinformāciju",
+    "selectGroups": "Izvēlēties grupu",
+    "confirmation": "Apstiprinājums"
+  },
+  "working": {
+    "heading": "Notiek lapas migrēšana.",
+    "loadingLabel": "Notiek lapas migrēšana"
+  },
+  "success": {
+    "heading": "Lapa ir migrēta",
+    "message": "Lapa ir veiksmīgi migrēta."
+  },
+  "failure": {
+    "heading": "Lapa nav migrēta",
+    "message": "Migrējot lapu, radās problēma. Lūdzu, mēģiniet vēlreiz.",
+    "action": "Mēģiniet vēlreiz"
+  }
+}

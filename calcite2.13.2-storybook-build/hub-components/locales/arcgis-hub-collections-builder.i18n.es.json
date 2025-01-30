@@ -1,0 +1,15 @@
+{
+  "newCollection": "Nueva colección",
+  "block": {
+    "heading": {
+      "untitled": "Colección sin título"
+    },
+    "actions": {
+      "delete": "Eliminar colección: {label}"
+    }
+  },
+  "name": {
+    "label": "Nombre",
+    "requiredError": "El nombre de colección es obligatorio"
+  }
+}

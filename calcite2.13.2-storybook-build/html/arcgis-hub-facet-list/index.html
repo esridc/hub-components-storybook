@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-facet-list</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet" href="../calcite-web.min.css">
+</head>
+
+<body>
+  <div class="grid-container padding-leader-2">
+    <div class="column-20 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-hub-facet-list</h2>
+    </div>
+
+    <div class="column-20">
+      <arcgis-hub-facet-list id="arcgis-hub-facet-list-harness">
+      </arcgis-hub-facet-list>
+    </div>
+  </div>
+
+  <script>
+    // set a property on the element
+    function setProp(key, value) {
+      const el = document.querySelector("#arcgis-hub-facet-list-harness");
+      el[key] = value;
+    }
+    const sampleFacets = [
+        {
+          label: "From",
+          key: "from",
+          display: "single-select",
+          pageSize: 3,
+          accordionClosed: true,
+          options: [
+            {
+              label: "Esri",
+              key: "esri",
+              selected: true,
+              filter: {
+                filterType: "content",
+                owner: "esri",
+              },
+            },
+            {
+              label: "Anyone",
+              key: "anyone",
+              selected: false,
+              filter: {
+                filterType: "content",
+                access: "public",
+              },
+            },
+          ],
+
+        },
+        {
+          label: "Types",
+          key: "types",
+          display: "multi-select",
+          pageSize: 5,
+          options: [
+            {
+              label: "Application",
+              key: "application",
+              selected: true,
+              filter: {
+                filterType: "content",
+                type: "Application"
+              }
+            },
+            {
+              label: "Story Maps",
+              key: "storymaps",
+              selected: false,
+              filter: {
+                filterType: "content",
+                type: "Web Mapping Application"
+              }
+            },
+            {
+              label: "Dashboards",
+              key: "dashboards",
+              selected: true,
+              filter: {
+                filterType: "content",
+                type: "Dashboard"
+              }
+            },
+            {
+              label: "PDF",
+              key: "pdf",
+              selected: false,
+              filter: {
+                filterType: "content",
+                type: "PDF"
+              }
+            },
+            {
+              label: "Sites",
+              key: "sites",
+              selected: false,
+              filter: {
+                filterType: "content",
+                type: "Site Application"
+              }
+            },
+            {
+              label: "Initiative",
+              key: "initiative",
+              selected: false,
+              filter: {
+                filterType: "content",
+                type: "Hub Initiative"
+              }
+            },
+            {
+              label: "Web Experience",
+              key: "exb",
+              selected: false,
+              filter: {
+                filterType: "content",
+                type: "Web Experience"
+              }
+            }
+          ]
+        }
+      ];
+    setProp("facets", sampleFacets);
+  </script>
+</body>
+
+</html>

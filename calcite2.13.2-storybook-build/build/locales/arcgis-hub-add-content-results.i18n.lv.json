@@ -1,0 +1,54 @@
+{
+  "existing": {
+    "successHeading": "Saturs sekmīgi pievienots.",
+    "failureHeading": "Atlasītajai grupai nevar pievienot saturu.",
+    "successfulAccordionHeading": "Atlasītajai grupai pievienots saturs.",
+    "unsuccessfulAccordionHeading": "Atlasītajai grupai nepievienotais saturs"
+  },
+  "create": {
+    "event": {
+      "successWithoutGroupHeading": "Pasākums ir veiksmīgi izveidots.",
+      "successWithGroupHeading": "Pasākums ir veiksmīgi izveidots un pievienots {group}.",
+      "successMessage": "Tagad varat skatīt pasākumu, pārvaldīt to, lai rediģētu informāciju, vai noklikšķināt uz 'gatavs', lai atgrieztos skatā.",
+      "failureHeading": "Nevar pievienot pasākumu atlasītajai grupai."
+    },
+    "discussion": {
+      "successWithoutGroupHeading": "Diskusiju panelis ir veiksmīgi izveidots.",
+      "successWithGroupHeading": "Diskusiju panelis ir veiksmīgi izveidots un pievienots {group}.",
+      "successMessage": "Tagad varat skatīt diskusiju paneli, pārvaldīt to, lai rediģētu informāciju, vai noklikšķināt uz 'gatavs', lai atgrieztos skatā.",
+      "failureHeading": "Nevar pievienot diskusiju paneli atlasītajai grupai."
+    },
+    "group": {
+      "successWithoutGroupHeading": "Grupa ir veiksmīgi izveidota.",
+      "successMessage": "Tagad varat skatīt grupu, pārvaldīt to, lai rediģētu informāciju, vai noklikšķināt uz 'gatavs', lai atgrieztos skatā.",
+      "failureHeading": "Nevar izveidot grupu."
+    },
+    "initiative": {
+      "successWithoutGroupHeading": "Iniciatīva ir veiksmīgi izveidota.",
+      "successWithGroupHeading": "Iniciatīva ir veiksmīgi izveidota un pievienota {group}.",
+      "successMessage": "Tagad varat skatīt iniciatīvu, pārvaldīt to, lai rediģētu informāciju, vai noklikšķināt uz 'gatavs', lai atgrieztos skatā.",
+      "failureHeading": "Nevar pievienot iniciatīvu atlasītajai grupai."
+    },
+    "page": {
+      "successWithoutGroupHeading": "Lapa ir veiksmīgi izveidota.",
+      "successWithGroupHeading": "Lapa ir veiksmīgi izveidota un pievienota {group}.",
+      "successMessage": "Tagad varat skatīt lapu, pārvaldīt to, lai rediģētu informāciju, vai noklikšķināt uz 'gatavs', lai atgrieztos skatā.",
+      "failureHeading": "Nevar pievienot lapu atlasītajai grupai."
+    },
+    "project": {
+      "successWithoutGroupHeading": "Projekts ir izveidots veiksmīgi.",
+      "successWithGroupHeading": "Projekts ir veiksmīgi izveidots un pievienots {group}.",
+      "successMessage": "Tagad varat skatīt projektu, pārvaldīt to, lai rediģētu informāciju, vai noklikšķināt uz 'gatavs', lai atgrieztos skatā.",
+      "failureHeading": "Nevar pievienot projektu atlasītajai grupai."
+    },
+    "site": {
+      "successWithoutGroupHeading": "Vietne ir veiksmīgi izveidota.",
+      "successWithGroupHeading": "Vietne ir veiksmīgi izveidota un pievienota {group}.",
+      "successMessage": "Tagad varat skatīt vietni, pārvaldīt to, lai rediģētu informāciju, vai noklikšķināt uz 'gatavs', lai atgrieztos skatā.",
+      "failureHeading": "Nevar pievienot vietni atlasītajai grupai."
+    }
+  },
+  "editLayout": "Rediģēt izkārtojumu",
+  "manageEntity": "Pārvaldīt",
+  "viewEntity": "Skatīt"
+}

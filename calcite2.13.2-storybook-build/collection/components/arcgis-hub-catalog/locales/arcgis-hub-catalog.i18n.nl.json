@@ -1,0 +1,16 @@
+{
+  "all": "Alle",
+  "source": "Bron",
+  "targetEntity": {
+    "item": "Items",
+    "group": "Groepen",
+    "user": "Gebruikers",
+    "portalUser": "Gebruikers portaal",
+    "communityUser": "Gebruikers community",
+    "groupMember": "Groepsleden",
+    "event": "Evenementen",
+    "channel": "Kanalen",
+    "discussionPost": "Posts",
+    "eventAttendee": "Geregistreerde personen evenement"
+  }
+}

@@ -1,0 +1,1 @@
+import{u as e}from"./p-62fbc06b.js";function r(r){return"Feature Service"===r?"data":r?e(r):"file"}export{r as g}

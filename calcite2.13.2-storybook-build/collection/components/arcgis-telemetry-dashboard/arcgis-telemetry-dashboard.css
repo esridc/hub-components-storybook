@@ -1,0 +1,82 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.controls-container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.popover-body {
+  max-width: 20rem;
+  padding: 0.75rem;
+  font-size: var(--calcite-font-size-0);
+  line-height: 1.25rem;
+}
+
+.update-label {
+  font-size: var(--calcite-font-size--1);
+  font-weight: var(--calcite-font-weight-bold);
+}
+
+.learn-link {
+  margin-top: 0.25rem;
+}
+
+h1 {
+  margin: 0px;
+  font-size: var(--calcite-font-size-4);
+  line-height: 2.5rem;
+  font-weight: var(--calcite-font-weight-bold);
+  color: var(--calcite-color-text-1);
+}
+
+.telemetry-container {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 3rem;
+  grid-auto-columns: 1fr;
+}
+
+h2 {
+  margin: 0px;
+  font-weight: var(--calcite-font-weight-bold);
+  color: var(--calcite-color-text-1);
+}
+
+h2:not(:has(+ calcite-tabs)) {
+  margin-bottom: 1rem;
+}
+
+.chart {
+  height: 400px;
+}
+
+@media only screen and (max-width: 768px) {
+  .telemetry-container {
+    display: flex;
+  }
+  .telemetry-container {
+    flex-direction: column;
+  }
+
+  .header, .controls-container {
+    flex-direction: row;
+  }
+
+  .header, .controls-container {
+    flex-wrap: wrap;
+  }
+
+  .header, .controls-container {
+    gap: 1rem;
+  }
+}

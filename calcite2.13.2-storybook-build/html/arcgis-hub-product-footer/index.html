@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-product-footer</title>
+
+  <style>
+    .harness-header {
+      padding: 2rem 2rem 0 2rem;
+      display: flex;
+      justify-content: space-between;
+    }
+    .harness-note {
+      padding-left: 2rem;
+    }
+  </style>
+
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+  <link rel="stylesheet" href="../calcite-web.min.css">
+</head>
+
+<body>
+  <div class="grid-container padding-leader-2">
+    <calcite-shell>
+      <div class="harness-header trailer-2">
+        <calcite-button scale="l" href="/">Home</calcite-button>
+        <h2>arcgis-hub-product-footer</h2>
+      </div>
+      <div class="harness-note">
+        <i>Note: for visualization purposes in this harness, we've put the product footer inside the "footer" slot of the calcite-shell component</i>
+      </div>
+
+      <!-- PRODUCT FOOTER -->
+      <arcgis-hub-product-footer
+        slot="footer"
+        id="arcgis-hub-product-footer-harness"/>
+    </calcite-shell>
+  </div>
+</body>
+
+<script>
+// EVENT LISTENERS (logged to console for development purposes)
+document.addEventListener('hubTelemetry', evt => {
+  console.info('hubTelemetry:', evt.detail);
+});
+
+</script>
+</html>

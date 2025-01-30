@@ -1,0 +1,81 @@
+{
+  "tabTitle": "Конфигурация каналов",
+  "learn": "Более подробно о каналах Hub",
+  "loadingLabel": "Загрузка",
+  "enableFeedsToggle": {
+    "label": "Включить каналы",
+    "privateNotice": "Чтобы включить каналы, вам необходимо сначала установить для сайтов Hub параметр \"Общедоступный\".",
+    "emptyPublicCatalog": {
+      "message": "Чтобы включить каналы, вам необходимо сначала добавить общедоступные ресурсы в свой каталог.",
+      "button": "Просмотр Каталога"
+    },
+    "grouplessCatalog": {
+      "message": "Чтобы включить каналы, вам необходимо сначала настроить свой каталог.",
+      "button": "Настроить каталог"
+    }
+  },
+  "gettingStartedNotice": {
+    "title": "Начало работы",
+    "exampleMessage": "Выделите или обновите ключ или значение в редакторе JSON с помощью буквенного значения (\"VALUE\") или значения шаблона (\"{{TEMPLATE_VALUE}}\").",
+    "previewMessage": "Используйте переключатель Предварительный просмотр, чтобы увидеть ваши изменения. Для дополнительной информации ознакомьтесь со <catalogFederationLink>справочной документацией интеграции каталогов</catalogFederationLink>."
+  },
+  "aboutFeedsNotice": {
+    "message": "Сделайте ваши общедоступные открытые данные легко доступными и пригодными для многократного использования с помощью каналов Hub.",
+    "link": "Более подробно о каналах Hub"
+  },
+  "feedsEditorSection": {
+    "title": "Каналы",
+    "formatSelectLabel": "Выбор типа канала",
+    "uneditableAttributesIntro": "Обратите внимание, что следующие атрибуты не могут быть отредактированы:",
+    "edit": "Изменить",
+    "preview": "Предварительный просмотр",
+    "selectContentNotice": "Выберите ресурсы для предварительного просмотра.",
+    "invalidJsonEditorWarning": "Недопустимый JSON. Исправьте ошибки перед сохранением.",
+    "invalidJsonPreviewWarning": "Невозможно просмотреть недопустимый JSON. Исправьте ошибки.",
+    "errorPreviewingWarning": "Произошла ошибка. Проверьте соединение и повторите попытку. Если проблема сохраняется, пожалуйста, сообщите о ней в Поддержку Hub."
+  },
+  "toolsSection": {
+    "title": "Инструменты",
+    "verification": "Подтверждение",
+    "previewSampleData": {
+      "label": "Предварительный просмотр данных",
+      "pickerFacets": {
+        "type": "Тип",
+        "tags": "Тег",
+        "categories": "Категория",
+        "sharing": "Общий доступ",
+        "dateUpdated": "Дата обновления"
+      }
+    },
+    "copyableInputLabel": "URL-адрес для доступа к Каналам"
+  },
+  "dcat-us": {
+    "1.1": {
+      "title": "DCAT-US 1.1",
+      "description": "DCAT позволяет организациям стандартизировать предоставляемые данные и помогает людям анализировать их через федеральные источники. Вы можете использовать <dcatUsSchemaLink>схему DCAT</dcatUsSchemaLink> установленную Project Open Data, которая является конфигурацией по умолчанию, или вы можете настроить определенные поля/атрибуты самостоятельно. Администраторы сайта также могут добавить дополнительные конфигурации DCAT и, возможно, захотят ознакомиться с нашей документацией по <catalogFederationLink>объединению данных с DCAT и другими внешними каталогами.</catalogFederationLink>",
+      "uneditableAttributes": "@type, landingPage, webService и contactPoint['@type'].",
+      "verificationLabel": "Вы можете проверить канал DCAT, вставив URL-адрес DCAT вашего сайта в <dcatUsVerificationLink>Project Open Data's Validator</dcatUsVerificationLink>."
+    }
+  },
+  "dcat-ap": {
+    "2.1.1": {
+      "title": "DCAT-AP 2.1.1",
+      "description": "DCAT-AP, установленный Еврокомиссией, является стандартным форматом обмена метаданными в европейских каталогах данных. ArcGIS Hub автоматически создает и обновляет канал DCAT-AP вашего сайта, когда вы редактируете детали метаданных ваших ресурсов или добавляете новые общедоступные ресурсы в свой каталог. Поскольку канал использует метаданные, поддерживаемые в ArcGIS Online, нет необходимости вручную создавать отдельные метаданные DCAT-AP.<lineBreak></lineBreak><lineBreak></lineBreak>Используя этот редактор, вы можете сохранить конфигурацию <dcatApSchemaLink>схемы DCAT-AP</dcatApSchemaLink> ArcGIS Hub по умолчанию или самостоятельно настроить определенные поля/атрибуты. Вы также можете добавить поля/атрибуты DCAT-AP. Для получения дополнительной информации ознакомьтесь с документацией ArcGIS Hub по <catalogFederationLink>объединению данных с DCAT и другими внешними каталогами</catalogFederationLink>.",
+      "uneditableAttributes": "@type, @id, dcat:contactPoint['@id'], dcat:contactPoint['@type'], dct:publisher, dcat:theme, dct:accessRights, dcat:keyword, dct:provenance, dct:issued и dct:language.",
+      "verificationLabel": "Вы можете проверить канал DCAT, вставив URL-адрес DCAT вашего сайта на Тестовую площадку <dcatApVerificationLink>European Commission Interoperability</dcatApVerificationLink>."
+    }
+  },
+  "rss": {
+    "2.0": {
+      "title": "RSS 2.0",
+      "description": "<rssAboutLink>RSS 2</rssAboutLink> — это формат распространения веб-ресурсов, соответствующий <xmlSpecLink>спецификации XML 1.0</xmlSpecLink>. Используя этот редактор, вы можете сохранить конфигурацию по умолчанию ArcGIS Hub, или вы можете настроить определенные поля/атрибуты самостоятельно. Для получения дополнительной информации ознакомьтесь с документацией ArcGIS Hub по <catalogFederationLink>объединению данных с DCAT и другими внешними каталогами.</catalogFederationLink>",
+      "verificationLabel": "Вы можете проверить канал RSS, пройдя по ссылке URL RSS вашего сайта в <rssVerificationLink>Средство проверки канала</rssVerificationLink> W3."
+    }
+  },
+  "saveButton": "Сохранить",
+  "alertMessages": {
+    "success": "Изменения успешно сохранены",
+    "error": "Ошибка при сохранении изменений"
+  },
+  "formAlert": "Предупреждение формы"
+}

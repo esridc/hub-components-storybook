@@ -1,0 +1,19 @@
+{
+  "facets": {
+    "location": {
+      "label": "Asukoht",
+      "tooltip": "Rakenda kaardi ulatus asukohafiltrina"
+    },
+    "status": "Olek",
+    "tags": "Märksõnad",
+    "categories": "Kategooriad",
+    "dateUpdated": "Uuendamise kuupäev"
+  },
+  "status": {
+    "label": "Projekti olek",
+    "notStarted": "Alustamata",
+    "inProgress": "Pooleli",
+    "onHold": "Ootel",
+    "complete": "Valmis"
+  }
+}

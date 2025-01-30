@@ -1,0 +1,1 @@
+import{r as i,h as t,H as a}from"./p-df5fbfcb.js";const s=class{constructor(t){i(this,t),this.entity=void 0}render(){return t(a,null,t("arcgis-hub-entity-capability-pane",{capability:"initiatives",entity:this.entity}))}};export{s as arcgis_hub_initiatives_capability_pane}

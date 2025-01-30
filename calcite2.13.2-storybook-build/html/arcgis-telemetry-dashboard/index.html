@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-telemetry-dashboard</title>
+
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+  <link rel="stylesheet" href="../calcite-web.min.css">
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <!-- configure components to fetch the ArcGIS Maps SDK from the CDN -->
+  <!-- NOTE: you will need to add this to any story that uses arcgis-hub-chart -->
+  <script async src="https://ga.jspm.io/npm:es-module-shims@1.6.2/dist/es-module-shims.js"></script>
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+
+  <!-- load chart components -->
+  <!-- NOTE: you will need to add this to any story that uses arcgis-hub-chart -->
+  <link rel="stylesheet" href="../../arcgis-charts-components/arcgis-charts-components.css" />
+  <script type="module" src="../../arcgis-charts-components/arcgis-charts-components.esm.js"></script>
+  <!-- nomodule? -->
+
+  <!-- load hub components -->
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <script type="module" src="../../calcite/calcite.esm.js"></script>
+</head>
+
+<body>
+  <div class="grid-container padding-leader-2">
+    <!-- docs about grid container: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+    <div class="column-24 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-telemetry-dashboard</h2>
+    </div>
+
+    <div class="column-24">
+      <calcite-button onClick="signIn()">Sign In</calcite-button>
+      <calcite-button onClick="signOut()">Sign Out</calcite-button>
+      <div id="userinfo"></div></br></br>
+
+      <arcgis-app-identity client-id="EF9uxuFlOrgf7WpI"
+        redirect-uri="http://localhost:3333/html/redirect.html"
+        portal="https://qaext.arcgis.com">
+      </arcgis-app-identity>
+      <calcite-button id="toggle-enabled">Toggle Enabled</calcite-button>
+      <arcgis-telemetry-dashboard hostname="asheville-qa-pre-a-hub.hubqa.arcgis.com" dashboard-title="Telemetry!" hub-analytics-enabled show-subscriptions>
+      </arcgis-telemetry-dashboard>
+    </div>
+  </div>
+
+  <script>
+    const el = document.querySelector("arcgis-telemetry-dashboard");
+    // set a property on the element
+    function setProp(key, value) {
+      el[key] = value;
+    }
+
+    function showUserInfo(session) {
+      const el = document.getElementById('userinfo');
+      if (session) {
+        el.innerText = `User ${session.username} authenticated`;
+      } else {
+        el.innerText = 'No user authenticated';
+      }
+    }
+
+    function signIn() {
+      const evt = new CustomEvent('arcgisAppIdentityStartSignIn')
+      document.dispatchEvent(evt);
+    }
+    function signOut() {
+      const evt = new CustomEvent('arcgisAppIdentityStartSignOut')
+      document.dispatchEvent(evt);
+    }
+
+    document.addEventListener('arcgisAppIdentitySignedIn', (evt) => {
+      setProp('context', evt.detail);
+      showUserInfo(evt.detail.session);
+    });
+
+    document.addEventListener('arcgisAppIdentitySignedOut', (evt) => {
+      reportIds.forEach(id => setProp(id, 'context', evt.detail));
+      showUserInfo(evt.detail.session);
+    });
+
+    const telemetryDashboard = document.querySelector('arcgis-telemetry-dashboard');
+    document.querySelector('#toggle-enabled').addEventListener('click', _ => {
+      telemetryDashboard.hubAnalyticsEnabled = !telemetryDashboard.hubAnalyticsEnabled;
+    });
+
+    document.querySelector('arcgis-telemetry-dashboard').addEventListener('hubTelemetry', (e) => {
+      console.log('hubTelemetry', e.detail);
+    });
+
+  </script>
+</body>
+
+</html>

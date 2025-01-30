@@ -1,0 +1,165 @@
+{
+  "advancedConfig": {
+    "label": "高级配置",
+    "serverTimeout": {
+      "label": "服务器超时(秒)",
+      "helperText": "对于可能需要更多时间响应的大型服务非常有用。",
+      "errors": {
+        "type": "请输入服务器超时配置。",
+        "minimum": "服务器超时值必须至少为 5。",
+        "maximum": "服务器超时值不得超过 95。"
+      }
+    }
+  },
+  "appearance": {
+    "corners": {
+      "label": "角",
+      "enum": {
+        "round": {
+          "label": "圆形"
+        },
+        "square": {
+          "label": "正方形"
+        }
+      }
+    },
+    "dropShadow": {
+      "label": "下拉阴影",
+      "enum": {
+        "heavy": {
+          "label": "重"
+        },
+        "low": {
+          "label": "低"
+        },
+        "medium": {
+          "label": "中"
+        },
+        "none": {
+          "label": "未开始"
+        }
+      }
+    },
+    "layout": {
+      "label": "卡片样式",
+      "enum": {
+        "informational": {
+          "label": "信息"
+        },
+        "simple": {
+          "label": "简单"
+        }
+      }
+    },
+    "popoverText": {
+      "label": "模态内容"
+    },
+    "publisherText": {
+      "label": "源发布者"
+    },
+    "styleSpecificSettings": {
+      "label": "样式设置",
+      "helperInfoText": "选择信息按钮将打开一个包含更多信息的模态窗口。",
+      "helperVizText": "简单卡片支持添加图标作为视觉元素，可用于反映数据变化。"
+    },
+    "sectionTitle": "外观",
+    "textAlign": "对齐",
+    "visualInterest": {
+      "label": "视觉元素",
+      "enum": {
+        "icon": {
+          "label": "图标"
+        },
+        "none": {
+          "label": "无"
+        }
+      }
+    },
+    "icon": {
+      "label": "图标",
+      "caretUp": {
+        "label": "增大"
+      },
+      "caretDown": {
+        "label": "减小"
+      },
+      "caretDouble": {
+        "label": "无更改"
+      }
+    },
+    "valueColor": "颜色(统计数据)"
+  },
+  "details": {
+    "allowDynamicLink": "显示源链接",
+    "link": {
+      "sectionTitle": "链接",
+      "sourceLink": "链接 URL",
+      "sourceTitle": "链接文本"
+    },
+    "sectionTitle": "详细信息",
+    "subtitle": "子标题",
+    "title": "标题",
+    "trailingText": {
+      "label": "尾随文本",
+      "helperText": "输入任何附加上下文或解释(要显示在指标值下方)。"
+    }
+  },
+  "errors": {
+    "sourceLink": {
+      "required": "显示源所需的链接。",
+      "formatError": "URL 格式错误"
+    }
+  },
+  "formatting": {
+    "sectionTitle": "格式化",
+    "unit": {
+      "label": "显示单位",
+      "helperText": "输入您的值的计量单位。"
+    },
+    "unitPosition": {
+      "label": "放置",
+      "helperText": "选择测量单位(例如“km”、“lbs”)相对于指标值的显示位置。",
+      "enum": {
+        "after": {
+          "label": "之后"
+        },
+        "before": {
+          "label": "之前"
+        },
+        "below": {
+          "label": "下方"
+        }
+      }
+    }
+  },
+  "sharing": {
+    "sectionTitle": "共享",
+    "showShareIcon": "启用共享",
+    "showShareIconHelperText": "允许用户在此页面上复制该卡片的直接链接。",
+    "shareableByValue": "启用嵌入",
+    "shareableOnHover": {
+      "label": "悬停时显示",
+      "helperText": {
+        "label": "共享按钮仅在悬停时显示。 如果将其关闭，则按钮将始终可见。"
+      }
+    }
+  },
+  "statistic": {
+    "dataSource": "数据源",
+    "displayValue": "显示值",
+    "sectionTitle": "值",
+    "type": {
+      "label": "类型",
+      "enum": {
+        "dynamic": {
+          "label": "动态",
+          "description": "选择现有的数据集（要素服务）进行汇总。"
+        },
+        "static": {
+          "label": "静态",
+          "description": "手动输入要在布局中突出显示的值。"
+        }
+      }
+    }
+  }
+}

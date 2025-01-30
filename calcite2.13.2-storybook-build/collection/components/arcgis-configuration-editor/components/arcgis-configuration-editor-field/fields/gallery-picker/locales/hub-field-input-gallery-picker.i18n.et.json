@@ -1,0 +1,13 @@
+{
+  "selectItem": "Vali sisu",
+  "selectGroup": "Vali grupp",
+  "selectEvent": "Vali sündmus",
+  "remove": "eemalda",
+  "launch": "Ava",
+  "updatedDate": "Uuendatud {updatedDate}",
+  "memberCount": {
+    "noMember": "Liikmeid pole",
+    "oneMember": "1 liige",
+    "members": "{count} liiget"
+  }
+}

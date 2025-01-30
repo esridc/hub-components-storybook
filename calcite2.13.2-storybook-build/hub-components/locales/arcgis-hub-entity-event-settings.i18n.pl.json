@@ -1,0 +1,49 @@
+{
+  "settings": "Ustawienia",
+  "advanced": "Zaawansowane",
+  "delete": {
+    "event": "Usuń to zdarzenie",
+    "desc": "Operacji usunięcia tego zdarzenia nie można cofnąć. Zarejestrowane osoby zostaną powiadomione (jeśli włączono dla tego zdarzenia automatyczne powiadomienia).",
+    "deleteButton": "Usuń wydarzenie"
+  },
+  "cancel": {
+    "header": "Anuluj to zdarzenie",
+    "desc": "Jeśli to zdarzenie zostanie anulowane, będzie nadal widoczne ze statusem Anulowano. Rejestracja zostanie zatrzymana i zarejestrowane osoby zostaną powiadomione (jeśli włączono dla tego zdarzenia automatyczne powiadomienia).",
+    "event": "Anuluj wydarzenie",
+    "notice": {
+      "success": {
+        "title": "Anulowano wydarzenie",
+        "message": "Zarejestrowane osoby zostaną powiadomione, jeśli włączono automatyczne powiadomienia."
+      },
+      "error": {
+        "title": "Nie można anulować zdarzenia",
+        "message": "Spróbuj ponownie"
+      }
+    }
+  },
+  "enable": {
+    "event": "Włącz ponownie wydarzenie",
+    "desc": "Zdarzenie zostało anulowane (jest widoczne ze statusem Anulowano).",
+    "notice": {
+      "success": {
+        "title": "Zdarzenie zostało ponownie włączone",
+        "message": "Zarejestrowane osoby zostaną powiadomione, jeśli włączono automatyczne powiadomienia."
+      },
+      "error": {
+        "title": "Nie można ponownie włączyć zdarzenia",
+        "message": "Spróbuj ponownie"
+      }
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "event": "Usuń wydarzenie"
+    },
+    "content": "Czy na pewno chcesz usunąć:",
+    "delete": "Usuń wydarzenie",
+    "cancel": "Anuluj wydarzenie"
+  },
+  "notice": {
+    "label": "Alert dotyczący formularza"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "tabTitle": "Plūsmas konfigurācija",
+  "learn": "Uzzināt par Hub plūsmām",
+  "loadingLabel": "Ielādē",
+  "enableFeedsToggle": {
+    "label": "Iespējot plūsmas",
+    "privateNotice": "Lai iespējotu plūsmas, Jums vispirms iestatījumos Hub vietne ir jāiestata kā publiska.",
+    "emptyPublicCatalog": {
+      "message": "Lai iespējotu plūsmas, Jums vispirms savam katalogam ir jāpievieno publiski pieejams saturs.",
+      "button": "Skatīt katalogu"
+    },
+    "grouplessCatalog": {
+      "message": "Lai iespējotu plūsmas, Jums vispirms savs katalogs ir jākonfigurē.",
+      "button": "Konfigurēt katalogu"
+    }
+  },
+  "gettingStartedNotice": {
+    "title": "Sākt darbu!",
+    "exampleMessage": "Iezīmējiet un atjauniniet atslēgu vai vērtību JSON redaktorā, izmantojot (\"VALUE\") vai veidnes(\"{{TEMPLATE_VALUE}}\") vērtību.",
+    "previewMessage": "Izmantojiet “priekšskatījuma” pārslēdzēju, lai priekšskatītu izmaiņas. Papildinformāciju lasiet <catalogFederationLink>katalogu piesaistes palīdzības dokumentācijā</catalogFederationLink>."
+  },
+  "aboutFeedsNotice": {
+    "message": "Padariet publiski pieejamus datus viegli pieejamus un atkārtoti izmantojamus, izmantojot Hub plūsmas.",
+    "link": "Uzzināt par Hub plūsmām"
+  },
+  "feedsEditorSection": {
+    "title": "Plūsmas",
+    "formatSelectLabel": "Atlasīt plūsmas veidu",
+    "uneditableAttributesIntro": "Lūdzu, ņemiet vērā, ka šādus atribūtus nevar rediģēt:",
+    "edit": "Rediģēt",
+    "preview": "Priekšskatījums",
+    "selectContentNotice": "Atlasiet priekšskatāmo saturu.",
+    "invalidJsonEditorWarning": "Nederīgs JSON. Lūdzu, pirms saglabāšanas izlabojiet kļūdas.",
+    "invalidJsonPreviewWarning": "Nevar priekšskatīt nederīgu JSON, lūdzu, izlabojiet kļūdas",
+    "errorPreviewingWarning": "Ir radusies kļūda Lūdzu, pārbaudiet interneta savienojumu un mēģiniet vēlreiz. Ja problēma joprojām pastāv, lūdzu, reģistrējiet kļūdu, izmantojot Hub atbalstu."
+  },
+  "toolsSection": {
+    "title": "Rīki",
+    "verification": "Verifikācija",
+    "previewSampleData": {
+      "label": "Priekšskatīt parauga datus",
+      "pickerFacets": {
+        "type": "Veids",
+        "tags": "Atslēgvārds",
+        "categories": "Kategorija",
+        "sharing": "Koplietošana",
+        "dateUpdated": "Atjaunināšanas datums"
+      }
+    },
+    "copyableInputLabel": "Plūsmas piekļuves vietrādis (URL)"
+  },
+  "dcat-us": {
+    "1.1": {
+      "title": "DCAT-US 1.1",
+      "description": "DCAT ļauj organizācijām standartizēt sniegtos datus un palīdz veikt federālo avotu parsēšanu. Jūs varat izmantot <dcatUsSchemaLink>DCAT shēmu</dcatUsSchemaLink>, ko nodrošina Project Open Data, kas ir noklusējuma konfigurācija, vai arī variet konfigurēt konkrētus laukus/atribūtus patstāvīgi. Vietnes administratori var pievienot arī papildu DCAT konfigurācijas un lasīt mūsu dokumentāciju par datu <catalogFederationLink>integrēšanu ar DCAT un citiem ārējiem katalogiem.</catalogFederationLink>",
+      "uneditableAttributes": "@type, landingPage, webService un contactPoint['@type'].",
+      "verificationLabel": "Jūs varat pārbaudīt savu DCAT plūsmu, ielīmējot savas vietnes DCAT vietrādi (URL) <dcatUsVerificationLink>Projekta atvērto datu validētājā (Project Open Data's Validator)</dcatUsVerificationLink>."
+    }
+  },
+  "dcat-ap": {
+    "2.1.1": {
+      "title": "DCAT-AP 2.1.1",
+      "description": "Eiropas Komisijas izveidotais DCAT-AP ir standarta metadatu apmaiņas formāts Eiropas datu katalogos. ArcGIS Hub automātiski izveido un atjaunina jūsu vietnes DCAT-AP plūsmu, kad rediģējat satura metadatu infomāciju vai pievienojat katalogam jaunu publisku saturu. Tā kā plūsma izmanto ArcGIS Online uzturētos metadatus, nav nepieciešams manuāli veidot atsevišķus DCAT-AP metadatus.<lineBreak></lineBreak><lineBreak></lineBreak>Izmantojot šo redaktoru, varat paturēt ArcGIS Hub noklusējuma konfigurācijas <dcatApSchemaLink>DCAT-AP shēmu</dcatApSchemaLink>, vai arī Jūs varat konfigurēt noteiktus laukus/atribūtus. Varat pievienot arī DCAT-AP laukus/atribūtus. Plašāku informāciju skatiet ArcGIS Hub dokumentācijā par <catalogFederationLink>datu apvienošanu ar DCAT un citiem ārējiem katalogiem</catalogFederationLink>.",
+      "uneditableAttributes": "@type, @id, dcat:contactPoint['@id'], dcat:contactPoint['@type'], dct:publisher, dcat:theme, dct:accessRights, dcat:keyword, dct:provenance, dct:issued, and dct:language",
+      "verificationLabel": "Jūs varat pārbaudīt savu DCAT plūsmu, ielīmējot savas vietnes DCAT vietrādi (URL) <dcatApVerificationLink>Eiropas Komisijas sadarbspējas testa stendā (European Commission Interoperability Test Bed)</dcatApVerificationLink>."
+    }
+  },
+  "rss": {
+    "2.0": {
+      "title": "RSS 2.0",
+      "description": "<rssAboutLink>RSS 2</rssAboutLink> ir tīmekļa satura sindicēšanas formāts un atbilst <xmlSpecLink>XML 1.0 specifikācijai</xmlSpecLink>. Izmantojot šo redaktoru, varat saglabāt ArcGIS Hub noklusējuma konfigurāciju, vai arī konfigurējiet konkrētus laukus/atribūtus patstāvīgi. Plašāku informāciju skatiet ArcGIS Hub dokumentācijā par <catalogFederationLink>datu apvienošanu ar DCAT un citiem ārējiem katalogiem.</catalogFederationLink>",
+      "verificationLabel": "Varat verificēt savu RSS plūsmu, nododot savas vietnes RSS vietrādi (URL) W3 <rssVerificationLink>Plūsmas validētājam</rssVerificationLink>."
+    }
+  },
+  "saveButton": "Saglabāt",
+  "alertMessages": {
+    "success": "Sekmīgi saglabāti labojumi",
+    "error": "Kļūda, saglabājot labojumus"
+  },
+  "formAlert": "Veidlapas brīdinājums"
+}

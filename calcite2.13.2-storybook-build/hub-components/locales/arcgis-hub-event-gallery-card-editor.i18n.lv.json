@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "Kategorijas",
+        "noCategoriesNotice": {
+          "body": "Šai organizācijai vēl nav nevienas kategorijas.",
+          "link": "Iestatīt kategorijas."
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "Saturs",
+      "selectionMode": {
+        "dynamic": {
+          "label": "Dinamisks"
+        },
+        "manual": {
+          "label": "Manuāli"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "Organizācija"
+        },
+        "collection": {
+          "sites": "Vietnes",
+          "projects": "Projekti",
+          "initiatives": "Iniciatīvas"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "Organizācija"
+        },
+        "collection": {
+          "events": "Pasākumi"
+        }
+      },
+      "access": {
+        "label": "Koplietošana",
+        "private": {
+          "label": "Privāts",
+          "description": "Filtrēšana pēc satura ir pieejama tikai jums un personām, kurām ir grupas piekļuve."
+        },
+        "org": {
+          "label": "Organizācija",
+          "description": "Filtrēšana pēc satura ir pieejama tikai jūsu organizācijas dalībniekiem."
+        },
+        "public": {
+          "label": "Publisks",
+          "description": "Filtrēšana pēc satura ir pieejama visiem."
+        }
+      },
+      "tags": {
+        "label": "Atslēgvārdi"
+      },
+      "cardsShown": {
+        "label": "Parādītās kartītes"
+      }
+    },
+    "appearance": {
+      "label": "Izskats",
+      "titleHeading": {
+        "label": "Virsraksts",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "Katram WCAG G141 ligzdotie virsraksti uzlabo pieejamību."
+      },
+      "corners": {
+        "label": "Stūri",
+        "square": {
+          "label": "Kvadrātveida"
+        },
+        "round": {
+          "label": "Apaļš"
+        }
+      },
+      "shadow": {
+        "label": "Ēna",
+        "none": {
+          "label": "Izslēgts"
+        },
+        "low": {
+          "label": "Zems"
+        },
+        "medium": {
+          "label": "Vidējs"
+        },
+        "heavy": {
+          "label": "Biezs"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "Rādīt papildinformāciju"
+      },
+      "layout": {
+        "label": "Izkārtojums",
+        "list": {
+          "label": "Saraksts"
+        },
+        "map": {
+          "label": "Karte"
+        },
+        "calendar": {
+          "label": "Kalendārs"
+        }
+      }
+    },
+    "options": {
+      "label": "Opcijas",
+      "openIn": {
+        "label": "Atvērt, izmantojot...",
+        "same": {
+          "label": "Tā pati cilne"
+        },
+        "new": {
+          "label": "Jauna cilne"
+        },
+        "notice": {
+          "title": "Pieejamības ieteikums:",
+          "body": "WCAG 2.0 G200 tehnika, saišu atvēršana jaunās cilnēs vai logos nav ieteicama.",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "Lasīt vairāk par WCAG 2.0 G200"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "Koplietošana",
+      "public": {
+        "label": "Publisks"
+      },
+      "private": {
+        "label": "Privāts"
+      },
+      "organization": {
+        "label": "Organizācija"
+      }
+    },
+    "from": {
+      "label": "No",
+      "myOrganization": {
+        "label": "Mana organizācija"
+      },
+      "myContent": {
+        "label": "Mans saturs"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "Pasākumi",
+      "collections": {
+        "event": {
+          "label": "Pasākumi"
+        }
+      }
+    },
+    "item": {
+      "label": "Saturs",
+      "collections": {
+        "item": {
+          "label": "Saturs"
+        }
+      }
+    }
+  }
+}

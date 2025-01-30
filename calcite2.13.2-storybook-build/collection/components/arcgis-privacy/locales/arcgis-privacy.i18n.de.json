@@ -1,0 +1,41 @@
+{
+  "managePrivacyButton": "Datenschutz verwalten",
+  "consentNotice": {
+    "allTracking": "Diese Site wurde mit ArcGIS Hub erstellt. In Übereinstimmung mit den Datenschutzbestimmungen von Esri erfolgt ein anonymes Tracking Ihrer Aktivitäten, um die Performance zu verbessern und die Site-Nutzung zu analysieren. Ihre Nutzung der Site wird möglicherweise durch zusätzliche Tracking-Systeme Dritter überwacht.",
+    "anonymousTracking": "Diese Site wurde mit ArcGIS Hub erstellt. In Übereinstimmung mit den Datenschutzbestimmungen von Esri erfolgt ein anonymes Tracking Ihrer Aktivitäten, um die Performance zu verbessern und die Site-Nutzung zu analysieren.",
+    "noTracking": "Diese Site wurde mit ArcGIS Hub erstellt. Es werden nur Cookies verwendet, die für das Funktionieren der Anwendung erforderlich sind und in unseren Systemen nicht deaktiviert werden können.",
+    "thirdPartyTracking": "Diese Site wurde mit ArcGIS Hub erstellt. Es werden nur Cookies verwendet, die für das Funktionieren der Anwendung erforderlich sind und in unseren Systemen nicht deaktiviert werden können. Ihre Nutzung der Site wird möglicherweise durch zusätzliche Tracking-Systeme Dritter überwacht."
+  },
+  "consent": {
+    "esriPrivacyLink": "Esri Datenschutz-Center",
+    "customerConsentLink": "Weitere Informationen"
+  },
+  "eueiNotice": {
+    "title": "Mitglieder von {orgName} werden nicht getrackt.",
+    "message": "Das Esri Programm zur Verbesserung der Benutzerfreundlichkeit (EUEI) wurde für {orgName} deaktiviert. Aktivitäten im Zusammenhang mit Ihrem Besuch werden nicht getrackt. Sie können anonymen Nutzungsstatistiken oder dem Tracking durch Dritte nicht zustimmen.",
+    "link": "Weitere Informationen zum EUEI-Programm"
+  },
+  "notice": {
+    "heading": "Datenschutzeinstellungen",
+    "acceptAllButton": "Alle Cookies akzeptieren",
+    "acceptNecessaryButton": "Nur erforderliche Cookies akzeptieren",
+    "confirmButton": "Bestätigen",
+    "reviewSettingsButton": "Einstellungen überprüfen"
+  },
+  "settings": {
+    "heading": "Datenschutzeinstellungen",
+    "confirmButton": "Bestätigen"
+  },
+  "anonymous": {
+    "heading": "Anonyme Nutzungsstatistiken",
+    "helpText": "Diese Cookies ermöglichen das Überwachen der Anwendungsperformance, z. B. der Datenverkehrsquellen, Seitenaufrufe und Interaktionen. Dadurch können wir feststellen, welche Inhalte wirksam sind und wie die Besucher in der Anwendung navigieren. Alle Informationen werden anonym erfasst (es werden keine personenbezogenen Daten gespeichert). Wenn Sie diese Cookies nicht zulassen, können wir nicht wissen, wann Sie unsere Anwendung aufgerufen oder mit ihr interagiert haben."
+  },
+  "necessary": {
+    "heading": "Unbedingt erforderliche Cookies",
+    "helpText": "Diese Cookies sind für das Funktionieren der Anwendung erforderlich und können in unseren Systemen nicht deaktiviert werden. Sie werden als Reaktion auf von Ihnen gestellte Serviceanfragen gesetzt, z. B. beim Anmelden bei Ihrem Konto. Sie können Ihren Browser so einstellen, dass diese Cookies blockiert oder Sie über diese Cookies benachrichtigt werden. Einige Bereiche der Anwendung funktionieren dann aber möglicherweise nicht. Alle Informationen werden anonym erfasst (es werden keine personenbezogenen Daten gespeichert)."
+  },
+  "thirdParty": {
+    "heading": "Tracking durch Dritte",
+    "helpText": "Diese Cookies werden möglicherweise von in diese Website integrierten Drittanbieter-Services zum Tracken gesetzt. Sie sammeln bei Ihrem Besuch der Website ggf. Daten über Sie für zielgerichtete Werbung oder andere Marketingzwecke. Die gesammelten Informationen werden möglicherweise für andere Zwecke als für diese Anwendung verwendet. Wenn Sie diese Cookies nicht zulassen, erhalten die Drittanbieter der Tracking-Cookies keine Informationen über Ihren Websitebesuch."
+  }
+}

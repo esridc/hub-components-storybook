@@ -1,0 +1,178 @@
+{
+  "projectsTitle": "Projektit",
+  "description": "Liitä osallistuviin projekteihin, jotta voit seurata edistymistä tietyn ajan tai tietyssä tilassa. Aloitteen liitosryhmä hallinnoi vahvistettuja liitoksia ja odottavia liitospyyntöjä.",
+  "subDescription": "Projektit, joihin liittyy vahvistettuja liitoksia, näkyvät tässä aloitteen näkymässä.",
+  "project": "projekti",
+  "initiative": "aloite",
+  "helpStates": {
+    "noAccess": {
+      "heading": "Ei pääsyä",
+      "message": "Sinulla ei ole oikeutta tarkastella liitosryhmää."
+    },
+    "missingGroup": {
+      "heading": "Liitosryhmä puuttuu",
+      "message": {
+        "overview": "Liitosryhmä valvoo sitä, mitkä projektit linkittyvät ja raportoivat aloitteelle.",
+        "members": "Tämän ryhmän jäsenet voivat lähettää ja hyväksyä liitoskutsuja."
+      },
+      "action": "Luo ryhmä",
+      "formLabel": "Uusi liitosryhmä",
+      "description": "Luo liitosryhmä, jotta voit hallita yhteyksiä"
+    },
+    "requestsWaiting": {
+      "heading": "Liitosryhmä puuttuu",
+      "message": {
+        "overview": "Liitosryhmä valvoo sitä, mitkä projektit linkittyvät ja raportoivat aloitteelle.",
+        "members": "Tämän ryhmän jäsenet voivat lähettää ja hyväksyä liitoskutsuja.",
+        "requests": "Odottavat projektipyynnöt: {count}"
+      },
+      "action": "Luo ryhmä",
+      "formLabel": "Uusi liitosryhmä",
+      "description": "Luo liitosryhmä, jotta voit hallita yhteyksiä"
+    }
+  },
+  "shared": {
+    "project": "projekti",
+    "associationGroup": "liitosryhmä",
+    "error": {
+      "title": "Tapahtui virhe",
+      "message": "Sinulla ei ole ehkä riittäviä oikeuksia lähettää tai hallita liitosta kohteen {type} kanssa."
+    },
+    "facets": {
+      "access": {
+        "label": "Jakaminen"
+      },
+      "status": {
+        "label": "Tila",
+        "notStarted": "Ei aloitettu",
+        "inProgress": "Meneillään",
+        "onHold": "Pidossa",
+        "complete": "Valmis"
+      },
+      "tags": {
+        "label": "Tunnisteet"
+      }
+    },
+    "tabs": {
+      "projects": "Projektit",
+      "members": "Jäsenet",
+      "settings": "Asetukset"
+    },
+    "disabledActionTooltip": "Vain ryhmän hallinnoijat voivat hallita liitosta kohteen {type} kanssa."
+  },
+  "createAssociationGroup": {
+    "defaultSummary": "Hallitse kohteeseen {name} {type} liitettyjä kohteita käyttämällä liitosryhmää."
+  },
+  "members": {
+    "facets": {
+      "role": {
+        "label": "Rooli",
+        "all": "Kaikki",
+        "manager": "Hallinnoija",
+        "member": "Jäsen"
+      },
+      "dateJoined": {
+        "label": "Liittymispäivä"
+      }
+    },
+    "addMembers": {
+      "button": "Lisää jäseniä",
+      "modal": {
+        "title": "Lisää jäseniä",
+        "org": "Oma organisaatio",
+        "community": "Oma yhteisö",
+        "partner": "Omat kumppanit",
+        "world": "Maailma"
+      },
+      "notifications": {
+        "invited": "Kutsu on lähetetty. Käyttäjien on hyväksyttävä liittymistä varten",
+        "added": "Käyttäjät liitetty",
+        "notInvited": "Joidenkin jäsenten käyttöoikeudet eivät riitä ryhmään liittymiseen tai ryhmän enimmäismäärä (512) on täyttynyt"
+      }
+    },
+    "removeUsers": {
+      "button": "Poista",
+      "success": "Jäsenten poisto ryhmästä {groupName} onnistui.",
+      "error": "Vähintään yhtä käyttäjää ei voitu poistaa ryhmästä."
+    },
+    "changeRole": {
+      "button": "Vaihda rooli",
+      "member": "Jäsen",
+      "memberHelperText": "Voi lisätä sisältöä ryhmään ja katsoa ryhmän sisältöä.",
+      "tooltipText": "Poista itsesi tai ryhmän omistajan valinta",
+      "tooltipLabel": "Roolin vastuuvapauslauseke",
+      "admin": "Hallinnoija",
+      "adminHelperText": "Voi lisätä tai poistaa sisältöä ja kutsua tai poistaa ihmisiä (paitsi omistajan).",
+      "success": "Valituista jäsenistä tuli ryhmä {role}.",
+      "error": "Vähintään yhden jäsenen roolia ei voitu vaihtaa."
+    },
+    "stats": {
+      "total": {
+        "title": "Yhteensä",
+        "trailingText": "Jäsenet"
+      },
+      "new": {
+        "title": "Uusi",
+        "trailingText": "Edelliset 30 päivää"
+      }
+    }
+  },
+  "projects": {
+    "requestAssociation": {
+      "findProjects": "Etsi projekteja",
+      "sendRequest": "Lähetä pyyntö",
+      "success": {
+        "title": "Onnistui",
+        "message": "Liitospyyntöjä lähetetty: {count}"
+      },
+      "alreadyRequesting": {
+        "title": "Tarkista liitokset",
+        "message": "Joillain valinnoilla on jo pyydetty liitos. Uusia liitospyyntöjä lähetetty: {count}"
+      },
+      "catalog": {
+        "myContent": "Oma sisältö",
+        "favorites": "Suosikit",
+        "organization": "Organisaatio",
+        "world": "Kaikille (julkinen)"
+      },
+      "collection": {
+        "projects": "Projektit"
+      }
+    },
+    "acceptAssociation": {
+      "label": "Hyväksy",
+      "success": {
+        "title": "Onnistui",
+        "message": "Liitos on hyväksytty kohteeseen {requestor}"
+      }
+    },
+    "cancelRequest": {
+      "label": "Peruuta pyyntö",
+      "success": {
+        "title": "Onnistui",
+        "message": "Liitospyyntö on peruutettu"
+      }
+    },
+    "breakAssociation": {
+      "label": "Katkaise",
+      "success": {
+        "title": "Liitos katkaistu",
+        "message": "Tämä kohteen yhteys sen aiempaan liitokseen on katkaistu. Emme voi kuitenkaan muuttaa toisen puolen päätöstä, joten näet sen mahdollisesti edelleen saapuvissa pyynnöissä."
+      }
+    },
+    "associationsGallery": {
+      "sources": "Tila",
+      "catalog": {
+        "associated": "Liitetty",
+        "requesting": "Saapuvat pyynnöt",
+        "pending": "Lähtevät pyynnöt"
+      },
+      "collection": {
+        "projects": "Projektit"
+      }
+    }
+  },
+  "notice": {
+    "label": "Lomakevaroitus"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "フィーチャ コレクション",
+    "fgdb": "ファイル ジオデータベース",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "シェープファイル",
+    "sqlite": "SQLite ジオデータベース"
+  },
+  "buttonText": {
+    "download": "ダウンロード",
+    "pending": "保留中",
+    "processing": "処理中",
+    "converting": "変換中",
+    "completed": "ダウンロードが完了しました",
+    "failed": "ダウンロードに失敗しました"
+  },
+  "errors": {
+    "errorHeading": "エラー"
+  },
+  "cacheStatusAccordion": {
+    "heading": "必要なものを検索しますか？",
+    "content": "新しいバージョンを利用できる可能性があります。",
+    "button": "新しいファイルのリクエスト"
+  },
+  "generateNewModal": {
+    "heading": "確認",
+    "content": "この処理にはしばらく時間がかかります。 ダウンロードが完了するまで、このブラウザー タブをアクティブなままにしてください。",
+    "confirmButton": "はい",
+    "cancelButton": "キャンセル"
+  }
+}

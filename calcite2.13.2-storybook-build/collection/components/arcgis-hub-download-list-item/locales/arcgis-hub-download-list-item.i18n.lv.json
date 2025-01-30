@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "Elementu kolekcija",
+    "fgdb": "Faila ģeodatubāze",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Shape fails",
+    "sqlite": "SQLite ģeodatubāze"
+  },
+  "buttonText": {
+    "download": "Lejupielāde",
+    "pending": "Gaida",
+    "processing": "Apstrādā",
+    "converting": "Konvertē",
+    "completed": "Lejupielāde pabeigta",
+    "failed": "Lejupielāde neizdevās"
+  },
+  "errors": {
+    "errorHeading": "Kļūda"
+  },
+  "cacheStatusAccordion": {
+    "heading": "Vai atradāt nepieciešamo?",
+    "content": "Var būt pieejamāka jaunāka versija.",
+    "button": "Pieprasīt jaunu failu"
+  },
+  "generateNewModal": {
+    "heading": "Vai esat pārliecināts?",
+    "content": "Tas var aizņemt kādu laiku. Lūdzu, turiet šo pārlūka cilni aktīvu līdz lejupielādes beigām.",
+    "confirmButton": "Jā",
+    "cancelButton": "Atcelt"
+  }
+}

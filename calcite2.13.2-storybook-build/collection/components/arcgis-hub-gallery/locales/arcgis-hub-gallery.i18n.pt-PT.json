@@ -1,0 +1,91 @@
+{
+  "moreResults": "Mais resultados",
+  "search": "Pesquisar",
+  "filter": "Filtros",
+  "viewResults": "Ver resultados ({numResults})",
+  "resultsCount": "1 - {pageTotal} de {searchTotal}",
+  "backToTop": "Voltar ao topo",
+  "facets": {
+    "access": {
+      "label": "Partilha",
+      "private": "Eu",
+      "shared": "Proprietário e grupos",
+      "org": "Organização",
+      "public": "Público"
+    },
+    "license": {
+      "label": "Licença",
+      "tooltip": "Apenas em conteúdo público",
+      "custom": "Personalizar",
+      "none": "Nenhum"
+    },
+    "type": {
+      "label": "Tipo"
+    },
+    "tags": {
+      "label": "Palavras-chave"
+    },
+    "dateUpdated": {
+      "label": "Data de atualização"
+    },
+    "source": {
+      "label": "Fonte",
+      "tooltip": "Conteúdo público de diferentes organizações"
+    },
+    "categories": {
+      "label": "Categorias"
+    },
+    "location": {
+      "label": "Localização",
+      "tooltip": "Aplicar a extensão do mapa como um filtro de localização"
+    },
+    "event": {
+      "from": {
+        "label": "Propriedade",
+        "myContent": "Eu",
+        "myOrganization": "A Minha Organização",
+        "world": "Qualquer pessoa"
+      },
+      "access": {
+        "label": "Acesso",
+        "private": "Privado",
+        "org": "Organização",
+        "public": "Público"
+      },
+      "startDate": {
+        "label": "Data do evento"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "Tipo",
+        "all": "Tudo",
+        "view": "Ver",
+        "edit": "Editar"
+      },
+      "role": {
+        "label": "Função",
+        "all": "Tudo",
+        "member": "Membro",
+        "manager": "Gestor",
+        "owner": "Proprietário"
+      },
+      "sharing": {
+        "label": "Visibilidade",
+        "private": "Privado",
+        "public": "Público"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "Exibir lista",
+    "grid": "Exibir grelha",
+    "map": "Exibir mapa",
+    "compact": "Exibir compacto",
+    "calendar": "Exibir calendário",
+    "table": "Exibir tabela"
+  },
+  "galleryActionsLabel": "Ações adicionais",
+  "selected": "Selecionado: {count}",
+  "popoverActionButtonLabel": "mais ações"
+}

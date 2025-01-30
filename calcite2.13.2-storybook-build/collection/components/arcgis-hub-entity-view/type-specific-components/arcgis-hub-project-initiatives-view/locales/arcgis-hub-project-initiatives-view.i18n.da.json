@@ -1,0 +1,19 @@
+{
+  "facets": {
+    "location": {
+      "label": "Position",
+      "tooltip": "Anvend kortudstrækningen som et positionsfilter"
+    },
+    "status": "Status",
+    "tags": "Nøgleord",
+    "categories": "Kategorier",
+    "dateUpdated": "Dato for opdatering"
+  },
+  "status": {
+    "label": "Projektstatus",
+    "notStarted": "Ikke startet",
+    "inProgress": "I gang",
+    "onHold": "På pause",
+    "complete": "Afsluttet"
+  }
+}

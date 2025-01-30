@@ -1,0 +1,39 @@
+{
+  "popover": {
+    "access": {
+      "org": "Dibagikan ke organisasi",
+      "private": "Dibagikan kepada pemilik",
+      "public": "Dibagikan ke publik",
+      "shared": "Dibagikan kepada pemilik dan grup"
+    },
+    "editLayout": "Edit tata letak",
+    "lastUpdated": "Terakhir diperbarui {updated}",
+    "viewSite": "Lihat situs"
+  },
+  "cloneLayoutLabel": "Tata letak klon",
+  "deleteDraftLabel": "Hapus draf",
+  "deletePageLabel": "Hapus halaman",
+  "deleteSiteLabel": "Hapus situs",
+  "editInAgoLabel": "Edit di ArcGIS Online",
+  "managePage": "Kelola halaman",
+  "manageSite": "Kelola situs",
+  "manageTemplate": "Kelola template",
+  "moreOptionsLabel": "Opsi lainnya",
+  "publishLabel": {
+    "site": "Publikasikan tata letak",
+    "page": "Publikasikan tata letak",
+    "survey": "Publikasikan"
+  },
+  "saveAsTemplateLabel": "Simpan sebagai template",
+  "saveLabel": {
+    "site": "Simpan tata letak",
+    "page": "Simpan tata letak",
+    "survey": "Simpan",
+    "template": "Simpan"
+  },
+  "sharingLabel": "Buka panel berbagi",
+  "editS123Label": "Edit di Survey123",
+  "viewLabel": "Lihat",
+  "viewPublishedLabel": "Lihat yang dipublikasikan",
+  "viewUnpublishedLabel": "Lihat draf"
+}

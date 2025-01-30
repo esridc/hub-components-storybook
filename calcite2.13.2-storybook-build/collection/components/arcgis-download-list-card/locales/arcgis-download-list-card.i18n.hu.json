@@ -1,0 +1,13 @@
+{
+  "csv": "CSV",
+  "shapefile": "Shapefile",
+  "sqlite": "SQLite geoadatbázis",
+  "geoPackage": "GeoPackage",
+  "filegdb": "Fájl-geoadatbázis",
+  "featureCollection": "Vektoros gyűjtemény",
+  "geojson": "GeoJSON",
+  "excel": "Excel",
+  "json": "JSON",
+  "createReplicaErrorMessage": "Belső hiba a replika létrehozása közben. Kérjük, próbálja meg újra egy óra múlva, vagy lépjen kapcsolatba a tartalomkezelővel.",
+  "errorHeader": "A letöltést nem sikerült befejezni. Próbálja meg újra."
+}

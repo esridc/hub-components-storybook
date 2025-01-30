@@ -1,0 +1,150 @@
+{
+  "modal": {
+    "dismiss": "Ära seda uuesti kuva",
+    "close": "Sule"
+  },
+  "notice": {
+    "n001": {
+      "title": "Testteade",
+      "message": "See on testteate sisu",
+      "actions": [
+        {
+          "text": "Lugege blogi"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-1": {
+      "title": "Lülitu uuele allalaadimisfunktsioonile",
+      "message": "Täiendavate vormingute ning kiiruse ja jõudluse parandamiseks lubage selle üksuse teenuses \"ekstraktimine\"."
+    },
+    "20240220-hosted-downloads-2": {
+      "title": "Allalaadimise täiustused on kohal!",
+      "message": "Allalaadimiste täiustused teie Hubi saitidel hõlmavad majutatud allalaadimiste tuge, allalaadimiskaartide värskendatud ilmet ja stiili ning uut edenemisriba allalaadimiste jaoks.",
+      "actions": [
+        {
+          "text": "Lisateave"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-3": {
+      "title": "Majutatud allalaadimised on kohal!",
+      "message": "Majutatud allalaadimised aitavad suurendada jõudlust sisu allalaadimisel. Majutatud allalaadimiste lubamiseks lubage allpool kindlasti ekstraktimisvõimalused.",
+      "actions": [
+        {
+          "text": "Lisateave"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-basic": {
+      "title": "Teave tööruumide kohta",
+      "message": "<p><strong>Lisage gruppide abil sisu saidi kataloogidesse</strong><br>Saidi otsingukataloogid on alati põhinenud gruppidel ja tööruumid hõlbustavad nende gruppide haldamist. Praegu lisage sisu üksikutesse teie saidiga ühendatud gruppidesse, et need ilmuksid saidi kataloogi. Peagi saate oma kataloogi lisada sisu otse.</p><p><strong>Üleminek töörühmadelt gruppidele</strong><br>Nüüd saate kasutada mistahes ArcGIS Online'i gruppi, et teha koostööd Hubis olevate saitide, lehtede, sisu ja projektide osas. Kõik varem lingitud „töörühmad“, näiteks „põhitöörühm“, kuvatakse siiski saidi tööruumi paanil Kaastöötajad.</p><p><strong>Töörühmapõhine meilisõnumside on ajutiselt peatatud</strong><br>Meilisõnumite ja kutse-/eemaldamismeilide saatmist töörühma liikmetele ja jälgijatele praegu ei toetata.</p><p><strong>Manustatud Survey123 veebisaidikujundaja kasutuselt kõrvaldamine</strong><br>Lisasime Survey 123 kujundaja, et aidata teil Hubis saavutada senisest rohkem. Ent klientide tagasiside näitas, et küsitlusi eelistatakse kujundada ja hallata Survey123 keskkonnas, sarnaselt muudele rakendustele. Seetõttu eemaldame ArcGIS Hubist Survey123 kujundaja toe, et see sobiks paremini teie soovitud töövooga.</p>",
+      "actions": [
+        {
+          "text": "Lisateave"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-premium": {
+      "title": "Teave tööruumide kohta",
+      "message": "<p><strong>Lisage gruppide abil sisu saidi kataloogidesse</strong><br>Saidi otsingukataloogid on alati põhinenud gruppidel ja tööruumid hõlbustavad nende gruppide haldamist. Praegu lisage sisu üksikutesse teie saidiga ühendatud gruppidesse, et need ilmuksid saidi kataloogi. Peagi saate oma kataloogi lisada sisu otse.</p><p><strong>Üleminek tugitöörühmadelt gruppidele</strong><br>Nüüd saate kasutada mistahes ArcGIS Online'i gruppi, et teha koostööd Hubis olevate saitide, lehtede, sisu ja projektide osas. Kõik varem lingitud tugitöörühmad kuvatakse ka edaspidi saidi tööruumi paanil Kaastöötajad. Jätkuva toe saamiseks lisage need tugitöörühmad gruppidena, kes saavad vaadata, ja gruppidena, kes saavad muuta.</p><p><strong>Töörühmapõhine meilisõnumside on ajutiselt peatatud</strong><br>Meilisõnumite ja kutse-/eemaldamismeilide saatmist töörühma liikmetele ja jälgijatele praegu ei toetata.</p><p><strong>Manustatud Survey123 veebisaidikujundaja kasutuselt kõrvaldamine</strong><br>Manustasime Survey123 kujundaja, et aidata teil Hubis saavutada senisest rohkem. Ent klientide tagasiside näitas, et küsitlusi eelistatakse kujundada ja hallata Survey123 keskkonnas, sarnaselt muudele rakendustele. Seetõttu eemaldame ArcGIS Hubist manustatud Survey123 kujundaja toe, et see sobiks paremini teie soovitud töövooga.</p><p><strong>Sündmused ei ole veel tööruumides saadaval</strong><br>Sündmused läbivad ümberkujundamise ja tehakse varsti tööruumides kättesaadavaks. Kui otsustate praegu tööruumide kasuks, siis kaotate võimaluse luua uusi sündmusi, hallata ja otsida olemasolevaid sündmusi. Kui siiski soovite hallata eelnevalt loodud sündmusi, saate igal ajal loobuda.</p>",
+      "actions": [
+        {
+          "text": "Lisateave"
+        }
+      ]
+    },
+    "202404-workspaceannouncement": {
+      "title": "Tööruumide tutvustus",
+      "message": "Tööruumid on uus viis üksuste redigeerimiseks ja haldamiseks Hubis ning asendab globaalse navigeerimise redigeerimisvaates (mitte reaalajavaates). Selles faasis saate \"lubada\" (igal ajal) tööruumide ja sellega seostatud funktsioonide kasutamise üksuste ja gruppide puhul. Sündmused tehakse kättesaadavaks hilisemas faasis. Tööruumide kohe proovimiseks valige \"Ava seaded\".",
+      "actions": [
+        {
+          "text": "Ava seaded"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing": {
+      "title": "Uuendus — Hubi algatused",
+      "message": "ArcGIS Hubi algatusi muudeti 2. juulil 2024. Varem loodud algatused on nüüd iseseisvad saidid samade kujunduste, sisu, URL-ide ja lisafunktsioonidega (nagu jälgijad ja sündmused) kui varem. Uute värskendatud algatuste proovimiseks peate lubama tööruumid.",
+      "actions": [
+        {
+          "text": "Teave algatuste kohta",
+          "ariaLabel": "Teave algatuste kohta, avaneb uuel vahekaardil"
+        },
+        {
+          "text": "Ava seaded"
+        }
+      ]
+    },
+    "20240517-initiatives-manage": {
+      "title": "Halda vanu algatusi",
+      "message": "ArcGIS Hubi algatusi muudeti 2. juulil 2024. Varem loodud algatused on nüüd iseseisvad saidid samade kujunduste, sisu, URL-ide ja lisafunktsioonidega (nagu jälgijad ja sündmused) kui varem. Võite vana(d) algatuse(d) ohutult kustutada.",
+      "actions": [
+        {
+          "text": "Teave algatuste kohta",
+          "ariaLabel": "Teave algatuste kohta, avaneb uuel vahekaardil"
+        },
+        {
+          "text": "Näita vanu algatusi",
+          "ariaLabel": "Kuvab vanad algatused, avaneb uuel vahekaardil"
+        }
+      ]
+    },
+    "20240517-initiatives-manage-no-priv": {
+      "title": "Halda vanu algatusi",
+      "message": "ArcGIS Hubi algatusi muudeti 2. juulil 2024. Varem loodud algatused on nüüd iseseisvad saidid samade kujunduste, sisu, URL-ide ja lisafunktsioonidega (nagu jälgijad ja sündmused) kui varem. Võite vana(d) algatuse(d) ohutult kustutada.",
+      "actions": [
+        {
+          "text": "Teave algatuste kohta",
+          "ariaLabel": "Teave algatuste kohta, avaneb uuel vahekaardil"
+        },
+        {
+          "text": "Näita vanu algatusi",
+          "ariaLabel": "Kuvab vanad algatused, avaneb uuel vahekaardil"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing-site": {
+      "title": "Uuendus — Hubi algatused",
+      "message": "Hubi algatuste uus põlvkond on nüüd tööruumides saadaval. Algatustel on oma lihtne vaade, mida on lihtne seadistada, ja see võib aidata kooskõlastada Hubi projekte, millel on ühised pikaajalised eesmärgid. Algatusi saab luua iseseisvalt ja neid saab jagada ühe või mitme saidiga. Saitidel võib olla üks või mitu algatust.",
+      "actions": [
+        {
+          "text": "Lisateave",
+          "ariaLabel": "Lisateave, avaneb uuel vahekaardil"
+        }
+      ]
+    },
+    "20240710-slow-service-warning": {
+      "title": "Teenuse katkestus",
+      "message": "Suhtlemine teenusega võtab oodatust kauem aega. See võib mõjutada teie juurdepääsu allalaadimistele ja kaardifunktsioonidele."
+    },
+    "20240710-unreachable-service-error": {
+      "title": "Teenus pole saadaval",
+      "message": "Me ei saa ühendust vastuvõtva teenusega. Allalaadimised ja kaardifunktsioonid ei ole praegu selle objekti puhul saadaval."
+    },
+    "20240807-auth-required-status": {
+      "title": "Teenuse olek teadmata",
+      "message": "Meil ei ole juurdepääsu turvalisele teenusele, kuna see nõuab täiendavat autoriseerimist. Allalaadimised ja kaardifunktsioonid ei ole praegu selle üksuse puhul saadaval."
+    },
+    "20240805-private-downloads-unavailable-ago-error": {
+      "title": "Allalaadimised ei ole kasutusel",
+      "message": "Sisu allalaadimiseks peab andmete eksportimise valik olema ArcGIS Online'is lubatud. Selle seade lubamiseks pöörduge üksuse omaniku poole."
+    },
+    "20240805-private-downloads-unavailable-enterprise-error": {
+      "title": "Allalaadimised ei ole kasutusel",
+      "message": "Sisu allalaadimiseks peab andmete eksportimise valik olema ArcGIS Enterprise'is lubatud. Selle seade lubamiseks pöörduge üksuse omaniku poole."
+    },
+    "20240819-download-formats-disabled": {
+      "title": "Allalaadimised on keelatud",
+      "message": "Selle üksuse sisu allalaadimiseks võtke ühendust üksuse omanikuga."
+    },
+    "20241104-about-feeds-notice": {
+      "message": "Muutke oma avalikud avatud andmed Hubi voogude abil hõlpsasti juurdepääsetavaks ja korduskasutatavaks.",
+      "actions": [
+        {
+          "text": "Teave Hubi voogude kohta",
+          "ariaLabel": "Teave Hubi voogude kohta, avaneb uuel vahekaardil"
+        }
+      ]
+    }
+  }
+}

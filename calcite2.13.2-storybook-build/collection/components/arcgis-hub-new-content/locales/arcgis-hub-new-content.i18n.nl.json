@@ -1,0 +1,57 @@
+{
+  "new": "Nieuw",
+  "project": {
+    "label": "Project",
+    "description": "Markeer werk dat duidelijke doelstellingen en tijdschema's heeft",
+    "createLabel": "Project maken",
+    "newLabel": "Nieuw project"
+  },
+  "initiative": {
+    "label": "Initiatief",
+    "description": "Initiatieven dienen voor het organiseren en samenvatten van voortgang bij het bereiken van een doel",
+    "createLabel": "Initiatief maken",
+    "newLabel": "Nieuw initiatief"
+  },
+  "discussion": {
+    "label": "Discussiebord",
+    "description": "Maak een nieuw discussiebord door een titel in te voeren die het onderwerp aangeeft.",
+    "createLabel": "Discussiebord maken",
+    "newLabel": "Nieuw discussiebord"
+  },
+  "site": {
+    "label": "Site",
+    "description": "Maak een webpagina om informatie te organiseren en te delen",
+    "createLabel": "Site maken",
+    "newLabel": "Nieuwe site"
+  },
+  "event": {
+    "label": "Evenement",
+    "description": "Handel als gastheer/gastvrouw voor een georganiseerde activiteit, in persoon of virtueel",
+    "createLabel": "Evenement maken",
+    "newLabel": "Nieuw evenement"
+  },
+  "content": {
+    "label": "Content",
+    "description": "Voeg gegevens, documenten, afbeeldingen en externe links toe aan uw site",
+    "createLabel": "Content maken",
+    "newLabel": "Nieuwe content"
+  },
+  "feedback": {
+    "label": "Feedback",
+    "description": "Verzamel gefocuste informatie met tools als enquêtes en peilingen",
+    "createLabel": "Feedback maken",
+    "newLabel": "Nieuwe feedback"
+  },
+  "app": {
+    "label": "App",
+    "description": "Bouw aan een ervaring, vertel een verhaal of visualiseer uw gegevens",
+    "createLabel": "App maken",
+    "newLabel": "Nieuwe app"
+  },
+  "group": {
+    "label": "Groep",
+    "description": "Stel een groep in voor samenwerking aan gefocuste content",
+    "createLabel": "Groep maken",
+    "newLabel": "Nieuwe groep"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "groups": "Saját csoportok",
+  "addContentButtonText": "Új létrehozása",
+  "role": "Szerepkör",
+  "owner": "Tulajdonos",
+  "updated": "Frissítve",
+  "type": "Típus",
+  "sharedUpdate": "Megosztott frissítési csoport",
+  "viewOnly": "Csak megtekinthető csoport",
+  "actionLinks": {
+    "view": "Megtekintés",
+    "edit": "Szerkesztés",
+    "ariaEdit": "{title} szerkesztése",
+    "ariaView": "{title} megtekintése"
+  },
+  "facets": {
+    "access": {
+      "label": "Megtekintheti",
+      "options": {
+        "public": "Mindenki (nyilvános)",
+        "org": "Szervezet",
+        "private": "Én"
+      }
+    },
+    "type": {
+      "label": "Típusok",
+      "options": {
+        "sharedUpdate": "Megosztott frissítés",
+        "opendata": "Open Data"
+      }
+    }
+  }
+}

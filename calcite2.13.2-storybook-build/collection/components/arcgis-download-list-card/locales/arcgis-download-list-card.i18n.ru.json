@@ -1,0 +1,13 @@
+{
+  "csv": "CSV",
+  "shapefile": "Шейп-файл",
+  "sqlite": "База геоданных SQLite",
+  "geoPackage": "GeoPackage",
+  "filegdb": "Файловая база геоданных",
+  "featureCollection": "Коллекция объектов",
+  "geojson": "GeoJSON",
+  "excel": "Excel",
+  "json": "JSON",
+  "createReplicaErrorMessage": "Внутренняя ошибка создания реплики. Повторите попытку в течение часа или свяжитесь с менеджером ресурсов.",
+  "errorHeader": "Загрузка не может быть завершена. Повторите попытку еще раз."
+}

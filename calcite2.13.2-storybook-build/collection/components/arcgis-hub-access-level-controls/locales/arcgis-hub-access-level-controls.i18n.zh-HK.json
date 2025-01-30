@@ -1,0 +1,16 @@
+{
+  "heading": "分享級別",
+  "public": "公共",
+  "publicInfo": "每個人都能看到此 {itemType}",
+  "organization": "組織",
+  "organizationInfo": "擁有 {orgName} 帳號的所有成員以及群組都能看到此 {itemType}",
+  "owner": "擁有者",
+  "ownerInfo": "擁有存取權的擁有者和群組能看到此 {itemType}",
+  "discussion": {
+    "publicInfo": "任何人都可以檢視此討論板",
+    "organization": "我的組織",
+    "organizationInfo": "擁有 {orgName} 帳號的所有成員都可以檢視此討論板",
+    "owner": "私有",
+    "ownerInfo": "擁有者和選定群組可檢視此討論板"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "catalog": "Luettelo",
+  "catalog-content": "Sisältö",
+  "catalog-events": "Tapahtumat",
+  "shared": {
+    "publish": {
+      "label": "Tallenna",
+      "success": {
+        "title": "Luettelomuokkausten julkaiseminen live-näkymään onnistui"
+      },
+      "error": {
+        "title": "Virhe muokkausten tallennuksessa"
+      }
+    }
+  },
+  "emptyState": {
+    "message": "Luetteloa ei määritetty",
+    "action": "Luo luettelo"
+  },
+  "actionBar": {
+    "details": "Luettelon määritys",
+    "appearance": "Luettelon ulkoasu",
+    "tooltip": {
+      "appearanceDisabled": "Luetteloa ei ole tällä hetkellä määritetty. Määritä luettelo, jotta voit muokata ulkoasuasetuksia.",
+      "configuration": "Määritys",
+      "appearance": "Ulkoasu"
+    }
+  },
+  "detailsPanel": {
+    "heading": "Luettelon määritys",
+    "close": "Sulje luettelon määritys",
+    "catalogBuilder": {
+      "helperText": "Luettelo sallii kävijöiden hakea ja katsoa sisältöä. Näytetyt tulokset perustuvat kyselymääritykseen."
+    },
+    "querySizeNotice": {
+      "warning": {
+        "title": "Lähestytään luettelon rajaa",
+        "catalogSourceMessage": {
+          "item": "Kohteen lähteen määritys on lähestymässä kokorajaa.",
+          "event": "Tapahtuman lähteen määritys on lähestymässä kokorajaa."
+        },
+        "collectionSourceMessage": {
+          "item": "Kohteen lähteen ja kokoelman {collectionName} määritysten yhdistelmä on lähestymässä kokorajaa.",
+          "event": "Tapahtuman lähteen ja kokoelman {collectionName} määritysten yhdistelmä on lähestymässä kokorajaa."
+        }
+      },
+      "danger": {
+        "title": "Luettelon raja ylittynyt",
+        "catalogSourceMessage": {
+          "item": "Kohteen lähteen määritys on ylittänyt kokorajan. Vähennä suodattimien tai suodatinasetusten määrää julkaistavan kohteen lähteessä.",
+          "event": "Tapahtuman lähteen määritys on ylittänyt kokorajan. Vähennä suodattimien tai suodatinasetusten määrää julkaistavan tapahtuman lähteessä."
+        },
+        "collectionSourceMessage": {
+          "item": "Kohteen lähteen ja kokoelman {collectionName} määritysten yhdistelmä on ylittänyt kokorajan. Vähennä suodattimien tai suodatinasetusten määrää julkaistavan kohteen lähteessä tai julkaistavassa kokoelmassa {collectionName}.",
+          "event": "Tapahtuman lähteen ja kokoelman {collectionName} määritysten yhdistelmä on ylittänyt kokorajan. Vähennä suodattimien tai suodatinasetusten määrää julkaistavan tapahtuman lähteessä tai julkaistavassa kokoelmassa {collectionName}."
+        }
+      }
+    }
+  },
+  "appearancePanel": {
+    "heading": "Luettelon ulkoasu",
+    "close": "Sulje luettelon ulkoasu",
+    "description": "Luettelo sallii kävijöiden hakea ja katsoa sisältöä. Täältä voit päivittää, miltä oletusluettelon tulee näyttää ja minkä suodattimien haluat näkyvän."
+  }
+}

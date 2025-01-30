@@ -1,0 +1,43 @@
+{
+  "content": "Indhold",
+  "myContent": "Mit indhold",
+  "editableContent": "Redigerbart indhold",
+  "addContentButtonText": "Opret ny(t)",
+  "type": "Type",
+  "sharedUpdate": "Delt opdateringsgruppe",
+  "viewOnly": "Vis kun gruppe",
+  "owner": "Ejer",
+  "updated": "Opdateret",
+  "tags": "Nøgleord",
+  "dateCreated": "Oprettet",
+  "dateUpdated": "Ændret",
+  "actionLinks": {
+    "view": "Vis",
+    "edit": "Rediger",
+    "ariaEdit": "Redigér {title}",
+    "ariaView": "Vis {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Indhold",
+      "myContent": "Indhold, jeg ejer",
+      "editableContent": "Indhold, jeg kan redigere",
+      "all": "Alt indhold"
+    },
+    "access": {
+      "label": "Fra"
+    },
+    "type": {
+      "label": "Typer"
+    },
+    "tags": {
+      "label": "Nøgleord"
+    },
+    "categories": {
+      "label": "Kategorier"
+    },
+    "modified": {
+      "label": "Ændret"
+    }
+  }
+}

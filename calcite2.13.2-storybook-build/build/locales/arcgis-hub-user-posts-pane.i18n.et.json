@@ -1,0 +1,43 @@
+{
+  "header": "Arutelud",
+  "myContent": "Minu sündmused",
+  "editableContent": "Redigeeritav sisu",
+  "addContentButtonText": "Loo sündmus",
+  "type": "Tüüp",
+  "sharedUpdate": "Jagatud uuenduste grupp",
+  "viewOnly": "Ainult vaataja õigustega grupp",
+  "owner": "Omanik",
+  "updated": "Uuendatud",
+  "tags": "Märksõnad",
+  "dateCreated": "Loodud",
+  "dateUpdated": "Muudetud",
+  "actionLinks": {
+    "view": "Kuva",
+    "edit": "Muuda",
+    "ariaEdit": "Muuda: {title}",
+    "ariaView": "Kuva: {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Sündmused",
+      "myContent": "Mulle kuuluvad sündmused",
+      "editableContent": "Sündmused, mida ma saan redigeerida",
+      "all": "Kõik sündmused"
+    },
+    "access": {
+      "label": "Jaotisest"
+    },
+    "type": {
+      "label": "Tüübid"
+    },
+    "tags": {
+      "label": "Märksõnad"
+    },
+    "categories": {
+      "label": "Kategooriad"
+    },
+    "modified": {
+      "label": "Muudetud"
+    }
+  }
+}

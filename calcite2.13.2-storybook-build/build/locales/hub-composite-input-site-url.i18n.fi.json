@@ -1,0 +1,6 @@
+{
+  "baseDomain": "Perustoimialue",
+  "subdomain": "Alitoimialue",
+  "subdomainFormatError": "Virhe: Sivuston URL-osoitteessa voi olla vain (pieniä) kirjaimia, numeroita ja viivoja. Sen ensimmäinen ja viimeinen merkki ei voi olla viiva. Unicode-merkkejä ei sallita.",
+  "urlPreview": "URL-osoitteen esikatselu"
+}

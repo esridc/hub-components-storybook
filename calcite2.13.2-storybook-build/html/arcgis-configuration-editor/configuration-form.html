@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Configuration Form</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+    .form-triggers {
+      display: flex;
+    }
+    arcgis-configuration-form {
+      --arcgis-configuration-form-footer-bg-color: #f1f1f1;
+      --arcgis-configuration-form-footer-negative-margin: 1rem;
+    }
+  </style>
+
+  <script async src="https://ga.jspm.io/npm:es-module-shims@1.6.2/dist/es-module-shims.js"></script>
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet"
+    href="../calcite-web.min.css">
+</head>
+
+<body>
+  <harness-header page-title="Configuration Form Harness"></harness-header>
+  <div class="grid-container padding-leader-4">
+    <div class="column-24 trailer-2 header">
+      <div>
+        <calcite-button round appearance="outline" scale="m" href="./index.html" icon-start="chevron-left">Back to Configuration Editor Suite</calcite-button>
+      </div>
+    </div>
+
+    <!-- FORM NAVIGATION -->
+    <div class="column-6">
+      <calcite-label>
+        <strong>Select a Form Harness</strong>
+        <calcite-combobox clear-disabled overlay-positioning="fixed" id="harness-combobox" selection-mode="single" placeholder="Select a form harness...">
+          <calcite-combobox-item value="form-sticky" selected text-label="Form w/Sticky Footer"></calcite-combobox-item>
+          <calcite-combobox-item value="form-modal" text-label="Form in a Modal"></calcite-combobox-item>
+          <calcite-combobox-item value="form-fixed" text-label="Form Fixed"></calcite-combobox-item>
+          <calcite-combobox-item value="form-steps" text-label="Form with Steps"></calcite-combobox-item>
+          <calcite-combobox-item value="form-slotted-content" text-label="Form with Slotted Content"></calcite-combobox-item>
+        </calcite-combobox>
+      </calcite-label>
+    </div>
+
+    <!-- SUBTITLE CONTAINER -->
+    <div class="column-24" id="subtitle-container"></div>
+
+    <!-- CONFIGURATION FORM TRIGGERS -->
+    <div class="form-trigger-container column-24 trailer-1">
+      <calcite-label>
+        <strong>Use the following buttons to trigger various states in the configuration form:</strong>
+      </calcite-label>
+      <div class="form-triggers">
+        <calcite-label layout="inline" class="column-3 padding-right-2">
+          Trigger Save
+          <calcite-switch
+            id="is-saving"
+            onclick="onIsSavingClick()" />
+        </calcite-label>
+      </div>
+    </div>
+
+    <!-- CONFIGURATION FORM TRIGGERS -->
+    <div class="form-trigger-container modal column-24 trailer-1">
+      <calcite-button
+        appearance="outline"
+        class="column-3 padding-right-2"
+        round
+        onclick="onOpenForm()">
+        Open Form
+      </calcite-button>
+    </div>
+
+    <!-- CONFIGURATION FORM CONTAINER-->
+    <div class="column-24" id="form-container"></div>
+  </div>
+
+  <script>
+    let form;
+    let context;
+
+    // dynamically add the form to the DOM based on the harness that is
+    // selected from the combobox dropdown
+    const initForm = async (type) => {
+      const { SUBTITLE = '', SCHEMA, UI_SCHEMA, VALUES, TRANSLATIONS = {} } = await import(`./schemas/${type}.js`);
+      const translationFunc = (key) => getProp(TRANSLATIONS, key);
+      const formLayout = {
+        "form-sticky": "sticky",
+        "form-modal": "modal",
+        "form-fixed": "fixed"
+      }[type]
+
+      const existingForm = document.querySelector('arcgis-configuration-form');
+      const existingSubtitle = document.querySelector('#form-subtitle');
+
+      existingForm?.remove();
+      form = document.createElement('arcgis-configuration-form')
+      form.schema = SCHEMA;
+      form.uiSchema = UI_SCHEMA;
+      form.values = VALUES;
+      form.t = translationFunc;
+      form.context = context;
+      form.layout = formLayout;
+
+      // add slotted content example to form
+      const slottedImg = document.createElement('img')
+      slottedImg.setAttribute('slot', 'sample-slot');
+      slottedImg.setAttribute('src', 'https://devext.arcgis.com/sharing/rest/content/items/87767b99a5f94db484ef8852d844bf15/info/thumbnail/ago_downloaded.jpg?w=400');
+
+      existingSubtitle?.remove();
+      const subtitle = document.createElement('p');
+      subtitle.innerText = SUBTITLE;
+      subtitle.setAttribute('id', 'form-subtitle')
+      subtitle.setAttribute('style', 'margin-bottom:3rem; font-style:italic; font-size:0.8rem')
+
+      const subtitleContainer = document.getElementById('subtitle-container');
+      const formContainer = document.getElementById('form-container');
+      const baseFormTriggerContainer = document.querySelector('.form-trigger-container');
+      const modalFormTriggerContainer = document.querySelector('.form-trigger-container.modal');
+
+      if(type === 'form-modal') {
+        baseFormTriggerContainer.setAttribute('style', 'display:none');
+        modalFormTriggerContainer.setAttribute('style', 'display:auto');
+        formContainer.setAttribute('style', 'height:auto; background-color: none; padding:0');
+      } else {
+        modalFormTriggerContainer.setAttribute('style', 'display:none');
+        baseFormTriggerContainer.setAttribute('style', 'display:auto');
+        formContainer.setAttribute('style', 'height:70vh; background-color: #f1f1f1; padding:1rem 1rem 0 1rem');
+        form.appendChild(slottedImg);
+      }
+      subtitleContainer.appendChild(subtitle);
+      formContainer.appendChild(form);
+
+      return form;
+    }
+
+    // TIP: temporarily update this initial state if you're working in a specific
+    // form and don't want to continuously reselect the option from the dropdown
+    form = initForm('form-sticky');
+
+    const getProp = (obj, path) => {
+      return path.split(".").reduce(function (prev, curr) {
+        return prev ? prev[curr] : undefined;
+      }, obj);
+    }
+
+    // CALCITE COMBOBOX CHANGE LISTENER - to re-initialize the selected form
+    document.addEventListener('calciteComboboxChange', evt => {
+      const { value, id } = evt.target;
+      if (id === "harness-combobox") {
+        initForm(value);
+      }
+    });
+
+    // HARNESS FUNCTIONALITY TO TRIGGER VARIOUS FORM STATES
+    const onIsSavingClick = () => {
+      // wrap in a setTimeout otherwise we get the previous state of the
+      // switch (e.g. the state of the switch when clicked)
+      setTimeout(() => {
+        const el = document.querySelector('#is-saving');
+        const isSaving = el.hasAttribute('checked');
+
+        form.isSaving = isSaving;
+      }, 100);
+    }
+    const onOpenForm = (opts) => {
+      form.isOpen = true;
+
+      const header = document.createElement('div');
+      header.setAttribute('slot', 'header');
+      header.innerText = "Form in a Modal";
+      form.appendChild(header);
+    }
+    document.addEventListener("arcgisConfigurationFormModalClosed", evt => {
+      form.isOpen = false;
+    });
+
+
+    // CONFIGURATION FORM EVENT LISTENERS (logged to console for development purposes)
+    document.addEventListener('arcgisConfigurationFormChanged', evt => {
+      console.info('arcgisConfigurationFormChanged', evt.detail);
+    });
+    document.addEventListener('arcgisConfigurationFormSaved', evt => {
+      console.info('arcgisConfigurationFormSaved', evt.detail);
+    });
+    document.addEventListener('arcgisConfigurationFormModalClosed', evt => {
+      console.info('arcgisConfigurationFormModalClosed');
+    });
+  </script>
+</body>
+
+</html>

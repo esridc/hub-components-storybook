@@ -1,0 +1,131 @@
+:host {
+  display: block;
+}
+
+/* manually set grayscale values for the dropdown */
+:host(:not([unthemed])) calcite-dropdown {
+  --calcite-color-background: #f8f8f8;
+    /* controls icon bg */
+    --calcite-color-foreground-1: #ffffff;
+    /* controls dropdown item bg */
+    --calcite-color-foreground-2: #f3f3f3;
+    /* controls dropdown item hover bg */
+}
+
+/* manually set grayscale values for the dropdown groups */
+:host(:not([unthemed])) .hub-new-content_dropdown-group {
+  --calcite-color-brand: var(--calcite-color-border-1);
+    --calcite-color-text-1: #151515;
+    /* controls dropdown item title */
+    --calcite-color-text-2: #4a4a4a;
+    /* controls dropdown item description */
+    --calcite-color-text-3: #6a6a6a;
+    /* controls dropdown item icon */
+    --calcite-color-border-1: #cacaca;
+    /* controls dropdown item focus state */
+    --calcite-color-border-3: #dfdfdf;
+    /* controls dropdown group border */
+    --calcite-color-text-link: #151515;
+    /* controls resource link */
+  --calcite-link-blue-underline: #151515; /* controls resource link underline */
+}
+
+.hub-new-content_dropdown-group:not(.mobile) {
+  max-width: 20rem;
+  max-height: 80vh;
+  overflow-y: scroll;
+}
+
+.hub-new-content_dropdown-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.hub-new-content_dropdown-item--left {
+  display: flex;
+}
+
+.hub-new-content_dropdown-item-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.hub-new-content_dropdown-item-icon {
+  /* create a box around the icon that's the same height as the dropdown-ite */
+  height: 70px;
+  width: 70px;
+  margin-right: 0.75rem;
+  display: flex;
+  align-items: center;
+  background-color: var(--calcite-color-background);
+}
+
+.hub-new-content_dropdown-item-icon calcite-icon {
+  width: 70px;
+}
+
+.hub-new-content_dropdown-item-title,
+.hub-new-content_dropdown-item-description,
+calcite-dropdown-item calcite-link {
+  font-family: var(--calcite-sans-family);
+  font-weight: var(--calcite-font-weight-normal);
+  font-size: var(--calcite-font-size--1);
+  line-height: 1.375rem;
+  white-space: normal;
+  overflow-wrap: break-word}
+
+.hub-new-content_dropdown-item-title {
+  margin-bottom: 0.25rem;
+  font-weight: var(--calcite-font-weight-bold);
+  color: var(--calcite-color-text-1);
+}
+
+.hub-new-content_dropdown-item-description {
+  color: var(--calcite-color-text-2);
+}
+
+.new-content-modal__header {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.new-content-modal__header h2 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-size: var(--calcite-font-size-2);
+  line-height: 1.5rem;
+  font-weight: var(--calcite-font-weight-bold);
+}
+
+.new-content-modal__header span {
+  max-width: 90%;
+  text-align: center;
+}
+
+.new-content-modal__header-icon {
+  border-radius: 50%;
+  border-width: 1px;
+  border-style: solid}
+
+.new-content-modal__header-icon calcite-icon {
+  margin: 1.5rem;
+}
+
+calcite-button.sc-arcgis-hub-new-content[shouldbedisabled] {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* This is to overwrite the global-navbar-item's nowrap rule,
+otherwise the description in tile select will not be wrapped */
+arcgis-hub-entity-editor {
+  white-space: normal;
+}

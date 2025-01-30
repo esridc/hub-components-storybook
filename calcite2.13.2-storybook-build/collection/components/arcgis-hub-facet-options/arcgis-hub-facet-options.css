@@ -1,0 +1,69 @@
+:host {
+  display: block;
+}
+
+calcite-input {
+  /*
+        We can't style the input's placeholder pseudo-element, so hardcode
+    input background color and input text color for accessibility
+  */
+  --calcite-color-foreground-1: var(--hub-gallery-input-background);
+    --calcite-color-text-1: var(--hub-gallery-input-text);
+}
+
+.option-search-bar {
+  margin-bottom: 0.75rem;
+}
+
+.option {
+  line-height: normal;
+  overflow-wrap: anywhere; /* Trying to keep the same pattern used here: https://github.com/Esri/hub-components/pull/965/files */
+  -webkit-hyphens: auto;
+          hyphens: auto;
+}
+
+.option-container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.option-container calcite-checkbox {
+  margin-top: 0.125rem;
+}
+
+/* we have to use the typography CSS variable for the font size because of the shadow dom */
+calcite-radio-button-group > calcite-label, fieldset > calcite-label {
+  --calcite-font-size--1: var(--calcite-font-size-0);
+}
+
+fieldset {
+  border: 0px;
+  padding: 0px;
+}
+
+legend {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+@media (max-width: 576px) {
+  calcite-label {
+    padding-top: 0.5rem;
+  }
+  calcite-label {
+    padding-bottom: 0.5rem;
+  }
+}
+
+.more-or-less-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}

@@ -1,0 +1,66 @@
+{
+  "followers": "Követők",
+  "tabs": {
+    "followers": "Követők",
+    "settings": "Beállítások"
+  },
+  "addFollowers": {
+    "label": "Követők hozzáadása"
+  },
+  "emptyState": {
+    "message": "Az oldalnak nincs követői csoportja",
+    "action": "Követői csoport létrehozása"
+  },
+  "createFollowersGroup": {
+    "formDescription": "Csoport létrehozása a tartalommegosztás és a kommunikáció elősegítésére",
+    "defaultSummary": "Ez a követői csoport lehetővé teszi a tagok számára, hogy könnyebben megosszák a tartalmat, és kommunikáljanak egymással"
+  },
+  "restrictedAccessState": {
+    "message": "Nincs hozzáférése a követők csoportjának megtekintéséhez.",
+    "action": "Hozzáférés kérése"
+  },
+  "stats": {
+    "total": {
+      "title": "Végösszeg",
+      "trailingText": "Követők"
+    },
+    "new": {
+      "title": "Új",
+      "trailingText": "Az elmúlt 30 nap"
+    }
+  },
+  "addMembers": {
+    "button": "Tagok hozzáadása",
+    "modal": {
+      "title": "Tagok hozzáadása",
+      "org": "Saját szervezet",
+      "community": "Saját közösség",
+      "partner": "Saját partnerek",
+      "world": "Világ"
+    },
+    "notifications": {
+      "invited": "Meghívó elküldve. A csatlakozáshoz a felhasználóknak el kell fogadniuk",
+      "added": "Felhasználó(k) hozzáadva",
+      "notInvited": "Előfordulhat, hogy egyes felhasználók nem rendelkeznek a csoporthoz való csatlakozáshoz szükséges jogosultságokkal, vagy a csoportlétszám elérte a felső korlátját (512)."
+    }
+  },
+  "removeUsers": {
+    "button": "Eltávolítás",
+    "success": "A tagokat sikeresen eltávolították innen: {groupName}.",
+    "error": "Egy vagy több felhasználót nem sikerült eltávolítani a csoportból."
+  },
+  "changeRole": {
+    "button": "Szerepkör megváltoztatása",
+    "member": "Tag",
+    "memberHelperText": "Hozzáadhatja és megtekintheti a tartalmat a csoporton belül.",
+    "tooltipText": "Saját maga és/vagy a csoporttulajdonos kiválasztásának megszüntetése",
+    "tooltipLabel": "Szerepkörre vonatkozó jogi nyilatkozat",
+    "admin": "Kezelő",
+    "adminHelperText": "Tartalmat adhat hozzá/távolíthat el, és embereket hívhat meg/távolíthat el (a tulajdonos kivételével).",
+    "success": "A kiválasztott tagok a(z) {role} csoportot alkotják.",
+    "error": "Egy vagy több tag szerepét nem lehetett megváltoztatni."
+  },
+  "notice": {
+    "label": "Űrlappal kapcsolatos figyelmeztetés"
+  }
+}

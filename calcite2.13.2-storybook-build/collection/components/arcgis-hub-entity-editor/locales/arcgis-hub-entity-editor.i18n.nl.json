@@ -1,0 +1,1346 @@
+{
+  "success": "De bewerkingen zijn opgeslagen",
+  "error": "Er is een fout opgetreden bij het opslaan van bewerkingen",
+  "formAlert": "Formulierwaarschuwing",
+  "create": "Maken",
+  "shared": {
+    "notices": {
+      "metrics": {
+        "preview": {
+          "label": "Voorbeeld van uw metriek weergeven",
+          "message": "Wijzigingen die u hier aanbrengt, worden weergegeven in het metriekvoorbeeld."
+        }
+      }
+    },
+    "sections": {
+      "metrics": {
+        "basic": {
+          "label": "Basisinformatie"
+        },
+        "source": {
+          "label": "Waarde"
+        },
+        "formatting": {
+          "label": "Opmaak"
+        },
+        "sharing": {
+          "label": "Delen"
+        }
+      },
+      "mapSettings": {
+        "label": "Kaartinstellingen"
+      }
+    },
+    "errors": {
+      "urlFormat": "De URL-indeling is onjuist"
+    },
+    "fields": {
+      "name": {
+        "maxLengthError": "De naam mag niet langer zijn dan 250 tekens"
+      },
+      "title": {
+        "maxLengthError": "De titel mag niet langer zijn dan 250 tekens"
+      },
+      "summary": {
+        "maxLengthError": "De samenvatting mag niet langer zijn dan 2048 tekens"
+      },
+      "purpose": {
+        "maxLengthError": "Het doel mag niet langer zijn dan 2048 tekens"
+      },
+      "_thumbnail": {
+        "label": "Thumbnail",
+        "sizeDescription": "De maximumgrootte is 10mb. Aanbevolen afmetingen: 760 x 505 of groter",
+        "defaultThumbnailNotice": "Upload uw eigen thumbnail als u de standaardthumbnail wilt vervangen"
+      },
+      "location": {
+        "none": "Geen locatie",
+        "org": "Extent van de organisatie",
+        "custom": "Aangepaste locatie",
+        "customDescription": "Een of meer locaties tekenen",
+        "itemExtent": "Huidige extent item"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Type",
+          "sharing": "Delen"
+        },
+        "catalog": {
+          "myContent": "Mijn content",
+          "favorites": "Favorieten",
+          "organization": "Organisatie",
+          "world": "Wereld (openbaar)"
+        },
+        "collection": {
+          "appsAndMaps": "Apps & kaarten",
+          "dataset": "Gegevens",
+          "documents": "Documenten",
+          "feedback": "Feedback",
+          "sites": "Sites",
+          "projects": "Projecten"
+        }
+      },
+      "metrics": {
+        "allowDynamicLink": {
+          "label": "Link bron weergeven"
+        },
+        "cardTitle": {
+          "label": "Titel",
+          "message": {
+            "required": "Dit veld is vereist."
+          }
+        },
+        "dynamicMetric": {
+          "label": "Gegevensbron"
+        },
+        "value": {
+          "label": "Waarde",
+          "message": {
+            "required": "Dit veld is vereist."
+          }
+        },
+        "unit": {
+          "label": "Eenheden",
+          "helperText": "Gebruik dit om een voorvoegsel- of achtervoegselwaarde in te stellen, zoals %, +, $ of iets anders. Laat dit leeg om niets weer te geven."
+        },
+        "unitPosition": {
+          "label": "Positie eenheid",
+          "helperText": "Selecteer waar de maateenheid (bijvoorbeeld 'km', 'lbs') wordt weergegeven ten opzichte van de waarde van de metriek.",
+          "enum": {
+            "after": {
+              "label": "Na waarde"
+            },
+            "before": {
+              "label": "Voor waarde"
+            },
+            "below": {
+              "label": "Onder waarde"
+            }
+          }
+        },
+        "showShareIcon": {
+          "label": "Delen inschakelen",
+          "helperText": {
+            "label": "Hiermee kunnen gebruikers een directe link naar deze cijfers kopiëren."
+          }
+        },
+        "shareableOnHover": {
+          "label": "Weergeven bij mouseover",
+          "helperText": {
+            "label": "De knop voor delen wordt weergegeven wanneer de muis erboven wordt gehouden. Als dit uitgeschakeld is, is de knop altijd zichtbaar"
+          }
+        },
+        "sourceLink": {
+          "label": "URL van link",
+          "message": {
+            "required": "Link vereist voor weergave bron."
+          }
+        },
+        "sourceTitle": {
+          "label": "Tekst link"
+        },
+        "trailingText": {
+          "label": "Volgtekst",
+          "helperText": "Voer eventuele extra context of uitleg in (voor weergave onder de waarde van de metriek)."
+        },
+        "type": {
+          "label": "Type",
+          "enum": {
+            "dynamic": {
+              "label": "Dynamisch",
+              "description": "Selecteer een bestaande gegevensset (feature service) die u wilt samenvatten"
+            },
+            "static": {
+              "label": "Statisch",
+              "description": "Voer handmatig een waarde in die u in uw lay-out wilt markeren."
+            }
+          }
+        },
+        "valueType": {
+          "label": "Type waarde",
+          "helperText": "Selecteer het type waarde dat u wilt weergeven",
+          "enum": {
+            "string": {
+              "label": "Tekst",
+              "description": "Een woord of zinsnede Niet bedoeld voor gebruik in numerieke berekeningen. (bijv. \"hoofdstraat\")"
+            },
+            "number": {
+              "label": "Getal",
+              "description": "Een numerieke waarde. Kan voor berekeningen worden gebruikt. (bijv. 123)"
+            },
+            "date": {
+              "label": "Datum",
+              "description": "Een datumwaarde in een kalender. Niet bedoeld voor gebruik in numerieke berekeningen. (bijv. \"1-1-2018\")"
+            }
+          }
+        }
+      },
+      "categories": {
+        "label": "Categorieën",
+        "noCategoriesNotice": {
+          "body": "De organisatie heeft nog geen categorieën.",
+          "link": "Categorieën instellen"
+        }
+      },
+      "download": {
+        "format": {
+          "bip": "BIP",
+          "bmp": "BMP",
+          "bsq": "BSQ",
+          "gif": "GIF",
+          "jpg": "JPG",
+          "jpgPng": "JPG_PNG",
+          "lerc": "LERC",
+          "png": "PNG",
+          "png8": "PNG8",
+          "png24": "PNG24",
+          "png32": "PNG32",
+          "tiff": "TIFF",
+          "csv": "CSV",
+          "excel": "Excel",
+          "featureCollection": "Objectverzameling",
+          "filegdb": "File Geodatabase",
+          "geojson": "GeoJSON",
+          "geoPackage": "GeoPackage",
+          "json": "JSON",
+          "kml": "KML",
+          "shapefile": "Shapefile",
+          "sqlite": "SQLite-geodatabase"
+        },
+        "additionalResource": "{resourceName} (distributie metadata)",
+        "dataSourceResource": "Gegevensbron (distributie metadata)",
+        "noTitleResource": "Link (geen titel, distributie metadata)"
+      }
+    }
+  },
+  "project": {
+    "sections": {
+      "details": {
+        "label": "Details"
+      },
+      "basicInfo": {
+        "label": "Basisinformatie"
+      },
+      "location": {
+        "label": "Locatie",
+        "helperText": "Geef het geografische gebied weer waarin dit project zal worden uitgevoerd (voor weergave in de projectlay-out)."
+      },
+      "status": {
+        "label": "Status"
+      },
+      "sharing": {
+        "label": "Delen"
+      },
+      "timeline": {
+        "label": "Tijdlijn"
+      },
+      "searchDiscoverability": {
+        "label": "Zoeken en zichtbaarheid"
+      },
+      "featuredContent": {
+        "label": "Uitgelichte content",
+        "helperText": "Markeer specifieke documenten, apps en gegevens die verband houden met uw project. U kunt maximaal 4 items markeren."
+      },
+      "callToAction": {
+        "label": "Actielinks",
+        "helperText": "Dit wordt als prominente knop weergegeven boven aan uw project. Gebruik dit om uw publiek naar een site, vragenlijst, kaart etc. te leiden."
+      },
+      "embeds": {
+        "label": "Uitgelichte insluiting",
+        "helperText": "Selecteer een web map, web scene of applicatie die u in uw project wilt uitlichten."
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Projectnaam",
+        "requiredError": "De projectnaam is een vereist veld",
+        "maxLengthError": "De projectnaam mag niet langer zijn dan 250 tekens",
+        "entityTitleValidatorError": "Naam project mag geen emojis of de tekens <, >, of = bevatten"
+      },
+      "description": {
+        "label": "Beschrijving",
+        "helperText": "Specificeer hoe uw project zijn doelen gaat bereiken. U kunt onder meer relevante achtergrondinformatie opnemen, samen met de veranderingen die als gevolg van het project worden verwacht."
+      },
+      "summary": {
+        "label": "Doel",
+        "helperText": "Geef een korte samenvatting van de doelen van uw project."
+      },
+      "access": {
+        "itemType": "Project"
+      },
+      "groups": {
+        "label": "Delen met...",
+        "viewGroup": "(Groep voor weergave)",
+        "editGroup": "(Groep voor bewerken)"
+      },
+      "_thumbnail": {
+        "helperText": "Stel in ArcGIS Online een miniatuur voor dit project in die ook wordt gebruikt in zoekacties en galerijen."
+      },
+      "featuredImage": {
+        "label": "Uitgelichte kaart",
+        "helperText": "Selecteer een afbeelding die uw werk in de projectlay-out vertegenwoordigt.",
+        "sizeDescription": "Max. bestandsgrootte is 10 mb. Aanbevolen afmetingen: 718 x 478 of groter",
+        "altText": {
+          "label": "Alternatieve tekst",
+          "helperText": "Geef een korte beschrijving op voor uw afbeelding voor personen die schermlezers gebruiken. Leeg laten om aan te geven dat de afbeelding ter verfraaiing wordt gebruikt."
+        }
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "De slug is de URL-vriendelijke versie van de naam van het project. Hij wordt automatisch gegenereerd op basis van de naam van het project, maar u kunt hem aanpassen.",
+        "patternError": "Fout: slug moet bestaan uit kleine letters en cijfers, gescheiden door koppeltekens.",
+        "isUniqueError": "Deze slug is al in gebruik. Kies een andere."
+      },
+      "tags": {
+        "label": "Tags",
+        "helperText": "Er worden in zoekcatalogi tags gebruikt om anderen te helpen dit project te vinden. Voeg tekst toe en selecteer Enter als u nieuwe tags wilt maken."
+      },
+      "categories": {
+        "helperText": "Categorieën worden in zoekcatalogi gebruikt om anderen te helpen dit project te vinden. Ze worden ingesteld door uw organisatie."
+      },
+      "status": {
+        "label": "Projectstatus",
+        "enum": {
+          "notStarted": {
+            "label": "Niet gestart"
+          },
+          "inProgress": {
+            "label": "In uitvoering"
+          },
+          "onHold": {
+            "label": "Tijdelijk stopgezet"
+          },
+          "complete": {
+            "label": "Voltooid"
+          }
+        }
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Type",
+          "sharing": "Delen"
+        }
+      },
+      "callToAction": {
+        "facets": {
+          "type": "Type",
+          "sharing": "Delen"
+        }
+      },
+      "mapSettings": {
+        "label": "Configureren hoe de kaart in het project wordt weergegeven"
+      }
+    }
+  },
+  "initiative": {
+    "sections": {
+      "details": {
+        "label": "Details"
+      },
+      "basicInfo": {
+        "label": "Basisinformatie"
+      },
+      "location": {
+        "label": "Locatie",
+        "helperText": "Geef het geografische gebied weer waarin dit initiatief zal worden uitgevoerd (voor weergave in de initiatieflay-out)."
+      },
+      "sharing": {
+        "label": "Delen"
+      },
+      "featuredContent": {
+        "label": "Uitgelichte content",
+        "helperText": "Markeer specifieke documenten, apps en gegevens die verband houden met uw project. U kunt maximaal 4 items markeren."
+      },
+      "status": {
+        "label": "Status"
+      },
+      "hero": {
+        "label": "Hero"
+      },
+      "searchDiscoverability": {
+        "label": "Zoeken en zichtbaarheid"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Naam initiatief",
+        "requiredError": "Initiatiefnaam is een vereist veld",
+        "maxLengthError": "De naam van het initiatief mag niet langer zijn dan 250 tekens",
+        "entityTitleValidatorError": "Naam initiatief mag geen emojis of de tekens <, >, of = bevatten"
+      },
+      "summary": {
+        "label": "Doel",
+        "helperText": "Geef een korte samenvatting van de doelen van uw initiatief."
+      },
+      "access": {
+        "itemType": "Initiatief"
+      },
+      "description": {
+        "label": "Beschrijving",
+        "helperText": "Specificeer hoe uw initiatief zijn doelen gaat bereiken. U kunt bijvoorbeeld relevante achtergrondinformatie opnemen, samen met de veranderingen die als gevolg van het initiatief worden verwacht."
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "De slug is de URL-vriendelijke versie van de naam van het initiatief. Hij wordt automatisch gegenereerd op basis van de naam van het initiatief, maar u kunt hem aanpassen.",
+        "patternError": "Fout: slug moet bestaan uit kleine letters en cijfers, gescheiden door koppeltekens.",
+        "isUniqueError": "Deze slug is al in gebruik. Kies een andere."
+      },
+      "tags": {
+        "label": "Tags",
+        "helperText": "Tags worden in zoekcatalogi gebruikt om anderen te helpen dit initiatief te vinden. Voeg tekst toe en selecteer Enter als u nieuwe tags wilt maken."
+      },
+      "categories": {
+        "helperText": "Categorieën worden in zoekcatalogi gebruikt om anderen te helpen dit initiatief te vinden. Ze worden ingesteld door uw organisatie."
+      },
+      "_thumbnail": {
+        "helperText": "Stel in ArcGIS Online een thumbnail in voor dit initiatief, die ook wordt gebruikt in zoekacties en galerijen."
+      },
+      "groups": {
+        "label": "Delen met...",
+        "viewGroup": "(Groep voor weergave)",
+        "editGroup": "(Groep voor bewerken)"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Type",
+          "sharing": "Delen"
+        }
+      },
+      "status": {
+        "label": "Status initiatief",
+        "enum": {
+          "notStarted": {
+            "label": "Niet gestart"
+          },
+          "inProgress": {
+            "label": "Lopend"
+          },
+          "onHold": {
+            "label": "Tijdelijk stopgezet"
+          },
+          "complete": {
+            "label": "Voltooid"
+          }
+        }
+      },
+      "hero": {
+        "label": "Hero",
+        "helperText": "De Hero wordt boven de titel van uw initiatief weergegeven en kan een kaart of afbeelding bevatten.",
+        "map": {
+          "label": "Kaart",
+          "description": "Gebruik een kaart om het doelgebied van het initiatief weer te geven; gebruik bijvoorbeeld de locatie van het initiatief of die van gekoppelde projecten."
+        },
+        "image": {
+          "label": "Afbeelding",
+          "description": "Een aantrekkelijk beeld dat mensen kan helpen zich betrokken te voelen bij of actie te ondernemen voor uw doel."
+        }
+      },
+      "featuredImage": {
+        "label": "Afbeelding",
+        "helperText": "Gebruik een liggende afbeelding voor uw Hero. De app zal de grootte van de afbeelding proportioneel wijzigen vanuit een centraal focuspunt om dit aan verschillende schermgroottes aan te passen. Op grote schermen zal de maximumhoogte 475 pixels zijn.",
+        "sizeDescription": "De maximale bestandsgroote is 10 MB.",
+        "altText": {
+          "label": "Alternatieve tekst",
+          "helperText": "Geef een korte beschrijving op voor uw afbeelding voor personen die schermlezers gebruiken. Leeg laten om aan te geven dat de afbeelding ter verfraaiing wordt gebruikt."
+        }
+      },
+      "groupAccess": {
+        "label": "Zichtbaarheid instellen",
+        "helperText": "Bepaal wie de koppelingen kan zien die vanuit dit initiatief worden gemaakt",
+        "private": {
+          "label": "Privé",
+          "description": "De eigenaar van het initiatief en groepen met toegang kunnen de groep weergeven."
+        },
+        "org": {
+          "label": "Organisatie",
+          "description": "Alle leden met een account bij de organisatie van het initiatief en alle groepen met toegang kunnen de groep weergeven."
+        },
+        "public": {
+          "label": "Openbaar",
+          "description": "De groep is voor iedereen zichtbaar"
+        }
+      },
+      "membershipAccess": {
+        "label": "Wie kan aan deze groep deelnemen?",
+        "org": "Alleen leden van mijn organisatie",
+        "collab": "Alleen partnersamenwerking en de leden van mijn organisatie",
+        "any": "Alle leden van de organisatie (gesuggereerde standaardwaarde)"
+      },
+      "includeInCatalog": {
+        "label": "Opnemen in catalogus",
+        "helperText": "Als dit is ingeschakeld, worden alle gekoppelde items naast andere content weergegeven in de zoekcatalogus van het initiatief."
+      },
+      "mapSettings": {
+        "label": "Configureren hoe de kaart in het initiatief wordt weergegeven"
+      }
+    }
+  },
+  "discussion": {
+    "sections": {
+      "details": {
+        "label": "Details"
+      },
+      "basicInfo": {
+        "label": "Basisinformatie"
+      },
+      "location": {
+        "label": "Locatie",
+        "helperText": "Voeg voor een meer gerichte discussie een geografisch gebied toe om de begrenzing van de discussie en het standaard-zoomniveau van de kaart in te stellen."
+      },
+      "settings": {
+        "label": "Discussies"
+      },
+      "searchDiscoverability": {
+        "label": "Zoeken en zichtbaarheid"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Titel",
+        "requiredError": "Naam discussiebord is vereist",
+        "entityTitleValidatorError": "De naam van de discussie mag geen emojis of de tekens <, >, of = bevatten"
+      },
+      "prompt": {
+        "label": "Prompt",
+        "helperText": "Beschrijf in het kort wat u deelnemers wilt laten bijdragen op dit discussiebord.",
+        "requiredError": "Prompt is een vereist veld",
+        "maxLengthError": "Prompt mag niet langer zijn dan 150 tekens"
+      },
+      "description": {
+        "label": "Beschrijving",
+        "helperText": "Bied meer content die kan helpen bij het zoeken naar dit bord."
+      },
+      "_thumbnail": {
+        "helperText": "Selecteer een afbeelding die uw discussie vertegenwoordigt."
+      },
+      "summary": {
+        "label": "Samenvatting",
+        "helperText": "Beschrijf in het kort wat het doel van dit discussiebord is; dit helpt wanneer u de link met anderen deelt."
+      },
+      "featuredImage": {
+        "label": "Uitgelichte afbeelding",
+        "sizeDescription": "Max. grootte is 10mb, JPEG, JPG of PNG",
+        "altText": {
+          "label": "Alternatieve tekst",
+          "helperText": "Geef een korte beschrijving op voor uw afbeelding voor personen die schermlezers gebruiken. Leeg laten om aan te geven dat de afbeelding ter verfraaiing wordt gebruikt."
+        },
+        "name": {
+          "label": "Naam afbeelding"
+        }
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "De slug is de URL-vriendelijke versie van de naam van de discussie. Hij wordt automatisch gegenereerd op basis van de naam van de discussie, maar u kunt hem aanpassen.",
+        "patternError": "Fout: slug moet bestaan uit kleine letters en cijfers, gescheiden door koppeltekens.",
+        "isUniqueError": "Deze slug is al in gebruik. Kies een andere."
+      },
+      "tags": {
+        "label": "Tags"
+      },
+      "categories": {
+        "helperText": "Categorieën worden in zoekcatalogi gebruikt om anderen te helpen deze discussie te vinden. Ze worden ingesteld door uw organisatie."
+      },
+      "discussable": {
+        "label": "Is discussie toegestaan?",
+        "enabled": {
+          "label": "Ja, discussie is toegestaan",
+          "description": "Deelnemers kunnen posts, antwoorden en reacties toevoegen aan dit discussiebord."
+        },
+        "disabled": {
+          "label": "Nee, discussie is geblokkeerd",
+          "description": "Verwijdert de mogelijkheid nieuwe posts, antwoorden en reacties toe te voegen. Laat eerdere deelname ongewijzigd."
+        }
+      },
+      "mapSettings": {
+        "label": "Configureren hoe de kaart wordt weergegeven op het discussiebord"
+      }
+    }
+  },
+  "site": {
+    "sections": {
+      "defaultRequiredHelperText": "*geeft een vereist veld aan",
+      "basicInfo": {
+        "label": "Basisinformatie"
+      },
+      "location": {
+        "label": "Locatie",
+        "helperText": "Geef het geografische gebied weer waarop deze site betrekking heeft."
+      },
+      "discussions": {
+        "label": "Discussies"
+      },
+      "privacy": {
+        "label": "Privacyconfiguratie"
+      },
+      "siteUrl": {
+        "label": "URL site"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Naam site",
+        "requiredError": "Naam site is een vereist veld",
+        "maxLengthError": "De naam van de site mag niet langer zijn dan 250 tekens",
+        "siteEntityTitleValidatorError": "Naam site mag geen emojis of unicode-tekens bevatten"
+      },
+      "_thumbnail": {
+        "helperText": "Stel in ArcGIS Online een thumbnail in voor deze site, die ook wordt gebruikt in zoekacties en galerijen."
+      },
+      "description": {
+        "label": "Beschrijving",
+        "helperText": "De beschrijving van de site"
+      },
+      "summary": {
+        "label": "Samenvatting",
+        "helperText": "Geef een korte samenvatting van de site."
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "De slug is de URL-vriendelijke versie van de naam van de site. Hij wordt automatisch gegenereerd op basis van de naam van de site, maar u kunt hem aanpassen.",
+        "patternError": "Fout: slug moet bestaan uit kleine letters en cijfers, gescheiden door koppeltekens.",
+        "isUniqueError": "Deze slug is al in gebruik. Kies een andere."
+      },
+      "tags": {
+        "label": "Tags",
+        "helperText": "Tags worden in zoekcatalogus gebruikt om anderen te helpen deze site te vinden. Voeg tekst toe en selecteer Enter als u nieuwe tags wilt maken."
+      },
+      "categories": {
+        "helperText": "Categorieën worden in zoekcatalogus gebruikt om anderen te helpen deze site te vinden. Ze worden ingesteld door uw organisatie."
+      },
+      "discussable": {
+        "label": "Interface voor discussies voor aangemelde gebruikers weergeven op live sites (standaard aan)",
+        "enabled": {
+          "label": "Ja, discussie is toegestaan",
+          "description": "Interface discussies weergeven"
+        },
+        "disabled": {
+          "label": "Nee, discussie is geblokkeerd",
+          "description": "Interface discussies verbergen"
+        }
+      },
+      "followers": {
+        "groupAccess": {
+          "label": "Zichtbaarheid instellen",
+          "helperText": "Bepaal wie volgknoppen kan zien. Deze instelling is van toepassing op zowel de flexibele pagina-interne actievolgknop als alle volgknoppen die rechtstreeks in de lay-out zijn ingesloten.",
+          "private": {
+            "label": "Privé",
+            "description": "De volgknoppen zijn zichtbaar voor de eigenaar van de site en voor groepen met toegang."
+          },
+          "org": {
+            "label": "Organisatie",
+            "description": "De volgknoppen zijn zichtbaar voor alle leden met een account bij de organisatie van de site en voor groepen met toegang."
+          },
+          "public": {
+            "label": "Openbaar",
+            "description": "De volgknoppen zijn voor iedereen zichtbaar."
+          }
+        },
+        "showFollowAction": {
+          "label": "Volgactie",
+          "helperText": "Voeg een volgknop toe aan het pagina-interne actiemenu; deze knop blijft zichtbaar als de gebruikers door de lay-out scrollen."
+        },
+        "discussable": {
+          "label": "Kan deze groep aan discussies deelnemen?",
+          "enabled": {
+            "label": "Ja, discussie is toegestaan",
+            "description": "Groepsleden kunnen discussiekanalen waartoe de groep toegang heeft, weergeven en kunnen eraan deelnemen."
+          },
+          "disabled": {
+            "label": "Nee, discussie is geblokkeerd",
+            "description": "Groepsleden kunnen discussiekanalen waartoe de groep toegang heeft, niet weergeven en kunnen er niet aan deelnemen."
+          }
+        }
+      },
+      "siteUrl": {
+        "isUniqueError": "Fout: er bestaat al een site die deze URL gebruikt."
+      }
+    }
+  },
+  "page": {
+    "sections": {
+      "basicInfo": {
+        "label": "Basisinformatie"
+      },
+      "location": {
+        "label": "Locatie",
+        "helperText": "Geef het geografische gebied weer waarop deze pagina betrekking heeft."
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Naam pagina",
+        "requiredError": "Naam pagina is een vereist veld",
+        "maxLengthError": "De paginanaam mag niet langer zijn dan 250 tekens",
+        "entityTitleValidatorError": "Naam pagina mag geen emojis of de tekens <, >, of = bevatten"
+      },
+      "description": {
+        "label": "Beschrijving",
+        "helperText": "De beschrijving van deze pagina."
+      },
+      "summary": {
+        "label": "Samenvatting",
+        "helperText": "Geef een korte samenvatting van de pagina."
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "De slug is de URL-vriendelijke versie van de naam van de pagina. Hij wordt automatisch gegenereerd op basis van de naam van de pagina, maar u kunt hem aanpassen.",
+        "patternError": "Fout: slug moet bestaan uit kleine letters en cijfers, gescheiden door koppeltekens.",
+        "isUniqueError": "Deze slug is al in gebruik. Kies een andere."
+      },
+      "tags": {
+        "label": "Tags",
+        "helperText": "Tags worden in zoekcatalogi gebruikt om anderen te helpen deze pagina te vinden. Voeg tekst toe en selecteer Enter als u nieuwe tags wilt maken."
+      },
+      "_thumbnail": {
+        "helperText": "Stel in ArcGIS Online een thumbnail in voor deze pagina, die ook wordt gebruikt in zoekacties en galerijen."
+      },
+      "categories": {
+        "helperText": "Categorieën worden in zoekcatalogi gebruikt om anderen te helpen deze pagina te vinden. Ze worden ingesteld door uw organisatie."
+      }
+    }
+  },
+  "content": {
+    "fields": {
+      "title": {
+        "label": "Titel",
+        "hint": "Beknopte titels vergroten de kans dat uw content wordt gevonden.",
+        "requiredError": "Titel is een vereist veld",
+        "entityTitleValidatorError": "Naam mag geen emojis of de tekens <, >, of = bevatten"
+      },
+      "summary": {
+        "label": "Samenvatting",
+        "hint": "Geef een korte samenvatting van uw inhoud. TIP: Verbeter SEO door trefwoorden te gebruiken die verschillen van uw \"Titel\" of \"Tags\"."
+      },
+      "description": {
+        "label": "Beschrijving",
+        "hint": "Voeg aanvullende details toe die uw inhoud toelichten. Richt u op een leesniveau van klasse 7-9 om een breed publiek te bereiken. <a href='https://www.webfx.com/tools/read-able/' target='_blank'>Gebruik een gratis analysetool voor de leesbaarheid om uw tekst te testen</a>."
+      },
+      "tags": {
+        "label": "Tags",
+        "hint": "Tags worden in zoekcatalogus gebruikt om anderen te helpen deze content te vinden. Voeg tekst toe en selecteer Enter als u nieuwe tags wilt maken."
+      },
+      "categories": {
+        "helperText": "Categorieën worden in zoekcatalogus gebruikt om anderen te helpen deze content te vinden. Ze worden ingesteld door uw organisatie."
+      },
+      "_thumbnail": {
+        "helperText": "Stel in ArcGIS Online een thumbnail voor dit item in die ook wordt gebruikt in zoekacties en galerijen."
+      },
+      "license": {
+        "label": "Gebruiksvoorwaarden",
+        "helperText": "Minder restricties stimuleert meer hergebruik."
+      },
+      "discussable": {
+        "label": "Is discussie toegestaan?",
+        "enabled": {
+          "label": "Ja, discussie is toegestaan",
+          "description": "Deelnemers kunnen posts, antwoorden en reacties aan dit item toevoegen."
+        },
+        "disabled": {
+          "label": "Nee, discussie is geblokkeerd",
+          "description": "Verwijdert de mogelijkheid nieuwe posts, antwoorden en reacties toe te voegen. Laat eerdere deelname ongewijzigd."
+        }
+      },
+      "serverExtractCapability": {
+        "label": "Downloadsysteem",
+        "exportDataSetting": {
+          "label": "Gegevensinstelling exporteren (aanbevolen)",
+          "description": "Schakel extra downloadindelinen in en verbeter de downloadprestatie."
+        },
+        "defaultDownloadsSystem": {
+          "label": "Standaarddownloadsysteem",
+          "description": "Biedt mogelijk minder indelingen, tragere downloadsnelheden en minder betrouwbaarheid."
+        },
+        "noFormatConfigurationNotice": {
+          "title": "Indelingsconfiguratie is niet beschikbaar",
+          "body": "Indelingsconfiguratie vereist dat het exporteren van de gegevensinstelling is ingeschakeld."
+        }
+      },
+      "downloadFormats": {
+        "label": "Indelingen",
+        "helperText": "Selecteer welke indelingen u toegankelijk wilt maken voor gebruikers en op welke volgorde deze worden weergegeven. (Denk eraan dat u minstens één indeling moet selecteren)",
+        "downloadsUnavailableNotice": {
+          "title": "Downloads zijn niet beschikbaar",
+          "body": "Om content te downloaden, moet de instelling Gegevens exporteren zijn ingeschakeld op ArcGIS Online. Neem contact op met de itemeigenaar om deze instelling in te schakelen."
+        }
+      },
+      "schedule": {
+        "manual": {
+          "helperActionText": "Gebruik deze optie als u de zoekindex en de in de cache opgeslagen downloadbestanden voor dit item handmatig wilt bijwerken."
+        },
+        "forceUpdateButton": {
+          "label": "Update forceren",
+          "description": "Selecteer deze optie en selecteer dan Opslaan als u de zoekindex en de in de cache opgeslagen downloadbestanden voor dit item handmatig wilt bijwerken, al naar gelang van toepassing."
+        },
+        "unavailableNotice": {
+          "title": "Geplande updates zijn niet beschikbaar",
+          "body": "Maak deze content \"Openbaar\" als u geplande updates wilt inschakelen."
+        }
+      }
+    },
+    "sections": {
+      "basic": {
+        "title": "Basisinformatie",
+        "message": "Deze informatie wordt gebruikt om de zoekresultaten en de galerijkaarten in te vullen en wordt weergegeven in de detailweergave."
+      },
+      "about": {
+        "title": "Over content",
+        "message": "De eerste twee regels van uw beschrijving worden weergegeven in de zoekresultaten, de hele beschrijving wordt alleen weergegeven bij gerichte contentweergaves."
+      },
+      "image": {
+        "title": "Uitgelichte afbeelding",
+        "message": "Een goede uitgelichte afbeelding of miniatuur hebben is belangrijk als u uw content wilt etaleren in onze galerijen of in weergaven die afbeeldingen uitlichten zoals initiatieven, evenementen en enquêtes. Aanbevolen grootte is 760x505. Als uw afbeelding vaag wordt weergegeven op live routes, overweeg dan om de thumbnail door een grotere afbeelding te vervangen."
+      },
+      "location": {
+        "label": "Locatie",
+        "helperText": "Geef het geografische gebied weer waarin de content zal worden uitgevoerd (voor weergave in de contentlay-out)."
+      },
+      "discussions": {
+        "label": "Discussies"
+      },
+      "downloads": {
+        "label": "Downloads",
+        "helperText": "Configureer downloadindelingen, in cache opgeslagen plan voor bestandsbijwerking en meer. Zie de <calcite-link href=\"https://doc.arcgis.com/en/hub/content/data-download-settings.htm\" target=\"_blank\" icon-end=\"launch\">downloaddocumentatie</calcite-link> voor meer informatie."
+      },
+      "schedule": {
+        "label": "Geplande updates",
+        "helperText": "Hub probeert automatisch de beste tijd te bepalen voor het bijwerken van content (standaard). U kunt echter een updatefrequentie instellen voor content, metadata en in de cache opgeslagen downloadbestanden (indien van toepassing)."
+      }
+    },
+    "stringField": {
+      "charCounter": "{count} resterende tekens"
+    },
+    "imageThumbnail": {
+      "label": "Thumbnailafbeelding",
+      "upload": "Afbeelding uploaden",
+      "done": "Gereed",
+      "editThumbnail": "Thumbnail bewerken",
+      "browse": "Zoek naar afbeelding",
+      "remove": "Afbeelding verwijderen",
+      "edit": "Afbeelding bewerken",
+      "defaultHeading": "Thumbnailafbeelding toevoegen",
+      "dropHeading": "Laat los om te uploaden",
+      "errorHeading": "Probeer een andere afbeelding",
+      "subheading": "Maximale grootte is {size}, {types}",
+      "zoomOut": "uitzoomen",
+      "zoomIn": "inzoomen",
+      "drag": "Slepen om te verplaatsen",
+      "urlPlaceholder": "Ondersteunde types: {types}",
+      "browseForImage": "Zoek naar afbeelding",
+      "aria": {
+        "container": "Afbeeldingsgebied",
+        "crop": "Gebied bijsnijden",
+        "handle": {
+          "top": "Grootte bovenkant aanpassen",
+          "right": "Grootte rechts aanpassen",
+          "left": "Grootte links aanpassen",
+          "bottom": "Grootte onderkant aanpassen"
+        }
+      }
+    }
+  },
+  "group": {
+    "sections": {
+      "details": {
+        "label": "Details"
+      },
+      "basicInfo": {
+        "label": "Basisinformatie"
+      },
+      "capabilities": {
+        "label": "Mogelijkheden"
+      },
+      "membershipAccess": {
+        "label": "Groepslidmaatschap"
+      },
+      "discussions": {
+        "label": "Discussies"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Titel",
+        "requiredError": "Titel groep is een vereist veld",
+        "maxLengthError": "Groepstitel mag niet langer zijn dan 250 tekens",
+        "entityTitleValidatorError": "Naam groep mag geen emojis of de tekens <, >, of = bevatten"
+      },
+      "summary": {
+        "label": "Samenvatting",
+        "maxLengthError": "De samenvatting mag niet langer zijn dan 250 tekens"
+      },
+      "description": {
+        "label": "Beschrijving"
+      },
+      "access": {
+        "label": "Wie kan deze groep weergeven?",
+        "private": {
+          "label": "Privé",
+          "description": "Deze groep is alleen zichtbaar voor groepsleden."
+        },
+        "org": {
+          "label": "Organisatie",
+          "description": "Deze groep is alleen zichtbaar voor leden van de organisatie."
+        },
+        "public": {
+          "label": "Iedereen (openbaar)",
+          "description": "Deze groep is voor iedereen zichtbaar."
+        }
+      },
+      "isSharedUpdate": {
+        "label": "Gedeelde update",
+        "helperText": "Items in deze groep kunnen worden bewerkt door alle leden van deze groep. Lidmaatschap is beperkt tot uw organisatie en uw samenwerkende organisaties."
+      },
+      "isAdmin": {
+        "label": "Beheergroep",
+        "helperText": "Leden kunnen deze groep niet verlaten. Groepsleden kunnen alleen door de groepsbeheerders of de eigenaar uit de groep worden verwijderd. Het lidmaatschap is beperkt tot uw organisatie."
+      },
+      "isOpenData": {
+        "label": "Open data",
+        "helperText": "Sta toe dat deze groep kan worden geopend op Open data-sites.",
+        "constError": "Groepen die niet openbaar zijn, kunnen geen open data zijn."
+      },
+      "_thumbnail": {
+        "label": "Miniatuur",
+        "helperText": "Selecteer een afbeelding die uw groep vertegenwoordigt in het groepsprofiel.",
+        "sizeDescription": "Maximumgrootte is 10 MB. Aanbevolen grootte: 400 x 400 of groter"
+      },
+      "membershipAccess": {
+        "label": "Wie kan aan deze groep deelnemen?",
+        "org": {
+          "description": "Alleen leden van mijn organisatie",
+          "label": "Leden van de organisatie"
+        },
+        "collab": {
+          "description": "Alleen partnersamenwerking en de leden van mijn organisatie",
+          "label": "Alleen medewerkers"
+        },
+        "any": {
+          "description": "Leden van elke organisatie",
+          "label": "Iedereen"
+        },
+        "createFollowers": {
+          "any": "Alle leden van de organisatie (gesuggereerde standaardwaarde)"
+        },
+        "createAssociation": {
+          "any": "Alle leden van de organisatie (gesuggereerde standaardwaarde)"
+        },
+        "constError": "Lidmaatschap van beheergroepen is beperkt tot leden van uw organisatie.",
+        "patternError": "Lidmaatschap van de groep Gedeelde update is beperkt tot uw organisatie of leden van samenwerkende partners."
+      },
+      "contributeContent": {
+        "label": "Wie kan content bijdragen?",
+        "members": {
+          "label": "Leden",
+          "description": "Alle groepsleden"
+        },
+        "admins": {
+          "label": "Beheerders",
+          "description": "Groepseigenaar en managers"
+        },
+        "createFollowers": {
+          "admins": "Groepseigenaar en -beheerders (gesuggereerde standaardwaarde)"
+        },
+        "createAssociation": {
+          "admins": "Groepseigenaar en -beheerders (gesuggereerde standaardwaarde)"
+        }
+      },
+      "join": {
+        "label": "Hoe kunnen mensen lid worden van deze groep?",
+        "invite": {
+          "label": "Uitnodiging",
+          "description": "Alleen op uitnodiging"
+        },
+        "request": {
+          "label": "Aanvraag",
+          "description": "Op aanvraag"
+        },
+        "auto": {
+          "label": "Zichzelf",
+          "description": "Door zichzelf toe te voegen"
+        },
+        "constError": "Lidmaatschap van privé-groepen is alleen mogelijk op uitnodiging.",
+        "patternError": "Lidmaatschap van beheergroepen of gedeelde update-groepen is mogelijk op uitnodiging of op aanvraag."
+      },
+      "hiddenMembers": {
+        "label": "Wie kan de volledige lijst met leden zien op het tabblad Leden?",
+        "members": {
+          "label": "Leden",
+          "description": "Alle groepsleden"
+        },
+        "admins": {
+          "label": "Beheerders",
+          "description": "Groepseigenaar en managers"
+        }
+      },
+      "discussable": {
+        "label": "Kan deze groep aan discussies deelnemen?",
+        "enabled": {
+          "label": "Ja, discussie is toegestaan",
+          "description": "Groepsleden kunnen discussiekanalen waartoe de groep toegang heeft, weergeven en kunnen eraan deelnemen."
+        },
+        "disabled": {
+          "label": "Nee, discussie is geblokkeerd",
+          "description": "Groepsleden kunnen discussiekanalen waartoe de groep toegang heeft, niet weergeven en kunnen er niet aan deelnemen."
+        }
+      }
+    }
+  },
+  "initiativeTemplate": {
+    "sections": {
+      "basicInfo": {
+        "label": "Basisinformatie"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Naam",
+        "requiredError": "Naam initiatiefsjabloon is een vereist veld",
+        "entityTitleValidatorError": "Naam initiatiefsjabloon mag geen emojis of de tekens <, >, of = bevatten"
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "De slug is de URL-vriendelijke versie van de naam van de initiatiefsjabloon. Hij wordt automatisch gegenereerd op basis van de naam van de initiatiefsjabloon, maar u kunt hem aanpassen.",
+        "patternError": "Fout: slug moet bestaan uit kleine letters en cijfers, gescheiden door koppeltekens.",
+        "isUniqueError": "Deze slug is al in gebruik. Kies een andere."
+      },
+      "previewUrl": {
+        "label": "Voorbeeldlink",
+        "helperText": "Een voorbeeldlink wordt op de titel toegepast en is nuttig als u de sjabloon openbaar wilt delen. Links moeten beginnen met \"https://\"",
+        "formatError": "De URL-indeling is onjuist"
+      },
+      "summary": {
+        "label": "Samenvatting",
+        "helperText": "Schrijf een korte beschrijving van deze sjabloon die in de sjablonengalerij wordt weergegeven (aanbeveling: 90 tekens of minder)."
+      },
+      "description": {
+        "label": "Beschrijving",
+        "helperText": "Neem informatie op over de manier waarop deze sjabloon moet worden gebruikt. Een idee is het opnemen van activeringsinstructies voor anderen."
+      },
+      "_thumbnail": {
+        "label": "Thumbnail",
+        "helperText": "Stel een thumbnail in om deze sjabloon te vertegenwoordigen in ArcGIS Online, in Zoeken en in galerijen.",
+        "sizeDescription": "De maximumgrootte is 10mb. Aanbevolen grootte: 750 x 505 of groter"
+      },
+      "recommendedTemplates": {
+        "label": "Aanbevolen sjablonen",
+        "catalog": {
+          "myContent": "Mijn content",
+          "favorites": "Favorieten",
+          "organization": "Mijn organisatie",
+          "world": "Wereld (openbaar)"
+        },
+        "facets": {
+          "sharing": "Delen"
+        },
+        "pickerTitle": "Sjablonen selecteren"
+      }
+    }
+  },
+  "template": {
+    "sections": {
+      "basicInfo": {
+        "label": "Basisinformatie"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Naam sjabloon",
+        "requiredError": "Naam sjabloon is een vereist veld",
+        "maxLengthError": "De naam van de sjabloon mag niet langer zijn dan 250 tekens",
+        "entityTitleValidatorError": "Naam sjabloon mag geen emojis of de tekens <, >, of = bevatten"
+      },
+      "previewUrl": {
+        "label": "Voorbeeldlink",
+        "helperText": "Een voorbeeldlink wordt op de titel toegepast en is nuttig als u de sjabloon openbaar wilt delen. Links moeten beginnen met \"https://\"",
+        "formatError": "De URL-indeling is onjuist"
+      },
+      "description": {
+        "label": "Beschrijving",
+        "helperText": "Neem informatie op over de manier waarop deze sjabloon moet worden gebruikt. Een idee is het opnemen van activeringsinstructies voor anderen."
+      },
+      "summary": {
+        "label": "Samenvatting",
+        "helperText": "Schrijf een korte beschrijving van deze sjabloon die in de sjablonengalerij wordt weergegeven (aanbeveling: 90 tekens of minder)."
+      },
+      "_thumbnail": {
+        "helperText": "Selecteer een afbeelding die uw sjabloon vertegenwoordigt in galerijen."
+      }
+    }
+  },
+  "survey": {
+    "sections": {
+      "basicInfo": {
+        "label": "Basisinformatie"
+      },
+      "searchDiscoverability": {
+        "label": "Zoeken en zichtbaarheid"
+      },
+      "settings": {
+        "label": "Kaartweergave"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Naam vragenlijst",
+        "requiredError": "Naam vragenlijst is een vereist veld",
+        "maxLengthError": "Naam vragenlijst mag niet langer zijn dan 250 tekens",
+        "entityTitleValidatorError": "Naam vragenlijst mag geen emojis of de tekens <, >, of = bevatten"
+      },
+      "description": {
+        "label": "Beschrijving",
+        "helperText": "De beschrijving van de vragenlijst."
+      },
+      "summary": {
+        "label": "Samenvatting",
+        "helperText": "Geef een korte samenvatting van de vragenlijst."
+      },
+      "_thumbnail": {
+        "helperText": "Stel in ArcGIS Online een thumbnail in voor deze pagina die ook wordt gebruikt voor zoekopdrachten en galerijen."
+      },
+      "tags": {
+        "label": "Tags",
+        "helperText": "Tags worden in zoekcatalogi gebruikt om anderen te helpen deze vragenlijst te vinden. Voeg tekst toe en selecteer Enter als u nieuwe tags wilt maken."
+      },
+      "categories": {
+        "helperText": "Categorieën worden in zoekcatalogi gebruikt om anderen te helpen deze vragenlijst te vinden. Ze worden ingesteld door uw organisatie."
+      },
+      "displayMap": {
+        "label": "Hoe moet uw vragenlijst worden weergegeven wanneer deze in ArcGIS Hub wordt geopend?",
+        "enabled": {
+          "label": "Focus op kaart",
+          "description": "Meeslepende kaartervaring, kaartvraag wordt als eerste weergegeven."
+        },
+        "disabled": {
+          "label": "Standaardweergave",
+          "description": "Kaart wordt inline weergegeven met de rest van de vragen."
+        },
+        "notice": {
+          "title": "Kaartvraag vereist",
+          "message": "Publiceer uw vragenlijst met een kaartvraag in Survey123 om de weergave van de kaart in ArcGIS Hub te configureren."
+        }
+      }
+    }
+  },
+  "event": {
+    "fields": {
+      "name": {
+        "label": "Titel",
+        "requiredError": "Titel is een vereist veld",
+        "entityTitleValidatorError": "Naam evenement mag geen emojis of de tekens <, >, of = bevatten"
+      },
+      "startDate": {
+        "label": "Begindatum",
+        "requiredError": "Begindatum is een vereist veld",
+        "minDateError": "Begindatum kan niet eerder zijn dan vandaag"
+      },
+      "endDate": {
+        "label": "Einddatum",
+        "requiredError": "Einddatum is een vereist veld",
+        "minDateError": "Einddatum kan niet voor de startdatum liggen."
+      },
+      "date": {
+        "label": "Datum",
+        "requiredError": "Datum is een vereist veld",
+        "minDateError": "Datum kan niet eerder zijn dan vandaag"
+      },
+      "startTime": {
+        "label": "Begintijd",
+        "requiredError": "Begintijd is een vereist veld"
+      },
+      "endTime": {
+        "label": "Eindtijd",
+        "requiredError": "Eindtijd is een vereist veld",
+        "minTimeError": "Eindtijd moet na de starttijd liggen"
+      },
+      "allDay": {
+        "label": "De hele dag"
+      },
+      "timeZone": {
+        "label": "Tijdzone",
+        "requiredError": "Tijdzone is een vereist veld"
+      },
+      "attendanceType": {
+        "label": "Waar",
+        "inPerson": {
+          "label": "In persoon"
+        },
+        "online": {
+          "label": "Online"
+        },
+        "both": {
+          "label": "Beide"
+        }
+      },
+      "onlineUrl": {
+        "label": "Link voor deelname online evenement",
+        "requiredError": "URL is vereist voor online of hybride evenementen",
+        "linkHrefFormatError": "De URL-indeling is onjuist"
+      },
+      "description": {
+        "label": "Beschrijving",
+        "helperText": "Voeg extra informatie toe voor geregistreerde personen, zoals type evenement, doel, agenda, wat mee te brengen, transportmogelijkheden et cetera.",
+        "requiredError": "Beschrijving is een vereist veld"
+      },
+      "inPersonCapacity": {
+        "label": "Maximale capaciteit fysieke bijwoning",
+        "requiredError": "Maximale capaciteit fysieke bijwoning is vereist",
+        "minimumError": "Maximale capaciteit fysieke bijwoning moet groter zijn dan 0"
+      },
+      "inPersonCapacityType": {
+        "label": "Capaciteit registratie fysieke bijwoning",
+        "unlimited": {
+          "label": "Onbeperkt"
+        },
+        "fixed": {
+          "label": "Vast"
+        }
+      },
+      "location": {
+        "label": "Geef het geografische gebied weer waar het evenement zal plaatsvinden (voor weergave op de lay-out van het evenement)."
+      },
+      "onlineCapacityType": {
+        "label": "Capaciteit registratie online bijwoning",
+        "unlimited": {
+          "label": "Onbeperkt"
+        },
+        "fixed": {
+          "label": "Vast"
+        }
+      },
+      "onlineCapacity": {
+        "label": "Maximumcapaciteit online",
+        "requiredError": "Maximumcapaciteit online is vereist",
+        "minimumError": "Maximumcapaciteit online moet hoger zijn dan 0"
+      },
+      "onlineDetails": {
+        "label": "Details online evenement",
+        "helperText": "Voeg meer informatie toe voor geregistreerde personen, zoals een wachtwoord, inbelgegevens et cetera."
+      },
+      "categories": {
+        "helperText": "Categorieën worden in zoekcatalogi gebruikt om anderen te helpen dit evenement te vinden. Ze worden ingesteld door uw organisatie."
+      },
+      "tags": {
+        "label": "Tags",
+        "helperText": "Tags worden in zoekcatalogi gebruikt om anderen te helpen dit evenement te vinden. Voeg tekst toe en selecteer Enter als u nieuwe tags wilt maken."
+      },
+      "summary": {
+        "label": "Samenvatting",
+        "helperText": "Geef een korte beschrijving van het doel van het evenement, die helpt als de link met anderen wordt gedeeld."
+      },
+      "allowRegistration": {
+        "label": "Registratie toestaan",
+        "helperText": "Er is een account nodig voor registratie of uitnodiging tot bijwoning.",
+        "enabled": {
+          "label": "Registratieknop is ingeschakeld",
+          "description": "Elk lid dat het evenement kan weergeven, kan zich registreren."
+        },
+        "disabled": {
+          "label": "Registratieknop is uitgeschakeld",
+          "description": "Registratie is alleen voor genodigden of wordt niet bijgehouden."
+        }
+      },
+      "notifyAttendees": {
+        "label": "Automatische kennisgevingen sturen",
+        "helperText": "Abonnees op het evenement kunnen automatische e-mailkennisgevingen ontvangen bij wijze van herinnering of als zich wijzigingen voordoen. Personen die zich registreren voor bijwoning, zijn automatisch geabonneerd.",
+        "enabled": {
+          "label": "Kennisgevingen zijn ingeschakeld",
+          "description": "De abonnementsknop voor het evenement is zichtbaar."
+        },
+        "disabled": {
+          "label": "Kennisgevingen zijn uitgeschakeld",
+          "description": "De abonnementsknop voor het evenement is verborgen."
+        }
+      },
+      "referencedContent": {
+        "label": "Gekoppelde content",
+        "helperText": {
+          "label": "Koppel een project, initiatief of site die met dit evenement te maken heeft."
+        },
+        "facets": {
+          "from": {
+            "label": "Van",
+            "myContent": {
+              "label": "Mijn content"
+            },
+            "myOrganization": {
+              "label": "Mijn organisatie"
+            }
+          },
+          "access": {
+            "label": "Toegang"
+          }
+        },
+        "catalog": {
+          "organization": "Organisatie"
+        },
+        "collection": {
+          "sites": "Sites",
+          "initiatives": "Initiatieven",
+          "projects": "Projecten"
+        }
+      }
+    },
+    "sections": {
+      "referencedContent": {
+        "label": "Gekoppelde content"
+      },
+      "eventInfo": {
+        "label": "Info evenement"
+      },
+      "dateTime": {
+        "label": "Datum en tijd"
+      },
+      "location": {
+        "label": "Locatie"
+      },
+      "discoverability": {
+        "label": "Zoeken en zichtbaarheid"
+      }
+    }
+  },
+  "user": {
+    "sections": {
+      "userSettings": "Gebruikersvoorkeuren",
+      "orgSettings": {
+        "label": "Organisatie-instellingen",
+        "signinSettings": {
+          "label": "Aanmeldingsopties",
+          "helperText": "Configureer welke informatie gebruikers zien als ze ervoor kiezen zich te registreren voor een Community-account in uw Hub."
+        },
+        "siteDefaults": {
+          "label": "Standaardwaarde siteweergave"
+        }
+      }
+    },
+    "fields": {
+      "enableTermsAndConditions": {
+        "label": "Aangepaste gebruiksvoorwaarden vereisen op registratieformulier."
+      },
+      "termsAndConditions": {
+        "label": "Gebruiksvoorwaarden"
+      },
+      "enableSignupText": {
+        "label": "Configureer een aangepast welkomstbericht bij registratie"
+      },
+      "workspacePreview": {
+        "label": "Voorbeeld werkruimte inschakelen",
+        "helperText": "Er kan een voorbeeld van werkruimtes worden weergegeven, maar dit is nog in ontwikkeling terwijl wij de functionaliteit uitbreiden. U kunt werkruimtes tijdens de voorbeeldperiode op elk gewenst tijdstip uitschakelen. Het inschakelen van werkruimtes heeft alleen invloed op deze gebruikersaccount."
+      },
+      "infoBanner": {
+        "label": "Informatiebanner",
+        "helperText": "Geef het informatiebanner van uw werknemersorganisatie (indien geconfigureerd) weer op alle sites en pagina's. Dit is een algemene instelling en kan niet worden in- of uitgeschakeld voor een specifieke site.",
+        "helperTextWhenDisabled": "Er is momenteel geen informatiebanner geconfigureerd. Klik op de onderstaande link om naar ArcGIS Online te gaan; u kunt uw informatiebanner daar configureren.",
+        "goToBannerConfig": "Informatiebanner configureren in ArcGIS Online"
+      }
+    },
+    "notice": {
+      "title": "Organisatiebeheer",
+      "message": "De meeste organisatie-instellingen voor personeel en community (uitsluitend Hub Premium) worden nu beheerd in de ArcGIS-thuisorganisatie.",
+      "communityMessage": "De meeste organisatie-instellingen voor personeel en community (uitsluitend Hub Premium) worden nu beheerd in de ArcGIS-thuisorganisatie. <br /> <br /> Uw community-organisatie is",
+      "staffMessage": "De meeste organisatie-instellingen voor personeel en community (uitsluitend Hub Premium) worden nu beheerd in de ArcGIS-thuisorganisatie. <br /> <br /> Uw personeelsorganisatie is",
+      "actions": {
+        "goToOrg": "Ga naar organisatie-instellingen",
+        "goToCommunityOrg": "Ga naar community-organisatie",
+        "goToStaffOrg": "Ga naar personeelsorganisatie"
+      }
+    }
+  }
+}

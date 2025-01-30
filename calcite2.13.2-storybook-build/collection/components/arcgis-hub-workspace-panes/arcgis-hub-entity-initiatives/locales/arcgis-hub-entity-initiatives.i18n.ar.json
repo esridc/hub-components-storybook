@@ -1,0 +1,87 @@
+{
+  "initiatives": "المبادرات",
+  "description": "ارتبط بالمبادرات للمساهمة في الجهود طويلة المدى أو واسعة النطاق. يمكن للمتعاونين في المشروع إدارة الاقترانات المؤكدة وطلبات الاقتران المعلقة. ستظهر المبادرات ذات الاقترانات المؤكدة في عرض هذا المشروع. ",
+  "shared": {
+    "error": {
+      "title": "حدث خطأ ما",
+      "message": "لم نتمكن من إكمال المهمة. يرجى إعادة المحاولة."
+    },
+    "facets": {
+      "access": {
+        "label": "مشاركة"
+      },
+      "status": {
+        "label": "الحالة",
+        "notStarted": "لم يبدأ",
+        "inProgress": "قيد التقدّم",
+        "onHold": "متوقف مؤقتًا",
+        "complete": "اكتمل"
+      },
+      "tags": {
+        "label": "العلامات"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "تم تأكيد {currentConfirmedAndOutgoingRequests} / {maxCurrentAndOutgoingRequestsAllowed} + الطلبات الصادرة",
+      "tooltip": "لإرسال طلبات، افصل عمليات الاقتران الحالية و/أو الطلبات الصادرة"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "البحث عن المبادرات",
+    "sendRequest": "إرسال طلب",
+    "success": {
+      "title": "نجحت العملية",
+      "message": "تم إرسال طلبات الاقتران: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "التحقق من عمليات الاقتران",
+      "message": "طلبت بعض عمليات التحديد الاقتران بالفعل. تم إرسال طلبات الاقتران الجديدة: {count}"
+    },
+    "catalog": {
+      "myContent": "محتواي",
+      "favorites": "المفضلة",
+      "organization": "مؤسستي",
+      "partners": "شركائي",
+      "community": "مجتمعي"
+    },
+    "collection": {
+      "initiatives": "المبادرات"
+    }
+  },
+  "acceptAssociation": {
+    "label": "قبول",
+    "limitReachedTooltip": "للقبول، افصل عمليات الاقتران الحالية و/أو الطلبات الصادرة",
+    "success": {
+      "title": "نجحت العملية",
+      "message": "تم قبول الاقتران بـ {requestor}"
+    }
+  },
+  "cancelRequest": {
+    "label": "إلغاء الطلب",
+    "success": {
+      "title": "نجحت العملية",
+      "message": "تم إلغاء طلب الاقتران"
+    }
+  },
+  "breakAssociation": {
+    "label": "قطع الاتصال",
+    "success": {
+      "title": "تم فصل الاقتران",
+      "message": "لقد فصلنا هذا العنصر من الاقتران السابق. مع ذلك، لا يمكننا عكس القرار من الجانب الآخر، لذا سيظل بإمكانك رؤيته في الطلبات الواردة."
+    }
+  },
+  "associationsGallery": {
+    "sources": "الحالة",
+    "catalog": {
+      "associated": "مقترن",
+      "requesting": "الطلبات الواردة",
+      "pending": "الطلبات الصادرة"
+    },
+    "collection": {
+      "initiatives": "المبادرات"
+    }
+  },
+  "notice": {
+    "label": "رسائل تنبيه النموذج"
+  }
+}

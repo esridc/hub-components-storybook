@@ -1,0 +1,10 @@
+{
+  "targetEntity": {
+    "label": "Forrás",
+    "enum": {
+      "item": "Elemek",
+      "event": "Események",
+      "group": "Csoportok"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "newFilter": "Novo filtro",
+  "block": {
+    "heading": {
+      "untitled": "Novo filtro",
+      "default": "Filtro {filterNum}: {parameter}",
+      "group": "Filtro {filterNum}: grupos",
+      "type": "Filtro {filterNum}: tipos",
+      "occurrence": "Filtro {filterNum}: ocorrência"
+    },
+    "actions": {
+      "delete": "Eliminar filtro: {label}"
+    }
+  }
+}

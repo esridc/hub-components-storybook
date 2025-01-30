@@ -1,0 +1,1 @@
+function t(t){return"string"==typeof t?t.trim().toLowerCase().replace(/ +/g,"-").replace(/[^\w-]/g,"").replace(/-+/g,"-"):t}export{t as s}

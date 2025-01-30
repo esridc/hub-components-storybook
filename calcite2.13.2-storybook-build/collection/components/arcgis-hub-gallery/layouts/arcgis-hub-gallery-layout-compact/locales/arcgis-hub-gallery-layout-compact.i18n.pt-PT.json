@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Não foram encontrados resultados."
+    },
+    "error": {
+      "message": "Lamentamos, mas a pesquisa deparou-se com um erro."
+    }
+  },
+  "type": "Tipo",
+  "tags": "Palavras-chave",
+  "owner": "Proprietário",
+  "dateCreated": "Criado",
+  "dateUpdated": "Modificado",
+  "categories": "Categorias",
+  "dateAndTime": "Data e hora",
+  "allDay": "{date} (dia completo)",
+  "allDayRange": "{from} - {to} (dia completo)",
+  "location": "Localização",
+  "attendanceType": "Tipo de participação",
+  "inPerson": "Presencial",
+  "online": "Online",
+  "hybrid": "Híbrido"
+}

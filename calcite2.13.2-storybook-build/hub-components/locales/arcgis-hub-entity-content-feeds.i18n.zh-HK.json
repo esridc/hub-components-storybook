@@ -1,0 +1,81 @@
+{
+  "tabTitle": "摘要配置",
+  "learn": "瞭解有關 Hub 摘要的詳細資訊",
+  "loadingLabel": "正在載入",
+  "enableFeedsToggle": {
+    "label": "啟用摘要",
+    "privateNotice": "要啟用摘要，您需要先將 Hub 網站設為「公開」。",
+    "emptyPublicCatalog": {
+      "message": "要啟用摘要，您需要先將公開內容新增至目錄。",
+      "button": "檢視目錄"
+    },
+    "grouplessCatalog": {
+      "message": "若要啟用摘要，您需要先配置目錄。",
+      "button": "設定目錄"
+    }
+  },
+  "gettingStartedNotice": {
+    "title": "開始進行",
+    "exampleMessage": "使用文字 (\"VALUE\") 或樣板 (\"{{TEMPLATE_VALUE}}\") 值突顯和更新 JSON 編輯器中的索引鍵或值。",
+    "previewMessage": "使用「預覽」開關來預覽您的變更。 有關其他資訊，請閱讀<catalogFederationLink>目錄聯合說明文件</catalogFederationLink>。"
+  },
+  "aboutFeedsNotice": {
+    "message": "透過 Hub 摘要，使您的公共 Open Data 可以輕鬆存取和重複使用。",
+    "link": "瞭解有關 Hub 摘要的詳細資訊"
+  },
+  "feedsEditorSection": {
+    "title": "摘要",
+    "formatSelectLabel": "選擇摘要類型",
+    "uneditableAttributesIntro": "請注意，下列屬性無法編輯:",
+    "edit": "編輯",
+    "preview": "預覽",
+    "selectContentNotice": "選擇要預覽的內容。",
+    "invalidJsonEditorWarning": "JSON 無效。 請在儲存前更正錯誤。",
+    "invalidJsonPreviewWarning": "無法預覽無效的 JSON，請更正錯誤。",
+    "errorPreviewingWarning": "發生錯誤。 請檢查您的連線並再試一次。 如果問題仍然存在，請向 Hub 支援記錄錯誤。"
+  },
+  "toolsSection": {
+    "title": "工具",
+    "verification": "驗證",
+    "previewSampleData": {
+      "label": "預覽範例資料",
+      "pickerFacets": {
+        "type": "類型",
+        "tags": "標記",
+        "categories": "類別",
+        "sharing": "正在分享",
+        "dateUpdated": "更新日期"
+      }
+    },
+    "copyableInputLabel": "摘要存取 URL"
+  },
+  "dcat-us": {
+    "1.1": {
+      "title": "DCAT-US 1.1",
+      "description": "DCAT 能讓組織標準化資料貢獻，並協助人們剖析聯合資源。 您可以使用專案 Open Data 建立的 <dcatUsSchemaLink>DCAT 結構描述</dcatUsSchemaLink> (預設配置)，或自行配置某些欄位/屬性。 網站管理員還可以新增其他 DCAT 配置，並可能想閱讀文章<catalogFederationLink>與 DCAT 和其他外部目錄聯合資料。</catalogFederationLink>",
+      "uneditableAttributes": "@type、landingPage、webService 和 contactPoint['@type']。",
+      "verificationLabel": "您可以將網站的 DCAT URL 張貼到<dcatUsVerificationLink>專案 Open Data 的驗證器</dcatUsVerificationLink>以驗證您的 DCAT 摘要。"
+    }
+  },
+  "dcat-ap": {
+    "2.1.1": {
+      "title": "DCAT-AP 2.1.1",
+      "description": "DCAT-AP 由歐盟委員會建立，是跨歐洲資料目錄的標準中繼資料交換格式。 當您編輯內容中繼資料的詳細資訊，或向目錄新增公共內容時，ArcGIS Hub 會自動建立和更新網站的 DCAT-AP 摘要。 由於摘要使用 ArcGIS Online 中維護的中繼資料，因此無需手動建立單獨的 DCAT-AP 中繼資料。<lineBreak></lineBreak><lineBreak></lineBreak>使用此編輯器，您可以保留 ArcGIS Hub 的 <dcatApSchemaLink>DCAT-AP 結構描述</dcatApSchemaLink>預設配置，也可以自行配置某些欄位/屬性。 您還可以新增 DCAT-AP 欄位/屬性。 如需進一步詳細資訊，請參閱 ArcGIS Hub 中有關<catalogFederationLink>將資料與 DCAT 和其他外部目錄聯合</catalogFederationLink>的文件。",
+      "uneditableAttributes": "@type、@id、dcat:contactPoint['@id']、dcat:contactPoint['@type']、dct:publisher、dcat:theme、dct:accessRights、dcat:keyword、dct:provenance、dct:issued 和 dct:language",
+      "verificationLabel": "您可以將網站的 DCAT URL 貼到<dcatApVerificationLink>歐盟委員會互通性測試台</dcatApVerificationLink>來驗證您的 DCAT 摘要。"
+    }
+  },
+  "rss": {
+    "2.0": {
+      "title": "RSS 2.0",
+      "description": "<rssAboutLink>RSS 2</rssAboutLink> 是一種 Web 內容聯合格式，並符合 <xmlSpecLink>XML 1.0 規格</xmlSpecLink>。 使用此編輯器，您可以保留 ArcGIS Hub 的預設配置，也可以自己配置某些欄位/屬性。 如需進一步詳細資訊，請參閱 ArcGIS Hub 中有關<catalogFederationLink>將資料與 DCAT 和其他外部目錄聯合</catalogFederationLink>的文件。",
+      "verificationLabel": "您可以透過將網站的 RSS URL 傳遞到 W3 <rssVerificationLink>摘要驗證器</rssVerificationLink>來驗證您的 RSS 摘要。"
+    }
+  },
+  "saveButton": "儲存",
+  "alertMessages": {
+    "success": "已成功儲存編輯內容",
+    "error": "儲存編輯內容時發生錯誤"
+  },
+  "formAlert": "表格警示"
+}

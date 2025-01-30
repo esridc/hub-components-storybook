@@ -1,0 +1,19 @@
+{
+  "facets": {
+    "location": {
+      "label": "Plats",
+      "tooltip": "Tillämpa kartutbredningen som ett platsfilter"
+    },
+    "status": "Status",
+    "tags": "Taggar",
+    "categories": "Kategorier",
+    "dateUpdated": "Datum uppdaterat"
+  },
+  "status": {
+    "label": "Projektstatus",
+    "notStarted": "Inte startad",
+    "inProgress": "Pågår",
+    "onHold": "Väntande",
+    "complete": "Fullständig"
+  }
+}

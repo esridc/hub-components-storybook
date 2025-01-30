@@ -1,0 +1,118 @@
+{
+  "layout": {
+    "title": "Diseño",
+    "helperText": "Esto configura el aspecto de los resultados cuando los visitantes accedan por primera vez a su catálogo. Los visitantes seguirán teniendo la opción de cambiar el método de visualización por sí mismos.",
+    "enum": {
+      "list": {
+        "label": "Lista",
+        "description": "Se utiliza para mostrar los metadatos y cuando es posible que los visitantes estén realizando búsquedas específicas."
+      },
+      "grid": {
+        "label": "Cuadrícula",
+        "description": "Se utiliza con resultados que tienen vistas en miniatura de alta calidad y cuando es posible que los visitantes estén navegando."
+      },
+      "table": {
+        "label": "Tabla",
+        "description": "Se utiliza para presentar resultados en un formato estructurado con columnas que pueden ordenarse, lo que resulta ideal cuando existe la posibilidad de que los visitantes quieran ver y comparar varios elementos y sus atributos."
+      },
+      "map": {
+        "label": "Mapa",
+        "description": "Se utiliza con resultados que están sujetos a ubicaciones físicas y cuando es posible que los visitantes estén explorando áreas de interés."
+      },
+      "compact": {
+        "label": "Compacta",
+        "description": "Se utiliza para minimizar el número de resultados visibles en un espacio más pequeño, lo que resulta ideal durante la navegación o visualización rápida en dispositivos móviles."
+      }
+    }
+  },
+  "cards": {
+    "title": "Tarjetas",
+    "cardTitleTag": {
+      "label": "Encabezado",
+      "helperText": "Se puede utilizar para mejorar la estructura de encabezados anidados con fines de accesibilidad. No cambiará el tamaño de fuente.",
+      "enum": {
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        }
+      }
+    },
+    "showThumbnail": {
+      "label": "Mostrar vista en miniatura",
+      "enum": {
+        "show": {
+          "label": "Siempre",
+          "description": "Las imágenes de vista en miniatura siempre se mostrarán en las tarjetas de resultados, con independencia del diseño de los resultados."
+        },
+        "hide": {
+          "label": "No mostrar vistas en miniatura",
+          "description": "Las imágenes de vista en miniatura no se mostrarán en ningún tipo de tarjeta de resultados. Utilice esta opción tiene vistas en miniatura de mala calidad o si desea que los usuarios puedan escanear los resultados de la lista con más rapidez en equipos móviles y de escritorio."
+        },
+        "grid": {
+          "label": "Solo en cuadrícula",
+          "description": "Las imágenes de vista en miniatura solo se mostrarán en tarjetas de red. Las tarjetas de la lista presentarán una columna de metadatos adicional en lugar de una imagen."
+        }
+      }
+    },
+    "corners": {
+      "label": "Esquinas",
+      "enum": {
+        "square": {
+          "label": "Cuadrado"
+        },
+        "round": {
+          "label": "Redondeadas"
+        }
+      }
+    },
+    "shadow": {
+      "label": "Sombreado",
+      "enum": {
+        "heavy": {
+          "label": "Denso"
+        },
+        "low": {
+          "label": "Bajo"
+        },
+        "medium": {
+          "label": "Medio"
+        },
+        "none": {
+          "label": "Ninguno"
+        }
+      }
+    },
+    "showLinkButton": {
+      "label": "Incluir botones",
+      "helperText": "Si los botones están desactivados, solo el título de la tarjeta será un vínculo."
+    },
+    "linkButtonStyle": {
+      "label": "Estilo",
+      "enum": {
+        "outline-filled": {
+          "label": "Relleno"
+        },
+        "outline": {
+          "label": "Contorno"
+        }
+      }
+    },
+    "linkButtonText": {
+      "label": "Texto"
+    }
+  }
+}

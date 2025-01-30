@@ -1,0 +1,47 @@
+{
+  "communityOrg": "Bendruomenės organizacija",
+  "editLayout": "Redaguoti maketą",
+  "orgWorkspace": "Atidaryti pradžios darbo sritį",
+  "editS123": "Redaguoti platformoje Survey123",
+  "editAdvancedJson": "Redaguoti išplėstinį JSON",
+  "view": {
+    "project": "Peržiūrėti projektą",
+    "site": "Peržiūrėti svetainę",
+    "initiative": "Peržiūrėti iniciatyvą",
+    "discussion": "Peržiūrėti lentą",
+    "content": "Peržiūrėti turinį",
+    "page": "Peržiūrėti puslapį",
+    "group": "Peržiūrėti grupę",
+    "initiativeTemplate": "Peržiūrėti iniciatyvos šabloną",
+    "template": "Peržiūrėti šabloną",
+    "survey": "Peržiūrėti apklausą",
+    "event": "Peržiūrėti renginį"
+  },
+  "access": {
+    "share": "Bendrinti",
+    "sharingLevel": "Bendrinimo lygis",
+    "groupSharing": "Grupių bendrinimas",
+    "tooltip": {
+      "public": "Bendrinimo lygis: vieša",
+      "org": "Bendrinimo lygis: organizacija",
+      "private": "Bendrinimo lygis: privati",
+      "shared": "Bendrinimo lygis: bendrinta privačiai"
+    },
+    "save": "Įrašyti",
+    "cancel": "Atšaukti",
+    "alert": {
+      "success": "Pakeitimai įrašyti sėkmingai",
+      "error": "Klaida išsaugant pakeitimus",
+      "label": "Formos įspėjimas"
+    }
+  },
+  "popoverActions": {
+    "label": "Daugiau veiksmų",
+    "openInEnterprise": "Atverti naudojant ArcGIS Enterprise",
+    "openInOnline": "Atidaryti naudojant ArcGIS Online"
+  },
+  "homeLink": {
+    "text": "Pradžia"
+  },
+  "createContent": "Kurti"
+}

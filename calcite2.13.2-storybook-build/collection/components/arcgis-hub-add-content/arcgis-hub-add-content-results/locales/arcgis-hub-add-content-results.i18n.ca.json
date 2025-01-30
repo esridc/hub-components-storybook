@@ -1,0 +1,54 @@
+{
+  "existing": {
+    "successHeading": "El contingut s'ha afegit correctament.",
+    "failureHeading": "No es pot afegir contingut al grup seleccionat.",
+    "successfulAccordionHeading": "El contingut s'ha afegit al grup seleccionat.",
+    "unsuccessfulAccordionHeading": "El contingut no s'ha afegit al grup seleccionat"
+  },
+  "create": {
+    "event": {
+      "successWithoutGroupHeading": "L'esdeveniment s'ha creat correctament.",
+      "successWithGroupHeading": "L'esdeveniment s'ha creat correctament i s'ha afegit a {group}.",
+      "successMessage": "Ara podeu veure l'esdeveniment, administrar-lo per editar-ne la informació o fer clic a \"Fet\" per tornar a la visualització.",
+      "failureHeading": "No es pot afegir l'esdeveniment al grup seleccionat."
+    },
+    "discussion": {
+      "successWithoutGroupHeading": "El tauler de debat s'ha creat correctament.",
+      "successWithGroupHeading": "El tauler de debat s'ha creat correctament i s'ha afegit a {group}.",
+      "successMessage": "Ara podeu veure el tauler de debat, administrar-lo per editar-ne la informació o fer clic a \"Fet\" per tornar a la visualització.",
+      "failureHeading": "No es pot afegir el tauler de debat al grup seleccionat."
+    },
+    "group": {
+      "successWithoutGroupHeading": "El grup s'ha creat correctament.",
+      "successMessage": "Ara podeu veure el grup, administrar-lo per editar-ne la informació o fer clic a \"Fet\" per tornar a la visualització.",
+      "failureHeading": "No es pot crear el grup."
+    },
+    "initiative": {
+      "successWithoutGroupHeading": "La iniciativa s'ha creat correctament.",
+      "successWithGroupHeading": "La iniciativa s'ha creat correctament i s'ha afegit a {group}.",
+      "successMessage": "Ara podeu veure la iniciativa, administrar-la per editar-ne la informació o fer clic a \"Fet\" per tornar a la visualització.",
+      "failureHeading": "No es pot afegir la iniciativa al grup seleccionat."
+    },
+    "page": {
+      "successWithoutGroupHeading": "La pàgina s'ha creat correctament.",
+      "successWithGroupHeading": "La pàgina s'ha creat correctament i s'ha afegit a {group}.",
+      "successMessage": "Ara podeu veure la pàgina, administrar-la per editar-ne la informació o fer clic a \"Fet\" per tornar a la visualització.",
+      "failureHeading": "No es pot afegir la pàgina al grup seleccionat."
+    },
+    "project": {
+      "successWithoutGroupHeading": "El projecte s'ha creat correctament.",
+      "successWithGroupHeading": "El projecte s'ha creat correctament i s'ha afegit a {group}.",
+      "successMessage": "Ara podeu veure el projecte, administrar-lo per editar-ne la informació o fer clic a \"Fet\" per tornar a la visualització.",
+      "failureHeading": "No es pot afegir el projecte al grup seleccionat."
+    },
+    "site": {
+      "successWithoutGroupHeading": "El lloc s'ha creat correctament.",
+      "successWithGroupHeading": "El lloc s'ha creat correctament i s'ha afegit a {group}.",
+      "successMessage": "Ara podeu veure el lloc, administrar-lo per editar-ne la informació o fer clic a \"Fet\" per tornar a la visualització.",
+      "failureHeading": "No es pot afegir el lloc al grup seleccionat."
+    }
+  },
+  "editLayout": "Edita el disseny",
+  "manageEntity": "Administra",
+  "viewEntity": "Visualització"
+}

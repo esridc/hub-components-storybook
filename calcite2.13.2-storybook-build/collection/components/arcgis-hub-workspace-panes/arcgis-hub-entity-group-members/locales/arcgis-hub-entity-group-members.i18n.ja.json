@@ -1,0 +1,59 @@
+{
+  "title": "メンバー",
+  "facets": {
+    "role": {
+      "label": "役割",
+      "all": "すべて",
+      "manager": "管理者",
+      "member": "メンバー"
+    },
+    "dateJoined": {
+      "label": "加入日"
+    }
+  },
+  "stats": {
+    "total": {
+      "title": "合計",
+      "trailingText": "グループ メンバー"
+    },
+    "new": {
+      "title": "新規",
+      "trailingText": "過去 30 日間"
+    }
+  },
+  "addMembers": {
+    "button": "メンバーの追加",
+    "disabledTooltip": "このグループにユーザーを追加するためのアクセス権がありません。",
+    "modal": {
+      "title": "メンバーの追加",
+      "org": "組織",
+      "community": "コミュニティ",
+      "partner": "パートナー",
+      "world": "世界"
+    },
+    "notifications": {
+      "invited": "招待が送信されました。 ユーザーが参加するには、同意する必要があります",
+      "added": "ユーザーが追加されました",
+      "notInvited": "一部のユーザーには、グループに参加するために必要な権限がないか、グループ数の上限 (512) に達している可能性があります"
+    }
+  },
+  "removeUsers": {
+    "button": "削除",
+    "success": "メンバーが {groupName} から正常に削除されました。",
+    "error": "1 人以上のユーザーをグループから削除できませんでした。"
+  },
+  "changeRole": {
+    "tooltipText": "自分自身とグループ所有者のいずれか、または両方の選択解除",
+    "tooltipLabel": "ロールの免責事項",
+    "button": "ロールの変更",
+    "member": "メンバー",
+    "memberHelperText": "グループ内のコンテンツを追加および表示できます。",
+    "admin": "管理者",
+    "adminHelperText": "コンテンツを追加/削除して、ユーザー (所有者を除く) を招待/削除できます。",
+    "success": "選択したメンバーがグループの {role} になりました。",
+    "error": "1 人以上のメンバーのロールを変更できませんでした。"
+  },
+  "notice": {
+    "label": "フォームの通知"
+  }
+}

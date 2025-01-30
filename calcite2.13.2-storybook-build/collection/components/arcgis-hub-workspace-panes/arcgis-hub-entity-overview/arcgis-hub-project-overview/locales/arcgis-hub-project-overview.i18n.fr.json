@@ -1,0 +1,19 @@
+{
+  "overview": "Vue d’ensemble",
+  "telemetry": {
+    "pageViews": "Vues des pages",
+    "last30days": "30 derniers jours",
+    "lastUpdated": "Dernière mise à jour il y a {hoursElapsed} heures",
+    "checkTomorrow": "Réessayer demain"
+  },
+  "learnAbout": "En savoir plus sur les projets Hub",
+  "status": {
+    "notStarted": "Non commencé",
+    "inProgress": "En cours",
+    "onHold": "Suspendu",
+    "complete": "Terminé"
+  },
+  "editDetails": "Modifier les détails",
+  "noPurposeSet": "Aucun objet défini",
+  "noLocationSet": "Aucune localisation définie"
+}

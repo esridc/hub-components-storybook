@@ -1,0 +1,43 @@
+{
+  "header": "Discussões",
+  "myContent": "Meus Eventos",
+  "editableContent": "Conteúdo Editável",
+  "addContentButtonText": "Criar evento",
+  "type": "Tipo",
+  "sharedUpdate": "Grupo de Atualização Compartilhado",
+  "viewOnly": "Visualizar Somente Grupo",
+  "owner": "Proprietário",
+  "updated": "Atualizado",
+  "tags": "Tags",
+  "dateCreated": "Criado",
+  "dateUpdated": "Modificado",
+  "actionLinks": {
+    "view": "Visualizar",
+    "edit": "Editar",
+    "ariaEdit": "Editar: {title}",
+    "ariaView": "Visualizar: {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Eventos",
+      "myContent": "Eventos que possuo",
+      "editableContent": "Eventos que posso editar",
+      "all": "Todos os Eventos"
+    },
+    "access": {
+      "label": "De"
+    },
+    "type": {
+      "label": "Tipos"
+    },
+    "tags": {
+      "label": "Tags"
+    },
+    "categories": {
+      "label": "Categorias"
+    },
+    "modified": {
+      "label": "Modificado"
+    }
+  }
+}

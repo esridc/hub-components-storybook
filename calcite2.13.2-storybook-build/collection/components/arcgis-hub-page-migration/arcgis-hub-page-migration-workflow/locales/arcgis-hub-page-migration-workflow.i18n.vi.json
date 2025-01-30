@@ -1,0 +1,46 @@
+{
+  "heading": "Thông tin trang",
+  "form": {
+    "title": {
+      "label": "Tên trang",
+      "requiredError": "Tên là thông tin bắt buộc",
+      "entityTitleValidatorError": "Tên trang không thể bao gồm các biểu tượng cảm xúc và các ký tự <, > hoặc ="
+    },
+    "slug": {
+      "label": "Slug",
+      "helperText": "Slug là phiên bản tên trang thân thiện với URL. Slug được tạo tự động dựa trên tên trang nhưng bạn có thể tùy chỉnh.",
+      "patternError": "Lỗi: Slug phải là các ký tự chữ và số viết thường được phân tách bằng dấu gạch nối.",
+      "isUniqueError": "Slug này đã được sử dụng. Vui lòng chọn một slug khác.",
+      "requiredError": "Slug là thông tin bắt buộc"
+    }
+  },
+  "controls": {
+    "back": "Quay lại",
+    "cancel": "Hủy",
+    "close": "Hoàn tất",
+    "migrate": "Di chuyển trang",
+    "next": "Tiếp"
+  },
+  "selection": {
+    "unlimited": "{count} đã được chọn",
+    "limited": "{limit} / {count} đã chọn"
+  },
+  "steps": {
+    "specifyInfo": "Thêm thông tin cơ bản",
+    "selectGroups": "Chọn nhóm",
+    "confirmation": "Xác nhận"
+  },
+  "working": {
+    "heading": "Di chuyển trang.",
+    "loadingLabel": "Di chuyển trang"
+  },
+  "success": {
+    "heading": "Đã di chuyển trang",
+    "message": "Trang đã được di chuyển thành công."
+  },
+  "failure": {
+    "heading": "Chưa di chuyển được trang",
+    "message": "Đã xảy ra lỗi khi di chuyển trang, vui lòng thử lại.",
+    "action": "Thử lại"
+  }
+}

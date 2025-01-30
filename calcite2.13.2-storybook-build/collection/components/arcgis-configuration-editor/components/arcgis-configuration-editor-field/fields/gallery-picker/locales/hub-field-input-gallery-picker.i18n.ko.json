@@ -1,0 +1,13 @@
+{
+  "selectItem": "콘텐츠 선택",
+  "selectGroup": "그룹 선택",
+  "selectEvent": "이벤트 선택",
+  "remove": "제거",
+  "launch": "열기",
+  "updatedDate": "{updatedDate} 업데이트됨",
+  "memberCount": {
+    "noMember": "구성원 없음",
+    "oneMember": "구성원 1명",
+    "members": "구성원 {count}명"
+  }
+}

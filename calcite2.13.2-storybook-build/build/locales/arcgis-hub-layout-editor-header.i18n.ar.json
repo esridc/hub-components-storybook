@@ -1,0 +1,39 @@
+{
+  "popover": {
+    "access": {
+      "org": "تمت المشاركة مع المؤسسة",
+      "private": "تمت المشاركة مع المالك",
+      "public": "تمت المشاركة مع العامة",
+      "shared": "تمت المشاركة مع المالك والمجموعات"
+    },
+    "editLayout": "تحرير التخطيط",
+    "lastUpdated": "التحديث الأخير {updated}",
+    "viewSite": "عرض الموقع"
+  },
+  "cloneLayoutLabel": "تخطيط النسخة",
+  "deleteDraftLabel": "حذف المسودة",
+  "deletePageLabel": "حذف الصفحة",
+  "deleteSiteLabel": "حذف الموقع",
+  "editInAgoLabel": "التحرير في ArcGIS Online",
+  "managePage": "إدارة الصفحة",
+  "manageSite": "إدارة الموقع",
+  "manageTemplate": "إدارة القالب",
+  "moreOptionsLabel": "مزيد من الخيارات",
+  "publishLabel": {
+    "site": "نشر التخطيط الطباعي",
+    "page": "نشر التخطيط الطباعي",
+    "survey": "نشر"
+  },
+  "saveAsTemplateLabel": "حفظ كقالب",
+  "saveLabel": {
+    "site": "حفظ التخطيط الطباعي",
+    "page": "حفظ التخطيط الطباعي",
+    "survey": "حفظ",
+    "template": "حفظ"
+  },
+  "sharingLabel": "فتح لوحة المشاركة",
+  "editS123Label": "تحرير في Survey123",
+  "viewLabel": "عرض",
+  "viewPublishedLabel": "عرض ما تم نشره",
+  "viewUnpublishedLabel": "عرض المسودة"
+}

@@ -1,0 +1,29 @@
+{
+  "additionalInfo": {
+    "label": "Valfria visningsinställningar",
+    "helperText": "Lägg till din egen integritetsbeskrivning och policyinformation."
+  },
+  "allowPrivacyConfig": {
+    "label": "Visa integritetsmeddelande"
+  },
+  "blocking": {
+    "label": "Meddelandetyp",
+    "optional": {
+      "label": "Valfritt samtycke",
+      "description": "Besökaren kan använda webbplatsen utan att välja ett integritetssamtycke; spårningen startar omedelbart fram tills att den avvisas av besökaren."
+    },
+    "required": {
+      "label": "Kräv samtycke",
+      "description": "Besökaren måste acceptera eller avvisa spårning för att använda webbplatsen; spårningen startar inte om den inte accepteras av besökaren."
+    }
+  },
+  "consentText": {
+    "label": "Integritetsbeskrivning",
+    "helperText": "Visas i integritetsmeddelande för webbplatsbesökaren."
+  },
+  "policyURL": {
+    "label": "Policylänk",
+    "helperText": "Visas som en \"Mer information\"-länk i integritetsmeddelandet.",
+    "error": "Måste vara en giltig URL för att kunna visas."
+  }
+}

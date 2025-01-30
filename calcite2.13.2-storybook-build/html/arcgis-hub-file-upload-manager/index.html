@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>arcgis-hub-file-upload-manager</title>
+
+    <style>
+      .header {
+        display: flex;
+        justify-content: space-between;
+      }
+      .nav {
+        margin-bottom: 30px;
+      }
+    </style>
+
+    <script type="module" src="../../build/hub-components.esm.js"></script>
+    <script nomodule src="../../build/hub-components.js"></script>
+    <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+    <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+    <link rel="stylesheet" href="../calcite-web.min.css" />
+  </head>
+
+  <body>
+    <div class="grid-container padding-leader-2">
+      <div class="column-20 trailer-2 header">
+        <calcite-button scale="l" href="/">Home</calcite-button>
+        <h2>arcgis-hub-file-upload-manager</h2>
+      </div>
+
+      <div class="column-20">
+        <!-- Auth stuff -->
+        <div class="nav">
+          <calcite-button onClick="signIn()">Sign In</calcite-button>
+          <calcite-button onClick="signOut()">Sign Out</calcite-button>
+          <div id="userinfo"></div>
+        </div>
+        <calcite-button id="modal-toggle-1">show file upload manager</calcite-button>
+        <calcite-modal id="captured-modal" scale="s">
+          <div slot="header">Create content</div>
+          <div class="frank" slot="content">
+            <arcgis-hub-file-upload-manager portal="https://qaext.arcgis.com" show-buttons="true">
+              <div>
+                <calcite-button>Link to item in online</calcite-button>
+                <calcite-button>Link to item in hub</calcite-button>
+              </div>
+            </arcgis-hub-file-upload-manager>
+          </div>
+        </calcite-modal>
+        <!-- UPload manager -->
+        <!-- app identity -->
+        <arcgis-app-identity client-id="EF9uxuFlOrgf7WpI" redirect-uri="http://localhost:3335/html/redirect.html" portal="https://qaext.arcgis.com"> </arcgis-app-identity>
+      </div>
+    </div>
+
+    <script>
+      document.querySelector('#modal-toggle-1').addEventListener('click', _ => {
+        document.querySelector('#captured-modal').open = true;
+      });
+      // These would be raised from some user profile type control
+      function signIn() {
+        const evt = new CustomEvent('arcgisAppIdentityStartSignIn');
+        document.dispatchEvent(evt);
+      }
+      function signOut() {
+        const evt = new CustomEvent('arcgisAppIdentityStartSignOut');
+        document.dispatchEvent(evt);
+      }
+
+      // These listeners could be in any component that wants a session
+      document.addEventListener('arcgisAppIdentitySignedIn', evt => {
+        const session = evt.detail.session;
+        setProp('context', evt.detail);
+        // update userInfo
+        showUserInfo(session);
+      });
+      // Simple function to so something when auth changes
+      function showUserInfo(session) {
+        const el = document.getElementById('userinfo');
+        if (session) {
+          el.innerText = `User ${session.username} authenticated`;
+        } else {
+          el.innerText = 'No user authenticated';
+        }
+      }
+      // set a property on the element
+      function setProp(key, value) {
+        const el = document.querySelector('arcgis-hub-file-upload-manager');
+        el[key] = value;
+      }
+
+      const group = {
+        id: '0d75f2cbfd954145933075a797d0ef6f',
+        title: 'an edit teams',
+        isInvitationOnly: false,
+        owner: 'bstoltz_dc',
+        description:
+          'Use this group to share items that you want a select group of team members to be able to edit. Shared items become available in your search results, galleries, and menu bars. Only people who have access to these items will be able to find them',
+        snippet: "fear the dodo's. and the awks. and especially the penguinssss. and kangaroos",
+        tags: ['Hub Team Group'],
+        typeKeywords: [],
+        phone: null,
+        sortField: 'modified',
+        sortOrder: 'desc',
+        isViewOnly: false,
+        featuredItemsId: null,
+        thumbnail: 'thumbnail.png',
+        created: 1627994951000,
+        modified: 1633960335000,
+        access: 'org',
+        capabilities: ['updateitemcontrol'],
+        isFav: false,
+        isReadOnly: false,
+        protected: true,
+        autoJoin: false,
+        notificationsEnabled: false,
+        provider: null,
+        providerGroupName: null,
+        leavingDisallowed: false,
+        hiddenMembers: false,
+        membershipAccess: 'org',
+        displaySettings: {
+          itemTypes: '',
+        },
+        orgId: '97KLIFOSt5CxbiRI',
+        properties: null,
+        userMembership: {
+          username: 'ghadminqa2',
+          memberType: 'admin',
+          applications: 0,
+        },
+        collaborationInfo: {},
+      };
+
+      setProp('groups', [group]);
+      setProp('selectedGroups', [group]);
+    </script>
+  </body>
+</html>

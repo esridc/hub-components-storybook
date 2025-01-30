@@ -1,0 +1,29 @@
+:host {
+  display: block;
+  height: 100%;
+}  
+
+/* copied over from hub-section-basic */
+/* and should be copied over to the new item log component when we get around to making it */
+section.error-table-section {
+  border-radius: 0.25rem;
+  padding: 1.25rem;
+  --tw-shadow: 0 1px 6px -1px rgba(0, 0, 0, 0.16), 0 1px 2px -1px rgba(0, 0, 0, 0.08);
+  --tw-shadow-colored: 0 1px 6px -1px var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  background: white;
+}
+
+.error-table-section h1,
+.error-table-section h2,
+.error-table-section h3,
+.error-table-section h4,
+.error-table-section h5,
+.error-table-section h6 {
+  font-size: var(--calcite-font-size-1);
+  margin-top: 0px;
+  margin-bottom: 1.5rem;
+  font-weight: var(--calcite-font-weight-medium);
+  color: var(--calcite-color-text-1);
+}
+/* end of copied portion */

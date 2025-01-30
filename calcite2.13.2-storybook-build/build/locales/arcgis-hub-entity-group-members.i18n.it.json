@@ -1,0 +1,59 @@
+{
+  "title": "Membri",
+  "facets": {
+    "role": {
+      "label": "Ruolo",
+      "all": "Tutte",
+      "manager": "Gestore",
+      "member": "Membro"
+    },
+    "dateJoined": {
+      "label": "Data di iscrizione"
+    }
+  },
+  "stats": {
+    "total": {
+      "title": "Totale",
+      "trailingText": "Membri del gruppo"
+    },
+    "new": {
+      "title": "Nuovo",
+      "trailingText": "Ultimi 30 giorni"
+    }
+  },
+  "addMembers": {
+    "button": "Aggiungi membri",
+    "disabledTooltip": "Non si dispone dell'accesso per aggiungere utenti a questo gruppo.",
+    "modal": {
+      "title": "Aggiungi membri",
+      "org": "La mia organizzazione",
+      "community": "La mia community",
+      "partner": "I miei partner",
+      "world": "Mondo"
+    },
+    "notifications": {
+      "invited": "Invito inviato. Gli utenti devono accettarlo per partecipare",
+      "added": "Utenti aggiunti",
+      "notInvited": "Alcuni utenti potrebbero non disporre dei privilegi necessari per partecipare al gruppo o potrebbero aver raggiunto il limite massimo di gruppi (512)"
+    }
+  },
+  "removeUsers": {
+    "button": "Rimuovi",
+    "success": "Membri rimossi correttamente da {groupName}.",
+    "error": "Impossibile rimuovere uno o più utenti dal gruppo."
+  },
+  "changeRole": {
+    "tooltipText": "Deselezionare se stessi e/o il proprietario del gruppo",
+    "tooltipLabel": "Esclusione di responsabilità dal ruolo",
+    "button": "Modifica ruolo",
+    "member": "Membro",
+    "memberHelperText": "Può aggiungere e visualizzare contenuti all'interno del gruppo.",
+    "admin": "Gestore",
+    "adminHelperText": "Può aggiungere/rimuovere contenuti e invitare/rimuovere persone (tranne il proprietario).",
+    "success": "I membri selezionati sono diventati gruppo {role}.",
+    "error": "Impossibile modificare il ruolo di uno o più membri."
+  },
+  "notice": {
+    "label": "Avviso modulo"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "moreResults": "Več rezultatov",
+  "search": "Iskanje",
+  "filter": "Filtri",
+  "viewResults": "Ogled rezultatov ({numResults})",
+  "resultsCount": "1 – {pageTotal} od {searchTotal}",
+  "backToTop": "Nazaj na vrh",
+  "facets": {
+    "access": {
+      "label": "Deljenje",
+      "private": "Jaz",
+      "shared": "Lastnik in skupine",
+      "org": "Organizacija",
+      "public": "Javno"
+    },
+    "license": {
+      "label": "Licenca",
+      "tooltip": "Samo med javnimi vsebinami",
+      "custom": "Po meri",
+      "none": "Brez"
+    },
+    "type": {
+      "label": "Tip"
+    },
+    "tags": {
+      "label": "Oznake"
+    },
+    "dateUpdated": {
+      "label": "Datum posodobitve"
+    },
+    "source": {
+      "label": "Vir",
+      "tooltip": "Javna vsebina različnih organizacij"
+    },
+    "categories": {
+      "label": "Kategorije"
+    },
+    "location": {
+      "label": "Lokacija",
+      "tooltip": "Uporabi obseg karte kot lokacijski filter"
+    },
+    "event": {
+      "from": {
+        "label": "Lastništvo",
+        "myContent": "Jaz",
+        "myOrganization": "Moja organizacija",
+        "world": "Kdorkoli"
+      },
+      "access": {
+        "label": "Dostop",
+        "private": "Zasebno",
+        "org": "Organizacija",
+        "public": "Javno"
+      },
+      "startDate": {
+        "label": "Datum dogodka"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "Tip",
+        "all": "Vse",
+        "view": "Ogled",
+        "edit": "Uredi"
+      },
+      "role": {
+        "label": "Vloga",
+        "all": "Vse",
+        "member": "Član",
+        "manager": "Upravitelj",
+        "owner": "Lastnik"
+      },
+      "sharing": {
+        "label": "Vidnost",
+        "private": "Zasebno",
+        "public": "Javno"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "Prikaži seznam",
+    "grid": "Prikaži mrežo",
+    "map": "Prikaži karto",
+    "compact": "Prikaži kompaktno",
+    "calendar": "Prikaži koledar",
+    "table": "Prikaži tabelo"
+  },
+  "galleryActionsLabel": "Dodatna dejanja",
+  "selected": "Izbrano: {count}",
+  "popoverActionButtonLabel": "več dejanj"
+}

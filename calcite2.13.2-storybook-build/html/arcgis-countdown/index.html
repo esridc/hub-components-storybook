@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-countdown</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet" href="../calcite-web.min.css">
+</head>
+
+<body>
+  <div class="grid-container padding-leader-2">
+    <div class="column-20 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-countdown</h2>
+    </div>
+
+    <div class="column-20">
+      <h3>Countdown Card + Editor:</h3>
+      <arcgis-countdown-editor class="column-12 padding-right-2"></arcgis-countdown-editor>
+      <arcgis-countdown
+        class="column-8"
+        id="arcgis-countdown"
+        card-title="Countdown to Something!">
+      </arcgis-countdown></br>
+    </div>
+
+    <div class="column-20">
+      <h3>Countdown Date not Provided:</h3>
+      <arcgis-countdown
+        id="arcgis-countdown-error"
+        card-title="Countdown to Something!">
+      </arcgis-countdown>
+    </div>
+  </div>
+
+  <script>
+    const values = {
+      cardTitle: "Countdown to Something!",
+      countdownDate: new Date(new Date().setDate(new Date().getDate() + 30)).toISOString().split('T').shift()
+    };
+
+    const countdownEditor = document.querySelector('arcgis-countdown-editor');
+    countdownEditor.values = values;
+
+    function updateValues (values) {
+      const countdown = document.querySelector('arcgis-countdown');
+      Object.entries(values).forEach(([key, value]) => countdown[key] = value);
+    }
+
+    updateValues(values);
+
+    countdownEditor.addEventListener('arcgisCountdownEditorChange', evt => {
+      if (evt.detail.valid) {
+        updateValues(evt.detail.values);
+      }
+    });
+
+    countdownEditor.addEventListener('arcgisConfigurationEditorChange', evt => {
+      console.log('GOT arcgisConfigurationEditorChange EVENT', evt);
+    });
+  </script>
+</body>
+
+</html>

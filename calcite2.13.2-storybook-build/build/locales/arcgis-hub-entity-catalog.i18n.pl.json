@@ -1,0 +1,65 @@
+{
+  "catalog": "Katalog",
+  "catalog-content": "Zasoby",
+  "catalog-events": "Wydarzenia",
+  "shared": {
+    "publish": {
+      "label": "Zapisz",
+      "success": {
+        "title": "Pomyślnie opublikowano zmiany katalogu w widoku na żywo"
+      },
+      "error": {
+        "title": "Błąd podczas zapisywania zmian"
+      }
+    }
+  },
+  "emptyState": {
+    "message": "Nie zdefiniowano żadnego katalogu",
+    "action": "Utwórz katalog"
+  },
+  "actionBar": {
+    "details": "Konfiguracja katalogu",
+    "appearance": "Wygląd katalogu",
+    "tooltip": {
+      "appearanceDisabled": "Obecnie nie jest skonfigurowany żaden katalog. Skonfiguruj katalog, aby dostosować ustawienia wyglądu.",
+      "configuration": "Konfiguracja",
+      "appearance": "Wygląd"
+    }
+  },
+  "detailsPanel": {
+    "heading": "Konfiguracja katalogu",
+    "close": "Zamknij konfigurację katalogu",
+    "catalogBuilder": {
+      "helperText": "Katalog umożliwia odwiedzającym wyszukiwanie i wyświetlanie zasobów. Wyświetlane wyniki są zależne od konfiguracji zapytania."
+    },
+    "querySizeNotice": {
+      "warning": {
+        "title": "Katalog zbliża się do limitu",
+        "catalogSourceMessage": {
+          "item": "Konfiguracja źródła Twojego elementu zbliża się do limitu rozmiaru.",
+          "event": "Konfiguracja źródła Twojego wydarzenia zbliża się do limitu rozmiaru."
+        },
+        "collectionSourceMessage": {
+          "item": "Kombinacja konfiguracji źródła elementu i zbioru „{collectionName}” zbliża się do limitu rozmiaru.",
+          "event": "Kombinacja konfiguracji źródła wydarzenia i zbioru „{collectionName}” zbliża się do limitu rozmiaru."
+        }
+      },
+      "danger": {
+        "title": "Przekroczono limit katalogu",
+        "catalogSourceMessage": {
+          "item": "Konfiguracja źródła Twojego elementu przekroczyła limit rozmiaru. Zmniejsz liczbę filtrów lub opcje filtrów w źródle elementu, aby go opublikować.",
+          "event": "Konfiguracja źródła Twojego wydarzenia przekroczyła limit rozmiaru. Zmniejsz liczbę filtrów lub opcje filtrów w źródle wydarzenia, aby je opublikować."
+        },
+        "collectionSourceMessage": {
+          "item": "Kombinacja konfiguracji źródła elementu i zbioru „{collectionName}” przekroczyła limit rozmiaru. Zmniejsz liczbę filtrów lub opcje filtrów w źródle elementu bądź zbiorze „{collectionName}”, aby je opublikować.",
+          "event": "Kombinacja konfiguracji źródła wydarzenia i zbioru „{collectionName}” przekroczyła limit rozmiaru. Zmniejsz liczbę filtrów lub opcje filtrów w źródle wydarzenia bądź zbiorze „{collectionName}”, aby je opublikować."
+        }
+      }
+    }
+  },
+  "appearancePanel": {
+    "heading": "Wygląd katalogu",
+    "close": "Zamknij wygląd katalogu",
+    "description": "Katalog umożliwia odwiedzającym wyszukiwanie i wyświetlanie zasobów. Możesz tutaj zaktualizować sposób, w jaki katalog domyślny powinien wyglądać i jakie filtry mają być wyświetlane."
+  }
+}

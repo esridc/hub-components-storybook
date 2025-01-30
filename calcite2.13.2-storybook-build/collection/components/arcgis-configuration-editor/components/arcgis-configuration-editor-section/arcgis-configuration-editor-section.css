@@ -1,0 +1,45 @@
+.section__content {
+
+    display: flex;
+
+    flex-direction: column
+}
+
+.section__content calcite-input-message {
+
+    font-weight: var(--calcite-font-weight-normal);
+
+    color: var(--calcite-color-text-1)
+}
+
+/* apply helper text styling */
+.helper-text--right {
+
+    flex-direction: row-reverse;
+
+    align-items: flex-start;
+
+    gap: 1.25rem
+}
+.helper-text--left {
+
+    flex-direction: row;
+
+    align-items: flex-start;
+
+    gap: 1.25rem
+}
+.helper-text--right calcite-input-message, .helper-text--left calcite-input-message {
+
+    flex-basis: 20%
+}
+.helper-text--right .section__fields, .helper-text--left .section__fields {
+
+    flex-basis: 80%
+}
+
+/* add a consistent gap between a section and a field */
+arcgis-configuration-editor-section+arcgis-configuration-editor-field {
+
+    margin-top: 0.75rem
+}

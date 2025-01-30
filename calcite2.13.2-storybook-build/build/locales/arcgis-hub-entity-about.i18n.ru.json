@@ -1,0 +1,18 @@
+{
+  "about": "Подробнее",
+  "metrics": "Метрики",
+  "featuredContent": "Избранные ресурсы",
+  "details": "Сведения",
+  "exploreMetrics": "Изучить метрики",
+  "status": {
+    "label": {
+      "default": "Статус",
+      "project": "Статус проекта",
+      "initiative": "Статус инициативы"
+    },
+    "notStarted": "Не запущен",
+    "inProgress": "В процессе",
+    "onHold": "В ожидании",
+    "complete": "Завершен"
+  }
+}

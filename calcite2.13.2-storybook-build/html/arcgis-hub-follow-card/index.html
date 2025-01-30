@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-follow-card</title>
+
+  <!-- link to calcite components CSS  -->
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+
+  <!-- NOTE: calcite web CSS is only used for grid layout of this page -->
+  <!-- see: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+  <link rel="stylesheet" href="../calcite-web.min.css" />
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+
+  <!-- load calcite components -->
+  <script type="module" src="../../calcite/calcite.esm.js"></script>
+
+  <!-- load hub components -->
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+</head>
+
+<body>
+  <harness-header page-title=arcgis-hub-follow-card></harness-header>
+  <div class="grid-container padding-leader-4">
+    <!-- docs about grid container: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+    <calcite-button onclick="signIn()">Sign in</calcite-button>
+    <calcite-button onclick="signOut()">Sign out</calcite-button>
+
+    <div id="userinfo"></div></br></br>
+
+    <div class="column-24">
+      <div class="column-8 padding-right-4">
+        <h3>Follow card editor:</h3>
+        <arcgis-hub-follow-card-editor
+        />
+      </div>
+      <div class="column-12">
+        <h3>Follow card:</h3>
+        <arcgis-hub-follow-card
+          id="arcgis-hub-follow-card-harness"
+        />
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // set a property on the element
+    function setProp(key, value) {
+      const el = document.querySelector("#arcgis-hub-follow-card-harness");
+      el[key] = value;
+    }
+
+    function signIn() {
+      const evt = new CustomEvent('arcgisAppIdentityStartSignIn')
+      document.dispatchEvent(evt);
+    };
+
+    function signOut() {
+      const evt = new CustomEvent('arcgisAppIdentityStartSignOut')
+      document.dispatchEvent(evt);
+    };
+
+    document.addEventListener('arcgisAppIdentitySignedIn', evt => {
+      setProp('context', evt.detail);
+      showUserInfo(evt.detail.session);
+    });
+
+    document.addEventListener('arcgisAppIdentitySignedOut', evt => {
+      setProp('context', evt.detail);
+      showUserInfo(evt.detail.session);
+    });
+
+    function showUserInfo(session) {
+      const el = document.getElementById('userinfo');
+      if (session) {
+        el.innerText = `User ${session.username} authenticated`;
+      } else {
+        el.innerText = 'No user authenticated';
+      }
+    };
+
+    let CONFIG = {
+      cardId: "sampleCardId",
+      entityId: "85bddb7ee3804fdebce2d9c4606171be",
+      entityType: "site",
+      callToActionText: "This is the call to action text",
+      callToActionAlign: "center",
+      buttonText: "Follow",
+      unfollowButtonText: "Unfollow",
+      buttonAlign: "center",
+      buttonStyle: "solid",
+      schemaVersion: 1
+    };
+    setProp('cardConfig', CONFIG);
+    setProp('isFollowing', false);
+    setProp('followersGroupId', 'f39cb6413ed5463daa71f858e53f896e');
+  </script>
+</body>
+
+</html>

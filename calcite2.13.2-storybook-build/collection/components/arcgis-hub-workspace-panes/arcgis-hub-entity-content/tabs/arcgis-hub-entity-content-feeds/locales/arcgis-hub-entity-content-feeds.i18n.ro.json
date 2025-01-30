@@ -1,0 +1,81 @@
+{
+  "tabTitle": "Configurație fluxuri",
+  "learn": "Aflați despre fluxurile Hub",
+  "loadingLabel": "Se încarcă",
+  "enableFeedsToggle": {
+    "label": "Activați fluxuri",
+    "privateNotice": "Pentru a activa fluxuri, trebuie să setați mai întâi site-ul Hub la „Publice”.",
+    "emptyPublicCatalog": {
+      "message": "Pentru a activa fluxurile, trebuie să adăugați mai întâi conținut public în catalogul dvs.",
+      "button": "Vizualizați catalogul"
+    },
+    "grouplessCatalog": {
+      "message": "Pentru a adăuga fluxuri, trebuie mai întâi să configurați catalogul.",
+      "button": "Configurare catalog"
+    }
+  },
+  "gettingStartedNotice": {
+    "title": "Introducere",
+    "exampleMessage": "Evidențiați și actualizați o cheie sau o valoare în editorul JSON folosind o valoare literală („VALOARE”) sau o valoare șablon („{{TEMPLATE_VALUE}}”).",
+    "previewMessage": "Folosiți comutatorul „previzualizare” pentru a previzualiza modificările. Pentru informații suplimentare, citiți <catalogFederationLink>documentația de ajutor pentru federalizarea catalogului</catalogFederationLink>."
+  },
+  "aboutFeedsNotice": {
+    "message": "Faceți datele dvs. deschise public accesibil ușor și reutilizabile cu fluxurile Hub.",
+    "link": "Aflați despre fluxurile Hub"
+  },
+  "feedsEditorSection": {
+    "title": "Fluxuri",
+    "formatSelectLabel": "Selectați un tip de flux",
+    "uneditableAttributesIntro": "Rețineți că următoarele atribute nu pot fi editate:",
+    "edit": "Editare",
+    "preview": "Previzualizare",
+    "selectContentNotice": "Selectați conținutul pentru previzualizare.",
+    "invalidJsonEditorWarning": "JSON nevalid. Corectați erorile înainte de salvare.",
+    "invalidJsonPreviewWarning": "Nu se poate previzualiza JSON nevalid, vă rugăm să corectați erorile.",
+    "errorPreviewingWarning": "A survenit o eroare. Verificați-vă conexiunea și încercați din nou. Dacă problema persistă, înregistrați o eroare la Asistența Hub."
+  },
+  "toolsSection": {
+    "title": "Instrumente",
+    "verification": "Verificare",
+    "previewSampleData": {
+      "label": "Previzualizați datele eșantion",
+      "pickerFacets": {
+        "type": "Tip",
+        "tags": "Marcaj",
+        "categories": "Categorie",
+        "sharing": "Partajare",
+        "dateUpdated": "Dată actualizată"
+      }
+    },
+    "copyableInputLabel": "URL de acces la flux"
+  },
+  "dcat-us": {
+    "1.1": {
+      "title": "DCAT-US 1.1",
+      "description": "DCAT permite organizațiilor să standardizeze contribuția cu date și ajută oamenii să analizeze sursele federale. Puteți folosi <dcatUsSchemaLink>schema DCAT</dcatUsSchemaLink> stabilită de Proiectul Open Data, care este configurația implicită, sau puteți configura singuri anumite câmpuri/atribute. Administratorii de site pot adăuga configurații DCAT suplimentare și pot dori să citească documentația noastră pe <catalogFederationLink>federalizarea datelor cu DCAT și alte cataloage externe.</catalogFederationLink>",
+      "uneditableAttributes": "@type, landingPage, webService și contactPoint['@type'].",
+      "verificationLabel": "Puteți verifica fluxul DCAT aplicând URL-ul site-ului dvs. DCAT URL în <dcatUsVerificationLink>Validatorul Proiectului Open Data</dcatUsVerificationLink>."
+    }
+  },
+  "dcat-ap": {
+    "2.1.1": {
+      "title": "DCAT-AP 2.1.1",
+      "description": "Creat de Comisia Europeană, DCAT-AP este formatul standard de schimb de metadate între cataloagele de date europene. ArcGIS Hub creează și actualizează automat feed-ul DCAT-AP al site-ului dvs. atunci când modificați detaliile metadatelor conținutului dvs. sau adăugați conținut public nou în catalog. Deoarece feed-ul utilizează metadatele menținute în ArcGIS Online, nu este nevoie să creați manual metadatele DCAT-AP separate.<lineBreak></lineBreak><lineBreak></lineBreak>Cu acest editor, puteți păstra configurația implicită a ArcGIS Hub pentru <dcatApSchemaLink>schema DCAT-AP</dcatApSchemaLink> sau puteți configura singuri anumite câmpuri/atribute. De asemenea, puteți adăuga câmpuri/atribute DCAT-AP. Pentru mai multe detalii, vă rugăm să consultați documentația ArcGIS Hub privind <catalogFederationLink>federarea datelor cu DCAT și cu alte cataloage externe</catalogFederationLink>.",
+      "uneditableAttributes": "@type, @id, dcat:contactPoint['@id'], dcat:contactPoint['@type'], dct:publisher, dcat:theme, dct:accessRights, dcat:keyword, dct:provenance, dct:issued și dct:language",
+      "verificationLabel": "Puteți verifica fluxul dvs. DCAT lipind URL-ul DCAT al site-ului dvs. în <dcatApVerificationLink>Patul de interoperabilitate al Comisiei Europene</dcatApVerificationLink>."
+    }
+  },
+  "rss": {
+    "2.0": {
+      "title": "RSS 2.0",
+      "description": "<rssAboutLink>RSS 2</rssAboutLink> este un format de sindicalizare a conținutului web și se conformează specificației <xmlSpecLink>XML 1.0</xmlSpecLink>. Folosind acest editor, puteți păstra configurația ArcGIS Hub implicită sau puteți configura chiar dvs. anumite câmpuri/atribute. Pentru mai multe detalii, vă rugăm să consultați documentația ArcGIS Hub privind <catalogFederationLink>federarea datelor cu DCAT și cu alte cataloage externe.</catalogFederationLink>",
+      "verificationLabel": "Vă puteți verifica fluxul RSS trecând URL-ul RSS al site-ului dvs. prin <rssVerificationLink>Validatorul fluxului</rssVerificationLink> W3."
+    }
+  },
+  "saveButton": "Salvare",
+  "alertMessages": {
+    "success": "Editările au fost salvate cu succes",
+    "error": "Eroare la salvarea editărilor"
+  },
+  "formAlert": "Alertă formular"
+}

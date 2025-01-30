@@ -1,0 +1,49 @@
+{
+  "settings": "Asetukset",
+  "advanced": "Lisäasetukset",
+  "delete": {
+    "event": "Poista tämä tapahtuma",
+    "desc": "Tämän tapahtuman poistamista ei voi kumota. Aiemmin ilmoittautuneille ilmoitetaan asiasta (jos tapahtumalle on otettu käyttöön automaattiset ilmoitukset).",
+    "deleteButton": "Poista tapahtuma"
+  },
+  "cancel": {
+    "header": "Peruuta tapahtuma",
+    "desc": "Jos se peruutetaan, tapahtuma pysyy näkyvissä, mutta sen tilana on Peruutettu. Ilmoittautuminen keskeytetään ja aiemmin ilmoittautuneille ilmoitetaan asiasta (jos tapahtumalle on otettu käyttöön automaattiset ilmoitukset).",
+    "event": "Peruuta tapahtuma",
+    "notice": {
+      "success": {
+        "title": "Tapahtuma peruttu",
+        "message": "Aiemmin ilmoittautuneille ilmoitetaan asiasta, jos automaattiset ilmoitukset ovat käytössä."
+      },
+      "error": {
+        "title": "Tapahtumaa ei voit peruuttaa",
+        "message": "Yritä uudelleen"
+      }
+    }
+  },
+  "enable": {
+    "event": "Ota tapahtuma uudelleen käyttöön",
+    "desc": "Tapahtuma on peruutettu (tilana näkyy Peruutettu).",
+    "notice": {
+      "success": {
+        "title": "Tapahtuma otettu uudelleen käyttöön",
+        "message": "Aiemmin ilmoittautuneille ilmoitetaan asiasta, jos automaattiset ilmoitukset ovat käytössä."
+      },
+      "error": {
+        "title": "Tapahtumaa ei voitu ottaa uudelleen käyttöön",
+        "message": "Yritä uudelleen"
+      }
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "event": "Poista tapahtuma"
+    },
+    "content": "Haluatko varmasti poistaa kohteen:",
+    "delete": "Poista tapahtuma",
+    "cancel": "Peruuta tapahtuma"
+  },
+  "notice": {
+    "label": "Lomakevaroitus"
+  }
+}

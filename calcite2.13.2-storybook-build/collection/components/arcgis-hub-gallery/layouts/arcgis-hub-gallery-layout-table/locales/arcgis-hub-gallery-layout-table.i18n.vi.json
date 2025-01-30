@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Không tìm thấy kết quả."
+    },
+    "error": {
+      "message": "Chúng tôi rất tiếc nhưng tìm kiếm đã xảy ra lỗi."
+    }
+  },
+  "access": "Truy cập",
+  "actionsHeader": "Thao tác",
+  "caption": "Bảng thực thể Hub",
+  "family": "Nhóm",
+  "type": "Loại",
+  "tags": "Thẻ",
+  "owner": "Chủ sở hữu",
+  "dateCreated": "Đã tạo",
+  "dateUpdated": "Đã chỉnh sửa",
+  "description": "Thông tin mô tả",
+  "dateAndTime": "Ngày & giờ",
+  "location": "Vị trí",
+  "attendanceType": "Kiểu tham dự",
+  "inPerson": "Trực tiếp",
+  "online": "Trực tuyến",
+  "hybrid": "Kết hợp",
+  "categories": "Danh mục",
+  "content": "Nội dung",
+  "name": "Tên",
+  "start": "Bắt đầu",
+  "end": "Kết thúc",
+  "sharedUpdate": "Thông tin cập nhật được chia sẻ",
+  "managers": "Quản lý",
+  "username": "Tên người dùng",
+  "no": "Không",
+  "yes": "Có",
+  "title": "Tiêu đề",
+  "thumbnail": "Hình thu nhỏ",
+  "types": {
+    "app": "Ứng dụng",
+    "content": "Nội dung",
+    "dataset": "Bộ dữ liệu",
+    "discussion": "Bảng Thảo luận",
+    "document": "Tài liệu",
+    "event": "Sự kiện",
+    "feedback": "Ý kiến phản hồi",
+    "initiative": "Sáng kiến",
+    "image": "Hình ảnh",
+    "map": "Bản đồ",
+    "other": "Khác",
+    "people": "Con người",
+    "site": "Site",
+    "team": "Nhóm",
+    "template": "Biểu mẫu",
+    "project": "Dự án"
+  }
+}

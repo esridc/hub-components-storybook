@@ -1,0 +1,43 @@
+{
+  "header": "Discuții",
+  "myContent": "Evenimentele mele",
+  "editableContent": "Conținut editabil",
+  "addContentButtonText": "Creare eveniment",
+  "type": "Tip",
+  "sharedUpdate": "Grup cu actualizare partajată",
+  "viewOnly": "Grup numai vizualizare",
+  "owner": "Proprietar",
+  "updated": "Actualizat",
+  "tags": "Etichete",
+  "dateCreated": "Creat",
+  "dateUpdated": "Modificat",
+  "actionLinks": {
+    "view": "Vizualizați",
+    "edit": "Editare",
+    "ariaEdit": "Editare: {title}",
+    "ariaView": "Vizualizare: {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Evenimente",
+      "myContent": "Evenimente pe care le dețin",
+      "editableContent": "Evenimente pe care le pot edita",
+      "all": "Toate evenimentele"
+    },
+    "access": {
+      "label": "De la"
+    },
+    "type": {
+      "label": "Tipuri"
+    },
+    "tags": {
+      "label": "Etichete"
+    },
+    "categories": {
+      "label": "Categorii"
+    },
+    "modified": {
+      "label": "Modificat"
+    }
+  }
+}

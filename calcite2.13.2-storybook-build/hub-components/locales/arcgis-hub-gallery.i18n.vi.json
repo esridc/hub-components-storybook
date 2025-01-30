@@ -1,0 +1,91 @@
+{
+  "moreResults": "Các kết quả khác",
+  "search": "Tìm kiếm",
+  "filter": "Bộ lọc",
+  "viewResults": "Xem kết quả ({numResults})",
+  "resultsCount": "1 - {pageTotal} / {searchTotal}",
+  "backToTop": "Quay lại đầu trang",
+  "facets": {
+    "access": {
+      "label": "Chia sẻ",
+      "private": "Chính tôi",
+      "shared": "Chủ sở hữu & nhóm",
+      "org": "Tổ chức",
+      "public": "Công khai"
+    },
+    "license": {
+      "label": "Giấy phép",
+      "tooltip": "Chỉ trên nội dung công khai",
+      "custom": "Tùy chỉnh",
+      "none": "Không có"
+    },
+    "type": {
+      "label": "Loại"
+    },
+    "tags": {
+      "label": "Thẻ"
+    },
+    "dateUpdated": {
+      "label": "Ngày cập nhật"
+    },
+    "source": {
+      "label": "Nguồn",
+      "tooltip": "Nội dung công khai từ các tổ chức khác nhau"
+    },
+    "categories": {
+      "label": "Danh mục"
+    },
+    "location": {
+      "label": "Vị trí",
+      "tooltip": "Áp dụng phạm vi bản đồ làm bộ lọc vị trí"
+    },
+    "event": {
+      "from": {
+        "label": "Quyền sở hữu",
+        "myContent": "Tôi",
+        "myOrganization": "Tổ chức của tôi",
+        "world": "Bất kỳ ai"
+      },
+      "access": {
+        "label": "Truy cập",
+        "private": "Riêng tư",
+        "org": "Tổ chức",
+        "public": "Công khai"
+      },
+      "startDate": {
+        "label": "Ngày Sự kiện"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "Loại",
+        "all": "Tất cả",
+        "view": "Xem",
+        "edit": "Chỉnh sửa"
+      },
+      "role": {
+        "label": "Vai trò",
+        "all": "Tất cả",
+        "member": "Thành viên",
+        "manager": "Người quản lý",
+        "owner": "Chủ sở hữu"
+      },
+      "sharing": {
+        "label": "Khả năng hiển thị",
+        "private": "Riêng tư",
+        "public": "Công khai"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "Hiển thị danh sách",
+    "grid": "Hiển thị lưới",
+    "map": "Hiển thị bản đồ",
+    "compact": "Hiển thị thu gọn",
+    "calendar": "Hiển thị lịch",
+    "table": "Hiển thị bảng"
+  },
+  "galleryActionsLabel": "Hành động bổ sung",
+  "selected": "Đã chọn: {count}",
+  "popoverActionButtonLabel": "thêm hành động"
+}

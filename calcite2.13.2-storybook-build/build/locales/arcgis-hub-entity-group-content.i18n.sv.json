@@ -1,0 +1,69 @@
+{
+  "title": "Innehåll",
+  "facets": {
+    "type": "Typ",
+    "tags": "Tagg",
+    "categories": "Kategori",
+    "sharing": "Delning",
+    "dateUpdated": "Datum uppdaterat",
+    "map": {
+      "label": "Plats",
+      "tooltip": "Tillämpa kartutbredningen som ett platsfilter"
+    }
+  },
+  "shareContent": {
+    "buttonText": "Lägg till innehåll",
+    "disabledTooltip": "Du är inte behörig att lägga till innehåll i den här gruppen.",
+    "catalog": {
+      "myContent": "Mitt innehåll",
+      "favorites": "Favoriter",
+      "organization": "Min organisation",
+      "world": "Världen (Offentlig)"
+    },
+    "facets": {
+      "type": "Typ",
+      "sharing": "Delning"
+    },
+    "collection": {
+      "appsAndMaps": "Appar och kartor",
+      "dataset": "Data",
+      "documents": "Dokument",
+      "feedback": "Feedback",
+      "sites": "Webbplatser",
+      "projects": "Projekt",
+      "projectsAndInitiatives": "Projekt och initiativ"
+    },
+    "modal": {
+      "title": "Lägg till innehåll"
+    },
+    "unsharedModal": {
+      "title": "Objekt har inte lagts till",
+      "notice": {
+        "icon": "utropstecken-triangel",
+        "type": "fara",
+        "title": "Åtgärd ofullständig",
+        "message": "Vissa objekt kunde inte läggas till. Detta kan bero på ej matchande delningsnivåer i innehållet eller att ägaren av objektet inte är medlem i gruppen.",
+        "linkText": "Läs mer om delning"
+      }
+    },
+    "itemSharedSuccessAlert": "Objekt har delats"
+  },
+  "close": "Stäng",
+  "newTab": "öppnas i ny flik",
+  "unshareContent": {
+    "remove": "Ta bort",
+    "success": "Innehåll har tagits bort från {groupName}.",
+    "unsharedModal": {
+      "title": "Objekt har inte tagits bort",
+      "notice": {
+        "icon": "utropstecken-triangel",
+        "type": "fara",
+        "title": "Åtgärd ofullständig",
+        "message": "En del objekt kunde inte tas bort."
+      }
+    }
+  },
+  "notice": {
+    "label": "Formulärvarning"
+  }
+}

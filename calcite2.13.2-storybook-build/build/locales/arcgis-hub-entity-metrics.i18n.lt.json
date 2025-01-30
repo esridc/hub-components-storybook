@@ -1,0 +1,75 @@
+{
+  "addMetric": "Pridėti metriką",
+  "title": "Metrika",
+  "featured": "Publikuota",
+  "metricDescription": "Išmatuojama reikšmė naudojama projekto eigai sekti remiantis statiniais (pvz., istoriniais) arba dinaminiais (pvz., realaus laiko) duomenimis.",
+  "metricCount": {
+    "label": "{currentCount} / {totalCountAllowed} metrika",
+    "tooltip": "Norėdami pridėti metrikos, ištrinkite dalį esamo rinkinio"
+  },
+  "visible": {
+    "title": "Matoma",
+    "noMetrics": "Šioje sekcijoje nėra metrikos."
+  },
+  "hidden": {
+    "title": "Paslėpta",
+    "description": "Ši metrika rodoma tik tiems, kurie turi prieigą prie šios darbo srities.",
+    "noMetrics": "Šioje sekcijoje nėra metrikos."
+  },
+  "project": {
+    "featured": {
+      "description": "Galite turėti 4 rekomenduojamas metrikas. Jos rodomos jūsų tiesioginio projekto apžvalgoje."
+    },
+    "visible": {
+      "description": "Matoma metrika rodoma tiesioginio projekto Metrikos skirtuke."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Metrika atitiks projekto bendrinimo lygį. Paslėpta metrika išliks pasiekiama API iškvietimu.",
+        "metricsDockLink": "Sužinokite daugiau apie metrikos nustatymą"
+      }
+    }
+  },
+  "initiative": {
+    "featured": {
+      "description": "Galite turėti 4 rekomenduojamas metrikas. Jos rodomos jūsų tiesioginės iniciatyvos apžvalgoje."
+    },
+    "visible": {
+      "description": "Matoma metrika rodoma tiesioginio projekto Metrikos skirtuke."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Metrika atitiks iniciatyvos bendrinimo lygį. Paslėpta metrika išliks pasiekiama API iškvietimu.",
+        "metricsDockLink": "Sužinokite daugiau apie metrikos nustatymą"
+      }
+    }
+  },
+  "metricNumber": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4"
+  },
+  "actions": {
+    "delete": "Ištrinti",
+    "edit": "Redaguoti",
+    "featured": "Funkcija",
+    "removeFeatured": "Pašalinti rekomenduojamus",
+    "show": "Perkelti į matomus",
+    "hide": "Perkelti į paslėptus"
+  },
+  "editor": {
+    "heading": "Nauja metrika",
+    "description": "Pagal numatytuosius nustatymus metrikos bus automatiškai paslėptos, kad jūsų darbo srities nariai galėtų jas matyti."
+  },
+  "deleteMetricModal": {
+    "heading": "Ištrinti metriką",
+    "content": "Ar tikrai norite ištrinti:",
+    "cancel": "Atšaukti",
+    "delete": "Ištrinti"
+  },
+  "sidePanel": {
+    "definitions": "Apibrėžimai",
+    "preview": "Peržiūra"
+  }
+}

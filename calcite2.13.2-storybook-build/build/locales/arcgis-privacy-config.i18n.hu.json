@@ -1,0 +1,29 @@
+{
+  "additionalInfo": {
+    "label": "Opcionális megjelenítési beállítások",
+    "helperText": "Adja hozzá saját adatvédelmi leírását és irányelveit."
+  },
+  "allowPrivacyConfig": {
+    "label": "Adatvédelmi nyilatkozat megjelenítése"
+  },
+  "blocking": {
+    "label": "Megjegyzés típusa",
+    "optional": {
+      "label": "A hozzájárulás nem kötelező",
+      "description": "A megtekintő az adatvédelmi hozzájárulás kiválasztása nélkül is használhatja a webhelyet; a nyomon követés azonnal megkezdődik, amíg azt a megtekintő el nem utasítja."
+    },
+    "required": {
+      "label": "Hozzájárulás szükséges",
+      "description": "A megtekintőnek el kell fogadnia vagy el kell utasítania a nyomon követést a webhely használatához; a nyomon követés csak akkor indul el, ha azt a megtekintő elfogadja."
+    }
+  },
+  "consentText": {
+    "label": "Adatvédelmi ismertető",
+    "helperText": "Megjelenik az adatvédelmi tájékoztatóban a webhely megtekintője számára."
+  },
+  "policyURL": {
+    "label": "Szabályzat hivatkozása",
+    "helperText": "„További információk” linkként jelenik meg az adatvédelmi tájékoztatóban.",
+    "error": "A megjelenítéshez egy érvényes URL-nek kell lennie."
+  }
+}

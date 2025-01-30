@@ -1,0 +1,50 @@
+{
+  "section": "Kustuta",
+  "protection": "Vältige selle üksuse {type} juhuslikku kustutamist.",
+  "protectionTooltip": "Kaitse kohtspikker",
+  "protectionDisabledTooltip": "Kaitset tohivad muuta ainult omanikud või organisatsiooni administraatorid.",
+  "deleteDisabledNoAccessTooltip": "Kustutada tohivad ainult omanikud või organisatsiooni administraatorid.",
+  "deleteDisabledNoAccessTooltipGroup": "Kustutada saavad ainult omanikud, juhid või organisatsiooni administraatorid.",
+  "deleteDisabledProtectedTooltip": "Kustutamine pole võimalik, kui kustutuskaitse on sisse lülitatud.",
+  "deleteButton": "Kustuta",
+  "protect": {
+    "successTitle": "Kustutamiskaitse lisatud",
+    "success": "Kustutamine pole võimalik, kui kustutuskaitse on sisse lülitatud.",
+    "successLabel": "Kustutuskaitse lisamise teade.",
+    "errorTitle": "Kustutamiskaitset ei saa lisada",
+    "error": "Kustutuskaitse lisamisel ilmnes tõrge.",
+    "errorLabel": "Kustutuskaitse nurjumise teade."
+  },
+  "unprotect": {
+    "successTitle": "Kustutamiskaitse eemaldatud",
+    "success": "Saate kustutada, kui kustutuskaitse on keelatud.",
+    "successLabel": "Kustutskaitse eemaldamise teade.",
+    "errorTitle": "Kustutamiskaitset ei saa eemaldada",
+    "error": "Kustutuskaitse eemaldamisel ilmnes tõrge.",
+    "errorLabel": "Kustutuskaitse eemaldamise nurjumise teade."
+  },
+  "delete": {
+    "successTitle": "Kustutatud",
+    "success": "Ümbersuunamine teie kodusesse tööruumi",
+    "successLabel": "Kustutamise õnnestumise teade.",
+    "errorTitle": "Kustutamine nurjus",
+    "error": "Midagi läks valesti. Proovige uuesti.",
+    "errorLabel": "Kustutamise nurjumise teade."
+  },
+  "permanentDelete": {
+    "successTitle": "Jäädavalt kustutatud",
+    "success": "Ümbersuunamine teie kodusesse tööruumi",
+    "successLabel": "Kustutamise õnnestumise teade.",
+    "errorTitle": "Kustutamine nurjus",
+    "error": "Midagi läks valesti. Proovige uuesti.",
+    "errorLabel": "Kustutamise nurjumise teade."
+  },
+  "deleteModal": {
+    "header": "Kustuta",
+    "deleteContent": "Jäädavat kustutamist ei saa tagasi võtta. Kas soovite kindlasti jätkata?",
+    "recycleContent": "Kustutatud sisu saadetakse prügikasti. Selle taastamiseks on teil 14 päeva.",
+    "delete": "Kustuta",
+    "permanentlyDelete": "Kustuta jäädavalt",
+    "cancel": "Loobu"
+  }
+}

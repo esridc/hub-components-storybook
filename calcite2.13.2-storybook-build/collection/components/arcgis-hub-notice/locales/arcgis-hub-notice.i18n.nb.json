@@ -1,0 +1,150 @@
+{
+  "modal": {
+    "dismiss": "Ikke vis dette igjen",
+    "close": "Lukk"
+  },
+  "notice": {
+    "n001": {
+      "title": "Testvarsel",
+      "message": "Dette er brødteksten i et tekstvarsel",
+      "actions": [
+        {
+          "text": "Les bloggen"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-1": {
+      "title": "Bytt til den oppdaterte nedlastingsopplevelsen",
+      "message": "Aktiver «pakk ut» i elementets tjeneste for å få flere formater og forbedret hastighet og ytelse."
+    },
+    "20240220-hosted-downloads-2": {
+      "title": "Nedlastingsforbedringer er her!",
+      "message": "Forbedringer av nedlastinger til Hub-områdene dine omfatter støtte for hostede nedlastinger, oppdatert utseende på nedlastingskortene og en ny fremdriftsstolpe for nedlastinger.",
+      "actions": [
+        {
+          "text": "Mer informasjon"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-3": {
+      "title": "Hostede nedlastinger er her!",
+      "message": "Hostede nedlastinger bidrar til å øke ytelsen ved nedlasting av innhold. For å aktivere hostede nedlastinger må du tillate Uttrekk av funksjoner nedenfor.",
+      "actions": [
+        {
+          "text": "Mer informasjon"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-basic": {
+      "title": "Om arbeidsområder",
+      "message": "<p><strong>Legg til innhold til Site-kataloger med grupper</strong><br>Site-søkekataloger har alltid vært drevet av grupper, og arbeidsområder gjør det enklere å administrere disse gruppene. For øyeblikket kan du legge til innhold i individuelle grupper som er koblet til området ditt for å få dem til å vises i områdekatalogen. Snart vil du kunne legge til innhold i katalogen direkte.</p><p><strong>Overgang fra team til grupper</strong><br>Du kan nå bruke ArcGIS Online Groups til å samarbeide om områder, sider, innhold og prosjekter i Hub. Alle tidligere tilkoblede «Team», f.eks. områdets «kjerneteam», vises fortsatt i Samarbeidspartnere-panelet på sidearbeidsområdet.</p><p><strong>Teambaserte e-postmeldinger er midlertidig satt på pause</strong><br>Sending av e-postmeldinger og e-post med invitasjoner og fjerning til teammedlemmer og følgere støttes for tiden ikke.</p><p><strong>Foreldelse av innbygd Survey123-websidedesigner</strong><br>Vi innbygde Survey123-designeren for å hjelpe deg med å få mer gjort i Hub. Tilbakemelding fra kunder antydet imidlertid at man foretrakk undersøkelsesdesign og -administrasjon i Survey123, akkurat som andre applikasjoner. Dermed forelder vi støtte for innbygd Survey123-designer i ArcGIS Hub for å innrette oss bedre mot din ønskede arbeidsflyt.</p>",
+      "actions": [
+        {
+          "text": "Mer informasjon"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-premium": {
+      "title": "Om arbeidsområder",
+      "message": "<p><strong>Legg til innhold til Site-kataloger med grupper</strong><br>Site-søkekataloger har alltid vært drevet av grupper, og arbeidsområder gjør det enklere å administrere disse gruppene. For øyeblikket kan du legge til innhold i individuelle grupper som er koblet til området ditt for å få dem til å vises i områdekatalogen. Snart vil du kunne legge til innhold i katalogen direkte.</p><p><strong>Overgang fra støtteteam til grupper</strong><br>Du kan nå bruke ArcGIS Online Groups til å samarbeide om områder, sider, innhold og prosjekter i Hub. Alle tidligere tilkoblede støtteteam vises fortsatt i Samarbeidspartnere-panelet på sidearbeidsområdet. For fortsatt støtte legger du til disse støtteteamene som grupper som kan vise og grupper som kan redigere.</p><p><strong>Teambaserte e-postmeldinger er midlertidig satt på pause</strong><br>Sending av e-postmeldinger og e-post med invitasjoner og fjerning til teammedlemmer og følgere støttes for tiden ikke.</p><p><strong>Foreldelse av innbygd Survey123-websidedesigner</strong><br>Vi innbygde Survey123-designeren for å hjelpe deg med å få mer gjort i Hub. Tilbakemelding fra kunder antydet imidlertid at man foretrakk undersøkelsesdesign og -administrasjon i Survey123, akkurat som andre applikasjoner. Dermed forelder vi støtte for innbygd Survey123-designer i ArcGIS Hub for å innrette oss bedre mot din ønskede arbeidsflyt.</p><p><strong>Hendelser er fortsatt ikke tilgjengelig i arbeidsområder</strong><br>Hendelser gjennomgår en forandring og bør snart være tilgjengelig inne i arbeidsområdene. For øyeblikket vil du miste muligheten til å opprette nye hendelser, håndtere og søke i eksisterende hendelser hvis du velger å bruke arbeidsområder. Hvis du vil håndtere tidligere opprettede hendelser, kan du imidlertid melde deg ut når som helst.</p>",
+      "actions": [
+        {
+          "text": "Mer informasjon"
+        }
+      ]
+    },
+    "202404-workspaceannouncement": {
+      "title": "Vi presenterer arbeidsområder",
+      "message": "Arbeidsområder er den nye måten å redigere og administrere elementer i Hub på, og vil erstatte den globale navigasjonen i redigeringsvisning (ikke live-visning). I denne fasen kan du «melde deg på» (når som helst) for å bruke arbeidsområder og tilknyttede funksjoner for elementer og grupper. Hendelser blir tilgjengelig senere. Velg «Gå til innstillinger» for å prøve arbeidsområder nå.",
+      "actions": [
+        {
+          "text": "Gå til innstillinger"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing": {
+      "title": "Gjeninnfører – Hub-initiativer",
+      "message": "ArcGIS Hub-initiativer ble endret den 2. juli 2024. Tidligere opprettede initiativer er nå egne områder – med samme layout, innhold, URL-er og premiumfunksjoner (som følgere og arrangementer) som før. For å prøve nye og oppdaterte initiativer, må du aktivere arbeidsområder.",
+      "actions": [
+        {
+          "text": "Lær om initiativer",
+          "ariaLabel": "Mer informasjon om initiativer, åpnes i ny fane"
+        },
+        {
+          "text": "Gå til innstillinger"
+        }
+      ]
+    },
+    "20240517-initiatives-manage": {
+      "title": "Administrer gamle initiativer",
+      "message": "ArcGIS Hub-initiativer ble endret den 2. juli 2024. Tidligere opprettede initiativer er nå egne områder – med samme layout, innhold, URL-er og premiumfunksjoner (som følgere og arrangementer) som før. Du kan trygt slette gamle initiativer.",
+      "actions": [
+        {
+          "text": "Lær om initiativer",
+          "ariaLabel": "Mer informasjon om initiativer, åpnes i ny fane"
+        },
+        {
+          "text": "Svært gamle initiativer",
+          "ariaLabel": "Vis gamle initiativer, åpnes i ny fane"
+        }
+      ]
+    },
+    "20240517-initiatives-manage-no-priv": {
+      "title": "Administrer gamle initiativer",
+      "message": "ArcGIS Hub-initiativer ble endret den 2. juli 2024. Tidligere opprettede initiativer er nå egne områder – med samme layout, innhold, URL-er og premiumfunksjoner (som følgere og arrangementer) som før. Du kan trygt slette gamle initiativer.",
+      "actions": [
+        {
+          "text": "Lær om initiativer",
+          "ariaLabel": "Mer informasjon om initiativer, åpnes i ny fane"
+        },
+        {
+          "text": "Svært gamle initiativer",
+          "ariaLabel": "Vis gamle initiativer, åpnes i ny fane"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing-site": {
+      "title": "Gjeninnfører – Hub-initiativer",
+      "message": "Den nye generasjonen Hub-initiativer er nå tilgjengelig i arbeidsområdet. Initiativer har sin egen visning som er enkel å konfigurere, og kan hjelpe til med å samordne Hub-prosjekter som har samme langsiktige mål. Initiativer kan opprettes uavhengig av hverandre, og de kan dels med ett eller flere områder. Områder kan ha ett eller flere initiativer.",
+      "actions": [
+        {
+          "text": "Mer informasjon",
+          "ariaLabel": "Mer informasjon, åpnes i ny fane"
+        }
+      ]
+    },
+    "20240710-slow-service-warning": {
+      "title": "Tjenesteforstyrrelse",
+      "message": "Kommunikasjon med tjenesten tar lenger enn ventet. Dette kan påvirke tilgangen din til nedlastinger og kartfunksjonaliteten."
+    },
+    "20240710-unreachable-service-error": {
+      "title": "Tjeneste utilgjengelig",
+      "message": "Vi får ikke kontakt med vertstjenesten. Nedlastinger og kartfunksjonalitet er for tiden utilgjengelig for dette elementet."
+    },
+    "20240807-auth-required-status": {
+      "title": "Tjenestens status er ukjent",
+      "message": "Vi får ikke tilgang til den sikrede tjenesten siden den krever ekstra autorisasjon. Nedlastinger og kartfunksjonalitet er for tiden utilgjengelig for elementet."
+    },
+    "20240805-private-downloads-unavailable-ago-error": {
+      "title": "Nedlastinger er ikke tilgjengelig",
+      "message": "For å laste ned innhold må Eksporter data-innstillingen være aktivert på ArcGIS Online. Kontakt elementets eier for å aktivere denne innstillingen."
+    },
+    "20240805-private-downloads-unavailable-enterprise-error": {
+      "title": "Nedlastinger er ikke tilgjengelig",
+      "message": "For å laste ned innhold må Eksporter data-innstillingen være aktivert på ArcGIS Enterprise. Kontakt elementets eier for å aktivere denne innstillingen."
+    },
+    "20240819-download-formats-disabled": {
+      "title": "Nedlastinger er deaktivert",
+      "message": "Hvis du vil laste ned innhold for dette elementet, må du kontakte elementets eier."
+    },
+    "20241104-about-feeds-notice": {
+      "message": "Bruk Hub-feeder for enkel tilgang til og gjenbruk av dine offentlige åpne data.",
+      "actions": [
+        {
+          "text": "Lær om Hub-feeder",
+          "ariaLabel": "Lær om Hub-feeder, åpnes i ny fane"
+        }
+      ]
+    }
+  }
+}

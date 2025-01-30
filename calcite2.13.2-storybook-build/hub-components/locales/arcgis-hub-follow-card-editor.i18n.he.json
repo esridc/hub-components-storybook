@@ -1,0 +1,41 @@
+{
+  "notice": {
+    "outdatedItem": {
+      "title": "החלף את היוזמה שלך",
+      "message": "כרטיס זה מפנה לפריט לא עדכני. בחר פריט אחר שאחריו יעקבו משתמשים."
+    },
+    "missingFollowersGroup": {
+      "title": "קבוצת עוקבים חסרה",
+      "message": "לפריט זה חסרה קבוצת עוקבים. בחר פריט אחר."
+    },
+    "noGroupAccess": {
+      "title": "שים לב",
+      "message": "אין לך גישה לקבוצת העוקבים."
+    }
+  },
+  "selectContent": {
+    "title": "תוכן למעקב",
+    "facets": {
+      "sharing": "שיתוף",
+      "catalog": {
+        "myContent": "התוכן שלי",
+        "organization": "הארגון שלי"
+      }
+    }
+  },
+  "callToAction": {
+    "title": "קריאה לפעולה",
+    "helperText": "הקריאה לפעולה מוצגת מעל לחצן המעקב.",
+    "alignment": "יישור"
+  },
+  "followButton": {
+    "title": "לחצן מעקב",
+    "helperText": "לחצן זה יאפשר לחברים לעקוב או לבטל מעקב אחר התוכן שלך. ניתן להגדיר טקסט לשני מצבי הלחצן.",
+    "buttonText": "טקסט לחצן בחירה למעקב",
+    "unfollowButtonText": "טקסט לחצן בחירה לביטול מעקב",
+    "alignment": "יישור",
+    "buttonStyle": "סגנון לחצן",
+    "solid": "רקע רציף",
+    "outline": "מתאר"
+  }
+}

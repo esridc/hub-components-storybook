@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "Edita",
+    "fields": {
+      "label": {
+        "label": "Etiqueta",
+        "requiredMessage": "Etiqueta obligatòria",
+        "maxLengthMessage": "L'etiqueta no pot tenir més de {maxLength} caràcters"
+      }
+    },
+    "apply": "Aplica"
+  },
+  "showItem": "Mostra l'element següent de la llista: {itemLabel}",
+  "hideItem": "Amaga l'element següent de la llista: {itemLabel}",
+  "editItem": "Edita l'element següent de la llista: {itemLabel}"
+}

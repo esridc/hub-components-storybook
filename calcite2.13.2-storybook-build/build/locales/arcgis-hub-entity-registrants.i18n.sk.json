@@ -1,0 +1,46 @@
+{
+  "registrants": "Zaregistrovaní",
+  "invite": "Pozvať",
+  "tabs": {
+    "registrants": "Zaregistrovaní",
+    "settings": "Nastavenia"
+  },
+  "emptyNotice": {
+    "title": "Žiaden zaregistrovaný",
+    "desc": "Udalosti sú vždy zábavnejšie s publikom. Pozvite ľudí alebo zdieľajte svoju udalosť, aby ste ich povzbudili k účasti.",
+    "link": "Pozvať zaregistrovaného"
+  },
+  "facets": {
+    "role": {
+      "header": "Rola",
+      "owner": "Vlastník",
+      "organizer": "Organizátor",
+      "attendee": "Zaregistrovaný"
+    },
+    "status": {
+      "header": "Stav",
+      "pending": "Čakajúce",
+      "accepted": "Akceptované",
+      "declined": "Zamietnuté",
+      "blocked": "Zablokované"
+    },
+    "location": {
+      "header": "Lokalita",
+      "online": "Online",
+      "in_person": "Osobne"
+    },
+    "updatedDate": "Aktualizovaný dátum"
+  },
+  "delete": {
+    "attendee": "Odstrániť zaregistrovaného"
+  },
+  "notice": {
+    "label": "Upozornenie na formulár"
+  },
+  "success": {
+    "delete": "Zaregistrovaní boli úspešne odstránení z {eventName}."
+  },
+  "error": {
+    "delete": "Jedného alebo viacerých zaregistrovaných nebolo možné z udalosti odstrániť."
+  }
+}

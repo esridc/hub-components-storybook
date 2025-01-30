@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "Automatisert av Hub",
+      "actionText": "Automatisk alternativ-info"
+    },
+    "daily": {
+      "defaultLabel": "Daglig",
+      "defaultExpandedHelperText": "Hver dag på den valgte timen i den valgte tidssonen.",
+      "actionText": "Daglig alternativ-info"
+    },
+    "weekly": {
+      "defaultLabel": "Ukentlig",
+      "defaultExpandedHelperText": "Hver dag på den følgende dagen og timen i den valgte tidssonen.",
+      "actionText": "Ukentlig alternativ-info"
+    },
+    "monthly": {
+      "defaultLabel": "Månedlig",
+      "defaultExpandedHelperText": "Hver måned på den følgende dagen og timen i den valgte tidssonen.",
+      "actionText": "Månedlig alternativ-info"
+    },
+    "yearly": {
+      "defaultLabel": "Årlig",
+      "defaultExpandedHelperText": "Hvert år på den følgende måneden, dagen og timen i den valgte tidssonen.",
+      "actionText": "Årlig alternativ-info"
+    },
+    "manual": {
+      "defaultLabel": "Manuell",
+      "defaultExpandedHelperText": "Bruk dette alternativet hvis du manuelt vil oppdatere søkeindeksen og bufrede nedlastingsfiler for dette elementet der det er aktuelt.",
+      "actionText": "Manuelt alternativ-info"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "Tid på dagen",
+      "inputMessage": "Klokkeslettet blir avrundet til nærmeste time.",
+      "error": "Velg en time."
+    },
+    "day": {
+      "helperText": "Ukedag",
+      "daysOfTheWeek": {
+        "sunday": "Søndag",
+        "monday": "Mandag",
+        "tuesday": "Tirsdag",
+        "wednesday": "Onsdag",
+        "thursday": "Torsdag",
+        "friday": "Fredag",
+        "saturday": "Lørdag"
+      },
+      "selectLabel": "Velger for ukedag",
+      "error": "Velg en ukedag."
+    },
+    "date": {
+      "helperText": "Dag i måneden",
+      "inputNumberPlaceholder": "Velg en dag i måneden",
+      "inputMessage": "Angi en verdi fra 1 til 28 for dag i måneden.",
+      "error": "Dagen i måneden må være mellom 1 og 28."
+    },
+    "month": {
+      "helperText": "Måned i året",
+      "selectLabel": "Velger for måned i året",
+      "monthsOfTheYear": {
+        "january": "Januar",
+        "february": "Februar",
+        "march": "Mars",
+        "april": "April",
+        "may": "Mai",
+        "june": "Juni",
+        "july": "Juli",
+        "august": "August",
+        "september": "September",
+        "october": "Oktober",
+        "november": "November",
+        "december": "Desember"
+      },
+      "error": "Velg en måned."
+    },
+    "timezone": {
+      "helperText": "Tidssone",
+      "error": "Velg en tidssone."
+    }
+  },
+  "fieldHeader": "Frekvens"
+}

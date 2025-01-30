@@ -1,0 +1,46 @@
+{
+  "registrants": "Înregistratori",
+  "invite": "Invitare",
+  "tabs": {
+    "registrants": "Înregistratori",
+    "settings": "Setări"
+  },
+  "emptyNotice": {
+    "title": "Nu există înregistratori",
+    "desc": "Evenimentele sunt întotdeauna mai distractive cu public. Invitați alte persoane sau partajați-vă evenimentul pentru a încuraja oamenii să participe.",
+    "link": "Invitați înregistratori"
+  },
+  "facets": {
+    "role": {
+      "header": "Rol",
+      "owner": "Proprietar",
+      "organizer": "Organizator",
+      "attendee": "Înregistrator"
+    },
+    "status": {
+      "header": "Stare",
+      "pending": "În așteptare",
+      "accepted": "Acceptat",
+      "declined": "Refuzat",
+      "blocked": "Blocat"
+    },
+    "location": {
+      "header": "Locație",
+      "online": "Online",
+      "in_person": "În persoană"
+    },
+    "updatedDate": "Data actualizării"
+  },
+  "delete": {
+    "attendee": "Excludeți înregistratorul"
+  },
+  "notice": {
+    "label": "Alertă formular"
+  },
+  "success": {
+    "delete": "Înregistratori excluși cu succes din {eventName}."
+  },
+  "error": {
+    "delete": "Unul sau mai mulți înregistratori nu au putut fi excluși din eveniment."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "title": "Členovia",
+  "facets": {
+    "role": {
+      "label": "Rola",
+      "all": "Všetko",
+      "manager": "Správca",
+      "member": "Člen"
+    },
+    "dateJoined": {
+      "label": "Dátum pripojenia"
+    }
+  },
+  "stats": {
+    "total": {
+      "title": "Celkom",
+      "trailingText": "Členovia skupiny"
+    },
+    "new": {
+      "title": "Nové",
+      "trailingText": "Posledných 30 dní"
+    }
+  },
+  "addMembers": {
+    "button": "Pridať členov",
+    "disabledTooltip": "Nemáte prístup na pridávanie používateľov do tejto skupiny.",
+    "modal": {
+      "title": "Pridať členov",
+      "org": "Moja organizácia",
+      "community": "Moja komunita",
+      "partner": "Moji partneri",
+      "world": "Svet"
+    },
+    "notifications": {
+      "invited": "Pozvánka odoslaná. Používatelia musia súhlasiť, aby sa mohli pripojiť",
+      "added": "Pridaní používatelia",
+      "notInvited": "Niektorí používatelia nemusia mať oprávnenia potrebné na vstup do skupiny alebo môžu mať maximálny limit skupiny (512)"
+    }
+  },
+  "removeUsers": {
+    "button": "Odstrániť",
+    "success": "Členovia úspešne odstránení z {groupName}.",
+    "error": "Jedného alebo viacerých používateľov nebolo možné odstrániť zo skupiny."
+  },
+  "changeRole": {
+    "tooltipText": "Zrušiť výber seba a/alebo vlastníka skupiny",
+    "tooltipLabel": "Zrieknutie sa zodpovednosti v rámci roly",
+    "button": "Zmeniť rolu",
+    "member": "Člen",
+    "memberHelperText": "Môže pridávať a zobrazovať obsah v rámci skupiny.",
+    "admin": "Správca",
+    "adminHelperText": "Môže pridávať/odstraňovať obsah a pozývať/odstraňovať ľudí (okrem vlastníka).",
+    "success": "Vybraní členovia sa stali skupinou {role}.",
+    "error": "Rolu nebolo možné zmeniť pre jedného alebo viacerých členov."
+  },
+  "notice": {
+    "label": "Upozornenie na formulár"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "header": "Keskustelut",
+  "myContent": "Omat tapahtumat",
+  "editableContent": "Muokattava sisältö",
+  "addContentButtonText": "Luo tapahtuma",
+  "type": "Tyyppi",
+  "sharedUpdate": "Jaettu päivitys -ryhmä",
+  "viewOnly": "Vain tarkastelu -ryhmä",
+  "owner": "Omistaja",
+  "updated": "Päivitetty",
+  "tags": "Tunnisteet",
+  "dateCreated": "Luotu",
+  "dateUpdated": "Muokattu",
+  "actionLinks": {
+    "view": "Näytä",
+    "edit": "Muokkaa",
+    "ariaEdit": "Muokkaa: {title}",
+    "ariaView": "Näytä: {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Tapahtumat",
+      "myContent": "Tapahtumat, jotka omistan",
+      "editableContent": "Tapahtumat, joita voin muokata",
+      "all": "Kaikki tapahtumat"
+    },
+    "access": {
+      "label": "Kohteesta"
+    },
+    "type": {
+      "label": "Tyypit"
+    },
+    "tags": {
+      "label": "Tunnisteet"
+    },
+    "categories": {
+      "label": "Luokat"
+    },
+    "modified": {
+      "label": "Muokattu"
+    }
+  }
+}

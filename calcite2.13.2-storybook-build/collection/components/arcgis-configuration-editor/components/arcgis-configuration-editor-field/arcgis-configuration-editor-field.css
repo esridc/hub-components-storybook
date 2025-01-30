@@ -1,0 +1,73 @@
+.disabled-text {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+calcite-label span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+calcite-label calcite-input-message {
+  margin-top: 0px;
+}
+
+calcite-label[layout="inline-space-between"] .helper-text {
+  margin-top: 0.5rem;
+}
+
+.field-container calcite-input-message, .message-container calcite-input-message, .helper-text {
+  font-weight: var(--calcite-font-weight-normal);
+}
+
+.helper-text {
+  padding-top: 0.75rem;
+}
+
+[scale="s"] calcite-input-message {
+  font-size: var(--calcite-font-size--3);
+  line-height: 0.75rem;
+}
+
+[scale="l"] calcite-input-message {
+  font-size: var(--calcite-font-size--1);
+  line-height: 1rem;
+}
+
+.message-notice-container {
+  max-width: 20rem;
+}
+
+.field-container {
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.field-container-inline {
+  align-self: flex-start;
+}
+
+.field-message {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.field-message calcite-icon.error {
+  --calcite-ui-icon-color: var(--calcite-color-status-danger);
+  margin: 0.25rem;
+}
+
+.field-message calcite-icon.success {
+  --calcite-ui-icon-color: var(--calcite-color-status-success);
+  margin: 0.25rem;
+}
+
+.field-message calcite-icon.custom {
+  margin: 0.25rem;
+}

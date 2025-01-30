@@ -1,0 +1,110 @@
+{
+  "controls": {
+    "addContent": "إضافة محتوى",
+    "back": "السابق",
+    "cancel": "إلغاء الأمر",
+    "close": "تم",
+    "create": "الإنشاء والإضافة إلى المجموعة",
+    "next": "التالي"
+  },
+  "createHelpState": {
+    "discussion": {
+      "heading": "مناقشة",
+      "message": "أنشئ لوحة مناقشة جديدة عن طريق إدخال عنوان يشير إلى الموضوع."
+    },
+    "event": {
+      "heading": "الحدث",
+      "message": "يمكنك استضافة نشاط منظم، سواء شخصيًا أو افتراضيًا."
+    },
+    "group": {
+      "heading": "المجموعة",
+      "message": "قم بإعداد مجموعة للتعاون في المحتوى المُركز."
+    },
+    "initiative": {
+      "heading": "المبادرة",
+      "message": "تنظم المبادرات وتلخص التقدم نحو هدف معين."
+    },
+    "page": {
+      "heading": "الصفحة",
+      "message": "الصفحة هي مكان لمشاركة المعلومات والتواصل مع جمهورك."
+    },
+    "project": {
+      "heading": "المشروع",
+      "message": "قم بتسليط الضوء على العمل الذي لديه أهداف وإطارات زمنية واضحة."
+    },
+    "site": {
+      "heading": "الموقع",
+      "message": "إنشاء صفحة ويب لتنظيم المعلومات ومشاركتها."
+    }
+  },
+  "selection": {
+    "unlimited": "محدد: {count}",
+    "limited": "محدد: {count} / {limit}"
+  },
+  "steps": {
+    "createContent": "إضافة المعلومات الأساسية",
+    "selectContent": "تحديد محتوى",
+    "selectGroups": "تحديد مجموعة",
+    "confirmation": "تأكيد",
+    "notImplemented": "لم يتم التنفيذ"
+  },
+  "working": {
+    "heading": "إضافة المحتوى المحدد.",
+    "loadingLabel": "إضافة محتوى."
+  },
+  "failure": {
+    "heading": "لم تتم إضافة المحتوى",
+    "message": "حدث خطأ ما أثناء إضافة المحتوى المحدد، يرجى المحاولة مرة أخرى.",
+    "action": "إعادة المحاولة"
+  },
+  "notImplemented": {
+    "heading": "لم يتم تنفيذ سير العمل هذا بعد."
+  },
+  "contentGallery": {
+    "facets": {
+      "access": {
+        "label": "مِن"
+      },
+      "type": {
+        "label": "أنواع"
+      },
+      "tags": {
+        "label": "العلامات"
+      },
+      "categories": {
+        "label": "الفئات"
+      },
+      "modified": {
+        "label": "تعديل"
+      }
+    }
+  },
+  "groupsGallery": {
+    "facets": {
+      "access": {
+        "label": "قابل للعرض بواسطة",
+        "options": {
+          "org": "المؤسسة",
+          "public": "كل شخص (عام)",
+          "private": "أنا"
+        }
+      },
+      "from": {
+        "label": "مِن",
+        "options": {
+          "myCommunity": "مجتمعي",
+          "myGroups": "المجموعات",
+          "myOrganization": "مؤسستي",
+          "world": "العالم"
+        }
+      },
+      "type": {
+        "label": "أنواع",
+        "options": {
+          "sharedUpdate": "التحديث المشترك",
+          "opendata": "Open Data"
+        }
+      }
+    }
+  }
+}

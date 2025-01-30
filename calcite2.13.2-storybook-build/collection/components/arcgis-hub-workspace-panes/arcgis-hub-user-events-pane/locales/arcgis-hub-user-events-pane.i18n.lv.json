@@ -1,0 +1,29 @@
+{
+  "header": "Pasākumi",
+  "myContent": "Mani pasākumi",
+  "editableContent": "Rediģējams saturs",
+  "addEventButtonText": "Izveidot pasākumu",
+  "type": "Veids",
+  "sharedUpdate": "Koplietotā atjauninājumu grupa",
+  "viewOnly": "Tikai skatīšanās grupa",
+  "owner": "Izveidojis",
+  "starts": "Ieslēgts",
+  "from": "No",
+  "until": "Līdz",
+  "updated": "Atjaunināts",
+  "tags": "Atslēgvārdi",
+  "dateCreated": "Izveidots",
+  "dateUpdated": "Mainīts",
+  "actionLinks": {
+    "view": "Skatīt",
+    "edit": "Rediģēt",
+    "ariaEdit": "Rediģēt: {title}",
+    "ariaView": "Skatīt: {title}"
+  },
+  "access": {
+    "label": "Piekļuve",
+    "PRIVATE": "Privāts",
+    "ORG": "Organizācija",
+    "PUBLIC": "Publisks"
+  }
+}

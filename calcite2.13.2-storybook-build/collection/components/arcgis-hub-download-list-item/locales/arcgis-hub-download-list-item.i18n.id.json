@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "Koleksi Fitur",
+    "fgdb": "File Geodatabase",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Shapefile",
+    "sqlite": "Geodatabase SQLite"
+  },
+  "buttonText": {
+    "download": "Unduhan",
+    "pending": "Tertunda",
+    "processing": "Memproses",
+    "converting": "Mengonversi",
+    "completed": "Unduhan selesai",
+    "failed": "Unduhan gagal"
+  },
+  "errors": {
+    "errorHeading": "Kesalahan"
+  },
+  "cacheStatusAccordion": {
+    "heading": "Sudah menemukan Anda perlukan?",
+    "content": "Versi yang lebih baru mungkin tersedia.",
+    "button": "Minta file baru"
+  },
+  "generateNewModal": {
+    "heading": "Apakah Anda yakin?",
+    "content": "Prosesnya mungkin perlu waktu. Biarkan tab browser tetap aktif sampai pengunduhan selesai.",
+    "confirmButton": "Iya",
+    "cancelButton": "Batalkan"
+  }
+}

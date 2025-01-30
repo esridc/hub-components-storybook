@@ -1,0 +1,15 @@
+{
+  "newCollection": "คอลเลกชันใหม่",
+  "block": {
+    "heading": {
+      "untitled": "คอลเลคชั่นไม่ระบุชื่อ"
+    },
+    "actions": {
+      "delete": "ลบคอลเลกชัน: {label}"
+    }
+  },
+  "name": {
+    "label": "ชื่อ",
+    "requiredError": "ต้องระบุชื่อคอลเลกชัน"
+  }
+}

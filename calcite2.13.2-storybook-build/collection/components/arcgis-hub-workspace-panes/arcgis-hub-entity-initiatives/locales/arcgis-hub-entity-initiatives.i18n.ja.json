@@ -1,0 +1,87 @@
+{
+  "initiatives": "イニシアティブ",
+  "description": "イニシアティブに関連付けて、長期的または大規模な取り組みに貢献します。 プロジェクトの共同作業者は、確定した関連付けと未解決の関連付けリクエストを管理できます。 確定した関連付けを持つイニシアティブは、このプロジェクトのビューに表示されます。 ",
+  "shared": {
+    "error": {
+      "title": "問題が発生しました",
+      "message": "このタスクを完了できませんでした。 もう一度お試しください。"
+    },
+    "facets": {
+      "access": {
+        "label": "共有"
+      },
+      "status": {
+        "label": "ステータス",
+        "notStarted": "開始前",
+        "inProgress": "処理中",
+        "onHold": "保留中",
+        "complete": "完了"
+      },
+      "tags": {
+        "label": "タグ"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "{currentConfirmedAndOutgoingRequests} / {maxCurrentAndOutgoingRequestsAllowed} 確定したリクエスト + 送信リクエスト",
+      "tooltip": "リクエストを送信するには、既存の関連付けまたは送信リクエスト (あるいは両方) を解除します"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "イニシアティブの検索",
+    "sendRequest": "リクエストの送信",
+    "success": {
+      "title": "成功",
+      "message": "関連付けリクエストが送信されました: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "関連付けの確認",
+      "message": "一部の選択で関連付けがすでにリクエストされています。 新しい関連付けリクエストが送信されました: {count}"
+    },
+    "catalog": {
+      "myContent": "マイ コンテンツ",
+      "favorites": "お気に入り",
+      "organization": "組織",
+      "partners": "パートナー",
+      "community": "コミュニティ"
+    },
+    "collection": {
+      "initiatives": "イニシアティブ"
+    }
+  },
+  "acceptAssociation": {
+    "label": "承認",
+    "limitReachedTooltip": "承認するには、既存の関連付けまたは送信リクエスト (あるいは両方) を解除します",
+    "success": {
+      "title": "成功",
+      "message": "{requestor} で関連付けが承認されました"
+    }
+  },
+  "cancelRequest": {
+    "label": "リクエストをキャンセル",
+    "success": {
+      "title": "成功",
+      "message": "関連付けリクエストがキャンセルされました"
+    }
+  },
+  "breakAssociation": {
+    "label": "関連付け解除",
+    "success": {
+      "title": "関連付けが解除されました",
+      "message": "このアイテムを以前の関連付けから解除しました。 ただし、相手側の決定は撤回できないため、受信リクエストの中にその決定が表示されます。"
+    }
+  },
+  "associationsGallery": {
+    "sources": "状態",
+    "catalog": {
+      "associated": "関連付け済み",
+      "requesting": "受信リクエスト",
+      "pending": "送信リクエスト"
+    },
+    "collection": {
+      "initiatives": "イニシアティブ"
+    }
+  },
+  "notice": {
+    "label": "フォームの通知"
+  }
+}

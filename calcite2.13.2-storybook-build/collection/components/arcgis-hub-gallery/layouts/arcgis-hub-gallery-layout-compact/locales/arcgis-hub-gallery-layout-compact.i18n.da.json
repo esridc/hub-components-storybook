@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Ingen resultater fundet."
+    },
+    "error": {
+      "message": "Der opstod desværre en fejl under søgningen."
+    }
+  },
+  "type": "Type",
+  "tags": "Nøgleord",
+  "owner": "Ejer",
+  "dateCreated": "Oprettet",
+  "dateUpdated": "Ændret",
+  "categories": "Kategorier",
+  "dateAndTime": "Dato og klokkeslæt",
+  "allDay": "{date} (hele dagen)",
+  "allDayRange": "{from} - {to} (hele dagen)",
+  "location": "Position",
+  "attendanceType": "Deltagelsestype",
+  "inPerson": "Personlig deltagelse",
+  "online": "Online",
+  "hybrid": "Hybrid"
+}

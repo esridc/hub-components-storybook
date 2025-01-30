@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "Kategooriad",
+        "noCategoriesNotice": {
+          "body": "Sellel organisatsioonil ei ole veel ühtegi kategooriat.",
+          "link": "Seadistage kategooriad"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "Sisu",
+      "selectionMode": {
+        "dynamic": {
+          "label": "Dünaamiline"
+        },
+        "manual": {
+          "label": "Käsitsi"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "Organisatsioon"
+        },
+        "collection": {
+          "sites": "Saidid",
+          "projects": "Projektid",
+          "initiatives": "Algatused"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "Organisatsioon"
+        },
+        "collection": {
+          "events": "Sündmused"
+        }
+      },
+      "access": {
+        "label": "Jagamine",
+        "private": {
+          "label": "Privaatne",
+          "description": "Filtreerige sisu järgi, mis on kättesaadav ainult teile ja neile, kellel on grupi juurdepääs."
+        },
+        "org": {
+          "label": "Organisatsioon",
+          "description": "Filtreerige sisu järgi, mis on kättesaadav ainult teie organisatsiooni liikmetele."
+        },
+        "public": {
+          "label": "Avalik",
+          "description": "Filtreerige kõigile kättesaadava sisu järgi."
+        }
+      },
+      "tags": {
+        "label": "Märksõnad"
+      },
+      "cardsShown": {
+        "label": "Näidatud kaardid"
+      }
+    },
+    "appearance": {
+      "label": "Väljanägemine",
+      "titleHeading": {
+        "label": "Pealkirja päis",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "WCAG G141 järgi pesastatud pealkirjad parandavad juurdepääsetavust."
+      },
+      "corners": {
+        "label": "Nurgad",
+        "square": {
+          "label": "Kandiline"
+        },
+        "round": {
+          "label": "Ümar"
+        }
+      },
+      "shadow": {
+        "label": "Vari",
+        "none": {
+          "label": "Välja lülitatud"
+        },
+        "low": {
+          "label": "Madal"
+        },
+        "medium": {
+          "label": "Keskmine"
+        },
+        "heavy": {
+          "label": "Raske"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "Kuva lisainfo"
+      },
+      "layout": {
+        "label": "Paigutus",
+        "list": {
+          "label": "Loend"
+        },
+        "map": {
+          "label": "Kaart"
+        },
+        "calendar": {
+          "label": "Kalender"
+        }
+      }
+    },
+    "options": {
+      "label": "Valikud",
+      "openIn": {
+        "label": "Ava asukohas ...",
+        "same": {
+          "label": "Sama vahekaart"
+        },
+        "new": {
+          "label": "Uus vahekaart"
+        },
+        "notice": {
+          "title": "Juurdepääsetavuse nõuanne:",
+          "body": "vastavalt WCAG 2.0 G200 tehnikale pole linkide avamine uutel vahekaartidel või akendes soovitatav.",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "Lisateave WCAG 2.0 G200 kohta"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "Jagamine",
+      "public": {
+        "label": "Avalik"
+      },
+      "private": {
+        "label": "Privaatne"
+      },
+      "organization": {
+        "label": "Organisatsioon"
+      }
+    },
+    "from": {
+      "label": "Jaotisest",
+      "myOrganization": {
+        "label": "Minu organisatsioon"
+      },
+      "myContent": {
+        "label": "Minu sisu"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "Sündmused",
+      "collections": {
+        "event": {
+          "label": "Sündmused"
+        }
+      }
+    },
+    "item": {
+      "label": "Sisu",
+      "collections": {
+        "item": {
+          "label": "Sisu"
+        }
+      }
+    }
+  }
+}

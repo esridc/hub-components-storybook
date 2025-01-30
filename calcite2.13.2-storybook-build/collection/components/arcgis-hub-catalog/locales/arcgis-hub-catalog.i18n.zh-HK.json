@@ -1,0 +1,16 @@
+{
+  "all": "全部",
+  "source": "來源",
+  "targetEntity": {
+    "item": "項目",
+    "group": "群組",
+    "user": "使用者",
+    "portalUser": "入口網站使用者",
+    "communityUser": "社群使用者",
+    "groupMember": "群組成員",
+    "event": "事件",
+    "channel": "通道",
+    "discussionPost": "貼文",
+    "eventAttendee": "事件註冊者"
+  }
+}

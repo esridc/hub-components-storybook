@@ -1,0 +1,53 @@
+{
+  "settings": "Instellingen",
+  "formDisabledTooltip": "U bent niet gemachtigd voor het maken van wijzigingen in deze {type}.",
+  "delete": {
+    "project": "Dit project verwijderen",
+    "initiative": "Dit initiatief verwijderen",
+    "site": "Deze site verwijderen",
+    "discussion": "Deze discussie verwijderen",
+    "content": "Deze content verwijderen",
+    "page": "Deze pagina verwijderen",
+    "group": "Deze groep verwijderen",
+    "initiativeTemplate": "Deze initiatiefsjabloon verwijderen",
+    "template": "Deze sjabloon verwijderen",
+    "survey": "Verwijder dit onderzoek",
+    "desc": {
+      "project": "Het verwijderen van dit project kan niet ongedaan worden gemaakt.",
+      "initiative": "Het verwijderen van dit initiatief kan niet ongedaan worden gemaakt.",
+      "site": "Het verwijderen van deze site kan niet ongedaan worden gemaakt.",
+      "discussion": "Het verwijderen van deze discussie kan niet ongedaan worden gemaakt.",
+      "content": "Het verwijderen van deze content kan niet ongedaan worden gemaakt.",
+      "page": "Het verwijderen van deze pagina kan niet ongedaan worden gemaakt.",
+      "group": "Het verwijderen van deze groep kan niet ongedaan worden gemaakt.",
+      "initiativeTemplate": "Het verwijderen van deze initiatiefsjabloon kan niet ongedaan worden gemaakt.",
+      "template": "Het verwijderen van deze sjabloon kan niet ongedaan worden gemaakt.",
+      "survey": "Het verwijderen van deze vragenlijst kan niet ongedaan worden gemaakt."
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "project": "Project verwijderen",
+      "initiative": "Initiatief verwijderen",
+      "site": "Site verwijderen",
+      "discussion": "Discussie verwijderen",
+      "content": "Content verwijderen",
+      "page": "Pagina verwijderen",
+      "group": "Groep verwijderen",
+      "initiativeTemplate": "Initiatiefsjabloon verwijderen",
+      "template": "Sjabloon verwijderen",
+      "survey": "Vragenlijst verwijderen"
+    },
+    "content": "Weet u zeker dat u dit wilt verwijderen:",
+    "delete": "Verwijderen",
+    "cancel": "Annuleren"
+  },
+  "sidePanel": {
+    "content": {
+      "extractNotice": {
+        "title": "De \"Extractiemogelijkheid\" wijzigt de service-instellingen.",
+        "message": "Dit zal van invloed zijn op andere items die gebruik maken van de service. Zie <docLink>Gegevens uit gehoste feature layers exporteren</docLink> voor meer details"
+      }
+    }
+  }
+}

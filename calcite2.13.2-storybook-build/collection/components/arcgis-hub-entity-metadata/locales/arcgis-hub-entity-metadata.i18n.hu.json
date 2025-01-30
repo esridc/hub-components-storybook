@@ -1,0 +1,239 @@
+{
+  "owner": {
+    "description": "Tulajdonos"
+  },
+  "updatedDate": {
+    "description": "Frissített dátum",
+    "descriptionWithFrequency": "Frissített dátum: {updatedDateFormatted}"
+  },
+  "createdDate": {
+    "description": "Létrehozás dátuma"
+  },
+  "joinedDate": {
+    "description": "Csatlakozás napja"
+  },
+  "access": {
+    "label": {
+      "public": "Nyilvános",
+      "org": "Szervezet",
+      "private": "Tulajdonos",
+      "shared": "Magánjellegűként megosztva"
+    },
+    "description": {
+      "public": {
+        "site": "Bárki láthatja ezt a webhelyet",
+        "project": "Bárki megtekintheti ezt a projektet",
+        "initiative": "A projekt bárki számára látható",
+        "discussion": "A vitafórum bárki számára látható",
+        "default": "Bárki láthatja ezt a tartalmat",
+        "event": "Bárki láthatja ezt az eseményt"
+      },
+      "org": {
+        "site": "Szervezetéből bárki láthatja ezt a webhelyet",
+        "project": "Szervezetéből bárki láthatja ezt a projektet",
+        "initiative": "Szervezetéből bárki láthatja ezt a kezdeményezést",
+        "discussion": "Szervezetéből bárki láthatja ezt a vitafórumot",
+        "default": "Szervezetének bármely tagja láthatja ezt a tartalmat",
+        "event": "Szervezetének bármely tagja láthatja ezt az eseményt"
+      },
+      "private": {
+        "site": "A webhely csak az Ön számára látható",
+        "project": "Csak Ön láthatja ezt a projektet",
+        "initiative": "A projekt csak az Ön számára látható",
+        "discussion": "Csak Ön láthatja ezt a vitafórumot",
+        "default": "Csak Ön láthatja ezt a tartalmat",
+        "event": "Csak Ön láthatja ezt az eseményt"
+      },
+      "shared": {
+        "site": "Válassza ki azokat a csoportokat, amelyek láthatják a webhelyet",
+        "project": "A kiválasztott csoportok láthatják ezt a projektet",
+        "initiative": "A kiválasztott csoportok láthatják ezt a kezdeményezést",
+        "discussion": "Válassza ki azokat a csoportokat, amelyek láthatják a vitafórumot",
+        "default": "A kiválasztott csoportok láthatják ezt a tartalmat",
+        "event": "A kiválasztott csoportok láthatják ezt az eseményt"
+      }
+    }
+  },
+  "type": {
+    "fallback": {
+      "content": "Tartalom",
+      "discussion": "Vita",
+      "event": "Esemény",
+      "group": "Csoport",
+      "initiative": "Kezdeményezés",
+      "org": "Szervezet",
+      "page": "Oldalszám",
+      "project": "Projekt",
+      "site": "Webhely",
+      "survey": "Felmérés",
+      "initiativeTemplate": "Sablon",
+      "user": "Felhasználó"
+    },
+    "appbuilderExtension": "GIS eszköz",
+    "appbuilderWidgetPackage": "GIS eszköz",
+    "application": "Regisztrált alkalmazás",
+    "arcgisProMap": "GIS eszköz",
+    "cadDrawing": "GIS eszköz",
+    "cityEngineWebScene": "3D alkalmazás",
+    "codeAttachment": "GIS eszköz",
+    "colorSet": "GIS eszköz",
+    "content": "Tartalom",
+    "contentCategorySet": "GIS",
+    "csv": "Adathalmaz",
+    "csvCollection": "Adatfájl",
+    "dashboard": "Dashboard",
+    "desktopApplication": "GIS eszköz",
+    "document": "Dokumentum",
+    "documentLink": "Webes hivatkozás",
+    "excaliburImageryProject": "GIS eszköz",
+    "explorerMap": "GIS eszköz",
+    "exportPackage": "GIS eszköz",
+    "featureCollection": "Adathalmaz",
+    "featureCollectionTemplate": "GIS eszköz",
+    "featureLayer": "Adathalmaz",
+    "featureService": "Térkép",
+    "fileGeodatabase": "Adatfájl",
+    "form": "Felmérés",
+    "geocodingService": "Fejlesztő API",
+    "geodataService": "Fejlesztő API",
+    "geojson": "Tartalom",
+    "geometryService": "Fejlesztő API",
+    "geopackage": "Adatfájl",
+    "geoprocessingService": "Fejlesztő API",
+    "globeLayer": "Adatfájl",
+    "globeService": "Fejlesztő API",
+    "hubInitiative": "Kezdeményezés",
+    "hubInitiativeTemplate": "Sablon",
+    "hubPage": "Oldalszám",
+    "hubProject": "Projekt",
+    "hubSiteApplication": "Webhely",
+    "image": "Kép",
+    "imageService": "Távérzékelési adatkészlet",
+    "insightsModel": "GIS eszköz",
+    "insightsPage": "Elemzés",
+    "insightsTheme": "GIS eszköz",
+    "insightsWorkbook": "Elemzésmunkafüzet",
+    "iWorkKeynote": "Bemutató",
+    "iWorkNumbers": "Táblázat",
+    "iWorkPages": "Dokumentum",
+    "kml": "Adathalmaz",
+    "kmlCollection": "Adatfájl",
+    "layer": "Adatfájl",
+    "layerPackage": "Adatfájl",
+    "locatorPackage": "GIS eszköz",
+    "mapArea": "GIS eszköz",
+    "mapDocument": "GIS eszköz",
+    "mapImageLayer": "Térkép",
+    "mapPackage": "Adatfájl",
+    "mapService": "Térkép",
+    "microsoftExcel": "Táblázat",
+    "microsoftPowerpoint": "Bemutató",
+    "microsoftVizio": "Microsoft Visio",
+    "microsoftWord": "Dokumentum",
+    "mission": "GIS eszköz",
+    "mobileApplication": "Alkalmazás",
+    "mobileMapPackage": "Adatfájl",
+    "native application template": "Fejlesztői eszköz",
+    "nativeApplication": "Alkalmazás",
+    "nativeApplicationInstaller": "Fejlesztői eszköz",
+    "networkAnalysisService": "Fejlesztő API",
+    "notebook": "Elemzés",
+    "orientedImageryCatalog": "Távérzékelési adatkészlet",
+    "orthoMappingProject": "GIS eszköz",
+    "orthoMappingTemplate": "GIS eszköz",
+    "pdf": "Dokumentum",
+    "quickcaptureProject": "Mobil felmérés",
+    "rasterLayer": "Térkép",
+    "realTimeAnalytic": "Fejlesztő API",
+    "relationalDatabaseConnection": "Fejlesztő API",
+    "reportTemplate": "GIS eszköz",
+    "sceneLayer": "3D adatkészlet",
+    "sceneService": "3D adatkészlet",
+    "serviceDefinition": "Adatfájl",
+    "shapefile": "Adathalmaz",
+    "solution": "Megoldás",
+    "sqliteGeodatabase": "Adatfájl",
+    "statisticalDataCollection": "Adatfájl",
+    "storymap": "Story Map",
+    "symbolSet": "Adatfájl",
+    "table": "Adathalmaz",
+    "team": "Csapat",
+    "urbanModel": "Városi modell",
+    "vectorTileService": "Térkép",
+    "visioDocument": "Dokumentum",
+    "webExperience": "Alkalmazás",
+    "webMap": "Térkép",
+    "webMappingApplication": "Alkalmazás",
+    "webScene": "3D térkép",
+    "wfs": "Térkép",
+    "wms": "Térkép",
+    "wmts": "Térkép",
+    "workflowManagerService": "Fejlesztő API",
+    "workforceProject": "Feladatmenet-kezelő"
+  },
+  "location": {
+    "description": "Helyszín"
+  },
+  "members": {
+    "noMember": "Nincsenek tagok",
+    "oneMember": "Tagok: 1",
+    "members": "Tagok: {count}",
+    "description": {
+      "value": "Összes csoporttag megtekintése"
+    }
+  },
+  "tooltip": {
+    "label": "Metaadatok elemmel kapcsolatos eszköztipp"
+  },
+  "relevantArea": {
+    "title": "Releváns terület"
+  },
+  "license": {
+    "tooltip": "Azt határozza meg, hogy miként használható fel a tartalom",
+    "set": {
+      "title": "{license} licenc",
+      "customTitle": "Egyéni licenc",
+      "description": {
+        "value": "Licencadatok megtekintése"
+      }
+    },
+    "unset": {
+      "title": "Nem áll rendelkezésre licenc",
+      "description": {
+        "value": "Használati engedély kérése"
+      }
+    }
+  },
+  "size": {
+    "description": {
+      "value": "Dokumentum fájlmérete"
+    }
+  },
+  "recordCount": {
+    "title": "Rekordok: {count}",
+    "description": {
+      "value": "Adattáblázat megtekintése"
+    }
+  },
+  "metadataModified": {
+    "description": {
+      "defaultValue": "Információ frissítve",
+      "dynamicValue": "Információ frissítve: {lastUpdated}"
+    }
+  },
+  "updateFrequency": {
+    "continual": "Folytonos",
+    "daily": "Napi",
+    "weekly": "Heti",
+    "fortnightly": "Kétheti",
+    "monthly": "Havi",
+    "quarterly": "Negyedéves",
+    "biannually": "Féléves",
+    "annually": "Éves",
+    "as-needed": "Szükség szerinti",
+    "irregular": "Szabálytalan",
+    "not-planned": "Nem tervezett",
+    "unknown": "Ismeretlen",
+    "semimonthly": "Félhavonta"
+  }
+}

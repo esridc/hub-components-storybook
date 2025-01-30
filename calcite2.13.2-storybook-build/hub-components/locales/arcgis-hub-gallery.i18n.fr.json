@@ -1,0 +1,91 @@
+{
+  "moreResults": "Plus de résultats",
+  "search": "Rechercher",
+  "filter": "Filtres",
+  "viewResults": "Afficher les résultats ({numResults})",
+  "resultsCount": "1 - {pageTotal} sur {searchTotal}",
+  "backToTop": "Haut",
+  "facets": {
+    "access": {
+      "label": "Partage",
+      "private": "Moi-même",
+      "shared": "Propriétaire et groupes",
+      "org": "Organisation",
+      "public": "Public"
+    },
+    "license": {
+      "label": "Licence",
+      "tooltip": "Uniquement pour le contenu public",
+      "custom": "Personnalisé",
+      "none": "Aucun"
+    },
+    "type": {
+      "label": "Type"
+    },
+    "tags": {
+      "label": "Balises"
+    },
+    "dateUpdated": {
+      "label": "Date de mise à jour"
+    },
+    "source": {
+      "label": "Source",
+      "tooltip": "Contenu public provenant de différentes organisations"
+    },
+    "categories": {
+      "label": "Catégories"
+    },
+    "location": {
+      "label": "Localisation",
+      "tooltip": "Appliquer l’étendue de la carte en tant que filtre de localisation"
+    },
+    "event": {
+      "from": {
+        "label": "Propriétaire",
+        "myContent": "Moi",
+        "myOrganization": "Mon organisation",
+        "world": "Tout le monde"
+      },
+      "access": {
+        "label": "Accès",
+        "private": "Privé",
+        "org": "Organisation",
+        "public": "Public"
+      },
+      "startDate": {
+        "label": "Date de l’événement"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "Type",
+        "all": "Tous",
+        "view": "Consultation",
+        "edit": "Modification"
+      },
+      "role": {
+        "label": "Rôle",
+        "all": "Tous",
+        "member": "Membre",
+        "manager": "Gestionnaire",
+        "owner": "Propriétaire"
+      },
+      "sharing": {
+        "label": "Visibilité",
+        "private": "Privé",
+        "public": "Public"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "Afficher la liste",
+    "grid": "Afficher la grille",
+    "map": "Afficher la carte",
+    "compact": "Affichage Compact",
+    "calendar": "Affichage Calendrier",
+    "table": "Affichage Tableau"
+  },
+  "galleryActionsLabel": "Actions supplémentaires",
+  "selected": "Sélection : {count}",
+  "popoverActionButtonLabel": "plus d’actions"
+}

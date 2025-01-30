@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "ไม่พบผลลัพธ์"
+    },
+    "error": {
+      "message": "ขออภัย เกิดข้อผิดพลาดเกี่ยวกับการค้นหา"
+    }
+  },
+  "access": "การเข้าถึง",
+  "actionsHeader": "การดำเนินการ",
+  "caption": "ตารางเอนทิตี Hub",
+  "family": "กลุ่ม",
+  "type": "ประเภท",
+  "tags": "แท็ก",
+  "owner": "เจ้าของ",
+  "dateCreated": "สร้าง",
+  "dateUpdated": "แก้ไขแล้ว",
+  "description": "คำอธิบาย",
+  "dateAndTime": "วันที่และเวลา",
+  "location": "ตำแหน่ง",
+  "attendanceType": "ประเภทการเข้าร่วม",
+  "inPerson": "นัดพบ",
+  "online": "ออนไลน์",
+  "hybrid": "ไฮบริด",
+  "categories": "หมวดหมู่",
+  "content": "เนื้อหา",
+  "name": "ชื่อ",
+  "start": "เริ่ม",
+  "end": "สิ้นสุด",
+  "sharedUpdate": "การอัปเดตที่แชร์",
+  "managers": "ผู้จัดการ",
+  "username": "ชื่อผู้ใช้",
+  "no": "ไม่",
+  "yes": "ใช่",
+  "title": "หัวข้อ",
+  "thumbnail": "ภาพตัวอย่าง",
+  "types": {
+    "app": "แอพพิลเคชัน",
+    "content": "เนื้อหา",
+    "dataset": "ชุดข้อมูล",
+    "discussion": "กระดานสนทนา",
+    "document": "เอกสาร",
+    "event": "เหตุการณ์",
+    "feedback": "คำติชม",
+    "initiative": "การริเริ่ม",
+    "image": "รูปภาพ",
+    "map": "แผนที่",
+    "other": "อื่น ๆ",
+    "people": "บุคลากร",
+    "site": "ไซต์",
+    "team": "กลุ่ม",
+    "template": "เทมเพลต",
+    "project": "โปรเจกต์"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "notice": {
+    "outdatedItem": {
+      "title": "Zamenjajte vašo pobudo",
+      "message": "Te reference kartice so zastarel element. Izberite drug element, ki mu bodo uporabniki sledili."
+    },
+    "missingFollowersGroup": {
+      "title": "Manjkajoča skupina sledilcev",
+      "message": "Ta element nima skupine sledilcev. Izberite drug element."
+    },
+    "noGroupAccess": {
+      "title": "Pozor",
+      "message": "Nimate dostopa do skupine sledilcev."
+    }
+  },
+  "selectContent": {
+    "title": "Vsebina za spremljanje",
+    "facets": {
+      "sharing": "Deljenje",
+      "catalog": {
+        "myContent": "Moja vsebina",
+        "organization": "Moja organizacija"
+      }
+    }
+  },
+  "callToAction": {
+    "title": "Poziv k dejanju",
+    "helperText": "Poziv k dejanju se pojavi nad gumbom za sledenje.",
+    "alignment": "Poravnava"
+  },
+  "followButton": {
+    "title": "Gumb za sledenje",
+    "helperText": "Ta gumb bo članom omogočil sledenje ali preklic sledenja vaši vsebini. Besedilo je mogoče nastaviti za obe stanji gumba.",
+    "buttonText": "Besedilo gumba za privolitev",
+    "unfollowButtonText": "Besedilo gumba za preklic privolitve",
+    "alignment": "Poravnava",
+    "buttonStyle": "Slog gumba",
+    "solid": "Enobarvno ozadje",
+    "outline": "Obroba"
+  }
+}

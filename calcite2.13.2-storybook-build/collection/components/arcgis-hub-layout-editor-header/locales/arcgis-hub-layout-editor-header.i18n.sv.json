@@ -1,0 +1,39 @@
+{
+  "popover": {
+    "access": {
+      "org": "Delat till organisation",
+      "private": "Delat till ägare",
+      "public": "Delat offentligt",
+      "shared": "Delat till ägare och grupper"
+    },
+    "editLayout": "Redigera layout",
+    "lastUpdated": "Senast uppdaterad {updated}",
+    "viewSite": "Visa webbplats"
+  },
+  "cloneLayoutLabel": "Klona layout",
+  "deleteDraftLabel": "Ta bort utkast",
+  "deletePageLabel": "Ta bort sida",
+  "deleteSiteLabel": "Ta bort webbplats",
+  "editInAgoLabel": "Redigera i ArcGIS Online",
+  "managePage": "Hantera sida",
+  "manageSite": "Hantera webbplats",
+  "manageTemplate": "Hantera mall",
+  "moreOptionsLabel": "Fler alternativ",
+  "publishLabel": {
+    "site": "Publicera layout",
+    "page": "Publicera layout",
+    "survey": "Publicera"
+  },
+  "saveAsTemplateLabel": "Spara som mall",
+  "saveLabel": {
+    "site": "Spara layout",
+    "page": "Spara layout",
+    "survey": "Spara",
+    "template": "Spara"
+  },
+  "sharingLabel": "Öppna delningspanel",
+  "editS123Label": "Redigera i Survey123",
+  "viewLabel": "Visa",
+  "viewPublishedLabel": "Visa publicerade",
+  "viewUnpublishedLabel": "Visa utkast"
+}

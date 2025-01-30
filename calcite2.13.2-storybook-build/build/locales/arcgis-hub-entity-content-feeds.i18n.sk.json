@@ -1,0 +1,81 @@
+{
+  "tabTitle": "Konfigurácia kanálov",
+  "learn": "Dozvedieť sa o Hub kanáloch",
+  "loadingLabel": "Načítava sa",
+  "enableFeedsToggle": {
+    "label": "Povoliť kanály",
+    "privateNotice": "Na povolenie kanálov potrebujete najprv nastaviť vašu Hub lokalitu na \"Verejné\".",
+    "emptyPublicCatalog": {
+      "message": "Na povolenie kanálov potrebujete najprv pridať do svojho katalógu verejný obsah.",
+      "button": "Zobraziť katalóg"
+    },
+    "grouplessCatalog": {
+      "message": "Na povolenie kanálov potrebujete najskôr nakonfigurovať svoj katalóg.",
+      "button": "Konfigurovať katalóg"
+    }
+  },
+  "gettingStartedNotice": {
+    "title": "Začíname",
+    "exampleMessage": "Zvýraznite a aktualizujte kľúč alebo hodnotu v editore JSON použitím doslovnej (\"HODNOTA\") alebo hodnoty šablóny (\"{{TEMPLATE_VALUE}}\").",
+    "previewMessage": "Pomocou prepínača \"náhľad\" si prezrite vaše zmeny. Pre viac informácií si prečítajte <catalogFederationLink>pomocnú dokumentáciu federovania katalógu</catalogFederationLink>."
+  },
+  "aboutFeedsNotice": {
+    "message": "Zjednodušte prístup k verejným otvoreným dátam a umožnite ich používanie pomocou Hub kanálov.",
+    "link": "Dozvedieť sa o Hub kanáloch"
+  },
+  "feedsEditorSection": {
+    "title": "Informačné kanály",
+    "formatSelectLabel": "Vybrať typ kanálu",
+    "uneditableAttributesIntro": "Upozorňujeme, že nasledovné atribúty sa nedajú editovať:",
+    "edit": "Editovať",
+    "preview": "Náhľad",
+    "selectContentNotice": "Vyberte obsah na zobrazenie náhľadu.",
+    "invalidJsonEditorWarning": "Neplatný JSON. Opravte chyby pred uložením.",
+    "invalidJsonPreviewWarning": "Náhľad neplatného JSON sa nedá zobraziť. Opravte chyby.",
+    "errorPreviewingWarning": "Vyskytla sa chyba. Skontrolujte svoje pripojenie a skúste to znova. Ak problém pretrváva, chybu zaznamenajte prostredníctvom podpory Hub."
+  },
+  "toolsSection": {
+    "title": "Nástroje",
+    "verification": "Verifikácia",
+    "previewSampleData": {
+      "label": "Náhľad vzorových dát",
+      "pickerFacets": {
+        "type": "Typ",
+        "tags": "Štítok",
+        "categories": "Kategória",
+        "sharing": "Zdieľanie",
+        "dateUpdated": "Aktualizovaný dátum"
+      }
+    },
+    "copyableInputLabel": "URL adresa kanála"
+  },
+  "dcat-us": {
+    "1.1": {
+      "title": "DCAT-US 1.1",
+      "description": "DCAT umožňuje organizáciám štandardizovať poskytovanie dát a pomáha ľuďom analyzovať federované zdroje. Môžete použiť <dcatUsSchemaLink>schému DCAT</dcatUsSchemaLink> vytvorenú pomocou Project Open Data, čo je predvolená konfigurácia, alebo môžete sami nakonfigurovať vybrané polia/atribúty. Správcovia lokalít môžu tiež pridať dodatočné konfigurácie DCAT a môžu si prečítať našu dokumentáciu o <catalogFederationLink> federovaní dát s DCAT a inými externými katalógmi.</catalogFederationLink>",
+      "uneditableAttributes": "@type, landingPage, webService and contactPoint['@type'].",
+      "verificationLabel": "Váš DCAT kanál si môžete overiť vložením adresy URL vašej lokality DCAT do <dcatUsVerificationLink>Project Open Data's Validator</dcatUsVerificationLink>."
+    }
+  },
+  "dcat-ap": {
+    "2.1.1": {
+      "title": "DCAT-AP 2.1.1",
+      "description": "DCAT-AP, ktorý vytvorila Európska komisia, je štandardný formát výmeny metadát v európskych katalógoch dát. ArcGIS Hub automaticky vytvára a aktualizuje kanál DCAT-AP vašej lokality, keď upravujete detaily metadát vášho obsahu alebo pridávate nový verejný obsah do vášho katalógu. Pretože kanál používa metadáta udržiavané v ArcGIS Online, nie je potrebné manuálne vytvárať samostatné metadáta DCAT-AP.<lineBreak></lineBreak><lineBreak></lineBreak>Pomocou tohto editora môžete ponechať predvolenú konfiguráciu ArcGIS Hub<dcatApSchemaLink>schémy DCAT-AP</dcatApSchemaLink> alebo si môžete sami nakonfigurovať niektoré polia/atribúty. Môžete tiež pridať polia/atribúty DCAT-AP. Ďalšie detaily nájdete v dokumentácii ArcGIS Hub <catalogFederationLink>o federácii dát s DCAT a inými externými katalógmi </catalogFederationLink>.",
+      "uneditableAttributes": "@type, @id, dcat:contactPoint['@id'], dcat:contactPoint['@type'], dct:publisher, dcat:theme, dct:accessRights, dcat:keyword, dct:provenance, dct:issued, and dct:language",
+      "verificationLabel": "Váš DCAT kanál si môžete overiť vložením adresy URL vašej lokality DCAT do <dcatApVerificationLink>European Commission Interoperability Test Bed</dcatApVerificationLink>."
+    }
+  },
+  "rss": {
+    "2.0": {
+      "title": "RSS 2.0",
+      "description": "<rssAboutLink>RSS 2</rssAboutLink>je formát syndikácie webového obsahu a je v súlade so <xmlSpecLink>špecifikáciou XML 1.0</xmlSpecLink>. Pomocou tohto editora môžete zachovať predvolenú konfiguráciu ArcGIS Hub alebo môžete niektoré polia/atribúty nakonfigurovať sami. Ďalšie podrobnosti nájdete v dokumentácii ArcGIS Hub o <catalogFederationLink>federovaní dát s DCAT a inými externými katalógmi.</catalogFederationLink>",
+      "verificationLabel": "Váš RSS zdroj môžete overiť tak, že zadáte URL adresu vášho webu RSS do nástroja W3 <rssVerificationLink>Feed Validator</rssVerificationLink>."
+    }
+  },
+  "saveButton": "Uložiť",
+  "alertMessages": {
+    "success": "Úpravy úspešne uložené",
+    "error": "Chyba pri ukladaní editácií"
+  },
+  "formAlert": "Upozornenie na formulár"
+}

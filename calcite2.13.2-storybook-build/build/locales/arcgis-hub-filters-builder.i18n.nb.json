@@ -1,0 +1,15 @@
+{
+  "newFilter": "Nytt filter",
+  "block": {
+    "heading": {
+      "untitled": "Nytt filter",
+      "default": "Filter {filterNum}: {parameter}",
+      "group": "Filter {filterNum}: grupper",
+      "type": "Filter {filterNum}: typer",
+      "occurrence": "Filter {filterNum}: forekomster"
+    },
+    "actions": {
+      "delete": "Slett filter: {label}"
+    }
+  }
+}

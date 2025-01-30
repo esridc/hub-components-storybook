@@ -1,0 +1,23 @@
+{
+  "overview": "Обзор",
+  "telemetry": {
+    "pageViews": "Просмотры страниц",
+    "last30days": "Последние 30 дней",
+    "lastUpdated": "Обновлено {hoursElapsed} часов назад",
+    "checkTomorrow": "Вернитесь завтра"
+  },
+  "learnAbout": "Подробнее об инициативах Hub",
+  "feedbackNotice": {
+    "message": "Нравятся ли вам инициативы Hub? Мы хотим узнать о ваших вариантах их использования.",
+    "link": "Отправить отзыв"
+  },
+  "status": {
+    "notStarted": "Не запущен",
+    "inProgress": "В процессе",
+    "onHold": "В ожидании",
+    "complete": "Завершен"
+  },
+  "editDetails": "Редактирование информации об элементах",
+  "noPurposeSet": "Цель не задана",
+  "noLocationSet": "Местоположение не задано"
+}

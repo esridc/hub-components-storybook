@@ -1,0 +1,64 @@
+:host {
+  display: block;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-container calcite-button {
+  font-size: 1rem;
+}
+
+calcite-accordion {
+  --calcite-accordion-item-content-space: .75rem 0rem;
+}
+
+calcite-accordion-item {
+  border-width: 0px;
+  border-top-width: 1px;
+  border-style: solid;
+  border-color: var(--calcite-color-border-2);
+}
+
+/* We don't want to display map-based facets on small screens */
+@media (max-width: 1200px) {
+  calcite-accordion-item[is-map] {
+    display: none;
+  }
+}
+
+calcite-chip {
+  margin-bottom: 0.5rem;
+  max-width: 100%;
+}
+
+calcite-chip:nth-last-of-type(1) {
+  margin-bottom: 1.25rem;
+}
+
+.reset-facets-button {
+  --calcite-font-size--1: var(--hub-gallery-font-size-large);
+}
+
+.additional-facet-container {
+  --calcite-font-size--1: var(--calcite-font-size-0);
+   /* margin-inline: -1rem; This is causing the container to be too wide */
+}
+
+.facet-popover-content {
+  text-align: center;
+  font-weight: var(--calcite-font-weight-light);
+  font-size: 1rem;
+}
+
+calcite-tooltip {
+  max-width: 13rem;
+}
+
+.facet-popover-trigger {
+  margin-inline-start: .375rem;
+}

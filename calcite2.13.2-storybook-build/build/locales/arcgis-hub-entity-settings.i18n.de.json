@@ -1,0 +1,53 @@
+{
+  "settings": "Einstellungen",
+  "formDisabledTooltip": "Sie haben keinen Zugriff für Änderungen an diesem Element ({type}).",
+  "delete": {
+    "project": "Dieses Projekt löschen",
+    "initiative": "Diese Initiative löschen",
+    "site": "Diese Site löschen",
+    "discussion": "Diese Diskussion löschen",
+    "content": "Diesen Inhalt löschen",
+    "page": "Diese Seite löschen",
+    "group": "Diese Gruppe löschen",
+    "initiativeTemplate": "Diese Initiativenvorlage löschen",
+    "template": "Diese Vorlage löschen",
+    "survey": "Diesen Survey löschen",
+    "desc": {
+      "project": "Das Löschen dieses Projekts kann nicht rückgängig gemacht werden.",
+      "initiative": "Das Löschen dieser Initiative kann nicht rückgängig gemacht werden.",
+      "site": "Das Löschen dieser Site kann nicht rückgängig gemacht werden.",
+      "discussion": "Das Löschen dieser Diskussion kann nicht rückgängig gemacht werden.",
+      "content": "Das Löschen dieses Inhalts kann nicht rückgängig gemacht werden.",
+      "page": "Das Löschen dieser Seite kann nicht rückgängig gemacht werden.",
+      "group": "Das Löschen dieser Gruppe kann nicht rückgängig gemacht werden.",
+      "initiativeTemplate": "Das Löschen dieser Initiativenvorlage kann nicht rückgängig gemacht werden.",
+      "template": "Das Löschen dieser Vorlage kann nicht rückgängig gemacht werden.",
+      "survey": "Das Löschen dieses Survey kann nicht rückgängig gemacht werden."
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "project": "Projekt löschen",
+      "initiative": "Initiative löschen",
+      "site": "Site löschen",
+      "discussion": "Diskussion löschen",
+      "content": "Inhalt löschen",
+      "page": "Seite löschen",
+      "group": "Gruppe löschen",
+      "initiativeTemplate": "Initiativenvorlage löschen",
+      "template": "Vorlage löschen",
+      "survey": "Survey löschen"
+    },
+    "content": "Möchten Sie Folgendes wirklich löschen?",
+    "delete": "Löschen",
+    "cancel": "Abbrechen"
+  },
+  "sidePanel": {
+    "content": {
+      "extractNotice": {
+        "title": "Durch die Funktion \"Extrahieren\" werden die Service-Einstellungen geändert.",
+        "message": "Andere Elemente, die auf den Service verweisen, sind davon ebenfalls betroffen. Weitere Informationen finden Sie unter <docLink>Exportieren von Daten aus gehosteten Feature-Layern</docLink>."
+      }
+    }
+  }
+}

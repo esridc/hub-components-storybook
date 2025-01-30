@@ -1,0 +1,57 @@
+{
+  "new": "Novo",
+  "project": {
+    "label": "Projekat",
+    "description": "Istaknite posao koji ima jasne ciljeve i vremenske okvire",
+    "createLabel": "Kreiraj projekat",
+    "newLabel": "Novi projekat"
+  },
+  "initiative": {
+    "label": "Inicijativa",
+    "description": "Inicijative organizuju i rezimiraju napredak ka cilju",
+    "createLabel": "Kreiraj inicijativu",
+    "newLabel": "Nova inicijativa"
+  },
+  "discussion": {
+    "label": "Tabla za diskusiju",
+    "description": "Napravite novu tablu za diskusiju tako što ćete uneti naslov koji ukazuje na temu.",
+    "createLabel": "Napravi tablu za diskusiju",
+    "newLabel": "Nova tabla za diskusiju"
+  },
+  "site": {
+    "label": "Sajt",
+    "description": "Napravite veb stranicu da biste organizovali i delili informacije",
+    "createLabel": "Kreiraj sajt",
+    "newLabel": "Novi sajt"
+  },
+  "event": {
+    "label": "Događaj",
+    "description": "Organizujte organizovanu aktivnost, lično ili virtuelno",
+    "createLabel": "Upravljajte događajem",
+    "newLabel": "Novi događaj"
+  },
+  "content": {
+    "label": "Sadržaj",
+    "description": "Dodajte podatke, dokumente, slike i spoljne veze na svoj sajt",
+    "createLabel": "Kreiraj sadržaj",
+    "newLabel": "Novi sadržaj"
+  },
+  "feedback": {
+    "label": "Povratne informacije",
+    "description": "Prikupite fokusirane informacije pomoću alata kao što su upiti i ankete",
+    "createLabel": "Kreiraj povratne informacije",
+    "newLabel": "Nove povratne informacije"
+  },
+  "app": {
+    "label": "Aplikacija",
+    "description": "Izgradite iskustvo, ispričajte priču ili vizuelizujte svoje podatke",
+    "createLabel": "Kreiraj aplikaciju",
+    "newLabel": "Nova aplikacija"
+  },
+  "group": {
+    "label": "Grupa",
+    "description": "Podesite grupu za saradnju na fokusiranom sadržaju",
+    "createLabel": "Kreiraj grupu",
+    "newLabel": "Nova grupa"
+  }
+}

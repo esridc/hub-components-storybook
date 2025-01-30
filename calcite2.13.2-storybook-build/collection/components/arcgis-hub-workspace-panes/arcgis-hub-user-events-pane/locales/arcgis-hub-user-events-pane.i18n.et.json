@@ -1,0 +1,29 @@
+{
+  "header": "Sündmused",
+  "myContent": "Minu sündmused",
+  "editableContent": "Redigeeritav sisu",
+  "addEventButtonText": "Loo sündmus",
+  "type": "Tüüp",
+  "sharedUpdate": "Jagatud uuenduste grupp",
+  "viewOnly": "Ainult vaataja õigustega grupp",
+  "owner": "Looja nimi",
+  "starts": "Kuupäev",
+  "from": "Alates",
+  "until": "Kuni",
+  "updated": "Uuendatud",
+  "tags": "Märksõnad",
+  "dateCreated": "Loodud",
+  "dateUpdated": "Muudetud",
+  "actionLinks": {
+    "view": "Kuva",
+    "edit": "Muuda",
+    "ariaEdit": "Muuda: {title}",
+    "ariaView": "Kuva: {title}"
+  },
+  "access": {
+    "label": "Juurdepääs",
+    "PRIVATE": "Privaatne",
+    "ORG": "Organisatsioon",
+    "PUBLIC": "Avalik"
+  }
+}

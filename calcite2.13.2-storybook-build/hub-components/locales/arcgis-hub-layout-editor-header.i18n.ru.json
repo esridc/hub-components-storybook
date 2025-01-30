@@ -1,0 +1,39 @@
+{
+  "popover": {
+    "access": {
+      "org": "Опубликовано для организации",
+      "private": "Опубликовано для владельца",
+      "public": "Опубликовано для всех",
+      "shared": "Опубликовано для владельца и групп"
+    },
+    "editLayout": "Редактировать компоновку",
+    "lastUpdated": "Последнее обновление {updated}",
+    "viewSite": "Просмотреть сайт"
+  },
+  "cloneLayoutLabel": "Клонировать компоновку",
+  "deleteDraftLabel": "Удалить черновик",
+  "deletePageLabel": "Удалить страницу",
+  "deleteSiteLabel": "Удалить сайт",
+  "editInAgoLabel": "Редактировать в ArcGIS Online",
+  "managePage": "Управлять страницей",
+  "manageSite": "Управлять сайтом",
+  "manageTemplate": "Управление шаблоном",
+  "moreOptionsLabel": "Дополнительные опции",
+  "publishLabel": {
+    "site": "Опубликовать компоновку",
+    "page": "Опубликовать компоновку",
+    "survey": "Опубликовать"
+  },
+  "saveAsTemplateLabel": "Сохранить как шаблон",
+  "saveLabel": {
+    "site": "Сохранить компоновку",
+    "page": "Сохранить компоновку",
+    "survey": "Сохранить",
+    "template": "Сохранить"
+  },
+  "sharingLabel": "Открыть панель общего доступа",
+  "editS123Label": "Редактировать в Survey123",
+  "viewLabel": "Просмотр",
+  "viewPublishedLabel": "Просмотреть опубликованное",
+  "viewUnpublishedLabel": "Просмотреть черновик"
+}

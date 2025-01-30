@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "Csoportok szerkesztése",
+        "viewGroups": "Csoportok megtekintése"
+      },
+      "facet": {
+        "label": "Ettől:",
+        "myGroups": "Saját csoportok",
+        "myOrganization": "Saját szervezet",
+        "myCommunity": "Saját közösség"
+      }
+    }
+  },
+  "property": {
+    "label": "Paraméter",
+    "requiredError": "Paraméter szükséges"
+  },
+  "operator": {
+    "label": "Kritériumok",
+    "requiredError": "Kritériumok szükségesek"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "Típus"
+    },
+    "group": {
+      "default": "Csoportok"
+    },
+    "occurrence": {
+      "default": "Előfordulás"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "Ezek közül bármely",
+      "group": "Ezek közül bármellyel megosztva"
+    },
+    "isAll": {
+      "default": "Ezek közül az összes",
+      "group": "Ezek közül az összessel megosztva"
+    },
+    "isExactly": {
+      "default": "Pontosan",
+      "occurrence": "Ez"
+    },
+    "isNot": {
+      "default": "Értéke nem a megadott érték",
+      "type": "Ezek közül egyik sem",
+      "group": "Ezek közül egyikkel sincs megosztva"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "Csoportok",
+      "requiredError": "Csoportok szükségesek"
+    },
+    "type": {
+      "label": "Típusok",
+      "requiredError": "Típusok",
+      "app": {
+        "label": "Alkalmazások"
+      },
+      "content": {
+        "label": "Tartalom"
+      },
+      "dataset": {
+        "label": "Adatkészletek"
+      },
+      "discussion": {
+        "label": "Beszélgetések"
+      },
+      "document": {
+        "label": "Dokumentumok"
+      },
+      "event": {
+        "label": "Események"
+      },
+      "feedback": {
+        "label": "Visszajelzés"
+      },
+      "initiative": {
+        "label": "Kezdeményezések"
+      },
+      "map": {
+        "label": "Térképek"
+      },
+      "project": {
+        "label": "Projektek"
+      },
+      "site": {
+        "label": "Sites"
+      },
+      "template": {
+        "label": "Sablonok"
+      }
+    },
+    "occurrence": {
+      "label": "Előfordulás",
+      "requiredError": "Előfordulás szükséges",
+      "upcoming": "Közelgő",
+      "past": "Korábbi",
+      "inProgress": "Folyamatban"
+    }
+  }
+}

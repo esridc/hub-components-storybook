@@ -1,0 +1,82 @@
+{
+  "title": "Participare",
+  "subtitle": "Setați vizibilitatea panoului de discuții (cine poate vedea), derulați în jos pentru a seta cine poate edita informațiile panoului și apoi setați participarea și moderarea cu canalele.",
+  "channelTitle": "Canalul de participare este setat",
+  "channelDescription": "Acest canal controlează cine poate adăuga, vizualiza și modera postări pe acest panou de discuții.",
+  "addChannelsTitle": "Setare canal",
+  "addChannelsDescription": "Canalele controlează cine poate adăuga postări pe panou. Ele pot fi deschise pentru grupuri, o organizație sau public și pot fi aplicate la numeroase discuții. Canalele pot controla și cine moderează. Setați cuvintele blocate pentru auto-moderare într-un canal.",
+  "privateChannelTitle": "Canalul privat este setat",
+  "privateChannelDescription": "Nu puteți vedea canalul privat atribuit acestui panou de discuții. Puteți elimina canalul și selecta un canal existent sau crea un canal.",
+  "removeChannelConfirmationMessage": "Acest panou de discuții nu va mai afișa postări. Puteți adăuga un canal dacă acest canal este eliminat.",
+  "headingChannelEdit": "Editați un canal",
+  "headingChannelView": "Vizualizați un canal",
+  "headingChannelCreate": "Creați un canal",
+  "buttons": {
+    "browse": "Răsfoire canale",
+    "new": "Canal nou",
+    "removeChannel": "Eliminare canal",
+    "cancel": "Anulare"
+  },
+  "alerts": {
+    "label": "Alertă formular",
+    "set": {
+      "title": "Succes. Canalul este setat."
+    },
+    "removed": {
+      "title": "Canal eliminat",
+      "message": "Alegeți sau creați un canal pentru participare."
+    },
+    "error": {
+      "title": "Eșuat. Canalul nu a fost setat."
+    }
+  },
+  "galleryPickerTitle": "Selectați un canal",
+  "channelsLabel": "Canale",
+  "accessLabel": "Acces",
+  "optionPublicLabel": "Public",
+  "optionOrganizationLabel": "Organizație",
+  "optionPrivateLabel": "Privat",
+  "viewChannel": "Vizualizare canal",
+  "editChannel": "Editare canal",
+  "save": "Salvare",
+  "removeChannel": "Eliminare canal",
+  "groupPicker": {
+    "facet": {
+      "label": "De la",
+      "myGroups": "Grupurile mele",
+      "myOrganization": "Organizația mea",
+      "myCommunity": "Comunitatea mea"
+    }
+  },
+  "editGroupButtonText": "Adăugare grupuri editare",
+  "viewGroupButtonText": "Adăugare grupuri vizualizare",
+  "viewGroups": {
+    "header": "Cine poate vedea",
+    "description": "Persoanele care pot vedea (dar nu pot posta pe) panou; postarea este setată de canalele de mai jos."
+  },
+  "editGroups": {
+    "header": "Cine poate edita",
+    "description": "Membrii grupului pot edita informațiile panoului din spațiul de lucru."
+  },
+  "aboutChannelsNotice": {
+    "title": "Prezentare canale",
+    "message": "Canalele nu sunt grupuri, dar le pot conține. Ele stabilesc cine poate posta și modera.",
+    "action": "Mai multe informații despre canale"
+  },
+  "nonPrivateChannelNotice": {
+    "title": "Nu se poate edita canalul",
+    "message": "Numai moderatorii acestui canal îl pot edita. Contactați proprietarul canalului sau administratorul organizației pentru a adăuga, dacă este necesar. De asemenea, puteți elimina acest canal, adăuga unul existent (al cărui moderator sunteți) sau crea unul nou."
+  },
+  "privateChannelNotice": {
+    "title": "Nu se poate edita canalul",
+    "message": "Numai moderatorii acestui canal îl pot edita. Contactați proprietarul canalului pentru a adăuga, dacă este necesar. De asemenea, puteți elimina acest canal, adăuga unul existent (al cărui moderator sunteți) sau crea unul nou."
+  },
+  "participate": {
+    "header": "Cine poate participa și cine poate modera"
+  },
+  "org": "Organizație",
+  "private": "Privat",
+  "public": "Public",
+  "unnamed": "Canal fără nume",
+  "groupNotFound": "Grupul nu a fost găsit"
+}

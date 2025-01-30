@@ -1,0 +1,13 @@
+{
+  "csv": "CSV",
+  "shapefile": "Shapefile",
+  "sqlite": "Geodatabáza SQLite",
+  "geoPackage": "GeoPackage",
+  "filegdb": "Súborová geodatabáza",
+  "featureCollection": "Kolekcia prvkov",
+  "geojson": "GeoJSON",
+  "excel": "Excel",
+  "json": "JSON",
+  "createReplicaErrorMessage": "Interná chyba vytvárania repliky. Skúste to znova o hodinu alebo kontaktujte správcu obsahu.",
+  "errorHeader": "Sťahovanie nemohlo byť dokončené. Skúste to znova."
+}

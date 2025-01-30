@@ -1,0 +1,118 @@
+{
+  "layout": {
+    "title": "Layout",
+    "helperText": "Dette konfigurerer, hvordan resultaterne ser ud, når de besøgende første gang kommer til dit katalog. Besøgende vil have mulighed for selv at ændre visningsmetoden.",
+    "enum": {
+      "list": {
+        "label": "Liste",
+        "description": "Bruges til at vise metadata, og når besøgende sandsynligvis udfører målrettede søgninger."
+      },
+      "grid": {
+        "label": "Gitter",
+        "description": "Bruges til resultater, der har miniaturer af høj kvalitet, og når besøgende sandsynligvis vil browse."
+      },
+      "table": {
+        "label": "Tabel",
+        "description": "Bruges til at præsentere resultater i et struktureret format med sorterbare kolonner, hvilket er ideelt, når besøgende måske gerne vil vise og sammenligne mange elementer og deres attributter."
+      },
+      "map": {
+        "label": "Kort",
+        "description": "Bruges til resultater, der er knyttet til fysiske steder, og når besøgende sandsynligvis vil udforske områder, der er af interesse."
+      },
+      "compact": {
+        "label": "Kompakt",
+        "description": "Bruges til at maksimere antallet af synlige resultater i et lille område, hvilket er ideelt til hurtig browsing eller visning på mobilenheder."
+      }
+    }
+  },
+  "cards": {
+    "title": "Kort",
+    "cardTitleTag": {
+      "label": "Overskrift",
+      "helperText": "Dette kan bruges til at forbedre indlejret overskriftsstruktur for at sikre tilgængelighed. Dette ændrer ikke skriftstørrelsen.",
+      "enum": {
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        }
+      }
+    },
+    "showThumbnail": {
+      "label": "Vis miniature",
+      "enum": {
+        "show": {
+          "label": "Altid",
+          "description": "Miniaturebilleder vises altid på resultatkort, uanset layoutet af resultaterne."
+        },
+        "hide": {
+          "label": "Vis ikke miniaturer",
+          "description": "Miniaturebilleder vises ikke på nogen form for resultatkort. Brug denne indstilling, hvis du har miniaturer af dårlig kvalitet, eller hvis du ønsker, at brugerne skal kunne scanne listeresultater hurtigere på computer og mobil."
+        },
+        "grid": {
+          "label": "Kun i gitter",
+          "description": "Miniaturebilleder vises kun på gitterkort. Listekort viser en ekstra kolonne med metadata i stedet for et billede."
+        }
+      }
+    },
+    "corners": {
+      "label": "Hjørner",
+      "enum": {
+        "square": {
+          "label": "Kvadrat"
+        },
+        "round": {
+          "label": "Afrundet"
+        }
+      }
+    },
+    "shadow": {
+      "label": "Skyggeeffekt",
+      "enum": {
+        "heavy": {
+          "label": "Tung"
+        },
+        "low": {
+          "label": "Lav"
+        },
+        "medium": {
+          "label": "Mellem"
+        },
+        "none": {
+          "label": "Ingen"
+        }
+      }
+    },
+    "showLinkButton": {
+      "label": "Inkluder knapper",
+      "helperText": "Hvis knapper er slået fra, er kun korttitlen et link."
+    },
+    "linkButtonStyle": {
+      "label": "Style",
+      "enum": {
+        "outline-filled": {
+          "label": "Fyldt"
+        },
+        "outline": {
+          "label": "Kontur"
+        }
+      }
+    },
+    "linkButtonText": {
+      "label": "Tekst"
+    }
+  }
+}

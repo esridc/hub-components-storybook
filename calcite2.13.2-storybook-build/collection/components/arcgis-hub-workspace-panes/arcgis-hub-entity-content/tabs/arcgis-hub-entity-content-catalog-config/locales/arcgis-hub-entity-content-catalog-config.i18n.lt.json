@@ -1,0 +1,46 @@
+{
+  "title": "Katalogo konfigūracija",
+  "helperText": "Nustatykite ir konfigūruokite katalogą",
+  "sections": {
+    "groups": {
+      "title": "Grupės",
+      "helperText": "Toliau esančiose grupėse yra jūsų ieškos katalogo turinys. Pasirinkite grupę, norėdami peržiūrėti jos nustatymus, turinį ir kt.",
+      "createGroup": "Kurti naują grupę"
+    },
+    "feeds": {
+      "title": "Srauto konfigūracija",
+      "helperText": "Su Hub informacijos santraukomis jūsų vieši atviri duomenys bus lengvai prieinami ir panaudojami.",
+      "learn": "Sužinokite daugiau apie Hub informacijos santraukas",
+      "toggle": "Įjungti informacijos santraukas ",
+      "configure": "Konfigūruoti informacijos santraukas",
+      "notice": "Norėdami įjungti informacijos santraukas, pirmiausia savo parametruose turite nustatyti Hub svetaines kaip „viešas“"
+    }
+  },
+  "groupPickerFacet": {
+    "label": "Nuo",
+    "editGroups": "Redaguoti grupes",
+    "viewGroups": "Peržiūrėti grupę",
+    "myGroups": "Mano grupės",
+    "myOrganization": "Mano organizacija",
+    "myCommunity": "Mano bendruomenė",
+    "public": "Vieša"
+  },
+  "formAlert": "Formos pavojus",
+  "configSaveAlert": {
+    "success": "Pakeitimai įrašyti sėkmingai",
+    "failure": "Klaida išsaugant pakeitimus"
+  },
+  "reharvestCatalogButton": "Tikrinti, ar yra klaidų",
+  "reharvestWarningModal": {
+    "title": "Tikrinti, ar yra klaidų",
+    "body1": "Įspėjimas: ši parinktis paprastai naudojama tik tada, kai paieškos puslapyje atsiranda problemų dėl trūkstamų rezultatų arba metaduomenų. Ši parinktis patikrins, ar jokiuose visų katalogo grupių elementuose nėra priedų, metaduomenų keitimų ar pašalinimų.",
+    "body2": "Vykdant šį procesą perkuriamas šio katalogo viešosios ieškos indeksas, tai gali gali užtrukti kelias minutes. Tai padidins visų ArcGIS Server pavyzdžių apkrovą.",
+    "primaryButton": "Tęsti",
+    "secondaryButton": "Atšaukti"
+  },
+  "reharvestCatalogAlert": {
+    "success": "Tikrinama, ar yra klaidų. Vėliau vėl patikrinkite.",
+    "inProgress": "Vykdomas tikrinimas. Grįžkite vėliau.",
+    "failure": "Atsiprašome, įvyko sistemos klaida. Prašome pabandyti vėliau."
+  }
+}

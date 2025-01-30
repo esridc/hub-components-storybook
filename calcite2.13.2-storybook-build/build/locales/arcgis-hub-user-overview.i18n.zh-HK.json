@@ -1,0 +1,35 @@
+{
+  "overview": "概述",
+  "resources": "Hub 資源",
+  "cards": {
+    "items": "項目數量",
+    "groups": "群組數量"
+  },
+  "hubContent": {
+    "heading": "最近修改的 Hub 項目",
+    "link": "檢視所有內容"
+  },
+  "content": {
+    "heading": "最近修改的內容",
+    "stat": "項目數量",
+    "link": "檢視所有內容"
+  },
+  "groups": {
+    "heading": "最近修改的群組",
+    "stat": "群組數量",
+    "link": "檢視所有群組"
+  },
+  "contentCount": "內容",
+  "addContent": "新建",
+  "facets": {
+    "access": {
+      "label": "從"
+    },
+    "type": {
+      "label": "類型"
+    },
+    "modified": {
+      "label": "已修改"
+    }
+  }
+}

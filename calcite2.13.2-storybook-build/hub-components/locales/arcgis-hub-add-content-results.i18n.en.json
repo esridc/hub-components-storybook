@@ -1,0 +1,54 @@
+{
+  "existing": {
+    "successHeading": "Content added successfully.",
+    "failureHeading": "Unable to add content to selected group.",
+    "successfulAccordionHeading": "Content added to selected group.",
+    "unsuccessfulAccordionHeading": "Content not added to selected group"
+  },
+  "create": {
+    "event": {
+      "successWithoutGroupHeading": "Event created successfully.",
+      "successWithGroupHeading": "Event created successfully and added to {group}.",
+      "successMessage": "You can now view the Event, manage it to edit information, or click 'done' to return to the view.",
+      "failureHeading": "Unable to add Event to selected group."
+    },
+    "discussion": {
+      "successWithoutGroupHeading": "Discussion Board created successfully.",
+      "successWithGroupHeading": "Discussion Board created successfully and added to {group}.",
+      "successMessage": "You can now view the Discussion Board, manage it to edit information, or click 'done' to return to the view.",
+      "failureHeading": "Unable to add Discussion Board to selected group."
+    },
+    "group": {
+      "successWithoutGroupHeading": "Group created successfully.",
+      "successMessage": "You can now view the Group, manage it to edit information, or click 'done' to return to the view.",
+      "failureHeading": "Unable to create group."
+    },
+    "initiative": {
+      "successWithoutGroupHeading": "Initiative created successfully.",
+      "successWithGroupHeading": "Initiative created successfully and added to {group}.",
+      "successMessage": "You can now view the Initiative, manage it to edit information, or click 'done' to return to the view.",
+      "failureHeading": "Unable to add Initiative to selected group."
+    },
+    "page": {
+      "successWithoutGroupHeading": "Page created successfully.",
+      "successWithGroupHeading": "Page created successfully and added to {group}.",
+      "successMessage": "You can now view the Page, manage it to edit information, or click 'done' to return to the view.",
+      "failureHeading": "Unable to add Page to selected group."
+    },
+    "project": {
+      "successWithoutGroupHeading": "Project created successfully.",
+      "successWithGroupHeading": "Project created successfully and added to {group}.",
+      "successMessage": "You can now view the Project, manage it to edit information, or click 'done' to return to the view.",
+      "failureHeading": "Unable to add Project to selected group."
+    },
+    "site": {
+      "successWithoutGroupHeading": "Site created successfully.",
+      "successWithGroupHeading": "Site created successfully and added to {group}.",
+      "successMessage": "You can now view the Site, manage it to edit information, or click 'done' to return to the view.",
+      "failureHeading": "Unable to add Site to selected group."
+    }
+  },
+  "editLayout": "Edit layout",
+  "manageEntity": "Manage",
+  "viewEntity": "View"
+}

@@ -1,0 +1,110 @@
+{
+  "controls": {
+    "addContent": "Lisää sisältöä",
+    "back": "Takaisin",
+    "cancel": "Peruuta",
+    "close": "Valmis",
+    "create": "Luo ja lisää ryhmään",
+    "next": "Seuraava"
+  },
+  "createHelpState": {
+    "discussion": {
+      "heading": "Keskustelu",
+      "message": "Luo uusi keskustelupalsta antamalla aihetta kuvaava nimi."
+    },
+    "event": {
+      "heading": "Tapahtuma",
+      "message": "Isännöi järjestettyä tapahtumaa henkilökohtaisesti tai virtuaalisesti."
+    },
+    "group": {
+      "heading": "Ryhmä",
+      "message": "Luo ryhmä ja tee yhteistyötä kohdistetun sisällön parissa."
+    },
+    "initiative": {
+      "heading": "Aloite",
+      "message": "Aloitteiden avulla organisoidaan edistymistä tavoitteita kohti ja tehdään yhteevetoja edistymisestä."
+    },
+    "page": {
+      "heading": "Sivu",
+      "message": "Sivulla voi jakaa tietoja ja olla yhteydessä yleisöön."
+    },
+    "project": {
+      "heading": "Projekti",
+      "message": "Korosta työ, johon liittyy selkeitä tavoitteita ja aikavälejä."
+    },
+    "site": {
+      "heading": "Sivusto",
+      "message": "Luo verkkosivu, jotta voit järjestää ja jakaa sisältöä."
+    }
+  },
+  "selection": {
+    "unlimited": "Valittu: {count}",
+    "limited": "Valittu: {count}/{limit}"
+  },
+  "steps": {
+    "createContent": "Lisää perustiedot",
+    "selectContent": "Valitse sisältö",
+    "selectGroups": "Valitse ryhmä",
+    "confirmation": "Vahvistus",
+    "notImplemented": "Ei otettu käyttöön"
+  },
+  "working": {
+    "heading": "Lisätään valittua sisältöä.",
+    "loadingLabel": "Lisätään sisältöä."
+  },
+  "failure": {
+    "heading": "Sisältöä ei lisätty",
+    "message": "Jokin meni vikaan, kun valittua sisältöä lisättiin. Yritä uudelleen.",
+    "action": "Yritä uudelleen"
+  },
+  "notImplemented": {
+    "heading": "Työnkulkua ei ole vielä otettu käyttöön."
+  },
+  "contentGallery": {
+    "facets": {
+      "access": {
+        "label": "Kohteesta"
+      },
+      "type": {
+        "label": "Tyypit"
+      },
+      "tags": {
+        "label": "Tunnisteet"
+      },
+      "categories": {
+        "label": "Luokat"
+      },
+      "modified": {
+        "label": "Muokattu"
+      }
+    }
+  },
+  "groupsGallery": {
+    "facets": {
+      "access": {
+        "label": "Käyttäjät, joilla on katseluoikeus:",
+        "options": {
+          "org": "Organisaatio",
+          "public": "Kaikki (julkinen)",
+          "private": "Minä"
+        }
+      },
+      "from": {
+        "label": "Kohteesta",
+        "options": {
+          "myCommunity": "Oma yhteisö",
+          "myGroups": "Omat ryhmät",
+          "myOrganization": "Oma organisaatio",
+          "world": "Maailma"
+        }
+      },
+      "type": {
+        "label": "Tyypit",
+        "options": {
+          "sharedUpdate": "Jaettu päivitys",
+          "opendata": "Open Data"
+        }
+      }
+    }
+  }
+}

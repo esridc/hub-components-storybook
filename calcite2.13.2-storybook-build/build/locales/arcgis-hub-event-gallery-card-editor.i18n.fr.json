@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "Catégories",
+        "noCategoriesNotice": {
+          "body": "Cette organisation ne dispose d’aucune catégorie pour l’instant.",
+          "link": "Configurer des catégories"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "Contenu",
+      "selectionMode": {
+        "dynamic": {
+          "label": "Dynamique"
+        },
+        "manual": {
+          "label": "Manuelle"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "Organisation"
+        },
+        "collection": {
+          "sites": "Sites",
+          "projects": "Projets",
+          "initiatives": "Initiatives"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "Organisation"
+        },
+        "collection": {
+          "events": "Événements"
+        }
+      },
+      "access": {
+        "label": "Partage",
+        "private": {
+          "label": "Privé",
+          "description": "Appliquez un filtre pour afficher le contenu disponible uniquement pour vous et les utilisateurs disposant d’un accès au groupe."
+        },
+        "org": {
+          "label": "Organisation",
+          "description": "Appliquer un filtre pour afficher le contenu disponible uniquement pour les membres de votre organisation."
+        },
+        "public": {
+          "label": "Public",
+          "description": "Appliquer un filtre pour afficher le contenu disponible pour tous les utilisateurs."
+        }
+      },
+      "tags": {
+        "label": "Balises"
+      },
+      "cardsShown": {
+        "label": "Fiches affichées"
+      }
+    },
+    "appearance": {
+      "label": "Apparence",
+      "titleHeading": {
+        "label": "Titre",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "Selon la technique G141 des directives WCAG, l’utilisation de niveaux de titre améliore l’accessibilité."
+      },
+      "corners": {
+        "label": "Angles",
+        "square": {
+          "label": "Carrés"
+        },
+        "round": {
+          "label": "Arrondis"
+        }
+      },
+      "shadow": {
+        "label": "Ombre",
+        "none": {
+          "label": "Désactivée"
+        },
+        "low": {
+          "label": "Faible"
+        },
+        "medium": {
+          "label": "Moyenne"
+        },
+        "heavy": {
+          "label": "Dense"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "Afficher les informations supplémentaires"
+      },
+      "layout": {
+        "label": "Mise en page",
+        "list": {
+          "label": "Liste"
+        },
+        "map": {
+          "label": "Carte"
+        },
+        "calendar": {
+          "label": "Calendrier"
+        }
+      }
+    },
+    "options": {
+      "label": "Options",
+      "openIn": {
+        "label": "Ouvrir dans...",
+        "same": {
+          "label": "Même onglet"
+        },
+        "new": {
+          "label": "Nouvel onglet"
+        },
+        "notice": {
+          "title": "Conseil d’accessibilité :",
+          "body": "Selon la technique G200 des directives WCAG 2.0, l’ouverture des liens dans de nouveaux onglets ou de nouvelles fenêtres n’est pas recommandée.",
+          "link": "Technique G200 des directives WCAG 2.0",
+          "linkAriaLabel": "En savoir plus sur la technique G200 des directives WCAG 2.0"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "Partage",
+      "public": {
+        "label": "Public"
+      },
+      "private": {
+        "label": "Privé"
+      },
+      "organization": {
+        "label": "Organisation"
+      }
+    },
+    "from": {
+      "label": "Provenance",
+      "myOrganization": {
+        "label": "Mon organisation"
+      },
+      "myContent": {
+        "label": "Mes contenus"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "Événements",
+      "collections": {
+        "event": {
+          "label": "Événements"
+        }
+      }
+    },
+    "item": {
+      "label": "Contenu",
+      "collections": {
+        "item": {
+          "label": "Contenu"
+        }
+      }
+    }
+  }
+}

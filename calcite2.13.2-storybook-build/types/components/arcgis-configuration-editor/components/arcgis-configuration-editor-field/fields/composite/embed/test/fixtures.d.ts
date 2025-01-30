@@ -1,0 +1,17 @@
+import { IHubEmbed } from "@esri/hub-common";
+import { _IHubEmbed } from "../resources";
+export declare const MAP_EMBED: IHubEmbed;
+export declare const MAP_EMBED_TO_EMIT: IHubEmbed;
+export declare const EDITOR_MAP_EMBED: _IHubEmbed;
+export declare const APP_EMBED: IHubEmbed;
+export declare const APP_EMBED_TO_EMIT: IHubEmbed;
+export declare const EDITOR_APP_EMBED: _IHubEmbed;
+export declare const FEEDBACK_EMBED: IHubEmbed;
+export declare const FEEDBACK_EMBED_TO_EMIT: IHubEmbed;
+export declare const EDITOR_FEEDBACK_EMBED: _IHubEmbed;
+export declare const EXTERNAL_EMBED: IHubEmbed;
+export declare const EXTERNAL_EMBED_TO_EMIT: IHubEmbed;
+export declare const EDITOR_EXTERNAL_EMBED: _IHubEmbed;
+export declare const EMBED_WITH_BREAKPOINTS: IHubEmbed;
+export declare const EMBED_WITH_BREAKPOINTS_TO_EMIT: IHubEmbed;
+export declare const EDITOR_EMBED_WITH_BREAKPOINTS: _IHubEmbed;

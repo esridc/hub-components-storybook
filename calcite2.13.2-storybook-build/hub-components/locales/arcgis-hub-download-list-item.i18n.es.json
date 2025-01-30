@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "Conjunto de entidades",
+    "fgdb": "Geodatabase de archivos",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Shapefile",
+    "sqlite": "Geodatabase SQLite"
+  },
+  "buttonText": {
+    "download": "Descargar",
+    "pending": "Pendiente",
+    "processing": "Procesamiento",
+    "converting": "Conversión",
+    "completed": "Descarga completada",
+    "failed": "Error de descarga"
+  },
+  "errors": {
+    "errorHeading": "Error"
+  },
+  "cacheStatusAccordion": {
+    "heading": "¿He encontrado lo que necesita?",
+    "content": "Es posible que exista una versión más reciente.",
+    "button": "Solicitar archivo nuevo"
+  },
+  "generateNewModal": {
+    "heading": "¿Está seguro?",
+    "content": "Esto puede tardar un poco. Mantenga activa esta pestaña del navegador hasta que finalice la descarga.",
+    "confirmButton": "Sí",
+    "cancelButton": "Cancelar"
+  }
+}

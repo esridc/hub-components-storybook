@@ -1,0 +1,16 @@
+{
+  "heading": "Deelniveau",
+  "public": "Openbaar",
+  "publicInfo": "Iedereen kan dit/deze {itemType} zien",
+  "organization": "Organisatie",
+  "organizationInfo": "Alle leden met een account bij {orgName} en alle groepen kunnen dit/deze {itemType} zien",
+  "owner": "Eigenaar",
+  "ownerInfo": "Eigenaar en groepen met toegang kunnen deze {itemType} zien",
+  "discussion": {
+    "publicInfo": "Iedereen kan dit discussiebord zien",
+    "organization": "Mijn organisatie",
+    "organizationInfo": "Alle leden met een {orgName}-account kunnen dit discussiebord zien",
+    "owner": "Privé",
+    "ownerInfo": "Eigenaar en geselecteerde groepen kunnen dit discussiebord zien"
+  }
+}

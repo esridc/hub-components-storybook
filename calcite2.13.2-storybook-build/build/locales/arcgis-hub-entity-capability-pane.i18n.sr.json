@@ -1,0 +1,35 @@
+{
+  "success": "Uspešno sačuvana uređivanja",
+  "error": "Greška u čuvanju uređivanja",
+  "formAlert": "Formiraj upozorenje",
+  "projects": {
+    "header": "Projekti",
+    "list": "Lista projekata",
+    "config": "Konfiguracija",
+    "notConfigured": "Mogućnost za projekte nije konfigurisana. Koristite karticu Konfiguracija."
+  },
+  "content": {
+    "header": "Sadržaj",
+    "list": "Lista sadržaja",
+    "config": "Konfiguracija",
+    "notConfigured": "Mogućnost za sadržaj nije konfigurisana. Koristite karticu Konfiguracija."
+  },
+  "initiatives": {
+    "header": "Inicijative",
+    "list": "Lista inicijativa",
+    "config": "Konfiguracija",
+    "notConfigured": "Mogućnost za inicijative nije konfigurisana. Koristite karticu Konfiguracija."
+  },
+  "events": {
+    "header": "Događaji",
+    "list": "Lista događaja",
+    "config": "Konfiguracija",
+    "notConfigured": "Mogućnost za događaje nije konfigurisana. Koristite karticu Konfiguracija."
+  },
+  "pages": {
+    "header": "Stranice",
+    "list": "Lista stranica",
+    "config": "Konfiguracija",
+    "notConfigured": "Mogućnost za stranice nije konfigurisana. Koristite karticu Konfiguracija."
+  }
+}

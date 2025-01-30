@@ -1,0 +1,47 @@
+{
+  "communityOrg": "社区组织",
+  "editLayout": "编辑布局",
+  "orgWorkspace": "打开主工作空间",
+  "editS123": "在 Survey123 中进行编辑",
+  "editAdvancedJson": "编辑高级 JSON",
+  "view": {
+    "project": "查看工程",
+    "site": "查看站点",
+    "initiative": "查看倡议",
+    "discussion": "查看讨论板",
+    "content": "查看内容",
+    "page": "查看页面",
+    "group": "查看群组",
+    "initiativeTemplate": "查看倡议模板",
+    "template": "查看模板",
+    "survey": "查看调查",
+    "event": "查看事件"
+  },
+  "access": {
+    "share": "共享",
+    "sharingLevel": "共享级别",
+    "groupSharing": "群组共享",
+    "tooltip": {
+      "public": "共享级别：公共",
+      "org": "共享级别：组织",
+      "private": "共享级别：私有",
+      "shared": "共享级别：以私有方式共享"
+    },
+    "save": "保存",
+    "cancel": "取消",
+    "alert": {
+      "success": "已成功保存编辑内容",
+      "error": "保存编辑内容时出错",
+      "label": "表单警告"
+    }
+  },
+  "popoverActions": {
+    "label": "更多操作",
+    "openInEnterprise": "在 ArcGIS Enterprise 中打开",
+    "openInOnline": "在 ArcGIS Online 中打开"
+  },
+  "homeLink": {
+    "text": "主页"
+  },
+  "createContent": "创建"
+}

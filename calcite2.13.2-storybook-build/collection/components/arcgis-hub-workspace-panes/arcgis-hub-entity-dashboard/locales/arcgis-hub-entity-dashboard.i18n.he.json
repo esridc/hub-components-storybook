@@ -1,0 +1,20 @@
+{
+  "dashboard": "לוח בקרה",
+  "activityLogSection": {
+    "title": "יומן פעילות",
+    "table": {
+      "downloadAction": "הורד",
+      "downloadAllAction": "הורד הכול",
+      "downloadActionTooltip": "הורד את הפעילויות שנבחרו",
+      "caption": "טבלת שגיאות אחרונות",
+      "columnHeaders": {
+        "datetime": "תאריך",
+        "layer": "שכבה",
+        "message": "הודעה"
+      },
+      "noRecentErrors": "אין שגיאות אחרונות",
+      "expandText": "הצג עוד",
+      "collapseText": "הצג פחות"
+    }
+  }
+}

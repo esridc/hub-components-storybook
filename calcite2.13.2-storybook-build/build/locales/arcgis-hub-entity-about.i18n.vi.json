@@ -1,0 +1,18 @@
+{
+  "about": "Giới thiệu về",
+  "metrics": "Chỉ số hiệu quả",
+  "featuredContent": "Nội dung nổi bật",
+  "details": "Thông tin chi tiết",
+  "exploreMetrics": "Khám phá số liệu",
+  "status": {
+    "label": {
+      "default": "Trạng thái",
+      "project": "Trạng thái dự án",
+      "initiative": "Trạng thái sáng kiến"
+    },
+    "notStarted": "Chưa bắt đầu",
+    "inProgress": "Đang xử lý",
+    "onHold": "Đang bị tạm ngưng",
+    "complete": "Hoàn tất"
+  }
+}

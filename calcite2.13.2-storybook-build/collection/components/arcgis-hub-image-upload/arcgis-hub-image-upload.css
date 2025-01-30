@@ -1,0 +1,103 @@
+.image-upload__title {
+  margin-bottom: 0px;
+  font-size: var(--calcite-font-size-2);
+  line-height: 1.5rem;
+}
+
+.image-upload__content {
+  transition: all 200ms ease-in-out;
+  border: 1px solid var(--calcite-color-border-3);
+  box-sizing: border-box;
+  background-color: var(--calcite-color-background);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.image-upload__content--with-map {
+  min-height: 400px;
+}
+
+.image-upload__content--no-padding {
+  padding: 0px;
+}
+
+.image-upload__canvas {
+  left: -10000px;
+  visibility: hidden;
+  position: fixed;
+}
+
+.or-container {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: var(--calcite-font-weight-medium);
+}
+
+.or-container:before,
+.or-container:after {
+  content: "";
+  border-top: solid 1px var(--calcite-color-border-input);
+  width: 15%;
+  height: 1px;
+  z-index: 1;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.or-wrapper {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.image-upload__from-map-button {
+  border: 1px solid var(--calcite-color-foreground-3);
+  background-color: var(--calcite-color-foreground-1);
+  padding: 1rem;
+  text-align: center;
+}
+
+.image-upload__from-map-button:hover {
+  border: 1px solid var(--calcite-color-brand);
+}
+
+.image-upload__from-map-title {
+  display: inline-block;
+}
+
+.from-map-title-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.from-map-icon {
+  margin-right: 0.5rem;
+}
+
+.image-upload__from-map-desc {
+  margin: 0px;
+  font-size: var(--calcite-font-size-1);
+  line-height: 1.5rem;
+}
+
+.hide {
+  display: none;
+}
+
+.button-container {
+  margin-top: 0.5rem;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 1.25rem;
+}
+
+.error {
+  background-color: #FFF1EF;
+  border-color: var(--calcite-color-status-danger);
+}
+
+

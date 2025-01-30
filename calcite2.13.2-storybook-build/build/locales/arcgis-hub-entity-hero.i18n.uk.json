@@ -1,0 +1,11 @@
+{
+  "actions": {
+    "register": "Зареєструвати"
+  },
+  "tooltip": {
+    "register": {
+      "isCancelled": "Подію скасовано",
+      "eventHasEnded": "Подія завершилася"
+    }
+  }
+}

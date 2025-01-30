@@ -1,0 +1,19 @@
+{
+  "facets": {
+    "location": {
+      "label": "Locație",
+      "tooltip": "Aplicați extinderea hărții ca filtru de locație"
+    },
+    "status": "Stare",
+    "tags": "Etichete",
+    "categories": "Categorii",
+    "dateUpdated": "Dată actualizată"
+  },
+  "status": {
+    "label": "Stare proiect",
+    "notStarted": "Neînceput",
+    "inProgress": "În curs",
+    "onHold": "În așteptare",
+    "complete": "Finalizat"
+  }
+}

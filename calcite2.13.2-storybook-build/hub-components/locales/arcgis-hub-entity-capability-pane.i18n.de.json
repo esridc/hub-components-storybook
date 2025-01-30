@@ -1,0 +1,35 @@
+{
+  "success": "Änderungen erfolgreich gespeichert",
+  "error": "Fehler beim Speichern der Änderungen",
+  "formAlert": "Formularwarnung",
+  "projects": {
+    "header": "Projekte",
+    "list": "Projektliste",
+    "config": "Konfiguration",
+    "notConfigured": "Die Funktion \"Projekte\" ist nicht konfiguriert. Verwenden Sie die Registerkarte \"Konfiguration\"."
+  },
+  "content": {
+    "header": "Inhalt",
+    "list": "Inhaltsliste",
+    "config": "Konfiguration",
+    "notConfigured": "Die Funktion \"Inhalt\" ist nicht konfiguriert. Verwenden Sie die Registerkarte \"Konfiguration\"."
+  },
+  "initiatives": {
+    "header": "Initiativen",
+    "list": "Initiativenliste",
+    "config": "Konfiguration",
+    "notConfigured": "Die Funktion \"Initiativen\" ist nicht konfiguriert. Verwenden Sie die Registerkarte \"Konfiguration\"."
+  },
+  "events": {
+    "header": "Events",
+    "list": "Eventliste",
+    "config": "Konfiguration",
+    "notConfigured": "Die Funktion \"Events\" ist nicht konfiguriert. Verwenden Sie die Registerkarte \"Konfiguration\"."
+  },
+  "pages": {
+    "header": "Seiten",
+    "list": "Seitenliste",
+    "config": "Konfiguration",
+    "notConfigured": "Die Funktion \"Seiten\" ist nicht konfiguriert. Verwenden Sie die Registerkarte \"Konfiguration\"."
+  }
+}

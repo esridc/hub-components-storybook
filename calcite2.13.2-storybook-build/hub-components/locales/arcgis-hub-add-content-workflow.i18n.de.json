@@ -1,0 +1,110 @@
+{
+  "controls": {
+    "addContent": "Inhalt hinzufügen",
+    "back": "Zurück",
+    "cancel": "Abbrechen",
+    "close": "Fertig",
+    "create": "Erstellen und der Gruppe hinzufügen",
+    "next": "Weiter"
+  },
+  "createHelpState": {
+    "discussion": {
+      "heading": "Diskussion",
+      "message": "Erstellen Sie eine neue Diskussionsrunde, indem Sie einen Titel eingeben, der das Thema angibt."
+    },
+    "event": {
+      "heading": "Veranstaltungen",
+      "message": "Eine Präsenz- oder Onlineveranstaltung ausrichten."
+    },
+    "group": {
+      "heading": "Gruppe",
+      "message": "Eine Gruppe einrichten, um basierend auf themenspezifischen Inhalten zusammenzuarbeiten."
+    },
+    "initiative": {
+      "heading": "Initiative",
+      "message": "Initiativen ermöglichen das Organisieren und Zusammenfassen von Fortschritten in Hinblick auf ein Ziel."
+    },
+    "page": {
+      "heading": "Seite",
+      "message": "Auf einer Seite können Sie Informationen bereitstellen und eine Verbindung mit der Zielgruppe herstellen."
+    },
+    "project": {
+      "heading": "Projekt",
+      "message": "Arbeitsaufträge mit klaren Zielvorgaben und festem Zeitrahmen präsentieren."
+    },
+    "site": {
+      "heading": "Site",
+      "message": "Eine Webseite erstellen, um Informationen zu organisieren und freizugeben."
+    }
+  },
+  "selection": {
+    "unlimited": "Ausgewählt: {count}",
+    "limited": "Ausgewählt: {count}/{limit}"
+  },
+  "steps": {
+    "createContent": "Grundlegende Informationen hinzufügen",
+    "selectContent": "Inhalt auswählen",
+    "selectGroups": "Gruppe auswählen",
+    "confirmation": "Bestätigung",
+    "notImplemented": "Nicht implementiert"
+  },
+  "working": {
+    "heading": "Ausgewählter Inhalt wird hinzugefügt.",
+    "loadingLabel": "Inhalt wird hinzugefügt."
+  },
+  "failure": {
+    "heading": "Inhalt nicht hinzugefügt.",
+    "message": "Beim Hinzufügen des ausgewählten Inhalts ist ein Fehler aufgetreten. Versuchen Sie es erneut.",
+    "action": "Erneut versuchen"
+  },
+  "notImplemented": {
+    "heading": "Dieser Workflow ist noch nicht implementiert."
+  },
+  "contentGallery": {
+    "facets": {
+      "access": {
+        "label": "Aus"
+      },
+      "type": {
+        "label": "Typen"
+      },
+      "tags": {
+        "label": "Tags"
+      },
+      "categories": {
+        "label": "Kategorien"
+      },
+      "modified": {
+        "label": "Geändert"
+      }
+    }
+  },
+  "groupsGallery": {
+    "facets": {
+      "access": {
+        "label": "Sichtbar für",
+        "options": {
+          "org": "Organisation",
+          "public": "Alle (öffentlich)",
+          "private": "Ich"
+        }
+      },
+      "from": {
+        "label": "Aus",
+        "options": {
+          "myCommunity": "Eigene Community",
+          "myGroups": "Eigene Gruppen",
+          "myOrganization": "Eigene Organisation",
+          "world": "Welt"
+        }
+      },
+      "type": {
+        "label": "Typen",
+        "options": {
+          "sharedUpdate": "Gemeinsame Aktualisierung",
+          "opendata": "Open Data"
+        }
+      }
+    }
+  }
+}

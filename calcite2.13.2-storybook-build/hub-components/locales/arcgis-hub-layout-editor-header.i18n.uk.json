@@ -1,0 +1,39 @@
+{
+  "popover": {
+    "access": {
+      "org": "Опубліковано для організації",
+      "private": "Опубліковано для власника",
+      "public": "Опубліковано для громадськості",
+      "shared": "Опубліковано для власника та груп"
+    },
+    "editLayout": "Редагувати компонування",
+    "lastUpdated": "Останнє оновлення {updated}",
+    "viewSite": "Переглянути сайт"
+  },
+  "cloneLayoutLabel": "Клонувати компонування",
+  "deleteDraftLabel": "Видалити чернетку",
+  "deletePageLabel": "Видалити сторінку",
+  "deleteSiteLabel": "Видалити сайт",
+  "editInAgoLabel": "Редагувати в ArcGIS Online",
+  "managePage": "Керування сторінкою",
+  "manageSite": "Керування сайтом",
+  "manageTemplate": "Керування шаблоном",
+  "moreOptionsLabel": "Більше опцій",
+  "publishLabel": {
+    "site": "Публікація компонування",
+    "page": "Публікація компонування",
+    "survey": "Публікувати"
+  },
+  "saveAsTemplateLabel": "Зберегти як шаблон",
+  "saveLabel": {
+    "site": "Зберегти компонування",
+    "page": "Зберегти компонування",
+    "survey": "Зберегти",
+    "template": "Зберегти"
+  },
+  "sharingLabel": "Відкрити панель спільного доступу",
+  "editS123Label": "Редагувати в Survey123",
+  "viewLabel": "Перегляд",
+  "viewPublishedLabel": "Перегляд опублікованого",
+  "viewUnpublishedLabel": "Перегляд чернетки"
+}

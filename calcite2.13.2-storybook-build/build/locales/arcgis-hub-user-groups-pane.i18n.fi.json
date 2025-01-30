@@ -1,0 +1,33 @@
+{
+  "groups": "Omat ryhmät",
+  "addContentButtonText": "Luo uusi",
+  "role": "Rooli",
+  "owner": "Omistaja",
+  "updated": "Päivitetty",
+  "type": "Tyyppi",
+  "sharedUpdate": "Jaettu päivitys -ryhmä",
+  "viewOnly": "Vain tarkastelu -ryhmä",
+  "actionLinks": {
+    "view": "Näytä",
+    "edit": "Muokkaa",
+    "ariaEdit": "Muokkaa kohdetta {title}",
+    "ariaView": "Näytä {title}"
+  },
+  "facets": {
+    "access": {
+      "label": "Käyttäjät, joilla on katseluoikeus:",
+      "options": {
+        "public": "Kaikki (julkinen)",
+        "org": "Organisaatio",
+        "private": "Minä"
+      }
+    },
+    "type": {
+      "label": "Tyypit",
+      "options": {
+        "sharedUpdate": "Jaettu päivitys",
+        "opendata": "Open Data"
+      }
+    }
+  }
+}

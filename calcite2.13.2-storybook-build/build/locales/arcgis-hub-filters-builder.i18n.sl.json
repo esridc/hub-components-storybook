@@ -1,0 +1,15 @@
+{
+  "newFilter": "Nov filter",
+  "block": {
+    "heading": {
+      "untitled": "Nov filter",
+      "default": "Filter {filterNum}: {parameter}",
+      "group": "Filter {filterNum}: skupine",
+      "type": "Filter {filterNum}: tipi",
+      "occurrence": "Filter {filterNum}: pojav"
+    },
+    "actions": {
+      "delete": "Izbriši filter: {label}"
+    }
+  }
+}

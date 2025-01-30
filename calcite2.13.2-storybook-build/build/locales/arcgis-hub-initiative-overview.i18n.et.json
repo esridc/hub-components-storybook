@@ -1,0 +1,23 @@
+{
+  "overview": "Ülevaade",
+  "telemetry": {
+    "pageViews": "Lehe vaatamised",
+    "last30days": "Viimased 30 päeva",
+    "lastUpdated": "Viimati uuendatud {hoursElapsed} tundi tagasi",
+    "checkTomorrow": "Vaadake homme uuesti"
+  },
+  "learnAbout": "Teave Hubi projektide kohta",
+  "feedbackNotice": {
+    "message": "Kuidas teile meeldivad Hubi projektid? Tahame teada, kuidas saate neid kasutada.",
+    "link": "Esita tagasiside"
+  },
+  "status": {
+    "notStarted": "Alustamata",
+    "inProgress": "Pooleli",
+    "onHold": "Ootel",
+    "complete": "Valmis"
+  },
+  "editDetails": "Muuda üksikasju",
+  "noPurposeSet": "Eesmärki pole määratud",
+  "noLocationSet": "Asukohta pole määratud"
+}

@@ -1,0 +1,28 @@
+:host {
+  display: block;
+  --calcite-color-border-1: #CACACA;
+  --calcite-color-border-2: #D4D4D4;
+  --calcite-color-border-3: #D3D3D3;
+}
+
+[slot="back"] {
+  display: flex;
+  align-items: baseline;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  background-color: var(--calcite-color-foreground-current);
+  --calcite-label-margin-bottom: 0;
+  --calcite-color-text-1: var(--calcite-color-text-1);
+}
+
+.warning {
+  background-color: var(--calcite-color-status-danger-hover);
+}
+
+calcite-modal {
+  --calcite-modal-height: 80vh;
+}
+
+[slot="content"] {
+  --calcite-card-border-color: var(--calcite-color-border-3);
+}

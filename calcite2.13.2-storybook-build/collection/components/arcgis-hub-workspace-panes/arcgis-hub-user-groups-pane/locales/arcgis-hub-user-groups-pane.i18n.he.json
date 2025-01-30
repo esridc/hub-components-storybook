@@ -1,0 +1,33 @@
+{
+  "groups": "הקבוצות שלי",
+  "addContentButtonText": "צור חדש",
+  "role": "תפקיד",
+  "owner": "בעלים",
+  "updated": "עודכן",
+  "type": "סוג",
+  "sharedUpdate": "קבוצת עדכון משותף",
+  "viewOnly": "קבוצת תצוגה בלבד",
+  "actionLinks": {
+    "view": "הצג",
+    "edit": "עריכה",
+    "ariaEdit": "ערוך את {title}",
+    "ariaView": "הצג את {title}"
+  },
+  "facets": {
+    "access": {
+      "label": "יכולים לראות:",
+      "options": {
+        "public": "כולם (ציבורי)",
+        "org": "ארגון",
+        "private": "אני"
+      }
+    },
+    "type": {
+      "label": "סוגים",
+      "options": {
+        "sharedUpdate": "עדכון משותף",
+        "opendata": "Open Data"
+      }
+    }
+  }
+}

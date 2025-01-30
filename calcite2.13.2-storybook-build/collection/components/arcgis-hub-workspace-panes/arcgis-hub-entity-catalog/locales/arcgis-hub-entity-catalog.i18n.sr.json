@@ -1,0 +1,65 @@
+{
+  "catalog": "Katalog",
+  "catalog-content": "Sadržaj",
+  "catalog-events": "Događaji",
+  "shared": {
+    "publish": {
+      "label": "Sačuvaj",
+      "success": {
+        "title": "Uspešno objavljena uređivanja kataloga za prikaz uživo"
+      },
+      "error": {
+        "title": "Greška u čuvanju uređivanja"
+      }
+    }
+  },
+  "emptyState": {
+    "message": "Nema definisanog kataloga",
+    "action": "Izgradi katalog"
+  },
+  "actionBar": {
+    "details": "Konfiguracija kataloga",
+    "appearance": "Izgled kataloga",
+    "tooltip": {
+      "appearanceDisabled": "Trenutno nije konfigurisan nijedan katalog. Konfigurišite katalog kako biste prilagodili postavke izgleda.",
+      "configuration": "Konfiguracija",
+      "appearance": "Izgled"
+    }
+  },
+  "detailsPanel": {
+    "heading": "Konfiguracija kataloga",
+    "close": "Zatvori konfiguraciju kataloga",
+    "catalogBuilder": {
+      "helperText": "Vaš katalog posetiocima dozvoljava da pretraže i pregledaju sadržaj. Prikazani rezultati su zasnovani na konfiguraciji vašeg upita."
+    },
+    "querySizeNotice": {
+      "warning": {
+        "title": "Približavanje ograničenju kataloga",
+        "catalogSourceMessage": {
+          "item": "Vaša konfiguracija izvora stavki se približava ograničenju veličine.",
+          "event": "Vaša konfiguracija izvora događaja se približava ograničenju veličine."
+        },
+        "collectionSourceMessage": {
+          "item": "Kombinacija vašeg izvora stavki i konfiguracije kolekcije \"{collectionName}\" se približava ograničenju veličine.",
+          "event": "Kombinacija vašeg izvora događaja i konfiguracije kolekcije \"{collectionName}\" se približava ograničenju veličine."
+        }
+      },
+      "danger": {
+        "title": "Premašeno je ograničenje kataloga",
+        "catalogSourceMessage": {
+          "item": "Vaša konfiguracija izvora stavki je premašila ograničenje veličine. Smanjite broj filtera i/ili opcija filtera u svom izvoru stavki da biste objavili.",
+          "event": "Vaša konfiguracija izvora događaja je premašila ograničenje veličine. Smanjite broj filtera i/ili opcija filtera u svom izvoru događaja da biste objavili."
+        },
+        "collectionSourceMessage": {
+          "item": "Kombinacija vašeg izvora stavki i konfiguracije kolekcije \"{collectionName}\" je premašila ograničenje veličine. Smanjite broj filtera i/ili opcija filtera u svom izvoru stavki i/ili kolekciji \"{collectionName}\" da biste objavili.",
+          "event": "Kombinacija vašeg izvora događaja i konfiguracije kolekcije \"{collectionName}\" je premašila ograničenje veličine. Smanjite broj filtera i/ili opcija filtera u svom izvoru događaja i/ili kolekciji \"{collectionName}\" da biste objavili."
+        }
+      }
+    }
+  },
+  "appearancePanel": {
+    "heading": "Izgled kataloga",
+    "close": "Zatvori izgled kataloga",
+    "description": "Vaš katalog posetiocima dozvoljava da pretraže i pregledaju sadržaj. Ovde možete da ažurirate kako podrazumevani katalog treba da izgleda i koje filtere želite da prikažete."
+  }
+}

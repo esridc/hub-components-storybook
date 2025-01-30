@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entity-Specific Cards</title>
+
+  <!-- link to calcite components CSS  -->
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+  <!-- NOTE: calcite web CSS is only used for grid layout of this page. see: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+  <link rel="stylesheet" href="../calcite-web.min.css" />
+
+  <!-- <script async src="https://ga.jspm.io/npm:es-module-shims@1.6.2/dist/es-module-shims.js"></script> -->
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+  <!-- load calcite components -->
+  <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <!-- load hub components -->
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <!-- load json editor -->
+  <link href="../../jsoneditor/jsoneditor.min.css" rel="stylesheet" type="text/css">
+  <script src="../../jsoneditor/jsoneditor.min.js"></script>
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+    #view-model-container {
+      height: 50vh;
+    }
+  </style>
+</head>
+
+<body>
+  <harness-header page-title="Entity-Specific Cards"></harness-header>
+  <div class="grid-container padding-leader-4">
+
+    <!-- ENTITY TYPE INPUT & ID INPUTS -->
+    <div class="column-24 trailer-1">
+      <calcite-label class="column-6">
+        <strong>Select an Entity Card</strong>
+        <calcite-combobox id="entity-type" clear-disabled overlay-positioning="fixed" selection-mode="single" placeholder="Select an entity card harness...">
+          <calcite-combobox-item value="channel" text-label="Channel Card"></calcite-combobox-item>
+          <calcite-combobox-item value="initiative" text-label="Initiative Card"></calcite-combobox-item>
+          <calcite-combobox-item selected value="project" text-label="Project Card"></calcite-combobox-item>
+          <calcite-combobox-item value="user" text-label="User Card"></calcite-combobox-item>
+          <calcite-combobox-item value="event" text-label="Event Card"></calcite-combobox-item>
+        </calcite-combobox>
+      </calcite-label>
+      <calcite-label class="column-18">
+        <strong>Provide a comma-delimited list of ids</strong>
+        <calcite-input
+          id="entity-ids">
+          <calcite-button slot="action">Enter</calcite-button>
+        </calcite-input>
+      </calcite-label>
+    </div>
+
+    <div class="column-24">
+      <!-- VISUAL CARD SELECTIONS (e.g. layout, corners, etc.)-->
+      <div class="column-6 padding-right-2">
+        <calcite-label>
+          <strong>Layout</strong>
+          <calcite-segmented-control id="layout" appearance="outline-fill">
+            <calcite-segmented-control-item checked value="list">Row</calcite-segmented-control-item>
+            <calcite-segmented-control-item value="grid">Card</calcite-segmented-control-item>
+          </calcite-segmented-control>
+        </calcite-label>
+        <calcite-label>
+          <strong>Corners</strong>
+          <calcite-segmented-control id="corners" appearance="outline-fill">
+            <calcite-segmented-control-item checked value="square">Square</calcite-segmented-control-item>
+            <calcite-segmented-control-item value="round">Round</calcite-segmented-control-item>
+          </calcite-segmented-control>
+        </calcite-label>
+        <calcite-label>
+          <strong>Image Type</strong>
+          <calcite-segmented-control id="image-type" appearance="outline-fill">
+            <calcite-segmented-control-item checked value="thumbnail">Thumbnail</calcite-segmented-control-item>
+            <calcite-segmented-control-item value="icon">Icon</calcite-segmented-control-item>
+          </calcite-segmented-control>
+        </calcite-label>
+        <calcite-label>
+          <strong>Shadow</strong>
+          <calcite-segmented-control id="shadow" appearance="outline-fill">
+            <calcite-segmented-control-item checked value="none">None</calcite-segmented-control-item>
+            <calcite-segmented-control-item value="low">Low</calcite-segmented-control-item>
+            <calcite-segmented-control-item value="medium">Medium</calcite-segmented-control-item>
+            <calcite-segmented-control-item value="heavy">Heavy</calcite-segmented-control-item>
+          </calcite-segmented-control>
+        </calcite-label>
+        <calcite-label>
+          <strong>Is Selectable?</strong>
+          <calcite-switch id="is-selectable" />
+        </calcite-label>
+        <calcite-label>
+          <strong>Show Additional Info?</strong>
+          <calcite-switch checked id="show-additional-info" />
+        </calcite-label>
+        <calcite-label>
+          <strong>Show Badges?</strong>
+          <calcite-switch checked id="show-badges" />
+        </calcite-label>
+        <calcite-label>
+          <strong>Show Owner?</strong>
+          <calcite-switch checked id="show-owner" />
+        </calcite-label>
+        <calcite-label>
+          <strong>Show Thumbnail?</strong>
+          <calcite-switch checked id="show-thumbnail" />
+        </calcite-label>
+        <calcite-label>
+          <strong>Show Type?</strong>
+          <calcite-switch checked id="show-type" />
+        </calcite-label>
+        <div>
+          <calcite-label>
+            <strong>Action Links</strong>
+          </calcite-label>
+          <div id="action-links-container"></div>
+          <calcite-button
+            id="action-links-apply"
+            width="full">
+            Apply
+          </calcite-button>
+        </div>
+      </div>
+
+      <!-- TAB NAVIGATION BETWEEN UI AND VIEW MODEL -->
+      <calcite-tabs class="column-18">
+        <calcite-tab-nav slot="title-group">
+          <calcite-tab-title selected>UI</calcite-tab-title>
+          <calcite-tab-title onClick="initViewModels()">View Model</calcite-tab-title>
+        </calcite-tab-nav>
+        <calcite-tab selected>
+          <!-- ENTITY CARD(S): for the purposes of this harness, we
+          render the cards through the arcgis-hub-gallery
+          so they can be dynamic -->
+          <div class="column-18" id="card-container">
+            <arcgis-hub-gallery />
+          </div>
+        </calcite-tab>
+        <calcite-tab>
+          <!-- VIEW MODEL CODE BLOCK CONTAINER -->
+          <div class="column-18" id="view-model-container"></div>
+        </calcite-tab>
+      </calcite-tabs>
+    </div>
+  </div>
+
+  <script>
+    function setProp(key, value) {
+      const el = document.querySelector('arcgis-hub-gallery');
+      el[key] = value;
+    }
+
+    const DEFAULT_IDS = {
+      project: "320d5995b77c4e2eae27c85faa75e1e2",
+      initiative: "a1fd840c1a484a53a881cebd416f7cd0",
+      channel: "0008a64a72654f6487f67efd9d66711d",
+      user: "dbouwman_dc",
+      event: "clyegwbsz004x6q01866nq5cr",
+    };
+
+    let context;
+    let actionLinksEditor;
+
+    let type = "project";
+    let layout = "list";
+    let corners = "square";
+    let ids = DEFAULT_IDS[type].replace(/\s/g, '').split(',');
+    let imageType = "thumbnail";
+    let selectable = false;
+    let shadow = "none";
+    let showAdditionalInfo = true;
+    let showBadges = true;
+    let showOwner = true;
+    let showThumbnail = true;
+    let showType = true;
+    let actionLinks = [
+      // {
+      //   action: "delete",
+      //   label: "Delete",
+      //   showLabel: true,
+      //   icon: "trash",
+      //   buttonStyle: "outline"
+      // }
+    ]
+
+    // helper to initialize the view models editor
+    const initViewModels = () => {
+      // 1. grab the view models off of the arcgis-hub-card(s)
+      let viewModels = []
+      const gallery = document.querySelector(`arcgis-hub-gallery`);
+      gallery.shadowRoot?.querySelectorAll('.arcgis-hub-entity-card').forEach(entityCard => {
+        const card = entityCard.shadowRoot?.querySelector('arcgis-hub-card');
+        viewModels.push(card.model);
+      });
+
+      // 2. attach the view models editor to the DOM
+      const viewModelEditorOpts = { modes: ['code', 'tree'], search: false, navigationBar: false, enableSort: false, enableTransform: false };
+      const existingViewModelEditor = document.querySelector('#view-model-container .jsoneditor')
+
+      existingViewModelEditor?.remove();
+      viewModelEditor = new JSONEditor(document.getElementById('view-model-container'), viewModelEditorOpts, viewModels);
+    }
+
+    // helper to initialize the overall harness
+    const initHarness = async () => {
+      // 1. update the id input based on the entity selected
+      const idInput = document.getElementById('entity-ids');
+      idInput.value = ids.join(', ');
+
+      // 2. dynamically generate an IQuery based on the type + id inputs
+      let query = {
+        targetEntity: 'item',
+        filters: [{ predicates: [{ id: ids }] }]
+      };
+      switch(type) {
+        case 'group':
+          query = {
+            targetEntity: 'group',
+            filters: [{ predicates: [{ id: ids }] }]
+          };
+          break;
+        case 'channel':
+          query = {
+            targetEntity: 'channel',
+            filters: [{ predicates: [{ access: "private", groups: ids }] }]
+          };
+          break;
+        case 'user':
+          query = {
+            targetEntity: 'user',
+            filters: [{ predicates: [{ username: ids }] }]
+          };
+          break;
+        case 'event':
+          query = {
+            targetEntity: 'event',
+            filters: [{ predicates: [{ access: 'public' }] }]
+          };
+          break;
+      };
+
+      // 3. initialize the arcgis-hub-gallery
+      const gallery = document.querySelector(`arcgis-hub-gallery`);
+      const galleryProps = {
+        cardActionLinks: actionLinks,
+        context,
+        corners,
+        layout,
+        imageType,
+        selectable,
+        shadow,
+        showAdditionalInfo,
+        showBadges,
+        showOwner,
+        showThumbnail,
+        showType,
+        query
+      };
+      Object.entries(galleryProps).forEach(([ key, value ]) => setProp(key, value));
+
+      // 4. attach the action links editor to the DOM
+      const actionLinkEditorOpts = { modes: ['code'], search: false, navigationBar: false, enableSort: false, enableTransform: false };
+      existingActionsLinksEditor = document.querySelector('#action-links-container .jsoneditor');
+      existingActionsLinksEditor?.remove();
+      actionLinksEditor = new JSONEditor(document.getElementById('action-links-container'), actionLinkEditorOpts, actionLinks);
+
+      // re-init the view models after a short delay to ensure elements are in the DOM
+      setTimeout(() => {
+        initViewModels()
+      }, 500)
+    }
+    // init harness for the initial load
+    initHarness();
+
+    initHarness();
+
+    // ENTITY CARD LISTENERS - logged to console for development purposes
+    document.addEventListener('arcgisHubCardSelect', evt => {
+      console.info('arcgisHubCardSelect:', evt.detail);
+    });
+    document.addEventListener('arcgisHubCardTitleLinkClick', evt => {
+      console.info('arcgisHubCardTitleLinkClick:', evt.detail);
+    });
+    document.addEventListener('arcgisHubCardAction', evt => {
+      console.info('arcgisHubCardAction:', evt.detail);
+    });
+    // CALCITE COMBOBOX CHANGE LISTENER - to re-initialize the selected card
+    document.addEventListener('calciteComboboxChange', evt => {
+      if (evt.target.id === "entity-type") {
+        type = evt.target.value;
+        ids = [ DEFAULT_IDS[type] ];
+        initHarness();
+      }
+    });
+    // CALCITE INPUT LISTENER - to update the id(s)
+    document.addEventListener('calciteInputChange', evt => {
+      if (evt.target.id === 'entity-ids') {
+        ids = evt.target.value.replace(/\s/g, '').split(',');
+        initHarness();
+      }
+    });
+    // CALCITE SEGMENTED CONTROL LISTENER - to update various card options
+    document.addEventListener('calciteSegmentedControlChange', evt => {
+      if (evt.target.id === "layout") {
+        layout = evt.target.value;
+
+        // resize container based on layout selected
+        const cardContainer = document.getElementById('card-container');
+        cardContainer.setAttribute('class', layout === 'card' ? 'column-6' : 'column-18')
+
+        setProp('layout', layout);
+      }
+      if (evt.target.id === "corners") {
+        corners = evt.target.value;
+        setProp('corners', corners);
+      }
+      if (evt.target.id === "image-type") {
+        imageType = evt.target.value;
+        setProp('imageType', imageType);
+      }
+      if (evt.target.id === "shadow") {
+        shadow = evt.target.value;
+        setProp('shadow', shadow);
+      }
+    });
+    // CALCITE SWITCH LISTENER - to update various card options
+    document.addEventListener('calciteSwitchChange', evt => {
+      if (evt.target.id === 'is-selectable') {
+        selectable = !evt.target.hasAttribute('checked');
+        setProp('selectable', selectable);
+      }
+      if (evt.target.id === 'show-additional-info') {
+        showAdditionalInfo = !evt.target.hasAttribute('checked');
+        setProp('showAdditionalInfo', showAdditionalInfo);
+      }
+      if (evt.target.id === 'show-badges') {
+        showBadges = !evt.target.hasAttribute('checked');
+        setProp('showBadges', showBadges);
+      }
+      if (evt.target.id === 'show-owner') {
+        showOwner = !evt.target.hasAttribute('checked');
+        setProp('showOwner', showOwner);
+      }
+      if (evt.target.id === 'show-thumbnail') {
+        showThumbnail = !evt.target.hasAttribute('checked');
+        setProp('showThumbnail', showThumbnail);
+      }
+      if (evt.target.id === 'show-type') {
+        showType = !evt.target.hasAttribute('checked');
+        setProp('showType', showType);
+      }
+    });
+
+    // Add action links to card when the "Apply" button is clicked
+    function applyActionLinks(evt) {
+      actionLinks = actionLinksEditor.get();
+      // re-init harness to re-compute the card view model
+      initHarness();
+    }
+
+    document.getElementById('action-links-apply').addEventListener('click', applyActionLinks);
+
+        // AUTH FUNCTIONALITY
+    // TODO: this can go away when arcgis-hub-workspace gets context from stencil store
+    document.addEventListener('arcgisAppIdentitySignedIn', evt => {
+      context = evt.detail;
+      setProp('context', evt.detail);
+    });
+    document.addEventListener('arcgisAppIdentitySignedOut', evt => {
+      context = evt.detail;
+      setProp('context', evt.detail);
+    });
+  </script>
+</body>
+
+</html>

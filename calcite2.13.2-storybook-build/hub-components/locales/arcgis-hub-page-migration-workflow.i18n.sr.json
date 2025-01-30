@@ -1,0 +1,46 @@
+{
+  "heading": "Informacije o stranici",
+  "form": {
+    "title": {
+      "label": "Naziv stranice",
+      "requiredError": "Naziv je obavezan",
+      "entityTitleValidatorError": "Naziv stranice ne može da sadrži emotikone niti znakove <, > ili ="
+    },
+    "slug": {
+      "label": "Slug",
+      "helperText": "Slug je verzija naziva stranice prilagođena za URL adresu. Automatski se generiše na osnovu naziva stranice, ali možete da ga prilagodite.",
+      "patternError": "Greška: Slug mora sadržavati male alfanumeričke znakove odvojene crticama.",
+      "isUniqueError": "Ovaj slug se već koristi. Izaberite drugi.",
+      "requiredError": "Slug je obavezan"
+    }
+  },
+  "controls": {
+    "back": "Nazad",
+    "cancel": "Otkaži",
+    "close": "Završeno",
+    "migrate": "Migriraj stranicu",
+    "next": "Sledeće"
+  },
+  "selection": {
+    "unlimited": "{count} izabrano",
+    "limited": "{count} / {limit} izabrano"
+  },
+  "steps": {
+    "specifyInfo": "Dodajte osnovne informacije",
+    "selectGroups": "Izaberite grupu",
+    "confirmation": "Potvrda"
+  },
+  "working": {
+    "heading": "Migriranje stranice.",
+    "loadingLabel": "Migriranje stranice"
+  },
+  "success": {
+    "heading": "Stranica je migrirana",
+    "message": "Stranica je uspešno migrirana."
+  },
+  "failure": {
+    "heading": "Stranica nije migrirana",
+    "message": "Došlo je do greške prilikom migriranja stranice, pokušajte ponovo.",
+    "action": "Pokušaj ponovo"
+  }
+}

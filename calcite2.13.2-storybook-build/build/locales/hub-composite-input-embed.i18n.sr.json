@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "Moj sadržaj",
+    "livingAtlas": "Living Atlas",
+    "organization": "Moja organizacija",
+    "world": "Svet (javno)"
+  },
+  "collection": {
+    "appsAndMaps": "Aplikacije i mape",
+    "feedback": "Povratne informacije"
+  },
+  "facets": {
+    "type": "Tip",
+    "tags": "Oznake",
+    "categories": "Kategorije",
+    "modified": "Izmenjeno"
+  },
+  "pickerTitle": "Izaberite sadržaj",
+  "height": "Visina (piks.)",
+  "isScrollable": "Sa ugrađenom kliznom trakom",
+  "errors": {
+    "heightMinimum": "Vrednost mora biti pozitivan broj",
+    "heightMaximum": "Vrednost mora biti manja ili jednaka 2000 piksela.",
+    "urlError": "Mora da bude važeća URL adresa."
+  },
+  "success": {
+    "urlSuccess": "URL adresa je uspešno učitana."
+  },
+  "shouldApplyBreakpoints": {
+    "label": "Primeni postavke prema tačkama prekida uređaja umesto toga"
+  },
+  "viewportAll": {
+    "label": "Podrazumevano",
+    "description": "Postavke primenjene na sve veličine ekrana"
+  },
+  "viewportMobile": {
+    "label": "Mobilni",
+    "description": "Postavke primenjene na ekrane široke 360 i više piksela"
+  },
+  "viewportTablet": {
+    "label": "Tablet",
+    "description": "Postavke primenjene na ekrane široke 560 i više piksela"
+  },
+  "viewportDesktop": {
+    "label": "Desktop",
+    "description": "Postavke primenjene na ekrane široke 980 i više piksela"
+  },
+  "sourceLabel": "Izaberite ugrađeni tip",
+  "contentLabel": "ArcGIS sadržaj",
+  "externalLabel": "Eksterna URL adresa",
+  "contentDescription": "Izaberite iz postojećih mapa, scena, aplikacija, premeravanja i linkova prema dokumentima koji su vam na raspolaganju.",
+  "externalDescription": "Unesite URL adresu koja treba da bude ugrađena. Imajte u vidu da neki domeni ne dozvoljavaju ugrađivanje i da neće prikazati sadržaj onako kako je očekivano."
+}

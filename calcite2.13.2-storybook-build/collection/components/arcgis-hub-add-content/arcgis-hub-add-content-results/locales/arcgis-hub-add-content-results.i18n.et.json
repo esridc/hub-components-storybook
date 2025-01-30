@@ -1,0 +1,54 @@
+{
+  "existing": {
+    "successHeading": "Sisu on lisatud.",
+    "failureHeading": "Sisu ei saa valitud gruppi lisada.",
+    "successfulAccordionHeading": "Sisu on valitud gruppi lisatud.",
+    "unsuccessfulAccordionHeading": "Sisu ei lisatud valitud gruppi."
+  },
+  "create": {
+    "event": {
+      "successWithoutGroupHeading": "Sündmus loodi edukalt.",
+      "successWithGroupHeading": "Sündmus loodi edukalt ja lisati {group}-le.",
+      "successMessage": "Nüüd saate sündmust vaadata, et seda teabe muutmiseks hallata, või klõpsake „valmis“, et naasta vaate juurde.",
+      "failureHeading": "Sündmust ei saa valitud gruppi lisada."
+    },
+    "discussion": {
+      "successWithoutGroupHeading": "Arutelufoorum loodi edukalt.",
+      "successWithGroupHeading": "Arutelufoorum loodi edukalt ja lisati {group}-le.",
+      "successMessage": "Nüüd saate arutelufoorumit vaadata, et seda teabe muutmiseks hallata, või klõpsake „valmis“, et naasta vaate juurde.",
+      "failureHeading": "Arutelufoorumit ei saa valitud gruppi lisada."
+    },
+    "group": {
+      "successWithoutGroupHeading": "Grupp loodi edukalt.",
+      "successMessage": "Nüüd saate gruppi vaadata, et seda teabe muutmiseks hallata, või klõpsake „valmis“, et naasta vaate juurde.",
+      "failureHeading": "Gruppi ei ole võimalik luua."
+    },
+    "initiative": {
+      "successWithoutGroupHeading": "Algatus loodi edukalt.",
+      "successWithGroupHeading": "Algatus loodi edukalt ja lisati {group}-le.",
+      "successMessage": "Nüüd saate algatust vaadata, et seda teabe muutmiseks hallata, või klõpsake „valmis“, et naasta vaate juurde.",
+      "failureHeading": "Algatust ei saa valitud gruppi lisada."
+    },
+    "page": {
+      "successWithoutGroupHeading": "Lehekülg loodi edukalt.",
+      "successWithGroupHeading": "Lehekülg loodi edukalt ja lisati {group}-le.",
+      "successMessage": "Nüüd saate lehekülge vaadata, et seda teabe muutmiseks hallata, või klõpsake „valmis“, et naasta vaate juurde.",
+      "failureHeading": "Lehekülge ei saa valitud gruppi lisada."
+    },
+    "project": {
+      "successWithoutGroupHeading": "Projekt loodi edukalt.",
+      "successWithGroupHeading": "Projekt loodi edukalt ja lisati {group}-le.",
+      "successMessage": "Nüüd saate projekti vaadata, et seda teabe muutmiseks hallata, või klõpsake „valmis“, et naasta vaate juurde.",
+      "failureHeading": "Projekti ei saa valitud gruppi lisada."
+    },
+    "site": {
+      "successWithoutGroupHeading": "Sait loodi edukalt.",
+      "successWithGroupHeading": "Sait loodi edukalt ja lisati {group}-le.",
+      "successMessage": "Nüüd saate saiti vaadata, et seda teabe muutmiseks hallata, või klõpsake „valmis“, et naasta vaate juurde.",
+      "failureHeading": "Saiti ei saa valitud gruppi lisada."
+    }
+  },
+  "editLayout": "Muuda paigutust",
+  "manageEntity": "Halda",
+  "viewEntity": "Kuva"
+}

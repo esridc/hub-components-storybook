@@ -1,0 +1,47 @@
+{
+  "communityOrg": "Community organization",
+  "editLayout": "Edit layout",
+  "orgWorkspace": "Open home workspace",
+  "editS123": "Edit in Survey123",
+  "editAdvancedJson": "Edit advanced JSON",
+  "view": {
+    "project": "View project",
+    "site": "View site",
+    "initiative": "View initiative",
+    "discussion": "View board",
+    "content": "View content",
+    "page": "View page",
+    "group": "View group",
+    "initiativeTemplate": "View initiative template",
+    "template": "View template",
+    "survey": "View survey",
+    "event": "View event"
+  },
+  "access": {
+    "share": "Share",
+    "sharingLevel": "Sharing level",
+    "groupSharing": "Group sharing",
+    "tooltip": {
+      "public": "Sharing level: Public",
+      "org": "Sharing level: Organization",
+      "private": "Sharing level: Private",
+      "shared": "Sharing level: Privately shared"
+    },
+    "save": "Save",
+    "cancel": "Cancel",
+    "alert": {
+      "success": "Successfully saved edits",
+      "error": "Error saving edits",
+      "label": "Form alert"
+    }
+  },
+  "popoverActions": {
+    "label": "More actions",
+    "openInEnterprise": "Open in ArcGIS Enterprise",
+    "openInOnline": "Open in ArcGIS Online"
+  },
+  "homeLink": {
+    "text": "Home"
+  },
+  "createContent": "Create"
+}

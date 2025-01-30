@@ -1,0 +1,10 @@
+:host {
+  /* by default this renders a button and buttons are inline-block */
+  display: inline-block;
+  font-weight: initial;
+  text-align: initial;
+}
+
+:host([hide-manage-button]) {
+  position: absolute;
+}

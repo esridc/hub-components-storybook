@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "Categorías",
+        "noCategoriesNotice": {
+          "body": "Esta organización todavía no tiene ninguna categoría.",
+          "link": "Definir categorías"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "Contenido",
+      "selectionMode": {
+        "dynamic": {
+          "label": "Dinámico"
+        },
+        "manual": {
+          "label": "Manual"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "Organización"
+        },
+        "collection": {
+          "sites": "Sitios",
+          "projects": "Proyectos",
+          "initiatives": "Iniciativas"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "Organización"
+        },
+        "collection": {
+          "events": "Eventos"
+        }
+      },
+      "access": {
+        "label": "Uso compartido",
+        "private": {
+          "label": "Privado",
+          "description": "Usted y las personas con acceso de grupo son los únicos que pueden filtrar por contenido."
+        },
+        "org": {
+          "label": "Organización",
+          "description": "Los miembros de su organización son los únicos que pueden filtrar por contenido."
+        },
+        "public": {
+          "label": "Público",
+          "description": "Cualquiera puede filtrar por contenido."
+        }
+      },
+      "tags": {
+        "label": "Etiquetas"
+      },
+      "cardsShown": {
+        "label": "Tarjetas mostradas"
+      }
+    },
+    "appearance": {
+      "label": "Apariencia",
+      "titleHeading": {
+        "label": "Encabezado de título",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "Según WCAG G141, los encabezados anidados mejoran la accesibilidad."
+      },
+      "corners": {
+        "label": "Esquinas",
+        "square": {
+          "label": "Cuadradas"
+        },
+        "round": {
+          "label": "Redondeadas"
+        }
+      },
+      "shadow": {
+        "label": "Sombra",
+        "none": {
+          "label": "Desactivado"
+        },
+        "low": {
+          "label": "Bajo"
+        },
+        "medium": {
+          "label": "Medio"
+        },
+        "heavy": {
+          "label": "Denso"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "Mostrar información adicional"
+      },
+      "layout": {
+        "label": "Diseño",
+        "list": {
+          "label": "Lista"
+        },
+        "map": {
+          "label": "Mapa"
+        },
+        "calendar": {
+          "label": "Calendario"
+        }
+      }
+    },
+    "options": {
+      "label": "Opciones",
+      "openIn": {
+        "label": "Abrir en...",
+        "same": {
+          "label": "Misma pestaña"
+        },
+        "new": {
+          "label": "Nueva pestaña"
+        },
+        "notice": {
+          "title": "Sugerencia de accesibilidad:",
+          "body": "según la técnica G200 de WCAG 2.0, no se recomienda abrir vínculos en pestañas ni ventanas nuevas.",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "Más información sobre WCAG 2.0 G200"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "Uso compartido",
+      "public": {
+        "label": "Público"
+      },
+      "private": {
+        "label": "Privado"
+      },
+      "organization": {
+        "label": "Organización"
+      }
+    },
+    "from": {
+      "label": "De",
+      "myOrganization": {
+        "label": "Mi organización"
+      },
+      "myContent": {
+        "label": "Mi contenido"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "Eventos",
+      "collections": {
+        "event": {
+          "label": "Eventos"
+        }
+      }
+    },
+    "item": {
+      "label": "Contenido",
+      "collections": {
+        "item": {
+          "label": "Contenido"
+        }
+      }
+    }
+  }
+}

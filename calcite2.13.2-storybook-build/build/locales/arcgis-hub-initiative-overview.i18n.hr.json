@@ -1,0 +1,23 @@
+{
+  "overview": "Pregled",
+  "telemetry": {
+    "pageViews": "Pregledi stranice",
+    "last30days": "Posljednjih 30 dana",
+    "lastUpdated": "Ažurirano posljednji put prije {hoursElapsed} sati",
+    "checkTomorrow": "Provjerite ponovno sutra"
+  },
+  "learnAbout": "Saznajte više o Hub inicijativama",
+  "feedbackNotice": {
+    "message": "Kako vam se sviđaju Hub inicijative? Želimo čuti kako biste ih mogli upotrebljavati.",
+    "link": "Pošaljite povratne informacije"
+  },
+  "status": {
+    "notStarted": "Nije započeto",
+    "inProgress": "U tijeku",
+    "onHold": "Na čekanju",
+    "complete": "Završeno"
+  },
+  "editDetails": "Uredi pojedinosti",
+  "noPurposeSet": "Nije postavljena svrha",
+  "noLocationSet": "Nije postavljena lokacija"
+}

@@ -1,0 +1,1 @@
+import{d as r}from"./p-31d2e4a4.js";function a(a,o,s,p=!1){Array.isArray(a)&&(a=a.join(".")),r(s,a,o,p)}export{a as s}

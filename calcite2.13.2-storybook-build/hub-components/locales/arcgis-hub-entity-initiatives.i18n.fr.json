@@ -1,0 +1,87 @@
+{
+  "initiatives": "Initiatives",
+  "description": "Définissez des associations à des initiatives pour contribuer aux efforts à long terme ou à large échelle. Les collaborateurs de projet peuvent gérer les associations confirmées et les demandes d’association en attente. Les initiatives avec des associations confirmées apparaissent dans la vue du projet. ",
+  "shared": {
+    "error": {
+      "title": "Un problème est survenu",
+      "message": "La tâche n’a pas pu être exécutée. Réessayez."
+    },
+    "facets": {
+      "access": {
+        "label": "Partage"
+      },
+      "status": {
+        "label": "Statut",
+        "notStarted": "Non commencée",
+        "inProgress": "En cours",
+        "onHold": "Suspendue",
+        "complete": "Terminée"
+      },
+      "tags": {
+        "label": "Balises"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "{currentConfirmedAndOutgoingRequests}/{maxCurrentAndOutgoingRequestsAllowed} demandes confirmées + sortantes",
+      "tooltip": "Pour envoyer des demandes, dissociez les associations existantes et/ou annulez les demandes sortantes"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "Rechercher des initiatives",
+    "sendRequest": "Envoyer une demande",
+    "success": {
+      "title": "Réussite",
+      "message": "Demandes d’association envoyées : {count}"
+    },
+    "alreadyRequesting": {
+      "title": "Examiner les associations",
+      "message": "Une ou plusieurs sélections ont déjà entraîné une demande d’association. Nouvelles demandes d’association envoyées : {count}"
+    },
+    "catalog": {
+      "myContent": "Mes contenus",
+      "favorites": "Favoris",
+      "organization": "Mon organisation",
+      "partners": "Mes partenaires",
+      "community": "Ma communauté"
+    },
+    "collection": {
+      "initiatives": "Initiatives"
+    }
+  },
+  "acceptAssociation": {
+    "label": "Accepter",
+    "limitReachedTooltip": "Pour accepter, dissociez les associations existantes et/ou annulez les demandes sortantes",
+    "success": {
+      "title": "Réussite",
+      "message": "L’association avec {requestor} a été acceptée"
+    }
+  },
+  "cancelRequest": {
+    "label": "Annuler la demande",
+    "success": {
+      "title": "Réussite",
+      "message": "La demande d’association a été annulée"
+    }
+  },
+  "breakAssociation": {
+    "label": "Dissocier",
+    "success": {
+      "title": "Association rompue",
+      "message": "Cet élément a été dissocié de sa précédente association. Toutefois, la décision de dissocier l’élément ne peut pas être annulée à l’autre extrémité de l’association. L’élément pourrait donc continuer à apparaître dans les demandes entrantes."
+    }
+  },
+  "associationsGallery": {
+    "sources": "Statut",
+    "catalog": {
+      "associated": "Associées",
+      "requesting": "Demandes entrantes",
+      "pending": "Demandes sortantes"
+    },
+    "collection": {
+      "initiatives": "Initiatives"
+    }
+  },
+  "notice": {
+    "label": "Alerte de formulaire"
+  }
+}

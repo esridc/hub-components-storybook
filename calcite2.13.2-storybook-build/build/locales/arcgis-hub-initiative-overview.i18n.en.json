@@ -1,0 +1,23 @@
+{
+  "overview": "Overview",
+  "telemetry": {
+    "pageViews": "Page views",
+    "last30days": "Last 30 days",
+    "lastUpdated": "Last updated {hoursElapsed} hours ago",
+    "checkTomorrow": "Check back tomorrow"
+  },
+  "learnAbout": "Learn about Hub initiatives",
+  "feedbackNotice": {
+    "message": "How do you like Hub initiatives? We want to hear how you may use it.",
+    "link": "Submit feedback"
+  },
+  "status": {
+    "notStarted": "Not started",
+    "inProgress": "In progress",
+    "onHold": "On hold",
+    "complete": "Complete"
+  },
+  "editDetails": "Edit details",
+  "noPurposeSet": "No purpose set",
+  "noLocationSet": "No location set"
+}

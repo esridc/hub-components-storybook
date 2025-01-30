@@ -1,0 +1,91 @@
+{
+  "moreResults": "Još rezultata",
+  "search": "Pretraži",
+  "filter": "Filteri",
+  "viewResults": "Pogledaj rezultate ({numResults})",
+  "resultsCount": "1 - {pageTotal} od {searchTotal}",
+  "backToTop": "Nazad na vrh",
+  "facets": {
+    "access": {
+      "label": "Deljenje",
+      "private": "Ja",
+      "shared": "Vlasnik i grupe",
+      "org": "Organizacija",
+      "public": "Javni"
+    },
+    "license": {
+      "label": "Licenca",
+      "tooltip": "Samo za javni sadržaj",
+      "custom": "Prilagođeno",
+      "none": "Ništa"
+    },
+    "type": {
+      "label": "Tip"
+    },
+    "tags": {
+      "label": "Oznake"
+    },
+    "dateUpdated": {
+      "label": "Datum ažuriranja"
+    },
+    "source": {
+      "label": "Izvor",
+      "tooltip": "Javni sadržaj iz različitih organizacija"
+    },
+    "categories": {
+      "label": "Kategorije"
+    },
+    "location": {
+      "label": "Lokacija",
+      "tooltip": "Primenite opseg mape kao filter za lokaciju"
+    },
+    "event": {
+      "from": {
+        "label": "Vlasništvo",
+        "myContent": "Ja",
+        "myOrganization": "Moja organizacija",
+        "world": "Bilo ko"
+      },
+      "access": {
+        "label": "Pristupite",
+        "private": "Privatno",
+        "org": "Organizacija",
+        "public": "Javno"
+      },
+      "startDate": {
+        "label": "Datum događaja"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "Tip",
+        "all": "Sve",
+        "view": "Prikaži",
+        "edit": "Izmeni"
+      },
+      "role": {
+        "label": "Uloga",
+        "all": "Sve",
+        "member": "Član",
+        "manager": "Menadžer",
+        "owner": "Vlasnik"
+      },
+      "sharing": {
+        "label": "Vidljivost",
+        "private": "Privatno",
+        "public": "Javno"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "Prikaži listu",
+    "grid": "Prikaži mrežu",
+    "map": "Prikaži mapu",
+    "compact": "Prikaži kompaktno",
+    "calendar": "Prikaži kalendar",
+    "table": "Prikaži tabelu"
+  },
+  "galleryActionsLabel": "Dodatne akcije",
+  "selected": "Odabrano: {count}",
+  "popoverActionButtonLabel": "još radnji"
+}

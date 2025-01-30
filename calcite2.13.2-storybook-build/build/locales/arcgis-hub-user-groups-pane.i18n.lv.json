@@ -1,0 +1,33 @@
+{
+  "groups": "Manas grupas",
+  "addContentButtonText": "Izveidot jaunu",
+  "role": "Loma",
+  "owner": "Īpašnieks",
+  "updated": "Atjaunināts",
+  "type": "Veids",
+  "sharedUpdate": "Koplietotā atjauninājumu grupa",
+  "viewOnly": "Tikai skatīšanās grupa",
+  "actionLinks": {
+    "view": "Skatīt",
+    "edit": "Rediģēt",
+    "ariaEdit": "Rediģēt {title}",
+    "ariaView": "Skatīt {title}"
+  },
+  "facets": {
+    "access": {
+      "label": "Var skatīt",
+      "options": {
+        "public": "Ikviens (publiski)",
+        "org": "Organizācija",
+        "private": "Es"
+      }
+    },
+    "type": {
+      "label": "Veidi",
+      "options": {
+        "sharedUpdate": "Koplietotais atjauninājums",
+        "opendata": "Open Data"
+      }
+    }
+  }
+}

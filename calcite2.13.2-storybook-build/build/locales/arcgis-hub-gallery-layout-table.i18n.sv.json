@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Inga resultat hittades."
+    },
+    "error": {
+      "message": "Vi beklagar, men ett fel uppstod under sökningen."
+    }
+  },
+  "access": "Åtkomst",
+  "actionsHeader": "Åtgärder",
+  "caption": "Hub-enhetstabell",
+  "family": "Familj",
+  "type": "Typ",
+  "tags": "Taggar",
+  "owner": "Ägare",
+  "dateCreated": "Skapad",
+  "dateUpdated": "Ändrad",
+  "description": "Beskrivning",
+  "dateAndTime": "Datum och tid",
+  "location": "Plats",
+  "attendanceType": "Närvarotyp",
+  "inPerson": "Personligen",
+  "online": "Online",
+  "hybrid": "Hybrid",
+  "categories": "Kategorier",
+  "content": "Innehåll",
+  "name": "Namn",
+  "start": "Start",
+  "end": "Slut",
+  "sharedUpdate": "Delad uppdatering",
+  "managers": "Hanterare",
+  "username": "Användarnamn",
+  "no": "Nej",
+  "yes": "Ja",
+  "title": "Titel",
+  "thumbnail": "Miniatyrbild",
+  "types": {
+    "app": "Applikation",
+    "content": "Innehåll",
+    "dataset": "Dataset",
+    "discussion": "Diskussionstavla",
+    "document": "Dokument",
+    "event": "Evenemang",
+    "feedback": "Feedback",
+    "initiative": "Initiativ",
+    "image": "Bild",
+    "map": "Karta",
+    "other": "Övrigt",
+    "people": "Människor",
+    "site": "Webbplats",
+    "team": "Grupp",
+    "template": "Mall",
+    "project": "Projekt"
+  }
+}

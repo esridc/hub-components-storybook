@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "Redaguoti",
+    "fields": {
+      "label": {
+        "label": "Žymė",
+        "requiredMessage": "Žymė būtina",
+        "maxLengthMessage": "Žymė negali viršyti {maxLength} simbolių"
+      }
+    },
+    "apply": "Taikyti"
+  },
+  "showItem": "Rodyti šį sąrašo elementą: {itemLabel}",
+  "hideItem": "Slėpti šį sąrašo elementą: {itemLabel}",
+  "editItem": "Redaguoti šį sąrašo elementą: {itemLabel}"
+}

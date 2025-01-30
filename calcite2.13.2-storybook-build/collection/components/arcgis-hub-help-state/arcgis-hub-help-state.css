@@ -1,0 +1,91 @@
+/*
+  NOTE: these styles are a mash up from
+  the opendata-ui gateway components
+  and the empty state stencil component
+*/
+:host {
+  /* from app.scss */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* scale s */
+:host([scale="s"]) {
+  font-size: 0.75rem;
+}
+
+:host([scale="s"]) calcite-icon,
+:host([scale="s"]) img {
+  height: 9rem;
+  width: auto;
+}
+
+:host([scale="s"]) calcite-loader {
+  --calcite-loader-size: 9rem;
+}
+
+/* scale m */
+:host([scale="m"]) {
+  font-size: 1rem;
+}
+
+/* "brand" | "danger" | "info" | "success" | "warning" | "danger" */
+:host([kind="brand"]) calcite-icon#help-icon {
+  color: var(--calcite-color-brand);
+}
+
+:host([kind="info"]) calcite-icon#help-icon {
+  color: var(--calcite-color-status-info);
+}
+
+:host([kind="success"]) calcite-icon#help-icon {
+  color: var(--calcite-color-status-success);
+}
+
+:host([kind="warning"]) calcite-icon#help-icon {
+  color: var(--calcite-color-status-warning);
+}
+
+:host([kind="danger"]) calcite-icon#help-icon {
+  color: var(--calcite-color-status-danger);
+}
+
+calcite-icon,
+img {
+  height: 12rem;
+  width: auto;
+}
+
+calcite-loader {
+  --calcite-loader-size: 12rem;
+}
+
+/* scale l */
+:host([scale="l"]) {
+  font-size: 1.25rem;
+}
+
+:host([scale="l"]) calcite-icon,
+:host([scale="l"]) img {
+  height: 15rem;
+  width: auto;
+}
+
+:host([scale="l"]) calcite-loader {
+  --calcite-loader-size: 15rem;
+}
+
+/*
+  NOTE: these colors come from .help-state-splash in site-theme.scss
+  but it in the app they were overwritten by the hardcoded colors defined in app.sccs
+*/
+:host > h1, :host > h2, :host > h3, :host > h4, :host > h5, :host > h6 {
+  font-weight: var(--calcite-font-weight-bold);
+  color: var(--calcite-color-text-1);
+}
+
+p {
+  color: var(--bodyText);
+}

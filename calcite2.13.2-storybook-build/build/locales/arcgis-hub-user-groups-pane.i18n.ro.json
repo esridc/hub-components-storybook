@@ -1,0 +1,33 @@
+{
+  "groups": "Grupurile mele",
+  "addContentButtonText": "Creați nou",
+  "role": "Rol",
+  "owner": "Proprietar",
+  "updated": "Actualizat",
+  "type": "Tip",
+  "sharedUpdate": "Grup cu actualizare partajată",
+  "viewOnly": "Grup numai vizualizare",
+  "actionLinks": {
+    "view": "Vizualizați",
+    "edit": "Editare",
+    "ariaEdit": "Editare {title}",
+    "ariaView": "Vizualizare {title}"
+  },
+  "facets": {
+    "access": {
+      "label": "Poate fi văzut de",
+      "options": {
+        "public": "Toată lumea (public)",
+        "org": "Organizație",
+        "private": "Eu"
+      }
+    },
+    "type": {
+      "label": "Tipuri",
+      "options": {
+        "sharedUpdate": "Actualizare partajată",
+        "opendata": "Date deschise"
+      }
+    }
+  }
+}

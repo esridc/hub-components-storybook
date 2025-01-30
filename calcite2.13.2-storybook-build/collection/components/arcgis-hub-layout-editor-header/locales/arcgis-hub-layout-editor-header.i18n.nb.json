@@ -1,0 +1,39 @@
+{
+  "popover": {
+    "access": {
+      "org": "Delt med organisasjon",
+      "private": "Delt med eier",
+      "public": "Delt offentlig",
+      "shared": "Delt med eier og grupper"
+    },
+    "editLayout": "Rediger layout",
+    "lastUpdated": "Sist oppdatert {updated}",
+    "viewSite": "Vis side"
+  },
+  "cloneLayoutLabel": "Klon layout",
+  "deleteDraftLabel": "Slett utkast",
+  "deletePageLabel": "Slett side",
+  "deleteSiteLabel": "Slett område",
+  "editInAgoLabel": "Rediger i ArcGIS Online",
+  "managePage": "Administrer side",
+  "manageSite": "Administrer område",
+  "manageTemplate": "Administrer mal",
+  "moreOptionsLabel": "Flere alternativer",
+  "publishLabel": {
+    "site": "Publiser layout",
+    "page": "Publiser layout",
+    "survey": "Publiser"
+  },
+  "saveAsTemplateLabel": "Lagre som mal",
+  "saveLabel": {
+    "site": "Lagre layout",
+    "page": "Lagre layout",
+    "survey": "Lagre",
+    "template": "Lagre"
+  },
+  "sharingLabel": "Åpne delingspanel",
+  "editS123Label": "Rediger i Survey123",
+  "viewLabel": "Vis",
+  "viewPublishedLabel": "Vis publisert",
+  "viewUnpublishedLabel": "Vis kladd"
+}

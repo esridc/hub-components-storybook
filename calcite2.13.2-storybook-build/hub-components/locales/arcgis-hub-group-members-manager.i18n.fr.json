@@ -1,0 +1,59 @@
+{
+  "title": "Membres",
+  "facets": {
+    "role": {
+      "label": "Rôle",
+      "all": "Tous",
+      "manager": "Gestionnaire",
+      "member": "Membre"
+    },
+    "dateJoined": {
+      "label": "Date d’adhésion"
+    }
+  },
+  "stats": {
+    "total": {
+      "title": "Total",
+      "trailingText": "Membres du groupe"
+    },
+    "new": {
+      "title": "Nouveau",
+      "trailingText": "30 derniers jours"
+    }
+  },
+  "addMembers": {
+    "button": "Ajouter des membres",
+    "disabledTooltip": "Vous n’êtes pas autorisé à ajouter des utilisateurs à ce groupe.",
+    "modal": {
+      "title": "Ajouter des membres",
+      "org": "Mon organisation",
+      "community": "Ma communauté",
+      "partner": "Mes partenaires",
+      "world": "Monde"
+    },
+    "notifications": {
+      "invited": "Invitation envoyée. Les utilisateurs doivent accepter l’invitation pour rejoindre le groupe",
+      "added": "Utilisateur(s) ajouté(s)",
+      "notInvited": "Certains utilisateurs ne disposent peut-être pas des privilèges requis pour rejoindre le groupe ou la limite maximale pour le groupe (512) a peut-être déjà été atteinte"
+    }
+  },
+  "removeUsers": {
+    "button": "Supprimer",
+    "success": "Les membres ont été supprimés de {groupName}.",
+    "error": "Impossible de supprimer un ou plusieurs utilisateurs du groupe."
+  },
+  "changeRole": {
+    "tooltipText": "Désélectionner le propriétaire du groupe et/ou vous-même",
+    "tooltipLabel": "Exclusion de rôle",
+    "button": "Modifier le rôle",
+    "member": "Membre",
+    "memberHelperText": "Peut ajouter du contenu au groupe et afficher le contenu du groupe.",
+    "admin": "Gestionnaire",
+    "adminHelperText": "Peut ajouter/supprimer du contenu et inviter/supprimer des utilisateurs (à l’exception du propriétaire).",
+    "success": "Les membres sélectionnés possèdent désormais le rôle {role} au sein du groupe.",
+    "error": "Le rôle n’a pas pu être modifié pour un ou plusieurs membres."
+  },
+  "notice": {
+    "label": "Alerte de formulaire"
+  }
+}

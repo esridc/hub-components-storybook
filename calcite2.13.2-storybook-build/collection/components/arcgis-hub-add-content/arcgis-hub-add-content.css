@@ -1,0 +1,44 @@
+:host {
+  display: block;
+}
+
+.dropdown-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.dropdown-item-icon {
+  /* create a box around the icon that's the same height as the dropdown-ite */
+  height: 3.5rem;
+  width: 3.5rem;
+  margin-right: 0.75rem;
+  display: flex;
+  align-items: center;
+  background-color: var(--calcite-color-background);
+}
+
+.dropdown-item-icon calcite-icon {
+  width: 70px;
+}
+
+.dropdown-item-content {
+  display: flex;
+  flex-direction: column;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+.dropdown-item-content :first-child {
+  margin-bottom: 0.25rem;
+  font-weight: var(--calcite-font-weight-bold);
+  color: var(--calcite-color-text-1);
+}
+
+.dropdown-item-content :last-child {
+  color: var(--calcite-color-text-2);
+}
+
+calcite-dropdown {
+  display: var(--arcgis-hub-add-content-dropdown-display, inline-block);
+}

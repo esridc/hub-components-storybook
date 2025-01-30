@@ -1,0 +1,33 @@
+{
+  "groups": "Gruplarım",
+  "addContentButtonText": "Yeni oluştur",
+  "role": "Rol",
+  "owner": "Sahip",
+  "updated": "Güncellendi",
+  "type": "Tür",
+  "sharedUpdate": "Paylaşılan Güncelleme Grubu",
+  "viewOnly": "Sadece Grubu Görüntüle",
+  "actionLinks": {
+    "view": "Görüntüle",
+    "edit": "Düzenle",
+    "ariaEdit": "{title} ögesini düzenle",
+    "ariaView": "{title} ögesini görüntüle"
+  },
+  "facets": {
+    "access": {
+      "label": "Görüntüleyebilenler",
+      "options": {
+        "public": "Herkes (genel)",
+        "org": "Kuruluş",
+        "private": "Ben"
+      }
+    },
+    "type": {
+      "label": "Türler",
+      "options": {
+        "sharedUpdate": "Paylaşılan Güncelleme",
+        "opendata": "Open Data"
+      }
+    }
+  }
+}

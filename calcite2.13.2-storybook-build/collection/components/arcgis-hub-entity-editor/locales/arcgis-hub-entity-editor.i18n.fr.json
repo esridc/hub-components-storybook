@@ -1,0 +1,1346 @@
+{
+  "success": "Mises à jour enregistrées",
+  "error": "Erreur lors de l’enregistrement des mises à jour",
+  "formAlert": "Alerte de formulaire",
+  "create": "Créer",
+  "shared": {
+    "notices": {
+      "metrics": {
+        "preview": {
+          "label": "Prévisualiser les métriques",
+          "message": "Les modifications apportées ici sont visibles dans l’aperçu des métriques."
+        }
+      }
+    },
+    "sections": {
+      "metrics": {
+        "basic": {
+          "label": "Informations de base"
+        },
+        "source": {
+          "label": "Valeur"
+        },
+        "formatting": {
+          "label": "Mise en forme"
+        },
+        "sharing": {
+          "label": "Partage"
+        }
+      },
+      "mapSettings": {
+        "label": "Paramètres de la carte"
+      }
+    },
+    "errors": {
+      "urlFormat": "Le format de l’URL est incorrect"
+    },
+    "fields": {
+      "name": {
+        "maxLengthError": "Le nom ne doit pas comporter plus de 250 caractères"
+      },
+      "title": {
+        "maxLengthError": "Le titre ne doit pas comporter plus de 250 caractères"
+      },
+      "summary": {
+        "maxLengthError": "Le résumé ne doit pas comporter plus de 2 048 caractères"
+      },
+      "purpose": {
+        "maxLengthError": "L’objet ne doit pas comporter plus de 2 048 caractères"
+      },
+      "_thumbnail": {
+        "label": "Miniature",
+        "sizeDescription": "La taille maximale est de 10 Mo. Dimensions recommandées : 760 x 505 ou plus",
+        "defaultThumbnailNotice": "Chargez votre propre miniature pour remplacer la miniature par défaut."
+      },
+      "location": {
+        "none": "Aucune localisation",
+        "org": "Étendue de l’organisation",
+        "custom": "Localisation personnalisée",
+        "customDescription": "Dessiner une ou plusieurs localisations",
+        "itemExtent": "Étendue actuelle de l’élément"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Type",
+          "sharing": "Partage"
+        },
+        "catalog": {
+          "myContent": "Mes contenus",
+          "favorites": "Favoris",
+          "organization": "Organisation",
+          "world": "Monde (Public)"
+        },
+        "collection": {
+          "appsAndMaps": "Applications et cartes",
+          "dataset": "Données",
+          "documents": "Documents",
+          "feedback": "Commentaires",
+          "sites": "Sites",
+          "projects": "Projets"
+        }
+      },
+      "metrics": {
+        "allowDynamicLink": {
+          "label": "Afficher le lien source"
+        },
+        "cardTitle": {
+          "label": "Titre",
+          "message": {
+            "required": "Ce champ est obligatoire."
+          }
+        },
+        "dynamicMetric": {
+          "label": "Source de données"
+        },
+        "value": {
+          "label": "Valeur",
+          "message": {
+            "required": "Ce champ est obligatoire."
+          }
+        },
+        "unit": {
+          "label": "Unités",
+          "helperText": "Utilisez cette option pour définir une valeur de préfixe ou de suffixe (par exemple, %, +, $ ou une autre valeur). Laissez le champ vide pour ne rien afficher."
+        },
+        "unitPosition": {
+          "label": "Position de l’unité",
+          "helperText": "Indiquez la position de l’unité de mesure (p. ex., 'km', 'lbs') par rapport à la valeur de métrique.",
+          "enum": {
+            "after": {
+              "label": "Après la valeur"
+            },
+            "before": {
+              "label": "Avant la valeur"
+            },
+            "below": {
+              "label": "Sous la valeur"
+            }
+          }
+        },
+        "showShareIcon": {
+          "label": "Activer le partage",
+          "helperText": {
+            "label": "Autoriser les utilisateurs à copier un lien direct vers cette métrique."
+          }
+        },
+        "shareableOnHover": {
+          "label": "Afficher lors du survol",
+          "helperText": {
+            "label": "Le bouton Partager s’affiche uniquement lors du survol avec la souris. Si cette option est désactivée, le bouton reste toujours visible."
+          }
+        },
+        "sourceLink": {
+          "label": "URL du lien",
+          "message": {
+            "required": "Lien requis pour afficher la source."
+          }
+        },
+        "sourceTitle": {
+          "label": "Texte du lien"
+        },
+        "trailingText": {
+          "label": "Texte de fin",
+          "helperText": "Fournissez un contexte ou une explication supplémentaire. Le texte saisi s’affiche sous la valeur de métrique."
+        },
+        "type": {
+          "label": "Type",
+          "enum": {
+            "dynamic": {
+              "label": "Dynamique",
+              "description": "Sélectionnez un jeu de données (service d’entités) existant à synthétiser."
+            },
+            "static": {
+              "label": "Statique",
+              "description": "Saisissez manuellement une valeur à mettre en évidence dans la mise en page."
+            }
+          }
+        },
+        "valueType": {
+          "label": "Type de valeur",
+          "helperText": "Sélectionnez le type de valeur à afficher.",
+          "enum": {
+            "string": {
+              "label": "Texte",
+              "description": "N’importe quel mot ou phrase. Ne doit pas être utilisé pour des calculs numériques. (Exemple : \"Rue principale\")"
+            },
+            "number": {
+              "label": "Nombre",
+              "description": "Valeur numérique. Peut être utilisée pour des calculs. (Exemple : 123)"
+            },
+            "date": {
+              "label": "Date",
+              "description": "Valeur de date du calendrier. Ne doit pas être utilisée pour des calculs numériques. (Exemple : \"01/01/2018\")"
+            }
+          }
+        }
+      },
+      "categories": {
+        "label": "Catégories",
+        "noCategoriesNotice": {
+          "body": "Cette organisation ne dispose d’aucune catégorie pour l’instant.",
+          "link": "Configurer des catégories"
+        }
+      },
+      "download": {
+        "format": {
+          "bip": "BIP",
+          "bmp": "BMP",
+          "bsq": "BSQ",
+          "gif": "GIF",
+          "jpg": "JPG",
+          "jpgPng": "JPG_PNG",
+          "lerc": "LERC",
+          "png": "PNG",
+          "png8": "PNG8",
+          "png24": "PNG24",
+          "png32": "PNG32",
+          "tiff": "TIFF",
+          "csv": "CSV",
+          "excel": "Excel",
+          "featureCollection": "Collection d’entités",
+          "filegdb": "Géodatabase fichier",
+          "geojson": "GeoJSON",
+          "geoPackage": "GeoPackage",
+          "json": "JSON",
+          "kml": "KML",
+          "shapefile": "Shapefile",
+          "sqlite": "Géodatabase SQLite"
+        },
+        "additionalResource": "{resourceName} (distribution des métadonnées)",
+        "dataSourceResource": "Source de données (distribution des métadonnées)",
+        "noTitleResource": "Lien (sans titre, distribution des métadonnées)"
+      }
+    }
+  },
+  "project": {
+    "sections": {
+      "details": {
+        "label": "Détails"
+      },
+      "basicInfo": {
+        "label": "Informations de base"
+      },
+      "location": {
+        "label": "Localisation",
+        "helperText": "Indiquez la zone géographique dans laquelle ce projet aura lieu (apparaîtra sur la mise en page du projet)."
+      },
+      "status": {
+        "label": "Statut"
+      },
+      "sharing": {
+        "label": "Partage"
+      },
+      "timeline": {
+        "label": "Chronologie"
+      },
+      "searchDiscoverability": {
+        "label": "Recherche et découvrabilité"
+      },
+      "featuredContent": {
+        "label": "Contenu à l’affiche",
+        "helperText": "Mettez en évidence des documents, applications et données spécifiques liés à votre projet. Vous pouvez mettre à l’affiche jusqu’à 4 éléments."
+      },
+      "callToAction": {
+        "label": "Liens d’appel à l’action",
+        "helperText": "Cette option prend la forme d’un bouton bien visible en haut de votre projet. Utilisez-la pour orienter votre public vers un site, une enquête, une carte, etc."
+      },
+      "embeds": {
+        "label": "Intégration à l’affiche",
+        "helperText": "Sélectionnez une carte Web, une scène Web ou une application à mettre en évidence dans votre projet."
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Nom du projet",
+        "requiredError": "Vous devez renseigner le nom du projet",
+        "maxLengthError": "Le nom du projet ne doit pas comporter plus de 250 caractères",
+        "entityTitleValidatorError": "Le nom du projet ne doit contenir aucun émoji ni aucun des caractères suivants : <, > ou ="
+      },
+      "description": {
+        "label": "Description",
+        "helperText": "Indiquez comment votre projet atteindra ses objectifs. Pensez à inclure des informations pertinentes sur le contexte et les changements attendus suite au projet."
+      },
+      "summary": {
+        "label": "Objet",
+        "helperText": "Résumez brièvement les objectifs du projet."
+      },
+      "access": {
+        "itemType": "Projet"
+      },
+      "groups": {
+        "label": "Partager avec...",
+        "viewGroup": "(Groupe de consultation)",
+        "editGroup": "(Groupe de modification)"
+      },
+      "_thumbnail": {
+        "helperText": "Définissez une miniature pour représenter ce projet dans ArcGIS Online, ainsi que dans la recherche et les bibliothèques."
+      },
+      "featuredImage": {
+        "label": "Image à l’affiche",
+        "helperText": "Sélectionnez une image pour représenter votre travail sur la mise en page du projet.",
+        "sizeDescription": "La taille de fichier maximale est de 10 Mo. Dimensions recommandées : 718 x 478 ou supérieures",
+        "altText": {
+          "label": "Texte de remplacement",
+          "helperText": "Rédigez une courte description de l’image destinée aux personnes utilisant des lecteurs d’écran. Laissez ce champ vierge pour indiquer que l’image est décorative."
+        }
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Le slug est la version compatible avec l’URL du nom du projet. Il est généré automatiquement en fonction du nom du projet, mais vous pouvez le personnaliser.",
+        "patternError": "Erreur : le slug ne doit contenir que des caractères alphanumériques minuscules séparés par des tirets.",
+        "isUniqueError": "Ce slug est déjà utilisé. Choisissez-en un autre."
+      },
+      "tags": {
+        "label": "Balises",
+        "helperText": "Des balises sont utilisées dans les catalogues de recherche pour aider les autres utilisateurs à trouver ce projet. Ajoutez du texte et appuyez sur Entrée pour créer de nouvelles balises."
+      },
+      "categories": {
+        "helperText": "Les catégories sont utilisées dans les catalogues de recherche pour aider les autres utilisateurs à trouver ce projet. Elles sont définies par votre organisation."
+      },
+      "status": {
+        "label": "Statut du projet",
+        "enum": {
+          "notStarted": {
+            "label": "Non commencé"
+          },
+          "inProgress": {
+            "label": "En cours"
+          },
+          "onHold": {
+            "label": "Suspendu"
+          },
+          "complete": {
+            "label": "Terminé"
+          }
+        }
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Type",
+          "sharing": "Partage"
+        }
+      },
+      "callToAction": {
+        "facets": {
+          "type": "Type",
+          "sharing": "Partage"
+        }
+      },
+      "mapSettings": {
+        "label": "Configurer le mode d’affichage de la carte sur le projet"
+      }
+    }
+  },
+  "initiative": {
+    "sections": {
+      "details": {
+        "label": "Détails"
+      },
+      "basicInfo": {
+        "label": "Informations de base"
+      },
+      "location": {
+        "label": "Localisation",
+        "helperText": "Indiquez la zone géographique dans laquelle cette initiative aura lieu (apparaîtra sur la mise en page de l’initiative)."
+      },
+      "sharing": {
+        "label": "Partage"
+      },
+      "featuredContent": {
+        "label": "Contenu à l’affiche",
+        "helperText": "Mettez en évidence des documents, applications et données spécifiques liés à votre projet. Vous pouvez mettre à l’affiche jusqu’à 4 éléments."
+      },
+      "status": {
+        "label": "Statut"
+      },
+      "hero": {
+        "label": "Bannière"
+      },
+      "searchDiscoverability": {
+        "label": "Recherche et découvrabilité"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Nom de l’initiative",
+        "requiredError": "Vous devez renseigner le nom de l’initiative",
+        "maxLengthError": "Le nom de l’initiative ne doit pas comporter plus de 250 caractères",
+        "entityTitleValidatorError": "Le nom de l’initiative ne doit contenir aucun émoji ni aucun des caractères suivants : <, > ou ="
+      },
+      "summary": {
+        "label": "Objet",
+        "helperText": "Résumez brièvement les objectifs de l’initiative."
+      },
+      "access": {
+        "itemType": "Initiative"
+      },
+      "description": {
+        "label": "Description",
+        "helperText": "Indiquez comment votre initiative atteindra ses objectifs. Pensez à inclure des informations pertinentes sur le contexte et les changements attendus suite à l’initiative."
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Le slug est la version compatible avec l’URL du nom de l’initiative. Il est généré automatiquement en fonction du nom de l’initiative, mais vous pouvez le personnaliser.",
+        "patternError": "Erreur : le slug ne doit contenir que des caractères alphanumériques minuscules séparés par des tirets.",
+        "isUniqueError": "Ce slug est déjà utilisé. Choisissez-en un autre."
+      },
+      "tags": {
+        "label": "Balises",
+        "helperText": "Les balises sont utilisées dans les catalogues de recherche pour aider les autres utilisateurs à trouver cette initiative. Ajoutez du texte et appuyez sur Entrée pour créer de nouvelles balises."
+      },
+      "categories": {
+        "helperText": "Les catégories sont utilisées dans les catalogues de recherche pour aider les autres utilisateurs à trouver cette initiative. Elles sont définies par votre organisation."
+      },
+      "_thumbnail": {
+        "helperText": "Définissez une miniature pour représenter cette initiative dans ArcGIS Online, ainsi que dans la recherche et les bibliothèques."
+      },
+      "groups": {
+        "label": "Partager avec...",
+        "viewGroup": "(Groupe de consultation)",
+        "editGroup": "(Groupe de modification)"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Type",
+          "sharing": "Partage"
+        }
+      },
+      "status": {
+        "label": "Statut de l’initiative",
+        "enum": {
+          "notStarted": {
+            "label": "Non commencé"
+          },
+          "inProgress": {
+            "label": "En cours"
+          },
+          "onHold": {
+            "label": "Suspendu"
+          },
+          "complete": {
+            "label": "Terminé"
+          }
+        }
+      },
+      "hero": {
+        "label": "Bannière",
+        "helperText": "La bannière apparaît au-dessus du titre de l’initiative et peut contenir une carte ou une image.",
+        "map": {
+          "label": "Carte",
+          "description": "Utilisez une carte pour afficher la zone cible de l’initiative à l’aide de sa localisation ou des projets associés."
+        },
+        "image": {
+          "label": "Image",
+          "description": "Une image attractive peut permettre au lecteur de se sentir concerné ou de participer à la réalisation de votre objectif."
+        }
+      },
+      "featuredImage": {
+        "label": "Image",
+        "helperText": "Pour votre bannière, utilisez une image de paysage. L’application redimensionne l’image à partir d’un point focal central afin de l’ajuster à différentes tailles d’écran. Sur les grands écrans, la hauteur maximale est de 475 pixels.",
+        "sizeDescription": "La taille de fichier maximale est de 10 Mo.",
+        "altText": {
+          "label": "Texte de remplacement",
+          "helperText": "Rédigez une courte description de l’image destinée aux personnes utilisant des lecteurs d’écran. Laissez ce champ vierge pour indiquer que l’image est décorative."
+        }
+      },
+      "groupAccess": {
+        "label": "Définir la visibilité",
+        "helperText": "Déterminer qui peut voir les associations avec cette initiative",
+        "private": {
+          "label": "Privé",
+          "description": "Le propriétaire de l’initiative et les groupes disposant d’un accès peuvent voir le groupe"
+        },
+        "org": {
+          "label": "Organisation",
+          "description": "Tous les membres dotés d’un compte sur l’organisation détenant l’initiative et les groupes disposant d’un accès peuvent voir le groupe"
+        },
+        "public": {
+          "label": "Public",
+          "description": "Tout le monde peut voir le groupe"
+        }
+      },
+      "membershipAccess": {
+        "label": "Qui peut faire partie de ce groupe ?",
+        "org": "Les membres de mon organisation uniquement",
+        "collab": "Les membres des collaborations partenariales et de mon organisation uniquement",
+        "any": "Les membres de n’importe quelle organisation (valeur par défaut suggérée)"
+      },
+      "includeInCatalog": {
+        "label": "Inclure dans le catalogue",
+        "helperText": "Si cette option est activée, tous les éléments associés s’affichent avec les autres contenus dans le catalogue de recherche de l’initiative."
+      },
+      "mapSettings": {
+        "label": "Configurer le mode d’affichage de la carte sur l’initiative"
+      }
+    }
+  },
+  "discussion": {
+    "sections": {
+      "details": {
+        "label": "Détails"
+      },
+      "basicInfo": {
+        "label": "Informations de base"
+      },
+      "location": {
+        "label": "Localisation",
+        "helperText": "Ajoutez une zone géographique afin de définir les limites de la discussion et le niveau de zoom par défaut de la carte. La discussion est ainsi plus ciblée."
+      },
+      "settings": {
+        "label": "Discussions"
+      },
+      "searchDiscoverability": {
+        "label": "Recherche et découvrabilité"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Titre",
+        "requiredError": "Le nom du forum de discussion doit être renseigné.",
+        "entityTitleValidatorError": "Le nom de la discussion ne doit contenir aucun émoji ni aucun des caractères suivants : <, > ou ="
+      },
+      "prompt": {
+        "label": "Incitation",
+        "helperText": "Décrivez brièvement ce que les participants doivent soumettre sur ce forum de discussion.",
+        "requiredError": "Le champ Incitation doit être renseigné",
+        "maxLengthError": "L’invite ne doit pas comporter plus de 150 caractères"
+      },
+      "description": {
+        "label": "Description",
+        "helperText": "Fournissez un contexte pouvant s’avérer utile lors de la recherche du forum."
+      },
+      "_thumbnail": {
+        "helperText": "Sélectionnez une image pour représenter votre discussion."
+      },
+      "summary": {
+        "label": "Résumé",
+        "helperText": "Décrivez brièvement l’objectif de ce forum de discussion. Ceci est utile lorsque vous partagez le lien avec d’autres utilisateurs."
+      },
+      "featuredImage": {
+        "label": "Image à l’affiche",
+        "sizeDescription": "La taille maximale est de 10 Mo, JPEG, JPG ou PNG",
+        "altText": {
+          "label": "Texte de remplacement",
+          "helperText": "Rédigez une courte description de l’image destinée aux personnes utilisant des lecteurs d’écran. Laissez ce champ vierge pour indiquer que l’image est décorative."
+        },
+        "name": {
+          "label": "Nom de l’image"
+        }
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Le slug est la version compatible avec l’URL du nom de la discussion. Il est généré automatiquement en fonction du nom de la discussion, mais vous pouvez le personnaliser.",
+        "patternError": "Erreur : le slug ne doit contenir que des caractères alphanumériques minuscules séparés par des tirets.",
+        "isUniqueError": "Ce slug est déjà utilisé. Choisissez-en un autre."
+      },
+      "tags": {
+        "label": "Balises"
+      },
+      "categories": {
+        "helperText": "Les catégories sont utilisées dans les catalogues de recherche pour aider les autres utilisateurs à trouver cette discussion. Elles sont définies par votre organisation."
+      },
+      "discussable": {
+        "label": "La discussion est-elle autorisée ?",
+        "enabled": {
+          "label": "Oui, la discussion est autorisée",
+          "description": "Les participants peuvent ajouter des publications, des réponses et des réactions à ce forum de discussion."
+        },
+        "disabled": {
+          "label": "Non, la discussion est bloquée",
+          "description": "Supprime la possibilité d’ajouter de nouvelles publications, réponses et réactions. Ne supprime pas la participation précédente."
+        }
+      },
+      "mapSettings": {
+        "label": "Configurer le mode d’affichage de la carte sur le forum de discussion"
+      }
+    }
+  },
+  "site": {
+    "sections": {
+      "defaultRequiredHelperText": "* indique un champ obligatoire",
+      "basicInfo": {
+        "label": "Informations de base"
+      },
+      "location": {
+        "label": "Localisation",
+        "helperText": "Indiquez la zone géographique concernée par ce site."
+      },
+      "discussions": {
+        "label": "Discussions"
+      },
+      "privacy": {
+        "label": "Paramétrage de la confidentialité"
+      },
+      "siteUrl": {
+        "label": "URL du site"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Nom du site",
+        "requiredError": "Le nom du site est un champ obligatoire",
+        "maxLengthError": "Le nom du site ne doit pas comporter plus de 250 caractères",
+        "siteEntityTitleValidatorError": "Le nom du site ne doit contenir aucun émoji ni aucun caractère Unicode"
+      },
+      "_thumbnail": {
+        "helperText": "Définissez une miniature pour représenter ce site dans ArcGIS Online, ainsi que dans la recherche et les bibliothèques."
+      },
+      "description": {
+        "label": "Description",
+        "helperText": "Il s’agit de la description du site."
+      },
+      "summary": {
+        "label": "Résumé",
+        "helperText": "Résumez brièvement le site."
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Le slug est la version compatible avec l’URL du nom du site. Il est généré automatiquement en fonction du nom du site, mais vous pouvez le personnaliser.",
+        "patternError": "Erreur : le slug ne doit contenir que des caractères alphanumériques minuscules séparés par des tirets.",
+        "isUniqueError": "Ce slug est déjà utilisé. Choisissez-en un autre."
+      },
+      "tags": {
+        "label": "Balises",
+        "helperText": "Des balises sont utilisées dans les catalogues de recherche pour aider les autres utilisateurs à trouver ce site. Ajoutez du texte et appuyez sur Entrée pour créer de nouvelles balises."
+      },
+      "categories": {
+        "helperText": "Les catégories sont utilisées dans les catalogues de recherche pour aider les autres utilisateurs à trouver ce site. Elles sont définies par votre organisation."
+      },
+      "discussable": {
+        "label": "Afficher l’interface des discussions pour les utilisateurs connectés sur des sites actifs (paramètre activé par défaut)",
+        "enabled": {
+          "label": "Oui, la discussion est autorisée",
+          "description": "Afficher l’interface des discussions"
+        },
+        "disabled": {
+          "label": "Non, la discussion est bloquée",
+          "description": "Masquer l’interface des discussions"
+        }
+      },
+      "followers": {
+        "groupAccess": {
+          "label": "Définir la visibilité",
+          "helperText": "Indiquez qui peut voir les boutons de suivi. Ce paramètre s’applique à la fois au bouton de suivi sous forme d’action de page dans le menu flottant et aux boutons de suivi intégrés directement dans la mise en page.",
+          "private": {
+            "label": "Privé",
+            "description": "Le propriétaire du site et les groupes disposant d’un accès peuvent voir les boutons de suivi"
+          },
+          "org": {
+            "label": "Organisation",
+            "description": "Tous les membres dotés d’un compte sur l’organisation détenant le site et les groupes disposant d’un accès peuvent voir les boutons de suivi"
+          },
+          "public": {
+            "label": "Public",
+            "description": "Tout le monde peut voir les boutons de suivi"
+          }
+        },
+        "showFollowAction": {
+          "label": "Action de suivi",
+          "helperText": "Ajoutez un bouton de suivi dans le menu des actions de page qui reste visible lorsque les utilisateurs font défiler la mise en page."
+        },
+        "discussable": {
+          "label": "Ce groupe peut-il participer à des discussions ?",
+          "enabled": {
+            "label": "Oui, la discussion est autorisée",
+            "description": "Les membres du groupe peuvent consulter les canaux de discussion auxquels le groupe a accès et y participer."
+          },
+          "disabled": {
+            "label": "Non, la discussion est bloquée",
+            "description": "Les membres du groupe ne peuvent pas consulter les canaux de discussion auxquels le groupe a accès ni y participer."
+          }
+        }
+      },
+      "siteUrl": {
+        "isUniqueError": "Erreur : il existe déjà un site utilisant cette URL."
+      }
+    }
+  },
+  "page": {
+    "sections": {
+      "basicInfo": {
+        "label": "Informations de base"
+      },
+      "location": {
+        "label": "Localisation",
+        "helperText": "Indiquez la zone géographique concernée par cette page."
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Nom de la page",
+        "requiredError": "Le nom de la page est un champ obligatoire",
+        "maxLengthError": "Le nom de la page ne doit pas comporter plus de 250 caractères",
+        "entityTitleValidatorError": "Le nom de la page ne doit contenir aucun émoji ni aucun des caractères suivants : <, > ou ="
+      },
+      "description": {
+        "label": "Description",
+        "helperText": "Il s’agit de la description de la page."
+      },
+      "summary": {
+        "label": "Résumé",
+        "helperText": "Résumez brièvement la page."
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Le slug est la version compatible avec l’URL du nom de la page. Il est généré automatiquement en fonction du nom de la page, mais vous pouvez le personnaliser.",
+        "patternError": "Erreur : le slug ne doit contenir que des caractères alphanumériques minuscules séparés par des tirets.",
+        "isUniqueError": "Ce slug est déjà utilisé. Choisissez-en un autre."
+      },
+      "tags": {
+        "label": "Balises",
+        "helperText": "Des balises sont utilisées dans les catalogues de recherche pour aider les autres utilisateurs à trouver cette page. Ajoutez du texte et appuyez sur Entrée pour créer de nouvelles balises."
+      },
+      "_thumbnail": {
+        "helperText": "Définissez une miniature pour représenter cette page dans ArcGIS Online, ainsi que dans la recherche et les bibliothèques."
+      },
+      "categories": {
+        "helperText": "Les catégories sont utilisées dans les catalogues de recherche pour aider les autres utilisateurs à trouver cette page. Elles sont définies par votre organisation."
+      }
+    }
+  },
+  "content": {
+    "fields": {
+      "title": {
+        "label": "Titre",
+        "hint": "Privilégiez des titres concis pour améliorer la découvrabilité de votre contenu.",
+        "requiredError": "Vous devez renseigner le titre",
+        "entityTitleValidatorError": "Le nom ne doit contenir aucun émoji ni aucun des caractères suivants : <, > ou ="
+      },
+      "summary": {
+        "label": "Résumé",
+        "hint": "Résumez brièvement votre contenu. Conseil : utilisez des mots-clés différents du titre ou des balises pour améliorer le référencement du site auprès des moteurs de recherche."
+      },
+      "description": {
+        "label": "Description",
+        "hint": "Ajoutez des informations supplémentaires qui expliquent votre contenu. Visez un niveau de compréhension correspondant à celui d’élèves des classes de collège (5e à 3e) pour toucher un large public. <a href='https://www.webfx.com/tools/read-able/' target='_blank'>Utilisez un outil gratuit d’analyse de la lisibilité pour tester votre texte</a>."
+      },
+      "tags": {
+        "label": "Balises",
+        "hint": "Des balises sont utilisées dans les catalogues de recherche pour aider les autres utilisateurs à trouver ce contenu. Ajoutez du texte et appuyez sur Entrée pour créer de nouvelles balises."
+      },
+      "categories": {
+        "helperText": "Les catégories sont utilisées dans les catalogues de recherche pour aider les autres utilisateurs à trouver ce contenu. Elles sont définies par votre organisation."
+      },
+      "_thumbnail": {
+        "helperText": "Définissez une miniature pour représenter cet élément dans ArcGIS Online, ainsi que dans la recherche et les bibliothèques."
+      },
+      "license": {
+        "label": "Conditions d’utilisation",
+        "helperText": "Des restrictions moindres favorisent la réutilisation."
+      },
+      "discussable": {
+        "label": "La discussion est-elle autorisée ?",
+        "enabled": {
+          "label": "Oui, la discussion est autorisée",
+          "description": "Les participants peuvent ajouter des publications, des réponses et des réactions à cet élément."
+        },
+        "disabled": {
+          "label": "Non, la discussion est bloquée",
+          "description": "Supprime la possibilité d’ajouter de nouvelles publications, réponses et réactions. Ne supprime pas la participation précédente."
+        }
+      },
+      "serverExtractCapability": {
+        "label": "Système de téléchargement",
+        "exportDataSetting": {
+          "label": "Paramètre Exporter des données (recommandé)",
+          "description": "Activez des formats de téléchargement supplémentaires et renforcez les performances de téléchargement."
+        },
+        "defaultDownloadsSystem": {
+          "label": "Système de téléchargement par défaut",
+          "description": "Il est possible que ce système propose moins de formats, offre des vitesses de téléchargement moins élevées et s’avère moins fiable."
+        },
+        "noFormatConfigurationNotice": {
+          "title": "La configuration des formats n’est pas disponible",
+          "body": "Le paramètre Exporter des données doit être activé pour qu’il soit possible de configurer les formats."
+        }
+      },
+      "downloadFormats": {
+        "label": "Formats",
+        "helperText": "Sélectionnez les formats disponibles pour les utilisateurs, ainsi que l’ordre dans lequel ils sont affichés. (Vous devez sélectionner au moins un format)",
+        "downloadsUnavailableNotice": {
+          "title": "Les téléchargements ne sont pas disponibles",
+          "body": "Le paramètre Exporter des données doit être activé sur ArcGIS Online pour qu’il soit possible de télécharger le contenu. Contactez le propriétaire de l’élément pour qu’il active ce paramètre."
+        }
+      },
+      "schedule": {
+        "manual": {
+          "helperActionText": "Utilisez cette option pour mettre à jour manuellement l’index de recherche et les fichiers de téléchargement mis en cache pour cet élément."
+        },
+        "forceUpdateButton": {
+          "label": "Forcer la mise à jour",
+          "description": "Sélectionnez cette option, puis cliquez sur \"Enregistrer\" pour mettre à jour manuellement l’index de recherche et les fichiers de téléchargement mis en cache pour cet élément, s’il y a lieu."
+        },
+        "unavailableNotice": {
+          "title": "Mises à jour planifiées non disponibles",
+          "body": "Rendez ce contenu \"Public\" pour activer les mises à jour planifiées."
+        }
+      }
+    },
+    "sections": {
+      "basic": {
+        "title": "Informations de base",
+        "message": "Ces informations, visibles dans la vue des détails, permettent de renseigner les résultats de recherche et les fiches de la bibliothèque."
+      },
+      "about": {
+        "title": "À propos du contenu",
+        "message": "Les deux premières lignes de la description sont affichées dans les résultats de recherche. L’ensemble de la description est visible dans les vues détaillées du contenu."
+      },
+      "image": {
+        "title": "Image à l’affiche",
+        "message": "Il est essentiel d’utiliser une image à l’affiche ou une miniature de qualité pour présenter votre contenu dans nos bibliothèques ou sur des vues qui mettent en valeur des images, telles que des initiatives, des événements et des enquêtes. La taille recommandée est de 760 x 505. Si votre image apparaît floue sur des itinéraires en direct, pensez à remplacer la miniature par une image plus grande."
+      },
+      "location": {
+        "label": "Localisation",
+        "helperText": "Indiquez la zone géographique dans laquelle ce contenu se situe (apparaîtra sur la mise en page du contenu)."
+      },
+      "discussions": {
+        "label": "Discussions"
+      },
+      "downloads": {
+        "label": "Téléchargements",
+        "helperText": "Configurez les formats de téléchargement, la planification de la mise à jour des fichiers mis en cache, etc. Pour plus de détails, reportez-vous à la <calcite-link href=\"https://doc.arcgis.com/en/hub/content/data-download-settings.htm\" target=\"_blank\" icon-end=\"launch\">documentation sur le téléchargement.</calcite-link>"
+      },
+      "schedule": {
+        "label": "Mises à jour planifiées",
+        "helperText": "ArcGIS Hub tente de déterminer automatiquement le meilleur moment pour procéder à la mise à jour du contenu (par défaut). Vous pouvez toutefois définir une fréquence pour la mise à jour du contenu, des métadonnées et des fichiers de téléchargement mis en cache (s’il y a lieu)."
+      }
+    },
+    "stringField": {
+      "charCounter": "{count} caractères restants"
+    },
+    "imageThumbnail": {
+      "label": "Image miniature",
+      "upload": "Charger une image",
+      "done": "Terminé",
+      "editThumbnail": "Modifier la miniature",
+      "browse": "Rechercher une image",
+      "remove": "Supprimer l’image",
+      "edit": "Modifier l’image",
+      "defaultHeading": "Ajouter une image miniature",
+      "dropHeading": "Déposer pour charger",
+      "errorHeading": "Essayer une autre image",
+      "subheading": "La taille maximale est de {size}, {types}",
+      "zoomOut": "zoom arrière",
+      "zoomIn": "zoom avant",
+      "drag": "Faire glisser pour repositionner",
+      "urlPlaceholder": "Types pris en charge : {types}",
+      "browseForImage": "Rechercher une image",
+      "aria": {
+        "container": "Zone de l’image",
+        "crop": "Rogner la zone",
+        "handle": {
+          "top": "Redimensionner en haut",
+          "right": "Redimensionner à droite",
+          "left": "Redimensionner à gauche",
+          "bottom": "Redimensionner en bas"
+        }
+      }
+    }
+  },
+  "group": {
+    "sections": {
+      "details": {
+        "label": "Détails"
+      },
+      "basicInfo": {
+        "label": "Informations de base"
+      },
+      "capabilities": {
+        "label": "Capacités"
+      },
+      "membershipAccess": {
+        "label": "Appartenance au groupe"
+      },
+      "discussions": {
+        "label": "Discussions"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Titre",
+        "requiredError": "Le titre du groupe doit être renseigné",
+        "maxLengthError": "Le titre du groupe ne doit pas comporter plus de 250 caractères",
+        "entityTitleValidatorError": "Le nom du groupe ne doit contenir aucun émoji ni aucun des caractères suivants : <, > ou ="
+      },
+      "summary": {
+        "label": "Résumé",
+        "maxLengthError": "Le résumé ne doit pas comporter plus de 250 caractères"
+      },
+      "description": {
+        "label": "Description"
+      },
+      "access": {
+        "label": "Qui peut afficher ce groupe ?",
+        "private": {
+          "label": "Privé",
+          "description": "Ce groupe peut être vu par ses membres uniquement."
+        },
+        "org": {
+          "label": "Organisation",
+          "description": "Ce groupe peut être vu par les membres de l’organisation uniquement."
+        },
+        "public": {
+          "label": "Tout le monde (public)",
+          "description": "Ce groupe peut être vu par tout le monde."
+        }
+      },
+      "isSharedUpdate": {
+        "label": "Mise à jour partagée",
+        "helperText": "Les éléments de ce groupe pourront être modifiés par tous les membres du groupe. L’appartenance au groupe est limitée à votre organisation et aux organisations collaboratrices."
+      },
+      "isAdmin": {
+        "label": "Groupe d’administration",
+        "helperText": "Les membres ne peuvent pas quitter ce groupe. Seul le propriétaire ou les gestionnaires du groupe peuvent supprimer des membres de ce groupe. L’appartenance au groupe est limitée à votre organisation."
+      },
+      "isOpenData": {
+        "label": "Open Data",
+        "helperText": "Autoriser l’accès à ce groupe via des sites Open Data.",
+        "constError": "Seuls les groupes publics peuvent être des groupes Open Data."
+      },
+      "_thumbnail": {
+        "label": "Miniature",
+        "helperText": "Sélectionnez une image pour représenter votre groupe sur le profil du groupe.",
+        "sizeDescription": "La taille maximale est de 10 Mo. Taille recommandée : 400 x 400 pixels ou plus"
+      },
+      "membershipAccess": {
+        "label": "Qui peut être dans ce groupe ?",
+        "org": {
+          "description": "Les membres de mon organisation uniquement",
+          "label": "Membres de l’organisation"
+        },
+        "collab": {
+          "description": "Les membres des collaborations partenariales et de mon organisation uniquement",
+          "label": "Collaborateurs uniquement"
+        },
+        "any": {
+          "description": "Les membres de n’importe quelle organisation",
+          "label": "Tout le monde"
+        },
+        "createFollowers": {
+          "any": "N’importe quel membre de l’organisation (valeur par défaut suggérée)"
+        },
+        "createAssociation": {
+          "any": "N’importe quel membre de l’organisation (valeur par défaut suggérée)"
+        },
+        "constError": "L’appartenance au groupe d’administration est limitée aux membres de votre organisation.",
+        "patternError": "L’appartenance aux groupes de mise à jour partagée est limitée aux membres de votre organisation ou des collaborations partenariales."
+      },
+      "contributeContent": {
+        "label": "Qui peut contribuer au contenu ?",
+        "members": {
+          "label": "Membres",
+          "description": "Tous les membres du groupe"
+        },
+        "admins": {
+          "label": "Administrateurs",
+          "description": "Le propriétaire et les gestionnaires du groupe"
+        },
+        "createFollowers": {
+          "admins": "Propriétaire et gestionnaires du groupe (valeur par défaut suggérée)"
+        },
+        "createAssociation": {
+          "admins": "Propriétaire et gestionnaires du groupe (valeur par défaut suggérée)"
+        }
+      },
+      "join": {
+        "label": "Comment rejoindre ce groupe ?",
+        "invite": {
+          "label": "Invitation",
+          "description": "Sur invitation uniquement"
+        },
+        "request": {
+          "label": "Demande",
+          "description": "Sur demande"
+        },
+        "auto": {
+          "label": "Soi-même",
+          "description": "En s’ajoutant soi-même"
+        },
+        "constError": "Les groupes privés ne doivent accepter de nouveaux membres que sur invitation.",
+        "patternError": "Les groupes de mise à jour partagée ou d’administration ne doivent accepter de nouveaux membres que sur invitation ou sur demande."
+      },
+      "hiddenMembers": {
+        "label": "Qui peut voir la liste complète des membres sur l’onglet Membres du groupe ?",
+        "members": {
+          "label": "Membres",
+          "description": "Tous les membres du groupe"
+        },
+        "admins": {
+          "label": "Administrateurs",
+          "description": "Le propriétaire et les gestionnaires du groupe"
+        }
+      },
+      "discussable": {
+        "label": "Ce groupe peut-il participer à des discussions ?",
+        "enabled": {
+          "label": "Oui, la discussion est autorisée",
+          "description": "Les membres du groupe peuvent consulter les canaux de discussion auxquels le groupe a accès et y participer."
+        },
+        "disabled": {
+          "label": "Non, la discussion est bloquée",
+          "description": "Les membres du groupe ne peuvent pas consulter les canaux de discussion auxquels le groupe a accès ni y participer."
+        }
+      }
+    }
+  },
+  "initiativeTemplate": {
+    "sections": {
+      "basicInfo": {
+        "label": "Informations de base"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Nom",
+        "requiredError": "Vous devez renseigner le nom du modèle d’initiative",
+        "entityTitleValidatorError": "Le nom du modèle d’initiative ne doit contenir aucun émoji ni aucun des caractères suivants : <, > ou ="
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Le slug est la version compatible avec l’URL du nom du modèle d’initiative. Il est généré automatiquement en fonction du nom du modèle d’initiative, mais vous pouvez le personnaliser.",
+        "patternError": "Erreur : le slug ne doit contenir que des caractères alphanumériques minuscules séparés par des tirets.",
+        "isUniqueError": "Ce slug est déjà utilisé. Choisissez-en un autre."
+      },
+      "previewUrl": {
+        "label": "Lien d’aperçu",
+        "helperText": "Un lien d’aperçu est appliqué au titre et est utile si vous prévoyez de partager ce modèle publiquement. Les liens doivent commencer par \"https://\"",
+        "formatError": "Le format de l’URL est incorrect"
+      },
+      "summary": {
+        "label": "Résumé",
+        "helperText": "Rédigez une brève description de ce modèle qui apparaîtra dans la bibliothèque de modèles (il est recommandé que cette description ne dépasse pas 90 caractères)."
+      },
+      "description": {
+        "label": "Description",
+        "helperText": "Incluez des informations relatives aux modalités d’utilisation de ce modèle. Pensez à fournir des instructions d’activation pour les autres utilisateurs."
+      },
+      "_thumbnail": {
+        "label": "Miniature",
+        "helperText": "Définissez une miniature pour représenter ce modèle dans ArcGIS Online, ainsi que dans la recherche et les bibliothèques.",
+        "sizeDescription": "La taille maximale est de 10 Mo. Taille recommandée : 750 x 505 pixels ou plus"
+      },
+      "recommendedTemplates": {
+        "label": "Modèles recommandés",
+        "catalog": {
+          "myContent": "Mes contenus",
+          "favorites": "Favoris",
+          "organization": "Mon organisation",
+          "world": "Monde (Public)"
+        },
+        "facets": {
+          "sharing": "Partage"
+        },
+        "pickerTitle": "Sélectionner des modèles"
+      }
+    }
+  },
+  "template": {
+    "sections": {
+      "basicInfo": {
+        "label": "Informations de base"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Nom du modèle",
+        "requiredError": "Vous devez renseigner le nom du modèle",
+        "maxLengthError": "Le nom du modèle ne doit pas comporter plus de 250 caractères",
+        "entityTitleValidatorError": "Le nom du modèle ne doit contenir aucun émoji ni aucun des caractères suivants : <, > ou ="
+      },
+      "previewUrl": {
+        "label": "Lien d’aperçu",
+        "helperText": "Un lien d’aperçu est appliqué au titre et est utile si vous prévoyez de partager ce modèle publiquement. Les liens doivent commencer par \"https://\"",
+        "formatError": "Le format de l’URL est incorrect"
+      },
+      "description": {
+        "label": "Description",
+        "helperText": "Incluez des informations relatives aux modalités d’utilisation de ce modèle. Pensez à fournir des instructions d’activation pour les autres utilisateurs."
+      },
+      "summary": {
+        "label": "Résumé",
+        "helperText": "Rédigez une brève description de ce modèle qui apparaîtra dans la bibliothèque de modèles (il est recommandé que cette description ne dépasse pas 90 caractères)."
+      },
+      "_thumbnail": {
+        "helperText": "Sélectionnez une image pour représenter le modèle dans les bibliothèques."
+      }
+    }
+  },
+  "survey": {
+    "sections": {
+      "basicInfo": {
+        "label": "Informations de base"
+      },
+      "searchDiscoverability": {
+        "label": "Recherche et découvrabilité"
+      },
+      "settings": {
+        "label": "Affichage cartographique"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Nom de l’enquête",
+        "requiredError": "Le nom de l’enquête doit être renseigné",
+        "maxLengthError": "Le nom de l’enquête ne doit pas comporter plus de 250 caractères",
+        "entityTitleValidatorError": "Le nom de l’enquête ne doit contenir aucun émoji ni aucun des caractères suivants : <, > ou ="
+      },
+      "description": {
+        "label": "Description",
+        "helperText": "Description de l’enquête."
+      },
+      "summary": {
+        "label": "Résumé",
+        "helperText": "Résumez brièvement l’enquête."
+      },
+      "_thumbnail": {
+        "helperText": "Définissez une miniature pour représenter cette enquête dans ArcGIS Online, ainsi que dans la recherche et les bibliothèques."
+      },
+      "tags": {
+        "label": "Balises",
+        "helperText": "Des balises sont utilisées dans les catalogues de recherche pour aider les autres utilisateurs à trouver cette enquête. Ajoutez du texte et appuyez sur Entrée pour créer de nouvelles balises."
+      },
+      "categories": {
+        "helperText": "Les catégories sont utilisées dans les catalogues de recherche pour aider les autres utilisateurs à trouver cette enquête. Elles sont définies par votre organisation."
+      },
+      "displayMap": {
+        "label": "Comment votre enquête doit-elle s’afficher lorsqu’elle est ouverte dans ArcGIS Hub ?",
+        "enabled": {
+          "label": "Mise en page axée sur la carte",
+          "description": "Expérience cartographique immersive, affichage de la question Carte en premier."
+        },
+        "disabled": {
+          "label": "Affichage standard",
+          "description": "Carte affichée avec le reste des questions."
+        },
+        "notice": {
+          "title": "Requiert une question Carte",
+          "message": "Publiez votre enquête avec une question Carte dans Survey123 pour configurer l’affichage cartographique dans ArcGIS Hub."
+        }
+      }
+    }
+  },
+  "event": {
+    "fields": {
+      "name": {
+        "label": "Titre",
+        "requiredError": "Le titre est obligatoire",
+        "entityTitleValidatorError": "Le nom de l’événement ne doit contenir aucun émoji ni aucun des caractères suivants : <, > ou ="
+      },
+      "startDate": {
+        "label": "Date de début",
+        "requiredError": "La date de début est obligatoire",
+        "minDateError": "La date de début ne peut pas être antérieure à la date d’aujourd’hui"
+      },
+      "endDate": {
+        "label": "Date de fin",
+        "requiredError": "La date de fin est obligatoire",
+        "minDateError": "La date de fin ne peut pas être antérieure à la date de début"
+      },
+      "date": {
+        "label": "Date",
+        "requiredError": "La date est obligatoire",
+        "minDateError": "La date ne peut pas être antérieure à la date d’aujourd’hui"
+      },
+      "startTime": {
+        "label": "Heure de début",
+        "requiredError": "L’heure de début est obligatoire"
+      },
+      "endTime": {
+        "label": "Heure de fin",
+        "requiredError": "L’heure de fin est obligatoire",
+        "minTimeError": "L’heure de fin doit être postérieure à l’heure de début"
+      },
+      "allDay": {
+        "label": "Toute la journée"
+      },
+      "timeZone": {
+        "label": "Fuseau horaire",
+        "requiredError": "Le fuseau horaire est obligatoire"
+      },
+      "attendanceType": {
+        "label": "Lieu",
+        "inPerson": {
+          "label": "En personne"
+        },
+        "online": {
+          "label": "En ligne"
+        },
+        "both": {
+          "label": "Les deux"
+        }
+      },
+      "onlineUrl": {
+        "label": "Lien d’accès à l’événement en ligne",
+        "requiredError": "L’URL est obligatoire pour les événements en ligne ou hybrides",
+        "linkHrefFormatError": "Le format de l’URL est incorrect"
+      },
+      "description": {
+        "label": "Description",
+        "helperText": "Ajoutez des informations supplémentaires à l’attention des participants, comme le type, l’objectif et le programme de l’événement, le matériel à prévoir, les moyens de transport pour se rendre sur place, etc.",
+        "requiredError": "La description est obligatoire"
+      },
+      "inPersonCapacity": {
+        "label": "Capacité d’accueil maximale en présentiel",
+        "requiredError": "La capacité d’accueil maximale en présentiel doit être renseignée",
+        "minimumError": "La capacité d’accueil maximale en présentiel doit être supérieure à 0"
+      },
+      "inPersonCapacityType": {
+        "label": "Capacité d’inscription en présentiel",
+        "unlimited": {
+          "label": "Illimitée"
+        },
+        "fixed": {
+          "label": "Fixe"
+        }
+      },
+      "location": {
+        "label": "Indiquez la zone géographique dans laquelle cet événement a lieu (apparaîtra sur la mise en page de l’événement)."
+      },
+      "onlineCapacityType": {
+        "label": "Capacité d’inscription en ligne",
+        "unlimited": {
+          "label": "Illimitée"
+        },
+        "fixed": {
+          "label": "Fixe"
+        }
+      },
+      "onlineCapacity": {
+        "label": "Capacité d’accueil maximale en ligne",
+        "requiredError": "La capacité d’accueil maximale en ligne est obligatoire",
+        "minimumError": "La capacité d’accueil maximale en ligne doit être supérieure à 0"
+      },
+      "onlineDetails": {
+        "label": "Détails de l’événement en ligne",
+        "helperText": "Ajoutez des informations supplémentaires à l’attention des participants, comme un code secret, des informations de connexion, etc."
+      },
+      "categories": {
+        "helperText": "Les catégories sont utilisées dans les catalogues de recherche pour aider les autres utilisateurs à trouver cet événement. Elles sont définies par votre organisation."
+      },
+      "tags": {
+        "label": "Balises",
+        "helperText": "Des balises sont utilisées dans les catalogues de recherche pour aider les autres utilisateurs à trouver cet événement. Ajoutez du texte et appuyez sur Entrée pour créer de nouvelles balises."
+      },
+      "summary": {
+        "label": "Résumé",
+        "helperText": "Décrivez brièvement l’objectif de cet événement. Ceci est utile lorsque vous partagez le lien avec d’autres utilisateurs."
+      },
+      "allowRegistration": {
+        "label": "Autoriser l’inscription",
+        "helperText": "Il est obligatoire de disposer d’un compte pour s’inscrire ou être invité à participer.",
+        "enabled": {
+          "label": "Bouton d’inscription activé",
+          "description": "Tout membre en mesure de voir l’événement peut s’y inscrire."
+        },
+        "disabled": {
+          "label": "Bouton d’inscription désactivé",
+          "description": "Les inscriptions s’effectuent sur invitation uniquement ou ne font pas l’objet d’un suivi."
+        }
+      },
+      "notifyAttendees": {
+        "label": "Envoyer des notifications automatiques",
+        "helperText": "Les abonnés peuvent recevoir automatiquement par e-mail des notifications contenant des rappels ou des changements concernant l’événement. Les personnes qui s’inscrivent en vue de participer à l’événement sont automatiquement abonnées aux notifications.",
+        "enabled": {
+          "label": "Notifications activées",
+          "description": "Le bouton d’abonnement est visible pour l’événement."
+        },
+        "disabled": {
+          "label": "Notifications désactivées",
+          "description": "Le bouton d’abonnement est masqué pour l’événement."
+        }
+      },
+      "referencedContent": {
+        "label": "Contenu référencé",
+        "helperText": {
+          "label": "Référencez un projet, une initiative ou un site associés à cet événement."
+        },
+        "facets": {
+          "from": {
+            "label": "Provenance",
+            "myContent": {
+              "label": "Mes contenus"
+            },
+            "myOrganization": {
+              "label": "Mon organisation"
+            }
+          },
+          "access": {
+            "label": "Accès"
+          }
+        },
+        "catalog": {
+          "organization": "Organisation"
+        },
+        "collection": {
+          "sites": "Sites",
+          "initiatives": "Initiatives",
+          "projects": "Projets"
+        }
+      }
+    },
+    "sections": {
+      "referencedContent": {
+        "label": "Contenu référencé"
+      },
+      "eventInfo": {
+        "label": "Infos sur l’événement"
+      },
+      "dateTime": {
+        "label": "Date et heure"
+      },
+      "location": {
+        "label": "Localisation"
+      },
+      "discoverability": {
+        "label": "Recherche et découvrabilité"
+      }
+    }
+  },
+  "user": {
+    "sections": {
+      "userSettings": "Préférences de l’utilisateur",
+      "orgSettings": {
+        "label": "Paramètres de l’organisation",
+        "signinSettings": {
+          "label": "Options de connexion",
+          "helperText": "Personnaliser les informations présentées aux utilisateurs s’ils choisissent de créer un compte de communauté sur Hub."
+        },
+        "siteDefaults": {
+          "label": "Paramètres d’affichage du site par défaut"
+        }
+      }
+    },
+    "fields": {
+      "enableTermsAndConditions": {
+        "label": "Exiger l’acceptation des conditions d’utilisation personnalisées sur le formulaire de connexion"
+      },
+      "termsAndConditions": {
+        "label": "Conditions d’utilisation"
+      },
+      "enableSignupText": {
+        "label": "Configurer un message d’accueil à la connexion personnalisé"
+      },
+      "workspacePreview": {
+        "label": "Activer l’aperçu des espaces de travail",
+        "helperText": "Un aperçu des espaces de travail est disponible, mais ces derniers sont encore en phase de développement car nous enrichissons cette fonctionnalité. Vous pouvez désactiver les espaces de travail à tout moment au cours de la période d’accès en aperçu. Seul ce compte d’utilisateur sera affecté par l’activation des espaces de travail."
+      },
+      "infoBanner": {
+        "label": "Bannière d’informations",
+        "helperText": "Si elle est configurée, afficher la bannière d’informations de l’organisation des collaborateurs sur tous les sites et toutes les pages. Il s’agit d’un paramètre général qui ne peut pas être activé ou désactivé pour un site en particulier.",
+        "helperTextWhenDisabled": "Aucune bannière d’informations n’est configurée pour l’instant. Cliquez sur le lien ci-après pour être redirigé vers ArcGIS Online où vous pourrez configurer votre bannière d’informations",
+        "goToBannerConfig": "Configurer la bannière d’informations dans ArcGIS Online"
+      }
+    },
+    "notice": {
+      "title": "Gestion des organisations",
+      "message": "La plupart des paramètres de l’organisation communautaire et de l’organisation des collaborateurs (Hub Premium uniquement) sont désormais gérés dans l’organisation d’accueil ArcGIS.",
+      "communityMessage": "La plupart des paramètres de l’organisation communautaire et de l’organisation des collaborateurs (Hub Premium uniquement) sont désormais gérés dans l’organisation d’accueil ArcGIS. <br /> <br /> Votre organisation communautaire est",
+      "staffMessage": "La plupart des paramètres de l’organisation communautaire et de l’organisation des collaborateurs (Hub Premium uniquement) sont désormais gérés dans l’organisation d’accueil ArcGIS. <br /> <br /> Votre organisation des collaborateurs est",
+      "actions": {
+        "goToOrg": "Accéder aux paramètres de l’organisation",
+        "goToCommunityOrg": "Accéder à l’organisation communautaire",
+        "goToStaffOrg": "Accéder à l’organisation des collaborateurs"
+      }
+    }
+  }
+}

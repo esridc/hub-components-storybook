@@ -1,0 +1,66 @@
+{
+  "followers": "Jälgijad",
+  "tabs": {
+    "followers": "Jälgijad",
+    "settings": "Seaded"
+  },
+  "addFollowers": {
+    "label": "Lisa jälgijad"
+  },
+  "emptyState": {
+    "message": "Saidil ei ole jälgijate gruppi",
+    "action": "Looge jälgijate grupp"
+  },
+  "createFollowersGroup": {
+    "formDescription": "Looge grupp, et hõlbustada sisu jagamist ja suhtlemist",
+    "defaultSummary": "See jälgijagrupp võimaldab liikmetel lihtsamalt sisu jagada ja üksteisega suhelda"
+  },
+  "restrictedAccessState": {
+    "message": "Teil ei ole juurdepääsu jälgijate grupile.",
+    "action": "Taotle juurdepääsu"
+  },
+  "stats": {
+    "total": {
+      "title": "Kokku",
+      "trailingText": "Jälgijad"
+    },
+    "new": {
+      "title": "Uus",
+      "trailingText": "Viimased 30 päeva"
+    }
+  },
+  "addMembers": {
+    "button": "Lisa liikmed",
+    "modal": {
+      "title": "Lisa liikmed",
+      "org": "Minu organisatsioon",
+      "community": "Minu kogukond",
+      "partner": "Minu partnerid",
+      "world": "Maailm"
+    },
+    "notifications": {
+      "invited": "Kutse saadetud. Liitumiseks peavad kasutajad andma nõusoleku",
+      "added": "Lisati kasutaja(d)",
+      "notInvited": "Mõnedel kasutajatel ei pruugi olla grupiga liitumiseks vajalikke õigusi või nad on juba suurimas lubatud arvus gruppides (512)."
+    }
+  },
+  "removeUsers": {
+    "button": "Eemalda",
+    "success": "Liikmed on grupist {groupName} eemaldatud.",
+    "error": "Üht või mitut kasutajat ei saanud grupist eemaldada."
+  },
+  "changeRole": {
+    "button": "Rolli muutmine",
+    "member": "Liige",
+    "memberHelperText": "Saab lisada ja näha sisu grupi piires.",
+    "tooltipText": "Tühistage enda ja/või grupi omaniku valik",
+    "tooltipLabel": "Rolli vastutuse välistamine",
+    "admin": "Haldur",
+    "adminHelperText": "Saab lisada/eemaldada sisu ja kutsuda/eemaldada inimesi (peale omaniku).",
+    "success": "Valitud liikmed muutuvad grupiks {role}.",
+    "error": "Ühe või mitme liikme rolli ei saanud muuta."
+  },
+  "notice": {
+    "label": "Vormi hoiatus"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "registrants": "Registreerunud",
+  "invite": "Kutsu",
+  "tabs": {
+    "registrants": "Registreerunud",
+    "settings": "Seaded"
+  },
+  "emptyNotice": {
+    "title": "Registreerunud puuduvad",
+    "desc": "Sündmused on alati lõbusamad koos publikuga. Kutsuge inimesi või jagage oma sündmust, et meelitada inimesi osalema.",
+    "link": "Kutsuge registreerujaid"
+  },
+  "facets": {
+    "role": {
+      "header": "Roll",
+      "owner": "Omanik",
+      "organizer": "Korraldaja",
+      "attendee": "Registreerunu"
+    },
+    "status": {
+      "header": "Olek",
+      "pending": "Ootel",
+      "accepted": "Aktsepteeritud",
+      "declined": "Tagasi lükatud",
+      "blocked": "Blokeeritud"
+    },
+    "location": {
+      "header": "Asukoht",
+      "online": "Veebis",
+      "in_person": "Isiklikult"
+    },
+    "updatedDate": "Uuendatud kuupäev"
+  },
+  "delete": {
+    "attendee": "Eemalda registreerunu"
+  },
+  "notice": {
+    "label": "Vormi hoiatus"
+  },
+  "success": {
+    "delete": "Registreerunud on grupist {eventName} edukalt eemaldatud."
+  },
+  "error": {
+    "delete": "Üht või mitut registreerunut ei saanud sündmusest eemaldada."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Nincs találat."
+    },
+    "error": {
+      "message": "Sajnáljuk, de a keresés hibába ütközött."
+    }
+  },
+  "type": "Típus",
+  "tags": "Címkék",
+  "owner": "Tulajdonos",
+  "dateCreated": "Létrehozva",
+  "dateUpdated": "Módosítva",
+  "categories": "Kategóriák",
+  "dateAndTime": "Dátum is időpont",
+  "allDay": "{date} (egész nap)",
+  "allDayRange": "{from} - {to} (egész nap)",
+  "location": "Helyszín",
+  "attendanceType": "Részvétel típusa",
+  "inPerson": "Személyes megjelenésű",
+  "online": "Online",
+  "hybrid": "Hibrid"
+}

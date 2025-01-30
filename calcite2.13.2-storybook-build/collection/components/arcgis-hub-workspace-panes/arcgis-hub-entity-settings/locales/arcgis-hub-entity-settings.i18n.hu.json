@@ -1,0 +1,53 @@
+{
+  "settings": "Beállítások",
+  "formDisabledTooltip": "Önnek nincs hozzáférése ahhoz, hogy módosításokat végezzen a következőn: {type}.",
+  "delete": {
+    "project": "Projekt törlése",
+    "initiative": "Kezdeményezés törlése",
+    "site": "Webhely törlése",
+    "discussion": "Vita törlése",
+    "content": "Tartalom törlése",
+    "page": "Oldal törlése",
+    "group": "Csoport törlése",
+    "initiativeTemplate": "Kezdeményezési sablon törlése",
+    "template": "Sablon törlése",
+    "survey": "Felmérés törlése",
+    "desc": {
+      "project": "A projekt törlését nem lehet visszavonni.",
+      "initiative": "A kezdeményezés törlését nem lehet visszavonni.",
+      "site": "A webhely törlését nem lehet visszavonni.",
+      "discussion": "A vita törlését nem lehet visszavonni.",
+      "content": "A tartalom törlését nem lehet visszavonni.",
+      "page": "Az oldal törlését nem lehet visszavonni.",
+      "group": "A csoport törlését nem lehet visszavonni.",
+      "initiativeTemplate": "A kezdeményezés sablon törlését nem lehet visszavonni.",
+      "template": "A sablon törlését nem lehet visszavonni.",
+      "survey": "A felmérés törlését nem lehet visszavonni."
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "project": "Projekt törlése",
+      "initiative": "Kezdeményezés törlése",
+      "site": "Hely törlése",
+      "discussion": "Vita törlése",
+      "content": "Tartalom törlése",
+      "page": "Oldal törlése",
+      "group": "Csoport törlése",
+      "initiativeTemplate": "Kezdeményezési sablon törlése",
+      "template": "Sablon törlése",
+      "survey": "Felmérés törlése"
+    },
+    "content": "Biztos, hogy törli:",
+    "delete": "Törlés",
+    "cancel": "Mégse"
+  },
+  "sidePanel": {
+    "content": {
+      "extractNotice": {
+        "title": "A „Kinyerési” képesség megváltoztatja a szolgáltatás beállításait.",
+        "message": "A szolgáltatásra hivatkozó egyéb elemek is érintettek lesznek. További részletekért lásd: <docLink>Adatok exportálása központilag tárolt vektoros rétegekből</docLink>"
+      }
+    }
+  }
+}

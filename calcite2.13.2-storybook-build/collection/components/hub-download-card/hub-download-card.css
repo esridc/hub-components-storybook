@@ -1,0 +1,79 @@
+:host {
+  font-size: 1em;
+}
+
+calcite-card div {
+  font-size: 1em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+dl {
+  font-size: inherit;
+}
+
+dt, dd, calcite-dropdown-item {
+  font-size: 0.875em;
+}
+
+dt {
+  float: left;
+  clear: left;
+  margin-right: 0.25rem;
+}
+
+dt.ltr::after {
+  content: ':';
+}
+
+dd.rtl::after {
+  content: ':';
+}
+
+dd {
+  margin: 0px;
+  padding: 0px;
+  margin-left: 110px;
+  margin-inline-start: 0;
+}
+
+a {
+  vertical-align: middle;
+}
+
+calcite-icon {
+  margin-left: 0.25rem;
+}
+
+a:visited {
+  color: inherit;
+}
+
+calcite-dropdown {
+  width: 100%;
+  --calcite-dropdown-width: 100%;
+  /* 
+    The Calcite team removed this line from calcite-dropdown and broke the styling:
+    https://github.com/Esri/calcite-components/commit/b455c397840c68cbdcf72f993269f0746c21a73c#diff-717513f97b6ede6d16b1ad91d26a20deb137955e0743cfebf03b776d4c46a789.
+  */
+  position: relative;
+}
+
+calcite-dropdown-item span {
+  /* Calcite Bootstrap "black" http://esri.github.io/calcite-bootstrap/colors.html */
+  color: #323232;
+}
+
+calcite-button {
+  width: 100%;
+}
+
+calcite-card div {
+  width: 100%;
+}
+
+div[slot="footer-start"] {
+  display: block;
+}

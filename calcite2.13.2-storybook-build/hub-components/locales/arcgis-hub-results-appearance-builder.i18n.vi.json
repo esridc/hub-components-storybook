@@ -1,0 +1,118 @@
+{
+  "layout": {
+    "title": "Bố cục",
+    "helperText": "Thao tác này cấu hình giao diện kết quả khi khách truy cập lần đầu đến danh mục của bạn. Khách truy cập vẫn sẽ có tùy chọn tự thay đổi phương pháp hiển thị.",
+    "enum": {
+      "list": {
+        "label": "Danh sách",
+        "description": "Dùng để hiển thị siêu dữ liệu và khi khách truy cập có thể đang tìm kiếm có chủ đích."
+      },
+      "grid": {
+        "label": "Lưới",
+        "description": "Dùng cho kết quả có hình ảnh thu nhỏ chất lượng cao và khi khách truy cập có thể đang duyệt tìm."
+      },
+      "table": {
+        "label": "Bảng",
+        "description": "Dùng để trình bày kết quả theo định dạng cấu trúc có cột sắp xếp được, lý tưởng khi khách truy cập có thể muốn xem và so sánh nhiều mục và thuộc tính của chúng."
+      },
+      "map": {
+        "label": "Bản đồ",
+        "description": "Dùng cho kết quả gắn với địa chỉ thực và khi có khách truy cập có thể đang tìm hiểu khu vực quan tâm."
+      },
+      "compact": {
+        "label": "Nhỏ gọn",
+        "description": "Dùng để tối đa hóa số lượng kết quả hiển thị trong không gian nhỏ hơn, lý tưởng cho việc duyệt nhanh và xem trên thiết bị di động."
+      }
+    }
+  },
+  "cards": {
+    "title": "Thẻ",
+    "cardTitleTag": {
+      "label": "Đầu mục",
+      "helperText": "Thao tác này có thể được dùng để cải thiện cấu trúc đầu mục lồng nhau nhằm tăng khả năng truy cập. Thao tác sẽ không thay đổi cỡ phông chữ.",
+      "enum": {
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        }
+      }
+    },
+    "showThumbnail": {
+      "label": "Hiển thị hình thu nhỏ",
+      "enum": {
+        "show": {
+          "label": "Luôn luôn",
+          "description": "Hình thu nhỏ sẽ luôn hiển thị trên thẻ kết quả bất kể bố cục kết quả ra sao."
+        },
+        "hide": {
+          "label": "Không hiển thị hình thu nhỏ",
+          "description": "Hình thu nhỏ sẽ không hiển thị trên bất kỳ loại thẻ kết quả nào. Dùng tùy chọn này nếu bạn có hình thu nhỏ chất lượng kém hoặc muốn mọi người có thể xem lướt kết quả danh sách nhanh hơn trên máy tính và di động."
+        },
+        "grid": {
+          "label": "Chỉ dưới dạng lưới",
+          "description": "Hình thu nhỏ sẽ chỉ hiển thị trên thẻ lưới. Thẻ danh sách sẽ hiển thị thêm cột siêu dữ liệu thay cho hình ảnh."
+        }
+      }
+    },
+    "corners": {
+      "label": "Góc",
+      "enum": {
+        "square": {
+          "label": "Hình vuông"
+        },
+        "round": {
+          "label": "Bo tròn"
+        }
+      }
+    },
+    "shadow": {
+      "label": "Đổ bóng",
+      "enum": {
+        "heavy": {
+          "label": "Mạnh"
+        },
+        "low": {
+          "label": "Thấp"
+        },
+        "medium": {
+          "label": "Trung bình"
+        },
+        "none": {
+          "label": "Không có"
+        }
+      }
+    },
+    "showLinkButton": {
+      "label": "Thêm nút",
+      "helperText": "Nếu nút bị tắt thì chỉ có tiêu đề thẻ sẽ là liên kết."
+    },
+    "linkButtonStyle": {
+      "label": "Kiểu giao diện",
+      "enum": {
+        "outline-filled": {
+          "label": "Lấp đầy"
+        },
+        "outline": {
+          "label": "Đường viền"
+        }
+      }
+    },
+    "linkButtonText": {
+      "label": "Văn bản"
+    }
+  }
+}

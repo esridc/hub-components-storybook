@@ -1,0 +1,19 @@
+{
+  "overview": "Überblick",
+  "telemetry": {
+    "pageViews": "Seitenaufrufe",
+    "last30days": "Letzte 30 Tage",
+    "lastUpdated": "Vor {hoursElapsed} Stunden zuletzt aktualisiert",
+    "checkTomorrow": "Versuchen Sie es morgen erneut."
+  },
+  "learnAbout": "Informationen zu Hub-Projekten",
+  "status": {
+    "notStarted": "Nicht gestartet",
+    "inProgress": "In Bearbeitung",
+    "onHold": "Zurückgestellt",
+    "complete": "Abgeschlossen"
+  },
+  "editDetails": "Details bearbeiten",
+  "noPurposeSet": "Kein Zweck festgelegt",
+  "noLocationSet": "Keine Position festgelegt"
+}

@@ -1,0 +1,82 @@
+{
+  "title": "Teilnahme",
+  "subtitle": "Legen Sie die Sichtbarkeit der Diskussionsrunde (d. h. die zur Anzeige berechtigten Benutzer) fest, scrollen Sie nach unten, um die Benutzer festzulegen, die Informationen zur Diskussionsrunde bearbeiten können, und legen Sie anschließend die Teilnahme und Moderation mittels Kanälen fest.",
+  "channelTitle": "Der Teilnahmekanal wurde festgelegt.",
+  "channelDescription": "Dieser Kanal steuert, wer Beiträge in dieser Diskussionsrunde hinzufügen, anzeigen und moderieren kann.",
+  "addChannelsTitle": "Kanal festlegen",
+  "addChannelsDescription": "Kanäle steuern, wer der Diskussionsrunde Beiträge hinzufügen kann. Sie können für Gruppen, eine Organisation oder die Öffentlichkeit zugänglich sein und auf mehrere Diskussionen angewendet werden. Mit Kanälen wird ebenfalls gesteuert, wer moderieren kann. Legen Sie gesperrte Wörter für die automatische Moderation in einem Kanal fest.",
+  "privateChannelTitle": "Privater Kanal wurde festgelegt",
+  "privateChannelDescription": "Der private Kanal, der dieser Diskussionsrunde zugewiesen ist, ist für Sie nicht sichtbar. Sie können den Kanal entfernen und einen vorhandenen Kanal auswählen oder einen neuen Kanal erstellen.",
+  "removeChannelConfirmationMessage": "In dieser Diskussionsrunde werden keine Beiträge mehr angezeigt. Sie können einen Kanal hinzufügen, wenn dieser Kanal entfernt wird.",
+  "headingChannelEdit": "Es wird ein Kanal bearbeitet.",
+  "headingChannelView": "Es wird ein Kanal angezeigt.",
+  "headingChannelCreate": "Es wird ein Kanal erstellt.",
+  "buttons": {
+    "browse": "Kanäle durchsuchen",
+    "new": "Neuer Kanal",
+    "removeChannel": "Kanal entfernen",
+    "cancel": "Abbrechen"
+  },
+  "alerts": {
+    "label": "Formularwarnung",
+    "set": {
+      "title": "Vorgang erfolgreich durchgeführt. Der Kanal wurde festgelegt."
+    },
+    "removed": {
+      "title": "Kanal entfernt",
+      "message": "Wählen Sie einen Kanal für die Teilnahme aus, oder erstellen Sie einen Kanal."
+    },
+    "error": {
+      "title": "Fehlgeschlagen. Der Kanal wurde nicht festgelegt."
+    }
+  },
+  "galleryPickerTitle": "Einen Kanal auswählen",
+  "channelsLabel": "Kanäle",
+  "accessLabel": "Zugriff",
+  "optionPublicLabel": "Öffentlich",
+  "optionOrganizationLabel": "Organisation",
+  "optionPrivateLabel": "Privat",
+  "viewChannel": "Kanal anzeigen",
+  "editChannel": "Kanal bearbeiten",
+  "save": "Speichern",
+  "removeChannel": "Kanal entfernen",
+  "groupPicker": {
+    "facet": {
+      "label": "Aus",
+      "myGroups": "Eigene Gruppen",
+      "myOrganization": "Eigene Organisation",
+      "myCommunity": "Eigene Community"
+    }
+  },
+  "editGroupButtonText": "Bearbeitungsgruppen hinzufügen",
+  "viewGroupButtonText": "Ansichtsgruppen hinzufügen",
+  "viewGroups": {
+    "header": "Zur Anzeige berechtigte Benutzer",
+    "description": "Personen, die die Diskussionsrunde anzeigen (jedoch keine Beiträge schreiben) können. Das Schreiben von Beiträgen wird unten über die Kanäle festgelegt."
+  },
+  "editGroups": {
+    "header": "Zur Bearbeitung berechtigte Benutzer",
+    "description": "Gruppenmitglieder können im Workspace Informationen zur Diskussionsrunde bearbeiten."
+  },
+  "aboutChannelsNotice": {
+    "title": "Einführung von Kanälen",
+    "message": "Bei Kanälen handelt es sich nicht um Gruppen, jedoch können sie Gruppen umfassen. Damit wird festgelegt, wer Beiträge schreiben und moderieren darf.",
+    "action": "Weitere Informationen zu Kanälen"
+  },
+  "nonPrivateChannelNotice": {
+    "title": "Kanal kann nicht bearbeitet werden.",
+    "message": "Dieser Kanal kann nur von den zuständigen Moderatoren bearbeitet werden. Wenden Sie sich bei Bedarf an den Kanalbesitzer oder einen Organisationsadministrator, damit er Sie hinzufügt. Sie haben ebenfalls die Möglichkeit, diesen Kanal zu entfernen, einen vorhandenen Kanal hinzuzufügen (sofern Sie zuständiger Moderator sind) oder einen neuen Kanal zu erstellen."
+  },
+  "privateChannelNotice": {
+    "title": "Kanal kann nicht bearbeitet werden.",
+    "message": "Dieser Kanal kann nur von den zuständigen Moderatoren bearbeitet werden. Wenden Sie sich bei Bedarf an den Kanalbesitzer, damit er Sie hinzufügt. Sie haben ebenfalls die Möglichkeit, diesen Kanal zu entfernen, einen vorhandenen Kanal hinzuzufügen (sofern Sie zuständiger Moderator sind) oder einen neuen Kanal zu erstellen."
+  },
+  "participate": {
+    "header": "Zur Beteiligung und zur Moderation berechtigte Benutzer"
+  },
+  "org": "Organisation",
+  "private": "Privat",
+  "public": "Öffentlich",
+  "unnamed": "Unbenannter Kanal",
+  "groupNotFound": "Gruppe nicht gefunden"
+}

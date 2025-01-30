@@ -1,0 +1,41 @@
+{
+  "managePrivacyButton": "Gerenciar privacidade",
+  "consentNotice": {
+    "allTracking": "Este site foi construído com ArcGIS Hub e usa rastreamento anônimo para melhorar o desempenho e analisar o uso do site de acordo com Declaração de Privacidade da Esri. Sistemas adicionais de rastreamento de terceiros podem monitorar o uso do site.",
+    "anonymousTracking": "Este site foi construído com ArcGIS Hub e usa rastreamento anônimo para melhorar o desempenho e analisar o uso do site de acordo com Declaração de Privacidade da Esri.",
+    "noTracking": "Este site foi construído com o ArcGIS Hub e usa apenas os cookies necessários ao funcionamento do aplicativo e que não podem ser desativados em nossos sistemas.",
+    "thirdPartyTracking": "Este site foi construído com o ArcGIS Hub e usa apenas os cookies necessários ao funcionamento do aplicativo e que não podem ser desativados em nossos sistemas. Sistemas adicionais de rastreamento de terceiros podem monitorar o uso do site."
+  },
+  "consent": {
+    "esriPrivacyLink": "Centro de privacidade da Esri",
+    "customerConsentLink": "Mais informações"
+  },
+  "eueiNotice": {
+    "title": "{orgName} membros não serão rastreados",
+    "message": "O programa Esri User Experience Improvement (EUEI) foi desativado por {orgName}. As atividades relacionadas à sua visita não serão rastreadas; você não pode aceitar estatísticas de uso anônimas ou rastreamento de terceiros.",
+    "link": "Saiba mais sobre o programa (EUEI)."
+  },
+  "notice": {
+    "heading": "Configurações de privacidade",
+    "acceptAllButton": "Aceitar todos os cookies",
+    "acceptNecessaryButton": "Aceite somente os cookies necessários",
+    "confirmButton": "Confirmar",
+    "reviewSettingsButton": "Revise as configurações"
+  },
+  "settings": {
+    "heading": "Configurações de privacidade",
+    "confirmButton": "Confirmar"
+  },
+  "anonymous": {
+    "heading": "Estatísticas de uso anônimas",
+    "helpText": "Esses cookies nos permitem monitorar o desempenho do aplicativo, como fontes de tráfego, visualizações de página e interações. Eles nos ajudam a saber qual conteúdo é eficaz e como os visitantes se movimentam pelo aplicativo. Todas as informações coletadas são anônimas (nenhuma informação de identificação pessoal é armazenada). Se você não permitir esses cookies, não saberemos que você visitou ou interagiu com nosso aplicativo."
+  },
+  "necessary": {
+    "heading": "Cookies estritamente necessários",
+    "helpText": "Estes cookies são necessários para o funcionamento do aplicativo e não podem ser desativados nos nossos sistemas. Eles são definidos em resposta a ações realizadas por você que envolvem uma solicitação de serviços, como efetuar o login na sua conta. Você pode configurar seu navegador para bloquear ou alertar sobre esses cookies, mas algumas partes do aplicativo podem ser afetadas. Todas as informações coletadas são anônimas (nenhuma informação de identificação pessoal é armazenada)."
+  },
+  "thirdParty": {
+    "heading": "Rastreamento de terceiros",
+    "helpText": "Esses cookies podem ser definidos por provedores de rastreamento terceirizados configurados neste site. Eles podem coletar informações de marketing ou de segmentação sobre você durante sua visita. As informações coletadas podem ser usadas para fins fora deste aplicativo. Se você não permitir esses cookies, os provedores de rastreamento terceirizados configurados não receberão nenhuma informação sobre sua visita."
+  }
+}

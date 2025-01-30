@@ -1,0 +1,33 @@
+{
+  "title": "集合",
+  "actions": {
+    "label": "選項",
+    "show": "顯示",
+    "hide": "隱藏",
+    "rename": "重新命名"
+  },
+  "formAlert": "表格警示",
+  "alertMessages": {
+    "success": "已成功儲存編輯內容",
+    "error": "儲存編輯內容時發生錯誤"
+  },
+  "collectionRenameModal": {
+    "title": "重新命名集合",
+    "fieldLabel": "集合標籤",
+    "requiredMessage": "需要集合標籤",
+    "apply": "套用",
+    "maxLengthMessage": "集合標籤不得超過 50 個字元"
+  },
+  "collections": {
+    "dataset": "資料",
+    "site": "網站",
+    "document": "文件",
+    "appAndMap": "應用程式與地圖"
+  },
+  "saveButton": "儲存",
+  "sections": {
+    "collectionConfiguration": {
+      "title": "集合配置"
+    }
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "type": "sparkline",
+  "datasets": [
+    {
+      "data": {
+        "features": [
+          {
+            "attributes": {
+              "timestamp": 1681358399999,
+              "views": 13,
+              "OBJECTID": 2028735881
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1681444799999,
+              "views": 6,
+              "OBJECTID": 518683607
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1681531199999,
+              "views": 9,
+              "OBJECTID": 1155597395
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1681617599999,
+              "views": 0,
+              "OBJECTID": 1314768591
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1681703999999,
+              "views": 4,
+              "OBJECTID": 544677753
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1681790399999,
+              "views": 10,
+              "OBJECTID": 304088853
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1681876799999,
+              "views": 9,
+              "OBJECTID": 83063103
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1681963199999,
+              "views": 19,
+              "OBJECTID": 639290514
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1682049599999,
+              "views": 3,
+              "OBJECTID": 213218157
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1682135999999,
+              "views": 7,
+              "OBJECTID": 2072217163
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1682222399999,
+              "views": 1,
+              "OBJECTID": 1329869650
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1682308799999,
+              "views": 0,
+              "OBJECTID": 1296687691
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1682395199999,
+              "views": 27,
+              "OBJECTID": 489209167
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1682481599999,
+              "views": 28,
+              "OBJECTID": 36486616
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1682567999999,
+              "views": 9,
+              "OBJECTID": 2103438223
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1682654399999,
+              "views": 10,
+              "OBJECTID": 648170469
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1682740799999,
+              "views": 16,
+              "OBJECTID": 1860736012
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1682827199999,
+              "views": 7,
+              "OBJECTID": 423084599
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1682913599999,
+              "views": 7,
+              "OBJECTID": 1196057934
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1682999999999,
+              "views": 1,
+              "OBJECTID": 1631431785
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1683086399999,
+              "views": 7,
+              "OBJECTID": 1291483548
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1683172799999,
+              "views": 16,
+              "OBJECTID": 70352509
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1683259199999,
+              "views": 21,
+              "OBJECTID": 1685570402
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1683345599999,
+              "views": 5,
+              "OBJECTID": 917071414
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1683431999999,
+              "views": 0,
+              "OBJECTID": 338763151
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1683518399999,
+              "views": 0,
+              "OBJECTID": 1495271927
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1683604799999,
+              "views": 8,
+              "OBJECTID": 1014332262
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1683691199999,
+              "views": 9,
+              "OBJECTID": 1935028904
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1683777599999,
+              "views": 3,
+              "OBJECTID": 806391338
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1683863999999,
+              "views": 11,
+              "OBJECTID": 1595868766
+            }
+          },
+          {
+            "attributes": {
+              "timestamp": 1683950399999,
+              "views": 1,
+              "OBJECTID": 776938760
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "series": [
+    {
+      "category": { "field": "timestamp", "label": "Day", "type": "timestamp" },
+      "value": { "field": "views", "label": "Views", "type": "number" }
+    }
+  ]
+}

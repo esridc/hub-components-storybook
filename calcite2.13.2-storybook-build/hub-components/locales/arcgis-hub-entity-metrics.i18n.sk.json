@@ -1,0 +1,75 @@
+{
+  "addMetric": "Pridať metriku",
+  "title": "Metriky",
+  "featured": "Predstavený",
+  "metricDescription": "Merateľná hodnota, ktorá sa používa na sledovanie priebehu projektu buď na základe statických (napr. historických), alebo dynamických (napr. v reálnom čase) dát.",
+  "metricCount": {
+    "label": "{currentCount} / {totalCountAllowed} metriky",
+    "tooltip": "Na pridanie metrík je potrebné vymazanie niektorej zo sád"
+  },
+  "visible": {
+    "title": "Viditeľné",
+    "noMetrics": "V tejto časti sa nenachádzajú žiadne metriky."
+  },
+  "hidden": {
+    "title": "Skryté",
+    "description": "Tieto metriky sa zobrazujú len tým, ktorí majú prístup do tohto pracovného priestoru.",
+    "noMetrics": "V tejto časti sa nenachádzajú žiadne metriky."
+  },
+  "project": {
+    "featured": {
+      "description": "Môžete mať 4 odporúčané metriky. Zobrazia sa v náhľade vášho živého projektu."
+    },
+    "visible": {
+      "description": "Viditeľné metriky sú zobrazené pod kartou Metriky vášho živého projektu."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Metriky budú zodpovedať úrovni zdieľania projektu. Skryté metriky môžu byť stále dostupné prostredníctvom volania API.",
+        "metricsDockLink": "Zistiť viac o nastavení metrík"
+      }
+    }
+  },
+  "initiative": {
+    "featured": {
+      "description": "Môžete mať 4 odporúčané metriky. Zobrazia sa v náhľade vašej živej iniciatívy."
+    },
+    "visible": {
+      "description": "Viditeľné metriky sú zobrazené pod kartou Metriky vášho živého projektu."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Metriky budú zodpovedať úrovni zdieľania iniciatívy. Skryté metriky môžu byť stále dostupné prostredníctvom volania API.",
+        "metricsDockLink": "Zistiť viac o nastavení metrík"
+      }
+    }
+  },
+  "metricNumber": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4"
+  },
+  "actions": {
+    "delete": "Odstrániť",
+    "edit": "Editovať",
+    "featured": "Prvok",
+    "removeFeatured": "Odstrániť prvok",
+    "show": "Presunúť na viditeľné",
+    "hide": "Presunúť na skryté"
+  },
+  "editor": {
+    "heading": "Nová metrika",
+    "description": "V predvolenom nastavení sa metriky automaticky skryjú, aby ich mohli vidieť členovia vašej pracovnej oblasti."
+  },
+  "deleteMetricModal": {
+    "heading": "Odstrániť metriku",
+    "content": "Ste si istý, že chcete odstrániť:",
+    "cancel": "Zrušiť",
+    "delete": "Odstrániť"
+  },
+  "sidePanel": {
+    "definitions": "Definície",
+    "preview": "Náhľad"
+  }
+}

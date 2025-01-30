@@ -1,0 +1,66 @@
+{
+  "followers": "フォロワー",
+  "tabs": {
+    "followers": "フォロワー",
+    "settings": "設定"
+  },
+  "addFollowers": {
+    "label": "フォロワーの追加"
+  },
+  "emptyState": {
+    "message": "サイトにフォロワー グループがありません",
+    "action": "フォロワー グループの作成"
+  },
+  "createFollowersGroup": {
+    "formDescription": "コンテンツの共有とコミュニケーションを促進するグループを設定",
+    "defaultSummary": "このフォロワー グループでは、メンバーがコンテンツの共有とメンバー間のコミュニケーションをより簡単に行うことができます。"
+  },
+  "restrictedAccessState": {
+    "message": "フォロワー グループを表示するためのアクセス権がありません。",
+    "action": "アクセスのリクエスト"
+  },
+  "stats": {
+    "total": {
+      "title": "合計",
+      "trailingText": "フォロワー"
+    },
+    "new": {
+      "title": "新規",
+      "trailingText": "過去 30 日間"
+    }
+  },
+  "addMembers": {
+    "button": "メンバーの追加",
+    "modal": {
+      "title": "メンバーの追加",
+      "org": "組織",
+      "community": "コミュニティ",
+      "partner": "パートナー",
+      "world": "世界"
+    },
+    "notifications": {
+      "invited": "招待が送信されました。 ユーザーが参加するには、同意する必要があります",
+      "added": "ユーザーが追加されました",
+      "notInvited": "一部のユーザーには、グループに参加するために必要な権限がないか、グループ数の上限 (512) に達している可能性があります"
+    }
+  },
+  "removeUsers": {
+    "button": "削除",
+    "success": "メンバーが {groupName} から正常に削除されました。",
+    "error": "1 人以上のユーザーをグループから削除できませんでした。"
+  },
+  "changeRole": {
+    "button": "ロールの変更",
+    "member": "メンバー",
+    "memberHelperText": "グループ内のコンテンツを追加および表示できます。",
+    "tooltipText": "自分自身とグループ所有者のいずれか、または両方の選択解除",
+    "tooltipLabel": "ロールの免責事項",
+    "admin": "管理者",
+    "adminHelperText": "コンテンツを追加/削除して、ユーザー (所有者を除く) を招待/削除できます。",
+    "success": "選択したメンバーがグループの {role} になりました。",
+    "error": "1 人以上のメンバーのロールを変更できませんでした。"
+  },
+  "notice": {
+    "label": "フォームの通知"
+  }
+}

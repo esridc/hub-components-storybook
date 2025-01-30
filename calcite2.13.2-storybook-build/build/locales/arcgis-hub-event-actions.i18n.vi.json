@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "Đăng ký",
+    "registered": "Đã đăng ký",
+    "join": "Tham gia trực tuyến",
+    "in-person": "Trực tiếp",
+    "online": "Trực tuyến",
+    "inPersonFull": "Trực tiếp (đầy chỗ)",
+    "onlineFull": "Trực tuyến (đầy chỗ)",
+    "close": "Đóng"
+  },
+  "tooltip": {
+    "isCanceled": "Sự kiện đã bị hủy",
+    "eventHasEnded": "Sự kiện đã kết thúc",
+    "eventFull": "Sự kiện đầy chỗ",
+    "inPerson": "Đã đăng ký sự kiện trực tiếp",
+    "online": "Đã đăng ký sự kiện trực tuyến",
+    "unavailable": "Có sẵn một giờ trước khi giờ sự kiện bắt đầu"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "Hủy đăng ký sự kiện trực tuyến thành công",
+    "onlineRegistrationConfirmed": "Đã đăng ký sự kiện trực tuyến thành công",
+    "onlineRegistrationError": "Đã xảy ra lỗi không mong muốn khi đăng ký sự kiện trực tuyến",
+    "onlineRegistrationCanceledError": "Đã xảy ra lỗi không mong muốn khi hủy đăng ký sự kiện trực tuyến",
+    "onlineRegistrationAtCapacity": "Bạn đang cố đăng ký sự kiện trực tuyến đã đầy chỗ",
+    "inPersonRegistrationCanceled": "Đã hủy đăng ký sự kiện trực tiếp thành công",
+    "inPersonRegistrationCanceledError": "Đã xảy ra lỗi không mong muốn khi hủy đăng ký sự kiện trực tiếp",
+    "inPersonRegistrationConfirmed": "Đã đăng ký sự kiện trực tiếp thành công",
+    "inPersonRegistrationError": "Đã xảy ra lỗi không mong muốn khi đăng ký sự kiện trực tiếp",
+    "inPersonRegistrationAtCapacity": "Bạn đang cố đăng ký sự kiện trực tiếp đã đầy chỗ"
+  }
+}

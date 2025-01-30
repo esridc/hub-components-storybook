@@ -1,0 +1,66 @@
+{
+  "followers": "Seuraajat",
+  "tabs": {
+    "followers": "Seuraajat",
+    "settings": "Asetukset"
+  },
+  "addFollowers": {
+    "label": "Lisää seuraajia"
+  },
+  "emptyState": {
+    "message": "Sivustolla ei ole seuraajaryhmää",
+    "action": "Luo seuraajaryhmä"
+  },
+  "createFollowersGroup": {
+    "formDescription": "Luo ryhmä helpompaa sisällön jakamista ja viestintää varten",
+    "defaultSummary": "Tämän seuraajaryhmän avulla jäsenet voivat helpommin jakaa sisältöä ja viestiä toisten kanssa"
+  },
+  "restrictedAccessState": {
+    "message": "Sinulla ei ole seuraajaryhmän käyttöoikeutta.",
+    "action": "Pyydä käyttöoikeutta"
+  },
+  "stats": {
+    "total": {
+      "title": "Yhteensä",
+      "trailingText": "Seuraajat"
+    },
+    "new": {
+      "title": "Uusi",
+      "trailingText": "Edelliset 30 päivää"
+    }
+  },
+  "addMembers": {
+    "button": "Lisää jäseniä",
+    "modal": {
+      "title": "Lisää jäseniä",
+      "org": "Oma organisaatio",
+      "community": "Oma yhteisö",
+      "partner": "Omat kumppanit",
+      "world": "Maailma"
+    },
+    "notifications": {
+      "invited": "Kutsu on lähetetty. Käyttäjien on hyväksyttävä liittymistä varten",
+      "added": "Käyttäjät liitetty",
+      "notInvited": "Joidenkin jäsenten käyttöoikeudet eivät riitä ryhmään liittymiseen tai ryhmän enimmäismäärä (512) on täyttynyt"
+    }
+  },
+  "removeUsers": {
+    "button": "Poista",
+    "success": "Jäsenten poisto ryhmästä {groupName} onnistui.",
+    "error": "Vähintään yhtä käyttäjää ei voitu poistaa ryhmästä."
+  },
+  "changeRole": {
+    "button": "Vaihda rooli",
+    "member": "Jäsen",
+    "memberHelperText": "Voi lisätä sisältöä ryhmään ja katsoa ryhmän sisältöä.",
+    "tooltipText": "Poista itsesi tai ryhmän omistajan valinta",
+    "tooltipLabel": "Roolin vastuuvapauslauseke",
+    "admin": "Hallinnoija",
+    "adminHelperText": "Voi lisätä tai poistaa sisältöä ja kutsua tai poistaa ihmisiä (paitsi omistajan).",
+    "success": "Valituista jäsenistä tuli ryhmä {role}.",
+    "error": "Vähintään yhden jäsenen roolia ei voitu vaihtaa."
+  },
+  "notice": {
+    "label": "Lomakevaroitus"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "title": "Content",
+  "facets": {
+    "type": "Type",
+    "tags": "Tag",
+    "categories": "Category",
+    "sharing": "Sharing",
+    "dateUpdated": "Date updated",
+    "map": {
+      "label": "Location",
+      "tooltip": "Apply the map extent as a location filter"
+    }
+  },
+  "shareContent": {
+    "buttonText": "Add content",
+    "disabledTooltip": "You do not have access to add content to this group.",
+    "catalog": {
+      "myContent": "My content",
+      "favorites": "Favorites",
+      "organization": "My organization",
+      "world": "World (Public)"
+    },
+    "facets": {
+      "type": "Type",
+      "sharing": "Sharing"
+    },
+    "collection": {
+      "appsAndMaps": "Apps & Maps",
+      "dataset": "Data",
+      "documents": "Documents",
+      "feedback": "Feedback",
+      "sites": "Sites",
+      "projects": "Projects",
+      "projectsAndInitiatives": "Projects & Initiatives"
+    },
+    "modal": {
+      "title": "Add content"
+    },
+    "unsharedModal": {
+      "title": "Items not added",
+      "notice": {
+        "icon": "exclamation-mark-triangle",
+        "type": "danger",
+        "title": "Action incomplete",
+        "message": "Some items could not be added. This may be due to mismatched sharing levels within the content or because the owner of the item is not a member of the group.",
+        "linkText": "Read more about sharing"
+      }
+    },
+    "itemSharedSuccessAlert": "Item(s) successfully shared"
+  },
+  "close": "Close",
+  "newTab": "opens in new tab",
+  "unshareContent": {
+    "remove": "Remove",
+    "success": "Content successfully removed from {groupName}.",
+    "unsharedModal": {
+      "title": "Items not removed",
+      "notice": {
+        "icon": "exclamation-mark-triangle",
+        "type": "danger",
+        "title": "Action incomplete",
+        "message": "Some items could not be removed."
+      }
+    }
+  },
+  "notice": {
+    "label": "Form alert"
+  }
+}

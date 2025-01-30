@@ -1,0 +1,1 @@
+const t=["B","KB","MB","GB","TB","PB","EB","ZB","YB"];function B(B,a={}){let M;M=0===B?t.indexOf(a.unit||"KB"):a.unit?t.indexOf(a.unit):Math.min(Math.floor(Math.log10(B)/3),t.length-1);const h=Number.isInteger(a.round)?a.round:2,e=Math.pow(10,h);return B/=Math.pow(1e3,M),(B=Math.round(B*e)/e).toLocaleString(a.locale)+" "+t[M]}export{B as f}

@@ -1,0 +1,41 @@
+{
+  "managePrivacyButton": "Administrer personvern",
+  "consentNotice": {
+    "allTracking": "Dette området er bygget med ArcGIS Hub og bruker anonym sporing for å forbedre ytelsen og analysere bruken av området, i samsvar med Esris personvernerklæring. Ytterligere tredjeparts sporingssystemer kan overvåke bruken din av området.",
+    "anonymousTracking": "Dette området er bygget med ArcGIS Hub og bruker anonym sporing for å forbedre ytelsen og analysere bruken av området, i samsvar med Esris personvernerklæring.",
+    "noTracking": "Dette området er bygget med ArcGIS Hub og bruker bare informasjonskapsler som er nødvendige for at appen skal fungere, og de kan ikke deaktiveres i systemene våre.",
+    "thirdPartyTracking": "Dette området er bygget med ArcGIS Hub og bruker bare informasjonskapsler som er nødvendige for at appen skal fungere, og de kan ikke deaktiveres i systemene våre. Ytterligere tredjeparts sporingssystemer kan overvåke bruken din av området."
+  },
+  "consent": {
+    "esriPrivacyLink": "Esris personvernsenter",
+    "customerConsentLink": "Mer informasjon"
+  },
+  "eueiNotice": {
+    "title": "{orgName} medlemmer blir ikke sporet",
+    "message": "EUEI-programmet (Esri User Experience Improvement) er deaktivert for {orgName}. Aktiviteter knyttet til besøket spores ikke. Du kan ikke godta anonym bruksstatistikk eller tredjepartssporing.",
+    "link": "Mer informasjon om EUEI-programmet"
+  },
+  "notice": {
+    "heading": "Personverninnstillinger",
+    "acceptAllButton": "Godta alle informasjonskapsler",
+    "acceptNecessaryButton": "Bare godta nødvendige informasjonskapsler",
+    "confirmButton": "Bekreft",
+    "reviewSettingsButton": "Gjennomgå innstillinger"
+  },
+  "settings": {
+    "heading": "Personverninnstillinger",
+    "confirmButton": "Bekreft"
+  },
+  "anonymous": {
+    "heading": "Anonym bruksstatistikk",
+    "helpText": "Disse informasjonskapslene gir oss mulighet til å overvåke ytelsen for applikasjonen, som hvor trafikken kommer fra, sidevisninger og interaksjoner. De gir oss innblikk i hvilket innhold som fungerer og hvordan besøkene navigerer rundt i applikasjonen. All informasjon samles inn anonymt (det lagres ikke informasjon som kan identifisere deg). Hvis du ikke godtar disse informasjonskapslene, vil vi ikke vite at du besøkte eller brukte applikasjonen."
+  },
+  "necessary": {
+    "heading": "Strengt nødvendige informasjonskapsler",
+    "helpText": "Disse informasjonskapslene kreves for at applikasjonen skal fungere og de kan ikke aktiveres i systemene våre. De angis som svar på handlinger du fortar som omfatte en tjenesteforespørsel, for eksempel at du logger på kontoen din. Du kan angi at nettleseren skal blokkere eller varsle deg om disse informasjonskapslene, men det kan påvirke deler av applikasjonen. All informasjon samles inn anonymt (det lagres ikke informasjon som kan identifisere deg)."
+  },
+  "thirdParty": {
+    "heading": "Tredjepartssporing",
+    "helpText": "Disse informasjonskapslene kan bli angitt av tredjepartsleverandører av sporingstjenester som er konfigurert på dette området. De kan samle inn målrettings- eller markedsføringsinformasjon om deg under besøket. Informasjonen som samles inn kan brukes til formål utenfor applikasjonen. Hvis du ikke godtar disse informasjonskapslene, mottar tredjepartsleverandører av sporingstjenester ingen informasjon om besøket ditt."
+  }
+}

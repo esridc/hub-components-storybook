@@ -1,0 +1,15 @@
+{
+  "timeoutError": {
+    "message": "Sunucu bağlantısı süresi doldu ve istatistiği görüntüleyemedi.",
+    "title": "Sunucu süresi doldu"
+  },
+  "genericError": {
+    "message": "İstatistik görüntülenemiyor.",
+    "title": "Bir şey ters gitti"
+  },
+  "loading": "İstatistikler yükleniyor",
+  "source": "Kaynak:",
+  "dismiss": "Vazgeç",
+  "moreInfo": "Daha fazla bilgi",
+  "openInfo": "Daha fazla bilgiyi aç"
+}

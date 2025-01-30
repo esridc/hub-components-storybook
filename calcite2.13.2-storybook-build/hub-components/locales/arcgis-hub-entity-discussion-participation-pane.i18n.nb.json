@@ -1,0 +1,82 @@
+{
+  "title": "Deltakelse",
+  "subtitle": "Angi synlighet for diskusjonstavle (hvem som kan se den), rull nedover for å angi hvem som kan redigere informasjon på tavlen, og angi deretter deltakelse og moderering med kanaler.",
+  "channelTitle": "Deltakelseskanal er angitt",
+  "channelDescription": "Denne kanalen styrer hvem som kan legge til, vise og moderere innlegg på denne diskusjonstavlen.",
+  "addChannelsTitle": "Angi kanal",
+  "addChannelsDescription": "Kanaler styrer hvem som kan poste på tavlen. De kan være åpne for grupper, en organisasjon eller allmennheten og kan brukes på mange diskusjoner. Kanaler styrer også hvem som kan moderere. Angi blokkerte ord for automatisk moderering i en kanal.",
+  "privateChannelTitle": "Privat kanal er angitt",
+  "privateChannelDescription": "Du kan ikke se den private kanalen som er tilordnet denne diskusjonstavlen. Du kan fjerne kanalen og velge en eksisterende kanal eller opprette en kanal.",
+  "removeChannelConfirmationMessage": "Innlegg vises ikke lenger på diskusjonstavlen. Du kan legge til en kanal hvis denne kanalen fjernes.",
+  "headingChannelEdit": "Du redigerer en kanal",
+  "headingChannelView": "Du viser en kanal",
+  "headingChannelCreate": "Du oppretter en kanal",
+  "buttons": {
+    "browse": "Bla gjennom kanaler",
+    "new": "Ny kanal",
+    "removeChannel": "Fjern kanal",
+    "cancel": "Avbryt"
+  },
+  "alerts": {
+    "label": "Skjemavarsel",
+    "set": {
+      "title": "Vellykket. Kanalen er angitt."
+    },
+    "removed": {
+      "title": "Kanal fjernet",
+      "message": "Velg eller opprett en kanal for deltakelse."
+    },
+    "error": {
+      "title": "Mislyktes. Kanalen ble ikke angitt."
+    }
+  },
+  "galleryPickerTitle": "Velg en kanal",
+  "channelsLabel": "Kanaler",
+  "accessLabel": "Tilgang",
+  "optionPublicLabel": "Offentlig",
+  "optionOrganizationLabel": "Organisasjon",
+  "optionPrivateLabel": "Privat",
+  "viewChannel": "Vis kanal",
+  "editChannel": "Rediger kanal",
+  "save": "Lagre",
+  "removeChannel": "Fjern kanal",
+  "groupPicker": {
+    "facet": {
+      "label": "Fra",
+      "myGroups": "Mine grupper",
+      "myOrganization": "Min organisasjon",
+      "myCommunity": "Mitt fellesskap"
+    }
+  },
+  "editGroupButtonText": "Legg til redigeringsgrupper",
+  "viewGroupButtonText": "Legg til visningsgrupper",
+  "viewGroups": {
+    "header": "Hvem kan se",
+    "description": "Personer som kan se (men ikke poste til) tavlen. Posting angis av kanalene nedenfor."
+  },
+  "editGroups": {
+    "header": "Hvem kan redigere",
+    "description": "Gruppemedlemmer kan redigere informasjon på tavlene i arbeidsområdet."
+  },
+  "aboutChannelsNotice": {
+    "title": "Innføring i kanaler",
+    "message": "Kanaler er ikke grupper, men kan inneholde grupper. De bestemmer hvem som kan poste og moderere.",
+    "action": "Mer om kanaler"
+  },
+  "nonPrivateChannelNotice": {
+    "title": "Kan ikke redigere kanal",
+    "message": "Bare moderatorer for denne kanalen kan redigere den. Kontakt om nødvendig kanaleier eller organisasjonsadministrator for å legge til. Du kan også fjerne denne kanalen, legge til en eksisterende kanal (som du er moderator for) eller opprette en ny kanal."
+  },
+  "privateChannelNotice": {
+    "title": "Kan ikke redigere kanal",
+    "message": "Bare moderatorer for denne kanalen kan redigere den. Kontakt om nødvendig kanaleier for å legge til. Du kan også fjerne denne kanalen, legge til en eksisterende kanal (som du er moderator for) eller opprette en ny kanal."
+  },
+  "participate": {
+    "header": "Hvem kan delta og hvem kan moderere"
+  },
+  "org": "Organisasjon",
+  "private": "Privat",
+  "public": "Offentlig",
+  "unnamed": "Kanal uten navn",
+  "groupNotFound": "Fant ikke gruppen"
+}

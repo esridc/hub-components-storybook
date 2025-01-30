@@ -1,0 +1,19 @@
+{
+  "facets": {
+    "location": {
+      "label": "מיקום",
+      "tooltip": "החל את תיחום המפה כפילטר מיקום"
+    },
+    "status": "סטטוס",
+    "tags": "תגיות",
+    "categories": "קטגוריות",
+    "dateUpdated": "תאריך עדכון"
+  },
+  "status": {
+    "label": "סטטוס פרויקט",
+    "notStarted": "לא התחיל",
+    "inProgress": "בביצוע",
+    "onHold": "בהמתנה",
+    "complete": "הושלם"
+  }
+}

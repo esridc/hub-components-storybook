@@ -1,0 +1,16 @@
+{
+  "all": "Viss",
+  "source": "Avots",
+  "targetEntity": {
+    "item": "Vienības",
+    "group": "Grupas",
+    "user": "Lietotāji",
+    "portalUser": "Portāla lietotāji",
+    "communityUser": "Kopienas lietotāji",
+    "groupMember": "Grupas dalībnieki",
+    "event": "Pasākumi",
+    "channel": "Kanāli",
+    "discussionPost": "Ziņas",
+    "eventAttendee": "Pasākuma reģistranti"
+  }
+}

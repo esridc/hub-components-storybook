@@ -1,0 +1,72 @@
+{
+  "addContent": "Lägg till innehåll",
+  "addContentType": {
+    "event": "Skapa händelse",
+    "discussion": "Skapa diskussion",
+    "group": "Skapa grupp",
+    "initiative": "Skapa initiativ",
+    "project": "Skapa projekt",
+    "page": "Skapa sida",
+    "site:": "Skapa webbplats"
+  },
+  "tooltip": {
+    "label": "Inaktiverad",
+    "noCatalog": "Lägg till grupper i katalogen för att lägga till innehåll.",
+    "noPermission": "Du saknar behörighet att lägga till innehåll i katalogen.",
+    "no-permission": "Du saknar behörighet att lägga till innehåll i katalogen.",
+    "not-in-groups": "Du är inte medlem i några grupper som definierar katalogen.",
+    "too-many-groups": "Du har maximalt antal grupper och kan inte skapa fler."
+  },
+  "existing": {
+    "description": "Lägg till innehåll som redan finns i {onlineOrEnterprise}",
+    "modalTitle": "Välj befintligt innehåll",
+    "title": "Välj befintligt innehåll"
+  },
+  "create": {
+    "app": {
+      "description": "Skapa en upplevelse, berätta en historia eller visualisera dina data",
+      "modalTitle": "Skapa app",
+      "title": "App"
+    },
+    "event": {
+      "description": "Var värd för organiserade aktiviteter, personligen eller virtuellt",
+      "modalTitle": "Skapa händelse",
+      "title": "Evenemang"
+    },
+    "content": {
+      "description": "Lägg till data, dokument, bilder och externa länkar till webbplatsen",
+      "modalTitle": "Skapa innehåll",
+      "title": "Innehåll"
+    },
+    "discussion": {
+      "description": "Samla in idéer och feedback",
+      "modalTitle": "Skapa diskussionstavla",
+      "title": "Diskussionstavla"
+    },
+    "group": {
+      "description": "Organisera personer för innehållsdelning och diskussioner",
+      "modalTitle": "Skapa grupp",
+      "title": "Grupp"
+    },
+    "initiative": {
+      "description": "Lyft fram strategiska insatser med definierade mål som organiserar projekt",
+      "modalTitle": "Skapa initiativ",
+      "title": "Initiativ"
+    },
+    "page": {
+      "description": "Presentera information i en strukturerad layout",
+      "modalTitle": "Skapa sida",
+      "title": "Sida"
+    },
+    "project": {
+      "description": "Visa upp arbete med tydliga mål och tidsramar",
+      "modalTitle": "Skapa projekt",
+      "title": "Projekt"
+    },
+    "site": {
+      "description": "Skapa en varumärkt webbplats för att samverka med din community",
+      "modalTitle": "Skapa webbplats",
+      "title": "Webbplats"
+    }
+  }
+}

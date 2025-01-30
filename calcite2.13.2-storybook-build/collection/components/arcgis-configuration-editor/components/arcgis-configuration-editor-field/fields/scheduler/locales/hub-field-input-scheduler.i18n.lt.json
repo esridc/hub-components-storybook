@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "Automatizuota Hub",
+      "actionText": "Parinkties „Automatinis“ informacija"
+    },
+    "daily": {
+      "defaultLabel": "Kasdien",
+      "defaultExpandedHelperText": "Kasdien pasirinktą valandą pagal pasirinktą laiko juostą.",
+      "actionText": "Parinkties „Kasdien“ informacija"
+    },
+    "weekly": {
+      "defaultLabel": "Kas savaitę",
+      "defaultExpandedHelperText": "Kiekvieną savaitę kitą dieną ir valandą pagal pasirinktą laiko juostą.",
+      "actionText": "Parinkties „Kas savaitę“ informacija"
+    },
+    "monthly": {
+      "defaultLabel": "Kas mėnesį",
+      "defaultExpandedHelperText": "Kiekvieną mėnesį kitą dieną ir valandą pagal pasirinktą laiko juostą.",
+      "actionText": "Parinkties „Kas mėnesį“ informacija"
+    },
+    "yearly": {
+      "defaultLabel": "Kasmet",
+      "defaultExpandedHelperText": "Kiekvienais metais kitą mėnesį, dieną ir valandą pagal pasirinktą laiko juostą.",
+      "actionText": "Parinkties „Kasmet“ informacija"
+    },
+    "manual": {
+      "defaultLabel": "Rankinis",
+      "defaultExpandedHelperText": "Naudokite šią parinktį, jei norite rankiniu būdu atnaujinti šio elemento paieškos indeksą ir talpykloje saugomus atsisiuntimo failus.",
+      "actionText": "Parinkties „Rankinis“ informacija"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "Dienos metas",
+      "inputMessage": "Laikas bus suapvalintas iki artimiausios valandos.",
+      "error": "Pasirinkite valandą."
+    },
+    "day": {
+      "helperText": "Savaitės diena",
+      "daysOfTheWeek": {
+        "sunday": "Sekmadienis",
+        "monday": "Pirmadienis",
+        "tuesday": "Antradienis",
+        "wednesday": "Trečiadienis",
+        "thursday": "Ketvirtadienis",
+        "friday": "Penktadienis",
+        "saturday": "Šeštadienis"
+      },
+      "selectLabel": "Savaitės dienos parinkiklis",
+      "error": "Pasirinkite savaitės dieną."
+    },
+    "date": {
+      "helperText": "Mėnesio diena",
+      "inputNumberPlaceholder": "Pasirinkti mėnesio dieną",
+      "inputMessage": "Įveskite mėnesio dienos reikšmę nuo 1 iki 28.",
+      "error": "Mėnesio diena turi būti tarp 1 ir 28."
+    },
+    "month": {
+      "helperText": "Metų mėnesis",
+      "selectLabel": "Mėtų mėnėsio parinkiklis",
+      "monthsOfTheYear": {
+        "january": "Sausis",
+        "february": "Vasaris",
+        "march": "Kovas",
+        "april": "Balandis",
+        "may": "Gegužė",
+        "june": "Birželis",
+        "july": "Liepa",
+        "august": "Rugpjūtis",
+        "september": "Rugsėjis",
+        "october": "Spalis",
+        "november": "Lapkritis",
+        "december": "Gruodis"
+      },
+      "error": "Pasirinkite mėnesį."
+    },
+    "timezone": {
+      "helperText": "Laiko juosta",
+      "error": "Pasirinkite laiko juostą."
+    }
+  },
+  "fieldHeader": "Dažnumas"
+}

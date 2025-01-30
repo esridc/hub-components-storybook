@@ -1,0 +1,53 @@
+{
+  "settings": "Innstillinger",
+  "formDisabledTooltip": "Du har ikke tilgang til å foreta endringer i denne {type}.",
+  "delete": {
+    "project": "Slett dette prosjektet",
+    "initiative": "Slett dette initiativet",
+    "site": "Slett dette området",
+    "discussion": "Slett denne diskusjonen",
+    "content": "Slett dette innholdet",
+    "page": "Slett denne siden",
+    "group": "Slett denne gruppen",
+    "initiativeTemplate": "Slett denne initiativmalen",
+    "template": "Slett denne malen",
+    "survey": "Slett denne undersøkelsen",
+    "desc": {
+      "project": "Sletting av dette prosjektet kan ikke angres.",
+      "initiative": "Sletting av dette initiativet kan ikke angres.",
+      "site": "Hvis området slettes, kan det ikke angres.",
+      "discussion": "Hvis diskusjonen slettes, kan det ikke angres.",
+      "content": "Hvis innholdet slettes, kan det ikke angres.",
+      "page": "Hvis siden slettes, kan det ikke angres.",
+      "group": "Hvis gruppen slettes, kan det ikke angres.",
+      "initiativeTemplate": "Sletting av denne initiativmalen kan ikke angres.",
+      "template": "Hvis malen slettes, kan det ikke angres.",
+      "survey": "Hvis undersøkelsen slettes, kan det ikke angres."
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "project": "Slett prosjekt",
+      "initiative": "Slett initiativ",
+      "site": "Slett område",
+      "discussion": "Slett diskusjon",
+      "content": "Slett innhold",
+      "page": "Slett side",
+      "group": "Slett gruppe",
+      "initiativeTemplate": "Slett initiativmal",
+      "template": "Slett mal",
+      "survey": "Slett undersøkelse"
+    },
+    "content": "Er du sikker på at du vil slette:",
+    "delete": "Slett",
+    "cancel": "Avbryt"
+  },
+  "sidePanel": {
+    "content": {
+      "extractNotice": {
+        "title": "Trekk ut-funksjonen endrer innstillingene for tjenesten.",
+        "message": "Dette påvirker andre elementer som refererer til tjenesten. Du finner mer informasjon i <docLink>Eksporter data fra hostede geoobjektlag</docLink>"
+      }
+    }
+  }
+}

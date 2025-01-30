@@ -1,0 +1,19 @@
+{
+  "facets": {
+    "location": {
+      "label": "Localisation",
+      "tooltip": "Appliquer l’étendue de la carte en tant que filtre de localisation"
+    },
+    "status": "Statut",
+    "tags": "Balises",
+    "categories": "Catégories",
+    "dateUpdated": "Date de mise à jour"
+  },
+  "status": {
+    "label": "Statut du projet",
+    "notStarted": "Non commencé",
+    "inProgress": "En cours",
+    "onHold": "Suspendu",
+    "complete": "Terminé"
+  }
+}

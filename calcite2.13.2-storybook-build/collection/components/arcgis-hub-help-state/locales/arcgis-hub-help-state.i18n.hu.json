@@ -1,0 +1,26 @@
+{
+  "unauthenticated": {
+    "heading": "Jelentkezzen be.",
+    "message": "A webhelyhez való hozzáféréshez hitelesítő adatok szükségesek.",
+    "actionText": "Bejelentkezés"
+  },
+  "not-found": {
+    "heading": "Az oldal nem található",
+    "message": "Lehet, hogy az oldalt áthelyezték vagy törölték. Próbálja meg a keresést a kezdőoldalról",
+    "actionText": "Ugrás a kezdőoldalra"
+  },
+  "unsupported-device": {
+    "heading": "Nem támogatott képernyőméret",
+    "message": "A munkaterületek még nem állnak rendelkezésre kisebb képernyőméreteken; kérjük, használjon szélesebb képernyővel rendelkező eszközt.",
+    "actionText": "Vissza"
+  },
+  "access-denied": {
+    "heading": "Hozzáférés megtagadva",
+    "message": "Nincs jogosultsága az erőforráshoz való hozzáférésre.",
+    "actionText": "Ugrás a kezdőoldalra"
+  },
+  "loading": {
+    "heading": "Betöltés...",
+    "loadingLabel": "Betöltés"
+  }
+}

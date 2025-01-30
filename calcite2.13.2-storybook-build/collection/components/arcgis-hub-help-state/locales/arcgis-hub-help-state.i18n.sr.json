@@ -1,0 +1,26 @@
+{
+  "unauthenticated": {
+    "heading": "Prijavite se.",
+    "message": "Ova lokacija zahteva dozvolu za pristup.",
+    "actionText": "Prijavite se"
+  },
+  "not-found": {
+    "heading": "Stranica nije pronađena",
+    "message": "Ova stranica je možda premeštena ili izbrisana. Pokušajte da je potražite sa početne stranice",
+    "actionText": "Idi na početnu stranicu"
+  },
+  "unsupported-device": {
+    "heading": "Nepodržana veličina ekrana",
+    "message": "Radni prostori još uvek nisu dostupni na manjim veličinama ekrana; koristite uređaj sa širim ekranom.",
+    "actionText": "Idi nazad"
+  },
+  "access-denied": {
+    "heading": "Pristup je odbijen",
+    "message": "Nemate dozvole za pristupanje ovom resursu.",
+    "actionText": "Idi na početnu stranicu"
+  },
+  "loading": {
+    "heading": "Učitavanje...",
+    "loadingLabel": "Učitavanje"
+  }
+}

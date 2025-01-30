@@ -1,0 +1,72 @@
+{
+  "addContent": "İçerik ekle",
+  "addContentType": {
+    "event": "Etkinlik oluştur",
+    "discussion": "Tartışma oluştur",
+    "group": "Grup oluştur",
+    "initiative": "İnisiyatif oluştur",
+    "project": "Proje oluştur",
+    "page": "Sayfa oluştur",
+    "site:": "Site oluştur"
+  },
+  "tooltip": {
+    "label": "Devre Dışı Bırak",
+    "noCatalog": "İçerik eklemek için kataloğa grup ekleyin.",
+    "noPermission": "Kataloğa içerik eklemek için izniniz yok.",
+    "no-permission": "Kataloğa içerik eklemek için izniniz yok.",
+    "not-in-groups": "Kataloğu tanımlayan herhangi bir grubun üyesi değilsiniz.",
+    "too-many-groups": "Maksimum grup sayısına sahipsiniz ve daha fazlasını oluşturamazsınız."
+  },
+  "existing": {
+    "description": "{onlineOrEnterprise}'de zaten olan içeriği ekle",
+    "modalTitle": "Mevcut içeriği seç",
+    "title": "Mevcut içeriği seç"
+  },
+  "create": {
+    "app": {
+      "description": "Bir deneyim oluşturun, bir hikaye anlatın veya verilerinizi görselleştirin",
+      "modalTitle": "Uygulama oluştur",
+      "title": "Uygulama"
+    },
+    "event": {
+      "description": "Şahsen veya sanal olarak etkinliklere ev sahipliği yapın",
+      "modalTitle": "Etkinlik oluştur",
+      "title": "Etkinlik"
+    },
+    "content": {
+      "description": "Sitenize veriler, belgeler, görüntüler ve harici bağlantılar ekleyin",
+      "modalTitle": "İçerik oluştur",
+      "title": "İçerik"
+    },
+    "discussion": {
+      "description": "Fikirler ve geri bildirimler toplayın",
+      "modalTitle": "Tartışma panosu oluştur",
+      "title": "Tartışma Panosu"
+    },
+    "group": {
+      "description": "İçerik paylaşımı ve tartışmalar için insanları organize edin",
+      "modalTitle": "Grup oluştur",
+      "title": "Grup"
+    },
+    "initiative": {
+      "description": "Projeleri düzenleyen tanımlanmış hedeflerle stratejik çabaları vurgulayın",
+      "modalTitle": "İnisiyatif oluştur",
+      "title": "İnisiyatif"
+    },
+    "page": {
+      "description": "Bilgileri yapılandırılmış bir düzende sunun",
+      "modalTitle": "Sayfa oluştur",
+      "title": "Sayfa"
+    },
+    "project": {
+      "description": "Çalışmaları net hedefler ve zaman dilimleriyle sergileyin",
+      "modalTitle": "Proje oluştur",
+      "title": "Proje"
+    },
+    "site": {
+      "description": "Topluluğunuzla etkileşim kurmak için markalı bir web sitesi oluşturun",
+      "modalTitle": "Site oluştur",
+      "title": "Site"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "followers": "Pengikut",
+  "tabs": {
+    "followers": "Pengikut",
+    "settings": "Pengaturan"
+  },
+  "addFollowers": {
+    "label": "Tambahkan pengikut"
+  },
+  "emptyState": {
+    "message": "Situs tidak memiliki grup pengikut",
+    "action": "Buat grup pengikut"
+  },
+  "createFollowersGroup": {
+    "formDescription": "Siapkan grup untuk memfasilitasi berbagi konten dan komunikasi",
+    "defaultSummary": "Grup pengikut ini memungkinkan anggotanya lebih mudah berbagi konten dan berkomunikasi satu sama lain"
+  },
+  "restrictedAccessState": {
+    "message": "Anda tidak memiliki akses untuk melihat grup pengikut.",
+    "action": "Minta akses"
+  },
+  "stats": {
+    "total": {
+      "title": "Total",
+      "trailingText": "Pengikut"
+    },
+    "new": {
+      "title": "Baru",
+      "trailingText": "30 hari terakhir"
+    }
+  },
+  "addMembers": {
+    "button": "Tambahkan anggota",
+    "modal": {
+      "title": "Tambahkan anggota",
+      "org": "Organisasi saya",
+      "community": "Komunitas saya",
+      "partner": "Mitra saya",
+      "world": "Dunia"
+    },
+    "notifications": {
+      "invited": "Undangan terkirim. Pengguna harus menerima untuk bergabung",
+      "added": "Pengguna ditambahkan",
+      "notInvited": "Beberapa pengguna mungkin tidak memiliki hak istimewa yang diperlukan untuk bergabung dengan grup atau mungkin berada pada batas maksimum grup (512)"
+    }
+  },
+  "removeUsers": {
+    "button": "Hapus",
+    "success": "Anggota berhasil dihapus dari {groupName}.",
+    "error": "Satu atau beberapa pengguna tidak dapat dihapus dari grup."
+  },
+  "changeRole": {
+    "button": "Ubah peran",
+    "member": "Anggota",
+    "memberHelperText": "Dapat menambahkan dan melihat konten dalam grup.",
+    "tooltipText": "Batalkan pilihan diri Anda dan/atau pemilik grup",
+    "tooltipLabel": "Penafian peran",
+    "admin": "Pengelola",
+    "adminHelperText": "Dapat menambahkan/menghapus konten dan mengundang/menghapus orang (kecuali pemilik).",
+    "success": "Anggota yang dipilih menjadi grup {role}.",
+    "error": "Peran tidak dapat diubah untuk satu atau beberapa anggota."
+  },
+  "notice": {
+    "label": "Peringatan formulir"
+  }
+}

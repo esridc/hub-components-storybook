@@ -1,0 +1,43 @@
+{
+  "header": "Discussions",
+  "myContent": "Mes événements",
+  "editableContent": "Contenu modifiable",
+  "addContentButtonText": "Créer un événement",
+  "type": "Type",
+  "sharedUpdate": "Groupe de mise à jour partagée",
+  "viewOnly": "Groupe de consultation uniquement",
+  "owner": "Propriétaire",
+  "updated": "Mise à jour",
+  "tags": "Balises",
+  "dateCreated": "Création",
+  "dateUpdated": "Modification",
+  "actionLinks": {
+    "view": "Afficher",
+    "edit": "Modifier",
+    "ariaEdit": "Modifier : {title}",
+    "ariaView": "Afficher : {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Événements",
+      "myContent": "Événements dont je suis propriétaire",
+      "editableContent": "Événements que je peux modifier",
+      "all": "Tous les événements"
+    },
+    "access": {
+      "label": "Provenance"
+    },
+    "type": {
+      "label": "Types"
+    },
+    "tags": {
+      "label": "Balises"
+    },
+    "categories": {
+      "label": "Catégories"
+    },
+    "modified": {
+      "label": "Modification"
+    }
+  }
+}

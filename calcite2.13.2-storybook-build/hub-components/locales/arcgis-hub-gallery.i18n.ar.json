@@ -1,0 +1,91 @@
+{
+  "moreResults": "المزيد من النتائج",
+  "search": "بحث",
+  "filter": "عوامل تصفية",
+  "viewResults": "عرض النتائج ({numResults})",
+  "resultsCount": "1 - {pageTotal} من {searchTotal}",
+  "backToTop": "رجوع إلى الأعلى",
+  "facets": {
+    "access": {
+      "label": "مشاركة",
+      "private": "نفسي",
+      "shared": "المالك والمجموعات",
+      "org": "المؤسسة",
+      "public": "عام"
+    },
+    "license": {
+      "label": "الترخيص",
+      "tooltip": "على المحتوى العام فقط",
+      "custom": "تخصيص",
+      "none": "لا شيء"
+    },
+    "type": {
+      "label": "النوع"
+    },
+    "tags": {
+      "label": "العلامات"
+    },
+    "dateUpdated": {
+      "label": "تاريخ التحديث"
+    },
+    "source": {
+      "label": "المصدر",
+      "tooltip": "محتوى عام من مؤسسات مختلفة"
+    },
+    "categories": {
+      "label": "الفئات"
+    },
+    "location": {
+      "label": "الموقع",
+      "tooltip": "تطبيق نطاق الخريطة كعامل تصفية للموقع"
+    },
+    "event": {
+      "from": {
+        "label": "الملكية",
+        "myContent": "أنا",
+        "myOrganization": "مؤسستي",
+        "world": "أي شخص"
+      },
+      "access": {
+        "label": "وصول",
+        "private": "خاص",
+        "org": "المؤسسة",
+        "public": "عام"
+      },
+      "startDate": {
+        "label": "تاريخ الحدث"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "النوع",
+        "all": "الكل",
+        "view": "عرض",
+        "edit": "تحرير"
+      },
+      "role": {
+        "label": "الدور",
+        "all": "الكل",
+        "member": "عضو",
+        "manager": "مدير",
+        "owner": "المالك"
+      },
+      "sharing": {
+        "label": "الرؤية",
+        "private": "خاص",
+        "public": "عام"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "عرض القائمة",
+    "grid": "عرض الشبكة",
+    "map": "عرض الخريطة",
+    "compact": "عرض مصغر",
+    "calendar": "عرض التقويم",
+    "table": "عرض الجدول"
+  },
+  "galleryActionsLabel": "إجراءات إضافية",
+  "selected": "محدد: {count}",
+  "popoverActionButtonLabel": "المزيد من الإجراءات"
+}

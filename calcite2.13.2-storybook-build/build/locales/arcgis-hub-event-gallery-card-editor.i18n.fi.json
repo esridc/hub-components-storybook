@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "Luokat",
+        "noCategoriesNotice": {
+          "body": "Tällä organisaatiolla ei ole vielä luokkia.",
+          "link": "Määritä luokat"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "Sisältö",
+      "selectionMode": {
+        "dynamic": {
+          "label": "Dynaaminen"
+        },
+        "manual": {
+          "label": "Manuaalinen"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "Organisaatio"
+        },
+        "collection": {
+          "sites": "Sivustot",
+          "projects": "Projektit",
+          "initiatives": "Aloitteet"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "Organisaatio"
+        },
+        "collection": {
+          "events": "Tapahtumat"
+        }
+      },
+      "access": {
+        "label": "Jakaminen",
+        "private": {
+          "label": "Yksityinen",
+          "description": "Vain sinä ja henkilöt, joilla on ryhmän käyttöoikeudet, voivat käyttää sisällön mukaan suodatusta."
+        },
+        "org": {
+          "label": "Organisaatio",
+          "description": "Vain organisaatiosi jäsenet voivat käyttää sisällön mukaan suodatusta."
+        },
+        "public": {
+          "label": "Julkinen",
+          "description": "Kaikki voivat käyttää sisällön mukaan suodatusta."
+        }
+      },
+      "tags": {
+        "label": "Tunnisteet"
+      },
+      "cardsShown": {
+        "label": "Näkyvissä olevat kortit"
+      }
+    },
+    "appearance": {
+      "label": "Ulkoasu",
+      "titleHeading": {
+        "label": "Otsikko",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "Sisäkkäiset WCAG G141 -otsikot parantavat käytettävyyttä."
+      },
+      "corners": {
+        "label": "Kulmat",
+        "square": {
+          "label": "Neliöity"
+        },
+        "round": {
+          "label": "Pyöristetty"
+        }
+      },
+      "shadow": {
+        "label": "Varjostus",
+        "none": {
+          "label": "Laitettu pois päältä"
+        },
+        "low": {
+          "label": "Pieni"
+        },
+        "medium": {
+          "label": "Keskisuuri"
+        },
+        "heavy": {
+          "label": "Suuri"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "Näytä lisätiedot"
+      },
+      "layout": {
+        "label": "Asettelu",
+        "list": {
+          "label": "Luettelo"
+        },
+        "map": {
+          "label": "Kartta"
+        },
+        "calendar": {
+          "label": "Kalenteri"
+        }
+      }
+    },
+    "options": {
+      "label": "Vaihtoehdot",
+      "openIn": {
+        "label": "Avaa kohteessa...",
+        "same": {
+          "label": "Sama välilehti"
+        },
+        "new": {
+          "label": "Uusi välilehti"
+        },
+        "notice": {
+          "title": "Helppokäyttöisyysvinkki:",
+          "body": "WCAG 2.0 G200 -tekniikan mukaan linkkien avaamista uusiin välilehtiin tai ikkunoihin ei suositella.",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "Lue lisää WCAG 2.0 G200 -tekniikasta"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "Jakaminen",
+      "public": {
+        "label": "Julkinen"
+      },
+      "private": {
+        "label": "Yksityinen"
+      },
+      "organization": {
+        "label": "Organisaatio"
+      }
+    },
+    "from": {
+      "label": "Kohteesta",
+      "myOrganization": {
+        "label": "Oma organisaatio"
+      },
+      "myContent": {
+        "label": "Oma sisältö"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "Tapahtumat",
+      "collections": {
+        "event": {
+          "label": "Tapahtumat"
+        }
+      }
+    },
+    "item": {
+      "label": "Sisältö",
+      "collections": {
+        "item": {
+          "label": "Sisältö"
+        }
+      }
+    }
+  }
+}

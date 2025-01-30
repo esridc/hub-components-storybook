@@ -1,0 +1,54 @@
+{
+  "existing": {
+    "successHeading": "Innehåll har lagts till.",
+    "failureHeading": "Det går inte att lägga till innehåll i vald grupp.",
+    "successfulAccordionHeading": "Innehåll har lagts till i vald grupp.",
+    "unsuccessfulAccordionHeading": "Innehåll har inte lagts till i vald grupp"
+  },
+  "create": {
+    "event": {
+      "successWithoutGroupHeading": "Evenemang har skapats.",
+      "successWithGroupHeading": "Evenemang har skapats och lagts till i {group}.",
+      "successMessage": "Du kan nu visa evenemanget, hantera det för att redigera information, eller klicka på 'klar' för att gå tillbaka till vyn.",
+      "failureHeading": "Det går inte att lägga till evenemang i vald grupp."
+    },
+    "discussion": {
+      "successWithoutGroupHeading": "Diskussionstavla har skapats.",
+      "successWithGroupHeading": "Diskussionstavla har skapats och lagts till i {group}.",
+      "successMessage": "Du kan nu visa diskussionstavlan, hantera den för att redigera information, eller klicka på 'klar' för att gå tillbaka till vyn.",
+      "failureHeading": "Det går inte att lägga till diskussionstavla i vald grupp."
+    },
+    "group": {
+      "successWithoutGroupHeading": "Grupp har skapats.",
+      "successMessage": "Du kan nu visa gruppen, hantera den för att redigera information, eller klicka på 'klar' för att gå tillbaka till vyn.",
+      "failureHeading": "Det går inte att skapa gruppen."
+    },
+    "initiative": {
+      "successWithoutGroupHeading": "Initiativ har skapats.",
+      "successWithGroupHeading": "Initiativ har skapats och lagts till i {group}.",
+      "successMessage": "Du kan nu visa initiativet, hantera det för att redigera information, eller klicka på 'klar' för att gå tillbaka till vyn.",
+      "failureHeading": "Det går inte att lägga till initiativ i vald grupp."
+    },
+    "page": {
+      "successWithoutGroupHeading": "Sida har skapats.",
+      "successWithGroupHeading": "Sida har skapats och lagts till i {group}.",
+      "successMessage": "Du kan nu visa sidan, hantera den för att redigera information, eller klicka på 'klar' för att gå tillbaka till vyn.",
+      "failureHeading": "Det går inte att lägga till sida i vald grupp."
+    },
+    "project": {
+      "successWithoutGroupHeading": "Projekt har skapats.",
+      "successWithGroupHeading": "Projekt har skapats och lagts till i {group}.",
+      "successMessage": "Du kan nu visa projektet, hantera det för att redigera information, eller klicka på 'klar' för att gå tillbaka till vyn.",
+      "failureHeading": "Det går inte att lägga till projekt i vald grupp."
+    },
+    "site": {
+      "successWithoutGroupHeading": "Webbplats har skapats.",
+      "successWithGroupHeading": "Webbplats har skapats och lagts till i {group}.",
+      "successMessage": "Du kan nu visa webbplatsen, hantera den för att redigera information, eller klicka på 'klar' för att gå tillbaka till vyn.",
+      "failureHeading": "Det går inte att lägga till webbplats i vald grupp."
+    }
+  },
+  "editLayout": "Redigera layout",
+  "manageEntity": "Hantera",
+  "viewEntity": "Visa"
+}

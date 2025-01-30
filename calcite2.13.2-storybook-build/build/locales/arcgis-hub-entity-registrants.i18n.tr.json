@@ -1,0 +1,46 @@
+{
+  "registrants": "Katılımcılar",
+  "invite": "Davet Et",
+  "tabs": {
+    "registrants": "Katılımcılar",
+    "settings": "Ayarlar"
+  },
+  "emptyNotice": {
+    "title": "Katılımcı yok",
+    "desc": "Etkinlikler her zaman katılımcılarla daha eğlenceli olur. İnsanları katılmaya teşvik etmek için insanları davet edin veya etkinliğinizi paylaşın.",
+    "link": "Katılımcılar davet et"
+  },
+  "facets": {
+    "role": {
+      "header": "Rol",
+      "owner": "Sahip",
+      "organizer": "Organizatör",
+      "attendee": "Katılımcı"
+    },
+    "status": {
+      "header": "Durum",
+      "pending": "Beklemede",
+      "accepted": "Kabul Edildi",
+      "declined": "Reddedildi",
+      "blocked": "Engellendi"
+    },
+    "location": {
+      "header": "Konum",
+      "online": "Çevrim içi",
+      "in_person": "Yüz yüze"
+    },
+    "updatedDate": "Güncellenme tarihi"
+  },
+  "delete": {
+    "attendee": "Katılımcıyı kaldır"
+  },
+  "notice": {
+    "label": "Biçim uyarısı"
+  },
+  "success": {
+    "delete": "Katılımcılar {eventName}'dan başarıyla kaldırıldı."
+  },
+  "error": {
+    "delete": "Bir veya daha fazla katılımcı etkinlikten çıkarılamadı."
+  }
+}

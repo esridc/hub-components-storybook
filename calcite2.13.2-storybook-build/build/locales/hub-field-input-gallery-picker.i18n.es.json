@@ -1,0 +1,13 @@
+{
+  "selectItem": "Seleccionar contenido",
+  "selectGroup": "Seleccionar grupo",
+  "selectEvent": "Seleccionar evento",
+  "remove": "quitar",
+  "launch": "Abrir",
+  "updatedDate": "Actualizado {updatedDate}",
+  "memberCount": {
+    "noMember": "No hay miembros",
+    "oneMember": "1 miembro",
+    "members": "{count} miembros"
+  }
+}

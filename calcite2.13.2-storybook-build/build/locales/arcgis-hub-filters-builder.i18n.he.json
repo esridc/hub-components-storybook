@@ -1,0 +1,15 @@
+{
+  "newFilter": "מסנן חדש",
+  "block": {
+    "heading": {
+      "untitled": "מסנן חדש",
+      "default": "מסנן {filterNum}: {parameter}",
+      "group": "מסנן {filterNum}: קבוצות",
+      "type": "מסנן {filterNum}: סוגים",
+      "occurrence": "מסנן {filterNum}: התרחשות"
+    },
+    "actions": {
+      "delete": "מחק מסנן: {label}"
+    }
+  }
+}

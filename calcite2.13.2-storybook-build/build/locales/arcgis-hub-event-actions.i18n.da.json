@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "Tilmelding",
+    "registered": "Tilmeldt",
+    "join": "Deltag online",
+    "in-person": "Personlig deltagelse",
+    "online": "Online",
+    "inPersonFull": "Personlig deltagelse (fuld)",
+    "onlineFull": "Online (fuld)",
+    "close": "Luk"
+  },
+  "tooltip": {
+    "isCanceled": "Begivenhed annulleret",
+    "eventHasEnded": "Begivenheden er afsluttet",
+    "eventFull": "Begivenhed optaget",
+    "inPerson": "Tilmeldt til personlig deltagelse i begivenhed",
+    "online": "Tilmeldt til online begivenhed",
+    "unavailable": "Tilgængelig en time før begivenhedens starttidspunkt"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "Tilmeldingen til online begivenheden er blevet annulleret",
+    "onlineRegistrationConfirmed": "Vellykket tilmelding til online begivenhed",
+    "onlineRegistrationError": "Der opstod en uventet fejl under tilmelding til online begivenhed",
+    "onlineRegistrationCanceledError": "Der opstod en uventet fejl under annullering af tilmelding til online begivenhed",
+    "onlineRegistrationAtCapacity": "Du forsøger at tilmelde dig til en online-begivenhed, der er overtegnet",
+    "inPersonRegistrationCanceled": "Tilmeldingen til personlig deltagelse i begivenhed er blevet annulleret",
+    "inPersonRegistrationCanceledError": "Der opstod en uventet fejl under annullering af tilmelding til personlig deltagelse i begivenhed",
+    "inPersonRegistrationConfirmed": "Vellykket tilmelding til personlig deltagelse i begivenhed",
+    "inPersonRegistrationError": "Der opstod en uventet fejl under tilmelding til personlig deltagelse i begivenhed",
+    "inPersonRegistrationAtCapacity": "Du forsøger at tilmelde dig til en begivenhed med personlig deltagelse, der er overtegnet"
+  }
+}

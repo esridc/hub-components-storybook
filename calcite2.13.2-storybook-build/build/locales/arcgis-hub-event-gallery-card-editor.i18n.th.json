@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "หมวดหมู่",
+        "noCategoriesNotice": {
+          "body": "องค์กรนี้ยังไม่มีหมวดหมู่ใดๆ ในขณะนี้",
+          "link": "ตั้งค่าหมวดหมู่"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "เนื้อหา",
+      "selectionMode": {
+        "dynamic": {
+          "label": "ไดนามิก"
+        },
+        "manual": {
+          "label": "ด้วยตัวเอง"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "องค์กร"
+        },
+        "collection": {
+          "sites": "ไซต์",
+          "projects": "โปรเจกต์",
+          "initiatives": "การริเริ่ม"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "องค์กร"
+        },
+        "collection": {
+          "events": "เหตุการณ์"
+        }
+      },
+      "access": {
+        "label": "การแชร์",
+        "private": {
+          "label": "ส่วนบุคคล",
+          "description": "เฉพาะคุณและผู้ที่มีสิทธิ์เข้าถึงกลุ่มที่สามารถใช้กรองตามหัวข้อได้"
+        },
+        "org": {
+          "label": "องค์กร",
+          "description": "เฉพาะสมาชิกในองค์กรของคุณที่สามารถใช้กรองตามหัวข้อได้"
+        },
+        "public": {
+          "label": "สาธารณะ",
+          "description": "ทุกคนสามารถใช้กรองตามหัวข้อได้"
+        }
+      },
+      "tags": {
+        "label": "แท็ก"
+      },
+      "cardsShown": {
+        "label": "การ์ดที่แสดง"
+      }
+    },
+    "appearance": {
+      "label": "ลักษณะการแสดงผล",
+      "titleHeading": {
+        "label": "ส่วนหัวข้อ",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "ตามระเบียบ WCAG G141 ส่วนหัวแบบเนสท์จะช่วยปรับปรุงความสามารถในการเข้าถึงได้"
+      },
+      "corners": {
+        "label": "มุม",
+        "square": {
+          "label": "เหลี่ยม"
+        },
+        "round": {
+          "label": "โค้งมน"
+        }
+      },
+      "shadow": {
+        "label": "เงา",
+        "none": {
+          "label": "ปิดแล้ว"
+        },
+        "low": {
+          "label": "ต่ำ"
+        },
+        "medium": {
+          "label": "กลาง"
+        },
+        "heavy": {
+          "label": "หนัก"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "แสดงข้อมูลเพิ่มเติม"
+      },
+      "layout": {
+        "label": "หน้ากระดาษ",
+        "list": {
+          "label": "รายการ"
+        },
+        "map": {
+          "label": "แผนที่"
+        },
+        "calendar": {
+          "label": "ปฏิทิน"
+        }
+      }
+    },
+    "options": {
+      "label": "ตัวเลือก",
+      "openIn": {
+        "label": "เปิดใน...",
+        "same": {
+          "label": "แท็บเดียวกัน"
+        },
+        "new": {
+          "label": "แท็บใหม่"
+        },
+        "notice": {
+          "title": "เคล็ดลับความสามารถในการเข้าถึง:",
+          "body": "อ้างอิงตาม WCAG 2.0 เทคนิค G200 ไม่แนะนำให้เปิดลิงก์ในแท็บหรือหน้าต่างใหม่",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "อ่านเพิ่มเติมเกี่ยวกับ WCAG 2.0 G200"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "การแชร์",
+      "public": {
+        "label": "สาธารณะ"
+      },
+      "private": {
+        "label": "ส่วนบุคคล"
+      },
+      "organization": {
+        "label": "องค์กร"
+      }
+    },
+    "from": {
+      "label": "จาก",
+      "myOrganization": {
+        "label": "องค์กรของฉัน"
+      },
+      "myContent": {
+        "label": "เนื้อหาของฉัน"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "เหตุการณ์",
+      "collections": {
+        "event": {
+          "label": "เหตุการณ์"
+        }
+      }
+    },
+    "item": {
+      "label": "เนื้อหา",
+      "collections": {
+        "item": {
+          "label": "เนื้อหา"
+        }
+      }
+    }
+  }
+}

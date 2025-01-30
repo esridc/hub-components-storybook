@@ -1,0 +1,1 @@
+import{c as o}from"./p-c94c130f.js";import{a as r}from"./p-9421b3f1.js";import{g as s}from"./p-77a32610.js";import{g as p}from"./p-3a0185f5.js";const a=o(((o,s)=>r(o,s)),{scope:"orgs"}),t=(o,r)=>{var a;const t=p(o);return["event","user"].includes(t)?void 0:"group"===t?null===(a=null==o?void 0:o.links)||void 0===a?void 0:a.self:s(o.id,r)};export{a as f,t as g}

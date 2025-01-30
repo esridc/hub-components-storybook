@@ -1,0 +1,50 @@
+{
+  "section": "刪除",
+  "protection": "防止意外刪除此 {type}。",
+  "protectionTooltip": "保護工具提示",
+  "protectionDisabledTooltip": "只有擁有者或組織管理員才能變更保護。",
+  "deleteDisabledNoAccessTooltip": "只有擁有者或組織管理員才能刪除。",
+  "deleteDisabledNoAccessTooltipGroup": "只有擁有者、管理員或組織管理員才能刪除。",
+  "deleteDisabledProtectedTooltip": "啟用防刪除保護後，您無法刪除。",
+  "deleteButton": "刪除",
+  "protect": {
+    "successTitle": "已新增防刪除保護",
+    "success": "啟用防刪除保護後，您無法刪除。",
+    "successLabel": "已新增防刪除保護警示。",
+    "errorTitle": "無法新增防刪除保護",
+    "error": "新增防刪除保護時發生錯誤。",
+    "errorLabel": "防刪除保護失敗警示。"
+  },
+  "unprotect": {
+    "successTitle": "已移除防刪除保護",
+    "success": "停用防刪除保護後，您可以刪除。",
+    "successLabel": "已移除防刪除保護警示。",
+    "errorTitle": "無法移除防刪除保護",
+    "error": "移除防刪除保護時發生錯誤。",
+    "errorLabel": "防刪除保護移除失敗警示。"
+  },
+  "delete": {
+    "successTitle": "刪除成功",
+    "success": "正在重新導向到您的家庭工作空間",
+    "successLabel": "刪除成功警示。",
+    "errorTitle": "刪除失敗",
+    "error": "發生錯誤，請再試一次。",
+    "errorLabel": "刪除失敗警示。"
+  },
+  "permanentDelete": {
+    "successTitle": "永久刪除成功",
+    "success": "正在重新導向到您的家庭工作空間",
+    "successLabel": "刪除成功警示。",
+    "errorTitle": "刪除失敗",
+    "error": "發生錯誤，請再試一次。",
+    "errorLabel": "刪除失敗警示。"
+  },
+  "deleteModal": {
+    "header": "刪除",
+    "deleteContent": "您無法復原永久刪除。 是否確定要繼續?",
+    "recycleContent": "刪除的內容將傳送到資源回收筒。 您將有 14 天的時間來復原它。",
+    "delete": "刪除",
+    "permanentlyDelete": "永久刪除",
+    "cancel": "取消"
+  }
+}

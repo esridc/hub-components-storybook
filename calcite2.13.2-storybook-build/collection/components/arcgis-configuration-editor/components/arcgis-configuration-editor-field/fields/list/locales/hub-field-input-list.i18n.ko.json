@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "편집",
+    "fields": {
+      "label": {
+        "label": "레이블",
+        "requiredMessage": "레이블 필요",
+        "maxLengthMessage": "레이블은 {maxLength}자를 초과할 수 없음"
+      }
+    },
+    "apply": "적용"
+  },
+  "showItem": "다음 목록 항목 표시: {itemLabel}",
+  "hideItem": "다음 목록 항목 숨기기: {itemLabel}",
+  "editItem": "다음 목록 항목 편집: {itemLabel}"
+}

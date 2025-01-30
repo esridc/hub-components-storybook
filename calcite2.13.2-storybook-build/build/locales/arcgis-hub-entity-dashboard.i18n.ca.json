@@ -1,0 +1,20 @@
+{
+  "dashboard": "Quadre de comandaments",
+  "activityLogSection": {
+    "title": "Registre d'activitats",
+    "table": {
+      "downloadAction": "Baixa",
+      "downloadAllAction": "Baixa-ho tot",
+      "downloadActionTooltip": "Baixa les activitats seleccionades",
+      "caption": "Taula d'errors recents",
+      "columnHeaders": {
+        "datetime": "Data",
+        "layer": "Capa",
+        "message": "Missatge"
+      },
+      "noRecentErrors": "No hi ha cap error recent",
+      "expandText": "Mostra'n més",
+      "collapseText": "Mostra'n menys"
+    }
+  }
+}

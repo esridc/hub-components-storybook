@@ -1,0 +1,165 @@
+{
+  "advancedConfig": {
+    "label": "Geavanceerde configuratie",
+    "serverTimeout": {
+      "label": "Server-time-out (seconden)",
+      "helperText": "Nuttig voor grotere services die meer tijd nodig hebben om te reageren.",
+      "errors": {
+        "type": "Voer een configuratie voor de servertime-out in.",
+        "minimum": "De waarde voor de servertime-out moet minstens 5 zijn.",
+        "maximum": "De waarde voor de servertime-out mag maximaal 95 zijn."
+      }
+    }
+  },
+  "appearance": {
+    "corners": {
+      "label": "Hoeken",
+      "enum": {
+        "round": {
+          "label": "Rond"
+        },
+        "square": {
+          "label": "Vierkant"
+        }
+      }
+    },
+    "dropShadow": {
+      "label": "Slagschaduw",
+      "enum": {
+        "heavy": {
+          "label": "Zwaar"
+        },
+        "low": {
+          "label": "Laag"
+        },
+        "medium": {
+          "label": "Gemiddeld"
+        },
+        "none": {
+          "label": "Niet gestart"
+        }
+      }
+    },
+    "layout": {
+      "label": "Card-stijl",
+      "enum": {
+        "informational": {
+          "label": "Informationeel"
+        },
+        "simple": {
+          "label": "Eenvoudig"
+        }
+      }
+    },
+    "popoverText": {
+      "label": "Modale content"
+    },
+    "publisherText": {
+      "label": "Uitgever bron"
+    },
+    "styleSpecificSettings": {
+      "label": "Stijlinstellingen",
+      "helperInfoText": "Als u de informatieknop selecteert, wordt een modaal geopend die meer informatie bevat.",
+      "helperVizText": "De eenvoudige card ondersteunt het toevoegen van een visueel element, dat kan worden gebruikt om wijzigingen in gegevens te reflecteren."
+    },
+    "sectionTitle": "Weergave",
+    "textAlign": "Uitlijning",
+    "visualInterest": {
+      "label": "Visueel element",
+      "enum": {
+        "icon": {
+          "label": "Pictogram"
+        },
+        "none": {
+          "label": "Geen"
+        }
+      }
+    },
+    "icon": {
+      "label": "Pictogram",
+      "caretUp": {
+        "label": "Vergroten"
+      },
+      "caretDown": {
+        "label": "Verkleinen"
+      },
+      "caretDouble": {
+        "label": "Geen wijzigingen"
+      }
+    },
+    "valueColor": "Kleur (statistiek)"
+  },
+  "details": {
+    "allowDynamicLink": "Link bron weergeven",
+    "link": {
+      "sectionTitle": "Link",
+      "sourceLink": "URL van link",
+      "sourceTitle": "Tekst link"
+    },
+    "sectionTitle": "Details",
+    "subtitle": "Ondertitel",
+    "title": "Titel",
+    "trailingText": {
+      "label": "Volgtekst",
+      "helperText": "Voer eventuele extra context of uitleg in (voor weergave onder de waarde van de metriek)."
+    }
+  },
+  "errors": {
+    "sourceLink": {
+      "required": "Link naar weergavebron vereist.",
+      "formatError": "De URL-indeling is onjuist"
+    }
+  },
+  "formatting": {
+    "sectionTitle": "Opmaak",
+    "unit": {
+      "label": "Weergave-eenheden",
+      "helperText": "Voer de maateenheid in voor uw waarde."
+    },
+    "unitPosition": {
+      "label": "Plaatsing",
+      "helperText": "Selecteer waar de maateenheid (bijvoorbeeld 'km', 'lbs') wordt weergegeven ten opzichte van de waarde van de metriek.",
+      "enum": {
+        "after": {
+          "label": "Na"
+        },
+        "before": {
+          "label": "Voor"
+        },
+        "below": {
+          "label": "Onder"
+        }
+      }
+    }
+  },
+  "sharing": {
+    "sectionTitle": "Delen",
+    "showShareIcon": "Delen inschakelen",
+    "showShareIconHelperText": "Gebruikers toestaan een directe link naar deze kaart op deze pagina te kopiëren.",
+    "shareableByValue": "Inbedden inschakelen",
+    "shareableOnHover": {
+      "label": "Weergeven bij mouseover",
+      "helperText": {
+        "label": "De knop voor delen wordt weergegeven wanneer de muis erboven wordt gehouden. Als dit uitgeschakeld is, is de knop altijd zichtbaar"
+      }
+    }
+  },
+  "statistic": {
+    "dataSource": "Gegevensbron",
+    "displayValue": "Weergavewaarde",
+    "sectionTitle": "Waarde",
+    "type": {
+      "label": "Type",
+      "enum": {
+        "dynamic": {
+          "label": "Dynamisch",
+          "description": "Selecteer een bestaande database die u wilt samenvatten."
+        },
+        "static": {
+          "label": "Statisch",
+          "description": "Voer handmatig een waarde in die u in uw lay-out wilt markeren."
+        }
+      }
+    }
+  }
+}

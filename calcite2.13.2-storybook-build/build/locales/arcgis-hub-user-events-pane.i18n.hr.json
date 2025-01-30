@@ -1,0 +1,29 @@
+{
+  "header": "Događaji",
+  "myContent": "Moji događaji",
+  "editableContent": "Sadržaj koji se može uređivati",
+  "addEventButtonText": "Stvori događaj",
+  "type": "Vrsta",
+  "sharedUpdate": "Grupa za dijeljeno ažuriranje",
+  "viewOnly": "Prikaži samo grupu",
+  "owner": "Kreirao/la",
+  "starts": "Uključeno",
+  "from": "Šalje",
+  "until": "Do",
+  "updated": "Ažurirano",
+  "tags": "Oznake",
+  "dateCreated": "Stvoreno",
+  "dateUpdated": "Izmijenjeno",
+  "actionLinks": {
+    "view": "Prikaži",
+    "edit": "Uredi",
+    "ariaEdit": "Uredi: {title}",
+    "ariaView": "Prikaz: {title}"
+  },
+  "access": {
+    "label": "Pristup",
+    "PRIVATE": "Privatno",
+    "ORG": "Organizacija",
+    "PUBLIC": "Javno"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "registrants": "Registrantai",
+  "invite": "Pakviesti",
+  "tabs": {
+    "registrants": "Registrantai",
+    "settings": "Nustatymai"
+  },
+  "emptyNotice": {
+    "title": "Registrantų nėra",
+    "desc": "Renginiai visada smagesni, kai yra dalyvių. Pakvieskite žmonių arba pasidalykite savo renginiu, kad paskatintumėte žmones dalyvauti.",
+    "link": "Pakviesti registrantų"
+  },
+  "facets": {
+    "role": {
+      "header": "Vaidmuo",
+      "owner": "Savininkas",
+      "organizer": "Organizatorius",
+      "attendee": "Registrantas"
+    },
+    "status": {
+      "header": "Būsena",
+      "pending": "Laukiama",
+      "accepted": "Priimta",
+      "declined": "Atmesta",
+      "blocked": "Užblokuota"
+    },
+    "location": {
+      "header": "Vieta",
+      "online": "Internetu",
+      "in_person": "Asmeniškai"
+    },
+    "updatedDate": "Atnaujinimo data"
+  },
+  "delete": {
+    "attendee": "Pašalinti registrantą"
+  },
+  "notice": {
+    "label": "Formos įspėjimas"
+  },
+  "success": {
+    "delete": "Registrantai sėkmingai pašalinti iš {eventName}."
+  },
+  "error": {
+    "delete": "Vieno ar kelių registrantų nepavyko pašalinti iš įvykio."
+  }
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-notice</title>
+
+  <!-- link to calcite components CSS  -->
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+
+  <!-- NOTE: calcite web CSS is only used for grid layout of this page -->
+  <!-- see: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+  <link rel="stylesheet" href="../calcite-web.min.css" />
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+
+  <!-- load calcite components -->
+  <script type="module" src="../../calcite/calcite.esm.js"></script>
+
+  <!-- load hub components -->
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+</head>
+
+<body>
+  <harness-header page-title="arcgis-hub-notice"></harness-header>
+  <div class="grid-container padding-leader-4">
+    <!-- docs about grid container: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+
+    <p class="leader-1 trailer-3">
+      Below are several instances of arcgis-hub-notice with different notice-ids. Depending on their configuration and the logged in user, some or all of them may not be shown. Take a look in the javascript console for messages like, "Notice 20240220-hosted-downloads-3 not shown: notice is dismissable and has been dismissed"
+    </p>
+
+    <arcgis-hub-notice notice-id="n001" class="trailer-2"></arcgis-hub-notice>
+    <arcgis-hub-notice notice-id="20240220-hosted-downloads-1" class="trailer-2">
+      <div class="action-button-container" slot="actions">
+        <calcite-button appearance="outline" href="" icon-end="launch" scale="s" target="_blank">
+          secondary action
+        </calcite-button>
+        <calcite-button href="" scale="s">
+          primary action
+        </calcite-button>
+      </div>
+    </arcgis-hub-notice>
+    <arcgis-hub-notice notice-id="20240220-hosted-downloads-2" class="trailer-2"></arcgis-hub-notice>
+    <arcgis-hub-notice notice-id="20240220-hosted-downloads-3" class="trailer-2"></arcgis-hub-notice>
+    <arcgis-hub-notice notice-id="20240220-hosted-downloads-4" class="trailer-2"></arcgis-hub-notice>
+
+    <arcgis-hub-notice class="trailer-2 popover-notice">
+      <calcite-button slot="popover-reference">ad-hoc popover</calcite-button>
+    </arcgis-hub-notice>
+
+    <arcgis-hub-notice id="ad-hoc-notice" class="trailer-2"></arcgis-hub-notice>
+  </div>
+
+  <script>
+    document.querySelector('.popover-notice').notice = {
+      title: 'This is the popover title',
+      message: 'This is another test popover',
+      configuration: {
+        noticeType: 'popover',
+      }
+    }
+
+    document.getElementById('ad-hoc-notice').notice = {
+      id: 'jupe-test',
+      title: 'This is an ad-hoc notice with no message (only a title)',
+      configuration: {
+        noticeType: 'notice',
+      }
+    }
+  </script>
+</body>
+
+</html>

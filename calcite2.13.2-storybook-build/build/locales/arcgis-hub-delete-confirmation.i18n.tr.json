@@ -1,0 +1,50 @@
+{
+  "section": "Sil",
+  "protection": "Bu {type}'ın yanlışlıkla silinmesini önle.",
+  "protectionTooltip": "Koruma araç ipucu",
+  "protectionDisabledTooltip": "Korumayı yalnızca sahipler veya kuruluş yöneticileri değiştirebilir.",
+  "deleteDisabledNoAccessTooltip": "Yalnızca sahipler veya kuruluş yöneticileri silebilir.",
+  "deleteDisabledNoAccessTooltipGroup": "Yalnızca sahipler, yöneticiler veya kuruluş yöneticileri silebilir.",
+  "deleteDisabledProtectedTooltip": "Silme koruması etkin olduğunda silemezsiniz.",
+  "deleteButton": "Sil",
+  "protect": {
+    "successTitle": "Silme koruması eklendi",
+    "success": "Silme koruması etkin olduğunda silemezsiniz.",
+    "successLabel": "Silme koruması eklendi uyarısı.",
+    "errorTitle": "Silme koruması eklenemiyor",
+    "error": "Silme koruması eklenirken bir hata oluştu.",
+    "errorLabel": "Silme koruması başarısız oldu uyarısı."
+  },
+  "unprotect": {
+    "successTitle": "Silme koruması kaldırıldı",
+    "success": "Silme koruması devre dışı olduğunda silebilirsiniz.",
+    "successLabel": "Silme koruması kaldırıldı uyarısı.",
+    "errorTitle": "Silme koruması kaldırılamıyor",
+    "error": "Silme koruması kaldırılırken bir hata oluştu.",
+    "errorLabel": "Silme koruması kaldırılamadı uyarısı."
+  },
+  "delete": {
+    "successTitle": "Silme başarılı",
+    "success": "Ana çalışma alanınıza yönlendiriliyorsunuz",
+    "successLabel": "Silme başarılı uyarısı.",
+    "errorTitle": "Silme işlemi başarısız oldu",
+    "error": "Bir hata oluştu; lütfen tekrar deneyin.",
+    "errorLabel": "Silme başarısız oldu uyarısı."
+  },
+  "permanentDelete": {
+    "successTitle": "Kalıcı silme başarılı",
+    "success": "Ana çalışma alanınıza yönlendiriliyorsunuz",
+    "successLabel": "Silme başarılı uyarısı.",
+    "errorTitle": "Silme işlemi başarısız oldu",
+    "error": "Bir hata oluştu; lütfen tekrar deneyin.",
+    "errorLabel": "Silme başarısız oldu uyarısı."
+  },
+  "deleteModal": {
+    "header": "Sil",
+    "deleteContent": "Kalıcı bir silmeyi geri alamazsınız. Devam etmek istediğinize emin misiniz?",
+    "recycleContent": "Silinen içerik geri dönüşüm kutusuna gönderilecektir. 14 gün içinde geri yükleyebilirsiniz.",
+    "delete": "Sil",
+    "permanentlyDelete": "Kalıcı Olarak Sil",
+    "cancel": "İptal"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "註冊",
+    "registered": "已註冊",
+    "join": "加入線上",
+    "in-person": "親自",
+    "online": "線上",
+    "inPersonFull": "現場 (已滿)",
+    "onlineFull": "線上 (已滿)",
+    "close": "關閉"
+  },
+  "tooltip": {
+    "isCanceled": "已取消活動",
+    "eventHasEnded": "已結束事件",
+    "eventFull": "活動已滿",
+    "inPerson": "已註冊現場活動",
+    "online": "已註冊線上活動",
+    "unavailable": "活動開始時間前一小時可用"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "已成功取消線上活動註冊",
+    "onlineRegistrationConfirmed": "線上活動註冊成功",
+    "onlineRegistrationError": "註冊線上活動時發生非預期的錯誤",
+    "onlineRegistrationCanceledError": "取消線上活動註冊時發生非預期的錯誤",
+    "onlineRegistrationAtCapacity": "您正在嘗試註冊已額滿的線上活動",
+    "inPersonRegistrationCanceled": "已成功取消現場活動註冊",
+    "inPersonRegistrationCanceledError": "取消現場活動註冊時發生非預期的錯誤",
+    "inPersonRegistrationConfirmed": "現場活動註冊成功",
+    "inPersonRegistrationError": "註冊現場活動時發生非預期的錯誤",
+    "inPersonRegistrationAtCapacity": "您正在嘗試註冊已額滿的現場活動"
+  }
+}

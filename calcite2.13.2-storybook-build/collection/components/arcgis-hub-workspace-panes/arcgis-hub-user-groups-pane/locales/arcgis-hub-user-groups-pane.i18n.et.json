@@ -1,0 +1,33 @@
+{
+  "groups": "Minu grupid",
+  "addContentButtonText": "Loo uus",
+  "role": "Roll",
+  "owner": "Omanik",
+  "updated": "Uuendatud",
+  "type": "Tüüp",
+  "sharedUpdate": "Jagatud uuenduste grupp",
+  "viewOnly": "Ainult vaataja õigustega grupp",
+  "actionLinks": {
+    "view": "Kuva",
+    "edit": "Muuda",
+    "ariaEdit": "Redigeeri {title}",
+    "ariaView": "Kuva {title}"
+  },
+  "facets": {
+    "access": {
+      "label": "Vaadata saab:",
+      "options": {
+        "public": "Kõik (avalik)",
+        "org": "Organisatsioon",
+        "private": "Mina"
+      }
+    },
+    "type": {
+      "label": "Tüübid",
+      "options": {
+        "sharedUpdate": "Jagatud uuendus",
+        "opendata": "Avalikud andmed"
+      }
+    }
+  }
+}

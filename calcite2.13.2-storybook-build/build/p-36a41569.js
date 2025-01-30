@@ -1,0 +1,1 @@
+import{g as a}from"./p-baba4da2.js";import{s as t}from"./p-a2b583f4.js";import{g as s}from"./p-3a0185f5.js";async function r(r,e){let o;switch(s(r)){case"event":o=await a(r.id,e);break;default:o=await t(r.id,e.requestOptions)}return o}export{r as g}

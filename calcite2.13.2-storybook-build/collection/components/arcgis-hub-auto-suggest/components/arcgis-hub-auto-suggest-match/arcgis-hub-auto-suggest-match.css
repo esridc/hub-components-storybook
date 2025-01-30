@@ -1,0 +1,39 @@
+:host {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.match-icon {
+  margin-top: 0.25rem;
+}
+
+.match-info {
+  display: flex;
+  min-width: 0px;
+  flex: 1 1 0%;
+  flex-direction: column;
+}
+
+.match-link {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: inherit;
+  text-decoration: none;
+}
+
+.match-link:hover, .match-link:focus {
+  text-decoration: underline;
+}
+
+.match-description {
+  margin-top: -0.25rem;
+  font-size: var(--calcite-font-size--1);
+  color: var(--calcite-color-border-input);
+}
+
+.remove-match-button {
+  margin-left: auto;
+}

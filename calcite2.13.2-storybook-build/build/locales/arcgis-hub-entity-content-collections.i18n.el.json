@@ -1,0 +1,33 @@
+{
+  "title": "Συλλογές",
+  "actions": {
+    "label": "Επιλογές",
+    "show": "Εμφάνιση",
+    "hide": "Απόκρυψη",
+    "rename": "Μετονομασία"
+  },
+  "formAlert": "Προειδοποίηση φόρμας",
+  "alertMessages": {
+    "success": "Επιτυχής αποθήκευση αλλαγών",
+    "error": "Σφάλμα κατά την αποθήκευση των αλλαγών"
+  },
+  "collectionRenameModal": {
+    "title": "Μετονομασία συλλογής",
+    "fieldLabel": "Ετικέτα συλλογής",
+    "requiredMessage": "Απαιτείται ετικέτα συλλογής",
+    "apply": "Εφαρμογή",
+    "maxLengthMessage": "Η ετικέτα συλλογής δεν πρέπει να υπερβαίνει τους 50 χαρακτήρες"
+  },
+  "collections": {
+    "dataset": "Δεδομένα",
+    "site": "Ιστότοποι",
+    "document": "Έγγραφα",
+    "appAndMap": "Εφαρμογές & χάρτες"
+  },
+  "saveButton": "Αποθήκευση",
+  "sections": {
+    "collectionConfiguration": {
+      "title": "Διαμόρφωση συλλογής"
+    }
+  }
+}

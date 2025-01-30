@@ -1,0 +1,19 @@
+{
+  "overview": "ภาพรวม",
+  "telemetry": {
+    "pageViews": "จำนวนการเข้าชมหน้า",
+    "last30days": "30 วันที่แล้ว",
+    "lastUpdated": "อัปเดตล่าสุด {hoursElapsed} ชั่วโมงที่ผ่านมา",
+    "checkTomorrow": "กลับมาใหม่ในวันพรุ่งนี้"
+  },
+  "learnAbout": "ศึกษาข้อมูลเกี่ยวกับโปรเจกต์ Hub",
+  "status": {
+    "notStarted": "ยังไม่เริ่ม",
+    "inProgress": "อยู่ระหว่างดำเนินการ",
+    "onHold": "ระงับชั่วคราว",
+    "complete": "สมบูรณ์"
+  },
+  "editDetails": "แก้ไขรายละเอียด",
+  "noPurposeSet": "ไม่ได้ตั้งค่าวัตถุประสงค์",
+  "noLocationSet": "ไม่ได้ตั้งค่าตำแหน่งที่ตั้ง"
+}

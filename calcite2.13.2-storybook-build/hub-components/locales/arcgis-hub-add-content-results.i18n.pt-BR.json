@@ -1,0 +1,54 @@
+{
+  "existing": {
+    "successHeading": "Conteúdo adicionado com sucesso.",
+    "failureHeading": "Não foi possível adicionar conteúdo ao grupo selecionado.",
+    "successfulAccordionHeading": "Conteúdo adicionado ao grupo selecionado.",
+    "unsuccessfulAccordionHeading": "Conteúdo não adicionado ao grupo selecionado"
+  },
+  "create": {
+    "event": {
+      "successWithoutGroupHeading": "Evento criado com sucesso.",
+      "successWithGroupHeading": "Evento criado com sucesso e adicionado ao {group}.",
+      "successMessage": "Agora você pode visualizar o Evento, gerenciá-lo para editar informações ou clicar em \"Concluído\" para retornar à visualização.",
+      "failureHeading": "Não é possível adicionar o evento ao grupo selecionado."
+    },
+    "discussion": {
+      "successWithoutGroupHeading": "Fórum de discussão criado com sucesso.",
+      "successWithGroupHeading": "Fórum de discussão criado com sucesso e adicionado ao {group}.",
+      "successMessage": "Agora você pode visualizar o Fórum de Discussão, gerenciá-lo para editar informações ou clicar em \"Concluído\" para retornar à visualização.",
+      "failureHeading": "Não é possível adicionar o Fórum de Discussão ao grupo selecionado."
+    },
+    "group": {
+      "successWithoutGroupHeading": "Grupo criado com sucesso.",
+      "successMessage": "Agora você pode visualizar o Grupo, gerenciá-lo para editar informações ou clicar em \"Concluído\" para retornar à visualização.",
+      "failureHeading": "Não é possível criar o grupo."
+    },
+    "initiative": {
+      "successWithoutGroupHeading": "Iniciativa criada com sucesso.",
+      "successWithGroupHeading": "Iniciativa criada com sucesso e adicionada ao {group}.",
+      "successMessage": "Agora você pode visualizar a Iniciativa, gerenciá-la para editar informações ou clicar em \"Concluído\" para retornar à visualização.",
+      "failureHeading": "Não é possível adicionar a Iniciativa ao grupo selecionado."
+    },
+    "page": {
+      "successWithoutGroupHeading": "Página criada com sucesso.",
+      "successWithGroupHeading": "Página criada com sucesso e adicionada ao {group}.",
+      "successMessage": "Agora você pode visualizar a página, gerenciá-la para editar informações ou clicar em \"Concluído\" para retornar à visualização.",
+      "failureHeading": "Não é possível adicionar a página ao grupo selecionado."
+    },
+    "project": {
+      "successWithoutGroupHeading": "Projeto criado com sucesso.",
+      "successWithGroupHeading": "Projeto criado com sucesso e adicionado ao {group}.",
+      "successMessage": "Agora você pode visualizar o Projeto, gerenciá-lo para editar informações ou clicar em \"Concluído\" para retornar à visualização.",
+      "failureHeading": "Não é possível adicionar o Projeto ao grupo selecionado."
+    },
+    "site": {
+      "successWithoutGroupHeading": "Site criado com sucesso.",
+      "successWithGroupHeading": "Site criado com sucesso e adicionado ao {group}.",
+      "successMessage": "Agora você pode visualizar o Site, gerenciá-lo para editar informações ou clicar em \"Concluído\" para retornar à visualização.",
+      "failureHeading": "Não é possível adicionar o site ao grupo selecionado."
+    }
+  },
+  "editLayout": "Editar layout",
+  "manageEntity": "Gerenciar",
+  "viewEntity": "Visualizar"
+}

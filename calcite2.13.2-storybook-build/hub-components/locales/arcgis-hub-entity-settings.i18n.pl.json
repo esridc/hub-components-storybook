@@ -1,0 +1,53 @@
+{
+  "settings": "Ustawienia",
+  "formDisabledTooltip": "Nie masz uprawnień do dokonywania zmian w {type}.",
+  "delete": {
+    "project": "Usuń ten projekt",
+    "initiative": "Usuń tę inicjatywę",
+    "site": "Usuń tę witrynę",
+    "discussion": "Usuń tę dyskusję",
+    "content": "Usuń te zasoby",
+    "page": "Usuń tę stronę",
+    "group": "Usuń tę grupę",
+    "initiativeTemplate": "Usuń ten szablon inicjatywy",
+    "template": "Usuń ten szablon",
+    "survey": "Usuń tę ankietę",
+    "desc": {
+      "project": "Operacji usunięcia tego projektu nie można cofnąć.",
+      "initiative": "Operacji usunięcia tej inicjatywy nie można cofnąć.",
+      "site": "Operacji usunięcia tej witryny nie można cofnąć.",
+      "discussion": "Operacji usunięcia tej dyskusji nie można cofnąć.",
+      "content": "Operacji usunięcia tych zasobów nie można cofnąć.",
+      "page": "Operacji usunięcia tej strony nie można cofnąć.",
+      "group": "Operacji usunięcia tej grupy nie można cofnąć.",
+      "initiativeTemplate": "Operacji usunięcia tego szablonu inicjatywy nie można cofnąć.",
+      "template": "Operacji usunięcia tego szablonu nie można cofnąć.",
+      "survey": "Operacji usunięcia tej ankiety nie można cofnąć."
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "project": "Usuń projekt",
+      "initiative": "Usuń inicjatywę",
+      "site": "Usuń witrynę",
+      "discussion": "Usuń dyskusję",
+      "content": "Usuń zasoby",
+      "page": "Usuń stronę",
+      "group": "Usuń grupę",
+      "initiativeTemplate": "Usuń szablon inicjatywy",
+      "template": "Usuń szablon",
+      "survey": "Usuń ankietę"
+    },
+    "content": "Czy na pewno chcesz usunąć:",
+    "delete": "Usuń",
+    "cancel": "Anuluj"
+  },
+  "sidePanel": {
+    "content": {
+      "extractNotice": {
+        "title": "Funkcja \"wyodrębniania\" zmienia ustawienia usługi.",
+        "message": "Wpłynie to na inne elementy, które odwołują się do tej usługi. Więcej szczegółowych informacji można znaleźć w sekcji <docLink>Eksportowanie danych z hostowanych warstw obiektowych</docLink>."
+      }
+    }
+  }
+}

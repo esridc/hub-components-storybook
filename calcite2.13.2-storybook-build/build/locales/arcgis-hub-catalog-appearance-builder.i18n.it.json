@@ -1,0 +1,15 @@
+{
+  "catalogAppearance": {
+    "heading": "Aspetto catalogo"
+  },
+  "collections": {
+    "heading": "Raccolte",
+    "description": "Le modifiche alle impostazioni di aspetto possono essere visualizzate in anteprima nel proprio workspace. Le modifiche non verranno pubblicate nella vista in tempo reale fino a quando si seleziona <b>Salva</b>.",
+    "configureAction": "Configura l'aspetto delle raccolte"
+  },
+  "results": {
+    "heading": "Risultati",
+    "description": "Le modifiche alle impostazioni di aspetto possono essere visualizzate in anteprima nel proprio workspace. Le modifiche saranno pubblicate nella vista in tempo reale quando si seleziona <b>Salva</b>.",
+    "configureAction": "Configura l'aspetto dei risultati"
+  }
+}

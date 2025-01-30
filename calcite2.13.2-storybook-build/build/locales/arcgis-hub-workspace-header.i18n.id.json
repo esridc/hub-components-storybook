@@ -1,0 +1,47 @@
+{
+  "communityOrg": "Organisasi komunitas",
+  "editLayout": "Edit tata letak",
+  "orgWorkspace": "Buka beranda ruang kerja",
+  "editS123": "Edit di Survey123",
+  "editAdvancedJson": "Edit JSON lanjutan",
+  "view": {
+    "project": "Tampilkan proyek",
+    "site": "Tampilkan situs",
+    "initiative": "Tampilkan inisiatif",
+    "discussion": "Lihat forum",
+    "content": "Lihat konten",
+    "page": "Lihat halaman",
+    "group": "Lihat grup",
+    "initiativeTemplate": "Lihat template inisiatif",
+    "template": "Lihat template",
+    "survey": "Lihat survei",
+    "event": "Lihat peristiwa"
+  },
+  "access": {
+    "share": "Bagikan",
+    "sharingLevel": "Level berbagi",
+    "groupSharing": "Berbagi grup",
+    "tooltip": {
+      "public": "Level berbagi: Publik",
+      "org": "Level berbagi: Organisasi",
+      "private": "Level berbagi: Pribadi",
+      "shared": "Level berbagi: Dibagikan secara pribadi"
+    },
+    "save": "Simpan",
+    "cancel": "Batalkan",
+    "alert": {
+      "success": "Berhasil menyimpan editan",
+      "error": "Terjadi kesalahan saat menyimpan hasil perubahan",
+      "label": "Peringatan formulir"
+    }
+  },
+  "popoverActions": {
+    "label": "Tindakan lainnya",
+    "openInEnterprise": "Buka di ArcGIS Enterprise",
+    "openInOnline": "Buka di ArcGIS Online"
+  },
+  "homeLink": {
+    "text": "Beranda"
+  },
+  "createContent": "Buat"
+}

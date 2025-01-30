@@ -1,0 +1,118 @@
+{
+  "layout": {
+    "title": "Rozloženie",
+    "helperText": "Toto konfiguruje, ako budú vyzerať výsledky, keď návštevníci prvýkrát prídu do vášho katalógu. Návštevníci budú mať naďalej možnosť sami zmeniť spôsob zobrazenia.",
+    "enum": {
+      "list": {
+        "label": "Zoznam",
+        "description": "Použite na predvádzanie metadát a vtedy, keď je pravdepodobné, že ich návštevníci budú cielene vyhľadávať."
+      },
+      "grid": {
+        "label": "Mriežka",
+        "description": "Použite na výsledky, ktoré majú vysokokvalitné miniatúry a keď je pravdepodobné, že si ich budú návštevníci prehliadať."
+      },
+      "table": {
+        "label": "Tabuľka",
+        "description": "Použite na prezentovanie výsledkov v štruktúrovanom formáte so stĺpcami s možnosťou triedenia, ideálne, keď si návštevníci budú chcieť zobraziť a porovnať viaceré položky a ich atribúty."
+      },
+      "map": {
+        "label": "Mapa",
+        "description": "Použite pre výsledky, ktoré sú viazané na fyzické lokality, a keď je pravdepodobné, že návštevníci budú skúmať záujmové oblasti."
+      },
+      "compact": {
+        "label": "Kompaktné",
+        "description": "Použite na maximalizovanie počtu viditeľných výsledkov v menšom priestore, ideálne pre rýchle prehliadanie alebo zobrazenie v mobilných zobrazeniach."
+      }
+    }
+  },
+  "cards": {
+    "title": "Karty",
+    "cardTitleTag": {
+      "label": "Hlavička",
+      "helperText": "Toto sa dá použiť na zlepšenie vnorenej štruktúry nadpisov pre dostupnosť. Nezmení to veľkosť písma.",
+      "enum": {
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        }
+      }
+    },
+    "showThumbnail": {
+      "label": "Zobraziť miniatúru",
+      "enum": {
+        "show": {
+          "label": "Vždy",
+          "description": "Obrázky miniatúr sa vždy zobrazia na kartách s výsledkami bez ohľadu na rozloženie výsledkov."
+        },
+        "hide": {
+          "label": "Nezobrazovať miniatúry",
+          "description": "Obrázky miniatúr sa nezobrazia na žiadnom type karty s výsledkami. Použite túto možnosť, ak máte miniatúry nízkej kvality alebo ak chcete, aby ľudia mohli rýchlejšie skenovať výsledky zoznamu na počítači alebo v mobilnom zariadení."
+        },
+        "grid": {
+          "label": "Iba v mriežke",
+          "description": "Obrázky miniatúry sa zobrazia iba na kartách mriežky. Karty so zoznamom budú namiesto obrázka zobrazovať ďalší stĺpec metadát."
+        }
+      }
+    },
+    "corners": {
+      "label": "Rohy",
+      "enum": {
+        "square": {
+          "label": "Štvorec"
+        },
+        "round": {
+          "label": "Zaoblené"
+        }
+      }
+    },
+    "shadow": {
+      "label": "Efekt tieňa",
+      "enum": {
+        "heavy": {
+          "label": "Silné"
+        },
+        "low": {
+          "label": "Nízke"
+        },
+        "medium": {
+          "label": "Stredné"
+        },
+        "none": {
+          "label": "Žiadne"
+        }
+      }
+    },
+    "showLinkButton": {
+      "label": "Zahrnúť tlačidlá",
+      "helperText": "Ak sú tlačidlá vypnuté, odkazom bude iba názov karty."
+    },
+    "linkButtonStyle": {
+      "label": "Štýl",
+      "enum": {
+        "outline-filled": {
+          "label": "Vyplnené"
+        },
+        "outline": {
+          "label": "Obrys"
+        }
+      }
+    },
+    "linkButtonText": {
+      "label": "Text"
+    }
+  }
+}

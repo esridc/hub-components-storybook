@@ -1,0 +1,43 @@
+{
+  "content": "コンテンツ",
+  "myContent": "マイ コンテンツ",
+  "editableContent": "編集可能なコンテンツ",
+  "addContentButtonText": "新しく作成",
+  "type": "タイプ",
+  "sharedUpdate": "共有の更新グループ",
+  "viewOnly": "表示専用グループ",
+  "owner": "所有者",
+  "updated": "更新",
+  "tags": "タグ",
+  "dateCreated": "作成日",
+  "dateUpdated": "更新",
+  "actionLinks": {
+    "view": "表示",
+    "edit": "編集",
+    "ariaEdit": "{title} の編集",
+    "ariaView": "{title} の表示"
+  },
+  "facets": {
+    "content": {
+      "label": "コンテンツ",
+      "myContent": "所有しているコンテンツ",
+      "editableContent": "編集可能なコンテンツ",
+      "all": "すべてのコンテンツ"
+    },
+    "access": {
+      "label": "取得元"
+    },
+    "type": {
+      "label": "タイプ"
+    },
+    "tags": {
+      "label": "タグ"
+    },
+    "categories": {
+      "label": "カテゴリ"
+    },
+    "modified": {
+      "label": "更新"
+    }
+  }
+}

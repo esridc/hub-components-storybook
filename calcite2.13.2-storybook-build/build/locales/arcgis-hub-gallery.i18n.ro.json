@@ -1,0 +1,91 @@
+{
+  "moreResults": "Mai multe rezultate",
+  "search": "Căutare",
+  "filter": "Filtre",
+  "viewResults": "Vizualizare rezultate ({numResults})",
+  "resultsCount": "1 - {pageTotal} din {searchTotal}",
+  "backToTop": "Înapoi sus",
+  "facets": {
+    "access": {
+      "label": "Partajare",
+      "private": "Eu",
+      "shared": "Proprietar și grupuri",
+      "org": "Organizaţie",
+      "public": "Public"
+    },
+    "license": {
+      "label": "Licență",
+      "tooltip": "Numai pentru conținut public",
+      "custom": "Personalizare",
+      "none": "Niciunul"
+    },
+    "type": {
+      "label": "Tip"
+    },
+    "tags": {
+      "label": "Etichete"
+    },
+    "dateUpdated": {
+      "label": "Dată actualizată"
+    },
+    "source": {
+      "label": "Sursă",
+      "tooltip": "Conținut public de la diferite organizații"
+    },
+    "categories": {
+      "label": "Categorii"
+    },
+    "location": {
+      "label": "Locație",
+      "tooltip": "Aplicați extinderea hărții ca filtru de locație"
+    },
+    "event": {
+      "from": {
+        "label": "Proprietate",
+        "myContent": "Eu",
+        "myOrganization": "Organizația mea",
+        "world": "Oricine"
+      },
+      "access": {
+        "label": "Acces",
+        "private": "Privat",
+        "org": "Organizație",
+        "public": "Public"
+      },
+      "startDate": {
+        "label": "Dată eveniment"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "Tip",
+        "all": "Totul",
+        "view": "Vizualizați",
+        "edit": "Editare"
+      },
+      "role": {
+        "label": "Rol",
+        "all": "Totul",
+        "member": "Membru",
+        "manager": "Manager",
+        "owner": "Proprietar"
+      },
+      "sharing": {
+        "label": "Vizibilitate",
+        "private": "Privat",
+        "public": "Public"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "Listă de afișare",
+    "grid": "Grilă de afișare",
+    "map": "Afișare hartă",
+    "compact": "Afișare compactă",
+    "calendar": "Afișare calendar",
+    "table": "Afișare tabel"
+  },
+  "galleryActionsLabel": "Acțiuni suplimentare",
+  "selected": "Selectat: {count}",
+  "popoverActionButtonLabel": "mai multe acțiuni"
+}

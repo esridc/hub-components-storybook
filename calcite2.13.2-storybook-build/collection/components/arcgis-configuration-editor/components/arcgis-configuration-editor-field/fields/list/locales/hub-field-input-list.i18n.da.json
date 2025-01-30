@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "Rediger",
+    "fields": {
+      "label": {
+        "label": "Etiket",
+        "requiredMessage": "Etiket påkrævet",
+        "maxLengthMessage": "Etiket må ikke overstige {maxLength} tegn"
+      }
+    },
+    "apply": "Anvend"
+  },
+  "showItem": "Vis følgende listeelement: {itemLabel}",
+  "hideItem": "Skjul følgende listeelement: {itemLabel}",
+  "editItem": "Rediger følgende listeelement: {itemLabel}"
+}

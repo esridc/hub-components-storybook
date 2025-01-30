@@ -1,0 +1,18 @@
+{
+  "about": "关于",
+  "metrics": "指标",
+  "featuredContent": "专题内容",
+  "details": "详细信息",
+  "exploreMetrics": "探索指标",
+  "status": {
+    "label": {
+      "default": "状态",
+      "project": "工程状态",
+      "initiative": "倡议状态"
+    },
+    "notStarted": "未启动",
+    "inProgress": "正在进行中",
+    "onHold": "暂停",
+    "complete": "完成"
+  }
+}

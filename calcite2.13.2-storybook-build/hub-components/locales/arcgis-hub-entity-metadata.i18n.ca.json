@@ -1,0 +1,239 @@
+{
+  "owner": {
+    "description": "Propietari"
+  },
+  "updatedDate": {
+    "description": "Data d'actualització",
+    "descriptionWithFrequency": "Data d'actualització: {updatedDateFormatted}"
+  },
+  "createdDate": {
+    "description": "Data de creació"
+  },
+  "joinedDate": {
+    "description": "Data d'unió"
+  },
+  "access": {
+    "label": {
+      "public": "Públic",
+      "org": "Organització",
+      "private": "Propietari",
+      "shared": "S'ha compartit de manera privada"
+    },
+    "description": {
+      "public": {
+        "site": "Tothom pot veure aquest lloc",
+        "project": "Tothom pot veure aquest projecte",
+        "initiative": "Tothom pot veure aquesta iniciativa",
+        "discussion": "Tothom pot veure aquest debat",
+        "default": "Tothom pot veure aquest contingut",
+        "event": "Qualsevol persona pot veure aquest esdeveniment"
+      },
+      "org": {
+        "site": "Qualsevol persona de la vostra organització pot veure aquest lloc",
+        "project": "Qualsevol persona de la vostra organització pot veure aquest projecte",
+        "initiative": "Qualsevol persona de la vostra organització pot veure aquesta iniciativa",
+        "discussion": "Qualsevol persona de la vostra organització pot veure aquest debat",
+        "default": "Qualsevol persona de la vostra organització pot veure aquest contingut",
+        "event": "Qualsevol persona de la vostra organització pot veure aquest esdeveniment"
+      },
+      "private": {
+        "site": "Ningú més no pot veure aquest lloc",
+        "project": "Ningú més no pot veure aquest projecte",
+        "initiative": "Ningú més no pot veure aquesta iniciativa",
+        "discussion": "Sou l’única persona que pot veure aquest debat",
+        "default": "Ningú més no pot veure aquest contingut",
+        "event": "Sou l'única persona que pot veure aquest esdeveniment"
+      },
+      "shared": {
+        "site": "Els grups seleccionats poden veure aquest lloc",
+        "project": "Els grups seleccionats poden veure aquest projecte",
+        "initiative": "Els grups seleccionats poden veure aquesta iniciativa",
+        "discussion": "Els grups seleccionats poden veure aquest debat",
+        "default": "Els grups seleccionats poden veure aquest contingut",
+        "event": "Els grups seleccionats poden veure aquest esdeveniment"
+      }
+    }
+  },
+  "type": {
+    "fallback": {
+      "content": "Contingut",
+      "discussion": "Debat",
+      "event": "Esdeveniment",
+      "group": "Grup",
+      "initiative": "Iniciativa",
+      "org": "Organització",
+      "page": "Pàgina",
+      "project": "Projecte",
+      "site": "Lloc",
+      "survey": "Topografia",
+      "initiativeTemplate": "Plantilla",
+      "user": "Usuari"
+    },
+    "appbuilderExtension": "Eina de SIG",
+    "appbuilderWidgetPackage": "Eina de SIG",
+    "application": "Aplicació registrada",
+    "arcgisProMap": "Eina de SIG",
+    "cadDrawing": "Eina de SIG",
+    "cityEngineWebScene": "Aplicació 3D",
+    "codeAttachment": "Eina de SIG",
+    "colorSet": "Eina de SIG",
+    "content": "Contingut",
+    "contentCategorySet": "SIG",
+    "csv": "Dataset",
+    "csvCollection": "Fitxer de dades",
+    "dashboard": "Quadre de comandaments",
+    "desktopApplication": "Eina de SIG",
+    "document": "Document",
+    "documentLink": "Enllaç web",
+    "excaliburImageryProject": "Eina de SIG",
+    "explorerMap": "Eina de SIG",
+    "exportPackage": "Eina de SIG",
+    "featureCollection": "Dataset",
+    "featureCollectionTemplate": "Eina de SIG",
+    "featureLayer": "Dataset",
+    "featureService": "Mapa",
+    "fileGeodatabase": "Fitxer de dades",
+    "form": "Topografia",
+    "geocodingService": "API per a desenvolupadors",
+    "geodataService": "API per a desenvolupadors",
+    "geojson": "Contingut",
+    "geometryService": "API per a desenvolupadors",
+    "geopackage": "Fitxer de dades",
+    "geoprocessingService": "API per a desenvolupadors",
+    "globeLayer": "Fitxer de dades",
+    "globeService": "API per a desenvolupadors",
+    "hubInitiative": "Iniciativa",
+    "hubInitiativeTemplate": "Plantilla",
+    "hubPage": "Pàgina",
+    "hubProject": "Projecte",
+    "hubSiteApplication": "Lloc",
+    "image": "Imatge",
+    "imageService": "Dataset d'imatges",
+    "insightsModel": "Eina de SIG",
+    "insightsPage": "Anàlisi",
+    "insightsTheme": "Eina de SIG",
+    "insightsWorkbook": "Llibre de treball d'anàlisi",
+    "iWorkKeynote": "Presentació",
+    "iWorkNumbers": "Full de càlcul",
+    "iWorkPages": "Document",
+    "kml": "Dataset",
+    "kmlCollection": "Fitxer de dades",
+    "layer": "Fitxer de dades",
+    "layerPackage": "Fitxer de dades",
+    "locatorPackage": "Eina de SIG",
+    "mapArea": "Eina de SIG",
+    "mapDocument": "Eina de SIG",
+    "mapImageLayer": "Mapa",
+    "mapPackage": "Fitxer de dades",
+    "mapService": "Mapa",
+    "microsoftExcel": "Full de càlcul",
+    "microsoftPowerpoint": "Presentació",
+    "microsoftVizio": "Microsoft Visio",
+    "microsoftWord": "Document",
+    "mission": "Eina de SIG",
+    "mobileApplication": "Aplicació",
+    "mobileMapPackage": "Fitxer de dades",
+    "native application template": "Eina per a desenvolupadors",
+    "nativeApplication": "Aplicació",
+    "nativeApplicationInstaller": "Eina per a desenvolupadors",
+    "networkAnalysisService": "API per a desenvolupadors",
+    "notebook": "Anàlisi",
+    "orientedImageryCatalog": "Dataset d'imatges",
+    "orthoMappingProject": "Eina de SIG",
+    "orthoMappingTemplate": "Eina de SIG",
+    "pdf": "Document",
+    "quickcaptureProject": "Enquesta mòbil",
+    "rasterLayer": "Mapa",
+    "realTimeAnalytic": "API per a desenvolupadors",
+    "relationalDatabaseConnection": "API per a desenvolupadors",
+    "reportTemplate": "Eina de SIG",
+    "sceneLayer": "Dataset 3D",
+    "sceneService": "Dataset 3D",
+    "serviceDefinition": "Fitxer de dades",
+    "shapefile": "Dataset",
+    "solution": "Solució",
+    "sqliteGeodatabase": "Fitxer de dades",
+    "statisticalDataCollection": "Fitxer de dades",
+    "storymap": "StoryMap",
+    "symbolSet": "Fitxer de dades",
+    "table": "Dataset",
+    "team": "Equip",
+    "urbanModel": "Model de l'Urban",
+    "vectorTileService": "Mapa",
+    "visioDocument": "Document",
+    "webExperience": "Aplicació",
+    "webMap": "Mapa",
+    "webMappingApplication": "Aplicació",
+    "webScene": "Mapa 3D",
+    "wfs": "Mapa",
+    "wms": "Mapa",
+    "wmts": "Mapa",
+    "workflowManagerService": "API per a desenvolupadors",
+    "workforceProject": "Administrador de flux de tasques"
+  },
+  "location": {
+    "description": "Ubicació"
+  },
+  "members": {
+    "noMember": "Cap membre",
+    "oneMember": "Membres: 1",
+    "members": "Membres: {count}",
+    "description": {
+      "value": "Visualitza tots els membres del grup"
+    }
+  },
+  "tooltip": {
+    "label": "Informació sobre eines de l'element de metadades"
+  },
+  "relevantArea": {
+    "title": "Àrea rellevant"
+  },
+  "license": {
+    "tooltip": "Defineix com es pot utilitzar aquest contingut",
+    "set": {
+      "title": "Llicència {license}",
+      "customTitle": "Llicència personalitzada",
+      "description": {
+        "value": "Consulteu els detalls de la llicència"
+      }
+    },
+    "unset": {
+      "title": "No s'ha proporcionat cap llicència",
+      "description": {
+        "value": "Sol·licita permís per utilitzar"
+      }
+    }
+  },
+  "size": {
+    "description": {
+      "value": "Mida del fitxer del document"
+    }
+  },
+  "recordCount": {
+    "title": "Registres: {count}",
+    "description": {
+      "value": "Visualitza la taula de dades"
+    }
+  },
+  "metadataModified": {
+    "description": {
+      "defaultValue": "Informació actualitzada",
+      "dynamicValue": "Informació actualitzada: {lastUpdated}"
+    }
+  },
+  "updateFrequency": {
+    "continual": "Continu",
+    "daily": "Diàriament",
+    "weekly": "Setmanalment",
+    "fortnightly": "Quinzenalment",
+    "monthly": "Mensualment",
+    "quarterly": "Trimestralment",
+    "biannually": "Bianualment",
+    "annually": "Anualment",
+    "as-needed": "Segons sigui necessari",
+    "irregular": "Irregular",
+    "not-planned": "No planificat",
+    "unknown": "Desconegut",
+    "semimonthly": "Bimensualment"
+  }
+}

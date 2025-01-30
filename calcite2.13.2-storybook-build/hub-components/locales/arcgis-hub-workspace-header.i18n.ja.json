@@ -1,0 +1,47 @@
+{
+  "communityOrg": "コミュニティ組織",
+  "editLayout": "レイアウトの編集",
+  "orgWorkspace": "ホーム ワークスペースを開く",
+  "editS123": "Survey123 で編集",
+  "editAdvancedJson": "高度な JSON の編集",
+  "view": {
+    "project": "プロジェクトの表示",
+    "site": "サイトの表示",
+    "initiative": "イニシアティブの表示",
+    "discussion": "ボードの表示",
+    "content": "コンテンツの表示",
+    "page": "ページの表示",
+    "group": "グループの表示",
+    "initiativeTemplate": "イニシアティブ テンプレートの表示",
+    "template": "テンプレートの表示",
+    "survey": "調査の表示",
+    "event": "イベントの表示"
+  },
+  "access": {
+    "share": "共有",
+    "sharingLevel": "共有レベル",
+    "groupSharing": "グループ共有",
+    "tooltip": {
+      "public": "共有レベル: パブリック",
+      "org": "共有レベル: 組織",
+      "private": "共有レベル: 非公開",
+      "shared": "共有レベル: プライベートに共有"
+    },
+    "save": "保存",
+    "cancel": "キャンセル",
+    "alert": {
+      "success": "編集内容が正常に保存されました",
+      "error": "編集内容の保存中にエラーが発生しました",
+      "label": "フォームの通知"
+    }
+  },
+  "popoverActions": {
+    "label": "その他のアクション",
+    "openInEnterprise": "ArcGIS Enterprise で開く",
+    "openInOnline": "ArcGIS Online で開く"
+  },
+  "homeLink": {
+    "text": "ホーム"
+  },
+  "createContent": "作成"
+}

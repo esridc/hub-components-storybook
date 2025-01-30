@@ -1,0 +1,239 @@
+{
+  "owner": {
+    "description": "Omanik"
+  },
+  "updatedDate": {
+    "description": "Uuendatud kuupäev",
+    "descriptionWithFrequency": "Uuendatud kuupäev: {updatedDateFormatted}"
+  },
+  "createdDate": {
+    "description": "Loomise kuupäev"
+  },
+  "joinedDate": {
+    "description": "Liitumise kuupäev"
+  },
+  "access": {
+    "label": {
+      "public": "Avalik",
+      "org": "Organisatsioon",
+      "private": "Omanik",
+      "shared": "Privaatselt jagatud"
+    },
+    "description": {
+      "public": {
+        "site": "Kõik saavad seda saiti vaadata",
+        "project": "Igaüks saab seda projekti vaadata",
+        "initiative": "Kõik saavad seda algatust vaadata",
+        "discussion": "Kõik saavad seda arutelu vaadata",
+        "default": "Kõik saavad seda sisu vaadata",
+        "event": "Igaüks saab seda sündmust vaadata"
+      },
+      "org": {
+        "site": "Kõik teie organisatsioonis saavad seda saiti vaadata",
+        "project": "Igaüks teie organisatsioonis saab seda projekti vaadata",
+        "initiative": "Kõik teie organisatsioonis saavad seda algatust vaadata",
+        "discussion": "Kõik teie organisatsioonis saavad seda arutelu vaadata",
+        "default": "Kõik teie organisatsioonis saavad seda sisu vaadata",
+        "event": "Kõik teie organisatsioonis saavad seda sündmust vaadata"
+      },
+      "private": {
+        "site": "Ainult teie saate seda saiti vaadata",
+        "project": "Ainult teie saate seda projekti vaadata",
+        "initiative": "Ainult teie saate seda algatust vaadata",
+        "discussion": "Ainult teie saate seda arutelu vaadata",
+        "default": "Ainult teie saate seda sisu vaadata",
+        "event": "Ainult teie saate seda sündmust vaadata"
+      },
+      "shared": {
+        "site": "Valitud grupid saavad seda saiti vaadata",
+        "project": "Valitud grupid saavad seda projekti vaadata",
+        "initiative": "Valitud grupid saavad seda algatust vaadata",
+        "discussion": "Valitud grupid saavad seda arutelu vaadata",
+        "default": "Valitud grupid saavad seda sisu vaadata",
+        "event": "Valitud grupid saavad seda sündmust vaadata"
+      }
+    }
+  },
+  "type": {
+    "fallback": {
+      "content": "Sisu",
+      "discussion": "Arutelu",
+      "event": "Sündmus",
+      "group": "Grupp",
+      "initiative": "Algatus",
+      "org": "Organisatsioon",
+      "page": "Leht",
+      "project": "Projekt",
+      "site": "Sait",
+      "survey": "Küsitlus",
+      "initiativeTemplate": "Mall",
+      "user": "Kasutajat"
+    },
+    "appbuilderExtension": "GIS-i tööriist",
+    "appbuilderWidgetPackage": "GIS-i tööriist",
+    "application": "Rakendus on registreeritud",
+    "arcgisProMap": "GIS-i tööriist",
+    "cadDrawing": "GIS-i tööriist",
+    "cityEngineWebScene": "3D-rakendus",
+    "codeAttachment": "GIS-i tööriist",
+    "colorSet": "GIS-i tööriist",
+    "content": "Sisu",
+    "contentCategorySet": "GIS",
+    "csv": "Andmestik",
+    "csvCollection": "Andmefail",
+    "dashboard": "Töölaud",
+    "desktopApplication": "GIS-i tööriist",
+    "document": "Dokument",
+    "documentLink": "Veebilink",
+    "excaliburImageryProject": "GIS-i tööriist",
+    "explorerMap": "GIS-i tööriist",
+    "exportPackage": "GIS-i tööriist",
+    "featureCollection": "Andmestik",
+    "featureCollectionTemplate": "GIS-i tööriist",
+    "featureLayer": "Andmestik",
+    "featureService": "Kaart",
+    "fileGeodatabase": "Andmefail",
+    "form": "Küsitlus",
+    "geocodingService": "Arendaja API",
+    "geodataService": "Arendaja API",
+    "geojson": "Sisu",
+    "geometryService": "Arendaja API",
+    "geopackage": "Andmefail",
+    "geoprocessingService": "Arendaja API",
+    "globeLayer": "Andmefail",
+    "globeService": "Arendaja API",
+    "hubInitiative": "Algatus",
+    "hubInitiativeTemplate": "Mall",
+    "hubPage": "Leht",
+    "hubProject": "Projekt",
+    "hubSiteApplication": "Sait",
+    "image": "Pilt",
+    "imageService": "Pildiandmestik",
+    "insightsModel": "GIS-i tööriist",
+    "insightsPage": "Analüüs",
+    "insightsTheme": "GIS-i tööriist",
+    "insightsWorkbook": "Analüüsi töövihik",
+    "iWorkKeynote": "Esitlus",
+    "iWorkNumbers": "Tööleht",
+    "iWorkPages": "Dokument",
+    "kml": "Andmestik",
+    "kmlCollection": "Andmefail",
+    "layer": "Andmefail",
+    "layerPackage": "Andmefail",
+    "locatorPackage": "GIS-i tööriist",
+    "mapArea": "GIS-i tööriist",
+    "mapDocument": "GIS-i tööriist",
+    "mapImageLayer": "Kaart",
+    "mapPackage": "Andmefail",
+    "mapService": "Kaart",
+    "microsoftExcel": "Tööleht",
+    "microsoftPowerpoint": "Esitlus",
+    "microsoftVizio": "Microsoft Visio",
+    "microsoftWord": "Dokument",
+    "mission": "GIS-i tööriist",
+    "mobileApplication": "Rakendus",
+    "mobileMapPackage": "Andmefail",
+    "native application template": "Arendaja tööriist",
+    "nativeApplication": "Rakendus",
+    "nativeApplicationInstaller": "Arendaja tööriist",
+    "networkAnalysisService": "Arendaja API",
+    "notebook": "Analüüs",
+    "orientedImageryCatalog": "Pildiandmestik",
+    "orthoMappingProject": "GIS-i tööriist",
+    "orthoMappingTemplate": "GIS-i tööriist",
+    "pdf": "Dokument",
+    "quickcaptureProject": "Mobiilne küsitlus",
+    "rasterLayer": "Kaart",
+    "realTimeAnalytic": "Arendaja API",
+    "relationalDatabaseConnection": "Arendaja API",
+    "reportTemplate": "GIS-i tööriist",
+    "sceneLayer": "3D-andmestik",
+    "sceneService": "3D-andmestik",
+    "serviceDefinition": "Andmefail",
+    "shapefile": "Andmestik",
+    "solution": "Lahendus",
+    "sqliteGeodatabase": "Andmefail",
+    "statisticalDataCollection": "Andmefail",
+    "storymap": "StoryMap",
+    "symbolSet": "Andmefail",
+    "table": "Andmestik",
+    "team": "Töörühm",
+    "urbanModel": "Linnamudel",
+    "vectorTileService": "Kaart",
+    "visioDocument": "Dokument",
+    "webExperience": "Rakendus",
+    "webMap": "Kaart",
+    "webMappingApplication": "Rakendus",
+    "webScene": "3D-kaart",
+    "wfs": "Kaart",
+    "wms": "Kaart",
+    "wmts": "Kaart",
+    "workflowManagerService": "Arendaja API",
+    "workforceProject": "Töövoo haldur"
+  },
+  "location": {
+    "description": "Asukoht"
+  },
+  "members": {
+    "noMember": "Liikmeid pole",
+    "oneMember": "Liikmeid: 1",
+    "members": "Liikmeid: {count}",
+    "description": {
+      "value": "Kuva kõik grupi liikmed"
+    }
+  },
+  "tooltip": {
+    "label": "Metaandmete üksuse kohtspikker"
+  },
+  "relevantArea": {
+    "title": "Asjakohane ala"
+  },
+  "license": {
+    "tooltip": "Määrab selle sisu kasutuse",
+    "set": {
+      "title": "{license} litsents",
+      "customTitle": "Kohandatud litsents",
+      "description": {
+        "value": "Kuva litsentsi andmed"
+      }
+    },
+    "unset": {
+      "title": "Litsentsi pole määratud",
+      "description": {
+        "value": "Taotle kasutusõigust"
+      }
+    }
+  },
+  "size": {
+    "description": {
+      "value": "Dokumendifaili suurus"
+    }
+  },
+  "recordCount": {
+    "title": "Kirjed: {count}",
+    "description": {
+      "value": "Kuva andmetabel"
+    }
+  },
+  "metadataModified": {
+    "description": {
+      "defaultValue": "Teave on värskendatud",
+      "dynamicValue": "Teave värskendatud: {lastUpdated}"
+    }
+  },
+  "updateFrequency": {
+    "continual": "Pidev",
+    "daily": "Iga päev",
+    "weekly": "Kord nädalas",
+    "fortnightly": "Iga kahe nädala järel",
+    "monthly": "Kord kuus",
+    "quarterly": "Kord kvartalis",
+    "biannually": "Kaks korda aastas",
+    "annually": "Kord aastas",
+    "as-needed": "Vatavalt vajadusele",
+    "irregular": "Ebaregulaarne",
+    "not-planned": "Kavandamata",
+    "unknown": "Tundmatu",
+    "semimonthly": "Kaks korda kuus"
+  }
+}

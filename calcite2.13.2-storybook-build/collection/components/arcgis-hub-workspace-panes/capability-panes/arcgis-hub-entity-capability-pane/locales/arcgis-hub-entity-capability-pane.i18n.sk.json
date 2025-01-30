@@ -1,0 +1,35 @@
+{
+  "success": "Úpravy úspešne uložené",
+  "error": "Chyba pri ukladaní úprav",
+  "formAlert": "Upozornenie na formulár",
+  "projects": {
+    "header": "Projekty",
+    "list": "Zoznam projektov",
+    "config": "Konfigurácia",
+    "notConfigured": "Možnosť projektov nie je nakonfiguorvaná. Použite kartu Konfigurácia."
+  },
+  "content": {
+    "header": "Obsah",
+    "list": "Zoznam obsahu",
+    "config": "Konfigurácia",
+    "notConfigured": "Možnosť obsahu nie je nakonfigurovaná. Použite kartu Konfigurácia."
+  },
+  "initiatives": {
+    "header": "Iniciatívy",
+    "list": "Zoznam iniciatív",
+    "config": "Konfigurácia",
+    "notConfigured": "Možnosť iniciatív nie je nakonfigurovaná. Použite kartu Konfigurácia."
+  },
+  "events": {
+    "header": "Udalosti",
+    "list": "Zoznam udalostí",
+    "config": "Konfigurácia",
+    "notConfigured": "Možnosť udalostí nie je nakonfigurovaná. Použite kartu Konfigurácia."
+  },
+  "pages": {
+    "header": "Stránky",
+    "list": "Zoznam stránky",
+    "config": "Konfigurácia",
+    "notConfigured": "Možnosť stránky nie je nakonfigurovaná. Použite kartu Konfigurácia."
+  }
+}

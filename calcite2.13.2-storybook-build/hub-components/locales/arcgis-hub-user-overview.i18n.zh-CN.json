@@ -1,0 +1,35 @@
+{
+  "overview": "概览",
+  "resources": "Hub 资源",
+  "cards": {
+    "items": "项目数量",
+    "groups": "群组数量"
+  },
+  "hubContent": {
+    "heading": "最近修改的 Hub 项目",
+    "link": "查看所有内容"
+  },
+  "content": {
+    "heading": "最近修改的内容",
+    "stat": "项目数量",
+    "link": "查看所有内容"
+  },
+  "groups": {
+    "heading": "最近修改的群组",
+    "stat": "群组数量",
+    "link": "查看所有群组"
+  },
+  "contentCount": "内容",
+  "addContent": "新建",
+  "facets": {
+    "access": {
+      "label": "自"
+    },
+    "type": {
+      "label": "类型"
+    },
+    "modified": {
+      "label": "修改日期"
+    }
+  }
+}

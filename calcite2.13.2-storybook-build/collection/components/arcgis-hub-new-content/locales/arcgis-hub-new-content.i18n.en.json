@@ -1,0 +1,57 @@
+{
+  "new": "New",
+  "project": {
+    "label": "Project",
+    "description": "Highlight work that has clear objectives and timeframes",
+    "createLabel": "Create Project",
+    "newLabel": "New Project"
+  },
+   "initiative": {
+    "label": "Initiative",
+    "description": "Initiatives organize and summarize progress towards a goal",
+    "createLabel": "Create Initiative",
+    "newLabel": "New Initiative"
+  },
+  "discussion": {
+    "label": "Discussion board",
+    "description": "Create a new discussion board by entering a title that indicates the topic.",
+    "createLabel": "Create Discussion board",
+    "newLabel": "New Discussion board"
+  },
+  "site": {
+    "label": "Site",
+    "description": "Create a webpage to organize and share information",
+    "createLabel": "Create Site",
+    "newLabel": "New Site"
+  },
+  "event": {
+    "label": "Event",
+    "description": "Host an organized activity, in-person or virtually",
+    "createLabel": "Create Event",
+    "newLabel": "New Event"
+  },
+  "content": {
+    "label": "Content",
+    "description": "Add data, documents, images, and external links to your site",
+    "createLabel": "Create Content",
+    "newLabel": "New Content"
+  },
+  "feedback": {
+    "label": "Feedback",
+    "description": "Collect focused information with tools such as surveys and polls",
+    "createLabel": "Create Feedback",
+    "newLabel": "New Feedback"
+  },
+  "app": {
+    "label": "App",
+    "description": "Build an experience, tell a story, or visualize your data",
+    "createLabel": "Create App",
+    "newLabel": "New App"
+  },
+  "group": {
+    "label": "Group",
+    "description": "Set up a group to collaborate on focused content",
+    "createLabel": "Create Group",
+    "newLabel": "New Group"
+  }
+}

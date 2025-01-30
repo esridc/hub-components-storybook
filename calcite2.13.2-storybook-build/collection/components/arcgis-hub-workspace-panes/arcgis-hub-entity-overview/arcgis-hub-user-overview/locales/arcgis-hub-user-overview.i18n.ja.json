@@ -1,0 +1,35 @@
+{
+  "overview": "概要",
+  "resources": "Hub リソース",
+  "cards": {
+    "items": "アイテム数",
+    "groups": "グループ数"
+  },
+  "hubContent": {
+    "heading": "最近変更された Hub アイテム",
+    "link": "すべてのコンテンツを表示"
+  },
+  "content": {
+    "heading": "最近変更されたコンテンツ",
+    "stat": "アイテム数",
+    "link": "すべてのコンテンツを表示"
+  },
+  "groups": {
+    "heading": "最近変更されたグループ",
+    "stat": "グループ数",
+    "link": "すべてのグループを表示"
+  },
+  "contentCount": "コンテンツ",
+  "addContent": "新しく作成",
+  "facets": {
+    "access": {
+      "label": "取得元"
+    },
+    "type": {
+      "label": "タイプ"
+    },
+    "modified": {
+      "label": "更新"
+    }
+  }
+}

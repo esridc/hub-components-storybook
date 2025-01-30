@@ -1,0 +1,75 @@
+{
+  "addMetric": "Lägg till mätvärden",
+  "title": "Mätvärden",
+  "featured": "Aktuell",
+  "metricDescription": "Ett mätbart värde som används för att spåra projektets framsteg, baserat på antingen statiska data (t.ex. historiska) eller dynamiska data (t.ex. i realtid).",
+  "metricCount": {
+    "label": "{currentCount} / {totalCountAllowed} mätvärden",
+    "tooltip": "Om du vill lägga till mätvärden tar du bort en del av den befintliga uppsättningen"
+  },
+  "visible": {
+    "title": "Synlig",
+    "noMetrics": "Det finns inga mätvärden i det här avsnittet."
+  },
+  "hidden": {
+    "title": "Dold",
+    "description": "Dessa mätvärden visas endast för de med åtkomst till den här arbetskatalogen.",
+    "noMetrics": "Det finns inga mätvärden i det här avsnittet."
+  },
+  "project": {
+    "featured": {
+      "description": "Du kan ha 4 aktuella mätvärden. Dessa visas på översikten för ditt liveprojekt."
+    },
+    "visible": {
+      "description": "Synliga mätvärden visas under fliken Mätvärden i ditt liveprojekt."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Mätvärden matchar delningsnivån för projektet. Dolda mätvärden kan fortfarande vara tillgängliga via API-anrop.",
+        "metricsDockLink": "Läs om inställning av mätvärden"
+      }
+    }
+  },
+  "initiative": {
+    "featured": {
+      "description": "Du kan ha 4 aktuella mätvärden. Dessa visas på översikten för ditt liveinitiativ."
+    },
+    "visible": {
+      "description": "Synliga mätvärden visas under fliken Mätvärden i ditt liveprojekt."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Mätvärden matchar delningsnivån för initiativet. Dolda mätvärden kan fortfarande vara tillgängliga via API-anrop.",
+        "metricsDockLink": "Läs om inställning av mätvärden"
+      }
+    }
+  },
+  "metricNumber": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4"
+  },
+  "actions": {
+    "delete": "Ta bort",
+    "edit": "Redigera",
+    "featured": "Geoobjekt",
+    "removeFeatured": "Ta bort aktuellt",
+    "show": "Flytta till synligt",
+    "hide": "Flytta till dolt"
+  },
+  "editor": {
+    "heading": "Nytt mätvärde",
+    "description": "Som standard döljs mätvärden automatiskt så att medlemmar i din arbetskatalog kan se dem."
+  },
+  "deleteMetricModal": {
+    "heading": "Ta bort mätvärde",
+    "content": "Vill du ta bort:",
+    "cancel": "Avbryt",
+    "delete": "Ta bort"
+  },
+  "sidePanel": {
+    "definitions": "Definitioner",
+    "preview": "Förhandsgranska"
+  }
+}

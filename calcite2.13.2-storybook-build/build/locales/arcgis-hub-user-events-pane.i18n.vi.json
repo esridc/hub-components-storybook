@@ -1,0 +1,29 @@
+{
+  "header": "Sự kiện",
+  "myContent": "Sự kiện của Tôi",
+  "editableContent": "Nội dung có thể Chỉnh sửa",
+  "addEventButtonText": "Tạo sự kiện",
+  "type": "Loại",
+  "sharedUpdate": "Nhóm Cập nhật được Chia sẻ",
+  "viewOnly": "Nhóm Chỉ Xem",
+  "owner": "Đã tạo bởi",
+  "starts": "Bật",
+  "from": "Từ",
+  "until": "Cho đến",
+  "updated": "Đã cập nhật",
+  "tags": "Thẻ",
+  "dateCreated": "Đã tạo",
+  "dateUpdated": "Đã chỉnh sửa",
+  "actionLinks": {
+    "view": "Xem",
+    "edit": "Chỉnh sửa",
+    "ariaEdit": "Chỉnh sửa: {title}",
+    "ariaView": "Xem: {title}"
+  },
+  "access": {
+    "label": "Truy cập",
+    "PRIVATE": "Riêng tư",
+    "ORG": "Tổ chức",
+    "PUBLIC": "Công khai"
+  }
+}

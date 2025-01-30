@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "Editare grupuri",
+        "viewGroups": "Vizualizare grupuri"
+      },
+      "facet": {
+        "label": "De la",
+        "myGroups": "Grupurile mele",
+        "myOrganization": "Organizația mea",
+        "myCommunity": "Comunitatea mea"
+      }
+    }
+  },
+  "property": {
+    "label": "Parametru",
+    "requiredError": "Parametrul este obligatoriu"
+  },
+  "operator": {
+    "label": "Criterii",
+    "requiredError": "Criteriile sunt obligatorii"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "Tip"
+    },
+    "group": {
+      "default": "Grupuri"
+    },
+    "occurrence": {
+      "default": "Apariție"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "Este oricare din",
+      "group": "Este partajat cu oricare din"
+    },
+    "isAll": {
+      "default": "Este totul din",
+      "group": "Este partajat cu totul din"
+    },
+    "isExactly": {
+      "default": "Este exact",
+      "occurrence": "Este"
+    },
+    "isNot": {
+      "default": "Nu este",
+      "type": "Nu este niciunul din",
+      "group": "Nu este partajat cu niciunul din"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "Grupuri",
+      "requiredError": "Grupurile sunt obligatorii"
+    },
+    "type": {
+      "label": "Tipuri",
+      "requiredError": "Tipurile sunt obligatorii",
+      "app": {
+        "label": "Aplicaţii"
+      },
+      "content": {
+        "label": "Conținut"
+      },
+      "dataset": {
+        "label": "Seturi de date"
+      },
+      "discussion": {
+        "label": "Discuții"
+      },
+      "document": {
+        "label": "Documente"
+      },
+      "event": {
+        "label": "Evenimente"
+      },
+      "feedback": {
+        "label": "Feedback"
+      },
+      "initiative": {
+        "label": "Inițiative"
+      },
+      "map": {
+        "label": "Hărţi"
+      },
+      "project": {
+        "label": "Proiecte"
+      },
+      "site": {
+        "label": "Site-uri"
+      },
+      "template": {
+        "label": "Șabloane"
+      }
+    },
+    "occurrence": {
+      "label": "Apariție",
+      "requiredError": "Apariția este obligatorie",
+      "upcoming": "Viitoare",
+      "past": "Trecut",
+      "inProgress": "În curs"
+    }
+  }
+}

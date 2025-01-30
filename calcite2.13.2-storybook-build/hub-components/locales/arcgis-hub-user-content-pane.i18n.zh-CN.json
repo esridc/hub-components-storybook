@@ -1,0 +1,43 @@
+{
+  "content": "内容",
+  "myContent": "我的内容",
+  "editableContent": "可编辑内容",
+  "addContentButtonText": "新建",
+  "type": "类型",
+  "sharedUpdate": "共享更新群组",
+  "viewOnly": "仅查看群组",
+  "owner": "所有者",
+  "updated": "已更新",
+  "tags": "标签",
+  "dateCreated": "创建日期",
+  "dateUpdated": "修改日期",
+  "actionLinks": {
+    "view": "查看",
+    "edit": "编辑",
+    "ariaEdit": "编辑 {title}",
+    "ariaView": "查看 {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "内容",
+      "myContent": "我拥有的内容",
+      "editableContent": "我可以编辑的内容",
+      "all": "所有内容"
+    },
+    "access": {
+      "label": "自"
+    },
+    "type": {
+      "label": "类型"
+    },
+    "tags": {
+      "label": "标签"
+    },
+    "categories": {
+      "label": "类别"
+    },
+    "modified": {
+      "label": "修改日期"
+    }
+  }
+}

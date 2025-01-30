@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "لم يتم العثور على نتائج."
+    },
+    "error": {
+      "message": "نحن آسفون ولكن حدث خطأ أثناء البحث."
+    }
+  },
+  "access": "وصول",
+  "actionsHeader": "إجراءات",
+  "caption": "جدول كيان Hub",
+  "family": "العائلة",
+  "type": "النوع",
+  "tags": "العلامات",
+  "owner": "المالك",
+  "dateCreated": "تم الإنشاء",
+  "dateUpdated": "تعديل",
+  "description": "الوصف",
+  "dateAndTime": "التاريخ والوقت",
+  "location": "الموقع",
+  "attendanceType": "نوع تسجيل الحضور",
+  "inPerson": "شخصيًا",
+  "online": "عبر الإنترنت",
+  "hybrid": "مختلط",
+  "categories": "الفئات",
+  "content": "المحتوى",
+  "name": "الاسم",
+  "start": "بدء",
+  "end": "إنهاء",
+  "sharedUpdate": "تحديث مشترك",
+  "managers": "المديرون",
+  "username": "اسم المستخدم",
+  "no": "لا",
+  "yes": "نعم",
+  "title": "العنوان",
+  "thumbnail": "صورة مصغرة",
+  "types": {
+    "app": "التطبيق",
+    "content": "المحتوى",
+    "dataset": "مجموعة البيانات",
+    "discussion": "لوحة المناقشة",
+    "document": "مستند",
+    "event": "الحدث",
+    "feedback": "التعليقات",
+    "initiative": "المبادرة",
+    "image": "صورة",
+    "map": "خريطة",
+    "other": "أخرى",
+    "people": "الأشخاص",
+    "site": "الموقع",
+    "team": "المجموعة",
+    "template": "القالب",
+    "project": "المشروع"
+  }
+}

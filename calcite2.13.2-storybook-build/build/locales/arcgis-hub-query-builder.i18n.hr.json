@@ -1,0 +1,10 @@
+{
+  "targetEntity": {
+    "label": "Izvor",
+    "enum": {
+      "item": "Stavke",
+      "event": "Događaji",
+      "group": "Grupe"
+    }
+  }
+}

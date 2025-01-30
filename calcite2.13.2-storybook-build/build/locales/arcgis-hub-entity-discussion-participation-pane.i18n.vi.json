@@ -1,0 +1,82 @@
+{
+  "title": "Tham gia",
+  "subtitle": "Đặt mức độ hiển thị của bảng thảo luận (người có quyền xem), cuộn xuống để thiết lập người có quyền chỉnh sửa thông tin bảng, sau đó thiết lập mức độ tham gia và kiểm duyệt với các kênh.",
+  "channelTitle": "Kênh tham gia đã được thiết lập",
+  "channelDescription": "Kênh này kiểm soát những người có thể thêm, xem và kiểm duyệt bài đăng trên bảng thảo luận này.",
+  "addChannelsTitle": "Thiết lập kênh",
+  "addChannelsDescription": "Kênh sẽ kiểm soát người có quyền thêm bài đăng vào bảng. Các kênh này có thể mở cho các nhóm, tổ chức hoặc mọi người và áp dụng cho nhiều cuộc thảo luận. Các kênh cũng kiểm soát người có quyền kiểm duyệt. Đặt các từ bị chặn để tự động kiểm duyệt trong kênh.",
+  "privateChannelTitle": "Kênh riêng tư đã được thiết lập",
+  "privateChannelDescription": "Bạn không thể xem kênh riêng tư được chỉ định cho bảng thảo luận này. Bạn có thể xóa kênh và chọn kênh hiện có hoặc tạo kênh.",
+  "removeChannelConfirmationMessage": "Bảng thảo luận này sẽ không hiển thị bài đăng nữa. Bạn có thể thêm kênh nếu kênh này đã được xóa.",
+  "headingChannelEdit": "Bạn đang chỉnh sửa một kênh",
+  "headingChannelView": "Bạn đang xem một kênh",
+  "headingChannelCreate": "Bạn đang tạo một kênh",
+  "buttons": {
+    "browse": "Duyệt tìm các kênh",
+    "new": "Kênh mới",
+    "removeChannel": "Xóa kênh",
+    "cancel": "Hủy"
+  },
+  "alerts": {
+    "label": "Cảnh báo biểu mẫu",
+    "set": {
+      "title": "Thành công. Kênh đã được thiết lập."
+    },
+    "removed": {
+      "title": "Đã xóa kênh",
+      "message": "Chọn hoặc tạo kênh để tham gia."
+    },
+    "error": {
+      "title": "Không thành công. Kênh chưa được thiết lập."
+    }
+  },
+  "galleryPickerTitle": "Chọn một kênh",
+  "channelsLabel": "Các kênh",
+  "accessLabel": "Truy cập",
+  "optionPublicLabel": "Công khai",
+  "optionOrganizationLabel": "Tổ chức",
+  "optionPrivateLabel": "Riêng tư",
+  "viewChannel": "Xem kênh",
+  "editChannel": "Chỉnh sửa kênh",
+  "save": "Lưu",
+  "removeChannel": "Xóa kênh",
+  "groupPicker": {
+    "facet": {
+      "label": "Từ",
+      "myGroups": "Nhóm của tôi",
+      "myOrganization": "Tổ chức của tôi",
+      "myCommunity": "Cộng đồng của tôi"
+    }
+  },
+  "editGroupButtonText": "Thêm các nhóm chỉnh sửa",
+  "viewGroupButtonText": "Thêm các nhóm xem",
+  "viewGroups": {
+    "header": "Ai có thể xem",
+    "description": "Những người có thể xem (nhưng không được đăng tải) bảng; quyền đăng tải được thiết lập theo các kênh dưới đây."
+  },
+  "editGroups": {
+    "header": "Ai có thể sửa",
+    "description": "Thành viên nhóm có thể chỉnh sửa thông tin bảng trong không gian làm việc."
+  },
+  "aboutChannelsNotice": {
+    "title": "Giới thiệu về kênh",
+    "message": "Các kênh không phải là nhóm nhưng có thể bao gồm nhóm. Kênh xác định người có quyền đăng và kiểm duyệt.",
+    "action": "Tìm hiểu thêm về kênh"
+  },
+  "nonPrivateChannelNotice": {
+    "title": "Không thể chỉnh sửa kênh",
+    "message": "Chỉ người kiểm duyệt của kênh này mới có thể chỉnh sửa. Hãy liên hệ với chủ sở hữu kênh hoặc quản trị viên tổ chức để thêm nếu cần. Bạn cũng có thể xóa kênh này, thêm kênh hiện có (mà bạn là người kiểm duyệt) hoặc tạo kênh mới."
+  },
+  "privateChannelNotice": {
+    "title": "Không thể chỉnh sửa kênh",
+    "message": "Chỉ người kiểm duyệt của kênh này mới có thể chỉnh sửa. Liên hệ với chủ sở hữu kênh để thêm nếu cần. Bạn cũng có thể xóa kênh này, thêm kênh hiện có (mà bạn là người kiểm duyệt) hoặc tạo kênh mới."
+  },
+  "participate": {
+    "header": "Ai có thể tham gia và ai có thể kiểm duyệt"
+  },
+  "org": "Tổ chức",
+  "private": "Riêng tư",
+  "public": "Công khai",
+  "unnamed": "Kênh không có tên",
+  "groupNotFound": "Không tìm thấy nhóm"
+}

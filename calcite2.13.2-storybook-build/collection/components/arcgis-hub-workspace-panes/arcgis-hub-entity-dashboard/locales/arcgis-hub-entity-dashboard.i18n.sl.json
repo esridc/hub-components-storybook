@@ -1,0 +1,20 @@
+{
+  "dashboard": "Nadzorna plošča",
+  "activityLogSection": {
+    "title": "Dnevnik aktivnosti",
+    "table": {
+      "downloadAction": "Prenesi",
+      "downloadAllAction": "Prenesi vse",
+      "downloadActionTooltip": "Prenesi izbrane dejavnosti",
+      "caption": "Tabela nedavnih napak",
+      "columnHeaders": {
+        "datetime": "Datum",
+        "layer": "Sloj",
+        "message": "Sporočilo"
+      },
+      "noRecentErrors": "Ni nedavnih napak",
+      "expandText": "Prikaži več",
+      "collapseText": "Prikaži manj"
+    }
+  }
+}

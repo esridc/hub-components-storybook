@@ -1,0 +1,165 @@
+{
+  "advancedConfig": {
+    "label": "고급 구성",
+    "serverTimeout": {
+      "label": "서버 시간 초과(초)",
+      "helperText": "응답하는 데 시간이 오래 걸릴 수 있는 대규모 서비스에 유용합니다.",
+      "errors": {
+        "type": "서버 시간 초과 구성을 입력하세요.",
+        "minimum": "서버 시간 초과 값은 5 이상이어야 합니다.",
+        "maximum": "서버 시간 초과 값은 95 이하여야 합니다."
+      }
+    }
+  },
+  "appearance": {
+    "corners": {
+      "label": "코너",
+      "enum": {
+        "round": {
+          "label": "원형"
+        },
+        "square": {
+          "label": "사각형"
+        }
+      }
+    },
+    "dropShadow": {
+      "label": "그림자 넣기",
+      "enum": {
+        "heavy": {
+          "label": "강하게"
+        },
+        "low": {
+          "label": "낮음"
+        },
+        "medium": {
+          "label": "보통"
+        },
+        "none": {
+          "label": "시작되지 않음"
+        }
+      }
+    },
+    "layout": {
+      "label": "카드 스타일",
+      "enum": {
+        "informational": {
+          "label": "정보"
+        },
+        "simple": {
+          "label": "단순"
+        }
+      }
+    },
+    "popoverText": {
+      "label": "모달 콘텐츠"
+    },
+    "publisherText": {
+      "label": "원본 발행자"
+    },
+    "styleSpecificSettings": {
+      "label": "스타일 설정",
+      "helperInfoText": "정보 버튼을 선택하면 추가 정보가 포함된 모달이 열립니다.",
+      "helperVizText": "간단한 카드를 통해, 데이터 변경 사항을 반영하는 데 사용할 수 있는 아이콘을 시각 요소로 추가할 수 있습니다."
+    },
+    "sectionTitle": "모양",
+    "textAlign": "정렬",
+    "visualInterest": {
+      "label": "시각 요소",
+      "enum": {
+        "icon": {
+          "label": "아이콘"
+        },
+        "none": {
+          "label": "없음"
+        }
+      }
+    },
+    "icon": {
+      "label": "아이콘",
+      "caretUp": {
+        "label": "증가"
+      },
+      "caretDown": {
+        "label": "감소"
+      },
+      "caretDouble": {
+        "label": "변경 없음"
+      }
+    },
+    "valueColor": "색상(통계)"
+  },
+  "details": {
+    "allowDynamicLink": "원본 링크 표시",
+    "link": {
+      "sectionTitle": "링크",
+      "sourceLink": "링크 URL",
+      "sourceTitle": "링크 텍스트"
+    },
+    "sectionTitle": "세부정보",
+    "subtitle": "부제목",
+    "title": "제목",
+    "trailingText": {
+      "label": "후행 텍스트",
+      "helperText": "추가 컨텍스트 또는 설명을 입력하세요(지표 값 아래에 표시됨)."
+    }
+  },
+  "errors": {
+    "sourceLink": {
+      "required": "원본을 표시하려면 링크가 필요합니다.",
+      "formatError": "URL 형식이 잘못되었습니다."
+    }
+  },
+  "formatting": {
+    "sectionTitle": "형식 지정",
+    "unit": {
+      "label": "표시 단위",
+      "helperText": "값의 측정 단위를 입력합니다."
+    },
+    "unitPosition": {
+      "label": "배치",
+      "helperText": "지표 값과 관련하여 측정 단위(예시: 'km', 'lbs')를 표시할 위치를 선택하세요.",
+      "enum": {
+        "after": {
+          "label": "이후"
+        },
+        "before": {
+          "label": "이전"
+        },
+        "below": {
+          "label": "아래"
+        }
+      }
+    }
+  },
+  "sharing": {
+    "sectionTitle": "공유",
+    "showShareIcon": "공유 활성화",
+    "showShareIconHelperText": "사용자가 이 페이지에서 해당 카드로 직접 연결되는 링크를 복사하도록 허용합니다.",
+    "shareableByValue": "임베드 활성화",
+    "shareableOnHover": {
+      "label": "위에 마우스를 놓아 표시",
+      "helperText": {
+        "label": "위에 마우스를 놓을 때만 공유 버튼이 표시됩니다. 꺼진 경우 버튼이 항상 표시됩니다."
+      }
+    }
+  },
+  "statistic": {
+    "dataSource": "데이터 원본",
+    "displayValue": "표시 값",
+    "sectionTitle": "값",
+    "type": {
+      "label": "유형",
+      "enum": {
+        "dynamic": {
+          "label": "동적",
+          "description": "요약할 기존 데이터셋(피처 서비스)을 선택합니다."
+        },
+        "static": {
+          "label": "통계",
+          "description": "레이아웃에서 강조할 값을 수동으로 입력합니다."
+        }
+      }
+    }
+  }
+}

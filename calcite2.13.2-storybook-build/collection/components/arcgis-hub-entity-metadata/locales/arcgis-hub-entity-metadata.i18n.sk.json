@@ -1,0 +1,239 @@
+{
+  "owner": {
+    "description": "Vlastník"
+  },
+  "updatedDate": {
+    "description": "Dátum aktualizácie",
+    "descriptionWithFrequency": "Dátum aktualizácie: {updatedDateFormatted}"
+  },
+  "createdDate": {
+    "description": "Dátum vytvorenia"
+  },
+  "joinedDate": {
+    "description": "Dátum pridania"
+  },
+  "access": {
+    "label": {
+      "public": "Verejné",
+      "org": "Organizácia",
+      "private": "Vlastník",
+      "shared": "Súkromne zdieľané"
+    },
+    "description": {
+      "public": {
+        "site": "Túto lokalitu môžu vidieť všetci",
+        "project": "Tento projekt môže vidieť ktokoľvek",
+        "initiative": "Túto iniciatívu môžu vidieť všetci",
+        "discussion": "Túto diskusiu si môže pozrieť ktokoľvek",
+        "default": "Tento obsah môžu vidieť všetci",
+        "event": "Túto udalosť môže vidieť ktokoľvek"
+      },
+      "org": {
+        "site": "Túto lokalitu môžu vidieť všetci vo vašej organizácii",
+        "project": "Tento projekt môžu vidieť všetci vo vašej organizácii",
+        "initiative": "Túto iniciatívu môžu vidieť všetci vo vašej organizácii",
+        "discussion": "Túto diskusiu môže vidieť ktokoľvek vo vašej organizácii",
+        "default": "Tento obsah môžu vidieť všetci vo vašej organizácii",
+        "event": "Túto udalosť môžu vidieť všetci vo vašej organizácii"
+      },
+      "private": {
+        "site": "Túto lokalitu môžete vidieť len vy",
+        "project": "Tento projekt môžete vidieť len vy",
+        "initiative": "Túto iniciatívu môžete vidieť len vy",
+        "discussion": "Túto diskusiu môžete vidieť len vy",
+        "default": "Tento obsah môžete vidieť len vy",
+        "event": "Túto udalosť môžete vidieť len vy"
+      },
+      "shared": {
+        "site": "Vybrané skupiny môžu vidieť túto lokalitu",
+        "project": "Vybrané skupiny môžu vidieť tento projekt",
+        "initiative": "Vybrané skupiny môžu vidieť túto iniciatívu",
+        "discussion": "Vybrané skupiny si môžu pozrieť túto diskusiu",
+        "default": "Vybrané skupiny môžu vidieť tento obsah",
+        "event": "Vybrané skupiny môžu vidieť túto udalosť"
+      }
+    }
+  },
+  "type": {
+    "fallback": {
+      "content": "Obsah",
+      "discussion": "Diskusia",
+      "event": "Udalosť",
+      "group": "Skupina",
+      "initiative": "Iniciatíva",
+      "org": "Organizácia",
+      "page": "Stránka",
+      "project": "Projekt",
+      "site": "Stránka",
+      "survey": "Prieskum",
+      "initiativeTemplate": "Šablóna",
+      "user": "Používateľ"
+    },
+    "appbuilderExtension": "GIS Nástroj",
+    "appbuilderWidgetPackage": "GIS Nástroj",
+    "application": "Registrovaná aplikácia",
+    "arcgisProMap": "GIS Nástroj",
+    "cadDrawing": "GIS Nástroj",
+    "cityEngineWebScene": "3D Aplikácia",
+    "codeAttachment": "GIS Nástroj",
+    "colorSet": "GIS Nástroj",
+    "content": "Obsah",
+    "contentCategorySet": "GIS",
+    "csv": "Dataset",
+    "csvCollection": "Dátový súbor",
+    "dashboard": "Dashboard",
+    "desktopApplication": "GIS Nástroj",
+    "document": "Dokument",
+    "documentLink": "Webový odkaz",
+    "excaliburImageryProject": "GIS Nástroj",
+    "explorerMap": "GIS Nástroj",
+    "exportPackage": "GIS Nástroj",
+    "featureCollection": "Dataset",
+    "featureCollectionTemplate": "GIS Nástroj",
+    "featureLayer": "Dataset",
+    "featureService": "Mapa",
+    "fileGeodatabase": "Dátový súbor",
+    "form": "Prieskum",
+    "geocodingService": "Vývojárske API",
+    "geodataService": "Vývojárske API",
+    "geojson": "Obsah",
+    "geometryService": "Vývojárske API",
+    "geopackage": "Dátový súbor",
+    "geoprocessingService": "Vývojárske API",
+    "globeLayer": "Dátový súbor",
+    "globeService": "Vývojárske API",
+    "hubInitiative": "Iniciatíva",
+    "hubInitiativeTemplate": "Šablóna",
+    "hubPage": "Stránka",
+    "hubProject": "Projekt",
+    "hubSiteApplication": "Stránka",
+    "image": "Snímka",
+    "imageService": "Snímkový dataset",
+    "insightsModel": "GIS Nástroj",
+    "insightsPage": "Analýza",
+    "insightsTheme": "GIS Nástroj",
+    "insightsWorkbook": "Pracovný zošit analýzy",
+    "iWorkKeynote": "Prezentácia",
+    "iWorkNumbers": "Tabuľka",
+    "iWorkPages": "Dokument",
+    "kml": "Dataset",
+    "kmlCollection": "Dátový súbor",
+    "layer": "Dátový súbor",
+    "layerPackage": "Dátový súbor",
+    "locatorPackage": "GIS Nástroj",
+    "mapArea": "GIS Nástroj",
+    "mapDocument": "GIS Nástroj",
+    "mapImageLayer": "Mapa",
+    "mapPackage": "Dátový súbor",
+    "mapService": "Mapa",
+    "microsoftExcel": "Tabuľka",
+    "microsoftPowerpoint": "Prezentácia",
+    "microsoftVizio": "Microsoft Visio",
+    "microsoftWord": "Dokument",
+    "mission": "GIS Nástroj",
+    "mobileApplication": "Aplikácia",
+    "mobileMapPackage": "Dátový súbor",
+    "native application template": "Vývojársky nástroj",
+    "nativeApplication": "Aplikácia",
+    "nativeApplicationInstaller": "Vývojársky nástroj",
+    "networkAnalysisService": "Vývojárske API",
+    "notebook": "Analýza",
+    "orientedImageryCatalog": "Snímkový dataset",
+    "orthoMappingProject": "GIS Nástroj",
+    "orthoMappingTemplate": "GIS Nástroj",
+    "pdf": "Dokument",
+    "quickcaptureProject": "Mobilný prieskum",
+    "rasterLayer": "Mapa",
+    "realTimeAnalytic": "Vývojárske API",
+    "relationalDatabaseConnection": "Vývojárske API",
+    "reportTemplate": "GIS Nástroj",
+    "sceneLayer": "3D dataset",
+    "sceneService": "3D dataset",
+    "serviceDefinition": "Dátový súbor",
+    "shapefile": "Dataset",
+    "solution": "Riešenie",
+    "sqliteGeodatabase": "Dátový súbor",
+    "statisticalDataCollection": "Dátový súbor",
+    "storymap": "Mapa s príbehom",
+    "symbolSet": "Dátový súbor",
+    "table": "Dataset",
+    "team": "Tím",
+    "urbanModel": "Mestský model",
+    "vectorTileService": "Mapa",
+    "visioDocument": "Dokument",
+    "webExperience": "Aplikácia",
+    "webMap": "Mapa",
+    "webMappingApplication": "Aplikácia",
+    "webScene": "3D Mapa",
+    "wfs": "Mapa",
+    "wms": "Mapa",
+    "wmts": "Mapa",
+    "workflowManagerService": "Vývojárske API",
+    "workforceProject": "Správca priebehu úloh"
+  },
+  "location": {
+    "description": "Lokalita"
+  },
+  "members": {
+    "noMember": "Žiadni členovia",
+    "oneMember": "Členovia: 1",
+    "members": "Členovia: {count}",
+    "description": {
+      "value": "Zobraziť všetkých členov skupiny"
+    }
+  },
+  "tooltip": {
+    "label": "Tooltip položky metadát"
+  },
+  "relevantArea": {
+    "title": "Relevantná oblasť"
+  },
+  "license": {
+    "tooltip": "Definuje, ako sa dá tento obsah používať",
+    "set": {
+      "title": "{license} licencia",
+      "customTitle": "Vlastná licencia",
+      "description": {
+        "value": "Zobraziť podrobnosti licencie"
+      }
+    },
+    "unset": {
+      "title": "Nebola poskytnutá licencia",
+      "description": {
+        "value": "Požiadať o povolenie na používanie"
+      }
+    }
+  },
+  "size": {
+    "description": {
+      "value": "Veľkosť súboru dokumentu"
+    }
+  },
+  "recordCount": {
+    "title": "Záznamy: {count}",
+    "description": {
+      "value": "Zobraziť tabuľku dát"
+    }
+  },
+  "metadataModified": {
+    "description": {
+      "defaultValue": "Informácie aktualizované",
+      "dynamicValue": "Informácie aktualizované: {lastUpdated}"
+    }
+  },
+  "updateFrequency": {
+    "continual": "Kontinuálne",
+    "daily": "Denne",
+    "weekly": "Týždenne",
+    "fortnightly": "Dvojtýždenne",
+    "monthly": "Mesačne",
+    "quarterly": "Štvrťročne",
+    "biannually": "Polročne",
+    "annually": "Ročne",
+    "as-needed": "Podľa potreby",
+    "irregular": "Nepravidelné",
+    "not-planned": "Nenaplánované",
+    "unknown": "Neznáme",
+    "semimonthly": "Polmesačne"
+  }
+}

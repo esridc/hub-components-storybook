@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-notice-provider</title>
+
+  <!-- link to calcite components CSS  -->
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+
+  <!-- NOTE: calcite web CSS is only used for grid layout of this page -->
+  <!-- see: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+  <link rel="stylesheet" href="../calcite-web.min.css" />
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+<script async src="https://ga.jspm.io/npm:es-module-shims@1.6.2/dist/es-module-shims.js"></script>
+<script type="importmap">
+  {
+    "imports": {
+      "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+    }
+  }
+</script>
+
+  <!-- load calcite components -->
+  <script type="module" src="../../calcite/calcite.esm.js"></script>
+
+  <!-- load hub components -->
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+</head>
+
+<body>
+  <harness-header page-title=arcgis-hub-notice-provider></harness-header>
+  <div class="grid-container padding-leader-4">
+    <!-- docs about grid container: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+    <p class="leader-1">
+      Below is an instance of arcgis-hub-notice-provider. It may not render anything if there are no preconfigured notices set to autoShow: true and that also match in terms of permissions, places, and dates.
+    </p>
+
+    <p class="leader-1">
+      To get it to render notices you can either change the preconfigured notice configuration in packages/hub-components/src/utils/notices/notices.ts or click one of the buttons below to show an ad-hoc notice.
+    </p>
+
+    <calcite-button class="column-4" id="show-notice">Show alert</calcite-button>
+
+    <calcite-button class="column-4" id="show-notice-2">Show modal</calcite-button>
+
+    <!-- we want one, and only one, instance of this on the page
+    and the harness-header renders one so we want to not render it here
+    <arcgis-hub-notice-provider class="trailer-2" place="/"></arcgis-hub-notice-provider> -->
+  </div>
+
+  <script type="module">
+    import { showNotice } from '../../build/index.esm.js';
+
+    document.getElementById('show-notice').addEventListener('click', function () {
+      showNotice({
+        title: 'Ad-hoc Alert',
+        message: 'This is an ad-hoc alert that was shown by clicking a button.',
+        configuration: {
+          noticeType: 'alert',
+          autoClose: true,
+          kind: 'success'
+        },
+      });
+    });
+
+    document.getElementById('show-notice-2').addEventListener('click', function () {
+      showNotice({
+        title: 'Ad-hoc Modal',
+        message: 'This is an ad-hoc modal that was shown by clicking a button.',
+        configuration: {
+          noticeType: 'modal'
+        },
+        callbacks: {
+          onOpen: () => {
+            console.log('modal opened');
+          },
+          onClose: () => {
+            console.log('modal closed');
+          }
+        }
+      });
+    });
+
+    document.addEventListener('hubTelemetry', function (e) {
+      console.log('hubTelemetry:', e)
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "הירשם",
+    "registered": "נרשם",
+    "join": "הצטרף באופן מקוון",
+    "in-person": "פנים אל פנים",
+    "online": "מקוון",
+    "inPersonFull": "פנים אל פנים (מלא)",
+    "onlineFull": "מקוון (מלא)",
+    "close": "סגור"
+  },
+  "tooltip": {
+    "isCanceled": "האירוע בוטל",
+    "eventHasEnded": "האירוע הסתיים",
+    "eventFull": "האירוע מלא",
+    "inPerson": "בוצעה הרשמה לאירוע פנים אל פנים",
+    "online": "בוצעה הרשמה לאירוע מקוון",
+    "unavailable": "זמין שעה לפני מועד התחלת האירוע"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "ביטול הרשמה לאירוע מקוון הושלם בהצלחה",
+    "onlineRegistrationConfirmed": "הרשמה לאירוע מקוון הושלמה בהצלחה",
+    "onlineRegistrationError": "אירעה שגיאה לא צפויה בעת רישום לאירוע מקוון",
+    "onlineRegistrationCanceledError": "אירעה שגיאה לא צפויה בביטול הרשמה לאירוע מקוון",
+    "onlineRegistrationAtCapacity": "אתה מנסה להירשם לאירוע מקוון שכבר מלא",
+    "inPersonRegistrationCanceled": "ביטול הרשמה לאירוע פנים אל פנים הושלם בהצלחה",
+    "inPersonRegistrationCanceledError": "אירעה שגיאה לא צפויה בביטול הרשמה לאירוע פנים אל פנים",
+    "inPersonRegistrationConfirmed": "הרשמה לאירוע פנים אל פנים הושלמה בהצלחה",
+    "inPersonRegistrationError": "אירעה שגיאה לא צפויה בעת רישום לאירוע פנים אל פנים",
+    "inPersonRegistrationAtCapacity": "אתה מנסה להירשם לאירוע פנים-אל-פנים שכבר מלא"
+  }
+}

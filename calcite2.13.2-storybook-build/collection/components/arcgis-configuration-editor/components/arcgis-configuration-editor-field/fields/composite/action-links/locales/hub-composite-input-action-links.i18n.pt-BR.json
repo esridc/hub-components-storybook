@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "Adicionar primeira ação",
+  "addSecondAction": "Adicionar segunda ação",
+  "addLink": "Adicionar link",
+  "addSection": "Adicionar seção",
+  "deleteNotice": {
+    "title": "Não é possível excluir",
+    "message": "A seção não está vazia. Mova todos os links para fora da seção antes de tentar excluí-los."
+  },
+  "linkEditor": {
+    "save": "Salvar",
+    "delete": "Excluir",
+    "cancel": "Cancelar",
+    "preview": "Link de visualização",
+    "title": {
+      "button1": "Primeira ação",
+      "button2": "Segunda ação",
+      "block": "Link de ação"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "Link para conteúdo existente"
+        },
+        "external": {
+          "label": "Link para uma fonte externa"
+        }
+      },
+      "label": {
+        "label": "Rótulo",
+        "helperText": {
+          "button": "Este texto aparecerá no botão.",
+          "block": "Isso aparecerá no bloco em negrito."
+        },
+        "requiredError": "O campo Rótulo é obrigatório."
+      },
+      "description": {
+        "label": "Descrição",
+        "helperText": "Esta é uma informação secundária."
+      },
+      "href": {
+        "label": "Link",
+        "requiredError": "O campo Link é obrigatório.",
+        "formatError": "A formatação da URL está incorreta."
+      },
+      "contentId": {
+        "label": "Link de conteúdo",
+        "requiredError": "O link do conteúdo é um campo obrigatório."
+      },
+      "section": {
+        "label": "Mover para a seção",
+        "placeholder": {
+          "noSections": "Nenhuma seção foi configurada",
+          "notSet": "Não está na seção"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "Seção",
+    "helperText": "As seções podem ser usadas para aninhar links em um item de menu. As seções não funcionam como um link.",
+    "section": {
+      "label": {
+        "label": "Rótulo",
+        "requiredError": "O campo Rótulo é obrigatório."
+      },
+      "description": {
+        "label": "Descrição"
+      }
+    }
+  }
+}

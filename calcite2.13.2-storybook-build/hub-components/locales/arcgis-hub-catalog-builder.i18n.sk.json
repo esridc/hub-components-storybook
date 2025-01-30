@@ -1,0 +1,24 @@
+{
+  "shared": {
+    "targetEntities": {
+      "item": "Položky",
+      "event": "Udalosti"
+    }
+  },
+  "targetEntityBlock": {
+    "configured": "Nakonfigurované",
+    "notConfigured": "Nakonfigurované"
+  },
+  "targetEntityFlow": {
+    "back": "Zatvoriť konfiguráciu: {targetEntity}",
+    "description": "Nakonfigurovať: {targetEntity}",
+    "source": {
+      "heading": "Zdroj",
+      "description": "Zdroje definujú rozsah obsahu. Upravte výsledky zahrnutím alebo vylúčením parametrov.<br/><br/>*označuje povinné pole"
+    },
+    "collections": {
+      "heading": "Kolekcie",
+      "description": "Usporiadajte obsah do samostatných podskupín na ľahšie prehľadávanie a objavovanie.<br/><br/>*označuje povinné pole"
+    }
+  }
+}

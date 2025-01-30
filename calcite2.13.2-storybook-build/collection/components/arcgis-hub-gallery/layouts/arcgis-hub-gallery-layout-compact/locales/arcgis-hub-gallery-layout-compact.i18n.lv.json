@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Rezultāti nav atrasti."
+    },
+    "error": {
+      "message": "Diemžēl meklēšanas laikā radās kļūda."
+    }
+  },
+  "type": "Veids",
+  "tags": "Atslēgvārdi",
+  "owner": "Īpašnieks",
+  "dateCreated": "Izveidots",
+  "dateUpdated": "Mainīts",
+  "categories": "Kategorijas",
+  "dateAndTime": "Datums un laiks",
+  "allDay": "{date} (visu dienu)",
+  "allDayRange": "{from} - {to} (visu dienu)",
+  "location": "Novietojums",
+  "attendanceType": "Apmeklētības veids",
+  "inPerson": "Klātiene",
+  "online": "Tiešsaiste",
+  "hybrid": "Kombinēta"
+}

@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "Κατηγορίες",
+        "noCategoriesNotice": {
+          "body": "Αυτός ο οργανισμός δεν έχει ακόμη κατηγορίες.",
+          "link": "Καθορισμός κατηγοριών"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "Περιεχόμενο",
+      "selectionMode": {
+        "dynamic": {
+          "label": "Δυναμική"
+        },
+        "manual": {
+          "label": "Χειροκίνητα"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "Οργανισμός"
+        },
+        "collection": {
+          "sites": "Ιστότοποι",
+          "projects": "Έργα",
+          "initiatives": "Πρωτοβουλίες"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "Οργανισμός"
+        },
+        "collection": {
+          "events": "Συμβάντα"
+        }
+      },
+      "access": {
+        "label": "Κοινοποίηση",
+        "private": {
+          "label": "Ιδιωτικό",
+          "description": "Το φιλτράρισμα κατά περιεχόμενο είναι διαθέσιμο μόνο σε εσάς και σε όσους έχουν πρόσβαση επιπέδου ομάδας."
+        },
+        "org": {
+          "label": "Οργανισμός",
+          "description": "Το φιλτράρισμα κατά περιεχόμενο είναι διαθέσιμο μόνο σε μέλη του οργανισμού σας."
+        },
+        "public": {
+          "label": "Δημόσιο περιεχόμενο",
+          "description": "Το φιλτράρισμα κατά περιεχόμενο είναι διαθέσιμο σε όλους."
+        }
+      },
+      "tags": {
+        "label": "Ετικέτες"
+      },
+      "cardsShown": {
+        "label": "Εμφάνιση καρτών"
+      }
+    },
+    "appearance": {
+      "label": "Εμφάνιση",
+      "titleHeading": {
+        "label": "Επικεφαλίδα τίτλου",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "Σύμφωνα με το WCAG G141 οι ένθετες επικεφαλίδες βελτιώνουν την προσβασιμότητα."
+      },
+      "corners": {
+        "label": "Γωνίες",
+        "square": {
+          "label": "Τετραγωνισμένη"
+        },
+        "round": {
+          "label": "Στρογγυλεμένη"
+        }
+      },
+      "shadow": {
+        "label": "Σκίαση",
+        "none": {
+          "label": "Απενεργοποιήθηκε"
+        },
+        "low": {
+          "label": "Χαμηλό"
+        },
+        "medium": {
+          "label": "Μεσαίο"
+        },
+        "heavy": {
+          "label": "Έντονη"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "Εμφάνιση πρόσθετων πληροφοριών"
+      },
+      "layout": {
+        "label": "Διάταξη",
+        "list": {
+          "label": "Λίστα"
+        },
+        "map": {
+          "label": "Χάρτης"
+        },
+        "calendar": {
+          "label": "Ημερολόγιο"
+        }
+      }
+    },
+    "options": {
+      "label": "Επιλογές",
+      "openIn": {
+        "label": "Άνοιγμα σε…",
+        "same": {
+          "label": "Ίδια καρτέλα"
+        },
+        "new": {
+          "label": "Νέα καρτέλα"
+        },
+        "notice": {
+          "title": "Συμβουλή προσβασιμότητας:",
+          "body": "Σύμφωνα με την τεχνική για WCAG 2.0 G200, δεν συνιστάται το άνοιγμα συνδέσμων σε νέες καρτέλες ή νέα παράθυρα.",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "Διαβάστε περισσότερα για το WCAG 2.0 G200"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "Κοινοποίηση",
+      "public": {
+        "label": "Δημόσιο περιεχόμενο"
+      },
+      "private": {
+        "label": "Ιδιωτικό"
+      },
+      "organization": {
+        "label": "Οργανισμός"
+      }
+    },
+    "from": {
+      "label": "Από",
+      "myOrganization": {
+        "label": "Ο Οργανισμός μου"
+      },
+      "myContent": {
+        "label": "Το Περιεχόμενό μου"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "Συμβάντα",
+      "collections": {
+        "event": {
+          "label": "Συμβάντα"
+        }
+      }
+    },
+    "item": {
+      "label": "Περιεχόμενο",
+      "collections": {
+        "item": {
+          "label": "Περιεχόμενο"
+        }
+      }
+    }
+  }
+}

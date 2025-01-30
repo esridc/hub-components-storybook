@@ -1,0 +1,41 @@
+{
+  "notice": {
+    "outdatedItem": {
+      "title": "Thay thế sáng kiến của bạn",
+      "message": "Thẻ này tham chiếu một mục đã hết hạn. Chọn mục khác để người dùng theo dõi."
+    },
+    "missingFollowersGroup": {
+      "title": "Thiếu nhóm người theo dõi",
+      "message": "Mục này thiếu nhóm người theo dõi. Vui lòng chọn mục khác."
+    },
+    "noGroupAccess": {
+      "title": "Lưu ý",
+      "message": "Bạn không có quyền truy cập vào nhóm người theo dõi."
+    }
+  },
+  "selectContent": {
+    "title": "Nội dung cần theo dõi",
+    "facets": {
+      "sharing": "Chia sẻ",
+      "catalog": {
+        "myContent": "Nội dung của tôi",
+        "organization": "Tổ chức của tôi"
+      }
+    }
+  },
+  "callToAction": {
+    "title": "Kêu gọi Hành động",
+    "helperText": "Lời kêu gọi hành động xuất hiện bên trên nút sau.",
+    "alignment": "Căn chỉnh"
+  },
+  "followButton": {
+    "title": "Nút theo dõi",
+    "helperText": "Nút này sẽ cho phép thành viên theo dõi hoặc bỏ theo dõi nội dung. Có thể đặt văn bản cho cả hai trạng thái nút.",
+    "buttonText": "Văn bản của nút đăng ký tham gia",
+    "unfollowButtonText": "Văn bản của nút hủy đăng ký tham gia",
+    "alignment": "Căn chỉnh",
+    "buttonStyle": "Kiểu nút",
+    "solid": "Nền một màu",
+    "outline": "Đường viền"
+  }
+}

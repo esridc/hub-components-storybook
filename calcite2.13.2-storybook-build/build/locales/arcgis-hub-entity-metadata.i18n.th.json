@@ -1,0 +1,239 @@
+{
+  "owner": {
+    "description": "เจ้าของ"
+  },
+  "updatedDate": {
+    "description": "วันที่อัปเดต",
+    "descriptionWithFrequency": "วันที่อัปเดต: {updatedDateFormatted}"
+  },
+  "createdDate": {
+    "description": "วันที่ที่สร้าง"
+  },
+  "joinedDate": {
+    "description": "วันที่ที่เข้าร่วม"
+  },
+  "access": {
+    "label": {
+      "public": "สาธารณะ",
+      "org": "องค์กร",
+      "private": "เจ้าของ",
+      "shared": "แชร์แบบส่วนบุคคล"
+    },
+    "description": {
+      "public": {
+        "site": "ทุกคนสามารถมองเห็นไซต์นี้ได้",
+        "project": "ทุกคนจะมองเห็นโปรเจคนี้",
+        "initiative": "ทุกคนสามารถมองเห็นการริเริ่มนี้ได้",
+        "discussion": "ทุกคนสามารถมองเห็นการสนทนานี้ได้",
+        "default": "ทุกคนสามารถมองเห็นเนื้อหานี้ได้",
+        "event": "ทุกคนมองเห็นงานอีเวนท์นี้ได้"
+      },
+      "org": {
+        "site": "ทุกคนในองค์กรของคุณสามารถมองเห็นไซต์นี้ได้",
+        "project": "ทุกคนในองค์กรของคุณจะมองเห็นโปรเจคนี้",
+        "initiative": "ทุกคนในองค์กรของคุณสามารถมองเห็นการริเริ่มนี้ได้",
+        "discussion": "ทุกคนในองค์กรของคุณสามารถมองเห็นการสนทนานี้ได้",
+        "default": "ทุกคนในองค์กรของคุณสามารถมองเห็นเนื้อหานี้ได้",
+        "event": "ทุกคนในองค์กรของคุณสามารถมองเห็นงานอีเวนท์นี้ได้"
+      },
+      "private": {
+        "site": "เฉพาะคุณที่สามารถมองเห็นไซต์นี้ได้",
+        "project": "เฉพาะคุณที่มองเห็นโปรเจคนี้",
+        "initiative": "เฉพาะคุณที่สามารถมองเห็นการริเริ่มนี้ได้",
+        "discussion": "เฉพาะคุณที่สามารถมองเห็นการสนทนานี้ได้",
+        "default": "เฉพาะคุณเท่านั้นที่มองเห็นเนื้อหานี้ได้",
+        "event": "เฉพาะคุณที่มองเห็นงานอีเวนท์นี้"
+      },
+      "shared": {
+        "site": "กลุ่มที่เลือกสามารถมองเห็นไซต์นี้ได้",
+        "project": "กลุ่มที่เลือกสามารถมองเห็นโปรเจคนี้ได้",
+        "initiative": "กลุ่มที่เลือกสามารถมองเห็นการริเริ่มนี้ได้",
+        "discussion": "กลุ่มที่เลือกสามารถมองเห็นการสนทนานี้ได้",
+        "default": "กลุ่มที่เลือกสามารถมองเห็นเนื้อหานี้ได้",
+        "event": "กลุ่มที่เลือกมองเห็นงานอีเวนท์นี้ได้"
+      }
+    }
+  },
+  "type": {
+    "fallback": {
+      "content": "เนื้อหา",
+      "discussion": "การสนทนา",
+      "event": "เหตุการณ์",
+      "group": "กลุ่ม",
+      "initiative": "การริเริ่ม",
+      "org": "องค์กร",
+      "page": "หน้า",
+      "project": "โปรเจกต์",
+      "site": "ไซต์",
+      "survey": "การสำรวจ",
+      "initiativeTemplate": "เทมเพลต",
+      "user": "ผู้ใช้"
+    },
+    "appbuilderExtension": "เครื่องมือ GIS",
+    "appbuilderWidgetPackage": "เครื่องมือ GIS",
+    "application": "แอปที่ลงทะเบียน",
+    "arcgisProMap": "เครื่องมือ GIS",
+    "cadDrawing": "เครื่องมือ GIS",
+    "cityEngineWebScene": "แอปพลิเคชัน 3D",
+    "codeAttachment": "เครื่องมือ GIS",
+    "colorSet": "เครื่องมือ GIS",
+    "content": "เนื้อหา",
+    "contentCategorySet": "GIS",
+    "csv": "ชุดข้อมูล",
+    "csvCollection": "ไฟล์ข้อมูล",
+    "dashboard": "แดชบอร์ด",
+    "desktopApplication": "เครื่องมือ GIS",
+    "document": "เอกสาร",
+    "documentLink": "เว็บลิงก์",
+    "excaliburImageryProject": "เครื่องมือ GIS",
+    "explorerMap": "เครื่องมือ GIS",
+    "exportPackage": "เครื่องมือ GIS",
+    "featureCollection": "ชุดข้อมูล",
+    "featureCollectionTemplate": "เครื่องมือ GIS",
+    "featureLayer": "ชุดข้อมูล",
+    "featureService": "แผนที่",
+    "fileGeodatabase": "ไฟล์ข้อมูล",
+    "form": "การสำรวจ",
+    "geocodingService": "Developer API",
+    "geodataService": "Developer API",
+    "geojson": "เนื้อหา",
+    "geometryService": "Developer API",
+    "geopackage": "ไฟล์ข้อมูล",
+    "geoprocessingService": "Developer API",
+    "globeLayer": "ไฟล์ข้อมูล",
+    "globeService": "Developer API",
+    "hubInitiative": "การริเริ่ม",
+    "hubInitiativeTemplate": "เทมเพลต",
+    "hubPage": "หน้า",
+    "hubProject": "โปรเจกต์",
+    "hubSiteApplication": "ไซต์",
+    "image": "รูปภาพ",
+    "imageService": "ชุดข้อมูลรูปภาพ",
+    "insightsModel": "เครื่องมือ GIS",
+    "insightsPage": "การวิเคราะห์",
+    "insightsTheme": "เครื่องมือ GIS",
+    "insightsWorkbook": "สมุดงานการวิเคราะห์",
+    "iWorkKeynote": "การนำเสนอ",
+    "iWorkNumbers": "สเปรดชีท",
+    "iWorkPages": "เอกสาร",
+    "kml": "ชุดข้อมูล",
+    "kmlCollection": "ไฟล์ข้อมูล",
+    "layer": "ไฟล์ข้อมูล",
+    "layerPackage": "ไฟล์ข้อมูล",
+    "locatorPackage": "เครื่องมือ GIS",
+    "mapArea": "เครื่องมือ GIS",
+    "mapDocument": "เครื่องมือ GIS",
+    "mapImageLayer": "แผนที่",
+    "mapPackage": "ไฟล์ข้อมูล",
+    "mapService": "แผนที่",
+    "microsoftExcel": "สเปรดชีท",
+    "microsoftPowerpoint": "การนำเสนอ",
+    "microsoftVizio": "Microsoft Visio",
+    "microsoftWord": "เอกสาร",
+    "mission": "เครื่องมือ GIS",
+    "mobileApplication": "แอพพิลเคชัน",
+    "mobileMapPackage": "ไฟล์ข้อมูล",
+    "native application template": "เครื่องมือสำหรับผู้พัฒนา",
+    "nativeApplication": "แอพพิลเคชัน",
+    "nativeApplicationInstaller": "เครื่องมือสำหรับผู้พัฒนา",
+    "networkAnalysisService": "Developer API",
+    "notebook": "การวิเคราะห์",
+    "orientedImageryCatalog": "ชุดข้อมูลรูปภาพ",
+    "orthoMappingProject": "เครื่องมือ GIS",
+    "orthoMappingTemplate": "เครื่องมือ GIS",
+    "pdf": "เอกสาร",
+    "quickcaptureProject": "การสำรวจบนอุปกรณ์มือถือ",
+    "rasterLayer": "แผนที่",
+    "realTimeAnalytic": "Developer API",
+    "relationalDatabaseConnection": "Developer API",
+    "reportTemplate": "เครื่องมือ GIS",
+    "sceneLayer": "ชุดข้อมูล 3D",
+    "sceneService": "ชุดข้อมูล 3D",
+    "serviceDefinition": "ไฟล์ข้อมูล",
+    "shapefile": "ชุดข้อมูล",
+    "solution": "โซลูชัน",
+    "sqliteGeodatabase": "ไฟล์ข้อมูล",
+    "statisticalDataCollection": "ไฟล์ข้อมูล",
+    "storymap": "แผนที่เรื่องราว",
+    "symbolSet": "ไฟล์ข้อมูล",
+    "table": "ชุดข้อมูล",
+    "team": "ทีม",
+    "urbanModel": "โมเดลเมือง",
+    "vectorTileService": "แผนที่",
+    "visioDocument": "เอกสาร",
+    "webExperience": "แอพพิลเคชัน",
+    "webMap": "แผนที่",
+    "webMappingApplication": "แอพพิลเคชัน",
+    "webScene": "แผนที่ 3D",
+    "wfs": "แผนที่",
+    "wms": "แผนที่",
+    "wmts": "แผนที่",
+    "workflowManagerService": "Developer API",
+    "workforceProject": "Taskflow Manager"
+  },
+  "location": {
+    "description": "ตำแหน่ง"
+  },
+  "members": {
+    "noMember": "ไม่มีสมาชิก",
+    "oneMember": "สมาชิก: 1",
+    "members": "สมาชิก: {count}",
+    "description": {
+      "value": "ดูสมาชิกกลุ่มทั้งหมด"
+    }
+  },
+  "tooltip": {
+    "label": "ทูลทิปรายการคำอธิบายข้อมูล"
+  },
+  "relevantArea": {
+    "title": "พื้นที่ที่เกี่ยวข้อง"
+  },
+  "license": {
+    "tooltip": "กำหนดวิธีการที่สามารถใช้เนื้อหานี้ได้",
+    "set": {
+      "title": "สิทธิ์การใช้งาน {license}",
+      "customTitle": "สิทธิ์การใช้งานแบบกำหนดเอง",
+      "description": {
+        "value": "ดูรายละเอียดใบอนุญาต"
+      }
+    },
+    "unset": {
+      "title": "ไม่ได้ให้สิทธิ์การใช้งาน",
+      "description": {
+        "value": "ร้องขอสิทธิ์การใช้งาน"
+      }
+    }
+  },
+  "size": {
+    "description": {
+      "value": "ขนาดไฟล์เอกสาร"
+    }
+  },
+  "recordCount": {
+    "title": "บันทึก: {count}",
+    "description": {
+      "value": "ดูตารางข้อมูล"
+    }
+  },
+  "metadataModified": {
+    "description": {
+      "defaultValue": "อัปเดตข้อมูล",
+      "dynamicValue": "อัปเดตข้อมูล: {lastUpdated}"
+    }
+  },
+  "updateFrequency": {
+    "continual": "ต่อเนื่อง",
+    "daily": "รายวัน",
+    "weekly": "รายสัปดาห์",
+    "fortnightly": "รายปักษ์",
+    "monthly": "รายเดือน",
+    "quarterly": "รายไตรมาส",
+    "biannually": "รายหกเดือน",
+    "annually": "รายปี",
+    "as-needed": "ตามความจำเป็น",
+    "irregular": "ไม่สม่ำเสมอ",
+    "not-planned": "ไม่ได้วางแผนไว้",
+    "unknown": "ไม่ทราบ",
+    "semimonthly": "ทุกครึ่งเดือน"
+  }
+}

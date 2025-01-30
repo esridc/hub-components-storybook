@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-telemetry-configuration</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .sandbox {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    arcgis-telemetry-configuration{
+      width: 300px;
+    }
+
+  </style>
+
+  <script src="https://unpkg.com/@esri/arcgis-rest-request@3.4.3/dist/umd/request.umd.min.js"></script>
+  <script src="https://unpkg.com/@esri/arcgis-rest-auth@3.4.3/dist/umd/auth.umd.min.js"></script>
+  <script src="https://unpkg.com/@esri/arcgis-rest-portal@3.4.3/dist/umd/portal.umd.min.js"></script>
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet"
+    href="../calcite-web.min.css">
+</head>
+
+<body>
+  <div class="grid-container padding-leader-2">
+    <div class="column-20 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-telemetry-configuration</h2>
+    </div>
+
+    <div class="column-20">
+      <calcite-button id="signIn">Sign In (DevExt)</calcite-button>
+      <calcite-button id="signOut">Sign Out</calcite-button>
+      <div id="userinfo"></div></br></br>
+
+      <arcgis-app-identity client-id="TKnMUaluOFTMVFX1"
+        redirect-uri="../redirect.html"
+        portal="https://devext.arcgis.com">
+      </arcgis-app-identity>
+
+      <h3>Sandbox</h3>
+
+      <div class="sandbox">
+        <arcgis-telemetry-configuration id="telem-configuration" allow-ga3 ui="flat"></arcgis-telemetry-configuration>
+        <arcgis-telemetry-configuration id="telem-configuration2"></arcgis-telemetry-configuration>
+        <arcgis-telemetry-configuration id="telem-configuration3"></arcgis-telemetry-configuration>
+      </div>
+
+    </div>
+  </div>
+
+  <script type="module">
+
+    const telemConfiguration = document.getElementById("telem-configuration");
+    telemConfiguration.showArcgisOnlineDisclosure = true;
+    telemConfiguration.configuration = {
+      plugins: {
+        google: {
+          measurementId: "G-ABCD12345"
+        },
+        adobe: {
+          disabled: true
+        }
+      }
+    };
+    telemConfiguration.addEventListener("arcgisTelemetryConfigurationChange", (e)=>{
+      console.log("telem-configuration Change", e.detail);
+    });
+
+
+    const telemConfiguration2 = document.getElementById("telem-configuration2");
+    telemConfiguration2.configuration = {
+      consentMessage:{
+        disabled: true
+      },
+      plugins: {
+        google: {
+          measurementId: "G-ACBD12345"
+        },
+        siteImprove: {
+          code: "siteImproveCode",
+        },
+      }
+    };
+    telemConfiguration2.addEventListener("arcgisTelemetryConfigurationChange", (e)=>{
+      console.log("telem-configuration 2 Change", e.detail);
+    });
+
+
+    const telemConfiguration3 = document.getElementById("telem-configuration3");
+    telemConfiguration3.ui = "flat";
+    telemConfiguration3.configuration = {
+      consentMessage: {
+        text: "<p>Test Consent Message with <a href=\"https://google.com\">Link</a></p>"
+      },
+      plugins: {
+        adobeLaunch: {
+          reportSuite: "devTest",
+          scriptTag: "abcdejg/abcdefj/test-12303895-dev.min.js"
+        },
+        siteImprove: {
+          disabled: true
+        }
+      }
+    };
+    telemConfiguration3.addEventListener("arcgisTelemetryConfigurationChange", (e)=>{
+      console.log("telem-configuration 3 Change", e.detail);
+    });
+
+
+
+
+    function setProp(id, key, value) {
+      const el = document.querySelector(`#${id}`);
+      el[key] = value;
+    }
+
+    document.getElementById("signIn").addEventListener("click", signIn);
+    document.getElementById("signOut").addEventListener("click", signOut);
+
+    // These would be raised from some user profile type control
+    function signIn() {
+      const evt = new CustomEvent('arcgisAppIdentityStartSignIn')
+      document.dispatchEvent(evt);
+    }
+    function signOut() {
+      const evt = new CustomEvent('arcgisAppIdentityStartSignOut')
+      document.dispatchEvent(evt);
+    }
+
+    // These listeners could be in any component that wants a session
+    document.addEventListener('arcgisAppIdentitySignedIn', (evt) => {
+      // update userInfo
+      showUserInfo(evt.detail.session);
+    });
+
+    document.addEventListener('arcgisAppIdentitySignedOut', (evt) => {
+      // update userInfo
+      showUserInfo(evt.detail.session);
+    });
+
+    function showUserInfo(session) {
+      const el = document.getElementById("userinfo")
+      if (session) {
+        el.innerText = `User ${session.username} authenticated`;
+      } else {
+        el.innerText = 'No user authenticated';
+      }
+    }
+  </script>
+</body>
+
+</html>

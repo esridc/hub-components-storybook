@@ -1,0 +1,15 @@
+{
+  "timeoutError": {
+    "message": "Conexiunea serverului a expirat și datele statistice nu pot fi afișate.",
+    "title": "Server expirat"
+  },
+  "genericError": {
+    "message": "Datele statistice nu pot fi afișate.",
+    "title": "Ceva nu a mers bine"
+  },
+  "loading": "Se încarcă statistica",
+  "source": "Sursă:",
+  "dismiss": "Închidere",
+  "moreInfo": "Informații suplimentare",
+  "openInfo": "Deschideți mai multe informații"
+}

@@ -1,0 +1,15 @@
+{
+  "newFilter": "Novi filtar",
+  "block": {
+    "heading": {
+      "untitled": "Novi filtar",
+      "default": "Filtar {filterNum}: {parameter}",
+      "group": "Filtar {filterNum}: grupe",
+      "type": "Filtar {filterNum}: vrste",
+      "occurrence": "Filtar {filterNum}: slučaj"
+    },
+    "actions": {
+      "delete": "Izbriši filtar: {label}"
+    }
+  }
+}

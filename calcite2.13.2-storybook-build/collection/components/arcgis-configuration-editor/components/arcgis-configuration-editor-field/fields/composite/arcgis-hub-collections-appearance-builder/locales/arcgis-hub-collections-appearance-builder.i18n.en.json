@@ -1,0 +1,28 @@
+{
+  "collections": {
+    "heading": "Collections",
+    "label": "Order",
+    "helperText": "This configures the order and visibility of the collections in your catalog."
+  },
+  "filters": {
+    "label": "Filters"
+  },
+  "sort": {
+    "label": "Sort",
+    "helperText": "This sets the default for how results should be sorted when a visitor browses to this collection.",
+    "relevance": {
+      "label": "Relevance"
+    },
+    "title": {
+      "label": "Title"
+    },
+    "created": {
+      "label": "Date created"
+    },
+    "modified": {
+      "label": "Date updated"
+    }
+  },
+  "item": "Items",
+  "event": "Events"
+}

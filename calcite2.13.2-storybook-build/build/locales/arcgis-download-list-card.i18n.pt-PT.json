@@ -1,0 +1,13 @@
+{
+  "csv": "CSV",
+  "shapefile": "Shapefile",
+  "sqlite": "Geodatabase SQLite",
+  "geoPackage": "GeoPackage",
+  "filegdb": "File Geodatabase",
+  "featureCollection": "Coleção de Elementos",
+  "geojson": "GeoJSON",
+  "excel": "Excel",
+  "json": "JSON",
+  "createReplicaErrorMessage": "Crie um erro interno de réplica. Tente novamente dentro de uma hora ou contacte o gestor de conteúdos.",
+  "errorHeader": "Não foi possível concluir a transferência. Tente novamente."
+}

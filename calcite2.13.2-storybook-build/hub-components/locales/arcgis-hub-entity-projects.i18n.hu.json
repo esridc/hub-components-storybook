@@ -1,0 +1,178 @@
+{
+  "projectsTitle": "Projektek",
+  "description": "Társítsa hozzájáruló projektekhez, és kövesse nyomon az előrehaladást meghatározott időben vagy térben. A kezdeményezés társítási csoportja kezeli a megerősített társításokat és a fennálló társítási kéréseket.",
+  "subDescription": "A megerősített társításokkal rendelkező projektek ennek a kezdeményezésnek a nézetében jelennek meg.",
+  "project": "projekt",
+  "initiative": "kezdeményezés",
+  "helpStates": {
+    "noAccess": {
+      "heading": "Nincs hozzáférés",
+      "message": "Nincs hozzáférése a társításcsoport megtekintéséhez."
+    },
+    "missingGroup": {
+      "heading": "Hiányzó társításcsoport",
+      "message": {
+        "overview": "A társítási csoport felügyeli, hogy mely projektek kapcsolódnak a kezdeményezéshez és jelentenek neki.",
+        "members": "E csoport tagjai küldhetnek vagy jóváhagyhatnak társítási kéréseket."
+      },
+      "action": "Csoport létrehozása",
+      "formLabel": "Új társításcsoport",
+      "description": "Hozzon létre egy társításcsoportot a kapcsolatok kezeléséhez"
+    },
+    "requestsWaiting": {
+      "heading": "Hiányzó társításcsoport",
+      "message": {
+        "overview": "A társítási csoport felügyeli, hogy mely projektek kapcsolódnak a kezdeményezéshez és jelentenek neki.",
+        "members": "E csoport tagjai küldhetnek vagy jóváhagyhatnak társítási kéréseket.",
+        "requests": "Várakozó projektkérelmek: {count}"
+      },
+      "action": "Csoport létrehozása",
+      "formLabel": "Új társításcsoport",
+      "description": "Hozzon létre egy társításcsoportot a kapcsolatok kezeléséhez"
+    }
+  },
+  "shared": {
+    "project": "projekt",
+    "associationGroup": "társításcsoport",
+    "error": {
+      "title": "Hiba történt",
+      "message": "Lehetséges, hogy nem rendelkezik elégséges hozzáféréssel társítás küldéséhez vagy kezeléséhez a következőben: {type}."
+    },
+    "facets": {
+      "access": {
+        "label": "Megosztás"
+      },
+      "status": {
+        "label": "Állapot",
+        "notStarted": "Nem kezdődött el",
+        "inProgress": "Folyamatban",
+        "onHold": "Várakozik",
+        "complete": "Befejeződött"
+      },
+      "tags": {
+        "label": "Címkék"
+      }
+    },
+    "tabs": {
+      "projects": "Projektek",
+      "members": "Tagok",
+      "settings": "Beállítások"
+    },
+    "disabledActionTooltip": "A társítást csak csoportfelelősök kezelhetik a következőben: {type}."
+  },
+  "createAssociationGroup": {
+    "defaultSummary": "Kezelje társításcsoport használatával az ehhez társított elemeket: {name} {type}."
+  },
+  "members": {
+    "facets": {
+      "role": {
+        "label": "Szerepkör",
+        "all": "Összes",
+        "manager": "Kezelő",
+        "member": "Tag"
+      },
+      "dateJoined": {
+        "label": "Csatlakozás dátuma"
+      }
+    },
+    "addMembers": {
+      "button": "Tagok hozzáadása",
+      "modal": {
+        "title": "Tagok hozzáadása",
+        "org": "Saját szervezet",
+        "community": "Saját közösség",
+        "partner": "Saját partnerek",
+        "world": "Világ"
+      },
+      "notifications": {
+        "invited": "Meghívó elküldve. A csatlakozáshoz a felhasználóknak el kell fogadniuk",
+        "added": "Felhasználó(k) hozzáadva",
+        "notInvited": "Előfordulhat, hogy egyes felhasználók nem rendelkeznek a csoporthoz való csatlakozáshoz szükséges jogosultságokkal, vagy a csoportlétszám elérte a felső korlátját (512)."
+      }
+    },
+    "removeUsers": {
+      "button": "Eltávolítás",
+      "success": "A tagokat sikeresen eltávolították innen: {groupName}.",
+      "error": "Egy vagy több felhasználót nem sikerült eltávolítani a csoportból."
+    },
+    "changeRole": {
+      "button": "Szerepkör megváltoztatása",
+      "member": "Tag",
+      "memberHelperText": "Hozzáadhatja és megtekintheti a tartalmat a csoporton belül.",
+      "tooltipText": "Saját maga és/vagy a csoporttulajdonos kiválasztásának megszüntetése",
+      "tooltipLabel": "Szerepkörre vonatkozó jogi nyilatkozat",
+      "admin": "Kezelő",
+      "adminHelperText": "Tartalmat adhat hozzá/távolíthat el, és embereket hívhat meg/távolíthat el (a tulajdonos kivételével).",
+      "success": "A kiválasztott tagok a(z) {role} csoportot alkotják.",
+      "error": "Egy vagy több tag szerepét nem lehetett megváltoztatni."
+    },
+    "stats": {
+      "total": {
+        "title": "Összesen",
+        "trailingText": "Tagok"
+      },
+      "new": {
+        "title": "Új",
+        "trailingText": "Az elmúlt 30 nap"
+      }
+    }
+  },
+  "projects": {
+    "requestAssociation": {
+      "findProjects": "Projektek keresése",
+      "sendRequest": "Kérés küldése",
+      "success": {
+        "title": "Sikerült",
+        "message": "Társítási kérelem elküldve: {count}"
+      },
+      "alreadyRequesting": {
+        "title": "Társítások ellenőrzése",
+        "message": "Néhány kiválasztás már kérte a társítást. Új társítási kérelmek elküldve: {count}"
+      },
+      "catalog": {
+        "myContent": "Saját tartalom",
+        "favorites": "Kedvencek",
+        "organization": "Szervezet",
+        "world": "Világ (nyilvános)"
+      },
+      "collection": {
+        "projects": "Projektek"
+      }
+    },
+    "acceptAssociation": {
+      "label": "Elfogadás",
+      "success": {
+        "title": "Sikerült",
+        "message": "Társítás elfogadva vele: {requestor}"
+      }
+    },
+    "cancelRequest": {
+      "label": "Kérés visszavonása",
+      "success": {
+        "title": "Sikerült",
+        "message": "Társítási kérelem törölve"
+      }
+    },
+    "breakAssociation": {
+      "label": "Csatlakozás megszüntetése",
+      "success": {
+        "title": "Társítás megszüntetve",
+        "message": "Ez az elem le lett választva a korábbi társításról. A másik oldalról azonban nem tudjuk visszaállítani a döntést, így a bejövő kérésekben még találkozhat vele."
+      }
+    },
+    "associationsGallery": {
+      "sources": "Állapot",
+      "catalog": {
+        "associated": "Társítva",
+        "requesting": "Bejövő kérelmek",
+        "pending": "Kimenő kérelmek"
+      },
+      "collection": {
+        "projects": "Projektek"
+      }
+    }
+  },
+  "notice": {
+    "label": "Űrlappal kapcsolatos figyelmeztetés"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "section": "Törlés",
+  "protection": "Megakadályozza, hogy véletlenül törölje: {type}.",
+  "protectionTooltip": "Védelem eszköztippje",
+  "protectionDisabledTooltip": "A védelmet csak tulajdonos vagy szervezeti rendszergazda módosíthatja.",
+  "deleteDisabledNoAccessTooltip": "Csak tulajdonos vagy szervezeti rendszergazda törölheti.",
+  "deleteDisabledNoAccessTooltipGroup": "Csak tulajdonos, a kezelők vagy a szervezeti rendszergazda törölheti.",
+  "deleteDisabledProtectedTooltip": "Nem lehet törölni, amíg a törlési védelem engedélyezve van.",
+  "deleteButton": "Törlés",
+  "protect": {
+    "successTitle": "Törlés elleni védelem hozzáadva",
+    "success": "Nem lehet törölni, amíg a törlési védelem engedélyezve van.",
+    "successLabel": "A törlés elleni védelem hozzáadását jelző figyelmeztetés.",
+    "errorTitle": "A törlés elleni védelem hozzáadása nem sikerült",
+    "error": "Hiba történt a törlés elleni védelem hozzáadásakor.",
+    "errorLabel": "A törlés elleni védelem sikertelenségét jelző figyelmeztetés."
+  },
+  "unprotect": {
+    "successTitle": "Törlés elleni védelem eltávolítva",
+    "success": "Törölhet, ha a törlési védelem le van tiltva.",
+    "successLabel": "A törlés elleni védelem eltávolítását jelző figyelmeztetés.",
+    "errorTitle": "A törlés elleni védelem eltávolítása nem sikerült",
+    "error": "Hiba történt a törlés elleni védelem eltávolításakor.",
+    "errorLabel": "A törlés elleni védelem eltávolításának sikertelenségét jelző figyelmeztetés."
+  },
+  "delete": {
+    "successTitle": "Sikeres törlés",
+    "success": "Visszairányítjuk a kezdő munkaterületére…",
+    "successLabel": "Sikeres törlést jelző figyelmeztetés.",
+    "errorTitle": "A törlés nem sikerült",
+    "error": "Hiba történt, próbálkozzon újra.",
+    "errorLabel": "A törlés sikertelenségét jelző figyelmeztetés."
+  },
+  "permanentDelete": {
+    "successTitle": "Sikeres végleges törlés",
+    "success": "Visszairányítjuk a kezdő munkaterületére…",
+    "successLabel": "Sikeres törlést jelző figyelmeztetés.",
+    "errorTitle": "A törlés nem sikerült",
+    "error": "Hiba történt, próbálkozzon újra.",
+    "errorLabel": "A törlés sikertelenségét jelző figyelmeztetés."
+  },
+  "deleteModal": {
+    "header": "Törlés",
+    "deleteContent": "A végleges törlés nem vonható vissza. Biztosan továbblép?",
+    "recycleContent": "A törölt tartalom a lomtárba kerül. Törlését követően 14 napig visszaállítható marad.",
+    "delete": "Törlés",
+    "permanentlyDelete": "Végleges törlés",
+    "cancel": "Mégse"
+  }
+}

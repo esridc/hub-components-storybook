@@ -1,0 +1,57 @@
+{
+  "new": "Nuovo",
+  "project": {
+    "label": "Progetto",
+    "description": "Evidenziare un lavoro con obiettivi e tempi chiari",
+    "createLabel": "Crea progetto",
+    "newLabel": "Nuovo progetto"
+  },
+  "initiative": {
+    "label": "Iniziativa",
+    "description": "Le iniziative organizzano e riepilogano l'avanzamento verso un obiettivo",
+    "createLabel": "Crea iniziativa",
+    "newLabel": "Nuova iniziativa"
+  },
+  "discussion": {
+    "label": "Pannello di discussione",
+    "description": "Crea un nuovo pannello di discussione immettendo un titolo che indichi l'argomento.",
+    "createLabel": "Crea pannello di discussione",
+    "newLabel": "Nuovo pannello di discussione"
+  },
+  "site": {
+    "label": "Sito",
+    "description": "Creare una pagina web per organizzare e condividere le informazioni",
+    "createLabel": "Crea sito",
+    "newLabel": "Nuovo sito"
+  },
+  "event": {
+    "label": "Evento",
+    "description": "Ospitare un'attività organizzata in presenza o virtualmente",
+    "createLabel": "Crea evento",
+    "newLabel": "Nuovo evento"
+  },
+  "content": {
+    "label": "Contenuto",
+    "description": "Aggiungere dati, documenti, immagini e link esterni al sito",
+    "createLabel": "Crea contenuto",
+    "newLabel": "Nuovo contenuto"
+  },
+  "feedback": {
+    "label": "Feedback",
+    "description": "Raccoglie informazioni mirate con strumenti quali rilevamenti e sondaggi",
+    "createLabel": "Crea feedback",
+    "newLabel": "Nuovo feedback"
+  },
+  "app": {
+    "label": "App",
+    "description": "Costruire un'esperienza, raccontare una storia o visualizzare i dati",
+    "createLabel": "Crea app",
+    "newLabel": "Nuova app"
+  },
+  "group": {
+    "label": "Gruppo",
+    "description": "Impostare un gruppo per collaborare su contenuto mirato",
+    "createLabel": "Crea gruppo",
+    "newLabel": "Nuovo gruppo"
+  }
+}

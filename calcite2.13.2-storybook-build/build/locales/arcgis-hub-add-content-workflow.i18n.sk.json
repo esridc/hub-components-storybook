@@ -1,0 +1,110 @@
+{
+  "controls": {
+    "addContent": "Pridať obsah",
+    "back": "Späť",
+    "cancel": "Zrušiť",
+    "close": "Hotovo",
+    "create": "Vytvoriť a pridať do skupiny.",
+    "next": "Ďalšie"
+  },
+  "createHelpState": {
+    "discussion": {
+      "heading": "Diskusia",
+      "message": "Vytvorte nové diskusné fórum zadaním názvu, ktorý indikuje tému."
+    },
+    "event": {
+      "heading": "Udalosť",
+      "message": "Organizovanú aktivitu hostujte osobne alebo virtuálne."
+    },
+    "group": {
+      "heading": "Skupina",
+      "message": "Založte skupinu na spoluprácu na cielenom obsahu."
+    },
+    "initiative": {
+      "heading": "Iniciatíva",
+      "message": "Iniciatívy organizujú a sumarizujú pokrok smerom k cieľu."
+    },
+    "page": {
+      "heading": "Stránka",
+      "message": "Stránka je miesto na zdieľanie informácií s vašim publikom."
+    },
+    "project": {
+      "heading": "Projekt",
+      "message": "Zdôraznite činnosť, ktorá má jasné ciele a časové rámce."
+    },
+    "site": {
+      "heading": "Stránka",
+      "message": "Vytvorte webovú stránku na organizáciu a zdieľanie informácií."
+    }
+  },
+  "selection": {
+    "unlimited": "Vybrané: {count}",
+    "limited": "Vybrané: {count} / {limit}"
+  },
+  "steps": {
+    "createContent": "Pridať základné informácie",
+    "selectContent": "Vybrať obsah",
+    "selectGroups": "Vybrať skupinu",
+    "confirmation": "Potvrdenie",
+    "notImplemented": "Nebolo vykonané"
+  },
+  "working": {
+    "heading": "Pridanie vybraného obsahu.",
+    "loadingLabel": "Pridanie obsahu."
+  },
+  "failure": {
+    "heading": "Obsah nebol pridaný",
+    "message": "Pri pridávaní vybraného obsahu sa niečo pokazilo, skúste to znova.",
+    "action": "Skúste to znova"
+  },
+  "notImplemented": {
+    "heading": "Tento pracovný postup ešte nie je implementovaný."
+  },
+  "contentGallery": {
+    "facets": {
+      "access": {
+        "label": "Z"
+      },
+      "type": {
+        "label": "Typy"
+      },
+      "tags": {
+        "label": "Štítky"
+      },
+      "categories": {
+        "label": "Kategórie"
+      },
+      "modified": {
+        "label": "Upravené"
+      }
+    }
+  },
+  "groupsGallery": {
+    "facets": {
+      "access": {
+        "label": "Viditeľné pre",
+        "options": {
+          "org": "Organizácia",
+          "public": "Všetci (verejnosť)",
+          "private": "Ja"
+        }
+      },
+      "from": {
+        "label": "Z",
+        "options": {
+          "myCommunity": "Moja komunita",
+          "myGroups": "Moje skupiny",
+          "myOrganization": "Moja organizácia",
+          "world": "Svet"
+        }
+      },
+      "type": {
+        "label": "Typy",
+        "options": {
+          "sharedUpdate": "Zdieľaná aktualizácia",
+          "opendata": "Open Data"
+        }
+      }
+    }
+  }
+}

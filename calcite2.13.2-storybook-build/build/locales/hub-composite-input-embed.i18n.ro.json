@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "Resursele mele",
+    "livingAtlas": "Atlas actualizat",
+    "organization": "Organizația mea",
+    "world": "Internațional (public)"
+  },
+  "collection": {
+    "appsAndMaps": "Aplicații și hărți",
+    "feedback": "Feedback"
+  },
+  "facets": {
+    "type": "Tip",
+    "tags": "Etichete",
+    "categories": "Categorii",
+    "modified": "Modificat"
+  },
+  "pickerTitle": "Selectare conținut",
+  "height": "Înălțime (px)",
+  "isScrollable": "Care poate derulat",
+  "errors": {
+    "heightMinimum": "Valoarea trebuie să fie un număr pozitiv.",
+    "heightMaximum": "Valoarea trebuie să fie mai mică sau egală cu 2000p px.",
+    "urlError": "Trebuie să fie un URL valid."
+  },
+  "success": {
+    "urlSuccess": "URL încărcat cu succes."
+  },
+  "shouldApplyBreakpoints": {
+    "label": "Aplicați în schimb setările pe puncte de întrerupere ale dispozitivului"
+  },
+  "viewportAll": {
+    "label": "Implicit",
+    "description": "Setările aplicate la toate dimensiunile ecranelor"
+  },
+  "viewportMobile": {
+    "label": "Mobil",
+    "description": "Setările aplicate la ecrane de 360px lățime și mai mult"
+  },
+  "viewportTablet": {
+    "label": "Tabletă",
+    "description": "Setările aplicate la ecrane de 560px lățime și mai mult"
+  },
+  "viewportDesktop": {
+    "label": "Desktop",
+    "description": "Setările aplicate la ecrane de 980px lățime și mai mult"
+  },
+  "sourceLabel": "Selectați tipul încorporat",
+  "contentLabel": "Resurse ArcGIS",
+  "externalLabel": "URL extern",
+  "contentDescription": "Selectați din hărțile, scenele, aplicațiile, sondajele și linukurile de documente existente disponibile pentru dvs.",
+  "externalDescription": "Introduceți un URL încorporat. Rețineți că unele domenii nu permit încorporarea și ar putea să nu fie afișate conform așteptărilor."
+}

@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "Registrieren",
+    "registered": "Registriert",
+    "join": "Online beitreten",
+    "in-person": "Präsenz",
+    "online": "Online",
+    "inPersonFull": "Präsenz (voll)",
+    "onlineFull": "Online (voll)",
+    "close": "Schließen"
+  },
+  "tooltip": {
+    "isCanceled": "Event abgesagt",
+    "eventHasEnded": "Event beendet",
+    "eventFull": "Event voll",
+    "inPerson": "Für Präsenz-Event registriert",
+    "online": "Für Online-Event registriert",
+    "unavailable": "Verfügbar eine Stunde vor Beginn des Events"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "Die Registrierung für das Online-Event wurde erfolgreich storniert.",
+    "onlineRegistrationConfirmed": "Die Registrierung für das Online-Event wurde erfolgreich durchgeführt.",
+    "onlineRegistrationError": "Beim Registrieren für das Online-Event ist ein unerwarteter Fehler aufgetreten.",
+    "onlineRegistrationCanceledError": "Beim Stornieren der Registrierung für das Online-Event ist ein unerwarteter Fehler aufgetreten.",
+    "onlineRegistrationAtCapacity": "Sie versuchen, sich für ein Online-Event zu registrieren, das voll ist.",
+    "inPersonRegistrationCanceled": "Die Registrierung für das Präsenz-Event wurde erfolgreich storniert.",
+    "inPersonRegistrationCanceledError": "Beim Stornieren der Registrierung für das Präsenz-Event ist ein unerwarteter Fehler aufgetreten.",
+    "inPersonRegistrationConfirmed": "Die Registrierung für das Präsenz-Event wurde erfolgreich durchgeführt.",
+    "inPersonRegistrationError": "Beim Registrieren für das Präsenz-Event ist ein unerwarteter Fehler aufgetreten.",
+    "inPersonRegistrationAtCapacity": "Sie versuchen, sich für ein Präsenz-Event zu registrieren, das voll ist."
+  }
+}

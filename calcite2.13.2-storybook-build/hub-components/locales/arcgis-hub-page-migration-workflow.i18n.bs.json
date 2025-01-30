@@ -1,0 +1,46 @@
+{
+  "heading": "Informacije o stranici",
+  "form": {
+    "title": {
+      "label": "Naziv stranice",
+      "requiredError": "Naziv je obavezan",
+      "entityTitleValidatorError": "Naziv stranice ne može sadržavati znakove emoji, <, > ili ="
+    },
+    "slug": {
+      "label": "Zadnji dio URL-a (tzv. slug)",
+      "helperText": "Zadnji dio URL-a (tzv. slug) je verzija naziva stranice prilagođena URL-u. Automatski se generira na temelju naziva stranice, ali ga možete prilagoditi.",
+      "patternError": "Pogreška: zadnji dio URL-a (tzv. slug) mora sadržavati mala alfanumerička slova odvojena crticama.",
+      "isUniqueError": "Ovaj zadnji dio URL-a (tzv. slug) se već koristi. Odaberite drugi.",
+      "requiredError": "Zadnji dio URL-a (tzv. slug) je obavezan"
+    }
+  },
+  "controls": {
+    "back": "Natrag",
+    "cancel": "Odustani",
+    "close": "Gotovo",
+    "migrate": "Premjesti stranicu",
+    "next": "Sljedeće"
+  },
+  "selection": {
+    "unlimited": "{count} odabrano",
+    "limited": "{count} / {limit} odabrano"
+  },
+  "steps": {
+    "specifyInfo": "Dodaj osnovne informacije",
+    "selectGroups": "Odaberi grupu",
+    "confirmation": "Potvrda"
+  },
+  "working": {
+    "heading": "Premještanje stranice.",
+    "loadingLabel": "Premještanje stranice"
+  },
+  "success": {
+    "heading": "Stranica je premještena",
+    "message": "Stranica je uspješno premještena."
+  },
+  "failure": {
+    "heading": "Stranica nije premještena",
+    "message": "Nešto nije u redu prilikom premještanja stranice, pokušajte ponovo.",
+    "action": "Pokušajte ponovno"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "overview": "Panoramica",
+  "telemetry": {
+    "pageViews": "Visualizzazioni pagina",
+    "last30days": "Ultimi 30 giorni",
+    "lastUpdated": "Ultimo aggiornamento {hoursElapsed} ore fa",
+    "checkTomorrow": "Ricontrolla domani"
+  },
+  "learnAbout": "Ulteriori Informazioni sulle iniziative Hub",
+  "feedbackNotice": {
+    "message": "Qual è l'opinione sulle iniziative Hub? Vogliamo sapere come si pensa di utilizzarla.",
+    "link": "Invia feedback"
+  },
+  "status": {
+    "notStarted": "Non iniziato",
+    "inProgress": "In corso",
+    "onHold": "In attesa",
+    "complete": "Completo"
+  },
+  "editDetails": "Modifica i dettagli",
+  "noPurposeSet": "Nessuno scopo impostato",
+  "noLocationSet": "Nessuna posizione impostata"
+}

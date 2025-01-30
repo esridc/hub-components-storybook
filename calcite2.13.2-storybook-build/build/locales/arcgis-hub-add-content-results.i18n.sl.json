@@ -1,0 +1,54 @@
+{
+  "existing": {
+    "successHeading": "Vsebina je bila uspešno dodana.",
+    "failureHeading": "Vsebine ni mogoče dodati v izbrano skupino.",
+    "successfulAccordionHeading": "Vsebina je bila dodana v izbrano skupino.",
+    "unsuccessfulAccordionHeading": "Vsebina ni bila dodana v izbrano skupino"
+  },
+  "create": {
+    "event": {
+      "successWithoutGroupHeading": "Dogodek je uspešno ustvarjen.",
+      "successWithGroupHeading": "Dogodek je uspešno ustvarjen in dodan v {group}.",
+      "successMessage": "Zdaj si dogodek lahko ogledate, ga upravljate za urejanje informacij ali kliknete \"končano\", da se vrnete na pogled.",
+      "failureHeading": "Dogodka ni mogoče dodati v izbrano skupino."
+    },
+    "discussion": {
+      "successWithoutGroupHeading": "Forum je uspešno ustvarjen.",
+      "successWithGroupHeading": "Forum je uspešno ustvarjen in dodan v {group}.",
+      "successMessage": "Zdaj si forum lahko ogledate, ga upravljate za urejanje informacij ali kliknete \"končano\", da se vrnete na pogled.",
+      "failureHeading": "Foruma ni mogoče dodati v izbrano skupino."
+    },
+    "group": {
+      "successWithoutGroupHeading": "Skupina je uspešno ustvarjena.",
+      "successMessage": "Zdaj si skupino lahko ogledate, jo upravljate za urejanje informacij ali kliknete \"končano\", da se vrnete na pogled.",
+      "failureHeading": "Skupine ni mogoče ustvariti."
+    },
+    "initiative": {
+      "successWithoutGroupHeading": "Iniciativa uspešno ustvarjena.",
+      "successWithGroupHeading": "Iniciativa je uspešno ustvarjena in dodana v {group}.",
+      "successMessage": "Zdaj si iniciativo lahko ogledate, jo upravljate za urejanje informacij ali kliknete \"končano\", da se vrnete na pogled.",
+      "failureHeading": "Iniciative ni mogoče dodati v izbrano skupino."
+    },
+    "page": {
+      "successWithoutGroupHeading": "Stran je uspešno ustvarjena.",
+      "successWithGroupHeading": "Stran je uspešno ustvarjena in dodana v {group}.",
+      "successMessage": "Zdaj si stran lahko ogledate, jo upravljate za urejanje informacij ali kliknete \"končano\", da se vrnete na pogled.",
+      "failureHeading": "Strani ni mogoče dodati v izbrano skupino."
+    },
+    "project": {
+      "successWithoutGroupHeading": "Projekt je bil uspešno ustvarjen.",
+      "successWithGroupHeading": "Projekt je bil uspešno ustvarjen in dodan v {group}.",
+      "successMessage": "Zdaj si projekt lahko ogledate, ga upravljate za urejanje informacij ali kliknete \"končano\", da se vrnete na pogled.",
+      "failureHeading": "Projekta ni mogoče dodati v izbrano skupino."
+    },
+    "site": {
+      "successWithoutGroupHeading": "Mesto je bilo uspešno ustvarjeno.",
+      "successWithGroupHeading": "Mesto je bilo uspešno ustvarjeno in dodano v {group}.",
+      "successMessage": "Zdaj si mesto lahko ogledate, ga upravljate za urejanje informacij ali kliknete \"končano\", da se vrnete na pogled.",
+      "failureHeading": "Mesta ni mogoče dodati v izbrano skupino."
+    }
+  },
+  "editLayout": "Uredi postavitev",
+  "manageEntity": "Upravljaj",
+  "viewEntity": "Ogled"
+}

@@ -1,0 +1,53 @@
+:host {
+  display: block;
+  --calcite-block-padding: 0;
+}
+
+calcite-block {
+  margin-block: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--hub-heading-family, inherit);
+}
+
+calcite-list-item {
+  margin-bottom: 1rem;
+}
+calcite-list-item calcite-button {
+  margin: 0 0.25rem;
+}
+
+arcgis-hub-image {
+  /*TODO: this needs work*/
+  height: 96px;
+  aspect-ratio: 200 / 133;
+}
+
+/*
+  We need this span to be focusable so the next tab press will navigate the user
+  to the first result of next page. However, we don't want this span messing up grid / flex flows,
+  so we set position: absolute to remove it
+*/
+.previous-results-end {
+  position: absolute;
+}
+div["slot=content-bottom"] {
+  padding: 3px;
+}
+
+dl {
+  padding-inline:0.75rem;
+}
+
+dl span {
+  display:inline-flex;
+  margin-inline-end: 1rem;
+  gap:0.5rem;
+
+}
+
+dd {
+  font-weight: bolder;
+  margin:0;
+}

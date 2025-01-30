@@ -1,0 +1,54 @@
+{
+  "existing": {
+    "successHeading": "התוכן נוסף בהצלחה.",
+    "failureHeading": "לא ניתן להוסיף את התוכן לקבוצה שנבחרה.",
+    "successfulAccordionHeading": "התוכן נוסף לקבוצה שנבחרה.",
+    "unsuccessfulAccordionHeading": "התוכן לא נוסף לקבוצה שנבחרה."
+  },
+  "create": {
+    "event": {
+      "successWithoutGroupHeading": "האירוע נוצר בהצלחה.",
+      "successWithGroupHeading": "האירוע נוצר בהצלחה ונוסף אל {group}.",
+      "successMessage": "כעת באפשרותך לצפות באירוע, לנהל אותו כדי לערוך מידע או ללחוץ על 'סיום' כדי לחזור לתצוגה.",
+      "failureHeading": "לא ניתן להוסיף את האירוע לקבוצה שנבחרה."
+    },
+    "discussion": {
+      "successWithoutGroupHeading": "לוח דיונים נוצר בהצלחה.",
+      "successWithGroupHeading": "לוח דיונים נוצר בהצלחה ונוסף אל {group}.",
+      "successMessage": "כעת באפשרותך לצפות בלוח הדיונים, לנהל אותו כדי לערוך מידע או ללחוץ על 'סיום' כדי לחזור לתצוגה.",
+      "failureHeading": "לא ניתן להוסיף לוח דיונים לקבוצה שנבחרה."
+    },
+    "group": {
+      "successWithoutGroupHeading": "הקבוצה נוצרה בהצלחה.",
+      "successMessage": "כעת באפשרותך לצפות בקבוצה, לנהל אותה כדי לערוך מידע או ללחוץ על 'סיום' כדי לחזור לתצוגה.",
+      "failureHeading": "לא ניתן ליצור קבוצה."
+    },
+    "initiative": {
+      "successWithoutGroupHeading": "היוזמה נוצרה בהצלחה.",
+      "successWithGroupHeading": "היוזמה נוצרה בהצלחה ונוספה אל {group}.",
+      "successMessage": "כעת באפשרותך לצפות ביוזמה, לנהל אותה כדי לערוך מידע או ללחוץ על 'סיום' כדי לחזור לתצוגה.",
+      "failureHeading": "לא ניתן להוסיף את היוזמה לקבוצה שנבחרה."
+    },
+    "page": {
+      "successWithoutGroupHeading": "הדף נוצר בהצלחה.",
+      "successWithGroupHeading": "הדף נוצר בהצלחה ונוסף אל {group}.",
+      "successMessage": "כעת באפשרותך לצפות בדף, לנהל אותו כדי לערוך מידע או ללחוץ על 'סיום' כדי לחזור לתצוגה.",
+      "failureHeading": "לא ניתן להוסיף את הדף לקבוצה שנבחרה."
+    },
+    "project": {
+      "successWithoutGroupHeading": "הפרויקט נוצר בהצלחה.",
+      "successWithGroupHeading": "הפרויקט נוצר בהצלחה ונוסף אל {group}.",
+      "successMessage": "כעת באפשרותך לצפות בפרויקט, לנהל אותו כדי לערוך מידע או ללחוץ על 'סיום' כדי לחזור לתצוגה.",
+      "failureHeading": "לא ניתן להוסיף את הפרויקט לקבוצה שנבחרה."
+    },
+    "site": {
+      "successWithoutGroupHeading": "האתר נוצר בהצלחה.",
+      "successWithGroupHeading": "האתר נוצר בהצלחה ונוסף אל {group}.",
+      "successMessage": "כעת באפשרותך לצפות באתר, לנהל אותו כדי לערוך מידע או ללחוץ על 'סיום' כדי לחזור לתצוגה.",
+      "failureHeading": "לא ניתן להוסיף את האתר לקבוצה שנבחרה."
+    }
+  },
+  "editLayout": "ערוך פריסה",
+  "manageEntity": "ניהול",
+  "viewEntity": "הצג"
+}

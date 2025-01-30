@@ -1,0 +1,33 @@
+{
+  "groups": "กลุ่มของฉัน",
+  "addContentButtonText": "สร้างใหม่",
+  "role": "บทบาท",
+  "owner": "เจ้าของ",
+  "updated": "อัปเดตแล้ว",
+  "type": "ประเภท",
+  "sharedUpdate": "กลุ่มการอัปเดตที่แชร์",
+  "viewOnly": "กลุ่มแบบดูอย่างเดียว",
+  "actionLinks": {
+    "view": "ดู",
+    "edit": "แก้ไข",
+    "ariaEdit": "แก้ไข {title}",
+    "ariaView": "ดู {title}"
+  },
+  "facets": {
+    "access": {
+      "label": "สามารถดูได้โดย",
+      "options": {
+        "public": "ทุกคน (สาธารณะ)",
+        "org": "องค์กร",
+        "private": "ฉัน"
+      }
+    },
+    "type": {
+      "label": "ประเภท",
+      "options": {
+        "sharedUpdate": "การอัปเดตที่แชร์",
+        "opendata": "Open Data"
+      }
+    }
+  }
+}

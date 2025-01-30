@@ -1,0 +1,165 @@
+{
+  "advancedConfig": {
+    "label": "Gelişmiş yapılandırma",
+    "serverTimeout": {
+      "label": "Sunucu süresi doldu (saniye)",
+      "helperText": "Yanıt vermesi daha uzun sürebilen daha büyük servisler için faydalıdır.",
+      "errors": {
+        "type": "Lütfen bir sunucu zaman aşımı yapılandırması girin.",
+        "minimum": "Sunucu zaman aşımı değeri en az 5 olmalıdır.",
+        "maximum": "Sunucu zaman aşımı değeri en fazla 95 olmalıdır."
+      }
+    }
+  },
+  "appearance": {
+    "corners": {
+      "label": "Köşeler",
+      "enum": {
+        "round": {
+          "label": "Yuvarlak"
+        },
+        "square": {
+          "label": "Kare"
+        }
+      }
+    },
+    "dropShadow": {
+      "label": "Gölge Bırak",
+      "enum": {
+        "heavy": {
+          "label": "Ağır"
+        },
+        "low": {
+          "label": "Düşük"
+        },
+        "medium": {
+          "label": "Orta"
+        },
+        "none": {
+          "label": "Başlatılmadı"
+        }
+      }
+    },
+    "layout": {
+      "label": "Kart stili",
+      "enum": {
+        "informational": {
+          "label": "Bilgi Amaçlı"
+        },
+        "simple": {
+          "label": "Basit"
+        }
+      }
+    },
+    "popoverText": {
+      "label": "Modal içerik"
+    },
+    "publisherText": {
+      "label": "Kaynak yayıncısı"
+    },
+    "styleSpecificSettings": {
+      "label": "Stil ayarları",
+      "helperInfoText": "Bilgi düğmesinin seçilmesi, daha fazla bilgi içeren bir modal açacaktır.",
+      "helperVizText": "Basit kart, bir görsel öge olarak simge eklenmesini destekler ve bu da verilerdeki değişiklikleri yansıtmak için kullanılabilir."
+    },
+    "sectionTitle": "Görünüm",
+    "textAlign": "Hizalama",
+    "visualInterest": {
+      "label": "Görsel öge",
+      "enum": {
+        "icon": {
+          "label": "Simge"
+        },
+        "none": {
+          "label": "Hiçbiri"
+        }
+      }
+    },
+    "icon": {
+      "label": "Simge",
+      "caretUp": {
+        "label": "Artır"
+      },
+      "caretDown": {
+        "label": "Azalt"
+      },
+      "caretDouble": {
+        "label": "Değişiklik yok"
+      }
+    },
+    "valueColor": "Renk (İstatistik)"
+  },
+  "details": {
+    "allowDynamicLink": "Kaynak bağlantısını görüntüle",
+    "link": {
+      "sectionTitle": "Bağlantı",
+      "sourceLink": "Bağlantı URL'si",
+      "sourceTitle": "Bağlantı metni"
+    },
+    "sectionTitle": "Ayrıntılar",
+    "subtitle": "Altbaşlık",
+    "title": "Başlık",
+    "trailingText": {
+      "label": "Sondaki metin",
+      "helperText": "Her türlü ek bağlamı veya açıklamayı girin (metrik değer altında görüntülenecek)."
+    }
+  },
+  "errors": {
+    "sourceLink": {
+      "required": "Kaynağı görüntülemek için gerekli bağlantı.",
+      "formatError": "URL biçimlendirmesi yanlış"
+    }
+  },
+  "formatting": {
+    "sectionTitle": "Biçimlendiriliyor",
+    "unit": {
+      "label": "Birimleri görüntüle",
+      "helperText": "Değeriniz için ölçüm birimini girin."
+    },
+    "unitPosition": {
+      "label": "Yerleşim",
+      "helperText": "Ölçüm biriminin (örn., 'km', 'lbs') metrik değere göre nerede görüntüleneceğini seçin.",
+      "enum": {
+        "after": {
+          "label": "Sonrasında"
+        },
+        "before": {
+          "label": "Öncesinde"
+        },
+        "below": {
+          "label": "Altında"
+        }
+      }
+    }
+  },
+  "sharing": {
+    "sectionTitle": "Paylaşım",
+    "showShareIcon": "Paylaşımı etkinleştir",
+    "showShareIconHelperText": "Kullanıcıların bu sayfadaki bu karta bir doğrudan bağlantı kopyalamasına izin verin.",
+    "shareableByValue": "Yerleştirmeleri Etkinleştir",
+    "shareableOnHover": {
+      "label": "Üzerine gelindiğinde göster",
+      "helperText": {
+        "label": "Paylaş düğmesi yalnızca üzerine gelindiğinde gösterilir. Kapatılırsa, düğme her zaman görünür kalır."
+      }
+    }
+  },
+  "statistic": {
+    "dataSource": "Veri kaynağı",
+    "displayValue": "Değeri görüntüle",
+    "sectionTitle": "Değer",
+    "type": {
+      "label": "Tür",
+      "enum": {
+        "dynamic": {
+          "label": "Dinamik",
+          "description": "Özetlemek için mevcut veri kümelerinden (detay servisi) birini seçin."
+        },
+        "static": {
+          "label": "Statik",
+          "description": "Çıktı düzeninizde vurgulanacak değeri manuel olarak girin."
+        }
+      }
+    }
+  }
+}

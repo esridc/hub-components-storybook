@@ -1,0 +1,35 @@
+:host {
+  display: block;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h5 {
+  font-size: 1.375rem;
+  font-weight: var(--calcite-font-weight-normal)}
+
+.empty-state {
+  height: 20rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center}
+
+calcite-icon {
+  height: 60%;
+  width: 60%
+}
+
+.hide {
+  display: none;
+}

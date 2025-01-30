@@ -1,0 +1,10 @@
+:host([layout='grid']) {
+    display: grid;
+    gap: 0.5rem;
+    /* up to 4 columns accounting for gap */
+  grid-template-columns: repeat(auto-fill, minmax(max(400px, (100% - (4 - 1) * 0.5rem) / 4), 1fr))
+}
+
+:host([layout='list']) arcgis-hub-card {
+    margin-bottom: 0.5rem
+}

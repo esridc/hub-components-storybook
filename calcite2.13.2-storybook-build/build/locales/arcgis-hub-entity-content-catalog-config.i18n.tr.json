@@ -1,0 +1,46 @@
+{
+  "title": "Katalog Yapılandırması",
+  "helperText": "Kataloğu tanımlayın ve yapılandırın",
+  "sections": {
+    "groups": {
+      "title": "Gruplar",
+      "helperText": "Aşağıdaki gruplar arama katalogunuzdaki içeriği içerir. Ayarları, içeriği ve daha fazlasını görüntülemek için bir grup seçin.",
+      "createGroup": "Yeni Grup Oluştur"
+    },
+    "feeds": {
+      "title": "Akış Yapılandırması",
+      "helperText": "Hub akışları ile herkese açık verilerinizi kolayca erişilebilir ve yeniden kullanılabilir hale getirin.",
+      "learn": "Hub akışları hakkında daha fazla bilgi edinin",
+      "toggle": "Akışları Etkinleştir ",
+      "configure": "Akışları Yapılandır",
+      "notice": "Akışları etkinleştirmek için öncelikle Hub sitelerinizi Ayarlarınızda \"Herkese Açık\" olarak ayarlamanız gerekir"
+    }
+  },
+  "groupPickerFacet": {
+    "label": "Kaynak",
+    "editGroups": "Grupları düzenle",
+    "viewGroups": "Grubu görüntüle",
+    "myGroups": "Gruplarım",
+    "myOrganization": "Kuruluşum",
+    "myCommunity": "Topluluğum",
+    "public": "Genel"
+  },
+  "formAlert": "Biçim uyarısı",
+  "configSaveAlert": {
+    "success": "Düzenlemeler başarıyla kaydedildi",
+    "failure": "Düzenlemeler kaydedilirken hata oluştu"
+  },
+  "reharvestCatalogButton": "Hataları kontrol edin",
+  "reharvestWarningModal": {
+    "title": "Hataları kontrol edin",
+    "body1": "Uyarı: Bu seçenek genellikle yalnızca arama sayfanızın eksik sonuçlar veya meta verilerle ilgili sorunlarla karşılaştığı durumlarda kullanılır. Bu seçenek, kataloğun tüm gruplarındaki tüm ögeleri, eklemeler, meta veri değişiklikleri veya kaldırmalar açısından kontrol eder.",
+    "body2": "Bu işlemi çalıştırmak, bu kataloğun genel arama dizinini yeniden oluşturur ve birkaç dakika sürebilir. Bu, tüm ArcGIS Server örnekleri üzerindeki yükü artıracaktır.",
+    "primaryButton": "Devam et",
+    "secondaryButton": "İptal"
+  },
+  "reharvestCatalogAlert": {
+    "success": "Hataları kontrol ediliyor. Lütfen daha sonra tekrar kontrol edin.",
+    "inProgress": "Denetim halihazırda devam ediyor. Lütfen daha sonra tekrar gelin.",
+    "failure": "Üzgünüz, bir işlem hatası oldu. Lütfen daha sonra tekrar deneyin."
+  }
+}

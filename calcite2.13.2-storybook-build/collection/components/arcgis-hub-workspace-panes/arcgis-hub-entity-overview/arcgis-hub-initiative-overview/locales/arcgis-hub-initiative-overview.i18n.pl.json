@@ -1,0 +1,23 @@
+{
+  "overview": "Przegląd",
+  "telemetry": {
+    "pageViews": "Wyświetlenia strony",
+    "last30days": "Ostatnie 30 dni",
+    "lastUpdated": "Ostatnio zaktualizowano {hoursElapsed} godz. temu",
+    "checkTomorrow": "Sprawdź ponownie jutro"
+  },
+  "learnAbout": "Dowiedz się więcej na temat inicjatyw Hub",
+  "feedbackNotice": {
+    "message": "Co sądzisz o inicjatywach Hub? Chcemy dowiedzieć się, jak zamierzasz z nich korzystać.",
+    "link": "Prześlij opinię"
+  },
+  "status": {
+    "notStarted": "Nierozpoczęty",
+    "inProgress": "W toku",
+    "onHold": "Wstrzymany",
+    "complete": "Ukończony"
+  },
+  "editDetails": "Edytuj szczegóły",
+  "noPurposeSet": "Nie ustawiono celu",
+  "noLocationSet": "Nie ustawiono lokalizacji"
+}

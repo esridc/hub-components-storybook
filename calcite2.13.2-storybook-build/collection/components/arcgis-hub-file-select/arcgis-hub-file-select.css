@@ -1,0 +1,58 @@
+:host {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: dashed;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  transition: all 200ms ease-in-out;
+  border-color: #828282;
+  background-color: var(--calcite-color-foreground-1);
+}
+
+:host(.dragging) {
+  border-color: var(--calcite-color-brand);
+  background-color: rgba(0, 121, 193, 0.05);
+}
+
+:host(.error) {
+  background-color: #FFF1EF;
+  border-color: var(--calcite-color-status-danger);
+}
+
+:host(.success) {
+  border-color: var(--calcite-color-status-success);
+  color: var(--calcite-color-status-success);
+}
+
+header {
+  margin-bottom: 5px;
+  font-size: var(--calcite-font-size-2);
+  line-height: 1.5rem;
+  font-weight: var(--calcite-font-weight-medium);
+  color: var(--calcite-color-text-2)}
+
+p {
+  margin-top: 5px;
+  font-size: var(--calcite-font-size-0);
+  line-height: 1.25rem;
+  font-weight: var(--calcite-font-weight-normal);
+  color: var(--calcite-color-text-2)}
+
+a {
+  display: block;
+}
+
+input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}

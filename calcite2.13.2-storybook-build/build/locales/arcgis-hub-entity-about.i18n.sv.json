@@ -1,0 +1,18 @@
+{
+  "about": "Om",
+  "metrics": "Mätvärden",
+  "featuredContent": "Aktuellt innehåll",
+  "details": "Information",
+  "exploreMetrics": "Utforska mätvärden",
+  "status": {
+    "label": {
+      "default": "Status",
+      "project": "Projektstatus",
+      "initiative": "Initiativets status"
+    },
+    "notStarted": "Inte startad",
+    "inProgress": "Pågår",
+    "onHold": "Väntande",
+    "complete": "Fullständig"
+  }
+}

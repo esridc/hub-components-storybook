@@ -1,0 +1,57 @@
+{
+  "new": "Novo",
+  "project": {
+    "label": "Projeto",
+    "description": "Destaque trabalhos com objetivos e prazos bem definidos",
+    "createLabel": "Criar Projeto",
+    "newLabel": "Novo Projeto"
+  },
+  "initiative": {
+    "label": "Iniciativa",
+    "description": "As iniciativas organizam e resumem o progresso em direção a um objetivo",
+    "createLabel": "Criar Iniciativa",
+    "newLabel": "Nova Iniciativa"
+  },
+  "discussion": {
+    "label": "Fórum de discussão",
+    "description": "Crie um novo fórum de discussão ao introduzir um título que indique o tópico.",
+    "createLabel": "Criar fórum de discussão",
+    "newLabel": "Novo fórum de discussão"
+  },
+  "site": {
+    "label": "Site",
+    "description": "Crie uma página web para organizar e partilhar informações",
+    "createLabel": "Criar Site",
+    "newLabel": "Novo Site"
+  },
+  "event": {
+    "label": "Evento",
+    "description": "Realize uma atividade organizada, presencial ou virtualmente",
+    "createLabel": "Criar Evento",
+    "newLabel": "Novo Evento"
+  },
+  "content": {
+    "label": "Conteúdo",
+    "description": "Adicione dados, documentos, imagens e ligações externas ao seu site",
+    "createLabel": "Criar Conteúdo",
+    "newLabel": "Novo Conteúdo"
+  },
+  "feedback": {
+    "label": "Feedback",
+    "description": "Recolha informações focadas com ferramentas como inquéritos e sondagens",
+    "createLabel": "Criar Feedback",
+    "newLabel": "Novo Feedback"
+  },
+  "app": {
+    "label": "Aplicação",
+    "description": "Crie uma experiência, conte uma história ou visualize os seus dados",
+    "createLabel": "Criar Aplicação",
+    "newLabel": "Nova Aplicação"
+  },
+  "group": {
+    "label": "Grupo",
+    "description": "Configure um grupo para colaborar em conteúdos focados",
+    "createLabel": "Criar Grupo",
+    "newLabel": "Novo Grupo"
+  }
+}

@@ -1,0 +1,1 @@
+import{i as n}from"./p-59fd2498.js";function t(n){const[t,r]=n?n.split("_"):[];return{itemId:t,layerId:r}}function r(r){const{itemId:i}=t(r);return!(!i||n(i))}function i(n,t){return/.+::.+/.test(n)?n:`${t}::${n}`}function o(n,t){return t&&n.match(`^${t}::`)?n.split(`${t}::`)[1]:n}export{i as a,r as i,t as p,o as r}

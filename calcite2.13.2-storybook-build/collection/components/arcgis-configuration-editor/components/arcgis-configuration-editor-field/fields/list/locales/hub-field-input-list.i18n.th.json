@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "แก้ไข",
+    "fields": {
+      "label": {
+        "label": "ป้ายกำกับ",
+        "requiredMessage": "จำเป็นต้องใช้ป้ายกำกับ",
+        "maxLengthMessage": "ป้ายกำกับต้องมีความยาวไม่เกิน {maxLength} อักขระ"
+      }
+    },
+    "apply": "ใช้"
+  },
+  "showItem": "แสดงไอเท็มรายการต่อไปนี้: {itemLabel}",
+  "hideItem": "ซ่อนไอเท็มรายการต่อไปนี้: {itemLabel}",
+  "editItem": "แก้ไขไอเท็มรายการต่อไปนี้: {itemLabel}"
+}

@@ -1,0 +1,23 @@
+{
+  "overview": "Pārskats",
+  "telemetry": {
+    "pageViews": "Lapas skatījumi",
+    "last30days": "Pēdējās 30 dienas",
+    "lastUpdated": "Pēdējo reizi atjaunināts pirms {hoursElapsed} stundām",
+    "checkTomorrow": "Pārbaudīt rīt vēlreiz"
+  },
+  "learnAbout": "Uzzināt vairāk par Hub iniciatīvām",
+  "feedbackNotice": {
+    "message": "Kā jums patīk Hub iniciatīvas? Mēs vēlamies dzirdēt, kā jūs tās varētu izmantot.",
+    "link": "Iesniegt atsauksmi"
+  },
+  "status": {
+    "notStarted": "Nav sākts",
+    "inProgress": "Notiek izpilde",
+    "onHold": "Aizturēts",
+    "complete": "Pabeigts"
+  },
+  "editDetails": "Rediģēt informāciju",
+  "noPurposeSet": "Nav iestatīts mērķis",
+  "noLocationSet": "Nav iestatīts novietojums"
+}

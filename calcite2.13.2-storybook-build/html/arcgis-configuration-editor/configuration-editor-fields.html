@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Configuration Editor Fields</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+    #code-container {
+      height: 500px;
+    }
+    #schema-container,
+    #ui-schema-container {
+      height: 450px;
+    }
+
+  </style>
+
+  <script async src="https://ga.jspm.io/npm:es-module-shims@1.6.2/dist/es-module-shims.js"></script>
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link href="../../jsoneditor/jsoneditor.min.css" rel="stylesheet" type="text/css">
+  <script src="../../jsoneditor/jsoneditor.min.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+  <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet" href="../calcite-web.min.css">
+</head>
+
+<body>
+  <harness-header page-title="Configuration Editor Fields Harness"></harness-header>
+  <div class="grid-container padding-leader-4">
+    <div class="column-24 trailer-2 header">
+      <div>
+        <calcite-button round appearance="outline" scale="m" href="./index.html" icon-start="chevron-left">Back to
+          Configuration Editor Suite</calcite-button>
+      </div>
+    </div>
+
+    <!-- EDITOR NAVIGATION -->
+    <div class="column-6">
+      <calcite-label>
+        <strong>Select a Field Harness</strong>
+        <calcite-combobox clear-disabled overlay-positioning="fixed" id="harness-combobox" selection-mode="single"
+          placeholder="Select a field harness...">
+          <calcite-combobox-item-group label="Basic Fields">
+            <calcite-combobox-item value="alignment" text-label="Alignment"></calcite-combobox-item>
+            <calcite-combobox-item value="color-picker" text-label="Color Picker"></calcite-combobox-item>
+            <calcite-combobox-item value="combobox" text-label="Combobox"></calcite-combobox-item>
+            <calcite-combobox-item value="date-picker" text-label="Date Picker"></calcite-combobox-item>
+            <calcite-combobox-item value="date-time-picker" text-label="Date Time Picker"></calcite-combobox-item>
+            <calcite-combobox-item value="time-picker" text-label="Time Picker"></calcite-combobox-item>
+            <calcite-combobox-item value="time-zone-picker" text-label="Time Zone Picker"></calcite-combobox-item>
+            <calcite-combobox-item value="gallery-picker" text-label="Gallery Picker"></calcite-combobox-item>
+            <calcite-combobox-item value="image-picker" text-label="Image Picker"></calcite-combobox-item>
+            <calcite-combobox-item value="input" text-label="Input"></calcite-combobox-item>
+            <calcite-combobox-item value="list" text-label="List"></calcite-combobox-item>
+            <calcite-combobox-item value="location-picker" text-label="Location Picker"></calcite-combobox-item>
+            <calcite-combobox-item value="multiselect" text-label="Multiselect"></calcite-combobox-item>
+            <calcite-combobox-item value="checkbox-group" text-label="Checkbox Group"></calcite-combobox-item>
+            <calcite-combobox-item value="radio-group" text-label="Radio Group"></calcite-combobox-item>
+            <calcite-combobox-item value="radio" text-label="Radio"></calcite-combobox-item>
+            <calcite-combobox-item value="rich-text" text-label="Rich Text"></calcite-combobox-item>
+            <calcite-combobox-item value="scheduler" text-label="Scheduler"></calcite-combobox-item>
+            <calcite-combobox-item value="select" text-label="Select"></calcite-combobox-item>
+            <calcite-combobox-item value="switch" text-label="Switch"></calcite-combobox-item>
+            <calcite-combobox-item value="tile-select" text-label="Tile Select"></calcite-combobox-item>
+          </calcite-combobox-item-group>
+          <calcite-combobox-item-group label="Composite Fields">
+            <calcite-combobox-item value="composite-timeline" text-label="Timeline"></calcite-combobox-item>
+            <calcite-combobox-item value="composite-access" text-label="Access Controls"></calcite-combobox-item>
+            <calcite-combobox-item value="composite-license-picker" text-label="License Picker"></calcite-combobox-item>
+            <calcite-combobox-item value="composite-action-links" text-label="Action Links"></calcite-combobox-item>
+            <calcite-combobox-item value="composite-map-settings" text-label="Map Settings"></calcite-combobox-item>
+            <calcite-combobox-item value="composite-embed" text-label="Embed"></calcite-combobox-item>
+            <calcite-combobox-item value="composite-embeds" text-label="Embeds"></calcite-combobox-item>
+            <calcite-combobox-item value="composite-site-url" text-label="Site URL"></calcite-combobox-item>
+            <calcite-combobox-item value="composite-catalog-builder" text-label="Catalog Builder"></calcite-combobox-item>
+            <calcite-combobox-item value="composite-catalog-appearance-builder" text-label="Catalog Appearance Builder"></calcite-combobox-item>
+            <calcite-combobox-item value="composite-collections-appearance-builder" text-label="Collections Appearance Builder"></calcite-combobox-item>
+            <calcite-combobox-item value="composite-results-appearance-builder" text-label="Results Appearance Builder"></calcite-combobox-item>
+          </calcite-combobox-item-group>
+        </calcite-combobox>
+      </calcite-label>
+    </div>
+
+    <!-- TAB NAVIGATION BETWEEN UI AND SCHEMAS -->
+    <calcite-tabs class="column-24">
+      <calcite-tab-nav slot="title-group">
+          <calcite-tab-title selected>UI</calcite-tab-title>
+          <calcite-tab-title>Schemas</calcite-tab-title>
+      </calcite-tab-nav>
+      <calcite-tab selected>
+        <!-- CONFIGURATION EDITOR CONTAINER -->
+        <div class="column-12" id="editor-container"></div>
+      </calcite-tab>
+      <calcite-tab>
+        <!-- SCHEMA CODE BLOCK CONTAINER -->
+        <div class="column-24" id="code-container">
+            <div class="column-12">
+              <strong>Schema</strong>
+              <div id="schema-container"></div>
+            </div>
+            <div class="column-12">
+              <strong>uiSchema</strong>
+              <div id="ui-schema-container"></div>
+            </div>
+        </div>
+      </calcite-tab>
+    </calcite-tabs>
+  </div>
+
+  <script>
+    let editor;
+    let context;
+
+    // dynamically add the editor to the DOM based on the harness that is
+    // selected from the combobox dropdown
+    const initEditor = async (type) => {
+      const { SUBTITLE = '', SCHEMA, UI_SCHEMA, VALUES, TRANSLATIONS = {} } = await import(`./schemas/fields/${type}.js`);
+      const translationFunc = (key) => getProp(TRANSLATIONS, key);
+      const existingEditor = document.querySelector('arcgis-configuration-editor');
+      const existingSubtitle = document.querySelector('#editor-subtitle');
+      const existingSchemaEditor = document.querySelector('#schema-container .jsoneditor')
+      const existingUiSchemaEditor = document.querySelector('#ui-schema-container .jsoneditor')
+
+      existingEditor?.remove();
+      editor = document.createElement('arcgis-configuration-editor')
+      editor.schema = SCHEMA;
+      editor.uiSchema = UI_SCHEMA;
+      editor.values = VALUES;
+      editor.t = translationFunc;
+      editor.context = context;
+
+      existingSubtitle?.remove();
+      const subtitle = document.createElement('p');
+      subtitle.innerText = SUBTITLE;
+      subtitle.setAttribute('id', 'editor-subtitle')
+      subtitle.setAttribute('style', 'margin-bottom:3rem; font-style:italic; font-size:0.8rem')
+
+      const editorContainer = document.getElementById('editor-container');
+      editorContainer.appendChild(subtitle);
+      editorContainer.appendChild(editor);
+
+      existingSchemaEditor?.remove();
+      existingUiSchemaEditor?.remove();
+      const editorOpts = { modes: ['code', 'tree'], search: false, navigationBar: false, enableSort: false, enableTransform: false };
+      const schema = new JSONEditor(document.getElementById('schema-container'), editorOpts, SCHEMA);
+      const uiSchema = new JSONEditor(document.getElementById('ui-schema-container'), editorOpts, UI_SCHEMA);
+
+      return editor;
+    }
+
+    // TIP: temporarily update this initial state if you're working in a specific
+    // field and don't want to continuously reselect the option from the dropdown
+    const initialValue = 'input';
+
+    // initialize the editor with the initial value
+    editor = initEditor(initialValue);
+    document.querySelector(`calcite-combobox-item[value=${initialValue}]`).setAttribute('selected', true);
+
+    const getProp = (obj, path) => {
+      return path.split(".").reduce(function (prev, curr) {
+        return prev ? prev[curr] : undefined;
+      }, obj);
+    }
+
+    // CALCITE COMBOBOX CHANGE LISTENER - to re-initialize the selected editor
+    document.addEventListener('calciteComboboxChange', evt => {
+      const { value, id } = evt.target;
+      if (id === "harness-combobox") {
+        initEditor(value);
+      }
+    });
+
+    // CONFIGURATION EDITOR EVENT LISTENERS (logged to console for development purposes)
+    document.addEventListener('arcgisConfigurationEditorInitialized', evt => {
+      console.info('arcgisConfigurationEditorInitialized', evt.detail);
+    });
+    document.addEventListener('arcgisConfigurationEditorLoaded', evt => {
+      console.info('arcgisConfigurationEditorLoaded');
+    });
+    document.addEventListener('arcgisConfigurationEditorChange', evt => {
+      console.info('arcgisConfigurationEditorChange', evt.detail);
+    });
+
+    // AUTH FUNCTIONALITY - needed for the composite access controls & gallery picker field
+    // TODO: this can go away when arcgis-configuration-editor gets context from stencil store
+    document.addEventListener('arcgisAppIdentitySignedIn', (evt) => {
+      context = evt.detail;
+      editor.context = evt.detail;
+    });
+    document.addEventListener('arcgisAppIdentitySignedOut', (evt) => {
+      context = evt.detail;
+      editor.context = evt.detail;
+    });
+  </script>
+</body>
+
+</html>

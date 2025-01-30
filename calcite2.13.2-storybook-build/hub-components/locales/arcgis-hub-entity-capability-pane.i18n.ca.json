@@ -1,0 +1,35 @@
+{
+  "success": "Els canvis s'han desat correctament",
+  "error": "S'ha produït un error en desar els canvis",
+  "formAlert": "Alerta del formulari",
+  "projects": {
+    "header": "Projectes",
+    "list": "Llista de projectes",
+    "config": "Configuració",
+    "notConfigured": "No s'ha configurat la capacitat de projectes. Feu servir la pestanya Configuració."
+  },
+  "content": {
+    "header": "Contingut",
+    "list": "Llista de contingut",
+    "config": "Configuració",
+    "notConfigured": "No s'ha configurat la capacitat de contingut. Feu servir la pestanya Configuració."
+  },
+  "initiatives": {
+    "header": "Iniciatives",
+    "list": "Llista d'iniciatives",
+    "config": "Configuració",
+    "notConfigured": "No s'ha configurat la capacitat d'iniciatives. Feu servir la pestanya Configuració."
+  },
+  "events": {
+    "header": "Esdeveniments",
+    "list": "Llista d'esdeveniments",
+    "config": "Configuració",
+    "notConfigured": "No s'ha configurat la capacitat d'esdeveniments. Feu servir la pestanya Configuració."
+  },
+  "pages": {
+    "header": "Pàgines",
+    "list": "Llista de pàgines",
+    "config": "Configuració",
+    "notConfigured": "No s'ha configurat la capacitat de pàgines. Feu servir la pestanya Configuració."
+  }
+}

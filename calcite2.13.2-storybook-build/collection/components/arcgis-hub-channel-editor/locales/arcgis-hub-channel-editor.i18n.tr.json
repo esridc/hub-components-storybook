@@ -1,0 +1,96 @@
+{
+  "unnamedChannel": "Adlandırılmamış kanal",
+  "name": {
+    "label": "Adı",
+    "placeholder": "{prefix} kanal"
+  },
+  "save": "Kaydet",
+  "basicInfo": {
+    "label": "Temel bilgiler"
+  },
+  "access": {
+    "private": {
+      "label": "Özel",
+      "description": "Seçili gruplar katılabilir. Grup yöneticileri ve sahipleri otomatik olarak moderatör olarak atanır."
+    },
+    "organization": {
+      "label": "Kuruluşum",
+      "description": "{orgName} hesabına sahip tüm üyeler katılabilir Kuruluş yöneticileri ve kanal sahibi otomatik olarak moderatör olarak atanır. Kanal sahipleri ayrıca aşağıdaki \"Katılımcı grubu ekle\" seçeneğine tıklayarak üyesi oldukları grupları da ekleyebilirler.",
+      "disabledTooltip": "Kuruluş kanallarını yalnızca kuruluş yöneticileri oluşturabilir."
+    },
+    "public": {
+      "label": "Genel",
+      "description": "Oturum açan tüm üyeler katılabilir. Kuruluş yöneticileri ve kanal sahibi otomatik olarak moderatör olarak atanır. Kanal sahipleri ayrıca aşağıdaki \"Katılımcı grubu ekle\" seçeneğine tıklayarak üyesi oldukları grupları da ekleyebilirler.",
+      "disabledTooltip": "Halka açık kanallarını yalnızca kuruluş yöneticileri oluşturabilir."
+    },
+    "allowAsAnonymous": {
+      "label": "Anonime izin ver (yalnızca oturum açan katılımcılar)",
+      "description": "Anonim olarak gönderi yapan hesaplara sahip kişilerin avatarı, adı ve kullanıcı adı mevcut olmayacaktır."
+    },
+    "confirmation": {
+      "header": "Emin misiniz?",
+      "message": "Bu değişiklikleri kaydetmek, bu kanala düzenleme erişiminizi kaldıracaktır. Herkese açık kanalları veya kuruluş kanallarını yalnızca kuruluş yöneticileri düzenleyebilir.",
+      "secondary": "İptal",
+      "primary": "Onayla"
+    }
+  },
+  "participants": {
+    "label": "Katılımcılar",
+    "helperText": "Tartışmaya gönderi gönderebilen, yanıt verebilen ve tepki gösterebilen kişiler.",
+    "none": "Herhangi bir katılımcı ayarlanmadı",
+    "add": "Katılımcı grubu ekle"
+  },
+  "groupPicker": {
+    "title": "Grupları seç",
+    "facet": {
+      "label": "Kaynak",
+      "myGroups": "Gruplarım",
+      "myOrganization": "Kuruluşum",
+      "myCommunity": "Topluluğum"
+    }
+  },
+  "blockWords": {
+    "label": "Engellenen sözcükler",
+    "helperText": "Virgülle ayrılan liste. Bunları içeren gönderiler ve yanıtlar otomatik olarak gizlenecektir."
+  },
+  "manage": {
+    "label": "Moderatörler",
+    "helperText": "Moderatörlerin otomatik olarak atanması katılımcı seçimini temel alır. Kanala eklenen tüm ek gruplarda grup sahipleri ve yöneticileri moderatör olarak atanır. Moderatörler gönderileri gizleyebilir ve gösterebilir, engellenmiş sözcükler ekleyebilir ve kanal ayarlarını düzenleyebilir."
+  },
+  "manager": "Yönetici",
+  "admin": "Yönetici",
+  "viewProfile": "Profili görüntüle",
+  "alerts": {
+    "error": "Kanal kaydedilirken hata oluştu",
+    "success": "Kanal başarıyla kaydedildi",
+    "label": "Biçim uyarısı"
+  },
+  "validations": {
+    "minChannelGroups": "Özel kanallar en az bir katılımcı grubu gerektirir.",
+    "channelNameRequired": "Kanal adı gereklidir",
+    "allowAsAnonymous": "Anonim gönderi yalnızca herkese açık kanallar tarafından desteklenir.",
+    "blockWords": "En fazla 20 engellenmiş sözcük/cümle girin (girişler virgülle ayrılmalı, tekrarlanan veya boş giriş olmamalıdır)."
+  },
+  "notices": {
+    "edit": "Düzenlemeler bu kanalın kullanıldığı her yeri etkileyecektir",
+    "duplicate": {
+      "create": {
+        "error": {
+          "title": "Kanal oluşturulmadı",
+          "message": "Bu erişim seçimlerini içeren bir kanal zaten var. Mevcut kanalı kullanın veya seçimleri değiştirin."
+        }
+      },
+      "update": {
+        "error": {
+          "title": "Kanal güncellenmedi",
+          "message": "Bu erişim seçimlerini içeren bir kanal zaten mevcut olduğundan bu güncellemeleri kaydedemiyoruz."
+        }
+      },
+      "action": "Mevcut kanalı kullan"
+    },
+    "inaccessibleGroups": {
+      "title": "Kullanılamayan gruplar: {count}",
+      "message": "Üye olmadığınız sürece kullanılamayan grupları görüntüleyemez veya yönetemezsiniz."
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "header": "Diskussioner",
+  "myContent": "Mina evenemang",
+  "editableContent": "Redigerbart innehåll",
+  "addContentButtonText": "Skapa evenemang",
+  "type": "Typ",
+  "sharedUpdate": "Delad uppdateringsgrupp",
+  "viewOnly": "Skrivskyddad grupp",
+  "owner": "Ägare",
+  "updated": "Uppdaterad",
+  "tags": "Taggar",
+  "dateCreated": "Skapad",
+  "dateUpdated": "Ändrad",
+  "actionLinks": {
+    "view": "Visa",
+    "edit": "Redigera",
+    "ariaEdit": "Redigera: {title}",
+    "ariaView": "Visa: {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Evenemang",
+      "myContent": "Evenemang jag äger",
+      "editableContent": "Evenemang jag kan redigera",
+      "all": "Alla evenemang"
+    },
+    "access": {
+      "label": "Från"
+    },
+    "type": {
+      "label": "Typer"
+    },
+    "tags": {
+      "label": "Taggar"
+    },
+    "categories": {
+      "label": "Kategorier"
+    },
+    "modified": {
+      "label": "Ändrad"
+    }
+  }
+}

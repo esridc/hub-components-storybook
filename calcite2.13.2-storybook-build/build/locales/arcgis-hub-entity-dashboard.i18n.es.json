@@ -1,0 +1,20 @@
+{
+  "dashboard": "Cuadro de mando",
+  "activityLogSection": {
+    "title": "Registro de actividad",
+    "table": {
+      "downloadAction": "Descargar",
+      "downloadAllAction": "Descargar todo",
+      "downloadActionTooltip": "Descargar actividades seleccionadas",
+      "caption": "Tabla de errores recientes",
+      "columnHeaders": {
+        "datetime": "Fecha",
+        "layer": "Capa",
+        "message": "Mensaje"
+      },
+      "noRecentErrors": "No hay errores recientes",
+      "expandText": "Ver más",
+      "collapseText": "Ver menos"
+    }
+  }
+}

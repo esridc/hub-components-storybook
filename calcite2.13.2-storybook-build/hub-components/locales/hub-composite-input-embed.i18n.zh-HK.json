@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "我的內容",
+    "livingAtlas": "Living Atlas",
+    "organization": "我的組織",
+    "world": "世界 (公眾)"
+  },
+  "collection": {
+    "appsAndMaps": "應用程式與地圖",
+    "feedback": "回饋意見"
+  },
+  "facets": {
+    "type": "類型",
+    "tags": "標記",
+    "categories": "類別",
+    "modified": "已修改"
+  },
+  "pickerTitle": "選擇內容",
+  "height": "高度 (像素)",
+  "isScrollable": "可捲動",
+  "errors": {
+    "heightMinimum": "值必須是正數。",
+    "heightMaximum": "值必須小於或等於 2000 像素。",
+    "urlError": "必須是有效的 URL。"
+  },
+  "success": {
+    "urlSuccess": "已成功載入 URL。"
+  },
+  "shouldApplyBreakpoints": {
+    "label": "改為透過裝置中斷點套用設定"
+  },
+  "viewportAll": {
+    "label": "預設",
+    "description": "套用至所有螢幕尺寸的設定"
+  },
+  "viewportMobile": {
+    "label": "Mobile",
+    "description": "套用至寬度為 360 像素及以上的螢幕設定"
+  },
+  "viewportTablet": {
+    "label": "平板電腦",
+    "description": "套用至寬度為 560 像素及以上的螢幕設定"
+  },
+  "viewportDesktop": {
+    "label": "桌面",
+    "description": "套用至寬度為 980 像素及以上的螢幕設定"
+  },
+  "sourceLabel": "選擇內嵌類型",
+  "contentLabel": "ArcGIS 內容",
+  "externalLabel": "外部URL",
+  "contentDescription": "從可用的現有地圖、場景、應用程式、調查和文件連結中進行選擇。",
+  "externalDescription": "輸入要嵌入的 URL。 請注意，某些網域不允許嵌入，並且可能無法如預期顯示。"
+}

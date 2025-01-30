@@ -1,0 +1,12 @@
+{
+  "members": {
+    "noMember": "Không có thành viên",
+    "oneMember": "1 thành viên",
+    "members": "{count} thành viên"
+  },
+  "managers": {
+    "noMember": "Không có quản lý",
+    "oneMember": "1 quản lý",
+    "members": "{count} quản lý"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "Pridať prvú akciu",
+  "addSecondAction": "Pridať druhú akciu",
+  "addLink": "Pridať odkaz",
+  "addSection": "Pridať sekciu",
+  "deleteNotice": {
+    "title": "Nie je možné odstrániť",
+    "message": "Sekcia nie je prázdna Pred pokusom o odstránenie presuňte, prosím, všetky odkazy mimo sekcie."
+  },
+  "linkEditor": {
+    "save": "Uložiť",
+    "delete": "Odstrániť",
+    "cancel": "Zrušiť",
+    "preview": "Odkaz na náhľad",
+    "title": {
+      "button1": "Prvá akcia",
+      "button2": "Druhá akcia",
+      "block": "Odkaz na akciu"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "Odkaz na existujúci obsah"
+        },
+        "external": {
+          "label": "Odkaz na externý zdroj"
+        }
+      },
+      "label": {
+        "label": "Štítok",
+        "helperText": {
+          "button": "Tento text sa zobrazí na tlačidle.",
+          "block": "Na bloku sa zobrazí tučným písmom."
+        },
+        "requiredError": "Štítok je povinným poľom."
+      },
+      "description": {
+        "label": "Popis",
+        "helperText": "Ide o sekundárne informácie."
+      },
+      "href": {
+        "label": "Odkaz",
+        "requiredError": "Odkaz je povinným poľom.",
+        "formatError": "Formátovanie URL nie je správne."
+      },
+      "contentId": {
+        "label": "Odkaz na obsah",
+        "requiredError": "Odkaz na obsah je povinným poľom."
+      },
+      "section": {
+        "label": "Presunúť do sekcie",
+        "placeholder": {
+          "noSections": "Neboli nakonfigurované žiadne sekcie",
+          "notSet": "Nie je v sekcii"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "Sekcia",
+    "helperText": "Sekcie možno použiť na vnorenie odkazov pod položku ponuky. Sekcie nefungujú ako odkaz.",
+    "section": {
+      "label": {
+        "label": "Štítok",
+        "requiredError": "Štítok je povinným poľom."
+      },
+      "description": {
+        "label": "Popis"
+      }
+    }
+  }
+}

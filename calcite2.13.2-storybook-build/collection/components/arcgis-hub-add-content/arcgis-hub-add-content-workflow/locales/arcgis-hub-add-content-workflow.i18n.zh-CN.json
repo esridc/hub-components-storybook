@@ -1,0 +1,110 @@
+{
+  "controls": {
+    "addContent": "添加内容",
+    "back": "返回",
+    "cancel": "取消",
+    "close": "完成",
+    "create": "创建并添加至群组",
+    "next": "下一步"
+  },
+  "createHelpState": {
+    "discussion": {
+      "heading": "说明",
+      "message": "通过输入指示主题的标题来创建一个新的讨论板。"
+    },
+    "event": {
+      "heading": "活动",
+      "message": "举办现场或虚拟形式的组织活动。"
+    },
+    "group": {
+      "heading": "群组",
+      "message": "建立群组以针对重点内容进行协作。"
+    },
+    "initiative": {
+      "heading": "倡议",
+      "message": "倡议用于组织和汇总实现目标的进展。"
+    },
+    "page": {
+      "heading": "页面",
+      "message": "页面用于共享信息和与受众互动。"
+    },
+    "project": {
+      "heading": "工程",
+      "message": "突出具有明确目标和时间表的工作。"
+    },
+    "site": {
+      "heading": "站点",
+      "message": "创建网页以组织和共享信息。"
+    }
+  },
+  "selection": {
+    "unlimited": "已选择：{count}",
+    "limited": "已选择：{count}/{limit}"
+  },
+  "steps": {
+    "createContent": "添加基本信息",
+    "selectContent": "选择内容",
+    "selectGroups": "选择组",
+    "confirmation": "确认",
+    "notImplemented": "尚未实施"
+  },
+  "working": {
+    "heading": "正在添加所选内容。",
+    "loadingLabel": "正在添加内容。"
+  },
+  "failure": {
+    "heading": "内容未添加。",
+    "message": "添加所选内容时出错，请重试。",
+    "action": "请重试"
+  },
+  "notImplemented": {
+    "heading": "此工作流程尚未实施。"
+  },
+  "contentGallery": {
+    "facets": {
+      "access": {
+        "label": "自"
+      },
+      "type": {
+        "label": "类型"
+      },
+      "tags": {
+        "label": "标签"
+      },
+      "categories": {
+        "label": "类别"
+      },
+      "modified": {
+        "label": "修改日期"
+      }
+    }
+  },
+  "groupsGallery": {
+    "facets": {
+      "access": {
+        "label": "查看者",
+        "options": {
+          "org": "组织",
+          "public": "任何人(公共)",
+          "private": "我"
+        }
+      },
+      "from": {
+        "label": "自",
+        "options": {
+          "myCommunity": "我的社区",
+          "myGroups": "我的群组",
+          "myOrganization": "我的组织",
+          "world": "世界"
+        }
+      },
+      "type": {
+        "label": "类型",
+        "options": {
+          "sharedUpdate": "共享的更新",
+          "opendata": "开放数据"
+        }
+      }
+    }
+  }
+}

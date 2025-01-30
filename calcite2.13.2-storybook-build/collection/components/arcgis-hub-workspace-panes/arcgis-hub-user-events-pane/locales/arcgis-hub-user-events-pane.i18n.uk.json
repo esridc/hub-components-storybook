@@ -1,0 +1,29 @@
+{
+  "header": "Події",
+  "myContent": "Мої події",
+  "editableContent": "Вміст з можливістю редагування",
+  "addEventButtonText": "Створити подію",
+  "type": "Тип",
+  "sharedUpdate": "Спільне оновлення групи",
+  "viewOnly": "Група тільки для перегляду",
+  "owner": "Створено",
+  "starts": "Увімкн.",
+  "from": "Від",
+  "until": "До",
+  "updated": "Оновлено",
+  "tags": "Теги",
+  "dateCreated": "Створено",
+  "dateUpdated": "Змінено",
+  "actionLinks": {
+    "view": "Перегляд",
+    "edit": "Редагувати",
+    "ariaEdit": "Редагувати: {title}",
+    "ariaView": "Переглянути: {title}"
+  },
+  "access": {
+    "label": "Доступ",
+    "PRIVATE": "Приватний",
+    "ORG": "Організація",
+    "PUBLIC": "Публічний"
+  }
+}

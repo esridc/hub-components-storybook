@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "İçeriğim",
+    "livingAtlas": "Living Atlas",
+    "organization": "Kuruluşum",
+    "world": "Dünya (Genel)"
+  },
+  "collection": {
+    "appsAndMaps": "Uygulamalar ve Haritalar",
+    "feedback": "Geri bildirim"
+  },
+  "facets": {
+    "type": "Tür",
+    "tags": "Etiketler",
+    "categories": "Kategoriler",
+    "modified": "Değiştirilme Tarihi"
+  },
+  "pickerTitle": "İçerik seç",
+  "height": "Yükseklik (px)",
+  "isScrollable": "Kaydırılabilir",
+  "errors": {
+    "heightMinimum": "Değer pozitif bir sayı olmalıdır.",
+    "heightMaximum": "Değer 2000px’ten küçük veya eşit olmalıdır.",
+    "urlError": "Geçerli bir URL olmalıdır."
+  },
+  "success": {
+    "urlSuccess": "URL başarılı bir şekilde yüklendi."
+  },
+  "shouldApplyBreakpoints": {
+    "label": "Bunun yerine ayarları cihaz kesme noktalarına göre uygulayın"
+  },
+  "viewportAll": {
+    "label": "Varsayılan",
+    "description": "Ayarlar tüm ekran boyutlarına uygulanır"
+  },
+  "viewportMobile": {
+    "label": "Mobil",
+    "description": "Ayarlar 360 piksel genişlik ve üzeri ekranlara uygulanır"
+  },
+  "viewportTablet": {
+    "label": "Tablet",
+    "description": "Ayarlar 560 piksel genişlik ve üzeri ekranlara uygulanır"
+  },
+  "viewportDesktop": {
+    "label": "Masaüstü",
+    "description": "Ayarlar 980 piksel genişlik ve üzeri ekranlara uygulanır"
+  },
+  "sourceLabel": "Yerleşik türü seç",
+  "contentLabel": "ArcGIS içeriği",
+  "externalLabel": "Harici URL",
+  "contentDescription": "Kullanabileceğiniz mevcut haritalar, sahneler, uygulamalar, anketler ve belge bağlantıları arasından seçim yapın.",
+  "externalDescription": "Yerleştirmek üzere bir URL girin. Bazı alan adlarının yerleştirmeye izin vermediğini ve beklendiği gibi görüntülenmeyebileceğini lütfen unutmayın."
+}

@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "Registruoti",
+    "registered": "Registruotas",
+    "join": "Prisijungti internetu",
+    "in-person": "Asmeniškai",
+    "online": "Internetu",
+    "inPersonFull": "Asmeniškai (pilna)",
+    "onlineFull": "Internetu (pilna)",
+    "close": "Uždaryti"
+  },
+  "tooltip": {
+    "isCanceled": "Renginys atšauktas",
+    "eventHasEnded": "Renginys baigėsi",
+    "eventFull": "Renginys pilnas",
+    "inPerson": "Užsiregistruota į asmeninį renginį",
+    "online": "Užsiregistruota į internetinį renginį",
+    "unavailable": "Prieinama likus valandai iki renginio pradžios"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "Sėkmingai atšaukta registracija į internetinį renginį",
+    "onlineRegistrationConfirmed": "Sėkmingai užsiregistruota į internetinį renginį",
+    "onlineRegistrationError": "Registruojantis į internetinį renginį įvyko netikėta klaida",
+    "onlineRegistrationCanceledError": "Atšaukiant registraciją į internetinį renginį įvyko netikėta klaida",
+    "onlineRegistrationAtCapacity": "Jūs bandote užsiregistruoti į internetinį renginį, kuriame nebėra vietos",
+    "inPersonRegistrationCanceled": "Sėkmingai atšaukta registracija į asmeninį renginį",
+    "inPersonRegistrationCanceledError": "Atšaukiant registraciją į asmeninį renginį įvyko netikėta klaida",
+    "inPersonRegistrationConfirmed": "Sėkmingai užsiregistruota į asmeninį renginį",
+    "inPersonRegistrationError": "Registruojantis į asmeninį renginį įvyko netikėta klaida",
+    "inPersonRegistrationAtCapacity": "Jūs bandote užsiregistruoti į gyvą renginį, kuriame nebėra vietos"
+  }
+}

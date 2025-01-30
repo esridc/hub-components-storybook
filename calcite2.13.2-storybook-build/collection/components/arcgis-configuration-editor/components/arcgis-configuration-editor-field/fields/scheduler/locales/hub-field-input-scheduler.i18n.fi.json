@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "Hubin automatisoima",
+      "actionText": "Automaattinen-asetuksen tiedot"
+    },
+    "daily": {
+      "defaultLabel": "Päivittäin",
+      "defaultExpandedHelperText": "Joka päivä valittuna tuntina valitulla aikavyöhykkeellä.",
+      "actionText": "Päivittäin-asetuksen tiedot"
+    },
+    "weekly": {
+      "defaultLabel": "Viikoittain",
+      "defaultExpandedHelperText": "Joka viikko seuraavana päivänä ja tuntina valitulla aikavyöhykkeellä.",
+      "actionText": "Viikoittain-asetuksen tiedot"
+    },
+    "monthly": {
+      "defaultLabel": "Kuukausittain",
+      "defaultExpandedHelperText": "Joka kuukausi seuraavana päivänä ja tuntina valitulla aikavyöhykkeellä",
+      "actionText": "Kuukausittain-asetuksen tiedot"
+    },
+    "yearly": {
+      "defaultLabel": "Vuosittain",
+      "defaultExpandedHelperText": "Joka vuosi seuraavana kuukautena, päivänä ja tuntina valitulla aikavyöhykkeellä.",
+      "actionText": "Vuosittain-asetuksen tiedot"
+    },
+    "manual": {
+      "defaultLabel": "Manuaalinen",
+      "defaultExpandedHelperText": "Käytä tätä vaihtoehtoa, jos haluat päivittää manuaalisesti tämän kohteen hakuindeksin ja välimuistiin tallennetut lataustiedostot.",
+      "actionText": "Manuaalinen-asetuksen tiedot"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "Kellonaika",
+      "inputMessage": "Tämä pyöristetään lähimpään tuntiin.",
+      "error": "Valitse tunti."
+    },
+    "day": {
+      "helperText": "Viikonpäivä",
+      "daysOfTheWeek": {
+        "sunday": "sunnuntai",
+        "monday": "maanantai",
+        "tuesday": "tiistai",
+        "wednesday": "keskiviikko",
+        "thursday": "torstai",
+        "friday": "perjantai",
+        "saturday": "lauantai"
+      },
+      "selectLabel": "Viikonpäivävalitsin",
+      "error": "Valitse viikonpäivä."
+    },
+    "date": {
+      "helperText": "Kuukauden päivä",
+      "inputNumberPlaceholder": "Valitse kuukaudenpäivä",
+      "inputMessage": "Anna kuukaudenpäiväksi arvo 1–28.",
+      "error": "Kuukauden päivän on oltava 1–28."
+    },
+    "month": {
+      "helperText": "Kuukausi",
+      "selectLabel": "Kuukausivalitsin",
+      "monthsOfTheYear": {
+        "january": "tammikuu",
+        "february": "helmikuu",
+        "march": "maaliskuu",
+        "april": "huhtikuu",
+        "may": "toukokuu",
+        "june": "kesäkuu",
+        "july": "heinäkuu",
+        "august": "elokuu",
+        "september": "syyskuu",
+        "october": "lokakuu",
+        "november": "marraskuu",
+        "december": "joulukuu"
+      },
+      "error": "Valitse kuukausi."
+    },
+    "timezone": {
+      "helperText": "Aikavyöhyke",
+      "error": "Valitse aikavyöhyke."
+    }
+  },
+  "fieldHeader": "Tiheys"
+}

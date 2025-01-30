@@ -1,0 +1,43 @@
+{
+  "content": "Вміст",
+  "myContent": "Мій вміст",
+  "editableContent": "Вміст з можливістю редагування",
+  "addContentButtonText": "Створити нове",
+  "type": "Тип",
+  "sharedUpdate": "Спільне оновлення групи",
+  "viewOnly": "Група тільки для перегляду",
+  "owner": "Власник",
+  "updated": "Оновлено",
+  "tags": "Теги",
+  "dateCreated": "Створено",
+  "dateUpdated": "Змінено",
+  "actionLinks": {
+    "view": "Перегляд",
+    "edit": "Редагувати",
+    "ariaEdit": "Редагувати {title}",
+    "ariaView": "Переглянути {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Вміст",
+      "myContent": "Вміст, що мені належить",
+      "editableContent": "Вміст, який я можу редагувати",
+      "all": "Весь зміст"
+    },
+    "access": {
+      "label": "Від"
+    },
+    "type": {
+      "label": "Типи"
+    },
+    "tags": {
+      "label": "Теги"
+    },
+    "categories": {
+      "label": "Категорії"
+    },
+    "modified": {
+      "label": "Змінено"
+    }
+  }
+}

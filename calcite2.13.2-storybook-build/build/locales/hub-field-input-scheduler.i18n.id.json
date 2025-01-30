@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "Diotomatiskan oleh Hub",
+      "actionText": "Info opsi otomatis"
+    },
+    "daily": {
+      "defaultLabel": "Harian",
+      "defaultExpandedHelperText": "Setiap hari pada jam yang dipilih dalam zona waktu yang dipilih.",
+      "actionText": "Info opsi harian"
+    },
+    "weekly": {
+      "defaultLabel": "Mingguan",
+      "defaultExpandedHelperText": "Setiap minggu pada hari dan jam berikut dalam zona waktu yang dipilih.",
+      "actionText": "Info opsi mingguan"
+    },
+    "monthly": {
+      "defaultLabel": "Bulanan",
+      "defaultExpandedHelperText": "Setiap bulan pada hari dan jam berikut dalam zona waktu yang dipilih",
+      "actionText": "Info opsi bulanan"
+    },
+    "yearly": {
+      "defaultLabel": "Tahunan",
+      "defaultExpandedHelperText": "Setiap tahun pada bulan, hari, dan jam berikut dalam zona waktu yang dipilih.",
+      "actionText": "Info opsi tahunan"
+    },
+    "manual": {
+      "defaultLabel": "Manual",
+      "defaultExpandedHelperText": "Gunakan opsi ini jika Anda ingin secara manual memperbarui indeks pencarian dan cache file unduhan untuk item ini.",
+      "actionText": "Info opsi manual"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "Waktu dalam hari",
+      "inputMessage": "Waktu akan dibulatkan ke jam terdekat.",
+      "error": "Pilih jam."
+    },
+    "day": {
+      "helperText": "Hari dalam seminggu",
+      "daysOfTheWeek": {
+        "sunday": "Minggu",
+        "monday": "Senin",
+        "tuesday": "Selasa",
+        "wednesday": "Rabu",
+        "thursday": "Kamis",
+        "friday": "Jumat",
+        "saturday": "Sabtu"
+      },
+      "selectLabel": "Pemilih hari dalam seminggu",
+      "error": "Pilih satu hari dalam seminggu."
+    },
+    "date": {
+      "helperText": "Hari dalam sebulan",
+      "inputNumberPlaceholder": "Pilih satu hari dalam sebulan",
+      "inputMessage": "Masukkan angka dari 1 hingga 28 untuk hari dalam bulan.",
+      "error": "Hari dalam bulan harus di antara 1 dan 28."
+    },
+    "month": {
+      "helperText": "Bulan dalam setahun",
+      "selectLabel": "Pemilih bulan dalam setahun",
+      "monthsOfTheYear": {
+        "january": "Januari",
+        "february": "Februari",
+        "march": "Maret",
+        "april": "April",
+        "may": "Mei",
+        "june": "Juni",
+        "july": "Juli",
+        "august": "Agustus",
+        "september": "September",
+        "october": "Oktober",
+        "november": "November",
+        "december": "Desember"
+      },
+      "error": "Pilih bulan."
+    },
+    "timezone": {
+      "helperText": "Zona waktu",
+      "error": "Pilih zona waktu."
+    }
+  },
+  "fieldHeader": "Frekuensi"
+}

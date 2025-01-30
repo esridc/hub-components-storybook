@@ -1,0 +1,50 @@
+{
+  "section": "Elimina",
+  "protection": "Impedisci l'eliminazione accidentale di questo {type}.",
+  "protectionTooltip": "Descrizione comandi protezione",
+  "protectionDisabledTooltip": "Solo i proprietari o gli amministratori dell'organizzazione possono modificare la protezione.",
+  "deleteDisabledNoAccessTooltip": "Solo i proprietari o gli amministratori dell'organizzazione possono eliminare.",
+  "deleteDisabledNoAccessTooltipGroup": "Solo i proprietari, i responsabili o gli amministratori dell'organizzazione possono eliminare.",
+  "deleteDisabledProtectedTooltip": "Impossibile eliminare quando la protezione contro l'eliminazione è abilitata.",
+  "deleteButton": "Elimina",
+  "protect": {
+    "successTitle": "Protezione da eliminazione aggiunta",
+    "success": "Impossibile eliminare quando la protezione contro l'eliminazione è abilitata.",
+    "successLabel": "Avviso di aggiunta della protezione contro l'eliminazione.",
+    "errorTitle": "Impossibile aggiungere la protezione da eliminazione",
+    "error": "Si è verificato un errore durante l'aggiunta della protezione contro l'eliminazione.",
+    "errorLabel": "Avviso di protezione contro l'eliminazione non riuscita."
+  },
+  "unprotect": {
+    "successTitle": "Protezione da eliminazione rimossa",
+    "success": "È possibile eliminare quando la protezione contro l'eliminazione è disabilitata.",
+    "successLabel": "Avviso di protezione contro l'eliminazione rimossa.",
+    "errorTitle": "Impossibile rimuovere la protezione da eliminazione",
+    "error": "Si è verificato un errore durante la rimozione della protezione contro l'eliminazione.",
+    "errorLabel": "Avviso di rimozione della protezione contro l'eliminazione non riuscita."
+  },
+  "delete": {
+    "successTitle": "Eliminazione completata",
+    "success": "Reindirizzamento al workspace iniziale in corso",
+    "successLabel": "Avviso di eliminazione completata.",
+    "errorTitle": "Eliminazione non riuscita",
+    "error": "Si è verificato un errore, riprovare.",
+    "errorLabel": "Avviso di eliminazione non riuscita."
+  },
+  "permanentDelete": {
+    "successTitle": "Eliminazione permanente completata",
+    "success": "Reindirizzamento al workspace iniziale in corso",
+    "successLabel": "Avviso di eliminazione completata.",
+    "errorTitle": "Eliminazione non riuscita",
+    "error": "Si è verificato un errore, riprovare.",
+    "errorLabel": "Avviso di eliminazione non riuscita."
+  },
+  "deleteModal": {
+    "header": "Elimina",
+    "deleteContent": "Impossibile annullare un'eliminazione permanente. Procedere?",
+    "recycleContent": "I contenuti eliminati verranno trasferiti nel cestino. Sarà possibile recuperarlo entro 14 giorni.",
+    "delete": "Elimina",
+    "permanentlyDelete": "Elimina definitivamente",
+    "cancel": "Annulla"
+  }
+}

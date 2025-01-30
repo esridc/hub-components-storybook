@@ -1,0 +1,150 @@
+{
+  "modal": {
+    "dismiss": "Nerādīt to vēlreiz",
+    "close": "Aizvērt"
+  },
+  "notice": {
+    "n001": {
+      "title": "Testa paziņojums",
+      "message": "Šis ir testa paziņojuma pamatteksts",
+      "actions": [
+        {
+          "text": "Lasīt emuāru"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-1": {
+      "title": "Pārslēgties uz atjauninātajām lejupielādes iespējām",
+      "message": "Lai iegūtu papildu formātus, kā arī ātruma un veiktspējas uzlabojumus, iespējojiet opciju ''izvilkt'' šim vienības pakalpojumam."
+    },
+    "20240220-hosted-downloads-2": {
+      "title": "Lejupielāžu uzlabojumi ir klāt!",
+      "message": "Uzlabojumi lejupielādēm Hub vietnēs ietver atbalstu viesotām lejupielādēm, atjauninātu lejupielādes kartīšu izskatu un darbību un jaunu lejupielādes norises joslu.",
+      "actions": [
+        {
+          "text": "Papildinformācija"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-3": {
+      "title": "Viesotās lejupielādes ir klāt!",
+      "message": "Viesotās lejupielādes palīdz uzlabot veiktspēju, lejupielādējot saturu. Lai iespējotu viesotās lejupielādes, pārliecinieties, vai tālāk ir atļautas izvilkšanas iespējas.",
+      "actions": [
+        {
+          "text": "Papildinformācija"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-basic": {
+      "title": "Par darbvietām",
+      "message": "<p><strong>Pievienot saturu vietņu katalogiem, izmantojot grupas</strong><br>Vietņu meklēšanas katalogus vienmēr ir darbinājušas grupas, un darbvietas atvieglo šo grupu pārvaldību. Pagaidām pievienojiet saturu atsevišķām jūsu vietnei pievienotām grupām, lai tās tiktu parādītas vietņu katalogā. Drīz varēsiet pievienot saturu katalogam tieši.</p><p><strong> Pāreja no komandām uz grupām</strong><br>Tagad varat izmantot jebkuru ArcGIS Online grupu, lai sadarbotos vietnēs, lapās, saturā un Hub projektos. Visas iepriekš saistītās “darba grupas”, piemēram, vietnes “pamata darba grupa”, joprojām būs redzamas vietnes darbvietas līdzstrādnieku rūtī.</p><p><strong>Darba grupas e-pasta ziņojumapmaiņa īslaicīgi apturēta</strong><br>E-pasta ziņojumu un uzaicinājuma/noņemšanas e-pasta ziņojumu sūtīšana darba grupas dalībniekiem un sekotājiem pašlaik netiek atbalstīta.</p><p><strong>Iegultā Survey123 vietnes noformētāja novecošana</strong><br>Mēs iegūlām Survey123 noformētāju, lai palīdzētu jums paveikt vairāk pakalpojumā Hub. Tomēr klientu atsauksmes norādīja, ka Survey123, tāpat kā citās lietotnēs, tiek dota priekšroka anketas noformēšanai un pārvaldībai. Tādējādi mēs pārtraucam atbalstu ArcGIS Hub iegultajam Survey 123 noformētājam, lai labāk pielāgotos jūsu vēlamajai darbplūsmai.</p>",
+      "actions": [
+        {
+          "text": "Papildinformācija"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-premium": {
+      "title": "Par darbvietām",
+      "message": "<p><strong>Pievienot saturu vietņu katalogiem, izmantojot grupas</strong><br>Vietņu meklēšanas katalogus vienmēr ir darbinājušas grupas, un darbvietas atvieglo šo grupu pārvaldību. Pagaidām pievienojiet saturu atsevišķām jūsu vietnei pievienotām grupām, lai tās tiktu parādītas vietņu katalogā. Drīz varēsiet pievienot saturu katalogam tiešā veidā.</p><p><strong>Pāreja no atbalsta komandām uz grupām</strong><br>Tagad varat izmantot jebkuru ArcGIS Online grupu, lai sadarbotos vietnēs, lapās, saturā un Hub projektos. Visas iepriekš saistītās atbalsta grupas joprojām tiks rādītas vietnes darbvietas līdzstrādnieku rūtī. Lai turpinātu gūt atbalstu, pievienojiet tās atbalsta komandas kā grupas, kas var skatīt, un grupas, kas var rediģēt. </p><p><strong> Uz grupu balstīta ziņu sūtīšana e-pastā uz laiku ir apturēta</strong><br>E-pastu ziņu un uzaicinājumu/noņemšanas e-pasti komandas dalībniekiem un sekotājiem pašlaik netiek atbalstīti.</p><p><strong>Iegultā Survey123 mājas lapas noformētāja novecošanās</strong><br>. Mēs iegūlām Survey123 noformētāju, lai palīdzētu Jums izdarīt vairāk pakalpojumā Hub. Tomēr klientu atsauksmes norādīja, ka Survey123, tāpat kā citās lietotnēs, tiek dota priekšroka anketas noformēšanai un pārvaldībai. Tādējādi mēs pārtraucam atbalstu ArcGIS Hub iegultajam Survey123 designer, lai labāk pielāgotos jūsu vēlamajai darbplūsmai. </p><p><strong>Pasākumi darbvietās vēl nav pieejami</strong><br>Pasākumi tiek pārveidoti, un tiem drīz jābūt pieejamiem darbvietās. Pagaidām, ja izvēlēsieties darbvietas, zaudēsiet spēju izveidot jaunus pasākumus, pārvaldīt un meklēt esošos pasākumus. Tomēr, ja vēlaties pārvaldīt iepriekš izveidotos pasākumus, jebkurā brīdī varat atteikties.</p>",
+      "actions": [
+        {
+          "text": "Papildinformācija"
+        }
+      ]
+    },
+    "202404-workspaceannouncement": {
+      "title": "Iepazīstiet darbvietas",
+      "message": "Darbvietas ir jauns Hub vienību rediģēšanas un pārvaldības veids, aizstājot globālo navigāciju rediģēšanas skatā (nevis tiešraides skatā). Šajā fāzē varat “piekrist” (jebkurā laikā), lai izmantotu darbvietas un saistītos elementus vienībām un grupām. Notikumi būs pieejami vēlāk. Lai izmēģinātu darbvietas tūlīt, izvēlieties “Pāriet uz iestatījumu sadaļu”.",
+      "actions": [
+        {
+          "text": "Pāriet uz iestatījumu sadaļu"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing": {
+      "title": "Atklājiet Hub iniciatīvas no jauna",
+      "message": "ArcGIS Hub iniciatīvas mainījās 2024. gada 2. jūlijā. Iepriekš izveidotās iniciatīvas tagad ir atsevišķas vietnes — ar tādiem pašiem izkārtojumiem, saturu, vietrāžiem (URL) un augstākā līmeņa elementiem (piemēram, sekotājiem un notikumiem) kā iepriekš. Lai izmēģinātu jaunās atsvaidzinātās iniciatīvas, jāiespējo darbvietas.",
+      "actions": [
+        {
+          "text": "Uzzināt par iniciatīvām",
+          "ariaLabel": "Uzzināt par iniciatīvām, atveras jaunā cilnē"
+        },
+        {
+          "text": "Pāriet uz iestatījumu sadaļu"
+        }
+      ]
+    },
+    "20240517-initiatives-manage": {
+      "title": "Pārvaldīt vecās iniciatīvas",
+      "message": "ArcGIS Hub iniciatīvas mainījās 2024. gada 2. jūlijā. Iepriekš izveidotās iniciatīvas tagad ir atsevišķas vietnes — ar tādiem pašiem izkārtojumiem, saturu, vietrāžiem (URL) un augstākā līmeņa elementiem (piemēram, sekotājiem un notikumiem) kā iepriekš. Varat droši izdzēst visas vecās iniciatīvas.",
+      "actions": [
+        {
+          "text": "Uzzināt par iniciatīvām",
+          "ariaLabel": "Uzzināt par iniciatīvām, atveras jaunā cilnē"
+        },
+        {
+          "text": "Skatīt vecās iniciatīvas",
+          "ariaLabel": "Skatīt vecās iniciatīvas, atveras jaunā cilnē"
+        }
+      ]
+    },
+    "20240517-initiatives-manage-no-priv": {
+      "title": "Pārvaldīt vecās iniciatīvas",
+      "message": "ArcGIS Hub iniciatīvas mainījās 2024. gada 2. jūlijā. Iepriekš izveidotās iniciatīvas tagad ir atsevišķas vietnes — ar tādiem pašiem izkārtojumiem, saturu, vietrāžiem (URL) un augstākā līmeņa elementiem (piemēram, sekotājiem un notikumiem) kā iepriekš. Varat droši izdzēst visas vecās iniciatīvas.",
+      "actions": [
+        {
+          "text": "Uzzināt par iniciatīvām",
+          "ariaLabel": "Uzzināt par iniciatīvām, atveras jaunā cilnē"
+        },
+        {
+          "text": "Skatīt vecās iniciatīvas",
+          "ariaLabel": "Skatīt vecās iniciatīvas, atveras jaunā cilnē"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing-site": {
+      "title": "Atklājiet Hub iniciatīvas no jauna",
+      "message": "Jaunās paaudzes Hub iniciatīvas tagad ir pieejamas darbvietās. Iniciatīvām ir savs, viegli iestatāms skats, un tās var palīdzēt saskaņot Hub projektus, kuriem ir kopīgi ilgtermiņa mērķi. Iniciatīvas var izveidot neatkarīgi, un tās var koplietot ar vienu vai vairākām vietnēm. Vietnēs var būt viena vai vairākas iniciatīvas.",
+      "actions": [
+        {
+          "text": "Papildinformācija",
+          "ariaLabel": "Uzzināt vairāk, atveras jaunā cilnē"
+        }
+      ]
+    },
+    "20240710-slow-service-warning": {
+      "title": "Servisa pārtraukums",
+      "message": "Komunikācija ar pakalpojumiem aizņem vairāk laika nekā paredzēts. Tas var ietekmēt jūsu piekļuvi lejupielādēm un kartes funkcionalitāti."
+    },
+    "20240710-unreachable-service-error": {
+      "title": "Serviss nav pieejams",
+      "message": "Mēs nevaram sazināties ar viesošanas pakalpojumu. Lejupielādes un kartes funkcionalitāte šai vienībai pašlaik nav pieejama."
+    },
+    "20240807-auth-required-status": {
+      "title": "Servisa statuss nav zināms",
+      "message": "Mēs nevaram piekļūt drošajam servisa, jo tam ir nepieciešama papildu autorizācija. Lejupielādes un kartes funkcionalitāte šai vienībai pašlaik nav pieejama."
+    },
+    "20240805-private-downloads-unavailable-ago-error": {
+      "title": "Lejupielādes nav pieejamas",
+      "message": "Lai lejupielādētu saturu, ArcGIS Online ir jāiespējo iestatījums Datu eksports. Lūdzu, sazinieties ar vienības īpašnieku, lai iespējotu šo iestatījumu."
+    },
+    "20240805-private-downloads-unavailable-enterprise-error": {
+      "title": "Lejupielādes nav pieejamas",
+      "message": "Lai lejupielādētu saturu, ArcGIS Enterprise ir jāiespējo iestatījums Datu eksports. Lūdzu, sazinieties ar vienības īpašnieku, lai iespējotu šo iestatījumu."
+    },
+    "20240819-download-formats-disabled": {
+      "title": "Lejupielādes ir atspējotas.",
+      "message": "Lai lejupielādētu šīs vienības saturu, sazināties ar vienības īpašnieku."
+    },
+    "20241104-about-feeds-notice": {
+      "message": "Padariet publiski pieejamus datus viegli pieejamus un atkārtoti izmantojamus, izmantojot Hub plūsmas.",
+      "actions": [
+        {
+          "text": "Uzzināt par Hub plūsmām",
+          "ariaLabel": "Uzzinār par Hub plūsmām, atveras jaunā cilnē"
+        }
+      ]
+    }
+  }
+}

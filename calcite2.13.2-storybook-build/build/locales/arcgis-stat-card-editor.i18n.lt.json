@@ -1,0 +1,165 @@
+{
+  "advancedConfig": {
+    "label": "Išplėstinė konfigūracija",
+    "serverTimeout": {
+      "label": "Skirtasis serverio laikas (sekundės)",
+      "helperText": "Naudinga didesnės apimties paslaugoms, kurių atsakymas gali užtrukti ilgiau.",
+      "errors": {
+        "type": "Įveskite serverio skirtojo laiko konfigūraciją.",
+        "minimum": "Serverio skirtojo laiko reikšmė turi būti mažiausiai 5.",
+        "maximum": "Serverio skirtojo laiko reikšmė turi būti daugiausiai 95."
+      }
+    }
+  },
+  "appearance": {
+    "corners": {
+      "label": "Kampai",
+      "enum": {
+        "round": {
+          "label": "Apskritimas"
+        },
+        "square": {
+          "label": "Kvadratas"
+        }
+      }
+    },
+    "dropShadow": {
+      "label": "Metamas šešėlis",
+      "enum": {
+        "heavy": {
+          "label": "Labai ryškus"
+        },
+        "low": {
+          "label": "Neryškus"
+        },
+        "medium": {
+          "label": "Vidutinis"
+        },
+        "none": {
+          "label": "Nepradėta"
+        }
+      }
+    },
+    "layout": {
+      "label": "Kortelės stilius",
+      "enum": {
+        "informational": {
+          "label": "Informacinis"
+        },
+        "simple": {
+          "label": "Paprasta"
+        }
+      }
+    },
+    "popoverText": {
+      "label": "Modalusis turinys"
+    },
+    "publisherText": {
+      "label": "Šaltinio publikuotojas"
+    },
+    "styleSpecificSettings": {
+      "label": "Stiliaus nuostatos",
+      "helperInfoText": "Pasirinkus informacijos mygtuką bus atidarytas modalusis dialogas, kuriame pateikiama daugiau informacijos.",
+      "helperVizText": "Į paprastą kortelę galima įtraukti piktogramą kaip vizualinį elementą, kuris gali būti naudojamas duomenų pokyčiams atspindėti."
+    },
+    "sectionTitle": "Išvaizda",
+    "textAlign": "Lygiuotė",
+    "visualInterest": {
+      "label": "Vizualinis elementas",
+      "enum": {
+        "icon": {
+          "label": "Piktograma"
+        },
+        "none": {
+          "label": "Nėra"
+        }
+      }
+    },
+    "icon": {
+      "label": "Piktograma",
+      "caretUp": {
+        "label": "Padidinti"
+      },
+      "caretDown": {
+        "label": "Sumažinti"
+      },
+      "caretDouble": {
+        "label": "Be pakeitimų"
+      }
+    },
+    "valueColor": "Spalva (statistinis)"
+  },
+  "details": {
+    "allowDynamicLink": "Rodyti šaltinio nuorodą",
+    "link": {
+      "sectionTitle": "Nuoroda",
+      "sourceLink": "Nuorodos URL",
+      "sourceTitle": "Nuorodos tekstas"
+    },
+    "sectionTitle": "Išsamiau",
+    "subtitle": "Antraštė",
+    "title": "Pavadinimas",
+    "trailingText": {
+      "label": "Tekstas pabaigoje",
+      "helperText": "Įveskite ber kokią papildomą konteksto informaciją arba paaiškinimą (bus rodoma po metrikos reikšme)."
+    }
+  },
+  "errors": {
+    "sourceLink": {
+      "required": "Kad būtų rodomas šaltinis, būtina nuoroda.",
+      "formatError": "URL formatas netinkamas"
+    }
+  },
+  "formatting": {
+    "sectionTitle": "Formatavimas",
+    "unit": {
+      "label": "Rodymo vienetai:",
+      "helperText": "Įveskite reikšmės matavimo vienetą."
+    },
+    "unitPosition": {
+      "label": "Vieta",
+      "helperText": "Pasirinkite, kur rodomas matavimo vienetas (pvz., km, sv.) metrikos reikšmės atžvilgiu.",
+      "enum": {
+        "after": {
+          "label": "Po"
+        },
+        "before": {
+          "label": "Prieš"
+        },
+        "below": {
+          "label": "Po"
+        }
+      }
+    }
+  },
+  "sharing": {
+    "sectionTitle": "Bendrinimas",
+    "showShareIcon": "Įgalinti bendrinimą",
+    "showShareIconHelperText": "Leiskite naudotojams nukopijuoti tiesioginę nuorodą į šią kortelę šiame puslapyje.",
+    "shareableByValue": "Įgalinti įterptuosius elementus",
+    "shareableOnHover": {
+      "label": "Rodyti užvedus žymeklį",
+      "helperText": {
+        "label": "Bendrinimo mygtukas rodomas tik užvedus žymeklį. Išjungus, mygtukas bus visada matomas."
+      }
+    }
+  },
+  "statistic": {
+    "dataSource": "Duomenų šaltinis",
+    "displayValue": "Rodyti reikšmę",
+    "sectionTitle": "Reikšmė",
+    "type": {
+      "label": "Tipas",
+      "enum": {
+        "dynamic": {
+          "label": "Dinaminis",
+          "description": "Pasirinkite esamą duomenų rinkinį (elementų tarnybą), kurį norite apibendrinti."
+        },
+        "static": {
+          "label": "Statinis",
+          "description": "Rankiniu būdu įveskite reikšmę, kurią norite paryškinti savo makete."
+        }
+      }
+    }
+  }
+}

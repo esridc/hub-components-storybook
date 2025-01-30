@@ -1,0 +1,35 @@
+{
+  "success": "Đã lưu thành công các chỉnh sửa",
+  "error": "Lỗi lưu các chỉnh sửa",
+  "formAlert": "Cảnh báo biểu mẫu",
+  "projects": {
+    "header": "Dự án",
+    "list": "Danh sách Dự án",
+    "config": "Cấu hình",
+    "notConfigured": "Chưa cấu hình chức năng dự án. Vui lòng sử dụng tab Cấu hình."
+  },
+  "content": {
+    "header": "Nội dung",
+    "list": "Mục Lục",
+    "config": "Cấu hình",
+    "notConfigured": "Chưa cấu hình chức năng nội dung. Vui lòng sử dụng tab Cấu hình."
+  },
+  "initiatives": {
+    "header": "Sáng kiến",
+    "list": "Danh sách Sáng kiến",
+    "config": "Cấu hình",
+    "notConfigured": "Chưa cấu hình chức năng sáng kiến. Vui lòng sử dụng tab Cấu hình."
+  },
+  "events": {
+    "header": "Sự kiện",
+    "list": "Danh sách Sự kiện",
+    "config": "Cấu hình",
+    "notConfigured": "Chưa cấu hình chức năng sự kiện. Vui lòng sử dụng tab Cấu hình."
+  },
+  "pages": {
+    "header": "Trang",
+    "list": "Danh sách Trang",
+    "config": "Cấu hình",
+    "notConfigured": "Chưa cấu hình chức năng trang. Vui lòng sử dụng tab Cấu hình."
+  }
+}

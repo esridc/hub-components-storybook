@@ -1,0 +1,43 @@
+{
+  "header": "ディスカッション",
+  "myContent": "マイ イベント",
+  "editableContent": "編集可能なコンテンツ",
+  "addContentButtonText": "イベントの作成",
+  "type": "タイプ",
+  "sharedUpdate": "共有の更新グループ",
+  "viewOnly": "表示専用グループ",
+  "owner": "所有者",
+  "updated": "更新",
+  "tags": "タグ",
+  "dateCreated": "作成日",
+  "dateUpdated": "更新",
+  "actionLinks": {
+    "view": "表示",
+    "edit": "編集",
+    "ariaEdit": "編集: {title}",
+    "ariaView": "表示: {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "イベント",
+      "myContent": "所有するイベント",
+      "editableContent": "編集可能なイベント",
+      "all": "すべてのイベント"
+    },
+    "access": {
+      "label": "取得元"
+    },
+    "type": {
+      "label": "タイプ"
+    },
+    "tags": {
+      "label": "タグ"
+    },
+    "categories": {
+      "label": "カテゴリ"
+    },
+    "modified": {
+      "label": "更新"
+    }
+  }
+}

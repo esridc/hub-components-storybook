@@ -1,0 +1,46 @@
+{
+  "heading": "Sayfa bilgisi",
+  "form": {
+    "title": {
+      "label": "Sayfa adı",
+      "requiredError": "Ad gereklidir",
+      "entityTitleValidatorError": "Sayfa adı, emojiler, <, > veya = karakterlerini içeremez"
+    },
+    "slug": {
+      "label": "Jeton",
+      "helperText": "Jeton, sayfa adının URL dostu versiyonudur. Otomatik olarak sayfa adına dayanarak oluşturulur, ancak bunu özelleştirebilirsiniz.",
+      "patternError": "Hata: Jeton, tirelerle ayrılmış küçük harfli alfabetik-sayısal karakterler olmalıdır.",
+      "isUniqueError": "Bu jeton zaten kullanımda. Lütfen başka bir tane seçin.",
+      "requiredError": "URL uzantısı gereklidir"
+    }
+  },
+  "controls": {
+    "back": "Geri",
+    "cancel": "İptal",
+    "close": "Bitti",
+    "migrate": "Sayfayı taşı",
+    "next": "İleri"
+  },
+  "selection": {
+    "unlimited": "{count} seçildi",
+    "limited": "{count} / {limit} seçili"
+  },
+  "steps": {
+    "specifyInfo": "Temel bilgileri ekle",
+    "selectGroups": "Grup seç",
+    "confirmation": "Onaylama"
+  },
+  "working": {
+    "heading": "Sayfa taşınıyor.",
+    "loadingLabel": "Sayfa taşınıyor"
+  },
+  "success": {
+    "heading": "Sayfa taşındı",
+    "message": "Sayfa başarıyla taşındı."
+  },
+  "failure": {
+    "heading": "Sayfa taşınmadı",
+    "message": "Sayfayı taşırken bir şeyler ters gitti, lütfen tekrar deneyin.",
+    "action": "Yeniden deneyin"
+  }
+}

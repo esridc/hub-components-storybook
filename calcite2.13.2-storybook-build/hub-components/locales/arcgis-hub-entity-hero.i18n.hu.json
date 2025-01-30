@@ -1,0 +1,11 @@
+{
+  "actions": {
+    "register": "Regisztráljon"
+  },
+  "tooltip": {
+    "register": {
+      "isCancelled": "Elmaradó esemény",
+      "eventHasEnded": "Befejeződött esemény"
+    }
+  }
+}

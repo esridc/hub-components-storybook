@@ -1,0 +1,35 @@
+{
+  "success": "Muudatused on salvestatud",
+  "error": "Tõrge muudatuste salvestamisel",
+  "formAlert": "Vormi hoiatus",
+  "projects": {
+    "header": "Projektid",
+    "list": "Projektiloend",
+    "config": "Konfiguratsioon",
+    "notConfigured": "Projektide funktsioon pole konfiugreeritud. Kasutage vahekaarti Konfiguratsioon."
+  },
+  "content": {
+    "header": "Sisu",
+    "list": "Sisuloend",
+    "config": "Konfiguratsioon",
+    "notConfigured": "Sisu funktsioon pole konfigureeritud. Kasutage vahekaarti Konfiguratsioon."
+  },
+  "initiatives": {
+    "header": "Algatused",
+    "list": "Algatuste loend",
+    "config": "Konfiguratsioon",
+    "notConfigured": "Algatuste funktsioon pole konfigureeritud. Kasutage vahekaarti Konfiguratsioon."
+  },
+  "events": {
+    "header": "Sündmused",
+    "list": "Sündmuste loend",
+    "config": "Konfiguratsioon",
+    "notConfigured": "Sündmuste funktsioon pole konfigureeritud. Kasutage vahekaarti Konfiguratsioon."
+  },
+  "pages": {
+    "header": "Lehed",
+    "list": "Lehtede loend",
+    "config": "Konfiguratsioon",
+    "notConfigured": "Lehtede funktsioon pole konfigureeritud. Kasutage vahekaarti Konfiguratsioon."
+  }
+}

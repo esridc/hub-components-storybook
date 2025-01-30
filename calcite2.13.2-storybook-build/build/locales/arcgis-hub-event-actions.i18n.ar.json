@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "تسجيل",
+    "registered": "مُسجل",
+    "join": "الانضمام عبر الإنترنت",
+    "in-person": "شخصيًا",
+    "online": "عبر الإنترنت",
+    "inPersonFull": "شخصيًا (بالكامل)",
+    "onlineFull": "عبر الإنترنت (بالكامل)",
+    "close": "إغلاق"
+  },
+  "tooltip": {
+    "isCanceled": "تم إلغاء الفعالية",
+    "eventHasEnded": "انتهى الحدث",
+    "eventFull": "الفعالية مكتملة",
+    "inPerson": "تم التسجيل لحضور الفعالية شخصيًا",
+    "online": "تم التسجيل للانضمام للفعالية عبر الإنترنت",
+    "unavailable": "متاح لمدة ساعة قبل وقت بدء الفعالية"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "تم إلغاء التسجيل في الفعالية عبر الإنترنت بنجاح",
+    "onlineRegistrationConfirmed": "تم التسجيل في الفعالية عبر الإنترنت بنجاح",
+    "onlineRegistrationError": "حدث خطأ غير متوقع عند التسجيل في الفعالية عبر الإنترنت",
+    "onlineRegistrationCanceledError": "حدث خطأ غير متوقع أثناء إلغاء التسجيل في الفعالية عبر الإنترنت",
+    "onlineRegistrationAtCapacity": "أنت تحاول التسجيل لحدث عبر الإنترنت ممتلئ",
+    "inPersonRegistrationCanceled": "تم إلغاء تسجيل حضور الفعالية شخصيًا بنجاح",
+    "inPersonRegistrationCanceledError": "حدث خطأ غير متوقع أثناء إلغاء التسجيل لحضور الفعالية شخصيًا",
+    "inPersonRegistrationConfirmed": "تم التسجيل لحضور الفعالية شخصيًا بنجاح",
+    "inPersonRegistrationError": "حدث خطأ غير متوقع عند التسجيل لحضور الفعالية شخصيًا",
+    "inPersonRegistrationAtCapacity": "أنت تحاول التسجيل لحدث شخصي ممتلئ"
+  }
+}

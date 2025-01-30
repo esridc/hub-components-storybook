@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "Lisage esimene toiming",
+  "addSecondAction": "Lisage teine toiming",
+  "addLink": "Lisa link",
+  "addSection": "Lisa jaotis",
+  "deleteNotice": {
+    "title": "Ei saa kustutada",
+    "message": "Jaotis pole tühi. Enne kui proovite kustutada, teisaldage kõik lingid väljapoole jaotist."
+  },
+  "linkEditor": {
+    "save": "Salvesta",
+    "delete": "Kustuta",
+    "cancel": "Loobu",
+    "preview": "Eelvaate link",
+    "title": {
+      "button1": "Esimene toiming",
+      "button2": "Teine toiming",
+      "block": "Toimingu link"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "Olemasoleva sisu link"
+        },
+        "external": {
+          "label": "Välise allika link"
+        }
+      },
+      "label": {
+        "label": "Silt",
+        "helperText": {
+          "button": "See tekst kuvatakse nupul.",
+          "block": "See kuvatakse plokis paksult."
+        },
+        "requiredError": "Silt on nõutav väli."
+      },
+      "description": {
+        "label": "Kirjeldus",
+        "helperText": "See on teisene teave."
+      },
+      "href": {
+        "label": "Link",
+        "requiredError": "Link on nõutav väli.",
+        "formatError": "URL-i vorming on vale."
+      },
+      "contentId": {
+        "label": "Sisu link",
+        "requiredError": "Sisu link on nõutav väli."
+      },
+      "section": {
+        "label": "Liigu jaotisse",
+        "placeholder": {
+          "noSections": "Jaotisi pole konfigureeritud",
+          "notSet": "Pole jaotises"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "Jaotis",
+    "helperText": "Jaotist saab kasutada linkide pesastamiseks menüükäsu alla. Jaotised ei toimi lingina.",
+    "section": {
+      "label": {
+        "label": "Silt",
+        "requiredError": "Silt on nõutav väli."
+      },
+      "description": {
+        "label": "Kirjeldus"
+      }
+    }
+  }
+}

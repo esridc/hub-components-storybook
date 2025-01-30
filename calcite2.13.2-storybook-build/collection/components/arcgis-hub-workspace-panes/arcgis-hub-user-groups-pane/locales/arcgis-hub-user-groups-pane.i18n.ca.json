@@ -1,0 +1,33 @@
+{
+  "groups": "Els meus grups",
+  "addContentButtonText": "Crea",
+  "role": "Rol",
+  "owner": "Propietari",
+  "updated": "Actualitzat",
+  "type": "Tipus",
+  "sharedUpdate": "Grup d'actualització compartida",
+  "viewOnly": "Grup només de visualització",
+  "actionLinks": {
+    "view": "Visualització",
+    "edit": "Edita",
+    "ariaEdit": "Edita {title}",
+    "ariaView": "Mostra {title}"
+  },
+  "facets": {
+    "access": {
+      "label": "Visible per a",
+      "options": {
+        "public": "Tothom (públic)",
+        "org": "Organització",
+        "private": "Mi"
+      }
+    },
+    "type": {
+      "label": "Tipus",
+      "options": {
+        "sharedUpdate": "Actualització compartida",
+        "opendata": "Dades obertes"
+      }
+    }
+  }
+}

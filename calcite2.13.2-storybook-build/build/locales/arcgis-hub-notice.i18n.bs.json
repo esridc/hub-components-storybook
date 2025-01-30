@@ -1,0 +1,150 @@
+{
+  "modal": {
+    "dismiss": "Ne prikazuj ovo opet",
+    "close": "Zatvori"
+  },
+  "notice": {
+    "n001": {
+      "title": "Obavijest o testiranju",
+      "message": "Ovo je tijelo obavijesti o testiranju",
+      "actions": [
+        {
+          "text": "Pročitajte blog"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-1": {
+      "title": "Prijeđite na ažurirano iskustvo preuzimanja",
+      "message": "Za dodatne formate i poboljšanja brzine i performansi, omogućite \"izdvajanje\" na usluzi ove stavke."
+    },
+    "20240220-hosted-downloads-2": {
+      "title": "Poboljšanja preuzimanja su stigla!",
+      "message": "Poboljšanja preuzimanja na vašim Hub web-mjestima uključuju podršku za hostirana preuzimanja, ažurirani izgled i dojam za kartice za preuzimanje i novu traku napretka za preuzimanja.",
+      "actions": [
+        {
+          "text": "Saznajte više"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-3": {
+      "title": "Hostirana preuzimanja su stigla!",
+      "message": "Hostirana preuzimanja pomažu unaprijediti izvedbu kada se preuzima sadržaj. Da biste omogućili hostirana preuzimanja, svakako dopustite mogućnosti izdvajanja u nastavku.",
+      "actions": [
+        {
+          "text": "Saznajte više"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-basic": {
+      "title": "O radnim prostorima",
+      "message": "<p><strong>Dodajte sadržaj katalozima web-mjesta pomoću grupa</strong><br> Katalozi pretraživanja web-mjesta oduvijek su pokretani grupama, a radni prostori olakšavaju upravljanje tim grupama. Za sada dodajte sadržaj pojedinačnim grupama povezanim s vašim web-mjestom kako bi se pojavili u katalogu web-mjesta. Uskoro ćete moći izravno dodavati sadržaj u svoj katalog.</p><p><strong>Prijelaz s timova na grupe</strong><br>Sada možete koristiti bilo koju ArcGIS Online grupu za suradnju na web-mjestima, stranicama, sadržaju i projektima u Hubu. Svi prethodno povezani „Timovi”, kao što je „Osnovni tim” web-mjesta, i dalje će se pojavljivati u oknu Suradnici u radnom prostoru web-mjesta.</p><p><strong>Timsko slanje poruka e-pošte privremeno je pauzirano</strong><br>Slanje poruka e-pošte i e-poruka s pozivnicama/uklanjanjem članovima tima i pratiteljima trenutačno nije podržano.</p><p><strong>Ukidanje ugrađenog alata za izradu web-mjesta Survey123</strong><br>Ugradili smo alat za izradu web-mjesta Survey 123 kako bismo vam pomogli da učinite više u Hubu. Međutim, povratne informacije korisnika pokazale su sklonost dizajnu i upravljanju anketama u Survey123, baš kao i u drugim aplikacijama. Stoga obustavljamo podršku za ugrađeni alat za izradu web-mjesta Survey 123 u ArcGIS Hubu radi boljeg usklađivanja s vašim željenim tijekom rada.</p>",
+      "actions": [
+        {
+          "text": "Saznajte više"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-premium": {
+      "title": "O radnim prostorima",
+      "message": "<p><strong>Dodajte sadržaj katalozima web-mjesta pomoću grupa</strong><br> Katalozi pretraživanja web-mjesta oduvijek su pokretani grupama, a radni prostori olakšavaju upravljanje tim grupama. Za sada dodajte sadržaj pojedinačnim grupama povezanim s vašim web-mjestom kako bi se pojavili u katalogu web-mjesta. Uskoro ćete moći izravno dodavati sadržaj u svoj katalog.</p><p><strong>Prijelaz s timova za podršku na grupe</strong><br>Sada možete koristiti bilo koju ArcGIS Online grupu za suradnju na web-mjestima, stranicama, sadržaju i projektima u Hubu. Svi prethodno povezani timovi za podršku i dalje će se pojavljivati u oknu Suradnici radnog prostora web-mjesta. Za kontinuiranu podršku dodajte te timove za podršku kao grupe koje mogu pregledavati i grupe koje mogu uređivati </p><p><strong>Timska razmjena e-poruka privremeno je pauzirana</strong><br>Slanje e-poruka i e-poruka s pozivnicama/ uklanjanjem članovima tima i pratiteljima trenutačno nije podržano.</p><p><strong>Ukidanje ugrađenog alata za izradu web-mjesta Survey123</strong><br>Ugradili smo alat za izradu web-mjesta Survey123 kako bismo vam pomogli da učinite više u Hubu. Međutim, povratne informacije korisnika pokazale su sklonost dizajnu i upravljanju anketama u Survey123, baš kao i u drugim aplikacijama. Stoga obustavljamo podršku za ugrađeni alat za izradu web-mjesta Survey123 u ArcGIS Hubu radi boljeg usklađivanja s vašim željenim tijekom rada.</p><p><strong>Događaji još nisu dostupni u radnim prostorima</strong><br>Događaji prolaze kroz transformaciju i uskoro bi trebali biti dostupni unutar radnih prostora. Za sada, ako se uključite u radne prostore, izgubit ćete mogućnost stvaranja novih događaja, upravljanja i pretraživanja postojećih događaja. Međutim, ako želite upravljati prethodno stvorenim događajima, možete se isključiti u bilo kojem trenutku.</p>",
+      "actions": [
+        {
+          "text": "Saznajte više"
+        }
+      ]
+    },
+    "202404-workspaceannouncement": {
+      "title": "Predstavljamo radne prostore",
+      "message": "Radni prostori novi su način za uređivanje i upravljanje stavkama u Hubu, zamjenjujući globalnu navigaciju u prikazu za uređivanje (ne prikaz uživo). U ovoj fazi možete se „uključiti” (u bilo kojem trenutku) za korištenje radnih prostora i povezanih značajki za stavke i grupe. Događaji će biti dostupni u kasnijoj fazi. Da biste sada isprobali radne prostore, odaberite „Idi na postavke”.",
+      "actions": [
+        {
+          "text": "Idi na postavke"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing": {
+      "title": "Ponovno predstavljanje — Hub inicijative",
+      "message": "ArcGIS Hub inicijative promijenjene su 2. srpnja 2024. Prethodno stvorene inicijative sada su samostalna web-mjesta — s istim izgledom, sadržajem, URL-ovima i vrhunskim značajkama (kao što su pratitelji i događaji) kao prije. Da biste isprobali nove osvježene inicijative, morate omogućiti radne prostore.",
+      "actions": [
+        {
+          "text": "Saznajte više o inicijativama",
+          "ariaLabel": "Saznajte više o inicijativama, otvara se u novoj kartici"
+        },
+        {
+          "text": "Idi na postavke"
+        }
+      ]
+    },
+    "20240517-initiatives-manage": {
+      "title": "Upravljaj starim inicijativama",
+      "message": "ArcGIS Hub inicijative promijenjene su 2. srpnja 2024. Prethodno stvorene inicijative sada su samostalna web-mjesta — s istim izgledom, sadržajem, URL-ovima i vrhunskim značajkama (kao što su pratitelji i događaji) kao prije. Možete sigurno izbrisati sve stare inicijative.",
+      "actions": [
+        {
+          "text": "Saznajte više o inicijativama",
+          "ariaLabel": "Saznajte više o inicijativama, otvara se u novoj kartici"
+        },
+        {
+          "text": "Prikaži stare inicijative",
+          "ariaLabel": "Pregledajte stare inicijative, otvara se u novoj kartici"
+        }
+      ]
+    },
+    "20240517-initiatives-manage-no-priv": {
+      "title": "Upravljaj starim inicijativama",
+      "message": "ArcGIS Hub inicijative promijenjene su 2. srpnja 2024. Prethodno stvorene inicijative sada su samostalna web-mjesta — s istim izgledom, sadržajem, URL-ovima i vrhunskim značajkama (kao što su pratitelji i događaji) kao prije. Možete sigurno izbrisati sve stare inicijative.",
+      "actions": [
+        {
+          "text": "Saznajte više o inicijativama",
+          "ariaLabel": "Saznajte više o inicijativama, otvara se u novoj kartici"
+        },
+        {
+          "text": "Prikaži stare inicijative",
+          "ariaLabel": "Pregledajte stare inicijative, otvara se u novoj kartici"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing-site": {
+      "title": "Ponovno predstavljanje — Hub inicijative",
+      "message": "Nova generacija Hub inicijativa sada je dostupna u radnim prostorima. Inicijative imaju vlastiti prikaz koji se lako postavlja i mogu pomoći u usklađivanju Hub projekata koji dijele dugoročne ciljeve. Inicijative se mogu kreirati neovisno, a mogu se dijeliti s jednim ili više web-mjesta. Web-mjesta mogu sadržavati jednu ili više inicijativa.",
+      "actions": [
+        {
+          "text": "Saznajte više",
+          "ariaLabel": "Saznajte više, otvara se u novoj kartici"
+        }
+      ]
+    },
+    "20240710-slow-service-warning": {
+      "title": "Prekid usluge",
+      "message": "Komunikacija s uslugom traju duže od očekivanog. Ovo može utjecati na vaš pristup preuzimanjima i funkcionalnost karte."
+    },
+    "20240710-unreachable-service-error": {
+      "title": "Usluga nije dostupna",
+      "message": "Ne možemo kontaktirati ovu host uslugu. Preuzimanja i funkcionalnost karte trenutno nisu dostupni za ovu stavku."
+    },
+    "20240807-auth-required-status": {
+      "title": "Status usluge nepoznat",
+      "message": "Ne možemo pristupiti osiguranoj usluzi jer ona zahtjeva dodatnu autorizaciju. Preuzimanja i funkcionalnost karte trenutno nisu dostupni za ovu stavku."
+    },
+    "20240805-private-downloads-unavailable-ago-error": {
+      "title": "Preuzimanja nisu dostupna",
+      "message": "Za preuzimanje sadržaja, postavka Izvezi podatke mora biti omogućena u programu ArcGIS Online. Obratite se vlasniku stavke da biste omogućili ovu postavku."
+    },
+    "20240805-private-downloads-unavailable-enterprise-error": {
+      "title": "Preuzimanja nisu dostupna",
+      "message": "Za preuzimanje sadržaja, postavka Izvezi podatke mora biti omogućena u programu ArcGIS Enterprise. Obratite se vlasniku stavke da biste omogućili ovu postavku."
+    },
+    "20240819-download-formats-disabled": {
+      "title": "Preuzimanje je onemogućeno",
+      "message": "Za preuzimanje sadržaja za ovu stavku kontaktirajte vlasnika stavke."
+    },
+    "20241104-about-feeds-notice": {
+      "message": "Učinite svoje javne otvorene podatke lako dostupnima i ponovno upotrebljivima uz Hub feeds.",
+      "actions": [
+        {
+          "text": "Saznajte više o Hub feeds",
+          "ariaLabel": "Saznajte više o Hub sažecima sadržaja, otvara se na novoj kartici"
+        }
+      ]
+    }
+  }
+}

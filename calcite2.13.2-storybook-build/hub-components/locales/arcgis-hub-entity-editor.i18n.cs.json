@@ -1,0 +1,1346 @@
+{
+  "success": "Úpravy byly úspěšně uloženy",
+  "error": "Chyba při ukládání úprav",
+  "formAlert": "Chyba formuláře",
+  "create": "Vytvořit",
+  "shared": {
+    "notices": {
+      "metrics": {
+        "preview": {
+          "label": "Náhled metriky",
+          "message": "Změny, které zde provedete, se zobrazí v náhledu metriky."
+        }
+      }
+    },
+    "sections": {
+      "metrics": {
+        "basic": {
+          "label": "Základní informace"
+        },
+        "source": {
+          "label": "Hodnota"
+        },
+        "formatting": {
+          "label": "Formátování"
+        },
+        "sharing": {
+          "label": "Sdílení"
+        }
+      },
+      "mapSettings": {
+        "label": "Nastavení mapy"
+      }
+    },
+    "errors": {
+      "urlFormat": "Formátování adresy URL je nesprávné"
+    },
+    "fields": {
+      "name": {
+        "maxLengthError": "Název nesmí přesáhnout 250 znaků"
+      },
+      "title": {
+        "maxLengthError": "Název nesmí přesáhnout 250 znaků"
+      },
+      "summary": {
+        "maxLengthError": "Souhrn nesmí přesáhnout 2048 znaků"
+      },
+      "purpose": {
+        "maxLengthError": "Účel nesmí přesáhnout 2048 znaků"
+      },
+      "_thumbnail": {
+        "label": "Miniatura",
+        "sizeDescription": "Maximální velikost souboru je 10 MB. Doporučené rozměry: 760 x 505 nebo větší",
+        "defaultThumbnailNotice": "Nahrajte vlastní miniaturu, která nahradí výchozí."
+      },
+      "location": {
+        "none": "Žádné umístění",
+        "org": "Rozsah organizace",
+        "custom": "Vlastní umístění",
+        "customDescription": "Nakreslete jedno nebo více míst",
+        "itemExtent": "Aktuální rozsah položky"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Typ",
+          "sharing": "Sdílení"
+        },
+        "catalog": {
+          "myContent": "Můj obsah",
+          "favorites": "Oblíbené",
+          "organization": "Organizace",
+          "world": "Svět (veřejné)"
+        },
+        "collection": {
+          "appsAndMaps": "Aplikace a mapy",
+          "dataset": "Data",
+          "documents": "Dokumenty",
+          "feedback": "Zpětná vazba",
+          "sites": "Weby",
+          "projects": "Projekty"
+        }
+      },
+      "metrics": {
+        "allowDynamicLink": {
+          "label": "Zobrazit zdrojový odkaz"
+        },
+        "cardTitle": {
+          "label": "Nadpis",
+          "message": {
+            "required": "Toto pole je povinné."
+          }
+        },
+        "dynamicMetric": {
+          "label": "Zdroj dat"
+        },
+        "value": {
+          "label": "Hodnota",
+          "message": {
+            "required": "Toto pole je povinné."
+          }
+        },
+        "unit": {
+          "label": "Jednotky",
+          "helperText": "Slouží k nastavení hodnoty předpony nebo přípony například %, +, $ nebo jiné. Pokud chcete, aby se nic nezobrazovalo, nechte prázdné."
+        },
+        "unitPosition": {
+          "label": "Pozice jednotky",
+          "helperText": "Vyberte, kde se jednotka měření (např. 'km', 'lbs') zobrazí ve vztahu k metrické hodnotě.",
+          "enum": {
+            "after": {
+              "label": "Za hodnotou"
+            },
+            "before": {
+              "label": "Před hodnotou"
+            },
+            "below": {
+              "label": "Pod hodnotou"
+            }
+          }
+        },
+        "showShareIcon": {
+          "label": "Povolit sdílení",
+          "helperText": {
+            "label": "Umožnit uživatelům zkopírovat přímý odkaz na tuto metriku."
+          }
+        },
+        "shareableOnHover": {
+          "label": "Zobrazit při najetí myši",
+          "helperText": {
+            "label": "Tlačítko Sdílet se zobrazí pouze při najetí myší. Pokud je vypnuto, je tlačítko vždy viditelné."
+          }
+        },
+        "sourceLink": {
+          "label": "Adresa URL odkazu",
+          "message": {
+            "required": "Pro zobrazení zdroje je nutný odkaz."
+          }
+        },
+        "sourceTitle": {
+          "label": "Text odkazu"
+        },
+        "trailingText": {
+          "label": "Koncový text",
+          "helperText": "Zadejte jakýkoli další kontext nebo vysvětlení (zobrazí se pod hodnotou metriky)."
+        },
+        "type": {
+          "label": "Typ",
+          "enum": {
+            "dynamic": {
+              "label": "Dynamický",
+              "description": "Vyberte existující datovou sadu (feature službu), kterou chcete sumarizovat."
+            },
+            "static": {
+              "label": "Statický",
+              "description": "Ručně zadejte hodnotu, kterou chcete v rozvržení zvýraznit."
+            }
+          }
+        },
+        "valueType": {
+          "label": "Typ hodnoty",
+          "helperText": "Vyberte typ hodnoty, kterou chcete zobrazit.",
+          "enum": {
+            "string": {
+              "label": "Text",
+              "description": "Jakékoli slovo nebo fráze. Není určeno k numerickým výpočtům. (např. „Hlavní ulice“)"
+            },
+            "number": {
+              "label": "Číslo",
+              "description": "Numerická hodnota. Lze použít k výpočtům. (např. 123)"
+            },
+            "date": {
+              "label": "Datum",
+              "description": "Hodnota kalendářního data. Není určeno k numerickým výpočtům. (např. „1. 1. 2018“)"
+            }
+          }
+        }
+      },
+      "categories": {
+        "label": "Kategorie",
+        "noCategoriesNotice": {
+          "body": "Tato organizace ještě nemá žádné kategorie.",
+          "link": "Nastavit kategorie"
+        }
+      },
+      "download": {
+        "format": {
+          "bip": "BIP",
+          "bmp": "BMP",
+          "bsq": "BSQ",
+          "gif": "GIF",
+          "jpg": "JPG",
+          "jpgPng": "JPG_PNG",
+          "lerc": "LERC",
+          "png": "PNG",
+          "png8": "PNG8",
+          "png24": "PNG24",
+          "png32": "PNG32",
+          "tiff": "TIFF",
+          "csv": "CSV",
+          "excel": "Excel",
+          "featureCollection": "Kolekce prvků",
+          "filegdb": "Souborová geodatabáze",
+          "geojson": "GeoJSON",
+          "geoPackage": "GeoPackage",
+          "json": "JSON",
+          "kml": "KML",
+          "shapefile": "Shapefile",
+          "sqlite": "Geodatabáze SQLite"
+        },
+        "additionalResource": "{resourceName} (distribuce metadat)",
+        "dataSourceResource": "Zdroj dat (distribuce metadat)",
+        "noTitleResource": "Odkaz (bez názvu, distribuce metadat)"
+      }
+    }
+  },
+  "project": {
+    "sections": {
+      "details": {
+        "label": "Podrobnosti"
+      },
+      "basicInfo": {
+        "label": "Základní informace"
+      },
+      "location": {
+        "label": "Poloha",
+        "helperText": "Uveďte zeměpisnou oblast, kde se bude tento projekt realizovat (zobrazí se v rozvržení projektu)."
+      },
+      "status": {
+        "label": "Stav"
+      },
+      "sharing": {
+        "label": "Sdílení"
+      },
+      "timeline": {
+        "label": "Časová osa"
+      },
+      "searchDiscoverability": {
+        "label": "Vyhledávání a viditelnost"
+      },
+      "featuredContent": {
+        "label": "Vybraný obsah",
+        "helperText": "Zvýrazněte související dokumenty, aplikace a data týkající se vašeho projektu. Můžete uvést až 4 položky."
+      },
+      "callToAction": {
+        "label": "Akční odkazy",
+        "helperText": "Zobrazí se jako výrazné tlačítko v horní části projektu. Použijte ji k odeslání publika na web, do průzkumu, na mapu atd."
+      },
+      "embeds": {
+        "label": "Doporučený vložený obsah",
+        "helperText": "Vyberte webovou mapu, webovou scénu nebo aplikaci, kterou chcete v projektu zvýraznit."
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Název projektu",
+        "requiredError": "Název projektu je povinné pole",
+        "maxLengthError": "Název projektu nesmí přesáhnout 250 znaků",
+        "entityTitleValidatorError": "Název projektu nesmí obsahovat smajlíky ani znaky <, >, nebo ="
+      },
+      "description": {
+        "label": "Popis",
+        "helperText": "Uveďte, jakým způsobem bude dosaženo cílů projektu. Můžete zahrnout relevantní informace a uvést změny očekávané od práce na projektu."
+      },
+      "summary": {
+        "label": "Účel",
+        "helperText": "Stručně shrňte cíle vašeho projektu."
+      },
+      "access": {
+        "itemType": "Projekt"
+      },
+      "groups": {
+        "label": "Sdílet s...",
+        "viewGroup": "(Skupina pro prohlížení)",
+        "editGroup": "(Skupina pro editaci)"
+      },
+      "_thumbnail": {
+        "helperText": "Nastavte miniaturu, která bude tento projekt reprezentovat v ArcGIS Online i ve vyhledávání a galeriích."
+      },
+      "featuredImage": {
+        "label": "Vybraný obrázek",
+        "helperText": "Vyberte obrázek, který bude vaši práci reprezentovat v rozvržení projektu.",
+        "sizeDescription": "Maximální velikost souboru je 10 MB. Doporučené rozměry: 718 x 478 nebo větší",
+        "altText": {
+          "label": "Alternativní text",
+          "helperText": "Uveďte krátký popis obrázku pro uživatele čteček obrazovky. Ponechte prázdné, je-li obrázek jen dekorativní."
+        }
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Slug je verze názvu projektu vhodná pro adresu URL. Generuje se automaticky na základě názvu projektu, ale můžete si jej přizpůsobit.",
+        "patternError": "Chyba: Slug se může skládat pouze z malých alfanumerických znaků a spojovníků.",
+        "isUniqueError": "Tento slug se již používá. Vyberte jiný."
+      },
+      "tags": {
+        "label": "Klíčová slova",
+        "helperText": "Klíčová slova se používají v katalogovém vyhledávání, aby ostatní mohli tento projekt snadno najít. Přidejte text a stiskem klávesy Enter vytvořte nová klíčová slova."
+      },
+      "categories": {
+        "helperText": "Kategorie se používají v katalogovém vyhledávání, aby ostatní mohli tento projekt snadno najít. Nastavuje je vaše organizace."
+      },
+      "status": {
+        "label": "Stav projektu",
+        "enum": {
+          "notStarted": {
+            "label": "Nespuštěno"
+          },
+          "inProgress": {
+            "label": "Probíhá"
+          },
+          "onHold": {
+            "label": "Pozdrženo"
+          },
+          "complete": {
+            "label": "Dokončeno"
+          }
+        }
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Typ",
+          "sharing": "Sdílení"
+        }
+      },
+      "callToAction": {
+        "facets": {
+          "type": "Typ",
+          "sharing": "Sdílení"
+        }
+      },
+      "mapSettings": {
+        "label": "Nakonfigurujte, jak se u projektu zobrazí mapa"
+      }
+    }
+  },
+  "initiative": {
+    "sections": {
+      "details": {
+        "label": "Podrobnosti"
+      },
+      "basicInfo": {
+        "label": "Základní informace"
+      },
+      "location": {
+        "label": "Poloha",
+        "helperText": "Uveďte zeměpisnou oblast, kde se tato iniciativa uskuteční (zobrazí se na rozvržení iniciativy)."
+      },
+      "sharing": {
+        "label": "Sdílení"
+      },
+      "featuredContent": {
+        "label": "Vybraný obsah",
+        "helperText": "Zvýrazněte související dokumenty, aplikace a data týkající se vašeho projektu. Můžete uvést až 4 položky."
+      },
+      "status": {
+        "label": "Stav"
+      },
+      "hero": {
+        "label": "Hrdina"
+      },
+      "searchDiscoverability": {
+        "label": "Vyhledávání a vyhledatelnost"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Název iniciativy",
+        "requiredError": "Název iniciativy je povinné pole",
+        "maxLengthError": "Název iniciativy nesmí přesáhnout 250 znaků",
+        "entityTitleValidatorError": "Název iniciativy nesmí obsahovat smajlíky ani znaky <, >, nebo ="
+      },
+      "summary": {
+        "label": "Účel",
+        "helperText": "Stručně shrňte cíle vaší iniciativy."
+      },
+      "access": {
+        "itemType": "Iniciativa"
+      },
+      "description": {
+        "label": "Popis",
+        "helperText": "Uveďte, jakým způsobem bude dosaženo cílů iniciativy. Můžete zahrnout relevantní informace a uvést změny očekávané od práce na iniciativě."
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Slug je verze názvu iniciativy vhodná pro adresu URL. Generuje se automaticky na základě názvu iniciativy, ale můžete si jej přizpůsobit.",
+        "patternError": "Chyba: Slug se může skládat pouze z malých alfanumerických znaků a spojovníků.",
+        "isUniqueError": "Tento slug se již používá. Vyberte jiný."
+      },
+      "tags": {
+        "label": "Klíčová slova",
+        "helperText": "Klíčová slova se používají v katalogovém vyhledávání, aby ostatní mohli tuto iniciativu snadno najít. Přidejte text a stiskem klávesy Enter vytvořte nová klíčová slova."
+      },
+      "categories": {
+        "helperText": "Kategorie se používají v katalogovém vyhledávání, aby ostatní mohli tuto iniciativu snadno najít. Nastavuje je vaše organizace."
+      },
+      "_thumbnail": {
+        "helperText": "Nastavte miniaturu, která bude tuto iniciativu reprezentovat v ArcGIS Online i ve vyhledávání a galeriích."
+      },
+      "groups": {
+        "label": "Sdílet s...",
+        "viewGroup": "(Skupina pro prohlížení)",
+        "editGroup": "(Skupina pro editaci)"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Typ",
+          "sharing": "Sdílení"
+        }
+      },
+      "status": {
+        "label": "Stav iniciativy",
+        "enum": {
+          "notStarted": {
+            "label": "Nezahájeno"
+          },
+          "inProgress": {
+            "label": "Probíhá"
+          },
+          "onHold": {
+            "label": "Pozastaveno"
+          },
+          "complete": {
+            "label": "Dokončeno"
+          }
+        }
+      },
+      "hero": {
+        "label": "Hrdina",
+        "helperText": "Hrdina se zobrazuje nad názvem iniciativy a může obsahovat mapu nebo obrázek.",
+        "map": {
+          "label": "Mapa",
+          "description": "Ukažte cílové oblasti iniciativy na mapě pomocí umístění iniciativy nebo souvisejících projektů."
+        },
+        "image": {
+          "label": "Obrázek",
+          "description": "Působivý vizuál může pomoci lidi zaujmout a přesvědčit, aby podnikli kroky k dosažení vašeho cíle."
+        }
+      },
+      "featuredImage": {
+        "label": "Obrázek",
+        "helperText": "Pro hrdinu použijte obrázek na šířku. Aplikace proporcionálně změní velikost obrázku ze středového ohniskového bodu, aby se přizpůsobil různým velikostem obrazovky. Na velkých obrazovkách bude maximální výška 475 px.",
+        "sizeDescription": "Maximální velikost souboru je 10 MB.",
+        "altText": {
+          "label": "Alternativní text",
+          "helperText": "Uveďte krátký popis obrázku pro uživatele čteček obrazovky. Ponechte prázdné, je-li obrázek jen dekorativní."
+        }
+      },
+      "groupAccess": {
+        "label": "Nastavit viditelnost",
+        "helperText": "Ovládejte, kdo může vidět přiřazení provedená z této iniciativy",
+        "private": {
+          "label": "Soukromé",
+          "description": "Skupinu může vidět vlastník iniciativy a skupiny s přístupem"
+        },
+        "org": {
+          "label": "Organizace",
+          "description": "Skupinu mohou vidět všichni členové s účtem organizace iniciativy a skupiny s přístupem"
+        },
+        "public": {
+          "label": "Veřejné",
+          "description": "Skupinu mohou vidět všichni"
+        }
+      },
+      "membershipAccess": {
+        "label": "Kdo může být v této skupině?",
+        "org": "Pouze členové mojí organizace",
+        "collab": "Pouze členové partnerské spolupráce a mojí organizace",
+        "any": "Členové libovolné organizace (navrhované výchozí nastavení)"
+      },
+      "includeInCatalog": {
+        "label": "Zahrnout do katalogu",
+        "helperText": "Pokud je tato možnost povolena, všechny přiřazené položky se zobrazí vedle ostatního obsahu v katalogu vyhledávání iniciativy."
+      },
+      "mapSettings": {
+        "label": "Nakonfigurujte, jak se u iniciativy zobrazí mapa"
+      }
+    }
+  },
+  "discussion": {
+    "sections": {
+      "details": {
+        "label": "Podrobnosti"
+      },
+      "basicInfo": {
+        "label": "Základní informace"
+      },
+      "location": {
+        "label": "Poloha",
+        "helperText": "Přidejte zeměpisnou oblast a výchozí úroveň přiblížení mapy pro prostorové vymezení diskuze."
+      },
+      "settings": {
+        "label": "Diskuze"
+      },
+      "searchDiscoverability": {
+        "label": "Vyhledávání a vyhledatelnost"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Nadpis",
+        "requiredError": "Název diskuzního fóra je povinný.",
+        "entityTitleValidatorError": "Název diskuze nesmí obsahovat smajlíky ani znaky <, >, nebo ="
+      },
+      "prompt": {
+        "label": "Výzva",
+        "helperText": "Stručně popište, co chcete, aby účastníci na tomto diskuzním fóru psali.",
+        "requiredError": "Výzva je povinné pole",
+        "maxLengthError": "Výzva nesmí přesáhnout 150 znaků"
+      },
+      "description": {
+        "label": "Popis",
+        "helperText": "Poskytněte více souvislostí, které by mohly být užitečné při hledání tohoto fóra."
+      },
+      "_thumbnail": {
+        "helperText": "Vyberte obrázek, který bude reprezentovat vaši diskuzi."
+      },
+      "summary": {
+        "label": "Shrnutí",
+        "helperText": "Stručně popište účel tohoto diskuzního fóra, což je užitečné při sdílení odkazu ostatním."
+      },
+      "featuredImage": {
+        "label": "Vybraný obrázek",
+        "sizeDescription": "Maximální velikost je 10 MB, JPEG, JPG nebo PNG",
+        "altText": {
+          "label": "Alternativní text",
+          "helperText": "Uveďte krátký popis obrázku pro uživatele čteček obrazovky. Ponechte prázdné, je-li obrázek jen dekorativní."
+        },
+        "name": {
+          "label": "Název obrázku"
+        }
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Slug je verze názvu diskuze vhodná pro adresu URL. Generuje se automaticky na základě názvu diskuze, ale můžete si jej přizpůsobit.",
+        "patternError": "Chyba: Slug se může skládat pouze z malých alfanumerických znaků a spojovníků.",
+        "isUniqueError": "Tento slug se již používá. Vyberte jiný."
+      },
+      "tags": {
+        "label": "Klíčová slova"
+      },
+      "categories": {
+        "helperText": "Kategorie se používají v katalogovém vyhledávání, aby ostatní mohli tuto diskuzi snadno najít. Nastavuje je vaše organizace."
+      },
+      "discussable": {
+        "label": "Diskuze je povolena?",
+        "enabled": {
+          "label": "Ano, diskuze je povolena",
+          "description": "Účastníci mohou do tohoto diskuzního fóra přidávat příspěvky, odpovědi a reakce."
+        },
+        "disabled": {
+          "label": "Ne, diskuze je zakázána",
+          "description": "Odstraní možnost přidávání nových příspěvků, odpovědí a reakcí. Předchozí aktivita se tím nevymaže."
+        }
+      },
+      "mapSettings": {
+        "label": "Nakonfigurujte, jak se mapa zobrazí v diskuzním fóru"
+      }
+    }
+  },
+  "site": {
+    "sections": {
+      "defaultRequiredHelperText": "*označuje povinné pole",
+      "basicInfo": {
+        "label": "Základní informace"
+      },
+      "location": {
+        "label": "Poloha",
+        "helperText": "Uveďte zeměpisnou oblast, které se tento web týká."
+      },
+      "discussions": {
+        "label": "Diskuze"
+      },
+      "privacy": {
+        "label": "Konfigurace ochrany osobních údajů"
+      },
+      "siteUrl": {
+        "label": "URL webu"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Název webu",
+        "requiredError": "Název webu je povinné pole",
+        "maxLengthError": "Název stránky nesmí přesáhnout 250 znaků",
+        "siteEntityTitleValidatorError": "Název webu nesmí obsahovat smajlíky ani znaky unicode"
+      },
+      "_thumbnail": {
+        "helperText": "Nastavte miniaturu, která bude tento web reprezentovat v ArcGIS Online i ve vyhledávání a galeriích."
+      },
+      "description": {
+        "label": "Popis",
+        "helperText": "Popis webu."
+      },
+      "summary": {
+        "label": "Souhrn",
+        "helperText": "Uveďte stručné shrnutí webu."
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Slug je verze názvu webu vhodná pro adresu URL. Generuje se automaticky na základě názvu webu, ale můžete si jej přizpůsobit.",
+        "patternError": "Chyba: Slug se může skládat pouze z malých alfanumerických znaků a spojovníků.",
+        "isUniqueError": "Tento slug se již používá. Vyberte jiný."
+      },
+      "tags": {
+        "label": "Klíčová slova",
+        "helperText": "Klíčová slova se používají v katalogovém vyhledávání, aby ostatní mohli tento web snadno najít. Přidejte text a stiskem klávesy Enter vytvořte nová klíčová slova."
+      },
+      "categories": {
+        "helperText": "Kategorie se používají v katalogovém vyhledávání, aby ostatní mohli tento web snadno najít. Nastavuje je vaše organizace."
+      },
+      "discussable": {
+        "label": "Zobrazení diskuzního rozhraní pro přihlášené uživatele na živých stránkách (ve výchozím nastavení zapnuto)",
+        "enabled": {
+          "label": "Ano, diskuze je povolena",
+          "description": "Zobrazit rozhraní diskuzí"
+        },
+        "disabled": {
+          "label": "Ne, diskuze je zakázána",
+          "description": "Skrýt rozhraní diskuzí"
+        }
+      },
+      "followers": {
+        "groupAccess": {
+          "label": "Nastavit viditelnost",
+          "helperText": "Ovládejte, kdo může vidět tlačítka pro sledování. Toto nastavení se vztahuje jak na plovoucí tlačítko pro sledování na stránce, tak na jakékoli tlačítko pro sledování vložené přímo do rozvržení.",
+          "private": {
+            "label": "Soukromé",
+            "description": "Vlastník webu a skupiny s přístupem mohou vidět tlačítka pro sledování."
+          },
+          "org": {
+            "label": "Organizace",
+            "description": "Všichni členové s účtem organizace na webu a skupiny s přístupem mohou vidět tlačítka pro sledování."
+          },
+          "public": {
+            "label": "Veřejné",
+            "description": "Tlačítka pro sledování vidí každý"
+          }
+        },
+        "showFollowAction": {
+          "label": "Akce Sledovat",
+          "helperText": "Do nabídky akcí na stránce přidejte tlačítko Sledovat, které zůstane viditelné, když uživatelé procházejí rozvržením."
+        },
+        "discussable": {
+          "label": "Může se tato skupina účastnit diskuzí?",
+          "enabled": {
+            "label": "Ano, diskuze je povolena",
+            "description": "Členové skupiny mohou zobrazovat diskuzní kanály, ke kterým má skupina přístup, a mohou se jich účastnit."
+          },
+          "disabled": {
+            "label": "Ne, diskuze je zakázána",
+            "description": "Členové skupiny nemohou zobrazovat diskuzní kanály, ke kterým má skupina přístup, a nemohou se jich účastnit."
+          }
+        }
+      },
+      "siteUrl": {
+        "isUniqueError": "Chyba: Web využívající tuto adresu URL již existuje."
+      }
+    }
+  },
+  "page": {
+    "sections": {
+      "basicInfo": {
+        "label": "Základní informace"
+      },
+      "location": {
+        "label": "Poloha",
+        "helperText": "Uveďte zeměpisnou oblast, které se tato stránka týká."
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Název stránky",
+        "requiredError": "Název stránky je povinné pole",
+        "maxLengthError": "Název stránky nesmí přesáhnout 250 znaků",
+        "entityTitleValidatorError": "Název stránky nesmí obsahovat smajlíky ani znaky <, >, nebo ="
+      },
+      "description": {
+        "label": "Popis",
+        "helperText": "Popis stránky."
+      },
+      "summary": {
+        "label": "Souhrn",
+        "helperText": "Uveďte stručné shrnutí stránky."
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Slug je verze názvu stránky vhodná pro adresu URL. Generuje se automaticky na základě názvu stránky, ale můžete si jej přizpůsobit.",
+        "patternError": "Chyba: Slug se může skládat pouze z malých alfanumerických znaků a spojovníků.",
+        "isUniqueError": "Tento slug se již používá. Vyberte jiný."
+      },
+      "tags": {
+        "label": "Klíčová slova",
+        "helperText": "Klíčová slova se používají v katalogovém vyhledávání, aby ostatní mohli tuto stránku snadno najít. Přidejte text a stiskem klávesy Enter vytvořte nová klíčová slova."
+      },
+      "_thumbnail": {
+        "helperText": "Nastavte miniaturu, která bude tuto stránku reprezentovat v ArcGIS Online i ve vyhledávání a galeriích."
+      },
+      "categories": {
+        "helperText": "Kategorie se používají v katalogovém vyhledávání, aby ostatní mohli tuto stránku snadno najít. Nastavuje je vaše organizace."
+      }
+    }
+  },
+  "content": {
+    "fields": {
+      "title": {
+        "label": "Nadpis",
+        "hint": "Stručné nadpisy zvýší viditelnost vašeho obsahu.",
+        "requiredError": "Nadpis je povinné pole",
+        "entityTitleValidatorError": "Název nesmí obsahovat smajlíky ani znaky <, >, nebo ="
+      },
+      "summary": {
+        "label": "Souhrn",
+        "hint": "Uveďte stručné shrnutí svého obsahu. TIP: Zlepšete SEO pomocí klíčových slov, která se liší od slov \"Nadpis\" nebo \"Klíčová slova\"."
+      },
+      "description": {
+        "label": "Popis",
+        "hint": "Přidejte další podrobnosti vysvětlující váš obsah. Pokud chcete oslovit širší publikum, váš obsah by měl být snadno čitelný. <a href='https://www.webfx.com/tools/read-able/' target='_blank'>Váš text si můžete zdarma otestovat pomocí nástroje analýzy čitelnosti.</a>"
+      },
+      "tags": {
+        "label": "Klíčová slova",
+        "hint": "Klíčová slova se používají v katalogovém vyhledávání, aby ostatní mohli tento obsah snadno najít. Přidejte text a stiskem klávesy Enter vytvořte nová klíčová slova."
+      },
+      "categories": {
+        "helperText": "Kategorie se používají v katalogovém vyhledávání, aby ostatní mohli tento obsah snadno najít. Nastavuje je vaše organizace."
+      },
+      "_thumbnail": {
+        "helperText": "Nastavte miniaturu, která bude tuto položku reprezentovat v ArcGIS Online i ve vyhledávání a galeriích."
+      },
+      "license": {
+        "label": "Podmínky používání",
+        "helperText": "Méně omezení podporuje častější opakované použití."
+      },
+      "discussable": {
+        "label": "Diskuze je povolena?",
+        "enabled": {
+          "label": "Ano, diskuze je povolena",
+          "description": "Účastníci mohou k této položce přidávat příspěvky, odpovědi a reakce."
+        },
+        "disabled": {
+          "label": "Ne, diskuze je zakázána",
+          "description": "Odstraní možnost přidávání nových příspěvků, odpovědí a reakcí. Předchozí aktivita se tím nevymaže."
+        }
+      },
+      "serverExtractCapability": {
+        "label": "Systém stahování",
+        "exportDataSetting": {
+          "label": "Nastavení exportu dat (doporučeno)",
+          "description": "Povolí další formáty stahování a vyšší výkon stahování."
+        },
+        "defaultDownloadsSystem": {
+          "label": "Výchozí systém stahování",
+          "description": "Může poskytovat méně formátů, pomalejší stahování a nižší spolehlivost."
+        },
+        "noFormatConfigurationNotice": {
+          "title": "Konfigurace formátu není k dispozici",
+          "body": "Nastavení exportu dat je podmínkou povolení konfigurace formátu."
+        }
+      },
+      "downloadFormats": {
+        "label": "Formáty",
+        "helperText": "Vyberte, ke kterým formátům budou mít uživatelé přístup a v jakém pořadí se zobrazí. (Je nutné vybrat alespoň jeden formát.)",
+        "downloadsUnavailableNotice": {
+          "title": "Stahování není dostupné",
+          "body": "Pokud chcete stáhnout obsah, musí být v ArcGIS Online umožněno nastavení Exportovat data. Kontaktujte vlastníka položky, aby toto nastavení aktivoval."
+        }
+      },
+      "schedule": {
+        "manual": {
+          "helperActionText": "Tuto možnost použijte, chcete-li ručně aktualizovat index vyhledávání a stažené soubory pro tuto položku v mezipaměti."
+        },
+        "forceUpdateButton": {
+          "label": "Vynutit aktualizaci",
+          "description": "Výběrem této možnosti a následným použitím tlačítka Uložit ručně aktualizujete index vyhledávání a stažené soubory pro tuto položku v mezipaměti."
+        },
+        "unavailableNotice": {
+          "title": "Naplánované aktualizace nejsou k dispozici",
+          "body": "Chcete-li povolit naplánované aktualizace, nastavte tento obsah jako veřejný."
+        }
+      }
+    },
+    "sections": {
+      "basic": {
+        "title": "Základní informace",
+        "message": "Tyto informace se používají k předvyplnění výsledků vyhledávání, karet galerií a zobrazují se v zobrazení podrobností."
+      },
+      "about": {
+        "title": "Obsah popisu",
+        "message": "Ve výsledcích vyhledávání se zobrazí první dva řádky popisu. Celý obsah se zobrazí po otevření dané položky."
+      },
+      "image": {
+        "title": "Reprezentativní obrázek",
+        "message": "Správně zvolený reprezentativní obrázek nebo miniatura má velký vliv na to, jak poutavě bude váš obsah vypadat v galeriích a v rámci iniciativ, událostí a průzkumů. Doporučená velikost obrázku je 760 x 505. Pokud se obrázek zobrazuje rozmazaně, zkuste jej nahrát ve větší velikosti."
+      },
+      "location": {
+        "label": "Poloha",
+        "helperText": "Zobrazte zeměpisnou oblast, kde se tento obsah bude nacházet (zobrazí se v rozvržení obsahu)."
+      },
+      "discussions": {
+        "label": "Diskuze"
+      },
+      "downloads": {
+        "label": "Stahování",
+        "helperText": "Nakonfigurujte formáty stahování, plán aktualizace souborů uložených v mezipaměti a další. Další podrobnosti naleznete v <calcite-link href=\"https://doc.arcgis.com/en/hub/content/data-download-settings.htm\" target=\"_blank\" icon-end=\"launch\">dokumentaci ke stahování</calcite-link>."
+      },
+      "schedule": {
+        "label": "Naplánované aktualizace",
+        "helperText": "Hub se automaticky pokusí určit optimální dobu k aktualizaci obsahu (výchozí nastavení). Můžete však nastavit frekvenci aktualizací obsahu, metadat a stažených souborů v mezipaměti (pokud to je relevantní)."
+      }
+    },
+    "stringField": {
+      "charCounter": "{count} zbývajících znaků"
+    },
+    "imageThumbnail": {
+      "label": "Miniatura obrázku",
+      "upload": "Nahrát obrázek",
+      "done": "Hotovo",
+      "editThumbnail": "Upravit miniaturu",
+      "browse": "Vyhledat obrázek",
+      "remove": "Odstranit obrázek",
+      "edit": "Upravit obrázek",
+      "defaultHeading": "Přidat miniaturu obrázku",
+      "dropHeading": "Nahrát přetažením",
+      "errorHeading": "Zkuste jiný obrázek",
+      "subheading": "Max. velikost je {size}, {types}",
+      "zoomOut": "oddálit",
+      "zoomIn": "přiblížit",
+      "drag": "Přemístit přetažením",
+      "urlPlaceholder": "Podporované typy: {types}",
+      "browseForImage": "Hledat obrázek",
+      "aria": {
+        "container": "Plocha obrázku",
+        "crop": "Plocha ořezu",
+        "handle": {
+          "top": "Změnit velikost nahoře",
+          "right": "Změnit velikost vpravo",
+          "left": "Změnit velikost vlevo",
+          "bottom": "Změnit velikost dole"
+        }
+      }
+    }
+  },
+  "group": {
+    "sections": {
+      "details": {
+        "label": "Podrobnosti"
+      },
+      "basicInfo": {
+        "label": "Základní informace"
+      },
+      "capabilities": {
+        "label": "Funkce"
+      },
+      "membershipAccess": {
+        "label": "Členství ve skupině"
+      },
+      "discussions": {
+        "label": "Diskuze"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Nadpis",
+        "requiredError": "Název skupiny je povinné pole",
+        "maxLengthError": "Název skupiny nesmí překročit 250 znaků",
+        "entityTitleValidatorError": "Název skupiny nesmí obsahovat smajlíky ani znaky <, >, nebo ="
+      },
+      "summary": {
+        "label": "Souhrn",
+        "maxLengthError": "Shrnutí nesmí přesáhnout 250 znaků"
+      },
+      "description": {
+        "label": "Popis"
+      },
+      "access": {
+        "label": "Kdo může zobrazit tuto skupinu?",
+        "private": {
+          "label": "Soukromé",
+          "description": "Skupinu mohou zobrazit pouze členové skupiny."
+        },
+        "org": {
+          "label": "Organizace",
+          "description": "Skupinu mohou zobrazit pouze členové organizace."
+        },
+        "public": {
+          "label": "Kdokoli (veřejnost)",
+          "description": "Skupinu mohou zobrazit všichni uživatelé."
+        }
+      },
+      "isSharedUpdate": {
+        "label": "Sdílená aktualizace",
+        "helperText": "Položky v této skupině budou moci upravovat všichni členové skupiny. Členství je omezeno na vaši organizaci a vaše spolupracující organizace."
+      },
+      "isAdmin": {
+        "label": "Administrativní skupina",
+        "helperText": "Členové nesmějí tuto skupinu opustit. Členy mohou odebrat pouze správci skupiny nebo vlastník. Členství je omezeno na vaši organizaci."
+      },
+      "isOpenData": {
+        "label": "Otevřená data",
+        "helperText": "Umožní, aby k této skupině mohl být přístup ze stránek používajících Open Data.",
+        "constError": "Neveřejné skupiny nemohou využívat Open Data."
+      },
+      "_thumbnail": {
+        "label": "Miniatura",
+        "helperText": "Vyberte obrázek, který bude vaši skupinu reprezentovat na profilu skupiny.",
+        "sizeDescription": "Maximální velikost souboru je 10 MB. Doporučená velikost: 400 x 400 nebo větší"
+      },
+      "membershipAccess": {
+        "label": "Kdo může být v této skupině?",
+        "org": {
+          "description": "Pouze členové mojí organizace",
+          "label": "Členové organizace"
+        },
+        "collab": {
+          "description": "Pouze členové partnerské spolupráce a mojí organizace",
+          "label": "Pouze spolupracovníci"
+        },
+        "any": {
+          "description": "Členové libovolné organizace",
+          "label": "Kdokoliv"
+        },
+        "createFollowers": {
+          "any": "Členové libovolné organizace (navrhované výchozí nastavení)"
+        },
+        "createAssociation": {
+          "any": "Členové libovolné organizace (navrhované výchozí nastavení)"
+        },
+        "constError": "Členství v administrátorské skupině je omezeno na členy vaší organizace.",
+        "patternError": "Členství ve skupině sdílených aktualizací je omezeno na vaši organizaci nebo členy partnerské spolupráce."
+      },
+      "contributeContent": {
+        "label": "Kdo může přidávat obsah?",
+        "members": {
+          "label": "Členové",
+          "description": "Všichni členové skupiny"
+        },
+        "admins": {
+          "label": "Administrátoři",
+          "description": "Vlastníci a správci skupiny"
+        },
+        "createFollowers": {
+          "admins": "Vlastník skupiny a její správci (navrhované výchozí nastavení)"
+        },
+        "createAssociation": {
+          "admins": "Vlastník skupiny a její správci (navrhované výchozí nastavení)"
+        }
+      },
+      "join": {
+        "label": "Jak se mohou uživatelé přidat k této skupině",
+        "invite": {
+          "label": "Pozvánka",
+          "description": "Pouze na základě pozvánky"
+        },
+        "request": {
+          "label": "Žádost",
+          "description": "Na základě žádosti"
+        },
+        "auto": {
+          "label": "Sami",
+          "description": "Sami se přidají"
+        },
+        "constError": "Do soukromých skupin lze vstoupit pouze na pozvání.",
+        "patternError": "Administrátorské skupiny a skupiny se sdílenými aktualizacemi umožňují vstup na základě pozvánky nebo žádosti."
+      },
+      "hiddenMembers": {
+        "label": "Kdo může zobrazit úplný seznam členů na kartě skupiny Členové?",
+        "members": {
+          "label": "Členové",
+          "description": "Všichni členové skupiny"
+        },
+        "admins": {
+          "label": "Administrátoři",
+          "description": "Vlastníci a správci skupiny"
+        }
+      },
+      "discussable": {
+        "label": "Může se tato skupina účastnit diskuzí?",
+        "enabled": {
+          "label": "Ano, diskuze je povolena",
+          "description": "Členové skupiny mohou zobrazovat diskuzní kanály, ke kterým má skupina přístup, a mohou se jich účastnit."
+        },
+        "disabled": {
+          "label": "Ne, diskuze je zakázána",
+          "description": "Členové skupiny nemohou zobrazovat diskuzní kanály, ke kterým má skupina přístup, a nemohou se jich účastnit."
+        }
+      }
+    }
+  },
+  "initiativeTemplate": {
+    "sections": {
+      "basicInfo": {
+        "label": "Základní informace"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Název",
+        "requiredError": "Název šablony iniciativy je povinné pole",
+        "entityTitleValidatorError": "Název šablony iniciativy nesmí obsahovat smajlíky ani znaky <, >, nebo ="
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "Slug je verze názvu šablony iniciativy vhodná pro adresu URL. Generuje se automaticky na základě názvu šablony iniciativy, ale můžete si jej přizpůsobit.",
+        "patternError": "Chyba: Slug se může skládat pouze z malých alfanumerických znaků a spojovníků.",
+        "isUniqueError": "Tento slug se již používá. Vyberte jiný."
+      },
+      "previewUrl": {
+        "label": "Odkaz na náhled",
+        "helperText": "Odkaz na náhled se použije na název a je užitečný, pokud plánujete šablonu veřejně sdílet. Odkazy by měly začínat „https://“",
+        "formatError": "Formátování adresy URL je nesprávné"
+      },
+      "summary": {
+        "label": "Shrnutí",
+        "helperText": "Napište krátký popis této šablony, který se zobrazí v galerii šablon (doporučuje se maximálně 90 znaků)."
+      },
+      "description": {
+        "label": "Popis",
+        "helperText": "Uveďte informace o doporučeném způsobu použití této šablony. Zvažte, zda zahrnout pokyny k aktivaci pro ostatní."
+      },
+      "_thumbnail": {
+        "label": "Miniatura",
+        "helperText": "Nastavte miniaturu, která bude tuto šablonu reprezentovat v ArcGIS Online i ve vyhledávání a galeriích.",
+        "sizeDescription": "Maximální velikost souboru je 10 MB. Doporučená velikost: 750 x 505 nebo větší"
+      },
+      "recommendedTemplates": {
+        "label": "Doporučené šablony",
+        "catalog": {
+          "myContent": "Můj obsah",
+          "favorites": "Oblíbené",
+          "organization": "Moje organizace",
+          "world": "Svět (veřejné)"
+        },
+        "facets": {
+          "sharing": "Sdílení"
+        },
+        "pickerTitle": "Vybrat šablony"
+      }
+    }
+  },
+  "template": {
+    "sections": {
+      "basicInfo": {
+        "label": "Základní informace"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Název šablony",
+        "requiredError": "Název šablony je povinné pole",
+        "maxLengthError": "Název šablony nesmí překročit 250 znaků",
+        "entityTitleValidatorError": "Název šablony nesmí obsahovat smajlíky ani znaky <, >, nebo ="
+      },
+      "previewUrl": {
+        "label": "Odkaz na náhled",
+        "helperText": "Odkaz na náhled se použije na název a je užitečný, pokud plánujete šablonu veřejně sdílet. Odkazy by měly začínat „https://“",
+        "formatError": "Formátování adresy URL je nesprávné"
+      },
+      "description": {
+        "label": "Popis",
+        "helperText": "Uveďte informace o doporučeném způsobu použití této šablony. Zvažte, zda zahrnout pokyny k aktivaci pro ostatní."
+      },
+      "summary": {
+        "label": "Shrnutí",
+        "helperText": "Napište krátký popis této šablony, který se zobrazí v galerii šablon (doporučuje se maximálně 90 znaků)."
+      },
+      "_thumbnail": {
+        "helperText": "Vyberte obrázek, který bude reprezentovat vaši šablonu v galeriích."
+      }
+    }
+  },
+  "survey": {
+    "sections": {
+      "basicInfo": {
+        "label": "Základní informace"
+      },
+      "searchDiscoverability": {
+        "label": "Vyhledávání a viditelnost"
+      },
+      "settings": {
+        "label": "Zobrazení mapy"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Název průzkumu",
+        "requiredError": "Název průzkumu je povinné pole",
+        "maxLengthError": "Název průzkumu nesmí přesáhnout 250 znaků",
+        "entityTitleValidatorError": "Název průzkumu nesmí obsahovat smajlíky ani znaky <, >, nebo ="
+      },
+      "description": {
+        "label": "Popis",
+        "helperText": "Popis průzkumu."
+      },
+      "summary": {
+        "label": "Shrnutí",
+        "helperText": "Uveďte stručné shrnutí průzkumu."
+      },
+      "_thumbnail": {
+        "helperText": "Nastavte miniaturu, která bude tento průzkum reprezentovat v ArcGIS Online i ve vyhledávání a galeriích."
+      },
+      "tags": {
+        "label": "Klíčová slova",
+        "helperText": "Klíčová slova se používají v katalogovém vyhledávání, aby ostatní mohli tento průzkum snadno najít. Přidejte text a stiskem klávesy Enter vytvořte nová klíčová slova."
+      },
+      "categories": {
+        "helperText": "Kategorie se používají v katalogovém vyhledávání, aby ostatní mohli tento průzkum snadno najít. Nastavuje je vaše organizace."
+      },
+      "displayMap": {
+        "label": "Jak by se měl váš průzkum zobrazovat po otevření v ArcGIS Hub?",
+        "enabled": {
+          "label": "Důraz na mapu",
+          "description": "Poutavé mapové prostředí, otázka typu Mapa se bude vždy zobrazovat první."
+        },
+        "disabled": {
+          "label": "Standardní zobrazení",
+          "description": "Mapa se bude zobrazovat zařazená mezi ostatní otázky."
+        },
+        "notice": {
+          "title": "Vyžaduje otázku typu Mapa",
+          "message": "Publikujte svůj průzkum s otázkou typu Mapa v Survey123 a nakonfigurujte zobrazení mapy v ArcGIS Hub."
+        }
+      }
+    }
+  },
+  "event": {
+    "fields": {
+      "name": {
+        "label": "Nadpis",
+        "requiredError": "Nadpis je povinné pole",
+        "entityTitleValidatorError": "Název události nesmí obsahovat smajlíky ani znaky <, >, nebo ="
+      },
+      "startDate": {
+        "label": "Datum zahájení",
+        "requiredError": "Datum zahájení je povinné pole",
+        "minDateError": "Datum zahájení nesmí být dříve než dnes"
+      },
+      "endDate": {
+        "label": "Datum ukončení",
+        "requiredError": "Datum ukončení je povinné pole",
+        "minDateError": "Datum ukončení nesmí být dřívější než datum zahájení"
+      },
+      "date": {
+        "label": "Datum",
+        "requiredError": "Datum je povinné pole",
+        "minDateError": "Datum nesmí být dříve než dnes"
+      },
+      "startTime": {
+        "label": "Čas zahájení",
+        "requiredError": "Čas zahájení je povinné pole"
+      },
+      "endTime": {
+        "label": "Čas ukončení",
+        "requiredError": "Čas ukončení je povinné pole",
+        "minTimeError": "Čas ukončení musí být pozdější než čas zahájení"
+      },
+      "allDay": {
+        "label": "Celý den"
+      },
+      "timeZone": {
+        "label": "Časové pásmo",
+        "requiredError": "Časové pásmo je povinné pole"
+      },
+      "attendanceType": {
+        "label": "Kde",
+        "inPerson": {
+          "label": "Osobně"
+        },
+        "online": {
+          "label": "Online"
+        },
+        "both": {
+          "label": "Obojí"
+        }
+      },
+      "onlineUrl": {
+        "label": "Odkaz na připojení k online události",
+        "requiredError": "Pro online nebo hybridní události je vyžadována adresa URL",
+        "linkHrefFormatError": "Formátování adresy URL je nesprávné"
+      },
+      "description": {
+        "label": "Popis",
+        "helperText": "Přidejte doplňkové informace pro účastníky, jako je typ události, její účel, program, co si vzít s sebou, zajištění dopravy apod.",
+        "requiredError": "Popis je povinné pole"
+      },
+      "inPersonCapacity": {
+        "label": "Maximální kapacita fyzických účastníků",
+        "requiredError": "Maximální kapacita fyzických účastníků je povinný údaj",
+        "minimumError": "Maximální kapacita fyzických účastníků musí být větší než 0"
+      },
+      "inPersonCapacityType": {
+        "label": "Kapacita registrace fyzických účastníků",
+        "unlimited": {
+          "label": "Neomezená"
+        },
+        "fixed": {
+          "label": "Fixní"
+        }
+      },
+      "location": {
+        "label": "Zobrazte zeměpisnou oblast, kde se tato událost bude odehrávat (zobrazí se v rozvržení události)."
+      },
+      "onlineCapacityType": {
+        "label": "Kapacita registrace online účastníků",
+        "unlimited": {
+          "label": "Neomezená"
+        },
+        "fixed": {
+          "label": "Fixní"
+        }
+      },
+      "onlineCapacity": {
+        "label": "Maximální online kapacita",
+        "requiredError": "Maximální online kapacita je povinná",
+        "minimumError": "Maximální online kapacita musí být větší než 0"
+      },
+      "onlineDetails": {
+        "label": "Podrobnosti o online události",
+        "helperText": "Přidejte doplňkové informace pro účastníky, jako je přístupový kód, informace k telefonickému spojení a další."
+      },
+      "categories": {
+        "helperText": "Kategorie se používají v katalogovém vyhledávání, aby ostatní mohli tuto událost snadno najít. Nastavuje je vaše organizace."
+      },
+      "tags": {
+        "label": "Klíčová slova",
+        "helperText": "Klíčová slova se používají v katalogovém vyhledávání, aby ostatní mohli tuto událost snadno najít. Přidejte text a stiskem klávesy Enter vytvořte nová klíčová slova."
+      },
+      "summary": {
+        "label": "Shrnutí",
+        "helperText": "Stručně popište účel této události, což je užitečné při sdílení odkazu ostatním."
+      },
+      "allowRegistration": {
+        "label": "Povolit registraci",
+        "helperText": "Pro registraci nebo pozvání k účasti je potřeba účet.",
+        "enabled": {
+          "label": "Tlačítko registrace bylo zapnuto",
+          "description": "Každý člen, který si může zobrazit tuto událost, se může registrovat."
+        },
+        "disabled": {
+          "label": "Tlačítko registrace bylo vypnuto",
+          "description": "Registrace je pouze na pozvání nebo se nesleduje."
+        }
+      },
+      "notifyAttendees": {
+        "label": "Odesílat automatická oznámení",
+        "helperText": "Odběratelé události mohou dostávat automatická e-mailová oznámení, která jim poslouží jako připomenutí nebo je upozorní na změny. Lidé, kteří se zaregistrují jako účastníci, budou automaticky přihlášeni k odběru.",
+        "enabled": {
+          "label": "Oznámení byla zapnuta",
+          "description": "Tlačítko odběru je pro událost viditelné."
+        },
+        "disabled": {
+          "label": "Oznámení byla vypnuta",
+          "description": "Tlačítko odběru je pro událost skryté."
+        }
+      },
+      "referencedContent": {
+        "label": "Připojený obsah",
+        "helperText": {
+          "label": "Připojte jeden projekt, iniciativu nebo web související s touto událostí."
+        },
+        "facets": {
+          "from": {
+            "label": "Od",
+            "myContent": {
+              "label": "Můj obsah"
+            },
+            "myOrganization": {
+              "label": "Moje organizace"
+            }
+          },
+          "access": {
+            "label": "Přístup"
+          }
+        },
+        "catalog": {
+          "organization": "Organizace"
+        },
+        "collection": {
+          "sites": "Weby",
+          "initiatives": "Iniciativy",
+          "projects": "Projekty"
+        }
+      }
+    },
+    "sections": {
+      "referencedContent": {
+        "label": "Připojený obsah"
+      },
+      "eventInfo": {
+        "label": "Informace o události"
+      },
+      "dateTime": {
+        "label": "Datum a čas"
+      },
+      "location": {
+        "label": "Umístění"
+      },
+      "discoverability": {
+        "label": "Vyhledávání a viditelnost"
+      }
+    }
+  },
+  "user": {
+    "sections": {
+      "userSettings": "Předvolby uživatele",
+      "orgSettings": {
+        "label": "Nastavení organizace",
+        "signinSettings": {
+          "label": "Možnosti přihlášení",
+          "helperText": "Umožňuje přizpůsobení informací zobrazovaných uživatelům při přihlášení ke komunitnímu účtu ve vašem Hubu."
+        },
+        "siteDefaults": {
+          "label": "Výchozí nastavení zobrazení webu"
+        }
+      }
+    },
+    "fields": {
+      "enableTermsAndConditions": {
+        "label": "Vyžadovat vlastní formulář podmínek použití při přihlášení"
+      },
+      "termsAndConditions": {
+        "label": "Podmínky používání"
+      },
+      "enableSignupText": {
+        "label": "Nakonfigurovat vlastní uvítací text po přihlášení"
+      },
+      "workspacePreview": {
+        "label": "Povolit náhled pracovní oblasti",
+        "helperText": "Pracovní oblasti jsou k dispozici pro náhled, avšak jsou stále ve vývoji protože rozšiřujeme jejich funkce. Pracovní oblasti můžete kdykoli během období náhledu zakázat. Povolení pracovních oblastí bude mít vliv pouze na tento uživatelský účet."
+      },
+      "infoBanner": {
+        "label": "Informační banner",
+        "helperText": "Zobrazí informační banner pro zaměstnance organizace (je-li nakonfigurován) na všech webech a stránkách. Jedná se o globální nastavení, které nelze zapínat a vypínat pro jednotlivé weby.",
+        "helperTextWhenDisabled": "Aktuálně nemáte nakonfigurovaný informační banner. Kliknutím na níže uvedený odkaz přejdete do ArcGIS Online, kde můžete svůj informační banner nakonfigurovat.",
+        "goToBannerConfig": "Nakonfigurovat informační banner v ArcGIS Online"
+      }
+    },
+    "notice": {
+      "title": "Řízení organizace",
+      "message": "Většina nastavení organizace týkajících se zaměstnanců a komunity (pouze Hub Premium) je nyní spravována v domovské organizaci ArcGIS.",
+      "communityMessage": "Většina nastavení organizace týkajících se zaměstnanců a komunity (pouze Hub Premium) je nyní spravována v domovské organizaci ArcGIS. <br /><br /> Vaše organizace komunity je",
+      "staffMessage": "Většina nastavení organizace týkajících se zaměstnanců a komunity (pouze Hub Premium) je nyní spravována v domovské organizaci ArcGIS. <br /><br /> Vaše organizace zaměstnanců je",
+      "actions": {
+        "goToOrg": "Přejít na nastavení organizace",
+        "goToCommunityOrg": "Přejít na organizaci komunity",
+        "goToStaffOrg": "Přejít na organizaci zaměstnanců"
+      }
+    }
+  }
+}

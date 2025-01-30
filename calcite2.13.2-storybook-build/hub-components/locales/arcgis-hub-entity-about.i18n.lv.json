@@ -1,0 +1,18 @@
+{
+  "about": "Par",
+  "metrics": "Rādītāji",
+  "featuredContent": "Saistītais saturs",
+  "details": "Informācija",
+  "exploreMetrics": "Izpētīt rādītājus",
+  "status": {
+    "label": {
+      "default": "Statuss",
+      "project": "Projekta statuss",
+      "initiative": "Iniciatīvas statuss"
+    },
+    "notStarted": "Nav sākts",
+    "inProgress": "Notiek izpilde",
+    "onHold": "Aizturēts",
+    "complete": "Pabeigts"
+  }
+}

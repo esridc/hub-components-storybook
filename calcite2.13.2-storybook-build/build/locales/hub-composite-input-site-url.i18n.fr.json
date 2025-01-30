@@ -1,0 +1,6 @@
+{
+  "baseDomain": "Domaine de base",
+  "subdomain": "Sous-domaine",
+  "subdomainFormatError": "Erreur : l’URL du site ne doit contenir que des lettres (minuscules), des chiffres et des tirets. Elle ne doit ni commencer, ni se terminer par un tiret. Les caractères Unicode ne sont pas autorisés.",
+  "urlPreview": "Aperçu de l’URL"
+}

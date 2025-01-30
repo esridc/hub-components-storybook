@@ -1,0 +1,35 @@
+{
+  "success": "Pomyślnie zapisano zmiany",
+  "error": "Błąd podczas zapisywania zmian",
+  "formAlert": "Alert dotyczący formularza",
+  "projects": {
+    "header": "Projekty",
+    "list": "Lista projektów",
+    "config": "Konfiguracja",
+    "notConfigured": "Nie skonfigurowano możliwości dotyczącej projektów. Użyj karty Konfiguracja."
+  },
+  "content": {
+    "header": "Zasoby",
+    "list": "Lista zasobów",
+    "config": "Konfiguracja",
+    "notConfigured": "Nie skonfigurowano możliwości dotyczącej zasobów. Użyj karty Konfiguracja."
+  },
+  "initiatives": {
+    "header": "Inicjatywy",
+    "list": "Lista inicjatyw",
+    "config": "Konfiguracja",
+    "notConfigured": "Nie skonfigurowano możliwości dotyczącej inicjatyw. Użyj karty Konfiguracja."
+  },
+  "events": {
+    "header": "Wydarzenia",
+    "list": "Lista wydarzeń",
+    "config": "Konfiguracja",
+    "notConfigured": "Nie skonfigurowano możliwości dotyczącej wydarzeń. Użyj karty Konfiguracja."
+  },
+  "pages": {
+    "header": "Strony",
+    "list": "Lista stron",
+    "config": "Konfiguracja",
+    "notConfigured": "Nie skonfigurowano możliwości dotyczącej stron. Użyj karty Konfiguracja."
+  }
+}

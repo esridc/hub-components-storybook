@@ -1,0 +1,19 @@
+{
+  "facets": {
+    "location": {
+      "label": "Lokasi",
+      "tooltip": "Terapkan luas peta sebagai filter lokasi"
+    },
+    "status": "Status",
+    "tags": "Tag",
+    "categories": "Kategori",
+    "dateUpdated": "Tanggal diperbarui"
+  },
+  "status": {
+    "label": "Status inisiatif",
+    "notStarted": "Belum dimulai",
+    "inProgress": "Dalam proses",
+    "onHold": "Ditahan",
+    "complete": "Selesai"
+  }
+}

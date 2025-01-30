@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "Redigeeri gruppe",
+        "viewGroups": "Kuva grupid"
+      },
+      "facet": {
+        "label": "Jaotisest",
+        "myGroups": "Minu grupid",
+        "myOrganization": "Minu organisatsioon",
+        "myCommunity": "Minu kogukond"
+      }
+    }
+  },
+  "property": {
+    "label": "Parameeter",
+    "requiredError": "Parameeter on nõutav"
+  },
+  "operator": {
+    "label": "Kriteeriumid",
+    "requiredError": "Kriteeriumid on nõutavad"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "Tüüp"
+    },
+    "group": {
+      "default": "Grupid"
+    },
+    "occurrence": {
+      "default": "Esinemiskord"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "Kas mõni",
+      "group": "Jagatakse mis tahes"
+    },
+    "isAll": {
+      "default": "On kõik",
+      "group": "Jagatakse kõigi"
+    },
+    "isExactly": {
+      "default": "On täpselt",
+      "occurrence": "On"
+    },
+    "isNot": {
+      "default": "Pole",
+      "type": "Pole ükski",
+      "group": "Ei jagata ühegi"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "Grupid",
+      "requiredError": "Grupid on nõutavad"
+    },
+    "type": {
+      "label": "Tüübid",
+      "requiredError": "Tüübid on nõutavad",
+      "app": {
+        "label": "Rakendused"
+      },
+      "content": {
+        "label": "Sisu"
+      },
+      "dataset": {
+        "label": "Andmestikud"
+      },
+      "discussion": {
+        "label": "Arutelud"
+      },
+      "document": {
+        "label": "Dokumendid"
+      },
+      "event": {
+        "label": "Sündmused"
+      },
+      "feedback": {
+        "label": "Tagasiside"
+      },
+      "initiative": {
+        "label": "Algatused"
+      },
+      "map": {
+        "label": "Kaardid"
+      },
+      "project": {
+        "label": "Projektid"
+      },
+      "site": {
+        "label": "Saidid"
+      },
+      "template": {
+        "label": "Mallid"
+      }
+    },
+    "occurrence": {
+      "label": "Esinemiskord",
+      "requiredError": "Esinemiskorrad on nõutavad",
+      "upcoming": "Tulekul",
+      "past": "Olnud",
+      "inProgress": "Pooleliolevad"
+    }
+  }
+}

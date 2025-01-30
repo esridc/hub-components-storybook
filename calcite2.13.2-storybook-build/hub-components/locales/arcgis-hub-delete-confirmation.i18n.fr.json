@@ -1,0 +1,50 @@
+{
+  "section": "Supprimer",
+  "protection": "Empêchez la suppression accidentelle de cet élément ({type}).",
+  "protectionTooltip": "Info-bulle sur la protection",
+  "protectionDisabledTooltip": "Seuls les propriétaires ou les administrateurs de l’organisation peuvent modifier les paramètres de protection.",
+  "deleteDisabledNoAccessTooltip": "Seuls les propriétaires ou les administrateurs de l’organisation peuvent procéder à la suppression.",
+  "deleteDisabledNoAccessTooltipGroup": "Seuls les propriétaires, les gestionnaires du groupe et les administrateurs de l’organisation peuvent procéder à la suppression.",
+  "deleteDisabledProtectedTooltip": "La suppression est impossible si la protection contre la suppression est activée.",
+  "deleteButton": "Supprimer",
+  "protect": {
+    "successTitle": "Protection contre la suppression ajoutée",
+    "success": "La suppression est impossible si la protection contre la suppression est activée.",
+    "successLabel": "Alerte d’ajout de la protection contre la suppression.",
+    "errorTitle": "Impossible d’ajouter la protection contre la suppression",
+    "error": "Une erreur est survenue lors de l’ajout de la protection contre la suppression.",
+    "errorLabel": "Alerte d’échec de l’ajout de la protection contre la suppression."
+  },
+  "unprotect": {
+    "successTitle": "Protection contre la suppression retirée",
+    "success": "La suppression est possible si la protection contre la suppression est désactivée.",
+    "successLabel": "Alerte de retrait de la protection contre la suppression.",
+    "errorTitle": "Impossible de retirer la protection contre la suppression",
+    "error": "Une erreur est survenue lors du retrait de la protection contre la suppression.",
+    "errorLabel": "Alerte d’échec du retrait de la protection contre la suppression."
+  },
+  "delete": {
+    "successTitle": "La suppression a été effectuée",
+    "success": "Redirection vers votre espace de travail d’accueil",
+    "successLabel": "Alerte de réussite de la suppression.",
+    "errorTitle": "La suppression a échoué",
+    "error": "Un problème est survenu. Réessayez.",
+    "errorLabel": "Alerte d’échec de la suppression."
+  },
+  "permanentDelete": {
+    "successTitle": "La suppression définitive a été effectuée",
+    "success": "Redirection vers votre espace de travail d’accueil",
+    "successLabel": "Alerte de réussite de la suppression.",
+    "errorTitle": "La suppression a échoué",
+    "error": "Un problème est survenu. Réessayez.",
+    "errorLabel": "Alerte d’échec de la suppression."
+  },
+  "deleteModal": {
+    "header": "Supprimer",
+    "deleteContent": "Il est impossible d’annuler une suppression définitive. Voulez-vous vraiment continuer ?",
+    "recycleContent": "Le contenu supprimé sera placé dans la corbeille. Vous pourrez le récupérer pendant 14 jours.",
+    "delete": "Supprimer",
+    "permanentlyDelete": "Supprimer définitivement",
+    "cancel": "Annuler"
+  }
+}

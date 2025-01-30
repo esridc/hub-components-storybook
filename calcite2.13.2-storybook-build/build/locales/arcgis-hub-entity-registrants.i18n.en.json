@@ -1,0 +1,46 @@
+{
+  "registrants": "Registrants",
+  "invite": "Invite",
+  "tabs" : {
+    "registrants": "Registrants",
+    "settings": "Settings"
+  },
+  "emptyNotice": {
+    "title": "No registrants",
+    "desc": "Events are always more fun with an audience. Invite people or share your event to encourage people to attend.",
+    "link": "Invite registrants"
+  },
+  "facets": {
+    "role": {
+      "header": "Role",
+      "owner": "Owner",
+      "organizer": "Organizer",
+      "attendee": "Registrant"
+    },
+    "status": {
+      "header": "Status",
+      "pending": "Pending",
+      "accepted": "Accepted",
+      "declined": "Declined",
+      "blocked": "Blocked"
+    },
+    "location": {
+      "header": "Location",
+      "online": "Online",
+      "in_person": "In-person"
+    },
+    "updatedDate": "Updated date"
+  },
+  "delete": {
+    "attendee": "Remove registrant"
+  },
+  "notice": {
+    "label": "Form alert"
+  },
+  "success": {
+    "delete": "Registrants successfully removed from {eventName}."
+  },
+  "error": {
+    "delete": "One or more registrants could not be removed from the event."
+  }
+}

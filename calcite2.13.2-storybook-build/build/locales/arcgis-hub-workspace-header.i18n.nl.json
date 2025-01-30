@@ -1,0 +1,47 @@
+{
+  "communityOrg": "Community-organisatie",
+  "editLayout": "Lay-out bewerken",
+  "orgWorkspace": "Startwerkruimte openen",
+  "editS123": "Bewerken in Survey123",
+  "editAdvancedJson": "Geavanceerde JSON bewerken",
+  "view": {
+    "project": "Project weergeven",
+    "site": "Locatie weergeven",
+    "initiative": "Initiatief weergeven",
+    "discussion": "Discussiebord weergeven",
+    "content": "Content bekijken",
+    "page": "Pagina weergeven",
+    "group": "Groep weergeven",
+    "initiativeTemplate": "Initiatiefsjabloon weergeven",
+    "template": "Sjabloon weergeven",
+    "survey": "Vragenlijst weergeven",
+    "event": "Evenement weergeven"
+  },
+  "access": {
+    "share": "Delen",
+    "sharingLevel": "Deelniveau",
+    "groupSharing": "Delen met groep",
+    "tooltip": {
+      "public": "Deelniveau: Openbaar",
+      "org": "Deelniveau: Organisatie",
+      "private": "Deelniveau: Privé",
+      "shared": "Deelniveau: Privé gedeeld"
+    },
+    "save": "Opslaan",
+    "cancel": "Annuleren",
+    "alert": {
+      "success": "De bewerkingen zijn opgeslagen",
+      "error": "Er is een fout opgetreden bij het opslaan van bewerkingen",
+      "label": "Formulierwaarschuwing"
+    }
+  },
+  "popoverActions": {
+    "label": "Meer acties",
+    "openInEnterprise": "Openen in ArcGIS Enterprise",
+    "openInOnline": "Openen in ArcGIS Online"
+  },
+  "homeLink": {
+    "text": "Start"
+  },
+  "createContent": "Maken"
+}

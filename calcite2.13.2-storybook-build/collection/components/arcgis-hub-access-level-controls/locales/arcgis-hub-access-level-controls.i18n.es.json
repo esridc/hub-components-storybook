@@ -1,0 +1,16 @@
+{
+  "heading": "Nivel de uso compartido",
+  "public": "Pública",
+  "publicInfo": "Todos pueden ver este elemento de tipo {itemType}",
+  "organization": "Organización",
+  "organizationInfo": "Todos los miembros que tengan una cuenta de {orgName} y los grupos pueden ver este elemento de tipo {itemType}",
+  "owner": "Propietario",
+  "ownerInfo": "El propietario y los grupos con acceso pueden ver este elemento de tipo {itemType}",
+  "discussion": {
+    "publicInfo": "Cualquiera puede ver este panel de debate",
+    "organization": "Mi organización",
+    "organizationInfo": "Todos los miembros con una cuenta de {orgName} pueden ver este panel de debate",
+    "owner": "Privado",
+    "ownerInfo": "El propietario y los grupos seleccionados pueden ver este panel de debate"
+  }
+}

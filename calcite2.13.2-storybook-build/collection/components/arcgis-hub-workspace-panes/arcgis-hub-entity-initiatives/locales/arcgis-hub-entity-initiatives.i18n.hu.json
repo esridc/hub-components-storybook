@@ -1,0 +1,87 @@
+{
+  "initiatives": "Kezdeményezések",
+  "description": "Kapcsolja össze kezdeményezésekkel, és járuljon hozzá hosszú távú vagy nagy horderejű célok eléréséhez. A projekt közreműködői kezelhetik a megerősített társításokat és a fennálló társítási kéréseket. A megerősített társításokkal rendelkező kezdeményezések ennek a projektnek a nézetében jelennek meg. ",
+  "shared": {
+    "error": {
+      "title": "Hiba történt",
+      "message": "Nem tudtuk elvégezni a feladatot. Próbálja meg újra."
+    },
+    "facets": {
+      "access": {
+        "label": "Megosztás"
+      },
+      "status": {
+        "label": "Állapot",
+        "notStarted": "Nem kezdődött el",
+        "inProgress": "Folyamatban",
+        "onHold": "Várakozik",
+        "complete": "Befejeződött"
+      },
+      "tags": {
+        "label": "Címkék"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "{currentConfirmedAndOutgoingRequests} / {maxCurrentAndOutgoingRequestsAllowed} jóváhagyva + kimenő kérelmek",
+      "tooltip": "Az elfogadáshoz szüntesse meg a meglévő társítások és/vagy kimenő kérelmek összekapcsolását"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "Kezdeményezések keresése",
+    "sendRequest": "Kérés küldése",
+    "success": {
+      "title": "Sikerült",
+      "message": "Társítási kérelem elküldve: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "Társítások ellenőrzése",
+      "message": "Néhány kiválasztás már kérte a társítást. Új társítási kérelmek elküldve: {count}"
+    },
+    "catalog": {
+      "myContent": "Saját tartalom",
+      "favorites": "Kedvencek",
+      "organization": "Saját szervezet",
+      "partners": "Saját partnerek",
+      "community": "Saját közösség"
+    },
+    "collection": {
+      "initiatives": "Kezdeményezések"
+    }
+  },
+  "acceptAssociation": {
+    "label": "Elfogadás",
+    "limitReachedTooltip": "Az elfogadáshoz szüntesse meg a meglévő társítások és/vagy kimenő kérelmek összekapcsolását",
+    "success": {
+      "title": "Sikerült",
+      "message": "Társítás elfogadva vele: {requestor}"
+    }
+  },
+  "cancelRequest": {
+    "label": "Kérés visszavonása",
+    "success": {
+      "title": "Sikerült",
+      "message": "Társítási kérelem törölve"
+    }
+  },
+  "breakAssociation": {
+    "label": "Csatlakozás megszüntetése",
+    "success": {
+      "title": "Társítás megszüntetve",
+      "message": "Ez az elem le lett választva a korábbi társításról. A másik oldalról azonban nem tudjuk visszaállítani a döntést, így a bejövő kérésekben még találkozhat vele."
+    }
+  },
+  "associationsGallery": {
+    "sources": "Állapot",
+    "catalog": {
+      "associated": "Társítva",
+      "requesting": "Bejövő kérelmek",
+      "pending": "Kimenő kérelmek"
+    },
+    "collection": {
+      "initiatives": "Kezdeményezések"
+    }
+  },
+  "notice": {
+    "label": "Űrlappal kapcsolatos figyelmeztetés"
+  }
+}

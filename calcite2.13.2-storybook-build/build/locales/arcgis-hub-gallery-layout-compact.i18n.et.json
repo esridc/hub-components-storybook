@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Tulemusi ei leitud."
+    },
+    "error": {
+      "message": "Otsingul ilmnes kahjuks tõrge."
+    }
+  },
+  "type": "Tüüp",
+  "tags": "Märksõnad",
+  "owner": "Omanik",
+  "dateCreated": "Loodud",
+  "dateUpdated": "Muudetud",
+  "categories": "Kategooriad",
+  "dateAndTime": "Kuupäev ja kellaaeg",
+  "allDay": "{date} (kogu päev)",
+  "allDayRange": "{from} - {to} (kogu päev)",
+  "location": "Asukoht",
+  "attendanceType": "Osaluse liik",
+  "inPerson": "Isiklikult",
+  "online": "Veebis",
+  "hybrid": "Hübriid"
+}

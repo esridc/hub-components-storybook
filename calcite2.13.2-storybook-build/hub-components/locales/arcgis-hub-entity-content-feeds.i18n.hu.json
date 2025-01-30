@@ -1,0 +1,81 @@
+{
+  "tabTitle": "Hírcsatornák konfigurációja",
+  "learn": "Ismerje meg a Hub adatcsatornákat",
+  "loadingLabel": "Betöltés",
+  "enableFeedsToggle": {
+    "label": "Adatcsatornák engedélyezése",
+    "privateNotice": "Az adatcsatornák engedélyezéséhez először a Hub webhelyeit „Nyilvános” értékre kell állítani.",
+    "emptyPublicCatalog": {
+      "message": "Az adatcsatornák engedélyezéséhez először nyilvános tartalmat kell hozzáadnia a katalógusához.",
+      "button": "Katalógus megtekintése"
+    },
+    "grouplessCatalog": {
+      "message": "Az adatcsatornák engedélyezéséhez először konfigurálnia kell a katalógust.",
+      "button": "Katalógus konfigurálása"
+    }
+  },
+  "gettingStartedNotice": {
+    "title": "Első lépések",
+    "exampleMessage": "Kiemel és frissít egy kulcsot vagy értéket a JSON-szerkesztőben egy („VALUE”) vagy egy sablon („{{TEMPLATE_VALUE}}”) érték használatával.",
+    "previewMessage": "A módosítások előnézetének megtekintéséhez használja az „előnézet” választókapcsolót. További információkért olvassa el a <catalogFederationLink>katalógusösszevonási súgó</catalogFederationLink> dokumentációját."
+  },
+  "aboutFeedsNotice": {
+    "message": "Könnyen hozzáférhetővé és újrafelhasználhatóvá teheti nyilvános, nyílt adatait a Hub adatcsatornák segítségével.",
+    "link": "Ismerje meg a Hub adatcsatornákat"
+  },
+  "feedsEditorSection": {
+    "title": "Adatcsatornák",
+    "formatSelectLabel": "Adatcsatorna-típus kiválasztása",
+    "uneditableAttributesIntro": "Kérjük, vegye figyelembe, hogy a következő attribútumok nem szerkeszthetők:",
+    "edit": "Szerkesztés",
+    "preview": "Előnézet",
+    "selectContentNotice": "Válassza ki a tartalmat az előnézethez..",
+    "invalidJsonEditorWarning": "Érvénytelen JSON. Kérjük, javítsa ki a hibákat a mentés előtt.",
+    "invalidJsonPreviewWarning": "Az érvénytelen JSON előnézete nem lehetséges, kérjük, javítsa ki a hibákat.",
+    "errorPreviewingWarning": "Hiba történt. Ellenőrizze az adatkapcsolatot, majd próbálkozzon újra. Ha a probléma továbbra is fennáll, kérjük, naplózzon egy programhibát a Hub támogatás segítségével."
+  },
+  "toolsSection": {
+    "title": "Eszközök",
+    "verification": "Ellenőrzés",
+    "previewSampleData": {
+      "label": "Mintaadatok előnézete",
+      "pickerFacets": {
+        "type": "Típus",
+        "tags": "Címke",
+        "categories": "Kategória",
+        "sharing": "Megosztás",
+        "dateUpdated": "Frissítés dátuma"
+      }
+    },
+    "copyableInputLabel": "Hírcsatorna hozzáférési URL-je"
+  },
+  "dcat-us": {
+    "1.1": {
+      "title": "DCAT-US 1.1",
+      "description": "A DCAT lehetővé teszi a szervezetek számára az adatszolgáltatások szabványosítását, és segítséget nyújt az embereknek a központi forrásokon keresztül történő elemzést. Használhatja a Project Open Data által létrehozott <dcatUsSchemaLink>DCAT-sémát</dcatUsSchemaLink>, amely az alapértelmezett konfiguráció, illetve bizonyos mezőket/attribútumokat konfigurálhat saját maga is. A webhelyek adminisztrátorainak célszerű további DCAT-konfigurációkat hozzáadniuk, és célszerű elolvasniuk dokumentációnkat az <catalogFederationLink>adatok központosításáról a DCAT- és más külső katalógusokkal.</catalogFederationLink>",
+      "uneditableAttributes": "@type, landingPage, webService és contactPoint['@type'].",
+      "verificationLabel": "A DCAT-adatcsatorna ellenőrzéséhez illessze be a webhelye DCAT URL-címét a <dcatUsVerificationLink>Project Open Data ellenőrző</dcatUsVerificationLink> eszközébe."
+    }
+  },
+  "dcat-ap": {
+    "2.1.1": {
+      "title": "DCAT-AP 2.1.1",
+      "description": "Az Európai Bizottság által létrehozott DCAT-AP az európai adatkatalógusok szabványos metaadatcsere-formátuma. Az ArcGIS Hub automatikusan létrehozza és frissíti a webhely DCAT-AP adatcsatornáját, amikor Ön a tartalom metaadatainak részleteit szerkeszti, vagy új nyilvános tartalmat ad hozzá a katalógushoz. Mivel az adatcsatorna az ArcGIS Online-ban karbantartott metaadatokat használja, nincs szükség külön DCAT-AP metaadatok manuális létrehozására.<lineBreak></lineBreak><lineBreak></lineBreak>A szerkesztő segítségével megtarthatja az ArcGIS Hub alapértelmezett <dcatApSchemaLink>DCAT-AP-séma</dcatApSchemaLink> konfigurációját, vagy saját maga is beállíthat bizonyos mezőket/attribútumokat. DCAT-AP mezőket/attribútumokat is hozzáadhat. További részletekért lásd az ArcGIS Hub dokumentációját <catalogFederationLink>az adatok DCAT-tal és más külső katalógusokkal való összekapcsolásáról</catalogFederationLink>.",
+      "uneditableAttributes": "@type, @id, dcat:contactPoint['@id'], dcat:contactPoint['@type'], dct:publisher, dcat:theme, dct:accessRights, dcat:keyword, dct:provenance, dct:issued, és dct:language",
+      "verificationLabel": "A DCAT-adatcsatorna ellenőrzéséhez illessze be webhelye DCAT URL-címét az <dcatApVerificationLink>Európai Bizottság interoperabilitási tesztkörnyezetébe</dcatApVerificationLink>."
+    }
+  },
+  "rss": {
+    "2.0": {
+      "title": "RSS 2.0",
+      "description": "Az <rssAboutLink>RSS 2</rssAboutLink> egy webes tartalomszindikációs formátum, amely megfelel az <xmlSpecLink>XML 1.0 specifikációnak</xmlSpecLink>. Ezzel a szerkesztővel megtarthatja az ArcGIS Hub alapértelmezett konfigurációját, vagy saját maga is beállíthat bizonyos mezőket/attribútumokat. További részletekért lásd az ArcGIS Hub dokumentációját (<catalogFederationLink>) az adatok DCAT-tal és más külső katalógusokkal való összekapcsolásáról.</catalogFederationLink>",
+      "verificationLabel": "Az RSS-hírcsatornát úgy tudja ellenőrizni, hogy a webhely RSS URL-címét átadja a W3 <rssVerificationLink>Feed ellenőrző eszköznek</rssVerificationLink>."
+    }
+  },
+  "saveButton": "Mentés",
+  "alertMessages": {
+    "success": "A módosítások mentése sikerült",
+    "error": "Hiba történt a módosítások mentése során"
+  },
+  "formAlert": "Űrlappal kapcsolatos figyelmeztetés"
+}

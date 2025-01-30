@@ -1,0 +1,15 @@
+{
+  "newFilter": "Nový filtr",
+  "block": {
+    "heading": {
+      "untitled": "Nový filtr",
+      "default": "Filtr {filterNum}: {parameter}",
+      "group": "Filtr {filterNum}: skupiny",
+      "type": "Filtr {filterNum}: typy",
+      "occurrence": "Filtr {filterNum}: výskyt"
+    },
+    "actions": {
+      "delete": "Smazat filtr: {label}"
+    }
+  }
+}

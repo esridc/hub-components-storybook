@@ -1,0 +1,46 @@
+{
+  "title": "Konfiguracija kataloga",
+  "helperText": "Definicija i podešavanje kataloga",
+  "sections": {
+    "groups": {
+      "title": "Grupe",
+      "helperText": "Grupe u nastavku sadrže sadržaj u vašem katalogu za pretragu. Izaberite grupu da biste videli podešavanja, sadržaj i još mnogo toga.",
+      "createGroup": "Kreirajte novu grupu"
+    },
+    "feeds": {
+      "title": "Tok konfiguracije",
+      "helperText": "Napravite vaše javne podatke lako pristupnim i ponovo korisnim uz Hub feeds.",
+      "learn": "Saznajte više o Hub feeds",
+      "toggle": "Omogućite feed-ove ",
+      "configure": "Konfigurišite fidove",
+      "notice": "Pokušajte da omogućite ptvo Hub stranice na \"Javno\" u vašim podešavanjima"
+    }
+  },
+  "groupPickerFacet": {
+    "label": "Od",
+    "editGroups": "Uredi grupe",
+    "viewGroups": "Prikaz grupe",
+    "myGroups": "Moje grupe",
+    "myOrganization": "Moja organizacija",
+    "myCommunity": "Moja zajednica",
+    "public": "Javno"
+  },
+  "formAlert": "Formiraj upozorenje",
+  "configSaveAlert": {
+    "success": "Uspešno sačuvana uređivanja",
+    "failure": "Greška u čuvanju uređivanja"
+  },
+  "reharvestCatalogButton": "Proverite da li ima grešaka",
+  "reharvestWarningModal": {
+    "title": "Proverite da li ima grešaka",
+    "body1": "Upozorenje: Ova opcija se obično koristi samo u situacijama kada vaša stranica za pretragu nailazi na probleme sa nedostajućim rezultatima ili metapodacima. Ova opcija će proveriti sve stavke u svim kataloškim grupama i utvrditi da li postoje dodavanja, promene metapodataka ili uklanjanja.",
+    "body2": "Pokretanje ovog procesa ponovo gradi indeks javne pretrage ovog kataloga i može potrajati nekoliko minuta. Ovo će povećati opterećenje na svim instancama ArcGIS servera.",
+    "primaryButton": "Nastavi",
+    "secondaryButton": "Otkaži"
+  },
+  "reharvestCatalogAlert": {
+    "success": "Proverava se da li ima grešaka. Proverite ponovo kasnije.",
+    "inProgress": "Provera je već u toku. Vratite se ponovo kasnije.",
+    "failure": "Žao nam je, došlo je do operativne greške. Pokušajte ponovo kasnije."
+  }
+}

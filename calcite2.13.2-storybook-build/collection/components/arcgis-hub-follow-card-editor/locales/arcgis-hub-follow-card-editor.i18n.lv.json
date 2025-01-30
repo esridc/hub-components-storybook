@@ -1,0 +1,41 @@
+{
+  "notice": {
+    "outdatedItem": {
+      "title": "Nomainiet savu iniciatīvu",
+      "message": "Šajā kartītē ir atsauce uz novecojušu vienību. Atlasiet citu vienību, kurai lietotāji sekos."
+    },
+    "missingFollowersGroup": {
+      "title": "Trūkst sekotāju grupas",
+      "message": "Šai vienībai trūkst sekotāju grupas. Lūdzu, izvēlieties citu vienību."
+    },
+    "noGroupAccess": {
+      "title": "Uzmanību!",
+      "message": "Jums nav piekļuves sekotāju grupai."
+    }
+  },
+  "selectContent": {
+    "title": "Saturs, kam sekot",
+    "facets": {
+      "sharing": "Koplietošana",
+      "catalog": {
+        "myContent": "Mans saturs",
+        "organization": "Mana organizācija"
+      }
+    }
+  },
+  "callToAction": {
+    "title": "Aicinājums rīkoties",
+    "helperText": "Aicinājums rīkoties tiek parādīts virs sekošanas pogas.",
+    "alignment": "Līdzinājums"
+  },
+  "followButton": {
+    "title": "Poga Sekot",
+    "helperText": "Šī poga ļaus dalībniekiem sekot jūsu saturam vai atcelt sekošanu tam. Tekstu var iestatīt abiem pogas stāvokļiem.",
+    "buttonText": "Piekrišanas pogas teksts",
+    "unfollowButtonText": "Atteikšanās pogas teksts",
+    "alignment": "Līdzinājums",
+    "buttonStyle": "Pogas stils",
+    "solid": "Necaurspīdīgs fons",
+    "outline": "Kontūra"
+  }
+}

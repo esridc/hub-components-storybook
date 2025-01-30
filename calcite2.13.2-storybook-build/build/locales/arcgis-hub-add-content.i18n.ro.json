@@ -1,0 +1,72 @@
+{
+  "addContent": "Adăugare conținut",
+  "addContentType": {
+    "event": "Creare eveniment",
+    "discussion": "Creare discuție",
+    "group": "Creare grup",
+    "initiative": "Creare inițiativă",
+    "project": "Creare proiect",
+    "page": "Creare pagină",
+    "site:": "Creare site"
+  },
+  "tooltip": {
+    "label": "Dezactivat",
+    "noCatalog": "Adăugați grupuri la catalog pentru a adăuga conținut.",
+    "noPermission": "Nu aveți permisiunea de a adăuga conținut la catalog.",
+    "no-permission": "Nu aveți permisiunea de a adăuga conținut la catalog.",
+    "not-in-groups": "Nu sunteți membru al niciunui grup care definește catalogul.",
+    "too-many-groups": "Aveți numărul maxim de grupuri și nu puteți crea mai multe."
+  },
+  "existing": {
+    "description": "Adăugați conținut care este deja în {onlineOrEnterprise}",
+    "modalTitle": "Selectați conținut existent",
+    "title": "Selectați conținut existent"
+  },
+  "create": {
+    "app": {
+      "description": "Creați o experiență, spuneți o poveste sau vizualizați-vă datele",
+      "modalTitle": "Creare aplicație",
+      "title": "Aplicație"
+    },
+    "event": {
+      "description": "Găzduiți activități organizate, în format fizic sau virtual",
+      "modalTitle": "Creare eveniment",
+      "title": "Eveniment"
+    },
+    "content": {
+      "description": "Adăugați date, documente, imagini și linkuri externe pe site-ul dvs.",
+      "modalTitle": "Creați conținut",
+      "title": "Conținut"
+    },
+    "discussion": {
+      "description": "Obțineți idei și feedback",
+      "modalTitle": "Creare panou de discuții",
+      "title": "Panou de discuții"
+    },
+    "group": {
+      "description": "Organizați oamenii pentru partajarea conținutului și discuții",
+      "modalTitle": "Creare grup",
+      "title": "Grup"
+    },
+    "initiative": {
+      "description": "Evidențiați eforturile strategice cu obiective definite care organizează proiecte",
+      "modalTitle": "Creare inițiativă",
+      "title": "Inițiativă"
+    },
+    "page": {
+      "description": "Prezentați informațiile într-un format structurat",
+      "modalTitle": "Creare pagină",
+      "title": "Pagina"
+    },
+    "project": {
+      "description": "Prezentați lucrările cu obiective și termene clare.",
+      "modalTitle": "Creare proiect",
+      "title": "Proiect"
+    },
+    "site": {
+      "description": "Creați un site web de marcă pentru vă implica în comunitatea dvs.",
+      "modalTitle": "Creare site",
+      "title": "Site"
+    }
+  }
+}

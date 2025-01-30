@@ -1,0 +1,33 @@
+{
+  "groups": "Mijn groepen",
+  "addContentButtonText": "Nieuwe maken",
+  "role": "Rol",
+  "owner": "Eigenaar",
+  "updated": "Bijgewerkt",
+  "type": "Type",
+  "sharedUpdate": "Gedeelde update-groep",
+  "viewOnly": "Alleen-lezen-groep",
+  "actionLinks": {
+    "view": "Weergeven",
+    "edit": "Bewerken",
+    "ariaEdit": "{title} bewerken",
+    "ariaView": "{title} weergeven"
+  },
+  "facets": {
+    "access": {
+      "label": "Zichtbaar voor",
+      "options": {
+        "public": "Iedereen (openbaar)",
+        "org": "Organisatie",
+        "private": "Mijzelf"
+      }
+    },
+    "type": {
+      "label": "Types",
+      "options": {
+        "sharedUpdate": "Update voor delen",
+        "opendata": "Open data"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "all": "Tots",
+  "source": "Font",
+  "targetEntity": {
+    "item": "Elements",
+    "group": "Grups",
+    "user": "Usuaris",
+    "portalUser": "Usuaris del portal",
+    "communityUser": "Usuaris de la comunitat",
+    "groupMember": "Membres del grup",
+    "event": "Esdeveniments",
+    "channel": "Canals",
+    "discussionPost": "Publicacions",
+    "eventAttendee": "Persones inscrites a l'esdeveniment"
+  }
+}

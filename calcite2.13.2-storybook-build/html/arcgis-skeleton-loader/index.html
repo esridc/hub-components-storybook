@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-skeleton-loader</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet" href="../calcite-web.min.css">
+</head>
+
+<body>
+  <div class="grid-container padding-leader-2">
+    <div class="column-24 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-skeleton-loader</h2>
+    </div>
+
+    <div class="column-24">
+      <arcgis-skeleton-loader active="true" rows="5" show-thumbnail="true" show-heading="true"></arcgis-skeleton-loader>
+    </div>
+WHAT
+    <arcgis-skeleton-loader class="column-8" active="true" rows="5" show-thumbnail="true" show-heading="true"></arcgis-skeleton-loader>
+    IS THIS
+    <arcgis-skeleton-loader class="column-16" active="true" rows="8" show-heading="true" show-footer="true">
+    </arcgis-skeleton-loader>
+  </div>
+</body>
+
+</html>

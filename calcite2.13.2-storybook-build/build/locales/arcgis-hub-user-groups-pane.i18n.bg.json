@@ -1,0 +1,33 @@
+{
+  "groups": "Моите групи",
+  "addContentButtonText": "Създаване на нова",
+  "role": "Роля",
+  "owner": "Собственик",
+  "updated": "Актуализирано",
+  "type": "Тип",
+  "sharedUpdate": "Споделена група за актуализация",
+  "viewOnly": "Преглед само на група",
+  "actionLinks": {
+    "view": "Изглед",
+    "edit": "Редактиране",
+    "ariaEdit": "Редактиране на {title}",
+    "ariaView": "Изглед {title}"
+  },
+  "facets": {
+    "access": {
+      "label": "Може да се преглежда от",
+      "options": {
+        "public": "Всички (публично)",
+        "org": "Организация",
+        "private": "Аз"
+      }
+    },
+    "type": {
+      "label": "Типове",
+      "options": {
+        "sharedUpdate": "Споделена актуализация",
+        "opendata": "Open Data"
+      }
+    }
+  }
+}

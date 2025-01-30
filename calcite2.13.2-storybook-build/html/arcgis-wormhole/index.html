@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>element-portal</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet" href="../calcite-web.min.css">
+
+  <style>
+    .fixed {
+      transform: translate3d(0,0,0);
+      border: solid 1px fuchsia;
+      height: 400px;
+      padding: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="grid-container padding-leader-2">
+    <div class="column-24 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-wormhole</h2>
+    </div>
+
+    <div class="column-24">
+
+      <div class="fixed column-12">
+        <p>This div creates its own "fixed context"</p>
+        <calcite-button id="modal-toggle-1">show modal</calcite-button>
+        <calcite-modal
+          id="captured-modal"
+          scale="s"
+        >
+          <div slot="header">This is the modal</div>
+          <p slot="content">
+            It is captured by the containing div...
+          </p>
+        </calcite-modal>
+      </div>
+
+      <div class="fixed column-12">
+        <p>This div creates its own "fixed context". But the component below uses the ArcgisWormhole component to bust out!</p>
+        <calcite-button id="modal-toggle-2">show modal</calcite-button>
+        <arcgis-wormhole>
+          <calcite-modal
+            id="freed-modal"
+            scale="s"
+          >
+            <div slot="header">This is the modal</div>
+            <p slot="content">
+              It is NOT captured by the containing div...
+            </p>
+          </calcite-modal>
+        </arcgis-wormhole>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.querySelector('#modal-toggle-1').addEventListener('click', _ => {
+      document.querySelector('#captured-modal').open = true;
+    });
+    document.querySelector('#modal-toggle-2').addEventListener('click', _ => {
+      document.querySelector('#freed-modal').open = true;
+    });
+  </script>
+</body>
+
+</html>

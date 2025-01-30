@@ -1,0 +1,81 @@
+{
+  "tabTitle": "Konfiguracija feed-ova",
+  "learn": "Saznajte više o Hub feeds",
+  "loadingLabel": "Učitavanje",
+  "enableFeedsToggle": {
+    "label": "Omogući feed-ove",
+    "privateNotice": "Da biste omogućili feed-ove, prvo treba da postavite svoj Hub sajt na „Javno“.",
+    "emptyPublicCatalog": {
+      "message": "Da biste omogućili feed-ove, prvo treba da dodate javni sadržaj u svoj katalog.",
+      "button": "Prikaz kataloga"
+    },
+    "grouplessCatalog": {
+      "message": "Da biste omogućili feed-ove, prvo treba da konfigurišete svoj katalog.",
+      "button": "Podesi katalog"
+    }
+  },
+  "gettingStartedNotice": {
+    "title": "Prvi koraci",
+    "exampleMessage": "Istaknite i ažurirajte ključ ili vrednost u JSON uređivaču koristeći literal (\"VALUE\") ili vrednost šablona (\"{{TEMPLATE_VALUE}}\").",
+    "previewMessage": "Koristite preklopnik za „pregled“ da biste pregledali svoje izmene. Za više informacija, pročitajte <catalogFederationLink>dokumentaciju pomoći za kataloško objedinjavanje</catalogFederationLink>."
+  },
+  "aboutFeedsNotice": {
+    "message": "Napravite vaše javne podatke lako pristupnim i ponovo korisnim uz Hub feeds.",
+    "link": "Saznajte više o Hub feeds"
+  },
+  "feedsEditorSection": {
+    "title": "Feed-ovi",
+    "formatSelectLabel": "Izaberite tip feed-a",
+    "uneditableAttributesIntro": "Imajte u vidu da sledeći atributi ne mogu da se uređuju:",
+    "edit": "Izmeni",
+    "preview": "Pregled",
+    "selectContentNotice": "Izaberite sadržaj za pregled",
+    "invalidJsonEditorWarning": "Pogrešan JSON. Ispravite greške pre nego što sačuvate.",
+    "invalidJsonPreviewWarning": "Nije moguće pregledati pogrešan JSON, ispravite greške.",
+    "errorPreviewingWarning": "Došlo je do greške. Proverite svoju vezu i pokušajte ponovo. Ako problem nastavi da postoji, prijavite grešku Hub podršci."
+  },
+  "toolsSection": {
+    "title": "Alatke",
+    "verification": "Verifikacija",
+    "previewSampleData": {
+      "label": "Pregled uzorka podataka",
+      "pickerFacets": {
+        "type": "Tip",
+        "tags": "Oznaka",
+        "categories": "Kategorija",
+        "sharing": "Deljenje",
+        "dateUpdated": "Datum ažuriranja"
+      }
+    },
+    "copyableInputLabel": "URL adresa za pristup feed-u"
+  },
+  "dcat-us": {
+    "1.1": {
+      "title": "DCAT-US 1.1",
+      "description": "DCAT dozvoljava organizacijama da standardizuju doprinos za podatke i pomaže ljudima da raščlanjavaju federalne izvore. Možete koristiti <dcatUsSchemaLink>DCAT šemu</dcatUsSchemaLink> stanovljenu od strane Project Open Data, koja je podrazumevana konfiguracija ili možete sami konfigurisati određena polja/atribute. Administratori lokacije mogu takođe dodati dodatne DCAT konfiguracije i možda će želeti da pročitaju našu dokumentaciju o <catalogFederationLink>udruživanju podataka sa DCAT-om i drugim spoljnim katalozima.</catalogFederationLink>",
+      "uneditableAttributes": "@type, landingPage, webService i contactPoint['@type'].",
+      "verificationLabel": "Vaš DCAT feed možete verifikovati tako što ćete iskopirati svoju DCAT URL adresu na <dcatUsVerificationLink>validator servisa Project Open Data</dcatUsVerificationLink>."
+    }
+  },
+  "dcat-ap": {
+    "2.1.1": {
+      "title": "DCAT-AP 2.1.1",
+      "description": "DCAT-AP je standardni format za razmenu metapodataka u evropskim katalozima podataka koji je uspostavila Evropska komisija. ArcGIS Hub automatski kreira i ažurira fid za DCAT-AP vaše lokacije kada uređujete informacije za metapodatake svog sadržaja ili dodajete novi javni sadržaj u svoj katalog. Pošto feed koristi metapodatke održavane u ArcGIS Online, nema potrebe da ručno kreirate zasebne metapodatke za DCAT-AP.<lineBreak></lineBreak><lineBreak></lineBreak>Koristeći ovaj uređivač, možete zadržati podrazumevanu konfiguraciju za ArcGIS Hub za <dcatApSchemaLink>DCAT-AP šemu</dcatApSchemaLink>, ili možete sami da konfigurišete određena polja/atribute. Takođe možete dodati DCAT-AP polja/atribute. Za više informacija, pogledajte dokumentaciju za ArcGIS Hub o <catalogFederationLink>udruživanju podataka sa DCAT i drugim spoljnim katalozima</catalogFederationLink>.",
+      "uneditableAttributes": "@type, @id, dcat:contactPoint['@id'], dcat:contactPoint['@type'], dct:publisher, dcat:theme, dct:accessRights, dcat:keyword, dct:provenance, dct:issued i dct:language",
+      "verificationLabel": "Vaš DCAT feed možete verifikovati tako što ćete iskopirati svoju DCAT URL adresu na <dcatApVerificationLink>Test interoperabilnosti Evopske komisije</dcatApVerificationLink>."
+    }
+  },
+  "rss": {
+    "2.0": {
+      "title": "RSS 2.0",
+      "description": "<rssAboutLink>RSS 2</rssAboutLink> je format ujedinjavanja veb sadržaja i u skladu je sa <xmlSpecLink>XML 1.0 specifikacijama</xmlSpecLink>. Koristeći ovaj uređivač, možete zadržati podrazumevanu konfiguraciju ArcGIS Hub-a ili možete sami da konfigurišete određena polja/atribute. Za više informacija, pogledajte dokumentaciju za ArcGIS Hub o <catalogFederationLink>udruživanju podataka sa DCAT i drugim spoljnim katalozima.</catalogFederationLink>",
+      "verificationLabel": "Možete da potvrdite svoj RSS fid raščlanjivanjem RSS URL vaše lokacije u W3 <rssVerificationLink>Validator fida</rssVerificationLink>."
+    }
+  },
+  "saveButton": "Sačuvaj",
+  "alertMessages": {
+    "success": "Uspešno sačuvana uređivanja",
+    "error": "Greška u čuvanju uređivanja"
+  },
+  "formAlert": "Formiraj upozorenje"
+}

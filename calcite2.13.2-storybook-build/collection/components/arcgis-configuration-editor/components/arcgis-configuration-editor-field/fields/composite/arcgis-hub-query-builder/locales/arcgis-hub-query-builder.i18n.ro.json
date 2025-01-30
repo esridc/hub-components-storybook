@@ -1,0 +1,10 @@
+{
+  "targetEntity": {
+    "label": "Sursă",
+    "enum": {
+      "item": "Elemente",
+      "event": "Evenimente",
+      "group": "Grupuri"
+    }
+  }
+}

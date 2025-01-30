@@ -1,0 +1,39 @@
+{
+  "popover": {
+    "access": {
+      "org": "Jaettu organisaatiolle",
+      "private": "Jaettu omistajalle",
+      "public": "Jaettu kaikille",
+      "shared": "Jaettu omistajalle ja ryhmille"
+    },
+    "editLayout": "Muokkaa asettelua",
+    "lastUpdated": "Päivitetty viimeksi {updated}",
+    "viewSite": "Näytä sivusto"
+  },
+  "cloneLayoutLabel": "Kloonaa asettelu",
+  "deleteDraftLabel": "Poista luonnos",
+  "deletePageLabel": "Poista sivu",
+  "deleteSiteLabel": "Poista sivusto",
+  "editInAgoLabel": "Muokkaa ArcGIS Onlinessa",
+  "managePage": "Hallitse sivua",
+  "manageSite": "Hallitse sivustoa",
+  "manageTemplate": "Hallitse mallia",
+  "moreOptionsLabel": "Lisää asetuksia",
+  "publishLabel": {
+    "site": "Julkaise asettelu",
+    "page": "Julkaise asettelu",
+    "survey": "Julkaise"
+  },
+  "saveAsTemplateLabel": "Tallenna mallina",
+  "saveLabel": {
+    "site": "Tallenna asettelu",
+    "page": "Tallenna asettelu",
+    "survey": "Tallenna",
+    "template": "Tallenna"
+  },
+  "sharingLabel": "Avaa jakoruutu",
+  "editS123Label": "Muokkaa Survey123:ssa",
+  "viewLabel": "Näytä",
+  "viewPublishedLabel": "Näytä julkaistu",
+  "viewUnpublishedLabel": "Näytä luonnos"
+}

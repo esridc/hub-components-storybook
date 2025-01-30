@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Ничего не найдено."
+    },
+    "error": {
+      "message": "Сожалеем, но при поиске произошла ошибка."
+    }
+  },
+  "type": "Тип",
+  "tags": "Теги",
+  "owner": "Владелец",
+  "dateCreated": "Создано",
+  "dateUpdated": "Изменено",
+  "categories": "Категории",
+  "dateAndTime": "Дата и время",
+  "allDay": "{date} (весь день)",
+  "allDayRange": "{from} - {to} (весь день)",
+  "location": "Местоположение",
+  "attendanceType": "Тип посещения",
+  "inPerson": "Очно",
+  "online": "Онлайн",
+  "hybrid": "Гибрид"
+}

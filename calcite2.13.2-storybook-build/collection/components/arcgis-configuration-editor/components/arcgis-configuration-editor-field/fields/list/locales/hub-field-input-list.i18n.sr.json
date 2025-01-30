@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "Izmeni",
+    "fields": {
+      "label": {
+        "label": "Oznaka",
+        "requiredMessage": "Potrebna je oznaka",
+        "maxLengthMessage": "Oznaka ne sme da bude duža od{maxLength} znakova"
+      }
+    },
+    "apply": "Primeni"
+  },
+  "showItem": "Prikaži sledeće stavke na listi: {itemLabel}",
+  "hideItem": "Sakrij sledeće stavke na listi: {itemLabel}",
+  "editItem": "Uredi sledeće stavke na listi: {itemLabel}"
+}

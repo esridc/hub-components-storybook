@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Herhangi bir sonuç bulunamadı."
+    },
+    "error": {
+      "message": "Üzgünüz, aramada bir hata oluştu."
+    }
+  },
+  "type": "Tür",
+  "tags": "Etiketler",
+  "owner": "Sahip",
+  "dateCreated": "Oluşturulma",
+  "dateUpdated": "Değiştirilme Tarihi",
+  "categories": "Kategoriler",
+  "dateAndTime": "Tarih ve zaman",
+  "allDay": "{date} (tüm gün)",
+  "allDayRange": "{from} - {to} (tüm gün)",
+  "location": "Konum",
+  "attendanceType": "Katılım türü",
+  "inPerson": "Yüz yüze",
+  "online": "Çevrim içi",
+  "hybrid": "Hibrit"
+}

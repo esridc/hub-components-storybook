@@ -1,0 +1,47 @@
+{
+  "communityOrg": "Organizacija zajednice",
+  "editLayout": "Uredi izgled",
+  "orgWorkspace": "Otvori kućni radni prostor",
+  "editS123": "Uredi u Survey123",
+  "editAdvancedJson": "Uredite napredni JSON",
+  "view": {
+    "project": "Prikaži projekt",
+    "site": "Prikaži web-mjesto",
+    "initiative": "Prikaži Inicijativu",
+    "discussion": "Prikaži ploču",
+    "content": "Prikaz sadržaja",
+    "page": "Prikaži stranicu",
+    "group": "Prikaži grupu",
+    "initiativeTemplate": "Prikaži predložak inicijative",
+    "template": "Prikaži predložak",
+    "survey": "Prikaži anketu",
+    "event": "Pogledaj događaj"
+  },
+  "access": {
+    "share": "Podijeli",
+    "sharingLevel": "Razina dijeljenja",
+    "groupSharing": "Dijeljenje s grupama",
+    "tooltip": {
+      "public": "Razina dijeljenja: Javno",
+      "org": "Razina dijeljenja: Organizacija",
+      "private": "Razina dijeljenja: Privatno",
+      "shared": "Razina dijeljenja: Podijeljeno privatno"
+    },
+    "save": "Spremi",
+    "cancel": "Odustani",
+    "alert": {
+      "success": "Uspješno spremljena uređivanja",
+      "error": "Pogreška pri spremanju uređivanja",
+      "label": "Stvori upozorenje"
+    }
+  },
+  "popoverActions": {
+    "label": "Više radnji",
+    "openInEnterprise": "Otvori u ArcGIS Enterprise",
+    "openInOnline": "Otvori u ArcGIS Onlineu"
+  },
+  "homeLink": {
+    "text": "Početna lokacija"
+  },
+  "createContent": "Stvori"
+}

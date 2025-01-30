@@ -1,0 +1,22 @@
+:host {
+
+    display: block;
+
+    height: 100%;
+
+    width: 100%
+}
+
+iframe {
+
+    height: 100%;
+
+    width: 100%;
+
+    border-style: none
+}
+
+calcite-notice[active], calcite-loader[active] {
+
+    margin-top: 1rem
+}

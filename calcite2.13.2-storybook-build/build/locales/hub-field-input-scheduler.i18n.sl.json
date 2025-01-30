@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "Samodejno prek Hub",
+      "actionText": "Informacije o samodejni možnosti"
+    },
+    "daily": {
+      "defaultLabel": "Dnevno",
+      "defaultExpandedHelperText": "Vsak dan ob izbrani uri v izbranem časovnem pasu.",
+      "actionText": "Informacije o dnevnih možnostih"
+    },
+    "weekly": {
+      "defaultLabel": "Tedensko",
+      "defaultExpandedHelperText": "Vsak teden na naslednji dan in ob naslednji uri v izbranem časovnem pasu.",
+      "actionText": "Informacije o tedenskih možnostih"
+    },
+    "monthly": {
+      "defaultLabel": "Mesečno",
+      "defaultExpandedHelperText": "Vsak mesec na naslednji dan in ob naslednji uri v izbranem časovnem pasu.",
+      "actionText": "Informacije o mesečnih možnostih"
+    },
+    "yearly": {
+      "defaultLabel": "Letno",
+      "defaultExpandedHelperText": "Vsako leto na naslednji mesec, dan in ob naslednji uri v izbranem časovnem pasu.",
+      "actionText": "Informacije o letnih možnostih"
+    },
+    "manual": {
+      "defaultLabel": "Ročno",
+      "defaultExpandedHelperText": "Če želite ročno posodobiti indeks iskanja in predpomnjene datoteke prenosa za ta element, uporabite to možnost.",
+      "actionText": "Informacije o ročnih možnostih"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "Čas v dnevu",
+      "inputMessage": "Čas bo zaokrožen na najbližjo uro.",
+      "error": "Izberite uro."
+    },
+    "day": {
+      "helperText": "Dan v tednu",
+      "daysOfTheWeek": {
+        "sunday": "Nedelja",
+        "monday": "Ponedeljek",
+        "tuesday": "Torek",
+        "wednesday": "Sreda",
+        "thursday": "Četrtek",
+        "friday": "Petek",
+        "saturday": "Sobota"
+      },
+      "selectLabel": "Izbira dneva v tednu",
+      "error": "Izberite dan v tednu."
+    },
+    "date": {
+      "helperText": "Dan v mesecu",
+      "inputNumberPlaceholder": "Izberite dan v mesecu",
+      "inputMessage": "Vnesite vrednost od 1 do 28 za dan v mesecu.",
+      "error": "Dan v mesecu mora biti med 1 in 28."
+    },
+    "month": {
+      "helperText": "Mesec v letu",
+      "selectLabel": "Izbira meseca v letu",
+      "monthsOfTheYear": {
+        "january": "Januar",
+        "february": "Februar",
+        "march": "Marec",
+        "april": "April",
+        "may": "Maj",
+        "june": "Junij",
+        "july": "Julij",
+        "august": "Avgust",
+        "september": "September",
+        "october": "Oktober",
+        "november": "November",
+        "december": "December"
+      },
+      "error": "Izberite mesec."
+    },
+    "timezone": {
+      "helperText": "Časovni pas",
+      "error": "Izberite časovni pas."
+    }
+  },
+  "fieldHeader": "Pogostost"
+}

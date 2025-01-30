@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Hub Components: Simple Gallery</title>
+
+    <style>
+      .header {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .nav {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+      }
+      arcgis-hub-gallery[map-layout-with-side-panel] {
+        height: 35rem;
+      }
+    </style>
+    <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+
+    <script async src="https://ga.jspm.io/npm:es-module-shims@1.6.2/dist/es-module-shims.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+        }
+      }
+    </script>
+
+    <script type="module" src="../../build/hub-components.esm.js"></script>
+    <script nomodule src="../../build/hub-components.js"></script>
+    <link rel="stylesheet" href="../../calcite/calcite.css" />
+    <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+    <link rel="stylesheet" href="../calcite-web.min.css">
+  </head>
+
+  <body>
+    <harness-header page-title="Gallery: Items"></harness-header>
+    <div class="grid-container padding-leader-4">
+
+        <arcgis-hub-gallery
+          layout="grid"
+          limit="9"
+          api="hub"
+          well-known-collection="all"
+          link-target="siteRelative"
+          show-thumbnail
+          show-search
+          show-sort
+          show-chips
+          show-facets
+          show-more-results-btn
+          show-results-count
+          show-back-to-top-btn
+          enable-telemetry
+          show-layout-switcher
+          enable-immersive-map-layout
+        ></arcgis-hub-gallery>
+
+    </div>
+    <script>
+
+
+      document.addEventListener('calciteRadioGroupChange', evt => {
+        console.log(`Changing API to ${evt.detail}`);
+        const apiType = evt.detail;
+        setProp('apiType', apiType);
+        // if (apiType === "arcgis") {
+        //   setProp('apiType', "https://devext.arcgis.com");
+        // } else {
+        //   setProp('apiUrl', "https://hubdev.arcgis.com/api/items/beta/search");
+        // }
+      });
+      document.addEventListener('arcgisHubGalleryAction', evt => {
+        console.log(`galleryAction: ${evt.detail.action} for ${evt.detail.model.id}`);
+      });
+      document.addEventListener('hubTelemetry', evt => {
+        console.log(`telemetry`, evt.detail);
+      });
+      function applyParams() {
+        const paramString = document.getElementById('qs').value;
+        const parts = paramString.split('&');
+        const params = parts.reduce((acc, entry) => {
+          if (entry) {
+            const [key, val] = entry.split('=');
+            if (val !== 'null') {
+              acc[key] = val;
+            }
+          }
+          return acc;
+        }, {});
+
+        setProp('state', params);
+      }
+
+
+      const params = {};
+
+      document.addEventListener('arcgisHubContentGalleryStateChange', evt => {
+        showParams(evt.detail);
+      });
+
+      function showParams(params) {
+        // serialize
+        let qs = '';
+        for (key in params) {
+          if (params[key]) {
+            qs = `${qs}&${key}=${params[key]}`;
+          }
+        }
+        const el = document.getElementById('params');
+        el.innerText = `State as params: ${qs}`;
+      }
+
+
+      // Set a property on the element
+      function setProp(key, value) {
+        const el = document.querySelector('arcgis-hub-gallery');
+        el[key] = value;
+      }
+
+      function getProp(key) {
+        const el = document.querySelector('arcgis-hub-gallery');
+        return el[key];
+      }
+
+      const query = {
+        targetEntity: 'item',
+        // Change this well known collection key to experment with different collection bases
+        collection: 'all',
+        filters: [
+          // Change the predicates here to experiment with changing the base gallery scope
+          {
+          // predicates: [{type: "Hub Project"}]
+          // predicates: [{ orgid: '6yFNtz2GHg0wHfGr' }],
+            predicates: [{
+              group: [
+                // e2e tests
+                // '08c4099d18ce41b48055e194e12d39fe',
+
+                // download site
+                //"3b9ffb00851f47dab74494018ffa00fb",
+                //"95cc82a857fb40038628eea0dfc0210f",
+                //"671f07ab39bc4ea5a345d523328ccc06",
+                //"e79e2021e843428e9e0dab77eadbd507",
+                //"28a62e584bf04d5e8ade7e23467b7457",
+                //"1e82b21c126b479cafecd5a6149d3cd6"
+
+                // coffee culture site
+                "0bf5a3d8cac54a719cf561613a1c59c5",
+                "16206e820fbc48898d7c741a888f1dff",
+                "87f2fee263e34c3a96444848c683a9fd",
+                "88f4521cd80049e2a80156ff09db1592",
+              ],
+            }]
+          },
+        ],
+      };
+
+      const facetsObjects = [
+        {
+          label: 'Modified',
+          key: 'modified',
+          display: 'date-range',
+          state: 'open',
+          field: 'modified',
+          max: new Date(),
+        },
+        {
+          label: 'Location',
+          key: 'bbox',
+          display: 'map',
+          state: 'open',
+          field: 'bbox',
+          tooltip: 'testing 123'
+        },
+        {
+          label: 'License',
+          key: 'license',
+          display: 'multi-select',
+          state: 'open',
+          field: 'license',
+        },
+        {
+          label: 'Source',
+          key: 'source',
+          display: 'multi-select',
+          state: 'open',
+          field: 'source',
+        },
+        {
+          display: 'multi-select',
+          label: 'Type',
+          key: 'type',
+          field: 'type',
+          operation: 'OR',
+          options: [],
+          aggLimit: 100,
+        },
+        {
+          display: 'multi-select',
+          label: 'Tags',
+          key: 'tags',
+          field: 'tags',
+          operation: 'OR',
+          options: [],
+          aggLimit: 100,
+        },
+        {
+          display: 'tree',
+          label: 'Categories',
+          key: 'categories',
+          field: 'categories',
+          operation: 'OR',
+          options: [],
+          aggLimit: 100
+        }
+      ];
+
+      const facets = ['location', 'type', 'source', 'tags', 'categories', 'license', 'modified', 'access', 'event-from', 'event-access', 'group-type', 'group-role', 'group-access'];
+
+      const galleryMapSettings = {
+        extent: 'continuous',
+        // extent: 'results',
+        // extent: 'default',
+      };
+
+      setProp('query', query);
+      setProp('facets', facets);
+      setProp('galleryMapSettings', galleryMapSettings);
+      setProp('layoutOptions', ['grid', 'list', 'compact', 'table', 'calendar']);
+    </script>
+  </body>
+</html>

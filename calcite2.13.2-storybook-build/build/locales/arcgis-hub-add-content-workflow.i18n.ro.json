@@ -1,0 +1,110 @@
+{
+  "controls": {
+    "addContent": "Adăugare conținut",
+    "back": "Înapoi",
+    "cancel": "Anulare",
+    "close": "Gata",
+    "create": "Creați și adăugați la grup",
+    "next": "Următorul"
+  },
+  "createHelpState": {
+    "discussion": {
+      "heading": "Discuție",
+      "message": "Creați un nou panou de discuții prin introducerea titlului care indică subiectul."
+    },
+    "event": {
+      "heading": "Eveniment",
+      "message": "Găzduiți o activitate organizată, în format fizic sau virtual."
+    },
+    "group": {
+      "heading": "Grup",
+      "message": "Configurați un grup pentru a colabora pe conținut focalizat."
+    },
+    "initiative": {
+      "heading": "Inițiativă",
+      "message": "Inițiativele organizează și rezumă progresul spre un obiectiv."
+    },
+    "page": {
+      "heading": "Pagina",
+      "message": "O pagină este un loc pentru a partaja informații și a intra în legătură cu publicul."
+    },
+    "project": {
+      "heading": "Proiect",
+      "message": "Evidențiați lucrările care au obiective și termene clare."
+    },
+    "site": {
+      "heading": "Site",
+      "message": "Creați o pagină web pentru a organiza și partaja informațiile."
+    }
+  },
+  "selection": {
+    "unlimited": "Selectat: {count}",
+    "limited": "Selectat: {count} / {limit}"
+  },
+  "steps": {
+    "createContent": "Adăugați informații de bază",
+    "selectContent": "Selectare conținut",
+    "selectGroups": "Selectare grup",
+    "confirmation": "Confirmare",
+    "notImplemented": "Neimplementat"
+  },
+  "working": {
+    "heading": "Se adaugă conținutul selectat.",
+    "loadingLabel": "Se adaugă conținut."
+  },
+  "failure": {
+    "heading": "Conținut neadăugat",
+    "message": "Ceva nu a mers cum trebuie la adăugarea conținutului selectat, vă rugăm să încercați din nou.",
+    "action": "Încercați din nou"
+  },
+  "notImplemented": {
+    "heading": "Acest flux de lucru nu este încă implementat."
+  },
+  "contentGallery": {
+    "facets": {
+      "access": {
+        "label": "De la"
+      },
+      "type": {
+        "label": "Tipuri"
+      },
+      "tags": {
+        "label": "Etichete"
+      },
+      "categories": {
+        "label": "Categorii"
+      },
+      "modified": {
+        "label": "Modificat"
+      }
+    }
+  },
+  "groupsGallery": {
+    "facets": {
+      "access": {
+        "label": "Poate fi văzut de",
+        "options": {
+          "org": "Organizație",
+          "public": "Toată lumea (public)",
+          "private": "Eu"
+        }
+      },
+      "from": {
+        "label": "De la",
+        "options": {
+          "myCommunity": "Comunitatea mea",
+          "myGroups": "Grupurile mele",
+          "myOrganization": "Organizația mea",
+          "world": "Glob"
+        }
+      },
+      "type": {
+        "label": "Tipuri",
+        "options": {
+          "sharedUpdate": "Actualizare partajată",
+          "opendata": "Date deschise"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "popover": {
+    "access": {
+      "org": "已共享给组织",
+      "private": "已共享给所有者",
+      "public": "已共享给公众",
+      "shared": "已共享给所有者和群组"
+    },
+    "editLayout": "编辑布局",
+    "lastUpdated": "上次更新时间：{updated}",
+    "viewSite": "查看站点"
+  },
+  "cloneLayoutLabel": "克隆布局",
+  "deleteDraftLabel": "删除草稿",
+  "deletePageLabel": "删除页面",
+  "deleteSiteLabel": "删除站点",
+  "editInAgoLabel": "在 ArcGIS Online 中进行编辑",
+  "managePage": "管理页面",
+  "manageSite": "管理站点",
+  "manageTemplate": "管理模板",
+  "moreOptionsLabel": "更多选项",
+  "publishLabel": {
+    "site": "发布布局",
+    "page": "发布布局",
+    "survey": "发布"
+  },
+  "saveAsTemplateLabel": "另存为模板",
+  "saveLabel": {
+    "site": "保存布局",
+    "page": "保存布局",
+    "survey": "保存",
+    "template": "保存"
+  },
+  "sharingLabel": "打开共享面板",
+  "editS123Label": "在 Survey123 中进行编辑",
+  "viewLabel": "查看",
+  "viewPublishedLabel": "查看已发布的内容",
+  "viewUnpublishedLabel": "查看草稿"
+}

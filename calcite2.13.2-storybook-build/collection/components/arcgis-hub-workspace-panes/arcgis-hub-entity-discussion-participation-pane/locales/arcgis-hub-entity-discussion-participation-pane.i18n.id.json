@@ -1,0 +1,82 @@
+{
+  "title": "Partisipasi",
+  "subtitle": "Atur visibilitas forum diskusi (siapa saja yang dapat melihat), gulir ke bawah untuk mengatur siapa yang dapat mengedit informasi forum, lalu atur partisipasi dan moderasi dengan saluran.",
+  "channelTitle": "Saluran partisipasi telah diatur",
+  "channelDescription": "Saluran ini mengontrol siapa yang dapat menambahkan, melihat, dan memoderasi postingan di papan diskusi ini.",
+  "addChannelsTitle": "Atur saluran",
+  "addChannelsDescription": "Saluran mengontrol siapa saja yang dapat menambahkan postingan ke forum. Mereka bisa terbuka untuk grup, organisasi, atau publik, dan dapat diterapkan pada banyak diskusi. Saluran juga mengontrol siapa saja yang dapat memoderasi. Atur kata-kata yang diblokir untuk moderasi otomatis dalam saluran.",
+  "privateChannelTitle": "Saluran pribadi sudah disiapkan",
+  "privateChannelDescription": "Anda tidak dapat melihat saluran pribadi yang ditetapkan ke papan diskusi ini. Anda dapat menghapus saluran dan memilih saluran yang sudah ada atau membuat saluran.",
+  "removeChannelConfirmationMessage": "Papan diskusi ini tidak akan menampilkan postingan lagi. Anda dapat menambahkan saluran jika saluran ini dihapus.",
+  "headingChannelEdit": "Anda sedang mengedit saluran",
+  "headingChannelView": "Anda sedang melihat saluran",
+  "headingChannelCreate": "Anda sedang membuat saluran",
+  "buttons": {
+    "browse": "Telusuri saluran",
+    "new": "Saluran baru",
+    "removeChannel": "Hapus saluran",
+    "cancel": "Batalkan"
+  },
+  "alerts": {
+    "label": "Peringatan formulir",
+    "set": {
+      "title": "Berhasil. Saluran sudah disiapkan."
+    },
+    "removed": {
+      "title": "Saluran dihapus",
+      "message": "Pilih atau buat saluran untuk partisipasi."
+    },
+    "error": {
+      "title": "Gagal. Saluran belum disiapkan."
+    }
+  },
+  "galleryPickerTitle": "Pilih saluran",
+  "channelsLabel": "Saluran",
+  "accessLabel": "Akses",
+  "optionPublicLabel": "Publik",
+  "optionOrganizationLabel": "Organisasi",
+  "optionPrivateLabel": "Pribadi",
+  "viewChannel": "Lihat saluran",
+  "editChannel": "Edit saluran",
+  "save": "Simpan",
+  "removeChannel": "Hapus saluran",
+  "groupPicker": {
+    "facet": {
+      "label": "Dari",
+      "myGroups": "Grup saya",
+      "myOrganization": "Organisasi saya",
+      "myCommunity": "Komunitas saya"
+    }
+  },
+  "editGroupButtonText": "Tambahkan edit grup",
+  "viewGroupButtonText": "Tambahkan lihat grup",
+  "viewGroups": {
+    "header": "Siapa yang dapat melihat",
+    "description": "Orang-orang yang dapat melihat (tetapi tidak dapat memposting ke) forum; postingan diatur oleh saluran di bawah ini."
+  },
+  "editGroups": {
+    "header": "Siapa yang dapat mengedit",
+    "description": "Anggota grup dapat mengedit informasi forum di ruang kerja."
+  },
+  "aboutChannelsNotice": {
+    "title": "Memperkenalkan saluran",
+    "message": "Saluran bukan grup, tetapi dapat berisi grup. Mereka menentukan siapa saja yang dapat memposting dan memoderasi.",
+    "action": "Selengkapnya tentang saluran"
+  },
+  "nonPrivateChannelNotice": {
+    "title": "Tidak dapat mengedit saluran",
+    "message": "Hanya moderator saluran ini yang dapat mengeditnya. Jika perlu, hubungi pemilik saluran atau admin organisasi untuk menambahkan. Anda juga dapat menghapus saluran ini, menambahkan saluran yang sudah ada (tempat Anda menjadi moderator), atau membuat saluran baru."
+  },
+  "privateChannelNotice": {
+    "title": "Tidak dapat mengedit saluran",
+    "message": "Hanya moderator saluran ini yang dapat mengeditnya. Jika perlu, hubungi pemilik saluran untuk menambahkan. Anda juga dapat menghapus saluran ini, menambahkan saluran yang sudah ada (tempat Anda menjadi moderator), atau membuat saluran baru."
+  },
+  "participate": {
+    "header": "Siapa yang dapat berpartisipasi dan memoderasi"
+  },
+  "org": "Organisasi",
+  "private": "Pribadi",
+  "public": "Publik",
+  "unnamed": "Saluran tanpa nama",
+  "groupNotFound": "Grup tidak ditemukan"
+}

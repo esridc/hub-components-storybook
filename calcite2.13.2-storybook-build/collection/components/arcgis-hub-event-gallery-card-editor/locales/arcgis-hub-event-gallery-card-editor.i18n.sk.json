@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "Kategórie",
+        "noCategoriesNotice": {
+          "body": "Táto organizácia zatiaľ nemá žiadne kategórie.",
+          "link": "Nastaviť kategórie"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "Obsah",
+      "selectionMode": {
+        "dynamic": {
+          "label": "Dynamické"
+        },
+        "manual": {
+          "label": "Manuálne"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "Organizácia"
+        },
+        "collection": {
+          "sites": "Lokality",
+          "projects": "Projekty",
+          "initiatives": "Iniciatívy"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "Organizácia"
+        },
+        "collection": {
+          "events": "Udalosti"
+        }
+      },
+      "access": {
+        "label": "Zdieľanie",
+        "private": {
+          "label": "Súkromné",
+          "description": "Filtrovať podľa obsahu, ktorý je k dispozícii iba pre vás a tých, ktorí majú skupinový prístup."
+        },
+        "org": {
+          "label": "Organizácia",
+          "description": "Filtrovať podľa obsahu, ktorý je k dispozícii iba pre členov vašej organizácie."
+        },
+        "public": {
+          "label": "Verejné",
+          "description": "Filtrovať podľa obsahu, ktorý je k dispozícii pre každého."
+        }
+      },
+      "tags": {
+        "label": "Štítky"
+      },
+      "cardsShown": {
+        "label": "Zobrazené karty"
+      }
+    },
+    "appearance": {
+      "label": "Vzhľad",
+      "titleHeading": {
+        "label": "Nadpis záhlavia",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "Vnorené záhlavia WCAG G141 zlepšujú prístupnosť."
+      },
+      "corners": {
+        "label": "Rohy",
+        "square": {
+          "label": "Štvorcové"
+        },
+        "round": {
+          "label": "Zaoblené"
+        }
+      },
+      "shadow": {
+        "label": "Tieň",
+        "none": {
+          "label": "Vypnuté"
+        },
+        "low": {
+          "label": "Nízke"
+        },
+        "medium": {
+          "label": "Stredné"
+        },
+        "heavy": {
+          "label": "Silné"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "Zobraziť ďalšie informácie"
+      },
+      "layout": {
+        "label": "Rozloženie",
+        "list": {
+          "label": "Zoznam"
+        },
+        "map": {
+          "label": "Mapa"
+        },
+        "calendar": {
+          "label": "Kalendár"
+        }
+      }
+    },
+    "options": {
+      "label": "Možnosti",
+      "openIn": {
+        "label": "Otvoriť v...",
+        "same": {
+          "label": "Rovnaká karta"
+        },
+        "new": {
+          "label": "Nová karta"
+        },
+        "notice": {
+          "title": "Tip na prístupnosť:",
+          "body": "Podľa techniky WCAG 2.0 G200 sa otváranie odkazov v nových kartách alebo oknách neodporúča.",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "Prečítajte si viac o WCAG 2.0 G200"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "Zdieľanie",
+      "public": {
+        "label": "Verejné"
+      },
+      "private": {
+        "label": "Súkromné"
+      },
+      "organization": {
+        "label": "Organizácia"
+      }
+    },
+    "from": {
+      "label": "Z",
+      "myOrganization": {
+        "label": "Moja organizácia"
+      },
+      "myContent": {
+        "label": "Môj obsah"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "Udalosti",
+      "collections": {
+        "event": {
+          "label": "Udalosti"
+        }
+      }
+    },
+    "item": {
+      "label": "Obsah",
+      "collections": {
+        "item": {
+          "label": "Obsah"
+        }
+      }
+    }
+  }
+}

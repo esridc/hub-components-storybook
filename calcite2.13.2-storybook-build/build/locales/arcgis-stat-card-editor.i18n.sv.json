@@ -1,0 +1,165 @@
+{
+  "advancedConfig": {
+    "label": "Avancerad konfiguration",
+    "serverTimeout": {
+      "label": "Tidsgräns för server (sekunder)",
+      "helperText": "Användbart för större tjänster som kan ta längre tid på sig att svara.",
+      "errors": {
+        "type": "Ange konfiguration av tidsgräns för server.",
+        "minimum": "Tidsgränsvärdet för servern måste vara minst 5.",
+        "maximum": "Tidsgränsvärdet för servern måste vara högst 95."
+      }
+    }
+  },
+  "appearance": {
+    "corners": {
+      "label": "Hörn",
+      "enum": {
+        "round": {
+          "label": "Rund"
+        },
+        "square": {
+          "label": "Fyrkantig"
+        }
+      }
+    },
+    "dropShadow": {
+      "label": "Bakgrundsskugga",
+      "enum": {
+        "heavy": {
+          "label": "Tung"
+        },
+        "low": {
+          "label": "Låg"
+        },
+        "medium": {
+          "label": "Medium"
+        },
+        "none": {
+          "label": "Inte startad"
+        }
+      }
+    },
+    "layout": {
+      "label": "Kortstil",
+      "enum": {
+        "informational": {
+          "label": "Informativ"
+        },
+        "simple": {
+          "label": "Enkel"
+        }
+      }
+    },
+    "popoverText": {
+      "label": "Modalt innehåll"
+    },
+    "publisherText": {
+      "label": "Källutgivare"
+    },
+    "styleSpecificSettings": {
+      "label": "Stilinställningar",
+      "helperInfoText": "Om du väljer informationsknappen öppnas en modal dialogruta som innehåller mer information.",
+      "helperVizText": "Det enkla kortet stödjer tillägg av en ikon som ett visuellt element, som kan användas för att återspegla ändringar i data."
+    },
+    "sectionTitle": "Utseende",
+    "textAlign": "Justering",
+    "visualInterest": {
+      "label": "Visuellt element",
+      "enum": {
+        "icon": {
+          "label": "Ikon"
+        },
+        "none": {
+          "label": "Inga"
+        }
+      }
+    },
+    "icon": {
+      "label": "Ikon",
+      "caretUp": {
+        "label": "Öka"
+      },
+      "caretDown": {
+        "label": "Minska"
+      },
+      "caretDouble": {
+        "label": "Ingen ändring"
+      }
+    },
+    "valueColor": "Färg (statistik)"
+  },
+  "details": {
+    "allowDynamicLink": "Visa länk till källa",
+    "link": {
+      "sectionTitle": "Länk",
+      "sourceLink": "Länk-URL",
+      "sourceTitle": "Textlänk"
+    },
+    "sectionTitle": "Information",
+    "subtitle": "Underrubrik",
+    "title": "Titel",
+    "trailingText": {
+      "label": "Följande text",
+      "helperText": "Ange valfri ytterligare kontext eller förklaring (visas under det metriska värdet)."
+    }
+  },
+  "errors": {
+    "sourceLink": {
+      "required": "Länk krävs för att visa källa.",
+      "formatError": "URL-formateringen är felaktig"
+    }
+  },
+  "formatting": {
+    "sectionTitle": "Formatering",
+    "unit": {
+      "label": "Visningsenheter",
+      "helperText": "Ange mätenhet för värdet."
+    },
+    "unitPosition": {
+      "label": "Placering",
+      "helperText": "Välj var mätenheten (t.ex. 'km', 'lbs') ska visas i relation till det metriska värdet.",
+      "enum": {
+        "after": {
+          "label": "Efter"
+        },
+        "before": {
+          "label": "Före"
+        },
+        "below": {
+          "label": "Nedanför"
+        }
+      }
+    }
+  },
+  "sharing": {
+    "sectionTitle": "Delning",
+    "showShareIcon": "Aktivera delning",
+    "showShareIconHelperText": "Tillåt användare att kopiera en direktlänk till det här kortet på den här sidan.",
+    "shareableByValue": "Aktivera inbäddningar",
+    "shareableOnHover": {
+      "label": "Visa vid hovring",
+      "helperText": {
+        "label": "Knappen Dela visas endast vid hovring. Om knappen är inaktiverad är den alltid synlig."
+      }
+    }
+  },
+  "statistic": {
+    "dataSource": "Datakälla",
+    "displayValue": "Visningsvärde",
+    "sectionTitle": "Värde",
+    "type": {
+      "label": "Typ",
+      "enum": {
+        "dynamic": {
+          "label": "Dynamisk",
+          "description": "Välj ett befintligt dataset (geoobjekttjänst) att sammanfatta"
+        },
+        "static": {
+          "label": "Statisk",
+          "description": "Ange manuellt ett värde att markera i din layout."
+        }
+      }
+    }
+  }
+}

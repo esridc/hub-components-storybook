@@ -1,0 +1,35 @@
+{
+  "overview": "Vue d’ensemble",
+  "resources": "Ressources Hub",
+  "cards": {
+    "items": "Nombre d’éléments",
+    "groups": "Nombre de groupes"
+  },
+  "hubContent": {
+    "heading": "Éléments Hub récemment modifiés",
+    "link": "Afficher tout le contenu"
+  },
+  "content": {
+    "heading": "Contenu récemment modifié",
+    "stat": "Nombre d’éléments",
+    "link": "Afficher tout le contenu"
+  },
+  "groups": {
+    "heading": "Groupes récemment modifiés",
+    "stat": "Nombre de groupes",
+    "link": "Afficher tous les groupes"
+  },
+  "contentCount": "Contenu",
+  "addContent": "Créer",
+  "facets": {
+    "access": {
+      "label": "Provenance"
+    },
+    "type": {
+      "label": "Types"
+    },
+    "modified": {
+      "label": "Modification"
+    }
+  }
+}

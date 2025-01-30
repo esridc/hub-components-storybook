@@ -1,0 +1,35 @@
+{
+  "success": "Redigeringene ble lagret",
+  "error": "Feil under lagring av redigeringer",
+  "formAlert": "Skjemavarsel",
+  "projects": {
+    "header": "Prosjekter",
+    "list": "Prosjektliste",
+    "config": "Konfigurasjon",
+    "notConfigured": "Prosjekter-funksjonen er ikke konfigurert. Bruk Konfigurasjon-fanen."
+  },
+  "content": {
+    "header": "Innhold",
+    "list": "Innholdsliste",
+    "config": "Konfigurasjon",
+    "notConfigured": "Innholdsfunksjonen er ikke konfigurert. Bruk Konfigurasjon-fanen."
+  },
+  "initiatives": {
+    "header": "Initiativer",
+    "list": "Initiativliste",
+    "config": "Konfigurasjon",
+    "notConfigured": "Initiativer-funksjonen er ikke konfigurert. Bruk Konfigurasjon-fanen."
+  },
+  "events": {
+    "header": "Arrangementer",
+    "list": "Hendelsesliste",
+    "config": "Konfigurasjon",
+    "notConfigured": "Arrangementfunksjonen er ikke konfigurert. Bruk Konfigurasjon-fanen."
+  },
+  "pages": {
+    "header": "Sider",
+    "list": "Sideliste",
+    "config": "Konfigurasjon",
+    "notConfigured": "Sider-funksjonen er ikke konfigurert. Bruk Konfigurasjon-fanen."
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "initiatives": "Initiativer",
+  "description": "Tilknytt initiativer for å bidra til langtidsmål eller storskalainnsats. Prosjektsamarbeidspartnere kan administrere bekreftede tilknytninger og utestående tilknytningsforespørsler. Initiativer med bekreftede tilknytningre vises på dette prosjektets visning. ",
+  "shared": {
+    "error": {
+      "title": "Noe gikk galt",
+      "message": "Vi kunne ikke fullføre oppgaven. Prøv på nytt."
+    },
+    "facets": {
+      "access": {
+        "label": "Deling"
+      },
+      "status": {
+        "label": "Status",
+        "notStarted": "Ikke startet",
+        "inProgress": "Pågår",
+        "onHold": "På vent",
+        "complete": "Fullført"
+      },
+      "tags": {
+        "label": "Merker"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "{currentConfirmedAndOutgoingRequests} / {maxCurrentAndOutgoingRequestsAllowed} bekreftede + utgående forespørsler",
+      "tooltip": "For å sende forespørsler må du koble fra eksisterende tilknytninger og/eller utgående forespørsler"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "Finn initiativer",
+    "sendRequest": "Send forespørsel",
+    "success": {
+      "title": "Vellykket",
+      "message": "Forbindelsesforespørsler sendt: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "Kontroller forbindelser",
+      "message": "Noen utvalg har allerede bedt om forbindelse. Nye forbindelsesforespørsler sendt: {count}"
+    },
+    "catalog": {
+      "myContent": "Mitt innhold",
+      "favorites": "Favoritter",
+      "organization": "Min organisasjon",
+      "partners": "Mine partnere",
+      "community": "Mitt fellesskap"
+    },
+    "collection": {
+      "initiatives": "Initiativer"
+    }
+  },
+  "acceptAssociation": {
+    "label": "Godta",
+    "limitReachedTooltip": "For å godta må du koble fra eksisterende tilknytninger og/eller utgående forespørsler",
+    "success": {
+      "title": "Vellykket",
+      "message": "Forbindelse godtatt med {requestor}"
+    }
+  },
+  "cancelRequest": {
+    "label": "Avbryt forespørsel",
+    "success": {
+      "title": "Vellykket",
+      "message": "Forespørsel om forbindelse avbrutt"
+    }
+  },
+  "breakAssociation": {
+    "label": "Koble fra",
+    "success": {
+      "title": "Forbindelse brutt",
+      "message": "Vi har koblet dette elementet fra dets tidligere forbindelse. Vi kan imidlertid ikke reversere beslutningen fra den andre siden, så det kan hende at du fortsatt ser den i innkommende forespørslser."
+    }
+  },
+  "associationsGallery": {
+    "sources": "Tilstand",
+    "catalog": {
+      "associated": "Forbundet",
+      "requesting": "Innkommende forespørsler",
+      "pending": "Utgående forespørslser"
+    },
+    "collection": {
+      "initiatives": "Initiativer"
+    }
+  },
+  "notice": {
+    "label": "Skjemavarsel"
+  }
+}

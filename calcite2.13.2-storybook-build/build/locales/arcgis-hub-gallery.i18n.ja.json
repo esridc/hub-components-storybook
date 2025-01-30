@@ -1,0 +1,91 @@
+{
+  "moreResults": "その他の結果",
+  "search": "検索",
+  "filter": "フィルター",
+  "viewResults": "結果を表示 ({numResults})",
+  "resultsCount": "1 - {pageTotal}/{searchTotal}",
+  "backToTop": "トップへ戻る",
+  "facets": {
+    "access": {
+      "label": "共有",
+      "private": "自分",
+      "shared": "所有者とグループ",
+      "org": "組織",
+      "public": "パブリック"
+    },
+    "license": {
+      "label": "ライセンス",
+      "tooltip": "パブリック コンテンツのみ",
+      "custom": "カスタム",
+      "none": "なし"
+    },
+    "type": {
+      "label": "タイプ"
+    },
+    "tags": {
+      "label": "タグ"
+    },
+    "dateUpdated": {
+      "label": "更新日"
+    },
+    "source": {
+      "label": "ソース",
+      "tooltip": "異なる組織のパブリック コンテンツ"
+    },
+    "categories": {
+      "label": "カテゴリ"
+    },
+    "location": {
+      "label": "位置",
+      "tooltip": "マップ範囲を位置フィルターとして適用"
+    },
+    "event": {
+      "from": {
+        "label": "所有権",
+        "myContent": "自分",
+        "myOrganization": "組織",
+        "world": "すべてのユーザー"
+      },
+      "access": {
+        "label": "アクセス",
+        "private": "非公開",
+        "org": "組織",
+        "public": "パブリック"
+      },
+      "startDate": {
+        "label": "イベントの日付"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "タイプ",
+        "all": "すべて",
+        "view": "表示",
+        "edit": "編集"
+      },
+      "role": {
+        "label": "ロール",
+        "all": "すべて",
+        "member": "メンバー",
+        "manager": "管理者",
+        "owner": "所有者"
+      },
+      "sharing": {
+        "label": "表示設定",
+        "private": "非公開",
+        "public": "パブリック"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "リストの表示",
+    "grid": "グリッドの表示",
+    "map": "マップの表示",
+    "compact": "コンパクトな表示",
+    "calendar": "カレンダーの表示",
+    "table": "テーブルの表示"
+  },
+  "galleryActionsLabel": "追加のアクション",
+  "selected": "選択済み: {count}",
+  "popoverActionButtonLabel": "その他のアクション"
+}

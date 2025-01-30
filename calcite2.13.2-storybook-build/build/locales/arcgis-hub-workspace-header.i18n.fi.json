@@ -1,0 +1,47 @@
+{
+  "communityOrg": "Yhteisön organisaatio",
+  "editLayout": "Muokkaa asettelua",
+  "orgWorkspace": "Avaa kotityötila",
+  "editS123": "Muokkaa Survey123:ssa",
+  "editAdvancedJson": "Muokkaa edistynyttä JSONia",
+  "view": {
+    "project": "Näytä projekti",
+    "site": "Näytä sivusto",
+    "initiative": "Näytä aloite",
+    "discussion": "Näytä palsta",
+    "content": "Näytä sisältö",
+    "page": "Näytä sivu",
+    "group": "Näytä ryhmä",
+    "initiativeTemplate": "Näytä aloitemalli",
+    "template": "Näytä malli",
+    "survey": "Näytä kysely",
+    "event": "Näytä tapahtuma"
+  },
+  "access": {
+    "share": "Jaa",
+    "sharingLevel": "Jakamistaso",
+    "groupSharing": "Ryhmäjako",
+    "tooltip": {
+      "public": "Jakamistaso: julkinen",
+      "org": "Jakamistaso: organisaatio",
+      "private": "Jakamistaso: yksityinen",
+      "shared": "Jakamistaso: jaettu yksityisesti"
+    },
+    "save": "Tallenna",
+    "cancel": "Peruuta",
+    "alert": {
+      "success": "Muokkaukset on tallennettu",
+      "error": "Virhe muokkausten tallennuksessa",
+      "label": "Lomakevaroitus"
+    }
+  },
+  "popoverActions": {
+    "label": "Lisää toimintoja",
+    "openInEnterprise": "Avaa ArcGIS Enterprisessa",
+    "openInOnline": "Avaa ArcGIS Onlinessa"
+  },
+  "homeLink": {
+    "text": "Koti"
+  },
+  "createContent": "Luo"
+}

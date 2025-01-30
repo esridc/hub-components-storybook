@@ -1,0 +1,118 @@
+{
+  "layout": {
+    "title": "Layout",
+    "helperText": "This configures how results will look when visitors first arrive to your catalog. Visitors will still have the option to change display method themselves.",
+    "enum": {
+      "list": {
+        "label": "List",
+        "description": "Use for showcasing metadata and when visitors are likely to be doing targeted searches."
+      },
+      "grid": {
+        "label": "Grid",
+        "description": "Use for results that have high-quality thumbnails and when visitors are likely to be browsing."
+      },
+      "table": {
+        "label": "Table",
+        "description": "Use for presenting results in a structured format with sortable columns, ideal when visitors may want to view and compare many items and their attributes."
+      },
+      "map": {
+        "label": "Map",
+        "description": "Use for results that are tied to physical locations and when visitors are likely to be exploring areas of interest."
+      },
+      "compact": {
+        "label": "Compact",
+        "description": "Use for maximizing the number of visible results in a smaller space, ideal for quick browsing or viewing on mobile devices."
+      }
+    }
+  },
+  "cards": {
+    "title": "Cards",
+    "cardTitleTag": {
+      "label": "Heading",
+      "helperText": "This can be used to improve nested heading structure for accessibility. It will not change the font size.",
+      "enum": {
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        }
+      }
+    },
+    "showThumbnail": {
+      "label": "Show thumbnail",
+      "enum": {
+        "show": {
+          "label": "Always",
+          "description": "Thumbnail images will always be shown on result cards, regardless of the results layout."
+        },
+        "hide": {
+          "label": "Do not show thumbnails",
+          "description": "Thumbnail images will not be shown on any type of result card. Use this option if you have poor quality thumbnails or if you want people to be able to scan list results faster in desktop and mobile."
+        },
+        "grid": {
+          "label": "Only in grid",
+          "description": "Thumbnail images will only be shown on grid cards. List cards will show an extra column of metadata in lieu of an image."
+        }
+      }
+    },
+    "corners": {
+      "label": "Corners",
+      "enum": {
+        "square": {
+          "label": "Square"
+        },
+        "round": {
+          "label": "Rounded"
+        }
+      }
+    },
+    "shadow": {
+      "label": "Drop shadow",
+      "enum": {
+        "heavy": {
+          "label": "Heavy"
+        },
+        "low": {
+          "label": "Low"
+        },
+        "medium": {
+          "label": "Medium"
+        },
+        "none": {
+          "label": "None"
+        }
+      }
+    },
+    "showLinkButton": {
+      "label": "Include buttons",
+      "helperText": "If buttons are off, then only the card title will be a link."
+    },
+    "linkButtonStyle": {
+      "label": "Style",
+      "enum": {
+        "outline-filled": {
+          "label": "Filled"
+        },
+        "outline": {
+          "label": "Outline"
+        }
+      }
+    },
+    "linkButtonText": {
+      "label": "Text"
+    }
+  }
+}

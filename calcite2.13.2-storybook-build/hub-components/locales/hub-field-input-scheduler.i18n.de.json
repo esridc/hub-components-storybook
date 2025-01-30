@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "Von Hub automatisiert",
+      "actionText": "Info zur Option \"Automatisch\""
+    },
+    "daily": {
+      "defaultLabel": "Täglich",
+      "defaultExpandedHelperText": "Täglich zur ausgewählten Uhrzeit in der ausgewählten Zeitzone.",
+      "actionText": "Info zur Option \"Täglich\""
+    },
+    "weekly": {
+      "defaultLabel": "Wöchentlich",
+      "defaultExpandedHelperText": "Jede Woche am folgenden Tag zur folgenden Uhrzeit in der ausgewählten Zeitzone.",
+      "actionText": "Info zur Option \"Wöchentlich\""
+    },
+    "monthly": {
+      "defaultLabel": "Monatlich",
+      "defaultExpandedHelperText": "Jeden Monat am folgenden Tag zur folgenden Uhrzeit in der ausgewählten Zeitzone",
+      "actionText": "Info zur Option \"Monatlich\""
+    },
+    "yearly": {
+      "defaultLabel": "Jährlich",
+      "defaultExpandedHelperText": "Jedes Jahr im folgenden Monat am folgenden Tag zur folgenden Uhrzeit in der ausgewählten Zeitzone.",
+      "actionText": "Info zur Option \"Jährlich\""
+    },
+    "manual": {
+      "defaultLabel": "Manuell",
+      "defaultExpandedHelperText": "Verwenden Sie diese Option, wenn Sie den Suchindex und die gecachten Download-Dateien für dieses Element manuell aktualisieren möchten.",
+      "actionText": "Info zur Option \"Manuell\""
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "Uhrzeit",
+      "inputMessage": "Die Uhrzeit wird auf die nächste Stunde gerundet.",
+      "error": "Wählen Sie eine Uhrzeit aus."
+    },
+    "day": {
+      "helperText": "Wochentag",
+      "daysOfTheWeek": {
+        "sunday": "Sonntag",
+        "monday": "Montag",
+        "tuesday": "Dienstag",
+        "wednesday": "Mittwoch",
+        "thursday": "Donnerstag",
+        "friday": "Freitag",
+        "saturday": "Samstag"
+      },
+      "selectLabel": "Wochentag-Auswahl",
+      "error": "Wählen Sie einen Wochentag aus."
+    },
+    "date": {
+      "helperText": "Monatstag",
+      "inputNumberPlaceholder": "Monatstag auswählen",
+      "inputMessage": "Geben Sie als Monatstag einen Wert zwischen 1 und 28 ein.",
+      "error": "Der Monatstag muss zwischen 1 und 28 liegen."
+    },
+    "month": {
+      "helperText": "Monat des Jahres",
+      "selectLabel": "Monatsauswahl",
+      "monthsOfTheYear": {
+        "january": "Januar",
+        "february": "Februar",
+        "march": "März",
+        "april": "April",
+        "may": "Mai",
+        "june": "Juni",
+        "july": "Juli",
+        "august": "August",
+        "september": "September",
+        "october": "Oktober",
+        "november": "November",
+        "december": "Dezember"
+      },
+      "error": "Wählen Sie einen Monat aus."
+    },
+    "timezone": {
+      "helperText": "Zeitzone",
+      "error": "Wählen Sie eine Zeitzone aus."
+    }
+  },
+  "fieldHeader": "Häufigkeit"
+}

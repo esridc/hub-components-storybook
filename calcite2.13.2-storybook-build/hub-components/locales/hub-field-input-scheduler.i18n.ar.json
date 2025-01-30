@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "مؤتمت بواسطة المركز \"Hub\"",
+      "actionText": "معلومات الخيار التلقائية"
+    },
+    "daily": {
+      "defaultLabel": "يوميًا",
+      "defaultExpandedHelperText": "كل يوم في الساعة المحددة بالمنطقة الزمنية المحددة.",
+      "actionText": "معلومات الخيار اليومية"
+    },
+    "weekly": {
+      "defaultLabel": "أسبوعيًا",
+      "defaultExpandedHelperText": "كل أسبوع في اليوم والساعة التاليين بالمنطقة الزمنية المحددة.",
+      "actionText": "معلومات الخيار الأسبوعية"
+    },
+    "monthly": {
+      "defaultLabel": "شهريًا",
+      "defaultExpandedHelperText": "كل شهر في اليوم والساعة التاليين بالمنطقة الزمنية المحددة",
+      "actionText": "معلومات الخيار الشهرية"
+    },
+    "yearly": {
+      "defaultLabel": "سنويًا",
+      "defaultExpandedHelperText": "كل عام في الشهر واليوم والساعة التاليين بالمنطقة الزمنية المحددة.",
+      "actionText": "معلومات الخيار السنوية"
+    },
+    "manual": {
+      "defaultLabel": "يدوي",
+      "defaultExpandedHelperText": "استخدم هذا الخيار إذا كنت ترغب في تحديث فهرس البحث وملفات التنزيل المخزنة مؤقتًا يدويًا لهذا لعنصر.",
+      "actionText": "معلومات الخيار اليدوية"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "وقت اليوم",
+      "inputMessage": "سيتم تقريب الوقت إلى أقرب ساعة.",
+      "error": "يرجى تحديد ساعة."
+    },
+    "day": {
+      "helperText": "يوم من الأسبوع",
+      "daysOfTheWeek": {
+        "sunday": "الأحد",
+        "monday": "الاثنين",
+        "tuesday": "الثلاثاء",
+        "wednesday": "الأربعاء",
+        "thursday": "الخميس",
+        "friday": "الجمعة",
+        "saturday": "السبت"
+      },
+      "selectLabel": "أداة اختيار يوم الأسبوع",
+      "error": "الرجاء تحديد يوم من أيام الأسبوع."
+    },
+    "date": {
+      "helperText": "يوم من الشهر",
+      "inputNumberPlaceholder": "حدد يومًا من الشهر",
+      "inputMessage": "أدخل قيمة تتراوح بين 1 و28 لليوم من الشهر.",
+      "error": "يجب أن يكون يوم الشهر ضمن النطاق من 1 إلى 28."
+    },
+    "month": {
+      "helperText": "شهر من السنة",
+      "selectLabel": "أداة اختيار شهر من السنة",
+      "monthsOfTheYear": {
+        "january": "يناير",
+        "february": "فبراير",
+        "march": "مارس",
+        "april": "أبريل",
+        "may": "مايو",
+        "june": "يونيو",
+        "july": "يوليو",
+        "august": "أغسطس",
+        "september": "سبتمبر",
+        "october": "أكتوبر",
+        "november": "نوفمبر",
+        "december": "ديسمبر"
+      },
+      "error": "يرجى تحديد شهر."
+    },
+    "timezone": {
+      "helperText": "المنطقة الزمنية",
+      "error": "يرجى تحديد منطقة زمنية."
+    }
+  },
+  "fieldHeader": "التكرار"
+}

@@ -1,0 +1,87 @@
+{
+  "initiatives": "Iniciativas",
+  "description": "Associe-se a iniciativas para contribuir para esforços a longo prazo ou em grande escala. Os colaboradores do projeto podem gerir associações confirmadas e pedidos de associação pendentes. As iniciativas com associações confirmadas serão apresentadas na vista deste projeto. ",
+  "shared": {
+    "error": {
+      "title": "Algo correu mal",
+      "message": "Não foi possível concluir a tarefa. Tente novamente."
+    },
+    "facets": {
+      "access": {
+        "label": "Partilha"
+      },
+      "status": {
+        "label": "Estado",
+        "notStarted": "Não iniciado",
+        "inProgress": "Em curso",
+        "onHold": "Em espera",
+        "complete": "Concluído"
+      },
+      "tags": {
+        "label": "Palavras-chave"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "{currentConfirmedAndOutgoingRequests}/{maxCurrentAndOutgoingRequestsAllowed} pedidos confirmados + pedidos de saída",
+      "tooltip": "Para enviar pedidos, desligue associações existentes e/ou pedidos de saída"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "Procurar iniciativas",
+    "sendRequest": "Enviar pedido",
+    "success": {
+      "title": "Sucesso",
+      "message": "Pedidos de associação enviados: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "Verificar associações",
+      "message": "Algumas seleções já solicitaram a associação. Envio de novos pedidos de associação: {count}"
+    },
+    "catalog": {
+      "myContent": "O meu conteúdo",
+      "favorites": "Favoritos",
+      "organization": "A minha organização",
+      "partners": "Os meus parceiros",
+      "community": "A minha comunidade"
+    },
+    "collection": {
+      "initiatives": "Iniciativas"
+    }
+  },
+  "acceptAssociation": {
+    "label": "Aceitar",
+    "limitReachedTooltip": "Para aceitar, desligue associações existentes e/ou pedidos de saída",
+    "success": {
+      "title": "Sucesso",
+      "message": "Associação aceite com {requestor}"
+    }
+  },
+  "cancelRequest": {
+    "label": "Cancelar pedido",
+    "success": {
+      "title": "Sucesso",
+      "message": "Pedido de associação cancelado"
+    }
+  },
+  "breakAssociation": {
+    "label": "Desassociar",
+    "success": {
+      "title": "Associação interrompida",
+      "message": "Desassociámos este item da sua associação anterior. No entanto, não podemos reverter a decisão da outra parte, pelo que poderá continuar a vê-la nos pedidos recebidos."
+    }
+  },
+  "associationsGallery": {
+    "sources": "Estado",
+    "catalog": {
+      "associated": "Associado",
+      "requesting": "Pedidos recebidos",
+      "pending": "Pedidos enviados"
+    },
+    "collection": {
+      "initiatives": "Iniciativas"
+    }
+  },
+  "notice": {
+    "label": "Alerta de formulário"
+  }
+}

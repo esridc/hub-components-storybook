@@ -1,0 +1,11 @@
+'use strict';
+
+const e={mean:"Moyenne",median:"Médiane",sum:"Somme",discretePercentile:"Centile discret",minimum:"Minimum",maximum:"Maximum",variance:"Variance",count:"Total",aggregation:"${ statistics } de ${ fieldName }",noAggregation:"Pas d’agrégation"},i="Diagramme",a="Série de nombres",t="Axe X",n="Non disponible",s={start:"Capturer sur le premier point de données",end:"Capturer sur le dernier point de données"};var r={statistics:e,defaultTitle:i,countSeries:a,xAxis:t,notAvailable:n,timeAggregationTypes:s};
+
+exports.countSeries = a;
+exports.default = r;
+exports.defaultTitle = i;
+exports.notAvailable = n;
+exports.statistics = e;
+exports.timeAggregationTypes = s;
+exports.xAxis = t;

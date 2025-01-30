@@ -1,0 +1,9 @@
+.telemetry-tabular-table {
+    width: 200px;
+}
+
+:host .telemetry-tabular-table {
+    display: block;
+    height: 100%;
+    width: auto;
+}

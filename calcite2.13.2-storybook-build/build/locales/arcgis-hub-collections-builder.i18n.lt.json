@@ -1,0 +1,15 @@
+{
+  "newCollection": "Naujas rinkinys",
+  "block": {
+    "heading": {
+      "untitled": "Rinkinys be pavadinimo"
+    },
+    "actions": {
+      "delete": "Ištrinti rinkinį:{label}"
+    }
+  },
+  "name": {
+    "label": "Pavadinimas",
+    "requiredError": "Reikalingas rinkinio pavadinimas"
+  }
+}

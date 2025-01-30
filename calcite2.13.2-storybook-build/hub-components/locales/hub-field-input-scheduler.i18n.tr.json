@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "Hub tarafından otomatikleştirildi",
+      "actionText": "Otomatik seçenek bilgisi"
+    },
+    "daily": {
+      "defaultLabel": "Günlük",
+      "defaultExpandedHelperText": "Her gün seçilen saat diliminde seçilen saatte.",
+      "actionText": "Günlük seçenek bilgisi"
+    },
+    "weekly": {
+      "defaultLabel": "Haftalık",
+      "defaultExpandedHelperText": "Her hafta aşağıdaki gün ve saatte, seçilen saat diliminde.",
+      "actionText": "Haftalık seçenek bilgisi"
+    },
+    "monthly": {
+      "defaultLabel": "Aylık",
+      "defaultExpandedHelperText": "Her ay aşağıdaki gün ve saatte, seçilen saat diliminde.",
+      "actionText": "Aylık seçenek bilgisi"
+    },
+    "yearly": {
+      "defaultLabel": "Yıllık",
+      "defaultExpandedHelperText": "Her yıl aşağıdaki ay, gün ve saatte, seçilen saat diliminde.",
+      "actionText": "Yıllık seçenek bilgisi"
+    },
+    "manual": {
+      "defaultLabel": "Manuel",
+      "defaultExpandedHelperText": "Bu öge için arama dizinini ve önbelleğe alınmış indirme dosyalarını manuel olarak güncellemek istiyorsanız bu seçeneği kullanın.",
+      "actionText": "Manuel seçenek bilgisi"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "Gün içindeki saat",
+      "inputMessage": "Zaman en yakın saate yuvarlanacaktır.",
+      "error": "Lütfen bir saat seçin."
+    },
+    "day": {
+      "helperText": "Haftanın günü",
+      "daysOfTheWeek": {
+        "sunday": "Pazar",
+        "monday": "Pazartesi",
+        "tuesday": "Salı",
+        "wednesday": "Çarşamba",
+        "thursday": "Perşembe",
+        "friday": "Cuma",
+        "saturday": "Cumartesi"
+      },
+      "selectLabel": "Haftanın günü seçici",
+      "error": "Lütfen haftanın günlerinden birini seçin."
+    },
+    "date": {
+      "helperText": "Ayın günü",
+      "inputNumberPlaceholder": "Ayın gününü seçin",
+      "inputMessage": "Ayın günü için 1- 28 arasında bir değer girin",
+      "error": "Ayın günü 1 ile 28 arasında olmalıdır."
+    },
+    "month": {
+      "helperText": "Yılın ayı",
+      "selectLabel": "Yılın ayı seçici",
+      "monthsOfTheYear": {
+        "january": "Ocak",
+        "february": "Şubat",
+        "march": "Mart",
+        "april": "Nisan",
+        "may": "Mayıs",
+        "june": "Haziran",
+        "july": "Temmuz",
+        "august": "Ağustos",
+        "september": "Eylül",
+        "october": "Ekim",
+        "november": "Kasım",
+        "december": "Aralık"
+      },
+      "error": "Lütfen bir ay seçin."
+    },
+    "timezone": {
+      "helperText": "Zaman dilimi",
+      "error": "Lütfen bir saat dilimi seçin."
+    }
+  },
+  "fieldHeader": "Sıklık"
+}

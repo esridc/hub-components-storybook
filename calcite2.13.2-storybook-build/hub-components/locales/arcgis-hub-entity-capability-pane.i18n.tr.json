@@ -1,0 +1,35 @@
+{
+  "success": "Düzenlemeler başarıyla kaydedildi",
+  "error": "Düzenlemeler kaydedilirken hata oluştu",
+  "formAlert": "Biçim uyarısı",
+  "projects": {
+    "header": "Projeler",
+    "list": "Proje Listesi",
+    "config": "Yapılandırma",
+    "notConfigured": "Projeler özelliği yapılandırılmadı. Lütfen Yapılandırma sekmesini kullanın."
+  },
+  "content": {
+    "header": "İçerik",
+    "list": "İçerik Listesi",
+    "config": "Yapılandırma",
+    "notConfigured": "İçerik özelliği yapılandırılmadı. Lütfen Yapılandırma sekmesini kullanın."
+  },
+  "initiatives": {
+    "header": "İnisiyatifler",
+    "list": "İnisiyatif Listesi",
+    "config": "Yapılandırma",
+    "notConfigured": "İnisiyatifler özelliği yapılandırılmadı. Lütfen Yapılandırma sekmesini kullanın."
+  },
+  "events": {
+    "header": "Etkinlikler",
+    "list": "Etkinlik Listesi",
+    "config": "Yapılandırma",
+    "notConfigured": "Etkinlikler özelliği yapılandırılmadı. Lütfen Yapılandırma sekmesini kullanın."
+  },
+  "pages": {
+    "header": "Sayfalar",
+    "list": "Sayfa Listesi",
+    "config": "Yapılandırma",
+    "notConfigured": "Sayfalar özelliği yapılandırılmadı. Lütfen Yapılandırma sekmesini kullanın."
+  }
+}

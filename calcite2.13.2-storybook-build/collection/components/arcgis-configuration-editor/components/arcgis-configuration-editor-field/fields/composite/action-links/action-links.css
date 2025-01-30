@@ -1,0 +1,29 @@
+hub-composite-input-action-links > calcite-sortable-list {
+
+    margin-top: 1.5rem
+}
+
+[slot="actions-end"] {
+
+    display: flex
+}
+
+calcite-link calcite-action {
+
+    height: 100%
+}
+
+calcite-link.content-link {
+
+    display: block
+}
+
+.action-links__add calcite-button:not(:first-child) {
+
+    margin-left: 0.5rem
+}
+
+.action-links__section calcite-sortable-list {
+
+    margin-left: 1.5rem
+}

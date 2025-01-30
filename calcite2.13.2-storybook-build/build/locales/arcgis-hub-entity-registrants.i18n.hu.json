@@ -1,0 +1,46 @@
+{
+  "registrants": "Regisztrálók",
+  "invite": "Meghívás",
+  "tabs": {
+    "registrants": "Regisztrálók",
+    "settings": "Beállítások"
+  },
+  "emptyNotice": {
+    "title": "Nincsenek regisztrálók",
+    "desc": "Az események közönséggel mindig sokkal szórakoztatóbbak. Hívjon meg embereket, vagy ossza meg az eseményét, ezzel ösztönözve az embereket a részvételre.",
+    "link": "Regisztrálók meghívása"
+  },
+  "facets": {
+    "role": {
+      "header": "Szerepkör",
+      "owner": "Tulajdonos",
+      "organizer": "Szervező",
+      "attendee": "Regisztráló"
+    },
+    "status": {
+      "header": "Állapot",
+      "pending": "Függőben",
+      "accepted": "Elfogadva",
+      "declined": "Elutasítva",
+      "blocked": "Letiltva"
+    },
+    "location": {
+      "header": "Helyszín",
+      "online": "Online",
+      "in_person": "Személyes megjelenésű"
+    },
+    "updatedDate": "Frissített dátum"
+  },
+  "delete": {
+    "attendee": "Regisztráló eltávolítása"
+  },
+  "notice": {
+    "label": "Űrlappal kapcsolatos figyelmeztetés"
+  },
+  "success": {
+    "delete": "A regisztrálók sikeresen eltávolítva a(z) {eventName} eseményről."
+  },
+  "error": {
+    "delete": "Egy vagy több regisztrálót nem sikerült eltávolítani az eseményről."
+  }
+}

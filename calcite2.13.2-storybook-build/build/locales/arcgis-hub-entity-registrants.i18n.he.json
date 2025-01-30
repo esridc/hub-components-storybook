@@ -1,0 +1,46 @@
+{
+  "registrants": "נרשמים",
+  "invite": "הזמן",
+  "tabs": {
+    "registrants": "נרשמים",
+    "settings": "הגדרות"
+  },
+  "emptyNotice": {
+    "title": "אין נרשמים",
+    "desc": "תמיד מהנה יותר לקיים אירועים עם קהל. הזמן אנשים או שתף את האירוע כדי לעודד השתתפות של אנשים.",
+    "link": "הזמן נרשמים"
+  },
+  "facets": {
+    "role": {
+      "header": "תפקיד",
+      "owner": "בעלים",
+      "organizer": "מארגן",
+      "attendee": "נרשם"
+    },
+    "status": {
+      "header": "סטטוס",
+      "pending": "בהמתנה",
+      "accepted": "התקבל",
+      "declined": "נדחה",
+      "blocked": "חסום"
+    },
+    "location": {
+      "header": "מיקום",
+      "online": "מקוון",
+      "in_person": "פנים אל פנים"
+    },
+    "updatedDate": "עדכן תאריך"
+  },
+  "delete": {
+    "attendee": "הסר נרשם"
+  },
+  "notice": {
+    "label": "התראת צורה"
+  },
+  "success": {
+    "delete": "הנרשמים הוסרו בהצלחה מ: {eventName}."
+  },
+  "error": {
+    "delete": "לא ניתן להסיר מהאירוע נרשם אחד או יותר."
+  }
+}

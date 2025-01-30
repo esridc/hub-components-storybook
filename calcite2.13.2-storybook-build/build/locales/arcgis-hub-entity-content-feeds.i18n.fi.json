@@ -1,0 +1,81 @@
+{
+  "tabTitle": "Syötemääritys",
+  "learn": "Lisätietoja Hub-syötteistä",
+  "loadingLabel": "Ladataan",
+  "enableFeedsToggle": {
+    "label": "Ota syötteet käyttöön",
+    "privateNotice": "Jos haluat ottaa syötteet käyttöön, määritä ensin Hub-sivusto julkiseksi.",
+    "emptyPublicCatalog": {
+      "message": "Jos haluat ottaa syötteet käyttöön, lisää ensin julkinen sisältö luetteloosi.",
+      "button": "Näytä luettelo"
+    },
+    "grouplessCatalog": {
+      "message": "Jos haluat ottaa syötteet käyttöön, määritä ensin luettelo.",
+      "button": "Määritä luettelo"
+    }
+  },
+  "gettingStartedNotice": {
+    "title": "Käytön aloittaminen",
+    "exampleMessage": "Korosta ja päivitä avain tai arvo JSON-editorissa käyttämällä literaalia (VALUE) tai mallin ({{TEMPLATE_VALUE}}) arvoa.",
+    "previewMessage": "Esikatsele muutoksia esikatselun vaihtopainikkeella. Lisätietoja saat <catalogFederationLink>luettelohajautuksen ohjeesta</catalogFederationLink>."
+  },
+  "aboutFeedsNotice": {
+    "message": "Hub-syötteillä julkista Open Data -aineistoa on helppo käsitellä ja käyttää uudelleen.",
+    "link": "Lisätietoja Hub-syötteistä"
+  },
+  "feedsEditorSection": {
+    "title": "Syötteet",
+    "formatSelectLabel": "Valitse syötteen tyyppi",
+    "uneditableAttributesIntro": "Ota huomioon, että seuraavia ominaisuustietoja ei voi muokata:",
+    "edit": "Muokkaa",
+    "preview": "Esikatselu",
+    "selectContentNotice": "Valitse esikatseltava sisältö.",
+    "invalidJsonEditorWarning": "Virheellinen JSON. Korjaa virheet ennen tallennusta.",
+    "invalidJsonPreviewWarning": "Virheellistä JSON-muotoa ei voi esikatsella. Korjaa virheet.",
+    "errorPreviewingWarning": "On ilmennyt virhe. Tarkista yhteys ja yritä uudelleen. Jos ongelma jatkuu, ilmoita virheestä Hub-tukeen."
+  },
+  "toolsSection": {
+    "title": "Työkalut",
+    "verification": "Vahvistus",
+    "previewSampleData": {
+      "label": "Esikatsele malliaineistoa",
+      "pickerFacets": {
+        "type": "Tyyppi",
+        "tags": "Tunniste",
+        "categories": "Luokka",
+        "sharing": "Jakaminen",
+        "dateUpdated": "Päivitetty viimeksi"
+      }
+    },
+    "copyableInputLabel": "Syötteen URL-osoite"
+  },
+  "dcat-us": {
+    "1.1": {
+      "title": "DCAT-US 1.1",
+      "description": "DCAT:n avulla organisaatiot voivat standardoida aineiston lisäämisen, ja se auttaa ihmisiä etsimään aineistoa viranomaislähteistä. Voit käyttää projektin Open Data -aineiston muodostamaa <dcatUsSchemaLink>DCAT-rakennetta</dcatUsSchemaLink>, joka on oletuskokoonpano, tai voit määrittää joitakin kenttiä tai attribuutteja itse. Sivuston järjestelmänvalvojat voivat myös lisätä ylimääräisiä DCAT-kokoonpanoja ja lukea ohjeita <catalogFederationLink>aineiston liittämisestä DCATiin ja muihin ulkoisiin luetteloihin.</catalogFederationLink>",
+      "uneditableAttributes": "@type, landingPage, webService ja contactPoint['@type'].",
+      "verificationLabel": "Voit vahvistaa DCAT-syötteen liittämällä sivuston DCAT-URL-osoitteen <dcatUsVerificationLink>projektin Open Data -aineiston vahvistajaan</dcatUsVerificationLink>."
+    }
+  },
+  "dcat-ap": {
+    "2.1.1": {
+      "title": "DCAT-AP 2.1.1",
+      "description": "Euroopan komission muodostama DCAT-AP on metatiedon standardisiirtomuoto, jota käytetään eurooppalaisissa tietoluetteloissa. ArcGIS Hub luo ja päivittää automaattisesti sivuston DCAT-AP-syötteen, kun muokkaat sisällön metatiedon yksityiskohtia tai lisäät uutta julkista sisältöä luetteloon. Koska syöte käyttää ArcGIS Onlinessa ylläpidettäviä metatietoja, erillisiä DCAT-AP-metatietoja ei tarvitse luoda manuaalisesti.<lineBreak></lineBreak><lineBreak></lineBreak>Käyttämällä tätä editoria voit säilyttää ArcGIS Hubin <dcatApSchemaLink>DCAT-AP-rakenteen</dcatApSchemaLink> oletusmäärityksen tai voit määrittää joitain kenttiä tai ominaisuustietoja itse. Voit myös lisätä DCAT-AP-kenttiä tai ominaisuustietoja. Lisätietoja on ArcGIS Hubin dokumentaatiossa, jossa kerrotaan <catalogFederationLink>aineiston liittämisestä DCATiin ja muihin ulkoisiin luetteloihin</catalogFederationLink>.",
+      "uneditableAttributes": "@type, @id, dcat:contactPoint['@id'], dcat:contactPoint['@type'], dct:publisher, dcat:theme, dct:accessRights, dcat:keyword, dct:provenance, dct:issued ja dct:language",
+      "verificationLabel": "Voit vahvistaa DCAT-syötteen liittämällä sivuston DCAT-URL-osoitteen <dcatApVerificationLink>European Commission Interoperability Test Bed</dcatApVerificationLink> -palveluun."
+    }
+  },
+  "rss": {
+    "2.0": {
+      "title": "RSS 2.0",
+      "description": "<rssAboutLink>RSS 2</rssAboutLink> on verkkosisällön syndikointimuoto, ja se on yhdenmukainen <xmlSpecLink>XML 1.0 -määrityksen</xmlSpecLink> kanssa. Käyttämällä tätä editoria voit säilyttää ArcGIS Hubin oletusmäärityksen tai voit määrittää joitakin kenttiä tai ominaisuustietoja itse. Lisätietoja on ArcGIS Hubin dokumentaatiossa, jossa kerrotaan <catalogFederationLink>aineiston liittämisestä DCATiin ja muihin ulkoisiin luetteloihin.</catalogFederationLink>",
+      "verificationLabel": "Voit vahvistaa RSS-syötteen siirtämällä sivuston RSS URL -osoitteen W3-<rssVerificationLink>syötevahvistuspalveluun</rssVerificationLink>."
+    }
+  },
+  "saveButton": "Tallenna",
+  "alertMessages": {
+    "success": "Muokkaukset on tallennettu",
+    "error": "Virhe muokkausten tallennuksessa"
+  },
+  "formAlert": "Lomakevaroitus"
+}

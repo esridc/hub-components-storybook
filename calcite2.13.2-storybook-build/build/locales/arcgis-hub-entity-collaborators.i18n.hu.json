@@ -1,0 +1,85 @@
+{
+  "collaborators": "Közreműködők",
+  "editGroupButtonText": "Csoportok szerkesztésének hozzáadása",
+  "viewGroupButtonText": "Csoportok megtekintésének hozzáadása",
+  "groupPicker": {
+    "title": "Csoportok kiválasztása",
+    "facet": {
+      "label": "Feladó",
+      "editGroups": "Csoportok szerkesztése",
+      "viewGroups": "Csoport megtekintése",
+      "myGroups": "Saját csoportok",
+      "myOrganization": "Saját szervezet",
+      "myCommunity": "Saját közösség"
+    }
+  },
+  "addNewPeopleNotice": {
+    "title": "Új emberek hozzáadása",
+    "message": "Ha további személyeket kell felvennie, meghívhatja őket, hogy csatlakozzanak a közösséghez, vagy <orgOverviewLink>kapcsolatba léphet a rendszergazdával</orgOverviewLink>."
+  },
+  "editGroupsTitle": "Csoportok, melyek szerkeszthetnek",
+  "viewGroupsTitle": "Csoportok, melyek megtekinthetnek",
+  "project": {
+    "description": "Válassza ki, hogy mely felhasználói csoportok láthatják és szerkeszthetik ezt a projektet.",
+    "editGroupsDescription": "Az ezekben a csoportokban lévő személyek képesek lesznek szerkeszteni a projekt információit.",
+    "viewGroupsDescription": "Az ezekben a csoportokban lévő személyek képesek lesznek keresni és megtekinteni a projektet, ha az nincs megosztva a nyilvánosság számára.",
+    "errorMessage": "Hiba történt a csoport együttműködőinek frissítése során."
+  },
+  "content": {
+    "description": "Válassza ki, hogy mely felhasználói csoportok láthatják és szerkeszthetik ezt a tartalmat.",
+    "editGroupsDescription": "Az ezekben a csoportokban lévő személyek képesek lesznek szerkeszteni a tartalmi információkat.",
+    "viewGroupsDescription": "Az ezekben a csoportokban lévő személyek képesek lesznek keresni és megtekinteni a tartalmat, ha az nincs megosztva a nyilvánosság számára.",
+    "errorMessage": "Hiba történt a tartalom együttműködőinek frissítése során."
+  },
+  "discussion": {
+    "description": "Válassza ki, hogy mely felhasználói csoportok tekinthetik meg a vitafórumot, és melyek szerkeszthetik a fórum információit.",
+    "editGroupsDescription": "Ezen csoportok tagjai szerkeszthetik a vitafórum információit.",
+    "viewGroupsDescription": "Ezen csoportok tagjai kereshetnek, és megtekinthetik a vitafórumot (ha az nem nyilvános).",
+    "errorMessage": "Hiba történt a vitafórum együttműködőinek frissítése során."
+  },
+  "site": {
+    "description": "Válassza ki, hogy mely felhasználói csoportok láthatják és szerkeszthetik ezt az oldalt.",
+    "editGroupsDescription": "Az ezekben a csoportokban lévő személyek képesek lesznek szerkeszteni az oldal információit.",
+    "viewGroupsDescription": "Az ezekben a csoportokban lévő személyek képesek lesznek keresni és megtekinteni az oldalt, ha az nincs megosztva a nyilvánosság számára.",
+    "errorMessage": "Hiba történt az oldal együttműködőinek frissítése során."
+  },
+  "template": {
+    "description": "Válassza ki, hogy mely felhasználói csoportok láthatják és szerkeszthetik ezt a sablont.",
+    "editGroupsDescription": "Az ezekben a csoportokban lévő személyek képesek lesznek szerkeszteni a sablon információit.",
+    "viewGroupsDescription": "Az ezekben a csoportokban lévő személyek képesek lesznek keresni és megtekinteni a sablont, ha az nincs megosztva a nyilvánosság számára.",
+    "errorMessage": "Hiba történt a sablon együttműködőinek frissítése során."
+  },
+  "survey": {
+    "description": "Válassza ki, hogy mely felhasználói csoportok láthatják és szerkeszthetik ezt a felmérést.",
+    "editGroupsDescription": "Az ezekben a csoportokban lévő személyek képesek lesznek szerkeszteni a felmérés információit.",
+    "viewGroupsDescription": "Az ezekben a csoportokban lévő személyek képesek lesznek keresni és megtekinteni a felmérést, ha az nincs megosztva a nyilvánosság számára.",
+    "errorMessage": "Hiba történt a felmérés együttműködőinek frissítése során."
+  },
+  "event": {
+    "description": "Válassza ki, hogy mely felhasználói csoportok láthatják és szerkeszthetik ezt az eseményt.",
+    "editGroupsDescription": "Az ezekben a csoportokban lévő személyek képesek lesznek szerkeszteni az eseményinformációkat.",
+    "viewGroupsDescription": "Az ezekben a csoportokban lévő személyek képesek lesznek keresni és megtekinteni az eseményt, ha az nincs megosztva a nyilvánossággal.",
+    "errorMessage": "Hiba történt az esemény együttműködőinek módosítása során."
+  },
+  "newTab": "Profil megnyitása új lapon",
+  "supportingTeams": "Segédcsapatok",
+  "supportingTeamsDesc": "Ezek a segédcsapatok korábban kapcsolódtak az Ön webhelyéhez. Továbbra is használhatja őket a munkatársakkal tartalmak megosztására.",
+  "supportTeamsRemove": "Csapat eltávolítása",
+  "supportingTeamsRemoveError": "Hiba a csapat csatolásának megszüntetése során. Lépjen kapcsolatba az adminisztrátorral.",
+  "supportingTeamsRemoveSuccess": "A csapat csatolásának megszüntetése sikerült.",
+  "view": {
+    "button": "Nézetcsoport létrehozása",
+    "formLabel": "Új megtekintőcsoport",
+    "description": "Csoport létrehozása a tartalommegosztás és a kommunikáció elősegítésére. A csoporttagok megtekinthetik a csoporttal megosztott tartalmakat."
+  },
+  "edit": {
+    "button": "Szerkesztési csoport létrehozása",
+    "formLabel": "Új szerkesztési csoport",
+    "description": "Csoport létrehozása a tartalommegosztás és a kommunikáció elősegítésére. A csoporttagok megtekinthetik és szerkeszthetik a csoporttal megosztott tartalmakat."
+  },
+  "groupCreateDisabledButtonTooltip": "Nem tud csoportot létrehozni. Előfordulhat, hogy már a maximális számú csoportban van, vagy nincs elegendő jogosultsága egy csoport létrehozásához.",
+  "groupCreateError": "Hiba történt a csoport létrehozása során.",
+  "notice": {
+    "label": "Űrlappal kapcsolatos figyelmeztetés"
+  }
+}

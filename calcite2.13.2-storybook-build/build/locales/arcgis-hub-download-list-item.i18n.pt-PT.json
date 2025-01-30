@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "Coleção de elementos",
+    "fgdb": "Geodatabase de ficheiros",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Shapefile",
+    "sqlite": "Geodatabase SQLite"
+  },
+  "buttonText": {
+    "download": "Transferir",
+    "pending": "Pendente",
+    "processing": "A processar",
+    "converting": "A converter",
+    "completed": "Transferência concluída",
+    "failed": "A transferência falhou"
+  },
+  "errors": {
+    "errorHeading": "Erro"
+  },
+  "cacheStatusAccordion": {
+    "heading": "Encontrou o que precisava?",
+    "content": "Pode estar disponível uma versão mais recente.",
+    "button": "Solicitar novo ficheiro"
+  },
+  "generateNewModal": {
+    "heading": "Tem a certeza?",
+    "content": "Isto poderá demorar algum tempo. Mantenha este separador do navegador ativo até a transferência estar concluída.",
+    "confirmButton": "Sim",
+    "cancelButton": "Cancelar"
+  }
+}

@@ -1,0 +1,31 @@
+/**
+* NOTE: this is a temporary fix to have text-areas show validation error colors,
+* as the calcite-text-area status property is included in calcite v2.0.0,
+* and we cannot currently use that version.
+*
+* This can be removed once we bump to calcite 2.0.0.
+**/
+calcite-text-area[status='invalid'] {
+  --calcite-color-border-input: var(--calcite-color-status-danger);
+}
+
+calcite-text-area[status='invalid']:focus {
+  --calcite-ui-focus-color: var(--calcite-color-status-danger);
+}
+
+#character-counter > span {
+  margin-inline-start: auto;
+  margin-top: 0.25rem;
+}
+
+#sr-character-counter {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}

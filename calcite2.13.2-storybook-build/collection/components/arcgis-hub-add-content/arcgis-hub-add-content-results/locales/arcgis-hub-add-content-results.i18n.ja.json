@@ -1,0 +1,54 @@
+{
+  "existing": {
+    "successHeading": "コンテンツが正常に追加されました。",
+    "failureHeading": "選択したグループにコンテンツを追加できません。",
+    "successfulAccordionHeading": "選択したグループにコンテンツが追加されました。",
+    "unsuccessfulAccordionHeading": "選択したグループにコンテンツが追加されませんでした"
+  },
+  "create": {
+    "event": {
+      "successWithoutGroupHeading": "イベントが正常に作成されました。",
+      "successWithGroupHeading": "イベントが正常に作成され、{group} に追加されました。",
+      "successMessage": "イベントを表示し、管理して情報を編集したり、「完了」をクリックしてビューに戻ることができます。",
+      "failureHeading": "選択したグループにイベントを追加できません。"
+    },
+    "discussion": {
+      "successWithoutGroupHeading": "ディスカッション ボードが正常に作成されました。",
+      "successWithGroupHeading": "ディスカッション ボードが正常に作成され、{group} に追加されました。",
+      "successMessage": "ディスカッション ボードを表示し、管理して情報を編集し、「完了」をクリックしてビューに戻ることができます。",
+      "failureHeading": "選択したグループにディスカッション ボードを追加できません。"
+    },
+    "group": {
+      "successWithoutGroupHeading": "グループが正常に作成されました。",
+      "successMessage": "グループを表示し、管理して情報を編集したり、「完了」をクリックしてビューに戻ることができます。",
+      "failureHeading": "グループを作成できません。"
+    },
+    "initiative": {
+      "successWithoutGroupHeading": "イニチアティブが正常に作成されました。",
+      "successWithGroupHeading": "イニシアティブが正常に作成され、{group} に追加されました。",
+      "successMessage": "イニシアティブを表示し、管理して情報を編集したり、「完了」をクリックしてビューに戻ることができます。",
+      "failureHeading": "選択したグループにイニシアティブを追加できません。"
+    },
+    "page": {
+      "successWithoutGroupHeading": "ページが正常に作成されました。",
+      "successWithGroupHeading": "ページが正常に作成され、{group} に追加されました。",
+      "successMessage": "ページを表示し、管理して情報を編集したり、「完了」をクリックしてビューに戻ることができます。",
+      "failureHeading": "選択したグループにページを追加できません。"
+    },
+    "project": {
+      "successWithoutGroupHeading": "プロジェクトが正常に作成されました。",
+      "successWithGroupHeading": "プロジェクトが正常に作成され、{group} に追加されました。",
+      "successMessage": "プロジェクトを表示し、管理して情報を編集したり、「完了」をクリックしてビューに戻ることができます。",
+      "failureHeading": "選択したグループにプロジェクトを追加できません。"
+    },
+    "site": {
+      "successWithoutGroupHeading": "サイトが正常に作成されました。",
+      "successWithGroupHeading": "サイトが正常に作成され、{group} に追加されました。",
+      "successMessage": "サイトを表示し、管理して情報を編集したり、「完了」をクリックしてビューに戻ることができます。",
+      "failureHeading": "選択したグループにサイトを追加できません。"
+    }
+  },
+  "editLayout": "レイアウトの編集",
+  "manageEntity": "管理",
+  "viewEntity": "表示"
+}

@@ -1,0 +1,29 @@
+{
+  "additionalInfo": {
+    "label": "Volitelná nastavení displeje",
+    "helperText": "Přidejte vlastní popis ochrany osobních údajů a informace o zásadách."
+  },
+  "allowPrivacyConfig": {
+    "label": "Zobrazit oznámení o ochraně osobních údajů"
+  },
+  "blocking": {
+    "label": "Typ oznámení",
+    "optional": {
+      "label": "Nepovinný souhlas",
+      "description": "Prohlížející může stránky používat bez výběru souhlasu s ochranou osobních údajů; sledování se spustí okamžitě, dokud ho prohlížející neodmítnthe context, e."
+    },
+    "required": {
+      "label": "Vyžadovat souhlas",
+      "description": "Prohlížející musí sledování přijmout nebo odmítnout, aby mohl web používat; sledování se nespustí, pokud ho prohlížející nepřijme."
+    }
+  },
+  "consentText": {
+    "label": "Popis ochrany osobních údajů",
+    "helperText": "Zobrazeno v oznámení o ochraně osobních údajů pro prohlížející stránek."
+  },
+  "policyURL": {
+    "label": "Odkaz na zásady ochrany osobních údajů",
+    "helperText": "Zobrazeno jako odkaz „Více informací“ v oznámení o ochraně osobních údajů.",
+    "error": "Musí to být platná adresa URL, která se má zobrazit."
+  }
+}

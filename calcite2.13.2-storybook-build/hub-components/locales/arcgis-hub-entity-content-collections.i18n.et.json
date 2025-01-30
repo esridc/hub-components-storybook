@@ -1,0 +1,33 @@
+{
+  "title": "Kogud",
+  "actions": {
+    "label": "Valikud",
+    "show": "Kuva",
+    "hide": "Peida",
+    "rename": "Nimeta ümber"
+  },
+  "formAlert": "Vormi hoiatus",
+  "alertMessages": {
+    "success": "Muudatused on salvestatud",
+    "error": "Tõrge muudatuste salvestamisel"
+  },
+  "collectionRenameModal": {
+    "title": "Anna kogumile teine nimi",
+    "fieldLabel": "Kogumi märgis",
+    "requiredMessage": "Kogumi märgis on vajalik",
+    "apply": "Esitage taotlus",
+    "maxLengthMessage": "Kogumi märgis ei tohi olla pikem kui 50 tähemärki"
+  },
+  "collections": {
+    "dataset": "Andmed",
+    "site": "Saidid",
+    "document": "Dokumendid",
+    "appAndMap": "Rakendused ja kaardid"
+  },
+  "saveButton": "Salvesta",
+  "sections": {
+    "collectionConfiguration": {
+      "title": "Kogu konfiguratsioon"
+    }
+  }
+}

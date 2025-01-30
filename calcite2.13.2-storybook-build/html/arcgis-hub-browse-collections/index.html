@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-browse-collections</title>
+  <script async src="https://ga.jspm.io/npm:es-module-shims@1.6.2/dist/es-module-shims.js"></script>
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+
+  <!-- link to calcite components CSS  -->
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+
+  <!-- NOTE: calcite web CSS is only used for grid layout of this page -->
+  <!-- see: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+  <link rel="stylesheet" href="../calcite-web.min.css">
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+    .inline {
+      display: flex;
+      justify-content: flex-start;
+    }
+    #domain {
+      width: 50rem;
+      margin-left: 1rem;
+    }
+    #browse {
+      margin: 0 0.5rem;
+    }
+  </style>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+
+  <!-- load calcite components -->
+  <script type="module" src="../../calcite/calcite.esm.js"></script>
+
+  <!-- load hub components -->
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+</head>
+
+<body>
+  <harness-header page-title=arcgis-hub-browse-collections environment="prod"></harness-header>
+  <div class="grid-container padding-leader-4">
+    <!-- docs about grid container: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+
+    <div class="column-24">
+      <div class="inline">
+      <calcite-dropdown id="entitySelect">
+        <calcite-button slot="trigger">Select Site</calcite-button>
+        <calcite-dropdown-group >
+            <calcite-dropdown-item data-value="opendata.dc.gov">opendata.dc.gov</calcite-dropdown-item>
+            <calcite-dropdown-item data-value="data-maryland.opendata.arcgis.com">data-maryland.opendata.arcgis.com</calcite-dropdown-item>
+            <calcite-dropdown-item data-value="www.heat.gov">heat.gov</calcite-dropdown-item>
+            <calcite-dropdown-item data-value="data.raleighnc.gov">data.raleighnc.gov</calcite-dropdown-item>
+            <calcite-dropdown-item data-value="www.nconemap.gov">www.nconemap.gov</calcite-dropdown-item>
+        </calcite-dropdown-group>
+      </calcite-dropdown>
+      <calcite-button id="browse">Return to Browse</calcite-button>
+      <calcite-input id="domain" placeholder="Enter Site Domain" >
+            <calcite-button slot="action" id="loadDomain">
+                Load
+            </calcite-button>
+        </calcite-input>
+      </div>
+      <arcgis-hub-browse-collections-wrapper id="arcgis-hub-browse-collections-harness" domain="opendata.dc.gov">
+      </arcgis-hub-browse-collections-wrapper>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('entitySelect').addEventListener('calciteDropdownSelect', (event) => {
+      const entry = event.target.selectedItems[0].getAttribute('data-value');
+      setProp('domain', entry);
+      setProp('view', "browse");
+      setProp('collection', null)
+    });
+    document.getElementById('browse').addEventListener('click', () => {
+      setProp('view', "browse");
+      setProp('collection', null)
+    });
+    document.getElementById('loadDomain').addEventListener('click', () => {
+      setProp('view', "browse");
+      setProp('collection', null);
+      const entry = document.getElementById('domain').value;
+      setProp('domain', entry);
+    });
+    // set a property on the element
+    function setProp(key, value) {
+      const el = document.querySelector("#arcgis-hub-browse-collections-harness");
+      el[key] = value;
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+:host {
+  display: block;
+}
+
+calcite-modal {
+  z-index: 999999;
+}
+
+/* just for the demo */
+.modal-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.smile {
+  height: auto;
+  width: 20vh;
+  background-color: yellow;
+  border-radius: 50%;
+}

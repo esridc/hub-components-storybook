@@ -1,0 +1,43 @@
+{
+  "content": "Περιεχόμενο",
+  "myContent": "Το Περιεχόμενό μου",
+  "editableContent": "Περιεχόμενο με δυνατότητα επεξεργασίας",
+  "addContentButtonText": "Δημιουργία νέου",
+  "type": "Τύπος",
+  "sharedUpdate": "Ομάδα κοινής ενημέρωσης",
+  "viewOnly": "Ομάδα μόνο προβολής",
+  "owner": "Κάτοχος",
+  "updated": "Επιτυχής ενημέρωση",
+  "tags": "Ετικέτες",
+  "dateCreated": "Δημιουργημένο",
+  "dateUpdated": "Τροποποιήθηκε",
+  "actionLinks": {
+    "view": "Προβολή",
+    "edit": "Επεξεργασία",
+    "ariaEdit": "Επεξεργασία: {title}",
+    "ariaView": "Προβολή: {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Περιεχόμενο",
+      "myContent": "Περιεχόμενο που μου ανήκει",
+      "editableContent": "Περιεχόμενο που μπορώ να επεξεργαστώ",
+      "all": "Όλο το περιεχόμενο"
+    },
+    "access": {
+      "label": "Από"
+    },
+    "type": {
+      "label": "Τύποι"
+    },
+    "tags": {
+      "label": "Ετικέτες"
+    },
+    "categories": {
+      "label": "Κατηγορίες"
+    },
+    "modified": {
+      "label": "Τροποποιήθηκε"
+    }
+  }
+}

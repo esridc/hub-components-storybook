@@ -1,0 +1,35 @@
+{
+  "overview": "Áttekintés",
+  "resources": "Hub erőforrások",
+  "cards": {
+    "items": "Elemek száma:",
+    "groups": "Csoportok száma"
+  },
+  "hubContent": {
+    "heading": "Nemrég módosított elosztóközpont-elemek",
+    "link": "Összes tartalom megtekintése"
+  },
+  "content": {
+    "heading": "Nemrég módosított tartalom",
+    "stat": "Elemek száma",
+    "link": "Összes tartalom megtekintése"
+  },
+  "groups": {
+    "heading": "Legutóbb módosított csoportok",
+    "stat": "Csoportok száma",
+    "link": "Az összes csoport megtekintése"
+  },
+  "contentCount": "Tartalom",
+  "addContent": "Új létrehozása",
+  "facets": {
+    "access": {
+      "label": "Ettől:"
+    },
+    "type": {
+      "label": "Típusok"
+    },
+    "modified": {
+      "label": "Módosítva"
+    }
+  }
+}

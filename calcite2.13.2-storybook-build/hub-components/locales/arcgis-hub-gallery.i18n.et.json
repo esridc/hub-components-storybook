@@ -1,0 +1,91 @@
+{
+  "moreResults": "Veel tulemusi",
+  "search": "Otsing",
+  "filter": "Filtrid",
+  "viewResults": "Kuva tulemused ({numResults})",
+  "resultsCount": "1–{pageTotal}, kokku {searchTotal}",
+  "backToTop": "Tagasi algusse",
+  "facets": {
+    "access": {
+      "label": "Jagamine",
+      "private": "Mina ise",
+      "shared": "Omanik ja grupid",
+      "org": "Organisatsioon",
+      "public": "Avalik"
+    },
+    "license": {
+      "label": "Litsents",
+      "tooltip": "Ainult avalikule sisule",
+      "custom": "Kohandatud",
+      "none": "Puudub"
+    },
+    "type": {
+      "label": "Tüüp"
+    },
+    "tags": {
+      "label": "Märksõnad"
+    },
+    "dateUpdated": {
+      "label": "Uuendamise kuupäev"
+    },
+    "source": {
+      "label": "Allikas",
+      "tooltip": "Avalik sisu erinevatelt organisatsioonidelt"
+    },
+    "categories": {
+      "label": "Kategooriad"
+    },
+    "location": {
+      "label": "Asukoht",
+      "tooltip": "Rakenda kaardi ulatus asukohafiltrina"
+    },
+    "event": {
+      "from": {
+        "label": "Kuuluvus",
+        "myContent": "Mina",
+        "myOrganization": "Minu organisatsioon",
+        "world": "Igaüks"
+      },
+      "access": {
+        "label": "Juurdepääs",
+        "private": "Privaatne",
+        "org": "Organisatsioon",
+        "public": "Avalik"
+      },
+      "startDate": {
+        "label": "Sündmuse kuupäev"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "Tüüp",
+        "all": "Kõik",
+        "view": "Kuva",
+        "edit": "Muuda"
+      },
+      "role": {
+        "label": "Roll",
+        "all": "Kõik",
+        "member": "Liige",
+        "manager": "Haldur",
+        "owner": "Omanik"
+      },
+      "sharing": {
+        "label": "Nähtavus",
+        "private": "Privaatne",
+        "public": "Avalik"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "Kuva loend",
+    "grid": "Kuva ruudustik",
+    "map": "Kuva kaart",
+    "compact": "Kuva kompaktselt",
+    "calendar": "Kuva kalender",
+    "table": "Kuva tabel"
+  },
+  "galleryActionsLabel": "Lisatoimingud",
+  "selected": "Valitud: {count}",
+  "popoverActionButtonLabel": "rohkem tegevusi"
+}

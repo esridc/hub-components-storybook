@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "Dodaj prvu radnju",
+  "addSecondAction": "Dodaj drugu radnju",
+  "addLink": "Dodaj link",
+  "addSection": "Dodaj odeljak",
+  "deleteNotice": {
+    "title": "Brisanje nije moguće",
+    "message": "Odeljak nije prazan Premestite sve linkove van odeljka pre nego što pokušate da izbrišete."
+  },
+  "linkEditor": {
+    "save": "Sačuvaj",
+    "delete": "Izbriši",
+    "cancel": "Otkaži",
+    "preview": "Veza za pregled",
+    "title": {
+      "button1": "Prva radnja",
+      "button2": "Druga radnja",
+      "block": "Link radnje"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "Link do postojećeg sadržaja"
+        },
+        "external": {
+          "label": "Link do eksternog izvora"
+        }
+      },
+      "label": {
+        "label": "Oznaka",
+        "helperText": {
+          "button": "Ovaj tekst će se pojaviti na dugmetu.",
+          "block": "Ovo će se pojaviti na bloku podebljano."
+        },
+        "requiredError": "Oznaka je obavezno polje."
+      },
+      "description": {
+        "label": "Opis",
+        "helperText": "Ovo je sekundarna informacija."
+      },
+      "href": {
+        "label": "Link",
+        "requiredError": "Link je obavezno polje.",
+        "formatError": "URL format je netačan."
+      },
+      "contentId": {
+        "label": "Link za sadržaj",
+        "requiredError": "Link za sadržaj je obavezno polje."
+      },
+      "section": {
+        "label": "Pomeri do odeljka",
+        "placeholder": {
+          "noSections": "Nema konfigurisanih odeljaka",
+          "notSet": "Nije u odeljku"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "Odeljak",
+    "helperText": "Odeljci mogu da se koriste za ugnežđivanje linkova ispod stavke menija. Odeljci ne rade kao link.",
+    "section": {
+      "label": {
+        "label": "Oznaka",
+        "requiredError": "Oznaka je obavezno polje."
+      },
+      "description": {
+        "label": "Opis"
+      }
+    }
+  }
+}

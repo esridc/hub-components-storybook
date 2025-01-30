@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-map-widget-container</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .map-container {
+      height: 650px;
+    }
+
+    arcgis-hub-map {
+      height: 100%;
+    }
+  </style>
+
+  <script async src="https://ga.jspm.io/npm:es-module-shims@1.6.2/dist/es-module-shims.js"></script>
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet" href="../calcite-web.min.css">
+</head>
+
+<body>
+  <div class="grid-container padding-leader-2">
+    <div class="column-20 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-hub-map-widget-container</h2>
+    </div>
+
+    <div class="column-20 map-container">
+      <p>
+        <calcite-button id="addGeometryBtn">Add Geometry</calcite-button>
+        <calcite-button id="removeGeometryBtn" kind="danger">Remove Geometry</calcite-button>
+        ||
+        <calcite-button id="addExtentBtn">Add Extent</calcite-button>
+        <calcite-button id="removeExtentBtn" kind="danger">Remove Extent</calcite-button>
+        ||
+        <calcite-button id="addBoundaryBtn">Add Draw Boundary</calcite-button>
+        <calcite-button id="removeBoundaryBtn" kind="danger">Remove Draw Boundary</calcite-button>
+      </p>
+      <!-- streets-navigation-vector -->
+      <arcgis-hub-map
+        zoom="5",
+        center="-118.1079,34.1643"
+        basemap="topo-vector"
+      >
+
+      <arcgis-hub-map-widget-container
+        expand-disabled
+        view-position="top-right"
+        scale="m"
+      >
+        <arcgis-hub-map-widget-search
+          scale="m"
+        />
+      </arcgis-hub-map-widget-container>
+
+      <arcgis-hub-map-widget-container
+        expand-disabled
+        view-position="top-right"
+        scale="m"
+      >
+        <arcgis-hub-map-widget-generic
+          icon="table"
+          text="View Table"
+          scale="m"
+        />
+      </arcgis-hub-map-widget-container>
+
+      <arcgis-hub-map-widget-container
+        expand-disabled
+        view-position="top-right"
+        scale="m"
+      >
+        <arcgis-hub-map-widget-legend
+          scale="m"
+        />
+      </arcgis-hub-map-widget-container>
+
+      <arcgis-hub-map-widget-container
+        expand-disabled
+        view-position="top-left"
+        scale="m"
+      >
+        <arcgis-hub-map-widget-layer-list
+          scale="m"
+        />
+      </arcgis-hub-map-widget-container>
+
+      <arcgis-hub-map-widget-container
+        view-position="top-right"
+        scale="m"
+      >
+        <arcgis-hub-map-widget-draw
+          buffer
+          enable-map-tips
+          scale="m"
+        />
+      </arcgis-hub-map-widget-container>
+
+      <arcgis-hub-map-widget-container
+        expand-disabled
+        view-position="top-right"
+        scale="m"
+      >
+        <arcgis-hub-map-widget-home
+          scale="m"
+        />
+        <arcgis-hub-map-widget-zoom
+          scale="m"
+        />
+      </arcgis-hub-map-widget-container>
+
+      </arcgis-hub-map>
+    </div>
+  </div>
+<script type="module">
+  import Polygon from '@arcgis/core/geometry/Polygon.js';
+
+  const mapEl = document.querySelector('arcgis-hub-map');
+  const mapWidgetContainerEls = document.querySelectorAll('arcgis-hub-map-widget-container');
+  const genericMapWidgetEls = document.querySelectorAll('arcgis-hub-map-widget-generic');
+  const legendEls = document.querySelectorAll('arcgis-hub-map-widget-legend');
+  const layerListEls = document.querySelectorAll('arcgis-hub-map-widget-layer-list');
+  const zoomEls = document.querySelectorAll('arcgis-hub-map-widget-zoom');
+  const homeEl = document.querySelector('arcgis-hub-map-widget-home');
+  const searchEls = document.querySelectorAll('arcgis-hub-map-widget-search');
+  const drawEl = document.querySelector('arcgis-hub-map-widget-draw');
+  const addGeomBtn = document.getElementById('addGeometryBtn');
+  const removeGeomBtn = document.getElementById('removeGeometryBtn');
+  const addExtentBtn = document.getElementById('addExtentBtn');
+  const removeExtentBtn = document.getElementById('removeExtentBtn');
+  const addBoundaryBtn = document.getElementById('addBoundaryBtn');
+  const removeBoundaryBtn = document.getElementById('removeBoundaryBtn');
+
+  // Setup with webmap
+  mapEl.settings = {
+    baseViewItemId: ['20d9e962d9f0431fb5ba80cd3cff0269']
+  };
+
+  mapEl.addEventListener('arcgisHubMapViewReady', async (e) => {
+    const { detail: { view }} = e;
+    view.ui.components = [];
+    [...mapWidgetContainerEls, ...legendEls, ...layerListEls, ...zoomEls, homeEl, ...searchEls, drawEl].forEach(el => {
+      el.view = view;
+    });
+    addGeomBtn.addEventListener('click', () => {
+      const polygon = new Polygon({
+        rings: [
+          [-64.78, 32.3],
+          [-66.07, 18.45],
+          [-80.21, 25.78],
+          [-64.78, 32.3]
+        ]
+      });
+      drawEl.geometry = polygon;
+    });
+    removeGeometryBtn.addEventListener('click', () => {
+      drawEl.forceReset();
+    });
+    addExtentBtn.addEventListener('click', () => {
+      const extent = {
+          "type": "extent",
+          "spatialReference": {
+              "wkid": 4326
+          },
+          "xmin": -80.21,
+          "ymin": 18.45,
+          "xmax": -64.78,
+          "ymax": 32.3
+      };
+      drawEl.geometry = extent;
+    });
+    removeExtentBtn.addEventListener('click', () => {
+      drawEl.forceReset();
+    })
+    addBoundaryBtn.addEventListener('click', () => {
+      const nationalMallPoly = new Polygon({
+        rings: [
+          [-77.0321,38.8873],[-77.0148,38.8873],[-77.0148,38.8922],[-77.0321,38.8922],[-77.0321,38.8873]
+        ]
+      });
+      const trackPoly = new Polygon({
+        rings: [
+          [-77.0163,38.9072],[-77.012,38.9072],[-77.012,38.9086],[-77.0163,38.9086],[-77.0163,38.9072]
+        ]
+      });
+      drawEl.boundaries = [nationalMallPoly, trackPoly];
+    });
+    removeBoundaryBtn.addEventListener('click', () => {
+      drawEl.boundaries = [];
+    });
+  });
+
+  genericMapWidgetEls.forEach(el => {
+    el.addEventListener('arcgisHubWidgetSelected', (e) => {
+      console.log(e.target.icon);
+    });
+  });
+  layerListEls.forEach(el => {
+    el.addEventListener('hubTelemetry', (e) => {
+      console.log(e.detail);
+    });
+  });
+  legendEls.forEach(el => {
+    el.addEventListener('hubTelemetry', (e) => {
+      console.log(e.detail);
+    });
+  });
+  zoomEls.forEach(el => {
+    el.addEventListener('hubTelemetry', (e) => {
+      console.log(e.detail);
+    });
+  });
+  searchEls.forEach(el => {
+    el.addEventListener('hubTelemetry', (e) => {
+      console.log(e.detail);
+    });
+  });
+  drawEl.tools = ['select', 'point', 'polyline', 'polygon', 'circle', 'rectangle'];
+  drawEl.color = [156, 31, 209];
+  drawEl.addEventListener('arcgisHubMapDrawGraphicsChange', (e) => {
+    if (e.detail.save) {
+      console.log('Filter Graphics:', e.detail);
+    }
+  });
+  drawEl.addEventListener('arcgisHubMapDrawGraphicsClear', (e) => {
+    console.log('Clear Filter');
+  });
+  drawEl.addEventListener('hubTelemetry', e => {
+    console.log(e.detail);
+  });
+  drawEl.addEventListener('arcgisHubMapDrawSelect', e => {
+    console.log('Select', e.detail);
+  });
+</script>
+</body>
+
+</html>

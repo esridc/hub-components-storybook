@@ -1,0 +1,150 @@
+{
+  "modal": {
+    "dismiss": "Znova nezobrazovať",
+    "close": "Zatvoriť"
+  },
+  "notice": {
+    "n001": {
+      "title": "Oznámenie o teste",
+      "message": "Toto je hlavná časť oznámenia o teste",
+      "actions": [
+        {
+          "text": "Prečítajte si blog"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-1": {
+      "title": "Prepnite na aktualizované skúsenosti so sťahovaním",
+      "message": "Ak chcete získať ďalšie formáty a zlepšiť rýchlosť a výkon, povoľte v službe tejto položky funkciu „extrakcie“."
+    },
+    "20240220-hosted-downloads-2": {
+      "title": "Vylepšenia sťahovania sú tu!",
+      "message": "Vylepšenia sťahovania na lokalitách Hub zahŕňajú podporu hostovaného sťahovania, aktualizovaný vzhľad kariet sťahovania a nový ukazovateľ priebehu sťahovania.",
+      "actions": [
+        {
+          "text": "Viac informácií"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-3": {
+      "title": "Hostované sťahovania sú tu!",
+      "message": "Hostované sťahovania napomáhajú vylepšiť výkon pri sťahovaní obsahu. Pre povolenie hostovaných sťahovaní nezabudnite nižšie povoliť Možnosti extrakcie.",
+      "actions": [
+        {
+          "text": "Viac informácií"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-basic": {
+      "title": "O pracovných priestoroch",
+      "message": "<p><strong>Pridávanie obsahu do katalógov lokalít pomocou skupinových</strong><br>katalógov vyhľadávania lokalít bolo vždy podporované skupinami a pracovné priestory uľahčujú správu týchto skupín. Zatiaľ pridávajte obsah do jednotlivých skupín pripojených k vášmu webu, aby sa zobrazovali v katalógu webu. Čoskoro budete môcť pridávať obsah priamo do katalógu.</p><p><strong>Prechod z tímov na skupiny</strong><br>Na spoluprácu na lokalitách, stránkach, obsahu a projektoch v Hub-e môžete teraz používať akúkoľvek skupinu ArcGIS Online. Všetky predtým prepojené „tímy\", ako napríklad „základný tím“ lokality, sa budú stále zobrazovať na paneli Spolupracovníci v pracovnom priestore lokality.</p><p><strong>Dočasné pozastavenie tímového zasielania e-mailových správ</strong><br>Odosielanie e-mailových správ a e-mailových pozvánok/odvolaní členom tímu a sledovateľom nie je v súčasnosti podporované.</p><p><strong>Odstránenie vloženého návrhára webových stránok Survey123</strong><br>Vložili sme návrhár Survey 123, aby sme vám pomohli urobiť viac práce v Hub-e. Spätná väzba od zákazníkov však naznačila, že uprednostňujú návrh a správu prieskumov v Survey123, rovnako ako v iných aplikáciách. Preto rušíme podporu vloženého návrhára Survey 123 v ArcGIS Hub, aby sme ho lepšie zosúladili s vaším požadovaným pracovným postupom.</p>",
+      "actions": [
+        {
+          "text": "Viac informácií"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-premium": {
+      "title": "O pracovných priestoroch",
+      "message": "<p><strong>Pridávanie obsahu do katalógov lokalít pomocou skupinových</strong><br>katalógov vyhľadávania lokality bolo vždy podporované skupinami a pracovné priestory uľahčujú správu týchto skupín. Zatiaľ pridávajte obsah do jednotlivých skupín pripojených k vašej lokalite, aby sa zobrazovali v katalógu lokality. Čoskoro budete môcť pridávať obsah priamo do katalógu.</p><p><strong>Prechod z podporných tímov na skupiny</strong><br>Na spoluprácu na lokalitách, stránkach, obsahu a projektoch v Hub-e môžete teraz používať akúkoľvek skupinu ArcGIS Online. Všetky predtým prepojené podporné tímy sa budú stále zobrazovať na paneli Spolupracovníci v pracovnom priestore lokality. Ak chcete pokračovať v podpore, pridajte podporné tímy ako skupiny, ktoré môžu zobrazovať, a skupiny, ktoré môžu editovať.</p><p><strong>Tímové e-mailové správy sú dočasne pozastavené.</strong><br>Aktuálne nie je podporované odosielanie e-mailových správ a pozvánok/odstraňovanie e-mailov členom tímu a sledovateľom.</p><p><strong>Ukončenie podpory vstavaného dizajnéra Survey123 pre webovú lokalitu</strong><br>Dizajnéra Survey123 sme zahrnuli aby sme vám pomohli urobiť viac v Hub-e. Spätná väzba od zákazníkov však naznačila, že uprednostňujú dizajn a správu prieskumov v Survey123, podobne ako v iných aplikáciách. Preto rušíme podporu vstavaného dizajnéra Survey123 v ArcGIS Hub, aby sme ho lepšie zosúladili s vaším požadovaným pracovným postupom.</p><p><strong>Udalosti ešte nie sú k dispozícii v pracovných priestoroch</strong><br>Udalosti prechádzajú transformáciou a čoskoro by mali byť k dispozícii v rámci pracovných priestorov. Ak sa prihlásite do pracovných priestorov, stratíte možnosť vytvárať nové udalosti, spravovať a vyhľadávať existujúce udalosti. Ak však chcete spravovať skôr vytvorené udalosti, môžete sa kedykoľvek odhlásiť.</p>",
+      "actions": [
+        {
+          "text": "Viac informácií"
+        }
+      ]
+    },
+    "202404-workspaceannouncement": {
+      "title": "Predstavenie pracovných priestorov",
+      "message": "Pracovné priestory sú novým spôsobom editácie a správy položiek v Hub-e, ktorý nahrádza globálnu navigáciu v editačnom zobrazení (nie v live zobrazení). V tejto fáze sa môžete (kedykoľvek) \"prihlásiť\" k používaniu pracovných priestorov a súvisiacich funkcionalít pre položky a skupiny. Udalosti budú k dispozícii v neskoršej fáze. Ak teraz chcete vyskúšať pracovné priestory, vyberte možnosť „Prejsť do nastavení“.",
+      "actions": [
+        {
+          "text": "Prejsť do nastavení"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing": {
+      "title": "Opätovné predstavenie – Iniciatívy Hub",
+      "message": "Iniciatívy ArcGIS Hub sa zmenili 2. júla 2024. Predtým vytvorené iniciatívy sú teraz samostatné lokality - s rovnakým rozložením, obsahom, URL adresami a prémiovými funkciami (ako sú sledovatelia a udalosti) ako predtým. Ak chcete vyskúšať nové obnovené iniciatívy, musíte povoliť pracovné priestory.",
+      "actions": [
+        {
+          "text": "Zistite viac o iniciatívach",
+          "ariaLabel": "Ďalšie informácie o iniciatívach, Otvorí sa v novom okne"
+        },
+        {
+          "text": "Prejsť do nastavení"
+        }
+      ]
+    },
+    "20240517-initiatives-manage": {
+      "title": "Riadiť staré inciatívy",
+      "message": "Iniciatívy ArcGIS Hub sa zmenili 2. júla 2024. Predtým vytvorené iniciatívy sú teraz samostatné lokality - s rovnakým rozložením, obsahom, URL adresami a prémiovými funkciami (ako sú sledovatelia a udalosti) ako predtým. Všetky staré iniciatívy môžete bezpečne odstrániť.",
+      "actions": [
+        {
+          "text": "Zistite viac o iniciatívach",
+          "ariaLabel": "Ďalšie informácie o iniciatívach, Otvorí sa v novom okne"
+        },
+        {
+          "text": "Zobraziť staré iniciatívy",
+          "ariaLabel": "Zobraziť staré iniciatívy, Otvorí sa v novom okne"
+        }
+      ]
+    },
+    "20240517-initiatives-manage-no-priv": {
+      "title": "Riadiť staré inciatívy",
+      "message": "Iniciatívy ArcGIS Hub sa zmenili 2. júla 2024. Predtým vytvorené iniciatívy sú teraz samostatné lokality - s rovnakým rozložením, obsahom, URL adresami a prémiovými funkciami (ako sú sledovatelia a udalosti) ako predtým. Všetky staré iniciatívy môžete bezpečne odstrániť.",
+      "actions": [
+        {
+          "text": "Zistite viac o iniciatívach",
+          "ariaLabel": "Ďalšie informácie o iniciatívach, Otvorí sa v novom okne"
+        },
+        {
+          "text": "Zobraziť staré iniciatívy",
+          "ariaLabel": "Zobraziť staré iniciatívy, Otvorí sa v novom okne"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing-site": {
+      "title": "Opätovné predstavenie – Iniciatívy Hub",
+      "message": "Nová generácia iniciatív Hub je teraz k dispozícii v pracovných priestoroch. Iniciatívy majú vlastné, ľahko nastaviteľné zobrazenie a môžu pomôcť zosúladiť projekty Hub, ktoré majú spoločné dlhodobé ciele. Iniciatívy možno vytvárať nezávisle a možno ich zdieľať s jednou alebo viacerými lokalitami. Lokality môžu obsahovať jednu alebo viac iniciatív.",
+      "actions": [
+        {
+          "text": "Viac informácií",
+          "ariaLabel": "Ďalšie informácie, Otvorí sa v novom okne"
+        }
+      ]
+    },
+    "20240710-slow-service-warning": {
+      "title": "Prerušenie služby",
+      "message": "Komunikácia s touto službou trvá dlhšie, ako sa očakávalo. Môže to ovplyvniť váš prístup k stiahnutým položkám a funkciám mapy."
+    },
+    "20240710-unreachable-service-error": {
+      "title": "Služba je nedostupná",
+      "message": "Nemôžeme kontaktovať hostiteľskú službu. Pre túto položku nie sú momentálne k dispozícii stiahnuté položky a mapové funkcie."
+    },
+    "20240807-auth-required-status": {
+      "title": "Stav služby je neznámy",
+      "message": "Nemôžeme získať prístup k zabezpečenej službe, pretože vyžaduje dodatočnú autorizáciu. Pre túto položku nie sú momentálne k dispozícii sťahovania ani mapové funkcionality."
+    },
+    "20240805-private-downloads-unavailable-ago-error": {
+      "title": "Sťahovania sú nedostupné",
+      "message": "Pre stiahnutie obsahu musí byť na ArcGIS Online povolené Exportovanie dát. Kontaktujte vlastníka položky na povolenie tohto nastavenia."
+    },
+    "20240805-private-downloads-unavailable-enterprise-error": {
+      "title": "Sťahovania sú nedostupné",
+      "message": "Pre stiahnutie obsahu musí byť na ArcGIS Enterprise povolené Exportovanie dát. Kontaktujte vlastníka položky na povolenie tohto nastavenia."
+    },
+    "20240819-download-formats-disabled": {
+      "title": "Sťahovania boli deaktivované",
+      "message": "Ak chcete stiahnuť obsah pre túto položku, kontaktujte vlastníka položky."
+    },
+    "20241104-about-feeds-notice": {
+      "message": "Zjednodušte prístup k verejným otvoreným dátam a umožnite ich používanie pomocou Hub kanálov.",
+      "actions": [
+        {
+          "text": "Dozvedieť sa o Hub kanáloch",
+          "ariaLabel": "Dozvedieť sa o kanáloch Hub, otvorí sa na novej karte"
+        }
+      ]
+    }
+  }
+}

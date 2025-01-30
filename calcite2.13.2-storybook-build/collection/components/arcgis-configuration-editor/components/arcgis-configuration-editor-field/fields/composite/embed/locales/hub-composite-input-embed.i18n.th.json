@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "เนื้อหาของฉัน",
+    "livingAtlas": "Living Atlas",
+    "organization": "องค์กรของฉัน",
+    "world": "ทั่วโลก (สาธารณะ)"
+  },
+  "collection": {
+    "appsAndMaps": "แอปและแผนที่",
+    "feedback": "คำติชม"
+  },
+  "facets": {
+    "type": "ประเภท",
+    "tags": "แท็ก",
+    "categories": "หมวดหมู่",
+    "modified": "แก้ไขแล้ว"
+  },
+  "pickerTitle": "เลือกเนื้อหา",
+  "height": "ความสูง (px)",
+  "isScrollable": "เลื่อนได้",
+  "errors": {
+    "heightMinimum": "ค่าต้องเป็นจำนวนบวก",
+    "heightMaximum": "ค่าต้องน้อยกว่าหรือเท่ากับ 2000px",
+    "urlError": "ต้องเป็น URL ที่ใช้งานได้"
+  },
+  "success": {
+    "urlSuccess": "โหลด URL สำเร็จแล้ว"
+  },
+  "shouldApplyBreakpoints": {
+    "label": "ใช้การตั้งค่าตามเบรกพอยต์ของอุปกรณ์แทน"
+  },
+  "viewportAll": {
+    "label": "ค่าเริ่มต้น",
+    "description": "ใช้การตั้งค่ากับทุกขนาดหน้าจอ"
+  },
+  "viewportMobile": {
+    "label": "มือถือ",
+    "description": "ใช้การตั้งค่ากับความกว้างหน้าจอ 360px ขึ้นไป"
+  },
+  "viewportTablet": {
+    "label": "แท็บเล็ต",
+    "description": "ใช้การตั้งค่ากับความกว้างหน้าจอ 560px ขึ้นไป"
+  },
+  "viewportDesktop": {
+    "label": "เดสก์ท็อป",
+    "description": "ใช้การตั้งค่ากับความกว้างหน้าจอ 980px ขึ้นไป"
+  },
+  "sourceLabel": "เลือกประเภทการฝัง",
+  "contentLabel": "เนื้อหา ArcGIS",
+  "externalLabel": "URL ภายนอก",
+  "contentDescription": "เลือกจากแผนที่ ซีน แอปพลิเคชัน การสำรวจ และลิงก์เอกสารที่มีอยู่ ซึ่งคุณสามารถใช้งานได้",
+  "externalDescription": "ป้อน URL ที่จะฝัง โปรดทราบว่าบางโดเมนไม่อนุญาตการฝัง และอาจไม่แสดงผลตามที่คาดไว้"
+}

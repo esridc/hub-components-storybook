@@ -1,0 +1,29 @@
+{
+  "header": "События",
+  "myContent": "Мои события",
+  "editableContent": "Редактируемые ресурсы",
+  "addEventButtonText": "Создать событие",
+  "type": "Тип",
+  "sharedUpdate": "Общая группа обновления",
+  "viewOnly": "Группа только для просмотра",
+  "owner": "Создано",
+  "starts": "Вкл.",
+  "from": "От",
+  "until": "До",
+  "updated": "Обновлено",
+  "tags": "Теги",
+  "dateCreated": "Создано",
+  "dateUpdated": "Изменено",
+  "actionLinks": {
+    "view": "Просмотр",
+    "edit": "Изменить",
+    "ariaEdit": "Изменить: {title}",
+    "ariaView": "Просмотреть: {title}"
+  },
+  "access": {
+    "label": "Доступ",
+    "PRIVATE": "Частный",
+    "ORG": "Организация",
+    "PUBLIC": "Общедоступный"
+  }
+}

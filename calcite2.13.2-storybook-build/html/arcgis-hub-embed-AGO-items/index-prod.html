@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-embed-AGO-items-prod</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .embedded-items-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin-bottom: 20px;
+    }
+
+    .item-header {
+      font-weight: 600;
+    }
+  </style>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet"
+    href="../calcite-web.min.css">
+</head>
+
+<!--
+  ##    ##  #######  ######## ########  ##
+  ###   ## ##     ##    ##    ##       ####
+  ####  ## ##     ##    ##    ##        ##
+  ## ## ## ##     ##    ##    ######
+  ##  #### ##     ##    ##    ##        ##
+  ##   ### ##     ##    ##    ##       ####
+  ##    ##  #######     ##    ########  ##
+
+  Make sure to choose PROD in the harness header
+  Sign in as paige_pax
+ -->
+
+<body>
+  <harness-header page-title="Hub app embed AGO items"></harness-header>
+  <br/>
+  <br/>
+  <div class="grid-container padding-leader-2">
+    <div class="column-24 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-hub-embed-AGO-items-prod</h2>
+    </div>
+    <div class="container column-24">
+      <div>
+        <h2 class="item-header">ArcGIS StoryMaps</h2>
+        <div class="embedded-items-section">
+          <div>
+            <h3>Private StoryMaps</h3>
+            <arcgis-hub-embed
+              src="https://storymaps.arcgis.com/stories/cd3f5da491a94bbea846d1af622c837f"
+              iframe-title=""
+              geolocation
+              height="500">
+            </arcgis-hub-embed>
+          </div>
+          <div>
+            <h3>Public StoryMaps</h3>
+            <arcgis-hub-embed
+              src="https://storymaps.arcgis.com/stories/9781ca57307845859b505546107ca004"
+              iframe-title=""
+              geolocation
+              height="500">
+            </arcgis-hub-embed>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2 class="item-header">ArcGIS Dashboards</h2>
+        <div class="embedded-items-section">
+          <div>
+            <h3>Private Dashboards</h3>
+            <arcgis-hub-embed
+              src="https://prod-pre-a-hub.maps.arcgis.com/apps/dashboards/11b5c85c8f1043fe8fe34f24b20c002c"
+              iframe-title=""
+              geolocation
+              height="500">
+            </arcgis-hub-embed>
+          </div>
+          <div>
+            <h3>Public Dashboards</h3>
+            <arcgis-hub-embed
+              src="https://prod-pre-a-hub.maps.arcgis.com/apps/dashboards/ce3f6b1dbf1a4a73b75974e3a055ad0f"
+              iframe-title=""
+              geolocation
+              height="500">
+            </arcgis-hub-embed>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2 class="item-header">ArcGIS Survey123</h2>
+        <div class="embedded-items-section">
+          <div>
+            <h3>Private Survey123</h3>
+            <arcgis-hub-embed
+              src="https://survey123.arcgis.com/share/5ec66123007445639fe1e734f1a601581"
+              iframe-title=""
+              geolocation
+              height="500">
+            </arcgis-hub-embed>
+          </div>
+          <div>
+            <h3>Public Survey123</h3>
+            <arcgis-hub-embed
+              src="https://survey123.arcgis.com/surveys/c814e297636e41ac83d97162026bbfc0"
+              iframe-title=""
+              geolocation
+              height="500">
+            </arcgis-hub-embed>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2 class="item-header">ArcGIS Web Map</h2>
+        <div class="embedded-items-section">
+          <div>
+            <h3>Private Web Map</h3>
+            <arcgis-hub-embed
+              src=""
+              iframe-title=""
+              geolocation
+              height="500">
+            </arcgis-hub-embed>
+          </div>
+          <div>
+            <h3>Public Web Map</h3>
+            <arcgis-hub-embed
+              src="https://prod-pre-a-hub.maps.arcgis.com/apps/mapviewer/index.html?webmap=5ddce43c9df3439ab3f9cad344e8d9f8"
+              iframe-title=""
+              geolocation
+              height="500">
+            </arcgis-hub-embed>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2 class="item-header">ArcGIS Web Scene</h2>
+        <div class="embedded-items-section">
+          <div>
+            <h3>Private Web Scene</h3>
+            <arcgis-hub-embed
+              src=""
+              iframe-title=""
+              geolocation
+              height="500">
+            </arcgis-hub-embed>
+          </div>
+          <div>
+            <h3>Public Web Scene</h3>
+            <arcgis-hub-embed
+              src="https://prod-pre-a-hub.maps.arcgis.com/home/webscene/viewer.html?webscene=4ef8143da1fc4f8ba794913cf580777c"
+              iframe-title=""
+              geolocation
+              height="500">
+            </arcgis-hub-embed>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <script>
+    // set a property on the element
+    function setProp(key, value) {
+      const el = document.querySelector("arcgis-hub-embed-AGO-items-prod-harness");
+      el[key] = value;
+    }
+  </script>
+</body>
+
+</html>

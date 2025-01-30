@@ -1,0 +1,39 @@
+{
+  "popover": {
+    "access": {
+      "org": "Deljeno z organizacijo",
+      "private": "Deljeno z lastnikom",
+      "public": "Deljeno z vsemi",
+      "shared": "Deljeno z lastnikom in skupinami"
+    },
+    "editLayout": "Uredi postavitev",
+    "lastUpdated": "Nazadnje posodobljeno {updated}",
+    "viewSite": "Ogled spletnega mesta"
+  },
+  "cloneLayoutLabel": "Kloniraj postavitev",
+  "deleteDraftLabel": "Izbriši osnutek",
+  "deletePageLabel": "Izbriši stran",
+  "deleteSiteLabel": "Izbriši spletno mesto",
+  "editInAgoLabel": "Uredi v ArcGIS Online",
+  "managePage": "Upravljaj stran",
+  "manageSite": "Upravljaj mesto",
+  "manageTemplate": "Upravljaj predlogo",
+  "moreOptionsLabel": "Več možnosti",
+  "publishLabel": {
+    "site": "Objavi postavitev",
+    "page": "Objavi postavitev",
+    "survey": "Objavi"
+  },
+  "saveAsTemplateLabel": "Shrani kot predlogo",
+  "saveLabel": {
+    "site": "Shrani postavitev",
+    "page": "Shrani postavitev",
+    "survey": "Shrani",
+    "template": "Shrani"
+  },
+  "sharingLabel": "Odpri ploščo za deljenje",
+  "editS123Label": "Uredi v Survey123",
+  "viewLabel": "Ogled",
+  "viewPublishedLabel": "Prikaži objavljeno",
+  "viewUnpublishedLabel": "Prikaži osnutek"
+}

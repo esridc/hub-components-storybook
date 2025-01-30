@@ -1,0 +1,75 @@
+{
+  "addMetric": "指標の追加",
+  "title": "指標",
+  "featured": "注目",
+  "metricDescription": "静的データ (例: 履歴) または動的データ (例: リアルタイム) のいずれかに基づいて、プロジェクトの進捗状況を追跡するために使用される計測可能な値。",
+  "metricCount": {
+    "label": "{currentCount} / {totalCountAllowed} 指標",
+    "tooltip": "指標を追加するには、既存の設定をいくつか削除します"
+  },
+  "visible": {
+    "title": "表示",
+    "noMetrics": "このセクションに指標はありません。"
+  },
+  "hidden": {
+    "title": "非表示",
+    "description": "これらの指標は、このワークスペースにアクセスできるユーザーにのみ表示されます。",
+    "noMetrics": "このセクションに指標はありません。"
+  },
+  "project": {
+    "featured": {
+      "description": "注目の指標を 4 つ指定できます。 これらの指標は、ライブ プロジェクトの概要に表示されます。"
+    },
+    "visible": {
+      "description": "表示される指標は、ライブ プロジェクトの指標タブに表示されます。"
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "指標がプロジェクトの共有レベルと一致します。 非表示の指標は API の呼び出しで利用できることがあります。",
+        "metricsDockLink": "指標の設定に関する詳細"
+      }
+    }
+  },
+  "initiative": {
+    "featured": {
+      "description": "注目の指標を 4 つ指定できます。 これらの指標は、ライブ イニシアティブの概要に表示されます。"
+    },
+    "visible": {
+      "description": "表示される指標は、ライブ プロジェクトの指標タブに表示されます。"
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "指標がイニシアティブの共有レベルと一致します。 非表示の指標は API の呼び出しで利用できることがあります。",
+        "metricsDockLink": "指標の設定に関する詳細"
+      }
+    }
+  },
+  "metricNumber": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4"
+  },
+  "actions": {
+    "delete": "削除",
+    "edit": "編集",
+    "featured": "注目",
+    "removeFeatured": "注目の削除",
+    "show": "表示に移動",
+    "hide": "非表示に移動"
+  },
+  "editor": {
+    "heading": "新しい指標",
+    "description": "デフォルトでは、ワークスペースのメンバーが確認できるように指標は自動的に非表示になります。"
+  },
+  "deleteMetricModal": {
+    "heading": "指標の削除",
+    "content": "本当に削除してよろしいですか？",
+    "cancel": "キャンセル",
+    "delete": "削除"
+  },
+  "sidePanel": {
+    "definitions": "定義",
+    "preview": "プレビュー"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "dashboard": "Panel",
+  "activityLogSection": {
+    "title": "Dziennik aktywności",
+    "table": {
+      "downloadAction": "Pobierz",
+      "downloadAllAction": "Pobierz wszystko",
+      "downloadActionTooltip": "Pobierz wybrane działania",
+      "caption": "Tabela ostatnich błędów",
+      "columnHeaders": {
+        "datetime": "Data",
+        "layer": "Warstwa",
+        "message": "Wiadomość"
+      },
+      "noRecentErrors": "Brak ostatnich błędów",
+      "expandText": "Wyświetlaj więcej",
+      "collapseText": "Wyświetlaj mniej"
+    }
+  }
+}

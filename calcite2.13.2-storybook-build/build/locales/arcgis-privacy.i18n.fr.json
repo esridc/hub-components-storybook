@@ -1,0 +1,41 @@
+{
+  "managePrivacyButton": "Gérer la confidentialité",
+  "consentNotice": {
+    "allTracking": "Ce site a été créé avec ArcGIS Hub et utilise le suivi anonyme pour améliorer les performances et analyser l’utilisation du site conformément à la déclaration de confidentialité d’Esri. D’autres systèmes de suivi tiers peuvent surveiller votre utilisation du site.",
+    "anonymousTracking": "Ce site a été créé avec ArcGIS Hub et utilise le suivi anonyme pour améliorer les performances et analyser l’utilisation du site conformément à la déclaration de confidentialité d’Esri.",
+    "noTracking": "Ce site a été créé avec ArcGIS Hub et utilise uniquement les cookies indispensables au bon fonctionnement de l’application. Ces cookies ne peuvent pas être désactivés dans nos systèmes.",
+    "thirdPartyTracking": "Ce site a été créé avec ArcGIS Hub et utilise uniquement les cookies indispensables au bon fonctionnement de l’application. Ces cookies ne peuvent pas être désactivés dans nos systèmes. D’autres systèmes de suivi tiers peuvent surveiller votre utilisation du site."
+  },
+  "consent": {
+    "esriPrivacyLink": "Centre de confidentialité Esri",
+    "customerConsentLink": "Plus d’informations"
+  },
+  "eueiNotice": {
+    "title": "Les membres de {orgName} ne feront pas l’objet d’un suivi",
+    "message": "Le programme d’amélioration de l’expérience utilisateur Esri (EUEI) a été désactivé pour {orgName}. Les activités en lien avec votre visite ne feront l’objet d’aucun suivi. Vous ne pouvez accepter ni la collecte de statistiques d’utilisation anonymes, ni le suivi par des tiers.",
+    "link": "En savoir plus sur le programme EUEI."
+  },
+  "notice": {
+    "heading": "Paramètres de confidentialité",
+    "acceptAllButton": "Accepter tous les cookies",
+    "acceptNecessaryButton": "Accepter uniquement les cookies nécessaires",
+    "confirmButton": "Confirmer",
+    "reviewSettingsButton": "Examiner les paramètres"
+  },
+  "settings": {
+    "heading": "Paramètres de confidentialité",
+    "confirmButton": "Confirmer"
+  },
+  "anonymous": {
+    "heading": "Statistiques d’utilisation anonymes",
+    "helpText": "Nous utilisons ces cookies afin de surveiller les performances de l’application, notamment les sources de trafic, les vues des pages et les interactions. Ils nous permettent d’identifier les contenus les plus pertinents et de déterminer la façon dont les visiteurs naviguent dans l’application. Toutes les informations recueillies sont anonymes (aucune donnée à caractère personnel permettant de vous identifier n’est stockée). Si vous n’autorisez pas ces cookies, nous ne saurons pas que vous avez consulté ou interagi avec notre application."
+  },
+  "necessary": {
+    "heading": "Cookies strictement nécessaires",
+    "helpText": "Ces cookies sont indispensables au bon fonctionnement de l’application et ne peuvent pas être désactivés dans nos systèmes. Ils sont créés en réponse à des actions que vous avez effectuées et qui impliquent une demande de service, comme la connexion à votre compte. Vous pouvez paramétrer votre navigateur afin qu’il bloque ces cookies ou vous avertisse de leur présence, mais cela pourrait avoir des répercussions sur certaines parties de l’application. Toutes les informations recueillies sont anonymes (aucune donnée à caractère personnel permettant de vous identifier n’est stockée)."
+  },
+  "thirdParty": {
+    "heading": "Suivi par des tiers",
+    "helpText": "Ces cookies peuvent être créés par des fournisseurs de suivi tiers configurés sur ce site. Ils peuvent recueillir des informations de ciblage ou marketing vous concernant au cours de votre visite. Les informations recueillies sont susceptibles d’être utilisées hors du cadre de cette application. Si vous n’autorisez pas ces cookies, les fournisseurs de suivi tiers configurés ne reçoivent aucune information relative à votre visite."
+  }
+}

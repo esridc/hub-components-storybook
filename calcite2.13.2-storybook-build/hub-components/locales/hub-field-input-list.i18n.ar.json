@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "تحرير",
+    "fields": {
+      "label": {
+        "label": "التسمية",
+        "requiredMessage": "التسمية مطلوبة",
+        "maxLengthMessage": "يجب ألا تتجاوز التسمية {maxLength} حرفًا"
+      }
+    },
+    "apply": "تطبيق"
+  },
+  "showItem": "إظهار عنصر القائمة التالي: {itemLabel}",
+  "hideItem": "إخفاء عنصر القائمة التالي: {itemLabel}",
+  "editItem": "تحرير عنصر القائمة التالي: {itemLabel}"
+}

@@ -1,0 +1,150 @@
+{
+  "modal": {
+    "dismiss": "Vis ikke denne meddelelse igen",
+    "close": "Luk"
+  },
+  "notice": {
+    "n001": {
+      "title": "Testmeddelelse",
+      "message": "Dette er teksten i testmeddelelsen",
+      "actions": [
+        {
+          "text": "Læs bloggen"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-1": {
+      "title": "Skift til den opdaterede download-oplevelse",
+      "message": "For yderligere formater og forbedring af hastighed og ydeevne skal du aktivere \"udtræk\" på dette elements tjeneste."
+    },
+    "20240220-hosted-downloads-2": {
+      "title": "Downloadforbedringer er klar!",
+      "message": "Forbedringer til downloads på dine hub-websteder omfatter support til hostede downloads, et opdateret udseende og typografi til download-kort samt en ny statuslinje til downloads.",
+      "actions": [
+        {
+          "text": "Få mere at vide"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-3": {
+      "title": "Hostede downloads er klar!",
+      "message": "Hostede downloads hjælper med at forbedre ydeevnen ved download af indhold. Hvis du vil aktivere hostede downloads, skal du sørge for at tillade Udtræksfunktioner nedenfor.",
+      "actions": [
+        {
+          "text": "Få mere at vide"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-basic": {
+      "title": "Om arbejdsområder",
+      "message": "<p><strong>Tilføj indhold til webstedskataloger ved hjælp af grupper</strong><br>Webstedssøgekataloger har altid været drevet af grupper, og arbejdsområder gør det nemmere at administrere disse grupper. Her og nu kan du tilføje indhold til individuelle grupper, der er knyttet til dit websted, så de vises i webstedskataloget. Snart vil du kunne tilføje indhold til dit katalog direkte.</p><p><strong>Overgang fra teams til grupper</strong><br>Du kan nu bruge alle ArcGIS Online-grupper til at samarbejde om websteder, sider, indhold og projekter i Hub. Alle tidligere tilknyttede \"teams\", f.eks. webstedets \"kerneteam\", vil stadig blive vist i ruden Samarbejdspartnere i webstedsarbejdsområdet.</p> <p><strong>Teambaserede e-mailmeddelelser er midlertidigt sat på pause</strong><br>Afsendelse af e-mailmeddelelser til teammedlemmer og e-mails med invitationer/fjernelse til teammedlemmer og følgere understøttes ikke på nuværende tidspunkt.</p><p><strong>Udfasning af indlejret Survey123-webstedsdesigner</strong><br>Vi har indlejret Survey 123-designeren for at hjælpe dig med at få mere gjort i Hub. Kundefeedback har imidlertid indikeret en præference for undersøgelsesdesign og administration i Survey123, præcis som andre applikationer. Vi udfaser dermed understøttelse af den indlejrede Survey 123-designer i ArcGIS Hub for i højere grad at justere i forhold til jeres ønskede arbejdsgang.</p>",
+      "actions": [
+        {
+          "text": "Få mere at vide"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-premium": {
+      "title": "Om arbejdsområder",
+      "message": "<p><strong>Tilføj indhold til webstedskataloger ved hjælp af grupper</strong><br>Webstedssøgekataloger har altid været drevet af grupper, og arbejdsområder gør det nemmere at administrere disse grupper. Her og nu kan du tilføje indhold til individuelle grupper, der er knyttet til dit websted, så de vises i webstedskataloget. Snart vil du kunne tilføje indhold til dit katalog direkte.</p><p><strong>Overgang fra supportteams til grupper</strong><br>Du kan nu bruge alle ArcGIS Online-grupper til at samarbejde om websteder, sider, indhold og projekter i Hub. Alle tidligere tilknyttede supportteams vil stadig blive vist i ruden Samarbejdspartnere i webstedsarbejdsområdet. For at få fortsat support skal du tilføje Supporteams som grupper, der kan få vist, og Grupper, der kan redigere.</p><p><strong>Teambaserede e-mailmeddelelser er midlertidigt sat på pause</strong><br>Afsendelse af e-mailmeddelelser til teammedlemmer og e-mails med invitationer/fjernelse til teammedlemmer og følgere understøttes ikke på nuværende tidspunkt.</p><p><strong>Udfasning af indlejret Survey123-webstedsdesigner</strong><br>Vi har indlejret Survey 123-designeren for at hjælpe dig med at få mere gjort i Hub. Kundefeedback har imidlertid indikeret en præference for undersøgelsesdesign og administration i Survey123, præcis som andre applikationer. Vi udfaser dermed understøttelse af den indlejrede Survey 123-designer i ArcGIS Hub for i højere grad at justere i forhold til jeres ønskede arbejdsgang.</p><p><strong>Begivenheder er endnu ikke tilgængelige i arbejdsområder</strong><br>Begivenheder gennemgår en transformation og vil snart være tilgængelige i arbejdsområder. Hvis du på nuværende tidspunkt tilmelder dig arbejdsområder, mister du muligheden for at oprette nye begivenheder, administrere og søge efter nuværende begivenheder. Hvis du imidlertid gerne vil administrere tidligere oprettede begivenheder, kan du til enhver tid framelde dig.</p>",
+      "actions": [
+        {
+          "text": "Få mere at vide"
+        }
+      ]
+    },
+    "202404-workspaceannouncement": {
+      "title": "Introduktion af arbejdsområder",
+      "message": "Arbejdsområder er den nye måde at redigere og administrere elementer på i Hub og erstatter den globale navigation i redigeringsvisning (ikke live visning). I denne fase kan du \"tilmelde dig\" (på ethvert tidspunkt) til at bruge arbejdsområder og tilhørende funktioner til elementer og grupper. Begivenheder vil være tilgængelige på et senere tidspunkt. Vælg \"Gå til indstillinger\" for at prøve arbejdsområder nu.",
+      "actions": [
+        {
+          "text": "Gå til indstillinger"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing": {
+      "title": "Ny introduktion — Hub-initiativer",
+      "message": "ArcGIS Hub-initiativer ændret den 2. juli 2024. Tidligere oprettede initiativer er nu standalone-websteder — med samme layout, indhold, URL'er og Premium-funktioner (f.eks. følgere og begivenheder) som tidligere. Du skal aktivere arbejdsområder for at prøve nye opdaterede initiativer.",
+      "actions": [
+        {
+          "text": "Få mere at vide om initiativer",
+          "ariaLabel": "Få mere at vide om initiativer, åbner på en ny fane"
+        },
+        {
+          "text": "Gå til indstillinger"
+        }
+      ]
+    },
+    "20240517-initiatives-manage": {
+      "title": "Administrer gamle initiativer",
+      "message": "ArcGIS Hub-initiativer ændret den 2. juli 2024. Tidligere oprettede initiativer er nu standalone-websteder — med samme layout, indhold, URL'er og Premium-funktioner (f.eks. følgere og begivenheder) som tidligere. Du kan trygt slette gamle initiativer.",
+      "actions": [
+        {
+          "text": "Få mere at vide om initiativer",
+          "ariaLabel": "Få mere at vide om initiativer, åbner på en ny fane"
+        },
+        {
+          "text": "Vis gamle initiativer",
+          "ariaLabel": "Vis gamle initiativer, åbner på en ny fane"
+        }
+      ]
+    },
+    "20240517-initiatives-manage-no-priv": {
+      "title": "Administrer gamle initiativer",
+      "message": "ArcGIS Hub-initiativer ændret den 2. juli 2024. Tidligere oprettede initiativer er nu standalone-websteder — med samme layout, indhold, URL'er og Premium-funktioner (f.eks. følgere og begivenheder) som tidligere. Du kan trygt slette gamle initiativer.",
+      "actions": [
+        {
+          "text": "Få mere at vide om initiativer",
+          "ariaLabel": "Få mere at vide om initiativer, åbner på en ny fane"
+        },
+        {
+          "text": "Vis gamle initiativer",
+          "ariaLabel": "Vis gamle initiativer, åbner på en ny fane"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing-site": {
+      "title": "Ny introduktion — Hub-initiativer",
+      "message": "Den nye generation af Hub-initiativer er nu tilgængelig i arbejdsområder. Initiativer har deres egen visning, der er nem at opsætte, og kan hjælpe med at justere Hub-projekter, der deler langsigtede mål. Initiativer kan oprettes uafhængigt, og de kan deles med et eller flere websteder. Webstedet kan fremhæve et eller flere initiativer.",
+      "actions": [
+        {
+          "text": "Få mere at vide",
+          "ariaLabel": "Få mere at vide, åbner på en ny fane"
+        }
+      ]
+    },
+    "20240710-slow-service-warning": {
+      "title": "Tjenesteafbrydelse",
+      "message": "Kommunikation med tjenesten tager længere tid end forventet. Det kan påvirke din adgang til downloads og kortfunktioner."
+    },
+    "20240710-unreachable-service-error": {
+      "title": "Tjeneste er utilgængelig",
+      "message": "Vi kan ikke kontakte værtstjenesten. Downloads og kortfunktioner er i øjeblikket utilgængelige for dette element."
+    },
+    "20240807-auth-required-status": {
+      "title": "Tjenestestatus ukendt.",
+      "message": "Vi kunne ikke få adgang til den sikre tjeneste, fordi den kræver yderligere godkendelse. Downloads og kortfunktioner er i øjeblikket utilgængelige for disse elementer."
+    },
+    "20240805-private-downloads-unavailable-ago-error": {
+      "title": "Downloads er utilgængelige",
+      "message": "Hvis du vil downloade indhold, skal indstillingen Eksporter data være aktiveret på ArcGIS Online. Kontakt ejeren af elementet for at aktivere denne indstilling."
+    },
+    "20240805-private-downloads-unavailable-enterprise-error": {
+      "title": "Downloads er utilgængelige",
+      "message": "Hvis du vil downloade indhold, skal indstillingen Eksporter data være aktiveret på ArcGIS Enterprise. Kontakt ejeren af elementet for at aktivere denne indstilling."
+    },
+    "20240819-download-formats-disabled": {
+      "title": "Downloads er blevet deaktiveret.",
+      "message": "Hvis du vil downloade indhold for dette element, skal du kontakte elementejeren."
+    },
+    "20241104-about-feeds-notice": {
+      "message": "Gør dine offentlige Open Data nemt tilgængelige og genanvendelige med Hub-feeds.",
+      "actions": [
+        {
+          "text": "Få mere at vide om Hub-feeds",
+          "ariaLabel": "Få mere at vide om Hub-feeds, åbnes på ny fane"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unauthenticated": {
+    "heading": "Prijavite se.",
+    "message": "Ta stran za dostop zahteva poverilnice.",
+    "actionText": "Prijava"
+  },
+  "not-found": {
+    "heading": "Stran ni najdena",
+    "message": "Ta stran je morda premaknjena ali izbrisana. Poskusite jo poiskati na domači strani",
+    "actionText": "Pojdi na domačo stran"
+  },
+  "unsupported-device": {
+    "heading": "Nepodprta velikost zaslona",
+    "message": "Delovni prostori zaenkrat še niso na voljo na manjših zaslonih; uporabite napravo z večjim zaslonom.",
+    "actionText": "Pojdi nazaj"
+  },
+  "access-denied": {
+    "heading": "Dostop zavrnjen",
+    "message": "Nimate dovoljenja za dostop do tega vira.",
+    "actionText": "Pojdi na domačo stran"
+  },
+  "loading": {
+    "heading": "Nalaganje ...",
+    "loadingLabel": "Nalaganje"
+  }
+}

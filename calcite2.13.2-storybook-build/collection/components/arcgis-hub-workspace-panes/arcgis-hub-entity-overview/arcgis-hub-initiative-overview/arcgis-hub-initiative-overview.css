@@ -1,0 +1,67 @@
+:host {
+  display: block;
+  height: 100%;
+}
+
+.initiative-overview__main {
+  border-radius: 10px;
+  border: 1px solid var(--calcite-color-border-2);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: var(--calcite-color-foreground-1);
+  padding: 1rem;
+}
+
+calcite-chip {
+  margin-right: 1.5rem;
+}
+
+/* the arcgis-hub-workspace-pane automatically applies this styling,
+ * however, we have to add it here directly since this component is
+ * scoped: true (for the map component) and certain styles are seeping
+ * in from the light DOM
+ */
+[slot="title"] {
+  margin: 0px;
+  font-size: var(--calcite-font-size-3);
+  line-height: 2rem;
+  font-weight: var(--calcite-font-weight-bold);
+  color: var(--calcite-color-text-1);
+}
+
+.initiative-overview__status-purpose-container {
+  display: flex;
+}
+
+calcite-chip, .initiative-overview__purpose {
+  align-self: center;
+}
+
+arcgis-hub-map {
+  position: relative;
+  aspect-ratio: 200 / 133;
+  height: 20rem;
+  width: 100%;
+}
+
+arcgis-hub-map .initiative-overview__map-overlay {
+  position: absolute;
+  z-index: 10;
+  display: flex;
+  height: 20rem;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #0000004d;
+  color: var(--calcite-color-text-inverse);
+}
+
+.initiative-overview__no-location-message {
+  text-align: center;
+}
+
+.initiative-overview__no-purpose-message {
+  font-style: italic;
+  color: var(--calcite-color-text-3);
+}

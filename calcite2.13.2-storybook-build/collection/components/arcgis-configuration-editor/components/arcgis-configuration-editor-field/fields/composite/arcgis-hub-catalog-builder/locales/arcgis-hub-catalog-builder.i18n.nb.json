@@ -1,0 +1,24 @@
+{
+  "shared": {
+    "targetEntities": {
+      "item": "Elementer",
+      "event": "Arrangementer"
+    }
+  },
+  "targetEntityBlock": {
+    "configured": "Konfigurert",
+    "notConfigured": "Ikke konfigurert"
+  },
+  "targetEntityFlow": {
+    "back": "Lukk konfigurering: {targetEntity}",
+    "description": "Konfigurer: {targetEntity}",
+    "source": {
+      "heading": "Kilde",
+      "description": "Kilder definerer innholdets omfang. Resultatene kan modifiseres ved å inkludere eller ekskludere parametere.<br/><br/>*indikerer et obligatorisk felt"
+    },
+    "collections": {
+      "heading": "Samlinger",
+      "description": "Organiser innhold i atskilte subsett med tanke på enklere navigering og oppdagelse.<br/><br/>*indikerer et obligatorisk felt"
+    }
+  }
+}

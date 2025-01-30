@@ -1,0 +1,16 @@
+{
+  "all": "Tutte",
+  "source": "Origine",
+  "targetEntity": {
+    "item": "Elementi",
+    "group": "Gruppi",
+    "user": "Utenti",
+    "portalUser": "Utenti del portale",
+    "communityUser": "Utenti della community",
+    "groupMember": "Membri del gruppo",
+    "event": "Eventi",
+    "channel": "Canali",
+    "discussionPost": "Post",
+    "eventAttendee": "Iscritti all'evento"
+  }
+}

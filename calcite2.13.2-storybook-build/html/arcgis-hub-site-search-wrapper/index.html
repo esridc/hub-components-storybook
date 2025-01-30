@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-site-search-wrapper</title>
+
+  <!-- link to calcite components CSS  -->
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+
+  <!-- NOTE: calcite web CSS is only used for grid layout of this page -->
+  <!-- see: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+  <link rel="stylesheet" href="../calcite-web.min.css">
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+    arcgis-hub-site-search-wrapper {
+      margin-top: 1rem;
+    }
+  </style>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.28/@arcgis/core/"
+      }
+    }
+  </script>
+
+  <!-- load calcite components -->
+  <script type="module" src="../../calcite/calcite.esm.js"></script>
+
+  <!-- load hub components -->
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+</head>
+
+<body>
+  <harness-header page-title=arcgis-hub-site-search-wrapper></harness-header>
+  <div class="grid-container padding-leader-4">
+    <!-- docs about grid container: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+
+    <div class="column-24">
+      <calcite-dropdown width="m" id="entitySelect">
+        <calcite-button slot="trigger">Select Entity</calcite-button>
+        <calcite-dropdown-group >
+            <calcite-dropdown-item data-value="project">Project</calcite-dropdown-item>
+            <calcite-dropdown-item data-value="site">Site</calcite-dropdown-item>
+            <calcite-dropdown-item data-value="initiative">Initiative</calcite-dropdown-item>
+            <calcite-dropdown-item data-value="event">Event</calcite-dropdown-item>
+            <calcite-dropdown-item data-value="content">PDF</calcite-dropdown-item>
+        </calcite-dropdown-group>
+      </calcite-dropdown>
+      <calcite-button id="eaps" target="_blank" href="#">Open in EAPS</calcite-button>
+
+      <arcgis-hub-site-search-wrapper id="arcgis-hub-site-search-wrapper-harness" mode="unified">
+      </arcgis-hub-site-search-wrapper>
+    </div>
+  </div>
+
+  <script>
+    const examples = [
+      {key: "project", id: "aa9e680b6b524611be96842ea4ff482f"},
+      {key: "initiative", id: "7bcc00d76ffc4256a81586f7fcd41ddc"},
+      // {key: "site", id: "f0094b90e77d426f918437561a80677b"},
+      // {key: "site", id: "4afcfdb9bb6541649146bdbb70755b1d"},
+      {key: "site", id: "809e396d9b2243d5a3eef1b68925610a"},
+      {key: "event", id: "clv1doi5f002k6l01gz5ey8eo"},
+      {key: "content", id: "df6013dee8b74080801c80c6895f64a0"}
+    ];
+    const initHarness = () => {
+      const params = new URL(window.location).searchParams;
+      const type = params.get('t') || examples[0].key;
+      const view = params.get('v') || "view";
+      const identifier = params.get('i') || examples[0].id;
+      console.log('initHarness:', type, identifier);
+      updateWrapper({t:type, i:identifier, v:view});
+    }
+
+
+    // LISTEN FOR WORKSPACE LINK CLICKS: for development purposes,
+    // we need to prevent redirects when navigating between panes
+    document.addEventListener('arcgisHubWorkspaceLinkClicked', evt => {
+      const { clickEvent, pane, href } = evt.detail;
+
+      if (pane) {
+        clickEvent.preventDefault();
+      }
+      if (href) {
+        clickEvent.preventDefault();
+        console.log('arcgisHubWorkspaceLinkClicked', href);
+        // chop up the href to get the type and identifier
+        let path = href.split('//')[1];
+        let [host, t, i] = path.split('/');
+        // if the type ends in the letter 's', remove it
+        if (t.endsWith('s')) {
+          t = t.slice(0, -1);
+        }
+        appendParams({t, i})
+      }
+    });
+
+    document.addEventListener('arcgisHubEntityViewWrapperViewChanged', evt => {
+      currentView = event.detail;
+    });
+
+    document.addEventListener('arcgisHubCardTitleLinkClick', evt => {
+      evt.detail.event.preventDefault();
+      const opts = {t: getTypeFromFamily(evt.detail.model.family), i:evt.detail.model.id}
+      // updateWrapper(opts);
+      appendParams(opts)
+    });
+
+    function getTypeFromFamily(family) {
+      let type = 'content';
+      const familyTypes = ['project', 'site', 'initiative', 'event'];
+      if (familyTypes.includes(family)) {
+        type = family;
+      }
+      return type;
+    }
+
+    const behavior = "pushstate";
+
+    // HELPER TO APPEND TYPE + IDENTIFIER AS QUERY PARAMS ON URL
+    const appendParams = (params) => {
+      // if (!params.v) {
+      //     params.v = currentView;
+      //   }
+      if (behavior === "pushstate") {
+        pushParams(params);
+        updateWrapper(params);
+      } else {
+
+        const url = new URL(window.location);
+        Object.entries(params).forEach(([key, value]) => {
+          url.searchParams.set(key, value);
+        });
+        // KEY: this will trigger a page reload
+        window.location.search = url.search;
+      }
+    }
+
+    const pushParams = (params) => {
+      // if (!params.v) {
+      //   params.v = currentView;
+      // }
+      const url = new URL(window.location);
+      Object.entries(params).forEach(([key, value]) => {
+        url.searchParams.set(key, value);
+      });
+      window.history.pushState({}, '', url);
+    }
+
+
+
+    document.getElementById('entitySelect').addEventListener('calciteDropdownSelect', (event) => {
+      const entry = event.target.selectedItems[0].getAttribute('data-value');
+      console.log('calciteDropdownSelect',entry);
+      const e = examples.find(e => e.key === entry);
+      if (e) {
+        appendParams({t:e.key, i:e.id});
+      }
+    });
+
+    function updateWrapper(opts) {
+      setProp("type", opts.t);
+      setProp("identifier",opts.i);
+      setProp("view", opts.v || "view");
+      const href = `https://eapsqaext.surge.sh/items/${opts.i}/edit`;
+      document.querySelector("#eaps").setAttribute("href", href);
+
+    }
+    // set a property on the element
+    function setProp(key, value) {
+      const el = document.querySelector("#arcgis-hub-site-search-wrapper-harness");
+      el[key] = value;
+    }
+    initHarness();
+  </script>
+</body>
+
+</html>

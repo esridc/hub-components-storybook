@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Breadcrumbs Functional Component</title>
+
+  <!-- link to calcite components CSS  -->
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+
+  <!-- NOTE: calcite web CSS is only used for grid layout of this page -->
+  <!-- see: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+  <link rel="stylesheet" href="../calcite-web.min.css">
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+
+  <!-- load calcite components -->
+  <script type="module" src="../../calcite/calcite.esm.js"></script>
+
+  <!-- load hub components -->
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+</head>
+
+<body>
+  <harness-header page-title="Breadcrumbs Functional Component"></harness-header>
+  <div class="grid-container padding-leader-4">
+    <!-- docs about grid container: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+
+    <div class="column-24">
+      <h2>Breadcrumbs Functional Component</h2>
+      <p>Use the <code>&lt;Breadcrumbs /&gt;</code> component to display a list of links that represent the current
+        page's
+        location within a hierarchy.</p>
+      <h3>Examples</h3>
+      <ul>
+        <li><a href="../arcgis-hub-workspace/workspace-header.html">Workspace Header</a></li>
+      </ul>
+      <h3>Usage</h3>
+      <p>The following shows how to render breadcrumbs in a secondary navigation menu with optional icons and click
+        handler:</p>
+      <pre>
+<code>// renders "Home &gt; Documents &gt; Title of Current Document" with icons
+get breadcrumbs(): IHubBreadcrumb[] {
+  return [
+    { title: 'Home', icon: 'home', link: '/' },
+    { title: 'Documents', icon: 'folder', link: '/documents' },
+    // the last one should be the current page and will be rendered as "active"
+    // and any that do not have a link will have the "non-interactive" CSS class applied
+    { title: 'Title of Current Document', icon: 'file-text' }
+  ]
+}
+
+// NOTE: click handler is optional
+handleBreadcrumbClick = (clickEvent): void => {
+  const href = clickEvent.target.href;
+  console.log(href);
+}
+
+// NOTE: this should be rendered w/in a calcite-menu
+renderSecondaryNav () {
+  return (&lt;calcite-navigation slot="navigation-secondary"&gt;
+    &lt;calcite-menu scale="s" slot="content-start"&gt;
+      &lt;Breadcrumbs breadcrumbs={this.breadcrumbs} onClick={this.handleBreadcrumbClick} /&gt;
+    &lt;/calcite-menu&gt;
+  &lt;/calcite-navigation&gt;)
+}
+</code></pre>
+    </div>
+  </div>
+</body>
+
+</html>

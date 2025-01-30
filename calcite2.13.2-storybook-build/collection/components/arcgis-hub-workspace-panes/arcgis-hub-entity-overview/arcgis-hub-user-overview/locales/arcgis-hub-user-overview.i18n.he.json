@@ -1,0 +1,35 @@
+{
+  "overview": "תמונה כללית",
+  "resources": "משאבי Hub",
+  "cards": {
+    "items": "מספר פריטים",
+    "groups": "מספר קבוצות"
+  },
+  "hubContent": {
+    "heading": "פרט Hub ששונו לאחרונה",
+    "link": "הצג את כל התוכן"
+  },
+  "content": {
+    "heading": "תוכן ששונה לאחרונה",
+    "stat": "מספר פריטים",
+    "link": "הצג את כל התוכן"
+  },
+  "groups": {
+    "heading": "קבוצות ששונו לאחרונה",
+    "stat": "מספר קבוצות",
+    "link": "הצג את כל הקבוצות"
+  },
+  "contentCount": "תוכן",
+  "addContent": "צור חדש",
+  "facets": {
+    "access": {
+      "label": "מ-"
+    },
+    "type": {
+      "label": "סוגים"
+    },
+    "modified": {
+      "label": "שונה"
+    }
+  }
+}

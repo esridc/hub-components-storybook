@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-card</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet" href="../calcite-web.min.css">
+</head>
+
+<body>
+  <harness-header page-title="arcgis-hub-card"></harness-header>
+  <div class="grid-container padding-leader-4">
+    <div class="column-20">
+      <h2>Declarative Hub Cards</h2>
+      <div>
+      <pre>
+  &lt;arcgis-hub-card
+    item-title=&quot;US States and Territories&quot;
+    source=&quot;NAPSG Foundation&quot;
+    type=&quot;Feature Service&quot;,
+    family=&quot;dataset&quot;
+    summary=&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.&quot;
+    additional-info=&quot;size:4mb|dateUpdated:3 days ago|type:Feature Service|featureCount:23,910&quot;
+    badges=&quot;green:check-shield:Verified|red:exclamation-mark-triangle-f&quot;
+    thumbnail-url=&quot;https://devext.arcgis.com/sharing/rest/content/items/.../info/thumbnail/ago_downloaded.jpg&quot;
+    show-thumbnail
+    layout=&quot;row&quot;
+  &gt;
+  &lt;/arcgis-hub-card&gt;
+      </pre>
+      </div>
+    </div>
+    <div class="column-20">
+      <h3>Dataset; Primary, Secondary, Tertiary Actions & 4 Infos</h3>
+    </div>
+    <div class="column-15">
+      <arcgis-hub-card class="dataset-card"
+        corners="round"
+        shadow="heavy"
+        item-title="US States and Territories"
+        source="NAPSG Foundation"
+        type="Feature Service",
+        family="dataset"
+        summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        additional-info="type:Feature Service|featureCount:23,910|size:4mb|dateUpdated:3 days ago"
+        badges="green:check-shield:Verified|red:exclamation-mark-triangle-f"
+
+        thumbnail-url="https://devext.arcgis.com/sharing/rest/content/items/87767b99a5f94db484ef8852d844bf15/info/thumbnail/ago_downloaded.jpg"
+        show-thumbnail
+        layout="row"
+        >
+      </arcgis-hub-card>
+    </div>
+    <div class="column-5">
+      <arcgis-hub-card  class="dataset-card"
+      corners="round"
+      selectable
+        item-title="US States and Territories"
+        source="NAPSG Foundation"
+        type="Web Map"
+        family="dataset"
+        summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        additional-info="type:Feature Service|featureCount:23,910|size:4mb|dateUpdated:3 days ago"
+
+        badges="green:check-shield:Verified|red:exclamation-mark-triangle-f"
+        thumbnail-url="https://devext.arcgis.com/sharing/rest/content/items/87767b99a5f94db484ef8852d844bf15/info/thumbnail/ago_downloaded.jpg"
+        show-thumbnail
+        layout="card">
+      </arcgis-hub-card>
+    </div>
+    <div class="column-20">
+      <h3>Dataset; No Actions & 4 Infos</h3>
+    </div>
+    <div class="column-15">
+      <arcgis-hub-card
+        item-title="US States and Territories" source="NAPSG Foundation" type="Feature Service" , family="dataset"
+        summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        additional-info="type:Feature Service|featureCount:23,910|size:4mb|dateUpdated:3 days ago"
+        badges="green:check-shield:Verified|red:exclamation-mark-triangle-f"
+        thumbnail-url="https://devext.arcgis.com/sharing/rest/content/items/87767b99a5f94db484ef8852d844bf15/info/thumbnail/ago_downloaded.jpg"
+        show-thumbnail layout="row">
+      </arcgis-hub-card>
+    </div>
+    <div class="column-5">
+      <arcgis-hub-card
+        item-title="US States and Territories" source="NAPSG Foundation" type="Web Map" family="dataset"
+        summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        additional-info="type:Feature Service|featureCount:23,910|size:4mb|dateUpdated:3 days ago"
+
+        badges="green:check-shield:Verified|red:exclamation-mark-triangle-f"
+        thumbnail-url="https://devext.arcgis.com/sharing/rest/content/items/87767b99a5f94db484ef8852d844bf15/info/thumbnail/ago_downloaded.jpg"
+        show-thumbnail layout="card">
+      </arcgis-hub-card>
+    </div>
+
+    <div class="column-20">
+      <h3>Group; Primary Action & 3 Infos; Selectable</h3>
+    </div>
+
+    <div class="column-5">
+      <arcgis-hub-card class="group-card"
+        item-title="Southern California Fires"
+        source="CALFIRE"
+        type="Group"
+        identifier="c1ff814de3a94bf3a6ea9887dc42c46b"
+        family="team"
+        summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        additional-info="members:23|dateUpdated:3 days ago|content:425"
+        badges="grey:star-circle:Open Data"
+
+        thumbnail-url="https://devext.arcgis.com/sharing/rest/community/groups/c1ff814de3a94bf3a6ea9887dc42c46b/info/forestfire.jpg"
+        show-thumbnail
+        selectable
+        layout="card">
+      </arcgis-hub-card>
+    </div>
+    <div class="column-15">
+      <arcgis-hub-card class="group-card"
+        item-title="Southern California Fires"
+        source="CALFIRE"
+        type="Group"
+        identifier="c1ff814de3a94bf3a6ea9887dc42c46b"
+        family="team"
+        summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        additional-info="members:23|dateUpdated:3 days ago|content:425"
+        badges="grey:star-circle:Open Data"
+
+        thumbnail-url="https://devext.arcgis.com/sharing/rest/community/groups/c1ff814de3a94bf3a6ea9887dc42c46b/info/forestfire.jpg"
+        show-thumbnail
+        selectable
+        layout="row">
+      </arcgis-hub-card>
+    </div>
+    <div class="column-20">
+      <h3>User</h3>
+    </div>
+
+    <div class="column-15">
+      <arcgis-hub-card class="user-card"
+        item-title="Jeremy Schneider" source="dev-pre-hub-admin" type="User"
+        identifier="dev-pre-hub-admin" family="people"
+        summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        badges="grey:star-circle:Manager"
+
+        thumbnail-url="https://dev-pre-hub.mapsdevext.arcgis.com/sharing/rest/community/users/dev_pre_hub_admin/info/blob.png"
+        show-thumbnail selectable layout="row">
+      </arcgis-hub-card>
+    </div>
+    <div class="column-5">
+      <arcgis-hub-card class="user-card"
+        item-title="Jeremy Schneider"
+        source="dev-pre-hub-admin"
+        type="User"
+        identifier="dev-pre-hub-admin"
+        family="people"
+        summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        additional-info="dateUpdated:3 days ago|content:425"
+        badges="grey:star-circle:Manager"
+
+        thumbnail-url="https://dev-pre-hub.mapsdevext.arcgis.com/sharing/rest/community/users/dev_pre_hub_admin/info/blob.png"
+        show-thumbnail selectable layout="card">
+      </arcgis-hub-card>
+    </div>
+    <div class="column-20">
+      <hr>
+      <h3>TODO</h3>
+      <ul>
+        <li>Well-known "complex" actions (Download)</li>
+        <li>Slots in List? tldr; lets not.</li>
+        <li>Attrs override passed in objects?</li>
+        <li>identifier & lazy-load</li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+
+    const configs = [{
+      cls: "group-card",
+      actions: [{
+        action: "open-ago",
+        icon: "launch",
+        label: "Open in ArcGIS Online",
+        showLabel: true
+      }, ]
+    }, {
+      cls: "user-card",
+      actions: [{
+        action: "open-ago",
+        icon: "launch",
+        label: "Open in ArcGIS Online",
+        showLabel: true
+      }]
+    }, {
+      cls: "dataset-card",
+      actions: [{
+        action: "open-ago",
+        icon: "launch",
+        label: "Open in ArcGIS Online",
+        showLabel: true
+      }, {
+        action: "delete",
+        icon: "trash",
+        label: "Delete",
+        showLabel: true
+      }, {
+        action: "delete",
+        icon: "satellite-3",
+        label: "Delete",
+        showLabel: true
+      }]
+    }]
+
+    // iterate the configs, select the elements and set the actions
+    configs.forEach(config => {
+      const els = document.querySelectorAll(`.${config.cls}`);
+      if (config.actions.length === 0) return;
+      els.forEach(el => {
+        el.cardActionLinks = config.actions;
+      })
+    })
+
+    // set a property on the element
+    function setProp(key, value) {
+      const el = document.querySelector("arcgis-hub-card-harness");
+      el[key] = value;
+    }
+
+     document.addEventListener('arcgisHubCardAction', (evt) => {
+        alert(`cardAction: ${evt.detail.action} for ${evt.detail.model.title}`);
+      })
+  </script>
+</body>
+
+</html>

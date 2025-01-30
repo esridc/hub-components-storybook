@@ -1,0 +1,19 @@
+{
+  "overview": "Yleiskuvaus",
+  "telemetry": {
+    "pageViews": "Sivun katselukerrat",
+    "last30days": "Edelliset 30 päivää",
+    "lastUpdated": "Päivitetty viimeksi {hoursElapsed} tuntia sitten",
+    "checkTomorrow": "Tarkista asia uudelleen huomenna"
+  },
+  "learnAbout": "Lisätietoja Hub-projekteista",
+  "status": {
+    "notStarted": "Ei aloitettu",
+    "inProgress": "Meneillään",
+    "onHold": "Pidossa",
+    "complete": "Valmis"
+  },
+  "editDetails": "Muokkaa tietoja",
+  "noPurposeSet": "Tarkoitusta ei määritetty",
+  "noLocationSet": "Sijaintia ei määritetty"
+}

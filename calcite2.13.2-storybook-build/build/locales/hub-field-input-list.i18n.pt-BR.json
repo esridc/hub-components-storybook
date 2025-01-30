@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "Editar",
+    "fields": {
+      "label": {
+        "label": "Rótulo",
+        "requiredMessage": "Rótulo exigido",
+        "maxLengthMessage": "O rótulo não deve exceder {maxLength} caracteres"
+      }
+    },
+    "apply": "Aplicar"
+  },
+  "showItem": "Mostrar o seguinte item da lista: {itemLabel}",
+  "hideItem": "Ocultar o seguinte item da lista: {itemLabel}",
+  "editItem": "Editar o seguinte item da lista: {itemLabel}"
+}

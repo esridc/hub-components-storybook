@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "אוסף ישויות",
+    "fgdb": "File Geodatabase",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Shapefile",
+    "sqlite": "SQLite Geodatabase"
+  },
+  "buttonText": {
+    "download": "הורד",
+    "pending": "בהמתנה",
+    "processing": "מתבצע עיבוד",
+    "converting": "מתבצעת המרה",
+    "completed": "ההורדה הושלמה",
+    "failed": "ההורדה נכשלה"
+  },
+  "errors": {
+    "errorHeading": "שגיאה"
+  },
+  "cacheStatusAccordion": {
+    "heading": "מצאת את מה שחיפשת?",
+    "content": "ייתכן שקיימת גרסה חדשה יותר.",
+    "button": "בקש קובץ חדש"
+  },
+  "generateNewModal": {
+    "heading": "האם אתה בטוח?",
+    "content": "ייתכן שפעולה זו תימשך זמן מה. השאר את כרטיסיית דפדפן זו פעילה עד להשלמת ההורדה.",
+    "confirmButton": "כן",
+    "cancelButton": "ביטול"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "addMetric": "新增指標",
+  "title": "指標",
+  "featured": "專題",
+  "metricDescription": "用於追蹤專案進度的可測量值，基於靜態 (例如歷史) 或動態 (例如即時) 資料。",
+  "metricCount": {
+    "label": "{currentCount} / {totalCountAllowed} 指標",
+    "tooltip": "要新增指標，請刪除部分現有集合"
+  },
+  "visible": {
+    "title": "可見",
+    "noMetrics": "此部分中沒有指標。"
+  },
+  "hidden": {
+    "title": "隱藏",
+    "description": "這些指標僅向有權存取此工作空間的人員顯示。",
+    "noMetrics": "此部分中沒有指標。"
+  },
+  "project": {
+    "featured": {
+      "description": "您可以擁有 4 個特色指標。 這些顯示在您的即時專案的概述中。"
+    },
+    "visible": {
+      "description": "可見指標顯示在即時專案的「指標」頁籤下。"
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "指標將與專案的分享級別相符。 隱藏的指標也許仍可透過 API 呼叫使用。",
+        "metricsDockLink": "深入瞭解設定指標"
+      }
+    }
+  },
+  "initiative": {
+    "featured": {
+      "description": "您可以擁有 4 個特色指標。 這些顯示在您的即時倡議的概述中。"
+    },
+    "visible": {
+      "description": "可見指標顯示在即時專案的「指標」頁籤下。"
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "指標將與倡議的分享級別相符。 隱藏的指標也許仍可透過 API 呼叫使用。",
+        "metricsDockLink": "深入瞭解設定指標"
+      }
+    }
+  },
+  "metricNumber": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4"
+  },
+  "actions": {
+    "delete": "刪除",
+    "edit": "編輯",
+    "featured": "圖徵",
+    "removeFeatured": "移除精選",
+    "show": "移至可見",
+    "hide": "移至隱藏"
+  },
+  "editor": {
+    "heading": "新增指標",
+    "description": "預設將自動隱藏指標，以便工作空間的成員可以看到它們。"
+  },
+  "deleteMetricModal": {
+    "heading": "刪除指標",
+    "content": "是否確定要刪除:",
+    "cancel": "取消",
+    "delete": "刪除"
+  },
+  "sidePanel": {
+    "definitions": "定義",
+    "preview": "預覽"
+  }
+}

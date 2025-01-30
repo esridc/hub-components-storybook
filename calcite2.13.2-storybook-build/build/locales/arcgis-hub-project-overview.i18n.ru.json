@@ -1,0 +1,19 @@
+{
+  "overview": "Обзор",
+  "telemetry": {
+    "pageViews": "Виды страниц",
+    "last30days": "Последние 30 дней",
+    "lastUpdated": "Обновлено {hoursElapsed} часов назад",
+    "checkTomorrow": "Вернитесь завтра"
+  },
+  "learnAbout": "Более подробно о проектах Hub",
+  "status": {
+    "notStarted": "Не начато",
+    "inProgress": "Выполняется",
+    "onHold": "В режиме ожидания",
+    "complete": "Завершено"
+  },
+  "editDetails": "Редактирование информации об элементах",
+  "noPurposeSet": "Цель не задана",
+  "noLocationSet": "Местоположение не задано"
+}

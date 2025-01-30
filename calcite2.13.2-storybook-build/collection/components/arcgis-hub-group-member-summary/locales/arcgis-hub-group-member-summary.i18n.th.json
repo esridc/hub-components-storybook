@@ -1,0 +1,12 @@
+{
+  "members": {
+    "noMember": "ไม่มีสมาชิก",
+    "oneMember": "สมาชิก 1 ราย",
+    "members": "สมาชิก {count} ราย"
+  },
+  "managers": {
+    "noMember": "ไม่มีผู้จัดการ",
+    "oneMember": "1 ผู้จัดการ",
+    "members": "{count} ผู้จัดการ"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "facets": {
+    "location": {
+      "label": "الموقع",
+      "tooltip": "تطبيق نطاق الخريطة كعامل تصفية للموقع"
+    },
+    "status": "الحالة",
+    "tags": "العلامات",
+    "categories": "الفئات",
+    "dateUpdated": "تاريخ التحديث"
+  },
+  "status": {
+    "label": "حالة المبادرة",
+    "notStarted": "لم يبدأ",
+    "inProgress": "قيد التقدّم",
+    "onHold": "متوقف مؤقتًا",
+    "complete": "اكتمل"
+  }
+}

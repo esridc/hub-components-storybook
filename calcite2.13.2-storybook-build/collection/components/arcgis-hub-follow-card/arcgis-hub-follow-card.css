@@ -1,0 +1,27 @@
+:host {
+  display: block;
+}
+
+calcite-notice {
+  --calcite-color-foreground-1: #ffffff;
+    --calcite-color-text-2: #000000;
+}
+
+.cta-align-center {
+  display: flex;
+  justify-content: center;
+}
+
+.cta-align-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.cta-align-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cta-text {
+  margin-bottom: 0.75rem;
+}

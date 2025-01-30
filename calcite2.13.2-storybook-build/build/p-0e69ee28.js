@@ -1,0 +1,1 @@
+import{h as e}from"./p-df5fbfcb.js";const t=({breadcrumbs:t,onClick:c})=>t.map(((n,r)=>{const{title:a,icon:i,link:l,label:o}=n,b=r===t.length-1;return e("calcite-menu-item",{active:b,"aria-current":b?"page":null,breadcrumb:!b,class:l?"":"non-interactive",href:l,"icon-start":i,label:o||a,onClick:c,text:a,"text-enabled":!0})}));export{t as B}

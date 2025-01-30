@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "Автоматизировано Hub",
+      "actionText": "Информация об автоматической опции"
+    },
+    "daily": {
+      "defaultLabel": "Ежедневно",
+      "defaultExpandedHelperText": "Каждый день в выбранный час в выбранном часовом поясе.",
+      "actionText": "Информация о ежедневной опции"
+    },
+    "weekly": {
+      "defaultLabel": "Каждую неделю",
+      "defaultExpandedHelperText": "Каждую неделю в следующий день и час в выбранном часовом поясе.",
+      "actionText": "Информация о еженедельной опции"
+    },
+    "monthly": {
+      "defaultLabel": "Ежемесячно",
+      "defaultExpandedHelperText": "Каждый месяц в следующий день и час в выбранном часовом поясе",
+      "actionText": "Информация о ежемесячной опции"
+    },
+    "yearly": {
+      "defaultLabel": "Ежегодно",
+      "defaultExpandedHelperText": "Каждый год в следующий месяц, день и час в выбранном часовом поясе.",
+      "actionText": "Информация о ежегодной опции"
+    },
+    "manual": {
+      "defaultLabel": "Вручную",
+      "defaultExpandedHelperText": "‎Используйте эту опцию, если хотите вручную обновить поисковый индекс и кэшированные файлы загрузки для этого элемента.",
+      "actionText": "Информация о ручной опции"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "Время дня",
+      "inputMessage": "Время будет округлено до ближайшего часа.",
+      "error": "Выберите час."
+    },
+    "day": {
+      "helperText": "День недели",
+      "daysOfTheWeek": {
+        "sunday": "Воскресенье",
+        "monday": "Понедельник",
+        "tuesday": "Вторник",
+        "wednesday": "Среда",
+        "thursday": "Четверг",
+        "friday": "Пятница",
+        "saturday": "Суббота"
+      },
+      "selectLabel": "Выбор дня недели",
+      "error": "Выберите день недели."
+    },
+    "date": {
+      "helperText": "День месяца",
+      "inputNumberPlaceholder": "Выбрать день месяца",
+      "inputMessage": "Введите значение от 1 до 28 для дня месяца.",
+      "error": "День месяца должен быть от 1 до 28."
+    },
+    "month": {
+      "helperText": "Месяц года",
+      "selectLabel": "Выбор месяца в году",
+      "monthsOfTheYear": {
+        "january": "Январь",
+        "february": "Февраль",
+        "march": "Март",
+        "april": "Апрель",
+        "may": "Май",
+        "june": "Июнь",
+        "july": "Июль",
+        "august": "Август",
+        "september": "Сентябрь",
+        "october": "Октябрь",
+        "november": "Ноябрь",
+        "december": "Декабрь"
+      },
+      "error": "Пожалуйста, выберите месяц."
+    },
+    "timezone": {
+      "helperText": "Часовой пояс",
+      "error": "Пожалуйста, выберите часовой пояс."
+    }
+  },
+  "fieldHeader": "Частота"
+}

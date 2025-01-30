@@ -1,0 +1,16 @@
+{
+  "all": "Kaikki",
+  "source": "Lähde",
+  "targetEntity": {
+    "item": "Kohteet",
+    "group": "Ryhmät",
+    "user": "Käyttäjät",
+    "portalUser": "Portaalikäyttäjät",
+    "communityUser": "Yhteisökäyttäjät",
+    "groupMember": "Ryhmän jäsenet",
+    "event": "Tapahtumat",
+    "channel": "Kanavat",
+    "discussionPost": "Julkaisut",
+    "eventAttendee": "Tapahtumaan ilmoittautuneet"
+  }
+}

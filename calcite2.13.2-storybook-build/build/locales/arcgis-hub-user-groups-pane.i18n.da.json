@@ -1,0 +1,33 @@
+{
+  "groups": "Mine grupper",
+  "addContentButtonText": "Opret ny(t)",
+  "role": "Rolle",
+  "owner": "Ejer",
+  "updated": "Opdateret",
+  "type": "Type",
+  "sharedUpdate": "Delt opdateringsgruppe",
+  "viewOnly": "Vis kun gruppe",
+  "actionLinks": {
+    "view": "Vis",
+    "edit": "Rediger",
+    "ariaEdit": "Redigér {title}",
+    "ariaView": "Vis {title}"
+  },
+  "facets": {
+    "access": {
+      "label": "Kan ses af",
+      "options": {
+        "public": "Alle (offentlig)",
+        "org": "Organisation",
+        "private": "Mig"
+      }
+    },
+    "type": {
+      "label": "Typer",
+      "options": {
+        "sharedUpdate": "Delt opdatering",
+        "opendata": "Open Data"
+      }
+    }
+  }
+}

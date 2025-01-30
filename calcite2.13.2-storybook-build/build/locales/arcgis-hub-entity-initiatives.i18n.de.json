@@ -1,0 +1,87 @@
+{
+  "initiatives": "Initiativen",
+  "description": "Verknüpfen Sie Ihr Projekt mit Initiativen, um an langfristigen oder groß angelegten Maßnahmen mitzuwirken. Projektbeteiligte können bestätigte Verknüpfungen und ausstehende Verknüpfungsanforderungen verwalten. Initiativen mit bestätigten Verknüpfungen werden in der Ansicht dieses Projekts angezeigt. ",
+  "shared": {
+    "error": {
+      "title": "Ein Fehler ist aufgetreten.",
+      "message": "Der Task konnte nicht abgeschlossen werden. Versuchen Sie es erneut."
+    },
+    "facets": {
+      "access": {
+        "label": "Freigeben"
+      },
+      "status": {
+        "label": "Status",
+        "notStarted": "Nicht gestartet",
+        "inProgress": "In Bearbeitung",
+        "onHold": "Zurückgestellt",
+        "complete": "Abgeschlossen"
+      },
+      "tags": {
+        "label": "Tags"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "{currentConfirmedAndOutgoingRequests}/{maxCurrentAndOutgoingRequestsAllowed} bestätigte + ausgehende Anforderungen",
+      "tooltip": "Zum Senden von Anforderungen die Verbindung vorhandener Verknüpfungen und/oder ausgehender Anforderungen trennen."
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "Initiativen suchen",
+    "sendRequest": "Anforderung senden",
+    "success": {
+      "title": "Erfolgreich",
+      "message": "Verknüpfungsanforderungen gesendet: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "Verknüpfungen überprüfen",
+      "message": "Für eine oder mehrere Auswahlen wurde bereits eine Verknüpfung angefordert. Neue Verknüpfungsanforderungen gesendet: {count}"
+    },
+    "catalog": {
+      "myContent": "Eigene Inhalte",
+      "favorites": "Favoriten",
+      "organization": "Eigene Organisation",
+      "partners": "Eigene Partner",
+      "community": "Eigene Community"
+    },
+    "collection": {
+      "initiatives": "Initiativen"
+    }
+  },
+  "acceptAssociation": {
+    "label": "Annehmen",
+    "limitReachedTooltip": "Zum Annehmen die Verbindung vorhandener Verknüpfungen und/oder ausgehender Anforderungen trennen.",
+    "success": {
+      "title": "Erfolgreich",
+      "message": "Verknüpfung angenommen für {requestor}"
+    }
+  },
+  "cancelRequest": {
+    "label": "Anforderung abbrechen",
+    "success": {
+      "title": "Erfolgreich",
+      "message": "Verknüpfungsanforderung abgebrochen"
+    }
+  },
+  "breakAssociation": {
+    "label": "Verbindung trennen",
+    "success": {
+      "title": "Verknüpfung defekt",
+      "message": "Die Verbindung zwischen diesem Element und seiner vorherigen Verknüpfung wurde getrennt. Wir können die Entscheidung der anderen Seite jedoch nicht revidieren. Daher wird sie in den eingehenden Anforderungen möglicherweise weiterhin aufgeführt."
+    }
+  },
+  "associationsGallery": {
+    "sources": "Status",
+    "catalog": {
+      "associated": "Verknüpft",
+      "requesting": "Eingehende Anforderungen",
+      "pending": "Ausgehende Anforderungen"
+    },
+    "collection": {
+      "initiatives": "Initiativen"
+    }
+  },
+  "notice": {
+    "label": "Formularwarnung"
+  }
+}

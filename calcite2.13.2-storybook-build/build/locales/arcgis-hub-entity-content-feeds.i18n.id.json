@@ -1,0 +1,81 @@
+{
+  "tabTitle": "Konfigurasi feed",
+  "learn": "Pelajari tentang feed Hub",
+  "loadingLabel": "Memuat",
+  "enableFeedsToggle": {
+    "label": "Aktifkan feed",
+    "privateNotice": "Untuk mengaktifkan feed, Anda harus terlebih dahulu mengatur situs Hub ke \"Publik\".",
+    "emptyPublicCatalog": {
+      "message": "Untuk mengaktifkan feed, Anda harus terlebih dahulu menambahkan konten publik ke katalog Anda.",
+      "button": "Lihat Katalog"
+    },
+    "grouplessCatalog": {
+      "message": "Untuk mengaktifkan feed, Anda harus terlebih dahulu mengonfigurasi katalog Anda.",
+      "button": "Konfigurasikan Katalog"
+    }
+  },
+  "gettingStartedNotice": {
+    "title": "Memulai",
+    "exampleMessage": "Soroti dan perbarui kunci atau nilai di editor JSON menggunakan nilai literal (\"VALUE\") atau template (\"{{TEMPLATE_VALUE}}\").",
+    "previewMessage": "Gunakan tombol geser \"pratinjau\" untuk melihat cuplikan perubahan Anda. Untuk informasi selengkapnya, baca <catalogFederationLink>dokumentasi bantuan federasi katalog</catalogFederationLink>."
+  },
+  "aboutFeedsNotice": {
+    "message": "Jadikan open data publik Anda mudah diakses dan digunakan kembali dengan feed Hub.",
+    "link": "Pelajari tentang feed Hub"
+  },
+  "feedsEditorSection": {
+    "title": "Feed",
+    "formatSelectLabel": "Pilih jenis feed",
+    "uneditableAttributesIntro": "Harap perhatikan bahwa atribut berikut tidak dapat diedit:",
+    "edit": "Edit",
+    "preview": "Pratinjau",
+    "selectContentNotice": "Pilih konten yang akan dipratinjau.",
+    "invalidJsonEditorWarning": "JSON tidak valid. Perbaiki kesalahan sebelum menyimpan.",
+    "invalidJsonPreviewWarning": "Tidak dapat mempratinjau JSON yang tidak valid, harap perbaiki kesalahan.",
+    "errorPreviewingWarning": "Terjadi kesalahan. Periksa koneksi Anda dan coba lagi. Jika masalah belum teratasi, silakan laporkan bug ke Dukungan Hub."
+  },
+  "toolsSection": {
+    "title": "Alat",
+    "verification": "Verifikasi",
+    "previewSampleData": {
+      "label": "Pratinjau sampel data",
+      "pickerFacets": {
+        "type": "Jenis",
+        "tags": "Tag",
+        "categories": "Kategori",
+        "sharing": "Berbagi",
+        "dateUpdated": "Tanggal Diperbarui"
+      }
+    },
+    "copyableInputLabel": "URL akses feed"
+  },
+  "dcat-us": {
+    "1.1": {
+      "title": "DCAT-US 1.1",
+      "description": "DCAT memungkinkan organisasi untuk menetapkan standar kontribusi data dan membantu orang-orang memparsing sumber federal. Anda dapat menggunakan <dcatUsSchemaLink>skema DCAT</dcatUsSchemaLink> yang ditetapkan oleh Project Open Data, yang merupakan konfigurasi default, atau mengonfigurasi kolom/atribut tertentu sendiri. Administrator situs juga dapat menambahkan konfigurasi DCAT tambahan dan mungkin perlu membaca dokumentasi kami mengenai <catalogFederationLink>penggabungan data dengan DCAT dan katalog eksternal lainnya.</catalogFederationLink>",
+      "uneditableAttributes": "@type, landingPage, webService dan contactPoint['@type'].",
+      "verificationLabel": "Anda dapat memverifikasikan feed DCAT Anda dengan menempelkan URL DCAT situs Anda ke dalam <dcatUsVerificationLink>Project Open Data's Validator</dcatUsVerificationLink>."
+    }
+  },
+  "dcat-ap": {
+    "2.1.1": {
+      "title": "DCAT-AP 2.1.1",
+      "description": "Dibuat oleh Komisi Eropa, DCAT-AP adalah format pertukaran metadata standar di seluruh katalog data Eropa. ArcGIS Hub membuat dan memperbarui umpan DCAT-AP situs secara otomatis saat Anda mengedit detail metadata konten atau menambahkan konten publik ke katalog Anda. Karena umpan menggunakan metadata yang dipertahankan di ArcGIS Online, maka tidak perlu membuat metadata DCAT-AP terpisah secara manual.<lineBreak></lineBreak><lineBreak></lineBreak>Menggunakan editor ini, Anda dapat menyimpan konfigurasi default ArcGIS Hub pada skema <dcatApSchemaLink>DCAT-AP</dcatApSchemaLink>, atau Anda dapat mengonfigurasikan kolom/atribut tertentu sendiri. Anda juga dapat menambahkan kolom/atribut DCAT-AP. Untuk detail selengkapnya, harap lihat dokumentasi ArcGIS Hub tentang <catalogFederationLink>federasi data dengan DCAT dan katalog eksternal lainnya</catalogFederationLink>.",
+      "uneditableAttributes": "@type, @id, dcat:contactPoint['@id'], dcat:contactPoint['@type'], dct:publisher, dcat:theme, dct:accessRights, dcat:keyword, dct:provenance, dct:issued, and dct:language",
+      "verificationLabel": "Anda dapat memverifikasi feed DCAT dengan menempelkan URL DCAT situs Anda ke <dcatApVerificationLink>Tempat Uji Interoperabilitas Komisi Eropa</dcatApVerificationLink>."
+    }
+  },
+  "rss": {
+    "2.0": {
+      "title": "RSS 2.0",
+      "description": "<rssAboutLink>RSS 2</rssAboutLink> adalah format sindikasi konten web dan sesuai dengan <xmlSpecLink>spesifikasi XML 1.0</xmlSpecLink>. Dengan menggunakan editor ini, Anda dapat menyimpan konfigurasi default ArcGIS Hub, atau Anda dapat mengonfigurasi kolom/atribut tertentu. Untuk detail selengkapnya, lihat dokumentasi ArcGIS Hub tentang <catalogFederationLink>federasi data dengan DCAT dan katalog eksternal lainnya.</catalogFederationLink>",
+      "verificationLabel": "Anda dapat memverifikasi umpan RSS Anda dengan mengirimkan URL RSS situs Anda ke <rssVerificationLink>Feed Validator</rssVerificationLink> W3."
+    }
+  },
+  "saveButton": "Simpan",
+  "alertMessages": {
+    "success": "Berhasil menyimpan editan",
+    "error": "Terjadi kesalahan saat menyimpan hasil perubahan"
+  },
+  "formAlert": "Peringatan formulir"
+}

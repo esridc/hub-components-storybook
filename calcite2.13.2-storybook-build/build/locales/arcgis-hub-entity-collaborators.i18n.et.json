@@ -1,0 +1,85 @@
+{
+  "collaborators": "Kaastöötajad",
+  "editGroupButtonText": "Lisa muutmisgrupid",
+  "viewGroupButtonText": "Lisa vaatamisgrupid",
+  "groupPicker": {
+    "title": "Valige grupid",
+    "facet": {
+      "label": "Lähtekoht",
+      "editGroups": "Muutke gruppe",
+      "viewGroups": "Kuva grupp",
+      "myGroups": "Minu grupid",
+      "myOrganization": "Minu organisatsioon",
+      "myCommunity": "Minu kogukond"
+    }
+  },
+  "addNewPeopleNotice": {
+    "title": "Lisa uued inimesed",
+    "message": "Kui on vaja lisada inimesi, võite neid kustuda kogukonnaga ühinema või <orgOverviewLink>pöörduda oma administraatori poole</orgOverviewLink>."
+  },
+  "editGroupsTitle": "Grupid, mida saab muuta",
+  "viewGroupsTitle": "Grupid, mida saab vaadata",
+  "project": {
+    "description": "Valige, millised kasutajate grupid saavad seda projekti vaadata ja muuta.",
+    "editGroupsDescription": "Nendesse gruppidesse kuuluvad isikud saavad projekti sisu muuta.",
+    "viewGroupsDescription": "Nendesse gruppidesse kuuluvad isikud saavad projekti otsida ja vaadata, kui see ei ole avalikult jagatud.",
+    "errorMessage": "Teie projekti kaastöötajate uuendamisel ilmnes viga."
+  },
+  "content": {
+    "description": "Valige, millised kasutajate rühmad saavad seda sisu vaadata ja muuta.",
+    "editGroupsDescription": "Nendesse gruppidesse kuuluvad isikud saavad teabe sisu muuta.",
+    "viewGroupsDescription": "Nendesse gruppidesse kuuluvad isikud saavad sisu otsida ja vaadata, kui see ei ole avalikult jagatud.",
+    "errorMessage": "Teie sisu kaastöötajate uuendamisel ilmnes viga."
+  },
+  "discussion": {
+    "description": "Valige, millised kasutajarühmad saavad arutelutahvlit vaadata ja millised saavad tahvli teavet muuta.",
+    "editGroupsDescription": "Nende gruppide liikmed saavad arutelutahvli teavet muuta.",
+    "viewGroupsDescription": "Nende gruppide liikmed saavad otsida ja vaadata arutelutahvlit (kui seda ei ole avalikult jagatud).",
+    "errorMessage": "Teie arutelu kaastöötajate uuendamisel ilmnes viga."
+  },
+  "site": {
+    "description": "Valige, millised kasutajate grupid saavad seda saiti vaadata ja muuta.",
+    "editGroupsDescription": "Sellesse gruppi kuuluvad isikud saavad saidi teavet muuta.",
+    "viewGroupsDescription": "Nendesse gruppidesse kuuluvad isikud saavad saiti otsida ja vaadata, kui see ei ole avalikult jagatud.",
+    "errorMessage": "Teie saidi kaastöötajate uuendamisel ilmnes tõrge."
+  },
+  "template": {
+    "description": "Valige, millised kasutajate grupid saavad seda malli vaadata ja muuta.",
+    "editGroupsDescription": "Sellesse gruppi kuuluvad isikud saavad malli teavet muuta.",
+    "viewGroupsDescription": "Nendesse gruppidesse kuuluvad isikud saavad malli otsida ja vaadata, kui seda ei ole avalikult jagatud.",
+    "errorMessage": "Teie malli kaastöötajate uuendamisel ilmnes tõrge."
+  },
+  "survey": {
+    "description": "Valige, millised kasutajate grupid saavad seda küsitlust vaadata ja muuta.",
+    "editGroupsDescription": "Sellesse gruppi kuuluvad isikud saavad küsitluse teavet muuta.",
+    "viewGroupsDescription": "Nendesse gruppidesse kuuluvad isikud saavad küsitlust otsida ja vaadata, kui see ei ole avalikult jagatud.",
+    "errorMessage": "Teie küsitluse kaastöötajate uuendamisel ilmnes tõrge."
+  },
+  "event": {
+    "description": "Valige, millised kasutajagrupid saavad seda sündmust vaadata ja muuta.",
+    "editGroupsDescription": "Nendesse gruppidesse kuuluvad isikud saavad sündmuse teavet muuta.",
+    "viewGroupsDescription": "Nendesse gruppidesse kuuluvad isikud saavad sündmust otsida ja vaadata, kui see ei ole avalikult jagatud.",
+    "errorMessage": "Teie sündmuse kaastöötajate uuendamisel ilmnes tõrge."
+  },
+  "newTab": "ava profiil uuel vahelehel",
+  "supportingTeams": "Tugitöörühmad",
+  "supportingTeamsDesc": "Need tugitöörühmad olid varem teie saidiga lingitud. Saate jätkata nende kasutamist, et jagada sisu kaastöötajatega.",
+  "supportTeamsRemove": "Eemalda töörühm",
+  "supportingTeamsRemoveError": "Tõrge töörühma linkimise tühistamisel. Pöörduge administraatori poole.",
+  "supportingTeamsRemoveSuccess": "Töörühma linkimine on tühistatud.",
+  "view": {
+    "button": "Loo vaatamisgrupp",
+    "formLabel": "Uus vaatamisgrupp",
+    "description": "Looge grupp, et hõlbustada sisu jagamist ja suhtlemist. Grupi liikmed saavad vaadata mis tahes sisu, mida grupiga jagatakse."
+  },
+  "edit": {
+    "button": "Loo muutmisgrupp",
+    "formLabel": "Uus muutmisgrupp",
+    "description": "Looge grupp, et hõlbustada sisu jagamist ja suhtlemist. Grupi liikmed saavad vaadata ja muuta mis tahes sisu, mida grupiga jagatakse."
+  },
+  "groupCreateDisabledButtonTooltip": "Te ei saa gruppi luua. Võite juba olla suurimas lubatud arvus gruppides või teil pole grupi loomiseks piisavaid õigusi.",
+  "groupCreateError": "Grupi loomisel ilmnes tõrge.",
+  "notice": {
+    "label": "Vormi hoiatus"
+  }
+}

@@ -1,0 +1,122 @@
+/*
+  FullCalendar implements the following CSS variables at the time of this writing:
+
+  // see https://github.com/fullcalendar/fullcalendar/blob/main/packages/core/src/styles/vars.css
+  --fc-small-font-size
+  --fc-page-bg-color
+  --fc-neutral-bg-color
+  --fc-neutral-text-color
+  --fc-border-color
+  --fc-button-text-color
+  --fc-button-bg-color
+  --fc-button-border-color
+  --fc-button-hover-bg-color
+  --fc-button-hover-border-color
+  --fc-button-active-bg-color
+  --fc-button-active-border-color
+  --fc-event-bg-color
+  --fc-event-border-color
+  --fc-event-text-color
+  --fc-event-selected-overlay-color
+  --fc-more-link-bg-color
+  --fc-more-link-text-color
+  --fc-event-resizer-thickness
+  --fc-event-resizer-dot-total-width
+  --fc-event-resizer-dot-border-width
+  --fc-non-business-color
+  --fc-bg-event-color
+  --fc-bg-event-opacity
+  --fc-highlight-color
+  --fc-today-bg-color
+  --fc-now-indicator-color
+
+  // see https://github.com/fullcalendar/fullcalendar/blob/main/packages/daygrid/src/styles/vars.css
+  --fc-daygrid-event-dot-width
+
+  // see https://github.com/fullcalendar/fullcalendar/blob/main/packages/list/src/styles/vars.css
+  --fc-list-event-dot-width
+  --fc-list-event-hover-bg-color
+*/
+
+:host {
+  display: block;
+  background-color: var(--calcite-color-foreground-1);
+  color: var(--calcite-color-text-1);
+  --fc-button-bg-color: transparent;
+  --fc-button-hover-bg-color: transparent;
+  --fc-button-active-bg-color: transparent;
+  --fc-button-text-color: var(--calcite-color-text-1);
+  --fc-button-border-color: var(--calcite-color-border-1);
+  --fc-button-active-border-color: var(--calcite-color-border-1);
+  --fc-button-hover-border-color: var(--calcite-color-border-1);
+
+  --fc-event-border-color: var(--calcite-color-brand);
+  --fc-event-bg-color: var(--calcite-color-brand);
+  --fc-event-text-color: var(--calcite-color-text-inverse);
+
+  --fc-today-bg-color: var(--calcite-color-foreground-2);
+  --fc-highlight-color: var(--calcite-color-foreground-current);
+  padding: 0.75rem;
+}
+
+/* clamp event title and time strings to a single line */
+:host .hub-calendar-event-title, :host .hub-calendar-event-time {
+  white-space: normal;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+/* make the more link more closely resemble a calcite-link */
+:host .fc .fc-daygrid-more-link {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px;
+  border-style: none;
+  color: var(--calcite-color-text-link);
+  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  text-decoration: none;
+  font-size: inherit;
+  -webkit-apperance: none;
+  line-height: inherit;
+  white-space: initial;
+  background-image: linear-gradient(currentColor, currentColor), linear-gradient(var(--calcite-color-brand-underline), var(--calcite-color-brand-underline));
+  background-position-x: 0%, 100%;
+  background-position-y: min(1.5em, 100%);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 0% 1px, 100% 1px;
+}
+
+:host .fc .fc-daygrid-more-link:hover, :host .fc .fc-daygrid-more-link:focus {
+  background-color: transparent;
+  background-size: 100% 1px, 100% 1px;
+}
+
+:host .fc .fc-daygrid-more-link:active {
+  background-color: transparent;
+  background-size: 100% 2px, 100% 2px;
+}
+
+/* FullCalendar's "more popover" has a z-index of 9999, this needs to be greater than that */
+:host calcite-popover {
+  z-index: 10000;
+}
+
+/* make dates that are not selectable visually distingishable from selectable dates */
+:host .fc .fc-day.non-selectable .fc-daygrid-day-top {
+  opacity: 0.3;
+}
+
+/* add hover & cursor styles to selectable dates */
+:host([interactable]) .fc .fc-day:not(.non-selectable):hover {
+  cursor: pointer;
+  background-color: var(--calcite-color-foreground-2);
+}

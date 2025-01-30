@@ -1,0 +1,50 @@
+{
+  "section": "Slett",
+  "protection": "Hindre at denne {type} slettes ved en feiltakelse.",
+  "protectionTooltip": "Beskyttelsesverktøytips",
+  "protectionDisabledTooltip": "Bare eiere eller organisasjonsadministratorer kan endre beskyttelse.",
+  "deleteDisabledNoAccessTooltip": "Bare eiere eller organisasjonsadministratorer kan slette.",
+  "deleteDisabledNoAccessTooltipGroup": "Bare eiere, ledere eller organisasjonsadministratorer kan slette.",
+  "deleteDisabledProtectedTooltip": "Du kan ikke slette mens slettebeskyttelsen er aktivert.",
+  "deleteButton": "Slett",
+  "protect": {
+    "successTitle": "Slettebeskyttelse lagt til",
+    "success": "Du kan ikke slette mens slettebeskyttelsen er aktivert.",
+    "successLabel": "Slettebeskyttelse lagt til-varsel.",
+    "errorTitle": "Kan ikke legge til slettebeskyttelse",
+    "error": "Det oppstod en feil ved tillegging av slettebeskyttelse.",
+    "errorLabel": "Slettebeskyttelse mislyktes-varsel."
+  },
+  "unprotect": {
+    "successTitle": "Slettebeskyttelse fjernet",
+    "success": "Du kan slette mens slettebeskyttelsen er deaktivert.",
+    "successLabel": "Slettebskyttelse fjernet-varsel.",
+    "errorTitle": "Kan ikke fjerne slettebeskyttelse",
+    "error": "Det oppstod en feil ved fjerning av slettebeskyttelse.",
+    "errorLabel": "Slettebskyttelse mislyktes-varsel."
+  },
+  "delete": {
+    "successTitle": "Slettingen var vellykket",
+    "success": "Omdirigerer til hjemmearbeidsområdet ditt",
+    "successLabel": "Slettingen var vellykket-varsel.",
+    "errorTitle": "Sletting mislyktes",
+    "error": "Noe gikk galt. Prøv på nytt.",
+    "errorLabel": "Sletting mislyktes-varsel."
+  },
+  "permanentDelete": {
+    "successTitle": "Permanent sletting var vellykket",
+    "success": "Omdirigerer til hjemmearbeidsområdet ditt",
+    "successLabel": "Slettingen var vellykket-varsel.",
+    "errorTitle": "Sletting mislyktes",
+    "error": "Noe gikk galt. Prøv på nytt.",
+    "errorLabel": "Sletting mislyktes-varsel."
+  },
+  "deleteModal": {
+    "header": "Slett",
+    "deleteContent": "Du kan ikke angre en permanent sletting. Er du sikker på at du vil fortsette?",
+    "recycleContent": "Slettet innhold blir sendt til papirkurven. Du har 14 dager på deg til å gjenopprette det.",
+    "delete": "Slett",
+    "permanentlyDelete": "Slett permanent",
+    "cancel": "Avbryt"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "newFilter": "Bộ lọc mới",
+  "block": {
+    "heading": {
+      "untitled": "Bộ lọc mới",
+      "default": "Bộ lọc {filterNum}: {parameter}",
+      "group": "Bộ lọc {filterNum}: nhóm",
+      "type": "Bộ lọc {filterNum}: loại",
+      "occurrence": "Bộ lọc {filterNum}: lần xuất hiện"
+    },
+    "actions": {
+      "delete": "Xóa bộ lọc: {label}"
+    }
+  }
+}

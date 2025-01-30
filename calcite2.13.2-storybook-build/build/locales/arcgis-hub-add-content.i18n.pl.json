@@ -1,0 +1,72 @@
+{
+  "addContent": "Dodaj zasoby",
+  "addContentType": {
+    "event": "Utwórz wydarzenie",
+    "discussion": "Utwórz dyskusję",
+    "group": "Utwórz grupę",
+    "initiative": "Utwórz inicjatywę",
+    "project": "Utwórz projekt",
+    "page": "Utwórz stronę",
+    "site:": "Utwórz witrynę"
+  },
+  "tooltip": {
+    "label": "Wyłączone",
+    "noCatalog": "Dodaj grupy do katalogu, aby dodać zasoby.",
+    "noPermission": "Nie masz uprawnień do dodawania zasobów do tego katalogu.",
+    "no-permission": "Nie masz uprawnień do dodawania zasobów do tego katalogu.",
+    "not-in-groups": "Nie jesteś członkiem żadnej grupy, która definiuje katalog.",
+    "too-many-groups": "Masz maksymalną liczbę grup i nie możesz utworzyć dodatkowych."
+  },
+  "existing": {
+    "description": "Dodaj zasoby, które są już w {onlineOrEnterprise}",
+    "modalTitle": "Wybierz istniejące zasoby",
+    "title": "Wybierz istniejące zasoby"
+  },
+  "create": {
+    "app": {
+      "description": "Tworzenie środowiska, przedstawianie narracji i wizualizowanie danych",
+      "modalTitle": "Utwórz aplikację",
+      "title": "Aplikacja"
+    },
+    "event": {
+      "description": "Organizuj aktywności z udziałem osobistym lub wirtualnym.",
+      "modalTitle": "Utwórz wydarzenie",
+      "title": "Wydarzenie"
+    },
+    "content": {
+      "description": "Dodaj do witryny dane, dokumenty, obrazy lub łącza zewnętrzne",
+      "modalTitle": "Utwórz zasoby",
+      "title": "Zasoby"
+    },
+    "discussion": {
+      "description": "Zbieraj pomysły i opinie",
+      "modalTitle": "Utwórz forum dyskusyjne",
+      "title": "Forum dyskusyjne"
+    },
+    "group": {
+      "description": "Organizuj osoby z myślą o udostępnianiu zasobów oraz dyskusjach",
+      "modalTitle": "Utwórz grupę",
+      "title": "Grupa"
+    },
+    "initiative": {
+      "description": "Wyróżniaj wysiłki strategiczne ze zdefiniowanymi zamierzeniami, których celem jest organizowanie projektów",
+      "modalTitle": "Utwórz inicjatywę",
+      "title": "Inicjatywa"
+    },
+    "page": {
+      "description": "Zaprezentuj dane w uporządkowanej kompozycji",
+      "modalTitle": "Utwórz stronę",
+      "title": "Strona"
+    },
+    "project": {
+      "description": "Przedstaw pracę z wyraźnymi celami i ramami czasowymi",
+      "modalTitle": "Utwórz projekt",
+      "title": "Projekt"
+    },
+    "site": {
+      "description": "Utwórz firmową witrynę do kontaktowania się ze społecznością",
+      "modalTitle": "Utwórz witrynę",
+      "title": "Witryna"
+    }
+  }
+}

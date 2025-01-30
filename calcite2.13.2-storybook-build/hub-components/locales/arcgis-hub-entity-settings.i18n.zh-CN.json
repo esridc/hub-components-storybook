@@ -1,0 +1,53 @@
+{
+  "settings": "设置",
+  "formDisabledTooltip": "您无权更改此 {type}。",
+  "delete": {
+    "project": "删除此工程",
+    "initiative": "删除此倡议",
+    "site": "删除此站点",
+    "discussion": "删除此讨论",
+    "content": "删除此内容",
+    "page": "删除此页面",
+    "group": "删除此群组",
+    "initiativeTemplate": "删除此倡议模板",
+    "template": "删除此模板",
+    "survey": "删除此调查",
+    "desc": {
+      "project": "删除此工程无法撤消。",
+      "initiative": "删除此倡议无法撤消。",
+      "site": "删除此站点无法撤消。",
+      "discussion": "删除此讨论无法撤消。",
+      "content": "删除此内容无法撤消。",
+      "page": "删除此页面无法撤消。",
+      "group": "删除此群组无法撤消。",
+      "initiativeTemplate": "删除此倡议模板无法撤消。",
+      "template": "删除此模板无法撤消。",
+      "survey": "删除此调查无法撤消。"
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "project": "删除工程",
+      "initiative": "删除倡议",
+      "site": "删除站点",
+      "discussion": "删除讨论",
+      "content": "删除内容",
+      "page": "删除页面",
+      "group": "删除群组",
+      "initiativeTemplate": "删除倡议模板",
+      "template": "删除模板",
+      "survey": "删除调查"
+    },
+    "content": "是否确定删除：",
+    "delete": "删除",
+    "cancel": "取消"
+  },
+  "sidePanel": {
+    "content": {
+      "extractNotice": {
+        "title": "“提取”功能会更改服务设置。",
+        "message": "引用该服务的其他项目将受到影响。 有关详细信息，请参阅<docLink>从托管要素图层导出数据</docLink>"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "communityOrg": "Tổ chức cộng đồng",
+  "editLayout": "Chỉnh sửa bố cục",
+  "orgWorkspace": "Mở không gian làm việc tại nhà",
+  "editS123": "Chỉnh sửa trong Survey123",
+  "editAdvancedJson": "Chỉnh sửa JSON nâng cao",
+  "view": {
+    "project": "Xem dự án",
+    "site": "Xem site",
+    "initiative": "Xem sáng kiến",
+    "discussion": "Xem bảng",
+    "content": "Xem nội dung",
+    "page": "Xem trang",
+    "group": "Xem nhóm",
+    "initiativeTemplate": "Xem biểu mẫu sáng kiến",
+    "template": "Xem biểu mẫu",
+    "survey": "Xem bảng khảo sát",
+    "event": "Xem sự kiện"
+  },
+  "access": {
+    "share": "Chia sẻ",
+    "sharingLevel": "Cấp độ chia sẻ",
+    "groupSharing": "Chia sẻ nhóm",
+    "tooltip": {
+      "public": "Cấp độ chia sẻ: Công khai",
+      "org": "Cấp độ chia sẻ: Tổ chức",
+      "private": "Cấp độ chia sẻ: Riêng tư",
+      "shared": "Cấp độ chia sẻ: Được chia sẻ riêng tư"
+    },
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "alert": {
+      "success": "Đã lưu thành công các chỉnh sửa",
+      "error": "Lỗi lưu các chỉnh sửa",
+      "label": "Cảnh báo biểu mẫu"
+    }
+  },
+  "popoverActions": {
+    "label": "Thêm hành động",
+    "openInEnterprise": "Mở trong ArcGIS Enterprise",
+    "openInOnline": "Mở trong ArcGIS Online"
+  },
+  "homeLink": {
+    "text": "Trang chủ"
+  },
+  "createContent": "Tạo"
+}

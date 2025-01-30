@@ -1,0 +1,72 @@
+{
+  "addContent": "コンテンツの追加",
+  "addContentType": {
+    "event": "イベントの作成",
+    "discussion": "ディスカッションの作成",
+    "group": "グループの作成",
+    "initiative": "イニシアティブの作成",
+    "project": "プロジェクトの作成",
+    "page": "ページの作成",
+    "site:": "サイトの作成"
+  },
+  "tooltip": {
+    "label": "無効",
+    "noCatalog": "コンテンツを追加するには、カタログにグループを追加します。",
+    "noPermission": "カタログにコンテンツを追加する権限がありません。",
+    "no-permission": "カタログにコンテンツを追加する権限がありません。",
+    "not-in-groups": "カタログを定義するグループのメンバーではありません。",
+    "too-many-groups": "グループの最大数に達しているため、これ以上作成できません。"
+  },
+  "existing": {
+    "description": "{onlineOrEnterprise} にすでに存在するコンテンツの追加",
+    "modalTitle": "既存のコンテンツの選択",
+    "title": "既存のコンテンツの選択"
+  },
+  "create": {
+    "app": {
+      "description": "エクスペリエンスを作成する、ストーリーを伝える、データを視覚化する",
+      "modalTitle": "アプリの作成",
+      "title": "アプリ"
+    },
+    "event": {
+      "description": "組織的な活動を対面またはオンラインで主催する",
+      "modalTitle": "イベントの作成",
+      "title": "イベント"
+    },
+    "content": {
+      "description": "データ、ドキュメント、画像、外部リンクをサイトに追加",
+      "modalTitle": "コンテンツの作成",
+      "title": "コンテンツ"
+    },
+    "discussion": {
+      "description": "アイデアとフィードバックの収集",
+      "modalTitle": "ディスカッション ボードの作成",
+      "title": "ディスカッション ボード"
+    },
+    "group": {
+      "description": "コンテンツ共有とディスカッションのために人々をまとめる",
+      "modalTitle": "グループの作成",
+      "title": "グループ"
+    },
+    "initiative": {
+      "description": "明確な目標を掲げた戦略的な取り組みをハイライト表示し、プロジェクトを整理する",
+      "modalTitle": "イニシアティブの作成",
+      "title": "イニシアティブ"
+    },
+    "page": {
+      "description": "情報を構造化されたレイアウトで表示する",
+      "modalTitle": "ページの作成",
+      "title": "ページ"
+    },
+    "project": {
+      "description": "明確な目標とタイムフレームを持つ作業をハイライト表示する",
+      "modalTitle": "プロジェクトの作成",
+      "title": "プロジェクト"
+    },
+    "site": {
+      "description": "ブランド Web サイトを作成してコミュニティと関与する",
+      "modalTitle": "サイトの作成",
+      "title": "サイト"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "notice": {
+    "outdatedItem": {
+      "title": "Ersätt ditt initiativ",
+      "message": "Det här kortet refererar ett inaktuellt objekt. Välj ett annat objekt som användarna kan följa."
+    },
+    "missingFollowersGroup": {
+      "title": "Följargrupp saknas",
+      "message": "Objektet saknar en följargrupp. Välj ett annat objekt."
+    },
+    "noGroupAccess": {
+      "title": "Obs!",
+      "message": "Du har inte åtkomst till följargruppen."
+    }
+  },
+  "selectContent": {
+    "title": "Innehåll att följa",
+    "facets": {
+      "sharing": "Delning",
+      "catalog": {
+        "myContent": "Mitt innehåll",
+        "organization": "Min organisation"
+      }
+    }
+  },
+  "callToAction": {
+    "title": "Uppmaning till handling",
+    "helperText": "Uppmaning till handling visas över följknappen.",
+    "alignment": "Justering"
+  },
+  "followButton": {
+    "title": "Följknapp",
+    "helperText": "Med den här knappen kan medlemmar följa eller sluta följa ditt innehåll. Texten kan anges för båda knappstatusar.",
+    "buttonText": "Text för knapp för att anmäla sig",
+    "unfollowButtonText": "Text för knapp för att avanmäla sig",
+    "alignment": "Justering",
+    "buttonStyle": "Knappstil",
+    "solid": "Solid bakgrund",
+    "outline": "Kontur"
+  }
+}

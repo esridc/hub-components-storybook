@@ -1,0 +1,10 @@
+{
+  "targetEntity": {
+    "label": "ソース",
+    "enum": {
+      "item": "アイテム",
+      "event": "イベント",
+      "group": "グループ"
+    }
+  }
+}

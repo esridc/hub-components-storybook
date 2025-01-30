@@ -1,0 +1,33 @@
+{
+  "title": "Sammlungen",
+  "actions": {
+    "label": "Optionen",
+    "show": "Einblenden",
+    "hide": "Ausblenden",
+    "rename": "Umbenennen"
+  },
+  "formAlert": "Formularwarnung",
+  "alertMessages": {
+    "success": "Änderungen erfolgreich gespeichert",
+    "error": "Fehler beim Speichern der Änderungen"
+  },
+  "collectionRenameModal": {
+    "title": "Sammlung umbenennen",
+    "fieldLabel": "Beschriftung der Sammlung",
+    "requiredMessage": "Beschriftung für Sammlung erforderlich",
+    "apply": "Übernehmen",
+    "maxLengthMessage": "Die Beschriftung der Sammlung darf nicht mehr als 50 Zeichen enthalten."
+  },
+  "collections": {
+    "dataset": "Daten",
+    "site": "Sites",
+    "document": "Dokumente",
+    "appAndMap": "Apps und Karten"
+  },
+  "saveButton": "Speichern",
+  "sections": {
+    "collectionConfiguration": {
+      "title": "Sammlungskonfiguration"
+    }
+  }
+}

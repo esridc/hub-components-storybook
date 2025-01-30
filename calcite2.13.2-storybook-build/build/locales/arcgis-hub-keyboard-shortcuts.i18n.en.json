@@ -1,0 +1,37 @@
+{
+  "categories": {
+    "navigation": "Navigation",
+    "commands": "Commands"
+  },
+  "metaKeys": {
+    "mac": {
+      "altKey": "opt",
+      "ctrlKey": "ctrl",
+      "metaKey": "⌘",
+      "shiftKey": "shift"
+    },
+    "win": {
+      "altKey": "alt",
+      "ctrlKey": "ctrl",
+      "metaKey": "⊞",
+      "shiftKey": "shift"
+    }
+  },
+  "shortcuts": {
+    "help": {
+      "label": "Bring up this dialog",
+      "modalTitle": "Keyboard shortcuts"
+    },
+    "history": {
+      "label": "Show history",
+      "modalTitle": "History"
+    },
+    "smile": {
+      "label": "Get a smiley face",
+      "modalTitle": "Smile"
+    },
+    "search": {
+      "label": "Go to search"
+    }
+  }
+}

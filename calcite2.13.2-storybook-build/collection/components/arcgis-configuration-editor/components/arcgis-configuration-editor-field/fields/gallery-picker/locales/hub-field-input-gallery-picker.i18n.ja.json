@@ -1,0 +1,13 @@
+{
+  "selectItem": "コンテンツの選択",
+  "selectGroup": "グループの選択",
+  "selectEvent": "イベントの選択",
+  "remove": "削除",
+  "launch": "開く",
+  "updatedDate": "更新済み {updatedDate}",
+  "memberCount": {
+    "noMember": "メンバーがいません",
+    "oneMember": "1 人のメンバー",
+    "members": "{count} 人のメンバー"
+  }
+}

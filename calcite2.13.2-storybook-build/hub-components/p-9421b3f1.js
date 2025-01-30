@@ -1,0 +1,1 @@
+import{_ as r}from"./p-d763eacf.js";import{g as t}from"./p-377e1b5e.js";import{r as o}from"./p-1674cf16.js";function s(r){return a(null,r)}function a(s,a){var p=s||"self",e=t(a)+"/portals/"+p,f=r({httpMethod:"GET"},a);return o(e,f)}export{a,s as g}

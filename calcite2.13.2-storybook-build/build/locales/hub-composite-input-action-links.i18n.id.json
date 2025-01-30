@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "Tambahkan tindakan pertama",
+  "addSecondAction": "Tambahkan tindakan kedua",
+  "addLink": "Tambahkan tautan",
+  "addSection": "Tambahkan bagian",
+  "deleteNotice": {
+    "title": "Tidak dapat menghapus",
+    "message": "Bagian tidak kosong. Pindahkan semua tautan ke luar bagian sebelum mencoba menghapus."
+  },
+  "linkEditor": {
+    "save": "Simpan",
+    "delete": "Hapus",
+    "cancel": "Batalkan",
+    "preview": "Pratinjau tautan",
+    "title": {
+      "button1": "Tindakan pertama",
+      "button2": "Tindakan kedua",
+      "block": "Tautan tindakan"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "Tautan ke konten yang ada"
+        },
+        "external": {
+          "label": "Tautan ke sumber eksternal"
+        }
+      },
+      "label": {
+        "label": "Label",
+        "helperText": {
+          "button": "Teks ini akan muncul pada tombol.",
+          "block": "Ini akan muncul di blok dengan huruf tebal."
+        },
+        "requiredError": "Label adalah kolom yang wajib diisi."
+      },
+      "description": {
+        "label": "Deskripsi",
+        "helperText": "Ini adalah informasi sekunder."
+      },
+      "href": {
+        "label": "Tautan",
+        "requiredError": "Tautan adalah kolom yang wajib diisi.",
+        "formatError": "Pemformatan URL salah."
+      },
+      "contentId": {
+        "label": "Tautan konten",
+        "requiredError": "Tautan konten adalah kolom yang wajib diisi."
+      },
+      "section": {
+        "label": "Pindahkan ke bagian",
+        "placeholder": {
+          "noSections": "Tidak ada bagian yang dikonfigurasi",
+          "notSet": "Tidak dalam bagian"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "Bagian",
+    "helperText": "Bagian dapat digunakan untuk membuat tautan di bawah item menu. Bagian tidak berfungsi sebagai tautan.",
+    "section": {
+      "label": {
+        "label": "Label",
+        "requiredError": "Label adalah kolom yang wajib diisi."
+      },
+      "description": {
+        "label": "Deskripsi"
+      }
+    }
+  }
+}

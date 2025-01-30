@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Nessun risultato trovato."
+    },
+    "error": {
+      "message": "Spiacenti, si è verificato un errore durante la ricerca."
+    }
+  },
+  "type": "Tipo",
+  "tags": "Tag",
+  "owner": "Proprietario",
+  "dateCreated": "Data creazione",
+  "dateUpdated": "Modificato",
+  "categories": "Categorie",
+  "dateAndTime": "Data e ora",
+  "allDay": "{date} (tutto il giorno)",
+  "allDayRange": "{from} - {to} (tutto il giorno)",
+  "location": "Posizione",
+  "attendanceType": "Tipi di partecipazione",
+  "inPerson": "Di persona",
+  "online": "Online",
+  "hybrid": "Ibrido"
+}

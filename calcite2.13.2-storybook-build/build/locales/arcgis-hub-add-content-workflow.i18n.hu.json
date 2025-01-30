@@ -1,0 +1,110 @@
+{
+  "controls": {
+    "addContent": "Tartalom hozzáadása",
+    "back": "Vissza",
+    "cancel": "Mégse",
+    "close": "Kész",
+    "create": "Létrehozás és hozzáadás a csoporthoz",
+    "next": "Tovább"
+  },
+  "createHelpState": {
+    "discussion": {
+      "heading": "Vita",
+      "message": "Hozzon létre egy új vitafórumot a témát jelző cím megadásával."
+    },
+    "event": {
+      "heading": "Esemény",
+      "message": "Tartson szervezett tevékenységet, személyesen vagy virtuálisan."
+    },
+    "group": {
+      "heading": "Csoport",
+      "message": "Állítson fel egy csoportot a célzott tartalomban való együttműködés érdekében."
+    },
+    "initiative": {
+      "heading": "Kezdeményezés",
+      "message": "A kezdeményezések rendszerezik és összefoglalják a cél elérése érdekében tett előrehaladást."
+    },
+    "page": {
+      "heading": "Oldalszám",
+      "message": "Az oldal az információk megosztásának és a közönségével való kapcsolattartásnak a helye."
+    },
+    "project": {
+      "heading": "Projekt",
+      "message": "Emelje ki az egyértelmű célokkal és időkeretekkel rendelkező munkát."
+    },
+    "site": {
+      "heading": "Webhely",
+      "message": "Hozzon létre weboldalt az információk rendszerezéséhez és megosztásához."
+    }
+  },
+  "selection": {
+    "unlimited": "Kiválasztva: {count}",
+    "limited": "Kiválasztás: {count}/{limit}"
+  },
+  "steps": {
+    "createContent": "Alapinformációk hozzáadása",
+    "selectContent": "Tartalom kiválasztása",
+    "selectGroups": "Csoport kiválasztása",
+    "confirmation": "Megerősítés",
+    "notImplemented": "Nincs megvalósítva"
+  },
+  "working": {
+    "heading": "A kiválasztott tartalom hozzáadása folyamatban van.",
+    "loadingLabel": "A tartalom hozzáadása folyamatban van."
+  },
+  "failure": {
+    "heading": "A tartalom hozzáadása nem sikerült",
+    "message": "Hiba történt a kiválasztott tartalom hozzáadásakor: kérjük, próbálkozzon újra.",
+    "action": "Újrapróbálkozás"
+  },
+  "notImplemented": {
+    "heading": "A munkafolyamat implementálása még nem történt meg."
+  },
+  "contentGallery": {
+    "facets": {
+      "access": {
+        "label": "Ettől:"
+      },
+      "type": {
+        "label": "Típusok"
+      },
+      "tags": {
+        "label": "Címkék"
+      },
+      "categories": {
+        "label": "Kategóriák"
+      },
+      "modified": {
+        "label": "Módosítva"
+      }
+    }
+  },
+  "groupsGallery": {
+    "facets": {
+      "access": {
+        "label": "Megtekintheti",
+        "options": {
+          "org": "Szervezet",
+          "public": "Mindenki (nyilvános)",
+          "private": "Én"
+        }
+      },
+      "from": {
+        "label": "Ettől:",
+        "options": {
+          "myCommunity": "Saját közösség",
+          "myGroups": "Saját csoportok",
+          "myOrganization": "Saját szervezet",
+          "world": "Világ"
+        }
+      },
+      "type": {
+        "label": "Típusok",
+        "options": {
+          "sharedUpdate": "Megosztott frissítés",
+          "opendata": "Open Data"
+        }
+      }
+    }
+  }
+}

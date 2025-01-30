@@ -1,0 +1,1 @@
+const e=e=>{var o;let t=!1;return"string"==typeof e?t=""===e:Array.isArray(e)?t=!e.length:null==e?t=!0:"undefined"!=typeof Blob&&e instanceof Blob?t=!1:"object"==typeof e&&(t=!(null===(o=Object.keys(e))||void 0===o?void 0:o.length)),t};export{e as i}

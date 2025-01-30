@@ -1,0 +1,75 @@
+{
+  "addMetric": "Dodaj pokazatelj",
+  "title": "Pokazatelji",
+  "featured": "Istaknuto",
+  "metricDescription": "Merljiva vrednost koja se koristi za praćenje napretka projekta, na osnovu ili statičkih (npr. istorijskih) ili dinamičkih (npr. u stvarnom vremenu) podataka.",
+  "metricCount": {
+    "label": "{currentCount} / {totalCountAllowed} metrika",
+    "tooltip": "Da biste dodali metriku, izbrišite neki od postojećih skupova"
+  },
+  "visible": {
+    "title": "Vidljivo",
+    "noMetrics": "U ovom odeljku nema pokazatelja."
+  },
+  "hidden": {
+    "title": "Sakriveno",
+    "description": "Ovi pokazatelji se prikazuju samo onima koji imaju pristup ovom radnom prostoru.",
+    "noMetrics": "U ovom odeljku nema pokazatelja."
+  },
+  "project": {
+    "featured": {
+      "description": "Možete da imate 4 istaknute metrike. One se prikazuju u odeljku Pregled vašeg projekta uživo."
+    },
+    "visible": {
+      "description": "Vidljive metrike se prikazuju na kartici Metrike u vašem projektu uživo."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Metrike će odgovarati nivou deljenja projekta. Skrivene metrike mogu i dalje biti dostupne putem API poziva.",
+        "metricsDockLink": "Saznajte više o postavljanju metrike"
+      }
+    }
+  },
+  "initiative": {
+    "featured": {
+      "description": "Možete da imate 4 istaknute metrike. One se prikazuju u odeljku Pregled vaše inicijative uživo."
+    },
+    "visible": {
+      "description": "Vidljive metrike se prikazuju na kartici Metrike u vašem projektu uživo."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Metrika će odgovarati nivou deljenja inicijative. Skrivene metrike mogu i dalje biti dostupne putem API poziva.",
+        "metricsDockLink": "Saznajte više o postavljanju metrike"
+      }
+    }
+  },
+  "metricNumber": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4"
+  },
+  "actions": {
+    "delete": "Izbriši",
+    "edit": "Izmeni",
+    "featured": "Geoobjekat",
+    "removeFeatured": "Ukloni istaknuto",
+    "show": "Pomeri na vidljivo",
+    "hide": "Pomeri na skriveno"
+  },
+  "editor": {
+    "heading": "Novi pokazatelj",
+    "description": "Podrazumevano, pokazatelji će automatski biti skriveni tako da članovi vašeg radnog prostora mogu da ih vide."
+  },
+  "deleteMetricModal": {
+    "heading": "Izbriši pokazatelj",
+    "content": "Da li ste sigurni da želite da izbrišete:",
+    "cancel": "Otkaži",
+    "delete": "Izbriši"
+  },
+  "sidePanel": {
+    "definitions": "Definicije",
+    "preview": "Pregled"
+  }
+}

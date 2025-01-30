@@ -1,0 +1,29 @@
+{
+  "header": "Evenimente",
+  "myContent": "Evenimentele mele",
+  "editableContent": "Conținut editabil",
+  "addEventButtonText": "Creare eveniment",
+  "type": "Tip",
+  "sharedUpdate": "Grup cu actualizare partajată",
+  "viewOnly": "Grup numai vizualizare",
+  "owner": "Creat de",
+  "starts": "Activ",
+  "from": "De la",
+  "until": "Până la",
+  "updated": "Actualizat",
+  "tags": "Etichete",
+  "dateCreated": "Creat",
+  "dateUpdated": "Modificat",
+  "actionLinks": {
+    "view": "Vizualizați",
+    "edit": "Editare",
+    "ariaEdit": "Editare: {title}",
+    "ariaView": "Vizualizare: {title}"
+  },
+  "access": {
+    "label": "Acces",
+    "PRIVATE": "Privat",
+    "ORG": "Organizație",
+    "PUBLIC": "Public"
+  }
+}

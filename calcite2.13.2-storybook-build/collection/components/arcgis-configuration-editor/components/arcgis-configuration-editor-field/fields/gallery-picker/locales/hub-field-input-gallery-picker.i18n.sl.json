@@ -1,0 +1,13 @@
+{
+  "selectItem": "Izberi vsebino",
+  "selectGroup": "Izberi skupino",
+  "selectEvent": "Izberi dogodek",
+  "remove": "odstrani",
+  "launch": "Odpri",
+  "updatedDate": "Posodobljeno {updatedDate}",
+  "memberCount": {
+    "noMember": "Ni članov",
+    "oneMember": "1 član",
+    "members": "Št. članov: {count}"
+  }
+}

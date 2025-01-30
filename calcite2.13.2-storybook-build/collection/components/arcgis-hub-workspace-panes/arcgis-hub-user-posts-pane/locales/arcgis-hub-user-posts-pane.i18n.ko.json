@@ -1,0 +1,43 @@
+{
+  "header": "토론",
+  "myContent": "내 이벤트",
+  "editableContent": "편집 가능한 콘텐츠",
+  "addContentButtonText": "이벤트 생성",
+  "type": "유형",
+  "sharedUpdate": "공유 업데이트 그룹",
+  "viewOnly": "그룹만 보기",
+  "owner": "소유자",
+  "updated": "업데이트됨",
+  "tags": "태그",
+  "dateCreated": "생성",
+  "dateUpdated": "수정",
+  "actionLinks": {
+    "view": "보기",
+    "edit": "편집",
+    "ariaEdit": "편집: {title}",
+    "ariaView": "보기: {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "이벤트",
+      "myContent": "소유한 이벤트",
+      "editableContent": "편집할 수 있는 이벤트",
+      "all": "모든 이벤트"
+    },
+    "access": {
+      "label": "소속"
+    },
+    "type": {
+      "label": "유형"
+    },
+    "tags": {
+      "label": "태그"
+    },
+    "categories": {
+      "label": "범주"
+    },
+    "modified": {
+      "label": "수정"
+    }
+  }
+}

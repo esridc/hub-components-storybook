@@ -1,0 +1,85 @@
+{
+  "collaborators": "Spolupracovníci",
+  "editGroupButtonText": "Pridať skupiny pre editáciu",
+  "viewGroupButtonText": "Pridať skupiny zobrazenie",
+  "groupPicker": {
+    "title": "Vybrať skupiny",
+    "facet": {
+      "label": "Od",
+      "editGroups": "Upraviť skupiny",
+      "viewGroups": "Zobraziť skupinu",
+      "myGroups": "Moje skupiny",
+      "myOrganization": "Moja organizácia",
+      "myCommunity": "Moja komunita"
+    }
+  },
+  "addNewPeopleNotice": {
+    "title": "Pridať nových ľudí",
+    "message": "Ak potrebujete pridať ľudí, môžete ich pozvať do komunity alebo môžete <orgOverviewLink>kontaktovať vášho administrátora</orgOverviewLink>."
+  },
+  "editGroupsTitle": "Skupiny, ktoré môžu editovať",
+  "viewGroupsTitle": "Skupiny, ktoré môžu zobrazovať",
+  "project": {
+    "description": "Vyberte, ktoré skupiny používateľov môžu tento projekt zobrazovať a editovať.",
+    "editGroupsDescription": "Osoby v týchto skupinách budú môcť editovať informácie o projekte.",
+    "viewGroupsDescription": "Ľudia v týchto skupinách budú môcť vyhľadávať a prezerať projekt, ak nie je sprístupnený verejnosti.",
+    "errorMessage": "Pri aktualizácii spolupracovníkov vášho projektu došlo k chybe."
+  },
+  "content": {
+    "description": "Vyberte, ktoré skupiny používateľov môžu zobrazovať a editovať tento obsah.",
+    "editGroupsDescription": "Osoby v týchto skupinách budú môcť editovať informácie o obsahu.",
+    "viewGroupsDescription": "Ľudia v týchto skupinách budú môcť vyhľadávať a prezerať obsah, ak nie je zdieľaný pre verejnosť.",
+    "errorMessage": "Pri aktualizácii spolupracovníkov pre váš obsah došlo k chybe."
+  },
+  "discussion": {
+    "description": "Vyberte, ktoré skupiny používateľov môžu prezerať diskusné fórum a ktoré môžu editovať informácie na fóre.",
+    "editGroupsDescription": "Členovia týchto skupín môžu editovať informácie na diskusnom fóre.",
+    "viewGroupsDescription": "Členovia týchto skupín môžu vyhľadávať a prezerať diskusné fórum (ak nie je sprístupnené verejnosti).",
+    "errorMessage": "Pri aktualizácii spolupracovníkov vo vašej diskusii nastala chyba."
+  },
+  "site": {
+    "description": "Vyberte, ktoré skupiny používateľov môžu prezerať a editovať túto lokalitu.",
+    "editGroupsDescription": "Ľudia v týchto skupinách budú môcť editovať informácie o lokalite.",
+    "viewGroupsDescription": "Ľudia v týchto skupinách budú môcť vyhľadávať a prezerať lokalitu, ak nebudú sprístupnené verejnosti.",
+    "errorMessage": "Pri aktualizácii spolupracovníkov vašej lokality došlo k chybe."
+  },
+  "template": {
+    "description": "Vyberte, ktoré skupiny používateľov môžu túto šablónu zobrazovať a upravovať.",
+    "editGroupsDescription": "Osoby v týchto skupinách budú môcť upravovať informácie o šablónach.",
+    "viewGroupsDescription": "Ak šablóna nebola zdieľaná s verejnosťou, osoby v týchto skupinách si ju budú môcť vyhľadať a prezerať.",
+    "errorMessage": "Pri aktualizácii spolupracovníkov vašej šablóny došlo k chybe."
+  },
+  "survey": {
+    "description": "Vyberte, ktoré skupiny používateľov môžu prezerať a editovať tento prieskum.",
+    "editGroupsDescription": "Ľudia v týchto skupinách budú môcť editovať informácie o prieskume.",
+    "viewGroupsDescription": "Ľudia v týchto skupinách budú môcť vyhľadávať a prezerať prieskum, ak nebude sprístupnený verejnosti.",
+    "errorMessage": "Pri aktualizácii spolupracovníkov vášho prieskumu došlo k chybe."
+  },
+  "event": {
+    "description": "Vyberte, ktoré skupiny používateľov môžu zobrazovať a editovať túto udalosť.",
+    "editGroupsDescription": "Osoby v týchto skupinách budú môcť editovať informácie o udalosti.",
+    "viewGroupsDescription": "Ľudia v týchto skupinách budú môcť vyhľadávať a prezerať udalosť, ak nie je zdieľaná pre verejnosť.",
+    "errorMessage": "Pri aktualizácii spolupracovníkov pre vašu udalosť došlo k chybe."
+  },
+  "newTab": "otvoriť profil v novej karte",
+  "supportingTeams": "Podporné tímy",
+  "supportingTeamsDesc": "Tieto podporné tímy boli predtým prepojené s vašou lokalitou. Môžete ich naďalej používať na zdieľanie obsahu so spolupracovníkmi.",
+  "supportTeamsRemove": "Odstrániť tím",
+  "supportingTeamsRemoveError": "Chyba pri odpojení tímu. Kontaktujte správcu.",
+  "supportingTeamsRemoveSuccess": "Úspešne odpojený tím.",
+  "view": {
+    "button": "Vytvoriť skupinu zobrazenia",
+    "formLabel": "Nová skupina zobrazenia",
+    "description": "Založte skupinu na uľahčenie zdieľania obsahu a komunikácie. Členovia skupiny budú môcť zobrazovať akýkoľvek obsah zdieľaný so skupinou."
+  },
+  "edit": {
+    "button": "Vytvoriť skupinu úprav",
+    "formLabel": "Nová skupina úprav",
+    "description": "Založte skupinu na uľahčenie zdieľania obsahu a komunikácie. Členovia skupiny budú môcť zobrazovať a upravovať akýkoľvek obsah zdieľaný so skupinou."
+  },
+  "groupCreateDisabledButtonTooltip": "Nemôžete vytvoriť skupinu. Je možné, že už ste v maximálnom počte skupín alebo vám chýbajú dostatočné oprávnenia na vytvorenie skupiny.",
+  "groupCreateError": "Pri vytváraní skupiny sa vyskytla chyba.",
+  "notice": {
+    "label": "Upozornenie na formulár"
+  }
+}

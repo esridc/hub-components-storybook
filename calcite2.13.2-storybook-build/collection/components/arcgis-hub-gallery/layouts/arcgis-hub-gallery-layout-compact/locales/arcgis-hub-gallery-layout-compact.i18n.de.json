@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Keine Ergebnisse gefunden."
+    },
+    "error": {
+      "message": "Beim Durchführen der Suche ist ein Fehler aufgetreten."
+    }
+  },
+  "type": "Typ",
+  "tags": "Tags",
+  "owner": "Besitzer",
+  "dateCreated": "Erstellt",
+  "dateUpdated": "Geändert",
+  "categories": "Kategorien",
+  "dateAndTime": "Datum und Uhrzeit",
+  "allDay": "{date} (ganztägig)",
+  "allDayRange": "{from}–{to} (ganztägig)",
+  "location": "Ort",
+  "attendanceType": "Art der Teilnahme",
+  "inPerson": "Präsenz",
+  "online": "Online",
+  "hybrid": "Hybrid"
+}

@@ -1,0 +1,15 @@
+{
+  "newCollection": "Yeni koleksiyon",
+  "block": {
+    "heading": {
+      "untitled": "Adsız koleksiyon"
+    },
+    "actions": {
+      "delete": "Koleksiyonu sil: {label}"
+    }
+  },
+  "name": {
+    "label": "Adı",
+    "requiredError": "Koleksiyon adı zorunludur"
+  }
+}

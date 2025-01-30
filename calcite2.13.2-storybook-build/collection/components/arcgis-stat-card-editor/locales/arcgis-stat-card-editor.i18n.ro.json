@@ -1,0 +1,165 @@
+{
+  "advancedConfig": {
+    "label": "Configurație avansată",
+    "serverTimeout": {
+      "label": "Expirare server (secunde)",
+      "helperText": "Util pentru servicii mai mari, care pot necesita mai mult timp pentru a răspunde.",
+      "errors": {
+        "type": "Introduceți configurarea expirării pentru server.",
+        "minimum": "Valoarea expirării pentru server trebuie să fie de cel puțin 5.",
+        "maximum": "Valoarea expirării pentru server trebuie să fie de cel mult 95."
+      }
+    }
+  },
+  "appearance": {
+    "corners": {
+      "label": "Colțuri",
+      "enum": {
+        "round": {
+          "label": "Rotund"
+        },
+        "square": {
+          "label": "Pătrat"
+        }
+      }
+    },
+    "dropShadow": {
+      "label": "Plasare umbră",
+      "enum": {
+        "heavy": {
+          "label": "Mare"
+        },
+        "low": {
+          "label": "Redus"
+        },
+        "medium": {
+          "label": "Mediu"
+        },
+        "none": {
+          "label": "Neînceput"
+        }
+      }
+    },
+    "layout": {
+      "label": "Stil cartelă",
+      "enum": {
+        "informational": {
+          "label": "Informațional"
+        },
+        "simple": {
+          "label": "Simplu"
+        }
+      }
+    },
+    "popoverText": {
+      "label": "Conținut modal"
+    },
+    "publisherText": {
+      "label": "Editor sursă"
+    },
+    "styleSpecificSettings": {
+      "label": "Setări stil",
+      "helperInfoText": "Selectarea butonului de informații va deschide un modal care conține mai multe informații.",
+      "helperVizText": "Cardul simplu acceptă adăugarea unei pictograme ca element vizual, care poate fi folosit pentru a reflecta modificările datelor."
+    },
+    "sectionTitle": "Aspect",
+    "textAlign": "Aliniere",
+    "visualInterest": {
+      "label": "Element vizual",
+      "enum": {
+        "icon": {
+          "label": "Pictogramă"
+        },
+        "none": {
+          "label": "Niciunul"
+        }
+      }
+    },
+    "icon": {
+      "label": "Pictogramă",
+      "caretUp": {
+        "label": "Creștere"
+      },
+      "caretDown": {
+        "label": "Scădere"
+      },
+      "caretDouble": {
+        "label": "Nicio schimbare"
+      }
+    },
+    "valueColor": "Culoare (statistică)"
+  },
+  "details": {
+    "allowDynamicLink": "Afișare link sursă",
+    "link": {
+      "sectionTitle": "Link",
+      "sourceLink": "URL link",
+      "sourceTitle": "Text link"
+    },
+    "sectionTitle": "Detalii",
+    "subtitle": "Subtitlu",
+    "title": "Titlu",
+    "trailingText": {
+      "label": "Text sfârșit",
+      "helperText": "Introduceți orice context sau explicație suplimentară (care să apară sub valoarea metrică)."
+    }
+  },
+  "errors": {
+    "sourceLink": {
+      "required": "Link necesar pentru a afișa sursa.",
+      "formatError": "Formatul URL-ului este incorect"
+    }
+  },
+  "formatting": {
+    "sectionTitle": "Formatare",
+    "unit": {
+      "label": "Afișare unități",
+      "helperText": "Introduceți unitatea de măsură pentru valoarea dvs."
+    },
+    "unitPosition": {
+      "label": "Amplasare",
+      "helperText": "Selectați unde apare unitatea de măsură (de ex. „km”, „lbs”) prin raportare la valoarea metrică.",
+      "enum": {
+        "after": {
+          "label": "După"
+        },
+        "before": {
+          "label": "Înainte"
+        },
+        "below": {
+          "label": "Dedesubt"
+        }
+      }
+    }
+  },
+  "sharing": {
+    "sectionTitle": "Partajare",
+    "showShareIcon": "Activare partajare",
+    "showShareIconHelperText": "Permiteți utilizatorilor să copieze un link direct la acest card pe această pagină.",
+    "shareableByValue": "Activați încorporările",
+    "shareableOnHover": {
+      "label": "Afișare la glisare cu mouse-ul",
+      "helperText": {
+        "label": "Butonul partajare se afișează numai la glisarea cu mouse-ul. Dacă este dezactivat, butonul este întotdeauna vizibil."
+      }
+    }
+  },
+  "statistic": {
+    "dataSource": "Sursă de date",
+    "displayValue": "Afișare valoare",
+    "sectionTitle": "Valoare",
+    "type": {
+      "label": "Tip",
+      "enum": {
+        "dynamic": {
+          "label": "Dinamic",
+          "description": "Selectați un set de date existent (serviciu de obiect spațial) pentru rezumare."
+        },
+        "static": {
+          "label": "Static",
+          "description": "Introduceți manual o valoare pentru a o evidenția în structura dvs."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Không tìm thấy kết quả."
+    },
+    "error": {
+      "message": "Chúng tôi rất tiếc nhưng tìm kiếm đã xảy ra lỗi."
+    }
+  },
+  "type": "Loại",
+  "tags": "Thẻ",
+  "owner": "Chủ sở hữu",
+  "dateCreated": "Đã tạo",
+  "dateUpdated": "Đã chỉnh sửa",
+  "categories": "Danh mục",
+  "dateAndTime": "Ngày & giờ",
+  "allDay": "{date} (cả ngày)",
+  "allDayRange": "{from} - {to} (tất cả ngày)",
+  "location": "Vị trí",
+  "attendanceType": "Kiểu tham dự",
+  "inPerson": "Trực tiếp",
+  "online": "Trực tuyến",
+  "hybrid": "Kết hợp"
+}

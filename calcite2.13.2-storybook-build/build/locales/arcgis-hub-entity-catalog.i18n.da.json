@@ -1,0 +1,65 @@
+{
+  "catalog": "Katalog",
+  "catalog-content": "Indhold",
+  "catalog-events": "Begivenheder",
+  "shared": {
+    "publish": {
+      "label": "Gem",
+      "success": {
+        "title": "Har publiceret katalogredigeringer til den dynamiske visning"
+      },
+      "error": {
+        "title": "Fejl under lagring af redigeringer"
+      }
+    }
+  },
+  "emptyState": {
+    "message": "Intet katalog defineret",
+    "action": "Opret et katalog"
+  },
+  "actionBar": {
+    "details": "Konfiguration af katalog",
+    "appearance": "Udseende af katalog",
+    "tooltip": {
+      "appearanceDisabled": "Der er ikke konfigureret noget katalog i øjeblikket. Konfigurer et katalog for at justere indstillingerne for udseende.",
+      "configuration": "Konfiguration",
+      "appearance": "Udseende"
+    }
+  },
+  "detailsPanel": {
+    "heading": "Konfiguration af katalog",
+    "close": "Luk konfiguration af katalog",
+    "catalogBuilder": {
+      "helperText": "Dit katalog giver besøgende mulighed for at søge efter og vise indhold. De viste resultater er baseret på din forespørgselskonfiguration."
+    },
+    "querySizeNotice": {
+      "warning": {
+        "title": "Nærmer sig kataloggrænsen",
+        "catalogSourceMessage": {
+          "item": "Din elementkildekonfiguration nærmer sig størrelsesgrænsen.",
+          "event": "Din hændelseskonfiguration nærmer sig størrelsesgrænsen."
+        },
+        "collectionSourceMessage": {
+          "item": "Kombinationen af din elementkilde og konfigurationen af \"{collectionName}\"-samlingen nærmer sig størrelsesgrænsen.",
+          "event": "Kombinationen af din hændelseskilde og konfigurationen af \"{collectionName}\"-samlingen nærmer sig størrelsesgrænsen."
+        }
+      },
+      "danger": {
+        "title": "Kataloggrænse overskredet",
+        "catalogSourceMessage": {
+          "item": "Din elementkildekonfiguration har overskredet størrelsesgrænsen. Reducer antallet af filtre og/eller filterindstillinger i din elementkilde, du vil udgive.",
+          "event": "Din hændelseskonfiguration har overskredet størrelsesgrænsen. Reducer antallet af filtre og/eller filterindstillinger i din hændelseskilde, du vil udgive."
+        },
+        "collectionSourceMessage": {
+          "item": "Kombinationen af din elementkilde og konfigurationen af \"{collectionName}\"-samling har overskredet størrelsesgrænsen. Reducer antallet af filtre og/eller filterindstillinger i din elementkilde og/eller \"{collectionName}\"-samling, du vil udgive.",
+          "event": "Kombinationen af din hændelseskilde og konfigurationen af \"{collectionName}\" har overskredet størrelsesgrænsen. Reducer antallet af filtre og/eller filterindstillinger i din hændelseskilde og /eller \"{collectionName}\"-samling, du vil udgive."
+        }
+      }
+    }
+  },
+  "appearancePanel": {
+    "heading": "Udseende af katalog",
+    "close": "Luk udseende af katalog",
+    "description": "Dit katalog giver besøgende mulighed for at søge efter og vise indhold. Her kan du opdatere, hvordan standardkataloget skal se ud, og hvilke filtre du vil vise."
+  }
+}

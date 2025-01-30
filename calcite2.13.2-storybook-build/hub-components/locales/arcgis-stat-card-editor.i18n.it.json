@@ -1,0 +1,165 @@
+{
+  "advancedConfig": {
+    "label": "Configurazione avanzata",
+    "serverTimeout": {
+      "label": "Timeout server (secondi)",
+      "helperText": "Utile per servizi più grandi che potrebbero richiedere più tempo per rispondere.",
+      "errors": {
+        "type": "Inserire una configurazione di timeout server.",
+        "minimum": "Il valore di timeout server deve essere almeno 5.",
+        "maximum": "Il valore di timeout server deve essere al massimo 95."
+      }
+    }
+  },
+  "appearance": {
+    "corners": {
+      "label": "Angoli",
+      "enum": {
+        "round": {
+          "label": "Arrotondato"
+        },
+        "square": {
+          "label": "Quadrati"
+        }
+      }
+    },
+    "dropShadow": {
+      "label": "Ombreggiatura",
+      "enum": {
+        "heavy": {
+          "label": "Alto"
+        },
+        "low": {
+          "label": "Basso"
+        },
+        "medium": {
+          "label": "Media"
+        },
+        "none": {
+          "label": "Non iniziato"
+        }
+      }
+    },
+    "layout": {
+      "label": "Stile scheda",
+      "enum": {
+        "informational": {
+          "label": "Informativo"
+        },
+        "simple": {
+          "label": "Semplice"
+        }
+      }
+    },
+    "popoverText": {
+      "label": "Contenuto modale"
+    },
+    "publisherText": {
+      "label": "Publisher origine"
+    },
+    "styleSpecificSettings": {
+      "label": "Impostazioni di stile",
+      "helperInfoText": "Selezionando il pulsante delle informazioni si apre un modale che contiene altre informazioni.",
+      "helperVizText": "La scheda semplice supporta l'aggiunta di un'icona come elemento visivo da usare per riflettere le modifiche dei dati."
+    },
+    "sectionTitle": "Aspetto",
+    "textAlign": "Allineamento",
+    "visualInterest": {
+      "label": "Elemento visivo",
+      "enum": {
+        "icon": {
+          "label": "Icona"
+        },
+        "none": {
+          "label": "Nessuno"
+        }
+      }
+    },
+    "icon": {
+      "label": "Icona",
+      "caretUp": {
+        "label": "Aumenta"
+      },
+      "caretDown": {
+        "label": "Diminuisci"
+      },
+      "caretDouble": {
+        "label": "Nessuna modifica"
+      }
+    },
+    "valueColor": "Colore (statistica)"
+  },
+  "details": {
+    "allowDynamicLink": "Mostra link origine",
+    "link": {
+      "sectionTitle": "Collega",
+      "sourceLink": "URL collegamento",
+      "sourceTitle": "Testo collegamento"
+    },
+    "sectionTitle": "Dettagli",
+    "subtitle": "Sottotitolo",
+    "title": "Titolo",
+    "trailingText": {
+      "label": "Testo finale",
+      "helperText": "Inserire ulteriore contesto o una spiegazione (che apparirà sotto il valore della metrica)"
+    }
+  },
+  "errors": {
+    "sourceLink": {
+      "required": "È necessario il link per mostrare l'origine.",
+      "formatError": "La formattazione dell'URL non è corretta"
+    }
+  },
+  "formatting": {
+    "sectionTitle": "Formattazione",
+    "unit": {
+      "label": "Unità di visualizzazione",
+      "helperText": "Immettere l'unità di misura del valore."
+    },
+    "unitPosition": {
+      "label": "Posizionamento",
+      "helperText": "Selezionare il punto in cui deve apparire l'unità di misura (ad es. 'km', 'kg') in relazione al valore della metrica.",
+      "enum": {
+        "after": {
+          "label": "Dopo"
+        },
+        "before": {
+          "label": "Prima"
+        },
+        "below": {
+          "label": "Sotto"
+        }
+      }
+    }
+  },
+  "sharing": {
+    "sectionTitle": "Condivisione",
+    "showShareIcon": "Abilita condivisione",
+    "showShareIconHelperText": "Consenti agli utenti di copiare un link diretto a questa scheda su questa pagina.",
+    "shareableByValue": "Abilita incorporamenti",
+    "shareableOnHover": {
+      "label": "Visualizza al passaggio del cursore",
+      "helperText": {
+        "label": "Il pulsante di condivisione viene mostrato solo al passaggio del cursore. Se disattivato, il pulsante è sempre visibile"
+      }
+    }
+  },
+  "statistic": {
+    "dataSource": "Origine dati",
+    "displayValue": "Valore visualizzato",
+    "sectionTitle": "Valore",
+    "type": {
+      "label": "Tipo",
+      "enum": {
+        "dynamic": {
+          "label": "Dinamico",
+          "description": "Selezionare un dataset esistente (feature service) per riepilogare."
+        },
+        "static": {
+          "label": "Statico",
+          "description": "Immettere manualmente un valore da evidenziare nel layout."
+        }
+      }
+    }
+  }
+}

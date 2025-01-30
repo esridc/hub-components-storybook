@@ -1,0 +1,66 @@
+{
+  "followers": "Followers",
+  "tabs": {
+    "followers": "Followers",
+    "settings": "Settings"
+  },
+  "addFollowers": {
+    "label": "Add followers"
+  },
+  "emptyState": {
+    "message": "Site does not have a followers group",
+    "action": "Create followers group"
+  },
+  "createFollowersGroup": {
+    "formDescription": "Set up a group to facilitate content sharing and communication",
+    "defaultSummary": "This followers group allows members to more easily share content and communicate with each another"
+  },
+  "restrictedAccessState": {
+    "message": "You don't have access to view the followers group.",
+    "action": "Request access"
+  },
+  "stats": {
+    "total": {
+      "title": "Total",
+      "trailingText": "Followers"
+    },
+    "new": {
+      "title": "New",
+      "trailingText": "Last 30 days"
+    }
+  },
+  "addMembers": {
+    "button": "Add members",
+    "modal": {
+      "title": "Add members",
+      "org": "My organization",
+      "community": "My community",
+      "partner": "My partners",
+      "world": "World"
+    },
+    "notifications": {
+      "invited": "Invite sent. Users must accept to join",
+      "added": "User(s) added",
+      "notInvited": "Some users may not have the privileges needed to join the group or may be at a group maximum limit (512)"
+    }
+  },
+  "removeUsers": {
+    "button": "Remove",
+    "success": "Members successfully removed from {groupName}.",
+    "error": "One or more users could not be removed from the group."
+  },
+  "changeRole": {
+    "button": "Change role",
+    "member": "Member",
+    "memberHelperText": "Can add and see content within the group.",
+    "tooltipText": "Deselect yourself and/or group owner",
+    "tooltipLabel": "Role disclaimer",
+    "admin": "Manager",
+    "adminHelperText": "Can add/remove content and invite/remove people (except for the owner).",
+    "success": "Selected members became group {role}.",
+    "error": "Role could not be changed for one or more members."
+  },
+  "notice": {
+    "label": "Form alert"
+  }
+}

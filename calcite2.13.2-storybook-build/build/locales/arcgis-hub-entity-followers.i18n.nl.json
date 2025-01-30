@@ -1,0 +1,66 @@
+{
+  "followers": "Volgers",
+  "tabs": {
+    "followers": "Volgers",
+    "settings": "Instellingen"
+  },
+  "addFollowers": {
+    "label": "Volgers toevoegen"
+  },
+  "emptyState": {
+    "message": "Site heeft geen volgersgroep",
+    "action": "Volgersgroep maken"
+  },
+  "createFollowersGroup": {
+    "formDescription": "Stel een groep in om het delen van content en communicatie te vergemakkelijken",
+    "defaultSummary": "Deze volgersgroep maakt het voor leden makkelijker content te delen en met anderen te communiceren"
+  },
+  "restrictedAccessState": {
+    "message": "U hebt geen toegang tot de weergave van de volgersgroep.",
+    "action": "Toegang vragen"
+  },
+  "stats": {
+    "total": {
+      "title": "Totaal",
+      "trailingText": "Volgers"
+    },
+    "new": {
+      "title": "Nieuw",
+      "trailingText": "Afgelopen 30 dagen"
+    }
+  },
+  "addMembers": {
+    "button": "Leden toevoegen",
+    "modal": {
+      "title": "Leden toevoegen",
+      "org": "Mijn organisatie",
+      "community": "Mijn community",
+      "partner": "Mijn partners",
+      "world": "Wereld"
+    },
+    "notifications": {
+      "invited": "Uitnodiging is verzonden. Gebruikers moeten accepteren om deel te nemen",
+      "added": "Toegevoegde gebruiker(s)",
+      "notInvited": "Sommige gebruikers beschikken mogelijk niet over de machtigingen die nodig zijn om aan de groep deel te nemen of hebben de maximumlimiet voor groepen (512) bereikt."
+    }
+  },
+  "removeUsers": {
+    "button": "Verwijderen",
+    "success": "Leden zijn verwijderd uit {groupName}.",
+    "error": "Kan een of meer gebruikers niet uit de groep verwijderen."
+  },
+  "changeRole": {
+    "button": "Rol wijzigen",
+    "member": "Lid",
+    "memberHelperText": "Kan binnen de groep content weergeven en toevoegen.",
+    "tooltipText": "De selectie van uzelf en/of de groepseigenaar opheffen",
+    "tooltipLabel": "Disclaimer rol",
+    "admin": "Manager",
+    "adminHelperText": "Kan content toevoegen/verwijderen en kan mensen uitnodigen/verwijderen (met uitzondering van de eigenaar).",
+    "success": "Geselecteerde leden werden {role} in de groep.",
+    "error": "Kan rol niet wijzigen voor een of meer leden."
+  },
+  "notice": {
+    "label": "Formulierwaarschuwing"
+  }
+}

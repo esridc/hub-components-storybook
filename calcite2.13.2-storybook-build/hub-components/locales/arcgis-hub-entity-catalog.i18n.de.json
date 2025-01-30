@@ -1,0 +1,65 @@
+{
+  "catalog": "Katalog",
+  "catalog-content": "Inhalt",
+  "catalog-events": "Events",
+  "shared": {
+    "publish": {
+      "label": "Speichern",
+      "success": {
+        "title": "Änderungen am Katalog erfolgreich in Live-Ansicht veröffentlicht"
+      },
+      "error": {
+        "title": "Fehler beim Speichern der Änderungen"
+      }
+    }
+  },
+  "emptyState": {
+    "message": "Kein Katalog definiert",
+    "action": "Katalog erstellen"
+  },
+  "actionBar": {
+    "details": "Katalogkonfiguration",
+    "appearance": "Katalogaussehen",
+    "tooltip": {
+      "appearanceDisabled": "Aktuell ist kein Katalog konfiguriert. Konfigurieren Sie einen Katalog, um die Einstellungen für das Aussehen anzupassen.",
+      "configuration": "Konfiguration",
+      "appearance": "Aussehen"
+    }
+  },
+  "detailsPanel": {
+    "heading": "Katalogkonfiguration",
+    "close": "Katalogkonfiguration schließen",
+    "catalogBuilder": {
+      "helperText": "Über den Katalog können Site-Besucher Inhalte suchen und anzeigen. Die angezeigten Ergebnisse basieren auf der Abfragekonfiguration."
+    },
+    "querySizeNotice": {
+      "warning": {
+        "title": "Kataloglimit nahezu erreicht.",
+        "catalogSourceMessage": {
+          "item": "Das Größenlimit für die Elementquellenkonfiguration ist nahezu erreicht.",
+          "event": "Das Größenlimit für die Eventquellenkonfiguration ist nahezu erreicht."
+        },
+        "collectionSourceMessage": {
+          "item": "Das Größenlimit für die konfigurierte Kombination aus Elementquelle und Sammlung \"{collectionName}\" ist nahezu erreicht.",
+          "event": "Das Größenlimit für die konfigurierte Kombination aus Eventquelle und Sammlung \"{collectionName}\" ist nahezu erreicht."
+        }
+      },
+      "danger": {
+        "title": "Kataloglimit überschritten",
+        "catalogSourceMessage": {
+          "item": "Das Größenlimit für die Elementquellenkonfiguration wurde überschritten. Verringern Sie die Anzahl der Filter und/oder Filteroptionen in der zu veröffentlichenden Elementquelle.",
+          "event": "Das Größenlimit für die Eventquellenkonfiguration wurde überschritten. Verringern Sie die Anzahl der Filter und/oder Filteroptionen in der zu veröffentlichenden Eventquelle."
+        },
+        "collectionSourceMessage": {
+          "item": "Das Größenlimit für die konfigurierte Kombination aus Elementquelle und Sammlung \"{collectionName}\" wurde überschritten. Verringern Sie die Anzahl der Filter und/oder Filteroptionen in der zu veröffentlichenden Elementquelle und/oder der Sammlung \"{collectionName}\".",
+          "event": "Das Größenlimit für die konfigurierte Kombination aus Eventquelle und Sammlung \"{collectionName}\" wurde überschritten. Verringern Sie die Anzahl der Filter und/oder Filteroptionen in der zu veröffentlichenden Eventquelle und/oder der Sammlung \"{collectionName}\"."
+        }
+      }
+    }
+  },
+  "appearancePanel": {
+    "heading": "Katalogaussehen",
+    "close": "Katalogaussehen schließen",
+    "description": "Über den Katalog können Site-Besucher Inhalte suchen und anzeigen. Hier können Sie das Aussehen des Standardkatalogs und die angezeigten Filter aktualisieren."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unauthenticated": {
+    "heading": "Inicie sessão.",
+    "message": "Este site necessita de credenciais para ser acedido.",
+    "actionText": "Iniciar Sessão"
+  },
+  "not-found": {
+    "heading": "Página Não Encontrada",
+    "message": "Esta página pode ter sido movida ou eliminada. Experimente pesquisá-la na página inicial",
+    "actionText": "Aceder à Página Inicial"
+  },
+  "unsupported-device": {
+    "heading": "Tamanho de ecrã não suportado",
+    "message": "Os workspaces ainda não estão disponíveis em ecrãs mais pequenos; utilize um dispositivo com um ecrã mais maior.",
+    "actionText": "Voltar"
+  },
+  "access-denied": {
+    "heading": "Acesso negado",
+    "message": "Não tem permissões para aceder a este recurso.",
+    "actionText": "Aceder à Página Inicial"
+  },
+  "loading": {
+    "heading": "A carregar...",
+    "loadingLabel": "A carregar"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "layout": {
+    "title": "Çıktı Düzeni",
+    "helperText": "Bu, ziyaretçiler ilk kez kataloğunuzu ziyaret ettiğinde sonuçların nasıl görüneceğini yapılandırır. Ziyaretçiler yine de görüntüleme yöntemini değiştirme seçeneğine sahip olacaktır.",
+    "enum": {
+      "list": {
+        "label": "Liste",
+        "description": "Meta verileri sergilemek için ve ziyaretçilerin hedefli aramalar yapma olasılığının yüksek olduğu durumlarda kullanılır."
+      },
+      "grid": {
+        "label": "Kılavuz",
+        "description": "Yüksek kaliteli küçük resimlere sahip sonuçlar için ve ziyaretçilerin gezinme olasılığının yüksek olduğu zamanlarda kullanın."
+      },
+      "table": {
+        "label": "Tablo",
+        "description": "Sonuçları sıralanabilir sütunlarla yapılandırılmış bir biçimde sunmak için kullanın, ziyaretçilerin birçok ögeyi ve bunların niteliklerini görüntülemek ve karşılaştırmak isteyebileceği durumlar için idealdir."
+      },
+      "map": {
+        "label": "Harita",
+        "description": "Fiziksel konumlara bağlı sonuçlar için ve ziyaretçilerin ilgi alanlarını keşfetme olasılıklarının yüksek olduğu durumlarda kullanın."
+      },
+      "compact": {
+        "label": "Kompakt",
+        "description": "Daha küçük bir alanda görünür sonuçların sayısını en üst düzeye çıkarmak için kullanılır, mobil cihazlarda hızlı tarama veya görüntüleme için idealdir."
+      }
+    }
+  },
+  "cards": {
+    "title": "Kartlar",
+    "cardTitleTag": {
+      "label": "Başlık",
+      "helperText": "Bu, erişilebilirlik için iç içe geçmiş başlığı geliştirmek amacıyla kullanılabilir. Yazı tipi boyutunu değiştirmeyecektir.",
+      "enum": {
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        }
+      }
+    },
+    "showThumbnail": {
+      "label": "Küçük resim göster",
+      "enum": {
+        "show": {
+          "label": "Her zaman",
+          "description": "Sonuçların çıktı düzeninden bağımsız olarak sonuç kartlarında her zaman küçük resimler gösterilecektir."
+        },
+        "hide": {
+          "label": "Küçük resimleri gösterme",
+          "description": "Küçük resimler herhangi bir sonuç kartı türünde gösterilmeyecektir. Bu seçeneği, küçük resimlerinizin kalitesi düşükse veya kişilerin masaüstü ve mobil cihazlarda liste sonuçlarını daha hızlı tarayabilmesini istiyorsanız kullanın."
+        },
+        "grid": {
+          "label": "Sadece ızgarada",
+          "description": "Küçük resimler sadece ızgara kartlarında gösterilecektir. Liste kartları, bir resim yerine ek bir meta veriler sütunu gösterecektir."
+        }
+      }
+    },
+    "corners": {
+      "label": "Köşeler",
+      "enum": {
+        "square": {
+          "label": "Kare"
+        },
+        "round": {
+          "label": "Yuvarlak"
+        }
+      }
+    },
+    "shadow": {
+      "label": "Gölge bırak",
+      "enum": {
+        "heavy": {
+          "label": "Ağır"
+        },
+        "low": {
+          "label": "Düşük"
+        },
+        "medium": {
+          "label": "Orta"
+        },
+        "none": {
+          "label": "Hiçbiri"
+        }
+      }
+    },
+    "showLinkButton": {
+      "label": "Butonları dahil et",
+      "helperText": "Butonlar kapalıysa sadece kart başlığı bir bağlantı olacaktır."
+    },
+    "linkButtonStyle": {
+      "label": "Stil",
+      "enum": {
+        "outline-filled": {
+          "label": "Doldurulmuş"
+        },
+        "outline": {
+          "label": "Çerçeve"
+        }
+      }
+    },
+    "linkButtonText": {
+      "label": "Metin"
+    }
+  }
+}

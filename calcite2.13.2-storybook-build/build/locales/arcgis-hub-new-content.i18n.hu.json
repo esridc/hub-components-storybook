@@ -1,0 +1,57 @@
+{
+  "new": "Új",
+  "project": {
+    "label": "Projekt",
+    "description": "Emelje ki az egyértelmű célokkal és időkeretekkel rendelkező munkát.",
+    "createLabel": "Projekt létrehozása",
+    "newLabel": "Új projekt"
+  },
+  "initiative": {
+    "label": "Kezdeményezés",
+    "description": "A kezdeményezések rendszerezik és összefoglalják a cél elérése érdekében tett előrehaladást.",
+    "createLabel": "Kezdeményezés létrehozása",
+    "newLabel": "Új kezdeményezés"
+  },
+  "discussion": {
+    "label": "Vitafórum",
+    "description": "Hozzon létre egy új vitafórumot a témát jelző cím megadásával.",
+    "createLabel": "Vitafórum létrehozása",
+    "newLabel": "Új vitafórum"
+  },
+  "site": {
+    "label": "Webhely",
+    "description": "Hozzon létre weboldalt az információk rendszerezéséhez és megosztásához",
+    "createLabel": "Oldal létrehozása",
+    "newLabel": "Új oldal"
+  },
+  "event": {
+    "label": "Esemény",
+    "description": "Tartson szervezett tevékenységet, személyesen vagy virtuálisan",
+    "createLabel": "Esemény létrehozása",
+    "newLabel": "Új esemény"
+  },
+  "content": {
+    "label": "Tartalom",
+    "description": "Adjon hozzá adatokat, dokumentumokat, képeket és külső hivatkozásokat a webhelyéhez",
+    "createLabel": "Tartalom létrehozása",
+    "newLabel": "Új tartalom"
+  },
+  "feedback": {
+    "label": "Visszajelzés",
+    "description": "Célzott információk gyűjtése olyan eszközökkel, mint a felmérések és közvélemény-kutatások.",
+    "createLabel": "Visszajelzés létrehozása",
+    "newLabel": "Új visszajelzés"
+  },
+  "app": {
+    "label": "Alkalmazás",
+    "description": "Hozzon létre egy élményt, meséljen el egy történetet, vagy tegye láthatóvá adatait",
+    "createLabel": "Alkalmazás létrehozása",
+    "newLabel": "Új alkalmazás"
+  },
+  "group": {
+    "label": "Csoport",
+    "description": "Állítson fel egy csoportot a célzott tartalomban való együttműködés érdekében",
+    "createLabel": "Csoport létrehozása",
+    "newLabel": "Új csoport"
+  }
+}

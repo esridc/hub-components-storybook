@@ -1,0 +1,46 @@
+{
+  "registrants": "Iscritti",
+  "invite": "Invita",
+  "tabs": {
+    "registrants": "Iscritti",
+    "settings": "Impostazioni"
+  },
+  "emptyNotice": {
+    "title": "Nessun iscritto",
+    "desc": "Gli eventi sono più divertenti con un pubblico. Invita persone o condividi il tuo evento per incoraggiare le persone a partecipare.",
+    "link": "Invita iscritti"
+  },
+  "facets": {
+    "role": {
+      "header": "Ruolo",
+      "owner": "Proprietario",
+      "organizer": "Organizzatore",
+      "attendee": "Iscritto"
+    },
+    "status": {
+      "header": "Stato",
+      "pending": "In sospeso",
+      "accepted": "Accettato",
+      "declined": "Rifiutato",
+      "blocked": "Bloccato"
+    },
+    "location": {
+      "header": "Posizione",
+      "online": "Online",
+      "in_person": "Di persona"
+    },
+    "updatedDate": "Data aggiornamento"
+  },
+  "delete": {
+    "attendee": "Rimuovi iscritto"
+  },
+  "notice": {
+    "label": "Avviso modulo"
+  },
+  "success": {
+    "delete": "Iscritti rimossi correttamente da {eventName}."
+  },
+  "error": {
+    "delete": "Impossibile rimuovere uno o più iscritti dall'evento."
+  }
+}

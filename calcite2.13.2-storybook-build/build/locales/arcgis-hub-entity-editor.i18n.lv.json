@@ -1,0 +1,1346 @@
+{
+  "success": "Veiksmīgi saglabāti labojumi",
+  "error": "Kļūda, saglabājot labojumus",
+  "formAlert": "Veidlapas brīdinājums",
+  "create": "Izveidot",
+  "shared": {
+    "notices": {
+      "metrics": {
+        "preview": {
+          "label": "Pārbaudiet savu metriku",
+          "message": "Šeit veiktās izmaiņas parādīsies metrikas priekšskatījumā."
+        }
+      }
+    },
+    "sections": {
+      "metrics": {
+        "basic": {
+          "label": "Pamatinformācija"
+        },
+        "source": {
+          "label": "Vērtība"
+        },
+        "formatting": {
+          "label": "Formatēšana"
+        },
+        "sharing": {
+          "label": "Koplietošana"
+        }
+      },
+      "mapSettings": {
+        "label": "Kartes iestatījumi"
+      }
+    },
+    "errors": {
+      "urlFormat": "Vietrāža (URL) formatējums nav pareizs"
+    },
+    "fields": {
+      "name": {
+        "maxLengthError": "Nosaukums nedrīkst pārsniegt 250 rakstzīmes"
+      },
+      "title": {
+        "maxLengthError": "Virsraksts nedrīkst pārsniegt 250 rakstzīmes"
+      },
+      "summary": {
+        "maxLengthError": "Kopsavilkums nedrīkst pārsniegt 2048 rakstzīmes"
+      },
+      "purpose": {
+        "maxLengthError": "Mērķa apraksts nedrīkst pārsniegt 2048 rakstzīmes"
+      },
+      "_thumbnail": {
+        "label": "Sīktēls",
+        "sizeDescription": "Maksimālais lielums ir 10 MB. Ieteicamais izmērs: 760 x 505 vai lielāks",
+        "defaultThumbnailNotice": "Augšupielādējiet savu sīktēlu, lai aizstātu noklusējumu."
+      },
+      "location": {
+        "none": "Nav atrašanās vietas",
+        "org": "Organizācijas pārklājums",
+        "custom": "Pielāgots novietojums",
+        "customDescription": "Uzzīmēt vienu vai vairākus novietojumus",
+        "itemExtent": "Vienības pašreizējais pārklājums"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Veids",
+          "sharing": "Koplietošana"
+        },
+        "catalog": {
+          "myContent": "Mans saturs",
+          "favorites": "Izlase",
+          "organization": "Organizācija",
+          "world": "Pasaule (publisks)"
+        },
+        "collection": {
+          "appsAndMaps": "Lietotnes un kartes",
+          "dataset": "Dati",
+          "documents": "Dokumenti",
+          "feedback": "Atsauksmes",
+          "sites": "Vietnes",
+          "projects": "Projekti"
+        }
+      },
+      "metrics": {
+        "allowDynamicLink": {
+          "label": "Rādīt avota saiti"
+        },
+        "cardTitle": {
+          "label": "Nosaukums",
+          "message": {
+            "required": "Šis lauks ir obligāts."
+          }
+        },
+        "dynamicMetric": {
+          "label": "Datu avots"
+        },
+        "value": {
+          "label": "Vērtība",
+          "message": {
+            "required": "Šis lauks ir obligāts."
+          }
+        },
+        "unit": {
+          "label": "Vienības",
+          "helperText": "Izmantojiet, lai iestatītu prefiksa vai pēcfiksa vērtību, piemēram,%, +, $ vai citu. Atstājiet tukšu, lai neko neparādītu."
+        },
+        "unitPosition": {
+          "label": "Vienības novietojums",
+          "helperText": "Atlasiet, kur mērvienība (piemēram, \"km\", \"lbs\") tiek parādīta saistībā ar metrisko vērtību.",
+          "enum": {
+            "after": {
+              "label": "Pēc vērtības"
+            },
+            "before": {
+              "label": "Pirms vērtības"
+            },
+            "below": {
+              "label": "Zem vērtības"
+            }
+          }
+        },
+        "showShareIcon": {
+          "label": "Iespējot koplietošanu",
+          "helperText": {
+            "label": "Atļaut lietotājiem kopēt tiešu saiti uz šo rādītāju."
+          }
+        },
+        "shareableOnHover": {
+          "label": "Attēlot, novietojot kursoru",
+          "helperText": {
+            "label": "Kolietošanas poga tiek rādīta tikai novietojot kursoru. Ja izslēgts, poga vienmēr ir redzama."
+          }
+        },
+        "sourceLink": {
+          "label": "Saites vietrādis URL",
+          "message": {
+            "required": "Lai parādītu avotu, ir nepieciešama saite."
+          }
+        },
+        "sourceTitle": {
+          "label": "Saites teksts"
+        },
+        "trailingText": {
+          "label": "Noslēdzošais teksts",
+          "helperText": "Ievadiet jebkādu papildu kontekstu vai skaidrojumu (lai tas tiktu parādīts zem metrikas vērtības)."
+        },
+        "type": {
+          "label": "Veids",
+          "enum": {
+            "dynamic": {
+              "label": "Dinamisks",
+              "description": "Izvēlieties esošu datu kopu (elementu pakalpojumu), ko apkopot."
+            },
+            "static": {
+              "label": "Statisks",
+              "description": "Manuāli ievadiet vērtību, kas jāizceļ izkārtojumā."
+            }
+          }
+        },
+        "valueType": {
+          "label": "Vērtības veids",
+          "helperText": "Izvēlēties parādāmās vērtības veidu.",
+          "enum": {
+            "string": {
+              "label": "Teksts",
+              "description": "Jebkurš vārds vai frāze. Nav paredzēts izmantot skaitliskiem aprēķiniem. (piem., “Brīvības iela”)"
+            },
+            "number": {
+              "label": "Skaitlis",
+              "description": "Skaitliska vērtība. Var izmantot aprēķiniem. (piem., 123)"
+            },
+            "date": {
+              "label": "Datums",
+              "description": "Kalendāra datuma vērtība. Nav paredzēts izmantot skaitliskiem aprēķiniem. (piemēram, \"1/1/2018\")"
+            }
+          }
+        }
+      },
+      "categories": {
+        "label": "Kategorijas",
+        "noCategoriesNotice": {
+          "body": "Šai organizācijai vēl nav nevienas kategorijas.",
+          "link": "Iestatīt kategorijas."
+        }
+      },
+      "download": {
+        "format": {
+          "bip": "BIP",
+          "bmp": "BMP",
+          "bsq": "BSQ",
+          "gif": "GIF",
+          "jpg": "JPG",
+          "jpgPng": "JPG_PNG",
+          "lerc": "LERC",
+          "png": "PNG",
+          "png8": "PNG8",
+          "png24": "PNG24",
+          "png32": "PNG32",
+          "tiff": "TIFF",
+          "csv": "CSV",
+          "excel": "Excel",
+          "featureCollection": "Elementu kolekcija",
+          "filegdb": "Faila ģeodatubāze",
+          "geojson": "GeoJSON",
+          "geoPackage": "GeoPackage",
+          "json": "JSON",
+          "kml": "KML",
+          "shapefile": "Shape fails",
+          "sqlite": "SQLite ģeodatubāze"
+        },
+        "additionalResource": "{resourceName} (metadatu sadalījums)",
+        "dataSourceResource": "Datu avots (metadatu sadalījums)",
+        "noTitleResource": "Saite (nav nosaukuma, metadatu sadalījums)"
+      }
+    }
+  },
+  "project": {
+    "sections": {
+      "details": {
+        "label": "Papildinformācija"
+      },
+      "basicInfo": {
+        "label": "Pamatinformācija"
+      },
+      "location": {
+        "label": "Atrašanās vieta",
+        "helperText": "Parādiet ģeogrāfisko apgabalu, kurā šis projekts norisināsies (lai tas būtu redzams projekta izkārtojumā)."
+      },
+      "status": {
+        "label": "Statuss"
+      },
+      "sharing": {
+        "label": "Koplietošana"
+      },
+      "timeline": {
+        "label": "Laika skala"
+      },
+      "searchDiscoverability": {
+        "label": "Meklēšana un atklājamība"
+      },
+      "featuredContent": {
+        "label": "Saistītais saturs",
+        "helperText": "Izceliet ar projektu saistītos īpašos dokumentus, lietotnes un datus. Var iekļaut ne vairāk kā 4 vienības."
+      },
+      "callToAction": {
+        "label": "Darbību saites",
+        "helperText": "Tās tiks attēlotas kā pamanāma poga jūsu projekta augšdaļā. Izmantojiet šo opciju, lai nosūtītu auditoriju uz vietni, aptauju, karti utt."
+      },
+      "embeds": {
+        "label": "Elements iegults",
+        "helperText": "Izvēlieties jūsu projektā izceļamo tīmekļa karti, tīmekļa scēnu vai lietotni."
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Projekta nosaukums",
+        "requiredError": "Projekta nosaukums ir obligāti aizpildāms lauks",
+        "maxLengthError": "Projekta nosaukums nedrīkst pārsniegt 250 rakstzīmes",
+        "entityTitleValidatorError": "Projekta nosaukums nedrīkst ietvert emocijzīmes, <, >, vai = rakstzīmes"
+      },
+      "description": {
+        "label": "Apraksts",
+        "helperText": "Norādiet, kā jūsu projekts sasniegs savus mērķus. Apsveriet iespēju iekļaut būtisku papildinformāciju un projekta rezultātā paredzamās izmaiņas."
+      },
+      "summary": {
+        "label": "Mērķis",
+        "helperText": "Īsi rezumējiet sava projekta mērķus."
+      },
+      "access": {
+        "itemType": "Projekts"
+      },
+      "groups": {
+        "label": "Koplietot ar...",
+        "viewGroup": "(Skatīt grupu)",
+        "editGroup": "(Rediģēt grupu)"
+      },
+      "_thumbnail": {
+        "helperText": "Iestatiet sīktēlu, lai attēlotu šo projektu ArcGIS Online, kā arī meklēšanā un galerijās."
+      },
+      "featuredImage": {
+        "label": "Redzamais attēls",
+        "helperText": "Izvēlieties attēlu, lai atainotu darbu pie projekta izkārtojuma.",
+        "sizeDescription": "Maksimālais faila lielums ir 10 MB. Ieteicamie izmēri: 718 x 478 vai lielāks",
+        "altText": {
+          "label": "Alternatīvs teksts",
+          "helperText": "Sniedziet īsu attēla aprakstu tiem, kas izmanto ekrāna nolasītājus. Atstājiet tukšu, lai norādītu, ka attēls ir dekoratīvs."
+        }
+      },
+      "slug": {
+        "label": "Rinda",
+        "helperText": "Rinda ir projekta nosaukumam URL draudzīga versija. Tas tiek automātiski ģenerēts, pamatojoties uz projekta nosaukumu, bet Jūs varat to pielāgot.",
+        "patternError": "Kļūda: rindai ir jābūt rakstītai ar mazajām burtu un ciparu rakstzīmēm, kas ir atdalītas ar defisēm.",
+        "isUniqueError": "Rinda jau tiek lietota. Lūdzu, izvēlieties citu."
+      },
+      "tags": {
+        "label": "Atslēgvārdi",
+        "helperText": "Tagi tiek izmantoti meklēšanas katalogos, lai palīdzētu citiem atrast šo projektu. Pievienojiet tekstu un izvēlieties ievadīšanu, lai izveidotu jaunus tagus."
+      },
+      "categories": {
+        "helperText": "Kategorijas tiek izmantotas meklēšanas katalogos, lai palīdzētu citiem atrast šo projektu. Tās iestata Jūsu organizācija."
+      },
+      "status": {
+        "label": "Projekta statuss",
+        "enum": {
+          "notStarted": {
+            "label": "Nav sākts"
+          },
+          "inProgress": {
+            "label": "Notiek izpilde"
+          },
+          "onHold": {
+            "label": "Atlikts"
+          },
+          "complete": {
+            "label": "Pabeigts"
+          }
+        }
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Veids",
+          "sharing": "Koplietošana"
+        }
+      },
+      "callToAction": {
+        "facets": {
+          "type": "Veids",
+          "sharing": "Koplietošana"
+        }
+      },
+      "mapSettings": {
+        "label": "Konfigurēt, kā karte tiek attēlota projektā"
+      }
+    }
+  },
+  "initiative": {
+    "sections": {
+      "details": {
+        "label": "Papildinformācija"
+      },
+      "basicInfo": {
+        "label": "Pamatinformācija"
+      },
+      "location": {
+        "label": "Novietojums",
+        "helperText": "Parādiet ģeogrāfisko apgabalu, kurā šī iniciatīva norisināsies (lai tā būtu redzama iniciatīvas izkārtojumā)."
+      },
+      "sharing": {
+        "label": "Koplietošana"
+      },
+      "featuredContent": {
+        "label": "Saistītais saturs",
+        "helperText": "Izceliet ar projektu saistītos īpašos dokumentus, lietotnes un datus. Varat iekļaut ne vairāk kā 4 vienības."
+      },
+      "status": {
+        "label": "Statuss"
+      },
+      "hero": {
+        "label": "Galvenais elements"
+      },
+      "searchDiscoverability": {
+        "label": "Meklēšana un atklājamība"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Iniciatīvas nosaukums",
+        "requiredError": "Iniciatīvas nosaukums ir obligāti aizpildāms lauks",
+        "maxLengthError": "Iniciatīvas nosaukums nedrīkst pārsniegt 250 rakstzīmes",
+        "entityTitleValidatorError": "Iniciatīvas nosaukums nedrīkst ietvert emocijzīmes, <, >, vai = rakstzīmes."
+      },
+      "summary": {
+        "label": "Mērķis",
+        "helperText": "Īsi rezumējiet savas iniciatīvas mērķus."
+      },
+      "access": {
+        "itemType": "Iniciatīva"
+      },
+      "description": {
+        "label": "Apraksts",
+        "helperText": "Norādiet, kā jūsu iniciatīva sasniegs savus mērķus. Apsveriet iespēju iekļaut būtisku papildinformāciju un iniciatīvas rezultātā paredzamās izmaiņas."
+      },
+      "slug": {
+        "label": "Rinda",
+        "helperText": "Rinda ir iniciatīvas nosaukumam URL draudzīga versija. Tas tiek automātiski ģenerēts, pamatojoties uz iniciatīvas nosaukumu, taču Jūs varat to pielāgot.",
+        "patternError": "Kļūda: rindai ir jābūt rakstītai ar mazajām burtu un ciparu rakstzīmēm, kas ir atdalītas ar defisēm.",
+        "isUniqueError": "Rinda jau tiek lietota. Lūdzu, izvēlieties citu."
+      },
+      "tags": {
+        "label": "Atslēgvārdi",
+        "helperText": "Atslēgvārdi tiek izmantoti meklēšanas katalogos, lai palīdzētu citiem atrast šo iniciatīvu. Pievienojiet tekstu un izvēlieties ievadīšanu, lai izveidotu jaunus tagus."
+      },
+      "categories": {
+        "helperText": "Kategorijas tiek izmantotas meklēšanas katalogos, lai palīdzētu citiem atrast šo iniciatīvu. Tās iestata Jūsu organizācija."
+      },
+      "_thumbnail": {
+        "helperText": "Iestatiet sīktēlu, lai attēlotu šo iniciatīvu ArcGIS Online, kā arī meklēšanā un galerijās."
+      },
+      "groups": {
+        "label": "Koplietot ar...",
+        "viewGroup": "(Skatīt grupu)",
+        "editGroup": "(Rediģēt grupu)"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Veids",
+          "sharing": "Koplietošana"
+        }
+      },
+      "status": {
+        "label": "Iniciatīvas statuss",
+        "enum": {
+          "notStarted": {
+            "label": "Nav sākts"
+          },
+          "inProgress": {
+            "label": "Notiek izpilde"
+          },
+          "onHold": {
+            "label": "Aizturēts"
+          },
+          "complete": {
+            "label": "Pabeigts"
+          }
+        }
+      },
+      "hero": {
+        "label": "Galvenais elements",
+        "helperText": "Galvenais elements tiek attēlots virs jūsu iniciatīvas nosaukuma, un tam var būt karte vai attēls.",
+        "map": {
+          "label": "Karte",
+          "description": "Izmantojiet karti, lai parādītu iniciatīvas mērķa apgabalu, izmantojot iniciatīvas novietojumu vai saistītos projektus."
+        },
+        "image": {
+          "label": "Attēls",
+          "description": "Pārliecinošs vizuālais efekts var palīdzēt cilvēkiem izprast jūsu mērķi vai rīkoties, lai to sasniegtu."
+        }
+      },
+      "featuredImage": {
+        "label": "Attēls",
+        "helperText": "Savam galvenajam elementam izmantojiet ainavas formāta attēlu. Lietotne proporcionāli mainīs attēla izmērus no centrālā fokusa punkta, lai pielāgotu to dažādiem ekrāna izmēriem. Uz lieliem ekrāniem maksimālais augstums būs 475 pikseļi.",
+        "sizeDescription": "Maksimālais faila lielums ir 10 MB.",
+        "altText": {
+          "label": "Alternatīvs teksts",
+          "helperText": "Sniedziet īsu attēla aprakstu tiem, kas izmanto ekrāna lasītājus. Atstājiet tukšu, lai norādītu, ka attēls ir dekoratīvs."
+        }
+      },
+      "groupAccess": {
+        "label": "Iestatīt redzamību",
+        "helperText": "Kontrolēt, kurš var redzēt no šīs iniciatīvas izrietošās asociācijas",
+        "private": {
+          "label": "Privāts",
+          "description": "Iniciatīvas īpašnieks un grupas ar piekļuvi var skatīt grupu"
+        },
+        "org": {
+          "label": "Organizācija",
+          "description": "Visi dalībnieki ar iniciatīvas organizācijas kontu un grupas ar piekļuvi var skatīt grupu"
+        },
+        "public": {
+          "label": "Publisks",
+          "description": "Grupu var skatīt ikviens"
+        }
+      },
+      "membershipAccess": {
+        "label": "Kas var būt šajā grupā?",
+        "org": "Tikai manas organizācijas dalībnieki",
+        "collab": "Tikai partneru sadarbības un manas organizācijas dalībnieki",
+        "any": "Organizācijas dalībnieki (ieteicamais noklusējums)"
+      },
+      "includeInCatalog": {
+        "label": "Iekļaut katalogā",
+        "helperText": "Ja iespējots, visas saistītās vienības tiks rādītas blakus citam saturam iniciatīvas meklēšanas katalogā."
+      },
+      "mapSettings": {
+        "label": "Konfigurēt, kā karte tiek attēlota iniciatīvā"
+      }
+    }
+  },
+  "discussion": {
+    "sections": {
+      "details": {
+        "label": "Papildinformācija"
+      },
+      "basicInfo": {
+        "label": "Pamatinformācija"
+      },
+      "location": {
+        "label": "Novietojums",
+        "helperText": "Pievienojiet ģeogrāfisku apgabalu, lai iestatītu diskusijas robežu un kartes noklusējuma tālummaiņas līmeni koncentrētākai diskusijai."
+      },
+      "settings": {
+        "label": "Diskusijas"
+      },
+      "searchDiscoverability": {
+        "label": "Meklēšana un atklājamība"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Virsraksts",
+        "requiredError": "Nepieciešams diskusiju paneļa nosaukums.",
+        "entityTitleValidatorError": "Diskusiju nosaukums nedrīkst ietvert emocijzīmes, <, >, vai = rakstzīmes"
+      },
+      "prompt": {
+        "label": "Uzvedne",
+        "helperText": "Īsi aprakstiet, ko vēlaties, lai dalībnieki iesniegtu šajā diskusiju panelī.",
+        "requiredError": "Uzvedne ir obligāti aizpildāms lauks",
+        "maxLengthError": "Uzvednes garums nedrīkst pārsniegt 150 rakstzīmes"
+      },
+      "description": {
+        "label": "Apraksts",
+        "helperText": "Nodrošiniet vairāk konteksta, kas varētu būt noderīgs, meklējot šo paneli."
+      },
+      "_thumbnail": {
+        "helperText": "Izvēlieties attēlu, kas simbolizē jūsu diskusiju."
+      },
+      "summary": {
+        "label": "Kopsavilkums",
+        "helperText": "Īsi aprakstiet šī diskusiju paneļa mērķi, kas ir noderīgs, koplietojot saiti ar citiem."
+      },
+      "featuredImage": {
+        "label": "Redzamais attēls",
+        "sizeDescription": "Maks. izmērs ir 10 MB, JPEG, JPG vai PNG",
+        "altText": {
+          "label": "Alternatīvs teksts",
+          "helperText": "Sniedziet īsu attēla aprakstu tiem, kas izmanto ekrāna nolasītājus. Atstājiet tukšu, lai norādītu, ka attēls ir dekoratīvs."
+        },
+        "name": {
+          "label": "Attēla nosaukums"
+        }
+      },
+      "slug": {
+        "label": "Rinda",
+        "helperText": "Rinda ir URL draudzīga diskusijas nosaukuma versija. Tā tiek automātiski ģenerēta, pamatojoties uz diskusijas nosaukumu, taču Jūs varat to pielāgot.",
+        "patternError": "Kļūda: rindai ir jābūt rakstītai ar mazajām burtu un ciparu rakstzīmēm, kas ir atdalītas ar defisēm.",
+        "isUniqueError": "Rinda jau tiek lietota. Lūdzu, izvēlieties citu."
+      },
+      "tags": {
+        "label": "Atslēgvārdi"
+      },
+      "categories": {
+        "helperText": "Kategorijas tiek izmantotas meklēšanas katalogos, lai palīdzētu citiem atrast šo diskusiju. Tās iestata Jūsu organizācija."
+      },
+      "discussable": {
+        "label": "Vai diskusija ir atļauta?",
+        "enabled": {
+          "label": "Jā, diskusija ir atļauta",
+          "description": "Dalībnieki var pievienot ziņojumus, atbildes un reakcijas šim diskusiju panelim."
+        },
+        "disabled": {
+          "label": "Nē, diskusija ir bloķēta",
+          "description": "Noņem iespēju pievienot jaunas ziņas, atbildes un reakcijas. Nedzēš iepriekšējo līdzdalību."
+        }
+      },
+      "mapSettings": {
+        "label": "Konfigurēt, k;a karte tiek attēlota diskusiju panelī"
+      }
+    }
+  },
+  "site": {
+    "sections": {
+      "defaultRequiredHelperText": "*norāda nepieciešamo lauku",
+      "basicInfo": {
+        "label": "Pamatinformācija"
+      },
+      "location": {
+        "label": "Novietojums",
+        "helperText": "Rādīt ģeogrāfisko teritoriju, uz kuru attiecas šī vietne."
+      },
+      "discussions": {
+        "label": "Diskusijas"
+      },
+      "privacy": {
+        "label": "Konfidencialitātes konfigurācija"
+      },
+      "siteUrl": {
+        "label": "Vietnes URL"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Vietnes nosaukums",
+        "requiredError": "Vietnes nosaukums ir obligāti aizpildāms lauks",
+        "maxLengthError": "Vietnes nosaukums nedrīkst pārsniegt 250 rakstzīmes",
+        "siteEntityTitleValidatorError": "Vietnes nosaukums nedrīkst ietvert emocijzīmes vai unikoda rakstzīmes"
+      },
+      "_thumbnail": {
+        "helperText": "Iestatiet sīktēlu, lai attēlotu šo vietni ArcGIS Online, kā arī meklēšanā un galerijās."
+      },
+      "description": {
+        "label": "Apraksts",
+        "helperText": "Vietnes apraksts."
+      },
+      "summary": {
+        "label": "Kopsavilkums",
+        "helperText": "Īsumā aprakstiet vietni."
+      },
+      "slug": {
+        "label": "Rinda",
+        "helperText": "Rinda ir vietnes nosaukumam URL draudzīga versija. Tas tiek automātiski ģenerēts, pamatojoties uz vietnes nosaukumu, bet Jūs varat to pielāgot.",
+        "patternError": "Kļūda: rindai ir jābūt rakstītai ar mazajām burtu un ciparu rakstzīmēm, kas ir atdalītas ar defisēm.",
+        "isUniqueError": "Rinda jau tiek lietota. Lūdzu, izvēlieties citu."
+      },
+      "tags": {
+        "label": "Atslēgvārdi",
+        "helperText": "Atslēgvārdi tiek izmantoti meklēšanas katalogos, lai palīdzētu citiem atrast šo vietni. Pievienojiet tekstu un izvēlieties ievadīšanu, lai izveidotu jaunus tagus."
+      },
+      "categories": {
+        "helperText": "Kategorijas tiek izmantotas meklēšanas katalogos, lai palīdzētu citiem atrast šo vietni. Tās iestata Jūsu organizācija."
+      },
+      "discussable": {
+        "label": "Rādiet diskusiju saskarni lietotājiem, kas pierakstījušies tiešsaistes vietnēs (ieslēgts pēc noklusējuma).",
+        "enabled": {
+          "label": "Jā, diskusija ir atļauta",
+          "description": "Rādīt diskusiju saskarni"
+        },
+        "disabled": {
+          "label": "Nē, diskusija ir bloķēta",
+          "description": "Paslēpt diskusiju saskarni"
+        }
+      },
+      "followers": {
+        "groupAccess": {
+          "label": "Iestatīt redzamību",
+          "helperText": "Kontrolējiet, kurš var skatīt sekošanas pogas. Šis iestatījums attiecas gan uz plūstošo darbību sekošanas pogu lapā, gan uz jebkuru sekošanas pogu, kas iegulta tieši izkārtojumā.",
+          "private": {
+            "label": "Privāts",
+            "description": "Vietnes īpašnieks un grupas ar piekļuvi var skatīt sekošanas pogas"
+          },
+          "org": {
+            "label": "Organizācija",
+            "description": "Visi dalībnieki ar vietnes organizācijas kontu un grupas ar piekļuvi var skatīt sekošanas pogas"
+          },
+          "public": {
+            "label": "Publisks",
+            "description": "Ikviens var redzēt sekošanas pogas"
+          }
+        },
+        "showFollowAction": {
+          "label": "Sekot darbībai",
+          "helperText": "Lapas darbību izvēlnei pievienojiet sekošanas pogu, kas paliek redzama, lietotājiem ritinot izkārtojumu."
+        },
+        "discussable": {
+          "label": "Vai šī grupa var piedalīties diskusijās?",
+          "enabled": {
+            "label": "Jā, diskusija ir atļauta",
+            "description": "Grupas dalībnieki var skatīt diskusiju kanālus, kuriem grupa var piekļūt, un piedalīties tajos."
+          },
+          "disabled": {
+            "label": "Nē, diskusija ir bloķēta",
+            "description": "Grupas dalībnieki nevar skatīt diskusiju kanālus, kuriem grupa var piekļūt, vai piedalīties tajos."
+          }
+        }
+      },
+      "siteUrl": {
+        "isUniqueError": "Kļūda: vietne, kas izmanto šo vietrādi URL, jau pastāv."
+      }
+    }
+  },
+  "page": {
+    "sections": {
+      "basicInfo": {
+        "label": "Pamatinformācija"
+      },
+      "location": {
+        "label": "Novietojums",
+        "helperText": "Rādīt ģeogrāfisko teritoriju, uz kuru attiecas šī lapa."
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Lapas nosaukums",
+        "requiredError": "Lapas nosaukums ir obligāti aizpildāms lauks",
+        "maxLengthError": "Lapas nosaukums nedrīkst pārsniegt 250 rakstzīmes",
+        "entityTitleValidatorError": "Lapas nosaukums nedrīkst ietvert emocijzīmes, <, >, vai = rakstzīmes"
+      },
+      "description": {
+        "label": "Apraksts",
+        "helperText": "Lapas apraksts"
+      },
+      "summary": {
+        "label": "Kopsavilkums",
+        "helperText": "Īss kopsavilkums par lapu."
+      },
+      "slug": {
+        "label": "Rinda",
+        "helperText": "Rinda ir lapas nosaukumam URL draudzīga versija. Tas tiek automātiski ģenerēts, pamatojoties uz lapas nosaukumu, taču Jūs varat to pielāgot.",
+        "patternError": "Kļūda: rindai ir jābūt rakstītai ar mazajām burtu un ciparu rakstzīmēm, kas ir atdalītas ar defisēm.",
+        "isUniqueError": "Rinda jau tiek lietota. Lūdzu, izvēlieties citu."
+      },
+      "tags": {
+        "label": "Atslēgvārdi",
+        "helperText": "Atslēgvārdi tiek izmantoti meklēšanas katalogos, lai palīdzētu citiem atrast šo lapu. Pievienojiet tekstu un izvēlieties ievadīšanu, lai izveidotu jaunus tagus."
+      },
+      "_thumbnail": {
+        "helperText": "Iestatiet sīktēlu, lai attēlotu šo lapu ArcGIS Online, kā arī meklēšanā un galerijās."
+      },
+      "categories": {
+        "helperText": "Kategorijas tiek izmantotas meklēšanas katalogos, lai palīdzētu citiem atrast šo lapu. Tās iestata Jūsu organizācija."
+      }
+    }
+  },
+  "content": {
+    "fields": {
+      "title": {
+        "label": "Virsraksts",
+        "hint": "Kodolīgi virsraksti palīdzēs vieglāk atrast jūsu saturu jūsu.",
+        "requiredError": "Nosaukums ir obligāti aizpildāms lauks",
+        "entityTitleValidatorError": "Nosaukums nedrīkst ietvert emocijzīmes, <, >, vai = rakstzīmes"
+      },
+      "summary": {
+        "label": "Kopsavilkums",
+        "hint": "Īsumā apkopojiet savu saturu. Padoms. Uzlabojiet meklētājoptimizāciju, izmantojot atslēgvārdus, kas atšķiras no jūsu \"Nosaukuma\" vai \"Atslēgvārdiem\"."
+      },
+      "description": {
+        "label": "Apraksts",
+        "hint": "Pievienojiet papildinformāciju, kas izskaidro jūsu saturu. Izvēlieties 7.–9. pakāpes lasīšanas līmeni, lai sasniegtu plašu mērķauditoriju. <a href='https://www.webfx.com/tools/read-able/' target='_blank'>Teksta pārbaudei izmantojiet bezmaksas lasīšanas analīzes rīku</a>."
+      },
+      "tags": {
+        "label": "Atslēgvārdi",
+        "hint": "Atslēgvārdi tiek izmantoti meklēšanas katalogos, lai palīdzētu citiem atrast šo saturu. Pievienojiet tekstu un izvēlieties ievadīšanu, lai izveidotu jaunus tagus."
+      },
+      "categories": {
+        "helperText": "Kategorijas tiek izmantotas meklēšanas katalogos, lai palīdzētu citiem atrast šo saturu. Tās iestata Jūsu organizācija."
+      },
+      "_thumbnail": {
+        "helperText": "Iestatiet sīktēlu, lai attēlotu šo vienību ArcGIS Online, kā arī meklēšanā un galerijās."
+      },
+      "license": {
+        "label": "Lietošanas noteikumi",
+        "helperText": "Mazāk ierobežojumu veicina lielāku atkārtotu izmantošanu."
+      },
+      "discussable": {
+        "label": "Vai diskusija ir atļauta?",
+        "enabled": {
+          "label": "Jā, diskusija ir atļauta",
+          "description": "Dalībnieki var pievienot ierakstus, atbildes un reakcijas uz šo vienību."
+        },
+        "disabled": {
+          "label": "Nē, diskusija ir bloķēta",
+          "description": "Noņem iespēju pievienot jaunus ierakstus, atbildes un reakcijas. Nedzēš iepriekšējo līdzdalību."
+        }
+      },
+      "serverExtractCapability": {
+        "label": "Lejupielādes sistēma",
+        "exportDataSetting": {
+          "label": "Datu eksportēšanas iestatījums (rekomendācija)",
+          "description": "Iespējot papildu lejupielādes formātus un palielinātu lejupielādes veiktspēju."
+        },
+        "defaultDownloadsSystem": {
+          "label": "Noklusējuma lejupielādes sistēma",
+          "description": "Var piedāvāt mazāk formātu, zemākus lejupielādes ātrumus un mazāku uzticamību."
+        },
+        "noFormatConfigurationNotice": {
+          "title": "Formāta konfigurācija nepieejama",
+          "body": "Formāta konfigurācijai ir nepieciešams iespējot datu eksportēšanas iestatījumu."
+        }
+      },
+      "downloadFormats": {
+        "label": "Formāti",
+        "helperText": "Izvēlēties, kuri formāti atļaus lietotāju piekļuvi, un secību, kādā tie tiks attēloti. (Ņemiet vērā, ka jums ir jāizvēlas vismaz viens formāts)",
+        "downloadsUnavailableNotice": {
+          "title": "Lejupielādes nav pieejamas",
+          "body": "Lai lejupielādētu saturu, ArcGIS Online ir jāiespējo iestatījums Datu eksports. Lūdzu, sazinieties ar vienības īpašnieku, lai iespējotu šo iestatījumu."
+        }
+      },
+      "schedule": {
+        "manual": {
+          "helperActionText": "Izmantojiet šo opciju, ja vēlaties manuāli atjaunināt šīs vienības meklēšanas indeksu un kešatmiņā saglabātos lejupielādes failus."
+        },
+        "forceUpdateButton": {
+          "label": "Piespiedu atjaunināšana",
+          "description": "Izvēlieties šo opciju un pēc tam atlasiet Saglabāt, lai pēc vajadzības manuāli atjauninātu meklēšanas indeksu un kešotos lejupielādes failus šai vienībai."
+        },
+        "unavailableNotice": {
+          "title": "Plānotie atjauninājumi nav pieejami",
+          "body": "Padariet šo saturu “publisku”, lai iespējotu ieplānotos atjauninājumus."
+        }
+      }
+    },
+    "sections": {
+      "basic": {
+        "title": "Pamatinformācija",
+        "message": "Šo informāciju izmanto, lai ievietotu meklēšanas rezultātos, galerijas kartītēs, un šī informācija tiek parādīta detalizētas informācijas skatā."
+      },
+      "about": {
+        "title": "Par saturu",
+        "message": "Meklēšanas rezultātos tiks parādītas pirmās divas jūsu apraksta rindas, bet viss saturs būs redzams koncentrētos satura skatos."
+      },
+      "image": {
+        "title": "Redzamais attēls",
+        "message": "Demonstrējot savu saturu mūsu galerijās vai skatos, kas izceļ attēlus, piemēram, iniciatīvas, notikumus un aptaujas, ir svarīga attēla vai sīktēla kvalitāte. Ieteicamais izmērs ir 760×505. Ja jūsu attēls tiešraides maršrutos ir izplūdis, lūdzu, apsveriet iespēju aizstāt sīktēlu ar lielāku attēlu."
+      },
+      "location": {
+        "label": "Novietojums",
+        "helperText": "Parādiet ģeogrāfisko apgabalu, kurā šis saturs norisināsies (lai tas būtu redzams satura izkārtojumā)."
+      },
+      "discussions": {
+        "label": "Diskusijas"
+      },
+      "downloads": {
+        "label": "Lejupielādes",
+        "helperText": "Konfigurējiet lejupielādes formātus, kešoto failu atjaunināšanas grafiku un citas iespējas. Lai iegūtu papildinformāciju, skatiet <calcite-link href=\"https://doc.arcgis.com/en/hub/content/data-download-settings.htm\" target=\"_blank\" icon-end=\"launch\">lejupielādes dokumentāciju.</calcite-link>"
+      },
+      "schedule": {
+        "label": "Ieplānotie atjauninājumi",
+        "helperText": "Hub automātiski mēģinās noteikt labāko laiku satura atjaunināšanai (pēc noklusējuma). Tomēr varat iestatīt satura, metadatu un kešoto lejupielādes failu atjaunināšanas biežumu (ja nepieciešams)."
+      }
+    },
+    "stringField": {
+      "charCounter": "Atlikušas {count} rakstzīmes"
+    },
+    "imageThumbnail": {
+      "label": "Sīktēla attēls",
+      "upload": "Augšupielādēt attēlu",
+      "done": "Pabeigts",
+      "editThumbnail": "Rediģēt sīktēlu",
+      "browse": "Pārlūkot, lai atrastu attēlu",
+      "remove": "Noņemt attēlu",
+      "edit": "Attēla rediģēšana",
+      "defaultHeading": "Pievienot sīktēla attēlu",
+      "dropHeading": "Nomest, lai augšupielādētu",
+      "errorHeading": "Izmēģināt citu attēlu",
+      "subheading": "Maks. izmērs ir {size}, {types}",
+      "zoomOut": "tālināt",
+      "zoomIn": "tuvināt",
+      "drag": "Vilkt, lai mainītu novietojumu",
+      "urlPlaceholder": "Atbalstītie veidi: {types}",
+      "browseForImage": "Pārlūkot, lai atrastu attēlu",
+      "aria": {
+        "container": "Attēla apgabals",
+        "crop": "Apgriezt apgabalu",
+        "handle": {
+          "top": "Mainīt izmēru augšdaļā",
+          "right": "Mainīt izmēru labajā pusē",
+          "left": "Mainīt izmēru kreisajā pusē",
+          "bottom": "Mainīt izmēru apakšdaļā"
+        }
+      }
+    }
+  },
+  "group": {
+    "sections": {
+      "details": {
+        "label": "Papildinformācija"
+      },
+      "basicInfo": {
+        "label": "Pamatinformācija"
+      },
+      "capabilities": {
+        "label": "Iespējas"
+      },
+      "membershipAccess": {
+        "label": "Dalība grupā"
+      },
+      "discussions": {
+        "label": "Diskusijas"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Nosaukums",
+        "requiredError": "Grupas nosaukums ir nepieciešams lauks",
+        "maxLengthError": "Grupas nosaukums nedrīkst pārsniegt 250 rakstzīmes",
+        "entityTitleValidatorError": "Grupas nosaukums nedrīkst ietvert emocijzīmes, <, >, vai = rakstzīmes"
+      },
+      "summary": {
+        "label": "Kopsavilkums",
+        "maxLengthError": "Kopsavilkums nedrīkst pārsniegt 250 rakstzīmes"
+      },
+      "description": {
+        "label": "Apraksts"
+      },
+      "access": {
+        "label": "Kurš var skatīt šo grupu?",
+        "private": {
+          "label": "Privāts",
+          "description": "Tikai grupas dalībnieki var skatīt šo grupu."
+        },
+        "org": {
+          "label": "Organizācija",
+          "description": "Tikai organizācijas dalībnieki var skatīt šo grupu."
+        },
+        "public": {
+          "label": "Ikviens (publiski)",
+          "description": "Grupu var skatīt ikviens."
+        }
+      },
+      "isSharedUpdate": {
+        "label": "Koplietojams atjauninājums",
+        "helperText": "Šīs grupas vienības varēs rediģēt visi šīs grupas dalībnieki. Dalība ir pieejama tikai jūsu organizācijai un jūsu sadarbības organizācijām."
+      },
+      "isAdmin": {
+        "label": "Administratīvā grupa",
+        "helperText": "Dalībnieki nevar atstāt šo grupu. Tikai grupas vadītāji vai īpašnieks var noņemt dalībniekus no šīs grupas. Dalība ir pieejama tikai jūsu organizācijai."
+      },
+      "isOpenData": {
+        "label": "Atvērtie dati",
+        "helperText": "Atļaut šai grupai piekļūt atvērto datu vietnēm.",
+        "constError": "Grupas, kas nav publiskas, nevar būt atvērti dati."
+      },
+      "_thumbnail": {
+        "label": "Sīktēls",
+        "helperText": "Izvēlieties attēlu, kas pārstāv grupu grupas profilā.",
+        "sizeDescription": "Maksimālais lielums ir 10 MB. Ieteicamais izmērs: 400 x 400 vai lielāks"
+      },
+      "membershipAccess": {
+        "label": "Kas var būt šajā grupā?",
+        "org": {
+          "description": "Tikai manas organizācijas dalībnieki",
+          "label": "Organizācijas dalībnieki"
+        },
+        "collab": {
+          "description": "Tikai partneru sadarbības un manas organizācijas dalībnieki",
+          "label": "Tikai līdzautori"
+        },
+        "any": {
+          "description": "Ikviens organizācijas dalībnieks",
+          "label": "Ikviens"
+        },
+        "createFollowers": {
+          "any": "Organizācijas dalībnieki (ieteicamais noklusējums)"
+        },
+        "createAssociation": {
+          "any": "Organizācijas dalībnieki (ieteicamais noklusējums)"
+        },
+        "constError": "Dalība administratora grupā ir pieejama tikai jūsu organizācijas dalībniekiem.",
+        "patternError": "Dalība koplietotās atjaunināšanas grupā ir pieejama tikai jūsu organizācijai vai partneru sadarbības dalībniekiem."
+      },
+      "contributeContent": {
+        "label": "Kas var iesniegt saturu?",
+        "members": {
+          "label": "Dalībnieki",
+          "description": "Visi grupas dalībnieki"
+        },
+        "admins": {
+          "label": "Administratori",
+          "description": "Grupas īpašnieks un pārvaldnieki"
+        },
+        "createFollowers": {
+          "admins": "Grupas īpašnieks un vadītāji (ieteicamais noklusējums)"
+        },
+        "createAssociation": {
+          "admins": "Grupas īpašnieks un vadītāji (ieteicamais noklusējums)"
+        }
+      },
+      "join": {
+        "label": "Kā cilvēki var pievienoties šai grupai?",
+        "invite": {
+          "label": "Uzaicinājums",
+          "description": "Tikai ar uzaicinājumu"
+        },
+        "request": {
+          "label": "Pieprasījums",
+          "description": "Pēc pieprasījuma"
+        },
+        "auto": {
+          "label": "Pašiem sevi",
+          "description": "Pievienojot pašiem sevi"
+        },
+        "constError": "Privātajām grupām jābūt pieejamām tikai ar ielūgumiem.",
+        "patternError": "Administratora vai koplietotajām atjauninājumu grupām jābūt pieejamām tikai ar ielūgumu vai pēc pieprasījuma."
+      },
+      "hiddenMembers": {
+        "label": "Kurš varēs skatīt visu dalībnieku sarakstu cilnē Dalībnieki?",
+        "members": {
+          "label": "Dalībnieki",
+          "description": "Visi grupas dalībnieki"
+        },
+        "admins": {
+          "label": "Administratori",
+          "description": "Grupas īpašnieks un pārvaldnieki"
+        }
+      },
+      "discussable": {
+        "label": "Vai šī grupa var piedalīties diskusijās?",
+        "enabled": {
+          "label": "Jā, diskusija ir atļauta",
+          "description": "Grupas dalībnieki var skatīt diskusiju kanālus, kuriem grupa var piekļūt, un piedalīties tajos."
+        },
+        "disabled": {
+          "label": "Nē, diskusija ir bloķēta",
+          "description": "Grupas dalībnieki nevar skatīt diskusiju kanālus, kuriem grupa var piekļūt, vai piedalīties tajos."
+        }
+      }
+    }
+  },
+  "initiativeTemplate": {
+    "sections": {
+      "basicInfo": {
+        "label": "Pamatinformācija"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Nosaukums",
+        "requiredError": "Iniciatīvas veidnes nosaukums ir obligāti aizpildāms lauks",
+        "entityTitleValidatorError": "Iniciatīvas veidnes nosaukums nedrīkst ietvert emocijzīmes, <, >, vai = rakstzīmes"
+      },
+      "slug": {
+        "label": "Rinda",
+        "helperText": "Rinda ir iniciatīvas veidnes nosaukumam URL draudzīga versija. Tas tiek automātiski ģenerēts, pamatojoties uz iniciatīvas veidnes nosaukumu, taču Jūs varat to pielāgot.",
+        "patternError": "Kļūda: rindai ir jābūt rakstītai ar mazajām burtu un ciparu rakstzīmēm, kas ir atdalītas ar defisēm.",
+        "isUniqueError": "Rinda jau tiek lietota. Lūdzu, izvēlieties citu."
+      },
+      "previewUrl": {
+        "label": "Priekšskatījuma saite",
+        "helperText": "Virsrakstam tiks lietota priekšskatījuma saite, un tā noder, ja plānojat veidni koplietot publiski. Saitei jāsākas ar \"https://\"",
+        "formatError": "Vietrāža (URL) formatējums nav pareizs"
+      },
+      "summary": {
+        "label": "Kopsavilkums",
+        "helperText": "Uzrakstiet īsu šīs veidnes aprakstu, ko parādīt veidņu galerijā (ieteicams 90 rakstzīmes vai mazāk)."
+      },
+      "description": {
+        "label": "Apraksts",
+        "helperText": "Iekļaujiet informāciju par to, kā šī veidne jāizmanto. Apsveriet iespēju iekļaut aktivizēšanas instrukcijas citiem."
+      },
+      "_thumbnail": {
+        "label": "Sīktēls",
+        "helperText": "Iestatiet sīktēlu, lai attēlotu šo veidni ArcGIS Online, kā arī meklēšanā un galerijās.",
+        "sizeDescription": "Maksimālais lielums ir 10 MB. Ieteicamais izmērs: 750 x 505 vai lielāks"
+      },
+      "recommendedTemplates": {
+        "label": "Ieteicamās veidnes",
+        "catalog": {
+          "myContent": "Mans saturs",
+          "favorites": "Izlase",
+          "organization": "Mana organizācija",
+          "world": "Pasaule (publisks)"
+        },
+        "facets": {
+          "sharing": "Koplietošana"
+        },
+        "pickerTitle": "Izvēlēties veidnes"
+      }
+    }
+  },
+  "template": {
+    "sections": {
+      "basicInfo": {
+        "label": "Pamatinformācija"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Veidnes nosaukums",
+        "requiredError": "Veidnes nosaukums ir obligāti aizpildāms lauks",
+        "maxLengthError": "Veidnes nosaukums nedrīkst pārsniegt 250 rakstzīmes",
+        "entityTitleValidatorError": "Veidnes nosaukums nedrīkst ietvert emocijzīmes, <, >, vai = rakstzīmes"
+      },
+      "previewUrl": {
+        "label": "Priekšskatījuma saite",
+        "helperText": "Virsrakstam tiks lietota priekšskatījuma saite, un tā noder, ja plānojat veidni koplietot publiski. Saitei jāsākas ar \"https://\"",
+        "formatError": "Vietrāža (URL) formatējums nav pareizs"
+      },
+      "description": {
+        "label": "Apraksts",
+        "helperText": "Iekļaujiet informāciju par to, kā šī veidne jāizmanto. Apsveriet iespēju iekļaut aktivizēšanas instrukcijas citiem."
+      },
+      "summary": {
+        "label": "Kopsavilkums",
+        "helperText": "Uzrakstiet īsu šīs veidnes aprakstu, ko parādīt veidņu galerijā (ieteicams 90 rakstzīmes vai mazāk)."
+      },
+      "_thumbnail": {
+        "helperText": "Izvēlieties attēlu, kas atspoguļos jūsu veidni galerijās."
+      }
+    }
+  },
+  "survey": {
+    "sections": {
+      "basicInfo": {
+        "label": "Pamatinformācija"
+      },
+      "searchDiscoverability": {
+        "label": "Meklēšana un atklājamība"
+      },
+      "settings": {
+        "label": "Kartes attēlojums"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Anketas nosaukums",
+        "requiredError": "Anketas nosaukums ir obligāti aizpildāms lauks",
+        "maxLengthError": "Anketas nosaukums nedrīkst pārsniegt 250 rakstzīmes",
+        "entityTitleValidatorError": "Anketas nosaukums nedrīkst ietvert emocijzīmes, <, >, vai = rakstzīmes"
+      },
+      "description": {
+        "label": "Apraksts",
+        "helperText": "Anketas apraksts."
+      },
+      "summary": {
+        "label": "Kopsavilkums",
+        "helperText": "Īsumā aprakstiet anketu."
+      },
+      "_thumbnail": {
+        "helperText": "Iestatiet sīktēlu, lai attēlotu šo anketu ArcGIS Online, kā arī meklēšanā un galerijās."
+      },
+      "tags": {
+        "label": "Atslēgvārdi",
+        "helperText": "Atslēgvārdi tiek izmantoti meklēšanas katalogos, lai palīdzētu citiem atrast šo anketu. Pievienojiet tekstu un izvēlieties ievadīšanu, lai izveidotu jaunus atslēgvārdus."
+      },
+      "categories": {
+        "helperText": "Kategorijas tiek izmantotas meklēšanas katalogos, lai palīdzētu citiem atrast šo anketu. Tās iestata Jūsu organizācija."
+      },
+      "displayMap": {
+        "label": "Kā būtu jāparāda anketa, kad tā tiek atvērta ArcGIS Hub?",
+        "enabled": {
+          "label": "Pamatā kartes informācija",
+          "description": "Daudzpusīgas kartes lietošanas iespējas; vispirms tiek parādīts kartes jautājums."
+        },
+        "disabled": {
+          "label": "Standarta attēlojums",
+          "description": "Karte tiek parādīta vienā rindā ar pārējiem jautājumiem."
+        },
+        "notice": {
+          "title": "Nepieciešams kartes jautājums",
+          "message": "Publicējiet savu aptauju ar kartes jautājumu Survey123, lai konfigurētu kartes attēlojumu ArcGIS Hub."
+        }
+      }
+    }
+  },
+  "event": {
+    "fields": {
+      "name": {
+        "label": "Nosaukums",
+        "requiredError": "Nosaukums ir obligāti aizpildāms lauks",
+        "entityTitleValidatorError": "Pasākuma nosaukums nedrīkst ietvert emocijzīmes, <, >, vai = rakstzīmes"
+      },
+      "startDate": {
+        "label": "Sākuma datums",
+        "requiredError": "Sākuma datums ir obligāti aizpildāms lauks",
+        "minDateError": "Sākuma datums nedrīkst būt pirms šodienas"
+      },
+      "endDate": {
+        "label": "Beigu datums",
+        "requiredError": "Beigu datums ir obligāti aizpildāms lauks",
+        "minDateError": "Beigu datums nevar būt pirms sākuma datuma"
+      },
+      "date": {
+        "label": "Datums",
+        "requiredError": "Datums ir obligāti aizpildāms lauks",
+        "minDateError": "Datums nedrīkst būt pirms šodienas"
+      },
+      "startTime": {
+        "label": "Sākuma laiks",
+        "requiredError": "Sākuma laiks ir obligāti aizpildāms lauks"
+      },
+      "endTime": {
+        "label": "Beigu laiks",
+        "requiredError": "Beigu laiks ir obligāti aizpildāms lauks",
+        "minTimeError": "Beigu laikam jābūt pēc sākuma laika"
+      },
+      "allDay": {
+        "label": "Visu dienu"
+      },
+      "timeZone": {
+        "label": "Laika josla",
+        "requiredError": "Laika josla ir obligāti aizpildāms lauks"
+      },
+      "attendanceType": {
+        "label": "Kur",
+        "inPerson": {
+          "label": "Klātiene"
+        },
+        "online": {
+          "label": "Tiešsaiste"
+        },
+        "both": {
+          "label": "Abi"
+        }
+      },
+      "onlineUrl": {
+        "label": "Saite, lai pievienotos tiešsaistes pasākumam",
+        "requiredError": "Tiešsaistes vai hibrīda pasākumiem ir nepieciešams vietrādis (URL)",
+        "linkHrefFormatError": "Vietrāža (URL) formatējums nav pareizs"
+      },
+      "description": {
+        "label": "Apraksts",
+        "helperText": "Pievienojiet raģistrantiem papildinformāciju, piemēram, pasākuma veidu, mērķi, darba kārtību, ko ņemt līdzi, transportu utt.",
+        "requiredError": "Apraksts ir obligāti aizpildāms lauks"
+      },
+      "inPersonCapacity": {
+        "label": "Maksimālā ietilpība klātienē",
+        "requiredError": "Maksimālā ietilpība klātienē jānorāda obligāti",
+        "minimumError": "Maksimālajai ietilpībai klātienē jābūt lielākai par 0"
+      },
+      "inPersonCapacityType": {
+        "label": "Reģistrācijas kapacitāte klātienē",
+        "unlimited": {
+          "label": "Neierobežots"
+        },
+        "fixed": {
+          "label": "Fiksēts"
+        }
+      },
+      "location": {
+        "label": "Parādiet ģeogrāfisko apgabalu, kurā šis pasākums norisināsies (lai tas būtu redzams pasākuma izkārtojumā)."
+      },
+      "onlineCapacityType": {
+        "label": "Reģistrācijas kapacitāte tiešsaistē",
+        "unlimited": {
+          "label": "Neierobežots"
+        },
+        "fixed": {
+          "label": "Fiksēts"
+        }
+      },
+      "onlineCapacity": {
+        "label": "Maksimālā tiešsaistes kapacitāte",
+        "requiredError": "Nepieciešama maksimālā tiešsaistes kapacitāte",
+        "minimumError": "Maksimālajai tiešsaistes kapacitātei jābūt lielākai par 0"
+      },
+      "onlineDetails": {
+        "label": "Tiešsaistes pasākuma informācija",
+        "helperText": "Pievienojiet reģistrantiem papildinformāciju, piemēram, piekļuves kodu, iezvanes informāciju un citu informāciju."
+      },
+      "categories": {
+        "helperText": "Kategorijas tiek izmantotas meklēšanas katalogos, lai palīdzētu citiem atrast šo pasākumu. Tās iestata Jūsu organizācija."
+      },
+      "tags": {
+        "label": "Atslēgvārdi",
+        "helperText": "Atslēgvārdi tiek izmantoti meklēšanas katalogos, lai palīdzētu citiem atrast šo pasākumu. Pievienojiet tekstu un izvēlieties ievadīšanu, lai izveidotu jaunus atslēgvārdus."
+      },
+      "summary": {
+        "label": "Kopsavilkums",
+        "helperText": "Īsi aprakstiet šī pasākuma mērķi, kas ir noderīgs, koplietojot saiti ar citiem."
+      },
+      "allowRegistration": {
+        "label": "Atļaut reģistrāciju",
+        "helperText": "Lai reģistrētos vai tiktu uzaicināts dalībai, ir nepieciešams konts.",
+        "enabled": {
+          "label": "Reģistrācijas poga iespējota",
+          "description": "Reģistrēties var ikviens dalībnieks, kurš var skatīt pasākumu."
+        },
+        "disabled": {
+          "label": "Reģistrācijas poga atspējota",
+          "description": "Reģistrācija ir tikai ar uzaicinājumiem vai netiek izsekota."
+        }
+      },
+      "notifyAttendees": {
+        "label": "Sūtīt automātiskos paziņojumus",
+        "helperText": "Pasākumu abonenti var saņemt automātiskus e-pasta paziņojumus par atgādinājumiem vai izmaiņām. Personas, kas reģistrējas pasākuma apmeklēšanai, automātiski abonē paziņojumus.",
+        "enabled": {
+          "label": "Paziņojumi iespējoti",
+          "description": "Pasākuma abonēšanas poga ir redzama."
+        },
+        "disabled": {
+          "label": "Paziņojumi atspējoti",
+          "description": "Pasākuma abonēšanas poga ir paslēpta."
+        }
+      },
+      "referencedContent": {
+        "label": "Savienotais saturs",
+        "helperText": {
+          "label": "Savienot vienu projektu, iniciatīvu vai vietni ar pasākumu."
+        },
+        "facets": {
+          "from": {
+            "label": "No",
+            "myContent": {
+              "label": "Mans saturs"
+            },
+            "myOrganization": {
+              "label": "Mana organizācija"
+            }
+          },
+          "access": {
+            "label": "Piekļuve"
+          }
+        },
+        "catalog": {
+          "organization": "Organizācija"
+        },
+        "collection": {
+          "sites": "Vietnes",
+          "initiatives": "Iniciatīvas",
+          "projects": "Projekti"
+        }
+      }
+    },
+    "sections": {
+      "referencedContent": {
+        "label": "Savienotais saturs"
+      },
+      "eventInfo": {
+        "label": "Pasākuma informācija"
+      },
+      "dateTime": {
+        "label": "Datums un laiks"
+      },
+      "location": {
+        "label": "Novietojums"
+      },
+      "discoverability": {
+        "label": "Meklēšana un atklājamība"
+      }
+    }
+  },
+  "user": {
+    "sections": {
+      "userSettings": "Lietotāja preferences",
+      "orgSettings": {
+        "label": "Organizācijas iestatījumi",
+        "signinSettings": {
+          "label": "Pierakstīšanās opcijas",
+          "helperText": "Pielāgojiet informāciju, ko lietotāji redzēs, ja viņi izvēlēsies reģistrēties kopienas kontam jūsu Hub."
+        },
+        "siteDefaults": {
+          "label": "Vietnes displeja noklusējumi"
+        }
+      }
+    },
+    "fields": {
+      "enableTermsAndConditions": {
+        "label": "Pieprasīt pielāgotus lietošanas nosacījumus reģistrējoties"
+      },
+      "termsAndConditions": {
+        "label": "Lietošanas noteikumi"
+      },
+      "enableSignupText": {
+        "label": "Konfigurēt pielāgotu reģistrēšanās sveiciena ziņojumu"
+      },
+      "workspacePreview": {
+        "label": "Iespējot darbvietas priekšskatījumu",
+        "helperText": "Darbvietas ir pieejamas priekšskatīšanai, bet joprojām ir izstrādes līmenī, kamēr paplašinām funkcionalitāti. Darbvietas varat atspējot jebkurā laikā priekšskatījuma periodā. Darbvietu iespējošana ietekmēs tikai šo lietotāja kontu."
+      },
+      "infoBanner": {
+        "label": "Informācijas baneris",
+        "helperText": "Parādiet savas darbinieku organizācijas informācijas baneri, ja tas ir konfigurēts, visās vietnēs un lapās. Šis ir globāls iestatījums, un to nevar ieslēgt/izslēgt kādai konkrētai vietnei.",
+        "helperTextWhenDisabled": "Jums pašlaik nav konfigurēta informācijas baneri. Lūdzu, noklikšķiniet uz tālāk esošās saites, lai tiktu novirzīts uz ArcGIS Online, kur Jūs varat konfigurēt savu informācijas baneri",
+        "goToBannerConfig": "Konfigurējiet informācijas baneri ArcGIS Online"
+      }
+    },
+    "notice": {
+      "title": "Organizācijas pārvaldība",
+      "message": "Lielākā daļa darbinieku un kopienas (tikai Hub Premium) organizācijas iestatījumu tagad tiek pārvaldīti ArcGIS mājas organizācijā.",
+      "communityMessage": "Lielākā daļa darbinieku un kopienas (tikai Hub Premium) organizācijas iestatījumu tagad tiek pārvaldīti ArcGIS mājas organizācijā. <br /> <br />Jūsu kopienas organizācija ir",
+      "staffMessage": "Lielākā daļa darbinieku un kopienas (tikai Hub Premium) organizācijas iestatījumu tagad tiek pārvaldīti ArcGIS mājas organizācijā. <br /> <br /> Jūsu personāla organizācija ir",
+      "actions": {
+        "goToOrg": "Doties uz organizācijas iestatījumiem",
+        "goToCommunityOrg": "Doties uz kopienas organizāciju",
+        "goToStaffOrg": "Doties uz personāla organizāciju"
+      }
+    }
+  }
+}

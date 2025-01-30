@@ -1,0 +1,1 @@
+const o=50;export{o as A}

@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "添加第一个操作",
+  "addSecondAction": "添加第二个操作",
+  "addLink": "添加链接",
+  "addSection": "添加部分",
+  "deleteNotice": {
+    "title": "无法删除",
+    "message": "部分不为空。 在尝试删除之前，请将所有链接移至该部分之外。"
+  },
+  "linkEditor": {
+    "save": "保存",
+    "delete": "删除",
+    "cancel": "取消",
+    "preview": "预览链接",
+    "title": {
+      "button1": "第一个操作",
+      "button2": "第二个操作",
+      "block": "操作链接"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "链接至现有内容"
+        },
+        "external": {
+          "label": "链接至外部源"
+        }
+      },
+      "label": {
+        "label": "标注",
+        "helperText": {
+          "button": "此文本将显示在按钮上。",
+          "block": "这将以粗体显示在块上。"
+        },
+        "requiredError": "标注为必填字段。"
+      },
+      "description": {
+        "label": "描述",
+        "helperText": "这是次要信息。"
+      },
+      "href": {
+        "label": "链接",
+        "requiredError": "链接为必填字段。",
+        "formatError": "URL 格式错误。"
+      },
+      "contentId": {
+        "label": "内容链接",
+        "requiredError": "内容链接为必填字段。"
+      },
+      "section": {
+        "label": "移至部分",
+        "placeholder": {
+          "noSections": "尚未配置任何部分",
+          "notSet": "不在部分中"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "部分",
+    "helperText": "部分可用于在菜单项目下嵌套链接。 部分不会用作链接。",
+    "section": {
+      "label": {
+        "label": "标注",
+        "requiredError": "标注为必填字段。"
+      },
+      "description": {
+        "label": "描述"
+      }
+    }
+  }
+}

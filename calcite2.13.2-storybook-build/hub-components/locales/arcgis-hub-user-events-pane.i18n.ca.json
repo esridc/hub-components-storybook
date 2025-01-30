@@ -1,0 +1,29 @@
+{
+  "header": "Esdeveniments",
+  "myContent": "Els meus esdeveniments",
+  "editableContent": "Contingut editable",
+  "addEventButtonText": "Crea un esdeveniment",
+  "type": "Tipus",
+  "sharedUpdate": "Grup d'actualització compartida",
+  "viewOnly": "Grup només de visualització",
+  "owner": "Creat per",
+  "starts": "Activat",
+  "from": "Des de",
+  "until": "Fins",
+  "updated": "Actualitzat",
+  "tags": "Etiquetes",
+  "dateCreated": "Creat",
+  "dateUpdated": "Data de modificació",
+  "actionLinks": {
+    "view": "Visualització",
+    "edit": "Edita",
+    "ariaEdit": "Edita: {title}",
+    "ariaView": "Mostra: {title}"
+  },
+  "access": {
+    "label": "Accés",
+    "PRIVATE": "Privat",
+    "ORG": "Organització",
+    "PUBLIC": "Públic"
+  }
+}

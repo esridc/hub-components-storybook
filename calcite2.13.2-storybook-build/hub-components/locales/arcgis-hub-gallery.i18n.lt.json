@@ -1,0 +1,91 @@
+{
+  "moreResults": "Daugiau rezultatų",
+  "search": "Ieškoti",
+  "filter": "Filtrai",
+  "viewResults": "Peržiūrėti rezultatus ({numResults})",
+  "resultsCount": "1 - {pageTotal} iš {searchTotal}",
+  "backToTop": "Atgal į viršų",
+  "facets": {
+    "access": {
+      "label": "Bendrinimas",
+      "private": "Aš",
+      "shared": "Savininkas ir grupės",
+      "org": "Organizacija",
+      "public": "Vieša"
+    },
+    "license": {
+      "label": "Licencija",
+      "tooltip": "Tik viešas turinys",
+      "custom": "Pasirinktinis",
+      "none": "Nėra"
+    },
+    "type": {
+      "label": "Tipas"
+    },
+    "tags": {
+      "label": "Žymos"
+    },
+    "dateUpdated": {
+      "label": "Atnaujinimo data"
+    },
+    "source": {
+      "label": "Šaltinis",
+      "tooltip": "Viešas turinys iš įvairių organizacijų"
+    },
+    "categories": {
+      "label": "Kategorijos"
+    },
+    "location": {
+      "label": "Vieta",
+      "tooltip": "Taikyti žemėlapio aprėptį kaip vietos filtrą"
+    },
+    "event": {
+      "from": {
+        "label": "Nuosavybė",
+        "myContent": "Aš",
+        "myOrganization": "Mano organizacija",
+        "world": "Bet kas"
+      },
+      "access": {
+        "label": "Prieiga",
+        "private": "Privati",
+        "org": "Organizacija",
+        "public": "Vieša"
+      },
+      "startDate": {
+        "label": "Įvykio data"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "Tipas",
+        "all": "Visi",
+        "view": "Peržiūra",
+        "edit": "Redaguoti"
+      },
+      "role": {
+        "label": "Vaidmuo",
+        "all": "Visi",
+        "member": "Narys",
+        "manager": "Valdytojas",
+        "owner": "Savininkas"
+      },
+      "sharing": {
+        "label": "Matomumas",
+        "private": "Privati",
+        "public": "Vieša"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "Rodyti sąrašą",
+    "grid": "Rodyti tinklelį",
+    "map": "Rodyti žemėlapį",
+    "compact": "Kompaktiškas atvaizdavimas",
+    "calendar": "Rodyti kalendorių",
+    "table": "Rodyti lentelę"
+  },
+  "galleryActionsLabel": "Papildomi veiksmai",
+  "selected": "Pasirinkta: {count}",
+  "popoverActionButtonLabel": "daugiau veiksmų"
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-download-list</title>
+
+  <!-- link to calcite components CSS  -->
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+
+  <!-- NOTE: calcite web CSS is only used for grid layout of this page -->
+  <!-- see: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+  <link rel="stylesheet" href="../calcite-web.min.css">
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+
+  <!-- load calcite components -->
+  <script type="module" src="../../calcite/calcite.esm.js"></script>
+
+  <!-- load hub components -->
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+</head>
+
+<body>
+  <harness-header page-title=arcgis-hub-download-list></harness-header>
+  <div class="grid-container padding-leader-4">
+    <!-- docs about grid container: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+    <div class="column-24">
+      <calcite-notice open kind="info" width="half" icon>
+        <div slot="message">All items are owned by paige_pa</div>
+      </calcite-notice>
+      <br>
+      <calcite-dropdown id="harness-dropdown">
+        <calcite-button appearance="outline" icon-end="caret-down" slot="trigger">Select an item permutation</calcite-button>
+        <calcite-dropdown-group group-title="Hosted Feature Services">
+          <calcite-dropdown-item value="bd048141fdf845a9a0f94e10eb86336a">Public, Extract Enabled</calcite-dropdown-item>
+          <calcite-dropdown-item value="c0e1645f68994b89b2148d13b32cb1c5">Public, Extract Disabled</calcite-dropdown-item>
+        </calcite-dropdown-group>
+        <!-- Uncomment once downloads for image services are implemented, Note that paige_pa does not own this item -->
+        <calcite-dropdown-group group-title="Image Services">
+          <calcite-dropdown-item value="fafdd75b8aab4995aeaa580f50d7d69d">Public</calcite-dropdown-item>
+        </calcite-dropdown-group>
+      </calcite-dropdown>
+      <br>
+      <br>
+      <arcgis-hub-download-manager></arcgis-hub-download-manager>
+      <harness-fetch
+        entity-prop="entity"
+        identifier="bd048141fdf845a9a0f94e10eb86336a"
+        show-identifier-input
+        type="content"
+      >
+        <arcgis-hub-download-list
+          id="arcgis-hub-download-list-harness"
+          style="width: 300px;">
+        </arcgis-hub-download-list>
+      </harness-fetch>
+    </div>
+  </div>
+
+  <script>
+    // set a property on the element
+    function setProp(key, value) {
+      const el = document.querySelector("#arcgis-hub-download-list-harness");
+      el[key] = value;
+    }
+
+    setProp('layerIds', [0]);
+
+    // LISTEN FOR CHANGES TO TYPE SELECTED FROM DROPDOWN AND REFRESH HARNESS
+    document.addEventListener('calciteDropdownItemSelect', evt => {
+      const dropdownId = evt.target.closest('calcite-dropdown')?.id;
+      if (dropdownId === 'harness-dropdown') {
+        const entityId = evt.target.getAttribute('value');
+        const harnessFetch = document.querySelector('harness-fetch');
+        harnessFetch.setIdentifier(entityId);
+      }
+    });
+  </script>
+</body>
+
+</html>

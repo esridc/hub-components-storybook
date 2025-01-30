@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "Col·lecció d'entitats",
+    "fgdb": "Geobase de dades de fitxers",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Shapefile",
+    "sqlite": "Geobase de dades de l'SQLite"
+  },
+  "buttonText": {
+    "download": "Baixa",
+    "pending": "Pendent",
+    "processing": "S'està processant",
+    "converting": "S'està convertint",
+    "completed": "Baixada completa",
+    "failed": "Error de baixada"
+  },
+  "errors": {
+    "errorHeading": "Error"
+  },
+  "cacheStatusAccordion": {
+    "heading": "Trobeu el que necessiteu?",
+    "content": "És possible que hi hagi una versió més recent disponible.",
+    "button": "Sol·licita un fitxer nou"
+  },
+  "generateNewModal": {
+    "heading": "Segur?",
+    "content": "Pot tardar una estona. Manteniu aquesta finestra del navegador activa fins que s'hagi completat la baixada.",
+    "confirmButton": "Sí",
+    "cancelButton": "Cancel·la"
+  }
+}

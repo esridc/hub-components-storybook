@@ -1,0 +1,16 @@
+{
+  "all": "Svi",
+  "source": "Izvor",
+  "targetEntity": {
+    "item": "Stavke",
+    "group": "Grupe",
+    "user": "Korisnici",
+    "portalUser": "Korisnici portala",
+    "communityUser": "Korisnici zajednice",
+    "groupMember": "Članovi grupe",
+    "event": "Događaji",
+    "channel": "Kanali",
+    "discussionPost": "Objave",
+    "eventAttendee": "Prijavljeni sudionici događaja"
+  }
+}

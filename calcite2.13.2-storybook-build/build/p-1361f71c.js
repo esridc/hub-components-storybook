@@ -1,0 +1,1 @@
+import{g as a}from"./p-796574a4.js";const e=(e,s,t,l,o)=>{const{[t]:r,[l]:n}=(o?a(e,o):e)||{};let p=r;return n&&(p=s(n)),p},s=(a,s,t)=>e(a,s,"label","labelKey",t);export{e as a,s as g}

@@ -1,0 +1,1346 @@
+{
+  "success": "Uspešno shranjena urejanja",
+  "error": "Napaka pri shranjevanju urejanj",
+  "formAlert": "Opozorilo obrazca",
+  "create": "Ustvari",
+  "shared": {
+    "notices": {
+      "metrics": {
+        "preview": {
+          "label": "Predoglejte si svojo metriko",
+          "message": "Spremembe, narejene tukaj, bodo prikazane v predogledu metrike."
+        }
+      }
+    },
+    "sections": {
+      "metrics": {
+        "basic": {
+          "label": "Osnovne informacije"
+        },
+        "source": {
+          "label": "Vrednost"
+        },
+        "formatting": {
+          "label": "Oblikovanje"
+        },
+        "sharing": {
+          "label": "Deljenje"
+        }
+      },
+      "mapSettings": {
+        "label": "Nastavitve karte"
+      }
+    },
+    "errors": {
+      "urlFormat": "Oblikovanje URL-ja je nepravilno"
+    },
+    "fields": {
+      "name": {
+        "maxLengthError": "Ime ne sme presegati 250 znakov"
+      },
+      "title": {
+        "maxLengthError": "Naslov ne sme presegati 250 znakov"
+      },
+      "summary": {
+        "maxLengthError": "Povzetek ne sme presegati 2048 znakov"
+      },
+      "purpose": {
+        "maxLengthError": "Namen ne sme presegati 2048 znakov"
+      },
+      "_thumbnail": {
+        "label": "Sličica",
+        "sizeDescription": "Največja dovoljena velikost je 10 MB. Priporočene dimenzije: 760 × 505 ali večje",
+        "defaultThumbnailNotice": "Naložite lastno sličico, da zamenjate privzeto."
+      },
+      "location": {
+        "none": "Ni lokacije",
+        "org": "Obseg organizacije",
+        "custom": "Lokacija po meri",
+        "customDescription": "Nariši eno ali več lokacij",
+        "itemExtent": "Trenutni obseg elementa"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Tip",
+          "sharing": "Deljenje"
+        },
+        "catalog": {
+          "myContent": "Moja vsebina",
+          "favorites": "Priljubljene",
+          "organization": "Organizacija",
+          "world": "Svet (javno)"
+        },
+        "collection": {
+          "appsAndMaps": "Aplikacije in karte",
+          "dataset": "Podatki",
+          "documents": "Dokumenti",
+          "feedback": "Povratne informacije",
+          "sites": "Spletna mesta",
+          "projects": "Projekti"
+        }
+      },
+      "metrics": {
+        "allowDynamicLink": {
+          "label": "Prikaz povezave vira"
+        },
+        "cardTitle": {
+          "label": "Naslov",
+          "message": {
+            "required": "To polje je obvezno."
+          }
+        },
+        "dynamicMetric": {
+          "label": "Vir podatkov"
+        },
+        "value": {
+          "label": "Vrednost",
+          "message": {
+            "required": "To polje je obvezno."
+          }
+        },
+        "unit": {
+          "label": "Enote",
+          "helperText": "Uporabite jih, da določite vrednost predpone ali pripone, kot so %, +, $ ali druge. Pustite prazno, da ne bo nič prikazano."
+        },
+        "unitPosition": {
+          "label": "Položaj enote",
+          "helperText": "Izberite, kje se pojavi merska enota (npr. \"km\", \"lbs\") glede na metrično vrednost.",
+          "enum": {
+            "after": {
+              "label": "Za vrednostjo"
+            },
+            "before": {
+              "label": "Pred vrednostjo"
+            },
+            "below": {
+              "label": "Pod vrednostjo"
+            }
+          }
+        },
+        "showShareIcon": {
+          "label": "Omogoči deljenje",
+          "helperText": {
+            "label": "Uporabnikom dovolite kopiranje neposredne povezave do te metrike."
+          }
+        },
+        "shareableOnHover": {
+          "label": "Prikaži, ko se nanj pomakneš z miško",
+          "helperText": {
+            "label": "Gumb za deljenje se prikaže samo, ko se nanj pomaknete z miškinim kazalcem. Če je izklopljeno, je gumb vedno viden."
+          }
+        },
+        "sourceLink": {
+          "label": "URL povezave",
+          "message": {
+            "required": "Povezava, ki je potrebna za prikaz vira."
+          }
+        },
+        "sourceTitle": {
+          "label": "Besedilo povezave"
+        },
+        "trailingText": {
+          "label": "Zaključno besedilo",
+          "helperText": "Vnesite kakršen koli dodaten kontekst ali razlago (ki se pojavi pod metrično vrednostjo)."
+        },
+        "type": {
+          "label": "Tip",
+          "enum": {
+            "dynamic": {
+              "label": "Dinamično",
+              "description": "Izberite obstoječi sklop podatkov (geoobjektna storitev) za povzetek."
+            },
+            "static": {
+              "label": "Statično",
+              "description": "Ročno vnesite vrednost za označitev v vaši postavitvi."
+            }
+          }
+        },
+        "valueType": {
+          "label": "Tip vrednosti",
+          "helperText": "Izberite tip vrednosti, ki jo želite prikazati.",
+          "enum": {
+            "string": {
+              "label": "Besedilo",
+              "description": "Vsaka beseda ali fraza. Ni namenjena za numerične izračune. (npr. \"glavna ulica\")"
+            },
+            "number": {
+              "label": "Številka",
+              "description": "Številčna vrednost. Lahko se uporabi za izračune. (npr. 123)"
+            },
+            "date": {
+              "label": "Datum",
+              "description": "Vrednost koledarskega datuma. Ni namenjena za numerične izračune. (npr. »1/1/2018«)"
+            }
+          }
+        }
+      },
+      "categories": {
+        "label": "Kategorije",
+        "noCategoriesNotice": {
+          "body": "Ta organizacija še nima kategorij.",
+          "link": "Nastavi kategorije"
+        }
+      },
+      "download": {
+        "format": {
+          "bip": "BIP",
+          "bmp": "BMP",
+          "bsq": "BSQ",
+          "gif": "GIF",
+          "jpg": "JPG",
+          "jpgPng": "JPG_PNG",
+          "lerc": "LERC",
+          "png": "PNG",
+          "png8": "PNG8",
+          "png24": "PNG24",
+          "png32": "PNG32",
+          "tiff": "TIFF",
+          "csv": "CSV",
+          "excel": "Excel",
+          "featureCollection": "Zbirka geoobjektov",
+          "filegdb": "File Geodatabase",
+          "geojson": "GeoJSON",
+          "geoPackage": "GeoPackage",
+          "json": "JSON",
+          "kml": "KML",
+          "shapefile": "Shapefile",
+          "sqlite": "Geopodatkovna baza SQLite"
+        },
+        "additionalResource": "{resourceName} (distribucija metapodatkov)",
+        "dataSourceResource": "Vir podatkov (distribucija metapodatkov)",
+        "noTitleResource": "Povezava (brez naslova, distribucija metapodatkov)"
+      }
+    }
+  },
+  "project": {
+    "sections": {
+      "details": {
+        "label": "Podrobnosti"
+      },
+      "basicInfo": {
+        "label": "Osnovne informacije"
+      },
+      "location": {
+        "label": "Lokacija",
+        "helperText": "Prikažite geografsko območje, kjer bo potekal ta projekt (za prikaz v postavitvi projekta)."
+      },
+      "status": {
+        "label": "Status"
+      },
+      "sharing": {
+        "label": "Deljenje"
+      },
+      "timeline": {
+        "label": "Časovnica"
+      },
+      "searchDiscoverability": {
+        "label": "Iskanje in odkrivanje"
+      },
+      "featuredContent": {
+        "label": "Izpostavljena vsebina",
+        "helperText": "Izpostavite določene dokumente, aplikacije in podatke, povezane z vašim projektom. Predstavite lahko največ 4 elemente."
+      },
+      "callToAction": {
+        "label": "Povezave dejanj",
+        "helperText": "To se bo prikazalo kot viden gumb na vrhu vašega projekta. Uporabite to, da svoje občinstvo pošljete na spletno mesto, anketo, zemljevid itd."
+      },
+      "embeds": {
+        "label": "Predstavljena vdelava",
+        "helperText": "Izberite spletno karto, spletni prizor ali aplikacijo, ki jo želite izpostaviti v svojem projektu."
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Ime projekta",
+        "requiredError": "Ime projekta je obvezno polje.",
+        "maxLengthError": "Ime projekta ne sme presegati 250 znakov",
+        "entityTitleValidatorError": "Ime projekta ne sme vključevati čustvenih simbolov in znakov <, >, ali =."
+      },
+      "description": {
+        "label": "Opis",
+        "helperText": "Določite, kako bo vaš projekt dosegel svoje cilje. Razmislite o vključitvi ustreznih osnovnih informacij in sprememb, pričakovanih kot rezultat projekta."
+      },
+      "summary": {
+        "label": "Namen",
+        "helperText": "Na kratko povzemite cilje svojega projekta."
+      },
+      "access": {
+        "itemType": "Projekt"
+      },
+      "groups": {
+        "label": "Deli s/z ...",
+        "viewGroup": "(Skupina za ogled)",
+        "editGroup": "(Skupina za urejanje)"
+      },
+      "_thumbnail": {
+        "helperText": "Nastavite sličico, ki bo ta projekt predstavljala v ArcGIS Online ter pri iskanju in v galerijah."
+      },
+      "featuredImage": {
+        "label": "Predstavitvena slika",
+        "helperText": "Izberite sliko, ki bo predstavljala vaše delo v postavitvi projekta.",
+        "sizeDescription": "Največja velikost datoteke je 10 MB. Priporočene dimenzije: 718 × 478 ali večje",
+        "altText": {
+          "label": "Nadomestno besedilo",
+          "helperText": "Zagotovite kratek opis svoje slike za vse, ki uporabljajo bralnike zaslona. Če želite označiti, da je slika dekorativna, pustite prazno."
+        }
+      },
+      "slug": {
+        "label": "Identifikator",
+        "helperText": "Identifikator je za URL prijazna različica imena projekta. Ustvari se samodejno na podlagi imena projekta, vendar ga lahko prilagodite.",
+        "patternError": "Napaka: Identifikator mora vsebovati male črke in alfanumerične znake, ločene z vezaji.",
+        "isUniqueError": "Ta identifikator je že v uporabi. Izberite drugega."
+      },
+      "tags": {
+        "label": "Oznake",
+        "helperText": "V iskalnih katalogih se uporabljajo oznake, da drugim pomagajo najti ta projekt. Za ustvarjanje novih oznak dodajte besedilo in izberite enter."
+      },
+      "categories": {
+        "helperText": "V iskalnih katalogih se uporabljajo kategorije, da drugim pomagajo najti ta projekt. Nastavi jih vaša organizacija."
+      },
+      "status": {
+        "label": "Status projekta",
+        "enum": {
+          "notStarted": {
+            "label": "Ni zagnano"
+          },
+          "inProgress": {
+            "label": "V teku"
+          },
+          "onHold": {
+            "label": "Zadržano"
+          },
+          "complete": {
+            "label": "Dokončano"
+          }
+        }
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Tip",
+          "sharing": "Deljenje"
+        }
+      },
+      "callToAction": {
+        "facets": {
+          "type": "Tip",
+          "sharing": "Deljenje"
+        }
+      },
+      "mapSettings": {
+        "label": "Konfigurirajte, kako je karta prikazana na projektu"
+      }
+    }
+  },
+  "initiative": {
+    "sections": {
+      "details": {
+        "label": "Podrobnosti"
+      },
+      "basicInfo": {
+        "label": "Osnovne informacije"
+      },
+      "location": {
+        "label": "Lokacija",
+        "helperText": "Prikažite geografsko območje, kjer bo potekala ta iniciativa (za prikaz v postavitvi iniciative)."
+      },
+      "sharing": {
+        "label": "Deljenje"
+      },
+      "featuredContent": {
+        "label": "Izpostavljena vsebina",
+        "helperText": "Izpostavite določene dokumente, aplikacije in podatke, povezane z vašim projektom. Predstavite lahko največ 4 elemente."
+      },
+      "status": {
+        "label": "Stanje"
+      },
+      "hero": {
+        "label": "Glavna pasica"
+      },
+      "searchDiscoverability": {
+        "label": "Iskanje in odkrivanje"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Ime iniciative",
+        "requiredError": "Ime iniciative je obvezno polje.",
+        "maxLengthError": "Ime iniciative ne sme presegati 250 znakov",
+        "entityTitleValidatorError": "Ime iniciative ne sme vključevati čustvenih simbolov in znakov <, >, ali =."
+      },
+      "summary": {
+        "label": "Namen",
+        "helperText": "Na kratko povzemite cilje svoje iniciative."
+      },
+      "access": {
+        "itemType": "Iniciativa"
+      },
+      "description": {
+        "label": "Opis",
+        "helperText": "Določite, kako bo vaša pobuda dosegla svoje cilje. Razmislite o vključitvi ustreznih osnovnih informacij in sprememb, pričakovanih kot rezultat pobude."
+      },
+      "slug": {
+        "label": "Identifikator",
+        "helperText": "Identifikator je za URL prijazna različica imena iniciative. Ustvari se samodejno na podlagi imena iniciative, vendar ga lahko prilagodite.",
+        "patternError": "Napaka: Identifikator mora vsebovati male črke in alfanumerične znake, ločene z vezaji.",
+        "isUniqueError": "Ta identifikator je že v uporabi. Izberite drugega."
+      },
+      "tags": {
+        "label": "Oznake",
+        "helperText": "V iskalnih katalogih se uporabljajo oznake, da drugim pomagajo najti to iniciativo. Za ustvarjanje novih oznak dodajte besedilo in izberite enter."
+      },
+      "categories": {
+        "helperText": "V iskalnih katalogih se uporabljajo kategorije, da drugim pomagajo najti to iniciativo. Nastavi jih vaša organizacija."
+      },
+      "_thumbnail": {
+        "helperText": "Nastavite sličico, ki bo to pobudo predstavljala v ArcGIS Online ter pri iskanju in v galerijah."
+      },
+      "groups": {
+        "label": "Deli s/z ...",
+        "viewGroup": "(Skupina za ogled)",
+        "editGroup": "(Skupina za urejanje)"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Tip",
+          "sharing": "Deljenje"
+        }
+      },
+      "status": {
+        "label": "Status pobude",
+        "enum": {
+          "notStarted": {
+            "label": "Ni zagnano"
+          },
+          "inProgress": {
+            "label": "V teku"
+          },
+          "onHold": {
+            "label": "Zadržano"
+          },
+          "complete": {
+            "label": "Dokončano"
+          }
+        }
+      },
+      "hero": {
+        "label": "Glavna pasica",
+        "helperText": "Glavna pasica se prikaže nad naslovom vaše pobude in lahko vsebuje karto ali sliko.",
+        "map": {
+          "label": "Karta",
+          "description": "Uporabite karto, da prikažete ciljno območje pobude z lokacijo pobude ali povezanimi projekti."
+        },
+        "image": {
+          "label": "Slika",
+          "description": "Privlačna vizualna podoba lahko nagovori ljudi ali jih spodbudi, da ukrepajo za dosego vašega cilja."
+        }
+      },
+      "featuredImage": {
+        "label": "Slika",
+        "helperText": "Za glavno pasico uporabite sliko pokrajine. Aplikacija bo velikost slike iz osrednjega žarišča sorazmerno spremenila tako, da bo omogočeno prilagajanje različnim velikostim zaslona. Na velikih zaslonih bo največja višina 475 pikslov.",
+        "sizeDescription": "Največja velikost datoteke je 10 MB.",
+        "altText": {
+          "label": "Nadomestno besedilo",
+          "helperText": "Zagotovite kratek opis svoje slike za vse, ki uporabljajo bralnike zaslona. Če želite označiti, da je slika dekorativna, pustite prazno."
+        }
+      },
+      "groupAccess": {
+        "label": "Nastavi vidnost",
+        "helperText": "Nadzorujte, kdo si lahko ogleda povezave iz te pobude",
+        "private": {
+          "label": "Zasebno",
+          "description": "Lastnik pobude in skupine z dostopom lahko vidijo skupino"
+        },
+        "org": {
+          "label": "Organizacija",
+          "description": "Vsi člani z računom v organizaciji pobude in skupine z dostopom lahko vidijo skupino"
+        },
+        "public": {
+          "label": "Javno",
+          "description": "Vsi lahko vidijo skupino"
+        }
+      },
+      "membershipAccess": {
+        "label": "Kdo je lahko del te skupine?",
+        "org": "Samo uporabniki moje organizacije",
+        "collab": "Samo uporabniki partnerskega sodelovanja in moje organizacije",
+        "any": "Kateri koli uporabniki organizacije (priporočljiva privzeta možnost)"
+      },
+      "includeInCatalog": {
+        "label": "Vključi v katalog",
+        "helperText": "Če je ta možnost omogočena, se bodo vsi povezani elementi pojavili poleg druge vsebine v katalogu iskanja pobude."
+      },
+      "mapSettings": {
+        "label": "Konfigurirajte, kako je karta prikazana na pobudi"
+      }
+    }
+  },
+  "discussion": {
+    "sections": {
+      "details": {
+        "label": "Podrobnosti"
+      },
+      "basicInfo": {
+        "label": "Osnovne informacije"
+      },
+      "location": {
+        "label": "Lokacija",
+        "helperText": "Dodajte geografsko območje, da nastavite mejo razprave in privzeto stopnjo povečave zemljevida, za bolj osredotočeno razpravo."
+      },
+      "settings": {
+        "label": "Razprave"
+      },
+      "searchDiscoverability": {
+        "label": "Iskanje in odkrivanje"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Naslov",
+        "requiredError": "Zahtevano je ime foruma razprave.",
+        "entityTitleValidatorError": "Ime razprave ne sme vključevati čustvenih simbolov in znakov <, >, ali =."
+      },
+      "prompt": {
+        "label": "Poziv",
+        "helperText": "Na kratko opišite, kaj želite, da udeleženci posredujejo na tem forumu za razprave.",
+        "requiredError": "Poziv je obvezno polje",
+        "maxLengthError": "Poziv ne sme presegati 150 znakov."
+      },
+      "description": {
+        "label": "Opis",
+        "helperText": "Zagotovite več konteksta, ki bo lahko v pomoč pri iskanju tega foruma."
+      },
+      "_thumbnail": {
+        "helperText": "Izberite sliko, ki bo predstavljala vašo razpravo."
+      },
+      "summary": {
+        "label": "Povzetek",
+        "helperText": "Na kratko opišite namen tega foruma za razprave, ki je v pomoč pri deljenju povezave z drugimi."
+      },
+      "featuredImage": {
+        "label": "Predstavitvena slika",
+        "sizeDescription": "Največja velikost je 10 MB, JPEG, JPG ali PNG",
+        "altText": {
+          "label": "Nadomestno besedilo",
+          "helperText": "Zagotovite kratek opis svoje slike za vse, ki uporabljajo bralnike zaslona. Če želite označiti, da je slika dekorativna, pustite prazno."
+        },
+        "name": {
+          "label": "Ime slike"
+        }
+      },
+      "slug": {
+        "label": "Identifikator",
+        "helperText": "Identifikator je za URL prijazna različica imena razprave. Ustvari se samodejno na podlagi imena razprave, vendar ga lahko prilagodite.",
+        "patternError": "Napaka: Identifikator mora vsebovati male črke in alfanumerične znake, ločene z vezaji.",
+        "isUniqueError": "Ta identifikator je že v uporabi. Izberite drugega."
+      },
+      "tags": {
+        "label": "Oznake"
+      },
+      "categories": {
+        "helperText": "V iskalnih katalogih se uporabljajo kategorije, da drugim pomagajo najti to razpravo. Nastavi jih vaša organizacija."
+      },
+      "discussable": {
+        "label": "Je razprava dovoljena?",
+        "enabled": {
+          "label": "Da, razprava je dovoljena",
+          "description": "Udeleženci lahko na ta forum za razprave dodajo objave, odgovore in odzive."
+        },
+        "disabled": {
+          "label": "Ne, razprava je blokirana",
+          "description": "Odstrani možnost dodajanja novih objav, odgovorov in odzivov. Ne izbriše prejšnjega sodelovanja."
+        }
+      },
+      "mapSettings": {
+        "label": "Konfigurirajte, kako je karta prikazana na forumu"
+      }
+    }
+  },
+  "site": {
+    "sections": {
+      "defaultRequiredHelperText": "*označuje obvezno polje",
+      "basicInfo": {
+        "label": "Osnovne informacije"
+      },
+      "location": {
+        "label": "Lokacija",
+        "helperText": "Prikažite geografsko območje, na katero se nanaša to mesto."
+      },
+      "discussions": {
+        "label": "Razprave"
+      },
+      "privacy": {
+        "label": "Konfiguracija zasebnosti"
+      },
+      "siteUrl": {
+        "label": "URL spletnega mesta"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Ime mesta",
+        "requiredError": "Ime mesta je obvezno polje",
+        "maxLengthError": "Ime mesta ne sme presegati 250 znakov",
+        "siteEntityTitleValidatorError": "Ime mesta ne sme vključevati čustvenih simbolov ali znakov unicode"
+      },
+      "_thumbnail": {
+        "helperText": "Nastavite sličico, ki bo to mesto predstavljala v ArcGIS Online ter pri iskanju in v galerijah."
+      },
+      "description": {
+        "label": "Opis",
+        "helperText": "Opis mesta."
+      },
+      "summary": {
+        "label": "Povzetek",
+        "helperText": "Na kratko povzemite mesto."
+      },
+      "slug": {
+        "label": "Identifikator",
+        "helperText": "Identifikator je za URL prijazna različica imena mesta. Ustvari se samodejno na podlagi imena mesta, vendar ga lahko prilagodite.",
+        "patternError": "Napaka: Identifikator mora vsebovati male črke in alfanumerične znake, ločene z vezaji.",
+        "isUniqueError": "Ta identifikator je že v uporabi. Izberite drugega."
+      },
+      "tags": {
+        "label": "Oznake",
+        "helperText": "V iskalnih katalogih se uporabljajo oznake, da drugim pomagajo najti to mesto. Za ustvarjanje novih oznak dodajte besedilo in izberite enter."
+      },
+      "categories": {
+        "helperText": "V iskalnih katalogih se uporabljajo kategorije, da drugim pomagajo najti to mesto. Nastavi jih vaša organizacija."
+      },
+      "discussable": {
+        "label": "Prikaži vmesnik za razprave za vpisane uporabnike na aktivnem spletnem mestu (privzeto vklopljeno)",
+        "enabled": {
+          "label": "Da, razprava je dovoljena",
+          "description": "Prikaži vmesnik razprav"
+        },
+        "disabled": {
+          "label": "Ne, razprava je blokirana",
+          "description": "Skrij vmesnik razprav"
+        }
+      },
+      "followers": {
+        "groupAccess": {
+          "label": "Nastavi vidnost",
+          "helperText": "Nadzirajte, kdo lahko vidi gumbe za sledenje. Ta nastavitev velja tako za gumb za sledenje, ki poteka na strani, kot za vsak gumb za sledenje, vdelan neposredno v postavitev.",
+          "private": {
+            "label": "Zasebno",
+            "description": "Lastnik spletnega mesta in skupine z dostopom lahko vidijo gumbe za sledenje"
+          },
+          "org": {
+            "label": "Organizacija",
+            "description": "Vsi člani z računom v organizaciji spletnega mesta in skupine z dostopom lahko vidijo gumbe za sledenje"
+          },
+          "public": {
+            "label": "Javno",
+            "description": "Vsi lahko vidijo gumbe za sledenje"
+          }
+        },
+        "showFollowAction": {
+          "label": "Dejanje sledenja",
+          "helperText": "Dodajte gumb za sledenje v meni dejanj na strani, ki ostane viden, ko se uporabniki premikajo po postavitvi."
+        },
+        "discussable": {
+          "label": "Lahko ta skupina sodeluje v razpravi?",
+          "enabled": {
+            "label": "Da, razprava je dovoljena",
+            "description": "Uporabniki skupine lahko vidijo in sodelujejo v kanalih razprave, ki so dostopni skupini."
+          },
+          "disabled": {
+            "label": "Ne, razprava je blokirana",
+            "description": "Uporabniki skupine ne morejo videti ali sodelovati v kanalih razprave, ki so dostopni skupini."
+          }
+        }
+      },
+      "siteUrl": {
+        "isUniqueError": "Napaka: spletno mesto, ki uporablja ta URL, že obstaja."
+      }
+    }
+  },
+  "page": {
+    "sections": {
+      "basicInfo": {
+        "label": "Osnovne informacije"
+      },
+      "location": {
+        "label": "Lokacija",
+        "helperText": "Prikažite geografsko območje, na katero se nanaša ta stran."
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Ime strani",
+        "requiredError": "Ime strani je obvezno polje.",
+        "maxLengthError": "Ime strani ne sme presegati 250 znakov",
+        "entityTitleValidatorError": "Ime strani ne sme vključevati čustvenih simbolov in znakov <, >, ali =."
+      },
+      "description": {
+        "label": "Opis",
+        "helperText": "Opis strani."
+      },
+      "summary": {
+        "label": "Povzetek",
+        "helperText": "Na kratko povzemite stran."
+      },
+      "slug": {
+        "label": "Identifikator",
+        "helperText": "Identifikator je za URL prijazna različica imena strani. Ustvari se samodejno na podlagi imena strani, vendar ga lahko prilagodite.",
+        "patternError": "Napaka: Identifikator mora vsebovati male črke in alfanumerične znake, ločene z vezaji.",
+        "isUniqueError": "Ta identifikator je že v uporabi. Izberite drugega."
+      },
+      "tags": {
+        "label": "Oznake",
+        "helperText": "V iskalnih katalogih se uporabljajo oznake, da drugim pomagajo najti to stran. Za ustvarjanje novih oznak dodajte besedilo in izberite enter."
+      },
+      "_thumbnail": {
+        "helperText": "Nastavite sličico, ki bo to stran predstavljala v ArcGIS Online ter pri iskanju in v galerijah."
+      },
+      "categories": {
+        "helperText": "V iskalnih katalogih se uporabljajo kategorije, da drugim pomagajo najti to stran. Nastavi jih vaša organizacija."
+      }
+    }
+  },
+  "content": {
+    "fields": {
+      "title": {
+        "label": "Naslov",
+        "hint": "Jedrnati naslovi bodo povečali odkritost vaše spletne vsebine.",
+        "requiredError": "Naslov je obvezno polje",
+        "entityTitleValidatorError": "Ime ne sme vključevati čustvenih simbolov in znakov <, >, ali =."
+      },
+      "summary": {
+        "label": "Povzetek",
+        "hint": "Na kratko povzemite vsebino. NASVET: Izboljšajte SEO, tako da uporabite ključne besede, ki se razlikujejo od vašega \"Naslova\" ali \"Oznak\"."
+      },
+      "description": {
+        "label": "Opis",
+        "hint": "Dodajte dodatne podrobnosti, ki razlagajo vašo vsebino. Prizadevajte si za nivo branje od 7. do 9. razreda, da dosežete široko občinstvo. <a href='https://www.webfx.com/tools/read-able/' target='_blank'>Uporabite brezplačno orodje za analizo, da testirate vaše besedilo</a>."
+      },
+      "tags": {
+        "label": "Oznake",
+        "hint": "V iskalnih katalogih se uporabljajo oznake, da drugim pomagajo najti to vsebino. Za ustvarjanje novih oznak dodajte besedilo in izberite enter."
+      },
+      "categories": {
+        "helperText": "V iskalnih katalogih se uporabljajo kategorije, da drugim pomagajo najti to vsebino. Nastavi jih vaša organizacija."
+      },
+      "_thumbnail": {
+        "helperText": "Nastavite sličico, ki bo ta element predstavljala v ArcGIS Online ter pri iskanju in v galerijah."
+      },
+      "license": {
+        "label": "Pogoji uporabe",
+        "helperText": "Manj omejitev spodbuja večjo ponovno uporabo."
+      },
+      "discussable": {
+        "label": "Je razprava dovoljena?",
+        "enabled": {
+          "label": "Da, razprava je dovoljena",
+          "description": "Udeleženci lahko na ta element dodajo objave, odgovore in odzive."
+        },
+        "disabled": {
+          "label": "Ne, razprava je blokirana",
+          "description": "Odstrani možnost dodajanja novih objav, odgovorov in odzivov. Ne izbriše prejšnjega sodelovanja."
+        }
+      },
+      "serverExtractCapability": {
+        "label": "Sistem prenosa",
+        "exportDataSetting": {
+          "label": "Nastavitev izvoza podatkov (priporočeno)",
+          "description": "Omogočite dodatne oblike prenosa in povečajte zmogljivost prenosa."
+        },
+        "defaultDownloadsSystem": {
+          "label": "Privzeti sistem prenosa",
+          "description": "Lahko ponuja manj formatov, nižje hitrosti prenosa in manjšo zanesljivost."
+        },
+        "noFormatConfigurationNotice": {
+          "title": "Konfiguracija oblike ni na voljo",
+          "body": "Konfiguracija oblike zahteva, da je omogočena nastavitev izvoza podatkov."
+        }
+      },
+      "downloadFormats": {
+        "label": "Oblike",
+        "helperText": "Izberite, do katerih oblik želite uporabnikom omogočiti dostop, in vrstni red, v katerem so prikazane. (Upoštevajte, da morate izbrati vsaj eno obliko)",
+        "downloadsUnavailableNotice": {
+          "title": "Prenosi niso na voljo",
+          "body": "Prenesena vsebina, nastavitev Izvozi podatke, mora biti v ArcGIS Online omogočena. Obrnite se na lastnika elementa, da omogočite to nastavitev."
+        }
+      },
+      "schedule": {
+        "manual": {
+          "helperActionText": "Če želite ročno posodobiti indeks iskanja in predpomnjene datoteke prenosa za ta element, uporabite to možnost."
+        },
+        "forceUpdateButton": {
+          "label": "Vsili posodobitev",
+          "description": "Izberite to možnost, nato pa izberite možnost »Shrani«, da po potrebi ročno posodobite indeks iskanja in predpomnjene datoteke prenosa za ta element."
+        },
+        "unavailableNotice": {
+          "title": "Načrtovane posodobitve niso na voljo",
+          "body": "Spremenite to vsebino v »Javno«, da omogočite načrtovane posodobitve."
+        }
+      }
+    },
+    "sections": {
+      "basic": {
+        "title": "Osnovne informacije",
+        "message": "Te informacije se uporabljajo za izpolnjevanje rezultatov iskanja, kartice galerije, in so prikazane na pogledu podrobnosti."
+      },
+      "about": {
+        "title": "O vsebini",
+        "message": "Prvi dve vrstici opisa je tisto, kar se prikaže v rezultatih iskanja, vendar pa bo celoten opis prikazan v osredotočenih pogledih vsebine."
+      },
+      "image": {
+        "title": "Predstavitvena slika",
+        "message": "Dobra predstavitvena slika ali sličica je pomembna, ko svojo vsebino predstavljate v naših galerijah ali v pogledih, ki poudarjajo slike, kot so iniciative, dogodki in obrazci. Priporočena velikost je 760x505. Če je vaša slika med usmerjanjem prikazana zamegljeno, razmislite o zamenjavi sličice z večjo sliko."
+      },
+      "location": {
+        "label": "Lokacija",
+        "helperText": "Prikažite geografsko območje, kjer bo potekala ta vsebina (za prikaz v postavitvi vsebine)."
+      },
+      "discussions": {
+        "label": "Razprave"
+      },
+      "downloads": {
+        "label": "Prenosi",
+        "helperText": "Konfigurirajte oblike prenosa, razpored posodabljanja predpomnjenih datotek in drugo. Za več podrobnosti glejte <calcite-link href=\"https://doc.arcgis.com/en/hub/content/data-download-settings.htm\" target=\"_blank\" icon-end=\"launch\">dokumentacijo za prenos.</calcite-link>"
+      },
+      "schedule": {
+        "label": "Načrtovane posodobitve",
+        "helperText": "Hub bo samodejno poskusil določiti najboljši čas za posodobitev vsebine (privzeto). Lahko pa določite pogostnost posodobitev za vsebino, metapodatke in predpomnjene datoteke prenosa (po potrebi)."
+      }
+    },
+    "stringField": {
+      "charCounter": "{count} preostalih znakov"
+    },
+    "imageThumbnail": {
+      "label": "Slika sličice",
+      "upload": "Naloži sliko",
+      "done": "Končano",
+      "editThumbnail": "Uredi sličico",
+      "browse": "Izberi sliko",
+      "remove": "Odstrani sliko",
+      "edit": "Uredi sliko",
+      "defaultHeading": "Dodaj sliko sličice",
+      "dropHeading": "Spusti za nalaganje",
+      "errorHeading": "Poskusi z drugo sliko",
+      "subheading": "Najv. velikost je {size}, {types}",
+      "zoomOut": "Pomanjšaj",
+      "zoomIn": "Povečaj",
+      "drag": "Povleci za prestavljanje",
+      "urlPlaceholder": "Podprte vrste datotek: {types}",
+      "browseForImage": "Poišči sliko",
+      "aria": {
+        "container": "Območje slike",
+        "crop": "Območje za obrezovanje",
+        "handle": {
+          "top": "Spremeni velikost zgornjega dela",
+          "right": "Spremeni velikost desnega dela",
+          "left": "Spremeni velikost levega dela",
+          "bottom": "Spremeni velikost spodnjega dela"
+        }
+      }
+    }
+  },
+  "group": {
+    "sections": {
+      "details": {
+        "label": "Podrobnosti"
+      },
+      "basicInfo": {
+        "label": "Osnovne informacije"
+      },
+      "capabilities": {
+        "label": "Zmogljivosti"
+      },
+      "membershipAccess": {
+        "label": "Članstvo v skupini"
+      },
+      "discussions": {
+        "label": "Razprave"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Naslov",
+        "requiredError": "Naslov skupine je zahtevano polje",
+        "maxLengthError": "Naslov skupine ne sme presegati 250 znakov",
+        "entityTitleValidatorError": "Ime skupine ne sme vključevati čustvenih simbolov in znakov <, >, ali =."
+      },
+      "summary": {
+        "label": "Povzetek",
+        "maxLengthError": "Povzetek ne sme presegati 250 znakov"
+      },
+      "description": {
+        "label": "Opis"
+      },
+      "access": {
+        "label": "Kdo si lahko ogleda to skupino?",
+        "private": {
+          "label": "Zasebno",
+          "description": "Samo člani skupine si lahko ogledajo skupino."
+        },
+        "org": {
+          "label": "Organizacija",
+          "description": "Samo člani organizacije si lahko ogledajo skupino."
+        },
+        "public": {
+          "label": "Vsi (javno)",
+          "description": "Vsi si lahko ogledajo skupino."
+        }
+      },
+      "isSharedUpdate": {
+        "label": "Deljena posodobitev",
+        "helperText": "Elemente v tej skupini bodo lahko urejali vsi uporabniki te skupine. Članstvo je omejeno na vašo organizacijo in na vaše sodolujoče organizacije."
+      },
+      "isAdmin": {
+        "label": "Administrativna skupina",
+        "helperText": "Člani ne morejo zapustiti te skupine. Samo upravitelji ali lastnik skupine lahko odstranijo člane iz te skupine. Članstvo je omejeno na vašo organizacijo."
+      },
+      "isOpenData": {
+        "label": "Odprti podatki",
+        "helperText": "Dovolite, da se do te skupine dostopa na spletnih mestih Open Data.",
+        "constError": "Skupine, ki niso javne, ne morejo biti odprti podatki."
+      },
+      "_thumbnail": {
+        "label": "Sličica",
+        "helperText": "Izberite sliko, ki bo predstavljala vašo skupino v profilu skupine.",
+        "sizeDescription": "Največja dovoljena velikost je 10 MB. Priporočena velikost: 400 x 400 ali večja"
+      },
+      "membershipAccess": {
+        "label": "Kdo je lahko del te skupine?",
+        "org": {
+          "description": "Samo uporabniki moje organizacije",
+          "label": "Člani organizacije"
+        },
+        "collab": {
+          "description": "Samo uporabniki partnerskega sodelovanja in moje organizacije",
+          "label": "Samo sodelavci"
+        },
+        "any": {
+          "description": "Uporabniki katere koli organizacije",
+          "label": "Kdorkoli"
+        },
+        "createFollowers": {
+          "any": "Kateri koli uporabniki organizacije (priporočljiva privzeta možnost)"
+        },
+        "createAssociation": {
+          "any": "Kateri koli uporabniki organizacije (priporočljiva privzeta možnost)"
+        },
+        "constError": "Članstvo v administratorski skupini je omejeno na člane vaše organizacije.",
+        "patternError": "Članstvo v skupini za posodabljanje v skupni rabi je omejeno na uporabnike iz vaše organizacije ali partnerskega sodelovanja."
+      },
+      "contributeContent": {
+        "label": "Kdo lahko prispeva vsebino?",
+        "members": {
+          "label": "Člani",
+          "description": "Vsi uporabniki skupine"
+        },
+        "admins": {
+          "label": "Administratorji",
+          "description": "Lastnik in upravitelji skupine"
+        },
+        "createFollowers": {
+          "admins": "Lastnik in upravitelji skupine (priporočljiva privzeta možnost)"
+        },
+        "createAssociation": {
+          "admins": "Lastnik in upravitelji skupine (priporočljiva privzeta možnost)"
+        }
+      },
+      "join": {
+        "label": "Kako se lahko ljudje pridružijo tej skupini",
+        "invite": {
+          "label": "Povabilo",
+          "description": "Samo s povabilom"
+        },
+        "request": {
+          "label": "Prošnja",
+          "description": "S prošnjo"
+        },
+        "auto": {
+          "label": "Sami",
+          "description": "Tako, da se sami dodajo"
+        },
+        "constError": "Zasebne skupine morajo biti samo s povabilom.",
+        "patternError": "Administratorske skupine ali skupine za posodabljanje v skupni rabi morajo biti na povabilo ali na prošnjo."
+      },
+      "hiddenMembers": {
+        "label": "Kdo lahko vidi celoten seznam uporabnikov v zavihku Uporabniki?",
+        "members": {
+          "label": "Člani",
+          "description": "Vsi uporabniki skupine"
+        },
+        "admins": {
+          "label": "Administratorji",
+          "description": "Lastnik in upravitelji skupine"
+        }
+      },
+      "discussable": {
+        "label": "Lahko ta skupina sodeluje v razpravi?",
+        "enabled": {
+          "label": "Da, razprava je dovoljena",
+          "description": "Uporabniki skupine lahko vidijo in sodelujejo v kanalih razprave, ki so dostopni skupini."
+        },
+        "disabled": {
+          "label": "Ne, razprava je blokirana",
+          "description": "Uporabniki skupine ne morejo videti ali sodelovati v kanalih razprave, ki so dostopni skupini."
+        }
+      }
+    }
+  },
+  "initiativeTemplate": {
+    "sections": {
+      "basicInfo": {
+        "label": "Osnovne informacije"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Ime",
+        "requiredError": "Ime predloge iniciative je obvezno polje",
+        "entityTitleValidatorError": "Ime iniciative pobude ne sme vključevati čustvenih simbolov in znakov <, >, ali =."
+      },
+      "slug": {
+        "label": "Identifikator",
+        "helperText": "Identifikator je za URL prijazna različica imena predloge iniciative. Ustvari se samodejno na podlagi imena predloge iniciative, vendar ga lahko prilagodite.",
+        "patternError": "Napaka: Identifikator mora vsebovati male črke in alfanumerične znake, ločene z vezaji.",
+        "isUniqueError": "Ta identifikator je že v uporabi. Izberite drugega."
+      },
+      "previewUrl": {
+        "label": "Povezava do predogleda",
+        "helperText": "Povezava do predogleda bo dodana naslovu in je koristna, če načrtujete javno deljenje predloge. Povezave se morajo začeti s »https://«",
+        "formatError": "Oblikovanje URL-ja je nepravilno"
+      },
+      "summary": {
+        "label": "Povzetek",
+        "helperText": "Napišite kratek opis te predloge, ki se bo pojavil v galeriji predlog (priporočljivo je 90 znakov ali manj)."
+      },
+      "description": {
+        "label": "Opis",
+        "helperText": "Vsebuje informacije, kako bi ta predloga morala biti uporabljena. Razmislite o vključitvi navodil za aktivacijo za druge."
+      },
+      "_thumbnail": {
+        "label": "Sličica",
+        "helperText": "Nastavite sličico, ki bo to predlogo predstavljala v ArcGIS Online ter pri iskanju in v galerijah.",
+        "sizeDescription": "Največja dovoljena velikost je 10 MB. Priporočena velikost: 750 x 505 ali večja"
+      },
+      "recommendedTemplates": {
+        "label": "Priporočene predloge",
+        "catalog": {
+          "myContent": "Moja vsebina",
+          "favorites": "Priljubljene",
+          "organization": "Moja organizacija",
+          "world": "Svet (javno)"
+        },
+        "facets": {
+          "sharing": "Deljenje"
+        },
+        "pickerTitle": "Izberi predloge"
+      }
+    }
+  },
+  "template": {
+    "sections": {
+      "basicInfo": {
+        "label": "Osnovne informacije"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Ime predloge",
+        "requiredError": "Ime predloge je obvezno polje",
+        "maxLengthError": "Ime predloge ne sme presegati 250 znakov",
+        "entityTitleValidatorError": "Ime predloge ne sme vključevati čustvenih simbolov in znakov <, >, ali =."
+      },
+      "previewUrl": {
+        "label": "Povezava do predogleda",
+        "helperText": "Povezava do predogleda bo dodana naslovu in je koristna, če načrtujete javno deljenje predloge. Povezave se morajo začeti s »https://«",
+        "formatError": "Oblikovanje URL-ja je nepravilno"
+      },
+      "description": {
+        "label": "Opis",
+        "helperText": "Vsebuje informacije, kako bi ta predloga morala biti uporabljena. Razmislite o vključitvi navodil za aktivacijo za druge."
+      },
+      "summary": {
+        "label": "Povzetek",
+        "helperText": "Napišite kratek opis te predloge, ki se bo pojavil v galeriji predlog (priporočljivo je 90 znakov ali manj)."
+      },
+      "_thumbnail": {
+        "helperText": "Izberite sliko, ki bo predstavljala vašo predlogo v galerijah."
+      }
+    }
+  },
+  "survey": {
+    "sections": {
+      "basicInfo": {
+        "label": "Osnovne informacije"
+      },
+      "searchDiscoverability": {
+        "label": "Iskanje in odkrivanje"
+      },
+      "settings": {
+        "label": "Prikaz karte"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Ime obrazca",
+        "requiredError": "Ime obrazca je obvezno polje",
+        "maxLengthError": "Ime obrazca ne sme presegati 250 znakov",
+        "entityTitleValidatorError": "Ime obrazca ne sme vključevati čustvenih simbolov in znakov <, >, ali =."
+      },
+      "description": {
+        "label": "Opis",
+        "helperText": "Opis obrazca."
+      },
+      "summary": {
+        "label": "Povzetek",
+        "helperText": "Na kratko povzemite obrazec."
+      },
+      "_thumbnail": {
+        "helperText": "Nastavite sličico, ki bo ta obrazec predstavljala v ArcGIS Online ter pri iskanju in v galerijah."
+      },
+      "tags": {
+        "label": "Oznake",
+        "helperText": "V iskalnih katalogih se uporabljajo oznake, da drugim pomagajo najti ta obrazec. Za ustvarjanje novih oznak dodajte besedilo in izberite enter."
+      },
+      "categories": {
+        "helperText": "V iskalnih katalogih se uporabljajo kategorije, da drugim pomagajo najti ta obrazec. Nastavi jih vaša organizacija."
+      },
+      "displayMap": {
+        "label": "Kako naj bo vaš obrazec prikazan, ko se odpre v ArcGIS Hub?",
+        "enabled": {
+          "label": "Osredotočeno na karto",
+          "description": "Potopna izkušnja karte, vprašanje karte bo prikazano kot prvo."
+        },
+        "disabled": {
+          "label": "Standardni prikaz",
+          "description": "Karta je prikazana v vrstici z ostalimi vprašanji."
+        },
+        "notice": {
+          "title": "Zahteva vprašanje karte",
+          "message": "Svoj obrazec objavite z vprašanji karte v Survey123 za konfiguracijo prikaza karte v ArcGIS Hub."
+        }
+      }
+    }
+  },
+  "event": {
+    "fields": {
+      "name": {
+        "label": "Naslov",
+        "requiredError": "Naslov je obvezno polje",
+        "entityTitleValidatorError": "Ime dogodka ne sme vključevati čustvenih simbolov in znakov <, >, ali =."
+      },
+      "startDate": {
+        "label": "Začetni datum",
+        "requiredError": "Začetni datum je obvezno polje",
+        "minDateError": "Začetni datum ne more biti pred današnjim dnem"
+      },
+      "endDate": {
+        "label": "Končni datum",
+        "requiredError": "Končni datum je obvezno polje",
+        "minDateError": "Končni datum ne more biti pred začetnim datumom"
+      },
+      "date": {
+        "label": "Datum",
+        "requiredError": "Datum je obvezno polje",
+        "minDateError": "Datum ne more biti pred današnjim dnem"
+      },
+      "startTime": {
+        "label": "Začetni čas",
+        "requiredError": "Začetni čas je obvezno polje"
+      },
+      "endTime": {
+        "label": "Končni čas",
+        "requiredError": "Končni čas je obvezno polje",
+        "minTimeError": "Končni čas mora biti za začetnim časom"
+      },
+      "allDay": {
+        "label": "Ves dan"
+      },
+      "timeZone": {
+        "label": "Časovni pas",
+        "requiredError": "Časovni pas je obvezno polje"
+      },
+      "attendanceType": {
+        "label": "Kje",
+        "inPerson": {
+          "label": "Osebno"
+        },
+        "online": {
+          "label": "Spletno"
+        },
+        "both": {
+          "label": "Oboje"
+        }
+      },
+      "onlineUrl": {
+        "label": "Povezava za pridružitev spletnemu dogodku",
+        "requiredError": "Za spletne ali hibridne dogodke je potreben URL",
+        "linkHrefFormatError": "Oblikovanje URL-ja je nepravilno"
+      },
+      "description": {
+        "label": "Opis",
+        "helperText": "Dodajte dodatne informacije za registrante, kot so vrsta dogodka, namen, dnevni red, kaj prinesti s seboj, prevoz itn.",
+        "requiredError": "Opis je obvezno polje"
+      },
+      "inPersonCapacity": {
+        "label": "Največja kapaciteta oseb",
+        "requiredError": "Potrebna je največja kapaciteta oseb",
+        "minimumError": "Največja kapaciteta oseb mora biti večja od 0"
+      },
+      "inPersonCapacityType": {
+        "label": "Kapaciteta osebnih registracij",
+        "unlimited": {
+          "label": "Neomejeno"
+        },
+        "fixed": {
+          "label": "Fiksno"
+        }
+      },
+      "location": {
+        "label": "Prikažite geografsko območje, kjer bo potekal ta dogodek (za prikaz v postavitvi dogodka)."
+      },
+      "onlineCapacityType": {
+        "label": "Kapaciteta spletnih registracij",
+        "unlimited": {
+          "label": "Neomejeno"
+        },
+        "fixed": {
+          "label": "Fiksno"
+        }
+      },
+      "onlineCapacity": {
+        "label": "Največja spletna kapaciteta",
+        "requiredError": "Potrebna je največja spletna kapaciteta",
+        "minimumError": "Največja spletna kapaciteta mora biti večja od 0"
+      },
+      "onlineDetails": {
+        "label": "Podrobnosti spletnega dogodka",
+        "helperText": "Dodajte dodatne informacije za registrante, kot so geslo, informacije za povezavo itd."
+      },
+      "categories": {
+        "helperText": "V iskalnih katalogih se uporabljajo kategorije, da drugim pomagajo najti ta dogodek. Nastavi jih vaša organizacija."
+      },
+      "tags": {
+        "label": "Oznake",
+        "helperText": "V iskalnih katalogih se uporabljajo oznake, da drugim pomagajo najti ta dogodek. Za ustvarjanje novih oznak dodajte besedilo in izberite enter."
+      },
+      "summary": {
+        "label": "Povzetek",
+        "helperText": "Na kratko opišite namen tega dogodka, ki je v pomoč pri deljenju povezave z drugimi."
+      },
+      "allowRegistration": {
+        "label": "Dovoli registracijo",
+        "helperText": "Za registracijo ali prejem vabila za udeležbo potrebujete račun.",
+        "enabled": {
+          "label": "Gumb za registracijo je omogočen",
+          "description": "Vsak član, ki lahko vidi dogodek, se lahko registrira."
+        },
+        "disabled": {
+          "label": "Gumb za registracijo je onemogočen",
+          "description": "Registracija je možna samo z vabilom ali pa se ji ne sledi."
+        }
+      },
+      "notifyAttendees": {
+        "label": "Pošlji samodejna obvestila",
+        "helperText": "Naročniki na dogodek lahko prejemajo samodejna e-poštna obvestila o opomnikih ali spremembah. Osebe, ki se registrirajo za udeležbo, samodejno postanejo naročniki.",
+        "enabled": {
+          "label": "Obvestila so omogočena",
+          "description": "Gumb za naročnino za dogodek je viden."
+        },
+        "disabled": {
+          "label": "Obvestila so onemogočena",
+          "description": "Gumb za naročnino za dogodek je skrit."
+        }
+      },
+      "referencedContent": {
+        "label": "Povezana vsebina",
+        "helperText": {
+          "label": "Povežite en projekt, pobudo ali stran, povezano s tem dogodkom."
+        },
+        "facets": {
+          "from": {
+            "label": "Od",
+            "myContent": {
+              "label": "Moja vsebina"
+            },
+            "myOrganization": {
+              "label": "Moja organizacija"
+            }
+          },
+          "access": {
+            "label": "Dostop"
+          }
+        },
+        "catalog": {
+          "organization": "Organizacija"
+        },
+        "collection": {
+          "sites": "Spletna mesta",
+          "initiatives": "Pobude",
+          "projects": "Projekti"
+        }
+      }
+    },
+    "sections": {
+      "referencedContent": {
+        "label": "Povezana vsebina"
+      },
+      "eventInfo": {
+        "label": "Informacije o dogodku"
+      },
+      "dateTime": {
+        "label": "Datum in čas"
+      },
+      "location": {
+        "label": "Lokacija"
+      },
+      "discoverability": {
+        "label": "Iskanje in odkrivanje"
+      }
+    }
+  },
+  "user": {
+    "sections": {
+      "userSettings": "Uporabniške nastavitve",
+      "orgSettings": {
+        "label": "Nastavitve organizacije",
+        "signinSettings": {
+          "label": "Možnosti prijave",
+          "helperText": "Prilagodite informacije, ki jih bodo uporabniki videli, če se bodo odločili prijaviti za račun zainteresirane javnosti v vašem središču."
+        },
+        "siteDefaults": {
+          "label": "Privzeti nastavitve prikaza spletnega mesta"
+        }
+      }
+    },
+    "fields": {
+      "enableTermsAndConditions": {
+        "label": "Zahtevaj pogoje uporabe po meri v obrazcu za prijavo"
+      },
+      "termsAndConditions": {
+        "label": "Pogoji uporabe"
+      },
+      "enableSignupText": {
+        "label": "Konfigurirajte sporočilo dobrodošlice ob prijavi po meri"
+      },
+      "workspacePreview": {
+        "label": "Omogoči predogled delovnega prostora",
+        "helperText": "Delovni prostori so na voljo za predogled, vendar so še vedno v razvoju, saj razširjamo funkcionalnost. Med obdobjem predogleda lahko kadar koli onemogočite delovne prostore. Omogočanje delovnih prostorov bo vplivalo samo na ta uporabniški račun."
+      },
+      "infoBanner": {
+        "label": "Pasica z informacijami",
+        "helperText": "Prikažite pasico z informacijami organizacije zaposlenih, če je konfigurirana, na vseh spletnih mestih in straneh. To je globalna nastavitev in je ni mogoče vklopiti/izklopiti za določeno spletno mesto.",
+        "helperTextWhenDisabled": "Trenutno nimate konfigurirane pasice z informacijami. Kliknite spodnjo povezavo, da boste preusmerjeni na ArcGIS Online, kjer lahko konfigurirate vašo pasico z informacijami",
+        "goToBannerConfig": "Konfiguriraj pasico z informacijami v ArcGIS Online"
+      }
+    },
+    "notice": {
+      "title": "Upravljanje organizacije",
+      "message": "Večina nastavitev organizacije osebja in zainteresirane javnosti (samo Hub Premium) se zdaj upravlja v domači organizaciji ArcGIS.",
+      "communityMessage": "Večina nastavitev organizacije osebja in zainteresirane javnosti (samo Hub Premium) se zdaj upravlja v domači organizaciji ArcGIS. <br /> <br /> Vaša organizacija zainteresirane javnosti je",
+      "staffMessage": "Večina nastavitev organizacije osebja in zainteresirane javnosti (samo Hub Premium) se zdaj upravlja v domači organizaciji ArcGIS. <br /> <br /> Vaša organizacija osebja je",
+      "actions": {
+        "goToOrg": "Pojdi na nastavitve organizacije",
+        "goToCommunityOrg": "Pojdi na organizacijo zainteresirane javnosti",
+        "goToStaffOrg": "Pojdi na organizacijo osebja"
+      }
+    }
+  }
+}

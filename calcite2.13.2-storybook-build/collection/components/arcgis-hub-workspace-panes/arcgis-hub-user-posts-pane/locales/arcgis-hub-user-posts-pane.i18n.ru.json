@@ -1,0 +1,43 @@
+{
+  "header": "Обсуждения",
+  "myContent": "Мои события",
+  "editableContent": "Редактируемые ресурсы",
+  "addContentButtonText": "Создать событие",
+  "type": "Тип",
+  "sharedUpdate": "Общая группа обновления",
+  "viewOnly": "Группа только для просмотра",
+  "owner": "Владелец",
+  "updated": "Обновлено",
+  "tags": "Теги",
+  "dateCreated": "Создано",
+  "dateUpdated": "Изменено",
+  "actionLinks": {
+    "view": "Просмотр",
+    "edit": "Изменить",
+    "ariaEdit": "Изменить: {title}",
+    "ariaView": "Просмотреть: {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "События",
+      "myContent": "События, которыми я владею",
+      "editableContent": "События, которые я могу редактировать",
+      "all": "Все события"
+    },
+    "access": {
+      "label": "Из"
+    },
+    "type": {
+      "label": "Типы"
+    },
+    "tags": {
+      "label": "Теги"
+    },
+    "categories": {
+      "label": "Категории"
+    },
+    "modified": {
+      "label": "Изменено"
+    }
+  }
+}

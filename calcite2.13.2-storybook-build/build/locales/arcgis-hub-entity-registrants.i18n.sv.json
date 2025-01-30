@@ -1,0 +1,46 @@
+{
+  "registrants": "Registranter",
+  "invite": "Bjud in",
+  "tabs": {
+    "registrants": "Registranter",
+    "settings": "Inställningar"
+  },
+  "emptyNotice": {
+    "title": "Inga registranter",
+    "desc": "Evenemang är alltid roligare med en publik. Bjud in personer eller dela ditt evenemang för att uppmuntra människor att delta.",
+    "link": "Bjud in registranter"
+  },
+  "facets": {
+    "role": {
+      "header": "Roll",
+      "owner": "Ägare",
+      "organizer": "Organisatör",
+      "attendee": "Registrant"
+    },
+    "status": {
+      "header": "Status",
+      "pending": "Väntande",
+      "accepted": "Accepterad",
+      "declined": "Avvisad",
+      "blocked": "Blockerad"
+    },
+    "location": {
+      "header": "Plats",
+      "online": "Online",
+      "in_person": "Personligen"
+    },
+    "updatedDate": "Uppdaterat datum"
+  },
+  "delete": {
+    "attendee": "Ta bort registrant"
+  },
+  "notice": {
+    "label": "Formulärvarning"
+  },
+  "success": {
+    "delete": "Registranter har tagits bort från {eventName}."
+  },
+  "error": {
+    "delete": "En eller flera registranter kunde inte tas bort från evenemanget."
+  }
+}

@@ -1,0 +1,1 @@
+import{g as r}from"./p-b295a5ae.js";import{O as s}from"./p-14c4da50.js";class o extends s{constructor(s,o,t){super(s,o=o||"UNKNOWN_ERROR",t=r(t,"rootCause",t)),this.name="HubError",this.stack=r(t,"stack",(new Error).stack)}}export{o as H}

@@ -1,0 +1,18 @@
+{
+  "about": "Про програму",
+  "metrics": "Метрики",
+  "featuredContent": "Обраний вміст",
+  "details": "Відомості",
+  "exploreMetrics": "Розглянути метрики",
+  "status": {
+    "label": {
+      "default": "Стан",
+      "project": "Стан проєкту",
+      "initiative": "Статус ініціативи"
+    },
+    "notStarted": "Не запущено",
+    "inProgress": "Виконується",
+    "onHold": "Уточнюється",
+    "complete": "Завершено"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "all": "Összes",
+  "source": "Forrás",
+  "targetEntity": {
+    "item": "Elemek",
+    "group": "Csoportok",
+    "user": "Felhasználók",
+    "portalUser": "Portálfelhasználók",
+    "communityUser": "Közösségi felhasználók",
+    "groupMember": "Csoporttagok",
+    "event": "Események",
+    "channel": "Csatornák",
+    "discussionPost": "Bejegyzések",
+    "eventAttendee": "Esemény regisztrálók"
+  }
+}

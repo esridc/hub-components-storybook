@@ -1,0 +1,24 @@
+{
+  "shared": {
+    "targetEntities": {
+      "item": "Elementi",
+      "event": "Dogodki"
+    }
+  },
+  "targetEntityBlock": {
+    "configured": "Konfigurirano",
+    "notConfigured": "Ni konfigurirano"
+  },
+  "targetEntityFlow": {
+    "back": "Zapri konfiguriraj: {targetEntity}",
+    "description": "Konfiguriraj: {targetEntity}",
+    "source": {
+      "heading": "Vir",
+      "description": "Viri določajo obseg vsebine. Spremenite rezultate z vključitvijo ali izključitvijo parametrov.<br/><br/>*označuje obvezno polje"
+    },
+    "collections": {
+      "heading": "Zbirke",
+      "description": "Organizirajte vsebino v izrazite podizbore za lažje brskanje in odkrivanje.<br/><br/>*označuje obvezno polje"
+    }
+  }
+}

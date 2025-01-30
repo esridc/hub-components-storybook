@@ -1,0 +1,62 @@
+:host {
+  margin-top: 1rem;
+  display: flex;
+  gap: 4rem;
+}
+
+h2 {
+  margin: 0 0 0.75rem 0;
+  font-size: var(--calcite-font-size-2);
+  line-height: 1.5rem;
+  font-weight: var(--calcite-font-weight-bold);
+}
+
+p {
+  font-size: var(--calcite-font-size-0);
+  line-height: 1.25rem;
+}
+
+/* BODY AREA (MAIN + SIDE BAR) LAYOUT */
+.entity-about-main {
+  flex: 2;
+  margin-right: 2rem;
+}
+.entity-about-side-bar {
+  flex: 1;
+}
+.entity-about-main > div:not(:last-of-type), .entity-about-side-bar > div:not(:last-of-type) {
+  margin-bottom: 2.5rem;
+}
+arcgis-hub-embed-card {
+  margin-bottom: 1.5rem;
+}
+
+/* featured metrics */
+arcgis-hub-metric-card {
+  min-height: 15rem;
+  height: 100%;
+}
+.entity-about__featured-metrics-grid {
+  grid-template-columns: repeat(2, minmax(20rem, 1fr));
+  display: grid;
+  gap: 2rem;
+}
+.entity-about__featured-metrics calcite-button {
+  margin-top: 1.5rem;
+}
+
+/* slots */
+::slotted([slot='main']), ::slotted([slot="sidebar"]) {
+  margin-top: 2.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  :host {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .entity-about__featured-metrics-grid {
+    grid-template-columns: unset;
+  }
+}

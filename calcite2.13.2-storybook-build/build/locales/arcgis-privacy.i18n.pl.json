@@ -1,0 +1,41 @@
+{
+  "managePrivacyButton": "Zarządzaj ochroną prywatności",
+  "consentNotice": {
+    "allTracking": "Ta witryna została utworzona przy użyciu Centrum ArcGIS Hub i jest w niej używana funkcja anonimowego śledzenia, dzięki której można zwiększać wydajność i analizować użytkowanie witryny zgodnie z Polityką prywatności Esri. Użytkowanie witryny może być monitorowane przez dodatkowe systemy śledzenia obsługiwane przez podmioty zewnętrzne.",
+    "anonymousTracking": "Ta witryna została utworzona przy użyciu Centrum ArcGIS Hub i jest w niej używana funkcja anonimowego śledzenia, dzięki której można zwiększać wydajność i analizować użytkowanie witryny zgodnie z Polityką prywatności Esri.",
+    "noTracking": "Ta strona została zbudowana przy użyciu aplikacji ArcGIS Hub i wykorzystuje tylko te pliki cookie, które są niezbędne do działania tej aplikacji. Nie można ich wyłączyć w naszych systemach.",
+    "thirdPartyTracking": "Ta strona została zbudowana przy użyciu aplikacji ArcGIS Hub i wykorzystuje tylko te pliki cookie, które są niezbędne do działania tej aplikacji. Nie można ich wyłączyć w naszych systemach. Użytkowanie witryny może być monitorowane przez dodatkowe systemy śledzenia obsługiwane przez podmioty zewnętrzne."
+  },
+  "consent": {
+    "esriPrivacyLink": "Centrum prywatności Esri",
+    "customerConsentLink": "Więcej informacji"
+  },
+  "eueiNotice": {
+    "title": "Członkowie {orgName} nie będą śledzeni",
+    "message": "Program poprawy satysfakcji użytkowników produktów firmy Esri (EUEI) został wyłączony dla użytkownika {orgName}. Aktywność związana z Twoją wizytą nie będzie śledzona. Nie możesz zaakceptować anonimowych statystyk użytkowania ani śledzenia przez podmioty trzecie.",
+    "link": "Dowiedz się więcej o programie EUEI."
+  },
+  "notice": {
+    "heading": "Ustawienia ochrony prywatności",
+    "acceptAllButton": "Zaakceptuj wszystkie pliki cookie",
+    "acceptNecessaryButton": "Zaakceptuj tylko niezbędne pliki cookie",
+    "confirmButton": "Potwierdź",
+    "reviewSettingsButton": "Przejrzyj ustawienia"
+  },
+  "settings": {
+    "heading": "Ustawienia ochrony prywatności",
+    "confirmButton": "Potwierdź"
+  },
+  "anonymous": {
+    "heading": "Anonimowe statystyki użytkowania",
+    "helpText": "Te pliki cookie umożliwiają monitorowanie funkcjonowania aplikacji, na przykład źródeł ruchu, wyświetleń stron i interakcji. Możemy dzięki nim sprawdzić, które zasoby są efektywne i jak odwiedzający korzystają z aplikacji. Wszystkie zbierane informacje są anonimowe. (Nie przechowujemy żadnych danych umożliwiających identyfikację konkretnych osób). Jeśli nie zezwolisz na używanie tych plików cookie, nie będziemy wiedzieć, czy odwiedzasz naszą aplikację i z niej korzystasz."
+  },
+  "necessary": {
+    "heading": "Niezbędne pliki cookie",
+    "helpText": "Te pliki cookie są wymagane do działania aplikacji. Nie można ich wyłączyć w naszych systemach. Są ustawiane w odpowiedzi na Twoje działania związane z naszymi usługami, takie jak logowanie się na konto. Możesz ustawić swoją przeglądarkę tak, aby blokowała te pliki cookie lub informowała o ich stosowaniu, ale może to wpłynąć na działanie niektórych funkcji tej aplikacji. Wszystkie zbierane informacje są anonimowe. (Nie przechowujemy żadnych danych umożliwiających identyfikację konkretnych osób)."
+  },
+  "thirdParty": {
+    "heading": "Śledzenie przez podmioty zewnętrzne",
+    "helpText": "Te pliki cookie mogą być stosowane przez skonfigurowanych w tej witrynie zewnętrznych dostawców usług śledzenia. Podczas Twoich wizyt mogą one zbierać informacje marketingowe i służące do personalizowania treści. Zbierane informacje mogą być używane do celów niezwiązanych z tą aplikacją. Jeśli nie zezwolisz na stosowanie tych plików cookie, zewnętrzni dostawcy śledzenia nie otrzymają żadnych informacji o Twoich wizytach."
+  }
+}

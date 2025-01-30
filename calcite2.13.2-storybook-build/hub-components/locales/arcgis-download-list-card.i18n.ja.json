@@ -1,0 +1,13 @@
+{
+  "csv": "CSV",
+  "shapefile": "シェープファイル",
+  "sqlite": "SQLite ジオデータベース",
+  "geoPackage": "GeoPackage",
+  "filegdb": "ファイル ジオデータベース",
+  "featureCollection": "フィーチャ コレクション",
+  "geojson": "GeoJSON",
+  "excel": "Excel",
+  "json": "JSON",
+  "createReplicaErrorMessage": "レプリカ作成の内部エラーです。 1 時間後にもう一度お試しいただくか、コンテンツの管理者にご連絡ください。",
+  "errorHeader": "ダウンロードを完了できませんでした。 もう一度お試しください。"
+}

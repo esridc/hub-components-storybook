@@ -1,0 +1,87 @@
+{
+  "initiatives": "Iniziative",
+  "description": "Associa con le iniziative per contribuire agli obiettivi a lungo termine o agli impegni su larga scala. I collaboratori del progetto possono gestire le associazioni confermate e le richieste di associazione in sospeso. Le iniziative con le associazioni confermate compariranno nella vista di questo progetto. ",
+  "shared": {
+    "error": {
+      "title": "Si è verificato un errore",
+      "message": "Impossibile completare l'attività. Riprovare."
+    },
+    "facets": {
+      "access": {
+        "label": "Condivisione"
+      },
+      "status": {
+        "label": "Stato",
+        "notStarted": "Non iniziato",
+        "inProgress": "In corso",
+        "onHold": "In attesa",
+        "complete": "Completo"
+      },
+      "tags": {
+        "label": "Tag"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "{currentConfirmedAndOutgoingRequests} / {maxCurrentAndOutgoingRequestsAllowed} confermate + richieste in uscita",
+      "tooltip": "Per inviare richieste, disconnetti le associazioni esistenti e/o le richieste in uscita"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "Trova iniziative",
+    "sendRequest": "Invia richiesta",
+    "success": {
+      "title": "Operazione riuscita",
+      "message": "Richieste di associazione inviate: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "Verifica associazioni",
+      "message": "Alcune selezioni hanno già una richiesta di associazione. Nuove richieste di associazione inviate: {count}"
+    },
+    "catalog": {
+      "myContent": "I miei contenuti",
+      "favorites": "Preferiti",
+      "organization": "La mia organizzazione",
+      "partners": "I miei partner",
+      "community": "La mia community"
+    },
+    "collection": {
+      "initiatives": "Iniziative"
+    }
+  },
+  "acceptAssociation": {
+    "label": "Accetta",
+    "limitReachedTooltip": "Per accettare, disconnetti le associazioni esistenti e/o le richieste in uscita",
+    "success": {
+      "title": "Operazione riuscita",
+      "message": "Associazione accettata con {requestor}"
+    }
+  },
+  "cancelRequest": {
+    "label": "Annulla richiesta",
+    "success": {
+      "title": "Operazione riuscita",
+      "message": "Richiesta di associazione annullata"
+    }
+  },
+  "breakAssociation": {
+    "label": "Disconnetti",
+    "success": {
+      "title": "Associazione interrotta",
+      "message": "L'elemento è stato disconnesso dalla sua associazione precedente. Tuttavia non è possibile modificare la decisione dalla parte opposta, quindi è possibile che sia ancora visibile nelle richieste in entrata."
+    }
+  },
+  "associationsGallery": {
+    "sources": "Stato",
+    "catalog": {
+      "associated": "Associato",
+      "requesting": "Richieste in entrata",
+      "pending": "Richieste in uscita"
+    },
+    "collection": {
+      "initiatives": "Iniziative"
+    }
+  },
+  "notice": {
+    "label": "Avviso modulo"
+  }
+}

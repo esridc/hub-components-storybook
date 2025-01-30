@@ -1,0 +1,110 @@
+{
+  "controls": {
+    "addContent": "Legg til innhold",
+    "back": "Tilbake",
+    "cancel": "Avbryt",
+    "close": "Ferdig",
+    "create": "Opprett og legg til i gruppe",
+    "next": "Neste"
+  },
+  "createHelpState": {
+    "discussion": {
+      "heading": "Diskusjon",
+      "message": "Opprett en ny diskusjonstavle ved å angi en tittel som viser emnet."
+    },
+    "event": {
+      "heading": "Hendelse",
+      "message": "Vær vert for en organisert aktivitet, personlig eller virtuelt."
+    },
+    "group": {
+      "heading": "Gruppe",
+      "message": "Lag en gruppe for å samarbeide om fokusert innhold."
+    },
+    "initiative": {
+      "heading": "Initiativ",
+      "message": "Initiativer organiserer og oppsummerer fremdriften mot et mål."
+    },
+    "page": {
+      "heading": "Side",
+      "message": "En side er et sted hvor du kan dele informasjon og kommunisere med et publikum."
+    },
+    "project": {
+      "heading": "Prosjekt",
+      "message": "Uthev arbeid som har tydelige mål og tidsrammer."
+    },
+    "site": {
+      "heading": "Område",
+      "message": "Opprett en nettside for å organisere og dele informasjon."
+    }
+  },
+  "selection": {
+    "unlimited": "Valgt: {count}",
+    "limited": "Valgt: {count} / {limit}"
+  },
+  "steps": {
+    "createContent": "Legg til grunnleggende informasjon",
+    "selectContent": "Velg innhold",
+    "selectGroups": "Velg gruppe",
+    "confirmation": "Bekreftelse",
+    "notImplemented": "Ikke implementert"
+  },
+  "working": {
+    "heading": "Legger til det valgte innholdet.",
+    "loadingLabel": "Legger til innhold."
+  },
+  "failure": {
+    "heading": "Innholdet ble ikke lagt til",
+    "message": "Noe gikk galt ved tillegging av det valgte innholdet. Prøv på nytt.",
+    "action": "Prøv igjen"
+  },
+  "notImplemented": {
+    "heading": "Denne arbeidsflyten er ikke implementert ennå."
+  },
+  "contentGallery": {
+    "facets": {
+      "access": {
+        "label": "Fra"
+      },
+      "type": {
+        "label": "Typer"
+      },
+      "tags": {
+        "label": "Merker"
+      },
+      "categories": {
+        "label": "Kategorier"
+      },
+      "modified": {
+        "label": "Endret"
+      }
+    }
+  },
+  "groupsGallery": {
+    "facets": {
+      "access": {
+        "label": "Kan vises av",
+        "options": {
+          "org": "Organisasjon",
+          "public": "Alle (offentlig)",
+          "private": "Meg"
+        }
+      },
+      "from": {
+        "label": "Fra",
+        "options": {
+          "myCommunity": "Mitt fellesskap",
+          "myGroups": "Mine grupper",
+          "myOrganization": "Min organisasjon",
+          "world": "Verden"
+        }
+      },
+      "type": {
+        "label": "Typer",
+        "options": {
+          "sharedUpdate": "Delt oppdatering",
+          "opendata": "Open Data"
+        }
+      }
+    }
+  }
+}

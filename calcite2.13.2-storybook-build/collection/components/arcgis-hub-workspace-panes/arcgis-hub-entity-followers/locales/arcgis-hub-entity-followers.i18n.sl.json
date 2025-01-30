@@ -1,0 +1,66 @@
+{
+  "followers": "Sledilci",
+  "tabs": {
+    "followers": "Sledilci",
+    "settings": "Nastavitve"
+  },
+  "addFollowers": {
+    "label": "Dodaj sledilce"
+  },
+  "emptyState": {
+    "message": "Mesto nima skupine sledilcev",
+    "action": "Ustvari skupino sledilcev"
+  },
+  "createFollowersGroup": {
+    "formDescription": "Ustanovite skupino za lažjo izmenjavo vsebin in komunikacijo",
+    "defaultSummary": "Ta skupina sledilcev omogoča članom, da lažje delijo vsebino in komunicirajo med seboj"
+  },
+  "restrictedAccessState": {
+    "message": "Nimate dostopa za ogled skupine sledilcev.",
+    "action": "Zahtevaj dostop"
+  },
+  "stats": {
+    "total": {
+      "title": "Skupaj",
+      "trailingText": "Sledilci"
+    },
+    "new": {
+      "title": "Novo",
+      "trailingText": "Zadnjih 30 dni"
+    }
+  },
+  "addMembers": {
+    "button": "Dodaj uporabnike",
+    "modal": {
+      "title": "Dodaj uporabnike",
+      "org": "Moja organizacija",
+      "community": "Moja zainteresirana javnost",
+      "partner": "Moji partnerji",
+      "world": "Svet"
+    },
+    "notifications": {
+      "invited": "Povabilo poslano. Uporabniki morajo sprejeti za pridružitev",
+      "added": "Uporabnik/-i dodan/-i",
+      "notInvited": "Nekateri uporabniki morda nimajo potrebnih pravic za pridružitev skupini oziroma lahko presegajo največje dovoljeno število skupine (512)"
+    }
+  },
+  "removeUsers": {
+    "button": "Odstrani",
+    "success": "Člani so uspešno odstranjeni iz {groupName}.",
+    "error": "Enega ali več uporabnikov ni bilo mogoče odstraniti iz skupine."
+  },
+  "changeRole": {
+    "button": "Spremeni vlogo",
+    "member": "Član",
+    "memberHelperText": "Lahko dodaja in vidi vsebino znotraj skupine.",
+    "tooltipText": "Prekličite izbor sebe in/ali lastnika skupine",
+    "tooltipLabel": "Omejitev odgovornosti za vlogo",
+    "admin": "Upravitelj",
+    "adminHelperText": "Lahko doda/odstrani vsebino in povabi/odstrani ljudi (razen lastnika).",
+    "success": "Izbrani člani so postali skupina {role}.",
+    "error": "Vloge ni mogoče spremeniti za enega ali več članov."
+  },
+  "notice": {
+    "label": "Opozorilo obrazca"
+  }
+}

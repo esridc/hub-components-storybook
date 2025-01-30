@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-gallery-picker</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet" href="../calcite-web.min.css">
+</head>
+
+<body>
+  <div class="grid-container padding-leader-2">
+    <!-- docs about grid container: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+    <div class="column-24 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-hub-gallery-picker</h2>
+    </div>
+
+    <div class="column-24">
+      <calcite-button id="open-modal-btn">Open Modal</calcite-button>
+      <br>
+      <br>
+      <calcite-button id="remove-btn">Remove Last</calcite-button>
+      <arcgis-hub-gallery-picker id="arcgis-hub-gallery-picker-harness">
+      </arcgis-hub-gallery-picker>
+      <br>
+      <br>
+      <div>Selection:</div>
+      <div id="gallery-ids"></div>
+    </div>
+  </div>
+
+  <script>
+    // set a property on the element
+    function setProp(key, value) {
+      const el = document.querySelector("#arcgis-hub-gallery-picker-harness");
+      el[key] = value;
+    }
+
+    const catalogs = [
+      {
+        schemaVersion: 1,
+        title: 'Esri',
+        scopes: {
+          item: {
+            targetEntity: "item",
+            filters: [
+              {
+                predicates: [
+                  {
+                    owner: "esri"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        collections: [
+          {
+            label: "Applications",
+            key: "applications",
+            targetEntity: "item",
+            include: [],
+            scope: {
+              targetEntity: "item",
+              filters: [
+                {
+                  operation: "OR",
+                  predicates: [
+                    {
+                      type: {
+                        any: ["Web Mapping Application", "Application", "Insights", "Web Experience"],
+                        not: ["Insights Theme", "Insights Model"]
+                      },
+                      typekeywords: {
+                        not: ["hubSite", "Story Map"]
+                      }
+                    },
+                    {
+                      type: "Web Mapping Experience",
+                      typekeywords: "EXB Experience"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            label: "Documents",
+            key: "docs",
+            targetEntity: "item",
+            include: [],
+            scope: {
+              targetEntity: "item",
+              filters: [{ predicates: [{ type: "$document" }] }]
+            }
+          },
+          {
+            label: "Maps",
+            key: "maps",
+            targetEntity: "item",
+            include: [],
+            scope: {
+              targetEntity: "item",
+              filters: [{ predicates: [{ type: "$webmap" }] }]
+            }
+          },
+        ]
+      },
+      {
+        schemaVersion: 1,
+        title: 'Living Atlas',
+        scopes: {
+          item: {
+            targetEntity: "item",
+            filters: [
+              {
+                predicates: [
+                  {
+                    owner: "esri_livingatlas"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        collections: [
+          {
+            label: "Applications",
+            key: "applications",
+            targetEntity: "item",
+            include: [],
+            scope: {
+              targetEntity: "item",
+              filters: [
+                {
+                  operation: "OR",
+                  predicates: [
+                    {
+                      type: {
+                        any: ["Web Mapping Application", "Application", "Insights", "Web Experience"],
+                        not: ["Insights Theme", "Insights Model"]
+                      },
+                      typekeywords: {
+                        not: ["hubSite", "Story Map"]
+                      }
+                    },
+                    {
+                      type: "Web Mapping Experience",
+                      typekeywords: "EXB Experience"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            label: "Documents",
+            key: "docs",
+            targetEntity: "item",
+            include: [],
+            scope: {
+              targetEntity: "item",
+              filters: [{ predicates: [{ type: "$document" }] }]
+            }
+          },
+          {
+            label: "Maps",
+            key: "maps",
+            targetEntity: "item",
+            include: [],
+            scope: {
+              targetEntity: "item",
+              filters: [{ predicates: [{ type: "$webmap" }] }]
+            }
+          },
+        ]
+      },
+      {
+        schemaVersion: 1,
+        title: 'World (Public)',
+        scopes: {
+          item: {
+            targetEntity: "item",
+            filters: [
+              {
+                predicates: [
+                  {
+                    access: "public"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        collections: [
+          {
+            label: "Applications",
+            key: "applications",
+            targetEntity: "item",
+            include: [],
+            scope: {
+              targetEntity: "item",
+              filters: [
+                {
+                  operation: "OR",
+                  predicates: [
+                    {
+                      type: {
+                        any: ["Web Mapping Application", "Application", "Insights", "Web Experience"],
+                        not: ["Insights Theme", "Insights Model"]
+                      },
+                      typekeywords: {
+                        not: ["hubSite", "Story Map"]
+                      }
+                    },
+                    {
+                      type: "Web Mapping Experience",
+                      typekeywords: "EXB Experience"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            label: "Documents",
+            key: "docs",
+            targetEntity: "item",
+            include: [],
+            scope: {
+              targetEntity: "item",
+              filters: [{ predicates: [{ type: "$document" }] }]
+            }
+          },
+          {
+            label: "Maps",
+            key: "maps",
+            targetEntity: "item",
+            include: [],
+            scope: {
+              targetEntity: "item",
+              filters: [{ predicates: [{ type: "$webmap" }] }]
+            }
+          },
+        ]
+      }
+    ];
+    const facets = [
+      {
+        label: 'Type',
+        key: 'type',
+        display: 'multi-select',
+        field: 'type',
+        options: [],
+        operation: 'OR',
+        aggLimit: 100,
+      },
+      {
+        label: 'Sharing',
+        key: 'access',
+        display: 'multi-select',
+        field: 'access',
+        options: [],
+        operation: 'OR',
+      }
+    ];
+
+    let open = false;
+
+    document.getElementById('open-modal-btn').addEventListener("click", _ => {
+      toggleModal();
+    })
+    function toggleModal() {
+      open = !open;
+      setProp('open', open);
+    }
+
+    document.getElementById('remove-btn').addEventListener("click", _ => {
+       // This needs to return a new instance of the selection object vs just modifying the item array
+      currentSelection = {
+        item: currentSelection.item.slice(0, -1)
+      }
+
+      // This does not work
+      // currentSelection.item =[...currentSelection.item.slice(0, -1)]
+
+      setProp('gallerySelection', currentSelection);
+      showSelection(currentSelection)
+    })
+
+    document.addEventListener("arcgisHubGalleryPickerClose", (evt) => {
+      open = false;
+    })
+
+    // setup an initial selection
+    let currentSelection = {
+      item: [
+        "06b1b320d43542e4ae2b126ac0eee6ca"
+      ],
+      group: [],
+      user: [],
+      groupMember: [],
+      event: []
+    };
+    showSelection(currentSelection)
+    setProp('gallerySelection', currentSelection);
+    setProp('open', open);
+    setProp('modalTitle', 'Add Entity');
+    setProp('catalogs', catalogs);
+    setProp('facets', facets);
+    setProp('limit', 5);
+    setProp('showSelection', false);
+    setProp('showSearch', true);
+
+    document.addEventListener('arcgisHubGalleryPickerSelectionUpdate', evt => {
+      // when this fires, the modal has been closed... so set that to the in-page var
+      // so we don't have to double click the Open Modal button
+      currentSelection = evt.detail;
+      showSelection(evt.detail)
+      open = false;
+    })
+
+    function showSelection(sel) {
+      document.querySelector('#gallery-ids').innerHTML = JSON.stringify(sel);
+    }
+
+  </script>
+</body>
+
+</html>

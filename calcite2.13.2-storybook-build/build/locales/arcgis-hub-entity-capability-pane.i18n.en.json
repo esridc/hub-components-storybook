@@ -1,0 +1,37 @@
+{
+  "success": "Successfully saved edits",
+  "error": "Error saving edits",
+  "formAlert": "Form alert",
+  "projects": {
+    "header": "Projects",
+    "list": "Project List",
+    "config": "Configuration",
+    "notConfigured": "Projects capability is not configured. Please use the Configuration tab."
+  },
+  "content": {
+    "header": "Content",
+    "list": "Content List",
+    "config": "Configuration",
+    "notConfigured": "Content capability is not configured. Please use the Configuration tab."
+  },
+  "initiatives": {
+    "header": "Initiatives",
+    "list": "Initiative List",
+    "config": "Configuration",
+    "notConfigured": "Initiatives capability is not configured. Please use the Configuration tab."
+  },
+  "events": {
+    "header": "Events",
+    "list": "Event List",
+    "config": "Configuration",
+    "notConfigured": "Events capability is not configured. Please use the Configuration tab."
+  },
+  "pages": {
+    "header": "Pages",
+    "list": "Page List",
+    "config": "Configuration",
+    "notConfigured": "Pages capability is not configured. Please use the Configuration tab."
+  }
+
+
+}

@@ -1,0 +1,118 @@
+{
+  "layout": {
+    "title": "Disseny",
+    "helperText": "Configura com es mostraran els resultats als visitants el primer cop que accedeixin al vostre catàleg. Continuaran tenint l'opció de canviar el mètode de visualització.",
+    "enum": {
+      "list": {
+        "label": "Llista",
+        "description": "Feu-lo servir per presentar metadades i quan sigui probable que els visitants facin cerques precises."
+      },
+      "grid": {
+        "label": "Quadrícula",
+        "description": "Feu-lo servir per a resultats amb miniatures d'alta qualitat i quan sigui probable que els visitants estiguin navegant."
+      },
+      "table": {
+        "label": "Taula",
+        "description": "Feu-lo servir per presentar resultats en un format estructurat amb columnes que es puguin ordenar, ideal quan sigui possible que els visitants vulguin visualitzar i comparar molts elements i els seus atributs."
+      },
+      "map": {
+        "label": "Mapa",
+        "description": "Feu-lo servir per a resultats relacionats amb ubicacions físiques i quan sigui probable que els visitants estiguin explorant àrees d'interès."
+      },
+      "compact": {
+        "label": "Compacte",
+        "description": "Feu-lo servir per maximitzar el nombre de resultats visibles en un espai petit, ideal per agilitzar la navegació i la visualització en dispositius mòbils."
+      }
+    }
+  },
+  "cards": {
+    "title": "Targetes",
+    "cardTitleTag": {
+      "label": "Capçalera",
+      "helperText": "Es pot fer servir per millorar l'estructura de la capçalera niada pel que fa a l'accessibilitat. No canviarà la mida de la font.",
+      "enum": {
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        }
+      }
+    },
+    "showThumbnail": {
+      "label": "Mostra la miniatura",
+      "enum": {
+        "show": {
+          "label": "Sempre",
+          "description": "Les imatges de les miniatures es mostraran sempre en les targetes de resultats, independentment del disseny dels resultats."
+        },
+        "hide": {
+          "label": "No mostris les miniatures",
+          "description": "Les imatges de les miniatures no es mostraran en cap tipus de targeta de resultats. Feu servir aquesta opció si teniu miniatures de baixa qualitat o si voleu que es puguin examinar els resultats de les llistes més ràpidament en dispositius d'escriptori i mòbils."
+        },
+        "grid": {
+          "label": "Només a la quadrícula",
+          "description": "Les imatges de les miniatures només es mostraran a les targetes de quadrícula. A les targetes de llista es mostrarà una columna addicional de metadades en lloc d'una imatge."
+        }
+      }
+    },
+    "corners": {
+      "label": "Cantonades",
+      "enum": {
+        "square": {
+          "label": "Quadrat"
+        },
+        "round": {
+          "label": "Arrodonit"
+        }
+      }
+    },
+    "shadow": {
+      "label": "Ombreig",
+      "enum": {
+        "heavy": {
+          "label": "Intens"
+        },
+        "low": {
+          "label": "Baixa"
+        },
+        "medium": {
+          "label": "Mitjana"
+        },
+        "none": {
+          "label": "Cap"
+        }
+      }
+    },
+    "showLinkButton": {
+      "label": "Inclou botons",
+      "helperText": "Si els botons estan desactivats, només el títol de la targeta serà un enllaç."
+    },
+    "linkButtonStyle": {
+      "label": "Estil",
+      "enum": {
+        "outline-filled": {
+          "label": "Emplenat"
+        },
+        "outline": {
+          "label": "Contorn"
+        }
+      }
+    },
+    "linkButtonText": {
+      "label": "Text"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "success": "Ändringarna har sparats",
+  "error": "Fel när ändringarna sparades",
+  "formAlert": "Formulärvarning",
+  "projects": {
+    "header": "Projekt",
+    "list": "Projektlista",
+    "config": "Konfiguration",
+    "notConfigured": "Projektfunktion har inte konfigurerats. Använd fliken Konfiguration."
+  },
+  "content": {
+    "header": "Innehåll",
+    "list": "Innehållslista",
+    "config": "Konfiguration",
+    "notConfigured": "Innehållsfunktion har inte konfigurerats. Använd fliken Konfiguration."
+  },
+  "initiatives": {
+    "header": "Initiativ",
+    "list": "Initiativlista",
+    "config": "Konfiguration",
+    "notConfigured": "Initiativfunktion har inte konfigurerats. Använd fliken Konfiguration."
+  },
+  "events": {
+    "header": "Evenemang",
+    "list": "Evenemangslista",
+    "config": "Konfiguration",
+    "notConfigured": "Evenemangsfunktion har inte konfigurerats. Använd fliken Konfiguration."
+  },
+  "pages": {
+    "header": "Sidor",
+    "list": "Sidlista",
+    "config": "Konfiguration",
+    "notConfigured": "Sidfunktion har inte konfigurerats. Använd fliken Konfiguration."
+  }
+}

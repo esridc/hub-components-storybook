@@ -1,0 +1,16 @@
+{
+  "all": "Semua",
+  "source": "Sumber",
+  "targetEntity": {
+    "item": "Item",
+    "group": "Grup",
+    "user": "Pengguna",
+    "portalUser": "Pengguna portal",
+    "communityUser": "Pengguna komunitas",
+    "groupMember": "Anggota grup",
+    "event": "Peristiwa",
+    "channel": "Saluran",
+    "discussionPost": "Postingan",
+    "eventAttendee": "Pendaftar acara"
+  }
+}

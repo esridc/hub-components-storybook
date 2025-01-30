@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Rezultāti nav atrasti."
+    },
+    "error": {
+      "message": "Diemžēl meklēšanas laikā radās kļūda."
+    }
+  },
+  "access": "Piekļuve",
+  "actionsHeader": "Darbības",
+  "caption": "Hub entītijas tabula",
+  "family": "Saime",
+  "type": "Veids",
+  "tags": "Atslēgvārdi",
+  "owner": "Īpašnieks",
+  "dateCreated": "Izveidots",
+  "dateUpdated": "Mainīts",
+  "description": "Apraksts",
+  "dateAndTime": "Datums un laiks",
+  "location": "Novietojums",
+  "attendanceType": "Apmeklētības veids",
+  "inPerson": "Klātiene",
+  "online": "Tiešsaiste",
+  "hybrid": "Kombinēta",
+  "categories": "Kategorijas",
+  "content": "Saturs",
+  "name": "Nosaukums",
+  "start": "Sākums",
+  "end": "Beigas",
+  "sharedUpdate": "Koplietots atjauninājums",
+  "managers": "Pārvaldnieki",
+  "username": "Lietotājvārds",
+  "no": "Nē",
+  "yes": "Jā",
+  "title": "Nosaukums",
+  "thumbnail": "Sīktēls",
+  "types": {
+    "app": "Lietotne",
+    "content": "Saturs",
+    "dataset": "Datu kopa",
+    "discussion": "Diskusiju panelis",
+    "document": "Dokuments",
+    "event": "Pasākums",
+    "feedback": "Atsauksmes",
+    "initiative": "Iniciatīva",
+    "image": "Attēls",
+    "map": "Karte",
+    "other": "Cits",
+    "people": "Sabiedrība",
+    "site": "Vietne",
+    "team": "Grupa",
+    "template": "Veidne",
+    "project": "Projekts"
+  }
+}

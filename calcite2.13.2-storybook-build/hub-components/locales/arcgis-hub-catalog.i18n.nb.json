@@ -1,0 +1,16 @@
+{
+  "all": "Alle",
+  "source": "Kilde",
+  "targetEntity": {
+    "item": "Elementer",
+    "group": "Grupper",
+    "user": "Brukere",
+    "portalUser": "Portalbrukere",
+    "communityUser": "Felleskapsbrukere",
+    "groupMember": "Gruppemedlemmer",
+    "event": "Arrangementer",
+    "channel": "Kanaler",
+    "discussionPost": "Innlegg",
+    "eventAttendee": "Arrangementregistranter"
+  }
+}

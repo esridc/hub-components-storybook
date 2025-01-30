@@ -1,0 +1,43 @@
+{
+  "header": "مناقشات",
+  "myContent": "أحداثي",
+  "editableContent": "محتوى قابل للتحرير",
+  "addContentButtonText": "إنشاء حدث",
+  "type": "النوع",
+  "sharedUpdate": "مجموعة التحديث المشتركة",
+  "viewOnly": "عرض المجموعة فقط",
+  "owner": "المالك",
+  "updated": "تم التحديث",
+  "tags": "العلامات",
+  "dateCreated": "تم الإنشاء",
+  "dateUpdated": "تعديل",
+  "actionLinks": {
+    "view": "عرض",
+    "edit": "تحرير",
+    "ariaEdit": "تحرير: {title}",
+    "ariaView": "عرض: {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "الأحداث",
+      "myContent": "الأحداث التي أملكها",
+      "editableContent": "الأحداث التي يمكنني تعديلها",
+      "all": "جميع الأحداث"
+    },
+    "access": {
+      "label": "مِن"
+    },
+    "type": {
+      "label": "أنواع"
+    },
+    "tags": {
+      "label": "العلامات"
+    },
+    "categories": {
+      "label": "الفئات"
+    },
+    "modified": {
+      "label": "تعديل"
+    }
+  }
+}

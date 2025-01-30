@@ -1,0 +1,35 @@
+{
+  "success": "Edições salvas com sucesso",
+  "error": "Erro ao salvar edições",
+  "formAlert": "Alerta de formulário",
+  "projects": {
+    "header": "Projetos",
+    "list": "Lista de projetos",
+    "config": "Configuração",
+    "notConfigured": "A capacidade de projetos não está configurada. Use a guia Configuração."
+  },
+  "content": {
+    "header": "Conteúdo",
+    "list": "Lista de conteúdo",
+    "config": "Configuração",
+    "notConfigured": "A capacidade de conteúdo não está configurada. Use a guia Configuração."
+  },
+  "initiatives": {
+    "header": "Iniciativas",
+    "list": "Lista de iniciativas",
+    "config": "Configuração",
+    "notConfigured": "A capacidade de iniciativas não está configurada. Use a guia Configuração."
+  },
+  "events": {
+    "header": "Eventos",
+    "list": "Lista de eventos",
+    "config": "Configuração",
+    "notConfigured": "A capacidade de eventos não está configurada. Use a guia Configuração."
+  },
+  "pages": {
+    "header": "Páginas",
+    "list": "Lista de páginas",
+    "config": "Configuração",
+    "notConfigured": "A capacidade de páginas não está configurada. Use a guia Configuração."
+  }
+}

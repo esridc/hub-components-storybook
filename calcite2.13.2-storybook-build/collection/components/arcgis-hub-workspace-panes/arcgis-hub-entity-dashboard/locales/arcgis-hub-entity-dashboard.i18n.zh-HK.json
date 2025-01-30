@@ -1,0 +1,20 @@
+{
+  "dashboard": "儀表板",
+  "activityLogSection": {
+    "title": "活動記錄",
+    "table": {
+      "downloadAction": "下載",
+      "downloadAllAction": "全部下載",
+      "downloadActionTooltip": "下載選擇的活動",
+      "caption": "最近錯誤表",
+      "columnHeaders": {
+        "datetime": "日期",
+        "layer": "圖層",
+        "message": "訊息"
+      },
+      "noRecentErrors": "無最近錯誤",
+      "expandText": "檢視更多",
+      "collapseText": "檢視更少"
+    }
+  }
+}

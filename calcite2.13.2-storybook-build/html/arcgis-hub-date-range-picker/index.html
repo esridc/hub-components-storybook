@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-date-range-picker</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet" href="../calcite-web.min.css">
+</head>
+
+<body>
+  <div class="grid-container padding-leader-2">
+    <div class="column-20 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-hub-date-range-picker</h2>
+    </div>
+
+    <div class="column-20 header">
+      <div class="column-4">
+        <h3>no args</h3>
+        <p>Defaults to current date</p>
+        <arcgis-hub-date-range-picker id="arcgis-hub-date-range-picker-no-args" />
+      </div>
+
+      <div class="column-12">
+        <h3>Pre-defined Range</h3>
+        <p>"today","yesterday","last7Days","last30Days","thisMonth","lastMonth", "pastYear","custom"</p>
+        <p>When "custom" you get the two pickers</p>
+        <arcgis-hub-date-range-picker value="last30Days" id="arcgis-hub-date-range-picker-pre-defined-value"/>
+      </div>
+    </div>
+
+    <div class="column-20 padding-leader-4 header">
+      <div class="column-8">
+        <h3>Custom, no dates passed in</h3>
+        <arcgis-hub-date-range-picker value="custom" id="arcgis-hub-date-range-picker-custom-empty" />
+      </div>
+
+      <div class="column-8">
+        <h3>Custom, Array of Dates</h3>
+        <arcgis-hub-date-range-picker id="arcgis-hub-date-range-picker-custom-value"/>
+      </div>
+    </div>
+
+    <div class="column-20 padding-leader-4 header">
+      <div class="column-8">
+        <h3>Custom with "min"/"max"</h3>
+        <arcgis-hub-date-range-picker
+          id="arcgis-hub-date-range-picker-custom-min-max"
+          min="2022-01-01T06:00:00.000Z"
+          max="2023-01-01T06:00:00.000Z"/>
+      </div>
+      <div class="column-8">
+        <h3>Custom vertical with "min"/"max"</h3>
+        <arcgis-hub-date-range-picker
+          id="arcgis-hub-date-range-picker-custom-min-max-vertical"
+          layout="vertical"
+          min="2022-01-01T06:00:00.000Z"
+          max="2023-01-01T06:00:00.000Z"/>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    const customDateRange = [
+      new Date(new Date().setDate(new Date().getDate() - 30)).toISOString(),
+      new Date().toISOString()
+    ];
+    setProp('arcgis-hub-date-range-picker-custom-value', 'value', customDateRange);
+    setProp('arcgis-hub-date-range-picker-custom-min-max', 'value', customDateRange);
+    setProp('arcgis-hub-date-range-picker-custom-min-max-vertical', 'value', customDateRange);
+
+    function setProp(id, key, value) {
+      const el = document.querySelector(`#${id}`);
+      el[key] = value;
+    }
+
+    document.querySelector('arcgis-hub-date-range-picker').addEventListener('hubTelemetry', (e) => {
+      console.log('hubTelemetry', e.detail);
+    });
+  </script>
+</body>
+
+</html>

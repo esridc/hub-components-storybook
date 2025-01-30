@@ -1,0 +1,19 @@
+{
+  "facets": {
+    "location": {
+      "label": "位置",
+      "tooltip": "应用地图范围作为位置过滤器"
+    },
+    "status": "状态",
+    "tags": "标签",
+    "categories": "类别",
+    "dateUpdated": "更新日期"
+  },
+  "status": {
+    "label": "工程状态",
+    "notStarted": "未启动",
+    "inProgress": "正在进行中",
+    "onHold": "暂停",
+    "complete": "完成"
+  }
+}

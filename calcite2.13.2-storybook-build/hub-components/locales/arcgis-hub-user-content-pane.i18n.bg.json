@@ -1,0 +1,43 @@
+{
+  "content": "Съдържание",
+  "myContent": "Моето съдържание",
+  "editableContent": "Редактируемо съдържание",
+  "addContentButtonText": "Създаване на нова",
+  "type": "Тип",
+  "sharedUpdate": "Споделена група за актуализация",
+  "viewOnly": "Преглед само на група",
+  "owner": "Собственик",
+  "updated": "Актуализирано",
+  "tags": "Тагове",
+  "dateCreated": "Създадено",
+  "dateUpdated": "Променени",
+  "actionLinks": {
+    "view": "Изглед",
+    "edit": "Редактиране",
+    "ariaEdit": "Редактиране на {title}",
+    "ariaView": "Изглед {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Съдържание",
+      "myContent": "Съдържание, което притежавам",
+      "editableContent": "Съдържание, което мога да обработвам",
+      "all": "Цялото съдържание"
+    },
+    "access": {
+      "label": "От"
+    },
+    "type": {
+      "label": "Типове"
+    },
+    "tags": {
+      "label": "Тагове"
+    },
+    "categories": {
+      "label": "Категории"
+    },
+    "modified": {
+      "label": "Променени"
+    }
+  }
+}

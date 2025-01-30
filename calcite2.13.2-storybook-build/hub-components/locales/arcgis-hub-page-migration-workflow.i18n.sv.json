@@ -1,0 +1,46 @@
+{
+  "heading": "Sidinformation",
+  "form": {
+    "title": {
+      "label": "Sidnamn",
+      "requiredError": "Namn krävs",
+      "entityTitleValidatorError": "Sidnamnet får inte innehålla emojis eller tecknen <, >, ="
+    },
+    "slug": {
+      "label": "Slug",
+      "helperText": "Slug är en URL-vänlig version av sidnamnet. Den skapas automatiskt baserat på sidnamnet, men du kan anpassa den.",
+      "patternError": "Fel: Slug måste vara små alfanumeriska tecken avgränsade med bindestreck.",
+      "isUniqueError": "Denna slug används redan. Välj en annan.",
+      "requiredError": "Slug krävs"
+    }
+  },
+  "controls": {
+    "back": "Tillbaka",
+    "cancel": "Avbryt",
+    "close": "Klart",
+    "migrate": "Migrera sida",
+    "next": "Nästa"
+  },
+  "selection": {
+    "unlimited": "{count} har valts",
+    "limited": "{count} / {limit} valt"
+  },
+  "steps": {
+    "specifyInfo": "Lägg till grundläggande information",
+    "selectGroups": "Välj grupp",
+    "confirmation": "Bekräftelse"
+  },
+  "working": {
+    "heading": "Migrerar sida.",
+    "loadingLabel": "Migrerar sida"
+  },
+  "success": {
+    "heading": "Sidan har migrerats",
+    "message": "Sidan har migrerats."
+  },
+  "failure": {
+    "heading": "Sidan har inte migrerats",
+    "message": "Det uppstod ett fel när sidan migrerades, försök igen.",
+    "action": "Försök igen"
+  }
+}

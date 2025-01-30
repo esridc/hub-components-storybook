@@ -1,0 +1,72 @@
+{
+  "addContent": "Pievienot saturu",
+  "addContentType": {
+    "event": "Izveidot pasākumu",
+    "discussion": "Izveidot diskusiju",
+    "group": "Izveidot grupu",
+    "initiative": "Izveidot iniciatīvu",
+    "project": "Izveidot projektu",
+    "page": "Izveidot lapu",
+    "site:": "Izveidot vietni"
+  },
+  "tooltip": {
+    "label": "Atspējots",
+    "noCatalog": "Pievienojiet katalogam grupas, lai pievienotu saturu.",
+    "noPermission": "Jums nav atļaujas pievienot saturu katalogam.",
+    "no-permission": "Jums nav atļaujas pievienot saturu katalogam.",
+    "not-in-groups": "Jūs neesat dalībnieks nevienā grupā, kas definē šo katalogu.",
+    "too-many-groups": "Jums ir maksimālais grupu skaits, un jūs nevarat izveidot vēl citas grupas."
+  },
+  "existing": {
+    "description": "Pievienojiet saturu, kas jau atrodas {onlineOrEnterprise}",
+    "modalTitle": "Atlasiet esošu saturu",
+    "title": "Atlasiet esošu saturu"
+  },
+  "create": {
+    "app": {
+      "description": "Veidojiet pieredzi, izstāstiet stāstu vai vizualizējiet datus",
+      "modalTitle": "Izveidot lietotni",
+      "title": "Lietotne"
+    },
+    "event": {
+      "description": "Rīkojiet organizētas aktivitātes, klātienē vai virtuāli",
+      "modalTitle": "Izveidot pasākumu",
+      "title": "Pasākums"
+    },
+    "content": {
+      "description": "Pievienojiet datus, dokumentus, attēlus un ārējās saistes uz jūsu vietni",
+      "modalTitle": "Veidot saturu",
+      "title": "Saturs"
+    },
+    "discussion": {
+      "description": "Apkopojiet idejas un atsauksmes",
+      "modalTitle": "Izveidot diskusiju paneli",
+      "title": "Diskusiju panelis"
+    },
+    "group": {
+      "description": "Iesaistiet cilvēkus satura kopīgošanai un diskusijām",
+      "modalTitle": "Izveidot grupu",
+      "title": "Grupa"
+    },
+    "initiative": {
+      "description": "Izceliet stratēģiskos centienus ar noteiktiem mērķiem, kas organizē projektus",
+      "modalTitle": "Izveidot iniciatīvu",
+      "title": "Iniciatīva"
+    },
+    "page": {
+      "description": "Sniedziet informāciju strukturētā izkārtojumā",
+      "modalTitle": "Izveidot lapu",
+      "title": "Lapa"
+    },
+    "project": {
+      "description": "Parādiet darbu ar skaidriem mērķiem un termiņiem",
+      "modalTitle": "Izveidot projektu",
+      "title": "Projekts"
+    },
+    "site": {
+      "description": "Izveidojiet zīmola tīmekļa vietni, lai veidotu iesaisti ar savu kopienu",
+      "modalTitle": "Izveidot vietni",
+      "title": "Vietne"
+    }
+  }
+}

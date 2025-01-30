@@ -1,0 +1,13 @@
+{
+  "selectItem": "Vybrat obsah",
+  "selectGroup": "Vybrat skupinu",
+  "selectEvent": "Vybrat událost",
+  "remove": "odebrat",
+  "launch": "Otevřít",
+  "updatedDate": "Aktualizováno {updatedDate}",
+  "memberCount": {
+    "noMember": "Žádní členové",
+    "oneMember": "1 člen",
+    "members": "{count} členů"
+  }
+}

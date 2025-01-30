@@ -1,0 +1,35 @@
+{
+  "success": "Modifications enregistrées",
+  "error": "Erreur lors de l’enregistrement des modifications",
+  "formAlert": "Alerte de formulaire",
+  "projects": {
+    "header": "Projets",
+    "list": "Liste des projets",
+    "config": "Configuration",
+    "notConfigured": "La fonctionnalité Projets n’est pas configurée. Utilisez l’onglet Configuration."
+  },
+  "content": {
+    "header": "Contenu",
+    "list": "Liste des contenus",
+    "config": "Configuration",
+    "notConfigured": "La fonctionnalité Contenu n’est pas configurée. Utilisez l’onglet Configuration."
+  },
+  "initiatives": {
+    "header": "Initiatives",
+    "list": "Liste des initiatives",
+    "config": "Configuration",
+    "notConfigured": "La fonctionnalité Initiatives n’est pas configurée. Utilisez l’onglet Configuration."
+  },
+  "events": {
+    "header": "Événements",
+    "list": "Liste des événements",
+    "config": "Configuration",
+    "notConfigured": "La fonctionnalité Événements n’est pas configurée. Utilisez l’onglet Configuration."
+  },
+  "pages": {
+    "header": "Pages",
+    "list": "Liste des pages",
+    "config": "Configuration",
+    "notConfigured": "La fonctionnalité Pages n’est pas configurée. Utilisez l’onglet Configuration."
+  }
+}

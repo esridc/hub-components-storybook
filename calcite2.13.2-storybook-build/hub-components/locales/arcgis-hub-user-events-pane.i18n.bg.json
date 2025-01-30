@@ -1,0 +1,29 @@
+{
+  "header": "Събития",
+  "myContent": "Моите събития",
+  "editableContent": "Редактируемо съдържание",
+  "addEventButtonText": "Създаване на събитие",
+  "type": "Тип",
+  "sharedUpdate": "Споделена група за актуализация",
+  "viewOnly": "Преглед само на група",
+  "owner": "Създадено от",
+  "starts": "Включен",
+  "from": "От",
+  "until": "До",
+  "updated": "Актуализирано",
+  "tags": "Тагове",
+  "dateCreated": "Създадено",
+  "dateUpdated": "Променени",
+  "actionLinks": {
+    "view": "Изглед",
+    "edit": "Редактиране",
+    "ariaEdit": "Редактиране: {title}",
+    "ariaView": "Изглед: {title}"
+  },
+  "access": {
+    "label": "Достъп",
+    "PRIVATE": "Частни",
+    "ORG": "Организация",
+    "PUBLIC": "Публични"
+  }
+}

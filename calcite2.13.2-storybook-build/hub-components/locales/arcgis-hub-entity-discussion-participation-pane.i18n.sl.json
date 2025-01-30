@@ -1,0 +1,82 @@
+{
+  "title": "Udeležba",
+  "subtitle": "Nastavite vidnost foruma za razprave (kdo si ga lahko ogleda), pomaknite se navzdol, da nastavite, kdo lahko ureja informacije o forumu, in nato nastavite udeležbo in moderiranje kanalov.",
+  "channelTitle": "Kanal za sodelovanje je nastavljen",
+  "channelDescription": "Ta kanal upravlja, kdo lahko dodaja, si ogleda in moderira objave v tem forumu za razprave.",
+  "addChannelsTitle": "Nastavi kanal",
+  "addChannelsDescription": "Kanali upravljajo, kdo lahko dodaja objave v forumu. Odprti so lahko za skupine, organizacijo ali javnost in jih je mogoče uporabiti za številne razprave. Kanali upravljajo tudi, kdo je lahko moderator. Nastavite blokirane besede za samodejno moderiranje znotraj kanala.",
+  "privateChannelTitle": "Zasebni kanal je nastavljen",
+  "privateChannelDescription": "Zasebnega kanala, ki je dodeljen v ta forum za razprave, si ne morete ogledati. Kanal lahko odstranite in izberete obstoječi kanal ali pa ustvarite nov kanal.",
+  "removeChannelConfirmationMessage": "V tem forumu za razprave objave več ne bodo prikazane. Če odstranite ta kanal, lahko dodate drug kanal.",
+  "headingChannelEdit": "Urejate kanal",
+  "headingChannelView": "Ogledujete si kanal",
+  "headingChannelCreate": "Ustvarjate kanal",
+  "buttons": {
+    "browse": "Prebrskaj kanale",
+    "new": "Nov kanal",
+    "removeChannel": "Odstrani kanal",
+    "cancel": "Prekliči"
+  },
+  "alerts": {
+    "label": "Opozorilo obrazca",
+    "set": {
+      "title": "Uspešno Kanal je nastavljen."
+    },
+    "removed": {
+      "title": "Kanal je odstranjen",
+      "message": "Izberite ali ustvarite kanal za udeležbo."
+    },
+    "error": {
+      "title": "Ni uspelo. Kanal ni bil nastavljen."
+    }
+  },
+  "galleryPickerTitle": "Izberi kanal",
+  "channelsLabel": "Kanali",
+  "accessLabel": "Dostop",
+  "optionPublicLabel": "Javno",
+  "optionOrganizationLabel": "Organizacija",
+  "optionPrivateLabel": "Zasebno",
+  "viewChannel": "Ogled kanala",
+  "editChannel": "Uredi kanal",
+  "save": "Shrani",
+  "removeChannel": "Odstrani kanal",
+  "groupPicker": {
+    "facet": {
+      "label": "Od",
+      "myGroups": "Moje skupine",
+      "myOrganization": "Moja organizacija",
+      "myCommunity": "Moja zainteresirana javnost"
+    }
+  },
+  "editGroupButtonText": "Dodaj skupine za urejanje",
+  "viewGroupButtonText": "Dodaj skupine za ogled",
+  "viewGroups": {
+    "header": "Kdo si lahko ogleda",
+    "description": "Osebe, ki si lahko ogledujejo forum (vendar ne objavljajo na njem); objavljanje je določeno po kanalih spodaj."
+  },
+  "editGroups": {
+    "header": "Kdo lahko ureja",
+    "description": "Člani skupine lahko urejajo informacije o forumu v delovnem prostoru."
+  },
+  "aboutChannelsNotice": {
+    "title": "Predstavljamo kanale",
+    "message": "Kanali niso skupine, a jih lahko vsebujejo. Določajo, kdo lahko objavlja in moderira.",
+    "action": "Več o kanalih"
+  },
+  "nonPrivateChannelNotice": {
+    "title": "Ni mogoče urejati kanala",
+    "message": "Kanal lahko urejajo samo njegovi moderatorji. Če želite dodati, se po potrebi obrnite na lastnika kanala ali administratorja organizacije. Ta kanal lahko tudi odstranite, dodate obstoječega (katerega moderator ste) ali ustvarite novega."
+  },
+  "privateChannelNotice": {
+    "title": "Ni mogoče urejati kanala",
+    "message": "Kanal lahko urejajo samo njegovi moderatorji. Če želite dodati, se po potrebi obrnite na lastnika kanala. Ta kanal lahko tudi odstranite, dodate obstoječega (katerega moderator ste) ali ustvarite novega."
+  },
+  "participate": {
+    "header": "Kdo se lahko udeleži in kdo lahko moderira"
+  },
+  "org": "Organizacija",
+  "private": "Zasebno",
+  "public": "Javno",
+  "unnamed": "Neimenovani kanal",
+  "groupNotFound": "Skupine ni mogoče najti"
+}

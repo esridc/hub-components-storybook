@@ -1,0 +1,57 @@
+{
+  "new": "Nouveau",
+  "project": {
+    "label": "Projet",
+    "description": "Exposez des travaux aux objectifs clairs et au calendrier précis",
+    "createLabel": "Créer un projet",
+    "newLabel": "Nouveau projet"
+  },
+  "initiative": {
+    "label": "Initiative",
+    "description": "Les initiatives coordonnent les efforts et résument les progrès vers la réalisation d’un objectif",
+    "createLabel": "Créer une initiative",
+    "newLabel": "Nouvelle initiative"
+  },
+  "discussion": {
+    "label": "Forum de discussion",
+    "description": "Créez un nouveau forum de discussion en saisissant un titre qui indique le sujet.",
+    "createLabel": "Créer un forum de discussion",
+    "newLabel": "Nouveau forum de discussion"
+  },
+  "site": {
+    "label": "Site",
+    "description": "Créez une page Web pour organiser et partager des informations",
+    "createLabel": "Créer un site",
+    "newLabel": "Nouveau site"
+  },
+  "event": {
+    "label": "Événement",
+    "description": "Animez une activité organisée, en personne ou virtuellement",
+    "createLabel": "Créer un événement",
+    "newLabel": "Nouvel événement"
+  },
+  "content": {
+    "label": "Contenu",
+    "description": "Ajoutez des données, documents, images et liens externes à votre site",
+    "createLabel": "Créer du contenu",
+    "newLabel": "Nouveau contenu"
+  },
+  "feedback": {
+    "label": "Commentaires",
+    "description": "Recueillez des informations ciblées avec des outils tels que les enquêtes et les sondages",
+    "createLabel": "Créer un commentaire",
+    "newLabel": "Nouveau commentaire"
+  },
+  "app": {
+    "label": "Application",
+    "description": "Concevez une expérience, élaborez un récit ou visualisez vos données",
+    "createLabel": "Créer une application",
+    "newLabel": "Nouvelle application"
+  },
+  "group": {
+    "label": "Groupe",
+    "description": "Configurez un groupe pour collaborer sur un contenu ciblé",
+    "createLabel": "Créer un groupe",
+    "newLabel": "Nouveau groupe"
+  }
+}

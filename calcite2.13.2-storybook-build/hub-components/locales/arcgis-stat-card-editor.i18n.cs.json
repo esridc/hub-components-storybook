@@ -1,0 +1,165 @@
+{
+  "advancedConfig": {
+    "label": "Pokročilá konfigurace",
+    "serverTimeout": {
+      "label": "Časový limit serveru (sekundy)",
+      "helperText": "Užitečné pro větší služby, kterým může trvat delší dobu, než odpoví.",
+      "errors": {
+        "type": "Zadejte prosím konfiguraci časového limitu serveru.",
+        "minimum": "Hodnota časového limitu serveru musí být alespoň 5.",
+        "maximum": "Hodnota časového limitu serveru musí být nejvýše 95."
+      }
+    }
+  },
+  "appearance": {
+    "corners": {
+      "label": "Rohy",
+      "enum": {
+        "round": {
+          "label": "Zaoblené"
+        },
+        "square": {
+          "label": "Pravoúhlé"
+        }
+      }
+    },
+    "dropShadow": {
+      "label": "Stín",
+      "enum": {
+        "heavy": {
+          "label": "Silný"
+        },
+        "low": {
+          "label": "Slabý"
+        },
+        "medium": {
+          "label": "Střední"
+        },
+        "none": {
+          "label": "Nespuštěno"
+        }
+      }
+    },
+    "layout": {
+      "label": "Styl karty",
+      "enum": {
+        "informational": {
+          "label": "Informační"
+        },
+        "simple": {
+          "label": "Jednoduchý"
+        }
+      }
+    },
+    "popoverText": {
+      "label": "Obsah modálního okna"
+    },
+    "publisherText": {
+      "label": "Vydavatel zdroje"
+    },
+    "styleSpecificSettings": {
+      "label": "Nastavení stylu",
+      "helperInfoText": "Výběrem tlačítka informací otevřete modální okno, které obsahuje další informace.",
+      "helperVizText": "Tato jednoduchá karta podporuje přidání ikony jako vizuálního prvku, který může odrážet změny z datech."
+    },
+    "sectionTitle": "Vzhled",
+    "textAlign": "Zarovnání",
+    "visualInterest": {
+      "label": "Vizuální prvek",
+      "enum": {
+        "icon": {
+          "label": "Ikona"
+        },
+        "none": {
+          "label": "Žádný"
+        }
+      }
+    },
+    "icon": {
+      "label": "Ikona",
+      "caretUp": {
+        "label": "Zvýšit"
+      },
+      "caretDown": {
+        "label": "Snížit"
+      },
+      "caretDouble": {
+        "label": "Žádná změna"
+      }
+    },
+    "valueColor": "Barva (statistika)"
+  },
+  "details": {
+    "allowDynamicLink": "Zobrazit odkaz na zdroj",
+    "link": {
+      "sectionTitle": "Odkaz",
+      "sourceLink": "Adresa URL odkazu",
+      "sourceTitle": "Text odkazu"
+    },
+    "sectionTitle": "Podrobnosti",
+    "subtitle": "Podnadpis",
+    "title": "Nadpis",
+    "trailingText": {
+      "label": "Koncový text",
+      "helperText": "Zadejte jakýkoli další kontext nebo vysvětlení (zobrazí se pod hodnotou metriky)."
+    }
+  },
+  "errors": {
+    "sourceLink": {
+      "required": "Pro zobrazení zdroje je nutný odkaz.",
+      "formatError": "Formátování adresy URL je nesprávné"
+    }
+  },
+  "formatting": {
+    "sectionTitle": "Formátování",
+    "unit": {
+      "label": "Jednotky zobrazení",
+      "helperText": "Zadejte měrnou jednotku pro vaši hodnotu."
+    },
+    "unitPosition": {
+      "label": "Umístění",
+      "helperText": "Vyberte, kde se jednotka měření (např. 'km', 'lbs') zobrazí ve vztahu k metrické hodnotě.",
+      "enum": {
+        "after": {
+          "label": "Po"
+        },
+        "before": {
+          "label": "Před"
+        },
+        "below": {
+          "label": "Pod"
+        }
+      }
+    }
+  },
+  "sharing": {
+    "sectionTitle": "Sdílení",
+    "showShareIcon": "Povolit sdílení",
+    "showShareIconHelperText": "Umožnit uživatelům zkopírovat přímý odkaz na tuto kartu na této stránce.",
+    "shareableByValue": "Povolit vložený obsah",
+    "shareableOnHover": {
+      "label": "Zobrazit při najetí myši",
+      "helperText": {
+        "label": "Tlačítko Sdílet se zobrazí pouze při najetí myší. Pokud je tlačítko vypnuté, je vždy viditelné."
+      }
+    }
+  },
+  "statistic": {
+    "dataSource": "Datový zdroj",
+    "displayValue": "Zobrazit hodnotu",
+    "sectionTitle": "Hodnota",
+    "type": {
+      "label": "Typ",
+      "enum": {
+        "dynamic": {
+          "label": "Dynamický",
+          "description": "Vyberte existující datovou sadu (feature službu), kterou chcete sumarizovat."
+        },
+        "static": {
+          "label": "Statický",
+          "description": "Ručně zadejte hodnotu, kterou chcete v rozvržení zvýraznit."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "managePrivacyButton": "Quản lý Quyền riêng tư",
+  "consentNotice": {
+    "allTracking": "Trang web này được thiết lập bằng ArcGIS Hub và sử dụng theo dõi ẩn danh để cải thiện hiệu suất và phân tích mức độ sử dụng trang web theo Tuyên bố về Quyền riêng tư của Esri. Các hệ thống theo dõi bổ sung của bên thứ ba có thể giám sát việc sử dụng trang web của bạn.",
+    "anonymousTracking": "Trang web này được thiết lập bằng ArcGIS Hub và sử dụng theo dõi ẩn danh để cải thiện hiệu suất và phân tích mức độ sử dụng trang web theo Tuyên bố về Quyền riêng tư của Esri.",
+    "noTracking": "Trang web này được thiết lập bằng ArcGIS Hub và chỉ sử dụng các cookie cần thiết để ứng dụng hoạt động và không thể tắt trong hệ thống của chúng tôi.",
+    "thirdPartyTracking": "Trang web này được thiết lập bằng ArcGIS Hub và chỉ sử dụng các cookie cần thiết để ứng dụng hoạt động và không thể tắt trong hệ thống của chúng tôi. Các hệ thống theo dõi bổ sung của bên thứ ba có thể giám sát việc sử dụng trang web của bạn."
+  },
+  "consent": {
+    "esriPrivacyLink": "Trung tâm quyền riêng tư của Esri",
+    "customerConsentLink": "Thông tin khác"
+  },
+  "eueiNotice": {
+    "title": "{orgName} thành viên sẽ không được theo dõi",
+    "message": "Chương trình Cải thiện Trải nghiệm Người dùng Esri (EUEI) đã bị vô hiệu hóa đối với {orgName}. Hoạt động liên quan đến lượt truy cập của bạn sẽ không được theo dõi; bạn không thể chấp nhận gửi số liệu thống kê mức sử dụng ẩn danh hoặc công cụ theo dõi của bên thứ ba.",
+    "link": "Tìm hiểu về chương trình (EUEI)."
+  },
+  "notice": {
+    "heading": "Cài đặt quyền riêng tư",
+    "acceptAllButton": "Chấp nhận tất cả cookie",
+    "acceptNecessaryButton": "Chỉ chấp nhận cookie thiết yếu",
+    "confirmButton": "Xác nhận",
+    "reviewSettingsButton": "Cài đặt đánh giá"
+  },
+  "settings": {
+    "heading": "Cài đặt quyền riêng tư",
+    "confirmButton": "Xác nhận"
+  },
+  "anonymous": {
+    "heading": "Thống kê mức sử dụng ẩn danh",
+    "helpText": "Những cookie này cho phép chúng tôi giám sát hiệu suất ứng dụng, chẳng hạn như nguồn lưu lượng truy cập, số lượt xem trang và tương tác. Những cookie này giúp chúng tôi biết nội dung nào có hiệu quả và cách khách truy cập di chuyển trong ứng dụng. Tất cả thông tin thu thập được đều ẩn danh (không lưu thông tin nhận dạng cá nhân). Nếu bạn không cho phép những cookie này, chúng tôi sẽ không biết rằng bạn đã truy cập hoặc tương tác với ứng dụng của chúng tôi."
+  },
+  "necessary": {
+    "heading": "Cookies thiết yếu",
+    "helpText": "Đây là cookie cần thiết để ứng dụng hoạt động và không thể tắt trong hệ thống của chúng tôi. Cookie được thiết lập để phản hồi các thao tác bạn thực hiện liên quan đến yêu cầu dịch vụ, chẳng hạn như đăng nhập vào tài khoản. Bạn có thể thiết lập để trình duyệt chặn hoặc cảnh báo về những cookie này nhưng một số phần của ứng dụng có thể sẽ bị ảnh hưởng. Tất cả thông tin thu thập được đều ẩn danh (không lưu thông tin nhận dạng cá nhân)."
+  },
+  "thirdParty": {
+    "heading": "Hoạt động theo dõi của bên thứ ba",
+    "helpText": "Những cookie này có thể được thiết lập bởi nhà cung cấp dịch vụ theo dõi bên thứ ba được cấu hình trên trang web này. Chúng có thể thu thập thông tin nhắm mục tiêu hoặc tiếp thị về bạn khi bạn truy cập. Thông tin được thu thập có thể được sử dụng cho mục đích bên ngoài ứng dụng này. Nếu bạn không cho phép những cookie này, nhà cung cấp dịch vụ theo dõi bên thứ ba đã cấu hình sẽ không nhận được bất kỳ thông tin nào về lượt truy cập của bạn."
+  }
+}

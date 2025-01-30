@@ -1,0 +1,91 @@
+{
+  "moreResults": "További eredmények",
+  "search": "Keresés",
+  "filter": "Szűrők",
+  "viewResults": "Eredmények megtekintése ({numResults})",
+  "resultsCount": "1 – {pageTotal} / {searchTotal}",
+  "backToTop": "Vissza az elejére",
+  "facets": {
+    "access": {
+      "label": "Megosztás",
+      "private": "Saját magam",
+      "shared": "Tulajdonos és csoportok",
+      "org": "Szervezet",
+      "public": "Nyilvános"
+    },
+    "license": {
+      "label": "Licenc",
+      "tooltip": "Csak nyilvános tartalmakra",
+      "custom": "Egyéni",
+      "none": "Egyik sem"
+    },
+    "type": {
+      "label": "Típus"
+    },
+    "tags": {
+      "label": "Címkék"
+    },
+    "dateUpdated": {
+      "label": "Frissítés dátuma"
+    },
+    "source": {
+      "label": "Forrás",
+      "tooltip": "Nyilvános tartalom különböző szervezetektől"
+    },
+    "categories": {
+      "label": "Kategóriák"
+    },
+    "location": {
+      "label": "Helyszín",
+      "tooltip": "Alkalmazza a térképkiterjedést helyszűrőként"
+    },
+    "event": {
+      "from": {
+        "label": "Tulajdonjog",
+        "myContent": "Én",
+        "myOrganization": "Saját szervezet",
+        "world": "Bárki"
+      },
+      "access": {
+        "label": "Hozzáférés",
+        "private": "Magánjellegű",
+        "org": "Szervezet",
+        "public": "Nyilvános"
+      },
+      "startDate": {
+        "label": "Esemény dátuma"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "Típus",
+        "all": "Összes",
+        "view": "Megtekintés",
+        "edit": "Szerkesztés"
+      },
+      "role": {
+        "label": "Szerepkör",
+        "all": "Összes",
+        "member": "Tag",
+        "manager": "Kezelő",
+        "owner": "Tulajdonos"
+      },
+      "sharing": {
+        "label": "Láthatóság",
+        "private": "Magánjellegű",
+        "public": "Nyilvános"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "Lista megjelenítése",
+    "grid": "Rácsháló megjelenítése",
+    "map": "Térkép megjelenítése",
+    "compact": "Kompakt megjelenítése",
+    "calendar": "Naptár megjelenítése",
+    "table": "Tábla megjelenítése"
+  },
+  "galleryActionsLabel": "További műveletek",
+  "selected": "Kiválasztva: {count}",
+  "popoverActionButtonLabel": "további műveletek"
+}

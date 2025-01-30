@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "Elementų rinkinys",
+    "fgdb": "Failinė geoduomenų bazė",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Shapefile",
+    "sqlite": "SQLite geoduomenų bazė"
+  },
+  "buttonText": {
+    "download": "Atsisiųsti",
+    "pending": "Laukiama",
+    "processing": "Apdorojama",
+    "converting": "Konvertuojama",
+    "completed": "Atsisiuntimas baigtas",
+    "failed": "Atsisiųsti nepavyko"
+  },
+  "errors": {
+    "errorHeading": "Klaida"
+  },
+  "cacheStatusAccordion": {
+    "heading": "Radote tai, ko reikėjo?",
+    "content": "Gali būti prieinama naujesnė versija.",
+    "button": "Prašyti naujo failo"
+  },
+  "generateNewModal": {
+    "heading": "Ar tikrai norite?",
+    "content": "Tai gali šiek tiek užtrukti. Neždarykite šio naršyklės skirtuko, kol atsisiuntimas bus baigtas.",
+    "confirmButton": "Taip",
+    "cancelButton": "Atšaukti"
+  }
+}

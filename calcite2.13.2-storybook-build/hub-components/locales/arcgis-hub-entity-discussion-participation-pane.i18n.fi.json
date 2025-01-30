@@ -1,0 +1,82 @@
+{
+  "title": "Osallistuminen",
+  "subtitle": "Määritä keskustelupalstan näkyvyys (kuka voi nähdä), vieritä alas ja määritä, kuka voi muokata palstan tietoja, ja määritä sitten osallistuminen ja valvonta kanavilla.",
+  "channelTitle": "Osallistumiskanava on määritetty",
+  "channelDescription": "Tällä kanavalla hallitaan sitä, kuka voi lisätä, katsoa ja moderoida tämän keskustelupalstan julkaisuja.",
+  "addChannelsTitle": "Määritä kanava",
+  "addChannelsDescription": "Kanavilla hallitaan sitä, kuka voi lisätä julkaisuja palstalle. Ne voivat olla avoimia ryhmille, organisaatiolle tai yleisölle, ja niitä voidaan käyttää useisiin keskusteluihin. Kanavilla hallitaan myös sitä, kuka voi valvoa. Määritä estetyt sanat kanavan automaattista valvontaa varten.",
+  "privateChannelTitle": "Yksityinen kanava on määritetty",
+  "privateChannelDescription": "Et voi nähdä tälle keskustelupalstalle määritettyä yksityistä kanavaa. Voit poistaa kanavan ja valita aiemmin luodun kanavan tai luoda uuden kanavan.",
+  "removeChannelConfirmationMessage": "Tällä keskustelupalstalla ei enää näytetä julkaisuja. Voit lisätä kanavan, jos tämä kanava poistetaan.",
+  "headingChannelEdit": "Olet muokkaamassa kanavaa",
+  "headingChannelView": "Olet katsomassa kanavaa",
+  "headingChannelCreate": "Olet luomassa kanavaa",
+  "buttons": {
+    "browse": "Selaa kanavia",
+    "new": "Uusi kanava",
+    "removeChannel": "Poista kanava",
+    "cancel": "Peruuta"
+  },
+  "alerts": {
+    "label": "Lomakevaroitus",
+    "set": {
+      "title": "Onnistui. Kanava on määritetty."
+    },
+    "removed": {
+      "title": "Kanava on poistettu",
+      "message": "Valitse tai luo kanava osallistumista varten."
+    },
+    "error": {
+      "title": "Epäonnistui. Kanavaa ei määritetty."
+    }
+  },
+  "galleryPickerTitle": "Valitse kanava",
+  "channelsLabel": "Kanavat",
+  "accessLabel": "Käyttö",
+  "optionPublicLabel": "Julkinen",
+  "optionOrganizationLabel": "Organisaatio",
+  "optionPrivateLabel": "Yksityinen",
+  "viewChannel": "Näytä kanava",
+  "editChannel": "Muokkaa kanavaa",
+  "save": "Tallenna",
+  "removeChannel": "Poista kanava",
+  "groupPicker": {
+    "facet": {
+      "label": "Kohteesta",
+      "myGroups": "Omat ryhmät",
+      "myOrganization": "Oma organisaatio",
+      "myCommunity": "Oma yhteisö"
+    }
+  },
+  "editGroupButtonText": "Lisää muokkausryhmiä",
+  "viewGroupButtonText": "Lisää näyttöryhmiä",
+  "viewGroups": {
+    "header": "Kuka voi nähdä?",
+    "description": "Henkilöt, jotka voivat nähdä palstan (mutta eivät julkaista siellä); julkaisu määritetään alla olevilla kanavilla."
+  },
+  "editGroups": {
+    "header": "Kuka voi muokata?",
+    "description": "Ryhmän jäsenet voivat muokata palstan tietoja työtilassa."
+  },
+  "aboutChannelsNotice": {
+    "title": "Esittelyssä kanavat",
+    "message": "Kanavat eivät ole ryhmiä, mutta ne voivat sisältää niitä. Niillä määritetään, kuka voi julkaista ja valvoa.",
+    "action": "Lisätietoja kanavista"
+  },
+  "nonPrivateChannelNotice": {
+    "title": "Kanavaa ei voi muokata",
+    "message": "Vain tämän kanavan valvojat voivat muokata sitä. Ota tarvittaessa yhteyttä kanavan omistajaan tai organisaation pääkäyttäjään. Voit myös poistaa tämän kanavan, lisätä aiemmin luodun kanavan (jonka valvoja olet) tai luoda uuden kanavan."
+  },
+  "privateChannelNotice": {
+    "title": "Kanavaa ei voi muokata",
+    "message": "Vain tämän kanavan valvojat voivat muokata sitä. Ota tarvittaessa yhteyttä kanavan omistajaan. Voit myös poistaa tämän kanavan, lisätä aiemmin luodun kanavan (jonka valvoja olet) tai luoda uuden kanavan."
+  },
+  "participate": {
+    "header": "Kuka voi osallistua ja kuka valvoa?"
+  },
+  "org": "Organisaatio",
+  "private": "Yksityinen",
+  "public": "Julkinen",
+  "unnamed": "Nimetön kanava",
+  "groupNotFound": "Ryhmää ei löydy"
+}

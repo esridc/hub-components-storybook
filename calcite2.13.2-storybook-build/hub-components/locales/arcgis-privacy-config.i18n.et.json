@@ -1,0 +1,29 @@
+{
+  "additionalInfo": {
+    "label": "Valikulised kuvamise seaded",
+    "helperText": "Lisage oma privaatsuse kirjeldus ja privaatsuspoliitika teave."
+  },
+  "allowPrivacyConfig": {
+    "label": "Kuva privaatsusteatis"
+  },
+  "blocking": {
+    "label": "Teatise tüüp",
+    "optional": {
+      "label": "Nõustumine valikuline",
+      "description": "Vaataja võib kasutada saiti ilma privaatsusseadet valimata; jälgimine algab kohe, kuni vaataja selle tagasi lükkab."
+    },
+    "required": {
+      "label": "Nõuab nõusolekut",
+      "description": "Saidi kasutamiseks peab vaataja nõustuma või keelduma jälgimisest; jälgimine ei hakka toimuma, kui vaataja ei ole sellega nõustunud."
+    }
+  },
+  "consentText": {
+    "label": "Privaatsuse kirjeldus",
+    "helperText": "Kuvatakse saidi vaatajale privaatsusteatises."
+  },
+  "policyURL": {
+    "label": "Poliitika link",
+    "helperText": "Kuvatakse privaatsusteatises lingina \"Lisateave\".",
+    "error": "Peab olema kehtiv URL, et seda saaks kuvada."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "newFilter": "새 필터",
+  "block": {
+    "heading": {
+      "untitled": "새 필터",
+      "default": "필터 {filterNum}: {parameter}",
+      "group": "필터 {filterNum}: 그룹",
+      "type": "필터 {filterNum}: 유형",
+      "occurrence": "필터 {filterNum}: 항목"
+    },
+    "actions": {
+      "delete": "필터 삭제: {label}"
+    }
+  }
+}

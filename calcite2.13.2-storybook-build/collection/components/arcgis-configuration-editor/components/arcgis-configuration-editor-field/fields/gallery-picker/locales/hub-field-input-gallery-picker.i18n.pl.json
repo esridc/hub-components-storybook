@@ -1,0 +1,13 @@
+{
+  "selectItem": "Wybierz zasoby",
+  "selectGroup": "Wybierz grupę",
+  "selectEvent": "Wybierz zdarzenie",
+  "remove": "usuń",
+  "launch": "Otwórz",
+  "updatedDate": "Zaktualizowano: {updatedDate}",
+  "memberCount": {
+    "noMember": "Brak członków",
+    "oneMember": "1 członek",
+    "members": "{count} członków"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "communityOrg": "Organización de comunidad",
+  "editLayout": "Editar diseño",
+  "orgWorkspace": "Abrir espacio de trabajo inicial",
+  "editS123": "Editar en Survey123",
+  "editAdvancedJson": "Editar JSON avanzado",
+  "view": {
+    "project": "Ver proyecto",
+    "site": "Ver sitio",
+    "initiative": "Ver iniciativa",
+    "discussion": "Ver panel",
+    "content": "Ver contenido",
+    "page": "Ver página",
+    "group": "Ver grupo",
+    "initiativeTemplate": "Ver plantilla de iniciativa",
+    "template": "Ver plantilla",
+    "survey": "Ver encuesta",
+    "event": "Ver evento"
+  },
+  "access": {
+    "share": "Compartir",
+    "sharingLevel": "Nivel de uso compartido",
+    "groupSharing": "Uso compartido de grupo",
+    "tooltip": {
+      "public": "Nivel de uso compartido: público",
+      "org": "Nivel de uso compartido: organización",
+      "private": "Nivel de uso compartido: privado",
+      "shared": "Nivel de uso compartido: compartido en privado"
+    },
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "alert": {
+      "success": "Ediciones guardadas correctamente",
+      "error": "Error al guardar ediciones",
+      "label": "Alerta de formulario"
+    }
+  },
+  "popoverActions": {
+    "label": "Más acciones",
+    "openInEnterprise": "Abrir en ArcGIS Enterprise",
+    "openInOnline": "Abrir en ArcGIS Online"
+  },
+  "homeLink": {
+    "text": "Inicio"
+  },
+  "createContent": "Crear"
+}

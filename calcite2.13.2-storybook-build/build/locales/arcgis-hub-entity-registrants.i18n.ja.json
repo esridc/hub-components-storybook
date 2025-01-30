@@ -1,0 +1,46 @@
+{
+  "registrants": "登録者",
+  "invite": "招待",
+  "tabs": {
+    "registrants": "登録者",
+    "settings": "設定"
+  },
+  "emptyNotice": {
+    "title": "登録者なし",
+    "desc": "通常、イベントは参加者がいたほうが楽しいものです。 ユーザーを招待したり、イベントを共有したりして、参加を促しましょう。",
+    "link": "登録者を招待"
+  },
+  "facets": {
+    "role": {
+      "header": "ロール",
+      "owner": "所有者",
+      "organizer": "主催者",
+      "attendee": "登録者"
+    },
+    "status": {
+      "header": "ステータス",
+      "pending": "保留中",
+      "accepted": "承諾",
+      "declined": "拒否",
+      "blocked": "ブロック"
+    },
+    "location": {
+      "header": "位置",
+      "online": "オンライン",
+      "in_person": "対面"
+    },
+    "updatedDate": "更新日"
+  },
+  "delete": {
+    "attendee": "登録者を削除"
+  },
+  "notice": {
+    "label": "フォームの通知"
+  },
+  "success": {
+    "delete": "登録者が {eventName} から正常に削除されました。"
+  },
+  "error": {
+    "delete": "1 人以上の登録者をイベントから削除できませんでした。"
+  }
+}

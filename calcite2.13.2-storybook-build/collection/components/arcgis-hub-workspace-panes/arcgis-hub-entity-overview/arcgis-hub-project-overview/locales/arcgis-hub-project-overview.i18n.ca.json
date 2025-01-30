@@ -1,0 +1,19 @@
+{
+  "overview": "Descripció general",
+  "telemetry": {
+    "pageViews": "Visualitzacions de les pàgines",
+    "last30days": "Darrers 30 dies",
+    "lastUpdated": "Darrera actualització fa {hoursElapsed} hores",
+    "checkTomorrow": "Torneu-ho a comprovar demà"
+  },
+  "learnAbout": "Obteniu informació sobre els projectes del Hub",
+  "status": {
+    "notStarted": "No s'ha iniciat",
+    "inProgress": "En curs",
+    "onHold": "En espera",
+    "complete": "Completat"
+  },
+  "editDetails": "Edita els detalls",
+  "noPurposeSet": "No s'ha definit cap propòsit",
+  "noLocationSet": "No s'ha definit cap ubicació"
+}

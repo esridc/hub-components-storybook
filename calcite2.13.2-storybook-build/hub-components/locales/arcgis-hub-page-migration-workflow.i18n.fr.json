@@ -1,0 +1,46 @@
+{
+  "heading": "Informations sur la page",
+  "form": {
+    "title": {
+      "label": "Nom de la page",
+      "requiredError": "Le nom doit être renseigné",
+      "entityTitleValidatorError": "Le nom de la page ne doit contenir aucun émoji ni aucun des caractères suivants : <, > ou ="
+    },
+    "slug": {
+      "label": "Slug",
+      "helperText": "Le slug est la version compatible avec l’URL du nom de la page. Il est généré automatiquement en fonction du nom de la page, mais vous pouvez le personnaliser.",
+      "patternError": "Erreur : le slug ne doit contenir que des caractères alphanumériques minuscules séparés par des tirets.",
+      "isUniqueError": "Ce slug est déjà utilisé. Choisissez-en un autre.",
+      "requiredError": "Le slug doit être renseigné"
+    }
+  },
+  "controls": {
+    "back": "Retour",
+    "cancel": "Annuler",
+    "close": "Terminé",
+    "migrate": "Migrer la page",
+    "next": "Suivant"
+  },
+  "selection": {
+    "unlimited": "Sélection : {count}",
+    "limited": "Sélection : {count} sur {limit}"
+  },
+  "steps": {
+    "specifyInfo": "Ajouter des informations de base",
+    "selectGroups": "Sélectionner un groupe",
+    "confirmation": "Confirmation"
+  },
+  "working": {
+    "heading": "Migration de la page.",
+    "loadingLabel": "Migration de la page"
+  },
+  "success": {
+    "heading": "Page migrée",
+    "message": "La page a été migrée."
+  },
+  "failure": {
+    "heading": "Page non migrée",
+    "message": "Un problème est survenu lors de la migration de la page. Réessayez.",
+    "action": "Réessayer"
+  }
+}

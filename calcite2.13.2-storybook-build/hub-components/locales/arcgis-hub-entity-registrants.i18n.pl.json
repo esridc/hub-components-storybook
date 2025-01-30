@@ -1,0 +1,46 @@
+{
+  "registrants": "Osoby rejestrujące się",
+  "invite": "Zaproś",
+  "tabs": {
+    "registrants": "Osoby rejestrujące się",
+    "settings": "Ustawienia"
+  },
+  "emptyNotice": {
+    "title": "Brak osób rejestrujących się",
+    "desc": "Wydarzenia z publicznością są zawsze bardziej interesujące. Zaproś osoby lub udostępnij wydarzenie, aby zachęcić do wzięcia w nim udziału.",
+    "link": "Zaproś osoby do rejestracji"
+  },
+  "facets": {
+    "role": {
+      "header": "Rola",
+      "owner": "Właściciel",
+      "organizer": "Organizator",
+      "attendee": "Osoba rejestrująca się"
+    },
+    "status": {
+      "header": "Status",
+      "pending": "Oczekuje",
+      "accepted": "Zaakceptowano",
+      "declined": "Odrzucono",
+      "blocked": "Zablokowano"
+    },
+    "location": {
+      "header": "Lokalizacja",
+      "online": "Online",
+      "in_person": "Osobiście"
+    },
+    "updatedDate": "Zaktualizowana data"
+  },
+  "delete": {
+    "attendee": "Usuń osobę rejestrującą się"
+  },
+  "notice": {
+    "label": "Alert dotyczący formularza"
+  },
+  "success": {
+    "delete": "Pomyślnie usunięto osoby rejestrujące się z wydarzenia {eventName}."
+  },
+  "error": {
+    "delete": "Nie można usunąć z wydarzenia co najmniej jednej rejestrującej się osoby."
+  }
+}

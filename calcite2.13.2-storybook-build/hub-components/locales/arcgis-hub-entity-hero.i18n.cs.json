@@ -1,0 +1,11 @@
+{
+  "actions": {
+    "register": "Registrovat"
+  },
+  "tooltip": {
+    "register": {
+      "isCancelled": "Událost byla zrušena",
+      "eventHasEnded": "Událost byla ukončena"
+    }
+  }
+}

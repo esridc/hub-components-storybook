@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "Uredi grupe",
+        "viewGroups": "Pregledajte grupe"
+      },
+      "facet": {
+        "label": "Od",
+        "myGroups": "Moje grupe",
+        "myOrganization": "Moja organizacija",
+        "myCommunity": "Moja zajednica"
+      }
+    }
+  },
+  "property": {
+    "label": "Parametar",
+    "requiredError": "Parametar je obavezan"
+  },
+  "operator": {
+    "label": "Kriterijum",
+    "requiredError": "Kriterijum je obavezan"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "Tip"
+    },
+    "group": {
+      "default": "Grupe"
+    },
+    "occurrence": {
+      "default": "Pojava"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "Je bilo koji od",
+      "group": "Je deljeno sa bilo kojim od"
+    },
+    "isAll": {
+      "default": "Je sve od",
+      "group": "Je deljeno sa svim od"
+    },
+    "isExactly": {
+      "default": "je tačno",
+      "occurrence": "Je"
+    },
+    "isNot": {
+      "default": "Nije",
+      "type": "Nije nijedan od",
+      "group": "Nije deljeno ni sa jednim od"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "Grupe",
+      "requiredError": "Grupe su obavezne"
+    },
+    "type": {
+      "label": "Tipovi",
+      "requiredError": "Tipovi su obavezni",
+      "app": {
+        "label": "Aplikacije"
+      },
+      "content": {
+        "label": "Sadržaj"
+      },
+      "dataset": {
+        "label": "Skupovi podataka"
+      },
+      "discussion": {
+        "label": "Diskusije"
+      },
+      "document": {
+        "label": "Dokumenti"
+      },
+      "event": {
+        "label": "Događaji"
+      },
+      "feedback": {
+        "label": "Povratne informacije"
+      },
+      "initiative": {
+        "label": "Inicijative"
+      },
+      "map": {
+        "label": "Mape"
+      },
+      "project": {
+        "label": "Projekti"
+      },
+      "site": {
+        "label": "Sajtovi"
+      },
+      "template": {
+        "label": "Šabloni"
+      }
+    },
+    "occurrence": {
+      "label": "Pojava",
+      "requiredError": "Pojava je obavezna",
+      "upcoming": "Dolazeći",
+      "past": "Prošli",
+      "inProgress": "U toku"
+    }
+  }
+}

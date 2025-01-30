@@ -1,0 +1,13 @@
+{
+  "csv": "CSV",
+  "shapefile": "Shapefile",
+  "sqlite": "SQLite 地理数据库",
+  "geoPackage": "GeoPackage",
+  "filegdb": "文件地理数据库",
+  "featureCollection": "要素集合",
+  "geojson": "GeoJSON",
+  "excel": "Excel",
+  "json": "JSON",
+  "createReplicaErrorMessage": "创建复本内部错误。 请在一小时后重试或联系内容管理员。",
+  "errorHeader": "无法完成下载。 请重试。"
+}

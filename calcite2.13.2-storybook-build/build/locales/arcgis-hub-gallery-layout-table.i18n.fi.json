@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Tuloksia ei löytynyt."
+    },
+    "error": {
+      "message": "Haussa tapahtui virhe."
+    }
+  },
+  "access": "Käyttö",
+  "actionsHeader": "Toiminnot",
+  "caption": "Hub-entiteettitaulukko",
+  "family": "Perhe",
+  "type": "Tyyppi",
+  "tags": "Tunnisteet",
+  "owner": "Omistaja",
+  "dateCreated": "Luotu",
+  "dateUpdated": "Muokattu",
+  "description": "Kuvaus",
+  "dateAndTime": "Päivämäärä ja aika",
+  "location": "Sijainti",
+  "attendanceType": "Osallistumisen tyyppi",
+  "inPerson": "Kasvotusten",
+  "online": "Verkko",
+  "hybrid": "Hybridi",
+  "categories": "Luokat",
+  "content": "Sisältö",
+  "name": "Nimi",
+  "start": "Aloita",
+  "end": "Lopeta",
+  "sharedUpdate": "Jaettu päivitys",
+  "managers": "Hallinnoijat",
+  "username": "Käyttäjätunnus",
+  "no": "Ei",
+  "yes": "Kyllä",
+  "title": "Otsikko",
+  "thumbnail": "Pikkukuva",
+  "types": {
+    "app": "Sovellus",
+    "content": "Sisältö",
+    "dataset": "Aineistoryhmä",
+    "discussion": "Keskustelupalsta",
+    "document": "Asiakirja",
+    "event": "Tapahtuma",
+    "feedback": "Palaute",
+    "initiative": "Aloite",
+    "image": "Kuva",
+    "map": "Kartta",
+    "other": "Muu",
+    "people": "Ihmiset",
+    "site": "Sivusto",
+    "team": "Ryhmä",
+    "template": "Malli",
+    "project": "Projekti"
+  }
+}

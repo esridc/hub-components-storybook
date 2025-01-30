@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "未找到任何结果。"
+    },
+    "error": {
+      "message": "非常抱歉，搜索出现错误。"
+    }
+  },
+  "type": "类型",
+  "tags": "标签",
+  "owner": "所有者",
+  "dateCreated": "创建日期",
+  "dateUpdated": "修改日期",
+  "categories": "类别",
+  "dateAndTime": "日期和时间",
+  "allDay": "{date} (全天)",
+  "allDayRange": "{from} - {to} (全天)",
+  "location": "位置",
+  "attendanceType": "出勤类型",
+  "inPerson": "现场",
+  "online": "在线",
+  "hybrid": "混合"
+}

@@ -1,0 +1,87 @@
+{
+  "initiatives": "Iniciatyvos",
+  "description": "Susiekite su iniciatyvomis, kad prisidėtumėte prie ilgalaikių ar didelių darbų. Projekto bendradarbiai gali tvarkyti patvirtintus susiejimus ir laukiančias susiejimų užklausas. Iniciatyvos su patvirtintais susiejimais bus rodomos šiame projekto rodinyje. ",
+  "shared": {
+    "error": {
+      "title": "Įvyko klaida",
+      "message": "Nepavyko baigti šios užduoties. Bandykite dar kartą."
+    },
+    "facets": {
+      "access": {
+        "label": "Bendrinimas"
+      },
+      "status": {
+        "label": "Būsena",
+        "notStarted": "Nepradėta",
+        "inProgress": "Vykdoma",
+        "onHold": "Sulaikyta",
+        "complete": "Baigta"
+      },
+      "tags": {
+        "label": "Žymos"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "{currentConfirmedAndOutgoingRequests} / {maxCurrentAndOutgoingRequestsAllowed} patvirtinta + siunčiamos užklausos",
+      "tooltip": "Norėdami siųsti užklausas, atjunkite esamus susiejimus ir (arba) siunčiamas užklausas"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "Rasti iniciatyvas",
+    "sendRequest": "Siųsti užklausą",
+    "success": {
+      "title": "Pavyko",
+      "message": "Išsiųsta susiejimo užklausų: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "Tikrinti susiejimus",
+      "message": "Kai kuriems pasirinktiems elementams jau pateiktos susiejimo užklausos. Išsiųsta naujų susiejimo užklausų: {count}"
+    },
+    "catalog": {
+      "myContent": "Mano turinys",
+      "favorites": "Mėgstamiausi",
+      "organization": "Mano organizacija",
+      "partners": "Mano partneriai",
+      "community": "Mano bendruomenė"
+    },
+    "collection": {
+      "initiatives": "Iniciatyvos"
+    }
+  },
+  "acceptAssociation": {
+    "label": "Priimti",
+    "limitReachedTooltip": "Norėdami priimti, atjunkite esamus susiejimus ir (arba) siunčiamas užklausas",
+    "success": {
+      "title": "Pavyko",
+      "message": "Susiejimas su {requestor} priimtas"
+    }
+  },
+  "cancelRequest": {
+    "label": "Atšaukti užklausą",
+    "success": {
+      "title": "Pavyko",
+      "message": "Susiejimo užklausa atšaukta"
+    }
+  },
+  "breakAssociation": {
+    "label": "Atjungti",
+    "success": {
+      "title": "Susiejimas nutrauktas",
+      "message": "Atjungėme šį elementą nuo jo ankstesnio susiejimo. Tačiau negalime atšaukti sprendimo iš kitos pusės, todėl galite jį vis dar matyti prie gaunamų užklausų."
+    }
+  },
+  "associationsGallery": {
+    "sources": "Būsena",
+    "catalog": {
+      "associated": "Susieta",
+      "requesting": "Gaunamos užklausos",
+      "pending": "Siunčiamos užklausos"
+    },
+    "collection": {
+      "initiatives": "Iniciatyvos"
+    }
+  },
+  "notice": {
+    "label": "Formos įspėjimas"
+  }
+}

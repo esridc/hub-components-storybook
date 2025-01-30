@@ -1,0 +1,30 @@
+:host {
+  display: block;
+}
+
+arcgis-hub-map-widget-search calcite-dropdown {
+  position: absolute;
+}
+
+arcgis-hub-map-widget-search calcite-input {
+  width: var(--width);
+}
+
+arcgis-hub-map-widget-search calcite-dropdown-group {
+  width: var(--width);
+}
+
+.hub-widget-search.top {
+  position: absolute;
+  width: var(--width);
+}
+
+.hub-widget-search.right {
+  right: 100%;
+  margin-right: 1rem;
+}
+
+.hub-widget-search.left {
+  left: 100%;
+  margin-left: 1rem;
+}

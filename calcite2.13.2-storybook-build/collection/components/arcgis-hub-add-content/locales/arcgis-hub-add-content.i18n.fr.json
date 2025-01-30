@@ -1,0 +1,72 @@
+{
+  "addContent": "Ajouter du contenu",
+  "addContentType": {
+    "event": "Créer un événement",
+    "discussion": "Créer une discussion",
+    "group": "Créer un groupe",
+    "initiative": "Créer une initiative",
+    "project": "Créer un projet",
+    "page": "Créer une page",
+    "site:": "Créer un site"
+  },
+  "tooltip": {
+    "label": "Désactivé",
+    "noCatalog": "Ajoutez des groupes au catalogue pour ajouter du contenu.",
+    "noPermission": "Vous n’êtes pas autorisé à ajouter du contenu au catalogue.",
+    "no-permission": "Vous n’êtes pas autorisé à ajouter du contenu au catalogue.",
+    "not-in-groups": "Vous n’êtes membre d’aucun groupe utilisé pour définir le catalogue.",
+    "too-many-groups": "Vous avez atteint le nombre maximal de groupes et ne pouvez plus en créer d’autres."
+  },
+  "existing": {
+    "description": "Ajouter un contenu déjà présent sur {onlineOrEnterprise}",
+    "modalTitle": "Sélectionner un contenu existant",
+    "title": "Sélectionner un contenu existant"
+  },
+  "create": {
+    "app": {
+      "description": "Créez une expérience, élaborez un récit ou visualisez vos données",
+      "modalTitle": "Créer une application",
+      "title": "Application"
+    },
+    "event": {
+      "description": "Animez des activités planifiées, en présentiel ou en ligne",
+      "modalTitle": "Créer un événement",
+      "title": "Événement"
+    },
+    "content": {
+      "description": "Ajoutez des données, documents, images et liens externes à votre site",
+      "modalTitle": "Créer du contenu",
+      "title": "Contenu"
+    },
+    "discussion": {
+      "description": "Recueillez des idées et des commentaires",
+      "modalTitle": "Créer un forum de discussion",
+      "title": "Forum de discussion"
+    },
+    "group": {
+      "description": "Formez des groupes d’utilisateurs pour faciliter le partage de contenu et les échanges",
+      "modalTitle": "Créer un groupe",
+      "title": "Groupe"
+    },
+    "initiative": {
+      "description": "Mettez en évidence des efforts stratégiques avec des objectifs précis afin d’organiser des projets",
+      "modalTitle": "Créer une initiative",
+      "title": "Initiative"
+    },
+    "page": {
+      "description": "Présentez les informations dans une mise en page structurée",
+      "modalTitle": "Créer une page",
+      "title": "Page"
+    },
+    "project": {
+      "description": "Mettez en avant des tâches aux objectifs clairs et au calendrier précis",
+      "modalTitle": "Créer un projet",
+      "title": "Projet"
+    },
+    "site": {
+      "description": "Créez un site Web personnalisé pour interagir avec votre communauté",
+      "modalTitle": "Créer un site",
+      "title": "Site"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "shared": {
+    "targetEntities": {
+      "item": "Objekt",
+      "event": "Evenemang"
+    }
+  },
+  "targetEntityBlock": {
+    "configured": "Konfigurerad",
+    "notConfigured": "Inte konfigurerad"
+  },
+  "targetEntityFlow": {
+    "back": "Stäng konfiguration: {targetEntity}",
+    "description": "Konfigurera: {targetEntity}",
+    "source": {
+      "heading": "Källa",
+      "description": "Källor definierar innehållets omfattning. Ändra resultat genom att inkludera eller exkludera parametrar.<br/><br/>*anger obligatoriskt fält"
+    },
+    "collections": {
+      "heading": "Samlingar",
+      "description": "Organisera innehåll i specifika delmängder så att det blir enklare att bläddra och hitta.<br/><br/>*anger obligatoriskt fält"
+    }
+  }
+}

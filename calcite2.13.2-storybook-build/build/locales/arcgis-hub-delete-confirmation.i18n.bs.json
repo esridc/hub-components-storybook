@@ -1,0 +1,50 @@
+{
+  "section": "Izbriši",
+  "protection": "Spriječite da se {type} slučajno ne izbriše.",
+  "protectionTooltip": "Opis elemenata zaštite",
+  "protectionDisabledTooltip": "Samo vlasnici ili administratori organizacije mogu promijeniti zaštitu.",
+  "deleteDisabledNoAccessTooltip": "Samo vlasnici ili administratori organizacije mogu brisati.",
+  "deleteDisabledNoAccessTooltipGroup": "Samo vlasnici, upravitelji ili administratori organizacija mogu brisati.",
+  "deleteDisabledProtectedTooltip": "Ne možete brisati dok je uključena zaštita od brisanja.",
+  "deleteButton": "Izbriši",
+  "protect": {
+    "successTitle": "Dodana zaštita od brisanja",
+    "success": "Ne možete brisati dok je uključena zaštita od brisanja.",
+    "successLabel": "Upozorenje da je dodana zaštita od brisanja.",
+    "errorTitle": "Nije moguće dodati zaštitu od brisanja",
+    "error": "Došlo je do pogreške prilikom dodavanja zaštite od brisanja.",
+    "errorLabel": "Upozorenje da zaštita od brisanja nije uspjela."
+  },
+  "unprotect": {
+    "successTitle": "Uklonjena zaštita od brisanja",
+    "success": "Možete brisati dok je isključena zaštita od brisanja.",
+    "successLabel": "Upozorenje da je uklonjena zaštita od brisanja.",
+    "errorTitle": "Nije moguće ukloniti zaštitu od brisanja",
+    "error": "Došlo je do pogreške prilikom uklanjanja zaštite od brisanja.",
+    "errorLabel": "Upozorenje da nije uspjelo uklanjanje zaštite od brisanja."
+  },
+  "delete": {
+    "successTitle": "Brisanje uspješno",
+    "success": "Preusmjeravanje na kućni radni prostor",
+    "successLabel": "Upozorenje za uspješno brisanje.",
+    "errorTitle": "Neuspješno brisanje",
+    "error": "Došlo je do pogreške, pokušajte ponovno.",
+    "errorLabel": "Upozorenje za neuspješno brisanje."
+  },
+  "permanentDelete": {
+    "successTitle": "Trajno brisanje uspješno",
+    "success": "Preusmjeravanje na kućni radni prostor",
+    "successLabel": "Upozorenje za uspješno brisanje.",
+    "errorTitle": "Neuspješno brisanje",
+    "error": "Došlo je do pogreške, pokušajte ponovno.",
+    "errorLabel": "Upozorenje za neuspješno brisanje."
+  },
+  "deleteModal": {
+    "header": "Izbriši",
+    "deleteContent": "Nije moguće poništiti trajno brisanje. Jeste li sigurni da želite nastaviti?",
+    "recycleContent": "Izbrisani sadržaj bit će poslan u koš za smeće. Imat ćete 14 dana da ga vratite.",
+    "delete": "Izbriši",
+    "permanentlyDelete": "Trajno izbriši",
+    "cancel": "Odustani"
+  }
+}

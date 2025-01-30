@@ -1,0 +1,23 @@
+{
+  "overview": "Descripció general",
+  "telemetry": {
+    "pageViews": "Visualitzacions de pàgina",
+    "last30days": "Darrers 30 dies",
+    "lastUpdated": "Darrera actualització fa {hoursElapsed} hores",
+    "checkTomorrow": "Torneu-ho a comprovar demà"
+  },
+  "learnAbout": "Obteniu informació sobre les iniciatives del Hub",
+  "feedbackNotice": {
+    "message": "Què us semblen les iniciatives del Hub? Volem saber com les podeu fer servir.",
+    "link": "Envieu comentaris"
+  },
+  "status": {
+    "notStarted": "No s'ha iniciat",
+    "inProgress": "En curs",
+    "onHold": "En espera",
+    "complete": "Completat"
+  },
+  "editDetails": "Edita els detalls",
+  "noPurposeSet": "No s'ha definit cap propòsit",
+  "noLocationSet": "No s'ha definit cap ubicació"
+}

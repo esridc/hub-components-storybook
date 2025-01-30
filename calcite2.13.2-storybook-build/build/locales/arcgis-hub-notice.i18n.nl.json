@@ -1,0 +1,150 @@
+{
+  "modal": {
+    "dismiss": "Dit niet meer weergeven",
+    "close": "Sluiten"
+  },
+  "notice": {
+    "n001": {
+      "title": "Testaankondiging",
+      "message": "Dit is de hoofdtekst van de testaankondiging",
+      "actions": [
+        {
+          "text": "Lees de blog"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-1": {
+      "title": "Stap over op de bijgewerkte downloadbeleving",
+      "message": "Schakel de extractiemogelijkheid in voor de service voor dit item als u meer indelingen, snelheid en prestatie wilt."
+    },
+    "20240220-hosted-downloads-2": {
+      "title": "Er zijn downloadverbeteringen toegevoegd!",
+      "message": "De verbeteringen aan uw downloadbeleving op Hub-sites zijn onder meer ondersteuning voor gehoste downloads, een bijgewerkte vormgeving en uitstraling voor downloadcards en een nieuwe voortgangsbalk voor downloads.",
+      "actions": [
+        {
+          "text": "Meer informatie"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-3": {
+      "title": "Nu beschikbaar: gehoste downloads!",
+      "message": "Gehoste downloads helpen de prestaties bij het downloaden van content te verbeteren. Als u gehoste downloads wilt inschakelen, moet u hieronder de extractiemogelijkheden inschakelen.",
+      "actions": [
+        {
+          "text": "Meer informatie"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-basic": {
+      "title": "Meer over werkruimtes",
+      "message": "<p><strong>Voeg met behulp van groepen content toe aan site-catalogi</strong><br>De zoekcatalogi van sites zijn altijd mogelijk gemaakt door groepen; werkruimtes maken het makkelijker deze groepen te beheren. Op dit moment moet u content toevoegen aan afzonderlijke groepen die aan uw site zijn gekoppeld als u wilt dat deze in de site-catalogus worden weergegeven. Binnenkort kunt u content rechtstreeks aan uw catalogus toevoegen.</p><p><strong>Overgang van teams naar groepen</strong><br>U kunt nu elke ArcGIS Online-groep gebruiken voor samenwerking aan sites, pagina's, content en projecten in Hub. Alle eerder gekoppelde teams, zoals het kernteam van de site, worden nog steeds weergegeven in het deelvenster Medewerkers van de Site-werkruimte.</p><p><strong>Het verzenden van op team gebaseerde e-mailberichten is tijdelijk gepauzeerd</strong><br>Er is momenteel geen ondersteuning voor het verzenden van e-mailberichten of uitnodigings-/verwijderingsberichten aan teamleden en volgers.</p><p><strong>De ingebouwde Survey123-websitedesigner is uitgefaseerd</strong><br>We hebben De Survey123-designer destijds ingebouwd om u te helpen meer gedaan te krijgen in Hub. Feedback van klanten gaf echter aan dat men de voorkeur gaf aan ontwerp en beheer van vragenlijsten in Survey123, net als bij andere applicaties. We hebben daarom de ondersteuning voor de ingebouwde Survey123-designer in ArcGIS Hub uitgefaseerd voor een betere afstemming op uw voorkeursworkflow.</p>",
+      "actions": [
+        {
+          "text": "Meer informatie"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-premium": {
+      "title": "Meer over werkruimtes",
+      "message": "<p><strong>Voeg met behulp van groepen content toe aan site-catalogi</strong><br>De zoekcatalogi van sites zijn altijd mogelijk gemaakt door groepen; werkruimtes maken het makkelijker deze groepen te beheren. Op dit moment moet u content toevoegen aan afzonderlijke groepen die aan uw site zijn gekoppeld als u wilt dat deze in de site-catalogus worden weergegeven. Het is binnenkort mogelijk content rechtstreeks aan uw catalogus toe te voegen.</p><p><strong>Overgang van Ondersteunende teams naar groepen</strong><br>U kunt nu elke ArcGIS Online-groep gebruiken voor samenwerking aan sites, pagina's, content en projecten in Hub. Alle eerder gekoppelde Ondersteunende teams worden nog steeds weergegeven in het deelvenster Medewerkers van Site-werkruimte. Voor voortgezette ondersteuning dient u die Ondersteunende teams toe te voegen als groepen die kunnen weergeven en groepen die kunnen bewerken.</p><p><strong>Het sturen van op team gebaseerde e-mailberichten is tijdelijk gepauzeerd</strong><br>Er is momenteel geen ondersteuning voor het verzenden van e-mailberichten of uitnodigings-/verwijderingsberichten aan teamleden en volgers.</p><p><strong>De ingebouwde Survey123-websitedesigner is uitgefaseerd</strong><br>We hebben De Survey123-designer destijds ingebouwd om u te helpen meer gedaan te krijgen in Hub. Feedback van klanten gaf echter aan dat men de voorkeur gaf aan ontwerp en beheer van vragenlijsten in Survey123, net als bij andere applicaties. We hebben daarom de ondersteuning voor de ingebouwde Survey123-designer in ArcGIS Hub uitgefaseerd voor een betere afstemming op uw voorkeursworkflow.</p><p><strong>Evenementen zijn nog niet beschikbaar in werkruimtes</strong><br>Evenementen ondergaan momenteel een transformatie. Ze zijn naar verwachting binnenkort beschikbaar binnen werkruimtes. Als u zich aanmeldt voor het gebruik van werkruimtes, bent u op dit moment niet in staat nieuwe evenementen te maken, naar bestaande evenementen te zoeken of om deze te beheren. U kunt zich echter te allen tijde afmelden als u graag eerder gemaakte evenementen wilt beheren.</p>",
+      "actions": [
+        {
+          "text": "Meer informatie"
+        }
+      ]
+    },
+    "202404-workspaceannouncement": {
+      "title": "Wat zijn werkruimtes",
+      "message": "Werkruimtes geven u een nieuwe manier om items te bewerken en beheren in Hub; ze vervangen de wereldwijde navigatie in de bewerkingsweergave (maar niet in de live-weergave). U kunt zich in deze fase te allen tijde aanmelden voor het gebruik van werkruimtes en bijbehorende functies voor items en groepen. Evenementen worden in een latere fase beschikbaar. Selecteer Ga naar instellingen als u werkruimtes nu wilt uitproberen.",
+      "actions": [
+        {
+          "text": "Ga naar instellingen"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing": {
+      "title": "Een her-introductie - Hub-initiatieven",
+      "message": "ArcGIS Hub Initiatives is gewijzigd op 2 juli 2024 Eerder gemaakte initiatieven zijn nu zelfstandige sites - met dezelfde lay-outs, content, URL's en Premium-functies (zoals volgers en evenementen) als hiervoor. U moet werkruimtes inschakelen als u nieuwe, verbeterde initiatieven wilt uitproberen.",
+      "actions": [
+        {
+          "text": "Meer informatie over initiatieven",
+          "ariaLabel": "Meer informatie over initiatieven, Wordt op een nieuw tabblad geopend"
+        },
+        {
+          "text": "Ga naar instellingen"
+        }
+      ]
+    },
+    "20240517-initiatives-manage": {
+      "title": "Oude initiatieven beheren",
+      "message": "ArcGIS Hub Initiatives is gewijzigd op 2 juli 2024 Eerder gemaakte initiatieven zijn nu zelfstandige sites - met dezelfde lay-outs, content, URL's en Premium-functies (zoals volgers en evenementen) als hiervoor. Eventuele oude initiatieven kunnen veilig worden verwijderd.",
+      "actions": [
+        {
+          "text": "Meer informatie over initiatieven",
+          "ariaLabel": "Meer informatie over initiatieven, Wordt op een nieuw tabblad geopend"
+        },
+        {
+          "text": "Oude initiatieven weergeven",
+          "ariaLabel": "Oude initiatieven weergeven, Wordt op een nieuw tabblad geopend"
+        }
+      ]
+    },
+    "20240517-initiatives-manage-no-priv": {
+      "title": "Oude initiatieven beheren",
+      "message": "ArcGIS Hub Initiatives is gewijzigd op 2 juli 2024 Eerder gemaakte initiatieven zijn nu zelfstandige sites - met dezelfde lay-outs, content, URL's en Premium-functies (zoals volgers en evenementen) als hiervoor. Eventuele oude initiatieven kunnen veilig worden verwijderd.",
+      "actions": [
+        {
+          "text": "Meer informatie over initiatieven",
+          "ariaLabel": "Meer informatie over initiatieven, Wordt op een nieuw tabblad geopend"
+        },
+        {
+          "text": "Oude initiatieven weergeven",
+          "ariaLabel": "Oude initiatieven weergeven, Wordt op een nieuw tabblad geopend"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing-site": {
+      "title": "Een her-introductie - Hub-initiatieven",
+      "message": "De nieuwe generatie Hub-initiatieven is nu beschikbaar in werkruimtes. Initiatieven hebben hun eigen, makkelijk in te stellen weergave en kunnen helpen bij het op één lijn brengen van Hub-projecten die dezelfde langetermijndoelen delen. Initiatieven kunnen onafhankelijk worden gemaakt en ze kunnen met één of meer sites worden gedeeld. Sites kunnen één of meer initiatieven uitlichten.",
+      "actions": [
+        {
+          "text": "Meer informatie",
+          "ariaLabel": "Meer informatie, Wordt op een nieuw tabblad geopend"
+        }
+      ]
+    },
+    "20240710-slow-service-warning": {
+      "title": "Serviceonderbreking",
+      "message": "Communicatie met de service duurt langer dan verwacht. Dit kan van invloed zijn op uw toegang tot downloads en op de functionaliteit van de kaart."
+    },
+    "20240710-unreachable-service-error": {
+      "title": "Service is niet beschikbaar",
+      "message": "We zijn niet in staat contact op te nemen met de hostservice. Downloads en kaartfunctionaliteit zijn momenteel niet beschikbaar voor dit item."
+    },
+    "20240807-auth-required-status": {
+      "title": "Status service is onbekend",
+      "message": "We zijn niet in staat de beveiligde service te gebruiken, aangezien hiervoor aanvullende autorisatie nodig is. Downloads en kaartfunctionaliteit zijn momenteel niet beschikbaar voor het item."
+    },
+    "20240805-private-downloads-unavailable-ago-error": {
+      "title": "Downloads zijn niet beschikbaar",
+      "message": "Om content te downloaden, moet de instelling Gegevens exporteren zijn ingeschakeld op ArcGIS Online. Neem contact op met de itemeigenaar om deze instelling in te schakelen."
+    },
+    "20240805-private-downloads-unavailable-enterprise-error": {
+      "title": "Downloads zijn niet beschikbaar",
+      "message": "Om content te downloaden, moet de instelling Gegevens exporteren zijn ingeschakeld op ArcGIS Enterprise. Neem contact op met de itemeigenaar om deze instelling in te schakelen."
+    },
+    "20240819-download-formats-disabled": {
+      "title": "Downloads zijn uitgeschakeld",
+      "message": "Neem contact op met de eigenaar van het item als u content voor dit item wilt downloaden."
+    },
+    "20241104-about-feeds-notice": {
+      "message": "Maak uw openbare gegevens makkelijk toegankelijk en herbruikbaar met Hub-feeds.",
+      "actions": [
+        {
+          "text": "Meer over Hub-feeds",
+          "ariaLabel": "Meer informatie over Hub-feeds, wordt in een nieuw tabblad geopend"
+        }
+      ]
+    }
+  }
+}

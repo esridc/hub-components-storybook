@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "Registra",
+    "registered": "Registrato",
+    "join": "Partecipa online",
+    "in-person": "Di persona",
+    "online": "Online",
+    "inPersonFull": "Di persona (completo)",
+    "onlineFull": "Online (completo)",
+    "close": "Chiudi"
+  },
+  "tooltip": {
+    "isCanceled": "Evento annullato",
+    "eventHasEnded": "Evento terminato",
+    "eventFull": "Evento al completo",
+    "inPerson": "Registrato all'evento di persona",
+    "online": "Registrato all'evento online",
+    "unavailable": "Disponibile un'ora prima dell'inizio dell'evento"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "Registrazione all'evento online annullata con successo",
+    "onlineRegistrationConfirmed": "Registrazione all'evento online avvenuta con successo",
+    "onlineRegistrationError": "Si è verificato un errore imprevisto durante la registrazione all'evento online",
+    "onlineRegistrationCanceledError": "Si è verificato un errore imprevisto durante la cancellazione all'evento online",
+    "onlineRegistrationAtCapacity": "L'utente sta tentando di registrarsi a un evento online che è al completo",
+    "inPersonRegistrationCanceled": "Registrazione all'evento di persona annullata con successo",
+    "inPersonRegistrationCanceledError": "Si è verificato un errore imprevisto durante la cancellazione all'evento di persona",
+    "inPersonRegistrationConfirmed": "Registrazione all'evento di persona avvenuta con successo",
+    "inPersonRegistrationError": "Si è verificato un errore imprevisto durante la registrazione all'evento di persona",
+    "inPersonRegistrationAtCapacity": "L'utente sta tentando di registrarsi a un evento in presenza che è al completo"
+  }
+}

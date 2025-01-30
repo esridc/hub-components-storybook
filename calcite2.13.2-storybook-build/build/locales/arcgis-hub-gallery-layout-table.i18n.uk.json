@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Результати не знайдено."
+    },
+    "error": {
+      "message": "На жаль, під час пошуку виникла помилка."
+    }
+  },
+  "access": "Доступ",
+  "actionsHeader": "Дії",
+  "caption": "Таблиця сутності Hub",
+  "family": "Сімʼя",
+  "type": "Тип",
+  "tags": "Теги",
+  "owner": "Власник",
+  "dateCreated": "Створено",
+  "dateUpdated": "Змінено",
+  "description": "Опис",
+  "dateAndTime": "Дата та час",
+  "location": "Місце розташування",
+  "attendanceType": "Тип відвідуваності",
+  "inPerson": "Особисто",
+  "online": "Онлайн",
+  "hybrid": "Гібридні",
+  "categories": "Категорії",
+  "content": "Вміст",
+  "name": "Назва",
+  "start": "Початок",
+  "end": "Кінець",
+  "sharedUpdate": "Спільне оновлення",
+  "managers": "Менеджери",
+  "username": "Ім'я користувача",
+  "no": "Ні",
+  "yes": "Так",
+  "title": "Заголовок",
+  "thumbnail": "Зразок",
+  "types": {
+    "app": "Додаток",
+    "content": "Вміст",
+    "dataset": "Набір даних",
+    "discussion": "Дискусійний клуб",
+    "document": "Документ",
+    "event": "Подія",
+    "feedback": "Відгук",
+    "initiative": "Ініціатива",
+    "image": "Зображення",
+    "map": "Карта",
+    "other": "Інше",
+    "people": "Люди",
+    "site": "Сайт",
+    "team": "Група",
+    "template": "Шаблон",
+    "project": "Проєкт"
+  }
+}

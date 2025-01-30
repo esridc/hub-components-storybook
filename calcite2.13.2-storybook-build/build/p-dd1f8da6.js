@@ -1,0 +1,1 @@
+const o=["type","group"],r=["group","occurrence"];export{r as E,o as I}

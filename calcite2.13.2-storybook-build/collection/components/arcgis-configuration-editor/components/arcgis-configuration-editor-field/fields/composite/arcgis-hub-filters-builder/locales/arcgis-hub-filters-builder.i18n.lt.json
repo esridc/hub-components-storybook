@@ -1,0 +1,15 @@
+{
+  "newFilter": "Naujas filtras",
+  "block": {
+    "heading": {
+      "untitled": "Naujas filtras",
+      "default": "Filtruoti {filterNum}: {parameter}",
+      "group": "Filtruoti{filterNum}: grupes",
+      "type": "Filtruoti{filterNum}: tipus",
+      "occurrence": "Filtruoti {filterNum}: pasikartojimus"
+    },
+    "actions": {
+      "delete": "Ištrinti filtrą: {label}"
+    }
+  }
+}

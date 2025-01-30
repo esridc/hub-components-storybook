@@ -1,0 +1,46 @@
+{
+  "registrants": "Participants",
+  "invite": "Inviter",
+  "tabs": {
+    "registrants": "Participants",
+    "settings": "Paramètres"
+  },
+  "emptyNotice": {
+    "title": "Aucun participant",
+    "desc": "Les événements sont toujours plus sympathiques lorsqu’ils accueillent un public. Invitez des personnes ou partagez votre événement pour encourager le public à y participer.",
+    "link": "Inviter des participants"
+  },
+  "facets": {
+    "role": {
+      "header": "Rôle",
+      "owner": "Propriétaire",
+      "organizer": "Organisateur",
+      "attendee": "Participant"
+    },
+    "status": {
+      "header": "Statut",
+      "pending": "En attente",
+      "accepted": "Accepté",
+      "declined": "Refusé",
+      "blocked": "Bloqué"
+    },
+    "location": {
+      "header": "Localisation",
+      "online": "En ligne",
+      "in_person": "En présentiel"
+    },
+    "updatedDate": "Date de mise à jour"
+  },
+  "delete": {
+    "attendee": "Supprimer le participant"
+  },
+  "notice": {
+    "label": "Alerte de formulaire"
+  },
+  "success": {
+    "delete": "Les participants ont été supprimés de {eventName}."
+  },
+  "error": {
+    "delete": "Impossible de supprimer un ou plusieurs participants de l’événement."
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "layout": {
+    "title": "Maketas",
+    "helperText": "Šiuo veiksmu sukonfigūruojama, kaip atrodys rezultatai, kai lankytojai pirmą kartą apsilankys jūsų kataloge. Lankytojai vis tiek galės patys pakeisti atvaizdavimo metodą.",
+    "enum": {
+      "list": {
+        "label": "Sąrašas",
+        "description": "Naudokite metaduomenims demonstruoti ir kai tikėtina, kad lankytojai atlieka tikslines paieškas."
+      },
+      "grid": {
+        "label": "Tinklelis",
+        "description": "Naudokite rezultatams, kuriuose yra aukštos kokybės miniatiūrų, ir kai tikėtina, kad lankytojai naršo."
+      },
+      "table": {
+        "label": "Lentelė",
+        "description": "Naudokite rezultatams pateikti struktūrizuotu formatu, naudojant rūšiuotinus stulpelius; puikiai tinka, kai lankytojai nori peržiūrėti ir palyginti daug elementų bei jų atributų."
+      },
+      "map": {
+        "label": "Žemėlapis",
+        "description": "Naudokite rezultatams, kurie yra susieti su fizinėmis vietovėmis, ir kai tikėtina, kad lankytojai tyrinėja dominančias sritis."
+      },
+      "compact": {
+        "label": "Kompaktiškas",
+        "description": "Naudokite, kad maksimaliai padidintumėte matomų rezultatų skaičių mažesnėje erdvėje; puikiai tinka norint sparčiai naršyti arba peržiūrėti mobiliuosiuose įrenginiuose."
+      }
+    }
+  },
+  "cards": {
+    "title": "Kortelės",
+    "cardTitleTag": {
+      "label": "Antraštė",
+      "helperText": "Tai gali būti naudojama įdėtinių antraščių struktūrai pagerinti pritaikant neįgaliesiems. Tai atlikus šrifto dydis nebus pakeistas.",
+      "enum": {
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        }
+      }
+    },
+    "showThumbnail": {
+      "label": "Rodyti miniatiūrą",
+      "enum": {
+        "show": {
+          "label": "Visada",
+          "description": "Miniatiūrų vaizdai visada bus rodomi rezultatų kortelėse, nepaisant rezultatų maketo."
+        },
+        "hide": {
+          "label": "Nerodyti miniatiūrų",
+          "description": "Miniatiūrų vaizdai nebus rodomi bet kokio tipo rezultatų kortelėje. Naudokite šią parinktį, jei turite prastos kokybės miniatiūrų arba norite, kad žmonės galėtų greičiau nuskaityti sąrašo rezultatus naudodami kompiuterius arba mobiliuosius įrenginius."
+        },
+        "grid": {
+          "label": "Tik tinklelyje",
+          "description": "Miniatiūrų vaizdai bus rodomi tik tinklelio kortelėse. Sąrašo kortelėse vietoj vaizdo bus rodomas papildomas metaduomenų stulpelis."
+        }
+      }
+    },
+    "corners": {
+      "label": "Kampai",
+      "enum": {
+        "square": {
+          "label": "Kvadratas"
+        },
+        "round": {
+          "label": "Apvalinti"
+        }
+      }
+    },
+    "shadow": {
+      "label": "Mesti šešėlį",
+      "enum": {
+        "heavy": {
+          "label": "Labai ryškus"
+        },
+        "low": {
+          "label": "Neryškus"
+        },
+        "medium": {
+          "label": "Vidutinis"
+        },
+        "none": {
+          "label": "Nėra"
+        }
+      }
+    },
+    "showLinkButton": {
+      "label": "Įtraukti mygtukus",
+      "helperText": "Jei mygtukai išjungti, tik kortelės pavadinimas bus nuoroda."
+    },
+    "linkButtonStyle": {
+      "label": "Stilius",
+      "enum": {
+        "outline-filled": {
+          "label": "Užpildyta"
+        },
+        "outline": {
+          "label": "Kontūras"
+        }
+      }
+    },
+    "linkButtonText": {
+      "label": "Tekstas"
+    }
+  }
+}

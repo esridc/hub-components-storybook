@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "Zarejestruj",
+    "registered": "Zarejestrowano",
+    "join": "Dołącz online",
+    "in-person": "Osobiście",
+    "online": "Online",
+    "inPersonFull": "Osobiście (pełne)",
+    "onlineFull": "Online (pełne)",
+    "close": "Zamknij"
+  },
+  "tooltip": {
+    "isCanceled": "Wydarzenie odwołane",
+    "eventHasEnded": "Wydarzenie zakończyło się",
+    "eventFull": "Wydarzenie pełne",
+    "inPerson": "Zarejestrowano się na wydarzenie z udziałem osobistym",
+    "online": "Zarejestrowano się na wydarzenie online",
+    "unavailable": "Dostępne na godzinę przed rozpoczęciem wydarzenia"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "Pomyślnie anulowano rejestrację na wydarzenie online",
+    "onlineRegistrationConfirmed": "Pomyślnie zarejestrowano się na wydarzenie online",
+    "onlineRegistrationError": "Wystąpił nieoczekiwany błąd podczas rejestracji na wydarzenie online",
+    "onlineRegistrationCanceledError": "Nieoczekiwany błąd podczas anulowania rejestracji na wydarzenie online",
+    "onlineRegistrationAtCapacity": "Próbujesz się zarejestrować na zdarzenie online, na które nie ma już miejsc",
+    "inPersonRegistrationCanceled": "Pomyślnie anulowano rejestrację na wydarzenie z udziałem osobistym",
+    "inPersonRegistrationCanceledError": "Nieoczekiwany błąd podczas anulowania rejestracji na wydarzenie z udziałem osobistym",
+    "inPersonRegistrationConfirmed": "Pomyślnie zarejestrowano się na wydarzenie z udziałem osobistym",
+    "inPersonRegistrationError": "Wystąpił nieoczekiwany błąd podczas rejestracji na wydarzenie z udziałem osobistym",
+    "inPersonRegistrationAtCapacity": "Próbujesz się zarejestrować na zdarzenie z udziałem osobistym, na które nie ma już miejsc"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "Zautomatyzowane przez centrum",
+      "actionText": "Informacje o opcji automatycznej"
+    },
+    "daily": {
+      "defaultLabel": "Codziennie",
+      "defaultExpandedHelperText": "Codziennie o wybranej godzinie w wybranej strefie czasowej.",
+      "actionText": "Informacje o opcji codziennej"
+    },
+    "weekly": {
+      "defaultLabel": "Cotygodniowo",
+      "defaultExpandedHelperText": "Co tydzień w następującym dniu i o następującej godzinie w wybranej strefie czasowej.",
+      "actionText": "Informacje o opcji cotygodniowej"
+    },
+    "monthly": {
+      "defaultLabel": "Comiesięcznie",
+      "defaultExpandedHelperText": "Co miesiąc w następującym dniu i o następującej godzinie w wybranej strefie czasowej.",
+      "actionText": "Informacje o opcji comiesięcznej"
+    },
+    "yearly": {
+      "defaultLabel": "Corocznie",
+      "defaultExpandedHelperText": "Co rok w następującym miesiącu i dniu oraz o następującej godzinie w wybranej strefie czasowej.",
+      "actionText": "Informacje o opcji corocznej"
+    },
+    "manual": {
+      "defaultLabel": "Ręczne",
+      "defaultExpandedHelperText": "Użyj tej opcji, jeśli chcesz ręcznie zaktualizować indeks wyszukiwania i pobrane pliki w pamięci podręcznej dla tego elementu.",
+      "actionText": "Informacje o opcji ręcznej"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "Pora dnia",
+      "inputMessage": "Czas zostanie zaokrąglony do najbliższej godziny.",
+      "error": "Wybierz godzinę."
+    },
+    "day": {
+      "helperText": "Dzień tygodnia",
+      "daysOfTheWeek": {
+        "sunday": "Niedziela",
+        "monday": "Poniedziałek",
+        "tuesday": "Wtorek",
+        "wednesday": "Środa",
+        "thursday": "Czwartek",
+        "friday": "Piątek",
+        "saturday": "Sobota"
+      },
+      "selectLabel": "Selektor dnia tygodnia",
+      "error": "Wybierz dzień tygodnia."
+    },
+    "date": {
+      "helperText": "Dzień miesiąca",
+      "inputNumberPlaceholder": "Wybierz dzień miesiąca",
+      "inputMessage": "Wprowadź dzień miesiąca jako wartość z zakresu od 1 do 28.",
+      "error": "Dzień miesiąca musi być z zakresu od 1 do 28."
+    },
+    "month": {
+      "helperText": "Miesiąc roku",
+      "selectLabel": "Selektor miesiąca roku",
+      "monthsOfTheYear": {
+        "january": "Styczeń",
+        "february": "Luty",
+        "march": "Marzec",
+        "april": "Kwiecień",
+        "may": "Maj",
+        "june": "Czerwiec",
+        "july": "Lipiec",
+        "august": "Sierpień",
+        "september": "Wrzesień",
+        "october": "Październik",
+        "november": "Listopad",
+        "december": "Grudzień"
+      },
+      "error": "Wybierz miesiąc."
+    },
+    "timezone": {
+      "helperText": "Strefa czasowa",
+      "error": "Wybierz strefę czasową."
+    }
+  },
+  "fieldHeader": "Częstotliwość"
+}

@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "Bearbeiten",
+    "fields": {
+      "label": {
+        "label": "Beschriftung",
+        "requiredMessage": "Beschriftung erforderlich",
+        "maxLengthMessage": "Beschriftung darf maximal {maxLength} Zeichen lang sein"
+      }
+    },
+    "apply": "Übernehmen"
+  },
+  "showItem": "Folgendes Listenelement anzeigen: {itemLabel}",
+  "hideItem": "Folgendes Listenelement ausblenden: {itemLabel}",
+  "editItem": "Folgendes Listenelement bearbeiten: {itemLabel}"
+}

@@ -1,0 +1,87 @@
+{
+  "initiatives": "Iniciatívy",
+  "description": "Spojiť sa s iniciatívami, ktoré prispievajú k dlhodobému alebo rozsiahlemu úsiliu. Spolupracovníci projektu môžu spravovať potvrdené asociácie a nevyriešené požiadavky na asociácie. Iniciatívy s potvrdenými asociáciami sa zobrazia v zobrazení tohto projektu. ",
+  "shared": {
+    "error": {
+      "title": "Niečo sa pokazilo",
+      "message": "Nepodarilo sa nám dokončiť úlohu. Skúste to znova."
+    },
+    "facets": {
+      "access": {
+        "label": "Zdieľanie"
+      },
+      "status": {
+        "label": "Stav",
+        "notStarted": "Nezačal sa",
+        "inProgress": "V procese",
+        "onHold": "Podržaný",
+        "complete": "Dokončený"
+      },
+      "tags": {
+        "label": "Štítky"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "{currentConfirmedAndOutgoingRequests} / {maxCurrentAndOutgoingRequestsAllowed} potvrdené + odchádzajúce požiadavky",
+      "tooltip": "Na odosielanie požiadaviek je potrebné odpojenie existujúcich asociácií a/alebo odchádzajúcich požiadaviek"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "Nájsť iniciatívy",
+    "sendRequest": "Poslať žiadosť",
+    "success": {
+      "title": "Úspešné",
+      "message": "Žiadosti o asociáciu zaslané: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "Skontrolovať asociácie",
+      "message": "Niektoré výbery už požiadali o asociáciu. Nová žiadosť o asociáciu zaslaná: {count}"
+    },
+    "catalog": {
+      "myContent": "Môj obsah",
+      "favorites": "Obľúbené",
+      "organization": "Moja organizácia",
+      "partners": "Moji partneri",
+      "community": "Moja komunita"
+    },
+    "collection": {
+      "initiatives": "Iniciatívy"
+    }
+  },
+  "acceptAssociation": {
+    "label": "Prijať",
+    "limitReachedTooltip": "Na prijatie je potrebné odpojenie existujúcich asociácií a/alebo odchádzajúcich požiadaviek",
+    "success": {
+      "title": "Úspešné",
+      "message": "Asociácia prijatá s {requestor}"
+    }
+  },
+  "cancelRequest": {
+    "label": "Zrušiť žiadosť",
+    "success": {
+      "title": "Úspešné",
+      "message": "Žiadosť o asociáciu zrušená"
+    }
+  },
+  "breakAssociation": {
+    "label": "Odpojiť",
+    "success": {
+      "title": "Asociácia porušená",
+      "message": "Túto položku sme odpojili od jej predchádzajúcej asociácie. Rozhodnutie druhej strany však nemôžeme zvrátiť, takže ju môžete stále vidieť v prichádzajúcich žiadostiach."
+    }
+  },
+  "associationsGallery": {
+    "sources": "Stav",
+    "catalog": {
+      "associated": "Asociované",
+      "requesting": "Prichádzajúce žiadosti",
+      "pending": "Odchádzajúce žiadosti"
+    },
+    "collection": {
+      "initiatives": "Iniciatívy"
+    }
+  },
+  "notice": {
+    "label": "Upozornenie na formulár"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "content": "Conteúdo",
+  "myContent": "Meu conteúdo",
+  "editableContent": "Conteúdo Editável",
+  "addContentButtonText": "Criar novo",
+  "type": "Tipo",
+  "sharedUpdate": "Grupo de Atualização Compartilhado",
+  "viewOnly": "Visualizar Somente Grupo",
+  "owner": "Proprietário",
+  "updated": "Atualizado",
+  "tags": "Tags",
+  "dateCreated": "Criado",
+  "dateUpdated": "Modificado",
+  "actionLinks": {
+    "view": "Visualizar",
+    "edit": "Editar",
+    "ariaEdit": "Editar {title}",
+    "ariaView": "Visualizar {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Conteúdo",
+      "myContent": "Conteúdo de minha propriedade",
+      "editableContent": "Conteúdo que posso editar",
+      "all": "Todo Conteúdo"
+    },
+    "access": {
+      "label": "De"
+    },
+    "type": {
+      "label": "Tipos"
+    },
+    "tags": {
+      "label": "Tags"
+    },
+    "categories": {
+      "label": "Categorias"
+    },
+    "modified": {
+      "label": "Modificado"
+    }
+  }
+}

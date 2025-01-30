@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Tuloksia ei löytynyt."
+    },
+    "error": {
+      "message": "Haussa tapahtui virhe."
+    }
+  },
+  "type": "Tyyppi",
+  "tags": "Tunnisteet",
+  "owner": "Omistaja",
+  "dateCreated": "Luotu",
+  "dateUpdated": "Muokattu",
+  "categories": "Luokat",
+  "dateAndTime": "Päivämäärä ja aika",
+  "allDay": "{date} (koko päivä)",
+  "allDayRange": "{from}–{to} (koko päivä)",
+  "location": "Sijainti",
+  "attendanceType": "Osallistumisen tyyppi",
+  "inPerson": "Kasvotusten",
+  "online": "Verkko",
+  "hybrid": "Hybridi"
+}

@@ -1,0 +1,46 @@
+{
+  "registrants": "Účastníci",
+  "invite": "Pozvat",
+  "tabs": {
+    "registrants": "Účastníci",
+    "settings": "Nastavení"
+  },
+  "emptyNotice": {
+    "title": "Žádní účastníci",
+    "desc": "Události jsou vždy zábavnější s publikem. Sdílejte svou událost nebo pozvěte lidi, abyste je nalákali k účasti.",
+    "link": "Pozvat účastníky"
+  },
+  "facets": {
+    "role": {
+      "header": "Role",
+      "owner": "Vlastník",
+      "organizer": "Organizátor",
+      "attendee": "Účastník"
+    },
+    "status": {
+      "header": "Stav",
+      "pending": "Čekající",
+      "accepted": "Přijato",
+      "declined": "Zamítnuto",
+      "blocked": "Blokováno"
+    },
+    "location": {
+      "header": "Umístění",
+      "online": "Online",
+      "in_person": "Osobně"
+    },
+    "updatedDate": "Datum aktualizace"
+  },
+  "delete": {
+    "attendee": "Odebrat účastníka"
+  },
+  "notice": {
+    "label": "Chyba formuláře"
+  },
+  "success": {
+    "delete": "Účastníci byli úspěšně odebráni z události {eventName}."
+  },
+  "error": {
+    "delete": "Jednoho nebo více účastníků nebylo možné z události odebrat."
+  }
+}

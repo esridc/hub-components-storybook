@@ -1,0 +1,66 @@
+{
+  "followers": "Abonnés",
+  "tabs": {
+    "followers": "Abonnés",
+    "settings": "Paramètres"
+  },
+  "addFollowers": {
+    "label": "Ajouter des abonnés"
+  },
+  "emptyState": {
+    "message": "Le site ne comporte aucun groupe d’abonnés",
+    "action": "Créer un groupe d’abonnés"
+  },
+  "createFollowersGroup": {
+    "formDescription": "Configurez un groupe pour faciliter le partage de contenu et la communication",
+    "defaultSummary": "Ce groupe d’abonnés permet à ses membres de partager du contenu et de communiquer entre eux plus facilement"
+  },
+  "restrictedAccessState": {
+    "message": "Vos autorisations d’accès ne vous permettent pas d’afficher le groupe d’abonnés.",
+    "action": "Demander l’accès"
+  },
+  "stats": {
+    "total": {
+      "title": "Total",
+      "trailingText": "Abonnés"
+    },
+    "new": {
+      "title": "Nouveau",
+      "trailingText": "30 derniers jours"
+    }
+  },
+  "addMembers": {
+    "button": "Ajouter des membres",
+    "modal": {
+      "title": "Ajouter des membres",
+      "org": "Mon organisation",
+      "community": "Ma communauté",
+      "partner": "Mes partenaires",
+      "world": "Monde"
+    },
+    "notifications": {
+      "invited": "Invitation envoyée. Les utilisateurs doivent accepter l’invitation pour rejoindre le groupe",
+      "added": "Utilisateur(s) ajouté(s)",
+      "notInvited": "Certains utilisateurs ne disposent peut-être pas des privilèges requis pour rejoindre le groupe ou la limite maximale pour le groupe (512) a peut-être déjà été atteinte"
+    }
+  },
+  "removeUsers": {
+    "button": "Supprimer",
+    "success": "Les membres ont été supprimés de {groupName}.",
+    "error": "Impossible de supprimer un ou plusieurs utilisateurs du groupe."
+  },
+  "changeRole": {
+    "button": "Modifier le rôle",
+    "member": "Membre",
+    "memberHelperText": "Peut ajouter du contenu au groupe et afficher le contenu du groupe.",
+    "tooltipText": "Désélectionner le propriétaire du groupe et/ou vous-même",
+    "tooltipLabel": "Exclusion de rôle",
+    "admin": "Gestionnaire",
+    "adminHelperText": "Peut ajouter/supprimer du contenu et inviter/supprimer des utilisateurs (à l’exception du propriétaire).",
+    "success": "Les membres sélectionnés possèdent désormais le rôle {role} au sein du groupe.",
+    "error": "Le rôle n’a pas pu être modifié pour un ou plusieurs membres."
+  },
+  "notice": {
+    "label": "Alerte de formulaire"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "overview": "概要",
+  "telemetry": {
+    "pageViews": "ページ ビュー",
+    "last30days": "過去 30 日間",
+    "lastUpdated": "最終更新: {hoursElapsed} 時間前",
+    "checkTomorrow": "明日確認してください"
+  },
+  "learnAbout": "Hub プロジェクトの詳細",
+  "status": {
+    "notStarted": "開始前",
+    "inProgress": "進行中",
+    "onHold": "保留中",
+    "complete": "完了"
+  },
+  "editDetails": "詳細の編集",
+  "noPurposeSet": "目的が設定されていません",
+  "noLocationSet": "場所が設定されていません"
+}

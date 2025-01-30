@@ -1,0 +1,35 @@
+{
+  "success": "Modifiche salvate correttamente",
+  "error": "Errore durante il salvataggio delle modifiche",
+  "formAlert": "Avviso modulo",
+  "projects": {
+    "header": "Progetti",
+    "list": "Elenco progetti",
+    "config": "Configurazione",
+    "notConfigured": "La funzionalità dei progetti non è configurata. Utilizzare la scheda Configurazione."
+  },
+  "content": {
+    "header": "Contenuto",
+    "list": "Elenco contenuto",
+    "config": "Configurazione",
+    "notConfigured": "La funzionalità del contenuto non è configurata. Utilizzare la scheda Configurazione."
+  },
+  "initiatives": {
+    "header": "Iniziative",
+    "list": "Elenco iniziative",
+    "config": "Configurazione",
+    "notConfigured": "La funzionalità delle iniziative non è configurata. Utilizzare la scheda Configurazione."
+  },
+  "events": {
+    "header": "Eventi",
+    "list": "Elenco eventi",
+    "config": "Configurazione",
+    "notConfigured": "La funzionalità degli eventi non è configurata. Utilizzare la scheda Configurazione."
+  },
+  "pages": {
+    "header": "Pagine",
+    "list": "Elenco pagine",
+    "config": "Configurazione",
+    "notConfigured": "La funzionalità delle pagine non è configurata. Utilizzare la scheda Configurazione."
+  }
+}

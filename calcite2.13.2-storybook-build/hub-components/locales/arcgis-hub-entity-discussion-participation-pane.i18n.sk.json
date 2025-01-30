@@ -1,0 +1,82 @@
+{
+  "title": "Účasť",
+  "subtitle": "Nastavte viditeľnosť diskusného fóra (kto si ho môže prezerať), prejdite nižšie a nastavte, kto môže editovať informácie na fóre, a potom nastavte účasť a moderovanie pomocou kanálov.",
+  "channelTitle": "Je nastavený kanál účasti",
+  "channelDescription": "Tento kanál riadi, kto môže pridávať, zobrazovať a moderovať príspevky v tomto diskusnom fóre.",
+  "addChannelsTitle": "Nastaviť kanál",
+  "addChannelsDescription": "Kanály určujú, kto môže pridávať príspevky na nástenku. Môžu byť otvorené pre skupiny, organizácie alebo verejnosť a možno ich použiť na mnohé diskusie. Kanály tiež kontrolujú, kto môže moderovať. Nastavenie blokovaných slov pre automatické moderovanie v rámci kanála.",
+  "privateChannelTitle": "Je nastavený súkromný kanál",
+  "privateChannelDescription": "Súkromný kanál priradený k tomuto diskusnému fóru nemôžete vidieť. Môžete odstrániť kanál a vybrať existujúci kanál alebo vytvoriť kanál.",
+  "removeChannelConfirmationMessage": "Toto diskusné fórum už nebude zobrazovať príspevky. Ak bude tento kanál odstránený, môžete pridať iný kanál.",
+  "headingChannelEdit": "Editujete kanál",
+  "headingChannelView": "Prezeráte si kanál",
+  "headingChannelCreate": "Vytvárate kanál",
+  "buttons": {
+    "browse": "Prehľadávať kanály",
+    "new": "Nový kanál",
+    "removeChannel": "Odstrániť kanál",
+    "cancel": "Zrušiť"
+  },
+  "alerts": {
+    "label": "Upozornenie na formulár",
+    "set": {
+      "title": "Úspech. Kanál je nastavený."
+    },
+    "removed": {
+      "title": "Kanál odstránený",
+      "message": "Vyberte alebo vytvorte kanál na účasť."
+    },
+    "error": {
+      "title": "Zlyhalo. Kanál nebol nastavený."
+    }
+  },
+  "galleryPickerTitle": "Vybrať kanál",
+  "channelsLabel": "Kanále",
+  "accessLabel": "Prístup",
+  "optionPublicLabel": "Verejné",
+  "optionOrganizationLabel": "Organizácia",
+  "optionPrivateLabel": "Súkromné",
+  "viewChannel": "Zobraziť kanál",
+  "editChannel": "Upraviť kanál",
+  "save": "Uložiť",
+  "removeChannel": "Odstrániť kanál",
+  "groupPicker": {
+    "facet": {
+      "label": "Z",
+      "myGroups": "Moje skupiny",
+      "myOrganization": "Moja organizácia",
+      "myCommunity": "Moja komunita"
+    }
+  },
+  "editGroupButtonText": "Pridať možnosť editovať skupiny",
+  "viewGroupButtonText": "Pridať možnosť zobraziť skupiny",
+  "viewGroups": {
+    "header": "Kto si môže prezerať",
+    "description": "Ľudia, ktorí si môžu prezerať nástenku (ale nemôžu na ňu písať); pridávanie príspevkov je nastavené podľa nižšie uvedených kanálov."
+  },
+  "editGroups": {
+    "header": "Kto môže editovať",
+    "description": "Členovia skupiny môžu editovať informácie o fóre v pracovnom priestore."
+  },
+  "aboutChannelsNotice": {
+    "title": "Predstavenie kanálov",
+    "message": "Kanály nie sú skupiny, ale môžu ich obsahovať. Určujú, kto môže prispievať a moderovať.",
+    "action": "Viac o kanáloch"
+  },
+  "nonPrivateChannelNotice": {
+    "title": "Nie je možné editovať kanál",
+    "message": "Iba moderátori tohto kanálu ho môžu editovať. V prípade potreby sa obráťte na vlastníka kanála alebo správcu organizácie. Tento kanál môžete tiež odstrániť, pridať existujúci kanál (ktorého ste moderátorom) alebo vytvoriť nový."
+  },
+  "privateChannelNotice": {
+    "title": "Nie je možné editovať kanál",
+    "message": "Iba moderátori tohto kanálu ho môžu editovať. V prípade potreby sa obráťte na vlastníka kanála, aby ho pridal. Tento kanál môžete tiež odstrániť, pridať existujúci kanál (ktorého ste moderátorom) alebo vytvoriť nový."
+  },
+  "participate": {
+    "header": "Kto sa môže zúčastniť a kto môže moderovať"
+  },
+  "org": "Organizácia",
+  "private": "Súkromné",
+  "public": "Verejné",
+  "unnamed": "Kanál bez názvu",
+  "groupNotFound": "Skupina sa nenašla"
+}

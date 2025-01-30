@@ -1,0 +1,59 @@
+{
+  "title": "Nariai",
+  "facets": {
+    "role": {
+      "label": "Rolė",
+      "all": "Viskas",
+      "manager": "Valdytojas",
+      "member": "Narys"
+    },
+    "dateJoined": {
+      "label": "Prisijungimo data"
+    }
+  },
+  "stats": {
+    "total": {
+      "title": "Iš viso",
+      "trailingText": "Grupės nariai"
+    },
+    "new": {
+      "title": "Nauja",
+      "trailingText": "30 dienų"
+    }
+  },
+  "addMembers": {
+    "button": "Įtraukti narius",
+    "disabledTooltip": "Neturite prieigos pridėti naudotojų į šią grupę.",
+    "modal": {
+      "title": "Įtraukti narius",
+      "org": "Mano organizacija",
+      "community": "Mano bendruomenė",
+      "partner": "Mano partneriai",
+      "world": "Pasaulis"
+    },
+    "notifications": {
+      "invited": "Pakvietimas išsiųstas. Naudotojai turi sutikti prisijungti",
+      "added": "Naudotojas (-ai) prijungtas (-i)",
+      "notInvited": "Kai kurie naudotojai gali neturėti teisių, reikalingų prisijungti prie grupės, arba jiems gali būti taikomas didžiausias grupės limitas (512)"
+    }
+  },
+  "removeUsers": {
+    "button": "Pašalinti",
+    "success": "Nariai sėkmingai pašalinti iš {groupName}.",
+    "error": "Vieno ar daugiau naudotojų nepavyko pašalinti iš grupės."
+  },
+  "changeRole": {
+    "tooltipText": "Atšaukite save ir (arba) grupės savininką",
+    "tooltipLabel": "Rolės atsakomybės atsisakymas",
+    "button": "Pakeisti vaidmenį",
+    "member": "Narys",
+    "memberHelperText": "Gali pridėti ir matyti grupės turinį.",
+    "admin": "Valdytojas",
+    "adminHelperText": "Gali pridėti / pašalinti turinį ir pakviesti / pašalinti žmones (išskyrus savininką).",
+    "success": "Pasirinkti nariai tapo grupės {role}.",
+    "error": "Vienam ar daugiau narių nepavyko pakeisti vaidmens."
+  },
+  "notice": {
+    "label": "Formos įspėjimas"
+  }
+}

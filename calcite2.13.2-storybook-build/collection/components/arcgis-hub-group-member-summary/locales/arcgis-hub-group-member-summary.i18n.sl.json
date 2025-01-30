@@ -1,0 +1,12 @@
+{
+  "members": {
+    "noMember": "Ni članov",
+    "oneMember": "1 član",
+    "members": "Št. članov: {count}"
+  },
+  "managers": {
+    "noMember": "Brez upraviteljev",
+    "oneMember": "1 upravitelj",
+    "members": "{count} upraviteljev"
+  }
+}

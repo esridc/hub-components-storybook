@@ -1,0 +1,49 @@
+{
+  "settings": "設定",
+  "advanced": "進階",
+  "delete": {
+    "event": "刪除此事件",
+    "desc": "刪除此事件無法還原。 現有註冊者將收到通知 (如果為事件啟用了自動通知)。",
+    "deleteButton": "刪除事件"
+  },
+  "cancel": {
+    "header": "取消此事件",
+    "desc": "如果取消，事件將保持可見狀態並處於取消狀態。 註冊將停止，現有註冊者將收到通知 (如果為事件啟用了自動通知)。",
+    "event": "取消事件",
+    "notice": {
+      "success": {
+        "title": "已取消事件",
+        "message": "如果啟用自動通知，現有註冊者將收到通知。"
+      },
+      "error": {
+        "title": "無法取消事件",
+        "message": "請再試一次"
+      }
+    }
+  },
+  "enable": {
+    "event": "重新啟用事件",
+    "desc": "已取消事件 (已取消狀態可見)。",
+    "notice": {
+      "success": {
+        "title": "已重新啟用事件",
+        "message": "如果啟用自動通知，現有註冊者將收到通知。"
+      },
+      "error": {
+        "title": "無法重新啟用事件",
+        "message": "請再試一次"
+      }
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "event": "刪除事件"
+    },
+    "content": "是否確定要刪除:",
+    "delete": "刪除事件",
+    "cancel": "取消事件"
+  },
+  "notice": {
+    "label": "表格警示"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "Muokkaa",
+    "fields": {
+      "label": {
+        "label": "Tunnusteksti",
+        "requiredMessage": "Tunnusteksti vaaditaan",
+        "maxLengthMessage": "Tunnustekstissä saa olla enintään {maxLength} merkkiä"
+      }
+    },
+    "apply": "Käytä"
+  },
+  "showItem": "Näytä seuraava luettelokohde: {itemLabel}",
+  "hideItem": "Piilota seuraava luettelokohde: {itemLabel}",
+  "editItem": "Muokkaa seuraavaa luettelokohdetta: {itemLabel}"
+}

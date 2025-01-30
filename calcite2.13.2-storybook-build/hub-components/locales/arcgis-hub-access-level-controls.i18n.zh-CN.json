@@ -1,0 +1,16 @@
+{
+  "heading": "共享级别",
+  "public": "公共",
+  "publicInfo": "所有人都可以查看此 {itemType}",
+  "organization": "组织",
+  "organizationInfo": "拥有 {orgName} 帐户的成员以及群组都可以查看此 {itemType}",
+  "owner": "所有者",
+  "ownerInfo": "具有访问权限的所有者和群组可以查看此 {itemType}",
+  "discussion": {
+    "publicInfo": "任何人都可以查看此讨论板",
+    "organization": "我的组织",
+    "organizationInfo": "拥有 {orgName} 帐户的所有成员均可查看此讨论板",
+    "owner": "私有",
+    "ownerInfo": "所有者和所选群组可以查看此讨论板"
+  }
+}

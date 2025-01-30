@@ -1,0 +1,33 @@
+{
+  "groups": "Οι ομάδες μου",
+  "addContentButtonText": "Δημιουργία νέου",
+  "role": "Ρόλος",
+  "owner": "Κάτοχος",
+  "updated": "Επιτυχής ενημέρωση",
+  "type": "Τύπος",
+  "sharedUpdate": "Ομάδα κοινής ενημέρωσης",
+  "viewOnly": "Ομάδα μόνο προβολής",
+  "actionLinks": {
+    "view": "Προβολή",
+    "edit": "Επεξεργασία",
+    "ariaEdit": "Επεξεργασία: {title}",
+    "ariaView": "Προβολή: {title}"
+  },
+  "facets": {
+    "access": {
+      "label": "Δυνατότητα προβολής από",
+      "options": {
+        "public": "Όλοι (δημόσια)",
+        "org": "Οργανισμός",
+        "private": "Εμένα"
+      }
+    },
+    "type": {
+      "label": "Τύποι",
+      "options": {
+        "sharedUpdate": "Ενημέρωση κοινοποιημένων αντικειμένων",
+        "opendata": "Open Data"
+      }
+    }
+  }
+}

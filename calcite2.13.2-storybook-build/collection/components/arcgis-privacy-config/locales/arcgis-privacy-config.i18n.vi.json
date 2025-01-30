@@ -1,0 +1,29 @@
+{
+  "additionalInfo": {
+    "label": "Thiết lập hiển thị tùy chọn",
+    "helperText": "Thêm mô tả quyền riêng tư và thông tin chính sách của riêng bạn."
+  },
+  "allowPrivacyConfig": {
+    "label": "Hiển thị thông báo quyền riêng tư"
+  },
+  "blocking": {
+    "label": "Loại thông báo",
+    "optional": {
+      "label": "Không bắt buộc phải chấp thuận",
+      "description": "Người xem có thể sử dụng trang web mà không cần chọn chấp thuận yêu cầu quyền riêng tư; quá trình theo dõi bắt đầu ngay lập tức cho đến khi bị người xem từ chối."
+    },
+    "required": {
+      "label": "Cần chấp thuận",
+      "description": "Người xem phải chấp nhận hoặc từ chối hoạt động theo dõi để sử dụng trang web; quá trình theo dõi sẽ không bắt đầu trừ khi được người xem chấp nhận."
+    }
+  },
+  "consentText": {
+    "label": "Mô tả về quyền riêng tư",
+    "helperText": "Hiển thị dưới dạng thông báo quyền riêng tư cho người xem trang web."
+  },
+  "policyURL": {
+    "label": "Liên kết chính sách",
+    "helperText": "Hiển thị dưới dạng liên kết \"Thông tin khác\" trong thông báo về quyền riêng tư.",
+    "error": "Phải là URL hợp lệ để được hiển thị."
+  }
+}

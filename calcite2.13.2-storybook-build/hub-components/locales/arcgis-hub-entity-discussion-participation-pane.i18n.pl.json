@@ -1,0 +1,82 @@
+{
+  "title": "Uczestnictwo",
+  "subtitle": "Ustaw widoczność forum dyskusyjnego (kto może je wyświetlać). Przewiń w dół, aby zdecydować, kto będzie mógł edytować informacje na forum, a następnie ustaw uczestników i moderatorów za pomocą kanałów.",
+  "channelTitle": "Kanał uczestnictwa został ustawiony",
+  "channelDescription": "Ten kanał steruje tym, kto może dodawać, wyświetlać i moderować wpisy na tym forum dyskusyjnym.",
+  "addChannelsTitle": "Ustaw kanał",
+  "addChannelsDescription": "Kanały sterują tym, kto może dodawać wpisy na forum. Mogą być otwarte dla grup, instytucji lub wszystkich użytkowników. Można je stosować do wielu dyskusji. Dzięki kanałom można także wyznaczyć moderatorów. Ustaw zablokowane słowa na potrzeby automatycznej moderacji w obrębie kanału.",
+  "privateChannelTitle": "Prywatny kanał został ustawiony",
+  "privateChannelDescription": "Nie można wyświetlać prywatnego kanału przypisanego do tego forum dyskusyjnego. Możesz usunąć ten kanał i wybrać istniejący kanał albo utworzyć kanał.",
+  "removeChannelConfirmationMessage": "Na tym forum dyskusyjnym nie są już wyświetlane wpisy. Jeśli ten kanał zostanie usunięty, możesz dodać kanał.",
+  "headingChannelEdit": "Edytujesz kanał",
+  "headingChannelView": "Wyświetlasz kanał",
+  "headingChannelCreate": "Tworzysz kanał",
+  "buttons": {
+    "browse": "Przeglądaj kanały",
+    "new": "Nowy kanał",
+    "removeChannel": "Usuń kanał",
+    "cancel": "Anuluj"
+  },
+  "alerts": {
+    "label": "Alert dotyczący formularza",
+    "set": {
+      "title": "Sukces. Kanał został ustawiony."
+    },
+    "removed": {
+      "title": "Usunięto kanał",
+      "message": "Wybierz lub utwórz kanał uczestnictwa"
+    },
+    "error": {
+      "title": "Nie udało się. Kanał nie został ustawiony."
+    }
+  },
+  "galleryPickerTitle": "Wybierz kanał",
+  "channelsLabel": "Kanały",
+  "accessLabel": "Dostęp",
+  "optionPublicLabel": "Publiczne",
+  "optionOrganizationLabel": "Instytucja",
+  "optionPrivateLabel": "Prywatne",
+  "viewChannel": "Wyświetl kanał",
+  "editChannel": "Edytuj kanał",
+  "save": "Zapisz",
+  "removeChannel": "Usuń kanał",
+  "groupPicker": {
+    "facet": {
+      "label": "Z",
+      "myGroups": "Moje grupy",
+      "myOrganization": "Moja instytucja",
+      "myCommunity": "Moja społeczność"
+    }
+  },
+  "editGroupButtonText": "Dodaj grupy edycji",
+  "viewGroupButtonText": "Dodaj grupy wyświetlania",
+  "viewGroups": {
+    "header": "Kto może wyświetlać",
+    "description": "Osoby, które mogą wyświetlać to forum (ale nie publikować na nim). O ustawieniach publikowania decydują poniższe kanały."
+  },
+  "editGroups": {
+    "header": "Kto może edytować",
+    "description": "Członkowie grupy mogą edytować informacje na forum w tej przestrzeni roboczej."
+  },
+  "aboutChannelsNotice": {
+    "title": "Wprowadzenie do kanałów",
+    "message": "Kanały nie są grupami, ale mogą je zawierać. Decydują o tym, kto może publikować wpisy i moderować.",
+    "action": "Więcej informacji o kanałach"
+  },
+  "nonPrivateChannelNotice": {
+    "title": "Nie można edytować kanału",
+    "message": "Tylko moderatorzy tego kanału mogą go edytować. W razie potrzeby skontaktuj się z właścicielem kanału lub administratorem instytucji do dodania. Możesz także usunąć ten kanał, dodać istniejący (jeśli jesteś jego moderatorem) lub utworzyć nowy."
+  },
+  "privateChannelNotice": {
+    "title": "Nie można edytować kanału",
+    "message": "Tylko moderatorzy tego kanału mogą go edytować. W razie potrzeby skontaktuj się z właścicielem kanału do dodania. Możesz także usunąć ten kanał, dodać istniejący (jeśli jesteś jego moderatorem) lub utworzyć nowy."
+  },
+  "participate": {
+    "header": "Kto może uczestniczyć i kto może moderować"
+  },
+  "org": "Instytucja",
+  "private": "Prywatne",
+  "public": "Publiczne",
+  "unnamed": "Kanał bez nazwy",
+  "groupNotFound": "Nie znaleziono grupy"
+}

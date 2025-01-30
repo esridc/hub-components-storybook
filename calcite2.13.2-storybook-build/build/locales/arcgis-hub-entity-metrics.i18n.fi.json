@@ -1,0 +1,75 @@
+{
+  "addMetric": "Lisää mittatieto",
+  "title": "Mittatiedot",
+  "featured": "Esittelyssä",
+  "metricDescription": "Projektin etenemisessä käytettävä mitattava arvo perustuu joko tilastolliseen (kuten aiempaan) tai dynaamiseen (kuten reaaliaikaiseen) aineistoon.",
+  "metricCount": {
+    "label": "{currentCount}/{totalCountAllowed} mittaria",
+    "tooltip": "Jotta voit lisätä mittareita, poista osa nykyisistä mittareista"
+  },
+  "visible": {
+    "title": "Näkyvä",
+    "noMetrics": "Tässä lohkossa ei ole mittatietoja."
+  },
+  "hidden": {
+    "title": "Piilotettu",
+    "description": "Nämä mittatiedot näkyvät vain henkilöille, joilla on tämän työtilan käyttöoikeudet.",
+    "noMetrics": "Tässä lohkossa ei ole mittatietoja."
+  },
+  "project": {
+    "featured": {
+      "description": "Sinulla voi olla neljä esiteltyä mittatietoa. Ne näkyvät live-projektin yleiskuvauksessa."
+    },
+    "visible": {
+      "description": "Näkyvät mittatiedot näytetään live-projektin Mittatiedot-välilehdessä."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Mittatiedot vastaavat projektin jakamistasoa. Piilotetut mittatiedot voivat olla edelleen käytettävissä API-kutsulla.",
+        "metricsDockLink": "Lue lisätietoja mittatietojen määrittämisestä"
+      }
+    }
+  },
+  "initiative": {
+    "featured": {
+      "description": "Sinulla voi olla neljä esiteltyä mittatietoa. Ne näkyvät live-aloitteen yleiskuvauksessa."
+    },
+    "visible": {
+      "description": "Näkyvät mittatiedot näytetään live-projektin Mittatiedot-välilehdessä."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Mittatiedot vastaavat aloitteen jakamistasoa. Piilotetut mittatiedot voivat olla edelleen käytettävissä API-kutsulla.",
+        "metricsDockLink": "Lue lisätietoja mittatietojen määrittämisestä"
+      }
+    }
+  },
+  "metricNumber": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4"
+  },
+  "actions": {
+    "delete": "Poista",
+    "edit": "Muokkaa",
+    "featured": "Kohde",
+    "removeFeatured": "Poista esitellyt",
+    "show": "Siirrä näkyviin",
+    "hide": "Siirrä piilotettuihin"
+  },
+  "editor": {
+    "heading": "Uusi mittatieto",
+    "description": "Mittatiedot piilotetaan oletusarvoisesti, jotta työtilasi jäsenet voivat nähdä ne."
+  },
+  "deleteMetricModal": {
+    "heading": "Poista mittatieto",
+    "content": "Haluatko varmasti poistaa kohteen:",
+    "cancel": "Peruuta",
+    "delete": "Poista"
+  },
+  "sidePanel": {
+    "definitions": "Määritykset",
+    "preview": "Esikatselu"
+  }
+}

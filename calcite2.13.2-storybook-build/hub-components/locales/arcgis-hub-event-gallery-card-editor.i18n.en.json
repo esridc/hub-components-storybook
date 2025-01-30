@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "Categories",
+        "noCategoriesNotice": {
+          "body": "This organization does not have any categories yet.",
+          "link": "Set up categories"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "Content",
+      "selectionMode": {
+        "dynamic": {
+          "label": "Dynamic"
+        },
+        "manual": {
+          "label": "Manual"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "Organization"
+        },
+        "collection": {
+          "sites": "Sites",
+          "projects": "Projects",
+          "initiatives": "Initiatives"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "Organization"
+        },
+        "collection": {
+          "events": "Events"
+        }
+      },
+      "access": {
+        "label": "Sharing",
+        "private": {
+          "label": "Private",
+          "description": "Filter by content only available to you and those with group access."
+        },
+        "org": {
+          "label": "Organization",
+          "description": "Filter by content only available to members of your organization."
+        },
+        "public": {
+          "label": "Public",
+          "description": "Filter by content available to everyone."
+        }
+      },
+      "tags": {
+        "label": "Tags"
+      },
+      "cardsShown": {
+        "label": "Cards Shown"
+      }
+    },
+    "appearance": {
+      "label": "Appearance",
+      "titleHeading": {
+        "label": "Title Heading",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "Per WCAG G141 nested headings improve accessibiliity."
+      },
+      "corners": {
+        "label": "Corners",
+        "square": {
+          "label": "Squared"
+        },
+        "round": {
+          "label": "Rounded"
+        }
+      },
+      "shadow": {
+        "label": "Shadow",
+        "none": {
+          "label": "Turned off"
+        },
+        "low": {
+          "label": "Low"
+        },
+        "medium": {
+          "label": "Medium"
+        },
+        "heavy": {
+          "label": "Heavy"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "Show additional info"
+      },
+      "layout": {
+        "label": "Layout",
+        "list": {
+          "label": "List"
+        },
+        "map": {
+          "label": "Map"
+        },
+        "calendar": {
+          "label": "Calendar"
+        }
+      }
+    },
+    "options": {
+      "label": "Options",
+      "openIn": {
+        "label": "Open in…",
+        "same": {
+          "label": "Same tab"
+        },
+        "new": {
+          "label": "New tab"
+        },
+        "notice": {
+          "title": "Accessibility Tip:",
+          "body": "Per the WCAG 2.0 G200 technique, opening links in new tabs or windows is not recommended.",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "Read more about WCAG 2.0 G200"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "Sharing",
+      "public": {
+        "label": "Public"
+      },
+      "private": {
+        "label": "Private"
+      },
+      "organization": {
+        "label": "Organization"
+      }
+    },
+    "from": {
+      "label": "From",
+      "myOrganization": {
+        "label": "My Organization"
+      },
+      "myContent": {
+        "label": "My Content"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "Events",
+      "collections": {
+        "event": {
+          "label": "Events"
+        }
+      }
+    },
+    "item": {
+      "label": "Content",
+      "collections": {
+        "item": {
+          "label": "Content"
+        }
+      }
+    }
+  }
+}

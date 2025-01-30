@@ -1,0 +1,12 @@
+{
+  "members": {
+    "noMember": "Нет участников",
+    "oneMember": "1 участник",
+    "members": "{count} участников"
+  },
+  "managers": {
+    "noMember": "Нет менеджеров",
+    "oneMember": "1 менеджер",
+    "members": "{count} менеджеров"
+  }
+}

@@ -1,0 +1,130 @@
+:host {
+  display: block;
+}
+
+calcite-panel {
+  height: inherit;
+}
+
+calcite-panel div {
+  background-color: var(--calcite-color-foreground-1);
+}
+
+.esri-legend__service, .esri-legend__service > .esri-widget__heading {
+  color: var(--calcite-color-text-1);
+}
+
+.hub-widget-legend {
+  min-width: none !important;
+  max-width: none !important;
+  padding: 0px;
+}
+
+calcite-panel[closed] {
+  display: none;
+}
+
+@media only screen and (min-width: 640px) {
+
+  .hub-widget-legend.top {
+    position: absolute;
+  }
+
+  .hub-widget-legend.top {
+    width: 25rem;
+  }
+
+  .hub-widget-legend.top {
+    padding: 0px;
+  }
+
+  .hub-widget-legend.top {
+    max-height: calc(var(--panel-height) - 2rem);
+  }
+
+  .hub-widget-legend.bottom {
+    position: absolute;
+  }
+
+  .hub-widget-legend.bottom {
+    width: 25rem;
+  }
+
+  .hub-widget-legend.bottom {
+    padding: 0px;
+  }
+
+  .hub-widget-legend.bottom {
+    bottom: calc(var(--bottom-offset) - 2rem);
+    max-height: calc(var(--panel-height) - 1rem);
+  }
+
+  .hub-widget-legend.right {
+    right: 100%;
+  }
+
+  .hub-widget-legend.right {
+    margin-right: 1rem;
+  }
+
+  .hub-widget-legend.left {
+    left: 100%;
+  }
+
+  .hub-widget-legend.left {
+    margin-left: 1rem;
+  }
+
+  .hub-widget-legend.bottom.left {
+    margin-left: 0.5rem;
+  }
+
+  .hub-widget-legend.bottom.right {
+    margin-right: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .hub-widget-legend.top {
+    position: absolute;
+  }
+  .hub-widget-legend.top {
+    z-index: 50;
+  }
+  .hub-widget-legend.top {
+    padding: 0px;
+  }
+  .hub-widget-legend.top {
+    top: calc(var(--panel-height) - var(--panel-height-mobile) + var(--top-offset) - 1rem);
+    width: calc(var(--view-width) + 1px);
+    display: var(--mobile-display);
+    height: var(--panel-height-mobile);
+  }
+
+  .hub-widget-legend.bottom {
+    position: absolute;
+  }
+
+  .hub-widget-legend.bottom {
+    z-index: 50;
+  }
+
+  .hub-widget-legend.bottom {
+    padding: 0px;
+  }
+
+  .hub-widget-legend.bottom {
+    bottom: calc(var(--panel-height-mobile) - var(--panel-height) - var(--bottom-offset) - 1rem);
+    width: calc(var(--view-width) + 1px);
+    display: var(--mobile-display);
+    height: var(--panel-height-mobile);
+  }
+
+  .hub-widget-legend.right {
+    right: -1rem;
+  }
+
+  .hub-widget-legend.left {
+    left: -1rem;
+  }
+}

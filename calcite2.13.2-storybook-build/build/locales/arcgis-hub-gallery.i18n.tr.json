@@ -1,0 +1,91 @@
+{
+  "moreResults": "Diğer sonuçlar",
+  "search": "Ara",
+  "filter": "Filtreler",
+  "viewResults": "Sonuçları görüntüle ({numResults})",
+  "resultsCount": "1 - {pageTotal} / {searchTotal}",
+  "backToTop": "Başa dön",
+  "facets": {
+    "access": {
+      "label": "Paylaşım",
+      "private": "Kendim",
+      "shared": "Sahibi ve gruplar",
+      "org": "Kuruluş",
+      "public": "Genel"
+    },
+    "license": {
+      "label": "Lisans",
+      "tooltip": "Sadece herkese açık içerikte",
+      "custom": "Özel",
+      "none": "Hiçbiri"
+    },
+    "type": {
+      "label": "Tür"
+    },
+    "tags": {
+      "label": "Etiketler"
+    },
+    "dateUpdated": {
+      "label": "Güncellenme tarihi"
+    },
+    "source": {
+      "label": "Kaynak",
+      "tooltip": "Farklı kuruluşlardan herkese açık içerik"
+    },
+    "categories": {
+      "label": "Kategoriler"
+    },
+    "location": {
+      "label": "Konum",
+      "tooltip": "Harita yayılımını bir konum filtresi olarak uygula"
+    },
+    "event": {
+      "from": {
+        "label": "Sahiplik",
+        "myContent": "Ben",
+        "myOrganization": "Kuruluşum",
+        "world": "Herkes"
+      },
+      "access": {
+        "label": "Erişim",
+        "private": "Özel",
+        "org": "Kuruluş",
+        "public": "Genel"
+      },
+      "startDate": {
+        "label": "Etkinlik Tarihi"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "Tür",
+        "all": "Tümü",
+        "view": "Görüntüle",
+        "edit": "Düzenle"
+      },
+      "role": {
+        "label": "Rol",
+        "all": "Tümü",
+        "member": "Üye",
+        "manager": "Yönetici",
+        "owner": "Sahip"
+      },
+      "sharing": {
+        "label": "Görünürlük",
+        "private": "Özel",
+        "public": "Genel"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "Listeyi göster",
+    "grid": "Grid’i göster",
+    "map": "Haritayı göster",
+    "compact": "Kompakt görünüm",
+    "calendar": "Takvimi görüntüle",
+    "table": "Tabloyu görüntüle"
+  },
+  "galleryActionsLabel": "Ek işlemler",
+  "selected": "Seçilen: {count}",
+  "popoverActionButtonLabel": "daha fazla eylem"
+}

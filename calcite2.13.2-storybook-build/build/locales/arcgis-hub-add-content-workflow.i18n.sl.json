@@ -1,0 +1,110 @@
+{
+  "controls": {
+    "addContent": "Dodaj vsebino",
+    "back": "Nazaj",
+    "cancel": "Prekliči",
+    "close": "Končano",
+    "create": "Ustvari in dodaj v skupino",
+    "next": "Naprej"
+  },
+  "createHelpState": {
+    "discussion": {
+      "heading": "Razprava",
+      "message": "Ustvarite nov forum za razprave tako, da vnesete naslov, ki označuje temo."
+    },
+    "event": {
+      "heading": "Dogodek",
+      "message": "Gostite organizirano dejavnost, v živo ali virtualno."
+    },
+    "group": {
+      "heading": "Skupina",
+      "message": "Nastavi skupino za sodelovanje v osredotočenih vsebinah."
+    },
+    "initiative": {
+      "heading": "Iniciativa",
+      "message": "Iniciative organizirajo in povzemajo napredek pri povzemanju cilja."
+    },
+    "page": {
+      "heading": "Stran",
+      "message": "Stran je mesto za izmenjavo informacij in stik z vašim občinstvom."
+    },
+    "project": {
+      "heading": "Projekt",
+      "message": "Izpostavite delo, ki ima jasne cilje in časovne okvire."
+    },
+    "site": {
+      "heading": "Mesto",
+      "message": "Ustvari spletno stran za organizacijo in deljenje informacij."
+    }
+  },
+  "selection": {
+    "unlimited": "Izbrano: {count}",
+    "limited": "Izbrano: {count} / {limit}"
+  },
+  "steps": {
+    "createContent": "Dodaj osnovne informacije",
+    "selectContent": "Izberi vsebino",
+    "selectGroups": "Izberi skupino",
+    "confirmation": "Potrditev",
+    "notImplemented": "Ni uvedeno"
+  },
+  "working": {
+    "heading": "Dodajamo izbrano vsebino.",
+    "loadingLabel": "Dodajamo vsebino."
+  },
+  "failure": {
+    "heading": "Vsebina ni bila dodana",
+    "message": "Pri dodajanju izbrane vsebine je prišlo do napake. Poskusite znova.",
+    "action": "Poskusite znova"
+  },
+  "notImplemented": {
+    "heading": "Delovni proces še ni uveden."
+  },
+  "contentGallery": {
+    "facets": {
+      "access": {
+        "label": "Od"
+      },
+      "type": {
+        "label": "Tipi"
+      },
+      "tags": {
+        "label": "Oznake"
+      },
+      "categories": {
+        "label": "Kategorije"
+      },
+      "modified": {
+        "label": "Spremenjeno"
+      }
+    }
+  },
+  "groupsGallery": {
+    "facets": {
+      "access": {
+        "label": "Kdo si lahko ogleda",
+        "options": {
+          "org": "Organizacija",
+          "public": "Vsi (javno)",
+          "private": "Jaz"
+        }
+      },
+      "from": {
+        "label": "Od",
+        "options": {
+          "myCommunity": "Moja zainteresirana javnost",
+          "myGroups": "Moje skupine",
+          "myOrganization": "Moja organizacija",
+          "world": "Svet"
+        }
+      },
+      "type": {
+        "label": "Tipi",
+        "options": {
+          "sharedUpdate": "Deljena posodobitev",
+          "opendata": "Open Data"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "header": "Обговорення",
+  "myContent": "Мої події",
+  "editableContent": "Вміст з можливістю редагування",
+  "addContentButtonText": "Створити подію",
+  "type": "Тип",
+  "sharedUpdate": "Спільне оновлення групи",
+  "viewOnly": "Група тільки для перегляду",
+  "owner": "Власник",
+  "updated": "Оновлено",
+  "tags": "Теги",
+  "dateCreated": "Створено",
+  "dateUpdated": "Змінено",
+  "actionLinks": {
+    "view": "Перегляд",
+    "edit": "Редагувати",
+    "ariaEdit": "Редагувати: {title}",
+    "ariaView": "Переглянути: {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Події",
+      "myContent": "Події, що мені належать",
+      "editableContent": "Події, які я можу редагувати",
+      "all": "Усі події"
+    },
+    "access": {
+      "label": "Від"
+    },
+    "type": {
+      "label": "Типи"
+    },
+    "tags": {
+      "label": "Теги"
+    },
+    "categories": {
+      "label": "Категорії"
+    },
+    "modified": {
+      "label": "Змінено"
+    }
+  }
+}

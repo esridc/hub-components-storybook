@@ -1,0 +1,49 @@
+{
+  "settings": "Indstillinger",
+  "advanced": "Avanceret",
+  "delete": {
+    "event": "Slet denne begivenhed",
+    "desc": "Sletning af denne begivenhed kan ikke fortrydes. Eksisterende tilmeldte deltagere vil få besked (hvis automatiske notifikationer er aktiveret for begivenheden).",
+    "deleteButton": "Slet begivenhed"
+  },
+  "cancel": {
+    "header": "Annuller denne begivenhed",
+    "desc": "Hvis begivenheden annulleres, vil den forblive synlig med statussen annulleret. Registreringen vil stoppe, og eksisterende tilmeldte deltagere vil få besked (hvis automatiske notifikationer er aktiveret for begivenheden).",
+    "event": "Annuller begivenhed",
+    "notice": {
+      "success": {
+        "title": "Begivenheden er annulleret",
+        "message": "Eksisterende tilmeldte deltagere vil få besked, hvis automatiske notifikationer er aktiveret."
+      },
+      "error": {
+        "title": "Kunne ikke annullere begivenhed",
+        "message": "Prøv igen"
+      }
+    }
+  },
+  "enable": {
+    "event": "Genaktiver begivenhed",
+    "desc": "Begivenhed annulleret (synlig med statussen annulleret).",
+    "notice": {
+      "success": {
+        "title": "Begivenhed genaktiveret",
+        "message": "Eksisterende tilmeldte deltagere vil få besked, hvis automatiske notifikationer er aktiveret."
+      },
+      "error": {
+        "title": "Kunne genaktivere begivenhed",
+        "message": "Prøv igen"
+      }
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "event": "Slet begivenhed"
+    },
+    "content": "Er du sikker på, at du vil slette:",
+    "delete": "Slet begivenhed",
+    "cancel": "Annuller begivenhed"
+  },
+  "notice": {
+    "label": "Formularadvarsel"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "existing": {
+    "successHeading": "تمت إضافة المحتوى بنجاح.",
+    "failureHeading": "تتعذّر إضافة محتوى إلى المجموعة المحددة.",
+    "successfulAccordionHeading": "تمت إضافة المحتوى إلى المجموعة المحددة.",
+    "unsuccessfulAccordionHeading": "لم تتم إضافة المحتوى إلى المجموعة المحددة"
+  },
+  "create": {
+    "event": {
+      "successWithoutGroupHeading": "تم إنشاء الحدث بنجاح.",
+      "successWithGroupHeading": "تم إنشاء الحدث بنجاح وتمت إضافته إلى {group}.",
+      "successMessage": "يمكنك الآن عرض الحدث أو إدارته بهدف تحرير المعلومات أو الضغط فوق \"تم\" للعودة إلى العرض.",
+      "failureHeading": "تتعذر إضافة الحدث إلى المجموعة المحددة."
+    },
+    "discussion": {
+      "successWithoutGroupHeading": "تم إنشاء لوحة المناقشة بنجاح.",
+      "successWithGroupHeading": "تم إنشاء لوحة المناقشة بنجاح وتمت إضافتها إلى {group}.",
+      "successMessage": "يمكنك الآن عرض لوحة المناقشة أو إدارتها بهدف تحرير المعلومات أو الضغط فوق \"تم\" للعودة إلى العرض.",
+      "failureHeading": "تتعذر إضافة لوحة المناقشة إلى المجموعة المحددة."
+    },
+    "group": {
+      "successWithoutGroupHeading": "تم إنشاء المجموعة بنجاح.",
+      "successMessage": "يمكنك الآن عرض المجموعة أو إدارتها بهدف تحرير المعلومات أو الضغط فوق \"تم\" للعودة إلى العرض.",
+      "failureHeading": "يتعذر إنشاء المجموعة."
+    },
+    "initiative": {
+      "successWithoutGroupHeading": "تم إنشاء المبادرة بنجاح.",
+      "successWithGroupHeading": "تم إنشاء المبادرة بنجاح وتمت إضافتها إلى {group}.",
+      "successMessage": "يمكنك الآن عرض المبادرة أو إدارتها بهدف تحرير المعلومات أو النقر فوق \"تم\" للعودة إلى العرض.",
+      "failureHeading": "تتعذر إضافة المبادرة إلى المجموعة المحددة."
+    },
+    "page": {
+      "successWithoutGroupHeading": "تم إنشاء الصفحة بنجاح.",
+      "successWithGroupHeading": "تم إنشاء الصفحة بنجاح وتمت إضافتها إلى {group}.",
+      "successMessage": "يمكنك الآن عرض الصفحة أو إدارتها بهدف تحرير المعلومات أو الضغط فوق \"تم\" للعودة إلى العرض.",
+      "failureHeading": "تتعذر إضافة الصفحة إلى المجموعة المحددة."
+    },
+    "project": {
+      "successWithoutGroupHeading": "تم إنشاء المشروع بنجاح.",
+      "successWithGroupHeading": "تم إنشاء المشروع بنجاح وتمت إضافته إلى {group}.",
+      "successMessage": "يمكنك الآن عرض المشروع أو إدارته بهدف تحرير المعلومات أو الضغط فوق \"تم\" للعودة إلى العرض.",
+      "failureHeading": "تتعذر إضافة المشروع إلى المجموعة المحددة."
+    },
+    "site": {
+      "successWithoutGroupHeading": "تم إنشاء الموقع بنجاح.",
+      "successWithGroupHeading": "تم إنشاء الموقع بنجاح وتمت إضافته إلى {group}.",
+      "successMessage": "يمكنك الآن عرض الموقع أو إدارته بهدف تحرير المعلومات أو الضغط فوق \"تم\" للعودة إلى العرض.",
+      "failureHeading": "تتعذر إضافة الموقع إلى المجموعة المحددة."
+    }
+  },
+  "editLayout": "تحرير التخطيط",
+  "manageEntity": "إدارة",
+  "viewEntity": "عرض"
+}

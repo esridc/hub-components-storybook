@@ -1,0 +1,29 @@
+{
+  "additionalInfo": {
+    "label": "Setări de afișare opționale",
+    "helperText": "Adăugați propria descriere de confidențialitate și informații despre politică."
+  },
+  "allowPrivacyConfig": {
+    "label": "Afișați declarația de confidențialitate"
+  },
+  "blocking": {
+    "label": "Tipul declarației",
+    "optional": {
+      "label": "Consimțământ opțional",
+      "description": "Vizualizatorul poate utiliza site-ul fără să selecteze un consimțământ de confidențialitate; urmărirea începe imediat până când este respinsă de vizualizator."
+    },
+    "required": {
+      "label": "Consimțământ obligatoriu",
+      "description": "Vizualizatorul trebuie să accepte sau să respingă urmărirea pentru a utiliza site-ul; urmărirea nu începe până când nu este acceptată de vizualizator."
+    }
+  },
+  "consentText": {
+    "label": "Descrierea confidențialității",
+    "helperText": "Afișată în declarația de confidențialitate pentru vizualizatorul site-ului."
+  },
+  "policyURL": {
+    "label": "Link către politică",
+    "helperText": "Afișat ca link „Informații suplimentare” în declarația de confidențialitate.",
+    "error": "Trebuie să fie un URL valid pentru a fi afișat."
+  }
+}

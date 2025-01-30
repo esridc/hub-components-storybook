@@ -1,0 +1,72 @@
+{
+  "addContent": "新增內容",
+  "addContentType": {
+    "event": "建立事件",
+    "discussion": "建立討論",
+    "group": "建立群組",
+    "initiative": "建立倡議",
+    "project": "建立專案",
+    "page": "建立頁面",
+    "site:": "建立網站"
+  },
+  "tooltip": {
+    "label": "已停用",
+    "noCatalog": "將群組新增至目錄以新增內容。",
+    "noPermission": "您無權在目錄中新增內容。",
+    "no-permission": "您無權在目錄中新增內容。",
+    "not-in-groups": "您不是定義該目錄的任何群組的成員。",
+    "too-many-groups": "您的群組數已達到上限，無法建立更多群組。"
+  },
+  "existing": {
+    "description": "新增已在 {onlineOrEnterprise} 中的內容",
+    "modalTitle": "選擇現有內容",
+    "title": "選擇現有內容"
+  },
+  "create": {
+    "app": {
+      "description": "建立體驗、講故事或視覺化您的資料",
+      "modalTitle": "建立應用程式",
+      "title": "應用程式"
+    },
+    "event": {
+      "description": "親自或以虛擬方式舉辦有組織的活動",
+      "modalTitle": "建立事件",
+      "title": "事件"
+    },
+    "content": {
+      "description": "將資料、文件、圖像和外部連結新增到您的網站",
+      "modalTitle": "建立內容",
+      "title": "內容"
+    },
+    "discussion": {
+      "description": "收集想法和回饋意見",
+      "modalTitle": "建立討論板",
+      "title": "討論板"
+    },
+    "group": {
+      "description": "組織人們進行內容分享和討論",
+      "modalTitle": "建立群組",
+      "title": "群組"
+    },
+    "initiative": {
+      "description": "突顯策略工作以及組織專案的明確目標",
+      "modalTitle": "建立倡議",
+      "title": "倡議"
+    },
+    "page": {
+      "description": "以結構化版面配置呈現資訊",
+      "modalTitle": "建立頁面",
+      "title": "頁"
+    },
+    "project": {
+      "description": "展示具有明確目標和時間表的工作",
+      "modalTitle": "建立專案",
+      "title": "專案"
+    },
+    "site": {
+      "description": "建立品牌網站來與您的社群互動",
+      "modalTitle": "建立網站",
+      "title": "網站"
+    }
+  }
+}

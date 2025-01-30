@@ -1,0 +1,23 @@
+{
+  "overview": "نظرة عامة",
+  "telemetry": {
+    "pageViews": "مشاهدات الصفحة",
+    "last30days": "آخر 30 يومًا",
+    "lastUpdated": "تم التحديث الأخير منذ {hoursElapsed} من الساعات",
+    "checkTomorrow": "تحقق مرة أخرى غدًا"
+  },
+  "learnAbout": "التعرف على مبادرات Hub",
+  "feedbackNotice": {
+    "message": "ما مدى إعجابك بمبادرات Hub؟ نريد أن نسمع منك كيف يمكنك استخدامه.",
+    "link": "إرسال تعليقات"
+  },
+  "status": {
+    "notStarted": "لم يبدأ",
+    "inProgress": "قيد التقدّم",
+    "onHold": "متوقف مؤقتًا",
+    "complete": "اكتمل"
+  },
+  "editDetails": "تحرير التفاصيل",
+  "noPurposeSet": "لم يتم تعيين غرض",
+  "noLocationSet": "لم يتم تعيين موقع"
+}

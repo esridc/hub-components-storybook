@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "Grupları düzenle",
+        "viewGroups": "Grupları görüntüle"
+      },
+      "facet": {
+        "label": "Kaynak",
+        "myGroups": "Gruplarım",
+        "myOrganization": "Kuruluşum",
+        "myCommunity": "Topluluğum"
+      }
+    }
+  },
+  "property": {
+    "label": "Parametre",
+    "requiredError": "Parametre zorunludur"
+  },
+  "operator": {
+    "label": "Kriterler",
+    "requiredError": "Kriterler gerekmektedir"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "Tür"
+    },
+    "group": {
+      "default": "Gruplar"
+    },
+    "occurrence": {
+      "default": "Oluşum"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "Aşağıdakilerin herhangi birisidir",
+      "group": "Aşağıdakilerin herhangi birisiyle paylaşılır"
+    },
+    "isAll": {
+      "default": "Aşağıdakilerin tamamıdır",
+      "group": "Aşağıdakilerin tamamıyla paylaşılır"
+    },
+    "isExactly": {
+      "default": "Tam olarak",
+      "occurrence": "Olan"
+    },
+    "isNot": {
+      "default": "Değil",
+      "type": "Aşağıdakilerin hiçbiridir",
+      "group": "Aşağıdakilerin hiçbiriyle paylaşılmaz"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "Gruplar",
+      "requiredError": "Gruplar zorunludur"
+    },
+    "type": {
+      "label": "Türler",
+      "requiredError": "Türler zorunludur",
+      "app": {
+        "label": "Uygulamalar"
+      },
+      "content": {
+        "label": "İçerik"
+      },
+      "dataset": {
+        "label": "Veri kümeleri"
+      },
+      "discussion": {
+        "label": "Tartışmalar"
+      },
+      "document": {
+        "label": "Belgeler"
+      },
+      "event": {
+        "label": "Etkinlikler"
+      },
+      "feedback": {
+        "label": "Geri bildirim"
+      },
+      "initiative": {
+        "label": "İnisiyatifler"
+      },
+      "map": {
+        "label": "Haritalar"
+      },
+      "project": {
+        "label": "Projeler"
+      },
+      "site": {
+        "label": "Sites"
+      },
+      "template": {
+        "label": "Şablonlar"
+      }
+    },
+    "occurrence": {
+      "label": "Oluşum",
+      "requiredError": "Oluşum zorunludur",
+      "upcoming": "Yaklaşan",
+      "past": "Geçmiş",
+      "inProgress": "Devam ediyor"
+    }
+  }
+}

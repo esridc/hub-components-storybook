@@ -1,0 +1,150 @@
+{
+  "modal": {
+    "dismiss": "Diese Meldung nicht mehr anzeigen",
+    "close": "Schließen"
+  },
+  "notice": {
+    "n001": {
+      "title": "Testhinweis",
+      "message": "Dies ist der Text für den Testhinweis.",
+      "actions": [
+        {
+          "text": "Den Blog lesen"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-1": {
+      "title": "Zur aktualisierten Download-Bedienoberfläche wechseln",
+      "message": "Aktivieren Sie \"Extrahieren\" für den Service des Elements, um von zusätzlichen Formaten sowie Geschwindigkeits- und Performance-Verbesserungen zu profitieren."
+    },
+    "20240220-hosted-downloads-2": {
+      "title": "Jetzt verfügbar: Verbesserungen an Downloads",
+      "message": "Zu den Verbesserungen, die auf Hub-Sites an Downloads vorgenommen wurden, zählen die Unterstützung gehosteter Downloads, das überarbeitete Erscheinungsbild von Download-Kacheln und die neue Fortschrittsleiste für Downloads.",
+      "actions": [
+        {
+          "text": "Weitere Informationen"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-3": {
+      "title": "Jetzt verfügbar: Gehostete Downloads",
+      "message": "Durch gehostete Downloads verbessert sich die Performance beim Herunterladen von Inhalten. Damit \"Gehostete Downloads\" aktiviert werden kann, müssen Sie unten \"Funktionen extrahieren\" aktivieren.",
+      "actions": [
+        {
+          "text": "Weitere Informationen"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-basic": {
+      "title": "Workspaces",
+      "message": "<p><strong>Hinzufügen von Inhalten zu Site-Katalogen über Gruppen</strong><br>Die Unterstützung von Site-Suchkatalogen erfolgt seit jeher durch Gruppen. Deren Verwaltung wird nun durch Workspaces erleichtert. Derzeit ist es erforderlich, den einzelnen mit Ihrer Site verbundenen Gruppen Inhalte hinzuzufügen, damit sie im Site-Katalog angezeigt werden. In Kürze wird es Ihnen möglich sein, dem Katalog direkt Inhalte hinzuzufügen.</p><p><strong>Übergang von Teams zu Gruppen</strong><br>Sie können jetzt eine beliebige ArcGIS Online-Gruppe verwenden, um in Hub gemeinsam an Sites, Seiten, Inhalten und Projekten zu arbeiten. Alle zuvor verknüpften \"Teams\", wie z. B. das \"Kernteam\" der Site, werden weiterhin im Bereich \"Beteiligte\" des Site-Workspace angezeigt.</p><p><strong>Vorübergehendes Aussetzen von teambasierten E-Mail-Benachrichtigungen</strong><br>Der Versand von E-Mail-Benachrichtigungen und Einladungs-/Entfernungs-E-Mails an Teammitglieder und Follower wird derzeit nicht unterstützt.</p><p><strong>Abkündigung des eingebetteten Survey123-Webdesigners</strong><br>Unser Ziel bei der Einbettung des Survey123-Designers war es, die Arbeit in Hub zu erleichtern. Aus dem Kundenfeedback geht jedoch hervor, dass das Entwerfen und Verwalten von Surveys in Survey123 bevorzugt wird, wie es auch bei anderen Anwendungen der Fall ist. Aus diesem Grund stellen wir die Unterstützung für den eingebetteten Survey123-Designer in ArcGIS Hub ein, um die Anwendung besser auf den gewünschten Workflow auszurichten.</p>",
+      "actions": [
+        {
+          "text": "Weitere Informationen"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-premium": {
+      "title": "Workspaces",
+      "message": "<p><strong>Hinzufügen von Inhalten zu Site-Katalogen über Gruppen</strong><br>Die Unterstützung von Site-Suchkatalogen erfolgt seit jeher durch Gruppen. Deren Verwaltung wird nun durch Workspaces erleichtert. Derzeit ist es erforderlich, den einzelnen mit Ihrer Site verbundenen Gruppen Inhalte hinzuzufügen, damit sie im Site-Katalog angezeigt werden. In Kürze wird es Ihnen möglich sein, dem Katalog direkt Inhalte hinzuzufügen.</p><p><strong>Übergang von Unterstützungsteams zu Gruppen</strong><br>Sie können jetzt eine beliebige ArcGIS Online-Gruppe verwenden, um in Hub gemeinsam an Sites, Seiten, Inhalten und Projekten zu arbeiten. Alle zuvor verknüpften Unterstützungsteams werden weiterhin im Bereich \"Beteiligte\" des Site-Workspace angezeigt. Zur kontinuierlichen Unterstützung dieser Funktionalität müssen Sie Unterstützungsteams als Gruppen mit der Möglichkeit zum Anzeigen und Gruppen mit der Möglichkeit zum Bearbeiten hinzufügen.</p><p><strong>Vorübergehendes Aussetzen von teambasierten E-Mail-Benachrichtigungen</strong><br>Der Versand von E-Mail-Benachrichtigungen und Einladungs-/Entfernungs-E-Mails an Teammitglieder und Follower wird derzeit nicht unterstützt.</p><p><strong>Abkündigung des eingebetteten Survey123-Webdesigners</strong><br>Unser Ziel bei der Einbettung des Survey123-Designers war es, die Arbeit in Hub zu erleichtern. Aus dem Kundenfeedback geht jedoch hervor, dass das Entwerfen und Verwalten von Surveys in Survey123 bevorzugt wird, wie es auch bei anderen Anwendungen der Fall ist. Aus diesem Grund stellen wir die Unterstützung für den eingebetteten Survey123-Designer in ArcGIS Hub ein, um die Anwendung besser auf den gewünschten Workflow auszurichten.</p><p><strong>Noch keine Verfügbarkeit von Events in Workspaces</strong><br>Events werden derzeit umgestaltet und stehen demnächst in Workspaces zur Verfügung. Wenn Sie derzeit der Verwendung von Workspaces zustimmen, ist es Ihnen nicht mehr möglich, neue Events zu erstellen oder vorhandene Events zu verwalten und zu suchen. Wenn Sie zuvor erstellte Events verwalten möchten, können Sie die Verwendung von Workspaces jederzeit deaktivieren.</p>",
+      "actions": [
+        {
+          "text": "Weitere Informationen"
+        }
+      ]
+    },
+    "202404-workspaceannouncement": {
+      "title": "Einführung von Workspaces",
+      "message": "Mit Workspaces wird eine neue Methode zum Bearbeiten und Verwalten von Elementen in Hub eingeführt. Zudem ersetzen sie die globale Navigation in der Bearbeitungsansicht (nicht in der Live-Ansicht). In dieser Phase haben Sie jederzeit die Möglichkeit, der Verwendung von Workspaces und der damit verknüpften Funktionen für Elemente und Gruppen zuzustimmen. Events werden in einer späteren Phase zur Verfügung gestellt. Wählen Sie \"Zu Einstellungen wechseln\" aus, um Workspaces jetzt zu testen.",
+      "actions": [
+        {
+          "text": "Zu Einstellungen wechseln"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing": {
+      "title": "Wiedereinführung: Hub-Initiativen",
+      "message": "Bei ArcGIS Hub-Initiativen wurde zum 2. Juli 2024 eine Änderung umgesetzt. Zu einem früheren Zeitpunkt erstellte Initiativen sind nun eigenständige Sites – mit denselben Layouts, Inhalten, URLs und Premium-Features (z. B. Followern und Events) wie zuvor. Um die neuen, aktualisierten Initiativen auszuprobieren, müssen Sie Workspaces aktivieren.",
+      "actions": [
+        {
+          "text": "Informationen zu Initiativen",
+          "ariaLabel": "Informationen zu Initiativen, wird in neuer Registerkarte geöffnet"
+        },
+        {
+          "text": "Zu Einstellungen wechseln"
+        }
+      ]
+    },
+    "20240517-initiatives-manage": {
+      "title": "Alte Initiativen verwalten",
+      "message": "Bei ArcGIS Hub-Initiativen wurde zum 2. Juli 2024 eine Änderung umgesetzt. Zu einem früheren Zeitpunkt erstellte Initiativen sind nun eigenständige Sites – mit denselben Layouts, Inhalten, URLs und Premium-Features (z. B. Followern und Events) wie zuvor. Alte Initiativen können gelöscht werden.",
+      "actions": [
+        {
+          "text": "Informationen zu Initiativen",
+          "ariaLabel": "Informationen zu Initiativen, wird in neuer Registerkarte geöffnet"
+        },
+        {
+          "text": "Alte Initiativen anzeigen",
+          "ariaLabel": "Alte Initiativen anzeigen, wird in neuer Registerkarte geöffnet"
+        }
+      ]
+    },
+    "20240517-initiatives-manage-no-priv": {
+      "title": "Alte Initiativen verwalten",
+      "message": "Bei ArcGIS Hub-Initiativen wurde zum 2. Juli 2024 eine Änderung umgesetzt. Zu einem früheren Zeitpunkt erstellte Initiativen sind nun eigenständige Sites – mit denselben Layouts, Inhalten, URLs und Premium-Features (z. B. Followern und Events) wie zuvor. Alte Initiativen können gelöscht werden.",
+      "actions": [
+        {
+          "text": "Informationen zu Initiativen",
+          "ariaLabel": "Informationen zu Initiativen, wird in neuer Registerkarte geöffnet"
+        },
+        {
+          "text": "Alte Initiativen anzeigen",
+          "ariaLabel": "Alte Initiativen anzeigen, wird in neuer Registerkarte geöffnet"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing-site": {
+      "title": "Wiedereinführung: Hub-Initiativen",
+      "message": "Die neue Generation der Hub-Initiativen ist jetzt in Workspaces verfügbar. Initiativen verfügen über eine eigene, einfach einzurichtende Ansicht und können dabei helfen, Hub-Projekte mit gemeinsamen langfristigen Zielen aufeinander abzustimmen. Initiativen können unabhängig voneinander erstellt und für eine oder mehrere Sites freigegeben werden. Auf Sites können eine oder mehrere Initiativen präsentiert werden.",
+      "actions": [
+        {
+          "text": "Weitere Informationen",
+          "ariaLabel": "Mehr erfahren, wird in neuer Registerkarte geöffnet"
+        }
+      ]
+    },
+    "20240710-slow-service-warning": {
+      "title": "Service-Unterbrechung",
+      "message": "Die Kommunikation mit dem Service dauert länger als erwartet. Das kann sich auf Ihren Zugriff auf Downloads und Kartenfunktionalität auswirken."
+    },
+    "20240710-unreachable-service-error": {
+      "title": "Service nicht verfügbar.",
+      "message": "Der Kontakt zum Host-Service kann nicht hergestellt werden. Downloads und Kartenfunktionalität sind für dieses Element aktuell nicht verfügbar."
+    },
+    "20240807-auth-required-status": {
+      "title": "Service-Status unbekannt.",
+      "message": "Wir können nicht auf den gesicherten Service zugreifen, da hierfür eine zusätzliche Autorisierung erforderlich ist. Downloads und Kartenfunktionalität sind für das Element aktuell nicht verfügbar."
+    },
+    "20240805-private-downloads-unavailable-ago-error": {
+      "title": "Downloads nicht verfügbar",
+      "message": "Zum Herunterladen von Inhalten muss die Einstellung \"Daten exportieren\" auf ArcGIS Online aktiviert werden. Wenden Sie sich zum Aktivieren dieser Einstellung an den Elementbesitzer."
+    },
+    "20240805-private-downloads-unavailable-enterprise-error": {
+      "title": "Downloads nicht verfügbar",
+      "message": "Zum Herunterladen von Inhalten muss die Einstellung \"Daten exportieren\" auf ArcGIS Enterprise aktiviert werden. Wenden Sie sich zum Aktivieren dieser Einstellung an den Elementbesitzer."
+    },
+    "20240819-download-formats-disabled": {
+      "title": "Downloads wurden deaktiviert.",
+      "message": "Wenden Sie sich zum Herunterladen von Inhalten für dieses Element an den Elementbesitzer."
+    },
+    "20241104-about-feeds-notice": {
+      "message": "Machen Sie Ihre öffentlichen Open Data mit Hub-Feeds leicht zugänglich und wiederverwendbar.",
+      "actions": [
+        {
+          "text": "Informationen zu Hub-Feeds",
+          "ariaLabel": "Informationen zu Hub-Feeds, wird in neuer Registerkarte geöffnet"
+        }
+      ]
+    }
+  }
+}

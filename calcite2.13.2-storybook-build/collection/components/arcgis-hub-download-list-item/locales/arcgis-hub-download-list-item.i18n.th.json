@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "ฟีเจอร์คอลเลกชัน",
+    "fgdb": "File Geodatabase",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Shapefile",
+    "sqlite": "ฐานข้อมูลทางภูมิศาสตร์ SQLite"
+  },
+  "buttonText": {
+    "download": "ดาวน์โหลด",
+    "pending": "กำลังรอดำเนินการ",
+    "processing": "กำลังประมวลผล",
+    "converting": "กำลังแปลง",
+    "completed": "ดาวน์โหลดเสร็จสมบูรณ์",
+    "failed": "ดาวน์โหลดไม่สำเร็จ"
+  },
+  "errors": {
+    "errorHeading": "ข้อผิดพลาด"
+  },
+  "cacheStatusAccordion": {
+    "heading": "พบสิ่งที่ต้องการหรือไม่",
+    "content": "อาจมีเวอร์ชันใหม่กว่านี้พร้อมใช้งาน",
+    "button": "ขอไฟล์ใหม่"
+  },
+  "generateNewModal": {
+    "heading": "คุณแน่ใจหรือไม่",
+    "content": "ซึ่งอาจต้องใช้เวลาสักพัก โปรดเปิดใช้งานแท็บเบราว์เซอร์นี้ไว้จนกว่าจะดาวน์โหลดเสร็จ",
+    "confirmButton": "ใช่",
+    "cancelButton": "ยกเลิก"
+  }
+}

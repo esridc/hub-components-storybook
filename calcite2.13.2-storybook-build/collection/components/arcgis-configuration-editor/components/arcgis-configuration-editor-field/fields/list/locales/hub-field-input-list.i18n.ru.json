@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "Изменить",
+    "fields": {
+      "label": {
+        "label": "Надпись",
+        "requiredMessage": "Требуется надпись",
+        "maxLengthMessage": "В надписи должно быть не более {maxLength} символов"
+      }
+    },
+    "apply": "Применить"
+  },
+  "showItem": "Показать следующий элемент списка: {itemLabel}",
+  "hideItem": "Скрыть следующий элемент списка: {itemLabel}",
+  "editItem": "Редактировать следующий элемент списка: {itemLabel}"
+}

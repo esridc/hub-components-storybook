@@ -1,0 +1,41 @@
+:host {
+  display: block
+}
+
+.container {
+  position: relative
+}
+
+.matches-dropdown {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  z-index: 50;
+  margin-top: 0.5rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--calcite-color-border-input);
+  background-color: var(--calcite-color-foreground-1);
+  /* TODO: change this to use actual values from design */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+}
+
+.matches-section {
+  padding: 0.5rem
+}
+
+.matches-section:not(:last-of-type) {
+  border-bottom: 1px solid #ECECEC
+}
+
+.section-header {
+  line-height: 1.5rem;
+  font-style: italic;
+  font-size: var(--calcite-font-size--1);
+  color: var(--calcite-color-border-input)
+}
+
+arcgis-hub-auto-suggest-match:not(:last-of-type) {
+  margin-bottom: 0.5rem
+}
+

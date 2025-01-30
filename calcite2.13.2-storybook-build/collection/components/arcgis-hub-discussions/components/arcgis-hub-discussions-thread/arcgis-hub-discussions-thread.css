@@ -1,0 +1,54 @@
+:host {
+  --arcgis-hub-layout-list-gap: 0;
+  display: block;
+  overflow: hidden;
+  background-color: var(--calcite-color-foreground-1);
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+arcgis-hub-discussions-post-editor {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+arcgis-hub-discussions-post-list {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+arcgis-hub-discussions-post.loading:not([parent-id]) {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+arcgis-hub-discussions-post[parent-id] {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+arcgis-hub-discussions-post:not([parent-id]) + arcgis-hub-discussions-post[parent-id] {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+calcite-notice {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+calcite-notice:first-child {
+  margin-top: 0px;
+}
+
+arcgis-hub-discussions-blocked-notice {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}

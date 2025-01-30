@@ -1,0 +1,19 @@
+{
+  "overview": "Apžvalga",
+  "telemetry": {
+    "pageViews": "Puslapio peržiūros",
+    "last30days": "30 dienų",
+    "lastUpdated": "Paskutinį kartą atnaujinta prieš {hoursElapsed} valandas",
+    "checkTomorrow": "Patikrinkite dar kartą rytoj"
+  },
+  "learnAbout": "Sužinokite daugiau apie Hub projektus",
+  "status": {
+    "notStarted": "Nepradėta",
+    "inProgress": "Vykdoma",
+    "onHold": "Sulaikyta",
+    "complete": "Baigta"
+  },
+  "editDetails": "Redaguoti informaciją",
+  "noPurposeSet": "Paskirtis nenustatyta",
+  "noLocationSet": "Vieta nenustatyta"
+}

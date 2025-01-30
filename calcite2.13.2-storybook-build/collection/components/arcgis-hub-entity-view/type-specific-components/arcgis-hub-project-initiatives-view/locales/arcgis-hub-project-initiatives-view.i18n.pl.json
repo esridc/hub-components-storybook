@@ -1,0 +1,19 @@
+{
+  "facets": {
+    "location": {
+      "label": "Lokalizacja",
+      "tooltip": "Zastosuj zasięg mapy jako filtr lokalizacji"
+    },
+    "status": "Status",
+    "tags": "Znaczniki",
+    "categories": "Kategorie",
+    "dateUpdated": "Data aktualizacji"
+  },
+  "status": {
+    "label": "Status projektu",
+    "notStarted": "Nierozpoczęty",
+    "inProgress": "W toku",
+    "onHold": "Wstrzymany",
+    "complete": "Ukończony"
+  }
+}

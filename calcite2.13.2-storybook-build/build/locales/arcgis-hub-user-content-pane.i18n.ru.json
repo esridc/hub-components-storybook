@@ -1,0 +1,43 @@
+{
+  "content": "Ресурсы",
+  "myContent": "Мои ресурсы",
+  "editableContent": "Редактируемые ресурсы",
+  "addContentButtonText": "Создать новую",
+  "type": "Тип",
+  "sharedUpdate": "Общая группа обновления",
+  "viewOnly": "Группа только для просмотра",
+  "owner": "Владелец",
+  "updated": "Обновлено",
+  "tags": "Теги",
+  "dateCreated": "Создано",
+  "dateUpdated": "Изменено",
+  "actionLinks": {
+    "view": "Просмотр",
+    "edit": "Изменить",
+    "ariaEdit": "Редактировать {title}",
+    "ariaView": "Просмотреть {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Ресурсы",
+      "myContent": "Ресурсы, которыми я владею",
+      "editableContent": "Ресурсы, которые я могу редактировать",
+      "all": "Все ресурсы"
+    },
+    "access": {
+      "label": "Из"
+    },
+    "type": {
+      "label": "Типы"
+    },
+    "tags": {
+      "label": "Теги"
+    },
+    "categories": {
+      "label": "Категории"
+    },
+    "modified": {
+      "label": "Изменено"
+    }
+  }
+}

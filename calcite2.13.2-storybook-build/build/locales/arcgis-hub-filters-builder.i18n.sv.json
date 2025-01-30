@@ -1,0 +1,15 @@
+{
+  "newFilter": "Nytt filter",
+  "block": {
+    "heading": {
+      "untitled": "Nytt filter",
+      "default": "Filter {filterNum}: {parameter}",
+      "group": "Filtrera {filterNum}: grupper",
+      "type": "Filtrera {filterNum}: typer",
+      "occurrence": "Filtrera {filterNum}: förekomst"
+    },
+    "actions": {
+      "delete": "Ta bort filtret: {label}"
+    }
+  }
+}

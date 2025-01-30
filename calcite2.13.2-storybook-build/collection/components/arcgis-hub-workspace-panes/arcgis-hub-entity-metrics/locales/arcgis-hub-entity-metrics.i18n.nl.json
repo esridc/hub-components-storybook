@@ -1,0 +1,75 @@
+{
+  "addMetric": "Statistiek toevoegen",
+  "title": "Statistieken",
+  "featured": "Uitgelicht",
+  "metricDescription": "Een meetbare waarde die wordt gebruikt om projectvoortgang te volgen, gebaseerd op statische (bijv. historische) of dynamische (bijv. real-time) gegevens.",
+  "metricCount": {
+    "label": "{currentCount} / {totalCountAllowed} statistieken",
+    "tooltip": "Als u statistieken wilt toevoegen, moet u een paar statistieken uit de bestaande set verwijderen"
+  },
+  "visible": {
+    "title": "Zichtbaar",
+    "noMetrics": "Er bevinden zich in deze sectie geen statistieken."
+  },
+  "hidden": {
+    "title": "Verborgen",
+    "description": "Deze statistieken worden alleen weergegeven voor diegenen die toegang hebben tot deze werkruimte.",
+    "noMetrics": "Er bevinden zich in deze sectie geen statistieken."
+  },
+  "project": {
+    "featured": {
+      "description": "U kunt 4 uitgelichte metrieken hebben. Deze worden weergegeven in het Overzicht van uw live-project."
+    },
+    "visible": {
+      "description": "Zichtbare metrieken worden weergegeven onder het tabblad Metrieken van uw live project."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Cijfers zullen overeenkomen met het deelniveau van het project. Verborgen cijfers kunnen nog steeds beschikbaar zijn via API-aanroep.",
+        "metricsDockLink": "Meer informatie over het instellen van metrieken."
+      }
+    }
+  },
+  "initiative": {
+    "featured": {
+      "description": "U kunt 4 uitgelichte metrieken hebben. Deze worden weergegeven in het Overzicht van uw live-initiatief."
+    },
+    "visible": {
+      "description": "Zichtbare metrieken worden weergegeven onder het tabblad Metrieken van uw live project."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Cijfers zullen overeenkomen met het deelniveau van het initiatief. Verborgen cijfers kunnen nog steeds beschikbaar zijn via API-aanroep.",
+        "metricsDockLink": "Meer informatie over het instellen van metrieken."
+      }
+    }
+  },
+  "metricNumber": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4"
+  },
+  "actions": {
+    "delete": "Verwijderen",
+    "edit": "Bewerken",
+    "featured": "Object",
+    "removeFeatured": "Uitgelicht item verwijderen",
+    "show": "Naar zichtbaar verplaatsen",
+    "hide": "Naar verborgen verplaatsen"
+  },
+  "editor": {
+    "heading": "Nieuw cijfer",
+    "description": "Cijfers worden standaard automatisch verborgen zodat alleen leden van uw werkruimte deze kunnen zien."
+  },
+  "deleteMetricModal": {
+    "heading": "Cijfer verwijderen",
+    "content": "Weet u zeker dat u het volgende wilt verwijderen:",
+    "cancel": "Annuleren",
+    "delete": "Verwijderen"
+  },
+  "sidePanel": {
+    "definitions": "Definities",
+    "preview": "Voorbeeld"
+  }
+}

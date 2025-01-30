@@ -1,0 +1,49 @@
+{
+  "settings": "Nastavitve",
+  "advanced": "Napredno",
+  "delete": {
+    "event": "Izbriši ta dogodek",
+    "desc": "Brisanja dogodka ni mogoče razveljaviti. Obstoječi prijavljeni uporabniki bodo obveščeni (če so za dogodek omogočena samodejna obvestila).",
+    "deleteButton": "Izbriši dogodek"
+  },
+  "cancel": {
+    "header": "Prekliči ta dogodek",
+    "desc": "V primeru preklica bo dogodek ostal viden s statusom preklicanega dogodka. Registracija se bo ustavila in obstoječi prijavljeni uporabniki bodo obveščeni (če so za dogodek omogočena samodejna obvestila).",
+    "event": "Prekliči dogodek",
+    "notice": {
+      "success": {
+        "title": "Dogodek je preklican",
+        "message": "Obstoječi prijavljeni uporabniki bodo obveščeni, če so omogočena samodejna obvestila."
+      },
+      "error": {
+        "title": "Dogodka ni bilo mogoče preklicati",
+        "message": "Poskusite znova"
+      }
+    }
+  },
+  "enable": {
+    "event": "Ponovno omogoči dogodek",
+    "desc": "Dogodek je preklican (viden s statusom preklicanega dogodka)",
+    "notice": {
+      "success": {
+        "title": "Dogodek je ponovno omogočen",
+        "message": "Obstoječi prijavljeni uporabniki bodo obveščeni, če so omogočena samodejna obvestila."
+      },
+      "error": {
+        "title": "Dogodka ni bilo mogoče ponovno omogočiti",
+        "message": "Poskusite znova"
+      }
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "event": "Izbriši dogodek"
+    },
+    "content": "Ste prepričani, da želite izbrisati:",
+    "delete": "Izbriši dogodek",
+    "cancel": "Prekliči dogodek"
+  },
+  "notice": {
+    "label": "Opozorilo obrazca"
+  }
+}

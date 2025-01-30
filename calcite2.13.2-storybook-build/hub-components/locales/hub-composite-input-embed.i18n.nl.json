@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "Mijn content",
+    "livingAtlas": "Living Atlas",
+    "organization": "Mijn organisatie",
+    "world": "Wereld (openbaar)"
+  },
+  "collection": {
+    "appsAndMaps": "Apps en kaarten",
+    "feedback": "Feedback"
+  },
+  "facets": {
+    "type": "Type",
+    "tags": "Tags",
+    "categories": "Categorieën",
+    "modified": "Gewijzigd"
+  },
+  "pickerTitle": "Content selecteren",
+  "height": "Hoogte (px)",
+  "isScrollable": "Scrollbaar",
+  "errors": {
+    "heightMinimum": "Waarde moet een positief getal zijn.",
+    "heightMaximum": "Waarde moet kleiner zijn dan of gelijk zijn aan 2000px",
+    "urlError": "Moet een geldige URL zijn."
+  },
+  "success": {
+    "urlSuccess": "URL is geladen."
+  },
+  "shouldApplyBreakpoints": {
+    "label": "Pas instellingen in plaats daarvan toe per apparaatbreekpunt"
+  },
+  "viewportAll": {
+    "label": "Standaard",
+    "description": "Instellingen die op alle schermgroottes worden toegepast"
+  },
+  "viewportMobile": {
+    "label": "Mobiel",
+    "description": "Instellingen die worden toegepast op schermen met een breedte van 360px of meer"
+  },
+  "viewportTablet": {
+    "label": "Tablet",
+    "description": "Instellingen die worden toegepast op schermen met een breedte van 560px of meer"
+  },
+  "viewportDesktop": {
+    "label": "Desktop",
+    "description": "Instellingen die worden toegepast op schermen met een breedte van 980px of meer"
+  },
+  "sourceLabel": "Type insluiting selecteren",
+  "contentLabel": "ArcGIS-content",
+  "externalLabel": "Externe URL",
+  "contentDescription": "Selecteer uit bestaande kaarten, scenes, applicaties, onderzoeken en documentlinks die tot uw beschikking staan.",
+  "externalDescription": "Voer een URL in die u wilt insluiten. Denk eraan dat sommige domeinen geen insluitingen toestaan waardoor weergave mogelijk niet aan de verwachting voldoet."
+}

@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "Aggiungi prima azione",
+  "addSecondAction": "Aggiungi seconda azione",
+  "addLink": "Aggiungi collegamento",
+  "addSection": "Aggiungi sezione",
+  "deleteNotice": {
+    "title": "Impossibile eliminare",
+    "message": "La sezione non è vuota. Spostare tutti i collegamenti all'esterno della sezione prima di eliminarla."
+  },
+  "linkEditor": {
+    "save": "Salva",
+    "delete": "Elimina",
+    "cancel": "Annulla",
+    "preview": "Collegamento di anteprima",
+    "title": {
+      "button1": "Prima azione",
+      "button2": "Seconda azione",
+      "block": "Collegamento azione"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "Collegamento a contenuti esistenti"
+        },
+        "external": {
+          "label": "Collegamento a origine esterna"
+        }
+      },
+      "label": {
+        "label": "Etichetta",
+        "helperText": {
+          "button": "Questo testo comparirà sul pulsante.",
+          "block": "Questo comparirà sul blocco in grassetto."
+        },
+        "requiredError": "Etichetta è un campo obbligatorio."
+      },
+      "description": {
+        "label": "Descrizione",
+        "helperText": "Queste sono informazioni secondarie."
+      },
+      "href": {
+        "label": "Collegamento",
+        "requiredError": "Collegamento è un campo obbligatorio.",
+        "formatError": "La formattazione dell'URL non è corretta."
+      },
+      "contentId": {
+        "label": "Collegamento contenuto",
+        "requiredError": "Collegamento contenuto è un campo obbligatorio."
+      },
+      "section": {
+        "label": "Sposta a sezione",
+        "placeholder": {
+          "noSections": "Nessuna sezione configurata",
+          "notSet": "Non nella sezione"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "Sezione",
+    "helperText": "Le sezioni possono essere utilizzate per nidificare i collegamenti sotto una voce di menu. Le sezioni non agiscono come un collegamento.",
+    "section": {
+      "label": {
+        "label": "Etichetta",
+        "requiredError": "Etichetta è un campo obbligatorio."
+      },
+      "description": {
+        "label": "Descrizione"
+      }
+    }
+  }
+}

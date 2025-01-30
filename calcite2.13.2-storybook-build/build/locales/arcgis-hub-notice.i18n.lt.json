@@ -1,0 +1,150 @@
+{
+  "modal": {
+    "dismiss": "Daugiau neberodyti",
+    "close": "Uždaryti"
+  },
+  "notice": {
+    "n001": {
+      "title": "Bandomasis pranešimas",
+      "message": "Tai yra bandomojo pranešimo tekstas",
+      "actions": [
+        {
+          "text": "Paskaitykite tinklaraštį"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-1": {
+      "title": "Persijunkite į atnaujintą versiją",
+      "message": "Norėdami gauti papildomų formatų ir spartos bei našumo patobulinimų, įgalinkite šio elemento paslaugą Gauti."
+    },
+    "20240220-hosted-downloads-2": {
+      "title": "Atsisiuntimo patobulinimai jau čia!",
+      "message": "Atsisiuntimo patobulinimai Hub svetainėse: priglobtų atsisiuntimų palaikymas, atnaujinta atsisiuntimų kortelių išvaizda ir nauja atsisiuntimų progreso juosta.",
+      "actions": [
+        {
+          "text": "Sužinokite daugiau"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-3": {
+      "title": "Priglobti atsisiuntimai jau čia!",
+      "message": "Priglobti atsisiuntimai padeda pagerinti efektyvumą atsisiunčiant turinį. Jei norite įgalinti priglobtus atsisiuntimus, leiskite parinktį Išskleisti galimybes.",
+      "actions": [
+        {
+          "text": "Sužinokite daugiau"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-basic": {
+      "title": "Apie darbo sritis",
+      "message": "<p><strong>Įtraukite turinį į svetainių katalogus naudodami grupes</strong><br>Svetainių paieškos katalogai visada buvo teikiami pagal grupes, o darbo sritys palengvina tų grupių valdymą. Kol kas pridėkite turinį prie atskirų su svetaine susietų grupių, kad jos būtų rodomos svetainių kataloge. Netrukus galėsite įtraukti turinį į savo katalogą tiesiogiai.</p><p><strong>Perėjimas iš komandų į grupes</strong><br>Dabar galite naudoti bet kurią ArcGIS Online grupę ir bendradarbiauti kurdami svetaines, puslapius, turinį ir projektus Hub platformoje. Visos anksčiau susietos „Komandos“, pvz., svetainės „Pagrindinė komanda“, vis tiek bus rodomos Svetainės darbo srities bendradarbių srityje.</p><p><strong>Komandos el. pašto pranešimų siuntimas laikinai pristabdytas</strong><br>Šiuo metu nėra galimybės siųsti pranešimus ir kvietimus / pašalinimo el. laiškus komandos nariams ir stebėtojams.</p><p><strong>Įdėtoji Survey123 svetainės kūrimo priemonė panaikinama</strong><br>Įdėjome Survey 123 kūrimo priemonę, kad padėtume jums nuveikti daugiau Hub platformoje. Tačiau klientų atsiliepimai parodė, kad Survey123, kaip ir kitose programose, jie pirmenybę teikia apklausos dizainui ir valdymui. Taigi nusprendėme nutraukti ArcGIS Hub įdėtosios Survey 123 kūrimo priemonės palaikymą, kad suteiktume tokią darbo eigą, kokios norėjote.</p>",
+      "actions": [
+        {
+          "text": "Sužinokite daugiau"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-premium": {
+      "title": "Apie darbo sritis",
+      "message": "<p><strong>Įtraukite turinį į svetainių katalogus naudodami grupes</strong><br>Svetainių paieškos katalogai visada buvo teikiami pagal grupes, o darbo sritys palengvina tų grupių valdymą. Kol kas pridėkite turinį prie atskirų su svetaine susietų grupių, kad jos būtų rodomos svetainių kataloge. Netrukus galėsite įtraukti turinį į savo katalogą tiesiogiai.</p><p><strong>Perėjimas iš pagalbinių komandų į grupes</strong><br>Dabar galite naudoti bet kurią ArcGIS Online grupę ir bendradarbiauti kurdami svetaines, puslapius, turinį ir projektus Hub platformoje. Visos anksčiau susietos pagalbinės komandos vis tiek bus rodomos svetainės darbo srities Bendradarbių dalyje. Kad palaikymas nenutrūktų, įtraukite šias palaikymo komandas kaip grupes, galinčias peržiūrėti, ir grupes, galinčias redaguoti.</p><p><strong>Komandos el. pašto pranešimų siuntimas laikinai pristabdytas</strong><br>Šiuo metu nėra galimybės siųsti pranešimus ir kvietimus / pašalinimo el. laiškus komandos nariams ir stebėtojams.</p><p><strong>Įdėtoji Survey123 svetainės kūrimo priemonė panaikinama</strong><br>Įdėjome Survey123 kūrimo priemonę, kad padėtume jums nuveikti daugiau Hub platformoje. Tačiau klientų atsiliepimai parodė, kad Survey123, kaip ir kitose programose, jie pirmenybę teikia apklausos dizainui ir valdymui. Taigi nusprendėme nutraukti ArcGIS Hub įdėtosios Survey123 kūrimo priemonės palaikymą, kad suteiktume tokią darbo eigą, kokios norėjote.</p><p><strong>Darbo srityse renginiai dar nepalaikomi</strong><br>Renginių funkcijos dar tobulinamos ir netrukus turėtų būti prieinamos darbo srityse. Kol kas, jei pasirinksite naudoti darbo sritis, neteksite galimybės kurti naujus renginius, tvarkyti ir ieškoti esamų renginių. Tačiau jei norite tvarkyti anksčiau sukurtus renginius, galite bet kada jų atsisakyti.</p>",
+      "actions": [
+        {
+          "text": "Sužinokite daugiau"
+        }
+      ]
+    },
+    "202404-workspaceannouncement": {
+      "title": "Susipažinkite su darbo sritimis",
+      "message": "Darbo sritys yra naujas būdas redaguoti ir tvarkyti elementus Hub platformoje, pakeičiantis visuotinį naršymą redagavimo rodinyje (ne tiesioginiame rodinyje). Šiame etape galite (bet kuriuo metu) „sutikti“ naudoti darbo sritis ir susijusias elementų ir grupių funkcijas. Renginiai bus prieinami vėlesniame etape. Jei norite išbandyti darbo sritis dabar, pasirinkite „Eiti į nustatymus“.",
+      "actions": [
+        {
+          "text": "Eiti į nustatymus"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing": {
+      "title": "Atnaujintos Hub iniciatyvos",
+      "message": "ArcGIS Hub iniciatyvos pakeistos 2024 m. liepos 2 d. Anksčiau sukurtos iniciatyvos dabar yra atskiros svetainės su tuo pačiu išdėstymu, turiniu, URL ir premium funkcijomis (pvz., stebėtojais ir įvykiais), kaip ir anksčiau. Norėdami išbandyti atnaujintas iniciatyvas, turite įgalinti darbo sritis.",
+      "actions": [
+        {
+          "text": "Sužinokite daugiau apie iniciatyvas",
+          "ariaLabel": "Sužinokite daugiau apie iniciatyvas (atidaroma naujame skirtuke)"
+        },
+        {
+          "text": "Eiti į nustatymus"
+        }
+      ]
+    },
+    "20240517-initiatives-manage": {
+      "title": "Valdyti senas iniciatyvas",
+      "message": "ArcGIS Hub iniciatyvos pakeistos 2024 m. liepos 2 d. Anksčiau sukurtos iniciatyvos dabar yra atskiros svetainės su tuo pačiu išdėstymu, turiniu, URL ir premium funkcijomis (pvz., stebėtojais ir įvykiais), kaip ir anksčiau. Galite saugiai ištrinti visas senas iniciatyvas.",
+      "actions": [
+        {
+          "text": "Sužinokite daugiau apie iniciatyvas",
+          "ariaLabel": "Sužinokite daugiau apie iniciatyvas (atidaroma naujame skirtuke)"
+        },
+        {
+          "text": "Peržiūrėti senas iniciatyvas",
+          "ariaLabel": "Peržiūrėkite senas iniciatyvas (atidaroma naujame skirtuke)"
+        }
+      ]
+    },
+    "20240517-initiatives-manage-no-priv": {
+      "title": "Valdyti senas iniciatyvas",
+      "message": "ArcGIS Hub iniciatyvos pakeistos 2024 m. liepos 2 d. Anksčiau sukurtos iniciatyvos dabar yra atskiros svetainės su tuo pačiu išdėstymu, turiniu, URL ir premium funkcijomis (pvz., stebėtojais ir įvykiais), kaip ir anksčiau. Galite saugiai ištrinti visas senas iniciatyvas.",
+      "actions": [
+        {
+          "text": "Sužinokite daugiau apie iniciatyvas",
+          "ariaLabel": "Sužinokite daugiau apie iniciatyvas (atidaroma naujame skirtuke)"
+        },
+        {
+          "text": "Peržiūrėti senas iniciatyvas",
+          "ariaLabel": "Peržiūrėkite senas iniciatyvas (atidaroma naujame skirtuke)"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing-site": {
+      "title": "Atnaujintos Hub iniciatyvos",
+      "message": "Naujos kartos Hub iniciatyvos dabar pasiekiamos darbo srityse. Iniciatyvos turi savo lengvai nustatomą rodinį ir gali padėti suderinti Hub projektus, kurie turi bendrų ilgalaikių tikslų. Iniciatyvos gali būti kuriamos atskirai ir gali būti bendrinamos su viena ar keliomis svetainėmis. Svetainėse gali būti viena ar daugiau iniciatyvų.",
+      "actions": [
+        {
+          "text": "Sužinokite daugiau",
+          "ariaLabel": "Sužinokite daugiau (atidaroma naujame skirtuke)"
+        }
+      ]
+    },
+    "20240710-slow-service-warning": {
+      "title": "Paslaugos teikimo triktis",
+      "message": "Ryšys su tarnyba užtrunka ilgiau nei tikėtasi. Tai gali paveikti jūsų prieigą prie atsisiuntimų ir žemėlapio funkcijų."
+    },
+    "20240710-unreachable-service-error": {
+      "title": "Paslauga neprieinama",
+      "message": "Mums nepavyksta susisiekti su talpinimo tarnyba. Atsisiuntimai ir žemėlapio funkcijos šiuo metu neprieinamos šiam elementui."
+    },
+    "20240807-auth-required-status": {
+      "title": "Paslaugos būsena nežinoma",
+      "message": "Mums nepavyko gauti prieigos prie saugios paslaugos, nes tam reikalingas papildomas autorizavimas. Atsisiuntimai ir žemėlapio funkcijos šiuo metu neprieinamos šiam elementui."
+    },
+    "20240805-private-downloads-unavailable-ago-error": {
+      "title": "Atsisiuntimai negalimi",
+      "message": "Norint atsisiųsti turinį, ArcGIS Online turi būti įjungtas nustatymas Eksportuoti duomenis. Norėdami aktyvuoti šį parametrą, susisiekite su elemento savininku."
+    },
+    "20240805-private-downloads-unavailable-enterprise-error": {
+      "title": "Atsisiuntimai negalimi",
+      "message": "Norint atsisiųsti turinį, ArcGIS Enterprise turi būti įjungtas nustatymas Eksportuoti duomenis. Norėdami aktyvuoti šį parametrą, susisiekite su elemento savininku."
+    },
+    "20240819-download-formats-disabled": {
+      "title": "Atsisiuntimai išjungti",
+      "message": "Jei norite atsisiųsti šio elemento turinį, susisiekite su jo savininku."
+    },
+    "20241104-about-feeds-notice": {
+      "message": "Su Hub informacijos santraukomis jūsų vieši atviri duomenys bus lengvai prieinami ir panaudojami.",
+      "actions": [
+        {
+          "text": "Sužinokite daugiau apie Hub informacijos santraukas",
+          "ariaLabel": "Sužinokite daugiau apie Hub informacijos santraukas, atidaroma naujame skirtuke"
+        }
+      ]
+    }
+  }
+}

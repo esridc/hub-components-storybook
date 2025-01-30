@@ -1,0 +1,178 @@
+{
+  "projectsTitle": "Projekter",
+  "description": "Tilknyt til bidragende projekter for at spore status over fokuseret tid eller område. Initiativets tilknytningsgruppe administrerer bekræftede tilknytninger og udestående tilknytningsanmodninger.",
+  "subDescription": "Projekter med bekræftede tilknytninger vises i dette initiativs visning.",
+  "project": "projekt",
+  "initiative": "initiativ",
+  "helpStates": {
+    "noAccess": {
+      "heading": "Ingen adgang",
+      "message": "Du har ikke adgang til at vise tilknytningsgruppen."
+    },
+    "missingGroup": {
+      "heading": "Mangler tilknytningsgruppe",
+      "message": {
+        "overview": "Tilknytningsgruppen fører tilsyn med, hvilke projekter der forbinder og rapporterer til initiativet.",
+        "members": "Medlemmerne af denne gruppe vil kunne sende eller godkende tilknytningsanmodninger."
+      },
+      "action": "Opret gruppe",
+      "formLabel": "Ny tilknytningsgruppe",
+      "description": "Opret en tilknytningsgruppe for at administrere forbindelser"
+    },
+    "requestsWaiting": {
+      "heading": "Mangler tilknytningsgruppe",
+      "message": {
+        "overview": "Tilknytningsgruppen fører tilsyn med, hvilke projekter der forbinder og rapporterer til initiativet.",
+        "members": "Medlemmerne af denne gruppe vil kunne sende eller godkende tilknytningsanmodninger.",
+        "requests": "Ventende projektanmodninger: {count}"
+      },
+      "action": "Opret gruppe",
+      "formLabel": "Ny tilknytningsgruppe",
+      "description": "Opret en tilknytningsgruppe for at administrere forbindelser"
+    }
+  },
+  "shared": {
+    "project": "projekt",
+    "associationGroup": "tilknytningsgruppe",
+    "error": {
+      "title": "Der gik noget galt",
+      "message": "Du har muligvis ikke tilstrækkelig adgang til at sende eller administrere en tilknytning til {type}."
+    },
+    "facets": {
+      "access": {
+        "label": "Deling"
+      },
+      "status": {
+        "label": "Status",
+        "notStarted": "Ikke startet",
+        "inProgress": "I gang",
+        "onHold": "På pause",
+        "complete": "Afsluttet"
+      },
+      "tags": {
+        "label": "Nøgleord"
+      }
+    },
+    "tabs": {
+      "projects": "Projekter",
+      "members": "Medlemmer",
+      "settings": "Indstillinger"
+    },
+    "disabledActionTooltip": "Kun gruppeledere kan administrere tilknytningen til {type}."
+  },
+  "createAssociationGroup": {
+    "defaultSummary": "Administrér de elementer, der er knyttet til {name} {type} ved hjælp af en tilknytningsgruppe."
+  },
+  "members": {
+    "facets": {
+      "role": {
+        "label": "Rolle",
+        "all": "Alle",
+        "manager": "Administrator",
+        "member": "Medlem"
+      },
+      "dateJoined": {
+        "label": "Dato for deltagelse"
+      }
+    },
+    "addMembers": {
+      "button": "Tilføj medlemmer",
+      "modal": {
+        "title": "Tilføj medlemmer",
+        "org": "Min organisation",
+        "community": "Mit fællesskab",
+        "partner": "Mine partnere",
+        "world": "Verden"
+      },
+      "notifications": {
+        "invited": "Invitation afsendt. Brugere skal acceptere for at kunne deltage",
+        "added": "Bruger(e) tilføjet",
+        "notInvited": "Visse medlemmer har muligvis ikke de nødvendige rettigheder til at deltage i gruppen, eller gruppen har nået grænsen for deltagere (512)."
+      }
+    },
+    "removeUsers": {
+      "button": "Fjern",
+      "success": "Medlemmer blev fjernet fra {groupName}.",
+      "error": "En eller flere brugere kunne ikke fjernes fra gruppen."
+    },
+    "changeRole": {
+      "button": "Skift rolle",
+      "member": "Medlem",
+      "memberHelperText": "Kan tilføje og se indhold i gruppen.",
+      "tooltipText": "Fjern markeringen ud for dig selv og/eller gruppeejeren",
+      "tooltipLabel": "Rolle-ansvarsfraskrivelse",
+      "admin": "Administrator",
+      "adminHelperText": "Kan tilføje/fjerne indhold og invitere/fjerne personer (undtagen ejeren).",
+      "success": "De valgte medlemmer blev gruppe {role}.",
+      "error": "Rollen kunne ikke ændres for et eller flere medlemmer."
+    },
+    "stats": {
+      "total": {
+        "title": "I alt",
+        "trailingText": "Medlemmer"
+      },
+      "new": {
+        "title": "Ny",
+        "trailingText": "Sidste 30 dage"
+      }
+    }
+  },
+  "projects": {
+    "requestAssociation": {
+      "findProjects": "Søg efter projekter",
+      "sendRequest": "Send anmodning",
+      "success": {
+        "title": "Gennemført",
+        "message": "Tilknytningsanmodninger sendt: {count}"
+      },
+      "alreadyRequesting": {
+        "title": "Kontrollér tilknytninger",
+        "message": "Visse valg har allerede anmodet om tilknytning. Nye tilknytningsanmodninger sendt: {count}"
+      },
+      "catalog": {
+        "myContent": "Mit indhold",
+        "favorites": "Favoritter",
+        "organization": "Organisation",
+        "world": "Verden (offentligt)"
+      },
+      "collection": {
+        "projects": "Projekter"
+      }
+    },
+    "acceptAssociation": {
+      "label": "Accepter",
+      "success": {
+        "title": "Gennemført",
+        "message": "Tilknytning til {requestor} accepteret"
+      }
+    },
+    "cancelRequest": {
+      "label": "Annuller anmodning",
+      "success": {
+        "title": "Gennemført",
+        "message": "Anmodning om tilknytning er blevet annulleret"
+      }
+    },
+    "breakAssociation": {
+      "label": "Frakobl",
+      "success": {
+        "title": "Tilknytning frakoblet",
+        "message": "Vi har frakoblet forbindelsen mellem dette element og dets tidligere tilknytning. Vi kan dog ikke omgøre beslutningen fra den anden side, så du kan stadig se det i indgående anmodninger."
+      }
+    },
+    "associationsGallery": {
+      "sources": "Tilstand",
+      "catalog": {
+        "associated": "Tilknyttet",
+        "requesting": "Indgående anmodninger",
+        "pending": "Udgående anmodninger"
+      },
+      "collection": {
+        "projects": "Projekter"
+      }
+    }
+  },
+  "notice": {
+    "label": "Formularadvarsel"
+  }
+}

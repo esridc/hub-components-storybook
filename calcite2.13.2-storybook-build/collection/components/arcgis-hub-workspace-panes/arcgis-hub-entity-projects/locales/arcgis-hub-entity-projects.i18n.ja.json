@@ -1,0 +1,178 @@
+{
+  "projectsTitle": "プロジェクト",
+  "description": "プロジェクトに関連付けて、使用した時間や空間で進捗を追跡します。 イニシアティブの関連付けグループは、確定した関連付けと未解決の関連付けリクエストを管理します。",
+  "subDescription": "関連付けが確認されたプロジェクトは、このイニシアティブのビューに表示されます。",
+  "project": "プロジェクト",
+  "initiative": "イニシアティブ",
+  "helpStates": {
+    "noAccess": {
+      "heading": "アクセス権がありません",
+      "message": "関連付けグループを表示するためのアクセス権がありません。"
+    },
+    "missingGroup": {
+      "heading": "関連付けグループが見つかりません",
+      "message": {
+        "overview": "関連付けグループは、リンクするプロジェクトを監視し、イニシアティブに報告します。",
+        "members": "このグループのメンバーは、関連付けリクエストを送信または承認できます。"
+      },
+      "action": "グループの作成",
+      "formLabel": "新しい関連付けグループ",
+      "description": "関連付けグループを作成して接続を管理します"
+    },
+    "requestsWaiting": {
+      "heading": "関連付けグループが見つかりません",
+      "message": {
+        "overview": "関連付けグループは、リンクするプロジェクトを監視し、イニシアティブに報告します。",
+        "members": "このグループのメンバーは、関連付けリクエストを送信または承認できます。",
+        "requests": "プロジェクト リクエストの待機: {count}"
+      },
+      "action": "グループの作成",
+      "formLabel": "新しい関連付けグループ",
+      "description": "関連付けグループを作成して接続を管理します"
+    }
+  },
+  "shared": {
+    "project": "プロジェクト",
+    "associationGroup": "関連付けグループ",
+    "error": {
+      "title": "問題が発生しました",
+      "message": "この {type} との関連付けを送信または管理するために必要なアクセス権がない可能性があります。"
+    },
+    "facets": {
+      "access": {
+        "label": "共有"
+      },
+      "status": {
+        "label": "ステータス",
+        "notStarted": "開始前",
+        "inProgress": "処理中",
+        "onHold": "保留中",
+        "complete": "完了"
+      },
+      "tags": {
+        "label": "タグ"
+      }
+    },
+    "tabs": {
+      "projects": "プロジェクト",
+      "members": "メンバー",
+      "settings": "設定"
+    },
+    "disabledActionTooltip": "この {type} との関連付けを管理できるのは、グループの管理者のみです。"
+  },
+  "createAssociationGroup": {
+    "defaultSummary": "関連付けグループを使用して、{name} {type} に関連付けられているアイテムを管理します。"
+  },
+  "members": {
+    "facets": {
+      "role": {
+        "label": "役割",
+        "all": "すべて",
+        "manager": "管理者",
+        "member": "メンバー"
+      },
+      "dateJoined": {
+        "label": "加入日"
+      }
+    },
+    "addMembers": {
+      "button": "メンバーの追加",
+      "modal": {
+        "title": "メンバーの追加",
+        "org": "組織",
+        "community": "コミュニティ",
+        "partner": "パートナー",
+        "world": "世界"
+      },
+      "notifications": {
+        "invited": "招待が送信されました。 ユーザーが参加するには、同意する必要があります",
+        "added": "ユーザーが追加されました",
+        "notInvited": "一部のユーザーには、グループに参加するために必要な権限がないか、グループ数の上限 (512) に達している可能性があります"
+      }
+    },
+    "removeUsers": {
+      "button": "削除",
+      "success": "メンバーが {groupName} から正常に削除されました。",
+      "error": "1 人以上のユーザーをグループから削除できませんでした。"
+    },
+    "changeRole": {
+      "button": "ロールの変更",
+      "member": "メンバー",
+      "memberHelperText": "グループ内のコンテンツを追加および表示できます。",
+      "tooltipText": "自分自身とグループ所有者のいずれか、または両方の選択解除",
+      "tooltipLabel": "ロールの免責事項",
+      "admin": "管理者",
+      "adminHelperText": "コンテンツを追加/削除、およびユーザー (所有者を除く) を招待/削除できます。",
+      "success": "選択したメンバーがグループの {role} になりました。",
+      "error": "1 人以上のメンバーのロールを変更できませんでした。"
+    },
+    "stats": {
+      "total": {
+        "title": "合計",
+        "trailingText": "メンバー"
+      },
+      "new": {
+        "title": "新規",
+        "trailingText": "過去 30 日間"
+      }
+    }
+  },
+  "projects": {
+    "requestAssociation": {
+      "findProjects": "プロジェクトの検索",
+      "sendRequest": "リクエストの送信",
+      "success": {
+        "title": "成功",
+        "message": "関連付けリクエストが送信されました: {count}"
+      },
+      "alreadyRequesting": {
+        "title": "関連付けの確認",
+        "message": "一部の選択で関連付けがすでにリクエストされています。 新しい関連付けリクエストが送信されました: {count}"
+      },
+      "catalog": {
+        "myContent": "マイ コンテンツ",
+        "favorites": "お気に入り",
+        "organization": "組織",
+        "world": "世界 (パブリック)"
+      },
+      "collection": {
+        "projects": "プロジェクト"
+      }
+    },
+    "acceptAssociation": {
+      "label": "承認",
+      "success": {
+        "title": "成功",
+        "message": "{requestor} で関連付けが承認されました"
+      }
+    },
+    "cancelRequest": {
+      "label": "リクエストのキャンセル",
+      "success": {
+        "title": "成功",
+        "message": "関連付けリクエストがキャンセルされました"
+      }
+    },
+    "breakAssociation": {
+      "label": "関連付け解除",
+      "success": {
+        "title": "関連付けが解除されました",
+        "message": "このアイテムを以前の関連付けから解除しました。 ただし、相手側の決定は撤回できないため、受信リクエストの中にその決定が表示されます。"
+      }
+    },
+    "associationsGallery": {
+      "sources": "状態",
+      "catalog": {
+        "associated": "関連付け済み",
+        "requesting": "受信リクエスト",
+        "pending": "送信リクエスト"
+      },
+      "collection": {
+        "projects": "プロジェクト"
+      }
+    }
+  },
+  "notice": {
+    "label": "フォームの通知"
+  }
+}

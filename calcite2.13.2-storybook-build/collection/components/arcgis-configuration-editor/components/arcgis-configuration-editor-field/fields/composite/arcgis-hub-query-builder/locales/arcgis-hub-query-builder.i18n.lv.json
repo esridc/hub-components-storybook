@@ -1,0 +1,10 @@
+{
+  "targetEntity": {
+    "label": "Avots",
+    "enum": {
+      "item": "Vienības",
+      "event": "Pasākumi",
+      "group": "Grupas"
+    }
+  }
+}

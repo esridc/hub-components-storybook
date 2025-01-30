@@ -1,0 +1,43 @@
+{
+  "header": "Tartışmalar",
+  "myContent": "Etkinliklerim",
+  "editableContent": "Düzenlenebilir İçerik",
+  "addContentButtonText": "Etkinlik Oluştur",
+  "type": "Tür",
+  "sharedUpdate": "Paylaşılan Güncelleme Grubu",
+  "viewOnly": "Sadece Grubu Görüntüle",
+  "owner": "Sahip",
+  "updated": "Güncellendi",
+  "tags": "Etiketler",
+  "dateCreated": "Oluşturulma",
+  "dateUpdated": "Değiştirilme Tarihi",
+  "actionLinks": {
+    "view": "Görüntüle",
+    "edit": "Düzenle",
+    "ariaEdit": "Düzenle: {title}",
+    "ariaView": "Görüntüle: {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Etkinlikler",
+      "myContent": "Sahip olduğum etkinlikler",
+      "editableContent": "Düzenleyebileceğim etkinlikler",
+      "all": "Tüm Etkinlikler"
+    },
+    "access": {
+      "label": "Kaynak"
+    },
+    "type": {
+      "label": "Türler"
+    },
+    "tags": {
+      "label": "Etiketler"
+    },
+    "categories": {
+      "label": "Kategoriler"
+    },
+    "modified": {
+      "label": "Değiştirilme Tarihi"
+    }
+  }
+}

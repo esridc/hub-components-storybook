@@ -1,0 +1,24 @@
+{
+  "shared": {
+    "targetEntities": {
+      "item": "Елементи",
+      "event": "Події"
+    }
+  },
+  "targetEntityBlock": {
+    "configured": "Налаштовано",
+    "notConfigured": "Не налаштовано"
+  },
+  "targetEntityFlow": {
+    "back": "Закрити конфігурацію: {targetEntity}",
+    "description": "Налаштувати: {targetEntity}",
+    "source": {
+      "heading": "Джерело",
+      "description": "Джерела визначають обсяг вмісту. Змінюйте результати додаванням або вилученням параметрів.<br/><br/>*вказує на обовʼязкове поле"
+    },
+    "collections": {
+      "heading": "Колекції",
+      "description": "Упорядкуйте вміст у окремих підмножинах для спрощення перегляду та пошуку.<br/><br/>*вказує на обовʼязкове поле"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "title": "Configuración de catálogos",
+  "helperText": "Definir y configurar el catálogo",
+  "sections": {
+    "groups": {
+      "title": "Grupos",
+      "helperText": "Los grupos siguientes contienen el contenido de su catálogo de búsquedas. Seleccione un grupo para ver la configuración, el contenido, etc.",
+      "createGroup": "Crear nuevo grupo"
+    },
+    "feeds": {
+      "title": "Configuración de feeds",
+      "helperText": "Facilite el acceso y la reutilización de sus datos públicos abiertos con los feeds Hub.",
+      "learn": "Descubra los feeds Hub",
+      "toggle": "Habilitar feeds ",
+      "configure": "Configurar feeds",
+      "notice": "Para habilitar los feeds, primero debe configurar sus sitios Hub como \"Públicos\" en la Configuración"
+    }
+  },
+  "groupPickerFacet": {
+    "label": "De",
+    "editGroups": "Editar grupos",
+    "viewGroups": "Ver grupo",
+    "myGroups": "Mis grupos",
+    "myOrganization": "Mi organización",
+    "myCommunity": "Mi comunidad",
+    "public": "Público"
+  },
+  "formAlert": "Alerta de formulario",
+  "configSaveAlert": {
+    "success": "Ediciones guardadas correctamente",
+    "failure": "Error al guardar ediciones"
+  },
+  "reharvestCatalogButton": "Comprobar errores",
+  "reharvestWarningModal": {
+    "title": "Comprobar errores",
+    "body1": "Advertencia: esta opción solo suele utilizarse en situaciones en las que la página de búsqueda experimenta problemas con los resultados o metadatos que faltan. Esta opción comprobará todos los elementos de todos los grupos del catálogo durante las adiciones, los cambios de metadatos o las eliminaciones.",
+    "body2": "La ejecución de este proceso reconstruye el índice de búsqueda público de este catálogo y puede tardar varios minutos en realizarse. Esto incrementará la carga en cualquier instancia de ArcGIS Server.",
+    "primaryButton": "Continuar",
+    "secondaryButton": "Cancelar"
+  },
+  "reharvestCatalogAlert": {
+    "success": "Comprobando errores. Vuelva a comprobarlo más tarde.",
+    "inProgress": "La comprobación se está realizando. Regrese más adelante.",
+    "failure": "Lo sentimos, pero se ha producido un error operativo. Inténtelo de nuevo más tarde."
+  }
+}

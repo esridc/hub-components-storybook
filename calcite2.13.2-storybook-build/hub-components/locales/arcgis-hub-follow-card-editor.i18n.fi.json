@@ -1,0 +1,41 @@
+{
+  "notice": {
+    "outdatedItem": {
+      "title": "Korvaa aloite",
+      "message": "Tämä kortti viittaa vanhentuneeseen kohteeseen. Valitse toinen kohde, jota käyttäjät voivat seurata."
+    },
+    "missingFollowersGroup": {
+      "title": "Seuraajaryhmä puuttuu",
+      "message": "Tältä kohteelta puuttuu seuraajaryhmä. Valitse toinen kohde."
+    },
+    "noGroupAccess": {
+      "title": "Huomio",
+      "message": "Sinulla ei ole pääsyä seuraajaryhmään."
+    }
+  },
+  "selectContent": {
+    "title": "Seurattava sisältö",
+    "facets": {
+      "sharing": "Jakaminen",
+      "catalog": {
+        "myContent": "Oma sisältö",
+        "organization": "Oma organisaatio"
+      }
+    }
+  },
+  "callToAction": {
+    "title": "Toimintakehotus",
+    "helperText": "Toimintakehotus näkyy Seuraa-painikkeen yläpuolella.",
+    "alignment": "Kohdistus"
+  },
+  "followButton": {
+    "title": "Seuraa-painike",
+    "helperText": "Tämän painikkeen avulla jäsenet voivat seurata sisältöä tai lopettaa sisällön seuraamisen. Molemmille painikkeen tiloille voidaan lisätä teksti.",
+    "buttonText": "Ota käyttöön -painikkeen teksti",
+    "unfollowButtonText": "Poista käytöstä -painikkeen teksti",
+    "alignment": "Kohdistus",
+    "buttonStyle": "Painikkeen tyyli",
+    "solid": "Kiinteä tausta",
+    "outline": "Ääriviiva"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "最初のアクションを追加",
+  "addSecondAction": "2 番目のアクションを追加",
+  "addLink": "リンクの追加",
+  "addSection": "セクションの追加",
+  "deleteNotice": {
+    "title": "削除できません",
+    "message": "セクションが空ではありません。 削除する前に、すべてのリンクをセクションの外に移動してください。"
+  },
+  "linkEditor": {
+    "save": "保存",
+    "delete": "削除",
+    "cancel": "キャンセル",
+    "preview": "プレビュー リンク",
+    "title": {
+      "button1": "最初のアクション",
+      "button2": "2 番目のアクション",
+      "block": "アクション リンク"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "既存のコンテンツへのリンク"
+        },
+        "external": {
+          "label": "外部ソースへのリンク"
+        }
+      },
+      "label": {
+        "label": "ラベル",
+        "helperText": {
+          "button": "このテキストはボタン上に表示されます。",
+          "block": "これはブロック上に太字で表示されます。"
+        },
+        "requiredError": "ラベルは必須フィールドです。"
+      },
+      "description": {
+        "label": "説明",
+        "helperText": "これは 2 次情報です。"
+      },
+      "href": {
+        "label": "リンク",
+        "requiredError": "リンクは必須フィールドです。",
+        "formatError": "URL の形式が不正です。"
+      },
+      "contentId": {
+        "label": "コンテンツ リンク",
+        "requiredError": "コンテンツ リンクは必須フィールドです。"
+      },
+      "section": {
+        "label": "セクションに移動",
+        "placeholder": {
+          "noSections": "セクションが構成されていません",
+          "notSet": "セクションにありません"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "セクション",
+    "helperText": "セクションを使用して、メニュー アイテムの下でリンクをネストすることができます。 セクションはリンクとして使用できません。",
+    "section": {
+      "label": {
+        "label": "ラベル",
+        "requiredError": "ラベルは必須フィールドです。"
+      },
+      "description": {
+        "label": "説明"
+      }
+    }
+  }
+}

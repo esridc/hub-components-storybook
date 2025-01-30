@@ -1,0 +1,41 @@
+{
+  "managePrivacyButton": "Manage Privacy",
+  "consentNotice": {
+    "allTracking": "This site was built with ArcGIS Hub and uses anonymous tracking to improve performance and analyze site usage in accordance with Esri's Privacy Statement. Additional third-party tracking systems may monitor your usage of the site.",
+    "anonymousTracking": "This site was built with ArcGIS Hub and uses anonymous tracking to improve performance and analyze site usage in accordance with Esri's Privacy Statement.",
+    "noTracking": "This site was built with ArcGIS Hub and uses only cookies that are necessary for the application to function and cannot be switched off in our systems.",
+    "thirdPartyTracking": "This site was built with ArcGIS Hub and uses only cookies that are necessary for the application to function and cannot be switched off in our systems. Additional third-party tracking systems may monitor your usage of the site."
+  },
+  "consent": {
+    "esriPrivacyLink": "Esri privacy center",
+    "customerConsentLink": "More information"
+  },
+  "eueiNotice": {
+    "title": "{orgName} members will not be tracked",
+    "message": "The Esri User Experience Improvement (EUEI) program has been disabled for {orgName}. Activity related to your visit will not be tracked; you cannot accept anonymous usage statistics or third party tracking.",
+    "link": "Learn about the (EUEI) program."
+  },
+  "notice": {
+    "heading": "Privacy settings",
+    "acceptAllButton": "Accept all cookies",
+    "acceptNecessaryButton": "Accept only necessary cookies",
+    "confirmButton": "Confirm",
+    "reviewSettingsButton": "Review settings"
+  },
+  "settings": {
+    "heading": "Privacy settings",
+    "confirmButton": "Confirm"
+  },
+  "anonymous": {
+    "heading": "Anonymous usage statistics",
+    "helpText": "These cookies allow us to monitor application performance, such as traffic sources, pageviews, and interactions. They help us to know which content is effective and how visitors move around the application. All information collected is anonymous (no personally-identifiable information stored). If you do not allow these cookies, we will not know you visited or interacted with our application."
+  },
+  "necessary": {
+    "heading": "Strictly necessary cookies",
+    "helpText": "These cookies are necessary for the application to function and cannot be switched off in our systems. They are set in response to actions made by you which involve a request for services, such as logging in to your account. You can set your browser to block or alert you about these cookies, but some parts of the application may be affected. All information collected is anonymous (no personally-identifiable information stored)."
+  },
+  "thirdParty": {
+    "heading": "Third-party tracking",
+    "helpText": "These cookies may be set by third-party tracking providers configured on this site. They may collect targeting or marketing information about you during your visit. Information collected may be used for purposes outside this application. If you do not allow these cookies, configured third-party tracking providers will not receive any information about your visit."
+  }
+}

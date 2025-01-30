@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "Uredi",
+    "fields": {
+      "label": {
+        "label": "Oznaka",
+        "requiredMessage": "Oznaka je obavezna",
+        "maxLengthMessage": "Oznaka ne smije premašiti {maxLength} znakova"
+      }
+    },
+    "apply": "Primijeni"
+  },
+  "showItem": "Prikaži sljedeću stavku popisa: {itemLabel}",
+  "hideItem": "Sakrij sljedeću stavku popisa: {itemLabel}",
+  "editItem": "Uredi sljedeću stavku popisa: {itemLabel}"
+}

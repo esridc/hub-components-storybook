@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>arcgis-hub-calendar</title>
+
+    <!-- link to calcite components CSS  -->
+    <link rel="stylesheet" href="../../calcite/calcite.css" />
+    <link rel="stylesheet" href="../../build/hub-components.css" />
+
+    <!-- NOTE: calcite web CSS is only used for grid layout of this page -->
+    <!-- see: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+    <link rel="stylesheet" href="../calcite-web.min.css" />
+
+    <style>
+      .layout {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 1rem;
+      }
+      button {
+        margin-top: 1rem;
+      }
+    </style>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+        }
+      }
+    </script>
+
+    <!-- load calcite components -->
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+
+    <!-- load hub components -->
+    <script type="module" src="../../build/hub-components.esm.js"></script>
+  </head>
+
+  <body>
+    <harness-header page-title="arcgis-hub-calendar"></harness-header>
+    <div class="grid-container padding-leader-4">
+      <!-- docs about grid container: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+
+      <div class="column-24">
+        <div class="layout">
+          <div>
+            <arcgis-hub-calendar></arcgis-hub-calendar>
+            <button type="button" disabled>Clear selection</button>
+          </div>
+          <div>
+            <arcgis-hub-gallery></arcgis-hub-gallery>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const now = new Date();
+      const todayMidnight = new Date(
+        now.getFullYear(),
+        now.getMonth(),
+        now.getDate(),
+        0,
+        0,
+        0,
+        0,
+      ).toISOString();
+      const query = {
+        targetEntity: 'event',
+        filters: [
+          {
+            predicates: [
+              {
+                endDateAfter: todayMidnight,
+              },
+            ],
+          },
+        ],
+      };
+      const button = document.querySelector('button');
+      const calendar = document.querySelector('arcgis-hub-calendar');
+      Object.assign(calendar, { minSelectableDate: todayMidnight });
+      const gallery = document.querySelector('arcgis-hub-gallery');
+      calendar.addEventListener('hubCalendarDateSelected', function (evt) {
+        gallery.query = {
+          ...query,
+          filters: [
+            {
+              predicates: [
+                {
+                  startDateBefore: evt.detail.end,
+                  endDateAfter: evt.detail.start,
+                },
+              ],
+            },
+          ],
+        };
+        button.disabled = false;
+      });
+      calendar.addEventListener('hubCalendarDateUnselected', function () {
+        gallery.query = query;
+        button.disabled = true;
+      });
+      gallery.addEventListener('arcgisHubGalleryResultsChange', function (evt) {
+        calendar.searchResults = evt.detail;
+      });
+      button.addEventListener('click', function () {
+        calendar.clearSelection();
+      });
+      Object.assign(gallery, {
+        query,
+        sortField: 'startDate',
+        sortOrder: 'asc',
+      });
+    </script>
+  </body>
+</html>

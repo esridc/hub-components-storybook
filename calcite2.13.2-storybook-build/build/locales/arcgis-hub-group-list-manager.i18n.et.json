@@ -1,0 +1,29 @@
+{
+  "newTab": "ava {groupName} uuel vahekaardil",
+  "noGroups": "Grupid puuduvad",
+  "pickerToggle": "Lisa grupid",
+  "pickerTitle": "Valige grupid",
+  "groupBlock": {
+    "memberCount": {
+      "noMember": "Liikmeid pole",
+      "oneMember": "1 liige",
+      "members": "{count} liiget"
+    },
+    "dateCreated": "Loomise kuupäev: {localizedDate}",
+    "sharing": "Jagamine: {sharingLevel}",
+    "sharingLevels": {
+      "private": "Mina ise",
+      "shared": "Omanik ja grupid",
+      "org": "Organisatsioon",
+      "public": "Avalik"
+    },
+    "membership": "Liikmesus: {membershipLevel}",
+    "membershipLevels": {
+      "owner": "Grupi omanik",
+      "admin": "Grupihaldur",
+      "member": "Grupi liige",
+      "none": "Puudub"
+    }
+  },
+  "removeGroup": "Eemalda {groupName}"
+}

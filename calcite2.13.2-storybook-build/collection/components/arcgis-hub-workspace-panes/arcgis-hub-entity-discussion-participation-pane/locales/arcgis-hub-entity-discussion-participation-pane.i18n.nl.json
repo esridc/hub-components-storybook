@@ -1,0 +1,82 @@
+{
+  "title": "Deelname",
+  "subtitle": "Stel de zichtbaarheid van het discussiebord (wie het kan weergeven) in, scroll omlaag om in te stellen wie discussiebordinformatie kan bewerken en stel vervolgens deelname en moderatie in bij kanalen.",
+  "channelTitle": "Deelnamekanaal is ingesteld",
+  "channelDescription": "Dit kanaal bepaalt wie posts op dit discussieboard kan toevoegen, weergeven en modereren.",
+  "addChannelsTitle": "Kanaal instellen",
+  "addChannelsDescription": "Kanalen bepalen wie posts aan het discussiebord kunnen toevoegen. Ze kunnen opengesteld zijn voor groepen, voor een organisatie of voor iedereen en ze kunnen op een groot aantal discussies worden toegepast. Kanalen bepalen ook wie kan modereren. Stel geblokkeerde woorden in voor auto-moderatie binnen een kanaal.",
+  "privateChannelTitle": "Er is een privékanaal ingesteld",
+  "privateChannelDescription": "U kunt het privékanaal dat voor dit discussiebord is ingesteld, niet weergeven. U kunt het kanaal verwijderen en een bestaand kanaal selecteren of een nieuw kanaal maken.",
+  "removeChannelConfirmationMessage": "Er worden geen posts meer weergegeven op dit discussiebord. U kunt een kanaal toevoegen als dit kanaal wordt verwijderd.",
+  "headingChannelEdit": "U bent een kanaal aan het bewerken",
+  "headingChannelView": "U bent een kanaal aan het weergeven",
+  "headingChannelCreate": "U bent een kanaal aan het maken",
+  "buttons": {
+    "browse": "Door kanalen bladeren",
+    "new": "Nieuw kanaal",
+    "removeChannel": "Kanaal verwijderen",
+    "cancel": "Annuleren"
+  },
+  "alerts": {
+    "label": "Formulierwaarschuwing",
+    "set": {
+      "title": "Geslaagd. Het kanaal is ingesteld."
+    },
+    "removed": {
+      "title": "Kanaal is verwijderd",
+      "message": "Kies of maak een kanaal voor deelname."
+    },
+    "error": {
+      "title": "Mislukt. Het kanaal is niet ingesteld."
+    }
+  },
+  "galleryPickerTitle": "Een kanaal selecteren",
+  "channelsLabel": "Kanalen",
+  "accessLabel": "Toegang",
+  "optionPublicLabel": "Openbaar",
+  "optionOrganizationLabel": "Organisatie",
+  "optionPrivateLabel": "Privé",
+  "viewChannel": "Kanaal weergeven",
+  "editChannel": "Kanaal bewerken",
+  "save": "Opslaan",
+  "removeChannel": "Kanaal verwijderen",
+  "groupPicker": {
+    "facet": {
+      "label": "Van",
+      "myGroups": "Mijn groepen",
+      "myOrganization": "Mijn organisatie",
+      "myCommunity": "Mijn community"
+    }
+  },
+  "editGroupButtonText": "Groepen voor bewerking toevoegen",
+  "viewGroupButtonText": "Groepen voor weergave toevoegen",
+  "viewGroups": {
+    "header": "Wie kan weergeven",
+    "description": "Personen die het discussiebord kunnen weergeven (maar er niet in kunnen posten); posten wordt hieronder per kanaal ingesteld."
+  },
+  "editGroups": {
+    "header": "Wie kan bewerken",
+    "description": "Groepsleden kunnen discussiebordinformatie bewerken in de werkruimte."
+  },
+  "aboutChannelsNotice": {
+    "title": "Kanalen - een introductie",
+    "message": "Kanalen zijn niet hetzelfde als groepen, maar kunnen groepen bevatten. Ze bepalen wie kan posten en modereren.",
+    "action": "Meer informatie over kanalen"
+  },
+  "nonPrivateChannelNotice": {
+    "title": "Kan kanaal niet bewerken",
+    "message": "Alleen moderators van dit kanaal kunnen dit bewerken. Neem zo nodig contact op met de kanaaleigenaar of organisatiebeheerder voor toevoeging. Daarnaast kunt u dit kanaal verwijderen, een bestaand kanaal toevoegen (waarvan u een moderator bent) of kunt u een nieuw kanaal maken."
+  },
+  "privateChannelNotice": {
+    "title": "Kan kanaal niet bewerken",
+    "message": "Alleen moderators van dit kanaal kunnen dit bewerken. Neem zo nodig contact op met de kanaaleigenaar voor toevoeging. Daarnaast kunt u dit kanaal verwijderen, een bestaand kanaal toevoegen (waarvan u een moderator bent) of kunt u een nieuw kanaal maken."
+  },
+  "participate": {
+    "header": "Wie kan deelnemen en wie kan modereren"
+  },
+  "org": "Organisatie",
+  "private": "Privé",
+  "public": "Openbaar",
+  "unnamed": "Naamloos kanaal",
+  "groupNotFound": "Kan groep niet vinden"
+}

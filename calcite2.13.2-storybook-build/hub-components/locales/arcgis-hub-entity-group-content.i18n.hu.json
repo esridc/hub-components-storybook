@@ -1,0 +1,69 @@
+{
+  "title": "Tartalom",
+  "facets": {
+    "type": "Típus",
+    "tags": "Címke",
+    "categories": "Kategória",
+    "sharing": "Megosztás",
+    "dateUpdated": "Frissítés dátuma",
+    "map": {
+      "label": "Helyszín",
+      "tooltip": "Alkalmazza a térképkiterjedést helyszűrőként"
+    }
+  },
+  "shareContent": {
+    "buttonText": "Tartalom hozzáadása",
+    "disabledTooltip": "Önnek nincs hozzáférése ahhoz, hogy tartalmat adjon hozzá ehhez a csoporthoz.",
+    "catalog": {
+      "myContent": "Saját tartalom",
+      "favorites": "Kedvencek",
+      "organization": "Saját szervezet",
+      "world": "Világ (nyilvános)"
+    },
+    "facets": {
+      "type": "Típus",
+      "sharing": "Megosztás"
+    },
+    "collection": {
+      "appsAndMaps": "Alkalmazások és térképek",
+      "dataset": "Adatok",
+      "documents": "Dokumentumok",
+      "feedback": "Visszajelzés",
+      "sites": "Sites",
+      "projects": "Projektek",
+      "projectsAndInitiatives": "Projektek és kezdeményezések"
+    },
+    "modal": {
+      "title": "Tartalom hozzáadása"
+    },
+    "unsharedModal": {
+      "title": "Az elemek nem lettek hozzáadva",
+      "notice": {
+        "icon": "felkiáltójel-háromszög",
+        "type": "veszély",
+        "title": "A művelet nem fejeződött be",
+        "message": "Néhány elem hozzáadása nem sikerült. Ennek oka lehet, hogy a tartalmon belüli megosztási szintek nem egyeznek, vagy az, hogy az elem tulajdonosa nem tagja a csoportnak.",
+        "linkText": "További információ a megosztásról"
+      }
+    },
+    "itemSharedSuccessAlert": "Sikeresen megosztott elem(ek)"
+  },
+  "close": "Bezárás",
+  "newTab": "új fülön nyílik meg",
+  "unshareContent": {
+    "remove": "Eltávolítás",
+    "success": "A tartalmat sikeresen eltávolították innen: {groupName}.",
+    "unsharedModal": {
+      "title": "Nem eltávolított elemek",
+      "notice": {
+        "icon": "felkiáltójel-háromszög",
+        "type": "veszély",
+        "title": "A művelet nem fejeződött be",
+        "message": "Néhány elem eltávolítása nem sikerült."
+      }
+    }
+  },
+  "notice": {
+    "label": "Űrlappal kapcsolatos figyelmeztetés"
+  }
+}

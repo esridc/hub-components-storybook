@@ -1,0 +1,29 @@
+{
+  "additionalInfo": {
+    "label": "Izbirne nastavitve prikaza",
+    "helperText": "Dodajte svoj opis zasebnosti in informacije o politiki."
+  },
+  "allowPrivacyConfig": {
+    "label": "Prikaz obvestila o zasebnosti"
+  },
+  "blocking": {
+    "label": "Tip obvestila",
+    "optional": {
+      "label": "Soglasje je izbirno",
+      "description": "Obiskovalec lahko uporablja spletno mesto, ne da bi izbral soglasje o zasebnosti; sledenje se začne takoj in se izvaja, dokler ga obiskovalec ne zavrne."
+    },
+    "required": {
+      "label": "Zahtevaj soglasje",
+      "description": "Obiskovalec mora za uporabo spletnega mesta sprejeti ali zavrniti sledenje; sledenje se ne začne, razen če ga obiskovalec sprejme."
+    }
+  },
+  "consentText": {
+    "label": "Opis zasebnosti",
+    "helperText": "Prikazano v obvestilu o zasebnosti za obiskovalce spletnega mesta."
+  },
+  "policyURL": {
+    "label": "Povezava do politike",
+    "helperText": "Prikazano kot povezava do »Več informacij« v obvestilu o zasebnosti.",
+    "error": "Za prikaz je treba uporabiti veljavni URL."
+  }
+}

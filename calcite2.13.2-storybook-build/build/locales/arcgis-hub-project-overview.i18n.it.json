@@ -1,0 +1,19 @@
+{
+  "overview": "Panoramica",
+  "telemetry": {
+    "pageViews": "Visualizzazioni pagina",
+    "last30days": "Ultimi 30 giorni",
+    "lastUpdated": "Ultimo aggiornamento {hoursElapsed} ore fa",
+    "checkTomorrow": "Ricontrolla domani"
+  },
+  "learnAbout": "Informazioni sui progetti Hub",
+  "status": {
+    "notStarted": "Non avviato",
+    "inProgress": "In corso",
+    "onHold": "In sospeso",
+    "complete": "Completo"
+  },
+  "editDetails": "Modificare i dettagli",
+  "noPurposeSet": "Nessuno scopo impostato",
+  "noLocationSet": "Nessuna posizione impostata"
+}

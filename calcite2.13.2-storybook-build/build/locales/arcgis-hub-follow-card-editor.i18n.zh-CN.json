@@ -1,0 +1,41 @@
+{
+  "notice": {
+    "outdatedItem": {
+      "title": "替换您的倡议",
+      "message": "此卡片引用了一个过时的项目。 选择另一个项目供用户关注。"
+    },
+    "missingFollowersGroup": {
+      "title": "缺少关注者群组",
+      "message": "此项目缺少关注者群组。 请选择其他项目。"
+    },
+    "noGroupAccess": {
+      "title": "注意",
+      "message": "您无权访问关注者群组。"
+    }
+  },
+  "selectContent": {
+    "title": "要关注的内容",
+    "facets": {
+      "sharing": "共享",
+      "catalog": {
+        "myContent": "我的内容",
+        "organization": "我的组织"
+      }
+    }
+  },
+  "callToAction": {
+    "title": "号召性用语",
+    "helperText": "号召性用语显示在以下按钮上方。",
+    "alignment": "对齐"
+  },
+  "followButton": {
+    "title": "关注按钮",
+    "helperText": "此按钮将允许成员关注或取消关注内容。 可以为两种按钮状态设置文本。",
+    "buttonText": "选择加入按钮文本",
+    "unfollowButtonText": "选择退出按钮文本",
+    "alignment": "对齐",
+    "buttonStyle": "按钮样式",
+    "solid": "纯色背景",
+    "outline": "轮廓"
+  }
+}

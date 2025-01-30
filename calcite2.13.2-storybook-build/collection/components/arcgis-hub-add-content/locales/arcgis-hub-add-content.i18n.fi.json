@@ -1,0 +1,72 @@
+{
+  "addContent": "Lisää sisältöä",
+  "addContentType": {
+    "event": "Luo tapahtuma",
+    "discussion": "Luo keskustelu",
+    "group": "Luo ryhmä",
+    "initiative": "Luo aloite",
+    "project": "Luo projekti",
+    "page": "Luo sivu",
+    "site:": "Luo sivusto"
+  },
+  "tooltip": {
+    "label": "Poistettu käytöstä",
+    "noCatalog": "Lisää ryhmiä luetteloon, jotta voit lisätä sisältöä.",
+    "noPermission": "Sinulla ei ole oikeutta lisätä sisältöä luetteloon.",
+    "no-permission": "Sinulla ei ole oikeutta lisätä sisältöä luetteloon.",
+    "not-in-groups": "Et ole minkään luettelon määrittävän ryhmän jäsen.",
+    "too-many-groups": "Sinulla on jo enimmäismäärä ryhmiä, etkä voi luoda niitä lisää."
+  },
+  "existing": {
+    "description": "Lisää sisältö, joka on jo kohteessa {onlineOrEnterprise}",
+    "modalTitle": "Valitse aiemmin luotu sisältö",
+    "title": "Valitse aiemmin luotu sisältö"
+  },
+  "create": {
+    "app": {
+      "description": "Luo kokemus, kerro tarina tai visualisoi aineistoa",
+      "modalTitle": "Luo sovellus",
+      "title": "Sovellus"
+    },
+    "event": {
+      "description": "Järjestä organisoituja aktiviteetteja, paikan päällä tai virtuaalisesti",
+      "modalTitle": "Luo tapahtuma",
+      "title": "Tapahtuma"
+    },
+    "content": {
+      "description": "Lisää aineistoa, asiakirjoja, kuvia ja ulkoisia linkkejä sivustollesi",
+      "modalTitle": "Luo sisältöä",
+      "title": "Sisältö"
+    },
+    "discussion": {
+      "description": "Kerää ideoita ja palautetta",
+      "modalTitle": "Luo keskustelupalsta",
+      "title": "Keskustelupalsta"
+    },
+    "group": {
+      "description": "Tuo ihmisiä yhteen sisällön jakamista ja keskusteluja varten",
+      "modalTitle": "Luo ryhmä",
+      "title": "Ryhmä"
+    },
+    "initiative": {
+      "description": "Korosta strategisia pyrkimyksiä projekteja ohjaavien määritettyjen tavoitteiden avulla",
+      "modalTitle": "Luo aloite",
+      "title": "Aloite"
+    },
+    "page": {
+      "description": "Esitä tietoja jäsennellysti",
+      "modalTitle": "Luo sivu",
+      "title": "Sivu"
+    },
+    "project": {
+      "description": "Esittele työ, johon liittyy selkeitä tavoitteita ja aikavälejä",
+      "modalTitle": "Luo projekti",
+      "title": "Projekti"
+    },
+    "site": {
+      "description": "Aktivoi yhteisöä luomalla brändätty verkkosivusto",
+      "modalTitle": "Luo sivusto",
+      "title": "Sivusto"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+:host {
+  display: block;
+}
+
+ol {
+  margin: 0px;
+  display: grid;
+  padding: 0px;
+  gap: var(--arcgis-hub-layout-list-gap, 1rem);
+}
+
+.map {
+  grid-template-columns: 1fr;
+}
+
+.list {
+  grid-template-columns: 1fr;
+}
+
+.grid {
+  grid-template-columns: repeat(auto-fill, minmax(var(--arcgis-hub-layout-list-min-column-width, 20rem), 1fr));
+}
+
+.actions {
+  display: grid;
+  align-items: center;
+  gap: var(--arcgis-hub-layout-list-actions-gap, 0.25rem);
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  margin-bottom: var(--arcgis-hub-layout-list-actions-margin, 1rem);
+}
+
+.actions:has(.layout-actions) {
+  grid-template-columns: auto max-content;
+}
+
+.actions:not(.hasActions) {
+  display: none;
+}
+
+:host(.rtl) .layout-actions calcite-action {
+  transform: scaleX(-1);
+}

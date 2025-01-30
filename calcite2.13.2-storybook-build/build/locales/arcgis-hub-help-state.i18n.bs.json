@@ -1,0 +1,26 @@
+{
+  "unauthenticated": {
+    "heading": "Prijavite se.",
+    "message": "Ovo web-mjesto zahtjeva vjerodajnice za pristup.",
+    "actionText": "Prijava"
+  },
+  "not-found": {
+    "heading": "Stranica nije pronađena",
+    "message": "Ova stranica je možda premještena ili izbrisana. Pokušajte ju potražiti s početne stranice",
+    "actionText": "Idi na početnu stranicu"
+  },
+  "unsupported-device": {
+    "heading": "Nepodržana veličina zaslona",
+    "message": "Radni prostori još nisu dostupni na manjim veličinama zaslona; koristite uređaj sa širim zaslonom.",
+    "actionText": "Idi natrag"
+  },
+  "access-denied": {
+    "heading": "Pristup odbijen",
+    "message": "Nemate dopuštenje za pristup ovom resursu.",
+    "actionText": "Idi na početnu stranicu"
+  },
+  "loading": {
+    "heading": "Učitavanje u tijeku...",
+    "loadingLabel": "Učitavanje u tijeku"
+  }
+}

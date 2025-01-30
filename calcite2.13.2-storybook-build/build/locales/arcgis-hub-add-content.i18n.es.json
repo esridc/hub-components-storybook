@@ -1,0 +1,72 @@
+{
+  "addContent": "Agregar contenido",
+  "addContentType": {
+    "event": "Crear evento",
+    "discussion": "Crear debate",
+    "group": "Crear grupo",
+    "initiative": "Crear iniciativa",
+    "project": "Crear proyecto",
+    "page": "Crear página",
+    "site:": "Crear sitio"
+  },
+  "tooltip": {
+    "label": "Deshabilitado",
+    "noCatalog": "Agregue grupos al catálogo para agregar contenido.",
+    "noPermission": "No tiene permiso para agregar contenido al catálogo.",
+    "no-permission": "No tiene permiso para agregar contenido al catálogo.",
+    "not-in-groups": "No es miembro de ningún grupo que defina el catálogo.",
+    "too-many-groups": "Ya tiene el número máximo de grupos y no puede crear más."
+  },
+  "existing": {
+    "description": "Agregar contenido que ya está en {onlineOrEnterprise}",
+    "modalTitle": "Seleccionar contenido existente",
+    "title": "Seleccionar contenido existente"
+  },
+  "create": {
+    "app": {
+      "description": "Cree una experiencia, cuente una historia o muestre sus datos",
+      "modalTitle": "Crear aplicación",
+      "title": "Aplicación"
+    },
+    "event": {
+      "description": "Organizar actividades, presencial o virtualmente",
+      "modalTitle": "Crear evento",
+      "title": "Evento"
+    },
+    "content": {
+      "description": "Agregar datos, documentos, imágenes y enlaces externos a su sitio",
+      "modalTitle": "Crear contenido",
+      "title": "Contenido"
+    },
+    "discussion": {
+      "description": "Explorar ideas y opiniones",
+      "modalTitle": "Crear panel de debate",
+      "title": "Panel de discusión"
+    },
+    "group": {
+      "description": "Organizar a la gente para compartir contenidos y debates",
+      "modalTitle": "Crear grupo",
+      "title": "Grupo"
+    },
+    "initiative": {
+      "description": "Destacar los esfuerzos estratégicos con objetivos definidos que organizan los proyectos",
+      "modalTitle": "Crear iniciativa",
+      "title": "Iniciativa"
+    },
+    "page": {
+      "description": "Prestar información de forma estructurada",
+      "modalTitle": "Crear página",
+      "title": "Página"
+    },
+    "project": {
+      "description": "Mostrar el trabajo con objetivos y plazos claros",
+      "modalTitle": "Crear proyecto",
+      "title": "Proyecto"
+    },
+    "site": {
+      "description": "Crear un sitio web de marca para interactuar con su comunidad",
+      "modalTitle": "Crear sitio",
+      "title": "Sitio"
+    }
+  }
+}

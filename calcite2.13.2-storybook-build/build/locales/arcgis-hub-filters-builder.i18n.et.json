@@ -1,0 +1,15 @@
+{
+  "newFilter": "Uus filter",
+  "block": {
+    "heading": {
+      "untitled": "Uus filter",
+      "default": "Filter {filterNum}: {parameter}",
+      "group": "Filter {filterNum}: grupid",
+      "type": "Filter {filterNum}: tüübid",
+      "occurrence": "Filter {filterNum}: esinemiskord"
+    },
+    "actions": {
+      "delete": "Kustuta filter: {label}"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "Modifier les groupes",
+        "viewGroups": "Afficher les groupes"
+      },
+      "facet": {
+        "label": "Provenance",
+        "myGroups": "Mes groupes",
+        "myOrganization": "Mon organisation",
+        "myCommunity": "Ma communauté"
+      }
+    }
+  },
+  "property": {
+    "label": "Paramètre",
+    "requiredError": "Le paramètre est requis"
+  },
+  "operator": {
+    "label": "Critères",
+    "requiredError": "Les critères sont requis"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "Type"
+    },
+    "group": {
+      "default": "Groupes"
+    },
+    "occurrence": {
+      "default": "Occurrence"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "Est n’importe lequel de",
+      "group": "Est partagé avec n’importe lequel de"
+    },
+    "isAll": {
+      "default": "Est l’ensemble de",
+      "group": "Est partagé avec l’ensemble de"
+    },
+    "isExactly": {
+      "default": "Est exactement",
+      "occurrence": "Est"
+    },
+    "isNot": {
+      "default": "N’est pas",
+      "type": "N’est aucun de",
+      "group": "N’est partagé avec aucun de"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "Groupes",
+      "requiredError": "Les groupes sont requis"
+    },
+    "type": {
+      "label": "Types",
+      "requiredError": "Les types sont requis",
+      "app": {
+        "label": "Applications"
+      },
+      "content": {
+        "label": "Contenu"
+      },
+      "dataset": {
+        "label": "Jeux de données"
+      },
+      "discussion": {
+        "label": "Discussions"
+      },
+      "document": {
+        "label": "Documents"
+      },
+      "event": {
+        "label": "Événements"
+      },
+      "feedback": {
+        "label": "Commentaires"
+      },
+      "initiative": {
+        "label": "Initiatives"
+      },
+      "map": {
+        "label": "Cartes"
+      },
+      "project": {
+        "label": "Projets"
+      },
+      "site": {
+        "label": "Sites"
+      },
+      "template": {
+        "label": "Modèles"
+      }
+    },
+    "occurrence": {
+      "label": "Occurrence",
+      "requiredError": "L’occurrence est requise",
+      "upcoming": "À venir",
+      "past": "Passée",
+      "inProgress": "En cours"
+    }
+  }
+}

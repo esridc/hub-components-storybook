@@ -1,0 +1,29 @@
+{
+  "header": "אירועים",
+  "myContent": "האירועים שלי",
+  "editableContent": "תוכן ניתן לעריכה",
+  "addEventButtonText": "צור אירוע",
+  "type": "סוג",
+  "sharedUpdate": "קבוצת עדכון משותף",
+  "viewOnly": "קבוצת תצוגה בלבד",
+  "owner": "נוצר על ידי",
+  "starts": "פועל",
+  "from": "מ-",
+  "until": "עד",
+  "updated": "עודכן",
+  "tags": "תגיות",
+  "dateCreated": "נוצר",
+  "dateUpdated": "שונה",
+  "actionLinks": {
+    "view": "הצג",
+    "edit": "עריכה",
+    "ariaEdit": "עריכה: {title}",
+    "ariaView": "תצוגה: {title}"
+  },
+  "access": {
+    "label": "גישה",
+    "PRIVATE": "פרטי",
+    "ORG": "ארגון",
+    "PUBLIC": "ציבורי"
+  }
+}

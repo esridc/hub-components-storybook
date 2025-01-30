@@ -1,0 +1,150 @@
+{
+  "modal": {
+    "dismiss": "Älä näytä tätä uudelleen",
+    "close": "Sulje"
+  },
+  "notice": {
+    "n001": {
+      "title": "Testi-ilmoitus",
+      "message": "Tämä on testi-ilmoituksen tekstiosa",
+      "actions": [
+        {
+          "text": "Lue blogi"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-1": {
+      "title": "Vaihda päivitettyyn latauskokemukseen",
+      "message": "Jos haluat hyödyntää muita muotoja ja parannettua suoritustehoa, ota purkaminen käyttöön tämän kohteen palvelussa."
+    },
+    "20240220-hosted-downloads-2": {
+      "title": "Latausparannukset ovat täällä!",
+      "message": "Hub-sivustojen latausparannuksiin sisältyvät isännöityjen latausten tuki, latauskorttien uusi ulkoasu ja latausten uusi edistymispalkki.",
+      "actions": [
+        {
+          "text": "Lisätietoja"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-3": {
+      "title": "Isännöidyt lataukset ovat täällä!",
+      "message": "Isännöidyt lataukset parantavat suorituskykyä, kun sisältöä ladataan. Jotta voit ottaa isännöidyt lataukset käyttöön, salli alta Pura ominaisuudet -toiminto.",
+      "actions": [
+        {
+          "text": "Lisätietoja"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-basic": {
+      "title": "Tietoja työtiloista",
+      "message": "<p><strong>Lisää sisältöä sivustoluetteloihin ryhmien avulla</strong><br>Sivustohakuluetteloissa on aina hyödynnetty ryhmiä, ja työtilat helpottavat näiden ryhmien hallintaa. Tällä hetkellä voit lisätä sisältöä sivustoon yhdistettyihin yksittäisiin ryhmiin, jotta sisältö tulee näkyviin sivustoluettelossa. Pian voit lisätä sisältöä suoraan luetteloon.</p><p><strong>Siirtyminen tiimeistä ryhmiin</strong><br>Nyt voit käyttää mitä tahansa ArcGIS Online -ryhmää, jotta voit tehdä Hubissa yhteistyötä sivustoissa, sivuilla, sisällössä ja projekteissa. Kaikki aiemmin linkitetyt tiimit, kuten sivuston ydintiimi, näkyvät sivuston työtilan Yhteistyötahot-paneelissa.</p><p><strong>Tiimipohjaiset sähköpostiviestit keskeytetty tilapäisesti</strong><br>Sähköpostiviestien ja kutsu- tai poistosähköpostiviestien lähettämistä tiimin jäsenille ja seuraajille ei tällä hetkellä tueta.</p><p><strong>Upotettu Survey123-verkkosivustosuunnitteluohjelma poistuu käytöstä</strong><br>Upotimme Survey123-suunnitteluohjelman, jotta asiakkaat voisivat saada enemmän aikaan Hubissa. Palautteen perusteella asiakkaat toivovat voivansa suunnitella ja hallita kyselyitä Survey123:ssa muiden sovellusten tapaan. Poistamme upotetun Survey123-suunnitteluohjelman tuen ArcGIS Hubista, jotta voimme edistää asiakkaiden toivomaa työnkulkua.</p>",
+      "actions": [
+        {
+          "text": "Lisätietoja"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-premium": {
+      "title": "Tietoja työtiloista",
+      "message": "<p><strong>Lisää sisältöä sivustoluetteloihin ryhmien avulla</strong><br>Sivustohakuluetteloissa on aina hyödynnetty ryhmiä, ja työtilat helpottavat näiden ryhmien hallintaa. Tällä hetkellä voit lisätä sisältöä sivustoon yhdistettyihin yksittäisiin ryhmiin, jotta sisältö tulee näkyviin sivustoluettelossa. Pian voit lisätä sisältöä suoraan luetteloon.</p><p><strong>Siirtyminen tiimien tukemisesta ryhmien tukemiseen</strong><br>Nyt voit käyttää mitä tahansa ArcGIS Online -ryhmää, jotta voit tehdä Hubissa yhteistyötä sivustoissa, sivuilla, sisällössä ja projekteissa. Kaikki aiemmin linkitetyt tukitiimit näkyvät edelleen sivuston työtilan Yhteistyötahot-paneelissa. Jotta saat tukea jatkossakin, lisää kyseiset tukitiimit ryhminä, jotka voivat nähdä, ja ryhminä, jotka voivat muokata.</p><p><strong>Tiimipohjaiset sähköpostiviestit keskeytetty tilapäisesti</strong><br>Sähköpostiviestien ja kutsu- tai poistosähköpostiviestien lähettämistä tiimin jäsenille ja seuraajille ei tällä hetkellä tueta.</p><p><strong>Upotettu Survey123-verkkosivustosuunnitteluohjelma poistuu käytöstä</strong><br>Upotimme Survey123-suunnitteluohjelman, jotta asiakkaat voisivat saada enemmän aikaan Hubissa. Palautteen perusteella asiakkaat toivovat voivansa suunnitella ja hallita kyselyitä Survey123:ssa muiden sovellusten tapaan. Poistamme upotetun Survey123-suunnitteluohjelman tuen ArcGIS Hubista, jotta voimme edistää asiakkaiden toivomaa työnkulkua.</p><p><strong>Tapahtumat eivät vielä saatavilla työtiloissa</strong><br>Tapahtumiin tehdään muutoksia, ja ne tulevat pian saataville työtiloissa. Jos otat työtilat käyttöön, et voi toistaiseksi luoda uusi tapahtumia tai hallita ja hakea vanhoja tapahtumia. Jos kuitenkin haluat hallita aiemmin luotuja tapahtumia, voit poistaa työtilat käytöstä milloin tahansa.</p>",
+      "actions": [
+        {
+          "text": "Lisätietoja"
+        }
+      ]
+    },
+    "202404-workspaceannouncement": {
+      "title": "Työtilat",
+      "message": "Työtilat ovat uusi tapa muokata ja hallita kohteita Hubissa, ja työtilat korvaavat yleisen navigoinnin muokkausnäkymässä (ei live-näkymässä). Tällä hetkellä voit ottaa työtilat käyttöön milloin tahansa, jos haluat käyttää työtiloja ja niihin yhdistettyjä kohteisiin ja ryhmiin liittyviä ominaisuuksia. Tapahtumat tulevat saataville myöhemmin. Jos haluat kokeilla työtiloja heti, valitse Siirry asetuksiin.",
+      "actions": [
+        {
+          "text": "Siirry asetuksiin"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing": {
+      "title": "Esittelyssä uudistuneet Hub-aloitteet",
+      "message": "ArcGIS Hub -aloitteet ovat muuttuneet 2.7.2024. Aiemmin luodut aloitteet ovat nyt erillisiä sivustoja. Niillä on kuitenkin samat asettelut, sisältö, URL-osoitteet ja premium-ominaisuudet (kuten seuraajat ja tapahtumat) kuin aiemmin. Jos haluat kokeilla uusia päivitettyjä aloitteita, sinun on otettava työtilat käyttöön.",
+      "actions": [
+        {
+          "text": "Lisätietoja aloitteista",
+          "ariaLabel": "Lue lisää aloitteista, Avautuu uudessa välilehdessä"
+        },
+        {
+          "text": "Siirry asetuksiin"
+        }
+      ]
+    },
+    "20240517-initiatives-manage": {
+      "title": "Hallinnoi vanhoja aloitteita",
+      "message": "ArcGIS Hub -aloitteet ovat muuttuneet 2.7.2024. Aiemmin luodut aloitteet ovat nyt erillisiä sivustoja. Niillä on kuitenkin samat asettelut, sisältö, URL-osoitteet ja premium-ominaisuudet (kuten seuraajat ja tapahtumat) kuin aiemmin. Voit poistaa huoletta vanhat aloitteet.",
+      "actions": [
+        {
+          "text": "Lisätietoja aloitteista",
+          "ariaLabel": "Lue lisää aloitteista, Avautuu uudessa välilehdessä"
+        },
+        {
+          "text": "Näytä vanhat aloitteet",
+          "ariaLabel": "Näytä vanhat aloitteet, Avautuu uudessa välilehdessä"
+        }
+      ]
+    },
+    "20240517-initiatives-manage-no-priv": {
+      "title": "Hallinnoi vanhoja aloitteita",
+      "message": "ArcGIS Hub -aloitteet ovat muuttuneet 2.7.2024. Aiemmin luodut aloitteet ovat nyt erillisiä sivustoja. Niillä on kuitenkin samat asettelut, sisältö, URL-osoitteet ja premium-ominaisuudet (kuten seuraajat ja tapahtumat) kuin aiemmin. Voit poistaa huoletta vanhat aloitteet.",
+      "actions": [
+        {
+          "text": "Lisätietoja aloitteista",
+          "ariaLabel": "Lue lisää aloitteista, Avautuu uudessa välilehdessä"
+        },
+        {
+          "text": "Näytä vanhat aloitteet",
+          "ariaLabel": "Näytä vanhat aloitteet, Avautuu uudessa välilehdessä"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing-site": {
+      "title": "Esittelyssä uudistuneet Hub-aloitteet",
+      "message": "Uuden sukupolven Hub-aloitteet ovat nyt saatavilla työtiloissa. Aloitteilla on oma, helposti määritettävä näkymä, ja ne voivat auttaa kohdistamaan Hub-projektit, joilla on samat pitkän aikavälin tavoitteet. Aloitteita voidaan luoda itsenäisesti, ja ne voidaan jakaa yhdelle tai usealle sivustolle. Sivustoilla voi olla yksi tai useita aloitteita.",
+      "actions": [
+        {
+          "text": "Lisätietoja",
+          "ariaLabel": "Lue lisää, Avautuu uudessa välilehdessä"
+        }
+      ]
+    },
+    "20240710-slow-service-warning": {
+      "title": "Palvelukatko",
+      "message": "Tiedonsiirto palvelun kanssa kestää odotettua pitempään. Tämä voi vaikuttaa latausten käyttöön ja kartan toiminnallisuuteen."
+    },
+    "20240710-unreachable-service-error": {
+      "title": "Palvelu ei käytettävissä",
+      "message": "Isäntäpalveluun ei saada yhteyttä. Lataukset ja kartan toiminnot eivät ole tällä hetkellä käytettävissä tälle kohteelle."
+    },
+    "20240807-auth-required-status": {
+      "title": "Palvelun tila tuntematon",
+      "message": "Suojattua palvelua ei voi käyttää, koska se edellyttää lisävaltuutusta. Lataukset ja kartan toiminnot eivät ole tällä hetkellä käytettävissä tälle kohteelle."
+    },
+    "20240805-private-downloads-unavailable-ago-error": {
+      "title": "Latauksia ei ole saatavilla",
+      "message": "Jotta voit ladata sisältöä, Vie aineisto -asetuksen on oltava käytössä ArcGIS Onlinessa. Ota yhteyttä kohteen omistajaan ja pyydä tämän asetuksen ottamista käyttöön."
+    },
+    "20240805-private-downloads-unavailable-enterprise-error": {
+      "title": "Latauksia ei ole saatavilla",
+      "message": "Jotta voit ladata sisältöä, Vie aineisto -asetuksen on oltava käytössä ArcGIS Enterprisessa. Ota yhteyttä kohteen omistajaan ja pyydä tämän asetuksen ottamista käyttöön."
+    },
+    "20240819-download-formats-disabled": {
+      "title": "Lataukset on poistettu käytöstä",
+      "message": "Jos haluat ladata tämän kohteen sisältöä, ota yhteyttä kohteen omistajaan."
+    },
+    "20241104-about-feeds-notice": {
+      "message": "Hub-syötteillä julkista Open Data -aineistoa on helppo käsitellä ja käyttää uudelleen.",
+      "actions": [
+        {
+          "text": "Lisätietoja Hub-syötteistä",
+          "ariaLabel": "Lue lisätietoja Hub-syötteistä. Avautuu uuteen välilehteen"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.file-step {
+  text-align: center;
+}
+
+.file-step__upload-icon {
+  margin-bottom: 0.5rem;
+  margin-top: 0.25rem;
+  color: var(--calcite-color-text-3);
+}
+
+.file-step__upload-icon calcite-icon {
+  width: 4rem;
+  height: 4rem;
+}
+
+.file-step__drag-text {
+  margin-bottom: 0.25rem;
+  font-size: var(--calcite-font-size-2);
+  line-height: 1.5rem;
+  font-weight: var(--calcite-font-weight-medium);
+}
+
+.file-step__browse-button {
+  margin-top: 1rem;
+}
+
+.file-step__file-input {
+  display: none;
+}

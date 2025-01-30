@@ -1,0 +1,65 @@
+{
+  "catalog": "Katalog",
+  "catalog-content": "Vsebina",
+  "catalog-events": "Dogodki",
+  "shared": {
+    "publish": {
+      "label": "Shrani",
+      "success": {
+        "title": "Uspešno objavljena urejanja kataloga v pogled v živo"
+      },
+      "error": {
+        "title": "Napaka pri shranjevanju sprememb"
+      }
+    }
+  },
+  "emptyState": {
+    "message": "Noben katalog ni določen",
+    "action": "Zgradi katalog"
+  },
+  "actionBar": {
+    "details": "Konfiguracija kataloga",
+    "appearance": "Videz kataloga",
+    "tooltip": {
+      "appearanceDisabled": "Trenutno ni konfiguriran noben katalog. Konfigurirajte katalog, da prilagodite nastavitve videza.",
+      "configuration": "Konfiguracija",
+      "appearance": "Videz"
+    }
+  },
+  "detailsPanel": {
+    "heading": "Konfiguracija kataloga",
+    "close": "Zapri konfiguracijo kataloga",
+    "catalogBuilder": {
+      "helperText": "Vaš katalog obiskovalcem omogoča iskanje in ogled vsebine. Prikazani rezultati temeljijo na konfiguraciji vaše poizvedbe."
+    },
+    "querySizeNotice": {
+      "warning": {
+        "title": "Približuje se omejitvi kataloga",
+        "catalogSourceMessage": {
+          "item": "Konfiguracija vira elementa se približuje omejitvi velikosti.",
+          "event": "Konfiguracija vira dogodka se približuje omejitvi velikosti."
+        },
+        "collectionSourceMessage": {
+          "item": "Kombinacija vira elementa in konfiguracija zbirke \"{collectionName}\" se približuje omejitvi velikosti.",
+          "event": "Kombinacija vira dogodka in konfiguracija zbirke \"{collectionName}\" se približuje omejitvi velikosti."
+        }
+      },
+      "danger": {
+        "title": "Presežena je meja kataloga",
+        "catalogSourceMessage": {
+          "item": "Konfiguracija vira elementa je presegla omejitev velikosti. Zmanjšajte število filtrov in/ali možnosti filtrov v viru elementa za objavo.",
+          "event": "Konfiguracija vira dogodka je presegla omejitev velikosti. Zmanjšajte število filtrov in/ali možnosti filtrov v viru dogodka za objavo."
+        },
+        "collectionSourceMessage": {
+          "item": "Kombinacija vira elementa in konfiguracija zbirke \"{collectionName}\" je presegla omejitev velikosti. Zmanjšajte število filtrov in/ali možnosti filtrov v viru elementa in/ali zbirki \"{collectionName}\" za objavo.",
+          "event": "Kombinacija vira dogodka in konfiguracija zbirke \"{collectionName}\" je presegla omejitev velikosti. Zmanjšajte število filtrov in/ali možnosti filtrov v viru dogodka in/ali zbirki \"{collectionName}\" za objavo."
+        }
+      }
+    }
+  },
+  "appearancePanel": {
+    "heading": "Videz kataloga",
+    "close": "Zapri videz kataloga",
+    "description": "Vaš katalog obiskovalcem omogoča iskanje in ogled vsebine. Tukaj lahko posodobite videz privzetega kataloga in katere filtre želite prikazati."
+  }
+}

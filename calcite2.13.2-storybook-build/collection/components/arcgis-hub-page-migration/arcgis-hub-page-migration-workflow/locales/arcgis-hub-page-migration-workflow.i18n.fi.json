@@ -1,0 +1,46 @@
+{
+  "heading": "Sivun tiedot",
+  "form": {
+    "title": {
+      "label": "Sivun nimi",
+      "requiredError": "Nimi on pakollinen",
+      "entityTitleValidatorError": "Sivun nimessä ei voi olla emojeita tai seuraavia merkkejä: <, > tai ="
+    },
+    "slug": {
+      "label": "Slug",
+      "helperText": "Slug on sivun nimen URL-osoiteystävällinen versio. Se luodaan automaattisesti sivun nimen perusteella, mutta voit muokata sitä.",
+      "patternError": "Virhe: slugin on sisällettävä pienin kirjaimin kirjoitettuja aakkosnumeerisia merkkejä, jotka erotetaan toisistaan yhdysmerkillä.",
+      "isUniqueError": "Slug on jo käytössä. Valitse toinen.",
+      "requiredError": "Slug on pakollinen"
+    }
+  },
+  "controls": {
+    "back": "Takaisin",
+    "cancel": "Peruuta",
+    "close": "Valmis",
+    "migrate": "Siirrä sivu",
+    "next": "Seuraava"
+  },
+  "selection": {
+    "unlimited": "{count} valittu",
+    "limited": "{count}/{limit} valittu"
+  },
+  "steps": {
+    "specifyInfo": "Lisää perustiedot",
+    "selectGroups": "Valitse ryhmä",
+    "confirmation": "Vahvistus"
+  },
+  "working": {
+    "heading": "Siirretään sivua.",
+    "loadingLabel": "Siirretään sivua"
+  },
+  "success": {
+    "heading": "Sivu siirretty",
+    "message": "Sivu on siirretty onnistuneesti."
+  },
+  "failure": {
+    "heading": "Sivua ei siirretty",
+    "message": "Jokin meni vikaan siirrettäessä sivua. Yritä uudelleen.",
+    "action": "Yritä uudelleen"
+  }
+}

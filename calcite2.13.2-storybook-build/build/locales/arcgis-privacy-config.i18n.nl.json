@@ -1,0 +1,29 @@
+{
+  "additionalInfo": {
+    "label": "Optionele weergave-instellingen",
+    "helperText": "Voeg uw eigen privacybeschrijving en beleidsinformatie toe."
+  },
+  "allowPrivacyConfig": {
+    "label": "Privacyverklaring weergeven"
+  },
+  "blocking": {
+    "label": "Type kennisgeving",
+    "optional": {
+      "label": "Toestemming optioneel",
+      "description": "Bezoeker kan de site gebruiken zonder een privacytoestemming te selecteren; tracking start onmiddellijk tot deze door de bezoeker wordt geweigerd."
+    },
+    "required": {
+      "label": "Toestemming vereisten",
+      "description": "Bezoeken moet tracking accepteren of weigeren om de site te kunnen gebruiken; tracking begint pas als deze door de bezoeker wordt geaccepteerd."
+    }
+  },
+  "consentText": {
+    "label": "Privacybeschrijving",
+    "helperText": "Wordt voor de bezoeker van de site weergegeven in de privacyverklaring,"
+  },
+  "policyURL": {
+    "label": "Link naar beleid",
+    "helperText": "Wordt in de privacyverklaring weergegeven als een Meer informatie-link.",
+    "error": "Moet een geldige URL zijn om te worden weergegeven."
+  }
+}

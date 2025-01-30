@@ -1,0 +1,1 @@
+import{g as r}from"./p-3f64a9d9.js";function a(r){let a="enterprise";return r.includes("arcgis.com")&&(a="production"),(r.includes("qaext.arcgis.com")||r.includes("mapsqa.arcgis.com"))&&(a="qaext"),(r.includes("devext.arcgis.com")||r.includes("mapsdev.arcgis.com"))&&(a="devext"),a}function e(a){return`${r(a)}/sharing/rest`}export{a,e as g}

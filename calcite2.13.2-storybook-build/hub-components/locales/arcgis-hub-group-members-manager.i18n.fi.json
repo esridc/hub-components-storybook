@@ -1,0 +1,59 @@
+{
+  "title": "Jäsenet",
+  "facets": {
+    "role": {
+      "label": "Rooli",
+      "all": "Kaikki",
+      "manager": "Hallinnoija",
+      "member": "Jäsen"
+    },
+    "dateJoined": {
+      "label": "Liittymispäivä"
+    }
+  },
+  "stats": {
+    "total": {
+      "title": "Yhteensä",
+      "trailingText": "Ryhmän jäsenet"
+    },
+    "new": {
+      "title": "Uusi",
+      "trailingText": "Edelliset 30 päivää"
+    }
+  },
+  "addMembers": {
+    "button": "Lisää jäseniä",
+    "disabledTooltip": "Sinulla ei ole oikeuksia lisätä käyttäjiä tähän ryhmään.",
+    "modal": {
+      "title": "Lisää jäseniä",
+      "org": "Oma organisaatio",
+      "community": "Oma yhteisö",
+      "partner": "Omat kumppanit",
+      "world": "Maailma"
+    },
+    "notifications": {
+      "invited": "Kutsu on lähetetty. Käyttäjien on hyväksyttävä liittymistä varten",
+      "added": "Käyttäjät liitetty",
+      "notInvited": "Joidenkin jäsenten käyttöoikeudet eivät riitä ryhmään liittymiseen tai ryhmän enimmäismäärä (512) on täyttynyt"
+    }
+  },
+  "removeUsers": {
+    "button": "Poista",
+    "success": "Jäsenten poisto ryhmästä {groupName} onnistui.",
+    "error": "Vähintään yhtä käyttäjää ei voitu poistaa ryhmästä."
+  },
+  "changeRole": {
+    "tooltipText": "Poista itsesi tai ryhmän omistajan valinta",
+    "tooltipLabel": "Roolin vastuuvapauslauseke",
+    "button": "Vaihda rooli",
+    "member": "Jäsen",
+    "memberHelperText": "Voi lisätä sisältöä ryhmään ja katsoa ryhmän sisältöä.",
+    "admin": "Hallinnoija",
+    "adminHelperText": "Voi lisätä tai poistaa sisältöä ja kutsua tai poistaa ihmisiä (paitsi omistajan).",
+    "success": "Valituista jäsenistä tuli ryhmä {role}.",
+    "error": "Vähintään yhden jäsenen roolia ei voitu vaihtaa."
+  },
+  "notice": {
+    "label": "Lomakevaroitus"
+  }
+}

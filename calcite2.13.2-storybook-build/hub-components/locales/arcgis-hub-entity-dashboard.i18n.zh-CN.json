@@ -1,0 +1,20 @@
+{
+  "dashboard": "仪表盘",
+  "activityLogSection": {
+    "title": "活动日志",
+    "table": {
+      "downloadAction": "下载",
+      "downloadAllAction": "全部下载",
+      "downloadActionTooltip": "下载所选活动",
+      "caption": "最近的错误表",
+      "columnHeaders": {
+        "datetime": "日期",
+        "layer": "图层",
+        "message": "消息"
+      },
+      "noRecentErrors": "无最近的错误",
+      "expandText": "查看更多记录",
+      "collapseText": "查看更少记录"
+    }
+  }
+}

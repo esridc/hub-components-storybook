@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "Feature-Sammlung",
+    "fgdb": "File Geodatabase",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Shapefile",
+    "sqlite": "SQLite-Geodatabase"
+  },
+  "buttonText": {
+    "download": "Herunterladen",
+    "pending": "Ausstehend",
+    "processing": "Verarbeitung",
+    "converting": "Wird konvertiert",
+    "completed": "Download abgeschlossen",
+    "failed": "Download fehlgeschlagen"
+  },
+  "errors": {
+    "errorHeading": "Fehler"
+  },
+  "cacheStatusAccordion": {
+    "heading": "Haben Sie das Gesuchte gefunden?",
+    "content": "Möglicherweise ist eine neuere Version verfügbar.",
+    "button": "Neue Datei anfordern"
+  },
+  "generateNewModal": {
+    "heading": "Sind Sie sicher?",
+    "content": "Dieser Vorgang kann einige Zeit in Anspruch nehmen. Lassen Sie diese Browser-Registerkarte aktiv, bis der Download abgeschlossen ist.",
+    "confirmButton": "Ja",
+    "cancelButton": "Abbrechen"
+  }
+}

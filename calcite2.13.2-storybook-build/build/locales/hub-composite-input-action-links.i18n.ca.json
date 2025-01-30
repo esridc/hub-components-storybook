@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "Afegeix la primera acció",
+  "addSecondAction": "Afegeix la segona acció",
+  "addLink": "Afegeix un enllaç",
+  "addSection": "Afegeix una secció",
+  "deleteNotice": {
+    "title": "No es pot suprimir",
+    "message": "La secció no és buida. Moveu tots els enllaços fora de la secció abans d'intentar la supressió."
+  },
+  "linkEditor": {
+    "save": "Desa",
+    "delete": "Suprimeix",
+    "cancel": "Cancel·la",
+    "preview": "Enllaç de visualització prèvia",
+    "title": {
+      "button1": "Primera acció",
+      "button2": "Segona acció",
+      "block": "Enllaç de l'acció"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "Enllaç al contingut existent"
+        },
+        "external": {
+          "label": "Enllaç a una font externa"
+        }
+      },
+      "label": {
+        "label": "Etiqueta",
+        "helperText": {
+          "button": "Aquest text es mostrarà al botó.",
+          "block": "Es mostrarà al bloc en negreta."
+        },
+        "requiredError": "L'etiqueta és un camp obligatori."
+      },
+      "description": {
+        "label": "Descripció",
+        "helperText": "És informació secundària."
+      },
+      "href": {
+        "label": "Enllaç",
+        "requiredError": "L'enllaç és un camp obligatori.",
+        "formatError": "El format de l'URL no és correcte."
+      },
+      "contentId": {
+        "label": "Enllaç del contingut",
+        "requiredError": "L'enllaç del contingut és un camp obligatori."
+      },
+      "section": {
+        "label": "Mou a una secció",
+        "placeholder": {
+          "noSections": "No s'ha configurat cap secció",
+          "notSet": "No és a la secció"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "Secció",
+    "helperText": "Les seccions es poden fer servir per imbricar enllaços en un element de menú. Les seccions no funcionen com a enllaç.",
+    "section": {
+      "label": {
+        "label": "Etiqueta",
+        "requiredError": "L'etiqueta és un camp obligatori."
+      },
+      "description": {
+        "label": "Descripció"
+      }
+    }
+  }
+}

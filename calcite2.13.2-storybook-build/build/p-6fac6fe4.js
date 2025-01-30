@@ -1,0 +1,1 @@
+import{b as r}from"./p-c20bc7b4.js";function t(t){return t.split(" ").map((t=>r(t))).join(" ")}export{t}

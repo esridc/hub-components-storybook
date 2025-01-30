@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "Colecție obiecte spațiale",
+    "fgdb": "File Geodatabase",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Shapefile",
+    "sqlite": "Bază date geo SQLite"
+  },
+  "buttonText": {
+    "download": "Descărcare",
+    "pending": "În așteptare",
+    "processing": "În curs de procesare",
+    "converting": "Se convertește",
+    "completed": "Descărcare finalizată",
+    "failed": "Descărcare eșuată"
+  },
+  "errors": {
+    "errorHeading": "Eroare"
+  },
+  "cacheStatusAccordion": {
+    "heading": "Găsiți ce vă trebuie?",
+    "content": "Este posibil să fie disponibilă o versiune mai recentă.",
+    "button": "Solicitați un fișier nou"
+  },
+  "generateNewModal": {
+    "heading": "Sunteţi sigur?",
+    "content": "Poate dura câteva momente. Păstrați această filă de browser activă până când se încheie descărcarea.",
+    "confirmButton": "Da",
+    "cancelButton": "Anulare"
+  }
+}

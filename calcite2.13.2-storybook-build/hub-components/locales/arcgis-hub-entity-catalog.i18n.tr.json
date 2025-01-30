@@ -1,0 +1,65 @@
+{
+  "catalog": "Katalog",
+  "catalog-content": "İçerik",
+  "catalog-events": "Etkinlikler",
+  "shared": {
+    "publish": {
+      "label": "Kaydet",
+      "success": {
+        "title": "Katalog düzenlemeleri canlı görünüme başarıyla yayınlandı."
+      },
+      "error": {
+        "title": "Düzenlemeler kaydedilirken hata oluştu"
+      }
+    }
+  },
+  "emptyState": {
+    "message": "Tanımlanmış katalog yok",
+    "action": "Bir katalog oluştur"
+  },
+  "actionBar": {
+    "details": "Katalog yapılandırması",
+    "appearance": "Katalog görünümü",
+    "tooltip": {
+      "appearanceDisabled": "Şu anda hiçbir katalog yapılandırılmamış. Görünüm ayarlarını yapmak için lütfen bir kataloğu yapılandırın.",
+      "configuration": "Yapılandırma",
+      "appearance": "Görünüm"
+    }
+  },
+  "detailsPanel": {
+    "heading": "Katalog yapılandırması",
+    "close": "Katalog yapılandırmasını kapat",
+    "catalogBuilder": {
+      "helperText": "Kataloğunuz ziyaretçilerin içerikleri aramasına ve görüntülemesine olanak verir. Görüntülenen sonuçlar sorgu yapılandırmanıza dayanmaktadır."
+    },
+    "querySizeNotice": {
+      "warning": {
+        "title": "Katalog sınırına yaklaşılıyor",
+        "catalogSourceMessage": {
+          "item": "Öge kaynağı yapılandırmanız boyut sınırına yaklaşıyor.",
+          "event": "Etkinlik kaynağı yapılandırmanız boyut sınırına yaklaşıyor."
+        },
+        "collectionSourceMessage": {
+          "item": "Öge kaynağı ve \"{collectionName}\" koleksiyon kombinasyonu yapılandırması boyut sınırına yaklaşıyor.",
+          "event": "Etkinlik kaynağı ve \"{collectionName}\" koleksiyon kombinasyonu yapılandırması boyut sınırına yaklaşıyor."
+        }
+      },
+      "danger": {
+        "title": "Katalog sınırı aşıldı",
+        "catalogSourceMessage": {
+          "item": "Öge kaynağı yapılandırmanız boyut sınırını aştı. Yayınlamak için öge kaynağınızdaki filtre ve/veya filtre seçeneklerinin sayısını azaltın.",
+          "event": "Etkinlik kaynağı yapılandırmanız boyut sınırını aştı. Yayınlamak için etkinlik kaynağınızdaki filtre ve/veya filtre seçeneklerinin sayısını azaltın."
+        },
+        "collectionSourceMessage": {
+          "item": "Öge kaynağı ve \"{collectionName}\" koleksiyon kombinasyonu yapılandırması boyut sınırını aştı. Yayınlamak için öge kaynağınızdaki ve/veya \"{collectionName}\" koleksiyonunuzdaki filtre ve/veya filtre seçeneklerinin sayısını azaltın.",
+          "event": "Etkinlik kaynağı ve \"{collectionName}\" koleksiyon kombinasyonu yapılandırması boyut sınırını aştı. Yayınlamak için etkinlik kaynağınızdaki ve/veya \"{collectionName}\" koleksiyonunuzdaki filtre ve/veya filtre seçeneklerinin sayısını azaltın."
+        }
+      }
+    }
+  },
+  "appearancePanel": {
+    "heading": "Katalog görünümü",
+    "close": "Katalog görünümünü kapat",
+    "description": "Kataloğunuz ziyaretçilerin içerikleri aramasına ve görüntülemesine olanak verir. Burada varsayılan kataloğun nasıl görüneceğini ve hangi filtrelerin görüntülenmesini istediğinizi güncelleyebilirsiniz."
+  }
+}

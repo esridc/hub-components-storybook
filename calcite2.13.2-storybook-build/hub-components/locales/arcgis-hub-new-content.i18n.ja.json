@@ -1,0 +1,57 @@
+{
+  "new": "新規",
+  "project": {
+    "label": "プロジェクト",
+    "description": "明確な目標とタイムフレームを持つ作業をハイライト表示",
+    "createLabel": "プロジェクトの作成",
+    "newLabel": "新しいプロジェクト"
+  },
+  "initiative": {
+    "label": "イニシアティブ",
+    "description": "イニシアティブでは目標に向けて進捗状況の整理と集計ができます",
+    "createLabel": "イニシアティブの作成",
+    "newLabel": "新しいイニシアティブ"
+  },
+  "discussion": {
+    "label": "ディスカッション ボード",
+    "description": "新しいディスカッション ボードを作成するには、そのトピックを示すタイトルを入力します。",
+    "createLabel": "ディスカッション ボードの作成",
+    "newLabel": "新しいディスカッション ボード"
+  },
+  "site": {
+    "label": "サイト",
+    "description": "情報を整理および共有する Web ページを作成",
+    "createLabel": "サイトの作成",
+    "newLabel": "新しいサイト"
+  },
+  "event": {
+    "label": "イベント",
+    "description": "組織的な活動を対面またはオンラインで主催",
+    "createLabel": "イベントの作成",
+    "newLabel": "新しいイベント"
+  },
+  "content": {
+    "label": "コンテンツ",
+    "description": "データ、ドキュメント、画像、外部リンクをサイトに追加",
+    "createLabel": "コンテンツの作成",
+    "newLabel": "新しいコンテンツ"
+  },
+  "feedback": {
+    "label": "フィードバック",
+    "description": "調査や投票などのツールを使用して焦点を絞った情報を収集",
+    "createLabel": "フィードバックの作成",
+    "newLabel": "新しいフィードバック"
+  },
+  "app": {
+    "label": "アプリ",
+    "description": "エクスペリエンスを構築する、ストーリーを伝える、データを視覚化する",
+    "createLabel": "アプリの作成",
+    "newLabel": "新しいアプリ"
+  },
+  "group": {
+    "label": "グループ",
+    "description": "焦点を絞ったコンテンツに共同で取り組むグループを設定",
+    "createLabel": "グループの作成",
+    "newLabel": "新しいグループ"
+  }
+}

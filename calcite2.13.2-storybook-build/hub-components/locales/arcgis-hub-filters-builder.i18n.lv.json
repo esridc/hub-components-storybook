@@ -1,0 +1,15 @@
+{
+  "newFilter": "Jauns filtrs",
+  "block": {
+    "heading": {
+      "untitled": "Jauns filtrs",
+      "default": "Filtrs {filterNum}: {parameter}",
+      "group": "Filtrs {filterNum}: grupas",
+      "type": "Filtrs {filterNum}: veidi",
+      "occurrence": "Filtrs {filterNum}: sastopamība"
+    },
+    "actions": {
+      "delete": "Dzēst filtru: {label}"
+    }
+  }
+}

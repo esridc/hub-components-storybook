@@ -1,0 +1,15 @@
+{
+  "newCollection": "Nova zbirka",
+  "block": {
+    "heading": {
+      "untitled": "Zbirka brez naslova"
+    },
+    "actions": {
+      "delete": "Izbriši zbirko: {label}"
+    }
+  },
+  "name": {
+    "label": "Ime",
+    "requiredError": "Ime zbirke je obvezno"
+  }
+}

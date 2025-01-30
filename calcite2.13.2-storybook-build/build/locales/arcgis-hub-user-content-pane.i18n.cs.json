@@ -1,0 +1,43 @@
+{
+  "content": "Obsah",
+  "myContent": "Můj obsah",
+  "editableContent": "Editovatelný obsah",
+  "addContentButtonText": "Vytvořit nový",
+  "type": "Typ",
+  "sharedUpdate": "Skupina se sdílenými aktualizacemi",
+  "viewOnly": "Skupina pouze pro prohlížení",
+  "owner": "Vlastník",
+  "updated": "Aktualizováno",
+  "tags": "Klíčová slova",
+  "dateCreated": "Vytvořeno",
+  "dateUpdated": "Změněno",
+  "actionLinks": {
+    "view": "Zobrazit",
+    "edit": "Upravit",
+    "ariaEdit": "Upravit {title}",
+    "ariaView": "Zobrazit {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Obsah",
+      "myContent": "Obsah, který vlastním",
+      "editableContent": "Obsah, který mohu upravovat",
+      "all": "Veškerý obsah"
+    },
+    "access": {
+      "label": "Od"
+    },
+    "type": {
+      "label": "Typy"
+    },
+    "tags": {
+      "label": "Klíčová slova"
+    },
+    "categories": {
+      "label": "Kategorie"
+    },
+    "modified": {
+      "label": "Změněno"
+    }
+  }
+}

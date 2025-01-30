@@ -1,0 +1,33 @@
+{
+  "title": "Koleksiyonlar",
+  "actions": {
+    "label": "Seçenekler",
+    "show": "Göster",
+    "hide": "Gizle",
+    "rename": "Yeniden Adlandır"
+  },
+  "formAlert": "Biçim uyarısı",
+  "alertMessages": {
+    "success": "Düzenlemeler başarıyla kaydedildi",
+    "error": "Düzenlemeler kaydedilirken hata oluştu"
+  },
+  "collectionRenameModal": {
+    "title": "Koleksiyonu Yeniden Adlandır",
+    "fieldLabel": "Koleksiyon etiketi",
+    "requiredMessage": "Koleksiyon etiketi zorunludur",
+    "apply": "Uygula",
+    "maxLengthMessage": "Koleksiyon etiketi 50 karakteri aşmamalıdır"
+  },
+  "collections": {
+    "dataset": "Veriler",
+    "site": "Sites",
+    "document": "Belgeler",
+    "appAndMap": "Uygulamalar ve Haritalar"
+  },
+  "saveButton": "Kaydet",
+  "sections": {
+    "collectionConfiguration": {
+      "title": "Koleksiyon yapılandırma"
+    }
+  }
+}

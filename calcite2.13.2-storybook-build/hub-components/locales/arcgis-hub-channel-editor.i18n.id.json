@@ -1,0 +1,96 @@
+{
+  "unnamedChannel": "Saluran tanpa nama",
+  "name": {
+    "label": "Nama",
+    "placeholder": "Saluran {prefix}"
+  },
+  "save": "Simpan",
+  "basicInfo": {
+    "label": "Informasi dasar"
+  },
+  "access": {
+    "private": {
+      "label": "Pribadi",
+      "description": "Grup yang dipilih dapat berpartisipasi. Pemilik dan pengelola grup adalah moderator yang ditugaskan secara otomatis."
+    },
+    "organization": {
+      "label": "Organisasi Saya",
+      "description": "Semua anggota dengan akun ke {orgName} dapat berpartisipasi. Admin organisasi dan pemilik saluran adalah moderator yang ditugaskan secara otomatis. Pemilik saluran juga dapat menambahkan grup tempat mereka menjadi anggotanya dengan mengklik 'Tambahkan grup peserta' di bawah ini.",
+      "disabledTooltip": "Hanya administrator organisasi yang dapat membuat saluran organisasi."
+    },
+    "public": {
+      "label": "Publik",
+      "description": "Semua anggota yang sudah masuk dapat berpartisipasi. Admin organisasi dan pemilik saluran adalah moderator yang ditugaskan secara otomatis. Pemilik saluran juga dapat menambahkan grup tempat mereka menjadi anggotanya dengan mengklik 'Tambahkan grup peserta' di bawah ini.",
+      "disabledTooltip": "Hanya administrator organisasi yang dapat membuat saluran publik."
+    },
+    "allowAsAnonymous": {
+      "label": "Izinkan anonim (khusus peserta yang sudah masuk)",
+      "description": "Avatar, nama, dan nama pengguna orang dengan akun yang memposting secara anonim tidak akan tersedia."
+    },
+    "confirmation": {
+      "header": "Apakah Anda yakin?",
+      "message": "Menyimpan perubahan ini akan menghapus akses edit Anda ke saluran ini. Hanya administrator organisasi yang dapat mengedit saluran publik atau organisasi.",
+      "secondary": "Batalkan",
+      "primary": "Konfirmasi"
+    }
+  },
+  "participants": {
+    "label": "Peserta",
+    "helperText": "Orang-orang yang dapat memposting, membalas, dan bereaksi terhadap diskusi.",
+    "none": "Tidak ada peserta yang ditetapkan",
+    "add": "Tambahkan grup peserta"
+  },
+  "groupPicker": {
+    "title": "Pilih grup",
+    "facet": {
+      "label": "Dari",
+      "myGroups": "Grup saya",
+      "myOrganization": "Organisasi saya",
+      "myCommunity": "Komunitas saya"
+    }
+  },
+  "blockWords": {
+    "label": "Kata-kata yang diblokir",
+    "helperText": "Daftar yang dipisahkan koma. Postingan dan balasan yang memuatnya akan disembunyikan secara otomatis."
+  },
+  "manage": {
+    "label": "Moderator",
+    "helperText": "Penugasan otomatis moderator didasarkan pada pemilihan peserta. Untuk setiap grup tambahan yang ditambahkan ke saluran, pemilik dan pengelola grup adalah moderator yang ditugaskan. Moderator dapat menyembunyikan dan menampilkan postingan, menambahkan kata-kata yang diblokir, dan mengedit pengaturan saluran."
+  },
+  "manager": "Pengelola",
+  "admin": "Admin",
+  "viewProfile": "Lihat profil",
+  "alerts": {
+    "error": "Terjadi kesalahan saat menyimpan saluran",
+    "success": "Saluran berhasil disimpan",
+    "label": "Peringatan formulir"
+  },
+  "validations": {
+    "minChannelGroups": "Saluran pribadi memerlukan setidaknya satu grup peserta.",
+    "channelNameRequired": "Nama saluran wajib diisi",
+    "allowAsAnonymous": "Postingan anonim hanya didukung oleh saluran publik.",
+    "blockWords": "Masukkan maksimal 20 kata-kata/frasa yang diblokir (entri dipisahkan dengan koma, tanpa duplikat atau entri kosong)."
+  },
+  "notices": {
+    "edit": "Pengeditan akan memengaruhi di mana pun saluran ini digunakan",
+    "duplicate": {
+      "create": {
+        "error": {
+          "title": "Saluran belum dibuat",
+          "message": "Saluran dengan pilihan akses ini sudah ada. Gunakan saluran yang ada atau ubah pilihan."
+        }
+      },
+      "update": {
+        "error": {
+          "title": "Saluran belum diperbarui",
+          "message": "Saluran dengan pilihan akses ini sudah ada sehingga kami tidak dapat menyimpan pembaruan ini."
+        }
+      },
+      "action": "Gunakan saluran yang ada"
+    },
+    "inaccessibleGroups": {
+      "title": "Grup tidak tersedia: {count}",
+      "message": "Anda tidak dapat melihat atau mengelola grup yang tidak tersedia kecuali Anda adalah anggotanya."
+    }
+  }
+}

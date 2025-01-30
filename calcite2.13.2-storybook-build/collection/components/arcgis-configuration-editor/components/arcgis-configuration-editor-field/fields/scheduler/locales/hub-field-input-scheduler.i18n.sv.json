@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "Automatiserad av Hub",
+      "actionText": "Info om automatiskt alternativ"
+    },
+    "daily": {
+      "defaultLabel": "Dagligen",
+      "defaultExpandedHelperText": "Varje dag vid den valda timmen i den valda tidszonen.",
+      "actionText": "Info om dagligt alternativ"
+    },
+    "weekly": {
+      "defaultLabel": "Veckovis",
+      "defaultExpandedHelperText": "Varje vecka följande dag och timme i den valda tidszonen.",
+      "actionText": "Info om veckoalternativ"
+    },
+    "monthly": {
+      "defaultLabel": "Månadsvis",
+      "defaultExpandedHelperText": "Varje månad följande dag och timme i den valda tidszonen",
+      "actionText": "Info om månatligt alternativ"
+    },
+    "yearly": {
+      "defaultLabel": "Årligen",
+      "defaultExpandedHelperText": "Varje år följande månad, dag och timme i den valda tidszonen.",
+      "actionText": "Info om årligt alternativ"
+    },
+    "manual": {
+      "defaultLabel": "Manuell",
+      "defaultExpandedHelperText": "Använd det här alternativet om du vill uppdatera sökindex och cachade hämtningsfiler manuellt för det här objektet.",
+      "actionText": "Info om manuellt alternativ"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "Klockslag",
+      "inputMessage": "Tiden avrundas till närmaste timme.",
+      "error": "Välj en timme."
+    },
+    "day": {
+      "helperText": "Veckodag",
+      "daysOfTheWeek": {
+        "sunday": "Söndag",
+        "monday": "Måndag",
+        "tuesday": "Tisdag",
+        "wednesday": "Onsdag",
+        "thursday": "Torsdag",
+        "friday": "Fredag",
+        "saturday": "Lördag"
+      },
+      "selectLabel": "Veckodagsväljare",
+      "error": "Välj en veckodag."
+    },
+    "date": {
+      "helperText": "Dag i månaden",
+      "inputNumberPlaceholder": "Välj en dag i månaden",
+      "inputMessage": "Ange ett värde från 1 till 28 för dag i månaden.",
+      "error": "Dag i månaden måste vara mellan 1 och 28."
+    },
+    "month": {
+      "helperText": "Månad på året",
+      "selectLabel": "Väljare för månad på året",
+      "monthsOfTheYear": {
+        "january": "Januari",
+        "february": "Februari",
+        "march": "Mars",
+        "april": "April",
+        "may": "Maj",
+        "june": "Juni",
+        "july": "Juli",
+        "august": "Augusti",
+        "september": "September",
+        "october": "Oktober",
+        "november": "November",
+        "december": "December"
+      },
+      "error": "Välj en månad."
+    },
+    "timezone": {
+      "helperText": "Tidszon",
+      "error": "Välj en tidszon."
+    }
+  },
+  "fieldHeader": "Frekvens"
+}

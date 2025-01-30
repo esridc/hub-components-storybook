@@ -1,0 +1,16 @@
+{
+  "all": "Tout",
+  "source": "Source",
+  "targetEntity": {
+    "item": "Éléments",
+    "group": "Groupes",
+    "user": "Utilisateurs",
+    "portalUser": "Utilisateurs du portail",
+    "communityUser": "Utilisateurs de la communauté",
+    "groupMember": "Membres du groupe",
+    "event": "Événements",
+    "channel": "Canaux",
+    "discussionPost": "Publications",
+    "eventAttendee": "Participants à l’événement"
+  }
+}

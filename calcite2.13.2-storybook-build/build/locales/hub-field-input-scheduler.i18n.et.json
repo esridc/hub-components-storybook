@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "Hubi poolt automatiseeritud",
+      "actionText": "Automaatse valiku teave"
+    },
+    "daily": {
+      "defaultLabel": "Iga päev",
+      "defaultExpandedHelperText": "Iga päev valitud kellaajal valitud ajavööndis.",
+      "actionText": "Igapäevase valiku teave"
+    },
+    "weekly": {
+      "defaultLabel": "Kord nädalas",
+      "defaultExpandedHelperText": "Iga nädal järgmisel päeval ja kellaajal valitud ajavööndis.",
+      "actionText": "Iganädalase valiku teave"
+    },
+    "monthly": {
+      "defaultLabel": "Kord kuus",
+      "defaultExpandedHelperText": "Iga kuu järgmisel päeval ja kellaajal valitud ajavööndis",
+      "actionText": "Igakuise valiku teave"
+    },
+    "yearly": {
+      "defaultLabel": "Kord aastas",
+      "defaultExpandedHelperText": "Iga aasta järgmisel kuul, päeval ja kellaajal valitud ajavööndis.",
+      "actionText": "Aastase valiku teave"
+    },
+    "manual": {
+      "defaultLabel": "Käsitsi",
+      "defaultExpandedHelperText": "Kasutage seda varianti, kui soovite käsitsi värskendada selle üksuse otsinguregistrit ja vahemällu salvestatud allalaadimisfaile.",
+      "actionText": "Käsitsi määratud valiku teave"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "Kellaaeg",
+      "inputMessage": "Aeg ümardatakse lähima tunnini.",
+      "error": "Valige kellaaeg."
+    },
+    "day": {
+      "helperText": "Nädalapäev",
+      "daysOfTheWeek": {
+        "sunday": "pühapäev",
+        "monday": "esmaspäev",
+        "tuesday": "teisipäev",
+        "wednesday": "kolmapäev",
+        "thursday": "neljapäev",
+        "friday": "reede",
+        "saturday": "laupäev"
+      },
+      "selectLabel": "Nädalapäeva valija",
+      "error": "Valige nädalapäev."
+    },
+    "date": {
+      "helperText": "Kuupäev",
+      "inputNumberPlaceholder": "Valige kuupäev",
+      "inputMessage": "Sisestage kuupäeva väärtus vahemikus 1 kuni 28.",
+      "error": "Kuupäev peab olema vahemikus 1 kuni 28."
+    },
+    "month": {
+      "helperText": "Aasta kuu",
+      "selectLabel": "Aasta kuu valija",
+      "monthsOfTheYear": {
+        "january": "Jaanuar",
+        "february": "Veebruar",
+        "march": "Märts",
+        "april": "Aprill",
+        "may": "Mai",
+        "june": "Juuni",
+        "july": "Juuli",
+        "august": "August",
+        "september": "September",
+        "october": "Oktoober",
+        "november": "November",
+        "december": "Detsember"
+      },
+      "error": "Valige kuu."
+    },
+    "timezone": {
+      "helperText": "Ajavöönd",
+      "error": "Valige ajavöönd."
+    }
+  },
+  "fieldHeader": "Sagedus"
+}

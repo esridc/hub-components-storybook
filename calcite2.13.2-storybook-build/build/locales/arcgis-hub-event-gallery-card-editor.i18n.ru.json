@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "Категории",
+        "noCategoriesNotice": {
+          "body": "В этой организации ещё нет категорий.",
+          "link": "Установить категории"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "Ресурсы",
+      "selectionMode": {
+        "dynamic": {
+          "label": "Динамический"
+        },
+        "manual": {
+          "label": "Вручную"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "Организация"
+        },
+        "collection": {
+          "sites": "Сайты",
+          "projects": "Проекты",
+          "initiatives": "Инициативы"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "Организация"
+        },
+        "collection": {
+          "events": "События"
+        }
+      },
+      "access": {
+        "label": "Общий доступ",
+        "private": {
+          "label": "Частный",
+          "description": "Фильтрация по ресурсам доступна только вам и тем, у кого есть групповой доступ."
+        },
+        "org": {
+          "label": "Организация",
+          "description": "Фильтрация по ресурсам доступна только участникам вашей организации."
+        },
+        "public": {
+          "label": "Общедоступный",
+          "description": "Фильтрация по ресурсам доступна всем."
+        }
+      },
+      "tags": {
+        "label": "Теги"
+      },
+      "cardsShown": {
+        "label": "Показано карточек"
+      }
+    },
+    "appearance": {
+      "label": "Оформление",
+      "titleHeading": {
+        "label": "Заголовок",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "В соответствии с WCAG G141 вложенные заголовки улучшают доступность."
+      },
+      "corners": {
+        "label": "Углы",
+        "square": {
+          "label": "Квадратные"
+        },
+        "round": {
+          "label": "Скругленные"
+        }
+      },
+      "shadow": {
+        "label": "Тень",
+        "none": {
+          "label": "Отключено"
+        },
+        "low": {
+          "label": "Низкий"
+        },
+        "medium": {
+          "label": "Средний"
+        },
+        "heavy": {
+          "label": "Интенсивный"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "Показать дополнительную информацию"
+      },
+      "layout": {
+        "label": "Компоновка",
+        "list": {
+          "label": "Список"
+        },
+        "map": {
+          "label": "Карта"
+        },
+        "calendar": {
+          "label": "Календарь"
+        }
+      }
+    },
+    "options": {
+      "label": "Опции",
+      "openIn": {
+        "label": "Открыть в...",
+        "same": {
+          "label": "Та же вкладка"
+        },
+        "new": {
+          "label": "Новая вкладка"
+        },
+        "notice": {
+          "title": "Подсказки по доступности:",
+          "body": "В соответствии с технологией WCAG 2.0 G200 открывать ссылки в новых вкладках или окнах не рекомендуется.",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "Подробнее о WCAG 2.0 G200"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "Общий доступ",
+      "public": {
+        "label": "Общедоступный"
+      },
+      "private": {
+        "label": "Частный"
+      },
+      "organization": {
+        "label": "Организация"
+      }
+    },
+    "from": {
+      "label": "Из",
+      "myOrganization": {
+        "label": "Моя организация"
+      },
+      "myContent": {
+        "label": "Мои ресурсы"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "События",
+      "collections": {
+        "event": {
+          "label": "События"
+        }
+      }
+    },
+    "item": {
+      "label": "Ресурсы",
+      "collections": {
+        "item": {
+          "label": "Ресурсы"
+        }
+      }
+    }
+  }
+}

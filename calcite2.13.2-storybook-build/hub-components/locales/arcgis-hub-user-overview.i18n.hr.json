@@ -1,0 +1,35 @@
+{
+  "overview": "Pregled",
+  "resources": "Resursi čvorišta",
+  "cards": {
+    "items": "Broj stavaka",
+    "groups": "Broj grupa"
+  },
+  "hubContent": {
+    "heading": "Nedavno izmijenjene stavke čvorišta",
+    "link": "Prikaži sav sadržaj"
+  },
+  "content": {
+    "heading": "Nedavno izmijenjen sadržaj",
+    "stat": "Broj stavaka",
+    "link": "Prikaži sav sadržaj"
+  },
+  "groups": {
+    "heading": "Nedavno izmijenjene grupe",
+    "stat": "Broj grupa",
+    "link": "Prikaži sve grupe"
+  },
+  "contentCount": "Sadržaj",
+  "addContent": "Kreiraj novo",
+  "facets": {
+    "access": {
+      "label": "Šalje"
+    },
+    "type": {
+      "label": "Vrste"
+    },
+    "modified": {
+      "label": "Izmijenjeno"
+    }
+  }
+}

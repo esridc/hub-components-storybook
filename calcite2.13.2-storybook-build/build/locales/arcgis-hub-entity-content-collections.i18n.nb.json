@@ -1,0 +1,33 @@
+{
+  "title": "Samlinger",
+  "actions": {
+    "label": "Alternativer",
+    "show": "Vis",
+    "hide": "Skjul",
+    "rename": "Gi nytt navn"
+  },
+  "formAlert": "Skjemavarsel",
+  "alertMessages": {
+    "success": "Redigeringer er lagret",
+    "error": "Feil under lagring av redigeringer"
+  },
+  "collectionRenameModal": {
+    "title": "Gi nytt navn til samlingen",
+    "fieldLabel": "Samlingsetikett",
+    "requiredMessage": "Samlingsetikett er påkrevd",
+    "apply": "Bruk",
+    "maxLengthMessage": "Samlingens etikett må ikke overstige 50 tegn"
+  },
+  "collections": {
+    "dataset": "Data",
+    "site": "Nettsteder",
+    "document": "Dokumenter",
+    "appAndMap": "Apper og kart"
+  },
+  "saveButton": "Lagre",
+  "sections": {
+    "collectionConfiguration": {
+      "title": "Samlingskonfigurasjon"
+    }
+  }
+}

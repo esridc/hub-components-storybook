@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "Muokkaa ryhmiä",
+        "viewGroups": "Näytä ryhmät"
+      },
+      "facet": {
+        "label": "Kohteesta",
+        "myGroups": "Omat ryhmät",
+        "myOrganization": "Oma organisaatio",
+        "myCommunity": "Oma yhteisö"
+      }
+    }
+  },
+  "property": {
+    "label": "Parametri",
+    "requiredError": "Parametri vaaditaan"
+  },
+  "operator": {
+    "label": "Kriteerit",
+    "requiredError": "Kriteerit vaaditaan"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "Tyyppi"
+    },
+    "group": {
+      "default": "Ryhmät"
+    },
+    "occurrence": {
+      "default": "Esiintymä"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "On mikä tahansa seuraavista:",
+      "group": "Jaetaan kelle tahansa seuraavista:"
+    },
+    "isAll": {
+      "default": "On kaikki seuraavista:",
+      "group": "Jaetaan kaikille seuraavista:"
+    },
+    "isExactly": {
+      "default": "On täsmälleen",
+      "occurrence": "On"
+    },
+    "isNot": {
+      "default": "Ei ole",
+      "type": "Ei ole mikään seuraavista:",
+      "group": "Ei jaeta kellekään seuraavista:"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "Ryhmät",
+      "requiredError": "Ryhmät vaaditaan"
+    },
+    "type": {
+      "label": "Tyypit",
+      "requiredError": "Tyypit vaaditaan",
+      "app": {
+        "label": "Sovellukset"
+      },
+      "content": {
+        "label": "Sisältö"
+      },
+      "dataset": {
+        "label": "Aineistoryhmät"
+      },
+      "discussion": {
+        "label": "Keskustelut"
+      },
+      "document": {
+        "label": "Dokumentit"
+      },
+      "event": {
+        "label": "Tapahtumat"
+      },
+      "feedback": {
+        "label": "Palaute"
+      },
+      "initiative": {
+        "label": "Aloitteet"
+      },
+      "map": {
+        "label": "Kartat"
+      },
+      "project": {
+        "label": "Projektit"
+      },
+      "site": {
+        "label": "Sivustot"
+      },
+      "template": {
+        "label": "Mallit"
+      }
+    },
+    "occurrence": {
+      "label": "Esiintymä",
+      "requiredError": "Esiintymä vaaditaan",
+      "upcoming": "Tulevat",
+      "past": "Päättynyt",
+      "inProgress": "Meneillään"
+    }
+  }
+}

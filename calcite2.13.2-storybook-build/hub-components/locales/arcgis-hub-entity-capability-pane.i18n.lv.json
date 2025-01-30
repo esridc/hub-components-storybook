@@ -1,0 +1,35 @@
+{
+  "success": "Sekmīgi saglabāti labojumi",
+  "error": "Kļūda, saglabājot labojumus",
+  "formAlert": "Veidlapas brīdinājums",
+  "projects": {
+    "header": "Projekti",
+    "list": "Projektu saraksts",
+    "config": "Konfigurācija",
+    "notConfigured": "Projektu iespēja nav konfigurēta. Lūdzu, izmantojiet konfigurācijas cilni."
+  },
+  "content": {
+    "header": "Saturs",
+    "list": "Satura saraksts",
+    "config": "Konfigurācija",
+    "notConfigured": "Satura iespēja nav konfigurēta. Lūdzu, izmantojiet konfigurācijas cilni."
+  },
+  "initiatives": {
+    "header": "Iniciatīvas",
+    "list": "Iniciatīvu saraksts",
+    "config": "Konfigurācija",
+    "notConfigured": "Iniciatīvu iespēja nav konfigurēta. Lūdzu, izmantojiet konfigurācijas cilni."
+  },
+  "events": {
+    "header": "Pasākumi",
+    "list": "Pasākumu saraksts",
+    "config": "Konfigurācija",
+    "notConfigured": "Pasākumu iespēja nav konfigurēta. Lūdzu, izmantojiet konfigurācijas cilni."
+  },
+  "pages": {
+    "header": "Lapas",
+    "list": "Lapu saraksts",
+    "config": "Konfigurācija",
+    "notConfigured": "Lapu iespēja nav konfigurēta. Lūdzu, izmantojiet konfigurācijas cilni."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "결과를 찾을 수 없습니다."
+    },
+    "error": {
+      "message": "죄송합니다. 검색 중에 오류가 발생했습니다."
+    }
+  },
+  "type": "유형",
+  "tags": "태그",
+  "owner": "소유자",
+  "dateCreated": "생성",
+  "dateUpdated": "수정",
+  "categories": "범주",
+  "dateAndTime": "날짜 및 시간",
+  "allDay": "{date}(하루 종일)",
+  "allDayRange": "{from} - {to}(하루 종일)",
+  "location": "위치",
+  "attendanceType": "참석 유형",
+  "inPerson": "대면",
+  "online": "온라인",
+  "hybrid": "하이브리드"
+}

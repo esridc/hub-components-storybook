@@ -1,0 +1,16 @@
+{
+  "heading": "Bendrinimo lygis",
+  "public": "Viešas",
+  "publicInfo": "Visi gali matyti šį {itemType}",
+  "organization": "Organizacija",
+  "organizationInfo": "Visi nariai su {orgName} paskyromis ir grupės gali matyti šį {itemType}",
+  "owner": "Savininkas",
+  "ownerInfo": "Savininkas ir prieigą turinčios grupės gali matyti šį {itemType}",
+  "discussion": {
+    "publicInfo": "Visi gali matyti šią diskusijų lentą",
+    "organization": "Mano organizacija",
+    "organizationInfo": "Visi nariai, turintys {orgName} paskyrą gali matyti šią diskusijų lentą",
+    "owner": "Privati",
+    "ownerInfo": "Savininkas ir pasirinktos grupės gali matyti šią diskusijų lentą"
+  }
+}

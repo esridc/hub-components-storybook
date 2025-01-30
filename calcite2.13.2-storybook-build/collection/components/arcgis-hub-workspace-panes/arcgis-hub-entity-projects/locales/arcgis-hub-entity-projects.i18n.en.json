@@ -1,0 +1,178 @@
+{
+  "projectsTitle": "Projects",
+  "description": "Associate with contributing projects to track progress over focused time or space. The initiative's association group manages confirmed associations and outstanding association requests.",
+  "subDescription": "Projects with confirmed associations will appear on this initiative's view.",
+  "project": "project",
+  "initiative": "initiative",
+  "helpStates": {
+    "noAccess": {
+      "heading": "No access",
+      "message": "You don't have access to view the association group."
+    },
+    "missingGroup": {
+      "heading": "Missing association group",
+      "message": {
+        "overview": "The association group will oversee which projects will link and report to the initiative.",
+        "members": "Members of this group will be able to send or approve association requests."
+      },
+      "action": "Create group",
+      "formLabel": "New association group",
+      "description": "Create an association group to manage connections"
+    },
+    "requestsWaiting": {
+      "heading": "Missing association group",
+      "message": {
+        "overview": "The association group will oversee which projects will link and report to the initiative.",
+        "members": "Members of this group will be able to send or approve association requests.",
+        "requests": "Project requests waiting: {count}"
+      },
+      "action": "Create group",
+      "formLabel": "New association group",
+      "description": "Create an association group to manage connections"
+    }
+  },
+  "shared": {
+    "project": "project",
+    "associationGroup": "association group",
+    "error": {
+      "title": "Something went wrong",
+      "message": "You may be missing sufficient access to send or manage an association with this {type}."
+    },
+    "facets": {
+      "access": {
+        "label": "Sharing"
+      },
+      "status": {
+        "label": "Status",
+        "notStarted": "Not started",
+        "inProgress": "In progress",
+        "onHold": "On hold",
+        "complete": "Complete"
+      },
+      "tags": {
+        "label": "Tags"
+      }
+    },
+    "tabs": {
+      "projects": "Projects",
+      "members": "Members",
+      "settings": "Settings"
+    },
+    "disabledActionTooltip": "Only group managers can manage the association with this {type}."
+  },
+  "createAssociationGroup": {
+    "defaultSummary": "Manage the items associated with the {name} {type} using an association group."
+  },
+  "members": {
+    "facets": {
+      "role": {
+        "label": "Role",
+        "all": "All",
+        "manager": "Manager",
+        "member": "Member"
+      },
+      "dateJoined": {
+        "label": "Date joined"
+      }
+    },
+    "addMembers": {
+      "button": "Add members",
+      "modal": {
+        "title": "Add members",
+        "org": "My organization",
+        "community": "My community",
+        "partner": "My partners",
+        "world": "World"
+      },
+      "notifications": {
+        "invited": "Invite sent. Users must accept to join",
+        "added": "User(s) added",
+        "notInvited": "Some users may not have the privileges needed to join the group or may be at a group maximum limit (512)"
+      }
+    },
+    "removeUsers": {
+      "button": "Remove",
+      "success": "Members successfully removed from {groupName}.",
+      "error": "One or more users could not be removed from the group."
+    },
+    "changeRole": {
+      "button": "Change role",
+      "member": "Member",
+      "memberHelperText": "Can add and see content within the group.",
+      "tooltipText": "Deselect yourself and/or group owner",
+      "tooltipLabel": "Role disclaimer",
+      "admin": "Manager",
+      "adminHelperText": "Can add/remove content and invite/remove people (except for the owner).",
+      "success": "Selected members became group {role}.",
+      "error": "Role could not be changed for one or more members."
+    },
+    "stats": {
+      "total": {
+        "title": "Total",
+        "trailingText": "Members"
+      },
+      "new": {
+        "title": "New",
+        "trailingText": "Last 30 days"
+      }
+    }
+  },
+  "projects": {
+    "requestAssociation": {
+      "findProjects": "Find projects",
+      "sendRequest": "Send request",
+      "success": {
+        "title": "Success",
+        "message": "Association requests sent: {count}"
+      },
+      "alreadyRequesting": {
+        "title": "Check associations",
+        "message": "Some selection(s) have already requested association. New association requests sent: {count}"
+      },
+      "catalog": {
+        "myContent": "My content",
+        "favorites": "Favorites",
+        "organization": "Organization",
+        "world": "World (Public)"
+      },
+      "collection": {
+        "projects": "Projects"
+      }
+    },
+    "acceptAssociation": {
+      "label": "Accept",
+      "success": {
+        "title": "Success",
+        "message": "Association accepted with {requestor}"
+      }
+    },
+    "cancelRequest": {
+      "label": "Cancel request",
+      "success": {
+        "title": "Success",
+        "message": "Association request canceled"
+      }
+    },
+    "breakAssociation": {
+      "label": "Disconnect",
+      "success": {
+        "title": "Association broken",
+        "message": "We've disconnected this item from its previous association. However, we cannot reverse the decision from the other side, so you may still see it in incoming requests."
+      }
+    },
+    "associationsGallery": {
+      "sources": "State",
+      "catalog": {
+        "associated": "Associated",
+        "requesting": "Incoming requests",
+        "pending": "Outgoing requests"
+      },
+      "collection": {
+        "projects": "Projects"
+      }
+    }
+  },
+  "notice": {
+    "label": "Form alert"
+  }
+}

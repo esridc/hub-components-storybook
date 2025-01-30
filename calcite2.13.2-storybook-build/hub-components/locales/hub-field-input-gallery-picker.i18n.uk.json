@@ -1,0 +1,13 @@
+{
+  "selectItem": "Вибрати вміст",
+  "selectGroup": "Вибрати групу",
+  "selectEvent": "Вибрати подію",
+  "remove": "вилучити",
+  "launch": "Відкрити",
+  "updatedDate": "Оновлено {updatedDate}",
+  "memberCount": {
+    "noMember": "Немає учасників",
+    "oneMember": "1 учасник",
+    "members": "{count} учасники(-ів)"
+  }
+}

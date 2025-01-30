@@ -1,0 +1,33 @@
+{
+  "title": "Raccolte",
+  "actions": {
+    "label": "Opzioni",
+    "show": "Mostra",
+    "hide": "Nascondi",
+    "rename": "Rinomina"
+  },
+  "formAlert": "Avviso modulo",
+  "alertMessages": {
+    "success": "Modifiche salvate correttamente",
+    "error": "Errore durante il salvataggio delle modifiche"
+  },
+  "collectionRenameModal": {
+    "title": "Rinominare raccolta",
+    "fieldLabel": "Etichetta raccolta",
+    "requiredMessage": "Etichetta raccolta richiesta",
+    "apply": "Applica",
+    "maxLengthMessage": "L'etichetta raccolta non deve superare i 50 caratteri"
+  },
+  "collections": {
+    "dataset": "Dati",
+    "site": "Sites",
+    "document": "Documenti",
+    "appAndMap": "App e mappe"
+  },
+  "saveButton": "Salva",
+  "sections": {
+    "collectionConfiguration": {
+      "title": "Configurazione raccolta"
+    }
+  }
+}

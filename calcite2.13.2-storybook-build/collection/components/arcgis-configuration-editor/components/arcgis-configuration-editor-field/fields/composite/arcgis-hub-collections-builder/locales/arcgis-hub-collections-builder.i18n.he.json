@@ -1,0 +1,15 @@
+{
+  "newCollection": "אוסף חדש",
+  "block": {
+    "heading": {
+      "untitled": "אוסף ללא כותרת"
+    },
+    "actions": {
+      "delete": "מחק אוסף: {label}"
+    }
+  },
+  "name": {
+    "label": "שם",
+    "requiredError": "נדרש שם אוסף"
+  }
+}

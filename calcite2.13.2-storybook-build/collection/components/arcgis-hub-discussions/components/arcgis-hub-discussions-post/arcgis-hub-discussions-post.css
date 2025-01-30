@@ -1,0 +1,417 @@
+:host {
+  display: block;
+  background-color: var(--calcite-color-foreground-1)
+}
+
+arcgis-hub-discussions-post-header, ::slotted([slot='metadata']) {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem
+}
+
+:host[parent-id] arcgis-hub-discussions-post-header, :host[parent-id] ::slotted([slot='metadata']) {
+  margin-left: 0px;
+  margin-right: 0px
+}
+
+::slotted([slot='metadata']), ::slotted([slot='editor']) {
+  display: none
+}
+
+:host:has(slot-fb[name='metadata']) ::slotted([slot='metadata']), :host:has(slot-fb[name='editor']) ::slotted([slot='editor']) {
+  display: block
+}
+
+arcgis-hub-discussions-post-chips {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.75rem
+}
+
+header {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 0.25rem;
+  overflow-wrap: break-word;
+  font-size: var(--calcite-font-size-1);
+  line-height: 1.5rem;
+  font-weight: var(--calcite-font-weight-bold);
+  color: var(--calcite-color-text-1)
+}
+
+arcgis-multiline-ellipsis {
+  margin: 0px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: var(--calcite-font-size-0);
+  line-height: 1.375rem;
+  color: var(--calcite-color-text-1)
+}
+
+footer {
+  display: flex;
+  flex-direction: column
+}
+
+article:has(arcgis-hub-discussions-post-geography[data-count='0']) footer:not(:has(arcgis-hub-discussions-post-reactions)) {
+  margin-top: 0.5rem
+}
+
+footer .actions {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  display: flex;
+  justify-content: space-between
+}
+
+footer arcgis-hub-discussions-post-reactions {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem
+}
+
+:host[parent-id] footer arcgis-hub-discussions-post-reactions {
+  margin-left: 0px;
+  margin-right: 0px
+}
+
+arcgis-hub-discussions-post-editor {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem
+}
+
+calcite-notice {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1.5rem
+}
+
+footer + calcite-notice {
+  margin-top: 1rem
+}
+
+/* arcgis-hub-discussions-post-skeleton {
+  @apply mx-4;
+} */
+
+arcgis-hub-discussions-post-geography[loading] {
+  margin-left: 1rem;
+  margin-right: 1rem
+}
+
+/* Fix for calcite-components 1.0.0-beta.86 */
+calcite-popover[data-popper-placement][data-popper-reference-hidden] {
+  pointer-events: auto;
+  opacity: 1
+}
+
+/* Fix for calcite-components >1.0.0-beta.87 */
+calcite-popover {
+  pointer-events: auto !important
+}
+
+.discussions-post-action-menu:active .discussions-post-action-menu-icon {
+  --tw-text-opacity: 1;
+  color: rgb(21 21 21 / var(--tw-text-opacity))
+}
+
+.discussions-post-action-menu-options:active {
+  --tw-text-opacity: 1;
+  color: rgb(21 21 21 / var(--tw-text-opacity))
+}
+
+.discussions-post-action-menu-options:active .discussions-post-action-menu-options-icon {
+  --tw-text-opacity: 1;
+  color: rgb(21 21 21 / var(--tw-text-opacity))
+}
+
+.discussions-post-replies:active {
+  --tw-text-opacity: 1;
+  color: rgb(21 21 21 / var(--tw-text-opacity))
+}
+
+.discussions-post-replies:active .discussions-post-replies-icon {
+  --tw-text-opacity: 1;
+  color: rgb(21 21 21 / var(--tw-text-opacity))
+}
+
+.actions {
+  display: flex;
+  align-items: center
+}
+
+/* REPLY STYLES */
+:host[parent-id] article {
+  position: relative;
+  display: grid;
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+  gap: 0.75rem;
+  grid-template-columns: 2rem auto
+}
+
+:host[parent-id] arcgis-hub-discussions-post-chips {
+  padding-bottom: 0px
+}
+
+:host[parent-id]:has(arcgis-hub-discussions-post-chips:not([data-count='0'])) div {
+  grid-row-start: 2;
+  grid-row-end: 2
+}
+
+:host[parent-id] article.arcgis-hub-discussions-post-lead, :host[parent-id] .arcgis-hub-discussions-post-lead arcgis-hub-discussions-post-editor {
+  padding-bottom: 1.25rem
+}
+
+:host[parent-id] arcgis-hub-discussions-post-editor {
+  position: relative;
+  z-index: 10
+}
+
+:host[parent-id] article.arcgis-hub-discussions-post-lead::before, :host[parent-id] .arcgis-hub-discussions-post-lead arcgis-hub-discussions-post-editor::before {
+  position: absolute;
+  top: 0px;
+  display: block;
+  height: 100%;
+  width: 0.125rem;
+  background-color: var(--calcite-color-foreground-2);
+  left: 15px;
+  content: ''
+}
+
+:host[parent-id][index='0'] article.arcgis-hub-discussions-post-lead::before, :host[parent-id][index='0'] .arcgis-hub-discussions-post-lead arcgis-hub-discussions-post-editor::before {
+  top: 2.25rem;
+  height: calc(100% - 2.25rem)
+}
+
+:host[parent-id][index='0'] article.arcgis-hub-discussions-post-lead.arcgis-hub-discussions-post-last::before, :host[parent-id][index='0'] .arcgis-hub-discussions-post-lead.arcgis-hub-discussions-post-last arcgis-hub-discussions-post-editor::before {
+  height: 0px
+}
+
+:host[parent-id][index='0']:has(arcgis-hub-discussions-post-chips[data-count]) article.arcgis-hub-discussions-post-lead::before, :host[parent-id][index='0']:has(arcgis-hub-discussions-post-chips[data-count]) .arcgis-hub-discussions-post-lead arcgis-hub-discussions-post-editor::before {
+  top: 2.75rem;
+  height: calc(100% - 2.75rem)
+}
+
+:host[parent-id]:has(arcgis-hub-discussions-post-chips[data-count]) article.arcgis-hub-discussions-post-lead.arcgis-hub-discussions-post-last::before, :host[parent-id]:has(arcgis-hub-discussions-post-chips[data-count]) .arcgis-hub-discussions-post-lead.arcgis-hub-discussions-post-last arcgis-hub-discussions-post-editor::before {
+  height: 2.25rem
+}
+
+:host[parent-id]:has(arcgis-hub-discussions-post-chips[data-count='0']) .arcgis-hub-discussions-post-lead {
+  padding-top: 0.25rem
+}
+
+:host[parent-id]:has(arcgis-hub-discussions-post-chips[data-count='0']) article.arcgis-hub-discussions-post-lead.arcgis-hub-discussions-post-last::before, :host[parent-id]:has(arcgis-hub-discussions-post-chips[data-count='0'])
+  .arcgis-hub-discussions-post-lead.arcgis-hub-discussions-post-last
+  arcgis-hub-discussions-post-editor::before {
+  height: 0px
+}
+
+:host[parent-id]:has(arcgis-hub-discussions-post-chips) article.arcgis-hub-discussions-post-lead.arcgis-hub-discussions-post-last::before, :host[parent-id] article.arcgis-hub-discussions-post-lead.arcgis-hub-discussions-post-last:not(:has(arcgis-hub-discussions-post-chips))::before, :host[parent-id]:has(arcgis-hub-discussions-post-chips) .arcgis-hub-discussions-post-lead.arcgis-hub-discussions-post-last arcgis-hub-discussions-post-editor::before, :host[parent-id] .arcgis-hub-discussions-post-lead.arcgis-hub-discussions-post-last:not(:has(arcgis-hub-discussions-post-chips)) arcgis-hub-discussions-post-editor::before {
+  height: 0px
+}
+
+:host[parent-id] arcgis-hub-discussions-post-editor {
+  margin-left: 0px;
+  margin-right: 0px
+}
+
+:host[parent-id] .arcgis-hub-discussions-post-lead arcgis-hub-discussions-post-editor {
+  padding-bottom: 1.5rem
+}
+
+:host[parent-id] article.arcgis-hub-discussions-post-lead arcgis-hub-discussions-post-editor::before, :host[parent-id] .arcgis-hub-discussions-post-lead arcgis-hub-discussions-post-editor::before {
+  z-index: -10
+}
+
+:host[parent-id] .arcgis-hub-discussions-post-lead.arcgis-hub-discussions-post-last arcgis-hub-discussions-post-editor::before, :host[parent-id][index='0']:has(arcgis-hub-discussions-post-chips[data-count='0']) article.arcgis-hub-discussions-post-lead.arcgis-hub-discussions-post-last::before {
+  height: 0px
+}
+
+:host[parent-id][index='0']:has(arcgis-hub-discussions-post-chips[data-count='0']) article.arcgis-hub-discussions-post-lead::before {
+  top: 2.25rem;
+  height: calc(100% - 2.25rem)
+}
+
+:host[parent-id] arcgis-multiline-ellipsis {
+  margin-left: 0px;
+  margin-right: 0px
+}
+
+:host[parent-id] calcite-action-group {
+  margin-left: -0.5rem
+}
+
+.hidden {
+  visibility: hidden
+}
+
+@keyframes in-right {
+
+  0% {
+    opacity: 0;
+    transform: translate3D(-100%, 0, 0)
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate3D(0, 0, 0)
+  }
+}
+
+article.in {
+  animation: in-right 300ms ease-out forwards
+}
+
+@keyframes out-left {
+
+  0% {
+    opacity: 1;
+    transform: translate3D(0, 0, 0)
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate3D(-100%, 0, 0)
+  }
+}
+
+article.out {
+  animation: out-left 300ms ease-out forwards
+}
+
+:host[parent-id] arcgis-hub-discussions-post-editor {
+  padding-bottom: 1rem
+}
+
+.arcgis-hub-discussions-post-editor-container {
+  overflow: visible
+}
+
+@keyframes in-left {
+
+  0% {
+    opacity: 0;
+    transform: translate3D(100%, 0, 0)
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate3D(0, 0, 0)
+  }
+}
+
+.arcgis-hub-discussions-post-editor-container.in {
+  animation: in-left 300ms ease-out forwards
+}
+
+@keyframes out-right {
+
+  0% {
+    opacity: 1;
+    transform: translate3D(0, 0, 0)
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate3D(100%, 0, 0)
+  }
+}
+
+.arcgis-hub-discussions-post-editor-container.out {
+  animation: out-right 300ms ease-out forwards
+}
+
+:host[parent-id] arcgis-hub-discussions-post-editor[post-id][parent-id] {
+  padding-left: 0px;
+  padding-right: 0px
+}
+
+:host[parent-id] arcgis-multiline-ellipsis + calcite-notice {
+  margin-top: 1rem
+}
+
+:host[parent-id] article {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem
+}
+
+:host[parent-id] article.out-of-context {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: grid;
+  gap: 0.5rem;
+  font-style: normal;
+  grid-template-columns: 1fr
+}
+
+:host[parent-id] article.out-of-context > div.reply-body {
+  display: grid;
+  gap: 0.25rem
+}
+
+:host[parent-id] article.out-of-context > div.reply-body > arcgis-hub-discussions-post-geography {
+  margin-left: -1rem
+}
+
+:host[parent-id] article.out-of-context > div.reply-body > arcgis-hub-discussions-post-reactions {
+  grid-column: span 1 / span 1
+}
+
+:host[parent-id] arcgis-hub-discussions-popover {
+  grid-row: span 2 / span 2;
+  grid-row-start: 1;
+  grid-row-end: 1
+}
+
+:host[parent-id]:has(arcgis-hub-discussions-post-chips:not([data-count='0'])) arcgis-hub-discussions-popover {
+  grid-row-start: 2;
+  grid-row-end: 2
+}
+
+:host[parent-id] arcgis-hub-discussions-post-chips {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  height: 1.5rem
+}
+
+:host[parent-id] calcite-avatar {
+  position: relative;
+  margin-top: -0.25rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  background-color: var(--calcite-color-foreground-1);
+  box-sizing: initial
+}
+
+:host[parent-id] footer {
+  display: grid;
+  grid-template-columns: auto 48px
+}
+
+:host[parent-id] footer calcite-action {
+  grid-column-start: 2
+}
+
+:host[parent-id] arcgis-hub-discussions-post-reactions {
+  grid-column: span 2 / span 2;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem
+}
+
+:host[parent-id] calcite-notice {
+  margin: 0px
+}
+
+.blocked {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -webkit-text-decoration-color: var(--calcite-color-status-danger);
+          text-decoration-color: var(--calcite-color-status-danger);
+  -webkit-text-decoration-style: dashed;
+          text-decoration-style: dashed;
+  color: var(--calcite-color-status-danger)
+}

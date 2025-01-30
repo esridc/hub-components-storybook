@@ -1,0 +1,15 @@
+{
+  "newFilter": "Filter baru",
+  "block": {
+    "heading": {
+      "untitled": "Filter baru",
+      "default": "Filter {filterNum}: {parameter}",
+      "group": "Filter {filterNum}: grup",
+      "type": "Filter {filterNum}: jenis",
+      "occurrence": "Filter {filterNum}: kemunculan"
+    },
+    "actions": {
+      "delete": "Hapus filter: {label}"
+    }
+  }
+}

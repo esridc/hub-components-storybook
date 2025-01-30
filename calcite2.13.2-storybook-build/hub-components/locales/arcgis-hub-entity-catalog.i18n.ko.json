@@ -1,0 +1,65 @@
+{
+  "catalog": "카탈로그",
+  "catalog-content": "콘텐츠",
+  "catalog-events": "이벤트",
+  "shared": {
+    "publish": {
+      "label": "저장",
+      "success": {
+        "title": "실시간 뷰에 카탈로그 편집 내용이 발행됨"
+      },
+      "error": {
+        "title": "편집 내용을 저장하는 동안 오류 발생"
+      }
+    }
+  },
+  "emptyState": {
+    "message": "정의된 카탈로그 없음",
+    "action": "카탈로그 생성"
+  },
+  "actionBar": {
+    "details": "카탈로그 구성",
+    "appearance": "카탈로그 모양",
+    "tooltip": {
+      "appearanceDisabled": "현재 구성된 카탈로그가 없습니다. 모양 설정을 조정하려면 카탈로그를 구성하세요.",
+      "configuration": "구성",
+      "appearance": "모양"
+    }
+  },
+  "detailsPanel": {
+    "heading": "카탈로그 구성",
+    "close": "카탈로그 구성 닫기",
+    "catalogBuilder": {
+      "helperText": "해당 카탈로그에서는 방문자가 콘텐츠를 검색하고 볼 수 있습니다. 표시된 결과는 쿼리 구성을 기반으로 합니다."
+    },
+    "querySizeNotice": {
+      "warning": {
+        "title": "카탈로그 제한에 도달함",
+        "catalogSourceMessage": {
+          "item": "항목 원본 구성이 크기 제한에 도달했습니다.",
+          "event": "이벤트 원본 구성이 크기 제한에 도달했습니다."
+        },
+        "collectionSourceMessage": {
+          "item": "항목 원본과 \"{collectionName}\" 컬렉션 구성의 조합이 크기 제한에 도달했습니다.",
+          "event": "이벤트 원본과 \"{collectionName}\" 컬렉션 구성의 조합이 크기 제한에 도달했습니다."
+        }
+      },
+      "danger": {
+        "title": "카탈로그 제한을 초과함",
+        "catalogSourceMessage": {
+          "item": "항목 원본 구성이 크기 제한을 초과했습니다. 발행할 항목 원본에서 필터 및/또는 필터 옵션 수를 줄이세요.",
+          "event": "이벤트 원본 구성이 크기 제한을 초과했습니다. 발행할 이벤트 원본에서 필터 및/또는 필터 옵션 수를 줄이세요."
+        },
+        "collectionSourceMessage": {
+          "item": "항목 원본과 \"{collectionName}\" 컬렉션 구성의 조합이 크기 제한을 초과했습니다. 발행할 항목 원본 및/또는 \"{collectionName}\" 컬렉션에서 필터 및/또는 필터 옵션 수를 줄이세요.",
+          "event": "이벤트 원본과 \"{collectionName}\" 컬렉션 구성의 조합이 크기 제한을 초과했습니다. 발행할 이벤트 원본 및/또는 \"{collectionName}\" 컬렉션에서 필터 및/또는 필터 옵션 수를 줄이세요."
+        }
+      }
+    }
+  },
+  "appearancePanel": {
+    "heading": "카탈로그 모양",
+    "close": "카탈로그 모양 닫기",
+    "description": "해당 카탈로그에서는 방문자가 콘텐츠를 검색하고 볼 수 있습니다. 여기에서 기본 카탈로그의 모양과 표시할 필터를 업데이트할 수 있습니다."
+  }
+}

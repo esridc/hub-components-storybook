@@ -1,0 +1,46 @@
+{
+  "heading": "Informações da página",
+  "form": {
+    "title": {
+      "label": "Nome da página",
+      "requiredError": "Um nome é exigido",
+      "entityTitleValidatorError": "O nome da página não pode incluir emojis, caracteres <, >, ou ="
+    },
+    "slug": {
+      "label": "Slug",
+      "helperText": "O slug é a versão amigável da URL de nome da página. Ele é gerado automaticamente com base no nome da página, mas você pode personalizá-lo.",
+      "patternError": "Erro: O slug deve ter caracteres alfanuméricos minúsculos separados por hifens.",
+      "isUniqueError": "Este slug já está em uso. Escolha outro.",
+      "requiredError": "Slug é exigido"
+    }
+  },
+  "controls": {
+    "back": "Voltar",
+    "cancel": "Cancelar",
+    "close": "Concluir",
+    "migrate": "Migrar página",
+    "next": "Avançar"
+  },
+  "selection": {
+    "unlimited": "{count} selecionado",
+    "limited": "{count} / {limit} selecionado"
+  },
+  "steps": {
+    "specifyInfo": "Adicionar informações básicas",
+    "selectGroups": "Selecionar grupo",
+    "confirmation": "Confirmação"
+  },
+  "working": {
+    "heading": "Migrando página.",
+    "loadingLabel": "Migrando página"
+  },
+  "success": {
+    "heading": "Página migrada",
+    "message": "A página foi migrada com sucesso."
+  },
+  "failure": {
+    "heading": "Página não migrada",
+    "message": "Algo deu errado ao migrar a página. Tente novamente.",
+    "action": "Tente novamente"
+  }
+}

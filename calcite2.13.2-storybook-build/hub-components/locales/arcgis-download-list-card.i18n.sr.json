@@ -1,0 +1,13 @@
+{
+  "csv": "CSV",
+  "shapefile": "Shapefile datoteka",
+  "sqlite": "SQLite baza geopodataka",
+  "geoPackage": "GeoPackage",
+  "filegdb": "Fajl geobaza",
+  "featureCollection": "Prikupljanje geoobjekata",
+  "geojson": "GeoJSON",
+  "excel": "Excel",
+  "json": "JSON",
+  "createReplicaErrorMessage": "Interna greška kreiranja replike. Pokušajte ponovo za sat vremena ili kontaktirajte menadžera za sadržaj.",
+  "errorHeader": "Preuzimanje nije moglo da se završi. Pokušajte ponovo."
+}

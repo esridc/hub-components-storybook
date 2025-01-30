@@ -1,0 +1,53 @@
+{
+  "settings": "Ayarlar",
+  "formDisabledTooltip": "Bu {type} üzerinde değişiklik yapma erişiminiz yok.",
+  "delete": {
+    "project": "Bu projeyi sil",
+    "initiative": "Bu inisiyatifi sil",
+    "site": "Bu siteyi sil",
+    "discussion": "Bu tartışmayı sil",
+    "content": "Bu içeriği sil",
+    "page": "Bu sayfayı sil",
+    "group": "Bu grubu sil",
+    "initiativeTemplate": "Bu inisiyatif şablonunu sil",
+    "template": "Bu şablonu sil",
+    "survey": "Bu anketi sil",
+    "desc": {
+      "project": "Bu projenin silinmesi geri alınamaz.",
+      "initiative": "Bu inisiyatifin silinmesi geri alınamaz.",
+      "site": "Bu sitenin silinmesi geri alınamaz.",
+      "discussion": "Bu tartışmanın silinmesi geri alınamaz.",
+      "content": "Bu içeriğin silinmesi geri alınamaz.",
+      "page": "Bu sayfanın silinmesi geri alınamaz.",
+      "group": "Bu grubun silinmesi geri alınamaz.",
+      "initiativeTemplate": "Bu inisiyatif şablonunun silinmesi geri alınamaz.",
+      "template": "Bu şablonun silinmesi geri alınamaz.",
+      "survey": "Bu anketin silinmesi geri alınamaz."
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "project": "Projeyi sil",
+      "initiative": "İnisiyatifi sil",
+      "site": "Siteyi sil",
+      "discussion": "Tartışmayı sil",
+      "content": "İçeriği sil",
+      "page": "Sayfayı sil",
+      "group": "Grubu sil",
+      "initiativeTemplate": "İnisiyatif şablonunu sil",
+      "template": "Şablonu sil",
+      "survey": "Anketi sil"
+    },
+    "content": "Şunu silmek istediğinizden emin misiniz:",
+    "delete": "Sil",
+    "cancel": "İptal"
+  },
+  "sidePanel": {
+    "content": {
+      "extractNotice": {
+        "title": "\"Ayıklama\" becerisi servis ayarlarını değiştirir.",
+        "message": "Servise referans veren diğer ögeler etkilenecektir. Daha fazla bilgi için bkz. <docLink>Barındırılan Detay Katmanlarından Veri Aktarma</docLink>"
+      }
+    }
+  }
+}

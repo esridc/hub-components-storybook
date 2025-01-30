@@ -1,0 +1,87 @@
+{
+  "initiatives": "Iniciativy",
+  "description": "Proveďte přiřazení k iniciativám, aby bylo možné přispívat k dlouhodobým nebo významným cílům. Spolupracovníci projektu mohou spravovat potvrzená přiřazení a nevyřízené žádosti o přiřazení. Iniciativy s potvrzenými přiřazeními se zobrazí v tomto zobrazení projektu. ",
+  "shared": {
+    "error": {
+      "title": "Něco se pokazilo",
+      "message": "Úlohu se nám nepodařilo provést. Zkuste to prosím znovu."
+    },
+    "facets": {
+      "access": {
+        "label": "Sdílení"
+      },
+      "status": {
+        "label": "Stav",
+        "notStarted": "Nezahájeno",
+        "inProgress": "Probíhá",
+        "onHold": "Pozastaveno",
+        "complete": "Dokončeno"
+      },
+      "tags": {
+        "label": "Klíčová slova"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "{currentConfirmedAndOutgoingRequests} / {maxCurrentAndOutgoingRequestsAllowed} potvrzené + odchozí žádosti",
+      "tooltip": "Pro odeslání žádostí zrušte existující vazby a/nebo odchozí žádosti"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "Najít iniciativy",
+    "sendRequest": "Odeslat žádost",
+    "success": {
+      "title": "Úspěch",
+      "message": "Odeslané žádosti o vazbu: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "Zkontrolovat vazby",
+      "message": "Některé výběry již požádaly o vazbu. Nové odeslané žádosti o vazbu: {count}"
+    },
+    "catalog": {
+      "myContent": "Můj obsah",
+      "favorites": "Oblíbené",
+      "organization": "Moje organizace",
+      "partners": "Moji partneři",
+      "community": "Moje komunita"
+    },
+    "collection": {
+      "initiatives": "Iniciativy"
+    }
+  },
+  "acceptAssociation": {
+    "label": "Přijmout",
+    "limitReachedTooltip": "Pro přijetí zrušte existující vazby a/nebo odchozí žádosti",
+    "success": {
+      "title": "Úspěch",
+      "message": "Vazba přijata s {requestor}"
+    }
+  },
+  "cancelRequest": {
+    "label": "Zrušit žádost",
+    "success": {
+      "title": "Úspěch",
+      "message": "Žádost o vazbu zrušena"
+    }
+  },
+  "breakAssociation": {
+    "label": "Odpojit",
+    "success": {
+      "title": "Vazba zrušena",
+      "message": "Odpojili jsme tuto položku od její předchozí vazby. Rozhodnutí druhé strany však nemůžeme zvrátit, takže se může stále objevovat v příchozích žádostech."
+    }
+  },
+  "associationsGallery": {
+    "sources": "Stav",
+    "catalog": {
+      "associated": "Spojené",
+      "requesting": "Příchozí žádosti",
+      "pending": "Odchozí žádosti"
+    },
+    "collection": {
+      "initiatives": "Iniciativy"
+    }
+  },
+  "notice": {
+    "label": "Chyba formuláře"
+  }
+}

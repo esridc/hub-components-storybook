@@ -1,0 +1,87 @@
+{
+  "initiatives": "Inicijative",
+  "description": "Pridružite se inicijativama kako biste doprinijeli dugoročnim ili velikim naporima. Suradnici na projektu mogu upravljati potvrđenim udruženjima i neriješenim zahtjevima za udruženje. Inicijative s potvrđenim udruženjima pojavit će se na prikazu ovog projekta. ",
+  "shared": {
+    "error": {
+      "title": "Nešto je pošlo po zlu",
+      "message": "Nismo uspjeli izvršiti zadatak. Pokušajte ponovno."
+    },
+    "facets": {
+      "access": {
+        "label": "Dijeljenje"
+      },
+      "status": {
+        "label": "Status",
+        "notStarted": "Nije započeto",
+        "inProgress": "U tijeku",
+        "onHold": "Na čekanju",
+        "complete": "Završeno"
+      },
+      "tags": {
+        "label": "Oznake"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "{currentConfirmedAndOutgoingRequests} / {maxCurrentAndOutgoingRequestsAllowed} potvrđeno + odlazni zahtjevi",
+      "tooltip": "Za slanje zahtjeva odspojite postojeća udruženja i/ili odlazne zahtjeve"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "Pronađi inicijative",
+    "sendRequest": "Pošalji zahtjev",
+    "success": {
+      "title": "Uspjeh",
+      "message": "Poslan zahtjev za udruženjem: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "Provjeri udruženja",
+      "message": "Neki odabiri već su zatražili udruženje. Poslan novi zahtjev za udruženjem: {count}"
+    },
+    "catalog": {
+      "myContent": "Moj sadržaj",
+      "favorites": "Favoriti",
+      "organization": "Moja organizacija",
+      "partners": "Moji partneri",
+      "community": "Moja zajednica"
+    },
+    "collection": {
+      "initiatives": "Inicijative"
+    }
+  },
+  "acceptAssociation": {
+    "label": "Prihvati",
+    "limitReachedTooltip": "Za prihvaćanje odspojite postojeća udruženja i/ili odlazne zahtjeve",
+    "success": {
+      "title": "Uspjeh",
+      "message": "Prihvaćeno udruženje s {requestor}"
+    }
+  },
+  "cancelRequest": {
+    "label": "Otkaži zahtjev",
+    "success": {
+      "title": "Uspjeh",
+      "message": "Zahtjev za udruženjem otkazan"
+    }
+  },
+  "breakAssociation": {
+    "label": "Odspoji",
+    "success": {
+      "title": "Udruženje prekinuto",
+      "message": "Isključili smo ovu stavku iz prethodnog udruženja. Međutim, ne možemo poništiti odluku s druge strane, tako da je i dalje možete vidjeti u dolaznim zahtjevima."
+    }
+  },
+  "associationsGallery": {
+    "sources": "Stanje",
+    "catalog": {
+      "associated": "Udruženo",
+      "requesting": "Dolazni zahtjevi",
+      "pending": "Odlazni zahtjevi"
+    },
+    "collection": {
+      "initiatives": "Inicijative"
+    }
+  },
+  "notice": {
+    "label": "Stvori upozorenje"
+  }
+}

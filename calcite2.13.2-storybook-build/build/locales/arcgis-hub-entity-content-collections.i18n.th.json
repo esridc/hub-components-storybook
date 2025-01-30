@@ -1,0 +1,33 @@
+{
+  "title": "คอลเลกชัน",
+  "actions": {
+    "label": "ตัวเลือก",
+    "show": "แสดง",
+    "hide": "ซ่อน",
+    "rename": "เปลี่ยนชื่อ"
+  },
+  "formAlert": "แจ้งเตือนฟอร์ม",
+  "alertMessages": {
+    "success": "บันทึกการแก้ไขเรียบร้อยแล้ว",
+    "error": "ข้อผิดพลาดขณะบันทึกการแก้ไข"
+  },
+  "collectionRenameModal": {
+    "title": "เปลี่ยนชื่อคอลเลกชัน",
+    "fieldLabel": "ป้ายกำกับคอลเลกชัน",
+    "requiredMessage": "จำเป็นต้องใช้ป้ายกำกับคอลเลกชัน",
+    "apply": "ใช้",
+    "maxLengthMessage": "ป้ายกำกับคอลเลกชันต้องไม่เกิน 50 อักขระ"
+  },
+  "collections": {
+    "dataset": "ข้อมูล",
+    "site": "ไซต์",
+    "document": "เอกสาร",
+    "appAndMap": "แอปและแผนที่"
+  },
+  "saveButton": "จัดเก็บ",
+  "sections": {
+    "collectionConfiguration": {
+      "title": "การกำหนดค่าคอลเลกชัน"
+    }
+  }
+}

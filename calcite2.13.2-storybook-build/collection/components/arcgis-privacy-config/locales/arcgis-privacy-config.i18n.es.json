@@ -1,0 +1,29 @@
+{
+  "additionalInfo": {
+    "label": "Configuración de visualización opcional",
+    "helperText": "Agregue su propia descripción de confidencialidad e información de políticas."
+  },
+  "allowPrivacyConfig": {
+    "label": "Mostrar la declaración de confidencialidad"
+  },
+  "blocking": {
+    "label": "Tipo de declaración",
+    "optional": {
+      "label": "Consentimiento opcional",
+      "description": "El visualizador puede utilizar el sitio sin seleccionar ningún consentimiento de confidencialidad; el seguimiento comienza inmediatamente hasta que el visualizador lo rechaza."
+    },
+    "required": {
+      "label": "Exigir el consentimiento",
+      "description": "El visualizador debe aceptar o rechazar el seguimiento para utilizar el sitio; el seguimiento no se inicia a menos que el visualizador lo acepte."
+    }
+  },
+  "consentText": {
+    "label": "Descripción de confidencialidad",
+    "helperText": "Se muestra en la declaración de confidencialidad al visualizador del sitio."
+  },
+  "policyURL": {
+    "label": "Vínculo a la política",
+    "helperText": "Se muestra como un vínculo \"Más información\" en la declaración de confidencialidad.",
+    "error": "Para poder mostrarse, debe ser una URL válida."
+  }
+}

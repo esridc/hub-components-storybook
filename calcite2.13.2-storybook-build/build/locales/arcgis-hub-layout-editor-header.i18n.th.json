@@ -1,0 +1,39 @@
+{
+  "popover": {
+    "access": {
+      "org": "แชร์กับองค์กรแล้ว",
+      "private": "แชร์กับเจ้าของแล้ว",
+      "public": "แชร์กับบุคคลทั่วไปแล้ว",
+      "shared": "แชร์กับเจ้าของและกลุ่มแล้ว"
+    },
+    "editLayout": "แก้ไขโครงร่าง",
+    "lastUpdated": "อัปเดตล่าสุด {updated}",
+    "viewSite": "ดูไซต์"
+  },
+  "cloneLayoutLabel": "โคลนโครงร่าง",
+  "deleteDraftLabel": "ลบฉบับร่าง",
+  "deletePageLabel": "ลบหน้า",
+  "deleteSiteLabel": "ลบไซต์",
+  "editInAgoLabel": "แก้ไขใน ArcGIS Online",
+  "managePage": "จัดการหน้า",
+  "manageSite": "จัดการไซต์",
+  "manageTemplate": "จัดการเทมเพลต",
+  "moreOptionsLabel": "ตัวเลือกเพิ่มเติม",
+  "publishLabel": {
+    "site": "เผยแพร่โครงร่าง",
+    "page": "เผยแพร่โครงร่าง",
+    "survey": "เผยแพร่"
+  },
+  "saveAsTemplateLabel": "บันทึกเป็นเทมเพลต",
+  "saveLabel": {
+    "site": "บันทึกโครงร่าง",
+    "page": "บันทึกโครงร่าง",
+    "survey": "บันทึก",
+    "template": "บันทึก"
+  },
+  "sharingLabel": "เปิดพาเนลการแชร์",
+  "editS123Label": "แก้ไขใน Survey123",
+  "viewLabel": "ดู",
+  "viewPublishedLabel": "เผยแพร่มุมมองแล้ว",
+  "viewUnpublishedLabel": "แบบร่างมุมมอง"
+}

@@ -1,0 +1,18 @@
+{
+  "about": "Hakkında",
+  "metrics": "Metrikler",
+  "featuredContent": "Öne çıkan içerik",
+  "details": "Ayrıntılar",
+  "exploreMetrics": "Metrikleri keşfet",
+  "status": {
+    "label": {
+      "default": "Durum",
+      "project": "Proje durumu",
+      "initiative": "İnisiyatif durumu"
+    },
+    "notStarted": "Başlatılmadı",
+    "inProgress": "Devam ediyor",
+    "onHold": "Beklemede",
+    "complete": "Tamamlandı"
+  }
+}

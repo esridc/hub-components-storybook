@@ -1,0 +1,1 @@
+import{i as n}from"./p-c9d39768.js";function e(e,t){return n(t,{},{translate(n){const[t,...r]=n.split("|"),o=r.reduce(((n,e)=>{const[t,r]=e.split("=");return t&&r&&"null"!==r&&"undefined"!==r&&"false"!==r&&(n[t]=decodeURIComponent(r)),n}),{});return e.t(t,o)}})}export{e as i}

@@ -1,0 +1,16 @@
+{
+  "heading": "Delingsniveau",
+  "public": "Offentlig",
+  "publicInfo": "Alle kan se denne {itemType}",
+  "organization": "Organisation",
+  "organizationInfo": "Alle medlemmer med en konto til {orgName} og grupper kan se denne {itemType}",
+  "owner": "Ejer",
+  "ownerInfo": "Ejer og grupper med adgang kan se denne {itemType}",
+  "discussion": {
+    "publicInfo": "Alle kan se denne diskussionstavle",
+    "organization": "Min organisation",
+    "organizationInfo": "Alle medlemmer med en konto til {orgName} kan se denne diskussionstavle",
+    "owner": "Privat",
+    "ownerInfo": "Ejer og udvalgte grupper kan se denne diskussionstavle"
+  }
+}

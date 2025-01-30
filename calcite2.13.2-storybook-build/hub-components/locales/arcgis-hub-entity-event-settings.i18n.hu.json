@@ -1,0 +1,49 @@
+{
+  "settings": "Beállítások",
+  "advanced": "Haladó",
+  "delete": {
+    "event": "Esemény törlése",
+    "desc": "Az esemény törlését nem lehet visszavonni. A meglévő regisztrálók értesítést kapnak (ha az automatikus értesítések engedélyezve vannak az eseményhez).",
+    "deleteButton": "Esemény törlése"
+  },
+  "cancel": {
+    "header": "Esemény visszavonása",
+    "desc": "Visszavonás esetén az esemény visszavont állapottal lesz látható. A regisztráció leáll, és a meglévő regisztrálók értesítést kapnak (ha az eseményhez engedélyezve vannak az automatikus értesítések).",
+    "event": "Esemény megszakítása",
+    "notice": {
+      "success": {
+        "title": "Elmaradó esemény",
+        "message": "A meglévő regisztrálók értesítést kapnak, ha az automatikus értesítések engedélyezve vannak."
+      },
+      "error": {
+        "title": "Az esemény visszavonása meghiúsult",
+        "message": "Próbálja meg újra"
+      }
+    }
+  },
+  "enable": {
+    "event": "Esemény újraengedélyezése",
+    "desc": "Esemény visszavonva (visszavont állapottal látható).",
+    "notice": {
+      "success": {
+        "title": "Esemény újból engedélyezve",
+        "message": "A meglévő regisztrálók értesítést kapnak, ha az automatikus értesítések engedélyezve vannak."
+      },
+      "error": {
+        "title": "Az esemény újbóli engedélyezése meghiúsult",
+        "message": "Próbálja meg újra"
+      }
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "event": "Esemény törlése"
+    },
+    "content": "Biztos, hogy törli:",
+    "delete": "Esemény törlése",
+    "cancel": "Esemény megszakítása"
+  },
+  "notice": {
+    "label": "Űrlappal kapcsolatos figyelmeztetés"
+  }
+}

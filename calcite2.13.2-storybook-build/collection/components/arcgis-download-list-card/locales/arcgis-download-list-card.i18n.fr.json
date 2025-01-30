@@ -1,0 +1,13 @@
+{
+  "csv": "CSV",
+  "shapefile": "Shapefile",
+  "sqlite": "Géodatabase SQLite",
+  "geoPackage": "GeoPackage",
+  "filegdb": "Géodatabase fichier",
+  "featureCollection": "Collection d’entités",
+  "geojson": "GeoJSON",
+  "excel": "Excel",
+  "json": "JSON",
+  "createReplicaErrorMessage": "Erreur interne lors de la création du réplica. Réessayez dans une heure ou contactez le gestionnaire de contenu.",
+  "errorHeader": "Le téléchargement n’a pas pu être effectué. Réessayez."
+}

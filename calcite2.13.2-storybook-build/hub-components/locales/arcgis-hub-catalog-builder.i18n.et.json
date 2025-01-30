@@ -1,0 +1,24 @@
+{
+  "shared": {
+    "targetEntities": {
+      "item": "Sisuüksused",
+      "event": "Sündmused"
+    }
+  },
+  "targetEntityBlock": {
+    "configured": "Konfigureeritud",
+    "notConfigured": "Konfigureerimata"
+  },
+  "targetEntityFlow": {
+    "back": "Sulge konfigureerimine: {targetEntity}",
+    "description": "Konfigureeri: {targetEntity}",
+    "source": {
+      "heading": "Allikas",
+      "description": "Allikad määravad sisu ulatuse. Muutke tulemusi, lisades või välistades parameetrid.<br/><br/>* tähistab kohustuslikku välja"
+    },
+    "collections": {
+      "heading": "Kogud",
+      "description": "Korraldage sisu eraldi alajaotusteks, et oleks lihtsam sirvida ja avastada.<br/><br/>*tähistab kohustuslikku välja"
+    }
+  }
+}

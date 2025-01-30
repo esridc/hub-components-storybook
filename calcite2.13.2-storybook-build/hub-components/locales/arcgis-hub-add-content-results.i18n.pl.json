@@ -1,0 +1,54 @@
+{
+  "existing": {
+    "successHeading": "Pomyślnie dodano zasoby.",
+    "failureHeading": "Nie można dodać zasobów do wybranej grupy.",
+    "successfulAccordionHeading": "Dodano zasoby do wybranej grupy.",
+    "unsuccessfulAccordionHeading": "Nie dodano zasobów do wybranej grupy."
+  },
+  "create": {
+    "event": {
+      "successWithoutGroupHeading": "Wydarzenie zostało pomyślnie utworzone.",
+      "successWithGroupHeading": "Wydarzenie zostało pomyślnie utworzone i dodane do grupy {group}.",
+      "successMessage": "Możesz teraz wyświetlić to wydarzenie, zarządzać nim w celu modyfikowania informacji lub kliknąć przycisk „Gotowe”, aby wrócić do widoku.",
+      "failureHeading": "Nie można dodać wydarzenia do wybranej grupy."
+    },
+    "discussion": {
+      "successWithoutGroupHeading": "Forum dyskusyjne zostało pomyślnie utworzone.",
+      "successWithGroupHeading": "Forum dyskusyjne zostało pomyślnie utworzone i dodane do grupy {group}.",
+      "successMessage": "Możesz teraz wyświetlić to forum dyskusyjne, zarządzać nim w celu modyfikowania informacji lub kliknąć przycisk „Gotowe”, aby wrócić do widoku.",
+      "failureHeading": "Nie można dodać forum dyskusyjnego do wybranej grupy."
+    },
+    "group": {
+      "successWithoutGroupHeading": "Grupa została pomyślnie utworzona.",
+      "successMessage": "Możesz teraz wyświetlić tę grupę, zarządzać nią w celu modyfikowania informacji lub kliknąć przycisk „Gotowe”, aby wrócić do widoku.",
+      "failureHeading": "Nie można utworzyć grupy."
+    },
+    "initiative": {
+      "successWithoutGroupHeading": "Inicjatywa została pomyślnie utworzona.",
+      "successWithGroupHeading": "Inicjatywa została pomyślnie utworzona i dodana do grupy {group}.",
+      "successMessage": "Możesz teraz wyświetlić tę inicjatywę, zarządzać nią w celu modyfikowania informacji lub kliknąć przycisk „Gotowe”, aby wrócić do widoku.",
+      "failureHeading": "Nie można dodać inicjatywy do wybranej grupy."
+    },
+    "page": {
+      "successWithoutGroupHeading": "Strona została pomyślnie utworzona.",
+      "successWithGroupHeading": "Strona została pomyślnie utworzona i dodana do grupy {group}.",
+      "successMessage": "Możesz teraz wyświetlić tę stronę, zarządzać nią w celu modyfikowania informacji lub kliknąć przycisk „Gotowe”, aby wrócić do widoku.",
+      "failureHeading": "Nie można dodać strony do wybranej grupy."
+    },
+    "project": {
+      "successWithoutGroupHeading": "Projekt został pomyślnie utworzony.",
+      "successWithGroupHeading": "Projekt został pomyślnie utworzony i dodany do grupy {group}.",
+      "successMessage": "Możesz teraz wyświetlić ten projekt, zarządzać nim w celu modyfikowania informacji lub kliknąć przycisk „Gotowe”, aby wrócić do widoku.",
+      "failureHeading": "Nie można dodać projektu do wybranej grupy."
+    },
+    "site": {
+      "successWithoutGroupHeading": "Witryna została pomyślnie utworzona.",
+      "successWithGroupHeading": "Witryna została pomyślnie utworzona i dodana do grupy {group}.",
+      "successMessage": "Możesz teraz wyświetlić tę witrynę, zarządzać nią w celu modyfikowania informacji lub kliknąć przycisk „Gotowe”, aby wrócić do widoku.",
+      "failureHeading": "Nie można dodać witryny do wybranej grupy."
+    }
+  },
+  "editLayout": "Edytuj kompozycję",
+  "manageEntity": "Zarządzaj",
+  "viewEntity": "Wyświetl"
+}

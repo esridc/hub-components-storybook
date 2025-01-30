@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Configuration Editor Suite</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .welcome-message {
+      display: flex;
+      align-items: center;
+    }
+    .welcome-message span {
+      font-size: 1.5rem;
+      line-height: 1.5;
+      font-weight: 400;
+    }
+    .welcome-message calcite-icon {
+      color: orange
+    }
+    .welcome-message calcite-icon:first-child {
+      padding-right: 0.5rem;
+    }
+    .welcome-message calcite-icon:last-child {
+      padding-left: 0.5rem;
+    }
+    .suite-tiles {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    calcite-tile {
+      width: 25rem;
+      height:13rem;
+      overflow: auto;
+    }
+    .suite-tiles calcite-tile:hover {
+      outline: 2px solid #007AC2;
+      transition-duration: 0ms;
+    }
+  </style>
+
+  <script async src="https://ga.jspm.io/npm:es-module-shims@1.6.2/dist/es-module-shims.js"></script>
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet"
+    href="../calcite-web.min.css">
+</head>
+
+<body>
+  <div class="grid-container padding-leader-2">
+    <div class="column-24 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+    </div>
+
+    <!-- CONFIGURATION EDITOR -->
+    <div class="container column-24">
+      <div class="welcome-message trailer-1">
+        <calcite-icon icon="effects"></calcite-icon>
+        <span> Welcome to the Configuration Editor Harness Suite</span>
+        <calcite-icon icon="effects"></calcite-icon>
+      </div>
+      <div class="suite-tiles">
+        <a href="./configuration-editor.html">
+          <calcite-tile
+            icon="form-elements"
+            heading="Configuration Editor"
+            description="The Configuration Editor allows us to declaratively build editing UIs with simple JSON configurations. It receives 1. a schema which defines what the underlying data properties are, and 2. an optional uiSchema which defines how the data properties should be rendered."/></calcite-tile>
+        </a>
+        <a href="./configuration-editor-fields.html">
+          <calcite-tile
+            icon="form-field"
+            heading="Configuration Editor Fields"
+            description="The Configuration Editor renders a series of fields based on the JSON configurations (schema and uiSchema) it receives. Each field is a standalone component that has distinct functionality."/></calcite-tile>
+        </a>
+        <a href="./configuration-form.html">
+          <calcite-tile
+            icon="footer"
+            heading="Configuration Form"
+            description="The Configuration Form is a presentational wrapper around the Configuration Editor meant to provide consistent form UIs. It's capable of rendering editors in different contexts (e.g. a modal), and is responsible for rendering presentational elements such as a header, a footer with save/next/undo buttons, as well as the loading, success, and error states, etc."/></calcite-tile>
+        </a>
+        <a href="./configuration-editor-playground.html">
+          <calcite-tile
+            icon="freehand"
+            heading="Playground"
+            description="This is a playground environment. Edit the schema/uiSchema in the editor-playground.js file to experiment with configuration editor functionality. Don't worry about overwriting the contents of this file."/></calcite-tile>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  </script>
+</body>
+
+</html>

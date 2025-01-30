@@ -1,0 +1,85 @@
+{
+  "collaborators": "Medewerkers",
+  "editGroupButtonText": "Groepen voor bewerking toevoegen",
+  "viewGroupButtonText": "Groepen voor weergave toevoegen",
+  "groupPicker": {
+    "title": "Groepen selecteren",
+    "facet": {
+      "label": "Van",
+      "editGroups": "Groepen bewerken",
+      "viewGroups": "Groep weergeven",
+      "myGroups": "Mijn groepen",
+      "myOrganization": "Mijn organisatie",
+      "myCommunity": "Mijn community"
+    }
+  },
+  "addNewPeopleNotice": {
+    "title": "Nieuwe personen toevoegen",
+    "message": "Als u personen wilt toevoegen, kunt u deze uitnodigen lid te worden van de gemeenschap of kunt u <orgOverviewLink>contact opnemen met uw beheerder</orgOverviewLink>."
+  },
+  "editGroupsTitle": "Groepen die kunnen bewerken",
+  "viewGroupsTitle": "Groepen die weer kunnen geven",
+  "project": {
+    "description": "Kies welke groepen gebruikers dit project kunnen weergeven en bewerken",
+    "editGroupsDescription": "De personen in deze groepen kunnen projectgegevens bewerken.",
+    "viewGroupsDescription": "De personen in deze groepen kunnen het project doorzoeken en weergeven als dit niet openbaar toegankelijk is.",
+    "errorMessage": "Er is een fout opgetreden bij het bijwerken van degenen die samenwerken aan uw project."
+  },
+  "content": {
+    "description": "Kies welke gebruikersgroepen deze content kunnen weergeven en bewerken.",
+    "editGroupsDescription": "De personen in deze groepen kunnen contentgegevens bewerken.",
+    "viewGroupsDescription": "De personen in deze groepen kunnen de content doorzoeken en weergeven als deze niet openbaar toegankelijk is.",
+    "errorMessage": "Er is een fout opgetreden bij het bijwerken van degenen die samenwerken aan uw content."
+  },
+  "discussion": {
+    "description": "Kies welke gebruikersgroepen het discussiebord kunnen weergeven en welke groepen gegevens voor het bord kunnen bewerken.",
+    "editGroupsDescription": "Leden van deze groepen kunnen de gegevens van het discussiebord bewerken.",
+    "viewGroupsDescription": "Leden van deze groepen kunnen het discussiebord doorzoeken en weergeven (indien het niet openbaar is gedeeld).",
+    "errorMessage": "Er is een fout opgetreden bij het bijwerken van degenen die samenwerken aan uw discussie."
+  },
+  "site": {
+    "description": "Kies welke gebruikersgroepen deze site kunnen weergeven en bewerken.",
+    "editGroupsDescription": "De personen in deze groepen kunnen site-informatie bewerken.",
+    "viewGroupsDescription": "De personen in deze groepen kunnen de site doorzoeken en weergeven als deze site niet openbaar toegankelijk is.",
+    "errorMessage": "Er is een fout opgetreden bij het updaten van de personen die samenwerken aan uw site."
+  },
+  "template": {
+    "description": "Kies welke groepen gebruikers deze sjabloon kunnen weergeven en bewerken.",
+    "editGroupsDescription": "De personen in deze groepen kunnen sjabloongegevens bewerken.",
+    "viewGroupsDescription": "De personen in deze groepen kunnen de sjabloon zoeken en weergeven als deze niet openbaar is gedeeld.",
+    "errorMessage": "Er is een fout opgetreden bij het bijwerken van de personen die samenwerken aan uw sjabloon."
+  },
+  "survey": {
+    "description": "Kies welke gebruikersgroepen deze vragenlijst kunnen weergeven en bewerken.",
+    "editGroupsDescription": "De personen in deze groepen kunnen vragenlijstgegevens bewerken.",
+    "viewGroupsDescription": "De personen in deze groepen kunnen de vragenlijst zoeken en weergeven, ook als deze niet openbaar is gedeeld.",
+    "errorMessage": "Er is een fout opgetreden bij het bijwerken van de personen die samenwerken aan uw vragenlijst."
+  },
+  "event": {
+    "description": "Kies welke gebruikersgroepen dit evenement kunnen weergeven en bewerken.",
+    "editGroupsDescription": "De personen in deze groepen zullen in staat zijn evenementgegevens te bewerken.",
+    "viewGroupsDescription": "De personen in deze groepen zullen in staat zijn dit evenement op te zoeken en weer te geven, ook als dit niet openbaar is gedeeld.",
+    "errorMessage": "Er is een fout opgetreden bij het bijwerken van degenen die samenwerken aan uw evenement."
+  },
+  "newTab": "profiel in nieuw tabblad openen",
+  "supportingTeams": "Ondersteunende teams",
+  "supportingTeamsDesc": "Deze ondersteunende teams waren eerder aan uw site gekoppeld. U kunt ze blijven gebruiken om content te delen met mensen die met u samenwerken.",
+  "supportTeamsRemove": "Team verwijderen",
+  "supportingTeamsRemoveError": "Er is een fout opgetreden bij het ontkoppelen van een team. Neem contact op met een beheerder.",
+  "supportingTeamsRemoveSuccess": "Het team is ontkoppeld.",
+  "view": {
+    "button": "Weergavegroep maken",
+    "formLabel": "Nieuwe weergavegroep",
+    "description": "Stel een groep in om het delen van content en communicatie te vergemakkelijken. Groepsleden kunnen alle content die met de groep is gedeeld, weergeven."
+  },
+  "edit": {
+    "button": "Bewerkingsgroep maken",
+    "formLabel": "Nieuwe bewerkingsgroep",
+    "description": "Stel een groep in om het delen van content en communicatie te vergemakkelijken. Groepsleden kunnen alle content die met de groep wordt gedeeld, weergeven en bewerken."
+  },
+  "groupCreateDisabledButtonTooltip": "U kunt geen groep maken. Het is mogelijk dat u al bij het maximale aantal groepen bent aangesloten of dat u over onvoldoende machtigingen beschikt voor het maken van een groep.",
+  "groupCreateError": "Er is een fout opgetreden bij het maken van de groep.",
+  "notice": {
+    "label": "Formulierwaarschuwing"
+  }
+}

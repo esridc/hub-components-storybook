@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "Rediger grupper",
+        "viewGroups": "Vis grupper"
+      },
+      "facet": {
+        "label": "Fra",
+        "myGroups": "Mine grupper",
+        "myOrganization": "Min organisation",
+        "myCommunity": "Mit fællesskab"
+      }
+    }
+  },
+  "property": {
+    "label": "parameter",
+    "requiredError": "Parameter er påkrævet"
+  },
+  "operator": {
+    "label": "Kriterier",
+    "requiredError": "Kriterierne er påkrævet"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "Type"
+    },
+    "group": {
+      "default": "Grupper"
+    },
+    "occurrence": {
+      "default": "Forekomst"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "Er enhver af",
+      "group": "Er delt med enhver af"
+    },
+    "isAll": {
+      "default": "Er alle",
+      "group": "Er delt med alle"
+    },
+    "isExactly": {
+      "default": "Er nøjagtigt",
+      "occurrence": "Er"
+    },
+    "isNot": {
+      "default": "Er ikke",
+      "type": "Er ingen af",
+      "group": "Er delt med ingen af"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "Grupper",
+      "requiredError": "Grupper er påkrævet"
+    },
+    "type": {
+      "label": "Typer",
+      "requiredError": "Typer er påkrævet",
+      "app": {
+        "label": "Apps"
+      },
+      "content": {
+        "label": "Indhold"
+      },
+      "dataset": {
+        "label": "Datasæt"
+      },
+      "discussion": {
+        "label": "Diskussioner"
+      },
+      "document": {
+        "label": "Dokumenter"
+      },
+      "event": {
+        "label": "Begivenheder"
+      },
+      "feedback": {
+        "label": "Feedback"
+      },
+      "initiative": {
+        "label": "Initiativer"
+      },
+      "map": {
+        "label": "Kort"
+      },
+      "project": {
+        "label": "Projekter"
+      },
+      "site": {
+        "label": "Websteder"
+      },
+      "template": {
+        "label": "Skabeloner"
+      }
+    },
+    "occurrence": {
+      "label": "Forekomst",
+      "requiredError": "Forekomst er påkrævet",
+      "upcoming": "Kommende",
+      "past": "Sidste",
+      "inProgress": "I gang"
+    }
+  }
+}

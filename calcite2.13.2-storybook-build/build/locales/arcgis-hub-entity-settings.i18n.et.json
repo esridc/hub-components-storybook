@@ -1,0 +1,53 @@
+{
+  "settings": "Sätted",
+  "formDisabledTooltip": "Teil ei ole juurdepääsu selle {type} muutmiseks.",
+  "delete": {
+    "project": "Kustuta see projekt",
+    "initiative": "Kustuta see algatus",
+    "site": "Kustuta see sait",
+    "discussion": "Kustuta see arutelu",
+    "content": "Kustuta see sisu",
+    "page": "Kustuta see leht",
+    "group": "Kustuta see grupp",
+    "initiativeTemplate": "Kustuta see algatuse mall",
+    "template": "Kustuta see mall",
+    "survey": "Kustuta see mõõdistus",
+    "desc": {
+      "project": "Selle projekti kustutamist ei saa tagasi võtta.",
+      "initiative": "Selle algatuse kustutamist ei saa tagasi võtta.",
+      "site": "Selle saidi kustutamist ei saa tagasi võtta.",
+      "discussion": "Selle arutelu kustutamist ei saa tagasi võtta.",
+      "content": "Selle sisu kustutamist ei saa tagasi võtta.",
+      "page": "Selle lehe kustutamist ei saa tagasi võtta.",
+      "group": "Selle grupi kustutamist ei saa tagasi võtta.",
+      "initiativeTemplate": "Selle algatuse malli kustutamist ei saa tagasi võtta.",
+      "template": "Selle malli kustutamist ei saa tagasi võtta.",
+      "survey": "Selle mõõdistuse kustutamist ei saa tagasi võtta."
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "project": "Kustuta projekt",
+      "initiative": "Kustuta algatus",
+      "site": "Kustuta sait",
+      "discussion": "Kustuta arutelu",
+      "content": "Kustuta sisu",
+      "page": "Kustuta leht",
+      "group": "Kustuta grupp",
+      "initiativeTemplate": "Kustuta algatuse mall",
+      "template": "Kustuta mall",
+      "survey": "Kustuta küsitlus"
+    },
+    "content": "Kas soovite kindlasti kustutada:",
+    "delete": "Kustuta",
+    "cancel": "Tühista"
+  },
+  "sidePanel": {
+    "content": {
+      "extractNotice": {
+        "title": "Ekstraktimisvõimalus muudab teenuse seadeid.",
+        "message": "See mõjutab muid üksusi, mis teenusele viitavad. Lisateavet leiate teemast <docLink>Andmete eksportimine majutatud objektikihtidest</docLink>"
+      }
+    }
+  }
+}

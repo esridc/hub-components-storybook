@@ -1,0 +1,118 @@
+{
+  "layout": {
+    "title": "Layout",
+    "helperText": "Hiermit wird das Erscheinungsbild der Ergebnisse festgelegt, wenn Benutzer zum ersten Mal den Katalog aufrufen. Den Benutzern ist es weiterhin möglich, die Anzeigemethode zu ändern.",
+    "enum": {
+      "list": {
+        "label": "Liste",
+        "description": "Eignet sich zum Präsentieren der Metadaten und für Benutzer, die gezielte Suchen durchführen möchten."
+      },
+      "grid": {
+        "label": "Raster",
+        "description": "Eignet sich für Ergebnisse mit hochwertigen Miniaturansichten und für Benutzer, die die Inhalte durchsuchen möchten."
+      },
+      "table": {
+        "label": "Tabelle",
+        "description": "Die Ergebnisse werden in einem strukturierten Format mit sortierbaren Spalten präsentiert. Eignet sich für Benutzer, die zahlreiche Elemente und Attribute vergleichen möchten."
+      },
+      "map": {
+        "label": "Karte",
+        "description": "Eignet sich für Ergebnisse, die physisch mit Positionen verknüpft sind, und für Benutzer, die Interessenbereiche erkunden."
+      },
+      "compact": {
+        "label": "Kompakt",
+        "description": "Die Anzahl der sichtbaren Ergebnisse auf wenig Raum wird maximiert. Eignet sich für schnelles Browsen und die Anzeige auf mobilen Geräten."
+      }
+    }
+  },
+  "cards": {
+    "title": "Kacheln",
+    "cardTitleTag": {
+      "label": "Überschrift",
+      "helperText": "Damit kann die Struktur geschachtelter Überschriften im Hinblick auf die Barrierefreiheit verbessert werden. Dadurch ändert sich nicht die Schriftgröße.",
+      "enum": {
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        }
+      }
+    },
+    "showThumbnail": {
+      "label": "Miniaturansicht anzeigen",
+      "enum": {
+        "show": {
+          "label": "Immer",
+          "description": "Unabhängig vom Ergebnislayout werden Miniaturansichten immer auf Ergebniskacheln angezeigt."
+        },
+        "hide": {
+          "label": "Keine Miniaturansichten anzeigen",
+          "description": "Miniaturansichten werden auf keiner Art von Ergebniskachel angezeigt. Verwenden Sie diese Option, wenn Ihnen Miniaturansichten von minderer Qualität vorliegen oder wenn die Benutzer die Listenergebnisse auf Desktop- und Mobilgeräten schnell durchsehen können sollen."
+        },
+        "grid": {
+          "label": "Nur in Tabelle",
+          "description": "Miniaturansichten werden nur auf Tabellenkacheln angezeigt. Auf Listenkacheln wird anstelle eines Bildes eine zusätzliche Spalte mit Metadaten angezeigt."
+        }
+      }
+    },
+    "corners": {
+      "label": "Ecken",
+      "enum": {
+        "square": {
+          "label": "Quadrat"
+        },
+        "round": {
+          "label": "Gerundet"
+        }
+      }
+    },
+    "shadow": {
+      "label": "Schlagschatten",
+      "enum": {
+        "heavy": {
+          "label": "Stark"
+        },
+        "low": {
+          "label": "Niedrig"
+        },
+        "medium": {
+          "label": "Mittel"
+        },
+        "none": {
+          "label": "Keine"
+        }
+      }
+    },
+    "showLinkButton": {
+      "label": "Schaltflächen einfügen",
+      "helperText": "Wenn die Schaltflächen deaktiviert sind, ist nur der Kacheltitel ein Link."
+    },
+    "linkButtonStyle": {
+      "label": "Style",
+      "enum": {
+        "outline-filled": {
+          "label": "Gefüllt"
+        },
+        "outline": {
+          "label": "Umrisslinie"
+        }
+      }
+    },
+    "linkButtonText": {
+      "label": "Text"
+    }
+  }
+}

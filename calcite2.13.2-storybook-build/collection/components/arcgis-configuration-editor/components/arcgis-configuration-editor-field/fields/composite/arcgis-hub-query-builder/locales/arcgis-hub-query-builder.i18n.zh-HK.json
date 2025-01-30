@@ -1,0 +1,10 @@
+{
+  "targetEntity": {
+    "label": "來源",
+    "enum": {
+      "item": "項目",
+      "event": "事件",
+      "group": "群組"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+
+:host {
+  display: block;
+}
+
+/* apply bottom margin to all basic sections except the last */
+:host:not(.configuration-editor__last-child) {
+  margin-bottom: 2rem;
+}
+
+/* Apply header styling based on the section's scale
+TODO: add styling for "m" and "s" scales */
+.section-basic--s .section-basic__header :is(h1, h2, h3, h4, h5, h6) {
+  font-size: var(--calcite-font-size--1);
+  margin-top: 0px;
+  margin-bottom: 1.5rem;
+  font-weight: var(--calcite-font-weight-medium);
+  color: var(--calcite-color-text-1);
+}
+
+.section-basic--m .section-basic__header :is(h1, h2, h3, h4, h5, h6) {
+  font-size: var(--calcite-font-size-0);
+  margin-top: 0px;
+  margin-bottom: 1.5rem;
+  font-weight: var(--calcite-font-weight-medium);
+  color: var(--calcite-color-text-1);
+}
+
+.section-basic--l .section-basic__header :is(h1, h2, h3, h4, h5, h6) {
+  font-size: var(--calcite-font-size-1);
+  margin-top: 0px;
+  margin-bottom: 1.5rem;
+  font-weight: var(--calcite-font-weight-medium);
+  color: var(--calcite-color-text-1);
+}
+
+/* adjust the helper text margins */
+::slotted(.section__content) > .helper-text {
+  margin-top: -1rem;
+  margin-bottom: 1.5rem;
+}
+::slotted(.helper-text--left) > .helper-text, ::slotted(.helper-text--right) > .helper-text {
+  margin-top: 0px;
+}
+
+/* apply workspace variant styling */
+.variant-workspace {
+  border-radius: 0.25rem;
+  padding: 1.25rem;
+  --tw-shadow: 0 1px 6px -1px rgba(0, 0, 0, 0.16), 0 1px 2px -1px rgba(0, 0, 0, 0.08);
+  --tw-shadow-colored: 0 1px 6px -1px var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  background: white;
+}
+
+/* apply layout editor variant styling */
+.variant-layout-editor .section-basic__header h5, .variant-layout-editor .section-basic__header h6 {
+  font-weight: var(--calcite-font-weight-bold);
+}
+.variant-layout-editor ::slotted(.section__content) > .section__fields {
+  font-weight: var(--calcite-font-weight-bold);
+}

@@ -1,0 +1,1 @@
+function r(r,e,t=5){return r.reduce(((r,e)=>{let n=r[r.length-1];return n&&n.length!==t||(n=[],r.push(n)),n.push(e),r}),[]).reduce(((r,t)=>r.then((r=>{const n=t.map((r=>e(r)));return Promise.all(n).then((e=>r.concat(e)))}))),Promise.resolve([]))}export{r as b}

@@ -1,0 +1,29 @@
+{
+  "additionalInfo": {
+    "label": "Optionale Anzeigeeinstellungen",
+    "helperText": "Fügen Sie eine eigene Datenschutzbeschreibung und Informationen zu den Richtlinien hinzu."
+  },
+  "allowPrivacyConfig": {
+    "label": "Datenschutzerklärung anzeigen"
+  },
+  "blocking": {
+    "label": "Hinweistyp",
+    "optional": {
+      "label": "Optionale Einwilligung",
+      "description": "Der Besucher kann die Website ohne Datenschutzeinwilligung nutzen. Das Tracking startet sofort und wird beendet, wenn der Besucher dies ablehnt."
+    },
+    "required": {
+      "label": "Erforderliche Einwilligung",
+      "description": "Der Besucher muss das Tracking erlauben oder ablehnen, um die Website nutzen zu können. Das Tracking beginnt erst, wenn der Besucher seine Zustimmung gegeben hat."
+    }
+  },
+  "consentText": {
+    "label": "Datenschutzbeschreibung",
+    "helperText": "Wird dem Besucher der Website in der Datenschutzerklärung angezeigt."
+  },
+  "policyURL": {
+    "label": "Link zu den Richtlinien",
+    "helperText": "Wird als Link mit der Bezeichnung \"Weitere Informationen\" in der Datenschutzerklärung angezeigt.",
+    "error": "Muss eine gültige URL sein, um angezeigt werden zu können."
+  }
+}

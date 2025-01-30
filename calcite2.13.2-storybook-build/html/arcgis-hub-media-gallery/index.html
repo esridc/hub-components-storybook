@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+  <title>Hub Components: Hub Media Gallery</title>
+  <style>
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+    }
+  </style>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <!-- IF YOU NEST MORE THAN ONE FOLDER DEEP,  YOU NEED TO ADJUST THESE src's -->
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet"
+    href="../calcite-web.min.css" />
+</head>
+
+<body>
+
+  <div class="grid-container padding-leader-2">
+    <div class="column-24 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-hub-media-gallery</h2>
+    </div>
+    <div class="column-24">
+      <calcite-button onClick="signIn()">Sign In</calcite-button>
+      <calcite-button onClick="signOut()">Sign Out</calcite-button>
+      <arcgis-app-identity client-id="EF9uxuFlOrgf7WpI" redirect-uri="http://localhost:3333/html/redirect.html"
+        portal="https://qaext.arcgis.com"></arcgis-app-identity>
+      <div id="userinfo"></div>
+      <calcite-button onClick="toggleModal()">Render Modal</calcite-button>
+      <arcgis-hub-media-gallery item-id="4e694269e30a476daa3b2d995f643687" selectable>
+      </arcgis-hub-media-gallery>
+
+      <arcgis-hub-media-gallery-modal item-id="4e694269e30a476daa3b2d995f643687" selectable />
+    </div>
+  </div>
+  <script>
+    // set a property on the element
+    function setProp(key, value) {
+      const gallery = document.querySelector("arcgis-hub-media-gallery");
+      gallery[key] = value;
+      const modal = document.querySelector("arcgis-hub-media-gallery-modal");
+      modal[key] = value;
+    }
+
+    function signIn() {
+      const evt = new CustomEvent('arcgisAppIdentityStartSignIn');
+      document.dispatchEvent(evt);
+    }
+    function signOut() {
+      const evt = new CustomEvent('arcgisAppIdentityStartSignOut');
+      document.dispatchEvent(evt);
+    }
+
+    let showMediaGalleryModal;
+    function toggleModal() {
+      const el = document.querySelector("arcgis-hub-media-gallery-modal");
+      showMediaGalleryModal = !showMediaGalleryModal;
+      el.isOpen = showMediaGalleryModal;
+    }
+
+    // These listeners could be in any component that wants a session
+    document.addEventListener('arcgisHubMediaGalleryModalClosed', evt => {
+      toggleModal();
+    });
+
+    // These listeners could be in any component that wants a session
+    document.addEventListener('arcgisAppIdentitySignedIn', evt => {
+      showUserInfo(evt.detail.session);
+    });
+
+    document.addEventListener('arcgisAppIdentitySignedOut', evt => {
+      showUserInfo(evt.detail.session);
+    });
+
+    // Simple function to do something when auth changes
+    function showUserInfo(session) {
+      const el = document.getElementById('userinfo');
+      if (session) {
+        el.innerText = `User ${session.username} authenticated`;
+      } else {
+        el.innerText = 'No user authenticated';
+      }
+    }
+  </script>
+</body>
+
+</html>

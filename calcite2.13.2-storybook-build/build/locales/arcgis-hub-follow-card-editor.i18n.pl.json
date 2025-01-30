@@ -1,0 +1,41 @@
+{
+  "notice": {
+    "outdatedItem": {
+      "title": "Zastąp swoją inicjatywę",
+      "message": "Ta karta odnosi się do nieaktualnego elementu. Wybierz inny element do obserwowania przez użytkowników."
+    },
+    "missingFollowersGroup": {
+      "title": "Brak grupy obserwujących",
+      "message": "W tym elemencie brakuje grupy obserwujących. Wybierz inny element."
+    },
+    "noGroupAccess": {
+      "title": "Uwaga",
+      "message": "Nie masz dostępu do tej grupy obserwujących."
+    }
+  },
+  "selectContent": {
+    "title": "Zasoby, które będą obserwowane",
+    "facets": {
+      "sharing": "Udostępnianie",
+      "catalog": {
+        "myContent": "Moje zasoby",
+        "organization": "Moja instytucja"
+      }
+    }
+  },
+  "callToAction": {
+    "title": "Wezwanie do działania",
+    "helperText": "Wezwanie do działania pojawia się nad przyciskiem obserwowania.",
+    "alignment": "Wyrównanie"
+  },
+  "followButton": {
+    "title": "Przycisk obserwowania",
+    "helperText": "Ten przycisk pozwoli członkom włączać lub wyłączać obserwowanie Twoich zasobów. Tekst można ustawić dla obu stanów przycisku.",
+    "buttonText": "Tekst na przycisku obserwacji",
+    "unfollowButtonText": "Tekst na przycisku rezygnacji",
+    "alignment": "Wyrównanie",
+    "buttonStyle": "Styl przycisku",
+    "solid": "Tło wypełnione",
+    "outline": "Obrys"
+  }
+}

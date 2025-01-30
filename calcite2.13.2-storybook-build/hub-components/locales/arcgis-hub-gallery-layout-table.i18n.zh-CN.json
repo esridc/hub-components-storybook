@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "未找到任何结果。"
+    },
+    "error": {
+      "message": "非常抱歉，搜索出现错误。"
+    }
+  },
+  "access": "访问",
+  "actionsHeader": "操作",
+  "caption": "Hub 实体表",
+  "family": "系列",
+  "type": "类型",
+  "tags": "标签",
+  "owner": "所有者",
+  "dateCreated": "创建日期",
+  "dateUpdated": "修改日期",
+  "description": "描述",
+  "dateAndTime": "日期和时间",
+  "location": "位置",
+  "attendanceType": "出勤类型",
+  "inPerson": "现场",
+  "online": "在线",
+  "hybrid": "混合",
+  "categories": "类别",
+  "content": "内容",
+  "name": "名称",
+  "start": "开始",
+  "end": "结束",
+  "sharedUpdate": "共享的更新",
+  "managers": "管理员",
+  "username": "用户名",
+  "no": "否",
+  "yes": "是",
+  "title": "标题",
+  "thumbnail": "缩略图",
+  "types": {
+    "app": "应用程序",
+    "content": "内容",
+    "dataset": "数据集",
+    "discussion": "讨论板",
+    "document": "文档",
+    "event": "活动",
+    "feedback": "反馈",
+    "initiative": "倡议",
+    "image": "图像",
+    "map": "地图",
+    "other": "其他",
+    "people": "人员",
+    "site": "站点",
+    "team": "群组",
+    "template": "模板",
+    "project": "工程"
+  }
+}

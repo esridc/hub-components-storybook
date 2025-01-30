@@ -1,0 +1,98 @@
+:host {
+
+    display: block
+}
+
+arcgis-load-more-button {
+
+    margin-top: 0.75rem;
+
+    margin-right: 1rem;
+
+    margin-bottom: 1.5rem;
+
+    margin-left: 1rem
+}
+
+calcite-input[type="search"] {
+
+    margin-bottom: 1rem
+}
+
+calcite-dropdown {
+
+    position: relative
+}
+
+.post-results-info-and-controls {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 0.25rem
+}
+
+.post-count {
+
+    flex-grow: 1
+}
+
+arcgis-hub-discussions-thread:first-of-type {
+
+    padding-top: 1rem
+}
+
+arcgis-hub-discussions-thread:last-of-type {
+
+    padding-bottom: 1rem
+}
+
+arcgis-hub-discussions-post.loading, arcgis-hub-discussions-post.loading:not([parent-id]) {
+
+    margin: 0px;
+
+    padding-top: 0.5rem;
+
+    padding-bottom: 0.5rem;
+
+    padding-left: 1rem;
+
+    padding-right: 1rem
+}
+
+:host(.location-list) arcgis-hub-discussions-post.loading {
+
+    padding-left: 1rem;
+
+    padding-right: 1rem
+}
+
+.replies-only arcgis-hub-discussions-post.loading {
+
+    padding-left: 0px;
+
+    padding-right: 0px
+}
+
+arcgis-hub-discussions-post:not([parent-id]) {
+
+    padding-top: 0.75rem;
+
+    padding-bottom: 0.75rem
+}
+
+:host:not(.has-error)::slotted([slot="error"]) {
+
+    display: none
+}
+
+:host[total="0"] calcite-list {
+
+    display: none
+}
+
+:host:not([total="0"])::slotted([slot="empty"]) {
+
+    display: none
+}

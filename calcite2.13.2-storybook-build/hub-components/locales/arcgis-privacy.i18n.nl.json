@@ -1,0 +1,41 @@
+{
+  "managePrivacyButton": "Privacy beheren",
+  "consentNotice": {
+    "allTracking": "Deze site is gebouwd met ArcGIS Hub en gebruikt anoniem traceren om de prestaties te verbeteren en het gebruik van de site te analyseren in overeenstemming met de Privacyverklaring van Esri. Het is mogelijk dat ook volgsystemen van derden uw gebruik van de site bewaken.",
+    "anonymousTracking": "Deze site is gebouwd met ArcGIS Hub en gebruikt anoniem traceren om de prestaties te verbeteren en het gebruik van de site te analyseren in overeenstemming met de Privacyverklaring van Esri.",
+    "noTracking": "Deze site is gemaakt met ArcGIS Hub en gebruikt alleen cookies die nodig zijn voor de werking van de toepassing; deze kunnen niet worden uitgezet in onze systemen.",
+    "thirdPartyTracking": "Deze site is gemaakt met ArcGIS Hub en gebruikt alleen cookies die nodig zijn voor de werking van de toepassing; deze kunnen niet worden uitgezet in onze systemen. Het is mogelijk dat ook volgsystemen van derden uw gebruik van de site bewaken."
+  },
+  "consent": {
+    "esriPrivacyLink": "Privacycentrum Esri",
+    "customerConsentLink": "Meer informatie"
+  },
+  "eueiNotice": {
+    "title": "{orgName} leden zullen niet worden gevolgd",
+    "message": "Het Esri User Experience Improvement-programma (EUEI) is uitgeschakeld voor {orgName}. Activiteiten rond uw bezoek zullen niet worden gevolgd; u kunt geen anonieme gebruiksstatistieken of tracering door derden accepteren.",
+    "link": "Meer informatie over het EUEI-programma."
+  },
+  "notice": {
+    "heading": "Privacy-instellingen",
+    "acceptAllButton": "Alle cookies accepteren",
+    "acceptNecessaryButton": "Alleen noodzakelijke cookies accepteren",
+    "confirmButton": "Bevestigen",
+    "reviewSettingsButton": "Instellingen doornemen"
+  },
+  "settings": {
+    "heading": "Privacy-instellingen",
+    "confirmButton": "Bevestigen"
+  },
+  "anonymous": {
+    "heading": "Anonieme gebruiksstatistieken",
+    "helpText": "Deze cookies stellen ons ertoe in staat de prestaties van de applicatie te bewaken, zoals verkeersbronnen, paginaweergaves en interacties. Ze helpen ons ontdekken welke content effectief is en hoe bezoekers door de applicatie navigeren. Alle verzamelde gegevens zijn anoniem (er wordt geen informatie opgeslagen die een persoon kan identificeren). Als u deze cookies niet toestaat, weten we niet of u onze applicatie hebt bezocht of deze hebt gebruikt."
+  },
+  "necessary": {
+    "heading": "Strikt noodzakelijke cookies",
+    "helpText": "Deze cookies zijn noodzakelijk voor de werking van de applicatie en kunnen niet worden uitgeschakeld in onze systemen. Ze worden ingesteld in reactie op door u uitgevoerde handelingen in verband met serviceaanvragen, zoals het aanmelden bij uw account. U kunt uw browser zo instellen dat deze cookies worden geblokkeerd of dat u ervoor wordt gewaarschuwd, maar dit kan van invloed zijn op sommige delen van de applicatie. Alle verzamelde gegevens zijn anoniem (er wordt geen informatie opgeslagen die een persoon kan identificeren)."
+  },
+  "thirdParty": {
+    "heading": "Tracering door derden",
+    "helpText": "Deze cookies kunnen worden ingesteld door externe trackingproviders die op deze site zijn geconfigureerd. Ze kunnen doelgroep- of marketinggegevens over u verzamelen tijdens uw bezoek. De verzamelde gegevens kunnen worden gebruikt voor doeleinden die niet met deze applicatie te maken hebben. Als u deze cookies niet toestaat, kunnen geconfigureerde externe trackingproviders geen informatie ontvangen over uw bezoek."
+  }
+}

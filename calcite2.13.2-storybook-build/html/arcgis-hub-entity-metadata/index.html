@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-hub-entity-metadata</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet" href="../calcite-web.min.css">
+</head>
+
+<body>
+  <div class="grid-container padding-leader-2">
+    <!-- docs about grid container: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+    <div class="column-24 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-hub-entity-metadata</h2>
+    </div>
+
+    <!-- AUTH -->
+    <div class="column-24 trailer-2">
+      <calcite-button onClick="signIn()">Sign In</calcite-button>
+      <calcite-button onClick="signOut()">Sign Out</calcite-button>
+      <div id="userinfo"></div>
+
+      <arcgis-app-identity client-id="EF9uxuFlOrgf7WpI" redirect-uri="http://localhost:3333/html/redirect.html" portal="https://qaext.arcgis.com" />
+    </div>
+
+    <div class="column-24">
+      <h4>Hub Project example</h4>
+      <arcgis-hub-entity-metadata
+        id="arcgis-hub-entity-metadata-harness-project">
+      </arcgis-hub-entity-metadata>
+    </div>
+    <br>
+    <div class="column-24">
+      <h4>Hub Content example</h4>
+      <arcgis-hub-entity-metadata
+        id="arcgis-hub-entity-metadata-harness-content">
+      </arcgis-hub-entity-metadata>
+    <br>
+    <div class="column-24">
+      <h4>Hub Site example -- with additionalMetadata prop</h4>
+      <arcgis-hub-entity-metadata
+        id="arcgis-hub-entity-metadata-harness-site">
+      </arcgis-hub-entity-metadata>
+    </div>
+  </div>
+
+  <script>
+    // set a property on the element
+    function setProp(key, value, id) {
+      const el = document.getElementById(id);
+      el[key] = value;
+    }
+
+    // AUTH FUNCTIONALITY
+    function signIn() {
+      const evt = new CustomEvent('arcgisAppIdentityStartSignIn');
+      document.dispatchEvent(evt);
+    }
+    function signOut() {
+      const evt = new CustomEvent('arcgisAppIdentityStartSignOut');
+      document.dispatchEvent(evt);
+    }
+    document.addEventListener('arcgisAppIdentitySignedIn', evt => {
+      showUserInfo(evt.detail.session);
+    });
+    document.addEventListener('arcgisAppIdentitySignedOut', evt => {
+      showUserInfo(evt.detail.session);
+    });
+    function showUserInfo(session) {
+      const el = document.getElementById('userinfo');
+      if (session) {
+        el.innerText = `User ${session.username} authenticated`;
+      } else {
+        el.innerText = 'No user authenticated';
+      }
+    }
+
+    // set fake entity
+    const projectEntity = {
+      "type": "Hub Project",
+      "access": "public",
+      "createdDate": "2022-08-23T15:03:24.000Z",
+      "owner": "mockUsername",
+      "updatedDate": "2022-08-30T19:26:05.000Z"
+    };
+    setProp('entity', projectEntity, "arcgis-hub-entity-metadata-harness-project");
+
+    const contentEntity = {
+      "type": "CSV",
+      "access": "private",
+      "createdDate": "2022-08-23T15:03:24.000Z",
+      "owner": "mockUsername",
+      "updatedDate": "2022-08-30T19:26:05.000Z",
+      "licenseInfo": "CC BY-SA",
+    };
+    setProp('entity', contentEntity, "arcgis-hub-entity-metadata-harness-content");
+
+    const siteEntity = {
+      "type": "Hub Site",
+      "access": "org",
+      "createdDate": "2022-07-01T15:03:24.000Z",
+      "owner": "mockUsername",
+      "updatedDate": "2022-08-30T19:26:05.000Z",
+    };
+    const siteAdditionalMetadata = [
+      {
+        icon: "layers-editable",
+        title: "Custom metadata title 🚀",
+        description: "Custom metadata description 🌮",
+      }
+    ]
+    setProp('entity', siteEntity, "arcgis-hub-entity-metadata-harness-site");
+    setProp('additionalMetadata', siteAdditionalMetadata, "arcgis-hub-entity-metadata-harness-site");
+    
+  </script>
+</body>
+
+</html>

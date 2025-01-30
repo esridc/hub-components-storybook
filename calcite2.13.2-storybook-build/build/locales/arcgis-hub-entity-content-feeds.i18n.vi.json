@@ -1,0 +1,81 @@
+{
+  "tabTitle": "Cấu hình nguồn cấp",
+  "learn": "Tìm hiểu về nguồn cấp dữ liệu Hub",
+  "loadingLabel": "Đang tải",
+  "enableFeedsToggle": {
+    "label": "Bật nguồn cấp",
+    "privateNotice": "Để bật nguồn cấp, trước tiên bạn cần thiết lập trang Hub của mình thành \"Công khai\".",
+    "emptyPublicCatalog": {
+      "message": "Để bật nguồn cấp, trước tiên bạn cần thêm nội dung công khai vào danh mục của bạn.",
+      "button": "Xem Danh mục"
+    },
+    "grouplessCatalog": {
+      "message": "Để bật nguồn cấp, trước tiên bạn cần cấu hình danh mục của mình.",
+      "button": "Định cấu hình danh mục"
+    }
+  },
+  "gettingStartedNotice": {
+    "title": "Bắt đầu",
+    "exampleMessage": "Đánh dấu và cập nhật khóa hoặc giá trị trong JSON editor bằng cách sử dụng giá trị chữ (\"VALUE\") hoặc mẫu (\"{{TEMPLATE_VALUE}}\").",
+    "previewMessage": "Sử dụng nút chuyển đổi \"xem trước\" để xem trước các thay đổi của bạn. Để biết thêm thông tin, hãy đọc <catalogFederationLink>tài liệu trợ giúp về liên kết danh mục</catalogFederationLink>"
+  },
+  "aboutFeedsNotice": {
+    "message": "Cho phép sử dụng lại và dễ dàng truy cập vào dữ liệu mở công khai của bạn bằng nguồn cấp dữ liệu Hub.",
+    "link": "Tìm hiểu về nguồn cấp dữ liệu Hub"
+  },
+  "feedsEditorSection": {
+    "title": "Nguồn cấp",
+    "formatSelectLabel": "Chọn một loại nguồn cấp",
+    "uneditableAttributesIntro": "Xin lưu ý, bạn không thể chỉnh sửa các thuộc tính dưới đây:",
+    "edit": "Chỉnh sửa",
+    "preview": "Xem trước",
+    "selectContentNotice": "Chọn nội dung để xem trước.",
+    "invalidJsonEditorWarning": "JSON không hợp lệ. Vui lòng sửa lỗi trước khi lưu.",
+    "invalidJsonPreviewWarning": "Không thể xem trước JSON không hợp lệ, vui lòng sửa lỗi.",
+    "errorPreviewingWarning": "Đã xảy ra lỗi. Vui lòng kiểm tra kết nối và thử lại. Nếu sự cố vẫn tiếp diễn, hãy báo cáo lỗi cho bộ phận Hỗ trợ Hub."
+  },
+  "toolsSection": {
+    "title": "Công cụ",
+    "verification": "Xác minh",
+    "previewSampleData": {
+      "label": "Xem trước dữ liệu mẫu",
+      "pickerFacets": {
+        "type": "Loại",
+        "tags": "Thẻ",
+        "categories": "Danh mục",
+        "sharing": "Chia sẻ",
+        "dateUpdated": "Ngày Cập nhật"
+      }
+    },
+    "copyableInputLabel": "URL truy cập nguồn cấp"
+  },
+  "dcat-us": {
+    "1.1": {
+      "title": "DCAT-US 1.1",
+      "description": "DCAT cho phép tổ chức chuẩn hóa đóng góp dữ liệu và hỗ trợ mọi người trong phân tích cú pháp thông qua các nguồn liên kết. Bạn có thể sử dụng <dcatUsSchemaLink>lược đồ DCAT</dcatUsSchemaLink> được thiết lập bởi Dự án Open Data, là cấu hình mặc định hoặc bạn có thể tự cấu hình một số trường/thuộc tính nhất định. Quản trị viên trang web cũng có thể thêm các cấu hình DCAT bổ sung và có thể đọc tài liệu của chúng tôi trên <catalogFederationLink>dữ liệu liên kết với DCAT và các danh mục bên ngoài khác.</catalogFederationLink>",
+      "uneditableAttributes": "@type, landingPage, webService và contactPoint['@type'].",
+      "verificationLabel": "Bạn có thể xác thực nguồn cấp DCAT bằng cách dán URL DCAT trang của bạn vào <dcatUsVerificationLink>Trình xác thực Dữ liệu Mở của Dự án</dcatUsVerificationLink>."
+    }
+  },
+  "dcat-ap": {
+    "2.1.1": {
+      "title": "DCAT-AP 2.1.1",
+      "description": "Được Ủy ban Châu Âu thiết lập, DCAT-AP là định dạng trao đổi siêu dữ liệu tiêu chuẩn trên toàn danh mục dữ liệu Châu Âu. ArcGIS Hub tự động tạo và cập nhật nguồn cấp DCAT-AP trên trang web của bạn khi bạn chỉnh sửa các thông tin chi tiết của siêu dữ liệu trong nội dung hoặc thêm nội dung công khai mới vào danh mục của bạn. Do nguồn cấp sử dụng siêu dữ liệu được lưu trữ trong ArcGIS Online, không cần tạo siêu dữ liệu DCAT-AP riêng theo cách thủ công.<lineBreak></lineBreak><lineBreak></lineBreak>Sử dụng trình biên tập này, bạn có thể giữ cấu hình <dcatApSchemaLink>lược đồ DCAT-AP</dcatApSchemaLink> mặc định của ArcGIS Hub, hoặc bạn có thể tự cấu hình các trường/thuộc tính nhất định. Bạn cũng có thể thêm trường/thuộc tính DCAT-AP. Để biết thêm thông tin chi tiết, vui lòng xem tài liệu của ArcGIS Hub trên <catalogFederationLink>dữ liệu liên kết với DCAT và các danh mục bên ngoài khác</catalogFederationLink>.",
+      "uneditableAttributes": "@type, @id, dcat:contactPoint['@id'], dcat:contactPoint['@type'], dct:publisher, dcat:theme, dct:accessRights, dcat:keyword, dct:provenance, dct:issued và dct:language",
+      "verificationLabel": "Bạn có thể xác thực nguồn cấp DCAT bằng cách dán URL DCAT trang của bạn vào <dcatApVerificationLink>Môi trường Kiểm thử Khả năng tương tác của Ủy ban Châu Âu</dcatApVerificationLink>."
+    }
+  },
+  "rss": {
+    "2.0": {
+      "title": "RSS 2.0",
+      "description": "<rssAboutLink>RSS 2</rssAboutLink> là một định dạng cung cấp nội dung trang web và tuân theo <xmlSpecLink>quy chuẩn kỹ thuật XML 1.0</xmlSpecLink>. Khi sử dụng trình biên tập này, bạn có thể giữ cấu hình mặc định của ArcGIS Hub hoặc bạn có thể tự cấu hình thuộc tính/trường nhất định. Để biết thêm thông tin chi tiết, vui lòng xem tài liệu của ArcGIS Hub trên <catalogFederationLink>dữ liệu liên kết với DCAT và các danh mục bên ngoài khác.</catalogFederationLink>",
+      "verificationLabel": "Bạn có thể xác thực nguồn cấp RSS của mình bằng cách đưa RSS URL của trang vào <rssVerificationLink>Trình xác thực Nguồn cấp</rssVerificationLink> W3."
+    }
+  },
+  "saveButton": "Lưu",
+  "alertMessages": {
+    "success": "Đã lưu thành công các chỉnh sửa",
+    "error": "Lỗi lưu các chỉnh sửa"
+  },
+  "formAlert": "Cảnh báo biểu mẫu"
+}

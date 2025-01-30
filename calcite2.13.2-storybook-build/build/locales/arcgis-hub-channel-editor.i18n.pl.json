@@ -1,0 +1,96 @@
+{
+  "unnamedChannel": "Kanał bez nazwy",
+  "name": {
+    "label": "Nazwa",
+    "placeholder": "Kanał {prefix}"
+  },
+  "save": "Zapisz",
+  "basicInfo": {
+    "label": "Informacje podstawowe"
+  },
+  "access": {
+    "private": {
+      "label": "Prywatny",
+      "description": "Mogą uczestniczyć wybrane grupy. Role moderatorów są automatycznie przypisywane menedżerom i właścicielom grup."
+    },
+    "organization": {
+      "label": "Moja instytucja",
+      "description": "Wszyscy członkowie, którzy mają konto w instytucji {orgName}, mogą uczestniczyć. Role moderatorów są automatycznie przypisywane administratorom instytucji i właścicielowi kanału. Właściciele kanałów mogą też dodawać grupy, których są członkami, klikając opcję „Dodaj grupę uczestników” poniżej.",
+      "disabledTooltip": "Tylko administratorzy instytucji mogą tworzyć kanały instytucji."
+    },
+    "public": {
+      "label": "Publiczny",
+      "description": "Mogą uczestniczyć wszyscy zalogowani użytkownicy. Role moderatorów są automatycznie przypisywane administratorom instytucji i właścicielowi kanału. Właściciele kanałów mogą też dodawać grupy, których są członkami, klikając opcję „Dodaj grupę uczestników” poniżej.",
+      "disabledTooltip": "Tylko administratorzy instytucji mogą tworzyć kanały publiczne."
+    },
+    "allowAsAnonymous": {
+      "label": "Zezwalaj na anonimowość (tylko zalogowani uczestnicy)",
+      "description": "Awatary, imiona i nazwiska oraz nazwy użytkowników osób, które mają konta, ale publikują anonimowo, nie będą dostępne."
+    },
+    "confirmation": {
+      "header": "Czy na pewno?",
+      "message": "Zapisanie tych zmian spowoduje usunięcie dostępu do edycji tego kanału. Tylko administratorzy instytucji mogą edytować kanały publiczne lub kanały instytucji.",
+      "secondary": "Anuluj",
+      "primary": "Potwierdź"
+    }
+  },
+  "participants": {
+    "label": "Uczestnicy",
+    "helperText": "Osoby, które mogą publikować wpisy, odpowiadać i dodawać reakcje dotyczące dyskusji.",
+    "none": "Nie ustalono uczestników",
+    "add": "Dodaj grupę uczestników"
+  },
+  "groupPicker": {
+    "title": "Wybierz grupy",
+    "facet": {
+      "label": "Od",
+      "myGroups": "Moje grupy",
+      "myOrganization": "Moja instytucja",
+      "myCommunity": "Moja społeczność"
+    }
+  },
+  "blockWords": {
+    "label": "Zblokowane słowa",
+    "helperText": "Lista wartości rozdzielanych przecinkami. Wpisy i odpowiedzi, które je zawierają, zostaną automatycznie ukryte."
+  },
+  "manage": {
+    "label": "Moderatorzy",
+    "helperText": "Automatyczne przypisywanie moderatorów zależy od wybranych uczestników. Właścicielom i menedżerom wszystkich dodatkowych grup dodanych do kanału są przypisywane role moderatorów. Moderatorzy mogą ukrywać i pokazywać wpisy, dodawać zablokowane słowa i edytować ustawienia kanału."
+  },
+  "manager": "Menedżer",
+  "admin": "Administrator",
+  "viewProfile": "Pokaż profil",
+  "alerts": {
+    "error": "Błąd podczas zapisywania kanału",
+    "success": "Pomyślnie zapisano kanał",
+    "label": "Alert dotyczący formularza"
+  },
+  "validations": {
+    "minChannelGroups": "Kanały prywatne wymagają co najmniej jednej grupy uczestników.",
+    "channelNameRequired": "Nazwa kanału jest wymagana",
+    "allowAsAnonymous": "Anonimowe publikowanie jest obsługiwane tylko na kanałach publicznych.",
+    "blockWords": "Wprowadź maksymalnie 20 zablokowanych słów/zwrotów (wpisy oddziela się przecinkami, duplikaty i puste wpisy nie są dozwolone)."
+  },
+  "notices": {
+    "edit": "Zmiany będą miały wpływ wszędzie tam, gdzie jest używany ten kanał",
+    "duplicate": {
+      "create": {
+        "error": {
+          "title": "Kanał nie został utworzony",
+          "message": "Kanał z tymi opcjami dostępu już istnieje. Użyj istniejącego kanału lub zmodyfikuj wybrane opcje."
+        }
+      },
+      "update": {
+        "error": {
+          "title": "Kanał nie został zaktualizowany",
+          "message": "Kanał z tymi opcjami dostępu już istnieje, więc nie możemy zapisać tych aktualizacji."
+        }
+      },
+      "action": "Użyj istniejącego kanału"
+    },
+    "inaccessibleGroups": {
+      "title": "Niedostępne grupy: {count}",
+      "message": "Tylko członek może wyświetlać niedostępne grupy i zarządzać nimi."
+    }
+  }
+}

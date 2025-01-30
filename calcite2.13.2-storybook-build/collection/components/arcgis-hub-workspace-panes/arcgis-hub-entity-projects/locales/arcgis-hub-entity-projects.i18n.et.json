@@ -1,0 +1,178 @@
+{
+  "projectsTitle": "Projektid",
+  "description": "Seostage panustavate projektidega, et jälgida edusamme täpsema aja või ruumi lõikes. Algatuse seoserühm haldab kinnitatud seoseid ja rahuldamata seosetaotlusi.",
+  "subDescription": "Kinnitatud seostega projektid ilmuvad selle algatuse vaates.",
+  "project": "projekt",
+  "initiative": "algatus",
+  "helpStates": {
+    "noAccess": {
+      "heading": "Juurdepääs puudub",
+      "message": "Teil pole seosegrupi vaatamise õigust."
+    },
+    "missingGroup": {
+      "heading": "Puuduv seosegrupp",
+      "message": {
+        "overview": "Seoserühm jälgib, millised projektid on algatusega seotud ja millised neist annavad aru.",
+        "members": "Selle rühma liikmed saavad saata või heaks kiita seosetaotlusi."
+      },
+      "action": "Loo grupp",
+      "formLabel": "Uus seosegrupp",
+      "description": "Looge ühenduste haldamiseks seosegrupp"
+    },
+    "requestsWaiting": {
+      "heading": "Puuduv seosegrupp",
+      "message": {
+        "overview": "Seoserühm jälgib, millised projektid on algatusega seotud ja millised neist annavad aru.",
+        "members": "Selle rühma liikmed saavad saata või heaks kiita seosetaotlusi.",
+        "requests": "Ootel projektitaotlused: {count}"
+      },
+      "action": "Loo grupp",
+      "formLabel": "Uus seosegrupp",
+      "description": "Looge ühenduste haldamiseks seosegrupp"
+    }
+  },
+  "shared": {
+    "project": "projekt",
+    "associationGroup": "seosegrupp",
+    "error": {
+      "title": "Midagi läks valesti",
+      "message": "Teil võib puududa piisav juurdepääsuõigus, et saata või hallata seost järgmise üksusega: {type}."
+    },
+    "facets": {
+      "access": {
+        "label": "Jagamine"
+      },
+      "status": {
+        "label": "Olek",
+        "notStarted": "Alustamata",
+        "inProgress": "Pooleli",
+        "onHold": "Ootel",
+        "complete": "Valmis"
+      },
+      "tags": {
+        "label": "Märksõnad"
+      }
+    },
+    "tabs": {
+      "projects": "Projektid",
+      "members": "Liikmed",
+      "settings": "Seaded"
+    },
+    "disabledActionTooltip": "Ainult grupi haldurid saavad hallata seost järgmise üksusega: {type}."
+  },
+  "createAssociationGroup": {
+    "defaultSummary": "Seosegrupi abil saate hallata üksusega {name} {type} seostatud üksusi."
+  },
+  "members": {
+    "facets": {
+      "role": {
+        "label": "Roll",
+        "all": "Kõik",
+        "manager": "Haldur",
+        "member": "Liige"
+      },
+      "dateJoined": {
+        "label": "Liitumise kuupäev"
+      }
+    },
+    "addMembers": {
+      "button": "Lisa liikmed",
+      "modal": {
+        "title": "Lisa liikmed",
+        "org": "Minu organisatsioon",
+        "community": "Minu kogukond",
+        "partner": "Minu partnerid",
+        "world": "Maailm"
+      },
+      "notifications": {
+        "invited": "Kutse saadetud. Liitumiseks peavad kasutajad andma nõusoleku",
+        "added": "Lisati kasutaja(d)",
+        "notInvited": "Mõnedel kasutajatel ei pruugi olla grupiga liitumiseks vajalikke õigusi või nad on juba suurimas lubatud arvus gruppides (512)."
+      }
+    },
+    "removeUsers": {
+      "button": "Eemalda",
+      "success": "Liikmed on grupist {groupName} eemaldatud.",
+      "error": "Üht või mitut kasutajat ei saanud grupist eemaldada."
+    },
+    "changeRole": {
+      "button": "Rolli muutmine",
+      "member": "Liige",
+      "memberHelperText": "Saab lisada ja näha sisu grupi piires.",
+      "tooltipText": "Tühistage enda ja/või grupi omaniku valik",
+      "tooltipLabel": "Rolli vastutuse välistamine",
+      "admin": "Haldur",
+      "adminHelperText": "Saab lisada/eemaldada sisu ja kutsuda/eemaldada inimesi (peale omaniku).",
+      "success": "Valitud liikmed muutuvad grupiks {role}.",
+      "error": "Ühe või mitme liikme rolli ei saanud muuta."
+    },
+    "stats": {
+      "total": {
+        "title": "Kokku",
+        "trailingText": "Liikmed"
+      },
+      "new": {
+        "title": "Uus",
+        "trailingText": "Viimased 30 päeva"
+      }
+    }
+  },
+  "projects": {
+    "requestAssociation": {
+      "findProjects": "Otsi projekte",
+      "sendRequest": "Saada taotlus",
+      "success": {
+        "title": "Õnnestus",
+        "message": "Saadetud seostamistaotlused: {count}"
+      },
+      "alreadyRequesting": {
+        "title": "Kontrolli seoseid",
+        "message": "Mõnel valikul on juba taotletud seoseid. Uued saadetud seostamistaotlused: {count}"
+      },
+      "catalog": {
+        "myContent": "Minu sisu",
+        "favorites": "Lemmikud",
+        "organization": "Organisatsioon",
+        "world": "Maailm (avalik)"
+      },
+      "collection": {
+        "projects": "Projektid"
+      }
+    },
+    "acceptAssociation": {
+      "label": "Aktsepteeri",
+      "success": {
+        "title": "Õnnestus",
+        "message": "Seostamine taotlejaga {requestor} on aktsepteeritud"
+      }
+    },
+    "cancelRequest": {
+      "label": "Tühista taotlus",
+      "success": {
+        "title": "Õnnestus",
+        "message": "Seostamistaotlus on tühistatud"
+      }
+    },
+    "breakAssociation": {
+      "label": "Katkesta ühendus",
+      "success": {
+        "title": "Seos on katkenud",
+        "message": "Oleme selle üksuse varasema seose katkestanud. Aga me ei saa tühistada teise poole otsust, nii et võite seda endiselt näha sissetulevate taotluste hulgas."
+      }
+    },
+    "associationsGallery": {
+      "sources": "Olek",
+      "catalog": {
+        "associated": "Seostatud",
+        "requesting": "Sissetulevad taotlused",
+        "pending": "Väljaminevad taotlused"
+      },
+      "collection": {
+        "projects": "Projektid"
+      }
+    }
+  },
+  "notice": {
+    "label": "Vormi hoiatus"
+  }
+}

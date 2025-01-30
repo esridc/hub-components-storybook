@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Hub Components</title>
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+        padding: 0;
+      }
+
+      calcite-notice {
+        margin-top: 4rem;
+      }
+
+      .row {
+        display: flex;
+        height: 88vh;
+      }
+
+      #discussion {
+        flex: 1;
+        overflow-y: scroll;
+      }
+
+      #map {
+        flex: 2;
+      }
+
+      arcgis-hub-map {
+        height: 100%;
+        width: 100%;
+      }
+
+      div.esri-ui-inner-container.esri-ui-corner-container arcgis-hub-map-widget-container {
+        box-shadow: none !important;
+      }
+
+    </style>
+
+    <script async src="https://ga.jspm.io/npm:es-module-shims@1.6.2/dist/es-module-shims.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+        }
+      }
+    </script>
+
+    <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+    <script type="module" src="../../build/hub-components.esm.js"></script>
+    <script nomodule src="../../build/hub-components.js"></script>
+    <script src="https://unpkg.com/@esri/arcgis-rest-request@3.4.3/dist/umd/request.umd.js"></script>
+    <script src="https://unpkg.com/@esri/arcgis-rest-auth@3.4.3/dist/umd/auth.umd.js"></script>
+    <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+    <link rel="stylesheet" href="../calcite-web.min.css" />
+  </head>
+
+  <body>
+    <arcgis-app-identity client-id="EF9uxuFlOrgf7WpI" redirect-uri="http://localhost:3333/html/redirect.html" portal="https://qaext.arcgis.com"> </arcgis-app-identity>
+    <harness-header page-title="Discussions Map Integrator"></harness-header>
+    <calcite-notice open kind="info" scale="s" width="full" icon>
+      <div slot="message">This component requires authentication to render. Please auth as juliana_pa on QA.</div>
+    </calcite-notice>
+    <div class="row" id="row">
+      <div id="discussion"></div>
+      <div id="map"></div>
+    </div>
+    <harness-header page-title="Discussions Map Integrator"></harness-header>
+    <script type="module">
+      import FeatureLayer from '@arcgis/core/layers/FeatureLayer.js';
+
+      function main() {
+        const discussionEl = document.createElement('arcgis-hub-discussions');
+        discussionEl.discussion = 'hub://content/d31ea62a42ec4d3081496ac2337c73f9';
+        discussionEl.isHub = false;
+
+        const container = document.getElementById('discussion');
+        container.appendChild(discussionEl);
+
+        const row = document.getElementById('row');
+        const mapIntegratorEl = document.createElement('arcgis-hub-discussions-map-integrator');
+        row.appendChild(mapIntegratorEl);
+
+        mapIntegratorEl.discussion = 'hub://content/d31ea62a42ec4d3081496ac2337c73f9';
+        mapIntegratorEl.isHub = false;
+        mapIntegratorEl.discussionsRef = discussionEl;
+        mapIntegratorEl.theme = {
+          callout: {
+            backgroundColor: [129, 93, 166],
+            textColor: [255, 255, 255],
+            hoverColor: [21, 5, 38],
+            activeColor: [191, 48, 60],
+            width: 2,
+          },
+          point: {
+            color: [129, 93, 166],
+            hoverColor: [21, 5, 38],
+            activeColor: [191, 48, 60],
+          },
+          polyline: {
+            color: [129, 93, 166],
+            hoverColor: [21, 5, 38],
+            activeColor: [191, 48, 60],
+          },
+          polygon: {
+            color: [129, 93, 166],
+            hoverColor: [21, 5, 38],
+            activeColor: [191, 48, 60],
+          },
+        };
+
+        const mapContainer = document.getElementById('map');
+        const mapEl = document.createElement('arcgis-hub-map');
+        mapEl.center = '-100.403206, 40.69862';
+        mapEl.zoom = '5';
+        mapEl.basemap = 'topo-vector';
+        mapContainer.appendChild(mapEl);
+
+        const searchWidgetContainer = document.createElement('arcgis-hub-map-widget-container');
+        searchWidgetContainer.viewPosition = 'top-right';
+        searchWidgetContainer.scale = 'm';
+        searchWidgetContainer.expandDisabled = true;
+        const searchWidget = document.createElement('arcgis-hub-map-widget-search');
+        searchWidget.scale = 'm';
+        searchWidgetContainer.appendChild(searchWidget);
+        mapEl.appendChild(searchWidgetContainer);
+
+        mapIntegratorEl.searchRef = searchWidget;
+
+        const drawWidgetContainer = document.createElement('arcgis-hub-map-widget-container');
+        drawWidgetContainer.viewPosition = 'top-right';
+        drawWidgetContainer.scale = 'm';
+        const drawWidget = document.createElement('arcgis-hub-map-widget-draw');
+        drawWidget.scale = 'm';
+        drawWidget.buffer = true;
+        drawWidget.enableMapTips = true;
+        drawWidgetContainer.appendChild(drawWidget);
+        mapEl.appendChild(drawWidgetContainer);
+
+        mapIntegratorEl.drawRef = drawWidget;
+
+        mapEl.addEventListener('arcgisHubMapViewReady', async event => {
+          const {
+            detail: { view },
+          } = event;
+          view.ui.components = [];
+          [searchWidgetContainer, searchWidget, drawWidgetContainer, drawWidget].forEach(el => {
+            el.view = view;
+          });
+
+          const fLayer = new FeatureLayer('https://servicesqa.arcgis.com/Xj56SBi2udA78cC9/arcgis/rest/services/Major_Sport_Venues/FeatureServer/0');
+          view.map.add(fLayer);
+          fLayer.when(() => {
+            mapIntegratorEl.view = view;
+          });
+        });
+      }
+
+      main();
+    </script>
+  </body>
+</html>

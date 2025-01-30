@@ -1,0 +1,49 @@
+{
+  "settings": "Settings",
+  "advanced": "Advanced",
+  "delete": {
+    "event": "Delete this event",
+    "desc": "Deleting this event cannot be undone. Existing registrants will be notified (if automatic notifications are enabled for the event).",
+    "deleteButton": "Delete event"
+  },
+  "cancel": {
+    "header": "Cancel this event",
+    "desc": "If canceled, the event will remain visible with a canceled status. Registration will halt and existing registrants will be notified (if automatic notifications are enabled for the event).",
+    "event": "Cancel event",
+    "notice": {
+      "success": {
+        "title": "Event cancelled",
+        "message": "Existing registrants will be notified if automatic notifications are enabled."
+      },
+      "error": {
+        "title": "Could not cancel event",
+        "message": "Please try again"
+      }
+    }
+  },
+  "enable": {
+    "event": "Re-enable event",
+    "desc": "Event canceled (visible with a canceled status).",
+    "notice": {
+      "success": {
+        "title": "Event re-enabled",
+        "message": "Existing registrants will be notified if automatic notifications are enabled."
+      },
+      "error": {
+        "title": "Could not re-enable event",
+        "message": "Please try again"
+      }
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "event": "Delete event"
+    },
+    "content": "Are you sure you want to delete:",
+    "delete": "Delete event",
+    "cancel": "Cancel event"
+  },
+  "notice": {
+    "label": "Form alert"
+  }
+}

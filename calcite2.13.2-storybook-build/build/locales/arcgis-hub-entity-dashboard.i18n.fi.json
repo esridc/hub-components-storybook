@@ -1,0 +1,20 @@
+{
+  "dashboard": "Koontinäyttö",
+  "activityLogSection": {
+    "title": "Tapahtumaloki",
+    "table": {
+      "downloadAction": "Lataa",
+      "downloadAllAction": "Lataa kaikki",
+      "downloadActionTooltip": "Lataa valitut toiminnot",
+      "caption": "Viimeisimmät virheet -taulu",
+      "columnHeaders": {
+        "datetime": "Päivämäärä",
+        "layer": "Karttataso",
+        "message": "Viesti"
+      },
+      "noRecentErrors": "Ei viimeisimpiä virheitä",
+      "expandText": "Näytä enemmän",
+      "collapseText": "Näytä vähemmän"
+    }
+  }
+}

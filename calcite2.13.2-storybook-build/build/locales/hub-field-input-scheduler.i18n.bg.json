@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "Автоматизиран от Hub",
+      "actionText": "Опция за автоматична информация"
+    },
+    "daily": {
+      "defaultLabel": "Ежедневно",
+      "defaultExpandedHelperText": "Всеки ден в избрания час в избраната часова зона.",
+      "actionText": "Опция за ежедневна информация"
+    },
+    "weekly": {
+      "defaultLabel": "Седмично",
+      "defaultExpandedHelperText": "Всяка седмица на следния ден и час в избраната часова зона",
+      "actionText": "Опция за ежеседмична информация"
+    },
+    "monthly": {
+      "defaultLabel": "Месечно",
+      "defaultExpandedHelperText": "Всеки месец на следния ден и час в избраната часова зона",
+      "actionText": "Опция за ежемесечна информация"
+    },
+    "yearly": {
+      "defaultLabel": "Годишно",
+      "defaultExpandedHelperText": "Всяка година през следния месец, ден и час в избраната часова зона",
+      "actionText": "Опция за ежегодна информация"
+    },
+    "manual": {
+      "defaultLabel": "Ръчно",
+      "defaultExpandedHelperText": "Използвайте тази опция, ако искате ръчно да актуализирате индекса за търсене и кешираните файлове за изтегляне за този елемент.",
+      "actionText": "Опция за ръчна информация"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "Час от деня",
+      "inputMessage": "Времето ще бъде закръглено до най-близкия кръгъл час.",
+      "error": "Моля, изберете час"
+    },
+    "day": {
+      "helperText": "Ден от седмицата",
+      "daysOfTheWeek": {
+        "sunday": "Неделя",
+        "monday": "Понеделник",
+        "tuesday": "Вторник",
+        "wednesday": "Сряда",
+        "thursday": "Четвъртък",
+        "friday": "Петък",
+        "saturday": "Събота"
+      },
+      "selectLabel": "Избор на ден от седмицата",
+      "error": "Моля, изберете ден от седмицата."
+    },
+    "date": {
+      "helperText": "Ден от месеца",
+      "inputNumberPlaceholder": "Изберете ден от месеца",
+      "inputMessage": "Въведете стойност от 1 до 28 за ден от месеца.",
+      "error": "Денят от месеца трябва да е между 1 и 28."
+    },
+    "month": {
+      "helperText": "Месец от годината",
+      "selectLabel": "Избор на месец от годината",
+      "monthsOfTheYear": {
+        "january": "Януари",
+        "february": "Февруари",
+        "march": "Март",
+        "april": "Април",
+        "may": "Май",
+        "june": "Юни",
+        "july": "Юли",
+        "august": "Август",
+        "september": "Септември",
+        "october": "Октомври",
+        "november": "Ноември",
+        "december": "Декември"
+      },
+      "error": "Моля, изберете месец."
+    },
+    "timezone": {
+      "helperText": "Часова зона",
+      "error": "Моля, изберете часова зона."
+    }
+  },
+  "fieldHeader": "Честота"
+}

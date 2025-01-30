@@ -1,0 +1,59 @@
+{
+  "title": "Thành viên",
+  "facets": {
+    "role": {
+      "label": "Vai trò",
+      "all": "Tất cả",
+      "manager": "Người quản lý",
+      "member": "Thành viên"
+    },
+    "dateJoined": {
+      "label": "Ngày gia nhập"
+    }
+  },
+  "stats": {
+    "total": {
+      "title": "Tổng",
+      "trailingText": "Thành viên nhóm"
+    },
+    "new": {
+      "title": "Mới",
+      "trailingText": "30 ngày trước"
+    }
+  },
+  "addMembers": {
+    "button": "Thêm thành viên",
+    "disabledTooltip": "Bạn không có quyền truy cập để thêm người dùng vào nhóm này.",
+    "modal": {
+      "title": "Thêm thành viên",
+      "org": "Tổ chức của tôi",
+      "community": "Cộng đồng của tôi",
+      "partner": "Đối tác của tôi",
+      "world": "Thế giới"
+    },
+    "notifications": {
+      "invited": "Đã gửi lời mời. Người dùng phải chấp nhận để tham gia",
+      "added": "Đã thêm người dùng",
+      "notInvited": "Một số người dùng có thể không có quyền cần thiết để tham gia nhóm hoặc nhóm có thể đã đạt giới hạn tối đa (512)"
+    }
+  },
+  "removeUsers": {
+    "button": "Xóa",
+    "success": "Đã xóa thành công thành viên ra khỏi {groupName}.",
+    "error": "Không thể xóa một hoặc nhiều người dùng ra khỏi nhóm."
+  },
+  "changeRole": {
+    "tooltipText": "Bỏ chọn chính bạn và/hoặc chủ sở hữu nhóm",
+    "tooltipLabel": "Miễn trừ trách nhiệm vai trò",
+    "button": "Thay đổi vai trò",
+    "member": "Thành viên",
+    "memberHelperText": "Có thể thêm và xem nội dung trong nhóm.",
+    "admin": "Người quản lý",
+    "adminHelperText": "Có thể thêm/xóa nội dung và mời/xóa người (ngoại trừ chủ sở hữu).",
+    "success": "Thành viên được chọn trở thành {role} nhóm.",
+    "error": "Không thể thay đổi vai trò của một hoặc nhiều thành viên."
+  },
+  "notice": {
+    "label": "Cảnh báo biểu mẫu"
+  }
+}

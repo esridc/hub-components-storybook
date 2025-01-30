@@ -1,0 +1,1346 @@
+{
+  "success": "Pakeitimai įrašyti sėkmingai",
+  "error": "Klaida išsaugant pakeitimus",
+  "formAlert": "Formos įspėjimas",
+  "create": "Sukurti",
+  "shared": {
+    "notices": {
+      "metrics": {
+        "preview": {
+          "label": "Peržiūrėkite savo metriką",
+          "message": "Čia atlikti pakeitimai bus rodomi metrikos peržiūroje."
+        }
+      }
+    },
+    "sections": {
+      "metrics": {
+        "basic": {
+          "label": "Pagrindinė informacija"
+        },
+        "source": {
+          "label": "Reikšmė"
+        },
+        "formatting": {
+          "label": "Formatavimas"
+        },
+        "sharing": {
+          "label": "Bendrinimas"
+        }
+      },
+      "mapSettings": {
+        "label": "Žemėlapio nuostatos"
+      }
+    },
+    "errors": {
+      "urlFormat": "URL formatavimas netinkamas"
+    },
+    "fields": {
+      "name": {
+        "maxLengthError": "Pavadinimas neturi viršyti 250 simbolių"
+      },
+      "title": {
+        "maxLengthError": "Pavadinimas neturi viršyti 250 simbolių"
+      },
+      "summary": {
+        "maxLengthError": "Santrauka neturi viršyti 2 048 simbolių"
+      },
+      "purpose": {
+        "maxLengthError": "Tikslo aprašas neturi viršyti 2 048 simbolių"
+      },
+      "_thumbnail": {
+        "label": "Miniatiūra",
+        "sizeDescription": "Didžiausias dydis yra 10 mb. Rekomenduojami matmenys: 760 x 505 arba didesni",
+        "defaultThumbnailNotice": "Nusiųskite savo miniatiūrą, kad pakeistumėte numatytąją."
+      },
+      "location": {
+        "none": "Nėra vietos",
+        "org": "Organizacijos aprėptis",
+        "custom": "Pasirinktinė vieta",
+        "customDescription": "Brėžkite vieną ar daugiau buvimo vietų",
+        "itemExtent": "Dabartinė elemento aprėptis"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Tipas",
+          "sharing": "Bendrinimas"
+        },
+        "catalog": {
+          "myContent": "Mano turinys",
+          "favorites": "Mėgstami",
+          "organization": "Organizacija",
+          "world": "Pasaulis (viešai)"
+        },
+        "collection": {
+          "appsAndMaps": "Programėlės ir žemėlapiai",
+          "dataset": "Duomenys",
+          "documents": "Dokumentai",
+          "feedback": "Atsiliepimai",
+          "sites": "Svetainės",
+          "projects": "Projektai"
+        }
+      },
+      "metrics": {
+        "allowDynamicLink": {
+          "label": "Rodyti šaltinio nuorodą"
+        },
+        "cardTitle": {
+          "label": "Pavadinimas",
+          "message": {
+            "required": "Šį lauką užpildyti būtina."
+          }
+        },
+        "dynamicMetric": {
+          "label": "Duomenų šaltinis"
+        },
+        "value": {
+          "label": "Reikšmė",
+          "message": {
+            "required": "Šį lauką užpildyti būtina."
+          }
+        },
+        "unit": {
+          "label": "Vienetai",
+          "helperText": "Naudokite, kad nustatytumėte prefikso arba postfikso reikšmę, pavyzdžiui, %, +, $ ir kt. Norėdami, kad informacija nebūtų rodoma, palikite tuščią."
+        },
+        "unitPosition": {
+          "label": "Vieneto pozicija",
+          "helperText": "Pasirinkite, kur rodomas matavimo vienetas (pvz., km, sv.) metrikos reikšmės atžvilgiu.",
+          "enum": {
+            "after": {
+              "label": "Po reikšmės"
+            },
+            "before": {
+              "label": "Prieš reikšmę"
+            },
+            "below": {
+              "label": "Žemiau reikšmės"
+            }
+          }
+        },
+        "showShareIcon": {
+          "label": "Įgalinti bendrinimą",
+          "helperText": {
+            "label": "Leiskite naudotojams nukopijuoti tiesioginę nuorodą į šią metriką."
+          }
+        },
+        "shareableOnHover": {
+          "label": "Rodyti užvedus žymeklį",
+          "helperText": {
+            "label": "Bendrinimo mygtukas rodomas tik užvedus žymeklį. Išjungus, mygtukas bus visada matomas."
+          }
+        },
+        "sourceLink": {
+          "label": "Nuorodos URL",
+          "message": {
+            "required": "Kad būtų rodomas šaltinis, būtina nuoroda."
+          }
+        },
+        "sourceTitle": {
+          "label": "Nuorodos tekstas"
+        },
+        "trailingText": {
+          "label": "Tekstas pabaigoje",
+          "helperText": "Įveskite ber kokią papildomą konteksto informaciją arba paaiškinimą (bus rodoma po metrikos reikšme)."
+        },
+        "type": {
+          "label": "Tipas",
+          "enum": {
+            "dynamic": {
+              "label": "Dinaminis",
+              "description": "Pasirinkite esamą duomenų rinkinį (elementų paslaugą), kurį norite apibendrinti."
+            },
+            "static": {
+              "label": "Statinis",
+              "description": "Rankiniu būdu įveskite reikšmę, kurią norite paryškinti savo makete."
+            }
+          }
+        },
+        "valueType": {
+          "label": "Reikšmės tipas",
+          "helperText": "Pasirinkite reikšmės, kurią norite parodyti, tipą.",
+          "enum": {
+            "string": {
+              "label": "Tekstas",
+              "description": "Bet koks žodis ar frazė. Neskirta naudoti skaitiniams skaičiavimams. (pvz., „Pagrindinė gatvė“)"
+            },
+            "number": {
+              "label": "Skaičius",
+              "description": "Skaitinė reikšmė. Galima naudoti skaičiavimams. (pavyzdžiui, 123)"
+            },
+            "date": {
+              "label": "Data",
+              "description": "Kalendorinės datos reikšmė. Neskirta naudoti skaitiniams skaičiavimams. (pvz., „2018-1-1“)"
+            }
+          }
+        }
+      },
+      "categories": {
+        "label": "Kategorijos",
+        "noCategoriesNotice": {
+          "body": "Ši organizacija dar neturi jokių kategorijų.",
+          "link": "Nustatyti kategorijas"
+        }
+      },
+      "download": {
+        "format": {
+          "bip": "BIP",
+          "bmp": "BMP",
+          "bsq": "BSQ",
+          "gif": "GIF",
+          "jpg": "JPG",
+          "jpgPng": "JPG_PNG",
+          "lerc": "LERC",
+          "png": "PNG",
+          "png8": "PNG8",
+          "png24": "PNG24",
+          "png32": "PNG32",
+          "tiff": "TIFF",
+          "csv": "CSV",
+          "excel": "Excel",
+          "featureCollection": "Elementų rinkinys",
+          "filegdb": "Failinė geoduomenų bazė",
+          "geojson": "GeoJSON",
+          "geoPackage": "GeoPackage",
+          "json": "JSON",
+          "kml": "KML",
+          "shapefile": "Shapefile",
+          "sqlite": "SQLite geoduomenų bazė"
+        },
+        "additionalResource": "{resourceName} (metaduomenų paskirstymas)",
+        "dataSourceResource": "Duomenų šaltinis (metaduomenų paskirstymas)",
+        "noTitleResource": "Nuoroda (nėra pavadinimo, metaduomenų paskirstymas)"
+      }
+    }
+  },
+  "project": {
+    "sections": {
+      "details": {
+        "label": "Išsamiau"
+      },
+      "basicInfo": {
+        "label": "Pagrindinė informacija"
+      },
+      "location": {
+        "label": "Vieta",
+        "helperText": "Pažymėkite geografinę teritoriją, kurioje bus vykdomas šis projektas (bus pateikta projekto makete)."
+      },
+      "status": {
+        "label": "Būsena"
+      },
+      "sharing": {
+        "label": "Bendrinimas"
+      },
+      "timeline": {
+        "label": "Laiko juosta"
+      },
+      "searchDiscoverability": {
+        "label": "Paieška ir aptinkamumas"
+      },
+      "featuredContent": {
+        "label": "Rekomenduojamas turinys",
+        "helperText": "Pažymėkite konkrečius su projektu susijusius dokumentus, programas ir duomenis. Galite pateikti ne daugiau kaip 4 elementus."
+      },
+      "callToAction": {
+        "label": "Veiksmų nuorodos",
+        "helperText": "Tai bus rodoma jūsų projekto viršuje aiškiai matomo mygtuko pavidalu. Tokiu būdu galite nukreipti savo auditoriją į svetainę, apklausą, žemėlapį ir pan."
+      },
+      "embeds": {
+        "label": "Įterpiamas pristatymas",
+        "helperText": "Pasirinkite internetinį žemėlapį, internetinę sceną ar programą, kurią norite išskirti savo projekte."
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Projekto pavadinimas",
+        "requiredError": "Projekto pavadinimas yra būtinas laukas",
+        "maxLengthError": "Projekto pavadinimas neturi viršyti 250 simbolių",
+        "entityTitleValidatorError": "Projekto pavadinime negali būti jausmaženklių, simbolių <, >, arba ="
+      },
+      "description": {
+        "label": "Aprašas",
+        "helperText": "Nurodykite, kaip jūsų projektas padės įgyvendinti šiuos tikslus. Apsvarstykite galimybę įtraukti svarbią pagrindinę informaciją ir numatomus projekto pokyčius."
+      },
+      "summary": {
+        "label": "Paskirtis",
+        "helperText": "Trumpai apibūdinkite savo projekto tikslus."
+      },
+      "access": {
+        "itemType": "Projektas"
+      },
+      "groups": {
+        "label": "Bendrinti su...",
+        "viewGroup": "(Peržiūrėti grupę)",
+        "editGroup": "(Redaguoti grupę)"
+      },
+      "_thumbnail": {
+        "helperText": "Nustatykite miniatiūrą, kuri nurodys šį projektą „ArcGIS Online“, paieškoje ir galerijose."
+      },
+      "featuredImage": {
+        "label": "Rekomenduojamas paveikslėlis",
+        "helperText": "Norėdami pristatyti savo darbą projekto makete, pasirinkite paveikslėlį.",
+        "sizeDescription": "Maks. failo dydis yra 10 mb. Rekomenduojami matmenys: 718 x 478 arba didesni",
+        "altText": {
+          "label": "Alternatyvusis tekstas",
+          "helperText": "Pateikite trumpą paveikslėlio aprašymą tiems, kurie naudojasi ekrano skaitytuvais. Jei paveikslėlis tik puošybinis, palikite tuščią."
+        }
+      },
+      "slug": {
+        "label": "Kintamųjų duomenų laukas",
+        "helperText": "Kintamųjų duomenų laukas – tai URL adresą atitinkanti projekto pavadinimo versija. Jis sugeneruojamas automatiškai, remiantis projekto pavadinimu, bet jį galite adaptuoti.",
+        "patternError": "Klaida: kintamųjų duomenų laukas turi būti sudarytas iš mažųjų raidinių ir skaitinių simbolių, atskirtų brūkšniais.",
+        "isUniqueError": "Šis kintamųjų duomenų laukas jau naudojamas. Pasirinkite kitą."
+      },
+      "tags": {
+        "label": "Raktažodžiai",
+        "helperText": "Paieškos kataloguose naudojamos žymos padės kitiems surasti šį projektą. Norėdami sukurti naujas žymas, pridėkite tekstą ir paspauskite Enter."
+      },
+      "categories": {
+        "helperText": "Kategorijos naudojamos paieškos kataloguose, kad kiti galėtų rasti šį projektą. Jas nustato jūsų organizacija."
+      },
+      "status": {
+        "label": "Projekto būsena",
+        "enum": {
+          "notStarted": {
+            "label": "Nepradėta"
+          },
+          "inProgress": {
+            "label": "Vykdoma"
+          },
+          "onHold": {
+            "label": "Sulaikyta"
+          },
+          "complete": {
+            "label": "Baigta"
+          }
+        }
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Tipas",
+          "sharing": "Bendrinimas"
+        }
+      },
+      "callToAction": {
+        "facets": {
+          "type": "Tipas",
+          "sharing": "Bendrinimas"
+        }
+      },
+      "mapSettings": {
+        "label": "Sukonfigūruokite, kaip projekte bus rodomas žemėlapis"
+      }
+    }
+  },
+  "initiative": {
+    "sections": {
+      "details": {
+        "label": "Išsamiau"
+      },
+      "basicInfo": {
+        "label": "Pagrindinė informacija"
+      },
+      "location": {
+        "label": "Vieta",
+        "helperText": "Pažymėkite geografinę teritoriją, kurioje bus vykdoma ši iniciatyva (bus pateikta iniciatyvos makete)."
+      },
+      "sharing": {
+        "label": "Bendrinimas"
+      },
+      "featuredContent": {
+        "label": "Rekomenduojamas turinys",
+        "helperText": "Pažymėkite konkrečius su projektu susijusius dokumentus, programas ir duomenis. Galite pateikti ne daugiau kaip 4 elementus."
+      },
+      "status": {
+        "label": "Būsena"
+      },
+      "hero": {
+        "label": "Hero"
+      },
+      "searchDiscoverability": {
+        "label": "Paieška ir aptinkamumas"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Iniciatyvos pavadinimas",
+        "requiredError": "Iniciatyvos pavadinimas yra būtinas laukas",
+        "maxLengthError": "Iniciatyvos pavadinimas neturi viršyti 250 simbolių",
+        "entityTitleValidatorError": "Iniciatyvos pavadinime negali būti jausmaženklių, simbolių <, >, arba ="
+      },
+      "summary": {
+        "label": "Paskirtis",
+        "helperText": "Trumpai apibūdinkite savo iniciatyvos tikslus."
+      },
+      "access": {
+        "itemType": "Iniciatyva"
+      },
+      "description": {
+        "label": "Aprašas",
+        "helperText": "Nurodykite, kaip bus pasiekti jūsų iniciatyvos tikslai. Apsvarstykite galimybę įtraukti svarbią pagrindinę informaciją ir numatomus iniciatyvos nulemtus pokyčius."
+      },
+      "slug": {
+        "label": "Kintamųjų duomenų laukas",
+        "helperText": "Kintamųjų duomenų laukas – tai URL adresą atitinkanti iniciatyvos pavadinimo versija. Jis sugeneruojamas automatiškai, remiantis iniciatyvos pavadinimu, bet jį galite adaptuoti.",
+        "patternError": "Klaida: kintamųjų duomenų laukas turi būti sudarytas iš mažųjų raidinių ir skaitinių simbolių, atskirtų brūkšniais.",
+        "isUniqueError": "Šis kintamųjų duomenų laukas jau naudojamas. Pasirinkite kitą."
+      },
+      "tags": {
+        "label": "Raktažodžiai",
+        "helperText": "Žymos naudojamos paieškos kataloguose, siekiant padėti kitiems rasti šią iniciatyvą. Norėdami sukurti naujas žymas, pridėkite tekstą ir paspauskite Enter."
+      },
+      "categories": {
+        "helperText": "Kategorijos naudojamos paieškos kataloguose, siekiant padėti kitiems rasti šią iniciatyvą. Jas nustato jūsų organizacija."
+      },
+      "_thumbnail": {
+        "helperText": "Nustatykite miniatiūrą, kuri nurodys šią iniciatyvą ArcGIS Online, paieškoje ir galerijose."
+      },
+      "groups": {
+        "label": "Bendrinti su...",
+        "viewGroup": "(Peržiūrėti grupę)",
+        "editGroup": "(Redaguoti grupę)"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "Tipas",
+          "sharing": "Bendrinimas"
+        }
+      },
+      "status": {
+        "label": "Iniciatyvos būsena",
+        "enum": {
+          "notStarted": {
+            "label": "Nepradėta"
+          },
+          "inProgress": {
+            "label": "Vykdoma"
+          },
+          "onHold": {
+            "label": "Sulaikyta"
+          },
+          "complete": {
+            "label": "Baigta"
+          }
+        }
+      },
+      "hero": {
+        "label": "Hero",
+        "helperText": "Herojaus puslapio dalis rodoma virš jūsų iniciatyvos pavadinimo ir joje gali būti žemėlapis arba vaizdas.",
+        "map": {
+          "label": "Žemėlapis",
+          "description": "Žemėlapyje galite parodyti iniciatyvos tikslinę sritį, nurodydami iniciatyvos vietą arba susijusius projektus."
+        },
+        "image": {
+          "label": "Paveikslėlis",
+          "description": "Patrauklus vaizdas gali padėti žmonėms palaikyti ryšį arba imtis veiksmų siekiant numatyto tikslo."
+        }
+      },
+      "featuredImage": {
+        "label": "Paveikslėlis",
+        "helperText": "Savo herojaus puslapio dalyje naudokite horizontalų vaizdą. Programa proporcingai pakoreguos vaizdo dydį nuo vaizdo centro, kad pritaikytų jį skirtingo dydžio ekranams. Dideliuose ekranuose maksimalus aukštis bus 475 pikseliai.",
+        "sizeDescription": "Maks. failo dydis yra 10 MB.",
+        "altText": {
+          "label": "Alternatyvusis tekstas",
+          "helperText": "Pateikite trumpą vaizdo aprašymą tiems, kurie naudojasi ekrano skaitytuvais. Jei vaizdas tik puošybinis, palikite tuščią."
+        }
+      },
+      "groupAccess": {
+        "label": "Nustatyti matomumą",
+        "helperText": "Valdykite, kas gali matyti šios iniciatyvos sukurtas asociacijas",
+        "private": {
+          "label": "Privati",
+          "description": "Iniciatyvos savininkas ir prieigą turinčios grupės gali matyti grupę"
+        },
+        "org": {
+          "label": "Organizacija",
+          "description": "Visi nariai, turintys paskyrą iniciatyvos organizacijoje, ir prieigą turinčios grupės gali matyti grupę"
+        },
+        "public": {
+          "label": "Vieša",
+          "description": "Grupę gali matyti visi"
+        }
+      },
+      "membershipAccess": {
+        "label": "Kas gali būti šioje grupėje?",
+        "org": "Tik mano organizacijos nariai",
+        "collab": "Tik bendradarbiavimo partneriai ir mano organizacijos nariai",
+        "any": "Visi organizacijos nariai (siūlomas numatasis nustatymas)"
+      },
+      "includeInCatalog": {
+        "label": "Įtraukti į katalogą",
+        "helperText": "Jei įjungta, visi susiję elementai bus rodomi kartu su kitu turiniu iniciatyvos paieškos kataloge."
+      },
+      "mapSettings": {
+        "label": "Sukonfigūruokite, kaip iniciatyvoje bus rodomas žemėlapis"
+      }
+    }
+  },
+  "discussion": {
+    "sections": {
+      "details": {
+        "label": "Išsamiau"
+      },
+      "basicInfo": {
+        "label": "Pagrindinė informacija"
+      },
+      "location": {
+        "label": "Vieta",
+        "helperText": "Pridėkite geografinę sritį, kad nustatytumėte diskusijos ribą ir numatytąjį žemėlapio mastelį, kad diskusija būtų tikslesnė."
+      },
+      "settings": {
+        "label": "Diskusijos"
+      },
+      "searchDiscoverability": {
+        "label": "Paieška ir aptinkamumas"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Pavadinimas",
+        "requiredError": "Diskusijų lentos pavadinimas yra būtinas.",
+        "entityTitleValidatorError": "Diskusijos pavadinime negali būti jausmaženklių, simbolių <, >, arba ="
+      },
+      "prompt": {
+        "label": "Įveskite",
+        "helperText": "Trumpai aprašykite, ką dalyviai gali pateikti šioje diskusijų lentoje.",
+        "requiredError": "Šį lauką užpildyti būtina",
+        "maxLengthError": "Įrašas neturi būti ilgesnis kaip 150 simbolių"
+      },
+      "description": {
+        "label": "Aprašas",
+        "helperText": "Pateikite daugiau konteksto, kuris gali būti naudingas ieškant šios lentos."
+      },
+      "_thumbnail": {
+        "helperText": "Pasirinkite vaizdą, kuris nurodys jūsų diskusiją."
+      },
+      "summary": {
+        "label": "Santrauka",
+        "helperText": "Trumpai aprašykite šios diskusijų lentos tikslą, kuris gali būti naudingas dalijantis nuoroda su kitais."
+      },
+      "featuredImage": {
+        "label": "Rekomenduojamas paveikslėlis",
+        "sizeDescription": "Maks. dydis – 10 MB. Formatai – JPEG, JPG arba PNG",
+        "altText": {
+          "label": "Alternatyvusis tekstas",
+          "helperText": "Pateikite trumpą paveikslėlio aprašymą tiems, kurie naudojasi ekrano skaitytuvais. Jei paveikslėlis tik puošybinis, palikite tuščią."
+        },
+        "name": {
+          "label": "Vaizdo pavadinimas"
+        }
+      },
+      "slug": {
+        "label": "Kintamųjų duomenų laukas",
+        "helperText": "Kintamųjų duomenų laukas – tai URL adresą atitinkanti diskusijos pavadinimo versija. Jis sugeneruojamas automatiškai, remiantis diskusijos pavadinimu, bet jį galite adaptuoti.",
+        "patternError": "Klaida: kintamųjų duomenų laukas turi būti sudarytas iš mažųjų raidinių ir skaitinių simbolių, atskirtų brūkšniais.",
+        "isUniqueError": "Šis kintamųjų duomenų laukas jau naudojamas. Pasirinkite kitą."
+      },
+      "tags": {
+        "label": "Raktažodžiai"
+      },
+      "categories": {
+        "helperText": "Kategorijos naudojamos paieškos kataloguose, kad kiti galėtų rasti šią diskusiją. Jas nustato jūsų organizacija."
+      },
+      "discussable": {
+        "label": "Diskusija leidžiama?",
+        "enabled": {
+          "label": "Taip, diskusija leidžiama",
+          "description": "Dalyviai šioje diskusijų lentoje gali pateikti įrašus, atsakymus ir reakcijas."
+        },
+        "disabled": {
+          "label": "Ne, diskusija užblokuota",
+          "description": "Panaikina galimybę įtraukti naujus įrašus, atsakymus ir reakcijas. Neištrina ankstesnio dalyvavimo"
+        }
+      },
+      "mapSettings": {
+        "label": "Sukonfigūruokite, kaip diskusijų lentoje bus rodomas žemėlapis"
+      }
+    }
+  },
+  "site": {
+    "sections": {
+      "defaultRequiredHelperText": "* Nurodo būtiną lauką",
+      "basicInfo": {
+        "label": "Pagrindinė informacija"
+      },
+      "location": {
+        "label": "Vieta",
+        "helperText": "Pažymėkite geografinę teritoriją, kuriai priklauso šis puslapis."
+      },
+      "discussions": {
+        "label": "Diskusijos"
+      },
+      "privacy": {
+        "label": "Privatumo konfigūracija"
+      },
+      "siteUrl": {
+        "label": "Svetainės URL"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Svetainės pavadinimas",
+        "requiredError": "Svetainės pavadinimas yra būtinas laukas",
+        "maxLengthError": "Svetainės pavadinimas neturi viršyti 250 simbolių",
+        "siteEntityTitleValidatorError": "Svetainės pavadinime negali būti jausmaženklių arba unikodo simbolių"
+      },
+      "_thumbnail": {
+        "helperText": "Nustatykite miniatiūrą, kuri nurodys šią svetainę ArcGIS Online, paieškoje ir galerijose."
+      },
+      "description": {
+        "label": "Aprašas",
+        "helperText": "Svetainės aprašas."
+      },
+      "summary": {
+        "label": "Santrauka",
+        "helperText": "Pateikite trumpą svetainės santrauką."
+      },
+      "slug": {
+        "label": "Kintamųjų duomenų laukas",
+        "helperText": "Kintamųjų duomenų laukas – tai URL adresą atitinkanti svetainės pavadinimo versija. Jis sugeneruojamas automatiškai, remiantis svetainės pavadinimu, bet jį galite adaptuoti.",
+        "patternError": "Klaida: kintamųjų duomenų laukas turi būti sudarytas iš mažųjų raidinių ir skaitinių simbolių, atskirtų brūkšniais.",
+        "isUniqueError": "Šis kintamųjų duomenų laukas jau naudojamas. Pasirinkite kitą."
+      },
+      "tags": {
+        "label": "Raktažodžiai",
+        "helperText": "Paieškos kataloguose naudojamos žymos padės kitiems surasti šią svetainę. Norėdami sukurti naujas žymas, pridėkite tekstą ir paspauskite Enter."
+      },
+      "categories": {
+        "helperText": "Kategorijos naudojamos paieškos kataloguose, kad kiti galėtų rasti šią svetainę. Jas nustato jūsų organizacija."
+      },
+      "discussable": {
+        "label": "Rodo diskusijų sąsają, skirtą prisijungusiems naudotojams veikiančiose svetainėse (įjungta pagal numatytuosius nustatymus)",
+        "enabled": {
+          "label": "Taip, diskusija leidžiama",
+          "description": "Rodyti diskusijų sąsają"
+        },
+        "disabled": {
+          "label": "Ne, diskusija užblokuota",
+          "description": "Nerodyti diskusijų sąsajos"
+        }
+      },
+      "followers": {
+        "groupAccess": {
+          "label": "Nustatyti matomumą",
+          "helperText": "Valdykite, kas gali matyti stebėjimo mygtukus. Šis parametras taikomas ir puslapyje vykstančio veiksmo stebėjimo mygtukui, ir bet kuriam stebėjimo mygtukui, įdėtam tiesiai į maketą.",
+          "private": {
+            "label": "Privati",
+            "description": "Svetainės savininkas ir prieigą turinčios grupės gali matyti stebėjimo mygtukus"
+          },
+          "org": {
+            "label": "Organizacija",
+            "description": "Visi nariai, turintys paskyrą svetainės organizacijoje, ir prieigą turinčios grupės gali matyti stebėjimo mygtukus"
+          },
+          "public": {
+            "label": "Vieša",
+            "description": "Visi gali matyti stebėjimo mygtukus"
+          }
+        },
+        "showFollowAction": {
+          "label": "Stebėjimo veiksmas",
+          "helperText": "Įtraukite stebėjimo mygtuką į puslapio veiksmų meniu, kuris išlieka matomas naudotojams slenkant per maketą."
+        },
+        "discussable": {
+          "label": "Ar ši grupė gali dalyvauti diskusijose?",
+          "enabled": {
+            "label": "Taip, diskusija leidžiama",
+            "description": "Grupės nariai gali peržiūrėti ir dalyvauti diskusijų kanaluose, prie kurių grupė turi prieigą."
+          },
+          "disabled": {
+            "label": "Ne, diskusija užblokuota",
+            "description": "Grupės nariai negali peržiūrėti ar dalyvauti diskusijų kanaluose, prie kurių grupė turi prieigą."
+          }
+        }
+      },
+      "siteUrl": {
+        "isUniqueError": "Klaida: svetainė, kuri naudoja šį URL, jau egzistuoja."
+      }
+    }
+  },
+  "page": {
+    "sections": {
+      "basicInfo": {
+        "label": "Pagrindinė informacija"
+      },
+      "location": {
+        "label": "Vieta",
+        "helperText": "Pažymėkite geografinę teritoriją, kuriai priklauso šis puslapis."
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Puslapio pavadinimas",
+        "requiredError": "Puslapio pavadinimas yra būtinas laukas",
+        "maxLengthError": "Puslapio pavadinimas neturi viršyti 250 simbolių",
+        "entityTitleValidatorError": "Puslapio pavadinime negali būti jausmaženklių, simbolių <, >, arba ="
+      },
+      "description": {
+        "label": "Aprašas",
+        "helperText": "Puslapio aprašas."
+      },
+      "summary": {
+        "label": "Santrauka",
+        "helperText": "Pateikite trumpą puslapio santrauką."
+      },
+      "slug": {
+        "label": "Kintamųjų duomenų laukas",
+        "helperText": "Kintamųjų duomenų laukas – tai URL adresą atitinkanti puslapio pavadinimo versija. Jis sugeneruojamas automatiškai, remiantis puslapio pavadinimu, bet jį galite adaptuoti.",
+        "patternError": "Klaida: kintamųjų duomenų laukas turi būti sudarytas iš mažųjų raidinių ir skaitinių simbolių, atskirtų brūkšniais.",
+        "isUniqueError": "Šis kintamųjų duomenų laukas jau naudojamas. Pasirinkite kitą."
+      },
+      "tags": {
+        "label": "Raktažodžiai",
+        "helperText": "Paieškos kataloguose naudojamos žymos padės kitiems surasti šį puslapį. Norėdami sukurti naujas žymas, pridėkite tekstą ir paspauskite Enter."
+      },
+      "_thumbnail": {
+        "helperText": "Nustatykite miniatiūrą, kuri nurodys šį puslapį ArcGIS Online, paieškoje ir galerijose."
+      },
+      "categories": {
+        "helperText": "Kategorijos naudojamos paieškos kataloguose, kad kiti galėtų rasti šį puslapį. Jas nustato jūsų organizacija."
+      }
+    }
+  },
+  "content": {
+    "fields": {
+      "title": {
+        "label": "Pavadinimas",
+        "hint": "Glausti pavadinimai pagerins turinio aptikimą.",
+        "requiredError": "Būtina įvesti pavadinimą",
+        "entityTitleValidatorError": "Pavadinime negali būti jausmaženklių, simbolių <, >, arba ="
+      },
+      "summary": {
+        "label": "Santrauka",
+        "hint": "Pateikite trumpą turinio santrauką. PASTABA. Pagerinkite SEO, naudodami raktažodžius, kurie skiriasi nuo jūsų „Pavadinimo“ ir „Raktažodžių“."
+      },
+      "description": {
+        "label": "Aprašas",
+        "hint": "Pridėkite papildomą informaciją, kuri paaiškina jūsų turinį. Siekite 7–9 klasei tinkamo vidurkio, kad būtų galima pasiekti plačią auditoriją. <a href='https://www.webfx.com/tools/read-able/' target='_blank'>Savo teksto testavimui naudokite nemokamą skaitomumo analizės įrankį</a>."
+      },
+      "tags": {
+        "label": "Raktažodžiai",
+        "hint": "Paieškos kataloguose naudojami raktažodžiai padės kitiems rasti šį turinį. Norėdami sukurti naujas žymas, pridėkite tekstą ir paspauskite Enter."
+      },
+      "categories": {
+        "helperText": "Kategorijos naudojamos paieškos kataloguose, kad kiti galėtų rasti šį turinį. Jas nustato jūsų organizacija."
+      },
+      "_thumbnail": {
+        "helperText": "Nustatykite miniatiūrą, kuri nurodys šį elementą „ArcGIS Online“, paieškoje ir galerijose."
+      },
+      "license": {
+        "label": "Naudojimo sąlygos",
+        "helperText": "Mažiau apribojimų skatina pakartotinį naudojimą."
+      },
+      "discussable": {
+        "label": "Diskusija leidžiama?",
+        "enabled": {
+          "label": "Taip, diskusija leidžiama",
+          "description": "Dalyviai į šį elementą gali įtraukti įrašus, atsakymus ir reakcijas."
+        },
+        "disabled": {
+          "label": "Ne, diskusija užblokuota",
+          "description": "Panaikina galimybę įtraukti naujus įrašus, atsakymus ir reakcijas. Neištrina ankstesnio dalyvavimo."
+        }
+      },
+      "serverExtractCapability": {
+        "label": "Atsisiuntimo sistema",
+        "exportDataSetting": {
+          "label": "Eksportuoti duomenų nustatymus (rekomenduojama)",
+          "description": "Įgalinkite papildomus atsisiuntimo formatus ir padidinkite atsisiuntimo našumą."
+        },
+        "defaultDownloadsSystem": {
+          "label": "Numatytoji atsisiuntimo sistema",
+          "description": "Gali būti siūloma mažesnis formatų skaičius, lėtesnis atsisiuntimo greitis ir mažesnis patikimumas."
+        },
+        "noFormatConfigurationNotice": {
+          "title": "Formato konfigūracija neprieinama",
+          "body": "Norint konfigūruoti formatą, reikia, kad būtų įjungtas duomenų eksporto nustatymas."
+        }
+      },
+      "downloadFormats": {
+        "label": "Formatai",
+        "helperText": "Pasirinkite, prie kurių formatų suteikti naudotojams prieigą ir kokia tvarka jie bus rodomi. (Atkreipkite dėmesį – turite pasirinkti bent vieną formatą)",
+        "downloadsUnavailableNotice": {
+          "title": "Atsisiuntimai negalimi",
+          "body": "Norint atsisiųsti turinį, ArcGIS Online turi būti įjungtas nustatymas Eksportuoti duomenis. Norėdami aktyvuoti šį parametrą, susisiekite su elemento savininku."
+        }
+      },
+      "schedule": {
+        "manual": {
+          "helperActionText": "Naudokite šią parinktį, jei norite rankiniu būdu atnaujinti šio elemento paieškos indeksą ir talpykloje saugomus atsisiuntimo failus."
+        },
+        "forceUpdateButton": {
+          "label": "Privalomas atnaujinimas",
+          "description": "Jei norite rankiniu būdu atnaujinti paieškos indeksą ir talpykloje saugomus šio elemento atsisiuntimo failus, pasirinkite šią parinktį, tada pasirinkite „Įrašyti“."
+        },
+        "unavailableNotice": {
+          "title": "Suplanuoti atnaujinimai negalimi",
+          "body": "Norint įgalinti suplanuotus atnaujinimus, turinys turi būti „Viešas“."
+        }
+      }
+    },
+    "sections": {
+      "basic": {
+        "title": "Pagrindinė informacija",
+        "message": "Ši informacija naudojama pildant paieškos rezultatus, galerijų korteles ir rodoma išsamios informacijos peržiūroje."
+      },
+      "about": {
+        "title": "Apie turinį",
+        "message": "Pirmos dvi aprašo eilutės visada rodomos paieškos rezultatuose, tačiau išryškinto turinio rodiniuose bus rodomas visas aprašas."
+      },
+      "image": {
+        "title": "Rodomas paveikslėlis",
+        "message": "Demonstruojant turinį mūsų galerijose ar rodiniuose, kuriuose akcentuojami vaizdai, pavyzdžiui, iniciatyvose, įvykiuose ir apklausose, svarbu pasirinkti tinkamą paveikslėlį ar miniatiūrą. Rekomenduojamas dydis – 760 x 505. Jei tiesiogiai rodomuose maršrutuose jūsų paveikslėliai nėra ryškūs, pabandykite vietoje miniatiūros naudoti didesnį paveikslėlį."
+      },
+      "location": {
+        "label": "Vieta",
+        "helperText": "Pažymėkite geografinę teritoriją, kurioje bus šis turinys (bus pateikta turinio makete)."
+      },
+      "discussions": {
+        "label": "Diskusijos"
+      },
+      "downloads": {
+        "label": "Atsisiuntimai",
+        "helperText": "Konfigūruokite atsisiuntimo formatus, talpykloje esančių failų atnaujinimo tvarkaraštį ir kt. Norėdami gauti daugiau informacijos, žr. <calcite-link href=\"https://doc.arcgis.com/en/hub/content/data-download-settings.htm\" target=\"_blank\" icon-end=\"launch\">Atsisiųsti dokumentaciją</calcite-link>."
+      },
+      "schedule": {
+        "label": "Suplanuoti atnaujinimai",
+        "helperText": "Hub automatiškai bandys nustatyti geriausią laiką atnaujinti turinį (pagal numatytuosius nustatymus). Tačiau galite nustatyti turinio, metaduomenų ir talpyklos atsisiuntimo failų atnaujinimo dažnumą (jei įmanoma)."
+      }
+    },
+    "stringField": {
+      "charCounter": "Liko ženklų: {count}"
+    },
+    "imageThumbnail": {
+      "label": "Miniatiūros vaizdas",
+      "upload": "Įkelti vaizdą",
+      "done": "Atlikta",
+      "editThumbnail": "Redaguoti miniatiūrą",
+      "browse": "Parinkti paveikslėlį",
+      "remove": "Šalinti paveikslėlį",
+      "edit": "Redaguoti paveikslėlį",
+      "defaultHeading": "Įtraukti miniatiūros vaizdą",
+      "dropHeading": "Nuvilkti, kad būtų nusiųstas",
+      "errorHeading": "Bandyti kitą paveikslėlį",
+      "subheading": "Didžiausias dydis: {size}, {types}",
+      "zoomOut": "tolinti",
+      "zoomIn": "artinti",
+      "drag": "Vilkti siekiant pakeisti padėtį",
+      "urlPlaceholder": "Palaikomi tipai: {types}",
+      "browseForImage": "Parinkti paveikslėlį",
+      "aria": {
+        "container": "Paveikslėlio sritis",
+        "crop": "Apkarpymo sritis",
+        "handle": {
+          "top": "Keisti dydį viršuje",
+          "right": "Keisti dydį dešinėje",
+          "left": "Keisti dydį kairėje",
+          "bottom": "Keisti dydį apačioje"
+        }
+      }
+    }
+  },
+  "group": {
+    "sections": {
+      "details": {
+        "label": "Išsamiau"
+      },
+      "basicInfo": {
+        "label": "Pagrindinė informacija"
+      },
+      "capabilities": {
+        "label": "Galimybės"
+      },
+      "membershipAccess": {
+        "label": "Grupės narystė"
+      },
+      "discussions": {
+        "label": "Diskusijos"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Pavadinimas",
+        "requiredError": "Grupės pavadinimo lauką privaloma užpildyti",
+        "maxLengthError": "Grupės pavadinimas neturi viršyti 250 simbolių",
+        "entityTitleValidatorError": "Grupės pavadinime negali būti jausmaženklių, simbolių <, >, arba ="
+      },
+      "summary": {
+        "label": "Santrauka",
+        "maxLengthError": "Santrauka neturi viršyti 250 simbolių"
+      },
+      "description": {
+        "label": "Aprašas"
+      },
+      "access": {
+        "label": "Kas gali peržiūrėti šią grupę?",
+        "private": {
+          "label": "Privati",
+          "description": "Tik grupės nariai gali peržiūrėti grupę."
+        },
+        "org": {
+          "label": "Organizacija",
+          "description": "Tik organizacijos nariai gali peržiūrėti grupę."
+        },
+        "public": {
+          "label": "Visi (vieša)",
+          "description": "Grupę gali peržiūrėti visi."
+        }
+      },
+      "isSharedUpdate": {
+        "label": "Bendrinamas naujinimas",
+        "helperText": "Šios grupės elementus gali modifikuoti visi šios grupės nariai. Narystė apribota jūsų organizacija ir su jumis bendradarbiaujančiomis organizacijomis."
+      },
+      "isAdmin": {
+        "label": "Administruojanti grupė",
+        "helperText": "Nariai negali palikti šios grupės. Tik grupės vadovai arba savininkas gali pašalinti narius iš šios grupės. Narystė apribota jūsų organizacija."
+      },
+      "isOpenData": {
+        "label": "Open Data",
+        "helperText": "Leisti šiai grupei būti pasiekiamai atvirų duomenų svetainėse.",
+        "constError": "Grupės, kurios nėra viešos, negali būti atviri duomenys."
+      },
+      "_thumbnail": {
+        "label": "Miniatiūra",
+        "helperText": "Pasirinkite vaizdą, kuris bus naudojamas jūsų grupei grupės profilyje.",
+        "sizeDescription": "Didžiausias dydis yra 10 mb. Rekomenduojamas dydis: 400 x 400 ar didesnis"
+      },
+      "membershipAccess": {
+        "label": "Kas gali būti šioje grupėje?",
+        "org": {
+          "description": "Tik mano organizacijos nariai",
+          "label": "Organizacijos nariai"
+        },
+        "collab": {
+          "description": "Tik bendradarbiavimo partneriai ir mano organizacijos nariai",
+          "label": "Tik bendradarbiai"
+        },
+        "any": {
+          "description": "Bet kuris organizacijos narys",
+          "label": "Bet kas"
+        },
+        "createFollowers": {
+          "any": "Visi organizacijos nariai (siūlomas numatasis nustatymas)"
+        },
+        "createAssociation": {
+          "any": "Visi organizacijos nariai (siūlomas numatasis nustatymas)"
+        },
+        "constError": "Administravimo grupės nariais gali būti tik jūsų organizacijos nariai.",
+        "patternError": "Bendrinamų naujinimų grupė apribota jūsų organizacija arba bendradarbiavimo partneriais."
+      },
+      "contributeContent": {
+        "label": "Kas gali pateikti turinį?",
+        "members": {
+          "label": "Nariai",
+          "description": "Visi grupės nariai"
+        },
+        "admins": {
+          "label": "Administratoriai",
+          "description": "Tik grupės savininkas ir valdytojai"
+        },
+        "createFollowers": {
+          "admins": "Grupės savininkas ir valdytojai (siūlomas numatytasis nustatymas)"
+        },
+        "createAssociation": {
+          "admins": "Grupės savininkas ir valdytojai (siūlomas numatytasis nustatymas)"
+        }
+      },
+      "join": {
+        "label": "Kaip žmonės gali prisijungti prie šios grupės",
+        "invite": {
+          "label": "Kvietimas",
+          "description": "Tik su pakvietimu"
+        },
+        "request": {
+          "label": "Užklausa",
+          "description": "Pateikę užklausą"
+        },
+        "auto": {
+          "label": "Patys",
+          "description": "Patys save įtraukdami"
+        },
+        "constError": "Į privačias grupes galima patekti tik su kvietimais.",
+        "patternError": "Administruojančios arba bendrinamų naujinimų grupės turi būti sudaromos pagal kvietimą arba prašymą."
+      },
+      "hiddenMembers": {
+        "label": "Kas gali matyti visą narių sąrašą grupės skirtuke Nariai?",
+        "members": {
+          "label": "Nariai",
+          "description": "Visi grupės nariai"
+        },
+        "admins": {
+          "label": "Administratoriai",
+          "description": "Tik grupės savininkas ir valdytojai"
+        }
+      },
+      "discussable": {
+        "label": "Ar ši grupė gali dalyvauti diskusijose?",
+        "enabled": {
+          "label": "Taip, diskusija leidžiama",
+          "description": "Grupės nariai gali peržiūrėti ir dalyvauti diskusijų kanaluose, prie kurių grupė turi prieigą."
+        },
+        "disabled": {
+          "label": "Ne, diskusija užblokuota",
+          "description": "Grupės nariai negali peržiūrėti ar dalyvauti diskusijų kanaluose, prie kurių grupė turi prieigą."
+        }
+      }
+    }
+  },
+  "initiativeTemplate": {
+    "sections": {
+      "basicInfo": {
+        "label": "Pagrindinė informacija"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Pavadinimas",
+        "requiredError": "Iniciatyvos šablono pavadinimas yra būtinas laukas",
+        "entityTitleValidatorError": "Iniciatyvos šablono pavadinime negali būti jausmaženklių, simbolių <, >, arba ="
+      },
+      "slug": {
+        "label": "Kintamųjų duomenų laukas",
+        "helperText": "Kintamųjų duomenų laukas – tai URL adresą atitinkanti iniciatyvos šablono pavadinimo versija. Jis sugeneruojamas automatiškai, remiantis iniciatyvos šablono pavadinimu, bet jį galite adaptuoti.",
+        "patternError": "Klaida: kintamųjų duomenų laukas turi būti sudarytas iš mažųjų raidinių ir skaitinių simbolių, atskirtų brūkšniais.",
+        "isUniqueError": "Šis kintamųjų duomenų laukas jau naudojamas. Pasirinkite kitą."
+      },
+      "previewUrl": {
+        "label": "Peržiūrėti nuorodą",
+        "helperText": "Pavadinimui bus pritaikyta peržiūros nuoroda, kuri bus naudinga, jei planuojate šabloną bendrinti viešai. Nuorodos turi prasidėti https://",
+        "formatError": "URL formatavimas netinkamas"
+      },
+      "summary": {
+        "label": "Santrauka",
+        "helperText": "Parašykite trumpą šio šablono aprašą, kuris bus rodomas šablonų galerijoje (rekomenduojama 90 simbolių ar trumpesnį)."
+      },
+      "description": {
+        "label": "Aprašas",
+        "helperText": "Įtraukite informaciją apie tai, kaip šis šablonas turėtų būti naudojamas. Pagalvokite apie aktyvinimo instrukcijų kitiems įtraukimą."
+      },
+      "_thumbnail": {
+        "label": "Miniatiūra",
+        "helperText": "Nustatykite miniatiūrą, kuri nurodys šį šabloną ArcGIS Online, paieškoje ir galerijose.",
+        "sizeDescription": "Didžiausias dydis yra 10 mb. Rekomenduojamas dydis: 705 x 505 ar didesnis"
+      },
+      "recommendedTemplates": {
+        "label": "Rekomenduojami šablonai",
+        "catalog": {
+          "myContent": "Mano turinys",
+          "favorites": "Mėgstamiausi",
+          "organization": "Mano organizacija",
+          "world": "Pasaulis (viešai)"
+        },
+        "facets": {
+          "sharing": "Bendrinimas"
+        },
+        "pickerTitle": "Pasirinkti šablonus"
+      }
+    }
+  },
+  "template": {
+    "sections": {
+      "basicInfo": {
+        "label": "Pagrindinė informacija"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Šablono pavadinimas",
+        "requiredError": "Šablono pavadinimas yra būtinas laukas",
+        "maxLengthError": "Šablono pavadinimas neturi viršyti 250 simbolių",
+        "entityTitleValidatorError": "Šablono pavadinime negali būti jausmaženklių, simbolių <, >, arba ="
+      },
+      "previewUrl": {
+        "label": "Peržiūrėti nuorodą",
+        "helperText": "Pavadinimui bus pritaikyta peržiūros nuoroda, kuri bus naudinga, jei planuojate šabloną bendrinti viešai. Nuorodos turi prasidėti https://",
+        "formatError": "URL formatavimas netinkamas"
+      },
+      "description": {
+        "label": "Aprašas",
+        "helperText": "Įtraukite informaciją apie tai, kaip šis šablonas turėtų būti naudojamas. Pagalvokite apie aktyvinimo instrukcijų kitiems įtraukimą."
+      },
+      "summary": {
+        "label": "Santrauka",
+        "helperText": "Parašykite trumpą šio šablono aprašą, kuris bus rodomas šablonų galerijoje (rekomenduojama 90 simbolių ar trumpesnį)."
+      },
+      "_thumbnail": {
+        "helperText": "Pasirinkite vaizdą, kuris atspindėtų jūsų šabloną galerijose."
+      }
+    }
+  },
+  "survey": {
+    "sections": {
+      "basicInfo": {
+        "label": "Pagrindinė informacija"
+      },
+      "searchDiscoverability": {
+        "label": "Paieška ir aptinkamumas"
+      },
+      "settings": {
+        "label": "Žemėlapio atvaizdavimas"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "Apklausos pavadinimas",
+        "requiredError": "Apklausos pavadinimo lauką privaloma užpildyti",
+        "maxLengthError": "Apklausos pavadinimas neturi viršyti 250 simbolių",
+        "entityTitleValidatorError": "Apklausos pavadinime negali būti jausmaženklių, simbolių <, >, arba ="
+      },
+      "description": {
+        "label": "Aprašas",
+        "helperText": "Apklausos aprašas."
+      },
+      "summary": {
+        "label": "Santrauka",
+        "helperText": "Pateikite trumpą apklausos santrauką."
+      },
+      "_thumbnail": {
+        "helperText": "Nustatykite miniatiūrą, kuri nurodys šią apklausą ArcGIS Online, paieškoje ir galerijose."
+      },
+      "tags": {
+        "label": "Žymos",
+        "helperText": "Paieškos kataloguose naudojami raktažodžiai padės kitiems surasti šią apklausą. Norėdami sukurti naujas žymas, pridėkite tekstą ir paspauskite Enter."
+      },
+      "categories": {
+        "helperText": "Kategorijos naudojamos paieškos kataloguose, kad kiti galėtų rasti šią apklausą. Jas nustato jūsų organizacija."
+      },
+      "displayMap": {
+        "label": "Kaip turėtų būti atvaizduojama apklausa atidarius ArcGIS Hub?",
+        "enabled": {
+          "label": "Orientuotas į žemėlapį",
+          "description": "Įtraukiančio žemėlapio patirtis, pirma rodomas žemėlapio klausimas."
+        },
+        "disabled": {
+          "label": "Standartinis atvaizdavimas",
+          "description": "Žemėlapis atvaizduojamas kartu su kitais klausimais."
+        },
+        "notice": {
+          "title": "Reikia žemėlapio klausimo",
+          "message": "Norėdami konfigūruoti žemėlapio atvaizdavimą ArcGIS Hub, publikuokite savo apklausą su žemėlapio klausimu Survey123."
+        }
+      }
+    }
+  },
+  "event": {
+    "fields": {
+      "name": {
+        "label": "Pavadinimas",
+        "requiredError": "Pavadinimo lauką užpildyti būtina",
+        "entityTitleValidatorError": "Įvykio pavadinime negali būti jausmaženklių, simbolių <, >, arba ="
+      },
+      "startDate": {
+        "label": "Pradžios data",
+        "requiredError": "Pradžios datos lauką užpildyti būtina",
+        "minDateError": "Pradžios data negali būti ankstesnė nei šiandienos data"
+      },
+      "endDate": {
+        "label": "Pabaigos data",
+        "requiredError": "Pabaigos datos lauką užpildyti būtina",
+        "minDateError": "Pabaigos data negali būti prieš pradžios datą"
+      },
+      "date": {
+        "label": "Data",
+        "requiredError": "Datos lauką užpildyti būtina",
+        "minDateError": "Data negali būti ankstesnė nei šiandienos data"
+      },
+      "startTime": {
+        "label": "Pradžios laikas",
+        "requiredError": "Pradžios laiko lauką užpildyti būtina"
+      },
+      "endTime": {
+        "label": "Pabaigos laikas",
+        "requiredError": "Pabaigos laiko lauką užpildyti būtina",
+        "minTimeError": "Pabaigos laikas turi būti vėlesnis už pradžios laiką"
+      },
+      "allDay": {
+        "label": "Visa diena"
+      },
+      "timeZone": {
+        "label": "Laiko juosta",
+        "requiredError": "Laiko juostos lauką užpildyti būtina"
+      },
+      "attendanceType": {
+        "label": "Kur",
+        "inPerson": {
+          "label": "Asmeniškai"
+        },
+        "online": {
+          "label": "Internetu"
+        },
+        "both": {
+          "label": "Abu"
+        }
+      },
+      "onlineUrl": {
+        "label": "Nuoroda prisijungti prie internetinio renginio",
+        "requiredError": "URL reikalingas internetiniams arba hibridiniams renginiams",
+        "linkHrefFormatError": "URL formatas netinkamas"
+      },
+      "description": {
+        "label": "Aprašas",
+        "helperText": "Pridėkite papildomos informacijos registrantams, pvz., renginio tipą, tikslą, dienotvarkę, ką atsinešti, transportą ir kt.",
+        "requiredError": "Aprašymo lauką užpildyti būtina"
+      },
+      "inPersonCapacity": {
+        "label": "Didžiausias atvyksiančių dalyvių skaičius",
+        "requiredError": "Būtina nurodyti didžiausią atvyksiančių dalyvių skaičių",
+        "minimumError": "Didžiausias atvyksiančių dalyvių skaičius turi būti didesnis nei 0"
+      },
+      "inPersonCapacityType": {
+        "label": "Galimas atvyksiančių dalyvių skaičius",
+        "unlimited": {
+          "label": "Neribotas"
+        },
+        "fixed": {
+          "label": "Fiksuotas"
+        }
+      },
+      "location": {
+        "label": "Pažymėkite geografinę teritoriją, kurioje bus šis įvykis (bus pateikta įvykio makete)."
+      },
+      "onlineCapacityType": {
+        "label": "Galimas dalyvių internetu skaičius",
+        "unlimited": {
+          "label": "Neribotas"
+        },
+        "fixed": {
+          "label": "Fiksuotas"
+        }
+      },
+      "onlineCapacity": {
+        "label": "Didžiausias dalyvių internetu skaičius",
+        "requiredError": "Didžiausią dalyvių internetu skaičių nurodyti būtina",
+        "minimumError": "Didžiausias dalyvių internetu skaičius turi būti didesnis nei 0"
+      },
+      "onlineDetails": {
+        "label": "Internetinio renginio informacija",
+        "helperText": "Pridėkite papildomos informacijos registrantams, pvz., prieigos kodą, skambinimo informaciją ir kt."
+      },
+      "categories": {
+        "helperText": "Kategorijos naudojamos paieškos kataloguose, kad kiti galėtų rasti šį renginį. Jas nustato jūsų organizacija."
+      },
+      "tags": {
+        "label": "Žymos",
+        "helperText": "Paieškos kataloguose naudojamos žymos padės kitiems rasti renginį. Norėdami sukurti naujas žymas, pridėkite tekstą ir paspauskite Enter."
+      },
+      "summary": {
+        "label": "Santrauka",
+        "helperText": "Trumpai aprašykite šios renginio tikslą, kuris gali būti naudingas dalijantis nuoroda su kitais."
+      },
+      "allowRegistration": {
+        "label": "Leisti registraciją",
+        "helperText": "Kad galėtumėte užsiregistruoti ar būti pakviesti į renginį, privalote turėti paskyrą.",
+        "enabled": {
+          "label": "Registracijos mygtukas įjungtas",
+          "description": "Užsiregistruoti gali bet kuris narys, galintis matyti renginį."
+        },
+        "disabled": {
+          "label": "Registracijos mygtukas išjungtas",
+          "description": "Registracija vyksta tik su kvietimu arba nekontroliuojama."
+        }
+      },
+      "notifyAttendees": {
+        "label": "Siųsti automatinius pranešimus",
+        "helperText": "Renginių prenumeratoriai gali gauti automatinius el. pašto pranešimus su priminimais arba apie pakeitimus. Žmonės, kurie užsiregistruoja dalyvauti, yra automatiškai įtraukiami į prenumeratą.",
+        "enabled": {
+          "label": "Pranešimai įjungti",
+          "description": "Šiam įvykiui prenumeratos mygtukas yra matomas."
+        },
+        "disabled": {
+          "label": "Pranešimai išjungti",
+          "description": "Šiam įvykiui prenumeratos mygtukas yra paslėptas."
+        }
+      },
+      "referencedContent": {
+        "label": "Prijungtas turinys",
+        "helperText": {
+          "label": "Prijunkite vieną projektą, iniciatyvą ar svetainę, susijusią su šiuo įvykiu."
+        },
+        "facets": {
+          "from": {
+            "label": "Nuo",
+            "myContent": {
+              "label": "Mano turinys"
+            },
+            "myOrganization": {
+              "label": "Mano organizacija"
+            }
+          },
+          "access": {
+            "label": "Prieiga"
+          }
+        },
+        "catalog": {
+          "organization": "Organizacija"
+        },
+        "collection": {
+          "sites": "Svetainės",
+          "initiatives": "Iniciatyvos",
+          "projects": "Projektai"
+        }
+      }
+    },
+    "sections": {
+      "referencedContent": {
+        "label": "Prijungtas turinys"
+      },
+      "eventInfo": {
+        "label": "Renginio informacija"
+      },
+      "dateTime": {
+        "label": "Data ir laikas"
+      },
+      "location": {
+        "label": "Vieta"
+      },
+      "discoverability": {
+        "label": "Paieška ir aptinkamumas"
+      }
+    }
+  },
+  "user": {
+    "sections": {
+      "userSettings": "Naudotojo nuostatos",
+      "orgSettings": {
+        "label": "Organizacijos nustatymai",
+        "signinSettings": {
+          "label": "Prisijungimo parinktys",
+          "helperText": "Pritaikykite informaciją, kurią naudotojai matys, jei nuspręs užsiregistruoti bendruomenės paskyrą jūsų Hub."
+        },
+        "siteDefaults": {
+          "label": "Svetainės rodymo numatytieji nustatymai"
+        }
+      }
+    },
+    "fields": {
+      "enableTermsAndConditions": {
+        "label": "Registracijos formoje reikalaujama pateikti pasirinktines naudojimo sąlygas"
+      },
+      "termsAndConditions": {
+        "label": "Naudojimo sąlygos"
+      },
+      "enableSignupText": {
+        "label": "Konfigūruokite pasirinktinį pasveikinimo pranešimą prisijungimo metu"
+      },
+      "workspacePreview": {
+        "label": "Įgalinti darbo sričių peržiūrą",
+        "helperText": "Darbo sritis galima peržiūrėti, bet jos vis dar kuriamos ir plečiame jų funkcijas. Peržiūros laikotarpiu bet kada galite išjungti darbo sritis. Darbo sričių įgalinimas paveiks tik šio naudotojo paskyrą."
+      },
+      "infoBanner": {
+        "label": "Informacinė juosta",
+        "helperText": "Visose svetainėse ir puslapiuose rodykite savo darbuotojų organizacijos informacinę juostą, jei ji sukonfigūruota. Tai yra visuotinis nustatymas, kurio negalima įjungti arba išjungti konkrečioje svetainėje.",
+        "helperTextWhenDisabled": "Šiuo metu neturite sukonfigūruotos informacinės juostos. Paspauskite toliau pateiktą nuorodą, kad būtumėte peradresuoti į ArcGIS Online, kur galėsite sukonfigūruoti informacinę juostą",
+        "goToBannerConfig": "Sukonfigūruokite informacinę juostą ArcGIS Online"
+      }
+    },
+    "notice": {
+      "title": "Organizacijos valdymas",
+      "message": "Dauguma personalo ir bendruomenės (tik Hub Premium) organizacijos nustatymų dabar valdomi ArcGIS namų organizacijoje.",
+      "communityMessage": "Dauguma personalo ir bendruomenės (tik Hub Premium) organizacijos nustatymų dabar valdomi ArcGIS namų organizacijoje. <br /><br />Jūsų bendruomenės organizacija yra",
+      "staffMessage": "Dauguma personalo ir bendruomenės (tik Hub Premium) organizacijos nustatymų dabar valdomi ArcGIS namų organizacijoje. <br /><br />Jūsų bendruomenės organizacija yra",
+      "actions": {
+        "goToOrg": "Pereiti į organizacijos nustatymus",
+        "goToCommunityOrg": "Pereiti į bendruomenės organizaciją",
+        "goToStaffOrg": "Pereiti į personalo organizaciją"
+      }
+    }
+  }
+}

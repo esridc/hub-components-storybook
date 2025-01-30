@@ -1,0 +1,178 @@
+{
+  "projectsTitle": "Proyek",
+  "description": "Kaitkan inisiatif Anda dengan kontribusi proyek untuk melacak kemajuan dari waktu dan ruang yang difokuskan. Grup asosiasi inisiatif mengelola permintaan asosiasi yang dikonfirmasi dan asosiasi yang tertunda.",
+  "subDescription": "Proyek dengan asosiasi yang dikonfirmasi akan muncul di tampilan inisiatif.",
+  "project": "proyek",
+  "initiative": "inisiatif",
+  "helpStates": {
+    "noAccess": {
+      "heading": "Tidak ada akses",
+      "message": "Anda tidak memiliki akses untuk melihat grup asosiasi."
+    },
+    "missingGroup": {
+      "heading": "Grup asosiasi tidak ada",
+      "message": {
+        "overview": "Grup asosiasi akan mengelola proyek mana yang akan ditautkan dan dilaporkan ke inisiatif.",
+        "members": "Anggota grup ini akan bisa mengirimkan atau menyetujui permintaan asosiasi."
+      },
+      "action": "Buat grup",
+      "formLabel": "Grup asosiasi baru",
+      "description": "Buat grup asosiasi untuk mengelola koneksi"
+    },
+    "requestsWaiting": {
+      "heading": "Grup asosiasi tidak ada",
+      "message": {
+        "overview": "Grup asosiasi akan mengelola proyek mana yang akan ditautkan dan dilaporkan ke inisiatif.",
+        "members": "Anggota grup ini akan bisa mengirimkan atau menyetujui permintaan asosiasi.",
+        "requests": "Permintaan proyek sedang menunggu: {count}"
+      },
+      "action": "Buat grup",
+      "formLabel": "Grup asosiasi baru",
+      "description": "Buat grup asosiasi untuk mengelola koneksi"
+    }
+  },
+  "shared": {
+    "project": "proyek",
+    "associationGroup": "grup asosiasi",
+    "error": {
+      "title": "Ada masalah",
+      "message": "Anda mungkin kehilangan akses yang memadai untuk mengirim dan mengelola asosiasi dengan {type} ini."
+    },
+    "facets": {
+      "access": {
+        "label": "Berbagi"
+      },
+      "status": {
+        "label": "Status",
+        "notStarted": "Belum dimulai",
+        "inProgress": "Dalam proses",
+        "onHold": "Ditahan",
+        "complete": "Selesai"
+      },
+      "tags": {
+        "label": "Tag"
+      }
+    },
+    "tabs": {
+      "projects": "Proyek",
+      "members": "Anggota",
+      "settings": "Pengaturan"
+    },
+    "disabledActionTooltip": "Hanya pengelola grup yang dapat mengelola asosiasi dengan {type} ini."
+  },
+  "createAssociationGroup": {
+    "defaultSummary": "Kelola item yang terkait dengan {name} {type} menggunakan grup asosiasi."
+  },
+  "members": {
+    "facets": {
+      "role": {
+        "label": "Peran",
+        "all": "Semua",
+        "manager": "Pengelola",
+        "member": "Anggota"
+      },
+      "dateJoined": {
+        "label": "Tanggal bergabung"
+      }
+    },
+    "addMembers": {
+      "button": "Tambahkan anggota",
+      "modal": {
+        "title": "Tambahkan anggota",
+        "org": "Organisasi saya",
+        "community": "Komunitas saya",
+        "partner": "Mitra saya",
+        "world": "Dunia"
+      },
+      "notifications": {
+        "invited": "Undangan terkirim. Pengguna harus menerima untuk bergabung",
+        "added": "Pengguna ditambahkan",
+        "notInvited": "Beberapa pengguna mungkin tidak memiliki hak istimewa yang diperlukan untuk bergabung dengan grup atau mungkin berada pada batas maksimum grup (512)"
+      }
+    },
+    "removeUsers": {
+      "button": "Hapus",
+      "success": "Anggota berhasil dihapus dari {groupName}.",
+      "error": "Satu atau beberapa pengguna tidak dapat dihapus dari grup."
+    },
+    "changeRole": {
+      "button": "Ubah peran",
+      "member": "Anggota",
+      "memberHelperText": "Dapat menambahkan dan melihat konten dalam grup.",
+      "tooltipText": "Batalkan pilihan diri Anda dan/atau pemilik grup",
+      "tooltipLabel": "Penafian peran",
+      "admin": "Pengelola",
+      "adminHelperText": "Dapat menambahkan/menghapus konten dan mengundang/menghapus orang (kecuali pemilik).",
+      "success": "Anggota yang dipilih menjadi grup {role}.",
+      "error": "Peran tidak dapat diubah untuk satu atau beberapa anggota."
+    },
+    "stats": {
+      "total": {
+        "title": "Total",
+        "trailingText": "Anggota"
+      },
+      "new": {
+        "title": "Baru",
+        "trailingText": "30 hari terakhir"
+      }
+    }
+  },
+  "projects": {
+    "requestAssociation": {
+      "findProjects": "Temukan proyek",
+      "sendRequest": "Kirim permintaan",
+      "success": {
+        "title": "Berhasil",
+        "message": "Permintaan asosiasi terkirim: {count}"
+      },
+      "alreadyRequesting": {
+        "title": "Periksa asosiasi",
+        "message": "Beberapa pilihan telah meminta asosiasi. Permintaan asosiasi baru terkirim: {count}"
+      },
+      "catalog": {
+        "myContent": "Konten saya",
+        "favorites": "Favorit",
+        "organization": "Organisasi",
+        "world": "Dunia (Publik)"
+      },
+      "collection": {
+        "projects": "Proyek"
+      }
+    },
+    "acceptAssociation": {
+      "label": "Terima",
+      "success": {
+        "title": "Berhasil",
+        "message": "Asosiasi diterima dengan {requestor}"
+      }
+    },
+    "cancelRequest": {
+      "label": "Batalkan permintaan",
+      "success": {
+        "title": "Berhasil",
+        "message": "Permintaan asosiasi dibatalkan"
+      }
+    },
+    "breakAssociation": {
+      "label": "Putuskan koneksi",
+      "success": {
+        "title": "Asosiasi terputus",
+        "message": "Kami telah memutus koneksi item ini dari asosiasi sebelumnya. Namun, kami tidak dapat membatalkan keputusan dari pihak lain, sehingga Anda masih bisa melihatnya di permintaan yang masuk."
+      }
+    },
+    "associationsGallery": {
+      "sources": "Status",
+      "catalog": {
+        "associated": "Terkait",
+        "requesting": "Permintaan masuk",
+        "pending": "Permintaan keluar"
+      },
+      "collection": {
+        "projects": "Proyek"
+      }
+    }
+  },
+  "notice": {
+    "label": "Peringatan formulir"
+  }
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Hub Components: Discussions Post</title>
+
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      calcite-notice {
+        margin-top: 4rem;
+      }
+
+      .posts {
+        background-color: gray;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 0.5rem;
+        row-gap: 0.5rem;
+        padding: 0.5rem;
+        height: calc(100vh - 1rem);
+        margin-top: 4rem;
+      }
+
+      .post {
+        background-color: #fff;
+        position: relative;
+        height: calc(100% - 1rem);
+        overflow: auto;
+        padding: 0.5rem;
+      }
+
+      .post h5 {
+        font-size: 16px;
+        margin: 0;
+        padding: 5px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 401;
+        background-color: #eee;
+        border: solid 1px #666;
+        border-radius: 0 0 0 5px;
+        opacity: 0.5;
+      }
+    </style>
+    <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+        }
+      }
+    </script>
+    <script type="module" src="../../build/hub-components.esm.js"></script>
+    <script nomodule src="../../build/hub-components.js"></script>
+    <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+    <link rel="stylesheet" href="../calcite-web.min.css" />
+  </head>
+  <body>
+    <script src="https://unpkg.com/@esri/arcgis-rest-request@3.4.3/dist/umd/request.umd.min.js"></script>
+    <script src="https://unpkg.com/@esri/arcgis-rest-auth@3.4.3/dist/umd/auth.umd.min.js"></script>
+    <arcgis-app-identity client-id="EF9uxuFlOrgf7WpI" redirect-uri="http://localhost:3333/html/redirect.html" portal="https://qaext.arcgis.com"> </arcgis-app-identity>
+    <harness-header page-title="Discussion Post"></harness-header>
+    <calcite-notice open kind="info" scale="s" width="full" icon>
+      <div slot="message">This component requires authentication to render. Please auth as juliana_pa on QA.</div>
+    </calcite-notice>
+    <script>
+      function createEditors() {
+        const editorCfgs = [
+          {
+            title: 'Post: postId',
+            postId: '0ebcd4c7752a4962a6c645d45a7b3422',
+          },
+          {
+            title: 'Reply: postId',
+            postId: '40b80e613a60417a8f57be96af358597',
+          },
+        ];
+        let container = document.querySelector('.posts');
+        if (!container) {
+          container = document.createElement('div');
+          container.className = 'posts';
+          editorCfgs.forEach(({ title, postId }) => {
+            const discussionDiv = document.createElement('div');
+            discussionDiv.className = 'post';
+            const header = document.createElement('h5');
+            header.innerText = title;
+            const arcgisDiscussion = document.createElement('arcgis-hub-discussions-post');
+            Object.assign(arcgisDiscussion, {
+              postId,
+              isHub: false,
+            });
+            discussionDiv.appendChild(header);
+            discussionDiv.appendChild(arcgisDiscussion);
+            container.appendChild(discussionDiv);
+          });
+          document.body.appendChild(container);
+          document.body.addEventListener('hubTelemetry', function (evt) {
+            console.log('hubTelemetry:', evt.detail);
+          });
+        }
+      }
+
+      createEditors();
+    </script>
+  </body>
+</html>

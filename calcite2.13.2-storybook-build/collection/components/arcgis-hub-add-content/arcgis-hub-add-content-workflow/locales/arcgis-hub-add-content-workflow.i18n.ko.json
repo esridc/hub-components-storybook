@@ -1,0 +1,110 @@
+{
+  "controls": {
+    "addContent": "콘텐츠 추가",
+    "back": "돌아가기",
+    "cancel": "취소",
+    "close": "완료",
+    "create": "생성 및 그룹에 추가",
+    "next": "다음"
+  },
+  "createHelpState": {
+    "discussion": {
+      "heading": "토론",
+      "message": "주제를 나타내는 제목을 입력하여 새 토론 보드를 생성합니다."
+    },
+    "event": {
+      "heading": "이벤트",
+      "message": "구성한 활동을 대면 또는 온라인으로 호스팅합니다."
+    },
+    "group": {
+      "heading": "그룹",
+      "message": "그룹을 설정하여 핵심 콘텐츠에 대해 협업합니다."
+    },
+    "initiative": {
+      "heading": "이니셔티브",
+      "message": "이니셔티브를 통해 목표를 향한 진행 상황을 구성하고 요약합니다."
+    },
+    "page": {
+      "heading": "페이지",
+      "message": "페이지에서는 대상 그룹과 정보를 공유하고 교류할 수 있습니다."
+    },
+    "project": {
+      "heading": "프로젝트",
+      "message": "목표와 기간이 명확한 작업을 강조합니다."
+    },
+    "site": {
+      "heading": "사이트",
+      "message": "웹페이지를 생성하여 정보를 구성하고 공유합니다."
+    }
+  },
+  "selection": {
+    "unlimited": "선택함: {count}",
+    "limited": "선택함: {count}/{limit}"
+  },
+  "steps": {
+    "createContent": "기본 정보 추가",
+    "selectContent": "콘텐츠 선택",
+    "selectGroups": "그룹 선택",
+    "confirmation": "확인",
+    "notImplemented": "구현되지 않음"
+  },
+  "working": {
+    "heading": "선택한 콘텐츠를 추가하는 중입니다.",
+    "loadingLabel": "콘텐츠를 추가하는 중입니다."
+  },
+  "failure": {
+    "heading": "콘텐츠를 추가하지 않았습니다.",
+    "message": "선택한 콘텐츠를 추가하는 동안 문제가 발생했습니다. 다시 시도하세요.",
+    "action": "다시 시도"
+  },
+  "notImplemented": {
+    "heading": "이 워크플로는 아직 구현되지 않았습니다."
+  },
+  "contentGallery": {
+    "facets": {
+      "access": {
+        "label": "소속"
+      },
+      "type": {
+        "label": "유형"
+      },
+      "tags": {
+        "label": "태그"
+      },
+      "categories": {
+        "label": "범주"
+      },
+      "modified": {
+        "label": "수정"
+      }
+    }
+  },
+  "groupsGallery": {
+    "facets": {
+      "access": {
+        "label": "볼 수 있는 사람",
+        "options": {
+          "org": "기관",
+          "public": "모든 사람(공개)",
+          "private": "본인"
+        }
+      },
+      "from": {
+        "label": "소속",
+        "options": {
+          "myCommunity": "내 커뮤니티",
+          "myGroups": "내 그룹",
+          "myOrganization": "내 기관",
+          "world": "전 세계"
+        }
+      },
+      "type": {
+        "label": "유형",
+        "options": {
+          "sharedUpdate": "공유 업데이트",
+          "opendata": "오픈데이터"
+        }
+      }
+    }
+  }
+}

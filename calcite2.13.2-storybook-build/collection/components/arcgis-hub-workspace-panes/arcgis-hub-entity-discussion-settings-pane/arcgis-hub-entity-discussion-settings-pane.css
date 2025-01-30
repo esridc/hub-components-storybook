@@ -1,0 +1,9 @@
+:host {
+  display: block;
+  height: 100%;
+}
+
+arcgis-hub-workspace-pane {
+  --arcgis-configuration-form-footer-max-width: 800px;
+  --arcgis-configuration-form-footer-scalable-padding: 0.5rem;
+}

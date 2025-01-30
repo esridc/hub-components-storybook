@@ -1,0 +1,50 @@
+{
+  "section": "Eliminar",
+  "protection": "Evitar a eliminação acidental deste(a) {type}.",
+  "protectionTooltip": "ToolTip de proteção",
+  "protectionDisabledTooltip": "Apenas os proprietários ou administradores da organização podem alterar a proteção.",
+  "deleteDisabledNoAccessTooltip": "Apenas os proprietários ou administradores da organização podem eliminar.",
+  "deleteDisabledNoAccessTooltipGroup": "Apenas os proprietários, gestores ou administradores da organização podem eliminar.",
+  "deleteDisabledProtectedTooltip": "Não é possível eliminar enquanto a proteção contra eliminação estiver ativada.",
+  "deleteButton": "Eliminar",
+  "protect": {
+    "successTitle": "Proteção contra eliminação adicionada",
+    "success": "Não é possível eliminar enquanto a proteção contra eliminação estiver ativada.",
+    "successLabel": "Alerta de adição de proteção contra eliminação.",
+    "errorTitle": "Não foi possível adicionar a proteção contra eliminação",
+    "error": "Ocorreu um erro ao adicionar a proteção contra eliminação.",
+    "errorLabel": "Alerta de falha de proteção contra eliminação."
+  },
+  "unprotect": {
+    "successTitle": "Proteção contra eliminação eliminada",
+    "success": "É possível eliminar enquanto a proteção contra eliminação estiver desativada.",
+    "successLabel": "Alerta de remoção de proteção contra eliminação.",
+    "errorTitle": "Não foi possível remover a proteção contra eliminação",
+    "error": "Ocorreu um erro ao remover a proteção contra eliminação.",
+    "errorLabel": "Alerta de falha de remoção de proteção contra eliminação."
+  },
+  "delete": {
+    "successTitle": "Eliminação bem-sucedida",
+    "success": "A redirecionar para o seu workspace inicial",
+    "successLabel": "Alerta de eliminação bem-sucedida.",
+    "errorTitle": "Falha ao eliminar",
+    "error": "Algo correu mal, tente novamente.",
+    "errorLabel": "Alerta de falha de eliminação."
+  },
+  "permanentDelete": {
+    "successTitle": "Eliminação permanente bem-sucedida",
+    "success": "A redirecionar para o seu workspace inicial",
+    "successLabel": "Alerta de eliminação bem-sucedida.",
+    "errorTitle": "Falha ao eliminar",
+    "error": "Algo correu mal, tente novamente.",
+    "errorLabel": "Alerta de falha de eliminação."
+  },
+  "deleteModal": {
+    "header": "Eliminar",
+    "deleteContent": "Não é possível anular uma eliminação permanente. Tem a certeza de que pretende continuar?",
+    "recycleContent": "Os conteúdos eliminados serão enviados para a reciclagem. Terá 14 dias para o recuperar.",
+    "delete": "Eliminar",
+    "permanentlyDelete": "Eliminar permanentemente",
+    "cancel": "Cancelar"
+  }
+}

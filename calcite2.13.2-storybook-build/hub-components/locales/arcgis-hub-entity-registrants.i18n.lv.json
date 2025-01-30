@@ -1,0 +1,46 @@
+{
+  "registrants": "Reģistranti",
+  "invite": "Uzaicināt",
+  "tabs": {
+    "registrants": "Reģistranti",
+    "settings": "Iestatījumi"
+  },
+  "emptyNotice": {
+    "title": "Nav neviena reģistranta",
+    "desc": "Pasākumi vienmēr ir jautrāki kopā ar auditoriju. Uzaiciniet cilvēkus vai koplietojiet savu pasākumu, lai mudinātu cilvēkus apmeklēt pasākumu.",
+    "link": "Uzaicināt reģistrantus"
+  },
+  "facets": {
+    "role": {
+      "header": "Loma",
+      "owner": "Īpašnieks",
+      "organizer": "Organizētājs",
+      "attendee": "Reģistrants"
+    },
+    "status": {
+      "header": "Statuss",
+      "pending": "Gaida",
+      "accepted": "Pieņemts",
+      "declined": "Noraidīts",
+      "blocked": "Bloķēts"
+    },
+    "location": {
+      "header": "Novietojums",
+      "online": "Tiešsaiste",
+      "in_person": "Klātiene"
+    },
+    "updatedDate": "Atjauninātais datums"
+  },
+  "delete": {
+    "attendee": "Noņemt reģistrantu"
+  },
+  "notice": {
+    "label": "Veidlapas brīdinājums"
+  },
+  "success": {
+    "delete": "Reģistranti sekmīgi noņemti no {eventName}."
+  },
+  "error": {
+    "delete": "Vienu vai vairākus reģistrantus nevarēja noņemt no pasākuma."
+  }
+}

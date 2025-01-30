@@ -1,0 +1,29 @@
+{
+  "newTab": "åpne {groupName} i ny fane",
+  "noGroups": "Ingen grupper",
+  "pickerToggle": "Legg til grupper",
+  "pickerTitle": "Velg grupper",
+  "groupBlock": {
+    "memberCount": {
+      "noMember": "Ingen medlemmer",
+      "oneMember": "1 medlem",
+      "members": "{count} medlemmer"
+    },
+    "dateCreated": "Opprettingsdato: {localizedDate}",
+    "sharing": "Deling: {sharingLevel}",
+    "sharingLevels": {
+      "private": "Meg selv",
+      "shared": "Eier og grupper",
+      "org": "Organisasjon",
+      "public": "Felles"
+    },
+    "membership": "Medlemskap: {membershipLevel}",
+    "membershipLevels": {
+      "owner": "Gruppeeier",
+      "admin": "Gruppeadministrasjon",
+      "member": "Gruppemedlem",
+      "none": "Ingen"
+    }
+  },
+  "removeGroup": "Fjern {groupName}"
+}

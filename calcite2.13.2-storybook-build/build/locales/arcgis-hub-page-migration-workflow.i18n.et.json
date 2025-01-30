@@ -1,0 +1,46 @@
+{
+  "heading": "Lehe teave",
+  "form": {
+    "title": {
+      "label": "Lehe nimi",
+      "requiredError": "Nimi on nõutav",
+      "entityTitleValidatorError": "Lehekülje nimi ei tohi sisaldada emotikone või <, >, = märke"
+    },
+    "slug": {
+      "label": "Slug",
+      "helperText": "Slug on lehekülje nime URL-i kasutajasõbralik versioon. See genereeritakse automaatselt lehekülje nime põhjal, kuid te saate seda kohandada.",
+      "patternError": "Viga: slug peab sisaldama väikseid tähtnumbrilisi märke, mis on eraldatud sidekriipsudega.",
+      "isUniqueError": "See slug on juba kasutusel. Valige mõni teine.",
+      "requiredError": "Slug on nõutav"
+    }
+  },
+  "controls": {
+    "back": "Tagasi",
+    "cancel": "Loobu",
+    "close": "Valmis",
+    "migrate": "Kanna leht üle",
+    "next": "Edasi"
+  },
+  "selection": {
+    "unlimited": "{count} on valitud",
+    "limited": "{count} / {limit} on valitud"
+  },
+  "steps": {
+    "specifyInfo": "Lisa põhiteave",
+    "selectGroups": "Vali grupp",
+    "confirmation": "Kinnitus"
+  },
+  "working": {
+    "heading": "Lehe ülekandmine.",
+    "loadingLabel": "Lehe ülekandmine"
+  },
+  "success": {
+    "heading": "Leht üle kantud",
+    "message": "Leht on edukalt üle kantud."
+  },
+  "failure": {
+    "heading": "Lehte ei kantud üle",
+    "message": "Lehe ülekandmisel läks midagi valesti. Proovige uuesti.",
+    "action": "Proovi uuesti"
+  }
+}

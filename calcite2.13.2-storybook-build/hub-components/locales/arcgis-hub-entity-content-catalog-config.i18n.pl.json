@@ -1,0 +1,46 @@
+{
+  "title": "Konfiguracja katalogu",
+  "helperText": "Zdefiniuj i skonfiguruj katalog",
+  "sections": {
+    "groups": {
+      "title": "Grupy",
+      "helperText": "Poniższe grupy zawierają zasoby katalogu wyszukiwania. Wybierz grupę, aby wyświetlić ustawienia, zasoby i nie tylko.",
+      "createGroup": "Utwórz nową grupę"
+    },
+    "feeds": {
+      "title": "Konfiguracja kanału",
+      "helperText": "Zapewnij łatwy dostęp do otwartych danych publicznych i możliwość ich ponownego wykorzystania dzięki kanałom Centrum.",
+      "learn": "Dowiedz się więcej na temat kanałów Centrum",
+      "toggle": "Włącz kanały ",
+      "configure": "Konfiguruj źródła",
+      "notice": "Aby włączyć kanały, należy najpierw ustawić witryny Centrum jako „Publiczne” w Ustawieniach"
+    }
+  },
+  "groupPickerFacet": {
+    "label": "Od",
+    "editGroups": "Edytuj grupy",
+    "viewGroups": "Wyświetl grupę",
+    "myGroups": "Moje grupy",
+    "myOrganization": "Moja instytucja",
+    "myCommunity": "Moja społeczność",
+    "public": "Publiczne"
+  },
+  "formAlert": "Alert dotyczący formularza",
+  "configSaveAlert": {
+    "success": "Pomyślnie zapisano zmiany",
+    "failure": "Błąd podczas zapisywania zmian"
+  },
+  "reharvestCatalogButton": "Sprawdź pod kątem błędów",
+  "reharvestWarningModal": {
+    "title": "Sprawdź pod kątem błędów",
+    "body1": "Ostrzeżenie: Ta opcja jest zwykle używana tylko w sytuacjach, gdy na stronie wyszukiwania występują problemy z brakującymi wynikami lub metadanymi. Za pomocą tej opcji można sprawdzić wszystkie elementy we wszystkich grupach z tego katalogu pod kątem dodanych i usuniętych wyników oraz zmodyfikowanych metadanych.",
+    "body2": "Uruchomienie tego procesu spowoduje odbudowanie publicznego indeksu wyszukiwania tego katalogu. Może to potrwać kilka minut. Zwiększy to obciążenie wszystkich instancji serwera ArcGIS Server.",
+    "primaryButton": "Kontynuuj",
+    "secondaryButton": "Anuluj"
+  },
+  "reharvestCatalogAlert": {
+    "success": "Sprawdzanie pod kątem błędów. Sprawdź ponownie później.",
+    "inProgress": "Sprawdzanie jest już w toku. Wróć później.",
+    "failure": "Przepraszamy, wystąpił błąd operacyjny. Spróbuj ponownie później."
+  }
+}

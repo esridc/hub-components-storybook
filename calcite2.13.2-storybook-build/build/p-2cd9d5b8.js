@@ -1,0 +1,1 @@
+const e=()=>({properties:{allowRegistration:{type:"boolean",enum:[!0,!1],default:!0},notifyAttendees:{type:"boolean",enum:[!0,!1],default:!0}}});export{e as buildSchema}

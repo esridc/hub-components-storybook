@@ -1,0 +1,15 @@
+{
+  "timeoutError": {
+    "message": "Waktu koneksi server habis dan tidak dapat menampilkan statistik.",
+    "title": "Waktu server habis"
+  },
+  "genericError": {
+    "message": "Statistik tidak dapat ditampilkan.",
+    "title": "Ada masalah"
+  },
+  "loading": "Memuat statistik",
+  "source": "Sumber:",
+  "dismiss": "Tutup",
+  "moreInfo": "Informasi selengkapnya",
+  "openInfo": "Buka informasi selengkapnya"
+}

@@ -1,0 +1,46 @@
+{
+  "title": "Katalógus konfigurációja",
+  "helperText": "Katalógus létrehozása és konfigurálása",
+  "sections": {
+    "groups": {
+      "title": "Csoportok",
+      "helperText": "Az alábbi csoportok tartalmazzák a keresési katalógus tartalmát. A beállítások, a tartalom és egyebek megtekintéséhez válasszon ki egy csoportot.",
+      "createGroup": "Új csoport létrehozása"
+    },
+    "feeds": {
+      "title": "Adatcsatorna konfiguráció",
+      "helperText": "Könnyen hozzáférhetővé és újrafelhasználhatóvá teheti nyilvános, nyílt adatait a Hub adatcsatornák segítségével.",
+      "learn": "Ismerje meg a Hub adatcsatornákat",
+      "toggle": "Adatcsatornák engedélyezése ",
+      "configure": "Adatcsatornák konfigurálása",
+      "notice": "Az adatcsatornák engedélyezéséhez először a Beállításokban a Hub webhelyeit Nyilvános értékre kell állítani."
+    }
+  },
+  "groupPickerFacet": {
+    "label": "Feladó",
+    "editGroups": "Csoportok szerkesztése",
+    "viewGroups": "Csoport megtekintése",
+    "myGroups": "Saját csoportok",
+    "myOrganization": "Saját szervezet",
+    "myCommunity": "Saját közösség",
+    "public": "Nyilvános"
+  },
+  "formAlert": "Űrlap figyelmeztetés",
+  "configSaveAlert": {
+    "success": "A módosítások mentése sikerült",
+    "failure": "Hiba történt a módosítások mentése során"
+  },
+  "reharvestCatalogButton": "Hibák keresése",
+  "reharvestWarningModal": {
+    "title": "Hibák keresése",
+    "body1": "Figyelmeztetés: Ez az opció általában csak akkor használható, ha a keresőoldalon problémák merülnek fel a hiányzó eredmények vagy metaadatok miatt. Ez az opció a katalógus összes csoportjában lévő összes elemet ellenőrzi a hozzáadások, metaadat-változások vagy eltávolítások szempontjából.",
+    "body2": "A folyamat végrehajtása újjáépíti ennek a katalógusnak a nyilvános keresési indexét, és néhány percig is eltarthat. Ez növeli az ArcGIS Serverek terhelését.",
+    "primaryButton": "Folytatás",
+    "secondaryButton": "Mégse"
+  },
+  "reharvestCatalogAlert": {
+    "success": "Folyamatban van a hibák keresése. Kérjük, térjen vissza később.",
+    "inProgress": "Az ellenőrzés már folyamatban van. Kérjük, térjen vissza később.",
+    "failure": "Sajnos működési hiba lépett fel. Kérjük, próbálkozzon újra később."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "overview": "Genel Bakış",
+  "resources": "Hub kaynakları",
+  "cards": {
+    "items": "Öge sayısı",
+    "groups": "Grup sayısı"
+  },
+  "hubContent": {
+    "heading": "Yakın zamanda değiştirilmiş Hub ögeleri",
+    "link": "Tüm içeriği görüntüle"
+  },
+  "content": {
+    "heading": "Yakın zamanda değiştirilmiş içerik",
+    "stat": "Öge sayısı",
+    "link": "Tüm içeriği görüntüle"
+  },
+  "groups": {
+    "heading": "Yakın zamanda değiştirilmiş gruplar",
+    "stat": "Grup sayısı",
+    "link": "Tüm grupları görüntüle"
+  },
+  "contentCount": "İçerik",
+  "addContent": "Yeni oluştur",
+  "facets": {
+    "access": {
+      "label": "Kaynak"
+    },
+    "type": {
+      "label": "Türler"
+    },
+    "modified": {
+      "label": "Değiştirilme Tarihi"
+    }
+  }
+}

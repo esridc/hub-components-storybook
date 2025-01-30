@@ -1,0 +1,65 @@
+{
+  "catalog": "Katalógus",
+  "catalog-content": "Tartalom",
+  "catalog-events": "Események",
+  "shared": {
+    "publish": {
+      "label": "Mentés",
+      "success": {
+        "title": "Katalógusszerkesztések közzététele sikeres az élő nézetben"
+      },
+      "error": {
+        "title": "Hiba történt a módosítások mentése során"
+      }
+    }
+  },
+  "emptyState": {
+    "message": "Nincs meghatározva katalógus",
+    "action": "Katalógus létrehozása"
+  },
+  "actionBar": {
+    "details": "Katalógus konfigurációja",
+    "appearance": "Katalógus megjelenése",
+    "tooltip": {
+      "appearanceDisabled": "Jelenleg nincs katalógus konfigurálva. Kérjük, hogy konfiguráljon egy katalógust a megjelenési beállítások módosításához.",
+      "configuration": "Konfiguráció",
+      "appearance": "Megjelenés"
+    }
+  },
+  "detailsPanel": {
+    "heading": "Katalógus konfigurációja",
+    "close": "Katalógus konfigurációjának bezárása",
+    "catalogBuilder": {
+      "helperText": "A katalógus lehetővé teszi a látogatók számára a tartalom keresését és megtekintését. A megjelenített eredmények a lekérdezés konfigurációján alapulnak."
+    },
+    "querySizeNotice": {
+      "warning": {
+        "title": "Katalóguskorlát megközelítése",
+        "catalogSourceMessage": {
+          "item": "Az elemforrás konfigurációja megközelíti a méretkorlátot.",
+          "event": "Az eseményforrás konfigurációja megközelíti a méretkorlátot."
+        },
+        "collectionSourceMessage": {
+          "item": "Az elem forrásának és a(z) „{collectionName}” gyűjtemény konfigurációjának kombinációja megközelíti a mérethatárt.",
+          "event": "Az esemény forrásának és a(z) „{collectionName}” gyűjtemény konfigurációjának kombinációja megközelíti a mérethatárt."
+        }
+      },
+      "danger": {
+        "title": "Katalóguskorlát túllépve",
+        "catalogSourceMessage": {
+          "item": "Az elemforrás konfigurációja túllépte a méretkorlátot. Csökkentse a közzétenni kívánt elemek forrásában található szűrők és/vagy szűrési lehetőségek számát.",
+          "event": "Az eseményforrás konfigurációja túllépte a méretkorlátot. Csökkentse a közzétenni kívánt események forrásában található szűrők és/vagy szűrési lehetőségek számát."
+        },
+        "collectionSourceMessage": {
+          "item": "Az elem forrásának és a(z) „{collectionName}” gyűjtemény konfigurációjának kombinációja túllépte a mérethatárt. Csökkentse a közzétenni kívánt elemek forrásában és/vagy „{collectionName}” gyűjteményében található szűrők és/vagy szűrési lehetőségek számát.",
+          "event": "Az esemény forrásának és a(z) „{collectionName}” gyűjtemény konfigurációjának kombinációja túllépte a mérethatárt. Csökkentse a közzétenni kívánt események forrásában és/vagy „{collectionName}” gyűjteményében található szűrők és/vagy szűrési lehetőségek számát."
+        }
+      }
+    }
+  },
+  "appearancePanel": {
+    "heading": "Katalógus megjelenése",
+    "close": "Katalógus megjelenésének bezárása",
+    "description": "A katalógus lehetővé teszi a látogatók számára a tartalom keresését és megtekintését. Itt frissítheti az alapértelmezett katalógus megjelenését és a megjeleníteni kívánt szűrőket."
+  }
+}

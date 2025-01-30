@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "Редактировать группы",
+        "viewGroups": "Просмотреть группы"
+      },
+      "facet": {
+        "label": "Из",
+        "myGroups": "Мои группы",
+        "myOrganization": "Моя организация",
+        "myCommunity": "Мое сообщество"
+      }
+    }
+  },
+  "property": {
+    "label": "Параметр",
+    "requiredError": "Параметр обязателен"
+  },
+  "operator": {
+    "label": "Критерии",
+    "requiredError": "Критерий обязателен"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "Тип"
+    },
+    "group": {
+      "default": "Группы"
+    },
+    "occurrence": {
+      "default": "Событие"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "Любой из",
+      "group": "Опубликовано для любого из"
+    },
+    "isAll": {
+      "default": "Все из",
+      "group": "Опубликовано для всех из"
+    },
+    "isExactly": {
+      "default": "Точно",
+      "occurrence": "Является"
+    },
+    "isNot": {
+      "default": "Не является",
+      "type": "Ни один из",
+      "group": "Не опубликовано ни одному из"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "Группы",
+      "requiredError": "Группы обязательны"
+    },
+    "type": {
+      "label": "Типы",
+      "requiredError": "Типы обязательны",
+      "app": {
+        "label": "Приложения"
+      },
+      "content": {
+        "label": "Ресурсы"
+      },
+      "dataset": {
+        "label": "Наборы данных"
+      },
+      "discussion": {
+        "label": "Обсуждения"
+      },
+      "document": {
+        "label": "Документы"
+      },
+      "event": {
+        "label": "События"
+      },
+      "feedback": {
+        "label": "Обратная связь"
+      },
+      "initiative": {
+        "label": "Инициативы"
+      },
+      "map": {
+        "label": "Карты"
+      },
+      "project": {
+        "label": "Проекты"
+      },
+      "site": {
+        "label": "Сайты"
+      },
+      "template": {
+        "label": "Шаблоны"
+      }
+    },
+    "occurrence": {
+      "label": "Событие",
+      "requiredError": "Событие обязательно",
+      "upcoming": "Предстоит",
+      "past": "Прошлый",
+      "inProgress": "В процессе"
+    }
+  }
+}

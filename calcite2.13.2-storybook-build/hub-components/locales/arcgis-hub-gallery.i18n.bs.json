@@ -1,0 +1,91 @@
+{
+  "moreResults": "Više rezultata",
+  "search": "Pretraga",
+  "filter": "Filtri",
+  "viewResults": "Prikaz rezultata ({numResults})",
+  "resultsCount": "1 - {pageTotal} od {searchTotal}",
+  "backToTop": "Natrag na vrh",
+  "facets": {
+    "access": {
+      "label": "Dijeljenje",
+      "private": "Ja",
+      "shared": "Vlasnik i grupe",
+      "org": "Organizacija",
+      "public": "Javno"
+    },
+    "license": {
+      "label": "Licenca",
+      "tooltip": "Samo na javnom sadržaju",
+      "custom": "Prilagodi",
+      "none": "Nema"
+    },
+    "type": {
+      "label": "Vrsta"
+    },
+    "tags": {
+      "label": "Oznake"
+    },
+    "dateUpdated": {
+      "label": "Datum ažuriranja"
+    },
+    "source": {
+      "label": "Izvor",
+      "tooltip": "Javni sadržaj od različitih organizacija"
+    },
+    "categories": {
+      "label": "Kategorije"
+    },
+    "location": {
+      "label": "Lokacija",
+      "tooltip": "Primijeni obuhvat karte kao filtar lokacije"
+    },
+    "event": {
+      "from": {
+        "label": "Vlasništvo",
+        "myContent": "Ja",
+        "myOrganization": "Moja organizacija",
+        "world": "Bilo tko"
+      },
+      "access": {
+        "label": "Pristup",
+        "private": "Privatno",
+        "org": "Organizacija",
+        "public": "Javno"
+      },
+      "startDate": {
+        "label": "Datum događaja"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "Vrsta",
+        "all": "Sve",
+        "view": "Prikaži",
+        "edit": "Uredi"
+      },
+      "role": {
+        "label": "Uloga",
+        "all": "Sve",
+        "member": "Član",
+        "manager": "Upravitelj",
+        "owner": "Vlasnik"
+      },
+      "sharing": {
+        "label": "Vidljivost",
+        "private": "Privatno",
+        "public": "Javno"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "Prikaži popis",
+    "grid": "Prikaži mrežu",
+    "map": "Prikaži kartu",
+    "compact": "Kompaktni prikaz",
+    "calendar": "Prikaz kalendara",
+    "table": "Prikaz tablice"
+  },
+  "galleryActionsLabel": "Dodatne radnje",
+  "selected": "Odabrano: {count}",
+  "popoverActionButtonLabel": "više radnji"
+}

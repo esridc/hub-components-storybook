@@ -1,0 +1,239 @@
+{
+  "owner": {
+    "description": "Omistaja"
+  },
+  "updatedDate": {
+    "description": "Päivitä päivämäärä",
+    "descriptionWithFrequency": "Päivitetty päivämäärä: {updatedDateFormatted}"
+  },
+  "createdDate": {
+    "description": "Luontipäivämäärä"
+  },
+  "joinedDate": {
+    "description": "Liittymispäivä"
+  },
+  "access": {
+    "label": {
+      "public": "Julkinen",
+      "org": "Organisaatio",
+      "private": "Omistaja",
+      "shared": "Jaettu yksityisesti"
+    },
+    "description": {
+      "public": {
+        "site": "Kaikki voivat nähdä tämän sivuston",
+        "project": "Kaikki voivat nähdä tämän projektin",
+        "initiative": "Kaikki voivat nähdä tämän aloitteen",
+        "discussion": "Kaikki voivat nähdä tämän keskustelun",
+        "default": "Kaikki voivat nähdä tämän sisällön",
+        "event": "Kaikki voivat nähdä tämän tapahtuman"
+      },
+      "org": {
+        "site": "Kaikki organisaatiossasi voivat nähdä tämän sivuston",
+        "project": "Kaikki organisaatiossasi voivat nähdä tämän projektin",
+        "initiative": "Kaikki organisaatiossasi voivat nähdä tämän aloitteen",
+        "discussion": "Kaikki organisaatiossasi voivat nähdä tämän keskustelun",
+        "default": "Kaikki organisaatiossasi voivat nähdä tämän sisällön",
+        "event": "Kaikki organisaatiossasi voivat nähdä tämän tapahtuman"
+      },
+      "private": {
+        "site": "Vain sinä voit nähdä sivuston",
+        "project": "Vain sinä voit nähdä tämän projektin",
+        "initiative": "Vain sinä voit nähdä tämän aloitteen",
+        "discussion": "Vain sinä voit nähdä tämän keskustelun",
+        "default": "Vain sinä voit nähdä tämän sisällön",
+        "event": "Vain sinä voit nähdä tämän tapahtuman"
+      },
+      "shared": {
+        "site": "Valitut ryhmät voivat nähdä tämän sivuston",
+        "project": "Valitut ryhmät voivat nähdä tämän projektin",
+        "initiative": "Valitut ryhmät voivat nähdä tämän aloitteen",
+        "discussion": "Valitut ryhmät voivat nähdä tämän keskustelun",
+        "default": "Valitut ryhmät voivat nähdä tämän sisällön",
+        "event": "Valitut ryhmät voivat nähdä tämän tapahtuman"
+      }
+    }
+  },
+  "type": {
+    "fallback": {
+      "content": "Sisältö",
+      "discussion": "Keskustelu",
+      "event": "Tapahtuma",
+      "group": "Ryhmä",
+      "initiative": "Aloite",
+      "org": "Organisaatio",
+      "page": "Sivu",
+      "project": "Projekti",
+      "site": "Sivusto",
+      "survey": "Tutkimus",
+      "initiativeTemplate": "Malli",
+      "user": "Käyttäjä"
+    },
+    "appbuilderExtension": "GIS-työkalu",
+    "appbuilderWidgetPackage": "GIS-työkalu",
+    "application": "Rekisteröity sovellus",
+    "arcgisProMap": "GIS-työkalu",
+    "cadDrawing": "GIS-työkalu",
+    "cityEngineWebScene": "3D-sovellus",
+    "codeAttachment": "GIS-työkalu",
+    "colorSet": "GIS-työkalu",
+    "content": "Sisältö",
+    "contentCategorySet": "GIS",
+    "csv": "Aineistoryhmä",
+    "csvCollection": "Aineistotiedosto",
+    "dashboard": "Koontinäyttö",
+    "desktopApplication": "GIS-työkalu",
+    "document": "Asiakirja",
+    "documentLink": "Web-linkki",
+    "excaliburImageryProject": "GIS-työkalu",
+    "explorerMap": "GIS-työkalu",
+    "exportPackage": "GIS-työkalu",
+    "featureCollection": "Aineistoryhmä",
+    "featureCollectionTemplate": "GIS-työkalu",
+    "featureLayer": "Aineistoryhmä",
+    "featureService": "Kartta",
+    "fileGeodatabase": "Aineistotiedosto",
+    "form": "Tutkimus",
+    "geocodingService": "Kehittäjän API",
+    "geodataService": "Kehittäjän API",
+    "geojson": "Sisältö",
+    "geometryService": "Kehittäjän API",
+    "geopackage": "Aineistotiedosto",
+    "geoprocessingService": "Kehittäjän API",
+    "globeLayer": "Aineistotiedosto",
+    "globeService": "Kehittäjän API",
+    "hubInitiative": "Aloite",
+    "hubInitiativeTemplate": "Malli",
+    "hubPage": "Sivu",
+    "hubProject": "Projekti",
+    "hubSiteApplication": "Sivusto",
+    "image": "Kuva",
+    "imageService": "Kuva-aineistoryhmä",
+    "insightsModel": "GIS-työkalu",
+    "insightsPage": "Analyysi",
+    "insightsTheme": "GIS-työkalu",
+    "insightsWorkbook": "Analyysityökirja",
+    "iWorkKeynote": "Esitys",
+    "iWorkNumbers": "Laskentataulukko",
+    "iWorkPages": "Asiakirja",
+    "kml": "Aineistoryhmä",
+    "kmlCollection": "Aineistotiedosto",
+    "layer": "Aineistotiedosto",
+    "layerPackage": "Aineistotiedosto",
+    "locatorPackage": "GIS-työkalu",
+    "mapArea": "GIS-työkalu",
+    "mapDocument": "GIS-työkalu",
+    "mapImageLayer": "Kartta",
+    "mapPackage": "Aineistotiedosto",
+    "mapService": "Kartta",
+    "microsoftExcel": "Laskentataulukko",
+    "microsoftPowerpoint": "Esitys",
+    "microsoftVizio": "Microsoft Visio",
+    "microsoftWord": "Asiakirja",
+    "mission": "GIS-työkalu",
+    "mobileApplication": "Sovellus",
+    "mobileMapPackage": "Aineistotiedosto",
+    "native application template": "Kehittäjän työkalu",
+    "nativeApplication": "Sovellus",
+    "nativeApplicationInstaller": "Kehittäjän työkalu",
+    "networkAnalysisService": "Kehittäjän API",
+    "notebook": "Analyysi",
+    "orientedImageryCatalog": "Kuva-aineistoryhmä",
+    "orthoMappingProject": "GIS-työkalu",
+    "orthoMappingTemplate": "GIS-työkalu",
+    "pdf": "Asiakirja",
+    "quickcaptureProject": "Mobiilikysely",
+    "rasterLayer": "Kartta",
+    "realTimeAnalytic": "Kehittäjän API",
+    "relationalDatabaseConnection": "Kehittäjän API",
+    "reportTemplate": "GIS-työkalu",
+    "sceneLayer": "3D-aineistoryhmä",
+    "sceneService": "3D-aineistoryhmä",
+    "serviceDefinition": "Aineistotiedosto",
+    "shapefile": "Aineistoryhmä",
+    "solution": "Ratkaisu",
+    "sqliteGeodatabase": "Aineistotiedosto",
+    "statisticalDataCollection": "Aineistotiedosto",
+    "storymap": "StoryMap",
+    "symbolSet": "Aineistotiedosto",
+    "table": "Aineistoryhmä",
+    "team": "Tiimi",
+    "urbanModel": "Urban Model",
+    "vectorTileService": "Kartta",
+    "visioDocument": "Asiakirja",
+    "webExperience": "Sovellus",
+    "webMap": "Kartta",
+    "webMappingApplication": "Sovellus",
+    "webScene": "3D-kartta",
+    "wfs": "Kartta",
+    "wms": "Kartta",
+    "wmts": "Kartta",
+    "workflowManagerService": "Kehittäjän API",
+    "workforceProject": "Tehtävänhallinta"
+  },
+  "location": {
+    "description": "Sijainti"
+  },
+  "members": {
+    "noMember": "Ei jäseniä",
+    "oneMember": "Jäsenet: 1",
+    "members": "Jäsenet: {count}",
+    "description": {
+      "value": "Näytä kaikki ryhmän jäsenet"
+    }
+  },
+  "tooltip": {
+    "label": "Metatietokohteen työkaluvihje"
+  },
+  "relevantArea": {
+    "title": "Oleellinen alue"
+  },
+  "license": {
+    "tooltip": "Määrittää, miten tätä sisältöä voi käyttää",
+    "set": {
+      "title": "Lisenssi {license}",
+      "customTitle": "Mukautettu lisenssi",
+      "description": {
+        "value": "Näytä lisenssin tiedot"
+      }
+    },
+    "unset": {
+      "title": "Lisenssiä ei määritetty",
+      "description": {
+        "value": "Pyydä käyttöoikeutta"
+      }
+    }
+  },
+  "size": {
+    "description": {
+      "value": "Tiedoston koko"
+    }
+  },
+  "recordCount": {
+    "title": "Tietueet: {count}",
+    "description": {
+      "value": "Näytä aineistotaulu"
+    }
+  },
+  "metadataModified": {
+    "description": {
+      "defaultValue": "Tiedot päivitetty",
+      "dynamicValue": "Tiedot päivitetty: {lastUpdated}"
+    }
+  },
+  "updateFrequency": {
+    "continual": "Jatkuva",
+    "daily": "Päivittäin",
+    "weekly": "Viikoittain",
+    "fortnightly": "Joka toinen viikko",
+    "monthly": "Kuukausittain",
+    "quarterly": "Neljännesvuosittain",
+    "biannually": "Kahdesti vuodessa",
+    "annually": "Vuosittain",
+    "as-needed": "Tarvittaessa",
+    "irregular": "Epäsäännöllinen",
+    "not-planned": "Ei suunniteltu",
+    "unknown": "Tuntematon",
+    "semimonthly": "Kaksi kerta kuukaudessa"
+  }
+}

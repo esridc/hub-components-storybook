@@ -1,0 +1,1 @@
+import{g as r}from"./p-ccc008f5.js";function n(n){return r(n,"group")}function o(n){return r(n,"groupContent")}export{o as a,n as s}

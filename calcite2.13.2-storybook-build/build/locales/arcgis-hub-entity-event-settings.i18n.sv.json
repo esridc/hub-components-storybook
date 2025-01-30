@@ -1,0 +1,49 @@
+{
+  "settings": "Inställningar",
+  "advanced": "Avancerad",
+  "delete": {
+    "event": "Ta bort den här händelsen",
+    "desc": "Borttagning av den här händelsen kan inte ångras. Befintliga registranter meddelas (om automatiska aviseringar är aktiverade för händelsen).",
+    "deleteButton": "Ta bort evenemang"
+  },
+  "cancel": {
+    "header": "Avbryt den här händelsen",
+    "desc": "Om händelsen avbryts förblir den synlig med statusen Avbruten. Registreringen stoppas och befintliga registranter meddelas (om automatiska aviseringar är aktiverade för händelsen).",
+    "event": "Avbryt evenemang",
+    "notice": {
+      "success": {
+        "title": "Händelsen avbröts",
+        "message": "Befintliga registranter meddelas om automatiska aviseringar är aktiverade."
+      },
+      "error": {
+        "title": "Det gick inte att avbryta händelsen",
+        "message": "Försök igen"
+      }
+    }
+  },
+  "enable": {
+    "event": "Återaktivera händelse",
+    "desc": "Händelsen har avbrutits (synlig med statusen Avbruten).",
+    "notice": {
+      "success": {
+        "title": "Händelse har återaktiverats",
+        "message": "Befintliga registranter meddelas om automatiska aviseringar är aktiverade."
+      },
+      "error": {
+        "title": "Det gick inte att återaktivera händelse",
+        "message": "Försök igen"
+      }
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "event": "Ta bort händelse"
+    },
+    "content": "Vill du ta bort:",
+    "delete": "Ta bort evenemang",
+    "cancel": "Avbryt evenemang"
+  },
+  "notice": {
+    "label": "Formulärvarning"
+  }
+}

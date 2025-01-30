@@ -1,0 +1,178 @@
+{
+  "projectsTitle": "Projectes",
+  "description": "Establiu associacions amb projectes de contribució per fer un seguiment del progrés centrat en un temps o un espai. El grup d'associacions de la iniciativa administra les associacions confirmades i les sol·licituds d'associació pendents.",
+  "subDescription": "Els projectes amb associacions confirmades es mostraran a la visualització d'aquesta iniciativa.",
+  "project": "projecte",
+  "initiative": "iniciativa",
+  "helpStates": {
+    "noAccess": {
+      "heading": "Sense accés",
+      "message": "No teniu accés per veure el grup d'associació."
+    },
+    "missingGroup": {
+      "heading": "Falta el grup d'associació",
+      "message": {
+        "overview": "El grup d'associacions supervisarà els projectes que s'enllaçaran i es presentaran a la iniciativa.",
+        "members": "Els membres d'aquest grup podran enviar o aprovar sol·licituds d'associació."
+      },
+      "action": "Crea un grup",
+      "formLabel": "Grup d'associació nou",
+      "description": "Creeu un grup d'associació per administrar les connexions"
+    },
+    "requestsWaiting": {
+      "heading": "Falta el grup d'associació",
+      "message": {
+        "overview": "El grup d'associacions supervisarà els projectes que s'enllaçaran i es presentaran a la iniciativa.",
+        "members": "Els membres d'aquest grup podran enviar o aprovar sol·licituds d'associació.",
+        "requests": "Sol·licituds de projectes en espera: {count}"
+      },
+      "action": "Crea un grup",
+      "formLabel": "Grup d'associació nou",
+      "description": "Creeu un grup d'associació per administrar les connexions"
+    }
+  },
+  "shared": {
+    "project": "projecte",
+    "associationGroup": "grup d'associació",
+    "error": {
+      "title": "Hi ha hagut algun problema",
+      "message": "És possible que no tingueu el nivell d'accés suficient per enviar o administrar una associació amb aquest element ({type})."
+    },
+    "facets": {
+      "access": {
+        "label": "Ús compartit"
+      },
+      "status": {
+        "label": "Estat",
+        "notStarted": "No s'ha iniciat",
+        "inProgress": "En curs",
+        "onHold": "En espera",
+        "complete": "Completat"
+      },
+      "tags": {
+        "label": "Etiquetes"
+      }
+    },
+    "tabs": {
+      "projects": "Projectes",
+      "members": "Membres",
+      "settings": "Configuració"
+    },
+    "disabledActionTooltip": "Només els administradors del grup poden administrar l'associació amb aquest element ({type})."
+  },
+  "createAssociationGroup": {
+    "defaultSummary": "Administreu els elements associats a {name} {type} mitjançant un grup d'associació."
+  },
+  "members": {
+    "facets": {
+      "role": {
+        "label": "Rol",
+        "all": "Tots",
+        "manager": "Administrador",
+        "member": "Membre"
+      },
+      "dateJoined": {
+        "label": "Data d'incorporació"
+      }
+    },
+    "addMembers": {
+      "button": "Afegeix membres",
+      "modal": {
+        "title": "Afegeix membres",
+        "org": "La meva organització",
+        "community": "La meva comunitat",
+        "partner": "Els meus associats",
+        "world": "Món"
+      },
+      "notifications": {
+        "invited": "Invitació enviada. Els usuaris han d'acceptar unir-s'hi",
+        "added": "Usuaris afegits",
+        "notInvited": "Pot ser que alguns usuaris no tinguin els permisos necessaris per unir-se al grup o que es trobin en el límit màxim del grup (512)."
+      }
+    },
+    "removeUsers": {
+      "button": "Elimina",
+      "success": "S'han eliminat correctament els membres de {groupName}.",
+      "error": "No s'han pogut eliminar un o diversos usuaris del grup."
+    },
+    "changeRole": {
+      "button": "Canvia el rol",
+      "member": "Membre",
+      "memberHelperText": "Pot veure el contingut del grup i afegir-ne.",
+      "tooltipText": "Anul·leu la selecció del vostre usuari o del propietari del grup",
+      "tooltipLabel": "Advertiment sobre els rols",
+      "admin": "Administrador",
+      "adminHelperText": "Pot afegir o eliminar contingut i convidar o eliminar persones (tret del propietari).",
+      "success": "Els membres seleccionats s'han convertit en {role} del grup.",
+      "error": "No s'ha pogut canviar el rol d'un o diversos membres."
+    },
+    "stats": {
+      "total": {
+        "title": "Total",
+        "trailingText": "Membres"
+      },
+      "new": {
+        "title": "Nous",
+        "trailingText": "Darrers 30 dies"
+      }
+    }
+  },
+  "projects": {
+    "requestAssociation": {
+      "findProjects": "Cerca projectes",
+      "sendRequest": "Envia la sol·licitud",
+      "success": {
+        "title": "Correcte",
+        "message": "Sol·licituds d'associació enviades: {count}"
+      },
+      "alreadyRequesting": {
+        "title": "Comprova les associacions",
+        "message": "Algunes seleccions ja han sol·licitat l'associació. Noves sol·licituds d'associació enviades: {count}"
+      },
+      "catalog": {
+        "myContent": "El meu contingut",
+        "favorites": "Favorits",
+        "organization": "Organització",
+        "world": "Tot el món (públic)"
+      },
+      "collection": {
+        "projects": "Projectes"
+      }
+    },
+    "acceptAssociation": {
+      "label": "Accepta",
+      "success": {
+        "title": "Correcte",
+        "message": "Associació acceptada amb {requestor}"
+      }
+    },
+    "cancelRequest": {
+      "label": "Cancel·la la sol·licitud",
+      "success": {
+        "title": "Correcte",
+        "message": "Sol·licitud d'associació cancel·lada"
+      }
+    },
+    "breakAssociation": {
+      "label": "Desconnecta",
+      "success": {
+        "title": "Associació interrompuda",
+        "message": "Hem desconnectat aquest element de la seva associació anterior. Això no obstant, no podem anul·lar la decisió de l'altra part, per la qual cosa pot ser que encara la vegeu a les sol·licituds d'entrada."
+      }
+    },
+    "associationsGallery": {
+      "sources": "Estat",
+      "catalog": {
+        "associated": "Associada",
+        "requesting": "Sol·licituds d'entrada",
+        "pending": "Sol·licituds de sortida"
+      },
+      "collection": {
+        "projects": "Projectes"
+      }
+    }
+  },
+  "notice": {
+    "label": "Alerta del formulari"
+  }
+}

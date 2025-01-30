@@ -1,0 +1,29 @@
+{
+  "header": "Arrangementer",
+  "myContent": "Mine arrangementer",
+  "editableContent": "Redigerbart innhold",
+  "addEventButtonText": "Opprett hendelse",
+  "type": "Type",
+  "sharedUpdate": "Delt oppdatering-gruppe",
+  "viewOnly": "Vis bare gruppe",
+  "owner": "Opprettet av",
+  "starts": "På",
+  "from": "Fra",
+  "until": "Til",
+  "updated": "Oppdatert",
+  "tags": "Merker",
+  "dateCreated": "Opprettet",
+  "dateUpdated": "Endret",
+  "actionLinks": {
+    "view": "Vis",
+    "edit": "Rediger",
+    "ariaEdit": "Rediger: {title}",
+    "ariaView": "Vis: {title}"
+  },
+  "access": {
+    "label": "Tilgang",
+    "PRIVATE": "Privat",
+    "ORG": "Organisasjon",
+    "PUBLIC": "Offentlig"
+  }
+}

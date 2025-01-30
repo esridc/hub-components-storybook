@@ -1,0 +1,33 @@
+{
+  "title": "Sbírky",
+  "actions": {
+    "label": "Možnosti",
+    "show": "Zobrazit",
+    "hide": "Skrýt",
+    "rename": "Přejmenovat"
+  },
+  "formAlert": "Chyba formuláře",
+  "alertMessages": {
+    "success": "Úpravy byly úspěšně uloženy",
+    "error": "Chyba při ukládání úprav"
+  },
+  "collectionRenameModal": {
+    "title": "Přejmenovat sbírku",
+    "fieldLabel": "Popisek sbírky",
+    "requiredMessage": "Požadovaný popisek sbírky",
+    "apply": "Použít",
+    "maxLengthMessage": "Popisek sbírky nesmí přesáhnout 50 znaků"
+  },
+  "collections": {
+    "dataset": "Data",
+    "site": "Weby",
+    "document": "Dokumenty",
+    "appAndMap": "Aplikace a mapy"
+  },
+  "saveButton": "Uložit",
+  "sections": {
+    "collectionConfiguration": {
+      "title": "Konfigurace sbírky"
+    }
+  }
+}

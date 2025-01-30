@@ -1,0 +1,46 @@
+{
+  "heading": "ページ情報",
+  "form": {
+    "title": {
+      "label": "ページ名",
+      "requiredError": "名前は必須です",
+      "entityTitleValidatorError": "ページ名には、絵文字、<、>、= を含めることはできません"
+    },
+    "slug": {
+      "label": "スラッグ",
+      "helperText": "スラッグは URL に適したページ名のバージョンです。 ページ名に基づいて自動的に生成されますが、カスタマイズできるのは自分だけです。",
+      "patternError": "エラー: スラッグは、ハイフンで区切られた小文字の英数字である必要があります。",
+      "isUniqueError": "このスラッグはすでに使用されています。 別のスラッグを選択してください。",
+      "requiredError": "スラッグが必要です"
+    }
+  },
+  "controls": {
+    "back": "戻る",
+    "cancel": "キャンセル",
+    "close": "終了",
+    "migrate": "ページの移行",
+    "next": "次へ"
+  },
+  "selection": {
+    "unlimited": "{count} 個選択済み",
+    "limited": "{count} / {limit} 個選択済み"
+  },
+  "steps": {
+    "specifyInfo": "基本情報の追加",
+    "selectGroups": "グループの選択",
+    "confirmation": "確認"
+  },
+  "working": {
+    "heading": "ページを移行しています。",
+    "loadingLabel": "移行ページ"
+  },
+  "success": {
+    "heading": "移行されたページ",
+    "message": "ページは正常に移行されました。"
+  },
+  "failure": {
+    "heading": "ページが移行されていません",
+    "message": "ページの移行中に問題が発生しました。もう一度やり直してください。",
+    "action": "再試行"
+  }
+}

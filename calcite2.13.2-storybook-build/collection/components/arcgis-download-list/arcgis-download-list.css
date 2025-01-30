@@ -1,0 +1,21 @@
+:host {
+
+    display: flex;
+
+    flex-direction: column
+}
+
+.list-card:not(:first-child) {
+
+    margin-top: 0.75rem
+}
+
+.format-link:not(:first-child) {
+
+    margin-top: 0.75rem
+}
+
+.dropdown-option {
+
+    width: 100%
+}

@@ -1,0 +1,96 @@
+{
+  "unnamedChannel": "Kanal uten navn",
+  "name": {
+    "label": "Navn",
+    "placeholder": "{prefix} kanal"
+  },
+  "save": "Lagre",
+  "basicInfo": {
+    "label": "Grunnleggende informasjon"
+  },
+  "access": {
+    "private": {
+      "label": "Privat",
+      "description": "Utvalgte grupper kan delta. Gruppeadministratorer og -eiere blir automatisk tildelt moderatorer."
+    },
+    "organization": {
+      "label": "Min organisasjon",
+      "description": "Alle medlemmer med en konto i {orgName} kan delta. Organisasjonsadministratorer og kanaleiere blir automatisk tildelt moderatorer. Kanaleiere kan i tillegg klikke på «Legg til deltakergruppe» nedenfor for å legge til grupper de er med i.",
+      "disabledTooltip": "Bare organisasjonsadministratorer kan opprette organisasjonskanaler."
+    },
+    "public": {
+      "label": "Felles",
+      "description": "Alle påloggende medlemmer kan delta. Organisasjonsadministratorer og kanaleiere blir automatisk tildelt moderatorer. Kanaleiere kan i tillegg klikke på «Legg til deltakergruppe» nedenfor for å legge til grupper de er med i.",
+      "disabledTooltip": "Bare organisasjonsadministratorer kan opprette offentlige kanaler."
+    },
+    "allowAsAnonymous": {
+      "label": "Tillat anonym (bare påloggende deltakere)",
+      "description": "Avataren, navnet og brukernavnet til folk med kontoer som legger ut noe anonymt, vil ikke være tilgjengelig."
+    },
+    "confirmation": {
+      "header": "Er du sikker?",
+      "message": "Hvis du lagrer disse endringene, mister du tilgangen din til å redigere denne kanalen. Det er bare organisasjonsadministratorer som kan redigere offentlige kanaler eller organisasjonskanaler.",
+      "secondary": "Avbryt",
+      "primary": "Bekreft"
+    }
+  },
+  "participants": {
+    "label": "Deltakere",
+    "helperText": "Personene som kan poste, svare og bidra i diskusjonen.",
+    "none": "Ingen deltakere angitt",
+    "add": "Legg til deltakergruppe"
+  },
+  "groupPicker": {
+    "title": "Velg grupper",
+    "facet": {
+      "label": "Fra",
+      "myGroups": "Mine grupper",
+      "myOrganization": "Min organisasjon",
+      "myCommunity": "Mitt fellesskap"
+    }
+  },
+  "blockWords": {
+    "label": "Blokkerte ord",
+    "helperText": "Kommadelt liste. Innlegg og svar som inneholder dem, blir skjult automatisk."
+  },
+  "manage": {
+    "label": "Moderatorer",
+    "helperText": "Automatisk tildeling av moderatorer er basert på deltakervalg. For eventuelle andre grupper som legges til kanalen, tildeles gruppeeiere og -administratorer moderatorer. Moderatorer kan skjule og vise innlegg, legge til blokkerte ord og redigere kanalinnstillinger."
+  },
+  "manager": "Administrator",
+  "admin": "Admin",
+  "viewProfile": "Vis profil",
+  "alerts": {
+    "error": "Feil under lagring av kanal",
+    "success": "Kanalen ble lagret",
+    "label": "Skjemavarsel"
+  },
+  "validations": {
+    "minChannelGroups": "Private kanaler krever minst én deltakergruppe.",
+    "channelNameRequired": "Navn på kanal er obligatorisk",
+    "allowAsAnonymous": "Anonym posting støttes bare av offentlige kanaler.",
+    "blockWords": "Skriv inn opptil 20 blokkerte ord/fraser (atskilt med komma, ingen duplikate eller tomme oppføringer)."
+  },
+  "notices": {
+    "edit": "Redigeringer påvirker alle steder denne kanalen brukes",
+    "duplicate": {
+      "create": {
+        "error": {
+          "title": "Kanalen ble ikke opprettet",
+          "message": "En kanal med disse kanalutvalgene finens allerede. Bruk den eksisterende kanalen til å modifisere utvalgene."
+        }
+      },
+      "update": {
+        "error": {
+          "title": "Kanalen ble ikke lastet opp",
+          "message": "En kanal med disse kanalutvalgene finnes allerede, så vi kan ikke lagre disse oppdateringene."
+        }
+      },
+      "action": "Bruk eksisterende kanal"
+    },
+    "inaccessibleGroups": {
+      "title": "Utilgjengelige grupper: {count}",
+      "message": "Du kan ikke vise eller administrere utilgjengelige grupper med mindre du er medlem."
+    }
+  }
+}

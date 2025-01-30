@@ -1,0 +1,46 @@
+{
+  "title": "Configuração de Catálogo",
+  "helperText": "Definir e configurar o catálogo",
+  "sections": {
+    "groups": {
+      "title": "Grupos",
+      "helperText": "Os grupos abaixo contêm o conteúdo do seu catálogo de pesquisa. Selecione um grupo para ver definições, conteúdos e muito mais.",
+      "createGroup": "Criar Novo Grupo"
+    },
+    "feeds": {
+      "title": "Configuração de Feed",
+      "helperText": "Torne os seus dados públicos abertos facilmente acessíveis e reutilizáveis com os feeds do Hub.",
+      "learn": "Saiba mais sobre os feeds do Hub",
+      "toggle": "Ativar Feeds ",
+      "configure": "Configurar Feeds",
+      "notice": "Para ativar os feeds, tem de definir primeiro os seus sites do Hub como \"Público\" nas suas Definições"
+    }
+  },
+  "groupPickerFacet": {
+    "label": "De",
+    "editGroups": "Editar grupos",
+    "viewGroups": "Ver grupo",
+    "myGroups": "Os meus grupos",
+    "myOrganization": "A minha organização",
+    "myCommunity": "A minha comunidade",
+    "public": "Público"
+  },
+  "formAlert": "Alerta de formulário",
+  "configSaveAlert": {
+    "success": "Edições guardadas com sucesso",
+    "failure": "Erro ao guardar edições"
+  },
+  "reharvestCatalogButton": "Verificar a existência de erros",
+  "reharvestWarningModal": {
+    "title": "Verificar a existência de erros",
+    "body1": "Aviso: esta opção é geralmente utilizada apenas em situações em que a página de pesquisa está a ter problemas com resultados ou metadados em falta. Esta opção irá verificar todos os itens em todos os grupos do catálogo quanto a adições, alterações de metadados ou remoções.",
+    "body2": "A execução deste processo reconstrói o índice de pesquisa público deste catálogo e pode demorar vários minutos. Isso irá aumentar a carga em quaisquer instâncias do ArcGIS Server.",
+    "primaryButton": "Continuar",
+    "secondaryButton": "Cancelar"
+  },
+  "reharvestCatalogAlert": {
+    "success": "A verificar a existência de erros. Volte a verificar mais tarde.",
+    "inProgress": "A verificação já está em curso. Volte mais tarde.",
+    "failure": "Lamentamos, mas ocorreu um erro operacional. Tente novamente mais tarde."
+  }
+}

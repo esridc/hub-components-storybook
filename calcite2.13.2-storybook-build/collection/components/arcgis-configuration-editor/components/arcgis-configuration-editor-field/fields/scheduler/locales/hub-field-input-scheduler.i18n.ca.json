@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "Automatitzat pel Hub",
+      "actionText": "Informació de l'opció automàtica"
+    },
+    "daily": {
+      "defaultLabel": "Diàriament",
+      "defaultExpandedHelperText": "Cada dia a l'hora seleccionada a la zona horària seleccionada.",
+      "actionText": "Informació de l'opció diària"
+    },
+    "weekly": {
+      "defaultLabel": "Setmanalment",
+      "defaultExpandedHelperText": "Cada setmana el dia i a l'hora següents a la zona horària seleccionada.",
+      "actionText": "Informació de l'opció setmanal"
+    },
+    "monthly": {
+      "defaultLabel": "Mensualment",
+      "defaultExpandedHelperText": "Cada mes el dia i a l'hora següents a la zona horària seleccionada.",
+      "actionText": "Informació de l'opció mensual"
+    },
+    "yearly": {
+      "defaultLabel": "Anualment",
+      "defaultExpandedHelperText": "Cada any el mes, el dia i a l'hora següents a la zona horària seleccionada.",
+      "actionText": "Informació de l'opció anual"
+    },
+    "manual": {
+      "defaultLabel": "Manual",
+      "defaultExpandedHelperText": "Feu servir aquesta opció si voleu actualitzar manualment l'índex de cerca i els fitxers de baixada emmagatzemats a la memòria cau corresponents a aquest element.",
+      "actionText": "Informació de l'opció manual"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "Hora del dia",
+      "inputMessage": "El temps s'arrodonirà a l'hora més propera.",
+      "error": "Seleccioneu una hora."
+    },
+    "day": {
+      "helperText": "Dia de la setmana",
+      "daysOfTheWeek": {
+        "sunday": "Diumenge",
+        "monday": "Dilluns",
+        "tuesday": "Dimarts",
+        "wednesday": "Dimecres",
+        "thursday": "Dijous",
+        "friday": "Divendres",
+        "saturday": "Dissabte"
+      },
+      "selectLabel": "Selector del dia de la setmana",
+      "error": "Seleccioneu un dia de la setmana."
+    },
+    "date": {
+      "helperText": "Dia del mes",
+      "inputNumberPlaceholder": "Seleccioneu un dia del mes",
+      "inputMessage": "Introduïu un valor d'entre 1 i 28 per al dia del mes.",
+      "error": "El dia del mes ha d'estar comprès entre 1 i 28."
+    },
+    "month": {
+      "helperText": "Mes de l'any",
+      "selectLabel": "Selector del mes de l'any",
+      "monthsOfTheYear": {
+        "january": "Gener",
+        "february": "Febrer",
+        "march": "Març",
+        "april": "Abril",
+        "may": "Maig",
+        "june": "Juny",
+        "july": "Juliol",
+        "august": "Agost",
+        "september": "Setembre",
+        "october": "Octubre",
+        "november": "Novembre",
+        "december": "Desembre"
+      },
+      "error": "Seleccioneu un mes."
+    },
+    "timezone": {
+      "helperText": "Zona horària",
+      "error": "Seleccioneu una zona horària."
+    }
+  },
+  "fieldHeader": "Freqüència"
+}

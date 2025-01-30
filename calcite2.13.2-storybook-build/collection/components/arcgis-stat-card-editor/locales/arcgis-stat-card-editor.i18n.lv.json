@@ -1,0 +1,165 @@
+{
+  "advancedConfig": {
+    "label": "Papildu konfigurācija",
+    "serverTimeout": {
+      "label": "Servera taimauts (sekundes)",
+      "helperText": "Noder lielākiem servisiem, kas var prasīt vairāk laika.",
+      "errors": {
+        "type": "Lūdzu, ievadiet servera taimauta konfigurāciju.",
+        "minimum": "Servera taimauta vērtībai ir jābūt vismaz 5.",
+        "maximum": "Servera taimauta vērtībai jābūt ne lielākai par 95."
+      }
+    }
+  },
+  "appearance": {
+    "corners": {
+      "label": "Stūri",
+      "enum": {
+        "round": {
+          "label": "Apaļš"
+        },
+        "square": {
+          "label": "Kvadrāts"
+        }
+      }
+    },
+    "dropShadow": {
+      "label": "Krītoša ēna",
+      "enum": {
+        "heavy": {
+          "label": "Biezs"
+        },
+        "low": {
+          "label": "Zems"
+        },
+        "medium": {
+          "label": "Vidējs"
+        },
+        "none": {
+          "label": "Nav sākts"
+        }
+      }
+    },
+    "layout": {
+      "label": "Kartītes stils",
+      "enum": {
+        "informational": {
+          "label": "Informatīvs"
+        },
+        "simple": {
+          "label": "Vienkāršs"
+        }
+      }
+    },
+    "popoverText": {
+      "label": "Modāls saturs"
+    },
+    "publisherText": {
+      "label": "Avota publicētājs"
+    },
+    "styleSpecificSettings": {
+      "label": "Stila iestatījumi",
+      "helperInfoText": "Informācijas pogas izvēlēšanās atvērs modālu logu, kurā būs pieejama papildinformācija.",
+      "helperVizText": "Vienkāršā kartīte atbalsta ikonas kā vizuāla elementa pievienošanu, ko var izmantot, lai atspoguļotu izmaiņas datos."
+    },
+    "sectionTitle": "Izskats",
+    "textAlign": "Līdzinājums",
+    "visualInterest": {
+      "label": "Vizuāls elements",
+      "enum": {
+        "icon": {
+          "label": "Ikona"
+        },
+        "none": {
+          "label": "Nav"
+        }
+      }
+    },
+    "icon": {
+      "label": "Ikona",
+      "caretUp": {
+        "label": "Palielināt"
+      },
+      "caretDown": {
+        "label": "Samazināt"
+      },
+      "caretDouble": {
+        "label": "Nav izmaiņu"
+      }
+    },
+    "valueColor": "Krāsa (statiska)"
+  },
+  "details": {
+    "allowDynamicLink": "Rādīt avota saiti",
+    "link": {
+      "sectionTitle": "Saite",
+      "sourceLink": "Saites vietrādis (URL)",
+      "sourceTitle": "Saites teksts"
+    },
+    "sectionTitle": "Papildinformācija",
+    "subtitle": "Apakšvirsraksts",
+    "title": "Virsraksts",
+    "trailingText": {
+      "label": "Noslēdzošais teksts",
+      "helperText": "Ievadiet jebkādu papildu kontekstu vai skaidrojumu (lai tas tiktu parādīts zem metrikas vērtības)."
+    }
+  },
+  "errors": {
+    "sourceLink": {
+      "required": "Lai parādītu avotu, ir nepieciešama saite.",
+      "formatError": "Vietrāža (URL) formatējums nav pareizs"
+    }
+  },
+  "formatting": {
+    "sectionTitle": "Formatēšana",
+    "unit": {
+      "label": "Attēlojuma mērvienības",
+      "helperText": "Ievadiet vērtības mērvienību."
+    },
+    "unitPosition": {
+      "label": "Novietojums",
+      "helperText": "Atlasiet, kur mērvienība (piemēram, \"km\", \"lbs\") tiek parādīta saistībā ar metrisko vērtību.",
+      "enum": {
+        "after": {
+          "label": "Pēc"
+        },
+        "before": {
+          "label": "Pirms"
+        },
+        "below": {
+          "label": "Zem"
+        }
+      }
+    }
+  },
+  "sharing": {
+    "sectionTitle": "Koplietošana",
+    "showShareIcon": "Iespējot koplietošanu",
+    "showShareIconHelperText": "Atļaut lietotājiem kopēt tiešu saiti uz šo kartīti šajā lapā.",
+    "shareableByValue": "Iespējot iegulšanu",
+    "shareableOnHover": {
+      "label": "Attēlot, novietojot kursoru",
+      "helperText": {
+        "label": "Kolietošanas poga tiek rādīta tikai novietojot kursoru. Ja izslēgts, poga vienmēr ir redzama."
+      }
+    }
+  },
+  "statistic": {
+    "dataSource": "Datu avots",
+    "displayValue": "Attēlot vērtību",
+    "sectionTitle": "Vērtība",
+    "type": {
+      "label": "Veids",
+      "enum": {
+        "dynamic": {
+          "label": "Dinamisks",
+          "description": "Izvēlieties esošu datu kopu (elementu servisu), ko apkopot."
+        },
+        "static": {
+          "label": "Statiska",
+          "description": "Manuāli ievadiet vērtību, ko iezīmēt izkārtojumā."
+        }
+      }
+    }
+  }
+}

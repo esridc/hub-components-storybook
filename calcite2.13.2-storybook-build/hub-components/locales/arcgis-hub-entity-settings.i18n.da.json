@@ -1,0 +1,53 @@
+{
+  "settings": "Indstillinger",
+  "formDisabledTooltip": "Du har ikke adgang til at foretage ændringer i denne/dette {type}.",
+  "delete": {
+    "project": "Slet dette projekt",
+    "initiative": "Slet dette initiativ",
+    "site": "Slet dette websted",
+    "discussion": "Slet denne diskussion",
+    "content": "Slet dette indhold",
+    "page": "Slet denne side",
+    "group": "Slet denne gruppe",
+    "initiativeTemplate": "Slet denne initiativskabelon",
+    "template": "Slet denne skabelon",
+    "survey": "Slet denne undersøgelse",
+    "desc": {
+      "project": "Sletning af dette projekt kan ikke fortrydes.",
+      "initiative": "Sletning af dette initiativ kan ikke fortrydes.",
+      "site": "Sletning af dette websted kan ikke fortrydes.",
+      "discussion": "Sletning af denne diskussion kan ikke fortrydes.",
+      "content": "Sletning af dette indhold kan ikke fortrydes.",
+      "page": "Sletning af denne side kan ikke fortrydes.",
+      "group": "Sletning af denne gruppe kan ikke fortrydes.",
+      "initiativeTemplate": "Sletning af denne initiativskabelon kan ikke fortrydes.",
+      "template": "Sletning af denne skabelon kan ikke fortrydes.",
+      "survey": "Sletning af denne undersøgelse kan ikke fortrydes."
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "project": "Slet projekt",
+      "initiative": "Slet initiativ",
+      "site": "Slet sted",
+      "discussion": "Slet diskussion",
+      "content": "Slet indhold",
+      "page": "Slet side",
+      "group": "Slet gruppe",
+      "initiativeTemplate": "Slet initiativ-skabelon",
+      "template": "Slet skabelon",
+      "survey": "Slet undersøgelse"
+    },
+    "content": "Er du sikker på, at du vil slette:",
+    "delete": "Slet",
+    "cancel": "Annullér"
+  },
+  "sidePanel": {
+    "content": {
+      "extractNotice": {
+        "title": "Funktionen Udtræk ændrer indstillingerne for tjenester.",
+        "message": "Andre elementer, der henviser til tjenesten, vil blive påvirket. Der er flere oplysninger under <docLink>Eksporter data fra hostede vektorlag</docLink>"
+      }
+    }
+  }
+}

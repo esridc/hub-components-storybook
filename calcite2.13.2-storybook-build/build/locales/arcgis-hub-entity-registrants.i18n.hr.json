@@ -1,0 +1,46 @@
+{
+  "registrants": "Prijavljene osobe",
+  "invite": "Pozovi",
+  "tabs": {
+    "registrants": "Prijavljene osobe",
+    "settings": "Postavke"
+  },
+  "emptyNotice": {
+    "title": "Nema prijavljenih osoba",
+    "desc": "Događaji su uvijek zabavniji uz publiku. Pozovite ljude ili podijelite svoj događaj kako biste potaknuli ljude da prisustvuju.",
+    "link": "Pozovi prijavljene osobe"
+  },
+  "facets": {
+    "role": {
+      "header": "Uloga",
+      "owner": "Vlasnik",
+      "organizer": "Organizator",
+      "attendee": "Osoba prijavljena na događaj"
+    },
+    "status": {
+      "header": "Status",
+      "pending": "Na čekanju",
+      "accepted": "Prihvaćeno",
+      "declined": "Odbijeno",
+      "blocked": "Blokirano"
+    },
+    "location": {
+      "header": "Lokacija",
+      "online": "Na mreži",
+      "in_person": "Osobno"
+    },
+    "updatedDate": "Ažuriran datum"
+  },
+  "delete": {
+    "attendee": "Ukloni prijavljenu osobu"
+  },
+  "notice": {
+    "label": "Stvori upozorenje"
+  },
+  "success": {
+    "delete": "Prijavljene osobe uspješno uklonjene iz događaja {eventName}."
+  },
+  "error": {
+    "delete": "Jednu ili više prijavljenih osoba nije bilo moguće ukloniti iz događaja."
+  }
+}

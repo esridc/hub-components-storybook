@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "Edit",
+    "fields": {
+      "label": {
+        "label": "Label",
+        "requiredMessage": "Diperlukan label",
+        "maxLengthMessage": "Label tidak boleh melebihi {maxLength} karakter"
+      }
+    },
+    "apply": "Terapkan"
+  },
+  "showItem": "Tampilkan item daftar berikut: {itemLabel}",
+  "hideItem": "Sembunyikan item daftar berikut: {itemLabel}",
+  "editItem": "Edit item daftar berikut: {itemLabel}"
+}

@@ -1,0 +1,57 @@
+{
+  "new": "Nové",
+  "project": {
+    "label": "Projekt",
+    "description": "Zdôraznite činnosť, ktorá má jasné ciele a časový rámec",
+    "createLabel": "Vytvoriť projekt",
+    "newLabel": "Nový projekt"
+  },
+  "initiative": {
+    "label": "Iniciatíva",
+    "description": "Iniciatívy organizujú a sumarizujú pokrok smerom k cieľu",
+    "createLabel": "Vytvoriť iniciatívu",
+    "newLabel": "Nová iniciatíva"
+  },
+  "discussion": {
+    "label": "Diskusné fórum",
+    "description": "Vytvorte nové diskusné fórum zadaním názvu, ktorý indikuje tému.",
+    "createLabel": "Vytvoriť diskusné fórum",
+    "newLabel": "Nové diskusné fórum"
+  },
+  "site": {
+    "label": "Stránka",
+    "description": "Vytvorte webovú stránku na organizáciu a zdieľanie informácií",
+    "createLabel": "Vytvoriť stránku",
+    "newLabel": "Nová stránka"
+  },
+  "event": {
+    "label": "Udalosť",
+    "description": "Usporiadajte organizovanú aktivitu, osobne alebo virtuálne",
+    "createLabel": "Vytvoriť udalosť",
+    "newLabel": "Nová udalosť"
+  },
+  "content": {
+    "label": "Obsah",
+    "description": "Pridajte na vašu svoju stránku dáta, dokumenty, obrázky a externé odkazy",
+    "createLabel": "Vytvoriť obsah",
+    "newLabel": "Nový obsah"
+  },
+  "feedback": {
+    "label": "Spätná väzba",
+    "description": "Zhromaždite cielené informácie pomocou nástrojov, ako sú prieskumy a ankety",
+    "createLabel": "Vytvoriť spätnú väzbu",
+    "newLabel": "Nová spätná väzba"
+  },
+  "app": {
+    "label": "Aplikácia",
+    "description": "Vytvorte zážitok, rozprávajte príbeh alebo vizualizujte svoje dáta",
+    "createLabel": "Vytvoriť aplikáciu",
+    "newLabel": "Nová aplikácia"
+  },
+  "group": {
+    "label": "Skupina",
+    "description": "Založte skupinu na spoluprácu na cielenom obsahu",
+    "createLabel": "Vytvoriť skupinu",
+    "newLabel": "Nová skupina"
+  }
+}

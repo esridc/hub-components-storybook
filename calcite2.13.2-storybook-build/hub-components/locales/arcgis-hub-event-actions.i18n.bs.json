@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "Registriraj",
+    "registered": "Registrirano",
+    "join": "Pridruži se online",
+    "in-person": "Osobno",
+    "online": "Na mreži",
+    "inPersonFull": "Osobno (popunjen)",
+    "onlineFull": "Online (popunjen)",
+    "close": "Zatvori"
+  },
+  "tooltip": {
+    "isCanceled": "Događaj je otkazan",
+    "eventHasEnded": "Događaj je završio",
+    "eventFull": "Događaj je popunjen",
+    "inPerson": "Registrirani za događaj uživo",
+    "online": "Registrirani za online događaj",
+    "unavailable": "Dostupno sat vremena prije početka događaja"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "Uspješno ste otkazali registraciju na online događaj",
+    "onlineRegistrationConfirmed": "Uspješno ste se registrirali na online događaj",
+    "onlineRegistrationError": "Došlo je do neočekivane pogreške prilikom registracije na online događaj",
+    "onlineRegistrationCanceledError": "Došlo je do neočekivane pogreške prilikom poništavanja registracije na online događaj",
+    "onlineRegistrationAtCapacity": "Pokušali ste se registrirati na online događaj koji je popunjen",
+    "inPersonRegistrationCanceled": "Uspješno ste otkazali rezervaciju na događaj uživo",
+    "inPersonRegistrationCanceledError": "Došlo je do neočekivane pogreške prilikom poništavanja registracija na događaj uživo",
+    "inPersonRegistrationConfirmed": "Uspješno ste se registrirali na događaj uživo",
+    "inPersonRegistrationError": "Došlo je do neočekivane pogreške prilikom registracije za događaj uživo",
+    "inPersonRegistrationAtCapacity": "Pokušali ste se registrirati na događaj uživo koji je popunjen"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "Pridėti pirmą veiksmą",
+  "addSecondAction": "Pridėti antrą veiksmą",
+  "addLink": "Pridėti nuorodą",
+  "addSection": "Pridėti sekciją",
+  "deleteNotice": {
+    "title": "Ištrinti nepavyko",
+    "message": "Sekcija yra tuščia. Prieš bandydami ištrinti, perkelkite visas nuorodas už sekcijos ribų."
+  },
+  "linkEditor": {
+    "save": "Įrašyti",
+    "delete": "Ištrinti",
+    "cancel": "Atšaukti",
+    "preview": "Peržiūrėti nuorodą",
+    "title": {
+      "button1": "Pirmas veiksmas",
+      "button2": "Antras veiksmas",
+      "block": "Veiksmo nuoroda"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "Nuoroda į esamą turinį"
+        },
+        "external": {
+          "label": "Nuoroda į išorinį šaltinį"
+        }
+      },
+      "label": {
+        "label": "Žymė",
+        "helperText": {
+          "button": "Šis tekstas bus rodomas ant mygtuko.",
+          "block": "Tai bus rodoma bloke paryškintu šriftu."
+        },
+        "requiredError": "Žymės laukas yra būtinas."
+      },
+      "description": {
+        "label": "Aprašas",
+        "helperText": "Tai yra antrinė informacija."
+      },
+      "href": {
+        "label": "Nuoroda",
+        "requiredError": "Nuorodos laukas yra būtinas.",
+        "formatError": "URL formatavimas netinkamas."
+      },
+      "contentId": {
+        "label": "Turinio nuoroda",
+        "requiredError": "Turinio nuorodos laukas yra būtinas."
+      },
+      "section": {
+        "label": "Perkelti į sekciją",
+        "placeholder": {
+          "noSections": "Nesukonfigūruota jokių sekcijų",
+          "notSet": "Nėra sekcijoje"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "Skiltis",
+    "helperText": "Sekcijos gali būti naudojamos norint įdėti nuorodas po meniu elementu. Sekcijos neveikia kaip nuorodos.",
+    "section": {
+      "label": {
+        "label": "Žymė",
+        "requiredError": "Žymės laukas yra būtinas."
+      },
+      "description": {
+        "label": "Aprašas"
+      }
+    }
+  }
+}

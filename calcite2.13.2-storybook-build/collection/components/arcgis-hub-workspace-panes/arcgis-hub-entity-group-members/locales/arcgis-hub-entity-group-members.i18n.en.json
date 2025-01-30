@@ -1,0 +1,59 @@
+{
+  "title": "Members",
+  "facets": {
+    "role": {
+      "label": "Role",
+      "all": "All",
+      "manager": "Manager",
+      "member": "Member"
+    },
+    "dateJoined": {
+      "label": "Date joined"
+    }
+  },
+  "stats": {
+    "total": {
+      "title": "Total",
+      "trailingText": "Group members"
+    },
+    "new": {
+      "title": "New",
+      "trailingText": "Last 30 days"
+    }
+  },
+  "addMembers": {
+    "button": "Add members",
+    "disabledTooltip": "You do not have access to add users to this group.",
+    "modal": {
+      "title": "Add members",
+      "org": "My organization",
+      "community": "My community",
+      "partner": "My partners",
+      "world": "World"
+    },
+    "notifications": {
+      "invited": "Invite sent. Users must accept to join",
+      "added": "User(s) added",
+      "notInvited": "Some users may not have the privileges needed to join the group or may be at a group maximum limit (512)"
+    }
+  },
+  "removeUsers": {
+    "button": "Remove",
+    "success": "Members successfully removed from {groupName}.",
+    "error": "One or more users could not be removed from the group."
+  },
+  "changeRole": {
+    "tooltipText": "Deselect yourself and/or group owner",
+    "tooltipLabel": "Role disclaimer",
+    "button": "Change role",
+    "member": "Member",
+    "memberHelperText": "Can add and see content within the group.",
+    "admin": "Manager",
+    "adminHelperText": "Can add/remove content and invite/remove people (except for the owner).",
+    "success": "Selected members became group {role}.",
+    "error": "Role could not be changed for one or more members."
+  },
+  "notice": {
+    "label": "Form alert"
+  }
+}

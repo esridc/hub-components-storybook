@@ -1,0 +1,54 @@
+{
+  "existing": {
+    "successHeading": "Obsah byl úspěšně přidán.",
+    "failureHeading": "Do vybrané skupiny nelze přidat obsah.",
+    "successfulAccordionHeading": "Obsah byl přidán do vybrané skupiny.",
+    "unsuccessfulAccordionHeading": "Obsah nebyl přidán do vybrané skupiny"
+  },
+  "create": {
+    "event": {
+      "successWithoutGroupHeading": "Událost byla úspěšně vytvořena.",
+      "successWithGroupHeading": "Událost byla úspěšně vytvořena a přidána do skupiny {group}.",
+      "successMessage": "Nyní si můžete událost zobrazit, spravovat ji a upravovat její informace nebo se kliknutím na tlačítko „hotovo“ vrátit do zobrazení.",
+      "failureHeading": "Přidání události do vybrané skupiny se nezdařilo."
+    },
+    "discussion": {
+      "successWithoutGroupHeading": "Diskuzní fórum bylo úspěšně vytvořeno.",
+      "successWithGroupHeading": "Diskuzní fórum bylo úspěšně vytvořeno a přidáno do skupiny {group}.",
+      "successMessage": "Nyní si můžete diskuzní fórum zobrazit, spravovat ho a upravovat jeho informace nebo se kliknutím na tlačítko „hotovo“ vrátit do zobrazení.",
+      "failureHeading": "Přidání diskuzního fóra do vybrané skupiny se nezdařilo."
+    },
+    "group": {
+      "successWithoutGroupHeading": "Skupina byla úspěšně vytvořena.",
+      "successMessage": "Nyní si můžete skupinu zobrazit, spravovat ji a upravovat její informace nebo se kliknutím na tlačítko „hotovo“ vrátit do zobrazení.",
+      "failureHeading": "Vytvoření skupiny se nezdařilo."
+    },
+    "initiative": {
+      "successWithoutGroupHeading": "Iniciativa byla úspěšně vytvořena.",
+      "successWithGroupHeading": "Iniciativa byla úspěšně vytvořena a přidána do skupiny {group}.",
+      "successMessage": "Nyní si můžete iniciativu zobrazit, spravovat ji a upravovat její informace nebo se kliknutím na tlačítko „hotovo“ vrátit do zobrazení.",
+      "failureHeading": "Přidání iniciativy do vybrané skupiny se nezdařilo."
+    },
+    "page": {
+      "successWithoutGroupHeading": "Stránka byla úspěšně vytvořena.",
+      "successWithGroupHeading": "Stránka byla úspěšně vytvořena a přidána do skupiny {group}.",
+      "successMessage": "Nyní si můžete stránku zobrazit, spravovat ji a upravovat její informace nebo se kliknutím na tlačítko „hotovo“ vrátit do zobrazení.",
+      "failureHeading": "Přidání stránky do vybrané skupiny se nezdařilo."
+    },
+    "project": {
+      "successWithoutGroupHeading": "Projekt byl úspěšně vytvořen.",
+      "successWithGroupHeading": "Projekt byl úspěšně vytvořen a přidán do skupiny {group}.",
+      "successMessage": "Nyní si můžete projekt zobrazit, spravovat jej a upravovat jeho informace nebo se kliknutím na tlačítko „hotovo“ vrátit do zobrazení.",
+      "failureHeading": "Přidání projektu do vybrané skupiny se nezdařilo."
+    },
+    "site": {
+      "successWithoutGroupHeading": "Web byl úspěšně vytvořen.",
+      "successWithGroupHeading": "Web byl úspěšně vytvořen a přidán do skupiny {group}.",
+      "successMessage": "Nyní si můžete web zobrazit, spravovat jej a upravovat jeho informace nebo se kliknutím na tlačítko „hotovo“ vrátit do zobrazení.",
+      "failureHeading": "Přidání webu do vybrané skupiny se nezdařilo."
+    }
+  },
+  "editLayout": "Upravit rozvržení",
+  "manageEntity": "Spravovat",
+  "viewEntity": "Zobrazit"
+}

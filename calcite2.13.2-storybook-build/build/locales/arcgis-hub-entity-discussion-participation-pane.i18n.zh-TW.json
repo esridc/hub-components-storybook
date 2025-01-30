@@ -1,0 +1,82 @@
+{
+  "title": "參與",
+  "subtitle": "設定討論板可見性 (誰可以檢視)，向下捲動以設定誰可以編輯討論板資訊，然後設定通道的參與和審核。",
+  "channelTitle": "參與通道已設定",
+  "channelDescription": "此通道控制誰可以在此討論版上新增、檢視和管理貼文。",
+  "addChannelsTitle": "設定通道",
+  "addChannelsDescription": "通道控制誰可以向討論板新增貼文。 它們可以向群組、組織或公眾開放，並且可以套用於許多討論。 通道還可以控制誰可以審核。 設定通道內自動審核的封鎖單字。",
+  "privateChannelTitle": "私人通道已設定",
+  "privateChannelDescription": "您看不到指派給此討論板的私人通道。 您可以移除通道並選擇現有通道或建立通道。",
+  "removeChannelConfirmationMessage": "此討論板將不再顯示貼文。 如果此通道已移除，您可以新增該通道。",
+  "headingChannelEdit": "您正在編輯通道",
+  "headingChannelView": "您正在檢視通道",
+  "headingChannelCreate": "您正在建立通道",
+  "buttons": {
+    "browse": "瀏覽通道",
+    "new": "新增通道",
+    "removeChannel": "移除通道",
+    "cancel": "取消"
+  },
+  "alerts": {
+    "label": "表格警示",
+    "set": {
+      "title": "成功。 已設定通道。"
+    },
+    "removed": {
+      "title": "已移除通道",
+      "message": "選擇或建立參與通道。"
+    },
+    "error": {
+      "title": "失敗。 未設定通道。"
+    }
+  },
+  "galleryPickerTitle": "選擇通道",
+  "channelsLabel": "通道",
+  "accessLabel": "存取",
+  "optionPublicLabel": "公共",
+  "optionOrganizationLabel": "組織",
+  "optionPrivateLabel": "私有",
+  "viewChannel": "檢視通道",
+  "editChannel": "編輯通道",
+  "save": "儲存",
+  "removeChannel": "移除通道",
+  "groupPicker": {
+    "facet": {
+      "label": "從",
+      "myGroups": "我的群組",
+      "myOrganization": "我的組織",
+      "myCommunity": "我的社群"
+    }
+  },
+  "editGroupButtonText": "新增編輯群組",
+  "viewGroupButtonText": "新增檢視群組",
+  "viewGroups": {
+    "header": "誰可以檢視",
+    "description": "可以檢視 (但不能發佈) 的人；發佈由以下通道設定。"
+  },
+  "editGroups": {
+    "header": "哪些人可編輯",
+    "description": "群組成員可以在工作空間編輯討論板資訊。"
+  },
+  "aboutChannelsNotice": {
+    "title": "簡介通道",
+    "message": "通道不是群組，但可以包含它們。 他們決定誰可以發佈和審核。",
+    "action": "通道的更多資訊"
+  },
+  "nonPrivateChannelNotice": {
+    "title": "無法編輯通道",
+    "message": "只有此通道的版主才能對其進行編輯。 如果需要，請聯絡通道擁有者或組織管理員進行新增。 您也可以移除此通道、新增現有通道 (您是該通道的版主) 或建立一個新通道。"
+  },
+  "privateChannelNotice": {
+    "title": "無法編輯通道",
+    "message": "只有此通道的版主才能對其進行編輯。 如果需要，請聯絡通道擁有者進行新增。 您也可以移除此通道、新增現有通道 (您是該通道的版主) 或建立一個新通道。"
+  },
+  "participate": {
+    "header": "誰可以參與，誰可以審核"
+  },
+  "org": "組織",
+  "private": "私有",
+  "public": "公共",
+  "unnamed": "未指定的通道",
+  "groupNotFound": "找不到群組"
+}

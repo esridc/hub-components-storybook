@@ -1,0 +1,165 @@
+{
+  "advancedConfig": {
+    "label": "Cấu hình nâng cao",
+    "serverTimeout": {
+      "label": "Thời gian chờ máy chủ (giây)",
+      "helperText": "Hữu ích cho các dịch vụ lớn hơn có thể mất nhiều thời gian hơn để phản hồi.",
+      "errors": {
+        "type": "Vui lòng nhập cấu hình thời gian chờ máy chủ.",
+        "minimum": "Giá trị thời gian chờ máy chủ phải từ 5 trở lên.",
+        "maximum": "Giá trị thời gian chờ máy chủ phải từ 95 trở xuống."
+      }
+    }
+  },
+  "appearance": {
+    "corners": {
+      "label": "Góc",
+      "enum": {
+        "round": {
+          "label": "Hình tròn"
+        },
+        "square": {
+          "label": "Square (Bình phương)"
+        }
+      }
+    },
+    "dropShadow": {
+      "label": "Đổ Bóng",
+      "enum": {
+        "heavy": {
+          "label": "Mạnh"
+        },
+        "low": {
+          "label": "Thấp"
+        },
+        "medium": {
+          "label": "Trung bình"
+        },
+        "none": {
+          "label": "Chưa Bắt đầu"
+        }
+      }
+    },
+    "layout": {
+      "label": "Loại thẻ",
+      "enum": {
+        "informational": {
+          "label": "Tin tức"
+        },
+        "simple": {
+          "label": "Đơn giản"
+        }
+      }
+    },
+    "popoverText": {
+      "label": "Nội dung phương thức"
+    },
+    "publisherText": {
+      "label": "Người xuất bản nguồn"
+    },
+    "styleSpecificSettings": {
+      "label": "Cài đặt kiểu",
+      "helperInfoText": "Chọn nút thông tin sẽ mở ra phương thức chứa thêm thông tin.",
+      "helperVizText": "Thẻ đơn giản hỗ trợ thêm biểu tượng dưới dạng phần tử trực quan có thể được sử dụng để phản ánh sự thay đổi trong dữ liệu."
+    },
+    "sectionTitle": "Giao diện",
+    "textAlign": "Căn chỉnh",
+    "visualInterest": {
+      "label": "Phần tử trực quan",
+      "enum": {
+        "icon": {
+          "label": "Biểu tượng"
+        },
+        "none": {
+          "label": "Không có"
+        }
+      }
+    },
+    "icon": {
+      "label": "Biểu tượng",
+      "caretUp": {
+        "label": "Tăng"
+      },
+      "caretDown": {
+        "label": "Giảm"
+      },
+      "caretDouble": {
+        "label": "Không có thay đổi"
+      }
+    },
+    "valueColor": "Màu sắc (Thống kê)"
+  },
+  "details": {
+    "allowDynamicLink": "Hiển thị liên kết nguồn",
+    "link": {
+      "sectionTitle": "Liên kết",
+      "sourceLink": "URL Liên kết",
+      "sourceTitle": "Văn bản liên kết"
+    },
+    "sectionTitle": "Thông tin chi tiết",
+    "subtitle": "Phụ đề",
+    "title": "Tiêu đề",
+    "trailingText": {
+      "label": "Văn bản cuối câu",
+      "helperText": "Nhập thêm bối cảnh hoặc giải thích (để hiển thị bên dưới giá trị số liệu)."
+    }
+  },
+  "errors": {
+    "sourceLink": {
+      "required": "Liên kết bắt buộc để hiển thị nguồn.",
+      "formatError": "Định dạng URL không chính xác"
+    }
+  },
+  "formatting": {
+    "sectionTitle": "Đang định dạng",
+    "unit": {
+      "label": "Đơn vị hiển thị",
+      "helperText": "Nhập đơn vị đo lường lường cho giá trị của bạn."
+    },
+    "unitPosition": {
+      "label": "Sắp đặt",
+      "helperText": "Chọn vị trí hiển thị đơn vị đo lường (ví dụ: 'km', 'lbs') liên quan đến giá trị số liệu.",
+      "enum": {
+        "after": {
+          "label": "Sau"
+        },
+        "before": {
+          "label": "Trước"
+        },
+        "below": {
+          "label": "Ở dưới"
+        }
+      }
+    }
+  },
+  "sharing": {
+    "sectionTitle": "Chia sẻ",
+    "showShareIcon": "Cho phép chia sẻ",
+    "showShareIconHelperText": "Cho phép người dùng sao chép liên kết trực tiếp tới thẻ này vào trang này.",
+    "shareableByValue": "Bật Nội dung nhúng",
+    "shareableOnHover": {
+      "label": "Hiển thị khi di chuột",
+      "helperText": {
+        "label": "Nút chia sẻ sẽ chỉ hiển thị khi di chuột. Nếu tắt, nút sẽ luôn hiển thị."
+      }
+    }
+  },
+  "statistic": {
+    "dataSource": "Nguồn dữ liệu",
+    "displayValue": "Giá trị hiển thị",
+    "sectionTitle": "Giá trị",
+    "type": {
+      "label": "Loại",
+      "enum": {
+        "dynamic": {
+          "label": "Động",
+          "description": "Chọn một bộ dữ liệu hiện có (dịch vụ đối tượng) để tóm tắt."
+        },
+        "static": {
+          "label": "Tĩnh",
+          "description": "Nhập thủ công một giá trị để đánh dấu trong bố cục."
+        }
+      }
+    }
+  }
+}

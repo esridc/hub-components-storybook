@@ -1,0 +1,75 @@
+{
+  "addMetric": "添加指标",
+  "title": "指标",
+  "featured": "专题",
+  "metricDescription": "基于静态(例如历史)或动态(例如实时)数据，用于追踪工程进度的可测量值。",
+  "metricCount": {
+    "label": "{currentCount} / {totalCountAllowed} 指标",
+    "tooltip": "要添加指标，请删除一些现有集合"
+  },
+  "visible": {
+    "title": "可见",
+    "noMetrics": "此部分中没有任何指标。"
+  },
+  "hidden": {
+    "title": "已隐藏",
+    "description": "这些指标仅对具有此工作空间访问权限的人员可见。",
+    "noMetrics": "此部分中没有任何指标。"
+  },
+  "project": {
+    "featured": {
+      "description": "您可以拥有 4 个专题指标。 这些指标将显示在实时工程的概览中。"
+    },
+    "visible": {
+      "description": "可见指标将显示在实时工程的“指标”选项卡下。"
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "指标将与工程的共享级别相匹配。 可能仍可通过 API 调用使用隐藏指标。",
+        "metricsDockLink": "了解有关设置指标的信息"
+      }
+    }
+  },
+  "initiative": {
+    "featured": {
+      "description": "您可以拥有 4 个专题指标。 这些指标将显示在实时倡议的概览中。"
+    },
+    "visible": {
+      "description": "可见指标将显示在实时工程的“指标”选项卡下。"
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "指标将与倡议的共享级别相匹配。 可能仍可通过 API 调用使用隐藏指标。",
+        "metricsDockLink": "了解有关设置指标的信息"
+      }
+    }
+  },
+  "metricNumber": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4"
+  },
+  "actions": {
+    "delete": "删除",
+    "edit": "编辑",
+    "featured": "功能",
+    "removeFeatured": "移除精选",
+    "show": "移至可见",
+    "hide": "移至隐藏"
+  },
+  "editor": {
+    "heading": "新建指标",
+    "description": "默认情况下，将自动隐藏指标，以便工作空间的成员进行查看。"
+  },
+  "deleteMetricModal": {
+    "heading": "删除指标",
+    "content": "是否确定要删除：",
+    "cancel": "取消",
+    "delete": "删除"
+  },
+  "sidePanel": {
+    "definitions": "定义",
+    "preview": "预览"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "El meu contingut",
+    "livingAtlas": "Living Atlas",
+    "organization": "La meva organització",
+    "world": "Tot el món (públic)"
+  },
+  "collection": {
+    "appsAndMaps": "Aplicacions i mapes",
+    "feedback": "Comentaris"
+  },
+  "facets": {
+    "type": "Tipus",
+    "tags": "Etiquetes",
+    "categories": "Categories",
+    "modified": "Data de modificació"
+  },
+  "pickerTitle": "Seleccioneu contingut",
+  "height": "Alçada (px)",
+  "isScrollable": "Desplaçable",
+  "errors": {
+    "heightMinimum": "El valor ha de ser un nombre positiu.",
+    "heightMaximum": "El valor ha de ser menor o igual que 2.000 px.",
+    "urlError": "Ha de ser un URL vàlid."
+  },
+  "success": {
+    "urlSuccess": "L'URL s'ha carregat correctament."
+  },
+  "shouldApplyBreakpoints": {
+    "label": "Aplica la configuració per punts de ruptura de dispositiu"
+  },
+  "viewportAll": {
+    "label": "Per defecte",
+    "description": "Aquesta configuració s'aplica a totes les mides de pantalla"
+  },
+  "viewportMobile": {
+    "label": "Mòbil",
+    "description": "Aquesta configuració s'aplica a pantalles de 360 px o més d'ample"
+  },
+  "viewportTablet": {
+    "label": "Tauleta",
+    "description": "Aquesta configuració s'aplica a pantalles de 560 px o més d'ample"
+  },
+  "viewportDesktop": {
+    "label": "Escriptori",
+    "description": "Aquesta configuració s'aplica a pantalles de 980 px o més d'ample"
+  },
+  "sourceLabel": "Seleccioneu el tipus d'incrustació",
+  "contentLabel": "Contingut de l'ArcGIS",
+  "externalLabel": "URL extern",
+  "contentDescription": "Seleccioneu enllaços de mapes, escenes, aplicacions, enquestes i documents a què tingueu accés.",
+  "externalDescription": "Introduïu un URL per incrustrar-lo. Tingueu en compte que alguns dominis no permeten la incrustació i es possible que no es mostrin de la manera prevista."
+}

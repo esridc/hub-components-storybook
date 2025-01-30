@@ -1,0 +1,85 @@
+{
+  "collaborators": "Collaborators",
+  "editGroupButtonText": "Add edit groups",
+  "viewGroupButtonText": "Add view groups",
+  "groupPicker": {
+    "title": "Select groups",
+    "facet": {
+      "label": "From",
+      "editGroups": "Edit groups",
+      "viewGroups": "View group",
+      "myGroups": "My groups",
+      "myOrganization": "My organization",
+      "myCommunity": "My community"
+    }
+  },
+  "addNewPeopleNotice": {
+    "title": "Add new people",
+    "message": "If you need to add people, you can invite them to join the community or you can <orgOverviewLink>contact your administrator</orgOverviewLink>."
+  },
+  "editGroupsTitle": "Groups that can edit",
+  "viewGroupsTitle": "Groups that can view",
+  "project": {
+    "description": "Choose which groups of users can view and edit this project.",
+    "editGroupsDescription": "The people in these groups will be able to edit project information.",
+    "viewGroupsDescription": "The people in these groups will be able to search and view the project, if it is not shared to the public.",
+    "errorMessage": "There was an error updating the collaborators of your project."
+  },
+  "content": {
+    "description": "Choose which groups of users can view and edit this content.",
+    "editGroupsDescription": "The people in these groups will be able to edit content information.",
+    "viewGroupsDescription": "The people in these groups will be able to search and view the content, if it is not shared to the public.",
+    "errorMessage": "There was an error updating the collaborators of your content."
+  },
+  "discussion": {
+    "description": "Choose which groups of users can view the discussion board and which can edit board information.",
+    "editGroupsDescription": "Members of these groups can edit discussion board information.",
+    "viewGroupsDescription": "Members of these groups can search and view the discussion board (if not shared with the public).",
+    "errorMessage": "There was an error updating the collaborators of your discussion."
+  },
+  "site": {
+    "description": "Choose which groups of users can view and edit this site.",
+    "editGroupsDescription": "The people in these groups will be able to edit site information.",
+    "viewGroupsDescription": "The people in these groups will be able to search and view the site, if it is not shared to the public.",
+    "errorMessage": "There was an error updating the collaborators of your site."
+  },
+  "template": {
+    "description": "Choose which groups of users can view and edit this template.",
+    "editGroupsDescription": "The people in these groups will be able to edit template information.",
+    "viewGroupsDescription": "The people in these groups will be able to search and view the template, if it is not shared to the public.",
+    "errorMessage": "There was an error updating the collaborators of your template."
+  },
+  "survey": {
+    "description": "Choose which groups of users can view and edit this survey.",
+    "editGroupsDescription": "The people in these groups will be able to edit survey information.",
+    "viewGroupsDescription": "The people in these groups will be able to search and view the survey, if it is not shared to the public.",
+    "errorMessage": "There was an error updating the collaborators of your survey."
+  },
+  "event": {
+    "description": "Choose which groups of users can view and edit this event.",
+    "editGroupsDescription": "The people in these groups will be able to edit event information.",
+    "viewGroupsDescription": "The people in these groups will be able to search and view the event, if it is not shared to the public.",
+    "errorMessage": "There was an error updating the collaborators of your event."
+  },
+  "newTab": "open profile in new tab",
+  "supportingTeams": "Supporting teams",
+  "supportingTeamsDesc": "These supporting teams were previously linked to your site. You can continue to use them to share content with collaborators.",
+  "supportTeamsRemove": "Remove team",
+  "supportingTeamsRemoveError": "Error unlinking team. Contact an administrator.",
+  "supportingTeamsRemoveSuccess": "Successfully unlinked team.",
+  "view": {
+    "button": "Create view group",
+    "formLabel": "New View Group",
+    "description": "Set up a group to facilitate content sharing and communication. Group members will be able to view any content shared with the group."
+  },
+  "edit": {
+    "button": "Create edit group",
+    "formLabel": "New Edit Group",
+    "description": "Set up a group to facilitate content sharing and communication. Group members will be able to view and edit any content shared with the group."
+  },
+  "groupCreateDisabledButtonTooltip": "You are unable to create a group. You may already be in the maximum number of groups or missing sufficient privileges to create a group.",
+  "groupCreateError": "There was an error creating the group.",
+  "notice": {
+    "label": "Form alert"
+  }
+}

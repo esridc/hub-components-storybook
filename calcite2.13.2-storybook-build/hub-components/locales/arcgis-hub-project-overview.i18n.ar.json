@@ -1,0 +1,19 @@
+{
+  "overview": "نظرة عامة",
+  "telemetry": {
+    "pageViews": "عروض الصفحة",
+    "last30days": "آخر 30 يومًا",
+    "lastUpdated": "تم التحديث الأخير منذ {hoursElapsed} ساعات",
+    "checkTomorrow": "تحقق مرة أخرى غدًا"
+  },
+  "learnAbout": "تعرّف على مشاريع Hub",
+  "status": {
+    "notStarted": "لم يتم البدء",
+    "inProgress": "قيد التقدم",
+    "onHold": "متوقف مؤقتًا",
+    "complete": "اكتمل"
+  },
+  "editDetails": "تحرير التفاصيل",
+  "noPurposeSet": "لا يوجد هدف محدد",
+  "noLocationSet": "لم يتم تعيين موقع"
+}

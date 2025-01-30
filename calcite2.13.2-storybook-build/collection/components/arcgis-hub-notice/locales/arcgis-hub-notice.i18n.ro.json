@@ -1,0 +1,150 @@
+{
+  "modal": {
+    "dismiss": "Nu mai arăta acest lucru",
+    "close": "Închidere"
+  },
+  "notice": {
+    "n001": {
+      "title": "Notificare test",
+      "message": "Acesta este corpul notificării test",
+      "actions": [
+        {
+          "text": "Citiți blogul"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-1": {
+      "title": "Comutați la experiența de descărcare actualizată",
+      "message": "Pentru formate suplimentare și îmbunătățiri în ceea ce privește viteza și performanța, activați „extragere” în serviciul acestui element."
+    },
+    "20240220-hosted-downloads-2": {
+      "title": "Îmbunătățirile de descărcare sunt disponibile!",
+      "message": "Îmbunătățirile pe care să le descărcați de pe site-urile dvs. Hub includ asistență pentru descărcări găzduite, un aspect și o senzație actualizate pentru descărcarea cardurilor și o nouă bară de progres pentru descărcări.",
+      "actions": [
+        {
+          "text": "Aflați mai multe"
+        }
+      ]
+    },
+    "20240220-hosted-downloads-3": {
+      "title": "Descărcările găzduite sunt disponibile",
+      "message": "Descărcările găzduite ajută la îmbunătățirea performanței la descărcarea conținutului. Pentru a activa descărcările găzduite, asigurați-vă că permiteți Capacități de extragere de mai jos.",
+      "actions": [
+        {
+          "text": "Aflați mai multe"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-basic": {
+      "title": "Despre spații de lucru",
+      "message": "<p><strong>Adăugați conținut la cataloagele site-ului folosind grupuri</strong><br>Cataloagele de căutare a site-ului au fost întotdeauna susținute de grupuri, iar spațiile de lucru fac mai ușor de gestionat acele grupuri. Pentru moment, adăugați conținut la grupurile individuale conectate la site-ul dvs. pentru ca ele să apară în catalogul site-ului. În curând, veți putea să adăugați conținut direct în catalogul dvs.</p><p><strong>Trecerea de la Echipe la Grupuri</strong><br>Acum puteți folosi orice grup ArcGIS Online pentru a colabora pe site-uri, pagini, conținut și proiecte în Hub. Toate „Echipele” asociate anterior, cum ar fi „Echipa centrală” a site-ului, vor apărea în continuare în panoul Colaboratori al spațiului de lucru Site.</p><p><strong>Trimiterea de mesaje e-mail bazate pe echipă este temporar întreruptă</strong><br>Trimiterea de mesaje e-mail și e-mailuri de invitare/eliminare către membrii echipei și urmăritori nu sunt acceptate momentan.</p><p><strong>Perimarea designerului de site-uri web Survey123 inclus</strong><br>Am inclus designerul Survey123 pentru a vă ajuta să realizați mai mult în Hub. Cu toate acestea, feedbackul clientului a indicat o preferință pentru designul și gestionarea chestionarelor în Survey123, ca și alte aplicații. Astfel, perimăm asistența pentru designerul Survey123 în ArcGIS Hub pentru a ne alinia mai bine cu fluxul dvs. de lucru dorit.</p>",
+      "actions": [
+        {
+          "text": "Aflați mai multe"
+        }
+      ]
+    },
+    "202404-aboutworkspaces-premium": {
+      "title": "Despre spații de lucru",
+      "message": "<p><strong>Adăugați conținut la cataloagele site-ului folosind grupuri</strong><br>Cataloagele de căutare a site-ului au fost întotdeauna susținute de grupuri, iar spațiile de lucru fac mai ușor de gestionat acele grupuri. Pentru moment, adăugați conținut la grupurile individuale conectate la site-ul dvs. pentru ca ele să apară în catalogul site-ului. În curând, veți putea să adăugați conținut direct în catalogul dvs.</p><p><strong>Trecerea de la Echipe de asistență la Grupuri</strong><br>Acum puteți folosi orice grup ArcGIS Online pentru a colabora pe site-uri, pagini, conținut și proiecte în Hub. Toate echipele de asistență asociate anterior vor apărea în continuare în panoul Colaboratori din spațiul de lucru al site-ului. Pentru continuarea asistenței, adăugați acele echipe de asistență ca Grupuri care pot vizualiza și Grupuri care pot edita.</p><p><strong>Trimiterea de mesaje e-mail pe baza echipelor este temporar întreruptă</strong><br>Trimiterea de mesaje e-mail și e-mailuri de invitație/eliminare către membrii echipelor și urmăritori nu este permisă momentan.</p><p><strong>Perimarea designerului de site-uri Survey123 inclus</strong><br>Am inclus designerul Survey123 pentru a vă ajuta să faceți mai multe în Hub. Cu toate acestea, feedbackul clientului a indicat o preferință pentru designul și gestionarea chestionarelor în Survey123, ca și alte aplicații. Astfel, perimăm asistența pentru designerul Survey123 în ArcGIS Hub pentru a ne alinia mai bine cu fluxul dvs. de lucru dorit.</p><p><strong>Evenimentele nu sunt încă disponibile în spațiile de lucru</strong><br>Evenimentele trec printr-o transformare și ar trebui să fie disponibile în curând în spațiile de lucru. Pentru moment, dacă optați să participați la spațiile de lucru, veți pierde capacitatea de a crea, gestiona și căuta evenimente existente. Cu toate acestea, dacă doriți să gestionați evenimente create anterior, puteți să vă retrageți în orice moment.</p>",
+      "actions": [
+        {
+          "text": "Aflați mai multe"
+        }
+      ]
+    },
+    "202404-workspaceannouncement": {
+      "title": "Prezentarea spațiilor de lucru",
+      "message": "Spațiile de lucru sunt noua modalitate de a edita și gestiona elemente în Hub, înlocuind navigarea globală în vizualizarea editare (nu vizualizarea live). În această fază, puteți „opta pentru participare” (în orice moment) pentru a utiliza spațiile de lucru și obiectele spațiale asociate pentru elemente și grupuri. Evenimentele vor fi disponibile într-o fază ulterioară. Pentru a încerca spațiile de lucru acum, selectați „Accesare setări”.",
+      "actions": [
+        {
+          "text": "Accesați setările"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing": {
+      "title": "Reintroducere — inițiative Hub",
+      "message": "Inițiative ArcGIS Hub schimbate pe 2 iulie 2024. Inițiativele create anterior sunt acum site-uri independente, cu aceleași structuri, conținut, URL-uri și obiecte spațiale premium (cum ar fi urmăritorii și evenimentele) ca înainte. Pentru a încerca inițiative noi reîmprospătate, trebuie să activați spațiile de lucru.",
+      "actions": [
+        {
+          "text": "Aflați despre inițiative",
+          "ariaLabel": "Aflați despre inițiative, se deschide în filă nouă"
+        },
+        {
+          "text": "Accesați setările"
+        }
+      ]
+    },
+    "20240517-initiatives-manage": {
+      "title": "Gestionare inițiative vechi",
+      "message": "Inițiative ArcGIS Hub schimbate pe 2 iulie 2024. Inițiativele create anterior sunt acum site-uri independente, cu aceleași structuri, conținut, URL-uri și obiecte spațiale premium (cum ar fi urmăritorii și evenimentele) ca înainte. Puteți șterge în siguranță orice inițiative vechi.",
+      "actions": [
+        {
+          "text": "Aflați despre inițiative",
+          "ariaLabel": "Aflați despre inițiative, se deschide în filă nouă"
+        },
+        {
+          "text": "Vizualizare inițiative vechi",
+          "ariaLabel": "Vizualizați inițiative vechi, se deschide în filă nouă"
+        }
+      ]
+    },
+    "20240517-initiatives-manage-no-priv": {
+      "title": "Gestionare inițiative vechi",
+      "message": "Inițiative ArcGIS Hub schimbate pe 2 iulie 2024. Inițiativele create anterior sunt acum site-uri independente, cu aceleași structuri, conținut, URL-uri și obiecte spațiale premium (cum ar fi urmăritorii și evenimentele) ca înainte. Puteți șterge în siguranță orice inițiative vechi.",
+      "actions": [
+        {
+          "text": "Aflați despre inițiative",
+          "ariaLabel": "Aflați despre inițiative, se deschide în filă nouă"
+        },
+        {
+          "text": "Vizualizare inițiative vechi",
+          "ariaLabel": "Vizualizați inițiative vechi, se deschide în filă nouă"
+        }
+      ]
+    },
+    "20240517-initiatives-introducing-site": {
+      "title": "Reintroducere — inițiative Hub",
+      "message": "Noua generație de Inițiative Hub este acum disponibilă în spațiile de lucru. Inițiativele au propria vizualizare ușor de configurat și pot ajuta la alinierea Proiectelor Hub care împărtășesc obiective pe termen lung. Inițiativele pot fi create în mod independent și pot fi partajate cu unul sau mai multe site-uri. Site-urile pot cuprinde una sau mai multe inițiative.",
+      "actions": [
+        {
+          "text": "Aflați mai multe",
+          "ariaLabel": "Aflați mai multe, se deschide în filă nouă"
+        }
+      ]
+    },
+    "20240710-slow-service-warning": {
+      "title": "Întrerupere serviciu",
+      "message": "Comunicarea cu serviciul durează mai mult decât era preconizat. Acest lucru poate afecta accesul dvs. la descărcări și funcționalitatea hărții."
+    },
+    "20240710-unreachable-service-error": {
+      "title": "Serviciu indisponibil",
+      "message": "Nu putem contacta serviciul gazdă. Descărcările și funcționalitatea hărții sunt momentan indisponibile pentru acest element."
+    },
+    "20240807-auth-required-status": {
+      "title": "Starea serviciului este necunoscută",
+      "message": "Nu putem accesa serviciul securizat deoarece necesită autorizare suplimentară. Descărcările și funcționalitatea hărții sunt momentan indisponibile pentru element."
+    },
+    "20240805-private-downloads-unavailable-ago-error": {
+      "title": "Descărcările nu sunt disponibile",
+      "message": "Pentru a descărca conținut, setarea Export Data trebuie să fie activată în ArcGIS Online. Vă rugăm să contactați titularul elementului pentru a activa această setare."
+    },
+    "20240805-private-downloads-unavailable-enterprise-error": {
+      "title": "Descărcările nu sunt disponibile",
+      "message": "Pentru a descărca conținut, setarea Export Data trebuie să fie activată în ArcGIS Enterprise. Vă rugăm să contactați titularul elementului pentru a activa această setare."
+    },
+    "20240819-download-formats-disabled": {
+      "title": "Descărcările au fost dezactivate",
+      "message": "Pentru descărcarea de conținut pentru acest element, vă rugăm să contactați proprietarul elementului."
+    },
+    "20241104-about-feeds-notice": {
+      "message": "Faceți datele dvs. deschise public accesibil ușor și reutilizabile cu fluxurile Hub.",
+      "actions": [
+        {
+          "text": "Aflați despre fluxurile Hub",
+          "ariaLabel": "Aflați despre fluxurile Hub, se deschide într-o filă nouă"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "settings": "Pengaturan",
+  "advanced": "Lanjutan",
+  "delete": {
+    "event": "Hapus acara ini",
+    "desc": "Menghapus acara ini tidak dapat diurungkan. Pendaftar yang ada akan diberi tahu (jika notifikasi otomatis untuk acara ini diaktifkan).",
+    "deleteButton": "Hapus peristiwa"
+  },
+  "cancel": {
+    "header": "Batalkan acara ini",
+    "desc": "Jika dibatalkan, acara ini akan tetap terlihat dengan status dibatalkan. Pendaftaran akan dihentikan dan pendaftar yang ada akan diberi tahu (jika notifikasi otomatis untuk acara ini diaktifkan).",
+    "event": "Batalkan peristiwa",
+    "notice": {
+      "success": {
+        "title": "Event dibatalkan",
+        "message": "Pendaftar yang ada akan diberi tahu jika notifikasi otomatis diaktifkan."
+      },
+      "error": {
+        "title": "Tidak dapat membatalkan acara",
+        "message": "Silakan coba lagi"
+      }
+    }
+  },
+  "enable": {
+    "event": "Aktifkan kembali peristiwa",
+    "desc": "Acara dibatalkan (terlihat dengan status dibatalkan).",
+    "notice": {
+      "success": {
+        "title": "Acara diaktifkan kembali",
+        "message": "Pendaftar yang ada akan diberi tahu jika notifikasi otomatis diaktifkan."
+      },
+      "error": {
+        "title": "Tidak dapat mengaktifkan acara kembali",
+        "message": "Silakan coba lagi"
+      }
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "event": "Hapus peristiwa"
+    },
+    "content": "Apakah Anda yakin ingin menghapus:",
+    "delete": "Hapus peristiwa",
+    "cancel": "Batalkan peristiwa"
+  },
+  "notice": {
+    "label": "Peringatan formulir"
+  }
+}

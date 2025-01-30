@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "الفئات",
+        "noCategoriesNotice": {
+          "body": "لم تتوفر بعد لدى هذه المؤسسة أي فئات.",
+          "link": "إعداد الفئات"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "المحتوى",
+      "selectionMode": {
+        "dynamic": {
+          "label": "ديناميكي"
+        },
+        "manual": {
+          "label": "يدوي"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "المؤسسة"
+        },
+        "collection": {
+          "sites": "المواقع",
+          "projects": "المشروعات",
+          "initiatives": "المبادرات"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "المؤسسة"
+        },
+        "collection": {
+          "events": "الأحداث"
+        }
+      },
+      "access": {
+        "label": "مشاركة",
+        "private": {
+          "label": "خاص",
+          "description": "قم بالتصفية حسب المحتوى المتاح لك ولمَن يتمتعون بإمكانية الوصول إلى المجموعة فقط."
+        },
+        "org": {
+          "label": "المؤسسة",
+          "description": "قم بالتصفية حسب المحتوى المتاح فقط لأعضاء مؤسستك."
+        },
+        "public": {
+          "label": "عام",
+          "description": "قم بالتصفية حسب المحتوى المتاح للجميع."
+        }
+      },
+      "tags": {
+        "label": "العلامات"
+      },
+      "cardsShown": {
+        "label": "البطاقات المعروضة"
+      }
+    },
+    "appearance": {
+      "label": "المظهر",
+      "titleHeading": {
+        "label": "رأس العنوان",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "وفقًا لتقنية WCAG G141، تعمل العناوين المتداخلة على تحسين إمكانية الوصول."
+      },
+      "corners": {
+        "label": "الزوايا",
+        "square": {
+          "label": "مربع"
+        },
+        "round": {
+          "label": "مستدير"
+        }
+      },
+      "shadow": {
+        "label": "ظل",
+        "none": {
+          "label": "تم إيقاف التشغيل"
+        },
+        "low": {
+          "label": "منخفض"
+        },
+        "medium": {
+          "label": "متوسط"
+        },
+        "heavy": {
+          "label": "ثقيل"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "إظهار معلومات إضافية"
+      },
+      "layout": {
+        "label": "تخطيط",
+        "list": {
+          "label": "قائمة"
+        },
+        "map": {
+          "label": "خريطة"
+        },
+        "calendar": {
+          "label": "التقويم"
+        }
+      }
+    },
+    "options": {
+      "label": "خيارات",
+      "openIn": {
+        "label": "جار الفتح في…",
+        "same": {
+          "label": "نفس علامة التبويب"
+        },
+        "new": {
+          "label": "علامة تبويب جديدة"
+        },
+        "notice": {
+          "title": "نصيحة حول إمكانية الوصول:",
+          "body": "وفقًا لتقنية WCAG 2.0 G200، لا يُنصح بفتح الروابط في علامات تبويب أو نوافذ جديدة.",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "اقرأ المزيد عن WCAG 2.0 G200"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "مشاركة",
+      "public": {
+        "label": "عام"
+      },
+      "private": {
+        "label": "خاص"
+      },
+      "organization": {
+        "label": "المؤسسة"
+      }
+    },
+    "from": {
+      "label": "مِن",
+      "myOrganization": {
+        "label": "مؤسستي"
+      },
+      "myContent": {
+        "label": "المحتوى الخاص بي"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "الأحداث",
+      "collections": {
+        "event": {
+          "label": "الأحداث"
+        }
+      }
+    },
+    "item": {
+      "label": "المحتوى",
+      "collections": {
+        "item": {
+          "label": "المحتوى"
+        }
+      }
+    }
+  }
+}

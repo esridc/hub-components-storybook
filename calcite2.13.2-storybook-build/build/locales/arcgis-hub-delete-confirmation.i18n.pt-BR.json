@@ -1,0 +1,50 @@
+{
+  "section": "Excluir",
+  "protection": "Evite excluir acidentalmente este {type}.",
+  "protectionTooltip": "Dica de ferramenta de proteção",
+  "protectionDisabledTooltip": "Somente proprietários ou administradores da organização podem alterar a proteção.",
+  "deleteDisabledNoAccessTooltip": "Somente proprietários ou administradores da organização podem excluir.",
+  "deleteDisabledNoAccessTooltipGroup": "Somente proprietários, gerentes ou administradores da organização podem excluir.",
+  "deleteDisabledProtectedTooltip": "Você não pode excluir enquanto a proteção contra exclusão estiver ativada.",
+  "deleteButton": "Excluir",
+  "protect": {
+    "successTitle": "Excluir proteção adicionada",
+    "success": "Você não pode excluir enquanto a proteção contra exclusão estiver ativada.",
+    "successLabel": "Alerta de proteção contra exclusão adicionado.",
+    "errorTitle": "Não foi possível adicionar proteção contra exclusão",
+    "error": "Ocorreu um erro ao adicionar proteção contra exclusão.",
+    "errorLabel": "Alerta de falha na proteção contra exclusão."
+  },
+  "unprotect": {
+    "successTitle": "Excluir proteção removida",
+    "success": "Você pode excluir enquanto a proteção contra exclusão estiver desativada.",
+    "successLabel": "Alerta de proteção contra exclusão removido.",
+    "errorTitle": "Não foi possível remover a proteção contra exclusão",
+    "error": "Ocorreu um erro ao remover a proteção contra exclusão.",
+    "errorLabel": "Alerta de falha na remoção da proteção contra exclusão."
+  },
+  "delete": {
+    "successTitle": "Exclusão bem-sucedida",
+    "success": "Redirecionando para sua área de trabalho da página inicial",
+    "successLabel": "Alerta de exclusão bem-sucedida.",
+    "errorTitle": "Falha na exclusão",
+    "error": "Alguma coisa deu errado. Tente novamente.",
+    "errorLabel": "Alerta de falha na exclusão."
+  },
+  "permanentDelete": {
+    "successTitle": "Exclusão permanente bem-sucedida",
+    "success": "Redirecionando para sua área de trabalho da página inicial",
+    "successLabel": "Alerta de exclusão bem-sucedida.",
+    "errorTitle": "Falha na exclusão",
+    "error": "Alguma coisa deu errado. Tente novamente.",
+    "errorLabel": "Alerta de falha na exclusão."
+  },
+  "deleteModal": {
+    "header": "Excluir",
+    "deleteContent": "Você não pode desfazer uma exclusão permanente. Tem certeza que deseja prosseguir?",
+    "recycleContent": "O conteúdo excluído será enviado para a lixeira. Você terá 14 dias para recuperá-lo.",
+    "delete": "Excluir",
+    "permanentlyDelete": "Excluir permanentemente",
+    "cancel": "Cancelar"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "success": "A módosítások mentése sikerült",
+  "error": "Hiba történt a módosítások mentése során",
+  "formAlert": "Űrlappal kapcsolatos figyelmeztetés",
+  "projects": {
+    "header": "Projektek",
+    "list": "Projektlista",
+    "config": "Konfiguráció",
+    "notConfigured": "A projektképesség nincs konfigurálva. Kérjük, használja a Konfiguráció lapot."
+  },
+  "content": {
+    "header": "Tartalom",
+    "list": "Tartalomlista",
+    "config": "Konfiguráció",
+    "notConfigured": "A tartalomképesség nincs konfigurálva. Kérjük, használja a Konfiguráció lapot."
+  },
+  "initiatives": {
+    "header": "Kezdeményezések",
+    "list": "Kezdeményezéslista",
+    "config": "Konfiguráció",
+    "notConfigured": "A kezdeményezésképesség nincs konfigurálva. Kérjük, használja a Konfiguráció lapot."
+  },
+  "events": {
+    "header": "Események",
+    "list": "Eseménylista",
+    "config": "Konfiguráció",
+    "notConfigured": "Az eseményképesség nincs konfigurálva. Kérjük, használja a Konfiguráció lapot."
+  },
+  "pages": {
+    "header": "Oldalak",
+    "list": "Oldallista",
+    "config": "Konfiguráció",
+    "notConfigured": "Az oldalképesség nincs konfigurálva. Kérjük, használja a Konfiguráció lapot."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Nenhum resultado encontrado."
+    },
+    "error": {
+      "message": "Lamentamos, mas ocorreu um erro na pesquisa."
+    }
+  },
+  "type": "Tipo",
+  "tags": "Tags",
+  "owner": "Proprietário",
+  "dateCreated": "Criado",
+  "dateUpdated": "Modificado",
+  "categories": "Categorias",
+  "dateAndTime": "Data e hora",
+  "allDay": "{date} (o dia todo)",
+  "allDayRange": "{from} - {to} (o dia todo)",
+  "location": "Localização",
+  "attendanceType": "Tipo de atendimento",
+  "inPerson": "Pessoalmente",
+  "online": "Online",
+  "hybrid": "Híbrido"
+}

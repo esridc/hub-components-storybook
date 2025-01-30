@@ -1,0 +1,1 @@
+import{d as n}from"./p-86d0dfb0.js";function r(r){return r.httpMethod="GET",n("/channels",r)}export{r as s}

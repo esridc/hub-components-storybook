@@ -1,0 +1,26 @@
+{
+  "unauthenticated": {
+    "heading": "Lütfen oturum açın.",
+    "message": "Bu site erişim için kimlik bilgileri gerektirir.",
+    "actionText": "Oturum Aç"
+  },
+  "not-found": {
+    "heading": "Sayfa Bulunamadı",
+    "message": "Bu sayfa taşınmış veya silinmiş olabilir. Giriş sayfasından aramayı deneyin",
+    "actionText": "Giriş Sayfasına Git"
+  },
+  "unsupported-device": {
+    "heading": "Desteklenmeyen ekran boyutu",
+    "message": "Çalışma alanları küçük ekran boyutlarında henüz kullanılamamaktadır; lütfen daha geniş ekranlı bir cihaz kullanın.",
+    "actionText": "Geri dön"
+  },
+  "access-denied": {
+    "heading": "Erişim Reddedildi",
+    "message": "Bu kaynağa erişim izniniz yok.",
+    "actionText": "Giriş Sayfasına Git"
+  },
+  "loading": {
+    "heading": "Yükleniyor...",
+    "loadingLabel": "Yükleniyor"
+  }
+}

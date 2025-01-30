@@ -1,0 +1,33 @@
+{
+  "title": "Koleksi",
+  "actions": {
+    "label": "Opsi",
+    "show": "Tampilkan",
+    "hide": "Sembunyikan",
+    "rename": "Ubah Nama"
+  },
+  "formAlert": "Peringatan formulir",
+  "alertMessages": {
+    "success": "Berhasil menyimpan editan",
+    "error": "Terjadi kesalahan saat menyimpan perubahan"
+  },
+  "collectionRenameModal": {
+    "title": "Ubah Nama Koleksi",
+    "fieldLabel": "Label koleksi",
+    "requiredMessage": "Label koleksi diperlukan",
+    "apply": "Terapkan",
+    "maxLengthMessage": "Label koleksi tidak boleh melebihi 50 karakter"
+  },
+  "collections": {
+    "dataset": "Data",
+    "site": "Situs",
+    "document": "Dokumen",
+    "appAndMap": "Aplikasi & Peta"
+  },
+  "saveButton": "Simpan",
+  "sections": {
+    "collectionConfiguration": {
+      "title": "Konfigurasi koleksi"
+    }
+  }
+}

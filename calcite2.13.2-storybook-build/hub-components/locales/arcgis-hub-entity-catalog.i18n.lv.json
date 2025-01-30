@@ -1,0 +1,65 @@
+{
+  "catalog": "Katalogs",
+  "catalog-content": "Saturs",
+  "catalog-events": "Pasākumi",
+  "shared": {
+    "publish": {
+      "label": "Saglabāt",
+      "success": {
+        "title": "Sekmīgi publicēti kataloga rediģējumi tiešajā skatā"
+      },
+      "error": {
+        "title": "Kļūda, saglabājot labojumus"
+      }
+    }
+  },
+  "emptyState": {
+    "message": "Katalogs nav definēts",
+    "action": "Veidot katalogu"
+  },
+  "actionBar": {
+    "details": "Kataloga konfigurācija",
+    "appearance": "Kataloga izskats",
+    "tooltip": {
+      "appearanceDisabled": "Pašlaik neviens katalogs nav konfigurēts. Lūdzu, konfigurējiet katalogu, lai pielāgotu izskata iestatījumus.",
+      "configuration": "Konfigurācija",
+      "appearance": "Izskats"
+    }
+  },
+  "detailsPanel": {
+    "heading": "Kataloga konfigurācija",
+    "close": "Aizvērt kataloga pielāgošanu",
+    "catalogBuilder": {
+      "helperText": "Jūsu katalogs ļauj apmeklētājiem meklēt un skatīt saturu. Attēlotie rezultāti ir pamatoti uz jūsu vaicājuma konfigurāciju."
+    },
+    "querySizeNotice": {
+      "warning": {
+        "title": "Tuvojas kataloga limits",
+        "catalogSourceMessage": {
+          "item": "Jūsu vienības avota konfigurācija tuvojas apmjoma limitam.",
+          "event": "Jūsu pasākuma avota konfigurācija tuvojas apjoma limitam."
+        },
+        "collectionSourceMessage": {
+          "item": "Jūsu vienības avota & \"{collectionName}\" kolekcijas konfigurācijas kombinācija tuvojas apjoma limitam.",
+          "event": "Jūsu pasākuma avota & \"{collectionName}\" kolekcijas konfigurācijas kombinācija tuvojas apjoma limitam."
+        }
+      },
+      "danger": {
+        "title": "Kataloga ierobežojums ir pārsniegts",
+        "catalogSourceMessage": {
+          "item": "Jūsu vienības avota konfigurācija ir pārsniegusi apjoma ierobežojumu. Samaziniet filtru un/vai filtru opciju skaitu publicējamā vienības avotā.",
+          "event": "Jūsu pasākuma avota konfigurācija ir pārsniegusi apjoma ierobežojumu. Samaziniet publicējamo filtru un/vai filtru opciju skaitu savā pasākumu vienības avotā."
+        },
+        "collectionSourceMessage": {
+          "item": "Jūsu vienības avota & \"{collectionName}\" kolekcijas pielāgošanu kombinācija ir pārsniegusi apjoma ierobežojumu. Samaziniet publicējamo filtru un/vai filtru opciju skaitu savā vienību avotā un/vai \"{collectionName}\" kolekcijā.",
+          "event": "Jūsu pasākuma avota & \"{collectionName}\" kolekcijas konfigurācijas kombinācija ir pārsniegusi apmēra ierobežojumu. Samaziniet publicējamo filtru un/vai filtru opciju skaitu savā pasākuma avotā un/vai \"{collectionName}\" kolekcijā."
+        }
+      }
+    }
+  },
+  "appearancePanel": {
+    "heading": "Kataloga izskats",
+    "close": "Aizvērt kataloga izskatu",
+    "description": "Jūsu katalogs ļauj apmeklētājiem meklēt un skatīt saturu. Šeit varat atjaunināt to, kā vajadzētu izskatīties noklusējuma katalogam un kādus filtrus vēlaties parādīt."
+  }
+}

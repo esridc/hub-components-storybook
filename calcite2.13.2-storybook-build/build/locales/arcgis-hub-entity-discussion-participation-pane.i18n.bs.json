@@ -1,0 +1,82 @@
+{
+  "title": "Sudjelovanje",
+  "subtitle": "Postavite vidljivost ploče za raspravu (tko može vidjeti), pomaknite se prema dolje da postavite tko može uređivati informacije o ploči, a zatim postavite sudjelovanje i moderiranje s kanalima.",
+  "channelTitle": "Kanal za sudjelovanje je postavljen",
+  "channelDescription": "Ovaj kanal kontrolira tko može dodavati, pregledavati i moderirati objave na ovoj ploči za rasprave.",
+  "addChannelsTitle": "Postavi kanal",
+  "addChannelsDescription": "Kanali kontroliraju tko može dodavati objave na ploču. Mogu biti otvoreni grupama, organizaciji ili javnosti i može ih se primijeniti na mnoge rasprave. Kanali također kontroliraju tko može moderirati. Postavite blokirane riječi za automatsku moderaciju unutar kanala.",
+  "privateChannelTitle": "Privatni kanal je postavljen",
+  "privateChannelDescription": "Ne možete vidjeti privatni kanal dodijeljen ovoj ploči za rasprave. Možete ukloniti kanal i odabrati postojeći kanal ili stvoriti kanal.",
+  "removeChannelConfirmationMessage": "Ova ploča za raspravu više neće prikazivati postove. Možete dodati kanal ako je ovaj kanal uklonjen.",
+  "headingChannelEdit": "Uređujete kanal",
+  "headingChannelView": "Pregledavate kanal",
+  "headingChannelCreate": "Stvarate kanal",
+  "buttons": {
+    "browse": "Pregledaj kanale",
+    "new": "Novi kanal",
+    "removeChannel": "Ukloni kanal",
+    "cancel": "Odustani"
+  },
+  "alerts": {
+    "label": "Stvori upozorenje",
+    "set": {
+      "title": "Uspjeh. Kanal je postavljen."
+    },
+    "removed": {
+      "title": "Kanal je uklonjen",
+      "message": "Odaberite ili kreirajte kanal za sudjelovanje."
+    },
+    "error": {
+      "title": "Neuspjeh. Kanal nije postavljen."
+    }
+  },
+  "galleryPickerTitle": "Odaberite kanal",
+  "channelsLabel": "Kanali",
+  "accessLabel": "Pristup",
+  "optionPublicLabel": "Javno",
+  "optionOrganizationLabel": "Organizacija",
+  "optionPrivateLabel": "Privatno",
+  "viewChannel": "Prikaži kanal",
+  "editChannel": "Uredi kanal",
+  "save": "Spremi",
+  "removeChannel": "Ukloni kanal",
+  "groupPicker": {
+    "facet": {
+      "label": "Šalje",
+      "myGroups": "Moje grupe",
+      "myOrganization": "Moja organizacija",
+      "myCommunity": "Moja zajednica"
+    }
+  },
+  "editGroupButtonText": "Dodaj grupe za uređivanje",
+  "viewGroupButtonText": "Dodaj grupe za pregled",
+  "viewGroups": {
+    "header": "Tko može pregledavati",
+    "description": "Ljudi koji mogu vidjeti (ali ne i objavljivati) ploču; objavljivanje je postavljeno kanalima ispod."
+  },
+  "editGroups": {
+    "header": "Tko može uređivati",
+    "description": "Članovi grupe mogu uređivati informacije o ploči u radnom prostoru."
+  },
+  "aboutChannelsNotice": {
+    "title": "Predstavljamo kanale",
+    "message": "Kanali nisu grupe, ali ih mogu sadržavati. Oni određuju tko može objavljivati i moderirati.",
+    "action": "Više o kanalima"
+  },
+  "nonPrivateChannelNotice": {
+    "title": "Nije moguće urediti kanal",
+    "message": "Samo moderatori ovog kanala ga mogu urediti. Kontaktirajte s vlasnikom kanala ili administratorom organizacije za dodavanje, ako je potrebno. Također možete ukloniti ovaj kanal, dodati postojeći (čiji ste moderator) ili stvoriti novi."
+  },
+  "privateChannelNotice": {
+    "title": "Nije moguće urediti kanal",
+    "message": "Samo moderatori ovog kanala ga mogu urediti. Kontaktirajte s vlasnikom kanala za dodavanje, ako je potrebno. Također možete ukloniti ovaj kanal, dodati postojeći (čiji ste moderator) ili stvoriti novi."
+  },
+  "participate": {
+    "header": "Tko može sudjelovati i tko može moderirati"
+  },
+  "org": "Organizacija",
+  "private": "Privatno",
+  "public": "Javno",
+  "unnamed": "Neimenovani kanal",
+  "groupNotFound": "Grupa nije pronađena"
+}

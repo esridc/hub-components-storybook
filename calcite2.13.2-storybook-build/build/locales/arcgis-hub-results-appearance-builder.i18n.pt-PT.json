@@ -1,0 +1,118 @@
+{
+  "layout": {
+    "title": "Layout",
+    "helperText": "Isto configura o aspeto dos resultados quando os visitantes acedem pela primeira vez ao seu catálogo. Os visitantes continuarão a ter a possibilidade de alterar o método de visualização.",
+    "enum": {
+      "list": {
+        "label": "Lista",
+        "description": "Utilize para apresentar metadados e quando é provável que os visitantes estejam a fazer pesquisas específicas."
+      },
+      "grid": {
+        "label": "Grelha",
+        "description": "Utilize para resultados que tenham miniaturas de alta qualidade e quando é provável que os visitantes estejam a pesquisar."
+      },
+      "table": {
+        "label": "Tabela",
+        "description": "Utilize para apresentar resultados num formato estruturado com colunas ordenáveis, ideal quando os visitantes pretendem visualizar e comparar muitos itens e respetivos atributos."
+      },
+      "map": {
+        "label": "Mapa",
+        "description": "Utilize para resultados associados a localizações físicas e quando é provável que os visitantes estejam a explorar áreas de interesse."
+      },
+      "compact": {
+        "label": "Compacta",
+        "description": "Utilize para maximizar o número de resultados visíveis num espaço mais pequeno, ideal para uma navegação rápida ou visualização em dispositivos móveis."
+      }
+    }
+  },
+  "cards": {
+    "title": "Cartões",
+    "cardTitleTag": {
+      "label": "Cabeçalho",
+      "helperText": "Isto pode ser utilizado para melhorar a estrutura de títulos aninhados para acessibilidade. Não irá alterar o tamanho do tipo de letra.",
+      "enum": {
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        }
+      }
+    },
+    "showThumbnail": {
+      "label": "Mostrar miniatura",
+      "enum": {
+        "show": {
+          "label": "Sempre",
+          "description": "As imagens miniatura serão sempre apresentadas nos cartões de resultados, independentemente da disposição dos resultados."
+        },
+        "hide": {
+          "label": "Não mostrar miniaturas",
+          "description": "As imagens miniatura não serão apresentadas em nenhum tipo de cartão de resultados. Utilize esta opção se tiver miniaturas de fraca qualidade ou se pretender que as pessoas possam analisar os resultados de lista mais rapidamente no computador e dispositivo móvel."
+        },
+        "grid": {
+          "label": "Apenas na grelha",
+          "description": "As imagens miniatura só serão apresentadas em cartões de grelha. Os cartões de lista irão mostrar uma coluna extra de metadados em vez de uma imagem."
+        }
+      }
+    },
+    "corners": {
+      "label": "Cantos",
+      "enum": {
+        "square": {
+          "label": "Quadrado"
+        },
+        "round": {
+          "label": "Arredondado"
+        }
+      }
+    },
+    "shadow": {
+      "label": "Sombra",
+      "enum": {
+        "heavy": {
+          "label": "Carregado"
+        },
+        "low": {
+          "label": "Baixo"
+        },
+        "medium": {
+          "label": "Médio"
+        },
+        "none": {
+          "label": "Nenhum"
+        }
+      }
+    },
+    "showLinkButton": {
+      "label": "Incluir botões",
+      "helperText": "Se os botões estiverem desativados, apenas o título do cartão será uma ligação."
+    },
+    "linkButtonStyle": {
+      "label": "Estilo",
+      "enum": {
+        "outline-filled": {
+          "label": "Preenchido"
+        },
+        "outline": {
+          "label": "Contorno"
+        }
+      }
+    },
+    "linkButtonText": {
+      "label": "Texto"
+    }
+  }
+}

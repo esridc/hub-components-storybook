@@ -1,0 +1,15 @@
+{
+  "newCollection": "新增集合",
+  "block": {
+    "heading": {
+      "untitled": "無標題的集合"
+    },
+    "actions": {
+      "delete": "刪除集合: {label}"
+    }
+  },
+  "name": {
+    "label": "名稱",
+    "requiredError": "需要集合名稱"
+  }
+}

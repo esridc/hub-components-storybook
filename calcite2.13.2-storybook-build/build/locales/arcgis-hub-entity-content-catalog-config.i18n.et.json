@@ -1,0 +1,46 @@
+{
+  "title": "Kataloogi konfigureerimine",
+  "helperText": "Määrake ja konfigureerige kataloog",
+  "sections": {
+    "groups": {
+      "title": "Grupid",
+      "helperText": "Allpool nimetatud grupid sisaldavad teie otsingukataloogi sisu. Valige grupp, et vaadata sätteid, sisu jms.",
+      "createGroup": "Loo uus grupp"
+    },
+    "feeds": {
+      "title": "Voo konfiguratsioon",
+      "helperText": "Muutke oma avalikud avatud andmed Hubi voogude abil hõlpsasti juurdepääsetavaks ja korduskasutatavaks.",
+      "learn": "Teave Hubi voogude kohta",
+      "toggle": "Luba vood ",
+      "configure": "Voogude konfigureerimine",
+      "notice": "Voogude lubamiseks peate esmalt seadma oma Hubi saidi jaotises Seaded olekusse „Avalik“"
+    }
+  },
+  "groupPickerFacet": {
+    "label": "Lähtekoht",
+    "editGroups": "Muutke gruppe",
+    "viewGroups": "Kuva grupp",
+    "myGroups": "Minu grupid",
+    "myOrganization": "Minu organisatsioon",
+    "myCommunity": "Minu kogukond",
+    "public": "Avalik"
+  },
+  "formAlert": "Vormi hoiatus",
+  "configSaveAlert": {
+    "success": "Muudatused on salvestatud",
+    "failure": "Tõrge muudatuste salvestamisel"
+  },
+  "reharvestCatalogButton": "Otsi tõrkeid",
+  "reharvestWarningModal": {
+    "title": "Otsi tõrkeid",
+    "body1": "Hoiatus: seda valikut kasutatakse tavaliselt ainult olukordades, kus teie otsingulehel on tulemuste või metaandmete puudumisega seotud probleeme. See valik kontrollib kõigi kataloogirühmade kõiki elemente lisamiste, metaandmete muudatuste või eemaldamiste suhtes.",
+    "body2": "Selle protsessi käivitamine taastab selle kataloogi avaliku otsinguregistri ja võib kesta mitu minutit. See suurendab kõikide ArcGIS Serveri kasutamisjuhtude koormust.",
+    "primaryButton": "Jätka",
+    "secondaryButton": "Loobu"
+  },
+  "reharvestCatalogAlert": {
+    "success": "Tõrgete kontrollimine. Vaadake hiljem uuesti.",
+    "inProgress": "Kontrollimine on juba pooleli. Pöörduge hiljem tagasi.",
+    "failure": "Kahjuks ilmnes töötõrge. Proovige hiljem uuesti."
+  }
+}

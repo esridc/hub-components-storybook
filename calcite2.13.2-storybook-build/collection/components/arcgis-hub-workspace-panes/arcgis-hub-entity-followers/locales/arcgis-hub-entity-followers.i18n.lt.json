@@ -1,0 +1,66 @@
+{
+  "followers": "Sekėjai",
+  "tabs": {
+    "followers": "Stebėtojai",
+    "settings": "Nustatymai"
+  },
+  "addFollowers": {
+    "label": "Pridėti sekėjų"
+  },
+  "emptyState": {
+    "message": "Svetainėje nėra sekėjų grupės",
+    "action": "Kurti sekėjų grupę"
+  },
+  "createFollowersGroup": {
+    "formDescription": "Sukurkite grupę, kad būtų lengviau bendrinti turinį ir bendrauti",
+    "defaultSummary": "Šioje sekėjų grupėje nariai gali lengviau bendrinti turinį ir bendrauti tarpusavyje"
+  },
+  "restrictedAccessState": {
+    "message": "Neturite prieigos peržiūrėti sekėjų grupę.",
+    "action": "Prašyti prieigos"
+  },
+  "stats": {
+    "total": {
+      "title": "Iš viso",
+      "trailingText": "Sekėjai"
+    },
+    "new": {
+      "title": "Nauja",
+      "trailingText": "30 dienų"
+    }
+  },
+  "addMembers": {
+    "button": "Įtraukti narius",
+    "modal": {
+      "title": "Įtraukti narius",
+      "org": "Mano organizacija",
+      "community": "Mano bendruomenė",
+      "partner": "Mano partneriai",
+      "world": "Pasaulis"
+    },
+    "notifications": {
+      "invited": "Pakvietimas išsiųstas. Naudotojai turi sutikti prisijungti",
+      "added": "Naudotojas (-ai) prijungtas (-i)",
+      "notInvited": "Kai kurie naudotojai gali neturėti teisių, reikalingų prisijungti prie grupės, arba jiems gali būti taikomas didžiausias grupės limitas (512)"
+    }
+  },
+  "removeUsers": {
+    "button": "Pašalinti",
+    "success": "Nariai sėkmingai pašalinti iš {groupName}.",
+    "error": "Vieno ar daugiau naudotojų nepavyko pašalinti iš grupės."
+  },
+  "changeRole": {
+    "button": "Pakeisti vaidmenį",
+    "member": "Narys",
+    "memberHelperText": "Gali pridėti ir matyti grupės turinį.",
+    "tooltipText": "Atšaukite save ir (arba) grupės savininką",
+    "tooltipLabel": "Rolės atsakomybės atsisakymas",
+    "admin": "Valdytojas",
+    "adminHelperText": "Gali pridėti / pašalinti turinį ir pakviesti / pašalinti žmones (išskyrus savininką).",
+    "success": "Pasirinkti nariai tapo grupės {role}.",
+    "error": "Vienam ar daugiau narių nepavyko pakeisti vaidmens."
+  },
+  "notice": {
+    "label": "Formos įspėjimas"
+  }
+}

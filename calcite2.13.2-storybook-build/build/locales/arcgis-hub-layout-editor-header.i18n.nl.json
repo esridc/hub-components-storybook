@@ -1,0 +1,39 @@
+{
+  "popover": {
+    "access": {
+      "org": "Gedeeld met organisatie",
+      "private": "Gedeeld met eigenaar",
+      "public": "Gedeeld met publiek",
+      "shared": "Gedeeld met eigenaar en groepen"
+    },
+    "editLayout": "Lay-out bewerken",
+    "lastUpdated": "Laatst bijgewerkt: {updated}",
+    "viewSite": "Site weergeven"
+  },
+  "cloneLayoutLabel": "Lay-out klonen",
+  "deleteDraftLabel": "Concept verwijderen",
+  "deletePageLabel": "Pagina verwijderen",
+  "deleteSiteLabel": "Site verwijderen",
+  "editInAgoLabel": "Bewerken in ArcGIS Online",
+  "managePage": "Pagina beheren",
+  "manageSite": "Site beheren",
+  "manageTemplate": "Sjabloon beheren",
+  "moreOptionsLabel": "Meer opties",
+  "publishLabel": {
+    "site": "Lay-out publiceren",
+    "page": "Lay-out publiceren",
+    "survey": "Publiceren"
+  },
+  "saveAsTemplateLabel": "Als sjabloon opslaan",
+  "saveLabel": {
+    "site": "Lay-out opslaan",
+    "page": "Lay-out opslaan",
+    "survey": "Opslaan",
+    "template": "Opslaan"
+  },
+  "sharingLabel": "Paneel voor delen openen",
+  "editS123Label": "Bewerken in Survey123",
+  "viewLabel": "Weergeven",
+  "viewPublishedLabel": "Gepubliceerde items weergeven",
+  "viewUnpublishedLabel": "Concept weergeven"
+}

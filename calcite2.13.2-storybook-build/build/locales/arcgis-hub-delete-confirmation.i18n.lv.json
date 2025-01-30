@@ -1,0 +1,50 @@
+{
+  "section": "Dzēst",
+  "protection": "Neļaujiet nejauši izdzēst šo {type}.",
+  "protectionTooltip": "Aizsardzības rīka padoms",
+  "protectionDisabledTooltip": "Aizsardzību var mainīt tikai īpašnieki vai organizācijas administratori.",
+  "deleteDisabledNoAccessTooltip": "Dzēst drīkst tikai īpašnieki vai organizācijas administratori.",
+  "deleteDisabledNoAccessTooltipGroup": "Dzēst drīkst tikai īpašnieki vai organizācijas administratori.",
+  "deleteDisabledProtectedTooltip": "Nevar dzēst, kamēr ir iespējota aizsardzība pret dzēšanu.",
+  "deleteButton": "Dzēst",
+  "protect": {
+    "successTitle": "Pievienota aizsardzība pret dzēšanu",
+    "success": "Nevar dzēst, kamēr ir iespējota aizsardzība pret dzēšanu.",
+    "successLabel": "Brīdinājums par aizsardzības pret dzēšanu pievienošanu.",
+    "errorTitle": "Nevar pievienot aizsardzību pret dzēšanu",
+    "error": "Pievienojot dzēšanas aizsardzību, radās kļūda.",
+    "errorLabel": "Brīdinājums par dzēšanas aizsardzības neizdošanos."
+  },
+  "unprotect": {
+    "successTitle": "Aizsardzība pret dzēšanu noņemta",
+    "success": "Dzēšanu var veikt, kamēr aizsardzība pret dzēšanu ir atspējota.",
+    "successLabel": "Brīdinājums par aizsardzības pret dzēšanu noņemšanu.",
+    "errorTitle": "Nevar noņemt aizsardzību pret dzēšanu.",
+    "error": "Noņemot dzēšanas aizsardzību, radās kļūda.",
+    "errorLabel": "Brīdinājums par aizsardzības pret dzēšanu noņemšanas neizdošanos."
+  },
+  "delete": {
+    "successTitle": "Dzēšana izdevās",
+    "success": "Novirzīšana uz mājas darbvietu",
+    "successLabel": "Brīdinājums par veiksmīgu dzēšanu.",
+    "errorTitle": "Dzēšana neizdevās",
+    "error": "Radās problēma. Lūdzu, mēģiniet vēlreiz.",
+    "errorLabel": "Brīdinājums par dzēšanas neizdošanos."
+  },
+  "permanentDelete": {
+    "successTitle": "Neatgriezeniska dzēšana izdevās",
+    "success": "Novirzīšana uz mājas darbvietu",
+    "successLabel": "Brīdinājums par veiksmīgu dzēšanu.",
+    "errorTitle": "Dzēšana neizdevās",
+    "error": "Radās problēma. Lūdzu, mēģiniet vēlreiz.",
+    "errorLabel": "Brīdinājums par dzēšanas neizdošanos."
+  },
+  "deleteModal": {
+    "header": "Dzēst",
+    "deleteContent": "Neatgriezenisku dzēšanu nevar atsaukt. Vai tiešām vēlaties turpināt?",
+    "recycleContent": "Izdzēstais saturs tiks nosūtīts uz atkritni. Jums būs 14 dienas, lai to atgūtu.",
+    "delete": "Dzēst",
+    "permanentlyDelete": "Neatgriezeniski dzēst",
+    "cancel": "Atcelt"
+  }
+}

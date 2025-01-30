@@ -1,0 +1,46 @@
+{
+  "registrants": "Inscritos",
+  "invite": "Convidar",
+  "tabs": {
+    "registrants": "Inscritos",
+    "settings": "Configurações"
+  },
+  "emptyNotice": {
+    "title": "Sem inscritos",
+    "desc": "Os eventos são sempre mais divertidos com o público. Convide pessoas ou compartilhe seu evento para incentivá-las a comparecer.",
+    "link": "Convidar inscritos"
+  },
+  "facets": {
+    "role": {
+      "header": "Papel",
+      "owner": "Proprietário",
+      "organizer": "Organizador",
+      "attendee": "Inscrito"
+    },
+    "status": {
+      "header": "Status",
+      "pending": "Pendente",
+      "accepted": "Aceito",
+      "declined": "Recusado",
+      "blocked": "Bloqueado"
+    },
+    "location": {
+      "header": "Localização",
+      "online": "Online",
+      "in_person": "Pessoalmente"
+    },
+    "updatedDate": "Data atualizada"
+  },
+  "delete": {
+    "attendee": "Remover inscritos"
+  },
+  "notice": {
+    "label": "Alerta de formulário"
+  },
+  "success": {
+    "delete": "Inscritos removidos com sucesso de {eventName}."
+  },
+  "error": {
+    "delete": "Um ou mais inscritos não puderam ser removidos do evento."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "Objektide kogum",
+    "fgdb": "Faili geoandmebaas",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Shape-fail",
+    "sqlite": "SQLite geoandmebaas"
+  },
+  "buttonText": {
+    "download": "Allalaadimine",
+    "pending": "Ootel",
+    "processing": "Töötlemine",
+    "converting": "Teisendamine",
+    "completed": "Allalaadimine on lõpule jõudnud",
+    "failed": "Allalaadimine nurjus"
+  },
+  "errors": {
+    "errorHeading": "Tõrge"
+  },
+  "cacheStatusAccordion": {
+    "heading": "Kas leidsite, mida otsisite?",
+    "content": "Saadaval võib olla uuem versioon.",
+    "button": "Taotle uut faili"
+  },
+  "generateNewModal": {
+    "heading": "Kas olete kindel?",
+    "content": "See võib veidi aega võtta. Hoidke seda brauseri vahekaarti aktiivsena, kuni allalaadimine on lõppenud.",
+    "confirmButton": "Jah",
+    "cancelButton": "Loobu"
+  }
+}

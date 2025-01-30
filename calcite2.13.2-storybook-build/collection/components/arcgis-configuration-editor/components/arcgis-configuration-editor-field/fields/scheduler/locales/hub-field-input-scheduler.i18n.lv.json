@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "Automatizē Hub",
+      "actionText": "Automātiskās opcijas informācija"
+    },
+    "daily": {
+      "defaultLabel": "Katru dienu",
+      "defaultExpandedHelperText": "Katru dienu atlasītajā stundā atlasītajā laika joslā.",
+      "actionText": "Dienas opcijas informācija"
+    },
+    "weekly": {
+      "defaultLabel": "Katru nedēļu",
+      "defaultExpandedHelperText": "Katru nedēļu nākamajā dienā un stundā atlasītajā laika joslā.",
+      "actionText": "Nedēļas opcijas informācija"
+    },
+    "monthly": {
+      "defaultLabel": "Katru mēnesi",
+      "defaultExpandedHelperText": "Katru mēnesi nākamajā dienā un stundā atlasītajā laika joslā",
+      "actionText": "Mēneša opcijas informācija"
+    },
+    "yearly": {
+      "defaultLabel": "Katru gadu",
+      "defaultExpandedHelperText": "Katru gadu nākamajā dienā un stundā atlasītajā laika joslā.",
+      "actionText": "Gada opcijas informācija"
+    },
+    "manual": {
+      "defaultLabel": "Manuāli",
+      "defaultExpandedHelperText": "Izmantojiet šo opciju, ja vēlaties manuāli atjaunināt šīs vienības meklēšanas indeksu un kešatmiņā saglabātos lejupielādes failus.",
+      "actionText": "Manuālās opcijas informācija"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "Dienas laiks",
+      "inputMessage": "Laiks tiks noapaļots līdz tuvākajai stundai.",
+      "error": "Lūdzu, atlasiet stundu."
+    },
+    "day": {
+      "helperText": "Nedēļas diena",
+      "daysOfTheWeek": {
+        "sunday": "Svētdiena",
+        "monday": "Pirmdiena",
+        "tuesday": "Otrdiena",
+        "wednesday": "Trešdiena",
+        "thursday": "Ceturtdiena",
+        "friday": "Piektdiena",
+        "saturday": "Sestdiena"
+      },
+      "selectLabel": "Nedēļas dienas atlasītājs",
+      "error": "Lūdzu, izvēlieties nedēļas dienu."
+    },
+    "date": {
+      "helperText": "Mēneša diena",
+      "inputNumberPlaceholder": "Izvēlēties mēneša dienu",
+      "inputMessage": "Mēneša dienai ievadiet vērtību no 1 līdz 28.",
+      "error": "Mēneša dienai ir jābūt starp 1 līdz 28."
+    },
+    "month": {
+      "helperText": "Gada mēnesis",
+      "selectLabel": "Gada mēneša atlasītājs",
+      "monthsOfTheYear": {
+        "january": "Janvāris",
+        "february": "Februāris",
+        "march": "Marts",
+        "april": "Aprīlis",
+        "may": "Maijs",
+        "june": "Jūnijs",
+        "july": "Jūlijs",
+        "august": "Augusts",
+        "september": "Septembris",
+        "october": "Oktobris",
+        "november": "Novembris",
+        "december": "Decembris"
+      },
+      "error": "Lūdzu, izvēlieties mēnesi."
+    },
+    "timezone": {
+      "helperText": "Laika zona",
+      "error": "Lūdzu, izvēlieties laika joslu."
+    }
+  },
+  "fieldHeader": "Biežums"
+}

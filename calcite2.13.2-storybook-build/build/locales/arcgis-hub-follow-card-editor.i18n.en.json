@@ -1,0 +1,41 @@
+{
+  "notice": {
+    "outdatedItem": {
+      "title": "Replace your initiative",
+      "message": "This card references an outdated item. Select another item for users to follow."
+    },
+    "missingFollowersGroup": {
+      "title": "Missing followers group",
+      "message": "This item is missing a followers group. Please select another item."
+    },
+    "noGroupAccess": {
+      "title": "Heads up",
+      "message": "You don't have access to the followers group."
+    }
+  },
+  "selectContent": {
+    "title": "Content to follow",
+    "facets": {
+      "sharing": "Sharing",
+      "catalog": {
+        "myContent": "My content",
+        "organization": "My organization"
+      }
+    }
+  },
+  "callToAction": {
+    "title": "Call-to-Action",
+    "helperText": "The call-to-action appears above the follow button.",
+    "alignment": "Alignment"
+  },
+  "followButton": {
+    "title": "Follow button",
+    "helperText": "This button will allow members to follow or unfollow your content. Text can be set for both button states.",
+    "buttonText": "Opt-in button text",
+    "unfollowButtonText": "Opt-out button text",
+    "alignment": "Alignment",
+    "buttonStyle": "Button style",
+    "solid": "Solid background",
+    "outline": "Outline"
+  }
+}

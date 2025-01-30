@@ -1,0 +1,50 @@
+{
+  "section": "Ta bort",
+  "protection": "Förhindra att denna {type} tas bort av misstag.",
+  "protectionTooltip": "Skyddsverktygstips",
+  "protectionDisabledTooltip": "Endast ägare eller organisationsadministratörer kan ändra skydd.",
+  "deleteDisabledNoAccessTooltip": "Endast ägare eller organisationsadministratörer kan ta bort.",
+  "deleteDisabledNoAccessTooltipGroup": "Endast ägare, ansvariga eller organisationsadministratörer kan ta bort.",
+  "deleteDisabledProtectedTooltip": "Det går inte att ta bort medan skyddet mot borttagning är aktiverat.",
+  "deleteButton": "Ta bort",
+  "protect": {
+    "successTitle": "Skydd mot borttagning har lagts till",
+    "success": "Det går inte att ta bort medan skyddet mot borttagning är aktiverat.",
+    "successLabel": "Notifiering om att skydd mot borttagning har lagts till.",
+    "errorTitle": "Det gick inte att lägga till skydd mot borttagning",
+    "error": "Ett fel uppstod när skydd mot borttagning lades till.",
+    "errorLabel": "Notifiering om att skydd mot borttagning misslyckades."
+  },
+  "unprotect": {
+    "successTitle": "Skydd mot borttagning har tagits bort",
+    "success": "Det går att ta bort när skyddet mot borttagning är inaktiverat.",
+    "successLabel": "Notifiering om att skydd mot borttagning har tagits bort.",
+    "errorTitle": "Det gick inte att ta bort skydd mot borttagning",
+    "error": "Ett fel uppstod när skydd mot borttagning togs bort.",
+    "errorLabel": "Notifiering om att borttagning av skydd mot borttagning misslyckades."
+  },
+  "delete": {
+    "successTitle": "Borttaget",
+    "success": "Omdirigerar till din hemarbetskatalog",
+    "successLabel": "Notifiering om att borttagning utförts.",
+    "errorTitle": "Borttagningen misslyckades",
+    "error": "Det uppstod ett fel. Försök igen.",
+    "errorLabel": "Notifiering om att borttagning misslyckades."
+  },
+  "permanentDelete": {
+    "successTitle": "Permanent borttagning har utförts",
+    "success": "Omdirigerar till din hemarbetskatalog",
+    "successLabel": "Notifiering om att borttagning utförts.",
+    "errorTitle": "Borttagningen misslyckades",
+    "error": "Det uppstod ett fel. Försök igen.",
+    "errorLabel": "Notifiering om att borttagning misslyckades."
+  },
+  "deleteModal": {
+    "header": "Ta bort",
+    "deleteContent": "Det går inte att ångra en permanent borttagning. Vill du fortsätta?",
+    "recycleContent": "Borttaget innehåll skickas till papperskorgen. Du har 14 dagar på dig att återställa den.",
+    "delete": "Ta bort",
+    "permanentlyDelete": "Ta bort permanent",
+    "cancel": "Avbryt"
+  }
+}

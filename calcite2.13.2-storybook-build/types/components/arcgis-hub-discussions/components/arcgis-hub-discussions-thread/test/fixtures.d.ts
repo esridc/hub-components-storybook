@@ -1,0 +1,14 @@
+import { IGroup, IUser, IPortal } from '@esri/arcgis-rest-portal';
+import { IPost, IChannel, IPagedResponse } from '@esri/hub-discussions';
+import { IArcGISContext, IHubContent } from '@esri/hub-common';
+export declare const GROUPS: IGroup[];
+export declare const USER: IUser;
+export declare const CHANNEL: IChannel;
+export declare const POST: IPost;
+export declare const REPLY1: IPost;
+export declare const REPLY2: IPost;
+export declare const CONTEXT: IArcGISContext;
+export declare const REPLY_RESULTS: IPagedResponse<IPost>;
+export declare const REPLY: IPost;
+export declare const CONTENT: IHubContent;
+export declare const ORGANIZATION: IPortal;

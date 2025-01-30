@@ -1,0 +1,41 @@
+{
+  "notice": {
+    "outdatedItem": {
+      "title": "Erstat dit initiativ",
+      "message": "Dette kort henviser til et forældet element. Vælg et andet element, som brugerne kan følge."
+    },
+    "missingFollowersGroup": {
+      "title": "Mangler følgergruppe",
+      "message": "Dette element mangler en følgergruppe. Vælg et andet element."
+    },
+    "noGroupAccess": {
+      "title": "Advarsel",
+      "message": "Du har ikke adgang til følgergruppen."
+    }
+  },
+  "selectContent": {
+    "title": "Indhold, der skal følges",
+    "facets": {
+      "sharing": "Deling",
+      "catalog": {
+        "myContent": "Mit indhold",
+        "organization": "Min organisation"
+      }
+    }
+  },
+  "callToAction": {
+    "title": "Opfordring til handling",
+    "helperText": "Opfordring til handling vises over følgeknappen.",
+    "alignment": "Justering"
+  },
+  "followButton": {
+    "title": "Følgeknap",
+    "helperText": "Med denne knap kan medlemmerne følge eller vælge ikke at følge dit indhold. Der kan angives tekst til begge knaptyper.",
+    "buttonText": "Tekst til tilvalgsknap",
+    "unfollowButtonText": "Tekst til fravalgsknap",
+    "alignment": "Justering",
+    "buttonStyle": "Knaptypografi",
+    "solid": "Massiv baggrund",
+    "outline": "Kontur"
+  }
+}

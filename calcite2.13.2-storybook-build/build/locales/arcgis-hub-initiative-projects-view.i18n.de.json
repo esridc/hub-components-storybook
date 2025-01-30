@@ -1,0 +1,19 @@
+{
+  "facets": {
+    "location": {
+      "label": "Position",
+      "tooltip": "Kartenausdehnung als Positionsfilter anwenden"
+    },
+    "status": "Status",
+    "tags": "Tags",
+    "categories": "Kategorien",
+    "dateUpdated": "Aktualisierungsdatum"
+  },
+  "status": {
+    "label": "Status der Initiative",
+    "notStarted": "Nicht gestartet",
+    "inProgress": "In Bearbeitung",
+    "onHold": "Zurückgestellt",
+    "complete": "Abgeschlossen"
+  }
+}

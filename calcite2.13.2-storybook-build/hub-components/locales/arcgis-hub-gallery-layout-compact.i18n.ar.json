@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "لم يتم العثور على نتائج."
+    },
+    "error": {
+      "message": "نحن آسفون ولكن حدث خطأ أثناء البحث."
+    }
+  },
+  "type": "النوع",
+  "tags": "العلامات",
+  "owner": "المالك",
+  "dateCreated": "تم الإنشاء",
+  "dateUpdated": "تعديل",
+  "categories": "الفئات",
+  "dateAndTime": "التاريخ والوقت",
+  "allDay": "{date} (طوال اليوم)",
+  "allDayRange": "{from} - {to} (طوال اليوم)",
+  "location": "الموقع",
+  "attendanceType": "نوع تسجيل الحضور",
+  "inPerson": "شخصيًا",
+  "online": "عبر الإنترنت",
+  "hybrid": "مختلط"
+}

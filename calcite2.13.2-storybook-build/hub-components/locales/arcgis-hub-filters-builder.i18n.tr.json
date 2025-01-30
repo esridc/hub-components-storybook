@@ -1,0 +1,15 @@
+{
+  "newFilter": "Yeni filtre",
+  "block": {
+    "heading": {
+      "untitled": "Yeni filtre",
+      "default": "Filtre {filterNum}: {parameter}",
+      "group": "Filtre {filterNum}: gruplar",
+      "type": "Filtre {filterNum}: türler",
+      "occurrence": "Filtre {filterNum}: oluşum"
+    },
+    "actions": {
+      "delete": "Filtreyi sil: {label}"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "addContent": "Pridať obsah",
+  "addContentType": {
+    "event": "Vytvoriť udalosť",
+    "discussion": "Vytvoriť diskusiu",
+    "group": "Vytvoriť skupinu",
+    "initiative": "Vytvoriť iniciatívu",
+    "project": "Vytvoriť projekt",
+    "page": "Vytvoriť stránku",
+    "site:": "Vytvoriť lokalitu"
+  },
+  "tooltip": {
+    "label": "Deaktivované",
+    "noCatalog": "Pridajte skupiny do katalógu, aby ste mohli pridávať obsah.",
+    "noPermission": "Nemáte povolenie na pridávanie obsahu do katalógu.",
+    "no-permission": "Nemáte povolenie na pridávanie obsahu do katalógu.",
+    "not-in-groups": "Nie ste členom žiadnych skupín, ktoré definujú katalóg.",
+    "too-many-groups": "Dosiahli ste maximálny počet skupín a nemôžete vytvoriť viac."
+  },
+  "existing": {
+    "description": "Pridať obsah, ktorý sa už nachádza v {onlineOrEnterprise}",
+    "modalTitle": "Vybrať existujúci obsah",
+    "title": "Vybrať existujúci obsah"
+  },
+  "create": {
+    "app": {
+      "description": "Vytvorte zážitok, vyrozprávajte príbeh alebo vizualizujte vaše dáta",
+      "modalTitle": "Vytvoriť aplikáciu",
+      "title": "Aplikácia"
+    },
+    "event": {
+      "description": "Usporiadajte organizované aktivity, osobne alebo virtuálne",
+      "modalTitle": "Vytvoriť udalosť",
+      "title": "Udalosť"
+    },
+    "content": {
+      "description": "Pridajte na vašu lokalitu dáta, dokumenty, obrázky a externé odkazy",
+      "modalTitle": "Vytvoriť obsah",
+      "title": "Obsah"
+    },
+    "discussion": {
+      "description": "Zbierajte nápady a spätnú väzbu",
+      "modalTitle": "Vytvoriť diskusné fórum",
+      "title": "Diskusné fórum"
+    },
+    "group": {
+      "description": "Organizujte ľudí na zdieľanie obsahu a diskusie",
+      "modalTitle": "Vytvoriť skupinu",
+      "title": "Skupina"
+    },
+    "initiative": {
+      "description": "Zvýraznite strategické úsilie s definovanými cieľmi, ktoré organizujú projekty",
+      "modalTitle": "Vytvoriť iniciatívu",
+      "title": "Iniciatíva"
+    },
+    "page": {
+      "description": "Prezentujte informácie v štruktúrovanom rozložení",
+      "modalTitle": "Vytvoriť stránku",
+      "title": "Stránka"
+    },
+    "project": {
+      "description": "Predveďte prácu s jasnými cieľmi a časovými rámcami",
+      "modalTitle": "Vytvoriť projekt",
+      "title": "Projekt"
+    },
+    "site": {
+      "description": "Vytvorte značkovú webovú lokalitu a zapojte sa do svojej komunity",
+      "modalTitle": "Vytvoriť lokalitu",
+      "title": "Stránka"
+    }
+  }
+}

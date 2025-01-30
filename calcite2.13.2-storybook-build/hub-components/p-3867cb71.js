@@ -1,0 +1,1 @@
+import{h as e}from"./p-df5fbfcb.js";const a=({context:a,showShareUi:r},s)=>e("arcgis-shareable-card",{referenceElement:a.element,shareable:a.shareable,shareableByReference:a.shareableByReference,shareableByValue:a.shareableByValue,shareableOnHover:a.shareableOnHover,showShareUi:r},s);export{a as S}

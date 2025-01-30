@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "Saját tartalom",
+    "livingAtlas": "Élő atlasz",
+    "organization": "Saját szervezet",
+    "world": "Világ (nyilvános)"
+  },
+  "collection": {
+    "appsAndMaps": "Alkalmazások és térképek",
+    "feedback": "Visszajelzés"
+  },
+  "facets": {
+    "type": "Típus",
+    "tags": "Címkék",
+    "categories": "Kategóriák",
+    "modified": "Módosítva"
+  },
+  "pickerTitle": "Tartalom kiválasztása",
+  "height": "Magasság (px)",
+  "isScrollable": "Görgethető",
+  "errors": {
+    "heightMinimum": "Az értéknek pozitív számnak kell lennie",
+    "heightMaximum": "Az érték legfeljebb 2000px lehet.",
+    "urlError": "Érvényes URL-nek kell lennie."
+  },
+  "success": {
+    "urlSuccess": "URL betöltése sikeres."
+  },
+  "shouldApplyBreakpoints": {
+    "label": "Inkább az eszköz töréspontjai alapján alkalmazza a beállításokat"
+  },
+  "viewportAll": {
+    "label": "Alapértelmezett",
+    "description": "Az összes képernyőméretre alkalmazott beállítások"
+  },
+  "viewportMobile": {
+    "label": "Mobil",
+    "description": "A 360 px széles és annál szélesebb képernyőkre alkalmazott beállítások"
+  },
+  "viewportTablet": {
+    "label": "Táblagép",
+    "description": "Az 560 px széles és annál szélesebb képernyőkre alkalmazott beállítások"
+  },
+  "viewportDesktop": {
+    "label": "Asztal",
+    "description": "A 980 px széles és annál szélesebb képernyőkre alkalmazott beállítások"
+  },
+  "sourceLabel": "Beágyazás típusának kiválasztása",
+  "contentLabel": "ArcGIS-tartalom",
+  "externalLabel": "Külső URL",
+  "contentDescription": "Válasszon az Ön számára elérhető meglévő térképek, jelenetek, alkalmazások, felmérések és dokumentumhivatkozások közül.",
+  "externalDescription": "Adja meg a beágyazandó URL-t. Kérjük, vegye figyelembe, hogy egyes tartományok nem engedélyezik a beágyazást, és előfordulhat, hogy nem a várt módon jelennek meg."
+}

@@ -1,0 +1,178 @@
+{
+  "projectsTitle": "Projekti",
+  "description": "Saistiet ar veicinošiem projektiem, lai sekotu līdzi virzībai koncentrētā laikā vai telpā. Iniciatīvas saistību grupa pārvalda apstiprinātās saistības un neizpildītos saistību pieprasījumus.",
+  "subDescription": "Šīs iniciatīvas skatā parādīsies projekti ar apstiprinātām saistībām.",
+  "project": "projekts",
+  "initiative": "iniciatīva",
+  "helpStates": {
+    "noAccess": {
+      "heading": "Nav piekļuves",
+      "message": "Jums nav piekļuves, lai skatītu saistību grupu."
+    },
+    "missingGroup": {
+      "heading": "Trūkst saistību grupas",
+      "message": {
+        "overview": "Saistību grupa pārraudzīs, kuri projekti tiks saistīti ar iniciatīvu un ziņos par to.",
+        "members": "Šīs grupas dalībnieki varēs nosūtīt vai apstiprināt saistību pieprasījumus."
+      },
+      "action": "Izveidot grupu",
+      "formLabel": "Jauna saistību grupa",
+      "description": "Izveidot saistību grupu savienojumu pārvaldībai"
+    },
+    "requestsWaiting": {
+      "heading": "Trūkst saistību grupas",
+      "message": {
+        "overview": "Saistību grupa pārraudzīs, kuri projekti tiks saistīti ar iniciatīvu un ziņos par to.",
+        "members": "Šīs grupas dalībnieki varēs nosūtīt vai apstiprināt saistību pieprasījumus.",
+        "requests": "Gaidošie projekta pieprasījumi: {count}"
+      },
+      "action": "Izveidot grupu",
+      "formLabel": "Jauna saistību grupa",
+      "description": "Izveidot saistību grupu savienojumu pārvaldībai"
+    }
+  },
+  "shared": {
+    "project": "projekts",
+    "associationGroup": "saistību grupa",
+    "error": {
+      "title": "Radās problēma",
+      "message": "Iespējams, jums nav pietiekamas piekļuves, lai nosūtītu vai pārvaldītu saistību ar šo {type}."
+    },
+    "facets": {
+      "access": {
+        "label": "Koplietošana"
+      },
+      "status": {
+        "label": "Statuss",
+        "notStarted": "Nav sākts",
+        "inProgress": "Notiek izpilde",
+        "onHold": "Aizturēts",
+        "complete": "Pabeigts"
+      },
+      "tags": {
+        "label": "Atslēgvārdi"
+      }
+    },
+    "tabs": {
+      "projects": "Projekti",
+      "members": "Dalībnieki",
+      "settings": "Iestatījumi"
+    },
+    "disabledActionTooltip": "Tikai grupu pārvaldnieki var pārvaldīt saistību ar šo {type}."
+  },
+  "createAssociationGroup": {
+    "defaultSummary": "Pārvaldīt vienības, kas saistītas ar {name} {type}, izmantojot saistību grupu."
+  },
+  "members": {
+    "facets": {
+      "role": {
+        "label": "Loma",
+        "all": "Viss",
+        "manager": "Pārvaldnieks",
+        "member": "Dalībnieks"
+      },
+      "dateJoined": {
+        "label": "Pievienošanās datums"
+      }
+    },
+    "addMembers": {
+      "button": "Pievienot dalībniekus",
+      "modal": {
+        "title": "Pievienot dalībniekus",
+        "org": "Mana organizācija",
+        "community": "Mana kopiena",
+        "partner": "Mani partneri",
+        "world": "Pasaule"
+      },
+      "notifications": {
+        "invited": "Uzaicinājums nosūtīts. Lai pievienotos, lietotājiem ir jāpiekrīt",
+        "added": "Lietotājs(-i) pievienots(-i)",
+        "notInvited": "Dažiem lietotājiem, iespējams, nav privilēģiju, kas nepieciešamas, lai pievienotos grupai, vai arī sasniegts grupas maksimālais ierobežojums (512)"
+      }
+    },
+    "removeUsers": {
+      "button": "Noņemt",
+      "success": "Dalībnieki sekmīgi noņemti no {groupName}.",
+      "error": "Vienu vai vairākus lietotājus nevarēja noņemt no grupas."
+    },
+    "changeRole": {
+      "button": "Mainīt lomu",
+      "member": "Dalībnieks",
+      "memberHelperText": "Var pievienot un skatīt saturu grupā.",
+      "tooltipText": "Noņemiet no saraksta sevi un/vai grupas īpašnieku.",
+      "tooltipLabel": "Funkcijas atruna",
+      "admin": "Pārvaldnieks",
+      "adminHelperText": "Var pievienot/noņemt saturu un uzaicināt/noņemt personas (izņemot īpašnieku).",
+      "success": "Atlasītie dalībnieki kļuva par grupu {role}.",
+      "error": "Vienam vai vairākiem dalībniekiem lomu nevarēja mainīt."
+    },
+    "stats": {
+      "total": {
+        "title": "Kopskaits",
+        "trailingText": "Dalībnieki"
+      },
+      "new": {
+        "title": "Jauns",
+        "trailingText": "Pēdējās 30 dienas"
+      }
+    }
+  },
+  "projects": {
+    "requestAssociation": {
+      "findProjects": "Atrast projektus",
+      "sendRequest": "Sūtīt pieprasījumu",
+      "success": {
+        "title": "Izdevās",
+        "message": "Nosūtītie saistības pieprasījumi: {count}"
+      },
+      "alreadyRequesting": {
+        "title": "Pārbaudīt saistības",
+        "message": "Kāda izvēle vai dažas izvēles jau ir pieprasījušas saistību. Nosūtīti jauni saistības pieprasījumi: {count}"
+      },
+      "catalog": {
+        "myContent": "Mans saturs",
+        "favorites": "Izlase",
+        "organization": "Organizācija",
+        "world": "Pasaule (publisks)"
+      },
+      "collection": {
+        "projects": "Projekti"
+      }
+    },
+    "acceptAssociation": {
+      "label": "Pieņemt",
+      "success": {
+        "title": "Izdevās",
+        "message": "Saistība ar {requestor} ir pieņemta"
+      }
+    },
+    "cancelRequest": {
+      "label": "Atcelt pieprasījumu",
+      "success": {
+        "title": "Izdevās",
+        "message": "Saistības pieprasījums atcelts"
+      }
+    },
+    "breakAssociation": {
+      "label": "Atvienot",
+      "success": {
+        "title": "Saistība pārtraukta",
+        "message": "Esam atvienojuši šo vienību no tās iepriekšējās saistības. Tomēr mēs nevaram atcelt lēmumu no otras puses, tāpēc jūs to joprojām varat redzēt ienākošajos pieprasījumos."
+      }
+    },
+    "associationsGallery": {
+      "sources": "Stāvoklis",
+      "catalog": {
+        "associated": "Saistīts",
+        "requesting": "Ienākošie pieprasījumi",
+        "pending": "Izejošie pieprasījumi"
+      },
+      "collection": {
+        "projects": "Projekti"
+      }
+    }
+  },
+  "notice": {
+    "label": "Veidlapas brīdinājums"
+  }
+}

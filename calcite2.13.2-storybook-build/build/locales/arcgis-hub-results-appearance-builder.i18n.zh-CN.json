@@ -1,0 +1,118 @@
+{
+  "layout": {
+    "title": "布局",
+    "helperText": "用于配置当访客首次访问您的目录时结果的显示方式。 访客仍然可以选择自行更改显示方式。",
+    "enum": {
+      "list": {
+        "label": "列表",
+        "description": "用于展示元数据以及访客可能进行有针对性的搜索的情况。"
+      },
+      "grid": {
+        "label": "格网",
+        "description": "用于具有高质量缩略图的结果以及访客可能进行浏览的情况。"
+      },
+      "table": {
+        "label": "表",
+        "description": "用于以具有可排序列的结构化格式呈现结果，非常适用于访客可能希望查看和比较许多项目及其属性的情况。"
+      },
+      "map": {
+        "label": "地图",
+        "description": "用于与物理位置相关的结果以及访客可能探索感兴趣区域的情况。"
+      },
+      "compact": {
+        "label": "精简安装",
+        "description": "用于在较小的空间内最大化可见结果的数量，非常适用于在移动设备上快速浏览或查看。"
+      }
+    }
+  },
+  "cards": {
+    "title": "卡片",
+    "cardTitleTag": {
+      "label": "标题",
+      "helperText": "可用于改善嵌套标题结构的可访问性。 它将不会更改字体大小。",
+      "enum": {
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        }
+      }
+    },
+    "showThumbnail": {
+      "label": "显示缩略图",
+      "enum": {
+        "show": {
+          "label": "始终",
+          "description": "缩略图将始终显示在结果卡片上，不考虑结果布局。"
+        },
+        "hide": {
+          "label": "不显示缩略图",
+          "description": "缩略图将不会显示在任何类型的结果卡片上。 如果缩略图的质量较差或者您希望人们能够在桌面和移动设备上更快地扫描列表结果，请使用此选项。"
+        },
+        "grid": {
+          "label": "仅在格网中",
+          "description": "缩略图将仅显示在格网卡片上。 列表卡片将显示附加元数据列来代替图像。"
+        }
+      }
+    },
+    "corners": {
+      "label": "角",
+      "enum": {
+        "square": {
+          "label": "正方形"
+        },
+        "round": {
+          "label": "圆角"
+        }
+      }
+    },
+    "shadow": {
+      "label": "下拉阴影",
+      "enum": {
+        "heavy": {
+          "label": "重"
+        },
+        "low": {
+          "label": "低"
+        },
+        "medium": {
+          "label": "中"
+        },
+        "none": {
+          "label": "无"
+        }
+      }
+    },
+    "showLinkButton": {
+      "label": "包含按钮",
+      "helperText": "如果按钮关闭，则仅卡片标题将为链接。"
+    },
+    "linkButtonStyle": {
+      "label": "样式",
+      "enum": {
+        "outline-filled": {
+          "label": "填充"
+        },
+        "outline": {
+          "label": "轮廓"
+        }
+      }
+    },
+    "linkButtonText": {
+      "label": "文本"
+    }
+  }
+}

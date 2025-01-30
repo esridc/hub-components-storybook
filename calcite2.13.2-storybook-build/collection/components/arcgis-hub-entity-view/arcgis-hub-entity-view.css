@@ -1,0 +1,26 @@
+:host {
+  display: block;
+}
+
+arcgis-hub-entity-capabilities {
+  margin-top: 1rem;
+}
+
+h2 {
+  font-size: var(--calcite-font-size-2);
+  line-height: 1.5rem;
+  font-weight: var(--calcite-font-weight-bold);
+  color: var(--calcite-color-text-1);
+}
+
+arcgis-hub-initiative-hero:has(~ calcite-tabs calcite-tab-nav calcite-tab-title[selected]:not([name='about'])) {
+  display: block;
+  height: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  arcgis-hub-event-about {
+    flex-direction: column;
+    gap: 0;
+  }
+}

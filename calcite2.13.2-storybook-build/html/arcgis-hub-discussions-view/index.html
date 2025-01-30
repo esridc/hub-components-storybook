@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hub Discussions</title>
+
+    <style>
+      .header {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .padding-leader-2 {
+        margin-top: 2rem;
+      }
+    </style>
+
+    <script async src="https://ga.jspm.io/npm:es-module-shims@1.6.2/dist/es-module-shims.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+        }
+      }
+    </script>
+
+    <script type="module" src="../../build/hub-components.esm.js"></script>
+    <script nomodule src="../../build/hub-components.js"></script>
+    <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+    <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+    <link rel="stylesheet" href="../calcite-web.min.css" />
+  </head>
+
+  <body>
+    <harness-header page-title="Discussions View"></harness-header>
+    <div class="grid-container padding-leader-2">
+      <div class="column-20">
+        <calcite-notice open kind="info" scale="s" width="full" icon>
+          <div slot="message">This component requires authentication to render. Please auth as juliana_pa on QA.</div>
+        </calcite-notice>
+        <arcgis-hub-discussions-view id="arcgis-hub-discussions-view-harness"> </arcgis-hub-discussions-view>
+      </div>
+    </div>
+
+    <script>
+      // set a property on the element
+      function setProp(key, value) {
+        const el = document.querySelector('arcgis-hub-discussions-view');
+        el[key] = value;
+      }
+
+      // setProp('project', project);
+      setProp('entityId', '39ba5cf645d4481b852ff60cb010d6ef');
+      setProp('entityType', 'content');
+    </script>
+  </body>
+</html>

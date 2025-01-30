@@ -1,0 +1,82 @@
+{
+  "title": "Participation",
+  "subtitle": "Définissez la visibilité du forum de discussion (qui peut l’afficher), faites défiler la page vers le bas pour indiquer qui peut modifier les informations du forum, puis configurez la participation et la modération à l’aide de canaux.",
+  "channelTitle": "Le canal de participation a été défini",
+  "channelDescription": "Ce canal détermine qui peut ajouter, afficher et modérer les publications sur ce forum de discussion.",
+  "addChannelsTitle": "Définir un canal",
+  "addChannelsDescription": "Les canaux déterminent qui peut ajouter des publications au forum. Ils peuvent être ouverts à des groupes, à une organisation ou au public, et peuvent être appliqués à de nombreuses discussions. Les canaux déterminent également qui détient le rôle de modérateur. Définissez des mots bloqués pour mettre en place une modération automatique au sein d’un canal.",
+  "privateChannelTitle": "Le canal défini est privé",
+  "privateChannelDescription": "Vous ne pouvez pas voir le canal privé attribué à ce forum de discussion. Vous pouvez supprimer le canal, puis sélectionner un canal existant ou créer un nouveau canal.",
+  "removeChannelConfirmationMessage": "Ce forum de discussion n’affichera plus les publications. Vous pouvez ajouter un autre canal si ce canal est supprimé.",
+  "headingChannelEdit": "Vous modifiez un canal",
+  "headingChannelView": "Vous affichez un canal",
+  "headingChannelCreate": "Vous créez un canal",
+  "buttons": {
+    "browse": "Parcourir les canaux",
+    "new": "Nouveau canal",
+    "removeChannel": "Supprimer le canal",
+    "cancel": "Annuler"
+  },
+  "alerts": {
+    "label": "Alerte de formulaire",
+    "set": {
+      "title": "Réussite. Le canal a été défini."
+    },
+    "removed": {
+      "title": "Canal supprimé",
+      "message": "Choisissez ou créez un canal de participation."
+    },
+    "error": {
+      "title": "Échec. Le canal n’a pas été défini."
+    }
+  },
+  "galleryPickerTitle": "Sélectionner un canal",
+  "channelsLabel": "Canaux",
+  "accessLabel": "Accès",
+  "optionPublicLabel": "Public",
+  "optionOrganizationLabel": "Organisation",
+  "optionPrivateLabel": "Privé",
+  "viewChannel": "Voir le canal",
+  "editChannel": "Modifier le canal",
+  "save": "Enregistrer",
+  "removeChannel": "Supprimer le canal",
+  "groupPicker": {
+    "facet": {
+      "label": "De",
+      "myGroups": "Mes groupes",
+      "myOrganization": "Mon organisation",
+      "myCommunity": "Ma communauté"
+    }
+  },
+  "editGroupButtonText": "Ajouter des groupes de modification",
+  "viewGroupButtonText": "Ajouter des groupes de consultation",
+  "viewGroups": {
+    "header": "Qui peut afficher",
+    "description": "Personnes qui peuvent afficher le forum, mais pas publier dans celui-ci. L’autorisation de publication dans le forum est définie par les canaux ci-dessous."
+  },
+  "editGroups": {
+    "header": "Qui peut apporter des modifications",
+    "description": "Membres du groupe qui peuvent modifier les informations du forum dans l’espace de travail."
+  },
+  "aboutChannelsNotice": {
+    "title": "Présentation des canaux",
+    "message": "Les canaux ne sont pas des groupes, mais ils peuvent en contenir. Ils déterminent qui est autorisé à publier et à modérer.",
+    "action": "Informations supplémentaires sur les canaux"
+  },
+  "nonPrivateChannelNotice": {
+    "title": "Modification du canal impossible",
+    "message": "Seuls les modérateurs de ce canal peuvent le modifier. Contactez le propriétaire du canal ou un administrateur de l’organisation pour ajouter un modérateur, si nécessaire. Vous pouvez également supprimer ce canal, ajouter un canal existant (dont vous êtes modérateur) ou créer un nouveau canal."
+  },
+  "privateChannelNotice": {
+    "title": "Modification du canal impossible",
+    "message": "Seuls les modérateurs de ce canal peuvent le modifier. Contactez le propriétaire du canal pour ajouter un modérateur, si nécessaire. Vous pouvez également supprimer ce canal, ajouter un canal existant (dont vous êtes modérateur) ou créer un nouveau canal."
+  },
+  "participate": {
+    "header": "Qui peut participer et modérer"
+  },
+  "org": "Organisation",
+  "private": "Privé",
+  "public": "Public",
+  "unnamed": "Canal sans nom",
+  "groupNotFound": "Groupe introuvable"
+}

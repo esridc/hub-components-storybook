@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "Mes contenus",
+    "livingAtlas": "Living Atlas",
+    "organization": "Mon organisation",
+    "world": "Monde (Public)"
+  },
+  "collection": {
+    "appsAndMaps": "Applications et cartes",
+    "feedback": "Commentaires"
+  },
+  "facets": {
+    "type": "Type",
+    "tags": "Balises",
+    "categories": "Catégories",
+    "modified": "Modification"
+  },
+  "pickerTitle": "Sélectionner un contenu",
+  "height": "Hauteur (px)",
+  "isScrollable": "Avec défilement",
+  "errors": {
+    "heightMinimum": "La valeur doit être un nombre positif.",
+    "heightMaximum": "La valeur doit être inférieure ou égale à 2 000 pixels.",
+    "urlError": "Doit être une URL valide."
+  },
+  "success": {
+    "urlSuccess": "L’URL a été chargée."
+  },
+  "shouldApplyBreakpoints": {
+    "label": "Appliquer plutôt les paramètres selon les points de rupture de l’appareil"
+  },
+  "viewportAll": {
+    "label": "Par défaut",
+    "description": "Paramètres appliqués à toutes les tailles d’écran"
+  },
+  "viewportMobile": {
+    "label": "Mobile",
+    "description": "Paramètres appliqués aux écrans d’une largeur égale ou supérieure à 360 pixels"
+  },
+  "viewportTablet": {
+    "label": "Tablette",
+    "description": "Paramètres appliqués aux écrans d’une largeur égale ou supérieure à 560 pixels"
+  },
+  "viewportDesktop": {
+    "label": "Ordinateur",
+    "description": "Paramètres appliqués aux écrans d’une largeur égale ou supérieure à 980 pixels"
+  },
+  "sourceLabel": "Sélectionner un type d’intégration",
+  "contentLabel": "Contenu ArcGIS",
+  "externalLabel": "URL externe",
+  "contentDescription": "Faites votre choix parmi les cartes, scènes, applications, enquêtes et liens vers des documents existants à votre disposition.",
+  "externalDescription": "Saisissez une URL à intégrer. Sachez que certains domaines n’autorisent pas l’intégration et risquent de ne pas s’afficher correctement."
+}

@@ -1,0 +1,46 @@
+{
+  "registrants": "Registrierte Teilnehmer",
+  "invite": "Einladen",
+  "tabs": {
+    "registrants": "Registrierte Teilnehmer",
+    "settings": "Einstellungen"
+  },
+  "emptyNotice": {
+    "title": "Keine registrierten Teilnehmer",
+    "desc": "Mit Publikum machen Events einfach mehr Spaß. Laden Sie zu dem Event ein, oder geben Sie das Event frei, um zur Teilnahme anzuregen.",
+    "link": "Registrierte Teilnehmer einladen"
+  },
+  "facets": {
+    "role": {
+      "header": "Rolle",
+      "owner": "Besitzer",
+      "organizer": "Organisator",
+      "attendee": "Registrierter Teilnehmer"
+    },
+    "status": {
+      "header": "Status",
+      "pending": "Ausstehend",
+      "accepted": "Angenommen",
+      "declined": "Abgelehnt",
+      "blocked": "Gesperrt"
+    },
+    "location": {
+      "header": "Position",
+      "online": "Online",
+      "in_person": "Präsenz"
+    },
+    "updatedDate": "Aktualisierungsdatum"
+  },
+  "delete": {
+    "attendee": "Registrierten Teilnehmer entfernen"
+  },
+  "notice": {
+    "label": "Formularwarnung"
+  },
+  "success": {
+    "delete": "Registrierte Teilnehmer wurden erfolgreich aus \"{eventName}\" entfernt."
+  },
+  "error": {
+    "delete": "Mindestens ein registrierter Teilnehmer konnte nicht aus dem Event entfernt werden."
+  }
+}

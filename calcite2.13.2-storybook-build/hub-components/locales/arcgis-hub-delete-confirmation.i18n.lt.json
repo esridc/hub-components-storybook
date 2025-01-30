@@ -1,0 +1,50 @@
+{
+  "section": "Ištrinti",
+  "protection": "Apsaugoti, kad {type} netyčia nebūtų ištrintas.",
+  "protectionTooltip": "Apsaugos įrankio užuomina",
+  "protectionDisabledTooltip": "Tik savininkai arba organizacijos administratoriai gali pakeisti apsaugą.",
+  "deleteDisabledNoAccessTooltip": "Ištrinti gali tik savininkai arba organizacijos administratoriai.",
+  "deleteDisabledNoAccessTooltipGroup": "Ištrinti gali tik savininkai arba organizacijos administratoriai.",
+  "deleteDisabledProtectedTooltip": "Negalima ištrinti, kol įjungta trynimo apsauga.",
+  "deleteButton": "Ištrinti",
+  "protect": {
+    "successTitle": "Pridėta apsauga nuo ištrynimo",
+    "success": "Negalima ištrinti, kol įjungta trynimo apsauga.",
+    "successLabel": "Įspėjimas, kad apsauga nuo ištrynimo pridėta.",
+    "errorTitle": "Nepavyko pridėti apsaugos nuo ištrynimo",
+    "error": "Pridedant apsaugą nuo ištrynimo, įvyko klaida.",
+    "errorLabel": "Įspėjimas, kad apsaugos nuo ištrynimo pridėti nepavyko."
+  },
+  "unprotect": {
+    "successTitle": "Apsauga nuo ištrynimo pašalinta",
+    "success": "Galima ištrinti, kai išjungta trynimo apsauga.",
+    "successLabel": "Įspėjimas, kad apsauga nuo ištrynimo pašalinta.",
+    "errorTitle": "Nepavyko pašalinti apsaugos nuo ištrynimo",
+    "error": "Pašalinant apsaugą nuo ištrynimo, įvyko klaida.",
+    "errorLabel": "Įspėjimas, kad apsaugos nuo ištrynimo pašalinti nepavyko."
+  },
+  "delete": {
+    "successTitle": "Ištrinta sėkmingai",
+    "success": "Peradresuojama į jūsų namų darbo sritį",
+    "successLabel": "Pranešimas, kad ištrinta sėkmingai.",
+    "errorTitle": "Ištrinti nepavyko",
+    "error": "Įvyko klaida, bandykite dar kartą.",
+    "errorLabel": "Įspėjimas, kad ištrinti nepavyko."
+  },
+  "permanentDelete": {
+    "successTitle": "Visam laikui ištrinta sėkmingai",
+    "success": "Peradresuojama į jūsų namų darbo sritį",
+    "successLabel": "Pranešimas, kad ištrinta sėkmingai.",
+    "errorTitle": "Ištrinti nepavyko",
+    "error": "Įvyko klaida, bandykite dar kartą.",
+    "errorLabel": "Įspėjimas, kad ištrinti nepavyko."
+  },
+  "deleteModal": {
+    "header": "Ištrinti",
+    "deleteContent": "Ištrintų elementų atkurti negalima. Ar tikrai norite tęsti?",
+    "recycleContent": "Ištrintas turinys bus išsiųstas į šiukšliadėžę. Dar 14 d. jį bus galima atkurti.",
+    "delete": "Ištrinti",
+    "permanentlyDelete": "Ištrinti visam laikui",
+    "cancel": "Atšaukti"
+  }
+}

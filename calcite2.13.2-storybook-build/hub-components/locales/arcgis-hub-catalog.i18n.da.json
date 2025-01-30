@@ -1,0 +1,16 @@
+{
+  "all": "Alle",
+  "source": "Kilde",
+  "targetEntity": {
+    "item": "Elementer",
+    "group": "Grupper",
+    "user": "Brugere",
+    "portalUser": "Portalbrugere",
+    "communityUser": "Fællesskabsbrugere",
+    "groupMember": "Gruppemedlemmer",
+    "event": "Begivenheder",
+    "channel": "Kanaler",
+    "discussionPost": "Opslag",
+    "eventAttendee": "Registrerede personer til begivenhed"
+  }
+}

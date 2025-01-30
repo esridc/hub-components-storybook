@@ -1,0 +1,57 @@
+{
+  "new": "Mới",
+  "project": {
+    "label": "Dự án",
+    "description": "Đánh dấu công việc có mục tiêu và khung thời gian rõ ràng",
+    "createLabel": "Tạo dự án",
+    "newLabel": "Dự án mới"
+  },
+  "initiative": {
+    "label": "Sáng kiến",
+    "description": "Các sáng kiến sẽ sắp xếp và tóm tắt tiến độ đạt được mục tiêu",
+    "createLabel": "Tạo sáng kiến",
+    "newLabel": "Sáng kiến mới"
+  },
+  "discussion": {
+    "label": "Bảng thảo luận",
+    "description": "Tạo bảng thảo luận mới bằng cách nhập tiêu đề cho biết chủ đề.",
+    "createLabel": "Tạo Bảng thảo luận",
+    "newLabel": "Bảng thảo luận mới"
+  },
+  "site": {
+    "label": "Trang web",
+    "description": "Tạo trang web để sắp xếp và chia sẻ thông tin",
+    "createLabel": "Tạo trang web",
+    "newLabel": "Trang web mới"
+  },
+  "event": {
+    "label": "Sự kiện",
+    "description": "Tổ chức một hoạt động được sắp xếp, trực tiếp hoặc qua mạng",
+    "createLabel": "Tạo sự kiện",
+    "newLabel": "Sự kiện mới"
+  },
+  "content": {
+    "label": "Nội dung",
+    "description": "Thêm dữ liệu, tài liệu, hình ảnh và các liên kết bên ngoài vào trang web của bạn",
+    "createLabel": "Tạo nội dung",
+    "newLabel": "Nội dung mới"
+  },
+  "feedback": {
+    "label": "Ý kiến phản hồi",
+    "description": "Thu thập thông tin trọng điểm bằng các công cụ như bảng khảo sát và phiếu thăm dò ý kiến",
+    "createLabel": "Tạo ý kiến phản hồi",
+    "newLabel": "Ý kiến phản hồi mới"
+  },
+  "app": {
+    "label": "Ứng dụng",
+    "description": "Thiết lập trải nghiệm, kể câu chuyện hoặc trực quan hóa dữ liệu của bạn",
+    "createLabel": "Tạo ứng dụng",
+    "newLabel": "Ứng dụng mới"
+  },
+  "group": {
+    "label": "Nhóm",
+    "description": "Thiết lập nhóm để cộng tác trên nội dung trọng điểm",
+    "createLabel": "Tạo nhóm",
+    "newLabel": "Nhóm mới"
+  }
+}

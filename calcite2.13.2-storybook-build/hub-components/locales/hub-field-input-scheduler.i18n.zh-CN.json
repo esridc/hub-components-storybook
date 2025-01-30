@@ -1,0 +1,84 @@
+{
+  "option": {
+    "automatic": {
+      "defaultLabel": "由 Hub 自动实现",
+      "actionText": "自动选项信息"
+    },
+    "daily": {
+      "defaultLabel": "每天",
+      "defaultExpandedHelperText": "每天在所选时区的指定时间。",
+      "actionText": "每天选项信息"
+    },
+    "weekly": {
+      "defaultLabel": "每周",
+      "defaultExpandedHelperText": "每周在所选时区的指定日期和时间。",
+      "actionText": "每周选项信息"
+    },
+    "monthly": {
+      "defaultLabel": "每月",
+      "defaultExpandedHelperText": "每月在所选时区的指定日期和时间。",
+      "actionText": "每月选项信息"
+    },
+    "yearly": {
+      "defaultLabel": "每年",
+      "defaultExpandedHelperText": "每年在所选时区的指定月份、日期和时间。",
+      "actionText": "每年选项信息"
+    },
+    "manual": {
+      "defaultLabel": "每月",
+      "defaultExpandedHelperText": "如需手动更新此项目的搜索索引和缓存下载文件，请使用此选项。",
+      "actionText": "手动选项信息"
+    }
+  },
+  "inputs": {
+    "hour": {
+      "helperText": "时间",
+      "inputMessage": "时间将四舍五入到整点。",
+      "error": "请选择一个小时。"
+    },
+    "day": {
+      "helperText": "星期",
+      "daysOfTheWeek": {
+        "sunday": "星期日",
+        "monday": "星期一",
+        "tuesday": "星期二",
+        "wednesday": "星期三",
+        "thursday": "星期四",
+        "friday": "星期五",
+        "saturday": "星期六"
+      },
+      "selectLabel": "星期选取器",
+      "error": "请选择星期。"
+    },
+    "date": {
+      "helperText": "月份日期",
+      "inputNumberPlaceholder": "选择月份日期",
+      "inputMessage": "输入一个介于 1 到 28 之间的值作为月份日期。",
+      "error": "月份日期必须介于 1 到 28 之间。"
+    },
+    "month": {
+      "helperText": "月份",
+      "selectLabel": "月份选取器",
+      "monthsOfTheYear": {
+        "january": "1 月",
+        "february": "2 月",
+        "march": "3 月",
+        "april": "4 月",
+        "may": "5 月",
+        "june": "6 月",
+        "july": "7 月",
+        "august": "8 月",
+        "september": "9 月",
+        "october": "10 月",
+        "november": "11 月",
+        "december": "12 月"
+      },
+      "error": "请选择一个月份。"
+    },
+    "timezone": {
+      "helperText": "时区",
+      "error": "请选择一个时区。"
+    }
+  },
+  "fieldHeader": "频率"
+}

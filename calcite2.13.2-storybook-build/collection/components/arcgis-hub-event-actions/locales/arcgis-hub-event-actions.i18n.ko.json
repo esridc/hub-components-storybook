@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "등록",
+    "registered": "등록됨",
+    "join": "온라인 참여",
+    "in-person": "대면",
+    "online": "온라인",
+    "inPersonFull": "대면(정원 마감)",
+    "onlineFull": "온라인(정원 마감)",
+    "close": "닫기"
+  },
+  "tooltip": {
+    "isCanceled": "이벤트 취소됨",
+    "eventHasEnded": "이벤트 종료됨",
+    "eventFull": "이벤트 정원 마감",
+    "inPerson": "대면 이벤트에 등록함",
+    "online": "온라인 이벤트에 등록함",
+    "unavailable": "이벤트 시작 시간 1시간 전에 사용 가능"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "온라인 이벤트 등록을 성공적으로 취소함",
+    "onlineRegistrationConfirmed": "온라인 이벤트에 성공적으로 등록함",
+    "onlineRegistrationError": "온라인 이벤트를 등록하는 동안 예기치 못한 오류 발생",
+    "onlineRegistrationCanceledError": "온라인 이벤트 등록을 취소하는 동안 예기치 못한 오류 발생",
+    "onlineRegistrationAtCapacity": "정원 마감 상태인 온라인 이벤트에 등록을 시도함",
+    "inPersonRegistrationCanceled": "대면 이벤트 등록을 성공적으로 취소함",
+    "inPersonRegistrationCanceledError": "대면 이벤트 등록을 취소하는 동안 예기치 못한 오류 발생",
+    "inPersonRegistrationConfirmed": "대면 이벤트에 성공적으로 등록함",
+    "inPersonRegistrationError": "대면 이벤트를 등록하는 동안 예기치 못한 오류 발생",
+    "inPersonRegistrationAtCapacity": "정원 마감 상태인 대면 이벤트에 등록을 시도함"
+  }
+}

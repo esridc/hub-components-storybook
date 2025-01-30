@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "התוכן שלי",
+    "livingAtlas": "אטלס דינמי",
+    "organization": "הארגון שלי",
+    "world": "עולם (ציבורי)"
+  },
+  "collection": {
+    "appsAndMaps": "יישומים ומפות",
+    "feedback": "משוב"
+  },
+  "facets": {
+    "type": "סוג",
+    "tags": "תגיות",
+    "categories": "קטגוריות",
+    "modified": "שונה"
+  },
+  "pickerTitle": "בחר תוכן",
+  "height": "גובה (px)",
+  "isScrollable": "ניתן לגלילה",
+  "errors": {
+    "heightMinimum": "הערך חיי להיות מספר חיובי.",
+    "heightMaximum": "הערך לא יכול להיות גדול מ-2000px.",
+    "urlError": "חייבת להיות כתובת URL תקינה."
+  },
+  "success": {
+    "urlSuccess": "כתובת URL נטענה בהצלחה."
+  },
+  "shouldApplyBreakpoints": {
+    "label": "החל הגדרות לפי נקודות עצירה של מכשיר במקום זאת"
+  },
+  "viewportAll": {
+    "label": "ברירת מחדל",
+    "description": "ההגדרות הוחלו על כל גודלי המסך"
+  },
+  "viewportMobile": {
+    "label": "נייד",
+    "description": "ההגדרות הוחלו על מסכים ברוחב 360px ומעלה"
+  },
+  "viewportTablet": {
+    "label": "טאבלט",
+    "description": "ההגדרות הוחלו על מסכים ברוחב 560px ומעלה"
+  },
+  "viewportDesktop": {
+    "label": "מחשב",
+    "description": "ההגדרות הוחלו על מסכים ברוחב 980px ומעלה"
+  },
+  "sourceLabel": "בחירת סוג הטבעה",
+  "contentLabel": "תוכן ArcGIS",
+  "externalLabel": "כתובת URL חיצונית",
+  "contentDescription": "בחר מתוך מפות, סצנות, יישומים, סקרים וקישורי מסמכים קיימים שזמינים לך.",
+  "externalDescription": "הזן כתובות URL להטבעה. שים לב שדומיינים מסוימים לא מתירים הטבעה ועשויים לא להופיע כצפוי."
+}

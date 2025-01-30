@@ -1,0 +1,49 @@
+{
+  "settings": "Configuració",
+  "advanced": "Opcions avançades",
+  "delete": {
+    "event": "Suprimeix aquest esdeveniment",
+    "desc": "La supressió d'aquest esdeveniment no es pot desfer. S'enviarà una notificació a les persones inscrites (si les notificacions automàtiques estan habilitades per a l'esdeveniment).",
+    "deleteButton": "Suprimeix l'esdeveniment"
+  },
+  "cancel": {
+    "header": "Cancel·la aquest esdeveniment",
+    "desc": "Si es cancel·la, l'esdeveniment continuarà sent visible amb l'estat Cancel·lat. El registre s'aturarà i s'enviarà una notificació a les persones inscrites (si les notificacions automàtiques estan habilitades per a l'esdeveniment).",
+    "event": "Cancel·la l'esdeveniment",
+    "notice": {
+      "success": {
+        "title": "L'esdeveniment s'ha cancel·lat",
+        "message": "S'enviarà una notificació a les persones inscrites si les notificacions automàtiques estan habilitades."
+      },
+      "error": {
+        "title": "No s'ha pogut cancel·lar l'esdeveniment",
+        "message": "Torneu-ho a provar"
+      }
+    }
+  },
+  "enable": {
+    "event": "Torna a habilitar l'esdeveniment",
+    "desc": "L'esdeveniment s'ha cancel·lat (visible amb l'estat Cancel·lat).",
+    "notice": {
+      "success": {
+        "title": "S'ha tornat a habilitar l'esdeveniment",
+        "message": "S'enviarà una notificació a les persones inscrites si les notificacions automàtiques estan habilitades."
+      },
+      "error": {
+        "title": "No s'ha pogut tornar a habilitar l'esdeveniment",
+        "message": "Torneu-ho a provar"
+      }
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "event": "Suprimeix l'esdeveniment"
+    },
+    "content": "Segur que voleu suprimir:",
+    "delete": "Suprimeix l'esdeveniment",
+    "cancel": "Cancel·la l'esdeveniment"
+  },
+  "notice": {
+    "label": "Alerta del formulari"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "Vektoros gyűjtemény",
+    "fgdb": "file geodatabase",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Shapefile",
+    "sqlite": "SQLite geoadatbázis"
+  },
+  "buttonText": {
+    "download": "Letöltés",
+    "pending": "Függőben",
+    "processing": "Feldolgozás",
+    "converting": "Átalakítás",
+    "completed": "A letöltés befejeződött",
+    "failed": "A letöltés nem sikerült"
+  },
+  "errors": {
+    "errorHeading": "Hiba"
+  },
+  "cacheStatusAccordion": {
+    "heading": "Megtalálta, amire szüksége volt?",
+    "content": "Elképzelhető, hogy egy újabb verzió is elérhető.",
+    "button": "Új fájl kérése"
+  },
+  "generateNewModal": {
+    "heading": "Biztos benne?",
+    "content": "Ez eltarthat egy ideig. A letöltés befejezéséig tartsa aktív állapotban ezt a böngészőlapot.",
+    "confirmButton": "Igen",
+    "cancelButton": "Mégse"
+  }
+}

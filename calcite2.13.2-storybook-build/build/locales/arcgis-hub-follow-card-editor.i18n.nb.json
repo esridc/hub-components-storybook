@@ -1,0 +1,41 @@
+{
+  "notice": {
+    "outdatedItem": {
+      "title": "Erstatt initiativet ditt",
+      "message": "Dette kortet refererer til et utdatert element. Velg et annet element som brukerne kan følge."
+    },
+    "missingFollowersGroup": {
+      "title": "Mangler følgere-gruppe",
+      "message": "Dette elementet mangler en følgere-gruppe. Velg et annet element."
+    },
+    "noGroupAccess": {
+      "title": "Forhåndsvarsel",
+      "message": "Du har ikke tilgang til følgere-gruppen."
+    }
+  },
+  "selectContent": {
+    "title": "Innhold å følge",
+    "facets": {
+      "sharing": "Deling",
+      "catalog": {
+        "myContent": "Mitt innhold",
+        "organization": "Min organisasjon"
+      }
+    }
+  },
+  "callToAction": {
+    "title": "Oppfordre til handling",
+    "helperText": "Oppfordringen til handling vises over følg-knappen.",
+    "alignment": "Justering"
+  },
+  "followButton": {
+    "title": "Følg-knapp",
+    "helperText": "Denne knappen lar medlemmer følge eller slutte å følge innholdet ditt. Det kan angis tekst for begge knappetilstander.",
+    "buttonText": "Knappetekst for påmelding",
+    "unfollowButtonText": "Knappetekst for avmelding",
+    "alignment": "Justering",
+    "buttonStyle": "Knappestil",
+    "solid": "Fylt bakgrunn",
+    "outline": "Kontur"
+  }
+}

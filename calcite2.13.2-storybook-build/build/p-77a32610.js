@@ -1,0 +1,1 @@
+import{g as t}from"./p-3f64a9d9.js";function m(m,o){return`${t(o)}/home/item.html?id=${m}`}export{m as g}

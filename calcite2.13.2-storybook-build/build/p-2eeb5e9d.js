@@ -1,0 +1,1 @@
+import{c as t}from"./p-d3b23458.js";function o(o,r){let e;return r.authentication&&(e=r.authentication.token),o&&t(`${o}${r.authentication?`?token=${e}`:""}`)}export{o as g}

@@ -1,0 +1,12 @@
+{
+  "members": {
+    "noMember": "لا يوجد أعضاء",
+    "oneMember": "عضو واحد (1)",
+    "members": "{count} أعضاء"
+  },
+  "managers": {
+    "noMember": "لا يوجد مديرين",
+    "oneMember": "مدير واحد",
+    "members": "{count} من المديرين"
+  }
+}

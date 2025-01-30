@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "Kaydet",
+    "registered": "Kayıtlı",
+    "join": "Çevrim içine katıl",
+    "in-person": "Yüz yüze",
+    "online": "Çevrim içi",
+    "inPersonFull": "Yüz yüze (dolu)",
+    "onlineFull": "Çevrim içi (dolu)",
+    "close": "Kapat"
+  },
+  "tooltip": {
+    "isCanceled": "Etkinlik iptal edildi",
+    "eventHasEnded": "Etkinlik sona erdi",
+    "eventFull": "Etkinlik dolu",
+    "inPerson": "Yüz yüze etkinlik için kaydolundu",
+    "online": "Çevrim içi etkinlik için kaydolundu",
+    "unavailable": "Etkinlik başlangıç saatinden bir saat önce kullanılabilir"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "Çevrim içi etkinliğin kaydı başarıyla iptal edildi",
+    "onlineRegistrationConfirmed": "Çevrim içi etkinlik için başarıyla kaydolundu",
+    "onlineRegistrationError": "Çevrim içi etkinlik için kaydolurken beklenmedik bir hata oluştu",
+    "onlineRegistrationCanceledError": "Çevrim içi etkinliğin kaydı iptal edilirken beklenmedik bir hata oluştu",
+    "onlineRegistrationAtCapacity": "Dolu olan bir çevrim içi etkinlik için kaydolmaya çalışıyorsunuz",
+    "inPersonRegistrationCanceled": "Yüz yüze etkinlik için kayıt başarıyla iptal edildi",
+    "inPersonRegistrationCanceledError": "Yüz yüze etkinliğin kaydı iptal edilirken beklenmedik bir hata oluştu",
+    "inPersonRegistrationConfirmed": "Yüz yüze etkinlik için başarıyla kaydolundu",
+    "inPersonRegistrationError": "Yüz yüze etkinlik için kaydolurken beklenmedik bir hata oluştu",
+    "inPersonRegistrationAtCapacity": "Dolu olan bir yüz yüze etkinlik için kaydolmaya çalışıyorsunuz"
+  }
+}

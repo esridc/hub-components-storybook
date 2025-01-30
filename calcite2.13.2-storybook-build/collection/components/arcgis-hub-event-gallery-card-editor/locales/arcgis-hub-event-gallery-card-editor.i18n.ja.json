@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "カテゴリ",
+        "noCategoriesNotice": {
+          "body": "この組織にはカテゴリがまだ存在しません。",
+          "link": "カテゴリの設定"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "コンテンツ",
+      "selectionMode": {
+        "dynamic": {
+          "label": "動的"
+        },
+        "manual": {
+          "label": "手動"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "組織"
+        },
+        "collection": {
+          "sites": "サイト",
+          "projects": "プロジェクト",
+          "initiatives": "イニシアティブ"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "組織"
+        },
+        "collection": {
+          "events": "イベント"
+        }
+      },
+      "access": {
+        "label": "共有",
+        "private": {
+          "label": "非公開",
+          "description": "コンテンツによるフィルターは、自分と、グループ アクセス権のあるユーザーのみが使用できます。"
+        },
+        "org": {
+          "label": "組織",
+          "description": "コンテンツによるフィルターは、組織のメンバーのみが使用できます。"
+        },
+        "public": {
+          "label": "パブリック",
+          "description": "コンテンツによるフィルターは、すべてのユーザーが使用できます。"
+        }
+      },
+      "tags": {
+        "label": "タグ"
+      },
+      "cardsShown": {
+        "label": "表示されたカード"
+      }
+    },
+    "appearance": {
+      "label": "表示設定",
+      "titleHeading": {
+        "label": "タイトル見出し",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "WCAG G141 では、ネストされた見出しによってアクセシビリティが向上しています。"
+      },
+      "corners": {
+        "label": "角",
+        "square": {
+          "label": "四角"
+        },
+        "round": {
+          "label": "角丸"
+        }
+      },
+      "shadow": {
+        "label": "影",
+        "none": {
+          "label": "オフになっています"
+        },
+        "low": {
+          "label": "低"
+        },
+        "medium": {
+          "label": "中"
+        },
+        "heavy": {
+          "label": "高"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "追加情報の表示"
+      },
+      "layout": {
+        "label": "レイアウト",
+        "list": {
+          "label": "リスト"
+        },
+        "map": {
+          "label": "マップ"
+        },
+        "calendar": {
+          "label": "カレンダー"
+        }
+      }
+    },
+    "options": {
+      "label": "オプション",
+      "openIn": {
+        "label": "次で開く...",
+        "same": {
+          "label": "同じタブ"
+        },
+        "new": {
+          "label": "新しいタブ"
+        },
+        "notice": {
+          "title": "アクセシビリティのヒント:",
+          "body": "WCAG 2.0 の G200 Technique に従い、リンクを新しいタブまたはウィンドウで開くことはおすすめしません。",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "WCAG 2.0 G200 の詳細"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "共有",
+      "public": {
+        "label": "パブリック"
+      },
+      "private": {
+        "label": "非公開"
+      },
+      "organization": {
+        "label": "組織"
+      }
+    },
+    "from": {
+      "label": "取得元",
+      "myOrganization": {
+        "label": "組織"
+      },
+      "myContent": {
+        "label": "マイ コンテンツ"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "イベント",
+      "collections": {
+        "event": {
+          "label": "イベント"
+        }
+      }
+    },
+    "item": {
+      "label": "コンテンツ",
+      "collections": {
+        "item": {
+          "label": "コンテンツ"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "newFilter": "Nieuw filter",
+  "block": {
+    "heading": {
+      "untitled": "Nieuw filter",
+      "default": "Filter {filterNum}: {parameter}",
+      "group": "Filter {filterNum}: groepen",
+      "type": "Filter {filterNum}: types",
+      "occurrence": "Filter {filterNum}: reservering"
+    },
+    "actions": {
+      "delete": "Filter verwijderen: {label}"
+    }
+  }
+}

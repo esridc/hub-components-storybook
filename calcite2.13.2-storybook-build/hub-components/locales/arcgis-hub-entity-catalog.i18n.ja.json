@@ -1,0 +1,65 @@
+{
+  "catalog": "カタログ",
+  "catalog-content": "コンテンツ",
+  "catalog-events": "イベント",
+  "shared": {
+    "publish": {
+      "label": "保存",
+      "success": {
+        "title": "カタログの編集内容をライブ ビューに正常に公開しました"
+      },
+      "error": {
+        "title": "編集内容の保存中にエラーが発生しました"
+      }
+    }
+  },
+  "emptyState": {
+    "message": "カタログが定義されていません",
+    "action": "カタログの構築"
+  },
+  "actionBar": {
+    "details": "カタログ構成",
+    "appearance": "カタログの外観",
+    "tooltip": {
+      "appearanceDisabled": "現在、カタログは構成されていません。 カタログを構成し、外観の設定を調整してください。",
+      "configuration": "構成",
+      "appearance": "表示設定"
+    }
+  },
+  "detailsPanel": {
+    "heading": "カタログ構成",
+    "close": "カタログ構成を閉じる",
+    "catalogBuilder": {
+      "helperText": "カタログにより、閲覧者はコンテンツを検索して表示できるようになります。 表示される結果は、クエリ構成に基づきます。"
+    },
+    "querySizeNotice": {
+      "warning": {
+        "title": "カタログが上限に近づいています",
+        "catalogSourceMessage": {
+          "item": "アイテム ソースの構成がサイズ上限に近づいています",
+          "event": "イベント ソースの構成がサイズ上限に近づいています"
+        },
+        "collectionSourceMessage": {
+          "item": "アイテム ソースと「{collectionName}」コレクション構成の組み合わせがサイズ上限に近づいています。",
+          "event": "イベント ソースと「{collectionName}」コレクション構成の組み合わせがサイズ上限に近づいています。"
+        }
+      },
+      "danger": {
+        "title": "カタログの制限を超えています",
+        "catalogSourceMessage": {
+          "item": "アイテム ソースの構成がサイズ上限を超えています。 公開するアイテム ソースのフィルターの数や、フィルター オプションの数を減らします。",
+          "event": "イベント ソースの構成がサイズ上限を超えています。 公開するイベント ソースのフィルターやフィルター オプションの数を減らします。"
+        },
+        "collectionSourceMessage": {
+          "item": "アイテム ソースと「{collectionName}」コレクション構成の組み合わせがサイズ上限を超えています。 公開するアイテム ソースや「{collectionName}」コレクションのフィルターやフィルター オプションの数を減らします。",
+          "event": "イベント ソースと「{collectionName}」コレクションの構成の組み合わせがサイズ上限を超えています。 公開するイベント ソースや「{collectionName}」コレクションのフィルターやフィルター オプションの数を減らします。"
+        }
+      }
+    }
+  },
+  "appearancePanel": {
+    "heading": "カタログの外観",
+    "close": "カタログの外観を閉じる",
+    "description": "カタログにより、閲覧者はコンテンツを検索して表示できるようになります。 ここではデフォルトのカタログの外観と、表示されるフィルターを更新できます。"
+  }
+}

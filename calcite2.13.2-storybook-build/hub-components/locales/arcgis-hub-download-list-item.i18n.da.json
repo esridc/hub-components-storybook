@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "Objektsamling",
+    "fgdb": "Filgeodatabase",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Shapefil",
+    "sqlite": "SQLite Geodatabase"
+  },
+  "buttonText": {
+    "download": "Download",
+    "pending": "Afventer",
+    "processing": "Behandler",
+    "converting": "Konverterer",
+    "completed": "Download fuldført",
+    "failed": "Download mislykkedes"
+  },
+  "errors": {
+    "errorHeading": "Fejl"
+  },
+  "cacheStatusAccordion": {
+    "heading": "Kan du finde det, du har brug for?",
+    "content": "Der kan være en nyere version tilgængelig.",
+    "button": "Anmod om my fil"
+  },
+  "generateNewModal": {
+    "heading": "Er du sikker?",
+    "content": "Det kan tage lidt tid. Hold denne browserfane aktiv, indtil downloaden er fuldført.",
+    "confirmButton": "Ja",
+    "cancelButton": "Annuller"
+  }
+}

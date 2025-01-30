@@ -1,0 +1,50 @@
+/* in the "banner" (default) case, it is just a block level element that takes up space */
+
+:host {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+#sharing {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.5rem;
+}
+
+#sharing > * {
+    margin-top: 0.125rem;
+}
+
+/* in the "hover" case, it does not take up space and fades in on hover */
+
+:host([shareable-on-hover]) {
+    position: relative;
+}
+
+:host([shareable-on-hover]) #sharing {
+    pointer-events: none;
+    position: absolute;
+    top: 100%;
+    right: 0px;
+    left: 0px;
+    z-index: 10;
+    opacity: 0;
+    /* the hide transition */
+    transition: opacity 150ms ease-out 2000ms;
+}
+
+:host([shareable-on-hover]:hover) #sharing, :host([shareable-on-hover]:focus) #sharing {
+    pointer-events: auto;
+    opacity: 1;
+  /* the show transition */
+  transition: opacity 250ms ease-in 100ms;
+}
+
+calcite-tooltip[aria-hidden="true"] {
+  /* this is to work around an issue with the calcite-tooltip
+  where it is *sometimes* mis-positioned so it is over the reference-element (though not visible)
+  which prevents hovering over the reference-element from opening the tooltip */
+  pointer-events: none;
+}

@@ -1,0 +1,18 @@
+{
+  "about": "情報",
+  "metrics": "指標",
+  "featuredContent": "注目のコンテンツ",
+  "details": "詳細",
+  "exploreMetrics": "指標の検索",
+  "status": {
+    "label": {
+      "default": "ステータス",
+      "project": "プロジェクト ステータス",
+      "initiative": "イニシアティブのステータス"
+    },
+    "notStarted": "開始前",
+    "inProgress": "進行中",
+    "onHold": "保留中",
+    "complete": "完了"
+  }
+}

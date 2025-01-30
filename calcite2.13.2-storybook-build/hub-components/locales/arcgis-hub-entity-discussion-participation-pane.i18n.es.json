@@ -1,0 +1,82 @@
+{
+  "title": "Participación",
+  "subtitle": "Establezca la visibilidad del panel de debate (quién puede verlo), desplácese hacia abajo para configurar quién puede editar la información del panel y luego establezca la participación y la moderación con canales.",
+  "channelTitle": "El canal de participación está configurado",
+  "channelDescription": "Este canal controla quién puede agregar, ver y moderar las publicaciones en este panel de debate.",
+  "addChannelsTitle": "Establecer canal",
+  "addChannelsDescription": "Los canales controlan quién puede agregar publicaciones al panel. Pueden estar abiertos a grupos, a una organización o al público, y pueden aplicarse a muchos debates. Los canales también controlan quién puede moderar. Configure palabras bloqueadas para automoderación en un canal.",
+  "privateChannelTitle": "Se ha configurado un canal privado",
+  "privateChannelDescription": "No puede ver el canal privado asignado a este panel de discusión. Puede eliminar el canal y seleccionar un canal existente o crear un canal.",
+  "removeChannelConfirmationMessage": "Este panel de discusión ya no mostrará las publicaciones. Puede agregar un canal si se elimina este canal.",
+  "headingChannelEdit": "Está editando un canal",
+  "headingChannelView": "Está viendo un canal",
+  "headingChannelCreate": "Está creando un canal",
+  "buttons": {
+    "browse": "Examinar canales",
+    "new": "Nuevo canal",
+    "removeChannel": "Eliminar canal",
+    "cancel": "Cancelar"
+  },
+  "alerts": {
+    "label": "Alerta de formulario",
+    "set": {
+      "title": "Correcto. El canal está configurado."
+    },
+    "removed": {
+      "title": "Canal eliminado",
+      "message": "Elija o cree un canal de participación."
+    },
+    "error": {
+      "title": "Error. El canal no está configurado."
+    }
+  },
+  "galleryPickerTitle": "Seleccionar un canal",
+  "channelsLabel": "Canales",
+  "accessLabel": "Acceso",
+  "optionPublicLabel": "Público",
+  "optionOrganizationLabel": "Organización",
+  "optionPrivateLabel": "Privado",
+  "viewChannel": "Ver canal",
+  "editChannel": "Editar canal",
+  "save": "Guardar",
+  "removeChannel": "Eliminar canal",
+  "groupPicker": {
+    "facet": {
+      "label": "De",
+      "myGroups": "Mis grupos",
+      "myOrganization": "Mi organización",
+      "myCommunity": "Mi comunidad"
+    }
+  },
+  "editGroupButtonText": "Agregar editar grupos",
+  "viewGroupButtonText": "Agregar ver grupos",
+  "viewGroups": {
+    "header": "Quién puede ver",
+    "description": "Personas que pueden ver el panel (pero no pueden publicar en él); la publicación se establece según los canales a continuación."
+  },
+  "editGroups": {
+    "header": "Quién puede editar",
+    "description": "Los miembros del grupo pueden editar información del panel en el espacio de trabajo."
+  },
+  "aboutChannelsNotice": {
+    "title": "Introducción de canales",
+    "message": "Los canales no son grupos, pero pueden contenerlos. Determinan quién puede publicar y moderar.",
+    "action": "Más sobre los canales"
+  },
+  "nonPrivateChannelNotice": {
+    "title": "No puede editar el canal",
+    "message": "Solo pueden editarlo los moderadores de este canal. Si es necesario, póngase en contacto con el propietario del canal o el administrador de la organización para agregarlo. También puede eliminar este canal, agregar uno existente (del que es moderador) o crear uno nuevo."
+  },
+  "privateChannelNotice": {
+    "title": "No puede editar el canal",
+    "message": "Solo pueden editarlo los moderadores de este canal. Si es necesario, póngase en contacto con el propietario del canal para agregarlo. También puede eliminar este canal, agregar uno existente (del que es moderador) o crear uno nuevo."
+  },
+  "participate": {
+    "header": "Quién puede participar y quién puede moderar"
+  },
+  "org": "Organización",
+  "private": "Privado",
+  "public": "Público",
+  "unnamed": "Canal sin nombre",
+  "groupNotFound": "Grupo no encontrado"
+}

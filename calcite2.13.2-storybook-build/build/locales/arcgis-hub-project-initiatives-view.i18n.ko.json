@@ -1,0 +1,19 @@
+{
+  "facets": {
+    "location": {
+      "label": "위치",
+      "tooltip": "맵 범위를 위치 필터로 적용"
+    },
+    "status": "상태",
+    "tags": "태그",
+    "categories": "범주",
+    "dateUpdated": "업데이트일"
+  },
+  "status": {
+    "label": "프로젝트 상태",
+    "notStarted": "시작되지 않음",
+    "inProgress": "진행 중",
+    "onHold": "보류 중",
+    "complete": "완료"
+  }
+}

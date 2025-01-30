@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+  <title>Hub Components: Simple Gallery</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .nav {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+    }
+  </style>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+  <link rel="stylesheet" href="../calcite-web.min.css">
+
+  <script type="importmap">
+    {
+      "imports": {
+        "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+      }
+    }
+  </script>
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <script type="module" src="../../calcite/calcite.esm.js"></script>
+</head>
+
+<body>
+  <div class="grid-container padding-leader-2">
+    <div class="column-20 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-hub-gallery: Well-Known Types</h2>
+    </div>
+    <div class="column-20">
+      <calcite-button onClick="signIn()">Sign In</calcite-button>
+      <calcite-button onClick="signOut()">Sign Out</calcite-button>
+      <div id="userinfo"></div>
+      <br>
+      <p>This example defined the Types facet using "Well Known Type" short-cuts (e.g "$application" and "$document"). Note that these short-cuts can not be combined with other complex queries, but are ideal for use in facets. </p>
+      <arcgis-hub-gallery query='hub' layout='grid' limit='9' api-type="arcgis"
+        show-thumbnail show-search show-sort show-chips show-facets show-more-results-btn>
+
+      </arcgis-hub-gallery>
+
+      <arcgis-app-identity client-id="bHypqtyn5UaaJ1Zt" redirect-uri="http://localhost:3333/html/redirect.html"
+        portal="https://www.arcgis.com">
+      </arcgis-app-identity>
+    </div>
+
+
+  </div>
+  <script>
+
+    // APPIds
+    // DEVEXT: zhGPGlPQaq11eIQC / 906e855bb18b4cf49031482c0c117f09
+    // QAEXT:  u3KZUyh6wbCQtuCj / ???
+    // PROD: bHypqtyn5UaaJ1Zt / cc9ee3398ec844b18319746b56f563ab
+
+    document.addEventListener('calciteRadioGroupChange', (evt) => {
+      console.log(`Changing API to ${evt.detail}`);
+      const apiType = evt.detail;
+      setProp('apiType', apiType);
+      // if (apiType === "arcgis") {
+      //   setProp('apiType', "https://devext.arcgis.com");
+      // } else {
+      //   setProp('apiUrl', "https://hubdev.arcgis.com/api/items/beta/search");
+      // }
+
+    });
+    document.addEventListener('arcgisHubGalleryAction', (evt) => {
+      console.log(`galleryAction: ${evt.detail.action} for ${evt.detail.model.id}`);
+    })
+    function applyParams() {
+      const paramString = document.getElementById('qs').value;
+      const parts = paramString.split("&");
+      const params = parts.reduce((acc, entry) => {
+        if (entry) {
+          const [key, val] = entry.split("=");
+          if (val !== "null") {
+            acc[key] = val;
+          }
+        }
+        return acc;
+      }, {});
+
+      setProp("state", params);
+    }
+    // These would be raised from some user profile type control
+    function signIn() {
+      const evt = new CustomEvent('arcgisAppIdentityStartSignIn')
+      document.dispatchEvent(evt);
+    }
+    function signOut() {
+      const evt = new CustomEvent('arcgisAppIdentityStartSignOut')
+      document.dispatchEvent(evt);
+    }
+
+    // These listeners could be in any component that wants a session
+    document.addEventListener('arcgisAppIdentitySignedIn', (evt) => {
+
+      setProp('context', evt.detail);
+      showUserInfo(evt.detail.session);
+    });
+
+    document.addEventListener('arcgisAppIdentitySignedOut', (evt) => {
+
+      setProp('context', evt.detail);
+      showUserInfo(evt.detail.session);
+    });
+
+    const params = {};
+
+    document.addEventListener('arcgisHubContentGalleryStateChange', (evt) => {
+      showParams(evt.detail);
+    });
+
+    function showParams(params) {
+      // serialize
+      let qs = "";
+      for (key in params) {
+        if (params[key]) {
+          qs = `${qs}&${key}=${params[key]}`
+        }
+
+      }
+      const el = document.getElementById('params');
+      el.innerText = `State as params: ${qs}`;
+    }
+
+    // Simple function to so something when auth changes
+    function showUserInfo(session) {
+      const el = document.getElementById('userinfo');
+      if (session) {
+        el.innerText = `User ${session.username} authenticated`;
+      } else {
+        el.innerText = 'No user authenticated';
+      }
+    }
+
+
+    // Set a property on the element
+    function setProp(key, value) {
+      const el = document.querySelector("arcgis-hub-gallery");
+      el[key] = value;
+    }
+
+    const query = {
+      targetEntity: "item",
+      filters: [
+        {
+          predicates: [{ orgid: "bkrWlSKcjUDFDtgw" }]
+        }
+      ]
+    }
+    const  facets= [
+        {
+          label: "Access",
+          key: "access",
+          display: "multi-select",
+          operation: "OR",
+          options: [
+            {
+              label: "Public",
+              key: "public",
+              selected: true,
+              predicates: [{
+
+                access: "public",
+              }],
+            },
+            {
+              label: "Shared",
+              key: "shared",
+              selected: false,
+              predicates: [{
+
+                access: "shared",
+              },]
+            },
+            {
+              label: "Org",
+              key: "org",
+              selected: false,
+              predicates: [{
+
+                access: "org",
+              }],
+            },
+            {
+              label: "Mine",
+              key: "mine",
+              selected: false,
+              predicates: [{
+
+                owner: "dbouwman_dc",
+              }],
+            }
+          ],
+        },
+
+        {
+          label: "Types",
+          key: "types",
+          display: "multi-select",
+          pageSize: 4,
+          operation: "OR",
+          options: [
+            {
+              label: "Projects",
+              key: "projects",
+              selected: true,
+              predicates: [
+                {
+
+                  type: "Hub Project"
+                }
+              ]
+            },
+            {
+              label: "Web Maps",
+              key: "webmaps",
+              selected: false,
+              predicates: [{
+
+                type: "$webmap"
+              }]
+            },
+            {
+              label: "Sites",
+              key: "sites",
+              selected: true,
+              predicates: [{
+
+                type: "$site"
+              }]
+            },
+            {
+              label: "Feedback",
+              key: "feedback",
+              selected: false,
+              predicates: [{
+
+                type: "$feedback"
+              }]
+            },
+            {
+              label: "Apps",
+              key: "apps",
+              selected: false,
+              predicates: [{
+
+                type: "$application"
+              }]
+            },
+            {
+              label: "Story Maps",
+              key: "storymaps",
+              selected: false,
+              predicates: [
+                {
+
+                  type: "$storymap",
+                }
+              ]
+            },
+            {
+              label: "Dashboards",
+              key: "dashboards",
+              selected: false,
+              predicates: [{
+
+                type: "$dashboard",
+              }]
+            },
+            {
+              label: "Document",
+              key: "documents",
+              selected: false,
+              predicates: [{
+
+                type: "$document"
+              }]
+            },
+            {
+              label: "Datasets",
+              key: "datasets",
+              selected: false,
+              predicates: [{
+
+                type: "$dataset"
+              }]
+            },
+             {
+              label: "Experience",
+              key: "experience",
+              selected: false,
+              predicates: [{
+
+                type: "$experience"
+              }]
+            },
+            {
+              label: "Initiative",
+              key: "initiative",
+              selected: false,
+              predicates: [{
+
+                type: "$initiative"
+              }]
+            },
+            {
+              label: "Template",
+              key: "template",
+              selected: false,
+              predicates: [{
+
+                type: "$template"
+              }]
+            },
+
+          ]
+        },
+        {
+          label: "Tags",
+          key: "tags",
+          field: "tags",
+          aggLimit: 15,
+          operation: "AND",
+          display: "multi-select",
+          options: []
+        }
+      ]
+
+
+    setProp("query", query);
+    setProp("facets", facets);
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+{
+  "overview": "Descripció general",
+  "resources": "Recursos del Hub",
+  "cards": {
+    "items": "Nombre d'elements",
+    "groups": "Nombre de grups"
+  },
+  "hubContent": {
+    "heading": "Elements del Hub modificats recentment",
+    "link": "Mostra tot el contingut"
+  },
+  "content": {
+    "heading": "Contingut modificat recentment",
+    "stat": "Nombre d'elements",
+    "link": "Mostra tot el contingut"
+  },
+  "groups": {
+    "heading": "Grups modificats recentment",
+    "stat": "Nombre de grups",
+    "link": "Mostra tots els grups"
+  },
+  "contentCount": "Contingut",
+  "addContent": "Crea",
+  "facets": {
+    "access": {
+      "label": "Des de"
+    },
+    "type": {
+      "label": "Tipus"
+    },
+    "modified": {
+      "label": "Data de modificació"
+    }
+  }
+}

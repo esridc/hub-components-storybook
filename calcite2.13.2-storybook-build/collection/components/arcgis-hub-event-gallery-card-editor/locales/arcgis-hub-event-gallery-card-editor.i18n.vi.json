@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "Danh mục",
+        "noCategoriesNotice": {
+          "body": "Tổ chức này chưa có danh mục nào.",
+          "link": "Thiết lập danh mục"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "Nội dung",
+      "selectionMode": {
+        "dynamic": {
+          "label": "Động"
+        },
+        "manual": {
+          "label": "Thủ công"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "Tổ chức"
+        },
+        "collection": {
+          "sites": "Sites",
+          "projects": "Dự án",
+          "initiatives": "Sáng kiến"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "Tổ chức"
+        },
+        "collection": {
+          "events": "Sự kiện"
+        }
+      },
+      "access": {
+        "label": "Chia sẻ",
+        "private": {
+          "label": "Riêng tư",
+          "description": "Lọc theo nội dung chỉ khả dụng đối với bạn và những người có quyền truy cập nhóm."
+        },
+        "org": {
+          "label": "Tổ chức",
+          "description": "Lọc theo nội dung chỉ khả dụng với thành viên trong tổ chức bạn."
+        },
+        "public": {
+          "label": "Công khai",
+          "description": "Lọc theo nội dung khả dụng với tất cả mọi người."
+        }
+      },
+      "tags": {
+        "label": "Thẻ"
+      },
+      "cardsShown": {
+        "label": "Hiển thị Thẻ"
+      }
+    },
+    "appearance": {
+      "label": "Giao diện",
+      "titleHeading": {
+        "label": "Đầu mục Tiêu đề",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "Theo WCAG G141, các đầu mục lồng nhau sẽ cải thiện khả năng truy cập."
+      },
+      "corners": {
+        "label": "Góc",
+        "square": {
+          "label": "Vuông"
+        },
+        "round": {
+          "label": "Bo tròn"
+        }
+      },
+      "shadow": {
+        "label": "Đổ bóng",
+        "none": {
+          "label": "Đã tắt"
+        },
+        "low": {
+          "label": "Thấp"
+        },
+        "medium": {
+          "label": "Trung bình"
+        },
+        "heavy": {
+          "label": "Mạnh"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "Hiển thị thông tin bổ sung"
+      },
+      "layout": {
+        "label": "Bố cục",
+        "list": {
+          "label": "Danh sách"
+        },
+        "map": {
+          "label": "Bản đồ"
+        },
+        "calendar": {
+          "label": "Lịch"
+        }
+      }
+    },
+    "options": {
+      "label": "Tùy chọn",
+      "openIn": {
+        "label": "Mở trong...",
+        "same": {
+          "label": "Cùng tab"
+        },
+        "new": {
+          "label": "Tab mới"
+        },
+        "notice": {
+          "title": "Mẹo Truy cập:",
+          "body": "Theo kỹ thuật WCAG 2.0 G200, không nên mở liên kết trong tab mới hoặc cửa sổ mới.",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "Đọc thêm về WCAG 2.0 G200"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "Chia sẻ",
+      "public": {
+        "label": "Công khai"
+      },
+      "private": {
+        "label": "Riêng tư"
+      },
+      "organization": {
+        "label": "Tổ chức"
+      }
+    },
+    "from": {
+      "label": "Từ",
+      "myOrganization": {
+        "label": "Tổ chức của tôi"
+      },
+      "myContent": {
+        "label": "Nội dung của tôi"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "Sự kiện",
+      "collections": {
+        "event": {
+          "label": "Sự kiện"
+        }
+      }
+    },
+    "item": {
+      "label": "Nội dung",
+      "collections": {
+        "item": {
+          "label": "Nội dung"
+        }
+      }
+    }
+  }
+}

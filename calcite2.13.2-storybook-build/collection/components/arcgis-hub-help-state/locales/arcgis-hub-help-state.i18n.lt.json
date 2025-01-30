@@ -1,0 +1,26 @@
+{
+  "unauthenticated": {
+    "heading": "Prisijunkite.",
+    "message": "Norint pasiekti šią svetainę, reikalingi prisijungimo duomenys.",
+    "actionText": "Prisijungti"
+  },
+  "not-found": {
+    "heading": "Puslapis nerastas",
+    "message": "Šis puslapis galėjo būti perkeltas arba ištrintas. Pabandykite ieškoti pagrindiniame puslapyje",
+    "actionText": "Eiti į pagrindinį puslapį"
+  },
+  "unsupported-device": {
+    "heading": "Nepalaikomas ekrano dydis",
+    "message": "Darbo vietų dar negalima rodyti mažesnio dydžio ekranuose; naudokite įrenginį su platesniu ekranu.",
+    "actionText": "Grįžti"
+  },
+  "access-denied": {
+    "heading": "Prieiga nesuteikta",
+    "message": "Neturite teisės pasiekti šio ištekliaus.",
+    "actionText": "Eiti į pagrindinį puslapį"
+  },
+  "loading": {
+    "heading": "Įkeliama...",
+    "loadingLabel": "Kraunama"
+  }
+}

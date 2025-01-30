@@ -1,0 +1,50 @@
+{
+  "section": "Poista",
+  "protection": "Estä tämän kohteen {type} poistaminen vahingossa.",
+  "protectionTooltip": "Suojauksen työkaluvihje",
+  "protectionDisabledTooltip": "Vain omistajat tai organisaation pääkäyttäjät voivat muuttaa suojausta.",
+  "deleteDisabledNoAccessTooltip": "Vain omistajat tai organisaation pääkäyttäjät voivat poistaa.",
+  "deleteDisabledNoAccessTooltipGroup": "Vain omistajat, hallinnoijat tai organisaation pääkäyttäjät voivat poistaa.",
+  "deleteDisabledProtectedTooltip": "Et voi poistaa, kun poistosuojaus on käytössä.",
+  "deleteButton": "Poista",
+  "protect": {
+    "successTitle": "Poistosuojaus lisätty",
+    "success": "Et voi poistaa, kun poistosuojaus on käytössä.",
+    "successLabel": "Poistosuojaus lisätty -ilmoitus.",
+    "errorTitle": "Poistosuojausta ei voi lisätä",
+    "error": "Poistosuojauksen lisäämisessä tapahtui virhe.",
+    "errorLabel": "Poistosuojaus epäonnistui -ilmoitus."
+  },
+  "unprotect": {
+    "successTitle": "Poistosuojaus poistettu",
+    "success": "Voit poistaa, kun poistosuojaus ei ole käytössä.",
+    "successLabel": "Poistosuojaus poistettu -ilmoitus.",
+    "errorTitle": "Poistosuojausta ei voi poistaa",
+    "error": "Poistosuojauksen poistamisessa tapahtui virhe.",
+    "errorLabel": "Poistosuojauksen poisto epäonnistui -ilmoitus."
+  },
+  "delete": {
+    "successTitle": "Poisto onnistui",
+    "success": "Ohjataan uudelleen kotityötilaasi",
+    "successLabel": "Poisto onnistui -ilmoitus.",
+    "errorTitle": "Poisto epäonnistui",
+    "error": "Jokin meni vikaan. Yritä uudelleen.",
+    "errorLabel": "Poisto epäonnistui -ilmoitus."
+  },
+  "permanentDelete": {
+    "successTitle": "Poistaminen pysyvästi onnistui",
+    "success": "Ohjataan uudelleen kotityötilaasi",
+    "successLabel": "Poisto onnistui -ilmoitus.",
+    "errorTitle": "Poisto epäonnistui",
+    "error": "Jokin meni vikaan. Yritä uudelleen.",
+    "errorLabel": "Poisto epäonnistui -ilmoitus."
+  },
+  "deleteModal": {
+    "header": "Poista",
+    "deleteContent": "Pysyvää poistoa ei voi kumota. Haluatko varmasti jatkaa?",
+    "recycleContent": "Poistettu sisältö lähetetään roskakoriin. Sinulla on 14 päivää aikaa palauttaa se.",
+    "delete": "Poista",
+    "permanentlyDelete": "Poista pysyvästi",
+    "cancel": "Peruuta"
+  }
+}

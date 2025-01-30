@@ -1,0 +1,46 @@
+{
+  "title": "Configuração do Catálogo",
+  "helperText": "Definir e configurar o catálogo",
+  "sections": {
+    "groups": {
+      "title": "Grupos",
+      "helperText": "Os grupos abaixo contêm o conteúdo do seu catálogo de pesquisa. Selecione um grupo para visualizar configurações, conteúdo e muito mais.",
+      "createGroup": "Criar Novo Grupo"
+    },
+    "feeds": {
+      "title": "Configuração do Feed",
+      "helperText": "Torne seus dados públicos abertos facilmente acessíveis e reutilizáveis com feeds do Hub.",
+      "learn": "Saiba mais sobre feeds do Hub.",
+      "toggle": "Habilitar Feeds ",
+      "configure": "Configurar Feeds",
+      "notice": "Para habilitar feeds, você precisa primeiro definir seus sites do Hub como \"Públicos\" em suas Configurações"
+    }
+  },
+  "groupPickerFacet": {
+    "label": "De",
+    "editGroups": "Editar grupos",
+    "viewGroups": "Visualizar grupo",
+    "myGroups": "Meus grupos",
+    "myOrganization": "Minha organização",
+    "myCommunity": "Minha comunidade",
+    "public": "Público"
+  },
+  "formAlert": "Alerta de Formulário",
+  "configSaveAlert": {
+    "success": "Edições salvas com sucesso",
+    "failure": "Erro ao salvar edições"
+  },
+  "reharvestCatalogButton": "Procurar erros",
+  "reharvestWarningModal": {
+    "title": "Procurar erros",
+    "body1": "Aviso: esta opção geralmente é usada apenas em situações em que sua página de pesquisa encontra problemas com resultados ou metadados ausentes. Esta opção verificará todos os itens em todos os grupos do catálogo em busca de adições, alterações de metadados ou remoções.",
+    "body2": "A execução deste processo reconstrói o índice de pesquisa pública deste catálogo e pode levar alguns minutos. Isto aumentará a carga em qualquer instância do ArcGIS Server.",
+    "primaryButton": "Continuar",
+    "secondaryButton": "Cancelar"
+  },
+  "reharvestCatalogAlert": {
+    "success": "Procurando erros. Verifique novamente mais tarde.",
+    "inProgress": "A verificação já está em andamento. Volte mais tarde.",
+    "failure": "Desculpe, ocorreu um erro operacional. Tente novamente mais tarde."
+  }
+}

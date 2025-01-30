@@ -1,0 +1,23 @@
+:host {
+  display: block;
+}
+
+/* apply bottom margin to all accordions except the last */
+:host:not(.configuration-editor__last-child) {
+  margin-bottom: 0.75rem;
+}
+
+/* we overwrite this custom variable to change the size of
+accordion section headers depending on the section's scale
+TODO: add styling for "m" and "s" scales */
+calcite-accordion[scale="l"] {
+  --calcite-font-size-0: 18px;
+}
+
+/* We safeguard against fields rendered within an accordion
+section from inheriting the overwritten section header
+font size by explicitly re-setting this custom variable
+for all slotted content within a calcite-accordion */
+calcite-accordion ::slotted(*) {
+  --calcite-font-size-0: 14px;
+}

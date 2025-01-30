@@ -1,0 +1,46 @@
+{
+  "title": "Configuration du catalogue",
+  "helperText": "Définir et configurer le catalogue",
+  "sections": {
+    "groups": {
+      "title": "Groupes",
+      "helperText": "Les groupes ci-dessous renferment le contenu de votre catalogue de recherche. Sélectionnez un groupe pour afficher ses paramètres, son contenu, etc.",
+      "createGroup": "Créer un nouveau groupe"
+    },
+    "feeds": {
+      "title": "Configuration des flux",
+      "helperText": "Rendez vos données Open Data publiques facilement accessibles et réutilisables grâce aux flux Hub.",
+      "learn": "En savoir plus sur les flux Hub",
+      "toggle": "Activer les flux ",
+      "configure": "Configurer les flux",
+      "notice": "Pour activer les flux, vous devez d’abord définir vos sites Hub sur \"Public\" dans les paramètres"
+    }
+  },
+  "groupPickerFacet": {
+    "label": "Depuis",
+    "editGroups": "Modifier les groupes",
+    "viewGroups": "Afficher le groupe",
+    "myGroups": "Mes groupes",
+    "myOrganization": "Mon organisation",
+    "myCommunity": "Ma communauté",
+    "public": "Public"
+  },
+  "formAlert": "Alerte de formulaire",
+  "configSaveAlert": {
+    "success": "Les modifications ont été enregistrées",
+    "failure": "Erreur lors de l’enregistrement des modifications"
+  },
+  "reharvestCatalogButton": "Rechercher les erreurs",
+  "reharvestWarningModal": {
+    "title": "Rechercher les erreurs",
+    "body1": "Avertissement : cette option n’est généralement utilisée que dans les cas où la page de recherche rencontre des problèmes liés à des métadonnées ou résultats manquants. Elle vérifie tous les éléments dans tous les groupes du catalogue pour déterminer si des ajouts, des modifications de métadonnées ou des suppressions ont été effectués.",
+    "body2": "L’exécution de ce processus entraîne la recréation de l’index de recherche public du catalogue et peut prendre plusieurs minutes. Elle engendre une augmentation de la charge sur les instances d’ArcGIS Server.",
+    "primaryButton": "Continuer",
+    "secondaryButton": "Annuler"
+  },
+  "reharvestCatalogAlert": {
+    "success": "Recherche d’erreurs. Réessayez plus tard.",
+    "inProgress": "La vérification est déjà en cours. Revenez plus tard.",
+    "failure": "Désolé, une erreur opérationnelle s’est produite. Réessayez ultérieurement."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "popover": {
+    "access": {
+      "org": "已分享至組織",
+      "private": "已分享至擁有者",
+      "public": "已分享至公眾",
+      "shared": "已分享至擁有者和與群組"
+    },
+    "editLayout": "編輯版面配置",
+    "lastUpdated": "上次更新時間 {updated}",
+    "viewSite": "檢視網站"
+  },
+  "cloneLayoutLabel": "複製版面配置",
+  "deleteDraftLabel": "刪除草稿",
+  "deletePageLabel": "刪除頁面",
+  "deleteSiteLabel": "刪除網站",
+  "editInAgoLabel": "在 ArcGIS Online 中編輯",
+  "managePage": "管理頁面",
+  "manageSite": "管理網站",
+  "manageTemplate": "管理樣板",
+  "moreOptionsLabel": "更多選項",
+  "publishLabel": {
+    "site": "發佈版面配置",
+    "page": "發佈版面配置",
+    "survey": "發佈"
+  },
+  "saveAsTemplateLabel": "儲存為範本",
+  "saveLabel": {
+    "site": "儲存版面配置",
+    "page": "儲存版面配置",
+    "survey": "儲存",
+    "template": "儲存"
+  },
+  "sharingLabel": "開啟分享面板",
+  "editS123Label": "在 Survey123 中編輯",
+  "viewLabel": "檢視",
+  "viewPublishedLabel": "檢視發佈的網站",
+  "viewUnpublishedLabel": "檢視草稿"
+}

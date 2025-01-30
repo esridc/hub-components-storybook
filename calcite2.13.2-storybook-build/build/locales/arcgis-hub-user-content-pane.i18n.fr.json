@@ -1,0 +1,43 @@
+{
+  "content": "Contenu",
+  "myContent": "Mes contenus",
+  "editableContent": "Contenu modifiable",
+  "addContentButtonText": "Créer",
+  "type": "Type",
+  "sharedUpdate": "Groupe de mise à jour partagée",
+  "viewOnly": "Groupe de consultation uniquement",
+  "owner": "Propriétaire",
+  "updated": "Mise à jour",
+  "tags": "Balises",
+  "dateCreated": "Création",
+  "dateUpdated": "Modification",
+  "actionLinks": {
+    "view": "Afficher",
+    "edit": "Modifier",
+    "ariaEdit": "Modifier {title}",
+    "ariaView": "Afficher {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "Contenu",
+      "myContent": "Contenu dont je suis propriétaire",
+      "editableContent": "Contenu que je peux modifier",
+      "all": "Tous les contenus"
+    },
+    "access": {
+      "label": "Provenance"
+    },
+    "type": {
+      "label": "Types"
+    },
+    "tags": {
+      "label": "Balises"
+    },
+    "categories": {
+      "label": "Catégories"
+    },
+    "modified": {
+      "label": "Modification"
+    }
+  }
+}

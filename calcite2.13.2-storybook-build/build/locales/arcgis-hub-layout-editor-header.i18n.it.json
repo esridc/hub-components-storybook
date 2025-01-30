@@ -1,0 +1,39 @@
+{
+  "popover": {
+    "access": {
+      "org": "Condiviso con l'organizzazione",
+      "private": "Condiviso con il proprietario",
+      "public": "Condiviso con il pubblico",
+      "shared": "Condiviso con proprietario e gruppi"
+    },
+    "editLayout": "Modifica layout",
+    "lastUpdated": "Ultimo aggiornamento {updated}",
+    "viewSite": "Visualizza sito"
+  },
+  "cloneLayoutLabel": "Layout clone",
+  "deleteDraftLabel": "Elimina bozze",
+  "deletePageLabel": "Elimina pagina",
+  "deleteSiteLabel": "Elimina sito",
+  "editInAgoLabel": "Modifica in ArcGIS Online",
+  "managePage": "Gestisci pagina",
+  "manageSite": "Gestisci sito",
+  "manageTemplate": "Gestisci modello",
+  "moreOptionsLabel": "Altre opzioni",
+  "publishLabel": {
+    "site": "Pubblica layout",
+    "page": "Pubblica layout",
+    "survey": "Pubblica"
+  },
+  "saveAsTemplateLabel": "Salva come modello",
+  "saveLabel": {
+    "site": "Salva layout",
+    "page": "Salva layout",
+    "survey": "Salva",
+    "template": "Salva"
+  },
+  "sharingLabel": "Apri pannello di condivisione",
+  "editS123Label": "Modifica in Survey123",
+  "viewLabel": "Visualizza",
+  "viewPublishedLabel": "Visualizza pubblicato",
+  "viewUnpublishedLabel": "Visualizza bozza"
+}

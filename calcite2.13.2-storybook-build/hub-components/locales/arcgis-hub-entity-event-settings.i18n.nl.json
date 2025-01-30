@@ -1,0 +1,49 @@
+{
+  "settings": "Instellingen",
+  "advanced": "Geavanceerd",
+  "delete": {
+    "event": "Dit evenement verwijderen.",
+    "desc": "Het verwijderen van dit evenement kan niet ongedaan worden gemaakt. Bestaande geregistreerden worden op de hoogte gesteld (als automatische kennisgevingen zijn ingeschakeld voor het evenement).",
+    "deleteButton": "Evenement verwijderen"
+  },
+  "cancel": {
+    "header": "Dit evenement annuleren",
+    "desc": "Als het evenement wordt geannuleerd, blijft het zichtbaar met een status 'geannuleerd'. Registratie wordt stopgezet en bestaande geregistreerden worden op de hoogte gesteld (indien automatische kennisgevingen zijn ingeschakeld voor het evenement).",
+    "event": "Evenement annuleren",
+    "notice": {
+      "success": {
+        "title": "Evenement is geannuleerd",
+        "message": "Bestaande geregistreerden worden op de hoogte gesteld als automatische kennisgevingen zijn ingeschakeld."
+      },
+      "error": {
+        "title": "Kan evenement niet annuleren",
+        "message": "Probeer het opnieuw"
+      }
+    }
+  },
+  "enable": {
+    "event": "Evenement opnieuw inschakelen",
+    "desc": "Evenement is geannuleerd (zichtbaar met een status 'geannuleerd').",
+    "notice": {
+      "success": {
+        "title": "Evenement is opnieuw ingeschakeld",
+        "message": "Bestaande geregistreerden worden op de hoogte gesteld als automatische kennisgevingen zijn ingeschakeld."
+      },
+      "error": {
+        "title": "Kan evenement niet opnieuw inschakelen",
+        "message": "Probeer het opnieuw"
+      }
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "event": "Evenement verwijderen"
+    },
+    "content": "Weet u zeker dat u het volgende wilt verwijderen:",
+    "delete": "Evenement verwijderen",
+    "cancel": "Evenement annuleren"
+  },
+  "notice": {
+    "label": "Formulierwaarschuwing"
+  }
+}

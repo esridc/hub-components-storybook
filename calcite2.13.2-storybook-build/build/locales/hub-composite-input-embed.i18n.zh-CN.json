@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "我的内容",
+    "livingAtlas": "Living Atlas",
+    "organization": "我的组织",
+    "world": "世界(公共)"
+  },
+  "collection": {
+    "appsAndMaps": "应用程序和地图",
+    "feedback": "反馈"
+  },
+  "facets": {
+    "type": "类型",
+    "tags": "标签",
+    "categories": "类别",
+    "modified": "修改日期"
+  },
+  "pickerTitle": "选择内容",
+  "height": "高度(px)",
+  "isScrollable": "可滚动",
+  "errors": {
+    "heightMinimum": "值必须为正数。",
+    "heightMaximum": "值必须小于或等于 2000px。",
+    "urlError": "必须为有效 URL。"
+  },
+  "success": {
+    "urlSuccess": "URL 已成功加载。"
+  },
+  "shouldApplyBreakpoints": {
+    "label": "改为通过设备断点应用设置"
+  },
+  "viewportAll": {
+    "label": "默认",
+    "description": "设置已应用于所有屏幕尺寸"
+  },
+  "viewportMobile": {
+    "label": "移动",
+    "description": "设置已应用于宽度为 360px 及以上的屏幕"
+  },
+  "viewportTablet": {
+    "label": "平板电脑",
+    "description": "设置已应用于宽度为 560px 及以上的屏幕"
+  },
+  "viewportDesktop": {
+    "label": "台式机",
+    "description": "设置已应用于宽度为 980px 及以上的屏幕"
+  },
+  "sourceLabel": "选择嵌入类型",
+  "contentLabel": "ArcGIS 内容",
+  "externalLabel": "外部 URL",
+  "contentDescription": "从您的可用现有地图、场景、应用程序、调查和文档链接中选择。",
+  "externalDescription": "输入要嵌入的 URL。 请注意，一些域不允许嵌入，可能无法按预期显示。"
+}

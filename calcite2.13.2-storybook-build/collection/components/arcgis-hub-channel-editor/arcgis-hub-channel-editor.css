@@ -1,0 +1,64 @@
+:host {
+  display: block;
+}
+
+p[slot="moderators"] {
+  font-weight: var(--calcite-font-weight-bold);
+}
+
+div[slot="moderators"] {
+  font-size: var(--calcite-font-size--2);
+  line-height: 1rem;
+  color: var(--calcite-color-text-1);
+}
+
+ul[slot="moderators"] {
+  margin: 0px;
+  padding: 0px;
+}
+
+arcgis-configuration-editor {
+  margin: 0.25rem;
+}
+
+arcgis-configuration-editor arcgis-configuration-editor-field[property="access"] {
+  --calcite-label-margin-bottom: 0;
+}
+
+div:has(calcite-button[type="submit"]) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+calcite-notice {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+calcite-notice:first-of-type {
+  margin-top: 0px;
+}
+
+div[slot="participant-groups"] {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 2rem;
+}
+
+calcite-button[slot="participant-groups"] {
+  margin-top: 1rem;
+}
+
+calcite-notice[kind="info"] {
+  margin-bottom: 0px;
+}
+
+calcite-notice[kind="info"] + arcgis-hub-gallery {
+  margin-top: 1rem;
+}
+
+.no-participants {
+  margin: 0px;
+  margin-top: 2rem;
+}

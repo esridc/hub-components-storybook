@@ -1,0 +1,47 @@
+{
+  "communityOrg": "Kopienas organizācija",
+  "editLayout": "Rediģēt izkārtojumu",
+  "orgWorkspace": "Atvērt mājas darbvietu",
+  "editS123": "Rediģēt, izmantojot Survey123",
+  "editAdvancedJson": "Rediģēt uzlabotu JSON",
+  "view": {
+    "project": "Skatīt projektu",
+    "site": "Skatīt vietni",
+    "initiative": "Skatīt iniciatīvu",
+    "discussion": "Skatīt paneli",
+    "content": "Skatīt saturu",
+    "page": "Skatīt lapu",
+    "group": "Skatīt grupu",
+    "initiativeTemplate": "Skatīt iniciatīvas veidni",
+    "template": "Skatīt veidni",
+    "survey": "Skatīt anketu",
+    "event": "Skatīt pasākumu"
+  },
+  "access": {
+    "share": "Koplietot",
+    "sharingLevel": "Koplietošanas līmenis",
+    "groupSharing": "Grupas koplietošana",
+    "tooltip": {
+      "public": "Koplietošanas līmenis: publisks",
+      "org": "Koplietošanas līmenis: organizācija",
+      "private": "Koplietošanas līmenis: privāts",
+      "shared": "Koplietošanas līmenis: privāti koplietots"
+    },
+    "save": "Saglabāt",
+    "cancel": "Atcelt",
+    "alert": {
+      "success": "Sekmīgi saglabāti labojumi",
+      "error": "Kļūda, saglabājot labojumus",
+      "label": "Veidlapas brīdinājums"
+    }
+  },
+  "popoverActions": {
+    "label": "Vairāk darbību",
+    "openInEnterprise": "Atvērt, izmantojot ArcGIS Enterprise",
+    "openInOnline": "Atvērt, izmantojot ArcGIS Online"
+  },
+  "homeLink": {
+    "text": "Sākums"
+  },
+  "createContent": "Izveidot"
+}

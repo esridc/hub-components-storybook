@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "Kolekce prvků",
+    "fgdb": "Souborová geodatabáze",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Shapefile",
+    "sqlite": "Geodatabáze SQLite"
+  },
+  "buttonText": {
+    "download": "Stáhnout",
+    "pending": "Čekající",
+    "processing": "Zpracování",
+    "converting": "Převádění",
+    "completed": "Stahování dokončeno",
+    "failed": "Stahování se nezdařilo"
+  },
+  "errors": {
+    "errorHeading": "Chyba"
+  },
+  "cacheStatusAccordion": {
+    "heading": "Našli jste to, co jste hledali?",
+    "content": "Může být k dispozici novější verze.",
+    "button": "Požádat o nový soubor"
+  },
+  "generateNewModal": {
+    "heading": "Jste si jisti?",
+    "content": "To může nějakou dobu trvat. Tuto kartu prohlížeče nezavírejte, dokud nebude stahování dokončeno.",
+    "confirmButton": "Ano",
+    "cancelButton": "Storno"
+  }
+}

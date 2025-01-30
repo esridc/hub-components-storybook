@@ -1,0 +1,8 @@
+:not(.workspace-link__text) {
+  --calcite-link-blue-underline: transparent;
+  --calcite-color-text-link: transparent;
+}
+
+::slotted(*) {
+  height: 100%;
+}

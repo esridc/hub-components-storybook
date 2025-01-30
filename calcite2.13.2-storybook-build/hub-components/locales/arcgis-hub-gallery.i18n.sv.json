@@ -1,0 +1,91 @@
+{
+  "moreResults": "Fler resultat",
+  "search": "Sök",
+  "filter": "Filter",
+  "viewResults": "Visa resultat ({numResults})",
+  "resultsCount": "1 - {pageTotal} av {searchTotal}",
+  "backToTop": "Tillbaka till start",
+  "facets": {
+    "access": {
+      "label": "Delning",
+      "private": "Mig själv",
+      "shared": "Ägare och grupper",
+      "org": "Organisation",
+      "public": "Allmän"
+    },
+    "license": {
+      "label": "Licens",
+      "tooltip": "Bara för offentligt innehåll",
+      "custom": "Anpassat",
+      "none": "Inga"
+    },
+    "type": {
+      "label": "Typ"
+    },
+    "tags": {
+      "label": "Taggar"
+    },
+    "dateUpdated": {
+      "label": "Datum uppdaterat"
+    },
+    "source": {
+      "label": "Källa",
+      "tooltip": "Offentligt innehåll från olika organisationer"
+    },
+    "categories": {
+      "label": "Kategorier"
+    },
+    "location": {
+      "label": "Plats",
+      "tooltip": "Tillämpa kartutbredningen som ett platsfilter"
+    },
+    "event": {
+      "from": {
+        "label": "Ägarskap",
+        "myContent": "Mig",
+        "myOrganization": "Min organisation",
+        "world": "Alla"
+      },
+      "access": {
+        "label": "Åtkomst",
+        "private": "Privat",
+        "org": "Organisation",
+        "public": "Offentlig"
+      },
+      "startDate": {
+        "label": "Evenemangsdatum"
+      }
+    },
+    "group": {
+      "type": {
+        "label": "Typ",
+        "all": "Alla",
+        "view": "Visa",
+        "edit": "Redigera"
+      },
+      "role": {
+        "label": "Roll",
+        "all": "Alla",
+        "member": "Medlem",
+        "manager": "Ledare",
+        "owner": "Ägare"
+      },
+      "sharing": {
+        "label": "Synlighet",
+        "private": "Privat",
+        "public": "Offentlig"
+      }
+    }
+  },
+  "layoutOptions": {
+    "list": "Visa lista",
+    "grid": "Visa rutnät",
+    "map": "Visa karta",
+    "compact": "Visa kompakt",
+    "calendar": "Visa kalender",
+    "table": "Visa tabell"
+  },
+  "galleryActionsLabel": "Ytterligare åtgärder",
+  "selected": "Valt: {count}",
+  "popoverActionButtonLabel": "fler åtgärder"
+}

@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "לא נמצאו תוצאות."
+    },
+    "error": {
+      "message": "לצערנו החיפוש נתקל בשגיאה."
+    }
+  },
+  "type": "סוג",
+  "tags": "תגיות",
+  "owner": "בעלים",
+  "dateCreated": "נוצר",
+  "dateUpdated": "שונה",
+  "categories": "קטגוריות",
+  "dateAndTime": "תאריך ושעה",
+  "allDay": "{date} (כל היום)",
+  "allDayRange": "{from} - {to} (כל היום)",
+  "location": "מיקום",
+  "attendanceType": "סוג השתתפות",
+  "inPerson": "פנים אל פנים",
+  "online": "מקוון",
+  "hybrid": "היברידי"
+}

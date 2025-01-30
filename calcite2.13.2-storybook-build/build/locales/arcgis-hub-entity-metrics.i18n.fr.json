@@ -1,0 +1,75 @@
+{
+  "addMetric": "Ajouter une métrique",
+  "title": "Métriques",
+  "featured": "À l’affiche",
+  "metricDescription": "Valeur mesurable servant à suivre la progression des projets et reposant sur des données statiques (p. ex., données d’historique) ou dynamiques (p. ex., données en temps réel).",
+  "metricCount": {
+    "label": "{currentCount}/{totalCountAllowed} métriques",
+    "tooltip": "Pour ajouter des métriques, supprimez certaines métriques existantes"
+  },
+  "visible": {
+    "title": "Visibles",
+    "noMetrics": "Cette section ne comporte aucune métrique."
+  },
+  "hidden": {
+    "title": "Masquées",
+    "description": "Ces métriques s’affichent uniquement pour les utilisateurs ayant accès à cet espace de travail.",
+    "noMetrics": "Aucune métrique ne figure dans cette section."
+  },
+  "project": {
+    "featured": {
+      "description": "Vous pouvez choisir 4 métriques à l’affiche. Elles s’affichent dans la vue d’ensemble du projet actif."
+    },
+    "visible": {
+      "description": "Les métriques visibles s’affichent sous l’onglet Métriques du projet actif."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "La visibilité des métriques dépend du niveau de partage du projet. Il se peut que les métriques masquées soient toujours disponibles via un appel d’API.",
+        "metricsDockLink": "En savoir plus sur la configuration de métriques"
+      }
+    }
+  },
+  "initiative": {
+    "featured": {
+      "description": "Vous pouvez choisir 4 métriques à l’affiche. Elles s’affichent dans la vue d’ensemble de l’initiative active."
+    },
+    "visible": {
+      "description": "Les métriques visibles s’affichent sous l’onglet Métriques du projet actif."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "La visibilité des métriques dépend du niveau de partage de l’initiative. Il se peut que les métriques masquées soient toujours disponibles via un appel d’API.",
+        "metricsDockLink": "En savoir plus sur la configuration de métriques"
+      }
+    }
+  },
+  "metricNumber": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4"
+  },
+  "actions": {
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "featured": "Mettre à l’affiche",
+    "removeFeatured": "Ne plus mettre à l’affiche",
+    "show": "Rendre visible",
+    "hide": "Masquer"
+  },
+  "editor": {
+    "heading": "Nouvelle métrique",
+    "description": "Par défaut, les métriques sont automatiquement masquées pour que seuls les membres de votre espace de travail puissent les voir."
+  },
+  "deleteMetricModal": {
+    "heading": "Supprimer la métrique",
+    "content": "Voulez-vous vraiment supprimer :",
+    "cancel": "Annuler",
+    "delete": "Supprimer"
+  },
+  "sidePanel": {
+    "definitions": "Définitions",
+    "preview": "Aperçu"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "Pievienot pirmo darbību",
+  "addSecondAction": "Pievienot otro darbību",
+  "addLink": "Pievienot saiti",
+  "addSection": "Pievienot sadaļu",
+  "deleteNotice": {
+    "title": "Nevar izdzēst",
+    "message": "Sadaļa nav tukša. Pirms mēģināt dzēst, lūdzu, pārvietojiet visas saites ārpus sadaļas."
+  },
+  "linkEditor": {
+    "save": "Saglabāt",
+    "delete": "Dzēst",
+    "cancel": "Atcelt",
+    "preview": "Priekšskatījuma saite",
+    "title": {
+      "button1": "Pirmā darbība",
+      "button2": "Otrā darbība",
+      "block": "Darbības saite"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "Saite uz esošu saturu"
+        },
+        "external": {
+          "label": "Saite uz ārēju avotu"
+        }
+      },
+      "label": {
+        "label": "Apzīmējums",
+        "helperText": {
+          "button": "Šis teksts tiks attēlots uz pogas.",
+          "block": "Šis tiks attēlots uz bloka treknrakstā."
+        },
+        "requiredError": "Apzīmējums ir obligāts lauks."
+      },
+      "description": {
+        "label": "Apraksts",
+        "helperText": "Šī ir sekundāra informācija."
+      },
+      "href": {
+        "label": "Saite",
+        "requiredError": "Saite ir obligāts lauks.",
+        "formatError": "Vietrāža (URL) formatējums nav pareizs."
+      },
+      "contentId": {
+        "label": "Satura saite",
+        "requiredError": "Satura saite ir obligāts lauks."
+      },
+      "section": {
+        "label": "Pārvietot uz sadaļu",
+        "placeholder": {
+          "noSections": "Neviena sadaļa nav konfigurēta",
+          "notSet": "Nav sadaļā"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "Sadaļa",
+    "helperText": "Sadaļas var izmantot, lai ligzdotu saites zem izvēlnes elementa. Sadaļas nedarbojas kā saite.",
+    "section": {
+      "label": {
+        "label": "Apzīmējums",
+        "requiredError": "Apzīmējums ir obligāts lauks."
+      },
+      "description": {
+        "label": "Apraksts"
+      }
+    }
+  }
+}

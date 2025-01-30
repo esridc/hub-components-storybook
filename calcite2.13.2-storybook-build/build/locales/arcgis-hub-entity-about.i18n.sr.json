@@ -1,0 +1,18 @@
+{
+  "about": "Osnovni podaci",
+  "metrics": "Pokazatelji",
+  "featuredContent": "Istaknuti sadržaj",
+  "details": "Detalji",
+  "exploreMetrics": "Istražite metrike",
+  "status": {
+    "label": {
+      "default": "Status",
+      "project": "Status projekta",
+      "initiative": "Status inicijative"
+    },
+    "notStarted": "Nije započeto",
+    "inProgress": "U toku",
+    "onHold": "Na čekanju",
+    "complete": "Završi"
+  }
+}

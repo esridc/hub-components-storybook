@@ -1,0 +1,75 @@
+{
+  "addMetric": "Aggiungi metrica",
+  "title": "Metriche",
+  "featured": "In primo piano",
+  "metricDescription": "Un valore misurabile usato per tenere traccia dell'avanzamento del progetto i base ai dati statici (ad es. cronologici) o dinamici (ad es. in tempo reale).",
+  "metricCount": {
+    "label": "{currentCount} / {totalCountAllowed} metriche",
+    "tooltip": "Per aggiungere metriche, elimina alcuni degli insiemi esistenti"
+  },
+  "visible": {
+    "title": "Visibili",
+    "noMetrics": "Nessuna metrica presente in questa sezione."
+  },
+  "hidden": {
+    "title": "Nascoste",
+    "description": "Queste metriche mostrano solo coloro che dispongono dell'accesso a questo workspace.",
+    "noMetrics": "Nessuna metrica presente in questa sezione."
+  },
+  "project": {
+    "featured": {
+      "description": "È possibile avere 4 metriche in evidenza. Esse vengono visualizzate nella panoramica del progetto."
+    },
+    "visible": {
+      "description": "Le metriche visibili sono visualizzate nella scheda Metriche del progetto."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Le metriche corrisponderanno al livello di condivisione del progetto. Le metriche nascoste possono ancora essere disponibili tramite chiamata API.",
+        "metricsDockLink": "Ulteriori informazioni sulla configurazione delle metriche"
+      }
+    }
+  },
+  "initiative": {
+    "featured": {
+      "description": "È possibile avere 4 metriche in evidenza. Esse vengono visualizzate nella panoramica dell'iniziativa."
+    },
+    "visible": {
+      "description": "Le metriche visibili sono visualizzate nella scheda Metriche del progetto."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Le metriche corrisponderanno al livello di condivisione dell'iniziativa. Le metriche nascoste possono ancora essere disponibili tramite chiamata API.",
+        "metricsDockLink": "Ulteriori informazioni sulla configurazione delle metriche"
+      }
+    }
+  },
+  "metricNumber": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4"
+  },
+  "actions": {
+    "delete": "Elimina",
+    "edit": "Modifica",
+    "featured": "Feature",
+    "removeFeatured": "Feature rimossa",
+    "show": "Sposta nei visibili",
+    "hide": "Sposta nei nascosti"
+  },
+  "editor": {
+    "heading": "Nuova metrica",
+    "description": "Per impostazione predefinita le metriche vengono automaticamente nascoste in modo che i membri del workspace possano visualizzarle."
+  },
+  "deleteMetricModal": {
+    "heading": "Elimina metrica",
+    "content": "Confermare l'eliminazione di:",
+    "cancel": "Annulla",
+    "delete": "Elimina"
+  },
+  "sidePanel": {
+    "definitions": "Definizioni",
+    "preview": "Anteprima"
+  }
+}

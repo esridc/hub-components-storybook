@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "Mitt innehåll",
+    "livingAtlas": "Living Atlas",
+    "organization": "Min organisation",
+    "world": "Världen (Offentlig)"
+  },
+  "collection": {
+    "appsAndMaps": "Appar och kartor",
+    "feedback": "Feedback"
+  },
+  "facets": {
+    "type": "Typ",
+    "tags": "Taggar",
+    "categories": "Kategorier",
+    "modified": "Ändrad"
+  },
+  "pickerTitle": "Välj innehåll",
+  "height": "Höjd (px)",
+  "isScrollable": "Rullningsbar",
+  "errors": {
+    "heightMinimum": "Värdet måste vara ett positivt tal.",
+    "heightMaximum": "Värdet måste vara mindre än eller lika med 2 000 px.",
+    "urlError": "Måste vara en giltig URL."
+  },
+  "success": {
+    "urlSuccess": "URL har lästs in."
+  },
+  "shouldApplyBreakpoints": {
+    "label": "Tillämpa inställningar efter enhetsbrytpunkter istället"
+  },
+  "viewportAll": {
+    "label": "Standard",
+    "description": "Inställningar har tillämpats på alla skärmstorlekar"
+  },
+  "viewportMobile": {
+    "label": "Mobil",
+    "description": "Inställningar har tillämpats på skärmar 360 px breda och större"
+  },
+  "viewportTablet": {
+    "label": "Surfplatta",
+    "description": "Inställningar har tillämpats på skärmar 560 px breda och större"
+  },
+  "viewportDesktop": {
+    "label": "Desktop",
+    "description": "Inställningar har tillämpats på skärmar 980 px breda och större"
+  },
+  "sourceLabel": "Välj inbäddningstyp",
+  "contentLabel": "Innehåll i ArcGIS",
+  "externalLabel": "Extern URL",
+  "contentDescription": "Välj från befintliga kartor, scener, applikationer, undersökningar och dokumentlänkar som är tillgängliga för dig.",
+  "externalDescription": "Ange en URL som ska bäddas in. Observera att vissa domäner inte tillåter inbäddning och kanske inte visas som förväntat."
+}

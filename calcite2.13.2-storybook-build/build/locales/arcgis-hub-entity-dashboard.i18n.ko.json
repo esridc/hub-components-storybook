@@ -1,0 +1,20 @@
+{
+  "dashboard": "대시보드",
+  "activityLogSection": {
+    "title": "활동 로그",
+    "table": {
+      "downloadAction": "다운로드",
+      "downloadAllAction": "모두 다운로드",
+      "downloadActionTooltip": "선택한 활동 다운로드",
+      "caption": "최근 오류 테이블",
+      "columnHeaders": {
+        "datetime": "날짜",
+        "layer": "레이어",
+        "message": "메시지"
+      },
+      "noRecentErrors": "최근 오류 없음",
+      "expandText": "더 보기",
+      "collapseText": "간단히 보기"
+    }
+  }
+}

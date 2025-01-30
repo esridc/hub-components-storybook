@@ -1,0 +1,20 @@
+{
+  "dashboard": "Табло за управление",
+  "activityLogSection": {
+    "title": "Регистър с дейности",
+    "table": {
+      "downloadAction": "Изтегляне",
+      "downloadAllAction": "Изтегляне на всички",
+      "downloadActionTooltip": "Изтегляне на избраните дейности",
+      "caption": "Таблица на най-скорошните грешки",
+      "columnHeaders": {
+        "datetime": "Дата",
+        "layer": "Слой",
+        "message": "Съобщение"
+      },
+      "noRecentErrors": "Няма скорошни грешки",
+      "expandText": "Вижте повече",
+      "collapseText": "Вижте по-малко"
+    }
+  }
+}

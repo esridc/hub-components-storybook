@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "Registrujte se",
+    "registered": "Registrovano",
+    "join": "Pridružite se na mreži",
+    "in-person": "Lično",
+    "online": "Na mreži",
+    "inPersonFull": "Lično (u potpunosti)",
+    "onlineFull": "Na mreži (u potpunosti)",
+    "close": "Zatvori"
+  },
+  "tooltip": {
+    "isCanceled": "Događaj je otkazan",
+    "eventHasEnded": "Događaj je završen",
+    "eventFull": "Događaj je popunjen",
+    "inPerson": "Registrovan za lično prisustvovanje događaju",
+    "online": "Registrovan za događaj na mreži",
+    "unavailable": "Dostupan jedan sat pre vremena početka događaja"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "Registracija za događaj na mreži je uspešno otkazana",
+    "onlineRegistrationConfirmed": "Registracija za događaj na mreži je uspela",
+    "onlineRegistrationError": "Došlo je do neočekivane greške prilikom registracije za događaj na mreži",
+    "onlineRegistrationCanceledError": "Došlo je do neočekivane greške prilikom otkazivanja registracije za događaj na mreži",
+    "onlineRegistrationAtCapacity": "Pokušavate da se registrujete za događaj na mreži koji je popunjen",
+    "inPersonRegistrationCanceled": "Registracija za lično prisustvovanje događaju je uspešno otkazana",
+    "inPersonRegistrationCanceledError": "Došlo je do neočekivane greške prilikom otkazivanja registracije za lično prisustvovanje događaju",
+    "inPersonRegistrationConfirmed": "Registracija za lično prisustvovanje događaju je uspela",
+    "inPersonRegistrationError": "Došlo je do neočekivane greške prilikom registracije za lično prisustvovanje događaju",
+    "inPersonRegistrationAtCapacity": "Pokušavate da se registrujete za lično prisustvovanje događaju koji je popunjen"
+  }
+}

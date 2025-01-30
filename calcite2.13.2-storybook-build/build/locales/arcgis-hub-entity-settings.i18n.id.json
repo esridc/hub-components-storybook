@@ -1,0 +1,53 @@
+{
+  "settings": "Pengaturan",
+  "formDisabledTooltip": "Anda tidak memiliki akses untuk membuat perubahan terhadap {type} ini.",
+  "delete": {
+    "project": "Hapus proyek ini",
+    "initiative": "Hapus inisiatif ini",
+    "site": "Hapus situs ini",
+    "discussion": "Hapus diskusi ini",
+    "content": "Hapus konten ini",
+    "page": "Hapus halaman ini",
+    "group": "Hapus grup ini",
+    "initiativeTemplate": "Hapus template inisiatif ini",
+    "template": "Hapus template ini",
+    "survey": "Hapus survei ini",
+    "desc": {
+      "project": "Menghapus proyek ini tidak dapat diurungkan.",
+      "initiative": "Menghapus inisiatif ini tidak dapat diurungkan.",
+      "site": "Menghapus situs ini tidak dapat diurungkan.",
+      "discussion": "Menghapus diskusi ini tidak dapat diurungkan.",
+      "content": "Menghapus konten ini tidak dapat diurungkan.",
+      "page": "Menghapus halaman ini tidak dapat diurungkan.",
+      "group": "Menghapus grup ini tidak dapat diurungkan.",
+      "initiativeTemplate": "Menghapus template inisiatif ini tidak dapat diurungkan.",
+      "template": "Menghapus template ini tidak dapat diurungkan.",
+      "survey": "Menghapus survei ini tidak dapat diurungkan."
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "project": "Hapus proyek",
+      "initiative": "Hapus inisiatif",
+      "site": "Hapus situs",
+      "discussion": "Hapus diskusi",
+      "content": "Hapus konten",
+      "page": "Hapus halaman",
+      "group": "Hapus grup",
+      "initiativeTemplate": "Hapus template inisiatif",
+      "template": "Hapus template",
+      "survey": "Hapus survei"
+    },
+    "content": "Anda yakin ingin menghapus:",
+    "delete": "Hapus",
+    "cancel": "Batalkan"
+  },
+  "sidePanel": {
+    "content": {
+      "extractNotice": {
+        "title": "Kemampuan \"Ekstrak\" mengubah pengaturan layanan.",
+        "message": "Item lain yang merujuk pada layanan akan terpengaruh. Untuk informasi selengkapnya, lihat <docLink>Ekspor Data dari Feature Layer yang Di-host</docLink>"
+      }
+    }
+  }
+}

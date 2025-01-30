@@ -1,0 +1,1 @@
+import{g as r}from"./p-b295a5ae.js";class s extends Error{constructor(t,o,e){o=o||"UNKNOWN_ERROR",e=r(e,"rootCause",e),super(o),this.operation=t,this.name="OperationError",this.rootCause=e,Object.setPrototypeOf(this,s.prototype),this.stack=r(e,"stack",(new Error).stack)}}export{s as O}

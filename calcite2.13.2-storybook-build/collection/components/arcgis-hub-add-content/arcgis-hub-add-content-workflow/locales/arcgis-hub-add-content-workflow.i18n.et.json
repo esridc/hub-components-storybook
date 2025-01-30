@@ -1,0 +1,110 @@
+{
+  "controls": {
+    "addContent": "Lisa sisu",
+    "back": "Tagasi",
+    "cancel": "Loobu",
+    "close": "Valmis",
+    "create": "Loo ja lisa gruppi",
+    "next": "Edasi"
+  },
+  "createHelpState": {
+    "discussion": {
+      "heading": "Arutelu",
+      "message": "Uue arutelutahvli loomiseks sisestage teemat tutvustav pealkiri."
+    },
+    "event": {
+      "heading": "Sündmus",
+      "message": "Viige läbi korraldatud tegevusi, kas isiklikult või virtuaalselt."
+    },
+    "group": {
+      "heading": "Grupp",
+      "message": "Moodustage grupp, et teha koostööd keskendatud sisu kallal."
+    },
+    "initiative": {
+      "heading": "Algatus",
+      "message": "Algatused korraldavad ja võtavad kokku eesmärgi suunas tehtud edusammud."
+    },
+    "page": {
+      "heading": "Leht",
+      "message": "Leht on koht, kus jagada teavet ja suhelda oma sihtrühmaga."
+    },
+    "project": {
+      "heading": "Projekt",
+      "message": "Tooge esile tööd, millel on selged eesmärgid ja ajakava."
+    },
+    "site": {
+      "heading": "Sait",
+      "message": "Looge veebileht teabe korraldamiseks ja jagamiseks."
+    }
+  },
+  "selection": {
+    "unlimited": "Valitud: {count}",
+    "limited": "Valitud: {count}/{limit}"
+  },
+  "steps": {
+    "createContent": "Lisa põhiteave",
+    "selectContent": "Vali sisu",
+    "selectGroups": "Vali grupp",
+    "confirmation": "Kinnitus",
+    "notImplemented": "Pole rakendatud"
+  },
+  "working": {
+    "heading": "Valitud sisu lisamine.",
+    "loadingLabel": "Sisu lisamine."
+  },
+  "failure": {
+    "heading": "Sisu ei lisatud",
+    "message": "Midagi läks valitud sisu lisamisel valesti. Proovige uuesti.",
+    "action": "Proovi uuesti"
+  },
+  "notImplemented": {
+    "heading": "See töövoog pole veel rakendatud."
+  },
+  "contentGallery": {
+    "facets": {
+      "access": {
+        "label": "Jaotisest"
+      },
+      "type": {
+        "label": "Tüübid"
+      },
+      "tags": {
+        "label": "Märksõnad"
+      },
+      "categories": {
+        "label": "Kategooriad"
+      },
+      "modified": {
+        "label": "Muudetud"
+      }
+    }
+  },
+  "groupsGallery": {
+    "facets": {
+      "access": {
+        "label": "Vaadata saab:",
+        "options": {
+          "org": "Organisatsioon",
+          "public": "Kõik (avalik)",
+          "private": "Mina"
+        }
+      },
+      "from": {
+        "label": "Jaotisest",
+        "options": {
+          "myCommunity": "Minu kogukond",
+          "myGroups": "Minu grupid",
+          "myOrganization": "Minu organisatsioon",
+          "world": "Maailm"
+        }
+      },
+      "type": {
+        "label": "Tüübid",
+        "options": {
+          "sharedUpdate": "Jagatud uuendus",
+          "opendata": "Avalikud andmed"
+        }
+      }
+    }
+  }
+}

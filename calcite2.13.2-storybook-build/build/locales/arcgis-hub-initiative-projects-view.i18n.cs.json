@@ -1,0 +1,19 @@
+{
+  "facets": {
+    "location": {
+      "label": "Umístění",
+      "tooltip": "Použít rozsah mapy jako filtr polohy"
+    },
+    "status": "Stav",
+    "tags": "Klíčová slova",
+    "categories": "Kategorie",
+    "dateUpdated": "Datum změny"
+  },
+  "status": {
+    "label": "Stav iniciativy",
+    "notStarted": "Nezahájeno",
+    "inProgress": "Probíhá",
+    "onHold": "Pozastaveno",
+    "complete": "Dokončeno"
+  }
+}

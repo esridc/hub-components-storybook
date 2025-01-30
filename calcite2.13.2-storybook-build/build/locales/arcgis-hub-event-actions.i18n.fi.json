@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "Ilmoittaudu",
+    "registered": "Ilmoittauduttu",
+    "join": "Liity verkossa",
+    "in-person": "Kasvotusten",
+    "online": "Verkko",
+    "inPersonFull": "Paikan päällä (täynnä)",
+    "onlineFull": "Verkossa (täynnä)",
+    "close": "Sulje"
+  },
+  "tooltip": {
+    "isCanceled": "Tapahtuma peruttu",
+    "eventHasEnded": "Tapahtuma päättynyt",
+    "eventFull": "Tapahtuma täynnä",
+    "inPerson": "Ilmoittauduttu paikan päällä järjestettävään tapahtumaan",
+    "online": "Ilmoittauduttu verkkotapahtumaan",
+    "unavailable": "Saatavilla tuntia ennen tapahtuman alkamisaikaa"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "Verkkotapahtumaan ilmoittautumisen peruminen onnistui",
+    "onlineRegistrationConfirmed": "Verkkotapahtumaan ilmoittautuminen onnistui",
+    "onlineRegistrationError": "Verkkotapahtumaan ilmoittautumisen aikana tapahtui odottamaton virhe",
+    "onlineRegistrationCanceledError": "Verkkotapahtumaan ilmoittautumisen perumisen aikana tapahtui odottamaton virhe",
+    "onlineRegistrationAtCapacity": "Yrität rekisteröityä verkkotapahtumaan, joka on täynnä",
+    "inPersonRegistrationCanceled": "Paikan päällä järjestettävään tapahtumaan ilmoittautumisen peruminen onnistui",
+    "inPersonRegistrationCanceledError": "Paikan päällä järjestettävään tapahtumaan ilmoittautumisen perumisen aikana tapahtui odottamaton virhe",
+    "inPersonRegistrationConfirmed": "Paikan päällä järjestettävään tapahtumaan ilmoittautuminen onnistui",
+    "inPersonRegistrationError": "Paikan päällä järjestettävään tapahtumaan ilmoittautumisen aikana tapahtui odottamaton virhe",
+    "inPersonRegistrationAtCapacity": "Yrität rekisteröityä paikan päällä järjestettävään tapahtumaan, joka on täynnä"
+  }
+}

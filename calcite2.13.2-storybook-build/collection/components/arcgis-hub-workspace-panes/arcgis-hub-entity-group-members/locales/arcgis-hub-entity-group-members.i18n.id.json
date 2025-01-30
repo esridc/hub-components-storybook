@@ -1,0 +1,59 @@
+{
+  "title": "Anggota",
+  "facets": {
+    "role": {
+      "label": "Peran",
+      "all": "Semua",
+      "manager": "Pengelola",
+      "member": "Anggota"
+    },
+    "dateJoined": {
+      "label": "Tanggal Bergabung"
+    }
+  },
+  "stats": {
+    "total": {
+      "title": "Total",
+      "trailingText": "Anggota grup"
+    },
+    "new": {
+      "title": "Baru",
+      "trailingText": "30 hari terakhir"
+    }
+  },
+  "addMembers": {
+    "button": "Tambahkan anggota",
+    "disabledTooltip": "Anda tidak memiliki akses untuk menambahkan pengguna ke grup ini.",
+    "modal": {
+      "title": "Tambahkan anggota",
+      "org": "Organisasi saya",
+      "community": "Komunitas saya",
+      "partner": "Mitra saya",
+      "world": "Dunia"
+    },
+    "notifications": {
+      "invited": "Undangan terkirim. Pengguna harus menerima untuk bergabung",
+      "added": "Pengguna ditambahkan",
+      "notInvited": "Beberapa pengguna mungkin tidak memiliki hak istimewa yang diperlukan untuk bergabung dengan grup atau mungkin berada pada batas maksimum grup (512)"
+    }
+  },
+  "removeUsers": {
+    "button": "Hapus",
+    "success": "Anggota berhasil dihapus dari {groupName}.",
+    "error": "Satu atau beberapa pengguna tidak dapat dihapus dari grup."
+  },
+  "changeRole": {
+    "tooltipText": "Batalkan pilihan diri Anda dan/atau pemilik grup",
+    "tooltipLabel": "Penafian peran",
+    "button": "Ubah peran",
+    "member": "Anggota",
+    "memberHelperText": "Dapat menambahkan dan melihat konten dalam grup.",
+    "admin": "Pengelola",
+    "adminHelperText": "Dapat menambahkan/menghapus konten dan mengundang/menghapus orang (kecuali pemilik).",
+    "success": "Anggota yang dipilih menjadi grup {role}.",
+    "error": "Peran tidak dapat diubah untuk satu atau beberapa anggota."
+  },
+  "notice": {
+    "label": "Peringatan formulir"
+  }
+}

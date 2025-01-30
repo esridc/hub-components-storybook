@@ -1,0 +1,72 @@
+{
+  "addContent": "Tartalom hozzáadása",
+  "addContentType": {
+    "event": "Esemény létrehozása",
+    "discussion": "Vita létrehozása",
+    "group": "Csoport létrehozása",
+    "initiative": "Kezdeményezés létrehozása",
+    "project": "Projekt létrehozása",
+    "page": "Oldal létrehozása",
+    "site:": "Webhely létrehozása"
+  },
+  "tooltip": {
+    "label": "Letiltva",
+    "noCatalog": "Tartalom hozzáadásához adjon csoportokat a katalógushoz.",
+    "noPermission": "Nem rendelkezik a tartalom katalógushoz való hozzáadásához szükséges jogosultsággal.",
+    "no-permission": "Nem rendelkezik a tartalom katalógushoz való hozzáadásához szükséges jogosultsággal.",
+    "not-in-groups": "Ön nem tagja egyetlen olyan csoportnak sem, amely meghatározza a katalógust.",
+    "too-many-groups": "Ön rendelkezik a csoportok maximális számával, és nem hozhat létre többet."
+  },
+  "existing": {
+    "description": "A követekzőben már meglévő tartalom hozzáadása: {onlineOrEnterprise}",
+    "modalTitle": "Meglévő tartalom kiválasztása",
+    "title": "Meglévő tartalom kiválasztása"
+  },
+  "create": {
+    "app": {
+      "description": "Hozzon létre egy élményt, meséljen el egy történetet, vagy tegye láthatóvá adatait",
+      "modalTitle": "Alkalmazás létrehozása",
+      "title": "Alkalmazás"
+    },
+    "event": {
+      "description": "Tartson szervezett tevékenységet, személyesen vagy virtuálisan.",
+      "modalTitle": "Esemény létrehozása",
+      "title": "Esemény"
+    },
+    "content": {
+      "description": "Adjon hozzá adatokat, dokumentumokat, képeket és külső hivatkozásokat a webhelyéhez",
+      "modalTitle": "Tartalom létrehozása",
+      "title": "Tartalom"
+    },
+    "discussion": {
+      "description": "Ötletek és visszajelzések gyűjtése",
+      "modalTitle": "Vitafórum létrehozása",
+      "title": "Vitafórum"
+    },
+    "group": {
+      "description": "Szervezze meg az embereket a tartalom megosztására és megbeszélésére",
+      "modalTitle": "Csoport létrehozása",
+      "title": "Csoport"
+    },
+    "initiative": {
+      "description": "Emelje ki a stratégiai erőfeszítéseket meghatározott célokkal, amelyekkel megszervezhetők a projektek",
+      "modalTitle": "Kezdeményezés létrehozása",
+      "title": "Kezdeményezés"
+    },
+    "page": {
+      "description": "Mutasson be információkat strukturált elrendezésben",
+      "modalTitle": "Oldal létrehozása",
+      "title": "Oldalszám"
+    },
+    "project": {
+      "description": "Mutassa be a munkát egyértelmű célkitűzésekkel és időkeretekkel",
+      "modalTitle": "Projekt létrehozása",
+      "title": "Projekt"
+    },
+    "site": {
+      "description": "Hozzon létre egy márkajelzéssel ellátott webhelyet, hogy kapcsolatba léphessen a közöségével",
+      "modalTitle": "Webhely létrehozása",
+      "title": "Webhely"
+    }
+  }
+}

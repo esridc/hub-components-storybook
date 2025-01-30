@@ -1,0 +1,1 @@
+import{c as e}from"./p-56ccdf92.js";import{g as r}from"./p-796574a4.js";function s(s){const t=["Feature Service","Map Service"].includes(s.type)&&/\/\d+$/.test(s.url),o=1===r(s,"extendedProps.server.layers.length"),a=e(s);return t||o||a}export{s}

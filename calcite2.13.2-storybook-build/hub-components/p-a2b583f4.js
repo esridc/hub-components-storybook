@@ -1,0 +1,1 @@
+import{g as s}from"./p-b765609c.js";async function t(t,a){const n=await s(t,a);return[...n.admin,...n.member,...n.other]}export{t as s}

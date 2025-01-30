@@ -1,0 +1,20 @@
+{
+    "dashboard": "Dashboard",
+    "activityLogSection": {
+        "title": "Activity Log",
+        "table": {
+            "downloadAction": "Download",
+            "downloadAllAction": "Download All",
+            "downloadActionTooltip": "Download selected activities",
+            "caption": "Recent Errors Table",
+            "columnHeaders": {
+                "datetime": "Date",
+                "layer": "Layer",
+                "message": "Message"
+            },
+            "noRecentErrors": "No recent errors",
+            "expandText": "View more",
+            "collapseText": "View less"
+        }
+    }
+}

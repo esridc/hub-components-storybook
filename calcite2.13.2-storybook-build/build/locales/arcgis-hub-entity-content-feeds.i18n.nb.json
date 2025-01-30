@@ -1,0 +1,81 @@
+{
+  "tabTitle": "Feedskonfigurasjon",
+  "learn": "Lær om Hub-feeder",
+  "loadingLabel": "Laster inn",
+  "enableFeedsToggle": {
+    "label": "Aktiver feeder",
+    "privateNotice": "For å aktivere feeder må du først velge \"Offentlig\" for Hub-områdene dine.",
+    "emptyPublicCatalog": {
+      "message": "For å aktivere feeder må du først legge til offentlig innhold i katalogen din.",
+      "button": "Vis katalog"
+    },
+    "grouplessCatalog": {
+      "message": "For å aktivere feeder må du først konfigurere katalogen din.",
+      "button": "Konfigurer katalogen"
+    }
+  },
+  "gettingStartedNotice": {
+    "title": "Kom i gang",
+    "exampleMessage": "Uthev og oppdater en nøkkel eller verdi i JSON Editor ved å bruke en litteral (VERDI) eller en mal (\"{{TEMPLATE_VALUE}}\")-verdi.",
+    "previewMessage": "Bruk veksleknappen «Forhåndsvis» for å forhåndsvise endringene. Les <catalogFederationLink>hjelpedokumentasjonen om katalogsamordning</catalogFederationLink> hvis du vil ha mer informasjon."
+  },
+  "aboutFeedsNotice": {
+    "message": "Bruk Hub-feeder for enkel tilgang til og gjenbruk av dine offentlige åpne data.",
+    "link": "Lær om Hub-feeder"
+  },
+  "feedsEditorSection": {
+    "title": "Feeder",
+    "formatSelectLabel": "Velg en feedtype",
+    "uneditableAttributesIntro": "Merk at følgende attributter ikke kan redigeres:",
+    "edit": "Rediger",
+    "preview": "Forhåndsvisning",
+    "selectContentNotice": "Velg innholdet som skal forhåndsvises.",
+    "invalidJsonEditorWarning": "Ugyldig JSON. Rett opp feil før lagring.",
+    "invalidJsonPreviewWarning": "Kan ikke forhåndsvise ugyldig JSON; rett opp feilene.",
+    "errorPreviewingWarning": "Det har oppstått en feil. Kontroller tilkoblingen og prøv på nytt. Hvis problemet vedvarer, registrerer du en feil hos Hub-brukerstøtte."
+  },
+  "toolsSection": {
+    "title": "Verktøy",
+    "verification": "Bekreftelse",
+    "previewSampleData": {
+      "label": "Forhåndsvis eksempeldata",
+      "pickerFacets": {
+        "type": "Type",
+        "tags": "Tagg",
+        "categories": "Kategori",
+        "sharing": "Deling",
+        "dateUpdated": "Oppdateringsdato"
+      }
+    },
+    "copyableInputLabel": "Tilgangs-URL for feed"
+  },
+  "dcat-us": {
+    "1.1": {
+      "title": "DCAT-US 1.1",
+      "description": "DCAT gjør det mulig for organisasjoner å standardisere databidrag og hjelper folk å analysere føderale kilder. Du kan bruke <dcatUsSchemaLink>DCAT-skjemaet</dcatUsSchemaLink> som er etablert av Project Open Data, og som er standardkonfigurasjonen, eller du kan selv konfigurere visse felt/attributter. Områdeadministratorer kan også legge til flere DCAT-konfigurasjoner og har kanskje lyst til å lese vår dokumentasjon på <catalogFederationLink>-føderering av data med DCAT og andre eksterne kataloger.</catalogFederationLink>",
+      "uneditableAttributes": "@type, landingPage, webService og contactPoint['@type'].",
+      "verificationLabel": "Du kan bekrefte DCAT-feeden ved å lime inn områdets DCAT-URL i <dcatUsVerificationLink>Prosjekt Open Data's Validator</dcatUsVerificationLink>."
+    }
+  },
+  "dcat-ap": {
+    "2.1.1": {
+      "title": "DCAT-AP 2.1.1",
+      "description": "DCAT-AP er standardformatet som Europakommisjonen har etablert for utveksling av metadata i europeiske datakataloger. ArcGIS Hub oppretter og oppdaterer automatisk nettstedets DCAT-AP-feed når du redigerer detaljene i innholdets metadata og legger til nytt offentlig innhold i katalogen. Ettersom feeden bruker metadata som vedlikeholdes i ArcGIS Online, er det ikke nødvendig å opprette separate DCAT-AP-metadata.<lineBreak></lineBreak><lineBreak></lineBreak>Med dette redigeringsprogrammet kan du beholde ArcGIS Hubs standardkonfigurasjon av <dcatApSchemaLink>DCAT-AP-skjemaet</dcatApSchemaLink>, eller du kan selv konfigurere visse felt/attributter. Du kan også legge til DCAT-AP-felt/attributter. Du finner mer informasjon om <catalogFederationLink>føderering av data med DCAT og andre eksterne kataloger</catalogFederationLink> i dokumentasjonen for ArcGIS Hub.",
+      "uneditableAttributes": "@type, @id, dcat:contactPoint['@id'], dcat:contactPoint['@type'], dct:publisher, dcat:theme, dct:accessRights, dcat:keyword, dct:provenance, dct:issued og dct:language",
+      "verificationLabel": "Du kan bekrefte DCAT-feeden ved å lime inn områdets DCAT-URL i <dcatApVerificationLink>European Commission Interoperability Test Bed</dcatApVerificationLink>."
+    }
+  },
+  "rss": {
+    "2.0": {
+      "title": "RSS 2.0",
+      "description": "<rssAboutLink>RSS 2</rssAboutLink> er et webinnholdsformat og samsvarer med <xmlSpecLink>XML 1.0 -spesifikasjonen</xmlSpecLink>. Ved å bruke denne redigereren kan du beholde standardkonfigurasjon for ArcGIS Hubs, eller du kan konfigurere felt/attributter selv. Du finner mer informasjon om <catalogFederationLink>føderering av data med DCAT og andre eksterne kataloger</catalogFederationLink> i dokumentasjonen for ArcGIS Hub.",
+      "verificationLabel": "Du kan bekrefte RSS-feeden ved å sende RSS URL-en for området til W3 <rssVerificationLink>Feed Validator</rssVerificationLink>."
+    }
+  },
+  "saveButton": "Lagre",
+  "alertMessages": {
+    "success": "Redigeringene ble lagret",
+    "error": "Feil under lagring av redigeringer"
+  },
+  "formAlert": "Skjemavarsel"
+}

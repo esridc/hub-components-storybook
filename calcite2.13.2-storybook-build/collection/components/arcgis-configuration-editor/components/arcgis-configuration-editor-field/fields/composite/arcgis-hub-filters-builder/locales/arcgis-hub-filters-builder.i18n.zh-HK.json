@@ -1,0 +1,15 @@
+{
+  "newFilter": "新建篩選器",
+  "block": {
+    "heading": {
+      "untitled": "新建篩選器",
+      "default": "篩選器 {filterNum}: {parameter}",
+      "group": "篩選器 {filterNum}: 群組",
+      "type": "篩選器 {filterNum}: 類型",
+      "occurrence": "篩選器 {filterNum}: 事件"
+    },
+    "actions": {
+      "delete": "刪除篩選器: {label}"
+    }
+  }
+}

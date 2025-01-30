@@ -1,0 +1,239 @@
+{
+  "owner": {
+    "description": "Chủ sở hữu"
+  },
+  "updatedDate": {
+    "description": "Ngày cập nhật",
+    "descriptionWithFrequency": "Ngày cập nhật: {updatedDateFormatted}"
+  },
+  "createdDate": {
+    "description": "Ngày tạo"
+  },
+  "joinedDate": {
+    "description": "Ngày tham gia"
+  },
+  "access": {
+    "label": {
+      "public": "Công khai",
+      "org": "Tổ chức",
+      "private": "Chủ sở hữu",
+      "shared": "Được chia sẻ riêng tư"
+    },
+    "description": {
+      "public": {
+        "site": "Bất kỳ ai cũng có thể xem trang web này",
+        "project": "Ai cũng có thể xem dự án này",
+        "initiative": "Bất kỳ ai cũng có thể xem sáng kiến này",
+        "discussion": "Bất kỳ ai cũng có thể xem cuộc thảo luận này",
+        "default": "Bất kỳ ai cũng có thể xem nội dung này",
+        "event": "Bất kỳ ai cũng có thể xem sự kiện này"
+      },
+      "org": {
+        "site": "Bất kỳ ai trong tổ chức của bạn cũng có thể xem trang web này",
+        "project": "Bất kỳ ai trong tổ chức của bạn cũng có thể xem dự án này",
+        "initiative": "Bất kỳ ai trong tổ chức của bạn cũng có thể xem sáng kiến này",
+        "discussion": "Bất kỳ ai trong tổ chức của bạn cũng có thể xem cuộc thảo luận này",
+        "default": "Bất kỳ ai trong tổ chức của bạn cũng có thể xem nội dung này",
+        "event": "Bất kỳ ai trong tổ chức của bạn cũng có thể xem sự kiện này"
+      },
+      "private": {
+        "site": "Chỉ bạn có thể xem trang web này",
+        "project": "Chỉ bạn có thể xem dự án này",
+        "initiative": "Chỉ bạn có thể xem sáng kiến này",
+        "discussion": "Chỉ bạn có thể xem cuộc thảo luận này",
+        "default": "Chỉ bạn mới có thể xem nội dung này",
+        "event": "Chỉ bạn mới có thể xem sự kiện này"
+      },
+      "shared": {
+        "site": "Nhóm được chọn có thể xem trang web này",
+        "project": "Nhóm được chọn có thể xem dự án này",
+        "initiative": "Nhóm được chọn có thể xem sáng kiến này",
+        "discussion": "Nhóm được chọn có thể xem cuộc thảo luận này",
+        "default": "Nhóm được chọn có thể xem nội dung này",
+        "event": "Nhóm được chọn có thể xem sự kiện này"
+      }
+    }
+  },
+  "type": {
+    "fallback": {
+      "content": "Nội dung",
+      "discussion": "Thảo luận",
+      "event": "Sự kiện",
+      "group": "Nhóm",
+      "initiative": "Sáng kiến",
+      "org": "Tổ chức",
+      "page": "Trang",
+      "project": "Dự án",
+      "site": "Site",
+      "survey": "Khảo sát",
+      "initiativeTemplate": "Biểu mẫu",
+      "user": "Người dùng"
+    },
+    "appbuilderExtension": "Công cụ GIS",
+    "appbuilderWidgetPackage": "Công cụ GIS",
+    "application": "Ứng dụng đã Đăng ký",
+    "arcgisProMap": "Công cụ GIS",
+    "cadDrawing": "Công cụ GIS",
+    "cityEngineWebScene": "Ứng dụng 3D",
+    "codeAttachment": "Công cụ GIS",
+    "colorSet": "Công cụ GIS",
+    "content": "Nội dung",
+    "contentCategorySet": "GIS",
+    "csv": "Bộ dữ liệu",
+    "csvCollection": "Tệp Dữ liệu",
+    "dashboard": "Bảng điều khiển",
+    "desktopApplication": "Công cụ GIS",
+    "document": "Tài liệu",
+    "documentLink": "Liên kết Web",
+    "excaliburImageryProject": "Công cụ GIS",
+    "explorerMap": "Công cụ GIS",
+    "exportPackage": "Công cụ GIS",
+    "featureCollection": "Bộ dữ liệu",
+    "featureCollectionTemplate": "Công cụ GIS",
+    "featureLayer": "Bộ dữ liệu",
+    "featureService": "Bản đồ",
+    "fileGeodatabase": "Tệp Dữ liệu",
+    "form": "Khảo sát",
+    "geocodingService": "API Nhà phát triển",
+    "geodataService": "API Nhà phát triển",
+    "geojson": "Nội dung",
+    "geometryService": "API Nhà phát triển",
+    "geopackage": "Tệp Dữ liệu",
+    "geoprocessingService": "API Nhà phát triển",
+    "globeLayer": "Tệp Dữ liệu",
+    "globeService": "API Nhà phát triển",
+    "hubInitiative": "Sáng kiến",
+    "hubInitiativeTemplate": "Biểu mẫu",
+    "hubPage": "Trang",
+    "hubProject": "Dự án",
+    "hubSiteApplication": "Site",
+    "image": "Hình ảnh",
+    "imageService": "Bộ dữ liệu Hình ảnh",
+    "insightsModel": "Công cụ GIS",
+    "insightsPage": "Phân tích",
+    "insightsTheme": "Công cụ GIS",
+    "insightsWorkbook": "Sổ làm việc Phân tích",
+    "iWorkKeynote": "Bài thuyết trình",
+    "iWorkNumbers": "Bảng tính",
+    "iWorkPages": "Tài liệu",
+    "kml": "Bộ dữ liệu",
+    "kmlCollection": "Tệp Dữ liệu",
+    "layer": "Tệp Dữ liệu",
+    "layerPackage": "Tệp Dữ liệu",
+    "locatorPackage": "Công cụ GIS",
+    "mapArea": "Công cụ GIS",
+    "mapDocument": "Công cụ GIS",
+    "mapImageLayer": "Bản đồ",
+    "mapPackage": "Tệp Dữ liệu",
+    "mapService": "Bản đồ",
+    "microsoftExcel": "Bảng tính",
+    "microsoftPowerpoint": "Bài thuyết trình",
+    "microsoftVizio": "Microsoft Visio",
+    "microsoftWord": "Tài liệu",
+    "mission": "Công cụ GIS",
+    "mobileApplication": "Ứng dụng",
+    "mobileMapPackage": "Tệp Dữ liệu",
+    "native application template": "Công cụ Nhà phát triển",
+    "nativeApplication": "Ứng dụng",
+    "nativeApplicationInstaller": "Công cụ Nhà phát triển",
+    "networkAnalysisService": "API Nhà phát triển",
+    "notebook": "Phân tích",
+    "orientedImageryCatalog": "Bộ dữ liệu Hình ảnh",
+    "orthoMappingProject": "Công cụ GIS",
+    "orthoMappingTemplate": "Công cụ GIS",
+    "pdf": "Tài liệu",
+    "quickcaptureProject": "Bảng khảo sát Di động",
+    "rasterLayer": "Bản đồ",
+    "realTimeAnalytic": "API Nhà phát triển",
+    "relationalDatabaseConnection": "API Nhà phát triển",
+    "reportTemplate": "Công cụ GIS",
+    "sceneLayer": "Bộ dữ liệu 3D",
+    "sceneService": "Bộ dữ liệu 3D",
+    "serviceDefinition": "Tệp Dữ liệu",
+    "shapefile": "Bộ dữ liệu",
+    "solution": "Giải pháp",
+    "sqliteGeodatabase": "Tệp Dữ liệu",
+    "statisticalDataCollection": "Tệp Dữ liệu",
+    "storymap": "StoryMap",
+    "symbolSet": "Tệp Dữ liệu",
+    "table": "Bộ dữ liệu",
+    "team": "Nhóm",
+    "urbanModel": "Mô hình Đô thị",
+    "vectorTileService": "Bản đồ",
+    "visioDocument": "Tài liệu",
+    "webExperience": "Ứng dụng",
+    "webMap": "Bản đồ",
+    "webMappingApplication": "Ứng dụng",
+    "webScene": "Bản đồ 3D",
+    "wfs": "Bản đồ",
+    "wms": "Bản đồ",
+    "wmts": "Bản đồ",
+    "workflowManagerService": "API Nhà phát triển",
+    "workforceProject": "Trình quản lý Taskflow"
+  },
+  "location": {
+    "description": "Vị trí"
+  },
+  "members": {
+    "noMember": "Không có thành viên",
+    "oneMember": "Thành viên: 1",
+    "members": "Thành viên: {count}",
+    "description": {
+      "value": "Xem tất cả các thành viên của nhóm"
+    }
+  },
+  "tooltip": {
+    "label": "Chú giải công cụ mục siêu dữ liệu"
+  },
+  "relevantArea": {
+    "title": "Khu vực liên quan"
+  },
+  "license": {
+    "tooltip": "Xác định cách thức sử dụng nội dung này",
+    "set": {
+      "title": "Giấy phép {license}",
+      "customTitle": "Giấy phép tùy chỉnh",
+      "description": {
+        "value": "Xem thông tin chi tiết về giấy phép"
+      }
+    },
+    "unset": {
+      "title": "Không có giấy phép nào được cung cấp",
+      "description": {
+        "value": "Yêu cầu cấp quyền để sử dụng"
+      }
+    }
+  },
+  "size": {
+    "description": {
+      "value": "Kích thước tệp tài liệu"
+    }
+  },
+  "recordCount": {
+    "title": "Bản ghi: {count}",
+    "description": {
+      "value": "Xem bảng dữ liệu"
+    }
+  },
+  "metadataModified": {
+    "description": {
+      "defaultValue": "Thông tin đã cập nhật",
+      "dynamicValue": "Thông tin đã cập nhật: {lastUpdated}"
+    }
+  },
+  "updateFrequency": {
+    "continual": "Liên tục",
+    "daily": "Hàng ngày",
+    "weekly": "Hàng tuần",
+    "fortnightly": "Hai tuần một lần",
+    "monthly": "Hàng tháng",
+    "quarterly": "Ba tháng một lần",
+    "biannually": "Một năm hai lần",
+    "annually": "Hàng năm",
+    "as-needed": "Khi Cần",
+    "irregular": "Bất quy tắc",
+    "not-planned": "Không có Kế hoạch",
+    "unknown": "Không xác định",
+    "semimonthly": "Nửa tháng một lần"
+  }
+}

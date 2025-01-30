@@ -1,0 +1,46 @@
+{
+  "title": "Katalogkonfiguration",
+  "helperText": "Katalog definieren und konfigurieren",
+  "sections": {
+    "groups": {
+      "title": "Gruppen",
+      "helperText": "Die folgenden Gruppen enthalten die Inhalte Ihres Suchkatalogs. Wählen Sie eine Gruppe aus, um Einstellungen, Inhalte und mehr anzuzeigen.",
+      "createGroup": "Neue Gruppe erstellen"
+    },
+    "feeds": {
+      "title": "Feed-Konfiguration",
+      "helperText": "Machen Sie Ihre öffentlichen Open Data mit Hub-Feeds leicht zugänglich und wiederverwendbar.",
+      "learn": "Informationen zu Hub-Feeds",
+      "toggle": "Feeds aktivieren ",
+      "configure": "Feeds konfigurieren",
+      "notice": "Um Feeds zu aktivieren, müssen Sie zunächst Ihre Hub-Sites in den Einstellungen auf \"Öffentlich\" festlegen."
+    }
+  },
+  "groupPickerFacet": {
+    "label": "Von",
+    "editGroups": "Gruppen bearbeiten",
+    "viewGroups": "Gruppe anzeigen",
+    "myGroups": "Eigene Gruppen",
+    "myOrganization": "Eigene Organisation",
+    "myCommunity": "Eigene Community",
+    "public": "Öffentlich"
+  },
+  "formAlert": "Formularwarnung",
+  "configSaveAlert": {
+    "success": "Änderungen erfolgreich gespeichert",
+    "failure": "Fehler beim Speichern der Änderungen"
+  },
+  "reharvestCatalogButton": "Auf Fehler überprüfen",
+  "reharvestWarningModal": {
+    "title": "Auf Fehler überprüfen",
+    "body1": "Warnung: Diese Option wird in der Regel nur dann verwendet, wenn auf der Suchseite Probleme aufgrund fehlender Ergebnisse oder Metadaten auftreten. Mit dieser Option werden alle Elemente in allen Gruppen des Katalogs auf Hinzufügungen, Metadatenänderungen und Entfernungen überprüft.",
+    "body2": "Bei Ausführung dieses Prozesses wird der öffentliche Suchindex dieses Katalogs neu erstellt, was einige Minuten dauern kann. Dadurch erhöht sich die Last auf ArcGIS Server-Instanzen.",
+    "primaryButton": "Weiter",
+    "secondaryButton": "Abbrechen"
+  },
+  "reharvestCatalogAlert": {
+    "success": "Überprüfung auf Fehler läuft. Versuchen Sie es später erneut.",
+    "inProgress": "Die Prüfung läuft bereits. Versuchen Sie es später erneut.",
+    "failure": "Es ist leider ein Betriebsfehler aufgetreten. Versuchen Sie es später erneut."
+  }
+}

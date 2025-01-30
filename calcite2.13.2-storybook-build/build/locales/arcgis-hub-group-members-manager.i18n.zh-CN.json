@@ -1,0 +1,59 @@
+{
+  "title": "成员",
+  "facets": {
+    "role": {
+      "label": "角色",
+      "all": "全部",
+      "manager": "管理员",
+      "member": "成员"
+    },
+    "dateJoined": {
+      "label": "加入日期"
+    }
+  },
+  "stats": {
+    "total": {
+      "title": "总数",
+      "trailingText": "群组成员"
+    },
+    "new": {
+      "title": "新建",
+      "trailingText": "最近 30 天"
+    }
+  },
+  "addMembers": {
+    "button": "添加成员",
+    "disabledTooltip": "您无权向此组添加用户。",
+    "modal": {
+      "title": "添加成员",
+      "org": "我的组织",
+      "community": "我的社区",
+      "partner": "我的合作伙伴",
+      "world": "世界"
+    },
+    "notifications": {
+      "invited": "已发送邀请。 用户必须接受，才能加入",
+      "added": "已添加用户",
+      "notInvited": "某些用户可能没有加入该群组所需的权限，或者可能已达到群组最大限制(512)"
+    }
+  },
+  "removeUsers": {
+    "button": "移除",
+    "success": "已成功从 {groupName} 中移除成员。",
+    "error": "无法从群组中移除一位或多位用户。"
+  },
+  "changeRole": {
+    "tooltipText": "请取消选择您自己和/或群组所有者",
+    "tooltipLabel": "角色免责声明",
+    "button": "更改角色",
+    "member": "成员",
+    "memberHelperText": "可以添加并查看群组内的内容。",
+    "admin": "管理员",
+    "adminHelperText": "可以添加/移除内容以及邀请/移除人员(所有者除外)。",
+    "success": "所选成员已成为群组 {role}。",
+    "error": "无法更改一位或多位成员的角色。"
+  },
+  "notice": {
+    "label": "表单警告"
+  }
+}

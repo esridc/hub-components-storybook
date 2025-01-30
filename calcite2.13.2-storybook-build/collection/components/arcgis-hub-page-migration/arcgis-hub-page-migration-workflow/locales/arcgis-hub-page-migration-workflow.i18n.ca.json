@@ -1,0 +1,46 @@
+{
+  "heading": "Informació de la pàgina",
+  "form": {
+    "title": {
+      "label": "Nom de la pàgina",
+      "requiredError": "El nom és obligatori",
+      "entityTitleValidatorError": "El nom de la pàgina no pot incloure emojis ni els caràcters <, > ni ="
+    },
+    "slug": {
+      "label": "Identificador",
+      "helperText": "L'identificador és la versió apta per a URL del nom de la pàgina. Es genera automàticament en funció del nom de la pàgina, però el podeu personalitzar.",
+      "patternError": "Error: l'identificador ha d'estar format per caràcters alfanumèrics en minúscula separats per guions.",
+      "isUniqueError": "Aquest identificador ja es fa servir. Trieu-ne un altre.",
+      "requiredError": "Cal un identificador"
+    }
+  },
+  "controls": {
+    "back": "Enrere",
+    "cancel": "Cancel·la",
+    "close": "Fet",
+    "migrate": "Migra la pàgina",
+    "next": "Següent"
+  },
+  "selection": {
+    "unlimited": "{count} elements seleccionats",
+    "limited": "{count}/{limit} elements seleccionats"
+  },
+  "steps": {
+    "specifyInfo": "Afegeix informació bàsica",
+    "selectGroups": "Seleccioneu un grup",
+    "confirmation": "Confirmació"
+  },
+  "working": {
+    "heading": "S'està migrant la pàgina.",
+    "loadingLabel": "S'està migrant la pàgina"
+  },
+  "success": {
+    "heading": "S'ha migrat la pàgina",
+    "message": "La pàgina s'ha migrat correctament,"
+  },
+  "failure": {
+    "heading": "No s'ha migrat la pàgina",
+    "message": "Hi ha hagut algun problema en migrar la pàgina. Torneu-ho a provar.",
+    "action": "Torna-ho a provar"
+  }
+}

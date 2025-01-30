@@ -1,0 +1,29 @@
+{
+  "header": "Udalosti",
+  "myContent": "Moje udalosti",
+  "editableContent": "Editovateľný obsah",
+  "addEventButtonText": "Vytvoriť udalosť",
+  "type": "Typ",
+  "sharedUpdate": "Skupina zdieľanej aktualizácie",
+  "viewOnly": "Zobraziť iba skupinu",
+  "owner": "Autor",
+  "starts": "Zapnuté",
+  "from": "Z",
+  "until": "Do",
+  "updated": "Aktualizované",
+  "tags": "Štítky",
+  "dateCreated": "Vytvorené",
+  "dateUpdated": "Modifikované",
+  "actionLinks": {
+    "view": "Zobraziť",
+    "edit": "Editovať",
+    "ariaEdit": "Editácia: {title}",
+    "ariaView": "Zobrazenie: {title}"
+  },
+  "access": {
+    "label": "Prístup",
+    "PRIVATE": "Súkromné",
+    "ORG": "Organizácia",
+    "PUBLIC": "Verejné"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "advancedConfig": {
+    "label": "Konfiguracja zaawansowana",
+    "serverTimeout": {
+      "label": "Limit czasu serwera (w sekundach)",
+      "helperText": "Przydatne w przypadku większych usług, które mogą wymagać więcej czasu na odpowiedź.",
+      "errors": {
+        "type": "Wprowadź konfigurację limitu czasu serwera.",
+        "minimum": "Wartość limitu czasu serwera musi wynosić co najmniej 5.",
+        "maximum": "Wartość limitu czasu serwera musi wynosić co najwyżej 95."
+      }
+    }
+  },
+  "appearance": {
+    "corners": {
+      "label": "Narożniki",
+      "enum": {
+        "round": {
+          "label": "Okrągłe"
+        },
+        "square": {
+          "label": "Kwadratowe"
+        }
+      }
+    },
+    "dropShadow": {
+      "label": "Cień",
+      "enum": {
+        "heavy": {
+          "label": "Duże"
+        },
+        "low": {
+          "label": "Niskie"
+        },
+        "medium": {
+          "label": "Średnie"
+        },
+        "none": {
+          "label": "Nie uruchomiono"
+        }
+      }
+    },
+    "layout": {
+      "label": "Styl karty",
+      "enum": {
+        "informational": {
+          "label": "Informacyjny"
+        },
+        "simple": {
+          "label": "Proste"
+        }
+      }
+    },
+    "popoverText": {
+      "label": "Zasoby modalne"
+    },
+    "publisherText": {
+      "label": "Źródłowy publikujący"
+    },
+    "styleSpecificSettings": {
+      "label": "Ustawienia stylu",
+      "helperInfoText": "Wybranie tego przycisku informacyjnego spowoduje otwarcie okna modalnego zawierającego więcej informacji.",
+      "helperVizText": "Prosta karta obsługuje dodawanie ikony jako elementu wizualnego, który może odzwierciedlać zmiany danych."
+    },
+    "sectionTitle": "Wygląd",
+    "textAlign": "Wyrównanie",
+    "visualInterest": {
+      "label": "Element wizualny",
+      "enum": {
+        "icon": {
+          "label": "Ikona"
+        },
+        "none": {
+          "label": "Brak"
+        }
+      }
+    },
+    "icon": {
+      "label": "Ikona",
+      "caretUp": {
+        "label": "Zwiększ"
+      },
+      "caretDown": {
+        "label": "Zmniejsz"
+      },
+      "caretDouble": {
+        "label": "Brak zmian"
+      }
+    },
+    "valueColor": "Kolor (statystyka)"
+  },
+  "details": {
+    "allowDynamicLink": "Wyświetl łącze źródłowe",
+    "link": {
+      "sectionTitle": "Łącze",
+      "sourceLink": "Adres URL łącza",
+      "sourceTitle": "Tekst łącza"
+    },
+    "sectionTitle": "Szczegóły",
+    "subtitle": "Podtytuł",
+    "title": "Tytuł",
+    "trailingText": {
+      "label": "Tekst końcowy",
+      "helperText": "Wprowadź dodatkowy kontekst lub wyjaśnienie (do wyświetlenia pod wartością miernika)."
+    }
+  },
+  "errors": {
+    "sourceLink": {
+      "required": "Łącze jest wymagane do wyświetlenia źródła.",
+      "formatError": "Adres URL jest nieprawidłowo sformatowany"
+    }
+  },
+  "formatting": {
+    "sectionTitle": "Formatowanie",
+    "unit": {
+      "label": "Wyświetl jednostki",
+      "helperText": "Wprowadź jednostkę miary dla wartości."
+    },
+    "unitPosition": {
+      "label": "Położenie",
+      "helperText": "Wybierz miejsce wyświetlania jednostki miary (np. „km”, „kg”) w odniesieniu do wartości miernika.",
+      "enum": {
+        "after": {
+          "label": "Po"
+        },
+        "before": {
+          "label": "Przed"
+        },
+        "below": {
+          "label": "Pod"
+        }
+      }
+    }
+  },
+  "sharing": {
+    "sectionTitle": "Udostępnianie",
+    "showShareIcon": "Włącz udostępnianie",
+    "showShareIconHelperText": "Zezwalaj użytkownikom na kopiowanie bezpośredniego łącza do tej karty na tej stronie.",
+    "shareableByValue": "Włącz osadzenia",
+    "shareableOnHover": {
+      "label": "Wyświetlaj po wskazaniu kursorem",
+      "helperText": {
+        "label": "Przycisk udostępniania jest wyświetlany tylko po wskazaniu go kursorem. Jeśli ta opcja zostanie wyłączona, przycisk będzie zawsze widoczny."
+      }
+    }
+  },
+  "statistic": {
+    "dataSource": "Źródło danych",
+    "displayValue": "Wyświetlaj wartość",
+    "sectionTitle": "Wartość",
+    "type": {
+      "label": "Typ",
+      "enum": {
+        "dynamic": {
+          "label": "Dynamicznie",
+          "description": "Wybierz istniejący zestaw danych (usługę obiektową) do podsumowania."
+        },
+        "static": {
+          "label": "Statycznie",
+          "description": "Ręcznie wprowadź wartość do podświetlenia w kompozycji."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "addContent": "Tilføj indhold",
+  "addContentType": {
+    "event": "Opret begivenhed",
+    "discussion": "Opret diskussion",
+    "group": "Opret gruppe",
+    "initiative": "Opret initiativ",
+    "project": "Opret projekt",
+    "page": "Opret side",
+    "site:": "Opret websted"
+  },
+  "tooltip": {
+    "label": "Deaktiveret",
+    "noCatalog": "Tilføj grupper til kataloget for at tilføje indhold.",
+    "noPermission": "Du har ikke tilladelse til at tilføje indhold til kataloget.",
+    "no-permission": "Du har ikke tilladelse til at tilføje indhold til kataloget.",
+    "not-in-groups": "Du er ikke medlem af nogen grupper, der definerer kataloget.",
+    "too-many-groups": "Du har nået det maksimale antal grupper og kan ikke oprette flere."
+  },
+  "existing": {
+    "description": "Tilføj indhold, der allerede er i {onlineOrEnterprise}",
+    "modalTitle": "Vælg eksisterende indhold",
+    "title": "Vælg eksisterende indhold"
+  },
+  "create": {
+    "app": {
+      "description": "Skab en oplevelse, fortæl en historie, visualiser dine data",
+      "modalTitle": "Opret app",
+      "title": "App"
+    },
+    "event": {
+      "description": "Host organiserede aktiviteter, med personlig deltagelse eller virtuelt.",
+      "modalTitle": "Opret begivenhed",
+      "title": "Begivenhed"
+    },
+    "content": {
+      "description": "Føj data, dokumenter, billeder og eksterne links til dit websted",
+      "modalTitle": "Opret indhold",
+      "title": "Indhold"
+    },
+    "discussion": {
+      "description": "Indsaml ideer og få feedback",
+      "modalTitle": "Opret diskussionstavle",
+      "title": "Diskussionstavle"
+    },
+    "group": {
+      "description": "Organiser folk i forhold til indholdsdeling og diskussioner",
+      "modalTitle": "Opret gruppe",
+      "title": "Gruppe"
+    },
+    "initiative": {
+      "description": "Fremhæv strategiske indsatsområder med definerede mål, der organiserer projekter",
+      "modalTitle": "Opret initiativ",
+      "title": "Initiativ"
+    },
+    "page": {
+      "description": "Vis oplysninger i et struktureret layout",
+      "modalTitle": "Opret side",
+      "title": "Side"
+    },
+    "project": {
+      "description": "Vis eksempel på arbejde med tydelige mål og tidsrammer",
+      "modalTitle": "Opret projekt",
+      "title": "Projekt"
+    },
+    "site": {
+      "description": "Skab et brandet websted for at interagere med dit community",
+      "modalTitle": "Opret websted",
+      "title": "Websted"
+    }
+  }
+}

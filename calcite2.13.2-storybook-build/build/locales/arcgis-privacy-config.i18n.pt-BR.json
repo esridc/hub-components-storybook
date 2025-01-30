@@ -1,0 +1,29 @@
+{
+  "additionalInfo": {
+    "label": "Configurações de exibição opcionais",
+    "helperText": "Adicione sua própria descrição de privacidade e informações de política."
+  },
+  "allowPrivacyConfig": {
+    "label": "Exibir aviso de privacidade"
+  },
+  "blocking": {
+    "label": "Tipo de aviso",
+    "optional": {
+      "label": "Consentimento opcional",
+      "description": "O visualizador pode usar o site sem selecionar um consentimento de privacidade; o rastreamento começa imediatamente até ser rejeitado pelo visualizador."
+    },
+    "required": {
+      "label": "Exigir consentimento",
+      "description": "O visualizador deve aceitar ou rejeitar o rastreamento para usar o site; o rastreamento não começa a menos que seja aceito pelo visualizador."
+    }
+  },
+  "consentText": {
+    "label": "Descrição de privacidade",
+    "helperText": "Exibido no aviso de privacidade para o visualizador do site."
+  },
+  "policyURL": {
+    "label": "Link da política",
+    "helperText": "Exibido como um link \"Mais informações\" no aviso de privacidade.",
+    "error": "Deve ser uma URL válida para ser exibida."
+  }
+}

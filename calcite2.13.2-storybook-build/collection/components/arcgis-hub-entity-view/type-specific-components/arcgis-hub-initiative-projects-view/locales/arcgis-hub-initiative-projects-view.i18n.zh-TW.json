@@ -1,0 +1,19 @@
+{
+  "facets": {
+    "location": {
+      "label": "位置",
+      "tooltip": "將地圖範圍套用為位置篩選器"
+    },
+    "status": "狀態",
+    "tags": "標記",
+    "categories": "類別",
+    "dateUpdated": "更新日期"
+  },
+  "status": {
+    "label": "倡議狀態",
+    "notStarted": "未啟動",
+    "inProgress": "進行中",
+    "onHold": "保留中",
+    "complete": "完成"
+  }
+}

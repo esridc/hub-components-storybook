@@ -1,0 +1,46 @@
+{
+  "registrants": "Registrovani",
+  "invite": "Poziv",
+  "tabs": {
+    "registrants": "Registrovani",
+    "settings": "Postavke"
+  },
+  "emptyNotice": {
+    "title": "Nema registrovanih",
+    "desc": "Događaji su uvek zabavniji sa publikom. Pozovite osobe ili podelite svoj događaj da biste podstakli osobe da prisustvuju.",
+    "link": "Pozovi registrovane"
+  },
+  "facets": {
+    "role": {
+      "header": "Uloga",
+      "owner": "Vlasnik",
+      "organizer": "Organizator",
+      "attendee": "Registrovani"
+    },
+    "status": {
+      "header": "Status",
+      "pending": "Na čekanju",
+      "accepted": "Prihvaćeno",
+      "declined": "Odbijeno",
+      "blocked": "Blokirano"
+    },
+    "location": {
+      "header": "Lokacija",
+      "online": "Na mreži",
+      "in_person": "Lično"
+    },
+    "updatedDate": "Ažuriran datum"
+  },
+  "delete": {
+    "attendee": "Ukloni registrovanog"
+  },
+  "notice": {
+    "label": "Formiraj upozorenje"
+  },
+  "success": {
+    "delete": "Registrovani su uspešno uklonjeni sa {eventName}."
+  },
+  "error": {
+    "delete": "Jedan ili više registrovanih nije mogao da se ukloni sa događaja."
+  }
+}

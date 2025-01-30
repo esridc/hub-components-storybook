@@ -1,0 +1,65 @@
+{
+  "catalog": "Katalog",
+  "catalog-content": "Konten",
+  "catalog-events": "Peristiwa",
+  "shared": {
+    "publish": {
+      "label": "Simpan",
+      "success": {
+        "title": "Berhasil memublikasikan editan katalog ke tampilan langsung"
+      },
+      "error": {
+        "title": "Terjadi kesalahan saat menyimpan hasil perubahan"
+      }
+    }
+  },
+  "emptyState": {
+    "message": "Tidak ada katalog yang ditentukan",
+    "action": "Buat katalog"
+  },
+  "actionBar": {
+    "details": "Konfigurasi katalog",
+    "appearance": "Tampilan katalog",
+    "tooltip": {
+      "appearanceDisabled": "Tidak ada katalog yang saat ini dikonfigurasi. Harap konfigurasi katalog untuk menyesuaikan pengaturan tampilan.",
+      "configuration": "Konfigurasi",
+      "appearance": "Penampilan"
+    }
+  },
+  "detailsPanel": {
+    "heading": "Konfigurasi katalog",
+    "close": "Tutup konfigurasi katalog",
+    "catalogBuilder": {
+      "helperText": "Katalog Anda memungkinkan pengunjung untuk mencari dan melihat konten. Hasil yang ditampilkan didasarkan konfigurasi kueri Anda."
+    },
+    "querySizeNotice": {
+      "warning": {
+        "title": "Mendekati batas katalog",
+        "catalogSourceMessage": {
+          "item": "Konfigurasi sumber item Anda mendekati batas ukuran.",
+          "event": "Konfigurasi sumber acara Anda mendekati batas ukuran."
+        },
+        "collectionSourceMessage": {
+          "item": "Kombinasi konfigurasi koleksi \"{collectionName}\" & sumber item Anda mendekati batas ukuran.",
+          "event": "Kombinasi konfigurasi koleksi \"{collectionName}\" & sumber acara Anda mendekati batas ukuran."
+        }
+      },
+      "danger": {
+        "title": "Batas katalog terlampaui",
+        "catalogSourceMessage": {
+          "item": "Konfigurasi sumber item Anda telah melebihi batas ukuran. Kurangi jumlah filter dan/atau opsi filter dalam sumber item Anda yang akan dipublikasikan.",
+          "event": "Konfigurasi sumber acara Anda telah melebihi batas ukuran. Kurangi jumlah filter dan/atau opsi filter dalam sumber acara Anda yang akan dipublikasikan."
+        },
+        "collectionSourceMessage": {
+          "item": "Kombinasi dari konfigurasi koleksi \"{collectionName}\" & sumber item Anda telah melebihi batas ukuran. Kurangi jumlah filter dan/atau opsi filter dalam sumber item & koleksi \"{collectionName}\" Anda yang akan dipublikasikan.",
+          "event": "Kombinasi konfigurasi koleksi \"{collectionName}\" & sumber acara Anda telah melebihi batas ukuran. Kurangi jumlah filter dan/atau opsi filter dalam sumber acara dan/atau koleksi \"{collectionName}\" Anda yang akan dipublikasikan."
+        }
+      }
+    }
+  },
+  "appearancePanel": {
+    "heading": "Tampilan katalog",
+    "close": "Tutup tampilan katalog",
+    "description": "Katalog Anda memungkinkan pengunjung untuk mencari dan melihat konten. Di sini Anda dapat memperbarui tampilan katalog default dan filter yang ingin ditampilkan."
+  }
+}

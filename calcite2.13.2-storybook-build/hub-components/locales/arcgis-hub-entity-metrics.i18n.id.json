@@ -1,0 +1,75 @@
+{
+  "addMetric": "Tambahkan metrik",
+  "title": "Metrik",
+  "featured": "Unggulan",
+  "metricDescription": "Nilai terukur yang digunakan untuk melacak kemajuan proyek, baik berdasarkan data statis (misalnya, historis) ataupun data dinamis (misalnya, waktu nyata).",
+  "metricCount": {
+    "label": "{currentCount} / {totalCountAllowed} metrik",
+    "tooltip": "Untuk menambahkan metrik, hapus beberapa set yang sudah ada"
+  },
+  "visible": {
+    "title": "Terlihat",
+    "noMetrics": "Tidak ada metrik di bagian ini."
+  },
+  "hidden": {
+    "title": "Tersembunyi",
+    "description": "Metrik-metrik ini hanya ditampilkan kepada mereka yang memiliki akses ke ruang kerja ini.",
+    "noMetrics": "Tidak ada metrik di bagian ini."
+  },
+  "project": {
+    "featured": {
+      "description": "Anda dapat memiliki 4 metrik unggulan. Metrik ini ditampilkan di Ikhtisar proyek langsung Anda."
+    },
+    "visible": {
+      "description": "Metrik yang terlihat ditampilkan di bawah tab Metrik proyek langsung Anda."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Metrik akan sesuai dengan tingkat berbagi proyek. Metrik tersembunyi mungkin masih terlihat oleh panggilan API.",
+        "metricsDockLink": "Pelajari tentang menyiapkan metrik"
+      }
+    }
+  },
+  "initiative": {
+    "featured": {
+      "description": "Anda dapat memiliki 4 metrik unggulan. Metrik ini ditampilkan di Ikhtisar inisiatif langsung Anda."
+    },
+    "visible": {
+      "description": "Metrik yang terlihat dapat ditampilkan di bawah tab Metrik proyek langsung Anda."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "Metrik akan sesuai dengan tingkat berbagi inisiatif. Metrik tersembunyi mungkin masih terlihat oleh panggilan API.",
+        "metricsDockLink": "Pelajari tentang menyiapkan metrik"
+      }
+    }
+  },
+  "metricNumber": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4"
+  },
+  "actions": {
+    "delete": "Hapus",
+    "edit": "Edit",
+    "featured": "Fitur",
+    "removeFeatured": "Hapus unggulan",
+    "show": "Pindahkan ke dapat dilihat",
+    "hide": "Pindahkan ke disembunyikan"
+  },
+  "editor": {
+    "heading": "Metrik baru",
+    "description": "Secara default, metrik akan disembunyikan secara otomatis sehingga anggota ruang kerja Anda dapat melihatnya."
+  },
+  "deleteMetricModal": {
+    "heading": "Hapus metrik",
+    "content": "Apakah Anda yakin ingin menghapus:",
+    "cancel": "Batalkan",
+    "delete": "Hapus"
+  },
+  "sidePanel": {
+    "definitions": "Definisi",
+    "preview": "Pratinjau"
+  }
+}

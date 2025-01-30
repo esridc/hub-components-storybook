@@ -1,0 +1,26 @@
+{
+  "unauthenticated": {
+    "heading": "Logg på.",
+    "message": "Tilgang til dette området krever pålogging.",
+    "actionText": "Logg på"
+  },
+  "not-found": {
+    "heading": "Finner ikke siden",
+    "message": "Denne siden kan ha blitt flyttet eller slettet. Prøv å søke etter den fra Hjem-siden",
+    "actionText": "Gå til Hjem-siden"
+  },
+  "unsupported-device": {
+    "heading": "Skjermstørrelsen støttes ikke",
+    "message": "Arbeidsområder er ikke tilgjengelig på små skjermstørrelser ennå, bruk en enhet med bredere skjerm.",
+    "actionText": "Gå tilbake"
+  },
+  "access-denied": {
+    "heading": "Ingen tilgang",
+    "message": "Du har ikke tillatelse til å bruke denne ressursen.",
+    "actionText": "Gå til Hjem-siden"
+  },
+  "loading": {
+    "heading": "Laster inn...",
+    "loadingLabel": "Laster inn"
+  }
+}

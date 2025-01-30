@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "Edit grup",
+        "viewGroups": "Lihat grup"
+      },
+      "facet": {
+        "label": "Dari",
+        "myGroups": "Grup saya",
+        "myOrganization": "Organisasi saya",
+        "myCommunity": "Komunitas saya"
+      }
+    }
+  },
+  "property": {
+    "label": "Parameter",
+    "requiredError": "Parameter diperlukan"
+  },
+  "operator": {
+    "label": "Kriteria",
+    "requiredError": "Kriteria diperlukan"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "Jenis"
+    },
+    "group": {
+      "default": "Grup"
+    },
+    "occurrence": {
+      "default": "Kemunculan"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "Salah satu dari",
+      "group": "Dibagikan dengan salah satu dari"
+    },
+    "isAll": {
+      "default": "Semua",
+      "group": "Dibagikan dengan semua"
+    },
+    "isExactly": {
+      "default": "Tepat",
+      "occurrence": "Adalah"
+    },
+    "isNot": {
+      "default": "Tidak",
+      "type": "Tidak satu pun",
+      "group": "Tidak dibagikan dengan siapa pun"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "Grup",
+      "requiredError": "Grup diperlukan"
+    },
+    "type": {
+      "label": "Jenis",
+      "requiredError": "Jenis diperlukan",
+      "app": {
+        "label": "Aplikasi"
+      },
+      "content": {
+        "label": "Konten"
+      },
+      "dataset": {
+        "label": "Set Data"
+      },
+      "discussion": {
+        "label": "Diskusi"
+      },
+      "document": {
+        "label": "Dokumen"
+      },
+      "event": {
+        "label": "Peristiwa"
+      },
+      "feedback": {
+        "label": "Umpan balik"
+      },
+      "initiative": {
+        "label": "Prakarsa"
+      },
+      "map": {
+        "label": "Peta"
+      },
+      "project": {
+        "label": "Proyek"
+      },
+      "site": {
+        "label": "Situs"
+      },
+      "template": {
+        "label": "Template"
+      }
+    },
+    "occurrence": {
+      "label": "Kemunculan",
+      "requiredError": "Kemunculan diperlukan",
+      "upcoming": "Akan datang",
+      "past": "Lalu",
+      "inProgress": "Dalam proses"
+    }
+  }
+}

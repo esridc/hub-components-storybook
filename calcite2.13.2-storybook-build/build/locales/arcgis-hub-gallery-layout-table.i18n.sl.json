@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Ni najdenih rezultatov."
+    },
+    "error": {
+      "message": "Žal je pri iskanju prišlo do napake."
+    }
+  },
+  "access": "Dostop",
+  "actionsHeader": "Dejanja",
+  "caption": "Tabela entitete Hub",
+  "family": "Družina",
+  "type": "Tip",
+  "tags": "Oznake",
+  "owner": "Lastnik",
+  "dateCreated": "Ustvarjeno",
+  "dateUpdated": "Spremenjeno",
+  "description": "Opis",
+  "dateAndTime": "Datum in čas",
+  "location": "Lokacija",
+  "attendanceType": "Vrsta udeležbe",
+  "inPerson": "Osebno",
+  "online": "Spletno",
+  "hybrid": "Kombinirano",
+  "categories": "Kategorije",
+  "content": "Vsebina",
+  "name": "Ime",
+  "start": "Začetek",
+  "end": "Konec",
+  "sharedUpdate": "Deljena posodobitev",
+  "managers": "Upravitelji",
+  "username": "Uporabniško ime",
+  "no": "Ne",
+  "yes": "Da",
+  "title": "Naslov",
+  "thumbnail": "Sličica",
+  "types": {
+    "app": "Aplikacija",
+    "content": "Vsebina",
+    "dataset": "Podatkovni sklop",
+    "discussion": "Forum za razprave",
+    "document": "Dokument",
+    "event": "Dogodek",
+    "feedback": "Povratne informacije",
+    "initiative": "Iniciativa",
+    "image": "Slika",
+    "map": "Karta",
+    "other": "Drugo",
+    "people": "Ljudje",
+    "site": "Mesto",
+    "team": "Skupina",
+    "template": "Predloga",
+    "project": "Projekt"
+  }
+}

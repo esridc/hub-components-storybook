@@ -1,0 +1,1 @@
+function n(o,r,t){var e;let i=r.includes(o.value);return"ancestors"===t&&(i=i||!!(null===(e=o.children)||void 0===e?void 0:e.length)&&o.children.some((o=>n(o,r,t)))),i}export{n as i}

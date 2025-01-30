@@ -1,0 +1,33 @@
+{
+  "groups": "Nhóm của tôi",
+  "addContentButtonText": "Tạo mới",
+  "role": "Vai trò",
+  "owner": "Chủ sở hữu",
+  "updated": "Đã cập nhật",
+  "type": "Loại",
+  "sharedUpdate": "Nhóm Cập nhật được Chia sẻ",
+  "viewOnly": "Nhóm Chỉ Xem",
+  "actionLinks": {
+    "view": "Xem",
+    "edit": "Chỉnh sửa",
+    "ariaEdit": "Chỉnh sửa {title}",
+    "ariaView": "Xem {title}"
+  },
+  "facets": {
+    "access": {
+      "label": "Có thể xem bởi",
+      "options": {
+        "public": "Mọi người (công khai)",
+        "org": "Tổ chức",
+        "private": "Tôi"
+      }
+    },
+    "type": {
+      "label": "Loại",
+      "options": {
+        "sharedUpdate": "Thông tin cập nhật được chia sẻ",
+        "opendata": "Dữ liệu Mở"
+      }
+    }
+  }
+}

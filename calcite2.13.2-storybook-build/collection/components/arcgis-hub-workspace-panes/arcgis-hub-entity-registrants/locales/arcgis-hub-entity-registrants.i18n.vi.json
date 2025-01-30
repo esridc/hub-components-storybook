@@ -1,0 +1,46 @@
+{
+  "registrants": "Người đăng ký",
+  "invite": "Mời",
+  "tabs": {
+    "registrants": "Người đăng ký",
+    "settings": "Thiết lập"
+  },
+  "emptyNotice": {
+    "title": "Không có người đăng ký",
+    "desc": "Các sự kiện luôn thú vị hơn khi có khán giả. Mời mọi người hoặc chia sẻ sự kiện của bạn để khuyến khích mọi người tham dự.",
+    "link": "Mời người đăng ký"
+  },
+  "facets": {
+    "role": {
+      "header": "Vai trò",
+      "owner": "Chủ sở hữu",
+      "organizer": "Người tổ chức",
+      "attendee": "Người đăng ký"
+    },
+    "status": {
+      "header": "Trạng thái",
+      "pending": "Chờ xử lý",
+      "accepted": "Đã chấp nhận",
+      "declined": "Đã từ chối",
+      "blocked": "Bị chặn"
+    },
+    "location": {
+      "header": "Vị trí",
+      "online": "Trực tuyến",
+      "in_person": "Trực tiếp"
+    },
+    "updatedDate": "Ngày cập nhật"
+  },
+  "delete": {
+    "attendee": "Xóa người đăng ký"
+  },
+  "notice": {
+    "label": "Cảnh báo biểu mẫu"
+  },
+  "success": {
+    "delete": "Đã xóa thành công người đăng ký khỏi {eventName}."
+  },
+  "error": {
+    "delete": "Không thể xóa một hoặc nhiều người đăng ký khỏi sự kiện."
+  }
+}

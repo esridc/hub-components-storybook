@@ -1,0 +1,24 @@
+{
+  "shared": {
+    "targetEntities": {
+      "item": "Stavke",
+      "event": "Događaji"
+    }
+  },
+  "targetEntityBlock": {
+    "configured": "Konfigurisano",
+    "notConfigured": "Nije konfigurisano"
+  },
+  "targetEntityFlow": {
+    "back": "Konfiguriši izbliza: {targetEntity}",
+    "description": "Konfiguriši: {targetEntity}",
+    "source": {
+      "heading": "Izvor",
+      "description": "Izvori definišu opseg sadržaja. Modifikujte rezultate uključivanjem ili isključivanjem parametara.<br/><br/>*označava obavezno polje"
+    },
+    "collections": {
+      "heading": "Kolekcije",
+      "description": "Organizujte sadržaj u zasebne pod-skupove radi lakšeg pregledavanja i otkrivanja.<br/><br/>*označava obavezno polje"
+    }
+  }
+}

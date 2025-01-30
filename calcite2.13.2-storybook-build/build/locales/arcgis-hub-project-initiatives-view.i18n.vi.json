@@ -1,0 +1,19 @@
+{
+  "facets": {
+    "location": {
+      "label": "Vị trí",
+      "tooltip": "Áp dụng phạm vi bản đồ làm bộ lọc vị trí"
+    },
+    "status": "Trạng thái",
+    "tags": "Thẻ",
+    "categories": "Danh mục",
+    "dateUpdated": "Ngày cập nhật"
+  },
+  "status": {
+    "label": "Trạng thái dự án",
+    "notStarted": "Chưa bắt đầu",
+    "inProgress": "Đang xử lý",
+    "onHold": "Đang bị tạm ngưng",
+    "complete": "Hoàn tất"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "notice": {
+    "outdatedItem": {
+      "title": "Nahradit iniciativu",
+      "message": "Tato karta odkazuje na zastaralou položku. Vyberte jinou položku, kterou mohou uživatelé sledovat."
+    },
+    "missingFollowersGroup": {
+      "title": "Chybí skupina sledujících",
+      "message": "Tato položka nemá skupinu sledujících. Vyberte jinou položku."
+    },
+    "noGroupAccess": {
+      "title": "Oznámení",
+      "message": "Nemáte přístup ke skupině sledujících."
+    }
+  },
+  "selectContent": {
+    "title": "Obsah ke sledování",
+    "facets": {
+      "sharing": "Sdílení",
+      "catalog": {
+        "myContent": "Můj obsah",
+        "organization": "Moje organizace"
+      }
+    }
+  },
+  "callToAction": {
+    "title": "Výzva k akci",
+    "helperText": "Nad tlačítkem Sledovat se zobrazuje výzva k akci.",
+    "alignment": "Zarovnání"
+  },
+  "followButton": {
+    "title": "Tlačítko Sledovat",
+    "helperText": "Toto tlačítko umožňuje členům sledovat obsah nebo jeho sledování zrušit. Pro oba stavy tlačítka lze nastavit text.",
+    "buttonText": "Text pro přihlášení",
+    "unfollowButtonText": "Text pro odhlášení",
+    "alignment": "Zarovnání",
+    "buttonStyle": "Styl tlačítka",
+    "solid": "Plné pozadí",
+    "outline": "Obrys"
+  }
+}

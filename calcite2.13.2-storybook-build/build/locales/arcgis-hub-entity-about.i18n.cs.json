@@ -1,0 +1,18 @@
+{
+  "about": "Informace",
+  "metrics": "Metriky",
+  "featuredContent": "Vybraný obsah",
+  "details": "Podrobnosti",
+  "exploreMetrics": "Prozkoumat metriky",
+  "status": {
+    "label": {
+      "default": "Stav",
+      "project": "Stav projektu",
+      "initiative": "Stav iniciativy"
+    },
+    "notStarted": "Nezahájeno",
+    "inProgress": "Probíhá",
+    "onHold": "Pozastaveno",
+    "complete": "Dokončeno"
+  }
+}

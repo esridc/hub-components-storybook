@@ -1,0 +1,118 @@
+{
+  "layout": {
+    "title": "Configuraţie",
+    "helperText": "Aceasta configurează modul în care rezultatele vor arăta când sosesc prima dată vizitatorii la catalogul dvs. Vizitatorii vor avea totuși opțiunea de a schimba metoda de afișare chiar ei.",
+    "enum": {
+      "list": {
+        "label": "Listare",
+        "description": "Folosiți pentru prezentarea datelor și când vizitatorii sunt înclinați să realizeze căutări țintite."
+      },
+      "grid": {
+        "label": "Grilă",
+        "description": "Folosiți pentru rezultate care au miniaturi de înaltă calitate și când vizitatorii sunt înclinați să răsfoiască."
+      },
+      "table": {
+        "label": "Tabel",
+        "description": "Utilizați pentru prezentarea rezultatelor într-un format structurat cu coloane sortabile, ideal pentru cazul în care vizitatorii doresc să vizualizeze și să compare numeroase elemente și atributele lor."
+      },
+      "map": {
+        "label": "Hartă",
+        "description": "Utilizați pentru rezultate asociate la locații fizice și când vizitatorii sunt înclinați să exploreze zone de interes."
+      },
+      "compact": {
+        "label": "Compact",
+        "description": "Utilizați pentru a maximiza numărul de rezultate vizibile într-un spațiu mai mic, ideal pentru răsfoire rapidă sau vizualizare pe dispozitive mobile."
+      }
+    }
+  },
+  "cards": {
+    "title": "Cartele",
+    "cardTitleTag": {
+      "label": "Antet",
+      "helperText": "Acesta poate fi utilizat pentru a îmbunătăți structura de antet imbricată pentru accesibilitate. Acest lucru nu va schimba dimensiunea fontului.",
+      "enum": {
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        }
+      }
+    },
+    "showThumbnail": {
+      "label": "Afișare miniatură",
+      "enum": {
+        "show": {
+          "label": "Întotdeauna",
+          "description": "Imaginile miniatură vor fi întotdeauna afișate în cardurile de rezultate, indiferent de aspectul rezultatelor."
+        },
+        "hide": {
+          "label": "Nu afișa miniaturi",
+          "description": "Imaginile miniaturi nu vor fi afișate pe niciun tip de card de rezultate. Utilizați această opțiune dacă aveți miniaturi de slabă calitate sau dacă doriți ca oamenii să poată scana rezultatele din listă mai rapidă pe desktop și pe mobil."
+        },
+        "grid": {
+          "label": "Numai în grilă",
+          "description": "Imaginile miniatură vor fi afișate numai pe cardurile grilă. Cardurile listă vor afișa o coloană suplimentară de metadate în locul unei imagini."
+        }
+      }
+    },
+    "corners": {
+      "label": "Colțuri",
+      "enum": {
+        "square": {
+          "label": "Pătrat"
+        },
+        "round": {
+          "label": "Rotunjită"
+        }
+      }
+    },
+    "shadow": {
+      "label": "Plasare umbră",
+      "enum": {
+        "heavy": {
+          "label": "Mare"
+        },
+        "low": {
+          "label": "Redus"
+        },
+        "medium": {
+          "label": "Mediu"
+        },
+        "none": {
+          "label": "Niciunul"
+        }
+      }
+    },
+    "showLinkButton": {
+      "label": "Includeți butoane",
+      "helperText": "Dacă butoanele sunt oprite, doar titlul cardului va fi un link."
+    },
+    "linkButtonStyle": {
+      "label": "Stil",
+      "enum": {
+        "outline-filled": {
+          "label": "Completat"
+        },
+        "outline": {
+          "label": "Contur"
+        }
+      }
+    },
+    "linkButtonText": {
+      "label": "Text"
+    }
+  }
+}

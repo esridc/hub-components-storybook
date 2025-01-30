@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "Chỉnh sửa nhóm",
+        "viewGroups": "Xem nhóm"
+      },
+      "facet": {
+        "label": "Từ",
+        "myGroups": "Nhóm của tôi",
+        "myOrganization": "Tổ chức của tôi",
+        "myCommunity": "Cộng đồng của tôi"
+      }
+    }
+  },
+  "property": {
+    "label": "Thông số",
+    "requiredError": "Thông số là bắt buộc"
+  },
+  "operator": {
+    "label": "Tiêu chí",
+    "requiredError": "Tiêu chí là bắt buộc"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "Loại"
+    },
+    "group": {
+      "default": "Nhóm"
+    },
+    "occurrence": {
+      "default": "Lần xuất hiện"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "Bất kỳ",
+      "group": "Được chia sẻ với bất kỳ"
+    },
+    "isAll": {
+      "default": "Tất cả",
+      "group": "Được chia sẻ với tất cả"
+    },
+    "isExactly": {
+      "default": "Chính xác",
+      "occurrence": "Là"
+    },
+    "isNot": {
+      "default": "Không",
+      "type": "Không",
+      "group": "Không được chia sẻ với"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "Nhóm",
+      "requiredError": "Nhóm là bắt buộc"
+    },
+    "type": {
+      "label": "Loại",
+      "requiredError": "Loại là bắt buộc",
+      "app": {
+        "label": "Ứng dụng"
+      },
+      "content": {
+        "label": "Nội dung"
+      },
+      "dataset": {
+        "label": "Bộ dữ liệu"
+      },
+      "discussion": {
+        "label": "Thảo luận"
+      },
+      "document": {
+        "label": "Tài liệu"
+      },
+      "event": {
+        "label": "Sự kiện"
+      },
+      "feedback": {
+        "label": "Ý kiến phản hồi"
+      },
+      "initiative": {
+        "label": "Sáng kiến"
+      },
+      "map": {
+        "label": "Bản đồ"
+      },
+      "project": {
+        "label": "Dự án"
+      },
+      "site": {
+        "label": "Sites"
+      },
+      "template": {
+        "label": "Biểu mẫu"
+      }
+    },
+    "occurrence": {
+      "label": "Lần xuất hiện",
+      "requiredError": "Lần xuất hiện là bắt buộc",
+      "upcoming": "Sắp tới",
+      "past": "Trước đó",
+      "inProgress": "Đang tiến hành"
+    }
+  }
+}

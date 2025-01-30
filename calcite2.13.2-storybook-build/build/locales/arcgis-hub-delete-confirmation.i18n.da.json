@@ -1,0 +1,50 @@
+{
+  "section": "Slet",
+  "protection": "Undgå at slette denne {type} ved et uheld.",
+  "protectionTooltip": "Beskyttelsesværktøjstip",
+  "protectionDisabledTooltip": "Det er kun ejere eller organisationsadministratorer, der kan ændre beskyttelse.",
+  "deleteDisabledNoAccessTooltip": "Det er kun ejere eller organisationsadministratorer, der kan slette.",
+  "deleteDisabledNoAccessTooltipGroup": "Det er kun ejere, ledere eller organisationsadministratorer, der kan slette.",
+  "deleteDisabledProtectedTooltip": "Du kan ikke slette, når beskyttelse mod sletning er aktiveret.",
+  "deleteButton": "Slet",
+  "protect": {
+    "successTitle": "Sletningsbeskyttelse tilføjet",
+    "success": "Du kan ikke slette, når beskyttelse mod sletning er aktiveret.",
+    "successLabel": "Advarsel om, at beskyttelse mod sletning er tilføjet.",
+    "errorTitle": "Kan ikke tilføje sletningsbeskyttelse",
+    "error": "Der opstod en fejl under tilføjelse af beskyttelse mod sletning.",
+    "errorLabel": "Advarsel om, at beskyttelse mod sletning mislykkedes."
+  },
+  "unprotect": {
+    "successTitle": "Sletningsbeskyttelse fjernet",
+    "success": "Du kan slette, når beskyttelse mod sletning ikke er aktiveret.",
+    "successLabel": "Advarsel om, at beskyttelse mod sletning blev fjernet.",
+    "errorTitle": "Kan ikke fjerne sletningsbeskyttelse",
+    "error": "Der opstod en fejl under fjernelse af beskyttelse mod sletning.",
+    "errorLabel": "Advarsel om, at beskyttelse mod sletning ikke kunne fjernes."
+  },
+  "delete": {
+    "successTitle": "Sletning lykkedes",
+    "success": "Omdirigerer til din hjemmearbejdsplads",
+    "successLabel": "Meddelelse om, at sletning lykkedes.",
+    "errorTitle": "Sletning mislykkedes",
+    "error": "Der gik noget galt, prøv venligst igen.",
+    "errorLabel": "Advarsel om, at sletning mislykkedes."
+  },
+  "permanentDelete": {
+    "successTitle": "Permanent sletning lykkedes",
+    "success": "Omdirigerer til din hjemmearbejdsplads",
+    "successLabel": "Meddelelse om, at sletning lykkedes.",
+    "errorTitle": "Sletning mislykkedes",
+    "error": "Der gik noget galt, prøv venligst igen.",
+    "errorLabel": "Advarsel om, at sletning mislykkedes."
+  },
+  "deleteModal": {
+    "header": "Slet",
+    "deleteContent": "Du kan ikke fortryde en permanent sletning. Er du sikker på, at du vil fortsætte?",
+    "recycleContent": "Slettet indhold bliver sendt til papirkurven. Du har 14 dage til at gendanne det.",
+    "delete": "Slet",
+    "permanentlyDelete": "Slet permanent",
+    "cancel": "Annuller"
+  }
+}

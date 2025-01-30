@@ -1,0 +1,72 @@
+{
+  "addContent": "Dodaj vsebino",
+  "addContentType": {
+    "event": "Ustvari dogodek",
+    "discussion": "Ustvari razpravo",
+    "group": "Ustvari skupino",
+    "initiative": "Ustvari iniciativo",
+    "project": "Ustvari projekt",
+    "page": "Ustvari stran",
+    "site:": "Ustvari mesto"
+  },
+  "tooltip": {
+    "label": "Onemogočeno",
+    "noCatalog": "Za dodajanje vsebine dodajte skupine v katalog.",
+    "noPermission": "Nimate dovoljenja za dodajanje vsebine v katalog.",
+    "no-permission": "Nimate dovoljenja za dodajanje vsebine v katalog.",
+    "not-in-groups": "Niste član nobene skupine, ki določa katalog.",
+    "too-many-groups": "Dosegli ste največje število skupin in jih ne morete ustvariti več."
+  },
+  "existing": {
+    "description": "Dodaj vsebino, ki je že v {onlineOrEnterprise}",
+    "modalTitle": "Izberi obstoječo vsebino",
+    "title": "Izberi obstoječo vsebino"
+  },
+  "create": {
+    "app": {
+      "description": "Ustvari izkušnjo, povej zgodbo ali vizualiziraj svoje podatke",
+      "modalTitle": "Ustvari aplikacijo",
+      "title": "Aplikacija"
+    },
+    "event": {
+      "description": "Gostite organizirane dejavnosti, v živo ali virtualno",
+      "modalTitle": "Ustvari dogodek",
+      "title": "Dogodek"
+    },
+    "content": {
+      "description": "Dodaj podatke, dokumente, slike in zunanje povezave na svoje mesto",
+      "modalTitle": "Ustvari vsebino",
+      "title": "Vsebina"
+    },
+    "discussion": {
+      "description": "Zberi zamisli in povratne informacije",
+      "modalTitle": "Ustvari forum za razprave",
+      "title": "Forum za razprave"
+    },
+    "group": {
+      "description": "Organizirajte ljudi za izmenjavo vsebin in razprave",
+      "modalTitle": "Ustvari skupino",
+      "title": "Skupina"
+    },
+    "initiative": {
+      "description": "Izpostavite strateška prizadevanja z opredeljenimi cilji, ki organizirajo projekte",
+      "modalTitle": "Ustvari iniciativo",
+      "title": "Iniciativa"
+    },
+    "page": {
+      "description": "Predstavite informacije v strukturirani postavitvi",
+      "modalTitle": "Ustvari stran",
+      "title": "Stran"
+    },
+    "project": {
+      "description": "Predstavite delo, ki ima jasne cilje in časovne okvire",
+      "modalTitle": "Ustvari projekt",
+      "title": "Projekt"
+    },
+    "site": {
+      "description": "Ustvarite spletno mesto z blagovno znamko za stik z vašo skupnostjo",
+      "modalTitle": "Ustvari mesto",
+      "title": "Mesto"
+    }
+  }
+}

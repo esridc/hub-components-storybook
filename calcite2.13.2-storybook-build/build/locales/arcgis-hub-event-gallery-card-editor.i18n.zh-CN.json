@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "类别",
+        "noCategoriesNotice": {
+          "body": "该组织尚未设立任何类别。",
+          "link": "设置类别"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "内容",
+      "selectionMode": {
+        "dynamic": {
+          "label": "动态"
+        },
+        "manual": {
+          "label": "每月"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "组织"
+        },
+        "collection": {
+          "sites": "站点",
+          "projects": "工程",
+          "initiatives": "倡议"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "组织"
+        },
+        "collection": {
+          "events": "活动"
+        }
+      },
+      "access": {
+        "label": "共享",
+        "private": {
+          "label": "私有",
+          "description": "按仅您和具有群组访问选项的用户的可用内容过滤。"
+        },
+        "org": {
+          "label": "组织",
+          "description": "按仅组织成员可见内容过滤。"
+        },
+        "public": {
+          "label": "公共",
+          "description": "按所有人可见内容过滤。"
+        }
+      },
+      "tags": {
+        "label": "标签"
+      },
+      "cardsShown": {
+        "label": "显示的卡片"
+      }
+    },
+    "appearance": {
+      "label": "外观",
+      "titleHeading": {
+        "label": "标题",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "WCAG G141 嵌套标题可以改善可访问性。"
+      },
+      "corners": {
+        "label": "角",
+        "square": {
+          "label": "方角"
+        },
+        "round": {
+          "label": "圆角"
+        }
+      },
+      "shadow": {
+        "label": "阴影",
+        "none": {
+          "label": "已关闭"
+        },
+        "low": {
+          "label": "低"
+        },
+        "medium": {
+          "label": "中"
+        },
+        "heavy": {
+          "label": "重"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "显示更多信息"
+      },
+      "layout": {
+        "label": "布局",
+        "list": {
+          "label": "列表"
+        },
+        "map": {
+          "label": "地图"
+        },
+        "calendar": {
+          "label": "日历"
+        }
+      }
+    },
+    "options": {
+      "label": "选项",
+      "openIn": {
+        "label": "在以下内容中打开",
+        "same": {
+          "label": "相同选项卡"
+        },
+        "new": {
+          "label": "新建选项卡"
+        },
+        "notice": {
+          "title": "辅助功能提示：",
+          "body": "根据 WCAG 2.0 G200 技术，不建议在新选项卡或窗口中打开链接。",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "阅读有关 WCAG 2.0 G200 的详细信息"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "共享",
+      "public": {
+        "label": "公共"
+      },
+      "private": {
+        "label": "私有"
+      },
+      "organization": {
+        "label": "组织"
+      }
+    },
+    "from": {
+      "label": "自",
+      "myOrganization": {
+        "label": "我的组织"
+      },
+      "myContent": {
+        "label": "我的内容"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "活动",
+      "collections": {
+        "event": {
+          "label": "活动"
+        }
+      }
+    },
+    "item": {
+      "label": "内容",
+      "collections": {
+        "item": {
+          "label": "内容"
+        }
+      }
+    }
+  }
+}

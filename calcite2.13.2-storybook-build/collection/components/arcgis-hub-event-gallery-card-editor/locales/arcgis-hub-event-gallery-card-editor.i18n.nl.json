@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "Categorieën",
+        "noCategoriesNotice": {
+          "body": "De organisatie heeft nog geen categorieën.",
+          "link": "Categorieën instellen"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "Content",
+      "selectionMode": {
+        "dynamic": {
+          "label": "Dynamisch"
+        },
+        "manual": {
+          "label": "Handmatig"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "Organisatie"
+        },
+        "collection": {
+          "sites": "Sites",
+          "projects": "Projecten",
+          "initiatives": "Initiatieven"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "Organisatie"
+        },
+        "collection": {
+          "events": "Evenementen"
+        }
+      },
+      "access": {
+        "label": "Delen",
+        "private": {
+          "label": "Privé",
+          "description": "Filter op content die alleen toegankelijk is voor uzelf en voor personen met groepstoegang."
+        },
+        "org": {
+          "label": "Organisatie",
+          "description": "Filteren op content is alleen beschikbaar voor leden van uw organisatie."
+        },
+        "public": {
+          "label": "Openbaar",
+          "description": "Filteren op content is voor iedereen beschikbaar."
+        }
+      },
+      "tags": {
+        "label": "Tags"
+      },
+      "cardsShown": {
+        "label": "Weergegeven cards"
+      }
+    },
+    "appearance": {
+      "label": "Weergave",
+      "titleHeading": {
+        "label": "Titelkop",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "Volgens WCAG G141 geneste koppen verbeteren toegankelijkheid."
+      },
+      "corners": {
+        "label": "Hoeken",
+        "square": {
+          "label": "Vierkant"
+        },
+        "round": {
+          "label": "Rond"
+        }
+      },
+      "shadow": {
+        "label": "Schaduw",
+        "none": {
+          "label": "Uitgeschakeld"
+        },
+        "low": {
+          "label": "Laag"
+        },
+        "medium": {
+          "label": "Gemiddeld"
+        },
+        "heavy": {
+          "label": "Zwaar"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "Aanvullende informatie weergeven"
+      },
+      "layout": {
+        "label": "Lay-out",
+        "list": {
+          "label": "Lijst"
+        },
+        "map": {
+          "label": "Kaart"
+        },
+        "calendar": {
+          "label": "Kalender"
+        }
+      }
+    },
+    "options": {
+      "label": "Opties",
+      "openIn": {
+        "label": "Openen in...",
+        "same": {
+          "label": "Hetzelfde tabblad"
+        },
+        "new": {
+          "label": "Nieuw tabblad"
+        },
+        "notice": {
+          "title": "Toegankelijkheidstip:",
+          "body": "Op grond van de WCAG 2.0 G200-techniek, wordt het openen van koppelingen in nieuwe tabbladen of vensters niet aanbevolen",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "Meer informatie over WCAG 2.0 G200"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "Delen",
+      "public": {
+        "label": "Openbaar"
+      },
+      "private": {
+        "label": "Privé"
+      },
+      "organization": {
+        "label": "Organisatie"
+      }
+    },
+    "from": {
+      "label": "Van",
+      "myOrganization": {
+        "label": "Mijn organisatie"
+      },
+      "myContent": {
+        "label": "Mijn content"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "Evenementen",
+      "collections": {
+        "event": {
+          "label": "Evenementen"
+        }
+      }
+    },
+    "item": {
+      "label": "Content",
+      "collections": {
+        "item": {
+          "label": "Content"
+        }
+      }
+    }
+  }
+}

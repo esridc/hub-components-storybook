@@ -1,0 +1,20 @@
+{
+  "dashboard": "Tablou de control",
+  "activityLogSection": {
+    "title": "Jurnal de activitate",
+    "table": {
+      "downloadAction": "Descărcare",
+      "downloadAllAction": "Descărcare toate",
+      "downloadActionTooltip": "Descărcați activități selectate",
+      "caption": "Tabel de erori recente",
+      "columnHeaders": {
+        "datetime": "Dată",
+        "layer": "Strat tematic",
+        "message": "Mesaj"
+      },
+      "noRecentErrors": "Nu există erori recente",
+      "expandText": "Vizualizați mai multe",
+      "collapseText": "Vizualizați mai puține"
+    }
+  }
+}

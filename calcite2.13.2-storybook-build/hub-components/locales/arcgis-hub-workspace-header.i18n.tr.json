@@ -1,0 +1,47 @@
+{
+  "communityOrg": "Topluluk kuruluşu",
+  "editLayout": "Çıktı düzenini düzenle",
+  "orgWorkspace": "Ev çalışma alanını aç",
+  "editS123": "Survey123'te düzenle",
+  "editAdvancedJson": "Gelişmiş JSON'u düzenle",
+  "view": {
+    "project": "Projeyi görüntüle",
+    "site": "Tesisi görüntüle",
+    "initiative": "İnisiyatifi görüntüle",
+    "discussion": "Panoyu görüntüle",
+    "content": "İçeriği görüntüle",
+    "page": "Sayfayı görüntüle",
+    "group": "Grubu görüntüle",
+    "initiativeTemplate": "İnisiyatif şablonunu görüntüle",
+    "template": "Şablonu görüntüle",
+    "survey": "Anketi görüntüle",
+    "event": "Etkinliği görüntüle"
+  },
+  "access": {
+    "share": "Paylaş",
+    "sharingLevel": "Paylaşım seviyesi",
+    "groupSharing": "Grup paylaşımı",
+    "tooltip": {
+      "public": "Paylaşım seviyesi: Halka açık",
+      "org": "Paylaşım seviyesi: Kuruluş",
+      "private": "Paylaşım seviyesi: Özel",
+      "shared": "Paylaşım seviyesi: Özel olarak paylaşılmış"
+    },
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "alert": {
+      "success": "Düzenlemeler başarıyla kaydedildi",
+      "error": "Düzenlemeler kaydedilirken hata oluştu",
+      "label": "Biçim uyarısı"
+    }
+  },
+  "popoverActions": {
+    "label": "Daha fazla eylem",
+    "openInEnterprise": "ArcGIS Enterprise'da aç",
+    "openInOnline": "ArcGIS Online'da aç"
+  },
+  "homeLink": {
+    "text": "Giriş Sayfası"
+  },
+  "createContent": "Oluştur"
+}

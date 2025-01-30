@@ -1,0 +1,16 @@
+:host {
+  display: block;
+}
+
+.non-interactive {
+  pointer-events: none;
+}
+
+.hide {
+  display: none;
+}
+
+calcite-navigation[slot="navigation-secondary"] > :not(:first-child) {
+  z-index: 20;
+  background-color: var(--calcite-color-foreground-1);
+}

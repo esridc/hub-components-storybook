@@ -1,0 +1,1 @@
+import{b as r}from"./p-c20bc7b4.js";const e=/\/(map|feature)server/i,s=r=>e.test(r),t=s=>{const t=s.match(e),a=t&&t[1];return a&&`${r(a)} Service`};export{t as g,s as i}

@@ -1,0 +1,12 @@
+{
+  "members": {
+    "noMember": "Немає учасників",
+    "oneMember": "1 учасник",
+    "members": "{count} учасники(-ів)"
+  },
+  "managers": {
+    "noMember": "Без диспетчерів",
+    "oneMember": "1 диспетчер",
+    "members": "{count} диспетчери(ів)"
+  }
+}

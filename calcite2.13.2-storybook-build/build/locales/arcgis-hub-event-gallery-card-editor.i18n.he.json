@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "קטגוריות",
+        "noCategoriesNotice": {
+          "body": "לארגון זה אין עדיין קטגוריות.",
+          "link": "הגדרת קטגוריות"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "תוכן",
+      "selectionMode": {
+        "dynamic": {
+          "label": "דינמי"
+        },
+        "manual": {
+          "label": "ידני"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "ארגון"
+        },
+        "collection": {
+          "sites": "Sites",
+          "projects": "פרויקטים",
+          "initiatives": "יוזמות"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "ארגון"
+        },
+        "collection": {
+          "events": "אירועים"
+        }
+      },
+      "access": {
+        "label": "שיתוף",
+        "private": {
+          "label": "פרטי",
+          "description": "סינון לפי תוכן זמין רק לך ולמי שיש להם גישה לקבוצה."
+        },
+        "org": {
+          "label": "ארגון",
+          "description": "סינון לפי תוכן זמין רק לחברים בארגון שלך."
+        },
+        "public": {
+          "label": "ציבורי",
+          "description": "סינון לפי תוכן זמין רק לכולם."
+        }
+      },
+      "tags": {
+        "label": "תגיות"
+      },
+      "cardsShown": {
+        "label": "כרטיסים מוצגים"
+      }
+    },
+    "appearance": {
+      "label": "מראה",
+      "titleHeading": {
+        "label": "כותרת",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "נגישות משופרת לכותרות מקוננות לפי WCAG G141."
+      },
+      "corners": {
+        "label": "פינות",
+        "square": {
+          "label": "מרובע"
+        },
+        "round": {
+          "label": "מעוגל"
+        }
+      },
+      "shadow": {
+        "label": "צל",
+        "none": {
+          "label": "כבוי"
+        },
+        "low": {
+          "label": "נמוך"
+        },
+        "medium": {
+          "label": "בינוני"
+        },
+        "heavy": {
+          "label": "כבד"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "הצג מידע נוסף"
+      },
+      "layout": {
+        "label": "פריסה",
+        "list": {
+          "label": "רשימה"
+        },
+        "map": {
+          "label": "מפה"
+        },
+        "calendar": {
+          "label": "לוח שנה"
+        }
+      }
+    },
+    "options": {
+      "label": "אפשרויות",
+      "openIn": {
+        "label": "פתח ב...",
+        "same": {
+          "label": "אותה כרטיסייה"
+        },
+        "new": {
+          "label": "כרטיסייה חדשה"
+        },
+        "notice": {
+          "title": "עצה בנושא נגישות:",
+          "body": "לפי WCAG 2.0 טכניקת G200, לא מומלץ לפתוח קישורים וחלונות בכרטיסיות חדשות.",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "קרא עוד על WCAG 2.0 G200"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "שיתוף",
+      "public": {
+        "label": "ציבורי"
+      },
+      "private": {
+        "label": "פרטי"
+      },
+      "organization": {
+        "label": "ארגון"
+      }
+    },
+    "from": {
+      "label": "מ-",
+      "myOrganization": {
+        "label": "הארגון שלי"
+      },
+      "myContent": {
+        "label": "התוכן שלי"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "אירועים",
+      "collections": {
+        "event": {
+          "label": "אירועים"
+        }
+      }
+    },
+    "item": {
+      "label": "תוכן",
+      "collections": {
+        "item": {
+          "label": "תוכן"
+        }
+      }
+    }
+  }
+}

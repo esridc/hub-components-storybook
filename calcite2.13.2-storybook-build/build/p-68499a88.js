@@ -1,0 +1,1 @@
+var a;!function(a){a.app="app",a.map="map",a.feedback="feedback",a.external="external"}(a||(a={}));export{a as E}

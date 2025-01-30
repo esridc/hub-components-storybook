@@ -1,0 +1,29 @@
+{
+  "header": "事件",
+  "myContent": "我的事件",
+  "editableContent": "可編輯內容",
+  "addEventButtonText": "建立事件",
+  "type": "類型",
+  "sharedUpdate": "分享的更新群組",
+  "viewOnly": "僅檢視群組",
+  "owner": "建立者",
+  "starts": "打開",
+  "from": "從",
+  "until": "直到",
+  "updated": "已更新",
+  "tags": "標記",
+  "dateCreated": "建立日期",
+  "dateUpdated": "已修改",
+  "actionLinks": {
+    "view": "檢視",
+    "edit": "編輯",
+    "ariaEdit": "編輯: {title}",
+    "ariaView": "檢視: {title}"
+  },
+  "access": {
+    "label": "存取",
+    "PRIVATE": "私有",
+    "ORG": "組織",
+    "PUBLIC": "公共"
+  }
+}

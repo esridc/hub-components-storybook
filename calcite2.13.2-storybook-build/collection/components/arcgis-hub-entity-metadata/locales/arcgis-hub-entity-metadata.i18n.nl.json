@@ -1,0 +1,239 @@
+{
+  "owner": {
+    "description": "Eigenaar"
+  },
+  "updatedDate": {
+    "description": "Bijgewerkte datum",
+    "descriptionWithFrequency": "Datum bijgewerkt: {updatedDateFormatted}"
+  },
+  "createdDate": {
+    "description": "Datum aangemaakt"
+  },
+  "joinedDate": {
+    "description": "Datum lidmaatschap"
+  },
+  "access": {
+    "label": {
+      "public": "Openbaar",
+      "org": "Organisatie",
+      "private": "Eigenaar",
+      "shared": "Privé gedeeld"
+    },
+    "description": {
+      "public": {
+        "site": "Iedereen kan deze site zien",
+        "project": "Iedereen kan dit project zien",
+        "initiative": "Iedereen kan dit initiatief zien",
+        "discussion": "Iedereen kan deze discussie zien",
+        "default": "Iedereen kan deze inhoud zien",
+        "event": "Iedereen kan dit evenement zien"
+      },
+      "org": {
+        "site": "Iedereen in uw organisatie kan deze site zien",
+        "project": "Iedereen in uw organisatie kan dit project zien",
+        "initiative": "Iedereen in uw organisatie kan dit initiatief zien",
+        "discussion": "Iedereen in uw organisatie kan deze discussie zien",
+        "default": "Iedereen in uw organisatie kan deze content zien",
+        "event": "Iedereen binnen uw organisatie kan dit evenement weergeven."
+      },
+      "private": {
+        "site": "U bent de enige die deze site kan zien",
+        "project": "U bent de enige die dit project kan zien",
+        "initiative": "U bent de enige die dit initiatief kan zien",
+        "discussion": "U bent de enige die deze discussie kan zien",
+        "default": "U bent de enige die deze content kan zien",
+        "event": "U bent de enige die dit evenement kan zien"
+      },
+      "shared": {
+        "site": "Geselecteerde groepen kunnen deze site zien",
+        "project": "Geselecteerde groepen kunnen dit project zien",
+        "initiative": "Geselecteerde groepen kunnen dit initiatief zien",
+        "discussion": "Geselecteerde groepen kunnen deze discussie zien",
+        "default": "Geselecteerde groepen kunnen deze content zien",
+        "event": "Geselecteerde groepen kunnen dit evenement zien"
+      }
+    }
+  },
+  "type": {
+    "fallback": {
+      "content": "Content",
+      "discussion": "Discussie",
+      "event": "Evenement",
+      "group": "Groep",
+      "initiative": "Initiatief",
+      "org": "Organisatie",
+      "page": "Pagina",
+      "project": "Project",
+      "site": "Site",
+      "survey": "Onderzoek",
+      "initiativeTemplate": "Sjabloon",
+      "user": "Gebruiker"
+    },
+    "appbuilderExtension": "GIS Tool",
+    "appbuilderWidgetPackage": "GIS Tool",
+    "application": "Geregistreerde app",
+    "arcgisProMap": "GIS Tool",
+    "cadDrawing": "GIS Tool",
+    "cityEngineWebScene": "3D-applicatie",
+    "codeAttachment": "GIS Tool",
+    "colorSet": "GIS Tool",
+    "content": "Content",
+    "contentCategorySet": "GIS",
+    "csv": "Dataset",
+    "csvCollection": "Gegevensbestand",
+    "dashboard": "Dashboard",
+    "desktopApplication": "GIS Tool",
+    "document": "Document",
+    "documentLink": "Internetkoppeling",
+    "excaliburImageryProject": "GIS Tool",
+    "explorerMap": "GIS Tool",
+    "exportPackage": "GIS Tool",
+    "featureCollection": "Dataset",
+    "featureCollectionTemplate": "GIS Tool",
+    "featureLayer": "Dataset",
+    "featureService": "Kaart",
+    "fileGeodatabase": "Gegevensbestand",
+    "form": "Onderzoek",
+    "geocodingService": "Ontwikkelaars-API",
+    "geodataService": "Ontwikkelaars-API",
+    "geojson": "Content",
+    "geometryService": "Ontwikkelaars-API",
+    "geopackage": "Gegevensbestand",
+    "geoprocessingService": "Ontwikkelaars-API",
+    "globeLayer": "Gegevensbestand",
+    "globeService": "Ontwikkelaars-API",
+    "hubInitiative": "Initiatief",
+    "hubInitiativeTemplate": "Sjabloon",
+    "hubPage": "Pagina",
+    "hubProject": "Project",
+    "hubSiteApplication": "Site",
+    "image": "Afbeelding",
+    "imageService": "Imagery Dataset",
+    "insightsModel": "GIS Tool",
+    "insightsPage": "Analyse",
+    "insightsTheme": "GIS Tool",
+    "insightsWorkbook": "Analysewerkboek",
+    "iWorkKeynote": "Presentatie",
+    "iWorkNumbers": "Spreadsheet",
+    "iWorkPages": "Document",
+    "kml": "Dataset",
+    "kmlCollection": "Gegevensbestand",
+    "layer": "Gegevensbestand",
+    "layerPackage": "Gegevensbestand",
+    "locatorPackage": "GIS Tool",
+    "mapArea": "GIS Tool",
+    "mapDocument": "GIS Tool",
+    "mapImageLayer": "Kaart",
+    "mapPackage": "Gegevensbestand",
+    "mapService": "Kaart",
+    "microsoftExcel": "Spreadsheet",
+    "microsoftPowerpoint": "Presentatie",
+    "microsoftVizio": "Microsoft Visio",
+    "microsoftWord": "Document",
+    "mission": "GIS Tool",
+    "mobileApplication": "Applicatie",
+    "mobileMapPackage": "Gegevensbestand",
+    "native application template": "Ontwikkelaarstool",
+    "nativeApplication": "Applicatie",
+    "nativeApplicationInstaller": "Ontwikkelaarstool",
+    "networkAnalysisService": "Ontwikkelaars-API",
+    "notebook": "Analyse",
+    "orientedImageryCatalog": "Imagery Dataset",
+    "orthoMappingProject": "GIS Tool",
+    "orthoMappingTemplate": "GIS Tool",
+    "pdf": "Document",
+    "quickcaptureProject": "Mobiele survey",
+    "rasterLayer": "Kaart",
+    "realTimeAnalytic": "Ontwikkelaars-API",
+    "relationalDatabaseConnection": "Ontwikkelaars-API",
+    "reportTemplate": "GIS Tool",
+    "sceneLayer": "3D Dataset",
+    "sceneService": "3D Dataset",
+    "serviceDefinition": "Gegevensbestand",
+    "shapefile": "Dataset",
+    "solution": "Oplossing",
+    "sqliteGeodatabase": "Gegevensbestand",
+    "statisticalDataCollection": "Gegevensbestand",
+    "storymap": "StoryMap",
+    "symbolSet": "Gegevensbestand",
+    "table": "Dataset",
+    "team": "Team",
+    "urbanModel": "Urban model",
+    "vectorTileService": "Kaart",
+    "visioDocument": "Document",
+    "webExperience": "Applicatie",
+    "webMap": "Kaart",
+    "webMappingApplication": "Applicatie",
+    "webScene": "3D-kaart",
+    "wfs": "Kaart",
+    "wms": "Kaart",
+    "wmts": "Kaart",
+    "workflowManagerService": "Ontwikkelaars-API",
+    "workforceProject": "Taskflow Manager"
+  },
+  "location": {
+    "description": "Locatie"
+  },
+  "members": {
+    "noMember": "Geen leden",
+    "oneMember": "Leden: 1",
+    "members": "Leden: {count}",
+    "description": {
+      "value": "Alle groepsleden bekijken"
+    }
+  },
+  "tooltip": {
+    "label": "Tooltip metadata item"
+  },
+  "relevantArea": {
+    "title": "Relevant gebied"
+  },
+  "license": {
+    "tooltip": "Bepaalt hoe deze content kan worden gebruikt",
+    "set": {
+      "title": "{license}-licentie",
+      "customTitle": "Aangepaste licentie",
+      "description": {
+        "value": "Details licentie weergeven"
+      }
+    },
+    "unset": {
+      "title": "Geen licentie opgegeven",
+      "description": {
+        "value": "Toestemming voor gebruik vragen"
+      }
+    }
+  },
+  "size": {
+    "description": {
+      "value": "Bestandsgrootte document"
+    }
+  },
+  "recordCount": {
+    "title": "Records: {count}",
+    "description": {
+      "value": "Gegevenstabel weergeven"
+    }
+  },
+  "metadataModified": {
+    "description": {
+      "defaultValue": "Info bijgewerkt",
+      "dynamicValue": "Info bijgewerkt: {lastUpdated}"
+    }
+  },
+  "updateFrequency": {
+    "continual": "Voortdurend",
+    "daily": "Dagelijks",
+    "weekly": "Wekelijks",
+    "fortnightly": "Tweewekelijks",
+    "monthly": "Maandelijks",
+    "quarterly": "Per kwartaal",
+    "biannually": "Halfjaarlijks",
+    "annually": "Jaarlijks",
+    "as-needed": "Indien nodig",
+    "irregular": "Onregelmatig",
+    "not-planned": "Niet gepland",
+    "unknown": "Onbekend",
+    "semimonthly": "Halfmaandelijks"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "Колекция от обекти",
+    "fgdb": "Файлова геобаза данни",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "шейп файл",
+    "sqlite": "SQLite геобаза данни"
+  },
+  "buttonText": {
+    "download": "Изтегляне",
+    "pending": "Изчакване",
+    "processing": "Обработване",
+    "converting": "Конвертиране",
+    "completed": "Изтеглянето завърши",
+    "failed": "Неуспешно изтегляне"
+  },
+  "errors": {
+    "errorHeading": "Грешка"
+  },
+  "cacheStatusAccordion": {
+    "heading": "Открихте ли това, което търсихте?",
+    "content": "Може да е налична по-актуална версия.",
+    "button": "Заявка за нов файл"
+  },
+  "generateNewModal": {
+    "heading": "Сигурни ли сте?",
+    "content": "Това ще отнеме известно време. Моля, задръжте този раздел на браузъра активен до приключване на изтеглянето.",
+    "confirmButton": "Да",
+    "cancelButton": "Отказ"
+  }
+}

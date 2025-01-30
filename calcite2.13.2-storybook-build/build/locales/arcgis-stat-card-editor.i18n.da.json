@@ -1,0 +1,165 @@
+{
+  "advancedConfig": {
+    "label": "Avanceret konfiguration",
+    "serverTimeout": {
+      "label": "Udløb for server (sekunder)",
+      "helperText": "Nyttig til større tjenester, der kan være længere tid om at respondere.",
+      "errors": {
+        "type": "Angiv en konfiguration af servertimeout",
+        "minimum": "Værdien for servertimeout skal være mindst 5.",
+        "maximum": "Værdien for servertimeout skal være højst 95."
+      }
+    }
+  },
+  "appearance": {
+    "corners": {
+      "label": "Hjørner",
+      "enum": {
+        "round": {
+          "label": "Rund"
+        },
+        "square": {
+          "label": "Kvadrat"
+        }
+      }
+    },
+    "dropShadow": {
+      "label": "Skyggeeffekt",
+      "enum": {
+        "heavy": {
+          "label": "Tung"
+        },
+        "low": {
+          "label": "Lav"
+        },
+        "medium": {
+          "label": "Mellem"
+        },
+        "none": {
+          "label": "Ikke startet"
+        }
+      }
+    },
+    "layout": {
+      "label": "Korttypografi",
+      "enum": {
+        "informational": {
+          "label": "Oplysende"
+        },
+        "simple": {
+          "label": "Enkel"
+        }
+      }
+    },
+    "popoverText": {
+      "label": "Modalt indhold"
+    },
+    "publisherText": {
+      "label": "Kildeudgiver"
+    },
+    "styleSpecificSettings": {
+      "label": "Typografiindstillinger",
+      "helperInfoText": "Hvis du vælger oplysningsknappen, åbnes en/et modal, som indeholder flere oplysninger.",
+      "helperVizText": "Det enkle kort understøtter tilføjelse af et ikon som et visuelt element, der kan bruges til at afspejle ændringer i dataene."
+    },
+    "sectionTitle": "Udseende",
+    "textAlign": "Justering",
+    "visualInterest": {
+      "label": "Visuelt element",
+      "enum": {
+        "icon": {
+          "label": "Ikon"
+        },
+        "none": {
+          "label": "Ingen"
+        }
+      }
+    },
+    "icon": {
+      "label": "Ikon",
+      "caretUp": {
+        "label": "Forøg"
+      },
+      "caretDown": {
+        "label": "Formindsk"
+      },
+      "caretDouble": {
+        "label": "Ingen ændring"
+      }
+    },
+    "valueColor": "Farve (statistik)"
+  },
+  "details": {
+    "allowDynamicLink": "Vis kildelink",
+    "link": {
+      "sectionTitle": "Link",
+      "sourceLink": "Link-URL",
+      "sourceTitle": "Link-tekst"
+    },
+    "sectionTitle": "Oplysninger",
+    "subtitle": "Undertitel",
+    "title": "Titel",
+    "trailingText": {
+      "label": "Følgetekst",
+      "helperText": "Angiv yderligere kontekst eller forklaring (der skal vises under måletalsværdien)."
+    }
+  },
+  "errors": {
+    "sourceLink": {
+      "required": "Link, der kræves til visningskilde.",
+      "formatError": "URL-formatering er forkert"
+    }
+  },
+  "formatting": {
+    "sectionTitle": "Formatering",
+    "unit": {
+      "label": "Visningsenheder",
+      "helperText": "Indtast måleenhed for din værdi."
+    },
+    "unitPosition": {
+      "label": "Placering",
+      "helperText": "Vælg, hvor måleenheden (f.eks. 'km', 'lbs') vises i forhold til måletalsværdien.",
+      "enum": {
+        "after": {
+          "label": "Efter"
+        },
+        "before": {
+          "label": "Før"
+        },
+        "below": {
+          "label": "Under"
+        }
+      }
+    }
+  },
+  "sharing": {
+    "sectionTitle": "Deling",
+    "showShareIcon": "Aktivér deling",
+    "showShareIconHelperText": "Giv brugere mulighed for at kopiere et direkte link til dette kort på denne side.",
+    "shareableByValue": "Aktiver indlejringer",
+    "shareableOnHover": {
+      "label": "Vis, når markøren holdes over",
+      "helperText": {
+        "label": "Deleknap vises kun, når markør holdes over. Hvis indstillingen er slået fra, er knappen altid synlig."
+      }
+    }
+  },
+  "statistic": {
+    "dataSource": "Datakilde",
+    "displayValue": "Vis værdi",
+    "sectionTitle": "Værdi",
+    "type": {
+      "label": "Type",
+      "enum": {
+        "dynamic": {
+          "label": "Dynamisk",
+          "description": "Vælg et eksisterende datasæt (featuretjeneste) for at opsummere."
+        },
+        "static": {
+          "label": "Statisk",
+          "description": "Indtast en værdi manuelt for at fremhæve i dit layout."
+        }
+      }
+    }
+  }
+}

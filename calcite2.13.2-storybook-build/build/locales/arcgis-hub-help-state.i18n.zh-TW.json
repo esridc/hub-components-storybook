@@ -1,0 +1,26 @@
+{
+  "unauthenticated": {
+    "heading": "請登入。",
+    "message": "此網站需要憑證才能存取。",
+    "actionText": "登入"
+  },
+  "not-found": {
+    "heading": "找不到頁面",
+    "message": "此頁面可能已移動或刪除。 正在嘗試從首頁搜尋它",
+    "actionText": "移至首頁"
+  },
+  "unsupported-device": {
+    "heading": "不支援的螢幕尺寸",
+    "message": "工作空間尚不支援較小的螢幕尺寸；請使用螢幕更寬的裝置。",
+    "actionText": "返回"
+  },
+  "access-denied": {
+    "heading": "拒絕存取",
+    "message": "您沒有存取此資源的權限。",
+    "actionText": "移至首頁"
+  },
+  "loading": {
+    "heading": "正在載入...",
+    "loadingLabel": "正在載入"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "title": "目錄配置",
+  "helperText": "定義和設定目錄",
+  "sections": {
+    "groups": {
+      "title": "群組",
+      "helperText": "下面的群組包含您的搜尋目錄中的內容。 選擇群組以檢視設定、內容等。",
+      "createGroup": "建立新群組"
+    },
+    "feeds": {
+      "title": "摘要配置",
+      "helperText": "透過 Hub 摘要，使您的公共 Open Data 可以輕鬆存取和重複使用。",
+      "learn": "瞭解有關 Hub 摘要的詳細資訊",
+      "toggle": "啟用摘要 ",
+      "configure": "配置摘要",
+      "notice": "要啟用摘要，您需要先在「設定」中將 Hub 網站設為「公開」"
+    }
+  },
+  "groupPickerFacet": {
+    "label": "從",
+    "editGroups": "編輯群組",
+    "viewGroups": "檢視群組",
+    "myGroups": "我的群組",
+    "myOrganization": "我的組織",
+    "myCommunity": "我的社群",
+    "public": "公共"
+  },
+  "formAlert": "表格警示",
+  "configSaveAlert": {
+    "success": "已成功儲存編輯內容",
+    "failure": "儲存編輯內容時發生錯誤"
+  },
+  "reharvestCatalogButton": "檢查錯誤",
+  "reharvestWarningModal": {
+    "title": "檢查錯誤",
+    "body1": "警告: 通常僅在搜尋頁面遇到缺少結果或中繼資料的問題時，才會使用此選項。 此選項將檢查所有目錄的群組中的所有項目是否有新增、中繼資料變更或移除。",
+    "body2": "執行此程序會重新建立此目錄的公共搜尋索引，可能需要幾分鐘的時間。 這將增加任何 ArcGIS Server 執行個體的負載。",
+    "primaryButton": "繼續",
+    "secondaryButton": "取消"
+  },
+  "reharvestCatalogAlert": {
+    "success": "正在檢查錯誤。 請稍後再檢查。",
+    "inProgress": "檢查已在進行中。 請待會再回來。",
+    "failure": "很抱歉，發生了操作錯誤。 請稍候再試。"
+  }
+}

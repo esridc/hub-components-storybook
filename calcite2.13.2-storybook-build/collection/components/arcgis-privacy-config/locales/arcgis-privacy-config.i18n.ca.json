@@ -1,0 +1,29 @@
+{
+  "additionalInfo": {
+    "label": "Configuració de visualització opcional",
+    "helperText": "Afegiu la vostra pròpia descripció de privadesa i informació de polítiques."
+  },
+  "allowPrivacyConfig": {
+    "label": "Mostra l'avís de privadesa"
+  },
+  "blocking": {
+    "label": "Tipus d'avís",
+    "optional": {
+      "label": "Consentiment opcional",
+      "description": "El visitant pot fer servir el lloc sense seleccionar cap consentiment de privadesa; el seguiment s'inicia immediatament fins que el visitant el rebutja."
+    },
+    "required": {
+      "label": "Consentiment obligatori",
+      "description": "El visitant ha d'acceptar o rebutjar el seguiment per fer servir el lloc; el seguiment no s'inicia tret que l'accepti."
+    }
+  },
+  "consentText": {
+    "label": "Descripció de privadesa",
+    "helperText": "Es mostra als visitants del lloc dins de l'avís de privadesa."
+  },
+  "policyURL": {
+    "label": "Enllaç de la política",
+    "helperText": "Es mostra com un enllaç de \"Més informació\" a l'avís de privadesa.",
+    "error": "Ha de ser un URL vàlid perquè es mostri."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "managePrivacyButton": "Pārvaldīt konfidencialītātes iestatījumus",
+  "consentNotice": {
+    "allTracking": "Šī vietne ir izveidota, izmantojot ArcGIS Hub, un tā izmanto anonīmu izsekošanu, lai uzlabotu veiktspēju un analizētu vietnes lietojumu saskaņā ar Esri konfidencialitātes paziņojumu. Vietnes lietošanu var pārraudzīt papildu trešās puses izsekošanas sistēmas.",
+    "anonymousTracking": "Šī vietne ir izveidota, izmantojot ArcGIS Hub, un tā izmanto anonīmu izsekošanu, lai uzlabotu veiktspēju un analizētu vietnes lietojumu saskaņā ar Esri konfidencialitātes paziņojumu.",
+    "noTracking": "Šī vietne ir izveidota, izmantojot ArcGIS Hub, un tajā tiek izmantoti tikai sīkfaili, kas nepieciešami lietotnes darbībai un kurus nevar izslēgt mūsu sistēmās.",
+    "thirdPartyTracking": "Šī vietne ir izveidota, izmantojot ArcGIS Hub, un tajā tiek izmantoti tikai sīkfaili, kas nepieciešami lietotnes darbībai un kurus nevar izslēgt mūsu sistēmās. Vietnes lietošanu var pārraudzīt papildu trešās puses izsekošanas sistēmas."
+  },
+  "consent": {
+    "esriPrivacyLink": "Esri konfidencialitātes centrs",
+    "customerConsentLink": "Vairāk informācijas"
+  },
+  "eueiNotice": {
+    "title": "{orgName} dalībnieki netiks izsekoti",
+    "message": "Esri lietotāju pieredzes uzlabošanas (EUEI) programma {orgName} ir atspējota. Ar jūsu apmeklējumu saistītās darbības netiks izsekotas; jūs nevarat pieņemt anonīmu lietojuma statistiku vai trešās puses izsekošanu.",
+    "link": "Uzzināt par (EUEI) programmu."
+  },
+  "notice": {
+    "heading": "Konfidencialitātes iestatījumi",
+    "acceptAllButton": "Pieņemt visus sīkfailus",
+    "acceptNecessaryButton": "Pieņemt tikai nepieciešamos sīkfailus",
+    "confirmButton": "Apstiprināt",
+    "reviewSettingsButton": "Pārskatīt iestatījumus"
+  },
+  "settings": {
+    "heading": "Konfidencialitātes iestatījumi",
+    "confirmButton": "Apstiprināt"
+  },
+  "anonymous": {
+    "heading": "Anonīma lietojuma statistika",
+    "helpText": "Šie sīkfaili ļauj mums pārraudzīt lietotņu veiktspēju, piemēram, datplūsmas avotus, lapas skatījumus un mijiedarbību. Tie palīdz mums uzzināt, kāds saturs ir efektīvs un kā apmeklētāji pārvietojas pa lietotni. Visa savāktā informācija ir anonīma (netiek saglabāta personiski identificējama informācija). Ja neatļausiet šos sīkfailus, mēs nezināsim, ka esat apmeklējis mūsu lietotni vai mijiedarbojies ar to."
+  },
+  "necessary": {
+    "heading": "Stingri nepieciešamie sīkfaili",
+    "helpText": "Šie sīkfaili ir nepieciešami, lai lietotne darbotos, un tos nevar izslēgt mūsu sistēmās. Tie tiek iestatīti, reaģējot uz jūsu veiktajām darbībām, kas saistītas ar pakalpojumu pieprasījumu, piemēram, pieteikšanos jūsu kontā. Pārlūkprogrammu varat iestatīt tā, lai tā bloķētu šos sīkfailus vai par tiem brīdinātu, taču dažas lietotnes daļas var tikt ietekmētas. Visa savāktā informācija ir anonīma (netiek saglabāta personiski identificējama informācija)."
+  },
+  "thirdParty": {
+    "heading": "Trešo pušu izsekošana",
+    "helpText": "Šos sīkfailus var iestatīt trešās puses izsekošanas nodrošinātāji, kas konfigurēti šajā vietnē. Apmeklējuma laikā tie var apkopot mērķauditorijas atlases vai mārketinga informāciju par jums. Savākto informāciju var izmantot mērķiem ārpus šī pieteikuma. Ja neatļausiet šos sīkfailus, konfigurētie trešās puses izsekošanas nodrošinātāji nesaņems nekādu informāciju par jūsu apmeklējumu."
+  }
+}

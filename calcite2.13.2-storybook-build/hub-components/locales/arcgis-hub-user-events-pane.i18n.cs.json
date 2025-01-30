@@ -1,0 +1,29 @@
+{
+  "header": "Události",
+  "myContent": "Moje události",
+  "editableContent": "Editovatelný obsah",
+  "addEventButtonText": "Vytvořit událost",
+  "type": "Typ",
+  "sharedUpdate": "Skupina se sdílenými aktualizacemi",
+  "viewOnly": "Skupina pouze pro prohlížení",
+  "owner": "Vytvořil/a",
+  "starts": "Zapnuto",
+  "from": "Od",
+  "until": "Do",
+  "updated": "Aktualizováno",
+  "tags": "Klíčová slova",
+  "dateCreated": "Vytvořeno",
+  "dateUpdated": "Změněno",
+  "actionLinks": {
+    "view": "Zobrazit",
+    "edit": "Upravit",
+    "ariaEdit": "Upravit: {title}",
+    "ariaView": "Zobrazit: {title}"
+  },
+  "access": {
+    "label": "Přístup",
+    "PRIVATE": "Soukromé",
+    "ORG": "Organizace",
+    "PUBLIC": "Veřejné"
+  }
+}

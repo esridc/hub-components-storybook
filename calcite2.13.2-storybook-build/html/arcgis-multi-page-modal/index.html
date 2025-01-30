@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arcgis-multi-page-modal</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet" href="../calcite-web.min.css">
+</head>
+
+<body>
+  <div class="grid-container padding-leader-2">
+    <!-- docs about grid container: https://esri.github.io/calcite-web/documentation/grid/#grid -->
+    <div class="column-24 trailer-2 header">
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-multi-page-modal</h2>
+    </div>
+
+    <div class="column-24">
+      <calcite-button id="open-modal-button" scale="l">Open Modal</calcite-button>
+      <arcgis-wormhole>
+        <arcgis-multi-page-modal open id="arcgis-multi-page-modal-harness">
+          <div slot="header">What's New on Search?</div>
+          <arcgis-modal-page>
+            <div slot="page-title">Gallery View</div>
+            <div slot="page-content">
+              Your thumbnails: front and center. We’ve added a new gallery view for a more visual way to browse search results.
+              The traditional list is still available with the additional metadata fields and will be the default view when a
+              user comes to the search page.
+            </div>
+          </arcgis-modal-page>
+          <arcgis-modal-page>
+            <div slot="page-title">Enhanced Filters</div>
+            <div slot="page-content">
+              Filters now show the count of items, and categories reflect the nested hierarchy established in ArcGIS Online.
+            </div>
+          </arcgis-modal-page>
+          <arcgis-modal-page>
+            <div slot="page-title">Keeping Layers Together</div>
+            <div slot="page-content">
+              We are no longer splitting out layers as individual items. The search result count will now reflect the actual
+              number of items, not inflated by separate layers.
+            </div>
+          </arcgis-modal-page>
+          <arcgis-modal-page>
+            <div slot="page-title">Classic View</div>
+            <div slot="page-content">
+              This new search experience is in beta and we’re working to incorporate additional features, like autosuggest in
+              the search bar and source and license filters.
+            </div>
+          </arcgis-modal-page>
+        </arcgis-multi-page-modal>
+      </arcgis-wormhole>
+    </div>
+  </div>
+
+  <script>
+    // set a property on the element
+    function setProp(key, value) {
+      const el = document.querySelector("#arcgis-multi-page-modal-harness");
+      el[key] = value;
+    }
+
+    const openModalButton = document.querySelector('#open-modal-button');
+    openModalButton.addEventListener('click', () => setProp('open', true));
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+{
+  "section": "Usuń",
+  "protection": "Zapobiegnij przypadkowemu usunięciu tego elementu {type}.",
+  "protectionTooltip": "Etykieta narzędzia ochrony",
+  "protectionDisabledTooltip": "Tylko właściciele lub administratorzy instytucji mogą zmieniać ochronę.",
+  "deleteDisabledNoAccessTooltip": "Usuwać mogą tylko właściciele lub administratorzy instytucji.",
+  "deleteDisabledNoAccessTooltipGroup": "Usuwać mogą tylko właściciele, menedżerowie lub administratorzy instytucji.",
+  "deleteDisabledProtectedTooltip": "Nie można usunąć, gdy włączona jest ochrona przed usunięciem.",
+  "deleteButton": "Usuń",
+  "protect": {
+    "successTitle": "Dodano ochronę przed usunięciem",
+    "success": "Nie można usunąć, gdy włączona jest ochrona przed usunięciem.",
+    "successLabel": "Alert dotyczący dodania ochrony przed usunięciem.",
+    "errorTitle": "Nie można dodać ochrony przed usunięciem",
+    "error": "Wystąpił błąd podczas dodawania ochrony przed usunięciem.",
+    "errorLabel": "Alert dotyczący niepowodzenia ochrony przed usunięciem."
+  },
+  "unprotect": {
+    "successTitle": "Usunięto ochronę przed usunięciem",
+    "success": "Można usunąć, gdy ochrona przed usunięciem jest wyłączona.",
+    "successLabel": "Alert dotyczący usunięcia ochrony przed usunięciem.",
+    "errorTitle": "Nie można usunąć ochrony przed usunięciem",
+    "error": "Wystąpił błąd podczas usuwania ochrony przed usunięciem.",
+    "errorLabel": "Alert dotyczący niepowodzenia usunięcia ochrony przed usunięciem."
+  },
+  "delete": {
+    "successTitle": "Pomyślnie usunięto",
+    "success": "Przekierowanie do głównej przestrzeni roboczej",
+    "successLabel": "Alert dotyczący pomyślnego usunięcia.",
+    "errorTitle": "Nie udało się usunąć",
+    "error": "Wystąpiły problemy, spróbuj ponownie.",
+    "errorLabel": "Alert dotyczący nieudanego usunięcia."
+  },
+  "permanentDelete": {
+    "successTitle": "Udało się trwale usunąć",
+    "success": "Przekierowanie do głównej przestrzeni roboczej",
+    "successLabel": "Alert dotyczący pomyślnego usunięcia.",
+    "errorTitle": "Nie udało się usunąć",
+    "error": "Wystąpiły problemy, spróbuj ponownie.",
+    "errorLabel": "Alert dotyczący nieudanego usunięcia."
+  },
+  "deleteModal": {
+    "header": "Usuń",
+    "deleteContent": "Nie można cofnąć trwałego usunięcia. Czy na pewno chcesz kontynuować?",
+    "recycleContent": "Usunięta zawartość zostanie wysłana do kosza. Będziesz mieć 14 dni na jego odzyskanie.",
+    "delete": "Usuń",
+    "permanentlyDelete": "Trwale usuń",
+    "cancel": "Anuluj"
+  }
+}

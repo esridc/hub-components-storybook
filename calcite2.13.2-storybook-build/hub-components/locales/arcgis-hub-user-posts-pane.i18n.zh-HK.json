@@ -1,0 +1,43 @@
+{
+  "header": "討論",
+  "myContent": "我的事件",
+  "editableContent": "可編輯內容",
+  "addContentButtonText": "建立事件",
+  "type": "類型",
+  "sharedUpdate": "分享的更新群組",
+  "viewOnly": "僅檢視群組",
+  "owner": "擁有者",
+  "updated": "已更新",
+  "tags": "標記",
+  "dateCreated": "建立日期",
+  "dateUpdated": "已修改",
+  "actionLinks": {
+    "view": "檢視",
+    "edit": "編輯",
+    "ariaEdit": "編輯: {title}",
+    "ariaView": "檢視: {title}"
+  },
+  "facets": {
+    "content": {
+      "label": "事件",
+      "myContent": "我擁有的事件",
+      "editableContent": "我可以編輯的事件",
+      "all": "所有事件"
+    },
+    "access": {
+      "label": "從"
+    },
+    "type": {
+      "label": "類型"
+    },
+    "tags": {
+      "label": "標記"
+    },
+    "categories": {
+      "label": "類別"
+    },
+    "modified": {
+      "label": "已修改"
+    }
+  }
+}

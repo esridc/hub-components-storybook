@@ -1,0 +1,16 @@
+{
+  "all": "ทั้งหมด",
+  "source": "แหล่ง",
+  "targetEntity": {
+    "item": "รายการ",
+    "group": "กลุ่ม",
+    "user": "ผู้ใช้",
+    "portalUser": "ผู้ใช้ Portal",
+    "communityUser": "ผู้ใช้คอมมูนิตี้",
+    "groupMember": "สมาชิกกลุ่ม",
+    "event": "เหตุการณ์",
+    "channel": "แชนเนล",
+    "discussionPost": "โพสต์",
+    "eventAttendee": "ผู้ลงทะเบียนงานอีเวนท์"
+  }
+}

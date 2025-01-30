@@ -1,0 +1,29 @@
+{
+  "additionalInfo": {
+    "label": "İsteğe bağlı görüntü ayarları",
+    "helperText": "Kendi gizlilik açıklamanızı ve gizlilik bilgilerinizi ekleyin."
+  },
+  "allowPrivacyConfig": {
+    "label": "Gizlilik bildirimini görüntüle"
+  },
+  "blocking": {
+    "label": "Bildirim türü",
+    "optional": {
+      "label": "İzin isteğe bağlı",
+      "description": "Siteyi ziyaret eden kişi bir gizlilik izni seçmeden siteyi kullanabilir; takip hemen başlar ve ziyaretçi tarafından reddedilene kadar devam eder."
+    },
+    "required": {
+      "label": "İzin iste",
+      "description": "Siteyi ziyaret eden kişi siteyi kullanmak için takibi kabul veya reddetmelidir; takip, site ziyaretçisi tarafından kabul edilmediği sürece başlamaz."
+    }
+  },
+  "consentText": {
+    "label": "Gizlilik açıklaması",
+    "helperText": "Siteyi ziyaret edene gizlilik bildirimi içinde gösterilir."
+  },
+  "policyURL": {
+    "label": "Politika bağlantısı",
+    "helperText": "Gizlilik bildiriminde \"Daha fazla bilgi\" bağlantısı olarak gösterilir.",
+    "error": "Görüntülenmesi için geçerli bir URL olmalıdır."
+  }
+}

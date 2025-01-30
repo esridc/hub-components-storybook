@@ -1,0 +1,110 @@
+{
+  "controls": {
+    "addContent": "Agregar contenido",
+    "back": "Atrás",
+    "cancel": "Cancelar",
+    "close": "Listo",
+    "create": "Crear y agregar al grupo",
+    "next": "Siguiente"
+  },
+  "createHelpState": {
+    "discussion": {
+      "heading": "Debate",
+      "message": "Crear un panel de discusión nuevo introduciendo un título que indique el tema."
+    },
+    "event": {
+      "heading": "Evento",
+      "message": "Organizar una actividad, presencial o virtualmente."
+    },
+    "group": {
+      "heading": "Grupo",
+      "message": "Configurar un grupo para colaborar en contenido específico."
+    },
+    "initiative": {
+      "heading": "Iniciativa",
+      "message": "Organizar iniciativas y resumir los avances en la consecución de un objetivo."
+    },
+    "page": {
+      "heading": "Página",
+      "message": "La página es el lugar en el que compartir información e interactuar con el público."
+    },
+    "project": {
+      "heading": "Proyecto",
+      "message": "Destacar trabajo que tenga objetivos y plazos definidos."
+    },
+    "site": {
+      "heading": "Sitio",
+      "message": "Crear una página web para organizar y compartir información."
+    }
+  },
+  "selection": {
+    "unlimited": "Seleccionados: {count}",
+    "limited": "Seleccionado: {count} / {limit}"
+  },
+  "steps": {
+    "createContent": "Agregar información básica",
+    "selectContent": "Seleccionar contenido",
+    "selectGroups": "Seleccionar grupo",
+    "confirmation": "Confirmación",
+    "notImplemented": "Sin implementar"
+  },
+  "working": {
+    "heading": "Agregación de contenido seleccionado.",
+    "loadingLabel": "Agregación de contenido."
+  },
+  "failure": {
+    "heading": "Contenido no agregado",
+    "message": "Se ha producido un error al agregar el contenido seleccionado; inténtelo de nuevo.",
+    "action": "Volver a intentar"
+  },
+  "notImplemented": {
+    "heading": "Este flujo de trabajo todavía no se ha implementado."
+  },
+  "contentGallery": {
+    "facets": {
+      "access": {
+        "label": "De"
+      },
+      "type": {
+        "label": "Tipos"
+      },
+      "tags": {
+        "label": "Etiquetas"
+      },
+      "categories": {
+        "label": "Categorías"
+      },
+      "modified": {
+        "label": "Modificado"
+      }
+    }
+  },
+  "groupsGallery": {
+    "facets": {
+      "access": {
+        "label": "Visible para",
+        "options": {
+          "org": "Organización",
+          "public": "Todos (público)",
+          "private": "Yo"
+        }
+      },
+      "from": {
+        "label": "De",
+        "options": {
+          "myCommunity": "Mi comunidad",
+          "myGroups": "Mis grupos",
+          "myOrganization": "Mi organización",
+          "world": "Mundo"
+        }
+      },
+      "type": {
+        "label": "Tipos",
+        "options": {
+          "sharedUpdate": "Actualización compartida",
+          "opendata": "Open Data"
+        }
+      }
+    }
+  }
+}

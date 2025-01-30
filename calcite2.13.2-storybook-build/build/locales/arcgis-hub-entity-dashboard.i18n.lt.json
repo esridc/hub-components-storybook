@@ -1,0 +1,20 @@
+{
+  "dashboard": "Švieslentė",
+  "activityLogSection": {
+    "title": "Veiksmų žurnalas",
+    "table": {
+      "downloadAction": "Atsisiųsti",
+      "downloadAllAction": "Atsisiųsti viską",
+      "downloadActionTooltip": "Atsisiųsti pasirinktas veiklas",
+      "caption": "Naujausių klaidų lentelė",
+      "columnHeaders": {
+        "datetime": "Data",
+        "layer": "Sluoksnis",
+        "message": "Pranešimas"
+      },
+      "noRecentErrors": "Naujausių klaidų nėra",
+      "expandText": "Peržiūrėti daugiau",
+      "collapseText": "Peržiūrėti mažiau"
+    }
+  }
+}

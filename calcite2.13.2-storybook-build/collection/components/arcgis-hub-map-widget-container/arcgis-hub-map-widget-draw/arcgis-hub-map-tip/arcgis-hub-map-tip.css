@@ -1,0 +1,67 @@
+:host {
+
+    display: block
+}
+
+span {
+
+    margin: 0px;
+
+    width: auto;
+
+    border-radius: 0.5rem;
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(151 71 255 / var(--tw-bg-opacity));
+
+    padding: 0.5rem;
+
+    font-size: var(--calcite-font-size--1);
+
+    line-height: 1rem;
+
+    font-weight: var(--calcite-font-weight-medium);
+
+    --tw-text-opacity: 1;
+
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+
+    --tw-drop-shadow: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+
+    filter: var(--tw-filter)
+}
+
+span.danger {
+
+    background-color: var(--calcite-color-status-danger)
+}
+
+span.brand {
+
+    background-color: var(--calcite-color-brand)
+}
+
+span.info {
+
+    background-color: var(--calcite-color-status-info)
+}
+
+span.warning {
+
+    background-color: var(--calcite-color-status-warning)
+}
+
+span.success {
+
+    background-color: var(--calcite-color-status-success)
+}
+
+calcite-icon {
+
+    margin-right: 0.5rem;
+
+    vertical-align: sub
+}
+
+

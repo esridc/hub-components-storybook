@@ -1,0 +1,32 @@
+{
+  "actions": {
+    "register": "Registrarse",
+    "registered": "Registrados",
+    "join": "Unirse en línea",
+    "in-person": "Presencial",
+    "online": "En línea",
+    "inPersonFull": "Presencial (plazas agotadas)",
+    "onlineFull": "En línea (plazas agotadas)",
+    "close": "Cerrar"
+  },
+  "tooltip": {
+    "isCanceled": "Evento cancelado",
+    "eventHasEnded": "Evento finalizado",
+    "eventFull": "Evento con plazas agotadas",
+    "inPerson": "Inscrito en evento presencial",
+    "online": "Inscrito en evento en línea",
+    "unavailable": "Disponible una hora antes del comienzo del evento"
+  },
+  "alerts": {
+    "onlineRegistrationCanceled": "La inscripción en el evento en línea se ha cancelado correctamente",
+    "onlineRegistrationConfirmed": "La inscripción en el evento en línea se ha realizado correctamente",
+    "onlineRegistrationError": "Se produjo un error inesperado al inscribirse en el evento en línea",
+    "onlineRegistrationCanceledError": "Error inesperado al cancelar la inscripción en el evento en línea",
+    "onlineRegistrationAtCapacity": "Está intentando inscribirse en un evento en línea cuyas plazas se han agotado",
+    "inPersonRegistrationCanceled": "La inscripción en el evento presencial se ha cancelado correctamente",
+    "inPersonRegistrationCanceledError": "Error inesperado al cancelar la inscripción en el evento presencial",
+    "inPersonRegistrationConfirmed": "La inscripción en el evento presencial se ha realizado correctamente",
+    "inPersonRegistrationError": "Se produjo un error inesperado al inscribirse en el evento presencial",
+    "inPersonRegistrationAtCapacity": "Está intentando inscribirse en un evento presencial cuyas plazas se han agotado"
+  }
+}

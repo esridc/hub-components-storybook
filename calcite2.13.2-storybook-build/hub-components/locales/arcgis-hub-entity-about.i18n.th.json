@@ -1,0 +1,18 @@
+{
+  "about": "เกี่ยวกับ",
+  "metrics": "เมตริก",
+  "featuredContent": "เนื้อหาแนะนำ",
+  "details": "รายละเอียด",
+  "exploreMetrics": "สำรวจเมตริก",
+  "status": {
+    "label": {
+      "default": "สถานะ",
+      "project": "สถานะของโปรเจกต์",
+      "initiative": "สถานะโครงการริเริ่ม"
+    },
+    "notStarted": "ยังไม่เริ่ม",
+    "inProgress": "อยู่ระหว่างดำเนินการ",
+    "onHold": "ระงับชั่วคราว",
+    "complete": "เสร็จสมบูรณ์"
+  }
+}

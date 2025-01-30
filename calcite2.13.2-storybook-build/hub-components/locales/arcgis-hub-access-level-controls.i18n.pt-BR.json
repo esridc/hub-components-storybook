@@ -1,0 +1,16 @@
+{
+  "heading": "Nível de Compartilhamento",
+  "public": "Público",
+  "publicInfo": "Todos podem ver este {itemType}",
+  "organization": "Organização",
+  "organizationInfo": "Todos os membros com uma conta para {orgName} e grupos com podem visualizar este {itemType}",
+  "owner": "Proprietário",
+  "ownerInfo": "Proprietário e grupos com acesso podem visualizar este {itemType}",
+  "discussion": {
+    "publicInfo": "Qualquer pessoa pode visualizar este fórum de discussão",
+    "organization": "Minha organização",
+    "organizationInfo": "Todos os membros com uma conta {orgName} podem visualizar este fórum de discussão",
+    "owner": "Privado",
+    "ownerInfo": "O proprietário e os grupos selecionados podem visualizar este fórum de discussão"
+  }
+}

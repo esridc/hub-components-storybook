@@ -1,0 +1,41 @@
+{
+  "notice": {
+    "outdatedItem": {
+      "title": "Substituïu la iniciativa",
+      "message": "Aquesta targeta fa referència a un element obsolet. Seleccioneu-ne un altre perquè els usuaris el segueixin."
+    },
+    "missingFollowersGroup": {
+      "title": "Falta un grup de seguidors",
+      "message": "A aquest element li falta un grup de seguidors. Seleccioneu-ne un altre."
+    },
+    "noGroupAccess": {
+      "title": "Avís",
+      "message": "No teniu accés al grup de seguidors."
+    }
+  },
+  "selectContent": {
+    "title": "Contingut per seguir",
+    "facets": {
+      "sharing": "Ús compartit",
+      "catalog": {
+        "myContent": "El meu contingut",
+        "organization": "La meva organització"
+      }
+    }
+  },
+  "callToAction": {
+    "title": "Crida a l'acció",
+    "helperText": "La crida a l'acció es mostra a sobre del botó de seguiment.",
+    "alignment": "Alineació"
+  },
+  "followButton": {
+    "title": "Botó de seguiment",
+    "helperText": "Aquest botó permetrà als membres seguir o deixar de seguir el vostre contingut. Es pot definir el text de tots dos estats del botó.",
+    "buttonText": "Text del botó d'activació",
+    "unfollowButtonText": "Text del botó de desactivació",
+    "alignment": "Alineació",
+    "buttonStyle": "Estil del botó",
+    "solid": "Fons llis",
+    "outline": "Contorn"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "managePrivacyButton": "Upravljanje privatnosti",
+  "consentNotice": {
+    "allTracking": "Ovo je web-mjesto napravljeno s ArcGIS Hubom i koristi anonimno praćenje za poboljšanje izvedbe i analizu upotrebe web-mjesta u skladu s Esrijevom izjavom o privatnosti. Dodatni sustavi praćenja trećih strana mogu nadzirati vaše korištenje web-mjesta.",
+    "anonymousTracking": "Ovo je web-mjesto napravljeno s ArcGIS Hubom i koristi anonimno praćenje za poboljšanje izvedbe i analizu upotrebe web-mjesta u skladu s Esrijevom izjavom o privatnosti.",
+    "noTracking": "Ovo je web-mjesto napravljeno s ArcGIS Hubom i koristi samo kolačiće koji su neophodni za rad aplikacije i ne mogu se isključiti u našim sustavima.",
+    "thirdPartyTracking": "Ovo je web-mjesto napravljeno s ArcGIS Hubom i koristi samo kolačiće koji su neophodni za rad aplikacije i ne mogu se isključiti u našim sustavima. Dodatni sustavi praćenja trećih strana mogu nadzirati vaše korištenje web-mjesta."
+  },
+  "consent": {
+    "esriPrivacyLink": "Esri centar za privatnost",
+    "customerConsentLink": "Više informacija"
+  },
+  "eueiNotice": {
+    "title": "{orgName} članovi neće biti praćeni",
+    "message": "Program Esri User Experience Improvement (EUEI) onemogućen je na {orgName}. Aktivnost povezana s vašim posjetom neće se pratiti; ne možete prihvatiti anonimnu statistiku korištenja ili praćenje treće strane.",
+    "link": "Saznajte više o programu (EUEI)."
+  },
+  "notice": {
+    "heading": "Postavke privatnosti",
+    "acceptAllButton": "Prihvati sve kolačiće",
+    "acceptNecessaryButton": "Prihvati samo neophodne kolačiće",
+    "confirmButton": "Potvrdi",
+    "reviewSettingsButton": "Pregledaj postavke"
+  },
+  "settings": {
+    "heading": "Postavke privatnosti",
+    "confirmButton": "Potvrdi"
+  },
+  "anonymous": {
+    "heading": "Anonimna statistika upotrebe",
+    "helpText": "Ovi kolačići omogućuju nam praćenje performansi aplikacije, kao što su izvori prometa, prikazi stranica i interakcije. Oni nam pomažu da znamo koji je sadržaj učinkovit i kako se posjetitelji kreću kroz aplikaciju. Sve prikupljene informacije su anonimne (ne pohranjuju se osobni podaci). Ako ne dopustite ove kolačiće, nećemo znati da ste posjetili ili stupili u interakciju s našom aplikacijom."
+  },
+  "necessary": {
+    "heading": "Strogo neophodni kolačići",
+    "helpText": "Ovi su kolačići nužni za rad aplikacije i ne mogu se isključiti u našim sustavima. Postavljaju se kao odgovor na vaše radnje koje uključuju zahtjev za uslugama, kao što je prijava na vaš račun. Možete postaviti svoj preglednik da blokira ili vas upozori na ove kolačiće, ali to može utjecati na neke dijelove aplikacije. Sve prikupljene informacije su anonimne (ne pohranjuju se osobni podaci)."
+  },
+  "thirdParty": {
+    "heading": "Praćenje treće strane",
+    "helpText": "Ove kolačiće mogu postaviti davatelji usluga praćenja trećih strana koji su konfigurirani na ovom web-mjestu. Mogu prikupljati ciljane ili marketinške informacije o vama tijekom vašeg posjeta. Prikupljene informacije mogu se koristiti u svrhe izvan ove aplikacije. Ako ne dopustite ove kolačiće, konfigurirani pružatelji usluga praćenja trećih strana neće primiti nikakve informacije o vašem posjetu."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "notice": {
+    "outdatedItem": {
+      "title": "Substituir sua iniciativa",
+      "message": "Este cartão faz referência a um item desatualizado. Selecione outro item para os usuários seguirem."
+    },
+    "missingFollowersGroup": {
+      "title": "Grupo de seguidores ausente",
+      "message": "Este item está sem um grupo de seguidores. Selecione outro item."
+    },
+    "noGroupAccess": {
+      "title": "Atenção",
+      "message": "Você não tem acesso ao grupo de seguidores."
+    }
+  },
+  "selectContent": {
+    "title": "Conteúdo para seguir",
+    "facets": {
+      "sharing": "Compartilhamento",
+      "catalog": {
+        "myContent": "Meu conteúdo",
+        "organization": "Minha organização"
+      }
+    }
+  },
+  "callToAction": {
+    "title": "Chamada para ação",
+    "helperText": "A frase para ação aparece acima do botão de seguir.",
+    "alignment": "Alinhamento"
+  },
+  "followButton": {
+    "title": "Botão Seguir",
+    "helperText": "Este botão permitirá que os membros sigam ou deixem de seguir seu conteúdo. O texto pode ser definido para ambos os estados do botão.",
+    "buttonText": "Texto do botão de aceitação",
+    "unfollowButtonText": "Texto do botão de cancelamento",
+    "alignment": "Alinhamento",
+    "buttonStyle": "Estilo do botão",
+    "solid": "Plano de fundo sólido",
+    "outline": "Contorno"
+  }
+}

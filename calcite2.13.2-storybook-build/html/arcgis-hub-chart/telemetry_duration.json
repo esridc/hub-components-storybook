@@ -1,0 +1,236 @@
+{
+    "type": "sparkline",
+    "datasets": [
+      {
+        "data": {
+            "features": [
+                {
+                  "attributes": {
+                    "timestamp": 1681358399999,
+                    "avgSessionDuration": 1.0,
+                    "OBJECTID": 593237476
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1681444799999,
+                    "avgSessionDuration": 0.8,
+                    "OBJECTID": 21301905
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1681531199999,
+                    "avgSessionDuration": 3.4,
+                    "OBJECTID": 2003859927
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1681617599999,
+                    "avgSessionDuration": 0.0,
+                    "OBJECTID": 745241891
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1681703999999,
+                    "avgSessionDuration": 0.0,
+                    "OBJECTID": 822760283
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1681790399999,
+                    "avgSessionDuration": 2.1,
+                    "OBJECTID": 2018535063
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1681876799999,
+                    "avgSessionDuration": 6.0,
+                    "OBJECTID": 797901321
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1681963199999,
+                    "avgSessionDuration": 7.6,
+                    "OBJECTID": 563976363
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1682049599999,
+                    "avgSessionDuration": 0.0,
+                    "OBJECTID": 333560473
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1682135999999,
+                    "avgSessionDuration": 8.6,
+                    "OBJECTID": 312762819
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1682222399999,
+                    "avgSessionDuration": 0.7,
+                    "OBJECTID": 186869131
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1682308799999,
+                    "avgSessionDuration": 0.0,
+                    "OBJECTID": 1387605311
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1682395199999,
+                    "avgSessionDuration": 7.2,
+                    "OBJECTID": 1994345567
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1682481599999,
+                    "avgSessionDuration": 2.9,
+                    "OBJECTID": 122404609
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1682567999999,
+                    "avgSessionDuration": 0.3,
+                    "OBJECTID": 2002534196
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1682654399999,
+                    "avgSessionDuration": 5.1,
+                    "OBJECTID": 63473637
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1682740799999,
+                    "avgSessionDuration": 6.8,
+                    "OBJECTID": 905670625
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1682827199999,
+                    "avgSessionDuration": 0.9,
+                    "OBJECTID": 2052653693
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1682913599999,
+                    "avgSessionDuration": 0.4,
+                    "OBJECTID": 1553607997
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1682999999999,
+                    "avgSessionDuration": 0.1,
+                    "OBJECTID": 2023684654
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1683086399999,
+                    "avgSessionDuration": 0.1,
+                    "OBJECTID": 882806814
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1683172799999,
+                    "avgSessionDuration": 12.6,
+                    "OBJECTID": 758066033
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1683259199999,
+                    "avgSessionDuration": 0.7,
+                    "OBJECTID": 761613488
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1683345599999,
+                    "avgSessionDuration": 0.1,
+                    "OBJECTID": 211575372
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1683431999999,
+                    "avgSessionDuration": 0.0,
+                    "OBJECTID": 1007160032
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1683518399999,
+                    "avgSessionDuration": 0.0,
+                    "OBJECTID": 1876581757
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1683604799999,
+                    "avgSessionDuration": 1.7,
+                    "OBJECTID": 1649415430
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1683691199999,
+                    "avgSessionDuration": 2.1,
+                    "OBJECTID": 309328394
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1683777599999,
+                    "avgSessionDuration": 0.1,
+                    "OBJECTID": 392943778
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1683863999999,
+                    "avgSessionDuration": 2.6,
+                    "OBJECTID": 1658221499
+                  }
+                },
+                {
+                  "attributes": {
+                    "timestamp": 1683950399999,
+                    "avgSessionDuration": 0.0,
+                    "OBJECTID": 1525490596
+                  }
+                }
+              ]
+        }
+      }
+  ],
+  "series": [
+    {
+      "category": {"field": "timestamp", "label": "Day", "type": "timestamp"},
+      "value": { "field": "avgSessionDuration", "label": "Session Duration", "type": "number" }
+    }
+  ]
+  }
+  
+  

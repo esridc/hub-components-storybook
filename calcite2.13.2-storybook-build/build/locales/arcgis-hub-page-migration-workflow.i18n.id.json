@@ -1,0 +1,46 @@
+{
+  "heading": "Informasi halaman",
+  "form": {
+    "title": {
+      "label": "Nama halaman",
+      "requiredError": "Nama diperlukan",
+      "entityTitleValidatorError": "Nama halaman tidak boleh menyertakan karakter emoji, <, >, atau ="
+    },
+    "slug": {
+      "label": "Slug",
+      "helperText": "Slug adalah versi nama halaman yang ramah URL. Slug dibuat otomatis berdasarkan nama halaman, tetapi Anda bisa menyesuaikannya.",
+      "patternError": "Kesalahan: Slug harus berupa karakter alfanumerik huruf kecil yang dipisahkan oleh tanda hubung.",
+      "isUniqueError": "Slug ini sudah digunakan. Harap pilih yang lain.",
+      "requiredError": "Slug diperlukan."
+    }
+  },
+  "controls": {
+    "back": "Kembali",
+    "cancel": "Batalkan",
+    "close": "Selesai",
+    "migrate": "Migrasikan halaman",
+    "next": "Selanjutnya"
+  },
+  "selection": {
+    "unlimited": "{count} dipilih",
+    "limited": "{count} / {limit} dipilih"
+  },
+  "steps": {
+    "specifyInfo": "Tambahkan informasi dasar",
+    "selectGroups": "Pilih grup",
+    "confirmation": "Konfirmasi"
+  },
+  "working": {
+    "heading": "Memigrasikan halaman.",
+    "loadingLabel": "Memigrasikan halaman"
+  },
+  "success": {
+    "heading": "Halaman dimigrasikan",
+    "message": "Halaman berhasil dimigrasikan."
+  },
+  "failure": {
+    "heading": "Halaman tidak dimigrasikan",
+    "message": "Ada kesalahan saat memigrasikan halaman, harap coba lagi.",
+    "action": "Coba lagi"
+  }
+}

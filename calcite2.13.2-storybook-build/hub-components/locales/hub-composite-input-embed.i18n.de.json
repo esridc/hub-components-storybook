@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "Eigene Inhalte",
+    "livingAtlas": "Living Atlas",
+    "organization": "Eigene Organisation",
+    "world": "Welt (öffentlich)"
+  },
+  "collection": {
+    "appsAndMaps": "Apps und Karten",
+    "feedback": "Feedback"
+  },
+  "facets": {
+    "type": "Typ",
+    "tags": "Tags",
+    "categories": "Kategorien",
+    "modified": "Geändert"
+  },
+  "pickerTitle": "Inhalt auswählen",
+  "height": "Höhe (px)",
+  "isScrollable": "Scrollfähig",
+  "errors": {
+    "heightMinimum": "Wert muss eine positive Zahl sein.",
+    "heightMaximum": "Wert muss kleiner als oder gleich 2.000 px sein.",
+    "urlError": "Muss eine gültige URL sein."
+  },
+  "success": {
+    "urlSuccess": "URL erfolgreich geladen."
+  },
+  "shouldApplyBreakpoints": {
+    "label": "Einstellungen stattdessen über Gerätehaltepunkte festlegen"
+  },
+  "viewportAll": {
+    "label": "Standard",
+    "description": "Einstellungen für alle Bildschirmgrößen"
+  },
+  "viewportMobile": {
+    "label": "Mobil",
+    "description": "Einstellungen für Bildschirme mit einer Breite von mindestens 360 px"
+  },
+  "viewportTablet": {
+    "label": "Tablet",
+    "description": "Einstellungen für Bildschirme mit einer Breite von mindestens 560 px"
+  },
+  "viewportDesktop": {
+    "label": "Desktop",
+    "description": "Einstellungen für Bildschirme mit einer Breite von mindestens 980 px"
+  },
+  "sourceLabel": "Einbettungstyp auswählen",
+  "contentLabel": "ArcGIS-Inhalt",
+  "externalLabel": "Externe URL",
+  "contentDescription": "Wählen Sie aus den für Sie verfügbaren vorhandenen Karten, Szenen, Anwendungen, Surveys und Links zu Dokumenten aus.",
+  "externalDescription": "Geben Sie eine einzubettende URL ein. Beachten Sie, dass einige Domänen keine Einbettung zulassen und möglicherweise nicht wie erwartet angezeigt werden."
+}

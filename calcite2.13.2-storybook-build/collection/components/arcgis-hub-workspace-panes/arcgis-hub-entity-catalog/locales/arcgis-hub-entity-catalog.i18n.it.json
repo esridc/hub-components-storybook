@@ -1,0 +1,65 @@
+{
+  "catalog": "Catalogo",
+  "catalog-content": "Contenuto",
+  "catalog-events": "Eventi",
+  "shared": {
+    "publish": {
+      "label": "Salva",
+      "success": {
+        "title": "Pubblicate con successo le modifiche al catalogo nella vista in tempo reale"
+      },
+      "error": {
+        "title": "Errore durante il salvataggio delle modifiche"
+      }
+    }
+  },
+  "emptyState": {
+    "message": "Nessun catalogo definito",
+    "action": "Crea un catalogo"
+  },
+  "actionBar": {
+    "details": "Configurazione catalogo",
+    "appearance": "Aspetto catalogo",
+    "tooltip": {
+      "appearanceDisabled": "Nessun catalogo è attualmente configurato. Configurare un catalogo per regolare le impostazioni di aspetto.",
+      "configuration": "Configurazione",
+      "appearance": "Aspetto"
+    }
+  },
+  "detailsPanel": {
+    "heading": "Configurazione catalogo",
+    "close": "Chiudi configurazione catalogo",
+    "catalogBuilder": {
+      "helperText": "Il catalogo consente ai visitatori di cercare e visualizzare contenuto. I risultati visualizzati si basano sulla tua configurazione dell'interrogazione."
+    },
+    "querySizeNotice": {
+      "warning": {
+        "title": "Limite catalogo in avvicinamento",
+        "catalogSourceMessage": {
+          "item": "La configurazione dell'origine elemento sta raggiungendo il limite di dimensione.",
+          "event": "La configurazione dell'origine evento sta raggiungendo il limite di dimensione."
+        },
+        "collectionSourceMessage": {
+          "item": "La combinazione di configurazione origine elemento e raccolta \"{collectionName}\" ha superato il limite di dimensione.",
+          "event": "La combinazione di configurazione origine evento e raccolta \"{collectionName}\" ha superato il limite di dimensione."
+        }
+      },
+      "danger": {
+        "title": "Limite catalogo superato",
+        "catalogSourceMessage": {
+          "item": "La configurazione dell'origine elemento ha superato il limite di dimensione. Ridurre il numero di filtri e/o opzioni di filtro nell'origine elemento da pubblicare.",
+          "event": "La configurazione dell'origine evento ha superato il limite di dimensione. Ridurre il numero di filtri e/o opzioni di filtro nell'origine evento da pubblicare."
+        },
+        "collectionSourceMessage": {
+          "item": "La combinazione di configurazione origine elemento e raccolta \"{collectionName}\" ha superato il limite di dimensione. Ridurre il numero di filtri e/o opzioni di filtro nell'origine elemento e/o raccolta \"{collectionName}\" da pubblicare.",
+          "event": "La combinazione di configurazione origine evento e raccolta \"{collectionName}\" ha superato il limite di dimensione. Ridurre il numero di filtri e/o opzioni di filtro nell'origine evento e/o raccolta \"{collectionName}\" da pubblicare."
+        }
+      }
+    }
+  },
+  "appearancePanel": {
+    "heading": "Aspetto catalogo",
+    "close": "Chiudi aspetto catalogo",
+    "description": "Il catalogo consente ai visitatori di cercare e visualizzare contenuto. Qui è possibile aggiornare l'aspetto del catalogo predefinito e quali filtri si desidera visualizzare."
+  }
+}

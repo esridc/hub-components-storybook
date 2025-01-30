@@ -1,0 +1,18 @@
+{
+  "about": "關於",
+  "metrics": "指標",
+  "featuredContent": "特色內容",
+  "details": "詳細資訊",
+  "exploreMetrics": "探索指標",
+  "status": {
+    "label": {
+      "default": "狀態",
+      "project": "專案狀態",
+      "initiative": "倡議狀態"
+    },
+    "notStarted": "未啟動",
+    "inProgress": "進行中",
+    "onHold": "保留中",
+    "complete": "完成"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "section": "Löschen",
+  "protection": "Verhindern Sie, dass dieses Element ({type}) versehentlich gelöscht wird.",
+  "protectionTooltip": "Löschschutz-QuickInfo",
+  "protectionDisabledTooltip": "Nur Besitzer oder Organisationsadministratoren können den Löschschutz ändern.",
+  "deleteDisabledNoAccessTooltip": "Nur Besitzer oder Organisationsadministratoren können Elemente löschen.",
+  "deleteDisabledNoAccessTooltipGroup": "Nur Besitzer, Manager oder Organisationsadministratoren können Elemente löschen.",
+  "deleteDisabledProtectedTooltip": "Bei aktiviertem Löschschutz können Sie das Element nicht löschen.",
+  "deleteButton": "Löschen",
+  "protect": {
+    "successTitle": "Löschschutz hinzugefügt",
+    "success": "Bei aktiviertem Löschschutz können Sie das Element nicht löschen.",
+    "successLabel": "Warnung über Hinzufügen des Löschschutzes.",
+    "errorTitle": "Löschschutz kann nicht hinzugefügt werden.",
+    "error": "Beim Hinzufügen des Löschschutzes ist ein Fehler aufgetreten.",
+    "errorLabel": "Warnung über fehlgeschlagenes Hinzufügen des Löschschutzes."
+  },
+  "unprotect": {
+    "successTitle": "Löschschutz entfernt",
+    "success": "Bei deaktiviertem Löschschutz können Sie das Element löschen.",
+    "successLabel": "Warnung über Entfernen des Löschschutzes.",
+    "errorTitle": "Löschschutz kann nicht entfernt werden.",
+    "error": "Beim Entfernen des Löschschutzes ist ein Fehler aufgetreten.",
+    "errorLabel": "Warnung über fehlgeschlagenes Entfernen des Löschschutzes."
+  },
+  "delete": {
+    "successTitle": "Löschen erfolgreich",
+    "success": "Weiterleitung zum Home-Workspace",
+    "successLabel": "Warnung über erfolgreiches Löschen.",
+    "errorTitle": "Löschen fehlgeschlagen",
+    "error": "Ein Fehler ist aufgetreten. Versuchen Sie es erneut.",
+    "errorLabel": "Warnung über fehlgeschlagenes Löschen."
+  },
+  "permanentDelete": {
+    "successTitle": "Dauerhaftes Löschen erfolgreich",
+    "success": "Weiterleitung zum Home-Workspace",
+    "successLabel": "Warnung über erfolgreiches Löschen.",
+    "errorTitle": "Löschen fehlgeschlagen",
+    "error": "Ein Fehler ist aufgetreten. Versuchen Sie es erneut.",
+    "errorLabel": "Warnung über fehlgeschlagenes Löschen."
+  },
+  "deleteModal": {
+    "header": "Löschen",
+    "deleteContent": "Dauerhaftes Löschen kann nicht rückgängig gemacht werden. Möchten Sie wirklich fortfahren?",
+    "recycleContent": "Gelöschte Inhalte werden in den Papierkorb verschoben. Sie können diese innerhalb von 14 Tagen wiederherstellen.",
+    "delete": "Löschen",
+    "permanentlyDelete": "Dauerhaft löschen",
+    "cancel": "Abbrechen"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "Editar grupos",
+        "viewGroups": "Ver grupos"
+      },
+      "facet": {
+        "label": "De",
+        "myGroups": "Os meus grupos",
+        "myOrganization": "A minha organização",
+        "myCommunity": "A minha comunidade"
+      }
+    }
+  },
+  "property": {
+    "label": "Parâmetro",
+    "requiredError": "O parâmetro é obrigatório"
+  },
+  "operator": {
+    "label": "Critérios",
+    "requiredError": "Os critérios são obrigatórios"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "Tipo"
+    },
+    "group": {
+      "default": "Grupos"
+    },
+    "occurrence": {
+      "default": "Ocorrência"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "É algum de",
+      "group": "É partilhado com qualquer um de"
+    },
+    "isAll": {
+      "default": "É tudo de",
+      "group": "É partilhado com todos de"
+    },
+    "isExactly": {
+      "default": "É exatamente",
+      "occurrence": "É"
+    },
+    "isNot": {
+      "default": "Não é",
+      "type": "Não é nenhum de",
+      "group": "Não é partilhado com nenhum de"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "Grupos",
+      "requiredError": "Os grupos são obrigatórios"
+    },
+    "type": {
+      "label": "Tipos",
+      "requiredError": "Os tipos são obrigatórios",
+      "app": {
+        "label": "Aplicações"
+      },
+      "content": {
+        "label": "Conteúdos"
+      },
+      "dataset": {
+        "label": "Conjuntos de dados"
+      },
+      "discussion": {
+        "label": "Discussões"
+      },
+      "document": {
+        "label": "Documentos"
+      },
+      "event": {
+        "label": "Eventos"
+      },
+      "feedback": {
+        "label": "Feedback"
+      },
+      "initiative": {
+        "label": "Iniciativas"
+      },
+      "map": {
+        "label": "Mapas"
+      },
+      "project": {
+        "label": "Projetos"
+      },
+      "site": {
+        "label": "Sites"
+      },
+      "template": {
+        "label": "Modelos"
+      }
+    },
+    "occurrence": {
+      "label": "Ocorrência",
+      "requiredError": "A ocorrência é obrigatória",
+      "upcoming": "Eventos futuros",
+      "past": "Anteriores",
+      "inProgress": "Em curso"
+    }
+  }
+}

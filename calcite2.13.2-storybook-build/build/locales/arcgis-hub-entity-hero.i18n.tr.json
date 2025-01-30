@@ -1,0 +1,11 @@
+{
+  "actions": {
+    "register": "Kaydet"
+  },
+  "tooltip": {
+    "register": {
+      "isCancelled": "Etkinlik iptal edildi",
+      "eventHasEnded": "Etkinlik sona erdi"
+    }
+  }
+}

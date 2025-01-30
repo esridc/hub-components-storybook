@@ -1,0 +1,46 @@
+{
+  "title": "Konfigurácia katalógu",
+  "helperText": "Definovať a konfigurovať katalóg",
+  "sections": {
+    "groups": {
+      "title": "Skupiny",
+      "helperText": "Nižšie uvedené skupiny obsahujú obsah vo vašom katalógu vyhľadávania. Výberom skupiny zobrazíte nastavenia, obsah a ďalšie informácie.",
+      "createGroup": "Vytvoriť novú skupinu"
+    },
+    "feeds": {
+      "title": "Konfigurácia kanálov",
+      "helperText": "Zjednodušte prístup k verejným otvoreným dátam a umožnite ich používanie pomocou Hub kanálov.",
+      "learn": "Dozvedieť sa o Hub kanáloch",
+      "toggle": "Povoliť kanály ",
+      "configure": "Konfigurovať kanály",
+      "notice": "Na povolenie kanálov potrebujete predovšetkým v nastaveniach nastaviť vaše Hub lokality na \"Verejné\"."
+    }
+  },
+  "groupPickerFacet": {
+    "label": "Od",
+    "editGroups": "Upraviť skupiny",
+    "viewGroups": "Zobraziť skupinu",
+    "myGroups": "Moje skupiny",
+    "myOrganization": "Moja organizácia",
+    "myCommunity": "Moja komunita",
+    "public": "Verejné"
+  },
+  "formAlert": "Upozornenie na formulár",
+  "configSaveAlert": {
+    "success": "Úpravy úspešne uložené",
+    "failure": "Chyba pri ukladaní úprav"
+  },
+  "reharvestCatalogButton": "Skontrolovať chyby",
+  "reharvestWarningModal": {
+    "title": "Skontrolovať chyby",
+    "body1": "Varovanie: Táto možnosť sa vo všeobecnosti používa len v situáciách, keď sa stránka vyhľadávania stretáva s problémami s chýbajúcimi výsledkami alebo metadátami. Táto možnosť skontroluje všetky položky vo všetkých skupinách katalógu na pridanie, zmenu metadát alebo odstránenie.",
+    "body2": "Spustenie tohto procesu obnoví verejný vyhľadávací index tohto katalógu a môže trvať niekoľko minút. Tým sa zvýši zaťaženie všetkých inštancií servera ArcGIS Server.",
+    "primaryButton": "Pokračovať",
+    "secondaryButton": "Zrušiť"
+  },
+  "reharvestCatalogAlert": {
+    "success": "Kontrolovanie chýb. Prosím, vráťte sa neskôr.",
+    "inProgress": "Kontrola už prebieha. Vráťte sa, prosím, neskôr.",
+    "failure": "Ospravedlňujeme sa, došlo k prevádzkovej chybe. Skúste to opäť neskôr."
+  }
+}

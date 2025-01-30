@@ -1,0 +1,165 @@
+{
+  "advancedConfig": {
+    "label": "Erweiterte Konfiguration",
+    "serverTimeout": {
+      "label": "Server-Timeout (Sekunden)",
+      "helperText": "Nützlich für größere Services, bei denen es ggf. länger dauert, bis Sie eine Antwort erhalten.",
+      "errors": {
+        "type": "Geben Sie eine Server-Timeout-Konfiguration ein.",
+        "minimum": "Der Wert für den Server-Timeout muss mindestens 5 betragen.",
+        "maximum": "Der Wert für den Server-Timeout darf höchstens 95 betragen."
+      }
+    }
+  },
+  "appearance": {
+    "corners": {
+      "label": "Ecken",
+      "enum": {
+        "round": {
+          "label": "Rund"
+        },
+        "square": {
+          "label": "Quadrat"
+        }
+      }
+    },
+    "dropShadow": {
+      "label": "Schummerung",
+      "enum": {
+        "heavy": {
+          "label": "Stark"
+        },
+        "low": {
+          "label": "Niedrig"
+        },
+        "medium": {
+          "label": "Mittel"
+        },
+        "none": {
+          "label": "Nicht gestartet"
+        }
+      }
+    },
+    "layout": {
+      "label": "Kachel-Style",
+      "enum": {
+        "informational": {
+          "label": "Informativ"
+        },
+        "simple": {
+          "label": "Einfach"
+        }
+      }
+    },
+    "popoverText": {
+      "label": "Modaler Inhalt"
+    },
+    "publisherText": {
+      "label": "Publisher der Quelle"
+    },
+    "styleSpecificSettings": {
+      "label": "Style-Einstellungen",
+      "helperInfoText": "Bei Auswahl der Informationsschaltfläche wird eine modale Registerkarte mit weiteren Informationen geöffnet.",
+      "helperVizText": "Die einfache Kachel unterstützt das Hinzufügen eines Symbols als Visualisierungselement, das verwendet werden kann, um Datenänderungen anzuzeigen."
+    },
+    "sectionTitle": "Aussehen",
+    "textAlign": "Ausrichtung",
+    "visualInterest": {
+      "label": "Visualisierungselement",
+      "enum": {
+        "icon": {
+          "label": "Symbol"
+        },
+        "none": {
+          "label": "Keine"
+        }
+      }
+    },
+    "icon": {
+      "label": "Symbol",
+      "caretUp": {
+        "label": "Vergrößern"
+      },
+      "caretDown": {
+        "label": "Verkleinern"
+      },
+      "caretDouble": {
+        "label": "Keine Änderung"
+      }
+    },
+    "valueColor": "Farbe (Statistik)"
+  },
+  "details": {
+    "allowDynamicLink": "Quellen-Link anzeigen",
+    "link": {
+      "sectionTitle": "Link",
+      "sourceLink": "Link-URL",
+      "sourceTitle": "Link-Text"
+    },
+    "sectionTitle": "Details",
+    "subtitle": "Untertitel",
+    "title": "Titel",
+    "trailingText": {
+      "label": "Nachgestellter Text",
+      "helperText": "Geben Sie zusätzlichen Kontext oder eine Erläuterung ein (der Text wird unter dem Kennwert angezeigt)."
+    }
+  },
+  "errors": {
+    "sourceLink": {
+      "required": "Zum Anzeigen der Quelle ist ein Link erforderlich.",
+      "formatError": "URL-Formatierung ist falsch"
+    }
+  },
+  "formatting": {
+    "sectionTitle": "Formatierung",
+    "unit": {
+      "label": "Anzeigeeinheiten",
+      "helperText": "Die Maßeinheit für den Wert eingeben."
+    },
+    "unitPosition": {
+      "label": "Platzierung",
+      "helperText": "Geben Sie an, ob die Maßeinheit (z. B. 'km', 'lbs') zusammen mit dem Kennwert angezeigt wird.",
+      "enum": {
+        "after": {
+          "label": "Nach"
+        },
+        "before": {
+          "label": "Vor"
+        },
+        "below": {
+          "label": "Unterhalb"
+        }
+      }
+    }
+  },
+  "sharing": {
+    "sectionTitle": "Freigeben",
+    "showShareIcon": "Freigabe aktivieren",
+    "showShareIconHelperText": "Kopieren eines direkten Links zu dieser Kachel auf dieser Seite durch Benutzer zulassen.",
+    "shareableByValue": "Einbettungen aktivieren",
+    "shareableOnHover": {
+      "label": "Beim Daraufzeigen anzeigen",
+      "helperText": {
+        "label": "Die Schaltfläche \"Freigeben\" wird nur beim Daraufzeigen angezeigt. Wenn diese Option deaktiviert ist, ist die Schaltfläche immer sichtbar."
+      }
+    }
+  },
+  "statistic": {
+    "dataSource": "Datenquelle",
+    "displayValue": "Anzeigewert",
+    "sectionTitle": "Wert",
+    "type": {
+      "label": "Typ",
+      "enum": {
+        "dynamic": {
+          "label": "Dynamisch",
+          "description": "Ein vorhandenes Dataset (Feature-Service) zum Zusammenfassen auswählen."
+        },
+        "static": {
+          "label": "Statisch",
+          "description": "Manuell einen Wert für die Hervorhebung im Layout eingeben."
+        }
+      }
+    }
+  }
+}

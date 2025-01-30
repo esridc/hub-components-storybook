@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>arcgis-hub-rich-text</title>
+
+    <style>
+      body {
+        background-color: #ccc;
+        padding: 1rem;
+      }
+      body > section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 0.5rem;
+        row-gap: 0.5rem;
+        padding: 0.5rem;
+      }
+      arcgis-hub-rich-text {
+        margin-bottom: 1rem;
+      }
+    </style>
+    <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+    <link rel="stylesheet" href="../calcite-web.min.css" />
+    <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+    <script type="module" src="../../build/hub-components.esm.js"></script>
+    <script nomodule src="../../build/hub-components.js"></script>
+    <script src="https://unpkg.com/@esri/arcgis-rest-request@3.4.3/dist/umd/request.umd.min.js"></script>
+    <script src="https://unpkg.com/@esri/arcgis-rest-auth@3.4.3/dist/umd/auth.umd.min.js"></script>
+  </head>
+
+  <body>
+    <arcgis-app-identity client-id="EF9uxuFlOrgf7WpI" redirect-uri="http://localhost:3333/html/redirect.html" portal="https://qaext.arcgis.com"> </arcgis-app-identity>
+    <div>
+      <calcite-button onClick="signIn()">Sign In</calcite-button>
+      <calcite-button onClick="signOut()">Sign Out</calcite-button>
+      <div id="userinfo"></div>
+    </div>
+    <script>
+      function signIn() {
+        const evt = new CustomEvent('arcgisAppIdentityStartSignIn');
+        document.dispatchEvent(evt);
+      }
+      function signOut() {
+        const evt = new CustomEvent('arcgisAppIdentityStartSignOut');
+        document.dispatchEvent(evt);
+      }
+
+      document.addEventListener('arcgisAppIdentitySignedIn', evt => {
+        setProp('context', evt.detail);
+        showUserInfo(evt.detail.session);
+      });
+
+      document.addEventListener('arcgisAppIdentitySignedOut', evt => {
+        setProp('context', evt.detail);
+        showUserInfo(evt.detail.session);
+      });
+
+      function showUserInfo(session) {
+        const el = document.getElementById('userinfo');
+        if (session) {
+          el.innerText = `User ${session.username} authenticated`;
+        } else {
+          el.innerText = 'No user authenticated';
+        }
+      }
+
+      setProp('site', { item: { url: 'https://hubqa.arcgis.com' } });
+
+      function setProp(key, value) {
+        const el = document.querySelector('arcgis-hub-rich-text');
+        el[key] = value;
+      }
+    </script>
+    <h1>arcgis-hub-rich-text</h1>
+    <section>
+      <div>
+        <h3>Scale: s</h3>
+        <arcgis-hub-rich-text mention placeholder="Custom placeholder text" scale="s" value="<p>A pre-populated value</p>" />
+      </div>
+      <div>
+        <h3>Scale: m</h3>
+        <arcgis-hub-rich-text placeholder="Custom placeholder text" scale="m" value="<p>A pre-populated value</p>" />
+      </div>
+      <div>
+        <h3>Scale: l</h3>
+        <arcgis-hub-rich-text placeholder="Custom placeholder text" scale="l" value="<p>A pre-populated value</p>" />
+      </div>
+      <div>
+        <h3>Disabled</h3>
+        <arcgis-hub-rich-text placeholder="Custom placeholder text" disabled value="<p>A pre-populated value</p>" />
+        <script>
+          (() => {
+            const el = document.querySelector('arcgis-hub-rich-text[disabled]');
+            setInterval(() => {
+              el.disabled = !el.disabled;
+            }, 3 * 1000);
+          })();
+        </script>
+      </div>
+      <div>
+        <h3>Readonly</h3>
+        <arcgis-hub-rich-text placeholder="Custom placeholder text" readonly value="<p>A pre-populated value</p>" />
+        <script>
+          (() => {
+            const el = document.querySelector('arcgis-hub-rich-text[readonly]');
+            setInterval(() => {
+              el.readonly = !el.readonly;
+            }, 3 * 1000);
+          })();
+        </script>
+      </div>
+      <div>
+        <h3>Status: invalid</h3>
+        <arcgis-hub-rich-text placeholder="Custom placeholder text" status="invalid" value="<p>A pre-populated value</p>" />
+      </div>
+      <div>
+        <h3>Placeholder text</h3>
+        <arcgis-hub-rich-text placeholder="Custom placeholder text" />
+      </div>
+      <div>
+        <h3>Text Transformation, e.g. type "..." or "(tm)"</h3>
+        <arcgis-hub-rich-text placeholder="Custom placeholder text" text-transform value="<p>A pre-populated value</p>" />
+      </div>
+      <div>
+        <h3>Paste from office</h3>
+        <arcgis-hub-rich-text placeholder="Custom placeholder text" paste-from-office value="<p>A pre-populated value</p>" />
+      </div>
+      <div>
+        <h3>Customized toolbar</h3>
+        <arcgis-hub-rich-text placeholder="Custom placeholder text" toolbar="link,|,bold,|,undo,|,italic,|,redo,|,heading" value="<p>A pre-populated value</p>" />
+      </div>
+      <div>
+        <h3>Value updates</h3>
+        <arcgis-hub-rich-text placeholder="Custom placeholder text" paste-from-office value="<p>A pre-populated value</p>" />
+        <script>
+          (() => {
+            const richTexts = document.querySelectorAll('arcgis-hub-rich-text');
+            const el = richTexts[richTexts.length - 1];
+            setInterval(() => {
+              el.value = '<p>A pre-populated value ' + Math.random() + '</p>';
+            }, 3 * 1000);
+          })();
+        </script>
+      </div>
+    </section>
+  </body>
+</html>

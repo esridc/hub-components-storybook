@@ -1,0 +1,1 @@
+function t(t){return t.target.assignedElements({flatten:!0})}const n=(t="")=>t.replace(/\n/g,"<br>");export{t as s,n as t}

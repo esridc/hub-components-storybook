@@ -1,0 +1,16 @@
+{
+  "itemEditModal": {
+    "title": "Редактиране",
+    "fields": {
+      "label": {
+        "label": "Етикет",
+        "requiredMessage": "Задължителен етикет",
+        "maxLengthMessage": "Етикетът не трябва да е по-дълъг от {maxLength} символа"
+      }
+    },
+    "apply": "Прилагане"
+  },
+  "showItem": "Показване на следния елемент от списъка: {itemLabel}",
+  "hideItem": "Скриване на следния елемент от списъка: {itemLabel}",
+  "editItem": "Редактиране на следния елемент от списъка: {itemLabel}"
+}

@@ -1,0 +1,118 @@
+{
+  "layout": {
+    "title": "Paigutus",
+    "helperText": "See konfigureerib, kuidas tulemused välja näevad, kui külastajad esimest korda teie kataloogi saabuvad. Külastajatel on endiselt võimalik kuvamismeetodit ise muuta.",
+    "enum": {
+      "list": {
+        "label": "Loend",
+        "description": "Kasutage metaandmete kuvamiseks ja siis, kui külastajad teevad tõenäoliselt sihitud otsinguid."
+      },
+      "grid": {
+        "label": "Ruudustik",
+        "description": "Kasutage kvaliteetsete pisipiltidega tulemuste saamiseks ja siis, kui külastajad tõenäoliselt sirvivad."
+      },
+      "table": {
+        "label": "Tabel",
+        "description": "Kasutage tulemuste esitamiseks struktureeritud vormingus sorteeritavate veergudega, mis sobib ideaalselt siis, kui külastajad soovivad vaadata ja võrrelda erinevaid üksusi ja nende atribuute."
+      },
+      "map": {
+        "label": "Kaart",
+        "description": "Kasutage tulemuste jaoks, mis on seotud füüsiliste asukohtadega ja siis, kui külastajad uurivad tõenäoliselt huvipakkuvaid valdkondi."
+      },
+      "compact": {
+        "label": "Kompaktne",
+        "description": "Kasutage nähtavate tulemuste arvu maksimeerimiseks väiksemas ruumis, ideaalne kiireks sirvimiseks või mobiilseadmetes vaatamiseks."
+      }
+    }
+  },
+  "cards": {
+    "title": "Kaardid",
+    "cardTitleTag": {
+      "label": "Pealkiri",
+      "helperText": "Seda saab kasutada pesastatud pealkirjade struktuuri parandamiseks juurdepääsetavuse tagamiseks. See ei muuda fondi suurust.",
+      "enum": {
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        }
+      }
+    },
+    "showThumbnail": {
+      "label": "Kuva pisipilt",
+      "enum": {
+        "show": {
+          "label": "Alati",
+          "description": "Pisipildil olevad kujutised kuvatakse alati tulemuste kaartidel olenemata tulemuste paigutusest."
+        },
+        "hide": {
+          "label": "Ära pisipilte kuva",
+          "description": "Pisipildil olevaid kujutisi ei kuvata ühelgi tulemuste kaardil. Kasutage seda valikut, kui teie pisipildid on halva kvaliteediga või kui soovite, et inimesed saaksid loenditulemusi lauaarvutis ja mobiilis kiiremini skannida."
+        },
+        "grid": {
+          "label": "Ainult ruudustikus",
+          "description": "Pisipildil olevad kujutised kuvatakse ainult ruudustiku kaartidel. Loendi kaartidel kuvatakse pildi asemel metaandmete lisaveerg."
+        }
+      }
+    },
+    "corners": {
+      "label": "Nurgad",
+      "enum": {
+        "square": {
+          "label": "Ruut"
+        },
+        "round": {
+          "label": "Ümar"
+        }
+      }
+    },
+    "shadow": {
+      "label": "Varjuefekt",
+      "enum": {
+        "heavy": {
+          "label": "Raske"
+        },
+        "low": {
+          "label": "Madal"
+        },
+        "medium": {
+          "label": "Keskmine"
+        },
+        "none": {
+          "label": "Puudub"
+        }
+      }
+    },
+    "showLinkButton": {
+      "label": "Lisa nupud",
+      "helperText": "Kui nupud on välja lülitatud, on lingiks ainult kaardi pealkiri."
+    },
+    "linkButtonStyle": {
+      "label": "Laad",
+      "enum": {
+        "outline-filled": {
+          "label": "Täidetud"
+        },
+        "outline": {
+          "label": "Piirjoon"
+        }
+      }
+    },
+    "linkButtonText": {
+      "label": "Tekst"
+    }
+  }
+}

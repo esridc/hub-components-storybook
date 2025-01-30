@@ -1,0 +1,20 @@
+{
+  "dashboard": "Bảng điều khiển",
+  "activityLogSection": {
+    "title": "Nhật ký Hoạt động",
+    "table": {
+      "downloadAction": "Tải xuống",
+      "downloadAllAction": "Tải xuống Tất cả",
+      "downloadActionTooltip": "Tải xuống các hoạt động đã chọn",
+      "caption": "Bảng Lỗi Gần đây",
+      "columnHeaders": {
+        "datetime": "Ngày",
+        "layer": "Lớp",
+        "message": "Thông báo"
+      },
+      "noRecentErrors": "Không có lỗi gần đây",
+      "expandText": "Xem thêm",
+      "collapseText": "Xem ít hơn"
+    }
+  }
+}

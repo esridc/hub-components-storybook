@@ -1,0 +1,87 @@
+{
+  "initiatives": "Initiativ",
+  "description": "Associera med initiativ för att bidra till långsiktiga eller storskaliga insatser. Projektsamarbetspartner kan hantera bekräftade associationer och utestående förfrågningar. Initiativ med bekräftade associationer visas i det här projektets vy. ",
+  "shared": {
+    "error": {
+      "title": "Det uppstod ett fel",
+      "message": "Vi kunde inte slutföra uppgiften. Försök igen."
+    },
+    "facets": {
+      "access": {
+        "label": "Delning"
+      },
+      "status": {
+        "label": "Status",
+        "notStarted": "Inte startad",
+        "inProgress": "Pågår",
+        "onHold": "Väntande",
+        "complete": "Fullständig"
+      },
+      "tags": {
+        "label": "Taggar"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "{currentConfirmedAndOutgoingRequests} / {maxCurrentAndOutgoingRequestsAllowed} bekräftade + utgående förfrågningar",
+      "tooltip": "För att skicka förfrågningar kopplar du från befintliga associationer och/eller utgående förfrågningar"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "Sök efter initiativ",
+    "sendRequest": "Skicka förfrågan",
+    "success": {
+      "title": "Lyckades",
+      "message": "Associationsförfrågningar har skickats: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "Kontrollera associationer",
+      "message": "Vissa urval har redan begärd association. Nya associationsförfrågningar har skickats: {count}"
+    },
+    "catalog": {
+      "myContent": "Mitt innehåll",
+      "favorites": "Favoriter",
+      "organization": "Min organisation",
+      "partners": "Mina partners",
+      "community": "Min community"
+    },
+    "collection": {
+      "initiatives": "Initiativ"
+    }
+  },
+  "acceptAssociation": {
+    "label": "Acceptera",
+    "limitReachedTooltip": "För att acceptera kopplar du från befintliga associationer och/eller utgående förfrågningar",
+    "success": {
+      "title": "Lyckades",
+      "message": "Association har accepterats med {requestor}"
+    }
+  },
+  "cancelRequest": {
+    "label": "Avbryt förfrågan",
+    "success": {
+      "title": "Lyckades",
+      "message": "Associationsförfrågan har avbrutits"
+    }
+  },
+  "breakAssociation": {
+    "label": "Koppla från",
+    "success": {
+      "title": "Associationen är bruten",
+      "message": "Vi har frånkopplat det här objektet från dess tidigare association. Vi kan inte upphäva beslutet från den andra sidan så du kanske fortfarande ser det i inkommande förfrågningar."
+    }
+  },
+  "associationsGallery": {
+    "sources": "Status",
+    "catalog": {
+      "associated": "Associerad",
+      "requesting": "Inkommande förfrågningar",
+      "pending": "Utgående förfrågningar"
+    },
+    "collection": {
+      "initiatives": "Initiativ"
+    }
+  },
+  "notice": {
+    "label": "Formulärvarning"
+  }
+}

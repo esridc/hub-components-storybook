@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "Kategorie",
+        "noCategoriesNotice": {
+          "body": "Ta instytucja nie ma jeszcze żadnych kategorii.",
+          "link": "Skonfiguruj kategorie"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "Zasoby",
+      "selectionMode": {
+        "dynamic": {
+          "label": "Dynamiczne"
+        },
+        "manual": {
+          "label": "Ręczne"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "Instytucja"
+        },
+        "collection": {
+          "sites": "Witryny",
+          "projects": "Projekty",
+          "initiatives": "Inicjatywy"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "Instytucja"
+        },
+        "collection": {
+          "events": "Wydarzenia"
+        }
+      },
+      "access": {
+        "label": "Udostępnianie",
+        "private": {
+          "label": "Prywatne",
+          "description": "Filtrowanie według zasobów jest dostępne tylko dla Ciebie i innych osób, które mają dostęp do grupy."
+        },
+        "org": {
+          "label": "Instytucja",
+          "description": "Filtrowanie według zasobów jest dostępne tylko dla członków Twojej instytucji."
+        },
+        "public": {
+          "label": "Publiczne",
+          "description": "Filtrowanie według zasobów jest dostępne dla wszystkich."
+        }
+      },
+      "tags": {
+        "label": "Znaczniki"
+      },
+      "cardsShown": {
+        "label": "Wyświetlane karty"
+      }
+    },
+    "appearance": {
+      "label": "Wygląd",
+      "titleHeading": {
+        "label": "Nagłówek tytułowy",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "Zagnieżdżone nagłówki WCAG G141 zapewniają ułatwienia dostępu."
+      },
+      "corners": {
+        "label": "Narożniki",
+        "square": {
+          "label": "Kwadratowe"
+        },
+        "round": {
+          "label": "Zaokrąglone"
+        }
+      },
+      "shadow": {
+        "label": "Cień",
+        "none": {
+          "label": "Wyłączono"
+        },
+        "low": {
+          "label": "Niskie"
+        },
+        "medium": {
+          "label": "Średnie"
+        },
+        "heavy": {
+          "label": "Duże"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "Pokaż dodatkowe informacje"
+      },
+      "layout": {
+        "label": "Kompozycja",
+        "list": {
+          "label": "Lista"
+        },
+        "map": {
+          "label": "Mapa"
+        },
+        "calendar": {
+          "label": "Kalendarz"
+        }
+      }
+    },
+    "options": {
+      "label": "Opcje",
+      "openIn": {
+        "label": "Otwórz w…",
+        "same": {
+          "label": "Ta sama karta"
+        },
+        "new": {
+          "label": "Nowa karta"
+        },
+        "notice": {
+          "title": "Wskazówka dotycząca dostępności:",
+          "body": "Zgodnie ze specyfikacją WCAG 2.0 Technika G200, otwieranie łączy na nowych kartach lub w nowych oknach nie jest zalecane.",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "Przeczytaj więcej o specyfikacji WCAG 2.0 G200"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "Udostępnianie",
+      "public": {
+        "label": "Publiczne"
+      },
+      "private": {
+        "label": "Prywatne"
+      },
+      "organization": {
+        "label": "Instytucja"
+      }
+    },
+    "from": {
+      "label": "Z",
+      "myOrganization": {
+        "label": "Moja instytucja"
+      },
+      "myContent": {
+        "label": "Moje zasoby"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "Wydarzenia",
+      "collections": {
+        "event": {
+          "label": "Wydarzenia"
+        }
+      }
+    },
+    "item": {
+      "label": "Zasoby",
+      "collections": {
+        "item": {
+          "label": "Zasoby"
+        }
+      }
+    }
+  }
+}

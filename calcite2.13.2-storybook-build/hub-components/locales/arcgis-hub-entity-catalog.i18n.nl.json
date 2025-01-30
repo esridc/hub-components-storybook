@@ -1,0 +1,65 @@
+{
+  "catalog": "Catalogus",
+  "catalog-content": "Content",
+  "catalog-events": "Evenementen",
+  "shared": {
+    "publish": {
+      "label": "Opslaan",
+      "success": {
+        "title": "De catalogusbewerkingen zijn in de live weergave gepubliceerd."
+      },
+      "error": {
+        "title": "Er is een fout opgetreden bij het opslaan van bewerkingen"
+      }
+    }
+  },
+  "emptyState": {
+    "message": "Er is geen catalogus gedefinieerd",
+    "action": "Een catalogus samenstellen"
+  },
+  "actionBar": {
+    "details": "Configuratie catalogus",
+    "appearance": "Uiterlijk catalogus",
+    "tooltip": {
+      "appearanceDisabled": "Er is momenteel geen catalogus geconfigureerd. Configureer een catalogus als u de uiterlijk-instellingen wilt aanpassen.",
+      "configuration": "Configuratie",
+      "appearance": "Weergave"
+    }
+  },
+  "detailsPanel": {
+    "heading": "Configuratie catalogus",
+    "close": "Configuratie catalogus sluiten",
+    "catalogBuilder": {
+      "helperText": "Uw catalogus staat toe dat bezoekers content doorzoeken en weergeven. De weergegeven resultaten zijn gebaseerd op uw query-configuratie."
+    },
+    "querySizeNotice": {
+      "warning": {
+        "title": "Limiet catalogus is bijna bereikt",
+        "catalogSourceMessage": {
+          "item": "Uw itembronconfiguratie nadert de groottelimiet.",
+          "event": "Uw evenementenbronconfiguratie nadert de groottelimiet."
+        },
+        "collectionSourceMessage": {
+          "item": "De gecombineerde configuratie van uw itembron & \"{collectionName}\"-verzameling nadert de groottelimiet.",
+          "event": "De gecombineerde configuratie van uw evenementenbron & \"{collectionName}\"-verzameling nadert de groottelimiet."
+        }
+      },
+      "danger": {
+        "title": "Limiet catalogus is overschreden",
+        "catalogSourceMessage": {
+          "item": "Uw itembronconfiguratie heeft de groottelimiet overschreden. Reduceer het aantal filters en/of de filteropties in uw itembron als u wilt publiceren.",
+          "event": "Uw evenementenbronconfiguratie heeft de groottelimiet overschreden. Reduceer het aantal filters en/of de filteropties in uw evenementenbron als u wilt publiceren."
+        },
+        "collectionSourceMessage": {
+          "item": "De gecombineerde configuratie voor uw itembron & \"{collectionName}\"-verzameling heeft de groottelimiet overschreden. Reduceer het aantal filters en/of de filteropties in uw itembron en/of \"{collectionName}\"-verzameling als u wilt publiceren.",
+          "event": "De gecombineeerde configuratie voor uw evenementenbron & \"{collectionName}\"-verzameling heeft de groottelimiet overschreden. Reduceer het aantal filters en/of de filteropties in uw evenementenbron en/of \"{collectionName}\"-verzameling als u wilt publiceren."
+        }
+      }
+    }
+  },
+  "appearancePanel": {
+    "heading": "Uiterlijk catalogus",
+    "close": "Uiterlijk catalogus sluiten",
+    "description": "Uw catalogus staat toe dat bezoekers content doorzoeken en weergeven. U kunt hier bijwerken hoe de standaardcatalogus eruit moet zien en welke filters u wilt weergeven."
+  }
+}

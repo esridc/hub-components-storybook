@@ -1,0 +1,41 @@
+{
+  "notice": {
+    "outdatedItem": {
+      "title": "Nahraďte vašu iniciatívu",
+      "message": "Táto karta odkazuje na neaktuálnu položku. Vyberte inú položku, ktorú majú používatelia sledovať."
+    },
+    "missingFollowersGroup": {
+      "title": "Chýba skupina sledovateľov",
+      "message": "Tejto položke chýba skupina sledovateľov. Zvoľte inú položku."
+    },
+    "noGroupAccess": {
+      "title": "Pozor",
+      "message": "Nemáte prístup k skupine sledovateľov."
+    }
+  },
+  "selectContent": {
+    "title": "Obsah na sledovanie",
+    "facets": {
+      "sharing": "Zdieľanie",
+      "catalog": {
+        "myContent": "Môj obsah",
+        "organization": "Moja organizácia"
+      }
+    }
+  },
+  "callToAction": {
+    "title": "Výzva do akcie",
+    "helperText": "Výzva do akcie sa zobrazuje nad tlačidlom sledovania.",
+    "alignment": "Zarovnanie"
+  },
+  "followButton": {
+    "title": "Tlačidlo sledovania",
+    "helperText": "Toto tlačidlo umožní členom sledovať alebo prestať sledovať váš obsah. Text je možné nastaviť pre oba stavy tlačidla.",
+    "buttonText": "Text tlačidla pripojenia",
+    "unfollowButtonText": "Text tlačidla odpojenia",
+    "alignment": "Zarovnanie",
+    "buttonStyle": "Štýl tlačidla",
+    "solid": "Pevné pozadie",
+    "outline": "Obrys"
+  }
+}

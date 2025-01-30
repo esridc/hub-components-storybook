@@ -1,0 +1,46 @@
+{
+  "heading": "Sideinformasjon",
+  "form": {
+    "title": {
+      "label": "Sidenavn",
+      "requiredError": "Navn må oppgis",
+      "entityTitleValidatorError": "Navnet på siden kan ikke omfatte emojier eller tegnene <, > og ="
+    },
+    "slug": {
+      "label": "Dynamisk datafelt",
+      "helperText": "Det dynamiske datafeltet er en URL-vennlig versjon av sidens navn. Det blir automatisk generert på bakgrunn av sidens navn, men du kan tilpasse det.",
+      "patternError": "Feil: Det dynamiske datafeltet må bestå av alfanumeriske tegn med små bokstaver, adskilt med bindestreker.",
+      "isUniqueError": "Dette dynamiske datafeltet er allerede i bruk. Velg et annet.",
+      "requiredError": "Dynamisk datafelt er obligatorisk"
+    }
+  },
+  "controls": {
+    "back": "Tilbake",
+    "cancel": "Avbryt",
+    "close": "Ferdig",
+    "migrate": "Overfør side",
+    "next": "Neste"
+  },
+  "selection": {
+    "unlimited": "{count} valgt",
+    "limited": "{count} / {limit} valgt"
+  },
+  "steps": {
+    "specifyInfo": "Legg til grunnleggende informasjon",
+    "selectGroups": "Velg gruppe",
+    "confirmation": "Bekreftelse"
+  },
+  "working": {
+    "heading": "Overfører side.",
+    "loadingLabel": "Overfører side"
+  },
+  "success": {
+    "heading": "Siden ble overført",
+    "message": "Siden er blitt overført."
+  },
+  "failure": {
+    "heading": "Siden ble ikke overført",
+    "message": "Noe gikk galt ved overføring av siden. Prøv på nytt.",
+    "action": "Prøv igjen"
+  }
+}

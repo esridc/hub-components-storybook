@@ -1,0 +1,26 @@
+{
+  "unauthenticated": {
+    "heading": "Přihlaste se, prosím.",
+    "message": "Tento web vyžaduje pro přístup přihlašovací údaje.",
+    "actionText": "Přihlásit se"
+  },
+  "not-found": {
+    "heading": "Stránka nenalezena",
+    "message": "Tato stránka mohla být přesunuta nebo odstraněna. Zkuste ji vyhledat na domovské stránce",
+    "actionText": "Přejít na domovskou stránku"
+  },
+  "unsupported-device": {
+    "heading": "Nepodporovaná velikost obrazovky",
+    "message": "Pracovní oblasti zatím nejsou dostupné na menších obrazovkách. Použijte prosím zařízení se širší obrazovkou.",
+    "actionText": "Přejít zpět"
+  },
+  "access-denied": {
+    "heading": "Přístup byl odepřen",
+    "message": "Nemáte oprávnění pro přístup k tomuto zdroji.",
+    "actionText": "Přejít na domovskou stránku"
+  },
+  "loading": {
+    "heading": "Načítání...",
+    "loadingLabel": "Načítání"
+  }
+}

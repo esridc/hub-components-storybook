@@ -1,0 +1,47 @@
+{
+  "communityOrg": "مؤسسة مجتمعية",
+  "editLayout": "تحرير التخطيط الطباعي",
+  "orgWorkspace": "فتح مساحة العمل الرئيسية",
+  "editS123": "تحرير في Survey123",
+  "editAdvancedJson": "تحرير JSON المتقدم",
+  "view": {
+    "project": "عرض المشروع",
+    "site": "عرض الموقع",
+    "initiative": "عرض المبادرة",
+    "discussion": "عرض اللوحة",
+    "content": "عرض المحتوى",
+    "page": "عرض الصفحة",
+    "group": "عرض المجموعة",
+    "initiativeTemplate": "عرض قالب المبادرة",
+    "template": "عرض القالب",
+    "survey": "عرض الاستطلاع",
+    "event": "عرض الحدث"
+  },
+  "access": {
+    "share": "مشاركة",
+    "sharingLevel": "مستوى المشاركة",
+    "groupSharing": "مشاركة المجموعة",
+    "tooltip": {
+      "public": "مستوى المشاركة: عام",
+      "org": "مستوى المشاركة: المؤسسة",
+      "private": "مستوى المشاركة: خاص",
+      "shared": "مستوى المشاركة: تمت المشاركة بشكل خاص"
+    },
+    "save": "حفظ",
+    "cancel": "إلغاء الأمر",
+    "alert": {
+      "success": "تم حفظ التحريرات بنجاح",
+      "error": "حدث خطأ أثناء حفظ التحريرات",
+      "label": "رسائل تنبيه النموذج"
+    }
+  },
+  "popoverActions": {
+    "label": "المزيد من الإجراءات",
+    "openInEnterprise": "فتح في ArcGIS Enterprise",
+    "openInOnline": "فتح في ArcGIS Online"
+  },
+  "homeLink": {
+    "text": "الصفحة الرئيسية"
+  },
+  "createContent": "إنشاء"
+}

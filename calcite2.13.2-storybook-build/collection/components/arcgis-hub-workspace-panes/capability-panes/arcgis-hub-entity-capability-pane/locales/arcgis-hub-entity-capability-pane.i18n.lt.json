@@ -1,0 +1,35 @@
+{
+  "success": "Pakeitimai įrašyti sėkmingai",
+  "error": "Klaida išsaugant pakeitimus",
+  "formAlert": "Formos įspėjimas",
+  "projects": {
+    "header": "Projektai",
+    "list": "Projektų sąrašas",
+    "config": "Konfigūracija",
+    "notConfigured": "Projektų funkcionalumas nesukonfigūruotas. Naudokite skirtuką Konfigūracija."
+  },
+  "content": {
+    "header": "Turinys",
+    "list": "Turinio sąrašas",
+    "config": "Konfigūracija",
+    "notConfigured": "Turinio funkcionalumas nesukonfigūruotas. Naudokite skirtuką Konfigūracija."
+  },
+  "initiatives": {
+    "header": "Iniciatyvos",
+    "list": "Iniciatyvų sąrašas",
+    "config": "Konfigūracija",
+    "notConfigured": "Iniciatyvų funkcionalumas nesukonfigūruotas. Naudokite skirtuką Konfigūracija."
+  },
+  "events": {
+    "header": "Renginiai",
+    "list": "Renginių sąrašas",
+    "config": "Konfigūracija",
+    "notConfigured": "Renginių funkcionalumas nesukonfigūruotas. Naudokite skirtuką Konfigūracija."
+  },
+  "pages": {
+    "header": "Puslapiai",
+    "list": "Puslapių sąrašas",
+    "config": "Konfigūracija",
+    "notConfigured": "Puslapių funkcionalumas nesukonfigūruotas. Naudokite skirtuką Konfigūracija."
+  }
+}

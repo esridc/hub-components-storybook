@@ -1,0 +1,50 @@
+:host {
+  display: block;
+  overflow: hidden;
+  transition: height 0.5s ease-out;
+}
+
+.initiative-hero__main img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.initiative-hero__header {
+  margin-top: 0.75rem;
+  font-size: var(--calcite-font-size-4);
+  line-height: 2.5rem;
+  font-weight: var(--calcite-font-weight-medium);
+}
+
+/* The prefers-reduced-motion media query is used to detect
+if a user has enabled a setting on their device to minimize
+the amount of non-essential motion. The setting is used to
+convey to the browser on the device that the user prefers
+an interface that removes, reduces, or replaces motion-based
+animations. */
+@media (prefers-reduced-motion) {
+  .initiative-hero__main {
+    transition: none;
+  }
+}
+
+/* MID SIZE SCREEN AND ABOVE */
+@media only screen and (min-width: 758px) {
+  .initiative-hero__main arcgis-hub-gallery, .initiative-hero__main img {
+    height: 475px;
+  }
+
+  :host {
+    height: 535px;
+  }
+}
+
+/* SMALL SIZE SCREEN */
+@media only screen and (max-width: 768px) {
+  .initiative-hero__main arcgis-hub-gallery {
+    height: 50vh;
+  }
+  .featured-image img {
+    height: 32vh;
+  }
+}

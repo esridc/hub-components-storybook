@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "Επεξεργασία ομάδων",
+        "viewGroups": "Προβολή ομάδων"
+      },
+      "facet": {
+        "label": "Από",
+        "myGroups": "Οι ομάδες μου",
+        "myOrganization": "Ο οργανισμός μου",
+        "myCommunity": "Η κοινότητά μου"
+      }
+    }
+  },
+  "property": {
+    "label": "Παράμετρος",
+    "requiredError": "Η παράμετρος απαιτείται"
+  },
+  "operator": {
+    "label": "Κριτήρια",
+    "requiredError": "Τα κριτήρια απαιτούνται"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "Τύπος"
+    },
+    "group": {
+      "default": "Ομάδες"
+    },
+    "occurrence": {
+      "default": "Εμφάνιση"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "Είναι οτιδήποτε από",
+      "group": "Είναι κοινό με οτιδήποτε από"
+    },
+    "isAll": {
+      "default": "Είναι όλα από",
+      "group": "Είναι κοινό με όλα από"
+    },
+    "isExactly": {
+      "default": "Είναι ακριβώς",
+      "occurrence": "Είναι"
+    },
+    "isNot": {
+      "default": "Δεν είναι",
+      "type": "Είναι τίποτα από",
+      "group": "Είναι κοινό με τίποτα από"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "Ομάδες",
+      "requiredError": "Οι ομάδες απαιτούνται"
+    },
+    "type": {
+      "label": "Τύποι",
+      "requiredError": "Οι τύποι απαιτούνται",
+      "app": {
+        "label": "Εφαρμογές"
+      },
+      "content": {
+        "label": "Περιεχόμενο"
+      },
+      "dataset": {
+        "label": "Σύνολα δεδομένων"
+      },
+      "discussion": {
+        "label": "Συζητήσεις"
+      },
+      "document": {
+        "label": "Έγγραφα"
+      },
+      "event": {
+        "label": "Συμβάντα"
+      },
+      "feedback": {
+        "label": "Σχόλια"
+      },
+      "initiative": {
+        "label": "Πρωτοβουλίες"
+      },
+      "map": {
+        "label": "Χάρτες"
+      },
+      "project": {
+        "label": "Έργα"
+      },
+      "site": {
+        "label": "Ιστότοποι"
+      },
+      "template": {
+        "label": "Πρότυπα"
+      }
+    },
+    "occurrence": {
+      "label": "Εμφάνιση",
+      "requiredError": "Η εμφάνιση απαιτείται",
+      "upcoming": "Προσεχή",
+      "past": "Προηγούμενο",
+      "inProgress": "Σε εξέλιξη"
+    }
+  }
+}

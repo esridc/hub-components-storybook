@@ -1,0 +1,18 @@
+{
+  "about": "Meer informatie",
+  "metrics": "Statistieken",
+  "featuredContent": "Uitgelichte content",
+  "details": "Details",
+  "exploreMetrics": "Cijfers verkennen",
+  "status": {
+    "label": {
+      "default": "Status",
+      "project": "Status project",
+      "initiative": "Status initiatief"
+    },
+    "notStarted": "Niet gestart",
+    "inProgress": "Lopend",
+    "onHold": "Tijdelijk stopgezet",
+    "complete": "Voltooid"
+  }
+}

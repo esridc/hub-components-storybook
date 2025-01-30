@@ -1,0 +1,53 @@
+{
+  "catalog": {
+    "myContent": "Moj sadržaj",
+    "livingAtlas": "Living Atlas",
+    "organization": "Moja organizacija",
+    "world": "Svijet (javno)"
+  },
+  "collection": {
+    "appsAndMaps": "Aplikacije i karte",
+    "feedback": "Povratne informacije"
+  },
+  "facets": {
+    "type": "Vrsta",
+    "tags": "Oznake",
+    "categories": "Kategorije",
+    "modified": "Izmijenjeno"
+  },
+  "pickerTitle": "Odaberi sadržaj",
+  "height": "Visina (px)",
+  "isScrollable": "Pomicanje",
+  "errors": {
+    "heightMinimum": "Vrijednost treba biti pozitivni broj.",
+    "heightMaximum": "Vrijednost mora biti manja od ili jednaka 2000px.",
+    "urlError": "Treba biti ispravni URL"
+  },
+  "success": {
+    "urlSuccess": "URL uspješno učitan."
+  },
+  "shouldApplyBreakpoints": {
+    "label": "Umjesto toga primijenite postavke prema prijelomnim točkama uređaja."
+  },
+  "viewportAll": {
+    "label": "Zadano",
+    "description": "Postavke su primijenjene na sve veličine zaslona"
+  },
+  "viewportMobile": {
+    "label": "Mobile",
+    "description": "Postavke su primijenjene na zaslone širine 360px ili veće"
+  },
+  "viewportTablet": {
+    "label": "Tablet",
+    "description": "Postavke su primijenjene na zaslone širine 560px ili veće"
+  },
+  "viewportDesktop": {
+    "label": "Desktop",
+    "description": "Postavke su primijenjene na zaslone širine 980px ili veće"
+  },
+  "sourceLabel": "Odaberi umetnutu vrstu",
+  "contentLabel": "ArcGIS sadržaj",
+  "externalLabel": "Vanjski URL",
+  "contentDescription": "Odaberite između postojećih karata, scena, aplikacija, istraživanja i poveznica na dokumente koji su vam dostupni.",
+  "externalDescription": "Unesite URL koji će se umetnuti. Napominjemo kako neke domene ne dopuštaju ugrađivanje i možda se neće prikazivati ​​prema očekivanjima."
+}

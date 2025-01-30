@@ -1,0 +1,33 @@
+{
+  "title": "Bộ sưu tập",
+  "actions": {
+    "label": "Tùy chọn",
+    "show": "Hiển thị",
+    "hide": "Ẩn",
+    "rename": "Đổi tên"
+  },
+  "formAlert": "Cảnh báo biểu mẫu",
+  "alertMessages": {
+    "success": "Đã lưu các chỉnh sửa thành công",
+    "error": "Lỗi lưu các chỉnh sửa"
+  },
+  "collectionRenameModal": {
+    "title": "Đổi tên Bộ sưu tập",
+    "fieldLabel": "Nhãn Bộ sưu tập",
+    "requiredMessage": "Cần có nhãn bộ sưu tập",
+    "apply": "Áp dụng",
+    "maxLengthMessage": "Nhãn bộ sưu tập không được vượt quá 50 ký tự"
+  },
+  "collections": {
+    "dataset": "Dữ liệu",
+    "site": "Sites",
+    "document": "Tài liệu",
+    "appAndMap": "Ứng dụng & Bản đồ"
+  },
+  "saveButton": "Lưu",
+  "sections": {
+    "collectionConfiguration": {
+      "title": "Cấu hình bộ sưu tập"
+    }
+  }
+}

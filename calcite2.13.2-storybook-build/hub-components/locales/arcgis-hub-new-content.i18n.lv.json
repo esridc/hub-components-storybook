@@ -1,0 +1,57 @@
+{
+  "new": "Jauns",
+  "project": {
+    "label": "Projekts",
+    "description": "Akcentējiet darbu, kam ir skaidri mērķi un termiņi",
+    "createLabel": "Izveidot projektu",
+    "newLabel": "Jauns projekts"
+  },
+  "initiative": {
+    "label": "Iniciatīva",
+    "description": "Iniciatīvas organizē un apkopo virzību uz mērķi",
+    "createLabel": "Izveidot iniciatīvu",
+    "newLabel": "Jauna iniciatīva"
+  },
+  "discussion": {
+    "label": "Diskusiju panelis",
+    "description": "Izveidot jaunu diskusiju paneli, ievadot virsrakstu, kas norāda tēmu.",
+    "createLabel": "Izveidot diskusiju paneli",
+    "newLabel": "Jauns diskusiju panelis"
+  },
+  "site": {
+    "label": "Vietne",
+    "description": "Izveidojiet vietni, lai organizētu un koplietotu informāciju",
+    "createLabel": "Izveidot vietni",
+    "newLabel": "Jauna vietne"
+  },
+  "event": {
+    "label": "Pasākums",
+    "description": "Rīkot organizētu aktivitāti klātienē vai virtuāli",
+    "createLabel": "Izveidot pasākumu",
+    "newLabel": "Jauns pasākums"
+  },
+  "content": {
+    "label": "Saturs",
+    "description": "Pievienojiet datus, dokumentus, attēlus un ārējās saistes uz jūsu vietni",
+    "createLabel": "Veidot saturu",
+    "newLabel": "Jauns saturs"
+  },
+  "feedback": {
+    "label": "Atsauksmes",
+    "description": "Apkopojiet fokusētu informāciju, izmantojot tādus rīkus kā anketas un aptaujas",
+    "createLabel": "Izveidot atsauksmi",
+    "newLabel": "Jauna atsauksme"
+  },
+  "app": {
+    "label": "Lietotne",
+    "description": "Veidojiet pieredzi, izstāstiet stāstu vai vizualizējiet datus",
+    "createLabel": "Izveidot lietotni",
+    "newLabel": "Jauna lietotne"
+  },
+  "group": {
+    "label": "Grupa",
+    "description": "Izveidojiet grupu, lai kopīgi strādātu ar fokusētu saturu",
+    "createLabel": "Izveidot grupu",
+    "newLabel": "Jauna grupa"
+  }
+}

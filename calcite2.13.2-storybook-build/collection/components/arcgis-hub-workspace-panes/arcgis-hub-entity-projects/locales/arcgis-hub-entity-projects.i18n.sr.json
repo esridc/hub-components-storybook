@@ -1,0 +1,178 @@
+{
+  "projectsTitle": "Projekti",
+  "description": "Povežite se sa projektima koji doprinose da biste pratili napredak u fokusiranom vremenu ili prostoru. Grupa pridruživanja inicijative upravlja potvrđenim pridruživanjima i nerešenim zahtevima za pridruživanje",
+  "subDescription": "Projekti sa potvrđenim pridruživanjima će se pojaviti u prikazu ove inicijative.",
+  "project": "projekat",
+  "initiative": "inicijativa",
+  "helpStates": {
+    "noAccess": {
+      "heading": "Nema pristupa",
+      "message": "Nemate pristup da pregledate grupu za povezivanje."
+    },
+    "missingGroup": {
+      "heading": "Nedostaje grupa za povezivanje",
+      "message": {
+        "overview": "Grupa pridruživanja će nadgledati koji će projekti biti povezani i izveštavati o inicijativi.",
+        "members": "Članovi ove grupe će moći da šalju ili odobravaju zahteve za pridruživanje."
+      },
+      "action": "Napravi grupu",
+      "formLabel": "Nova grupa za povezivanje",
+      "description": "Napravite grupu za povezivanje da biste upravljali vezama"
+    },
+    "requestsWaiting": {
+      "heading": "Nedostaje grupa za povezivanje",
+      "message": {
+        "overview": "Grupa pridruživanja će nadgledati koji će projekti biti povezani i izveštavati o inicijativi.",
+        "members": "Članovi ove grupe će moći da šalju ili odobravaju zahteve za pridruživanje.",
+        "requests": "Zahtevi za projekat čekaju: {count}"
+      },
+      "action": "Napravi grupu",
+      "formLabel": "Nova grupa za povezivanje",
+      "description": "Napravite grupu za povezivanje da biste upravljali vezama"
+    }
+  },
+  "shared": {
+    "project": "projekat",
+    "associationGroup": "grupa za povezivanje",
+    "error": {
+      "title": "Nešto nije u redu",
+      "message": "Možda vam nedostaje dovoljan pristup za slanje ili upravljanje povezivanjem sa ovim {type}."
+    },
+    "facets": {
+      "access": {
+        "label": "Deljenje"
+      },
+      "status": {
+        "label": "Status",
+        "notStarted": "Nije započeto",
+        "inProgress": "U toku",
+        "onHold": "Na čekanju",
+        "complete": "Završi"
+      },
+      "tags": {
+        "label": "Oznake"
+      }
+    },
+    "tabs": {
+      "projects": "Projekti",
+      "members": "Članovi",
+      "settings": "Postavke"
+    },
+    "disabledActionTooltip": "Samo menadžeri grupa mogu upravljati povezivanjem sa ovim {type}."
+  },
+  "createAssociationGroup": {
+    "defaultSummary": "Upravljajte stavkama povezanim sa {name} {type} korišćenjem grupe za povezivanje."
+  },
+  "members": {
+    "facets": {
+      "role": {
+        "label": "Uloga",
+        "all": "Sve",
+        "manager": "Menadžer",
+        "member": "Član"
+      },
+      "dateJoined": {
+        "label": "Datum pridruživanja"
+      }
+    },
+    "addMembers": {
+      "button": "Dodaj članove",
+      "modal": {
+        "title": "Dodaj članove",
+        "org": "Moja organizacija",
+        "community": "Moja zajednica",
+        "partner": "Moji partneri",
+        "world": "Svet"
+      },
+      "notifications": {
+        "invited": "Poziv je poslat. Korisnici moraju da prihvate da bi se priključili",
+        "added": "Korisnici su dodati",
+        "notInvited": "Neki korisnici možda nemaju privilegije potrebne da se pridruže grupi ili su možda na maksimalnom ograničenju grupe (512)"
+      }
+    },
+    "removeUsers": {
+      "button": "Ukloni",
+      "success": "Članovi su uspešno uklonjeni sa {groupName}.",
+      "error": "Nije moguće ukloniti jednog ili više korisnika iz grupe."
+    },
+    "changeRole": {
+      "button": "Promena uloge",
+      "member": "Član",
+      "memberHelperText": "Može da dodaje i vidi sadržaj u grupi",
+      "tooltipText": "Opozovite izbor sebe i/ili vlasnika grupe",
+      "tooltipLabel": "Odricanje od odgovornosti za ulogu",
+      "admin": "Menadžer",
+      "adminHelperText": "Može da dodaje/uklanja sadržaj i poziva/uklanja ljude (osim vlasnika).",
+      "success": "Izabrani članovi su postali grupa {role}.",
+      "error": "Uloga nije mogla da se promeni za jednog ili više članova."
+    },
+    "stats": {
+      "total": {
+        "title": "Ukupno",
+        "trailingText": "Članovi"
+      },
+      "new": {
+        "title": "Novo",
+        "trailingText": "Proteklih 30 dana"
+      }
+    }
+  },
+  "projects": {
+    "requestAssociation": {
+      "findProjects": "Pronađi projekte",
+      "sendRequest": "Pošalji zahtev",
+      "success": {
+        "title": "Uspešno",
+        "message": "Poslati su zahtevi za pridruživanje: {count}"
+      },
+      "alreadyRequesting": {
+        "title": "Proveri pridruživanja",
+        "message": "Neki izbori su već zatražili pridruživanje. Poslati su novi zahtevi za pridruživanje: {count}"
+      },
+      "catalog": {
+        "myContent": "Moj sadržaj",
+        "favorites": "Omiljeni sadržaj",
+        "organization": "Organizacija",
+        "world": "Svet (javno)"
+      },
+      "collection": {
+        "projects": "Projekti"
+      }
+    },
+    "acceptAssociation": {
+      "label": "Prihvati",
+      "success": {
+        "title": "Uspešno",
+        "message": "Pridruživanje je prihvaćeno sa {requestor}"
+      }
+    },
+    "cancelRequest": {
+      "label": "Otkaži zahtev",
+      "success": {
+        "title": "Uspešno",
+        "message": "Zahtev za pridruživanje je otkazan"
+      }
+    },
+    "breakAssociation": {
+      "label": "Prekini vezu",
+      "success": {
+        "title": "Pridruživanje je prekinuto",
+        "message": "Isključili smo ovu stavku iz prethodnog pridruživanja. Međutim, ne možemo da poništimo odluku sa druge strane, tako da ćete je možda i dalje videti u pristiglim zahtevima."
+      }
+    },
+    "associationsGallery": {
+      "sources": "Stanje",
+      "catalog": {
+        "associated": "Povezano",
+        "requesting": "Dolazni zahtevi",
+        "pending": "Odlazni zahtevi"
+      },
+      "collection": {
+        "projects": "Projekti"
+      }
+    }
+  },
+  "notice": {
+    "label": "Formiraj upozorenje"
+  }
+}

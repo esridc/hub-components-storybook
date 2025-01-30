@@ -1,0 +1,107 @@
+{
+  "shared": {
+    "groupPicker": {
+      "catalog": {
+        "editGroups": "Skupine za urejanje",
+        "viewGroups": "Ogled skupin"
+      },
+      "facet": {
+        "label": "Od",
+        "myGroups": "Moje skupine",
+        "myOrganization": "Moja organizacija",
+        "myCommunity": "Moja zainteresirana javnost"
+      }
+    }
+  },
+  "property": {
+    "label": "Parameter",
+    "requiredError": "Parameter je obvezen"
+  },
+  "operator": {
+    "label": "Kriterij",
+    "requiredError": "Kriterij je obvezen"
+  },
+  "propertyConfigs": {
+    "type": {
+      "default": "Tip"
+    },
+    "group": {
+      "default": "Skupine"
+    },
+    "occurrence": {
+      "default": "Pojav"
+    }
+  },
+  "operatorConfigs": {
+    "isAny": {
+      "default": "Je kateri od",
+      "group": "Je v skupni rabi s katerim koli od"
+    },
+    "isAll": {
+      "default": "Je vse od",
+      "group": "Je v skupni rabi z vsemi"
+    },
+    "isExactly": {
+      "default": "Je točno",
+      "occurrence": "Je"
+    },
+    "isNot": {
+      "default": "Ni",
+      "type": "Je nič od",
+      "group": "Je v skupni rabi z nikomer"
+    }
+  },
+  "valueConfigs": {
+    "group": {
+      "label": "Skupine",
+      "requiredError": "Skupine so obvezne"
+    },
+    "type": {
+      "label": "Tipi",
+      "requiredError": "Tipi so obvezni",
+      "app": {
+        "label": "Aplikacije"
+      },
+      "content": {
+        "label": "Vsebina"
+      },
+      "dataset": {
+        "label": "Sklopi podatkov"
+      },
+      "discussion": {
+        "label": "Razprave"
+      },
+      "document": {
+        "label": "Dokumenti"
+      },
+      "event": {
+        "label": "Dogodki"
+      },
+      "feedback": {
+        "label": "Povratne informacije"
+      },
+      "initiative": {
+        "label": "Pobude"
+      },
+      "map": {
+        "label": "Karte"
+      },
+      "project": {
+        "label": "Projekti"
+      },
+      "site": {
+        "label": "Spletna mesta"
+      },
+      "template": {
+        "label": "Predloge"
+      }
+    },
+    "occurrence": {
+      "label": "Pojav",
+      "requiredError": "Pojav je obvezen",
+      "upcoming": "Prihajajoči",
+      "past": "Prejšnji",
+      "inProgress": "V teku"
+    }
+  }
+}

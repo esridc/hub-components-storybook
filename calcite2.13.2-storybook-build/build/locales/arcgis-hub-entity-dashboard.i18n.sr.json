@@ -1,0 +1,20 @@
+{
+  "dashboard": "Kontrolna tabla",
+  "activityLogSection": {
+    "title": "Evidencija aktivnosti",
+    "table": {
+      "downloadAction": "Preuzmi",
+      "downloadAllAction": "Preuzmi sve",
+      "downloadActionTooltip": "Preuzmi odabrane aktivnosti",
+      "caption": "Tabela nedavnih grešaka",
+      "columnHeaders": {
+        "datetime": "Datum",
+        "layer": "Sloj",
+        "message": "Poruka"
+      },
+      "noRecentErrors": "Nema nedavnih grešaka",
+      "expandText": "Prikaži više",
+      "collapseText": "Prikaži manje"
+    }
+  }
+}

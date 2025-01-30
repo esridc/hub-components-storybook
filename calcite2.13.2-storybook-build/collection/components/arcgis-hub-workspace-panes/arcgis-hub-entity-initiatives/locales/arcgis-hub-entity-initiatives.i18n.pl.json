@@ -1,0 +1,87 @@
+{
+  "initiatives": "Inicjatywy",
+  "description": "Powiąż z inicjatywami, aby realizować długoterminowe lub zakrojone na szeroką skalę działania. Współpracownicy związani z projektem mogą zarządzać potwierdzonymi powiązaniami i oczekującymi wnioskami o powiązania. W tym widoku projektu pojawią się inicjatywy z potwierdzonymi powiązaniami. ",
+  "shared": {
+    "error": {
+      "title": "Wystąpiły problemy",
+      "message": "Nie byliśmy w stanie wykonać tego zadania. Spróbuj ponownie."
+    },
+    "facets": {
+      "access": {
+        "label": "Udostępnianie"
+      },
+      "status": {
+        "label": "Status",
+        "notStarted": "Nierozpoczęty",
+        "inProgress": "W toku",
+        "onHold": "Wstrzymany",
+        "complete": "Ukończony"
+      },
+      "tags": {
+        "label": "Znaczniki"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "Liczba potwierdzonych i wychodzących wniosków: {currentConfirmedAndOutgoingRequests}/{maxCurrentAndOutgoingRequestsAllowed}",
+      "tooltip": "Aby wysyłać wnioski, rozłącz istniejące powiązania i/lub wychodzące wnioski"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "Znajdź inicjatywy",
+    "sendRequest": "Wyślij wniosek",
+    "success": {
+      "title": "Sukces",
+      "message": "Wysłano wniosek o powiązanie: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "Sprawdź powiązania",
+      "message": "Niektóre wybrane osoby złożyły już wniosek o powiązanie. Wysłano nowy wniosek o powiązanie: {count}"
+    },
+    "catalog": {
+      "myContent": "Moje zasoby",
+      "favorites": "Ulubione",
+      "organization": "Moja instytucja",
+      "partners": "Moi partnerzy",
+      "community": "Moja społeczność"
+    },
+    "collection": {
+      "initiatives": "Inicjatywy"
+    }
+  },
+  "acceptAssociation": {
+    "label": "Akceptuj",
+    "limitReachedTooltip": "Aby zaakceptować, rozłącz istniejące powiązania i/lub wychodzące wnioski",
+    "success": {
+      "title": "Sukces",
+      "message": "Powiązanie zostało zaakceptowane przez {requestor}"
+    }
+  },
+  "cancelRequest": {
+    "label": "Anuluj wniosek",
+    "success": {
+      "title": "Sukces",
+      "message": "Anulowano wniosek o powiązanie"
+    }
+  },
+  "breakAssociation": {
+    "label": "Odłącz",
+    "success": {
+      "title": "Powiązanie zerwane",
+      "message": "Odłączyliśmy ten element od jego poprzedniego powiązania. Nie możemy jednak cofnąć tej decyzji z drugiej strony, więc nadal możesz go zobaczyć w przychodzących wnioskach."
+    }
+  },
+  "associationsGallery": {
+    "sources": "Stan",
+    "catalog": {
+      "associated": "Powiązany",
+      "requesting": "Przychodzące wnioski",
+      "pending": "Wychodzące wnioski"
+    },
+    "collection": {
+      "initiatives": "Inicjatywy"
+    }
+  },
+  "notice": {
+    "label": "Alert dotyczący formularza"
+  }
+}

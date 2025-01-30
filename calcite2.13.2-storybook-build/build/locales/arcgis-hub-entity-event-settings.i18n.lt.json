@@ -1,0 +1,49 @@
+{
+  "settings": "Nustatymai",
+  "advanced": "Išsamiau",
+  "delete": {
+    "event": "Ištrinti šį įvykį",
+    "desc": "Projekto ištrinimo atšaukti negalima. Užsiregistravusiems dalyviams bus pranešta (jei renginyje įjungti automatiniai pranešimai).",
+    "deleteButton": "Ištrinti įvykį"
+  },
+  "cancel": {
+    "header": "Atšaukti renginį",
+    "desc": "Jei įvykis atšauktas, jis išliks matomas su būsena „Atšauktas“. Registracija bus sustabdyta, o užsiregistravusiems dalyviams bus pranešta (jei renginyje įjungti automatiniai pranešimai).",
+    "event": "Atšaukti įvykį",
+    "notice": {
+      "success": {
+        "title": "Renginys atšauktas",
+        "message": "Užsiregistravusiems dalyviams bus pranešta, jei įjungti automatiniai pranešimai."
+      },
+      "error": {
+        "title": "Nepavyko atšaukti renginio",
+        "message": "Pabandykite dar kartą"
+      }
+    }
+  },
+  "enable": {
+    "event": "Iš naujo įgalinti įvykį",
+    "desc": "Įvykis atšauktas (matomas su būsena „Atšauktas“).",
+    "notice": {
+      "success": {
+        "title": "Renginys sukurtas iš naujo",
+        "message": "Užsiregistravusiems dalyviams bus pranešta, jei įjungti automatiniai pranešimai."
+      },
+      "error": {
+        "title": "Nepavyko iš naujo sukurti renginio",
+        "message": "Pabandykite dar kartą"
+      }
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "event": "Ištrinti įvykį"
+    },
+    "content": "Ar tikrai norite ištrinti:",
+    "delete": "Ištrinti įvykį",
+    "cancel": "Atšaukti įvykį"
+  },
+  "notice": {
+    "label": "Formos įspėjimas"
+  }
+}

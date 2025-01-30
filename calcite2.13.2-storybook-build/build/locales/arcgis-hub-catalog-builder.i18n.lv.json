@@ -1,0 +1,24 @@
+{
+  "shared": {
+    "targetEntities": {
+      "item": "Vienības",
+      "event": "Pasākumi"
+    }
+  },
+  "targetEntityBlock": {
+    "configured": "Konfigurēts",
+    "notConfigured": "Nav konfigurēts"
+  },
+  "targetEntityFlow": {
+    "back": "Aizvērt konfigurēšanu: {targetEntity}",
+    "description": "Konfigurēt: {targetEntity}",
+    "source": {
+      "heading": "Avots",
+      "description": "Avoti definē satura diapazonu. Rezultātus var modificēt, iekļaujot vai izslēdzot parametrus.<br/><br/> *norāda nepieciešamo lauku"
+    },
+    "collections": {
+      "heading": "Kolekcijas",
+      "description": "Organizējiet saturu atsevišķās apakškopās, lai varētu vienkāršāk meklēt un atklāt.<br/><br/>*norāda nepieciešamo lauku"
+    }
+  }
+}

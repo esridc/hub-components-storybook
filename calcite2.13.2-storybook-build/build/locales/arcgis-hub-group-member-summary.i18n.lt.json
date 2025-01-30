@@ -1,0 +1,12 @@
+{
+  "members": {
+    "noMember": "Narių nėra",
+    "oneMember": "1 narys",
+    "members": "{count} nariai (-ų)"
+  },
+  "managers": {
+    "noMember": "Valdytojų nėra",
+    "oneMember": "1 valdytojas",
+    "members": "Valdytojų: {count}"
+  }
+}

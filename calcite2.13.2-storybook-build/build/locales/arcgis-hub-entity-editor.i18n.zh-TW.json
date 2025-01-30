@@ -1,0 +1,1346 @@
+{
+  "success": "已成功儲存編輯內容",
+  "error": "儲存編輯內容時發生錯誤",
+  "formAlert": "表格警示",
+  "create": "建立",
+  "shared": {
+    "notices": {
+      "metrics": {
+        "preview": {
+          "label": "預覽您的指標",
+          "message": "此處所做的變更將顯示在指標預覽中。"
+        }
+      }
+    },
+    "sections": {
+      "metrics": {
+        "basic": {
+          "label": "基本資訊"
+        },
+        "source": {
+          "label": "值"
+        },
+        "formatting": {
+          "label": "正在設定格式"
+        },
+        "sharing": {
+          "label": "正在分享"
+        }
+      },
+      "mapSettings": {
+        "label": "地圖設定"
+      }
+    },
+    "errors": {
+      "urlFormat": "URL 格式不正確"
+    },
+    "fields": {
+      "name": {
+        "maxLengthError": "名稱不得超過 250 個字元"
+      },
+      "title": {
+        "maxLengthError": "標題不得超過 250 個字元"
+      },
+      "summary": {
+        "maxLengthError": "摘要不得超過 2048 個字元"
+      },
+      "purpose": {
+        "maxLengthError": "目的不得超過 2048 個字元"
+      },
+      "_thumbnail": {
+        "label": "縮圖",
+        "sizeDescription": "大小上限為 10mb。 建議的維度: 760 x 505 或更大",
+        "defaultThumbnailNotice": "上傳您自己的縮圖以取代預設值。"
+      },
+      "location": {
+        "none": "無位置",
+        "org": "組織的範圍",
+        "custom": "自訂位置",
+        "customDescription": "繪製一或多個位置",
+        "itemExtent": "項目的目前範圍"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "類型",
+          "sharing": "分享"
+        },
+        "catalog": {
+          "myContent": "我的內容",
+          "favorites": "我的最愛",
+          "organization": "組織",
+          "world": "世界 (公眾)"
+        },
+        "collection": {
+          "appsAndMaps": "應用程式與地圖",
+          "dataset": "資料",
+          "documents": "文件",
+          "feedback": "意見",
+          "sites": "網站",
+          "projects": "專案"
+        }
+      },
+      "metrics": {
+        "allowDynamicLink": {
+          "label": "顯示來源連結"
+        },
+        "cardTitle": {
+          "label": "標題",
+          "message": {
+            "required": "這是必要欄位。"
+          }
+        },
+        "dynamicMetric": {
+          "label": "資料來源"
+        },
+        "value": {
+          "label": "值",
+          "message": {
+            "required": "這是必要欄位。"
+          }
+        },
+        "unit": {
+          "label": "單位",
+          "helperText": "用來設定字首或字尾值，例如 %、+、$ 或其他。 留空不顯示任何內容。"
+        },
+        "unitPosition": {
+          "label": "單位位置",
+          "helperText": "選擇測量單位 (例如「公里」、「磅」) 相對於指標值的顯示位置。",
+          "enum": {
+            "after": {
+              "label": "後值"
+            },
+            "before": {
+              "label": "前值"
+            },
+            "below": {
+              "label": "低於值"
+            }
+          }
+        },
+        "showShareIcon": {
+          "label": "啟用分享",
+          "helperText": {
+            "label": "允許使用者複製此指標的直接連結。"
+          }
+        },
+        "shareableOnHover": {
+          "label": "懸停時顯示",
+          "helperText": {
+            "label": "僅在懸停時顯示分享按鈕。 如果關閉，按鈕一律可見。"
+          }
+        },
+        "sourceLink": {
+          "label": "連結 URL",
+          "message": {
+            "required": "顯示來源的必要連結。"
+          }
+        },
+        "sourceTitle": {
+          "label": "連結文字"
+        },
+        "trailingText": {
+          "label": "尾端文字",
+          "helperText": "輸入任何其他上下文或說明 (顯示在指標值下方)。"
+        },
+        "type": {
+          "label": "類型",
+          "enum": {
+            "dynamic": {
+              "label": "動態",
+              "description": "選擇要摘要的現有資料集 (圖徵服務)。"
+            },
+            "static": {
+              "label": "靜態",
+              "description": "手動輸入要在版面配置中突顯的值。"
+            }
+          }
+        },
+        "valueType": {
+          "label": "值的類型",
+          "helperText": "選擇想要顯示之值的類型。",
+          "enum": {
+            "string": {
+              "label": "文字",
+              "description": "任何單字或片語。 不適合用於數值計算。 （例如，「大街」）"
+            },
+            "number": {
+              "label": "數字",
+              "description": "數值。 可用於計算。 (例如，123)"
+            },
+            "date": {
+              "label": "日期",
+              "description": "行事曆日期值。 不適合用於數值計算。 (例如「1/1/2018」)"
+            }
+          }
+        }
+      },
+      "categories": {
+        "label": "類別",
+        "noCategoriesNotice": {
+          "body": "此組織還沒有任何類別。",
+          "link": "設定類別"
+        }
+      },
+      "download": {
+        "format": {
+          "bip": "BIP",
+          "bmp": "BMP",
+          "bsq": "BSQ",
+          "gif": "GIF",
+          "jpg": "JPG",
+          "jpgPng": "JPG_PNG",
+          "lerc": "LERC",
+          "png": "PNG",
+          "png8": "PNG8",
+          "png24": "PNG24",
+          "png32": "PNG32",
+          "tiff": "TIFF",
+          "csv": "CSV",
+          "excel": "Excel",
+          "featureCollection": "圖徵採集",
+          "filegdb": "File Geodatabase",
+          "geojson": "GeoJSON",
+          "geoPackage": "GeoPackage",
+          "json": "JSON",
+          "kml": "KML",
+          "shapefile": "Shapefile",
+          "sqlite": "SQLite 地理資料庫"
+        },
+        "additionalResource": "{resourceName} (中繼資料分佈)",
+        "dataSourceResource": "資料來源 (中繼資料分佈)",
+        "noTitleResource": "連結 (無標題，中繼資料分佈)"
+      }
+    }
+  },
+  "project": {
+    "sections": {
+      "details": {
+        "label": "詳細資訊"
+      },
+      "basicInfo": {
+        "label": "基本資訊"
+      },
+      "location": {
+        "label": "位置",
+        "helperText": "顯示此專案將發生的地理區域 (出現在專案版面配置上)。"
+      },
+      "status": {
+        "label": "狀態"
+      },
+      "sharing": {
+        "label": "分享"
+      },
+      "timeline": {
+        "label": "時間軸"
+      },
+      "searchDiscoverability": {
+        "label": "搜尋與可探索性"
+      },
+      "featuredContent": {
+        "label": "特色內容",
+        "helperText": "反白與您的專案相關的特定文件、應用程式和資料。 您最多可以選擇 4 個項目。"
+      },
+      "callToAction": {
+        "label": "動作連結",
+        "helperText": "這將在專案頂部顯示為突出的按鈕。 使用它可以將您的受眾傳送至網站、調查、地圖等。"
+      },
+      "embeds": {
+        "label": "特色嵌入",
+        "helperText": "選擇要在專案上反白的 Web 地圖、Web 場景或應用程式。"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "專案名稱",
+        "requiredError": "專案名稱是必要欄位",
+        "maxLengthError": "專案名稱不得超過 250 個字元",
+        "entityTitleValidatorError": "專案名稱不能包含表情符號、<、> 或 = 字元"
+      },
+      "description": {
+        "label": "描述",
+        "helperText": "指定您的專案將如何實現其目標。 考慮包括相關背景資訊和專案預期的變化。"
+      },
+      "summary": {
+        "label": "用途",
+        "helperText": "簡單摘要您的專案目標。"
+      },
+      "access": {
+        "itemType": "專案"
+      },
+      "groups": {
+        "label": "分享給...",
+        "viewGroup": "(檢視群組)",
+        "editGroup": "(編輯群組)"
+      },
+      "_thumbnail": {
+        "helperText": "設定縮圖，在 ArcGIS Online 以及搜索和圖庫中表示此專案。"
+      },
+      "featuredImage": {
+        "label": "特色圖像",
+        "helperText": "選擇圖像來代表您在專案版面配置上的工作。",
+        "sizeDescription": "檔案大小上限為 10mb。 建議的維度: 718 x 478 或更大",
+        "altText": {
+          "label": "更改文字",
+          "helperText": "為使用螢幕助讀程式的人提供圖像的簡短描述。 留空表示圖像是裝飾性的。"
+        }
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "slug 是專案名稱的 URL 友善版本。 它是根據專案名稱自動產生的，但您可以自訂它。",
+        "patternError": "錯誤: Slug 必須是小寫英數字元，並用連字號分隔。",
+        "isUniqueError": "此 slug 已被使用。 請選擇另一個。"
+      },
+      "tags": {
+        "label": "標記",
+        "helperText": "標記是用於搜尋目錄以協助其他人找到此專案。 新增文字並選擇 enter 以建立新標記。"
+      },
+      "categories": {
+        "helperText": "類別是用於搜尋目錄以協助其他人找到此專案。 它們是由您的組織設定。"
+      },
+      "status": {
+        "label": "專案狀態",
+        "enum": {
+          "notStarted": {
+            "label": "未啟動"
+          },
+          "inProgress": {
+            "label": "進行中"
+          },
+          "onHold": {
+            "label": "保留中"
+          },
+          "complete": {
+            "label": "完成"
+          }
+        }
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "類型",
+          "sharing": "分享"
+        }
+      },
+      "callToAction": {
+        "facets": {
+          "type": "類型",
+          "sharing": "正在分享"
+        }
+      },
+      "mapSettings": {
+        "label": "配置地圖在專案上的顯示方式"
+      }
+    }
+  },
+  "initiative": {
+    "sections": {
+      "details": {
+        "label": "詳細資訊"
+      },
+      "basicInfo": {
+        "label": "基本資訊"
+      },
+      "location": {
+        "label": "位置",
+        "helperText": "顯示此倡議將發生的地理區域 (出現在倡議版面配置上)。"
+      },
+      "sharing": {
+        "label": "分享"
+      },
+      "featuredContent": {
+        "label": "特色內容",
+        "helperText": "反白與您的專案相關的特定文件、應用程式和資料。 您最多可以選擇 4 個項目。"
+      },
+      "status": {
+        "label": "狀態"
+      },
+      "hero": {
+        "label": "英雄"
+      },
+      "searchDiscoverability": {
+        "label": "搜尋與可探索性"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "倡議名稱",
+        "requiredError": "倡議名稱為必填欄位",
+        "maxLengthError": "倡議名稱不得超過 250 個字元",
+        "entityTitleValidatorError": "倡議名稱不能包含表情符號、<、> 或 = 字元"
+      },
+      "summary": {
+        "label": "用途",
+        "helperText": "簡單摘要您的倡議目標。"
+      },
+      "access": {
+        "itemType": "倡議"
+      },
+      "description": {
+        "label": "描述",
+        "helperText": "指定您的倡議將如何實現其目標。 考慮包括相關背景資訊和倡議預期的變化。"
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "slug 是倡議名稱的 URL 友善版本。 它是根據倡議名稱自動產生的，但您可以自訂它。",
+        "patternError": "錯誤: Slug 必須是小寫英數字元，並用連字號分隔。",
+        "isUniqueError": "此 slug 已被使用。 請選擇另一個。"
+      },
+      "tags": {
+        "label": "標記",
+        "helperText": "標記是用於搜尋目錄以協助其他人找到此倡議。 新增文字並選擇 enter 以建立新標記。"
+      },
+      "categories": {
+        "helperText": "類別是用於搜尋目錄以協助其他人找到此倡議。 它們是由您的組織設定。"
+      },
+      "_thumbnail": {
+        "helperText": "設定略縮圖，在 ArcGIS Online 以及搜索和圖庫中表示此倡議。"
+      },
+      "groups": {
+        "label": "分享給...",
+        "viewGroup": "(檢視群組)",
+        "editGroup": "(編輯群組)"
+      },
+      "featuredContent": {
+        "facets": {
+          "type": "類型",
+          "sharing": "正在分享"
+        }
+      },
+      "status": {
+        "label": "倡議狀態",
+        "enum": {
+          "notStarted": {
+            "label": "未啟動"
+          },
+          "inProgress": {
+            "label": "進行中"
+          },
+          "onHold": {
+            "label": "保留中"
+          },
+          "complete": {
+            "label": "完成"
+          }
+        }
+      },
+      "hero": {
+        "label": "英雄",
+        "helperText": "英雄會顯示在您的倡議標題上方，並可配備地圖或圖像。",
+        "map": {
+          "label": "地圖",
+          "description": "使用地圖，透過倡議的位置或關聯專案來顯示倡議的目標區域。"
+        },
+        "image": {
+          "label": "圖像",
+          "description": "引人注目的視覺效果可以幫助人們建立聯繫，或採取行動來實現您的目標。"
+        }
+      },
+      "featuredImage": {
+        "label": "圖像",
+        "helperText": "對於您的英雄，請使用橫向圖像。 應用程式將從中心焦點按比例調整圖像大小，以適應不同的螢幕尺寸。 在大螢幕上，最大高度將為 475 像素。",
+        "sizeDescription": "檔案大小上限為 10MB。",
+        "altText": {
+          "label": "替代文字",
+          "helperText": "為使用螢幕助讀程式的人提供圖像的簡短描述。 留空表示圖像是裝飾性的。"
+        }
+      },
+      "groupAccess": {
+        "label": "設定可見性",
+        "helperText": "控制誰可以看到從此倡議中建立的關聯",
+        "private": {
+          "label": "私有",
+          "description": "倡議擁有者和具有存取權的群組都可以看到群組"
+        },
+        "org": {
+          "label": "組織",
+          "description": "所有擁有倡議組織帳號的成員和具有存取權的群組，都可以看到群組"
+        },
+        "public": {
+          "label": "公共",
+          "description": "每個人都能看到此群組"
+        }
+      },
+      "membershipAccess": {
+        "label": "誰能加入此群組?",
+        "org": "僅限我的組織成員",
+        "collab": "僅限夥伴式協同作業和我的組織成員",
+        "any": "任何組織的成員 (建議的預設值)"
+      },
+      "includeInCatalog": {
+        "label": "包含在目錄中",
+        "helperText": "如果啟用，所有關聯的項目將與其他內容一起顯示在倡議的搜尋目錄中。"
+      },
+      "mapSettings": {
+        "label": "配置地圖在倡議上的顯示方式"
+      }
+    }
+  },
+  "discussion": {
+    "sections": {
+      "details": {
+        "label": "詳細資訊"
+      },
+      "basicInfo": {
+        "label": "基本資訊"
+      },
+      "location": {
+        "label": "位置",
+        "helperText": "新增地理區域來設定討論邊界和地圖的預設縮放級別，以便更專注地討論。"
+      },
+      "settings": {
+        "label": "討論"
+      },
+      "searchDiscoverability": {
+        "label": "搜尋與可探索性"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "標題",
+        "requiredError": "討論板名稱為必填項。",
+        "entityTitleValidatorError": "討論名稱不能包含表情符號、<、> 或 = 字元"
+      },
+      "prompt": {
+        "label": "提示",
+        "helperText": "簡單說明您希望參與者在此討論板上提交的內容。",
+        "requiredError": "提示為必填欄位",
+        "maxLengthError": "提示不得超過 150 個字元"
+      },
+      "description": {
+        "label": "描述",
+        "helperText": "提供可能對搜尋此板有幫助的更多內容。"
+      },
+      "_thumbnail": {
+        "helperText": "選擇圖像來代表您的討論。"
+      },
+      "summary": {
+        "label": "摘要",
+        "helperText": "簡單說明此討論板的目的，這在與其他人分享連結時很有幫助。"
+      },
+      "featuredImage": {
+        "label": "特色圖像",
+        "sizeDescription": "大小上限為 10mb、JPEG、JPG 或 PNG",
+        "altText": {
+          "label": "更改文字",
+          "helperText": "為使用螢幕助讀程式的人提供圖像的簡短描述。 留空表示圖像是裝飾性的。"
+        },
+        "name": {
+          "label": "圖像名稱"
+        }
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "slug 是討論名稱的 URL 友善版本。 它是根據討論名稱自動產生的，但您可以自訂它。",
+        "patternError": "錯誤: Slug 必須是小寫英數字元，並用連字號分隔。",
+        "isUniqueError": "此 slug 已被使用。 請選擇另一個。"
+      },
+      "tags": {
+        "label": "標記"
+      },
+      "categories": {
+        "helperText": "類別是用於搜尋目錄以協助其他人找到此討論。 它們是由您的組織設定。"
+      },
+      "discussable": {
+        "label": "允許討論?",
+        "enabled": {
+          "label": "是，允許討論",
+          "description": "參與者可向此討論板新增貼文、回覆和回應。"
+        },
+        "disabled": {
+          "label": "否，封鎖討論",
+          "description": "移除了新增新的貼文、回覆和回應的功能。 不刪除先前的參與。"
+        }
+      },
+      "mapSettings": {
+        "label": "配置地圖在討論板上的顯示方式"
+      }
+    }
+  },
+  "site": {
+    "sections": {
+      "defaultRequiredHelperText": "*表示必填欄位",
+      "basicInfo": {
+        "label": "基本資訊"
+      },
+      "location": {
+        "label": "位置",
+        "helperText": "顯示此網站專屬的地理區域。"
+      },
+      "discussions": {
+        "label": "討論"
+      },
+      "privacy": {
+        "label": "隱私權配置"
+      },
+      "siteUrl": {
+        "label": "網站 URL"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "網站名稱",
+        "requiredError": "網站名稱為必要欄位",
+        "maxLengthError": "網站名稱不得超過 250 個字元",
+        "siteEntityTitleValidatorError": "網站名稱不能包含表情符號或 unicode 字元"
+      },
+      "_thumbnail": {
+        "helperText": "設定略縮圖，在 ArcGIS Online 以及搜索和圖庫中表示此網站。"
+      },
+      "description": {
+        "label": "描述",
+        "helperText": "網站的描述。"
+      },
+      "summary": {
+        "label": "摘要",
+        "helperText": "簡單摘要網站。"
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "slug 是網站名稱的 URL 友善版本。 它是根據網站名稱自動產生的，但您可以自訂它。",
+        "patternError": "錯誤: Slug 必須是小寫英數字元，並用連字號分隔。",
+        "isUniqueError": "此 slug 已被使用。 請選擇另一個。"
+      },
+      "tags": {
+        "label": "標記",
+        "helperText": "標記是用於搜尋目錄以協助其他人找到此網站。 新增文字並選擇 enter 以建立新標記。"
+      },
+      "categories": {
+        "helperText": "類別是用於搜尋目錄以協助其他人找到此網站。 它們是由您的組織設定。"
+      },
+      "discussable": {
+        "label": "顯示即時網站上登入使用者的討論介面 (預設開啟)。",
+        "enabled": {
+          "label": "是，允許討論",
+          "description": "顯示討論介面"
+        },
+        "disabled": {
+          "label": "否，封鎖討論",
+          "description": "隱藏討論介面"
+        }
+      },
+      "followers": {
+        "groupAccess": {
+          "label": "設定可見性",
+          "helperText": "控制誰可以看到追蹤按鈕。 此設定適用於流動的頁內動作追蹤按鈕，和直接嵌入在版面配置上的任何追蹤按鈕。",
+          "private": {
+            "label": "私有",
+            "description": "網站擁有者和具有存取權的群組都可以看到追蹤按鈕"
+          },
+          "org": {
+            "label": "組織",
+            "description": "所有擁有網站組織帳號的成員和具有存取權的群組，都可以看到追蹤按鈕"
+          },
+          "public": {
+            "label": "公共",
+            "description": "所有人都可以看到追蹤按鈕"
+          }
+        },
+        "showFollowAction": {
+          "label": "追蹤動作",
+          "helperText": "將追蹤按鈕新增至頁內動作功能表，當使用者捲動版面配置時該按鈕仍然可見。"
+        },
+        "discussable": {
+          "label": "此群組可以參與討論嗎?",
+          "enabled": {
+            "label": "是，允許討論",
+            "description": "群組成員可以檢視和參與群組有權存取的討論通道。"
+          },
+          "disabled": {
+            "label": "否，封鎖討論",
+            "description": "群組成員無法檢視或參與群組有權存取的討論通道。"
+          }
+        }
+      },
+      "siteUrl": {
+        "isUniqueError": "錯誤: 使用此 URL 的網站已存在。"
+      }
+    }
+  },
+  "page": {
+    "sections": {
+      "basicInfo": {
+        "label": "基本資訊"
+      },
+      "location": {
+        "label": "位置",
+        "helperText": "顯示此頁面專屬的地理區域。"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "頁面名稱",
+        "requiredError": "頁面名稱是必要欄位",
+        "maxLengthError": "頁面名稱不得超過 250 個字元",
+        "entityTitleValidatorError": "頁面名稱不能包含表情符號、<、> 或 = 字元"
+      },
+      "description": {
+        "label": "描述",
+        "helperText": "頁面的描述。"
+      },
+      "summary": {
+        "label": "摘要",
+        "helperText": "簡單摘要頁面。"
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "slug 是頁面名稱的 URL 友善版本。 它是根據頁面名稱自動產生的，但您可以自訂它。",
+        "patternError": "錯誤: Slug 必須是小寫英數字元，並用連字號分隔。",
+        "isUniqueError": "此 slug 已被使用。 請選擇另一個。"
+      },
+      "tags": {
+        "label": "標記",
+        "helperText": "標記是用於搜尋目錄以協助其他人找到此頁面。 新增文字並選擇 enter 以建立新標記。"
+      },
+      "_thumbnail": {
+        "helperText": "設定略縮圖，在 ArcGIS Online 以及搜索和圖庫中表示此頁面。"
+      },
+      "categories": {
+        "helperText": "類別是用於搜尋目錄以協助其他人找到此頁面。 它們是由您的組織設定。"
+      }
+    }
+  },
+  "content": {
+    "fields": {
+      "title": {
+        "label": "標題",
+        "hint": "簡潔的標題將提升整個內容的可探索性。",
+        "requiredError": "標題是必要欄位",
+        "entityTitleValidatorError": "名稱不能包含表情符號、<、> 或 = 字元"
+      },
+      "summary": {
+        "label": "摘要",
+        "hint": "簡單摘要您的內容。 提示: 藉由使用與「標題」或「標記」不同的關鍵字來改善 SEO。"
+      },
+      "description": {
+        "label": "描述",
+        "hint": "新增額外的詳細資訊來解釋您的內容。 鎖定 7-9 年級閱讀水平以接觸廣泛的受眾。 <a href='https://www.webfx.com/tools/read-able/' target='_blank'>使用免費的可讀性分析工具來測試您的文字。</a>"
+      },
+      "tags": {
+        "label": "標記",
+        "hint": "標記是用於搜尋目錄以協助其他人找到此內容。 新增文字並選擇 enter 以建立新標記。"
+      },
+      "categories": {
+        "helperText": "類別是用於搜尋目錄以協助其他人找到此內容。 它們是由您的組織設定。"
+      },
+      "_thumbnail": {
+        "helperText": "設定縮圖，在 ArcGIS Online 以及搜索和圖庫中表示此項目。"
+      },
+      "license": {
+        "label": "使用條款",
+        "helperText": "更少的限制促進更多的重複使用。"
+      },
+      "discussable": {
+        "label": "允許討論?",
+        "enabled": {
+          "label": "是，允許討論",
+          "description": "參與者可向此項目新增貼文、回覆和回應。"
+        },
+        "disabled": {
+          "label": "否，封鎖討論",
+          "description": "移除了新增新的貼文、回覆和回應的功能。 不刪除先前的參與。"
+        }
+      },
+      "serverExtractCapability": {
+        "label": "下載系統",
+        "exportDataSetting": {
+          "label": "匯出資料設定 (建議)",
+          "description": "啟用其他下載格式並提高下載效能。"
+        },
+        "defaultDownloadsSystem": {
+          "label": "預設下載系統",
+          "description": "可能提供較少的格式、較慢的下載速度和較低的可靠性。"
+        },
+        "noFormatConfigurationNotice": {
+          "title": "格式配置不可用",
+          "body": "格式配置需要啟用匯出資料設定。"
+        }
+      },
+      "downloadFormats": {
+        "label": "格式",
+        "helperText": "選擇允許使用者存取的格式，以及它們的顯示順序。 (請注意，您必須至少選擇一種格式)",
+        "downloadsUnavailableNotice": {
+          "title": "下載無法使用",
+          "body": "要下載內容，必須在 ArcGIS Online 上啟用匯出資料設定。 請聯絡項目擁有者以啟用此設定。"
+        }
+      },
+      "schedule": {
+        "manual": {
+          "helperActionText": "若要手動更新此項目的搜尋索引和快取的下載檔案，請使用此選項。"
+        },
+        "forceUpdateButton": {
+          "label": "強制更新",
+          "description": "選擇此選項，然後選擇「儲存」以手動更新此項目的搜尋索引和快取的下載檔案 (如果適用)。"
+        },
+        "unavailableNotice": {
+          "title": "排程更新不可用",
+          "body": "將此內容設為「公開」，以便啟用排程更新。"
+        }
+      }
+    },
+    "sections": {
+      "basic": {
+        "title": "基本資訊",
+        "message": "此資訊是用來填入搜尋結果、圖庫卡並顯示於詳細視圖上。"
+      },
+      "about": {
+        "title": "關於內容",
+        "message": "搜索結果會顯示描述的前兩行，但整個描述將顯示於重點內容視圖中。"
+      },
+      "image": {
+        "title": "特色圖片",
+        "message": "當您在我們的圖庫中，或在突顯倡議、事件和調查等圖片的視圖上展示內容時，擁有優質的特色圖片或縮圖非常重要。 建議的尺寸為 760x505。 如果您在即時路線上顯示的圖片很模糊，請考慮以較大的圖片取代縮圖。"
+      },
+      "location": {
+        "label": "位置",
+        "helperText": "顯示此內容將發生的地理區域 (出現在內容版面配置上)。"
+      },
+      "discussions": {
+        "label": "討論"
+      },
+      "downloads": {
+        "label": "下載",
+        "helperText": "配置下載格式、快取的檔案更新排程等。 有關詳細資訊，請參閱<calcite-link href=\"https://doc.arcgis.com/en/hub/content/data-download-settings.htm\" target=\"_blank\" icon-end=\"launch\">下載文件。</calcite-link>"
+      },
+      "schedule": {
+        "label": "排程更新",
+        "helperText": "Hub 會自動嘗試決定更新內容的最佳時間 (預設)。 但是，您可以設定內容、中繼資料和快取的下載檔案 (如果適用) 的更新頻率。"
+      }
+    },
+    "stringField": {
+      "charCounter": "剩餘 {count} 個字元"
+    },
+    "imageThumbnail": {
+      "label": "縮圖",
+      "upload": "上傳圖像",
+      "done": "完成",
+      "editThumbnail": "編輯縮圖",
+      "browse": "瀏覽圖片",
+      "remove": "移除圖片",
+      "edit": "編輯圖像",
+      "defaultHeading": "新增縮圖",
+      "dropHeading": "拖曳以上傳",
+      "errorHeading": "嘗試不同的圖片",
+      "subheading": "大小上限為 {size}，{types}",
+      "zoomOut": "縮小",
+      "zoomIn": "放大",
+      "drag": "拖曳以重新定位",
+      "urlPlaceholder": "支援的類型: {types}",
+      "browseForImage": "瀏覽圖像",
+      "aria": {
+        "container": "圖片區域",
+        "crop": "裁切區域",
+        "handle": {
+          "top": "調整頂部尺寸",
+          "right": "調整右側尺寸",
+          "left": "調整左側尺寸",
+          "bottom": "調整底部尺寸"
+        }
+      }
+    }
+  },
+  "group": {
+    "sections": {
+      "details": {
+        "label": "詳細資訊"
+      },
+      "basicInfo": {
+        "label": "基本資訊"
+      },
+      "capabilities": {
+        "label": "功能"
+      },
+      "membershipAccess": {
+        "label": "群組成員資格"
+      },
+      "discussions": {
+        "label": "討論"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "標題",
+        "requiredError": "群組標題是必要欄位",
+        "maxLengthError": "群組標題不得超過 250 個字元",
+        "entityTitleValidatorError": "群組名稱不能包含表情符號、<、> 或 = 字元"
+      },
+      "summary": {
+        "label": "摘要",
+        "maxLengthError": "摘要不得超過 250 個字元"
+      },
+      "description": {
+        "label": "描述"
+      },
+      "access": {
+        "label": "誰能檢視此群組?",
+        "private": {
+          "label": "私有",
+          "description": "只有群組成員才能檢視群組。"
+        },
+        "org": {
+          "label": "組織",
+          "description": "只有組織成員才能檢視群組。"
+        },
+        "public": {
+          "label": "任何人 (公眾)",
+          "description": "每個人都能檢視群組。"
+        }
+      },
+      "isSharedUpdate": {
+        "label": "分享的更新",
+        "helperText": "此群組的所有成員皆可編輯群組中的項目。 成員資格僅限於您的組織和您的協同作業組織。"
+      },
+      "isAdmin": {
+        "label": "管理群組",
+        "helperText": "成員無法離開此群組。 唯有群組管理員或擁有者可從此群組中移除成員。 成員資格僅限於您的組織。"
+      },
+      "isOpenData": {
+        "label": "Open Data",
+        "helperText": "允許在 Open Data 網站中存取此群組。",
+        "constError": "非公開的群組無法開啟資料。"
+      },
+      "_thumbnail": {
+        "label": "縮略圖",
+        "helperText": "選擇圖像來代表您在群組設定檔上的群組。",
+        "sizeDescription": "大小上限為 10mb。 建議大小: 400 x 400 或更大"
+      },
+      "membershipAccess": {
+        "label": "誰能加入此群組?",
+        "org": {
+          "description": "僅限我的組織成員",
+          "label": "組織成員"
+        },
+        "collab": {
+          "description": "僅限夥伴式協同作業和我的組織成員",
+          "label": "僅限協同作業者"
+        },
+        "any": {
+          "description": "任何組織的成員",
+          "label": "任何人"
+        },
+        "createFollowers": {
+          "any": "任何組織的成員 (建議的預設值)"
+        },
+        "createAssociation": {
+          "any": "任何組織的成員 (建議的預設值)"
+        },
+        "constError": "管理員群組成員資格僅限於您組織的成員。",
+        "patternError": "分享的更新群組成員資格僅限於您的組織或合作夥伴的協同作業成員。"
+      },
+      "contributeContent": {
+        "label": "誰能貢獻內容?",
+        "members": {
+          "label": "成員",
+          "description": "所有群組成員"
+        },
+        "admins": {
+          "label": "管理員",
+          "description": "群組擁有者和管理員"
+        },
+        "createFollowers": {
+          "admins": "群組擁有者和管理員 (建議的預設值)"
+        },
+        "createAssociation": {
+          "admins": "群組擁有者和管理員 (建議的預設值)"
+        }
+      },
+      "join": {
+        "label": "如何加入此群組",
+        "invite": {
+          "label": "邀請",
+          "description": "僅限邀請"
+        },
+        "request": {
+          "label": "請求",
+          "description": "申請"
+        },
+        "auto": {
+          "label": "他們自己",
+          "description": "自我新增"
+        },
+        "constError": "私人群組必須僅限邀請。",
+        "patternError": "管理員或分享的更新群組必須透過邀請或請求。"
+      },
+      "hiddenMembers": {
+        "label": "誰能在群組的「成員」頁籤上看到完整的成員清單?",
+        "members": {
+          "label": "成員",
+          "description": "所有群組成員"
+        },
+        "admins": {
+          "label": "管理員",
+          "description": "群組擁有者和管理員"
+        }
+      },
+      "discussable": {
+        "label": "此群組可以參與討論嗎?",
+        "enabled": {
+          "label": "是，允許討論",
+          "description": "群組成員可以檢視和參與群組有權存取的討論通道。"
+        },
+        "disabled": {
+          "label": "否，封鎖討論",
+          "description": "群組成員無法檢視或參與群組有權存取的討論通道。"
+        }
+      }
+    }
+  },
+  "initiativeTemplate": {
+    "sections": {
+      "basicInfo": {
+        "label": "基本資訊"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "名稱",
+        "requiredError": "倡議樣板名稱為必填欄位",
+        "entityTitleValidatorError": "倡議樣板名稱不能包含表情符號、<、> 或 = 字元"
+      },
+      "slug": {
+        "label": "Slug",
+        "helperText": "slug 是倡議樣板名稱的 URL 友善版本。 它是根據倡議樣板名稱自動產生的，但您可以自訂它。",
+        "patternError": "錯誤: Slug 必須是小寫英數字元，並用連字號分隔。",
+        "isUniqueError": "此 slug 已被使用。 請選擇另一個。"
+      },
+      "previewUrl": {
+        "label": "預覽連結",
+        "helperText": "預覽連結將會套用到標題，如果您打算公開分享樣板，預覽連結會很有幫助。 連結的開頭必須是 \"https://\"",
+        "formatError": "URL 格式不正確"
+      },
+      "summary": {
+        "label": "摘要",
+        "helperText": "編寫此樣板的簡短描述以顯示在樣板庫中 (建議不超過 90 個字元)。"
+      },
+      "description": {
+        "label": "描述",
+        "helperText": "包含有關如何使用此樣板的資訊。 考慮為其他人提供啟動說明。"
+      },
+      "_thumbnail": {
+        "label": "縮圖",
+        "helperText": "設定縮圖，在 ArcGIS Online 以及搜索和圖庫中表示此樣板。",
+        "sizeDescription": "大小上限為 10mb。 建議大小: 750 x 505 或更大"
+      },
+      "recommendedTemplates": {
+        "label": "建議的樣板",
+        "catalog": {
+          "myContent": "我的內容",
+          "favorites": "我的最愛",
+          "organization": "我的組織",
+          "world": "世界 (公眾)"
+        },
+        "facets": {
+          "sharing": "正在分享"
+        },
+        "pickerTitle": "選擇樣板"
+      }
+    }
+  },
+  "template": {
+    "sections": {
+      "basicInfo": {
+        "label": "基本資訊"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "樣板名稱",
+        "requiredError": "樣板名稱為必填欄位",
+        "maxLengthError": "樣板名稱不得超過 250 個字元",
+        "entityTitleValidatorError": "樣板名稱不能包含表情符號、<、> 或 = 字元"
+      },
+      "previewUrl": {
+        "label": "預覽連結",
+        "helperText": "預覽連結將會套用到標題，如果您打算公開分享樣板，預覽連結會很有幫助。 連結的開頭必須是 \"https://\"",
+        "formatError": "URL 格式不正確"
+      },
+      "description": {
+        "label": "描述",
+        "helperText": "包含有關如何使用此樣板的資訊。 考慮為其他人提供啟動說明。"
+      },
+      "summary": {
+        "label": "摘要",
+        "helperText": "編寫此樣板的簡短描述以顯示在樣板庫中 (建議不超過 90 個字元)。"
+      },
+      "_thumbnail": {
+        "helperText": "選擇圖像來代表您在圖庫中的樣板。"
+      }
+    }
+  },
+  "survey": {
+    "sections": {
+      "basicInfo": {
+        "label": "基本資訊"
+      },
+      "searchDiscoverability": {
+        "label": "搜尋與可探索性"
+      },
+      "settings": {
+        "label": "地圖顯示"
+      }
+    },
+    "fields": {
+      "name": {
+        "label": "調查名稱",
+        "requiredError": "調查名稱為必要欄位",
+        "maxLengthError": "調查名稱不得超過 250 個字元",
+        "entityTitleValidatorError": "調查名稱不能包含表情符號、<、> 或 = 字元"
+      },
+      "description": {
+        "label": "描述",
+        "helperText": "調查的描述。"
+      },
+      "summary": {
+        "label": "摘要",
+        "helperText": "簡單摘要調查。"
+      },
+      "_thumbnail": {
+        "helperText": "設定縮圖，在 ArcGIS Online 以及搜索和圖庫中表示此調查。"
+      },
+      "tags": {
+        "label": "標記",
+        "helperText": "標記是用於搜尋目錄以協助其他人找到此調查。 新增文字並選擇 enter 以建立新標記。"
+      },
+      "categories": {
+        "helperText": "類別是用於搜尋目錄以協助其他人找到此調查。 它們是由您的組織設定。"
+      },
+      "displayMap": {
+        "label": "在 ArcGIS Hub 中開啟後，您的調查應該如何顯示?",
+        "enabled": {
+          "label": "地圖焦點式",
+          "description": "沉浸式地圖體驗，地圖問題優先顯示。"
+        },
+        "disabled": {
+          "label": "標準顯示",
+          "description": "地圖與其餘問題內聯顯示。"
+        },
+        "notice": {
+          "title": "需要地圖問題",
+          "message": "在 Survey123 中發佈帶有地圖問題的調查，以配置 ArcGIS Hub 中的地圖顯示。"
+        }
+      }
+    }
+  },
+  "event": {
+    "fields": {
+      "name": {
+        "label": "標題",
+        "requiredError": "標題是必要欄位",
+        "entityTitleValidatorError": "事件名稱不能包含表情符號、<、> 或 = 字元"
+      },
+      "startDate": {
+        "label": "開始日期",
+        "requiredError": "開始日期是必要欄位",
+        "minDateError": "開始日期不可早於今天"
+      },
+      "endDate": {
+        "label": "結束日期",
+        "requiredError": "結束日期是必要欄位",
+        "minDateError": "結束日期不能早於開始日期"
+      },
+      "date": {
+        "label": "日期",
+        "requiredError": "日期是必要欄位",
+        "minDateError": "日期不可早於今天"
+      },
+      "startTime": {
+        "label": "開始時間",
+        "requiredError": "開始時間是必要欄位"
+      },
+      "endTime": {
+        "label": "結束時間",
+        "requiredError": "結束時間是必要欄位",
+        "minTimeError": "結束時間必須晚於開始時間"
+      },
+      "allDay": {
+        "label": "全天"
+      },
+      "timeZone": {
+        "label": "時區",
+        "requiredError": "時區是必要欄位"
+      },
+      "attendanceType": {
+        "label": "其中",
+        "inPerson": {
+          "label": "親自"
+        },
+        "online": {
+          "label": "線上"
+        },
+        "both": {
+          "label": "兩者"
+        }
+      },
+      "onlineUrl": {
+        "label": "加入線上事件的連結",
+        "requiredError": "線上或混合事件需要 URL",
+        "linkHrefFormatError": "URL 格式不正確"
+      },
+      "description": {
+        "label": "描述",
+        "helperText": "為註冊者新增額外資訊，例如事件類型、目的、議程、攜帶物品、交通等。",
+        "requiredError": "描述是必要欄位"
+      },
+      "inPersonCapacity": {
+        "label": "現場容納人數上限",
+        "requiredError": "現場容納人數上限是必填項",
+        "minimumError": "現場容納人數上限必須大於 0"
+      },
+      "inPersonCapacityType": {
+        "label": "現場註冊人數上限",
+        "unlimited": {
+          "label": "無限制"
+        },
+        "fixed": {
+          "label": "固定"
+        }
+      },
+      "location": {
+        "label": "顯示此事件將發生的地理區域 (出現在事件版面配置上)。"
+      },
+      "onlineCapacityType": {
+        "label": "線上註冊人數",
+        "unlimited": {
+          "label": "無限制"
+        },
+        "fixed": {
+          "label": "固定"
+        }
+      },
+      "onlineCapacity": {
+        "label": "線上人數上限",
+        "requiredError": "線上人數上限是必填項",
+        "minimumError": "線上人數上限必須大於 0"
+      },
+      "onlineDetails": {
+        "label": "線上事件詳細資訊",
+        "helperText": "為註冊者新增額外資訊，例如密碼、撥入資訊等。"
+      },
+      "categories": {
+        "helperText": "類別是用於搜尋目錄以協助其他人找到此事件。 它們是由您的組織設定。"
+      },
+      "tags": {
+        "label": "標記",
+        "helperText": "標記是用於搜尋目錄以協助其他人找到此事件。 新增文字並選擇 enter 以建立新標記。"
+      },
+      "summary": {
+        "label": "摘要",
+        "helperText": "簡單說明此事件的目的，這在與其他人分享連結時很有幫助。"
+      },
+      "allowRegistration": {
+        "label": "允許註冊",
+        "helperText": "需要帳號才能註冊或受邀參加。",
+        "enabled": {
+          "label": "註冊按鈕已啟用",
+          "description": "可以檢視事件的任何成員都可以註冊。"
+        },
+        "disabled": {
+          "label": "註冊按鈕已停用",
+          "description": "註冊僅限受邀者參與，否則不會被追蹤。"
+        }
+      },
+      "notifyAttendees": {
+        "label": "傳送自動通知",
+        "helperText": "事件訂閱者可以收到有關提醒或變更的自動電子郵件通知。 註冊參加的人將自動訂閱。",
+        "enabled": {
+          "label": "已啟用通知",
+          "description": "已針對事件顯示訂閱按鈕。"
+        },
+        "disabled": {
+          "label": "已停用通知",
+          "description": "已針對事件隱藏訂閱按鈕。"
+        }
+      },
+      "referencedContent": {
+        "label": "已連線內容",
+        "helperText": {
+          "label": "連接與此活動相關的一個專案、倡議或網站。"
+        },
+        "facets": {
+          "from": {
+            "label": "從",
+            "myContent": {
+              "label": "我的內容"
+            },
+            "myOrganization": {
+              "label": "我的組織"
+            }
+          },
+          "access": {
+            "label": "存取"
+          }
+        },
+        "catalog": {
+          "organization": "組織"
+        },
+        "collection": {
+          "sites": "網站",
+          "initiatives": "新措施",
+          "projects": "專案"
+        }
+      }
+    },
+    "sections": {
+      "referencedContent": {
+        "label": "已連線內容"
+      },
+      "eventInfo": {
+        "label": "事件資訊"
+      },
+      "dateTime": {
+        "label": "日期與時間"
+      },
+      "location": {
+        "label": "位置"
+      },
+      "discoverability": {
+        "label": "搜尋與可探索性"
+      }
+    }
+  },
+  "user": {
+    "sections": {
+      "userSettings": "使用者偏好設定",
+      "orgSettings": {
+        "label": "組織設定",
+        "signinSettings": {
+          "label": "登入選項",
+          "helperText": "自訂使用者在選擇在您的 Hub 註冊社群帳號時將看到的資訊。"
+        },
+        "siteDefaults": {
+          "label": "網站顯示預設值"
+        }
+      }
+    },
+    "fields": {
+      "enableTermsAndConditions": {
+        "label": "需要在註冊表格上填寫自訂使用條款"
+      },
+      "termsAndConditions": {
+        "label": "使用條款"
+      },
+      "enableSignupText": {
+        "label": "配置自訂註冊歡迎使用訊息"
+      },
+      "workspacePreview": {
+        "label": "啟用工作空間預覽",
+        "helperText": "工作空間可供預覽，但隨著我們擴展功能，工作空間仍在開發中。 您可以在預覽期間隨時停用工作空間。 啟用工作空間只會影響此使用者帳戶。"
+      },
+      "infoBanner": {
+        "label": "資訊橫幅",
+        "helperText": "在所有網站和頁面上顯示員工組織的資訊橫幅 (如果已配置)。 這是全域設定，無法針對特定網站開啟/關閉。",
+        "helperTextWhenDisabled": "您目前並未配置資訊橫幅。 請按一下底下的連結重新導向到 ArcGIS Online，您可以在其中配置資訊橫幅",
+        "goToBannerConfig": "在 ArcGIS Online 中配置資訊橫幅"
+      }
+    },
+    "notice": {
+      "title": "組織管理",
+      "message": "大多數員工和社群 (僅限 Hub Premium) 組織設定現在在 ArcGIS 首頁組織中進行管理。",
+      "communityMessage": "大多數員工和社群 (僅限 Hub Premium) 組織設定現在在 ArcGIS 首頁組織中進行管理。 <br /> <br /> 您的社群組織是",
+      "staffMessage": "大多數員工和社群 (僅限 Hub Premium) 組織設定現在在 ArcGIS 首頁組織中進行管理。 <br /> <br /> 您的員工組織是",
+      "actions": {
+        "goToOrg": "移至組織設定",
+        "goToCommunityOrg": "移至社群組織",
+        "goToStaffOrg": "移至員工組織"
+      }
+    }
+  }
+}

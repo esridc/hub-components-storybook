@@ -1,0 +1,24 @@
+{
+  "shared": {
+    "targetEntities": {
+      "item": "Elementy",
+      "event": "Wydarzenia"
+    }
+  },
+  "targetEntityBlock": {
+    "configured": "Skonfigurowano",
+    "notConfigured": "Nie skonfigurowano"
+  },
+  "targetEntityFlow": {
+    "back": "Zamknij konfigurację: {targetEntity}",
+    "description": "Skonfiguruj: {targetEntity}",
+    "source": {
+      "heading": "Źródło",
+      "description": "Źródła definiują zakres zasobów. Zmodyfikuj wyniki za pomocą parametrów uwzględniania lub wykluczania.<br/><br/>* oznacza pole wymagane"
+    },
+    "collections": {
+      "heading": "Zbiory",
+      "description": "Zreorganizuj zasoby w odrębnych podzbiorach, aby łatwiej je przeglądać i odkrywać.<br/><br/>* oznacza pole wymagane"
+    }
+  }
+}

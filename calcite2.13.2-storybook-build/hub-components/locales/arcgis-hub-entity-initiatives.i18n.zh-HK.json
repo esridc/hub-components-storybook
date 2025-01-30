@@ -1,0 +1,87 @@
+{
+  "initiatives": "新措施",
+  "description": "關聯為長期或大規模努力做出貢獻的倡議。 專案協作者可以管理已確認的關聯和未完成的關聯請求。 已確認關聯的倡議將出現在此專案的視圖上。 ",
+  "shared": {
+    "error": {
+      "title": "發生錯誤",
+      "message": "我們無法完成任務。 請再試一次。"
+    },
+    "facets": {
+      "access": {
+        "label": "正在分享"
+      },
+      "status": {
+        "label": "狀態",
+        "notStarted": "未啟動",
+        "inProgress": "進行中",
+        "onHold": "保留中",
+        "complete": "完成"
+      },
+      "tags": {
+        "label": "標記"
+      }
+    },
+    "requestAssociationCount": {
+      "label": "已確認 {currentConfirmedAndOutgoingRequests} / {maxCurrentAndOutgoingRequestsAllowed} + 傳出請求",
+      "tooltip": "要傳送請求、中斷連線現有關聯和/或傳出請求"
+    }
+  },
+  "requestAssociation": {
+    "findInitiatives": "尋找倡議",
+    "sendRequest": "傳送請求",
+    "success": {
+      "title": "成功",
+      "message": "已傳送關聯請求: {count}"
+    },
+    "alreadyRequesting": {
+      "title": "檢查關聯",
+      "message": "一些選擇已請求關聯。 已傳送新關聯請求: {count}"
+    },
+    "catalog": {
+      "myContent": "我的內容",
+      "favorites": "我的最愛",
+      "organization": "我的組織",
+      "partners": "我的合作夥伴",
+      "community": "我的社群"
+    },
+    "collection": {
+      "initiatives": "新措施"
+    }
+  },
+  "acceptAssociation": {
+    "label": "接受",
+    "limitReachedTooltip": "要接受、中斷連線現有關聯和/或傳出請求",
+    "success": {
+      "title": "成功",
+      "message": "已接收使用 {requestor} 的關聯"
+    }
+  },
+  "cancelRequest": {
+    "label": "取消請求",
+    "success": {
+      "title": "成功",
+      "message": "關閉請求已取消"
+    }
+  },
+  "breakAssociation": {
+    "label": "中斷連線",
+    "success": {
+      "title": "關聯已毀損",
+      "message": "我們已中斷連接此項目與先前的關聯。 但是，我們無法從另一方反轉決定，因此您仍可能在傳入請求中看到它。"
+    }
+  },
+  "associationsGallery": {
+    "sources": "狀態",
+    "catalog": {
+      "associated": "已關聯",
+      "requesting": "傳入請求",
+      "pending": "傳出請求"
+    },
+    "collection": {
+      "initiatives": "新措施"
+    }
+  },
+  "notice": {
+    "label": "表格警示"
+  }
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+  <title>Hub Components: Timeline</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+  <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+  <script type="module" src="../../build/hub-components.esm.js"></script>
+  <script nomodule src="../../build/hub-components.js"></script>
+  <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+  <link rel="stylesheet"
+    href="../calcite-web.min.css">
+</head>
+
+<body>
+  <div class="grid-container padding-leader-2">
+    <div class="column-20 trailer-2 header">
+
+      <calcite-button scale="l" href="/">Home</calcite-button>
+      <h2>arcgis-hub-timeline</h2>
+
+    </div>
+    <div class="column-20">
+      <arcgis-hub-timeline
+        id='myTimeline'
+      />
+    </div>
+
+
+  </div>
+  <script>
+
+    // Set a property on the element
+    function setProp(key, value) {
+      const el = document.querySelector("#myTimeline");
+      el[key] = value;
+    }
+
+    let timelinePojo = {
+      schemaVersion: 1,
+      "title":"The Project We Need",
+      "description":"We Promise to Listen to You!!",
+      "stages": [
+        {
+          "title": "Discuss It Quickly!",
+          "timeframe": "March 3rd, 2022",
+          "stageDescription": "It is important that we do this now, in terms of one thing and another",
+          "key": "stage1",
+          "status": "notStarted"
+        },
+        {
+          "title": "Build It",
+          "timeframe": "07.23.2021",
+          "stageDescription": "This is a 5 point endeavor, here is how the endeavor will be built while we are building it",
+          "key": "stage2",
+          "status": "inProgress"
+        },
+        {
+          "title": "Ship It",
+          "timeframe": "Winter Solstice",
+          "stageDescription": "Enemy should not be the perfect of good",
+          "key": "stage3",
+          "status": "skipped"
+        },
+        {
+          "title": "Measure It",
+          "timeframe": "The First of January",
+          "stageDescription": "We did good work, in my opinion",
+          "key": "stage4",
+          "status": "complete"
+        }
+      ]
+    }
+    setProp('timelineTitle', timelinePojo.title);
+    setProp('description', timelinePojo.description);
+    setProp('stages', timelinePojo.stages);
+
+  </script>
+</body>
+
+</html>

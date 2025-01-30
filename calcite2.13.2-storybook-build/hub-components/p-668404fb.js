@@ -1,0 +1,1 @@
+import{u as r}from"./p-426381f2.js";function t(t,o,n,i){return Promise.all(o.map((async o=>{const u=Object.assign({},{id:t,groupId:o},n);i&&(u.owner=i);try{return await r(u)}catch(r){throw new Error(`Error unsharing item: ${t} with group: ${o}`)}})))}export{t as u}

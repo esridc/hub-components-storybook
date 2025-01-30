@@ -1,0 +1,23 @@
+'use strict';
+
+exports.TIME_INTERVAL = void 0;
+(function (TIME_INTERVAL) {
+  TIME_INTERVAL[TIME_INTERVAL["SECOND"] = 1000] = "SECOND";
+  TIME_INTERVAL[TIME_INTERVAL["MINUTE"] = 60000] = "MINUTE";
+  TIME_INTERVAL[TIME_INTERVAL["HOUR"] = 3600000] = "HOUR";
+  TIME_INTERVAL[TIME_INTERVAL["DAY"] = 86400000] = "DAY";
+  TIME_INTERVAL[TIME_INTERVAL["WEEK"] = 604800000] = "WEEK";
+  TIME_INTERVAL[TIME_INTERVAL["MONTH"] = 2629800000] = "MONTH";
+  TIME_INTERVAL[TIME_INTERVAL["YEAR"] = 31536000000] = "YEAR";
+})(exports.TIME_INTERVAL || (exports.TIME_INTERVAL = {}));
+exports.TIME_UNIT = void 0;
+(function (TIME_UNIT) {
+  TIME_UNIT["SECOND"] = "second";
+  TIME_UNIT["MINUTE"] = "minute";
+  TIME_UNIT["HOUR"] = "hour";
+  TIME_UNIT["DAY"] = "day";
+  TIME_UNIT["WEEK"] = "week";
+  TIME_UNIT["MONTH"] = "month";
+  TIME_UNIT["QUARTER"] = "quarter";
+  TIME_UNIT["YEAR"] = "year";
+})(exports.TIME_UNIT || (exports.TIME_UNIT = {}));

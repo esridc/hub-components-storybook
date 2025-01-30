@@ -1,0 +1,12 @@
+{
+  "members": {
+    "noMember": "Κανένα μέλος",
+    "oneMember": "1 μέλος",
+    "members": "{count} μέλη"
+  },
+  "managers": {
+    "noMember": "Δεν υπάρχουν διαχειριστές",
+    "oneMember": "1 διαχειριστής",
+    "members": "{count} διαχειριστές"
+  }
+}

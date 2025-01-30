@@ -1,0 +1,96 @@
+{
+  "unnamedChannel": "Ikke-navngivet kanal",
+  "name": {
+    "label": "Navn",
+    "placeholder": "{prefix} kanal"
+  },
+  "save": "Gem",
+  "basicInfo": {
+    "label": "Grundlæggende oplysninger"
+  },
+  "access": {
+    "private": {
+      "label": "Privat",
+      "description": "Udvalgte grupper kan deltage. Gruppeadministratorer og ejere bliver automatisk tildelt moderatorroller."
+    },
+    "organization": {
+      "label": "Min organisation",
+      "description": "Alle medlemmer med en konto til {orgName} kan deltage. Organisationsadministratorer og kanalejer bliver automatisk tildelt moderatorroller. Kanalejere kan desuden tilføje grupper, som de er medlem af, ved at klikke på 'Tilføj deltagergruppe' nedenfor.",
+      "disabledTooltip": "Det er kun organisationsadministratorer, der kan oprette organisationskanaler"
+    },
+    "public": {
+      "label": "Offentlig",
+      "description": "Alle medlemmer, der er logget ind, kan deltage. Organisationsadministratorer og kanalejer bliver automatisk tildelt moderatorroller. Kanalejere kan desuden tilføje grupper, som de er medlem af, ved at klikke på 'Tilføj deltagergruppe' nedenfor.",
+      "disabledTooltip": "Det er kun organisationsadministratorer, der kan oprette offentlige kanaler"
+    },
+    "allowAsAnonymous": {
+      "label": "Tillad anonym (kun deltagere, der er logget ind)",
+      "description": "Avataren, navnet og brugernavnet for personer med konti, der laver anonyme opslag, vil ikke være tilgængelige."
+    },
+    "confirmation": {
+      "header": "Er du sikker?",
+      "message": "Hvis du gemmer disse ændringer, fjernes din redigeringsadgang til denne kanal. Det er kun organisationsadministratorer, der kan redigere offentlige kanaler eller organisationskanaler.",
+      "secondary": "Annullér",
+      "primary": "Bekræft"
+    }
+  },
+  "participants": {
+    "label": "Deltagere",
+    "helperText": "De personer, der kan lave opslag, besvare og reagere på diskussionen.",
+    "none": "Ingen deltagere indstillet",
+    "add": "Tilføj deltagergruppe"
+  },
+  "groupPicker": {
+    "title": "Vælg grupper",
+    "facet": {
+      "label": "Fra",
+      "myGroups": "Mine grupper",
+      "myOrganization": "Min organisation",
+      "myCommunity": "Mit fællesskab"
+    }
+  },
+  "blockWords": {
+    "label": "Blokerede ord",
+    "helperText": "Kommasepareret liste. Opslag og svar, der indeholder dem, vil blive skjult automatisk."
+  },
+  "manage": {
+    "label": "Moderatorer",
+    "helperText": "Automatisk tildeling af moderatorer er baseret på deltagervalg. For alle yderligere grupper, der tilføjes kanalen, bliver gruppeejere og administratorer tildelt moderatorroller. Moderatorer kan skjule og vise opslag, tilføje blokerede ord og redigere kanalindstillinger."
+  },
+  "manager": "Administrator",
+  "admin": "Administrator",
+  "viewProfile": "Vis profil",
+  "alerts": {
+    "error": "Fejl under lagring af kanal",
+    "success": "Kanal gemt uden fejl.",
+    "label": "Formularadvarsel"
+  },
+  "validations": {
+    "minChannelGroups": "Private kanaler kræver mindst en deltagergrupper.",
+    "channelNameRequired": "Kanalnavn er obligatorisk",
+    "allowAsAnonymous": "Anonymt opslag understøttes kun af offentlige kanaler.",
+    "blockWords": "Indtast højst 20 blokerede ord/sætninger (indtastninger skal være adskilt af komma, ingen dubletter eller tomme indtastninger)."
+  },
+  "notices": {
+    "edit": "Redigeringer vil have en effekt der, hvor denne kanal anvendes",
+    "duplicate": {
+      "create": {
+        "error": {
+          "title": "Kanal blev ikke oprettet",
+          "message": "En kanal med disse adgangsvalg eksisterer allerede. Brug eksisterende kanal eller skift valg."
+        }
+      },
+      "update": {
+        "error": {
+          "title": "Kanal blev ikke opdateret",
+          "message": "En kanal med disse adgangsvalg eksisterer allerede, så disse opdateringer kan ikke gemmes."
+        }
+      },
+      "action": "Brug eksisterende kanal"
+    },
+    "inaccessibleGroups": {
+      "title": "Utilgængelige grupper: {count}",
+      "message": "Du kan ikke få vist eller administrere utilgængelige grupper, medmindre du er medlem."
+    }
+  }
+}

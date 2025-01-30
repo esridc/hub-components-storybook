@@ -1,0 +1,82 @@
+{
+  "title": "参加",
+  "subtitle": "ディスカッション ボードの表示 (表示できるユーザー) を設定し、下にスクロールして、ボード情報を編集できるユーザーを設定してから、チャンネルで参加とモデレーションを設定します。",
+  "channelTitle": "参加チャンネルが設定されています",
+  "channelDescription": "このチャンネルは、このディスカッション ボードの投稿を追加、表示、モデレートできるユーザーを管理します。",
+  "addChannelsTitle": "チャンネルの設定",
+  "addChannelsDescription": "チャンネルでボードに投稿できるユーザーを管理します。 チャンネルは、グループ、組織、またはすべてのユーザーが開くことができ、多くのディスカッションに適用できます。 さらに、チャンネルでモデレートできるユーザーも管理します。 チャンネルの自動モデレーション時にブロックする単語を設定します。",
+  "privateChannelTitle": "プライベート チャンネルが設定されています",
+  "privateChannelDescription": "このディスカッション ボードに割り当てられたプライベート チャンネルを表示できません。 このチャンネルを削除して既存のチャンネルを選択するか、チャンネルを作成します。",
+  "removeChannelConfirmationMessage": "このディスカッション ボードに投稿が表示されなくなります。 このチャンネルが削除されても、チャンネルを追加できます。",
+  "headingChannelEdit": "チャンネルを編集しています",
+  "headingChannelView": "チャンネルを表示しています",
+  "headingChannelCreate": "チャンネルを作成しています",
+  "buttons": {
+    "browse": "チャンネルの参照",
+    "new": "新しいチャンネル",
+    "removeChannel": "チャンネルの削除",
+    "cancel": "キャンセル"
+  },
+  "alerts": {
+    "label": "フォームの通知",
+    "set": {
+      "title": "成功しました。 チャンネルが設定されています。"
+    },
+    "removed": {
+      "title": "チャンネルが削除されました",
+      "message": "参加用のチャンネルを選択または作成します。"
+    },
+    "error": {
+      "title": "失敗しました。 チャンネルが設定されていません。"
+    }
+  },
+  "galleryPickerTitle": "チャンネルを選択",
+  "channelsLabel": "チャンネル",
+  "accessLabel": "アクセス",
+  "optionPublicLabel": "パブリック",
+  "optionOrganizationLabel": "組織",
+  "optionPrivateLabel": "非公開",
+  "viewChannel": "チャンネルの表示",
+  "editChannel": "チャンネルの編集",
+  "save": "保存",
+  "removeChannel": "チャンネルの削除",
+  "groupPicker": {
+    "facet": {
+      "label": "取得元",
+      "myGroups": "グループ",
+      "myOrganization": "組織",
+      "myCommunity": "コミュニティ"
+    }
+  },
+  "editGroupButtonText": "編集グループの追加",
+  "viewGroupButtonText": "表示グループの追加",
+  "viewGroups": {
+    "header": "表示できるユーザー",
+    "description": "ボードを表示できる (ただし、ボードへの投稿はできない) ユーザー。投稿は下記のチャンネルによって設定されます。"
+  },
+  "editGroups": {
+    "header": "編集可能なユーザー",
+    "description": "グループ メンバーはワークスペースのボード情報を編集できます。"
+  },
+  "aboutChannelsNotice": {
+    "title": "チャンネルの概要",
+    "message": "チャンネルはグループではありませんが、グループも含まれる場合があります。 チャンネルで投稿できるユーザーとモデレートできるユーザーを区別できます。",
+    "action": "チャンネルの詳細"
+  },
+  "nonPrivateChannelNotice": {
+    "title": "チャンネルを編集できません",
+    "message": "このチャンネルを編集できるのはモデレーターだけです。 必要な場合は、チャンネルの所有者または組織の管理者に連絡して追加してください。 さらに、このチャンネルの削除、(自分がモデレーターである) 既存のチャンネルの追加、新しいチャンネルの作成も行えます。"
+  },
+  "privateChannelNotice": {
+    "title": "チャンネルを編集できません",
+    "message": "このチャンネルを編集できるのはモデレーターだけです。 ユーザーの追加が必要な場合は、チャンネルの所有者に連絡してください。 さらに、このチャンネルの削除、(自分がモデレーターである) 既存のチャンネルの追加、新しいチャンネルの作成も行えます。"
+  },
+  "participate": {
+    "header": "参加できるユーザーとモデレートできるユーザー"
+  },
+  "org": "組織",
+  "private": "非公開",
+  "public": "パブリック",
+  "unnamed": "名前の無いチャンネル",
+  "groupNotFound": "グループが見つかりません"
+}

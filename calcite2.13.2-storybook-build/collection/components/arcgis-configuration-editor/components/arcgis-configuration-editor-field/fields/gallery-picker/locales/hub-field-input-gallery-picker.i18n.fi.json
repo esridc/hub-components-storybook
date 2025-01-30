@@ -1,0 +1,13 @@
+{
+  "selectItem": "Valitse sisältö",
+  "selectGroup": "Valitse ryhmä",
+  "selectEvent": "Valitse tapahtuma",
+  "remove": "poista",
+  "launch": "Avaa",
+  "updatedDate": "Päivitetty {updatedDate}",
+  "memberCount": {
+    "noMember": "Ei jäseniä",
+    "oneMember": "1 jäsen",
+    "members": "{count} jäsentä"
+  }
+}

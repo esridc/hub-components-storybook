@@ -1,0 +1,178 @@
+{
+  "projectsTitle": "Projekt",
+  "description": "Associera med bidragande projekt för att spåra framsteg fokuserat över tid eller rum. Initiativets associationsgrupp kan hantera bekräftade associationer och utestående förfrågningar.",
+  "subDescription": "Projekt med bekräftade associationer visas i det här initiativets vy.",
+  "project": "projekt",
+  "initiative": "initiativ",
+  "helpStates": {
+    "noAccess": {
+      "heading": "Ingen åtkomst",
+      "message": "Du har inte åtkomst till att visa associationsgruppen."
+    },
+    "missingGroup": {
+      "heading": "Saknad associationsgrupp",
+      "message": {
+        "overview": "Associationsgruppen kommer att övervaka vilka projekt som länkar och rapporterar till initiativet.",
+        "members": "Medlemmar i den här gruppen kommer att kunna skicka eller godkänna associationsförfrågningar."
+      },
+      "action": "Skapa grupp",
+      "formLabel": "Ny associationsgrupp",
+      "description": "Skapa en associationsgrupp för att hantera anslutningar"
+    },
+    "requestsWaiting": {
+      "heading": "Saknad associationsgrupp",
+      "message": {
+        "overview": "Associationsgruppen kommer att övervaka vilka projekt som länkar och rapporterar till initiativet.",
+        "members": "Medlemmar i den här gruppen kommer att kunna skicka eller godkänna associationsförfrågningar.",
+        "requests": "Väntande projektförfrågningar: {count}"
+      },
+      "action": "Skapa grupp",
+      "formLabel": "Ny associationsgrupp",
+      "description": "Skapa en associationsgrupp för att hantera anslutningar"
+    }
+  },
+  "shared": {
+    "project": "projekt",
+    "associationGroup": "associationsgrupp",
+    "error": {
+      "title": "Det uppstod ett fel",
+      "message": "Du kan sakna tillräcklig åtkomst för att skicka eller hantera en association med denna {type}."
+    },
+    "facets": {
+      "access": {
+        "label": "Delning"
+      },
+      "status": {
+        "label": "Status",
+        "notStarted": "Inte startad",
+        "inProgress": "Pågår",
+        "onHold": "Väntande",
+        "complete": "Fullständig"
+      },
+      "tags": {
+        "label": "Taggar"
+      }
+    },
+    "tabs": {
+      "projects": "Projekt",
+      "members": "Medlemmar",
+      "settings": "Inställningar"
+    },
+    "disabledActionTooltip": "Endast gruppledare kan hantera associationen med denna {type}."
+  },
+  "createAssociationGroup": {
+    "defaultSummary": "Hantera objekten som är associerade med {name} {type} som använder en associationsgrupp."
+  },
+  "members": {
+    "facets": {
+      "role": {
+        "label": "Roll",
+        "all": "Alla",
+        "manager": "Ledare",
+        "member": "Medlem"
+      },
+      "dateJoined": {
+        "label": "Anslutningsdatum"
+      }
+    },
+    "addMembers": {
+      "button": "Lägg till medlemmar",
+      "modal": {
+        "title": "Lägg till medlemmar",
+        "org": "Min organisation",
+        "community": "Min community",
+        "partner": "Mina partners",
+        "world": "Världen"
+      },
+      "notifications": {
+        "invited": "Inbjudan har skickats. Användare måste acceptera att gå med",
+        "added": "Användare har lagts till",
+        "notInvited": "Vissa medlemmar kanske inte har de behörigheter som krävs för att gå med i gruppen eller så har de gått med i maximalt antal grupper (512)"
+      }
+    },
+    "removeUsers": {
+      "button": "Ta bort",
+      "success": "Medlemmar har tagits bort från {groupName}.",
+      "error": "En eller flera användare kunde inte tas bort från gruppen."
+    },
+    "changeRole": {
+      "button": "Ändra roll",
+      "member": "Medlem",
+      "memberHelperText": "Kan lägga till och se innehåll inom gruppen.",
+      "tooltipText": "Avmarkera dig själv och/eller gruppägaren",
+      "tooltipLabel": "Rollfriskrivning",
+      "admin": "Ledare",
+      "adminHelperText": "Kan lägga till/ta bort innehåll och bjuda in/ta bort personer (utom ägaren).",
+      "success": "Valda medlemmar blev grupp{role}.",
+      "error": "Rollen kunde inte ändras för en eller flera medlemmar."
+    },
+    "stats": {
+      "total": {
+        "title": "Totalt",
+        "trailingText": "Medlemmar"
+      },
+      "new": {
+        "title": "Ny",
+        "trailingText": "Senaste 30 dagarna"
+      }
+    }
+  },
+  "projects": {
+    "requestAssociation": {
+      "findProjects": "Hitta projekt",
+      "sendRequest": "Skicka förfrågan",
+      "success": {
+        "title": "Lyckades",
+        "message": "Associationsförfrågningar har skickats: {count}"
+      },
+      "alreadyRequesting": {
+        "title": "Kontrollera associationer",
+        "message": "Vissa urval har redan begärd association. Nya associationsförfrågningar har skickats: {count}"
+      },
+      "catalog": {
+        "myContent": "Mitt innehåll",
+        "favorites": "Favoriter",
+        "organization": "Organisation",
+        "world": "Världen (Offentlig)"
+      },
+      "collection": {
+        "projects": "Projekt"
+      }
+    },
+    "acceptAssociation": {
+      "label": "Acceptera",
+      "success": {
+        "title": "Lyckades",
+        "message": "Association har accepterats med {requestor}"
+      }
+    },
+    "cancelRequest": {
+      "label": "Avbryt förfrågan",
+      "success": {
+        "title": "Lyckades",
+        "message": "Associationsförfrågan har avbrutits"
+      }
+    },
+    "breakAssociation": {
+      "label": "Koppla från",
+      "success": {
+        "title": "Associationen är bruten",
+        "message": "Vi har frånkopplat det här objektet från dess tidigare association. Vi kan inte upphäva beslutet från den andra sidan så du kanske fortfarande ser det i inkommande förfrågningar."
+      }
+    },
+    "associationsGallery": {
+      "sources": "Status",
+      "catalog": {
+        "associated": "Associerad",
+        "requesting": "Inkommande förfrågningar",
+        "pending": "Utgående förfrågningar"
+      },
+      "collection": {
+        "projects": "Projekt"
+      }
+    }
+  },
+  "notice": {
+    "label": "Formulärvarning"
+  }
+}

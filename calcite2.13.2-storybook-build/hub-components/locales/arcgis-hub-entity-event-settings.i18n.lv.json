@@ -1,0 +1,49 @@
+{
+  "settings": "Iestatījumi",
+  "advanced": "Papildus",
+  "delete": {
+    "event": "Dzēst šo pasākumu",
+    "desc": "Šī pasākuma dzēšanu nevar atsaukt. Esošie reģistranti saņems paziņojumu (ja šim pasākumam ir iespējoti automātiskie paziņojumi).",
+    "deleteButton": "Dzēst notikumu"
+  },
+  "cancel": {
+    "header": "Atcelt šo pasākumu",
+    "desc": "Atcelšanas gadījumā pasākums paliks redzams ar atceltu statusu. Reģistrācija tiks pārtraukta, un esošie reģistranti saņems paziņojumu (ja pasākumam ir iespējoti automātiskie paziņojumi).",
+    "event": "Atcelt notikumu",
+    "notice": {
+      "success": {
+        "title": "Notikums atcelts",
+        "message": "Esošie reģistranti saņems paziņojumu, ja ir iespējoti automātiskie paziņojumi."
+      },
+      "error": {
+        "title": "Nevar atcelt pasākumu",
+        "message": "Lūdzu, mēģiniet vēlreiz"
+      }
+    }
+  },
+  "enable": {
+    "event": "Atkārtoti iespējot notikumu",
+    "desc": "Pasākums atcelts (redzams ar atceltu statusu).",
+    "notice": {
+      "success": {
+        "title": "Pasākums iespējots atkārtoti",
+        "message": "Esošie reģistranti saņems paziņojumu, ja ir iespējoti automātiskie paziņojumi."
+      },
+      "error": {
+        "title": "Pasākumu nevar iespējot atkārtoti",
+        "message": "Lūdzu, mēģiniet vēlreiz"
+      }
+    }
+  },
+  "deleteModal": {
+    "header": {
+      "event": "Dzēst notikumu"
+    },
+    "content": "Vai tiešām vēlaties dzēst:",
+    "delete": "Dzēst notikumu",
+    "cancel": "Atcelt notikumu"
+  },
+  "notice": {
+    "label": "Veidlapas brīdinājums"
+  }
+}

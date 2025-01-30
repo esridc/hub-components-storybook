@@ -1,0 +1,48 @@
+{
+  "formats": {
+    "bip": "BIP",
+    "bmp": "BMP",
+    "bsq": "BSQ",
+    "gif": "GIF",
+    "jpg": "JPG",
+    "jpgPng": "JPG_PNG",
+    "lerc": "LERC",
+    "png": "PNG",
+    "png8": "PNG8",
+    "png24": "PNG24",
+    "png32": "PNG32",
+    "tiff": "TIFF",
+    "csv": "CSV",
+    "excel": "Excel",
+    "featureCollection": "Zbirka geoobjektov",
+    "fgdb": "File Geodatabase",
+    "geojson": "GeoJSON",
+    "geoPackage": "GeoPackage",
+    "json": "JSON",
+    "kml": "KML",
+    "shapefile": "Shapefile",
+    "sqlite": "Geopodatkovna baza SQLite"
+  },
+  "buttonText": {
+    "download": "Prenesi",
+    "pending": "Na čakanju",
+    "processing": "Procesiranje",
+    "converting": "Pretvarjanje",
+    "completed": "Prenašanje končano",
+    "failed": "Prenos ni uspel"
+  },
+  "errors": {
+    "errorHeading": "Napaka"
+  },
+  "cacheStatusAccordion": {
+    "heading": "Ste našli, kar potrebujete?",
+    "content": "Morda je na voljo novejša različica.",
+    "button": "Zahtevaj novo datoteko"
+  },
+  "generateNewModal": {
+    "heading": "Ste prepričani?",
+    "content": "To lahko traja nekaj časa. Ta zavihek brskalnika naj bo aktiven, dokler se prenos ne konča.",
+    "confirmButton": "Da",
+    "cancelButton": "Prekliči"
+  }
+}

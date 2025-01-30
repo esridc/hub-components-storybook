@@ -1,0 +1,16 @@
+{
+  "all": "Vse",
+  "source": "Vir",
+  "targetEntity": {
+    "item": "Elementi",
+    "group": "Skupine",
+    "user": "Uporabniki",
+    "portalUser": "Uporabniki portala",
+    "communityUser": "Uporabniki skupnosti",
+    "groupMember": "Člani skupine",
+    "event": "Dogodki",
+    "channel": "Kanali",
+    "discussionPost": "Objave",
+    "eventAttendee": "Registranti dogodka"
+  }
+}

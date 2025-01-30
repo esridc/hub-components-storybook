@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "Erste Aktion hinzufügen",
+  "addSecondAction": "Zweite Aktion hinzufügen",
+  "addLink": "Link hinzufügen",
+  "addSection": "Abschnitt hinzufügen",
+  "deleteNotice": {
+    "title": "Löschen nicht möglich",
+    "message": "Abschnitt ist nicht leer. Verschieben Sie alle Links außerhalb des Abschnitts, bevor Sie ihn löschen."
+  },
+  "linkEditor": {
+    "save": "Speichern",
+    "delete": "Löschen",
+    "cancel": "Abbrechen",
+    "preview": "Vorschau-Link",
+    "title": {
+      "button1": "Erste Aktion",
+      "button2": "Zweite Aktion",
+      "block": "Aktions-Link"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "Link zum vorhandenen Inhalt"
+        },
+        "external": {
+          "label": "Link zu einer externen Quelle"
+        }
+      },
+      "label": {
+        "label": "Beschriftung",
+        "helperText": {
+          "button": "Dieser Text wird auf der Schaltfläche angezeigt.",
+          "block": "Dies wird im Block fett formatiert."
+        },
+        "requiredError": "\"Beschriftung\" ist ein erforderliches Feld."
+      },
+      "description": {
+        "label": "Beschreibung",
+        "helperText": "Dies sind Sekundärinformationen."
+      },
+      "href": {
+        "label": "Link",
+        "requiredError": "\"Link\" ist erforderliches Feld.",
+        "formatError": "URL-Formatierung ist falsch."
+      },
+      "contentId": {
+        "label": "Inhalts-Link",
+        "requiredError": "\"Inhalts-Link\" ist ein erforderliches Feld."
+      },
+      "section": {
+        "label": "In Abschnitt verschieben",
+        "placeholder": {
+          "noSections": "Es wurden keine Abschnitte konfiguriert.",
+          "notSet": "Nicht im Abschnitt"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "Abschnitt",
+    "helperText": "Abschnitte können verwendet werden, um Links in einem Menüelement zu verschachteln. Abschnitte fungieren nicht als Link.",
+    "section": {
+      "label": {
+        "label": "Beschriftung",
+        "requiredError": "\"Beschriftung\" ist ein erforderliches Feld."
+      },
+      "description": {
+        "label": "Beschreibung"
+      }
+    }
+  }
+}

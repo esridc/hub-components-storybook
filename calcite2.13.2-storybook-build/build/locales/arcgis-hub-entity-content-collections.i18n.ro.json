@@ -1,0 +1,33 @@
+{
+  "title": "Colecții",
+  "actions": {
+    "label": "Opțiuni",
+    "show": "Afişare",
+    "hide": "Ascundere",
+    "rename": "Redenumire"
+  },
+  "formAlert": "Alertă formular",
+  "alertMessages": {
+    "success": "Editările au fost salvate cu succes",
+    "error": "Eroare la salvarea editărilor"
+  },
+  "collectionRenameModal": {
+    "title": "Redenumiți colecția",
+    "fieldLabel": "Etichetă colecție",
+    "requiredMessage": "Este necesară o etichetă pentru colecție",
+    "apply": "Aplicare",
+    "maxLengthMessage": "Eticheta de colecție nu trebuie să depășească 50 de caractere"
+  },
+  "collections": {
+    "dataset": "Date",
+    "site": "Site-uri",
+    "document": "Documente",
+    "appAndMap": "Aplicații și hărți"
+  },
+  "saveButton": "Salvare",
+  "sections": {
+    "collectionConfiguration": {
+      "title": "Configurație colecție"
+    }
+  }
+}

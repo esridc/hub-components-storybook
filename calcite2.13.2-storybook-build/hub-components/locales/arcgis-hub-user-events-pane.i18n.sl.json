@@ -1,0 +1,29 @@
+{
+  "header": "Dogodki",
+  "myContent": "Moji dogodki",
+  "editableContent": "Vsebina, ki jo je mogoče urejati",
+  "addEventButtonText": "Ustvari dogodek",
+  "type": "Tip",
+  "sharedUpdate": "Skupina za posodabljanje v skupni rabi",
+  "viewOnly": "Skupina samo za ogled",
+  "owner": "Ustvarjeno s strani",
+  "starts": "Vklop",
+  "from": "Od",
+  "until": "Do",
+  "updated": "Posodobljeno",
+  "tags": "Oznake",
+  "dateCreated": "Ustvarjeno",
+  "dateUpdated": "Spremenjeno",
+  "actionLinks": {
+    "view": "Ogled",
+    "edit": "Uredi",
+    "ariaEdit": "Uredi: {title}",
+    "ariaView": "Ogled: {title}"
+  },
+  "access": {
+    "label": "Dostop",
+    "PRIVATE": "Zasebno",
+    "ORG": "Organizacija",
+    "PUBLIC": "Javno"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "followers": "팔로워",
+  "tabs": {
+    "followers": "팔로워",
+    "settings": "설정"
+  },
+  "addFollowers": {
+    "label": "팔로워 추가"
+  },
+  "emptyState": {
+    "message": "사이트에 팔로워 그룹이 없음",
+    "action": "팔로워 그룹 생성"
+  },
+  "createFollowersGroup": {
+    "formDescription": "콘텐츠 공유 및 커뮤니케이션을 용이하게 하기 위해 그룹 설정",
+    "defaultSummary": "이 팔로워 그룹을 통해 구성원이 보다 쉽게 콘텐츠를 공유하고 서로 커뮤니케이션할 수 있습니다."
+  },
+  "restrictedAccessState": {
+    "message": "팔로워 그룹을 볼 수 있는 접근 권한이 없습니다.",
+    "action": "접근 권한 요청"
+  },
+  "stats": {
+    "total": {
+      "title": "총계",
+      "trailingText": "팔로워"
+    },
+    "new": {
+      "title": "신규",
+      "trailingText": "지난 30일"
+    }
+  },
+  "addMembers": {
+    "button": "구성원 추가",
+    "modal": {
+      "title": "구성원 추가",
+      "org": "내 기관",
+      "community": "내 커뮤니티",
+      "partner": "내 파트너",
+      "world": "전 세계"
+    },
+    "notifications": {
+      "invited": "초대를 전송했습니다. 사용자가 가입하려면 이를 수락해야 합니다.",
+      "added": "사용자 추가함",
+      "notInvited": "일부 사용자에게 그룹에 가입하는 데 필요한 권한이 없거나, 그룹 최대 한도(512개)에 도달했을 수 있습니다."
+    }
+  },
+  "removeUsers": {
+    "button": "제거",
+    "success": "구성원이 {groupName}에서 제거되었습니다.",
+    "error": "한 명 이상의 사용자를 그룹에서 제거할 수 없습니다."
+  },
+  "changeRole": {
+    "button": "역할 변경",
+    "member": "구성원",
+    "memberHelperText": "그룹 내의 콘텐츠를 추가하고 확인할 수 있습니다.",
+    "tooltipText": "본인 및/또는 그룹 소유자 선택 해제",
+    "tooltipLabel": "역할 고지사항",
+    "admin": "관리자",
+    "adminHelperText": "콘텐츠를 추가/제거하고 사용자를 초대/제거할 수 있습니다(소유자 제외).",
+    "success": "선택된 구성원이 {role} 그룹이 되었습니다.",
+    "error": "하나 이상의 구성원에 대한 역할을 변경할 수 없습니다."
+  },
+  "notice": {
+    "label": "양식 알림"
+  }
+}

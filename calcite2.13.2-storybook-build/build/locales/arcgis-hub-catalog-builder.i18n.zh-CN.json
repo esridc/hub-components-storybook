@@ -1,0 +1,24 @@
+{
+  "shared": {
+    "targetEntities": {
+      "item": "项目",
+      "event": "活动"
+    }
+  },
+  "targetEntityBlock": {
+    "configured": "已配置",
+    "notConfigured": "未配置"
+  },
+  "targetEntityFlow": {
+    "back": "关闭配置：{targetEntity}",
+    "description": "配置：{targetEntity}",
+    "source": {
+      "heading": "源",
+      "description": "源用于定义内容的范围。 可以通过包含或排除参数来修改结果。<br/><br/>*指示必填字段"
+    },
+    "collections": {
+      "heading": "集合",
+      "description": "将内容组织到不同的子集中，以便于浏览和发现。<br/><br/>*指示必填字段"
+    }
+  }
+}

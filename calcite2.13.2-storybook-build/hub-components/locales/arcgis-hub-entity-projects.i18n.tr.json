@@ -1,0 +1,178 @@
+{
+  "projectsTitle": "Projeler",
+  "description": "Odaklanılan zaman veya mekandaki ilerlemeyi izlemek için katkıda bulunan projelerle ilişkilendirin. İnisiyatifin ilişkili grubu, onaylanmış ilişkilendirmeleri ve bekleyen ilişkilendirme taleplerini yönetir.",
+  "subDescription": "Onaylanmış ilişkiler içeren projeler bu inisiyatifin görünümünde görünecektir.",
+  "project": "proje",
+  "initiative": "inisiyatif",
+  "helpStates": {
+    "noAccess": {
+      "heading": "Erişim yok",
+      "message": "İlişki grubunu görüntülemek için erişiminiz yok."
+    },
+    "missingGroup": {
+      "heading": "İlişki grubu eksik",
+      "message": {
+        "overview": "Hangi projelerin inisiyatife bağlanacağı ve raporlanacağı ilişkilendirme grubu tarafından denetlenecektir.",
+        "members": "Bu grubun üyeleri ilişkilendirme talepleri gönderebilecek veya onaylayabilecektir."
+      },
+      "action": "Grup oluştur",
+      "formLabel": "Yeni ilişki grubu",
+      "description": "Bağlantıları yönetmek için bir ilişki grubu oluşturun"
+    },
+    "requestsWaiting": {
+      "heading": "İlişki grubu eksik",
+      "message": {
+        "overview": "Hangi projelerin inisiyatife bağlanacağı ve raporlanacağı ilişkilendirme grubu tarafından denetlenecektir.",
+        "members": "Bu grubun üyeleri ilişkilendirme talepleri gönderebilecek veya onaylayabilecektir.",
+        "requests": "Bekleyen proje talepleri: {count}"
+      },
+      "action": "Grup oluştur",
+      "formLabel": "Yeni ilişki grubu",
+      "description": "Bağlantıları yönetmek için bir ilişki grubu oluşturun"
+    }
+  },
+  "shared": {
+    "project": "proje",
+    "associationGroup": "ilişki grubu",
+    "error": {
+      "title": "Bir şey ters gitti",
+      "message": "Bir ilişki göndermek veya bu {type} ile yönetmek için yeterli erişiminiz olmayabilir."
+    },
+    "facets": {
+      "access": {
+        "label": "Paylaşım"
+      },
+      "status": {
+        "label": "Durum",
+        "notStarted": "Başlatılmadı",
+        "inProgress": "Devam ediyor",
+        "onHold": "Beklemede",
+        "complete": "Tamamlandı"
+      },
+      "tags": {
+        "label": "Etiketler"
+      }
+    },
+    "tabs": {
+      "projects": "Projeler",
+      "members": "Üyeler",
+      "settings": "Ayarlar"
+    },
+    "disabledActionTooltip": "Bu {type} ile ilişkiyi yalnızca grup yöneticileri yönetebilir."
+  },
+  "createAssociationGroup": {
+    "defaultSummary": "Bir ilişki grubu kullanarak {name} {type} ile ilişkilendirilmiş ögeleri yönetin."
+  },
+  "members": {
+    "facets": {
+      "role": {
+        "label": "Rol",
+        "all": "Tümü",
+        "manager": "Yönetici",
+        "member": "Üye"
+      },
+      "dateJoined": {
+        "label": "Katıldığı tarih"
+      }
+    },
+    "addMembers": {
+      "button": "Üye ekle",
+      "modal": {
+        "title": "Üye ekle",
+        "org": "Kuruluşum",
+        "community": "Topluluğum",
+        "partner": "İş ortaklarım",
+        "world": "Dünya"
+      },
+      "notifications": {
+        "invited": "Davet gönderildi. Kullanıcılar katılmayı kabul etmelidir",
+        "added": "Kullanıcı/kullanıcılar eklendi",
+        "notInvited": "Bazı kullanıcılar gruba katılmak için gereken ayrıcalıklara sahip olmayabilir veya grup maksimum sınırında (512) olabilir"
+      }
+    },
+    "removeUsers": {
+      "button": "Kaldır",
+      "success": "Üyeler {groupName} grubundan başarıyla kaldırıldı.",
+      "error": "Bir veya daha fazla kullanıcı gruptan kaldırılamadı."
+    },
+    "changeRole": {
+      "button": "Rolü değiştir",
+      "member": "Üye",
+      "memberHelperText": "Grup içinde içerik ekleyebilir ve içeriği görebilir.",
+      "tooltipText": "Kendinizin ve/veya grup sahibinin seçimini kaldırın",
+      "tooltipLabel": "Rol yasal uyarısı",
+      "admin": "Yönetici",
+      "adminHelperText": "İçerik ekleyebilir/kaldırabilir ve kişi davet edebilir/kaldırabilir (sahibi hariç).",
+      "success": "Seçili üyeler {role} grubu oldu.",
+      "error": "Bir veya daha fazla üye için rol değiştirilemedi."
+    },
+    "stats": {
+      "total": {
+        "title": "Toplam",
+        "trailingText": "Üyeler"
+      },
+      "new": {
+        "title": "Yeni",
+        "trailingText": "Son 30 gün"
+      }
+    }
+  },
+  "projects": {
+    "requestAssociation": {
+      "findProjects": "Projeleri bul",
+      "sendRequest": "Talep gönder",
+      "success": {
+        "title": "Başarılı",
+        "message": "İlişki talepleri gönderildi: {count}"
+      },
+      "alreadyRequesting": {
+        "title": "İlişkilere göz at",
+        "message": "Bazı seçimler zaten ilişki talep etmiştir. Yeni ilişki talepleri gönderildi: {count}"
+      },
+      "catalog": {
+        "myContent": "İçeriğim",
+        "favorites": "Sık kullanılanlar",
+        "organization": "Kuruluş",
+        "world": "Dünya (Genel)"
+      },
+      "collection": {
+        "projects": "Projeler"
+      }
+    },
+    "acceptAssociation": {
+      "label": "Kabul et",
+      "success": {
+        "title": "Başarılı",
+        "message": "{requestor} ile ilişki kabul edildi"
+      }
+    },
+    "cancelRequest": {
+      "label": "Talebi iptal et",
+      "success": {
+        "title": "Başarılı",
+        "message": "İlişki talebi iptal edildi"
+      }
+    },
+    "breakAssociation": {
+      "label": "Bağlantıyı kes",
+      "success": {
+        "title": "İlişki koptu",
+        "message": "Bu ögenin önceki ilişkisi ile bağlantısını kopardık. Bununla birlikte kararı karşı taraftan geri alamadığımız için gelen taleplerde görmeye devam edebilirsiniz."
+      }
+    },
+    "associationsGallery": {
+      "sources": "Durum",
+      "catalog": {
+        "associated": "İlişkili",
+        "requesting": "Gelen talepler",
+        "pending": "Gönderilen talepler"
+      },
+      "collection": {
+        "projects": "Projeler"
+      }
+    }
+  },
+  "notice": {
+    "label": "Biçim uyarısı"
+  }
+}

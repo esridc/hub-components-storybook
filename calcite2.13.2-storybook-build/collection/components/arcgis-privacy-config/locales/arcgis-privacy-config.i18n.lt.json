@@ -1,0 +1,29 @@
+{
+  "additionalInfo": {
+    "label": "Neprivalomi vaizdavimo nustatymai",
+    "helperText": "Pridėkite savo privatumo aprašą ir politikos informaciją."
+  },
+  "allowPrivacyConfig": {
+    "label": "Rodyti privatumo pranešimą"
+  },
+  "blocking": {
+    "label": "Pranešimo tipas",
+    "optional": {
+      "label": "Sutikimas neprivalomas",
+      "description": "Lankytojas gali naudoti svetainę nepasirinkęs privatumo sutikimo; sekimas pradedamas iš karto ir tęsiamas, kol lankytojas nurodo, kad su juo nesutinka."
+    },
+    "required": {
+      "label": "Reikalauti sutikimo",
+      "description": "Lankytojas turi sutikti arba nesutikti būti sekamas, kad galėtų naudoti svetainę; sekimas pradedamas, tik kai lankytojas su juo sutinka."
+    }
+  },
+  "consentText": {
+    "label": "Privatumo aprašas",
+    "helperText": "Pateikiamas svetainės lankytojui privatumo pranešime."
+  },
+  "policyURL": {
+    "label": "Politikos nuoroda",
+    "helperText": "Privatumo sutikime pateikiama kaip nuoroda „Daugiau informacijos“.",
+    "error": "Kad būtų rodoma, URL turi galioti."
+  }
+}

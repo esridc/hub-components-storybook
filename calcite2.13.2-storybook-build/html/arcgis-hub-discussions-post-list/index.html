@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Hub Components: Discussions Post List</title>
+
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      calcite-notice {
+        margin-top: 4rem;
+      }
+
+      .lists {
+        background-color: gray;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 0.5rem;
+        row-gap: 0.5rem;
+        padding: 0.5rem;
+        height: calc(100vh - 5rem);
+      }
+
+      .list {
+        background-color: #fff;
+        position: relative;
+        height: calc(100% - 1rem);
+        overflow: auto;
+        padding: 0.5rem;
+      }
+
+      .list h5 {
+        font-size: 16px;
+        margin: 0;
+        padding: 5px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 401;
+        background-color: #eee;
+        border: solid 1px #666;
+        border-radius: 0 0 0 5px;
+        opacity: 0.5;
+      }
+    </style>
+    <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/fonts/v1.4.1/fonts.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "@arcgis/core/": "https://js.arcgis.com/4.31/@arcgis/core/"
+        }
+      }
+    </script>
+    <script type="module" src="../../build/hub-components.esm.js"></script>
+    <script nomodule src="../../build/hub-components.js"></script>
+    <link rel="stylesheet" href="../../calcite/calcite.css" />
+  <link rel="stylesheet" href="../../build/hub-components.css" />
+    <script type="module" src="../../calcite/calcite.esm.js"></script>
+    <link rel="stylesheet" href="../calcite-web.min.css" />
+  </head>
+  <body>
+    <script src="https://unpkg.com/@esri/arcgis-rest-request@3.4.3/dist/umd/request.umd.min.js"></script>
+    <script src="https://unpkg.com/@esri/arcgis-rest-auth@3.4.3/dist/umd/auth.umd.min.js"></script>
+    <arcgis-app-identity client-id="EF9uxuFlOrgf7WpI" redirect-uri="http://localhost:3333/html/redirect.html" portal="https://qaext.arcgis.com"> </arcgis-app-identity>
+    <harness-header page-title="Discussion Post List"></harness-header>
+    <calcite-notice open kind="info" scale="s" width="full" icon>
+      <div slot="message">This component requires authentication to render. Please auth as juliana_pa on QA.</div>
+    </calcite-notice>
+    <script>
+      function createLists() {
+        const listCfgs = [
+          {
+            title: 'Posts',
+            discussion: 'hub://content/58de591989fa47989c03ecada1dcb061',
+            parentIds: []
+          },
+          {
+            title: 'Replies',
+            discussion: 'hub://content/58de591989fa47989c03ecada1dcb061',
+            parentIds: [ '74ed426e-f3c4-4d18-a9d3-e4d340667d29' ]
+          },
+        ];
+        let container = document.querySelector('.lists');
+        if (!container) {
+          container = document.createElement('div');
+          container.className = 'lists';
+          listCfgs.forEach(({ title, discussion, parentIds }) => {
+            const threadDiv = document.createElement('div');
+            threadDiv.className = 'list';
+            const header = document.createElement('h5');
+            header.innerText = title;
+            const arcgisPostList = document.createElement('arcgis-hub-discussions-post-list');
+            Object.assign(arcgisPostList, {
+              discussion,
+              parentIds,
+              isHub: false,
+            });
+            threadDiv.appendChild(header);
+            threadDiv.appendChild(arcgisPostList);
+            container.appendChild(threadDiv);
+          });
+          document.body.appendChild(container);
+          document.body.addEventListener('hubTelemetry', function (evt) {
+            console.log('hubTelemetry:', evt.detail);
+          });
+        }
+      }
+
+      createLists();
+    </script>
+  </body>
+</html>

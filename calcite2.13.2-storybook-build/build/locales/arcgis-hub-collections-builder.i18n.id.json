@@ -1,0 +1,15 @@
+{
+  "newCollection": "Koleksi baru",
+  "block": {
+    "heading": {
+      "untitled": "Koleksi tidak berjudul"
+    },
+    "actions": {
+      "delete": "Hapus koleksi: {label}"
+    }
+  },
+  "name": {
+    "label": "Nama",
+    "requiredError": "Nama koleksi wajib diisi"
+  }
+}

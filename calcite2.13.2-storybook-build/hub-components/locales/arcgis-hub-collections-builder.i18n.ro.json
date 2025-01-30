@@ -1,0 +1,15 @@
+{
+  "newCollection": "Colecție nouă",
+  "block": {
+    "heading": {
+      "untitled": "Colecție neintitulată"
+    },
+    "actions": {
+      "delete": "Ștergeți colecția: {label}"
+    }
+  },
+  "name": {
+    "label": "Nume",
+    "requiredError": "Numele colecției este obligatoriu"
+  }
+}

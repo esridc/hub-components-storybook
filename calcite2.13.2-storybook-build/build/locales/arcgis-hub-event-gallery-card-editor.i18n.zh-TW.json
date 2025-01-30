@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "類別",
+        "noCategoriesNotice": {
+          "body": "此組織還沒有任何類別。",
+          "link": "設定類別"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "內容",
+      "selectionMode": {
+        "dynamic": {
+          "label": "動態"
+        },
+        "manual": {
+          "label": "手動"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "組織"
+        },
+        "collection": {
+          "sites": "網站",
+          "projects": "專案",
+          "initiatives": "新措施"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "組織"
+        },
+        "collection": {
+          "events": "事件"
+        }
+      },
+      "access": {
+        "label": "正在分享",
+        "private": {
+          "label": "私有",
+          "description": "按僅對您和有群組存取權的人員可用的內容進行篩選。"
+        },
+        "org": {
+          "label": "組織",
+          "description": "按僅適用於組織成員的內容進行篩選。"
+        },
+        "public": {
+          "label": "公共",
+          "description": "按每個人都可以使用的內容進行篩選。"
+        }
+      },
+      "tags": {
+        "label": "標記"
+      },
+      "cardsShown": {
+        "label": "顯示的卡片"
+      }
+    },
+    "appearance": {
+      "label": "外觀",
+      "titleHeading": {
+        "label": "標題",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "依據 WCAG G141 巢狀式標題提高存取能力。"
+      },
+      "corners": {
+        "label": "拐角",
+        "square": {
+          "label": "正方形的"
+        },
+        "round": {
+          "label": "圓角的"
+        }
+      },
+      "shadow": {
+        "label": "陰影",
+        "none": {
+          "label": "已關閉"
+        },
+        "low": {
+          "label": "低"
+        },
+        "medium": {
+          "label": "中"
+        },
+        "heavy": {
+          "label": "重"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "顯示其他資訊"
+      },
+      "layout": {
+        "label": "版面配置",
+        "list": {
+          "label": "列表"
+        },
+        "map": {
+          "label": "地圖"
+        },
+        "calendar": {
+          "label": "行事曆"
+        }
+      }
+    },
+    "options": {
+      "label": "選項",
+      "openIn": {
+        "label": "開啟位置...",
+        "same": {
+          "label": "相同頁籤"
+        },
+        "new": {
+          "label": "新頁籤"
+        },
+        "notice": {
+          "title": "存取能力提示:",
+          "body": "依據 WCAG 2.0 G200 技術，不建議在新頁籤或視窗中開啟連結。",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "閱讀 WCAG 2.0 G200 的更多資訊"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "正在分享",
+      "public": {
+        "label": "公共"
+      },
+      "private": {
+        "label": "私有"
+      },
+      "organization": {
+        "label": "組織"
+      }
+    },
+    "from": {
+      "label": "從",
+      "myOrganization": {
+        "label": "我的組織"
+      },
+      "myContent": {
+        "label": "我的內容"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "事件",
+      "collections": {
+        "event": {
+          "label": "事件"
+        }
+      }
+    },
+    "item": {
+      "label": "內容",
+      "collections": {
+        "item": {
+          "label": "內容"
+        }
+      }
+    }
+  }
+}

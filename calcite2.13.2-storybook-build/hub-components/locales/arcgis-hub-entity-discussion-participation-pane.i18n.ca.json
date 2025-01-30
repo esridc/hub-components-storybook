@@ -1,0 +1,82 @@
+{
+  "title": "Participació",
+  "subtitle": "Establiu la visibilitat del tauler (qui el pot visualitzar), desplaceu-vos cap avall per establir qui en pot editar la informació i, tot seguit, definiu la participació i la moderació amb canals.",
+  "channelTitle": "S'ha definit el canal de participació",
+  "channelDescription": "Aquest canal controla qui pot afegir, veure i moderar publicacions en aquest tauler de debat.",
+  "addChannelsTitle": "Defineix el canal",
+  "addChannelsDescription": "Els canals controlen qui pot afegir publicacions al tauler. Poden estar oberts a grups, a una organització o públicament, i es poden aplicar a molts debats. Els canals també controlen qui pot moderar. Definiu paraules bloquejades per a la moderació automàtica d'un canal.",
+  "privateChannelTitle": "S'ha definit el canal privat",
+  "privateChannelDescription": "No podeu veure el canal privat assignat a aquest tauler de debat. Podeu eliminar el canal i seleccionar-ne un d'existent o crear-ne un.",
+  "removeChannelConfirmationMessage": "Ja no es mostraran publicacions en aquest tauler de debat. Podeu afegir un canal si s'elimina aquest.",
+  "headingChannelEdit": "Esteu editant un canal",
+  "headingChannelView": "Esteu visualitzant un canal",
+  "headingChannelCreate": "Esteu creant un canal",
+  "buttons": {
+    "browse": "Cerca canals",
+    "new": "Canal nou",
+    "removeChannel": "Elimina el canal",
+    "cancel": "Cancel·la"
+  },
+  "alerts": {
+    "label": "Alerta del formulari",
+    "set": {
+      "title": "S'ha completat correctament. S'ha definit el canal."
+    },
+    "removed": {
+      "title": "S'ha eliminat el canal",
+      "message": "Trieu o creeu un canal de participació."
+    },
+    "error": {
+      "title": "S'ha produït un error. No s'ha definit el canal."
+    }
+  },
+  "galleryPickerTitle": "Selecciona un canal",
+  "channelsLabel": "Canals",
+  "accessLabel": "Accés",
+  "optionPublicLabel": "Públic",
+  "optionOrganizationLabel": "Organització",
+  "optionPrivateLabel": "Privat",
+  "viewChannel": "Mostra el canal",
+  "editChannel": "Edita el canal",
+  "save": "Desa",
+  "removeChannel": "Elimina el canal",
+  "groupPicker": {
+    "facet": {
+      "label": "Des de",
+      "myGroups": "Els meus grups",
+      "myOrganization": "La meva organització",
+      "myCommunity": "La meva comunitat"
+    }
+  },
+  "editGroupButtonText": "Afegeix grups d'edició",
+  "viewGroupButtonText": "Afegeix grups de visualització",
+  "viewGroups": {
+    "header": "Qui el pot visualitzar",
+    "description": "Les persones que poden visualitzar el tauler (però no publicar-hi); la publicació es defineix per canals tot seguit."
+  },
+  "editGroups": {
+    "header": "Qui ho pot editar",
+    "description": "Els membres del grup poden editar la informació del tauler a l'espai de treball."
+  },
+  "aboutChannelsNotice": {
+    "title": "Introducció als canals",
+    "message": "Els canals no són grups, però en poden contenir. Determinen qui pot publicar i moderar.",
+    "action": "Més informació sobre els canals"
+  },
+  "nonPrivateChannelNotice": {
+    "title": "No pot editar el canal",
+    "message": "Només poden editar aquest canal els seus moderadors. Poseu-vos en contacte amb el propietari del canal o amb l'administrador de l'organització per afegir-lo, si cal. També podeu eliminar aquest canal, afegir-ne un d'existent (del qual en sigueu moderador) o crear-ne un de nou."
+  },
+  "privateChannelNotice": {
+    "title": "No pot editar el canal",
+    "message": "Només poden editar aquest canal els seus moderadors. Poseu-vos en contacte amb el propietari del canal per afegir-lo, si cal. També podeu eliminar aquest canal, afegir-ne un d'existent (del qual en sigueu moderador) o crear-ne un de nou."
+  },
+  "participate": {
+    "header": "Qui pot participar i qui pot moderar"
+  },
+  "org": "Organització",
+  "private": "Privat",
+  "public": "Públic",
+  "unnamed": "Canal sense nom",
+  "groupNotFound": "No s'ha trobat el grup"
+}

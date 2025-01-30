@@ -1,0 +1,29 @@
+{
+  "header": "Renginiai",
+  "myContent": "Mano įvykiai",
+  "editableContent": "Redaguojamas turinys",
+  "addEventButtonText": "Kurti renginį",
+  "type": "Tipas",
+  "sharedUpdate": "Bendrinamų naujinimų grupė",
+  "viewOnly": "Tik peržiūros grupė",
+  "owner": "Sukurta",
+  "starts": "Įjungta",
+  "from": "Nuo",
+  "until": "Iki",
+  "updated": "Atnaujinta",
+  "tags": "Žymos",
+  "dateCreated": "Sukurta",
+  "dateUpdated": "Pakeistas",
+  "actionLinks": {
+    "view": "Peržiūra",
+    "edit": "Redaguoti",
+    "ariaEdit": "Redaguoti: {title}",
+    "ariaView": "Peržiūrėti: {title}"
+  },
+  "access": {
+    "label": "Prieiga",
+    "PRIVATE": "Privati",
+    "ORG": "Organizacija",
+    "PUBLIC": "Vieša"
+  }
+}

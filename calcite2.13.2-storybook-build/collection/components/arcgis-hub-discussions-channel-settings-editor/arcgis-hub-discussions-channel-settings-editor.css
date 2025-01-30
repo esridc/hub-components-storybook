@@ -1,0 +1,58 @@
+:host {
+  display: block;
+}
+
+calcite-modal {
+  z-index: 1030;
+}
+
+section {
+  display: grid;
+  gap: 1rem;
+}
+
+calcite-notice {
+  display: none;
+}
+
+calcite-notice[active] {
+  display: block;
+}
+
+calcite-stepper-item calcite-notice {
+  margin-top: 1rem;
+}
+
+address {
+  display: flex;
+  gap: 1rem;
+}
+
+address div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.125rem;
+}
+
+address b {
+  font-size: var(--calcite-font-size-0);
+  line-height: 1.25rem;
+  font-weight: var(--calcite-font-weight-bold);
+  font-style: normal;
+  color: var(--calcite-color-text-1);
+}
+
+address span {
+  font-size: var(--calcite-font-size--1);
+  line-height: 1rem;
+  font-style: normal;
+  color: var(--calcite-color-text-2);
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,72 @@
+{
+  "addContent": "添加内容",
+  "addContentType": {
+    "event": "创建活动",
+    "discussion": "创建讨论",
+    "group": "创建群组",
+    "initiative": "创建倡议",
+    "project": "创建工程",
+    "page": "创建页面",
+    "site:": "创建站点"
+  },
+  "tooltip": {
+    "label": "已禁用",
+    "noCatalog": "将群组添加到目录，并添加内容。",
+    "noPermission": "您没有向目录添加内容的权限。",
+    "no-permission": "您没有向目录添加内容的权限。",
+    "not-in-groups": "您不是定义该目录的任何群组的成员。",
+    "too-many-groups": "您拥有的群组已达到最大数量，无法创建更多群组。"
+  },
+  "existing": {
+    "description": "添加 {onlineOrEnterprise} 中已有的内容",
+    "modalTitle": "选择现有内容",
+    "title": "选择现有内容"
+  },
+  "create": {
+    "app": {
+      "description": "创建体验、讲述故事或可视化数据",
+      "modalTitle": "创建应用程序",
+      "title": "应用程序"
+    },
+    "event": {
+      "description": "举办现场或虚拟形式的组织活动",
+      "modalTitle": "创建活动",
+      "title": "活动"
+    },
+    "content": {
+      "description": "将数据、文档、图像和外部链接添加到站点",
+      "modalTitle": "创建内容",
+      "title": "内容"
+    },
+    "discussion": {
+      "description": "收集想法和反馈",
+      "modalTitle": "创建讨论板",
+      "title": "讨论板"
+    },
+    "group": {
+      "description": "组织人们进行内容共享和讨论",
+      "modalTitle": "创建群组",
+      "title": "群组"
+    },
+    "initiative": {
+      "description": "突出战略工作以及组织工程的明确目标",
+      "modalTitle": "创建倡议",
+      "title": "倡议"
+    },
+    "page": {
+      "description": "以结构化布局呈现信息",
+      "modalTitle": "创建页面",
+      "title": "页面"
+    },
+    "project": {
+      "description": "展示具有明确目标和时间表的工作",
+      "modalTitle": "创建工程",
+      "title": "工程"
+    },
+    "site": {
+      "description": "创建品牌网站以与社区进行互动",
+      "modalTitle": "创建站点",
+      "title": "站点"
+    }
+  }
+}

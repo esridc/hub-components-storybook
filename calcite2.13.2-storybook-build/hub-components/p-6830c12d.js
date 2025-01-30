@@ -1,0 +1,1 @@
+function t(t){let a=t;return t.match(/(qaext|\.mapsqa)\.arcgis.com/)?a="https://qaext.arcgis.com":t.match(/(devext|\.mapsdevext)\.arcgis.com/)?a="https://devext.arcgis.com":t.match(/(www|\.maps)\.arcgis.com/)&&(a="https://www.arcgis.com"),a}export{t as g}

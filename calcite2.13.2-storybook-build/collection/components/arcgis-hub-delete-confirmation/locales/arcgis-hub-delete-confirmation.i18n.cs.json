@@ -1,0 +1,50 @@
+{
+  "section": "Smazat",
+  "protection": "Chraňte tuto položku {type} před nechtěným odstraněním.",
+  "protectionTooltip": "Plovoucí popisek k ochraně",
+  "protectionDisabledTooltip": "Ochranu mohou měnit pouze vlastníci nebo správci organizace.",
+  "deleteDisabledNoAccessTooltip": "Mazat mohou pouze vlastníci nebo administrátoři organizace.",
+  "deleteDisabledNoAccessTooltipGroup": "Odstraňovat mohou pouze vlastníci, správci nebo administrátoři organizace.",
+  "deleteDisabledProtectedTooltip": "Odstranění není možné, protože je zapnuta ochrana proti odstranění.",
+  "deleteButton": "Smazat",
+  "protect": {
+    "successTitle": "Ochrana proti odstranění přidána",
+    "success": "Odstranění není možné, protože je zapnuta ochrana proti odstranění.",
+    "successLabel": "Výstraha o přidání ochrany proti odstranění",
+    "errorTitle": "Nelze přidat ochranu proti odstranění",
+    "error": "Při přidávání ochrany proti odstranění došlo k chybě.",
+    "errorLabel": "Výstraha o neúspěšném přidání ochrany proti odstranění"
+  },
+  "unprotect": {
+    "successTitle": "Ochrana proti odstranění odebrána",
+    "success": "Odstranění je možné, když je vypnuta ochrana proti odstranění.",
+    "successLabel": "Výstraha o odebrání ochrany proti odstranění",
+    "errorTitle": "Nelze odebrat ochranu proti odstranění",
+    "error": "Při odebírání ochrany proti odstranění došlo k chybě.",
+    "errorLabel": "Výstraha o neúspěšném odebrání ochrany proti odstranění"
+  },
+  "delete": {
+    "successTitle": "Odstranění bylo úspěšné",
+    "success": "Přesměrování na vaši domácí pracovní oblast",
+    "successLabel": "Výstraha o úspěšném odstranění",
+    "errorTitle": "Odstranění se nezdařilo",
+    "error": "Něco se pokazilo, zkuste to znovu.",
+    "errorLabel": "Výstraha o neúspěšném odstranění"
+  },
+  "permanentDelete": {
+    "successTitle": "Trvalé odstranění bylo úspěšné",
+    "success": "Přesměrování na vaši domácí pracovní oblast",
+    "successLabel": "Výstraha o úspěšném odstranění",
+    "errorTitle": "Odstranění se nezdařilo",
+    "error": "Něco se pokazilo, zkuste to znovu.",
+    "errorLabel": "Výstraha o neúspěšném odstranění"
+  },
+  "deleteModal": {
+    "header": "Smazat",
+    "deleteContent": "Trvalé odstranění nelze vrátit zpět. Určitě chcete pokračovat?",
+    "recycleContent": "Odstraněný obsah bude odeslán do koše. Obnovení je možné do 14 dnů.",
+    "delete": "Smazat",
+    "permanentlyDelete": "Trvalé odstranění",
+    "cancel": "Storno"
+  }
+}

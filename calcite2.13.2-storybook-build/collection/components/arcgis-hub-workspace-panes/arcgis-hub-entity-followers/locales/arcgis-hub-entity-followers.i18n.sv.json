@@ -1,0 +1,66 @@
+{
+  "followers": "Följare",
+  "tabs": {
+    "followers": "Följare",
+    "settings": "Inställningar"
+  },
+  "addFollowers": {
+    "label": "Lägg till följare"
+  },
+  "emptyState": {
+    "message": "Webbplatsen har ingen följargrupp",
+    "action": "Skapa följargrupp"
+  },
+  "createFollowersGroup": {
+    "formDescription": "Sätt ihop en grupp för att underlätta innehållsdelning och kommunikation",
+    "defaultSummary": "Den här följargruppen tillåter medlemmar att dela innehåll och kommunicera med varandra på ett enklare sätt"
+  },
+  "restrictedAccessState": {
+    "message": "Du har inte åtkomst till att visa följargruppen.",
+    "action": "Begär åtkomst"
+  },
+  "stats": {
+    "total": {
+      "title": "Summa",
+      "trailingText": "Följare"
+    },
+    "new": {
+      "title": "Ny",
+      "trailingText": "Senaste 30 dagarna"
+    }
+  },
+  "addMembers": {
+    "button": "Lägg till medlemmar",
+    "modal": {
+      "title": "Lägg till medlemmar",
+      "org": "Min organisation",
+      "community": "Min community",
+      "partner": "Mina partners",
+      "world": "Världen"
+    },
+    "notifications": {
+      "invited": "Inbjudan har skickats. Användare måste acceptera att gå med",
+      "added": "Användare har lagts till",
+      "notInvited": "Vissa medlemmar kanske inte har de behörigheter som krävs för att gå med i gruppen eller så har gruppen nått sin maximigräns (512)"
+    }
+  },
+  "removeUsers": {
+    "button": "Ta bort",
+    "success": "Medlemmar har tagits bort från {groupName}.",
+    "error": "En eller flera användare kunde inte tas bort från gruppen."
+  },
+  "changeRole": {
+    "button": "Ändra roll",
+    "member": "Medlem",
+    "memberHelperText": "Kan lägga till och se innehåll inom gruppen.",
+    "tooltipText": "Avmarkera dig själv och/eller gruppägaren",
+    "tooltipLabel": "Rollfriskrivning",
+    "admin": "Ledare",
+    "adminHelperText": "Kan lägga till/ta bort innehåll och bjuda in/ta bort personer (utom ägaren).",
+    "success": "Valda medlemmar blev grupp{role}.",
+    "error": "Rollen kunde inte ändras för en eller flera medlemmar."
+  },
+  "notice": {
+    "label": "Formulärvarning"
+  }
+}

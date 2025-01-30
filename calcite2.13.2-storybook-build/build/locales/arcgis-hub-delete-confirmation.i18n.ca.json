@@ -1,0 +1,50 @@
+{
+  "section": "Suprimeix",
+  "protection": "Eviteu la supressió accidental d'aquest element ({type}).",
+  "protectionTooltip": "Informació sobre eines de protecció",
+  "protectionDisabledTooltip": "Només els propietaris o els administradors de l'organització poden canviar la protecció.",
+  "deleteDisabledNoAccessTooltip": "Només els propietaris o els administradors de l'organització poden suprimir-ho.",
+  "deleteDisabledNoAccessTooltipGroup": "Només els propietaris, els gestors o els administradors de l'organització poden suprimir-ho.",
+  "deleteDisabledProtectedTooltip": "No podeu suprimir elements si la protecció contra supressió està habilitada.",
+  "deleteButton": "Suprimeix",
+  "protect": {
+    "successTitle": "S'ha afegit protecció contra supressió",
+    "success": "No podeu suprimir elements si la protecció contra supressió està habilitada.",
+    "successLabel": "Alerta d'afegiment de la protecció contra supressió.",
+    "errorTitle": "No es pot afegir protecció contra supressió",
+    "error": "S'ha produït un error en afegir la protecció contra supressió.",
+    "errorLabel": "Alerta d'error en la protecció contra supressió."
+  },
+  "unprotect": {
+    "successTitle": "S'ha eliminat la protecció contra supressió",
+    "success": "Podeu suprimir elements si la protecció contra supressió està inhabilitada.",
+    "successLabel": "Alerta d'eliminació de la protecció contra supressió.",
+    "errorTitle": "No es pot eliminar la protecció contra supressió",
+    "error": "S'ha produït un error en eliminar la protecció contra supressió.",
+    "errorLabel": "Alerta d'error en l'eliminació de la protecció contra supressió."
+  },
+  "delete": {
+    "successTitle": "S'ha suprimit correctament",
+    "success": "Se us està redirigint a l'espai de treball de l'inici",
+    "successLabel": "Alerta de supressió correcta.",
+    "errorTitle": "No s'ha pogut suprimir",
+    "error": "Hi ha hagut algun problema. Torneu-ho a provar.",
+    "errorLabel": "Alerta d'error de supressió."
+  },
+  "permanentDelete": {
+    "successTitle": "S'ha suprimit de manera permanent correctament",
+    "success": "Se us està redirigint a l'espai de treball de l'inici",
+    "successLabel": "Alerta de supressió correcta.",
+    "errorTitle": "No s'ha pogut suprimir",
+    "error": "Hi ha hagut algun problema. Torneu-ho a provar.",
+    "errorLabel": "Alerta d'error de supressió."
+  },
+  "deleteModal": {
+    "header": "Suprimeix",
+    "deleteContent": "No podeu desfer una supressió permanent. Segur que voleu continuar?",
+    "recycleContent": "El contingut suprimit s'enviarà a la paperera. Disposareu de 14 dies per recuperar-lo.",
+    "delete": "Suprimeix",
+    "permanentlyDelete": "Suprimeix definitivament",
+    "cancel": "Cancel·la"
+  }
+}

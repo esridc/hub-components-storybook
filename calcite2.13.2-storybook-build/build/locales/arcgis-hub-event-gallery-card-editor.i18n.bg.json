@@ -1,0 +1,188 @@
+{
+  "shared": {
+    "fields": {
+      "categories": {
+        "label": "Категории",
+        "noCategoriesNotice": {
+          "body": "Тази организация все още няма категории.",
+          "link": "Настройване на категории"
+        }
+      }
+    }
+  },
+  "fields": {
+    "content": {
+      "label": "Съдържание",
+      "selectionMode": {
+        "dynamic": {
+          "label": "Динамично"
+        },
+        "manual": {
+          "label": "Ръчно"
+        }
+      },
+      "entityIds": {
+        "catalog": {
+          "organization": "Организация"
+        },
+        "collection": {
+          "sites": "Сайтове",
+          "projects": "Проекти",
+          "initiatives": "Инициативи"
+        }
+      },
+      "eventIds": {
+        "catalog": {
+          "organization": "Организация"
+        },
+        "collection": {
+          "events": "Събития"
+        }
+      },
+      "access": {
+        "label": "Споделяне",
+        "private": {
+          "label": "Частни",
+          "description": "Филтрирайте според съдържанието само на налични за Вас и на тези, които имат групов достъп."
+        },
+        "org": {
+          "label": "Организация",
+          "description": "Филтрирайте според съдържанието само на наличните членове на Вашата организация."
+        },
+        "public": {
+          "label": "Публични",
+          "description": "Филтриране според съдържанието, достъпно за всички."
+        }
+      },
+      "tags": {
+        "label": "Тагове"
+      },
+      "cardsShown": {
+        "label": "Картите са показани"
+      }
+    },
+    "appearance": {
+      "label": "Външно представяне",
+      "titleHeading": {
+        "label": "Заглавие",
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        },
+        "tooltip": "Според WCAG G141 вградените заглавия подобряват достъпността."
+      },
+      "corners": {
+        "label": "Ъгли",
+        "square": {
+          "label": "Квадратен"
+        },
+        "round": {
+          "label": "Заоблен"
+        }
+      },
+      "shadow": {
+        "label": "Сянка",
+        "none": {
+          "label": "Изключено"
+        },
+        "low": {
+          "label": "Ниско"
+        },
+        "medium": {
+          "label": "Средно"
+        },
+        "heavy": {
+          "label": "Силно"
+        }
+      },
+      "showAdditionalInfo": {
+        "label": "Показване на допълнителна информация"
+      },
+      "layout": {
+        "label": "Оформление",
+        "list": {
+          "label": "Списък"
+        },
+        "map": {
+          "label": "Карта"
+        },
+        "calendar": {
+          "label": "Календар"
+        }
+      }
+    },
+    "options": {
+      "label": "Опции",
+      "openIn": {
+        "label": "Отваряне в...",
+        "same": {
+          "label": "Същия раздел"
+        },
+        "new": {
+          "label": "Нов раздел"
+        },
+        "notice": {
+          "title": "Съвет за достъпност:",
+          "body": "Съгласно техниката на WCAG 2.0 G200 отварянето на връзки в нови раздели или прозорци не се препоръчва.",
+          "link": "WCAG 2.0 G200",
+          "linkAriaLabel": "Прочетете повече за WCAG 2.0 G200"
+        }
+      }
+    }
+  },
+  "facets": {
+    "sharing": {
+      "label": "Споделяне",
+      "public": {
+        "label": "Публични"
+      },
+      "private": {
+        "label": "Частни"
+      },
+      "organization": {
+        "label": "Организация"
+      }
+    },
+    "from": {
+      "label": "От",
+      "myOrganization": {
+        "label": "Моята организация"
+      },
+      "myContent": {
+        "label": "Моето съдържание"
+      }
+    }
+  },
+  "catalogs": {
+    "event": {
+      "label": "Събития",
+      "collections": {
+        "event": {
+          "label": "Събития"
+        }
+      }
+    },
+    "item": {
+      "label": "Съдържание",
+      "collections": {
+        "item": {
+          "label": "Съдържание"
+        }
+      }
+    }
+  }
+}

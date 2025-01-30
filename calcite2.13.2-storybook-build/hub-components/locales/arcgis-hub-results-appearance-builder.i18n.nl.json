@@ -1,0 +1,118 @@
+{
+  "layout": {
+    "title": "Lay-out",
+    "helperText": "Hiermee configureert u hoe de resultaten eruit zullen zien wanneer bezoekers uw catalogus voor het eerst openen. Bezoekers houden de mogelijkheid de weergavemethode zelf te wijzigen.",
+    "enum": {
+      "list": {
+        "label": "Lijst",
+        "description": "Wordt gebruikt om metadata te presenteren en wanneer het waarschijnlijk is dat bezoekers gerichte zoekacties uit gaan voeren."
+      },
+      "grid": {
+        "label": "Raster",
+        "description": "Wordt gebruikt voor resultaten die hoogwaardige thumbnails hebben en wanneer het waarschijnlijk is dat bezoekers gaan bladeren."
+      },
+      "table": {
+        "label": "Tabel",
+        "description": "Wordt gebruikt om resultaten op gestructureerde wijze te presenteren, met soorteerbare kolommen; ideaal wanneer bezoekers mogelijk een groot aantal items en de bijbehorende attributen willen weergeven en vergelijken."
+      },
+      "map": {
+        "label": "Kaart",
+        "description": "Wordt gebruikt voor resultaten die aan fysieke locaties gebonden zijn en wanneer het waarschijnlijk is dat bezoekers gebieden gaan verkennen die voor hun van interesse zijn."
+      },
+      "compact": {
+        "label": "Compact",
+        "description": "Wordt gebruikt om het aantal zichtbare resultaten te maximaliseren in een kleinere ruimte, ideaal voor snel browsen of weergave op mobiele apparaten."
+      }
+    }
+  },
+  "cards": {
+    "title": "Cards",
+    "cardTitleTag": {
+      "label": "Kop",
+      "helperText": "Hiermee kunt u de structuur voor geneste koppen verbeteren voor een betere toegankelijkheid. De tekengrootte wordt hierdoor niet gewijzigd.",
+      "enum": {
+        "h1": {
+          "label": "H1"
+        },
+        "h2": {
+          "label": "H2"
+        },
+        "h3": {
+          "label": "H3"
+        },
+        "h4": {
+          "label": "H4"
+        },
+        "h5": {
+          "label": "H5"
+        },
+        "h6": {
+          "label": "H6"
+        }
+      }
+    },
+    "showThumbnail": {
+      "label": "Thumbnail weergeven",
+      "enum": {
+        "show": {
+          "label": "Altijd",
+          "description": "Thumbnailafbeeldingen worden altijd weergegeven op resultaatcards, ongeacht de lay-out van de resultaten."
+        },
+        "hide": {
+          "label": "Geen thumbnails weergeven",
+          "description": "Thumbnailafbeeldingen worden niet op resultaatcards weergegeven, ongeacht het type card. Gebruik deze optie als u thumbnails van slechte kwaliteit hebt of als u gebruikers ertoe in staat wilt stellen sneller door de resultaten te scannen op desktop en mobiel apparaat."
+        },
+        "grid": {
+          "label": "Alleen in raster",
+          "description": "Thumbnailafbeeldingen worden alleen weergegeven op rastercards. Lijstcards geven een extra kolom met metadata weer in plaats van een afbeelding."
+        }
+      }
+    },
+    "corners": {
+      "label": "Hoeken",
+      "enum": {
+        "square": {
+          "label": "Vierkant"
+        },
+        "round": {
+          "label": "Rond"
+        }
+      }
+    },
+    "shadow": {
+      "label": "Slagschaduw",
+      "enum": {
+        "heavy": {
+          "label": "Zwaar"
+        },
+        "low": {
+          "label": "Laag"
+        },
+        "medium": {
+          "label": "Gemiddeld"
+        },
+        "none": {
+          "label": "Geen"
+        }
+      }
+    },
+    "showLinkButton": {
+      "label": "Knoppen opnemen",
+      "helperText": "Als knoppen uitgeschakeld zijn, is alleen de titel van de card een link."
+    },
+    "linkButtonStyle": {
+      "label": "Stijl",
+      "enum": {
+        "outline-filled": {
+          "label": "Opgevuld"
+        },
+        "outline": {
+          "label": "Omtrek"
+        }
+      }
+    },
+    "linkButtonText": {
+      "label": "Tekst"
+    }
+  }
+}

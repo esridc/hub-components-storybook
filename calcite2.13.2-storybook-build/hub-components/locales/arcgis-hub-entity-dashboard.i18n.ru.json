@@ -1,0 +1,20 @@
+{
+  "dashboard": "Операционная панель",
+  "activityLogSection": {
+    "title": "Журнал активности",
+    "table": {
+      "downloadAction": "Загрузка",
+      "downloadAllAction": "Скачать все",
+      "downloadActionTooltip": "Скачать выбранные действия",
+      "caption": "Последние ошибки (таблица)",
+      "columnHeaders": {
+        "datetime": "Дата",
+        "layer": "Слой",
+        "message": "Сообщение"
+      },
+      "noRecentErrors": "Нет последних ошибок",
+      "expandText": "Показать больше",
+      "collapseText": "Показать меньше"
+    }
+  }
+}

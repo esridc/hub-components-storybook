@@ -1,0 +1,72 @@
+{
+  "addFirstAction": "Ajouter une première action",
+  "addSecondAction": "Ajouter une seconde action",
+  "addLink": "Ajouter un lien",
+  "addSection": "Ajouter une section",
+  "deleteNotice": {
+    "title": "Suppression impossible",
+    "message": "La section n’est pas vide. Déplacez tous les liens hors de la section avant de la supprimer."
+  },
+  "linkEditor": {
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "cancel": "Annuler",
+    "preview": "Lien d’aperçu",
+    "title": {
+      "button1": "Première action",
+      "button2": "Seconde action",
+      "block": "Lien de l’action"
+    },
+    "link": {
+      "source": {
+        "content": {
+          "label": "Lien vers du contenu existant"
+        },
+        "external": {
+          "label": "Lien vers une source externe"
+        }
+      },
+      "label": {
+        "label": "Étiquette",
+        "helperText": {
+          "button": "Ce texte apparaîtra sur le bouton.",
+          "block": "Cet élément apparaîtra sur le bloc en gras."
+        },
+        "requiredError": "L’étiquette est obligatoire."
+      },
+      "description": {
+        "label": "Description",
+        "helperText": "Il s’agit d’informations secondaires."
+      },
+      "href": {
+        "label": "Lien",
+        "requiredError": "Le lien est obligatoire.",
+        "formatError": "Le format de l’URL est incorrect."
+      },
+      "contentId": {
+        "label": "Lien vers le contenu",
+        "requiredError": "Le lien vers le contenu est obligatoire."
+      },
+      "section": {
+        "label": "Déplacer vers la section",
+        "placeholder": {
+          "noSections": "Aucune section n’a été configurée",
+          "notSet": "Ne figure pas dans la section"
+        }
+      }
+    }
+  },
+  "sectionEditor": {
+    "title": "Section",
+    "helperText": "Les sections peuvent être utilisées pour imbriquer des liens sous un élément de menu. Les sections n’agissent pas comme des liens.",
+    "section": {
+      "label": {
+        "label": "Étiquette",
+        "requiredError": "L’étiquette est obligatoire."
+      },
+      "description": {
+        "label": "Description"
+      }
+    }
+  }
+}

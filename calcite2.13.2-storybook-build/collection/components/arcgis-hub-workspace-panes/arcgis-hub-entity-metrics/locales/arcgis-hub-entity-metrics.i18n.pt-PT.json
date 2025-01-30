@@ -1,0 +1,75 @@
+{
+  "addMetric": "Adicionar métrica",
+  "title": "Métricas",
+  "featured": "Em destaque",
+  "metricDescription": "Um valor mensurável utilizado para acompanhar o progresso do projeto, com base em dados estáticos (por exemplo, históricos) ou dinâmicos (por exemplo, em tempo real).",
+  "metricCount": {
+    "label": "{currentCount}/{totalCountAllowed} métricas",
+    "tooltip": "Para adicionar métricas, elimine algumas do conjunto existente"
+  },
+  "visible": {
+    "title": "Visível",
+    "noMetrics": "Não existem métricas nesta secção."
+  },
+  "hidden": {
+    "title": "Oculto",
+    "description": "Estas métricas só são apresentadas a quem tem acesso a este workspace.",
+    "noMetrics": "Não existem métricas nesta secção."
+  },
+  "project": {
+    "featured": {
+      "description": "Pode ter 4 métricas em destaque. Estas são apresentadas na vista geral do seu projeto em tempo real."
+    },
+    "visible": {
+      "description": "As métricas visíveis são apresentadas no separador Métricas do seu projeto em tempo real."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "As métricas corresponderão ao nível de partilha do projeto. As métricas ocultas podem ainda estar disponíveis através de uma chamada à API.",
+        "metricsDockLink": "Saiba mais sobre a configuração de métricas"
+      }
+    }
+  },
+  "initiative": {
+    "featured": {
+      "description": "Pode ter 4 métricas em destaque. Estas são apresentadas na vista geral da sua iniciativa em tempo real."
+    },
+    "visible": {
+      "description": "As métricas visíveis são apresentadas no separador Métricas do seu projeto em tempo real."
+    },
+    "sideNotices": {
+      "metricLocation": {
+        "message": "As métricas corresponderão ao nível de partilha da iniciativa. As métricas ocultas podem ainda estar disponíveis através de uma chamada à API.",
+        "metricsDockLink": "Saiba mais sobre a configuração de métricas"
+      }
+    }
+  },
+  "metricNumber": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4"
+  },
+  "actions": {
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "featured": "Funcionalidade",
+    "removeFeatured": "Remover dos destaques",
+    "show": "Passar para visível",
+    "hide": "Passar para oculto"
+  },
+  "editor": {
+    "heading": "Nova métrica",
+    "description": "Por predefinição, as métricas serão ocultadas automaticamente para que os membros do seu workspace possam vê-las."
+  },
+  "deleteMetricModal": {
+    "heading": "Eliminar métrica",
+    "content": "Tem a certeza de que pretende eliminar:",
+    "cancel": "Cancelar",
+    "delete": "Eliminar"
+  },
+  "sidePanel": {
+    "definitions": "Definições",
+    "preview": "Pré-visualizar"
+  }
+}

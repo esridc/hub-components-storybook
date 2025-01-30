@@ -1,0 +1,41 @@
+{
+  "managePrivacyButton": "Halda privaatsust",
+  "consentNotice": {
+    "allTracking": "See sait koostati ArcGIS Hubi abil ning see kasutab jõudluse parandamiseks ja saidikasutuse analüüsimiseks anonüümset jälgimist vastavalt Esri privaatsusavaldusele. Täiendavad kolmanda osapoole jälgimissüsteemid võivad jälgida teie saidikasutust.",
+    "anonymousTracking": "See sait koostati ArcGIS Hubi abil ning see kasutab jõudluse parandamiseks ja saidikasutuse analüüsimiseks anonüümset jälgimist vastavalt Esri privaatsusavaldusele.",
+    "noTracking": "See sait koostati ArcGIS Hubi abil ja see kasutab ainult küpsiseid, mis on vajalikud rakenduse toimimiseks ning neid ei saa meie süsteemides välja lülitada.",
+    "thirdPartyTracking": "See sait koostati ArcGIS Hubi abil ja see kasutab ainult küpsiseid, mis on vajalikud rakenduse toimimiseks ning neid ei saa meie süsteemides välja lülitada. Täiendavad kolmanda osapoole jälgimissüsteemid võivad jälgida teie saidikasutust."
+  },
+  "consent": {
+    "esriPrivacyLink": "Esri privaatsuskeskus",
+    "customerConsentLink": "Lisateave"
+  },
+  "eueiNotice": {
+    "title": "{orgName}: liikmeid ei jälgita",
+    "message": "Esri kasutuskogemuse täiustamise (EUEI) programm on keelatud: {orgName}. Teie külastusega seotud tegevust ei jälgita; te ei saa vastu võtta anonüümset kasutusstatistikat ega kolmanda osapoole jälgimisandmeid.",
+    "link": "Teave (EUEI) programmi kohta"
+  },
+  "notice": {
+    "heading": "Privaatsusseaded",
+    "acceptAllButton": "Nõustu kõigi küpsiste kasutamisega",
+    "acceptNecessaryButton": "Nõustu ainult vajalike küpsiste kasutamisega",
+    "confirmButton": "Kinnita",
+    "reviewSettingsButton": "Vaadake seaded üle"
+  },
+  "settings": {
+    "heading": "Privaatsusseaded",
+    "confirmButton": "Kinnita"
+  },
+  "anonymous": {
+    "heading": "Anonüümne kasutusstatistika",
+    "helpText": "Need küpsised võimaldavad meil jälgida rakenduse jõudlust, näiteks liiklusallikaid, lehekülgede vaatamisi ja interaktsioone. Need aitavad meil teada saada, milline sisu on tõhus ja kuidas külastajad rakenduses liiguvad. Kogu kogutud teave on anonüümne (isikuandmeid ei salvestata). Kui te neid küpsiseid ei luba, ei saa me teada, et te meie rakendust külastasite või sellega suhtlesite."
+  },
+  "necessary": {
+    "heading": "Rangelt vajalikud küpsised",
+    "helpText": "Need küpsised on rakenduse toimimiseks vajalikud ja neid ei saa meie süsteemides välja lülitada. Need määratakse vastuseks teie poolt tehtud toimingutele, mis hõlmavad teenuste taotlemist, näiteks teie kontole sisselogimist. Saate seadistada oma brauseri nii, et see blokeerib need küpsised või hoiatab nende eest, kuid see võib mõjutada mõningaid rakenduse osi. Kogu kogutud teave on anonüümne (isikuandmeid ei salvestata)."
+  },
+  "thirdParty": {
+    "heading": "Kolmanda osapoole jälgimine",
+    "helpText": "Need küpsised võivad olla seatud kolmandast osapoolest jälgimisteenuse pakkujate poolt, mis on sellel saidil konfigureeritud. Nad võivad teie külastuse ajal koguda teie kohta sihtimis- või turundusteavet. Kogutud teavet võidakse kasutada väljaspool käesolevat rakendust. Kui te ei luba neid küpsiseid, ei saa seadistatud kolmandast osapoolest jälgimisteenuse pakkujad mingit teavet teie külastuse kohta."
+  }
+}

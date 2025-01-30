@@ -1,0 +1,24 @@
+:host {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 1rem
+}
+
+.fetch-inputs {
+
+    display: flex;
+
+    gap: 0.5rem
+}
+
+calcite-combobox {
+
+    width: 13rem
+}
+calcite-input {
+
+    flex-grow: 1
+}

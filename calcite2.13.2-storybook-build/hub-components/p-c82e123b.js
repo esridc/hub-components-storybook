@@ -1,0 +1,1 @@
+function t(t,e){if("object"!=typeof t||null===t)return;if("string"!=typeof e)return;const r=e.split(".");for(let e=0;e<r.length-1;e++){if(!t.hasOwnProperty(r[e]))return;t=t[r[e]]}delete t[r[r.length-1]]}export{t as d}

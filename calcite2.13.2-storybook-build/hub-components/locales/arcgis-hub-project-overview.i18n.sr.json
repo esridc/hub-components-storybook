@@ -1,0 +1,19 @@
+{
+  "overview": "Pregled",
+  "telemetry": {
+    "pageViews": "Pregledi stranica",
+    "last30days": "Proteklih 30 dana",
+    "lastUpdated": "Poslednje ažuriranje {hoursElapsed} sati ranije",
+    "checkTomorrow": "Proverite ponovo sutra"
+  },
+  "learnAbout": "Saznajte o Hub Projects",
+  "status": {
+    "notStarted": "Nije započeto",
+    "inProgress": "U toku",
+    "onHold": "Na čekanju",
+    "complete": "Završi"
+  },
+  "editDetails": "Izmeni detalje",
+  "noPurposeSet": "Nema postavljene svrhe",
+  "noLocationSet": "Nema podešene lokacije"
+}

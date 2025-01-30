@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Ni najdenih rezultatov."
+    },
+    "error": {
+      "message": "Žal je pri iskanju prišlo do napake."
+    }
+  },
+  "type": "Tip",
+  "tags": "Oznake",
+  "owner": "Lastnik",
+  "dateCreated": "Ustvarjeno",
+  "dateUpdated": "Spremenjeno",
+  "categories": "Kategorije",
+  "dateAndTime": "Datum in čas",
+  "allDay": "{date} (ves dan)",
+  "allDayRange": "{from} - {to} (ves dan)",
+  "location": "Lokacija",
+  "attendanceType": "Vrsta udeležbe",
+  "inPerson": "Osebno",
+  "online": "Spletno",
+  "hybrid": "Kombinirano"
+}

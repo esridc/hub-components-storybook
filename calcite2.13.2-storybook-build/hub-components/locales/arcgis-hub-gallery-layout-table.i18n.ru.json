@@ -1,0 +1,56 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Ничего не найдено."
+    },
+    "error": {
+      "message": "Сожалеем, но при поиске произошла ошибка."
+    }
+  },
+  "access": "Доступ",
+  "actionsHeader": "Действия",
+  "caption": "Таблица элемента Hub",
+  "family": "Семейство",
+  "type": "Тип",
+  "tags": "Теги",
+  "owner": "Владелец",
+  "dateCreated": "Создано",
+  "dateUpdated": "Изменено",
+  "description": "Описание",
+  "dateAndTime": "Дата и время",
+  "location": "Местоположение",
+  "attendanceType": "Тип посещения",
+  "inPerson": "Очно",
+  "online": "Онлайн",
+  "hybrid": "Гибрид",
+  "categories": "Категории",
+  "content": "Ресурсы",
+  "name": "Имя",
+  "start": "Начало",
+  "end": "Конец",
+  "sharedUpdate": "Общедоступное обновление",
+  "managers": "Менеджеры",
+  "username": "Имя пользователя",
+  "no": "Нет",
+  "yes": "Да",
+  "title": "Заголовок",
+  "thumbnail": "Образец",
+  "types": {
+    "app": "Приложение",
+    "content": "Ресурсы",
+    "dataset": "Набор данных",
+    "discussion": "Доска обсуждений",
+    "document": "Документ",
+    "event": "Событие",
+    "feedback": "Обратная связь",
+    "initiative": "Инициатива",
+    "image": "Изображение",
+    "map": "Карта",
+    "other": "Прочее",
+    "people": "Люди",
+    "site": "Сайт",
+    "team": "Группа",
+    "template": "Шаблон",
+    "project": "Проект"
+  }
+}

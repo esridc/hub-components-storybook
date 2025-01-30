@@ -1,0 +1,24 @@
+{
+  "helpState": {
+    "noResults": {
+      "message": "Nebyly nalezeny žádné výsledky."
+    },
+    "error": {
+      "message": "Omlouváme se, ale při vyhledávání došlo k chybě."
+    }
+  },
+  "type": "Typ",
+  "tags": "Klíčová slova",
+  "owner": "Vlastník",
+  "dateCreated": "Vytvořeno",
+  "dateUpdated": "Změněno",
+  "categories": "Kategorie",
+  "dateAndTime": "Datum a čas",
+  "allDay": "{date} (celý den)",
+  "allDayRange": "{from}–{to} (celý den)",
+  "location": "Umístění",
+  "attendanceType": "Typ účasti",
+  "inPerson": "Osobně",
+  "online": "Online",
+  "hybrid": "Hybridní"
+}
