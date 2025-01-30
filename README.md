@@ -3,7 +3,7 @@ A (hopefully) temporary storage location for the hub-components storybook build 
 
 | Link | Latest commit in Opendata-ui | Reason |
 |----------|----------|----------|
-| [Storybook](https://esridc.github.io/hub-components-storybook/calcite2.13.2-storybook-build/?path=/story/guides-overview--page) 📕  |  https://github.com/ArcGIS/opendata-ui/pull/14410  | Calcite v3 bump prevents Storybook from compiling correctly |
+| [Storybook](https://esridc.github.io/hub-components-storybook/calcite2.13.2-storybook-build/?path=/story/guides-overview--page)  |  [Opendata-ui PR](https://github.com/ArcGIS/opendata-ui/pull/14410)  | Calcite v3 bump prevents Storybook from compiling correctly |
 
 
 <details>
